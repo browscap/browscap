@@ -67,6 +67,15 @@
             "Device_Brand_Name": "LG",
             "Device_Name": "KU990i"
           }
+        },
+        {
+          "match": "ALCATEL-OT871A\/* ObigoInternetBrowser\/Q05A*",
+          "properties": {
+            "Device_Code_Name": "OT871A",
+            "Device_Maker": "Alcatel",
+            "Device_Brand_Name": "Alcatel",
+            "Device_Name": "One Touch 871A"
+          }
         }
       ]
     }

@@ -186,6 +186,13 @@
             "Browser": "TinEye Bot",
             "Browser_Maker": "Idee Inc."
           }
+        },
+        {
+          "match": "Elmer, the Thinglink ImageBot*",
+          "properties": {
+            "Browser": "Elmer",
+            "Browser_Maker": "ThingLink Oy"
+          }
         }
       ]
     }

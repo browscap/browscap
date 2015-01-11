@@ -3388,6 +3388,40 @@
             "Browser": "ltx71 Bot",
             "Browser_Maker": "ltx71.com"
           }
+        },
+        {
+          "match": "CookieReports.com\/0.1*",
+          "properties": {
+            "Browser": "Cookie Reports Bot",
+            "Browser_Maker": "Cookie Reports Limited",
+            "Version": "0.1",
+            "MajorVer": "0",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "CookieReports.com\/*",
+          "properties": {
+            "Browser": "Cookie Reports Bot",
+            "Browser_Maker": "Cookie Reports Limited"
+          }
+        },
+        {
+          "match": "Iframely\/0.7*",
+          "properties": {
+            "Browser": "Iframely Bot",
+            "Browser_Maker": "Itteco",
+            "Version": "0.7",
+            "MajorVer": "0",
+            "MinorVer": "7"
+          }
+        },
+        {
+          "match": "Iframely\/*",
+          "properties": {
+            "Browser": "Iframely Bot",
+            "Browser_Maker": "Itteco"
+          }
         }
       ]
     }
