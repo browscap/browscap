@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "60d61fe8b44beec62dc6f01c22d27943",
+    "hash": "16091c7bdbafc84aef84abd1a9f58ba2",
     "packages": [
         {
             "name": "monolog/monolog",
@@ -1190,27 +1190,25 @@
         },
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "1.5.6",
+            "version": "2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "6f3e42d311b882b25b4d409d23a289f4d3b803d5"
+                "reference": "d2a1d4c58fd2bb09ba376d0d19e67c0ab649e401"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/6f3e42d311b882b25b4d409d23a289f4d3b803d5",
-                "reference": "6f3e42d311b882b25b4d409d23a289f4d3b803d5",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/d2a1d4c58fd2bb09ba376d0d19e67c0ab649e401",
+                "reference": "d2a1d4c58fd2bb09ba376d0d19e67c0ab649e401",
                 "shasum": ""
             },
             "require": {
                 "ext-tokenizer": "*",
                 "php": ">=5.1.2"
             },
-            "suggest": {
-                "phpunit/php-timer": "dev-master"
-            },
             "bin": [
-                "scripts/phpcs"
+                "scripts/phpcs",
+                "scripts/phpcbf"
             ],
             "type": "library",
             "extra": {
@@ -1224,12 +1222,12 @@
                     "CodeSniffer/CLI.php",
                     "CodeSniffer/Exception.php",
                     "CodeSniffer/File.php",
+                    "CodeSniffer/Fixer.php",
                     "CodeSniffer/Report.php",
                     "CodeSniffer/Reporting.php",
                     "CodeSniffer/Sniff.php",
                     "CodeSniffer/Tokens.php",
                     "CodeSniffer/Reports/",
-                    "CodeSniffer/CommentParser/",
                     "CodeSniffer/Tokenizers/",
                     "CodeSniffer/DocGenerators/",
                     "CodeSniffer/Standards/AbstractPatternSniff.php",
@@ -1261,21 +1259,21 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2014-12-04 22:32:15"
+            "time": "2014-12-18 02:37:51"
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v2.6.1",
+            "version": "v2.6.3",
             "target-dir": "Symfony/Component/EventDispatcher",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/EventDispatcher.git",
-                "reference": "720fe9bca893df7ad1b4546649473b5afddf0216"
+                "reference": "40ff70cadea3785d83cac1c8309514b36113064e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/EventDispatcher/zipball/720fe9bca893df7ad1b4546649473b5afddf0216",
-                "reference": "720fe9bca893df7ad1b4546649473b5afddf0216",
+                "url": "https://api.github.com/repos/symfony/EventDispatcher/zipball/40ff70cadea3785d83cac1c8309514b36113064e",
+                "reference": "40ff70cadea3785d83cac1c8309514b36113064e",
                 "shasum": ""
             },
             "require": {
@@ -1283,10 +1281,10 @@
             },
             "require-dev": {
                 "psr/log": "~1.0",
-                "symfony/config": "~2.0",
+                "symfony/config": "~2.0,>=2.0.5",
                 "symfony/dependency-injection": "~2.6",
                 "symfony/expression-language": "~2.6",
-                "symfony/stopwatch": "~2.2"
+                "symfony/stopwatch": "~2.3"
             },
             "suggest": {
                 "symfony/dependency-injection": "",
@@ -1319,21 +1317,21 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "http://symfony.com",
-            "time": "2014-12-02 20:19:20"
+            "time": "2015-01-05 14:28:40"
         },
         {
             "name": "symfony/filesystem",
-            "version": "v2.6.1",
+            "version": "v2.6.3",
             "target-dir": "Symfony/Component/Filesystem",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Filesystem.git",
-                "reference": "ff6efc95256cb33031933729e68b01d720b5436b"
+                "reference": "a1f566d1f92e142fa1593f4555d6d89e3044a9b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Filesystem/zipball/ff6efc95256cb33031933729e68b01d720b5436b",
-                "reference": "ff6efc95256cb33031933729e68b01d720b5436b",
+                "url": "https://api.github.com/repos/symfony/Filesystem/zipball/a1f566d1f92e142fa1593f4555d6d89e3044a9b7",
+                "reference": "a1f566d1f92e142fa1593f4555d6d89e3044a9b7",
                 "shasum": ""
             },
             "require": {
@@ -1366,7 +1364,7 @@
             ],
             "description": "Symfony Filesystem Component",
             "homepage": "http://symfony.com",
-            "time": "2014-12-02 20:19:20"
+            "time": "2015-01-03 21:13:09"
         },
         {
             "name": "symfony/finder",
@@ -1417,17 +1415,17 @@
         },
         {
             "name": "symfony/process",
-            "version": "v2.6.1",
+            "version": "v2.6.3",
             "target-dir": "Symfony/Component/Process",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Process.git",
-                "reference": "bf0c9bd625f13b0b0bbe39919225cf145dfb935a"
+                "reference": "319794f611bd8bdefbac72beb3f05e847f8ebc92"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Process/zipball/bf0c9bd625f13b0b0bbe39919225cf145dfb935a",
-                "reference": "bf0c9bd625f13b0b0bbe39919225cf145dfb935a",
+                "url": "https://api.github.com/repos/symfony/Process/zipball/319794f611bd8bdefbac72beb3f05e847f8ebc92",
+                "reference": "319794f611bd8bdefbac72beb3f05e847f8ebc92",
                 "shasum": ""
             },
             "require": {
@@ -1460,21 +1458,21 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "http://symfony.com",
-            "time": "2014-12-02 20:19:20"
+            "time": "2015-01-06 22:47:52"
         },
         {
             "name": "symfony/stopwatch",
-            "version": "v2.6.1",
+            "version": "v2.6.3",
             "target-dir": "Symfony/Component/Stopwatch",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Stopwatch.git",
-                "reference": "261abd360cfb6ac65ea93ffd82073e2011d034fc"
+                "reference": "e8da5286132ba75ce4b4275fbf0f4cd369bfd71c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Stopwatch/zipball/261abd360cfb6ac65ea93ffd82073e2011d034fc",
-                "reference": "261abd360cfb6ac65ea93ffd82073e2011d034fc",
+                "url": "https://api.github.com/repos/symfony/Stopwatch/zipball/e8da5286132ba75ce4b4275fbf0f4cd369bfd71c",
+                "reference": "e8da5286132ba75ce4b4275fbf0f4cd369bfd71c",
                 "shasum": ""
             },
             "require": {
@@ -1507,7 +1505,7 @@
             ],
             "description": "Symfony Stopwatch Component",
             "homepage": "http://symfony.com",
-            "time": "2014-12-02 20:19:20"
+            "time": "2015-01-03 08:01:59"
         },
         {
             "name": "symfony/yaml",
