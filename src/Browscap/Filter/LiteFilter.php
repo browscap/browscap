@@ -56,7 +56,7 @@ class LiteFilter implements FilterInterface
      * checks if a property should be in the output
      *
      * @param string $property
-     * @param \Browscap\Writer\WriterInterface $writer
+     * @param \Browscap\Writer\WriterInterface|null $writer
      *
      * @return boolean
      */
@@ -68,10 +68,6 @@ class LiteFilter implements FilterInterface
             return false;
         }
 
-        if ($propertyHolder->isExtraProperty($property, $writer)) {
-            return false;
-        }
-
-        return true;
+        return $propertyHolder->isLiteModeProperty($property);
     }
 }

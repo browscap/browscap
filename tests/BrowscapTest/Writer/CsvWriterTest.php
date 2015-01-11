@@ -42,7 +42,7 @@ class CsvWriterTest extends \PHPUnit_Framework_TestCase
     private $root = null;
 
     /**
-     * @var \org\bovigo\vfs\vfsStreamDirectory
+     * @var string
      */
     private $file = null;
 
@@ -314,7 +314,13 @@ class CsvWriterTest extends \PHPUnit_Framework_TestCase
             ->will(self::returnValue($expectedAgents))
         ;
 
-        $mockCollection = $this->getMock('\Browscap\Data\DataCollection', array('getDefaultProperties'), array(), '', false);
+        $mockCollection = $this->getMock(
+            '\Browscap\Data\DataCollection',
+            array('getDefaultProperties'),
+            array(),
+            '',
+            false
+        );
         $mockCollection
             ->expects(self::once())
             ->method('getDefaultProperties')

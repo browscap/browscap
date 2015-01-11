@@ -17,8 +17,8 @@
 
 namespace Browscap\Writer;
 
-use Browscap\Data\Division;
 use Browscap\Data\DataCollection;
+use Browscap\Data\Division;
 
 /**
  * Class WriterCollection

@@ -32,7 +32,7 @@ class FullPhpWriterFactoryTest extends \PHPUnit_Framework_TestCase
     const STORAGE_DIR = 'storage';
 
     /**
-     * @var \Browscap\Writer\FullPhpWriterFactory
+     * @var \Browscap\Writer\Factory\FullPhpWriterFactory
      */
     private $object = null;
 

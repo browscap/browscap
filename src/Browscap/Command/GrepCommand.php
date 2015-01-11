@@ -22,12 +22,12 @@ use Browscap\Generator\GrepGenerator;
 use Browscap\Helper\CollectionCreator;
 use Browscap\Helper\LoggerHelper;
 use Browscap\Writer\Factory\FullPhpWriterFactory;
-use phpbrowscap\Browscap;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
+use phpbrowscap\Browscap;
 
 /**
  * Class GrepCommand
@@ -135,8 +135,9 @@ class GrepCommand extends Command
                 ->setLogger($this->logger)
                 ->setCollectionCreator(new CollectionCreator())
                 ->setWriterCollection($writerCollection)
-                ->run($input->getArgument('version'), false)
             ;
+
+            $buildGenerator->run($input->getArgument('version'), false);
         }
 
         $generator = new GrepGenerator();

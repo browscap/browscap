@@ -42,7 +42,7 @@ class IniWriterTest extends \PHPUnit_Framework_TestCase
     private $root = null;
 
     /**
-     * @var \org\bovigo\vfs\vfsStreamDirectory
+     * @var string
      */
     private $file = null;
 
@@ -488,7 +488,10 @@ class IniWriterTest extends \PHPUnit_Framework_TestCase
         self::assertSame($this->object, $this->object->setFilter($mockFilter));
 
         self::assertSame($this->object, $this->object->renderSectionBody($section, $mockCollection, $sections));
-        self::assertSame('Parent="DefaultProperties"' . PHP_EOL . 'Comment="1"' . PHP_EOL, file_get_contents($this->file));
+        self::assertSame(
+            'Parent="DefaultProperties"' . PHP_EOL . 'Comment="1"' . PHP_EOL,
+            file_get_contents($this->file)
+        );
     }
 
     public function testRenderSectionBodyIfSilent()

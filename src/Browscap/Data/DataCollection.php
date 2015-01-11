@@ -120,7 +120,12 @@ class DataCollection
      */
     public function addPlatformsFile($src)
     {
-        $json            = $this->loadFile($src);
+        $json = $this->loadFile($src);
+
+        if (!isset($json['platforms'])) {
+            throw new \UnexpectedValueException('required "platforms" structure is missing');
+        }
+
         $platformFactory = new Factory\PlatformFactory();
 
         foreach (array_keys($json['platforms']) as $platformName) {
@@ -152,7 +157,12 @@ class DataCollection
      */
     public function addEnginesFile($src)
     {
-        $json          = $this->loadFile($src);
+        $json = $this->loadFile($src);
+
+        if (!isset($json['engines'])) {
+            throw new \UnexpectedValueException('required "engines" structure is missing');
+        }
+
         $engineFactory = new Factory\EngineFactory();
 
         foreach (array_keys($json['engines']) as $engineName) {
@@ -229,6 +239,13 @@ class DataCollection
                     );
                 }
 
+                if ('DefaultProperties' !== $useragent['properties']['Parent']) {
+                    throw new \UnexpectedValueException(
+                        'the "Parent" property is not linked to the "DefaultProperties" for key "'
+                        . $useragent['userAgent'] . '"'
+                    );
+                }
+
                 if (!isset($useragent['properties']['Comment'])) {
                     throw new \UnexpectedValueException(
                         'the "Comment" property is missing for key "' . $useragent['userAgent'] . '"'
@@ -252,7 +269,7 @@ class DataCollection
                 if (isset($useragent['children']) && is_array($useragent['children'])) {
                     if (isset($useragent['children']['match'])) {
                         throw new \UnexpectedValueException(
-                            'the children property has to be an array of arrays for key "'
+                            'the children property shall not have the "match" entry for key "'
                             . $useragent['userAgent'] . '"'
                         );
                     }
@@ -466,8 +483,12 @@ class DataCollection
             }
 
             array_multisort(
-                $sortIndex, SORT_ASC, SORT_NUMERIC,
-                $sortPosition, SORT_DESC, SORT_NUMERIC, // if the sortIndex is identical the later added file comes first
+                $sortIndex,
+                SORT_ASC,
+                SORT_NUMERIC,
+                $sortPosition,
+                SORT_DESC,
+                SORT_NUMERIC, // if the sortIndex is identical the later added file comes first
                 $this->divisions
             );
 
@@ -550,8 +571,7 @@ class DataCollection
     {
         if (!array_key_exists($engine, $this->engines)) {
             throw new \OutOfBoundsException(
-                'Rendering Engine "' . $engine . '" does not exist in data, available engines: '
-                . serialize(array_keys($this->engines))
+                'Rendering Engine "' . $engine . '" does not exist in data'
             );
         }
 

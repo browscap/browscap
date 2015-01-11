@@ -17,8 +17,8 @@
 
 namespace Browscap\Command;
 
-use Browscap\Generator\DiffGenerator;
 use Browscap\Generator\BuildGenerator;
+use Browscap\Generator\DiffGenerator;
 use Browscap\Helper\CollectionCreator;
 use Browscap\Helper\LoggerHelper;
 use Browscap\Writer\Factory\FullPhpWriterFactory;
@@ -37,11 +37,6 @@ use Symfony\Component\Console\Output\OutputInterface;
  */
 class DiffCommand extends Command
 {
-    /**
-     * @var int Number of differences found in total
-     */
-    private $diffsFound = 0;
-
     /**
      * Configures the current command.
      */
@@ -77,8 +72,6 @@ class DiffCommand extends Command
      */
     protected function execute(InputInterface $input, OutputInterface $output)
     {
-        $this->diffsFound = 0;
-
         $leftFilename  = $input->getArgument('left');
         $rightFilename = $input->getArgument('right');
         $debug         = $input->getOption('debug');
@@ -108,8 +101,9 @@ class DiffCommand extends Command
                 ->setLogger($logger)
                 ->setCollectionCreator(new CollectionCreator())
                 ->setWriterCollection($writerCollection)
-                ->run($input->getArgument('version'), false)
             ;
+
+            $buildGenerator->run($input->getArgument('version'), false);
         }
 
         $generator = new DiffGenerator();

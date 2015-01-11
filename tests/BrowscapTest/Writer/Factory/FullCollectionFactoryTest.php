@@ -32,7 +32,7 @@ class FullCollectionFactoryTest extends \PHPUnit_Framework_TestCase
     const STORAGE_DIR = 'storage';
 
     /**
-     * @var \Browscap\Writer\FullCollectionFactory
+     * @var \Browscap\Writer\Factory\FullCollectionFactory
      */
     private $object = null;
 

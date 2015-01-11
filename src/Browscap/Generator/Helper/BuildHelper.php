@@ -44,9 +44,13 @@ class BuildHelper
      *
      * @throws \Exception
      */
-    public static function run($version, $resourceFolder, LoggerInterface $logger, WriterCollection $writerCollection,
-        CollectionCreator $collectionCreator)
-    {
+    public static function run(
+        $version,
+        $resourceFolder,
+        LoggerInterface $logger,
+        WriterCollection $writerCollection,
+        CollectionCreator $collectionCreator
+    ) {
         $logger->info('started creating a data collection');
 
         $dataCollection = new DataCollection($version);
@@ -126,10 +130,10 @@ class BuildHelper
             // versions
             $sections = $expander->expand($division, $division->getName());
 
+            $logger->info('checking division ' . $division->getName());
+
             foreach (array_keys($sections) as $sectionName) {
                 $section = $sections[$sectionName];
-
-                $logger->info('checking division ' . $division->getName());
 
                 $collection->checkProperty($sectionName, $section);
             }
