@@ -397,7 +397,6 @@ HERE;
     public function testAddSourceFileThrowsExceptionIfNoDivisionIsAvailable()
     {
         $this->object->addSourceFile(__DIR__ . '/../../fixtures/ua/ua-without-divisions.json');
-
     }
 
     /**
