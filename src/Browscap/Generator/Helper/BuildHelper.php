@@ -44,9 +44,13 @@ class BuildHelper
      *
      * @throws \Exception
      */
-    public static function run($version, $resourceFolder, LoggerInterface $logger, WriterCollection $writerCollection,
-        CollectionCreator $collectionCreator)
-    {
+    public static function run(
+        $version,
+        $resourceFolder,
+        LoggerInterface $logger,
+        WriterCollection $writerCollection,
+        CollectionCreator $collectionCreator
+    ) {
         $logger->info('started creating a data collection');
 
         $dataCollection = new DataCollection($version);
