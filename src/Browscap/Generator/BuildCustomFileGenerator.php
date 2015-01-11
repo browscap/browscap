@@ -71,8 +71,7 @@ class BuildCustomFileGenerator extends AbstractBuildGenerator
         $file = null,
         $fields = array(),
         $format = self::OUTPUT_FORMAT_PHP
-    )
-    {
+    ) {
         if (null === $this->writerCollection) {
             $factory = new Writer\Factory\CustomWriterFactory();
             $this->writerCollection = $factory->createCollection(
