@@ -3422,6 +3422,23 @@
             "Browser": "Iframely Bot",
             "Browser_Maker": "Itteco"
           }
+        },
+        {
+          "match": "MetaInspector\/3.0*",
+          "properties": {
+            "Browser": "MetaInspector",
+            "Browser_Maker": "Jaime Iniesta",
+            "Version": "3.0",
+            "MajorVer": "3",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "MetaInspector\/*",
+          "properties": {
+            "Browser": "MetaInspector",
+            "Browser_Maker": "Jaime Iniesta"
+          }
         }
       ]
     }

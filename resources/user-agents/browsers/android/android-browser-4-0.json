@@ -210,7 +210,7 @@
           ]
         },
         {
-          "match": "MT6515M* #PLATFORM# Release\/* Browser\/AppleWebKit* (KHTML, like Gecko) Mozilla\/5.0 Mobile",
+          "match": "MT6515M#PLATFORM# Release* Browser?AppleWebkit* (KHTML, like Gecko) Mozilla\/5.0 Mobile",
           "properties": {
             "Device_Name": "MT6515M"
           },
@@ -2510,7 +2510,7 @@
           ]
         },
         {
-          "match": "Lenovo-A288t#PLATFORM# Release\/* Browser\/AppleWebkit*",
+          "match": "Lenovo-A288t#PLATFORM# Release* Browser?AppleWebkit*",
           "properties": {
             "Device_Code_Name": "A288t",
             "Device_Maker": "Lenovo",
@@ -2522,7 +2522,7 @@
           ]
         },
         {
-          "match": "Lenovo-A820#PLATFORM# Release\/* Browser\/AppleWebkit*",
+          "match": "Lenovo-A820#PLATFORM# Release* Browser?AppleWebkit*",
           "properties": {
             "Device_Code_Name": "A820",
             "Device_Maker": "Lenovo",
@@ -2534,7 +2534,7 @@
           ]
         },
         {
-          "match": "Lenovo-A850#PLATFORM# Release\/* Browser\/AppleWebkit*",
+          "match": "Lenovo-A850#PLATFORM# Release* Browser?AppleWebkit*",
           "properties": {
             "Device_Name": "A850",
             "Device_Maker": "Lenovo",
@@ -2546,7 +2546,7 @@
           ]
         },
         {
-          "match": "Lenovo A789#PLATFORM# Release\/* Browser\/AppleWebkit*",
+          "match": "Lenovo A789#PLATFORM# Release* Browser?AppleWebkit*",
           "properties": {
             "Device_Code_Name": "A789",
             "Device_Maker": "Lenovo",
@@ -2558,7 +2558,7 @@
           ]
         },
         {
-          "match": "MALATA I50* #PLATFORM# Release\/* Browser\/AppleWebkit*",
+          "match": "MALATA I50#PLATFORM# Release* Browser?AppleWebkit*",
           "properties": {
             "Device_Code_Name": "I50",
             "Device_Maker": "Malata",
@@ -7637,7 +7637,7 @@
           ]
         },
         {
-          "match": "OPPO_R813T\/* #PLATFORM# Release\/* Browser\/AppleWebkit*",
+          "match": "OPPO_R813T#PLATFORM# Release* Browser?AppleWebkit*",
           "properties": {
             "Device_Name": "R813T",
             "Device_Maker": "OPPO",
@@ -7649,7 +7649,7 @@
           ]
         },
         {
-          "match": "ultrafone 303#PLATFORM# Release\/* Browser\/AppleWebkit*",
+          "match": "ultrafone 303#PLATFORM# Release* Browser?AppleWebkit*",
           "properties": {
             "Device_Name": "303",
             "Device_Maker": "ultrafone",
@@ -7661,7 +7661,7 @@
           ]
         },
         {
-          "match": "Season\/V2#PLATFORM# Release\/* Browser\/AppleWebkit*",
+          "match": "Season\/V2#PLATFORM# Release* Browser?AppleWebkit*",
           "properties": {
             "Device_Pointing_Method": "touchscreen"
           },
@@ -7670,7 +7670,7 @@
           ]
         },
         {
-          "match": "I9300#PLATFORM# Release\/* Browser\/AppleWebkit*",
+          "match": "I9300#PLATFORM# Release* Browser?AppleWebkit*",
           "properties": {
             "JavaApplets": "false",
             "Device_Code_Name": "GT-I9300",
@@ -7683,7 +7683,7 @@
           ]
         },
         {
-          "match": "AT-AS40SE#PLATFORM# Release\/* Browser\/AppleWebkit*",
+          "match": "AT-AS40SE#PLATFORM# Release* Browser?AppleWebkit*",
           "properties": {
             "Device_Name": "AT-AS40SE",
             "Device_Maker": "Wolgang",
@@ -7695,7 +7695,7 @@
           ]
         },
         {
-          "match": "MT6572_TD\/V1#PLATFORM# Release\/* Browser\/AppleWebkit*",
+          "match": "MT6572_TD\/V1#PLATFORM# Release* Browser?AppleWebkit*",
           "properties": {
             "Device_Name": "GT 95 3G",
             "Device_Maker": "Cubot",

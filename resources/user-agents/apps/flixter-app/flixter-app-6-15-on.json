@@ -17,7 +17,10 @@
         "Tables": "true",
         "Crawler": "false",
         "Comment": "Flixster App #MAJORVER#.#MINORVER#",
-        "Browser": "Flixster App"
+        "Browser": "Flixster App",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#"
       },
       "children": [
         {
