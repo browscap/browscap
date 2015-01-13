@@ -8985,6 +8985,19 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#A5000 Build\/*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "properties": {
+            "Device_Code_Name": "A5000",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Name": "Alpha a5000",
+            "Device_Type": "Digital Camera"
+          },
+          "platforms": [
+            "Android"
+          ]
+        },
+        {
           "match": "Lenovo A390*Mozilla\/5.0 (#PLATFORM#Lenovo A390*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "properties": {
             "Device_Code_Name": "A390",

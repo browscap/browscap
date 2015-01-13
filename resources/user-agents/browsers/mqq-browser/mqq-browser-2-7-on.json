@@ -55,6 +55,19 @@
           ]
         },
         {
+          "match": "MQQBrowser\/#MAJORVER#.#MINORVER#*Mozilla\/5.0 (#PLATFORM#A5000 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/4.0 *Safari\/*",
+          "properties": {
+            "Device_Code_Name": "A5000",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Name": "Alpha a5000",
+            "Device_Type": "Digital Camera"
+          },
+          "platforms": [
+            "Android"
+          ]
+        },
+        {
           "match": "MQQBrowser\/#MAJORVER#.#MINORVER#*Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/4.0 *Safari\/*",
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1", "Android"
