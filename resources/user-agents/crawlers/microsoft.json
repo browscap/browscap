@@ -140,6 +140,21 @@
             "Browser": "IIS Site Analysis Web Crawler",
             "Browser_Maker": "www.iis.net"
           }
+        },
+        {
+          "match": "Microsoft-CryptoAPI\/6.1*",
+          "properties": {
+            "Browser": "Microsoft CryptoAPI",
+            "Version": "6.1",
+            "MajorVer": "6",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "Microsoft-CryptoAPI\/*",
+          "properties": {
+            "Browser": "Microsoft CryptoAPI"
+          }
         }
       ]
     }
