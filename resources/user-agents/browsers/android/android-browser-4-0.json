@@ -8991,7 +8991,8 @@
             "Device_Maker": "Sony",
             "Device_Brand_Name": "Sony",
             "Device_Name": "Alpha a5000",
-            "Device_Type": "Digital Camera"
+            "Device_Type": "Digital Camera",
+            "Device_Pointing_Method": "unknown"
           },
           "platforms": [
             "Android"
