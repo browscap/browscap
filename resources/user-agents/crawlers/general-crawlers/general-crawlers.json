@@ -3439,6 +3439,23 @@
             "Browser": "MetaInspector",
             "Browser_Maker": "Jaime Iniesta"
           }
+        },
+        {
+          "match": "Mozilla\/5.0 (Digg\/1.0*",
+          "properties": {
+            "Browser": "Digg Bot",
+            "Browser_Maker": "News.me Inc",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (Digg\/*",
+          "properties": {
+            "Browser": "Digg Bot",
+            "Browser_Maker": "News.me Inc"
+          }
         }
       ]
     }

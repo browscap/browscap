@@ -471,6 +471,9 @@
         },
         {
           "match": "Mozzila*"
+        },
+        {
+          "match": "Mozilla *"
         }
       ]
     }
