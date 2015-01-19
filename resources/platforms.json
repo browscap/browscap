@@ -2184,7 +2184,7 @@
         "Platform_Description": "FreeBSD",
         "Device_Type": "Desktop",
         "Device_Maker": "Various",
-        "Platform_Description": "OpenBSD",
+        "Platform_Description": "FreeBSD",
         "Device_Code_Name": "general Desktop",
         "Device_Name": "general Desktop",
         "Win16": "false",
