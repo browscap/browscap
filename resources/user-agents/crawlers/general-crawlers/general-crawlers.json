@@ -2087,6 +2087,31 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) SecondLife\/3.7* (Second Life *) Safari\/*",
+          "engine": "WebKit",
+          "properties": {
+            "Browser": "Second Live Client",
+            "Browser_Maker": "Linden Labs",
+            "Version": "3.7",
+            "MajorVer": "3",
+            "MinorVer": "7"
+          },
+          "platforms": [
+            "Windows"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) SecondLife\/* (Second Life *) Safari\/*",
+          "engine": "WebKit",
+          "properties": {
+            "Browser": "Second Live Client",
+            "Browser_Maker": "Linden Labs"
+          },
+          "platforms": [
+            "Windows"
+          ]
+        },
+        {
           "match": "Mozilla \/ reddit pic scraper v0.8*",
           "properties": {
             "Browser": "reddit pic scraper",
