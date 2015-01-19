@@ -3481,6 +3481,29 @@
             "Browser": "Digg Bot",
             "Browser_Maker": "News.me Inc"
           }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; CrawlRobot*",
+          "properties": {
+            "Browser": "CrawlRobot"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Owler\/0.4*",
+          "properties": {
+            "Browser": "Owler Bot",
+            "Browser_Maker": "Owler, Inc.",
+            "Version": "0.4",
+            "MajorVer": "0",
+            "MinorVer": "4"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Owler\/*",
+          "properties": {
+            "Browser": "Owler Bot",
+            "Browser_Maker": "Owler, Inc."
+          }
         }
       ]
     }

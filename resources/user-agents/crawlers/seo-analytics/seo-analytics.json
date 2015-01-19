@@ -252,6 +252,13 @@
             "Browser": "chlooe Bot",
             "Browser_Maker": "AsiaWS network"
           }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; AjaxSnapBot*",
+          "properties": {
+            "Browser": "AjaxSnapBot",
+            "Browser_Maker": "Tockify Ltd"
+          }
         }
       ]
     }

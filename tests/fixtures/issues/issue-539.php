@@ -1082,7 +1082,7 @@ return [
             'Device_Name' => 'general Desktop',
             'Device_Maker' => 'Various',
             'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'unknown',
+            'Device_Pointing_Method' => 'mouse',
             'Device_Code_Name' => 'general Desktop',
             'Device_Brand_Name' => 'unknown',
             'RenderingEngine_Name' => 'WebKit',
@@ -1126,10 +1126,10 @@ return [
     'issue-539-AS' => [
         'Mozilla/5.0 (compatible; AjaxSnapBot; +http://ajaxsnapshots.com/bot.html)',
         [
-            'Browser' => 'ltx71 Bot',
+            'Browser' => 'AjaxSnapBot',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
-            'Browser_Maker' => 'ltx71.com',
+            'Browser_Maker' => 'Tockify Ltd',
             'Version' => '0.0',
             'MajorVer' => '0',
             'MinorVer' => '0',
@@ -1159,10 +1159,10 @@ return [
     'issue-539-AT' => [
         'Mozilla/5.0 (compatible; CrawlRobot; +http://localhost/bot.php)',
         [
-            'Browser' => 'ltx71 Bot',
+            'Browser' => 'CrawlRobot',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
-            'Browser_Maker' => 'ltx71.com',
+            'Browser_Maker' => 'unknown',
             'Version' => '0.0',
             'MajorVer' => '0',
             'MinorVer' => '0',
@@ -1192,13 +1192,13 @@ return [
     'issue-539-AU' => [
         'Mozilla/5.0 (compatible; Owler/0.4; +; )',
         [
-            'Browser' => 'ltx71 Bot',
+            'Browser' => 'Owler Bot',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
-            'Browser_Maker' => 'ltx71.com',
-            'Version' => '0.0',
+            'Browser_Maker' => 'Owler, Inc.',
+            'Version' => '0.4',
             'MajorVer' => '0',
-            'MinorVer' => '0',
+            'MinorVer' => '4',
             'Platform' => 'unknown',
             'Platform_Version' => 'unknown',
             'Platform_Bits' => '0',
