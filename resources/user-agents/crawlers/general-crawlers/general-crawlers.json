@@ -3504,6 +3504,12 @@
             "Browser": "Owler Bot",
             "Browser_Maker": "Owler, Inc."
           }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; pub-crawler*",
+          "properties": {
+            "Browser": "pub-crawler"
+          }
         }
       ]
     }

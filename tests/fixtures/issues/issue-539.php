@@ -1225,10 +1225,10 @@ return [
     'issue-539-AV' => [
         'Mozilla/5.0 (compatible; Yahoo Link Preview; https://help.yahoo.com/kb/mail/yahoo-link-preview-SLN23615.html)',
         [
-            'Browser' => 'ltx71 Bot',
+            'Browser' => 'Yahoo Link Preview',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
-            'Browser_Maker' => 'ltx71.com',
+            'Browser_Maker' => 'Yahoo!',
             'Version' => '0.0',
             'MajorVer' => '0',
             'MinorVer' => '0',
@@ -1258,10 +1258,10 @@ return [
     'issue-539-AX' => [
         'Mozilla/5.0 (compatible; pub-crawler; +http://wiki.github.com/bixo/bixo/bixocrawler; bixo-dev@yahoogroups.com)',
         [
-            'Browser' => 'ltx71 Bot',
+            'Browser' => 'pub-crawler',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
-            'Browser_Maker' => 'ltx71.com',
+            'Browser_Maker' => 'unknown',
             'Version' => '0.0',
             'MajorVer' => '0',
             'MinorVer' => '0',
