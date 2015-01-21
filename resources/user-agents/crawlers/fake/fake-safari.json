@@ -27,6 +27,12 @@
         },
         {
           "match": "Intel Mac OS*"
+        },
+        {
+          "match": "Mozilla\/6.0 (iPad*"
+        },
+        {
+          "match": "Mozilla\/6.0 (iPhone*"
         }
       ]
     }
