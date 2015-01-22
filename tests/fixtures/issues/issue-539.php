@@ -1390,10 +1390,10 @@ return [
     'issue-539-BD' => [
         'Mozilla/5.0 CK={tiPpw0h4g7kIf1T8snFdwpPeIcraLTUImXjwPsV9F27k+ityupIdD4AzdYENl6wfnuyvIKM9PR/5QIO4s8bR9TktqUNKcfYcpCrtOqEXuc/SNsbkxUc3cw==} (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
         [
-            'Browser' => 'ltx71 Bot',
+            'Browser' => 'Fake IE',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
-            'Browser_Maker' => 'ltx71.com',
+            'Browser_Maker' => 'unknown',
             'Version' => '0.0',
             'MajorVer' => '0',
             'MinorVer' => '0',
