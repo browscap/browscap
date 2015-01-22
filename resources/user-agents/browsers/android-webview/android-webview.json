@@ -131,6 +131,18 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#Micromax A065 Build\/*)*AppleWebKit\/*(*KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "properties": {
+            "Device_Name": "Bolt A065",
+            "Device_Code_Name": "A065",
+            "Device_Brand_Name": "Micromax",
+            "Device_Maker": "Micromax"
+          },
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#ALCATEL ONE TOUCH 4030D Build\/*)*AppleWebKit\/*(*khtml,*LIKE Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "properties": {
             "Device_Name": "OT-4030D",

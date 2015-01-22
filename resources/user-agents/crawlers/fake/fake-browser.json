@@ -474,6 +474,9 @@
         },
         {
           "match": "Mozilla *"
+        },
+        {
+          "match": "Mozilla\/5.0(*"
         }
       ]
     }
