@@ -3510,6 +3510,44 @@
           "properties": {
             "Browser": "pub-crawler"
           }
+        },
+        {
+          "match": "Mozilla\/5.0+(compatible; RevIP.info site analyzer v4.00*",
+          "properties": {
+            "Browser": "Reverse IP Lookup",
+            "Browser_Maker": "binarymonkey.com",
+            "Version": "4.0",
+            "MajorVer": "4",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0+(compatible; RevIP.info site analyzer*",
+          "properties": {
+            "Browser": "Reverse IP Lookup",
+            "Browser_Maker": "binarymonkey.com"
+          }
+        },
+        {
+          "match": "SMRF URL Expander*",
+          "properties": {
+            "Browser": "SMRF URL Expander"
+          }
+        },
+        {
+          "match": "Superarama.com - BOT\/v.0.1*",
+          "properties": {
+            "Browser": "Superarama.com - BOT",
+            "Version": "0.1",
+            "MajorVer": "0",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "Superarama.com - BOT\/*",
+          "properties": {
+            "Browser": "Superarama.com - BOT"
+          }
         }
       ]
     }
