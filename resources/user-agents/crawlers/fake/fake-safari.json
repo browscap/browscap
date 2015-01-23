@@ -33,6 +33,9 @@
         },
         {
           "match": "Mozilla\/6.0 (iPhone*"
+        },
+        {
+          "match": "Mozilla\/5.0 (*like MacOS X) AppleWebKit\/* (KHTML, like Gecko) Version\/*Safari\/*"
         }
       ]
     }
