@@ -67,10 +67,22 @@
           ]
         },
         {
-          "match": "UCWEB\/*(Linux; U; Opera Mini\/*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*"
+          "match": "UCWEB\/*(Linux; U; Opera Mini\/*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Android"
+          ]
         },
         {
-          "match": "UCWEB\/*(Android; U; Opera Mini\/*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*"
+          "match": "UCWEB\/*(Android; U; Opera Mini\/*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Android"
+          ]
+        },
+        {
+          "match": "UCWEB\/*(Java*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "JAVA"
+          ]
         },
         {
           "match": "Mozilla\/5.0*(iPad#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",

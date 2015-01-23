@@ -41,10 +41,22 @@
           ]
         },
         {
-          "match": "UCWEB\/*(Linux; U; Opera Mini\/*) U2\/* UCBrowser\/*"
+          "match": "UCWEB\/*(Linux; U; Opera Mini\/*) U2\/* UCBrowser\/*",
+          "platforms": [
+            "Android"
+          ]
         },
         {
-          "match": "UCWEB\/*(Android; U; Opera Mini\/*) U2\/* UCBrowser\/*"
+          "match": "UCWEB\/*(Android; U; Opera Mini\/*) U2\/* UCBrowser\/*",
+          "platforms": [
+            "Android"
+          ]
+        },
+        {
+          "match": "UCWEB\/*(Java*) U2\/* UCBrowser\/*",
+          "platforms": [
+            "JAVA"
+          ]
         }
       ]
     }
