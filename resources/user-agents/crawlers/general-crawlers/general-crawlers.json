@@ -3548,6 +3548,45 @@
           "properties": {
             "Browser": "Superarama.com - BOT"
           }
+        },
+        {
+          "match": "WNMbot\/0.4*",
+          "properties": {
+            "Browser": "WNMbot",
+            "Version": "0.4",
+            "MajorVer": "0",
+            "MinorVer": "4"
+          }
+        },
+        {
+          "match": "WNMbot\/*",
+          "properties": {
+            "Browser": "WNMbot"
+          }
+        },
+        {
+          "match": "Website Explorer\/0.9*",
+          "properties": {
+            "Browser": "Website Explorer",
+            "Browser_Maker": "umechando.com",
+            "Version": "0.9",
+            "MajorVer": "0",
+            "MinorVer": "9"
+          }
+        },
+        {
+          "match": "Website Explorer\/*",
+          "properties": {
+            "Browser": "Website Explorer",
+            "Browser_Maker": "umechando.com"
+          }
+        },
+        {
+          "match": "city-map screenshot service*",
+          "properties": {
+            "Browser": "city-map screenshot service",
+            "Browser_Maker": "city-map Internetmarketing AG"
+          }
         }
       ]
     }

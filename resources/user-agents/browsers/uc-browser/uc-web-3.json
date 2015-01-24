@@ -114,6 +114,28 @@
           ]
         },
         {
+          "match": "UCWEB\/*(MIDP-2.0*C2305) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "C2305",
+            "Device_Name": "Xperia C HSPA+",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+          },
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "UCWEB\/*(MIDP-2.0*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
           "match": "Mozilla\/*(iPad; #PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
           "engine": "U3",
           "properties": {
