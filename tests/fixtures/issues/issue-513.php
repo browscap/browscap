@@ -2069,9 +2069,9 @@ return [
             'Device_Pointing_Method' => 'touchscreen',
             'Device_Code_Name' => 'GT-P3100',
             'Device_Brand_Name' => 'Samsung',
-            'RenderingEngine_Name' => 'WebKit',
+            'RenderingEngine_Name' => 'U2',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'Apple Inc',
+            'RenderingEngine_Maker' => 'UC Web',
         ],
     ],
     'issue-513-BX' => [
@@ -4196,9 +4196,9 @@ return [
             'Device_Pointing_Method' => 'touchscreen',
             'Device_Code_Name' => 'SGH-T669',
             'Device_Brand_Name' => 'Samsung',
-            'RenderingEngine_Name' => 'WebKit',
+            'RenderingEngine_Name' => 'U2',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'Apple Inc',
+            'RenderingEngine_Maker' => 'UC Web',
         ],
     ],
 ];

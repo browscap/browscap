@@ -892,9 +892,9 @@ return [
             'Device_Pointing_Method' => 'touchscreen',
             'Device_Code_Name' => 'GT-S5670',
             'Device_Brand_Name' => 'Samsung',
-            'RenderingEngine_Name' => 'WebKit',
+            'RenderingEngine_Name' => 'U2',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'Apple Inc',
+            'RenderingEngine_Maker' => 'UC Web',
         ],
     ],
     'issue-317-AG' => [

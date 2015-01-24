@@ -108,9 +108,9 @@ return [
             'Device_Pointing_Method' => 'touchscreen',
             'Device_Code_Name' => '5130c-2',
             'Device_Brand_Name' => 'Nokia',
-            'RenderingEngine_Name' => 'unknown',
+            'RenderingEngine_Name' => 'U2',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'UC Web',
         ],
     ],
 ];

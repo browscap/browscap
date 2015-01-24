@@ -24,9 +24,9 @@ return [
             'Device_Pointing_Method' => 'touchscreen',
             'Device_Code_Name' => 'general Mobile Device',
             'Device_Brand_Name' => 'unknown',
-            'RenderingEngine_Name' => 'unknown',
+            'RenderingEngine_Name' => 'U2',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'unknown',
+            'RenderingEngine_Maker' => 'UC Web',
         ],
     ],
     'issue-381-B' => [

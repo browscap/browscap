@@ -193,9 +193,9 @@ return [
             'Device_Pointing_Method' => 'touchscreen',
             'Device_Code_Name' => 'A15',
             'Device_Brand_Name' => 'Videocon',
-            'RenderingEngine_Name' => 'WebKit',
+            'RenderingEngine_Name' => 'U2',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'Apple Inc',
+            'RenderingEngine_Maker' => 'UC Web',
         ],
     ],
     'issue-365-H' => [
