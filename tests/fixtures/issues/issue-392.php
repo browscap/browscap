@@ -91,7 +91,7 @@ return [
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
-            'Browser_Maker' => 'unknown',
+            'Browser_Maker' => 'UC Web',
             'Version' => '9.3',
             'MajorVer' => '9',
             'MinorVer' => '3',

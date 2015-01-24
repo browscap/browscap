@@ -11,6 +11,7 @@
         "Comment": "UC Browser Generic",
         "Browser": "UC Browser",
         "Browser_Type": "Browser",
+        "Browser_Maker": "UC Web",
         "CssVersion": "1",
         "isMobileDevice": "true",
         "isTablet": "false",

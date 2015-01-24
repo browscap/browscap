@@ -175,7 +175,7 @@ return [
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
-            'Browser_Maker' => 'unknown',
+            'Browser_Maker' => 'UC Web',
             'Version' => '3.2',
             'MajorVer' => '3',
             'MinorVer' => '2',
