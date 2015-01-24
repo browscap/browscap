@@ -34,7 +34,7 @@
           "platforms": [
             "Linux_64", "Linux",
             "OSX",
-            "Win2000", "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32"
+            "Win2000", "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32", "Windows"
           ]
         },
         {
@@ -42,7 +42,7 @@
           "platforms": [
             "Linux_64", "Linux",
             "OSX",
-            "Win2000", "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32"
+            "Win2000", "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32", "Windows"
           ]
         }
       ]

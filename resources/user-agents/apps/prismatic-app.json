@@ -1,0 +1,51 @@
+{
+  "division": "Prismatic App",
+  "sortIndex": 1186,
+  "lite": false,
+  "userAgents": [
+    {
+      "userAgent": "Prismatic App",
+      "platform": "OSX",
+      "engine": "WebKit",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Prismatic App",
+        "Browser": "Prismatic App",
+        "Browser_Type": "Application",
+        "Browser_Maker": "Prismatic",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Frames": "false",
+        "IFrames": "false",
+        "Tables": "false",
+        "Cookies": "false",
+        "BackgroundSounds": "false",
+        "JavaScript": "false",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "isMobileDevice": "false",
+        "isTablet": "false",
+        "Crawler": "false",
+        "isSyndicationReader": "false",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Macintosh",
+        "Device_Maker": "Apple Inc",
+        "Device_Brand_Name": "Apple",
+        "Device_Name": "Macintosh"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) (Contact: backend@getprismatic.com*",
+          "platforms": [
+            "OSX_10_6_A", "OSX_10_7_A", "OSX_10_8_A", "OSX_10_9_A", "OSX_10_10_A",
+            "OSX"
+          ]
+        }
+      ]
+    }
+  ]
+}

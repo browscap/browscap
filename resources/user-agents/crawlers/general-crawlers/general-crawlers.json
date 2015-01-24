@@ -2087,6 +2087,31 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) SecondLife\/3.7* (Second Life *) Safari\/*",
+          "engine": "WebKit",
+          "properties": {
+            "Browser": "Second Live Client",
+            "Browser_Maker": "Linden Labs",
+            "Version": "3.7",
+            "MajorVer": "3",
+            "MinorVer": "7"
+          },
+          "platforms": [
+            "Windows"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) SecondLife\/* (Second Life *) Safari\/*",
+          "engine": "WebKit",
+          "properties": {
+            "Browser": "Second Live Client",
+            "Browser_Maker": "Linden Labs"
+          },
+          "platforms": [
+            "Windows"
+          ]
+        },
+        {
           "match": "Mozilla \/ reddit pic scraper v0.8*",
           "properties": {
             "Browser": "reddit pic scraper",
@@ -3387,6 +3412,211 @@
           "properties": {
             "Browser": "ltx71 Bot",
             "Browser_Maker": "ltx71.com"
+          }
+        },
+        {
+          "match": "CookieReports.com\/0.1*",
+          "properties": {
+            "Browser": "Cookie Reports Bot",
+            "Browser_Maker": "Cookie Reports Limited",
+            "Version": "0.1",
+            "MajorVer": "0",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "CookieReports.com\/*",
+          "properties": {
+            "Browser": "Cookie Reports Bot",
+            "Browser_Maker": "Cookie Reports Limited"
+          }
+        },
+        {
+          "match": "Iframely\/0.7*",
+          "properties": {
+            "Browser": "Iframely Bot",
+            "Browser_Maker": "Itteco",
+            "Version": "0.7",
+            "MajorVer": "0",
+            "MinorVer": "7"
+          }
+        },
+        {
+          "match": "Iframely\/*",
+          "properties": {
+            "Browser": "Iframely Bot",
+            "Browser_Maker": "Itteco"
+          }
+        },
+        {
+          "match": "MetaInspector\/3.0*",
+          "properties": {
+            "Browser": "MetaInspector",
+            "Browser_Maker": "Jaime Iniesta",
+            "Version": "3.0",
+            "MajorVer": "3",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "MetaInspector\/*",
+          "properties": {
+            "Browser": "MetaInspector",
+            "Browser_Maker": "Jaime Iniesta"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (Digg\/1.0*",
+          "properties": {
+            "Browser": "Digg Bot",
+            "Browser_Maker": "News.me Inc",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (Digg\/*",
+          "properties": {
+            "Browser": "Digg Bot",
+            "Browser_Maker": "News.me Inc"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; CrawlRobot*",
+          "properties": {
+            "Browser": "CrawlRobot"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Owler\/0.4*",
+          "properties": {
+            "Browser": "Owler Bot",
+            "Browser_Maker": "Owler, Inc.",
+            "Version": "0.4",
+            "MajorVer": "0",
+            "MinorVer": "4"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Owler\/*",
+          "properties": {
+            "Browser": "Owler Bot",
+            "Browser_Maker": "Owler, Inc."
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; pub-crawler*",
+          "properties": {
+            "Browser": "pub-crawler"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0+(compatible; RevIP.info site analyzer v4.00*",
+          "properties": {
+            "Browser": "Reverse IP Lookup",
+            "Browser_Maker": "binarymonkey.com",
+            "Version": "4.0",
+            "MajorVer": "4",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0+(compatible; RevIP.info site analyzer*",
+          "properties": {
+            "Browser": "Reverse IP Lookup",
+            "Browser_Maker": "binarymonkey.com"
+          }
+        },
+        {
+          "match": "SMRF URL Expander*",
+          "properties": {
+            "Browser": "SMRF URL Expander"
+          }
+        },
+        {
+          "match": "Superarama.com - BOT\/v.0.1*",
+          "properties": {
+            "Browser": "Superarama.com - BOT",
+            "Version": "0.1",
+            "MajorVer": "0",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "Superarama.com - BOT\/*",
+          "properties": {
+            "Browser": "Superarama.com - BOT"
+          }
+        },
+        {
+          "match": "WNMbot\/0.4*",
+          "properties": {
+            "Browser": "WNMbot",
+            "Version": "0.4",
+            "MajorVer": "0",
+            "MinorVer": "4"
+          }
+        },
+        {
+          "match": "WNMbot\/*",
+          "properties": {
+            "Browser": "WNMbot"
+          }
+        },
+        {
+          "match": "Website Explorer\/0.9*",
+          "properties": {
+            "Browser": "Website Explorer",
+            "Browser_Maker": "umechando.com",
+            "Version": "0.9",
+            "MajorVer": "0",
+            "MinorVer": "9"
+          }
+        },
+        {
+          "match": "Website Explorer\/*",
+          "properties": {
+            "Browser": "Website Explorer",
+            "Browser_Maker": "umechando.com"
+          }
+        },
+        {
+          "match": "city-map screenshot service*",
+          "properties": {
+            "Browser": "city-map screenshot service",
+            "Browser_Maker": "city-map Internetmarketing AG"
+          }
+        },
+        {
+          "match": "gosquared-thumbnailer\/1.0*",
+          "properties": {
+            "Browser": "gosquared-thumbnailer",
+            "Browser_Maker": "Go Squared Ltd.",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "gosquared-thumbnailer\/*",
+          "properties": {
+            "Browser": "gosquared-thumbnailer",
+            "Browser_Maker": "Go Squared Ltd."
+          }
+        },
+        {
+          "match": "optivo(R) NetHelper*",
+          "properties": {
+            "Browser": "optivo NetHelper",
+            "Browser_Maker": "optivo GmbH"
+          }
+        },
+        {
+          "match": "pr-cy.ru Screenshot Bot*",
+          "properties": {
+            "Browser": "Screenshot Bot",
+            "Browser_Maker": "pr-cy.ru"
           }
         }
       ]

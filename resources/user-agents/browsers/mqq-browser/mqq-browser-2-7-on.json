@@ -1,7 +1,7 @@
 {
   "division": "MQQBrowser #MAJORVER#.#MINORVER#",
-  "versions": ["3.5", "3.4", "3.3", "3.2", "3.1", "3.0"],
-  "sortIndex": 1179,
+  "versions": ["3.5", "3.4", "3.3", "3.2", "3.1", "3.0", "2.7"],
+  "sortIndex": 1006,
   "lite": false,
   "userAgents": [
     {
@@ -30,7 +30,7 @@
       },
       "children": [
         {
-          "match": "MQQBrowser\/#MAJORVER#.#MINORVER#\/Mozilla\/5.0 (#PLATFORM#GT-N7100 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/4.0 *Safari\/*",
+          "match": "MQQBrowser\/#MAJORVER#.#MINORVER#*Mozilla\/5.0 (#PLATFORM#GT-N7100 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/4.0 *Safari\/*",
           "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "GT-N7100",
@@ -43,7 +43,7 @@
           ]
         },
         {
-          "match": "MQQBrowser\/#MAJORVER#.#MINORVER#\/Mozilla\/5.0 (#PLATFORM#GT-I9100 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/4.0 *Safari\/*",
+          "match": "MQQBrowser\/#MAJORVER#.#MINORVER#*Mozilla\/5.0 (#PLATFORM#GT-I9100 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/4.0 *Safari\/*",
           "properties": {
             "Device_Code_Name": "GT-I9100",
             "Device_Maker": "Samsung",
@@ -55,7 +55,20 @@
           ]
         },
         {
-          "match": "MQQBrowser\/#MAJORVER#.#MINORVER#\/Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/4.0 *Safari\/*",
+          "match": "MQQBrowser\/#MAJORVER#.#MINORVER#*Mozilla\/5.0 (#PLATFORM#A5000 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/4.0 *Safari\/*",
+          "properties": {
+            "Device_Code_Name": "A5000",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Name": "Alpha a5000",
+            "Device_Type": "Digital Camera"
+          },
+          "platforms": [
+            "Android"
+          ]
+        },
+        {
+          "match": "MQQBrowser\/#MAJORVER#.#MINORVER#*Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/4.0 *Safari\/*",
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1", "Android"
           ]

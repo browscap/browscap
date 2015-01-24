@@ -1,0 +1,52 @@
+{
+  "division": "Sharp",
+  "sortIndex": 10900,
+  "lite": false,
+  "userAgents": [
+    {
+      "userAgent": "Sharp",
+      "platform": "SymbianOS",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Sharp",
+        "Browser": "Sharp",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Sharp Corporation",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Frames": "false",
+        "IFrames": "false",
+        "Tables": "false",
+        "Cookies": "false",
+        "BackgroundSounds": "false",
+        "JavaScript": "false",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "isMobileDevice": "true",
+        "isTablet": "false",
+        "Device_Type": "Mobile Device",
+        "Device_Code_Name": "general Mobile Device",
+        "Device_Name": "general Mobile Device"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (SH05C;FOMA;like Gecko)*",
+          "engine": "Gecko",
+          "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "SH-05C",
+            "Device_Maker": "Sharp Corporation",
+            "Device_Code_Name": "SH-05C",
+            "Device_Brand_Name": "NTT Docomo"
+          }
+        }
+      ]
+    }
+  ]
+}

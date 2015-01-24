@@ -5,6 +5,7 @@
   "userAgents": [
     {
       "userAgent": "Teleca-Obigo 4.0",
+      "platform": "JAVA",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Teleca-Obigo",
