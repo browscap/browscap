@@ -58,6 +58,7 @@
         },
         {
           "match": "UCWEB\/*(#PLATFORM#SAMSUNG; GT-I8350*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "engine": "U2",
           "properties": {
             "Device_Name": "GT-I8350",
             "Device_Maker": "Samsung",
@@ -71,7 +72,7 @@
         },
         {
           "match": "UCWEB\/*(*GT-P3100*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
-          "engine": "WebKit",
+          "engine": "U2",
           "properties": {
             "isMobileDevice": "true",
             "Device_Type": "Tablet",
@@ -87,6 +88,7 @@
         },
         {
           "match": "UCWEB\/*(#PLATFORM#) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "engine": "U2",
           "platforms": [
             "Android_2_1_C", "Android_2_2_C", "Android_2_3_D", "Android_4_0_C", "Android_4_1_C", "Android_4_2_C", "Android_4_3_C",
             "Android_4_4_C",
@@ -97,24 +99,28 @@
         },
         {
           "match": "UCWEB\/*(Linux; U; Opera Mini\/*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
+          "engine": "U2",
           "platforms": [
             "Android"
           ]
         },
         {
           "match": "UCWEB\/*(Android; U; Opera Mini\/*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
+          "engine": "U2",
           "platforms": [
             "Android"
           ]
         },
         {
           "match": "UCWEB\/*(Java*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
+          "engine": "U2",
           "platforms": [
             "JAVA"
           ]
         },
         {
           "match": "UCWEB\/*(MIDP-2.0*C2305) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
+          "engine": "U2",
           "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "C2305",
@@ -131,6 +137,7 @@
         },
         {
           "match": "UCWEB\/*(MIDP-2.0*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
+          "engine": "U2",
           "platforms": [
             "JAVA"
           ]

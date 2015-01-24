@@ -372,6 +372,14 @@
         "RenderingEngine_Version": "#MAJORVER#.#MINORVER#"
       }
     },
+    "U2": {
+      "properties": {
+        "RenderingEngine_Name": "U2",
+        "RenderingEngine_Version": "unknown",
+        "RenderingEngine_Description": "a WebKit Fork by UC Web",
+        "RenderingEngine_Maker": "UC Web"
+      }
+    },
     "U3": {
       "properties": {
         "RenderingEngine_Name": "U3",
