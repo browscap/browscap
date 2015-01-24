@@ -11,6 +11,7 @@
         "Comment": "Sharp",
         "Browser": "Sharp",
         "Browser_Type": "Browser",
+        "Browser_Maker": "Sharp Corporation",
         "Alpha": "false",
         "Beta": "false",
         "Win16": "false",
@@ -40,7 +41,7 @@
           "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Name": "SH-05C",
-            "Device_Maker": "Sharp",
+            "Device_Maker": "Sharp Corporation",
             "Device_Code_Name": "SH-05C",
             "Device_Brand_Name": "NTT Docomo"
           }
