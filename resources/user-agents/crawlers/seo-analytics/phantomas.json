@@ -1,0 +1,32 @@
+{
+  "division": "phantomas",
+  "versions": ["1.8"],
+  "sortIndex": 259,
+  "lite": false,
+  "userAgents": [
+    {
+      "userAgent": "phantomas",
+      "platform": "Linux",
+      "engine": "WebKit",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "phantomas",
+        "Browser": "phantomas",
+        "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "Maciej Brencz",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "phantomas\/#MAJORVER#.#MINORVER#* (PhantomJS\/*; #PLATFORM#)*",
+          "platforms": [
+            "Linux_x64", "Linux"
+          ]
+        }
+      ]
+    }
+  ]
+}

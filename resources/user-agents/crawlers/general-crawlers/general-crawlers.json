@@ -3587,6 +3587,37 @@
             "Browser": "city-map screenshot service",
             "Browser_Maker": "city-map Internetmarketing AG"
           }
+        },
+        {
+          "match": "gosquared-thumbnailer\/1.0*",
+          "properties": {
+            "Browser": "gosquared-thumbnailer",
+            "Browser_Maker": "Go Squared Ltd.",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "gosquared-thumbnailer\/*",
+          "properties": {
+            "Browser": "gosquared-thumbnailer",
+            "Browser_Maker": "Go Squared Ltd."
+          }
+        },
+        {
+          "match": "optivo(R) NetHelper*",
+          "properties": {
+            "Browser": "optivo NetHelper",
+            "Browser_Maker": "optivo GmbH"
+          }
+        },
+        {
+          "match": "pr-cy.ru Screenshot Bot*",
+          "properties": {
+            "Browser": "Screenshot Bot",
+            "Browser_Maker": "pr-cy.ru"
+          }
         }
       ]
     }
