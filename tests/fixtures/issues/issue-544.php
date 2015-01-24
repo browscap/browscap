@@ -1,0 +1,37 @@
+<?php
+
+return [
+    'issue-544' => [
+        'Mozilla/5.0 (Linux;U;Android 4.4.2;zh-cn;Lenovo A3300-HV Build/KOT49H) AppleWebkit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/537.306;',
+        [
+            'Browser' => 'Android WebView',
+            'Browser_Type' => 'Browser',
+            'Browser_Bits' => '32',
+            'Browser_Maker' => 'Google Inc',
+            'Version' => '4.0',
+            'MajorVer' => '4',
+            'MinorVer' => '0',
+            'Platform' => 'Android',
+            'Platform_Version' => '4.4',
+            'Platform_Bits' => '32',
+            'Platform_Maker' => 'Google Inc',
+            'isMobileDevice' => true,
+            'isTablet' => true,
+            'Crawler' => false,
+            'JavaScript' => true,
+            'Cookies' => true,
+            'Frames' => true,
+            'IFrames' => true,
+            'Tables' => true,
+            'Device_Name' => 'TAB A7-30',
+            'Device_Maker' => 'Lenovo',
+            'Device_Type' => 'Tablet',
+            'Device_Pointing_Method' => 'touchscreen',
+            'Device_Code_Name' => 'A3300-HV',
+            'Device_Brand_Name' => 'Lenovo',
+            'RenderingEngine_Name' => 'Blink',
+            'RenderingEngine_Version' => 'unknown',
+            'RenderingEngine_Maker' => 'Google Inc',
+        ],
+    ],
+];
