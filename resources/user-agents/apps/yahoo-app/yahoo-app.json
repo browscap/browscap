@@ -1,0 +1,54 @@
+{
+  "division": "Yahoo! App #MAJORVER#.#MINORVER#",
+  "versions": ["2.1"],
+  "sortIndex": 1903,
+  "lite": false,
+  "userAgents": [
+    {
+      "userAgent": "Yahoo! App #MAJORVER#.#MINORVER#",
+      "platform": "Android",
+      "engine": "WebKit",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Yahoo! App #MAJORVER#.#MINORVER#",
+        "Browser": "Yahoo! App",
+        "Browser_Type": "Application",
+        "Browser_Maker": "Yahoo!",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "isMobileDevice": "true",
+        "isTablet": "false",
+        "Device_Type": "Mobile Phone",
+        "Device_Pointing_Method": "touchscreen"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#sgpt12 build\/*) applewebkit\/* (khtml, like gecko) version\/* safari\/* yjapp-android jp.co.yahoo.android.yjtop\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "isTablet": "true",
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "SGPT12",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Name": "Xperia Tablet S"
+          },
+          "platforms": [
+            "Android_4_1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) applewebkit\/* (khtml, like gecko) version\/* safari\/* yjapp-android jp.co.yahoo.android.yjtop\/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Android_4_1"
+          ]
+        }
+      ]
+    }
+  ]
+}

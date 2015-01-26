@@ -192,7 +192,7 @@
           ]
         },
         {
-          "match": "Lenovo-A388t_TD\/S100 #PLATFORM# Release\/* Browser\/AppleWebkit* Mobile Safari*",
+          "match": "Lenovo-A388t#PLATFORM# Release* Browser\/AppleWebkit* Mobile Safari*",
           "properties": {
             "Device_Code_Name": "A388T",
             "Device_Maker": "Lenovo",
