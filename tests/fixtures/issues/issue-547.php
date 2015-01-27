@@ -26,7 +26,7 @@ return [
             'Device_Name' => 'Macintosh',
             'Device_Maker' => 'Apple Inc',
             'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'touchscreen',
+            'Device_Pointing_Method' => 'mouse',
             'Device_Code_Name' => 'Macintosh',
             'Device_Brand_Name' => 'Apple',
             'RenderingEngine_Name' => 'Blink',
