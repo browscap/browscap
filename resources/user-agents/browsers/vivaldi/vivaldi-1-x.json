@@ -1,0 +1,46 @@
+{
+  "division": "Vivaldi #MAJORVER#.#MINORVER#",
+  "versions": [1],
+  "sortIndex": 1142,
+  "lite": false,
+  "userAgents": [
+    {
+      "userAgent": "Vivaldi #MAJORVER#.#MINORVER#",
+      "engine": "WebKit",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Vivaldi #MAJORVER#.#MINORVER#",
+        "Browser": "Vivaldi",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Vivaldi Technologies",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "BackgroundSounds": "false",
+        "VBScript": "false",
+        "ActiveXControls": "false",
+        "isMobileDevice": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "CssVersion": "3",
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "general Desktop",
+        "Device_Name": "general Desktop"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Chrome\/* Vivaldi\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "platforms": [
+            "OSX_10_9_A", "OSX_10_9_B", "OSX_10_10_A", "OSX_10_10_B",
+            "OSX"
+          ]
+        }
+      ]
+    }
+  ]
+}
