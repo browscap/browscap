@@ -121,7 +121,7 @@
           ]
         },
         {
-          "match": "Lenovo-A388t_TD\/S100 #PLATFORM# Release\/* Browser\/AppleWebkit* Mobile Safari*",
+          "match": "Lenovo-A388t#PLATFORM# Release* Browser\/AppleWebkit* Mobile Safari*",
           "device": "Lenovo A388T",
           "platforms": [
             "Android_4_1"

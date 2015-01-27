@@ -13,6 +13,7 @@
         "Comment": "UC Browser Generic",
         "Browser": "UC Browser",
         "Browser_Type": "Browser",
+        "Browser_Maker": "UC Web",
         "CssVersion": "1"
       },
       "children": [
@@ -24,6 +25,7 @@
         },
         {
           "match": "UCWEB\/*(#PLATFORM#) U2\/* UCBrowser\/* U2\/*",
+          "engine": "U2",
           "platforms": [
             "Android_2_1_C", "Android_2_2_C", "Android_2_3_D", "Android_4_0_C", "Android_4_1_C", "Android_4_2_C", "Android_4_3_C",
             "Android_4_4_C",
@@ -39,10 +41,25 @@
           ]
         },
         {
-          "match": "UCWEB\/*(Linux; U; Opera Mini\/*) U2\/* UCBrowser\/*"
+          "match": "UCWEB\/*(Linux; U; Opera Mini\/*) U2\/* UCBrowser\/*",
+          "engine": "U2",
+          "platforms": [
+            "Android"
+          ]
         },
         {
-          "match": "UCWEB\/*(Android; U; Opera Mini\/*) U2\/* UCBrowser\/*"
+          "match": "UCWEB\/*(Android; U; Opera Mini\/*) U2\/* UCBrowser\/*",
+          "engine": "U2",
+          "platforms": [
+            "Android"
+          ]
+        },
+        {
+          "match": "UCWEB\/*(Java*) U2\/* UCBrowser\/*",
+          "engine": "U2",
+          "platforms": [
+            "JAVA"
+          ]
         }
       ]
     }

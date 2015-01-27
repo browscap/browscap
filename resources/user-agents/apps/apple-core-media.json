@@ -15,7 +15,8 @@
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
         "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Apple Inc"
+        "Browser_Maker": "Apple Inc",
+        "Crawler": "true"
       },
       "children": [
         {

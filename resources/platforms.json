@@ -569,6 +569,13 @@
         "Platform_Version": "8.0"
       }
     },
+    "iOS_E_8_1": {
+      "match": "*iPhone OS?8?1*",
+      "inherits": "iOS",
+      "properties": {
+        "Platform_Version": "8.1"
+      }
+    },
     "iOS_F": {
       "match": "*CPU like Mac OS X*",
       "inherits": "iOS"
@@ -784,6 +791,14 @@
     },
     "Linux_64_B": {
       "match": "*x86_64*linux*",
+      "inherits": "Linux",
+      "properties": {
+        "Browser_Bits": "64",
+        "Platform_Bits": "64"
+      }
+    },
+    "Linux_x64": {
+      "match": "*linux x64*",
       "inherits": "Linux",
       "properties": {
         "Browser_Bits": "64",
@@ -2129,7 +2144,7 @@
         "Platform_Description": "FreeBSD",
         "Device_Type": "Desktop",
         "Device_Maker": "Various",
-        "Platform_Description": "OpenBSD",
+        "Platform_Description": "FreeBSD",
         "Device_Code_Name": "general Desktop",
         "Device_Name": "general Desktop",
         "Win16": "false",

@@ -29,13 +29,6 @@
           }
         },
         {
-          "match": "Mozilla\/4.0 (compatible; Linux*NetFront\/3.* Kindle\/1.0 (screen 600x800)",
-          "properties": {
-            "Version": "2.0",
-            "MajorVer": "2"
-          }
-        },
-        {
           "match": "Mozilla\/5.0 (Linux; U*) AppleWebKit\/* (KHTML, like Gecko, Safari\/*Version\/4.0 Kindle\/3.0 (screen 600x800; rotate)",
           "properties": {
             "Version": "3.0",

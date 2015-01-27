@@ -116,6 +116,10 @@
           "device": "Nintendo WiiU"
         },
         {
+          "match": "Mozilla\/4.0 (compatible; Linux*NetFront\/#MAJORVER#.#MINORVER#* Kindle\/*",
+          "device": "Amazon Kindle"
+        },
+        {
           "match": "SonyEricsson*\/* Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) *Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "platforms": [
             "SymbianOS"

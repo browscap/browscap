@@ -1,0 +1,42 @@
+{
+  "division": "TWC SportsNet",
+  "sortIndex": 2060,
+  "lite": false,
+  "userAgents": [
+    {
+      "userAgent": "TWC SportsNet",
+      "engine": "WebKit",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "TWC SportsNet",
+        "Browser": "TWC SportsNet",
+        "Browser_Type": "Application",
+        "Browser_Maker": "Time Warner Cable"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (iPad#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Mobile ?TWCAN\/SportsNetForiOS*",
+          "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "iPad",
+            "Device_Name": "iPad",
+            "Device_Maker": "Apple Inc",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Apple",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+          },
+          "platforms": [
+            "iOS_C_8_1", "iOS_C_8_0", "iOS_C"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Mobile ?TWCAN\/SportsNetForiOS*",
+          "platforms": [
+            "iOS_C_8_1", "iOS_C_8_0", "iOS_C"
+          ]
+        }
+      ]
+    }
+  ]
+}

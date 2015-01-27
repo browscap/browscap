@@ -29,7 +29,10 @@
           "match": "Dillo\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "Mozilla\/5.0 (compatible; X11; Dillo\/#MAJORVER#.#MINORVER#*)"
+          "match": "Mozilla\/5.0 (compatible; X11; Dillo\/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "Mozilla\/4.0 (compatible; Dillo #MAJORVER#.#MINORVER#*"
         }
       ]
     }

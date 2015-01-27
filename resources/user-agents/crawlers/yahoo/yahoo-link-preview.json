@@ -1,0 +1,26 @@
+{
+  "division": "Yahoo Link Preview",
+  "sortIndex": 1331,
+  "lite": false,
+  "userAgents": [
+    {
+      "userAgent": "Yahoo Link Preview",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Yahoo Link Preview",
+        "Browser": "Yahoo Link Preview",
+        "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "Yahoo!",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (compatible; Yahoo Link Preview*"
+        }
+      ]
+    }
+  ]
+}

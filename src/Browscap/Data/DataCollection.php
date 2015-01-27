@@ -745,6 +745,7 @@ class DataCollection
             case 'Mobile Device':
             case 'Ebook Reader':
             case 'Console':
+            case 'Digital Camera':
                 if (true === $properties['isTablet']) {
                     throw new \UnexpectedValueException(
                         'the device of type "' . $properties['Device_Type'] . '" is marked as Tablet for key "'

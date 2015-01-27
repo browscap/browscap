@@ -13,6 +13,7 @@
         "Comment": "UC Browser #MAJORVER#.#MINORVER#",
         "Browser": "UC Browser",
         "Browser_Type": "Browser",
+        "Browser_Maker": "UC Web",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
@@ -120,6 +121,7 @@
         },
         {
           "match": "UCWEB\/*(#PLATFORM#iPh*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "engine": "U2",
           "device": "iPhone",
           "platforms": [
             "iOS_D_5_0", "iOS_D_5_1", "iOS_D_6_0", "iOS_D_6_1", "iOS_D_7_0", "iOS_D_7_1", "iOS_D_8_0"
@@ -127,6 +129,7 @@
         },
         {
           "match": "UCWEB\/*(#PLATFORM#GT-S5360) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "engine": "U2",
           "device": "Samsung GT-S5360",
           "platforms": [
             "Android_2_1_C", "Android_2_2_C", "Android_2_3_D", "Android_4_0_C", "Android_4_1_C", "Android_4_2_C", "Android_4_3_C",
@@ -135,6 +138,7 @@
         },
         {
           "match": "UCWEB\/*(#PLATFORM#GT-S7562) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "engine": "U2",
           "device": "Samsung GT-S7562",
           "platforms": [
             "Android_2_1_C", "Android_2_2_C", "Android_2_3_D", "Android_4_0_C", "Android_4_1_C", "Android_4_2_C", "Android_4_3_C",
@@ -143,6 +147,7 @@
         },
         {
           "match": "UCWEB\/*(#PLATFORM#Micromax A27) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "engine": "U2",
           "device": "Micromax A27",
           "platforms": [
             "Android_2_1_C", "Android_2_2_C", "Android_2_3_D", "Android_4_0_C", "Android_4_1_C", "Android_4_2_C", "Android_4_3_C",
@@ -151,6 +156,7 @@
         },
         {
           "match": "UCWEB\/*(#PLATFORM#) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "engine": "U2",
           "platforms": [
             "Android_2_1_C", "Android_2_2_C", "Android_2_3_D", "Android_4_0_C", "Android_4_1_C", "Android_4_2_C", "Android_4_3_C",
             "Android_4_4_C",
@@ -161,14 +167,23 @@
         },
         {
           "match": "UCWEB\/*(Linux; U; Opera Mini\/*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
+          "engine": "U2",
           "platforms": [
             "Android"
           ]
         },
         {
           "match": "UCWEB\/*(Android; U; Opera Mini\/*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
+          "engine": "U2",
           "platforms": [
             "Android"
+          ]
+        },
+        {
+          "match": "UCWEB\/*(Java*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
+          "engine": "U2",
+          "platforms": [
+            "JAVA"
           ]
         },
         {
@@ -203,7 +218,7 @@
         },
         {
           "match": "UCWEB\/2.0 (Linux; U; Opera Mini\/*; Videocon_A15) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
-          "engine": "WebKit",
+          "engine": "U2",
           "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "A15",
@@ -217,7 +232,7 @@
         },
         {
           "match": "UCWEB\/2.0(Linux; U; Opera Mini\/*; GT-S5670 Build\/*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
-          "engine": "WebKit",
+          "engine": "U2",
           "properties": {
             "Device_Code_Name": "GT-S5670",
             "Device_Maker": "Samsung",
@@ -234,7 +249,7 @@
         },
         {
           "match": "UCWEB\/2.0(Linux; U; Opera Mini\/*; MB525 Build\/*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
-          "engine": "WebKit",
+          "engine": "U2",
           "properties": {
             "Device_Code_Name": "MB525",
             "Device_Maker": "Motorola",
@@ -247,7 +262,7 @@
         },
         {
           "match": "UCWEB\/2.0 (Java; *SAMSUNG-SGH-T669) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/* Mobile*",
-          "engine": "WebKit",
+          "engine": "U2",
           "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "SGH-T669",
@@ -261,6 +276,7 @@
         },
         {
           "match": "Nokia5130c-2\/* Profile\/MIDP-2* UCWEB\/2.0 (*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/* Mobile",
+          "engine": "U2",
           "properties": {
             "Device_Code_Name": "5130c-2",
             "Device_Maker": "Nokia",
@@ -281,6 +297,7 @@
         "Comment": "UC Browser #MAJORVER#.#MINORVER#",
         "Browser": "UC Browser",
         "Browser_Type": "Browser",
+        "Browser_Maker": "UC Web",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",

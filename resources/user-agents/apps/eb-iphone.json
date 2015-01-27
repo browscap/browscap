@@ -40,7 +40,7 @@
             "MinorVer": "8"
           },
           "platforms": [
-            "iOS_E_7_0", "iOS_E_7_1", "iOS_E_8_0"
+            "iOS_E_7_0", "iOS_E_7_1", "iOS_E_8_0", "iOS_E_8_1"
           ]
         },
         {
@@ -51,20 +51,20 @@
             "MinorVer": "8"
           },
           "platforms": [
-            "iOS_E_7_0", "iOS_E_7_1", "iOS_E_8_0"
+            "iOS_E_7_0", "iOS_E_7_1", "iOS_E_8_0", "iOS_E_8_1"
           ]
         },
         {
           "match": "eb-iphone\/* (#PLATFORM#iPad) Mobile",
           "device": "iPad",
           "platforms": [
-            "iOS_E_7_0", "iOS_E_7_1", "iOS_E_8_0"
+            "iOS_E_7_0", "iOS_E_7_1", "iOS_E_8_0", "iOS_E_8_1"
           ]
         },
         {
           "match": "eb-iphone\/* (#PLATFORM#) Mobile",
           "platforms": [
-            "iOS_E_7_0", "iOS_E_7_1", "iOS_E_8_0"
+            "iOS_E_7_0", "iOS_E_7_1", "iOS_E_8_0", "iOS_E_8_1"
           ]
         }
       ]
