@@ -295,6 +295,7 @@ class PropertyHolder
                     'Desktop',
                     'Ebook Reader',
                     'Car Entertainment System',
+                    'Digital Camera',
                     'unknown',
                 );
                 break;

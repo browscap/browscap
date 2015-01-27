@@ -1,0 +1,48 @@
+{
+  "division": "MQQBrowser Mini #MAJORVER#.#MINORVER#",
+  "versions": ["2.4"],
+  "sortIndex": 1005,
+  "lite": false,
+  "userAgents": [
+    {
+      "userAgent": "MQQBrowser Mini #MAJORVER#.#MINORVER#",
+      "engine": "WebKit",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "MQQBrowser Mini #MAJORVER#.#MINORVER#",
+        "Browser": "MQQBrowser Mini",
+        "Browser_Type": "Browser",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Win32": "true",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "true",
+        "CssVersion": "3",
+        "isMobileDevice": "true",
+        "isTablet": "false",
+        "Device_Type": "Mobile Phone",
+        "Device_Pointing_Method": "touchscreen"
+      },
+      "children": [
+        {
+          "match": "MQQBrowser\/Mini#MAJORVER#.#MINORVER#* (SAMSUNG-GT-E2252)*",
+          "properties": {
+            "Device_Name": "GT-E2252",
+            "Device_Maker": "Samsung",
+            "Device_Code_Name": "GT-E2252",
+            "Device_Brand_Name": "Samsung",
+            "Device_Type": "Mobile Phone"
+          },
+          "platforms": [
+            "JAVA"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "division": "Flixster App",
+  "sortIndex": 1009,
+  "lite": false,
+  "userAgents": [
+    {
+      "userAgent": "Flixster App",
+      "platform": "iOS",
+      "engine": "WebKit",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser_Maker": "Flixster, Inc.",
+        "Browser_Type": "Application",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "false",
+        "Comment": "Flixster App",
+        "Browser": "Flixster App"
+      },
+      "children": [
+        {
+          "match": "FlixsteriOS\/* (iPad#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Mobile\/*",
+          "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "iPad",
+            "Device_Name": "iPad",
+            "Device_Maker": "Apple Inc",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Apple",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+          },
+          "platforms": [
+            "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0", "iOS_A_8_1",
+            "iOS_A",
+            "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_1", "iOS_C_8_0",
+            "iOS_C"
+          ]
+        },
+        {
+          "match": "FlixsteriOS\/* (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Mobile\/*",
+          "properties": {
+            "isMobileDevice": "true",
+            "Device_Type": "Mobile Device",
+            "Device_Pointing_Method": "touchscreen"
+          },
+          "platforms": [
+            "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0", "iOS_A_8_1",
+            "iOS_A",
+            "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_1", "iOS_C_8_0",
+            "iOS_C"
+          ]
+        }
+      ]
+    }
+  ]
+}

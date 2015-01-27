@@ -63,7 +63,7 @@ return [
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
-            'Browser_Maker' => 'unknown',
+            'Browser_Maker' => 'UC Web',
             'Version' => '7.9',
             'MajorVer' => '7',
             'MinorVer' => '9',

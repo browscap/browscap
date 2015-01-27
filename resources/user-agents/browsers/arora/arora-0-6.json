@@ -35,14 +35,14 @@
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko, Safari\/*) Arora\/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "Linux",
-            "Win2000", "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32"
+            "Win2000", "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32", "Windows"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Arora\/#MAJORVER#.#MINORVER#* Safari/*",
           "platforms": [
             "Linux",
-            "Win2000", "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32"
+            "Win2000", "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32", "Windows"
           ]
         }
       ]

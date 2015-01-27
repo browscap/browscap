@@ -210,18 +210,12 @@
           ]
         },
         {
-          "match": "MT6515M* #PLATFORM# Release\/* Browser\/AppleWebKit* (KHTML, like Gecko) Mozilla\/5.0 Mobile",
+          "match": "MT6515M#PLATFORM# Release* Browser?AppleWebkit* (KHTML, like Gecko) Mozilla\/5.0 Mobile",
           "properties": {
             "Device_Name": "MT6515M"
           },
           "platforms": [
             "Android_2_3"
-          ]
-        },
-        {
-          "match": "* #PLATFORM# Release* Browser?AppleWebKit* (KHTML, like Gecko) Mozilla\/5.0 Mobile",
-          "platforms": [
-            "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {
@@ -2516,7 +2510,7 @@
           ]
         },
         {
-          "match": "Lenovo-A288t* #PLATFORM# Release\/* Browser\/AppleWebkit*Safari*",
+          "match": "Lenovo-A288t#PLATFORM# Release* Browser?AppleWebkit*",
           "properties": {
             "Device_Code_Name": "A288t",
             "Device_Maker": "Lenovo",
@@ -2528,19 +2522,7 @@
           ]
         },
         {
-          "match": "MALATA I50* #PLATFORM# Release\/* Browser\/AppleWebkit*Safari*",
-          "properties": {
-            "Device_Code_Name": "I50",
-            "Device_Maker": "Malata",
-            "Device_Brand_Name": "Malata",
-            "Device_Name": "I50"
-          },
-          "platforms": [
-            "Android_2_3"
-          ]
-        },
-        {
-          "match": "Lenovo-A820* #PLATFORM# Release\/* Browser\/AppleWebkit*Safari*",
+          "match": "Lenovo-A820#PLATFORM# Release* Browser?AppleWebkit*",
           "properties": {
             "Device_Code_Name": "A820",
             "Device_Maker": "Lenovo",
@@ -2549,6 +2531,42 @@
           },
           "platforms": [
             "Android_4_1"
+          ]
+        },
+        {
+          "match": "Lenovo-A850#PLATFORM# Release* Browser?AppleWebkit*",
+          "properties": {
+            "Device_Name": "A850",
+            "Device_Maker": "Lenovo",
+            "Device_Code_Name": "A850",
+            "Device_Brand_Name": "Lenovo"
+          },
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Lenovo A789#PLATFORM# Release* Browser?AppleWebkit*",
+          "properties": {
+            "Device_Code_Name": "A789",
+            "Device_Maker": "Lenovo",
+            "Device_Brand_Name": "Lenovo",
+            "Device_Name": "A789"
+          },
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
+          "match": "MALATA I50#PLATFORM# Release* Browser?AppleWebkit*",
+          "properties": {
+            "Device_Code_Name": "I50",
+            "Device_Maker": "Malata",
+            "Device_Brand_Name": "Malata",
+            "Device_Name": "I50"
+          },
+          "platforms": [
+            "Android_2_3"
           ]
         },
         {
@@ -7619,7 +7637,7 @@
           ]
         },
         {
-          "match": "OPPO_R813T\/* #PLATFORM# Release\/* Browser\/AppleWebkit*Safari*",
+          "match": "OPPO_R813T#PLATFORM# Release* Browser?AppleWebkit*",
           "properties": {
             "Device_Name": "R813T",
             "Device_Maker": "OPPO",
@@ -7631,7 +7649,7 @@
           ]
         },
         {
-          "match": "ultrafone 303#PLATFORM# Release\/* Browser\/AppleWebkit*Safari*",
+          "match": "ultrafone 303#PLATFORM# Release* Browser?AppleWebkit*",
           "properties": {
             "Device_Name": "303",
             "Device_Maker": "ultrafone",
@@ -7643,7 +7661,7 @@
           ]
         },
         {
-          "match": "Season\/V2#PLATFORM# Release\/* Browser\/AppleWebkit*Safari*",
+          "match": "Season\/V2#PLATFORM# Release* Browser?AppleWebkit*",
           "properties": {
             "Device_Pointing_Method": "touchscreen"
           },
@@ -7652,7 +7670,7 @@
           ]
         },
         {
-          "match": "I9300#PLATFORM# Release\/* Browser\/AppleWebkit*Safari*",
+          "match": "I9300#PLATFORM# Release* Browser?AppleWebkit*",
           "properties": {
             "JavaApplets": "false",
             "Device_Code_Name": "GT-I9300",
@@ -7665,7 +7683,7 @@
           ]
         },
         {
-          "match": "AT-AS40SE#PLATFORM# Release\/* Browser\/AppleWebkit*Safari*",
+          "match": "AT-AS40SE#PLATFORM# Release* Browser?AppleWebkit*",
           "properties": {
             "Device_Name": "AT-AS40SE",
             "Device_Maker": "Wolgang",
@@ -7677,19 +7695,7 @@
           ]
         },
         {
-          "match": "Lenovo-A850\/S105#PLATFORM# Release\/* Browser\/AppleWebkit*Safari*",
-          "properties": {
-            "Device_Name": "A850",
-            "Device_Maker": "Lenovo",
-            "Device_Code_Name": "A850",
-            "Device_Brand_Name": "Lenovo"
-          },
-          "platforms": [
-            "Android_4_2"
-          ]
-        },
-        {
-          "match": "MT6572_TD\/V1#PLATFORM# Release\/* Browser\/AppleWebkit*Safari*",
+          "match": "MT6572_TD\/V1#PLATFORM# Release* Browser?AppleWebkit*",
           "properties": {
             "Device_Name": "GT 95 3G",
             "Device_Maker": "Cubot",
@@ -7701,21 +7707,9 @@
           ]
         },
         {
-          "match": "#PLATFORM# Release\/* Browser\/AppleWebKit* (KHTML, like Gecko) Mozilla\/5.0 Mobile",
+          "match": "#PLATFORM# Release* Browser?AppleWebkit*",
           "platforms": [
             "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
-          ]
-        },
-        {
-          "match": "#PLATFORM# Release\/* Browser\/AppleWebKit*Safari*",
-          "platforms": [
-            "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
-          ]
-        },
-        {
-          "match": "#PLATFORM# Release\/* Browser\/AppleWebkit*",
-          "platforms": [
-            "Android_4_0"
           ]
         },
         {
@@ -8988,6 +8982,20 @@
           },
           "platforms": [
             "Android_4_1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#A5000 Build\/*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "properties": {
+            "Device_Code_Name": "A5000",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Name": "Alpha a5000",
+            "Device_Type": "Digital Camera",
+            "Device_Pointing_Method": "unknown"
+          },
+          "platforms": [
+            "Android"
           ]
         },
         {
