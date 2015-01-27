@@ -8,6 +8,7 @@
       "userAgent": "Flixster App #MAJORVER#.#MINORVER#",
       "platform": "iOS",
       "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser_Maker": "Flixster, Inc.",
@@ -25,16 +26,7 @@
       "children": [
         {
           "match": "FlixsteriOS\/#MAJORVER#.#MINORVER#* (iPad#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Mobile\/*",
-          "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "iPad",
-            "Device_Name": "iPad",
-            "Device_Maker": "Apple Inc",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Apple",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-          },
+          "device": "iPad",
           "platforms": [
             "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0", "iOS_A_8_1",
             "iOS_A",
@@ -44,11 +36,6 @@
         },
         {
           "match": "FlixsteriOS\/#MAJORVER#.#MINORVER#* (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Mobile\/*",
-          "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Device",
-            "Device_Pointing_Method": "touchscreen"
-          },
           "platforms": [
             "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0", "iOS_A_8_1",
             "iOS_A",
