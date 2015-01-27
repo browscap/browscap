@@ -6,7 +6,7 @@
   "userAgents": [
     {
       "userAgent": "Vivaldi #MAJORVER#.#MINORVER#",
-      "engine": "WebKit",
+      "engine": "Blink",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Vivaldi #MAJORVER#.#MINORVER#",
