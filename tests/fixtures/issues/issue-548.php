@@ -12,7 +12,7 @@ return [
             'MajorVer' => '12',
             'MinorVer' => '0',
             'Platform' => 'Win10',
-            'Platform_Version' => '6.4',
+            'Platform_Version' => '10',
             'Platform_Bits' => '64',
             'Platform_Maker' => 'Microsoft Corporation',
             'Win64' => true,
