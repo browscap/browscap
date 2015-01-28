@@ -60,12 +60,8 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Coast\/3.1* Mobile\/* Safari\/*",
+          "device": "general Mobile Device (Apple)",
           "properties": {
-            "Device_Maker": "Apple Inc",
-            "Device_Type": "Mobile Device",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false",
             "Version": "3.1",
             "MajorVer": "3",
             "MinorVer": "1"
