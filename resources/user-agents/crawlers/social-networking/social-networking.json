@@ -209,6 +209,23 @@
             "Browser": "SeeBot",
             "Browser_Maker": "Seegnify"
           }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Kraken\/0.1*",
+          "properties": {
+            "Browser": "Kraken",
+            "Browser_Maker": "Linkfluence SAS",
+            "Version": "0.1",
+            "MajorVer": "0",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Kraken\/*",
+          "properties": {
+            "Browser": "Kraken",
+            "Browser_Maker": "Linkfluence SAS"
+          }
         }
       ]
     }
