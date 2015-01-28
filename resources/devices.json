@@ -2316,6 +2316,18 @@
         "isTablet": "false"
       }
     },
+    "Samsung GT-I8200N": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GT-I8200N",
+        "Device_Name": "S III mini",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "GT-S5830": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -3305,6 +3317,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SM-G900V",
         "Device_Name": "Galaxy S5 CDMA (Verizon)",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung SM-G350": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SM-G350",
+        "Device_Name": "Galaxy Core Plus",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "touchscreen",
@@ -6334,6 +6358,18 @@
         "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
+      }
+    },
+    "Asus ME302KL": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "ME302KL",
+        "Device_Name": "MeMO Pad FHD 10",
+        "Device_Maker": "Asus",
+        "Device_Brand_Name": "Asus",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
       }
     },
     "Motorola MB525": {
@@ -10164,6 +10200,18 @@
         "isTablet": "false"
       }
     },
+    "LG E440": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "E440",
+        "Device_Name": "Optimus L4 II",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "LG E510": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -11472,6 +11520,18 @@
         "isTablet": "false"
       }
     },
+    "LG E430": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "E430",
+        "Device_Name": "Optimus L3 II",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "1 & 1 Smartpad": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -12336,6 +12396,18 @@
         "isTablet": "false"
       }
     },
+    "Huawei Y330-U01": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Y330-U01",
+        "Device_Name": "Ascend Y330",
+        "Device_Maker": "Huawei",
+        "Device_Brand_Name": "Huawei",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "UTStarcom GTX75": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -12629,6 +12701,30 @@
         "Device_Type": "Tablet",
         "Device_Code_Name": "80 Xenon",
         "Device_Name": "80 Xenon",
+        "Device_Maker": "Archos",
+        "Device_Brand_Name": "Archos",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Archos 101 Neon": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "101 Neon",
+        "Device_Name": "101 Neon",
+        "Device_Maker": "Archos",
+        "Device_Brand_Name": "Archos",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Archos 50 Platinum": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "50 Platinum",
+        "Device_Name": "50 Platinum",
         "Device_Maker": "Archos",
         "Device_Brand_Name": "Archos",
         "Device_Pointing_Method": "touchscreen",
@@ -15936,6 +16032,30 @@
         "isTablet": "true"
       }
     },
+    "Odys ADM816KC": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "ADM816KC",
+        "Device_Name": "Neo S8 Plus",
+        "Device_Maker": "Odys",
+        "Device_Brand_Name": "Odys",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Odys ADM816HC": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "ADM816HC",
+        "Device_Name": "Neo X",
+        "Device_Maker": "Odys",
+        "Device_Brand_Name": "Odys",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "ViewSonic ViewPad7": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -16135,6 +16255,18 @@
         "Device_Name": "IdeaTab S6000-F Wi-Fi, 16GB",
         "Device_Maker": "Lenovo",
         "Device_Brand_Name": "Vodafone",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Lenovo S6000-F": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "S6000-F",
+        "Device_Name": "IdeaTab S6000-F",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
         "Device_Pointing_Method": "unknown",
         "isMobileDevice": "true",
         "isTablet": "true"
@@ -16440,6 +16572,18 @@
         "isTablet": "true"
       }
     },
+    "Weltbild Kinder-Tablet": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "Kinder-Tablet",
+        "Device_Name": "Tablet PC Junior+",
+        "Device_Maker": "Weltbild",
+        "Device_Brand_Name": "Weltbild",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Faktor Zwei FX2 PAD10": {
       "properties": {
         "Device_Type": "Tablet",
@@ -16565,6 +16709,30 @@
         "Device_Type": "Tablet",
         "Device_Code_Name": "PMP7100D3G",
         "Device_Name": "Multipad",
+        "Device_Maker": "Prestigio",
+        "Device_Brand_Name": "Prestigio",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Prestigio PMP7280C3G": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "PMP7280C3G",
+        "Device_Name": "Multipad 2 Ultra Duo 8.0 3G",
+        "Device_Maker": "Prestigio",
+        "Device_Brand_Name": "Prestigio",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Prestigio PMP7280C3G_QUAD": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "PMP7280C3G_QUAD",
+        "Device_Name": "MultiPad 4 Ultra Quad 8.0 3G",
         "Device_Maker": "Prestigio",
         "Device_Brand_Name": "Prestigio",
         "Device_Pointing_Method": "touchscreen",
@@ -18812,6 +18980,42 @@
         "Device_Maker": "Siemens",
         "Device_Pointing_Method": "unknown",
         "Device_Brand_Name": "Siemens",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Cubot GT 95 3G": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "GT 95 3G",
+        "Device_Code_Name": "GT 95 3G",
+        "Device_Maker": "Cubot",
+        "Device_Pointing_Method": "unknown",
+        "Device_Brand_Name": "Cubot",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Tolino Tab 8.9": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Tab 8.9",
+        "Device_Code_Name": "Tab 8.9",
+        "Device_Maker": "Tolino",
+        "Device_Pointing_Method": "unknown",
+        "Device_Brand_Name": "Tolino",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Wiko Rainbow": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Rainbow",
+        "Device_Code_Name": "Rainbow",
+        "Device_Maker": "Wiko",
+        "Device_Pointing_Method": "unknown",
+        "Device_Brand_Name": "Wiko",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
