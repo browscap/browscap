@@ -7,6 +7,7 @@
     {
       "userAgent": "NetFrontLifeBrowser #MAJORVER#.#MINORVER#",
       "engine": "WebKit",
+      "device": "general Mobile Device",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Access NetFrontLifeBrowser #MAJORVER#.#MINORVER#",
@@ -21,23 +22,12 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "isMobileDevice": "true",
-        "CssVersion": "2",
-        "Device_Type": "Mobile Device"
+        "CssVersion": "2"
       },
       "children": [
         {
           "match": "Mozilla\/5.0 (#PLATFORM#WT19a Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* NetFrontLifeBrowser\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "WT19a",
-            "Device_Name": "Live with Walkman",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-          },
+          "device": "SonyEricsson WT19a",
           "platforms": [
             "Android"
           ]

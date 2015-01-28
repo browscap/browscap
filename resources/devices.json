@@ -1368,6 +1368,18 @@
         "isTablet": "false"
       }
     },
+    "SonyEricsson WT19a": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "WT19a",
+        "Device_Name": "Live with Walkman",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Sony C6603": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -15144,6 +15156,18 @@
         "isTablet": "false"
       }
     },
+    "Alcatel OT-991T": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "OT-991T",
+        "Device_Name": "One Touch 991T Play",
+        "Device_Maker": "Alcatel",
+        "Device_Brand_Name": "Alcatel",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Alcatel OT-991D": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -16265,6 +16289,42 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "A536",
         "Device_Name": "A536",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Lenovo A850": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A850",
+        "Device_Name": "A850",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Lenovo A789": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A789",
+        "Device_Name": "A789",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Lenovo A820": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A820",
+        "Device_Name": "A820",
         "Device_Maker": "Lenovo",
         "Device_Brand_Name": "Lenovo",
         "Device_Pointing_Method": "touchscreen",

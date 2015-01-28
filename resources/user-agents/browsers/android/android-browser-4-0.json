@@ -549,12 +549,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I9000T Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "GT-I9000T",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "GT-I9000T"
-          },
+          "device": "Samsung GT-I9000T",
           "platforms": [
             "Android_2_2"
           ]
@@ -1276,13 +1271,6 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-I9000T Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "Samsung GT-I9000T",
-          "platforms": [
-            "Android_2_2"
-          ]
-        },
-        {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I9003 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "device": "Samsung GT-I9003",
           "platforms": [
@@ -1582,7 +1570,7 @@
         },
         {
           "match": "Lenovo-A820#PLATFORM# Release* Browser?AppleWebkit*",
-          "device": "Malata I50",
+          "device": "Lenovo A820",
           "platforms": [
             "Android_4_1"
           ]
@@ -1596,62 +1584,23 @@
         },
         {
           "match": "Lenovo-A850#PLATFORM# Release* Browser?AppleWebkit*",
-          "properties": {
-            "Device_Name": "A850",
-            "Device_Maker": "Lenovo",
-            "Device_Code_Name": "A850",
-            "Device_Brand_Name": "Lenovo"
-          },
+          "device": "Lenovo A850",
           "platforms": [
             "Android_4_2"
           ]
         },
         {
           "match": "Lenovo A789#PLATFORM# Release* Browser?AppleWebkit*",
-          "properties": {
-            "Device_Code_Name": "A789",
-            "Device_Maker": "Lenovo",
-            "Device_Brand_Name": "Lenovo",
-            "Device_Name": "A789"
-          },
+          "device": "Lenovo A789",
           "platforms": [
             "Android_4_0"
           ]
         },
         {
           "match": "MALATA I50#PLATFORM# Release* Browser?AppleWebkit*",
-          "properties": {
-            "Device_Code_Name": "I50",
-            "Device_Maker": "Malata",
-            "Device_Brand_Name": "Malata",
-            "Device_Name": "I50"
-          },
+          "device": "Malata I50",
           "platforms": [
             "Android_2_3"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-I9100G Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "GT-I9100G",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S II"
-          },
-          "platforms": [
-            "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-I9100P Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "GT-I9100P",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S II NFC"
-          },
-          "platforms": [
-            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
           ]
         },
         {
@@ -1675,7 +1624,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I9100P Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "device": "GT-I9100P",
           "platforms": [
-            "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2"
+            "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
           ]
         },
         {
@@ -1722,12 +1671,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#ALCATEL ONE TOUCH 991T Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "OT-991T",
-            "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
-            "Device_Name": "One Touch 991T Play"
-          },
+          "device": "Alcatel OT-991T",
           "platforms": [
             "Android_2_3"
           ]

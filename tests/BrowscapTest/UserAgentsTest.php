@@ -51,7 +51,7 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
         $buildFolder = __DIR__ . '/../../build/browscap-ua-test-' . $buildNumber;
         $iniFile     = $buildFolder . '/full_php_browscap.ini';
 
-        mkdir($buildFolder, 0777, true);
+        @mkdir($buildFolder, 0777, true);
 
         $logger = new Logger('browscap');
         $logger->pushHandler(new NullHandler(Logger::DEBUG));
