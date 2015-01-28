@@ -48,15 +48,8 @@
         },
         {
           "match": "Mozilla\/5.0 (iPhone#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Coast\/3.1* Mobile\/* Safari\/*",
+          "device": "iPhone",
           "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "iPhone",
-            "Device_Name": "iPhone",
-            "Device_Maker": "Apple Inc",
-            "Device_Brand_Name": "Apple",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false",
             "Version": "3.1",
             "MajorVer": "3",
             "MinorVer": "1"
