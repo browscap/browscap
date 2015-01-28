@@ -464,9 +464,6 @@
           "match": "Mozilla\/5.0 (X11; U; Windows NT 6;*"
         },
         {
-          "match": "Mozilla\/5.0 (Windows NT 1?.*"
-        },
-        {
           "match": "MozilMozilla*"
         },
         {

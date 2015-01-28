@@ -1620,6 +1620,40 @@
         "Win64": "true"
       }
     },
+    "Win10_32_B": {
+      "match": "*Windows NT 10.0*",
+      "inherits": "Windows",
+      "properties": {
+        "Platform": "Win10",
+        "Platform_Version": "10",
+        "Platform_Description": "Windows 10"
+      }
+    },
+    "Win10_64_B": {
+      "match": "*Windows NT 10.0*WOW64*",
+      "inherits": "Windows",
+      "properties": {
+        "Platform": "Win10",
+        "Platform_Bits": "64",
+        "Platform_Version": "10",
+        "Platform_Description": "Windows 10",
+        "Win32": "false",
+        "Win64": "true"
+      }
+    },
+    "Win10_x64_B": {
+      "match": "*Windows NT 10.0*Win64? x64*",
+      "inherits": "Windows",
+      "properties": {
+        "Browser_Bits": "64",
+        "Platform": "Win10",
+        "Platform_Bits": "64",
+        "Platform_Version": "10",
+        "Platform_Description": "Windows 10",
+        "Win32": "false",
+        "Win64": "true"
+      }
+    },
     "WinRT8_32": {
       "match": "*Windows NT 6.2; ARM*",
       "inherits": "Windows",
