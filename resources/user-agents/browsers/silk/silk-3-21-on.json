@@ -42,16 +42,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#KFSOWI Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* like Chrome\/* Safari*",
           "engine": "Blink",
-          "properties": {
-            "Device_Name": "Kindle Fire HD 7",
-            "Device_Maker": "Amazon.com, Inc.",
-            "Device_Type": "Tablet",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true",
-            "Device_Code_Name": "KFSOWI",
-            "Device_Brand_Name": "Amazon"
-          },
+          "device": "Amazon KFSOWI",
           "platforms": [
             "Android_4_2", "Android_4_3", "Android_4_4"
           ]
@@ -112,17 +103,7 @@
         },
         {
           "match": "Mozilla\/5.0 (Linux; U; *; KFSOWI Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* Safari*",
-          "properties": {
-            "Browser_Modus": "Desktop Mode",
-            "Device_Name": "Kindle Fire HD 7",
-            "Device_Maker": "Amazon.com, Inc.",
-            "Device_Type": "Tablet",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true",
-            "Device_Code_Name": "KFSOWI",
-            "Device_Brand_Name": "Amazon"
-          },
+          "device": "Amazon KFSOWI",
           "platforms": [
             "Android_4_0"
           ]

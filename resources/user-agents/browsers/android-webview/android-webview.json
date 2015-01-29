@@ -4818,12 +4818,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SM-G800F* Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
-          "properties": {
-            "Device_Code_Name": "SM-G800F",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S5 Mini"
-          },
+          "device": "Samsung SM-G800F",
           "platforms": [
             "Android_4_4"
           ]
