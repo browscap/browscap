@@ -6,6 +6,7 @@
     {
       "userAgent": "Avant\/IE 9.0",
       "engine": "Trident_5",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Avant\/IE 9.0",
@@ -22,11 +23,7 @@
         "VBScript": "true",
         "JavaApplets": "true",
         "ActiveXControls": "true",
-        "CssVersion": "2",
-        "Device_Name": "PC",
-        "Device_Maker": "Various",
-        "Device_Type": "Desktop",
-        "Device_Pointing_Method": "mouse"
+        "CssVersion": "2"
       },
       "children": [
         {

@@ -2012,13 +2012,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I9515* Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isTablet": "false",
-            "Device_Code_Name": "GT-I9515",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S4 Value Edition"
-          },
+          "device": "Samsung GT-I9515",
           "platforms": [
             "Android_4_4"
           ]
