@@ -322,7 +322,7 @@ class DataCollection
                         if (!isset($child['match'])) {
                             throw new \UnexpectedValueException(
                                 'each entry of the children property requires an "match" entry for key "'
-                                . $useragent['userAgent'] . '"'
+                                . $useragent['userAgent'] . '", missing for child data: ' . json_encode($child)
                             );
                         }
 

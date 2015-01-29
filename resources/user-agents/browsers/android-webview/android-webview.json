@@ -55,18 +55,6 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#SM-N900A Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
-          "properties": {
-            "Device_Code_Name": "SM-N900A",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Note 3 LTE (AT&T)"
-          },
-          "platforms": [
-            "Android_4_3", "Android_4_4"
-          ]
-        },
-        {
           "match": "Mozilla\/5.0 (#PLATFORM#SM-T530 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Samsung SM-T530",
           "platforms": [
@@ -89,12 +77,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Micromax A065 Build\/*)*AppleWebKit\/*(*KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
-          "properties": {
-            "Device_Name": "Bolt A065",
-            "Device_Code_Name": "A065",
-            "Device_Brand_Name": "Micromax",
-            "Device_Maker": "Micromax"
-          },
+          "device": "Micromax A065",
           "platforms": [
             "Android_4_4"
           ]
@@ -3988,15 +3971,9 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#X10.Dual Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
-          "device": "SonyEricsson X10",
+          "device": "Pearl X10.Dual",
           "platforms": [
             "Android_4_0", "Android_4_1"
-          ]
-        },
-        {
-          "device": "SonyEricsson X10",
-          "platforms": [
-            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
           ]
         },
         {
@@ -4620,162 +4597,91 @@
         },
         {
           "match": "Mozilla\/5.0(#PLATFORM#Fly IQ4409 Quad Build\/*) AppleWebKit\/*(KHTML, like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
-          "properties": {
-            "Device_Code_Name": "IQ4409 Quad",
-            "Device_Maker": "Fly",
-            "Device_Brand_Name": "Fly",
-            "Device_Name": "ERA Life 4"
-          },
+          "device": "Fly IQ4409 Quad",
           "platforms": [
             "Android_4_4"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SCH-I545 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
-          "properties": {
-            "Device_Code_Name": "SCH-I545",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S4 LTE (Verizon), White Frost 16GB"
-          },
+          "device": "Samsung SCH-I545",
           "platforms": [
             "Android_4_3", "Android_4_4"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SM-T530NU Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "SM-T530NU",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Tab 4 10.1 16GB"
-          },
+          "device": "Samsung SM-T530NU",
           "platforms": [
             "Android_4_4"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SM-G900A* Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
-          "properties": {
-            "Device_Code_Name": "SM-G900A",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S5 LTE (AT&T)"
-          },
+          "device": "Samsung SM-G900A",
           "platforms": [
             "Android_4_4"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SM-G900T* Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
-          "properties": {
-            "Device_Code_Name": "SM-G900T",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S5 LTE (T-Mobile)"
-          },
+          "device": "Samsung SM-G900T",
           "platforms": [
             "Android_4_4"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SM-N900V Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
-          "properties": {
-            "Device_Code_Name": "SM-N900V",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Note 3 LTE (Verizon)"
-          },
+          "device": "Samsung SM-N900V",
           "platforms": [
             "Android_4_3", "Android_4_4"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SPH-L720 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
-          "properties": {
-            "Device_Code_Name": "SPH-L720",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S4 LTE (Sprint), White Frost"
-          },
+          "device": "Samsung SPH-L720",
           "platforms": [
             "Android_4_3", "Android_4_4"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SM-N910V 4G Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
-          "properties": {
-            "Device_Code_Name": "SM-N910V 4G",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Note 4"
-          },
+          "device": "Samsung SM-N910V 4G",
           "platforms": [
             "Android_4_4"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SM-P600 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "SM-P600",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Note 10.1 2014 Edition Wi-Fi"
-          },
+          "device": "Samsung SM-P600",
           "platforms": [
             "Android_4_3", "Android_4_4"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I9506* Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
-          "properties": {
-            "Device_Code_Name": "GT-I9506",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S4 LTE+"
-          },
+          "device": "Samsung GT-I9506",
           "platforms": [
             "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SM-P605* Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "SM-P605",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Note 10.1 2014 Edition WI-FI + 4G LTE"
-          },
+          "device": "Samsung SM-P605",
           "platforms": [
             "Android_4_3", "Android_4_4"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SM-N7505 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
-          "properties": {
-            "Device_Code_Name": "SM-N7505",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Note 3 Neo Duos"
-          },
+          "device": "Samsung SM-N7505",
           "platforms": [
             "Android_4_3", "Android_4_4"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I9295* Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
-          "properties": {
-            "Device_Code_Name": "GT-I9295",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S4 Active"
-          },
+          "device": "Samsung GT-I9295",
           "platforms": [
             "Android_4_2", "Android_4_3", "Android_4_4"
           ]
@@ -5011,12 +4917,7 @@
         },
         {
           "match": "Mozilla\/5.0(#PLATFORM#Micromax A065 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
-          "properties": {
-            "Device_Code_Name": "A065",
-            "Device_Maker": "Micromax",
-            "Device_Brand_Name": "Micromax",
-            "Device_Name": "Bolt A065"
-          },
+          "device": "Micromax A065",
           "platforms": [
             "Android_4_4"
           ]

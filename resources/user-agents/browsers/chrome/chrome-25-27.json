@@ -1325,12 +1325,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I9295* Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "Device_Code_Name": "GT-I9295",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S4 Active"
-          },
+          "device": "Samsung GT-I9295",
           "platforms": [
             "Android_4_2", "Android_4_3"
           ]

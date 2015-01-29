@@ -1119,7 +1119,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#X10.Dual+ Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "device": "SonyEricsson X10",
+          "device": "Pearl X10.Dual+",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
           ]
@@ -1413,13 +1413,7 @@
         },
         {
           "match": "Mozilla\/5.0(#PLATFORM#Fly IQ4409 Quad Build\/*) AppleWebKit\/*(KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isTablet": "false",
-            "Device_Code_Name": "IQ4409 Quad",
-            "Device_Maker": "Fly",
-            "Device_Brand_Name": "Fly",
-            "Device_Name": "ERA Life 4"
-          },
+          "device": "Fly IQ4409 Quad",
           "platforms": [
             "Android_4_4"
           ]
@@ -1660,14 +1654,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Lenovo B6000-F*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "B6000-F",
-            "Device_Maker": "Lenovo",
-            "Device_Brand_Name": "Lenovo",
-            "Device_Name": "Yoga B6000-F"
-          },
+          "device": "Lenovo B6000-F",
           "platforms": [
             "Android_4_2","Android_4_3","Android_4_4"
           ]

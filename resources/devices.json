@@ -1536,6 +1536,18 @@
         "isTablet": "true"
       }
     },
+    "Sony A5000": {
+      "properties": {
+        "Device_Type": "Digital Camera",
+        "Device_Code_Name": "A5000",
+        "Device_Name": "Alpha a5000",
+        "Device_Maker": "Sony",
+        "Device_Brand_Name": "Sony",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Ericsson T68": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -3473,18 +3485,6 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SM-N900V",
         "Device_Name": "Galaxy Note 3 LTE (Verizon)",
-        "Device_Maker": "Samsung",
-        "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
-    "Samsung SM-N7505": {
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "SM-N7505",
-        "Device_Name": "Note 3 Neo Duos",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "touchscreen",
@@ -6869,6 +6869,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "XT923",
         "Device_Name": "Droid Razr HD",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola Razr": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Razr",
+        "Device_Name": "Droid Razr",
         "Device_Maker": "Motorola",
         "Device_Brand_Name": "Motorola",
         "Device_Pointing_Method": "touchscreen",
@@ -11952,6 +11964,18 @@
         "isTablet": "false"
       }
     },
+    "Acer B1-711": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "B1-711",
+        "Device_Name": "Iconia B1-711",
+        "Device_Maker": "Acer",
+        "Device_Brand_Name": "Acer",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Mobistel Cynus T2": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -15384,6 +15408,18 @@
         "isTablet": "false"
       }
     },
+    "Micromax A065": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A065",
+        "Device_Name": "Bolt A065",
+        "Device_Maker": "Micromax",
+        "Device_Brand_Name": "Micromax",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Alcatel OT-4030D": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -15631,6 +15667,18 @@
         "Device_Name": "BH4",
         "Device_Maker": "Alcatel",
         "Device_Brand_Name": "Alcatel",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Alcatel 975N": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "975N",
+        "Device_Name": "Smart III",
+        "Device_Maker": "Alcatel",
+        "Device_Brand_Name": "Vodafone",
         "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
@@ -16692,6 +16740,18 @@
         "isTablet": "false"
       }
     },
+    "Lenovo B6000-F": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "B6000-F",
+        "Device_Name": "Yoga B6000-F",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Malata I50": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -16906,6 +16966,30 @@
         "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
+      }
+    },
+    "Pearl X10.Dual+": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "X10",
+        "Device_Name": "Touchlet X10.Dual+",
+        "Device_Maker": "Pearl",
+        "Device_Brand_Name": "Pearl",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Pearl X10.Dual": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "X10",
+        "Device_Name": "Touchlet X10.Dual",
+        "Device_Maker": "Pearl",
+        "Device_Brand_Name": "Pearl",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
       }
     },
     "YUANDAO N90FHDRK": {
@@ -19316,6 +19400,18 @@
         "Device_Maker": "Phicomm",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Phicomm",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Fly IQ4409 Quad": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "ERA Life 4",
+        "Device_Code_Name": "IQ4409 Quad",
+        "Device_Maker": "Fly",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Fly",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
