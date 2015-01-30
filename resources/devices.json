@@ -19619,6 +19619,54 @@
         "isMobileDevice": "true",
         "isTablet": "false"
       }
+    },
+    "Zeki TBD1083": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "TBD1083",
+        "Device_Code_Name": "TBD1083",
+        "Device_Maker": "Zeki",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Zeki",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Zeki TBDB863": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "TBDB863",
+        "Device_Code_Name": "TBDB863",
+        "Device_Maker": "Zeki",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Zeki",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Zeki TBDC1093": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "TBDC1093",
+        "Device_Code_Name": "TBDC1093",
+        "Device_Maker": "Zeki",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Zeki",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "GOCLEVER A1021": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "TERRA 101",
+        "Device_Code_Name": "A1021",
+        "Device_Maker": "GOCLEVER",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "GOCLEVER",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
     }
   }
 }
