@@ -6456,18 +6456,6 @@
         "isTablet": "false"
       }
     },
-    "Asus TF101": {
-      "properties": {
-        "Device_Type": "Tablet",
-        "Device_Code_Name": "TF101",
-        "Device_Name": "Eee Pad Transformer TF101",
-        "Device_Maker": "Asus",
-        "Device_Brand_Name": "Asus",
-        "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
     "Asus TF101G": {
       "properties": {
         "Device_Type": "Tablet",
