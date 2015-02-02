@@ -496,13 +496,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I9500 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "JavaApplets": "false",
-            "Device_Code_Name": "GT-I9500",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S4"
-          },
+          "device": "Samsung GT-I9500",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2"
           ]
@@ -712,40 +706,21 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#LT25i Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "Device_Code_Name": "LT25i",
-            "Device_Maker": "Sony",
-            "Device_Brand_Name": "Sony",
-            "Device_Name": "Xperia V"
-          },
+          "device": "SonyEricsson LT25i",
           "platforms": [
             "Android_4_0", "Android_4_1"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SGPT13 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "Device_Type": "Tablet",
-            "isTablet": "true",
-            "Device_Code_Name": "SGPT13",
-            "Device_Maker": "Sony",
-            "Device_Brand_Name": "Sony",
-            "Device_Name": "Xperia Tablet S"
-          },
+          "device": "Sony SGPT13",
           "platforms": [
             "Android_4_0"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#B1-710 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "Device_Type": "Tablet",
-            "isTablet": "true",
-            "Device_Code_Name": "B1-710",
-            "Device_Maker": "Acer",
-            "Device_Brand_Name": "Acer",
-            "Device_Name": "Iconia B1-710"
-          },
+          "device": "Acer B1-710",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
           ]
@@ -759,28 +734,14 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-P5200 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "Device_Type": "Tablet",
-            "isTablet": "true",
-            "Device_Code_Name": "GT-P5200",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Tab 3 10.1 3G"
-          },
+          "device": "Samsung GT-P5200",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#cm_tenderloin Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "Device_Code_Name": "Touchpad",
-            "Device_Maker": "HP",
-            "Device_Brand_Name": "HP",
-            "Device_Name": "Touchpad",
-            "Device_Type": "Tablet",
-            "isTablet": "true"
-          },
+          "device": "HP Touchpad",
           "platforms": [
             "Android_4_0"
           ]
@@ -801,14 +762,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#INSIGNIA_785_PRO Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "Device_Code_Name": "INSIGNIA 785 PRO",
-            "Device_Maker": "GOCLEVER",
-            "Device_Brand_Name": "GOCLEVER",
-            "Device_Name": "INSIGNIA 785 PRO",
-            "isTablet": "true",
-            "Device_Type": "Tablet"
-          },
+          "device": "GOCLEVER INSIGNIA 785 PRO",
           "platforms": [
             "Android_4_2"
           ]
@@ -960,6 +914,7 @@
       "userAgent": "Chrome #MAJORVER#.#MINORVER# for iOS",
       "platform": "iOS",
       "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Chrome #MAJORVER#.#MINORVER#",
@@ -976,14 +931,7 @@
         "Cookies": "true",
         "JavaScript": "true",
         "JavaApplets": "true",
-        "CssVersion": "3",
-        "isMobileDevice": "true",
-        "isTablet": "false",
-        "Device_Code_Name": "general Mobile Device",
-        "Device_Name": "general Mobile Device",
-        "Device_Maker": "Apple Inc",
-        "Device_Type": "Mobile Device",
-        "Device_Pointing_Method": "touchscreen"
+        "CssVersion": "3"
       },
       "children": [
         {
@@ -1026,6 +974,7 @@
     {
       "userAgent": "Chrome #MAJORVER#.#MINORVER#",
       "engine": "WebKit",
+      "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Chrome #MAJORVER#.#MINORVER#",
@@ -1042,12 +991,7 @@
         "Cookies": "true",
         "JavaScript": "true",
         "JavaApplets": "true",
-        "CssVersion": "3",
-        "Device_Code_Name": "general Desktop",
-        "Device_Name": "PC",
-        "Device_Maker": "Various",
-        "Device_Type": "Desktop",
-        "Device_Pointing_Method": "mouse"
+        "CssVersion": "3"
       },
       "children": [
         {

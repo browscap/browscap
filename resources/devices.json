@@ -17256,6 +17256,18 @@
         "isTablet": "true"
       }
     },
+    "Prestigio PMP5670C_DUO": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "PMP5670C_DUO",
+        "Device_Name": "MultiPad 2 PRO DUO 7.0",
+        "Device_Maker": "Prestigio",
+        "Device_Brand_Name": "Prestigio",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "HP Touchpad": {
       "properties": {
         "Device_Type": "FonePad",
@@ -19652,6 +19664,42 @@
         "Device_Maker": "GOCLEVER",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "GOCLEVER",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "GOCLEVER INSIGNIA 785 PRO": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "INSIGNIA 785 PRO",
+        "Device_Code_Name": "INSIGNIA 785 PRO",
+        "Device_Maker": "GOCLEVER",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "GOCLEVER",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "MODECOM FreeTAB 1001": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "FreeTAB 1001",
+        "Device_Code_Name": "FreeTAB 1001",
+        "Device_Maker": "MODECOM",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "MODECOM",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "myTAB Mini 3G": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "Mini 3G",
+        "Device_Code_Name": "Mini 3G",
+        "Device_Maker": "myTAB",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "myTAB",
         "isMobileDevice": "true",
         "isTablet": "true"
       }

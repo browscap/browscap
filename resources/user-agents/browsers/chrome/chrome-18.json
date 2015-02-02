@@ -772,96 +772,49 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#FreeTAB 1001 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "FreeTAB 1001",
-            "Device_Maker": "MODECOM",
-            "Device_Brand_Name": "MODECOM",
-            "Device_Name": "FreeTAB 1001"
-          },
+          "device": "MODECOM FreeTAB 1001",
           "platforms": [
             "Android_4_2"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#PMP5670C_DUO Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "PMP5670C_DUO",
-            "Device_Maker": "Prestigio",
-            "Device_Brand_Name": "Prestigio",
-            "Device_Name": "MultiPad 2 PRO DUO 7.0"
-          },
+          "device": "Prestigio PMP5670C_DUO",
           "platforms": [
             "Android_4_1"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#myTAB Mini 3G Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "Mini 3G",
-            "Device_Maker": "myTAB",
-            "Device_Brand_Name": "myTAB",
-            "Device_Name": "Mini 3G"
-          },
+          "device": "myTAB Mini 3G",
           "platforms": [
             "Android_4_2"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SmartTabII10 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "SmartTab II 10",
-            "Device_Maker": "Lenovo",
-            "Device_Brand_Name": "Vodafone",
-            "Device_Name": "SmartTab II 10"
-          },
+          "device": "Lenovo SmartTab II 10",
           "platforms": [
             "Android_4_0"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#LG-E460 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "Device_Code_Name": "E460",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "Optimus L5 II"
-          },
+          "device": "LG E460",
           "platforms": [
             "Android_4_1"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#ME371MG Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "ME371MG",
-            "Device_Maker": "Asus",
-            "Device_Brand_Name": "Asus",
-            "Device_Name": "Fonepad ME371MG"
-          },
+          "device": "Lenovo ME371MG",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SGPT13 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "Device_Type": "Tablet",
-            "isTablet": "true",
-            "Device_Code_Name": "SGPT13",
-            "Device_Maker": "Sony",
-            "Device_Brand_Name": "Sony",
-            "Device_Name": "Xperia Tablet S"
-          },
+          "device": "Sony SGPT13",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
           ]
@@ -887,6 +840,7 @@
       "userAgent": "Chrome #MAJORVER#.#MINORVER# for iOS",
       "platform": "iOS",
       "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Chrome #MAJORVER#.#MINORVER#",
@@ -903,14 +857,7 @@
         "Cookies": "true",
         "JavaScript": "true",
         "JavaApplets": "true",
-        "CssVersion": "3",
-        "isMobileDevice": "true",
-        "isTablet": "false",
-        "Device_Code_Name": "general Mobile Device",
-        "Device_Name": "general Mobile Device",
-        "Device_Maker": "Apple Inc",
-        "Device_Type": "Mobile Device",
-        "Device_Pointing_Method": "touchscreen"
+        "CssVersion": "3"
       },
       "children": [
         {
@@ -953,6 +900,7 @@
     {
       "userAgent": "Chrome #MAJORVER#.#MINORVER#",
       "engine": "WebKit",
+      "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Chrome #MAJORVER#.#MINORVER#",
@@ -969,12 +917,7 @@
         "Cookies": "true",
         "JavaScript": "true",
         "JavaApplets": "true",
-        "CssVersion": "3",
-        "Device_Code_Name": "general Desktop",
-        "Device_Name": "PC",
-        "Device_Maker": "Various",
-        "Device_Type": "Desktop",
-        "Device_Pointing_Method": "mouse"
+        "CssVersion": "3"
       },
       "children": [
         {

@@ -1570,14 +1570,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#INSIGNIA_785_PRO Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "Device_Code_Name": "INSIGNIA 785 PRO",
-            "Device_Maker": "GOCLEVER",
-            "Device_Brand_Name": "GOCLEVER",
-            "Device_Name": "INSIGNIA 785 PRO",
-            "isTablet": "true",
-            "Device_Type": "Tablet"
-          },
+          "device": "GOCLEVER INSIGNIA 785 PRO",
           "platforms": [
             "Android_4_2"
           ]
@@ -1661,14 +1654,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#FreeTAB 1001 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "FreeTAB 1001",
-            "Device_Maker": "MODECOM",
-            "Device_Brand_Name": "MODECOM",
-            "Device_Name": "FreeTAB 1001"
-          },
+          "device": "MODECOM FreeTAB 1001",
           "platforms": [
             "Android_4_2"
           ]
@@ -2660,14 +2646,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#myTAB Mini 3G Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "Mini 3G",
-            "Device_Maker": "myTAB",
-            "Device_Brand_Name": "myTAB",
-            "Device_Name": "Mini 3G"
-          },
+          "device": "myTAB Mini 3G",
           "platforms": [
             "Android_4_2"
           ]
