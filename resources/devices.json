@@ -16056,6 +16056,18 @@
         "isTablet": "false"
       }
     },
+    "Dell Venue 8 3830": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "Venue 8 3830",
+        "Device_Name": "Venue 8 3830",
+        "Device_Maker": "Dell",
+        "Device_Brand_Name": "Dell",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "KDDI IS03": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -16289,6 +16301,18 @@
         "Device_Type": "Tablet",
         "Device_Code_Name": "AT300SE",
         "Device_Name": "Regza AT300SE",
+        "Device_Maker": "Toshiba",
+        "Device_Brand_Name": "Toshiba",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Toshiba AT10-A": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "AT10-A",
+        "Device_Name": "eXcite Pure",
         "Device_Maker": "Toshiba",
         "Device_Brand_Name": "Toshiba",
         "Device_Pointing_Method": "touchscreen",
@@ -17261,6 +17285,42 @@
         "Device_Type": "Tablet",
         "Device_Code_Name": "PMP5670C_DUO",
         "Device_Name": "MultiPad 2 PRO DUO 7.0",
+        "Device_Maker": "Prestigio",
+        "Device_Brand_Name": "Prestigio",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Prestigio PMP7079D3G_QUAD": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "PMP7079D3G_QUAD",
+        "Device_Name": "MultiPad 4 Diamond 7.85 3G",
+        "Device_Maker": "Prestigio",
+        "Device_Brand_Name": "Prestigio",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Prestigio PMP7480D3G_QUAD": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "PMP7480D3G_QUAD",
+        "Device_Name": "MultiPad 4 Ultimate 8.0 3G",
+        "Device_Maker": "Prestigio",
+        "Device_Brand_Name": "Prestigio",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Prestigio PMP5785C_QUAD": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "PMP5785C_QUAD",
+        "Device_Name": "MultiPad 4 Quantum 7.85",
         "Device_Maker": "Prestigio",
         "Device_Brand_Name": "Prestigio",
         "Device_Pointing_Method": "touchscreen",
@@ -19680,11 +19740,47 @@
         "isTablet": "true"
       }
     },
+    "GOCLEVER Aries 785": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "Aries 785",
+        "Device_Code_Name": "Aries 785",
+        "Device_Maker": "GOCLEVER",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "GOCLEVER",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "GOCLEVER Aries 101": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "Aries 101",
+        "Device_Code_Name": "Aries 101",
+        "Device_Maker": "GOCLEVER",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "GOCLEVER",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "MODECOM FreeTAB 1001": {
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "FreeTAB 1001",
         "Device_Code_Name": "FreeTAB 1001",
+        "Device_Maker": "MODECOM",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "MODECOM",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "MODECOM FreeTAB 1014 IPS X4 3G+": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "FreeTAB 1014 IPS X4 3G+",
+        "Device_Code_Name": "FreeTAB 1014 IPS X4 3G+",
         "Device_Maker": "MODECOM",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "MODECOM",
