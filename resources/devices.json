@@ -1584,6 +1584,42 @@
         "isTablet": "true"
       }
     },
+    "Sony D5803": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "D5803",
+        "Device_Name": "Xperia Z3 Compact",
+        "Device_Maker": "Sony",
+        "Device_Brand_Name": "Sony",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Sony SGP312": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "SGP312",
+        "Device_Name": "Xperia Tablet Z",
+        "Device_Maker": "Sony",
+        "Device_Brand_Name": "Sony",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Sony D6603": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "D6603",
+        "Device_Name": "Xperia Z3",
+        "Device_Maker": "Sony",
+        "Device_Brand_Name": "Sony",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Ericsson T68": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -3857,6 +3893,30 @@
         "Device_Type": "Tablet",
         "Device_Code_Name": "SM-T325",
         "Device_Name": "Galaxy Tab Pro 8.4 LTE",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Samsung SM-T705": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "SM-T705",
+        "Device_Name": "Galaxy Tab S 8.4 LTE",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Samsung SM-T2105": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "SM-T2105",
+        "Device_Name": "Galaxy Tab 3 Kids",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "touchscreen",
@@ -11904,6 +11964,18 @@
         "isTablet": "true"
       }
     },
+    "LG V490": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "V490",
+        "Device_Name": "G Pad 8.0 4G LTE",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "1 & 1 Smartpad": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -12233,6 +12305,18 @@
         "Device_Type": "Tablet",
         "Device_Code_Name": "A1-830",
         "Device_Name": "Iconia A1-830",
+        "Device_Maker": "Acer",
+        "Device_Brand_Name": "Acer",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Acer B1-730HD": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "B1-730HD",
+        "Device_Name": "Iconia One 7",
         "Device_Maker": "Acer",
         "Device_Brand_Name": "Acer",
         "Device_Pointing_Method": "touchscreen",
@@ -17148,6 +17232,18 @@
         "isTablet": "true"
       }
     },
+    "Lenovo A3300-H": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "A3300-H",
+        "Device_Name": "A7-30 A3300 Wi-Fi",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Lenovo S5000-F": {
       "properties": {
         "Device_Type": "Tablet",
@@ -17213,6 +17309,66 @@
         "Device_Type": "Tablet",
         "Device_Code_Name": "A7600-H",
         "Device_Name": "A10-70 A7600 Wi-Fi + 3G",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Lenovo A5500-H": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "A5500-H",
+        "Device_Name": "Ideatab A8-50 WI-FI + 3G",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Lenovo A3500-H": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "A3500-H",
+        "Device_Name": "A7-50 A3500 Wi-Fi + 3G",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Lenovo A5500-F": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "A5500-F",
+        "Device_Name": "Ideatab A8-50 WI-FI",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Lenovo A7600-F": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "A7600-F",
+        "Device_Name": "A10-70 A7600 Wi-Fi",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Lenovo B8080-F": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "B8080-F",
+        "Device_Name": "Yoga Tab 10 HD+",
         "Device_Maker": "Lenovo",
         "Device_Brand_Name": "Lenovo",
         "Device_Pointing_Method": "touchscreen",
@@ -17609,6 +17765,54 @@
         "Device_Type": "Tablet",
         "Device_Code_Name": "PMT7077_3G",
         "Device_Name": "MultiPad 4 Diamond 7.85, 3G",
+        "Device_Maker": "Prestigio",
+        "Device_Brand_Name": "Prestigio",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Prestigio PMP5101C_QUAD": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "PMP5101C_QUAD",
+        "Device_Name": "MultiPad 4 Quantum 10.1",
+        "Device_Maker": "Prestigio",
+        "Device_Brand_Name": "Prestigio",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Prestigio PMT3277_3G": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "PMT3277_3G",
+        "Device_Name": "MultiPad Ranger 7.0 3G",
+        "Device_Maker": "Prestigio",
+        "Device_Brand_Name": "Prestigio",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Prestigio PMT3287_3G": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "PMT3287_3G",
+        "Device_Name": "MultiPad Ranger 8.0 3G Wifi",
+        "Device_Maker": "Prestigio",
+        "Device_Brand_Name": "Prestigio",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Prestigio PMT3377_Wi": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "PMT3377_Wi",
+        "Device_Name": "MultiPad Thunder 7.0i",
         "Device_Maker": "Prestigio",
         "Device_Brand_Name": "Prestigio",
         "Device_Pointing_Method": "touchscreen",
@@ -20124,6 +20328,30 @@
         "isTablet": "true"
       }
     },
+    "MODECOM FreeTAB 9000 IPS IC": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "FreeTAB 9000 IPS IC",
+        "Device_Code_Name": "FreeTAB 9000 IPS IC",
+        "Device_Maker": "MODECOM",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "MODECOM",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "MODECOM FreeTAB 7800 IPS IC": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "FreeTAB 7800 IPS IC",
+        "Device_Code_Name": "FreeTAB 7800 IPS IC",
+        "Device_Maker": "MODECOM",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "MODECOM",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "myTAB Mini 3G": {
       "properties": {
         "Device_Type": "Tablet",
@@ -20144,6 +20372,102 @@
         "Device_Maker": "Orange",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Orange",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Overmax Solution 10 Ii 3G": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "Solution 10 Ii 3G",
+        "Device_Code_Name": "Solution 10 Ii 3G",
+        "Device_Maker": "Overmax",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Overmax",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Overmax Quattor 10+": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "Quattor 10+",
+        "Device_Code_Name": "Quattor 10+",
+        "Device_Maker": "Overmax",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Overmax",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Overmax SteelCore": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "SteelCore",
+        "Device_Code_Name": "SteelCore",
+        "Device_Maker": "Overmax",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Overmax",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Kiano Elegance 8 3G": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "Elegance 8 3G",
+        "Device_Code_Name": "Elegance 8 3G",
+        "Device_Maker": "Kiano",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Kiano",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Kiano Elegance": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "Elegance",
+        "Device_Code_Name": "Elegance",
+        "Device_Maker": "Kiano",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Kiano",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Manta MID802": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "MID802 POWER DUO HD",
+        "Device_Code_Name": "MID802",
+        "Device_Maker": "Manta",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Manta",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Philips PI3210G": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "Amio7",
+        "Device_Code_Name": "PI3210G",
+        "Device_Maker": "Philips",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Philips",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Shiru Samurai 10": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "Samurai 10",
+        "Device_Code_Name": "Samurai 10",
+        "Device_Maker": "Shiru",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Shiru",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
