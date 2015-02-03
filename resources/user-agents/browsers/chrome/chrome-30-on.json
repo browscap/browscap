@@ -1322,14 +1322,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#A3000-H Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "A3000-H",
-            "Device_Maker": "Lenovo",
-            "Device_Brand_Name": "Lenovo",
-            "Device_Name": "IdeaTab A3000-H"
-          },
+          "device": "Lenovo A3000-H",
           "platforms": [
             "Android_4_2", "Android_4_3"
           ]
@@ -1427,13 +1420,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#D5503 Build\/*) AppleWebKit\/*(KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isTablet": "false",
-            "Device_Code_Name": "D5503",
-            "Device_Maker": "Sony",
-            "Device_Brand_Name": "Sony",
-            "Device_Name": "Xperia Z1 Compact"
-          },
+          "device": "Sony D5503",
           "platforms": [
             "Android_4_4"
           ]
@@ -1488,68 +1475,35 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#LIFETAB_E10316 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "LifeTab E10316",
-            "Device_Maker": "Medion",
-            "Device_Brand_Name": "Medion",
-            "Device_Name": "LifeTab E10316"
-          },
+          "device": "Medion LifeTab E10316",
           "platforms": [
             "Android_4_2"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#HTC?One?mini* Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "Device_Code_Name": "One Mini",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "One Mini"
-          },
+          "device": "HTC One Mini",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Lenovo B8080-H Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "Device_Code_Name": "B8080-H",
-            "Device_Maker": "Lenovo",
-            "Device_Brand_Name": "Lenovo",
-            "Device_Name": "Yoga Tablet 10 HD+",
-            "isTablet": "true",
-            "Device_Type": "Tablet"
-          },
+          "device": "Lenovo B8080-H",
           "platforms": [
             "Android_4_3", "Android_4_4"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#MediaPad T1 8.0 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "Device_Code_Name": "S8-701u",
-            "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
-            "Device_Name": "MediaPad T1 8.0",
-            "isTablet": "true",
-            "Device_Type": "Tablet"
-          },
+          "device": "Huawei S8-701u",
           "platforms": [
             "Android_4_3", "Android_4_4"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#TQ700 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "Device_Code_Name": "TQ700",
-            "Device_Maker": "GOCLEVER",
-            "Device_Brand_Name": "GOCLEVER",
-            "Device_Name": "QUANTUM 700",
-            "isTablet": "true",
-            "Device_Type": "Tablet"
-          },
+          "device": "GOCLEVER TQ700",
           "platforms": [
             "Android_4_4"
           ]
@@ -1598,14 +1552,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SM-T110 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "SM-T110",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Tab 3 Lite 7"
-          },
+          "device": "Samsung SM-T110",
           "platforms": [
             "Android_4_2"
           ]
@@ -1626,84 +1573,42 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#FreeTAB 7001 HD IC Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "FreeTAB 7001 HD IC",
-            "Device_Maker": "MODECOM",
-            "Device_Brand_Name": "MODECOM",
-            "Device_Name": "FreeTAB 7001 HD IC"
-          },
+          "device": "MODECOM FreeTAB 7001 HD IC",
           "platforms": [
             "Android_4_4"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#FreeTAB 8001 IPS X2 3G+ Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "FreeTAB 8001 IPS X2 3G+",
-            "Device_Maker": "MODECOM",
-            "Device_Brand_Name": "MODECOM",
-            "Device_Name": "FreeTAB 8001 IPS X2 3G+"
-          },
+          "device": "MODECOM FreeTAB 8001 IPS X2 3G+",
           "platforms": [
             "Android_4_1"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SM-T311 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "SM-T311",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Tab 3 8.0 3G"
-          },
+          "device": "Samsung SM-T311",
           "platforms": [
             "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SM-T235 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "SM-T235",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Tab 4 7.0 WiFi + LTE"
-          },
+          "device": "Samsung SM-T235",
           "platforms": [
             "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SM-T210 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "SM-T210",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Tab 3 7.0"
-          },
+          "device": "Samsung SM-T210",
           "platforms": [
             "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#PMT7077_3G Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "PMT7077_3G",
-            "Device_Maker": "Prestigio",
-            "Device_Brand_Name": "Prestigio",
-            "Device_Name": "MultiPad 4 Diamond 7.85, 3G"
-          },
+          "device": "Prestigio PMT7077_3G",
           "platforms": [
             "Android_4_2"
           ]
@@ -1717,28 +1622,14 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Venue 7 3730 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "Venue 7 3730",
-            "Device_Maker": "Dell",
-            "Device_Brand_Name": "Dell",
-            "Device_Name": "Venue 7 3730"
-          },
+          "device": "Dell Venue 7 3730",
           "platforms": [
             "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Venue 7 HSPA+ Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "Venue 7 HSPA+",
-            "Device_Maker": "Dell",
-            "Device_Brand_Name": "Dell",
-            "Device_Name": "Venue 7 HSPA+"
-          },
+          "device": "Dell Venue 7 HSPA+",
           "platforms": [
             "Android_4_2", "Android_4_3", "Android_4_4"
           ]
@@ -1759,70 +1650,35 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Venue 8 HSPA+ Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "Venue 8 HSPA+",
-            "Device_Maker": "Dell",
-            "Device_Brand_Name": "Dell",
-            "Device_Name": "Venue 8 HSPA+"
-          },
+          "device": "Dell Venue 8 HSPA+",
           "platforms": [
             "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Lenovo A3500-FL Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "A3500-FL",
-            "Device_Maker": "Lenovo",
-            "Device_Brand_Name": "Lenovo",
-            "Device_Name": "IdeaTab A7-40"
-          },
+          "device": "Lenovo A3500-FL",
           "platforms": [
             "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#FunTab 8 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "FunTab 8",
-            "Device_Maker": "Orange",
-            "Device_Brand_Name": "Orange",
-            "Device_Name": "FunTab 8"
-          },
+          "device": "Orange FunTab 8",
           "platforms": [
             "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#LG-V500 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "V500",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "G Pad 8.3"
-          },
+          "device": "LG V500",
           "platforms": [
             "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#ALCATEL ONE TOUCH P310X Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "P310X",
-            "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
-            "Device_Name": "One Touch Pop7 8GB WiFi 3G"
-          },
+          "device": "Alcatel P310X",
           "platforms": [
             "Android_4_2"
           ]
@@ -1836,140 +1692,70 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Lenovo S5000-F Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "S5000-F",
-            "Device_Maker": "Lenovo",
-            "Device_Brand_Name": "Lenovo",
-            "Device_Name": "IdeaTab S5000-F"
-          },
+          "device": "Lenovo S5000-F",
           "platforms": [
             "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Lenovo S5000-H Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "S5000-H",
-            "Device_Maker": "Lenovo",
-            "Device_Brand_Name": "Lenovo",
-            "Device_Name": "IdeaTab S5000-H"
-          },
+          "device": "Lenovo S5000-H",
           "platforms": [
             "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#PMT5587_Wi Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "PMT5587_Wi",
-            "Device_Maker": "Prestigio",
-            "Device_Brand_Name": "Prestigio",
-            "Device_Name": "MultiPad 8.0 HD"
-          },
+          "device": "Prestigio PMT5587_Wi",
           "platforms": [
             "Android_4_2"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#ALCATEL ONE TOUCH P320X Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "P320X",
-            "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
-            "Device_Name": "One Touch POP 8 3G"
-          },
+          "device": "Alcatel P320X",
           "platforms": [
             "Android_4_2"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SGP511 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "SGP511",
-            "Device_Maker": "Sony",
-            "Device_Brand_Name": "Sony",
-            "Device_Name": "Xperia Tablet Z2 WiFi"
-          },
+          "device": "Sony SGP511",
           "platforms": [
             "Android_4_4"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SM-T700 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "SM-T700",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Tab S 8.4 Wi-Fi"
-          },
+          "device": "Samsung SM-T700",
           "platforms": [
             "Android_4_4"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SGP521 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "SGP521",
-            "Device_Maker": "Sony",
-            "Device_Brand_Name": "Sony",
-            "Device_Name": "Xperia Tablet Z2 LTE"
-          },
+          "device": "Sony SGP521",
           "platforms": [
             "Android_4_4"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Lenovo A7600-H Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "A7600-H",
-            "Device_Maker": "Lenovo",
-            "Device_Brand_Name": "Lenovo",
-            "Device_Name": "A10-70 A7600 Wi-Fi + 3G"
-          },
+          "device": "Lenovo A7600-H",
           "platforms": [
             "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SM-T325 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "SM-T325",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Tab Pro 8.4 LTE"
-          },
+          "device": "Samsung SM-T325",
           "platforms": [
             "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-N5110 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "GT-N5110",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Note 8.0"
-          },
+          "device": "Samsung GT-N5110",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
           ]
@@ -2151,14 +1937,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#K01A Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "K01A",
-            "Device_Maker": "Asus",
-            "Device_Brand_Name": "Asus",
-            "Device_Name": "MeMO Pad 7"
-          },
+          "device": "Asus K01A",
           "platforms": [
             "Android_4_3"
           ]
@@ -2499,14 +2278,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#FreeTAB 9702 HD X4 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "FreeTAB 9702 HD X4",
-            "Device_Maker": "MODECOM",
-            "Device_Brand_Name": "MODECOM",
-            "Device_Name": "FreeTAB 9702 HD X4"
-          },
+          "device": "MODECOM FreeTAB 9702 HD X4",
           "platforms": [
             "Android_4_2"
           ]
@@ -2569,14 +2341,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#K012 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "K012",
-            "Device_Maker": "Asus",
-            "Device_Brand_Name": "Asus",
-            "Device_Name": "K012"
-          },
+          "device": "Asus K012",
           "platforms": [
             "Android_4_3"
           ]
@@ -2604,28 +2369,14 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#IdeaPadA10 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "IdeaPad A10",
-            "Device_Maker": "Lenovo",
-            "Device_Brand_Name": "Lenovo",
-            "Device_Name": "IdeaPad A10"
-          },
+          "device": "Lenovo IdeaPad A10",
           "platforms": [
             "Android_4_2"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#A1-830 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "A1-830",
-            "Device_Maker": "Acer",
-            "Device_Brand_Name": "Acer",
-            "Device_Name": "Iconia A1-830"
-          },
+          "device": "Acer A1-830",
           "platforms": [
             "Android_4_2"
           ]

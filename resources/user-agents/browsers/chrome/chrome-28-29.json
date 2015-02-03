@@ -1266,42 +1266,21 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Lenovo S5000-F Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "S5000-F",
-            "Device_Maker": "Lenovo",
-            "Device_Brand_Name": "Lenovo",
-            "Device_Name": "IdeaTab S5000-F"
-          },
+          "device": "Lenovo S5000-F",
           "platforms": [
             "Android_4_2"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Lenovo S5000-H Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "S5000-H",
-            "Device_Maker": "Lenovo",
-            "Device_Brand_Name": "Lenovo",
-            "Device_Name": "IdeaTab S5000-H"
-          },
+          "device": "Lenovo S5000-H",
           "platforms": [
             "Android_4_2"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#PMT5587_Wi Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "PMT5587_Wi",
-            "Device_Maker": "Prestigio",
-            "Device_Brand_Name": "Prestigio",
-            "Device_Name": "MultiPad 8.0 HD"
-          },
+          "device": "Prestigio PMT5587_Wi",
           "platforms": [
             "Android_4_2"
           ]
@@ -1322,42 +1301,21 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#K01A Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "K01A",
-            "Device_Maker": "Asus",
-            "Device_Brand_Name": "Asus",
-            "Device_Name": "MeMO Pad 7"
-          },
+          "device": "Asus K01A",
           "platforms": [
             "Android_4_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SM-T210 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "SM-T210",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Tab 3 7.0"
-          },
+          "device": "Samsung SM-T210",
           "platforms": [
             "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Venue 7 3730 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "Venue 7 3730",
-            "Device_Maker": "Dell",
-            "Device_Brand_Name": "Dell",
-            "Device_Name": "Venue 7 3730"
-          },
+          "device": "Dell Venue 7 3730",
           "platforms": [
             "Android_4_2", "Android_4_3", "Android_4_4"
           ]
@@ -1371,42 +1329,21 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#LG-V500 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "V500",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "G Pad 8.3"
-          },
+          "device": "LG V500",
           "platforms": [
             "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#FreeTAB 9702 HD X4 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "FreeTAB 9702 HD X4",
-            "Device_Maker": "MODECOM",
-            "Device_Brand_Name": "MODECOM",
-            "Device_Name": "FreeTAB 9702 HD X4"
-          },
+          "device": "MODECOM FreeTAB 9702 HD X4",
           "platforms": [
             "Android_4_2"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#K012 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "K012",
-            "Device_Maker": "Asus",
-            "Device_Brand_Name": "Asus",
-            "Device_Name": "K012"
-          },
+          "device": "Asus K012",
           "platforms": [
             "Android_4_3"
           ]
@@ -1420,28 +1357,14 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#IdeaPadA10 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "IdeaPad A10",
-            "Device_Maker": "Lenovo",
-            "Device_Brand_Name": "Lenovo",
-            "Device_Name": "IdeaPad A10"
-          },
+          "device": "Lenovo IdeaPad A10",
           "platforms": [
             "Android_4_2"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#A1-830 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "A1-830",
-            "Device_Maker": "Acer",
-            "Device_Brand_Name": "Acer",
-            "Device_Name": "Iconia A1-830"
-          },
+          "device": "Acer A1-830",
           "platforms": [
             "Android_4_2"
           ]
