@@ -45,6 +45,21 @@
       "platform": "iOS",
       "device": "general Mobile Device (Apple)",
       "engine": "WebKit",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Chrome Generic",
+        "Browser": "Chrome",
+        "Browser_Maker": "Google Inc",
+        "Browser_Type": "Browser",
+        "Win32": "true",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "true",
+        "CssVersion": "3"
+      },
       "children": [
         {
           "match": "Mozilla\/5.0 (iPad#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) *CriOS\/*Safari\/*",

@@ -9,6 +9,8 @@
       "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
+        "Comment": "Playstation Browser",
+        "Browser": "Playstation Browser",
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
@@ -18,23 +20,11 @@
       "children": [
         {
           "match": "Mozilla\/* (PlayStation 4*",
-          "properties": {
-            "Device_Code_Name": "Playstation 4",
-            "Device_Name": "Playstation 4",
-            "Device_Maker": "Sony",
-            "Device_Brand_Name": "Sony",
-            "Device_Type": "TV Device"
-          }
+          "device": "Sony PS4"
         },
         {
           "match": "Mozilla\/* (PLAYSTATION 3*",
-          "properties": {
-            "Device_Code_Name": "Playstation 3",
-            "Device_Name": "Playstation 3",
-            "Device_Maker": "Sony",
-            "Device_Brand_Name": "Sony",
-            "Device_Type": "TV Device"
-          }
+          "device": "Sony PS3"
         }
       ]
     },
@@ -85,19 +75,16 @@
       "children": [
         {
           "match": "Mozilla\/* (PSP (PlayStation Portable)*)",
+          "device": "Sony PSP",
           "properties": {
-            "Browser": "Sony PSP",
-            "Device_Name": "PSP"
+            "Browser": "Sony PSP"
           }
         },
         {
           "match": "Sony PS2 (Linux)",
+          "device": "Sony PS2",
           "properties": {
-            "Browser": "Sony PS2",
-            "Device_Name": "PS2",
-            "isMobileDevice": "true",
-            "Device_Maker": "Sony",
-            "Device_Type": "Console"
+            "Browser": "Sony PS2"
           },
           "platforms": [
             "Linux"

@@ -1704,6 +1704,18 @@
         "isTablet": "false"
       }
     },
+    "Microsoft Xbox One": {
+      "properties": {
+        "Device_Type": "TV Device",
+        "Device_Code_Name": "Xbox One",
+        "Device_Name": "Xbox One",
+        "Device_Maker": "Microsoft Corporation",
+        "Device_Brand_Name": "Microsoft",
+        "Device_Pointing_Method": "mouse",
+        "isMobileDevice": "false",
+        "isTablet": "false"
+      }
+    },
     "Microsoft ZuneHD": {
       "properties": {
         "Device_Type": "Mobile Device",
@@ -3917,6 +3929,18 @@
         "Device_Type": "Tablet",
         "Device_Code_Name": "SM-T2105",
         "Device_Name": "Galaxy Tab 3 Kids",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Samsung SM-T531": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "SM-T531",
+        "Device_Name": "Galaxy Tab 4 10.1",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "touchscreen",
@@ -12972,6 +12996,18 @@
         "isTablet": "true"
       }
     },
+    "Huawei W1-U00": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "W1-U00",
+        "Device_Name": "Ascend W1",
+        "Device_Maker": "Huawei",
+        "Device_Brand_Name": "Huawei",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "UTStarcom GTX75": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -15713,6 +15749,30 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "1100",
         "Device_Name": "1100",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia Lumia 1320": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Lumia 1320",
+        "Device_Name": "Lumia 1320",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia Lumia 928": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Lumia 928",
+        "Device_Name": "Lumia 928",
         "Device_Maker": "Nokia",
         "Device_Brand_Name": "Nokia",
         "Device_Pointing_Method": "touchscreen",
@@ -19560,6 +19620,42 @@
         "isTablet": "false"
       }
     },
+    "NEC N905i": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "N905i",
+        "Device_Code_Name": "N905i",
+        "Device_Maker": "NEC",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "NEC",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "NEC N505i": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "N505i",
+        "Device_Code_Name": "N505i",
+        "Device_Maker": "NEC",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "NEC",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "NEC N504i": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "N504i",
+        "Device_Code_Name": "N504i",
+        "Device_Maker": "NEC",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "NEC",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Yarvik TAB10-400": {
       "properties": {
         "Device_Type": "Tablet",
@@ -20412,6 +20508,18 @@
         "isTablet": "true"
       }
     },
+    "Overmax Solution 7 III": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "Solution 7 III",
+        "Device_Code_Name": "Solution 7 III",
+        "Device_Maker": "Overmax",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Overmax",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Kiano Elegance 8 3G": {
       "properties": {
         "Device_Type": "Tablet",
@@ -20468,6 +20576,54 @@
         "Device_Maker": "Shiru",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Shiru",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "TB Touch Ignis 8": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "Ignis 8",
+        "Device_Code_Name": "Ignis 8",
+        "Device_Maker": "TB Touch",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "TB Touch",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "NTT System NTT 611 10.1": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "NTT 611 10.1",
+        "Device_Code_Name": "NTT 611 10.1",
+        "Device_Maker": "NTT System",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "NTT System",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Pentagram Tab 7.6": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "Tab 7.6",
+        "Device_Code_Name": "Tab 7.6",
+        "Device_Maker": "Pentagram",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Pentagram",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Digma iDsD7 3G": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "iDsD7 3G",
+        "Device_Code_Name": "iDsD7 3G",
+        "Device_Maker": "Digma",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Digma",
         "isMobileDevice": "true",
         "isTablet": "true"
       }

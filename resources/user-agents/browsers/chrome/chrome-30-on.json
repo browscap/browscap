@@ -2071,42 +2071,21 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Ignis 8 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "Ignis 8",
-            "Device_Maker": "TB Touch",
-            "Device_Brand_Name": "TB Touch",
-            "Device_Name": "Ignis 8"
-          },
+          "device": "TB Touch Ignis 8",
           "platforms": [
             "Android_4_2"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#NTT 611 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "NTT 611 10.1",
-            "Device_Maker": "NTT System",
-            "Device_Brand_Name": "NTT System",
-            "Device_Name": "NTT 611 10.1"
-          },
+          "device": "NTT System NTT 611 10.1",
           "platforms": [
             "Android_4_1"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Solution 7III Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "Solution 7 III",
-            "Device_Maker": "Overmax",
-            "Device_Brand_Name": "Overmax",
-            "Device_Name": "Solution 7 III"
-          },
+          "device": "Overmax Solution 7 III",
           "platforms": [
             "Android_4_2"
           ]
@@ -2127,14 +2106,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#PentagramTAB7.6 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "Tab 7.6",
-            "Device_Maker": "Pentagram",
-            "Device_Brand_Name": "Pentagram",
-            "Device_Name": "Tab 7.6"
-          },
+          "device": "Pentagram Tab 7.6",
           "platforms": [
             "Android_4_2"
           ]
@@ -2155,28 +2127,14 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Digma iDsD7 3G Build\/*) AppleWebKit\/*(KHTML,*like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "iDsD7 3G",
-            "Device_Maker": "Digma",
-            "Device_Brand_Name": "Digma",
-            "Device_Name": "iDsD7 3G"
-          },
+          "device": "Digma iDsD7 3G",
           "platforms": [
             "Android_4_0"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SM - T531 Build\/*) AppleWebKit\/*(KHTML,*like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "SM-T531",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Tab 4 10.1"
-          },
+          "device": "Samsung SM-T531",
           "platforms": [
             "Android_4_4"
           ]

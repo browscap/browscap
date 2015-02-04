@@ -64,14 +64,7 @@
         },
         {
           "match": "DoCoMo\/2.0 N905i(c100;TB;W24H16)*",
-          "properties": {
-            "Device_Code_Name": "N905i",
-            "Device_Maker": "Nec",
-            "Device_Brand_Name": "Nec",
-            "Device_Name": "N905i",
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone"
-          }
+          "device": "NEC N905i"
         },
         {
           "match": "DoCoMo\/2.0 P06B*"

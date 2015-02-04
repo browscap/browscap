@@ -31,6 +31,7 @@
         },
         {
           "match": "DoCoMo\/1.0\/N504i\/c10\/TB*",
+          "device": "NEC N504i",
           "properties": {
             "Version": "1.0",
             "MajorVer": "1",
@@ -39,14 +40,7 @@
         },
         {
           "match": "DoCoMo\/1.0\/N505i\/*",
-          "properties": {
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
-          }
-        },
-        {
-          "match": "DoCoMo\/1.0\/N505i\/c20\/TB\/W24H12",
+          "device": "NEC N505i",
           "properties": {
             "Version": "1.0",
             "MajorVer": "1",
