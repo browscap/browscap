@@ -220,15 +220,7 @@
         },
         {
           "match": "KDDI-KC31 UP.Browser\/6.2*",
-          "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
-            "isTablet": "false",
-            "Device_Code_Name": "KC31",
-            "Device_Maker": "KDDI",
-            "Device_Brand_Name": "KDDI",
-            "Device_Name": "W11K"
-          }
+          "device": "KDDI KC31"
         },
         {
           "match": "KDDI-KC32 UP.Browser\/6.2*"

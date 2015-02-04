@@ -28,21 +28,10 @@
       "children": [
         {
           "match": "HTC-P4600\/1.2 Opera\/9.5*",
-          "properties": {
-            "Device_Code_Name": "P4600",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "P4600"
-          }
+          "device": "HTC P4600"
         },
         {
-          "match": "HTC\/ 1.0 Opera 9.5",
-          "properties": {
-            "Device_Code_Name": "general HTC Device",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "general HTC Device"
-          }
+          "match": "HTC\/ 1.0 Opera 9.5"
         },
         {
           "match": "HTC_HD_T8282 Opera\/9.5*",
@@ -54,12 +43,7 @@
         },
         {
           "match": "HTC_P3701 Opera\/9.5*",
-          "properties": {
-            "Device_Code_Name": "P3701",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "P3701"
-          }
+          "device": "HTC P3701"
         },
         {
           "match": "HTC_Touch2_T3333 Opera\/9.5*",
@@ -79,12 +63,7 @@
         },
         {
           "match": "HTC_Touch_HD Opera\/9.5*",
-          "properties": {
-            "Device_Code_Name": "Touch HD",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "Touch HD"
-          }
+          "device": "HTC Touch HD"
         },
         {
           "match": "HTC_Touch_HD_T8282 Opera\/9.5*",
@@ -120,12 +99,7 @@
         },
         {
           "match": "SAMSUNG-SGH-L810-Vodafone\/L810BUHEC SHP\/VPP\/R5 Opera\/9.5*",
-          "properties": {
-            "Device_Code_Name": "SGH-L810",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "SGH-L810"
-          }
+          "device": "Samsung SGH-L810"
         },
         {
           "match": "SAMSUNG-SGH-i900* Opera 9.5",
@@ -133,12 +107,7 @@
         },
         {
           "match": "Swisscom\/1.0\/HTC_Touch_Pro2\/ Opera\/9.5*",
-          "properties": {
-            "Device_Code_Name": "Touch Pro2",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "Touch Pro2"
-          }
+          "device": "HTC Touch Pro2"
         },
         {
           "match": "Vodafone\/1.0\/HTC_Diamond Opera\/9.5*",

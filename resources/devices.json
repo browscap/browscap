@@ -1380,6 +1380,18 @@
         "isTablet": "false"
       }
     },
+    "SonyEricsson P990i": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "P990i",
+        "Device_Name": "P990i",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Sony C6603": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -1829,6 +1841,42 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-C6712",
         "Device_Name": "GT-C6712",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung GT-C3312": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GT-C3312",
+        "Device_Name": "GT-C3312",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung GT-C3312R": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GT-C3312R",
+        "Device_Name": "GT-C3312R",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung GT-C3262": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GT-C3262",
+        "Device_Name": "GT-C3262",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "touchscreen",
@@ -3048,6 +3096,54 @@
         "isTablet": "false"
       }
     },
+    "Samsung GT-S5222R": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GT-S5222R",
+        "Device_Name": "GT-S5222R",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung GT-S5222": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GT-S5222",
+        "Device_Name": "GT-S5222",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung GT-S5292": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GT-S5292",
+        "Device_Name": "GT-S5292",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung GT-S3802": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GT-S3802",
+        "Device_Name": "GT-S3802",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Samsung GT-M8910": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -3149,6 +3245,54 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-E2550",
         "Device_Name": "GT-E2550",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung GT-E2252": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GT-E2252",
+        "Device_Name": "GT-E2252",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung GT-E1282T": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GT-E1282T",
+        "Device_Name": "GT-E1282T",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung GT-E2202": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GT-E2202",
+        "Device_Name": "GT-E2202",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung GT-E3309T": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GT-E3309T",
+        "Device_Name": "GT-E3309T",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "touchscreen",
@@ -3968,6 +4112,18 @@
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung SCH-U750": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SCH-U750",
+        "Device_Name": "Alias 2",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "unknown",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -6197,6 +6353,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SGH-A800",
         "Device_Name": "SGH-A800",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung SGH-L810": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SGH-L810",
+        "Device_Name": "SGH-L810",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "touchscreen",
@@ -10452,6 +10620,54 @@
         "isTablet": "false"
       }
     },
+    "HTC P4600": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "P4600",
+        "Device_Name": "P4600",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC P3701": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "P3701",
+        "Device_Name": "P3701",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC Touch HD": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Touch HD",
+        "Device_Name": "Touch HD",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC Touch Pro2": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Touch Pro2",
+        "Device_Name": "Touch Pro2",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "LG P500": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -11998,6 +12214,18 @@
         "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
+      }
+    },
+    "LG GT550": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GT550",
+        "Device_Name": "Encore",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
       }
     },
     "1 & 1 Smartpad": {
@@ -13577,7 +13805,7 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "10B",
         "Device_Name": "10B",
-        "Device_Maker": "Sharp",
+        "Device_Maker": "Sharp Corporation",
         "Device_Brand_Name": "Sharp",
         "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
@@ -13589,7 +13817,7 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SH80F",
         "Device_Name": "SH80F",
-        "Device_Maker": "Sharp",
+        "Device_Maker": "Sharp Corporation",
         "Device_Brand_Name": "Sharp",
         "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
@@ -13601,10 +13829,22 @@
         "Device_Type": "TV Device",
         "Device_Code_Name": "Aquos TV",
         "Device_Name": "Aquos TV",
-        "Device_Maker": "Sharp",
+        "Device_Maker": "Sharp Corporation",
         "Device_Brand_Name": "Sharp",
         "Device_Pointing_Method": "mouse",
         "isMobileDevice": "false",
+        "isTablet": "false"
+      }
+    },
+    "Sharp SH-05C": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SH-05C",
+        "Device_Name": "SH-05C",
+        "Device_Maker": "Sharp Corporation",
+        "Device_Brand_Name": "NTT Docomo",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
         "isTablet": "false"
       }
     },
@@ -16320,6 +16560,18 @@
         "isTablet": "false"
       }
     },
+    "ZTE Z221": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Z221",
+        "Device_Name": "Z221",
+        "Device_Maker": "ZTE",
+        "Device_Brand_Name": "AT&T",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Dell Streak": {
       "properties": {
         "Device_Type": "Tablet",
@@ -16553,6 +16805,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "CA39",
         "Device_Name": "CA39",
+        "Device_Maker": "KDDI",
+        "Device_Brand_Name": "KDDI",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "KDDI KC31": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "KC31",
+        "Device_Name": "W11K",
         "Device_Maker": "KDDI",
         "Device_Brand_Name": "KDDI",
         "Device_Pointing_Method": "unknown",
@@ -19169,6 +19433,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Name": "C810",
         "Device_Code_Name": "C810",
+        "Device_Maker": "Pantech",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Pantech",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Pantech P9020": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Pursuit P9020",
+        "Device_Code_Name": "P9020",
         "Device_Maker": "Pantech",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Pantech",

@@ -102,68 +102,42 @@
         },
         {
           "match": "SAMSUNG-GT-* Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
-          "properties": {
-            "Device_Maker": "Samsung"
-          },
+          "device": "general Mobile Device (Samsung)",
           "platforms": [
             "JAVA"
           ]
         },
         {
           "match": "SAMSUNG-GT-C3262* Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
-          "properties": {
-            "Device_Name": "GT-C3262",
-            "Device_Maker": "Samsung",
-            "Device_Code_Name": "GT-C3262",
-            "Device_Brand_Name": "Samsung",
-            "Device_Type": "Mobile Phone"
-          },
+          "device": "Samsung GT-C3262",
           "platforms": [
             "JAVA"
           ]
         },
         {
           "match": "SAMSUNG-GT-S3802* Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
-          "properties": {
-            "Device_Name": "GT-S3802",
-            "Device_Code_Name": "GT-S3802",
-            "Device_Brand_Name": "Samsung",
-            "Device_Maker": "Samsung",
-            "Device_Type": "Mobile Phone"
-          },
+          "device": "Samsung GT-S3802",
           "platforms": [
             "JAVA"
           ]
         },
         {
           "match": "SAMSUNG-GT-S5292* Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
-          "properties": {
-            "Device_Name": "GT-S5292",
-            "Device_Maker": "Samsung",
-            "Device_Type": "Mobile Phone"
-          },
+          "device": "Samsung GT-S5292",
           "platforms": [
             "JAVA"
           ]
         },
         {
           "match": "SAMSUNG-GT-C3312R* Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
-          "properties": {
-            "Device_Name": "GT-C3312R",
-            "Device_Maker": "Samsung",
-            "Device_Type": "Mobile Phone"
-          },
+          "device": "Samsung GT-C3312R",
           "platforms": [
             "JAVA"
           ]
         },
         {
           "match": "SAMSUNG-GT-S5222R* Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
-          "properties": {
-            "Device_Name": "GT-S5222R",
-            "Device_Maker": "Samsung",
-            "Device_Type": "Mobile Phone"
-          },
+          "device": "Samsung GT-S5222R",
           "platforms": [
             "JAVA"
           ]

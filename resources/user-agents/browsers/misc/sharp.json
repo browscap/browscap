@@ -34,13 +34,7 @@
         {
           "match": "Mozilla\/5.0 (SH05C;FOMA;like Gecko)*",
           "engine": "Gecko",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Name": "SH-05C",
-            "Device_Maker": "Sharp Corporation",
-            "Device_Code_Name": "SH-05C",
-            "Device_Brand_Name": "NTT Docomo"
-          }
+          "device": "Sharp SH-05C"
         }
       ]
     }

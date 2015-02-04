@@ -100,94 +100,49 @@
         },
         {
           "match": "SAMSUNG-GT-E1282T Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
-          "properties": {
-            "Device_Name": "GT-E1282T",
-            "Device_Maker": "Samsung",
-            "Device_Code_Name": "GT-E1282T",
-            "Device_Brand_Name": "Samsung",
-            "Device_Type": "Mobile Phone"
-          },
+          "device": "Samsung GT-E1282T",
           "platforms": [
             "JAVA"
           ]
         },
         {
           "match": "SAMSUNG-GT-E2252 Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
-          "properties": {
-            "Device_Name": "GT-E2252",
-            "Device_Maker": "Samsung",
-            "Device_Code_Name": "GT-E2252",
-            "Device_Brand_Name": "Samsung",
-            "Device_Type": "Mobile Phone"
-          },
+          "device": "Samsung GT-E2252",
           "platforms": [
             "JAVA"
           ]
         },
         {
           "match": "SAMSUNG-GT-E2202 Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
-          "properties": {
-            "Device_Name": "GT-E2202",
-            "Device_Maker": "Samsung",
-            "Device_Code_Name": "GT-E2202",
-            "Device_Brand_Name": "Samsung",
-            "Device_Type": "Mobile Phone"
-          },
+          "device": "Samsung GT-E2202",
           "platforms": [
             "JAVA"
           ]
         },
         {
           "match": "SAMSUNG-GT-E3309T Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
-          "properties": {
-            "Device_Name": "GT-E3309T",
-            "Device_Maker": "Samsung",
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "GT-E3309T",
-            "Device_Brand_Name": "Samsung"
-          },
+          "device": "Samsung GT-E3309T",
           "platforms": [
             "JAVA"
           ]
         },
         {
           "match": "Z221; Mozilla\/5.0 (*\/MIDP*Opera Mini\/att\/#MAJORVER#.#MINORVER#*)*",
-          "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
-            "Device_Name": "Z221",
-            "Device_Maker": "ZTE",
-            "Device_Code_Name": "Z221",
-            "Device_Brand_Name": "AT&T"
-          },
+          "device": "ZTE Z221",
           "platforms": [
             "JAVA"
           ]
         },
         {
           "match": "PantechP9020\/*; Mozilla\/5.0 (*\/MIDP*Opera Mini\/att\/#MAJORVER#.#MINORVER#*)*",
-          "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
-            "Device_Name": "Pursuit P9020",
-            "Device_Maker": "Pantech",
-            "Device_Code_Name": "P9020",
-            "Device_Brand_Name": "Pantech"
-          },
+          "device": "Pantech P9020",
           "platforms": [
             "JAVA"
           ]
         },
         {
           "match": "LG-GT550\/*; Mozilla\/5.0 (*\/MIDP*Opera Mini\/att\/#MAJORVER#.#MINORVER#*)*",
-          "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
-            "Device_Name": "Encore",
-            "Device_Maker": "LG",
-            "Device_Code_Name": "GT550",
-            "Device_Brand_Name": "LG"
-          },
+          "device": "LG GT550",
           "platforms": [
             "JAVA"
           ]

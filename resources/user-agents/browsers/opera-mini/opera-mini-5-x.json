@@ -71,11 +71,7 @@
         },
         {
           "match": "Opera\/*(BREW*Opera Mini\/#MAJORVER#.#MINORVER#*)*Samsung SCH-U750*",
-          "properties": {
-            "Device_Name": "Alias 2",
-            "Device_Maker": "Samsung",
-            "Device_Type": "Mobile Phone"
-          },
+          "device": "Samsung SCH-U750",
           "platforms": [
             "Brew"
           ]

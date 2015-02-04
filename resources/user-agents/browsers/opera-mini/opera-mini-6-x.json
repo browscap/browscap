@@ -108,39 +108,28 @@
         },
         {
           "match": "SAMSUNG-GT-* Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
-          "properties": {
-            "Device_Maker": "Samsung"
-          },
+          "device": "general Mobile Device (Samsung)",
           "platforms": [
             "JAVA"
           ]
         },
         {
           "match": "SAMSUNG-GT-C3312 Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
-          "properties": {
-            "Device_Maker": "Samsung",
-            "Device_Name": "GT-C3312"
-          },
+          "device": "Samsung GT-C3312",
           "platforms": [
             "JAVA"
           ]
         },
         {
           "match": "SAMSUNG-GT-S5222 Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
-          "properties": {
-            "Device_Maker": "Samsung",
-            "Device_Name": "GT-S5222"
-          },
+          "device": "Samsung GT-S5222",
           "platforms": [
             "JAVA"
           ]
         },
         {
           "match": "SAMSUNG-GT-S5222R Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
-          "properties": {
-            "Device_Maker": "Samsung",
-            "Device_Name": "GT-S5222R"
-          },
+          "device": "Samsung GT-S5222R",
           "platforms": [
             "JAVA"
           ]

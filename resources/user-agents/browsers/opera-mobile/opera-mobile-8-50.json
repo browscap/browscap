@@ -23,8 +23,6 @@
         "Cookies": "true",
         "JavaScript": "true",
         "JavaApplets": "true",
-        "isMobileDevice": "true",
-        "isTablet": "false",
         "CssVersion": "1"
       },
       "children": [
