@@ -62,6 +62,7 @@
     },
     {
       "userAgent": "Safari Generic for SymbianOS",
+      "device": "general Mobile Device",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Safari Generic",
@@ -74,12 +75,7 @@
         "Cookies": "true",
         "JavaScript": "true",
         "JavaApplets": "true",
-        "CssVersion": "1",
-        "isMobileDevice": "true",
-        "Device_Name": "unknown",
-        "Device_Maker": "Various",
-        "Device_Type": "Mobile Device",
-        "Device_Pointing_Method": "unknown"
+        "CssVersion": "1"
       },
       "children": [
         {

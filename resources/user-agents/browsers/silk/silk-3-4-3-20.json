@@ -61,16 +61,9 @@
         },
         {
           "match": "Mozilla\/5.0 (Linux; U; *; KFJWI Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* Safari*",
+          "device": "Amazon KFJWI",
           "properties": {
-            "Browser_Modus": "Desktop Mode",
-            "Device_Name": "Kindle Fire HD 8.9 Wi-Fi",
-            "Device_Maker": "Amazon.com, Inc.",
-            "Device_Type": "Tablet",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true",
-            "Device_Code_Name": "KFJWI",
-            "Device_Brand_Name": "Amazon"
+            "Browser_Modus": "Desktop Mode"
           },
           "platforms": [
             "Android_4_0"
@@ -79,22 +72,18 @@
         {
           "match": "Mozilla\/5.0 (Linux; U; *; KFSOWI Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* Safari*",
           "device": "Amazon KFSOWI",
+          "properties": {
+            "Browser_Modus": "Desktop Mode"
+          },
           "platforms": [
             "Android_4_0"
           ]
         },
         {
           "match": "Mozilla\/5.0 (Linux; U; *; KFTHWI Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* Safari*",
+          "device": "Amazon KFTHWI",
           "properties": {
-            "Browser_Modus": "Desktop Mode",
-            "Device_Name": "Kindle Fire HDX 7",
-            "Device_Maker": "Amazon.com, Inc.",
-            "Device_Type": "Tablet",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true",
-            "Device_Code_Name": "KFTHWI",
-            "Device_Brand_Name": "Amazon"
+            "Browser_Modus": "Desktop Mode"
           },
           "platforms": [
             "Android_4_0"
@@ -102,16 +91,9 @@
         },
         {
           "match": "Mozilla\/5.0 (Linux; U; *; KFAPWI Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* Safari*",
+          "device": "Amazon KFAPWI",
           "properties": {
-            "Browser_Modus": "Desktop Mode",
-            "Device_Name": "Kindle Fire HDX 8.9",
-            "Device_Maker": "Amazon.com, Inc.",
-            "Device_Type": "Tablet",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true",
-            "Device_Code_Name": "KFAPWI",
-            "Device_Brand_Name": "Amazon"
+            "Browser_Modus": "Desktop Mode"
           },
           "platforms": [
             "Android_4_0"
@@ -119,16 +101,9 @@
         },
         {
           "match": "Mozilla\/5.0 (Linux; U; *; KFJWA Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* Safari*",
+          "device": "Amazon KFJWA",
           "properties": {
-            "Browser_Modus": "Desktop Mode",
-            "Device_Name": "Kindle Fire HD 8.9",
-            "Device_Maker": "Amazon.com, Inc.",
-            "Device_Type": "Tablet",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true",
-            "Device_Code_Name": "KFJWA",
-            "Device_Brand_Name": "Amazon"
+            "Browser_Modus": "Desktop Mode"
           },
           "platforms": [
             "Android_4_0"
@@ -136,16 +111,9 @@
         },
         {
           "match": "Mozilla\/5.0 (Linux; U; *; KFAPWA Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* Safari*",
+          "device": "Amazon KFAPWA",
           "properties": {
-            "Browser_Modus": "Desktop Mode",
-            "Device_Name": "Kindle Fire HDX 8.9",
-            "Device_Maker": "Amazon.com, Inc.",
-            "Device_Type": "Tablet",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true",
-            "Device_Code_Name": "KFAPWA",
-            "Device_Brand_Name": "Amazon"
+            "Browser_Modus": "Desktop Mode"
           },
           "platforms": [
             "Android_4_0"

@@ -3240,6 +3240,18 @@
         "isTablet": "false"
       }
     },
+    "Samsung GT-B7300": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GT-B7300",
+        "Device_Name": "GT-B7300",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Samsung GT-E2550": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -9192,6 +9204,18 @@
         "isTablet": "false"
       }
     },
+    "Motorola A3100": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A3100",
+        "Device_Name": "A3100",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "HTC Desire": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -10661,6 +10685,90 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Touch Pro2",
         "Device_Name": "Touch Pro2",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC Diamond": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Diamond",
+        "Device_Name": "Diamond",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC Diamond2": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Diamond2",
+        "Device_Name": "Diamond2",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC Touch Diamond2": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Touch Diamond2",
+        "Device_Name": "Touch Diamond2",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC Touch Diamond": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Touch Diamond",
+        "Device_Name": "Touch Diamond",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC Touch Diamond Pro": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Touch Diamond Pro",
+        "Device_Name": "Touch Diamond Pro",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC ST6356": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "ST6356",
+        "Device_Name": "ST6356",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC Touch2 T3335": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Touch2 T3335",
+        "Device_Name": "Touch2 T3335",
         "Device_Maker": "HTC",
         "Device_Brand_Name": "HTC",
         "Device_Pointing_Method": "touchscreen",
@@ -13361,6 +13469,66 @@
         "Device_Type": "Tablet",
         "Device_Code_Name": "KFSOWI",
         "Device_Name": "Kindle Fire HD 7",
+        "Device_Maker": "Amazon.com, Inc.",
+        "Device_Brand_Name": "Amazon",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Amazon KFJWI": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "KFJWI",
+        "Device_Name": "Kindle Fire HD 8.9 Wi-Fi",
+        "Device_Maker": "Amazon.com, Inc.",
+        "Device_Brand_Name": "Amazon",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Amazon KFTHWI": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "KFTHWI",
+        "Device_Name": "Kindle Fire HDX 7",
+        "Device_Maker": "Amazon.com, Inc.",
+        "Device_Brand_Name": "Amazon",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Amazon KFAPWI": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "KFAPWI",
+        "Device_Name": "Kindle Fire HDX 8.9",
+        "Device_Maker": "Amazon.com, Inc.",
+        "Device_Brand_Name": "Amazon",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Amazon KFJWA": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "KFJWA",
+        "Device_Name": "Kindle Fire HD 8.9",
+        "Device_Maker": "Amazon.com, Inc.",
+        "Device_Brand_Name": "Amazon",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Amazon KFAPWA": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "KFAPWA",
+        "Device_Name": "Kindle Fire HDX 8.9",
         "Device_Maker": "Amazon.com, Inc.",
         "Device_Brand_Name": "Amazon",
         "Device_Pointing_Method": "touchscreen",

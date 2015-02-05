@@ -64,16 +64,9 @@
         },
         {
           "match": "Mozilla\/5.0 (Linux; U; *; KFJWI Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* Safari*",
+          "device": "Amazon KFJWI",
           "properties": {
-            "Browser_Modus": "Desktop Mode",
-            "Device_Name": "Kindle Fire HD 8.9 Wi-Fi",
-            "Device_Maker": "Amazon.com, Inc.",
-            "Device_Type": "Tablet",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true",
-            "Device_Code_Name": "KFJWI",
-            "Device_Brand_Name": "Amazon"
+            "Browser_Modus": "Desktop Mode"
           },
           "platforms": [
             "Android_4_0"
