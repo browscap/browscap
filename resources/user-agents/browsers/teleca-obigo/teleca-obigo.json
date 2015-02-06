@@ -6,6 +6,7 @@
     {
       "userAgent": "Teleca-Obigo",
       "platform": "JAVA",
+      "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Teleca-Obigo",
@@ -16,10 +17,7 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "isMobileDevice": "true",
-        "isTablet": "false",
-        "CssVersion": "1",
-        "Device_Type": "Mobile Phone"
+        "CssVersion": "1"
       },
       "children": [
         {
@@ -42,29 +40,18 @@
         },
         {
           "match": "BIRD_D670\/1.00 Mtk6219\/V7-05A Release\/1.1.2005 Browser\/Teleca *",
-          "properties": {
-            "Device_Name": "D670",
-            "Device_Maker": "BIRD"
-          }
+          "device": "BIRD D670"
         },
         {
           "match": "ZONDA-ZMNG1900\/REV 2.*\/Teleca Q03B1",
-          "properties": {
-            "Device_Name": "ZMNG1900",
-            "Device_Maker": "ZONDA"
-          }
+          "device": "ZONDA ZMNG1900"
         },
         {
           "match": "*Obigo\/WAP2.0*"
         },
         {
           "match": "LG-GD350\/V100 Obigo/WAP2.0*",
-          "properties": {
-            "Device_Name": "GD350",
-            "Device_Maker": "LG",
-            "Device_Code_Name": "GD350",
-            "Device_Brand_Name": "LG"
-          }
+          "device": "LG GD350"
         },
         {
           "match": "*Teleca-Obigo*"
@@ -203,156 +190,71 @@
         },
         {
           "match": "LG-CU500 Obigo\/WAP2.0 *",
-          "properties": {
-            "Device_Code_Name": "CU500",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "CU500"
-          }
+          "device": "LG CU500"
         },
         {
           "match": "LG-G922 Obigo\/WAP2.0 *",
-          "properties": {
-            "Device_Code_Name": "G922",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "G922"
-          }
+          "device": "LG G922"
         },
         {
           "match": "LG-GB230\/V100 Obigo\/WAP2.0 *",
-          "properties": {
-            "Device_Code_Name": "GB230",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "GB230"
-          }
+          "device": "LG GB230"
         },
         {
           "match": "LG-GM360\/V100 Obigo\/WAP2.0 *",
-          "properties": {
-            "Device_Code_Name": "GM360",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "GM360"
-          }
+          "device": "LG GM360"
         },
         {
           "match": "LG-GM360i\/V100 Obigo\/WAP2.0 *",
-          "properties": {
-            "Device_Code_Name": "GM360i",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "GM360i"
-          }
+          "device": "LG GM360i"
         },
         {
           "match": "LG-GS290\/V100 Obigo\/WAP2.0 *",
-          "properties": {
-            "Device_Code_Name": "GS290",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "GS290"
-          }
+          "device": "LG GS290"
         },
         {
           "match": "LG-GT350\/V100 Obigo\/WAP2.0 *",
-          "properties": {
-            "Device_Code_Name": "GT350",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "GT350"
-          }
+          "device": "LG GT350"
         },
         {
           "match": "LG-GU230\/V10a Obigo\/WAP2.0 *",
-          "properties": {
-            "Device_Code_Name": "GU230",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "GU230"
-          }
+          "device": "LG GU230"
         },
         {
           "match": "LG-GW300FD\/V100 Obigo\/WAP2.0 *",
-          "properties": {
-            "Device_Code_Name": "GW300FD",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "GW300FD"
-          }
+          "device": "LG GW300FD"
         },
         {
           "match": "LG-GX500\/* Obigo\/WAP2.0 *",
-          "properties": {
-            "Device_Code_Name": "GX500",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "GX500"
-          }
+          "device": "LG GX500"
         },
         {
           "match": "LG-KE970 MIC\/1.1*",
-          "properties": {
-            "Device_Code_Name": "KE970",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "KE970"
-          }
+          "device": "LG KE970"
         },
         {
           "match": "LG-KG220\/V09a Obigo\/WAP2.0*",
-          "properties": {
-            "Device_Code_Name": "KG220",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "KG220"
-          }
+          "device": "LG KG220"
         },
         {
           "match": "LG-KM900\/* Obigo\/WAP2.0 *",
-          "properties": {
-            "Device_Code_Name": "KM900",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "KM900"
-          }
+          "device": "LG KM900"
         },
         {
           "match": "LG-KP210 Obigo\/WAP2.0 *",
-          "properties": {
-            "Device_Code_Name": "KP210",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "KP210"
-          }
+          "device": "LG KP210"
         },
         {
           "match": "LG-KU886 Obigo\/WAP2.0 *",
-          "properties": {
-            "Device_Code_Name": "KU886",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "KU886"
-          }
+          "device": "LG KU886"
         },
         {
           "match": "LG-TU720 Obigo\/WAP2.0*",
-          "properties": {
-            "Device_Code_Name": "TU720",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "TU720"
-          }
+          "device": "LG TU720"
         },
         {
           "match": "LG-U8210\/V080 Obigo\/WAP2.0 *",
-          "properties": {
-            "Device_Code_Name": "U8210",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "U8210"
-          }
+          "device": "LG U8210"
         },
         {
           "match": "MOT-EX112 Obigo\/WAP2.0*",
@@ -437,14 +339,11 @@
         },
         {
           "match": "LG-KM900\/V10x Browser\/Obigo-Q7.1*",
+          "device": "LG KM900",
           "properties": {
             "Version": "7.1",
             "MajorVer": "7",
-            "MinorVer": "1",
-            "Device_Code_Name": "KM900",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "KM900"
+            "MinorVer": "1"
           }
         },
         {
@@ -728,12 +627,7 @@
         },
         {
           "match": "LG-KG220 MIC\/WAP2.0 *",
-          "properties": {
-            "Device_Code_Name": "KG220",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "KG220"
-          }
+          "device": "LG KG220"
         },
         {
           "match": "LG-KG320 MIC\/WAP2.0 *",

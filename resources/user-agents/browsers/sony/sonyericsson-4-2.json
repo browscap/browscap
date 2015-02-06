@@ -32,30 +32,15 @@
       "children": [
         {
           "match": "SonyEricssonD750i\/* Browser\/SEMC-Browser\/4.2*",
-          "properties": {
-            "Device_Code_Name": "D750i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "D750i"
-          }
+          "device": "SonyEricsson D750i"
         },
         {
           "match": "SonyEricssonK600c\/* Browser\/SEMC-Browser\/4.2*",
-          "properties": {
-            "Device_Code_Name": "K600c",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "K600c"
-          }
+          "device": "SonyEricsson K600c"
         },
         {
           "match": "SonyEricssonK600i\/* Browser\/SEMC-Browser\/4.2*",
-          "properties": {
-            "Device_Code_Name": "K600i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "K600i"
-          }
+          "device": "SonyEricsson K600i"
         }
       ]
     }

@@ -6,6 +6,7 @@
     {
       "userAgent": "Teleca-Obigo 3.0",
       "platform": "JAVA",
+      "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Teleca-Obigo",
@@ -16,10 +17,7 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "isMobileDevice": "true",
-        "isTablet": "false",
         "CssVersion": "1",
-        "Device_Type": "Mobile Phone",
         "Version": "3.0",
         "MajorVer": "3"
       },
