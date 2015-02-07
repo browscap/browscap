@@ -9360,6 +9360,18 @@
         "isTablet": "false"
       }
     },
+    "Motorola EX112": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "EX112",
+        "Device_Name": "EX112",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "HTC Desire": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -12689,6 +12701,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "U8210",
         "Device_Name": "U8210",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG KG99": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "KG99",
+        "Device_Name": "KG99",
         "Device_Maker": "LG",
         "Device_Brand_Name": "LG",
         "Device_Pointing_Method": "touchscreen",
@@ -21384,6 +21408,18 @@
         "isTablet": "true"
       }
     },
+    "Philips 535": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "535",
+        "Device_Code_Name": "535",
+        "Device_Maker": "Philips",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Philips",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Shiru Samurai 10": {
       "properties": {
         "Device_Type": "Tablet",
@@ -21452,6 +21488,18 @@
         "Device_Maker": "ZONDA",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "ZONDA",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Godacom C100": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "C100",
+        "Device_Code_Name": "C100",
+        "Device_Maker": "Godacom",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Godacom",
         "isMobileDevice": "true",
         "isTablet": "false"
       }

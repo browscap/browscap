@@ -258,21 +258,11 @@
         },
         {
           "match": "MOT-EX112 Obigo\/WAP2.0*",
-          "properties": {
-            "Device_Code_Name": "EX112",
-            "Device_Maker": "Motorola",
-            "Device_Brand_Name": "Motorola",
-            "Device_Name": "EX112"
-          }
+          "device": "Motorola EX112"
         },
         {
           "match": "PHILIPS 535 \/ Teleca-Obigo *",
-          "properties": {
-            "Device_Code_Name": "535",
-            "Device_Maker": "Philips",
-            "Device_Brand_Name": "Philips",
-            "Device_Name": "535"
-          }
+          "device": "Philips 535"
         },
         {
           "match": "AU-MIC\/1.1*",
@@ -284,26 +274,20 @@
         },
         {
           "match": "CODACOM C100\/4.6 AU.MIC\/1.1*",
+          "device": "Godacom C100",
           "properties": {
             "Version": "1.1",
             "MajorVer": "1",
-            "MinorVer": "1",
-            "Device_Code_Name": "C100",
-            "Device_Maker": "Godacom",
-            "Device_Brand_Name": "Godacom",
-            "Device_Name": "C100"
+            "MinorVer": "1"
           }
         },
         {
           "match": "LG-KG99 MIC\/1.1*",
+          "device": "LG KG99",
           "properties": {
             "Version": "1.1",
             "MajorVer": "1",
-            "MinorVer": "1",
-            "Device_Code_Name": "KG99",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "KG99"
+            "MinorVer": "1"
           }
         },
         {
@@ -311,11 +295,7 @@
           "properties": {
             "Version": "1.1",
             "MajorVer": "1",
-            "MinorVer": "1",
-            "Device_Code_Name": "6",
-            "Device_Maker": "TSM",
-            "Device_Brand_Name": "TSM",
-            "Device_Name": "6"
+            "MinorVer": "1"
           }
         },
         {
