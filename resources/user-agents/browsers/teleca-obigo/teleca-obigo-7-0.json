@@ -24,39 +24,19 @@
       "children": [
         {
           "match": "HTC_Smart_F3188 Mozilla\/5.0 (like Gecko) Obigo\/Q7",
-          "properties": {
-            "Device_Code_Name": "Smart F3188",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "Smart F3188"
-          }
+          "device": "HTC Smart F3188"
         },
         {
           "match": "LG-CF360\/V10h Teleca\/Q7.0 *",
-          "properties": {
-            "Device_Code_Name": "CF360",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "CF360"
-          }
+          "device": "LG CF360"
         },
         {
           "match": "LG-GR500\/V10? Teleca\/Q7.0*",
-          "properties": {
-            "Device_Code_Name": "GR500",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "GR500"
-          }
+          "device": "LG GR500"
         },
         {
           "match": "LG-GT360 Teleca\/WAP2.0*",
-          "properties": {
-            "Device_Code_Name": "GT360",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "GT360"
-          }
+          "device": "LG GT360"
         },
         {
           "match": "LG-GT365\/V10h Teleca\/WAP2.0*",

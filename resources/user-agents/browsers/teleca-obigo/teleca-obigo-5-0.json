@@ -24,57 +24,27 @@
       "children": [
         {
           "match": "LG-CU515\/V1.0g Obigo\/Q05A *",
-          "properties": {
-            "Device_Code_Name": "CU515",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "CU515"
-          }
+          "device": "LG CU515"
         },
         {
           "match": "LG-CU720\/V1.0l Obigo\/Q05A *",
-          "properties": {
-            "Device_Code_Name": "CU720",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "CU720"
-          }
+          "device": "LG CU720"
         },
         {
           "match": "LG-CU920\/* Obigo\/Q05A *",
-          "properties": {
-            "Device_Code_Name": "CU920",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "CU920"
-          }
+          "device": "LG CU920"
         },
         {
           "match": "LG-KF750-Orange\/v10c Browser\/Obigo-Q05A\/*",
-          "properties": {
-            "Device_Code_Name": "KF750",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "KF750"
-          }
+          "device": "LG KF750"
         },
         {
           "match": "LG\/KU990i\/v10a Browser\/Obigo-Q05A\/*",
-          "properties": {
-            "Device_Code_Name": "KU990i",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "KU990i"
-          }
+          "device": "LG KU990"
         },
         {
           "match": "ALCATEL-OT871A\/* ObigoInternetBrowser\/Q05A*",
-          "properties": {
-            "Device_Code_Name": "OT871A",
-            "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
-            "Device_Name": "One Touch 871A"
-          }
+          "device": "Alcatel OT-871A"
         }
       ]
     }
