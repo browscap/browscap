@@ -34,7 +34,8 @@
           "match": "LG G8000\/1.0 PDK\/2.5*"
         },
         {
-          "match": "LG-G1800"
+          "match": "LG-G1800",
+          "device": "LG G1800"
         },
         {
           "match": "LG-G210\/SW100\/WAP2.0 *"

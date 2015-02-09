@@ -40,84 +40,54 @@
         },
         {
           "match": "LG-GT365\/V10h Teleca\/WAP2.0*",
-          "properties": {
-            "Device_Code_Name": "GT365",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "GT365"
-          }
+          "device": "LG GT365"
         },
         {
           "match": "SonyEricssonW150i\/R2AD032 TelecaBrowser\/Q07C1-1 *",
-          "properties": {
-            "Device_Code_Name": "W150i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "W150i"
-          }
+          "device": "SonyEricsson W150i"
         },
         {
           "match": "SonyEricssonWT13i\/R3AD017 TelecaBrowser\/Q07C1-1 *",
-          "properties": {
-            "Device_Code_Name": "WT13i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "WT13i"
-          }
+          "device": "SonyEricsson WT13i"
         },
         {
           "match": "LG-GT400\/v10a Browser\/Teleca-Q7.1*",
+          "device": "LG GT400",
           "properties": {
             "Version": "7.1",
-            "MinorVer": "1",
-            "Device_Code_Name": "GT400",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "GT400"
+            "MinorVer": "1"
           }
         },
         {
           "match": "LG\/KC910\/V10a Browser\/Obigo-Q7.1*",
+          "device": "LG KC910",
           "properties": {
             "Version": "7.1",
-            "MinorVer": "1",
-            "Device_Code_Name": "KC910",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "KC910"
+            "MinorVer": "1"
           }
         },
         {
           "match": "LG-T300\/V100 Obigo\/Q7.3*",
+          "device": "LG T300",
           "properties": {
             "Version": "7.3",
-            "MinorVer": "3",
-            "Device_Code_Name": "T300",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "T300"
+            "MinorVer": "3"
           }
         },
         {
           "match": "LG-T310i\/V100 Obigo\/Q7.3*",
+          "device": "LG T310i",
           "properties": {
             "Version": "7.3",
-            "MinorVer": "3",
-            "Device_Code_Name": "T310i",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "T310i"
+            "MinorVer": "3"
           }
         },
         {
           "match": "LG\/BL40\/V10a Browser\/Obigo-Q7.3*",
+          "device": "LG BL40",
           "properties": {
             "Version": "7.3",
-            "MinorVer": "3",
-            "Device_Code_Name": "BL40",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "BL40"
+            "MinorVer": "3"
           }
         }
       ]

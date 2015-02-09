@@ -1572,6 +1572,30 @@
         "isTablet": "false"
       }
     },
+    "SonyEricsson W150i": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "W150i",
+        "Device_Name": "W150i",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "SonyEricsson WT13i": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "WT13i",
+        "Device_Name": "WT13i",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Sony C6603": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -12893,6 +12917,150 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT360",
         "Device_Name": "GT360",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG GT365": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GT365",
+        "Device_Name": "GT365",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG GT400": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GT400",
+        "Device_Name": "GT400",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG KC910": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "KC910",
+        "Device_Name": "KC910",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG T300": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "T300",
+        "Device_Name": "T300",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG T310i": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "T310i",
+        "Device_Name": "T310i",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG BL40": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "BL40",
+        "Device_Name": "BL40",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG G1800": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "G1800",
+        "Device_Name": "G1800",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG G5600": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "G5600",
+        "Device_Name": "G5600",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG A7150": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A7150",
+        "Device_Name": "A7150",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG B2000": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "B2000",
+        "Device_Name": "B2000",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG B2050": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "B2050",
+        "Device_Name": "B2050",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG B2070": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "B2070",
+        "Device_Name": "B2070",
         "Device_Maker": "LG",
         "Device_Brand_Name": "LG",
         "Device_Pointing_Method": "touchscreen",

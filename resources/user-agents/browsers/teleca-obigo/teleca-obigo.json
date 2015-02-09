@@ -307,14 +307,11 @@
         },
         {
           "match": "LG-G1800 MIC\/WAP2.0*",
+          "device": "LG G1800",
           "properties": {
             "Version": "4.1",
             "MajorVer": "4",
-            "MinorVer": "1",
-            "Device_Code_Name": "G1800",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "G1800"
+            "MinorVer": "1"
           }
         },
         {
@@ -337,48 +334,23 @@
         },
         {
           "match": "G5600 MIC\/WAP2.0 *",
-          "properties": {
-            "Device_Code_Name": "G5600",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "G5600"
-          }
+          "device": "LG G5600"
         },
         {
           "match": "LG-A7150 MIC\/WAP2.0*",
-          "properties": {
-            "Device_Code_Name": "A7150",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "A7150"
-          }
+          "device": "LG A7150"
         },
         {
           "match": "LG-B2000 MIC\/WAP2.0*",
-          "properties": {
-            "Device_Code_Name": "B2000",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "B2000"
-          }
+          "device": "LG B2000"
         },
         {
           "match": "LG-B2050 MIC\/WAP2.0 *",
-          "properties": {
-            "Device_Code_Name": "B2050",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "B2050"
-          }
+          "device": "LG B2050"
         },
         {
           "match": "LG-B2070 MIC\/WAP2.0 *",
-          "properties": {
-            "Device_Code_Name": "B2070",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "B2070"
-          }
+          "device": "LG B2070"
         },
         {
           "match": "LG-B2100 MIC\/WAP2.0 *",
@@ -562,12 +534,7 @@
         },
         {
           "match": "LG-G5600 MIC\/WAP2.0*",
-          "properties": {
-            "Device_Code_Name": "G5600",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "G5600"
-          }
+          "device": "LG G5600"
         },
         {
           "match": "LG-G688 MIC\/V100\/WAP2.0 *",
@@ -598,12 +565,7 @@
         },
         {
           "match": "LG-GT365\/V10g Teleca\/WAP2.0*",
-          "properties": {
-            "Device_Code_Name": "GT365",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "GT365"
-          }
+          "device": "LG GT365"
         },
         {
           "match": "LG-KG220 MIC\/WAP2.0 *",
