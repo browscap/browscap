@@ -58,13 +58,7 @@
         {
           "match": "UCWEB\/*(#PLATFORM#SAMSUNG; GT-I8350*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
           "engine": "U2",
-          "properties": {
-            "Device_Name": "GT-I8350",
-            "Device_Maker": "Samsung",
-            "Device_Code_Name": "GT-I8350",
-            "Device_Brand_Name": "Samsung",
-            "Device_Pointing_Method": "touchscreen"
-          },
+          "device": "Samsung GT-I8350",
           "platforms": [
             "WinPhone7_B", "WinPhone8_B"
           ]
@@ -72,15 +66,7 @@
         {
           "match": "UCWEB\/*(*GT-P3100*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
           "engine": "U2",
-          "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Tablet",
-            "isTablet": "true",
-            "Device_Code_Name": "GT-P3100",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Tab 2 7.0"
-          },
+          "device": "Samsung GT-P3100",
           "platforms": [
             "Android_4_0"
           ]
@@ -120,16 +106,7 @@
         {
           "match": "UCWEB\/*(MIDP-2.0*C2305) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
           "engine": "U2",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "C2305",
-            "Device_Name": "Xperia C HSPA+",
-            "Device_Maker": "Sony",
-            "Device_Brand_Name": "Sony",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-          },
+          "device": "Sony C2305",
           "platforms": [
             "Android_4_2"
           ]

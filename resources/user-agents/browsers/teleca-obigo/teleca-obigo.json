@@ -354,183 +354,75 @@
         },
         {
           "match": "LG-B2100 MIC\/WAP2.0 *",
-          "properties": {
-            "Device_Code_Name": "B2100",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "B2100"
-          }
-        },
-        {
-          "match": "LG-B2150 MIC\/WAP2.0 *",
-          "properties": {
-            "Device_Code_Name": "B2150",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "B2150"
-          }
+          "device": "LG B2100"
         },
         {
           "match": "LG-B2150 MIC\/WAP2.0*",
-          "properties": {
-            "Device_Code_Name": "B2150",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "B2150"
-          }
-        },
-        {
-          "match": "LG-C1100 MIC\/WAP2.0 *",
-          "properties": {
-            "Device_Code_Name": "C1100",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "C1100"
-          }
+          "device": "LG B2150"
         },
         {
           "match": "LG-C1100 MIC\/WAP2.0*",
-          "properties": {
-            "Device_Code_Name": "C1100",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "C1100"
-          }
+          "device": "LG C1100"
         },
         {
           "match": "LG-C1150 MIC\/WAP2.0 *",
-          "properties": {
-            "Device_Code_Name": "C1150",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "C1150"
-          }
+          "device": "LG C1150"
         },
         {
           "match": "LG-C1200 MIC\/WAP2.0 *",
-          "properties": {
-            "Device_Code_Name": "C1200",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "C1200"
-          }
+          "device": "LG C1200"
         },
         {
           "match": "LG-C2100\/MIC\/WAP2.0\/*",
-          "properties": {
-            "Device_Code_Name": "C2100",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "C2100"
-          }
+          "device": "LG C2100"
         },
         {
           "match": "LG-C2200 MIC\/WAP2.0 *",
-          "properties": {
-            "Device_Code_Name": "C2200",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "C2200"
-          }
+          "device": "LG C2200"
         },
         {
           "match": "LG-C2500 MIC\/WAP2.0 *",
-          "properties": {
-            "Device_Code_Name": "C2500",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "C2500"
-          }
+          "device": "LG C2500"
         },
         {
           "match": "LG-C3300 MIC\/WAP2.0 *",
-          "properties": {
-            "Device_Code_Name": "C3300",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "C3300"
-          }
+          "device": "LG C3300"
         },
         {
           "match": "LG-C3310 MIC\/WAP2.0 *",
-          "properties": {
-            "Device_Code_Name": "C3310",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "C3310"
-          }
+          "device": "LG C3310"
         },
         {
           "match": "LG-C3320 MIC\/WAP2.0 *",
-          "properties": {
-            "Device_Code_Name": "C3320",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "C3320"
-          }
+          "device": "LG C3320"
         },
         {
           "match": "LG-C3380 MIC\/WAP2.0 *",
-          "properties": {
-            "Device_Code_Name": "C3380",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "C3380"
-          }
+          "device": "LG C3380"
         },
         {
           "match": "LG-C3400 MIC\/WAP2.0*",
-          "properties": {
-            "Device_Code_Name": "C3400",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "C3400"
-          }
+          "device": "LG C3400"
         },
         {
           "match": "LG-F2100 MIC\/WAP2.0*",
-          "properties": {
-            "Device_Code_Name": "F2100",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "F2100"
-          }
+          "device": "LG F2100"
         },
         {
           "match": "LG-F2300 MIC\/WAP2.0 *",
-          "properties": {
-            "Device_Code_Name": "F2300",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "F2300"
-          }
+          "device": "LG F2300"
         },
         {
           "match": "LG-F2300\/MIC\/WAP2.0\/*",
-          "properties": {
-            "Device_Code_Name": "F2300",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "F2300"
-          }
+          "device": "LG F2300"
         },
         {
           "match": "LG-F2400 MIC\/WAP2.0 *",
-          "properties": {
-            "Device_Code_Name": "F2400",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "F2400"
-          }
+          "device": "LG F2400"
         },
         {
           "match": "LG-G262 MIC\/WAP2.0 *",
-          "properties": {
-            "Device_Code_Name": "G262",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "G262"
-          }
+          "device": "LG G262"
         },
         {
           "match": "LG-G5600 MIC\/WAP2.0*",
@@ -538,30 +430,15 @@
         },
         {
           "match": "LG-G688 MIC\/V100\/WAP2.0 *",
-          "properties": {
-            "Device_Code_Name": "G688",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "G688"
-          }
+          "device": "LG G688"
         },
         {
           "match": "LG-G832 MIC\/WAP2.0 *",
-          "properties": {
-            "Device_Code_Name": "G832",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "G832"
-          }
+          "device": "LG G832"
         },
         {
           "match": "LG-GD510\/V100 Teleca\/WAP2.0 *",
-          "properties": {
-            "Device_Code_Name": "GD510",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "GD510"
-          }
+          "device": "LG GD510"
         },
         {
           "match": "LG-GT365\/V10g Teleca\/WAP2.0*",
@@ -573,165 +450,75 @@
         },
         {
           "match": "LG-KG320 MIC\/WAP2.0 *",
-          "properties": {
-            "Device_Code_Name": "KG320",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "KG320"
-          }
+          "device": "LG KG320"
         },
         {
           "match": "LG-KG800 MIC\/WAP2.0*",
-          "properties": {
-            "Device_Code_Name": "KG800",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "KG800"
-          }
+          "device": "LG KG800"
         },
         {
           "match": "LG-KP500 Teleca\/WAP2.0 *",
-          "properties": {
-            "Device_Code_Name": "KP500",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "KP500"
-          }
+          "device": "LG KP500"
         },
         {
           "match": "LG-KP500-Orange\/V10i Teleca\/WAP2.0 *",
-          "properties": {
-            "Device_Code_Name": "KP500",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "KP500"
-          }
+          "device": "LG KP500"
         },
         {
           "match": "LG-KS360\/V10b Teleca\/WAP2.0*",
-          "properties": {
-            "Device_Code_Name": "KS360",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "KS360"
-          }
+          "device": "LG KS360"
         },
         {
           "match": "LG-L3100 MIC\/WAP2.0 *",
-          "properties": {
-            "Device_Code_Name": "L3100",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "L3100"
-          }
+          "device": "LG L3100"
         },
         {
           "match": "LG-LX150 AU-MIC-LX150\/2.0 MMP\/2.0 *",
-          "properties": {
-            "Device_Code_Name": "LX150",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "LX150"
-          }
+          "device": "LG LX150"
         },
         {
           "match": "LG-LX350 AU-MIC-LX350\/2.0 MMP\/2.0 *",
-          "properties": {
-            "Device_Code_Name": "LX350",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "LX350"
-          }
+          "device": "LG LX350"
         },
         {
           "match": "LG-LX550 AU-MIC-LX550\/2.0 MMP\/2.0 *",
-          "properties": {
-            "Device_Code_Name": "LX550",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "LX550"
-          }
+          "device": "LG LX550"
         },
         {
           "match": "LG-M4410 MIC\/WAP2.0 *",
-          "properties": {
-            "Device_Code_Name": "M4410",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "M4410"
-          }
+          "device": "LG M4410"
         },
         {
           "match": "LG-M6100 MIC\/WAP2.0*",
-          "properties": {
-            "Device_Code_Name": "M6100",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "M6100"
-          }
+          "device": "LG M6100"
         },
         {
           "match": "LG-MG100a MIC\/WAP2.0 *",
-          "properties": {
-            "Device_Code_Name": "MG100a",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "MG100a"
-          }
+          "device": "LG MG100a"
         },
         {
           "match": "LG-MG105 MIC\/WAP2.0 *",
-          "properties": {
-            "Device_Code_Name": "MG105",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "MG105"
-          }
+          "device": "LG MG105"
         },
         {
           "match": "LG-MG300D MIC\/WAP2.0 *",
-          "properties": {
-            "Device_Code_Name": "MG300D",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "MG300D"
-          }
+          "device": "LG MG300D"
         },
         {
           "match": "LG-MG800 MIC\/WAP2.0 *",
-          "properties": {
-            "Device_Code_Name": "MG800",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "MG800"
-          }
+          "device": "LG MG800"
         },
         {
           "match": "LG-P7200 MIC\/WAP2.0 *",
-          "properties": {
-            "Device_Code_Name": "P7200",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "P7200"
-          }
+          "device": "LG P7200"
         },
         {
           "match": "LG-S5200 MIC\/WAP2.0*",
-          "properties": {
-            "Device_Code_Name": "S5200",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "S5200"
-          }
+          "device": "LG S5200"
         },
         {
           "match": "LG-U8290 MIC\/WAP2.0 *",
-          "properties": {
-            "Device_Code_Name": "U8290",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "U8290"
-          }
+          "device": "LG U8290"
         }
       ]
     }
