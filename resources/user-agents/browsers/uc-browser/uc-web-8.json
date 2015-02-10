@@ -37,12 +37,7 @@
         {
           "match": "UCWEB\/*(#PLATFORM#SonyEricssonU1) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
           "engine": "U2",
-          "properties": {
-            "Device_Name": "U1",
-            "Device_Maker": "SonyEricsson",
-            "Device_Code_Name": "U1",
-            "Device_Brand_Name": "SonyEricsson"
-          },
+          "device": "SonyEricsson U1",
           "platforms": [
             "SymbianOS_B"
           ]
@@ -59,12 +54,7 @@
         {
           "match": "UCWEB\/*(#PLATFORM#GT-S7262) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
           "engine": "U2",
-          "properties": {
-            "Device_Name": "GT-S7262",
-            "Device_Maker": "Samsung",
-            "Device_Code_Name": "GT-S7262",
-            "Device_Brand_Name": "Samsung"
-          },
+          "device": "Samsung GT-S7262",
           "platforms": [
             "Android_2_1_C", "Android_2_2_C", "Android_2_3_D", "Android_4_0_C", "Android_4_1_C", "Android_4_2_C", "Android_4_3_C",
             "Android_4_4_C"
@@ -84,21 +74,15 @@
         {
           "match": "UCWEB\/*(Linux; U; Opera Mini\/*GT-S7262) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
           "engine": "U2",
-          "properties": {
-            "Device_Name": "GT-S7262",
-            "Device_Maker": "Samsung",
-            "Device_Code_Name": "GT-S7262",
-            "Device_Brand_Name": "Samsung"
-          }
+          "device": "Samsung GT-S7262"
         },
         {
           "match": "Mozilla\/5.0 (Java;*samsung-gt-s5263) UCBrowser#MAJORVER#.#MINORVER#*UCWEB*Mobile*UNTRUSTED\/*",
+          "device": "Samsung GT-S5263",
           "properties": {
             "Version": "8.2",
             "MajorVer": "8",
-            "MinorVer": "2",
-            "Device_Name": "GT-S5263",
-            "Device_Maker": "Samsung"
+            "MinorVer": "2"
           },
           "platforms": [
             "JAVA"

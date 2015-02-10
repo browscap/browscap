@@ -624,6 +624,18 @@
         "isTablet": "false"
       }
     },
+    "SonyEricsson U1": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "U1",
+        "Device_Name": "U1",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "SonyEricsson U5iv": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -2712,6 +2724,18 @@
         "isTablet": "false"
       }
     },
+    "Samsung GT-I9060": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GT-I9060",
+        "Device_Name": "Galaxy Grand Neo",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "GT-S5830": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -3365,6 +3389,30 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-S3802",
         "Device_Name": "GT-S3802",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung GT-S7262": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GT-S7262",
+        "Device_Name": "GT-S7262",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung GT-S5263": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GT-S5263",
+        "Device_Name": "GT-S5263",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "unknown",
@@ -4937,6 +4985,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SGH-T769",
         "Device_Name": "Galaxy S Blaze 4G",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung SGH-T669": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SGH-T669",
+        "Device_Name": "Gravity T",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "touchscreen",
@@ -9468,6 +9528,18 @@
         "isTablet": "false"
       }
     },
+    "Motorola XT702": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "XT702",
+        "Device_Name": "XT702",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "HTC Desire": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -13380,6 +13452,18 @@
         "isTablet": "false"
       }
     },
+    "LG KS20": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "KS20",
+        "Device_Name": "KS20",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "LG L3100": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -13529,6 +13613,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "U8290",
         "Device_Name": "U8290",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG C105": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "C105",
+        "Device_Name": "C105",
         "Device_Maker": "LG",
         "Device_Brand_Name": "LG",
         "Device_Pointing_Method": "touchscreen",
@@ -15480,6 +15576,18 @@
         "isTablet": "false"
       }
     },
+    "Nokia N97": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "N97",
+        "Device_Name": "N97",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Nokia N97-1": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -16860,6 +16968,18 @@
         "isTablet": "false"
       }
     },
+    "Nokia E63": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "E63",
+        "Device_Name": "E63",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Nokia E71-1": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -17117,6 +17237,30 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "N95",
         "Device_Name": "N95",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia N73": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "N73",
+        "Device_Name": "N73",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia N85": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "N85",
+        "Device_Name": "N85",
         "Device_Maker": "Nokia",
         "Device_Brand_Name": "Nokia",
         "Device_Pointing_Method": "touchscreen",
@@ -17393,6 +17537,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Lumia 928",
         "Device_Name": "Lumia 928",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 5130c-2": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "5130c-2",
+        "Device_Name": "5130c-2 Xpressmusic",
         "Device_Maker": "Nokia",
         "Device_Brand_Name": "Nokia",
         "Device_Pointing_Method": "touchscreen",
@@ -17801,6 +17957,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "OT-871A",
         "Device_Name": "One Touch 871A",
+        "Device_Maker": "Alcatel",
+        "Device_Brand_Name": "Alcatel",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Alcatel 4037T": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "4037T",
+        "Device_Name": "One Touch Evolve II Black",
         "Device_Maker": "Alcatel",
         "Device_Brand_Name": "Alcatel",
         "Device_Pointing_Method": "touchscreen",
@@ -18377,6 +18545,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "845",
         "Device_Name": "845",
+        "Device_Maker": "Vodafone",
+        "Device_Brand_Name": "Vodafone",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Vodafone V802SH": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "V802SH",
+        "Device_Name": "V802SH",
         "Device_Maker": "Vodafone",
         "Device_Brand_Name": "Vodafone",
         "Device_Pointing_Method": "unknown",
@@ -19632,6 +19812,18 @@
         "isTablet": "false"
       }
     },
+    "HP P160U": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "P160U",
+        "Device_Name": "P160U",
+        "Device_Maker": "HP",
+        "Device_Brand_Name": "HP",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Cube U30GT": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -20693,6 +20885,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Name": "MI 2",
         "Device_Code_Name": "MI 2",
+        "Device_Maker": "Xiaomi",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Xiaomi",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Xiaomi MI 3W": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "MI 3W",
+        "Device_Code_Name": "MI 3W",
         "Device_Maker": "Xiaomi",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Xiaomi",
@@ -22496,6 +22700,54 @@
         "Device_Maker": "Haier",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Haier",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Beidou LA-M1": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Chili Pepper LA-M1",
+        "Device_Code_Name": "LA-M1",
+        "Device_Maker": "Beidou",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Beidou",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Videocon A15": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "A15",
+        "Device_Code_Name": "A15",
+        "Device_Maker": "Videocon",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Videocon",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "DoCoMo P900i": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "P900i",
+        "Device_Code_Name": "P900i",
+        "Device_Maker": "DoCoMo",
+        "Device_Pointing_Method": "unknown",
+        "Device_Brand_Name": "DoCoMo",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "DoCoMo P901i": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "P901i",
+        "Device_Code_Name": "P901i",
+        "Device_Maker": "DoCoMo",
+        "Device_Pointing_Method": "unknown",
+        "Device_Brand_Name": "DoCoMo",
         "isMobileDevice": "true",
         "isTablet": "false"
       }

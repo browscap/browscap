@@ -232,7 +232,8 @@
           "match": "Vodafone\/1.0\/GX40\/SHG001 Browser\/UP.Browser\/7.0*"
         },
         {
-          "match": "Vodafone\/1.0\/V802SH\/SHJ002 Browser\/UP.Browser\/7.0*"
+          "match": "Vodafone\/1.0\/V802SH\/SHJ002 Browser\/UP.Browser\/7.0*",
+          "device": "Vodafone V802SH"
         },
         {
           "match": "Vodafone\/1.0\/V902SH\/SHJ00? Browser\/UP.Browser\/7.0*"

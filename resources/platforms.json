@@ -11,11 +11,6 @@
         "Platform": "ChromeOS",
         "Platform_Description": "Google Chrome OS",
         "Platform_Maker": "Google Inc",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Linux Desktop",
-        "Device_Name": "Linux Desktop",
-        "Device_Pointing_Method": "mouse",
-        "Device_Maker": "Various",
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
@@ -50,13 +45,7 @@
         "Browser_Bits": "32",
         "Win16": "false",
         "Win32": "false",
-        "Win64": "false",
-        "Device_Type": "Desktop",
-        "Device_Name": "Macintosh",
-        "Device_Code_Name": "Macintosh",
-        "Device_Maker": "Apple Inc",
-        "Device_Brand_Name": "Apple",
-        "Device_Pointing_Method": "mouse"
+        "Win64": "false"
       }
     },
     "OSX_10_4_A": {
@@ -742,12 +731,6 @@
         "Platform_Maker": "Linux Foundation",
         "Platform_Description": "Linux",
         "Platform_Version": "unknown",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Linux Desktop",
-        "Device_Name": "Linux Desktop",
-        "Device_Pointing_Method": "mouse",
-        "Device_Maker": "Various",
-        "Device_Brand_Name": "unknown",
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
@@ -816,11 +799,6 @@
         "Platform_Description": "Debian Linux",
         "Platform_Maker": "Debian",
         "Platform_Version": "unknown",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Linux Desktop",
-        "Device_Name": "Linux Desktop",
-        "Device_Pointing_Method": "mouse",
-        "Device_Maker": "Various",
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
@@ -850,12 +828,6 @@
         "Platform_Maker": "Canonical Foundation",
         "Platform_Description": "Ubuntu Linux",
         "Platform_Version": "unknown",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Linux Desktop",
-        "Device_Name": "Linux Desktop",
-        "Device_Pointing_Method": "mouse",
-        "Device_Maker": "Various",
-        "Device_Brand_Name": "unknown",
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
@@ -1661,15 +1633,7 @@
         "Platform": "WinRT8",
         "Platform_Version": "6.2",
         "Platform_Description": "Windows RT 8",
-        "Win32": "false",
-        "isMobileDevice": "true",
-        "Device_Name": "Surface",
-        "Device_Code_Name": "Surface",
-        "Device_Brand_Name": "Microsoft",
-        "Device_Type": "Tablet",
-        "isTablet": "true",
-        "Device_Maker": "Microsoft",
-        "Device_Pointing_Method": "touchscreen"
+        "Win32": "false"
       }
     },
     "WinRT8_1_32": {
@@ -1679,15 +1643,7 @@
         "Platform": "WinRT8.1",
         "Platform_Version": "6.3",
         "Platform_Description": "Windows RT 8.1",
-        "Win32": "false",
-        "isMobileDevice": "true",
-        "Device_Name": "Surface",
-        "Device_Code_Name": "Surface",
-        "Device_Brand_Name": "Microsoft",
-        "Device_Type": "Tablet",
-        "isTablet": "true",
-        "Device_Maker": "Microsoft",
-        "Device_Pointing_Method": "touchscreen"
+        "Win32": "false"
       }
     },
     "WinCE": {
@@ -1964,10 +1920,7 @@
       "properties": {
         "Platform": "Android for GoogleTV",
         "Platform_Version": "3.2",
-        "isMobileDevice": "false",
-        "Platform_Description": "Android OS for GoogleTV",
-        "Device_Type": "TV Device",
-        "Device_Code_Name": "GoogleTV"
+        "Platform_Description": "Android OS for GoogleTV"
       }
     },
     "Android_4_0": {
@@ -2113,11 +2066,7 @@
     },
     "AndroidTablet": {
       "match": "*Android*Tablet*",
-      "inherits": "Android",
-      "properties": {
-        "Device_Type": "Tablet",
-        "isTablet": "true"
-      }
+      "inherits": "Android"
     },
     "AndroidGeneric": {
       "match": "*Android*",
@@ -2135,12 +2084,7 @@
       "properties": {
         "Platform": "HP-UX",
         "Platform_Maker": "HP",
-        "Device_Type": "Desktop",
-        "Device_Maker": "HP",
-        "Device_Brand_Name": "HP",
         "Platform_Description": "HP-UX",
-        "Device_Code_Name": "general Desktop",
-        "Device_Name": "general Desktop",
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
@@ -2158,11 +2102,6 @@
         "Platform": "BSD",
         "Platform_Maker": "University of California, Berkeley",
         "Platform_Description": "BSD Four",
-        "Device_Type": "Desktop",
-        "Device_Maker": "Various",
-        "Platform_Description": "OpenBSD",
-        "Device_Code_Name": "general Desktop",
-        "Device_Name": "general Desktop",
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
@@ -2176,11 +2115,6 @@
         "Platform": "FreeBSD",
         "Platform_Maker": "FreeBSD Foundation",
         "Platform_Description": "FreeBSD",
-        "Device_Type": "Desktop",
-        "Device_Maker": "Various",
-        "Platform_Description": "FreeBSD",
-        "Device_Code_Name": "general Desktop",
-        "Device_Name": "general Desktop",
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
@@ -2244,12 +2178,7 @@
       "properties": {
         "Platform": "SunOS",
         "Platform_Maker": "Oracle",
-        "Device_Type": "Desktop",
-        "Device_Maker": "Various",
-        "Device_Brand_Name": "Oracle",
         "Platform_Description": "SunOS",
-        "Device_Code_Name": "general Desktop",
-        "Device_Name": "general Desktop",
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
@@ -2262,14 +2191,9 @@
       "properties": {
         "Platform": "IRIX64",
         "Platform_Maker": "SGI",
+        "Platform_Description": "IRIX64",
         "Browser_Bits": "64",
         "Platform_Bits": "64",
-        "Device_Type": "Desktop",
-        "Device_Maker": "SGI",
-        "Device_Brand_Name": "SGI",
-        "Platform_Description": "IRIX64",
-        "Device_Code_Name": "general Desktop",
-        "Device_Name": "general Desktop",
         "Win16": "false",
         "Win32": "false",
         "Win64": "false"
@@ -2416,14 +2340,7 @@
       "match": "*RIM Tablet OS*",
       "inherits": "RIMOS",
       "properties": {
-        "Platform": "RIM Tablet OS",
-        "Device_Maker": "RIM",
-        "Device_Type": "Tablet",
-        "Device_Brand_Name": "RIM",
-        "Device_Code_Name": "PlayBook",
-        "Device_Name": "PlayBook",
-        "Device_Pointing_Method": "touchscreen",
-        "isTablet": "true"
+        "Platform": "RIM Tablet OS"
       }
     },
     "RIM_Tablet_OS_1": {
@@ -2492,12 +2409,7 @@
         "Platform": "Bada",
         "Platform_Version": "1.0",
         "Platform_Description": "Samsung Bada",
-        "isMobileDevice": "true",
-        "Device_Maker": "Samsung",
         "Platform_Maker": "Samsung",
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "general Mobile Device",
-        "Device_Name": "general Mobile Device",
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
@@ -2525,12 +2437,6 @@
         "Platform": "Brew",
         "Platform_Version": "2.0",
         "Platform_Description": "Qualcomm Brew",
-        "isMobileDevice": "true",
-        "Device_Maker": "Qualcomm",
-        "Platform_Maker": "Qualcomm",
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "general Mobile Device",
-        "Device_Name": "general Mobile Device",
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
@@ -2557,12 +2463,7 @@
       "properties": {
         "Platform": "webOS",
         "Platform_Description": "HP webOS",
-        "isMobileDevice": "true",
-        "Device_Maker": "HP",
         "Platform_Maker": "HP",
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "general Mobile Device",
-        "Device_Name": "general Mobile Device",
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
@@ -2698,12 +2599,7 @@
       "properties": {
         "Platform": "Tru64 UNIX",
         "Platform_Maker": "HP",
-        "Device_Type": "Desktop",
-        "Device_Maker": "HP",
-        "Device_Brand_Name": "HP",
         "Platform_Description": "Tru64 UNIX",
-        "Device_Code_Name": "general Desktop",
-        "Device_Name": "general Desktop",
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
@@ -2729,12 +2625,7 @@
       "properties": {
         "Platform": "Solaris",
         "Platform_Maker": "Oracle",
-        "Device_Type": "Desktop",
-        "Device_Maker": "Oracle",
-        "Device_Brand_Name": "Oracle",
         "Platform_Description": "Solaris",
-        "Device_Code_Name": "general Desktop",
-        "Device_Name": "general Desktop",
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
@@ -2779,11 +2670,6 @@
       "properties": {
         "Platform": "OpenVMS",
         "Platform_Maker": "HP",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "general Desktop",
-        "Device_Maker": "HP",
-        "Device_Brand_Name": "HP",
-        "Device_Name": "general Desktop",
         "Platform_Description": "OpenVMS",
         "Win16": "false",
         "Win32": "false",

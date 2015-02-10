@@ -40,7 +40,27 @@
             "Android_4_4",
             "Android"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "userAgent": "Qt Generic for Desktop",
+      "engine": "WebKit",
+      "device": "general Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser_Type": "Browser",
+        "Comment": "Qt Generic for Desktop",
+        "Browser": "Qt",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "true",
+        "CssVersion": "3"
+      },
+      "children": [
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko, Safari\/*) Qt\/*",
           "device": "general Desktop",

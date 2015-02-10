@@ -684,10 +684,9 @@
         },
         {
           "match": "PluckItCrawler\/*",
+          "device": "general Mobile Device",
           "properties": {
-            "Browser": "PluckItCrawler",
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Device"
+            "Browser": "PluckItCrawler"
           }
         },
         {

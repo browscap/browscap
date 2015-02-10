@@ -63,27 +63,15 @@
         },
         {
           "match": "NokiaE63\/UC Browser#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Code_Name": "E63",
-            "Device_Name": "E63",
-            "Device_Maker": "Nokia"
-          }
+          "device": "Nokia E63"
         },
         {
           "match": "NokiaN73\/UC Browser#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Code_Name": "N73",
-            "Device_Name": "N73",
-            "Device_Maker": "Nokia"
-          }
+          "device": "Nokia N73"
         },
         {
           "match": "NOKIAN85\/UC Browser#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Code_Name": "N85",
-            "Device_Name": "N85",
-            "Device_Maker": "Nokia"
-          }
+          "device": "Nokia N85"
         },
         {
           "match": "Nokia5230\/UC Browser#MAJORVER#.#MINORVER#*",
@@ -98,24 +86,14 @@
         },
         {
           "match": "NokiaN97\/UC Browser#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Code_Name": "N97",
-            "Device_Name": "N97",
-            "Device_Maker": "Nokia"
-          }
+          "device": "Nokia N97"
         },
         {
           "match": "S8500 UCWEB6.0\/UC Browser#MAJORVER#.#MINORVER#*"
         },
         {
           "match": "JUC(Linux;?;2.2*;XT702*)UCWEB#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "XT702",
-            "Device_Maker": "Motorola",
-            "Device_Brand_Name": "Motorola",
-            "Device_Name": "XT702"
-          },
+          "device": "Motorola XT702",
           "platforms": [
             "Android_2_2_B"
           ]
@@ -126,11 +104,7 @@
         },
         {
           "match": "lg-c105\/UC Browser#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Code_Name": "C105",
-            "Device_Name": "C105",
-            "Device_Maker": "LG"
-          }
+          "device": "LG C105"
         },
         {
           "match": "IUC(U;iOS 4.3*)\/UCWEB#MAJORVER#.#MINORVER#*",
@@ -155,13 +129,7 @@
         },
         {
           "match": "JUC(Linux;U;Android4.2.2;Zh_cn;GT-I9060;*)UCWEB#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Code_Name": "GT-I9060",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Grand Neo",
-            "Device_Type": "Mobile Phone"
-          },
+          "device": "Samsung GT-I9060",
           "platforms": [
             "Android_4_2_B"
           ]
@@ -172,15 +140,7 @@
         {
           "match": "LG-KS20* Browser\/IEMobile\/* MMS/LG-MMS-WINCE* (compatible; MSIE 4.01; Windows CE*)\/UC Browser#MAJORVER#.#MINORVER#*",
           "engine": "Trident",
-          "properties": {
-            "Device_Code_Name": "KS20",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "KS20",
-            "Device_Type": "Mobile Phone",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-          },
+          "device": "LG KS20",
           "platforms": [
             "WinCE"
           ]

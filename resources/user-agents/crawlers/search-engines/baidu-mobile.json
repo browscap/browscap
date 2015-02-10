@@ -5,6 +5,7 @@
   "userAgents": [
     {
       "userAgent": "Baidu Mobile",
+      "device": "general Mobile Device",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Baidu",
@@ -14,9 +15,7 @@
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
-        "Crawler": "true",
-        "isMobileDevice": "true",
-        "Device_Type": "Mobile Device"
+        "Crawler": "true"
       },
       "children": [
         {

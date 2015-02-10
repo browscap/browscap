@@ -78,14 +78,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#MI 3W *) AppleWebKit\/* (KHTML,*like Gecko*) *UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
           "engine": "U3",
-          "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "MI 3W",
-            "Device_Maker": "Xiaomi",
-            "Device_Brand_Name": "Xiaomi",
-            "Device_Name": "MI 3W"
-          },
+          "device": "Xiaomi MI 3W",
           "platforms": [
             "Android_4_3", "Android_4_4"
           ]
@@ -205,13 +198,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#LA-M1 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#* Mobile Safari\/*",
           "engine": "WebKit",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "LA-M1",
-            "Device_Maker": "Beidou",
-            "Device_Brand_Name": "Beidou",
-            "Device_Name": "Chili Pepper LA-M1"
-          },
+          "device": "Beidou LA-M1",
           "platforms": [
             "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
           ]
@@ -219,13 +206,7 @@
         {
           "match": "UCWEB\/2.0 (Linux; U; Opera Mini\/*; Videocon_A15) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
           "engine": "U2",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "A15",
-            "Device_Maker": "Videocon",
-            "Device_Brand_Name": "Videocon",
-            "Device_Name": "A15"
-          },
+          "device": "Videocon A15",
           "platforms": [
             "Android_4_0"
           ]
@@ -233,16 +214,7 @@
         {
           "match": "UCWEB\/2.0(Linux; U; Opera Mini\/*; GT-S5670 Build\/*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
           "engine": "U2",
-          "properties": {
-            "Device_Code_Name": "GT-S5670",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Fit",
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen"
-          },
+          "device": "Samsung GT-S5670",
           "platforms": [
             "Android_4_0"
           ]
@@ -250,12 +222,7 @@
         {
           "match": "UCWEB\/2.0(Linux; U; Opera Mini\/*; MB525 Build\/*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
           "engine": "U2",
-          "properties": {
-            "Device_Code_Name": "MB525",
-            "Device_Maker": "Motorola",
-            "Device_Brand_Name": "Motorola",
-            "Device_Name": "DEFY"
-          },
+          "device": "Motorola MB525",
           "platforms": [
             "Android_4_0"
           ]
@@ -263,13 +230,7 @@
         {
           "match": "UCWEB\/2.0 (Java; *SAMSUNG-SGH-T669) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/* Mobile*",
           "engine": "U2",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "SGH-T669",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Gravity T"
-          },
+          "device": "Samsung SGH-T669",
           "platforms": [
             "JAVA"
           ]
@@ -277,12 +238,7 @@
         {
           "match": "Nokia5130c-2\/* Profile\/MIDP-2* UCWEB\/2.0 (*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/* Mobile",
           "engine": "U2",
-          "properties": {
-            "Device_Code_Name": "5130c-2",
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Name": "5130c-2 Xpressmusic"
-          },
+          "device": "Nokia 5130c-2",
           "platforms": [
             "JAVA"
           ]

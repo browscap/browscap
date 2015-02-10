@@ -6,6 +6,7 @@
     {
       "userAgent": "WebKit/webOS Generic",
       "engine": "WebKit",
+      "device": "general Mobile Device",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "WebKit/webOS Generic",
@@ -19,30 +20,21 @@
         "Cookies": "true",
         "JavaScript": "true",
         "JavaApplets": "true",
-        "CssVersion": "2",
-        "isMobileDevice": "true",
-        "Device_Type": "Mobile Device"
+        "CssVersion": "2"
       },
       "children": [
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Version\/* Safari\/* P160U\/1.0",
-          "properties": {
-            "Device_Name": "P160U",
-            "Device_Maker": "HP",
-            "Device_Brand_Name": "HP"
-          },
+          "device": "HP P160U",
           "platforms": [
             "webOS_21", "webOS"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Version\/* Safari\/* Pre\/*",
+          "device": "Palm Pre",
           "properties": {
-            "CssVersion": "2",
-            "Device_Code_Name": "Pre",
-            "Device_Maker": "Palm",
-            "Device_Brand_Name": "Palm",
-            "Device_Name": "Pre"
+            "CssVersion": "2"
           },
           "platforms": [
             "webOS_10", "webOS_11", "webOS_12", "webOS_13", "webOS_14", "webOS_20", "webOS_21", "webOS_22", "webOS"
@@ -50,70 +42,42 @@
         },
         {
           "match": "Mozilla\/5.0 (iPhone; U*)(#PLATFORM#) AppleWebKit\/* Version\/* Safari\/* Pre\/*",
-          "properties": {
-            "Device_Code_Name": "Pre",
-            "Device_Maker": "Palm",
-            "Device_Brand_Name": "Palm",
-            "Device_Name": "Pre"
-          },
+          "device": "Palm Pre",
           "platforms": [
             "webOS_10", "webOS_13", "webOS"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#)(iPhone; U*AppleWebKit\/* Version\/* Safari\/* Pre\/*",
-          "properties": {
-            "Device_Code_Name": "Pre",
-            "Device_Maker": "HP",
-            "Device_Brand_Name": "HP",
-            "Device_Name": "Pre"
-          },
+          "device": "HP Pre",
           "platforms": [
             "webOS_14"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Version\/* Safari\/* Desktop\/*",
-          "properties": {
-            "Device_Code_Name": "Pre",
-            "Device_Maker": "HP",
-            "Device_Brand_Name": "HP",
-            "Device_Name": "Pre"
-          },
+          "device": "HP Pre",
           "platforms": [
             "webOS_13"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) webOSBrowser\/* Safari\/* Pre\/*",
-          "properties": {
-            "Device_Code_Name": "Pre",
-            "Device_Maker": "HP",
-            "Device_Brand_Name": "HP",
-            "Device_Name": "Pre"
-          },
+          "device": "HP Pre",
           "platforms": [
             "webOS_22"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Version\/* Safari\/* Pixi\/*",
-          "properties": {
-            "Device_Name": "Pixi",
-            "Device_Maker": "Palm"
-          },
+          "device": "Palm Pixi",
           "platforms": [
             "webOS_10", "webOS_11", "webOS_12", "webOS_13", "webOS_14", "webOS_20", "webOS_21", "webOS"
           ]
         },
         {
           "match": "Mozilla\/5.0 (iPhone; U*)(#PLATFORM#AppleWebKit\/* Version\/* Safari\/* Pixi\/*",
-          "properties": {
-            "Device_Code_Name": "Pixi",
-            "Device_Maker": "HP",
-            "Device_Brand_Name": "HP",
-            "Device_Name": "Pixi"
-          },
+          "device": "HP Pixi",
           "platforms": [
             "webOS_10", "webOS_13", "webOS"
           ]

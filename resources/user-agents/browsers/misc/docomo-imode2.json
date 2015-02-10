@@ -73,13 +73,15 @@
           "match": "DoCoMo\/2.0 P701iD*"
         },
         {
-          "match": "DoCoMo\/2.0 P900i(c100;TB;W30H14)"
-        },
-        {
-          "match": "DoCoMo\/2.0 P900i*"
-        },
-        {
           "match": "DoCoMo\/2.0 P900iV*"
+        },
+        {
+          "match": "DoCoMo\/2.0 P900i(c100;TB;W30H14)",
+          "device": "DoCoMo P900i"
+        },
+        {
+          "match": "DoCoMo\/2.0 P900i*",
+          "device": "DoCoMo P900i"
         },
         {
           "match": "DoCoMo\/2.0 SH700iS(c100;TB;W24H12)"

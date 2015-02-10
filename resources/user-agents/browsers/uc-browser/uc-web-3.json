@@ -31,28 +31,50 @@
           "match": "#PLATFORM#) UCWEB#MAJORVER#.#MINORVER#*",
           "engine": "WebKit",
           "platforms": [
-            "Android_2_3_C", "Android_2_3_E", "Android_4_0_B", "Android_4_1_B", "Android_4_2_B", "Android_4_3_B"
+            "Android_2_3_C",
+            "Android_2_3_E",
+            "Android_4_0_B",
+            "Android_4_1_B",
+            "Android_4_2_B",
+            "Android_4_3_B"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
           "engine": "U3",
           "platforms": [
-            "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android"
+            "Android_2_2",
+            "Android_2_3",
+            "Android_4_0",
+            "Android_4_1",
+            "Android_4_2",
+            "Android_4_3",
+            "Android"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#*Safari\/*",
           "engine": "WebKit",
           "platforms": [
-            "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android"
+            "Android_2_2",
+            "Android_2_3",
+            "Android_4_0",
+            "Android_4_1",
+            "Android_4_2",
+            "Android_4_3",
+            "Android"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
           "engine": "WebKit",
           "platforms": [
-            "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android"
+            "Android_2_3",
+            "Android_4_0",
+            "Android_4_1",
+            "Android_4_2",
+            "Android_4_3",
+            "Android"
           ]
         },
         {
@@ -60,7 +82,8 @@
           "engine": "U2",
           "device": "Samsung GT-I8350",
           "platforms": [
-            "WinPhone7_B", "WinPhone8_B"
+            "WinPhone7_B",
+            "WinPhone8_B"
           ]
         },
         {
@@ -75,10 +98,23 @@
           "match": "UCWEB\/*(#PLATFORM#) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
           "engine": "U2",
           "platforms": [
-            "Android_2_1_C", "Android_2_2_C", "Android_2_3_D", "Android_4_0_C", "Android_4_1_C", "Android_4_2_C", "Android_4_3_C",
+            "Android_2_1_C",
+            "Android_2_2_C",
+            "Android_2_3_D",
+            "Android_4_0_C",
+            "Android_4_1_C",
+            "Android_4_2_C",
+            "Android_4_3_C",
             "Android_4_4_C",
-            "iOS_D_5_0", "iOS_D_5_1", "iOS_D_6_0", "iOS_D_6_1", "iOS_D_7_0", "iOS_D_7_1", "iOS_D_8_0",
-            "WinPhone7_B", "WinPhone8_B",
+            "iOS_D_5_0",
+            "iOS_D_5_1",
+            "iOS_D_6_0",
+            "iOS_D_6_1",
+            "iOS_D_7_0",
+            "iOS_D_7_1",
+            "iOS_D_8_0",
+            "WinPhone7_B",
+            "WinPhone8_B",
             "SymbianOS_B"
           ]
         },
@@ -123,9 +159,35 @@
           "engine": "U3",
           "device": "iPad",
           "platforms": [
-            "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_0"
+            "iOS_C_7_1",
+            "iOS_C_7_0",
+            "iOS_C_8_0"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "userAgent": "UC Browser #MAJORVER#.#MINORVER# for Desktop",
+      "device": "general Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "UC Browser #MAJORVER#.#MINORVER# for Desktop",
+        "Browser": "UC Browser",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "UC Web",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Win32": "true",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "true",
+        "CssVersion": "3"
+      },
+      "children": [
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Chrome\/* Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
           "engine": "WebKit",
