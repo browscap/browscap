@@ -226,6 +226,23 @@
             "Browser": "Kraken",
             "Browser_Maker": "Linkfluence SAS"
           }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Qwantify\/2.0*",
+          "properties": {
+            "Browser": "Qwantify",
+            "Browser_Maker": "QWANT SAS",
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Qwantify\/*",
+          "properties": {
+            "Browser": "Qwantify",
+            "Browser_Maker": "QWANT SAS"
+          }
         }
       ]
     }
