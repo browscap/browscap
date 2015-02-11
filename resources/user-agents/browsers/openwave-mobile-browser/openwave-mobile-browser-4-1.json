@@ -179,11 +179,11 @@
         },
         {
           "match": "NOKIA-NPD-4AW\/* UP.Browser\/4.1*",
-          "device": "Motorola NPD-4AW"
+          "device": "Nokia NPD-4AW"
         },
         {
           "match": "NOKIA-RH-17\/* UP.Browser\/4.1*",
-          "device": "Motorola RH-17"
+          "device": "Nokia RH-17"
         },
         {
           "match": "NOKIA-RH-44\/* UP.Browser\/4.1*",
