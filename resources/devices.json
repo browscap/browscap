@@ -6830,7 +6830,7 @@
     },
     "Samsung GT-N5100": {
       "properties": {
-        "Device_Type": "FonePad",
+        "Device_Type": "Tablet",
         "Device_Code_Name": "GT-N5100",
         "Device_Name": "Galaxy Note 8.0",
         "Device_Maker": "Samsung",
@@ -13658,7 +13658,7 @@
     },
     "Acer A510": {
       "properties": {
-        "Device_Type": "FonePad",
+        "Device_Type": "Tablet",
         "Device_Code_Name": "A510",
         "Device_Name": "A510",
         "Device_Maker": "Acer",
@@ -13802,7 +13802,7 @@
     },
     "Acer A210": {
       "properties": {
-        "Device_Type": "FonePad",
+        "Device_Type": "Tablet",
         "Device_Code_Name": "A210",
         "Device_Name": "A210",
         "Device_Maker": "Acer",
@@ -13814,7 +13814,7 @@
     },
     "Acer A211": {
       "properties": {
-        "Device_Type": "FonePad",
+        "Device_Type": "Tablet",
         "Device_Code_Name": "A211",
         "Device_Name": "A211",
         "Device_Maker": "Acer",
@@ -13826,7 +13826,7 @@
     },
     "Acer A511": {
       "properties": {
-        "Device_Type": "FonePad",
+        "Device_Type": "Tablet",
         "Device_Code_Name": "A511",
         "Device_Name": "A511",
         "Device_Maker": "Acer",
@@ -13838,7 +13838,7 @@
     },
     "Acer A700": {
       "properties": {
-        "Device_Type": "FonePad",
+        "Device_Type": "Tablet",
         "Device_Code_Name": "A700",
         "Device_Name": "Iconia Tab A700",
         "Device_Maker": "Acer",
@@ -13850,7 +13850,7 @@
     },
     "Acer A701": {
       "properties": {
-        "Device_Type": "FonePad",
+        "Device_Type": "Tablet",
         "Device_Code_Name": "A701",
         "Device_Name": "Iconia Tab A701",
         "Device_Maker": "Acer",
@@ -13874,7 +13874,7 @@
     },
     "Acer A1-810": {
       "properties": {
-        "Device_Type": "FonePad",
+        "Device_Type": "Tablet",
         "Device_Code_Name": "A1-810",
         "Device_Name": "Iconia A1-810",
         "Device_Maker": "Acer",
@@ -19778,7 +19778,7 @@
     },
     "HP Touchpad": {
       "properties": {
-        "Device_Type": "FonePad",
+        "Device_Type": "Tablet",
         "Device_Code_Name": "Touchpad",
         "Device_Name": "Touchpad",
         "Device_Maker": "HP",
