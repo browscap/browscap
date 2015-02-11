@@ -250,7 +250,7 @@ class Expander
                 }
 
                 if (array_key_exists('device', $uaDataChild)) {
-                    $device     = $this->getDataCollection()->getDevice($uaDataChild['engine']);
+                    $device     = $this->getDataCollection()->getDevice($uaDataChild['device']);
                     $deviceData = $device->getProperties();
                 } else {
                     $deviceData = array();
@@ -284,7 +284,7 @@ class Expander
             }
 
             if (array_key_exists('device', $uaDataChild)) {
-                $device     = $this->getDataCollection()->getDevice($uaDataChild['engine']);
+                $device     = $this->getDataCollection()->getDevice($uaDataChild['device']);
                 $deviceData = $device->getProperties();
             } else {
                 $deviceData = array();
