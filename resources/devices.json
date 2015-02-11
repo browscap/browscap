@@ -7065,7 +7065,7 @@
         "Device_Brand_Name": "Asus",
         "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
-        "isTablet": "false"
+        "isTablet": "true"
       }
     },
     "Asus TF201": {
@@ -7077,7 +7077,7 @@
         "Device_Brand_Name": "Asus",
         "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
-        "isTablet": "false"
+        "isTablet": "true"
       }
     },
     "Asus TF101G": {
@@ -7089,7 +7089,7 @@
         "Device_Brand_Name": "Asus",
         "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
-        "isTablet": "false"
+        "isTablet": "true"
       }
     },
     "Asus TF300T": {
@@ -7101,7 +7101,7 @@
         "Device_Brand_Name": "Asus",
         "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
-        "isTablet": "false"
+        "isTablet": "true"
       }
     },
     "Asus TF300TG": {
@@ -7113,7 +7113,7 @@
         "Device_Brand_Name": "Asus",
         "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
-        "isTablet": "false"
+        "isTablet": "true"
       }
     },
     "Asus TF300TL": {
@@ -7125,7 +7125,7 @@
         "Device_Brand_Name": "Asus",
         "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
-        "isTablet": "false"
+        "isTablet": "true"
       }
     },
     "Asus TF700T": {
@@ -7137,7 +7137,7 @@
         "Device_Brand_Name": "Asus",
         "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
-        "isTablet": "false"
+        "isTablet": "true"
       }
     },
     "Asus Nexus 7": {
