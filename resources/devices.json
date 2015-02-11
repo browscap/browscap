@@ -20397,7 +20397,7 @@
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "RIM",
         "isMobileDevice": "true",
-        "isTablet": "true"
+        "isTablet": "false"
       }
     },
     "Blackberry 8320": {
