@@ -175,7 +175,7 @@ HERE;
 
     /**
      * @expectedException \OutOfBoundsException
-     * @expectedExceptionMessage Rendering Engine "NotExists" does not exist in data, available engines
+     * @expectedExceptionMessage Rendering Engine "NotExists" does not exist in data
      */
     public function testGetEngineThrowsExceptionIfEngineDoesNotExist()
     {
