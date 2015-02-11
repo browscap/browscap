@@ -25,12 +25,49 @@
       "children": [
         {
           "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko\/*Firefox\/*",
+          "device": "Linux Desktop",
           "platforms": [
-            "FreeBSD", "HPUX", "IRIX64", "Linux_64", "Linux_32", "Linux",
+            "Linux_64", "Linux_32", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko\/*Firefox\/*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win2000", "NT4_1",
+            "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32", "Vista_64", "Vista_32",
+            "Win7_x64", "Win7_64", "Win7_32", "Win8_x64", "Win8_64", "Win8_32",
+            "Win8_1_x64", "Win8_1_64", "Win8_1_32"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko\/*Firefox\/*",
+          "device": "Macintosh",
+          "platforms": [
             "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
             "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B", "OSX_10_10_A", "OSX_10_10_B",
-            "OSX",
-            "OpenBSD", "SunOS", "Win2000", "NT4_1",
+            "OSX"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko\/*Firefox\/*",
+          "device": "general Desktop",
+          "platforms": [
+            "FreeBSD", "HPUX", "IRIX64", "OpenBSD", "SunOS"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko\/*Firefox\/ anonymized by Abelssoft*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64", "Linux_32", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko\/*Firefox\/ anonymized by Abelssoft*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win2000", "NT4_1",
             "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32", "Vista_64", "Vista_32",
             "Win7_x64", "Win7_64", "Win7_32", "Win8_x64", "Win8_64", "Win8_32",
             "Win8_1_x64", "Win8_1_64", "Win8_1_32"
@@ -38,22 +75,27 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko\/*Firefox\/ anonymized by Abelssoft*",
+          "device": "Macintosh",
           "platforms": [
-            "FreeBSD", "HPUX", "IRIX64", "Linux_64", "Linux_32", "Linux",
             "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
             "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B", "OSX_10_10_A", "OSX_10_10_B",
-            "OSX",
-            "OpenBSD", "SunOS", "Win2000", "NT4_1",
-            "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32", "Vista_64", "Vista_32",
-            "Win7_x64", "Win7_64", "Win7_32", "Win8_x64", "Win8_64", "Win8_32",
-            "Win8_1_x64", "Win8_1_64", "Win8_1_32"
+            "OSX"
           ]
         },
         {
-          "match": "Firefox\/*anonymized by Abelssoft*"
+          "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko\/*Firefox\/ anonymized by Abelssoft*",
+          "device": "general Desktop",
+          "platforms": [
+            "FreeBSD", "HPUX", "IRIX64", "OpenBSD", "SunOS"
+          ]
         },
         {
-          "match": "Mozilla\/5.0 (masking-agent; rv:*) Gecko\/* Firefox\/*"
+          "match": "Firefox\/*anonymized by Abelssoft*",
+          "device": "general Desktop"
+        },
+        {
+          "match": "Mozilla\/5.0 (masking-agent; rv:*) Gecko\/* Firefox\/*",
+          "device": "general Desktop"
         }
       ]
     },

@@ -28,16 +28,38 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko\/*Firefox\/*Lunascape\/#MAJORVER#.#MINORVER#*",
           "engine": "Gecko",
+          "device": "Linux Desktop",
           "platforms": [
-            "FreeBSD", "HPUX", "IRIX64",
-            "Linux_32", "Linux_64",
-            "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
-            "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B", "OSX_10_10_A", "OSX_10_10_B",
-            "OSX",
-            "OpenBSD", "SunOS", "Win2000", "NT4_1",
+            "Linux_64", "Linux_32"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko\/*Firefox\/*Lunascape\/#MAJORVER#.#MINORVER#*",
+          "engine": "Gecko",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win2000", "NT4_1",
             "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32", "Vista_64", "Vista_32",
             "Win7_64", "Win7_32", "Win8_64", "Win8_32",
             "Win8_1_64", "Win8_1_32"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko\/*Firefox\/*Lunascape\/#MAJORVER#.#MINORVER#*",
+          "engine": "Gecko",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
+            "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B", "OSX_10_10_A", "OSX_10_10_B",
+            "OSX"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko\/*Firefox\/*Lunascape\/#MAJORVER#.#MINORVER#*",
+          "engine": "Gecko",
+          "device": "general Desktop",
+          "platforms": [
+            "FreeBSD", "HPUX", "IRIX64", "OpenBSD", "SunOS"
           ]
         },
         {
