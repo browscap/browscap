@@ -1954,7 +1954,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#A7600-F Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "device": "Lenovo A7600-F",
           "platforms": [
-            "Android_4_2"
+            "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {
