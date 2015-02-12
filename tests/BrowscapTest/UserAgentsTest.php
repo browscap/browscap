@@ -51,8 +51,14 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
         $buildFolder = __DIR__ . '/../../build/browscap-ua-test-' . $buildNumber;
         $iniFile     = $buildFolder . '/full_php_browscap.ini';
 
+        // create build folder if it does not exist
         if (!file_exists($buildFolder)) {
             mkdir($buildFolder, 0777, true);
+        }
+
+        // remove ini file if it already exists
+        if (file_exists($iniFile)) {
+            unlink($iniFile);
         }
 
         $logger = new Logger('browscap');

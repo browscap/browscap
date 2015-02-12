@@ -42,6 +42,7 @@
         },
         {
           "match": "Mozilla\/5.0 (compatible*; MSIE 9.0*; Windows NT 5.1; *; mobile version65)",
+          "device": "general Mobile Phone (Touch)",
           "platforms": [
             "WinPhone65"
           ]

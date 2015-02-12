@@ -172,7 +172,6 @@
     },
     "iOS": {
       "match": "*CPU iPhone OS * like Mac OS X*",
-      "device": "general Mobile Device",
       "properties": {
         "Platform": "iOS",
         "Platform_Maker": "Apple Inc",
@@ -181,11 +180,7 @@
         "Win32": "false",
         "Win64": "false",
         "Browser_Bits": "32",
-        "Platform_Bits": "32",
-        "Device_Maker": "Apple Inc",
-        "Device_Brand_Name": "Apple",
-        "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true"
+        "Platform_Bits": "32"
       }
     },
     "iOS_A": {
@@ -714,7 +709,6 @@
     },
     "CentOS": {
       "match": "*CentOS*",
-      "device": "general Desktop",
       "properties": {
         "Platform": "CentOS",
         "Win16": "false",
@@ -897,7 +891,6 @@
     },
     "Windows": {
       "match": "*Windows*",
-      "device": "Windows Desktop",
       "properties": {
         "Browser_Bits": "32",
         "Platform": "Win32",
@@ -1649,7 +1642,6 @@
     "WinCE": {
       "match": "*Windows CE*",
       "inherits": "Windows",
-      "device": "general Mobile Device",
       "properties": {
         "Platform": "WinCE",
         "Platform_Description": "Windows CE",
@@ -1659,7 +1651,6 @@
     "WinMobile": {
       "match": "*Windows Mobile*",
       "inherits": "Windows",
-      "device": "general Mobile Device",
       "properties": {
         "Platform": "WinMobile",
         "Platform_Description": "Windows Mobile OS",
@@ -1669,7 +1660,6 @@
     "WinPhone": {
       "match": "*Windows Phone*",
       "inherits": "Windows",
-      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Platform": "WinPhone",
         "Platform_Description": "Windows Phone OS",
@@ -1679,7 +1669,6 @@
     "WinPhone65": {
       "match": "*Windows Phone 6.5*",
       "inherits": "Windows",
-      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Platform": "WinPhone6",
         "Platform_Version": "6.5",
@@ -1690,7 +1679,6 @@
     "WinPhone7": {
       "match": "*Windows Phone 7*",
       "inherits": "Windows",
-      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Platform": "WinPhone7",
         "Platform_Version": "7.0",
@@ -1701,7 +1689,6 @@
     "WinPhone7_B": {
       "match": "*Windows; U; wds 7*",
       "inherits": "Windows",
-      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Platform": "WinPhone7",
         "Platform_Version": "7.0",
@@ -1712,7 +1699,6 @@
     "WinPhone75": {
       "match": "*Windows Phone 7.5*",
       "inherits": "Windows",
-      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Platform": "WinPhone7.5",
         "Platform_Version": "7.5",
@@ -1723,7 +1709,6 @@
     "WinPhone8": {
       "match": "*Windows Phone 8*",
       "inherits": "Windows",
-      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Platform": "WinPhone8",
         "Platform_Version": "8.0",
@@ -1734,7 +1719,6 @@
     "WinPhone8_B": {
       "match": "*Windows; U; wds 8*",
       "inherits": "Windows",
-      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Platform": "WinPhone8",
         "Platform_Version": "8.0",
@@ -1745,7 +1729,6 @@
     "WinPhone8.1": {
       "match": "*Windows Phone 8.1*",
       "inherits": "Windows",
-      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Platform": "WinPhone8.1",
         "Platform_Version": "8.1",
@@ -1755,7 +1738,6 @@
     },
     "Android": {
       "match": "*Linux*Android*",
-      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Platform": "Android",
         "Platform_Description": "Android OS",
@@ -2136,7 +2118,6 @@
     },
     "OpenBSD": {
       "match": "*OpenBSD*",
-      "device": "general Desktop",
       "properties": {
         "Platform": "OpenBSD",
         "Platform_Description": "OpenBSD",
@@ -2149,7 +2130,6 @@
     },
     "NetBSD": {
       "match": "*NetBSD*",
-      "device": "general Desktop",
       "properties": {
         "Platform": "NetBSD",
         "Platform_Description": "NetBSD",
@@ -2162,7 +2142,6 @@
     },
     "DragonFlyBSD": {
       "match": "*DragonFly*",
-      "device": "general Desktop",
       "properties": {
         "Platform": "DragonFly BSD",
         "Platform_Description": "DragonFlyBSD",
@@ -2205,7 +2184,6 @@
     },
     "OS2": {
       "match": "*OS/2*",
-      "device": "general Desktop",
       "properties": {
         "Platform": "OS/2",
         "Platform_Maker": "IBM",
@@ -2219,7 +2197,6 @@
     },
     "RIMOS": {
       "match": "*BlackBerry; U*",
-      "device": "general Mobile Phone",
       "properties": {
         "Platform": "RIM OS",
         "Platform_Description": "RIM OS",
@@ -2366,7 +2343,6 @@
     },
     "SymbianOS": {
       "match": "*SymbianOS*",
-      "device": "general Mobile Phone",
       "properties": {
         "Platform": "SymbianOS",
         "Platform_Maker": "Symbian Foundation",
@@ -2388,7 +2364,6 @@
     },
     "Unix": {
       "match": "*UNIX*",
-      "device": "general Desktop",
       "properties": {
         "Platform": "Unix",
         "Platform_Description": "Unix",
@@ -2543,8 +2518,6 @@
       "properties": {
         "Platform": "Darwin",
         "Platform_Maker": "Apple Inc",
-        "Device_Maker": "Apple Inc",
-        "Device_Brand_Name": "Apple",
         "Platform_Description": "Darwin is a Core Component of MacOSX and iOS",
         "Win16": "false",
         "Win32": "false",
@@ -2555,7 +2528,6 @@
     },
     "AIX": {
       "match": "*AIX*",
-      "device": "general Desktop",
       "properties": {
         "Platform": "AIX",
         "Platform_Maker": "IBM",
@@ -2569,7 +2541,6 @@
     },
     "BeOS": {
       "match": "*BeOS*",
-      "device": "general Desktop",
       "properties": {
         "Platform": "BeOS",
         "Platform_Maker": "Access",
@@ -2583,7 +2554,6 @@
     },
     "CygWin": {
       "match": "*CygWin*",
-      "device": "Windows Desktop",
       "properties": {
         "Platform": "CygWin",
         "Platform_Maker": "Microsoft Corporation",
@@ -2609,7 +2579,6 @@
     },
     "RISC_OS": {
       "match": "*RISC*",
-      "device": "general Desktop",
       "properties": {
         "Platform": "RISC OS",
         "Platform_Description": "RISC OS",
@@ -2635,7 +2604,6 @@
     },
     "MeeGo": {
       "match": "*MeeGo*",
-      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Platform": "MeeGo",
         "Platform_Maker": "Linux Foundation",
@@ -2649,7 +2617,6 @@
     },
     "Maemo": {
       "match": "*Maemo; Linux*",
-      "device": "general Mobile Phone",
       "properties": {
         "Platform": "Linux Smartphone OS",
         "Platform_Maker": "Linux Foundation",
@@ -2680,7 +2647,6 @@
     },
     "JAVA": {
       "match": "*/MIDP*",
-      "device": "general Mobile Phone",
       "properties": {
         "Platform": "JAVA",
         "Platform_Maker": "Oracle",
@@ -2692,7 +2658,6 @@
     },
     "FirefoxOS": {
       "match": "*Gecko/*",
-      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Platform": "FirefoxOS",
         "Platform_Maker": "Mozilla Foundation",
@@ -2703,7 +2668,6 @@
     },
     "PalmOS": {
       "match": "*Palm OS*",
-      "device": "general Mobile Phone",
       "properties": {
         "Platform": "PalmOS",
         "Platform_Maker": "Palm",
@@ -2721,7 +2685,6 @@
     },
     "Amiga": {
       "match": "*AmigaOS*",
-      "device": "general Desktop",
       "properties": {
         "Platform": "Amiga OS",
         "Platform_Maker": "Amiga",
@@ -2732,7 +2695,6 @@
     },
     "CellOS": {
       "match": "*CellOS*",
-      "device": "general Desktop",
       "properties": {
         "Platform": "CellOS",
         "Platform_Maker": "Sony",

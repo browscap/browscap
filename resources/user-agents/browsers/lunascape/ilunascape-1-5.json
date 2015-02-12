@@ -7,6 +7,7 @@
     {
       "userAgent": "iLunascape #MAJORVER#.#MINORVER#",
       "platform": "iOS",
+      "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "iLunascape #MAJORVER#.#MINORVER#",

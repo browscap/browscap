@@ -70,6 +70,7 @@
         },
         {
           "match": "Opera\/*(Series 60*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "device": "general Mobile Phone",
           "platforms": [
             "SymbianOS"
           ]

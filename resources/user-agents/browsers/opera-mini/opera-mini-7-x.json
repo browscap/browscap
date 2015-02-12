@@ -66,6 +66,7 @@
         },
         {
           "match": "Opera\/*(*Series 60*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "device": "general Mobile Phone",
           "platforms": [
             "SymbianOS"
           ]
@@ -78,6 +79,7 @@
         },
         {
           "match": "Opera\/*(*Windows Phone*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "device": "general Mobile Phone (Touch)",
           "platforms": [
             "WinPhone"
           ]

@@ -7,7 +7,7 @@
       "userAgent": "Google+ App",
       "engine": "WebKit",
       "platform": "iOS",
-      "device": "general Mobile Phone (Touch)",
+      "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Google+ App",

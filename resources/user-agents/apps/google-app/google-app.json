@@ -7,6 +7,7 @@
       "userAgent": "Google App",
       "platform": "iOS",
       "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser_Maker": "Google Inc",

@@ -46,6 +46,7 @@
         },
         {
           "match": "Opera\/*(Series 60*Opera Mini\/2.*)*",
+          "device": "general Mobile Phone",
           "platforms": [
             "SymbianOS"
           ]

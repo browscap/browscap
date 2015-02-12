@@ -35,6 +35,7 @@
         },
         {
           "match": "Windows Phone Search (Windows Phone OS 7.10;*)",
+          "device": "general Mobile Phone (Touch)",
           "platforms": [
             "WinPhone7"
           ]

@@ -40,6 +40,7 @@
         },
         {
           "match": "Mozilla\/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident\/3.1; IEMobile\/#MAJORVER#.#MINORVER#*)*",
+          "device": "general Mobile Phone (Touch)",
           "platforms": [
             "WinPhone7"
           ]
@@ -511,12 +512,14 @@
         },
         {
           "match": "Mozilla\/4.0 (*compatible*;*MSIE 7.0; Windows Phone OS 7.0; Trident\/3.1; IEMobile\/#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Phone (Touch)",
           "platforms": [
             "WinPhone7"
           ]
         },
         {
           "match": "Mozilla\/4.0 (compatible*; MSIE 7.0*; Windows NT 6.1; XBLWP7; ZuneWP7)",
+          "device": "general Mobile Phone (Touch)",
           "properties": {
             "Browser_Modus": "Desktop Mode"
           },

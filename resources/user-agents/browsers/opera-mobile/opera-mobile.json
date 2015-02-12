@@ -42,12 +42,14 @@
         },
         {
           "match": "Opera\/*(*Symbian*Opera Mobi*)*",
+          "device": "general Mobile Phone",
           "platforms": [
             "SymbianOS"
           ]
         },
         {
           "match": "Opera\/*(*SymbOS*Opera Mobi*)*",
+          "device": "general Mobile Phone",
           "platforms": [
             "SymbianOS"
           ]

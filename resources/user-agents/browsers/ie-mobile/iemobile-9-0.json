@@ -36,12 +36,14 @@
       "children": [
         {
           "match": "Mozilla\/5.0 (compatible*; MSIE 9.0*; Windows NT 6.0; Trident\/5.0; mobile version65)",
+          "device": "general Mobile Phone (Touch)",
           "platforms": [
             "WinPhone65"
           ]
         },
         {
           "match": "Mozilla\/5.0 (compatible*; MSIE 9.0*; Windows NT 6.1; Trident\/5.0; XBLWP7; ZuneWP7)",
+          "device": "general Mobile Phone (Touch)",
           "properties": {
             "Browser_Modus": "Desktop Mode"
           },
@@ -184,6 +186,7 @@
         },
         {
           "match": "Mozilla\/5.0 (compatible*; MSIE 9.0*; Windows Phone OS 7.5; Trident\/5.0; IEMobile\/9.0*",
+          "device": "general Mobile Phone (Touch)",
           "platforms": [
             "WinPhone75"
           ]
