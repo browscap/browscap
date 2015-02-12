@@ -3601,7 +3601,7 @@
             "Device_Name": "A10-70 A7600 Wi-Fi"
           },
           "platforms": [
-            "Android_4_2"
+            "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {
