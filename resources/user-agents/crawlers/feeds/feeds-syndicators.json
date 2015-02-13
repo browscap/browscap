@@ -79,6 +79,7 @@
         },
         {
           "match": "AppleSyndication\/*",
+          "device": "Macintosh",
           "properties": {
             "Browser": "Safari RSS"
           },

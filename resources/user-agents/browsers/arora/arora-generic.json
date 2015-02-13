@@ -22,18 +22,44 @@
       "children": [
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko, Safari\/*) Arora\/0.?*",
+          "device": "Linux Desktop",
           "platforms": [
-            "Linux_64", "Linux",
-            "OSX",
+            "Linux_64", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko, Safari\/*) Arora\/0.?*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win2000", "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32", "Windows"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko, Safari\/*) Arora\/0.?*",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Arora\/0.?* Safari/*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Arora\/0.?* Safari/*",
+          "device": "Windows Desktop",
+          "platforms": [
             "Win2000", "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32", "Windows"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Arora\/0.?* Safari/*",
+          "device": "Macintosh",
           "platforms": [
-            "Linux_64", "Linux",
-            "OSX",
-            "Win2000", "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32", "Windows"
+            "OSX"
           ]
         }
       ]

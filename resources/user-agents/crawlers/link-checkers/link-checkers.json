@@ -147,6 +147,7 @@
         },
         {
           "match": "integrity/*",
+          "device": "Macintosh",
           "properties": {
             "Browser": "Integrity"
           },
@@ -323,6 +324,7 @@
         },
         {
           "match": "SafariBookmarkChecker*(?http:\/\/www.coriolis.ch\/)",
+          "device": "Macintosh",
           "properties": {
             "Browser": "SafariBookmarkChecker",
             "CssVersion": "2"

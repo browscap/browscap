@@ -27,9 +27,16 @@
       "children": [
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/2.* Flock\/#MAJORVER#.*",
+          "device": "Windows Desktop",
           "platforms": [
-            "OSX",
             "WinME", "Win2000", "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/2.* Flock\/#MAJORVER#.*",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX"
           ]
         }
       ]

@@ -29,6 +29,7 @@
       "children": [
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* SeaMonkey\/#MAJORVER#.#MINORVER#*",
+          "device": "general Desktop",
           "platforms": [
             "OSX", "Win98", "WinME", "Win2000", "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32",
             "FreeBSD", "Linux_32_on_x64", "Linux", "SunOS"

@@ -387,6 +387,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko, Safari\/*) ADM\/*",
+          "device": "Macintosh",
           "properties": {
             "Browser": "Adobe Dialog Manager"
           },

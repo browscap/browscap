@@ -15,6 +15,7 @@
       "children": [
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* RealPlayer",
+          "device": "Macintosh",
           "platforms": [
             "OSX_10_8_B", "OSX"
           ]

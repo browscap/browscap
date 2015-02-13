@@ -33,6 +33,7 @@
       "children": [
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) Word\/12.*",
+          "device": "Macintosh",
           "properties": {
             "Version": "2007",
             "MajorVer": "2007"
@@ -43,6 +44,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) Word\/14.*",
+          "device": "Macintosh",
           "properties": {
             "Version": "2010",
             "MajorVer": "2010"
@@ -53,6 +55,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) Word\/15.*",
+          "device": "Macintosh",
           "properties": {
             "Version": "2013",
             "MajorVer": "2013"

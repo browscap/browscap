@@ -29,6 +29,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko\/*Thunderbird\/#MAJORVER#.#MINORVER#*",
           "engine": "Gecko_Dynamic",
+          "device": "general Desktop",
           "platforms": [
             "Linux_64", "Linux_32", "Linux",
             "OSX",
@@ -39,6 +40,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#rv:2.*)*Gecko\/*Thunderbird\/#MAJORVER#.#MINORVER#*",
           "engine": "Gecko_2",
+          "device": "general Desktop",
           "platforms": [
             "Linux_64", "Linux_32", "Linux",
             "OSX",
@@ -49,6 +51,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#rv:#MAJORVER#.*)*Gecko\/*Thunderbird\/#MAJORVER#.#MINORVER#*",
           "engine": "Gecko_Dynamic",
+          "device": "general Desktop",
           "platforms": [
             "Linux_64", "Linux_32", "Linux",
             "OSX",

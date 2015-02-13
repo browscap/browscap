@@ -58,7 +58,7 @@
         },
         {
           "match": "iTunes\/10.1* (Macintosh*",
-          "device": "Macintosh","device": "Macintosh",
+          "device": "Macintosh",
           "properties": {
             "Version": "10.1",
             "MajorVer": "10",

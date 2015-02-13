@@ -7,6 +7,7 @@
     {
       "userAgent": "AppleCoreMedia #MAJORVER#.#MINORVER#",
       "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "AppleCoreMedia #MAJORVER#.#MINORVER#",
@@ -52,6 +53,7 @@
         },
         {
           "match": "AppleCoreMedia\/#MAJORVER#.#MINORVER#* (#PLATFORM#)*",
+          "device": "Macintosh",
           "platforms": [
             "OSX_10_7_A", "OSX_10_8_A", "OSX_10_9_A", "OSX_10_10_A", "OSX"
           ]

@@ -8,6 +8,7 @@
       "userAgent": "iCab #MAJORVER#.#MINORVER#",
       "engine": "WebKit",
       "device": "Macintosh",
+      "platform": "OSX",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "iCab #MAJORVER#.#MINORVER#",

@@ -7,6 +7,7 @@
       "userAgent": "WebClip",
       "engine": "WebKit",
       "device": "Macintosh",
+      "platform": "OSX",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "WebClip",
