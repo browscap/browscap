@@ -45,58 +45,130 @@
         },
         {
           "match": "Mozilla\/?.*(#PLATFORM#)*Opera?#MAJORVER#.#MINORVER#*",
-          "device": "general Desktop",
+          "device": "Linux Desktop",
           "platforms": [
-            "FreeBSD", "Linux",
+            "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla\/?.*(#PLATFORM#)*Opera?#MAJORVER#.#MINORVER#*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "WinCE", "Win2000", "Win2000_2", "WinME", "WinME_2", "Win95_2", "Win98_2", "NT4",
+            "WinXPa_v2", "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32", "Win8_32", "Win8_1_32"
+          ]
+        },
+        {
+          "match": "Mozilla\/?.*(#PLATFORM#)*Opera?#MAJORVER#.#MINORVER#*",
+          "device": "Macintosh",
+          "platforms": [
             "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
             "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B", "OSX_10_10_A", "OSX_10_10_B",
             "OSX",
-            "MacPPC_2",
-            "SunOS",
+            "MacPPC_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/?.*(#PLATFORM#)*Opera?#MAJORVER#.#MINORVER#*",
+          "device": "general Desktop",
+          "platforms": [
+            "FreeBSD", "SunOS"
+          ]
+        },
+        {
+          "match": "Mozilla\/?.*(*Opera?#MAJORVER#.#MINORVER##PLATFORM#)*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla\/?.*(*Opera?#MAJORVER#.#MINORVER##PLATFORM#)*",
+          "device": "Windows Desktop",
+          "platforms": [
             "WinCE", "Win2000", "Win2000_2", "WinME", "WinME_2", "Win95_2", "Win98_2", "NT4",
             "WinXPa_v2", "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32", "Win8_32", "Win8_1_32"
           ]
         },
         {
           "match": "Mozilla\/?.*(*Opera?#MAJORVER#.#MINORVER##PLATFORM#)*",
-          "device": "general Desktop",
+          "device": "Macintosh",
           "platforms": [
-            "FreeBSD", "Linux",
             "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
             "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B", "OSX_10_10_A", "OSX_10_10_B",
             "OSX",
-            "MacPPC_2",
-            "SunOS",
+            "MacPPC_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/?.*(*Opera?#MAJORVER#.#MINORVER##PLATFORM#)*",
+          "device": "general Desktop",
+          "platforms": [
+            "FreeBSD", "SunOS"
+          ]
+        },
+        {
+          "match": "Opera\/#MAJORVER#.#MINORVER#*(#PLATFORM#)*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux"
+          ]
+        },
+        {
+          "match": "Opera\/#MAJORVER#.#MINORVER#*(#PLATFORM#)*",
+          "device": "Windows Desktop",
+          "platforms": [
             "WinCE", "Win2000", "Win2000_2", "WinME", "WinME_2", "Win95_2", "Win98_2", "NT4",
             "WinXPa_v2", "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32", "Win8_32", "Win8_1_32"
           ]
         },
         {
           "match": "Opera\/#MAJORVER#.#MINORVER#*(#PLATFORM#)*",
-          "device": "general Desktop",
+          "device": "Macintosh",
           "platforms": [
-            "FreeBSD", "Linux",
             "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
             "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B", "OSX_10_10_A", "OSX_10_10_B",
             "OSX",
-            "MacPPC_2",
-            "SunOS",
+            "MacPPC_2"
+          ]
+        },
+        {
+          "match": "Opera\/#MAJORVER#.#MINORVER#*(#PLATFORM#)*",
+          "device": "general Desktop",
+          "platforms": [
+            "FreeBSD", "SunOS"
+          ]
+        },
+        {
+          "match": "Opera\/9.80*(#PLATFORM#)*Version\/#MAJORVER#.#MINORVER#*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux"
+          ]
+        },
+        {
+          "match": "Opera\/9.80*(#PLATFORM#)*Version\/#MAJORVER#.#MINORVER#*",
+          "device": "Windows Desktop",
+          "platforms": [
             "WinCE", "Win2000", "Win2000_2", "WinME", "WinME_2", "Win95_2", "Win98_2", "NT4",
             "WinXPa_v2", "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32", "Win8_32", "Win8_1_32"
           ]
         },
         {
           "match": "Opera\/9.80*(#PLATFORM#)*Version\/#MAJORVER#.#MINORVER#*",
-          "device": "general Desktop",
+          "device": "Macintosh",
           "platforms": [
-            "FreeBSD", "Linux",
             "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
             "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B", "OSX_10_10_A", "OSX_10_10_B",
             "OSX",
-            "MacPPC_2",
-            "SunOS",
-            "WinCE", "Win2000", "Win2000_2", "WinME", "WinME_2", "Win95_2", "Win98_2", "NT4",
-            "WinXPa_v2", "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32", "Win8_32", "Win8_1_32"
+            "MacPPC_2"
+          ]
+        },
+        {
+          "match": "Opera\/9.80*(#PLATFORM#)*Version\/#MAJORVER#.#MINORVER#*",
+          "device": "general Desktop",
+          "platforms": [
+            "FreeBSD", "SunOS"
           ]
         }
       ]

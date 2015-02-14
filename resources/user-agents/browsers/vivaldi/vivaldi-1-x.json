@@ -37,7 +37,7 @@
       "children": [
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Chrome\/* Vivaldi\/#MAJORVER#.#MINORVER#*Safari\/*",
-          "device": "general Desktop",
+          "device": "Macintosh",
           "platforms": [
             "OSX_10_9_A", "OSX_10_9_B", "OSX_10_10_A", "OSX_10_10_B",
             "OSX"
