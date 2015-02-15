@@ -176,6 +176,7 @@
         {
           "match": "UCWEB\/*(Java*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
           "engine": "U2",
+          "device": "general Mobile Phone",
           "platforms": [
             "JAVA"
           ]

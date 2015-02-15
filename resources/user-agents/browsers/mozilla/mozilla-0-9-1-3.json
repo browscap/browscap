@@ -28,12 +28,14 @@
       "children": [
         {
           "match": "Mozilla\/5.0 (#PLATFORM#*rv:#MAJORVER#.#MINORVER#*) Gecko*",
+          "dvice": "Linux Desktop",
           "platforms": [
             "Linux_32", "Linux"
           ]
         },
         {
           "match": "Mozilla\/5.0 (*rv:#MAJORVER#.#MINORVER#*) Gecko*",
+          "device": "general Desktop",
           "properties": {
             "Win32": "false"
           }

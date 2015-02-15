@@ -38,24 +38,35 @@
       "children": [
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/*(KHTML,*like Gecko*) Safari\/* Epiphany\/2.30.*",
+          "device": "Linux Desktop",
           "platforms": [
-            "Linux", "FreeBSD", "SunOS"
+            "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/*(KHTML,*like Gecko*) Safari\/* Epiphany\/2.30.*",
+          "device": "general Desktop",
+          "platforms": [
+            "FreeBSD", "SunOS"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Version\/5.0 Safari\/* Epiphany\/2.30.*",
+          "device": "Linux Desktop",
           "platforms": [
             "Linux_64", "Linux"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/*(KHTML,*like Gecko*) Version\/*Safari\/* Epiphany\/2.30.*",
+          "device": "Linux Desktop",
           "platforms": [
             "Linux"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Epiphany\/2.30*Safari\/*",
+          "device": "Linux Desktop",
           "platforms": [
             "Linux_64"
           ]

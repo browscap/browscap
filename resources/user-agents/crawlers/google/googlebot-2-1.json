@@ -36,12 +36,14 @@
         },
         {
           "match": "Mozilla\/5.0 (Windows; U*Gecko\/* Googlebot?#MAJORVER#.#MINORVER#*",
+          "device": "Windows Desktop",
           "platforms": [
             "Windows"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Googlebot?#MAJORVER#.#MINORVER#*",
+          "device": "Windows Desktop",
           "platforms": [
             "WinXPa_32", "WinXPb_32", "Vista_32"
           ]

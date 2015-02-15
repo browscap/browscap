@@ -6,7 +6,6 @@
   "userAgents": [
     {
       "userAgent": "SuperBird #MAJORVER#.#MINORVER#",
-      "platform": "Windows",
       "engine": "WebKit",
       "device": "general Desktop",
       "properties": {

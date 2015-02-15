@@ -58,6 +58,7 @@
         {
           "match": "UCWEB\/*(Java*) U2\/* UCBrowser\/*",
           "engine": "U2",
+          "device": "general Mobile Device",
           "platforms": [
             "JAVA"
           ]

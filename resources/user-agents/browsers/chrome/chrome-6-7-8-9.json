@@ -64,7 +64,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*",
           "device": "Linux Desktop",
           "platforms": [
-            "Linux_32", "Linux_64",
+            "Linux_64", "Linux_32", "Linux",
             "ChromeOS_i686", "ChromeOS"
           ]
         },

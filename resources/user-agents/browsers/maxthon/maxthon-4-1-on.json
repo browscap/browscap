@@ -102,7 +102,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Maxthon\/#MAJORVER#.#MINORVER#* Chrome\/* Safari\/*",
           "device": "Linux Desktop",
           "platforms": [
-            "Linux_32", "Linux_64"
+            "Linux_64", "Linux_32", "Linux"
           ]
         },
         {
@@ -129,7 +129,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Maxthon\/#MAJORVER#.#MINORVER#*Safari\/*",
           "device": "Linux Desktop",
           "platforms": [
-            "Linux_32", "Linux_64"
+            "Linux_64", "Linux_32", "Linux"
           ]
         },
         {

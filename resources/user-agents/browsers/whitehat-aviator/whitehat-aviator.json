@@ -6,7 +6,6 @@
   "userAgents": [
     {
       "userAgent": "WhiteHat Aviator #MAJORVER#.#MINORVER#",
-      "platform": "Windows",
       "engine": "Blink",
       "device": "general Desktop",
       "properties": {

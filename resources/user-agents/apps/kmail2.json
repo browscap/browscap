@@ -38,6 +38,7 @@
       "children": [
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) kmail2\/#MAJORVER#.#MINORVER#* Safari\/*",
+          "device": "Linux Desktop",
           "platforms": [
             "Linux_64", "Linux_32", "Linux"
           ]

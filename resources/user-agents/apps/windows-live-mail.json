@@ -7,6 +7,7 @@
       "userAgent": "Windows Live Mail",
       "engine": "Trident",
       "device": "Windows Desktop",
+      "platform": "Windows",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Windows Live Mail",

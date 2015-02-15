@@ -31,6 +31,7 @@
         },
         {
           "match": "Mozilla\/5.0 (compatible; #PLATFORM# Mail.RU_Bot\/2.0*",
+          "device": "Linux Desktop",
           "properties": {
             "Version": "2.0",
             "MajorVer": "2",
@@ -42,6 +43,7 @@
         },
         {
           "match": "Mozilla\/5.0 (compatible; #PLATFORM# Mail.RU_Bot\/Fast\/2.0*",
+          "device": "Linux Desktop",
           "properties": {
             "Version": "2.0",
             "MajorVer": "2",
@@ -53,6 +55,7 @@
         },
         {
           "match": "Mozilla\/5.0 (compatible; #PLATFORM# Mail.RU_Bot\/Img\/2.0*",
+          "device": "Linux Desktop",
           "properties": {
             "Version": "2.0",
             "MajorVer": "2",
@@ -64,6 +67,7 @@
         },
         {
           "match": "Mozilla\/5.0 (compatible; #PLATFORM# Mail.RU_Bot\/*",
+          "device": "Linux Desktop",
           "platforms": [
             "Linux_64", "Linux_32", "Linux"
           ]

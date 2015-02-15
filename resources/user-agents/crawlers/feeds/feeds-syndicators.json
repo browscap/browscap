@@ -254,6 +254,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#; aggregator:FeedParser; *) Gecko\/*",
+          "device": "Linux Desktop",
           "engine": "Gecko",
           "properties": {
             "Browser": "Jakarta FeedParser",
@@ -266,6 +267,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#; aggregator:NewsMonster; *) Gecko\/*",
           "engine": "Gecko",
+          "device": "Linux Desktop",
           "properties": {
             "Browser": "NewsMonster",
             "Browser_Maker": "Kevin Burton"
@@ -276,6 +278,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#; aggregator:Rojo; *) Gecko\/*",
+          "device": "Linux Desktop",
           "engine": "Gecko",
           "properties": {
             "Browser": "Rojo",
@@ -295,6 +298,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#; aggregator:Tailrank (Spinn3r 2.3); *) Gecko\/*",
           "engine": "Gecko",
+          "device": "Linux Desktop",
           "properties": {
             "Browser": "Spinn3r RSS Aggregator",
             "Browser_Maker": "Tailrank Inc",
@@ -309,6 +313,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#; aggregator:Spinn3r (Spinn3r 3.0); *) Gecko\/*",
           "engine": "Gecko",
+          "device": "Linux Desktop",
           "properties": {
             "Browser": "Spinn3r RSS Aggregator",
             "Browser_Maker": "Tailrank Inc",
@@ -323,6 +328,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#; aggregator:Spinn3r (Spinn3r 3.1); *) Gecko\/*",
           "engine": "Gecko",
+          "device": "Linux Desktop",
           "properties": {
             "Browser": "Spinn3r RSS Aggregator",
             "Browser_Maker": "Tailrank Inc",
@@ -337,6 +343,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#; aggregator:Spinn3r (Spinn3r *); *) Gecko\/*",
           "engine": "Gecko",
+          "device": "Linux Desktop",
           "properties": {
             "Browser": "Spinn3r RSS Aggregator",
             "Browser_Maker": "Tailrank Inc"

@@ -23,6 +23,7 @@
       "children": [
         {
           "match": "Mozilla\/* (compatible*; MSIE *; Windows*; MSN Mobile Proxy)",
+          "device": "Windows Desktop",
           "platforms": [
             "Windows"
           ]

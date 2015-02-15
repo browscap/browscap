@@ -31,7 +31,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Iron\/#MAJORVER#.*Safari\/*",
           "device": "Linux Desktop",
           "platforms": [
-            "ChromeOS", "Linux_32", "Linux_64"
+            "ChromeOS", "Linux_64", "Linux_32", "Linux"
           ]
         },
         {
@@ -55,7 +55,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Iron\/#MAJORVER#.*Chrome\/#MAJORVER#.*Safari\/*",
           "device": "Linux Desktop",
           "platforms": [
-            "ChromeOS", "Linux_32", "Linux_64"
+            "ChromeOS", "Linux_64", "Linux_32", "Linux"
           ]
         },
         {
@@ -79,7 +79,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/#MAJORVER#.*Iron\/#MAJORVER#.*Safari\/*",
           "device": "Linux Desktop",
           "platforms": [
-            "ChromeOS", "Linux_32", "Linux_64"
+            "ChromeOS", "Linux_64", "Linux_32", "Linux"
           ]
         },
         {

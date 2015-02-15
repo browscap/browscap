@@ -1771,7 +1771,7 @@
         "Device_Name": "Alpha a5000",
         "Device_Maker": "Sony",
         "Device_Brand_Name": "Sony",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
