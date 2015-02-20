@@ -24,6 +24,7 @@
         "ActiveXControls": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
+        "JavaScript": "true",
         "CssVersion": "3"
       },
       "children": [

@@ -706,7 +706,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#LT25i Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "device": "SonyEricsson LT25i",
+          "device": "Sony LT25i",
           "platforms": [
             "Android_4_0", "Android_4_1"
           ]

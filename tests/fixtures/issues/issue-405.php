@@ -47,7 +47,7 @@ return [
             'isMobileDevice' => true,
             'isTablet' => false,
             'Crawler' => false,
-            'Device_Name' => 'PS Vita',
+            'Device_Name' => 'Playstation Vita',
             'Device_Maker' => 'Sony',
             'Device_Type' => 'Console',
             'Device_Pointing_Method' => 'unknown',

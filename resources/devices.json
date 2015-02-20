@@ -1260,13 +1260,13 @@
         "isTablet": "false"
       }
     },
-    "SonyEricsson LT25i": {
+    "Sony LT25i": {
       "properties": {
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "LT25i",
         "Device_Name": "Xperia V",
-        "Device_Maker": "SonyEricsson",
-        "Device_Brand_Name": "SonyEricsson",
+        "Device_Maker": "Sony",
+        "Device_Brand_Name": "Sony",
         "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
@@ -1308,13 +1308,13 @@
         "isTablet": "false"
       }
     },
-    "SonyEricsson C5303": {
+    "Sony C5303": {
       "properties": {
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "C5303",
         "Device_Name": "Xperia SP",
-        "Device_Maker": "SonyEricsson",
-        "Device_Brand_Name": "SonyEricsson",
+        "Device_Maker": "Sony",
+        "Device_Brand_Name": "Sony",
         "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
@@ -2272,7 +2272,7 @@
       "properties": {
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-I9010",
-        "Device_Name": "GT-I9010",
+        "Device_Name": "Galaxy S Armani",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "touchscreen",
@@ -3664,7 +3664,7 @@
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "GT-P7300",
-        "Device_Name": "GT-P7300",
+        "Device_Name": "Galaxy Tab 8.9",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "touchscreen",
@@ -7192,7 +7192,7 @@
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "ME172V",
-        "Device_Name": "Memo Pad",
+        "Device_Name": "MeMO Pad ME172V",
         "Device_Maker": "Asus",
         "Device_Brand_Name": "Asus",
         "Device_Pointing_Method": "touchscreen",
@@ -10155,7 +10155,7 @@
     "HTC One XL": {
       "properties": {
         "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "One XL",
+        "Device_Code_Name": "PJ83100",
         "Device_Name": "One XL",
         "Device_Maker": "HTC",
         "Device_Brand_Name": "HTC",
@@ -13744,7 +13744,7 @@
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "A100",
-        "Device_Name": "A100",
+        "Device_Name": "Vangogh",
         "Device_Maker": "Acer",
         "Device_Brand_Name": "Acer",
         "Device_Pointing_Method": "touchscreen",
@@ -14671,7 +14671,7 @@
         "Device_Name": "WiiU",
         "Device_Maker": "Nintendo",
         "Device_Brand_Name": "Nintendo",
-        "Device_Pointing_Method": "touchscreen",
+        "Device_Pointing_Method": "unknown",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -17959,7 +17959,7 @@
         "Device_Name": "One Touch 871A",
         "Device_Maker": "Alcatel",
         "Device_Brand_Name": "Alcatel",
-        "Device_Pointing_Method": "touchscreen",
+        "Device_Pointing_Method": "unknown",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -18847,7 +18847,7 @@
         "Device_Name": "SmartTab II 10",
         "Device_Maker": "Lenovo",
         "Device_Brand_Name": "Vodafone",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -18931,7 +18931,7 @@
         "Device_Name": "IdeaTab S6000-F Wi-Fi, 16GB",
         "Device_Maker": "Lenovo",
         "Device_Brand_Name": "Vodafone",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -18955,7 +18955,7 @@
         "Device_Name": "IdeaTab A3000-H",
         "Device_Maker": "Lenovo",
         "Device_Brand_Name": "Vodafone",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -18972,14 +18972,14 @@
         "isTablet": "true"
       }
     },
-    "Lenovo ME302C": {
+    "Asus ME302C": {
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "ME302C",
         "Device_Name": "MeMO Pad FHD 10",
-        "Device_Maker": "Lenovo",
-        "Device_Brand_Name": "Lenovo",
-        "Device_Pointing_Method": "unknown",
+        "Device_Maker": "Asus",
+        "Device_Brand_Name": "Asus",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -19467,7 +19467,7 @@
     "Faktor Zwei FX2 PAD10": {
       "properties": {
         "Device_Type": "Tablet",
-        "Device_Code_Name": "FX2 PAD10",
+        "Device_Code_Name": "812223",
         "Device_Name": "FX2 PAD10",
         "Device_Maker": "Faktor Zwei",
         "Device_Brand_Name": "Faktor Zwei",
@@ -19538,14 +19538,14 @@
     },
     "Pearl Touchlet X7G": {
       "properties": {
-        "Device_Type": "Mobile Phone",
+        "Device_Type": "Tablet",
         "Device_Code_Name": "Touchlet X7G",
         "Device_Name": "Touchlet X7G",
         "Device_Maker": "Pearl",
         "Device_Brand_Name": "Pearl",
         "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
-        "isTablet": "false"
+        "isTablet": "true"
       }
     },
     "Pearl X10.Dual+": {
@@ -19807,7 +19807,7 @@
         "Device_Name": "Pre",
         "Device_Maker": "HP",
         "Device_Brand_Name": "HP",
-        "Device_Pointing_Method": "touchscreen",
+        "Device_Pointing_Method": "unknown",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -20742,7 +20742,7 @@
         "Device_Name": "Torch",
         "Device_Code_Name": "BlackBerry 9800",
         "Device_Maker": "Research In Motion Limited",
-        "Device_Pointing_Method": "clickwheel",
+        "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "RIM",
         "isMobileDevice": "true",
         "isTablet": "false"
@@ -20766,7 +20766,7 @@
         "Device_Name": "BlackBerry 9780",
         "Device_Code_Name": "BlackBerry 9780",
         "Device_Maker": "Research In Motion Limited",
-        "Device_Pointing_Method": "clickwheel",
+        "Device_Pointing_Method": "trackpad",
         "Device_Brand_Name": "RIM",
         "isMobileDevice": "true",
         "isTablet": "false"
@@ -20802,7 +20802,7 @@
         "Device_Name": "Torch 4G",
         "Device_Code_Name": "BlackBerry 9810",
         "Device_Maker": "Research In Motion Limited",
-        "Device_Pointing_Method": "clickwheel",
+        "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "RIM",
         "isMobileDevice": "true",
         "isTablet": "false"
@@ -21078,7 +21078,7 @@
         "Device_Name": "Pre",
         "Device_Code_Name": "Pre",
         "Device_Maker": "Palm",
-        "Device_Pointing_Method": "touchscreen",
+        "Device_Pointing_Method": "unknwon",
         "Device_Brand_Name": "Palm",
         "isMobileDevice": "true",
         "isTablet": "false"
@@ -22182,7 +22182,7 @@
         "Device_Name": "STYLISTIC M532",
         "Device_Code_Name": "M532",
         "Device_Maker": "Fujitsu",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Fujitsu",
         "isMobileDevice": "true",
         "isTablet": "true"

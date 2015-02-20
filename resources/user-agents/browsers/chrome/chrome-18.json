@@ -709,7 +709,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#ME302C Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "device": "Lenovo ME302C",
+          "device": "Asus ME302C",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
           ]
@@ -758,7 +758,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#C5303 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "device": "SonyEricsson C5303",
+          "device": "Sony C5303",
           "platforms": [
             "Android_4_1"
           ]

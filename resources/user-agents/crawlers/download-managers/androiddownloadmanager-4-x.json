@@ -37,6 +37,10 @@
           "device": "Asus TF201"
         },
         {
+          "match": "AndroidDownloadManager\/#MAJORVER#.#MINORVER#* (Linux; ?; Android #MAJORVER#.#MINORVER#*; ME302C Build\/*)*",
+          "device": "Asus ME302C"
+        },
+        {
           "match": "AndroidDownloadManager\/#MAJORVER#.#MINORVER#* (Linux; ?; Android #MAJORVER#.#MINORVER#*; * Build\/*)*"
         }
       ]

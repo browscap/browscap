@@ -11,6 +11,8 @@
         "Parent": "DefaultProperties",
         "Comment": "Playstation Browser",
         "Browser": "Playstation Browser",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Sony",
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
