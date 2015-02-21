@@ -10180,7 +10180,7 @@
       "properties": {
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "M8",
-        "Device_Name": "One",
+        "Device_Name": "One M8",
         "Device_Maker": "HTC",
         "Device_Brand_Name": "HTC",
         "Device_Pointing_Method": "touchscreen",
@@ -18943,7 +18943,7 @@
         "Device_Name": "IdeaTab S6000-F",
         "Device_Maker": "Lenovo",
         "Device_Brand_Name": "Lenovo",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -18984,14 +18984,14 @@
         "isTablet": "true"
       }
     },
-    "Lenovo ME371MG": {
+    "Asus ME371MG": {
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "ME371MG",
         "Device_Name": "Fonepad ME371MG",
-        "Device_Maker": "Lenovo",
-        "Device_Brand_Name": "Lenovo",
-        "Device_Pointing_Method": "unknown",
+        "Device_Maker": "Asus",
+        "Device_Brand_Name": "Asus",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -21078,7 +21078,7 @@
         "Device_Name": "Pre",
         "Device_Code_Name": "Pre",
         "Device_Maker": "Palm",
-        "Device_Pointing_Method": "unknwon",
+        "Device_Pointing_Method": "unknown",
         "Device_Brand_Name": "Palm",
         "isMobileDevice": "true",
         "isTablet": "false"

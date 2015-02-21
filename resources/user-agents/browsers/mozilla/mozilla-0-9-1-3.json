@@ -27,7 +27,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#*rv:#MAJORVER#.#MINORVER#*) Gecko*",
+          "match": "Mozilla\/5.0 (#PLATFORM#rv:#MAJORVER#.#MINORVER#*) Gecko*",
           "dvice": "Linux Desktop",
           "platforms": [
             "Linux_32", "Linux"

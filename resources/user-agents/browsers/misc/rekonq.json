@@ -25,7 +25,8 @@
         "isSyndicationReader": "false",
         "Crawler": "false",
         "JavaScript": "true",
-        "CssVersion": "3"
+        "CssVersion": "3",
+        "Cookies": "true"
       },
       "children": [
         {

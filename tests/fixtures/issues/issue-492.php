@@ -3467,7 +3467,7 @@ return [
             'Device_Type' => 'Tablet',
             'Device_Pointing_Method' => 'touchscreen',
             'Device_Code_Name' => 'A3000-H',
-            'Device_Brand_Name' => 'Lenovo',
+            'Device_Brand_Name' => 'Vodafone',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
