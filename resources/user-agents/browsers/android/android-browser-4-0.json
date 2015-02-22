@@ -597,7 +597,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#HTC Desire Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#HTC Desire Build*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "device": "HTC Desire",
           "platforms": [
             "Android_2_2", "Android_2_3"
@@ -1285,7 +1285,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-P1000 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#GT-P1000* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "device": "GT-P1000",
           "platforms": [
             "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
@@ -1562,45 +1562,10 @@
           ]
         },
         {
-          "match": "Lenovo-A288t#PLATFORM# Release* Browser?AppleWebkit*",
-          "device": "Lenovo A288t",
-          "platforms": [
-            "Android_2_3"
-          ]
-        },
-        {
-          "match": "Lenovo-A820#PLATFORM# Release* Browser?AppleWebkit*",
-          "device": "Lenovo A820",
-          "platforms": [
-            "Android_4_1"
-          ]
-        },
-        {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I9100 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "device": "GT-I9100",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
-          ]
-        },
-        {
-          "match": "Lenovo-A850#PLATFORM# Release* Browser?AppleWebkit*",
-          "device": "Lenovo A850",
-          "platforms": [
-            "Android_4_2"
-          ]
-        },
-        {
-          "match": "Lenovo A789#PLATFORM# Release* Browser?AppleWebkit*",
-          "device": "Lenovo A789",
-          "platforms": [
-            "Android_4_0"
-          ]
-        },
-        {
-          "match": "MALATA I50#PLATFORM# Release* Browser?AppleWebkit*",
-          "device": "Malata I50",
-          "platforms": [
-            "Android_2_3"
           ]
         },
         {
@@ -1726,28 +1691,28 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#CAT NOVA Build\/*) AppleWebKit\/*6 (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#CAT NOVA Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "device": "CatSound Nova",
           "platforms": [
             "Android_2_3"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Cat Tablet Galactica X* Build\/*) AppleWebKit\/*6 (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#Cat Tablet Galactica X* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "device": "CatSound Galactica X",
           "platforms": [
             "Android_4_0"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Cat Tablet* Build\/*) AppleWebKit\/*6 (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#Cat Tablet* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "device": "CatSound Tablet",
           "platforms": [
             "Android_2_3", "Android_4_0"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#CatNova8 Build\/*) AppleWebKit\/*6 (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#CatNova8 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "device": "CatSound Cat Nova 8",
           "platforms": [
             "Android_2_3"
@@ -3580,7 +3545,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#DROID BIONIC 4G Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "Motorola Droid Bionic 4G LTE",
+          "device": "Motorola XT875",
           "platforms": [
             "Android_4_0"
           ]
@@ -3867,7 +3832,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#MediaPad 10 LINK Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "dvice": "Huawei MediaPad 10",
+          "device": "Huawei MediaPad 10",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
           ]
@@ -4384,10 +4349,66 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#sprd-B51+* Android\/* Release\/* Browser\/AppleWebKit* Build\/*) AppleWebKit* (KHTML, like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "device": "sprd B51+",
+          "platforms": [
+            "Android_2_3"
+          ]
+        },
+        {
+          "match": "Lenovo-A288t#PLATFORM# Release* Browser?AppleWebkit*",
+          "device": "Lenovo A288t",
+          "platforms": [
+            "Android_2_3"
+          ]
+        },
+        {
+          "match": "Lenovo-A820#PLATFORM# Release* Browser?AppleWebkit*",
+          "device": "Lenovo A820",
+          "platforms": [
+            "Android_4_1"
+          ]
+        },
+        {
+          "match": "Lenovo-A850#PLATFORM# Release* Browser?AppleWebkit*",
+          "device": "Lenovo A850",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Lenovo A789#PLATFORM# Release* Browser?AppleWebkit*",
+          "device": "Lenovo A789",
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
+          "match": "MALATA I50#PLATFORM# Release* Browser?AppleWebkit*",
+          "device": "Malata I50",
+          "platforms": [
+            "Android_2_3"
+          ]
+        },
+        {
+          "match": "MALATA I50#PLATFORM# Release* Browser?AppleWebkit*",
+          "device": "Malata I50",
+          "platforms": [
+            "Android_2_3"
+          ]
+        },
+        {
           "match": "OPPO_R813T#PLATFORM# Release* Browser?AppleWebkit*",
           "device": "OPPO R813T",
           "platforms": [
             "Android_4_0"
+          ]
+        },
+        {
+          "match": "Lenovo-A288t#PLATFORM# Release* Browser?AppleWebkit*Safari*",
+          "device": "Lenovo A288t",
+          "platforms": [
+            "Android_2_3"
           ]
         },
         {
@@ -4428,18 +4449,6 @@
           "match": "#PLATFORM# Release* Browser?AppleWebkit*",
           "platforms": [
             "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
-          ]
-        },
-        {
-          "match": "#PLATFORM# Release\/* Browser\/AppleWebKit*Safari*",
-          "platforms": [
-            "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
-          ]
-        },
-        {
-          "match": "#PLATFORM# Release\/* Browser\/AppleWebkit*",
-          "platforms": [
-            "Android_4_0"
           ]
         },
         {
@@ -4528,7 +4537,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#PadFone 2 Build\/*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "Asus PadFone 2",
+          "device": "Asus A68",
           "platforms": [
             "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
           ]
@@ -4583,7 +4592,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#SCH-I535 4G Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#SCH-I535* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "device": "Samsung SCH-I535",
           "platforms": [
             "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1"

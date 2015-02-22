@@ -26,7 +26,10 @@
         "Crawler": "false",
         "JavaScript": "true",
         "CssVersion": "3",
-        "Cookies": "true"
+        "Cookies": "true",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true"
       },
       "children": [
         {

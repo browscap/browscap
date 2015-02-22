@@ -19,6 +19,7 @@
       "children": [
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) *BingPreview\/1.0b*",
+          "device": "Windows Desktop",
           "properties": {
             "Version": "1.0b",
             "MajorVer": "1",
@@ -31,6 +32,7 @@
         },
         {
           "match": "Mozilla\/5.0 (compatible; MSIE 9.0; #PLATFORM# Trident\/5.0; *BingPreview\/1.0b*",
+          "device": "Windows Desktop",
           "properties": {
             "Version": "1.0b",
             "MajorVer": "1",
@@ -43,6 +45,7 @@
         },
         {
           "match": "Mozilla\/5.0 (compatible; MSIE 10.0; #PLATFORM# Trident\/6.0*)*BingPreview\/1.0b*",
+          "device": "Windows Desktop",
           "properties": {
             "Version": "1.0b",
             "MajorVer": "1",
@@ -58,6 +61,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Trident\/7.0*rv:11.0; BingPreview/1.0b*)*",
+          "device": "Windows Desktop",
           "properties": {
             "Version": "1.0b",
             "MajorVer": "1",
@@ -73,6 +77,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) *BingPreview\/1.0*",
+          "device": "Windows Desktop",
           "properties": {
             "Version": "1.0",
             "MajorVer": "1"
@@ -89,6 +94,7 @@
     {
       "userAgent": "BingPreview for iOS",
       "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser_Type": "Bot/Crawler",

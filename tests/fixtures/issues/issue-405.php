@@ -51,7 +51,7 @@ return [
             'Device_Maker' => 'Sony',
             'Device_Type' => 'Console',
             'Device_Pointing_Method' => 'unknown',
-            'Device_Code_Name' => 'PlayStation Vita',
+            'Device_Code_Name' => 'Playstation Vita',
             'Device_Brand_Name' => 'Sony',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',

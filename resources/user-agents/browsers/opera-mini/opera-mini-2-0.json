@@ -27,6 +27,7 @@
       "children": [
         {
           "match": "Opera\/*(Android*Opera Mini\/2.*)*",
+          "device": "general Mobile Phone (Touch)",
           "platforms": [
             "Android"
           ]

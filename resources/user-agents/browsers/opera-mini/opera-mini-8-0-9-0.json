@@ -28,12 +28,14 @@
       "children": [
         {
           "match": "Opera\/*(*Android*Opera Mini\/#MAJORVER#.*)*",
+          "device": "general Mobile Phone (Touch)",
           "platforms": [
             "Android"
           ]
         },
         {
           "match": "Opera\/*(MTK*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "device": "general Mobile Phone (Touch)",
           "platforms": [
             "Android"
           ]

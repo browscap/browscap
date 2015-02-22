@@ -134,13 +134,6 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#sprd-B51+* Android\/* Release\/* Browser\/AppleWebKit* Build\/*) AppleWebKit* (KHTML, like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
-          "device": "sprd B51+",
-          "platforms": [
-            "Android_2_3"
-          ]
-        },
-        {
           "match": "Mozilla\/5.0 (#PLATFORM#SM-T520 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Samsung SM-T520",
           "platforms": [
@@ -1404,20 +1397,6 @@
           ]
         },
         {
-          "match": "Lenovo-A288t* Linux\/* Android\/2.3* Release\/* Browser\/AppleWebkit*Safari*",
-          "device": "Lenovo A288t",
-          "platforms": [
-            "Android_2_3"
-          ]
-        },
-        {
-          "match": "MALATA I50* Linux\/* Android\/2.3* Release\/* Browser\/AppleWebkit*Safari*",
-          "device": "Malata I50",
-          "platforms": [
-            "Android_2_3"
-          ]
-        },
-        {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I9100* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "GT-I9100",
           "platforms": [
@@ -1537,28 +1516,28 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#CAT NOVA Build\/*) AppleWebKit\/*6 (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#CAT NOVA Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "CatSound Nova",
           "platforms": [
             "Android_2_3"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Cat Tablet Galactica X* Build\/*) AppleWebKit\/*6 (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#Cat Tablet Galactica X* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "CatSound Galactica X",
           "platforms": [
             "Android_4_0"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Cat Tablet* Build\/*) AppleWebKit\/*6 (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#Cat Tablet* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "CatSound Tablet",
           "platforms": [
             "Android_2_3", "Android_4_0"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#CatNova8 Build\/*) AppleWebKit\/*6 (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#CatNova8 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "CatSound Cat Nova 8",
           "platforms": [
             "Android_2_3"
@@ -3384,7 +3363,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#DROID BIONIC 4G Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
-          "device": "Motorola Droid Bionic 4G LTE",
+          "device": "Motorola XT875",
           "platforms": [
             "Android_4_0"
           ]
@@ -3664,7 +3643,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#MediaPad 10 LINK Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
-          "dvice": "Huawei MediaPad 10",
+          "device": "Huawei MediaPad 10",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
           ]
@@ -4167,52 +4146,6 @@
           ]
         },
         {
-          "match": "OPPO_R813T\/* #PLATFORM# Release\/* Browser\/AppleWebKit* Mobile Safari*",
-          "device": "OPPO R813T",
-          "platforms": [
-            "Android_4_0"
-          ]
-        },
-        {
-          "match": "ultrafone 303#PLATFORM# Release\/* Browser\/AppleWebKit* Mobile Safari*",
-          "device": "ultrafone 303",
-          "platforms": [
-            "Android_4_0"
-          ]
-        },
-        {
-          "match": "Season\/V2#PLATFORM# Release\/* Browser\/AppleWebKit* Mobile Safari*",
-          "platforms": [
-            "Android_4_0"
-          ]
-        },
-        {
-          "match": "I9300#PLATFORM# Release\/* Browser\/AppleWebKit* Mobile Safari*",
-          "device": "Samsung GT-I9300",
-          "platforms": [
-            "Android_4_1"
-          ]
-        },
-        {
-          "match": "AT-AS40SE#PLATFORM# Release\/* Browser\/AppleWebKit* Mobile Safari*",
-          "device": "Wolgang AT-AS40SE",
-          "platforms": [
-            "Android_4_0"
-          ]
-        },
-        {
-          "match": "#PLATFORM# Release\/* Browser\/AppleWebKit* Mobile Safari*",
-          "platforms": [
-            "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
-          ]
-        },
-        {
-          "match": "#PLATFORM# Release\/* Browser\/AppleWebkit*",
-          "platforms": [
-            "Android_4_0"
-          ]
-        },
-        {
           "match": "Mozilla\/5.0 (#PLATFORM#LIFETAB_E10312 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Medion LifeTab E10312",
           "platforms": [
@@ -4262,27 +4195,6 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#NookColor*)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/4.*Safari\/*",
-          "device": "Barnes & Noble Nook Color",
-          "platforms": [
-            "Android_2_2", "Android_2_3", "Android"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#NOOK BNRV200*)*Apple*WebKit\/*(*KHTML, like Gecko*)*Version\/4.*Safari\/*",
-          "device": "Barnes & Noble BNRV200",
-          "platforms": [
-            "Android_2_2"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#NOOK*)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/4.*Safari\/*",
-          "device": "Barnes & Noble Nook",
-          "platforms": [
-            "Android_2_2", "Android_2_3", "Android"
-          ]
-        },
-        {
           "match": "Mozilla\/5.0 (#PLATFORM#ME301T Build\/*) AppleWebKit* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Asus ME301T",
           "platforms": [
@@ -4298,7 +4210,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#PadFone 2 Build\/*) AppleWebKit* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
-          "device": "Asus PadFone 2",
+          "device": "Asus A68",
           "platforms": [
             "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
           ]
@@ -4345,7 +4257,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#SCH-I535 4G Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#SCH-I535* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Samsung SCH-I535",
           "platforms": [
             "Android_2_2", "Android_2_3", "Android_4_0"
@@ -4580,20 +4492,6 @@
           "device": "Lenovo A328",
           "platforms": [
             "Android_4_4"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0(#PLATFORM#NEC-0912 Build\/*)AppleWebKit\/*(KHTML, Like Gecko)Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "NEC 0912",
-          "platforms": [
-            "Android_4_0"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0(#PLATFORM#BLU Studio 5.0 S II Build\/*)AppleWebKit\/*(KHTML,like Gecko)Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "BLU Studio 5.0 S II",
-          "platforms": [
-            "Android_4_2"
           ]
         },
         {

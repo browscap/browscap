@@ -526,7 +526,7 @@ return [
             'Device_Maker' => 'LG',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen',
-            'Device_Code_Name' => 'LGLS740',
+            'Device_Code_Name' => 'LS740',
             'Device_Brand_Name' => 'LG',
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',

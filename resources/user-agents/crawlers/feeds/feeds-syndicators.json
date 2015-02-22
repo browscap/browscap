@@ -55,6 +55,7 @@
         },
         {
           "match": "Akregator\/*",
+          "device": "Linux Desktop",
           "properties": {
             "Browser": "akregator",
             "Browser_Maker": "KDE e.V."

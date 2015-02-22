@@ -28,14 +28,14 @@
       "children": [
         {
           "match": "Mozilla\/5.0 (*Android*Mobile*rv:#MAJORVER#.#MINORVER#*)*Gecko\/#MAJORVER#.#MINORVER#*Firefox\/#MAJORVER#.#MINORVER#*Fennec\/#MAJORVER#.#MINORVER#*",
-          "device": "general Mobile Phone",
+          "device": "general Mobile Phone (Touch)",
           "platforms": [
             "FirefoxOS"
           ]
         },
         {
           "match": "Mozilla\/5.0 (*Android; Linux*rv:#MAJORVER#.#MINORVER#*)*Gecko\/#MAJORVER#.#MINORVER#*Firefox\/#MAJORVER#.#MINORVER#*Fennec\/#MAJORVER#.#MINORVER#*",
-          "device": "general Mobile Phone",
+          "device": "general Mobile Phone (Touch)",
           "platforms": [
             "FirefoxOS"
           ]

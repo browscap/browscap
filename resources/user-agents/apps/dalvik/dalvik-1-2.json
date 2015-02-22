@@ -47,7 +47,7 @@
           ]
         },
         {
-          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#GT-P1000 Build\/*",
+          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#GT-P1000* Build\/*",
           "device": "GT-P1000",
           "platforms": [
             "Android_2_2"
