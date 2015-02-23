@@ -41,7 +41,7 @@
         "Device_Name": "general Tablet",
         "Device_Maker": "unknown",
         "Device_Type": "Tablet",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "Device_Code_Name": "general Tablet",
         "Device_Brand_Name": "unknown",
         "isMobileDevice": "true",
@@ -53,7 +53,7 @@
         "Device_Name": "general Mobile Phone",
         "Device_Maker": "unknown",
         "Device_Type": "Mobile Phone",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "Device_Code_Name": "general Mobile Phone",
         "Device_Brand_Name": "unknown",
         "isMobileDevice": "true",
@@ -89,7 +89,7 @@
         "Device_Name": "general Mobile Device",
         "Device_Maker": "Apple Inc",
         "Device_Type": "Mobile Device",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "Device_Code_Name": "general Mobile Device",
         "Device_Brand_Name": "Apple",
         "isMobileDevice": "true",
@@ -199,7 +199,7 @@
         "Device_Name": "iPhone",
         "Device_Maker": "Apple Inc",
         "Device_Brand_Name": "Apple",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -209,7 +209,7 @@
         "Device_Name": "iPod Touch",
         "Device_Maker": "Apple Inc",
         "Device_Type": "Mobile Device",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "Device_Code_Name": "iPod Touch",
         "Device_Brand_Name": "Apple",
         "isMobileDevice": "true",
@@ -221,7 +221,7 @@
         "Device_Name": "iPad",
         "Device_Maker": "Apple Inc",
         "Device_Type": "Tablet",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "Device_Code_Name": "iPad",
         "Device_Brand_Name": "Apple",
         "isMobileDevice": "true",
@@ -919,7 +919,7 @@
         "Device_Name": "Xperia Arc",
         "Device_Maker": "SonyEricsson",
         "Device_Brand_Name": "SonyEricsson",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -931,7 +931,7 @@
         "Device_Name": "Xperia Arc",
         "Device_Maker": "SonyEricsson",
         "Device_Brand_Name": "SonyEricsson",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -943,7 +943,7 @@
         "Device_Name": "Xperia P",
         "Device_Maker": "SonyEricsson",
         "Device_Brand_Name": "SonyEricsson",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -955,7 +955,7 @@
         "Device_Name": "Xperia Arc HD",
         "Device_Maker": "SonyEricsson",
         "Device_Brand_Name": "SonyEricsson",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -1051,7 +1051,7 @@
         "Device_Name": "Urushi",
         "Device_Maker": "SonyEricsson",
         "Device_Brand_Name": "SonyEricsson",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -1207,7 +1207,7 @@
         "Device_Name": "Tablet S",
         "Device_Maker": "Sony",
         "Device_Brand_Name": "Sony",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -1219,7 +1219,7 @@
         "Device_Name": "Tablet P",
         "Device_Maker": "Sony",
         "Device_Brand_Name": "Sony",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -1231,7 +1231,7 @@
         "Device_Name": "Xperia Z1",
         "Device_Maker": "Sony",
         "Device_Brand_Name": "Sony",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -1267,7 +1267,7 @@
         "Device_Name": "Xperia V",
         "Device_Maker": "Sony",
         "Device_Brand_Name": "Sony",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -1315,7 +1315,7 @@
         "Device_Name": "Xperia SP",
         "Device_Maker": "Sony",
         "Device_Brand_Name": "Sony",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -1399,7 +1399,7 @@
         "Device_Name": "Live with Walkman",
         "Device_Maker": "SonyEricsson",
         "Device_Brand_Name": "SonyEricsson",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -1627,7 +1627,7 @@
         "Device_Name": "Xperia T",
         "Device_Maker": "Sony",
         "Device_Brand_Name": "Sony",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -1639,7 +1639,7 @@
         "Device_Name": "Xperia Tablet S",
         "Device_Maker": "Sony",
         "Device_Brand_Name": "Sony",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -1651,7 +1651,7 @@
         "Device_Name": "Xperia Tablet S",
         "Device_Maker": "Sony",
         "Device_Brand_Name": "Sony",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -1699,7 +1699,7 @@
         "Device_Name": "Xperia miro",
         "Device_Maker": "Sony",
         "Device_Brand_Name": "Sony",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -1735,7 +1735,7 @@
         "Device_Name": "Xperia Tablet Z LTE",
         "Device_Maker": "Sony",
         "Device_Brand_Name": "Sony",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -1747,7 +1747,7 @@
         "Device_Name": "Xperia Tablet Z2",
         "Device_Maker": "Sony",
         "Device_Brand_Name": "Sony",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -1759,7 +1759,7 @@
         "Device_Name": "Xperia M2",
         "Device_Maker": "Sony",
         "Device_Brand_Name": "Sony",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -1771,7 +1771,7 @@
         "Device_Name": "Alpha a5000",
         "Device_Maker": "Sony",
         "Device_Brand_Name": "Sony",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -1795,7 +1795,7 @@
         "Device_Name": "Xperia Tablet Z2 WiFi",
         "Device_Maker": "Sony",
         "Device_Brand_Name": "Sony",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -1807,7 +1807,7 @@
         "Device_Name": "Xperia Tablet Z2 LTE",
         "Device_Maker": "Sony",
         "Device_Brand_Name": "Sony",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -1819,7 +1819,7 @@
         "Device_Name": "Xperia Z3 Compact",
         "Device_Maker": "Sony",
         "Device_Brand_Name": "Sony",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -1831,7 +1831,7 @@
         "Device_Name": "Xperia Tablet Z",
         "Device_Maker": "Sony",
         "Device_Brand_Name": "Sony",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -1855,7 +1855,7 @@
         "Device_Name": "Xperia C HSPA+",
         "Device_Maker": "Sony",
         "Device_Brand_Name": "Sony",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -1985,7 +1985,7 @@
         "Device_Name": "WeTab",
         "Device_Maker": "WeTab GmbH",
         "Device_Type": "Tablet",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "Device_Code_Name": "WeTab",
         "Device_Brand_Name": "WeTab GmbH",
         "isMobileDevice": "true",
@@ -2011,7 +2011,7 @@
         "Device_Name": "Kyros MID1125",
         "Device_Maker": "Coby",
         "Device_Brand_Name": "Coby",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -2023,7 +2023,7 @@
         "Device_Name": "Kyros MID1126",
         "Device_Maker": "Coby",
         "Device_Brand_Name": "Coby",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -2035,7 +2035,7 @@
         "Device_Name": "Kyros MID7022",
         "Device_Maker": "Coby",
         "Device_Brand_Name": "Coby",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -2047,7 +2047,7 @@
         "Device_Name": "Kyros MID8127",
         "Device_Maker": "Coby",
         "Device_Brand_Name": "Coby",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -2143,7 +2143,7 @@
         "Device_Name": "Galaxy S II",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -2155,7 +2155,7 @@
         "Device_Name": "Galaxy 5",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -2167,7 +2167,7 @@
         "Device_Name": "Galaxy S",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -2179,7 +2179,7 @@
         "Device_Name": "Galaxy S II",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -2275,7 +2275,7 @@
         "Device_Name": "Galaxy S Armani",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -2299,7 +2299,7 @@
         "Device_Name": "Galaxy W",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -2311,7 +2311,7 @@
         "Device_Name": "Galaxy Ace 2",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -2323,7 +2323,7 @@
         "Device_Name": "Galaxy Ace 2 NFC",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -2371,7 +2371,7 @@
         "Device_Name": "GT-I9001",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -2383,7 +2383,7 @@
         "Device_Name": "Galaxy S Advance",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -2431,7 +2431,7 @@
         "Device_Name": "Galaxy S II LTE",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -2479,7 +2479,7 @@
         "Device_Name": "Galaxy S4 Mini",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -2503,7 +2503,7 @@
         "Device_Name": "Galaxy S III",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -2515,7 +2515,7 @@
         "Device_Name": "Galaxy S III LTE International",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -2599,7 +2599,7 @@
         "Device_Name": "Galaxy S4 Value Edition",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -2707,7 +2707,7 @@
         "Device_Name": "Galaxy S III Neo+",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -2731,7 +2731,7 @@
         "Device_Name": "Galaxy Grand Neo",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -2743,7 +2743,7 @@
         "Device_Name": "Galaxy Ace",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -2863,7 +2863,7 @@
         "Device_Name": "Galaxy Y",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -2887,7 +2887,7 @@
         "Device_Name": "Xcover",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -2959,7 +2959,7 @@
         "Device_Name": "Galaxy Ace Plus",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -3223,7 +3223,7 @@
         "Device_Name": "Wave 3",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -3319,7 +3319,7 @@
         "Device_Name": "Galaxy Pocket Neo",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -3331,7 +3331,7 @@
         "Device_Name": "Galaxy Trend",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -3547,7 +3547,7 @@
         "Device_Name": "GT-E2252",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -3607,7 +3607,7 @@
         "Device_Name": "Galaxy Tab",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -3619,7 +3619,7 @@
         "Device_Name": "Galaxy Tab",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -3631,7 +3631,7 @@
         "Device_Name": "Galaxy Tab 10.1",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -3643,7 +3643,7 @@
         "Device_Name": "Galaxy Tab 7.7",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -3655,7 +3655,7 @@
         "Device_Name": "Galaxy Tab 10.1",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -3667,7 +3667,7 @@
         "Device_Name": "Galaxy Tab 8.9",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -3679,7 +3679,7 @@
         "Device_Name": "Galaxy Tab 8.9",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -3691,7 +3691,7 @@
         "Device_Name": "Galaxy Tab 7.0 Plus",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -3703,7 +3703,7 @@
         "Device_Name": "Galaxy Tab 7.0 Plus",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -3715,7 +3715,7 @@
         "Device_Name": "GT-P7300B",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -3727,7 +3727,7 @@
         "Device_Name": "Galaxy Tab 10.1N",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -3739,7 +3739,7 @@
         "Device_Name": "Galaxy Tab 10.1",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -3751,7 +3751,7 @@
         "Device_Name": "Galaxy Tab 2 7.0",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -3763,7 +3763,7 @@
         "Device_Name": "Galaxy Tab 2 7.0",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -3775,7 +3775,7 @@
         "Device_Name": "Galaxy Tab 2 7.0",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -3787,7 +3787,7 @@
         "Device_Name": "Galaxy Tab 2 10.1",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -3799,7 +3799,7 @@
         "Device_Name": "Galaxy Tab 2 10.1",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -3811,7 +3811,7 @@
         "Device_Name": "Galaxy Tab 2 10.1 WiFi",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -3823,7 +3823,7 @@
         "Device_Name": "Galaxy Tab 3 10.1 3G",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -3835,7 +3835,7 @@
         "Device_Name": "Galaxy Tab 3 10.1",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -3847,7 +3847,7 @@
         "Device_Name": "Galaxy Tab 10.1V",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -3859,7 +3859,7 @@
         "Device_Name": "Galaxy Tab 3 10.1 LTE",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -3871,7 +3871,7 @@
         "Device_Name": "Galaxy Tab 8.9 LTE",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -3883,7 +3883,7 @@
         "Device_Name": "Nexus 10",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Google",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -3895,7 +3895,7 @@
         "Device_Name": "Galaxy S5 LTE",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -3931,7 +3931,7 @@
         "Device_Name": "Galaxy S5 CDMA (Verizon)",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -3955,7 +3955,7 @@
         "Device_Name": "Galaxy S5 Mini",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -3967,7 +3967,7 @@
         "Device_Name": "Galaxy S5 Plus",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "tochscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -3979,7 +3979,7 @@
         "Device_Name": "Galaxy Alpha",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -3991,7 +3991,7 @@
         "Device_Name": "Galaxy Note 10.1 2014 Edition Wi-Fi",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -4003,7 +4003,7 @@
         "Device_Name": "Galaxy Note 10.1 2014 Edition WI-FI + 4G LTE",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -4015,7 +4015,7 @@
         "Device_Name": "Galaxy Note Pro 12.2 LTE",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -4027,7 +4027,7 @@
         "Device_Name": "Galaxy Note Pro 12.2 Wi-Fi",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -4039,7 +4039,7 @@
         "Device_Name": "Galaxy Note 3 LTE",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -4111,7 +4111,7 @@
         "Device_Name": "Galaxy Note 4 LTE",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -4123,7 +4123,7 @@
         "Device_Name": "Galaxy Tab 3 7.0",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -4135,7 +4135,7 @@
         "Device_Name": "Galaxy Tab 3 8.0",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -4147,7 +4147,7 @@
         "Device_Name": "Galaxy Tab 3 Lite 7",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -4159,7 +4159,7 @@
         "Device_Name": "Galaxy Tab 3 7.0 3G",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -4171,7 +4171,7 @@
         "Device_Name": "Galaxy Tab 3 8.0 LTE",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -4183,7 +4183,7 @@
         "Device_Name": "Galaxy Tab 3 8.0 3G",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -4195,7 +4195,7 @@
         "Device_Name": "Galaxy Tab Pro 10.1",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -4207,7 +4207,7 @@
         "Device_Name": "Galaxy Tab 4 10.1 16GB",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -4219,7 +4219,7 @@
         "Device_Name": "Galaxy Tab 4 10.1",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -4231,7 +4231,7 @@
         "Device_Name": "Galaxy Tab 3 Lite 7.0 3G",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -4243,7 +4243,7 @@
         "Device_Name": "Galaxy Tab 4 10.1",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -4255,7 +4255,7 @@
         "Device_Name": "Galaxy Tab S 10.5 LTE",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -4267,7 +4267,7 @@
         "Device_Name": "Galaxy Tab 4 7.0",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -4279,7 +4279,7 @@
         "Device_Name": "Galaxy Tab S 10.5",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -4291,7 +4291,7 @@
         "Device_Name": "Galaxy Tab Pro 10.1",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -4303,7 +4303,7 @@
         "Device_Name": "Galaxy Tab Pro 8.4 Wi-Fi",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -4315,7 +4315,7 @@
         "Device_Name": "Galaxy Tab 4 7.0 WiFi + LTE",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -4327,7 +4327,7 @@
         "Device_Name": "Galaxy Tab S 8.4 Wi-Fi",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -4339,7 +4339,7 @@
         "Device_Name": "Galaxy Tab Pro 8.4 LTE",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -4351,7 +4351,7 @@
         "Device_Name": "Galaxy Tab S 8.4 LTE",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -4363,7 +4363,7 @@
         "Device_Name": "Galaxy Tab 3 Kids",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -4375,7 +4375,7 @@
         "Device_Name": "Galaxy Tab 4 10.1",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -4471,7 +4471,7 @@
         "Device_Name": "Galaxy S II",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -4483,7 +4483,7 @@
         "Device_Name": "SGH-I900",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -4615,7 +4615,7 @@
         "Device_Name": "Galaxy S III 4G CDMA",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -4627,7 +4627,7 @@
         "Device_Name": "Galaxy S4 LTE (Verizon), White Frost 16GB",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -4999,7 +4999,7 @@
         "Device_Name": "Gravity T",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -6763,7 +6763,7 @@
         "Device_Name": "Galaxy S III",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -6787,7 +6787,7 @@
         "Device_Name": "Galaxy Note",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -6799,7 +6799,7 @@
         "Device_Name": "Galaxy Note II",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -6811,7 +6811,7 @@
         "Device_Name": "Galaxy Note 10.1",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -6823,7 +6823,7 @@
         "Device_Name": "Galaxy Note 10.1",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -6835,7 +6835,7 @@
         "Device_Name": "Galaxy Note 8.0",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -6847,7 +6847,7 @@
         "Device_Name": "Galaxy Note 8.0",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -6883,7 +6883,7 @@
         "Device_Name": "Galaxy Note 10.1 LTE",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -6895,7 +6895,7 @@
         "Device_Name": "Galaxy Note 10.1",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -6943,7 +6943,7 @@
         "Device_Name": "Galaxy Player 3.6",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -7063,7 +7063,7 @@
         "Device_Name": "Eee Pad Transformer TF101",
         "Device_Maker": "Asus",
         "Device_Brand_Name": "Asus",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -7075,7 +7075,7 @@
         "Device_Name": "Transformer Prime",
         "Device_Maker": "Asus",
         "Device_Brand_Name": "Asus",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -7087,7 +7087,7 @@
         "Device_Name": "Eee Pad Transformer TF101",
         "Device_Maker": "Asus",
         "Device_Brand_Name": "Asus",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -7099,7 +7099,7 @@
         "Device_Name": "Transformer Pad TF300T",
         "Device_Maker": "Asus",
         "Device_Brand_Name": "Asus",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -7111,7 +7111,7 @@
         "Device_Name": "Transformer Pad TF300T",
         "Device_Maker": "Asus",
         "Device_Brand_Name": "Asus",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -7123,7 +7123,7 @@
         "Device_Name": "Transformer Pad TF300TL",
         "Device_Maker": "Asus",
         "Device_Brand_Name": "Asus",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -7135,7 +7135,7 @@
         "Device_Name": "Transformer Pad TF700T",
         "Device_Maker": "Asus",
         "Device_Brand_Name": "Asus",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -7147,7 +7147,7 @@
         "Device_Name": "Nexus 7",
         "Device_Maker": "Asus",
         "Device_Brand_Name": "Google",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -7159,7 +7159,7 @@
         "Device_Name": "Eee Pad SL101 Slider",
         "Device_Maker": "Asus",
         "Device_Brand_Name": "Google",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -7171,7 +7171,7 @@
         "Device_Name": "Memo Pad HD7",
         "Device_Maker": "Asus",
         "Device_Brand_Name": "Asus",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -7183,7 +7183,7 @@
         "Device_Name": "MeMO Pad Smart 10",
         "Device_Maker": "Asus",
         "Device_Brand_Name": "Asus",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -7195,7 +7195,7 @@
         "Device_Name": "MeMO Pad ME172V",
         "Device_Maker": "Asus",
         "Device_Brand_Name": "Asus",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -7207,7 +7207,7 @@
         "Device_Name": "PadFone 2",
         "Device_Maker": "Asus",
         "Device_Brand_Name": "Asus",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -7219,7 +7219,7 @@
         "Device_Name": "PadFone",
         "Device_Maker": "Asus",
         "Device_Brand_Name": "Asus",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -7243,7 +7243,7 @@
         "Device_Name": "MeMO Pad FHD 10",
         "Device_Maker": "Asus",
         "Device_Brand_Name": "Asus",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -7255,7 +7255,7 @@
         "Device_Name": "MeMO Pad 7",
         "Device_Maker": "Asus",
         "Device_Brand_Name": "Asus",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -7267,7 +7267,7 @@
         "Device_Name": "K012",
         "Device_Maker": "Asus",
         "Device_Brand_Name": "Asus",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -7519,7 +7519,7 @@
         "Device_Name": "Xoom",
         "Device_Maker": "Motorola",
         "Device_Brand_Name": "Motorola",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -7531,7 +7531,7 @@
         "Device_Name": "Xoom",
         "Device_Maker": "Motorola",
         "Device_Brand_Name": "Motorola",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -7543,7 +7543,7 @@
         "Device_Name": "Xoom",
         "Device_Maker": "Motorola",
         "Device_Brand_Name": "Motorola",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -7555,7 +7555,7 @@
         "Device_Name": "Xoom 2 3G",
         "Device_Maker": "Motorola",
         "Device_Brand_Name": "Motorola",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -7567,7 +7567,7 @@
         "Device_Name": "Xoom 2",
         "Device_Maker": "Motorola",
         "Device_Brand_Name": "Motorola",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -7579,7 +7579,7 @@
         "Device_Name": "Xoom 2 Media Edition 3G",
         "Device_Maker": "Motorola",
         "Device_Brand_Name": "Motorola",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -7675,7 +7675,7 @@
         "Device_Name": "Droid Razr",
         "Device_Maker": "Motorola",
         "Device_Brand_Name": "Motorola",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -7723,7 +7723,7 @@
         "Device_Name": "Moto X",
         "Device_Maker": "Motorola",
         "Device_Brand_Name": "Motorola",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -9547,7 +9547,7 @@
         "Device_Name": "Desire",
         "Device_Maker": "HTC",
         "Device_Brand_Name": "HTC",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -9643,7 +9643,7 @@
         "Device_Name": "One",
         "Device_Maker": "HTC",
         "Device_Brand_Name": "HTC",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -9799,7 +9799,7 @@
         "Device_Name": "Flyer",
         "Device_Maker": "HTC",
         "Device_Brand_Name": "HTC",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -9811,7 +9811,7 @@
         "Device_Name": "Flyer",
         "Device_Maker": "HTC",
         "Device_Brand_Name": "HTC",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -10003,7 +10003,7 @@
         "Device_Name": "ChaCha",
         "Device_Maker": "HTC",
         "Device_Brand_Name": "HTC",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -10075,7 +10075,7 @@
         "Device_Name": "One S",
         "Device_Maker": "HTC",
         "Device_Brand_Name": "HTC",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -10111,7 +10111,7 @@
         "Device_Name": "One X",
         "Device_Maker": "HTC",
         "Device_Brand_Name": "HTC",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -10171,7 +10171,7 @@
         "Device_Name": "One Mini",
         "Device_Maker": "HTC",
         "Device_Brand_Name": "HTC",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -10183,7 +10183,7 @@
         "Device_Name": "One M8",
         "Device_Maker": "HTC",
         "Device_Brand_Name": "HTC",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -10243,7 +10243,7 @@
         "Device_Name": "One (Verizon)",
         "Device_Maker": "HTC",
         "Device_Brand_Name": "HTC",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -10255,7 +10255,7 @@
         "Device_Name": "One M8 Harmon/Kardon Edition",
         "Device_Maker": "HTC",
         "Device_Brand_Name": "HTC",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -10315,7 +10315,7 @@
         "Device_Name": "Radar C110e",
         "Device_Maker": "HTC",
         "Device_Brand_Name": "HTC",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -10951,7 +10951,7 @@
         "Device_Name": "Desire 7088",
         "Device_Maker": "HTC",
         "Device_Brand_Name": "HTC",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -10963,7 +10963,7 @@
         "Device_Name": "One 802T",
         "Device_Maker": "HTC",
         "Device_Brand_Name": "HTC",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -11347,7 +11347,7 @@
         "Device_Name": "Optimus Pad",
         "Device_Maker": "LG",
         "Device_Brand_Name": "LG",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -11371,7 +11371,7 @@
         "Device_Name": "Optimus L5 II",
         "Device_Maker": "LG",
         "Device_Brand_Name": "LG",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -11395,7 +11395,7 @@
         "Device_Name": "Optimus L5",
         "Device_Maker": "LG",
         "Device_Brand_Name": "LG",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -11491,7 +11491,7 @@
         "Device_Name": "Nexus 4",
         "Device_Maker": "LG",
         "Device_Brand_Name": "Google",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -11503,7 +11503,7 @@
         "Device_Name": "G2",
         "Device_Maker": "LG",
         "Device_Brand_Name": "LG",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -11527,7 +11527,7 @@
         "Device_Name": "Nexus 5",
         "Device_Maker": "LG",
         "Device_Brand_Name": "Google",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -11815,7 +11815,7 @@
         "Device_Name": "Optimus LTE2",
         "Device_Maker": "LG",
         "Device_Brand_Name": "LG",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -11827,7 +11827,7 @@
         "Device_Name": "FireWeb",
         "Device_Maker": "LG",
         "Device_Brand_Name": "LG",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -12643,7 +12643,7 @@
         "Device_Name": "G Pad 8.3",
         "Device_Maker": "LG",
         "Device_Brand_Name": "LG",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -12655,7 +12655,7 @@
         "Device_Name": "G Pad 8.0 4G LTE",
         "Device_Maker": "LG",
         "Device_Brand_Name": "LG",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -13651,7 +13651,7 @@
         "Device_Name": "Picasso",
         "Device_Maker": "Acer",
         "Device_Brand_Name": "Acer",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -13663,7 +13663,7 @@
         "Device_Name": "A510",
         "Device_Maker": "Acer",
         "Device_Brand_Name": "Acer",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -13747,7 +13747,7 @@
         "Device_Name": "Vangogh",
         "Device_Maker": "Acer",
         "Device_Brand_Name": "Acer",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -13759,7 +13759,7 @@
         "Device_Name": "Picasso",
         "Device_Maker": "Acer",
         "Device_Brand_Name": "Acer",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -13771,7 +13771,7 @@
         "Device_Name": "G100W",
         "Device_Maker": "Acer",
         "Device_Brand_Name": "Acer",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -13783,7 +13783,7 @@
         "Device_Name": "Vangogh",
         "Device_Maker": "Acer",
         "Device_Brand_Name": "Acer",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -13795,7 +13795,7 @@
         "Device_Name": "Picasso_E",
         "Device_Maker": "Acer",
         "Device_Brand_Name": "Acer",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -13807,7 +13807,7 @@
         "Device_Name": "A210",
         "Device_Maker": "Acer",
         "Device_Brand_Name": "Acer",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -13819,7 +13819,7 @@
         "Device_Name": "A211",
         "Device_Maker": "Acer",
         "Device_Brand_Name": "Acer",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -13831,7 +13831,7 @@
         "Device_Name": "A511",
         "Device_Maker": "Acer",
         "Device_Brand_Name": "Acer",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -13843,7 +13843,7 @@
         "Device_Name": "Iconia Tab A700",
         "Device_Maker": "Acer",
         "Device_Brand_Name": "Acer",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -13855,7 +13855,7 @@
         "Device_Name": "Iconia Tab A701",
         "Device_Maker": "Acer",
         "Device_Brand_Name": "Acer",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -13867,7 +13867,7 @@
         "Device_Name": "Iconia B1-710",
         "Device_Maker": "Acer",
         "Device_Brand_Name": "Acer",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -13879,7 +13879,7 @@
         "Device_Name": "Iconia A1-810",
         "Device_Maker": "Acer",
         "Device_Brand_Name": "Acer",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -13891,7 +13891,7 @@
         "Device_Name": "Iconia B1-A71",
         "Device_Maker": "Acer",
         "Device_Brand_Name": "Acer",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -13915,7 +13915,7 @@
         "Device_Name": "Iconia A",
         "Device_Maker": "Acer",
         "Device_Brand_Name": "Acer",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -13927,7 +13927,7 @@
         "Device_Name": "Iconia Tab A3",
         "Device_Maker": "Acer",
         "Device_Brand_Name": "Acer",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -13951,7 +13951,7 @@
         "Device_Name": "Iconia B1-711",
         "Device_Maker": "Acer",
         "Device_Brand_Name": "Acer",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -13963,7 +13963,7 @@
         "Device_Name": "Iconia A1-830",
         "Device_Maker": "Acer",
         "Device_Brand_Name": "Acer",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -13975,7 +13975,7 @@
         "Device_Name": "Iconia One 7",
         "Device_Maker": "Acer",
         "Device_Brand_Name": "Acer",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -14047,7 +14047,7 @@
         "Device_Name": "Cynus F5",
         "Device_Maker": "Mobistel",
         "Device_Brand_Name": "Mobistel",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -14059,7 +14059,7 @@
         "Device_Name": "Cynus E1",
         "Device_Maker": "Mobistel",
         "Device_Brand_Name": "Mobistel",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -14071,7 +14071,7 @@
         "Device_Name": "LifeTab S9714",
         "Device_Maker": "Medion",
         "Device_Brand_Name": "Medion",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -14083,7 +14083,7 @@
         "Device_Name": "LifeTab P4310",
         "Device_Maker": "Medion",
         "Device_Brand_Name": "Medion",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -14095,7 +14095,7 @@
         "Device_Name": "Life E3501",
         "Device_Maker": "Medion",
         "Device_Brand_Name": "Medion",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -14107,7 +14107,7 @@
         "Device_Name": "LifeTab P9514",
         "Device_Maker": "Medion",
         "Device_Brand_Name": "Medion",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -14119,7 +14119,7 @@
         "Device_Name": "LifeTab P9516",
         "Device_Maker": "Medion",
         "Device_Brand_Name": "Medion",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -14131,7 +14131,7 @@
         "Device_Name": "LifeTab S9512",
         "Device_Maker": "Medion",
         "Device_Brand_Name": "Medion",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -14143,7 +14143,7 @@
         "Device_Name": "LifeTab P4012",
         "Device_Maker": "Medion",
         "Device_Brand_Name": "Medion",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -14155,7 +14155,7 @@
         "Device_Name": "LifeTab E10312",
         "Device_Maker": "Medion",
         "Device_Brand_Name": "Medion",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -14167,7 +14167,7 @@
         "Device_Name": "LifeTab E10316",
         "Device_Maker": "Medion",
         "Device_Brand_Name": "Medion",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -14179,7 +14179,7 @@
         "Device_Name": "Lifetab E7312",
         "Device_Maker": "Medion",
         "Device_Brand_Name": "Medion",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -14191,7 +14191,7 @@
         "Device_Name": "Lifetab E7316",
         "Device_Maker": "Medion",
         "Device_Brand_Name": "Medion",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -14203,7 +14203,7 @@
         "Device_Name": "LifeTab E10320",
         "Device_Maker": "Medion",
         "Device_Brand_Name": "Medion",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -14215,7 +14215,7 @@
         "Device_Name": "LifeTab E10310",
         "Device_Maker": "Medion",
         "Device_Brand_Name": "Medion",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -14227,7 +14227,7 @@
         "Device_Name": "X4701",
         "Device_Maker": "Medion",
         "Device_Brand_Name": "Medion",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -14311,7 +14311,7 @@
         "Device_Name": "Vodafone 858",
         "Device_Maker": "Huawei",
         "Device_Brand_Name": "Huawei",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -14407,7 +14407,7 @@
         "Device_Name": "Mediapad",
         "Device_Maker": "Huawei",
         "Device_Brand_Name": "Huawei",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -14419,7 +14419,7 @@
         "Device_Name": "MediaPad 10 Link",
         "Device_Maker": "Huawei",
         "Device_Brand_Name": "Huawei",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -14455,7 +14455,7 @@
         "Device_Name": "Honor 2",
         "Device_Maker": "Huawei",
         "Device_Brand_Name": "Huawei",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -14467,7 +14467,7 @@
         "Device_Name": "Ascend Y 300",
         "Device_Maker": "Huawei",
         "Device_Brand_Name": "Huawei",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -14479,7 +14479,7 @@
         "Device_Name": "MediaPad 7 Lite",
         "Device_Maker": "Huawei",
         "Device_Brand_Name": "Huawei",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -14515,7 +14515,7 @@
         "Device_Name": "Ascend P6",
         "Device_Maker": "Huawei",
         "Device_Brand_Name": "Huawei",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -14587,7 +14587,7 @@
         "Device_Name": "Ascend Mate",
         "Device_Maker": "Huawei",
         "Device_Brand_Name": "Huawei",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -14599,7 +14599,7 @@
         "Device_Name": "Vision",
         "Device_Maker": "Huawei",
         "Device_Brand_Name": "Huawei",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -14611,7 +14611,7 @@
         "Device_Name": "MediaPad M1 8.0",
         "Device_Maker": "Huawei",
         "Device_Brand_Name": "Huawei",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -14623,7 +14623,7 @@
         "Device_Name": "MediaPad T1 8.0",
         "Device_Maker": "Huawei",
         "Device_Brand_Name": "Huawei",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -14635,7 +14635,7 @@
         "Device_Name": "Ascend W1",
         "Device_Maker": "Huawei",
         "Device_Brand_Name": "Huawei",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -14719,7 +14719,7 @@
         "Device_Name": "Kindle",
         "Device_Maker": "Amazon.com, Inc.",
         "Device_Brand_Name": "Amazon",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -14731,7 +14731,7 @@
         "Device_Name": "Kindle Fire",
         "Device_Maker": "Amazon.com, Inc.",
         "Device_Brand_Name": "Amazon",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -14743,7 +14743,7 @@
         "Device_Name": "Kindle 3",
         "Device_Maker": "Amazon.com, Inc.",
         "Device_Brand_Name": "Amazon",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -14755,7 +14755,7 @@
         "Device_Name": "Kindle Fire HD 7",
         "Device_Maker": "Amazon.com, Inc.",
         "Device_Brand_Name": "Amazon",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -14767,7 +14767,7 @@
         "Device_Name": "Kindle Fire 7",
         "Device_Maker": "Amazon.com, Inc.",
         "Device_Brand_Name": "Amazon",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -14779,7 +14779,7 @@
         "Device_Name": "Kindle Fire HD 7",
         "Device_Maker": "Amazon.com, Inc.",
         "Device_Brand_Name": "Amazon",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -14791,7 +14791,7 @@
         "Device_Name": "Kindle Fire HD 8.9 Wi-Fi",
         "Device_Maker": "Amazon.com, Inc.",
         "Device_Brand_Name": "Amazon",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -14803,7 +14803,7 @@
         "Device_Name": "Kindle Fire HDX 7",
         "Device_Maker": "Amazon.com, Inc.",
         "Device_Brand_Name": "Amazon",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -14815,7 +14815,7 @@
         "Device_Name": "Kindle Fire HDX 8.9",
         "Device_Maker": "Amazon.com, Inc.",
         "Device_Brand_Name": "Amazon",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -14827,7 +14827,7 @@
         "Device_Name": "Kindle Fire HD 8.9",
         "Device_Maker": "Amazon.com, Inc.",
         "Device_Brand_Name": "Amazon",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -14839,7 +14839,7 @@
         "Device_Name": "Kindle Fire HDX 8.9",
         "Device_Maker": "Amazon.com, Inc.",
         "Device_Brand_Name": "Amazon",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -14959,7 +14959,7 @@
         "Device_Name": "101 G9",
         "Device_Maker": "Archos",
         "Device_Brand_Name": "Archos",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -14971,7 +14971,7 @@
         "Device_Name": "80 G9",
         "Device_Maker": "Archos",
         "Device_Brand_Name": "Archos",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -14983,7 +14983,7 @@
         "Device_Name": "101 G10",
         "Device_Maker": "Archos",
         "Device_Brand_Name": "Archos",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -14995,7 +14995,7 @@
         "Device_Name": "97 carbon",
         "Device_Maker": "Archos",
         "Device_Brand_Name": "Archos",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -15007,7 +15007,7 @@
         "Device_Name": "Family Pad 2",
         "Device_Maker": "Archos",
         "Device_Brand_Name": "Archos",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -15019,7 +15019,7 @@
         "Device_Name": "80 Xenon",
         "Device_Maker": "Archos",
         "Device_Brand_Name": "Archos",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -15031,7 +15031,7 @@
         "Device_Name": "101 Neon",
         "Device_Maker": "Archos",
         "Device_Brand_Name": "Archos",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -15043,7 +15043,7 @@
         "Device_Name": "50 Platinum",
         "Device_Maker": "Archos",
         "Device_Brand_Name": "Archos",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -15055,7 +15055,7 @@
         "Device_Name": "50 Titanium",
         "Device_Maker": "Archos",
         "Device_Brand_Name": "Archos",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -15079,7 +15079,7 @@
         "Device_Name": "Protab 3 XXL",
         "Device_Maker": "Point of View",
         "Device_Brand_Name": "Point of View",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -15223,7 +15223,7 @@
         "Device_Name": "IVO",
         "Device_Maker": "unknown",
         "Device_Brand_Name": "unknown",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -15343,7 +15343,7 @@
         "Device_Name": "Lumia 635",
         "Device_Maker": "Nokia",
         "Device_Brand_Name": "Nokia",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -15355,7 +15355,7 @@
         "Device_Name": "Lumia 930",
         "Device_Maker": "Nokia",
         "Device_Brand_Name": "Nokia",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -15367,7 +15367,7 @@
         "Device_Name": "Lumia 520",
         "Device_Maker": "Nokia",
         "Device_Brand_Name": "Nokia",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -15379,7 +15379,7 @@
         "Device_Name": "Lumia 630",
         "Device_Maker": "Nokia",
         "Device_Brand_Name": "Nokia",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -15391,7 +15391,7 @@
         "Device_Name": "Lumia 925",
         "Device_Maker": "Nokia",
         "Device_Brand_Name": "Nokia",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -15403,7 +15403,7 @@
         "Device_Name": "Lumia 920",
         "Device_Maker": "Nokia",
         "Device_Brand_Name": "Nokia",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -15415,7 +15415,7 @@
         "Device_Name": "Lumia 820",
         "Device_Maker": "Nokia",
         "Device_Brand_Name": "Nokia",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -15427,7 +15427,7 @@
         "Device_Name": "Lumia 620",
         "Device_Maker": "Nokia",
         "Device_Brand_Name": "Nokia",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -15439,7 +15439,7 @@
         "Device_Name": "Lumia 625",
         "Device_Maker": "Nokia",
         "Device_Brand_Name": "Nokia",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -15451,7 +15451,7 @@
         "Device_Name": "Lumia 720",
         "Device_Maker": "Nokia",
         "Device_Brand_Name": "Nokia",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -15463,7 +15463,7 @@
         "Device_Name": "Lumia 1020",
         "Device_Maker": "Nokia",
         "Device_Brand_Name": "Nokia",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -15475,7 +15475,7 @@
         "Device_Name": "Lumia 900",
         "Device_Maker": "Nokia",
         "Device_Brand_Name": "Nokia",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -15487,7 +15487,7 @@
         "Device_Name": "Lumia 800",
         "Device_Maker": "Nokia",
         "Device_Brand_Name": "Nokia",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -15499,7 +15499,7 @@
         "Device_Name": "Lumia 710",
         "Device_Maker": "Nokia",
         "Device_Brand_Name": "Nokia",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -15511,7 +15511,7 @@
         "Device_Name": "Lumia 610",
         "Device_Maker": "Nokia",
         "Device_Brand_Name": "Nokia",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -15523,7 +15523,7 @@
         "Device_Name": "Lumia 510",
         "Device_Maker": "Nokia",
         "Device_Brand_Name": "Nokia",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -15535,7 +15535,7 @@
         "Device_Name": "Lumia 1520",
         "Device_Maker": "Nokia",
         "Device_Brand_Name": "Nokia",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -15691,7 +15691,7 @@
         "Device_Name": "Nuron",
         "Device_Maker": "Nokia",
         "Device_Brand_Name": "Nokia",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -15727,7 +15727,7 @@
         "Device_Name": "X7",
         "Device_Maker": "Nokia",
         "Device_Brand_Name": "Nokia",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -15835,7 +15835,7 @@
         "Device_Name": "500",
         "Device_Maker": "Nokia",
         "Device_Brand_Name": "Nokia",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -17527,7 +17527,7 @@
         "Device_Name": "Lumia 1320",
         "Device_Maker": "Nokia",
         "Device_Brand_Name": "Nokia",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -17539,7 +17539,7 @@
         "Device_Name": "Lumia 928",
         "Device_Maker": "Nokia",
         "Device_Brand_Name": "Nokia",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -17611,7 +17611,7 @@
         "Device_Name": "Bolt A065",
         "Device_Maker": "Micromax",
         "Device_Brand_Name": "Micromax",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -17659,7 +17659,7 @@
         "Device_Name": "One Touch 903D",
         "Device_Maker": "Alcatel",
         "Device_Brand_Name": "Alcatel",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -17695,7 +17695,7 @@
         "Device_Name": "One Touch 991T Play",
         "Device_Maker": "Alcatel",
         "Device_Brand_Name": "Alcatel",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -17731,7 +17731,7 @@
         "Device_Name": "One Touch 995",
         "Device_Maker": "Alcatel",
         "Device_Brand_Name": "Alcatel",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -17743,7 +17743,7 @@
         "Device_Name": "One Touch Star 6010D",
         "Device_Maker": "Alcatel",
         "Device_Brand_Name": "Alcatel",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -17887,7 +17887,7 @@
         "Device_Name": "One Touch Pop7 8GB WiFi 3G",
         "Device_Maker": "Alcatel",
         "Device_Brand_Name": "Alcatel",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -17899,7 +17899,7 @@
         "Device_Name": "One Touch POP 8 3G",
         "Device_Maker": "Alcatel",
         "Device_Brand_Name": "Alcatel",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -17971,7 +17971,7 @@
         "Device_Name": "One Touch Evolve II Black",
         "Device_Maker": "Alcatel",
         "Device_Brand_Name": "Alcatel",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -17995,7 +17995,7 @@
         "Device_Name": "TAB 824",
         "Device_Maker": "Intenso",
         "Device_Brand_Name": "Intenso",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -18067,7 +18067,7 @@
         "Device_Name": "BASE Tab",
         "Device_Maker": "ZTE",
         "Device_Brand_Name": "ZTE",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -18127,7 +18127,7 @@
         "Device_Name": "Open",
         "Device_Maker": "ZTE",
         "Device_Brand_Name": "ZTE",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -18151,7 +18151,7 @@
         "Device_Name": "Skate",
         "Device_Maker": "ZTE",
         "Device_Brand_Name": "ZTE",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -18163,7 +18163,7 @@
         "Device_Name": "Kis Plus",
         "Device_Maker": "ZTE",
         "Device_Brand_Name": "ZTE",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -18199,7 +18199,7 @@
         "Device_Name": "Streak",
         "Device_Maker": "Dell",
         "Device_Brand_Name": "Dell",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -18211,7 +18211,7 @@
         "Device_Name": "Streak 7",
         "Device_Maker": "Dell",
         "Device_Brand_Name": "Dell",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -18235,7 +18235,7 @@
         "Device_Name": "Venue 8 3830",
         "Device_Maker": "Dell",
         "Device_Brand_Name": "Dell",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -18247,7 +18247,7 @@
         "Device_Name": "Venue 7 3730",
         "Device_Maker": "Dell",
         "Device_Brand_Name": "Dell",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -18259,7 +18259,7 @@
         "Device_Name": "Venue 7 HSPA+",
         "Device_Maker": "Dell",
         "Device_Brand_Name": "Dell",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -18271,7 +18271,7 @@
         "Device_Name": "Venue 8 HSPA+",
         "Device_Maker": "Dell",
         "Device_Brand_Name": "Dell",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -18475,7 +18475,7 @@
         "Device_Name": "Folio 100",
         "Device_Maker": "Toshiba",
         "Device_Brand_Name": "Toshiba",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -18487,7 +18487,7 @@
         "Device_Name": "AT100",
         "Device_Maker": "Toshiba",
         "Device_Brand_Name": "Toshiba",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -18499,7 +18499,7 @@
         "Device_Name": "Excite AT200",
         "Device_Maker": "Toshiba",
         "Device_Brand_Name": "Toshiba",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -18511,7 +18511,7 @@
         "Device_Name": "Regza AT300",
         "Device_Maker": "Toshiba",
         "Device_Brand_Name": "Toshiba",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -18523,7 +18523,7 @@
         "Device_Name": "Regza AT300SE",
         "Device_Maker": "Toshiba",
         "Device_Brand_Name": "Toshiba",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -18535,7 +18535,7 @@
         "Device_Name": "eXcite Pure",
         "Device_Maker": "Toshiba",
         "Device_Brand_Name": "Toshiba",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -18583,7 +18583,7 @@
         "Device_Name": "Space",
         "Device_Maker": "Odys",
         "Device_Brand_Name": "Odys",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -18619,7 +18619,7 @@
         "Device_Name": "Loox Plus",
         "Device_Maker": "Odys",
         "Device_Brand_Name": "Odys",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -18631,7 +18631,7 @@
         "Device_Name": "Noon",
         "Device_Maker": "Odys",
         "Device_Brand_Name": "Odys",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -18655,7 +18655,7 @@
         "Device_Name": "Uno X10",
         "Device_Maker": "Odys",
         "Device_Brand_Name": "Odys",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -18667,7 +18667,7 @@
         "Device_Name": "Xelio 7 Pro",
         "Device_Maker": "Odys",
         "Device_Brand_Name": "Odys",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -18679,7 +18679,7 @@
         "Device_Name": "Xeno 10",
         "Device_Maker": "Odys",
         "Device_Brand_Name": "Odys",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -18691,7 +18691,7 @@
         "Device_Name": "Xelio 10 Pro",
         "Device_Maker": "Odys",
         "Device_Brand_Name": "Odys",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -18703,7 +18703,7 @@
         "Device_Name": "Evo",
         "Device_Maker": "Odys",
         "Device_Brand_Name": "Odys",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -18715,7 +18715,7 @@
         "Device_Name": "Neo S8 Plus",
         "Device_Maker": "Odys",
         "Device_Brand_Name": "Odys",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -18727,7 +18727,7 @@
         "Device_Name": "Neo X",
         "Device_Maker": "Odys",
         "Device_Brand_Name": "Odys",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -18811,7 +18811,7 @@
         "Device_Name": "IdeaPad A1 Tablet",
         "Device_Maker": "Lenovo",
         "Device_Brand_Name": "Lenovo",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -18823,7 +18823,7 @@
         "Device_Name": "Smart II 3G",
         "Device_Maker": "Lenovo",
         "Device_Brand_Name": "Vodafone",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -18835,7 +18835,7 @@
         "Device_Name": "Smart Tab III 10",
         "Device_Maker": "Lenovo",
         "Device_Brand_Name": "Vodafone",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -18847,7 +18847,7 @@
         "Device_Name": "SmartTab II 10",
         "Device_Maker": "Lenovo",
         "Device_Brand_Name": "Vodafone",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -18859,7 +18859,7 @@
         "Device_Name": "IdeaPad K1",
         "Device_Maker": "Lenovo",
         "Device_Brand_Name": "Vodafone",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -18871,7 +18871,7 @@
         "Device_Name": "ThinkPad Tablet",
         "Device_Maker": "Lenovo",
         "Device_Brand_Name": "Vodafone",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -18883,7 +18883,7 @@
         "Device_Name": "IdeaTab A2107A-H",
         "Device_Maker": "Lenovo",
         "Device_Brand_Name": "Vodafone",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -18895,7 +18895,7 @@
         "Device_Name": "IdeaTab A2109A",
         "Device_Maker": "Lenovo",
         "Device_Brand_Name": "Vodafone",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -18907,7 +18907,7 @@
         "Device_Name": "IdeaTab S2110AF",
         "Device_Maker": "Lenovo",
         "Device_Brand_Name": "Vodafone",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -18919,7 +18919,7 @@
         "Device_Name": "IdeaTab S6000-H",
         "Device_Maker": "Lenovo",
         "Device_Brand_Name": "Vodafone",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -18931,7 +18931,7 @@
         "Device_Name": "IdeaTab S6000-F Wi-Fi, 16GB",
         "Device_Maker": "Lenovo",
         "Device_Brand_Name": "Vodafone",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -18943,7 +18943,7 @@
         "Device_Name": "IdeaTab S6000-F",
         "Device_Maker": "Lenovo",
         "Device_Brand_Name": "Lenovo",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -18955,7 +18955,7 @@
         "Device_Name": "IdeaTab A3000-H",
         "Device_Maker": "Lenovo",
         "Device_Brand_Name": "Vodafone",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -18967,7 +18967,7 @@
         "Device_Name": "IdeaPad A660",
         "Device_Maker": "Lenovo",
         "Device_Brand_Name": "Lenovo",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -18979,7 +18979,7 @@
         "Device_Name": "MeMO Pad FHD 10",
         "Device_Maker": "Asus",
         "Device_Brand_Name": "Asus",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -18991,7 +18991,7 @@
         "Device_Name": "Fonepad ME371MG",
         "Device_Maker": "Asus",
         "Device_Brand_Name": "Asus",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -19003,7 +19003,7 @@
         "Device_Name": "Yoga B8000-F",
         "Device_Maker": "Lenovo",
         "Device_Brand_Name": "Lenovo",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -19015,7 +19015,7 @@
         "Device_Name": "Yoga Tablet 10 3G",
         "Device_Maker": "Lenovo",
         "Device_Brand_Name": "Lenovo",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -19075,7 +19075,7 @@
         "Device_Name": "A328",
         "Device_Maker": "Lenovo",
         "Device_Brand_Name": "Lenovo",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -19087,7 +19087,7 @@
         "Device_Name": "A388T",
         "Device_Maker": "Lenovo",
         "Device_Brand_Name": "Lenovo",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -19099,7 +19099,7 @@
         "Device_Name": "A536",
         "Device_Maker": "Lenovo",
         "Device_Brand_Name": "Lenovo",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -19111,7 +19111,7 @@
         "Device_Name": "A850",
         "Device_Maker": "Lenovo",
         "Device_Brand_Name": "Lenovo",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -19123,7 +19123,7 @@
         "Device_Name": "A789",
         "Device_Maker": "Lenovo",
         "Device_Brand_Name": "Lenovo",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -19135,7 +19135,7 @@
         "Device_Name": "A820",
         "Device_Maker": "Lenovo",
         "Device_Brand_Name": "Lenovo",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -19147,7 +19147,7 @@
         "Device_Name": "Yoga B6000-F",
         "Device_Maker": "Lenovo",
         "Device_Brand_Name": "Lenovo",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -19159,7 +19159,7 @@
         "Device_Name": "Lifetab S785X",
         "Device_Maker": "Lenovo",
         "Device_Brand_Name": "Lenovo",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -19171,7 +19171,7 @@
         "Device_Name": "Lifetab S1033X",
         "Device_Maker": "Lenovo",
         "Device_Brand_Name": "Lenovo",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -19183,7 +19183,7 @@
         "Device_Name": "TAB A7-30",
         "Device_Maker": "Lenovo",
         "Device_Brand_Name": "Lenovo",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -19195,7 +19195,7 @@
         "Device_Name": "A7-30 A3300 Wi-Fi",
         "Device_Maker": "Lenovo",
         "Device_Brand_Name": "Lenovo",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -19207,7 +19207,7 @@
         "Device_Name": "IdeaTab S5000-F",
         "Device_Maker": "Lenovo",
         "Device_Brand_Name": "Lenovo",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -19219,7 +19219,7 @@
         "Device_Name": "IdeaTab S5000-H",
         "Device_Maker": "Lenovo",
         "Device_Brand_Name": "Lenovo",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -19231,7 +19231,7 @@
         "Device_Name": "IdeaPad A10",
         "Device_Maker": "Lenovo",
         "Device_Brand_Name": "Lenovo",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -19243,7 +19243,7 @@
         "Device_Name": "Yoga Tablet 10 HD+",
         "Device_Maker": "Lenovo",
         "Device_Brand_Name": "Lenovo",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -19255,7 +19255,7 @@
         "Device_Name": "IdeaTab A7-40",
         "Device_Maker": "Lenovo",
         "Device_Brand_Name": "Lenovo",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -19267,7 +19267,7 @@
         "Device_Name": "A10-70 A7600 Wi-Fi + 3G",
         "Device_Maker": "Lenovo",
         "Device_Brand_Name": "Lenovo",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -19279,7 +19279,7 @@
         "Device_Name": "Ideatab A8-50 WI-FI + 3G",
         "Device_Maker": "Lenovo",
         "Device_Brand_Name": "Lenovo",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -19291,7 +19291,7 @@
         "Device_Name": "A7-50 A3500 Wi-Fi + 3G",
         "Device_Maker": "Lenovo",
         "Device_Brand_Name": "Lenovo",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -19303,7 +19303,7 @@
         "Device_Name": "Ideatab A8-50 WI-FI",
         "Device_Maker": "Lenovo",
         "Device_Brand_Name": "Lenovo",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -19315,7 +19315,7 @@
         "Device_Name": "A10-70 A7600 Wi-Fi",
         "Device_Maker": "Lenovo",
         "Device_Brand_Name": "Lenovo",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -19327,7 +19327,7 @@
         "Device_Name": "Yoga Tab 10 HD+",
         "Device_Maker": "Lenovo",
         "Device_Brand_Name": "Lenovo",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -19363,7 +19363,7 @@
         "Device_Name": "9 G2",
         "Device_Maker": "Arnova",
         "Device_Brand_Name": "Arnova",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -19375,7 +19375,7 @@
         "Device_Name": "101 G4",
         "Device_Maker": "Arnova",
         "Device_Brand_Name": "Arnova",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -19387,7 +19387,7 @@
         "Device_Name": "10b G3",
         "Device_Maker": "Arnova",
         "Device_Brand_Name": "Arnova",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -19399,7 +19399,7 @@
         "Device_Name": "Nova",
         "Device_Maker": "CatSound",
         "Device_Brand_Name": "CatSound",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -19411,7 +19411,7 @@
         "Device_Name": "Galactica X",
         "Device_Maker": "CatSound",
         "Device_Brand_Name": "CatSound",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -19423,7 +19423,7 @@
         "Device_Name": "Tablet",
         "Device_Maker": "CatSound",
         "Device_Brand_Name": "CatSound",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -19435,7 +19435,7 @@
         "Device_Name": "Tablet PC",
         "Device_Maker": "Cat Sound",
         "Device_Brand_Name": "Weltbild",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -19447,7 +19447,7 @@
         "Device_Name": "Tablet PC 4",
         "Device_Maker": "Cat Sound",
         "Device_Brand_Name": "CatSound",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -19459,7 +19459,7 @@
         "Device_Name": "Tablet PC Junior+",
         "Device_Maker": "Weltbild",
         "Device_Brand_Name": "Weltbild",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -19471,7 +19471,7 @@
         "Device_Name": "FX2 PAD10",
         "Device_Maker": "Faktor Zwei",
         "Device_Brand_Name": "Faktor Zwei",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -19483,7 +19483,7 @@
         "Device_Name": "INM803HC",
         "Device_Maker": "Lalsoft",
         "Device_Brand_Name": "Lalsoft",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -19543,7 +19543,7 @@
         "Device_Name": "Touchlet X7G",
         "Device_Maker": "Pearl",
         "Device_Brand_Name": "Pearl",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -19555,7 +19555,7 @@
         "Device_Name": "Touchlet X10.Dual+",
         "Device_Maker": "Pearl",
         "Device_Brand_Name": "Pearl",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -19567,7 +19567,7 @@
         "Device_Name": "Touchlet X10.Dual",
         "Device_Maker": "Pearl",
         "Device_Brand_Name": "Pearl",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -19579,7 +19579,7 @@
         "Device_Name": "Vido N90FHD",
         "Device_Maker": "YUANDAO",
         "Device_Brand_Name": "YUANDAO",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -19591,7 +19591,7 @@
         "Device_Name": "MultiPad 5080 Pro",
         "Device_Maker": "Prestigio",
         "Device_Brand_Name": "Prestigio",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -19603,7 +19603,7 @@
         "Device_Name": "MultiPad 8.0 Pro Duo",
         "Device_Maker": "Prestigio",
         "Device_Brand_Name": "Prestigio",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -19615,7 +19615,7 @@
         "Device_Name": "Multipad",
         "Device_Maker": "Prestigio",
         "Device_Brand_Name": "Prestigio",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -19627,7 +19627,7 @@
         "Device_Name": "Multipad 2 Ultra Duo 8.0 3G",
         "Device_Maker": "Prestigio",
         "Device_Brand_Name": "Prestigio",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -19639,7 +19639,7 @@
         "Device_Name": "MultiPad 4 Ultra Quad 8.0 3G",
         "Device_Maker": "Prestigio",
         "Device_Brand_Name": "Prestigio",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -19651,7 +19651,7 @@
         "Device_Name": "MultiPad 7.0 Prime Duo",
         "Device_Maker": "Prestigio",
         "Device_Brand_Name": "Prestigio",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -19663,7 +19663,7 @@
         "Device_Name": "MultiPad 2 PRO DUO 7.0",
         "Device_Maker": "Prestigio",
         "Device_Brand_Name": "Prestigio",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -19675,7 +19675,7 @@
         "Device_Name": "MultiPad 4 Diamond 7.85 3G",
         "Device_Maker": "Prestigio",
         "Device_Brand_Name": "Prestigio",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -19687,7 +19687,7 @@
         "Device_Name": "MultiPad 4 Ultimate 8.0 3G",
         "Device_Maker": "Prestigio",
         "Device_Brand_Name": "Prestigio",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -19699,7 +19699,7 @@
         "Device_Name": "MultiPad 4 Quantum 7.85",
         "Device_Maker": "Prestigio",
         "Device_Brand_Name": "Prestigio",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -19711,7 +19711,7 @@
         "Device_Name": "MultiPad 8.0 HD",
         "Device_Maker": "Prestigio",
         "Device_Brand_Name": "Prestigio",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -19723,7 +19723,7 @@
         "Device_Name": "MultiPad 4 Diamond 7.85, 3G",
         "Device_Maker": "Prestigio",
         "Device_Brand_Name": "Prestigio",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -19735,7 +19735,7 @@
         "Device_Name": "MultiPad 4 Quantum 10.1",
         "Device_Maker": "Prestigio",
         "Device_Brand_Name": "Prestigio",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -19747,7 +19747,7 @@
         "Device_Name": "MultiPad Ranger 7.0 3G",
         "Device_Maker": "Prestigio",
         "Device_Brand_Name": "Prestigio",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -19759,7 +19759,7 @@
         "Device_Name": "MultiPad Ranger 8.0 3G Wifi",
         "Device_Maker": "Prestigio",
         "Device_Brand_Name": "Prestigio",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -19771,7 +19771,7 @@
         "Device_Name": "MultiPad Thunder 7.0i",
         "Device_Maker": "Prestigio",
         "Device_Brand_Name": "Prestigio",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -19783,7 +19783,7 @@
         "Device_Name": "Touchpad",
         "Device_Maker": "HP",
         "Device_Brand_Name": "HP",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -19879,7 +19879,7 @@
         "Device_Name": "TechniPad 10 3G",
         "Device_Maker": "TechniSat",
         "Device_Brand_Name": "TechniSat",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -19927,7 +19927,7 @@
         "Device_Name": "SurfTab ventos 10.1 v2",
         "Device_Maker": "TrekStor",
         "Device_Brand_Name": "TrekStor",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -19939,7 +19939,7 @@
         "Device_Name": "SurfTab Breeze 7.0",
         "Device_Maker": "TrekStor",
         "Device_Brand_Name": "TrekStor",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -19951,7 +19951,7 @@
         "Device_Name": "Peoples Tablet",
         "Device_Maker": "TrekStor",
         "Device_Brand_Name": "TrekStor",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -19963,7 +19963,7 @@
         "Device_Name": "VT10416-2",
         "Device_Maker": "TrekStor",
         "Device_Brand_Name": "TrekStor",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -19975,7 +19975,7 @@
         "Device_Name": "ST10216-2",
         "Device_Maker": "TrekStor",
         "Device_Brand_Name": "TrekStor",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -19987,7 +19987,7 @@
         "Device_Name": "Nook HD+",
         "Device_Maker": "Barnes & Noble",
         "Device_Brand_Name": "Barnes & Noble",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -19999,7 +19999,7 @@
         "Device_Name": "Nook Color",
         "Device_Maker": "Barnes & Noble",
         "Device_Brand_Name": "Barnes & Noble",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -20011,7 +20011,7 @@
         "Device_Name": "Nook Color Wifi",
         "Device_Maker": "Barnes & Noble",
         "Device_Brand_Name": "Barnes & Noble",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -20023,7 +20023,7 @@
         "Device_Name": "Nook",
         "Device_Maker": "Barnes & Noble",
         "Device_Brand_Name": "Barnes & Noble",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -20035,7 +20035,7 @@
         "Device_Name": "TP10",
         "Device_Maker": "I-ONIK",
         "Device_Brand_Name": "I-ONIK",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -20047,7 +20047,7 @@
         "Device_Name": "Next",
         "Device_Maker": "Nextbook",
         "Device_Brand_Name": "Nextbook",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -20059,7 +20059,7 @@
         "Device_Name": "Zaffire 785",
         "Device_Maker": "Nuqleo",
         "Device_Brand_Name": "Nuqleo",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -20071,7 +20071,7 @@
         "Device_Name": "Zaffire 1010",
         "Device_Maker": "Nuqleo",
         "Device_Brand_Name": "Nuqleo",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -20118,7 +20118,7 @@
         "Device_Name": "KBD",
         "Device_Code_Name": "KBD",
         "Device_Maker": "Research In Motion Limited",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "BlackBerry",
         "isMobileDevice": "true",
         "isTablet": "false"
@@ -20742,7 +20742,7 @@
         "Device_Name": "Torch",
         "Device_Code_Name": "BlackBerry 9800",
         "Device_Maker": "Research In Motion Limited",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "RIM",
         "isMobileDevice": "true",
         "isTablet": "false"
@@ -20802,7 +20802,7 @@
         "Device_Name": "Torch 4G",
         "Device_Code_Name": "BlackBerry 9810",
         "Device_Maker": "Research In Motion Limited",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "RIM",
         "isMobileDevice": "true",
         "isTablet": "false"
@@ -20922,7 +20922,7 @@
         "Device_Name": "Studio 5.0 S II",
         "Device_Code_Name": "Studio 5.0 S II",
         "Device_Maker": "BLU",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "BLU",
         "isMobileDevice": "true",
         "isTablet": "false"
@@ -21510,7 +21510,7 @@
         "Device_Name": "NEC Casio N-02E",
         "Device_Code_Name": "0912",
         "Device_Maker": "NEC",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "DoCoMo",
         "isMobileDevice": "true",
         "isTablet": "false"
@@ -21606,7 +21606,7 @@
         "Device_Name": "Noble 10c",
         "Device_Code_Name": "TAB10-400",
         "Device_Maker": "Yarvik",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Yarvik",
         "isMobileDevice": "true",
         "isTablet": "true"
@@ -21618,7 +21618,7 @@
         "Device_Name": "AX540",
         "Device_Code_Name": "AX540",
         "Device_Maker": "Bmobile",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Bmobile",
         "isMobileDevice": "true",
         "isTablet": "false"
@@ -21630,7 +21630,7 @@
         "Device_Name": "762 A9 TABLET",
         "Device_Code_Name": "762 A9",
         "Device_Maker": "Dino",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Dino",
         "isMobileDevice": "true",
         "isTablet": "true"
@@ -22134,7 +22134,7 @@
         "Device_Name": "GT 95 3G",
         "Device_Code_Name": "GT 95 3G",
         "Device_Maker": "Cubot",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Cubot",
         "isMobileDevice": "true",
         "isTablet": "false"
@@ -22182,7 +22182,7 @@
         "Device_Name": "STYLISTIC M532",
         "Device_Code_Name": "M532",
         "Device_Maker": "Fujitsu",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Fujitsu",
         "isMobileDevice": "true",
         "isTablet": "true"
@@ -22194,7 +22194,7 @@
         "Device_Name": "Endeavour 1010",
         "Device_Code_Name": "Endeavour 1010",
         "Device_Maker": "Blaupunkt",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Blaupunkt",
         "isMobileDevice": "true",
         "isTablet": "true"
@@ -22206,7 +22206,7 @@
         "Device_Name": "FWS610",
         "Device_Code_Name": "FWS610",
         "Device_Maker": "Phicomm",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Phicomm",
         "isMobileDevice": "true",
         "isTablet": "false"
@@ -22218,7 +22218,7 @@
         "Device_Name": "ERA Life 4",
         "Device_Code_Name": "IQ4409 Quad",
         "Device_Maker": "Fly",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Fly",
         "isMobileDevice": "true",
         "isTablet": "false"
@@ -22230,7 +22230,7 @@
         "Device_Name": "TBD1083",
         "Device_Code_Name": "TBD1083",
         "Device_Maker": "Zeki",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Zeki",
         "isMobileDevice": "true",
         "isTablet": "true"
@@ -22242,7 +22242,7 @@
         "Device_Name": "TBDB863",
         "Device_Code_Name": "TBDB863",
         "Device_Maker": "Zeki",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Zeki",
         "isMobileDevice": "true",
         "isTablet": "true"
@@ -22254,7 +22254,7 @@
         "Device_Name": "TBDC1093",
         "Device_Code_Name": "TBDC1093",
         "Device_Maker": "Zeki",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Zeki",
         "isMobileDevice": "true",
         "isTablet": "true"
@@ -22266,7 +22266,7 @@
         "Device_Name": "TERRA 101",
         "Device_Code_Name": "A1021",
         "Device_Maker": "GOCLEVER",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "GOCLEVER",
         "isMobileDevice": "true",
         "isTablet": "true"
@@ -22278,7 +22278,7 @@
         "Device_Name": "INSIGNIA 785 PRO",
         "Device_Code_Name": "INSIGNIA 785 PRO",
         "Device_Maker": "GOCLEVER",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "GOCLEVER",
         "isMobileDevice": "true",
         "isTablet": "true"
@@ -22290,7 +22290,7 @@
         "Device_Name": "Aries 785",
         "Device_Code_Name": "Aries 785",
         "Device_Maker": "GOCLEVER",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "GOCLEVER",
         "isMobileDevice": "true",
         "isTablet": "true"
@@ -22302,7 +22302,7 @@
         "Device_Name": "Aries 101",
         "Device_Code_Name": "Aries 101",
         "Device_Maker": "GOCLEVER",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "GOCLEVER",
         "isMobileDevice": "true",
         "isTablet": "true"
@@ -22314,7 +22314,7 @@
         "Device_Name": "QUANTUM 700",
         "Device_Code_Name": "TQ700",
         "Device_Maker": "GOCLEVER",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "GOCLEVER",
         "isMobileDevice": "true",
         "isTablet": "true"
@@ -22326,7 +22326,7 @@
         "Device_Name": "FreeTAB 1001",
         "Device_Code_Name": "FreeTAB 1001",
         "Device_Maker": "MODECOM",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "MODECOM",
         "isMobileDevice": "true",
         "isTablet": "true"
@@ -22338,7 +22338,7 @@
         "Device_Name": "FreeTAB 1014 IPS X4 3G+",
         "Device_Code_Name": "FreeTAB 1014 IPS X4 3G+",
         "Device_Maker": "MODECOM",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "MODECOM",
         "isMobileDevice": "true",
         "isTablet": "true"
@@ -22350,7 +22350,7 @@
         "Device_Name": "FreeTAB 9702 HD X4",
         "Device_Code_Name": "FreeTAB 9702 HD X4",
         "Device_Maker": "MODECOM",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "MODECOM",
         "isMobileDevice": "true",
         "isTablet": "true"
@@ -22362,7 +22362,7 @@
         "Device_Name": "FreeTAB 7001 HD IC",
         "Device_Code_Name": "FreeTAB 7001 HD IC",
         "Device_Maker": "MODECOM",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "MODECOM",
         "isMobileDevice": "true",
         "isTablet": "true"
@@ -22374,7 +22374,7 @@
         "Device_Name": "FreeTAB 8001 IPS X2 3G+",
         "Device_Code_Name": "FreeTAB 8001 IPS X2 3G+",
         "Device_Maker": "MODECOM",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "MODECOM",
         "isMobileDevice": "true",
         "isTablet": "true"
@@ -22386,7 +22386,7 @@
         "Device_Name": "FreeTAB 9000 IPS IC",
         "Device_Code_Name": "FreeTAB 9000 IPS IC",
         "Device_Maker": "MODECOM",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "MODECOM",
         "isMobileDevice": "true",
         "isTablet": "true"
@@ -22398,7 +22398,7 @@
         "Device_Name": "FreeTAB 7800 IPS IC",
         "Device_Code_Name": "FreeTAB 7800 IPS IC",
         "Device_Maker": "MODECOM",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "MODECOM",
         "isMobileDevice": "true",
         "isTablet": "true"
@@ -22410,7 +22410,7 @@
         "Device_Name": "Mini 3G",
         "Device_Code_Name": "Mini 3G",
         "Device_Maker": "myTAB",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "myTAB",
         "isMobileDevice": "true",
         "isTablet": "true"
@@ -22422,7 +22422,7 @@
         "Device_Name": "FunTab 8",
         "Device_Code_Name": "FunTab 8",
         "Device_Maker": "Orange",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Orange",
         "isMobileDevice": "true",
         "isTablet": "true"
@@ -22434,7 +22434,7 @@
         "Device_Name": "Solution 10 Ii 3G",
         "Device_Code_Name": "Solution 10 Ii 3G",
         "Device_Maker": "Overmax",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Overmax",
         "isMobileDevice": "true",
         "isTablet": "true"
@@ -22446,7 +22446,7 @@
         "Device_Name": "Quattor 10+",
         "Device_Code_Name": "Quattor 10+",
         "Device_Maker": "Overmax",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Overmax",
         "isMobileDevice": "true",
         "isTablet": "true"
@@ -22458,7 +22458,7 @@
         "Device_Name": "SteelCore",
         "Device_Code_Name": "SteelCore",
         "Device_Maker": "Overmax",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Overmax",
         "isMobileDevice": "true",
         "isTablet": "true"
@@ -22470,7 +22470,7 @@
         "Device_Name": "Solution 7 III",
         "Device_Code_Name": "Solution 7 III",
         "Device_Maker": "Overmax",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Overmax",
         "isMobileDevice": "true",
         "isTablet": "true"
@@ -22482,7 +22482,7 @@
         "Device_Name": "Elegance 8 3G",
         "Device_Code_Name": "Elegance 8 3G",
         "Device_Maker": "Kiano",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Kiano",
         "isMobileDevice": "true",
         "isTablet": "true"
@@ -22494,7 +22494,7 @@
         "Device_Name": "Elegance",
         "Device_Code_Name": "Elegance",
         "Device_Maker": "Kiano",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Kiano",
         "isMobileDevice": "true",
         "isTablet": "true"
@@ -22506,7 +22506,7 @@
         "Device_Name": "MID802 POWER DUO HD",
         "Device_Code_Name": "MID802",
         "Device_Maker": "Manta",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Manta",
         "isMobileDevice": "true",
         "isTablet": "true"
@@ -22518,7 +22518,7 @@
         "Device_Name": "Amio7",
         "Device_Code_Name": "PI3210G",
         "Device_Maker": "Philips",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Philips",
         "isMobileDevice": "true",
         "isTablet": "true"
@@ -22590,7 +22590,7 @@
         "Device_Name": "Samurai 10",
         "Device_Code_Name": "Samurai 10",
         "Device_Maker": "Shiru",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Shiru",
         "isMobileDevice": "true",
         "isTablet": "true"
@@ -22602,7 +22602,7 @@
         "Device_Name": "Ignis 8",
         "Device_Code_Name": "Ignis 8",
         "Device_Maker": "TB Touch",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "TB Touch",
         "isMobileDevice": "true",
         "isTablet": "true"
@@ -22614,7 +22614,7 @@
         "Device_Name": "NTT 611 10.1",
         "Device_Code_Name": "NTT 611 10.1",
         "Device_Maker": "NTT System",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "NTT System",
         "isMobileDevice": "true",
         "isTablet": "true"
@@ -22626,7 +22626,7 @@
         "Device_Name": "Tab 7.6",
         "Device_Code_Name": "Tab 7.6",
         "Device_Maker": "Pentagram",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Pentagram",
         "isMobileDevice": "true",
         "isTablet": "true"
@@ -22638,7 +22638,7 @@
         "Device_Name": "iDsD7 3G",
         "Device_Code_Name": "iDsD7 3G",
         "Device_Maker": "Digma",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Digma",
         "isMobileDevice": "true",
         "isTablet": "true"

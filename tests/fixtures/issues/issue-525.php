@@ -3169,7 +3169,7 @@ return [
             'Device_Name' => 'Viera TV',
             'Device_Maker' => 'Panasonic',
             'Device_Type' => 'TV Device',
-            'Device_Pointing_Method' => 'mouse',
+            'Device_Pointing_Method' => 'unknown',
             'Device_Code_Name' => 'Viera TV',
             'Device_Brand_Name' => 'Panasonic',
             'RenderingEngine_Name' => 'WebKit',
