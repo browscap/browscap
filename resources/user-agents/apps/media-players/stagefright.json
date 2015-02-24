@@ -8,6 +8,7 @@
       "userAgent": "stagefright #MAJORVER#.#MINORVER#",
       "platform": "Android",
       "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "stagefright #MAJORVER#.#MINORVER#",

@@ -86,7 +86,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#FP1 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) *UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
           "engine": "U3",
-          "devices": "Fairphone FP1",
+          "device": "Fairphone FP1",
           "platforms": [
             "Android_4_2"
           ]

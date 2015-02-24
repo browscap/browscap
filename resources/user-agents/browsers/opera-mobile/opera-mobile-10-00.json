@@ -38,12 +38,14 @@
         },
         {
           "match": "Browser\/Opera Opera\/*(MTK*)*Version\/#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Phone (Touch)",
           "platforms": [
             "Android"
           ]
         },
         {
           "match": "*Opera\/*(MTK*)*Version\/#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Phone (Touch)",
           "platforms": [
             "Android"
           ]
@@ -75,6 +77,7 @@
         },
         {
           "match": "* Browser\/Opera *Profile\/MIDP* Opera\/*(MTK*)*Version\/#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Phone (Touch)",
           "platforms": [
             "Android"
           ]

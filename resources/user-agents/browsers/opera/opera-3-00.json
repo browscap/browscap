@@ -81,7 +81,7 @@
           "match": "Mozilla\/?.*(*Opera?#MAJORVER#.#MINORVER##PLATFORM#)*",
           "device": "Windows Desktop",
           "platforms": [
-            "Win2000", "Win2000_2", "WinME", "WinME_2", "Win95_2", "Win98_2", "NT4",
+            "Win2000", "Win2000_2", "WinME", "WinME_2", "Win95_2", "Win98_2", "NT4", "NT4_1_B",
             "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32", "Win8_32", "Win8_1_32"
           ]
         },

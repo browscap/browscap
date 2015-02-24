@@ -21,7 +21,7 @@ return [
             'Device_Name' => 'NSZ-GS7/GX70',
             'Device_Maker' => 'Sony',
             'Device_Type' => 'TV Device',
-            'Device_Pointing_Method' => 'touchscreen',
+            'Device_Pointing_Method' => 'unknown',
             'Device_Code_Name' => 'NSZ-GS7/GX70',
             'Device_Brand_Name' => 'Sony',
             'RenderingEngine_Name' => 'WebKit',

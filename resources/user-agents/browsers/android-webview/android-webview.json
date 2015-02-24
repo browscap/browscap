@@ -112,7 +112,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#FP1 Build\/*)*AppleWebKit\/*(*KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
-          "devices": "Fairphone FP1",
+          "device": "Fairphone FP1",
           "platforms": [
             "Android_4_2"
           ]

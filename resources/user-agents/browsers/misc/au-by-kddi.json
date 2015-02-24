@@ -173,7 +173,7 @@
         },
         {
           "match": "LG-G510 AU\/4.2*",
-          "devices": "LG G510",
+          "device": "LG G510",
           "properties": {
             "Version": "4.2",
             "MajorVer": "4",

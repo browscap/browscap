@@ -592,6 +592,7 @@
         },
         {
           "match": "NewsBlur Favicon Fetcher*Mozilla/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/*",
+          "device": "Macintosh",
           "properties": {
             "Browser": "NewsBlur Favicon Fetcher",
             "Browser_Maker": "www.newsblur.com"
@@ -602,6 +603,7 @@
         },
         {
           "match": "NewsBlur Feed Fetcher*Mozilla/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/*",
+          "device": "Macintosh",
           "properties": {
             "Browser": "NewsBlur Favicon Fetcher",
             "Browser_Maker": "www.newsblur.com"
@@ -612,6 +614,7 @@
         },
         {
           "match": "NewsBlur Page Fetcher*Mozilla/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/*",
+          "device": "Macintosh",
           "properties": {
             "Browser": "NewsBlur Favicon Fetcher",
             "Browser_Maker": "www.newsblur.com"

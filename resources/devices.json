@@ -355,7 +355,7 @@
         "Device_Name": "Xperia Z2 LTE",
         "Device_Maker": "Sony",
         "Device_Brand_Name": "Sony",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -367,7 +367,7 @@
         "Device_Name": "NSZ-GS7/GX70",
         "Device_Maker": "Sony",
         "Device_Brand_Name": "Sony",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "false",
         "isTablet": "false"
       }
@@ -1171,7 +1171,7 @@
         "Device_Name": "Xperia Go",
         "Device_Maker": "SonyEricsson",
         "Device_Brand_Name": "SonyEricsson",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -1615,7 +1615,7 @@
         "Device_Name": "Xperia Z",
         "Device_Maker": "Sony",
         "Device_Brand_Name": "Sony",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -1711,7 +1711,7 @@
         "Device_Name": "Xperia E",
         "Device_Maker": "Sony",
         "Device_Brand_Name": "Sony",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -1723,7 +1723,7 @@
         "Device_Name": "Xperia J",
         "Device_Maker": "Sony",
         "Device_Brand_Name": "Sony",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -2059,7 +2059,7 @@
         "Device_Name": "Champ Deluxe",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -2105,6 +2105,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-C3262",
         "Device_Name": "GT-C3262",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung GT-C3322": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GT-C3322",
+        "Device_Name": "GT-C3322",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "unknown",
@@ -2335,7 +2347,7 @@
         "Device_Name": "Galaxy S III Mini",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -2347,7 +2359,7 @@
         "Device_Name": "Galaxy S III Mini",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -2575,7 +2587,7 @@
         "Device_Name": "Galaxy S4 Active",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -2587,7 +2599,7 @@
         "Device_Name": "Galaxy S4 LTE+",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -2611,7 +2623,7 @@
         "Device_Name": "Galaxy S4 Mini",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -2791,7 +2803,7 @@
         "Device_Name": "Galaxy Fit",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -2815,7 +2827,7 @@
         "Device_Name": "Galaxy Ace",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -2995,7 +3007,7 @@
         "Device_Name": "Galaxy Young DUOS",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -3007,7 +3019,7 @@
         "Device_Name": "Galaxy Young",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -3019,7 +3031,7 @@
         "Device_Name": "Galaxy Pocket Plus",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -3031,7 +3043,7 @@
         "Device_Name": "Galaxy Fame",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -3043,7 +3055,7 @@
         "Device_Name": "S5620 Monte",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -3413,6 +3425,30 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-S5263",
         "Device_Name": "GT-S5263",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung GT-S5233S": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GT-S5233S",
+        "Device_Name": "GT-S5233S",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung GT-S3653": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GT-S3653",
+        "Device_Name": "GT-S3653",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "unknown",
@@ -3907,7 +3943,7 @@
         "Device_Name": "Galaxy S5 LTE (AT&T)",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -3919,7 +3955,7 @@
         "Device_Name": "Galaxy S5 LTE (T-Mobile)",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -3967,7 +4003,7 @@
         "Device_Name": "Galaxy S5 Plus",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "tochscreen",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -4051,7 +4087,7 @@
         "Device_Name": "Galaxy Note 3 3G",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -4063,7 +4099,7 @@
         "Device_Name": "Galaxy Note 3 LTE (AT&T)",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -4075,7 +4111,7 @@
         "Device_Name": "Galaxy Note 3 LTE (Verizon)",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -4087,7 +4123,7 @@
         "Device_Name": "Note 3 Neo Duos",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -4099,7 +4135,7 @@
         "Device_Name": "Galaxy Note 4",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -4603,7 +4639,7 @@
         "Device_Name": "Galaxy Note II",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -4663,7 +4699,7 @@
         "Device_Name": "Admire",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -4843,7 +4879,7 @@
         "Device_Name": "Galaxy S II",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -5035,7 +5071,7 @@
         "Device_Name": "Galaxy S4 LTE (T-Mobile), Black Mist",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -6403,7 +6439,7 @@
         "Device_Name": "SGH-X650",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -6751,7 +6787,7 @@
         "Device_Name": "Galaxy S4 LTE (Sprint), White Frost",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -7279,7 +7315,7 @@
         "Device_Name": "DEFY",
         "Device_Maker": "Motorola",
         "Device_Brand_Name": "Motorola",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -7603,7 +7639,7 @@
         "Device_Name": "Droid X2",
         "Device_Maker": "Motorola",
         "Device_Brand_Name": "Motorola",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -7615,7 +7651,7 @@
         "Device_Name": "Droid Bionic 4G LTE",
         "Device_Maker": "Motorola",
         "Device_Brand_Name": "Motorola",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -7639,7 +7675,7 @@
         "Device_Name": "DROID RAZR M 4G LTE",
         "Device_Maker": "Motorola",
         "Device_Brand_Name": "Motorola",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -7687,7 +7723,7 @@
         "Device_Name": "Moto G",
         "Device_Maker": "Motorola",
         "Device_Brand_Name": "Motorola",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -7699,7 +7735,7 @@
         "Device_Name": "Moto G",
         "Device_Maker": "Motorola",
         "Device_Brand_Name": "Motorola",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -7711,7 +7747,7 @@
         "Device_Name": "Droid Ultra",
         "Device_Maker": "Motorola",
         "Device_Brand_Name": "Motorola",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -9595,7 +9631,7 @@
         "Device_Name": "Sensation",
         "Device_Maker": "HTC",
         "Device_Brand_Name": "HTC",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -9607,7 +9643,7 @@
         "Device_Name": "HTC Nexus One",
         "Device_Maker": "HTC",
         "Device_Brand_Name": "Google",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -9715,7 +9751,7 @@
         "Device_Name": "Desire HD",
         "Device_Maker": "HTC",
         "Device_Brand_Name": "HTC",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -10015,7 +10051,7 @@
         "Device_Name": "Desire S",
         "Device_Maker": "HTC",
         "Device_Brand_Name": "HTC",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -10063,7 +10099,7 @@
         "Device_Name": "Desire X",
         "Device_Maker": "HTC",
         "Device_Brand_Name": "HTC",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -10087,7 +10123,7 @@
         "Device_Name": "Droid Incredible 2",
         "Device_Maker": "HTC",
         "Device_Brand_Name": "HTC",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -10099,7 +10135,7 @@
         "Device_Name": "One V",
         "Device_Maker": "HTC",
         "Device_Brand_Name": "HTC",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -10123,7 +10159,7 @@
         "Device_Name": "One X+",
         "Device_Maker": "HTC",
         "Device_Brand_Name": "HTC",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -10159,7 +10195,7 @@
         "Device_Name": "One XL",
         "Device_Maker": "HTC",
         "Device_Brand_Name": "HTC",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -10207,7 +10243,7 @@
         "Device_Name": "EVO 4G",
         "Device_Maker": "HTC",
         "Device_Brand_Name": "HTC",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -10219,7 +10255,7 @@
         "Device_Name": "Desire 500",
         "Device_Maker": "HTC",
         "Device_Brand_Name": "HTC",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -10339,7 +10375,7 @@
         "Device_Name": "HD7",
         "Device_Maker": "HTC",
         "Device_Brand_Name": "HTC",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -11359,7 +11395,7 @@
         "Device_Name": "Optimus L7 II",
         "Device_Maker": "LG",
         "Device_Brand_Name": "LG",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -11383,7 +11419,7 @@
         "Device_Name": "Lucid 4G VS840",
         "Device_Maker": "LG",
         "Device_Brand_Name": "LG",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -11539,7 +11575,7 @@
         "Device_Name": "Volt LS740",
         "Device_Maker": "LG",
         "Device_Brand_Name": "LG",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -11551,7 +11587,7 @@
         "Device_Name": "G2 Verizon VS980",
         "Device_Maker": "LG",
         "Device_Brand_Name": "LG",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -13987,7 +14023,7 @@
         "Device_Name": "Cynus T2",
         "Device_Maker": "Mobistel",
         "Device_Brand_Name": "Elson",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -14011,7 +14047,7 @@
         "Device_Name": "Cynus F4",
         "Device_Maker": "Mobistel",
         "Device_Brand_Name": "Mobistel",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -14023,7 +14059,7 @@
         "Device_Name": "Cynus F3",
         "Device_Maker": "Mobistel",
         "Device_Brand_Name": "Mobistel",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -14035,7 +14071,7 @@
         "Device_Name": "Cynus T5",
         "Device_Maker": "Mobistel",
         "Device_Brand_Name": "Mobistel",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -14239,7 +14275,7 @@
         "Device_Name": "Ascend G700",
         "Device_Maker": "Huawei",
         "Device_Brand_Name": "Huawei",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -14371,7 +14407,7 @@
         "Device_Name": "T-Mobile Move Balance",
         "Device_Maker": "Huawei",
         "Device_Brand_Name": "Huawei",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -14527,7 +14563,7 @@
         "Device_Name": "Ascend G525-U00",
         "Device_Maker": "Huawei",
         "Device_Brand_Name": "Huawei",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -14539,7 +14575,7 @@
         "Device_Name": "Ascend Y530",
         "Device_Maker": "Huawei",
         "Device_Brand_Name": "Huawei",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -15151,7 +15187,7 @@
         "Device_Name": "MT6515M",
         "Device_Maker": "unknown",
         "Device_Brand_Name": "unknown",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -15619,7 +15655,7 @@
         "Device_Name": "N8",
         "Device_Maker": "Nokia",
         "Device_Brand_Name": "Nokia",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -15703,7 +15739,7 @@
         "Device_Name": "Astound",
         "Device_Maker": "Nokia",
         "Device_Brand_Name": "Nokia",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -17599,7 +17635,7 @@
         "Device_Name": "X650",
         "Device_Maker": "Micromax",
         "Device_Brand_Name": "Micromax",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -17791,7 +17827,7 @@
         "Device_Name": "One Touch MPop",
         "Device_Maker": "Alcatel",
         "Device_Brand_Name": "Alcatel",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -17803,7 +17839,7 @@
         "Device_Name": "One Touch Fire",
         "Device_Maker": "Alcatel",
         "Device_Brand_Name": "Alcatel",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -17815,7 +17851,7 @@
         "Device_Name": "One Touch Fire",
         "Device_Maker": "Alcatel",
         "Device_Brand_Name": "Alcatel",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -17983,7 +18019,7 @@
         "Device_Name": "FP1",
         "Device_Maker": "Fairphone",
         "Device_Brand_Name": "Fairphone",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -18787,7 +18823,7 @@
         "Device_Name": "Dynamic Racing GP",
         "Device_Maker": "NGM",
         "Device_Brand_Name": "NGM",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -19027,7 +19063,7 @@
         "Device_Name": "A390",
         "Device_Maker": "Lenovo",
         "Device_Brand_Name": "Lenovo",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -19039,7 +19075,7 @@
         "Device_Name": "A889",
         "Device_Maker": "Lenovo",
         "Device_Brand_Name": "Lenovo",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -19339,7 +19375,7 @@
         "Device_Name": "I50",
         "Device_Maker": "Malata",
         "Device_Brand_Name": "Malata",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -19903,7 +19939,7 @@
         "Device_Name": "303",
         "Device_Maker": "ultrafone",
         "Device_Brand_Name": "ultrafone",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -20106,7 +20142,7 @@
         "Device_Name": "Z10",
         "Device_Code_Name": "Z10",
         "Device_Maker": "BlackBerry",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "BlackBerry",
         "isMobileDevice": "true",
         "isTablet": "false"
@@ -20898,7 +20934,7 @@
         "Device_Name": "MI 3W",
         "Device_Code_Name": "MI 3W",
         "Device_Maker": "Xiaomi",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Xiaomi",
         "isMobileDevice": "true",
         "isTablet": "false"
@@ -20910,7 +20946,7 @@
         "Device_Name": "Vivo IV",
         "Device_Code_Name": "Vivo IV",
         "Device_Maker": "BLU",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "BLU",
         "isMobileDevice": "true",
         "isTablet": "false"
@@ -22722,7 +22758,7 @@
         "Device_Name": "A15",
         "Device_Code_Name": "A15",
         "Device_Maker": "Videocon",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Videocon",
         "isMobileDevice": "true",
         "isTablet": "false"

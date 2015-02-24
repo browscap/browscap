@@ -63,31 +63,57 @@
           "match": "OneBrowser\/#MAJORVER#.#MINORVER#?Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/*Safari\/*",
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4",
+            "RIMOS"
+          ]
+        },
+        {
+          "match": "OneBrowser\/#MAJORVER#.#MINORVER#?Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/*Safari\/*",
+          "device": "general Mobile Device (Apple)",
+          "platforms": [
             "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
             "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0",
-            "iOS_A",
-            "RIMOS"
+            "iOS_A"
           ]
         },
         {
           "match": "OneBrowser\/#MAJORVER#.#MINORVER#?Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) *Safari\/*",
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4",
+            "RIMOS"
+          ]
+        },
+        {
+          "match": "OneBrowser\/#MAJORVER#.#MINORVER#?Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) *Safari\/*",
+          "device": "general Mobile Device (Apple)",
+          "platforms": [
             "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
             "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0",
-            "iOS_A",
-            "RIMOS"
+            "iOS_A"
           ]
         },
         {
           "match": "OneBrowser\/#MAJORVER#.#MINORVER#*(#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) *Safari\/*",
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android",
-            "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
-            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0",
-            "iOS_A",
             "RIMOS"
           ]
+        },
+        {
+          "match": "OneBrowser\/#MAJORVER#.#MINORVER#*(#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) *Safari\/*",
+          "device": "general Mobile Device (Apple)",
+          "platforms": [
+            "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
+            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0",
+            "iOS_A"
+          ]
+        },
+        {
+          "match": "OneBrowser\/#MAJORVER#.#MINORVER#*(GT-S5233S*",
+          "device": "Samsung GT-S5233S"
+        },
+        {
+          "match": "OneBrowser\/#MAJORVER#.#MINORVER#*(SAMSUNG-GT-S3653*",
+          "device": "Samsung GT-S3653"
         },
         {
           "match": "OneBrowser\/#MAJORVER#.#MINORVER#*"

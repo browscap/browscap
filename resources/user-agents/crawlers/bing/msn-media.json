@@ -39,6 +39,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) MsnBot-Media \/1.0b*",
           "engine": "WebKit",
+          "device": "Windows Desktop",
           "properties": {
             "Version": "1.0b",
             "MajorVer": "1",
@@ -55,6 +56,7 @@
     {
       "userAgent": "MSN-Media for iOS",
       "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "msnbot-media",

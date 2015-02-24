@@ -1186,6 +1186,7 @@
         },
         {
           "match": "python-requests\/2.0* CPython\/#PLATFORM#",
+          "device": "Linux Desktop",
           "properties": {
             "Browser": "Python-urllib",
             "Browser_Maker": "Python Software Foundation",

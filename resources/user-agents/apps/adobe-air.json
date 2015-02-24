@@ -58,7 +58,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) AdobeAIR\/#MAJORVER#.#MINORVER#*",
-          "device": "general Mobile Device",
+          "device": "general Mobile Phone (Touch)",
           "platforms": [
             "AndroidGeneric"
           ]

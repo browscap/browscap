@@ -20,6 +20,7 @@
         },
         {
           "match":      "Mozilla\/* (compatible; HTTrack 3.#PLATFORM#",
+          "device": "Windows Desktop",
           "properties": {
             "Browser":       "HTTrack",
             "Version":       "3.0",

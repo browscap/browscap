@@ -51,7 +51,7 @@
     {
       "userAgent": "Qt #MAJORVER#.#MINORVER# for Meego",
       "engine": "WebKit",
-      "device": "general Mobile Device",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser_Type": "Browser",

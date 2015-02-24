@@ -24,102 +24,102 @@
       },
       "children": [
         {
-          "match": "SAMSUNG-C3050*?Jasmine\/0.8*",
+          "match": "SAMSUNG-C3050*Jasmine\/0.8*",
           "device": "Samsung C3050"
         },
         {
-          "match": "SAMSUNG-GT-3210*?Jasmine\/0.8*",
+          "match": "SAMSUNG-GT-3210*Jasmine\/0.8*",
           "device": "Samsung GT-3210"
         },
         {
-          "match": "SAMSUNG-GT-B3310*?Jasmine\/0.8*",
+          "match": "SAMSUNG-GT-B3310*Jasmine\/0.8*",
           "device": "Samsung GT-B3310"
         },
         {
-          "match": "SAMSUNG-GT-B3410*?Jasmine\/0.8*",
+          "match": "SAMSUNG-GT-B3410*Jasmine\/0.8*",
           "device": "Samsung GT-B3410"
         },
         {
-          "match": "SAMSUNG-GT-B7610*?Jasmine\/0.8*",
+          "match": "SAMSUNG-GT-B7610*Jasmine\/0.8*",
           "device": "Samsung GT-B7610"
         },
         {
-          "match": "SAMSUNG-GT-E2550*?Jasmine\/0.8*",
+          "match": "SAMSUNG-GT-E2550*Jasmine\/0.8*",
           "device": "Samsung GT-E2550"
         },
         {
-          "match": "SAMSUNG-GT-I6410*?Jasmine\/0.8*",
+          "match": "SAMSUNG-GT-I6410*Jasmine\/0.8*",
           "device": "Samsung GT-I6410"
         },
         {
-          "match": "SAMSUNG-GT-I8320*?Jasmine\/0.8*",
+          "match": "SAMSUNG-GT-I8320*Jasmine\/0.8*",
           "device": "Samsung GT-I8320"
         },
         {
-          "match": "SAMSUNG-GT-S3370*?Jasmine\/0.8*",
+          "match": "SAMSUNG-GT-S3370*Jasmine\/0.8*",
           "device": "Samsung GT-S3370"
         },
         {
-          "match": "SAMSUNG-GT-S3650*?Jasmine\/0.8*",
+          "match": "SAMSUNG-GT-S3650*Jasmine\/0.8*",
           "device": "Samsung GT-S3650"
         },
         {
-          "match": "SAMSUNG-GT-S5230*?Jasmine\/0.8*",
+          "match": "SAMSUNG-GT-S5230*Jasmine\/0.8*",
           "device": "Samsung GT-S5230"
         },
         {
-          "match": "SAMSUNG-GT-S5560*?Jasmine\/0.8*",
+          "match": "SAMSUNG-GT-S5560*Jasmine\/0.8*",
           "device": "Samsung GT-S5560"
         },
         {
-          "match": "SAMSUNG-GT-S5600\/S5600CUIG1 SHP\/VPP\/R5 Jasmine\/0.8*",
+          "match": "SAMSUNG-GT-S5600*Jasmine\/0.8*",
           "device": "Samsung GT-S5600"
         },
         {
-          "match": "SAMSUNG-GT-S7550*?Jasmine\/0.8*",
+          "match": "SAMSUNG-GT-S7550*Jasmine\/0.8*",
           "device": "Samsung GT-S7550"
         },
         {
-          "match": "SAMSUNG-GT-i8000*?Jasmine\/0.8*",
+          "match": "SAMSUNG-GT-i8000*Jasmine\/0.8*",
           "device": "Samsung GT-I8000"
         },
         {
-          "match": "SAMSUNG-S8000*?Jasmine\/0.8*",
+          "match": "SAMSUNG-S8000*Jasmine\/0.8*",
           "device": "Samsung GT-S8000"
         },
         {
-          "match": "SAMSUNG-S8300*?Jasmine\/0.8*",
+          "match": "SAMSUNG-S8300*Jasmine\/0.8*",
           "device": "Samsung GT-S8300"
         },
         {
-          "match": "SAMSUNG-SGH-E250*?Jasmine\/0.8*",
+          "match": "SAMSUNG-SGH-E250*Jasmine\/0.8*",
           "device": "Samsung SGH-E250"
         },
         {
-          "match": "SAMSUNG-SGH-F480*?Jasmine\/0.8*",
+          "match": "SAMSUNG-SGH-F480*Jasmine\/0.8*",
           "device": "Samsung SGH-F480"
         },
         {
-          "match": "SAMSUNG-SGH-G800*?Jasmine\/0.8*",
+          "match": "SAMSUNG-SGH-G800*Jasmine\/0.8*",
           "device": "Samsung SGH-G800"
         },
         {
-          "match": "SAMSUNG-SGH-U700*?Jasmine\/0.8*",
+          "match": "SAMSUNG-SGH-U700*Jasmine\/0.8*",
           "device": "Samsung SGH-U700"
         },
         {
-          "match": "SAMSUNG-SGH-U900*?Jasmine\/0.8*",
+          "match": "SAMSUNG-SGH-U900*Jasmine\/0.8*",
           "device": "Samsung SGH-U900"
         },
         {
-          "match": "SAMSUNG-SGH-i900*?Jasmine\/0.8*",
+          "match": "SAMSUNG-SGH-i900*Jasmine\/0.8*",
           "device": "Samsung SGH-I900"
         },
         {
-          "match": "SAMSUNG-GT*Jasmine\/0.8*SMM-MMS\/*\/MIDP*"
+          "match": "SAMSUNG-GT*Jasmine\/0.8*"
         },
         {
-          "match": "Samsung-* Jasmine\/0.8* "
+          "match": "Samsung-* Jasmine\/0.8*"
         }
       ]
     }

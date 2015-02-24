@@ -21,7 +21,7 @@ return [
             'Device_Name' => 'Smart TV',
             'Device_Maker' => 'Various',
             'Device_Type' => 'TV Device',
-            'Device_Pointing_Method' => 'mouse',
+            'Device_Pointing_Method' => 'unknown',
             'Device_Code_Name' => 'Smart TV',
             'Device_Brand_Name' => 'unknown',
             'RenderingEngine_Name' => 'WebKit',
