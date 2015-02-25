@@ -28,13 +28,22 @@
       },
       "children": [
         {
-          "match": "Huawei-U526\/1.0 BREW\/3.1 Browser\/1.0 *"
+          "match": "Huawei-U526\/1.0 BREW\/3.1 Browser\/1.0 *",
+          "platforms": [
+            "Brew"
+          ]
         },
         {
-          "match": "Huawei-U626\/1.0 BREW\/2.1 Browser\/1.0 *"
+          "match": "Huawei-U626\/1.0 BREW\/2.1 Browser\/1.0 *",
+          "platforms": [
+            "Brew"
+          ]
         },
         {
-          "match": "Huawei-U636\/1.0 BREW\/2.1 Browser\/1.0 *"
+          "match": "Huawei-U636\/1.0 BREW\/2.1 Browser\/1.0 *",
+          "platforms": [
+            "Brew"
+          ]
         }
       ]
     }

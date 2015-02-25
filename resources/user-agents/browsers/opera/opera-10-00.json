@@ -175,7 +175,7 @@
           "match": "MicromaxX650 ASTRO36_TD\/* MAUI\/* Release\/* Browser\/Opera *\/MIDP* Opera\/9.80 (*) Presto\/* Version\/#MAJORVER#.#MINORVER#*",
           "device": "Micromax X650",
           "platforms": [
-            "Android"
+            "JAVA"
           ]
         }
       ]

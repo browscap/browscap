@@ -63,6 +63,7 @@
         },
         {
           "match": "Opera\/*(*J2ME\/MIDP*Opera Mini\/#MAJORVER#.*)*",
+          "device": "general Mobile Phone",
           "platforms": [
             "JAVA"
           ]
@@ -76,6 +77,7 @@
         },
         {
           "match": "Opera\/*(*Windows Mobile*Opera Mini\/#MAJORVER#.*)*",
+          "device": "general Mobile Phone",
           "platforms": [
             "WinMobile"
           ]
@@ -94,6 +96,7 @@
         },
         {
           "match": "* Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.*)*",
+          "device": "general Mobile Phone",
           "platforms": [
             "JAVA"
           ]

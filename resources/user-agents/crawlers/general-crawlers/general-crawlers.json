@@ -3624,6 +3624,23 @@
             "Browser": "Screenshot Bot",
             "Browser_Maker": "pr-cy.ru"
           }
+        },
+        {
+          "match": "Mozilla\/* (*Genieo*\/1.0*webfilter*",
+          "properties": {
+            "Browser": "Genieo Web Filter",
+            "Browser_Maker": "Genieo",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/* (*Genieo*\/*webfilter*",
+          "properties": {
+            "Browser": "Genieo Web Filter",
+            "Browser_Maker": "Genieo"
+          }
         }
       ]
     }

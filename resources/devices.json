@@ -367,7 +367,7 @@
         "Device_Name": "NSZ-GS7/GX70",
         "Device_Maker": "Sony",
         "Device_Brand_Name": "Sony",
-        "Device_Pointing_Method": "touchscreen",
+        "Device_Pointing_Method": "unknown",
         "isMobileDevice": "false",
         "isTablet": "false"
       }
@@ -631,7 +631,7 @@
         "Device_Name": "U1",
         "Device_Maker": "SonyEricsson",
         "Device_Brand_Name": "SonyEricsson",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -1968,6 +1968,18 @@
         "isTablet": "false"
       }
     },
+    "Microsoft Surface": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "Surface",
+        "Device_Name": "Surface",
+        "Device_Maker": "Microsoft Corporation",
+        "Device_Brand_Name": "Microsoft",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Tesla Motors Model S": {
       "properties": {
         "Device_Type": "Car Entertainment System",
@@ -2143,7 +2155,7 @@
         "Device_Name": "Galaxy Spica",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -2251,7 +2263,7 @@
         "Device_Name": "GT-I5510",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -2551,7 +2563,7 @@
         "Device_Name": "Galaxy S4",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -2563,7 +2575,7 @@
         "Device_Name": "Galaxy S4",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -2575,7 +2587,7 @@
         "Device_Name": "Galaxy S4",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -2731,7 +2743,7 @@
         "Device_Name": "GT-I8350",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -2767,7 +2779,7 @@
         "Device_Name": "Galaxy Pop Plus",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -2779,7 +2791,7 @@
         "Device_Name": "Galaxy Mini",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -2983,7 +2995,7 @@
         "Device_Name": "Galaxy S Duos",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -3295,7 +3307,7 @@
         "Device_Name": "GT-S5302",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -3415,7 +3427,7 @@
         "Device_Name": "GT-S7262",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -3583,7 +3595,7 @@
         "Device_Name": "GT-E2252",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "touchscreen",
+        "Device_Pointing_Method": "unknown",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -4423,7 +4435,7 @@
         "Device_Name": "SCH-U820",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -11215,7 +11227,7 @@
         "Device_Name": "D805",
         "Device_Maker": "LG",
         "Device_Brand_Name": "LG",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -14599,7 +14611,7 @@
         "Device_Name": "G7300",
         "Device_Maker": "Huawei",
         "Device_Brand_Name": "Huawei",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -17587,7 +17599,7 @@
         "Device_Name": "5130c-2 Xpressmusic",
         "Device_Maker": "Nokia",
         "Device_Brand_Name": "Nokia",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -17599,7 +17611,7 @@
         "Device_Name": "A27",
         "Device_Maker": "Micromax",
         "Device_Brand_Name": "Micromax",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -17611,7 +17623,7 @@
         "Device_Name": "A35",
         "Device_Maker": "Micromax",
         "Device_Brand_Name": "Micromax",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -17623,7 +17635,7 @@
         "Device_Name": "A40",
         "Device_Maker": "Micromax",
         "Device_Brand_Name": "Micromax",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -17659,7 +17671,7 @@
         "Device_Name": "OT-4030D",
         "Device_Maker": "Alcatel",
         "Device_Brand_Name": "Alcatel",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -18043,7 +18055,7 @@
         "Device_Name": "B51+",
         "Device_Maker": "sprd",
         "Device_Brand_Name": "sprd",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -18055,7 +18067,7 @@
         "Device_Name": "G9",
         "Device_Maker": "Mastone",
         "Device_Brand_Name": "Mastone",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -19087,7 +19099,7 @@
         "Device_Name": "A880",
         "Device_Maker": "Lenovo",
         "Device_Brand_Name": "Lenovo",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -19927,7 +19939,7 @@
         "Device_Name": "R813T",
         "Device_Maker": "OPPO",
         "Device_Brand_Name": "OPPO",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -19951,7 +19963,7 @@
         "Device_Name": "AT-AS40SE",
         "Device_Maker": "Wolgang",
         "Device_Brand_Name": "Wolgang",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }

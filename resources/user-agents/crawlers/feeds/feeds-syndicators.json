@@ -453,18 +453,20 @@
           }
         },
         {
-          "match": "Mozilla\/* (*Genieo*\/1.0*)",
+          "match": "Mozilla\/* (*Genieo*\/1.0*",
           "properties": {
             "Browser": "Genieo RSS Reader",
+            "Browser_Maker": "Genieo",
             "Version": "1.0",
             "MajorVer": "1",
             "MinorVer": "0"
           }
         },
         {
-          "match": "Mozilla\/* (*Genieo*\/*)",
+          "match": "Mozilla\/* (*Genieo*\/*",
           "properties": {
-            "Browser": "Genieo RSS Reader"
+            "Browser": "Genieo RSS Reader",
+            "Browser_Maker": "Genieo"
           }
         },
         {

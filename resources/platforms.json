@@ -2412,6 +2412,7 @@
         "Platform": "Brew",
         "Platform_Version": "2.0",
         "Platform_Description": "Qualcomm Brew",
+        "Platform_Maker": "Qualcomm",
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",

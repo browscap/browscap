@@ -76,6 +76,7 @@
         },
         {
           "match": "Opera\/*(*J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "device": "general Mobile Phone",
           "platforms": [
             "JAVA"
           ]
@@ -107,6 +108,7 @@
         },
         {
           "match": "* Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "device": "general Mobile Phone",
           "platforms": [
             "JAVA"
           ]

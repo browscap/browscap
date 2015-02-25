@@ -2732,13 +2732,6 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Sony Tablet P Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*",
-          "device": "Sony Tablet P",
-          "platforms": [
-            "Android_3_2"
-          ]
-        },
-        {
           "match": "Mozilla\/5.0 (#PLATFORM#A101 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Acer A101",
           "platforms": [

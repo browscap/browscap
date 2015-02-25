@@ -104,6 +104,7 @@
         },
         {
           "match": "DavClnt*",
+          "device": "Windows Desktop",
           "properties": {
             "Browser": "Microsoft-WebDAV"
           },

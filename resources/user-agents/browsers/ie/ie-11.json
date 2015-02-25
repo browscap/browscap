@@ -7,7 +7,7 @@
     {
       "userAgent": "IE #MAJORVER#.#MINORVER# for Win RT",
       "engine": "Trident_7",
-      "device": "general Mobile Device",
+      "device": "Microsoft Surface",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "IE #MAJORVER#.#MINORVER#",
