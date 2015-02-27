@@ -154,6 +154,13 @@ class Expander
             $engineData = array();
         }
 
+        if (array_key_exists('device', $uaData)) {
+            $device     = $this->getDataCollection()->getDevice($uaData['device']);
+            $deviceData = $device->getProperties();
+        } else {
+            $deviceData = array();
+        }
+
         $ua = $uaData['userAgent'];
 
         $output = array(
@@ -165,6 +172,7 @@ class Expander
                 ),
                 $platformData,
                 $engineData,
+                $deviceData,
                 $uaProperties
             )
         );
@@ -241,9 +249,17 @@ class Expander
                     $engineData = array();
                 }
 
+                if (array_key_exists('device', $uaDataChild)) {
+                    $device     = $this->getDataCollection()->getDevice($uaDataChild['device']);
+                    $deviceData = $device->getProperties();
+                } else {
+                    $deviceData = array();
+                }
+
                 $properties = array_merge(
                     ['Parent' => $ua],
                     $engineData,
+                    $deviceData,
                     $platformData->getProperties()
                 );
 
@@ -267,7 +283,14 @@ class Expander
                 $engineData = array();
             }
 
-            $properties = array_merge($properties, $engineData);
+            if (array_key_exists('device', $uaDataChild)) {
+                $device     = $this->getDataCollection()->getDevice($uaDataChild['device']);
+                $deviceData = $device->getProperties();
+            } else {
+                $deviceData = array();
+            }
+
+            $properties = array_merge($properties, $engineData, $deviceData);
 
             if (isset($uaDataChild['properties'])
                 && is_array($uaDataChild['properties'])

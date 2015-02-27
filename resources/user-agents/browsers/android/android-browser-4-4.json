@@ -8,6 +8,7 @@
       "userAgent": "Android Browser #MAJORVER#.#MINORVER#",
       "platform": "Android",
       "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Android Browser #MAJORVER#.#MINORVER#",
@@ -22,32 +23,19 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "isMobileDevice": "true",
-        "isTablet": "false",
-        "CssVersion": "3",
-        "Device_Name": "general Mobile Device",
-        "Device_Type": "Mobile Phone",
-        "Device_Pointing_Method": "touchscreen"
+        "CssVersion": "3"
       },
       "children": [
         {
           "match": "IVO\/1.0 Android\/#MAJORVER#.#MINORVER#* Release\/* Browser\/AppleWebKit*",
-          "properties": {
-            "Device_Code_Name": "IVO",
-            "Device_Name": "IVO"
-          },
+          "device": "unknown IVO",
           "platforms": [
             "Android_4_4"
           ]
         },
         {
           "match": "Mozilla\/5.0(#PLATFORM#Lenovo A536 Build\/*)AppleWebKit\/* (KHTML, like Gecko) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "A536",
-            "Device_Maker": "Lenovo",
-            "Device_Brand_Name": "Lenovo",
-            "Device_Name": "A536"
-          },
+          "device": "Lenovo A536",
           "platforms": [
             "Android_4_4"
           ]

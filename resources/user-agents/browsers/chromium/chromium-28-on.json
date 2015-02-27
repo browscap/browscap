@@ -8,6 +8,7 @@
       "userAgent": "Chromium #MAJORVER#.#MINORVER#",
       "platform": "Linux",
       "engine": "Blink",
+      "device": "Linux Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Chromium #MAJORVER#.#MINORVER#",
@@ -23,23 +24,12 @@
         "Cookies": "true",
         "JavaScript": "true",
         "JavaApplets": "true",
-        "CssVersion": "3",
-        "isMobileDevice": "false",
-        "isTablet": "false",
-        "Device_Name": "PC",
-        "Device_Code_Name": "unknown",
-        "Device_Maker": "Various",
-        "Device_Type": "Desktop",
-        "Device_Pointing_Method": "mouse"
+        "CssVersion": "3"
       },
       "children": [
         {
           "match": "Mozilla\/5.0 (SMART-TV; X11; Linux armv7l) AppleWebkit\/* (KHTML, like Gecko) Chromium\/#MAJORVER#.*Chrome\/*Safari\/*",
-          "properties": {
-            "Device_Type": "TV Device",
-            "Device_Code_Name": "Smart TV",
-            "Device_Name": "Smart TV"
-          },
+          "device": "Smart-TV",
           "platforms": [
             "Linux"
           ]
@@ -54,6 +44,18 @@
           "match": "Mozilla\/5.0 (*Linux x86_64*) AppleWebKit\/* (KHTML, like Gecko)#PLATFORM#Chromium\/#MAJORVER#.*Chrome\/*Safari\/*",
           "platforms": [
             "Ubuntu_12_04_64", "Ubuntu"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (*Linux i686*) AppleWebKit\/* (KHTML, like Gecko) Ubuntu Chromium\/#MAJORVER#.*Chrome\/*Safari\/*",
+          "platforms": [
+            "Ubuntu_32"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (*Linux x86_64*) AppleWebKit\/* (KHTML, like Gecko) Ubuntu Chromium\/#MAJORVER#.*Chrome\/*Safari\/*",
+          "platforms": [
+            "Ubuntu_64"
           ]
         },
         {

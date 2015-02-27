@@ -8,6 +8,7 @@
       "userAgent": "Nokia Proxy Browser #MAJORVER#.#MINORVER#",
       "platform": "SymbianOS",
       "engine": "Gecko",
+      "device": "general Mobile Phone (Nokia)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Nokia Proxy Browser #MAJORVER#.#MINORVER#",
@@ -22,175 +23,80 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "Win32": "false",
-        "isMobileDevice": "true",
-        "isTablet": "false",
-        "Device_Name": "Nokia",
-        "Device_Maker": "Nokia",
-        "Device_Type": "Mobile Phone"
+        "Win32": "false"
       },
       "children": [
         {
           "match": "Mozilla\/5.0 (Series40; Nokia109*) Gecko\/* S40OviBrowser\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "109",
-            "Device_Name": "109"
-          }
+          "device": "Nokia 109"
         },
         {
           "match": "Mozilla\/5.0 (Series40; Nokia110*) Gecko\/* S40OviBrowser\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "110",
-            "Device_Name": "110"
-          }
+          "device": "Nokia 110"
         },
         {
           "match": "Mozilla\/5.0 (Series40; Nokia112*) Gecko\/* S40OviBrowser\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "112",
-            "Device_Name": "112"
-          }
+          "device": "Nokia 112"
         },
         {
           "match": "Mozilla\/5.0 (Series40; Nokia113*) Gecko\/* S40OviBrowser\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "113",
-            "Device_Name": "113"
-          }
+          "device": "Nokia 113"
         },
         {
           "match": "Mozilla\/5.0 (Series40; Nokia200*) Gecko\/* S40OviBrowser\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "200",
-            "Device_Name": "200"
-          }
+          "device": "Nokia 200"
         },
         {
           "match": "Mozilla\/5.0 (Series40; Nokia201*) Gecko\/* S40OviBrowser\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "201",
-            "Device_Name": "201"
-          }
+          "device": "Nokia 201"
         },
         {
           "match": "Mozilla\/5.0 (Series40; Nokia203*) Gecko\/* S40OviBrowser\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "203",
-            "Device_Name": "203"
-          }
+          "device": "Nokia 203"
         },
         {
           "match": "Mozilla\/5.0 (Series30*; Nokia220*) Gecko\/* S40OviBrowser\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "220",
-            "Device_Name": "220"
-          }
+          "device": "Nokia 220"
         },
         {
           "match": "Mozilla\/5.0 (Series40; Nokia220*) Gecko\/* S40OviBrowser\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "220",
-            "Device_Name": "220"
-          }
+          "device": "Nokia 220"
         },
         {
           "match": "Mozilla\/5.0 (Series40; Nokia300*) Gecko\/* S40OviBrowser\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "300",
-            "Device_Name": "300"
-          }
+          "device": "Nokia 300"
         },
         {
           "match": "Mozilla\/5.0 (Series40; Nokia305*) Gecko\/* S40OviBrowser\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "305",
-            "Device_Name": "305"
-          }
+          "device": "Nokia 305"
         },
         {
           "match": "Mozilla\/5.0 (Series40; Nokia306*) Gecko\/* S40OviBrowser\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "306",
-            "Device_Name": "306"
-          }
+          "device": "Nokia 306"
         },
         {
           "match": "Mozilla\/5.0 (Series40; Nokia6300*) Gecko\/* S40OviBrowser\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "6300",
-            "Device_Name": "6300"
-          }
+          "device": "Nokia 6300"
         },
         {
           "match": "Mozilla\/5.0 (Series40; NokiaC2-05*) Gecko\/* S40OviBrowser\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "C2-05",
-            "Device_Name": "C2"
-          }
+          "device": "Nokia C2-05"
         },
         {
           "match": "Mozilla\/5.0 (Series40; NokiaC2-06*) Gecko\/* S40OviBrowser\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "C2-06",
-            "Device_Name": "C2"
-          }
+          "device": "Nokia C2-06"
         },
         {
           "match": "Mozilla\/5.0 (Series40; NokiaC2-01*) Gecko\/* S40OviBrowser\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "C2-01",
-            "Device_Name": "C2"
-          }
+          "device": "Nokia C2-01"
         },
         {
           "match": "Mozilla\/5.0 (Series40; NokiaC2-03*) Gecko\/* S40OviBrowser\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "C2-03",
-            "Device_Name": "C2"
-          }
+          "device": "Nokia C2-03"
         },
         {
           "match": "Mozilla\/5.0 (Series40; Nokia501\/*) Gecko\/* S40OviBrowser\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "501",
-            "Device_Name": "501"
-          }
+          "device": "Nokia 501"
         },
         {
           "match": "Mozilla\/5.0 (Series30*) Gecko\/* S40OviBrowser\/#MAJORVER#.#MINORVER#*"

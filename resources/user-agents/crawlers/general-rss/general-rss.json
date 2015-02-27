@@ -95,6 +95,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Shrook\/*",
           "engine": "WebKit",
+          "device": "Macintosh",
           "properties": {
             "Browser": "Shrook",
             "Browser_Maker": "Utsire Software"

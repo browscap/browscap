@@ -5,6 +5,7 @@
   "userAgents": [
     {
       "userAgent": "Openwave Mobile Browser 5.1",
+      "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Openwave Mobile Browser",
@@ -15,9 +16,6 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "isMobileDevice": "true",
-        "isTablet": "false",
-        "Device_Type": "Mobile Phone",
         "Version": "5.1",
         "MajorVer": "5",
         "MinorVer": "1"
@@ -30,7 +28,8 @@
           "match": "Haier-P7 UP.Link\/5.1*"
         },
         {
-          "match": "NEC-N600\/1.0 HopenOS\/2.0 UP.Link\/5.1*"
+          "match": "NEC-N600\/1.0 HopenOS\/2.0 UP.Link\/5.1*",
+          "device": "NEC N600"
         }
       ]
     }

@@ -8,6 +8,7 @@
       "userAgent": "Silk #MAJORVER#.#MINORVER#",
       "platform": "Android",
       "engine": "WebKit",
+      "device": "Amazon Kindle",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Silk #MAJORVER#.#MINORVER#",
@@ -21,27 +22,15 @@
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
-        "isMobileDevice": "true",
-        "CssVersion": "2",
-        "Device_Name": "Kindle",
-        "Device_Maker": "Amazon.com, Inc.",
-        "Device_Type": "Ebook Reader",
-        "Device_Pointing_Method": "touchscreen"
+        "CssVersion": "2"
       },
       "children": [
         {
           "match": "Mozilla\/5.0 (Linux; U; *; KFOT Build\/*) AppleWebKit\/* (KHTML, like Gecko) Silk\/#MAJORVER#.#MINORVER#* Safari*",
           "properties": {
-            "Browser_Modus": "Desktop Mode",
-            "Device_Name": "Kindle Fire 7",
-            "Device_Maker": "Amazon.com, Inc.",
-            "Device_Type": "Tablet",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true",
-            "Device_Code_Name": "KFOT",
-            "Device_Brand_Name": "Amazon"
+            "Browser_Modus": "Desktop Mode"
           },
+          "device": "Amazon KFOT",
           "platforms": [
             "Android_4_0"
           ]
@@ -49,16 +38,9 @@
         {
           "match": "Mozilla\/5.0 (Linux; U; *; KFTT Build\/*) AppleWebKit\/* (KHTML, like Gecko) Silk\/#MAJORVER#.#MINORVER#* Safari*",
           "properties": {
-            "Browser_Modus": "Desktop Mode",
-            "Device_Name": "Kindle Fire HD 7",
-            "Device_Maker": "Amazon.com, Inc.",
-            "Device_Type": "Tablet",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true",
-            "Device_Code_Name": "KFTT",
-            "Device_Brand_Name": "Amazon"
+            "Browser_Modus": "Desktop Mode"
           },
+          "device": "Amazon KFTT",
           "platforms": [
             "Android_4_0"
           ]
@@ -66,31 +48,14 @@
         {
           "match": "Mozilla\/5.0 (PlayStation Vita*) AppleWebKit\/* (KHTML, like Gecko) Silk\/#MAJORVER#.#MINORVER#*",
           "engine": "WebKit",
-          "properties": {
-            "Device_Pointing_Method": "unknown",
-            "isMobileDevice": "true",
-            "Device_Code_Name": "PlayStation Vita",
-            "Device_Name": "PS Vita",
-            "Device_Maker": "Sony",
-            "Device_Brand_Name": "Sony",
-            "Device_Type": "Console"
-          },
+          "device": "Sony PS Vita",
           "platforms": [
             "Android_4_0", "Android"
           ]
         },
         {
           "match": "Mozilla\/5.0 (Linux; U; *; KFOT Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* Safari*",
-          "properties": {
-            "Device_Name": "Kindle Fire 7",
-            "Device_Maker": "Amazon.com, Inc.",
-            "Device_Type": "Tablet",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true",
-            "Device_Code_Name": "KFOT",
-            "Device_Brand_Name": "Amazon"
-          },
+          "device": "Amazon KFOT",
           "platforms": [
             "Android_4_0"
           ]
@@ -98,16 +63,9 @@
         {
           "match": "Mozilla\/5.0 (Linux; U; *; KFTT Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* Safari*",
           "properties": {
-            "Browser_Modus": "Desktop Mode",
-            "Device_Name": "Kindle Fire HD 7",
-            "Device_Maker": "Amazon.com, Inc.",
-            "Device_Type": "Tablet",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true",
-            "Device_Code_Name": "KFTT",
-            "Device_Brand_Name": "Amazon"
+            "Browser_Modus": "Desktop Mode"
           },
+          "device": "Amazon KFTT",
           "platforms": [
             "Android_4_0"
           ]

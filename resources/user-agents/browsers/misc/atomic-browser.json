@@ -8,18 +8,15 @@
       "userAgent": "Atomic Browser #MAJORVER#.#MINORVER#",
       "platform": "Darwin",
       "engine": "WebKit",
+      "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Atomic Browser #MAJORVER#.#MINORVER#",
         "Browser": "Atomic Browser",
+        "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Macintosh",
-        "Device_Maker": "Apple Inc",
-        "Device_Brand_Name": "Apple",
-        "Device_Name": "Macintosh"
+        "MinorVer": "#MINORVER#"
       },
       "children": [
         {

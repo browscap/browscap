@@ -6,6 +6,7 @@
     {
       "userAgent": "Blazer",
       "platform": "PalmOS",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Handspring Blazer",
@@ -13,13 +14,7 @@
         "Frames": "true",
         "Tables": "true",
         "Cookies": "true",
-        "JavaScript": "true",
-        "isMobileDevice": "false",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Windows Desktop",
-        "Device_Name": "Windows Desktop",
-        "Device_Maker": "Various",
-        "Device_Pointing_Method": "mouse"
+        "JavaScript": "true"
       },
       "children": [
         {

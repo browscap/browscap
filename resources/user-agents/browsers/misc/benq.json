@@ -6,12 +6,11 @@
     {
       "userAgent": "BenQ",
       "platform": "JAVA",
+      "device": "general Mobile Device",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "BenQ",
-        "Browser": "BenQ",
-        "isMobileDevice": "true",
-        "Device_Type": "Mobile Device"
+        "Browser": "BenQ"
       },
       "children": [
         {

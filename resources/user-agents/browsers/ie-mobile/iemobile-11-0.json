@@ -8,6 +8,7 @@
       "userAgent": "IEMobile #MAJORVER#.#MINORVER#",
       "platform": "WinPhone8.1",
       "engine": "Trident_7",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "IEMobile",
@@ -17,10 +18,7 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "isMobileDevice": "true",
-        "isTablet": "false",
         "CssVersion": "3",
-        "Device_Type": "Mobile Phone",
         "Browser_Type": "Browser",
         "Browser_Maker": "Microsoft Corporation",
         "Version": "#MAJORVER#.#MINORVER#",
@@ -34,140 +32,82 @@
         "BackgroundSounds": "false",
         "JavaApplets": "false",
         "isSyndicationReader": "false",
-        "Crawler": "false",
-        "Device_Code_Name": "general Mobile Device",
-        "Device_Name": "general Mobile Device",
-        "Device_Pointing_Method": "touchscreen"
+        "Crawler": "false"
       },
       "children": [
         {
           "match": "Mozilla\/*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#.#MINORVER#*; IEMobile\/#MAJORVER#.#MINORVER#; NOKIA; Lumia 635*",
-          "properties": {
-            "Device_Code_Name": "Lumia 635",
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Name": "Lumia 635"
-          },
+          "device": "Nokia Lumia 635",
           "platforms": [
             "WinPhone8.1"
           ]
         },
         {
           "match": "Mozilla\/*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#.#MINORVER#*; IEMobile\/#MAJORVER#.#MINORVER#; NOKIA; Lumia 930*",
-          "properties": {
-            "Device_Code_Name": "Lumia 930",
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Name": "Lumia 930"
-          },
+          "device": "Nokia Lumia 930",
           "platforms": [
             "WinPhone8.1"
           ]
         },
         {
           "match": "Mozilla\/*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#.#MINORVER#*; IEMobile\/#MAJORVER#.#MINORVER#; NOKIA; Lumia 520*",
-          "properties": {
-            "Device_Code_Name": "Lumia 520",
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Name": "Lumia 520"
-          },
+          "device": "Nokia Lumia 520",
           "platforms": [
             "WinPhone8.1"
           ]
         },
         {
           "match": "Mozilla\/*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#.#MINORVER#*; IEMobile\/#MAJORVER#.#MINORVER#; NOKIA; Lumia 630*",
-          "properties": {
-            "Device_Code_Name": "Lumia 630",
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Name": "Lumia 630"
-          },
+          "device": "Nokia Lumia 630",
           "platforms": [
             "WinPhone8.1"
           ]
         },
         {
           "match": "Mozilla\/*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#.#MINORVER#*; IEMobile\/#MAJORVER#.#MINORVER#; NOKIA; Lumia 925*",
-          "properties": {
-            "Device_Code_Name": "Lumia 925",
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Name": "Lumia 925"
-          },
+          "device": "Nokia Lumia 925",
           "platforms": [
             "WinPhone8.1"
           ]
         },
         {
           "match": "Mozilla\/*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#.#MINORVER#*; IEMobile\/#MAJORVER#.#MINORVER#; NOKIA; Lumia 920*",
-          "properties": {
-            "Device_Code_Name": "Lumia 920",
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Name": "Lumia 920"
-          },
+          "device": "Nokia Lumia 920",
           "platforms": [
             "WinPhone8.1"
           ]
         },
         {
           "match": "Mozilla\/*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#*IEMobile\/#MAJORVER#.#MINORVER#; NOKIA; Lumia 928*",
-          "properties": {
-            "Device_Code_Name": "Lumia 928",
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Name": "Lumia 928"
-          },
+          "device": "Nokia Lumia 928",
           "platforms": [
             "WinPhone8.1"
           ]
         },
         {
           "match": "Mozilla\/*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#*IEMobile\/#MAJORVER#.#MINORVER#; NOKIA; Lumia 625*",
-          "properties": {
-            "Device_Code_Name": "Lumia 625",
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Name": "Lumia 625"
-          },
+          "device": "Nokia Lumia 625",
           "platforms": [
             "WinPhone8.1"
           ]
         },
         {
           "match": "Mozilla\/*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#*IEMobile\/#MAJORVER#.#MINORVER#; NOKIA; 909*",
-          "properties": {
-            "Device_Code_Name": "Lumia 1020",
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Name": "Lumia 1020"
-          },
+          "device": "Nokia Lumia 1020",
           "platforms": [
             "WinPhone8.1"
           ]
         },
         {
           "match": "Mozilla\/*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#*IEMobile\/#MAJORVER#.#MINORVER#; NOKIA; Lumia 820*",
-          "properties": {
-            "Device_Code_Name": "Lumia 820",
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Name": "Lumia 820"
-          },
+          "device": "Nokia Lumia 820",
           "platforms": [
             "WinPhone8.1"
           ]
         },
         {
           "match": "Mozilla\/*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#*IEMobile\/#MAJORVER#.#MINORVER#; NOKIA; Lumia 620*",
-          "properties": {
-            "Device_Code_Name": "Lumia 620",
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Name": "Lumia 620"
-          },
+          "device": "Nokia Lumia 620",
           "platforms": [
             "WinPhone8.1"
           ]
@@ -175,12 +115,9 @@
         {
           "match": "Mozilla\/5.0 (Windows NT 6.2; ARM; Trident\/7.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; NOKIA; Lumia 625*",
           "properties": {
-            "Browser_Modus": "Desktop Mode",
-            "Device_Code_Name": "Lumia 625",
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Name": "Lumia 625"
+            "Browser_Modus": "Desktop Mode"
           },
+          "device": "Nokia Lumia 625",
           "platforms": [
             "WinPhone8.1"
           ]
@@ -188,12 +125,9 @@
         {
           "match": "Mozilla\/5.0 (Windows NT 6.2; ARM; Trident\/7.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; NOKIA; Lumia 1320*",
           "properties": {
-            "Browser_Modus": "Desktop Mode",
-            "Device_Code_Name": "Lumia 1320",
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Name": "Lumia 1320"
+            "Browser_Modus": "Desktop Mode"
           },
+          "device": "Nokia Lumia 1320",
           "platforms": [
             "WinPhone8.1"
           ]
@@ -201,12 +135,9 @@
         {
           "match": "Mozilla\/5.0 (Windows NT 6.2; ARM; Trident\/7.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; NOKIA; Lumia 820*",
           "properties": {
-            "Browser_Modus": "Desktop Mode",
-            "Device_Code_Name": "Lumia 820",
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Name": "Lumia 820"
+            "Browser_Modus": "Desktop Mode"
           },
+          "device": "Nokia Lumia 820",
           "platforms": [
             "WinPhone8.1"
           ]
@@ -214,12 +145,9 @@
         {
           "match": "Mozilla\/5.0 (Windows NT 6.2; ARM; Trident\/7.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; NOKIA; Lumia 920*",
           "properties": {
-            "Browser_Modus": "Desktop Mode",
-            "Device_Code_Name": "Lumia 920",
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Name": "Lumia 920"
+            "Browser_Modus": "Desktop Mode"
           },
+          "device": "Nokia Lumia 920",
           "platforms": [
             "WinPhone8.1"
           ]
@@ -227,12 +155,9 @@
         {
           "match": "Mozilla\/5.0 (Windows NT 6.2; ARM; Trident\/7.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; NOKIA; Lumia 630*",
           "properties": {
-            "Browser_Modus": "Desktop Mode",
-            "Device_Code_Name": "Lumia 630",
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Name": "Lumia 630"
+            "Browser_Modus": "Desktop Mode"
           },
+          "device": "Nokia Lumia 630",
           "platforms": [
             "WinPhone8.1"
           ]
@@ -240,12 +165,9 @@
         {
           "match": "Mozilla\/5.0 (Windows NT 6.2; ARM; Trident\/7.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; NOKIA; Lumia 520*",
           "properties": {
-            "Browser_Modus": "Desktop Mode",
-            "Device_Code_Name": "Lumia 520",
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Name": "Lumia 520"
+            "Browser_Modus": "Desktop Mode"
           },
+          "device": "Nokia Lumia 520",
           "platforms": [
             "WinPhone8.1"
           ]
@@ -253,12 +175,9 @@
         {
           "match": "Mozilla\/5.0 (Windows NT 6.2; ARM; Trident\/7.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; NOKIA; Lumia 1520*",
           "properties": {
-            "Browser_Modus": "Desktop Mode",
-            "Device_Code_Name": "Lumia 1520",
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Name": "Lumia 1520"
+            "Browser_Modus": "Desktop Mode"
           },
+          "device": "Nokia Lumia 1520",
           "platforms": [
             "WinPhone8.1"
           ]
@@ -266,12 +185,9 @@
         {
           "match": "Mozilla\/5.0 (Windows NT 6.2; ARM; Trident\/7.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; NOKIA; Lumia 925*",
           "properties": {
-            "Browser_Modus": "Desktop Mode",
-            "Device_Code_Name": "Lumia 925",
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Name": "Lumia 925"
+            "Browser_Modus": "Desktop Mode"
           },
+          "device": "Nokia Lumia 925",
           "platforms": [
             "WinPhone8.1"
           ]
@@ -279,12 +195,9 @@
         {
           "match": "Mozilla\/5.0 (Windows NT 6.2; ARM; Trident\/7.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; NOKIA; Lumia 635*",
           "properties": {
-            "Browser_Modus": "Desktop Mode",
-            "Device_Code_Name": "Lumia 635",
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Name": "Lumia 635"
+            "Browser_Modus": "Desktop Mode"
           },
+          "device": "Nokia Lumia 635",
           "platforms": [
             "WinPhone8.1"
           ]
@@ -292,12 +205,9 @@
         {
           "match": "Mozilla\/5.0 (Windows NT 6.2; ARM; Trident\/7.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; NOKIA; 909*",
           "properties": {
-            "Browser_Modus": "Desktop Mode",
-            "Device_Code_Name": "Lumia 1020",
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Name": "Lumia 1020"
+            "Browser_Modus": "Desktop Mode"
           },
+          "device": "Nokia Lumia 1020",
           "platforms": [
             "WinPhone8.1"
           ]
@@ -305,12 +215,9 @@
         {
           "match": "Mozilla\/5.0 (Windows NT 6.2; ARM; Trident\/7.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; NOKIA; Lumia 720*",
           "properties": {
-            "Browser_Modus": "Desktop Mode",
-            "Device_Code_Name": "Lumia 720",
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Name": "Lumia 720"
+            "Browser_Modus": "Desktop Mode"
           },
+          "device": "Nokia Lumia 720",
           "platforms": [
             "WinPhone8.1"
           ]

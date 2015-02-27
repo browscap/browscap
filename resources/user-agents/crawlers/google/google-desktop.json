@@ -6,6 +6,7 @@
     {
       "userAgent": "Google Desktop",
       "engine": "WebKit",
+      "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Google Desktop",
@@ -23,10 +24,8 @@
         "VBScript": "false",
         "JavaApplets": "false",
         "ActiveXControls": "false",
-        "isMobileDevice": "false",
         "isSyndicationReader": "false",
-        "Crawler": "false",
-        "Device_Type": "Desktop"
+        "Crawler": "false"
       },
       "children": [
         {

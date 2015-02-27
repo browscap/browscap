@@ -7,6 +7,8 @@
     {
       "userAgent": "iCab #MAJORVER#.#MINORVER#",
       "engine": "WebKit",
+      "device": "Macintosh",
+      "platform": "OSX",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "iCab #MAJORVER#.#MINORVER#",
@@ -18,11 +20,7 @@
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
-        "JavaScript": "true",
-        "Device_Name": "PC",
-        "Device_Maker": "Various",
-        "Device_Type": "Desktop",
-        "Device_Pointing_Method": "mouse"
+        "JavaScript": "true"
       },
       "children": [
         {

@@ -7,6 +7,7 @@
       "userAgent": "luakit",
       "platform": "Linux",
       "engine": "WebKit",
+      "device": "Linux Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "luakit",
@@ -28,12 +29,7 @@
         "JavaApplets": "false",
         "ActiveXControls": "false",
         "isSyndicationReader": "false",
-        "Crawler": "false",
-        "isMobileDevice": "false",
-        "isTablet": "false",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Linux Desktop",
-        "Device_Name": "Linux Desktop"
+        "Crawler": "false"
       },
       "children": [
         {

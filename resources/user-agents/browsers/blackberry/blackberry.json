@@ -6,6 +6,7 @@
     {
       "userAgent": "BlackBerry",
       "platform": "RIMOS",
+      "device": "general Mobile Phone (old Blackberry)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "BlackBerry",
@@ -16,14 +17,7 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "isMobileDevice": "true",
-        "isTablet": "false",
-        "CssVersion": "2",
-        "Device_Name": "Blackberry",
-        "Device_Maker": "Research In Motion Limited",
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "Blackberry",
-        "Device_Brand_Name": "RIM"
+        "CssVersion": "2"
       },
       "children": [
         {
@@ -34,34 +28,14 @@
         },
         {
           "match": "*PlayBook*RIM Tablet OS 1.0.*",
-          "properties": {
-            "isMobileDevice": "true",
-            "Device_Maker": "Research In Motion Limited",
-            "Device_Type": "Tablet",
-            "Device_Brand_Name": "RIM",
-            "Browser": "Blackberry Playbook Tablet",
-            "Device_Code_Name": "PlayBook",
-            "Device_Name": "PlayBook",
-            "Device_Pointing_Method": "touchscreen",
-            "isTablet": "true"
-          },
+          "device": "Blackberry PlayBook",
           "platforms": [
             "RIM_Tablet_OS_1"
           ]
         },
         {
           "match": "*PlayBook*RIM Tablet OS 2.1.*",
-          "properties": {
-            "isMobileDevice": "true",
-            "Device_Maker": "Research In Motion Limited",
-            "Device_Type": "Tablet",
-            "Device_Brand_Name": "RIM",
-            "Browser": "Blackberry Playbook Tablet",
-            "Device_Code_Name": "PlayBook",
-            "Device_Name": "PlayBook",
-            "Device_Pointing_Method": "touchscreen",
-            "isTablet": "true"
-          },
+          "device": "Blackberry PlayBook",
           "platforms": [
             "RIM_Tablet_OS_2_1"
           ]

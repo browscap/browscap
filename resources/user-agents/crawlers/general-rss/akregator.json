@@ -8,6 +8,7 @@
       "userAgent": "akregator #MAJORVER#.#MINORVER#",
       "engine": "KHTML_Dynamic",
       "platform": "Linux",
+      "device": "Linux Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "akregator #MAJORVER#.#MINORVER#",

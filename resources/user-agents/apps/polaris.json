@@ -5,6 +5,7 @@
   "userAgents": [
     {
       "userAgent": "Polaris",
+      "device": "general Mobile Device",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Polaris",
@@ -15,10 +16,7 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "isMobileDevice": "true",
-        "isTablet": "false",
-        "CssVersion": "2",
-        "Device_Type": "Mobile Device"
+        "CssVersion": "2"
       },
       "children": [
         {
@@ -74,14 +72,9 @@
           "properties": {
             "Version": "6.2",
             "MajorVer": "6",
-            "MinorVer": "2",
-            "Device_Name": "SCH-U820",
-            "Device_Maker": "Samsung",
-            "Device_Code_Name": "SCH-U820",
-            "Device_Brand_Name": "Samsung",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen"
+            "MinorVer": "2"
           },
+          "device": "Samsung SCH-U820",
           "platforms": [
             "Brew_3_1"
           ]
@@ -91,12 +84,9 @@
           "properties": {
             "Version": "6.2",
             "MajorVer": "6",
-            "MinorVer": "2",
-            "Device_Name": "VX8575",
-            "Device_Maker": "LG",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen"
+            "MinorVer": "2"
           },
+          "device": "LG VX8575",
           "platforms": [
             "Brew_3_1"
           ]
@@ -115,16 +105,11 @@
         {
           "match": "UTSTARCOM-GTX75\/* POLARIS\/6.00 Profile\/MIDP-2.0 Configuration\/CLDC-1.1 UNTRUSTED\/1.0",
           "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
-            "Device_Name": "Quickfire",
-            "Device_Maker": "UTStarcom",
-            "Device_Code_Name": "GTX75",
-            "Device_Brand_Name": "AT&T",
             "Version": "6.0",
             "MajorVer": "6",
             "MinorVer": "0"
-          }
+          },
+          "device": "UTStarcom GTX75"
         },
         {
           "match": "* POLARIS\/6.00 Profile\/MIDP-2.0 Configuration\/CLDC-1.1 UNTRUSTED\/1.0",

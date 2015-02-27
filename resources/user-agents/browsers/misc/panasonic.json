@@ -6,6 +6,7 @@
     {
       "userAgent": "Panasonic",
       "platform": "JAVA",
+      "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Panasonic",
@@ -23,12 +24,7 @@
         "ActiveXControls": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
-        "CssVersion": "2",
-        "isMobileDevice": "true",
-        "isTablet": "false",
-        "Device_Type": "Mobile Device",
-        "Device_Code_Name": "general Mobile Device",
-        "Device_Name": "general Mobile Device"
+        "CssVersion": "2"
       },
       "children": [
         {

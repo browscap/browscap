@@ -6,6 +6,7 @@
     {
       "userAgent": "Bolt",
       "engine": "WebKit",
+      "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Bolt",
@@ -16,19 +17,14 @@
         "Cookies": "true",
         "JavaScript": "true",
         "JavaApplets": "true",
-        "isMobileDevice": "true",
-        "CssVersion": "3",
-        "Device_Type": "Mobile Device",
-        "Device_Code_Name": "general Mobile Device",
-        "Device_Name": "general Mobile Device"
+        "CssVersion": "3"
       },
       "children": [
         {
           "match": "Mozilla\/5.0 (X11; 78; CentOS; US-en) AppleWebKit\/* (KHTML,*like Gecko*) Bolt\/0.862 Version\/3.0 Safari\/*",
           "properties": {
             "Version": "0.862",
-            "MinorVer": "862",
-            "Device_Type": "Mobile Phone"
+            "MinorVer": "862"
           },
           "platforms": [
             "Maemo"

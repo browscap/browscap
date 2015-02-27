@@ -39,6 +39,11 @@ class DataCollection
     private $engines = array();
 
     /**
+     * @var \Browscap\Data\Device[]
+     */
+    private $devices = array();
+
+    /**
      * @var \Browscap\Data\Division[]
      */
     private $divisions = array();
@@ -139,7 +144,7 @@ class DataCollection
                 throw new \UnexpectedValueException('required attibute "properties" is missing');
             }
 
-            $this->platforms[$platformName] = $platformFactory->build($platformData, $json, $platformName);
+            $this->platforms[$platformName] = $platformFactory->build($platformData, $json, $platformName, $this);
         }
 
         $this->divisionsHaveBeenSorted = false;
@@ -173,6 +178,32 @@ class DataCollection
             }
 
             $this->engines[$engineName] = $engineFactory->build($engineData, $json, $engineName);
+        }
+
+        $this->divisionsHaveBeenSorted = false;
+
+        return $this;
+    }
+
+    /**
+     * Load a devices.json file and parse it into the platforms data array
+     *
+     * @param string $src Name of the file
+     *
+     * @return \Browscap\Data\DataCollection
+     * @throws \RuntimeException if the file does not exist or has invalid JSON
+     */
+    public function addDevicesFile($src)
+    {
+        $json          = $this->loadFile($src);
+        $deviceFactory = new Factory\DeviceFactory();
+
+        foreach ($json['devices'] as $deviceName => $deviceData) {
+            if (!isset($deviceData['properties']) && !isset($deviceData['inherits'])) {
+                throw new \UnexpectedValueException('required attibute "properties" is missing');
+            }
+
+            $this->devices[$deviceName] = $deviceFactory->build($deviceData, $json, $deviceName);
         }
 
         $this->divisionsHaveBeenSorted = false;
@@ -264,6 +295,12 @@ class DataCollection
                     . '", please use the "engine" keyword'
                 );
 
+                $this->checkDeviceData(
+                    $useragent['properties'],
+                    'the properties array contains device data for key "' . $useragent['userAgent']
+                    . '", please use the "device" keyword'
+                );
+
                 $this->allDivision[] = $useragent['userAgent'];
 
                 if (isset($useragent['children']) && is_array($useragent['children'])) {
@@ -285,7 +322,7 @@ class DataCollection
                         if (!isset($child['match'])) {
                             throw new \UnexpectedValueException(
                                 'each entry of the children property requires an "match" entry for key "'
-                                . $useragent['userAgent'] . '"'
+                                . $useragent['userAgent'] . '", missing for child data: ' . json_encode($child)
                             );
                         }
 
@@ -313,6 +350,12 @@ class DataCollection
                                 $child['properties'],
                                 'the properties array contains engine data for key "' . $child['match']
                                 . '", please use the "engine" keyword'
+                            );
+
+                            $this->checkDeviceData(
+                                $child['properties'],
+                                'the properties array contains device data for key "' . $child['match']
+                                . '", please use the "device" keyword'
                             );
                         }
                     }
@@ -394,6 +437,29 @@ class DataCollection
             || array_key_exists('RenderingEngine_Version', $properties)
             || array_key_exists('RenderingEngine_Description', $properties)
             || array_key_exists('RenderingEngine_Maker', $properties)
+        ) {
+            throw new \LogicException($message);
+        }
+    }
+
+    /**
+     * checks if device properties are set inside a properties array
+     *
+     * @param array  $properties
+     * @param string $message
+     *
+     * @throws \LogicException
+     */
+    private function checkDeviceData(array $properties, $message)
+    {
+        if (array_key_exists('Device_Name', $properties)
+            || array_key_exists('Device_Maker', $properties)
+            || array_key_exists('Device_Type', $properties)
+            || array_key_exists('Device_Pointing_Method', $properties)
+            || array_key_exists('Device_Code_Name', $properties)
+            || array_key_exists('Device_Brand_Name', $properties)
+            || array_key_exists('isMobileDevice', $properties)
+            || array_key_exists('isTablet', $properties)
         ) {
             throw new \LogicException($message);
         }
@@ -579,6 +645,37 @@ class DataCollection
     }
 
     /**
+     * Get the array of engine data
+     *
+     * @return \Browscap\Data\Device[]
+     */
+    public function getDevices()
+    {
+        return $this->devices;
+    }
+
+    /**
+     * Get a single engine data array
+     *
+     * @param string $device
+     *
+     * @throws \OutOfBoundsException
+     * @throws \UnexpectedValueException
+     * @return \Browscap\Data\Device
+     */
+    public function getDevice($device)
+    {
+        if (!array_key_exists($device, $this->devices)) {
+            throw new \OutOfBoundsException(
+                'Device "' . $device . '" does not exist in data, available devices: '
+                . serialize(array_keys($this->devices))
+            );
+        }
+
+        return $this->devices[$device];
+    }
+
+    /**
      * Get the version string identifier
      *
      * @return string
@@ -599,8 +696,8 @@ class DataCollection
     }
 
     /**
-     * @param string  $key
-     * @param array   $properties
+     * @param string $key
+     * @param array  $properties
      *
      * @throws \UnexpectedValueException
      * @return bool

@@ -7,6 +7,7 @@
     {
       "userAgent": "Midori #MAJORVER#.#MINORVER#",
       "engine": "WebKit",
+      "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Midori #MAJORVER#.#MINORVER#",
@@ -23,29 +24,56 @@
         "Cookies": "true",
         "JavaScript": "true",
         "JavaApplets": "true",
-        "CssVersion": "2",
-        "Device_Name": "PC",
-        "Device_Maker": "Various",
-        "Device_Type": "Desktop",
-        "Device_Pointing_Method": "mouse"
+        "CssVersion": "2"
       },
       "children": [
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Chrome\/* Safari\/* Midori\/#MAJORVER#.#MINORVER#*",
+          "device": "Linux Desktop",
           "platforms": [
-            "Linux_64", "Linux_32", "Linux", "Win7_64", "Win7_32", "Win8_64", "Win8_32", "Win8_1_64", "Win8_1_32"
+            "Linux_64", "Linux_32", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Chrome\/* Safari\/* Midori\/#MAJORVER#.#MINORVER#*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win7_64", "Win7_32", "Win8_64", "Win8_32", "Win8_1_64", "Win8_1_32"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* Midori\/#MAJORVER#.#MINORVER#*",
+          "device": "Linux Desktop",
           "platforms": [
-            "Linux_64", "Linux_32", "Linux", "Win7_64", "Win7_32", "Win8_64", "Win8_32", "Win8_1_64", "Win8_1_32"
+            "Linux_64", "Linux_32", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* Midori\/#MAJORVER#.#MINORVER#*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win7_64", "Win7_32", "Win8_64", "Win8_32", "Win8_1_64", "Win8_1_32"
           ]
         },
         {
           "match": "Midori\/#MAJORVER#.#MINORVER#* (#PLATFORM#) WebKit\/*",
+          "device": "Linux Desktop",
           "platforms": [
-            "Linux_64", "Linux_32", "Linux", "FreeBSD", "Win32_B"
+            "Linux_64", "Linux_32", "Linux"
+          ]
+        },
+        {
+          "match": "Midori\/#MAJORVER#.#MINORVER#* (#PLATFORM#) WebKit\/*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win32_B"
+          ]
+        },
+        {
+          "match": "Midori\/#MAJORVER#.#MINORVER#* (#PLATFORM#) WebKit\/*",
+          "device": "general Desktop",
+          "platforms": [
+            "FreeBSD"
           ]
         }
       ]

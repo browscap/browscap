@@ -7,6 +7,7 @@
     {
       "userAgent": "IE #MAJORVER#.#MINORVER# for Win RT",
       "engine": "Trident_7",
+      "device": "Microsoft Surface",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "IE #MAJORVER#.#MINORVER#",
@@ -26,13 +27,7 @@
         "VBScript": "true",
         "JavaApplets": "true",
         "ActiveXControls": "true",
-        "CssVersion": "3",
-        "isMobileDevice": "true",
-        "Device_Name": "unknown",
-        "Device_Code_Name": "unknown",
-        "Device_Maker": "Microsoft",
-        "Device_Type": "Mobile Device",
-        "Device_Pointing_Method": "touchscreen"
+        "CssVersion": "3"
       },
       "children": [
         {
@@ -46,6 +41,7 @@
     {
       "userAgent": "IE #MAJORVER#.#MINORVER#",
       "engine": "Trident_7",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "IE #MAJORVER#.#MINORVER#",
@@ -65,12 +61,7 @@
         "VBScript": "true",
         "JavaApplets": "true",
         "ActiveXControls": "true",
-        "CssVersion": "3",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Windows Desktop",
-        "Device_Name": "Windows Desktop",
-        "Device_Maker": "Various",
-        "Device_Pointing_Method": "mouse"
+        "CssVersion": "3"
       },
       "children": [
         {

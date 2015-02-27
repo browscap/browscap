@@ -7,6 +7,7 @@
     {
       "userAgent": "Opera Mini #MAJORVER#.#MINORVER#",
       "engine": "Presto_2_2",
+      "device": "general Mobile Device",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Opera Mini #MAJORVER#.#MINORVER#",
@@ -21,45 +22,33 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "isMobileDevice": "true",
-        "CssVersion": "1",
-        "Device_Type": "Mobile Device"
+        "CssVersion": "1"
       },
       "children": [
         {
           "match": "Opera\/*(Android*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "device": "general Mobile Phone (Touch)",
           "platforms": [
             "Android"
           ]
         },
         {
           "match": "Opera\/*(MTK*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "device": "general Mobile Phone (Touch)",
           "platforms": [
             "Android"
           ]
         },
         {
           "match": "Opera\/*(BlackBerry*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
-          "properties": {
-            "Device_Name": "Blackberry",
-            "Device_Maker": "Research In Motion Limited"
-          },
+          "device": "Blackberry Blackberry",
           "platforms": [
             "RIMOS"
           ]
         },
         {
           "match": "Opera\/*(iPhone*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "iPhone",
-            "Device_Name": "iPhone",
-            "Device_Maker": "Apple Inc",
-            "Device_Brand_Name": "Apple",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-          },
+          "device": "iPhone",
           "platforms": [
             "iOS"
           ]
@@ -72,6 +61,7 @@
         },
         {
           "match": "Opera\/*(Series 60*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "device": "general Mobile Phone",
           "platforms": [
             "SymbianOS"
           ]
@@ -84,11 +74,7 @@
         },
         {
           "match": "Opera\/*(BREW*Opera Mini\/#MAJORVER#.#MINORVER#*)*Samsung SCH-U750*",
-          "properties": {
-            "Device_Name": "Alias 2",
-            "Device_Maker": "Samsung",
-            "Device_Type": "Mobile Phone"
-          },
+          "device": "Samsung SCH-U750",
           "platforms": [
             "Brew"
           ]

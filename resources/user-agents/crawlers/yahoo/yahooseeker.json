@@ -20,27 +20,21 @@
         {
           "match": "YahooSeeker\/CafeKelsa* (compatible; Konqueror\/*; FreeBSD*(KHTML,*like Gecko*)",
           "properties": {
-            "Device_Type": "Desktop",
-            "Device_Code_Name": "general Desktop",
-            "Device_Name": "general Desktop"
+            "Browser": "YahooSeeker\/CafeKelsa"
           },
+          "device": "general Desktop",
           "platforms": [
             "FreeBSD"
           ]
-        },
-        {
-          "match": "YahooSeeker*",
-          "properties": {
-            "Browser": "YahooSeeker",
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Device"
-          }
         },
         {
           "match": "YahooSeeker\/CafeKelsa*",
           "properties": {
             "Browser": "YahooSeeker\/CafeKelsa"
           }
+        },
+        {
+          "match": "YahooSeeker*"
         }
       ]
     }

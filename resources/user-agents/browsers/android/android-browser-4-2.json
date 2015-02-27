@@ -8,6 +8,7 @@
       "userAgent": "Android Browser #MAJORVER#.#MINORVER#",
       "platform": "Android",
       "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Android Browser #MAJORVER#.#MINORVER#",
@@ -22,130 +23,75 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "isMobileDevice": "true",
-        "isTablet": "false",
-        "CssVersion": "3",
-        "Device_Name": "general Mobile Device",
-        "Device_Type": "Mobile Phone",
-        "Device_Pointing_Method": "touchscreen"
+        "CssVersion": "3"
       },
       "children": [
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Micromax A27 Build\/*)*AppleWebKit\/*(*KHTML,*LIKE Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Name": "A27",
-            "Device_Code_Name": "A27",
-            "Device_Brand_Name": "Micromax",
-            "Device_Maker": "Micromax"
-          },
+          "device": "Micromax A27",
           "platforms": [
             "Android_2_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Micromax A35 Build\/*)*AppleWebKit\/*(*KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Name": "A35",
-            "Device_Code_Name": "A35",
-            "Device_Brand_Name": "Micromax",
-            "Device_Maker": "Micromax"
-          },
+          "device": "Micromax A35",
           "platforms": [
             "Android_2_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#sprd-B51+* Build\/*)*AppleWebKit*(*KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Name": "B51+",
-            "Device_Maker": "sprd",
-            "Device_Code_Name": "B51+",
-            "Device_Brand_Name": "sprd"
-          },
+          "device": "sprd B51+",
           "platforms": [
             "Android_2_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Micromax A40 Build\/*)*AppleWebKit\/*(*khtml,*LIKE Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Name": "A40",
-            "Device_Code_Name": "A40",
-            "Device_Brand_Name": "Micromax",
-            "Device_Maker": "Micromax"
-          },
+          "device": "Micromax A40",
           "platforms": [
             "Android_2_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#ALCATEL ONE TOUCH 4030D Build\/*)*AppleWebKit\/*(*khtml,*LIKE Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Name": "OT-4030D",
-            "Device_Code_Name": "OT-4030D",
-            "Device_Brand_Name": "Alcatel",
-            "Device_Maker": "Alcatel"
-          },
+          "device": "Alcatel OT-4030D",
           "platforms": [
             "Android_4_1"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#ALCATEL ONE TOUCH 4030D Build\/*)*AppleWebKit\/*(*KHTML,*LIKE Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Name": "OT-4030D",
-            "Device_Code_Name": "OT-4030D",
-            "Device_Brand_Name": "Alcatel",
-            "Device_Maker": "Alcatel"
-          },
+          "device": "Alcatel OT-4030D",
           "platforms": [
             "Android_4_1"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I9100 Build\/*)*AppleWebKit\/*(*khtml,*LIKE Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "GT-I9100",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S II"
-          },
+          "device": "GT-I9100",
           "platforms": [
             "Android_4_1"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#LG-D805 Build\/*)*AppleWebKit\/*(*KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Name": "D805",
-            "Device_Maker": "LG",
-            "Device_Code_Name": "D805",
-            "Device_Brand_Name": "LG"
-          },
+          "device": "LG D805",
           "platforms": [
             "Android_4_2"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#HTC_One_X Build\/*)*AppleWebKit\/*(*khtml,*LIKE Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Name": "One X",
-            "Device_Maker": "HTC"
-          },
+          "device": "HTC PJ83100",
           "platforms": [
             "Android_4_2"
           ]
         },
         {
           "match": "*Mozilla\/5.0 (#PLATFORM#INM8002KP Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "INM8002KP",
-            "Device_Maker": "Intenso",
-            "Device_Brand_Name": "Intenso",
-            "Device_Name": "TAB 824",
-            "Device_Type": "Tablet",
-            "isTablet": "true"
-          },
+          "device": "Intenso INM8002KP",
           "platforms": [
             "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
             "Android_2_0", "Android_2_1", "Android_2_2", "Android_2_3", "Android_2_3_B",
@@ -155,66 +101,28 @@
         },
         {
           "match": "*Mozilla\/5.0 (*GT-I9100#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "GT-I9100",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S II"
-          },
+          "device": "GT-I9100",
           "platforms": [
             "Android_2_3_B"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#LG-D802* Build\/*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "D802",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "G2"
-          },
+          "device": "LG D802",
           "platforms": [
             "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Vodafone Smart Tab 4 Build\/*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Code_Name": "Smart Tab 4",
-            "Device_Maker": "Vodafone",
-            "Device_Brand_Name": "Vodafone",
-            "Device_Name": "Smart Tab 4",
-            "isTablet": "true",
-            "Device_Type": "Tablet"
-          },
-          "platforms": [
-            "Android_4_2"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#Lenovo B8000-F*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "B8000-F",
-            "Device_Maker": "Lenovo",
-            "Device_Brand_Name": "Lenovo",
-            "Device_Name": "Yoga B8000-F"
-          },
+          "match": "Mozilla\/5.0 (#PLATFORM#Lenovo B8000-F\/*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "device": "Lenovo B8000-F",
           "platforms": [
             "Android_4_2"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Lenovo B6000-F*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "B6000-F",
-            "Device_Maker": "Lenovo",
-            "Device_Brand_Name": "Lenovo",
-            "Device_Name": "Yoga B6000-F"
-          },
+          "device": "Lenovo B6000-F",
           "platforms": [
             "Android_4_2"
           ]
@@ -230,61 +138,35 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#sprd-B51+* Android\/* Release\/* Browser\/AppleWebKit* Build\/*) AppleWebKit* (KHTML, like Gecko) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Name": "B51+",
-            "Device_Maker": "sprd",
-            "Device_Code_Name": "B51+",
-            "Device_Brand_Name": "sprd"
-          },
+          "device": "sprd B51+",
           "platforms": [
             "Android_2_3"
           ]
         },
         {
           "match": "Mastone_G9_TD\/* Release\/* Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "properties": {
-            "Device_Name": "G9",
-            "Device_Code_Name": "G9",
-            "Device_Brand_Name": "Mastone",
-            "Device_Maker": "Mastone"
-          },
+          "device": "Mastone G9",
           "platforms": [
             "Android_2_3"
           ]
         },
         {
           "match": "Lenovo-A880* Linux\/* Android\/4.2* Release\/* Browser\/AppleWebkit*",
-          "properties": {
-            "Device_Code_Name": "A880",
-            "Device_Maker": "Lenovo",
-            "Device_Brand_Name": "Lenovo",
-            "Device_Name": "A880"
-          },
+          "device": "Lenovo A880",
           "platforms": [
             "Android_4_2"
           ]
         },
         {
           "match": "Lenovo-A889* Linux\/* Android\/4.2* Release\/* Browser\/AppleWebkit*",
-          "properties": {
-            "Device_Code_Name": "A889",
-            "Device_Maker": "Lenovo",
-            "Device_Brand_Name": "Lenovo",
-            "Device_Name": "A889"
-          },
+          "device": "Lenovo A889",
           "platforms": [
             "Android_4_2"
           ]
         },
         {
           "match": "NGM Dynamic Racing 2\/* Linux\/* Android\/4.2* Release\/* Browser\/AppleWebKit* Mobile Safari*",
-          "properties": {
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Code_Name": "Dynamic Racing GP",
-            "Device_Maker": "NGM",
-            "Device_Brand_Name": "NGM",
-            "Device_Name": "Dynamic Racing GP"
-          },
+          "device": "NGM Dynamic Racing GP",
           "platforms": [
             "Android_4_2"
           ]

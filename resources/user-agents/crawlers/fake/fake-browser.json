@@ -399,6 +399,7 @@
         },
         {
           "match": "Mojilla\/5.0 (H11; U; Linux!x86_64;\\xa0en-US+ rf:*) Gecko\/* Firefox\/2.*",
+          "device": "Linux Desktop",
           "platforms": [
             "Linux_64"
           ]

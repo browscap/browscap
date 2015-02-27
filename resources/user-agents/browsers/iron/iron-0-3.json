@@ -6,6 +6,7 @@
     {
       "userAgent": "Iron 0.3",
       "engine": "WebKit",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Iron 0.3",
@@ -19,11 +20,6 @@
         "Cookies": "true",
         "JavaScript": "true",
         "CssVersion": "1",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Windows Desktop",
-        "Device_Name": "Windows Desktop",
-        "Device_Maker": "Various",
-        "Device_Pointing_Method": "mouse",
         "Version": "0.3",
         "MinorVer": "3"
       },

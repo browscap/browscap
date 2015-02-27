@@ -7,6 +7,7 @@
     {
       "userAgent": "IE #MAJORVER#.#MINORVER#",
       "engine": "Trident",
+      "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "IE #MAJORVER#.#MINORVER#",
@@ -30,26 +31,22 @@
         "VBScript": "true",
         "JavaApplets": "true",
         "ActiveXControls": "true",
-        "isMobileDevice": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
-        "CssVersion": "1",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Windows Desktop",
-        "Device_Name": "Windows Desktop",
-        "Device_Maker": "Various",
-        "Device_Pointing_Method": "mouse"
+        "CssVersion": "1"
       },
       "children": [
         {
           "match": "Mozilla\/4.0 (compatible; MSIE #MAJORVER#.#MINORVER#*; #PLATFORM#)*",
           "engine": "Tasman",
+          "device": "Macintosh",
           "platforms": [
             "MacPPC_2"
           ]
         },
         {
           "match": "Mozilla\/4.0 (compatible; MSIE #MAJORVER#.#MINORVER#*; #PLATFORM#",
+          "device": "Windows Desktop",
           "platforms": [
             "Win3.1_B", "Win3.11_B", "Win95_2", "Win98_2", "WinME", "NT3.1", "NT3.5", "NT4",
             "Win2000_64", "Win2000_3", "Win2000", "WinXPa_x64", "WinXPa_64", "WinXPa_32",

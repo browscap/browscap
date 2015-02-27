@@ -6,6 +6,7 @@
     {
       "userAgent": "BlackBerry 3.8",
       "platform": "RIMOS_3_8",
+      "device": "general Mobile Phone (old Blackberry)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "BlackBerry 3.8",
@@ -16,14 +17,7 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "isMobileDevice": "true",
-        "isTablet": "false",
         "CssVersion": "2",
-        "Device_Name": "Blackberry",
-        "Device_Maker": "Research In Motion Limited",
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "Blackberry",
-        "Device_Brand_Name": "RIM",
         "Version": "3.8",
         "MajorVer": "3",
         "MinorVer": "8"
@@ -31,27 +25,18 @@
       "children": [
         {
           "match": "BlackBerry7100\/3.8*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 7100",
-            "Device_Name": "BlackBerry 7100"
-          }
+          "device": "Blackberry 7100"
         },
         {
           "match": "BlackBerry7290\/3.8*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 7290",
-            "Device_Name": "BlackBerry 7290"
-          }
+          "device": "Blackberry 7290"
         },
         {
           "match": "BlackBerrySiemens SK65\/3.8*"
         },
         {
           "match": "Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows NT 5.0) BlackBerry7290\/3.8*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 7290",
-            "Device_Name": "BlackBerry 7290"
-          },
+          "device": "Blackberry 7290",
           "platforms": [
             "Win2000"
           ]

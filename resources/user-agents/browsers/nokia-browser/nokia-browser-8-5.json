@@ -8,6 +8,7 @@
       "userAgent": "Nokia Browser #MAJORVER#.#MINORVER#",
       "platform": "SymbianOS",
       "engine": "WebKit",
+      "device": "general Mobile Phone (Nokia)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Nokia Browser #MAJORVER#.#MINORVER#",
@@ -27,24 +28,12 @@
         "JavaApplets": "false",
         "ActiveXControls": "false",
         "isSyndicationReader": "false",
-        "Crawler": "false",
-        "isMobileDevice": "true",
-        "isTablet": "false",
-        "Device_Type": "Mobile Phone",
-        "Device_Maker": "Nokia",
-        "Device_Brand_Name": "Nokia",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#"
+        "Crawler": "false"
       },
       "children": [
         {
           "match": "Mozilla\/5.0 (MeeGo; NokiaN9) AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/#MAJORVER#.#MINORVER#*Safari\/534*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "N9",
-            "Device_Name": "N9"
-          },
+          "device": "Nokia N9",
           "platforms": [
             "MeeGo"
           ]

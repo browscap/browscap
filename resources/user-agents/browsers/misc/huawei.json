@@ -6,6 +6,7 @@
     {
       "userAgent": "Huawei",
       "platform": "Brew",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Huawei",
@@ -23,22 +24,26 @@
         "ActiveXControls": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
-        "CssVersion": "1",
-        "isMobileDevice": "true",
-        "isTablet": "false",
-        "Device_Type": "Mobile Device",
-        "Device_Code_Name": "general Mobile Device",
-        "Device_Name": "general Mobile Device"
+        "CssVersion": "1"
       },
       "children": [
         {
-          "match": "Huawei-U526\/1.0 BREW\/3.1 Browser\/1.0 *"
+          "match": "Huawei-U526\/1.0 BREW\/3.1 Browser\/1.0 *",
+          "platforms": [
+            "Brew"
+          ]
         },
         {
-          "match": "Huawei-U626\/1.0 BREW\/2.1 Browser\/1.0 *"
+          "match": "Huawei-U626\/1.0 BREW\/2.1 Browser\/1.0 *",
+          "platforms": [
+            "Brew"
+          ]
         },
         {
-          "match": "Huawei-U636\/1.0 BREW\/2.1 Browser\/1.0 *"
+          "match": "Huawei-U636\/1.0 BREW\/2.1 Browser\/1.0 *",
+          "platforms": [
+            "Brew"
+          ]
         }
       ]
     }

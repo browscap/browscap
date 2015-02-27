@@ -6,6 +6,7 @@
     {
       "userAgent": "IE 10.0",
       "engine": "Trident_6",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "IE 10.0",
@@ -26,12 +27,7 @@
         "VBScript": "true",
         "JavaApplets": "true",
         "ActiveXControls": "true",
-        "CssVersion": "3",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Windows Desktop",
-        "Device_Name": "Windows Desktop",
-        "Device_Maker": "Various",
-        "Device_Pointing_Method": "mouse"
+        "CssVersion": "3"
       },
       "children": [
         {
@@ -142,14 +138,7 @@
         },
         {
           "match": "Mozilla\/5.0 (compatible; MSIE #MAJORVER#.#MINORVER#*; #PLATFORM#Trident/6.0; Xbox; Xbox One*",
-          "properties": {
-            "Device_Type": "TV Device",
-            "Device_Code_Name": "Xbox One",
-            "Device_Maker": "Microsoft Corporation",
-            "Device_Brand_Name": "Microsoft",
-            "Device_Name": "Xbox One",
-            "Device_Pointing_Method": "mouse"
-          },
+          "device": "Microsoft Xbox One",
           "platforms": [
             "Win8_x64", "Win8_64", "Win8_32"
           ]

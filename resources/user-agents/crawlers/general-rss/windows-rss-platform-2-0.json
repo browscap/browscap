@@ -7,6 +7,7 @@
     {
       "userAgent": "Windows-RSS-Platform #MAJORVER#.#MINORVER#",
       "platform": "Windows",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Windows-RSS-Platform #MAJORVER#.#MINORVER#",

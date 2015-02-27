@@ -5,6 +5,7 @@
   "userAgents": [
     {
       "userAgent": "DBTEL",
+      "device": "general Mobile Device",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "DBTEL",
@@ -23,12 +24,9 @@
         "VBScript": "false",
         "JavaApplets": "false",
         "ActiveXControls": "false",
-        "isTablet": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
-        "Device_Type": "Mobile Device",
-        "Browser": "DBTEL",
-        "isMobileDevice": "true"
+        "Browser": "DBTEL"
       },
       "children": [
         {

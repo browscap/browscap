@@ -8,6 +8,7 @@
       "userAgent": "Dalvik #MAJORVER#.#MINORVER#",
       "platform": "Android",
       "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Dalvik #MAJORVER#.#MINORVER#",
@@ -21,57 +22,33 @@
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
-        "JavaScript": "true",
-        "isMobileDevice": "true",
-        "isTablet": "false",
-        "Device_Type": "Mobile Phone",
-        "Device_Pointing_Method": "touchscreen"
+        "JavaScript": "true"
       },
       "children": [
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#Garmin-Asus A50 Build\/*",
-          "properties": {
-            "Device_Code_Name": "A50",
-            "Device_Maker": "Garmin-Asus",
-            "Device_Brand_Name": "Garmin-Asus",
-            "Device_Name": "A50"
-          },
+          "device": "Garmin-Asus A50",
           "platforms": [
             "Android_2_1"
           ]
         },
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#MB525 Build\/*",
-          "properties": {
-            "Device_Code_Name": "MB525",
-            "Device_Maker": "Motorola",
-            "Device_Brand_Name": "Motorola",
-            "Device_Name": "DEFY"
-          },
+          "device": "Motorola MB525",
           "platforms": [
             "Android_2_1"
           ]
         },
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#Milestone Build\/*",
-          "properties": {
-            "Device_Code_Name": "Milestone",
-            "Device_Maker": "Motorola",
-            "Device_Brand_Name": "Motorola",
-            "Device_Name": "Milestone"
-          },
+          "device": "Motorola Milestone",
           "platforms": [
             "Android_2_1"
           ]
         },
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#X10i Build\/*",
-          "properties": {
-            "Device_Code_Name": "X10i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "Xperia X10"
-          },
+          "device": "SonyEricsson X10i",
           "platforms": [
             "Android_2_1"
           ]

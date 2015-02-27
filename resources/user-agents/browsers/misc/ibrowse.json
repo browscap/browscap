@@ -6,6 +6,7 @@
     {
       "userAgent": "IBrowse",
       "platform": "Amiga",
+      "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "IBrowse",
@@ -14,11 +15,7 @@
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
-        "JavaScript": "true",
-        "Device_Name": "PC",
-        "Device_Maker": "Various",
-        "Device_Type": "Desktop",
-        "Device_Pointing_Method": "mouse"
+        "JavaScript": "true"
       },
       "children": [
         {
@@ -126,12 +123,7 @@
           "properties": {
             "Version": "2.6",
             "MajorVer": "2",
-            "MinorVer": "6",
-            "Device_Type": "Desktop",
-            "Device_Code_Name": "Macintosh",
-            "Device_Maker": "Apple Inc",
-            "Device_Brand_Name": "Apple",
-            "Device_Name": "Macintosh"
+            "MinorVer": "6"
           },
           "platforms": [
             "Darwin"

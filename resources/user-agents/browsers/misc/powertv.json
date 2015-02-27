@@ -5,6 +5,7 @@
   "userAgents": [
     {
       "userAgent": "PowerTV",
+      "device": "PowerTV",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "PowerTV",
@@ -13,10 +14,7 @@
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
-        "JavaScript": "true",
-        "Device_Name": "PowerTV",
-        "Device_Maker": "Scientific Atlanta",
-        "Device_Type": "TV Device"
+        "JavaScript": "true"
       },
       "children": [
         {

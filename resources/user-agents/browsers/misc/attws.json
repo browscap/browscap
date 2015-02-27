@@ -5,12 +5,11 @@
   "userAgents": [
     {
       "userAgent": "ATTWS",
+      "device": "general Mobile Device",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "ATTWS",
-        "Browser": "ATTWS",
-        "isMobileDevice": "true",
-        "Device_Type": "Mobile Device"
+        "Browser": "ATTWS"
       },
       "children": [
         {

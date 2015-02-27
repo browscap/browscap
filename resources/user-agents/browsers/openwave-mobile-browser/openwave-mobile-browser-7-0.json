@@ -5,6 +5,7 @@
   "userAgents": [
     {
       "userAgent": "Openwave Mobile Browser 7.0",
+      "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Openwave Mobile Browser",
@@ -15,9 +16,6 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "isMobileDevice": "true",
-        "isTablet": "false",
-        "Device_Type": "Mobile Phone",
         "Version": "7.0",
         "MajorVer": "7"
       },
@@ -41,7 +39,8 @@
           "match": "NEC-a232_EDGE\/1.0 UP.Browser\/7.0*"
         },
         {
-          "match": "Nokia 6600 UP.Browser\/7.0*"
+          "match": "Nokia 6600 UP.Browser\/7.0*",
+          "device": "Nokia 6600"
         },
         {
           "match": "Nokia N70 UP.Browser\/7.0*"
@@ -50,7 +49,8 @@
           "match": "Nokia N70\/2.0 Push\/PO UP.Browser\/7.0*"
         },
         {
-          "match": "Nokia6600 UP.Browser\/7.0*"
+          "match": "Nokia6600 UP.Browser\/7.0*",
+          "device": "Nokia 6600"
         },
         {
           "match": "OPWV-ModelExample\/0.1 Browser\/UP.Browser\/7.0*"
@@ -110,10 +110,12 @@
           "match": "SIE-C72\/2? UP.Browser\/7.0*"
         },
         {
-          "match": "SIE-C75\/* UP.Browser\/7.0*"
+          "match": "SIE-C75\/* UP.Browser\/7.0*",
+          "device": "Siemens C75"
         },
         {
-          "match": "SIE-C75\/2? UP.Browser\/7.0*"
+          "match": "SIE-C75\/2? UP.Browser\/7.0*",
+          "device": "Siemens C75"
         },
         {
           "match": "SIE-CF75\/* UP.Browser\/7.0*"
@@ -125,7 +127,8 @@
           "match": "SIE-CF7C\/* UP.Browser\/7.0*"
         },
         {
-          "match": "SIE-CX65\/* UP.Browser\/7.0*"
+          "match": "SIE-CX65\/* UP.Browser\/7.0*",
+          "device": "Siemens CX65"
         },
         {
           "match": "SIE-CX6C\/* UP.Browser\/7.0*"
@@ -137,7 +140,8 @@
           "match": "SIE-CX70\/* UP.Browser\/7.0*"
         },
         {
-          "match": "SIE-CX75\/* UP.Browser\/7.0*"
+          "match": "SIE-CX75\/* UP.Browser\/7.0*",
+          "device": "Siemens CX75"
         },
         {
           "match": "SIE-CX7A\/* UP.Browser\/7.0*"
@@ -179,7 +183,8 @@
           "match": "SIE-M75\/1? UP.Browser\/7.0*"
         },
         {
-          "match": "SIE-ME75\/* UP.Browser\/7.0*"
+          "match": "SIE-ME75\/* UP.Browser\/7.0*",
+          "device": "Siemens ME75"
         },
         {
           "match": "SIE-S65\/* UP.Browser\/7.0*"
@@ -227,7 +232,8 @@
           "match": "Vodafone\/1.0\/GX40\/SHG001 Browser\/UP.Browser\/7.0*"
         },
         {
-          "match": "Vodafone\/1.0\/V802SH\/SHJ002 Browser\/UP.Browser\/7.0*"
+          "match": "Vodafone\/1.0\/V802SH\/SHJ002 Browser\/UP.Browser\/7.0*",
+          "device": "Vodafone V802SH"
         },
         {
           "match": "Vodafone\/1.0\/V902SH\/SHJ00? Browser\/UP.Browser\/7.0*"

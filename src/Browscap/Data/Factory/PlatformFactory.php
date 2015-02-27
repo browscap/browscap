@@ -18,28 +18,30 @@
 namespace Browscap\Data\Factory;
 
 use Browscap\Data\Platform;
+use Browscap\Data\DataCollection;
 
 /**
- * Class DataCollection
+ * Class PlatformFactory
  *
  * @category   Browscap
  * @package    Data
- * @author     James Titcumb <james@asgrim.com>
+ * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
  */
 class PlatformFactory
 {
     /**
      * Load a platforms.json file and parse it into the platforms data array
      *
-     * @param array  $platformData
-     * @param array  $json
-     * @param string $platformName
+     * @param array          $platformData
+     * @param array          $json
+     * @param string         $platformName
+     * @param DataCollection $datacollection
      *
      * @return \Browscap\Data\Platform
      * @throws \RuntimeException if the file does not exist or has invalid JSON
      * @throws \UnexpectedValueException
      */
-    public function build(array $platformData, array $json, $platformName)
+    public function build(array $platformData, array $json, $platformName, DataCollection $datacollection)
     {
         if (!isset($platformData['properties'])) {
             $platformData['properties'] = array();
@@ -54,7 +56,7 @@ class PlatformFactory
                 );
             }
 
-            $parentPlatform     = $this->build($json['platforms'][$parentName], $json, $parentName);
+            $parentPlatform     = $this->build($json['platforms'][$parentName], $json, $parentName, $datacollection);
             $parentPlatformData = $parentPlatform->getProperties();
 
             $platformProperties = $platformData['properties'];
@@ -73,6 +75,17 @@ class PlatformFactory
             $platformData['properties'] = array_merge(
                 $parentPlatformData,
                 $platformProperties
+            );
+        }
+
+        if (array_key_exists('device', $platformData)) {
+            $deviceName = $platformData['device'];
+
+            $deviceData = $datacollection->getDevice($deviceName);
+
+            $platformData['properties'] = array_merge(
+                $deviceData->getProperties(),
+                $platformData['properties']
             );
         }
 

@@ -6,6 +6,7 @@
     {
       "userAgent": "Teleca-Obigo 3.0",
       "platform": "JAVA",
+      "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Teleca-Obigo",
@@ -16,79 +17,45 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "isMobileDevice": "true",
-        "isTablet": "false",
         "CssVersion": "1",
-        "Device_Type": "Mobile Phone",
         "Version": "3.0",
         "MajorVer": "3"
       },
       "children": [
         {
           "match": "Alcatel-OT-216\/1.0 ObigoInternetBrowser\/Q03C",
-          "properties": {
-            "Device_Code_Name": "OT-216",
-            "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
-            "Device_Name": "OT-216"
-          }
+          "device": "Alcatel OT-216"
         },
         {
           "match": "Alcatel-OT-C550\/1.0 ObigoInternetBrowser\/Q03C",
-          "properties": {
-            "Device_Code_Name": "OT-C550",
-            "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
-            "Device_Name": "OT-C550"
-          }
+          "device": "Alcatel OT-C550"
         },
         {
           "match": "Huawei\/*\/G6600\/Browser\/obigo-browser\/q03c",
-          "properties": {
-            "Device_Code_Name": "G6600",
-            "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
-            "Device_Name": "G6600"
-          }
+          "device": "Huawei G6600"
         },
         {
           "match": "Vodafone\/1.0\/Panasonic-VS3\/VA43 Browser\/Obigo-Browser\/3.0 *",
-          "properties": {
-            "Device_Code_Name": "VS3",
-            "Device_Maker": "Panasonic",
-            "Device_Brand_Name": "Panasonic",
-            "Device_Name": "VS3"
-          }
+          "device": "Panasonic VS3"
         },
         {
           "match": "ZTE-G-X760-vegas-orange\/X760_Z15UK_FS_B07A106_ORANGE Obigo\/Q03C*",
-          "properties": {
-            "Device_Code_Name": "G-X760",
-            "Device_Maker": "ZTE",
-            "Device_Brand_Name": "ZTE",
-            "Device_Name": "G-X760"
-          }
+          "device": "ZTE G-X760"
         },
         {
           "match": "LG\/KU990\/* Browser\/Obigo-Q05A\/3.6 *",
+          "device": "LG KU990",
           "properties": {
             "Version": "3.6",
-            "MinorVer": "6",
-            "Device_Code_Name": "KU990",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "KU990"
+            "MinorVer": "6"
           }
         },
         {
           "match": "LG\/HB620T\/* Browser\/Obigo-Q05A\/*",
+          "device": "LG HB620T",
           "properties": {
             "Version": "3.12",
-            "MinorVer": "12",
-            "Device_Code_Name": "HB620T",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "HB620T"
+            "MinorVer": "12"
           }
         }
       ]

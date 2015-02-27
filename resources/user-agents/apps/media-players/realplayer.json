@@ -15,6 +15,7 @@
       "children": [
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* RealPlayer",
+          "device": "Macintosh",
           "platforms": [
             "OSX_10_8_B", "OSX"
           ]
@@ -25,13 +26,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#AppleWebKit\/* RealPlayer*",
           "engine": "WebKit",
-          "properties": {
-            "Device_Type": "Desktop",
-            "Device_Code_Name": "Macintosh",
-            "Device_Maker": "Apple Inc",
-            "Device_Brand_Name": "Apple",
-            "Device_Name": "Macintosh"
-          },
+          "device": "Macintosh",
           "platforms": [
             "OSX"
           ]

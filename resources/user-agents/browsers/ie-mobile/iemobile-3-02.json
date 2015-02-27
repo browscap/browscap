@@ -7,6 +7,7 @@
       "userAgent": "IEMobile 3.02",
       "platform": "WinMobile",
       "engine": "Trident_3_1",
+      "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "IEMobile",
@@ -28,11 +29,6 @@
         "isSyndicationReader": "false",
         "Crawler": "false",
         "CssVersion": "2",
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "general Mobile Device",
-        "Device_Name": "general Mobile Device",
-        "isMobileDevice": "true",
-        "isTablet": "false",
         "Version": "3.02",
         "MajorVer": "3",
         "MinorVer": "02"
@@ -40,24 +36,6 @@
       "children": [
         {
           "match": "Mozilla\/2.0 (*compatible*;*MSIE 3.02; Windows CE*)",
-          "platforms": [
-            "WinCE"
-          ]
-        },
-        {
-          "match": "Mozilla\/2.0 (*compatible*;*MSIE 3.02; Windows CE; 240x320)",
-          "platforms": [
-            "WinCE"
-          ]
-        },
-        {
-          "match": "Mozilla\/2.0 (*compatible*;*MSIE 3.02; Windows CE; PPC*",
-          "platforms": [
-            "WinCE"
-          ]
-        },
-        {
-          "match": "Mozilla\/2.0 (*compatible*;*MSIE 3.02; Windows CE; Smartphone*",
           "platforms": [
             "WinCE"
           ]

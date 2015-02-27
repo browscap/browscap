@@ -8,6 +8,7 @@
       "userAgent": "PAD-bot #MAJORVER#.#MINORVER#",
       "engine": "WebKit",
       "platform": "iOS",
+      "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "PAD-bot #MAJORVER#.#MINORVER#",
@@ -22,12 +23,7 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "CssVersion": "2",
-        "isMobileDevice": "true",
-        "Device_Type": "Mobile Device",
-        "Device_Code_Name": "general Mobile Device",
-        "Device_Name": "general Mobile Device",
-        "Device_Pointing_Method": "touchscreen"
+        "CssVersion": "2"
       },
       "children": [
         {

@@ -8,6 +8,7 @@
       "userAgent": "Nokia Browser #MAJORVER#.#MINORVER#",
       "platform": "SymbianOS",
       "engine": "WebKit",
+      "device": "general Mobile Phone (Nokia)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Nokia Browser #MAJORVER#.#MINORVER#",
@@ -27,11 +28,6 @@
         "ActiveXControls": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
-        "isMobileDevice": "true",
-        "isTablet": "false",
-        "Device_Type": "Mobile Phone",
-        "Device_Maker": "Nokia",
-        "Device_Brand_Name": "Nokia",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
@@ -40,31 +36,19 @@
       "children": [
         {
           "match": "Mozilla\/5.0 (SymbianOS\/*; Series60\/* NokiaE55-1\/021.013*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/3.0 BrowserNG\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Code_Name": "E55",
-            "Device_Name": "E55"
-          }
+          "device": "Nokia E55-1"
         },
         {
           "match": "Mozilla\/5.0 (SymbianOS\/*; Series60\/* NokiaN86-1\/*; *) AppleWebKit\/* (KHTML,*like Gecko*) Version\/3.0 BrowserNG\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Code_Name": "N86",
-            "Device_Name": "N86"
-          }
+          "device": "Nokia N86-1"
         },
         {
           "match": "Mozilla\/5.0 (SymbianOS\/*; Series60\/* NokiaN97-1\/12.0.024; *; *) AppleWebKit\/* (KHTML,*like Gecko*) BrowserNG\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Code_Name": "N97",
-            "Device_Name": "N97"
-          }
+          "device": "Nokia N97-1"
         },
         {
           "match": "Mozilla\/5.0 (SymbianOS\/*; Series60\/* NokiaN97-1\/2*; *) AppleWebKit\/* (KHTML,*like Gecko*) BrowserNG\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Code_Name": "N97",
-            "Device_Name": "N97"
-          }
+          "device": "Nokia N97-1"
         }
       ]
     }

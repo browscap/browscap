@@ -8,6 +8,7 @@
       "userAgent": "Zetakey Browser #MAJORVER#.#MINORVER#",
       "platform": "Android",
       "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Zetakey Browser #MAJORVER#.#MINORVER#",

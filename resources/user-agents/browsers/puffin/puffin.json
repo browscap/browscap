@@ -6,6 +6,7 @@
     {
       "userAgent": "Puffin",
       "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Puffin",
@@ -17,11 +18,7 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "isMobileDevice": "true",
-        "isTablet": "false",
-        "CssVersion": "2",
-        "Device_Type": "Mobile Phone",
-        "Device_Pointing_Method": "touchscreen"
+        "CssVersion": "2"
       },
       "children": [
         {
@@ -40,13 +37,11 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Chrome\/* Safari\/* Puffin\/2.*AT Mobile",
+          "device": "general Tablet",
           "properties": {
             "Version": "2.0",
             "MajorVer": "2",
-            "MinorVer": "0",
-            "isMobileDevice": "true",
-            "Device_Type": "Tablet",
-            "isTablet": "true"
+            "MinorVer": "0"
           },
           "platforms": [
             "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",

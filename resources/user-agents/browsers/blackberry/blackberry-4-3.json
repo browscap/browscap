@@ -6,6 +6,7 @@
     {
       "userAgent": "BlackBerry 4.3",
       "platform": "RIMOS_4_3",
+      "device": "general Mobile Phone (old Blackberry)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "BlackBerry 4.3",
@@ -16,14 +17,7 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "isMobileDevice": "true",
-        "isTablet": "false",
         "CssVersion": "2",
-        "Device_Name": "Blackberry",
-        "Device_Maker": "Research In Motion Limited",
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "Blackberry",
-        "Device_Brand_Name": "RIM",
         "Version": "4.3",
         "MajorVer": "4",
         "MinorVer": "3"
@@ -31,31 +25,19 @@
       "children": [
         {
           "match": "BlackBerry8110\/4.3*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 8110",
-            "Device_Name": "BlackBerry 8110"
-          }
+          "device": "Blackberry 8110"
         },
         {
           "match": "BlackBerry8120\/4.3*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 8120",
-            "Device_Name": "BlackBerry 8120"
-          }
+          "device": "Blackberry 8120"
         },
         {
           "match": "BlackBerry8130\/4.3*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 8130",
-            "Device_Name": "BlackBerry 8130"
-          }
+          "device": "Blackberry 8130"
         },
         {
           "match": "BlackBerry8330\/4.3*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 8330",
-            "Device_Name": "BlackBerry 8330"
-          }
+          "device": "Blackberry 8330"
         }
       ]
     }

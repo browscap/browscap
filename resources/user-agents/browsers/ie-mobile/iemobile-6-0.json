@@ -7,6 +7,7 @@
       "userAgent": "IEMobile 6.0",
       "platform": "WinMobile",
       "engine": "Trident_3_1",
+      "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "IEMobile",
@@ -16,10 +17,7 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "isMobileDevice": "true",
-        "isTablet": "false",
         "CssVersion": "2",
-        "Device_Type": "Mobile Phone",
         "Browser_Type": "Browser",
         "Browser_Maker": "Microsoft Corporation",
         "Alpha": "false",
@@ -31,8 +29,6 @@
         "JavaApplets": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
-        "Device_Code_Name": "general Mobile Device",
-        "Device_Name": "general Mobile Device",
         "Version": "6.0",
         "MajorVer": "6",
         "MinorVer": "0"
@@ -46,12 +42,14 @@
         },
         {
           "match": "Mozilla\/5.0 (compatible*; MSIE 9.0*; Windows NT 5.1; *; mobile version65)",
+          "device": "general Mobile Phone (Touch)",
           "platforms": [
             "WinPhone65"
           ]
         },
         {
           "match": "ASUS1210\/1.0 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; Smartphone; 240x320; ASUS1210)*",
+          "device": "Asus 1210",
           "platforms": [
             "WinCE"
           ]
@@ -70,60 +68,56 @@
         },
         {
           "match": "HTC-3100\/1.2 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile 6.*)",
+          "device": "HTC 3100",
           "platforms": [
             "WinCE"
           ]
         },
         {
           "match": "HTC-8100\/1.2 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; PPC; 240x320)*",
+          "device": "HTC 8100",
           "platforms": [
             "WinCE"
           ]
         },
         {
           "match": "HTC-8500\/1.2 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile 6.*)*",
+          "device": "HTC 8500",
           "platforms": [
             "WinCE"
           ]
         },
         {
           "match": "HTC_P4350 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile 6.*)",
+          "device": "HTC P4350",
           "platforms": [
             "WinCE"
           ]
         },
         {
           "match": "HTC_S620 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile 6.*)",
+          "device": "HTC S620",
           "platforms": [
             "WinCE"
           ]
         },
         {
           "match": "HTC_S710-Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; Smartphone; 240x320; Smartphone)",
-          "properties": {
-            "Device_Code_Name": "S710",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "S710"
-          },
+          "device": "HTC S710",
           "platforms": [
             "WinCE"
           ]
         },
         {
           "match": "HTC_TyTN Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile 6.12)",
-          "properties": {
-            "Device_Code_Name": "TyTN",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "TyTN"
-          },
+          "device": "HTC TyTN",
           "platforms": [
             "WinCE"
           ]
         },
         {
           "match": "HTC_X7500 Mozilla\/4.0 (compatible*; MSIE 6.0; Windows CE; IEMobile 6.*)",
+          "device": "HTC X7500",
           "platforms": [
             "WinCE"
           ]
@@ -142,78 +136,56 @@
         },
         {
           "match": "Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile 6.8) PPC; 240x320; HTC_P3600\/1.0 *",
-          "properties": {
-            "Device_Code_Name": "P3600",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "Elf"
-          },
+          "device": "HTC P3600",
           "platforms": [
             "WinCE"
           ]
         },
         {
           "match": "Mozilla\/4.0 (compatible*; MSIE 6.0; Windows CE; IEMobile 6.12) Vodafone\/1.0\/HTC_Elf\/*",
-          "properties": {
-            "Device_Code_Name": "Elf",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "Elf"
-          },
+          "device": "HTC Elf",
           "platforms": [
             "WinCE"
           ]
         },
         {
           "match": "Mozilla\/4.0 (compatible*; MSIE 6.0; Windows CE; IEMobile 6.12) Vodafone\/1.0\/HTC_VPACompactIV\/*",
-          "properties": {
-            "Device_Code_Name": "VPA Compact IV",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "Vodafone",
-            "Device_Name": "Herald\/Wing\/Atlas"
-          },
+          "device": "HTC VPA Compact IV",
           "platforms": [
             "WinCE"
           ]
         },
         {
           "match": "Mozilla\/4.0 (compatible*; MSIE 6.0; Windows NT 5.1; HTC_Touch2_T3333; Windows Phone 6.5)*",
-          "properties": {
-            "Device_Code_Name": "T3333",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "Touch2"
-          },
+          "device": "HTC T3333",
           "platforms": [
             "WinPhone65"
           ]
         },
         {
           "match": "Mozilla\/4.0 (compatible*; MSIE 6.0; Windows NT 5.1; HTC_Touch_HD_T8282; Windows Phone 6.5)*",
-          "properties": {
-            "Device_Code_Name": "T8282",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "Touch HD"
-          },
+          "device": "HTC Touch HD T8282",
           "platforms": [
             "WinPhone65"
           ]
         },
         {
           "match": "Xda orbit; 240x320 (*compatible*;*MSIE 6.0; Windows CE; IEMobile 6.*)",
+          "device": "XDA Orbit",
           "platforms": [
             "WinCE"
           ]
         },
         {
           "match": "acer_S200 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows NT 5.1; Windows Phone 6.*)",
+          "device": "Acer S200",
           "platforms": [
             "WinXPa_32"
           ]
         },
         {
           "match": "Mozilla\/4.0 (compatible; MSIE 6.0; Windows NT 5.1; Windows Phone 6.5 HTC_HD2\/1.0)",
+          "device": "HTC HD2",
           "platforms": [
             "WinPhone65"
           ]

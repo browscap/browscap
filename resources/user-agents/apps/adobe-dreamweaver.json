@@ -7,6 +7,7 @@
     {
       "userAgent": "Adobe Dreamweaver #MAJORVER#.#MINORVER#",
       "engine": "WebKit",
+      "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Adobe Dreamweaver #MAJORVER#.#MINORVER#",
@@ -28,17 +29,15 @@
         "VBScript": "false",
         "JavaApplets": "false",
         "ActiveXControls": "false",
-        "isMobileDevice": "false",
-        "isTablet": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
-        "Device_Type": "Desktop",
         "Frames": "true",
         "Tables": "true"
       },
       "children": [
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Dreamweaver\/#MAJORVER#.#MINORVER#* Version/* Safari\/*",
+          "device": "Windows Desktop",
           "platforms": [
             "Windows"
           ]

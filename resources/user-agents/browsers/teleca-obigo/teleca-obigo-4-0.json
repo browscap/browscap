@@ -6,6 +6,7 @@
     {
       "userAgent": "Teleca-Obigo 4.0",
       "platform": "JAVA",
+      "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Teleca-Obigo",
@@ -16,47 +17,26 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "isMobileDevice": "true",
-        "isTablet": "false",
         "CssVersion": "1",
-        "Device_Type": "Mobile Phone",
         "Version": "4.0",
         "MajorVer": "4"
       },
       "children": [
         {
           "match": "Motorola-ic902 Obigo\/Q04C1 MMP\/2.0 *",
-          "properties": {
-            "Device_Code_Name": "ic902",
-            "Device_Maker": "Motorola",
-            "Device_Brand_Name": "Motorola",
-            "Device_Name": "ic902"
-          }
+          "device": "Motorola ic902"
         },
         {
           "match": "SonyEricssonJ210i\/R2*TelecaBrowser\/4.*",
-          "properties": {
-            "Device_Code_Name": "J210i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "J210i"
-          }
+          "device": "SonyEricsson J210i"
         },
         {
           "match": "SonyEricssonJ220i\/* TelecaBrowser\/4.*",
-          "properties": {
-            "Device_Code_Name": "J220i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "J220i"
-          }
+          "device": "SonyEricsson J220i"
         },
         {
           "match": "SonyEricssonJ230i\/* TelecaBrowser\/4.*",
-          "properties": {
-            "Device_Code_Name": "SonyEricsson",
-            "Device_Name": "SonyEricsson"
-          }
+          "device": "SonyEricsson J230i"
         }
       ]
     }

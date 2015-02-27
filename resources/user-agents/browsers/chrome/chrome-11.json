@@ -8,6 +8,7 @@
       "userAgent": "Chrome #MAJORVER#.#MINORVER# for Android",
       "platform": "Android",
       "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Chrome #MAJORVER#.#MINORVER#",
@@ -24,103 +25,63 @@
         "Cookies": "true",
         "JavaScript": "true",
         "JavaApplets": "true",
-        "CssVersion": "3",
-        "isMobileDevice": "true",
-        "isTablet": "false",
-        "Device_Code_Name": "general Mobile Device",
-        "Device_Name": "general Mobile Device",
-        "Device_Maker": "Various",
-        "Device_Type": "Mobile Phone",
-        "Device_Pointing_Method": "touchscreen"
+        "CssVersion": "3"
       },
       "children": [
         {
           "match": "Mozilla\/5.0 (X11; Linux*; HTC\/Sensation\/*) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "Device_Code_Name": "Z710",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "Sensation"
-          },
+          "device": "HTC Z710",
           "platforms": [
             "Android_4_0"
           ]
         },
         {
           "match": "Mozilla\/5.0 (X11; Linux x86_64*; HTC\/Sensation\/*) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "Device_Code_Name": "Z710",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "Sensation"
-          },
+          "device": "HTC Z710",
           "platforms": [
             "Android_4_0"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#KFTT *) AppleWebKit\/* (KHTML, like Gecko)*CrMo\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "Device_Name": "Kindle Fire HD 7",
-            "Device_Maker": "Amazon.com, Inc.",
-            "Device_Type": "Tablet",
-            "isTablet": "true",
-            "Device_Code_Name": "KFTT",
-            "Device_Brand_Name": "Amazon"
-          },
+          "device": "Amazon KFTT",
           "platforms": [
             "Android_4_0"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I9100 *) AppleWebKit\/* (KHTML, like Gecko)*CrMo\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "Device_Code_Name": "GT-I9100",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S II"
-          },
+          "device": "GT-I9100",
           "platforms": [
             "Android_4_0"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#KFTT *) AppleWebKit\/* (KHTML, like Gecko)*CrMo\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "Device_Name": "Kindle Fire HD 7",
-            "Device_Maker": "Amazon.com, Inc.",
-            "Device_Type": "Tablet",
-            "isTablet": "true",
-            "Device_Code_Name": "KFTT",
-            "Device_Brand_Name": "Amazon"
-          },
+          "device": "Amazon KFTT",
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#GT-I9100 *) AppleWebKit\/* (KHTML, like Gecko)*CrMo\/#MAJORVER#.*Safari\/*",
+          "device": "GT-I9100",
           "platforms": [
             "Android_4_0"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#NSZ-GS7\/GX70 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "Device_Code_Name": "NSZ-GS7/GX70",
-            "Device_Maker": "Sony",
-            "Device_Brand_Name": "Sony",
-            "Device_Name": "NSZ-GS7/GX70",
-            "Device_Type": "TV Device"
-          },
+          "device": "Sony NSZ-GS7/GX70",
           "platforms": [
             "Android_3_2_GoogleTV"
           ]
         },
         {
           "match": "Tablet-PC-4 Mozilla\/5.0 (X11; Linux x86_64) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "device": "CatSound Tablet PC 4",
           "properties": {
-            "Browser_Modus": "Desktop Mode",
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "Tablet PC 4",
-            "Device_Maker": "Cat Sound",
-            "Device_Brand_Name": "CatSound",
-            "Device_Name": "Tablet PC 4"
+            "Browser_Modus": "Desktop Mode"
           },
           "platforms": [
             "Android_4_0"
@@ -128,15 +89,7 @@
         },
         {
           "match": "DINO762 Mozilla\/5.0 (X11; Linux x86_64) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "properties": {
-            "Browser_Modus": "Desktop Mode",
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "762 A9",
-            "Device_Maker": "Dino",
-            "Device_Brand_Name": "Dino",
-            "Device_Name": "762 A9 TABLET"
-          },
+          "device": "Dino 762 A9",
           "platforms": [
             "Android_4_1"
           ]
@@ -144,14 +97,9 @@
         {
           "match": "TBD1083 Mozilla\/5.0 (X11; Linux x86_64) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "properties": {
-            "Browser_Modus": "Desktop Mode",
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "TBD1083",
-            "Device_Maker": "Zeki",
-            "Device_Brand_Name": "Zeki",
-            "Device_Name": "TBD1083"
+            "Browser_Modus": "Desktop Mode"
           },
+          "device": "Zeki TBD1083",
           "platforms": [
             "Android_4_1"
           ]
@@ -159,14 +107,9 @@
         {
           "match": "TBDB863 Mozilla\/5.0 (X11; Linux x86_64) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "properties": {
-            "Browser_Modus": "Desktop Mode",
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "TBDB863",
-            "Device_Maker": "Zeki",
-            "Device_Brand_Name": "Zeki",
-            "Device_Name": "TBDB863"
+            "Browser_Modus": "Desktop Mode"
           },
+          "device": "Zeki TBDB863",
           "platforms": [
             "Android_4_3"
           ]
@@ -174,14 +117,9 @@
         {
           "match": "TBDC1093 Mozilla\/5.0 (X11; Linux x86_64) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "properties": {
-            "Browser_Modus": "Desktop Mode",
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "TBDC1093",
-            "Device_Maker": "Zeki",
-            "Device_Brand_Name": "Zeki",
-            "Device_Name": "TBDC1093"
+            "Browser_Modus": "Desktop Mode"
           },
+          "device": "Zeki TBDC1093",
           "platforms": [
             "Android_4_1"
           ]
@@ -189,14 +127,9 @@
         {
           "match": "TERRA_101 Mozilla\/5.0 (X11; Linux x86_64) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "properties": {
-            "Browser_Modus": "Desktop Mode",
-            "Device_Code_Name": "A1021",
-            "Device_Maker": "GOCLEVER",
-            "Device_Brand_Name": "GOCLEVER",
-            "Device_Name": "TERRA 101",
-            "isTablet": "true",
-            "Device_Type": "Tablet"
+            "Browser_Modus": "Desktop Mode"
           },
+          "device": "GOCLEVER A1021",
           "platforms": [
             "Android_4_1"
           ]
@@ -221,6 +154,7 @@
     {
       "userAgent": "Chrome #MAJORVER#.#MINORVER#",
       "engine": "WebKit",
+      "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Chrome #MAJORVER#.#MINORVER#",
@@ -237,39 +171,44 @@
         "Cookies": "true",
         "JavaScript": "true",
         "JavaApplets": "true",
-        "CssVersion": "3",
-        "Device_Code_Name": "general Desktop",
-        "Device_Name": "PC",
-        "Device_Maker": "Various",
-        "Device_Type": "Desktop",
-        "Device_Pointing_Method": "mouse"
+        "CssVersion": "3"
       },
       "children": [
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.* Large Screen Safari\/* GoogleTV\/*",
-          "properties": {
-            "Device_Name": "GoogleTV",
-            "Device_Maker": "Google",
-            "Device_Type": "TV Device"
-          },
+          "device": "GoogleTV",
           "platforms": [
             "Linux_32", "Linux"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "device": "Linux Desktop",
           "platforms": [
             "ChromeOS_i686", "ChromeOS",
-            "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
-            "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B", "OSX_10_10_A", "OSX_10_10_B",
-            "OSX",
-            "Linux_64", "Linux_32", "Linux",
+            "Linux_64", "Linux_32", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "device": "Windows Desktop",
+          "platforms": [
             "NT4", "Win2000", "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32", "Vista_64", "Vista_32",
             "Win7_64", "Win7_32", "Win8_64", "Win8_32", "Win8_1_64", "Win8_1_32"
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
+            "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B", "OSX_10_10_A", "OSX_10_10_B",
+            "OSX"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Chrome anonymized by*",
+          "device": "Windows Desktop",
           "platforms": [
             "NT4", "NT4_1", "Win2000", "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32", "Vista_64", "Vista_32",
             "Win7_64", "Win7_32", "Win8_64", "Win8_32", "Win8_1_64", "Win8_1_32"
@@ -277,6 +216,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Anonymisiert durch*",
+          "device": "Windows Desktop",
           "platforms": [
             "NT4", "NT4_1", "Win2000", "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32", "Vista_64", "Vista_32",
             "Win7_64", "Win7_32", "Win8_64", "Win8_32", "Win8_1_64", "Win8_1_32"

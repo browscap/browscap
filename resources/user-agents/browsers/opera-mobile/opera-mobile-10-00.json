@@ -7,6 +7,7 @@
     {
       "userAgent": "Opera Mobile #MAJORVER#.#MINORVER#",
       "engine": "Presto_2_2",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Opera Mobile #MAJORVER#.#MINORVER#",
@@ -23,11 +24,7 @@
         "Cookies": "true",
         "JavaScript": "true",
         "JavaApplets": "true",
-        "isMobileDevice": "true",
-        "isTablet": "false",
-        "CssVersion": "3",
-        "Device_Type": "Mobile Phone",
-        "Device_Pointing_Method": "touchscreen"
+        "CssVersion": "3"
       },
       "children": [
         {
@@ -41,12 +38,14 @@
         },
         {
           "match": "Browser\/Opera Opera\/*(MTK*)*Version\/#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Phone (Touch)",
           "platforms": [
             "Android"
           ]
         },
         {
           "match": "*Opera\/*(MTK*)*Version\/#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Phone (Touch)",
           "platforms": [
             "Android"
           ]
@@ -55,37 +54,30 @@
           "match": "HTC_Touch_HD2_T8282 Opera\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "HTC_Touch_HD2_T8585 Opera\/#MAJORVER#.#MINORVER#*"
+          "match": "HTC_Touch_HD2_T8585 Opera\/#MAJORVER#.#MINORVER#*",
+          "device": "HTC Touch HD2 T8585"
         },
         {
-          "match": "HTC_Touch_HD_T8282 Opera\/#MAJORVER#.#MINORVER#*"
+          "match": "HTC_Touch_HD_T8282 Opera\/#MAJORVER#.#MINORVER#*",
+          "device": "HTC Touch HD T8282"
         },
         {
           "match": "Huawei\/*\/HUAWEI-G7300 Browser\/Opera *Profile\/MIDP* Opera\/*(MTK*)*Version\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Name": "G7300",
-            "Device_Maker": "Huawei",
-            "Device_Code_Name": "G7300",
-            "Device_Brand_Name": "Huawei"
-          },
+          "device": "Huawei G7300",
           "platforms": [
             "Android"
           ]
         },
         {
           "match": "ASTRO36_TD\/* Browser\/Opera *Profile\/MIDP* Opera\/*(MTK*)*Version\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Name": "X650",
-            "Device_Maker": "Micromax",
-            "Device_Code_Name": "X650",
-            "Device_Brand_Name": "Micromax"
-          },
+          "device": "Micromax X650",
           "platforms": [
             "Android"
           ]
         },
         {
           "match": "* Browser\/Opera *Profile\/MIDP* Opera\/*(MTK*)*Version\/#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Phone (Touch)",
           "platforms": [
             "Android"
           ]

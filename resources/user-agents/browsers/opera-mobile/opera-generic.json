@@ -6,6 +6,7 @@
     {
       "userAgent": "Opera Mobile Generic",
       "engine": "Presto_2_2",
+      "device": "general Mobile Device",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Opera Mobile Generic",
@@ -18,8 +19,6 @@
         "Tables": "true",
         "Cookies": "true",
         "CssVersion": "1",
-        "isMobileDevice": "true",
-        "Device_Type": "Mobile Device",
         "JavaScript": "true"
       },
       "children": [

@@ -9,43 +9,31 @@
       "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
+        "Comment": "Playstation Browser",
+        "Browser": "Playstation Browser",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Sony",
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "Comment": "Playstation Browser",
-        "isMobileDevice": "false",
-        "Browser": "Playstation Browser",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Sony",
         "Frames": "false"
       },
       "children": [
         {
           "match": "Mozilla\/* (PlayStation 4*",
-          "properties": {
-            "Device_Code_Name": "Playstation 4",
-            "Device_Name": "Playstation 4",
-            "Device_Maker": "Sony",
-            "Device_Brand_Name": "Sony",
-            "Device_Type": "TV Device"
-          }
+          "device": "Sony PS4"
         },
         {
           "match": "Mozilla\/* (PLAYSTATION 3*",
-          "properties": {
-            "Device_Code_Name": "Playstation 3",
-            "Device_Name": "Playstation 3",
-            "Device_Maker": "Sony",
-            "Device_Brand_Name": "Sony",
-            "Device_Type": "TV Device"
-          }
+          "device": "Sony PS3"
         }
       ]
     },
     {
       "userAgent": "Playstation Vita",
       "platform": "JAVA",
+      "device": "Sony PS Vita",
       "properties": {
         "Parent": "DefaultProperties",
         "IFrames": "true",
@@ -56,14 +44,7 @@
         "Browser": "Sony Playstation Vita",
         "Browser_Type": "Browser",
         "Browser_Maker": "Sony",
-        "Frames": "false",
-        "Device_Pointing_Method": "unknown",
-        "isMobileDevice": "true",
-        "Device_Code_Name": "PlayStation Vita",
-        "Device_Name": "PS Vita",
-        "Device_Maker": "Sony",
-        "Device_Brand_Name": "Sony",
-        "Device_Type": "Console"
+        "Frames": "false"
       },
       "children": [
         {
@@ -91,30 +72,21 @@
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
-        "JavaScript": "true",
-        "isMobileDevice": "true",
-        "Device_Name": "Playstation",
-        "Device_Code_Name": "Playstation",
-        "Device_Maker": "Sony",
-        "Device_Brand_Name": "Sony",
-        "Device_Type": "Console"
+        "JavaScript": "true"
       },
       "children": [
         {
           "match": "Mozilla\/* (PSP (PlayStation Portable)*)",
+          "device": "Sony PSP",
           "properties": {
-            "Browser": "Sony PSP",
-            "Device_Name": "PSP"
+            "Browser": "Sony PSP"
           }
         },
         {
           "match": "Sony PS2 (Linux)",
+          "device": "Sony PS2",
           "properties": {
-            "Browser": "Sony PS2",
-            "Device_Name": "PS2",
-            "isMobileDevice": "true",
-            "Device_Maker": "Sony",
-            "Device_Type": "Console"
+            "Browser": "Sony PS2"
           },
           "platforms": [
             "Linux"

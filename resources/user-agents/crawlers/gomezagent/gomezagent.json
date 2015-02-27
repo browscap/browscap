@@ -6,6 +6,7 @@
     {
       "userAgent": "GomezAgent",
       "platforms": "Windows",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Site Monitors",

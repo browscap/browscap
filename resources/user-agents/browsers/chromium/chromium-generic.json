@@ -7,6 +7,7 @@
       "userAgent": "Chromium Generic",
       "platform": "Linux",
       "engine": "Blink",
+      "device": "Linux Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Chromium Generic",
@@ -19,13 +20,21 @@
         "Cookies": "true",
         "JavaScript": "true",
         "JavaApplets": "true",
-        "CssVersion": "1",
-        "Device_Name": "PC",
-        "Device_Maker": "Various",
-        "Device_Type": "Desktop",
-        "Device_Pointing_Method": "mouse"
+        "CssVersion": "1"
       },
       "children": [
+        {
+          "match": "Mozilla\/5.0 (*Linux i686*) AppleWebKit\/* (KHTML, like Gecko) Ubuntu Chromium\/*Chrome\/*Safari\/*",
+          "platforms": [
+            "Ubuntu_32"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (*Linux x86_64*) AppleWebKit\/* (KHTML, like Gecko) Ubuntu Chromium\/*Chrome\/*Safari\/*",
+          "platforms": [
+            "Ubuntu_64"
+          ]
+        },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Chromium\/*Chrome\/*Safari\/*",
           "platforms": [

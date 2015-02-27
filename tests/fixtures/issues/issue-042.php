@@ -19,7 +19,7 @@ return [
             'isTablet' => false,
             'Crawler' => false,
             'Device_Name' => 'KBD',
-            'Device_Maker' => 'BlackBerry',
+            'Device_Maker' => 'Research In Motion Limited',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen',
             'Device_Code_Name' => 'KBD',

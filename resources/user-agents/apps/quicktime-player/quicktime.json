@@ -6,6 +6,7 @@
   "userAgents": [
     {
       "userAgent": "QuickTime #MAJORVER#.#MINORVER#",
+      "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "QuickTime #MAJORVER#.#MINORVER#",
@@ -18,35 +19,33 @@
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
-        "Cookies": "true",
-        "Device_Code_Name": "Macintosh",
-        "Device_Maker": "Apple Inc",
-        "Device_Brand_Name": "Apple",
-        "Device_Name": "Macintosh",
-        "Device_Type": "Desktop",
-        "Device_Pointing_Method": "mouse"
+        "Cookies": "true"
       },
       "children": [
         {
           "match": "QuickTime*(qtver=#MAJORVER#.#MINORVER#*os=Mac 10.*)",
+          "device": "Macintosh",
           "platforms": [
             "OSX"
           ]
         },
         {
           "match": "QuickTime*(qtver=#MAJORVER#.#MINORVER#*os=Mac 9.*)",
+          "device": "Macintosh",
           "platforms": [
             "MacPPC"
           ]
         },
         {
           "match": "QuickTime*(qtver=#MAJORVER#.#MINORVER#*os=Windows Me*)",
+          "device": "Windows Desktop",
           "platforms": [
             "WinME"
           ]
         },
         {
           "match": "QuickTime*(qtver=#MAJORVER#.#MINORVER#*os=#PLATFORM#)",
+          "device": "Windows Desktop",
           "platforms": [
             "Win95_2", "Win98_2", "NT4", "Win2000", "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32"
           ]

@@ -6,6 +6,7 @@
     {
       "userAgent": "Microsoft PowerPoint",
       "engine": "Trident",
+      "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Microsoft PowerPoint",
@@ -25,17 +26,14 @@
         "VBScript": "false",
         "JavaApplets": "false",
         "ActiveXControls": "false",
-        "isMobileDevice": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
-        "CssVersion": "2",
-        "Device_Type": "Desktop",
-        "Device_Maker": "Microsoft",
-        "Device_Brand_Name": "Microsoft"
+        "CssVersion": "2"
       },
       "children": [
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) PowerPoint\/12.*",
+          "device": "Macintosh",
           "properties": {
             "Version": "2007",
             "MajorVer": "2007"
@@ -46,6 +44,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) PowerPoint\/14.*",
+          "device": "Macintosh",
           "properties": {
             "Version": "2010",
             "MajorVer": "2010"
@@ -56,6 +55,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) PowerPoint\/15.*",
+          "device": "Macintosh",
           "properties": {
             "Version": "2013",
             "MajorVer": "2013"

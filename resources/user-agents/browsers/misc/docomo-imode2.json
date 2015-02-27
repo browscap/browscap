@@ -6,6 +6,7 @@
     {
       "userAgent": "DoCoMo imode2",
       "platform": "JAVA",
+      "device": "general Mobile Device",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "DoCoMo",
@@ -15,8 +16,6 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "isMobileDevice": "true",
-        "Device_Type": "Mobile Device",
         "Crawler": "false",
         "Browser": "i-mode Browser",
         "Version": "2.0",
@@ -65,14 +64,7 @@
         },
         {
           "match": "DoCoMo\/2.0 N905i(c100;TB;W24H16)*",
-          "properties": {
-            "Device_Code_Name": "N905i",
-            "Device_Maker": "Nec",
-            "Device_Brand_Name": "Nec",
-            "Device_Name": "N905i",
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone"
-          }
+          "device": "NEC N905i"
         },
         {
           "match": "DoCoMo\/2.0 P06B*"
@@ -81,13 +73,15 @@
           "match": "DoCoMo\/2.0 P701iD*"
         },
         {
-          "match": "DoCoMo\/2.0 P900i(c100;TB;W30H14)"
-        },
-        {
-          "match": "DoCoMo\/2.0 P900i*"
-        },
-        {
           "match": "DoCoMo\/2.0 P900iV*"
+        },
+        {
+          "match": "DoCoMo\/2.0 P900i(c100;TB;W30H14)",
+          "device": "DoCoMo P900i"
+        },
+        {
+          "match": "DoCoMo\/2.0 P900i*",
+          "device": "DoCoMo P900i"
         },
         {
           "match": "DoCoMo\/2.0 SH700iS(c100;TB;W24H12)"

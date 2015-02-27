@@ -5,6 +5,7 @@
   "userAgents": [
     {
       "userAgent": "Yeti-Mobile",
+      "device": "general Mobile Device",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "NaverBot",
@@ -12,9 +13,7 @@
         "Frames": "true",
         "Tables": "true",
         "Crawler": "true",
-        "Browser": "NaverBot Mobile",
-        "isMobileDevice": "true",
-        "Device_Type": "Mobile Device"
+        "Browser": "NaverBot Mobile"
       },
       "children": [
         {

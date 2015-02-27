@@ -7,6 +7,7 @@
     {
       "userAgent": "Netscape #MAJORVER#.#MINORVER#",
       "engine": "Gecko",
+      "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Netscape #MAJORVER#.#MINORVER#",
@@ -21,21 +22,40 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "JavaApplets": "true",
-        "Device_Name": "PC",
-        "Device_Maker": "Various",
-        "Device_Type": "Desktop",
-        "Device_Pointing_Method": "mouse"
+        "JavaApplets": "true"
       },
       "children": [
         {
           "match": "Mozilla\/#MAJORVER#.*(#PLATFORM#)*",
+          "device": "Linux Desktop",
           "platforms": [
-            "IRIX64_2", "Linux", "MacPPC_3", "Mac68K", "OpenVMS", "OS2", "SunOS", "Win16", "Win95", "Win98", "NT_2", "WinXPa_32"
+            "Linux"
           ]
         },
         {
-          "match": "Mozilla\/#MAJORVER#.*(*compatible;*"
+          "match": "Mozilla\/#MAJORVER#.*(#PLATFORM#)*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win16", "Win95", "Win98", "NT_2", "WinXPa_32"
+          ]
+        },
+        {
+          "match": "Mozilla\/#MAJORVER#.*(#PLATFORM#)*",
+          "device": "Macintosh",
+          "platforms": [
+            "MacPPC_3", "Mac68K"
+          ]
+        },
+        {
+          "match": "Mozilla\/#MAJORVER#.*(#PLATFORM#)*",
+          "device": "general Desktop",
+          "platforms": [
+            "IRIX64_2", "OpenVMS", "OS2", "SunOS"
+          ]
+        },
+        {
+          "match": "Mozilla\/#MAJORVER#.*(*compatible;*",
+          "device": "general Desktop"
         }
       ]
     }

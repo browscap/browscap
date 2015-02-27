@@ -6,6 +6,7 @@
     {
       "userAgent": "BlackBerry 4.2",
       "platform": "RIMOS_4_2",
+      "device": "general Mobile Phone (old Blackberry)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "BlackBerry 4.2",
@@ -16,14 +17,7 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "isMobileDevice": "true",
-        "isTablet": "false",
         "CssVersion": "2",
-        "Device_Name": "Blackberry",
-        "Device_Maker": "Research In Motion Limited",
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "Blackberry",
-        "Device_Brand_Name": "RIM",
         "Version": "4.2",
         "MajorVer": "4",
         "MinorVer": "2"
@@ -31,235 +25,78 @@
       "children": [
         {
           "match": "BlackBerry8100\/4.2*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 8100",
-            "Device_Name": "BlackBerry 8100"
-          }
-        },
-        {
-          "match": "BlackBerry8100\/4.2* VendorID\/100",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 8100",
-            "Device_Name": "BlackBerry 8100"
-          }
-        },
-        {
-          "match": "BlackBerry8100\/4.2* VendorID\/102",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 8100",
-            "Device_Name": "BlackBerry 8100"
-          }
-        },
-        {
-          "match": "BlackBerry8100\/4.2* VendorID\/13?",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 8100",
-            "Device_Name": "BlackBerry 8100"
-          }
-        },
-        {
-          "match": "BlackBerry8100\/4.2* VendorID\/214",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 8100",
-            "Device_Name": "BlackBerry 8100"
-          }
+          "device": "Blackberry 8100"
         },
         {
           "match": "BlackBerry8300\/4.2*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 8300",
-            "Device_Name": "BlackBerry 8300"
-          }
+          "device": "Blackberry 8300"
         },
         {
           "match": "BlackBerry8310\/4.2*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 8310",
-            "Device_Name": "BlackBerry 8310"
-          }
-        },
-        {
-          "match": "BlackBerry8310\/4.2* VendorID\/107*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 8310",
-            "Device_Name": "BlackBerry 8310"
-          }
-        },
-        {
-          "match": "BlackBerry8310\/4.2* VendorID\/125*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 8310",
-            "Device_Name": "BlackBerry 8310"
-          }
-        },
-        {
-          "match": "BlackBerry8310\/4.2* VendorID\/13*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 8310",
-            "Device_Name": "BlackBerry 8310"
-          }
-        },
-        {
-          "match": "BlackBerry8310\/4.2* VendorID\/179",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 8310",
-            "Device_Name": "BlackBerry 8310"
-          }
-        },
-        {
-          "match": "BlackBerry8310\/4.2* VendorID\/2*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 8310",
-            "Device_Name": "BlackBerry 8310"
-          }
-        },
-        {
-          "match": "BlackBerry8310\/4.2* VendorID\/21*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 8310",
-            "Device_Name": "BlackBerry 8310"
-          }
-        },
-        {
-          "match": "BlackBerry8310\/4.2* VendorID\/274",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 8310",
-            "Device_Name": "BlackBerry 8310"
-          }
+          "device": "Blackberry 8310"
         },
         {
           "match": "BlackBerry8320\/4.2*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 8320",
-            "Device_Name": "BlackBerry 8320"
-          }
+          "device": "Blackberry 8320"
         },
         {
           "match": "BlackBerry8700\/4.2*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 8700",
-            "Device_Name": "BlackBerry 8700"
-          }
+          "device": "Blackberry 8700"
         },
         {
           "match": "BlackBerry8703e\/4.2*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 8703e",
-            "Device_Name": "BlackBerry 8703e"
-          }
+          "device": "Blackberry 8703e"
         },
         {
           "match": "BlackBerry8800\/4.2*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 8800",
-            "Device_Name": "BlackBerry 8800"
-          }
-        },
-        {
-          "match": "BlackBerry8800\/4.2* VendorID\/11*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 8800",
-            "Device_Name": "BlackBerry 8800"
-          }
-        },
-        {
-          "match": "BlackBerry8800\/4.2* VendorID\/123*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 8800",
-            "Device_Name": "BlackBerry 8800"
-          }
+          "device": "Blackberry 8800"
         },
         {
           "match": "BlackBerry8820\/4.2*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 8820",
-            "Device_Name": "BlackBerry 8820"
-          }
+          "device": "Blackberry 8820"
         },
         {
           "match": "BlackBerry8830\/4.2*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 8830",
-            "Device_Name": "BlackBerry 8830"
-          }
-        },
-        {
-          "match": "BlackBerry8830\/4.2* VendorID\/105",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 8830",
-            "Device_Name": "BlackBerry 8830"
-          }
-        },
-        {
-          "match": "BlackBerry8830\/4.2* VendorID\/189",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 8830",
-            "Device_Name": "BlackBerry 8830"
-          }
-        },
-        {
-          "match": "BlackBerry8830\/4.2* VendorID\/225*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 8830",
-            "Device_Name": "BlackBerry 8830"
-          }
+          "device": "Blackberry 8830"
         },
         {
           "match": "Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows NT 5.0) BlackBerry8100\/4.2* Porfile\/MIDP-2.0 Configuration\/CLDC-1.1*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 8100",
-            "Device_Name": "BlackBerry 8100"
-          },
+          "device": "Blackberry 8100",
           "platforms": [
             "WinMobile"
           ]
         },
         {
           "match": "Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows NT 5.0) BlackBerry8100\/4.2* VendorID\/100",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 8100",
-            "Device_Name": "BlackBerry 8100"
-          },
+          "device": "Blackberry 8100",
           "platforms": [
             "WinMobile"
           ]
         },
         {
           "match": "Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows NT 5.0) BlackBerry8100\/4.2* VendorID\/102",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 8100",
-            "Device_Name": "BlackBerry 8100"
-          },
+          "device": "Blackberry 8100",
           "platforms": [
             "WinMobile"
           ]
         },
         {
           "match": "Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows NT 5.0) BlackBerry8800\/4.2*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 8800",
-            "Device_Name": "BlackBerry 8800"
-          },
+          "device": "Blackberry 8800",
           "platforms": [
             "WinMobile"
           ]
         },
         {
           "match": "Mozilla\/2.0 (compatible*; MSIE 3.02; Windows CE*BlackBerry8820\/4.2*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 8820",
-            "Device_Name": "BlackBerry 8820"
-          },
+          "device": "Blackberry 8820",
           "platforms": [
             "WinCE"
           ]
         },
         {
           "match": "Mozilla\/2.0 (compatible*; MSIE 3.02; Windows CE*BlackBerry8830\/4.2*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 8830",
-            "Device_Name": "BlackBerry 8830"
-          },
+          "device": "Blackberry 8830",
           "platforms": [
             "WinCE"
           ]

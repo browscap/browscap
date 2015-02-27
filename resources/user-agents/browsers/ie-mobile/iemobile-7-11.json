@@ -7,6 +7,7 @@
       "userAgent": "IEMobile 7.11",
       "platform": "WinMobile",
       "engine": "Trident_3_1",
+      "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "IEMobile",
@@ -28,11 +29,6 @@
         "isSyndicationReader": "false",
         "Crawler": "false",
         "CssVersion": "2",
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "general Mobile Device",
-        "Device_Name": "general Mobile Device",
-        "isMobileDevice": "true",
-        "isTablet": "false",
         "Version": "7.11",
         "MajorVer": "7",
         "MinorVer": "11"
@@ -40,12 +36,7 @@
       "children": [
         {
           "match": "HTC_Touch_HD_T8282\/480x800 (compatible*; MSIE 6.0; Windows CE; IEMobile 7.11)",
-          "properties": {
-            "Device_Code_Name": "Touch HD T8282",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "Touch HD T8282"
-          },
+          "device": "HTC Touch HD T8282",
           "platforms": [
             "WinCE"
           ]
@@ -58,12 +49,28 @@
         },
         {
           "match": "Mozilla\/4.0 (compatible*; MSIE 6.0; Windows CE; IEMobile 7.11) Vodafone\/1.0\/HTC_Touch_Pro\/*",
-          "properties": {
-            "Device_Code_Name": "Touch Pro",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "Touch Pro"
-          },
+          "device": "HTC Touch Pro",
+          "platforms": [
+            "WinCE"
+          ]
+        },
+        {
+          "match": "Xda_orbit_2\/240x320 (*compatible*;*MSIE 6.0; Windows CE; IEMobile 7.11*",
+          "device": "XDA Orbit2",
+          "platforms": [
+            "WinCE"
+          ]
+        },
+        {
+          "match": "Xda_Stellar? 240x320 (*compatible*;*MSIE 6.0; Windows CE; IEMobile 7.11*",
+          "device": "XDA Stellar",
+          "platforms": [
+            "WinCE"
+          ]
+        },
+        {
+          "match": "HTC_TyTN_II Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile 7.11)",
+          "device": "HTC TyTN II",
           "platforms": [
             "WinCE"
           ]

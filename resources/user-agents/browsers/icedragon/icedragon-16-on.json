@@ -6,8 +6,9 @@
   "userAgents": [
     {
       "userAgent": "IceDragon #MAJORVER#.#MINORVER#",
-      "platform": "Linux",
+      "platform": "Win32",
       "engine": "Gecko_Dynamic",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "IceDragon #MAJORVER#.#MINORVER#",
@@ -25,15 +26,9 @@
         "BackgroundSounds": "false",
         "VBScript": "false",
         "ActiveXControls": "false",
-        "isMobileDevice": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
-        "CssVersion": "3",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Linux Desktop",
-        "Device_Name": "Linux Desktop",
-        "Device_Pointing_Method": "mouse",
-        "Device_Maker": "Various"
+        "CssVersion": "3"
       },
       "children": [
         {
