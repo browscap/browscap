@@ -18,8 +18,6 @@
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
-        "Alpha": "true",
-        "Win32": "true",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
