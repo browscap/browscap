@@ -6,6 +6,7 @@
     {
       "userAgent": "ZTE",
       "platform": "JAVA",
+      "device": "general Mobile Device",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "ZTE",
@@ -20,7 +21,6 @@
         "VBScript": "false",
         "JavaApplets": "false",
         "ActiveXControls": "false",
-        "isTablet": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
         "Browser": "ZTE",
@@ -28,16 +28,16 @@
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
-        "isMobileDevice": "true",
-        "Device_Type": "Mobile Device",
         "CssVersion": "2"
       },
       "children": [
         {
-          "match": "ZTE-C6100\/1.0 SMIT-WAP\/*"
+          "match": "ZTE-C6100\/1.0 SMIT-WAP\/*",
+          "device": "ZTE C6100"
         },
         {
-          "match": "ZTE-C78\/1.0 SMIT-Browser\/2.0*"
+          "match": "ZTE-C78\/1.0 SMIT-Browser\/2.0*",
+          "device": "ZTE C78"
         }
       ]
     }

@@ -6,6 +6,7 @@
     {
       "userAgent": "Lycoris Desktop\/LX",
       "engine": "Gecko",
+      "device": "Linux Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Lycoris Desktop\/LX",
@@ -17,11 +18,7 @@
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
-        "JavaScript": "true",
-        "Device_Name": "PC",
-        "Device_Maker": "Various",
-        "Device_Type": "Desktop",
-        "Device_Pointing_Method": "mouse"
+        "JavaScript": "true"
       },
       "children": [
         {

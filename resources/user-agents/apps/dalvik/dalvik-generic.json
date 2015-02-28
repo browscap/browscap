@@ -7,6 +7,7 @@
       "userAgent": "Dalvik Generic",
       "platform": "Android",
       "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Dalvik Generic",
@@ -18,12 +19,7 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "isMobileDevice": "true",
-        "isTablet": "false",
-        "CssVersion": "3",
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "general Mobile Device",
-        "Device_Name": "general Mobile Device"
+        "CssVersion": "3"
       },
       "children": [
         {

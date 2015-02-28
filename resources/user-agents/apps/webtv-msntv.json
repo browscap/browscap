@@ -6,6 +6,7 @@
     {
       "userAgent": "WebTV",
       "platform": "Windows",
+      "device": "WebTV",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "WebTV\/MSNTV",
@@ -14,10 +15,7 @@
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
-        "Cookies": "true",
-        "Device_Name": "WebTV",
-        "Device_Maker": "Microsoft",
-        "Device_Type": "TV Device"
+        "Cookies": "true"
       },
       "children": [
         {
@@ -118,10 +116,9 @@
         {
           "match": "Mozilla\/3.01 (compatible; Netgem\/*; Linux 2.2)",
           "properties": {
-            "Browser": "Netgem Set Top Box",
-            "Device_Code_Name": "general TV Device",
-            "Device_Name": "general TV Device"
+            "Browser": "Netgem Set Top Box"
           },
+          "device": "general TV Device",
           "platforms": [
             "Linux"
           ]

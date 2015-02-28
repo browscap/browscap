@@ -27,6 +27,7 @@
         },
         {
           "match": "Mozilla\/5.0 (bl.uk_lddc_bot; #PLATFORM#)*",
+          "device": "Linux Desktop",
           "properties": {
             "Browser": "bl.uk_lddc_bot",
             "Browser_Maker": "The British Legal Deposit Libraries"

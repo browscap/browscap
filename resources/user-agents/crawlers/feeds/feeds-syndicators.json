@@ -55,6 +55,7 @@
         },
         {
           "match": "Akregator\/*",
+          "device": "Linux Desktop",
           "properties": {
             "Browser": "akregator",
             "Browser_Maker": "KDE e.V."
@@ -79,6 +80,7 @@
         },
         {
           "match": "AppleSyndication\/*",
+          "device": "Macintosh",
           "properties": {
             "Browser": "Safari RSS"
           },
@@ -253,6 +255,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#; aggregator:FeedParser; *) Gecko\/*",
+          "device": "Linux Desktop",
           "engine": "Gecko",
           "properties": {
             "Browser": "Jakarta FeedParser",
@@ -265,6 +268,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#; aggregator:NewsMonster; *) Gecko\/*",
           "engine": "Gecko",
+          "device": "Linux Desktop",
           "properties": {
             "Browser": "NewsMonster",
             "Browser_Maker": "Kevin Burton"
@@ -275,6 +279,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#; aggregator:Rojo; *) Gecko\/*",
+          "device": "Linux Desktop",
           "engine": "Gecko",
           "properties": {
             "Browser": "Rojo",
@@ -294,6 +299,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#; aggregator:Tailrank (Spinn3r 2.3); *) Gecko\/*",
           "engine": "Gecko",
+          "device": "Linux Desktop",
           "properties": {
             "Browser": "Spinn3r RSS Aggregator",
             "Browser_Maker": "Tailrank Inc",
@@ -308,6 +314,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#; aggregator:Spinn3r (Spinn3r 3.0); *) Gecko\/*",
           "engine": "Gecko",
+          "device": "Linux Desktop",
           "properties": {
             "Browser": "Spinn3r RSS Aggregator",
             "Browser_Maker": "Tailrank Inc",
@@ -322,6 +329,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#; aggregator:Spinn3r (Spinn3r 3.1); *) Gecko\/*",
           "engine": "Gecko",
+          "device": "Linux Desktop",
           "properties": {
             "Browser": "Spinn3r RSS Aggregator",
             "Browser_Maker": "Tailrank Inc",
@@ -336,6 +344,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#; aggregator:Spinn3r (Spinn3r *); *) Gecko\/*",
           "engine": "Gecko",
+          "device": "Linux Desktop",
           "properties": {
             "Browser": "Spinn3r RSS Aggregator",
             "Browser_Maker": "Tailrank Inc"
@@ -444,18 +453,20 @@
           }
         },
         {
-          "match": "Mozilla\/* (*Genieo*\/1.0*)",
+          "match": "Mozilla\/* (*Genieo*\/1.0*",
           "properties": {
             "Browser": "Genieo RSS Reader",
+            "Browser_Maker": "Genieo",
             "Version": "1.0",
             "MajorVer": "1",
             "MinorVer": "0"
           }
         },
         {
-          "match": "Mozilla\/* (*Genieo*\/*)",
+          "match": "Mozilla\/* (*Genieo*\/*",
           "properties": {
-            "Browser": "Genieo RSS Reader"
+            "Browser": "Genieo RSS Reader",
+            "Browser_Maker": "Genieo"
           }
         },
         {
@@ -477,20 +488,13 @@
         },
         {
           "match": "FeeddlerRSS 2.4 (iPad#PLATFORM#)",
+          "device": "iPad",
           "properties": {
             "Browser": "Feeddler RSS Reader",
             "Browser_Maker": "Che-Bin Liu",
             "Version": "2.4",
             "MajorVer": "2",
-            "MinorVer": "4",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "iPad",
-            "Device_Name": "iPad",
-            "Device_Maker": "Apple Inc",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Apple",
-            "isMobileDevice": "true",
-            "isTablet": "true"
+            "MinorVer": "4"
           },
           "platforms": [
             "iOS_E_7_1", "iOS_E_8_0"
@@ -511,17 +515,10 @@
         },
         {
           "match": "FeeddlerRSS * (iPad#PLATFORM#)",
+          "device": "iPad",
           "properties": {
             "Browser": "Feeddler RSS Reader",
-            "Browser_Maker": "Che-Bin Liu",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "iPad",
-            "Device_Name": "iPad",
-            "Device_Maker": "Apple Inc",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Apple",
-            "isMobileDevice": "true",
-            "isTablet": "true"
+            "Browser_Maker": "Che-Bin Liu"
           },
           "platforms": [
             "iOS_E_7_1", "iOS_E_8_0"
@@ -597,6 +594,7 @@
         },
         {
           "match": "NewsBlur Favicon Fetcher*Mozilla/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/*",
+          "device": "Macintosh",
           "properties": {
             "Browser": "NewsBlur Favicon Fetcher",
             "Browser_Maker": "www.newsblur.com"
@@ -607,6 +605,7 @@
         },
         {
           "match": "NewsBlur Feed Fetcher*Mozilla/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/*",
+          "device": "Macintosh",
           "properties": {
             "Browser": "NewsBlur Favicon Fetcher",
             "Browser_Maker": "www.newsblur.com"
@@ -617,6 +616,7 @@
         },
         {
           "match": "NewsBlur Page Fetcher*Mozilla/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/*",
+          "device": "Macintosh",
           "properties": {
             "Browser": "NewsBlur Favicon Fetcher",
             "Browser_Maker": "www.newsblur.com"

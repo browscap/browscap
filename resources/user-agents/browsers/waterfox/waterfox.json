@@ -1,6 +1,6 @@
 {
   "division": "Waterfox #MAJORVER#.#MINORVER#",
-  "versions": [32, 31, 30, 29, 28, 27, 26],
+  "versions": [34, 33, 32, 31, 30, 29, 28, 27, 26],
   "sortIndex": 3145,
   "lite": false,
   "userAgents": [
@@ -8,6 +8,7 @@
       "userAgent": "Waterfox #MAJORVER#.#MINORVER#",
       "platform": "Windows",
       "engine": "Gecko_Dynamic",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Waterfox #MAJORVER#.#MINORVER#",
@@ -22,11 +23,7 @@
         "Cookies": "true",
         "JavaScript": "true",
         "JavaApplets": "true",
-        "CssVersion": "2",
-        "Device_Name": "PC",
-        "Device_Maker": "Various",
-        "Device_Type": "Desktop",
-        "Device_Pointing_Method": "mouse"
+        "CssVersion": "2"
       },
       "children": [
         {

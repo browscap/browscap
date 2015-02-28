@@ -6,6 +6,7 @@
     {
       "userAgent": "BlackBerry 5.0",
       "platform": "RIMOS_5_0",
+      "device": "general Mobile Phone (old Blackberry)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "BlackBerry 5.0",
@@ -16,130 +17,74 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "isMobileDevice": "true",
-        "isTablet": "false",
         "CssVersion": "2",
-        "Device_Name": "Blackberry",
-        "Device_Maker": "Research In Motion Limited",
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "Blackberry",
-        "Device_Brand_Name": "RIM",
         "Version": "5.0",
         "MajorVer": "5"
       },
       "children": [
         {
           "match": "BlackBerry8330\/5.0*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 8330",
-            "Device_Name": "BlackBerry 8330"
-          }
+          "device": "Blackberry 8330"
         },
         {
           "match": "BlackBerry8520\/5.0*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 8520",
-            "Device_Name": "Curve"
-          }
+          "device": "Blackberry 8520"
         },
         {
           "match": "BlackBerry8530\/5.0*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 8530",
-            "Device_Name": "BlackBerry 8530"
-          }
+          "device": "Blackberry 8530"
         },
         {
           "match": "BlackBerry8900\/5.0*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 8900",
-            "Device_Name": "BlackBerry 8900"
-          }
+          "device": "Blackberry 8900"
         },
         {
           "match": "BlackBerry8980\/5.0*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 8980",
-            "Device_Name": "BlackBerry 8980"
-          }
+          "device": "Blackberry 8980"
         },
         {
           "match": "BlackBerry9000\/5.0*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 9000",
-            "Device_Name": "Bold"
-          }
+          "device": "Blackberry 9000"
         },
         {
           "match": "BlackBerry9100\/5.0*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 9100",
-            "Device_Name": "BlackBerry 9100"
-          }
+          "device": "Blackberry 9100"
         },
         {
           "match": "BlackBerry9105\/5.0*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 9105",
-            "Device_Name": "BlackBerry 9105"
-          }
+          "device": "Blackberry 9105"
         },
         {
           "match": "BlackBerry9300\/5.0*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 9300",
-            "Device_Name": "Curve 3G"
-          }
+          "device": "Blackberry 9300"
         },
         {
           "match": "BlackBerry9500\/5.0*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 9500",
-            "Device_Name": "Storm"
-          }
+          "device": "Blackberry 9500"
         },
         {
           "match": "BlackBerry9520\/5.0*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 9520",
-            "Device_Name": "BlackBerry 9520"
-          }
+          "device": "Blackberry 9520"
         },
         {
           "match": "BlackBerry9530\/5.0*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 9530",
-            "Device_Name": "BlackBerry 9530"
-          }
+          "device": "Blackberry 9530"
         },
         {
           "match": "BlackBerry9550\/5.0*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 9550",
-            "Device_Name": "BlackBerry 9550"
-          }
+          "device": "Blackberry 9550"
         },
         {
           "match": "BlackBerry9630\/5.0*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 9630",
-            "Device_Name": "BlackBerry 9630"
-          }
+          "device": "Blackberry 9630"
         },
         {
           "match": "BlackBerry9650\/5.0*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 9650",
-            "Device_Name": "BlackBerry 9650"
-          }
+          "device": "Blackberry 9650"
         },
         {
           "match": "BlackBerry9700\/5.0*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 9700",
-            "Device_Name": "Bold",
-            "Device_Pointing_Method": "clickwheel"
-          }
+          "device": "Blackberry 9700"
         }
       ]
     }

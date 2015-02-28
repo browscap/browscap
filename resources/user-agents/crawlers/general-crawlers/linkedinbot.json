@@ -31,15 +31,7 @@
         {
           "match": "LIAuthLibrary:0.0.2 com.linkedin.android:3.4.2 TCL_ALCATEL ONE TOUCH 4037T:android_4.4.2*",
           "engine": "WebKit",
-          "properties": {
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "4037T",
-            "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Alcatel",
-            "Device_Name": "One Touch Evolve II Black"
-          },
+          "device": "Alcatel 4037T",
           "platforms": [
             "Android_4_4"
           ]

@@ -6,12 +6,11 @@
     {
       "userAgent": "ccWAP",
       "platform": "JAVA",
+      "device": "general Mobile Device",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "ccWAP",
-        "Browser": "ccWAP",
-        "isMobileDevice": "true",
-        "Device_Type": "Mobile Device"
+        "Browser": "ccWAP"
       },
       "children": [
         {

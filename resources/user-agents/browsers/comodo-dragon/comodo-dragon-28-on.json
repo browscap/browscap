@@ -8,6 +8,7 @@
       "userAgent": "Comodo Dragon #MAJORVER#.#MINORVER#",
       "platform": "Linux",
       "engine": "Blink",
+      "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Comodo Dragon #MAJORVER#.#MINORVER#",
@@ -22,18 +23,20 @@
         "Cookies": "true",
         "JavaScript": "true",
         "JavaApplets": "true",
-        "CssVersion": "3",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Linux Desktop",
-        "Device_Name": "Linux Desktop",
-        "Device_Pointing_Method": "mouse",
-        "Device_Maker": "Various"
+        "CssVersion": "3"
       },
       "children": [
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Comodo?Dragon\/#MAJORVER#.#MINORVER#*Chrome\/#MAJORVER#.*Safari\/*",
+          "device": "Linux Desktop",
           "platforms": [
-            "Linux_64", "Linux_32", "Linux",
+            "Linux_64", "Linux_32", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Comodo?Dragon\/#MAJORVER#.#MINORVER#*Chrome\/#MAJORVER#.*Safari\/*",
+          "device": "Windows Desktop",
+          "platforms": [
             "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32", "Vista_64", "Vista_32",
             "Win7_x64", "Win7_64", "Win7_32",
             "Win8_x64", "Win8_64", "Win8_32",
@@ -42,8 +45,15 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Dragon\/#MAJORVER#.#MINORVER#*Chrome\/#MAJORVER#.*Safari\/*",
+          "device": "general Desktop",
           "platforms": [
-            "Linux_64", "Linux_32", "Linux",
+            "Linux_64", "Linux_32", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Dragon\/#MAJORVER#.#MINORVER#*Chrome\/#MAJORVER#.*Safari\/*",
+          "device": "Windows Desktop",
+          "platforms": [
             "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32", "Vista_64", "Vista_32",
             "Win7_x64", "Win7_64", "Win7_32",
             "Win8_x64", "Win8_64", "Win8_32",

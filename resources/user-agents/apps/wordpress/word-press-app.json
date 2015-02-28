@@ -6,6 +6,7 @@
     {
       "userAgent": "WordPress App",
       "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "WordPress App",
@@ -19,39 +20,25 @@
         {
           "match": "wp-iphone\/4.4 (#PLATFORM#, iPad) Mobile*",
           "properties": {
-            "Browser": "WordPress App",
             "Version": "4.4",
             "MajorVer": "4",
-            "MinorVer": "4",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "iPad",
-            "Device_Name": "iPad",
-            "Device_Maker": "Apple Inc",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
+            "MinorVer": "4"
           },
+          "device": "iPad",
           "platforms": [
             "iOS_K_8_0", "iOS_K"
           ]
         },
         {
           "match": "wp-iphone\/* (#PLATFORM#, iPad) Mobile*",
-          "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "iPad",
-            "Device_Name": "iPad",
-            "Device_Maker": "Apple Inc",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-          },
+          "device": "iPad",
           "platforms": [
             "iOS_K_8_0", "iOS_K"
           ]
         },
         {
           "match": "wp-iphone\/4.4 (#PLATFORM#) Mobile*",
+          "device": "general Mobile Device (Apple)",
           "properties": {
             "Version": "4.4",
             "MajorVer": "4",
@@ -63,21 +50,18 @@
         },
         {
           "match": "wp-iphone\/* (#PLATFORM#) Mobile*",
+          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_K_8_0", "iOS_K"
           ]
         },
         {
           "match": "wp-android\/3.0* (#PLATFORM#GT-N7100\/*",
+          "device": "Samsung GT-N7100",
           "properties": {
             "Version": "3.0",
             "MajorVer": "3",
-            "MinorVer": "0",
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "GT-N7100",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Note II"
+            "MinorVer": "0"
           },
           "platforms": [
             "Android_4_4_D", "Android"
@@ -85,13 +69,7 @@
         },
         {
           "match": "wp-android\/* (#PLATFORM#GT-N7100\/*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "GT-N7100",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Note II"
-          },
+          "device": "Samsung GT-N7100",
           "platforms": [
             "Android_4_4_D", "Android"
           ]

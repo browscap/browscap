@@ -7,6 +7,7 @@
     {
       "userAgent": "Vivaldi #MAJORVER#.#MINORVER#",
       "engine": "Blink",
+      "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Vivaldi #MAJORVER#.#MINORVER#",
@@ -29,17 +30,14 @@
         "BackgroundSounds": "false",
         "VBScript": "false",
         "ActiveXControls": "false",
-        "isMobileDevice": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
-        "CssVersion": "3",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "general Desktop",
-        "Device_Name": "general Desktop"
+        "CssVersion": "3"
       },
       "children": [
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Chrome\/* Vivaldi\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "device": "Macintosh",
           "platforms": [
             "OSX_10_9_A", "OSX_10_9_B", "OSX_10_10_A", "OSX_10_10_B",
             "OSX"

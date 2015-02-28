@@ -6,6 +6,8 @@
   "userAgents": [
     {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER#",
+      "device": "general Mobile Phone (Touch)",
+      "platform": "Android",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "UC Browser #MAJORVER#.#MINORVER#",
@@ -22,67 +24,72 @@
         "Cookies": "true",
         "JavaScript": "true",
         "JavaApplets": "true",
-        "isMobileDevice": "true",
-        "isTablet": "false",
-        "CssVersion": "3",
-        "Device_Type": "Mobile Phone",
-        "Device_Pointing_Method": "touchscreen"
+        "CssVersion": "3"
       },
       "children": [
         {
           "match": "#PLATFORM#) UCWEB#MAJORVER#.#MINORVER#*",
           "engine": "WebKit",
           "platforms": [
-            "Android_2_3_C", "Android_2_3_E", "Android_4_0_B", "Android_4_1_B", "Android_4_2_B", "Android_4_3_B"
+            "Android_2_3_C",
+            "Android_2_3_E",
+            "Android_4_0_B",
+            "Android_4_1_B",
+            "Android_4_2_B",
+            "Android_4_3_B"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
           "engine": "U3",
           "platforms": [
-            "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android"
+            "Android_2_2",
+            "Android_2_3",
+            "Android_4_0",
+            "Android_4_1",
+            "Android_4_2",
+            "Android_4_3",
+            "Android"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#*Safari\/*",
           "engine": "WebKit",
           "platforms": [
-            "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android"
+            "Android_2_2",
+            "Android_2_3",
+            "Android_4_0",
+            "Android_4_1",
+            "Android_4_2",
+            "Android_4_3",
+            "Android"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
           "engine": "WebKit",
           "platforms": [
-            "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android"
+            "Android_2_3",
+            "Android_4_0",
+            "Android_4_1",
+            "Android_4_2",
+            "Android_4_3",
+            "Android"
           ]
         },
         {
           "match": "UCWEB\/*(#PLATFORM#SAMSUNG; GT-I8350*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
           "engine": "U2",
-          "properties": {
-            "Device_Name": "GT-I8350",
-            "Device_Maker": "Samsung",
-            "Device_Code_Name": "GT-I8350",
-            "Device_Brand_Name": "Samsung",
-            "Device_Pointing_Method": "touchscreen"
-          },
+          "device": "Samsung GT-I8350",
           "platforms": [
-            "WinPhone7_B", "WinPhone8_B"
+            "WinPhone7_B",
+            "WinPhone8_B"
           ]
         },
         {
           "match": "UCWEB\/*(*GT-P3100*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
           "engine": "U2",
-          "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Tablet",
-            "isTablet": "true",
-            "Device_Code_Name": "GT-P3100",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Tab 2 7.0"
-          },
+          "device": "Samsung GT-P3100",
           "platforms": [
             "Android_4_0"
           ]
@@ -91,10 +98,23 @@
           "match": "UCWEB\/*(#PLATFORM#) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
           "engine": "U2",
           "platforms": [
-            "Android_2_1_C", "Android_2_2_C", "Android_2_3_D", "Android_4_0_C", "Android_4_1_C", "Android_4_2_C", "Android_4_3_C",
+            "Android_2_1_C",
+            "Android_2_2_C",
+            "Android_2_3_D",
+            "Android_4_0_C",
+            "Android_4_1_C",
+            "Android_4_2_C",
+            "Android_4_3_C",
             "Android_4_4_C",
-            "iOS_D_5_0", "iOS_D_5_1", "iOS_D_6_0", "iOS_D_6_1", "iOS_D_7_0", "iOS_D_7_1", "iOS_D_8_0",
-            "WinPhone7_B", "WinPhone8_B",
+            "iOS_D_5_0",
+            "iOS_D_5_1",
+            "iOS_D_6_0",
+            "iOS_D_6_1",
+            "iOS_D_7_0",
+            "iOS_D_7_1",
+            "iOS_D_8_0",
+            "WinPhone7_B",
+            "WinPhone8_B",
             "SymbianOS_B"
           ]
         },
@@ -115,6 +135,7 @@
         {
           "match": "UCWEB\/*(Java*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
           "engine": "U2",
+          "device": "general Mobile Device",
           "platforms": [
             "JAVA"
           ]
@@ -122,16 +143,7 @@
         {
           "match": "UCWEB\/*(MIDP-2.0*C2305) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
           "engine": "U2",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "C2305",
-            "Device_Name": "Xperia C HSPA+",
-            "Device_Maker": "Sony",
-            "Device_Brand_Name": "Sony",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-          },
+          "device": "Sony C2305",
           "platforms": [
             "Android_4_2"
           ]
@@ -146,32 +158,41 @@
         {
           "match": "Mozilla\/*(iPad; #PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
           "engine": "U3",
-          "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "iPad",
-            "Device_Name": "iPad",
-            "Device_Maker": "Apple Inc",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-          },
+          "device": "iPad",
           "platforms": [
-            "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_0"
+            "iOS_C_7_1",
+            "iOS_C_7_0",
+            "iOS_C_8_0"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "userAgent": "UC Browser #MAJORVER#.#MINORVER# for Desktop",
+      "device": "general Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "UC Browser #MAJORVER#.#MINORVER# for Desktop",
+        "Browser": "UC Browser",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "UC Web",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Win32": "true",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "true",
+        "CssVersion": "3"
+      },
+      "children": [
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Chrome\/* Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
           "engine": "WebKit",
-          "properties": {
-            "Device_Code_Name": "Macintosh",
-            "isMobileDevice": "false",
-            "isTablet": "false",
-            "Device_Name": "Macintosh",
-            "Device_Brand_Name": "Apple",
-            "Device_Maker": "Apple Inc",
-            "Device_Type": "Desktop",
-            "Device_Pointing_Method": "mouse"
-          },
+          "device": "Macintosh",
           "platforms": [
             "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
             "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B", "OSX_10_10_A", "OSX_10_10_B",

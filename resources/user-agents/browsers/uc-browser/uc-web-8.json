@@ -7,6 +7,7 @@
     {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER#",
       "engine": "WebKit",
+      "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "UC Browser #MAJORVER#.#MINORVER#",
@@ -23,15 +24,12 @@
         "Cookies": "true",
         "JavaScript": "true",
         "JavaApplets": "true",
-        "isMobileDevice": "true",
-        "isTablet": "false",
-        "CssVersion": "3",
-        "Device_Type": "Mobile Phone",
-        "Device_Pointing_Method": "touchscreen"
+        "CssVersion": "3"
       },
       "children": [
         {
           "match": "#PLATFORM#) UCWEB#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Phone (Touch)",
           "platforms": [
             "Android_2_3_C", "Android_2_3_E", "Android_4_0_B", "Android_4_1_B", "Android_4_2_B", "Android_4_3_B"
           ]
@@ -39,12 +37,7 @@
         {
           "match": "UCWEB\/*(#PLATFORM#SonyEricssonU1) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
           "engine": "U2",
-          "properties": {
-            "Device_Name": "U1",
-            "Device_Maker": "SonyEricsson",
-            "Device_Code_Name": "U1",
-            "Device_Brand_Name": "SonyEricsson"
-          },
+          "device": "SonyEricsson U1",
           "platforms": [
             "SymbianOS_B"
           ]
@@ -52,16 +45,7 @@
         {
           "match": "UCWEB\/*(#PLATFORM#GT-S5570) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
           "engine": "U2",
-          "properties": {
-            "Device_Code_Name": "GT-S5570",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Mini",
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen"
-          },
+          "device": "Samsung GT-S5570",
           "platforms": [
             "Android_2_1_C", "Android_2_2_C", "Android_2_3_D", "Android_4_0_C", "Android_4_1_C", "Android_4_2_C", "Android_4_3_C",
             "Android_4_4_C"
@@ -70,12 +54,7 @@
         {
           "match": "UCWEB\/*(#PLATFORM#GT-S7262) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
           "engine": "U2",
-          "properties": {
-            "Device_Name": "GT-S7262",
-            "Device_Maker": "Samsung",
-            "Device_Code_Name": "GT-S7262",
-            "Device_Brand_Name": "Samsung"
-          },
+          "device": "Samsung GT-S7262",
           "platforms": [
             "Android_2_1_C", "Android_2_2_C", "Android_2_3_D", "Android_4_0_C", "Android_4_1_C", "Android_4_2_C", "Android_4_3_C",
             "Android_4_4_C"
@@ -84,6 +63,7 @@
         {
           "match": "UCWEB\/*(#PLATFORM#) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
           "engine": "U2",
+          "device": "general Mobile Phone (Touch)",
           "platforms": [
             "Android_2_1_C", "Android_2_2_C", "Android_2_3_D", "Android_4_0_C", "Android_4_1_C", "Android_4_2_C", "Android_4_3_C",
             "Android_4_4_C",
@@ -95,21 +75,15 @@
         {
           "match": "UCWEB\/*(Linux; U; Opera Mini\/*GT-S7262) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
           "engine": "U2",
-          "properties": {
-            "Device_Name": "GT-S7262",
-            "Device_Maker": "Samsung",
-            "Device_Code_Name": "GT-S7262",
-            "Device_Brand_Name": "Samsung"
-          }
+          "device": "Samsung GT-S7262"
         },
         {
           "match": "Mozilla\/5.0 (Java;*samsung-gt-s5263) UCBrowser#MAJORVER#.#MINORVER#*UCWEB*Mobile*UNTRUSTED\/*",
+          "device": "Samsung GT-S5263",
           "properties": {
             "Version": "8.2",
             "MajorVer": "8",
-            "MinorVer": "2",
-            "Device_Name": "GT-S5263",
-            "Device_Maker": "Samsung"
+            "MinorVer": "2"
           },
           "platforms": [
             "JAVA"
@@ -118,6 +92,7 @@
         {
           "match": "UCWEB\/*(Linux; U; Opera Mini\/*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
           "engine": "U2",
+          "device": "general Mobile Phone (Touch)",
           "platforms": [
             "Android"
           ]
@@ -125,6 +100,7 @@
         {
           "match": "UCWEB\/*(Android; U; Opera Mini\/*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
           "engine": "U2",
+          "device": "general Mobile Phone (Touch)",
           "platforms": [
             "Android"
           ]
@@ -132,6 +108,7 @@
         {
           "match": "UCWEB\/*(Java*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
           "engine": "U2",
+          "device": "general Mobile Phone",
           "platforms": [
             "JAVA"
           ]
@@ -139,25 +116,14 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I9100 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#* Mobile Safari\/*",
           "engine": "WebKit",
-          "properties": {
-            "Device_Code_Name": "GT-I9100",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S II",
-            "Device_Type": "Mobile Phone"
-          },
+          "device": "GT-I9100",
           "platforms": [
             "Android_4_0", "Android_4_1"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I9100G Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#* Mobile Safari\/*",
-          "properties": {
-            "Device_Code_Name": "GT-I9100G",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S II"
-          },
+          "device": "GT-I9100G",
           "platforms": [
             "Android_2_3"
           ]
@@ -165,6 +131,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#*Safari\/*",
           "engine": "WebKit",
+          "device": "general Mobile Phone (Touch)",
           "platforms": [
             "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android"
           ]
@@ -172,31 +139,18 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
           "engine": "WebKit",
+          "device": "general Mobile Phone (Touch)",
           "platforms": [
             "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android"
           ]
         },
         {
           "match": "samsung-gt-s5620\/UC Browser#MAJORVER#.#MINORVER#* UNTRUSTED\/1.0",
-          "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
-            "Device_Name": "S5620 Monte",
-            "Device_Maker": "Samsung",
-            "Device_Code_Name": "GT-S5620",
-            "Device_Brand_Name": "Samsung"
-          }
+          "device": "Samsung GT-S5620"
         },
         {
           "match": "samsung-gt-s3370\/UC Browser#MAJORVER#.#MINORVER#* UNTRUSTED\/1.0",
-          "properties": {
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "GT-S3370",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Corby 3G"
-          }
+          "device": "Samsung GT-S3370"
         },
         {
           "match": "*\/UC Browser#MAJORVER#.#MINORVER#* UNTRUSTED\/1.0"

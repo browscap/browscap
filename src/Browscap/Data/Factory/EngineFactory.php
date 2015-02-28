@@ -20,11 +20,11 @@ namespace Browscap\Data\Factory;
 use Browscap\Data\Engine;
 
 /**
- * Class DataCollection
+ * Class EngineFactory
  *
  * @category   Browscap
  * @package    Data
- * @author     James Titcumb <james@asgrim.com>
+ * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
  */
 class EngineFactory
 {

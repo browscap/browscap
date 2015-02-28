@@ -8,6 +8,7 @@
     {
       "userAgent": "Qt #MAJORVER#.#MINORVER# for Android",
       "engine": "WebKit",
+      "device": "general Mobile Device",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser_Type": "Browser",
@@ -22,12 +23,7 @@
         "Cookies": "true",
         "JavaScript": "true",
         "JavaApplets": "true",
-        "CssVersion": "3",
-        "isMobileDevice": "true",
-        "Device_Name": "unknown",
-        "Device_Maker": "Various",
-        "Device_Type": "Mobile Device",
-        "Device_Pointing_Method": "unknown"
+        "CssVersion": "3"
       },
       "children": [
         {
@@ -55,6 +51,7 @@
     {
       "userAgent": "Qt #MAJORVER#.#MINORVER# for Meego",
       "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser_Type": "Browser",
@@ -69,12 +66,7 @@
         "Cookies": "true",
         "JavaScript": "true",
         "JavaApplets": "true",
-        "CssVersion": "3",
-        "isMobileDevice": "true",
-        "Device_Name": "unknown",
-        "Device_Maker": "Various",
-        "Device_Type": "Mobile Device",
-        "Device_Pointing_Method": "unknown"
+        "CssVersion": "3"
       },
       "children": [
         {
@@ -91,11 +83,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko, Safari\/*) Qt\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Type": "Desktop",
-            "Device_Pointing_Method": "mouse",
-            "isMobileDevice": "false"
-          },
+          "device": "general Desktop",
           "platforms": [
             "MeeGo"
           ]
@@ -105,6 +93,7 @@
     {
       "userAgent": "Qt #MAJORVER#.#MINORVER#",
       "engine": "WebKit",
+      "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Qt #MAJORVER#.#MINORVER#",
@@ -120,21 +109,28 @@
         "Cookies": "true",
         "JavaScript": "true",
         "JavaApplets": "true",
-        "CssVersion": "3",
-        "Device_Name": "PC",
-        "Device_Maker": "Various",
-        "Device_Type": "Desktop",
-        "Device_Pointing_Method": "mouse"
+        "CssVersion": "3"
       },
       "children": [
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Qt\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "device": "Linux Desktop",
           "platforms": [
-            "ChromeOS",
-            "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
-            "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B", "OSX_10_10_A", "OSX_10_10_B",
-            "OSX",
-            "Linux_64", "Linux_32", "Linux", "NT4", "Win2000",
+            "ChromeOS", "Linux_64", "Linux_32", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Qt\/#MAJORVER#.#MINORVER#*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "ChromeOS", "Linux_64", "Linux_32", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Qt\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "NT4", "Win2000",
             "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32", "Vista_64", "Vista_32",
             "Win7_64", "Win7_32", "Win8_64", "Win8_32",
             "Win8_1_64", "Win8_1_32"
@@ -142,23 +138,51 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Qt\/#MAJORVER#.#MINORVER#*",
+          "device": "Windows Desktop",
           "platforms": [
-            "ChromeOS",
-            "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
-            "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B", "OSX_10_10_A", "OSX_10_10_B",
-            "OSX",
-            "Linux_64", "Linux_32", "Linux", "NT4", "Win2000",
+            "NT4", "Win2000",
             "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32", "Vista_64", "Vista_32",
             "Win7_64", "Win7_32", "Win8_64", "Win8_32",
             "Win8_1_64", "Win8_1_32"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko, Safari\/*) Qt\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Qt\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "device": "Macintosh",
           "platforms": [
-            "Linux_64", "Linux",
-            "OSX",
+            "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
+            "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B", "OSX_10_10_A", "OSX_10_10_B",
+            "OSX"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Qt\/#MAJORVER#.#MINORVER#*",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
+            "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B", "OSX_10_10_A", "OSX_10_10_B",
+            "OSX"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko, Safari\/*) Qt\/#MAJORVER#.#MINORVER#*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko, Safari\/*) Qt\/#MAJORVER#.#MINORVER#*",
+          "device": "Windows Desktop",
+          "platforms": [
             "Vista_32", "Win7_64", "Win7_32", "Windows"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko, Safari\/*) Qt\/#MAJORVER#.#MINORVER#*",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX"
           ]
         }
       ]

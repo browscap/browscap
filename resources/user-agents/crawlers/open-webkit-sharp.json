@@ -19,6 +19,7 @@
       "children": [
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) OpenWebKitSharp*",
+          "device": "Windows Desktop",
           "platforms": [
             "WinXPa_32",
             "Vista_x64", "Vista_64", "Vista_32",

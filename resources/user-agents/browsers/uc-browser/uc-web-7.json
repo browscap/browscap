@@ -7,6 +7,8 @@
     {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER#",
       "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
+      "platform": "Android",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "UC Browser #MAJORVER#.#MINORVER#",
@@ -23,52 +25,26 @@
         "Cookies": "true",
         "JavaScript": "true",
         "JavaApplets": "true",
-        "isMobileDevice": "true",
-        "isTablet": "false",
-        "CssVersion": "3",
-        "Device_Type": "Mobile Phone",
-        "Device_Pointing_Method": "touchscreen"
+        "CssVersion": "3"
       },
       "children": [
         {
           "match": "#PLATFORM#GT-S5570*) UCWEB#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Code_Name": "GT-S5570",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Mini",
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen"
-          },
+          "device": "Samsung GT-S5570",
           "platforms": [
             "Android_2_2_B", "Android_2_2_D", "Android_2_3_C", "Android_2_3_E", "Android_4_0_B", "Android_4_1_B", "Android_4_2_B", "Android_4_3_B"
           ]
         },
         {
           "match": "#PLATFORM#GT-I9100*) UCWEB#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Code_Name": "GT-I9100",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S II",
-            "Device_Type": "Mobile Phone"
-          },
+          "device": "GT-I9100",
           "platforms": [
             "Android_2_2_B", "Android_2_2_D", "Android_2_3_C", "Android_2_3_E", "Android_4_0_B", "Android_4_1_B", "Android_4_2_B", "Android_4_3_B"
           ]
         },
         {
           "match": "#PLATFORM#Micromax A35*)UCWEB#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Name": "A35",
-            "Device_Code_Name": "A35",
-            "Device_Brand_Name": "Micromax",
-            "Device_Maker": "Micromax",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen"
-          },
+          "device": "Micromax A35",
           "platforms": [
             "Android_2_2_B", "Android_2_3_C", "Android_4_0_B", "Android_4_1_B"
           ]
@@ -87,137 +63,73 @@
         },
         {
           "match": "NokiaE63\/UC Browser#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Code_Name": "E63",
-            "Device_Name": "E63",
-            "Device_Maker": "Nokia"
-          }
+          "device": "Nokia E63"
         },
         {
           "match": "NokiaN73\/UC Browser#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Code_Name": "N73",
-            "Device_Name": "N73",
-            "Device_Maker": "Nokia"
-          }
+          "device": "Nokia N73"
         },
         {
           "match": "NOKIAN85\/UC Browser#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Code_Name": "N85",
-            "Device_Name": "N85",
-            "Device_Maker": "Nokia"
-          }
+          "device": "Nokia N85"
         },
         {
           "match": "Nokia5230\/UC Browser#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Code_Name": "5230",
-            "Device_Name": "Nuron",
-            "Device_Maker": "Nokia"
-          }
+          "device": "Nokia 5230"
         },
         {
           "match": "JUC(Linux;?;2.2*;Desire HD*)UCWEB#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Desire HD",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "Desire HD"
-          },
+          "device": "HTC Desire HD",
           "platforms": [
             "Android_2_2_B"
           ]
         },
         {
           "match": "NokiaN97\/UC Browser#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Code_Name": "N97",
-            "Device_Name": "N97",
-            "Device_Maker": "Nokia"
-          }
+          "device": "Nokia N97"
         },
         {
           "match": "S8500 UCWEB6.0\/UC Browser#MAJORVER#.#MINORVER#*"
         },
         {
           "match": "JUC(Linux;?;2.2*;XT702*)UCWEB#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "XT702",
-            "Device_Maker": "Motorola",
-            "Device_Brand_Name": "Motorola",
-            "Device_Name": "XT702"
-          },
+          "device": "Motorola XT702",
           "platforms": [
             "Android_2_2_B"
           ]
         },
         {
           "match": "NokiaN8-00\/UC Browser#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Code_Name": "N8-00",
-            "Device_Name": "N8",
-            "isMobileDevice": "true",
-            "isTablet": "false",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen"
-          }
+          "device": "Nokia N8-00"
         },
         {
           "match": "lg-c105\/UC Browser#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Code_Name": "C105",
-            "Device_Name": "C105",
-            "Device_Maker": "LG"
-          }
+          "device": "LG C105"
         },
         {
           "match": "IUC(U;iOS 4.3*)\/UCWEB#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Type": "Mobile Device",
-            "Device_Code_Name": "iPod",
-            "Device_Maker": "Apple Inc",
-            "Device_Brand_Name": "Apple",
-            "Device_Name": "iPod"
-          },
+          "device": "iPod Touch",
           "platforms": [
             "iOS_G_4_3"
           ]
         },
         {
           "match": "JUC (Linux; U; 4.0*; *) UCWEB#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Type": "Mobile Phone"
-          },
+          "device": "general Mobile Phone",
           "platforms": [
             "Android_4_0_B"
           ]
         },
         {
           "match": "JUC (Linux; U; 4.0*; GT-I9100; *) UCWEB#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Code_Name": "GT-I9100",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S II"
-          },
+          "device": "GT-I9100",
           "platforms": [
             "Android_4_0_B"
           ]
         },
         {
           "match": "JUC(Linux;U;Android4.2.2;Zh_cn;GT-I9060;*)UCWEB#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Code_Name": "GT-I9060",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Grand Neo",
-            "Device_Type": "Mobile Phone"
-          },
+          "device": "Samsung GT-I9060",
           "platforms": [
             "Android_4_2_B"
           ]
@@ -228,15 +140,7 @@
         {
           "match": "LG-KS20* Browser\/IEMobile\/* MMS/LG-MMS-WINCE* (compatible; MSIE 4.01; Windows CE*)\/UC Browser#MAJORVER#.#MINORVER#*",
           "engine": "Trident",
-          "properties": {
-            "Device_Code_Name": "KS20",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "KS20",
-            "Device_Type": "Mobile Phone",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-          },
+          "device": "LG KS20",
           "platforms": [
             "WinCE"
           ]

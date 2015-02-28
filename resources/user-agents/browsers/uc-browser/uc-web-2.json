@@ -6,6 +6,8 @@
   "userAgents": [
     {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER#",
+      "platform": "Android",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "UC Browser #MAJORVER#.#MINORVER#",
@@ -22,11 +24,7 @@
         "Cookies": "true",
         "JavaScript": "true",
         "JavaApplets": "true",
-        "isMobileDevice": "true",
-        "isTablet": "false",
-        "CssVersion": "3",
-        "Device_Type": "Mobile Phone",
-        "Device_Pointing_Method": "touchscreen"
+        "CssVersion": "3"
       },
       "children": [
         {
@@ -59,7 +57,9 @@
         },
         {
           "match": "UCWEB\/*(#PLATFORM#) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "device": "general Mobile Phone (Touch)",
           "engine": "U2",
+          "device": "general Mobile Phone (Touch)",
           "platforms": [
             "Android_2_1_C", "Android_2_2_C", "Android_2_3_D", "Android_4_0_C", "Android_4_1_C", "Android_4_2_C", "Android_4_3_C",
             "Android_4_4_C",
@@ -85,6 +85,7 @@
         {
           "match": "UCWEB\/*(Java*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
           "engine": "U2",
+          "device": "general Mobile Device",
           "platforms": [
             "JAVA"
           ]
@@ -92,15 +93,7 @@
         {
           "match": "Mozilla\/5.0*(iPad#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
           "engine": "U3",
-          "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "iPad",
-            "Device_Name": "iPad",
-            "Device_Maker": "Apple Inc",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-          },
+          "device": "iPad",
           "platforms": [
             "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_0"
           ]
@@ -108,15 +101,7 @@
         {
           "match": "Mozilla\/*(iPad#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
           "engine": "U3",
-          "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "iPad",
-            "Device_Name": "iPad",
-            "Device_Maker": "Apple Inc",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-          },
+          "device": "iPad",
           "platforms": [
             "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_0"
           ]
@@ -124,16 +109,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#LG-P970 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/4.0 Mobile Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
           "engine": "WebKit",
-          "properties": {
-            "Browser_Bits": "32",
-            "Device_Code_Name": "P970",
-            "Device_Maker": "LG",
-            "Device_Brand_Name": "LG",
-            "Device_Name": "Optimus Black",
-            "isMobileDevice": "true",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen"
-          },
+          "device": "LG P970",
           "platforms": [
             "Android_2_3"
           ]

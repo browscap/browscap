@@ -6,6 +6,7 @@
     {
       "userAgent": "Microsoft Excel",
       "engine": "Trident",
+      "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Microsoft Excel",
@@ -25,15 +26,14 @@
         "VBScript": "false",
         "JavaApplets": "false",
         "ActiveXControls": "false",
-        "isMobileDevice": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
-        "CssVersion": "2",
-        "Device_Type": "Desktop"
+        "CssVersion": "2"
       },
       "children": [
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) Excel\/12.*",
+          "device": "Macintosh",
           "properties": {
             "Version": "2007",
             "MajorVer": "2007"
@@ -44,6 +44,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) Excel\/14.*",
+          "device": "Macintosh",
           "properties": {
             "Version": "2010",
             "MajorVer": "2010"
@@ -54,6 +55,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) Excel\/15.*",
+          "device": "Macintosh",
           "properties": {
             "Version": "2013",
             "MajorVer": "2013"

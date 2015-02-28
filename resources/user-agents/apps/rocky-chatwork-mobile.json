@@ -8,6 +8,7 @@
       "userAgent": "Rocky ChatWork Mobile #MAJORVER#.#MINORVER#",
       "platform": "iOS",
       "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Rocky ChatWork Mobile #MAJORVER#.#MINORVER#",
@@ -37,16 +38,7 @@
       "children": [
         {
           "match": "Rocky ChatWork Mobile\/#MAJORVER#.#MINORVER##PLATFORM# (iPhone App iPhone*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "iPhone",
-            "Device_Name": "iPhone",
-            "Device_Maker": "Apple Inc",
-            "Device_Brand_Name": "Apple",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-          },
+          "device": "iPhone",
           "platforms": [
             "iOS_L_7_0", "iOS_L_7_1", "iOS_L_8_0", "iOS_L_8_1",
             "iOS_L"

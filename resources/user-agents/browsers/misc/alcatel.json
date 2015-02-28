@@ -6,6 +6,7 @@
     {
       "userAgent": "Alcatel",
       "platform": "JAVA",
+      "device": "general Mobile Device",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Alcatel",
@@ -14,16 +15,12 @@
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
-        "isMobileDevice": "true",
-        "Device_Type": "Mobile Device",
         "CssVersion": "2"
       },
       "children": [
         {
-          "match": "Alcatel-BH4\/1.0"
-        },
-        {
-          "match": "ZTE-C6100\/1.0 SMIT-WAP\/1.1.0(GUI)"
+          "match": "Alcatel-BH4\/1.0",
+          "device": "Alcatel BH4"
         }
       ]
     }

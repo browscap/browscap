@@ -6,6 +6,8 @@
     {
       "userAgent": "Google+ App",
       "engine": "WebKit",
+      "platform": "iOS",
+      "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Google+ App",
@@ -17,25 +19,12 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "isMobileDevice": "true",
-        "isTablet": "false",
-        "CssVersion": "3",
-        "Device_Type": "Mobile Phone",
-        "Device_Pointing_Method": "touchscreen"
+        "CssVersion": "3"
       },
       "children": [
         {
           "match": "Mozilla\/5.0 (iPhone#PLATFORM#)*com.google.GooglePlus\/*(*KHTML, like Gecko*)*Mobile\/*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "iPhone",
-            "Device_Name": "iPhone",
-            "Device_Maker": "Apple Inc",
-            "Device_Brand_Name": "Apple",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-          },
+          "device": "iPhone",
           "platforms": [
             "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_0",
             "iOS_C"
@@ -43,16 +32,7 @@
         },
         {
           "match": "Mozilla\/5.0 (iPad#PLATFORM#)*com.google.GooglePlus\/*(*KHTML, like Gecko*)*Mobile\/*",
-          "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "iPad",
-            "Device_Name": "iPad",
-            "Device_Maker": "Apple Inc",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Apple",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-          },
+          "device": "iPad",
           "platforms": [
             "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_0",
             "iOS_C"
@@ -60,16 +40,7 @@
         },
         {
           "match": "Mozilla\/5.0 (iPod#PLATFORM#)*com.google.GooglePlus\/*(*KHTML, like Gecko*)*Mobile\/*",
-          "properties": {
-            "Device_Name": "iPod Touch",
-            "Device_Maker": "Apple Inc",
-            "Device_Type": "Mobile Device",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Code_Name": "iPod Touch",
-            "Device_Brand_Name": "Apple",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-          },
+          "device": "iPod Touch",
           "platforms": [
             "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_0",
             "iOS_C"
@@ -77,11 +48,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#)*com.google.GooglePlus\/*(*KHTML, like Gecko*)*Mobile\/*",
-          "properties": {
-            "Device_Maker": "Apple Inc",
-            "Device_Type": "Mobile Device",
-            "Device_Pointing_Method": "touchscreen"
-          },
+          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_0",
             "iOS_C"

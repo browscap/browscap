@@ -6,6 +6,7 @@
     {
       "userAgent": "CybEye",
       "platform": "Windows",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "CybEye",
@@ -26,15 +27,8 @@
         "VBScript": "false",
         "JavaApplets": "false",
         "ActiveXControls": "false",
-        "isMobileDevice": "false",
         "isSyndicationReader": "false",
-        "Crawler": "false",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Windows Desktop",
-        "Device_Pointing_Method": "mouse",
-        "Device_Maker": "Various",
-        "Device_Brand_Name": "unknown",
-        "Device_Name": "Windows Desktop"
+        "Crawler": "false"
       },
       "children": [
         {

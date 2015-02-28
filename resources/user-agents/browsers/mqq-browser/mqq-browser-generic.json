@@ -6,6 +6,7 @@
     {
       "userAgent": "MQQBrowser Generic",
       "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "MQQBrowser Generic",
@@ -17,11 +18,7 @@
         "Cookies": "true",
         "JavaScript": "true",
         "JavaApplets": "true",
-        "CssVersion": "3",
-        "isMobileDevice": "true",
-        "isTablet": "false",
-        "Device_Type": "Mobile Phone",
-        "Device_Pointing_Method": "touchscreen"
+        "CssVersion": "3"
       },
       "children": [
         {
@@ -32,22 +29,14 @@
         },
         {
           "match": "MQQBrowser\/*Mozilla\/5.0 (iPhone#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) *Safari\/*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "iPhone",
-            "Device_Name": "iPhone",
-            "Device_Maker": "Apple Inc",
-            "Device_Brand_Name": "Apple",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-          },
+          "device": "iPhone",
           "platforms": [
             "iOS_A_5_1", "iOS_A"
           ]
         },
         {
           "match": "MQQBrowser\/*Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) *Safari\/*",
+          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A_5_1", "iOS_A"
           ]

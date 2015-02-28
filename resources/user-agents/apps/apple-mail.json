@@ -7,6 +7,7 @@
       "userAgent": "Apple Mail for iOS",
       "platform": "iOS",
       "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Apple Mail",
@@ -27,28 +28,13 @@
         "VBScript": "false",
         "JavaApplets": "false",
         "ActiveXControls": "false",
-        "isMobileDevice": "true",
-        "isTablet": "false",
         "Crawler": "false",
-        "isSyndicationReader": "false",
-        "Device_Type": "Mobile Device",
-        "Device_Code_Name": "Mobile Device",
-        "Device_Maker": "Apple Inc",
-        "Device_Brand_Name": "Apple",
-        "Device_Name": "Mobile Device"
+        "isSyndicationReader": "false"
       },
       "children": [
         {
           "match": "Mozilla\/5.0*(iPad#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)",
-          "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "iPad",
-            "Device_Name": "iPad",
-            "Device_Maker": "Apple Inc",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-          },
+          "device": "iPad",
           "platforms": [
             "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3", "iOS_A_5_1", "iOS_A_5_0", "iOS_A_6_1", "iOS_A_6_0", "iOS_A_7_1", "iOS_A_7_0", "iOS_A_8_0", "iOS_A",
             "iOS_C_3_2", "iOS_C_4_0", "iOS_C_4_1", "iOS_C_4_2", "iOS_C_4_3", "iOS_C_5_1", "iOS_C_5_0", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_0", "iOS_C"
@@ -56,16 +42,7 @@
         },
         {
           "match": "Mozilla\/5.0*(iPhone#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "iPhone",
-            "Device_Name": "iPhone",
-            "Device_Maker": "Apple Inc",
-            "Device_Brand_Name": "Apple",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-          },
+          "device": "iPhone",
           "platforms": [
             "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3", "iOS_A_5_1", "iOS_A_5_0", "iOS_A_6_1", "iOS_A_6_0", "iOS_A_7_1", "iOS_A_7_0", "iOS_A_8_0", "iOS_A",
             "iOS_C_3_2", "iOS_C_4_0", "iOS_C_4_1", "iOS_C_4_2", "iOS_C_4_3", "iOS_C_5_1", "iOS_C_5_0", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_0", "iOS_C"
@@ -73,16 +50,7 @@
         },
         {
           "match": "Mozilla\/5.0*(iPod#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)",
-          "properties": {
-            "Device_Name": "iPod Touch",
-            "Device_Maker": "Apple Inc",
-            "Device_Type": "Mobile Device",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Code_Name": "iPod Touch",
-            "Device_Brand_Name": "Apple",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-          },
+          "device": "iPod Touch",
           "platforms": [
             "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3", "iOS_A_5_1", "iOS_A_5_0", "iOS_A_6_1", "iOS_A_6_0", "iOS_A_7_1", "iOS_A_7_0", "iOS_A_8_0", "iOS_A",
             "iOS_C_3_2", "iOS_C_4_0", "iOS_C_4_1", "iOS_C_4_2", "iOS_C_4_3", "iOS_C_5_1", "iOS_C_5_0", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_0", "iOS_C"
@@ -99,8 +67,9 @@
     },
     {
       "userAgent": "Apple Mail for Darwin and OSX",
-      "platform": "Darwin",
+      "platform": "OSX",
       "engine": "WebKit",
+      "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Apple Mail",
@@ -121,15 +90,8 @@
         "VBScript": "false",
         "JavaApplets": "false",
         "ActiveXControls": "false",
-        "isMobileDevice": "false",
-        "isTablet": "false",
         "Crawler": "false",
-        "isSyndicationReader": "false",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Macintosh",
-        "Device_Maker": "Apple Inc",
-        "Device_Brand_Name": "Apple",
-        "Device_Name": "Macintosh"
+        "isSyndicationReader": "false"
       },
       "children": [
         {
@@ -140,6 +102,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit* (KHTML, like Gecko)",
+          "device": "Macintosh",
           "platforms": [
             "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
             "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B", "OSX_10_10_A", "OSX_10_10_B",
@@ -152,6 +115,7 @@
       "userAgent": "Apple Mail for Windows",
       "platform": "Darwin",
       "engine": "WebKit",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Apple Mail",
@@ -172,15 +136,8 @@
         "VBScript": "false",
         "JavaApplets": "false",
         "ActiveXControls": "false",
-        "isMobileDevice": "false",
-        "isTablet": "false",
         "Crawler": "false",
-        "isSyndicationReader": "false",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Windows Desktop",
-        "Device_Maker": "Various",
-        "Device_Brand_Name": "unknown",
-        "Device_Name": "Windows Desktop"
+        "isSyndicationReader": "false"
       },
       "children": [
         {

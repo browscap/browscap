@@ -7,6 +7,7 @@
     {
       "userAgent": "NetFront #MAJORVER#.#MINORVER#",
       "engine": "NetFront",
+      "device": "general Mobile Device",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Access NetFront #MAJORVER#.#MINORVER#",
@@ -21,50 +22,27 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "isMobileDevice": "true",
-        "CssVersion": "2",
-        "Device_Type": "Mobile Device"
+        "CssVersion": "2"
       },
       "children": [
         {
-          "match": "*NetFront\/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "Mozilla\/4.0 (*) *NetFront\/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "Mozilla\/4.0 (*NetFront\/#MAJORVER#.#MINORVER#*)*"
-        },
-        {
-          "match": "SAMSUNG* *NetFront\/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SEC-* *NetFront\/#MAJORVER#.#MINORVER#*"
-        },
-        {
           "match": "Mozilla\/4.0 (compatible; Linux*) NetFront\/#MAJORVER#.#MINORVER#* Kindle\/1.0 (screen 600x800)",
-          "properties": {
-            "Device_Name": "Kindle",
-            "Device_Maker": "Amazon.com, Inc.",
-            "Device_Type": "Ebook Reader"
-          },
+
+          "device": "Amazon Kindle",
           "platforms": [
             "Android"
           ]
         },
         {
           "match": "Mozilla\/4.0 (compatible; Linux*) NetFront\/#MAJORVER#.#MINORVER#* Kindle\/2.0 (screen 600x800)",
-          "properties": {
-            "Device_Name": "Kindle",
-            "Device_Maker": "Amazon.com, Inc.",
-            "Device_Type": "Ebook Reader"
-          },
+          "device": "Amazon Kindle",
           "platforms": [
             "Android"
           ]
         },
         {
           "match": "SonyEricsson*; Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) *Version\/#MAJORVER#.#MINORVER#* *Safari\/*",
+          "device": "general Mobile Phone",
           "platforms": [
             "SymbianOS"
           ]
@@ -74,19 +52,25 @@
         },
         {
           "match": "SAMSUNG-GT-C3310\/* NetFront\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "GT-C3310",
-            "Device_Name": "Champ Deluxe",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-          },
+          "device": "Samsung GT-C3310",
           "platforms": [
             "JAVA"
           ]
+        },
+        {
+          "match": "SAMSUNG* *NetFront\/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "SEC-* *NetFront\/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "Mozilla\/4.0 (*) *NetFront\/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "Mozilla\/4.0 (*NetFront\/#MAJORVER#.#MINORVER#*)*"
+        },
+        {
+          "match": "*NetFront\/#MAJORVER#.#MINORVER#*"
         }
       ]
     }

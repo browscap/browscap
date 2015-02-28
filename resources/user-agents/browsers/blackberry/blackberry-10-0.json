@@ -8,6 +8,7 @@
       "userAgent": "BlackBerry #MAJORVER#.#MINORVER#",
       "platform": "RIMOS_10_X",
       "engine": "WebKit",
+      "device": "general Mobile Phone (Blackberry)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "BlackBerry #MAJORVER#.#MINORVER#",
@@ -18,15 +19,7 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "isMobileDevice": "true",
-        "isTablet": "false",
         "CssVersion": "2",
-        "Device_Name": "Blackberry",
-        "Device_Maker": "Research In Motion Limited",
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "Blackberry",
-        "Device_Brand_Name": "RIM",
-        "Device_Pointing_Method": "touchscreen",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#"
@@ -34,39 +27,19 @@
       "children": [
         {
           "match": "Mozilla\/5.0 (BB10; Touch) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-          "properties": {
-            "Device_Code_Name": "Z10",
-            "Device_Maker": "BlackBerry",
-            "Device_Brand_Name": "BlackBerry",
-            "Device_Name": "Z10"
-          }
+          "device": "Blackberry Z10"
         },
         {
           "match": "Mozilla\/5.0 (BB10; Touch) AppleWebKit\/* (KHTML, like Gecko)*",
-          "properties": {
-            "Device_Code_Name": "Z10",
-            "Device_Maker": "BlackBerry",
-            "Device_Brand_Name": "BlackBerry",
-            "Device_Name": "Z10"
-          }
+          "device": "Blackberry Z10"
         },
         {
           "match": "Mozilla\/5.0 (BB10; Kbd) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-          "properties": {
-            "Device_Code_Name": "KBD",
-            "Device_Maker": "BlackBerry",
-            "Device_Brand_Name": "BlackBerry",
-            "Device_Name": "KBD"
-          }
+          "device": "Blackberry KBD"
         },
         {
           "match": "Mozilla\/5.0 (BB10; Kbd) AppleWebKit\/* (KHTML, like Gecko)*",
-          "properties": {
-            "Device_Code_Name": "KBD",
-            "Device_Maker": "BlackBerry",
-            "Device_Brand_Name": "BlackBerry",
-            "Device_Name": "KBD"
-          }
+          "device": "Blackberry KBD"
         }
       ]
     }

@@ -6,7 +6,8 @@
   "userAgents": [
     {
       "userAgent": "iLunascape #MAJORVER#.#MINORVER#",
-      "platform": "Win32",
+      "platform": "iOS",
+      "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "iLunascape #MAJORVER#.#MINORVER#",
@@ -24,28 +25,13 @@
         "BackgroundSounds": "false",
         "VBScript": "false",
         "ActiveXControls": "false",
-        "isMobileDevice": "false",
         "isSyndicationReader": "false",
-        "Crawler": "false",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Windows Desktop",
-        "Device_Name": "Windows Desktop",
-        "Device_Maker": "Various",
-        "Device_Pointing_Method": "mouse"
+        "Crawler": "false"
       },
       "children": [
         {
           "match": "Mozilla\/5.0 (iPad#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Mobile\/* iLunascape\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "iPad",
-            "Device_Name": "iPad",
-            "Device_Maker": "Apple Inc",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Apple",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-          },
+          "device": "iPad",
           "platforms": [
             "iOS_C_4_2"
           ]

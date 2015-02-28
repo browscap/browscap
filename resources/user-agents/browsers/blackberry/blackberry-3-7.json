@@ -6,6 +6,7 @@
     {
       "userAgent": "BlackBerry 3.7",
       "platform": "RIMOS_3_7",
+      "device": "general Mobile Phone (old Blackberry)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "BlackBerry 3.7",
@@ -16,14 +17,7 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "isMobileDevice": "true",
-        "isTablet": "false",
         "CssVersion": "2",
-        "Device_Name": "Blackberry",
-        "Device_Maker": "Research In Motion Limited",
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "Blackberry",
-        "Device_Brand_Name": "RIM",
         "Version": "3.7",
         "MajorVer": "3",
         "MinorVer": "7"
@@ -31,31 +25,19 @@
       "children": [
         {
           "match": "BlackBerry7210\/3.7*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 7210",
-            "Device_Name": "BlackBerry 7210"
-          }
+          "device": "Blackberry 7210"
         },
         {
           "match": "BlackBerry7230\/3.7*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 7230",
-            "Device_Name": "BlackBerry 7230"
-          }
+          "device": "Blackberry 7230"
         },
         {
           "match": "BlackBerry7280\/3.7*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 7280",
-            "Device_Name": "BlackBerry 7280"
-          }
+          "device": "Blackberry 7280"
         },
         {
           "match": "BlackBerry7730\/3.7*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 7730",
-            "Device_Name": "BlackBerry 7730"
-          }
+          "device": "Blackberry 7730"
         }
       ]
     }

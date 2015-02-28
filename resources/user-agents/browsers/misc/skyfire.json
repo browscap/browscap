@@ -7,6 +7,7 @@
       "userAgent": "Skyfire",
       "platform": "OSX",
       "engine": "WebKit",
+      "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Skyfire",
@@ -18,14 +19,7 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "JavaApplets": "true",
-        "CssVersion": "3",
-        "isTablet": "false",
-        "Device_Maker": "Various",
-        "isMobileDevice": "false",
-        "Device_Type": "Desktop",
-        "Device_Name": "Macintosh",
-        "Device_Pointing_Method": "mouse"
+        "CssVersion": "3"
       },
       "children": [
         {

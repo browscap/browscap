@@ -5,6 +5,7 @@
   "userAgents": [
     {
       "userAgent": "Boxee",
+      "device": "Boxee",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Boxee",
@@ -14,23 +15,16 @@
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
-        "JavaScript": "true",
-        "Device_Name": "Boxee",
-        "Device_Maker": "D-Link",
-        "Device_Type": "TV Device",
-        "Device_Code_Name": "Boxee"
+        "JavaScript": "true"
       },
       "children": [
         {
           "match": "curl\/* (Linux * intel.*dlink.dsm380*; beta) boxee\/1.2*",
+          "device": "D-Link DSM 380",
           "properties": {
             "Version": "1.2",
             "MajorVer": "1",
-            "MinorVer": "2",
-            "Device_Code_Name": "DSM 380",
-            "Device_Maker": "D-Link",
-            "Device_Brand_Name": "D-Link",
-            "Device_Name": "DSM 380"
+            "MinorVer": "2"
           },
           "platforms": [
             "Linux"
@@ -41,11 +35,7 @@
           "properties": {
             "Version": "1.0",
             "MajorVer": "1",
-            "MinorVer": "0",
-            "Device_Code_Name": "General Dlink-TV Device",
-            "Device_Maker": "D-Link",
-            "Device_Brand_Name": "D-Link",
-            "Device_Name": "General Dlink-TV Device"
+            "MinorVer": "0"
           },
           "platforms": [
             "Linux"
@@ -53,12 +43,6 @@
         },
         {
           "match": "curl\/* (Linux * intel.*dlink.dsm* *; *; beta) boxee\/*",
-          "properties": {
-            "Device_Code_Name": "General Dlink-TV Device",
-            "Device_Maker": "D-Link",
-            "Device_Brand_Name": "D-Link",
-            "Device_Name": "General Dlink-TV Device"
-          },
           "platforms": [
             "Linux"
           ]

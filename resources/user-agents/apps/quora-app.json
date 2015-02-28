@@ -6,6 +6,7 @@
     {
       "userAgent": "Quora App",
       "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Quora App",
@@ -17,23 +18,13 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "isMobileDevice": "true",
-        "CssVersion": "3",
-        "Device_Type": "Mobile Phone",
-        "Device_Pointing_Method": "touchscreen"
+        "CssVersion": "3"
       },
       "children": [
         {
           "match": "Quora 4.0* rv:* (iPhone#PLATFORM#",
+          "device": "iPhone",
           "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "iPhone",
-            "Device_Name": "iPhone",
-            "Device_Maker": "Apple Inc",
-            "Device_Brand_Name": "Apple",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false",
             "Version": "4.0",
             "MajorVer": "4",
             "MinorVer": "0"
@@ -44,15 +35,8 @@
         },
         {
           "match": "Quora 4.1* rv:* (iPhone#PLATFORM#",
+          "device": "iPhone",
           "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "iPhone",
-            "Device_Name": "iPhone",
-            "Device_Maker": "Apple Inc",
-            "Device_Brand_Name": "Apple",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false",
             "Version": "4.1",
             "MajorVer": "4",
             "MinorVer": "1"
@@ -63,31 +47,15 @@
         },
         {
           "match": "Quora* rv:* (iPhone#PLATFORM#",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "iPhone",
-            "Device_Name": "iPhone",
-            "Device_Maker": "Apple Inc",
-            "Device_Brand_Name": "Apple",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-          },
+          "device": "iPhone",
           "platforms": [
             "iOS_K_8_1", "iOS_K_8_0", "iOS_K"
           ]
         },
         {
           "match": "Quora 4.0* rv:* (iPad#PLATFORM#",
+          "device": "iPad",
           "properties": {
-            "Device_Brand_Name": "Apple",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "iPad",
-            "Device_Name": "iPad",
-            "Device_Maker": "Apple Inc",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true",
             "Version": "4.0",
             "MajorVer": "4",
             "MinorVer": "0"
@@ -98,15 +66,8 @@
         },
         {
           "match": "Quora 4.1* rv:* (iPad#PLATFORM#",
+          "device": "iPad",
           "properties": {
-            "Device_Brand_Name": "Apple",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "iPad",
-            "Device_Name": "iPad",
-            "Device_Maker": "Apple Inc",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true",
             "Version": "4.1",
             "MajorVer": "4",
             "MinorVer": "1"
@@ -117,16 +78,7 @@
         },
         {
           "match": "Quora* rv:* (iPad#PLATFORM#",
-          "properties": {
-            "Device_Brand_Name": "Apple",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "iPad",
-            "Device_Name": "iPad",
-            "Device_Maker": "Apple Inc",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-          },
+          "device": "iPad",
           "platforms": [
             "iOS_K_8_1", "iOS_K_8_0", "iOS_K"
           ]
@@ -134,10 +86,9 @@
         {
           "match": "Quora 4.0* rv:* (#PLATFORM#",
           "properties": {
-          "Version": "4.0",
-          "MajorVer": "4",
-          "MinorVer": "0"
-
+            "Version": "4.0",
+            "MajorVer": "4",
+            "MinorVer": "0"
           },
           "platforms": [
             "iOS_K_8_1", "iOS_K_8_0", "iOS_K"

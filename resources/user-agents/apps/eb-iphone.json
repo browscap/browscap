@@ -7,6 +7,7 @@
       "userAgent": "EB iPhone\/IPad App",
       "platform": "iOS",
       "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "EB iPhone\/IPad App",
@@ -27,30 +28,16 @@
         "VBScript": "false",
         "JavaApplets": "false",
         "ActiveXControls": "false",
-        "isMobileDevice": "true",
-        "isTablet": "false",
-        "Crawler": "false",
-        "isSyndicationReader": "false",
-        "Device_Type": "Mobile Device",
-        "Device_Code_Name": "Mobile Device",
-        "Device_Maker": "Apple Inc",
-        "Device_Brand_Name": "Apple",
-        "Device_Name": "Mobile Device"
+        "Crawler": "false"
       },
       "children": [
         {
           "match": "eb-iphone\/3.8* (#PLATFORM#iPad) Mobile",
+          "device": "iPad",
           "properties": {
             "Version": "3.8",
             "MajorVer": "3",
-            "MinorVer": "8",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "iPad",
-            "Device_Name": "iPad",
-            "Device_Maker": "Apple Inc",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
+            "MinorVer": "8"
           },
           "platforms": [
             "iOS_E_7_0", "iOS_E_7_1", "iOS_E_8_0", "iOS_E_8_1"
@@ -69,15 +56,7 @@
         },
         {
           "match": "eb-iphone\/* (#PLATFORM#iPad) Mobile",
-          "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "iPad",
-            "Device_Name": "iPad",
-            "Device_Maker": "Apple Inc",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-          },
+          "device": "iPad",
           "platforms": [
             "iOS_E_7_0", "iOS_E_7_1", "iOS_E_8_0", "iOS_E_8_1"
           ]

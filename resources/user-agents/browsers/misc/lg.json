@@ -6,6 +6,7 @@
     {
       "userAgent": "LG",
       "platform": "JAVA",
+      "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "LG",
@@ -23,12 +24,7 @@
         "ActiveXControls": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
-        "CssVersion": "2",
-        "isMobileDevice": "true",
-        "isTablet": "false",
-        "Device_Type": "Mobile Device",
-        "Device_Code_Name": "general Mobile Device",
-        "Device_Name": "general Mobile Device"
+        "CssVersion": "2"
       },
       "children": [
         {
@@ -38,7 +34,8 @@
           "match": "LG G8000\/1.0 PDK\/2.5*"
         },
         {
-          "match": "LG-G1800"
+          "match": "LG-G1800",
+          "device": "LG G1800"
         },
         {
           "match": "LG-G210\/SW100\/WAP2.0 *"
@@ -146,13 +143,11 @@
           "match": "LGE\/U8150\/1.1 Profile\/MIDP-2.0 *"
         },
         {
-          "match": "LGE\/U8210\/1.0 Profile\/MIDP-2.0 *"
+          "match": "LGE\/U8210\/1.0 Profile\/MIDP-2.0 *",
+          "device": "LG U8210"
         },
         {
           "match": "SIE-C62\/*"
-        },
-        {
-          "match": "SIE-C62\/8*"
         }
       ]
     }

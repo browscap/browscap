@@ -133,7 +133,7 @@ return [
             'Device_Name' => 'Model S',
             'Device_Maker' => 'Tesla Motors',
             'Device_Type' => 'Car Entertainment System',
-            'Device_Pointing_Method' => 'touchscreen',
+            'Device_Pointing_Method' => 'unknown',
             'Device_Code_Name' => 'Model S',
             'Device_Brand_Name' => 'Tesla',
             'RenderingEngine_Name' => 'WebKit',

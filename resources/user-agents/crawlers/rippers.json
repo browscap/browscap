@@ -1114,6 +1114,7 @@
         },
         {
           "match": "python-requests\/2.3* CPython\/#PLATFORM#",
+          "device": "Linux Desktop",
           "properties": {
             "Browser": "Python-urllib",
             "Browser_Maker": "Python Software Foundation",
@@ -1137,6 +1138,7 @@
         },
         {
           "match": "python-requests\/2.2* CPython\/#PLATFORM#",
+          "device": "Linux Desktop",
           "properties": {
             "Browser": "Python-urllib",
             "Browser_Maker": "Python Software Foundation",
@@ -1160,6 +1162,7 @@
         },
         {
           "match": "python-requests\/2.1* CPython\/#PLATFORM#",
+          "device": "Linux Desktop",
           "properties": {
             "Browser": "Python-urllib",
             "Browser_Maker": "Python Software Foundation",
@@ -1183,6 +1186,7 @@
         },
         {
           "match": "python-requests\/2.0* CPython\/#PLATFORM#",
+          "device": "Linux Desktop",
           "properties": {
             "Browser": "Python-urllib",
             "Browser_Maker": "Python Software Foundation",
@@ -1239,6 +1243,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) RMSnapKit\/1.0*",
           "engine": "WebKit",
+          "device": "Macintosh",
           "properties": {
             "Browser": "RMSnapKit",
             "Browser_Maker": "realmacsoftware",
@@ -1254,6 +1259,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) RMSnapKit\/*",
           "engine": "WebKit",
+          "device": "Macintosh",
           "properties": {
             "Browser": "RMSnapKit",
             "Browser_Maker": "realmacsoftware"

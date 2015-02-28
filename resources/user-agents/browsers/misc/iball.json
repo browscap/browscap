@@ -6,6 +6,7 @@
     {
       "userAgent": "iBall",
       "platform": "JAVA",
+      "device": "general Mobile Device",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "iBall",
@@ -26,21 +27,12 @@
         "JavaApplets": "false",
         "ActiveXControls": "false",
         "isSyndicationReader": "false",
-        "Crawler": "false",
-        "isMobileDevice": "true",
-        "Device_Type": "Mobile Device"
+        "Crawler": "false"
       },
       "children": [
         {
           "match": "iBall Majestic 2.4D*",
-          "properties": {
-            "Device_Name": "Majestic 2.4D",
-            "Device_Maker": "SHAAN",
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Majestic 2.4D",
-            "Device_Brand_Name": "iBall",
-            "Device_Pointing_Method": "unknown"
-          }
+          "device": "SHAAN Majestic 2.4D"
         }
       ]
     }

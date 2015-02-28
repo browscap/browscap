@@ -6,6 +6,7 @@
     {
       "userAgent": "NetFront Generic",
       "engine": "NetFront",
+      "device": "general Mobile Device",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Access NetFront Generic",
@@ -17,13 +18,15 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "isMobileDevice": "true",
-        "Device_Type": "Mobile Device",
         "CssVersion": "2"
       },
       "children": [
         {
-          "match": "*NetFront\/*"
+          "match": "SonyEricsson*\/* Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) *Version\/*Safari\/*",
+          "device": "general Mobile Phone",
+          "platforms": [
+            "SymbianOS"
+          ]
         },
         {
           "match": "Mozilla\/4.0 (*) *NetFront\/*"
@@ -38,10 +41,7 @@
           "match": "SEC-* *NetFront\/*"
         },
         {
-          "match": "SonyEricsson*\/* Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) *Version\/*Safari\/*",
-          "platforms": [
-            "SymbianOS"
-          ]
+          "match": "*NetFront\/*"
         }
       ]
     }

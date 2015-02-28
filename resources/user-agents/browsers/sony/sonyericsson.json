@@ -6,6 +6,7 @@
     {
       "userAgent": "SonyEricsson",
       "platform": "SymbianOS",
+      "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "SonyEricsson",
@@ -23,311 +24,137 @@
         "JavaApplets": "false",
         "ActiveXControls": "false",
         "isSyndicationReader": "false",
-        "isMobileDevice": "true",
-        "isTablet": "false",
         "Crawler": "false",
-        "CssVersion": "1",
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "general Mobile Device",
-        "Device_Name": "general Mobile Device"
+        "CssVersion": "1"
       },
       "children": [
         {
-          "match": "EricssonA2628s\/R2A",
-          "properties": {
-            "Device_Code_Name": "A2628s",
-            "Device_Maker": "Ericsson",
-            "Device_Brand_Name": "Ericsson",
-            "Device_Name": "A2628s"
-          }
+          "match": "EricssonA2628s\/*",
+          "device": "Ericsson A2628s"
         },
         {
           "match": "EricssonR520\/*",
-          "properties": {
-            "Device_Code_Name": "R520",
-            "Device_Maker": "Ericsson",
-            "Device_Brand_Name": "Ericsson",
-            "Device_Name": "R520"
-          }
+          "device": "Ericsson R520"
         },
         {
           "match": "EricssonT20\/*",
-          "properties": {
-            "Device_Code_Name": "T20",
-            "Device_Maker": "Ericsson",
-            "Device_Brand_Name": "Ericsson",
-            "Device_Name": "T20"
-          }
+          "device": "Ericsson T20"
         },
         {
           "match": "EricssonT39\/*",
-          "properties": {
-            "Device_Code_Name": "T39",
-            "Device_Maker": "Ericsson",
-            "Device_Brand_Name": "Ericsson",
-            "Device_Name": "T39"
-          }
+          "device": "Ericsson T39"
         },
         {
           "match": "EricssonT65*",
-          "properties": {
-            "Device_Code_Name": "T65",
-            "Device_Maker": "Ericsson",
-            "Device_Brand_Name": "Ericsson",
-            "Device_Name": "T65"
-          }
+          "device": "Ericsson T65"
         },
         {
           "match": "EricssonT68*",
-          "properties": {
-            "Device_Code_Name": "T68",
-            "Device_Maker": "Ericsson",
-            "Device_Brand_Name": "Ericsson",
-            "Device_Name": "T68"
-          }
+          "device": "Ericsson T68"
         },
         {
           "match": "SonyEricssonC510\/R1*(SymbianOS\/*",
-          "properties": {
-            "Device_Code_Name": "C510",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "C510"
-          }
+          "device": "SonyEricsson C510"
         },
         {
           "match": "SonyEricssonC902\/*(SymbianOS\/*",
-          "properties": {
-            "Device_Code_Name": "C902",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "C902"
-          }
+          "device": "SonyEricsson C902"
         },
         {
           "match": "SonyEricssonC905\/*(SymbianOS\/*",
-          "properties": {
-            "Device_Code_Name": "C905",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "C905"
-          }
+          "device": "SonyEricsson C905"
         },
         {
           "match": "SonyEricssonJ10i2\/*(SymbianOS\/*",
-          "properties": {
-            "Device_Code_Name": "J10i2",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "J10i2"
-          }
+          "device": "SonyEricsson J10i2"
         },
         {
           "match": "SonyEricssonJ200i\/*",
-          "properties": {
-            "Device_Code_Name": "J200i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "J200i"
-          }
+          "device": "SonyEricsson J200i"
         },
         {
           "match": "SonyEricssonJ210c\/*",
-          "properties": {
-            "Device_Code_Name": "J210c",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "J210c"
-          }
+          "device": "SonyEricsson J210c"
         },
         {
           "match": "SonyEricssonJ210i\/*",
-          "properties": {
-            "Device_Code_Name": "J210i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "J210i"
-          }
+          "device": "SonyEricsson J210i"
         },
         {
           "match": "SonyEricssonK550i*",
-          "properties": {
-            "Device_Code_Name": "K550i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "K550i"
-          }
+          "device": "SonyEricsson K550i"
         },
         {
           "match": "SonyEricssonK800i\/*(SymbianOS\/*",
-          "properties": {
-            "Device_Code_Name": "K800i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "K800i"
-          }
+          "device": "SonyEricsson K800i"
         },
         {
           "match": "SonyEricssonT715\/*(SymbianOS\/*",
-          "properties": {
-            "Device_Code_Name": "T715",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "T715"
-          }
+          "device": "SonyEricsson T715"
         },
         {
           "match": "SonyEricssonU10i\/*(SymbianOS\/*",
-          "properties": {
-            "Device_Code_Name": "U10i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "U10i"
-          }
+          "device": "SonyEricsson U10i"
         },
         {
           "match": "SonyEricssonU1i\/*(SymbianOS\/*",
-          "properties": {
-            "Device_Code_Name": "U1i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "U1i"
-          }
+          "device": "SonyEricsson U1i"
         },
         {
           "match": "SonyEricssonU1iv\/*(SymbianOS\/*",
-          "properties": {
-            "Device_Code_Name": "U1iv",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "U1iv"
-          }
+          "device": "SonyEricsson U1iv"
         },
         {
           "match": "SonyEricssonU5iv\/*(SymbianOS\/*",
-          "properties": {
-            "Device_Code_Name": "U5iv",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "U5iv"
-          }
+          "device": "SonyEricsson U5iv"
         },
         {
           "match": "SonyEricssonU5u\/*(SymbianOS\/*",
-          "properties": {
-            "Device_Code_Name": "U5u",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "U5u"
-          }
+          "device": "SonyEricsson U5u"
         },
         {
           "match": "SonyEricssonU8a\/*(SymbianOS\/*",
-          "properties": {
-            "Device_Code_Name": "U8a",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "U8a"
-          }
+          "device": "SonyEricsson U8a"
         },
         {
           "match": "SonyEricssonU8i\/*(SymbianOS\/*",
-          "properties": {
-            "Device_Code_Name": "U8i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "U8i"
-          }
+          "device": "SonyEricsson U8i"
         },
         {
           "match": "SonyEricssonW350i\/*(SymbianOS\/*",
-          "properties": {
-            "Device_Code_Name": "W350i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "W350i"
-          }
+          "device": "SonyEricsson W350i"
         },
         {
           "match": "SonyEricssonW350iv\/*(SymbianOS\/*",
-          "properties": {
-            "Device_Code_Name": "W350iv",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "W350iv"
-          }
-        },
-        {
-          "match": "SonyEricssonW580i\/* Profile\/MIDP-2.0 Configuration\/CLDC-1.1 Untrusted\/1.0",
-          "properties": {
-            "Device_Code_Name": "W580i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "W580i"
-          }
+          "device": "SonyEricsson W350iv"
         },
         {
           "match": "SonyEricssonW580i\/*",
-          "properties": {
-            "Device_Code_Name": "W580i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "W580i"
-          }
+          "device": "SonyEricsson W580i"
         },
         {
           "match": "SonyEricssonW595\/*(SymbianOS\/*",
-          "properties": {
-            "Device_Code_Name": "W595",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "W595"
-          }
+          "device": "SonyEricsson W595"
         },
         {
           "match": "SonyEricssonW705\/*(SymbianOS\/*",
-          "properties": {
-            "Device_Code_Name": "W705",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "W705"
-          }
+          "device": "SonyEricsson W705"
         },
         {
           "match": "SonyEricssonW760i\/*(SymbianOS\/*",
-          "properties": {
-            "Device_Code_Name": "W760i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "W760i"
-          }
+          "device": "SonyEricsson W760i"
         },
         {
           "match": "SonyEricssonW910i\/R1FA*",
-          "properties": {
-            "Device_Code_Name": "W910i",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "W910i"
-          }
+          "device": "SonyEricsson W910i"
         },
         {
           "match": "SonyEricssonW980\/*(SymbianOS\/*",
-          "properties": {
-            "Device_Code_Name": "W980",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "W980"
-          }
+          "device": "SonyEricsson W980"
         },
         {
           "match": "SonyEricssonW995\/*(SymbianOS\/*",
-          "properties": {
-            "Device_Code_Name": "W995",
-            "Device_Maker": "SonyEricsson",
-            "Device_Brand_Name": "SonyEricsson",
-            "Device_Name": "W995"
-          }
+          "device": "SonyEricsson W995"
         }
       ]
     }

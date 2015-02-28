@@ -6,6 +6,7 @@
     {
       "userAgent": "BlackBerry 4.6",
       "platform": "RIMOS_4_6",
+      "device": "general Mobile Phone (old Blackberry)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "BlackBerry 4.6",
@@ -16,14 +17,7 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "isMobileDevice": "true",
-        "isTablet": "false",
         "CssVersion": "2",
-        "Device_Name": "Blackberry",
-        "Device_Maker": "Research In Motion Limited",
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "Blackberry",
-        "Device_Brand_Name": "RIM",
         "Version": "4.6",
         "MajorVer": "4",
         "MinorVer": "6"
@@ -31,52 +25,31 @@
       "children": [
         {
           "match": "BlackBerry8220\/4.6*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 8220",
-            "Device_Name": "BlackBerry 8220"
-          }
+          "device": "Blackberry 8220"
         },
         {
           "match": "BlackBerry8230\/4.6*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 8230",
-            "Device_Name": "BlackBerry 8230"
-          }
+          "device": "Blackberry 8230"
         },
         {
           "match": "BlackBerry8230f\/4.6*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 8230f",
-            "Device_Name": "BlackBerry 8230f"
-          }
+          "device": "Blackberry 8230f"
         },
         {
           "match": "BlackBerry8350i\/4.6*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 8350i",
-            "Device_Name": "BlackBerry 8350i"
-          }
+          "device": "Blackberry 8350i"
         },
         {
           "match": "BlackBerry8520\/4.6*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 8520",
-            "Device_Name": "Curve"
-          }
+          "device": "Blackberry 8520"
         },
         {
           "match": "BlackBerry8900\/4.6*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 8900",
-            "Device_Name": "BlackBerry 8900"
-          }
+          "device": "Blackberry 8900"
         },
         {
           "match": "BlackBerry9000\/4.6*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 9000",
-            "Device_Name": "Bold"
-          }
+          "device": "Blackberry 9000"
         }
       ]
     }

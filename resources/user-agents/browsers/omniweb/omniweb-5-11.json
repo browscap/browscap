@@ -7,6 +7,7 @@
       "userAgent": "OmniWeb 5.11",
       "platform": "OSX",
       "engine": "WebKit",
+      "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "OmniWeb 5.11",
@@ -21,11 +22,7 @@
         "Cookies": "true",
         "JavaScript": "true",
         "JavaApplets": "true",
-        "CssVersion": "3",
-        "Device_Name": "PC",
-        "Device_Maker": "Various",
-        "Device_Type": "Desktop",
-        "Device_Pointing_Method": "mouse"
+        "CssVersion": "3"
       },
       "children": [
         {
@@ -38,9 +35,7 @@
         },
         {
           "match": "OmniWeb622.19.* CFNetwork\/* Darwin\/* (Power%20Macintosh) (PowerMac7%2C3)",
-          "properties": {
-            "Device_Name": "PowerMac"
-          },
+          "device": "PowerMac",
           "platforms": [
             "Darwin"
           ]

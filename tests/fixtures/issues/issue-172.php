@@ -19,7 +19,7 @@ return [
             'isTablet' => true,
             'Crawler' => false,
             'Device_Name' => 'Surface',
-            'Device_Maker' => 'Microsoft',
+            'Device_Maker' => 'Microsoft Corporation',
             'Device_Type' => 'Tablet',
             'Device_Pointing_Method' => 'touchscreen',
             'Device_Code_Name' => 'Surface',

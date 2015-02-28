@@ -76,7 +76,7 @@ return [
             'Device_Maker' => 'Nokia',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'unknown',
-            'Device_Code_Name' => 'Nokia808PureView',
+            'Device_Code_Name' => '808PureView',
             'Device_Brand_Name' => 'Nokia',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',

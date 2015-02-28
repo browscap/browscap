@@ -5,6 +5,8 @@
   "userAgents": [
     {
       "userAgent": "Netbox",
+      "device": "Sony Netbox",
+      "platform": "Linux",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Netbox",
@@ -14,10 +16,7 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "CssVersion": "1",
-        "Device_Name": "Netbox",
-        "Device_Maker": "Sony",
-        "Device_Type": "TV Device"
+        "CssVersion": "1"
       },
       "children": [
         {

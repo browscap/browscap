@@ -6,6 +6,7 @@
     {
       "userAgent": "Pocket PC",
       "platform": "WinCE",
+      "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Pocket PC",
@@ -15,10 +16,7 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "isMobileDevice": "true",
-        "isTablet": "false",
-        "CssVersion": "1",
-        "Device_Type": "Mobile Phone"
+        "CssVersion": "1"
       },
       "children": [
         {

@@ -91,6 +91,7 @@ class CollectionCreator
 
         $this->getLogger()->debug('add platform file');
         $this->collection
+            ->addDevicesFile($resourceFolder . '/devices.json')
             ->addPlatformsFile($resourceFolder . '/platforms.json')
             ->addEnginesFile($resourceFolder . '/engines.json')
             ->addDefaultProperties($resourceFolder . '/core/default-properties.json')

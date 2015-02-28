@@ -8,6 +8,7 @@
       "userAgent": "IEMobile #MAJORVER#.#MINORVER#",
       "platform": "WinPhone8",
       "engine": "Trident_6",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "IEMobile",
@@ -31,168 +32,96 @@
         "JavaApplets": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "general Mobile Device",
-        "Device_Name": "general Mobile Device",
-        "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true",
-        "isTablet": "false",
         "CssVersion": "3"
       },
       "children": [
         {
           "match": "Mozilla\/5.0 (compatible*; MSIE #MAJORVER#*; #PLATFORM# *Trident\/6.0; IEMobile\/#MAJORVER#*; ARM; Touch; HTC; Windows Phone 8S by HTC)",
-          "properties": {
-            "Device_Code_Name": "8S",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "8S"
-          },
+          "device": "HTC 8S",
           "platforms": [
             "WinPhone8"
           ]
         },
         {
           "match": "Mozilla\/5.0 (compatible*; MSIE #MAJORVER#*; #PLATFORM# *Trident\/6.0; IEMobile\/#MAJORVER#*; ARM; Touch; HTC; Windows Phone 8X by HTC)",
-          "properties": {
-            "Device_Code_Name": "Windows Phone 8X",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Name": "Windows Phone 8X"
-          },
+          "device": "HTC 8X",
           "platforms": [
             "WinPhone8"
           ]
         },
         {
           "match": "Mozilla\/5.0 (compatible*; MSIE #MAJORVER#*; #PLATFORM# *Trident\/6.0; IEMobile\/#MAJORVER#*; ARM; Touch; NOKIA; Lumia 925*)",
-          "properties": {
-            "Device_Code_Name": "Lumia 925",
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Name": "Lumia 925"
-          },
+          "device": "Nokia Lumia 925",
           "platforms": [
             "WinPhone8"
           ]
         },
         {
           "match": "Mozilla\/5.0 (compatible*; MSIE #MAJORVER#*; #PLATFORM# *Trident\/6.0; IEMobile\/#MAJORVER#*; ARM; Touch; NOKIA; Lumia 920*)",
-          "properties": {
-            "Device_Code_Name": "Lumia 920",
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Name": "Lumia 920"
-          },
+          "device": "Nokia Lumia 920",
           "platforms": [
             "WinPhone8"
           ]
         },
         {
           "match": "Mozilla\/5.0 (compatible*; MSIE #MAJORVER#*; #PLATFORM# *Trident\/6.0; IEMobile\/#MAJORVER#*; ARM; Touch; NOKIA; Lumia 820*)",
-          "properties": {
-            "Device_Code_Name": "Lumia 820",
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Name": "Lumia 820"
-          },
+          "device": "Nokia Lumia 820",
           "platforms": [
             "WinPhone8"
           ]
         },
         {
           "match": "Mozilla\/5.0 (compatible*; MSIE #MAJORVER#*; #PLATFORM# *Trident\/6.0; IEMobile\/#MAJORVER#*; ARM; Touch; NOKIA; Lumia 520*)",
-          "properties": {
-            "Device_Code_Name": "Lumia 520",
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Name": "Lumia 520",
-            "isMobileDevice": "true"
-          },
+          "device": "Nokia Lumia 520",
           "platforms": [
             "WinPhone8"
           ]
         },
         {
           "match": "Mozilla\/5.0 (compatible*; MSIE #MAJORVER#*; #PLATFORM# *Trident\/6.0; IEMobile\/#MAJORVER#*; ARM; Touch; NOKIA; Lumia 620*)",
-          "properties": {
-            "Device_Code_Name": "Lumia 620",
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Name": "Lumia 620"
-          },
+          "device": "Nokia Lumia 620",
           "platforms": [
             "WinPhone8"
           ]
         },
         {
           "match": "Mozilla\/5.0 (compatible*; MSIE #MAJORVER#*; #PLATFORM# *Trident\/6.0; IEMobile\/#MAJORVER#*; ARM; Touch; NOKIA; Lumia 625*)",
-          "properties": {
-            "Device_Code_Name": "Lumia 625",
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Name": "Lumia 625"
-          },
+          "device": "Nokia Lumia 625",
           "platforms": [
             "WinPhone8"
           ]
         },
         {
           "match": "Mozilla\/5.0 (compatible*; MSIE #MAJORVER#*; #PLATFORM# *Trident\/6.0; IEMobile\/#MAJORVER#*; ARM; Touch; NOKIA; Lumia 720*)",
-          "properties": {
-            "Device_Code_Name": "Lumia 720",
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Name": "Lumia 720"
-          },
+          "device": "Nokia Lumia 720",
           "platforms": [
             "WinPhone8"
           ]
         },
         {
           "match": "Mozilla\/5.0 (compatible*; MSIE #MAJORVER#*; #PLATFORM# *Trident\/6.0; IEMobile\/#MAJORVER#*; ARM; Touch; SAMSUNG; GT-I8750*)",
-          "properties": {
-            "Device_Code_Name": "GT-I8750",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "ATIV Odyssey"
-          },
+          "device": "Samsung GT-I8750",
           "platforms": [
             "WinPhone8"
           ]
         },
         {
           "match": "Mozilla\/5.0 (compatible*; MSIE #MAJORVER#*; #PLATFORM# *Trident\/6.0; IEMobile\/#MAJORVER#*; ARM; Touch; NOKIA; 909*)",
-          "properties": {
-            "Device_Code_Name": "Lumia 1020",
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Name": "Lumia 1020"
-          },
+          "device": "Nokia Lumia 1020",
           "platforms": [
             "WinPhone8"
           ]
         },
         {
           "match": "Mozilla\/5.0 (compatible*; MSIE #MAJORVER#*; #PLATFORM# *Trident\/6.0; IEMobile\/#MAJORVER#*; ARM; Touch; NOKIA; Lumia 1320*)",
-          "properties": {
-            "Device_Code_Name": "Lumia 1320",
-            "Device_Maker": "Nokia",
-            "Device_Brand_Name": "Nokia",
-            "Device_Name": "Lumia 1320"
-          },
+          "device": "Nokia Lumia 1320",
           "platforms": [
             "WinPhone8"
           ]
         },
         {
           "match": "Mozilla\/5.0 (compatible*; MSIE #MAJORVER#*; #PLATFORM# *Trident\/6.0; IEMobile\/#MAJORVER#*; ARM; Touch; HUAWEI; W1-U00*)",
-          "properties": {
-            "Device_Code_Name": "W1-U00",
-            "Device_Maker": "Huawei",
-            "Device_Brand_Name": "Huawei",
-            "Device_Name": "Ascend W1"
-          },
+          "device": "Huawei W1-U00",
           "platforms": [
             "WinPhone8"
           ]

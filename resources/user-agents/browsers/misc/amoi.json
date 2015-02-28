@@ -6,12 +6,11 @@
     {
       "userAgent": "Amoi",
       "platform": "JAVA",
+      "device": "general Mobile Device",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Amoi",
-        "Browser": "Amoi",
-        "isMobileDevice": "true",
-        "Device_Type": "Mobile Device"
+        "Browser": "Amoi"
       },
       "children": [
         {

@@ -6,6 +6,7 @@
     {
       "userAgent": "BlackBerry 4.7",
       "platform": "RIMOS_4_7",
+      "device": "general Mobile Phone (old Blackberry)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "BlackBerry 4.7",
@@ -16,14 +17,7 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "isMobileDevice": "true",
-        "isTablet": "false",
         "CssVersion": "2",
-        "Device_Name": "Blackberry",
-        "Device_Maker": "Research In Motion Limited",
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "Blackberry",
-        "Device_Brand_Name": "RIM",
         "Version": "4.7",
         "MajorVer": "4",
         "MinorVer": "7"
@@ -31,24 +25,15 @@
       "children": [
         {
           "match": "BlackBerry9500\/4.7*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 9500",
-            "Device_Name": "Storm"
-          }
+          "device": "Blackberry 9500"
         },
         {
           "match": "BlackBerry9530\/4.7*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 8520",
-            "Device_Name": "Curve"
-          }
+          "device": "Blackberry 8520"
         },
         {
           "match": "BlackBerry9630\/4.7*",
-          "properties": {
-            "Device_Code_Name": "BlackBerry 9630",
-            "Device_Name": "BlackBerry 9630"
-          }
+          "device": "Blackberry 9630"
         }
       ]
     }

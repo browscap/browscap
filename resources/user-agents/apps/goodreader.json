@@ -7,6 +7,7 @@
       "userAgent": "GoodReader",
       "platform": "Darwin",
       "engine": "WebKit",
+      "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "GoodReader",
@@ -26,14 +27,8 @@
         "VBScript": "false",
         "JavaApplets": "false",
         "ActiveXControls": "false",
-        "isMobileDevice": "false",
         "isSyndicationReader": "false",
-        "Crawler": "false",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Macintosh",
-        "Device_Maker": "Apple Inc",
-        "Device_Brand_Name": "Apple",
-        "Device_Name": "Macintosh"
+        "Crawler": "false"
       },
       "children": [
         {
@@ -55,17 +50,11 @@
         },
         {
           "match": "GoodReaderIPad\/2.8* CFNetwork\/* #PLATFORM#",
+          "device": "iPad",
           "properties": {
             "Version": "2.8",
             "MajorVer": "2",
-            "MinorVer": "8",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "iPad",
-            "Device_Name": "iPad",
-            "Device_Maker": "Apple Inc",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
+            "MinorVer": "8"
           },
           "platforms": [
             "Darwin"
@@ -73,17 +62,11 @@
         },
         {
           "match": "GoodReaderIPad\/3.0* CFNetwork\/* #PLATFORM#",
+          "device": "iPad",
           "properties": {
             "Version": "3.0",
             "MajorVer": "3",
-            "MinorVer": "0",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "iPad",
-            "Device_Name": "iPad",
-            "Device_Maker": "Apple Inc",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
+            "MinorVer": "0"
           },
           "platforms": [
             "Darwin"
@@ -91,15 +74,7 @@
         },
         {
           "match": "GoodReaderIPad\/* CFNetwork\/* #PLATFORM#",
-          "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "iPad",
-            "Device_Name": "iPad",
-            "Device_Maker": "Apple Inc",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-          },
+          "device": "iPad",
           "platforms": [
             "Darwin"
           ]

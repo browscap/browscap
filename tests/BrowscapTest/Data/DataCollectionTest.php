@@ -61,6 +61,11 @@ class DataCollectionTest extends \PHPUnit_Framework_TestCase
         return __DIR__ . '/../../fixtures/engines/engines.json';
     }
 
+    public function getDevicesJsonFixture()
+    {
+        return __DIR__ . '/../../fixtures/devices/devices.json';
+    }
+
     private function getUserAgentFixtures()
     {
         $dir = __DIR__ . '/../../fixtures/ua';
@@ -168,6 +173,17 @@ HERE;
         $this->object->getPlatform('NotExists');
     }
 
+    /**
+     * @expectedException \OutOfBoundsException
+     * @expectedExceptionMessage Rendering Engine "NotExists" does not exist in data
+     */
+    public function testGetEngineThrowsExceptionIfEngineDoesNotExist()
+    {
+        $this->object->addEnginesFile($this->getEngineJsonFixture());
+
+        $this->object->getEngine('NotExists');
+    }
+
     public function testGetPlatform()
     {
         $this->object->addPlatformsFile($this->getPlatformsJsonFixture());
@@ -246,6 +262,17 @@ HERE;
     public function testAddEnginesFileThrowsExceptionIfFileContainsNoProperties()
     {
         $this->object->addEnginesFile(__DIR__ . '/../../fixtures/engines/engines-without-properties.json');
+    }
+
+    /**
+     * @expectedException \OutOfBoundsException
+     * @expectedExceptionMessage Device "NotExists" does not exist in data, available devices:
+     */
+    public function testGetDeviceThrowsExceptionIfDeviceDoesNotExist()
+    {
+        $this->object->addDevicesFile($this->getDevicesJsonFixture());
+
+        $this->object->getDevice('NotExists');
     }
 
     /**

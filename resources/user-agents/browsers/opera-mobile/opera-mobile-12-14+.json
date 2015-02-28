@@ -7,6 +7,7 @@
     {
       "userAgent": "Opera Mobile #MAJORVER#.#MINORVER#",
       "engine": "Presto_2_12",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Opera Mobile #MAJORVER#.#MINORVER#",
@@ -23,22 +24,11 @@
         "Cookies": "true",
         "JavaScript": "true",
         "JavaApplets": "true",
-        "isMobileDevice": "true",
-        "isTablet": "false",
-        "CssVersion": "3",
-        "Device_Type": "Mobile Phone",
-        "Device_Pointing_Method": "touchscreen"
+        "CssVersion": "3"
       },
       "children": [
         {
           "match": "Opera\/9.80*(#PLATFORM#Opera Mobi*)*Version\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "isTablet": "false",
-            "Device_Code_Name": "general Mobile Device",
-            "Device_Maker": "unknown",
-            "Device_Brand_Name": "unknown",
-            "Device_Name": "general Mobile Device"
-          },
           "platforms": [
             "AndroidLinux",
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android",
@@ -48,14 +38,7 @@
         },
         {
           "match": "Opera\/9.80*(#PLATFORM#Opera Tablet*)*Version\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "general Mobile Device",
-            "Device_Maker": "unknown",
-            "Device_Brand_Name": "unknown",
-            "Device_Name": "general Mobile Device"
-          },
+          "device": "general Tablet",
           "platforms": [
             "AndroidLinux",
             "Android_4_0", "Android_4_0_D", "Android_4_1", "Android_4_1_D", "Android_4_2", "Android_4_3", "Android_4_4", "Android",

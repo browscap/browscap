@@ -6,6 +6,8 @@
     {
       "userAgent": "Twitter App",
       "engine": "WebKit",
+      "platform": "iOS",
+      "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Twitter App",
@@ -17,37 +19,19 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "isMobileDevice": "true",
-        "CssVersion": "3",
-        "Device_Type": "Mobile Phone",
-        "Device_Pointing_Method": "touchscreen"
+        "CssVersion": "3"
       },
       "children": [
         {
           "match": "Mozilla/5.0 (iPhone#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Mobile\/* Twitter for iPhone",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "iPhone",
-            "Device_Name": "iPhone",
-            "Device_Maker": "Apple Inc",
-            "Device_Brand_Name": "Apple",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-          },
+          "device": "iPhone",
           "platforms": [
             "iOS_A_7_1", "iOS_A_8_0", "iOS_A"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Mobile\/* Twitter*",
-          "properties": {
-            "Device_Maker": "Apple Inc",
-            "Device_Type": "Mobile Device",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-          },
+          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A_7_1", "iOS_A_8_0", "iOS_A"
           ]

@@ -7,6 +7,7 @@
       "userAgent": "SalesForce App for iOS",
       "platform": "iOS",
       "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "SalesForce App",
@@ -27,24 +28,13 @@
         "VBScript": "false",
         "JavaApplets": "false",
         "ActiveXControls": "false",
-        "isMobileDevice": "true",
-        "isTablet": "false",
         "Crawler": "false",
         "isSyndicationReader": "false"
       },
       "children": [
         {
           "match": "iPhone OS\/* (iPhone) Salesforce1\/* Mozilla\/5.0 (iPhone#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Mobile\/*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "iPhone",
-            "Device_Name": "iPhone",
-            "Device_Maker": "Apple Inc",
-            "Device_Brand_Name": "Apple",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-          },
+          "device": "iPhone",
           "platforms": [
             "iOS_A_8_0", "iOS_A_8_1", "iOS_A"
           ]

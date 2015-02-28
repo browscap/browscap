@@ -7,6 +7,7 @@
     {
       "userAgent": "MQQBrowser #MAJORVER#.#MINORVER#",
       "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "MQQBrowser #MAJORVER#.#MINORVER#",
@@ -22,47 +23,26 @@
         "Cookies": "true",
         "JavaScript": "true",
         "JavaApplets": "true",
-        "CssVersion": "3",
-        "isMobileDevice": "true",
-        "isTablet": "false",
-        "Device_Type": "Mobile Phone",
-        "Device_Pointing_Method": "touchscreen"
+        "CssVersion": "3"
       },
       "children": [
         {
           "match": "MQQBrowser\/#MAJORVER#.#MINORVER#*Mozilla\/5.0 (#PLATFORM#GT-N7100 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/4.0 *Safari\/*",
-          "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "GT-N7100",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy Note II"
-          },
+          "device": "Samsung GT-N7100",
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1"
           ]
         },
         {
           "match": "MQQBrowser\/#MAJORVER#.#MINORVER#*Mozilla\/5.0 (#PLATFORM#GT-I9100 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/4.0 *Safari\/*",
-          "properties": {
-            "Device_Code_Name": "GT-I9100",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Galaxy S II"
-          },
+          "device": "GT-I9100",
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1"
           ]
         },
         {
           "match": "MQQBrowser\/#MAJORVER#.#MINORVER#*Mozilla\/5.0 (#PLATFORM#A5000 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/4.0 *Safari\/*",
-          "properties": {
-            "Device_Code_Name": "A5000",
-            "Device_Maker": "Sony",
-            "Device_Brand_Name": "Sony",
-            "Device_Name": "Alpha a5000",
-            "Device_Type": "Digital Camera"
-          },
+          "device": "Sony A5000",
           "platforms": [
             "Android"
           ]

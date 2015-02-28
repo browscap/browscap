@@ -6,25 +6,20 @@
     {
       "userAgent": "Chimera",
       "platform": "OSX",
+      "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser_Type": "Browser",
         "Browser_Maker": "Mozilla Foundation",
         "JavaApplets": "true",
         "CssVersion": "2",
-        "Device_Code_Name": "Macintosh",
-        "Device_Maker": "Apple Inc",
-        "Device_Brand_Name": "Apple",
-        "Device_Name": "Macintosh",
         "Comment": "Chimera",
         "Browser": "Chimera",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
-        "JavaScript": "true",
-        "Device_Type": "Desktop",
-        "Device_Pointing_Method": "mouse"
+        "JavaScript": "true"
       },
       "children": [
         {

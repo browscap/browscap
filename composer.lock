@@ -297,16 +297,16 @@
         },
         {
             "name": "fabpot/php-cs-fixer",
-            "version": "v1.4.2",
+            "version": "v1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfPHP/PHP-CS-Fixer.git",
-                "reference": "3af00cf237289a406e7307e18e7ab0d92cf57038"
+                "reference": "2d6851520bf0250f668307ab2fd28cbb0b35d2b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfPHP/PHP-CS-Fixer/zipball/3af00cf237289a406e7307e18e7ab0d92cf57038",
-                "reference": "3af00cf237289a406e7307e18e7ab0d92cf57038",
+                "url": "https://api.github.com/repos/FriendsOfPHP/PHP-CS-Fixer/zipball/2d6851520bf0250f668307ab2fd28cbb0b35d2b9",
+                "reference": "2d6851520bf0250f668307ab2fd28cbb0b35d2b9",
                 "shasum": ""
             },
             "require": {
@@ -346,7 +346,7 @@
                 }
             ],
             "description": "A script to automatically fix Symfony Coding Standard",
-            "time": "2015-02-03 21:20:51"
+            "time": "2015-02-18 19:35:59"
         },
         {
             "name": "mikey179/vfsStream",
@@ -354,12 +354,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mikey179/vfsStream.git",
-                "reference": "66f9615356a67e9dc4455cb13b32b303a97a4e07"
+                "reference": "811bf974d66b1b0058003a8f32ba2fea495156e1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mikey179/vfsStream/zipball/66f9615356a67e9dc4455cb13b32b303a97a4e07",
-                "reference": "66f9615356a67e9dc4455cb13b32b303a97a4e07",
+                "url": "https://api.github.com/repos/mikey179/vfsStream/zipball/811bf974d66b1b0058003a8f32ba2fea495156e1",
+                "reference": "811bf974d66b1b0058003a8f32ba2fea495156e1",
                 "shasum": ""
             },
             "require": {
@@ -385,7 +385,7 @@
             ],
             "description": "Virtual file system to mock the real file system in unit tests.",
             "homepage": "http://vfs.bovigo.org/",
-            "time": "2015-01-17 11:05:36"
+            "time": "2015-02-26 16:09:29"
         },
         {
             "name": "mimmi20/file-loader",

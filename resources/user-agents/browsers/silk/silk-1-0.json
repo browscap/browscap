@@ -8,6 +8,7 @@
       "userAgent": "Silk #MAJORVER#.#MINORVER#",
       "platform": "Android",
       "engine": "WebKit",
+      "device": "Amazon Kindle",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Silk #MAJORVER#.#MINORVER#",
@@ -21,12 +22,7 @@
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
-        "isMobileDevice": "true",
-        "CssVersion": "2",
-        "Device_Name": "Kindle",
-        "Device_Maker": "Amazon.com, Inc.",
-        "Device_Type": "Ebook Reader",
-        "Device_Pointing_Method": "touchscreen"
+        "CssVersion": "2"
       },
       "children": [
         {
@@ -36,10 +32,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (Linux*Android*Silk\/#MAJORVER#.*) AppleWebKit\/* (KHTML, like Gecko) Version\/4.0 Mobile Safari*",
-          "properties": {
-            "Browser_Modus": "Desktop Mode"
-          }
+          "match": "Mozilla\/5.0 (Linux*Android*Silk\/#MAJORVER#.*) AppleWebKit\/* (KHTML, like Gecko) Version\/4.0 Mobile Safari*"
         },
         {
           "match": "Mozilla\/5.0 (*Mac OS X 10*Silk\/1.*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/5.0 Safari*",
@@ -48,10 +41,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (Linux*Android*Silk\/1.*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/4.0*Safari*",
-          "properties": {
-            "Browser_Modus": "Desktop Mode"
-          }
+          "match": "Mozilla\/5.0 (Linux*Android*Silk\/1.*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/4.0*Safari*"
         }
       ]
     }

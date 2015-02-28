@@ -6,6 +6,7 @@
     {
       "userAgent": "Microsoft Outlook 2013",
       "engine": "Trident",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Microsoft Outlook 2013",
@@ -21,11 +22,7 @@
         "BackgroundSounds": "true",
         "JavaScript": "true",
         "VBScript": "true",
-        "CssVersion": "2",
-        "Device_Name": "PC",
-        "Device_Maker": "Various",
-        "Device_Type": "Desktop",
-        "Device_Pointing_Method": "mouse"
+        "CssVersion": "2"
       },
       "children": [
         {
@@ -104,16 +101,11 @@
         },
         {
           "match": "Microsoft Office Mobile\/15.0",
+          "device": "general Mobile Phone (Touch)",
           "properties": {
-            "Device_Name": "general Mobile Device",
-            "Device_Maker": "unknown",
-            "Device_Type": "Mobile Device",
-            "Device_Code_Name": "general Mobile Device",
-            "Device_Pointing_Method": "touchscreen",
             "Win16": "false",
             "Win32": "false",
-            "Win64": "false",
-            "isMobileDevice": "true"
+            "Win64": "false"
           }
         }
       ]

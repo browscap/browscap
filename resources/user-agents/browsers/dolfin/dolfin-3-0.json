@@ -8,6 +8,7 @@
       "userAgent": "Dolfin #MAJORVER#.#MINORVER#",
       "platform": "Bada_2_0",
       "engine": "WebKit",
+      "device": "general Mobile Device",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Dolfin #MAJORVER#.#MINORVER#",
@@ -17,64 +18,38 @@
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
         "Win32": "false",
-        "Device_Maker": "Samsung",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "isMobileDevice": "true",
-        "CssVersion": "3",
-        "Device_Type": "Mobile Phone"
+        "CssVersion": "3"
       },
       "children": [
         {
           "match": "Mozilla\/5.0 (SAMSUNG; SAMSUNG-GT-S5380#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Dolfin\/#MAJORVER#.*",
-          "properties": {
-            "Device_Code_Name": "GT-S5380",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "GT-S5380"
-          },
+          "device": "Samsung GT-S5380",
           "platforms": [
             "Bada_2_0"
           ]
         },
         {
           "match": "Mozilla\/5.0 (SAMSUNG; SAMSUNG-GT-S8500#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Dolfin\/#MAJORVER#.*",
-          "properties": {
-            "Device_Code_Name": "GT-S8500",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Wave 2",
-            "Device_Pointing_Method": "touchscreen"
-          },
+          "device": "Samsung GT-S8500",
           "platforms": [
             "Bada_2_0"
           ]
         },
         {
           "match": "Mozilla\/5.0 (SAMSUNG; SAMSUNG-GT-S8530#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Dolfin\/#MAJORVER#.*",
-          "properties": {
-            "Device_Code_Name": "GT-S8530",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Wave 2",
-            "Device_Pointing_Method": "touchscreen"
-          },
+          "device": "Samsung GT-S8530",
           "platforms": [
             "Bada_2_0"
           ]
         },
         {
           "match": "Mozilla\/5.0 (SAMSUNG; SAMSUNG-GT-S8600#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Dolfin\/#MAJORVER#.*",
-          "properties": {
-            "Device_Code_Name": "GT-S8600",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Name": "Wave 3",
-            "Device_Pointing_Method": "touchscreen"
-          },
+          "device": "Samsung GT-S8600",
           "platforms": [
             "Bada_2_0"
           ]

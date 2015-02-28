@@ -8,6 +8,7 @@
       "userAgent": "phantomas",
       "platform": "Linux",
       "engine": "WebKit",
+      "device": "Linux Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "phantomas",

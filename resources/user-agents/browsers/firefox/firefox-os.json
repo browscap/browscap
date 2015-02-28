@@ -8,6 +8,7 @@
       "userAgent": "FirefoxOS #MAJORVER#.#MINORVER#",
       "platform": "FirefoxOS",
       "engine": "Gecko_Dynamic",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Firefox #MAJORVER#.#MINORVER#",
@@ -17,86 +18,44 @@
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
-        "Alpha": "true",
-        "Win32": "true",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
         "JavaApplets": "true",
-        "CssVersion": "3",
-        "Device_Name": "general Mobile Device",
-        "Device_Maker": "Various",
-        "Device_Type": "Mobile Phone",
-        "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true",
-        "isTablet": "false"
+        "CssVersion": "3"
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (Mobile; rv:#MAJORVER#.#MINORVER#*)*Gecko\/#MAJORVER#.#MINORVER#*Firefox\/#MAJORVER#.#MINORVER#*"
+          "match": "Mozilla\/5.0 (Mobile; ALCATELOneTouch4012X*; rv:#MAJORVER#.#MINORVER#*)*Gecko\/#MAJORVER#.#MINORVER#*Firefox\/#MAJORVER#.#MINORVER#",
+          "device": "Alcatel OT-4012X"
         },
         {
-          "match": "Mozilla\/5.0 (Android; Mobile; rv:#MAJORVER#.#MINORVER#*)*Gecko\/#MAJORVER#.#MINORVER#*Firefox\/#MAJORVER#.#MINORVER#*"
+          "match": "Mozilla\/5.0 (Mobile; ALCATEL ONE TOUCH 4012A; rv:#MAJORVER#.#MINORVER#*)*Gecko\/#MAJORVER#.#MINORVER#*Firefox\/#MAJORVER#.#MINORVER#",
+          "device": "Alcatel OT-4012A"
         },
         {
-          "match": "Mozilla\/5.0 (Tablet; rv:#MAJORVER#.#MINORVER#*)*Gecko\/#MAJORVER#.#MINORVER#*Firefox\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Type": "Tablet",
-            "isTablet": "true"
-          }
+          "match": "Mozilla\/5.0 (Mobile; LG-D300; rv:#MAJORVER#.#MINORVER#*)*Gecko\/#MAJORVER#.#MINORVER#*Firefox\/#MAJORVER#.#MINORVER#",
+          "device": "LG D300"
         },
         {
-          "match": "Mozilla\/5.0 (Android; Tablet; rv:#MAJORVER#.#MINORVER#*)*Gecko\/#MAJORVER#.#MINORVER#*Firefox\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Type": "Tablet",
-            "isTablet": "true"
-          }
+          "match": "Mozilla\/5.0 (Mobile; ZTEOPEN; rv:#MAJORVER#.#MINORVER#*)*Gecko\/#MAJORVER#.#MINORVER#*Firefox\/#MAJORVER#.#MINORVER#",
+          "device": "ZTE Open"
         },
         {
-          "match": "Mozilla\/5.0 (Mobile; ALCATELOneTouch4012X*; rv:#MAJORVER#.#MINORVER#*)*Gecko\/#MAJORVER#.#MINORVER#*Firefox\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Name": "One Touch Fire",
-            "Device_Code_Name": "OT-4012X",
-            "Device_Brand_Name": "Alcatel",
-            "Device_Maker": "Alcatel",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen"
-          }
+          "match": "Mozilla\/5.0 (Mobile; rv:#MAJORVER#.#MINORVER#*)*Gecko\/#MAJORVER#.#MINORVER#*Firefox\/#MAJORVER#.#MINORVER#"
         },
         {
-          "match": "Mozilla\/5.0 (Mobile; ALCATEL ONE TOUCH 4012A; rv:#MAJORVER#.#MINORVER#*)*Gecko\/#MAJORVER#.#MINORVER#*Firefox\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Name": "One Touch Fire",
-            "Device_Code_Name": "OT-4012A",
-            "Device_Brand_Name": "Alcatel",
-            "Device_Maker": "Alcatel",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen"
-          }
+          "match": "Mozilla\/5.0 (Android; Mobile; rv:#MAJORVER#.#MINORVER#*)*Gecko\/#MAJORVER#.#MINORVER#*Firefox\/#MAJORVER#.#MINORVER#"
         },
         {
-          "match": "Mozilla\/5.0 (Mobile; LG-D300; rv:#MAJORVER#.#MINORVER#*)*Gecko\/#MAJORVER#.#MINORVER#*Firefox\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Name": "FireWeb",
-            "Device_Code_Name": "D300",
-            "Device_Brand_Name": "LG",
-            "Device_Maker": "LG",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen"
-          }
+          "match": "Mozilla\/5.0 (Tablet; rv:#MAJORVER#.#MINORVER#*)*Gecko\/#MAJORVER#.#MINORVER#*Firefox\/#MAJORVER#.#MINORVER#",
+          "device": "general Tablet"
         },
         {
-          "match": "Mozilla\/5.0 (Mobile; ZTEOPEN; rv:#MAJORVER#.#MINORVER#*)*Gecko\/#MAJORVER#.#MINORVER#*Firefox\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Device_Name": "Open",
-            "Device_Code_Name": "Open",
-            "Device_Brand_Name": "ZTE",
-            "Device_Maker": "ZTE",
-            "Device_Type": "Mobile Phone",
-            "Device_Pointing_Method": "touchscreen"
-          }
+          "match": "Mozilla\/5.0 (Android; Tablet; rv:#MAJORVER#.#MINORVER#*)*Gecko\/#MAJORVER#.#MINORVER#*Firefox\/#MAJORVER#.#MINORVER#",
+          "device": "general Tablet"
         }
       ]
     }

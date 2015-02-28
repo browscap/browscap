@@ -6,6 +6,7 @@
     {
       "userAgent": "ESATCOM",
       "platform": "JAVA",
+      "device": "general Mobile Device",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "ESATCOM",
@@ -26,9 +27,7 @@
         "JavaApplets": "false",
         "ActiveXControls": "false",
         "isSyndicationReader": "false",
-        "Crawler": "false",
-        "isMobileDevice": "true",
-        "Device_Type": "Mobile Device"
+        "Crawler": "false"
       },
       "children": [
         {

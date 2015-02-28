@@ -6,6 +6,7 @@
     {
       "userAgent": "Maemo",
       "platform": "Linux",
+      "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Maemo Browser",
@@ -15,12 +16,7 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "isMobileDevice": "true",
-        "CssVersion": "2",
-        "isTablet": "false",
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "general Mobile Phone",
-        "Device_Name": "general Mobile Phone"
+        "CssVersion": "2"
       },
       "children": [
         {

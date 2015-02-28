@@ -7,6 +7,7 @@
     {
       "userAgent": "GomezAgent #MAJORVER#.#MINORVER#",
       "platforms": "Windows",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Gomez Site Monitor #MAJORVER#.#MINORVER#",

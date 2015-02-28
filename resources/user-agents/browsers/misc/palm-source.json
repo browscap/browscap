@@ -5,6 +5,7 @@
   "userAgents": [
     {
       "userAgent": "Palm Source",
+      "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser": "Palm Source",
@@ -25,12 +26,7 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "isMobileDevice": "true",
-        "isTablet": "false",
-        "CssVersion": "2",
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "general Mobile Device",
-        "Device_Name": "general Mobile Device"
+        "CssVersion": "2"
       },
       "children": [
         {

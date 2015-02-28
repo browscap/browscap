@@ -7,6 +7,7 @@
     {
       "userAgent": "AndroidDownloadManager #MAJORVER#.#MINORVER#",
       "platform": "Android_Dynamic",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Android Download Manager #MAJORVER#.#MINORVER#",
@@ -14,9 +15,6 @@
         "Crawler": "true",
         "Browser": "Android Download Manager",
         "Browser_Bits": "32",
-        "isMobileDevice": "true",
-        "isTablet": "false",
-        "Device_Type": "Mobile Phone",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#"
@@ -24,47 +22,23 @@
       "children": [
         {
           "match": "AndroidDownloadManager\/#MAJORVER#.#MINORVER#* (Linux; ?; Android #MAJORVER#.#MINORVER#*; LIFETAB_S9714 Build\/*)*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "LifeTab S9714",
-            "Device_Maker": "Medion",
-            "Device_Brand_Name": "Medion",
-            "Device_Name": "LifeTab S9714"
-          }
+          "device": "Medion LifeTab S9714"
         },
         {
           "match": "AndroidDownloadManager\/#MAJORVER#.#MINORVER#* (Linux; ?; Android #MAJORVER#.#MINORVER#*; SGPT12 Build\/*)*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "SGPT12",
-            "Device_Maker": "Sony",
-            "Device_Brand_Name": "Sony",
-            "Device_Name": "Xperia Tablet S"
-          }
+          "device": "Sony SGPT12"
         },
         {
           "match": "AndroidDownloadManager\/#MAJORVER#.#MINORVER#* (Linux; ?; Android #MAJORVER#.#MINORVER#*; TP10.1-1500DC* Build\/*)*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "TP10.1-1500DC",
-            "Device_Maker": "I-ONIK",
-            "Device_Brand_Name": "I-ONIK",
-            "Device_Name": "TP10.1-1500DC"
-          }
+          "device": "I-ONIK TP10"
         },
         {
           "match": "AndroidDownloadManager\/#MAJORVER#.#MINORVER#* (Linux; ?; Android #MAJORVER#.#MINORVER#*; Transformer Prime TF201 Build\/*)*",
-          "properties": {
-            "isTablet": "true",
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "Eee Pad TF201",
-            "Device_Maker": "Asus",
-            "Device_Brand_Name": "Asus",
-            "Device_Name": "Transformer Prime"
-          }
+          "device": "Asus TF201"
+        },
+        {
+          "match": "AndroidDownloadManager\/#MAJORVER#.#MINORVER#* (Linux; ?; Android #MAJORVER#.#MINORVER#*; ME302C Build\/*)*",
+          "device": "Asus ME302C"
         },
         {
           "match": "AndroidDownloadManager\/#MAJORVER#.#MINORVER#* (Linux; ?; Android #MAJORVER#.#MINORVER#*; * Build\/*)*"

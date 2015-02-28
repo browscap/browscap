@@ -7,6 +7,7 @@
       "userAgent": "Blackberry Playbook Tablet",
       "platform": "RIM_Tablet_OS_1",
       "engine": "WebKit",
+      "device": "Blackberry PlayBook",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "BlackBerry Playbook Tablet",
@@ -16,16 +17,8 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "isMobileDevice": "true",
         "CssVersion": "2",
-        "Device_Maker": "Research In Motion Limited",
-        "Device_Type": "Tablet",
-        "Device_Brand_Name": "RIM",
-        "Browser": "Blackberry Playbook Tablet",
-        "Device_Code_Name": "PlayBook",
-        "Device_Name": "PlayBook",
-        "Device_Pointing_Method": "touchscreen",
-        "isTablet": "true"
+        "Browser": "Blackberry Playbook Tablet"
       },
       "children": [
         {

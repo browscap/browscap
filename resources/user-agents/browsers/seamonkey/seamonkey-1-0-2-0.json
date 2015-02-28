@@ -7,6 +7,7 @@
     {
       "userAgent": "SeaMonkey #MAJORVER#.#MINORVER#",
       "engine": "Gecko",
+      "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "SeaMonkey #MAJORVER#.#MINORVER#",
@@ -23,18 +24,35 @@
         "Cookies": "true",
         "JavaScript": "true",
         "JavaApplets": "true",
-        "CssVersion": "2",
-        "Device_Name": "PC",
-        "Device_Maker": "Various",
-        "Device_Type": "Desktop",
-        "Device_Pointing_Method": "mouse"
+        "CssVersion": "2"
       },
       "children": [
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* SeaMonkey\/#MAJORVER#.#MINORVER#*",
+          "device": "Linux Desktop",
           "platforms": [
-            "OSX", "Win98", "WinME", "Win2000", "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32",
-            "FreeBSD", "Linux_32_on_x64", "Linux", "SunOS"
+            "Linux_32_on_x64", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* SeaMonkey\/#MAJORVER#.#MINORVER#*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win98", "WinME", "Win2000", "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* SeaMonkey\/#MAJORVER#.#MINORVER#*",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* SeaMonkey\/#MAJORVER#.#MINORVER#*",
+          "device": "general Desktop",
+          "platforms": [
+            "FreeBSD", "SunOS"
           ]
         }
       ]

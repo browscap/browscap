@@ -7,6 +7,7 @@
       "userAgent": "Darwin Browser",
       "platform": "Darwin",
       "engine": "WebKit",
+      "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Darwin Browser",
@@ -25,16 +26,9 @@
         "VBScript": "false",
         "JavaApplets": "false",
         "ActiveXControls": "false",
-        "isMobileDevice": "false",
-        "isTablet": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
-        "Browser": "Darwin Browser",
-        "Device_Type": "Desktop",
-        "Device_Code_Name": "Macintosh",
-        "Device_Maker": "Apple Inc",
-        "Device_Brand_Name": "Apple",
-        "Device_Name": "Macintosh"
+        "Browser": "Darwin Browser"
       },
       "children": [
         {
@@ -45,15 +39,7 @@
         },
         {
           "match": "browseripad\/* CFNetwork\/* #PLATFORM#",
-          "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "iPad",
-            "Device_Name": "iPad",
-            "Device_Maker": "Apple Inc",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-          },
+          "device": "iPad",
           "platforms": [
             "Darwin"
           ]
