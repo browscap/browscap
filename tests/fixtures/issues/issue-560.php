@@ -24,7 +24,7 @@ return [
             'IFrames' => true,
             'Tables' => true,
             'Device_Name' => 'general Mobile Phone',
-            'Device_Maker' => 'Various',
+            'Device_Maker' => 'unknown',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen',
             'Device_Code_Name' => 'general Mobile Phone',
