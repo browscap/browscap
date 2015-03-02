@@ -6,13 +6,17 @@
     {
       "userAgent": "Lynx",
       "device": "general Desktop",
+      "platform": "Linux",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Lynx",
         "Browser": "Lynx",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Thomas Dickey",
         "Frames": "true",
         "IFrames": "true",
-        "Tables": "true"
+        "Tables": "true",
+        "JavaScript": "false"
       },
       "children": [
         {

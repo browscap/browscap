@@ -3641,6 +3641,31 @@
             "Browser": "Genieo Web Filter",
             "Browser_Maker": "Genieo"
           }
+        },
+        {
+          "match": "Cyberduck\/4.6* (#PLATFORM#) *",
+          "device": "Windows Desktop",
+          "properties": {
+            "Browser": "Cyberduck",
+            "Browser_Maker": "iterate GmbH",
+            "Version": "4.6",
+            "MajorVer": "4",
+            "MinorVer": "6"
+          },
+          "platforms": [
+            "WinXPa_v2"
+          ]
+        },
+        {
+          "match": "Cyberduck\/* (#PLATFORM#) *",
+          "device": "Windows Desktop",
+          "properties": {
+            "Browser": "Cyberduck",
+            "Browser_Maker": "iterate GmbH"
+          },
+          "platforms": [
+            "WinXPa_v2"
+          ]
         }
       ]
     }
