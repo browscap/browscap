@@ -58,7 +58,7 @@ return [
             'Tables' => true,
             'Device_Name' => 'general Desktop',
             'Device_Maker' => 'Various',
-            'Device_Type' => 'Mobile Phone',
+            'Device_Type' => 'Desktop',
             'Device_Pointing_Method' => 'mouse',
             'Device_Code_Name' => 'general Desktop',
             'Device_Brand_Name' => 'unknown',
