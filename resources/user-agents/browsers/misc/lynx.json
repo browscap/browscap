@@ -16,7 +16,8 @@
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
-        "JavaScript": "false"
+        "JavaScript": "false",
+        "Cookies": "true"
       },
       "children": [
         {
