@@ -370,7 +370,7 @@ return [
     'issue-267-N' => [
         'Microsoft Office Mobile/15.0',
         [
-            'Browser' => 'Microsoft Outlook',
+            'Browser' => 'Outlook',
             'Browser_Type' => 'Email Client',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Microsoft Corporation',
