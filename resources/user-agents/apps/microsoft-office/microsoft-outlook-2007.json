@@ -11,13 +11,19 @@
         "Parent": "DefaultProperties",
         "Comment": "Microsoft Outlook 2007",
         "Browser_Type": "Email Client",
-        "Browser": "Microsoft Outlook",
+        "Browser": "Outlook",
         "Browser_Maker": "Microsoft Corporation",
         "Version": "2007",
         "MajorVer": "2007",
         "Frames": "true",
         "Tables": "true",
-        "CssVersion": "2"
+        "CssVersion": "2",
+        "BackgroundSounds": "false",
+        "JavaScript": "false",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "isSyndicationReader": "false"
       },
       "children": [
         {
