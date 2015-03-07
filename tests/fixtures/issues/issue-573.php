@@ -4,7 +4,7 @@ return [
     'issue-573-A' => [
         'Microsoft Office Word 2013 (15.0.4693) Windows NT 6.2',
         [
-            'Browser' => 'Microsoft Word',
+            'Browser' => 'Word',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Microsoft Corporation',
@@ -37,7 +37,7 @@ return [
     'issue-573-B' => [
         'Microsoft Office/15.0 (Windows NT 6.2; Microsoft Word 15.0.4693; Pro)',
         [
-            'Browser' => 'Microsoft Word',
+            'Browser' => 'Word',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Microsoft Corporation',
@@ -70,7 +70,7 @@ return [
     'issue-573-C' => [
         'Microsoft Office Excel 2013 (15.0.4693) Windows NT 6.2',
         [
-            'Browser' => 'Microsoft Excel',
+            'Browser' => 'Excel',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Microsoft Corporation',
@@ -103,7 +103,7 @@ return [
     'issue-573-D' => [
         'Microsoft Office/15.0 (Windows NT 6.2; Microsoft Excel 15.0.4693; Pro)',
         [
-            'Browser' => 'Microsoft Excel',
+            'Browser' => 'Excel',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Microsoft Corporation',
@@ -136,7 +136,7 @@ return [
     'issue-573-E' => [
         'Microsoft Office OneNote 2013',
         [
-            'Browser' => 'Microsoft OneNote',
+            'Browser' => 'OneNote',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Microsoft Corporation',
@@ -169,7 +169,7 @@ return [
     'issue-573-F' => [
         'Microsoft Office OneNote 2013 (15.0.4693) Windows NT 6.2',
         [
-            'Browser' => 'Microsoft OneNote',
+            'Browser' => 'OneNote',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Microsoft Corporation',
@@ -202,8 +202,8 @@ return [
     'issue-573-G' => [
         'Microsoft Office Outlook 2013 (15.0.4693) Windows NT 6.2',
         [
-            'Browser' => 'Microsoft Outlook',
-            'Browser_Type' => 'Application',
+            'Browser' => 'Outlook',
+            'Browser_Type' => 'Email Client',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Microsoft Corporation',
             'Version' => '2013',
@@ -235,8 +235,8 @@ return [
     'issue-573-H' => [
         'Microsoft Outlook Social Connector (15.0.4569) MsoStatic (15.0.4569)',
         [
-            'Browser' => 'Microsoft Outlook',
-            'Browser_Type' => 'Application',
+            'Browser' => 'Outlook',
+            'Browser_Type' => 'Email Client',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Microsoft Corporation',
             'Version' => '2013',
@@ -268,7 +268,7 @@ return [
     'issue-573-I' => [
         'Microsoft Office PowerPoint 2013 (15.0.4693) Windows NT 6.2',
         [
-            'Browser' => 'Microsoft PowerPoint',
+            'Browser' => 'PowerPoint',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Microsoft Corporation',
@@ -301,7 +301,7 @@ return [
     'issue-573-J' => [
         'Microsoft Office/15.0 (Windows NT 6.2; Microsoft PowerPoint 15.0.4693; Pro)',
         [
-            'Browser' => 'Microsoft PowerPoint',
+            'Browser' => 'PowerPoint',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Microsoft Corporation',
@@ -334,7 +334,7 @@ return [
     'issue-573-K' => [
         'Microsoft Office Visio 2013 (15.0.4693) Windows NT 6.2',
         [
-            'Browser' => 'Microsoft Visio',
+            'Browser' => 'Visio',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Microsoft Corporation',
@@ -367,7 +367,7 @@ return [
     'issue-573-L' => [
         'Microsoft Office/15.0 (Windows NT 6.2; Microsoft Visio 15.0.4693; Pro)',
         [
-            'Browser' => 'Microsoft Visio',
+            'Browser' => 'Visio',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Microsoft Corporation',
@@ -466,7 +466,7 @@ return [
     'issue-573-O' => [
         'Microsoft Office/15.0 (Windows NT 6.2; Microsoft Lync 15.0.4675; Pro)',
         [
-            'Browser' => 'UC Browser',
+            'Browser' => 'Lync',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'UC Web',
