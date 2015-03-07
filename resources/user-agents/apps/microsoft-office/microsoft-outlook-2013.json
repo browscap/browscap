@@ -107,6 +107,16 @@
             "Win32": "false",
             "Win64": "false"
           }
+        },
+        {
+          "match": "Microsoft Office Outlook 2013 (15.*) #PLATFORM#",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win8_32"
+          ]
+        },
+        {
+          "match": "Microsoft Outlook Social Connector (15.*) *"
         }
       ]
     }
