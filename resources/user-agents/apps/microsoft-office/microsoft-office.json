@@ -1,0 +1,75 @@
+{
+  "division": "Microsoft Office",
+  "sortIndex": 7181,
+  "lite": false,
+  "userAgents": [
+    {
+      "userAgent": "Microsoft Office",
+      "device": "general Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Microsoft FrontPage",
+        "Browser": "FrontPage",
+        "Browser_Type": "Application",
+        "Browser_Maker": "Microsoft Corporation",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Frames": "false",
+        "IFrames": "false",
+        "Cookies": "false",
+        "BackgroundSounds": "false",
+        "JavaScript": "false",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "CssVersion": "2"
+      },
+      "children": [
+        {
+          "match": "Microsoft Office SyncProc 2013 (15.*) #PLATFORM#",
+          "device": "Windows Desktop",
+          "properties": {
+            "Comment": "Microsoft Office SyncProc",
+            "Browser": "Office SyncProc",
+            "Version": "2013",
+            "MajorVer": "2013"
+          },
+          "platforms": [
+            "Win8_32"
+          ]
+        },
+        {
+          "match": "Microsoft Office Upload Center 2013 (15.*) #PLATFORM#",
+          "device": "Windows Desktop",
+          "properties": {
+            "Comment": "Microsoft Office Upload Center",
+            "Browser": "Office Upload Center",
+            "Version": "2013",
+            "MajorVer": "2013"
+          },
+          "platforms": [
+            "Win8_32"
+          ]
+        },
+        {
+          "match": "non-browser; Microsoft Office\/15.* (#PLATFORM# 15.*)",
+          "device": "Windows Desktop",
+          "properties": {
+            "Comment": "Microsoft Office",
+            "Browser": "Office",
+            "Version": "2013",
+            "MajorVer": "2013"
+          },
+          "platforms": [
+            "Win8_32"
+          ]
+        }
+      ]
+    }
+  ]
+}
