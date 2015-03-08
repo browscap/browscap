@@ -5,6 +5,7 @@
   "userAgents": [
     {
       "userAgent": "Microsoft Office",
+      "engine": "Trident",
       "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
