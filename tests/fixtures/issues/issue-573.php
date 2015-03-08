@@ -250,7 +250,7 @@ return [
             'isTablet' => false,
             'Crawler' => false,
             'JavaScript' => false,
-            'Cookies' => false,
+            'Cookies' => true,
             'Frames' => false,
             'IFrames' => false,
             'Tables' => false,
