@@ -1,0 +1,56 @@
+{
+  "division": "Microsoft OneNote",
+  "sortIndex": 7181,
+  "lite": false,
+  "userAgents": [
+    {
+      "userAgent": "Microsoft OneNote",
+      "engine": "Trident",
+      "device": "general Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Microsoft OneNote",
+        "Browser": "OneNote",
+        "Browser_Type": "Application",
+        "Browser_Maker": "Microsoft Corporation",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Frames": "false",
+        "IFrames": "false",
+        "Cookies": "false",
+        "BackgroundSounds": "false",
+        "JavaScript": "false",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "CssVersion": "2"
+      },
+      "children": [
+        {
+          "match": "Microsoft Office OneNote 2013 (15.*) #PLATFORM#",
+          "device": "Windows Desktop",
+          "properties": {
+            "Version": "2013",
+            "MajorVer": "2013"
+          },
+          "platforms": [
+            "Win8_32"
+          ]
+        },
+        {
+          "match": "Microsoft Office OneNote 2013",
+          "device": "general Desktop",
+          "properties": {
+            "Version": "2013",
+            "MajorVer": "2013"
+          }
+        }
+      ]
+    }
+  ]
+}

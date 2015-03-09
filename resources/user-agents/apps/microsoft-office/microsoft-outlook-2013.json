@@ -10,7 +10,7 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Microsoft Outlook 2013",
-        "Browser": "Microsoft Outlook",
+        "Browser": "Outlook",
         "Browser_Type": "Email Client",
         "Browser_Maker": "Microsoft Corporation",
         "Version": "2013",
@@ -19,10 +19,13 @@
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
-        "BackgroundSounds": "true",
-        "JavaScript": "true",
-        "VBScript": "true",
-        "CssVersion": "2"
+        "CssVersion": "2",
+        "BackgroundSounds": "false",
+        "JavaScript": "false",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "isSyndicationReader": "false"
       },
       "children": [
         {
@@ -107,6 +110,16 @@
             "Win32": "false",
             "Win64": "false"
           }
+        },
+        {
+          "match": "Microsoft Office Outlook 2013 (15.*) #PLATFORM#",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win8_32"
+          ]
+        },
+        {
+          "match": "Microsoft Outlook Social Connector (15.*) *"
         }
       ]
     }

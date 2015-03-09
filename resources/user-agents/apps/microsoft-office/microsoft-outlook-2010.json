@@ -10,7 +10,7 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Microsoft Outlook 2010",
-        "Browser": "Microsoft Outlook",
+        "Browser": "Outlook",
         "Browser_Type": "Email Client",
         "Browser_Maker": "Microsoft Corporation",
         "Version": "2010",
@@ -22,7 +22,13 @@
         "BackgroundSounds": "true",
         "JavaScript": "true",
         "VBScript": "true",
-        "CssVersion": "2"
+        "CssVersion": "2",
+        "BackgroundSounds": "false",
+        "JavaScript": "false",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "isSyndicationReader": "false"
       },
       "children": [
         {

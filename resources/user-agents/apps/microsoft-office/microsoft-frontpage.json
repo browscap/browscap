@@ -1,0 +1,50 @@
+{
+  "division": "Microsoft FrontPage",
+  "sortIndex": 7182,
+  "lite": false,
+  "userAgents": [
+    {
+      "userAgent": "FrontPage",
+      "engine": "Trident",
+      "device": "general Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Microsoft FrontPage",
+        "Browser": "FrontPage",
+        "Browser_Type": "Application",
+        "Browser_Maker": "Microsoft Corporation",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Frames": "false",
+        "IFrames": "false",
+        "Cookies": "false",
+        "BackgroundSounds": "false",
+        "JavaScript": "false",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "CssVersion": "2"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/?* (compatible; MS FrontPage*)"
+        },
+        {
+          "match": "MSFrontPage\/15.*",
+          "properties": {
+            "Version": "2013",
+            "MajorVer": "2013"
+          }
+        },
+        {
+          "match": "MSFrontPage\/*"
+        }
+      ]
+    }
+  ]
+}

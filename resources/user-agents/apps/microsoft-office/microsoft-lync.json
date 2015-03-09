@@ -1,0 +1,48 @@
+{
+  "division": "Microsoft Lync",
+  "sortIndex": 7181,
+  "lite": false,
+  "userAgents": [
+    {
+      "userAgent": "Microsoft Lync",
+      "engine": "Trident",
+      "device": "general Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Microsoft Lync",
+        "Browser": "Lync",
+        "Browser_Type": "Application",
+        "Browser_Maker": "Microsoft Corporation",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Frames": "false",
+        "IFrames": "false",
+        "Cookies": "false",
+        "BackgroundSounds": "false",
+        "JavaScript": "false",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "CssVersion": "2"
+      },
+      "children": [
+        {
+          "match": "Microsoft Office\/15.* (#PLATFORM#Microsoft Lync 15.*)",
+          "device": "Windows Desktop",
+          "properties": {
+            "Version": "2013",
+            "MajorVer": "2013"
+          },
+          "platforms": [
+            "Win8_32"
+          ]
+        }
+      ]
+    }
+  ]
+}

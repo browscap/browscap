@@ -452,7 +452,7 @@ return [
     'issue-492-U' => [
         'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/7.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; Microsoft Outlook 15.0.4615; ms-office; MSOffice 15)',
         [
-            'Browser' => 'Microsoft Outlook',
+            'Browser' => 'Outlook',
             'Browser_Type' => 'Email Client',
             'Browser_Bits' => '64',
             'Browser_Maker' => 'Microsoft Corporation',

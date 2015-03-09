@@ -1,16 +1,16 @@
 {
-  "division": "Microsoft Excel",
-  "sortIndex": 7170,
+  "division": "Microsoft Office",
+  "sortIndex": 7181,
   "lite": false,
   "userAgents": [
     {
-      "userAgent": "Microsoft Excel",
+      "userAgent": "Microsoft Office",
       "engine": "Trident",
       "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Microsoft Excel",
-        "Browser": "Excel",
+        "Comment": "Microsoft FrontPage",
+        "Browser": "FrontPage",
         "Browser_Type": "Application",
         "Browser_Maker": "Microsoft Corporation",
         "Alpha": "false",
@@ -32,42 +32,11 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Excel\/12.*",
-          "device": "Macintosh",
-          "properties": {
-            "Version": "2007",
-            "MajorVer": "2007"
-          },
-          "platforms": [
-            "OSX"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Excel\/14.*",
-          "device": "Macintosh",
-          "properties": {
-            "Version": "2010",
-            "MajorVer": "2010"
-          },
-          "platforms": [
-            "OSX"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Excel\/15.*",
-          "device": "Macintosh",
-          "properties": {
-            "Version": "2013",
-            "MajorVer": "2013"
-          },
-          "platforms": [
-            "OSX"
-          ]
-        },
-        {
-          "match": "Microsoft Office Excel 2013 (15.*) #PLATFORM#",
+          "match": "Microsoft Office SyncProc 2013 (15.*) #PLATFORM#",
           "device": "Windows Desktop",
           "properties": {
+            "Comment": "Microsoft Office SyncProc",
+            "Browser": "Office SyncProc",
             "Version": "2013",
             "MajorVer": "2013"
           },
@@ -76,9 +45,11 @@
           ]
         },
         {
-          "match": "Microsoft Office\/15.* (#PLATFORM#Microsoft Excel 15.*)",
+          "match": "Microsoft Office Upload Center 2013 (15.*) #PLATFORM#",
           "device": "Windows Desktop",
           "properties": {
+            "Comment": "Microsoft Office Upload Center",
+            "Browser": "Office Upload Center",
             "Version": "2013",
             "MajorVer": "2013"
           },
@@ -87,11 +58,17 @@
           ]
         },
         {
-          "match": "Microsoft Office Excel 2013",
+          "match": "non-browser; Microsoft Office\/15.* (#PLATFORM# 15.*)",
+          "device": "Windows Desktop",
           "properties": {
+            "Comment": "Microsoft Office",
+            "Browser": "Office",
             "Version": "2013",
             "MajorVer": "2013"
-          }
+          },
+          "platforms": [
+            "Win8_32"
+          ]
         }
       ]
     }
