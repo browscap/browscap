@@ -1,0 +1,37 @@
+<?php
+
+return [
+    'issue-567' => [
+        'Mozilla/5.0 (Linux; Android 5.0; SAMSUNG SM-G900F Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 Chrome/34.0.1847.76 Mobile Safari/537.36',
+        [
+            'Browser' => 'Samsung Browser',
+            'Browser_Type' => 'Browser',
+            'Browser_Bits' => '32',
+            'Browser_Maker' => 'Samsung',
+            'Version' => '2.1',
+            'MajorVer' => '2',
+            'MinorVer' => '1',
+            'Platform' => 'Android',
+            'Platform_Version' => '5.0',
+            'Platform_Bits' => '32',
+            'Platform_Maker' => 'Google Inc',
+            'isMobileDevice' => true,
+            'isTablet' => false,
+            'Crawler' => false,
+            'JavaScript' => true,
+            'Cookies' => true,
+            'Frames' => true,
+            'IFrames' => true,
+            'Tables' => true,
+            'Device_Name' => 'Galaxy S5 LTE',
+            'Device_Maker' => 'Samsung',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen',
+            'Device_Code_Name' => 'SM-G900F',
+            'Device_Brand_Name' => 'Samsung',
+            'RenderingEngine_Name' => 'Blink',
+            'RenderingEngine_Version' => 'unknown',
+            'RenderingEngine_Maker' => 'Google Inc',
+        ],
+    ],
+];
