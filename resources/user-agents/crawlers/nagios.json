@@ -10,6 +10,7 @@
         "Comment": "Nagios",
         "Browser": "Nagios",
         "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "Nagios Enterprises LLC",
         "Crawler": "true"
       },
       "children": [
@@ -50,6 +51,14 @@
           "properties": {
             "Version": "1.0",
             "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "check_http\/* (nagios-plugins 2.*)",
+          "properties": {
+            "Version": "2.0",
+            "MajorVer": "2",
             "MinorVer": "0"
           }
         }
