@@ -1,16 +1,16 @@
 {
-  "division": "Microsoft PowerPoint",
-  "sortIndex": 7181,
+  "division": "Microsoft Visio",
+  "sortIndex": 7182,
   "lite": false,
   "userAgents": [
     {
-      "userAgent": "Microsoft PowerPoint",
+      "userAgent": "Microsoft Visio",
       "engine": "Trident",
       "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Microsoft PowerPoint",
-        "Browser": "PowerPoint",
+        "Comment": "Microsoft Visio",
+        "Browser": "Visio",
         "Browser_Type": "Application",
         "Browser_Maker": "Microsoft Corporation",
         "Alpha": "false",
@@ -32,40 +32,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) PowerPoint\/12.*",
-          "device": "Macintosh",
-          "properties": {
-            "Version": "2007",
-            "MajorVer": "2007"
-          },
-          "platforms": [
-            "OSX"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#) PowerPoint\/14.*",
-          "device": "Macintosh",
-          "properties": {
-            "Version": "2010",
-            "MajorVer": "2010"
-          },
-          "platforms": [
-            "OSX"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#) PowerPoint\/15.*",
-          "device": "Macintosh",
-          "properties": {
-            "Version": "2013",
-            "MajorVer": "2013"
-          },
-          "platforms": [
-            "OSX"
-          ]
-        },
-        {
-          "match": "Microsoft Office\/15.* (#PLATFORM#Microsoft PowerPoint 15.*)",
+          "match": "Microsoft Office Visio 2013 (15.*) #PLATFORM#",
           "device": "Windows Desktop",
           "properties": {
             "Version": "2013",
@@ -76,7 +43,7 @@
           ]
         },
         {
-          "match": "Microsoft Office PowerPoint 2013 (15.*) #PLATFORM#",
+          "match": "Microsoft Office\/15.* (#PLATFORM#Microsoft Visio 15.*)",
           "device": "Windows Desktop",
           "properties": {
             "Version": "2013",
