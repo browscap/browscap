@@ -3683,6 +3683,23 @@
             "Browser": "SetLinks.ru Crawler",
             "Browser_Maker": "SetLinks.ru"
           }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; BegunAdvertising\/3.0*",
+          "properties": {
+            "Browser": "Begun Advertising Bot",
+            "Browser_Maker": "begun.ru",
+            "Version": "3.0",
+            "MajorVer": "3",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; BegunAdvertising\/*",
+          "properties": {
+            "Browser": "Begun Advertising Bot",
+            "Browser_Maker": "begun.ru"
+          }
         }
       ]
     }
