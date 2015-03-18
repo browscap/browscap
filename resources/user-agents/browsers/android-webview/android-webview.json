@@ -4635,6 +4635,13 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-T230NU Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "device": "Samsung SM-T230NU",
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#SM-T230 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Samsung SM-T230",
           "platforms": [
