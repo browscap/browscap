@@ -4320,6 +4320,18 @@
         "isTablet": "true"
       }
     },
+    "Samsung SM-T230NU": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "SM-T230NU",
+        "Device_Name": "Galaxy Tab 4 7.0 (Wi-Fi) 8GB",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Samsung SM-T800": {
       "properties": {
         "Device_Type": "Tablet",
