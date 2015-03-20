@@ -19778,14 +19778,14 @@
     },
     "Multipad PMP5080B": {
       "properties": {
-        "Device_Type": "Mobile Phone",
+        "Device_Type": "Tablet",
         "Device_Code_Name": "PMP5080B",
         "Device_Name": "Multipad PMP5080B",
         "Device_Maker": "Prestigio",
         "Device_Brand_Name": "Prestigio",
         "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
-        "isTablet": "false"
+        "isTablet": "true"
       }
     },
     "Prestigio PMP3870C": {
@@ -19797,7 +19797,7 @@
         "Device_Brand_Name": "Prestigio",
         "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
-        "isTablet": "false"
+        "isTablet": "true"
       }
     },
     "Prestigio PMT5587_Wi": {
