@@ -806,6 +806,13 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#FUNC TITAN-02 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "device": "DFunc Func Titan-02",
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#ME371MG Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "device": "Asus ME371MG",
           "platforms": [
