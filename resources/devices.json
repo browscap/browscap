@@ -11503,7 +11503,7 @@
         "Device_Name": "E988",
         "Device_Maker": "LG",
         "Device_Brand_Name": "LG",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -18924,6 +18924,18 @@
         "isTablet": "false"
       }
     },
+    "Lenovo A656": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A656",
+        "Device_Name": "A656",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Lenovo IdeaPad A1": {
       "properties": {
         "Device_Type": "Tablet",
@@ -18943,6 +18955,18 @@
         "Device_Name": "Smart II 3G",
         "Device_Maker": "Lenovo",
         "Device_Brand_Name": "Vodafone",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Lenovo S920_ROW": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "S920_ROW",
+        "Device_Name": "S920_ROW",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
         "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"

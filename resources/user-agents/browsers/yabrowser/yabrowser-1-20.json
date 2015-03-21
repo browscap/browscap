@@ -143,6 +143,13 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#Lenovo A656 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/* YaBrowser\/#MAJORVER#.#MINORVER#* Safari\/*",
+          "device": "Lenovo A656",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/* YaBrowser\/#MAJORVER#.#MINORVER#* Safari\/*",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android"
