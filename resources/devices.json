@@ -1716,6 +1716,18 @@
         "isTablet": "false"
       }
     },
+    "Sony ST26a": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "ST26a",
+        "Device_Name": "ST26a",
+        "Device_Maker": "Sony",
+        "Device_Brand_Name": "Sony",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Sony ST26i": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -4604,6 +4616,18 @@
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung SGH-I547": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SGH-I547",
+        "Device_Name": "SGH-I547",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -11472,6 +11496,18 @@
         "isTablet": "false"
       }
     },
+    "LG E988": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "E988",
+        "Device_Name": "E988",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "LG F100L": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -11479,7 +11515,19 @@
         "Device_Name": "Optimus Vu",
         "Device_Maker": "LG",
         "Device_Brand_Name": "LG",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG F160K": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "F160K",
+        "Device_Name": "F160K",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -17688,6 +17736,18 @@
         "isTablet": "false"
       }
     },
+    "Alcatel OT-7025D": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "OT-7025D",
+        "Device_Name": "OT-7025D",
+        "Device_Maker": "Alcatel",
+        "Device_Brand_Name": "Alcatel",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Alcatel OT-890D": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -19020,6 +19080,18 @@
         "isTablet": "true"
       }
     },
+    "Lenovo A1000L-F": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "A1000L-F",
+        "Device_Name": "IdeaTab A1000L-F",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Lenovo IdeaPad A660": {
       "properties": {
         "Device_Type": "Tablet",
@@ -19964,6 +20036,18 @@
         "Device_Maker": "ZOPO",
         "Device_Brand_Name": "ZOPO",
         "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "ZOPO ZP950+": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "ZP950+",
+        "Device_Name": "ZP950+",
+        "Device_Maker": "ZOPO",
+        "Device_Brand_Name": "ZOPO",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -22313,6 +22397,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Name": "ERA Life 4",
         "Device_Code_Name": "IQ4409 Quad",
+        "Device_Maker": "Fly",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Fly",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Fly IQ4411": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "IQ4411 Quad Energie2",
+        "Device_Code_Name": "IQ4411 Quad Energie2",
         "Device_Maker": "Fly",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Fly",

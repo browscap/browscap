@@ -130,7 +130,14 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#TAB7iD Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/* YaBrowser\/#MAJORVER#.#MINORVER#* Safari\/*",
-          "device": "Prestigio PMP7170B3G",
+          "device": "Wexler TAB7iD",
+          "platforms": [
+            "Android_4_1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#IdeaTabA1000L-F Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/* YaBrowser\/#MAJORVER#.#MINORVER#* Safari\/*",
+          "device": "Lenovo A1000L-F",
           "platforms": [
             "Android_4_1"
           ]
