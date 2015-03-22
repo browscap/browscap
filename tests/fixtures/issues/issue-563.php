@@ -2168,7 +2168,7 @@ return [
             'Frames' => true,
             'IFrames' => true,
             'Tables' => true,
-            'Device_Name' => 'Х-pad LITE 7.1',
+            'Device_Name' => 'X-pad LITE 7.1',
             'Device_Maker' => 'TeXet',
             'Device_Type' => 'Tablet',
             'Device_Pointing_Method' => 'touchscreen',
