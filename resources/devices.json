@@ -360,6 +360,18 @@
         "isTablet": "false"
       }
     },
+    "Sony C6833": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "C6833",
+        "Device_Name": "Xperia Z Ultra LTE",
+        "Device_Maker": "Sony",
+        "Device_Brand_Name": "Sony",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Sony NSZ-GS7/GX70": {
       "properties": {
         "Device_Type": "TV Device",
@@ -23036,6 +23048,78 @@
         "Device_Maker": "Exec",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Exec",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "PULID F15": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "F15",
+        "Device_Code_Name": "F15",
+        "Device_Maker": "PULID",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "PULID",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "DNS S4505M": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "S4505M",
+        "Device_Code_Name": "S4505M",
+        "Device_Maker": "DNS",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "DNS",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "DNS S5701": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "S5701",
+        "Device_Code_Name": "S5701",
+        "Device_Maker": "DNS",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "DNS",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "ThL W100": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "W100",
+        "Device_Code_Name": "W100",
+        "Device_Maker": "ThL",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "ThL",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "ThL W200": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "W200",
+        "Device_Code_Name": "W200",
+        "Device_Maker": "ThL",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "ThL",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "DEXP Ursus 9EV 3G": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "Ursus 9EV 3G",
+        "Device_Code_Name": "Ursus 9EV 3G",
+        "Device_Maker": "DEXP",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "DEXP",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
