@@ -168,7 +168,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#NX402 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/* OPR\/#MAJORVER#.*",
+          "match": "Mozilla\/5.0 (#PLATFORM#TWZ A49 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/* OPR\/#MAJORVER#.*",
           "device": "TWZ A49",
           "platforms": [
             "Android_4_2"

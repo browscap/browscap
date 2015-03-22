@@ -1764,6 +1764,18 @@
         "isTablet": "false"
       }
     },
+    "Sony D2203": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "D2203",
+        "Device_Name": "Xperia E3",
+        "Device_Maker": "Sony",
+        "Device_Brand_Name": "Sony",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Sony ST26a": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -2551,7 +2563,7 @@
         "Device_Name": "GT-I9192",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -2611,7 +2623,7 @@
         "Device_Name": "Galaxy S4",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -11868,6 +11880,18 @@
         "isTablet": "false"
       }
     },
+    "LG G3": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "G3",
+        "Device_Name": "G3",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "LG G3100": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -12041,6 +12065,42 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "D300",
         "Device_Name": "FireWeb",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG D320": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "D320",
+        "Device_Name": "L70",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG D618": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "D618",
+        "Device_Name": "G2 mini Dual Sim",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG D724": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "D724",
+        "Device_Name": "G3 S (for CIS)",
         "Device_Maker": "LG",
         "Device_Brand_Name": "LG",
         "Device_Pointing_Method": "touchscreen",
@@ -19116,6 +19176,18 @@
         "isTablet": "true"
       }
     },
+    "Lenovo Smart Tab 3G": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "Smart Tab 3G",
+        "Device_Name": "Smart Tab 3G",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Vodafone",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Lenovo Smart Tab III 10": {
       "properties": {
         "Device_Type": "Tablet",
@@ -19150,6 +19222,18 @@
         "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
+      }
+    },
+    "Lenovo K910L": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "K910L",
+        "Device_Name": "Vibe Z LTE",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Vodafone",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
       }
     },
     "Lenovo 1838": {
@@ -22656,6 +22740,30 @@
         "isTablet": "false"
       }
     },
+    "Fly IQ4410": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "IQ4410 Quad Phoenix",
+        "Device_Code_Name": "IQ4410 Quad Phoenix",
+        "Device_Maker": "Fly",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Fly",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Fly IQ4504": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Quad EVO Energy 5",
+        "Device_Code_Name": "IQ4504",
+        "Device_Maker": "Fly",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Fly",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Zeki TBD1083": {
       "properties": {
         "Device_Type": "Tablet",
@@ -23468,6 +23576,54 @@
         "Device_Maker": "Highscreen",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Highscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "BQ BQS-4007": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Valencia",
+        "Device_Code_Name": "BQS-4007",
+        "Device_Maker": "BQ",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "BQ",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Andoer CX919": {
+      "properties": {
+        "Device_Type": "TV Device",
+        "Device_Code_Name": "CX919",
+        "Device_Name": "CX919",
+        "Device_Maker": "Andoer",
+        "Device_Brand_Name": "Andoer",
+        "Device_Pointing_Method": "mouse",
+        "isMobileDevice": "false",
+        "isTablet": "false"
+      }
+    },
+    "AIS Iris 708": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "LAVA PRO 4.5",
+        "Device_Code_Name": "Iris 708",
+        "Device_Maker": "AIS",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "AIS",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "CIOtCUD L930": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "L930",
+        "Device_Code_Name": "L930",
+        "Device_Maker": "CIOtCUD",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "CIOtCUD",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
