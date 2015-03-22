@@ -9720,6 +9720,18 @@
         "isTablet": "false"
       }
     },
+    "HTC Desire 310": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Desire 310",
+        "Device_Name": "Desire 310",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "HTC Dream": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -11057,6 +11069,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "802T",
         "Device_Name": "One 802T",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC 802d": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "802d",
+        "Device_Name": "One M7 Dual SIM",
         "Device_Maker": "HTC",
         "Device_Brand_Name": "HTC",
         "Device_Pointing_Method": "touchscreen",
@@ -14537,6 +14561,18 @@
         "Device_Type": "Tablet",
         "Device_Code_Name": "MediaPad 10",
         "Device_Name": "MediaPad 10 Link",
+        "Device_Maker": "Huawei",
+        "Device_Brand_Name": "Huawei",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Huawei MediaPad 7 Classic": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "MediaPad 7 Classic",
+        "Device_Name": "MediaPad 7 Classic",
         "Device_Maker": "Huawei",
         "Device_Brand_Name": "Huawei",
         "Device_Pointing_Method": "touchscreen",
@@ -19284,6 +19320,18 @@
         "isTablet": "false"
       }
     },
+    "Lenovo A850+": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A850+",
+        "Device_Name": "A850+",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Lenovo A789": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -22440,6 +22488,42 @@
         "isTablet": "false"
       }
     },
+    "Fly IQ456": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "ERA Life 2",
+        "Device_Code_Name": "IQ456",
+        "Device_Maker": "Fly",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Fly",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Fly IQ4403": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "IQ4403",
+        "Device_Code_Name": "IQ4403",
+        "Device_Maker": "Fly",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Fly",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Fly IQ4404": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "IQ4404",
+        "Device_Code_Name": "IQ4404",
+        "Device_Maker": "Fly",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Fly",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Fly IQ4411": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -22884,6 +22968,18 @@
         "isTablet": "true"
       }
     },
+    "Digma iDjD7": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "iDjD7",
+        "Device_Code_Name": "iDjD7",
+        "Device_Maker": "Digma",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Digma",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "ZONDA ZMNG1900": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -23122,6 +23218,30 @@
         "Device_Brand_Name": "DEXP",
         "isMobileDevice": "true",
         "isTablet": "true"
+      }
+    },
+    "KENEKSI Crystal": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Crystal",
+        "Device_Code_Name": "Crystal",
+        "Device_Maker": "KENEKSI",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "KENEKSI",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Gionee Marathon M3": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Marathon M3",
+        "Device_Code_Name": "M3",
+        "Device_Maker": "Gionee",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Gionee",
+        "isMobileDevice": "true",
+        "isTablet": "false"
       }
     }
   }
