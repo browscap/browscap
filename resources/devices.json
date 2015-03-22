@@ -972,6 +972,18 @@
         "isTablet": "false"
       }
     },
+    "Sony LT29i": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "LT29i",
+        "Device_Name": "Xperia LT29i Hayabusa",
+        "Device_Maker": "Sony",
+        "Device_Brand_Name": "Sony",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "SonyEricsson MT15i": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -1721,6 +1733,30 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "C1505",
         "Device_Name": "Xperia E",
+        "Device_Maker": "Sony",
+        "Device_Brand_Name": "Sony",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Sony D2005": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "D2005",
+        "Device_Name": "Xperia E1",
+        "Device_Maker": "Sony",
+        "Device_Brand_Name": "Sony",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Sony D2105": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "D2105",
+        "Device_Name": "Xperia E1 Dual",
         "Device_Maker": "Sony",
         "Device_Brand_Name": "Sony",
         "Device_Pointing_Method": "touchscreen",
@@ -4457,6 +4493,18 @@
         "Device_Type": "Tablet",
         "Device_Code_Name": "SM-T531",
         "Device_Name": "Galaxy Tab 4 10.1",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Samsung SM-T331": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "SM-T331",
+        "Device_Name": "Galaxy Tab 4 8.0 3G",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "touchscreen",
@@ -7356,6 +7404,18 @@
         "isTablet": "true"
       }
     },
+    "Asus K017": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "K017",
+        "Device_Name": "MeMO Pad 7",
+        "Device_Maker": "Asus",
+        "Device_Brand_Name": "Asus",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Asus K012": {
       "properties": {
         "Device_Type": "Tablet",
@@ -9727,7 +9787,7 @@
         "Device_Name": "Desire 310",
         "Device_Maker": "HTC",
         "Device_Brand_Name": "HTC",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -11228,6 +11288,18 @@
         "Device_Maker": "HTC",
         "Device_Brand_Name": "HTC",
         "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC C2": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "C2",
+        "Device_Name": "One S C2",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -17028,6 +17100,18 @@
         "isTablet": "false"
       }
     },
+    "Nokia X2DS": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "X2DS",
+        "Device_Name": "X2 Dual SIM",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Nokia X3-02": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -18360,6 +18444,18 @@
         "isTablet": "false"
       }
     },
+    "ZTE NX402": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "NX402",
+        "Device_Name": "Nubia Z5 mini",
+        "Device_Maker": "ZTE",
+        "Device_Brand_Name": "ZTE",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Dell Streak": {
       "properties": {
         "Device_Type": "Tablet",
@@ -19668,6 +19764,18 @@
         "isTablet": "true"
       }
     },
+    "Caterpillar Cat B15Q": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "B15Q",
+        "Device_Name": "Cat B15Q",
+        "Device_Maker": "Caterpillar",
+        "Device_Brand_Name": "Caterpillar",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Weltbild Kinder-Tablet": {
       "properties": {
         "Device_Type": "Tablet",
@@ -20021,6 +20129,18 @@
         "Device_Type": "Tablet",
         "Device_Code_Name": "PMT3377_Wi",
         "Device_Name": "MultiPad Thunder 7.0i",
+        "Device_Maker": "Prestigio",
+        "Device_Brand_Name": "Prestigio",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Prestigio PMP7079D_QUAD": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "PMP7079D_QUAD",
+        "Device_Name": "MultiPad 4 Diamond 7.85",
         "Device_Maker": "Prestigio",
         "Device_Brand_Name": "Prestigio",
         "Device_Pointing_Method": "touchscreen",
@@ -22896,6 +23016,18 @@
         "isTablet": "false"
       }
     },
+    "Philips W8510": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Xenium",
+        "Device_Code_Name": "W8510",
+        "Device_Maker": "Philips",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Philips",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Shiru Samurai 10": {
       "properties": {
         "Device_Type": "Tablet",
@@ -23136,6 +23268,18 @@
         "isTablet": "true"
       }
     },
+    "Wexler TABA742": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "TAB A742",
+        "Device_Code_Name": "TAB A742",
+        "Device_Maker": "Wexler",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Wexler",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Exec P-720": {
       "properties": {
         "Device_Type": "Tablet",
@@ -23240,6 +23384,90 @@
         "Device_Maker": "Gionee",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Gionee",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "iconBIT NetTAB Pocket 3G": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "NetTAB Pocket 3G",
+        "Device_Code_Name": "NetTAB Pocket 3G",
+        "Device_Maker": "iconBIT",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "iconBIT",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "iconBIT NT-3710S": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "NetTAB SKY 3G Plus",
+        "Device_Code_Name": "NT-3710S",
+        "Device_Maker": "iconBIT",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "iconBIT",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "MSI Primo76": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "Global Primo 76",
+        "Device_Code_Name": "Primo76",
+        "Device_Maker": "MSI",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "MSI",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "SENSEIT R390": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "R390",
+        "Device_Code_Name": "R390",
+        "Device_Maker": "SENSEIT",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "SENSEIT",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "TWZ A49": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "A49",
+        "Device_Code_Name": "A49",
+        "Device_Maker": "TWZ",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "TWZ",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "TeXet TM-7066": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "Х-pad LITE 7.1",
+        "Device_Code_Name": "TM-7066",
+        "Device_Maker": "TeXet",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "TeXet",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Highscreen Zera F": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Zera F",
+        "Device_Code_Name": "TM-7066",
+        "Device_Maker": "Highscreen",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Highscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
