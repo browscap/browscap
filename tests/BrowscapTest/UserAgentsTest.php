@@ -17,7 +17,8 @@
 
 namespace BrowscapTest;
 
-use Browscap\Generator\BuildFullFileOnlyGenerator;
+use Browscap\Data\PropertyHolder;
+use Browscap\Generator\BuildGenerator;
 use Monolog\Handler\NullHandler;
 use Monolog\Logger;
 use phpbrowscap\Browscap;
@@ -37,6 +38,11 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
     private static $browscap;
 
     /**
+     * @var string
+     */
+    private static $buildFolder = '';
+
+    /**
      * This method is called before the first test of this test class is run.
      *
      * @since Method available since Release 3.4.0
@@ -48,29 +54,22 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
 
         $resourceFolder = __DIR__ . '/../../resources/';
 
-        $buildFolder = __DIR__ . '/../../build/browscap-ua-test-' . $buildNumber;
-        $iniFile     = $buildFolder . '/full_php_browscap.ini';
+        self::$buildFolder = __DIR__ . '/../../build/browscap-ua-test-' . $buildNumber;
 
         // create build folder if it does not exist
-        if (!file_exists($buildFolder)) {
-            mkdir($buildFolder, 0777, true);
-        }
-
-        // remove ini file if it already exists
-        if (file_exists($iniFile)) {
-            unlink($iniFile);
+        if (!file_exists(self::$buildFolder)) {
+            mkdir(self::$buildFolder, 0777, true);
         }
 
         $logger = new Logger('browscap');
         $logger->pushHandler(new NullHandler(Logger::DEBUG));
 
-        $builder = new BuildFullFileOnlyGenerator($resourceFolder, $buildFolder);
+        $builder = new BuildGenerator($resourceFolder, self::$buildFolder);
         $builder->setLogger($logger);
-        $builder->run('test', $iniFile);
+        $builder->run('test', false);
 
         // Now, load an INI file into phpbrowscap\Browscap for testing the UAs
-        self::$browscap = new Browscap($buildFolder);
-        self::$browscap->localFile = $iniFile;
+        self::$browscap = new Browscap(self::$buildFolder);
     }
 
     public function userAgentDataProvider()
@@ -115,15 +114,93 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
      * @param string $userAgent
      * @param array  $expectedProperties
      */
-    public function testUserAgents($userAgent, $expectedProperties)
+    public function testUserAgentsFull($userAgent, $expectedProperties)
     {
         if (!is_array($expectedProperties) || !count($expectedProperties)) {
             $this->markTestSkipped('Could not run test - no properties were defined to test');
         }
 
-        $actualProps = (array) self::$browscap->getBrowser($userAgent);
+        $iniFile                   = self::$buildFolder . '/full_php_browscap.ini';
+        self::$browscap->localFile = $iniFile;
+        $actualProps               = (array) self::$browscap->getBrowser($userAgent);
 
         foreach ($expectedProperties as $propName => $propValue) {
+            self::assertArrayHasKey(
+                $propName,
+                $actualProps,
+                'Actual properties did not have "' . $propName . '" property'
+            );
+
+            self::assertSame(
+                $propValue,
+                $actualProps[$propName],
+                'Expected actual "' . $propName . '" to be "' . $propValue . '" (was "' . $actualProps[$propName]
+                . '"; used pattern: ' . $actualProps['browser_name_pattern'] .')'
+            );
+        }
+    }
+
+    /**
+     * @dataProvider userAgentDataProvider
+     * @coversNothing
+     * @param string $userAgent
+     * @param array  $expectedProperties
+     */
+    public function testUserAgentsStandard($userAgent, $expectedProperties)
+    {
+        if (!is_array($expectedProperties) || !count($expectedProperties)) {
+            $this->markTestSkipped('Could not run test - no properties were defined to test');
+        }
+
+        $iniFile                   = self::$buildFolder . '/php_browscap.ini';
+        self::$browscap->localFile = $iniFile;
+        $actualProps               = (array) self::$browscap->getBrowser($userAgent);
+
+        $propertyHolder = new PropertyHolder();
+
+        foreach ($expectedProperties as $propName => $propValue) {
+            if (!$propertyHolder->isStandardModeProperty($propName)) {
+                continue;
+            }
+
+            self::assertArrayHasKey(
+                $propName,
+                $actualProps,
+                'Actual properties did not have "' . $propName . '" property'
+            );
+
+            self::assertSame(
+                $propValue,
+                $actualProps[$propName],
+                'Expected actual "' . $propName . '" to be "' . $propValue . '" (was "' . $actualProps[$propName]
+                . '"; used pattern: ' . $actualProps['browser_name_pattern'] .')'
+            );
+        }
+    }
+
+    /**
+     * @dataProvider userAgentDataProvider
+     * @coversNothing
+     * @param string $userAgent
+     * @param array  $expectedProperties
+     */
+    public function testUserAgentsLite($userAgent, $expectedProperties)
+    {
+        if (!is_array($expectedProperties) || !count($expectedProperties)) {
+            $this->markTestSkipped('Could not run test - no properties were defined to test');
+        }
+
+        $iniFile                   = self::$buildFolder . '/lite_php_browscap.ini';
+        self::$browscap->localFile = $iniFile;
+        $actualProps               = (array) self::$browscap->getBrowser($userAgent);
+
+        $propertyHolder = new PropertyHolder();
+
+        foreach ($expectedProperties as $propName => $propValue) {
+            if (!$propertyHolder->isLiteModeProperty($propName)) {
+                continue;
+            }
+
             self::assertArrayHasKey(
                 $propName,
                 $actualProps,
