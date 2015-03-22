@@ -22,6 +22,8 @@ use Browscap\Generator\BuildGenerator;
 use Monolog\Handler\NullHandler;
 use Monolog\Logger;
 use phpbrowscap\Browscap;
+use Browscap\Helper\CollectionCreator;
+use Browscap\Writer\Factory\FullCollectionFactory;
 
 /**
  * Class UserAgentsTest
@@ -64,9 +66,18 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
         $logger = new Logger('browscap');
         $logger->pushHandler(new NullHandler(Logger::DEBUG));
 
-        $builder = new BuildGenerator($resourceFolder, self::$buildFolder);
-        $builder->setLogger($logger);
-        $builder->run('test', false);
+        $buildGenerator = new BuildGenerator($resourceFolder, self::$buildFolder);
+
+        $writerCollectionFactory = new FullCollectionFactory();
+        $writerCollection        = $writerCollectionFactory->createCollection($logger, self::$buildFolder);
+
+        $buildGenerator
+            ->setLogger($logger)
+            ->setCollectionCreator(new CollectionCreator())
+            ->setWriterCollection($writerCollection)
+        ;
+
+        $buildGenerator->run('test', false);
 
         // Now, load an INI file into phpbrowscap\Browscap for testing the UAs
         self::$browscap = new Browscap(self::$buildFolder);
