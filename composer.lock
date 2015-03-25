@@ -288,16 +288,16 @@
         },
         {
             "name": "fabpot/php-cs-fixer",
-            "version": "v1.5.2",
+            "version": "v1.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfPHP/PHP-CS-Fixer.git",
-                "reference": "1dff3bb23fef67d62e266249cd3203b0aa025a7e"
+                "reference": "85777ebc6a1dac48c904acf9412b29b58b5dd592"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfPHP/PHP-CS-Fixer/zipball/1dff3bb23fef67d62e266249cd3203b0aa025a7e",
-                "reference": "1dff3bb23fef67d62e266249cd3203b0aa025a7e",
+                "url": "https://api.github.com/repos/FriendsOfPHP/PHP-CS-Fixer/zipball/85777ebc6a1dac48c904acf9412b29b58b5dd592",
+                "reference": "85777ebc6a1dac48c904acf9412b29b58b5dd592",
                 "shasum": ""
             },
             "require": {
@@ -337,7 +337,7 @@
                 }
             ],
             "description": "A script to automatically fix Symfony Coding Standard",
-            "time": "2015-03-22 12:52:15"
+            "time": "2015-03-13 19:33:24"
         },
         {
             "name": "mikey179/vfsStream",

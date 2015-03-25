@@ -80,43 +80,39 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
         $buildGenerator->run('test', false);
 
         // Now, load an INI file into phpbrowscap\Browscap for testing the UAs
-        self::$browscap               = new Browscap(self::$buildFolder);
-        self::$browscap->doAutoUpdate = false;
+        self::$browscap = new Browscap(self::$buildFolder);
     }
 
     public function userAgentDataProvider()
     {
-        static $data = array();
+        $data            = array();
+        $checks          = array();
+        $sourceDirectory = __DIR__ . '/../fixtures/issues/';
 
-        if (empty($data)) {
-            $checks          = array();
-            $sourceDirectory = __DIR__ . '/../fixtures/issues/';
+        $iterator = new \RecursiveDirectoryIterator($sourceDirectory);
 
-            $iterator = new \RecursiveDirectoryIterator($sourceDirectory);
+        foreach (new \RecursiveIteratorIterator($iterator) as $file) {
+            /** @var $file \SplFileInfo */
+            if (!$file->isFile() || $file->getExtension() != 'php') {
+                continue;
+            }
 
-            foreach (new \RecursiveIteratorIterator($iterator) as $file) {
-                /** @var $file \SplFileInfo */
-                if (!$file->isFile() || $file->getExtension() != 'php') {
-                    continue;
+            $tests = require_once $file->getPathname();
+
+            foreach ($tests as $key => $test) {
+                if (isset($data[$key])) {
+                    throw new \RuntimeException('Test data is duplicated for key "' . $key . '"');
                 }
 
-                $tests = require_once $file->getPathname();
-
-                foreach ($tests as $key => $test) {
-                    if (isset($data[$key])) {
-                        throw new \RuntimeException('Test data is duplicated for key "' . $key . '"');
-                    }
-
-                    if (isset($checks[$test[0]])) {
-                        throw new \RuntimeException(
-                            'UA "' . $test[0] . '" added more than once, now for key "' . $key . '", before for key "'
-                            . $checks[$test[0]] . '"'
-                        );
-                    }
-
-                    $data[$key]       = $test;
-                    $checks[$test[0]] = $key;
+                if (isset($checks[$test[0]])) {
+                    throw new \RuntimeException(
+                        'UA "' . $test[0] . '" added more than once, now for key "' . $key . '", before for key "'
+                        . $checks[$test[0]] . '"'
+                    );
                 }
+
+                $data[$key]       = $test;
+                $checks[$test[0]] = $key;
             }
         }
 
@@ -135,18 +131,9 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
             $this->markTestSkipped('Could not run test - no properties were defined to test');
         }
 
-        static $updated = false;
-
-        $iniFile = self::$buildFolder . '/full_php_browscap.ini';
-
+        $iniFile                   = self::$buildFolder . '/full_php_browscap.ini';
         self::$browscap->localFile = $iniFile;
-
-        if ($updated) {
-            self::$browscap->updateCache();
-            $updated = true;
-        }
-
-        $actualProps = (array) self::$browscap->getBrowser($userAgent);
+        $actualProps               = (array) self::$browscap->getBrowser($userAgent);
 
         foreach ($expectedProperties as $propName => $propValue) {
             self::assertArrayHasKey(
@@ -176,18 +163,9 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
             $this->markTestSkipped('Could not run test - no properties were defined to test');
         }
 
-        static $updated = false;
-
-        $iniFile = self::$buildFolder . '/php_browscap.ini';
-
+        $iniFile                   = self::$buildFolder . '/php_browscap.ini';
         self::$browscap->localFile = $iniFile;
-
-        if ($updated) {
-            self::$browscap->updateCache();
-            $updated = true;
-        }
-
-        $actualProps = (array) self::$browscap->getBrowser($userAgent);
+        $actualProps               = (array) self::$browscap->getBrowser($userAgent);
 
         $propertyHolder = new PropertyHolder();
 
@@ -223,18 +201,9 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
             $this->markTestSkipped('Could not run test - no properties were defined to test');
         }
 
-        static $updated = false;
-
-        $iniFile = self::$buildFolder . '/lite_php_browscap.ini';
-
+        $iniFile                   = self::$buildFolder . '/lite_php_browscap.ini';
         self::$browscap->localFile = $iniFile;
-
-        if ($updated) {
-            self::$browscap->updateCache();
-            $updated = true;
-        }
-
-        $actualProps = (array) self::$browscap->getBrowser($userAgent);
+        $actualProps               = (array) self::$browscap->getBrowser($userAgent);
 
         $propertyHolder = new PropertyHolder();
 
