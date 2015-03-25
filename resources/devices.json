@@ -18511,7 +18511,7 @@
         "Device_Name": "Nubia Z5 mini",
         "Device_Maker": "ZTE",
         "Device_Brand_Name": "ZTE",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
