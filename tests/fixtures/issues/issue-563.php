@@ -2205,7 +2205,7 @@ return [
             'Device_Maker' => 'Highscreen',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen',
-            'Device_Code_Name' => 'Zera F',
+            'Device_Code_Name' => 'TM-7066',
             'Device_Brand_Name' => 'Highscreen',
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
