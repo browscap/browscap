@@ -23627,6 +23627,30 @@
         "isMobileDevice": "true",
         "isTablet": "false"
       }
+    },
+    "Irbis TX68": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "TX68",
+        "Device_Code_Name": "TX68",
+        "Device_Maker": "Irbis",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Irbis",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Irbis TX17": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "TX17",
+        "Device_Code_Name": "TX17",
+        "Device_Maker": "Irbis",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Irbis",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
     }
   }
 }
