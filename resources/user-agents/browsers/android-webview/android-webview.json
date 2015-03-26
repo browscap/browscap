@@ -4719,7 +4719,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Lenovo A3300-HV Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#Lenovo A3300-HV Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*",
           "device": "Lenovo A3300-HV",
           "platforms": [
             "Android_4_4"
@@ -4784,6 +4784,13 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#LG-D618 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "LG D618",
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#MTC SMART Run Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "device": "MTC SMART Run",
           "platforms": [
             "Android_4_4"
           ]

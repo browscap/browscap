@@ -11887,7 +11887,7 @@
         "Device_Name": "G3",
         "Device_Maker": "LG",
         "Device_Brand_Name": "LG",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -23650,6 +23650,30 @@
         "Device_Brand_Name": "Irbis",
         "isMobileDevice": "true",
         "isTablet": "true"
+      }
+    },
+    "MTC SMART Run": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "SMART Run",
+        "Device_Code_Name": "SMART Run",
+        "Device_Maker": "MTC",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "MTC",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "ONDA V989": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "V989",
+        "Device_Code_Name": "V989",
+        "Device_Maker": "ONDA",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "ONDA",
+        "isMobileDevice": "true",
+        "isTablet": "false"
       }
     }
   }
