@@ -1207,7 +1207,7 @@
         "Device_Name": "Live",
         "Device_Maker": "SonyEricsson",
         "Device_Brand_Name": "SonyEricsson",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -1932,6 +1932,18 @@
         "isTablet": "false"
       }
     },
+    "Sony D5303": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "D5303",
+        "Device_Name": "Xperia T2 Ultra LTE",
+        "Device_Maker": "Sony",
+        "Device_Brand_Name": "Sony",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Ericsson T68": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -2597,6 +2609,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-I9300",
         "Device_Name": "Galaxy S III",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung GT-I9300I": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GT-I9300I",
+        "Device_Name": "Galaxy S3 Neo Duos",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "touchscreen",
@@ -4236,6 +4260,18 @@
         "isTablet": "false"
       }
     },
+    "Samsung SM-N8000": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "SM-N8000",
+        "Device_Name": "Galaxy Note 10.1 3G",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Samsung SM-T210": {
       "properties": {
         "Device_Type": "Tablet",
@@ -4697,6 +4733,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SGH-I547",
         "Device_Name": "SGH-I547",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung SGH-I337M": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SGH-I337M",
+        "Device_Name": "Galaxy S4 (Canada)",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "touchscreen",
@@ -9708,6 +9756,18 @@
         "isTablet": "false"
       }
     },
+    "Motorola Nexus 6": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Nexus 6",
+        "Device_Name": "Nexus 6",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Google",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "HTC Desire": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -10373,6 +10433,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "X515",
         "Device_Name": "EVO 3D",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC Evo 3D GSM": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Evo 3D GSM",
+        "Device_Name": "Evo 3D GSM",
         "Device_Maker": "HTC",
         "Device_Brand_Name": "HTC",
         "Device_Pointing_Method": "unknown",
@@ -20232,6 +20304,18 @@
         "isTablet": "true"
       }
     },
+    "Prestigio PMP3074BRU": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "PMP3074BRU",
+        "Device_Name": "MultiPad PMP3074B",
+        "Device_Maker": "Prestigio",
+        "Device_Brand_Name": "Prestigio",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "HP Touchpad": {
       "properties": {
         "Device_Type": "Tablet",
@@ -23460,6 +23544,18 @@
         "isTablet": "false"
       }
     },
+    "ThL T6S": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "T6S",
+        "Device_Code_Name": "T6S",
+        "Device_Maker": "ThL",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "ThL",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "DEXP Ursus 9EV 3G": {
       "properties": {
         "Device_Type": "Tablet",
@@ -23666,12 +23762,36 @@
     },
     "ONDA V989": {
       "properties": {
-        "Device_Type": "Mobile Phone",
+        "Device_Type": "Tablet",
         "Device_Name": "V989",
         "Device_Code_Name": "V989",
         "Device_Maker": "ONDA",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "ONDA",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Ritmix RMD-753": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "RMD-753",
+        "Device_Code_Name": "RMD-753",
+        "Device_Maker": "Ritmix",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Ritmix",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Tri-ray X8+": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "X8+",
+        "Device_Code_Name": "X8+",
+        "Device_Maker": "Tri-ray Co., Ltd.",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Tri-ray",
         "isMobileDevice": "true",
         "isTablet": "false"
       }

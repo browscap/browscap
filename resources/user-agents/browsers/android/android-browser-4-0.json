@@ -5152,6 +5152,13 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#PMP3074BRU Build\/*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "device": "Prestigio PMP3074BRU",
+          "platforms": [
+            "Android_2_1"
+          ]
+        },
+        {
           "match": "Lenovo A390*Mozilla\/5.0 (#PLATFORM#Lenovo A390*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "device": "Lenovo A390",
           "platforms": [

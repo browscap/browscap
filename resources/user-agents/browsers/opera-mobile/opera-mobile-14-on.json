@@ -189,6 +189,27 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#RMD-753 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/* OPR\/#MAJORVER#.*",
+          "device": "Ritmix RMD-753",
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-T211 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/* OPR\/#MAJORVER#.*",
+          "device": "Samsung SM-T211",
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#Evo 3D GSM Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/* OPR\/#MAJORVER#.*",
+          "device": "HTC Evo 3D GSM",
+          "platforms": [
+            "Android_5_0"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/*OPR\/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
