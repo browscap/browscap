@@ -12,7 +12,7 @@
         "Parent": "DefaultProperties",
         "Comment": "PERFECT Browser",
         "Browser": "PERFECT Browser",
-        "Browser_Type": "Browser",
+        "Browser_Type": "Application",
         "Alpha": "false",
         "Beta": "false",
         "Win16": "false",
