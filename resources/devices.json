@@ -9763,7 +9763,7 @@
         "Device_Name": "Nexus 6",
         "Device_Maker": "Motorola",
         "Device_Brand_Name": "Google",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -10447,7 +10447,7 @@
         "Device_Name": "Evo 3D GSM",
         "Device_Maker": "HTC",
         "Device_Brand_Name": "HTC",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -11815,7 +11815,7 @@
         "Device_Name": "Optimus L7",
         "Device_Maker": "LG",
         "Device_Brand_Name": "LG",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -15012,6 +15012,18 @@
         "isTablet": "false"
       }
     },
+    "Huawei U8815": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "U8815",
+        "Device_Name": "Ascend G300",
+        "Device_Maker": "Huawei",
+        "Device_Brand_Name": "Huawei",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "UTStarcom GTX75": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -17986,6 +17998,18 @@
         "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
+      }
+    },
+    "Micromax A101": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "A101",
+        "Device_Name": "A101",
+        "Device_Maker": "Micromax",
+        "Device_Brand_Name": "Micromax",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
       }
     },
     "Alcatel OT-4030D": {
@@ -23794,6 +23818,42 @@
         "Device_Brand_Name": "Tri-ray",
         "isMobileDevice": "true",
         "isTablet": "false"
+      }
+    },
+    "Magic W700": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "W700",
+        "Device_Code_Name": "W700",
+        "Device_Maker": "Magic",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Magic",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Magic QS0716D": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "Q-pad",
+        "Device_Code_Name": "QS0716D",
+        "Device_Maker": "3Q",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "3Q",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "SXZ PDX0-01": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "PDX0-01",
+        "Device_Code_Name": "PDX0-01",
+        "Device_Maker": "SXZ",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "SXZ",
+        "isMobileDevice": "true",
+        "isTablet": "true"
       }
     }
   }

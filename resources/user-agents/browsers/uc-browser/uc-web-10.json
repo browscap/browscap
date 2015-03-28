@@ -44,6 +44,30 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#A101 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
+          "engine": "U3",
+          "device": "Micromax A101",
+          "platforms": [
+            "Android_3_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#LG-P705 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
+          "engine": "U3",
+          "device": "LG P705",
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#QS0716D Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
+          "engine": "U3",
+          "device": "Magic QS0716D",
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM# Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
           "engine": "U3",
           "platforms": [
