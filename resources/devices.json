@@ -23472,6 +23472,18 @@
         "isTablet": "true"
       }
     },
+    "Ritmix RMD-1025": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "RMD-1025",
+        "Device_Code_Name": "RMD-1025",
+        "Device_Maker": "Ritmix",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Ritmix",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Wexler TAB7iD": {
       "properties": {
         "Device_Type": "Tablet",

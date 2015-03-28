@@ -68,10 +68,18 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#RMD-1025 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
+          "engine": "U3",
+          "device": "Ritmix RMD-1025",
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM# Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
           "engine": "U3",
           "platforms": [
-            "Android_4_4"
+            "Android_4_4", "Android_5_0", "Android"
           ]
         }
       ]
