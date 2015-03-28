@@ -206,6 +206,14 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#HUAWEI U8815 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/*Safari\/+",
+          "engine": "U3",
+          "device": "Huawei U8815",
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
           "match": "UCWEB\/2.0 (Linux; U; Opera Mini\/*; Videocon_A15) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
           "engine": "U2",
           "device": "Videocon A15",
