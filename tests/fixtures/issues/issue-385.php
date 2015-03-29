@@ -19,7 +19,7 @@ return [
             'isTablet' => false,
             'Crawler' => false,
             'Device_Name' => 'MI 3W',
-            'Device_Maker' => 'Xiaomi',
+            'Device_Maker' => 'Xiaomi Tech',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen',
             'Device_Code_Name' => 'MI 3W',

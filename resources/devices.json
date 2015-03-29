@@ -18708,6 +18708,30 @@
         "isTablet": "false"
       }
     },
+    "ZTE NX501": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "NX501",
+        "Device_Name": "Nubia Z5",
+        "Device_Maker": "ZTE",
+        "Device_Brand_Name": "ZTE",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "ZTE V808": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "V808",
+        "Device_Name": "V808",
+        "Device_Maker": "ZTE",
+        "Device_Brand_Name": "ZTE",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Dell Streak": {
       "properties": {
         "Device_Type": "Tablet",
@@ -20460,6 +20484,30 @@
         "isTablet": "true"
       }
     },
+    "Prestigio PMP5785C3G_QUAD": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "PMP5785C3G_QUAD",
+        "Device_Name": "MultiPad 4 Quantum 7.85 3G",
+        "Device_Maker": "Prestigio",
+        "Device_Brand_Name": "Prestigio",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Prestigio PAP5000TDUO": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "PAP5000TDUO",
+        "Device_Name": "MultiPhone 5000 Duo",
+        "Device_Maker": "Prestigio",
+        "Device_Brand_Name": "Prestigio",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "HP Touchpad": {
       "properties": {
         "Device_Type": "Tablet",
@@ -21581,7 +21629,7 @@
         "Device_Type": "Mobile Phone",
         "Device_Name": "MI 2",
         "Device_Code_Name": "MI 2",
-        "Device_Maker": "Xiaomi",
+        "Device_Maker": "Xiaomi Tech",
         "Device_Pointing_Method": "unknown",
         "Device_Brand_Name": "Xiaomi",
         "isMobileDevice": "true",
@@ -21593,7 +21641,7 @@
         "Device_Type": "Mobile Phone",
         "Device_Name": "MI 3W",
         "Device_Code_Name": "MI 3W",
-        "Device_Maker": "Xiaomi",
+        "Device_Maker": "Xiaomi Tech",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Xiaomi",
         "isMobileDevice": "true",
@@ -24000,6 +24048,18 @@
         "isTablet": "false"
       }
     },
+    "MTC 982": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "982",
+        "Device_Code_Name": "982",
+        "Device_Maker": "MTC",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "MTC",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "ONDA V989": {
       "properties": {
         "Device_Type": "Tablet",
@@ -24128,6 +24188,42 @@
         "Device_Maker": "Impression",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Impression",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "iRulu U1": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Universe 1",
+        "Device_Code_Name": "U1",
+        "Device_Maker": "iRulu",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "iRulu",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Symphony W82": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Xplorer",
+        "Device_Code_Name": "W82",
+        "Device_Maker": "Symphony",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Symphony",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Denver TAD-70112": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "TAD-70112",
+        "Device_Code_Name": "TAD-70112",
+        "Device_Maker": "Denver",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Denver",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
