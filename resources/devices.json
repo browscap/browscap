@@ -2812,10 +2812,22 @@
       "properties": {
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-I8200N",
-        "Device_Name": "S III mini",
+        "Device_Name": "Galaxy S III Mini",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung GT-I8262": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GT-I8262",
+        "Device_Name": "Galaxy Core",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -3113,6 +3125,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-S6312",
         "Device_Name": "Galaxy Young DUOS",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung GT-S6310": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GT-S6310",
+        "Device_Name": "Galaxy Young",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "touchscreen",
@@ -15019,7 +15043,7 @@
         "Device_Name": "Ascend G300",
         "Device_Maker": "Huawei",
         "Device_Brand_Name": "Huawei",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -15449,6 +15473,18 @@
         "Device_Type": "Tablet",
         "Device_Code_Name": "Protab 3 XXL",
         "Device_Name": "Protab 3 XXL",
+        "Device_Maker": "Point of View",
+        "Device_Brand_Name": "Point of View",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Point of View PI1045": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "PI1045",
+        "Device_Name": "Mobii 1045",
         "Device_Maker": "Point of View",
         "Device_Brand_Name": "Point of View",
         "Device_Pointing_Method": "touchscreen",
@@ -19956,6 +19992,18 @@
         "isTablet": "false"
       }
     },
+    "Caterpillar Cat B15": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "B15",
+        "Device_Name": "Cat B15",
+        "Device_Maker": "Caterpillar",
+        "Device_Brand_Name": "Caterpillar",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Weltbild Kinder-Tablet": {
       "properties": {
         "Device_Type": "Tablet",
@@ -22746,7 +22794,19 @@
         "Device_Name": "Rainbow",
         "Device_Code_Name": "Rainbow",
         "Device_Maker": "Wiko",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Wiko",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Wiko Cink Peax 2": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Cink Peax 2",
+        "Device_Code_Name": "Cink Peax 2",
+        "Device_Maker": "Wiko",
+        "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Wiko",
         "isMobileDevice": "true",
         "isTablet": "false"
@@ -23244,6 +23304,18 @@
         "isTablet": "false"
       }
     },
+    "Philips W8500": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "W8500",
+        "Device_Code_Name": "W8500",
+        "Device_Maker": "Philips",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Philips",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Shiru Samurai 10": {
       "properties": {
         "Device_Type": "Tablet",
@@ -23321,6 +23393,18 @@
         "Device_Type": "Tablet",
         "Device_Name": "iDjD7",
         "Device_Code_Name": "iDjD7",
+        "Device_Maker": "Digma",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Digma",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Digma iDxD7 3G": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "iDxD7 3G",
+        "Device_Code_Name": "iDxD7 3G",
         "Device_Maker": "Digma",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Digma",
@@ -23508,6 +23592,18 @@
         "isTablet": "true"
       }
     },
+    "Wexler TAB-7T": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "TAB 7T",
+        "Device_Code_Name": "TAB 7T",
+        "Device_Maker": "Wexler",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Wexler",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Exec P-720": {
       "properties": {
         "Device_Type": "Tablet",
@@ -23549,6 +23645,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Name": "S5701",
         "Device_Code_Name": "S5701",
+        "Device_Maker": "DNS",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "DNS",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "DNS S4502M": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "S4502M",
+        "Device_Code_Name": "S4502M",
         "Device_Maker": "DNS",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "DNS",
@@ -23864,6 +23972,18 @@
         "Device_Maker": "SXZ",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "SXZ",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Explay Surfer 7.34 3G": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "Surfer 7.34 3G",
+        "Device_Code_Name": "Surfer 7.34 3G",
+        "Device_Maker": "Explay",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Explay",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
