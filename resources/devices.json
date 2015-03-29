@@ -7567,7 +7567,7 @@
         "Device_Name": "T00N",
         "Device_Maker": "Asus",
         "Device_Brand_Name": "Asus",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -7963,7 +7963,7 @@
         "Device_Name": "Droid Razr HD",
         "Device_Maker": "Motorola",
         "Device_Brand_Name": "Motorola",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -7975,7 +7975,7 @@
         "Device_Name": "Droid Razr HD (Verizon)",
         "Device_Maker": "Motorola",
         "Device_Brand_Name": "Motorola",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
