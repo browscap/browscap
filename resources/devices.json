@@ -1740,6 +1740,18 @@
         "isTablet": "false"
       }
     },
+    "Sony C1905": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "C1905",
+        "Device_Name": "Xperia M",
+        "Device_Maker": "Sony",
+        "Device_Brand_Name": "Sony",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Sony D2005": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -7524,6 +7536,42 @@
         "isTablet": "true"
       }
     },
+    "Asus ME302C": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "ME302C",
+        "Device_Name": "MeMO Pad FHD 10",
+        "Device_Maker": "Asus",
+        "Device_Brand_Name": "Asus",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Asus ME371MG": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "ME371MG",
+        "Device_Name": "Fonepad ME371MG",
+        "Device_Maker": "Asus",
+        "Device_Brand_Name": "Asus",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Asus T00N": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "T00N",
+        "Device_Name": "T00N",
+        "Device_Maker": "Asus",
+        "Device_Brand_Name": "Asus",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Motorola MB525": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -7913,6 +7961,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "XT923",
         "Device_Name": "Droid Razr HD",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola XT926": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "XT926",
+        "Device_Name": "Droid Razr HD (Verizon)",
         "Device_Maker": "Motorola",
         "Device_Brand_Name": "Motorola",
         "Device_Pointing_Method": "unknown",
@@ -19572,30 +19632,6 @@
         "isTablet": "true"
       }
     },
-    "Asus ME302C": {
-      "properties": {
-        "Device_Type": "Tablet",
-        "Device_Code_Name": "ME302C",
-        "Device_Name": "MeMO Pad FHD 10",
-        "Device_Maker": "Asus",
-        "Device_Brand_Name": "Asus",
-        "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true",
-        "isTablet": "true"
-      }
-    },
-    "Asus ME371MG": {
-      "properties": {
-        "Device_Type": "Tablet",
-        "Device_Code_Name": "ME371MG",
-        "Device_Name": "Fonepad ME371MG",
-        "Device_Maker": "Asus",
-        "Device_Brand_Name": "Asus",
-        "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true",
-        "isTablet": "true"
-      }
-    },
     "Lenovo B8000-F": {
       "properties": {
         "Device_Type": "Tablet",
@@ -23964,6 +24000,18 @@
         "isTablet": "false"
       }
     },
+    "BQ 7056G": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "7056G",
+        "Device_Code_Name": "7056G",
+        "Device_Maker": "BQ",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "BQ",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Andoer CX919": {
       "properties": {
         "Device_Type": "TV Device",
@@ -24156,6 +24204,18 @@
         "isTablet": "true"
       }
     },
+    "Explay M1 Plus": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "M1 Plus",
+        "Device_Code_Name": "M1 Plus",
+        "Device_Maker": "Explay",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Explay",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "PMEDIA PMSmart450": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -24226,6 +24286,18 @@
         "Device_Brand_Name": "Denver",
         "isMobileDevice": "true",
         "isTablet": "true"
+      }
+    },
+    "Kingzone KZ-168": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "K1 Turbo",
+        "Device_Code_Name": "KZ-168",
+        "Device_Maker": "Shenzhen Kingzone Communication Co.,Ltd",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Kingzone",
+        "isMobileDevice": "true",
+        "isTablet": "false"
       }
     }
   }
