@@ -4140,6 +4140,18 @@
         "isTablet": "false"
       }
     },
+    "Samsung F031": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "F031",
+        "Device_Name": "Galaxy S5",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Samsung SM-G850F": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -14352,6 +14364,18 @@
         "isTablet": "true"
       }
     },
+    "Acer Z150": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Z150",
+        "Device_Name": "Liquid Z150",
+        "Device_Maker": "Acer",
+        "Device_Brand_Name": "Acer",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Mobistel Cynus T2": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -18048,6 +18072,18 @@
         "isTablet": "true"
       }
     },
+    "Micromax A120": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A120",
+        "Device_Name": "Canvas 2 Colors",
+        "Device_Maker": "Micromax",
+        "Device_Brand_Name": "Micromax",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Alcatel OT-4030D": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -18420,6 +18456,18 @@
         "isTablet": "false"
       }
     },
+    "Alcatel 7047D": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "7047D",
+        "Device_Name": "One Touch Pop C9",
+        "Device_Maker": "Alcatel",
+        "Device_Brand_Name": "Alcatel",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Fairphone FP1": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -18605,6 +18653,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "V788D",
         "Device_Name": "Kis Plus",
+        "Device_Maker": "ZTE",
+        "Device_Brand_Name": "ZTE",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "ZTE V967S": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "V967S",
+        "Device_Name": "Grand X2",
         "Device_Maker": "ZTE",
         "Device_Brand_Name": "ZTE",
         "Device_Pointing_Method": "touchscreen",
@@ -19858,6 +19918,18 @@
         "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
+      }
+    },
+    "Lenovo P780": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "P780",
+        "Device_Name": "P780",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
       }
     },
     "Malata I50": {
@@ -23808,6 +23880,18 @@
         "isTablet": "true"
       }
     },
+    "TeXet TM-7058": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "X-pad STYLE 7.1 3G",
+        "Device_Code_Name": "TM-7058",
+        "Device_Maker": "TeXet",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "TeXet",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Highscreen Zera F": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -23892,6 +23976,18 @@
         "isTablet": "true"
       }
     },
+    "Irbis TG97": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "TG97",
+        "Device_Code_Name": "TG97",
+        "Device_Maker": "Irbis",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Irbis",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "MTC SMART Run": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -23952,11 +24048,23 @@
         "isTablet": "false"
       }
     },
-    "Magic QS0716D": {
+    "3Q QS0716D": {
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Q-pad",
         "Device_Code_Name": "QS0716D",
+        "Device_Maker": "3Q",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "3Q",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "3Q AC0732C": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "Q-lite",
+        "Device_Code_Name": "AC0732C",
         "Device_Maker": "3Q",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "3Q",
@@ -23984,6 +24092,42 @@
         "Device_Maker": "Explay",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Explay",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "PMEDIA PMSmart450": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "PMSmart450",
+        "Device_Code_Name": "PMSmart450",
+        "Device_Maker": "PMEDIA",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "PMEDIA",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "ARK Benefit M3S": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Benefit M3S",
+        "Device_Code_Name": "Benefit M3S",
+        "Device_Maker": "ARK",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "ARK",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Impression ImPAD 9708": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "ImPAD 9708",
+        "Device_Code_Name": "ImPAD 9708",
+        "Device_Maker": "Impression",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Impression",
         "isMobileDevice": "true",
         "isTablet": "true"
       }

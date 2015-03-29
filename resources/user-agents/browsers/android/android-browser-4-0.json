@@ -5153,7 +5153,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#IQ4404 Build\/*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "Lenovo S920_ROW",
+          "device": "Fly IQ4404",
           "platforms": [
             "Android_4_2"
           ]
@@ -5212,6 +5212,27 @@
           "device": "Caterpillar Cat B15",
           "platforms": [
             "Android_4_1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#PMSmart450 Build\/*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "device": "PMEDIA PMSmart450",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#PMSmart450 Build\/*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "device": "Micromax A120",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#ImPAD 9708 Build\/*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "device": "Impression ImPAD 9708",
+          "platforms": [
+            "Android_4_2"
           ]
         },
         {
