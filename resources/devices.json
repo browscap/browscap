@@ -4116,6 +4116,18 @@
         "isTablet": "false"
       }
     },
+    "Samsung SM-G900W8": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SM-G900W8",
+        "Device_Name": "Galaxy S5 (Canada)",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Samsung SM-G350": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -14436,6 +14448,18 @@
         "isTablet": "false"
       }
     },
+    "Acer V370": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "V370",
+        "Device_Name": "Liquid E2 Duo",
+        "Device_Maker": "Acer",
+        "Device_Brand_Name": "Acer",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Mobistel Cynus T2": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -23472,6 +23496,18 @@
         "isTablet": "false"
       }
     },
+    "Philips W3509": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "W3509",
+        "Device_Code_Name": "W3509",
+        "Device_Maker": "Philips",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Philips",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Shiru Samurai 10": {
       "properties": {
         "Device_Type": "Tablet",
@@ -24298,6 +24334,18 @@
         "Device_Brand_Name": "Kingzone",
         "isMobileDevice": "true",
         "isTablet": "false"
+      }
+    },
+    "Suntech TAB917QC 8GB": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "TAB917QC 8GB",
+        "Device_Code_Name": "TAB917QC 8GB",
+        "Device_Maker": "Suntech",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Suntech",
+        "isMobileDevice": "true",
+        "isTablet": "true"
       }
     }
   }

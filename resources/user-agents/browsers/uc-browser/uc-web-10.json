@@ -188,6 +188,30 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#Philips W3509 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
+          "engine": "U3",
+          "device": "Philips W3509",
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-G900W8 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
+          "engine": "U3",
+          "device": "Samsung SM-G900W8",
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#V370 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
+          "engine": "U3",
+          "device": "Acer V370",
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM# Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
           "engine": "U3",
           "platforms": [
