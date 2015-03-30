@@ -36,10 +36,186 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#IQ4411 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
+          "engine": "U3",
+          "device": "Fly IQ4411",
+          "platforms": [
+            "Android_4_1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#A101 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
+          "engine": "U3",
+          "device": "Micromax A101",
+          "platforms": [
+            "Android_3_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#LG-P705 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
+          "engine": "U3",
+          "device": "LG P705",
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#QS0716D Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
+          "engine": "U3",
+          "device": "3Q QS0716D",
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#RMD-1025 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
+          "engine": "U3",
+          "device": "Ritmix RMD-1025",
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#iDnD7 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
+          "engine": "U3",
+          "device": "Digma iDnD7",
+          "platforms": [
+            "Android_4_1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#Philips-W8500 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
+          "engine": "U3",
+          "device": "Philips W8500",
+          "platforms": [
+            "Android_4_1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#s4502M Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
+          "engine": "U3",
+          "device": "DNS S4502M",
+          "platforms": [
+            "Android_4_1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#Surfer 7.34 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
+          "engine": "U3",
+          "device": "Explay Surfer 7.34 3G",
+          "platforms": [
+            "Android_4_1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#TG97 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
+          "engine": "U3",
+          "device": "Irbis TG97",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#Micromax A120 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
+          "engine": "U3",
+          "device": "Micromax A120",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#ARK Benefit M3S Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
+          "engine": "U3",
+          "device": "ARK Benefit M3S",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#F031 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
+          "engine": "U3",
+          "device": "Samsung F031",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#X-pad STYLE 7.1 3G* Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
+          "engine": "U3",
+          "device": "TeXet TM-7058",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#Z150 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
+          "engine": "U3",
+          "device": "Acer Z150",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#ZTE V967S Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
+          "engine": "U3",
+          "device": "ZTE V967S",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#ASUS_T00N Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
+          "engine": "U3",
+          "device": "Asus T00N",
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#BQ 7056G Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
+          "engine": "U3",
+          "device": "BQ 7056G",
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#M1_Plus Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
+          "engine": "U3",
+          "device": "Explay M1 Plus",
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#Philips W3509 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
+          "engine": "U3",
+          "device": "Philips W3509",
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-G900W8 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
+          "engine": "U3",
+          "device": "Samsung SM-G900W8",
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#V370 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
+          "engine": "U3",
+          "device": "Acer V370",
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM# Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
           "engine": "U3",
           "platforms": [
-            "Android_4_4"
+            "Android_4_4", "Android_5_0", "Android"
           ]
         }
       ]

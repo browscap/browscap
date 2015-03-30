@@ -1,0 +1,47 @@
+{
+  "division": "Miui Browser #MAJORVER#.#MINORVER#",
+  "versions": [1],
+  "sortIndex": 1110,
+  "lite": false,
+  "userAgents": [
+    {
+      "userAgent": "Miui Browser #MAJORVER#.#MINORVER#",
+      "device": "general Mobile Phone (Touch)",
+      "platform": "Android",
+      "engine": "WebKit",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Miui Browser #MAJORVER#.#MINORVER#",
+        "Browser": "Miui Browser",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Xiaomi Tech",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Win32": "true",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#Prestigio PAP5000TDUO Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/*Safari\/* XiaoMi\/MiuiBrowser\/#MAJORVER#.#MINORVER#*",
+          "device": "Prestigio PAP5000TDUO",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM# Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/*Safari\/* XiaoMi\/MiuiBrowser\/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Android_4_2"
+          ]
+        }
+      ]
+    }
+  ]
+}

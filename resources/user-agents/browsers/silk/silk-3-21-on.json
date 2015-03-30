@@ -1,6 +1,6 @@
 {
   "division": "Silk #MAJORVER#.#MINORVER#",
-  "versions": ["3.38", "3.37", "3.36", "3.35", "3.34", "3.33", "3.32", "3.31", "3.30", "3.29", "3.28", "3.27", "3.26", "3.25", "3.24", "3.23", "3.22", "3.21"],
+  "versions": ["3.42", "3.41", "3.40", "3.39", "3.38", "3.37", "3.36", "3.35", "3.34", "3.33", "3.32", "3.31", "3.30", "3.29", "3.28", "3.27", "3.26", "3.25", "3.24", "3.23", "3.22", "3.21"],
   "sortIndex": 1135,
   "lite": true,
   "userAgents": [
@@ -58,20 +58,20 @@
         },
         {
           "match": "Mozilla\/5.0 (Linux; U; *; KFOT Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* Safari*",
+          "device": "Amazon KFOT",
           "properties": {
             "Browser_Modus": "Desktop Mode"
           },
-          "device": "Amazon KFOT",
           "platforms": [
             "Android_4_0"
           ]
         },
         {
           "match": "Mozilla\/5.0 (Linux; U; *; KFTT Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* Safari*",
+          "device": "Amazon KFTT",
           "properties": {
             "Browser_Modus": "Desktop Mode"
           },
-          "device": "Amazon KFTT",
           "platforms": [
             "Android_4_0"
           ]
@@ -79,6 +79,9 @@
         {
           "match": "Mozilla\/5.0 (Linux; U; *; KFJWI Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* Safari*",
           "device": "Amazon KFJWI",
+          "properties": {
+            "Browser_Modus": "Desktop Mode"
+          },
           "platforms": [
             "Android_4_0"
           ]
@@ -86,6 +89,9 @@
         {
           "match": "Mozilla\/5.0 (Linux; U; *; KFSOWI Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* Safari*",
           "device": "Amazon KFSOWI",
+          "properties": {
+            "Browser_Modus": "Desktop Mode"
+          },
           "platforms": [
             "Android_4_0"
           ]

@@ -31,7 +31,7 @@
             "MinorVer": "0"
           },
           "platforms": [
-            "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0", "iOS_A"
+            "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0", "iOS_A_8_1", "iOS_A"
           ]
         },
         {
@@ -43,7 +43,7 @@
             "MinorVer": "0"
           },
           "platforms": [
-            "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0", "iOS_A"
+            "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0", "iOS_A_8_1", "iOS_A"
           ]
         },
         {
@@ -55,7 +55,7 @@
             "MinorVer": "1"
           },
           "platforms": [
-            "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0", "iOS_A"
+            "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0", "iOS_A_8_1", "iOS_A"
           ]
         },
         {
@@ -67,21 +67,21 @@
             "MinorVer": "1"
           },
           "platforms": [
-            "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0", "iOS_A"
+            "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0", "iOS_A_8_1", "iOS_A"
           ]
         },
         {
           "match": "Mozilla\/5.0 (iPhone#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Coast\/* Mobile\/* Safari\/*",
           "device": "iPhone",
           "platforms": [
-            "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0", "iOS_A"
+            "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0", "iOS_A_8_1", "iOS_A"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Coast\/* Mobile\/* Safari\/*",
           "device": "general Mobile Device (Apple)",
           "platforms": [
-            "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0", "iOS_A"
+            "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0", "iOS_A_8_1", "iOS_A"
           ]
         }
       ]
