@@ -235,10 +235,10 @@ return [
     'issue-539-J' => [
         'MQQBrowser/2.7 Mozilla/5.0 (Linux; U; Android A5000; in-id; A5000 Build/GRK39F) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
         [
-            'Browser' => 'MQQBrowser',
+            'Browser' => 'QQbrowser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
-            'Browser_Maker' => 'unknown',
+            'Browser_Maker' => 'Tencent Ltd.',
             'Version' => '2.7',
             'MajorVer' => '2',
             'MinorVer' => '7',
@@ -268,10 +268,10 @@ return [
     'issue-539-K' => [
         'MQQBrowser/36 Mozilla/5.0 (iPhone 4S; CPU iPhone OS 5_1_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Mobile/9B206 Safari/7534.48.3',
         [
-            'Browser' => 'MQQBrowser',
+            'Browser' => 'QQbrowser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
-            'Browser_Maker' => 'unknown',
+            'Browser_Maker' => 'Tencent Ltd.',
             'Version' => '0.0',
             'MajorVer' => '0',
             'MinorVer' => '0',
@@ -301,10 +301,10 @@ return [
     'issue-539-L' => [
         'MQQBrowser/Mini2.4 (SAMSUNG-GT-E2252)',
         [
-            'Browser' => 'MQQBrowser Mini',
+            'Browser' => 'QQbrowser Mini',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
-            'Browser_Maker' => 'unknown',
+            'Browser_Maker' => 'Tencent Ltd.',
             'Version' => '2.4',
             'MajorVer' => '2',
             'MinorVer' => '4',
