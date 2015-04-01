@@ -137,7 +137,15 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
+          "match": "Mozilla\/5.0 (#PLATFORM#Lenovo P780_ROW Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/*UCBrowser\/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "device": "Lenovo P780",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/*UCBrowser\/#MAJORVER#.#MINORVER#*",
           "engine": "WebKit",
           "device": "general Mobile Phone (Touch)",
           "platforms": [

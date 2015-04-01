@@ -1,0 +1,55 @@
+{
+  "division": "Flipboard App #MAJORVER#.#MINORVER#",
+  "versions": ["3.1"],
+  "sortIndex": 939,
+  "lite": false,
+  "userAgents": [
+    {
+      "userAgent": "Flipboard App #MAJORVER#.#MINORVER#",
+      "platform": "Android",
+      "engine": "Blink",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Flipboard App #MAJORVER#.#MINORVER#",
+        "Browser": "Flipboard App",
+        "Browser_Type": "Application",
+        "Browser_Maker": "Flipboard, Inc.",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Frames": "false",
+        "IFrames": "false",
+        "Tables": "false",
+        "Cookies": "false",
+        "BackgroundSounds": "false",
+        "JavaScript": "false",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#GT-I9300I Build\/*)*AppleWebKit\/*(*KHTML,*like Gecko*)*Version\/*Chrome*Safari* Flipboard\/#MAJORVER#.#MINORVER#*",
+          "device": "Samsung GT-I9300I",
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/*(*KHTML,*like Gecko*)*Version\/*Chrome*Safari* Flipboard\/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Android_4_4", "Android_5_0", "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}
