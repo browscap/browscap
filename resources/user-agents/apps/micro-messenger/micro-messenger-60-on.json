@@ -1,7 +1,7 @@
 {
   "division": "WeChat App #MAJORVER#.#MINORVER#",
   "versions": ["6.1", 6],
-  "sortIndex": 1004,
+  "sortIndex": 954,
   "lite": false,
   "userAgents": [
     {
