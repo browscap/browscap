@@ -6,7 +6,7 @@ return [
         [
             'Browser' => 'BingBot',
             'Browser_Type' => 'Bot/Crawler',
-            'Browser_Bits' => '0',
+            'Browser_Bits' => '32',
             'Browser_Maker' => 'Microsoft Corporation',
             'Version' => '2.0',
             'MajorVer' => '2',
@@ -18,7 +18,7 @@ return [
             'isMobileDevice' => true,
             'isTablet' => false,
             'Crawler' => true,
-            'JavaScript' => true,
+            'JavaScript' => false,
             'Cookies' => false,
             'Frames' => true,
             'IFrames' => true,
