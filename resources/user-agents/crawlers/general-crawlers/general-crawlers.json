@@ -2781,6 +2781,13 @@
           }
         },
         {
+          "match": "Mozilla\/5.0 (compatible; Cliqzbot\/*",
+          "properties": {
+            "Browser": "Cliqzbot",
+            "Browser_Maker": "10betterpages GmbH"
+          }
+        },
+        {
           "match": "Cliqzbot\/0.1*",
           "properties": {
             "Browser": "Cliqzbot",
@@ -3709,6 +3716,102 @@
           "properties": {
             "Browser": "Begun Advertising Bot",
             "Browser_Maker": "begun.ru"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; MegaIndex.ru\/2.0*",
+          "properties": {
+            "Browser": "MegaIndex Bot",
+            "Browser_Maker": "MegaIndex.ru",
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; MegaIndex.ru\/*",
+          "properties": {
+            "Browser": "MegaIndex Bot",
+            "Browser_Maker": "MegaIndex.ru"
+          }
+        },
+        {
+          "match": "Mozilla\/4.0 (compatible; DAWINCI ANTIPLAG SPIDER*",
+          "properties": {
+            "Browser": "DAWINCI ANTIPLAG SPIDER"
+          }
+        },
+        {
+          "match": "AccServer?HOGANMIDSCHOOL?\/5.0*",
+          "properties": {
+            "Browser": "AccServer",
+            "Version": "5.0",
+            "MajorVer": "5",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "AccServer?HOGANMIDSCHOOL?\/*",
+          "properties": {
+            "Browser": "AccServer"
+          }
+        },
+        {
+          "match": "SafeSearch microdata crawler*",
+          "properties": {
+            "Browser": "SafeSearch microdata crawler",
+            "Browser_Maker": "Avira Operations GmbH & Co. KG."
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; AdvBot\/2.0*",
+          "properties": {
+            "Browser": "AdvBot",
+            "Browser_Maker": "advbot.net",
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; AdvBot\/*",
+          "properties": {
+            "Browser": "AdvBot",
+            "Browser_Maker": "advbot.net"
+          }
+        },
+        {
+          "match": "Mozilla\/4.0 compatible ZyBorg\/1.0*",
+          "properties": {
+            "Browser": "WiseNut search engine crawler",
+            "Browser_Maker": "LookSmart",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/4.0 compatible ZyBorg\/*",
+          "properties": {
+            "Browser": "WiseNut search engine crawler",
+            "Browser_Maker": "LookSmart"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (Macintosh; Butterfly\/1.0*",
+          "properties": {
+            "Browser": "Butterfly Robot",
+            "Browser_Maker": "Topsy Labs",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (Macintosh; Butterfly\/*",
+          "properties": {
+            "Browser": "Butterfly Robot",
+            "Browser_Maker": "Topsy Labs"
           }
         }
       ]
