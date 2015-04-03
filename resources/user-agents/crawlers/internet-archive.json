@@ -24,6 +24,9 @@
           "match": "InternetArchive\/*"
         },
         {
+          "match": "Mozilla\/2.0 (compatible; archive.org*)"
+        },
+        {
           "match": "Mozilla\/5.0 (compatible; archive.org*)"
         },
         {
