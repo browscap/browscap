@@ -1,6 +1,6 @@
 {
   "division": "Facebook App #MAJORVER#.#MINORVER#",
-  "versions": [27, 21, "20.1", 20, 19, "18.1", 18, 17, 16, 15, "14.9", "14.8", "14.7", "14.6", "14.5", "14.4", "14.3", "14.2", "14.1", 14, "13.1", 13, "12.1", 12, 11, 10, 9, 8, 7, "6.9", "6.8", "6.7", "6.6", "6.5", "6.4", "6.3", "6.2", "6.1", 6, "5.6", "5.5", "5.4", "5.3", "5.2", "5.1", 5, "4.1", 4, "3.9", "3.8", "3.7", "3.6", "3.5", "3.4", "3.3", "3.2", "3.1", 3, "2.3", "2.2", "2.1", 2],
+  "versions": [29, 28, 27, 26, 25, 24, "23.1", 23, 22, 21, "20.1", 20, 19, "18.1", 18, 17, 16, 15, "14.9", "14.8", "14.7", "14.6", "14.5", "14.4", "14.3", "14.2", "14.1", 14, "13.1", 13, "12.1", 12, 11, 10, 9, 8, 7, "6.9", "6.8", "6.7", "6.6", "6.5", "6.4", "6.3", "6.2", "6.1", 6, "5.6", "5.5", "5.4", "5.3", "5.2", "5.1", 5, "4.1", 4, "3.9", "3.8", "3.7", "3.6", "3.5", "3.4", "3.3", "3.2", "3.1", 3, "2.3", "2.2", "2.1", 2],
   "sortIndex": 951,
   "lite": true,
   "userAgents": [
@@ -31,10 +31,12 @@
           "device": "iPhone",
           "platforms": [
             "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
-            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0", "iOS_A_8_1",
+            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1",
+            "iOS_A_8_0", "iOS_A_8_1", "iOS_A_8_2",
             "iOS_A",
             "iOS_B",
-            "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_1", "iOS_C_8_0",
+            "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0",
+            "iOS_C_8_2", "iOS_C_8_1", "iOS_C_8_0",
             "iOS_C"
           ]
         },
@@ -43,10 +45,12 @@
           "device": "iPad",
           "platforms": [
             "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
-            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0", "iOS_A_8_1",
+            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1",
+            "iOS_A_8_0", "iOS_A_8_1", "iOS_A_8_2",
             "iOS_A",
             "iOS_B",
-            "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_1", "iOS_C_8_0",
+            "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0",
+            "iOS_C_8_2", "iOS_C_8_1", "iOS_C_8_0",
             "iOS_C"
           ]
         },
@@ -55,10 +59,12 @@
           "device": "iPod Touch",
           "platforms": [
             "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
-            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0", "iOS_A_8_1",
+            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1",
+            "iOS_A_8_0", "iOS_A_8_1", "iOS_A_8_2",
             "iOS_A",
             "iOS_B",
-            "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_1", "iOS_C_8_0",
+            "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0",
+            "iOS_C_8_2", "iOS_C_8_1", "iOS_C_8_0",
             "iOS_C"
           ]
         },
@@ -66,10 +72,12 @@
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit* (KHTML,*like Gecko*) Mobile* ?FBAN\/*FBAV\/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
-            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0", "iOS_A_8_1",
+            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1",
+            "iOS_A_8_0", "iOS_A_8_1", "iOS_A_8_2",
             "iOS_A",
             "iOS_B",
-            "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_1", "iOS_C_8_0",
+            "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0",
+            "iOS_C_8_2", "iOS_C_8_1", "iOS_C_8_0",
             "iOS_C"
           ]
         }
@@ -110,6 +118,13 @@
           "engine": "WebKit",
           "platforms": [
             "Android_4_3"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-G900F Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Chrome\/*Safari\/* ?FB_IAB\/*FBAV\/#MAJORVER#.#MINORVER#*",
+          "device": "Samsung SM-G900F",
+          "platforms": [
+            "Android_5_0"
           ]
         },
         {
