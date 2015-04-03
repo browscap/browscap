@@ -242,6 +242,23 @@
             "Browser": "AjaxSnapBot",
             "Browser_Maker": "Tockify Ltd"
           }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; HyperCrawl\/0.2*",
+          "properties": {
+            "Browser": "HyperCrawl",
+            "Browser_Maker": "SEOGraph",
+            "Version": "0.2",
+            "MajorVer": "0",
+            "MinorVer": "2"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; HyperCrawl\/*",
+          "properties": {
+            "Browser": "HyperCrawl",
+            "Browser_Maker": "SEOGraph"
+          }
         }
       ]
     }
