@@ -3813,6 +3813,23 @@
             "Browser": "Butterfly Robot",
             "Browser_Maker": "Topsy Labs"
           }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; worldwebheritage.org\/1.0*",
+          "properties": {
+            "Browser": "worldwebheritage.org Bot",
+            "Browser_Maker": "GoDaddy, LLC",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; worldwebheritage.org\/*",
+          "properties": {
+            "Browser": "worldwebheritage.org Bot",
+            "Browser_Maker": "GoDaddy, LLC"
+          }
         }
       ]
     }
