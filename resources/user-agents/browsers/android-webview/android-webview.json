@@ -1,6 +1,6 @@
 {
   "division": "Android WebView #MAJORVER#.#MINORVER#",
-  "versions": [5, "4.4", "4.3", "4.2", "4.1", 4, 2, "1.6", "1.5", 1],
+  "versions": [5, "4.4", "4.3", "4.2", "4.1", 4, "2.1", 2, "1.6", "1.5", 1],
   "sortIndex": 955,
   "lite": true,
   "userAgents": [
@@ -4596,7 +4596,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#SM-G900F* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Samsung SM-G900F",
           "platforms": [
-            "Android_4_4"
+            "Android_4_4", "Android_5_0"
           ]
         },
         {
