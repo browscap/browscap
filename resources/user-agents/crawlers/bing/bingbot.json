@@ -44,6 +44,48 @@
           "platforms": [
             "Darwin"
           ]
+        },
+        {
+          "match": "Mozilla\/5.0 (iPhone#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/* Mobile\/* Safari\/* (compatible; bingbot\/2.0*",
+          "device": "iPhone",
+          "engine": "WebKit",
+          "properties": {
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0"
+          },
+          "platforms": [
+            "iOS_A_7_0", "iOS_A"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/* Mobile\/* Safari\/* (compatible; bingbot\/2.0*",
+          "device": "general Mobile Device (Apple)",
+          "engine": "WebKit",
+          "properties": {
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0"
+          },
+          "platforms": [
+            "iOS_A_7_0", "iOS_A"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (iPhone#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/* Mobile\/* Safari\/* (compatible; bingbot\/*",
+          "device": "iPhone",
+          "engine": "WebKit",
+          "platforms": [
+            "iOS_A_7_0", "iOS_A"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/* Mobile\/* Safari\/* (compatible; bingbot\/*",
+          "device": "general Mobile Device (Apple)",
+          "engine": "WebKit",
+          "platforms": [
+            "iOS_A_7_0", "iOS_A"
+          ]
         }
       ]
     }
