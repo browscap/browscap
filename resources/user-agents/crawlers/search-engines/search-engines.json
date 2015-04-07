@@ -1138,6 +1138,13 @@
             "Browser": "YioopBot",
             "Browser_Maker": "Yioop!"
           }
+        },
+        {
+          "match": "iZSearch.com*",
+          "properties": {
+            "Browser": "iZSearch Bot",
+            "Browser_Maker": "iZSearch"
+          }
         }
       ]
     }
