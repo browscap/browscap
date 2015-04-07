@@ -104,7 +104,16 @@
           }
         },
         {
-          "match": "Busiversebot\/v1.0 (http:\/\/www.busiverse.com\/bot.php)",
+          "match": "Busiversebot\/v1.0*",
+          "properties": {
+            "Browser": "Busiversebot",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Busiversebot\/*",
           "properties": {
             "Browser": "Busiversebot"
           }
@@ -127,11 +136,29 @@
         {
           "match": "Cogentbot\/1.?*",
           "properties": {
+            "Browser": "Cogentbot",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Cogentbot\/*",
+          "properties": {
             "Browser": "Cogentbot"
           }
         },
         {
-          "match": "compatible; Mozilla 4.0; MSIE 5.5; (SqwidgeBot v1.01 - http:\/\/www.sqwidge.com\/bot\/)",
+          "match": "compatible; Mozilla 4.0; MSIE 5.5; (SqwidgeBot v1.01*",
+          "properties": {
+            "Browser": "SqwidgeBot",
+            "Version": "1.01",
+            "MajorVer": "1",
+            "MinorVer": "01"
+          }
+        },
+        {
+          "match": "compatible; Mozilla 4.0; MSIE 5.5; (SqwidgeBot*",
           "properties": {
             "Browser": "SqwidgeBot"
           }
@@ -157,7 +184,24 @@
         {
           "match": "DuckDuckBot\/*; (?http:\/\/duckduckgo.com\/duckduckbot.html)",
           "properties": {
-            "Browser": "DuckDuckBot"
+            "Browser": "DuckDuckBot",
+            "Browser_Maker": "DuckDuckGo"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; DuckDuckGo-Favicons-Bot\/1.0*",
+          "properties": {
+            "Browser": "DuckDuck Favicons Bot",
+            "Browser_Maker": "DuckDuckGo",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; DuckDuckGo-Favicons-Bot\/*",
+          "properties": {
+            "Browser": "DuckDuck Favicons Bot"
           }
         },
         {
