@@ -1,17 +1,18 @@
 {
-  "division": "MQQBrowser Generic",
+  "division": "QQbrowser Generic",
   "sortIndex": 1007,
   "lite": false,
   "userAgents": [
     {
-      "userAgent": "MQQBrowser Generic",
+      "userAgent": "QQbrowser Generic",
       "engine": "WebKit",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "MQQBrowser Generic",
-        "Browser": "MQQBrowser",
+        "Comment": "QQbrowser Generic",
+        "Browser": "QQbrowser",
         "Browser_Type": "Browser",
+        "Browser_Maker": "Tencent Ltd.",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",

@@ -2268,6 +2268,18 @@
         "isTablet": "false"
       }
     },
+    "Samsung GT-I9128V": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GT-I9128V",
+        "Device_Name": "Galaxy Grand",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "GT-I5500": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -4241,6 +4253,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SM-N9005",
         "Device_Name": "Galaxy Note 3 LTE",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung SM-N9008V": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SM-N9008V",
+        "Device_Name": "Galaxy Note 3 Duos",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "touchscreen",
@@ -11496,6 +11520,18 @@
         "isTablet": "false"
       }
     },
+    "HTC D820mu": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "D820mu",
+        "Device_Name": "D820mu",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "LG P500": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -15077,6 +15113,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "MT1-U06",
         "Device_Name": "Ascend Mate",
+        "Device_Maker": "Huawei",
+        "Device_Brand_Name": "Huawei",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Huawei MT2-L01": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "MT2-L01",
+        "Device_Name": "Ascend Mate2",
         "Device_Maker": "Huawei",
         "Device_Brand_Name": "Huawei",
         "Device_Pointing_Method": "touchscreen",
@@ -18816,6 +18864,18 @@
         "isTablet": "false"
       }
     },
+    "ZTE N918St": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "N918St",
+        "Device_Name": "V5S",
+        "Device_Maker": "ZTE",
+        "Device_Brand_Name": "ZTE",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Dell Streak": {
       "properties": {
         "Device_Type": "Tablet",
@@ -21708,6 +21768,30 @@
         "isTablet": "false"
       }
     },
+    "Xiaomi HM NOTE 1LTETD": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "HM NOTE 1LTETD",
+        "Device_Code_Name": "HM NOTE 1LTETD",
+        "Device_Maker": "Xiaomi Tech",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Xiaomi",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Xiaomi HM 1SC": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "HM 1SC",
+        "Device_Code_Name": "HM 1SC",
+        "Device_Maker": "Xiaomi Tech",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Xiaomi",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "BLU Vivo IV": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -24346,6 +24430,18 @@
         "Device_Brand_Name": "Suntech",
         "isMobileDevice": "true",
         "isTablet": "true"
+      }
+    },
+    "vivo Y22": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Y22",
+        "Device_Code_Name": "Y22",
+        "Device_Maker": "vivo",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "vivo",
+        "isMobileDevice": "true",
+        "isTablet": "false"
       }
     }
   }
