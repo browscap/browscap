@@ -243,6 +243,13 @@
             "Browser": "Qwantify",
             "Browser_Maker": "QWANT SAS"
           }
+        },
+        {
+          "match": "AddThis.com robot*",
+          "properties": {
+            "Browser": "AddThis.com robot",
+            "Browser_Maker": "AddThis.com"
+          }
         }
       ]
     }
