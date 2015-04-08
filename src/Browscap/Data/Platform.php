@@ -37,6 +37,11 @@ class Platform
     private $properties = array();
 
     /**
+     * @var bool
+     */
+    private $isLite = false;
+
+    /**
      * @return string
      */
     public function getMatch()
@@ -73,6 +78,24 @@ class Platform
     {
         $this->properties = $properties;
 
+        return $this;
+    }
+
+    /**
+     * @return bool
+     */
+    public function isLite()
+    {
+        return $this->isLite;
+    }
+
+    /**
+     * @param bool $isLite
+     * @return \Browscap\Data\Platform
+     */
+    public function setIsLite($isLite)
+    {
+        $this->isLite = (bool)$isLite;
         return $this;
     }
 }

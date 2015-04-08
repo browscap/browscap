@@ -47,6 +47,15 @@ interface FilterInterface
     public function isOutput(Division $division);
 
     /**
+     * checks if a section should be in the output
+     *
+     * @param string[] $section
+     *
+     * @return boolean
+     */
+    public function isOutputSection(array $section);
+
+    /**
      * checks if a property should be in the output
      *
      * @param string $property
