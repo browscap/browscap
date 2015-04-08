@@ -14,7 +14,7 @@
         "Version": "5.1",
         "MajorVer": "5",
         "MinorVer": "1",
-        "Win32": "true",
+        "Win32": "false",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",

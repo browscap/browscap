@@ -17,7 +17,7 @@
         "Version": "8.60",
         "MajorVer": "8",
         "MinorVer": "60",
-        "Win32": "true",
+        "Win32": "false",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
