@@ -1,7 +1,7 @@
 {
   "division": "Opera Coast",
   "sortIndex": 1945,
-  "lite": true,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Opera Coast",

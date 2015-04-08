@@ -2,7 +2,7 @@
   "division": "Tumblr App #MAJORVER#.#MINORVER#",
   "versions": ["14.0"],
   "sortIndex": 1991,
-  "lite": true,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Tumblr App #MAJORVER#.#MINORVER#",

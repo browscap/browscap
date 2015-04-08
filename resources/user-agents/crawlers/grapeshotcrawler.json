@@ -1,7 +1,7 @@
 {
   "division": "GrapeshotCrawler",
   "sortIndex": 42,
-  "lite": true,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "GrapeshotCrawler",

@@ -1,7 +1,7 @@
 {
   "division": "NikiBot",
   "sortIndex": 41,
-  "lite": true,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "NikiBot",

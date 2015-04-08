@@ -1,7 +1,7 @@
 {
   "division": "Microsoft Outlook 2007",
   "sortIndex": 1653,
-  "lite": true,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Microsoft Outlook 2007",

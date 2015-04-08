@@ -1,7 +1,7 @@
 {
   "division": "IEMobile 9.0",
   "sortIndex": 1716,
-  "lite": true,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "IEMobile 9.0",

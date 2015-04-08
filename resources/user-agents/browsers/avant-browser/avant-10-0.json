@@ -1,7 +1,7 @@
 {
   "division": "Avant\/IE 10.0",
   "sortIndex": 935,
-  "lite": true,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Avant\/IE 10.0",

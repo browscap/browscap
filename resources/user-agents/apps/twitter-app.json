@@ -1,7 +1,7 @@
 {
   "division": "Twitter App",
   "sortIndex": 1953,
-  "lite": true,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Twitter App",

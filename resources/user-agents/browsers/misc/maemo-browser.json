@@ -1,7 +1,7 @@
 {
   "division": "Maemo Browser",
   "sortIndex": 1770,
-  "lite": true,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Maemo",

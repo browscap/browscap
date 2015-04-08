@@ -1,7 +1,7 @@
 {
   "division": "MSN-Media",
   "sortIndex": 1220,
-  "lite": true,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "MSN-Media",

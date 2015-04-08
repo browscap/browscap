@@ -1,7 +1,7 @@
 {
   "division": "Playstation",
   "sortIndex": 1865,
-  "lite": true,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Playstation Browser",

@@ -2,7 +2,7 @@
   "division": "Airmail #MAJORVER#.#MINORVER#",
   "versions": ["1.5", "1.4", "1.3", "1.2", "1.1", 1],
   "sortIndex": 1660,
-  "lite": true,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Airmail #MAJORVER#.#MINORVER#",
