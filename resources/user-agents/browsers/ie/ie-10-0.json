@@ -17,7 +17,7 @@
         "MajorVer": "10",
         "MinorVer": "0",
         "Beta": "true",
-        "Win32": "true",
+        "Win32": "false",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",

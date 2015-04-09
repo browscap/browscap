@@ -42,7 +42,7 @@
         {
           "match": "Windows-RSS-Platform\/#MAJORVER#.#MINORVER#*",
           "properties": {
-            "Win32": "true"
+            "Win32": "false"
           }
         }
       ]

@@ -349,7 +349,7 @@
           "match": "Mozilla\/4.0 (compatible; MSIE 4.01; Windows95)",
           "properties": {
             "Browser": "Generic Crawler",
-            "Win32": "true"
+            "Win32": "false"
           }
         },
         {

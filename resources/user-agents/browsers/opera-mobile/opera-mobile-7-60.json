@@ -16,7 +16,7 @@
         "Version": "7.60",
         "MajorVer": "7",
         "MinorVer": "60",
-        "Win32": "true",
+        "Win32": "false",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
