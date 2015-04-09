@@ -259,6 +259,16 @@
             "Browser": "HyperCrawl",
             "Browser_Maker": "SEOGraph"
           }
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/* - James BOT - WebCrawler*",
+          "properties": {
+            "Browser": "JamesBOT",
+            "Browser_Maker": "GESKIMO SRL"
+          },
+          "platforms": [
+            "WinXPa_32"
+          ]
         }
       ]
     }

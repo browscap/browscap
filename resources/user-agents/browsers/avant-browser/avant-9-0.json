@@ -13,7 +13,7 @@
         "Browser": "Avant",
         "Browser_Type": "Browser",
         "Browser_Maker": "Avant Force",
-        "Win32": "true",
+        "Win32": "false",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",

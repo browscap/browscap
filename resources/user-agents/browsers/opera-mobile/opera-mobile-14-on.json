@@ -5,19 +5,20 @@
   "lite": true,
   "userAgents": [
     {
-      "userAgent": "Opera Mobile #MAJORVER#.#MINORVER#",
+      "userAgent": "Opera Mobile #MAJORVER#.#MINORVER# for Android",
       "engine": "Blink",
       "device": "general Mobile Phone (Touch)",
+      "platform": "Android",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Opera Mobile #MAJORVER#.#MINORVER#",
+        "Comment": "Opera Mobile #MAJORVER#.#MINORVER# for Android",
         "Browser": "Opera Mobile",
         "Browser_Maker": "Opera Software ASA",
         "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
-        "Win32": "true",
+        "Win32": "false",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",

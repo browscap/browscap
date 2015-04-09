@@ -462,7 +462,7 @@
           "match": "Mozilla\/4.0 (compatible; MSIE *; Windows NT; Girafabot; girafabot at girafa dot com; http:\/\/www.girafa.com)",
           "properties": {
             "Browser": "Girafabot",
-            "Win32": "true"
+            "Win32": "false"
           }
         },
         {
