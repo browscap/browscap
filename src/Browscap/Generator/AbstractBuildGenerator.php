@@ -161,5 +161,62 @@ abstract class AbstractBuildGenerator
      *
      * @return void
      */
-    abstract public function run($version);
+    /**
+     * Entry point for generating builds for a specified version
+     *
+     * @param string $version
+     *
+     * @return \Browscap\Generator\AbstractBuildGenerator
+     */
+    public function run($version)
+    {
+        return $this
+            ->preBuild()
+            ->build($version)
+            ->postBuild()
+        ;
+    }
+
+    /**
+     * runs before the build
+     *
+     * @return \Browscap\Generator\AbstractBuildGenerator
+     */
+    protected function preBuild()
+    {
+        $this->getLogger()->info('Resource folder: ' . $this->resourceFolder . '');
+        $this->getLogger()->info('Build folder: ' . $this->buildFolder . '');
+
+        return $this;
+    }
+
+    /**
+     * runs the build
+     *
+     * @param string $version
+     *
+     * @return \Browscap\Generator\AbstractBuildGenerator
+     */
+    protected function build($version)
+    {
+        Helper\BuildHelper::run(
+            $version,
+            $this->resourceFolder,
+            $this->getLogger(),
+            $this->getWriterCollection(),
+            $this->getCollectionCreator()
+        );
+
+        return $this;
+    }
+
+    /**
+     * runs after the build
+     *
+     * @return \Browscap\Generator\AbstractBuildGenerator
+     */
+    protected function postBuild()
+    {
+        return $this;
+    }
 }
