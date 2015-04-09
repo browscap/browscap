@@ -61,7 +61,24 @@ class CustomWriterFactory
         $writerCollection = new WriterCollection();
 
         if (null === $file) {
-            $file = $buildFolder . '/full_php_browscap.ini';
+            switch ($format) {
+                case self::OUTPUT_FORMAT_ASP:
+                    $file = $buildFolder . '/full_browscap.ini';
+                    break;
+                case self::OUTPUT_FORMAT_CSV:
+                    $file = $buildFolder . '/browscap.csv';
+                    break;
+                case self::OUTPUT_FORMAT_XML:
+                    $file = $buildFolder . '/browscap.xml';
+                    break;
+                case self::OUTPUT_FORMAT_JSON:
+                    $file = $buildFolder . '/browscap.json';
+                    break;
+                case self::OUTPUT_FORMAT_PHP:
+                default:
+                    $file = $buildFolder . '/full_php_browscap.ini';
+                    break;
+            }
         }
 
         $filter = new CustomFilter($fields);
