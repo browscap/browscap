@@ -61,7 +61,7 @@ class BuildCustomFileGenerator extends AbstractBuildGenerator
     public function run(
         $version,
         $fields = array(),
-        $file = null,
+        $file   = null,
         $format = self::OUTPUT_FORMAT_PHP
     ) {
         return $this
@@ -82,9 +82,9 @@ class BuildCustomFileGenerator extends AbstractBuildGenerator
      */
     protected function preBuild(
         $fields = array(),
-        $file = null,
-        $format = self::OUTPUT_FORMAT_PHP)
-    {
+        $file   = null,
+        $format = self::OUTPUT_FORMAT_PHP
+    ) {
         parent::preBuild();
 
         $this->getLogger()->info('started creating the custom output file');
