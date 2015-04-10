@@ -96,7 +96,12 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
      */
     public function userAgentDataProvider()
     {
-        $data            = array();
+        static $data = array();
+
+        if (count($data)) {
+            return $data;
+        }
+
         $checks          = array();
         $sourceDirectory = __DIR__ . '/../fixtures/issues/';
 
