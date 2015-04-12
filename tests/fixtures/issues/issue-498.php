@@ -116,7 +116,7 @@ return [
     'issue-498-E' => [
         'Mozilla/5.0 (Windows; U; MSIE 9.0; Windows NT 9.0; en-US)',
         [
-            'Browser' => 'Fake IE',
+            'Browser' => 'IE',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',

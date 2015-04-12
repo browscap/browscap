@@ -91,7 +91,7 @@ return [
             'Frames' => true,
             'IFrames' => true,
             'Tables' => true,
-            'Device_Name' => 'Windows Desktop',
+            'Device_Name' => 'XBox one',
             'Device_Maker' => 'Various',
             'Device_Type' => 'Desktop',
             'Device_Pointing_Method' => 'mouse',

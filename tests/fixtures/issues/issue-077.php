@@ -39,7 +39,7 @@ return [
             'Version' => '2.1',
             'MajorVer' => '2',
             'MinorVer' => '1',
-            'Platform' => 'JAVA',
+            'Platform' => 'Maemo',
             'Platform_Version' => 'unknown',
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Oracle',
