@@ -1867,7 +1867,7 @@
         "Device_Name": "Xperia Z1 Compact",
         "Device_Maker": "Sony",
         "Device_Brand_Name": "Sony",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -2839,7 +2839,7 @@
         "Device_Name": "Galaxy S III Mini",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -10651,7 +10651,7 @@
         "Device_Name": "8S",
         "Device_Maker": "HTC",
         "Device_Brand_Name": "HTC",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
