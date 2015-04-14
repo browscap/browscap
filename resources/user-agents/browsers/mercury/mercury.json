@@ -79,6 +79,12 @@
           "platforms": [
             "Darwin"
           ]
+        },
+        {
+          "match": "Mercury\/* CFNetwork\/* #PLATFORM#",
+          "platforms": [
+            "Darwin"
+          ]
         }
       ]
     }

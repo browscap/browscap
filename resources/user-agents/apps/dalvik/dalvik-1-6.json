@@ -117,9 +117,23 @@
           ]
         },
         {
+          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#GT-I9505*",
+          "device": "Samsung GT-I9505",
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#LIFETAB_E10320*",
+          "device": "Medion E10320",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#",
           "platforms": [
-            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android"
+            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android"
           ]
         }
       ]

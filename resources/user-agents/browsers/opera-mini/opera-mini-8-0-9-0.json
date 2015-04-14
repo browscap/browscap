@@ -1,12 +1,12 @@
 {
   "division": "Opera Mini #MAJORVER#.#MINORVER#",
-  "versions": [9, 8],
+  "versions": [26, 20, "9.1", 9, 8],
   "sortIndex": 1931,
   "lite": true,
   "userAgents": [
     {
       "userAgent": "Opera Mini #MAJORVER#.#MINORVER#",
-      "engine": "Presto_2_2",
+      "engine": "Presto_2_8",
       "device": "general Mobile Device",
       "properties": {
         "Parent": "DefaultProperties",

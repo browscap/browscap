@@ -3860,6 +3860,18 @@
           "properties": {
             "Browser": "mbot"
           }
+        },
+        {
+          "match": "NetLyzer FastProbe*",
+          "properties": {
+            "Browser": "NetLyzer FastProbe"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; TestCrawler*",
+          "properties": {
+            "Browser": "TestCrawler"
+          }
         }
       ]
     }
