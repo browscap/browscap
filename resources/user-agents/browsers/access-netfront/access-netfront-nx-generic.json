@@ -1,0 +1,35 @@
+{
+  "division": "Access NetFront Generic",
+  "sortIndex": 1542,
+  "lite": true,
+  "userAgents": [
+    {
+      "userAgent": "NetFront Generic",
+      "engine": "NetFront",
+      "device": "general Mobile Device",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Access NetFront Generic",
+        "Browser": "NetFront NX",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Access",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/* (Nintendo 3DS; *) Version\/*",
+          "device": "Nintendo 3DS"
+        },
+        {
+          "match": "Mozilla\/* (Nintendo WiiU) AppleWebKit\/* (KHTML, like Gecko) *",
+          "device": "Nintendo WiiU"
+        }
+      ]
+    }
+  ]
+}

@@ -19920,6 +19920,18 @@
         "isTablet": "true"
       }
     },
+    "Lenovo Lifetab S1034X": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "Lifetab S1034X",
+        "Device_Name": "Lifetab S1034X",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Lenovo A3300-HV": {
       "properties": {
         "Device_Type": "Tablet",

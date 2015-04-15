@@ -31,6 +31,14 @@
       },
       "children": [
         {
+          "match": "Mozilla\/5.0 (*MSIE 10.#PLATFORM#Trident\/6.0*Xbox; Xbox One*)*",
+          "device": "Microsoft Xbox One",
+          "platforms": [
+            "Win8_x64", "Win8_64", "Win8_32",
+            "Win8_1_x64", "Win8_1_64", "Win8_1_32"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (*MSIE 10.#PLATFORM#Trident\/6.0*)*",
           "platforms": [
             "WinXPa_64", "WinXPa_32",

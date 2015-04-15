@@ -7,7 +7,7 @@
     {
       "userAgent": "IE #MAJORVER#.#MINORVER# for Win RT",
       "engine": "Trident_7",
-      "device": "Microsoft Surface",
+      "device": "general Tablet",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "IE #MAJORVER#.#MINORVER#",
@@ -39,7 +39,43 @@
       ]
     },
     {
-      "userAgent": "IE #MAJORVER#.#MINORVER#",
+      "userAgent": "IE #MAJORVER#.#MINORVER# for Tablet",
+      "engine": "Trident_7",
+      "device": "general Tablet",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "IE #MAJORVER#.#MINORVER#",
+        "Browser": "IE",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Microsoft Corporation",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Win32": "false",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "BackgroundSounds": "true",
+        "JavaScript": "true",
+        "VBScript": "true",
+        "JavaApplets": "true",
+        "ActiveXControls": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#Trident\/7.0*Touch*rv:#MAJORVER#.#MINORVER#*)*",
+          "platforms": [
+            "Win8_x64", "Win8_64", "Win8_32",
+            "Win8_1_x64", "Win8_1_64", "Win8_1_32",
+            "Win10_x64", "Win10_64", "Win10_32", "Win10_x64_B", "Win10_64_B", "Win10_32_B"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "IE #MAJORVER#.#MINORVER# for Desktop",
       "engine": "Trident_7",
       "device": "Windows Desktop",
       "properties": {

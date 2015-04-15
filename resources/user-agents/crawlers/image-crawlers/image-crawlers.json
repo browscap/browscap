@@ -98,27 +98,6 @@
           }
         },
         {
-          "match": "psbot-image*",
-          "properties": {
-            "Browser": "Psbot",
-            "Browser_Maker": "Picsearch Services AB"
-          }
-        },
-        {
-          "match": "psbot-page*",
-          "properties": {
-            "Browser": "Psbot",
-            "Browser_Maker": "Picsearch Services AB"
-          }
-        },
-        {
-          "match": "psbot\/*",
-          "properties": {
-            "Browser": "Psbot",
-            "Browser_Maker": "Picsearch Services AB"
-          }
-        },
-        {
           "match": "rssImagesBot\/0.1 (*http:\/\/herbert.groot.jebbink.nl\/?app=rssImages)",
           "properties": {
             "Browser": "rssImagesBot"

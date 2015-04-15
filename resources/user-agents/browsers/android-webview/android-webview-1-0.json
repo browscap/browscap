@@ -1,13 +1,13 @@
 {
   "division": "Android WebView #MAJORVER#.#MINORVER#",
-  "versions": [5, "4.4", "4.3", "4.2", "4.1", 4, "2.1", 2, "1.6", "1.5", 1],
-  "sortIndex": 955,
+  "versions": [1],
+  "sortIndex": 956,
   "lite": true,
   "userAgents": [
     {
       "userAgent": "Android WebView #MAJORVER#.#MINORVER#",
       "platform": "Android",
-      "engine": "Blink",
+      "engine": "WebKit",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
