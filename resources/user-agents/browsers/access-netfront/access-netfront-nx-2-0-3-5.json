@@ -5,8 +5,8 @@
   "lite": false,
   "userAgents": [
     {
-      "userAgent": "NetFront #MAJORVER#.#MINORVER#",
-      "engine": "NetFront",
+      "userAgent": "NetFront NX #MAJORVER#.#MINORVER#",
+      "engine": "WebKit",
       "device": "general Mobile Device",
       "properties": {
         "Parent": "DefaultProperties",

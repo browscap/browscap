@@ -848,6 +848,7 @@ return [
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Amazon.com, Inc.',
+            'Browser_Modus' => '',
             'Version' => '3.30',
             'MajorVer' => '3',
             'MinorVer' => '30',

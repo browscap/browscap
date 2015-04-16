@@ -4,8 +4,8 @@
   "lite": true,
   "userAgents": [
     {
-      "userAgent": "NetFront Generic",
-      "engine": "NetFront",
+      "userAgent": "NetFront NX Generic",
+      "engine": "WebKit",
       "device": "general Mobile Device",
       "properties": {
         "Parent": "DefaultProperties",
@@ -23,6 +23,7 @@
       "children": [
         {
           "match": "Mozilla\/* (Nintendo 3DS; *) Version\/*",
+          "engine": "NetFront",
           "device": "Nintendo 3DS"
         },
         {

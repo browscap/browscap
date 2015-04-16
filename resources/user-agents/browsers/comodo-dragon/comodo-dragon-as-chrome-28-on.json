@@ -5,7 +5,7 @@
   "lite": false,
   "userAgents": [
     {
-      "userAgent": "Comodo Dragon #MAJORVER#.#MINORVER#",
+      "userAgent": "Comodo Dragon #MAJORVER#.#MINORVER# (as Chrome)",
       "platform": "Linux",
       "engine": "Blink",
       "device": "general Desktop",
