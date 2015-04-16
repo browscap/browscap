@@ -201,6 +201,7 @@
     },
     "iOS_A": {
       "match": "*CPU iPhone OS * like Mac OS X*",
+      "lite": false,
       "inherits": "iOS"
     },
     "iOS_A_2_0": {
@@ -349,6 +350,7 @@
     },
     "iOS_B": {
       "match": "*CPU like Mac OS X*",
+      "lite": false,
       "inherits": "iOS"
     },
     "iOS_C": {
@@ -835,10 +837,12 @@
     },
     "Linux_32": {
       "match": "*Linux i686*",
+      "lite": false,
       "inherits": "Linux"
     },
     "Linux_32_on_x64": {
       "match": "*Linux i686 on x86_64*",
+      "lite": false,
       "inherits": "Linux",
       "properties": {
         "Platform_Bits": "64"
@@ -846,6 +850,7 @@
     },
     "Linux_32_on_x64_2": {
       "match": "*Linux i686 (x86_64)*",
+      "lite": false,
       "inherits": "Linux",
       "properties": {
         "Platform_Bits": "64"
@@ -853,14 +858,17 @@
     },
     "Linux_32_x586": {
       "match": "*Linux i586*",
+      "lite": false,
       "inherits": "Linux"
     },
     "Linux_32_x86": {
       "match": "*Linux x86*",
+      "lite": false,
       "inherits": "Linux"
     },
     "Linux_64": {
       "match": "*Linux*x86_64*",
+      "lite": false,
       "inherits": "Linux",
       "properties": {
         "Browser_Bits": "64",
@@ -869,6 +877,7 @@
     },
     "Linux_64_B": {
       "match": "*x86_64*linux*",
+      "lite": false,
       "inherits": "Linux",
       "properties": {
         "Browser_Bits": "64",
@@ -877,6 +886,7 @@
     },
     "Linux_x64": {
       "match": "*linux x64*",
+      "lite": false,
       "inherits": "Linux",
       "properties": {
         "Browser_Bits": "64",
@@ -1509,6 +1519,7 @@
     },
     "Vista_64": {
       "match": "*Windows NT 6.0*WOW64*",
+      "lite": false,
       "inherits": "Windows",
       "properties": {
         "Platform": "WinVista",
@@ -1521,6 +1532,7 @@
     },
     "Vista_x64": {
       "match": "*Windows NT 6.0;*Win64? x64*",
+      "lite": false,
       "inherits": "Windows",
       "properties": {
         "Browser_Bits": "64",
@@ -1574,6 +1586,7 @@
     },
     "Win7_64": {
       "match": "*Windows NT 6.1*WOW64*",
+      "lite": false,
       "inherits": "Windows",
       "properties": {
         "Platform": "Win7",
@@ -1586,6 +1599,7 @@
     },
     "Win7_x64": {
       "match": "*Windows NT 6.1*Win64? x64*",
+      "lite": false,
       "inherits": "Windows",
       "properties": {
         "Browser_Bits": "64",
@@ -1599,6 +1613,7 @@
     },
     "Win7_x64_2": {
       "match": "*Windows NT 6.1 x64*",
+      "lite": false,
       "inherits": "Windows",
       "properties": {
         "Browser_Bits": "64",
@@ -1630,6 +1645,7 @@
     },
     "Win8_64": {
       "match": "*Windows NT 6.2*WOW64*",
+      "lite": false,
       "inherits": "Windows",
       "properties": {
         "Platform": "Win8",
@@ -1642,6 +1658,7 @@
     },
     "Win8_x64": {
       "match": "*Windows NT 6.2*Win64? x64*",
+      "lite": false,
       "inherits": "Windows",
       "properties": {
         "Browser_Bits": "64",
@@ -1655,6 +1672,7 @@
     },
     "Win8_x64_2": {
       "match": "*Windows NT 6.2 x64*",
+      "lite": false,
       "inherits": "Windows",
       "properties": {
         "Browser_Bits": "64",
@@ -1677,6 +1695,7 @@
     },
     "Win8_1_64": {
       "match": "*Windows NT 6.3*WOW64*",
+      "lite": false,
       "inherits": "Windows",
       "properties": {
         "Platform": "Win8.1",
@@ -1689,6 +1708,7 @@
     },
     "Win8_1_x64": {
       "match": "*Windows NT 6.3*Win64? x64*",
+      "lite": false,
       "inherits": "Windows",
       "properties": {
         "Browser_Bits": "64",
@@ -1711,6 +1731,7 @@
     },
     "Win10_64": {
       "match": "*Windows NT 6.4*WOW64*",
+      "lite": false,
       "inherits": "Windows",
       "properties": {
         "Platform": "Win10",
@@ -1723,6 +1744,7 @@
     },
     "Win10_x64": {
       "match": "*Windows NT 6.4*Win64? x64*",
+      "lite": false,
       "inherits": "Windows",
       "properties": {
         "Browser_Bits": "64",
@@ -1745,6 +1767,7 @@
     },
     "Win10_64_B": {
       "match": "*Windows NT 10.0*WOW64*",
+      "lite": false,
       "inherits": "Windows",
       "properties": {
         "Platform": "Win10",
@@ -1757,6 +1780,7 @@
     },
     "Win10_x64_B": {
       "match": "*Windows NT 10.0*Win64? x64*",
+      "lite": false,
       "inherits": "Windows",
       "properties": {
         "Browser_Bits": "64",
