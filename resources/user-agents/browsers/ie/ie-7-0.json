@@ -2,7 +2,7 @@
   "division": "IE #MAJORVER#.#MINORVER#",
   "versions": ["7.0"],
   "sortIndex": 2764,
-  "lite": false,
+  "lite": true,
   "userAgents": [
     {
       "userAgent": "IE #MAJORVER#.#MINORVER#",
