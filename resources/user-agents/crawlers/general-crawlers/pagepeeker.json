@@ -5,11 +5,13 @@
   "userAgents": [
     {
       "userAgent": "PagePeeker",
+      "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "PagePeeker",
         "Browser": "PagePeeker",
         "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "pagepeeker SRL",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
@@ -17,7 +19,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (*Linux x86_64*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/* Safari\/* PagePeeker\/2.1*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/* Safari\/* PagePeeker\/2.1*",
           "device": "Linux Desktop",
           "properties": {
             "Version": "2.1",
@@ -29,8 +31,18 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (*Linux x86_64*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/* Safari\/* PagePeeker\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/* Safari\/* PagePeeker\/*",
           "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) * Safari\/*",
+          "device": "Linux Desktop",
+          "properties": {
+            "Browser": "PagePeeker Screenshot Maker"
+          },
           "platforms": [
             "Linux_64"
           ]
