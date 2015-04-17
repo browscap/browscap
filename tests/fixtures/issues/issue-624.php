@@ -62,9 +62,9 @@ return [
             'Device_Pointing_Method' => 'touchscreen',
             'Device_Code_Name' => 'SCH-I545',
             'Device_Brand_Name' => 'Samsung',
-            'RenderingEngine_Name' => 'WebKit',
+            'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'Apple Inc',
+            'RenderingEngine_Maker' => 'Google Inc',
         ],
     ],
 ];
