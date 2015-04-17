@@ -154,6 +154,7 @@
     },
     {
       "userAgent": "Firefox #MAJORVER#.#MINORVER# for Android",
+      "engine": "Gecko_Dynamic",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
@@ -175,14 +176,13 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/#MAJORVER#.#MINORVER#*",
-          "device": "general Mobile Phone",
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/#MAJORVER#.*",
           "platforms": [
             "AndroidMobile"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/#MAJORVER#.*",
           "device": "general Tablet",
           "platforms": [
             "AndroidTablet"
@@ -192,6 +192,7 @@
     },
     {
       "userAgent": "Firefox #MAJORVER#.#MINORVER# for Maemo",
+      "engine": "Gecko_Dynamic",
       "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",

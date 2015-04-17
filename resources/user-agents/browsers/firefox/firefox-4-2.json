@@ -70,6 +70,7 @@
     },
     {
       "userAgent": "Firefox #MAJORVER#.#MINORVER# for Android",
+      "engine": "Gecko_2_2",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
@@ -92,7 +93,6 @@
       "children": [
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/#MAJORVER#.#MINORVER#*",
-          "device": "general Mobile Phone",
           "platforms": [
             "AndroidMobile"
           ]

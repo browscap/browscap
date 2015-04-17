@@ -3244,7 +3244,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I9505G Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "device": "Samsung GT-I9505G",
           "platforms": [
-            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
+            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android_5_0"
           ]
         },
         {
@@ -5308,6 +5308,13 @@
           "device": "Suntech TAB917QC 8GB",
           "platforms": [
             "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#NEO_QUAD10 Build\/*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "device": "Odys Neo Quad 10",
+          "platforms": [
+            "Android_4_2"
           ]
         },
         {

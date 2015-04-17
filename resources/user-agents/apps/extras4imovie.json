@@ -32,22 +32,22 @@
       },
       "children": [
         {
-          "match": "Extras4iMovie\/9.* CFNetwork\/* #PLATFORM#",
+          "match": "Extras4iMovie\/9.07* CFNetwork\/* #PLATFORM#",
           "properties": {
-            "Version": "9.0",
+            "Version": "9.07",
             "MajorVer": "9",
-            "MinorVer": "0"
+            "MinorVer": "07"
           },
           "platforms": [
             "Darwin"
           ]
         },
         {
-          "match": "Extras4iMovie\/9.07* CFNetwork\/* #PLATFORM#",
+          "match": "Extras4iMovie\/9.* CFNetwork\/* #PLATFORM#",
           "properties": {
-            "Version": "9.07",
+            "Version": "9.0",
             "MajorVer": "9",
-            "MinorVer": "07"
+            "MinorVer": "0"
           },
           "platforms": [
             "Darwin"

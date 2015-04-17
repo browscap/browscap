@@ -4644,6 +4644,18 @@
         "isTablet": "true"
       }
     },
+    "Samsung SM-T900": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "SM-T900",
+        "Device_Name": "Galaxy Tab Pro 12.2",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Samsung SCH-U820": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -7963,7 +7975,7 @@
         "Device_Name": "RAZR i",
         "Device_Maker": "Motorola",
         "Device_Brand_Name": "Motorola",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -18132,6 +18144,18 @@
         "isTablet": "false"
       }
     },
+    "Nokia Lumia 530": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Lumia 530",
+        "Device_Name": "Lumia 530",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Nokia 5130c-2": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -19421,6 +19445,18 @@
         "Device_Type": "Tablet",
         "Device_Code_Name": "ADM816HC",
         "Device_Name": "Neo X",
+        "Device_Maker": "Odys",
+        "Device_Brand_Name": "Odys",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Odys Neo Quad 10": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "Neo Quad 10",
+        "Device_Name": "Neo Quad 10",
         "Device_Maker": "Odys",
         "Device_Brand_Name": "Odys",
         "Device_Pointing_Method": "touchscreen",
@@ -24466,6 +24502,18 @@
         "Device_Brand_Name": "vivo",
         "isMobileDevice": "true",
         "isTablet": "false"
+      }
+    },
+    "PiPO PA10.1M": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "PA10.1M",
+        "Device_Code_Name": "PA10.1M",
+        "Device_Maker": "PiPO Technology",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "PiPO",
+        "isMobileDevice": "true",
+        "isTablet": "true"
       }
     }
   }

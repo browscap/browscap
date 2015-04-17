@@ -42,7 +42,7 @@ return [
             'Platform' => 'Linux Smartphone OS',
             'Platform_Version' => 'unknown',
             'Platform_Bits' => '32',
-            'Platform_Maker' => 'inux Foundation',
+            'Platform_Maker' => 'Linux Foundation',
             'isMobileDevice' => true,
             'isTablet' => false,
             'Crawler' => true,

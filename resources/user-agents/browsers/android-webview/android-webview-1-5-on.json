@@ -4712,7 +4712,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#SM-N910F Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-N910F* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Samsung SM-N910F",
           "platforms": [
             "Android_4_4"
@@ -4812,6 +4812,20 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#D5303 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Sony D5303",
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#TPC-PA10.1M Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "device": "PiPO PA10.1M",
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#SAMSUNG SM-T900 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "device": "Samsung SM-T900",
           "platforms": [
             "Android_4_4"
           ]

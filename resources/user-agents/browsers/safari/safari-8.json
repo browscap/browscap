@@ -1,7 +1,7 @@
 {
   "division": "Safari #MAJORVER#.#MINORVER#",
-  "versions": ["8.1", 8, "7.1", 7, "6.2", "6.1", 6],
-  "sortIndex": 1970,
+  "versions": [8],
+  "sortIndex": 1971,
   "lite": true,
   "userAgents": [
     {
@@ -56,6 +56,7 @@
     {
       "userAgent": "Safari #MAJORVER#.#MINORVER# for SymbianOS",
       "device": "general Mobile Device",
+      "platform": "SymbianOS",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Safari #MAJORVER#.#MINORVER#",
@@ -77,6 +78,34 @@
           "device": "general Mobile Phone",
           "platforms": [
             "SymbianOS"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "Safari #MAJORVER#.#MINORVER# for Darwin",
+      "device": "general Mobile Device",
+      "platform": "Darwin",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Safari #MAJORVER#.#MINORVER#",
+        "Browser": "Safari",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "MobileSafari\/100??.* CFNetwork\/* Darwin\/*",
+          "platforms": [
+            "Darwin"
           ]
         }
       ]
