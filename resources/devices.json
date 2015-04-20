@@ -372,11 +372,11 @@
         "isTablet": "false"
       }
     },
-    "Sony NSZ-GS7/GX70": {
+    "Sony NSZ-GS7\/GX70": {
       "properties": {
         "Device_Type": "TV Device",
-        "Device_Code_Name": "NSZ-GS7/GX70",
-        "Device_Name": "NSZ-GS7/GX70",
+        "Device_Code_Name": "NSZ-GS7\/GX70",
+        "Device_Name": "NSZ-GS7\/GX70",
         "Device_Maker": "Sony",
         "Device_Brand_Name": "Sony",
         "Device_Pointing_Method": "unknown",
@@ -2623,7 +2623,7 @@
         "Device_Name": "GT-I9205",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -10648,7 +10648,7 @@
       "properties": {
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "831C",
-        "Device_Name": "One M8 Harmon/Kardon Edition",
+        "Device_Name": "One M8 Harmon\/Kardon Edition",
         "Device_Maker": "HTC",
         "Device_Brand_Name": "HTC",
         "Device_Pointing_Method": "touchscreen",
@@ -19959,7 +19959,7 @@
     "Lenovo Lifetab S1034X": {
       "properties": {
         "Device_Type": "Tablet",
-        "Device_Code_Name": "Lifetab S1034X",
+        "Device_Code_Name": "S1034X",
         "Device_Name": "Lifetab S1034X",
         "Device_Maker": "Lenovo",
         "Device_Brand_Name": "Lenovo",
@@ -24514,6 +24514,18 @@
         "Device_Brand_Name": "PiPO",
         "isMobileDevice": "true",
         "isTablet": "true"
+      }
+    },
+    "Honlin PC1088": {
+      "properties": {
+        "Device_Type": "Desktop",
+        "Device_Name": "PC1088",
+        "Device_Code_Name": "PC1088",
+        "Device_Maker": "Honlin",
+        "Device_Pointing_Method": "mouse",
+        "Device_Brand_Name": "Honlin",
+        "isMobileDevice": "false",
+        "isTablet": "false"
       }
     }
   }

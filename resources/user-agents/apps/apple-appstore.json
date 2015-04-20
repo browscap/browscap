@@ -37,7 +37,7 @@
       },
       "children": [
         {
-          "match": "AppStore\/#MAJORVER#.#MINORVER##PLATFORM#model/iPhone*",
+          "match": "AppStore\/#MAJORVER#.#MINORVER##PLATFORM#model\/iPhone*",
           "device": "iPhone",
           "platforms": [
             "iOS_I_7_0", "iOS_I_7_1", "iOS_I_8_0", "iOS_I"

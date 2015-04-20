@@ -2931,7 +2931,7 @@
           "match": "BUbiNG*",
           "properties": {
             "Browser": "BUbiNG Bot",
-            "Browser_Maker": "http://law.di.unimi.it"
+            "Browser_Maker": "http:\/\/law.di.unimi.it"
           }
         },
         {
@@ -3346,7 +3346,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; MerchantCentricBot/1.0*",
+          "match": "Mozilla\/5.0 (compatible; MerchantCentricBot\/1.0*",
           "properties": {
             "Browser": "MerchantCentricBot",
             "Version": "1.0",
@@ -3355,7 +3355,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; MerchantCentricBot/*",
+          "match": "Mozilla\/5.0 (compatible; MerchantCentricBot\/*",
           "properties": {
             "Browser": "MerchantCentricBot"
           }

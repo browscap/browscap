@@ -50,6 +50,7 @@
         {
           "match": "Opera\/*(*iPad*Opera Mini\/#MAJORVER#.*)*",
           "device": "iPad",
+          "engine": "WebKit",
           "platforms": [
             "iOS"
           ]
@@ -57,6 +58,7 @@
         {
           "match": "Opera\/*(*iPhone*Opera Mini\/#MAJORVER#.*)*",
           "device": "iPhone",
+          "engine": "WebKit",
           "platforms": [
             "iOS"
           ]
@@ -102,7 +104,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (iPhone#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) OPiOS\/#MAJORVER#.* Mobile\/* Safari/*",
+          "match": "Mozilla\/5.0 (iPhone#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) OPiOS\/#MAJORVER#.* Mobile\/* Safari\/*",
           "engine": "WebKit",
           "device": "iPhone",
           "platforms": [
@@ -111,7 +113,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) OPiOS\/#MAJORVER#.* Mobile\/* Safari/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) OPiOS\/#MAJORVER#.* Mobile\/* Safari\/*",
           "engine": "WebKit",
           "platforms": [
             "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0", "iOS_A_8_1",

@@ -2322,7 +2322,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#NT-3601P/3602P Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#NT-3601P\/3602P Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "device": "iconBIT NetTAB Pocket 3G",
           "platforms": [
             "Android_4_2"

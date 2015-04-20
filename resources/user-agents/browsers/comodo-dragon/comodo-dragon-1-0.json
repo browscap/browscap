@@ -12,7 +12,7 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Comodo Dragon #MAJORVER#.#MINORVER#",
-        "Browser": "Comodo Dragon",
+        "Browser": "Dragon",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",

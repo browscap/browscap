@@ -61,7 +61,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I9195 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Chrome\/*Safari\/* MxBrowser\/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SM-N900",
+          "device": "Samsung GT-I9195",
           "engine": "Blink",
           "platforms": [
             "Android_4_4"

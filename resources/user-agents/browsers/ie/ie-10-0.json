@@ -139,13 +139,13 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible; MSIE 10.0; Windows 95; Anonymisiert*Trident/6.0*)*",
+          "match": "Mozilla\/5.0 (compatible; MSIE 10.0; Windows 95; Anonymisiert*Trident\/6.0*)*",
           "platforms": [
             "Win8_32"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible; MSIE #MAJORVER#.#MINORVER#*; #PLATFORM#Trident/6.0; Xbox; Xbox One*",
+          "match": "Mozilla\/5.0 (compatible; MSIE #MAJORVER#.#MINORVER#*; #PLATFORM#Trident\/6.0; Xbox; Xbox One*",
           "device": "Microsoft Xbox One",
           "platforms": [
             "Win8_x64", "Win8_64", "Win8_32"
