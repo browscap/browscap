@@ -66,7 +66,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#HL-PC1088 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
+          "match": "Mozilla\/5.0 (#PLATFORM#HL-PC1088 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
           "engine": "WebKit",
           "device": "Honlin PC1088",
           "platforms": [

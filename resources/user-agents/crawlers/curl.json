@@ -26,6 +26,7 @@
         },
         {
           "match": "curl\/7.19#PLATFORM#",
+          "device": "Linux Desktop",
           "properties": {
             "Version": "7.19",
             "MajorVer": "7",
@@ -41,6 +42,26 @@
             "Version": "7.19",
             "MajorVer": "7",
             "MinorVer": "19"
+          }
+        },
+        {
+          "match": "curl\/7.15#PLATFORM#",
+          "device": "Linux Desktop",
+          "properties": {
+            "Version": "7.15",
+            "MajorVer": "7",
+            "MinorVer": "15"
+          },
+          "platforms": [
+            "Linux", "Linux_64_B"
+          ]
+        },
+        {
+          "match": "curl\/7.15",
+          "properties": {
+            "Version": "7.15",
+            "MajorVer": "7",
+            "MinorVer": "15"
           }
         },
         {
