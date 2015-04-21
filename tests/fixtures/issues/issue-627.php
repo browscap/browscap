@@ -29,9 +29,9 @@ return [
             'Device_Pointing_Method' => 'touchscreen',
             'Device_Code_Name' => 'GT-S6102',
             'Device_Brand_Name' => 'Samsung',
-            'RenderingEngine_Name' => 'U3',
+            'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'UC Web',
+            'RenderingEngine_Maker' => 'unknown',
         ],
     ],
 ];
