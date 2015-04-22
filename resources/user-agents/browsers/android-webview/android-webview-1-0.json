@@ -4034,13 +4034,6 @@
           ]
         },
         {
-          "match": "Tablet-PC-4.1-Mozilla\/5.0 (#PLATFORM#ADM8000KP_A Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER# Safari*",
-          "device": "CatSound Tablet PC 4",
-          "platforms": [
-            "Android_4_1"
-          ]
-        },
-        {
           "match": "Mozilla\/5.0 (#PLATFORM#C6503 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "SonyEricsson C6503",
           "platforms": [

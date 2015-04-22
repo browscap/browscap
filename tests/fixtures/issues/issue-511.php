@@ -1341,7 +1341,7 @@ return [
             'Device_Code_Name' => 'general Mobile Phone',
             'Device_Brand_Name' => 'unknown',
             'RenderingEngine_Name' => 'Gecko',
-            'RenderingEngine_Version' => '33.1',
+            'RenderingEngine_Version' => '33.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
     ],
