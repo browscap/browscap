@@ -3612,6 +3612,18 @@
         "isTablet": "false"
       }
     },
+    "Samsung GT-S7390": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GT-S7390",
+        "Device_Name": "Galaxy Trend Lite",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Samsung GT-M8910": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -7255,7 +7267,7 @@
         "Device_Name": "Galaxy Nexus",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -10675,7 +10687,7 @@
         "Device_Name": "Windows Phone 8X",
         "Device_Maker": "HTC",
         "Device_Brand_Name": "HTC",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -14141,6 +14153,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "VS880",
         "Device_Name": "G Vista (Verizon)",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG D280": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "D280",
+        "Device_Name": "D280",
         "Device_Maker": "LG",
         "Device_Brand_Name": "LG",
         "Device_Pointing_Method": "touchscreen",
@@ -18636,6 +18660,30 @@
         "isTablet": "false"
       }
     },
+    "Alcatel OT-6030X": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "OT-6030X",
+        "Device_Name": "One Touch Idol",
+        "Device_Maker": "Alcatel",
+        "Device_Brand_Name": "Alcatel",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Alcatel OT-TAB7HD": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "OT-TAB7HD",
+        "Device_Name": "One Touch Tab 7HD",
+        "Device_Maker": "Alcatel",
+        "Device_Brand_Name": "Alcatel",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Fairphone FP1": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -19686,7 +19734,7 @@
         "Device_Code_Name": "S2110AF",
         "Device_Name": "IdeaTab S2110AF",
         "Device_Maker": "Lenovo",
-        "Device_Brand_Name": "Vodafone",
+        "Device_Brand_Name": "Lenovo",
         "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
@@ -19710,7 +19758,7 @@
         "Device_Code_Name": "S6000L-F",
         "Device_Name": "IdeaTab S6000-F Wi-Fi, 16GB",
         "Device_Maker": "Lenovo",
-        "Device_Brand_Name": "Vodafone",
+        "Device_Brand_Name": "Lenovo",
         "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
@@ -19734,7 +19782,7 @@
         "Device_Code_Name": "A3000-H",
         "Device_Name": "IdeaTab A3000-H",
         "Device_Maker": "Lenovo",
-        "Device_Brand_Name": "Vodafone",
+        "Device_Brand_Name": "Lenovo",
         "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
@@ -20897,6 +20945,18 @@
         "Device_Type": "Tablet",
         "Device_Code_Name": "ST10216-2",
         "Device_Name": "ST10216-2",
+        "Device_Maker": "TrekStor",
+        "Device_Brand_Name": "TrekStor",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "TrekStor SurfTab Breeze 10.1 Quad": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "SurfTab Breeze 10.1 Quad",
+        "Device_Name": "SurfTab Breeze 10.1 Quad",
         "Device_Maker": "TrekStor",
         "Device_Brand_Name": "TrekStor",
         "Device_Pointing_Method": "touchscreen",
@@ -23088,6 +23148,18 @@
         "isTablet": "false"
       }
     },
+    "Cubot U30GT": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "U30GT",
+        "Device_Code_Name": "U30GT",
+        "Device_Maker": "Cubot",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Cubot",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Tolino Tab 8.9": {
       "properties": {
         "Device_Type": "Tablet",
@@ -24526,6 +24598,30 @@
         "Device_Brand_Name": "Honlin",
         "isMobileDevice": "false",
         "isTablet": "false"
+      }
+    },
+    "Vodafone Smart Tab 4": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "Smart Tab 4",
+        "Device_Code_Name": "Smart Tab 4",
+        "Device_Maker": "Vodafone",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Vodafone",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Comag WTDR1018": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "WTDR1018",
+        "Device_Code_Name": "WTDR1018",
+        "Device_Maker": "Comag",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Comag",
+        "isMobileDevice": "true",
+        "isTablet": "true"
       }
     }
   }
