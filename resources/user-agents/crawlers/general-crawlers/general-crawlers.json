@@ -3830,6 +3830,21 @@
             "Browser": "worldwebheritage.org Bot",
             "Browser_Maker": "GoDaddy, LLC"
           }
+        },
+        {
+          "match": "mbot v.1.16*",
+          "properties": {
+            "Browser": "mbot",
+            "Version": "1.16",
+            "MajorVer": "1",
+            "MinorVer": "16"
+          }
+        },
+        {
+          "match": "mbot*",
+          "properties": {
+            "Browser": "mbot"
+          }
         }
       ]
     }
