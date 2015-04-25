@@ -115,6 +115,7 @@ class BuildHelper
             $section = $sections[$sectionName];
 
             $writerCollection
+                ->setSilent($division)
                 ->renderSectionHeader($sectionName)
                 ->renderSectionBody($section, $collection, $sections, $sectionName)
                 ->renderSectionFooter($sectionName)
@@ -198,6 +199,7 @@ class BuildHelper
             $section = $sections[$sectionName];
 
             $writerCollection
+                ->setSilent($division)
                 ->renderSectionHeader($sectionName)
                 ->renderSectionBody($section, $collection, $sections, $sectionName)
                 ->renderSectionFooter($sectionName)
