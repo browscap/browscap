@@ -1113,10 +1113,58 @@
           }
         },
         {
+          "match": "python-requests\/2.5* CPython\/#PLATFORM#",
+          "device": "Linux Desktop",
+          "properties": {
+            "Browser": "python-requests",
+            "Browser_Maker": "Python Software Foundation",
+            "Version": "2.5",
+            "MajorVer": "2",
+            "MinorVer": "5"
+          },
+          "platforms": [
+            "Linux_64", "Linux_32", "Linux"
+          ]
+        },
+        {
+          "match": "python-requests\/2.5*",
+          "properties": {
+            "Browser": "python-requests",
+            "Browser_Maker": "Python Software Foundation",
+            "Version": "2.5",
+            "MajorVer": "2",
+            "MinorVer": "5"
+          }
+        },
+        {
+          "match": "python-requests\/2.4* CPython\/#PLATFORM#",
+          "device": "Linux Desktop",
+          "properties": {
+            "Browser": "python-requests",
+            "Browser_Maker": "Python Software Foundation",
+            "Version": "2.4",
+            "MajorVer": "2",
+            "MinorVer": "4"
+          },
+          "platforms": [
+            "Linux_64", "Linux_32", "Linux"
+          ]
+        },
+        {
+          "match": "python-requests\/2.4*",
+          "properties": {
+            "Browser": "python-requests",
+            "Browser_Maker": "Python Software Foundation",
+            "Version": "2.4",
+            "MajorVer": "2",
+            "MinorVer": "4"
+          }
+        },
+        {
           "match": "python-requests\/2.3* CPython\/#PLATFORM#",
           "device": "Linux Desktop",
           "properties": {
-            "Browser": "Python-urllib",
+            "Browser": "python-requests",
             "Browser_Maker": "Python Software Foundation",
             "Version": "2.3",
             "MajorVer": "2",
@@ -1129,7 +1177,7 @@
         {
           "match": "python-requests\/2.3*",
           "properties": {
-            "Browser": "Python-urllib",
+            "Browser": "python-requests",
             "Browser_Maker": "Python Software Foundation",
             "Version": "2.3",
             "MajorVer": "2",
@@ -1140,7 +1188,7 @@
           "match": "python-requests\/2.2* CPython\/#PLATFORM#",
           "device": "Linux Desktop",
           "properties": {
-            "Browser": "Python-urllib",
+            "Browser": "python-requests",
             "Browser_Maker": "Python Software Foundation",
             "Version": "2.2",
             "MajorVer": "2",
@@ -1153,7 +1201,7 @@
         {
           "match": "python-requests\/2.2*",
           "properties": {
-            "Browser": "Python-urllib",
+            "Browser": "python-requests",
             "Browser_Maker": "Python Software Foundation",
             "Version": "2.2",
             "MajorVer": "2",
@@ -1164,7 +1212,7 @@
           "match": "python-requests\/2.1* CPython\/#PLATFORM#",
           "device": "Linux Desktop",
           "properties": {
-            "Browser": "Python-urllib",
+            "Browser": "python-requests",
             "Browser_Maker": "Python Software Foundation",
             "Version": "2.1",
             "MajorVer": "2",
@@ -1177,7 +1225,7 @@
         {
           "match": "python-requests\/2.1*",
           "properties": {
-            "Browser": "Python-urllib",
+            "Browser": "python-requests",
             "Browser_Maker": "Python Software Foundation",
             "Version": "2.1",
             "MajorVer": "2",
@@ -1188,7 +1236,7 @@
           "match": "python-requests\/2.0* CPython\/#PLATFORM#",
           "device": "Linux Desktop",
           "properties": {
-            "Browser": "Python-urllib",
+            "Browser": "python-requests",
             "Browser_Maker": "Python Software Foundation",
             "Version": "2.0",
             "MajorVer": "2",
@@ -1201,7 +1249,7 @@
         {
           "match": "python-requests\/2.0*",
           "properties": {
-            "Browser": "Python",
+            "Browser": "python-requests",
             "Browser_Maker": "Python Software Foundation",
             "Version": "2.0",
             "MajorVer": "2",
@@ -1209,9 +1257,20 @@
           }
         },
         {
+          "match": "python-requests\/* CPython\/#PLATFORM#",
+          "device": "Linux Desktop",
+          "properties": {
+            "Browser": "python-requests",
+            "Browser_Maker": "Python Software Foundation"
+          },
+          "platforms": [
+            "Linux_64", "Linux_32", "Linux"
+          ]
+        },
+        {
           "match": "python-requests\/*",
           "properties": {
-            "Browser": "Python",
+            "Browser": "python-requests",
             "Browser_Maker": "Python Software Foundation"
           }
         },

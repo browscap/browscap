@@ -3402,6 +3402,13 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#Vodafone Smart 4G Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "device": "HTC PJ401",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#HTC One Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "device": "HTC M7",
           "platforms": [
@@ -5319,7 +5326,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#CUBOT P9 Build\/*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "Odys Neo Quad 10",
+          "device": "Cube U30GT",
           "platforms": [
             "Android_4_2"
           ]

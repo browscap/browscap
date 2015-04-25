@@ -4698,7 +4698,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#SM-G850F Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-G850F* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Samsung SM-G850F",
           "platforms": [
             "Android_4_4"

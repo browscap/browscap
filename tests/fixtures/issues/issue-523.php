@@ -4723,7 +4723,7 @@ return [
             'Device_Type' => 'Tablet',
             'Device_Pointing_Method' => 'touchscreen',
             'Device_Code_Name' => 'S6000L-F',
-            'Device_Brand_Name' => 'Vodafone',
+            'Device_Brand_Name' => 'Lenovo',
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
