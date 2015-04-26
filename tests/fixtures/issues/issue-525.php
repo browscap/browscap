@@ -4273,10 +4273,10 @@ return [
     'issue-525-DZ' => [
         'Mozilla/5.0 (PlayStation 4 2.00) AppleWebKit/537.73 (KHTML, like Gecko)',
         [
-            'Browser' => 'Playstation Browser',
+            'Browser' => 'NetFront',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
-            'Browser_Maker' => 'Sony',
+            'Browser_Maker' => 'Access',
             'Version' => '0.0',
             'MajorVer' => '0',
             'MinorVer' => '0',

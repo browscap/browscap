@@ -14,12 +14,6 @@
       },
       "children": [
         {
-          "match": "*CFNetwork*",
-          "properties": {
-            "Browser": "CFNetwork"
-          }
-        },
-        {
           "match": "*PhotoStickies\/*",
           "properties": {
             "Browser": "PhotoStickies"

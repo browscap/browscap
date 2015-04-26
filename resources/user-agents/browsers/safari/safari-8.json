@@ -103,7 +103,7 @@
       },
       "children": [
         {
-          "match": "MobileSafari\/100??.* CFNetwork\/* Darwin\/*",
+          "match": "Safari\/100??.* CFNetwork\/* Darwin\/*",
           "platforms": [
             "Darwin"
           ]

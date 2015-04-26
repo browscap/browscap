@@ -98,12 +98,6 @@
           }
         },
         {
-          "match": "CFNetwork\/*",
-          "properties": {
-            "Browser": "CFNetwork"
-          }
-        },
-        {
           "match": "CFSCHEDULE*",
           "properties": {
             "Browser": "ColdFusion Task Scheduler"

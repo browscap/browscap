@@ -25,6 +25,36 @@
           "properties": {
             "Browser": "AdSense Snapshot Bot"
           }
+        },
+        {
+          "match": "Mozilla\/5.0 (iPhone#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/*Safari\/* (compatible; Mediapartners-Google/2.1*",
+          "device":"iPhone",
+          "engine": "WebKit",
+          "properties": {
+            "Version": "2.1",
+            "MajorVer": "2",
+            "MinorVer": "1"
+          },
+          "platforms": [
+            "iOS_C_4_1", "iOS_C_4_2", "iOS_C_4_3", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_1",
+            "iOS_C_8_0",
+            "iOS_C"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/*Safari\/* (compatible; Mediapartners-Google/2.1*",
+          "device":"general Mobile Device (Apple)",
+          "engine": "WebKit",
+          "properties": {
+            "Version": "2.1",
+            "MajorVer": "2",
+            "MinorVer": "1"
+          },
+          "platforms": [
+            "iOS_C_4_1", "iOS_C_4_2", "iOS_C_4_3", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_1",
+            "iOS_C_8_0",
+            "iOS_C"
+          ]
         }
       ]
     }

@@ -71,24 +71,21 @@
           "match": "*WinHttpRequest*",
           "properties": {
             "Browser": "WinHttp",
-            "Browser_Maker": "Microsoft Corporation",
-            "Browser_Type": "Bot/Crawler"
+            "Browser_Maker": "Microsoft Corporation"
           }
         },
         {
           "match": "WinHTTP*",
           "properties": {
             "Browser": "WinHttp",
-            "Browser_Maker": "Microsoft Corporation",
-            "Browser_Type": "Bot/Crawler"
+            "Browser_Maker": "Microsoft Corporation"
           }
         },
         {
           "match": "WinHttp*",
           "properties": {
             "Browser": "WinHttp",
-            "Browser_Maker": "Microsoft Corporation",
-            "Browser_Type": "Bot/Crawler"
+            "Browser_Maker": "Microsoft Corporation"
           }
         }
       ]
