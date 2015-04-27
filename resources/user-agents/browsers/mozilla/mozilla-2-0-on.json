@@ -39,7 +39,7 @@
           "device": "Windows Desktop",
           "platforms": [
             "Win3.11", "Win3.1", "Win95", "Win98", "WinME", "NT4_B", "Win2000", "WinXPa_32",
-            "WinXPb_32", "Vista_32", "Win7_32"
+            "WinXPb_32", "Vista_32", "Win7_32", "Win8_64", "Win8_32"
           ]
         },
         {

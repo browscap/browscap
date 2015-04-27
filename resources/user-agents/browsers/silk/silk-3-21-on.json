@@ -57,6 +57,14 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#SD4930UR Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* like Chrome\/* Safari*",
+          "engine": "Blink",
+          "device": "Amazon SD4930UR",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* like Chrome\/* Safari*",
           "engine": "Blink",
           "platforms": [

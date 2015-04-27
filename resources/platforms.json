@@ -861,6 +861,13 @@
         "Platform_Version": "10.04"
       }
     },
+    "Ubuntu_10_10": {
+      "match": "*Ubuntu\/10.10*",
+      "inherits": "Ubuntu",
+      "properties": {
+        "Platform_Version": "10.10"
+      }
+    },
     "Ubuntu_12_04": {
       "match": "*Ubuntu\/12.04*",
       "inherits": "Ubuntu",
@@ -890,6 +897,15 @@
       "inherits": "Ubuntu",
       "properties": {
         "Platform_Version": "10.04",
+        "Browser_Bits": "64",
+        "Platform_Bits": "64"
+      }
+    },
+    "Ubuntu_10_10_64": {
+      "match": "*Ubuntu\/10.10*",
+      "inherits": "Ubuntu",
+      "properties": {
+        "Platform_Version": "10.10",
         "Browser_Bits": "64",
         "Platform_Bits": "64"
       }
@@ -1063,6 +1079,18 @@
       "properties": {
         "Platform": "WinNT",
         "Platform_Bits": "64",
+        "Platform_Description": "Windows NT",
+        "Win32": "false",
+        "Win64": "true"
+      }
+    },
+    "NT40_64": {
+      "match": "*Windows NT 4.0; *WOW64*",
+      "inherits": "Windows",
+      "properties": {
+        "Platform": "WinNT",
+        "Platform_Bits": "64",
+        "Platform_Version": "4.0",
         "Platform_Description": "Windows NT",
         "Win32": "false",
         "Win64": "true"

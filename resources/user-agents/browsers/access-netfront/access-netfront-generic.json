@@ -45,7 +45,10 @@
         },
         {
           "match": "Mozilla\/* (PlayStation 4*",
-          "device": "Sony PS4"
+          "device": "Sony PS4",
+          "platforms": [
+            "CellOS"
+          ]
         }
       ]
     }

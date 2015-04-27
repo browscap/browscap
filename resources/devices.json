@@ -1327,7 +1327,7 @@
         "Device_Name": "Xperia Z",
         "Device_Maker": "SonyEricsson",
         "Device_Brand_Name": "SonyEricsson",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -4841,6 +4841,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SGH-I547",
         "Device_Name": "SGH-I547",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung SGH-I337": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SGH-I337",
+        "Device_Name": "Galaxy S4 (AT&T)",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "touchscreen",
@@ -14172,6 +14184,18 @@
         "isTablet": "false"
       }
     },
+    "LG D855": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "D855",
+        "Device_Name": "G2",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "1 & 1 Smartpad": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -14789,6 +14813,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "X4701",
         "Device_Name": "X4701",
+        "Device_Maker": "Medion",
+        "Device_Brand_Name": "Medion",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Medion P4501": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "P4501",
+        "Device_Name": "Life P4501",
         "Device_Maker": "Medion",
         "Device_Brand_Name": "Medion",
         "Device_Pointing_Method": "touchscreen",
@@ -15442,6 +15478,18 @@
         "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
+      }
+    },
+    "Amazon SD4930UR": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SD4930UR",
+        "Device_Name": "Fire Phone",
+        "Device_Maker": "Amazon.com, Inc.",
+        "Device_Brand_Name": "Amazon",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
       }
     },
     "Archos A70BH": {
@@ -20791,7 +20839,7 @@
         "Device_Name": "U30GT",
         "Device_Maker": "Cube",
         "Device_Brand_Name": "Cube",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
