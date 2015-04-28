@@ -260,6 +260,19 @@
           "platforms": [
             "JAVA"
           ]
+        },
+        {
+          "match": "dv(GT-S6102);pr(UCBrowser\/#MAJORVER#.#MINORVER#*);ov(Android 2.3.6)*",
+          "device": "Samsung GT-S6102",
+          "platforms": [
+            "Android_2_3"
+          ]
+        },
+        {
+          "match": "dv(*);pr(UCBrowser\/#MAJORVER#.#MINORVER#*);ov(Android*",
+          "platforms": [
+            "Android"
+          ]
         }
       ]
     },
