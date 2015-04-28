@@ -3832,6 +3832,21 @@
           }
         },
         {
+          "match": "uipbot\/1.0*",
+          "properties": {
+            "Browser": "Uipbot",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "uipbot\/*",
+          "properties": {
+            "Browser": "Uipbot"
+          }
+        },
+        {
           "match": "mbot v.1.16*",
           "properties": {
             "Browser": "mbot",
