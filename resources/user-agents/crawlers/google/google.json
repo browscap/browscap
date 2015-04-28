@@ -24,7 +24,22 @@
           "match": "Kml-Google; (+http:\/\/code.google.com\/apis\/kml)*"
         },
         {
-          "match": "Mozilla\/4.0 (compatible; GoogleToolbar*)"
+          "match": "Mozilla\/4.0 (compatible; GoogleToolbar 7.5#PLATFORM#",
+          "properties": {
+            "Browser": "Google Toolbar",
+            "Version": "7.5",
+            "MajorVer": "7",
+            "MinorVer": "5"
+          },
+          "platforms": [
+            "WinXPa_v2"
+          ]
+        },
+        {
+          "match": "Mozilla\/4.0 (compatible; GoogleToolbar*",
+          "properties": {
+            "Browser": "Google Toolbar"
+          }
         },
         {
           "match": "Mozilla\/5.0 (*) AppleWebKit\/* (KHTML, like Gecko; *) Version\/3.1 Safari\/*"

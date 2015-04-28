@@ -1,17 +1,17 @@
 {
-  "division": "Opera Coast",
+  "division": "Coast",
   "sortIndex": 1945,
   "lite": true,
   "userAgents": [
     {
-      "userAgent": "Opera Coast",
+      "userAgent": "Coast",
       "engine": "WebKit",
       "platform": "iOS",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Opera Coast",
-        "Browser": "Opera Coast",
+        "Comment": "Coast",
+        "Browser": "Coast",
         "Browser_Type": "Application",
         "Browser_Maker": "Opera Software ASA",
         "Frames": "true",
