@@ -25,6 +25,7 @@
         },
         {
           "match": "Mozilla\/4.0 (compatible; GoogleToolbar 7.5#PLATFORM#",
+          "device": "Windows Desktop",
           "properties": {
             "Browser": "Google Toolbar",
             "Version": "7.5",

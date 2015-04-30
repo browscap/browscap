@@ -86,8 +86,9 @@
     },
     {
       "userAgent": "Safari #MAJORVER#.#MINORVER# for Darwin",
-      "device": "general Mobile Device",
       "platform": "Darwin",
+      "engine": "WebKit",
+      "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Safari #MAJORVER#.#MINORVER#",

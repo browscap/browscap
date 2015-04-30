@@ -67,7 +67,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I9100 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/* OPR\/#MAJORVER#.*",
           "device": "GT-I9100",
           "platforms": [
-            "Android_4_1"
+            "Android_4_1", "Android_4_1_E"
           ]
         },
         {

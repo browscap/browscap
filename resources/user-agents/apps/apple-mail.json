@@ -115,7 +115,7 @@
       "userAgent": "Apple Mail for Windows",
       "platform": "Darwin",
       "engine": "WebKit",
-      "device": "Windows Desktop",
+      "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Apple Mail",
