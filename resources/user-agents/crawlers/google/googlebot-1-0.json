@@ -22,7 +22,7 @@
       },
       "children": [
         {
-          "match": "Google\/#MAJORVER#.#MINORVER#* CFNetwork\/* #PLATFORM#",
+          "match": "Google\/#MAJORVER#.#MINORVER#* CFNetwork\/#PLATFORM#",
           "platforms": [
             "Darwin"
           ]

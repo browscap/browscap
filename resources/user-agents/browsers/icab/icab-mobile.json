@@ -25,7 +25,7 @@
       },
       "children": [
         {
-          "match": "iCabMobile\/#MAJORVER#.#MINORVER#* CFNetwork\/* #PLATFORM#",
+          "match": "iCabMobile\/#MAJORVER#.#MINORVER#* CFNetwork\/#PLATFORM#",
           "platforms": [
             "Darwin"
           ]

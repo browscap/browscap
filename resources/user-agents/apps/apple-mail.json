@@ -95,7 +95,7 @@
       },
       "children": [
         {
-          "match": "Mail\/* CFNetwork\/* #PLATFORM#",
+          "match": "Mail\/* CFNetwork\/#PLATFORM#",
           "platforms": [
             "Darwin"
           ]

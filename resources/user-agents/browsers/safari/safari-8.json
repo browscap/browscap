@@ -107,9 +107,9 @@
       },
       "children": [
         {
-          "match": "Safari\/10???.* CFNetwork\/* Darwin\/*",
+          "match": "Safari\/10???.* CFNetwork\/#PLATFORM#",
           "platforms": [
-            "Darwin"
+            "Darwin_64", "Darwin"
           ]
         }
       ]

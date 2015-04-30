@@ -32,7 +32,7 @@
       },
       "children": [
         {
-          "match": "billigFluegeFinal\/1.6* CFNetwork\/* #PLATFORM#",
+          "match": "billigFluegeFinal\/1.6* CFNetwork\/#PLATFORM#",
           "properties": {
             "Version": "1.6",
             "MajorVer": "1",
@@ -43,7 +43,7 @@
           ]
         },
         {
-          "match": "billigFluegeFinal* CFNetwork\/* #PLATFORM#",
+          "match": "billigFluegeFinal* CFNetwork\/#PLATFORM#",
           "platforms": [
             "Darwin"
           ]

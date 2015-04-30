@@ -18,7 +18,7 @@
       },
       "children": [
         {
-          "match": "Bing\/2.2* CFNetwork\/* #PLATFORM#",
+          "match": "Bing\/2.2* CFNetwork\/#PLATFORM#",
           "properties": {
             "Version": "2.2",
             "MajorVer": "2",
@@ -40,7 +40,7 @@
           "match": "Mozilla\/5.0 (compatible;*bingbot\/*"
         },
         {
-          "match": "Bing\/* CFNetwork\/* #PLATFORM#",
+          "match": "Bing\/* CFNetwork\/#PLATFORM#",
           "platforms": [
             "Darwin"
           ]
