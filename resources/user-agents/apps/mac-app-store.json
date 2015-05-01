@@ -1,0 +1,57 @@
+{
+  "division": "MacAppStore",
+  "sortIndex": 6361,
+  "lite": false,
+  "userAgents": [
+    {
+      "userAgent": "MacAppStore",
+      "platform": "OSX",
+      "engine": "WebKit",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "MacAppStore",
+        "Browser": "MacAppStore",
+        "Browser_Type": "Application",
+        "Browser_Maker": "Apple Inc",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Frames": "false",
+        "IFrames": "false",
+        "Tables": "false",
+        "Cookies": "false",
+        "BackgroundSounds": "false",
+        "JavaScript": "false",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false"
+      },
+      "children": [
+        {
+          "match": "MacAppStore\/2.0 (#PLATFORM#) AppleWebKit\/*",
+          "device": "Macintosh",
+          "properties": {
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0"
+          },
+          "platforms": [
+            "OSX_10_8_B", "OSX_10_9_B", "OSX_10_10_B", "OSX"
+          ]
+        },
+        {
+          "match": "MacAppStore\/* (#PLATFORM#) AppleWebKit\/*",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX_10_8_B", "OSX_10_9_B", "OSX_10_10_B", "OSX"
+          ]
+        }
+      ]
+    }
+  ]
+}
