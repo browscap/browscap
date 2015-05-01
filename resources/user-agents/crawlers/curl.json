@@ -87,6 +87,12 @@
             "Browser": "WinHttp",
             "Browser_Maker": "Microsoft Corporation"
           }
+        },
+        {
+          "match": "TrendWinHttp*",
+          "properties": {
+            "Browser": "TrendWinHttp"
+          }
         }
       ]
     }

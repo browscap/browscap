@@ -113,9 +113,9 @@
     },
     {
       "userAgent": "Apple Mail for Windows",
-      "platform": "Darwin",
+      "platform": "Windows",
       "engine": "WebKit",
-      "device": "Macintosh",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Apple Mail",

@@ -4289,7 +4289,7 @@ return [
             'Crawler' => false,
             'JavaScript' => true,
             'Cookies' => true,
-            'Frames' => false,
+            'Frames' => true,
             'IFrames' => true,
             'Tables' => true,
             'Device_Name' => 'Playstation 4',
