@@ -17,7 +17,7 @@ return [
             'Platform_Maker' => 'Apple Inc',
             'isMobileDevice' => false,
             'isTablet' => false,
-            'Crawler' => true,
+            'Crawler' => false,
             'JavaScript' => false,
             'Cookies' => false,
             'Frames' => false,
