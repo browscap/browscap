@@ -41,14 +41,14 @@
             "MinorVer": "0"
           },
           "platforms": [
-            "OSX_10_8_B", "OSX_10_9_B", "OSX_10_10_B", "OSX"
+            "OSX_10_8_C", "OSX_10_9_C", "OSX_10_10_C", "OSX_C"
           ]
         },
         {
           "match": "MacAppStore\/* (#PLATFORM#) AppleWebKit\/*",
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_8_B", "OSX_10_9_B", "OSX_10_10_B", "OSX"
+            "OSX_10_8_C", "OSX_10_9_C", "OSX_10_10_C", "OSX_C"
           ]
         }
       ]

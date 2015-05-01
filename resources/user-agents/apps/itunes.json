@@ -77,7 +77,7 @@
             "MinorVer": "1"
           },
           "platforms": [
-            "OSX_10_8_B", "OSX_10_9_B", "OSX_10_10_B", "OSX"
+            "OSX_10_8_C", "OSX_10_9_C", "OSX_10_10_C", "OSX_C"
           ]
         },
         {
@@ -101,7 +101,7 @@
             "MinorVer": "2"
           },
           "platforms": [
-            "OSX_10_8_B", "OSX_10_9_B", "OSX_10_10_B", "OSX"
+            "OSX_10_8_C", "OSX_10_9_C", "OSX_10_10_C", "OSX_C"
           ]
         },
         {
@@ -125,7 +125,7 @@
             "MinorVer": "3"
           },
           "platforms": [
-            "OSX_10_8_B", "OSX_10_9_B", "OSX_10_10_B", "OSX"
+            "OSX_10_8_C", "OSX_10_9_C", "OSX_10_10_C", "OSX_C"
           ]
         },
         {
@@ -149,7 +149,7 @@
             "MinorVer": "0"
           },
           "platforms": [
-            "OSX_10_8_B", "OSX_10_9_B", "OSX_10_10_B", "OSX"
+            "OSX_10_8_C", "OSX_10_9_C", "OSX_10_10_C", "OSX_C"
           ]
         },
         {
@@ -162,6 +162,13 @@
           },
           "platforms": [
             "Win32"
+          ]
+        },
+        {
+          "match": "iTunes\/* (#PLATFORM#",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX_10_8_C", "OSX_10_9_C", "OSX_10_10_C", "OSX_C"
           ]
         },
         {
