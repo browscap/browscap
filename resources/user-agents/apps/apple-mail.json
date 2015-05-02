@@ -95,7 +95,7 @@
       },
       "children": [
         {
-          "match": "Mail\/* CFNetwork\/* #PLATFORM#",
+          "match": "Mail\/* CFNetwork\/#PLATFORM#",
           "platforms": [
             "Darwin"
           ]
@@ -113,7 +113,7 @@
     },
     {
       "userAgent": "Apple Mail for Windows",
-      "platform": "Darwin",
+      "platform": "Windows",
       "engine": "WebKit",
       "device": "Windows Desktop",
       "properties": {

@@ -16,7 +16,7 @@
       },
       "children": [
         {
-          "match": "XING-contenttabreceiver/2.0",
+          "match": "XING-contenttabreceiver\/2.0",
           "properties": {
             "Browser": "XING Contenttabreceiver",
             "Version": "2.0",
@@ -25,7 +25,7 @@
           }
         },
         {
-          "match": "XING-contenttabreceiver/*",
+          "match": "XING-contenttabreceiver\/*",
           "properties": {
             "Browser": "XING Contenttabreceiver"
           }

@@ -10,6 +10,7 @@
         "Comment": "Exabot-Images",
         "Browser": "Exabot-Images",
         "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "Dasault Systems",
         "Frames": "true",
         "Tables": "true",
         "Crawler": "true"

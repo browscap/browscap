@@ -599,9 +599,6 @@
           "match": "Mozilla\/5.0 (compatible; MSIE 9.1*"
         },
         {
-          "match": "Mozilla\/5.0 (Windows; U; MSIE 9.0; Windows NT 9.0; en-US)"
-        },
-        {
           "match": "Mozilla\/4.0(compatible;MSIE*"
         },
         {
@@ -617,7 +614,7 @@
           "match": "Mozilla\/5.0  (compatible; MSIE*"
         },
         {
-          "match": "*Trident/BD6*"
+          "match": "*Trident\/BD6*"
         },
         {
           "match": "Mozilla\/5.0 (compatible; MSIE 11*"

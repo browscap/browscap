@@ -1245,7 +1245,7 @@ return [
     'issue-436-AS' => [
         'python-requests/2.3.0 CPython/2.7.6 Linux/3.13.0-24-generic',
         [
-            'Browser' => 'Python-urllib',
+            'Browser' => 'python-requests',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Python Software Foundation',
@@ -1469,7 +1469,7 @@ return [
     'issue-436-BA' => [
         'python-requests/2.0.0 CPython/2.6.6 Linux/2.6.32-431.el6.x86_64',
         [
-            'Browser' => 'Python-urllib',
+            'Browser' => 'python-requests',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '64',
             'Browser_Maker' => 'Python Software Foundation',
@@ -2398,7 +2398,7 @@ return [
     'issue-436-CH' => [
         'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:22.0) Gecko/ /22.0',
         [
-            'Browser' => 'Firefox',
+            'Browser' => 'Mozilla',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Mozilla Foundation',
@@ -3092,7 +3092,7 @@ return [
             'Device_Type' => 'Tablet',
             'Device_Pointing_Method' => 'touchscreen',
             'Device_Code_Name' => 'S6000L-F',
-            'Device_Brand_Name' => 'Vodafone',
+            'Device_Brand_Name' => 'Lenovo',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',

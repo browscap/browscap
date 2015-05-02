@@ -452,7 +452,7 @@
           }
         },
         {
-          "match": "Mozilla/4.0 (compatible; T-H-U-N-D-E-R-S-T-O-N-E)*",
+          "match": "Mozilla\/4.0 (compatible; T-H-U-N-D-E-R-S-T-O-N-E)*",
           "properties": {
             "Browser": "Texis Webscript",
             "Browser_Maker": "Thunderstone Software LLC"

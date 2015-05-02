@@ -14,7 +14,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (compatible; imrbot/1.10*",
+          "match": "Mozilla\/5.0 (compatible; imrbot\/1.10*",
           "properties": {
             "Browser": "Mignify Bot",
             "Browser_Maker": "Internet Memory Research",
@@ -24,14 +24,14 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; imrbot/*",
+          "match": "Mozilla\/5.0 (compatible; imrbot\/*",
           "properties": {
             "Browser": "Mignify Bot",
             "Browser_Maker": "Internet Memory Research"
           }
         },
         {
-          "match": "Mozilla/5.0 (compatible; LucidWorks*",
+          "match": "Mozilla\/5.0 (compatible; LucidWorks*",
           "properties": {
             "Browser": "Lucidworks Bot",
             "Browser_Maker": "Lucidworks"

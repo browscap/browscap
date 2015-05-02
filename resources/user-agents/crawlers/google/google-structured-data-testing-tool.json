@@ -18,7 +18,7 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (#PLATFORM#Google-StructuredDataTestingTool; +http://www.google.com/webmasters/tools/richsnippets)",
+          "match": "Mozilla\/5.0 (#PLATFORM#Google-StructuredDataTestingTool; +http:\/\/www.google.com\/webmasters\/tools\/richsnippets)",
           "device": "Linux Desktop",
           "platforms": [
             "Linux_64", "Linux_32", "Linux"

@@ -92,7 +92,7 @@
           }
         },
         {
-          "match": "Sogou web spider/4.0*",
+          "match": "Sogou web spider\/4.0*",
           "properties": {
             "Browser": "Sogou Web Spider",
             "Version": "4.0",

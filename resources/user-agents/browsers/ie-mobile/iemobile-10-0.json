@@ -36,14 +36,14 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (compatible*; MSIE #MAJORVER#*; #PLATFORM# *Trident\/6.0; IEMobile\/#MAJORVER#*; ARM; Touch; HTC; Windows Phone 8S by HTC)",
+          "match": "Mozilla\/5.0 (compatible*; MSIE #MAJORVER#*; #PLATFORM# *Trident\/6.0; IEMobile\/#MAJORVER#*; ARM; Touch; HTC; Windows Phone 8S by HTC*)",
           "device": "HTC 8S",
           "platforms": [
             "WinPhone8"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible*; MSIE #MAJORVER#*; #PLATFORM# *Trident\/6.0; IEMobile\/#MAJORVER#*; ARM; Touch; HTC; Windows Phone 8X by HTC)",
+          "match": "Mozilla\/5.0 (compatible*; MSIE #MAJORVER#*; #PLATFORM# *Trident\/6.0; IEMobile\/#MAJORVER#*; ARM; Touch; HTC; Windows Phone 8X by HTC*)",
           "device": "HTC 8X",
           "platforms": [
             "WinPhone8"

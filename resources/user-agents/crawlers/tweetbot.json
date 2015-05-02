@@ -32,7 +32,7 @@
       },
       "children": [
         {
-          "match": "Tweetbot\/* CFNetwork\/* #PLATFORM#",
+          "match": "Tweetbot\/* CFNetwork\/#PLATFORM#",
           "platforms": [
             "Darwin"
           ]

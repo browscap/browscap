@@ -13,6 +13,7 @@
         "Parent": "DefaultProperties",
         "Comment": "iCab #MAJORVER#.#MINORVER#",
         "Browser": "iCab",
+        "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",

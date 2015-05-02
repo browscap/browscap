@@ -32,7 +32,7 @@
       },
       "children": [
         {
-          "match": "CoverScout* CFNetwork\/* #PLATFORM#",
+          "match": "CoverScout* CFNetwork\/#PLATFORM#",
           "platforms": [
             "Darwin"
           ]

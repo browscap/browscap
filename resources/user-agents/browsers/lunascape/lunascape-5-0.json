@@ -11,6 +11,8 @@
         "Parent": "DefaultProperties",
         "Comment": "Lunascape 5.0",
         "Browser": "Lunascape",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Lunascape Corporation",
         "Version": "5.0",
         "MajorVer": "5",
         "MinorVer": "0",

@@ -146,7 +146,7 @@
           }
         },
         {
-          "match": "integrity/*",
+          "match": "integrity\/*",
           "device": "Macintosh",
           "properties": {
             "Browser": "Integrity"
