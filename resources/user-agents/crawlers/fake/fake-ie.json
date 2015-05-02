@@ -74,9 +74,6 @@
           "match": "Mozilla\/?.0 (compatible; MSIE ?.0; Windows NT 7.1; Trident\/?.0*"
         },
         {
-          "match": "Mozilla\/4.0 (compatible; MSIE 9.0; Windows NT 6.1*"
-        },
-        {
           "match": "Mozilla\/4.0 (compatible- MSIE ?.0- *"
         },
         {
@@ -600,9 +597,6 @@
         },
         {
           "match": "Mozilla\/4.0(compatible;MSIE*"
-        },
-        {
-          "match": "Mozilla\/4.0 (compatible; MSIE 9.0*"
         },
         {
           "match": "Mozilla\/4.0 (compatible; MSIE 8.0; b2w 0.1)*"

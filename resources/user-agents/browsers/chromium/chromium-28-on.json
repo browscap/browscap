@@ -37,13 +37,13 @@
         {
           "match": "Mozilla\/5.0 (*Linux i686*) AppleWebKit\/* (KHTML, like Gecko)#PLATFORM#Chromium\/#MAJORVER#.*Chrome\/*Safari\/*",
           "platforms": [
-            "Ubuntu_12_04", "Ubuntu"
+            "Ubuntu_12_04"
           ]
         },
         {
           "match": "Mozilla\/5.0 (*Linux x86_64*) AppleWebKit\/* (KHTML, like Gecko)#PLATFORM#Chromium\/#MAJORVER#.*Chrome\/*Safari\/*",
           "platforms": [
-            "Ubuntu_12_04_64", "Ubuntu"
+            "Ubuntu_12_04_64"
           ]
         },
         {

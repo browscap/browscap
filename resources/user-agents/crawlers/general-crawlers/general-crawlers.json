@@ -322,7 +322,7 @@
           }
         },
         {
-          "match": "Mozilla\/*(*redditbot\/*http:\/\/www.reddit.com\/feedback*)",
+          "match": "Mozilla\/5.0*(*redditbot\/*http:\/\/www.reddit.com\/feedback*)",
           "properties": {
             "Browser": "Reddit"
           }
