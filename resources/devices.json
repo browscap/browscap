@@ -15708,6 +15708,18 @@
         "isTablet": "true"
       }
     },
+    "Archos 40b Titanium Surround": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "40b Titanium Surround",
+        "Device_Name": "40b Titanium Surround",
+        "Device_Maker": "Archos",
+        "Device_Brand_Name": "Archos",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Point of View Mobii 7": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -24672,6 +24684,18 @@
         "isTablet": "true"
       }
     },
+    "Vodafone Smart 4G": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Smart 4G",
+        "Device_Code_Name": "Smart 4G",
+        "Device_Maker": "Vodafone",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Vodafone",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Comag WTDR1018": {
       "properties": {
         "Device_Type": "Tablet",
@@ -24682,6 +24706,42 @@
         "Device_Brand_Name": "Comag",
         "isMobileDevice": "true",
         "isTablet": "true"
+      }
+    },
+    "eFOX SMART E5": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "SMART E5",
+        "Device_Code_Name": "SMART E5",
+        "Device_Maker": "eFOX",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "eFOX",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Cosmote Xplore": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Xplore",
+        "Device_Code_Name": "Xplore",
+        "Device_Maker": "Cosmote",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Cosmote",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "KAZAM Trooper 2 5.0": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Trooper 2 5.0",
+        "Device_Code_Name": "Trooper 2 5.0",
+        "Device_Maker": "KAZAM",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "KAZAM",
+        "isMobileDevice": "true",
+        "isTablet": "false"
       }
     }
   }

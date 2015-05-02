@@ -3402,8 +3402,8 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Vodafone Smart 4G Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "HTC PJ401",
+          "match": "Mozilla\/5.0 (#PLATFORM#Vodafone Smart 4G Build\/*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "device": "Vodafone Smart 4G",
           "platforms": [
             "Android_4_2"
           ]

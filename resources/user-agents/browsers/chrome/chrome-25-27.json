@@ -853,7 +853,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Cosmote Xplore Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "device": "Comag WTDR1018",
+          "device": "Cosmote Xplore",
           "platforms": [
             "Android_4_1"
           ]

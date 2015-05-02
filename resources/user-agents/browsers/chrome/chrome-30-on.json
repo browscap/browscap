@@ -2526,7 +2526,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Archos 40b Titanium Surround Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "device": "TrekStor SurfTab Breeze 10.1 Quad",
+          "device": "Archos 40b Titanium Surround",
           "platforms": [
             "Android_4_2"
           ]
@@ -2540,7 +2540,14 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#KAZAM Trooper2 50 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "device": "TrekStor SurfTab Breeze 10.1 Quad",
+          "device": "KAZAM Trooper 2 5.0",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#V370 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "device": "Acer V370",
           "platforms": [
             "Android_4_2"
           ]

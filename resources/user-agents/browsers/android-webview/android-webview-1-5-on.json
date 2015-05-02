@@ -4824,6 +4824,13 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#SMART-E5 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "device": "eFOX SMART E5",
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
           "match": "Lenovo A390*Mozilla\/5.0 (#PLATFORM#Lenovo A390*) AppleWebKit* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Lenovo A390",
           "platforms": [
