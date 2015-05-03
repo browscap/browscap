@@ -25,7 +25,6 @@
         "BackgroundSounds": "false",
         "VBScript": "false",
         "JavaApplets": "false",
-        "ActiveXControls": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
         "Version": "#MAJORVER#.#MINORVER#",

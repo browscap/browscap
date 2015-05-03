@@ -21,7 +21,6 @@
         "Win64": "false",
         "BackgroundSounds": "false",
         "VBScript": "false",
-        "ActiveXControls": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
         "CssVersion": "3"

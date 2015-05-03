@@ -178,8 +178,7 @@
             "JavaScript": "false",
             "VBScript": "false",
             "JavaApplets": "false",
-            "ActiveXControls": "false",
-            "isSyndicationReader": "false",
+                "isSyndicationReader": "false",
             "Crawler": "true",
             "CssVersion": "0"
           }

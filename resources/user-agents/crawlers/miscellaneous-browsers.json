@@ -62,8 +62,7 @@
             "JavaScript": "false",
             "VBScript": "false",
             "JavaApplets": "false",
-            "ActiveXControls": "false",
-            "Crawler": "false"
+                "Crawler": "false"
           }
         },
         {
