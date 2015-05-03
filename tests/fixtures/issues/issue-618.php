@@ -3079,7 +3079,7 @@ return [
     'issue-618-CP' => [
         'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:29.0) Gecko/20100101 /',
         [
-            'Browser' => 'Mozilla',
+            'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Mozilla Foundation',
