@@ -22,17 +22,12 @@
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
-        "BackgroundSounds": "false",
-        "VBScript": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
         "Browser_Maker": "CrazyBrowser.com",
         "Frames": "true",
         "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
         "JavaScript": "true",
-        "JavaApplets": "true",
         "CssVersion": "3"
       },
       "children": [

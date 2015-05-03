@@ -10,8 +10,7 @@
         "Parent": "DefaultProperties",
         "Comment": "NCSA Mosaic",
         "Browser": "Mosaic",
-        "Frames": "true",
-        "Tables": "true"
+        "Frames": "true"
       },
       "children": [
         {

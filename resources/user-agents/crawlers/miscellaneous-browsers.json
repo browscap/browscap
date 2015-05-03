@@ -58,11 +58,8 @@
             "Browser": "EVE-minibrowser",
             "IFrames": "false",
             "Tables": "false",
-            "BackgroundSounds": "false",
             "JavaScript": "false",
-            "VBScript": "false",
-            "JavaApplets": "false",
-                "Crawler": "false"
+                        "Crawler": "false"
           }
         },
         {
@@ -78,12 +75,8 @@
             "Frames": "true",
             "IFrames": "true",
             "Tables": "true",
-            "Cookies": "true",
-            "BackgroundSounds": "true",
             "JavaScript": "true",
-            "VBScript": "true",
-            "JavaApplets": "true",
-                "CssVersion": "2"
+            "CssVersion": "2"
           }
         },
         {
@@ -91,9 +84,7 @@
           "properties": {
             "Browser": "Kopiczek",
             "IFrames": "true",
-            "VBScript": "true",
-            "JavaApplets": "true",
-            "CssVersion": "2"
+                "CssVersion": "2"
           },
           "platforms": [
             "WyderOS"

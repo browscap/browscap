@@ -16,12 +16,7 @@
         "Win32": "false",
         "Frames": "true",
         "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "BackgroundSounds": "true",
         "JavaScript": "true",
-        "VBScript": "true",
-        "JavaApplets": "true",
         "CssVersion": "1"
       },
       "children": [

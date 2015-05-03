@@ -15,11 +15,7 @@
         "MajorVer": "4",
         "MinorVer": "1",
         "Frames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "BackgroundSounds": "true",
         "JavaScript": "true",
-        "VBScript": "true",
         "CssVersion": "1"
       },
       "children": [

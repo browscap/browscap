@@ -14,8 +14,6 @@
         "Browser_Type": "Browser",
         "Browser_Maker": "Sony",
         "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
         "JavaScript": "true",
         "Frames": "false"
       },
@@ -37,8 +35,6 @@
       "properties": {
         "Parent": "DefaultProperties",
         "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
         "JavaScript": "true",
         "Comment": "PlayStation Vita",
         "Browser": "Sony Playstation Vita",
@@ -70,8 +66,6 @@
         "Browser_Maker": "Sony",
         "Frames": "true",
         "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
         "JavaScript": "true"
       },
       "children": [

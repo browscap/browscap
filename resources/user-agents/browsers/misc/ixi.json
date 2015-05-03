@@ -16,8 +16,6 @@
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
-        "BackgroundSounds": "false",
-        "VBScript": "false",
         "isSyndicationReader": "false",
         "Crawler": "false"
       },

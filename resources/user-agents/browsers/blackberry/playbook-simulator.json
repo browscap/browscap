@@ -13,8 +13,6 @@
         "Browser_Maker": "Research In Motion Limited",
         "Browser_Type": "Browser",
         "Frames": "true",
-        "Tables": "true",
-        "Cookies": "true",
         "JavaScript": "true",
         "Comment": "Playbook Simulator",
         "Browser": "Playbook",

@@ -14,18 +14,13 @@
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
-        "Cookies": "false",
-        "BackgroundSounds": "false",
         "JavaScript": "false",
-        "VBScript": "false",
-        "JavaApplets": "false",
         "isSyndicationReader": "false",
         "Browser": "Prince",
         "Browser_Type": "Application",
         "Browser_Maker": "YesLogic Pty. Ltd.",
         "Frames": "true",
         "IFrames": "true",
-        "Tables": "true",
         "Crawler": "false"
       },
       "children": [

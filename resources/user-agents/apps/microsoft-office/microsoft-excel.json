@@ -20,11 +20,7 @@
         "Win64": "false",
         "Frames": "false",
         "IFrames": "false",
-        "Cookies": "false",
-        "BackgroundSounds": "false",
         "JavaScript": "false",
-        "VBScript": "false",
-        "JavaApplets": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
         "CssVersion": "2"

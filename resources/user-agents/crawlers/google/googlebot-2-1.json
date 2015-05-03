@@ -15,7 +15,6 @@
         "Browser": "Google Bot",
         "Frames": "false",
         "IFrames": "false",
-        "Tables": "false",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#"

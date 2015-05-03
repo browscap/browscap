@@ -14,8 +14,6 @@
         "Browser_Type": "Browser",
         "Frames": "true",
         "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
         "JavaScript": "true"
       },
       "children": [
@@ -49,7 +47,7 @@
         {
           "match": "MOT-A-0A\/* UP.Browser\/*",
           "device": "Motorola A-0A"
-          
+
         },
         {
           "match": "MOT-A-2B\/* UP.Browser\/*",

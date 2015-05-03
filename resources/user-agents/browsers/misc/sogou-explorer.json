@@ -22,16 +22,11 @@
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
-        "BackgroundSounds": "false",
         "JavaScript": "false",
-        "VBScript": "false",
-        "JavaApplets": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
         "Frames": "true",
         "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
         "CssVersion": "2"
       },
       "children": [

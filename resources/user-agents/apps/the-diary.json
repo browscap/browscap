@@ -17,16 +17,11 @@
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
-        "BackgroundSounds": "false",
-        "VBScript": "false",
-        "JavaApplets": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
         "Browser": "The Diary",
         "Frames": "true",
         "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
         "JavaScript": "true"
       },
       "children": [

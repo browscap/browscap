@@ -13,8 +13,6 @@
         "Browser_Type": "Browser",
         "Frames": "true",
         "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
         "JavaScript": "true",
         "Version": "5.0",
         "MajorVer": "5"

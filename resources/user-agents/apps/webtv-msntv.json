@@ -13,9 +13,7 @@
         "Browser": "WebTV\/MSNTV",
         "Browser_Type": "Application",
         "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true"
+        "IFrames": "true"
       },
       "children": [
         {
@@ -99,7 +97,6 @@
             "Version": "2.8",
             "MajorVer": "2",
             "MinorVer": "8",
-            "VBScript": "true",
             "CssVersion": "1"
           }
         },
@@ -109,7 +106,6 @@
             "Version": "2.9",
             "MajorVer": "2",
             "MinorVer": "9",
-            "VBScript": "true",
             "CssVersion": "1"
           }
         },
@@ -202,7 +198,6 @@
             "Version": "2.8",
             "MajorVer": "2",
             "MinorVer": "8",
-            "VBScript": "true",
             "CssVersion": "1"
           }
         },
@@ -212,7 +207,6 @@
             "Version": "2.9",
             "MajorVer": "2",
             "MinorVer": "9",
-            "VBScript": "true",
             "CssVersion": "1"
           }
         }

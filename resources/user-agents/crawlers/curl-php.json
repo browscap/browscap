@@ -13,7 +13,6 @@
         "Browser_Maker": "team Haxx",
         "Frames": "true",
         "IFrames": "true",
-        "Tables": "true",
         "Crawler": "true"
       },
       "children": [

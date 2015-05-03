@@ -22,10 +22,7 @@
         "Win64": "false",
         "Frames": "false",
         "IFrames": "false",
-        "BackgroundSounds": "false",
         "JavaScript": "true",
-        "VBScript": "false",
-        "JavaApplets": "false",
         "isSyndicationReader": "false",
         "Crawler": "false"
       },

@@ -14,8 +14,7 @@
         "Crawler": "true",
         "Browser": "Google Bot Mobile",
         "Frames": "false",
-        "IFrames": "false",
-        "Tables": "false"
+        "IFrames": "false"
       },
       "children": [
         {

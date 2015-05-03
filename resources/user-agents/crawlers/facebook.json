@@ -12,7 +12,6 @@
         "Browser_Type": "Bot/Crawler",
         "Browser_Maker": "Facebook",
         "Frames": "true",
-        "Tables": "true",
         "Crawler": "true"
       },
       "children": [

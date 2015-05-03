@@ -11,7 +11,6 @@
         "Browser_Type": "Bot/Crawler",
         "Frames": "true",
         "IFrames": "true",
-        "Tables": "true",
         "Crawler": "true",
         "Comment": "Google Image Proxy",
         "Browser": "Google Image Proxy"

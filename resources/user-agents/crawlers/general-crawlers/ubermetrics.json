@@ -13,7 +13,6 @@
         "Browser_Maker": "ubermetrics-technologies.com",
         "Frames": "true",
         "IFrames": "true",
-        "Tables": "true",
         "Crawler": "true"
       },
       "children": [

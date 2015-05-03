@@ -12,7 +12,6 @@
         "Browser_Type": "Bot/Crawler",
         "Browser_Maker": "www.exabot.com",
         "Frames": "true",
-        "Tables": "true",
         "Crawler": "true"
       },
       "children": [

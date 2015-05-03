@@ -13,7 +13,6 @@
         "Browser_Maker": "so.360.cn",
         "Frames": "true",
         "IFrames": "true",
-        "Tables": "true",
         "Crawler": "true"
       },
       "children": [

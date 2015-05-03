@@ -17,8 +17,6 @@
         "MinorVer": "#MINORVER#",
         "Frames": "false",
         "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
         "JavaScript": "true",
         "CssVersion": "2",
         "Browser_Type": "Browser",
@@ -28,9 +26,6 @@
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
-        "BackgroundSounds": "false",
-        "VBScript": "false",
-        "JavaApplets": "false",
         "isSyndicationReader": "false",
         "Crawler": "false"
       },

@@ -15,18 +15,13 @@
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
-        "Cookies": "false",
-        "BackgroundSounds": "false",
         "JavaScript": "false",
-        "VBScript": "false",
-        "JavaApplets": "false",
         "isSyndicationReader": "false",
         "Browser": "wkhtmltopdf",
         "Browser_Type": "Application",
         "Browser_Maker": "wkhtmltopdf.org",
         "Frames": "true",
         "IFrames": "true",
-        "Tables": "true",
         "Crawler": "false"
       },
       "children": [

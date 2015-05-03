@@ -13,7 +13,6 @@
         "Browser_Maker": "Seznam.cz, a.s.",
         "Frames": "true",
         "IFrames": "true",
-        "Tables": "true",
         "Crawler": "true"
       },
       "children": [

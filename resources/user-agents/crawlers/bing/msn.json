@@ -13,7 +13,6 @@
         "Browser": "MSN",
         "Frames": "true",
         "IFrames": "true",
-        "Tables": "true",
         "Crawler": "true"
       },
       "children": [

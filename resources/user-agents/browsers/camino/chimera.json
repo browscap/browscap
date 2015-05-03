@@ -11,14 +11,11 @@
         "Parent": "DefaultProperties",
         "Browser_Type": "Browser",
         "Browser_Maker": "Mozilla Foundation",
-        "JavaApplets": "true",
         "CssVersion": "2",
         "Comment": "Chimera",
         "Browser": "Chimera",
         "Frames": "true",
         "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
         "JavaScript": "true"
       },
       "children": [

@@ -20,8 +20,6 @@
         "MinorVer": "#MINORVER#",
         "Frames": "true",
         "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
         "CssVersion": "3"
       },
       "children": [

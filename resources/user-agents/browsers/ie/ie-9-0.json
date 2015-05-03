@@ -24,12 +24,7 @@
         "Win64": "false",
         "Frames": "true",
         "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "BackgroundSounds": "true",
         "JavaScript": "true",
-        "VBScript": "true",
-        "JavaApplets": "true",
         "isSyndicationReader": "false",
         "Crawler": "false",
         "CssVersion": "3"
@@ -172,12 +167,8 @@
             "Frames": "false",
             "IFrames": "false",
             "Tables": "false",
-            "Cookies": "false",
-            "BackgroundSounds": "false",
             "JavaScript": "false",
-            "VBScript": "false",
-            "JavaApplets": "false",
-                "isSyndicationReader": "false",
+            "isSyndicationReader": "false",
             "Crawler": "true",
             "CssVersion": "0"
           }

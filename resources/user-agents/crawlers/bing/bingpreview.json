@@ -13,7 +13,6 @@
         "Browser": "BingPreview",
         "Frames": "true",
         "IFrames": "true",
-        "Tables": "true",
         "Crawler": "true"
       },
       "children": [
@@ -103,7 +102,6 @@
         "Browser": "BingPreview",
         "Frames": "true",
         "IFrames": "true",
-        "Tables": "true",
         "Crawler": "true",
         "Version": "1.0b",
         "MajorVer": "1",

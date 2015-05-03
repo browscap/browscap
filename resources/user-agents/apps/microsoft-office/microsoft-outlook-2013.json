@@ -17,13 +17,8 @@
         "MajorVer": "2013",
         "Frames": "true",
         "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
         "CssVersion": "2",
-        "BackgroundSounds": "false",
         "JavaScript": "false",
-        "VBScript": "false",
-        "JavaApplets": "false",
         "isSyndicationReader": "false"
       },
       "children": [

@@ -12,8 +12,7 @@
         "Browser": "w3m",
         "Browser_Type": "Browser",
         "Browser_Maker": "Sakamoto Hironori",
-        "Frames": "true",
-        "Tables": "true"
+        "Frames": "true"
       },
       "children": [
         {
@@ -45,8 +44,7 @@
           "properties": {
             "Version": "0.4",
             "MajorVer": "0",
-            "MinorVer": "4",
-            "Cookies": "true"
+            "MinorVer": "4"
           }
         },
         {
@@ -54,8 +52,7 @@
           "properties": {
             "Version": "0.5",
             "MajorVer": "0",
-            "MinorVer": "5",
-            "Cookies": "true"
+            "MinorVer": "5"
           }
         },
         {

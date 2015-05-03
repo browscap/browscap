@@ -15,8 +15,6 @@
         "Browser_Type": "Browser",
         "Browser_Maker": "Research In Motion Limited",
         "Frames": "true",
-        "Tables": "true",
-        "Cookies": "true",
         "JavaScript": "true",
         "CssVersion": "2",
         "Version": "6.0",

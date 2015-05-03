@@ -12,8 +12,7 @@
         "Browser": "YaCy Bot",
         "Browser_Type": "Bot/Crawler",
         "Crawler": "true",
-        "Frames": "true",
-        "Tables": "true"
+        "Frames": "true"
       },
       "children": [
         {

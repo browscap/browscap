@@ -16,8 +16,6 @@
         "Win32": "false",
         "Frames": "true",
         "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
         "JavaScript": "true",
         "CssVersion": "1",
         "Version": "3.0",

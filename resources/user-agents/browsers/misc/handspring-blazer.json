@@ -12,8 +12,6 @@
         "Comment": "Handspring Blazer",
         "Browser": "Handspring Blazer",
         "Frames": "true",
-        "Tables": "true",
-        "Cookies": "true",
         "JavaScript": "true"
       },
       "children": [

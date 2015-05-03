@@ -13,8 +13,6 @@
         "Browser_Type": "Application",
         "Frames": "true",
         "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
         "JavaScript": "false"
       },
       "children": [

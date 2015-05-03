@@ -19,13 +19,9 @@
         "Win32": "false",
         "Win64": "false",
         "IFrames": "false",
-        "Cookies": "false",
         "Crawler": "false",
         "CssVersion": "2",
-        "BackgroundSounds": "false",
         "JavaScript": "false",
-        "VBScript": "false",
-        "JavaApplets": "false",
         "isSyndicationReader": "false"
       },
       "children": [

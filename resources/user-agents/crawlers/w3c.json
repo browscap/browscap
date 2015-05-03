@@ -56,12 +56,8 @@
             "Frames": "false",
             "IFrames": "false",
             "Tables": "false",
-            "Cookies": "false",
-            "BackgroundSounds": "false",
             "JavaScript": "false",
-            "VBScript": "false",
-            "JavaApplets": "false",
-                "isSyndicationReader": "false",
+            "isSyndicationReader": "false",
             "Crawler": "true"
           }
         },

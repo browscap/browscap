@@ -15,7 +15,6 @@
         "Browser_Type": "Application",
         "Frames": "true",
         "IFrames": "true",
-        "Tables": "true",
         "Crawler": "false",
         "Comment": "Flixster App #MAJORVER#.#MINORVER#",
         "Browser": "Flixster App",

@@ -17,8 +17,6 @@
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
-        "BackgroundSounds": "false",
-        "VBScript": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
         "Comment": "CometBird #MAJORVER#.#MINORVER#",
@@ -28,10 +26,7 @@
         "MinorVer": "#MINORVER#",
         "Frames": "true",
         "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
         "JavaScript": "true",
-        "JavaApplets": "true",
         "CssVersion": "2"
       },
       "children": [

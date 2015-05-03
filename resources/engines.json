@@ -29,7 +29,6 @@
         "ActiveXControls": "false",
         "Frames": "true",
         "IFrames": "true",
-        "Tables": "true",
         "Cookies": "true",
         "BackgroundSounds": "true"
       }
@@ -46,7 +45,6 @@
         "ActiveXControls": "false",
         "Frames": "true",
         "IFrames": "true",
-        "Tables": "true",
         "Cookies": "true",
         "BackgroundSounds": "true"
       }
@@ -273,7 +271,6 @@
         "ActiveXControls": "true",
         "Frames": "true",
         "IFrames": "true",
-        "Tables": "true",
         "Cookies": "true",
         "BackgroundSounds": "true"
       }
@@ -341,7 +338,6 @@
         "ActiveXControls": "false",
         "Frames": "true",
         "IFrames": "true",
-        "Tables": "true",
         "Cookies": "true",
         "BackgroundSounds": "true"
       }
@@ -406,7 +402,6 @@
         "ActiveXControls": "false",
         "Frames": "true",
         "IFrames": "true",
-        "Tables": "true",
         "Cookies": "true",
         "BackgroundSounds": "true"
       }
@@ -423,7 +418,6 @@
         "ActiveXControls": "false",
         "Frames": "true",
         "IFrames": "true",
-        "Tables": "true",
         "Cookies": "true",
         "BackgroundSounds": "true"
       }
@@ -440,7 +434,6 @@
         "ActiveXControls": "false",
         "Frames": "true",
         "IFrames": "true",
-        "Tables": "true",
         "Cookies": "true",
         "BackgroundSounds": "true"
       }
@@ -457,7 +450,6 @@
         "ActiveXControls": "false",
         "Frames": "true",
         "IFrames": "true",
-        "Tables": "true",
         "Cookies": "true",
         "BackgroundSounds": "true"
       }
@@ -480,7 +472,6 @@
         "ActiveXControls": "false",
         "Frames": "true",
         "IFrames": "true",
-        "Tables": "true",
         "Cookies": "true",
         "BackgroundSounds": "true"
       }
@@ -497,7 +488,6 @@
         "ActiveXControls": "false",
         "Frames": "true",
         "IFrames": "true",
-        "Tables": "true",
         "Cookies": "true",
         "BackgroundSounds": "true"
       }
@@ -514,7 +504,6 @@
         "ActiveXControls": "false",
         "Frames": "true",
         "IFrames": "true",
-        "Tables": "true",
         "Cookies": "true",
         "BackgroundSounds": "true"
       }

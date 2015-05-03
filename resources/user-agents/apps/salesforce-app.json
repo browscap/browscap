@@ -21,12 +21,7 @@
         "Win64": "false",
         "Frames": "false",
         "IFrames": "false",
-        "Tables": "false",
-        "Cookies": "false",
-        "BackgroundSounds": "false",
         "JavaScript": "false",
-        "VBScript": "false",
-        "JavaApplets": "false",
         "Crawler": "false",
         "isSyndicationReader": "false"
       },

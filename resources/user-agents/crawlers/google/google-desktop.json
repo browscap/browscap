@@ -18,11 +18,7 @@
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
-        "Cookies": "false",
-        "BackgroundSounds": "false",
         "JavaScript": "false",
-        "VBScript": "false",
-        "JavaApplets": "false",
         "isSyndicationReader": "false",
         "Crawler": "false"
       },
