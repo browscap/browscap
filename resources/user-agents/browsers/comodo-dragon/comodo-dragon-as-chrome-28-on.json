@@ -1,7 +1,7 @@
 {
   "division": "Comodo Dragon #MAJORVER#.#MINORVER#",
   "versions": ["36.1", "33.1", "31.1", "29.1", "28.1"],
-  "sortIndex": 3450,
+  "sortIndex": 950,
   "lite": false,
   "userAgents": [
     {

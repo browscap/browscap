@@ -33,7 +33,7 @@
             "MinorVer": "19"
           },
           "platforms": [
-            "Linux", "Linux_64_B"
+            "Linux_64_B", "Linux"
           ]
         },
         {
@@ -53,7 +53,7 @@
             "MinorVer": "15"
           },
           "platforms": [
-            "Linux", "Linux_64_B"
+            "Linux_64_B", "Linux"
           ]
         },
         {
