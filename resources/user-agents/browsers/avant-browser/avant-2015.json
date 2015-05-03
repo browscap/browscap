@@ -21,7 +21,6 @@
         "JavaScript": "true",
         "VBScript": "true",
         "JavaApplets": "true",
-        "ActiveXControls": "true",
         "CssVersion": "2"
       },
       "children": [

@@ -30,7 +30,6 @@
         "JavaScript": "true",
         "VBScript": "true",
         "JavaApplets": "true",
-        "ActiveXControls": "true",
         "isSyndicationReader": "false",
         "Crawler": "false",
         "CssVersion": "3"
