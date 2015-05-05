@@ -24,10 +24,12 @@
         "Win32": "false",
         "Win64": "false",
         "IFrames": "false",
+        "Cookies": "false",
         "JavaScript": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
-        "Frames": "true"
+        "Frames": "true",
+        "Tables": "true"
       },
       "children": [
         {

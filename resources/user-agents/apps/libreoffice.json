@@ -13,6 +13,8 @@
         "Browser_Maker": "The Document Foundation",
         "Frames": "true",
         "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
         "JavaScript": "true",
         "CssVersion": "2"
       },

@@ -13,6 +13,8 @@
         "Browser": "Alcatel",
         "Frames": "true",
         "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
         "CssVersion": "2"
       },
       "children": [

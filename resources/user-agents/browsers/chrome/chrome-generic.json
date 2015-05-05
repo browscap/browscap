@@ -20,6 +20,8 @@
         "Win32": "false",
         "Frames": "true",
         "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
         "JavaScript": "true",
         "JavaApplets": "false",
         "CssVersion": "3"
@@ -52,7 +54,10 @@
         "Win32": "false",
         "Frames": "true",
         "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
         "JavaScript": "true",
+        "JavaApplets": "false",
         "CssVersion": "3"
       },
       "children": [
@@ -111,7 +116,10 @@
         "Browser_Type": "Browser",
         "Frames": "true",
         "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
         "JavaScript": "true",
+        "JavaApplets": "false",
         "CssVersion": "1"
       },
       "children": [

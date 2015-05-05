@@ -19,6 +19,7 @@
         "Win32": "false",
         "Win64": "false",
         "IFrames": "false",
+        "Cookies": "false",
         "Crawler": "false",
         "CssVersion": "2",
         "JavaScript": "false",

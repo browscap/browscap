@@ -15,6 +15,8 @@
         "MajorVer": "4",
         "MinorVer": "1",
         "Frames": "true",
+        "Tables": "true",
+        "Cookies": "true",
         "JavaScript": "true",
         "CssVersion": "1"
       },

@@ -24,6 +24,8 @@
         "Win64": "false",
         "Frames": "true",
         "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
         "JavaScript": "true",
         "isSyndicationReader": "false",
         "Crawler": "false",

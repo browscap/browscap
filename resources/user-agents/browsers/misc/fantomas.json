@@ -11,6 +11,8 @@
         "Browser": "fantomas",
         "Frames": "true",
         "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
         "JavaScript": "true"
       },
       "children": [

@@ -15,7 +15,9 @@
         "Browser_Maker": "Thomas Dickey",
         "Frames": "true",
         "IFrames": "true",
-        "JavaScript": "false"
+        "Tables": "true",
+        "JavaScript": "false",
+        "Cookies": "true"
       },
       "children": [
         {

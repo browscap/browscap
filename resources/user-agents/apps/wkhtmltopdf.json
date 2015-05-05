@@ -15,6 +15,7 @@
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
+        "Cookies": "false",
         "JavaScript": "false",
         "isSyndicationReader": "false",
         "Browser": "wkhtmltopdf",
@@ -22,6 +23,7 @@
         "Browser_Maker": "wkhtmltopdf.org",
         "Frames": "true",
         "IFrames": "true",
+        "Tables": "true",
         "Crawler": "false"
       },
       "children": [

@@ -15,6 +15,7 @@
         "Browser": "Windows Phone Search",
         "Frames": "true",
         "IFrames": "true",
+        "Tables": "true",
         "Crawler": "true"
       },
       "children": [

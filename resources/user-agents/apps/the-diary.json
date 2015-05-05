@@ -22,6 +22,8 @@
         "Browser": "The Diary",
         "Frames": "true",
         "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
         "JavaScript": "true"
       },
       "children": [

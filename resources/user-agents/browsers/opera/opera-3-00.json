@@ -18,7 +18,9 @@
         "MinorVer": "#MINORVER#",
         "Win32": "false",
         "Frames": "true",
-        "IFrames": "true"
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true"
       },
       "children": [
         {

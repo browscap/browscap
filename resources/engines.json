@@ -303,8 +303,13 @@
         "VBScript": "false",
         "JavaApplets": "false",
         "ActiveXControls": "false",
-        "Tables": "true",
         "BackgroundSounds": "false"
+      }
+    },
+    "Edge_12": {
+      "inherits": "Edge",
+      "properties": {
+        "RenderingEngine_Version": "12.0"
       }
     },
     "Presto": {

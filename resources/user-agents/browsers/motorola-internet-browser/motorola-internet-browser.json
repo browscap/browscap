@@ -13,7 +13,9 @@
         "Browser_Type": "Browser",
         "Browser_Maker": "Motorola",
         "Frames": "true",
-        "IFrames": "true"
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true"
       },
       "children": [
         {

@@ -16,7 +16,8 @@
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
-        "Frames": "true"
+        "Frames": "true",
+        "Tables": "true"
       },
       "children": [
         {

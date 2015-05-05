@@ -21,6 +21,8 @@
         "Crawler": "false",
         "Frames": "true",
         "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
         "JavaScript": "true",
         "CssVersion": "2"
       },

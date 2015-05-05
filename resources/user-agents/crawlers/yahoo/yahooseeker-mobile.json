@@ -14,7 +14,8 @@
         "Browser_Maker": "Yahoo!",
         "IFrames": "false",
         "Crawler": "true",
-        "Frames": "false"
+        "Frames": "false",
+        "Tables": "false"
       },
       "children": [
         {

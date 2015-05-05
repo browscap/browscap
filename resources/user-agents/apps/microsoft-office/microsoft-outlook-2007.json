@@ -16,6 +16,7 @@
         "Version": "2007",
         "MajorVer": "2007",
         "Frames": "true",
+        "Tables": "true",
         "CssVersion": "2",
         "JavaScript": "false",
         "isSyndicationReader": "false"

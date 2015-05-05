@@ -11,7 +11,8 @@
         "Comment": "Amaya",
         "Browser": "Amaya",
         "Browser_Type": "Application",
-        "Frames": "true"
+        "Frames": "true",
+        "Tables": "true"
       },
       "children": [
         {

@@ -14,6 +14,7 @@
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
+        "Cookies": "false",
         "JavaScript": "false",
         "isSyndicationReader": "false",
         "Browser": "Prince",
@@ -21,6 +22,7 @@
         "Browser_Maker": "YesLogic Pty. Ltd.",
         "Frames": "true",
         "IFrames": "true",
+        "Tables": "true",
         "Crawler": "false"
       },
       "children": [

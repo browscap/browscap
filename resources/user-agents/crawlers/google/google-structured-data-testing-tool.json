@@ -11,6 +11,7 @@
         "Browser_Type": "Bot/Crawler",
         "Frames": "true",
         "IFrames": "true",
+        "Tables": "true",
         "Crawler": "true",
         "Comment": "Google Structured-Data TestingTool",
         "Browser": "Google Structured-Data TestingTool"

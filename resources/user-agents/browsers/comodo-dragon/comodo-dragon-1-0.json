@@ -19,6 +19,8 @@
         "Browser_Maker": "Comodo Group Inc",
         "Frames": "true",
         "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
         "JavaScript": "true",
         "CssVersion": "3"
       },

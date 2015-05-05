@@ -6,7 +6,7 @@
   "userAgents": [
     {
       "userAgent": "Edge #MAJORVER#.#MINORVER#",
-      "engine": "Edge",
+      "engine": "Edge_12",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",

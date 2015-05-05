@@ -17,7 +17,9 @@
         "Browser_Type": "Application",
         "Win32": "false",
         "Frames": "true",
-        "IFrames": "true"
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true"
       },
       "children": [
         {

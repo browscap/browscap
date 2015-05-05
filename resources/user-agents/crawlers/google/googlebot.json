@@ -13,7 +13,8 @@
         "Crawler": "true",
         "Browser": "Google Bot",
         "Frames": "false",
-        "IFrames": "false"
+        "IFrames": "false",
+        "Tables": "false"
       },
       "children": [
         {

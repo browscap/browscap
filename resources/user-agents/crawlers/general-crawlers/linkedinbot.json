@@ -13,6 +13,7 @@
         "Browser_Maker": "LinkedIn Corporation",
         "Frames": "true",
         "IFrames": "true",
+        "Tables": "true",
         "Crawler": "true"
       },
       "children": [

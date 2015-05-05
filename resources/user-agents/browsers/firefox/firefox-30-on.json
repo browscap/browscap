@@ -20,6 +20,8 @@
         "Win32": "false",
         "Frames": "true",
         "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
         "JavaScript": "true",
         "CssVersion": "3"
       },
@@ -164,6 +166,8 @@
         "Win32": "false",
         "Frames": "true",
         "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
         "JavaScript": "true",
         "CssVersion": "3"
       },
@@ -199,6 +203,8 @@
         "Win32": "false",
         "Frames": "true",
         "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
         "JavaScript": "true",
         "CssVersion": "3"
       },

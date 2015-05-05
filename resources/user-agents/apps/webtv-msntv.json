@@ -13,7 +13,9 @@
         "Browser": "WebTV\/MSNTV",
         "Browser_Type": "Application",
         "Frames": "true",
-        "IFrames": "true"
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true"
       },
       "children": [
         {

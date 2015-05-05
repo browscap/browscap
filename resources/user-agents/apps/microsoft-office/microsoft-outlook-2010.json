@@ -17,6 +17,8 @@
         "MajorVer": "2010",
         "Frames": "true",
         "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
         "JavaScript": "true",
         "CssVersion": "2",
         "JavaScript": "false",

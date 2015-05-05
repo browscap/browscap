@@ -13,7 +13,8 @@
         "Browser": "WordPress App",
         "Browser_Type": "Application",
         "Browser_Maker": "WordPress.org",
-        "Frames": "true"
+        "Frames": "true",
+        "Tables": "true"
       },
       "children": [
         {

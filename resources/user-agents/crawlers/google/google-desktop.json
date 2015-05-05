@@ -18,6 +18,7 @@
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
+        "Cookies": "false",
         "JavaScript": "false",
         "isSyndicationReader": "false",
         "Crawler": "false"

@@ -13,6 +13,7 @@
         "Browser_Maker": "archive.org",
         "Frames": "true",
         "IFrames": "true",
+        "Tables": "true",
         "Crawler": "true"
       },
       "children": [

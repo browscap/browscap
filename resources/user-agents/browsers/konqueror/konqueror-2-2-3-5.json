@@ -17,6 +17,8 @@
         "MinorVer": "#MINORVER#",
         "Frames": "false",
         "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
         "JavaScript": "true",
         "CssVersion": "2",
         "Browser_Type": "Browser",

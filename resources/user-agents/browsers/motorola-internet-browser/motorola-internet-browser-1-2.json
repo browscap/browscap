@@ -16,7 +16,9 @@
         "MajorVer": "1",
         "MinorVer": "2",
         "Frames": "true",
-        "IFrames": "true"
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true"
       },
       "children": [
         {

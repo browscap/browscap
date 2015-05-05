@@ -18,6 +18,8 @@
         "MajorVer": "0",
         "MinorVer": "8",
         "Frames": "true",
+        "Tables": "true",
+        "Cookies": "true",
         "JavaScript": "true"
       },
       "children": [

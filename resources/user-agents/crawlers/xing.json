@@ -11,6 +11,7 @@
         "Browser_Type": "Bot/Crawler",
         "Browser": "Xing",
         "Frames": "true",
+        "Tables": "true",
         "Crawler": "true"
       },
       "children": [

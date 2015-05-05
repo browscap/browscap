@@ -16,12 +16,14 @@
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
+        "Cookies": "false",
         "JavaScript": "false",
         "isSyndicationReader": "false",
         "Browser": "Tweetbot",
         "Browser_Type": "Bot/Crawler",
         "Frames": "true",
         "IFrames": "true",
+        "Tables": "true",
         "Crawler": "true"
       },
       "children": [

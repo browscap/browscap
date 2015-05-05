@@ -56,6 +56,7 @@
             "Frames": "false",
             "IFrames": "false",
             "Tables": "false",
+            "Cookies": "false",
             "JavaScript": "false",
             "isSyndicationReader": "false",
             "Crawler": "true"

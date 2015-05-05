@@ -14,7 +14,9 @@
         "Browser": "MSN Mobile Proxy",
         "Frames": "true",
         "IFrames": "true",
+        "Tables": "true",
         "Crawler": "true",
+        "Cookies": "true",
         "JavaScript": "true"
       },
       "children": [

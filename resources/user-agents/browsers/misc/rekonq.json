@@ -23,8 +23,10 @@
         "Crawler": "false",
         "JavaScript": "true",
         "CssVersion": "3",
+        "Cookies": "true",
         "Frames": "true",
-        "IFrames": "true"
+        "IFrames": "true",
+        "Tables": "true"
       },
       "children": [
         {

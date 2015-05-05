@@ -12,6 +12,7 @@
         "Browser_Type": "Bot/Crawler",
         "Browser_Maker": "Sogou Inc",
         "Frames": "true",
+        "Tables": "true",
         "Crawler": "true"
       },
       "children": [

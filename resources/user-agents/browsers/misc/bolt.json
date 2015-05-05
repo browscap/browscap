@@ -13,6 +13,8 @@
         "Browser": "Bolt",
         "Frames": "true",
         "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
         "JavaScript": "true",
         "CssVersion": "3"
       },

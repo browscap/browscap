@@ -1,12 +1,12 @@
 <?php
 
 return [
-    'issue-548' => [
-        'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Safari/537.36 Edge/12.0',
+    'issue-633' => [
+        'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Safari/537.36 Edge/12.0',
         [
             'Browser' => 'Edge',
             'Browser_Type' => 'Browser',
-            'Browser_Bits' => '32',
+            'Browser_Bits' => '64',
             'Browser_Maker' => 'Microsoft Corporation',
             'Version' => '12.0',
             'MajorVer' => '12',
@@ -15,15 +15,10 @@ return [
             'Platform_Version' => '10.0',
             'Platform_Bits' => '64',
             'Platform_Maker' => 'Microsoft Corporation',
-            'Win64' => true,
+            'Win64' => false,
             'isMobileDevice' => false,
             'isTablet' => false,
             'Crawler' => false,
-            'JavaScript' => true,
-            'Cookies' => true,
-            'Frames' => true,
-            'IFrames' => true,
-            'Tables' => true,
             'VBScript' => false,
             'JavaApplets' => false,
             'ActiveXControls' => false,

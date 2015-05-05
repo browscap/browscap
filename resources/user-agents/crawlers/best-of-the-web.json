@@ -12,6 +12,7 @@
         "Browser_Type": "Bot/Crawler",
         "Browser_Maker": "botw.org",
         "Frames": "true",
+        "Tables": "true",
         "Crawler": "true"
       },
       "children": [

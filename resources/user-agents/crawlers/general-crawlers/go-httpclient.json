@@ -13,6 +13,7 @@
         "Browser_Maker": "Google Inc",
         "Frames": "true",
         "IFrames": "true",
+        "Tables": "true",
         "Crawler": "true"
       },
       "children": [

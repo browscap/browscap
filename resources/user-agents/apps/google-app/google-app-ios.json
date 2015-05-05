@@ -20,6 +20,7 @@
         "MinorVer": "#MINORVER#",
         "Frames": "true",
         "IFrames": "true",
+        "Tables": "true",
         "Crawler": "false"
       },
       "children": [

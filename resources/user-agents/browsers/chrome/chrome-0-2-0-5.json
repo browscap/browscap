@@ -21,6 +21,8 @@
         "Frames": "true",
         "IFrames": "true",
         "JavaApplets": "false",
+        "Tables": "true",
+        "Cookies": "true",
         "JavaScript": "true",
         "CssVersion": "3"
       },

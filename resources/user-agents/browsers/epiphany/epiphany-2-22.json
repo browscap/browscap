@@ -24,6 +24,8 @@
         "CssVersion": "3",
         "Frames": "true",
         "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
         "JavaScript": "true",
         "Version": "2.22",
         "MajorVer": "2",

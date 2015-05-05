@@ -59,7 +59,7 @@
             "IFrames": "false",
             "Tables": "false",
             "JavaScript": "false",
-                        "Crawler": "false"
+            "Crawler": "false"
           }
         },
         {
@@ -75,6 +75,7 @@
             "Frames": "true",
             "IFrames": "true",
             "Tables": "true",
+            "Cookies": "true",
             "JavaScript": "true",
             "CssVersion": "2"
           }
@@ -84,7 +85,7 @@
           "properties": {
             "Browser": "Kopiczek",
             "IFrames": "true",
-                "CssVersion": "2"
+            "CssVersion": "2"
           },
           "platforms": [
             "WyderOS"

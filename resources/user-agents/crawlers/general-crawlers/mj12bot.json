@@ -13,6 +13,7 @@
         "Browser_Maker": "Majestic-12 Ltd",
         "Frames": "true",
         "IFrames": "true",
+        "Tables": "true",
         "Crawler": "true"
       },
       "children": [

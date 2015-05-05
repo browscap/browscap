@@ -17,6 +17,8 @@
         "MajorVer": "2013",
         "Frames": "true",
         "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
         "CssVersion": "2",
         "JavaScript": "false",
         "isSyndicationReader": "false"
