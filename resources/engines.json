@@ -6,14 +6,9 @@
         "RenderingEngine_Version": "unknown",
         "RenderingEngine_Description": "unknown",
         "RenderingEngine_Maker": "unknown",
-        "JavaScript": "false",
         "VBScript": "false",
         "JavaApplets": "false",
         "ActiveXControls": "false",
-        "Frames": "false",
-        "IFrames": "false",
-        "Tables": "false",
-        "Cookies": "false",
         "BackgroundSounds": "false"
       }
     },
@@ -23,14 +18,10 @@
         "RenderingEngine_Version": "unknown",
         "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
         "RenderingEngine_Maker": "Apple Inc",
-        "JavaScript": "true",
         "VBScript": "false",
         "JavaApplets": "true",
         "ActiveXControls": "false",
-        "Frames": "true",
-        "IFrames": "true",
-        "Cookies": "true",
-        "BackgroundSounds": "true"
+        "BackgroundSounds": "false"
       }
     },
     "Gecko": {
@@ -39,14 +30,10 @@
         "RenderingEngine_Version": "unknown",
         "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers.",
         "RenderingEngine_Maker": "Mozilla Foundation",
-        "JavaScript": "true",
         "VBScript": "false",
         "JavaApplets": "true",
         "ActiveXControls": "false",
-        "Frames": "true",
-        "IFrames": "true",
-        "Cookies": "true",
-        "BackgroundSounds": "true"
+        "BackgroundSounds": "false"
       }
     },
     "Gecko_1": {
@@ -265,13 +252,9 @@
         "RenderingEngine_Version": "unknown",
         "RenderingEngine_Description": "For Internet Explorer since version 4.0 and embedded WebBrowser controls (such as Internet Explorer shells, Maxthon and some media players).",
         "RenderingEngine_Maker": "Microsoft Corporation",
-        "JavaScript": "true",
         "VBScript": "true",
         "JavaApplets": "true",
         "ActiveXControls": "true",
-        "Frames": "true",
-        "IFrames": "true",
-        "Cookies": "true",
         "BackgroundSounds": "true"
       }
     },
@@ -312,19 +295,17 @@
       }
     },
     "Edge": {
-      "RenderingEngine_Name": "Edge",
-      "RenderingEngine_Version": "unknown",
-      "RenderingEngine_Description": "For the Edge Browser since version 12.0",
-      "RenderingEngine_Maker": "Microsoft Corporation",
-      "JavaScript": "true",
-      "VBScript": "false",
-      "JavaApplets": "true",
-      "ActiveXControls": "false",
-      "Frames": "true",
-      "IFrames": "true",
-      "Tables": "true",
-      "Cookies": "true",
-      "BackgroundSounds": "true"
+      "properties": {
+        "RenderingEngine_Name": "Edge",
+        "RenderingEngine_Version": "unknown",
+        "RenderingEngine_Description": "For the Edge Browser since version 12.0",
+        "RenderingEngine_Maker": "Microsoft Corporation",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "Tables": "true",
+        "BackgroundSounds": "false"
+      }
     },
     "Presto": {
       "properties": {
@@ -332,14 +313,10 @@
         "RenderingEngine_Version": "unknown",
         "RenderingEngine_Description": "For Opera 7 and above, Macromedia Dreamweaver MX and MX 2004 (Mac), and Adobe Creative Suite 2.",
         "RenderingEngine_Maker": "Opera Software ASA",
-        "JavaScript": "true",
         "VBScript": "false",
-        "JavaApplets": "true",
+        "JavaApplets": "false",
         "ActiveXControls": "false",
-        "Frames": "true",
-        "IFrames": "true",
-        "Cookies": "true",
-        "BackgroundSounds": "true"
+        "BackgroundSounds": "false"
       }
     },
     "Presto_1_0": {
@@ -396,14 +373,10 @@
         "RenderingEngine_Version": "unknown",
         "RenderingEngine_Description": "For Access NetFront.",
         "RenderingEngine_Maker": "Access",
-        "JavaScript": "true",
         "VBScript": "false",
-        "JavaApplets": "true",
+        "JavaApplets": "false",
         "ActiveXControls": "false",
-        "Frames": "true",
-        "IFrames": "true",
-        "Cookies": "true",
-        "BackgroundSounds": "true"
+        "BackgroundSounds": "false"
       }
     },
     "T5": {
@@ -412,14 +385,10 @@
         "RenderingEngine_Version": "unknown",
         "RenderingEngine_Description": "a WebKit Fork by Baidu",
         "RenderingEngine_Maker": "Baidu",
-        "JavaScript": "true",
         "VBScript": "false",
-        "JavaApplets": "true",
+        "JavaApplets": "false",
         "ActiveXControls": "false",
-        "Frames": "true",
-        "IFrames": "true",
-        "Cookies": "true",
-        "BackgroundSounds": "true"
+        "BackgroundSounds": "false"
       }
     },
     "Tasman": {
@@ -428,14 +397,10 @@
         "RenderingEngine_Version": "unknown",
         "RenderingEngine_Description": "For Internet Explorer 5 for Mac, Microsoft Office 2004 for Mac, and Microsoft Office 2008 for Mac.",
         "RenderingEngine_Maker": "Apple Inc",
-        "JavaScript": "true",
         "VBScript": "false",
         "JavaApplets": "true",
         "ActiveXControls": "false",
-        "Frames": "true",
-        "IFrames": "true",
-        "Cookies": "true",
-        "BackgroundSounds": "true"
+        "BackgroundSounds": "false"
       }
     },
     "KHTML": {
@@ -444,14 +409,10 @@
         "RenderingEngine_Version": "unknown",
         "RenderingEngine_Description": "For Konqueror.",
         "RenderingEngine_Maker": "KDE",
-        "JavaScript": "true",
         "VBScript": "false",
         "JavaApplets": "true",
         "ActiveXControls": "false",
-        "Frames": "true",
-        "IFrames": "true",
-        "Cookies": "true",
-        "BackgroundSounds": "true"
+        "BackgroundSounds": "false"
       }
     },
     "KHTML_Dynamic": {
@@ -466,14 +427,10 @@
         "RenderingEngine_Version": "unknown",
         "RenderingEngine_Description": "a WebKit Fork by UC Web",
         "RenderingEngine_Maker": "UC Web",
-        "JavaScript": "true",
         "VBScript": "false",
-        "JavaApplets": "true",
+        "JavaApplets": "false",
         "ActiveXControls": "false",
-        "Frames": "true",
-        "IFrames": "true",
-        "Cookies": "true",
-        "BackgroundSounds": "true"
+        "BackgroundSounds": "false"
       }
     },
     "U3": {
@@ -482,14 +439,10 @@
         "RenderingEngine_Version": "unknown",
         "RenderingEngine_Description": "a WebKit Fork by UC Web",
         "RenderingEngine_Maker": "UC Web",
-        "JavaScript": "true",
         "VBScript": "false",
-        "JavaApplets": "true",
+        "JavaApplets": "false",
         "ActiveXControls": "false",
-        "Frames": "true",
-        "IFrames": "true",
-        "Cookies": "true",
-        "BackgroundSounds": "true"
+        "BackgroundSounds": "false"
       }
     },
     "Blink": {
@@ -498,14 +451,10 @@
         "RenderingEngine_Version": "unknown",
         "RenderingEngine_Description": "a WebKit Fork by Google",
         "RenderingEngine_Maker": "Google Inc",
-        "JavaScript": "true",
         "VBScript": "false",
-        "JavaApplets": "true",
+        "JavaApplets": "false",
         "ActiveXControls": "false",
-        "Frames": "true",
-        "IFrames": "true",
-        "Cookies": "true",
-        "BackgroundSounds": "true"
+        "BackgroundSounds": "false"
       }
     }
   }

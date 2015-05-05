@@ -22,6 +22,7 @@
         "Frames": "true",
         "IFrames": "true",
         "JavaScript": "true",
+        "JavaApplets": "false",
         "CssVersion": "3"
       },
       "children": [

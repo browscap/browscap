@@ -20,6 +20,7 @@
         "Win32": "false",
         "Frames": "true",
         "IFrames": "true",
+        "JavaApplets": "false",
         "JavaScript": "true",
         "CssVersion": "3"
       },
