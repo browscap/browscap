@@ -15,7 +15,7 @@ return [
             'Platform_Version' => '10.0',
             'Platform_Bits' => '64',
             'Platform_Maker' => 'Microsoft Corporation',
-            'Win64' => false,
+            'Win64' => true,
             'isMobileDevice' => false,
             'isTablet' => false,
             'Crawler' => false,
