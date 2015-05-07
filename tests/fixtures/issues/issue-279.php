@@ -993,7 +993,7 @@ return [
             'Browser' => 'Exabot',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
-            'Browser_Maker' => 'www.exabot.com',
+            'Browser_Maker' => 'Dasault Systems',
             'Version' => '3.0',
             'MajorVer' => '3',
             'MinorVer' => '0',

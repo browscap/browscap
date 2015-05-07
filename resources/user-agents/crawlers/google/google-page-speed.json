@@ -1,10 +1,10 @@
 {
-  "division": "Google Page Speed",
+  "division": "Google PageSpeed Insights",
   "sortIndex": 1072,
   "lite": false,
   "userAgents": [
     {
-      "userAgent": "Google Page Speed",
+      "userAgent": "Google PageSpeed Insights",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser_Maker": "Google Inc",
@@ -13,8 +13,8 @@
         "IFrames": "true",
         "Tables": "true",
         "Crawler": "true",
-        "Comment": "Google Page Speed",
-        "Browser": "Google Page Speed"
+        "Comment": "Google PageSpeed Insights",
+        "Browser": "Google PageSpeed Insights"
       },
       "children": [
         {

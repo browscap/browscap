@@ -1,16 +1,16 @@
 {
-  "division": "WebKit/webOS Generic",
+  "division": "WebKit\/webOS Generic",
   "sortIndex": 1941,
   "lite": false,
   "userAgents": [
     {
-      "userAgent": "WebKit/webOS Generic",
+      "userAgent": "WebKit\/webOS Generic",
       "engine": "WebKit",
       "device": "general Mobile Device",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "WebKit/webOS Generic",
-        "Browser": "WebKit/webOS",
+        "Comment": "WebKit\/webOS Generic",
+        "Browser": "WebKit\/webOS",
         "Browser_Type": "Browser",
         "Browser_Maker": "HP",
         "Win32": "false",

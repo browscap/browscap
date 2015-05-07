@@ -4,7 +4,77 @@
   "lite": true,
   "userAgents": [
     {
-      "userAgent": "IE 10.0",
+      "userAgent": "IE 10.0 for Win RT",
+      "engine": "Trident_6",
+      "device": "general Tablet",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "IE 10.0",
+        "Browser": "IE",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Microsoft Corporation",
+        "Version": "10.0",
+        "MajorVer": "10",
+        "MinorVer": "0",
+        "Win32": "false",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "BackgroundSounds": "true",
+        "JavaScript": "true",
+        "VBScript": "true",
+        "JavaApplets": "true",
+        "ActiveXControls": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (*MSIE 10.#PLATFORM#Trident\/6.0*Touch*)*",
+          "platforms": [
+            "WinRT8_32", "WinRT8_1_32"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "IE 10.0 for Tablet",
+      "engine": "Trident_6",
+      "device": "general Tablet",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "IE 10.0",
+        "Browser": "IE",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Microsoft Corporation",
+        "Version": "10.0",
+        "MajorVer": "10",
+        "MinorVer": "0",
+        "Win32": "false",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "BackgroundSounds": "true",
+        "JavaScript": "true",
+        "VBScript": "true",
+        "JavaApplets": "true",
+        "ActiveXControls": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (*MSIE 10.#PLATFORM#Trident\/6.0*Touch*)*",
+          "platforms": [
+            "Win8_x64", "Win8_64", "Win8_32",
+            "Win8_1_x64", "Win8_1_64", "Win8_1_32",
+            "Win10_x64", "Win10_64", "Win10_32", "Win10_x64_B", "Win10_64_B", "Win10_32_B"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "IE 10.0 for Desktop",
       "engine": "Trident_6",
       "device": "Windows Desktop",
       "properties": {
@@ -30,6 +100,14 @@
         "CssVersion": "3"
       },
       "children": [
+        {
+          "match": "Mozilla\/5.0 (*MSIE 10.#PLATFORM#Trident\/6.0*Xbox; Xbox One*)*",
+          "device": "Microsoft Xbox One",
+          "platforms": [
+            "Win8_x64", "Win8_64", "Win8_32",
+            "Win8_1_x64", "Win8_1_64", "Win8_1_32"
+          ]
+        },
         {
           "match": "Mozilla\/5.0 (*MSIE 10.#PLATFORM#Trident\/6.0*)*",
           "platforms": [
@@ -131,13 +209,13 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible; MSIE 10.0; Windows 95; Anonymisiert*Trident/6.0*)*",
+          "match": "Mozilla\/5.0 (compatible; MSIE 10.0; Windows 95; Anonymisiert*Trident\/6.0*)*",
           "platforms": [
             "Win8_32"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible; MSIE #MAJORVER#.#MINORVER#*; #PLATFORM#Trident/6.0; Xbox; Xbox One*",
+          "match": "Mozilla\/5.0 (compatible; MSIE #MAJORVER#.#MINORVER#*; #PLATFORM#Trident\/6.0; Xbox; Xbox One*",
           "device": "Microsoft Xbox One",
           "platforms": [
             "Win8_x64", "Win8_64", "Win8_32"

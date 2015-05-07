@@ -1,0 +1,36 @@
+{
+  "division": "iCab #MAJORVER#.#MINORVER#",
+  "versions": [1],
+  "sortIndex": 1400,
+  "lite": false,
+  "userAgents": [
+    {
+      "userAgent": "iCab Mobile #MAJORVER#.#MINORVER#",
+      "platform": "iOS",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "iCab Mobile #MAJORVER#.#MINORVER#",
+        "Browser": "iCab Mobile",
+        "Browser_Type": "Browser",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true"
+      },
+      "children": [
+        {
+          "match": "iCabMobile\/#MAJORVER#.#MINORVER#* CFNetwork\/#PLATFORM#",
+          "platforms": [
+            "Darwin"
+          ]
+        }
+      ]
+    }
+  ]
+}

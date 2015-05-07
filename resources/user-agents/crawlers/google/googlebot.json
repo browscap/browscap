@@ -18,7 +18,7 @@
       },
       "children": [
         {
-          "match": "Google\/0.8* CFNetwork\/* Darwin\/*",
+          "match": "Google\/0.8* CFNetwork\/#PLATFORM#",
           "device": "Macintosh",
           "properties": {
             "Version": "0.8",
@@ -29,7 +29,7 @@
           ]
         },
         {
-          "match": "Google\/0.9* CFNetwork\/* Darwin\/*",
+          "match": "Google\/0.9* CFNetwork\/#PLATFORM#",
           "device": "Macintosh",
           "device": "Macintosh",
           "properties": {
@@ -41,7 +41,7 @@
           ]
         },
         {
-          "match": "Google\/* CFNetwork\/* #PLATFORM#",
+          "match": "Google\/* CFNetwork\/#PLATFORM#",
           "platforms": [
             "Darwin"
           ]

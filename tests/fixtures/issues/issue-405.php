@@ -4,10 +4,10 @@ return [
     'issue-405-A' => [
         'Mozilla/5.0 (PlayStation 4 1.75) AppleWebKit/536.26 (KHTML, like Gecko)',
         [
-            'Browser' => 'Playstation Browser',
+            'Browser' => 'NetFront',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
-            'Browser_Maker' => 'Sony',
+            'Browser_Maker' => 'Access',
             'Version' => '0.0',
             'MajorVer' => '0',
             'MinorVer' => '0',
@@ -36,6 +36,7 @@ return [
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Amazon.com, Inc.',
+            'Browser_Modus' => 'unknown',
             'Version' => '3.2',
             'MajorVer' => '3',
             'MinorVer' => '2',

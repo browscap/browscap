@@ -38,6 +38,13 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (compatible; MSIE 9.0; #PLATFORM#Trident/5.0*AvantBrowser*",
+          "platforms": [
+            "Win8_x64", "Win8_64", "Win8_32",
+            "Win7_x64", "Win7_64", "Win7_32"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (*MSIE 9.0; #PLATFORM#Trident\/5.0*Avant Browser*",
           "platforms": [
             "Vista_32", "WinXPa_32"

@@ -100,7 +100,7 @@
         {
           "match": "Validator.nu\/LV*",
           "properties": {
-            "Browser": "Validator.nu/LV"
+            "Browser": "Validator.nu\/LV"
           }
         },
         {

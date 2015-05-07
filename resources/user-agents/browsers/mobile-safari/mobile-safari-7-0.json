@@ -82,7 +82,7 @@
           ]
         },
         {
-          "match": "MobileSafari\/95??.* CFNetwork\/* Darwin\/*",
+          "match": "MobileSafari\/95??.* CFNetwork\/#PLATFORM#",
           "platforms": [
             "Darwin"
           ]

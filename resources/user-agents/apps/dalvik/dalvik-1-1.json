@@ -26,35 +26,35 @@
       },
       "children": [
         {
-          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#Garmin-Asus A50 Build\/*",
+          "match": "Dalvik\/#MAJORVER#.#MINORVER#* (#PLATFORM#Garmin-Asus A50 Build\/*",
           "device": "Garmin-Asus A50",
           "platforms": [
             "Android_2_1"
           ]
         },
         {
-          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#MB525 Build\/*",
+          "match": "Dalvik\/#MAJORVER#.#MINORVER#* (#PLATFORM#MB525 Build\/*",
           "device": "Motorola MB525",
           "platforms": [
             "Android_2_1"
           ]
         },
         {
-          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#Milestone Build\/*",
+          "match": "Dalvik\/#MAJORVER#.#MINORVER#* (#PLATFORM#Milestone Build\/*",
           "device": "Motorola Milestone",
           "platforms": [
             "Android_2_1"
           ]
         },
         {
-          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#X10i Build\/*",
+          "match": "Dalvik\/#MAJORVER#.#MINORVER#* (#PLATFORM#X10i Build\/*",
           "device": "SonyEricsson X10i",
           "platforms": [
             "Android_2_1"
           ]
         },
         {
-          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#",
+          "match": "Dalvik\/#MAJORVER#.#MINORVER#* (#PLATFORM#",
           "platforms": [
             "Android_2_1", "Android"
           ]

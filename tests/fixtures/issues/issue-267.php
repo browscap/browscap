@@ -570,6 +570,7 @@ return [
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Amazon.com, Inc.',
+            'Browser_Modus' => 'Desktop Mode',
             'Version' => '3.15',
             'MajorVer' => '3',
             'MinorVer' => '15',
@@ -598,6 +599,7 @@ return [
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Amazon.com, Inc.',
+            'Browser_Modus' => 'Desktop Mode',
             'Version' => '3.15',
             'MajorVer' => '3',
             'MinorVer' => '15',
@@ -2508,6 +2510,7 @@ return [
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Amazon.com, Inc.',
+            'Browser_Modus' => 'Desktop Mode',
             'Version' => '3.16',
             'MajorVer' => '3',
             'MinorVer' => '16',
@@ -3372,7 +3375,7 @@ return [
     'issue-267-DW' => [
         'psbot-image (+http://www.picsearch.com/bot.html)',
         [
-            'Browser' => 'Psbot',
+            'Browser' => 'Picsearch Bot',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Picsearch Services AB',

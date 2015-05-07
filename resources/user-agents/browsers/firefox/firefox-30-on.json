@@ -99,10 +99,17 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#; rv:#MAJORVER#.#MINORVER#*) Gecko\/* Firefox anonymized by *",
+          "match": "Mozilla\/5.0 (#PLATFORM#; rv:#MAJORVER#*) Gecko\/* Firefox\/#MAJORVER#*anonymized by *",
           "device": "Windows Desktop",
           "platforms": [
-            "WinXPa_32", "Windows"
+            "WinXPa_32", "Vista_32", "Win7_32", "Windows"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#; rv:#MAJORVER#*) Gecko\/* Firefox anonymized by *",
+          "device": "Windows Desktop",
+          "platforms": [
+            "WinXPa_32", "Vista_32", "Windows"
           ]
         },
         {
@@ -142,6 +149,17 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#rv:#MAJORVER#.#MINORVER#*) Gecko\/*\/",
+          "device": "Windows Desktop",
+          "platforms": [
+            "WinXPa_32",
+            "WinXPa_64", "WinXPb_64", "WinXPb_32", "Vista_x64", "Vista_64", "Vista_32",
+            "Win7_x64", "Win7_64", "Win7_32", "Win8_x64", "Win8_64", "Win8_32",
+            "Win8_1_x64", "Win8_1_64", "Win8_1_32",
+            "Win10_x64", "Win10_64", "Win10_32", "Win10_x64_B", "Win10_64_B", "Win10_32_B"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/*\/#MAJORVER#.#MINORVER#*",
           "device": "Macintosh",
           "platforms": [
@@ -154,6 +172,7 @@
     },
     {
       "userAgent": "Firefox #MAJORVER#.#MINORVER# for Android",
+      "engine": "Gecko_Dynamic",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
@@ -175,14 +194,13 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/#MAJORVER#.#MINORVER#*",
-          "device": "general Mobile Phone",
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/#MAJORVER#.*",
           "platforms": [
             "AndroidMobile"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/#MAJORVER#.*",
           "device": "general Tablet",
           "platforms": [
             "AndroidTablet"
@@ -192,6 +210,7 @@
     },
     {
       "userAgent": "Firefox #MAJORVER#.#MINORVER# for Maemo",
+      "engine": "Gecko_Dynamic",
       "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",

@@ -32,6 +32,13 @@
       },
       "children": [
         {
+          "match": "Mozilla\/2.*(compatible; MS FrontPage 5.0*)",
+          "properties": {
+            "Version": "5.0",
+            "MajorVer": "5"
+          }
+        },
+        {
           "match": "Mozilla\/?* (compatible; MS FrontPage*)"
         },
         {

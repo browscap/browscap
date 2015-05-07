@@ -32,7 +32,7 @@
       },
       "children": [
         {
-          "match": "FastBrowser* CFNetwork\/* #PLATFORM#",
+          "match": "FastBrowser* CFNetwork\/#PLATFORM#",
           "platforms": [
             "Darwin"
           ]
