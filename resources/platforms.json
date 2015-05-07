@@ -48,6 +48,10 @@
         "Win64": "false"
       }
     },
+    "OSX_C": {
+      "match": "*Macintosh; OS X*",
+      "inherits": "OSX"
+    },
     "OSX_10_4_A": {
       "match": "*Mac OS X 10_4*",
       "inherits": "OSX",
@@ -118,6 +122,13 @@
         "Platform_Version": "10.8"
       }
     },
+    "OSX_10_8_C": {
+      "match": "*Macintosh; OS X 10.8*",
+      "inherits": "OSX",
+      "properties": {
+        "Platform_Version": "10.8"
+      }
+    },
     "OSX_10_9_A": {
       "match": "*Mac OS X 10_9*",
       "inherits": "OSX",
@@ -132,6 +143,13 @@
         "Platform_Version": "10.9"
       }
     },
+    "OSX_10_9_C": {
+      "match": "*Macintosh; OS X 10.9*",
+      "inherits": "OSX",
+      "properties": {
+        "Platform_Version": "10.9"
+      }
+    },
     "OSX_10_10_A": {
       "match": "*Mac OS X 10_10*",
       "inherits": "OSX",
@@ -141,6 +159,13 @@
     },
     "OSX_10_10_B": {
       "match": "*Mac OS X 10.10*",
+      "inherits": "OSX",
+      "properties": {
+        "Platform_Version": "10.10"
+      }
+    },
+    "OSX_10_10_C": {
+      "match": "*Macintosh; OS X 10.10*",
       "inherits": "OSX",
       "properties": {
         "Platform_Version": "10.10"
