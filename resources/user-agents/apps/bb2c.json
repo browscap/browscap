@@ -32,7 +32,7 @@
       },
       "children": [
         {
-          "match": "BB2C* CFNetwork\/* #PLATFORM#",
+          "match": "BB2C* CFNetwork\/#PLATFORM#",
           "platforms": [
             "Darwin"
           ]

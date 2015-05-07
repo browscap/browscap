@@ -26,13 +26,14 @@
         },
         {
           "match": "curl\/7.19#PLATFORM#",
+          "device": "Linux Desktop",
           "properties": {
             "Version": "7.19",
             "MajorVer": "7",
             "MinorVer": "19"
           },
           "platforms": [
-            "Linux", "Linux_64_B"
+            "Linux_64_B", "Linux"
           ]
         },
         {
@@ -44,30 +45,53 @@
           }
         },
         {
+          "match": "curl\/7.15#PLATFORM#",
+          "device": "Linux Desktop",
+          "properties": {
+            "Version": "7.15",
+            "MajorVer": "7",
+            "MinorVer": "15"
+          },
+          "platforms": [
+            "Linux_64_B", "Linux"
+          ]
+        },
+        {
+          "match": "curl\/7.15",
+          "properties": {
+            "Version": "7.15",
+            "MajorVer": "7",
+            "MinorVer": "15"
+          }
+        },
+        {
           "match": "curl*"
         },
         {
           "match": "*WinHttpRequest*",
           "properties": {
             "Browser": "WinHttp",
-            "Browser_Maker": "Microsoft Corporation",
-            "Browser_Type": "Bot/Crawler"
+            "Browser_Maker": "Microsoft Corporation"
           }
         },
         {
           "match": "WinHTTP*",
           "properties": {
             "Browser": "WinHttp",
-            "Browser_Maker": "Microsoft Corporation",
-            "Browser_Type": "Bot/Crawler"
+            "Browser_Maker": "Microsoft Corporation"
           }
         },
         {
           "match": "WinHttp*",
           "properties": {
             "Browser": "WinHttp",
-            "Browser_Maker": "Microsoft Corporation",
-            "Browser_Type": "Bot/Crawler"
+            "Browser_Maker": "Microsoft Corporation"
+          }
+        },
+        {
+          "match": "TrendWinHttp*",
+          "properties": {
+            "Browser": "TrendWinHttp"
           }
         }
       ]

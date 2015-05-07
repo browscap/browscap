@@ -1,0 +1,36 @@
+{
+  "division": "Access NetFront #MAJORVER#.#MINORVER#",
+  "versions": ["3.5", "3.4", "3.3", "3.2", "3.1", 3, "2.2", "2.1", 2],
+  "sortIndex": 1541,
+  "lite": false,
+  "userAgents": [
+    {
+      "userAgent": "NetFront NX #MAJORVER#.#MINORVER#",
+      "engine": "WebKit",
+      "device": "general Mobile Device",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Access NetFront #MAJORVER#.#MINORVER#",
+        "Browser": "NetFront NX",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Access",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (Nintendo WiiU) AppleWebKit\/* (KHTML, like Gecko) NX\/#MAJORVER#.#MINORVER#* NintendoBrowser\/*",
+          "engine": "WebKit",
+          "device": "Nintendo WiiU"
+        }
+      ]
+    }
+  ]
+}

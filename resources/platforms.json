@@ -48,6 +48,10 @@
         "Win64": "false"
       }
     },
+    "OSX_C": {
+      "match": "*Macintosh; OS X*",
+      "inherits": "OSX"
+    },
     "OSX_10_4_A": {
       "match": "*Mac OS X 10_4*",
       "inherits": "OSX",
@@ -118,6 +122,13 @@
         "Platform_Version": "10.8"
       }
     },
+    "OSX_10_8_C": {
+      "match": "*Macintosh; OS X 10.8*",
+      "inherits": "OSX",
+      "properties": {
+        "Platform_Version": "10.8"
+      }
+    },
     "OSX_10_9_A": {
       "match": "*Mac OS X 10_9*",
       "inherits": "OSX",
@@ -132,6 +143,13 @@
         "Platform_Version": "10.9"
       }
     },
+    "OSX_10_9_C": {
+      "match": "*Macintosh; OS X 10.9*",
+      "inherits": "OSX",
+      "properties": {
+        "Platform_Version": "10.9"
+      }
+    },
     "OSX_10_10_A": {
       "match": "*Mac OS X 10_10*",
       "inherits": "OSX",
@@ -141,6 +159,13 @@
     },
     "OSX_10_10_B": {
       "match": "*Mac OS X 10.10*",
+      "inherits": "OSX",
+      "properties": {
+        "Platform_Version": "10.10"
+      }
+    },
+    "OSX_10_10_C": {
+      "match": "*Macintosh; OS X 10.10*",
       "inherits": "OSX",
       "properties": {
         "Platform_Version": "10.10"
@@ -590,82 +615,82 @@
       }
     },
     "iOS_H": {
-      "match": "iPhone_OS/*",
+      "match": "iPhone_OS\/*",
       "inherits": "iOS"
     },
     "iOS_H_5_0": {
-      "match": "iPhone_OS/5.0*",
+      "match": "iPhone_OS\/5.0*",
       "inherits": "iOS",
       "properties": {
         "Platform_Version": "5.0"
       }
     },
     "iOS_I": {
-      "match": "* iOS/*",
+      "match": "* iOS\/*",
       "inherits": "iOS"
     },
     "iOS_I_7_0": {
-      "match": "* iOS/7.0*",
+      "match": "* iOS\/7.0*",
       "inherits": "iOS",
       "properties": {
         "Platform_Version": "7.0"
       }
     },
     "iOS_I_7_1": {
-      "match": "* iOS/7.1*",
+      "match": "* iOS\/7.1*",
       "inherits": "iOS",
       "properties": {
         "Platform_Version": "7.1"
       }
     },
     "iOS_I_8_0": {
-      "match": "* iOS/8.0*",
+      "match": "* iOS\/8.0*",
       "inherits": "iOS",
       "properties": {
         "Platform_Version": "8.0"
       }
     },
     "iOS_J": {
-      "match": "iOS/*",
+      "match": "iOS\/*",
       "inherits": "iOS"
     },
     "iOS_J_5_1": {
-      "match": "iOS/5.1*",
+      "match": "iOS\/5.1*",
       "inherits": "iOS",
       "properties": {
         "Platform_Version": "5.1"
       }
     },
     "iOS_J_6_0": {
-      "match": "iOS/6.0*",
+      "match": "iOS\/6.0*",
       "inherits": "iOS",
       "properties": {
         "Platform_Version": "6.0"
       }
     },
     "iOS_J_6_1": {
-      "match": "iOS/6.1*",
+      "match": "iOS\/6.1*",
       "inherits": "iOS",
       "properties": {
         "Platform_Version": "6.1"
       }
     },
     "iOS_J_7_0": {
-      "match": "iOS/7.0*",
+      "match": "iOS\/7.0*",
       "inherits": "iOS",
       "properties": {
         "Platform_Version": "7.0"
       }
     },
     "iOS_J_7_1": {
-      "match": "iOS/7.1*",
+      "match": "iOS\/7.1*",
       "inherits": "iOS",
       "properties": {
         "Platform_Version": "7.1"
       }
     },
     "iOS_J_8_0": {
-      "match": "iOS/8.0*",
+      "match": "iOS\/8.0*",
       "inherits": "iOS",
       "properties": {
         "Platform_Version": "8.0"
@@ -848,21 +873,28 @@
       "inherits": "Ubuntu"
     },
     "Ubuntu_08_04": {
-      "match": "*Ubuntu/8.04*",
+      "match": "*Ubuntu\/8.04*",
       "inherits": "Ubuntu",
       "properties": {
         "Platform_Version": "8.04"
       }
     },
     "Ubuntu_10_04": {
-      "match": "*Ubuntu/10.04*",
+      "match": "*Ubuntu\/10.04*",
       "inherits": "Ubuntu",
       "properties": {
         "Platform_Version": "10.04"
       }
     },
+    "Ubuntu_10_10": {
+      "match": "*Ubuntu\/10.10*",
+      "inherits": "Ubuntu",
+      "properties": {
+        "Platform_Version": "10.10"
+      }
+    },
     "Ubuntu_12_04": {
-      "match": "*Ubuntu/12.04*",
+      "match": "*Ubuntu\/12.04*",
       "inherits": "Ubuntu",
       "properties": {
         "Platform_Version": "12.04"
@@ -877,7 +909,7 @@
       }
     },
     "Ubuntu_08_04_64": {
-      "match": "*Ubuntu/8.04*",
+      "match": "*Ubuntu\/8.04*",
       "inherits": "Ubuntu",
       "properties": {
         "Platform_Version": "8.04",
@@ -886,7 +918,7 @@
       }
     },
     "Ubuntu_10_04_64": {
-      "match": "*Ubuntu/10.04*",
+      "match": "*Ubuntu\/10.04*",
       "inherits": "Ubuntu",
       "properties": {
         "Platform_Version": "10.04",
@@ -894,8 +926,17 @@
         "Platform_Bits": "64"
       }
     },
+    "Ubuntu_10_10_64": {
+      "match": "*Ubuntu\/10.10*",
+      "inherits": "Ubuntu",
+      "properties": {
+        "Platform_Version": "10.10",
+        "Browser_Bits": "64",
+        "Platform_Bits": "64"
+      }
+    },
     "Ubuntu_12_04_64": {
-      "match": "*Ubuntu/12.04*",
+      "match": "*Ubuntu\/12.04*",
       "inherits": "Ubuntu",
       "properties": {
         "Platform_Version": "12.04",
@@ -1063,6 +1104,18 @@
       "properties": {
         "Platform": "WinNT",
         "Platform_Bits": "64",
+        "Platform_Description": "Windows NT",
+        "Win32": "false",
+        "Win64": "true"
+      }
+    },
+    "NT40_64": {
+      "match": "*Windows NT 4.0; *WOW64*",
+      "inherits": "Windows",
+      "properties": {
+        "Platform": "WinNT",
+        "Platform_Bits": "64",
+        "Platform_Version": "4.0",
         "Platform_Description": "Windows NT",
         "Win32": "false",
         "Win64": "true"
@@ -1855,7 +1908,7 @@
       }
     },
     "Android_2_3_B": {
-      "match": "* Build/GINGERBREAD*",
+      "match": "* Build\/GINGERBREAD*",
       "inherits": "Android",
       "properties": {
         "Platform_Version": "2.3"
@@ -1970,6 +2023,13 @@
     },
     "Android_4_1_D": {
       "match": "*Android 4.1*Linux*",
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "4.1"
+      }
+    },
+    "Android_4_1_E": {
+      "match": "*Linux*Android; 4.1*",
       "inherits": "Android",
       "properties": {
         "Platform_Version": "4.1"
@@ -2197,11 +2257,11 @@
       "inherits": "IRIX64"
     },
     "OS2": {
-      "match": "*OS/2*",
+      "match": "*OS\/2*",
       "properties": {
-        "Platform": "OS/2",
+        "Platform": "OS\/2",
         "Platform_Maker": "IBM",
-        "Platform_Description": "OS/2",
+        "Platform_Description": "OS\/2",
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
@@ -2393,7 +2453,7 @@
       "inherits": "Unix"
     },
     "Bada_1_0": {
-      "match": "*Bada/1.*",
+      "match": "*Bada\/1.*",
       "properties": {
         "Platform": "Bada",
         "Platform_Version": "1.0",
@@ -2407,14 +2467,14 @@
       }
     },
     "Bada_1_2": {
-      "match": "*Bada/1.2*",
+      "match": "*Bada\/1.2*",
       "inherits": "Bada_1_0",
       "properties": {
         "Platform_Version": "1.2"
       }
     },
     "Bada_2_0": {
-      "match": "*Bada/2.*",
+      "match": "*Bada\/2.*",
       "inherits": "Bada_1_0",
       "properties": {
         "Platform_Version": "2.0"
@@ -2449,7 +2509,7 @@
       }
     },
     "webOS": {
-      "match": "*webOS/*",
+      "match": "*webOS\/*",
       "properties": {
         "Platform": "webOS",
         "Platform_Description": "HP webOS",
@@ -2462,67 +2522,67 @@
       }
     },
     "webOS_10": {
-      "match": "*webOS/1.0*",
+      "match": "*webOS\/1.0*",
       "inherits": "webOS",
       "properties": {
         "Platform_Version": "1.0"
       }
     },
     "webOS_11": {
-      "match": "*webOS/1.1*",
+      "match": "*webOS\/1.1*",
       "inherits": "webOS",
       "properties": {
         "Platform_Version": "1.1"
       }
     },
     "webOS_12": {
-      "match": "*webOS/1.2*",
+      "match": "*webOS\/1.2*",
       "inherits": "webOS",
       "properties": {
         "Platform_Version": "1.2"
       }
     },
     "webOS_13": {
-      "match": "*webOS/1.3*",
+      "match": "*webOS\/1.3*",
       "inherits": "webOS",
       "properties": {
         "Platform_Version": "1.3"
       }
     },
     "webOS_14": {
-      "match": "*webOS/1.4*",
+      "match": "*webOS\/1.4*",
       "inherits": "webOS",
       "properties": {
         "Platform_Version": "1.4"
       }
     },
     "webOS_20": {
-      "match": "*webOS/2.0*",
+      "match": "*webOS\/2.0*",
       "inherits": "webOS",
       "properties": {
         "Platform_Version": "2.0"
       }
     },
     "webOS_21": {
-      "match": "*webOS/2.1*",
+      "match": "*webOS\/2.1*",
       "inherits": "webOS",
       "properties": {
         "Platform_Version": "2.1"
       }
     },
     "webOS_22": {
-      "match": "*webOS/2.2*",
+      "match": "*webOS\/2.2*",
       "inherits": "webOS",
       "properties": {
         "Platform_Version": "2.2"
       }
     },
     "webOS_B": {
-      "match": "*hpwOS/*",
+      "match": "*hpwOS\/*",
       "inherits": "webOS"
     },
     "webOS_B_30": {
-      "match": "*hpwOS/3.*",
+      "match": "*hpwOS\/3.*",
       "inherits": "webOS",
       "properties": {
         "Platform_Version": "3.0"
@@ -2539,6 +2599,19 @@
         "Win64": "false",
         "Browser_Bits": "32",
         "Platform_Bits": "32"
+      }
+    },
+    "Darwin_64": {
+      "match": "*Darwin*(x86_64)*",
+      "properties": {
+        "Platform": "Darwin",
+        "Platform_Maker": "Apple Inc",
+        "Platform_Description": "Darwin is a Core Component of MacOSX and iOS",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Browser_Bits": "64",
+        "Platform_Bits": "64"
       }
     },
     "AIX": {
@@ -2661,7 +2734,7 @@
       }
     },
     "JAVA": {
-      "match": "*/MIDP*",
+      "match": "*\/MIDP*",
       "properties": {
         "Platform": "JAVA",
         "Platform_Maker": "Oracle",
@@ -2672,7 +2745,7 @@
       }
     },
     "FirefoxOS": {
-      "match": "*Gecko/*",
+      "match": "*Gecko\/*",
       "properties": {
         "Platform": "FirefoxOS",
         "Platform_Maker": "Mozilla Foundation",

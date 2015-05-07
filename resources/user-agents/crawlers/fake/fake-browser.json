@@ -35,24 +35,6 @@
           "match": "BlackBerry (*)  User-Agent: BlackBerry*"
         },
         {
-          "match": "Firefox 3.6*"
-        },
-        {
-          "match": "Firefox*"
-        },
-        {
-          "match": "Firefox\/*"
-        },
-        {
-          "match": "Firefox\/3.6*"
-        },
-        {
-          "match": "Firefox\/5.*"
-        },
-        {
-          "match": "Firefox\/8*"
-        },
-        {
           "match": "Mozilla 5.\/0 (compatible) Opera or Gecko"
         },
         {
@@ -272,12 +254,6 @@
           "match": "Mozilla\/4.0 (Windows; ?; Windows NT; *) Gecko\/* Mozilla\/*",
           "platforms": [
             "NT"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (*Linux i686; *; rv:99.0) Gecko\/* Firefox\/*",
-          "platforms": [
-            "Linux_32"
           ]
         },
         {

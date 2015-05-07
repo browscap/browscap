@@ -32,7 +32,7 @@
       },
       "children": [
         {
-          "match": "BigSlickGoFish* CFNetwork\/* #PLATFORM#",
+          "match": "BigSlickGoFish* CFNetwork\/#PLATFORM#",
           "platforms": [
             "Darwin"
           ]

@@ -322,7 +322,7 @@
           }
         },
         {
-          "match": "Mozilla\/*(*redditbot\/*http:\/\/www.reddit.com\/feedback*)",
+          "match": "Mozilla\/5.0*(*redditbot\/*http:\/\/www.reddit.com\/feedback*)",
           "properties": {
             "Browser": "Reddit"
           }
@@ -2521,23 +2521,6 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; SMTBot\/1.0*",
-          "properties": {
-            "Browser": "SMTBot",
-            "Browser_Maker": "SimilarTech Ltd.",
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (compatible; SMTBot\/*",
-          "properties": {
-            "Browser": "SMTBot",
-            "Browser_Maker": "SimilarTech Ltd."
-          }
-        },
-        {
           "match": "Mozilla\/5.0 (compatible; ca-crawler\/1.0*",
           "properties": {
             "Browser": "ca-crawler",
@@ -2931,7 +2914,7 @@
           "match": "BUbiNG*",
           "properties": {
             "Browser": "BUbiNG Bot",
-            "Browser_Maker": "http://law.di.unimi.it"
+            "Browser_Maker": "http:\/\/law.di.unimi.it"
           }
         },
         {
@@ -3346,7 +3329,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; MerchantCentricBot/1.0*",
+          "match": "Mozilla\/5.0 (compatible; MerchantCentricBot\/1.0*",
           "properties": {
             "Browser": "MerchantCentricBot",
             "Version": "1.0",
@@ -3355,7 +3338,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; MerchantCentricBot/*",
+          "match": "Mozilla\/5.0 (compatible; MerchantCentricBot\/*",
           "properties": {
             "Browser": "MerchantCentricBot"
           }
@@ -3859,6 +3842,18 @@
           "match": "mbot*",
           "properties": {
             "Browser": "mbot"
+          }
+        },
+        {
+          "match": "NetLyzer FastProbe*",
+          "properties": {
+            "Browser": "NetLyzer FastProbe"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; TestCrawler*",
+          "properties": {
+            "Browser": "TestCrawler"
           }
         }
       ]

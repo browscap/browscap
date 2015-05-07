@@ -64,7 +64,10 @@
         },
         {
           "match": "DoCoMo\/2.0 N905i(c100;TB;W24H16)*",
-          "device": "NEC N905i"
+          "device": "NEC N905i",
+          "platforms": [
+            "Maemo"
+          ]
         },
         {
           "match": "DoCoMo\/2.0 P06B*"

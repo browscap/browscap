@@ -32,7 +32,7 @@ return [
     'issue-234-B' => [
         'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_1 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Coast/3.0.0.74604 Mobile/11D201 Safari/7534.48.3',
         [
-            'Browser' => 'Opera Coast',
+            'Browser' => 'Coast',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Opera Software ASA',

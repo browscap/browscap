@@ -1,0 +1,81 @@
+{
+  "division": "SMTBot",
+  "sortIndex": 171,
+  "lite": false,
+  "userAgents": [
+    {
+      "userAgent": "SMTBot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "SMTBot",
+        "Browser": "SMTBot",
+        "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "SimilarTech Ltd.",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (compatible; SMTBot\/1.0*",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; SMTBot\/*"
+        },
+        {
+          "match": "Mozilla\/5.0 (iPhone#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Version\/*Safari\/* (compatible; SMTBot\/1.0*",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          },
+          "device": "iPhone",
+          "engine": "WebKit",
+          "platforms": [
+            "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0",
+            "iOS_A_8_1",
+            "iOS_A"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (iPhone#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Version\/*Safari\/* (compatible; SMTBot\/*",
+          "device": "iPhone",
+          "engine": "WebKit",
+          "platforms": [
+            "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0",
+            "iOS_A_8_1",
+            "iOS_A"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Version\/*Safari\/* (compatible; SMTBot\/1.0*",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          },
+          "device": "general Mobile Device (Apple)",
+          "engine": "WebKit",
+          "platforms": [
+            "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0",
+            "iOS_A_8_1",
+            "iOS_A"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Version\/*Safari\/* (compatible; SMTBot\/*",
+          "device": "general Mobile Device (Apple)",
+          "engine": "WebKit",
+          "platforms": [
+            "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0",
+            "iOS_A_8_1",
+            "iOS_A"
+          ]
+        }
+      ]
+    }
+  ]
+}
