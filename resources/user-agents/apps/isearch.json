@@ -28,7 +28,7 @@
       },
       "children": [
         {
-          "match": "iSearch\/1.2* CFNetwork\/* #PLATFORM#",
+          "match": "iSearch\/1.2* CFNetwork\/#PLATFORM#",
           "properties": {
             "Version": "1.2",
             "MajorVer": "1",
@@ -39,7 +39,7 @@
           ]
         },
         {
-          "match": "iSearch\/* CFNetwork\/* #PLATFORM#",
+          "match": "iSearch\/* CFNetwork\/#PLATFORM#",
           "platforms": [
             "Darwin"
           ]

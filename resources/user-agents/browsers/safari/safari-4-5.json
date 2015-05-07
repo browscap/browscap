@@ -1,7 +1,7 @@
 {
   "division": "Safari #MAJORVER#.#MINORVER#",
   "versions": ["5.2", "5.1", 5, "4.1", 4],
-  "sortIndex": 1971,
+  "sortIndex": 1973,
   "lite": false,
   "userAgents": [
     {

@@ -25,6 +25,26 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (iPad#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko? Google Web Preview*)*Version\/*Safari\/*",
+          "device": "iPad",
+          "engine": "WebKit",
+          "platforms": [
+            "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_1",
+            "iOS_C_8_0",
+            "iOS_C"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko? Google Web Preview*)*Version\/*Safari\/*",
+          "device": "general Mobile Device (Apple)",
+          "engine": "WebKit",
+          "platforms": [
+            "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_1",
+            "iOS_C_8_0",
+            "iOS_C"
+          ]
+        },
+        {
           "match": "*Google Web Preview*"
         }
       ]

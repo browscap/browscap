@@ -72,7 +72,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#NSZ-GS7\/GX70 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "device": "Sony NSZ-GS7/GX70",
+          "device": "Sony NSZ-GS7\/GX70",
           "platforms": [
             "Android_3_2_GoogleTV"
           ]

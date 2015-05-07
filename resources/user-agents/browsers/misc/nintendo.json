@@ -32,15 +32,6 @@
         {
           "match": "Opera\/* (Nintendo DSi; Opera\/*; *; *)",
           "device": "Nintendo DSi"
-        },
-        {
-          "match": "Mozilla\/* (Nintendo WiiU) AppleWebKit\/* (KHTML, like Gecko) *",
-          "device": "Nintendo WiiU"
-        },
-        {
-          "match": "Mozilla\/* (Nintendo 3DS; *) Version\/*",
-          "engine": "NetFront",
-          "device": "Nintendo 3DS"
         }
       ]
     }

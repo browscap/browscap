@@ -14,12 +14,6 @@
       },
       "children": [
         {
-          "match": "*CFNetwork*",
-          "properties": {
-            "Browser": "CFNetwork"
-          }
-        },
-        {
           "match": "*PhotoStickies\/*",
           "properties": {
             "Browser": "PhotoStickies"
@@ -95,27 +89,6 @@
           "match": "pixfinder\/*",
           "properties": {
             "Browser": "pixfinder"
-          }
-        },
-        {
-          "match": "psbot-image*",
-          "properties": {
-            "Browser": "Psbot",
-            "Browser_Maker": "Picsearch Services AB"
-          }
-        },
-        {
-          "match": "psbot-page*",
-          "properties": {
-            "Browser": "Psbot",
-            "Browser_Maker": "Picsearch Services AB"
-          }
-        },
-        {
-          "match": "psbot\/*",
-          "properties": {
-            "Browser": "Psbot",
-            "Browser_Maker": "Picsearch Services AB"
           }
         },
         {

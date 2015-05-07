@@ -137,7 +137,7 @@
           "match": "*\/UC Browser#MAJORVER#.#MINORVER#* UNTRUSTED\/1.0"
         },
         {
-          "match": "LG-KS20* Browser\/IEMobile\/* MMS/LG-MMS-WINCE* (compatible; MSIE 4.01; Windows CE*)\/UC Browser#MAJORVER#.#MINORVER#*",
+          "match": "LG-KS20* Browser\/IEMobile\/* MMS\/LG-MMS-WINCE* (compatible; MSIE 4.01; Windows CE*)\/UC Browser#MAJORVER#.#MINORVER#*",
           "engine": "Trident",
           "device": "LG KS20",
           "platforms": [

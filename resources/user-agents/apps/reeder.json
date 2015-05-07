@@ -28,7 +28,7 @@
       },
       "children": [
         {
-          "match": "Reeder\/* CFNetwork\/* #PLATFORM#",
+          "match": "Reeder\/* CFNetwork\/#PLATFORM#",
           "platforms": [
             "Darwin"
           ]

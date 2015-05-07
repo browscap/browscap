@@ -28,7 +28,7 @@
       },
       "children": [
         {
-          "match": "Hitpad\/1.4* CFNetwork\/* #PLATFORM#",
+          "match": "Hitpad\/1.4* CFNetwork\/#PLATFORM#",
           "properties": {
             "Version": "1.4",
             "MajorVer": "1",
@@ -39,7 +39,7 @@
           ]
         },
         {
-          "match": "Hitpad* CFNetwork\/* #PLATFORM#",
+          "match": "Hitpad* CFNetwork\/#PLATFORM#",
           "platforms": [
             "Darwin"
           ]

@@ -28,7 +28,7 @@
       },
       "children": [
         {
-          "match": "GoodReader\/3.2* CFNetwork\/* #PLATFORM#",
+          "match": "GoodReader\/3.2* CFNetwork\/#PLATFORM#",
           "properties": {
             "Version": "3.2",
             "MajorVer": "3",
@@ -39,13 +39,13 @@
           ]
         },
         {
-          "match": "GoodReader\/* CFNetwork\/* #PLATFORM#",
+          "match": "GoodReader\/* CFNetwork\/#PLATFORM#",
           "platforms": [
             "Darwin"
           ]
         },
         {
-          "match": "GoodReaderIPad\/2.8* CFNetwork\/* #PLATFORM#",
+          "match": "GoodReaderIPad\/2.8* CFNetwork\/#PLATFORM#",
           "device": "iPad",
           "properties": {
             "Version": "2.8",
@@ -57,7 +57,7 @@
           ]
         },
         {
-          "match": "GoodReaderIPad\/3.0* CFNetwork\/* #PLATFORM#",
+          "match": "GoodReaderIPad\/3.0* CFNetwork\/#PLATFORM#",
           "device": "iPad",
           "properties": {
             "Version": "3.0",
@@ -69,7 +69,7 @@
           ]
         },
         {
-          "match": "GoodReaderIPad\/* CFNetwork\/* #PLATFORM#",
+          "match": "GoodReaderIPad\/* CFNetwork\/#PLATFORM#",
           "device": "iPad",
           "platforms": [
             "Darwin"

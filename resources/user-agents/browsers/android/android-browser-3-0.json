@@ -27,7 +27,7 @@
       },
       "children": [
         {
-          "match": "*Mozilla\/5.0 (#PLATFORM#GT-I5700 Build\/*)*AppleWebKit\/*(*KHTML, like Gecko*)*Version/#MAJORVER#.#MINORVER#*Safari/*",
+          "match": "*Mozilla\/5.0 (#PLATFORM#GT-I5700 Build\/*)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "device": "Samsung GT-I5700",
           "platforms": [
             "Android_4_1"

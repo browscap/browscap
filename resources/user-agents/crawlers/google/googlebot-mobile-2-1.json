@@ -52,7 +52,7 @@
           "match": "DoCoMo\/2.0 N905i(c100;TB;W24H16) (compatible; Googlebot-Mobile\/#MAJORVER#.#MINORVER#*",
           "device": "NEC N905i",
           "platforms": [
-            "JAVA"
+            "Maemo"
           ]
         },
         {

@@ -28,7 +28,7 @@
       },
       "children": [
         {
-          "match": "Spector%20Pro* CFNetwork\/* #PLATFORM#",
+          "match": "Spector%20Pro* CFNetwork\/#PLATFORM#",
           "platforms": [
             "Darwin"
           ]

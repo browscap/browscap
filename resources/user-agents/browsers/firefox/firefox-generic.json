@@ -100,7 +100,8 @@
     },
     {
       "userAgent": "Firefox Generic for Android",
-      "device": "general Mobile Device",
+      "engine": "Gecko",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Firefox Generic",
@@ -118,14 +119,12 @@
       "children": [
         {
           "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko\/*Firefox\/*",
-          "device": "general Mobile Phone (Touch)",
           "platforms": [
             "AndroidMobile"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko\/*Firefox\/ anonymized by Abelssoft*",
-          "device": "general Mobile Phone (Touch)",
           "platforms": [
             "AndroidMobile"
           ]

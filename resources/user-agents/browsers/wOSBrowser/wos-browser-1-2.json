@@ -1,17 +1,17 @@
 {
-  "division": "WebKit/webOS #MAJORVER#.#MINORVER#",
+  "division": "WebKit\/webOS #MAJORVER#.#MINORVER#",
   "versions": [2, 1],
   "sortIndex": 1940,
   "lite": false,
   "userAgents": [
     {
-      "userAgent": "WebKit/webOS #MAJORVER#.#MINORVER#",
+      "userAgent": "WebKit\/webOS #MAJORVER#.#MINORVER#",
       "engine": "WebKit",
       "device": "general Mobile Device",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "WebKit/webOS #MAJORVER#.#MINORVER#",
-        "Browser": "WebKit/webOS",
+        "Comment": "WebKit\/webOS #MAJORVER#.#MINORVER#",
+        "Browser": "WebKit\/webOS",
         "Browser_Type": "Browser",
         "Browser_Maker": "HP",
         "Version": "#MAJORVER#.#MINORVER#",

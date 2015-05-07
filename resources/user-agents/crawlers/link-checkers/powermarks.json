@@ -15,7 +15,7 @@
       },
       "children": [
         {
-          "match": "Mozilla/4.0 (compatible; Powermarks\/3.5*",
+          "match": "Mozilla\/4.0 (compatible; Powermarks\/3.5*",
           "properties": {
             "Version": "3.5",
             "MajorVer": "3",
@@ -23,7 +23,7 @@
           }
         },
         {
-          "match": "Mozilla/4.0 (compatible; Powermarks\/*"
+          "match": "Mozilla\/4.0 (compatible; Powermarks\/*"
         },
         {
           "match": "*Powermarks\/3.5*",

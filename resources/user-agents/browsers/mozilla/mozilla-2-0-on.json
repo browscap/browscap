@@ -1,6 +1,6 @@
 {
   "division": "Mozilla #MAJORVER#.#MINORVER#",
-  "versions": [37, 36, 35, 34, 33, 32, 31, 30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, "2.2", 2],
+  "versions": ["2.2", 2],
   "sortIndex": 17580,
   "lite": false,
   "userAgents": [
@@ -38,7 +38,7 @@
           "device": "Windows Desktop",
           "platforms": [
             "Win3.11", "Win3.1", "Win95", "Win98", "WinME", "NT4_B", "Win2000", "WinXPa_32",
-            "WinXPb_32", "Vista_32", "Win7_32"
+            "WinXPb_32", "Vista_32", "Win7_32", "Win8_64", "Win8_32"
           ]
         },
         {

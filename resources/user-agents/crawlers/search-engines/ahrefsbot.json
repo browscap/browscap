@@ -9,7 +9,7 @@
         "Parent": "DefaultProperties",
         "Comment": "AhrefsBot",
         "Browser": "AhrefsBot",
-        "Browser_Maker": "Ahrefs Inc",
+        "Browser_Maker": "Ahrefs Pte Ltd",
         "Browser_Type": "Bot/Crawler",
         "Crawler": "true"
       },

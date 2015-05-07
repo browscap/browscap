@@ -28,7 +28,7 @@
       },
       "children": [
         {
-          "match": "ImageMobile\/1.2* CFNetwork\/* #PLATFORM#",
+          "match": "ImageMobile\/1.2* CFNetwork\/#PLATFORM#",
           "properties": {
             "Version": "1.2",
             "MajorVer": "1",
@@ -39,7 +39,7 @@
           ]
         },
         {
-          "match": "ImageMobile\/* CFNetwork\/* #PLATFORM#",
+          "match": "ImageMobile\/* CFNetwork\/#PLATFORM#",
           "platforms": [
             "Darwin"
           ]

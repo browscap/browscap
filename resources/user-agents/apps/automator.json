@@ -28,7 +28,7 @@
       },
       "children": [
         {
-          "match": "Automator* CFNetwork\/* #PLATFORM#",
+          "match": "Automator* CFNetwork\/#PLATFORM#",
           "platforms": [
             "Darwin"
           ]

@@ -144,7 +144,7 @@ return [
     'issue-081-B' => [
         'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko; Google Page Speed Insights) Chrome/27.0.1453 Safari/537.36',
         [
-            'Browser' => 'Google Page Speed',
+            'Browser' => 'Google PageSpeed Insights',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '64',
             'Browser_Maker' => 'Google Inc',
