@@ -1,0 +1,37 @@
+<?php
+
+return [
+    'issue-635-A' => [
+        'Mozilla/5.0 (Linux; Android 4.2.1; MD948G Build/JOP40D[20130909.172306]) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.72 Safari/537.36 OPR/16.0.1212.64462',
+        [
+            'Browser' => 'mbot',
+            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Bits' => '0',
+            'Browser_Maker' => 'unknown',
+            'Version' => '1.16',
+            'MajorVer' => '1',
+            'MinorVer' => '16',
+            'Platform' => 'unknown',
+            'Platform_Version' => 'unknown',
+            'Platform_Bits' => '0',
+            'Platform_Maker' => 'unknown',
+            'isMobileDevice' => false,
+            'isTablet' => false,
+            'Crawler' => true,
+            'JavaScript' => false,
+            'Cookies' => false,
+            'Frames' => false,
+            'IFrames' => false,
+            'Tables' => false,
+            'Device_Name' => 'unknown',
+            'Device_Maker' => 'unknown',
+            'Device_Type' => 'unknown',
+            'Device_Pointing_Method' => 'unknown',
+            'Device_Code_Name' => 'unknown',
+            'Device_Brand_Name' => 'unknown',
+            'RenderingEngine_Name' => 'unknown',
+            'RenderingEngine_Version' => 'unknown',
+            'RenderingEngine_Maker' => 'unknown',
+        ],
+    ],
+];
