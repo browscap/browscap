@@ -31,14 +31,14 @@
           "match": "Mozilla\/5.0 (*Linux i686*) Gecko\/#PLATFORM# Firefox\/#MAJORVER#.#MINORVER#*",
           "device": "Linux Desktop",
           "platforms": [
-            "Ubuntu_08_04", "Ubuntu_10_04", "Ubuntu_12_04"
+            "Ubuntu_08_04", "Ubuntu_10_04", "Ubuntu_10_10", "Ubuntu_12_04"
           ]
         },
         {
           "match": "Mozilla\/5.0 (*Linux x86_64*) Gecko\/#PLATFORM# Firefox\/#MAJORVER#.#MINORVER#*",
           "device": "Linux Desktop",
           "platforms": [
-            "Ubuntu_08_04_64", "Ubuntu_10_04_64", "Ubuntu_12_04_64"
+            "Ubuntu_08_04_64", "Ubuntu_10_04_64", "Ubuntu_10_10_64", "Ubuntu_12_04_64"
           ]
         },
         {

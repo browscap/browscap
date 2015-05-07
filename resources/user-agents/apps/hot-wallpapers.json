@@ -32,7 +32,7 @@
       },
       "children": [
         {
-          "match": "Hot%20Wallpapers* CFNetwork\/* #PLATFORM#",
+          "match": "Hot%20Wallpapers* CFNetwork\/#PLATFORM#",
           "platforms": [
             "Darwin"
           ]

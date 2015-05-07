@@ -1,7 +1,7 @@
 {
   "division": "Comodo Dragon #MAJORVER#.#MINORVER#",
   "versions": [1],
-  "sortIndex": 3452,
+  "sortIndex": 954,
   "lite": false,
   "userAgents": [
     {
@@ -12,11 +12,12 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Comodo Dragon #MAJORVER#.#MINORVER#",
-        "Browser": "Comodo Dragon",
+        "Browser": "Dragon",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
         "Browser_Maker": "Comodo Group Inc",
+        "Browser_Type": "Browser",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",

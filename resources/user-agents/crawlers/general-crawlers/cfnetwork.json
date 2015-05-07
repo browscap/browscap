@@ -1,0 +1,31 @@
+{
+  "division": "CFNetwork",
+  "sortIndex": 2000,
+  "lite": false,
+  "userAgents": [
+    {
+      "userAgent": "CFNetwork",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "CFNetwork",
+        "Browser": "CFNetwork",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "*CFNetwork*",
+          "properties": {
+            "Browser": "CFNetwork"
+          }
+        },
+        {
+          "match": "CFNetwork\/*",
+          "properties": {
+            "Browser": "CFNetwork"
+          }
+        }
+      ]
+    }
+  ]
+}

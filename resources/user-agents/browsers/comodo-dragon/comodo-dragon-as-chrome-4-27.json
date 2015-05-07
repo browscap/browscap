@@ -1,0 +1,49 @@
+{
+  "division": "Comodo Dragon #MAJORVER#.#MINORVER#",
+  "versions": ["27.2", "27.1", "26.2", "26.1", "25.2", "25.1", "24.2", "24.1", "23.4", "23.2", "23.1", "22.1", "21.2", "21.1", "20.1", "19.2", "19.1", "18.3", "18.1", "17.5", "17.4", "17.3", "17.1", "16.2", "16.1", "13.4", "4.1"],
+  "sortIndex": 951,
+  "lite": false,
+  "userAgents": [
+    {
+      "userAgent": "Comodo Dragon #MAJORVER#.#MINORVER# (as Chrome)",
+      "platform": "Linux",
+      "engine": "WebKit",
+      "device": "general Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Comodo Dragon #MAJORVER#.#MINORVER#",
+        "Browser": "Dragon",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Browser_Maker": "Comodo Group Inc",
+        "Browser_Type": "Browser",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64", "Linux_32", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32", "Vista_64", "Vista_32",
+            "Win7_x64", "Win7_64", "Win7_32", "Win8_x64", "Win8_64", "Win8_32",
+            "Win8_1_x64", "Win8_1_64", "Win8_1_32"
+          ]
+        }
+      ]
+    }
+  ]
+}

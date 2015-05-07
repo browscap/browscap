@@ -13,7 +13,7 @@
       },
       "children": [
         {
-          "match": "Google-HTTP-Java-Client/1.17*",
+          "match": "Google-HTTP-Java-Client\/1.17*",
           "properties": {
             "Comment": "Google HTTP Client Library for Java",
             "Browser": "Google HTTP Client Library for Java",
@@ -24,7 +24,7 @@
           }
         },
         {
-          "match": "Google-HTTP-Java-Client/*",
+          "match": "Google-HTTP-Java-Client\/*",
           "properties": {
             "Comment": "Google HTTP Client Library for Java",
             "Browser": "Google HTTP Client Library for Java",

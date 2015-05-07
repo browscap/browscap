@@ -1100,6 +1100,7 @@ return [
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Amazon.com, Inc.',
+            'Browser_Modus' => 'Desktop Mode',
             'Version' => '2.9',
             'MajorVer' => '2',
             'MinorVer' => '9',

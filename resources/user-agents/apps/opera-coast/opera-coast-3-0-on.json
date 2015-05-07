@@ -1,0 +1,52 @@
+{
+  "division": "Coast #MAJORVER#.#MINORVER#",
+  "versions": [4, "3.1", 3],
+  "sortIndex": 1945,
+  "lite": true,
+  "userAgents": [
+    {
+      "userAgent": "Coast #MAJORVER#.#MINORVER#",
+      "engine": "WebKit",
+      "platform": "iOS",
+      "device": "general Mobile Device (Apple)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Coast #MAJORVER#.#MINORVER#",
+        "Browser": "Coast",
+        "Browser_Type": "Application",
+        "Browser_Maker": "Opera Software ASA",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (iPhone#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Coast\/#MAJORVER#.#MINORVER#* Mobile\/* Safari\/*",
+          "device": "iPhone",
+          "platforms": [
+            "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0", "iOS_A_8_1", "iOS_A"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Coast\/#MAJORVER#.#MINORVER#* Mobile\/* Safari\/*",
+          "device": "general Mobile Device (Apple)",
+          "platforms": [
+            "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0", "iOS_A_8_1", "iOS_A"
+          ]
+        },
+        {
+          "match": "Opera%20Coast\/#MAJORVER#.#MINORVER#* CFNetwork\/#PLATFORM#",
+          "platforms": [
+            "Darwin"
+          ]
+        }
+      ]
+    }
+  ]
+}

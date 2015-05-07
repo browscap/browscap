@@ -26,100 +26,114 @@
       },
       "children": [
         {
-          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#Nexus S*",
+          "match": "Dalvik\/#MAJORVER#.#MINORVER#* (#PLATFORM#Nexus S*",
           "device": "Samsung NexusS",
           "platforms": [
             "Android_4_1", "Android_4_2"
           ]
         },
         {
-          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#Cynus T2 Build\/*",
+          "match": "Dalvik\/#MAJORVER#.#MINORVER#* (#PLATFORM#Cynus T2 Build\/*",
           "device": "Mobistel Cynus T2",
           "platforms": [
             "Android_4_0"
           ]
         },
         {
-          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#HTC Desire C Build\/*",
+          "match": "Dalvik\/#MAJORVER#.#MINORVER#* (#PLATFORM#HTC Desire C Build\/*",
           "device": "HTC Desire C",
           "platforms": [
             "Android_4_0", "Android_4_1"
           ]
         },
         {
-          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#GT-I9100 Build\/*",
+          "match": "Dalvik\/#MAJORVER#.#MINORVER#* (#PLATFORM#GT-I9100 Build\/*",
           "device": "GT-I9100",
           "platforms": [
             "Android_4_0"
           ]
         },
         {
-          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#Transformer Prime TF201 Build\/*",
+          "match": "Dalvik\/#MAJORVER#.#MINORVER#* (#PLATFORM#Transformer Prime TF201 Build\/*",
           "device": "Asus TF201",
           "platforms": [
             "Android_4_0", "Android_4_1"
           ]
         },
         {
-          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#Nexus 10 Build\/*",
+          "match": "Dalvik\/#MAJORVER#.#MINORVER#* (#PLATFORM#Nexus 10 Build\/*",
           "device": "Samsung Nexus 10",
           "platforms": [
             "Android_4_2", "Android_4_3"
           ]
         },
         {
-          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#HTC One *",
+          "match": "Dalvik\/#MAJORVER#.#MINORVER#* (#PLATFORM#HTC One *",
           "device": "HTC M7",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
           ]
         },
         {
-          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#LIFETAB_S9714 *",
+          "match": "Dalvik\/#MAJORVER#.#MINORVER#* (#PLATFORM#LIFETAB_S9714 *",
           "device": "Medion LifeTab S9714",
           "platforms": [
             "Android_4_0", "Android_4_1"
           ]
         },
         {
-          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#SM-G900F*",
+          "match": "Dalvik\/#MAJORVER#.#MINORVER#* (#PLATFORM#SM-G900F*",
           "device": "Samsung SM-G900F",
           "platforms": [
             "Android_4_4"
           ]
         },
         {
-          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#D6503 *",
+          "match": "Dalvik\/#MAJORVER#.#MINORVER#* (#PLATFORM#D6503 *",
           "device": "Sony D6503",
           "platforms": [
             "Android_4_4"
           ]
         },
         {
-          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#HUAWEI G700-U10 *",
+          "match": "Dalvik\/#MAJORVER#.#MINORVER#* (#PLATFORM#HUAWEI G700-U10 *",
           "device": "Huawei G700-U10",
           "platforms": [
             "Android_4_2"
           ]
         },
         {
-          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#SM-P600 *",
+          "match": "Dalvik\/#MAJORVER#.#MINORVER#* (#PLATFORM#SM-P600 *",
           "device": "Samsung SM-P600",
           "platforms": [
             "Android_4_3", "Android_4_4"
           ]
         },
         {
-          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#SM-N9005*",
+          "match": "Dalvik\/#MAJORVER#.#MINORVER#* (#PLATFORM#SM-N9005*",
           "device": "Samsung SM-N9005",
           "platforms": [
             "Android_4_4"
           ]
         },
         {
-          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#",
+          "match": "Dalvik\/#MAJORVER#.#MINORVER#* (#PLATFORM#GT-I9505*",
+          "device": "Samsung GT-I9505",
           "platforms": [
-            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android"
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Dalvik\/#MAJORVER#.#MINORVER#* (#PLATFORM#LIFETAB_E10320*",
+          "device": "Medion E10320",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Dalvik\/#MAJORVER#.#MINORVER#* (#PLATFORM#",
+          "platforms": [
+            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android"
           ]
         }
       ]

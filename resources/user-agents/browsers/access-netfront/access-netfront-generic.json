@@ -42,6 +42,14 @@
         },
         {
           "match": "*NetFront\/*"
+        },
+        {
+          "match": "Mozilla\/* (PlayStation 4*",
+          "device": "Sony PS4",
+          "engine": "WebKit",
+          "platforms": [
+            "CellOS"
+          ]
         }
       ]
     }

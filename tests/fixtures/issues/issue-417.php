@@ -4,7 +4,7 @@ return [
     'issue-417' => [
         'psbot-page (+http://www.picsearch.com/bot.html)',
         [
-            'Browser' => 'Psbot',
+            'Browser' => 'Picsearch Bot',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Picsearch Services AB',

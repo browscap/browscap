@@ -36,16 +36,6 @@
           "platforms": [
             "Linux_64"
           ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) * Safari\/*",
-          "device": "Linux Desktop",
-          "properties": {
-            "Browser": "PagePeeker Screenshot Maker"
-          },
-          "platforms": [
-            "Linux_64"
-          ]
         }
       ]
     }
