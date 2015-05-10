@@ -50,7 +50,7 @@
           "match": "*Obigo\/WAP2.0*"
         },
         {
-          "match": "LG-GD350\/V100 Obigo/WAP2.0*",
+          "match": "LG-GD350\/V100 Obigo\/WAP2.0*",
           "device": "LG GD350"
         },
         {

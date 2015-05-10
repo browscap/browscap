@@ -24,11 +24,7 @@
         "Win64": "false",
         "IFrames": "false",
         "Cookies": "false",
-        "BackgroundSounds": "false",
         "JavaScript": "false",
-        "VBScript": "false",
-        "JavaApplets": "false",
-        "ActiveXControls": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
         "Frames": "true",
@@ -36,7 +32,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Dreamweaver\/#MAJORVER#.#MINORVER#* Version/* Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Dreamweaver\/#MAJORVER#.#MINORVER#* Version\/* Safari\/*",
           "device": "Windows Desktop",
           "platforms": [
             "Windows"

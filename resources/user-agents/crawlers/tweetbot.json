@@ -17,11 +17,7 @@
         "Win32": "false",
         "Win64": "false",
         "Cookies": "false",
-        "BackgroundSounds": "false",
         "JavaScript": "false",
-        "VBScript": "false",
-        "JavaApplets": "false",
-        "ActiveXControls": "false",
         "isSyndicationReader": "false",
         "Browser": "Tweetbot",
         "Browser_Type": "Bot/Crawler",
@@ -32,7 +28,7 @@
       },
       "children": [
         {
-          "match": "Tweetbot\/* CFNetwork\/* #PLATFORM#",
+          "match": "Tweetbot\/* CFNetwork\/#PLATFORM#",
           "platforms": [
             "Darwin"
           ]

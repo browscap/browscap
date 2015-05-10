@@ -22,17 +22,13 @@
         "IFrames": "false",
         "Tables": "false",
         "Cookies": "false",
-        "BackgroundSounds": "false",
         "JavaScript": "false",
-        "VBScript": "false",
-        "JavaApplets": "false",
-        "ActiveXControls": "false",
         "isSyndicationReader": "false",
         "Crawler": "false"
       },
       "children": [
         {
-          "match": "fgBrowserPrivate\/3.2* CFNetwork\/* #PLATFORM#",
+          "match": "fgBrowserPrivate\/3.2* CFNetwork\/#PLATFORM#",
           "properties": {
             "Version": "3.2",
             "MajorVer": "3",
@@ -43,7 +39,7 @@
           ]
         },
         {
-          "match": "fgBrowserPrivate\/4.* CFNetwork\/* #PLATFORM#",
+          "match": "fgBrowserPrivate\/4.* CFNetwork\/#PLATFORM#",
           "properties": {
             "Version": "4.0",
             "MajorVer": "4",
@@ -54,13 +50,13 @@
           ]
         },
         {
-          "match": "fgBrowserPrivate* CFNetwork\/* #PLATFORM#",
+          "match": "fgBrowserPrivate* CFNetwork\/#PLATFORM#",
           "platforms": [
             "Darwin"
           ]
         },
         {
-          "match": "fgBrowser\/3.2* CFNetwork\/* #PLATFORM#",
+          "match": "fgBrowser\/3.2* CFNetwork\/#PLATFORM#",
           "properties": {
             "Version": "3.2",
             "MajorVer": "3",
@@ -71,7 +67,7 @@
           ]
         },
         {
-          "match": "fgBrowser\/4.* CFNetwork\/* #PLATFORM#",
+          "match": "fgBrowser\/4.* CFNetwork\/#PLATFORM#",
           "properties": {
             "Version": "4.0",
             "MajorVer": "4",
@@ -82,7 +78,7 @@
           ]
         },
         {
-          "match": "fgBrowser* CFNetwork\/* #PLATFORM#",
+          "match": "fgBrowser* CFNetwork\/#PLATFORM#",
           "platforms": [
             "Darwin"
           ]

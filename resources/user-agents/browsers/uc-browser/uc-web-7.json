@@ -18,13 +18,12 @@
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
-        "Win32": "true",
+        "Win32": "false",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "JavaApplets": "true",
         "CssVersion": "3"
       },
       "children": [
@@ -138,7 +137,7 @@
           "match": "*\/UC Browser#MAJORVER#.#MINORVER#* UNTRUSTED\/1.0"
         },
         {
-          "match": "LG-KS20* Browser\/IEMobile\/* MMS/LG-MMS-WINCE* (compatible; MSIE 4.01; Windows CE*)\/UC Browser#MAJORVER#.#MINORVER#*",
+          "match": "LG-KS20* Browser\/IEMobile\/* MMS\/LG-MMS-WINCE* (compatible; MSIE 4.01; Windows CE*)\/UC Browser#MAJORVER#.#MINORVER#*",
           "engine": "Trident",
           "device": "LG KS20",
           "platforms": [

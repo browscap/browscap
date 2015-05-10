@@ -1,6 +1,6 @@
 {
   "division": "Netscape #MAJORVER#.#MINORVER#",
-  "versions": ["4.79", "4.7", "4.8"],
+  "versions": ["4.79", "4.73", "4.7", "4.8"],
   "sortIndex": 7803,
   "lite": false,
   "userAgents": [
@@ -21,8 +21,7 @@
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
-        "JavaScript": "true",
-        "JavaApplets": "true"
+        "JavaScript": "true"
       },
       "children": [
         {

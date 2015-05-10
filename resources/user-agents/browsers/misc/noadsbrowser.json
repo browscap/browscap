@@ -22,17 +22,13 @@
         "IFrames": "false",
         "Tables": "false",
         "Cookies": "false",
-        "BackgroundSounds": "false",
         "JavaScript": "false",
-        "VBScript": "false",
-        "JavaApplets": "false",
-        "ActiveXControls": "false",
         "isSyndicationReader": "false",
         "Crawler": "false"
       },
       "children": [
         {
-          "match": "noadsbrowser* CFNetwork\/* #PLATFORM#",
+          "match": "noadsbrowser* CFNetwork\/#PLATFORM#",
           "platforms": [
             "Darwin"
           ]

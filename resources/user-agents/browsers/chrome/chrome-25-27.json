@@ -18,13 +18,13 @@
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
-        "Win32": "true",
+        "Win32": "false",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "JavaApplets": "true",
+        "JavaApplets": "false",
         "CssVersion": "3"
       },
       "children": [
@@ -845,6 +845,20 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#WTDR1018 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "device": "Comag WTDR1018",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#Cosmote Xplore Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "device": "Cosmote Xplore",
+          "platforms": [
+            "Android_4_1"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "platforms": [
             "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
@@ -875,13 +889,13 @@
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
-        "Win32": "true",
+        "Win32": "false",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "JavaApplets": "true",
+        "JavaApplets": "false",
         "CssVersion": "3"
       },
       "children": [
@@ -935,13 +949,13 @@
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
-        "Win32": "true",
+        "Win32": "false",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "JavaApplets": "true",
+        "JavaApplets": "false",
         "CssVersion": "3"
       },
       "children": [

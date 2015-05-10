@@ -4,10 +4,10 @@ return [
     'issue-343' => [
         'Mozilla/5.0 (PlayStation 4 1.72) AppleWebKit/536.26 (KHTML, like Gecko)',
         [
-            'Browser' => 'Playstation Browser',
+            'Browser' => 'NetFront',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
-            'Browser_Maker' => 'Sony',
+            'Browser_Maker' => 'Access',
             'Version' => '0.0',
             'MajorVer' => '0',
             'MinorVer' => '0',

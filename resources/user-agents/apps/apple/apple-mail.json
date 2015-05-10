@@ -23,17 +23,13 @@
         "IFrames": "false",
         "Tables": "false",
         "Cookies": "false",
-        "BackgroundSounds": "false",
         "JavaScript": "false",
-        "VBScript": "false",
-        "JavaApplets": "false",
-        "ActiveXControls": "false",
         "Crawler": "false",
         "isSyndicationReader": "false"
       },
       "children": [
         {
-          "match": "Mozilla\/5.0*(iPad#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)",
+          "match": "Mozilla\/5.0*(iPad#PLATFORM#) AppleWebKit* (KHTML, like Gecko)",
           "device": "iPad",
           "platforms": [
             "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3", "iOS_A_5_1", "iOS_A_5_0", "iOS_A_6_1", "iOS_A_6_0", "iOS_A_7_1", "iOS_A_7_0", "iOS_A_8_0", "iOS_A_8_1", "iOS_A",
@@ -41,7 +37,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0*(iPhone#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)",
+          "match": "Mozilla\/5.0*(iPhone#PLATFORM#) AppleWebKit* (KHTML, like Gecko)",
           "device": "iPhone",
           "platforms": [
             "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3", "iOS_A_5_1", "iOS_A_5_0", "iOS_A_6_1", "iOS_A_6_0", "iOS_A_7_1", "iOS_A_7_0", "iOS_A_8_0", "iOS_A_8_1", "iOS_A",
@@ -49,7 +45,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0*(iPod#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)",
+          "match": "Mozilla\/5.0*(iPod#PLATFORM#) AppleWebKit* (KHTML, like Gecko)",
           "device": "iPod Touch",
           "platforms": [
             "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3", "iOS_A_5_1", "iOS_A_5_0", "iOS_A_6_1", "iOS_A_6_0", "iOS_A_7_1", "iOS_A_7_0", "iOS_A_8_0", "iOS_A_8_1", "iOS_A",
@@ -57,7 +53,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0*(#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)",
+          "match": "Mozilla\/5.0*(#PLATFORM#) AppleWebKit* (KHTML, like Gecko)",
           "platforms": [
             "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3", "iOS_A_5_1", "iOS_A_5_0", "iOS_A_6_1", "iOS_A_6_0", "iOS_A_7_1", "iOS_A_7_0", "iOS_A_8_0", "iOS_A_8_1", "iOS_A",
             "iOS_C_3_2", "iOS_C_4_0", "iOS_C_4_1", "iOS_C_4_2", "iOS_C_4_3", "iOS_C_5_1", "iOS_C_5_0", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_1", "iOS_C_8_0", "iOS_C"
@@ -85,17 +81,13 @@
         "IFrames": "false",
         "Tables": "false",
         "Cookies": "false",
-        "BackgroundSounds": "false",
         "JavaScript": "false",
-        "VBScript": "false",
-        "JavaApplets": "false",
-        "ActiveXControls": "false",
         "Crawler": "false",
         "isSyndicationReader": "false"
       },
       "children": [
         {
-          "match": "Mail\/* CFNetwork\/* #PLATFORM#",
+          "match": "Mail\/* CFNetwork\/#PLATFORM#",
           "platforms": [
             "Darwin"
           ]
@@ -113,7 +105,7 @@
     },
     {
       "userAgent": "Apple Mail for Windows",
-      "platform": "Darwin",
+      "platform": "Windows",
       "engine": "WebKit",
       "device": "Windows Desktop",
       "properties": {
@@ -131,11 +123,7 @@
         "IFrames": "false",
         "Tables": "false",
         "Cookies": "false",
-        "BackgroundSounds": "false",
         "JavaScript": "false",
-        "VBScript": "false",
-        "JavaApplets": "false",
-        "ActiveXControls": "false",
         "Crawler": "false",
         "isSyndicationReader": "false"
       },

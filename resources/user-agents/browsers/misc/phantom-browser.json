@@ -18,9 +18,6 @@
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
-        "BackgroundSounds": "false",
-        "VBScript": "false",
-        "ActiveXControls": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
         "CssVersion": "2"
@@ -40,7 +37,7 @@
           "device": "LG C199"
         },
         {
-          "match": "Mozilla\/5.0 *AppleWebkit\/* Browser\/Phantom/V2.0*",
+          "match": "Mozilla\/5.0 *AppleWebkit\/* Browser\/Phantom\/V2.0*",
           "properties": {
             "Version": "2.0",
             "MajorVer": "2",

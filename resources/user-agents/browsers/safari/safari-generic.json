@@ -1,6 +1,6 @@
 {
   "division": "Safari Generic",
-  "sortIndex": 1973,
+  "sortIndex": 1975,
   "lite": true,
   "userAgents": [
     {
@@ -18,7 +18,6 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "JavaApplets": "true",
         "CssVersion": "1"
       },
       "children": [
@@ -99,7 +98,6 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "JavaApplets": "true",
         "CssVersion": "1"
       },
       "children": [

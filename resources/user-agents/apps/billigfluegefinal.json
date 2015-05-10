@@ -21,18 +21,14 @@
         "IFrames": "false",
         "Tables": "false",
         "Cookies": "false",
-        "BackgroundSounds": "false",
         "JavaScript": "false",
-        "VBScript": "false",
-        "JavaApplets": "false",
-        "ActiveXControls": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
         "Browser": "billigFluegeFinal App"
       },
       "children": [
         {
-          "match": "billigFluegeFinal\/1.6* CFNetwork\/* #PLATFORM#",
+          "match": "billigFluegeFinal\/1.6* CFNetwork\/#PLATFORM#",
           "properties": {
             "Version": "1.6",
             "MajorVer": "1",
@@ -43,7 +39,7 @@
           ]
         },
         {
-          "match": "billigFluegeFinal* CFNetwork\/* #PLATFORM#",
+          "match": "billigFluegeFinal* CFNetwork\/#PLATFORM#",
           "platforms": [
             "Darwin"
           ]

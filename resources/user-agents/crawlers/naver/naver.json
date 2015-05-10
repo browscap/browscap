@@ -16,9 +16,6 @@
       },
       "children": [
         {
-          "match": "*naver*"
-        },
-        {
           "match": "Cowbot-* (NHN Corp*naver.com)"
         },
         {
@@ -32,6 +29,20 @@
         },
         {
           "match": "Yeti\/*"
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Yeti\/1.1*",
+          "properties": {
+            "Version": "1.1",
+            "MajorVer": "1",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Yeti\/*"
+        },
+        {
+          "match": "*naver*"
         }
       ]
     }

@@ -23,12 +23,6 @@
           ]
         },
         {
-          "match": "*avantbrowser*",
-          "properties": {
-            "Browser": "Avant Browser"
-          }
-        },
-        {
           "match": "12345*",
           "properties": {
             "Browser": "12345"
@@ -58,11 +52,7 @@
             "Browser": "EVE-minibrowser",
             "IFrames": "false",
             "Tables": "false",
-            "BackgroundSounds": "false",
             "JavaScript": "false",
-            "VBScript": "false",
-            "JavaApplets": "false",
-            "ActiveXControls": "false",
             "Crawler": "false"
           }
         },
@@ -80,11 +70,7 @@
             "IFrames": "true",
             "Tables": "true",
             "Cookies": "true",
-            "BackgroundSounds": "true",
             "JavaScript": "true",
-            "VBScript": "true",
-            "JavaApplets": "true",
-            "ActiveXControls": "true",
             "CssVersion": "2"
           }
         },
@@ -93,8 +79,6 @@
           "properties": {
             "Browser": "Kopiczek",
             "IFrames": "true",
-            "VBScript": "true",
-            "JavaApplets": "true",
             "CssVersion": "2"
           },
           "platforms": [

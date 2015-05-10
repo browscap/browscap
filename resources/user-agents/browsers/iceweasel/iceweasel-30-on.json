@@ -1,6 +1,6 @@
 {
   "division": "Iceweasel #MAJORVER#.#MINORVER#",
-  "versions": [37, 36, 35, 34, 33, 32, 31, 30],
+  "versions": [37, 36, 35, 34, 33, 32, "31.3", "31.2", "31.1", 31, 30],
   "sortIndex": 3148,
   "lite": false,
   "userAgents": [
@@ -23,7 +23,6 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "JavaApplets": "true",
         "CssVersion": "2"
       },
       "children": [

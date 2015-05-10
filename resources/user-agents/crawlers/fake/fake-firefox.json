@@ -29,6 +29,24 @@
           "match": "Mozilla\/?.0+(Windows;+U;+Windows+NT+5.1;+*;+rv:*)+Gecko\/*+Firefox\/*"
         },
         {
+          "match": "Firefox 3.6*"
+        },
+        {
+          "match": "Firefox*"
+        },
+        {
+          "match": "Firefox\/*"
+        },
+        {
+          "match": "Firefox\/3.6*"
+        },
+        {
+          "match": "Firefox\/5.*"
+        },
+        {
+          "match": "Firefox\/8*"
+        },
+        {
           "match": "Mozilla\/5.0  Gecko*"
         }
       ]

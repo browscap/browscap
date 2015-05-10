@@ -7,7 +7,7 @@ return [
             'Comment' => 'AhrefsBot',
             'Browser' => 'AhrefsBot',
             'Browser_Type' => 'Bot/Crawler',
-            'Browser_Maker' => 'Ahrefs Inc',
+            'Browser_Maker' => 'Ahrefs Pte Ltd',
             'Version' => '5.0',
             'MajorVer' => '5',
             'MinorVer' => '0',

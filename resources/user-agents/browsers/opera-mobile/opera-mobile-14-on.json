@@ -5,25 +5,25 @@
   "lite": false,
   "userAgents": [
     {
-      "userAgent": "Opera Mobile #MAJORVER#.#MINORVER#",
+      "userAgent": "Opera Mobile #MAJORVER#.#MINORVER# for Android",
       "engine": "Blink",
       "device": "general Mobile Phone (Touch)",
+      "platform": "Android",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Opera Mobile #MAJORVER#.#MINORVER#",
+        "Comment": "Opera Mobile #MAJORVER#.#MINORVER# for Android",
         "Browser": "Opera Mobile",
         "Browser_Maker": "Opera Software ASA",
         "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
-        "Win32": "true",
+        "Win32": "false",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "JavaApplets": "true",
         "CssVersion": "3"
       },
       "children": [
@@ -60,6 +60,13 @@
           "device": "GT-I9100G",
           "platforms": [
             "Android_2_3", "Android"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#GT-I9100 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/* OPR\/#MAJORVER#.*",
+          "device": "GT-I9100",
+          "platforms": [
+            "Android_4_1", "Android_4_1_E"
           ]
         },
         {
@@ -207,6 +214,34 @@
           "device": "HTC Evo 3D GSM",
           "platforms": [
             "Android_5_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#XT890 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/* OPR\/#MAJORVER#.*",
+          "device": "Motorola XT890",
+          "platforms": [
+            "Android_4_1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#ME173X Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/* OPR\/#MAJORVER#.*",
+          "device": "Asus ME173X",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#DARKMOON Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/* OPR\/#MAJORVER#.*",
+          "device": "Wiko Darkmoon",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#IdeaTab S6000-H Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/* OPR\/#MAJORVER#.*",
+          "device": "Lenovo S6000-H",
+          "platforms": [
+            "Android_4_2"
           ]
         },
         {

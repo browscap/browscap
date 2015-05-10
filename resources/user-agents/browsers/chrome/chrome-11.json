@@ -18,13 +18,13 @@
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
-        "Win32": "true",
+        "Win32": "false",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "JavaApplets": "true",
+        "JavaApplets": "false",
         "CssVersion": "3"
       },
       "children": [
@@ -72,7 +72,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#NSZ-GS7\/GX70 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "device": "Sony NSZ-GS7/GX70",
+          "device": "Sony NSZ-GS7\/GX70",
           "platforms": [
             "Android_3_2_GoogleTV"
           ]
@@ -164,13 +164,13 @@
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
-        "Win32": "true",
+        "Win32": "false",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "JavaApplets": "true",
+        "JavaApplets": "false",
         "CssVersion": "3"
       },
       "children": [

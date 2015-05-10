@@ -17,13 +17,12 @@
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
-        "Win32": "true",
+        "Win32": "false",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "JavaApplets": "true",
         "CssVersion": "3"
       },
       "children": [
@@ -260,6 +259,19 @@
           "platforms": [
             "JAVA"
           ]
+        },
+        {
+          "match": "dv(GT-S6102);pr(UCBrowser\/#MAJORVER#.#MINORVER#*);ov(Android 2.3.6)*",
+          "device": "Samsung GT-S6102",
+          "platforms": [
+            "Android_2_3"
+          ]
+        },
+        {
+          "match": "dv(*);pr(UCBrowser\/#MAJORVER#.#MINORVER#*);ov(Android*",
+          "platforms": [
+            "Android"
+          ]
         }
       ]
     },
@@ -275,13 +287,12 @@
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
-        "Win32": "true",
+        "Win32": "false",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "JavaApplets": "true",
         "CssVersion": "3"
       },
       "children": [

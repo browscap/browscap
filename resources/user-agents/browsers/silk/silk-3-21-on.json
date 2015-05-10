@@ -37,7 +37,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#KFTT Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* like Chrome\/* Safari*",
           "device": "Amazon KFTT",
           "platforms": [
-            "Android_4_2"
+            "Android_4_0", "Android_4_1", "Android_4_2"
           ]
         },
         {
@@ -54,6 +54,21 @@
           "device": "Amazon KFTHWI",
           "platforms": [
             "Android_4_2", "Android_4_3", "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#SD4930UR Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* like Chrome\/* Safari*",
+          "engine": "Blink",
+          "device": "Amazon SD4930UR",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* like Chrome\/* Safari*",
+          "engine": "Blink",
+          "platforms": [
+            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {
@@ -129,6 +144,15 @@
         {
           "match": "Mozilla\/5.0 (Linux; U; *; KFAPWA Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* Safari*",
           "device": "Amazon KFAPWA",
+          "properties": {
+            "Browser_Modus": "Desktop Mode"
+          },
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (Linux; U; * Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* Safari*",
           "properties": {
             "Browser_Modus": "Desktop Mode"
           },

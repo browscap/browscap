@@ -12,7 +12,7 @@
         "Browser": "Microsoft Zune",
         "Browser_Type": "Browser",
         "Browser_Maker": "Microsoft Corporation",
-        "Win32": "true"
+        "Win32": "false"
       },
       "children": [
         {

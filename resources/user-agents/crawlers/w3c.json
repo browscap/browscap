@@ -57,11 +57,7 @@
             "IFrames": "false",
             "Tables": "false",
             "Cookies": "false",
-            "BackgroundSounds": "false",
             "JavaScript": "false",
-            "VBScript": "false",
-            "JavaApplets": "false",
-            "ActiveXControls": "false",
             "isSyndicationReader": "false",
             "Crawler": "true"
           }
@@ -100,7 +96,7 @@
         {
           "match": "Validator.nu\/LV*",
           "properties": {
-            "Browser": "Validator.nu/LV"
+            "Browser": "Validator.nu\/LV"
           }
         },
         {

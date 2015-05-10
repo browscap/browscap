@@ -21,10 +21,6 @@
       },
       "children": [
         {
-          "match": "Mozilla\/* (PlayStation 4*",
-          "device": "Sony PS4"
-        },
-        {
           "match": "Mozilla\/* (PLAYSTATION 3*",
           "device": "Sony PS3"
         }

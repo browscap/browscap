@@ -22,17 +22,13 @@
         "IFrames": "false",
         "Tables": "false",
         "Cookies": "false",
-        "BackgroundSounds": "false",
         "JavaScript": "false",
-        "VBScript": "false",
-        "JavaApplets": "false",
-        "ActiveXControls": "false",
         "isSyndicationReader": "false",
         "Crawler": "false"
       },
       "children": [
         {
-          "match": "HOT%20HD%20WPs\/* CFNetwork\/* #PLATFORM#",
+          "match": "HOT%20HD%20WPs\/* CFNetwork\/#PLATFORM#",
           "platforms": [
             "Darwin"
           ]

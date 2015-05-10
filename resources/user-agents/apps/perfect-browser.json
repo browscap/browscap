@@ -22,17 +22,13 @@
         "IFrames": "false",
         "Tables": "false",
         "Cookies": "false",
-        "BackgroundSounds": "false",
         "JavaScript": "false",
-        "VBScript": "false",
-        "JavaApplets": "false",
-        "ActiveXControls": "false",
         "isSyndicationReader": "false",
         "Crawler": "false"
       },
       "children": [
         {
-          "match": "Perfect%20Browser\/4.6* CFNetwork\/* #PLATFORM#",
+          "match": "Perfect%20Browser\/4.6* CFNetwork\/#PLATFORM#",
           "properties": {
             "Version": "4.6",
             "MajorVer": "4",
@@ -43,7 +39,7 @@
           ]
         },
         {
-          "match": "Perfect%20Browser\/5.1* CFNetwork\/* #PLATFORM#",
+          "match": "Perfect%20Browser\/5.1* CFNetwork\/#PLATFORM#",
           "properties": {
             "Version": "5.1",
             "MajorVer": "5",
@@ -54,7 +50,7 @@
           ]
         },
         {
-          "match": "Perfect%20Browser\/5.6* CFNetwork\/* #PLATFORM#",
+          "match": "Perfect%20Browser\/5.6* CFNetwork\/#PLATFORM#",
           "properties": {
             "Version": "5.6",
             "MajorVer": "5",
@@ -65,13 +61,13 @@
           ]
         },
         {
-          "match": "Perfect%20Browser\/* CFNetwork\/* #PLATFORM#",
+          "match": "Perfect%20Browser\/* CFNetwork\/#PLATFORM#",
           "platforms": [
             "Darwin"
           ]
         },
         {
-          "match": "Perfect%20Browser-iPad\/1.0* CFNetwork\/* #PLATFORM#",
+          "match": "Perfect%20Browser-iPad\/1.0* CFNetwork\/#PLATFORM#",
           "device": "iPad",
           "properties": {
             "Version": "1.0",
@@ -83,7 +79,7 @@
           ]
         },
         {
-          "match": "Perfect%20Browser-iPad\/2.1* CFNetwork\/* #PLATFORM#",
+          "match": "Perfect%20Browser-iPad\/2.1* CFNetwork\/#PLATFORM#",
           "device": "iPad",
           "properties": {
             "Version": "2.1",
@@ -95,7 +91,7 @@
           ]
         },
         {
-          "match": "Perfect%20Browser-iPad\/2.2* CFNetwork\/* #PLATFORM#",
+          "match": "Perfect%20Browser-iPad\/2.2* CFNetwork\/#PLATFORM#",
           "device": "iPad",
           "properties": {
             "Version": "2.2",
@@ -107,7 +103,7 @@
           ]
         },
         {
-          "match": "Perfect%20Browser-iPad\/2.6* CFNetwork\/* #PLATFORM#",
+          "match": "Perfect%20Browser-iPad\/2.6* CFNetwork\/#PLATFORM#",
           "device": "iPad",
           "properties": {
             "Version": "2.6",
@@ -119,7 +115,7 @@
           ]
         },
         {
-          "match": "Perfect%20Browser-iPad\/2.7* CFNetwork\/* #PLATFORM#",
+          "match": "Perfect%20Browser-iPad\/2.7* CFNetwork\/#PLATFORM#",
           "device": "iPad",
           "properties": {
             "Version": "2.7",
@@ -131,7 +127,7 @@
           ]
         },
         {
-          "match": "Perfect%20Browser-iPad\/2.8* CFNetwork\/* #PLATFORM#",
+          "match": "Perfect%20Browser-iPad\/2.8* CFNetwork\/#PLATFORM#",
           "device": "iPad",
           "properties": {
             "Version": "2.8",
@@ -143,7 +139,7 @@
           ]
         },
         {
-          "match": "Perfect%20Browser-iPad\/2.9* CFNetwork\/* #PLATFORM#",
+          "match": "Perfect%20Browser-iPad\/2.9* CFNetwork\/#PLATFORM#",
           "device": "iPad",
           "properties": {
             "Version": "2.9",
@@ -155,7 +151,7 @@
           ]
         },
         {
-          "match": "Perfect%20Browser-iPad\/* CFNetwork\/* #PLATFORM#",
+          "match": "Perfect%20Browser-iPad\/* CFNetwork\/#PLATFORM#",
           "device": "iPad",
           "platforms": [
             "Darwin"

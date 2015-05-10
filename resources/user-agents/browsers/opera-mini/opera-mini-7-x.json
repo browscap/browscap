@@ -49,6 +49,7 @@
         {
           "match": "Opera\/*(*iPad*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
           "device": "iPad",
+          "engine": "WebKit",
           "platforms": [
             "iOS"
           ]
@@ -56,6 +57,7 @@
         {
           "match": "Opera\/*(*iPhone*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
           "device": "iPhone",
+          "engine": "WebKit",
           "platforms": [
             "iOS"
           ]

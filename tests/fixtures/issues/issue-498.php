@@ -60,7 +60,7 @@ return [
     'issue-498-C' => [
         'python-requests/2.2.1 CPython/2.7.3 Linux/3.2.0-56-generic',
         [
-            'Browser' => 'Python-urllib',
+            'Browser' => 'python-requests',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Python Software Foundation',
@@ -848,6 +848,7 @@ return [
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Amazon.com, Inc.',
+            'Browser_Modus' => 'unknown',
             'Version' => '3.30',
             'MajorVer' => '3',
             'MinorVer' => '30',

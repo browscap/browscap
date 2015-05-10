@@ -372,11 +372,11 @@
         "isTablet": "false"
       }
     },
-    "Sony NSZ-GS7/GX70": {
+    "Sony NSZ-GS7\/GX70": {
       "properties": {
         "Device_Type": "TV Device",
-        "Device_Code_Name": "NSZ-GS7/GX70",
-        "Device_Name": "NSZ-GS7/GX70",
+        "Device_Code_Name": "NSZ-GS7\/GX70",
+        "Device_Name": "NSZ-GS7\/GX70",
         "Device_Maker": "Sony",
         "Device_Brand_Name": "Sony",
         "Device_Pointing_Method": "unknown",
@@ -1267,7 +1267,7 @@
         "Device_Name": "Xperia L",
         "Device_Maker": "Sony",
         "Device_Brand_Name": "Sony",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -1327,7 +1327,7 @@
         "Device_Name": "Xperia Z",
         "Device_Maker": "SonyEricsson",
         "Device_Brand_Name": "SonyEricsson",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -1867,7 +1867,7 @@
         "Device_Name": "Xperia Z1 Compact",
         "Device_Maker": "Sony",
         "Device_Brand_Name": "Sony",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -2623,7 +2623,7 @@
         "Device_Name": "GT-I9205",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -2839,7 +2839,7 @@
         "Device_Name": "Galaxy S III Mini",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -3067,7 +3067,7 @@
         "Device_Name": "Galaxy Y Duos",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -3608,6 +3608,18 @@
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung GT-S7390": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GT-S7390",
+        "Device_Name": "Galaxy Trend Lite",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -4644,6 +4656,18 @@
         "isTablet": "true"
       }
     },
+    "Samsung SM-T900": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "SM-T900",
+        "Device_Name": "Galaxy Tab Pro 12.2",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Samsung SCH-U820": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -4817,6 +4841,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SGH-I547",
         "Device_Name": "SGH-I547",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung SGH-I337": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SGH-I337",
+        "Device_Name": "Galaxy S4 (AT&T)",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "touchscreen",
@@ -7243,7 +7279,7 @@
         "Device_Name": "Galaxy Nexus",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -7963,7 +7999,7 @@
         "Device_Name": "RAZR i",
         "Device_Maker": "Motorola",
         "Device_Brand_Name": "Motorola",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -10636,7 +10672,7 @@
       "properties": {
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "831C",
-        "Device_Name": "One M8 Harmon/Kardon Edition",
+        "Device_Name": "One M8 Harmon\/Kardon Edition",
         "Device_Maker": "HTC",
         "Device_Brand_Name": "HTC",
         "Device_Pointing_Method": "touchscreen",
@@ -10651,7 +10687,7 @@
         "Device_Name": "8S",
         "Device_Maker": "HTC",
         "Device_Brand_Name": "HTC",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -10663,7 +10699,7 @@
         "Device_Name": "Windows Phone 8X",
         "Device_Maker": "HTC",
         "Device_Brand_Name": "HTC",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -14124,6 +14160,42 @@
         "isTablet": "false"
       }
     },
+    "LG VS880": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "VS880",
+        "Device_Name": "G Vista (Verizon)",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG D280": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "D280",
+        "Device_Name": "D280",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG D855": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "D855",
+        "Device_Name": "G2",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "1 & 1 Smartpad": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -14741,6 +14813,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "X4701",
         "Device_Name": "X4701",
+        "Device_Maker": "Medion",
+        "Device_Brand_Name": "Medion",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Medion P4501": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "P4501",
+        "Device_Name": "Life P4501",
         "Device_Maker": "Medion",
         "Device_Brand_Name": "Medion",
         "Device_Pointing_Method": "touchscreen",
@@ -15396,6 +15480,18 @@
         "isTablet": "true"
       }
     },
+    "Amazon SD4930UR": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SD4930UR",
+        "Device_Name": "Fire Phone",
+        "Device_Maker": "Amazon.com, Inc.",
+        "Device_Brand_Name": "Amazon",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Archos A70BH": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -15610,6 +15706,18 @@
         "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
+      }
+    },
+    "Archos 40b Titanium Surround": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "40b Titanium Surround",
+        "Device_Name": "40b Titanium Surround",
+        "Device_Maker": "Archos",
+        "Device_Brand_Name": "Archos",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
       }
     },
     "Point of View Mobii 7": {
@@ -18120,6 +18228,18 @@
         "isTablet": "false"
       }
     },
+    "Nokia Lumia 530": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Lumia 530",
+        "Device_Name": "Lumia 530",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Nokia 5130c-2": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -18598,6 +18718,30 @@
         "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
+      }
+    },
+    "Alcatel OT-6030X": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "OT-6030X",
+        "Device_Name": "One Touch Idol",
+        "Device_Maker": "Alcatel",
+        "Device_Brand_Name": "Alcatel",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Alcatel OT-TAB7HD": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "OT-TAB7HD",
+        "Device_Name": "One Touch Tab 7HD",
+        "Device_Maker": "Alcatel",
+        "Device_Brand_Name": "Alcatel",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
       }
     },
     "Fairphone FP1": {
@@ -19416,6 +19560,18 @@
         "isTablet": "true"
       }
     },
+    "Odys Neo Quad 10": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "Neo Quad 10",
+        "Device_Name": "Neo Quad 10",
+        "Device_Maker": "Odys",
+        "Device_Brand_Name": "Odys",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "ViewSonic ViewPad7": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -19638,7 +19794,7 @@
         "Device_Code_Name": "S2110AF",
         "Device_Name": "IdeaTab S2110AF",
         "Device_Maker": "Lenovo",
-        "Device_Brand_Name": "Vodafone",
+        "Device_Brand_Name": "Lenovo",
         "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
@@ -19662,7 +19818,7 @@
         "Device_Code_Name": "S6000L-F",
         "Device_Name": "IdeaTab S6000-F Wi-Fi, 16GB",
         "Device_Maker": "Lenovo",
-        "Device_Brand_Name": "Vodafone",
+        "Device_Brand_Name": "Lenovo",
         "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
@@ -19686,7 +19842,7 @@
         "Device_Code_Name": "A3000-H",
         "Device_Name": "IdeaTab A3000-H",
         "Device_Maker": "Lenovo",
-        "Device_Brand_Name": "Vodafone",
+        "Device_Brand_Name": "Lenovo",
         "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
@@ -19901,6 +20057,18 @@
         "Device_Type": "Tablet",
         "Device_Code_Name": "Lifetab S1033X",
         "Device_Name": "Lifetab S1033X",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Lenovo Lifetab S1034X": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "S1034X",
+        "Device_Name": "Lifetab S1034X",
         "Device_Maker": "Lenovo",
         "Device_Brand_Name": "Lenovo",
         "Device_Pointing_Method": "touchscreen",
@@ -20683,7 +20851,7 @@
         "Device_Name": "U30GT",
         "Device_Maker": "Cube",
         "Device_Brand_Name": "Cube",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -20837,6 +21005,18 @@
         "Device_Type": "Tablet",
         "Device_Code_Name": "ST10216-2",
         "Device_Name": "ST10216-2",
+        "Device_Maker": "TrekStor",
+        "Device_Brand_Name": "TrekStor",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "TrekStor SurfTab Breeze 10.1 Quad": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "SurfTab Breeze 10.1 Quad",
+        "Device_Name": "SurfTab Breeze 10.1 Quad",
         "Device_Maker": "TrekStor",
         "Device_Brand_Name": "TrekStor",
         "Device_Pointing_Method": "touchscreen",
@@ -23028,6 +23208,18 @@
         "isTablet": "false"
       }
     },
+    "Cubot U30GT": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "U30GT",
+        "Device_Code_Name": "U30GT",
+        "Device_Maker": "Cubot",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Cubot",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Tolino Tab 8.9": {
       "properties": {
         "Device_Type": "Tablet",
@@ -23069,6 +23261,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Name": "Cink Peax 2",
         "Device_Code_Name": "Cink Peax 2",
+        "Device_Maker": "Wiko",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Wiko",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Wiko Darkmoon": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Darkmoon",
+        "Device_Code_Name": "Darkmoon",
         "Device_Maker": "Wiko",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Wiko",
@@ -24440,6 +24644,102 @@
         "Device_Maker": "vivo",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "vivo",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "PiPO PA10.1M": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "PA10.1M",
+        "Device_Code_Name": "PA10.1M",
+        "Device_Maker": "PiPO Technology",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "PiPO",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Honlin PC1088": {
+      "properties": {
+        "Device_Type": "Desktop",
+        "Device_Name": "PC1088",
+        "Device_Code_Name": "PC1088",
+        "Device_Maker": "Honlin",
+        "Device_Pointing_Method": "mouse",
+        "Device_Brand_Name": "Honlin",
+        "isMobileDevice": "false",
+        "isTablet": "false"
+      }
+    },
+    "Vodafone Smart Tab 4": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "Smart Tab 4",
+        "Device_Code_Name": "Smart Tab 4",
+        "Device_Maker": "Vodafone",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Vodafone",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Vodafone Smart 4G": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Smart 4G",
+        "Device_Code_Name": "Smart 4G",
+        "Device_Maker": "Vodafone",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Vodafone",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Comag WTDR1018": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "WTDR1018",
+        "Device_Code_Name": "WTDR1018",
+        "Device_Maker": "Comag",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Comag",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "eFOX SMART E5": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "SMART E5",
+        "Device_Code_Name": "SMART E5",
+        "Device_Maker": "eFOX",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "eFOX",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Cosmote Xplore": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Xplore",
+        "Device_Code_Name": "Xplore",
+        "Device_Maker": "Cosmote",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Cosmote",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "KAZAM Trooper 2 5.0": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Trooper 2 5.0",
+        "Device_Code_Name": "Trooper 2 5.0",
+        "Device_Maker": "KAZAM",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "KAZAM",
         "isMobileDevice": "true",
         "isTablet": "false"
       }

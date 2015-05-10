@@ -12,16 +12,12 @@
         "Browser": "Avant",
         "Browser_Type": "Browser",
         "Browser_Maker": "Avant Force",
-        "Win32": "true",
+        "Win32": "false",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
-        "BackgroundSounds": "true",
         "JavaScript": "true",
-        "VBScript": "true",
-        "JavaApplets": "true",
-        "ActiveXControls": "true",
         "CssVersion": "2"
       },
       "children": [

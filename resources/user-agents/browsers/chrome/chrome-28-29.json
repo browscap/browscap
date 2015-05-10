@@ -18,13 +18,13 @@
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
-        "Win32": "true",
+        "Win32": "false",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "JavaApplets": "true",
+        "JavaApplets": "false",
         "CssVersion": "3"
       },
       "children": [
@@ -1384,6 +1384,13 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#A3-A10 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "device": "Acer A3-A10",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "platforms": [
             "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
@@ -1415,13 +1422,13 @@
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
-        "Win32": "true",
+        "Win32": "false",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "JavaApplets": "true",
+        "JavaApplets": "false",
         "CssVersion": "3"
       },
       "children": [
@@ -1431,9 +1438,11 @@
           "platforms": [
             "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
             "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0",
+            "iOS_A_8_1",
             "iOS_A",
             "iOS_B",
-            "iOS_C_4_3", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_0",
+            "iOS_C_4_3", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_1",
+            "iOS_C_8_0",
             "iOS_C"
           ]
         },
@@ -1443,9 +1452,11 @@
           "platforms": [
             "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
             "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0",
+            "iOS_A_8_1",
             "iOS_A",
             "iOS_B",
-            "iOS_C_4_3", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_0",
+            "iOS_C_4_3", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_1",
+            "iOS_C_8_0",
             "iOS_C"
           ]
         },
@@ -1454,9 +1465,11 @@
           "platforms": [
             "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
             "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0",
+            "iOS_A_8_1",
             "iOS_A",
             "iOS_B",
-            "iOS_C_4_3", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_0",
+            "iOS_C_4_3", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_1",
+            "iOS_C_8_0",
             "iOS_C"
           ]
         }
@@ -1475,13 +1488,13 @@
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
-        "Win32": "true",
+        "Win32": "false",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "JavaApplets": "true",
+        "JavaApplets": "false",
         "CssVersion": "3"
       },
       "children": [

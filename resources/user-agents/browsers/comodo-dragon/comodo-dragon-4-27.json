@@ -1,7 +1,7 @@
 {
   "division": "Comodo Dragon #MAJORVER#.#MINORVER#",
   "versions": ["27.2", "27.1", 27, "26.2", "26.1", 26, "25.2", "25.1", 25, "24.2", "24.1", 24, "23.4", "23.2", "23.1", 23, "22.1", 22, "21.2", "21.1", 21, "20.1", 20, "19.2", "19.1", 19, "18.3", "18.1", 18, "17.5", "17.4", "17.3", "17.1", 17, "16.2", "16.1", 16, 15, 14, "13.4", 13, 12, 11, 10, 9, 8, 6, 4],
-  "sortIndex": 3451,
+  "sortIndex": 953,
   "lite": false,
   "userAgents": [
     {
@@ -12,17 +12,17 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Comodo Dragon #MAJORVER#.#MINORVER#",
-        "Browser": "Comodo Dragon",
+        "Browser": "Dragon",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
         "Browser_Maker": "Comodo Group Inc",
+        "Browser_Type": "Browser",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "JavaApplets": "true",
         "CssVersion": "3"
       },
       "children": [

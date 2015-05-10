@@ -20,13 +20,13 @@
       },
       "children": [
         {
-          "match": "AtomicBrowser\/#MAJORVER#.#MINORVER#* CFNetwork\/* #PLATFORM#",
+          "match": "AtomicBrowser\/#MAJORVER#.#MINORVER#* CFNetwork\/#PLATFORM#",
           "platforms": [
             "Darwin"
           ]
         },
         {
-          "match": "AtomicLite\/#MAJORVER#.#MINORVER#* CFNetwork\/* #PLATFORM#",
+          "match": "AtomicLite\/#MAJORVER#.#MINORVER#* CFNetwork\/#PLATFORM#",
           "platforms": [
             "Darwin"
           ]

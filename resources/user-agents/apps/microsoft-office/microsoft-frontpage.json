@@ -21,16 +21,19 @@
         "Frames": "false",
         "IFrames": "false",
         "Cookies": "false",
-        "BackgroundSounds": "false",
         "JavaScript": "false",
-        "VBScript": "false",
-        "JavaApplets": "false",
-        "ActiveXControls": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
         "CssVersion": "2"
       },
       "children": [
+        {
+          "match": "Mozilla\/2.*(compatible; MS FrontPage 5.0*)",
+          "properties": {
+            "Version": "5.0",
+            "MajorVer": "5"
+          }
+        },
         {
           "match": "Mozilla\/?* (compatible; MS FrontPage*)"
         },

@@ -119,7 +119,7 @@
           }
         },
         {
-          "match": "iBrowse\/2.60 CFNetwork\/* Darwin\/*",
+          "match": "iBrowse\/2.60 CFNetwork\/#PLATFORM#",
           "properties": {
             "Version": "2.6",
             "MajorVer": "2",

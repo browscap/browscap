@@ -156,6 +156,21 @@
           "properties": {
             "Browser": "Microsoft CryptoAPI"
           }
+        },
+        {
+          "match": "MS Web Services Client Protocol 1.0*",
+          "properties": {
+            "Browser": ".NET Framework CLR",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "MS Web Services Client Protocol *",
+          "properties": {
+            "Browser": ".NET Framework CLR"
+          }
         }
       ]
     }

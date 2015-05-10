@@ -17,13 +17,12 @@
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
-        "Win32": "true",
+        "Win32": "false",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "JavaApplets": "true",
         "CssVersion": "3"
       },
       "children": [
@@ -99,7 +98,7 @@
           ]
         },
         {
-          "match": "Mozilla\/*(iPad#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "match": "Mozilla\/5.0*(iPad#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
           "engine": "U3",
           "device": "iPad",
           "platforms": [

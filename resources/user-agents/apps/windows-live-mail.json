@@ -21,7 +21,6 @@
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
-        "BackgroundSounds": "true",
         "JavaScript": "true",
         "CssVersion": "2"
       },

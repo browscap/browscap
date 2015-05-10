@@ -21,18 +21,14 @@
         "IFrames": "false",
         "Tables": "false",
         "Cookies": "false",
-        "BackgroundSounds": "false",
         "JavaScript": "false",
-        "VBScript": "false",
-        "JavaApplets": "false",
-        "ActiveXControls": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
         "Browser": "Cooliris"
       },
       "children": [
         {
-          "match": "Cooliris?1.2 CFNetwork\/* #PLATFORM#",
+          "match": "Cooliris?1.2 CFNetwork\/#PLATFORM#",
           "properties": {
             "Version": "1.2",
             "MajorVer": "1",
@@ -43,7 +39,7 @@
           ]
         },
         {
-          "match": "Cooliris?1.3 CFNetwork\/* #PLATFORM#",
+          "match": "Cooliris?1.3 CFNetwork\/#PLATFORM#",
           "properties": {
             "Version": "1.3",
             "MajorVer": "1",
@@ -54,7 +50,7 @@
           ]
         },
         {
-          "match": "Cooliris?1.4 CFNetwork\/* #PLATFORM#",
+          "match": "Cooliris?1.4 CFNetwork\/#PLATFORM#",
           "properties": {
             "Version": "1.4",
             "MajorVer": "1",
@@ -65,7 +61,7 @@
           ]
         },
         {
-          "match": "Cooliris?1.5 CFNetwork\/* #PLATFORM#",
+          "match": "Cooliris?1.5 CFNetwork\/#PLATFORM#",
           "properties": {
             "Version": "1.5",
             "MajorVer": "1",
@@ -76,7 +72,7 @@
           ]
         },
         {
-          "match": "Cooliris* CFNetwork\/* #PLATFORM#",
+          "match": "Cooliris* CFNetwork\/#PLATFORM#",
           "platforms": [
             "Darwin"
           ]

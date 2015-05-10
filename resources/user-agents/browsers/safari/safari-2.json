@@ -1,7 +1,7 @@
 {
   "division": "Safari #MAJORVER#.#MINORVER#",
   "versions": ["3.2", "3.1", 3, 2],
-  "sortIndex": 1972,
+  "sortIndex": 1974,
   "lite": false,
   "userAgents": [
     {
@@ -22,7 +22,6 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "JavaApplets": "true",
         "CssVersion": "2"
       },
       "children": [
@@ -70,7 +69,6 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "JavaApplets": "true",
         "CssVersion": "2"
       },
       "children": [

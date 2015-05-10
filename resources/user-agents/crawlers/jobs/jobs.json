@@ -41,6 +41,16 @@
             "Browser": "JobdiggerSpider",
             "Browser_Maker": "www.jobdigger.nl"
           }
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#compatible; Jobboerse.com;*) Gecko\/* Firefox\/*",
+          "properties": {
+            "Browser": "JobBoerse Bot",
+            "Browser_Maker": "Jobboerse.com"
+          },
+          "platforms": [
+            "Linux_32", "Linux"
+          ]
         }
       ]
     }

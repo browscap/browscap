@@ -21,18 +21,14 @@
         "IFrames": "false",
         "Tables": "false",
         "Cookies": "false",
-        "BackgroundSounds": "false",
         "JavaScript": "false",
-        "VBScript": "false",
-        "JavaApplets": "false",
-        "ActiveXControls": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
         "Browser": "Clipish"
       },
       "children": [
         {
-          "match": "Clipish\/9.26* CFNetwork\/* #PLATFORM#",
+          "match": "Clipish\/9.26* CFNetwork\/#PLATFORM#",
           "properties": {
             "Version": "9.26",
             "MajorVer": "9",
@@ -43,7 +39,7 @@
           ]
         },
         {
-          "match": "Clipish\/* CFNetwork\/* #PLATFORM#",
+          "match": "Clipish\/* CFNetwork\/#PLATFORM#",
           "platforms": [
             "Darwin"
           ]

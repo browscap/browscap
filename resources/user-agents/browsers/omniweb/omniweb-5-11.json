@@ -21,7 +21,6 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "JavaApplets": "true",
         "CssVersion": "3"
       },
       "children": [
@@ -34,7 +33,7 @@
           ]
         },
         {
-          "match": "OmniWeb622.19.* CFNetwork\/* Darwin\/* (Power%20Macintosh) (PowerMac7%2C3)",
+          "match": "OmniWeb622.19.* CFNetwork\/#PLATFORM# (Power%20Macintosh) (PowerMac7%2C3)",
           "device": "PowerMac",
           "platforms": [
             "Darwin"

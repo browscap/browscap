@@ -23,17 +23,13 @@
         "IFrames": "false",
         "Tables": "false",
         "Cookies": "false",
-        "BackgroundSounds": "false",
         "JavaScript": "false",
-        "VBScript": "false",
-        "JavaApplets": "false",
-        "ActiveXControls": "false",
         "isSyndicationReader": "false",
         "Crawler": "false"
       },
       "children": [
         {
-          "match": "Flipboard\/1.5* CFNetwork\/* #PLATFORM#",
+          "match": "Flipboard\/1.5* CFNetwork\/#PLATFORM#",
           "properties": {
             "Version": "1.5",
             "MajorVer": "1",
@@ -44,7 +40,7 @@
           ]
         },
         {
-          "match": "Flipboard\/1.8* CFNetwork\/* #PLATFORM#",
+          "match": "Flipboard\/1.8* CFNetwork\/#PLATFORM#",
           "properties": {
             "Version": "1.8",
             "MajorVer": "1",
@@ -55,7 +51,7 @@
           ]
         },
         {
-          "match": "Flipboard* CFNetwork\/* #PLATFORM#",
+          "match": "Flipboard* CFNetwork\/#PLATFORM#",
           "platforms": [
             "Darwin"
           ]

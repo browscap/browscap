@@ -19,15 +19,9 @@
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
-        "BackgroundSounds": "true",
         "JavaScript": "true",
-        "VBScript": "true",
         "CssVersion": "2",
-        "BackgroundSounds": "false",
         "JavaScript": "false",
-        "VBScript": "false",
-        "JavaApplets": "false",
-        "ActiveXControls": "false",
         "isSyndicationReader": "false"
       },
       "children": [

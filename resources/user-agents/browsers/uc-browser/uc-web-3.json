@@ -17,13 +17,12 @@
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
-        "Win32": "true",
+        "Win32": "false",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "JavaApplets": "true",
         "CssVersion": "3"
       },
       "children": [
@@ -63,6 +62,14 @@
             "Android_4_2",
             "Android_4_3",
             "Android"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#HL-PC1088 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "device": "Honlin PC1088",
+          "platforms": [
+            "Android_4_2"
           ]
         },
         {
@@ -156,11 +163,19 @@
           ]
         },
         {
-          "match": "Mozilla\/*(iPad; #PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
-          "engine": "U3",
+          "match": "Mozilla\/5.0*(iPad#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/*Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
           "device": "iPad",
           "platforms": [
-            "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_1", "iOS_C_8_0", "iOS_C"
+            "iOS_C_5_1", "iOS_C_5_0", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_1", "iOS_C_8_0", "iOS_C"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0*(#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/*Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "device": "general Mobile Device (Apple)",
+          "platforms": [
+            "iOS_C_5_1", "iOS_C_5_0", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_1", "iOS_C_8_0", "iOS_C"
           ]
         }
       ]
@@ -177,13 +192,12 @@
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
-        "Win32": "true",
+        "Win32": "false",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "JavaApplets": "true",
         "CssVersion": "3"
       },
       "children": [

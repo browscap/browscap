@@ -20,17 +20,13 @@
         "Alpha": "false",
         "Beta": "false",
         "Win16": "false",
-        "Win32": "true",
+        "Win32": "false",
         "Win64": "false",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
-        "BackgroundSounds": "true",
         "JavaScript": "true",
-        "VBScript": "true",
-        "JavaApplets": "true",
-        "ActiveXControls": "true",
         "isSyndicationReader": "false",
         "Crawler": "false",
         "CssVersion": "3"
@@ -45,7 +41,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible; MSIE #MAJORVER#.#MINORVER#*; #PLATFORM#Trident/5.0; Xbox*",
+          "match": "Mozilla\/5.0 (compatible; MSIE #MAJORVER#.#MINORVER#*; #PLATFORM#Trident\/5.0; Xbox*",
           "device": "Microsoft Xbox 360",
           "platforms": [
             "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32",
@@ -174,11 +170,7 @@
             "IFrames": "false",
             "Tables": "false",
             "Cookies": "false",
-            "BackgroundSounds": "false",
             "JavaScript": "false",
-            "VBScript": "false",
-            "JavaApplets": "false",
-            "ActiveXControls": "false",
             "isSyndicationReader": "false",
             "Crawler": "true",
             "CssVersion": "0"

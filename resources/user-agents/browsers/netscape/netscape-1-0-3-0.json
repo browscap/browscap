@@ -1,6 +1,6 @@
 {
   "division": "Netscape #MAJORVER#.#MINORVER#",
-  "versions": [3, 2, 1],
+  "versions": [3, 2, 1, "0.91"],
   "sortIndex": 7806,
   "lite": false,
   "userAgents": [
@@ -21,8 +21,7 @@
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
-        "JavaScript": "true",
-        "JavaApplets": "true"
+        "JavaScript": "true"
       },
       "children": [
         {
@@ -36,7 +35,7 @@
           "match": "Mozilla\/#MAJORVER#.*(#PLATFORM#)*",
           "device": "Windows Desktop",
           "platforms": [
-            "Win16", "Win95", "Win98", "NT_2", "WinXPa_32"
+            "Win16", "Win95", "Win98", "NT_2", "WinXPa_32", "Windows"
           ]
         },
         {

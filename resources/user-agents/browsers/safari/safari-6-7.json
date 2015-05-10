@@ -1,7 +1,7 @@
 {
   "division": "Safari #MAJORVER#.#MINORVER#",
   "versions": ["8.1", 8, "7.1", 7, "6.2", "6.1", 6],
-  "sortIndex": 1970,
+  "sortIndex": 1972,
   "lite": true,
   "userAgents": [
     {
@@ -22,7 +22,6 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "JavaApplets": "true",
         "CssVersion": "3"
       },
       "children": [
@@ -60,6 +59,8 @@
         "Parent": "DefaultProperties",
         "Comment": "Safari #MAJORVER#.#MINORVER#",
         "Browser": "Safari",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Apple Inc",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
@@ -68,7 +69,6 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "JavaApplets": "true",
         "CssVersion": "3"
       },
       "children": [
