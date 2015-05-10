@@ -26,11 +26,7 @@
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
-        "BackgroundSounds": "true",
         "JavaScript": "true",
-        "VBScript": "true",
-        "JavaApplets": "true",
-        "ActiveXControls": "true",
         "isSyndicationReader": "false",
         "Crawler": "false",
         "CssVersion": "3"
@@ -174,11 +170,7 @@
             "IFrames": "false",
             "Tables": "false",
             "Cookies": "false",
-            "BackgroundSounds": "false",
             "JavaScript": "false",
-            "VBScript": "false",
-            "JavaApplets": "false",
-            "ActiveXControls": "false",
             "isSyndicationReader": "false",
             "Crawler": "true",
             "CssVersion": "0"

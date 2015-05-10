@@ -23,9 +23,6 @@
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
-        "BackgroundSounds": "false",
-        "VBScript": "false",
-        "ActiveXControls": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
         "Frames": "true",
@@ -33,7 +30,6 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "JavaApplets": "true",
         "CssVersion": "3"
       },
       "children": [
@@ -106,9 +102,6 @@
         "Beta": "false",
         "Win16": "false",
         "Win64": "false",
-        "BackgroundSounds": "false",
-        "VBScript": "false",
-        "ActiveXControls": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
         "Win32": "false",
@@ -117,7 +110,6 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "JavaApplets": "true",
         "CssVersion": "3"
       },
       "children": [

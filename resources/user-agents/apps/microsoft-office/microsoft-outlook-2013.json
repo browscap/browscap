@@ -20,11 +20,7 @@
         "Tables": "true",
         "Cookies": "true",
         "CssVersion": "2",
-        "BackgroundSounds": "false",
         "JavaScript": "false",
-        "VBScript": "false",
-        "JavaApplets": "false",
-        "ActiveXControls": "false",
         "isSyndicationReader": "false"
       },
       "children": [

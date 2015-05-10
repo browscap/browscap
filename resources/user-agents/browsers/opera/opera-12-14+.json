@@ -22,8 +22,7 @@
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
-        "JavaScript": "true",
-        "JavaApplets": "true"
+        "JavaScript": "true"
       },
       "children": [
         {

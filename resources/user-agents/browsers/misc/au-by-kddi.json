@@ -17,9 +17,7 @@
         "Frames": "true",
         "Tables": "true",
         "Cookies": "true",
-        "BackgroundSounds": "true",
         "JavaScript": "true",
-        "VBScript": "true",
         "CssVersion": "1"
       },
       "children": [

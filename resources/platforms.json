@@ -1657,7 +1657,7 @@
       "inherits": "Windows",
       "properties": {
         "Platform": "Win10",
-        "Platform_Version": "10",
+        "Platform_Version": "10.0",
         "Platform_Description": "Windows 10"
       }
     },
@@ -1667,7 +1667,7 @@
       "properties": {
         "Platform": "Win10",
         "Platform_Bits": "64",
-        "Platform_Version": "10",
+        "Platform_Version": "10.0",
         "Platform_Description": "Windows 10",
         "Win32": "false",
         "Win64": "true"
@@ -1680,7 +1680,7 @@
         "Browser_Bits": "64",
         "Platform": "Win10",
         "Platform_Bits": "64",
-        "Platform_Version": "10",
+        "Platform_Version": "10.0",
         "Platform_Description": "Windows 10",
         "Win32": "false",
         "Win64": "true"
