@@ -2,7 +2,7 @@
   "division": "Opera Mobile #MAJORVER#.#MINORVER#",
   "versions": [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14],
   "sortIndex": 1030,
-  "lite": true,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Opera Mobile #MAJORVER#.#MINORVER# for Android",
@@ -24,7 +24,6 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "JavaApplets": "true",
         "CssVersion": "3"
       },
       "children": [

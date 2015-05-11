@@ -1,7 +1,7 @@
 {
   "division": "Microsoft Outlook Generic",
   "sortIndex": 1654,
-  "lite": true,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Microsoft Outlook Generic",
@@ -22,11 +22,7 @@
         "Cookies": "false",
         "Crawler": "false",
         "CssVersion": "2",
-        "BackgroundSounds": "false",
         "JavaScript": "false",
-        "VBScript": "false",
-        "JavaApplets": "false",
-        "ActiveXControls": "false",
         "isSyndicationReader": "false"
       },
       "children": [

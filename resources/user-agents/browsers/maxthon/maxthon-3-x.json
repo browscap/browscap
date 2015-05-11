@@ -2,7 +2,7 @@
   "division": "Maxthon #MAJORVER#.#MINORVER#",
   "versions": [3, "3.1", "3.2", "3.3", "3.4"],
   "sortIndex": 944,
-  "lite": true,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Maxthon #MAJORVER#.#MINORVER#",
@@ -22,9 +22,6 @@
         "Beta": "false",
         "Win16": "false",
         "Win64": "false",
-        "BackgroundSounds": "false",
-        "VBScript": "false",
-        "ActiveXControls": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
         "Win32": "false",
@@ -33,7 +30,6 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "JavaApplets": "true",
         "CssVersion": "2"
       },
       "children": [

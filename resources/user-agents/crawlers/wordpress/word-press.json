@@ -1,7 +1,7 @@
 {
   "division": "WordPress",
   "sortIndex": 310,
-  "lite": true,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "WordPress",

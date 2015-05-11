@@ -1,7 +1,7 @@
 {
   "division": "Avant\/IE 9.0",
   "sortIndex": 936,
-  "lite": true,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Avant\/IE 9.0",
@@ -18,11 +18,7 @@
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
-        "BackgroundSounds": "true",
         "JavaScript": "true",
-        "VBScript": "true",
-        "JavaApplets": "true",
-        "ActiveXControls": "true",
         "CssVersion": "2"
       },
       "children": [

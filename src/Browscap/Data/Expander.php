@@ -142,6 +142,9 @@ class Expander
 
         if (array_key_exists('platform', $uaData)) {
             $platform     = $this->getDataCollection()->getPlatform($uaData['platform']);
+            if (!$platform->isLite()) {
+                $lite = false;
+            }
             $platformData = $platform->getProperties();
         } else {
             $platformData = array();
@@ -269,6 +272,10 @@ class Expander
                     $childProperties = $uaDataChild['properties'];
 
                     $properties = array_merge($properties, $childProperties);
+                }
+
+                if (!$platformData->isLite()) {
+                    $properties['lite'] = false;
                 }
 
                 $output[$uaBase] = $properties;

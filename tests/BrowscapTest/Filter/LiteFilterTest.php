@@ -121,4 +121,11 @@ class LiteFilterTest extends \PHPUnit_Framework_TestCase
         $actualValue = $this->object->isOutputProperty($propertyName);
         self::assertSame($isExtra, $actualValue);
     }
+
+    public function testIsOutputSectionOnlyWhenLite()
+    {
+        $this->assertFalse($this->object->isOutputSection(array()));
+        $this->assertFalse($this->object->isOutputSection(array('lite' => false)));
+        $this->assertTrue($this->object->isOutputSection(array('lite' => true)));
+    }
 }
