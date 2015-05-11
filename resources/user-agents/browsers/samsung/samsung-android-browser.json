@@ -2,7 +2,7 @@
   "division": "Samsung Browser #MAJORVER#.#MINORVER#",
   "versions": ["2.1"],
   "sortIndex": 955,
-  "lite": true,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Samsung Browser #MAJORVER#.#MINORVER#",

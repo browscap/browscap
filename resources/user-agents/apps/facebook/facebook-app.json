@@ -1,7 +1,7 @@
 {
   "division": "Facebook App",
   "sortIndex": 952,
-  "lite": true,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Facebook App",

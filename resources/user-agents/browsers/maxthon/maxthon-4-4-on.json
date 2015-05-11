@@ -2,7 +2,7 @@
   "division": "Maxthon #MAJORVER#.#MINORVER#",
   "versions": ["4.4"],
   "sortIndex": 941,
-  "lite": true,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Maxthon #MAJORVER#.#MINORVER# for Android",

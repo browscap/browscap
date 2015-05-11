@@ -1,7 +1,7 @@
 {
   "division": "Schoolwires App",
   "sortIndex": 1991,
-  "lite": true,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Schoolwires App",

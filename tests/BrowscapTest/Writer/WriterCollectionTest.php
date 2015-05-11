@@ -88,6 +88,28 @@ class WriterCollectionTest extends \PHPUnit_Framework_TestCase
         self::assertSame($this->object, $this->object->setSilent($mockDivision));
     }
 
+    public function testSetSilentSection()
+    {
+        $mockFilter = $this->getMock('\Browscap\Filter\FullFilter', array('isOutputSection'), array(), '', false);
+        $mockFilter
+            ->expects(self::once())
+            ->method('isOutputSection')
+            ->will(self::returnValue(true))
+        ;
+
+        $mockDivision = array();
+
+        $mockWriter = $this->getMock('\Browscap\Writer\CsvWriter', array('getFilter'), array(), '', false);
+        $mockWriter
+            ->expects(self::once())
+            ->method('getFilter')
+            ->will(self::returnValue($mockFilter))
+        ;
+
+        self::assertSame($this->object, $this->object->addWriter($mockWriter));
+        self::assertSame($this->object, $this->object->setSilentSection($mockDivision));
+    }
+
     public function testFileStart()
     {
         $mockWriter = $this->getMock('\Browscap\Writer\CsvWriter', array(), array(), '', false);

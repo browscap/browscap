@@ -1,7 +1,7 @@
 {
   "division": "Avant 2014",
   "sortIndex": 932,
-  "lite": true,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Avant 2014",

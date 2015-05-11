@@ -2,7 +2,7 @@
   "division": "Access NetFront #MAJORVER#.#MINORVER#",
   "versions": ["4.2", "4.1", "4.0"],
   "sortIndex": 1540,
-  "lite": true,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "NetFront #MAJORVER#.#MINORVER#",
