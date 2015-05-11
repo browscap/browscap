@@ -77,6 +77,20 @@ class WriterCollection
     }
 
     /**
+     * @param mixed $section
+     *
+     * @return \Browscap\Writer\WriterCollection
+     */
+    public function setSilentSection($section)
+    {
+        foreach ($this->writers as $writer) {
+            $writer->setSilent(!$writer->getFilter()->isOutputSection($section));
+        }
+
+        return $this;
+    }
+
+    /**
      * Generates a start sequence for the output file
      *
      * @return \Browscap\Writer\WriterCollection

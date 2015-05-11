@@ -17,8 +17,7 @@
         "Tables": "true",
         "Crawler": "true",
         "Cookies": "true",
-        "JavaScript": "true",
-        "ActiveXControls": "true"
+        "JavaScript": "true"
       },
       "children": [
         {

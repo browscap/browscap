@@ -18,9 +18,6 @@
         "Win32": "false",
         "Win64": "false",
         "IFrames": "false",
-        "BackgroundSounds": "false",
-        "VBScript": "false",
-        "JavaApplets": "false",
         "isSyndicationReader": "false",
         "Crawler": "false"
       },

@@ -1,7 +1,7 @@
 {
   "division": "Windows Live Mail",
   "sortIndex": 1660,
-  "lite": true,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Windows Live Mail",
@@ -21,7 +21,6 @@
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
-        "BackgroundSounds": "true",
         "JavaScript": "true",
         "CssVersion": "2"
       },

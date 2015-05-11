@@ -11,7 +11,6 @@
         "Parent": "DefaultProperties",
         "Browser_Type": "Browser",
         "Browser_Maker": "Mozilla Foundation",
-        "JavaApplets": "true",
         "CssVersion": "2",
         "Comment": "Chimera",
         "Browser": "Chimera",

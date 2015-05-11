@@ -1,7 +1,7 @@
 {
   "division": "Playbook Simulator",
   "sortIndex": 2378,
-  "lite": true,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Playbook Simulator",

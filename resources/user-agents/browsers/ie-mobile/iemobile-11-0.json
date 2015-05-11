@@ -2,7 +2,7 @@
   "division": "IEMobile #MAJORVER#.#MINORVER#",
   "versions": [11],
   "sortIndex": 1714,
-  "lite": true,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "IEMobile #MAJORVER#.#MINORVER#",
@@ -29,8 +29,6 @@
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
-        "BackgroundSounds": "false",
-        "JavaApplets": "false",
         "isSyndicationReader": "false",
         "Crawler": "false"
       },

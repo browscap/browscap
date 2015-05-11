@@ -53,6 +53,18 @@ class LiteFilter implements FilterInterface
     }
 
     /**
+     * checks if a section should be in the output
+     *
+     * @param string[] $section
+     *
+     * @return boolean
+     */
+    public function isOutputSection(array $section)
+    {
+        return isset($section['lite']) && $section['lite'] == 1;
+    }
+
+    /**
      * checks if a property should be in the output
      *
      * @param string $property

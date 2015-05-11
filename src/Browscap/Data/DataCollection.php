@@ -437,6 +437,9 @@ class DataCollection
             || array_key_exists('RenderingEngine_Version', $properties)
             || array_key_exists('RenderingEngine_Description', $properties)
             || array_key_exists('RenderingEngine_Maker', $properties)
+            || array_key_exists('VBScript', $properties)
+            || array_key_exists('ActiveXControls', $properties)
+            || array_key_exists('BackgroundSounds', $properties)
         ) {
             throw new \LogicException($message);
         }
