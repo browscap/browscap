@@ -2,7 +2,7 @@
   "division": "IE #MAJORVER#.#MINORVER#",
   "versions": ["7.0"],
   "sortIndex": 2764,
-  "lite": false,
+  "lite": true,
   "userAgents": [
     {
       "userAgent": "IE #MAJORVER#.#MINORVER#",
@@ -26,11 +26,7 @@
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
-        "BackgroundSounds": "true",
         "JavaScript": "true",
-        "VBScript": "true",
-        "JavaApplets": "true",
-        "ActiveXControls": "true",
         "isSyndicationReader": "false",
         "Crawler": "false",
         "CssVersion": "2"

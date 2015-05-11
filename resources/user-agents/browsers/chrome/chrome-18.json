@@ -24,7 +24,7 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "JavaApplets": "true",
+        "JavaApplets": "false",
         "CssVersion": "3"
       },
       "children": [
@@ -877,7 +877,7 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "JavaApplets": "true",
+        "JavaApplets": "false",
         "CssVersion": "3"
       },
       "children": [
@@ -937,7 +937,7 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "JavaApplets": "true",
+        "JavaApplets": "false",
         "CssVersion": "3"
       },
       "children": [

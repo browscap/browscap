@@ -1,7 +1,7 @@
 {
   "division": "douban App",
   "sortIndex": 2000,
-  "lite": true,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "douban App",

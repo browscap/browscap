@@ -116,4 +116,11 @@ class FullFilterTest extends \PHPUnit_Framework_TestCase
         $actualValue = $this->object->isOutputProperty($propertyName);
         self::assertSame($isExtra, $actualValue);
     }
+
+    public function testIsOutputSectionAlways()
+    {
+        $this->assertTrue($this->object->isOutputSection(array()));
+        $this->assertTrue($this->object->isOutputSection(array('lite' => false)));
+        $this->assertTrue($this->object->isOutputSection(array('lite' => true)));
+    }
 }

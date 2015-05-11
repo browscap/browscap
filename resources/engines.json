@@ -5,7 +5,11 @@
         "RenderingEngine_Name": "unknown",
         "RenderingEngine_Version": "unknown",
         "RenderingEngine_Description": "unknown",
-        "RenderingEngine_Maker": "unknown"
+        "RenderingEngine_Maker": "unknown",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "BackgroundSounds": "false"
       }
     },
     "WebKit": {
@@ -13,7 +17,11 @@
         "RenderingEngine_Name": "WebKit",
         "RenderingEngine_Version": "unknown",
         "RenderingEngine_Description": "For Google Chrome, iOS (including both mobile Safari, WebViews within third-party apps, and web clips), Safari, Arora, Midori, OmniWeb, Shiira, iCab since version 4, Web, SRWare Iron, Rekonq, and in Maxthon 3.",
-        "RenderingEngine_Maker": "Apple Inc"
+        "RenderingEngine_Maker": "Apple Inc",
+        "VBScript": "false",
+        "JavaApplets": "true",
+        "ActiveXControls": "false",
+        "BackgroundSounds": "false"
       }
     },
     "Gecko": {
@@ -21,7 +29,11 @@
         "RenderingEngine_Name": "Gecko",
         "RenderingEngine_Version": "unknown",
         "RenderingEngine_Description": "For Firefox, Camino, K-Meleon, SeaMonkey, Netscape, and other Gecko-based browsers.",
-        "RenderingEngine_Maker": "Mozilla Foundation"
+        "RenderingEngine_Maker": "Mozilla Foundation",
+        "VBScript": "false",
+        "JavaApplets": "true",
+        "ActiveXControls": "false",
+        "BackgroundSounds": "false"
       }
     },
     "Gecko_1": {
@@ -239,7 +251,11 @@
         "RenderingEngine_Name": "Trident",
         "RenderingEngine_Version": "unknown",
         "RenderingEngine_Description": "For Internet Explorer since version 4.0 and embedded WebBrowser controls (such as Internet Explorer shells, Maxthon and some media players).",
-        "RenderingEngine_Maker": "Microsoft Corporation"
+        "RenderingEngine_Maker": "Microsoft Corporation",
+        "VBScript": "true",
+        "JavaApplets": "true",
+        "ActiveXControls": "true",
+        "BackgroundSounds": "true"
       }
     },
     "Trident_3_1": {
@@ -278,12 +294,34 @@
         "RenderingEngine_Version": "8.0"
       }
     },
+    "Edge": {
+      "properties": {
+        "RenderingEngine_Name": "Edge",
+        "RenderingEngine_Version": "unknown",
+        "RenderingEngine_Description": "For the Edge Browser since version 12.0",
+        "RenderingEngine_Maker": "Microsoft Corporation",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "BackgroundSounds": "false"
+      }
+    },
+    "Edge_12": {
+      "inherits": "Edge",
+      "properties": {
+        "RenderingEngine_Version": "12.0"
+      }
+    },
     "Presto": {
       "properties": {
         "RenderingEngine_Name": "Presto",
         "RenderingEngine_Version": "unknown",
         "RenderingEngine_Description": "For Opera 7 and above, Macromedia Dreamweaver MX and MX 2004 (Mac), and Adobe Creative Suite 2.",
-        "RenderingEngine_Maker": "Opera Software ASA"
+        "RenderingEngine_Maker": "Opera Software ASA",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "BackgroundSounds": "false"
       }
     },
     "Presto_1_0": {
@@ -339,7 +377,11 @@
         "RenderingEngine_Name": "NetFront",
         "RenderingEngine_Version": "unknown",
         "RenderingEngine_Description": "For Access NetFront.",
-        "RenderingEngine_Maker": "Access"
+        "RenderingEngine_Maker": "Access",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "BackgroundSounds": "false"
       }
     },
     "T5": {
@@ -347,7 +389,11 @@
         "RenderingEngine_Name": "T5",
         "RenderingEngine_Version": "unknown",
         "RenderingEngine_Description": "a WebKit Fork by Baidu",
-        "RenderingEngine_Maker": "Baidu"
+        "RenderingEngine_Maker": "Baidu",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "BackgroundSounds": "false"
       }
     },
     "Tasman": {
@@ -355,7 +401,11 @@
         "RenderingEngine_Name": "Tasman",
         "RenderingEngine_Version": "unknown",
         "RenderingEngine_Description": "For Internet Explorer 5 for Mac, Microsoft Office 2004 for Mac, and Microsoft Office 2008 for Mac.",
-        "RenderingEngine_Maker": "Apple Inc"
+        "RenderingEngine_Maker": "Apple Inc",
+        "VBScript": "false",
+        "JavaApplets": "true",
+        "ActiveXControls": "false",
+        "BackgroundSounds": "false"
       }
     },
     "KHTML": {
@@ -363,7 +413,11 @@
         "RenderingEngine_Name": "KHTML",
         "RenderingEngine_Version": "unknown",
         "RenderingEngine_Description": "For Konqueror.",
-        "RenderingEngine_Maker": "KDE"
+        "RenderingEngine_Maker": "KDE",
+        "VBScript": "false",
+        "JavaApplets": "true",
+        "ActiveXControls": "false",
+        "BackgroundSounds": "false"
       }
     },
     "KHTML_Dynamic": {
@@ -377,7 +431,11 @@
         "RenderingEngine_Name": "U2",
         "RenderingEngine_Version": "unknown",
         "RenderingEngine_Description": "a WebKit Fork by UC Web",
-        "RenderingEngine_Maker": "UC Web"
+        "RenderingEngine_Maker": "UC Web",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "BackgroundSounds": "false"
       }
     },
     "U3": {
@@ -385,7 +443,11 @@
         "RenderingEngine_Name": "U3",
         "RenderingEngine_Version": "unknown",
         "RenderingEngine_Description": "a WebKit Fork by UC Web",
-        "RenderingEngine_Maker": "UC Web"
+        "RenderingEngine_Maker": "UC Web",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "BackgroundSounds": "false"
       }
     },
     "Blink": {
@@ -393,7 +455,11 @@
         "RenderingEngine_Name": "Blink",
         "RenderingEngine_Version": "unknown",
         "RenderingEngine_Description": "a WebKit Fork by Google",
-        "RenderingEngine_Maker": "Google Inc"
+        "RenderingEngine_Maker": "Google Inc",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "BackgroundSounds": "false"
       }
     }
   }

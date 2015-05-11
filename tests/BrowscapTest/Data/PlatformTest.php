@@ -58,4 +58,11 @@ class PlatformTest extends \PHPUnit_Framework_TestCase
         self::assertSame($this->object, $this->object->setProperties($properties));
         self::assertSame($properties, $this->object->getProperties());
     }
+
+    public function testSetGetIsLite()
+    {
+        $this->assertFalse($this->object->isLite());
+        $this->object->setIsLite(true);
+        $this->assertTrue($this->object->isLite());
+    }
 }

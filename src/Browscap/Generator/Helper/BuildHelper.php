@@ -166,6 +166,8 @@ class BuildHelper
 
                     $section = $sectionsWithVersion[$sectionName];
 
+                    $writerCollection->setSilentSection($section);
+
                     $writerCollection
                         ->renderSectionHeader($sectionName)
                         ->renderSectionBody($section, $collection, $sectionsWithVersion, $sectionName)

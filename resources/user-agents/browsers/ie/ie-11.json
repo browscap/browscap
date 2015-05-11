@@ -22,11 +22,7 @@
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
-        "BackgroundSounds": "true",
         "JavaScript": "true",
-        "VBScript": "true",
-        "JavaApplets": "true",
-        "ActiveXControls": "true",
         "CssVersion": "3"
       },
       "children": [
@@ -56,11 +52,7 @@
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
-        "BackgroundSounds": "true",
         "JavaScript": "true",
-        "VBScript": "true",
-        "JavaApplets": "true",
-        "ActiveXControls": "true",
         "CssVersion": "3"
       },
       "children": [
@@ -92,11 +84,7 @@
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
-        "BackgroundSounds": "true",
         "JavaScript": "true",
-        "VBScript": "true",
-        "JavaApplets": "true",
-        "ActiveXControls": "true",
         "CssVersion": "3"
       },
       "children": [

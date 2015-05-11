@@ -47,6 +47,10 @@ class PlatformFactory
             $platformData['properties'] = array();
         }
 
+        if (!isset($platformData['lite'])) {
+            $platformData['lite'] = true;
+        }
+
         if (array_key_exists('inherits', $platformData)) {
             $parentName = $platformData['inherits'];
 
@@ -76,6 +80,10 @@ class PlatformFactory
                 $parentPlatformData,
                 $platformProperties
             );
+
+            if (!$parentPlatform->isLite()) {
+                $platformData['lite'] = false;
+            }
         }
 
         if (array_key_exists('device', $platformData)) {
@@ -93,6 +101,7 @@ class PlatformFactory
         $platform
             ->setMatch($platformData['match'])
             ->setProperties($platformData['properties'])
+            ->setIsLite($platformData['lite'])
         ;
 
         return $platform;

@@ -53,6 +53,18 @@ class FullFilter implements FilterInterface
     }
 
     /**
+     * checks if a section should be in the output
+     *
+     * @param string[] $section
+     *
+     * @return boolean
+     */
+    public function isOutputSection(array $section)
+    {
+        return true;
+    }
+
+    /**
      * checks if a property should be in the output
      *
      * @param string $property

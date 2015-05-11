@@ -1,7 +1,7 @@
 {
   "division": "Quora App",
   "sortIndex": 1954,
-  "lite": true,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Quora App",

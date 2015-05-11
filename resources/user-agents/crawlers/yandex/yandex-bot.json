@@ -1,7 +1,7 @@
 {
   "division": "YandexBot",
   "sortIndex": 61,
-  "lite": true,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "YandexBot",

@@ -2,7 +2,7 @@
   "division": "Chrome #MAJORVER#.#MINORVER#",
   "versions": [29, 28],
   "sortIndex": 1151,
-  "lite": true,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Chrome #MAJORVER#.#MINORVER# for Android",
@@ -24,7 +24,7 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "JavaApplets": "true",
+        "JavaApplets": "false",
         "CssVersion": "3"
       },
       "children": [
@@ -1428,7 +1428,7 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "JavaApplets": "true",
+        "JavaApplets": "false",
         "CssVersion": "3"
       },
       "children": [
@@ -1494,7 +1494,7 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "JavaApplets": "true",
+        "JavaApplets": "false",
         "CssVersion": "3"
       },
       "children": [

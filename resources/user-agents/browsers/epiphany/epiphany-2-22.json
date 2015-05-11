@@ -19,9 +19,6 @@
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
-        "BackgroundSounds": "false",
-        "VBScript": "false",
-        "ActiveXControls": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
         "CssVersion": "3",
@@ -30,7 +27,6 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "JavaApplets": "true",
         "Version": "2.22",
         "MajorVer": "2",
         "MinorVer": "22"
