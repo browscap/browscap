@@ -87,7 +87,10 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
         $buildGenerator->run('test');
 
         // Now, load an INI file into phpbrowscap\Browscap for testing the UAs
-        self::$browscap       = new Browscap(self::$buildFolder);
+        self::$browscap               = new Browscap(self::$buildFolder);
+        self::$browscap->doAutoUpdate = false;
+        self::$browscap->updateMethod = Browscap::UPDATE_LOCAL;
+
         self::$propertyHolder = new PropertyHolder();
     }
 
@@ -148,7 +151,15 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
         }
 
         self::$browscap->localFile = self::$buildFolder . '/full_php_browscap.ini';
-        $actualProps               = (array) self::$browscap->getBrowser($userAgent);
+
+        static $updatedFullCache = false;
+
+        if (!$updatedFullCache) {
+            self::$browscap->updateCache();
+            $updatedFullCache = true;
+        }
+
+        $actualProps = (array) self::$browscap->getBrowser($userAgent);
 
         foreach ($expectedProperties as $propName => $propValue) {
             if (!self::$propertyHolder->isOutputProperty($propName)) {
@@ -183,7 +194,15 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
         }
 
         self::$browscap->localFile = self::$buildFolder . '/php_browscap.ini';
-        $actualProps               = (array) self::$browscap->getBrowser($userAgent);
+
+        static $updatedStandardCache = false;
+
+        if (!$updatedStandardCache) {
+            self::$browscap->updateCache();
+            $updatedStandardCache = true;
+        }
+
+        $actualProps = (array) self::$browscap->getBrowser($userAgent);
 
         foreach ($expectedProperties as $propName => $propValue) {
             if (!self::$propertyHolder->isOutputProperty($propName)) {
@@ -222,7 +241,15 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
         }
 
         self::$browscap->localFile = self::$buildFolder . '/lite_php_browscap.ini';
-        $actualProps               = (array) self::$browscap->getBrowser($userAgent);
+
+        static $updatedLiteCache = false;
+
+        if (!$updatedLiteCache) {
+            self::$browscap->updateCache();
+            $updatedLiteCache = true;
+        }
+
+        $actualProps = (array) self::$browscap->getBrowser($userAgent);
 
         foreach ($expectedProperties as $propName => $propValue) {
             if (!self::$propertyHolder->isOutputProperty($propName)) {
