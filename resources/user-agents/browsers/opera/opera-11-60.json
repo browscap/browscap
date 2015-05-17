@@ -169,7 +169,7 @@
         },
         {
           "match": "Opera\/9.80*(#PLATFORM#THOMSON LF1V401; *)*Version\/#MAJORVER#.#MINORVER#*",
-          "device": "Linux Desktop",
+          "device": "Thomson LF1V401",
           "platforms": [
             "Maemo_ARM"
           ]
