@@ -656,6 +656,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
+        'lite' => false,
     ],
     'issue-317-X' => [
         'WEB.DE MailCheck/2.4.0',
