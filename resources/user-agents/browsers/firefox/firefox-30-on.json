@@ -171,6 +171,7 @@
     },
     {
       "userAgent": "Firefox #MAJORVER#.#MINORVER# for Android",
+      "platform": "Android",
       "engine": "Gecko_Dynamic",
       "device": "general Mobile Phone (Touch)",
       "properties": {
@@ -210,6 +211,7 @@
       "userAgent": "Firefox #MAJORVER#.#MINORVER# for Maemo",
       "engine": "Gecko_Dynamic",
       "device": "general Mobile Phone",
+      "platform": "Maemo",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Firefox #MAJORVER#.#MINORVER#",

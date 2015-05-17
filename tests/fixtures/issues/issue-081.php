@@ -168,6 +168,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-081-A' => [
         'Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)',

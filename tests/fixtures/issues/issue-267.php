@@ -197,6 +197,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => true,
     ],
     'issue-267-H' => [
         'FeedForAll rss2html.php v2',
@@ -394,6 +395,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
+        'lite' => false,
     ],
     'issue-267-O' => [
         'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1; .NET CLR 2.0.50727;)',
@@ -562,6 +564,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
+        'lite' => false,
     ],
     'issue-267-U' => [
         'Mozilla/5.0 (Linux; U; en-us; KFSOWI Build/JDQ39) AppleWebKit/535.19 (KHTML, like Gecko) Silk/3.15 Safari/535.19 Silk-Accelerated=true',
@@ -591,6 +594,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
+        'lite' => false,
     ],
     'issue-267-V' => [
         'Mozilla/5.0 (Linux; U; en-us; KFTHWI Build/JDQ39) AppleWebKit/535.19 (KHTML, like Gecko) Silk/3.15 Safari/535.19 Silk-Accelerated=true',
@@ -620,6 +624,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
+        'lite' => false,
     ],
     'issue-267-W' => [
         'Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN; rv:1.8.0.11) Firefox/1.5.0.11;',
@@ -1407,6 +1412,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-AY' => [
         'CCBot/2.0 (http://commoncrawl.org/faq/)',
@@ -2108,6 +2114,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-BY' => [
         'Mozilla/5.0 (compatible; SiteExplorer/1.0b; +http://SiteExplorer.Info/)',
@@ -2277,6 +2284,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
+        'lite' => false,
     ],
     'issue-267-CE' => [
         'hivaBot(http://gorgor.ir and info@gorgor.ir)/hivaBot-0.2',
@@ -2531,6 +2539,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
+        'lite' => false,
     ],
     'issue-267-CN' => [
         'Mozilla/4.0 (compatible; MSIE 7.0b; Windows NT 6.0 ; .NET CLR 2.0.50215; SL Commerce Client v1.0; Tablet PC 2.0',
@@ -3063,6 +3072,7 @@ return [
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
+        'lite' => false,
     ],
     'issue-267-DL' => [
         'OpenWebSpider v0.1.4 (http://www.openwebspider.org/)',
@@ -3623,6 +3633,7 @@ return [
             'RenderingEngine_Version' => '7.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
+        'lite' => false,
     ],
     'issue-267-EG' => [
         'Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 930) like Gecko',
@@ -3651,5 +3662,6 @@ return [
             'RenderingEngine_Version' => '7.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
+        'lite' => false,
     ],
 ];

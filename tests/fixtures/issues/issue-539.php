@@ -132,6 +132,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
+        'lite' => true,
     ],
     'issue-539-E' => [
         'FlixsteriOS/6.18.4 (iPad; CPU OS 7_0_4 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/11B554a',
@@ -165,6 +166,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
+        'lite' => true,
     ],
     'issue-539-G' => [
         'Iframely/0.7.1 (+http://iframe.ly/;)',
@@ -627,6 +629,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
+        'lite' => false,
     ],
     'issue-539-AC' => [
         'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_6) AppleWebKit/534.24 (KHTML, like Gecko) (Contact: backend@getprismatic.com)',
@@ -792,6 +795,7 @@ return [
             'RenderingEngine_Version' => '25.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
+        'lite' => false,
     ],
     'issue-539-AI' => [
         'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534+ (KHTML, like Gecko) OpenWebKitSharp',
@@ -858,6 +862,7 @@ return [
             'RenderingEngine_Version' => '25.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
+        'lite' => false,
     ],
     'issue-539-AK' => [
         'Mozilla/5.0 (Windows; U; ; en-NZ) AppleWebKit/527  (KHTML, like Gecko, Safari/419.3) Arora/0.8.0',
@@ -990,6 +995,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
+        'lite' => false,
     ],
     'issue-539-AO' => [
         'Mozilla/5.0 (X11; FreeBSD; U; Viera; en-US) AppleWebKit/537.11 (KHTML, like Gecko) Viera/3.3.2 Chrome/23.0.1271.97 Safari/537.11',
@@ -1023,6 +1029,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
+        'lite' => false,
     ],
     'issue-539-AP' => [
         'Mozilla/5.0 (X11; Linux x86_64; rv:25.1) Gecko/20141127 PaleMoon/25.1.0',
@@ -1056,6 +1063,7 @@ return [
             'RenderingEngine_Version' => '25.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
+        'lite' => false,
     ],
     'issue-539-AQ' => [
         'Mozilla/5.0 (X11; U; FreeBSD i386; en-US) AppleWebKit/534.16 (KHTML, like Gecko) Chrome/10.0.648.204 Safari/534.16',
@@ -1320,6 +1328,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
+        'lite' => true,
     ],
     'issue-539-AZ' => [
         'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_1 like MacOS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Version/7.0 Mobile/11D201 Safari/9537.53',
@@ -1386,6 +1395,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
+        'lite' => false,
     ],
     'issue-539-BD' => [
         'Mozilla/5.0 CK={tiPpw0h4g7kIf1T8snFdwpPeIcraLTUImXjwPsV9F27k+ityupIdD4AzdYENl6wfnuyvIKM9PR/5QIO4s8bR9TktqUNKcfYcpCrtOqEXuc/SNsbkxUc3cw==} (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
@@ -1782,6 +1792,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-539-BS' => [
         'TBD1083 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.34 Safari/534.24',
@@ -1815,6 +1826,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
+        'lite' => false,
     ],
     'issue-539-BT' => [
         'TBDB863 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.34 Safari/534.24',
@@ -1848,6 +1860,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
+        'lite' => false,
     ],
     'issue-539-BU' => [
         'TBDC1093 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.34 Safari/534.24',
@@ -1881,6 +1894,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
+        'lite' => false,
     ],
     'issue-539-BV' => [
         'TERRA_101 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.34 Safari/534.24',
@@ -1914,6 +1928,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
+        'lite' => false,
     ],
     'issue-539-BW' => [
         'UCWEB/2.0 (Java; U; MIDP-2.0; en-US; Mozilla) U2/1.0.0 UCBrowser/9.3.0.326 U2/1.0.0 Mobile UNTRUSTED/1.0',
@@ -1947,6 +1962,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'UC Web',
         ],
+        'lite' => false,
     ],
     'issue-539-BX' => [
         'UCWEB/2.0 (Java; U; MIDP-2.0; fr-FR; ALCATEL_one_touch_818) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile UNTRUSTED/1.0',
@@ -1980,6 +1996,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'UC Web',
         ],
+        'lite' => false,
     ],
     'issue-539-BY' => [
         'UCWEB/2.0 (Java; U; MIDP-2.0; ru; SonyEricssonK790i) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
@@ -2013,6 +2030,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'UC Web',
         ],
+        'lite' => false,
     ],
     'issue-539-BZ' => [
         'UCWEB/2.0 (MIDP-2.0; U; zh-CN; C2305) U2/1.0.0 UCBrowser/3.4.1.483  U2/1.0.0 Mobile',
@@ -2046,6 +2064,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'UC Web',
         ],
+        'lite' => false,
     ],
     'issue-539-CA' => [
         'UCWEB/2.0(Java; U; MIDP-2.0; fr-fr; generic) U2/1.0.0 UCBrowser/8.7.0.218 U2/1.0.0 Mobile',
@@ -2079,6 +2098,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'UC Web',
         ],
+        'lite' => false,
     ],
     'issue-539-CB' => [
         'WNMbot/0.4.0',
@@ -2112,6 +2132,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-539-CC' => [
         'Website Explorer/0.9.9.9',
@@ -2145,6 +2166,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-539-CD' => [
         'city-map screenshot service',
@@ -2211,6 +2233,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
+        'lite' => true,
     ],
     'issue-539-CF' => [
         'gosquared-thumbnailer/1.0',
@@ -2244,6 +2267,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-539-CG' => [
         'iPhone OS/8.1.1 (iPhone) Salesforce1/7.0(3002930) XBranding/1.0 SalesforceTouchContainer/2.0 Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B435',
@@ -2277,6 +2301,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
+        'lite' => false,
     ],
     'issue-539-CH' => [
         'optivo(R) NetHelper',
@@ -2310,6 +2335,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-539-CI' => [
         'phantomas/1.8.0 (PhantomJS/1.9.8; linux x64)',
@@ -2343,6 +2369,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
+        'lite' => false,
     ],
     'issue-539-CJ' => [
         'pr-cy.ru Screenshot Bot',
@@ -2376,5 +2403,6 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
 ];

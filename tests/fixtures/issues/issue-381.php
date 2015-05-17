@@ -28,6 +28,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'UC Web',
         ],
+        'lite' => false,
     ],
     'issue-381-B' => [
         'NGM Dynamic Racing 2/V2 Linux/3.0.13 Android/4.2 Release/02.15.2012 Browser/AppleWebKit534.30 Mobile Safari/534.30 MBBMS/2.2 System/Android 4.2.2;',

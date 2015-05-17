@@ -223,13 +223,19 @@
         {
           "match": "*Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "platforms": [
-            "Android_4_1"
+            "Android_4_1", "Android"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
           "platforms": [
-            "Android_4_1"
+            "Android_4_1", "Android"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "platforms": [
+            "Android_4_1", "Android"
           ]
         }
       ]

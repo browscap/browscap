@@ -1987,6 +1987,10 @@
         "Platform_Bits": "32"
       }
     },
+    "Android_B": {
+      "match": "* Build\/*",
+      "inherits": "Android"
+    },
     "Android_1_0": {
       "match": "*Linux*Android?1.0*",
       "lite": false,

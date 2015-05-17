@@ -112,6 +112,7 @@ return [
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
+        'lite' => false,
     ],
     'issue-317-E' => [
         'MALATA I50 Linux/2.6.35.7 Android/2.3.6 Release/10.10.2012 Browser/AppleWebKit533.1 Profile/MIDP-2.0 Configuration/CLDC-1.1 Mobile Safari/533.1',
@@ -168,6 +169,7 @@ return [
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
+        'lite' => false,
     ],
     'issue-317-G' => [
         'Opera/9.80 (MTK; Nucleus; U; en-US) Presto/2.4.18 Version/10.00',
@@ -196,6 +198,7 @@ return [
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
+        'lite' => false,
     ],
     'issue-317-H' => [
         'Browser/Opera Opera/9.80 (MTK; U; en-US) Presto/2.5.28 Version/10.10',
@@ -224,6 +227,7 @@ return [
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
+        'lite' => false,
     ],
     'issue-317-I' => [
         'SAMSUNG-GT-C3322/C3322DDLK2 Profile/MIDP-2.0 Configuration/CLDC-1.1 Untrusted/1.0',
@@ -280,6 +284,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
+        'lite' => false,
     ],
     'issue-317-K' => [
         'OneBrowser/3.1 (SAMSUNG-GT-S3653/S365MDDIJ1)',
@@ -336,6 +341,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
+        'lite' => false,
     ],
     'issue-317-M' => [
         'Z221; Mozilla/5.0 (Profile/MIDP-2.0 Configuration/CLDC-1.1; Opera Mini/att/4.2.22250; U; en-US) Opera 9.50',
@@ -364,6 +370,7 @@ return [
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
+        'lite' => false,
     ],
     'issue-317-N' => [
         'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.0; Trident/4.0; GTB7.4; InfoPath.3; SV1; .NET CLR 3.1.76908; WOW64; en-US)',
@@ -420,6 +427,7 @@ return [
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
+        'lite' => false,
     ],
     'issue-317-P' => [
         'OneBrowser/3.0 (GT-S5233S/S5233SDDJE2)',
@@ -504,6 +512,7 @@ return [
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
+        'lite' => false,
     ],
     'issue-317-S' => [
         'UTSTARCOM-GTX75/UC1.88 POLARIS/6.00 Profile/MIDP-2.0 Configuration/CLDC-1.1 UNTRUSTED/1.0',
@@ -560,6 +569,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
+        'lite' => false,
     ],
     'issue-317-U' => [
         'LG-GT550/V11b; Mozilla/5.0 (Profile/MIDP-2.0 Configuration/CLDC-1.1; Opera Mini/att/4.2.18377; U; en-US) Opera 9.50',
@@ -588,6 +598,7 @@ return [
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
+        'lite' => false,
     ],
     'issue-317-V' => [
         'Instagram 5.0.2 (iPhone5,1; iPhone OS 7_0_4; en_US; en) AppleWebKit/420+',
@@ -812,6 +823,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
+        'lite' => false,
     ],
     'issue-317-AD' => [
         'Mozilla/5.0 (MeeGo) AppleWebKit/534.34 (KHTML, like Gecko) Qt/4.7.4 Mobile Safari/534.34',
@@ -868,6 +880,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-317-AF' => [
         'UCWEB/2.0(Linux; U; Opera Mini/7.1.32052/30.3697; en-us; GT-S5670 Build/GINGERBREAD) U2/1.0.0 UCBrowser/9.4.1.362 Mobile',
@@ -896,6 +909,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'UC Web',
         ],
+        'lite' => false,
     ],
     'issue-317-AG' => [
         'Mozilla/5.0 (compatible; 008/0.83; http://www.80legs.com/webcrawler.html;) Gecko/2008032620',
@@ -1121,6 +1135,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
+        'lite' => false,
     ],
     'issue-317-AO' => [
         'Mozilla/5.0 (Linux; webOS/2.2.4; U; en-US) AppleWebKit/534.6 (KHTML, like Gecko) webOSBrowser/221.56 Safari/534.6 Pre/3.0',
@@ -1149,5 +1164,6 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
+        'lite' => false,
     ],
 ];

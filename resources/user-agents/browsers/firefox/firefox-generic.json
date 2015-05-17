@@ -100,6 +100,7 @@
     },
     {
       "userAgent": "Firefox Generic for Android",
+      "platform": "Android",
       "engine": "Gecko",
       "device": "general Mobile Phone (Touch)",
       "properties": {
@@ -141,6 +142,34 @@
           "device": "general Tablet",
           "platforms": [
             "AndroidTablet"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "Firefox Generic for Maemo",
+      "engine": "Gecko",
+      "device": "general Mobile Phone",
+      "platform": "Maemo",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Firefox Generic ",
+        "Browser": "Firefox",
+        "Browser_Maker": "Mozilla Foundation",
+        "Browser_Type": "Browser",
+        "Win32": "false",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/*",
+          "platforms": [
+            "Maemo_ARM"
           ]
         }
       ]

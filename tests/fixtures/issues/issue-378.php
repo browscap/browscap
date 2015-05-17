@@ -224,6 +224,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'UC Web',
         ],
+        'lite' => false,
     ],
     'issue-378-I' => [
         'UCWEB/2.0 (MIDP-2.0; U; Adr 4.4; en-US; SPHS_on_Hsdroid) U2/1.0.0 UCBrowser/8.9.2.373 U2/1.0.0 Mobile',
@@ -252,6 +253,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'UC Web',
         ],
+        'lite' => false,
     ],
     'issue-378-J' => [
         'Tiny Tiny RSS/1.10 (http://tt-rss.org/)',
@@ -392,6 +394,7 @@ return [
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
+        'lite' => false,
     ],
     'issue-378-O' => [
         'NSPlayer/12.00.9200.16550 WMFSDK/12.00.9200.16550',
@@ -476,6 +479,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
+        'lite' => false,
     ],
     'issue-378-R' => [
         'AppleCoreMedia/1.0.0.11D5145e (iPad; U; CPU OS 7_1 like Mac OS X; fr_fr)',
@@ -504,6 +508,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
+        'lite' => true,
     ],
     'issue-378-S' => [
         'AppleCoreMedia/1.0.0.11D169 (iPhone; U; CPU OS 7_1 like Mac OS X; fr_fr)',

@@ -28,6 +28,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
+        'lite' => false,
     ],
     'issue-427-B' => [
         'Mozilla/5.0 (Linux; Android 4.4.4; One S Build/KTU84Q) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.117 Mobile Safari/537.36',

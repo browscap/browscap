@@ -9,6 +9,7 @@
       "userAgent": "Qt #MAJORVER#.#MINORVER# for Android",
       "engine": "WebKit",
       "device": "general Mobile Device",
+      "platform": "Android",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser_Type": "Browser",
