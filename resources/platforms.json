@@ -373,6 +373,14 @@
         "Platform_Version": "8.2"
       }
     },
+    "iOS_A_8_3": {
+      "match": "*CPU iPhone OS 8?3* like Mac OS X*",
+      "lite": false,
+      "inherits": "iOS",
+      "properties": {
+        "Platform_Version": "8.3"
+      }
+    },
     "iOS_B": {
       "match": "*CPU like Mac OS X*",
       "lite": false,
@@ -532,6 +540,14 @@
       "inherits": "iOS",
       "properties": {
         "Platform_Version": "8.2"
+      }
+    },
+    "iOS_C_8_3": {
+      "match": "*CPU OS 8_3* like Mac OS X*",
+      "lite": false,
+      "inherits": "iOS",
+      "properties": {
+        "Platform_Version": "8.3"
       }
     },
     "iOS_D": {
@@ -832,6 +848,23 @@
       "inherits": "iOS",
       "properties": {
         "Platform_Version": "8.1"
+      }
+    },
+    "ATV_OSX": {
+      "match": "*CPU*OS*like Mac OS X*",
+      "lite": false,
+      "inherits": "iOS",
+      "properties": {
+        "Platform": "ATV OS X",
+        "Platform_Description": "ATV OS X is a special variant of iOS optimized for Apple TV"
+      }
+    },
+    "ATV_OSX_8_3": {
+      "match": "*CPU OS 8_3* like Mac OS X*",
+      "lite": false,
+      "inherits": "ATV_OSX",
+      "properties": {
+        "Platform_Version": "8.3"
       }
     },
     "CentOS": {
