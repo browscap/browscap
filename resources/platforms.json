@@ -12,6 +12,7 @@
         "Platform": "ChromeOS",
         "Platform_Description": "Google Chrome OS",
         "Platform_Maker": "Google Inc",
+        "Platform_Version": "unknown",
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
@@ -192,6 +193,7 @@
       "inherits": "OSX",
       "properties": {
         "Platform": "MacPPC",
+        "Platform_Version": "unknown",
         "RenderingEngine_Name": "Tasman",
         "RenderingEngine_Description": "For Internet Explorer 5 for Mac, Microsoft Office 2004 for Mac, and Microsoft Office 2008 for Mac."
       }
@@ -217,6 +219,7 @@
         "Platform": "iOS",
         "Platform_Maker": "Apple Inc",
         "Platform_Description": "iPod, iPhone & iPad",
+        "Platform_Version": "unknown",
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
@@ -872,6 +875,7 @@
       "lite": false,
       "properties": {
         "Platform": "CentOS",
+        "Platform_Version": "unknown",
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
@@ -2013,6 +2017,7 @@
         "Platform": "Android",
         "Platform_Description": "Android OS",
         "Platform_Maker": "Google Inc",
+        "Platform_Version": "unknown",
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
@@ -2388,6 +2393,7 @@
         "Platform": "HP-UX",
         "Platform_Maker": "HP",
         "Platform_Description": "HP-UX",
+        "Platform_Version": "unknown",
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
@@ -2406,6 +2412,7 @@
         "Platform": "BSD",
         "Platform_Maker": "University of California, Berkeley",
         "Platform_Description": "BSD Four",
+        "Platform_Version": "unknown",
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
@@ -2420,6 +2427,7 @@
         "Platform": "FreeBSD",
         "Platform_Maker": "FreeBSD Foundation",
         "Platform_Description": "FreeBSD",
+        "Platform_Version": "unknown",
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
@@ -2445,6 +2453,7 @@
       "properties": {
         "Platform": "OpenBSD",
         "Platform_Description": "OpenBSD",
+        "Platform_Version": "unknown",
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
@@ -2458,6 +2467,7 @@
       "properties": {
         "Platform": "NetBSD",
         "Platform_Description": "NetBSD",
+        "Platform_Version": "unknown",
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
@@ -2471,6 +2481,7 @@
       "properties": {
         "Platform": "DragonFly BSD",
         "Platform_Description": "DragonFlyBSD",
+        "Platform_Version": "unknown",
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
@@ -2485,6 +2496,7 @@
         "Platform": "SunOS",
         "Platform_Maker": "Oracle",
         "Platform_Description": "SunOS",
+        "Platform_Version": "unknown",
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
@@ -2499,6 +2511,7 @@
         "Platform": "IRIX64",
         "Platform_Maker": "SGI",
         "Platform_Description": "IRIX64",
+        "Platform_Version": "unknown",
         "Browser_Bits": "64",
         "Platform_Bits": "64",
         "Win16": "false",
@@ -2517,6 +2530,7 @@
         "Platform": "OS\/2",
         "Platform_Maker": "IBM",
         "Platform_Description": "OS\/2",
+        "Platform_Version": "unknown",
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
@@ -2531,6 +2545,7 @@
         "Platform": "RIM OS",
         "Platform_Description": "RIM OS",
         "Platform_Maker": "Research In Motion Limited",
+        "Platform_Version": "unknown",
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
@@ -2678,6 +2693,7 @@
         "Platform": "SymbianOS",
         "Platform_Maker": "Symbian Foundation",
         "Platform_Description": "Symbian OS",
+        "Platform_Version": "unknown",
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
@@ -2699,6 +2715,7 @@
       "properties": {
         "Platform": "Unix",
         "Platform_Description": "Unix",
+        "Platform_Version": "unknown",
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
@@ -2775,6 +2792,7 @@
         "Platform": "webOS",
         "Platform_Description": "HP webOS",
         "Platform_Maker": "HP",
+        "Platform_Version": "unknown",
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
@@ -2856,6 +2874,7 @@
         "Platform": "Darwin",
         "Platform_Maker": "Apple Inc",
         "Platform_Description": "Darwin is a Core Component of MacOSX and iOS",
+        "Platform_Version": "unknown",
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
@@ -2883,6 +2902,7 @@
         "Platform": "AIX",
         "Platform_Maker": "IBM",
         "Platform_Description": "AIX",
+        "Platform_Version": "unknown",
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
@@ -2897,6 +2917,7 @@
         "Platform": "BeOS",
         "Platform_Maker": "Access",
         "Platform_Description": "BeOS",
+        "Platform_Version": "unknown",
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
@@ -2910,6 +2931,7 @@
       "properties": {
         "Platform": "CygWin",
         "Platform_Maker": "Microsoft Corporation",
+        "Platform_Version": "unknown",
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
@@ -2924,6 +2946,7 @@
         "Platform": "Tru64 UNIX",
         "Platform_Maker": "HP",
         "Platform_Description": "Tru64 UNIX",
+        "Platform_Version": "unknown",
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
@@ -2937,6 +2960,7 @@
       "properties": {
         "Platform": "RISC OS",
         "Platform_Description": "RISC OS",
+        "Platform_Version": "unknown",
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
@@ -2951,6 +2975,7 @@
         "Platform": "Solaris",
         "Platform_Maker": "Oracle",
         "Platform_Description": "Solaris",
+        "Platform_Version": "unknown",
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
@@ -2965,6 +2990,7 @@
         "Platform": "MeeGo",
         "Platform_Maker": "Linux Foundation",
         "Platform_Description": "Linux Smartphone OS",
+        "Platform_Version": "unknown",
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
@@ -2979,6 +3005,7 @@
         "Platform": "Linux Smartphone OS",
         "Platform_Maker": "Linux Foundation",
         "Platform_Description": "Linux Smartphone OS",
+        "Platform_Version": "unknown",
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
@@ -2997,6 +3024,7 @@
         "Platform": "OpenVMS",
         "Platform_Maker": "HP",
         "Platform_Description": "OpenVMS",
+        "Platform_Version": "unknown",
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
@@ -3022,6 +3050,7 @@
       "properties": {
         "Platform": "FirefoxOS",
         "Platform_Maker": "Mozilla Foundation",
+        "Platform_Version": "unknown",
         "Win32": "false",
         "Browser_Bits": "32",
         "Platform_Bits": "32"
@@ -3033,6 +3062,7 @@
       "properties": {
         "Platform": "PalmOS",
         "Platform_Maker": "Palm",
+        "Platform_Version": "unknown",
         "Win32": "false",
         "Browser_Bits": "32",
         "Platform_Bits": "32"
@@ -3051,6 +3081,7 @@
       "properties": {
         "Platform": "Amiga OS",
         "Platform_Maker": "Amiga",
+        "Platform_Version": "unknown",
         "Win32": "false",
         "Browser_Bits": "32",
         "Platform_Bits": "32"
@@ -3062,6 +3093,7 @@
       "properties": {
         "Platform": "CellOS",
         "Platform_Maker": "Sony",
+        "Platform_Version": "unknown",
         "Win32": "false",
         "Browser_Bits": "32",
         "Platform_Bits": "32"
@@ -3071,14 +3103,16 @@
       "match": "*WyderOS*",
       "lite": false,
       "properties": {
-        "Platform": "WyderOS"
+        "Platform": "WyderOS",
+        "Platform_Version": "unknown"
       }
     },
     "Liberate": {
       "match": "*Liberate*",
       "lite": false,
       "properties": {
-        "Platform": "Liberate"
+        "Platform": "Liberate",
+        "Platform_Version": "unknown"
       }
     }
   }
