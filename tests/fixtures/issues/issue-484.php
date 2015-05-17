@@ -140,6 +140,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-484-F' => [
         'Mozilla/5.0 (compatible; woriobot support [at] zite [dot] com +http://zite.com)',
@@ -168,6 +169,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-484-G' => [
         'GIDBot/2.0 (+http://www.gidnetwork.com/tools/gzip-test.php)',
@@ -196,6 +198,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-484-H' => [
         'Zookabot/2.4; +http://zookabot.com',
@@ -392,5 +395,6 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
 ];

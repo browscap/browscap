@@ -28,6 +28,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-081-F' => [
         'masscan/1.0 (https://github.com/robertdavidgraham/masscan)',

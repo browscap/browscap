@@ -28,6 +28,7 @@ return [
             'RenderingEngine_Version' => '4.11',
             'RenderingEngine_Maker' => 'KDE',
         ],
+        'lite' => false,
     ],
     'issue-295-B' => [
         'Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.1.16) Gecko Kazehakase/0.5.8 Debian/0.5.8-4',
@@ -84,6 +85,7 @@ return [
             'RenderingEngine_Version' => '4.9',
             'RenderingEngine_Maker' => 'KDE',
         ],
+        'lite' => false,
     ],
     'issue-295-D' => [
         'Mozilla/5.0 (X11; Linux x86_64) KHTML/4.8.4 (like Gecko) Konqueror/4.8',
@@ -112,6 +114,7 @@ return [
             'RenderingEngine_Version' => '4.8',
             'RenderingEngine_Maker' => 'KDE',
         ],
+        'lite' => false,
     ],
     'issue-295-E' => [
         'Links (2.8; Linux 3.10.17 x86_64; GNU C 4.8.1; text)',
@@ -280,6 +283,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-295-M' => [
         '"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:11.0) Gecko Firefox/11.0',
@@ -308,5 +312,6 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
 ];

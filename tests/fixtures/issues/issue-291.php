@@ -84,6 +84,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-291-D' => [
         'revolt',
@@ -140,6 +141,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
+        'lite' => false,
     ],
     'issue-291-F' => [
         'Cloud mapping experiment. Contact research@pdrlabs.net',

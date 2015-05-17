@@ -33,6 +33,9 @@
             "OSX_10_6_A", "OSX_10_7_A", "OSX_10_8_A", "OSX_10_9_A", "OSX_10_10_A",
             "OSX"
           ]
+        },
+        {
+          "match": "NewsFire\/*"
         }
       ]
     }

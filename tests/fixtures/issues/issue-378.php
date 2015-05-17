@@ -140,6 +140,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-378-F' => [
         'Windows-RSS-Platform/2.0 (IE 11.0; Windows NT 6.3)',

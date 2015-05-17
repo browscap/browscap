@@ -171,6 +171,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-436-G' => [
         'BacklinkCrawler (http://www.backlinktest.com/crawler.html)',
@@ -285,6 +286,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-436-K' => [
         'ThumbnailAgent',
@@ -369,6 +371,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-436-N' => [
         'JobRoboter/1.1',
@@ -425,6 +428,7 @@ return [
             'RenderingEngine_Version' => '1.9',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
+        'lite' => false,
     ],
     'issue-436-P' => [
         'LinkStats Bot',
@@ -565,6 +569,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-436-U' => [
         'ThumbSniper (http://thumbsniper.com)',
@@ -797,6 +802,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-436-AC' => [
         'SynHttpClient-Built/5759',
@@ -881,6 +887,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-436-AF' => [
         '12345',
@@ -937,6 +944,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-436-AH' => [
         'Mozilla/5.0 (compatible; Sophora Linkchecker; http://www.subshell.com)',
@@ -1077,6 +1085,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-436-AM' => [
         'Mozilla/5.0 (compatible; MSIE 9.11; Windows NT 6.2; Trident/5.0)',
@@ -1105,6 +1114,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-436-AN' => [
         'BuiBui-Bot/1.0 (email: buibui[at]dadapro[dot]com)',
@@ -1190,6 +1200,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
+        'lite' => false,
     ],
     'issue-436-AQ' => [
         'ImplisenseBot 1.0',
@@ -1443,6 +1454,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-436-AZ' => [
         'HRCrawler/2.0 (XF86; MacOS x86_64) AppleWebKit/537.31 (KHTML, like Gecko)',
@@ -1556,6 +1568,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-436-BD' => [
         'Thumbor/3.14.6',
@@ -1612,6 +1625,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-436-BF' => [
         'Mozilla/5.0 (compatible; Muenster University of Applied Sciences; +http://fb02itsscan.fh-muenster.de)',
@@ -1785,6 +1799,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-436-BL' => [
         'Forum Poster V3',
@@ -2890,7 +2905,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
-        'lite' => true,
+        'lite' => false,
     ],
     'issue-436-CY' => [
         'Mozilla/5.0 (Windows NT 6.0; WOW64; rv:16.0) Gecko/20100101 Firefox/16.0',
@@ -3033,6 +3048,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
+        'lite' => false,
     ],
     'issue-436-DE' => [
         'Outlook-Express/7.0 (MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729',
