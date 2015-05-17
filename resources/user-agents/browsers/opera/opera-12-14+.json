@@ -150,10 +150,24 @@
           ]
         },
         {
+          "match": "Opera\/9.80*(#PLATFORM#THOM*LF1V307;*)*Version\/#MAJORVER#.#MINORVER#*",
+          "device": "Thomson LF1V307",
+          "platforms": [
+            "Maemo_ARM"
+          ]
+        },
+        {
+          "match": "Opera\/9.80*(#PLATFORM#THOMSON*LF1V325;*)*Version\/#MAJORVER#.#MINORVER#*",
+          "device": "Thomson LF1V325",
+          "platforms": [
+            "Maemo_ARM"
+          ]
+        },
+        {
           "match": "Opera\/9.80*(#PLATFORM#)*Version\/#MAJORVER#.#MINORVER#*",
           "device": "Linux Desktop",
           "platforms": [
-            "Linux_64", "Linux_32", "Linux"
+            "Linux_64", "Linux_32", "Maemo_ARM", "Linux"
           ]
         },
         {
