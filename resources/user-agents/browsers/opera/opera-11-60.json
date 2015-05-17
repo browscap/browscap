@@ -154,10 +154,31 @@
           ]
         },
         {
+          "match": "Opera\/9.80*(#PLATFORM#THOM LF1V373; *)*Version\/#MAJORVER#.#MINORVER#*",
+          "device": "Thomson LF1V373",
+          "platforms": [
+            "Maemo_ARM"
+          ]
+        },
+        {
+          "match": "Opera\/9.80*(#PLATFORM#THOMSON LF1V394; *)*Version\/#MAJORVER#.#MINORVER#*",
+          "device": "Thomson LF1V394",
+          "platforms": [
+            "Maemo_ARM"
+          ]
+        },
+        {
+          "match": "Opera\/9.80*(#PLATFORM#THOMSON LF1V401; *)*Version\/#MAJORVER#.#MINORVER#*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Maemo_ARM"
+          ]
+        },
+        {
           "match": "Opera\/9.80*(#PLATFORM#)*Version\/#MAJORVER#.#MINORVER#*",
           "device": "Linux Desktop",
           "platforms": [
-            "Linux"
+            "Maemo_ARM", "Linux"
           ]
         },
         {
