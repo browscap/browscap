@@ -286,6 +286,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-279-K' => [
         'Mozilla/5.0 (Linux; U; Android 2.3.5; de-de; HTC_DesireHD_A9191 Build/GRJ90) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
@@ -399,6 +400,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-279-Q' => [
         'Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)',
@@ -858,7 +860,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
-        'lite' => true,
+        'lite' => false,
     ],
     'issue-279-AK' => [
         'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0; ARM; Touch; WPDesktop)',
@@ -1004,6 +1006,7 @@ return [
             'RenderingEngine_Version' => '17.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
+        'lite' => false,
     ],
     'issue-279-AP' => [
         'Mozilla/5.0 (compatible; Exabot/3.0; +http://www.exabot.com/go/robot)',

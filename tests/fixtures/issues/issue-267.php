@@ -1390,6 +1390,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-AX' => [
         'Peeplo Screenshot Bot/0.20 ( abuse at peeplo dot_com )',
@@ -1673,6 +1674,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
+        'lite' => false,
     ],
     'issue-267-BH' => [
         'Mozilla/5.0 (compatible; MSIE or Firefox mutant; not on Windows server; + http://tab.search.daum.net/aboutWebSearch.html) Daumoa/3.0',
@@ -2610,6 +2612,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
+        'lite' => false,
     ],
     'issue-267-CQ' => [
         'Wada.vn Vietnamese Search',
@@ -3371,6 +3374,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-DV' => [
         'Mozilla/4.0 (CMS Crawler: http://www.cmscrawler.com)',

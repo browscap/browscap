@@ -1257,6 +1257,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-436-AS' => [
         'python-requests/2.3.0 CPython/2.7.6 Linux/3.13.0-24-generic',
