@@ -28,6 +28,12 @@ use Browscap\Helper\LoggerHelper;
  */
 class LoggerHelperTest extends \PHPUnit_Framework_TestCase
 {
+    /**
+     * tests creating a logger instance
+     *
+     * @group helper
+     * @group sourcetest
+     */
     public function testCreate()
     {
         $helper = new LoggerHelper();

@@ -767,6 +767,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-AB' => [
         'Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)',
@@ -795,6 +796,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-AC' => [
         'Mozilla/5.0 (compatible; EasouSpider; +http://www.easou.com/search/spider.html)',
@@ -823,6 +825,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-AD' => [
         'Mozilla/5.0 (compatible; Linux; Socialradarbot/2.0; en-US; bot@infegy.com)',
@@ -851,6 +854,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-AE' => [
         'Alltop/1.1',
@@ -879,6 +883,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
+        'lite' => false,
     ],
     'issue-267-AF' => [
         'InternetSeer.com',
@@ -907,6 +912,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-AG' => [
         'Pinterest/0.1 +http://pinterest.com/',
@@ -935,6 +941,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
+        'lite' => false,
     ],
     'issue-267-AH' => [
         'Mozilla/4.0 (compatible; Synapse)',
@@ -963,6 +970,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-AI' => [
         'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1; 125LA; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022)',
@@ -1020,6 +1028,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-AK' => [
         'Mozilla/5.0 (compatible; coccoc/1.0; +http://help.coccoc.com/)',
@@ -1048,6 +1057,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-AL' => [
         'ADmantX Platform Semantic Analyzer - ADmantX Inc. - www.admantx.com - support@admantx.com',
@@ -1106,6 +1116,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-AN' => [
         'Mozilla/5.0 (compatible; SiteExplorer/1.0b; +http://siteexplorer.info/)',
@@ -1135,6 +1146,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-AO' => [
         'binlar_2.6.3 test@mgmt.mic',
@@ -1163,6 +1175,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-AP' => [
         'UnityPlayer/4.3.2f1 (http://unity3d.com)',
@@ -1191,6 +1204,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-AQ' => [
         'Mozilla/5.0 (compatible; linkdexbot/2.0; +http://www.linkdex.com/bots/)',
@@ -1219,6 +1233,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-AR' => [
         'Mozilla/5.0 (Linux; U; Android 2.2; fr-fr; Desire_A8181 Build/FRF91) App3leWebKit/53.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
@@ -1277,6 +1292,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-AT' => [
         'A6-Indexer/1.0 (http://www.a6corp.com/a6-web-scraping-policy/)',
@@ -1334,6 +1350,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-AV' => [
         'Mozilla/5.0 (compatible; SemrushBot/0.97sa; +http://www.semrush.com/bot.html)',
@@ -1362,6 +1379,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-AW' => [
         'Mozilla/5.0 (compatible; SeznamBot/3.2; +http://fulltext.sblog.cz/)',
@@ -1448,6 +1466,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-AZ' => [
         'visionutils/0.2',
@@ -1476,6 +1495,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-BA' => [
         'Mozilla/5.0 (compatible; SemrushBot/0.97; +http://www.semrush.com/bot.html)',
@@ -1504,6 +1524,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-BB' => [
         'Mozilla/5.0 (compatible; IstellaBot/1.18.81 +http://www.tiscali.it/)',
@@ -1532,6 +1553,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-BC' => [
         'Feedly/1.0 (+http://www.feedly.com/fetcher.html; like FeedFetcher-Google)',
@@ -1560,6 +1582,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-BD' => [
         'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.34 (KHTML, like Gecko) Qt/4.8.2',
@@ -1617,6 +1640,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-BF' => [
         'ScreenerBot Crawler Beta 2.0 (+http://www.ScreenerBot.com)',
@@ -1646,6 +1670,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-BG' => [
         'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_3) AppleWebKit/537.36 (KHTML, like Gecko, Google-Publisher-Plugin) Chrome/27.0.1453 Safari/537.36',
@@ -1761,6 +1786,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-BK' => [
         'Mozilla/5.0 (compatible; meanpathbot/1.0; +http://www.meanpath.com/meanpathbot.html)',
@@ -1789,6 +1815,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-BL' => [
         'Mozilla/5.0 (compatible; Apercite; +http://www.apercite.fr/robot/index.html)',
@@ -1817,6 +1844,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-BM' => [
         'LSSRocketCrawler/1.0 LightspeedSystems',
@@ -1845,6 +1873,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-BN' => [
         'Mozilla/5.0 (compatible; XML Sitemaps Generator; http://www.xml-sitemaps.com) Gecko XML-Sitemaps/1.0',
@@ -1873,6 +1902,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
+        'lite' => false,
     ],
     'issue-267-BO' => [
         'Aboundex/0.3 (http://www.aboundex.com/crawler/)',
@@ -1901,6 +1931,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-BP' => [
         'Mozilla/5.0 (compatible; URLAppendBot/1.0; +http://www.profound.net/urlappendbot.html)',
@@ -1958,6 +1989,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-BR' => [
         'Mozilla/5.0+(compatible;+PiplBot;++http://www.pipl.com/bot/)',
@@ -1986,6 +2018,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-BS' => [
         'Mozilla/5.0 (compatible; Add Catalog/2.1;)',
@@ -2014,6 +2047,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-BT' => [
         'Mozilla/5.0 Moreover/5.1 (+http://www.moreover.com; webmaster@moreover.com)',
@@ -2042,6 +2076,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-BU' => [
         'Mozilla/5.0 (compatible; LinkpadBot/1.06; +http://www.linkpad.ru)',
@@ -2158,6 +2193,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-BZ' => [
         'Mozilla/5.0 (compatible; Lipperhey SEO Service; http://www.lipperhey.com/)',
@@ -2186,6 +2222,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-CA' => [
         'Mozilla/4.0 (compatible; MSIE 5.0; Windows NT; DigExt; DTS Agent',
@@ -2214,6 +2251,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
+        'lite' => false,
     ],
     'issue-267-CB' => [
         'Mozilla/4.0 (compatible; Blog Search;)',
@@ -2242,6 +2280,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-CC' => [
         'YisouSpider',
@@ -2270,6 +2309,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-CD' => [
         'Mozilla/3.0 (x86 [en] Windows NT 5.1; Sun)',
@@ -2327,6 +2367,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-CF' => [
         'WeSEE:Search/0.1 (Alpha, http://www.wesee.com/bot/)',
@@ -2356,6 +2397,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-CG' => [
         'Mozilla/5.0 (compatible; Qualidator.com Bot 1.0;)',
@@ -2384,6 +2426,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-CH' => [
         'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit/536.28.10 (KHTML, like Gecko)',
@@ -2441,6 +2484,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
+        'lite' => false,
     ],
     'issue-267-CJ' => [
         'Mozilla/5.0 (compatible; fr-crawler/1.1)',
@@ -2469,6 +2513,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-CK' => [
         'Mozilla/5.0 (X11; U; Linux i686 (x86_64); en-US; rv:1.9.2.19) Gecko WebThumb/1.0',
@@ -2497,6 +2542,7 @@ return [
             'RenderingEngine_Version' => '1.9.2',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
+        'lite' => false,
     ],
     'issue-267-CL' => [
         'Comodo Spider 1.2',
@@ -2525,6 +2571,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-CM' => [
         'Mozilla/5.0 (Linux; U; en-us; KFAPWI Build/JDQ39) AppleWebKit/535.19 (KHTML, like Gecko) Silk/3.16 Safari/535.19 Silk-Accelerated=true',
@@ -2641,6 +2688,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-CR' => [
         'Aboundex/0.2 (http://www.aboundex.com/crawler/)',
@@ -2669,6 +2717,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-CS' => [
         'Mozilla/5.0 (Windows NT 6.1; Win64; x64) KomodiaBot/1.0',
@@ -2697,6 +2746,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-CU' => [
         'Mozilla/5.0 (X11; U; Linux; en-US) AppleWebKit/532.4 (KHTML, like Gecko) Qt/4.6.3 Safari/532.4',
@@ -2754,6 +2804,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-CX' => [
         'Mozilla/5.0 (compatible; GroupHigh/1.0; +http://www.grouphigh.com/bot.html)',
@@ -2782,6 +2833,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-CY' => [
         'Mozilla/4.0 (compatible- MSIE 6.0- Windows NT 5.1- SV1- .NET CLR 1.1.4322',
@@ -2839,6 +2891,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-DA' => [
         'Mozilla/5.0 (compatible; theoldreader.com; 1 subscribers; feed-id=51413de5bd9279ea5002d75b)',
@@ -2867,6 +2920,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-DB' => [
         'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; InfoPath.1',
@@ -2895,6 +2949,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
+        'lite' => false,
     ],
     'issue-267-DD' => [
         'Mozilla/5.0 (Windows NT 5.1; rv:11.0) Gecko Firefox/11.0',
@@ -2923,6 +2978,7 @@ return [
             'RenderingEngine_Version' => '11.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
+        'lite' => false,
     ],
     'issue-267-DE' => [
         'Mozilla/5.0 (compatible; Google-Site-Verification/1.0)',
@@ -2951,6 +3007,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-DF' => [
         'Mozilla/4.0 (compatible; MSIE 5.5; Windows NT)',
@@ -2979,6 +3036,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
+        'lite' => false,
     ],
     'issue-267-DH' => [
         'hivaBot/hivaBot-0.2 (info@gorgor.ir)',
@@ -3007,6 +3065,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-DI' => [
         'binlar_2.6.3 (test@mgmt.mic)',
@@ -3035,6 +3094,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-DJ' => [
         'ZumBot/1.0 (ZUM Search; http://help.zum.com/inquiry)',
@@ -3063,6 +3123,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-DK' => [
         'Opera/9.80 (MAUI Runtime; Opera Mini/6.1.27412/34.1853; U; en) Presto/2.8.119 Version/11.10',
@@ -3120,6 +3181,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-DM' => [
         'Mozilla/5.0 (compatible; TweetmemeBot/3.0; +http://tweetmeme.com/)',
@@ -3206,6 +3268,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-DP' => [
         'R6_CommentReader(www.radian6.com/crawler)',
@@ -3234,6 +3297,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-DQ' => [
         'Mozilla/5.0 (compatible; Prlog/1.0; +http://prlog.ru/)',
@@ -3262,6 +3326,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-DR' => [
         'Mozilla/5.0 (compatible; Blekkobot; ScoutJet; +http://blekko.com/about/blekkobot)',
@@ -3290,6 +3355,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-DS' => [
         'PagesInventory (robot http://www.pagesinventory.com)',
@@ -3318,6 +3384,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-DT' => [
         'Mozilla/5.0 (lbot/2.6.4) lbot@mailme.not',
@@ -3346,6 +3413,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-DU' => [
         'Mozilla/5.0 (compatible; SeznamBot/3.2-test1; +http://fulltext.sblog.cz/)',
@@ -3403,6 +3471,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-DW' => [
         'psbot-image (+http://www.picsearch.com/bot.html)',
@@ -3431,6 +3500,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-DX' => [
         'PagesInventory (robot http://www.pagesinvenotry.com)',
@@ -3459,6 +3529,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-DZ' => [
         'Bloglovin/1.0 (http://www.bloglovin.com; 0 subscribers)',
@@ -3487,6 +3558,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-EA' => [
         'viralvideochart.unrulymedia.com',
@@ -3515,6 +3587,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-EB' => [
         'Mozilla/5.0 (compatible; pmoz.info ODP link checker; +http://pmoz.info/doc/botinfo.htm)',
@@ -3543,6 +3616,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-EC' => [
         'MetaHeadersBot (+http://www.metaheaders.com/bot.html)',
@@ -3571,6 +3645,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-ED' => [
         'PagesInventory (robot +http://www.pagesinventory.com)',
@@ -3599,6 +3674,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-EE' => [
         'Mozilla/5.0 (compatible; Twingly Recon; twingly.com)',
@@ -3627,6 +3703,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-EF' => [
         'Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 635) like Gecko',

@@ -36,13 +36,18 @@ class EngineFactoryTest extends \PHPUnit_Framework_TestCase
     /**
      * Sets up the fixture, for example, open a network connection.
      * This method is called before a test is executed.
-     *
      */
     public function setUp()
     {
         $this->object = new EngineFactory();
     }
 
+    /**
+     * tests the creating of an engine factory
+     *
+     * @group data
+     * @group sourcetest
+     */
     public function testBuild()
     {
         $engineData = array('abc' => 'def');

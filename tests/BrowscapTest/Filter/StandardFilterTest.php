@@ -36,18 +36,29 @@ class StandardFilterTest extends \PHPUnit_Framework_TestCase
     /**
      * Sets up the fixture, for example, open a network connection.
      * This method is called before a test is executed.
-     *
      */
     public function setUp()
     {
         $this->object = new StandardFilter();
     }
 
+    /**
+     * tests getter for the filter type
+     *
+     * @group filter
+     * @group sourcetest
+     */
     public function testGetType()
     {
         self::assertSame('', $this->object->getType());
     }
 
+    /**
+     * tests detecting if a divion should be in the output
+     *
+     * @group filter
+     * @group sourcetest
+     */
     public function testIsOutput()
     {
         $mockDivision = $this->getMock('\Browscap\Data\Division', array(), array(), '', false);
@@ -110,6 +121,9 @@ class StandardFilterTest extends \PHPUnit_Framework_TestCase
 
     /**
      * @dataProvider outputPropertiesDataProvider
+     *
+     * @group filter
+     * @group sourcetest
      */
     public function testIsOutputProperty($propertyName, $isExtra)
     {
@@ -117,6 +131,12 @@ class StandardFilterTest extends \PHPUnit_Framework_TestCase
         self::assertSame($isExtra, $actualValue);
     }
 
+    /**
+     * tests if a section is always in the output
+     *
+     * @group filter
+     * @group sourcetest
+     */
     public function testIsOutputSectionAlways()
     {
         $this->assertTrue($this->object->isOutputSection(array()));

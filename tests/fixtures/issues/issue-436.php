@@ -932,6 +932,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-436-AG' => [
         'Mozilla/5.0 (compatible; MSIE 9.11; Windows NT 6.1; Trident/5.0)',
@@ -2241,6 +2242,7 @@ return [
             'RenderingEngine_Version' => '2.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
+        'lite' => false,
     ],
     'issue-436-BZ' => [
         'Mozilla/4.0 (compatible; MSIE 5.0; Windows 95) Opera 6.01  [en]',

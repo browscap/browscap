@@ -36,13 +36,18 @@ class DiffGeneratorTest extends \PHPUnit_Framework_TestCase
     /**
      * Sets up the fixture, for example, open a network connection.
      * This method is called before a test is executed.
-     *
      */
     public function setUp()
     {
         $this->object = new DiffGenerator();
     }
 
+    /**
+     * tests setting and getting a logger
+     *
+     * @group generator
+     * @group sourcetest
+     */
     public function testSetLogger()
     {
         $mock = $this->getMock('\Monolog\Logger', array(), array(), '', false);
@@ -50,6 +55,12 @@ class DiffGeneratorTest extends \PHPUnit_Framework_TestCase
         self::assertSame($this->object, $this->object->setLogger($mock));
     }
 
+    /**
+     * tests running the generation of a diff
+     *
+     * @group generator
+     * @group sourcetest
+     */
     public function testRun()
     {
         $mock = $this->getMock('\Monolog\Logger', array(), array(), '', false);

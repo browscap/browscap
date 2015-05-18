@@ -140,6 +140,10 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
      * @coversNothing
      * @param string $userAgent
      * @param array  $expectedProperties
+     *
+     * @group intergration
+     * @group useragenttest
+     * @group full
      */
     public function testUserAgentsFull($userAgent, $expectedProperties)
     {
@@ -189,6 +193,10 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
      * @coversNothing
      * @param string $userAgent
      * @param array  $expectedProperties
+     *
+     * @group intergration
+     * @group useragenttest
+     * @group standard
      */
     public function testUserAgentsStandard($userAgent, $expectedProperties)
     {
@@ -247,6 +255,10 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
      *
      * @throws \Exception
      * @throws \phpbrowscap\Exception
+     *
+     * @group intergration
+     * @group useragenttest
+     * @group lite
      */
     public function testUserAgentsLite($userAgent, $expectedProperties, $lite = true)
     {

@@ -84,6 +84,7 @@ return [
             'RenderingEngine_Version' => '23.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
+        'lite' => false,
     ],
     'issue-318-D' => [
         'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/536.30.1 (KHTML, like Gecko) Version/6.0.5 Safari/536.30.1',
@@ -198,6 +199,7 @@ return [
             'RenderingEngine_Version' => '23.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
+        'lite' => false,
     ],
     'issue-318-H' => [
         'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_4) AppleWebKit/536.30.1 (KHTML, like Gecko) Version/6.0.5 Safari/536.30.1',
@@ -370,6 +372,7 @@ return [
             'RenderingEngine_Version' => '8.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
+        'lite' => false,
     ],
     'issue-318-N' => [
         'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36',
@@ -427,6 +430,7 @@ return [
             'RenderingEngine_Version' => '24.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
+        'lite' => false,
     ],
     'issue-318-P' => [
         'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:24.0) Gecko/20100101 Firefox/24.0',
@@ -455,6 +459,7 @@ return [
             'RenderingEngine_Version' => '24.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
+        'lite' => false,
     ],
     'issue-318-Q' => [
         'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/534.59.8 (KHTML, like Gecko) Version/5.1.9 Safari/534.59.8',
@@ -483,6 +488,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
+        'lite' => false,
     ],
     'issue-318-R' => [
         'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_4) AppleWebKit/536.30.1 (KHTML, like Gecko)',
@@ -569,6 +575,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
+        'lite' => false,
     ],
     'issue-318-U' => [
         'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.4 Safari/537.36',
@@ -653,6 +660,7 @@ return [
             'RenderingEngine_Version' => '27.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
+        'lite' => false,
     ],
     'issue-318-X' => [
         'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_1) AppleWebKit/537.73.11 (KHTML, like Gecko) Version/7.0.1 Safari/537.73.11',
@@ -737,6 +745,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
+        'lite' => false,
     ],
     'issue-318-AA' => [
         'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1810.0 Safari/537.36',
@@ -793,6 +802,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
+        'lite' => false,
     ],
     'issue-318-AC' => [
         'Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10_4_11; en) AppleWebKit/525.27.1 (KHTML, like Gecko) Version/3.2.1 Safari/525.27.1',
@@ -821,6 +831,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
+        'lite' => false,
     ],
     'issue-318-AD' => [
         'Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10.4; en-US; rv:1.9.2.28) Gecko/20120306 Firefox/3.6.28',
@@ -849,6 +860,7 @@ return [
             'RenderingEngine_Version' => '1.9.2',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
+        'lite' => false,
     ],
     'issue-318-AE' => [
         'Mozilla/5.0 (Macintosh; PPC Mac OS X; U; en; rv:1.9.1.6) Gecko/20091201 Firefox/3.5.6',
@@ -877,6 +889,7 @@ return [
             'RenderingEngine_Version' => '1.9.1',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
+        'lite' => false,
     ],
     'issue-318-AF' => [
         'Opera/9.64 (Macintosh; PPC Mac OS X; U; en) Presto/2.1.1',
@@ -905,5 +918,6 @@ return [
             'RenderingEngine_Version' => '2.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
+        'lite' => false,
     ],
 ];

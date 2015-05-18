@@ -36,19 +36,30 @@ class DivisionTest extends \PHPUnit_Framework_TestCase
     /**
      * Sets up the fixture, for example, open a network connection.
      * This method is called before a test is executed.
-     *
      */
     public function setUp()
     {
         $this->object = new Division();
     }
 
+    /**
+     * tests setter and getter
+     *
+     * @group data
+     * @group sourcetest
+     */
     public function testSetGetLite()
     {
         self::assertSame($this->object, $this->object->setLite(true));
         self::assertTrue($this->object->isLite());
     }
 
+    /**
+     * tests setter and getter for the division name
+     *
+     * @group data
+     * @group sourcetest
+     */
     public function testSetGetName()
     {
         $name = 'TestName';
@@ -57,6 +68,12 @@ class DivisionTest extends \PHPUnit_Framework_TestCase
         self::assertSame($name, $this->object->getName());
     }
 
+    /**
+     * tests setter and getter for the sortindex
+     *
+     * @group data
+     * @group sourcetest
+     */
     public function testSetGetSortIndex()
     {
         $sortIndex = 42;
@@ -65,6 +82,12 @@ class DivisionTest extends \PHPUnit_Framework_TestCase
         self::assertSame($sortIndex, $this->object->getSortIndex());
     }
 
+    /**
+     * tests setter and getter for useragents
+     *
+     * @group data
+     * @group sourcetest
+     */
     public function testSetGetUserAgents()
     {
         $userAgents = array('abc' => 'def');
@@ -73,6 +96,12 @@ class DivisionTest extends \PHPUnit_Framework_TestCase
         self::assertSame($userAgents, $this->object->getUserAgents());
     }
 
+    /**
+     * tests setter and getter for versions
+     *
+     * @group data
+     * @group sourcetest
+     */
     public function testSetGetVersions()
     {
         $versions = array(1, 2, 3);
