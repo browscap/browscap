@@ -261,6 +261,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-279-J' => [
         'adidxbot/2.0 (+http://search.msn.com/msnbot.htm)',

@@ -28,6 +28,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-B' => [
         'CheckSite Verification Agent (+http://www.checksite.us)',
@@ -56,6 +57,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-C' => [
         'CybEye.com/2.0 (compatible; MSIE 9.0; Windows NT 5.1; Trident/4.0; GTB6.4)',
@@ -84,6 +86,7 @@ return [
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
+        'lite' => false,
     ],
     'issue-267-D' => [
         'Dolphin http client/10.3.0(280) (Android)',
@@ -112,6 +115,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-E' => [
         'Experibot_v1 (https://dl.dropboxusercontent.com/u/8024465/site/Info.html)',
@@ -141,6 +145,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-F' => [
         'FeedBlitz/1.0',
@@ -169,6 +174,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-G' => [
         'FeeddlerRSS 2.4 (iPad; iPhone OS 7.1; en_GB)',
@@ -197,7 +203,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
-        'lite' => true,
+        'lite' => false,
     ],
     'issue-267-H' => [
         'FeedForAll rss2html.php v2',
@@ -226,6 +232,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-I' => [
         'FeedlyApp/1.0 (http://www.feedly.com)',
@@ -254,6 +261,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-J' => [
         'GarlikCrawler/1.2 (http://garlik.com/, crawler@garlik.com)',
@@ -282,6 +290,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-K' => [
         'Genderanalyzer/1.0',
@@ -311,6 +320,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-L' => [
         'gooblog/2.0 (http://help.goo.ne.jp/contact/)',
@@ -339,6 +349,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-M' => [
         'MetaGeneratorCrawler/1.3.4 (www.metagenerator.info)',
@@ -367,6 +378,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-N' => [
         'Microsoft Office Mobile/15.0',
@@ -453,6 +465,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-Q' => [
         'Mozilla/5.0 (compatible; Scrubby/3.2; +http://seotools.scrubtheweb.com/webpage-analyzer.html)',
@@ -481,6 +494,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-R' => [
         'Mozilla/5.0 (compatible; Squzer/0.0.1; +http://www.declum.com/)',
@@ -509,6 +523,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-S' => [
         'Mozilla/5.0 (lbot/2.6.4) (lbot@mailme.not)',
@@ -537,6 +552,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-T' => [
         'Mozilla/5.0 (Linux; U; Android 3.2; de-de; Sony Tablet P Build/THMD01900) AppleWebKit/534.13 (KHTML, like Gecko) Version/4.0',
@@ -683,6 +699,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
+        'lite' => false,
     ],
     'issue-267-Y' => [
         'W3C_I18n-Checker/1.0 (http://validator.w3.org/services)',
@@ -711,6 +728,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-Z' => [
         'W3C_Unicorn/1.0 (http://validator.w3.org/services)',
@@ -739,6 +757,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-267-AA' => [
         'WDG_Validator/1.6.5',

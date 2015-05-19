@@ -11,5 +11,6 @@ return [
             'MajorVer' => '2',
             'Crawler' => true,
         ],
+        'lite' => false,
     ],
 ];

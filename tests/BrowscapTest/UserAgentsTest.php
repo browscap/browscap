@@ -151,8 +151,6 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
             self::markTestSkipped('Could not run test - no properties were defined to test');
         }
 
-        self::markTestSkipped('Could not run test');
-
         self::$browscap->iniFilename   = 'full_browscap.ini';
         self::$browscap->localFile     = self::$buildFolder . '/full_php_browscap.ini';
         self::$browscap->cacheFilename = 'cache-full.php';
@@ -203,8 +201,6 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
         if (!is_array($expectedProperties) || !count($expectedProperties)) {
             self::markTestSkipped('Could not run test - no properties were defined to test');
         }
-
-        //self::markTestSkipped('Could not run test');
 
         self::$browscap->iniFilename   = 'browscap.ini';
         self::$browscap->localFile     = self::$buildFolder . '/php_browscap.ini';
@@ -267,7 +263,7 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
         }
 
         if (!$lite) {
-            self::markTestSkipped('Test skipped - Browser not defined for Lite Mode');
+            self::markTestSkipped('Test skipped - Browser/Platform/Version not defined for Lite Mode');
         }
 
         self::$browscap->iniFilename   = 'lite_browscap.ini';
