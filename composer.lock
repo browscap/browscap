@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
     "hash": "ffad1bbe9851fcc236720b83462a18aa",
@@ -183,12 +183,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/browscap/browscap-php.git",
-                "reference": "858d73c6cfbea667a9aa11af4332f658e571f0eb"
+                "reference": "10a0e3d7fb859de78809211f9aec064609c613a2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/browscap/browscap-php/zipball/858d73c6cfbea667a9aa11af4332f658e571f0eb",
-                "reference": "858d73c6cfbea667a9aa11af4332f658e571f0eb",
+                "url": "https://api.github.com/repos/browscap/browscap-php/zipball/10a0e3d7fb859de78809211f9aec064609c613a2",
+                "reference": "10a0e3d7fb859de78809211f9aec064609c613a2",
                 "shasum": ""
             },
             "require": {
@@ -229,7 +229,7 @@
                 "get_browser",
                 "user agent"
             ],
-            "time": "2015-04-30 10:33:15"
+            "time": "2015-05-20 08:01:41"
         },
         {
             "name": "doctrine/instantiator",
