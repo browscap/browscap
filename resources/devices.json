@@ -228,6 +228,18 @@
         "isTablet": "true"
       }
     },
+    "Apple AppleTV": {
+      "properties": {
+        "Device_Name": "AppleTV",
+        "Device_Maker": "Apple Inc",
+        "Device_Type": "TV Device",
+        "Device_Pointing_Method": "unknown",
+        "Device_Code_Name": "AppleTV",
+        "Device_Brand_Name": "Apple",
+        "isMobileDevice": "false",
+        "isTablet": "false"
+      }
+    },
     "Smart-TV": {
       "properties": {
         "Device_Type": "TV Device",
@@ -24741,6 +24753,66 @@
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "KAZAM",
         "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Thomson LF1V307": {
+      "properties": {
+        "Device_Type": "TV Device",
+        "Device_Code_Name": "LF1V307",
+        "Device_Name": "LF1V307",
+        "Device_Maker": "Thomson",
+        "Device_Brand_Name": "Thomson",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "false",
+        "isTablet": "false"
+      }
+    },
+    "Thomson LF1V325": {
+      "properties": {
+        "Device_Type": "TV Device",
+        "Device_Code_Name": "LF1V325",
+        "Device_Name": "LF1V325",
+        "Device_Maker": "Thomson",
+        "Device_Brand_Name": "Thomson",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "false",
+        "isTablet": "false"
+      }
+    },
+    "Thomson LF1V373": {
+      "properties": {
+        "Device_Type": "TV Device",
+        "Device_Code_Name": "LF1V373",
+        "Device_Name": "LF1V373",
+        "Device_Maker": "Thomson",
+        "Device_Brand_Name": "Thomson",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "false",
+        "isTablet": "false"
+      }
+    },
+    "Thomson LF1V394": {
+      "properties": {
+        "Device_Type": "TV Device",
+        "Device_Code_Name": "LF1V394",
+        "Device_Name": "LF1V394",
+        "Device_Maker": "Thomson",
+        "Device_Brand_Name": "Thomson",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "false",
+        "isTablet": "false"
+      }
+    },
+    "Thomson LF1V401": {
+      "properties": {
+        "Device_Type": "TV Device",
+        "Device_Code_Name": "LF1V401",
+        "Device_Name": "LF1V401",
+        "Device_Maker": "Thomson",
+        "Device_Brand_Name": "Thomson",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "false",
         "isTablet": "false"
       }
     }
