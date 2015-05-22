@@ -183,12 +183,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/browscap/browscap-php.git",
-                "reference": "10a0e3d7fb859de78809211f9aec064609c613a2"
+                "reference": "a9254d786cebcb9996e2b48e9921ea2971478d10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/browscap/browscap-php/zipball/10a0e3d7fb859de78809211f9aec064609c613a2",
-                "reference": "10a0e3d7fb859de78809211f9aec064609c613a2",
+                "url": "https://api.github.com/repos/browscap/browscap-php/zipball/a9254d786cebcb9996e2b48e9921ea2971478d10",
+                "reference": "a9254d786cebcb9996e2b48e9921ea2971478d10",
                 "shasum": ""
             },
             "require": {
@@ -229,7 +229,7 @@
                 "get_browser",
                 "user agent"
             ],
-            "time": "2015-05-20 08:01:41"
+            "time": "2015-05-22 07:56:08"
         },
         {
             "name": "doctrine/instantiator",
