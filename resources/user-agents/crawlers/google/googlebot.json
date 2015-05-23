@@ -18,35 +18,6 @@
       },
       "children": [
         {
-          "match": "Google\/0.8* CFNetwork\/#PLATFORM#",
-          "device": "Macintosh",
-          "properties": {
-            "Version": "0.8",
-            "MinorVer": "8"
-          },
-          "platforms": [
-            "Darwin"
-          ]
-        },
-        {
-          "match": "Google\/0.9* CFNetwork\/#PLATFORM#",
-          "device": "Macintosh",
-          "device": "Macintosh",
-          "properties": {
-            "Version": "0.9",
-            "MinorVer": "9"
-          },
-          "platforms": [
-            "Darwin"
-          ]
-        },
-        {
-          "match": "Google\/* CFNetwork\/#PLATFORM#",
-          "platforms": [
-            "Darwin"
-          ]
-        },
-        {
           "match": "Googlebot\/Test*"
         },
         {

@@ -10,7 +10,7 @@
       "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Tweetbot",
+        "Comment": "Tweetbot is a full-featured Twitter app",
         "Alpha": "false",
         "Beta": "false",
         "Win16": "false",
@@ -20,11 +20,12 @@
         "JavaScript": "false",
         "isSyndicationReader": "false",
         "Browser": "Tweetbot",
-        "Browser_Type": "Bot/Crawler",
+        "Browser_Type": "Application",
+        "Browser_Maker": "Tapbots, LLC",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
-        "Crawler": "true"
+        "Crawler": "false"
       },
       "children": [
         {
