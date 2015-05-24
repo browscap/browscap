@@ -5,7 +5,7 @@
   "lite": true,
   "userAgents": [
     {
-      "userAgent": "IE #MAJORVER#.#MINORVER#",
+      "userAgent": "IE #MAJORVER#.#MINORVER# for Desktop",
       "engine": "Trident",
       "device": "Windows Desktop",
       "properties": {
@@ -61,6 +61,48 @@
         },
         {
           "match": "Mozilla\/5.0 (*MSIE #MAJORVER#.#MINORVER#*)*"
+        }
+      ]
+    },
+    {
+      "userAgent": "IE #MAJORVER#.#MINORVER# for Mobile",
+      "engine": "Trident",
+      "device": "general Mobile Phone",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "IE #MAJORVER#.#MINORVER#",
+        "Browser": "IE",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Microsoft Corporation",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "CssVersion": "1"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/4.0 (compatible; MSIE #MAJORVER#.#MINORVER#*; #PLATFORM#",
+          "platforms": [
+            "WinCE"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; MSIE #MAJORVER#.#MINORVER#*; #PLATFORM#",
+          "platforms": [
+            "WinCE"
+          ]
         }
       ]
     }
