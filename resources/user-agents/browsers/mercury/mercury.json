@@ -10,19 +10,21 @@
       "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Mercury",
+        "Comment": "Mercury #MAJORVER#.#MINORVER#",
         "Browser": "Mercury",
         "Browser_Type": "Browser",
+        "Browser_Maker": "iLegendSoft, Inc.",
         "Alpha": "false",
         "Beta": "false",
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
-        "Frames": "false",
-        "IFrames": "false",
-        "Tables": "false",
-        "Cookies": "false",
-        "JavaScript": "false",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3",
         "isSyndicationReader": "false",
         "Crawler": "false"
       },
@@ -31,7 +33,8 @@
           "match": "Mercury3\/4.0* CFNetwork\/#PLATFORM#",
           "properties": {
             "Version": "4.0",
-            "MajorVer": "4"
+            "MajorVer": "4",
+            "MinorVer": "0"
           },
           "platforms": [
             "Darwin"
