@@ -28,6 +28,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-484-B' => [
         'Mozilla/5.0 (compatible; discoverybot/2.0; +http://discoveryengine.com/discoverybot.html)',
@@ -56,6 +57,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-484-C' => [
         'Mozilla/5.0 (compatible; AcoonBot/4.11.1; +http://www.acoon.de/robot.asp)',
@@ -84,6 +86,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-484-D' => [
         'Mozilla/5.0 (compatible; AboutUsBot Johnny5/2.0; +http://www.AboutUs.org/)',
@@ -112,6 +115,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-484-E' => [
         'Mozilla/5.0 (compatible; woriobot +http://worio.com)',
@@ -140,6 +144,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-484-F' => [
         'Mozilla/5.0 (compatible; woriobot support [at] zite [dot] com +http://zite.com)',
@@ -168,6 +173,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-484-G' => [
         'GIDBot/2.0 (+http://www.gidnetwork.com/tools/gzip-test.php)',
@@ -196,6 +202,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-484-H' => [
         'Zookabot/2.4; +http://zookabot.com',
@@ -224,6 +231,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-484-I' => [
         'FreeWebMonitoring SiteChecker/0.1 (+http://www.freewebmonitoring.com)',
@@ -252,6 +260,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-484-J' => [
         'IPv4Scan (+http://ipv4scan.com)',
@@ -280,6 +289,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-484-K' => [
         'MetaURI API/2.0 +metauri.com',
@@ -308,6 +318,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-484-L' => [
         'domainsbot (+http://www.domainsbot.com)',
@@ -336,6 +347,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-484-M' => [
         'netEstate NE Crawler (+http://www.sengine.info/)',
@@ -364,6 +376,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-484-N' => [
         'RED/1 (http://redbot.org/)',
@@ -392,5 +405,6 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
 ];

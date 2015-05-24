@@ -28,6 +28,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-350-B' => [
         'Mozilla/5.0 (compatible; 007ac9 Crawler; http://crawler.007ac9.net/)',
@@ -56,6 +57,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-350-C' => [
         'Mozilla/5.0 (compatible; AOLbot/4.0; +http://www.aol-soft.com/)',
@@ -84,6 +86,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-350-D' => [
         'Go 1.1 package http',
@@ -112,6 +115,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-350-E' => [
         'Mozilla/5.0 (compatible; DomainSCAN/2.0; +http://domainscan.info/robot/)',
@@ -140,6 +144,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-350-F' => [
         'Proxy Gear Pro/2.1 (Windows; N; Windows NT 6.1; en)',
@@ -168,5 +173,6 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
 ];

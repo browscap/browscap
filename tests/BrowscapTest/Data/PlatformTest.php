@@ -36,13 +36,18 @@ class PlatformTest extends \PHPUnit_Framework_TestCase
     /**
      * Sets up the fixture, for example, open a network connection.
      * This method is called before a test is executed.
-     *
      */
     public function setUp()
     {
         $this->object = new Platform();
     }
 
+    /**
+     * tests setter and getter for the match property
+     *
+     * @group data
+     * @group sourcetest
+     */
     public function testSetGetMatch()
     {
         $match = 'TestMatchName';
@@ -51,6 +56,12 @@ class PlatformTest extends \PHPUnit_Framework_TestCase
         self::assertSame($match, $this->object->getMatch());
     }
 
+    /**
+     * tests setter and getter for data properties
+     *
+     * @group data
+     * @group sourcetest
+     */
     public function testSetGetProperties()
     {
         $properties = array('abc' => 'def');
@@ -59,6 +70,12 @@ class PlatformTest extends \PHPUnit_Framework_TestCase
         self::assertSame($properties, $this->object->getProperties());
     }
 
+    /**
+     * tests setter and getter for the lite property
+     *
+     * @group data
+     * @group sourcetest
+     */
     public function testSetGetIsLite()
     {
         $this->assertFalse($this->object->isLite());

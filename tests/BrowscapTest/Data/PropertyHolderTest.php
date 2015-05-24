@@ -36,7 +36,6 @@ class PropertyHolderTest extends \PHPUnit_Framework_TestCase
     /**
      * Sets up the fixture, for example, open a network connection.
      * This method is called before a test is executed.
-     *
      */
     public function setUp()
     {
@@ -92,6 +91,9 @@ class PropertyHolderTest extends \PHPUnit_Framework_TestCase
 
     /**
      * @dataProvider propertyNameTypeDataProvider
+     *
+     * @group data
+     * @group sourcetest
      */
     public function testGetPropertyType($propertyName, $expectedType)
     {
@@ -102,6 +104,9 @@ class PropertyHolderTest extends \PHPUnit_Framework_TestCase
     /**
      * @expectedException \InvalidArgumentException
      * @expectedExceptionMessage Property Foobar did not have a defined property type
+     *
+     * @group data
+     * @group sourcetest
      */
     public function testGetPropertyTypeThrowsExceptionIfPropertyNameNotMapped()
     {
@@ -159,6 +164,9 @@ class PropertyHolderTest extends \PHPUnit_Framework_TestCase
 
     /**
      * @dataProvider litePropertiesDataProvider
+     *
+     * @group data
+     * @group sourcetest
      */
     public function testIsLiteModeProperty($propertyName, $isExtra)
     {
@@ -217,6 +225,9 @@ class PropertyHolderTest extends \PHPUnit_Framework_TestCase
 
     /**
      * @dataProvider standardPropertiesDataProvider
+     *
+     * @group data
+     * @group sourcetest
      */
     public function testIsStandardModeProperty($propertyName, $isExtra)
     {
@@ -224,6 +235,12 @@ class PropertyHolderTest extends \PHPUnit_Framework_TestCase
         self::assertSame($isExtra, $actualValue);
     }
 
+    /**
+     * tests detecting a standard mode property
+     *
+     * @group data
+     * @group sourcetest
+     */
     public function testIsStandardModePropertyWithWriter()
     {
         $mockWriter = $this->getMock('\Browscap\Writer\CsvWriter', array('getType'), array(), '', false);
@@ -291,6 +308,9 @@ class PropertyHolderTest extends \PHPUnit_Framework_TestCase
 
     /**
      * @dataProvider outputPropertiesDataProvider
+     *
+     * @group data
+     * @group sourcetest
      */
     public function testIsOutputProperty($propertyName, $isExtra)
     {
@@ -298,6 +318,12 @@ class PropertyHolderTest extends \PHPUnit_Framework_TestCase
         self::assertSame($isExtra, $actualValue);
     }
 
+    /**
+     * tests detecting a output property if a writer is given
+     *
+     * @group data
+     * @group sourcetest
+     */
     public function testIsOutputPropertyWithWriter()
     {
         $mockWriter = $this->getMock('\Browscap\Writer\CsvWriter', array('getType'), array(), '', false);
@@ -329,6 +355,9 @@ class PropertyHolderTest extends \PHPUnit_Framework_TestCase
 
     /**
      * @dataProvider checkValueInArrayProvider
+     *
+     * @group data
+     * @group sourcetest
      */
     public function testCheckValueInArray($propertyName, $propertyValue)
     {
@@ -339,6 +368,9 @@ class PropertyHolderTest extends \PHPUnit_Framework_TestCase
     /**
      * @expectedException \InvalidArgumentException
      * @expectedExceptionMessage Property "abc" is not defined to be validated
+     *
+     * @group data
+     * @group sourcetest
      */
     public function testCheckValueInArrayExceptionUndfinedProperty()
     {
@@ -348,6 +380,9 @@ class PropertyHolderTest extends \PHPUnit_Framework_TestCase
     /**
      * @expectedException \InvalidArgumentException
      * @expectedExceptionMessage invalid value given for Property "Browser_Type": given value "bcd", allowed: ["Useragent Anonymizer","Browser","Offline Browser","Multimedia Player","Library","Feed Reader","Email Client","Bot\/Crawler","Application","unknown"]
+     *
+     * @group data
+     * @group sourcetest
      */
     public function testCheckValueInArrayExceptionWrongValue()
     {

@@ -36,18 +36,29 @@ class LiteFilterTest extends \PHPUnit_Framework_TestCase
     /**
      * Sets up the fixture, for example, open a network connection.
      * This method is called before a test is executed.
-     *
      */
     public function setUp()
     {
         $this->object = new LiteFilter();
     }
 
+    /**
+     * tests getter for the filter type
+     *
+     * @group filter
+     * @group sourcetest
+     */
     public function testGetType()
     {
         self::assertSame('LITE', $this->object->getType());
     }
 
+    /**
+     * tests detecting if a divion should be in the output
+     *
+     * @group filter
+     * @group sourcetest
+     */
     public function testIsOutput()
     {
         $mockDivision = $this->getMock('\Browscap\Data\Division', array('isLite'), array(), '', false);
@@ -115,6 +126,9 @@ class LiteFilterTest extends \PHPUnit_Framework_TestCase
 
     /**
      * @dataProvider outputPropertiesDataProvider
+     *
+     * @group filter
+     * @group sourcetest
      */
     public function testIsOutputProperty($propertyName, $isExtra)
     {
@@ -122,6 +136,12 @@ class LiteFilterTest extends \PHPUnit_Framework_TestCase
         self::assertSame($isExtra, $actualValue);
     }
 
+    /**
+     * tests if a section is always in the output, if the lite flag is true
+     *
+     * @group filter
+     * @group sourcetest
+     */
     public function testIsOutputSectionOnlyWhenLite()
     {
         $this->assertFalse($this->object->isOutputSection(array()));

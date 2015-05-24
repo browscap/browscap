@@ -49,7 +49,6 @@ class WriterCollectionTest extends \PHPUnit_Framework_TestCase
     /**
      * Sets up the fixture, for example, open a network connection.
      * This method is called before a test is executed.
-     *
      */
     public function setUp()
     {
@@ -59,6 +58,12 @@ class WriterCollectionTest extends \PHPUnit_Framework_TestCase
         $this->object = new WriterCollection();
     }
 
+    /**
+     * tests setting and getting a writer
+     *
+     * @group writer
+     * @group sourcetest
+     */
     public function testAddWriter()
     {
         $mockWriter = $this->getMock('\Browscap\Writer\CsvWriter', array(), array(), '', false);
@@ -66,6 +71,12 @@ class WriterCollectionTest extends \PHPUnit_Framework_TestCase
         self::assertSame($this->object, $this->object->addWriter($mockWriter));
     }
 
+    /**
+     * tests setting a file into silent mode
+     *
+     * @group writer
+     * @group sourcetest
+     */
     public function testSetSilent()
     {
         $mockFilter = $this->getMock('\Browscap\Filter\FullFilter', array('isOutput'), array(), '', false);
@@ -88,6 +99,12 @@ class WriterCollectionTest extends \PHPUnit_Framework_TestCase
         self::assertSame($this->object, $this->object->setSilent($mockDivision));
     }
 
+    /**
+     * tests setting a file into silent mode
+     *
+     * @group writer
+     * @group sourcetest
+     */
     public function testSetSilentSection()
     {
         $mockFilter = $this->getMock('\Browscap\Filter\FullFilter', array('isOutputSection'), array(), '', false);
@@ -110,6 +127,12 @@ class WriterCollectionTest extends \PHPUnit_Framework_TestCase
         self::assertSame($this->object, $this->object->setSilentSection($mockDivision));
     }
 
+    /**
+     * tests rendering the start of the file
+     *
+     * @group writer
+     * @group sourcetest
+     */
     public function testFileStart()
     {
         $mockWriter = $this->getMock('\Browscap\Writer\CsvWriter', array(), array(), '', false);
@@ -118,6 +141,12 @@ class WriterCollectionTest extends \PHPUnit_Framework_TestCase
         self::assertSame($this->object, $this->object->fileStart());
     }
 
+    /**
+     * tests rendering the end of the file
+     *
+     * @group writer
+     * @group sourcetest
+     */
     public function testFileEnd()
     {
         $mockWriter = $this->getMock('\Browscap\Writer\CsvWriter', array(), array(), '', false);
@@ -126,6 +155,12 @@ class WriterCollectionTest extends \PHPUnit_Framework_TestCase
         self::assertSame($this->object, $this->object->fileEnd());
     }
 
+    /**
+     * tests rendering the header information
+     *
+     * @group writer
+     * @group sourcetest
+     */
     public function testRenderHeader()
     {
         $header = array('TestData to be renderd into the Header');
@@ -136,6 +171,12 @@ class WriterCollectionTest extends \PHPUnit_Framework_TestCase
         self::assertSame($this->object, $this->object->renderHeader($header));
     }
 
+    /**
+     * tests rendering the version information
+     *
+     * @group writer
+     * @group sourcetest
+     */
     public function testRenderVersion()
     {
         $version = 'test';
@@ -208,6 +249,12 @@ class WriterCollectionTest extends \PHPUnit_Framework_TestCase
         self::assertSame($this->object, $this->object->close());
     }
 
+    /**
+     * tests rendering the header for all division
+     *
+     * @group writer
+     * @group sourcetest
+     */
     public function testRenderAllDivisionsHeader()
     {
         $mockCollection = $this->getMock('\Browscap\Data\DataCollection', array(), array(), '', false);
@@ -218,6 +265,12 @@ class WriterCollectionTest extends \PHPUnit_Framework_TestCase
         self::assertSame($this->object, $this->object->renderAllDivisionsHeader($mockCollection));
     }
 
+    /**
+     * tests rendering the header of one division
+     *
+     * @group writer
+     * @group sourcetest
+     */
     public function testRenderDivisionHeader()
     {
         $mockWriter = $this->getMock('\Browscap\Writer\CsvWriter', array(), array(), '', false);
@@ -226,6 +279,12 @@ class WriterCollectionTest extends \PHPUnit_Framework_TestCase
         self::assertSame($this->object, $this->object->renderDivisionHeader('test'));
     }
 
+    /**
+     * tests rendering the header of one section
+     *
+     * @group writer
+     * @group sourcetest
+     */
     public function testRenderSectionHeader()
     {
         $mockWriter = $this->getMock('\Browscap\Writer\CsvWriter', array(), array(), '', false);
@@ -234,6 +293,12 @@ class WriterCollectionTest extends \PHPUnit_Framework_TestCase
         self::assertSame($this->object, $this->object->renderSectionHeader('test'));
     }
 
+    /**
+     * tests rendering the body of one section
+     *
+     * @group writer
+     * @group sourcetest
+     */
     public function testRenderSectionBody()
     {
         $section = array(
@@ -249,6 +314,12 @@ class WriterCollectionTest extends \PHPUnit_Framework_TestCase
         self::assertSame($this->object, $this->object->renderSectionBody($section, $mockCollection));
     }
 
+    /**
+     * tests rendering the footer of one section
+     *
+     * @group writer
+     * @group sourcetest
+     */
     public function testRenderSectionFooter()
     {
         $mockWriter = $this->getMock('\Browscap\Writer\CsvWriter', array(), array(), '', false);
@@ -257,6 +328,12 @@ class WriterCollectionTest extends \PHPUnit_Framework_TestCase
         self::assertSame($this->object, $this->object->renderSectionFooter());
     }
 
+    /**
+     * tests rendering the footer of one division
+     *
+     * @group writer
+     * @group sourcetest
+     */
     public function testRenderDivisionFooter()
     {
         $mockWriter = $this->getMock('\Browscap\Writer\CsvWriter', array(), array(), '', false);
@@ -265,6 +342,12 @@ class WriterCollectionTest extends \PHPUnit_Framework_TestCase
         self::assertSame($this->object, $this->object->renderDivisionFooter());
     }
 
+    /**
+     * tests rendering the footer after all divisions
+     *
+     * @group writer
+     * @group sourcetest
+     */
     public function testRenderAllDivisionsFooter()
     {
         $mockWriter = $this->getMock('\Browscap\Writer\CsvWriter', array(), array(), '', false);

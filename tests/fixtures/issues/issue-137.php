@@ -28,5 +28,6 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'KDE',
         ],
+        'lite' => false,
     ],
 ];

@@ -43,7 +43,6 @@ class ExpanderTest extends \PHPUnit_Framework_TestCase
     /**
      * Sets up the fixture, for example, open a network connection.
      * This method is called before a test is executed.
-     *
      */
     public function setUp()
     {
@@ -51,6 +50,12 @@ class ExpanderTest extends \PHPUnit_Framework_TestCase
         $this->object = new Expander();
     }
 
+    /**
+     * tests setter and getter for the data collection
+     *
+     * @group data
+     * @group sourcetest
+     */
     public function testGetDataCollectionReturnsSameDatacollectionAsInserted()
     {
         $mockCollection = $this->getMock('\Browscap\Data\DataCollection', array(), array(), '', false);
@@ -60,6 +65,12 @@ class ExpanderTest extends \PHPUnit_Framework_TestCase
         self::assertSame($mockCollection, $this->object->getDataCollection());
     }
 
+    /**
+     * tests setter and getter for the version parts
+     *
+     * @group data
+     * @group sourcetest
+     */
     public function testGetVersionParts()
     {
         $result = $this->object->getVersionParts(1);
@@ -68,6 +79,12 @@ class ExpanderTest extends \PHPUnit_Framework_TestCase
         self::assertSame(array('1', 0), $result);
     }
 
+    /**
+     * tests parsing an empty data collection
+     *
+     * @group data
+     * @group sourcetest
+     */
     public function testParseDoesNothingOnEmptyDatacollection()
     {
         $mockCollection = $this->getMock(
@@ -111,6 +128,12 @@ class ExpanderTest extends \PHPUnit_Framework_TestCase
         self::assertCount(0, $result);
     }
 
+    /**
+     * tests parsing a not empty data collection without children
+     *
+     * @group data
+     * @group sourcetest
+     */
     public function testParseOnNotEmptyDatacollectionWithoutChildren()
     {
         $mockCollection = $this->getMock(
@@ -168,6 +191,12 @@ class ExpanderTest extends \PHPUnit_Framework_TestCase
         self::assertCount(1, $result);
     }
 
+    /**
+     * tests parsing an not empty data collection with children
+     *
+     * @group data
+     * @group sourcetest
+     */
     public function testParseOnNotEmptyDatacollectionWithChildren()
     {
         $mockCollection = $this->getMock(

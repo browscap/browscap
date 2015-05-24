@@ -10,6 +10,7 @@
         "Browser": "Fake Browser",
         "Comment": "Fake Browser",
         "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "unknown",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
@@ -430,6 +431,9 @@
         },
         {
           "match": "Mozilla\/4.0+*"
+        },
+        {
+          "match": "Mozilla\/5.0 (;;;* Build\/*)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/?.0*Safari*"
         },
         {
           "match": "Mozilla\/5.0 (;;;*"

@@ -49,7 +49,6 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
     /**
      * Sets up the fixture, for example, open a network connection.
      * This method is called before a test is executed.
-     *
      */
     public function setUp()
     {
@@ -62,7 +61,6 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
     /**
      * Sets up the fixture, for example, open a network connection.
      * This method is called before a test is executed.
-     *
      */
     public function teardown()
     {
@@ -71,6 +69,12 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
         unlink($this->file);
     }
 
+    /**
+     * tests setting and getting a logger
+     *
+     * @group writer
+     * @group sourcetest
+     */
     public function testSetGetLogger()
     {
         $mockLogger = $this->getMock('\Monolog\Logger', array(), array(), '', false);
@@ -79,11 +83,23 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
         self::assertSame($mockLogger, $this->object->getLogger());
     }
 
+    /**
+     * tests getting the writer type
+     *
+     * @group writer
+     * @group sourcetest
+     */
     public function testGetType()
     {
         self::assertSame('xml', $this->object->getType());
     }
 
+    /**
+     * tests setting and getting a formatter
+     *
+     * @group writer
+     * @group sourcetest
+     */
     public function testSetGetFormatter()
     {
         $mockFormatter = $this->getMock('\Browscap\Formatter\XmlFormatter', array(), array(), '', false);
@@ -92,6 +108,12 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
         self::assertSame($mockFormatter, $this->object->getFormatter());
     }
 
+    /**
+     * tests setting and getting a filter
+     *
+     * @group writer
+     * @group sourcetest
+     */
     public function testSetGetFilter()
     {
         $mockFilter = $this->getMock('\Browscap\Filter\FullFilter', array(), array(), '', false);
@@ -100,6 +122,12 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
         self::assertSame($mockFilter, $this->object->getFilter());
     }
 
+    /**
+     * tests setting a file into silent mode
+     *
+     * @group writer
+     * @group sourcetest
+     */
     public function testSetGetSilent()
     {
         $silent = true;
@@ -108,6 +136,12 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
         self::assertSame($silent, $this->object->isSilent());
     }
 
+    /**
+     * tests rendering the start of the file
+     *
+     * @group writer
+     * @group sourcetest
+     */
     public function testFileStartIfNotSilent()
     {
         $this->object->setSilent(false);
@@ -119,6 +153,12 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
         );
     }
 
+    /**
+     * tests rendering the start of the file
+     *
+     * @group writer
+     * @group sourcetest
+     */
     public function testFileStartIfSilent()
     {
         $this->object->setSilent(true);
@@ -127,6 +167,12 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
         self::assertSame('', file_get_contents($this->file));
     }
 
+    /**
+     * tests rendering the end of the file
+     *
+     * @group writer
+     * @group sourcetest
+     */
     public function testFileEndIfNotSilent()
     {
         $this->object->setSilent(false);
@@ -135,6 +181,12 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
         self::assertSame('</browsercaps>' . PHP_EOL, file_get_contents($this->file));
     }
 
+    /**
+     * tests rendering the end of the file
+     *
+     * @group writer
+     * @group sourcetest
+     */
     public function testFileEndIfSilent()
     {
         $this->object->setSilent(true);
@@ -143,6 +195,12 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
         self::assertSame('', file_get_contents($this->file));
     }
 
+    /**
+     * tests rendering the header information
+     *
+     * @group writer
+     * @group sourcetest
+     */
     public function testRenderHeaderIfSilent()
     {
         $mockLogger = $this->getMock('\Monolog\Logger', array(), array(), '', false);
@@ -156,6 +214,12 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
         self::assertSame('', file_get_contents($this->file));
     }
 
+    /**
+     * tests rendering the header information
+     *
+     * @group writer
+     * @group sourcetest
+     */
     public function testRenderHeaderIfNotSilent()
     {
         $mockLogger = $this->getMock('\Monolog\Logger', array(), array(), '', false);
@@ -173,6 +237,12 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
         );
     }
 
+    /**
+     * tests rendering the version information
+     *
+     * @group writer
+     * @group sourcetest
+     */
     public function testRenderVersionIfSilent()
     {
         $mockLogger = $this->getMock('\Monolog\Logger', array(), array(), '', false);
@@ -192,6 +262,12 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
         self::assertSame('', file_get_contents($this->file));
     }
 
+    /**
+     * tests rendering the version information
+     *
+     * @group writer
+     * @group sourcetest
+     */
     public function testRenderVersionIfNotSilent()
     {
         $mockLogger = $this->getMock('\Monolog\Logger', array(), array(), '', false);
@@ -215,6 +291,12 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
         );
     }
 
+    /**
+     * tests rendering the version information
+     *
+     * @group writer
+     * @group sourcetest
+     */
     public function testRenderVersionIfNotSilentButWithoutVersion()
     {
         $mockLogger = $this->getMock('\Monolog\Logger', array(), array(), '', false);
@@ -232,6 +314,12 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
         );
     }
 
+    /**
+     * tests rendering the header for all division
+     *
+     * @group writer
+     * @group sourcetest
+     */
     public function testRenderAllDivisionsHeader()
     {
         $mockCollection = $this->getMock('\Browscap\Data\DataCollection', array(), array(), '', false);
@@ -240,6 +328,12 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
         self::assertSame('<browsercapitems>' . PHP_EOL, file_get_contents($this->file));
     }
 
+    /**
+     * tests rendering the header of one division
+     *
+     * @group writer
+     * @group sourcetest
+     */
     public function testRenderDivisionHeader()
     {
         $this->object->setSilent(true);
@@ -248,6 +342,12 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
         self::assertSame('', file_get_contents($this->file));
     }
 
+    /**
+     * tests rendering the header of one section
+     *
+     * @group writer
+     * @group sourcetest
+     */
     public function testRenderSectionHeaderIfNotSilent()
     {
         $this->object->setSilent(false);
@@ -271,6 +371,12 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
         self::assertSame('<browscapitem name="test">' . PHP_EOL, file_get_contents($this->file));
     }
 
+    /**
+     * tests rendering the header of one section
+     *
+     * @group writer
+     * @group sourcetest
+     */
     public function testRenderSectionHeaderIfSilent()
     {
         $this->object->setSilent(true);
@@ -279,6 +385,12 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
         self::assertSame('', file_get_contents($this->file));
     }
 
+    /**
+     * tests rendering the body of one section
+     *
+     * @group writer
+     * @group sourcetest
+     */
     public function testRenderSectionBodyIfNotSilent()
     {
         $this->object->setSilent(false);
@@ -360,6 +472,12 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
         );
     }
 
+    /**
+     * tests rendering the body of one section
+     *
+     * @group writer
+     * @group sourcetest
+     */
     public function testRenderSectionBodyIfNotSilentWithParents()
     {
         $this->object->setSilent(false);
@@ -449,6 +567,12 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
         );
     }
 
+    /**
+     * tests rendering the body of one section
+     *
+     * @group writer
+     * @group sourcetest
+     */
     public function testRenderSectionBodyIfNotSilentWithDefaultPropertiesAsParent()
     {
         $this->object->setSilent(false);
@@ -532,6 +656,12 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
         );
     }
 
+    /**
+     * tests rendering the body of one section
+     *
+     * @group writer
+     * @group sourcetest
+     */
     public function testRenderSectionBodyIfSilent()
     {
         $this->object->setSilent(true);
@@ -548,6 +678,12 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
         self::assertSame('', file_get_contents($this->file));
     }
 
+    /**
+     * tests rendering the footer of one section
+     *
+     * @group writer
+     * @group sourcetest
+     */
     public function testRenderSectionFooterIfNotSilent()
     {
         $this->object->setSilent(false);
@@ -556,6 +692,12 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
         self::assertSame('</browscapitem>' . PHP_EOL, file_get_contents($this->file));
     }
 
+    /**
+     * tests rendering the footer of one section
+     *
+     * @group writer
+     * @group sourcetest
+     */
     public function testRenderSectionFooterIfSilent()
     {
         $this->object->setSilent(true);
@@ -564,12 +706,24 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
         self::assertSame('', file_get_contents($this->file));
     }
 
+    /**
+     * tests rendering the footer of one division
+     *
+     * @group writer
+     * @group sourcetest
+     */
     public function testRenderDivisionFooter()
     {
         self::assertSame($this->object, $this->object->renderDivisionFooter());
         self::assertSame('', file_get_contents($this->file));
     }
 
+    /**
+     * tests rendering the footer after all divisions
+     *
+     * @group writer
+     * @group sourcetest
+     */
     public function testRenderAllDivisionsFooter()
     {
         self::assertSame($this->object, $this->object->renderAllDivisionsFooter());

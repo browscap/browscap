@@ -28,6 +28,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-378-B' => [
         'Z15A-Z15A/1.0 Linux/2.6.35.7 Android/4.0 Release/03.25.2013 Browser/AppleWebKit533.1 (KHTML, like Gecko) Mozilla/5.0 Mobile',
@@ -56,6 +57,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
+        'lite' => false,
     ],
     'issue-378-C' => [
         'YahooMobile/1.0 (Yahoo! Search; 3.1.2) (Apple; iPod touch; iPhone OS/7.1.1); YHOO_Search_App/3.1.2',
@@ -84,6 +86,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-378-D' => [
         'YahooMobile/1.0 (Yahoo! Search; 3.1.3) (Apple; iPhone; iPhone OS/7.1.2); YHOO_Search_App/3.1.3',
@@ -112,6 +115,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-378-E' => [
         'WordPress 4.0-alpha Feed Client Mozilla/5.0 Compatible',
@@ -140,6 +144,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-378-F' => [
         'Windows-RSS-Platform/2.0 (IE 11.0; Windows NT 6.3)',
@@ -168,6 +173,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-378-G' => [
         'Windows Phone Search (Windows Phone OS 7.10;NOKIA;Lumia 900;7.10;8862)',
@@ -196,6 +202,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-378-H' => [
         'UCWEB/2.0(Linux; U; Opera Mini/7.1.32052/30.3697; fr-fr; MB525 Build/JRDNEM_U3_2.24.0) U2/1.0.0 UCBrowser/9.5.0.360 Mobile',
@@ -224,6 +231,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'UC Web',
         ],
+        'lite' => false,
     ],
     'issue-378-I' => [
         'UCWEB/2.0 (MIDP-2.0; U; Adr 4.4; en-US; SPHS_on_Hsdroid) U2/1.0.0 UCBrowser/8.9.2.373 U2/1.0.0 Mobile',
@@ -252,6 +260,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'UC Web',
         ],
+        'lite' => false,
     ],
     'issue-378-J' => [
         'Tiny Tiny RSS/1.10 (http://tt-rss.org/)',
@@ -280,6 +289,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-378-K' => [
         'stagefright/1.2 (Linux;Android 4.2.1)',
@@ -308,6 +318,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
+        'lite' => false,
     ],
     'issue-378-L' => [
         'Screaming Frog SEO Spider/2.40',
@@ -336,6 +347,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-378-M' => [
         'Readability/de31a5 - http://readability.com/about/',
@@ -364,6 +376,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-378-N' => [
         'Opera/9.80 (MTK; Opera Mini/2.1198/34.2336; U; fr) Presto/2.8.119 Version/11.10',
@@ -392,6 +405,7 @@ return [
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
+        'lite' => false,
     ],
     'issue-378-O' => [
         'NSPlayer/12.00.9200.16550 WMFSDK/12.00.9200.16550',
@@ -420,6 +434,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-378-P' => [
         'NewsBlur Feed Fetcher - 0 subscribers - http://www.newsblur.com/site/1719739/nouvelles-cinema (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_1) AppleWebKit/534.48.3 (KHTML, like Gecko) Version/5.1 Safari/534.48.3)',
@@ -448,6 +463,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-378-Q' => [
         '[FBAN/FB4A;FBAV/10.0.0.28.27;FBBV/2802760;FBDM/{density=3.0,width=1080,height=1776};FBLC/fr_CA;FBCR/VIRGIN;FBPN/com.facebook.katana;FBDV/Nexus 5;FBSV/4.4.3;FBOP/1;FBCA/armeabi-v7a:armeabi;]',
@@ -476,6 +492,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
+        'lite' => false,
     ],
     'issue-378-R' => [
         'AppleCoreMedia/1.0.0.11D5145e (iPad; U; CPU OS 7_1 like Mac OS X; fr_fr)',
@@ -504,6 +521,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
+        'lite' => false,
     ],
     'issue-378-S' => [
         'AppleCoreMedia/1.0.0.11D169 (iPhone; U; CPU OS 7_1 like Mac OS X; fr_fr)',
@@ -532,6 +550,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
+        'lite' => false,
     ],
     'issue-378-T' => [
         'AppleCoreMedia/1.0.0.11D201 (iPod touch; U; CPU OS 7_1_1 like Mac OS X; fr_fr)',
@@ -560,6 +579,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
+        'lite' => false,
     ],
     'issue-378-U' => [
         'AppleCoreMedia/1.0.0.11G63b (Macintosh; U; Intel Mac OS X 10_7_5; fr_ca)',
@@ -588,5 +608,6 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
+        'lite' => false,
     ],
 ];

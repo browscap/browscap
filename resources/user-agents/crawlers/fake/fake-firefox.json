@@ -10,6 +10,7 @@
         "Browser": "Fake Firefox",
         "Comment": "Fake Firefox",
         "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "unknown",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",

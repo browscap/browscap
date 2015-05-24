@@ -29,6 +29,12 @@ use Monolog\Logger;
  */
 class BuildHelperTest extends \PHPUnit_Framework_TestCase
 {
+    /**
+     * tests running a build
+     *
+     * @group generator
+     * @group sourcetest
+     */
     public function testRun()
     {
         $logger = $this->getMock('\Monolog\Logger', array(), array(), '', false);

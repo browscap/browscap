@@ -36,13 +36,18 @@ class EngineTest extends \PHPUnit_Framework_TestCase
     /**
      * Sets up the fixture, for example, open a network connection.
      * This method is called before a test is executed.
-     *
      */
     public function setUp()
     {
         $this->object = new Engine();
     }
 
+    /**
+     * tests setter and getter for the engine properties
+     *
+     * @group data
+     * @group sourcetest
+     */
     public function testSetGetProperties()
     {
         $properties = array('abc' => 'def');

@@ -28,12 +28,24 @@ use Browscap\Parser\IniParser;
  */
 class IniParserTest extends \PHPUnit_Framework_TestCase
 {
+    /**
+     * tests creating the parser class
+     *
+     * @group parser
+     * @group sourcetest
+     */
     public function testConstructorSetsFilename()
     {
         $parser = new IniParser('foobar');
         self::assertSame('foobar', $parser->getFilename());
     }
 
+    /**
+     * tests setting the should sort flag
+     *
+     * @group parser
+     * @group sourcetest
+     */
     public function testSetShouldSort()
     {
         $parser = new IniParser('');
@@ -50,6 +62,12 @@ class IniParserTest extends \PHPUnit_Framework_TestCase
         self::assertAttributeEquals(false, 'shouldSort', $parser);
     }
 
+    /**
+     * tests setting and getting the should sort flag
+     *
+     * @group parser
+     * @group sourcetest
+     */
     public function testShouldSort()
     {
         $parser = new IniParser('');
@@ -63,6 +81,9 @@ class IniParserTest extends \PHPUnit_Framework_TestCase
         self::assertFalse($parser->shouldSort());
     }
 
+    /**
+     * tests setting and getting a logger
+     */
     public function sortArrayDataProvider()
     {
         return [
@@ -79,6 +100,9 @@ class IniParserTest extends \PHPUnit_Framework_TestCase
 
     /**
      * @dataProvider sortArrayDataProvider
+     *
+     * @group parser
+     * @group sourcetest
      */
     public function testSortArrayAndChildArrays($unsorted, $sorted)
     {
@@ -89,6 +113,12 @@ class IniParserTest extends \PHPUnit_Framework_TestCase
         self::assertSame($sorted, $sortMethod->invokeArgs($parser, [$unsorted]));
     }
 
+    /**
+     * tests getting lines from a file
+     *
+     * @group parser
+     * @group sourcetest
+     */
     public function testGetLinesFromFileReturnsArrayWithLines()
     {
         $tmpfile = tempnam(sys_get_temp_dir(), 'browscaptest');
@@ -117,6 +147,12 @@ HERE;
         self::assertSame($expected, $out);
     }
 
+    /**
+     * tests throwing an exception if the input file does not exist
+     *
+     * @group parser
+     * @group sourcetest
+     */
     public function testGetLinesFromFileThrowsExceptionIfFileDoesNotExist()
     {
         $file = '/hopefully/this/file/does/not/exist';
@@ -125,6 +161,12 @@ HERE;
         $parser->getLinesFromFile();
     }
 
+    /**
+     * tests getting lines from a file
+     *
+     * @group parser
+     * @group sourcetest
+     */
     public function testGetFileLinesReturnsLinesFromFile()
     {
         $tmpfile = tempnam(sys_get_temp_dir(), 'browscaptest');
@@ -153,6 +195,12 @@ HERE;
         self::assertSame($expected, $out);
     }
 
+    /**
+     * tests setting and getting lines of a file
+     *
+     * @group parser
+     * @group sourcetest
+     */
     public function testGetFileLinesReturnsLinesFromPreviouslySetLines()
     {
         $lines = ['first','second','third'];
@@ -163,6 +211,12 @@ HERE;
         self::assertSame($lines, $parser->getFileLines());
     }
 
+    /**
+     * tests parsing sections without sorting
+     *
+     * @group parser
+     * @group sourcetest
+     */
     public function testParseWithoutSorting()
     {
         $lines = [
@@ -205,6 +259,12 @@ HERE;
         self::assertEquals($expected, $data);
     }
 
+    /**
+     * tests parsing sections with sorting
+     *
+     * @group parser
+     * @group sourcetest
+     */
     public function testParseWithSorting()
     {
         $lines = [
@@ -244,6 +304,12 @@ HERE;
         self::assertSame($expected, $data);
     }
 
+    /**
+     * tests throwing an exception if more than one eual sign is present in a line
+     *
+     * @group parser
+     * @group sourcetest
+     */
     public function testParseThrowsExceptionWhenInvalidFormatting()
     {
         $lines = [

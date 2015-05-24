@@ -9,8 +9,8 @@
       "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Microsoft FrontPage",
-        "Browser": "FrontPage",
+        "Comment": "Microsoft Office",
+        "Browser": "Office",
         "Browser_Type": "Application",
         "Browser_Maker": "Microsoft Corporation",
         "Alpha": "false",
