@@ -18,12 +18,6 @@
       },
       "children": [
         {
-          "match": "Y!%20Messenger\/* CFNetwork\/#PLATFORM#",
-          "platforms": [
-            "Darwin"
-          ]
-        },
-        {
           "match": "Mozilla\/4.0 (compatible; Y!J; for robot study*)",
           "properties": {
             "Browser": "Y!J"

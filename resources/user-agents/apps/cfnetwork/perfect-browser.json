@@ -61,6 +61,17 @@
           ]
         },
         {
+          "match": "Perfect%20Browser\/9.1* CFNetwork\/#PLATFORM#",
+          "properties": {
+            "Version": "9.1",
+            "MajorVer": "9",
+            "MinorVer": "1"
+          },
+          "platforms": [
+            "Darwin"
+          ]
+        },
+        {
           "match": "Perfect%20Browser\/* CFNetwork\/#PLATFORM#",
           "platforms": [
             "Darwin"

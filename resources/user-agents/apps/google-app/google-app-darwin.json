@@ -1,0 +1,55 @@
+{
+  "division": "Google App for Darwin",
+  "sortIndex": 1148,
+  "lite": false,
+  "userAgents": [
+    {
+      "userAgent": "Google App for Darwin",
+      "platform": "Darwin",
+      "engine": "WebKit",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser_Maker": "Google Inc",
+        "Browser_Type": "Application",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "false",
+        "Comment": "Google App",
+        "Browser": "Google App"
+      },
+      "children": [
+        {
+          "match": "Google\/0.8* CFNetwork\/#PLATFORM#",
+          "device": "Macintosh",
+          "properties": {
+            "Version": "0.8",
+            "MinorVer": "8"
+          },
+          "platforms": [
+            "Darwin"
+          ]
+        },
+        {
+          "match": "Google\/0.9* CFNetwork\/#PLATFORM#",
+          "device": "Macintosh",
+          "device": "Macintosh",
+          "properties": {
+            "Version": "0.9",
+            "MinorVer": "9"
+          },
+          "platforms": [
+            "Darwin"
+          ]
+        },
+        {
+          "match": "Google\/* CFNetwork\/#PLATFORM#",
+          "platforms": [
+            "Darwin"
+          ]
+        }
+      ]
+    }
+  ]
+}

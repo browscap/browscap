@@ -22,12 +22,6 @@
       },
       "children": [
         {
-          "match": "Google\/#MAJORVER#.#MINORVER#* CFNetwork\/#PLATFORM#",
-          "platforms": [
-            "Darwin"
-          ]
-        },
-        {
           "match": "GoogleBot\/#MAJORVER#.#MINORVER#*"
         },
         {

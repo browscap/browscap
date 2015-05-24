@@ -1,8 +1,8 @@
 {
   "division": "Safari #MAJORVER#.#MINORVER#",
-  "versions": ["8.1", 8, "7.1", 7, "6.2", "6.1", 6],
-  "sortIndex": 1972,
-  "lite": true,
+  "versions": ["5.1"],
+  "sortIndex": 1973,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Safari #MAJORVER#.#MINORVER#",
@@ -26,10 +26,26 @@
       },
       "children": [
         {
+          "match": "Mozilla\/5.0 (SMART-TV; X11;#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) *Version\/#MAJORVER#.#MINORVER#* Safari\/*",
+          "device": "Smart-TV",
+          "platforms": [
+            "Linux_64", "Linux_32", "Linux"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) *Version\/#MAJORVER#.#MINORVER#* Safari\/*",
           "device": "Linux Desktop",
           "platforms": [
             "CentOS", "Linux_64", "Linux_32", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) *Version\/#MAJORVER#.#MINORVER#* Safari\/*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win2000", "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32", "Vista_64", "Vista_32",
+            "Win7_64", "Win7_32", "Win8_64", "Win8_32",
+            "Win8_1_64", "Win8_1_32"
           ]
         },
         {
