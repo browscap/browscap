@@ -1,24 +1,25 @@
 {
-  "division": "Lotus Notes 4.5",
+  "division": "Lotus Notes #MAJORVER#.#MINORVER#",
+  "versions": ["4.5"],
   "sortIndex": 1632,
   "lite": false,
   "userAgents": [
     {
-      "userAgent": "Lotus Notes 4.5",
+      "userAgent": "Lotus Notes #MAJORVER#.#MINORVER#",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Lotus Notes 4.5",
+        "Comment": "Lotus Notes #MAJORVER#.#MINORVER#",
         "Browser": "Lotus Notes",
         "Browser_Type": "Email Client",
         "Browser_Maker": "IBM",
-        "Version": "4.5",
-        "MajorVer": "4",
-        "MinorVer": "5"
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#"
       },
       "children": [
         {
-          "match": "Lotus-Notes\/4.5 ( Windows-NT )",
+          "match": "Lotus-Notes\/#MAJORVER#.#MINORVER# ( Windows-NT )",
           "platforms": [
             "NT"
           ]

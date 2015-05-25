@@ -11,6 +11,7 @@
         "Parent": "DefaultProperties",
         "Comment": "IBrowse",
         "Browser": "IBrowse",
+        "Browser_Type": "Browser",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",

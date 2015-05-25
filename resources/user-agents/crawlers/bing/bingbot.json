@@ -18,17 +18,6 @@
       },
       "children": [
         {
-          "match": "Bing\/2.2* CFNetwork\/#PLATFORM#",
-          "properties": {
-            "Version": "2.2",
-            "MajorVer": "2",
-            "MinorVer": "2"
-          },
-          "platforms": [
-            "Darwin"
-          ]
-        },
-        {
           "match": "Mozilla\/5.0 (compatible;*bingbot\/2.0*",
           "properties": {
             "Version": "2.0",
@@ -38,12 +27,6 @@
         },
         {
           "match": "Mozilla\/5.0 (compatible;*bingbot\/*"
-        },
-        {
-          "match": "Bing\/* CFNetwork\/#PLATFORM#",
-          "platforms": [
-            "Darwin"
-          ]
         },
         {
           "match": "Mozilla\/5.0 (iPhone#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/* Mobile\/* Safari\/* (compatible; bingbot\/2.0*",

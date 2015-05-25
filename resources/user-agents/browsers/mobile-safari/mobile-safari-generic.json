@@ -1,6 +1,6 @@
 {
   "division": "Mobile Safari Generic",
-  "sortIndex": 1967,
+  "sortIndex": 1968,
   "lite": true,
   "userAgents": [
     {
@@ -216,6 +216,12 @@
           "match": "Mozilla\/5.0*(#PLATFORM#)*AppleWebKit\/*",
           "platforms": [
             "iOS_F"
+          ]
+        },
+        {
+          "match": "MobileSafari\/* CFNetwork\/#PLATFORM#",
+          "platforms": [
+            "Darwin"
           ]
         }
       ]

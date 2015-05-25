@@ -1,16 +1,20 @@
 {
   "division": "CFNetwork",
-  "sortIndex": 2000,
+  "sortIndex": 20000,
   "lite": false,
   "userAgents": [
     {
       "userAgent": "CFNetwork",
+      "platform": "Darwin",
+      "engine": "WebKit",
+      "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "CFNetwork",
         "Browser": "CFNetwork",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Browser_Type": "Application",
+        "Browser_Maker": "Apple Inc",
+        "Crawler": "false"
       },
       "children": [
         {
