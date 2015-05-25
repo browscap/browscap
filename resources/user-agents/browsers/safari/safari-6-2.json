@@ -1,7 +1,7 @@
 {
   "division": "Safari #MAJORVER#.#MINORVER#",
   "versions": ["6.2"],
-  "sortIndex": 1972,
+  "sortIndex": 1974,
   "lite": true,
   "userAgents": [
     {

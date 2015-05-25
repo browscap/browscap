@@ -109,6 +109,33 @@
           ]
         }
       ]
+    },
+    {
+      "userAgent": "Safari Generic for Darwin",
+      "platform": "Darwin",
+      "engine": "WebKit",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Safari Generic",
+        "Browser": "Safari",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Apple Inc",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "1"
+      },
+      "children": [
+        {
+          "match": "Safari\/* CFNetwork\/#PLATFORM#",
+          "platforms": [
+            "Darwin_64", "Darwin"
+          ]
+        }
+      ]
     }
   ]
 }

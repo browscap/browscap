@@ -217,6 +217,12 @@
           "platforms": [
             "iOS_F"
           ]
+        },
+        {
+          "match": "MobileSafari\/* CFNetwork\/#PLATFORM#",
+          "platforms": [
+            "Darwin"
+          ]
         }
       ]
     }

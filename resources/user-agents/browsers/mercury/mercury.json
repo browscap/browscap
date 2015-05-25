@@ -10,7 +10,7 @@
       "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Mercury #MAJORVER#.#MINORVER#",
+        "Comment": "Mercury",
         "Browser": "Mercury",
         "Browser_Type": "Browser",
         "Browser_Maker": "iLegendSoft, Inc.",
