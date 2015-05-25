@@ -1,6 +1,6 @@
 {
   "division": "Google App #MAJORVER#.#MINORVER# for Darwin",
-  "versions": [2, 1],
+  "versions": [2, 1, "0.9", "0.8"],
   "sortIndex": 1147,
   "lite": false,
   "userAgents": [
