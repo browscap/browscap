@@ -28,6 +28,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-418-B' => [
         'Mozilla/5.0 (compatible; Abonti/0.92 - http://www.abonti.com)',
@@ -56,6 +57,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-418-C' => [
         'GG PeekBot 2.0 ( http://gg.pl/ http://info.gadu-gadu.pl/praca )',
@@ -84,5 +86,6 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
 ];

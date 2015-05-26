@@ -43,7 +43,6 @@ class CollectionCreatorTest extends \PHPUnit_Framework_TestCase
     /**
      * Sets up the fixture, for example, open a network connection.
      * This method is called before a test is executed.
-     *
      */
     public function setUp()
     {
@@ -51,6 +50,12 @@ class CollectionCreatorTest extends \PHPUnit_Framework_TestCase
         $this->object = new CollectionCreator();
     }
 
+    /**
+     * tests throwing an exception while creating a data collaction if the collction class is not set before
+     *
+     * @group helper
+     * @group sourcetest
+     */
     public function testCreateDataCollectionThrowsExceptionIfNoDataCollectionIsSet()
     {
         $this->setExpectedException('\LogicException', 'An instance of \Browscap\Data\DataCollection is required for this function. Please set it with setDataCollection');
@@ -58,6 +63,12 @@ class CollectionCreatorTest extends \PHPUnit_Framework_TestCase
         $this->object->createDataCollection('.');
     }
 
+    /**
+     * tests throwing an exception while creating a data collaction when a dir is invalid
+     *
+     * @group helper
+     * @group sourcetest
+     */
     public function testCreateDataCollectionThrowsExceptionOnInvalidDirectory()
     {
         $this->setExpectedException('\RunTimeException', 'File "./devices.json" does not exist.');
@@ -75,6 +86,12 @@ class CollectionCreatorTest extends \PHPUnit_Framework_TestCase
         $this->object->createDataCollection('.');
     }
 
+    /**
+     * tests creating a data collection
+     *
+     * @group helper
+     * @group sourcetest
+     */
     public function testCreateDataCollection()
     {
         $mockCollection = $this->getMock(

@@ -17,10 +17,13 @@
 
 namespace BrowscapTest;
 
-use Browscap\Generator\BuildFullFileOnlyGenerator;
+use Browscap\Data\PropertyHolder;
 use Monolog\Handler\NullHandler;
 use Monolog\Logger;
 use phpbrowscap\Browscap;
+use Browscap\Generator\BuildGenerator;
+use Browscap\Helper\CollectionCreator;
+use Browscap\Writer\Factory\PhpWriterFactory;
 
 /**
  * Class UserAgentsTest
@@ -34,7 +37,17 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
     /**
      * @var \phpbrowscap\Browscap
      */
-    private static $browscap;
+    private static $browscap = null;
+
+    /**
+     * @var string
+     */
+    private static $buildFolder = null;
+
+    /**
+     * @var \Browscap\Data\PropertyHolder
+     */
+    private static $propertyHolder = null;
 
     /**
      * This method is called before the first test of this test class is run.
@@ -44,38 +57,51 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
     public static function setUpBeforeClass()
     {
         // First, generate the INI files
-        $buildNumber = time();
-
+        $buildNumber    = time();
         $resourceFolder = __DIR__ . '/../../resources/';
 
-        $buildFolder = __DIR__ . '/../../build/browscap-ua-test-' . $buildNumber;
-        $iniFile     = $buildFolder . '/full_php_browscap.ini';
+        self::$buildFolder = __DIR__ . '/../../build/browscap-ua-test-' . $buildNumber;
 
         // create build folder if it does not exist
-        if (!file_exists($buildFolder)) {
-            mkdir($buildFolder, 0777, true);
-        }
-
-        // remove ini file if it already exists
-        if (file_exists($iniFile)) {
-            unlink($iniFile);
+        if (!file_exists(self::$buildFolder)) {
+            mkdir(self::$buildFolder, 0777, true);
         }
 
         $logger = new Logger('browscap');
         $logger->pushHandler(new NullHandler(Logger::DEBUG));
 
-        $builder = new BuildFullFileOnlyGenerator($resourceFolder, $buildFolder);
-        $builder->setLogger($logger);
-        $builder->run('test', $iniFile);
+        $buildGenerator = new BuildGenerator(
+            $resourceFolder,
+            self::$buildFolder
+        );
+
+        $writerCollectionFactory = new PhpWriterFactory();
+        $writerCollection        = $writerCollectionFactory->createCollection($logger, self::$buildFolder);
+
+        $buildGenerator
+            ->setLogger($logger)
+            ->setCollectionCreator(new CollectionCreator())
+            ->setWriterCollection($writerCollection)
+        ;
+
+        $buildGenerator->run('test', false);
 
         // Now, load an INI file into phpbrowscap\Browscap for testing the UAs
-        self::$browscap = new Browscap($buildFolder);
-        self::$browscap->localFile = $iniFile;
+        self::$browscap       = new Browscap(self::$buildFolder);
+        self::$propertyHolder = new PropertyHolder();
     }
 
+    /**
+     * @return array
+     */
     public function userAgentDataProvider()
     {
-        $data            = array();
+        static $data = array();
+
+        if (count($data)) {
+            return $data;
+        }
+
         $checks          = array();
         $sourceDirectory = __DIR__ . '/../fixtures/issues/';
 
@@ -114,16 +140,156 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
      * @coversNothing
      * @param string $userAgent
      * @param array  $expectedProperties
+     *
+     * @group intergration
+     * @group useragenttest
+     * @group full
      */
-    public function testUserAgents($userAgent, $expectedProperties)
+    public function testUserAgentsFull($userAgent, $expectedProperties)
     {
         if (!is_array($expectedProperties) || !count($expectedProperties)) {
-            $this->markTestSkipped('Could not run test - no properties were defined to test');
+            self::markTestSkipped('Could not run test - no properties were defined to test');
+        }
+
+        self::$browscap->iniFilename   = 'full_browscap.ini';
+        self::$browscap->localFile     = self::$buildFolder . '/full_php_browscap.ini';
+        self::$browscap->cacheFilename = 'cache-full.php';
+        self::$browscap->doAutoUpdate  = false;
+        self::$browscap->silent        = false;
+        self::$browscap->updateMethod  = Browscap::UPDATE_LOCAL;
+        static $updatedFullCache       = false;
+
+        if (!$updatedFullCache) {
+            self::$browscap->updateCache();
+            $updatedFullCache = true;
         }
 
         $actualProps = (array) self::$browscap->getBrowser($userAgent);
 
         foreach ($expectedProperties as $propName => $propValue) {
+            if (!self::$propertyHolder->isOutputProperty($propName)) {
+                continue;
+            }
+
+            self::assertArrayHasKey(
+                $propName,
+                $actualProps,
+                'Actual properties did not have "' . $propName . '" property'
+            );
+
+            self::assertSame(
+                $propValue,
+                $actualProps[$propName],
+                'Expected actual "' . $propName . '" to be "' . $propValue . '" (was "' . $actualProps[$propName]
+                . '"; used pattern: ' . $actualProps['browser_name_pattern'] .')'
+            );
+        }
+    }
+
+    /**
+     * @dataProvider userAgentDataProvider
+     * @coversNothing
+     * @param string $userAgent
+     * @param array  $expectedProperties
+     *
+     * @group intergration
+     * @group useragenttest
+     * @group standard
+     */
+    public function testUserAgentsStandard($userAgent, $expectedProperties)
+    {
+        if (!is_array($expectedProperties) || !count($expectedProperties)) {
+            self::markTestSkipped('Could not run test - no properties were defined to test');
+        }
+
+        self::$browscap->iniFilename   = 'browscap.ini';
+        self::$browscap->localFile     = self::$buildFolder . '/php_browscap.ini';
+        self::$browscap->cacheFilename = 'cache-standard.php';
+        self::$browscap->doAutoUpdate  = false;
+        self::$browscap->silent        = false;
+        self::$browscap->updateMethod  = Browscap::UPDATE_LOCAL;
+        static $updatedStandardCache   = false;
+
+        if (!$updatedStandardCache) {
+            self::$browscap->updateCache();
+            $updatedStandardCache = true;
+        }
+
+        $actualProps = (array) self::$browscap->getBrowser($userAgent);
+
+        foreach ($expectedProperties as $propName => $propValue) {
+            if (!self::$propertyHolder->isOutputProperty($propName)) {
+                continue;
+            }
+
+            if (!self::$propertyHolder->isStandardModeProperty($propName)) {
+                continue;
+            }
+
+            self::assertArrayHasKey(
+                $propName,
+                $actualProps,
+                'Actual properties did not have "' . $propName . '" property'
+            );
+
+            self::assertSame(
+                $propValue,
+                $actualProps[$propName],
+                'Expected actual "' . $propName . '" to be "' . $propValue . '" (was "' . $actualProps[$propName]
+                . '"; used pattern: ' . $actualProps['browser_name_pattern'] .')'
+            );
+        }
+    }
+
+    /**
+     * @dataProvider userAgentDataProvider
+     * @coversNothing
+     *
+     * @param string $userAgent
+     * @param array  $expectedProperties
+     * @param bool   $lite
+     *
+     * @throws \Exception
+     * @throws \phpbrowscap\Exception
+     *
+     * @group intergration
+     * @group useragenttest
+     * @group lite
+     */
+    public function testUserAgentsLite($userAgent, $expectedProperties, $lite = true)
+    {
+        if (!is_array($expectedProperties) || !count($expectedProperties)) {
+            self::markTestSkipped('Could not run test - no properties were defined to test');
+        }
+
+        if (!$lite) {
+            self::markTestSkipped('Test skipped - Browser/Platform/Version not defined for Lite Mode');
+        }
+
+        self::$browscap->iniFilename   = 'lite_browscap.ini';
+        self::$browscap->localFile     = self::$buildFolder . '/lite_php_browscap.ini';
+        self::$browscap->cacheFilename = 'cache-lite.php';
+        self::$browscap->doAutoUpdate  = false;
+        self::$browscap->silent        = false;
+        self::$browscap->updateMethod  = Browscap::UPDATE_LOCAL;
+        static $updatedLiteCache       = false;
+
+        if (!$updatedLiteCache) {
+            self::$browscap->updateCache();
+            $updatedLiteCache = true;
+        }
+
+        $actualProps = (array) self::$browscap->getBrowser($userAgent);
+
+        foreach ($expectedProperties as $propName => $propValue) {
+            if (!self::$propertyHolder->isOutputProperty($propName)) {
+                continue;
+            }
+
+            if (!self::$propertyHolder->isLiteModeProperty($propName)) {
+                continue;
+            }
+
             self::assertArrayHasKey(
                 $propName,
                 $actualProps,

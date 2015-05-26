@@ -2,7 +2,7 @@
   "division": "Android WebView #MAJORVER#.#MINORVER#",
   "versions": [1],
   "sortIndex": 956,
-  "lite": false,
+  "lite": true,
   "userAgents": [
     {
       "userAgent": "Android WebView #MAJORVER#.#MINORVER#",

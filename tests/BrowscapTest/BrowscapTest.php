@@ -30,9 +30,10 @@ use Symfony\Component\Console\Application;
 class BrowscapTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * @param string $command
+     * @param \Symfony\Component\Console\Application $app
+     * @param string                                 $command
      */
-    public function assertAppHasCommand(Application $app, $command)
+    private static function assertAppHasCommand(Application $app, $command)
     {
         $cmdObject = $app->get($command);
 
@@ -40,6 +41,12 @@ class BrowscapTest extends \PHPUnit_Framework_TestCase
         self::assertSame($command, $cmdObject->getName());
     }
 
+    /**
+     * tests adding commands
+     *
+     * @group browscap
+     * @group sourcetest
+     */
     public function testConstructorAddsExpectedCommands()
     {
         $app = new Browscap();

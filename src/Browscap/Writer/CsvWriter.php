@@ -57,6 +57,11 @@ class CsvWriter implements WriterInterface
     private $silent = false;
 
     /**
+     * @var array
+     */
+    private $outputProperties = array();
+
+    /**
      * @param string $file
      */
     public function __construct($file)
@@ -131,7 +136,8 @@ class CsvWriter implements WriterInterface
      */
     public function setFilter(FilterInterface $filter)
     {
-        $this->type = $filter;
+        $this->type             = $filter;
+        $this->outputProperties = array();
 
         return $this;
     }
@@ -251,7 +257,11 @@ class CsvWriter implements WriterInterface
         $values = array();
 
         foreach ($properties as $property) {
-            if (!$this->getFilter()->isOutputProperty($property, $this)) {
+            if (!isset($this->outputProperties[$property])) {
+                $this->outputProperties[$property] = $this->getFilter()->isOutputProperty($property, $this);
+            }
+
+            if (!$this->outputProperties[$property]) {
                 continue;
             }
 
@@ -325,7 +335,11 @@ class CsvWriter implements WriterInterface
         }
 
         foreach ($properties as $property) {
-            if (!$this->getFilter()->isOutputProperty($property, $this)) {
+            if (!isset($this->outputProperties[$property])) {
+                $this->outputProperties[$property] = $this->getFilter()->isOutputProperty($property, $this);
+            }
+
+            if (!$this->outputProperties[$property]) {
                 continue;
             }
 

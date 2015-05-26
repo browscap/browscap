@@ -33,6 +33,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
+        'lite' => false,
     ],
     'issue-529-B' => [
         'Mozilla/5.0 (Linux;Android 4.4.2; SM - T531 Build/KOT-49H) AppleWebKit/537.36(KHTML,like Gecko) Chrome/39.0.2171.93 Safari/537.36',
@@ -66,5 +67,6 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
+        'lite' => false,
     ],
 ];

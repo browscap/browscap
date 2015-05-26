@@ -43,7 +43,6 @@ class DataCollectionTest extends \PHPUnit_Framework_TestCase
     /**
      * Sets up the fixture, for example, open a network connection.
      * This method is called before a test is executed.
-     *
      */
     public function setUp()
     {
@@ -51,17 +50,17 @@ class DataCollectionTest extends \PHPUnit_Framework_TestCase
         $this->object = new DataCollection('1234');
     }
 
-    public function getPlatformsJsonFixture()
+    private function getPlatformsJsonFixture()
     {
         return __DIR__ . '/../../fixtures/platforms/platforms.json';
     }
 
-    public function getEngineJsonFixture()
+    private function getEngineJsonFixture()
     {
         return __DIR__ . '/../../fixtures/engines/engines.json';
     }
 
-    public function getDevicesJsonFixture()
+    private function getDevicesJsonFixture()
     {
         return __DIR__ . '/../../fixtures/devices/devices.json';
     }
@@ -79,6 +78,9 @@ class DataCollectionTest extends \PHPUnit_Framework_TestCase
 
     /**
      * tests the setter and the getter for a logger
+     *
+     * @group data
+     * @group sourcetest
      */
     public function testSetGetLogger()
     {
@@ -91,6 +93,9 @@ class DataCollectionTest extends \PHPUnit_Framework_TestCase
     /**
      * @expectedException \RuntimeException
      * @expectedExceptionMessage File "/hopefully/this/file/does/not/exist" does not exist
+     *
+     * @group data
+     * @group sourcetest
      */
     public function testAddPlatformsFileThrowsExceptionIfFileDoesNotExist()
     {
@@ -99,6 +104,12 @@ class DataCollectionTest extends \PHPUnit_Framework_TestCase
         $this->object->addPlatformsFile($file);
     }
 
+    /**
+     * tests if a specific exception is thrown in case of error while adding a platform json file
+     *
+     * @group data
+     * @group sourcetest
+     */
     public function testAddPlatformsFileThrowsExceptionIfFileContainsInvalidJson()
     {
         $tmpfile = tempnam(sys_get_temp_dir(), 'browscaptest');
@@ -137,6 +148,9 @@ HERE;
     /**
      * @expectedException \UnexpectedValueException
      * @expectedExceptionMessage required "platforms" structure is missing
+     *
+     * @group data
+     * @group sourcetest
      */
     public function testAddPlatformsFileThrowsExceptionIfFileContainsNoData()
     {
@@ -146,6 +160,9 @@ HERE;
     /**
      * @expectedException \UnexpectedValueException
      * @expectedExceptionMessage required attibute "match" is missing
+     *
+     * @group data
+     * @group sourcetest
      */
     public function testAddPlatformsFileThrowsExceptionIfFileContainsNoMatch()
     {
@@ -155,6 +172,9 @@ HERE;
     /**
      * @expectedException \UnexpectedValueException
      * @expectedExceptionMessage required attibute "properties" is missing
+     *
+     * @group data
+     * @group sourcetest
      */
     public function testAddPlatformsFileThrowsExceptionIfFileContainsNoProperties()
     {
@@ -164,6 +184,9 @@ HERE;
     /**
      * @expectedException \OutOfBoundsException
      * @expectedExceptionMessage Platform "NotExists" does not exist in data
+     *
+     * @group data
+     * @group sourcetest
      */
     public function testGetPlatformThrowsExceptionIfPlatformDoesNotExist()
     {
@@ -176,6 +199,9 @@ HERE;
     /**
      * @expectedException \OutOfBoundsException
      * @expectedExceptionMessage Rendering Engine "NotExists" does not exist in data
+     *
+     * @group data
+     * @group sourcetest
      */
     public function testGetEngineThrowsExceptionIfEngineDoesNotExist()
     {
@@ -184,6 +210,12 @@ HERE;
         $this->object->getEngine('NotExists');
     }
 
+    /**
+     * tests getting an exiting platform
+     *
+     * @group data
+     * @group sourcetest
+     */
     public function testGetPlatform()
     {
         $this->object->addPlatformsFile($this->getPlatformsJsonFixture());
@@ -203,6 +235,9 @@ HERE;
     /**
      * @expectedException \RuntimeException
      * @expectedExceptionMessage File "/hopefully/this/file/does/not/exist" does not exist
+     *
+     * @group data
+     * @group sourcetest
      */
     public function testAddEnginesFileThrowsExceptionIfFileDoesNotExist()
     {
@@ -211,6 +246,12 @@ HERE;
         $this->object->addEnginesFile($file);
     }
 
+    /**
+     * tests if a specific exception is thrown in case of error while adding an engine json file
+     *
+     * @group data
+     * @group sourcetest
+     */
     public function testAddEnginesFileThrowsExceptionIfFileContainsInvalidJson()
     {
         $tmpfile = tempnam(sys_get_temp_dir(), 'browscaptest');
@@ -249,6 +290,9 @@ HERE;
     /**
      * @expectedException \UnexpectedValueException
      * @expectedExceptionMessage required "engines" structure is missing
+     *
+     * @group data
+     * @group sourcetest
      */
     public function testAddEnginesFileThrowsExceptionIfFileContainsNoData()
     {
@@ -258,6 +302,9 @@ HERE;
     /**
      * @expectedException \UnexpectedValueException
      * @expectedExceptionMessage required attibute "properties" is missing
+     *
+     * @group data
+     * @group sourcetest
      */
     public function testAddEnginesFileThrowsExceptionIfFileContainsNoProperties()
     {
@@ -267,6 +314,9 @@ HERE;
     /**
      * @expectedException \OutOfBoundsException
      * @expectedExceptionMessage Device "NotExists" does not exist in data, available devices:
+     *
+     * @group data
+     * @group sourcetest
      */
     public function testGetDeviceThrowsExceptionIfDeviceDoesNotExist()
     {
@@ -278,6 +328,9 @@ HERE;
     /**
      * @expectedException \OutOfBoundsException
      * @expectedExceptionMessage Rendering Engine "NotExists" does not exist in data
+     *
+     * @group data
+     * @group sourcetest
      */
     public function testGetEngineThrowsExceptionIfPlatformDoesNotExist()
     {
@@ -287,6 +340,12 @@ HERE;
         $this->object->getEngine('NotExists');
     }
 
+    /**
+     * tests getting an existing engine
+     *
+     * @group data
+     * @group sourcetest
+     */
     public function testGetEngine()
     {
         $this->object->addEnginesFile($this->getEngineJsonFixture());
@@ -302,11 +361,23 @@ HERE;
         self::assertSame('Foobar', $properties['RenderingEngine_Name']);
     }
 
+    /**
+     * tests getting the version
+     *
+     * @group data
+     * @group sourcetest
+     */
     public function testGetVersion()
     {
         self::assertSame('1234', $this->object->getVersion());
     }
 
+    /**
+     * tests getting the generation date
+     *
+     * @group data
+     * @group sourcetest
+     */
     public function testGetGenerationDate()
     {
         // Time isn't always exact, so allow a few seconds grace either way...
@@ -328,6 +399,9 @@ HERE;
      *
      * @expectedException \UnexpectedValueException
      * @expectedExceptionMessage Division "UA2" is defined twice
+     *
+     * @group data
+     * @group sourcetest
      */
     public function testAddSourceFileFail()
     {
@@ -340,6 +414,9 @@ HERE;
 
     /**
      * checks if a source file is added successful
+     *
+     * @group data
+     * @group sourcetest
      */
     public function testAddSourceFileOk()
     {
@@ -354,6 +431,9 @@ HERE;
 
     /**
      * checks if a source file is added successful
+     *
+     * @group data
+     * @group sourcetest
      */
     public function testAddSourceFileOkWithLiteAndVersions()
     {
@@ -369,6 +449,9 @@ HERE;
     /**
      * @expectedException \RuntimeException
      * @expectedExceptionMessage File "/hopefully/this/file/does/not/exist" does not exist
+     *
+     * @group data
+     * @group sourcetest
      */
     public function testAddSourceFileThrowsExceptionIfFileDoesNotExist()
     {
@@ -379,6 +462,9 @@ HERE;
 
     /**
      * checks if a exception is thrown if the source file had invalid json content
+     *
+     * @group data
+     * @group sourcetest
      */
     public function testAddSourceFileThrowsExceptionIfFileContainsInvalidJson()
     {
@@ -420,6 +506,9 @@ HERE;
      *
      * @expectedException \RuntimeException
      * @expectedExceptionMessage required attibute "division" is missing
+     *
+     * @group data
+     * @group sourcetest
      */
     public function testAddSourceFileThrowsExceptionIfNoDivisionIsAvailable()
     {
@@ -431,6 +520,9 @@ HERE;
      *
      * @expectedException \RuntimeException
      * @expectedExceptionMessage required attibute "sortIndex" is missing
+     *
+     * @group data
+     * @group sourcetest
      */
     public function testAddSourceFileThrowsExceptionIfNoSortIndexIsAvailable()
     {
@@ -442,6 +534,9 @@ HERE;
      *
      * @expectedException \RuntimeException
      * @expectedExceptionMessage required attibute "lite" is missing
+     *
+     * @group data
+     * @group sourcetest
      */
     public function testAddSourceFileThrowsExceptionIfNoLitePropertyIsAvailable()
     {
@@ -453,6 +548,9 @@ HERE;
      *
      * @expectedException \RuntimeException
      * @expectedExceptionMessage the properties entry has to be an array for key "UA1"
+     *
+     * @group data
+     * @group sourcetest
      */
     public function testAddSourceFileThrowsExceptionIfNoPropertiesAreAvailable()
     {
@@ -464,6 +562,9 @@ HERE;
      *
      * @expectedException \UnexpectedValueException
      * @expectedExceptionMessage the "Parent" property is missing for key "UA1"
+     *
+     * @group data
+     * @group sourcetest
      */
     public function testAddSourceFileThrowsExceptionIfNoParentPropertyIsAvailable()
     {
@@ -475,6 +576,9 @@ HERE;
      *
      * @expectedException \UnexpectedValueException
      * @expectedExceptionMessage the "Comment" property is missing for key "UA1"
+     *
+     * @group data
+     * @group sourcetest
      */
     public function testAddSourceFileThrowsExceptionIfNoCommentPropertyIsAvailable()
     {
@@ -486,6 +590,9 @@ HERE;
      *
      * @expectedException \LogicException
      * @expectedExceptionMessage the properties array contains platform data for key "UA1", please use the "platform" keyword
+     *
+     * @group data
+     * @group sourcetest
      */
     public function testAddSourceFileThrowsExceptionIfPropertiesIncludePlatformData()
     {
@@ -497,6 +604,9 @@ HERE;
      *
      * @expectedException \LogicException
      * @expectedExceptionMessage the properties array contains engine data for key "UA1", please use the "engine" keyword
+     *
+     * @group data
+     * @group sourcetest
      */
     public function testAddSourceFileThrowsExceptionIfPropertiesIncludeEngineData()
     {
@@ -508,6 +618,9 @@ HERE;
      *
      * @expectedException \UnexpectedValueException
      * @expectedExceptionMessage the children property shall not have the "match" entry for key "UA1"
+     *
+     * @group data
+     * @group sourcetest
      */
     public function testAddSourceFileThrowsExceptionIfChildrenIsNotAnArray()
     {
@@ -519,6 +632,9 @@ HERE;
      *
      * @expectedException \UnexpectedValueException
      * @expectedExceptionMessage each entry of the children property has to be an array for key "UA1"
+     *
+     * @group data
+     * @group sourcetest
      */
     public function testAddSourceFileThrowsExceptionIfChildrenHaveMatchProperty()
     {
@@ -530,6 +646,9 @@ HERE;
      *
      * @expectedException \UnexpectedValueException
      * @expectedExceptionMessage each entry of the children property requires an "match" entry for key "UA1"
+     *
+     * @group data
+     * @group sourcetest
      */
     public function testAddSourceFileThrowsExceptionIfChildrenDoesNotHaveMatchKeyword()
     {
@@ -541,6 +660,9 @@ HERE;
      *
      * @expectedException \UnexpectedValueException
      * @expectedExceptionMessage the properties entry has to be an array for key "cde"
+     *
+     * @group data
+     * @group sourcetest
      */
     public function testAddSourceFileThrowsExceptionIfChildrenPropertiesAreNotArrays()
     {
@@ -552,6 +674,9 @@ HERE;
      *
      * @expectedException \UnexpectedValueException
      * @expectedExceptionMessage the Parent property must not set inside the children array for key "cde"
+     *
+     * @group data
+     * @group sourcetest
      */
     public function testAddSourceFileThrowsExceptionIfChildrenHasParentProperty()
     {
@@ -563,6 +688,9 @@ HERE;
      *
      * @expectedException \LogicException
      * @expectedExceptionMessage the properties array contains platform data for key "cde", please use the "platforms" keyword
+     *
+     * @group data
+     * @group sourcetest
      */
     public function testAddSourceFileThrowsExceptionIfChildrenHasPlatformProperties()
     {
@@ -574,6 +702,9 @@ HERE;
      *
      * @expectedException \LogicException
      * @expectedExceptionMessage the properties array contains engine data for key "cde", please use the "engine" keyword
+     *
+     * @group data
+     * @group sourcetest
      */
     public function testAddSourceFileThrowsExceptionIfChildrenHasEngineProperties()
     {
@@ -582,6 +713,9 @@ HERE;
 
     /**
      * checks if the default properties are added sucessfully
+     *
+     * @group data
+     * @group sourcetest
      */
     public function testAddDefaultProperties()
     {
@@ -598,6 +732,9 @@ HERE;
 
     /**
      * checks if the default browser is added sucessfully
+     *
+     * @group data
+     * @group sourcetest
      */
     public function testAddDefaultBrowser()
     {
@@ -615,6 +752,9 @@ HERE;
     /**
      * @expectedException \UnexpectedValueException
      * @expectedExceptionMessage Version property not found for key "test"
+     *
+     * @group data
+     * @group sourcetest
      */
     public function testCheckPropertyWithoutVersion()
     {
@@ -627,6 +767,9 @@ HERE;
     /**
      * @expectedException \UnexpectedValueException
      * @expectedExceptionMessage Parent property is missing for key "test"
+     *
+     * @group data
+     * @group sourcetest
      */
     public function testCheckPropertyWithoutParent()
     {
@@ -642,6 +785,9 @@ HERE;
     /**
      * @expectedException \UnexpectedValueException
      * @expectedExceptionMessage property "Device_Type" is missing for key "test"
+     *
+     * @group data
+     * @group sourcetest
      */
     public function testCheckPropertyWithoutDeviceType()
     {
@@ -658,6 +804,9 @@ HERE;
     /**
      * @expectedException \UnexpectedValueException
      * @expectedExceptionMessage property "isTablet" is missing for key "test"
+     *
+     * @group data
+     * @group sourcetest
      */
     public function testCheckPropertyWithoutIsTablet()
     {
@@ -675,6 +824,9 @@ HERE;
     /**
      * @expectedException \UnexpectedValueException
      * @expectedExceptionMessage property "isMobileDevice" is missing for key "test"
+     *
+     * @group data
+     * @group sourcetest
      */
     public function testCheckPropertyWithoutIsMobileDevice()
     {
@@ -690,6 +842,12 @@ HERE;
         $this->object->checkProperty('test', $properties);
     }
 
+    /**
+     * tests if no error is raised if all went well
+     *
+     * @group data
+     * @group sourcetest
+     */
     public function testCheckPropertyOk()
     {
         $this->object->setLogger($this->logger);

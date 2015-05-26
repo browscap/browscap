@@ -55,8 +55,7 @@ class FullPhpWriterFactory
             ->setFormatter($formatter->setFilter($fullFilter))
             ->setFilter($fullFilter)
         ;
-        $writerCollection->addWriter($fullPhpWriter);
 
-        return $writerCollection;
+        return $writerCollection->addWriter($fullPhpWriter);
     }
 }

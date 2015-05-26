@@ -39,7 +39,6 @@ class FullPhpWriterFactoryTest extends \PHPUnit_Framework_TestCase
     /**
      * Sets up the fixture, for example, open a network connection.
      * This method is called before a test is executed.
-     *
      */
     public function setUp()
     {
@@ -48,6 +47,12 @@ class FullPhpWriterFactoryTest extends \PHPUnit_Framework_TestCase
         $this->object = new FullPhpWriterFactory();
     }
 
+    /**
+     * tests creating a writer collection
+     *
+     * @group writer
+     * @group sourcetest
+     */
     public function testCreateCollection()
     {
         $mockLogger = $this->getMock('\Monolog\Logger', array(), array(), '', false);
