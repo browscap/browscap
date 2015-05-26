@@ -10,6 +10,7 @@
         "Browser": "Fake Safari",
         "Comment": "Fake Safari",
         "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "unknown",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",

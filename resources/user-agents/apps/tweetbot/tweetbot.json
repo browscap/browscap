@@ -1,34 +1,35 @@
 {
-  "division": "Reeder",
-  "sortIndex": 9910,
+  "division": "Tweetbot",
+  "sortIndex": 10850,
   "lite": false,
   "userAgents": [
     {
-      "userAgent": "Reeder",
+      "userAgent": "Tweetbot",
       "platform": "Darwin",
       "engine": "WebKit",
       "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Reeder",
-        "Browser": "Reeder",
-        "Browser_Type": "Application",
+        "Comment": "Tweetbot is a full-featured Twitter app",
         "Alpha": "false",
         "Beta": "false",
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
-        "Frames": "false",
-        "IFrames": "false",
-        "Tables": "false",
         "Cookies": "false",
         "JavaScript": "false",
         "isSyndicationReader": "false",
+        "Browser": "Tweetbot",
+        "Browser_Type": "Application",
+        "Browser_Maker": "Tapbots, LLC",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
         "Crawler": "false"
       },
       "children": [
         {
-          "match": "Reeder\/* CFNetwork\/#PLATFORM#",
+          "match": "Tweetbot\/* CFNetwork\/#PLATFORM#",
           "platforms": [
             "Darwin"
           ]

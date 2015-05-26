@@ -28,6 +28,7 @@ return [
             'RenderingEngine_Version' => '4.11',
             'RenderingEngine_Maker' => 'KDE',
         ],
+        'lite' => false,
     ],
     'issue-295-B' => [
         'Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.1.16) Gecko Kazehakase/0.5.8 Debian/0.5.8-4',
@@ -56,6 +57,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
+        'lite' => false,
     ],
     'issue-295-C' => [
         'Mozilla/5.0 (X11; Linux i686) KHTML/4.9.5 (like Gecko) Konqueror/4.9',
@@ -84,6 +86,7 @@ return [
             'RenderingEngine_Version' => '4.9',
             'RenderingEngine_Maker' => 'KDE',
         ],
+        'lite' => false,
     ],
     'issue-295-D' => [
         'Mozilla/5.0 (X11; Linux x86_64) KHTML/4.8.4 (like Gecko) Konqueror/4.8',
@@ -112,6 +115,7 @@ return [
             'RenderingEngine_Version' => '4.8',
             'RenderingEngine_Maker' => 'KDE',
         ],
+        'lite' => false,
     ],
     'issue-295-E' => [
         'Links (2.8; Linux 3.10.17 x86_64; GNU C 4.8.1; text)',
@@ -140,6 +144,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-295-F' => [
         'Mozilla/5.0 (Linux; U; Android 4.4.2; en-gb; HTC_One Build/KOT49H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
@@ -196,6 +201,7 @@ return [
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
+        'lite' => false,
     ],
     'issue-295-I' => [
         'Mozilla/5.0 (Windows NT 6.1; U;WOW64; de;rv:11.0) Gecko Firefox/11.0',
@@ -224,6 +230,7 @@ return [
             'RenderingEngine_Version' => '11.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
+        'lite' => false,
     ],
     'issue-295-K' => [
         'Mozilla/4.0 (compatible; Opera/3.0; Windows 4.10) 3.51 [en]',
@@ -252,6 +259,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-295-L' => [
         '"Mozilla/4.0 (compatible; MSIE 6.0; Windows 98; Win 9x 4.90)"',
@@ -280,6 +288,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
     'issue-295-M' => [
         '"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:11.0) Gecko Firefox/11.0',
@@ -308,5 +317,6 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
+        'lite' => false,
     ],
 ];

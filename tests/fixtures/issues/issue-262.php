@@ -13,5 +13,6 @@ return [
             'MinorVer' => '0',
             'Crawler' => true,
         ],
+        'lite' => false,
     ],
 ];

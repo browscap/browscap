@@ -69,6 +69,7 @@
     },
     {
       "userAgent": "Firefox #MAJORVER#.#MINORVER# for Android",
+      "platform": "Android",
       "engine": "Gecko_2_2",
       "device": "general Mobile Phone (Touch)",
       "properties": {

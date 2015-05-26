@@ -50,35 +50,71 @@ class BuildCustomFileGeneratorTest extends \PHPUnit_Framework_TestCase
         $this->messages = array();
     }
 
+    /**
+     * tests failing the build without parameters
+     *
+     * @group generator
+     * @group sourcetest
+     */
     public function testConstructFailsWithoutParameters()
     {
         $this->setExpectedException('\Exception', 'You must specify a resource folder');
         new BuildCustomFileGenerator(null, null);
     }
 
+    /**
+     * tests failing the build without build dir
+     *
+     * @group generator
+     * @group sourcetest
+     */
     public function testConstructFailsWithoutTheSecondParameter()
     {
         $this->setExpectedException('\Exception', 'You must specify a build folder');
         new BuildCustomFileGenerator('.', null);
     }
 
+    /**
+     * tests failing the build if the build dir does not exist
+     *
+     * @group generator
+     * @group sourcetest
+     */
     public function testConstructFailsIfTheDirDoesNotExsist()
     {
         $this->setExpectedException('\Exception', 'The directory "/dar" does not exist, or we cannot access it');
         new BuildCustomFileGenerator('/dar', null);
     }
 
+    /**
+     * tests failing the build if no build dir is a file
+     *
+     * @group generator
+     * @group sourcetest
+     */
     public function testConstructFailsIfTheDirIsNotAnDirectory()
     {
         $this->setExpectedException('\Exception', 'The path "' . __FILE__ . '" did not resolve to a directory');
         new BuildCustomFileGenerator(__FILE__, null);
     }
 
+    /**
+     * tests creating a generator instance
+     *
+     * @group generator
+     * @group sourcetest
+     */
     public function testConstructPassesIfAllDirsExist()
     {
         new BuildCustomFileGenerator('.', '.');
     }
 
+    /**
+     * tests setting and getting a logger
+     *
+     * @group generator
+     * @group sourcetest
+     */
     public function testSetLogger()
     {
         $mock = $this->getMock('\Monolog\Logger', array(), array(), '', false);
@@ -93,6 +129,12 @@ class BuildCustomFileGeneratorTest extends \PHPUnit_Framework_TestCase
         self::assertSame($mock, $generator->getLogger());
     }
 
+    /**
+     * tests running a build
+     *
+     * @group generator
+     * @group sourcetest
+     */
     public function testBuild()
     {
         $mockDivision = $this->getMock(

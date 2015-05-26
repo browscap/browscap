@@ -49,50 +49,14 @@ class BuildCustomFileGenerator extends AbstractBuildGenerator
     /**@-*/
 
     /**
-     * @return \Browscap\Helper\CollectionCreator
-     */
-    public function getCollectionCreator()
-    {
-        if (null === $this->collectionCreator) {
-            $this->collectionCreator = new CollectionCreator();
-        }
-
-        return $this->collectionCreator;
-    }
-
-    /**
-     * @param string|null $file
-     * @param array       $fields
-     * @param string      $format
-     *
-     * @return \Browscap\Writer\WriterCollection
-     */
-    public function getWriterCollection(
-        $file = null,
-        $fields = array(),
-        $format = self::OUTPUT_FORMAT_PHP
-    ) {
-        if (null === $this->writerCollection) {
-            $factory = new Writer\Factory\CustomWriterFactory();
-            $this->writerCollection = $factory->createCollection(
-                $this->getLogger(),
-                $this->buildFolder,
-                $file,
-                $fields,
-                $format
-            );
-        }
-
-        return $this->writerCollection;
-    }
-
-    /**
      * Entry point for generating builds for a specified version
      *
      * @param string      $version
      * @param array       $fields
      * @param string|null $file
      * @param string      $format
+     *
+     * @return \Browscap\Generator\BuildCustomFileGenerator
      */
     public function run(
         $version,
@@ -100,19 +64,61 @@ class BuildCustomFileGenerator extends AbstractBuildGenerator
         $file = null,
         $format = self::OUTPUT_FORMAT_PHP
     ) {
-        $this->getLogger()->info('Resource folder: ' . $this->resourceFolder . '');
-        $this->getLogger()->info('Build folder: ' . $this->buildFolder . '');
+        return $this
+            ->preBuild($fields, $file, $format)
+            ->build($version)
+            ->postBuild()
+        ;
+    }
+
+    /**
+     * runs before the build
+     *
+     * @param array       $fields
+     * @param string|null $file
+     * @param string      $format
+     *
+     * @return \Browscap\Generator\BuildCustomFileGenerator
+     */
+    protected function preBuild(
+        $fields = array(),
+        $file = null,
+        $format = self::OUTPUT_FORMAT_PHP
+    ) {
+        parent::preBuild();
 
         $this->getLogger()->info('started creating the custom output file');
 
-        Helper\BuildHelper::run(
-            $version,
-            $this->resourceFolder,
-            $this->getLogger(),
-            $this->getWriterCollection($file, $fields, $format),
-            $this->getCollectionCreator()
-        );
+        if (null === $this->collectionCreator) {
+            $this->setCollectionCreator(new CollectionCreator());
+        }
 
+        if (null === $this->writerCollection) {
+            $factory = new Writer\Factory\CustomWriterFactory();
+
+            $this->setWriterCollection(
+                $factory->createCollection(
+                    $this->getLogger(),
+                    $this->buildFolder,
+                    $file,
+                    $fields,
+                    $format
+                )
+            );
+        }
+
+        return $this;
+    }
+
+    /**
+     * runs after the build
+     *
+     * @return \Browscap\Generator\BuildCustomFileGenerator
+     */
+    protected function postBuild()
+    {
         $this->getLogger()->info('finished creating the custom output file');
+
+        return $this;
     }
 }

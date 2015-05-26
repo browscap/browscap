@@ -50,35 +50,71 @@ class BuildGeneratorTest extends \PHPUnit_Framework_TestCase
         $this->messages = array();
     }
 
+    /**
+     * tests failing the build without parameters
+     *
+     * @group generator
+     * @group sourcetest
+     */
     public function testConstructFailsWithoutParameters()
     {
         $this->setExpectedException('\Exception', 'You must specify a resource folder');
         new BuildGenerator(null, null);
     }
 
+    /**
+     * tests failing the build without build dir
+     *
+     * @group generator
+     * @group sourcetest
+     */
     public function testConstructFailsWithoutTheSecondParameter()
     {
         $this->setExpectedException('\Exception', 'You must specify a build folder');
         new BuildGenerator('.', null);
     }
 
+    /**
+     * tests failing the build if the build dir does not exist
+     *
+     * @group generator
+     * @group sourcetest
+     */
     public function testConstructFailsIfTheDirDoesNotExsist()
     {
         $this->setExpectedException('\Exception', 'The directory "/dar" does not exist, or we cannot access it');
         new BuildGenerator('/dar', null);
     }
 
+    /**
+     * tests failing the build if no build dir is a file
+     *
+     * @group generator
+     * @group sourcetest
+     */
     public function testConstructFailsIfTheDirIsNotAnDirectory()
     {
         $this->setExpectedException('\Exception', 'The path "' . __FILE__ . '" did not resolve to a directory');
         new BuildGenerator(__FILE__, null);
     }
 
+    /**
+     * tests creating a generator instance
+     *
+     * @group generator
+     * @group sourcetest
+     */
     public function testConstructPassesIfAllDirsExist()
     {
         new BuildGenerator('.', '.');
     }
 
+    /**
+     * tests setting and getting a logger
+     *
+     * @group generator
+     * @group sourcetest
+     */
     public function testSetLogger()
     {
         $mock = $this->getMock('\Monolog\Logger', array(), array(), '', false);
@@ -88,6 +124,12 @@ class BuildGeneratorTest extends \PHPUnit_Framework_TestCase
         self::assertSame($mock, $generator->getLogger());
     }
 
+    /**
+     * tests setting a collection creator
+     *
+     * @group generator
+     * @group sourcetest
+     */
     public function testSetCollectionCreator()
     {
         $mock = $this->getMock('\Browscap\Helper\CollectionCreator', array(), array(), '', false);
@@ -96,6 +138,12 @@ class BuildGeneratorTest extends \PHPUnit_Framework_TestCase
         self::assertSame($generator, $generator->setCollectionCreator($mock));
     }
 
+    /**
+     * tests running a build
+     *
+     * @group generator
+     * @group sourcetest
+     */
     public function testBuild()
     {
         $mockDivision = $this->getMock(
@@ -215,6 +263,12 @@ class BuildGeneratorTest extends \PHPUnit_Framework_TestCase
         $generator->run('test');
     }
 
+    /**
+     * tests running a build without generating a zip file
+     *
+     * @group generator
+     * @group sourcetest
+     */
     public function testBuildWithoutZip()
     {
         $mockDivision = $this->getMock(

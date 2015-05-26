@@ -1,0 +1,32 @@
+{
+  "division": "Yahoo Messenger",
+  "sortIndex": 1310,
+  "lite": false,
+  "userAgents": [
+    {
+      "userAgent": "Yahoo Messenger",
+      "platform": "Darwin",
+      "engine": "WebKit",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Yahoo Messenger",
+        "Browser": "Yahoo Messenger",
+        "Browser_Type": "Application",
+        "Browser_Maker": "Yahoo!",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "false"
+      },
+      "children": [
+        {
+          "match": "Y!%20Messenger\/* CFNetwork\/#PLATFORM#",
+          "platforms": [
+            "Darwin"
+          ]
+        }
+      ]
+    }
+  ]
+}

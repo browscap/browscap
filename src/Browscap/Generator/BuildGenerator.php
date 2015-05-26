@@ -34,22 +34,29 @@ class BuildGenerator extends AbstractBuildGenerator
      *
      * @param string  $version
      * @param boolean $createZipFile
+     *
+     * @return \Browscap\Generator\BuildGenerator
      */
     public function run($version, $createZipFile = true)
     {
-        $this->getLogger()->info('Resource folder: ' . $this->resourceFolder . '');
-        $this->getLogger()->info('Build folder: ' . $this->buildFolder . '');
+        return $this
+            ->preBuild()
+            ->build($version)
+            ->postBuild($createZipFile)
+        ;
+    }
 
-        Helper\BuildHelper::run(
-            $version,
-            $this->resourceFolder,
-            $this->getLogger(),
-            $this->getWriterCollection(),
-            $this->getCollectionCreator()
-        );
-
+    /**
+     * runs after the build
+     *
+     * @param boolean $createZipFile
+     *
+     * @return \Browscap\Generator\BuildGenerator
+     */
+    protected function postBuild($createZipFile = true)
+    {
         if (!$createZipFile) {
-            return;
+            return $this;
         }
 
         $this->getLogger()->info('started creating the zip archive');
@@ -70,5 +77,7 @@ class BuildGenerator extends AbstractBuildGenerator
         $zip->close();
 
         $this->getLogger()->info('finished creating the zip archive');
+
+        return $this;
     }
 }

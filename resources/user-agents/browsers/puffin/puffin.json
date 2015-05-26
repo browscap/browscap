@@ -76,6 +76,14 @@
         },
         {
           "match": "Puffin%20Free\/* CFNetwork\/#PLATFORM#",
+          "device": "general Mobile Device (Apple)",
+          "platforms": [
+            "Darwin"
+          ]
+        },
+        {
+          "match": "Puffin\/* CFNetwork\/#PLATFORM#",
+          "device": "general Mobile Device (Apple)",
           "platforms": [
             "Darwin"
           ]

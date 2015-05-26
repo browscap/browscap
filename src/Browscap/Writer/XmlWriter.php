@@ -58,6 +58,11 @@ class XmlWriter implements WriterInterface
     private $silent = false;
 
     /**
+     * @var array
+     */
+    private $outputProperties = array();
+
+    /**
      * @param string $file
      */
     public function __construct($file)
@@ -132,7 +137,8 @@ class XmlWriter implements WriterInterface
      */
     public function setFilter(FilterInterface $filter)
     {
-        $this->type = $filter;
+        $this->type             = $filter;
+        $this->outputProperties = array();
 
         return $this;
     }
@@ -328,7 +334,15 @@ class XmlWriter implements WriterInterface
         $properties        = array_merge(array('Parent'), array_keys($defaultproperties));
 
         foreach ($properties as $property) {
-            if (!isset($section[$property]) || !$this->getFilter()->isOutputProperty($property, $this)) {
+            if (!isset($section[$property])) {
+                continue;
+            }
+
+            if (!isset($this->outputProperties[$property])) {
+                $this->outputProperties[$property] = $this->getFilter()->isOutputProperty($property, $this);
+            }
+
+            if (!$this->outputProperties[$property]) {
                 continue;
             }
 

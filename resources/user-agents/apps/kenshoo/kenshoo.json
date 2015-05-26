@@ -1,0 +1,41 @@
+{
+  "division": "Kenshoo",
+  "sortIndex": 1049,
+  "lite": false,
+  "userAgents": [
+    {
+      "userAgent": "Kenshoo",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser_Maker": "Kenshoo, Ltd.",
+        "Browser_Type": "Application",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "false",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "Comment": "Kenshoo",
+        "Browser": "Kenshoo"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Chrome\/*Safari\/* Kenshoo\/*",
+          "device": "Windows Desktop",
+          "engine": "Blink",
+          "platforms": [
+            "Win7_64", "Win7_32", "Win8_64", "Win8_32", "Win8_1_64", "Win8_1_32"
+          ]
+        },
+        {
+          "match": "Kenshoo\/* CFNetwork\/#PLATFORM#",
+          "device": "Macintosh",
+          "engine": "WebKit",
+          "platforms": [
+            "Darwin"
+          ]
+        }
+      ]
+    }
+  ]
+}

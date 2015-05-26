@@ -36,18 +36,29 @@ class XmlFormatterTest extends \PHPUnit_Framework_TestCase
     /**
      * Sets up the fixture, for example, open a network connection.
      * This method is called before a test is executed.
-     *
      */
     public function setUp()
     {
         $this->object = new XmlFormatter();
     }
 
+    /**
+     * tests getter for the formatter type
+     *
+     * @group formatter
+     * @group sourcetest
+     */
     public function testGetType()
     {
         self::assertSame('xml', $this->object->getType());
     }
 
+    /**
+     * tests setter and getter for the filter
+     *
+     * @group formatter
+     * @group sourcetest
+     */
     public function testSetGetFilter()
     {
         $mockFilter = $this->getMock('\Browscap\Filter\StandardFilter', array(), array(), '', false);
@@ -56,6 +67,12 @@ class XmlFormatterTest extends \PHPUnit_Framework_TestCase
         self::assertSame($mockFilter, $this->object->getFilter());
     }
 
+    /**
+     * tests formatting a property name
+     *
+     * @group formatter
+     * @group sourcetest
+     */
     public function testFormatPropertyName()
     {
         self::assertSame('text', $this->object->formatPropertyName('text'));
@@ -109,11 +126,16 @@ class XmlFormatterTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
+     * tests formatting a property value
+     *
      * @dataProvider propertyNameTypeDataProvider
      *
      * @param string $propertyName
      * @param string $inputValue
      * @param string $expectedValue
+     *
+     * @group formatter
+     * @group sourcetest
      */
     public function testFormatPropertyValue($propertyName, $inputValue, $expectedValue)
     {

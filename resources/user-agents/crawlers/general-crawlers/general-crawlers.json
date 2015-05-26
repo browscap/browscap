@@ -20,12 +20,6 @@
           }
         },
         {
-          "match": "*Spinn3r*http:\/\/spinn3r.com\/robot*",
-          "properties": {
-            "Browser": "Spinn3r"
-          }
-        },
-        {
           "match": "*SqwidgeBot*",
           "properties": {
             "Browser": "SqwidgeBot"

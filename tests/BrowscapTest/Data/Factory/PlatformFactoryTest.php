@@ -36,13 +36,18 @@ class PlatformFactoryTest extends \PHPUnit_Framework_TestCase
     /**
      * Sets up the fixture, for example, open a network connection.
      * This method is called before a test is executed.
-     *
      */
     public function setUp()
     {
         $this->object = new PlatformFactory();
     }
 
+    /**
+     * tests the creating of an platform factory
+     *
+     * @group data
+     * @group sourcetest
+     */
     public function testBuild()
     {
         $platformData = array('abc' => 'def', 'match' => 'test*');

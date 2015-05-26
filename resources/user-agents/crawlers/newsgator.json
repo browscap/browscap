@@ -21,12 +21,6 @@
           }
         },
         {
-          "match": "NewsFire\/*",
-          "properties": {
-            "Browser": "NewsFire"
-          }
-        },
-        {
           "match": "NewsGator FetchLinks extension\/*",
           "properties": {
             "Browser": "NewsGator FetchLinks"
