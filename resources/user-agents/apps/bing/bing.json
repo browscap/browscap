@@ -1,0 +1,43 @@
+{
+  "division": "Bing",
+  "sortIndex": 1130,
+  "lite": false,
+  "userAgents": [
+    {
+      "userAgent": "Bing",
+      "platform": "Darwin",
+      "engine": "WebKit",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser_Type": "Application",
+        "Browser_Maker": "Microsoft Corporation",
+        "Comment": "Bing",
+        "Browser": "Bing",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "false"
+      },
+      "children": [
+        {
+          "match": "Bing\/2.2* CFNetwork\/#PLATFORM#",
+          "properties": {
+            "Version": "2.2",
+            "MajorVer": "2",
+            "MinorVer": "2"
+          },
+          "platforms": [
+            "Darwin"
+          ]
+        },
+        {
+          "match": "Bing\/* CFNetwork\/#PLATFORM#",
+          "platforms": [
+            "Darwin"
+          ]
+        }
+      ]
+    }
+  ]
+}
