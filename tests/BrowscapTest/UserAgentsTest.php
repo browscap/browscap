@@ -87,7 +87,7 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
 
         $buildGenerator->run('test', false);
 
-        $cache = new File(self::$buildFolder);
+        $cache = new File(array(File::DIR => self::$buildFolder));
         // Now, load an INI file into BrowscapPHP\Browscap for testing the UAs
         self::$browscap = new Browscap();
         self::$browscap
