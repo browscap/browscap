@@ -1272,6 +1272,18 @@
         "isTablet": "false"
       }
     },
+    "Sony C6902": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "C6902",
+        "Device_Name": "Xperia Z1",
+        "Device_Maker": "Sony",
+        "Device_Brand_Name": "Sony",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Sony C2105": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -15156,6 +15168,18 @@
         "isTablet": "false"
       }
     },
+    "Huawei G527-U081": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "G527-U081",
+        "Device_Name": "Ascend G527",
+        "Device_Maker": "Huawei",
+        "Device_Brand_Name": "Huawei",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Huawei Y530-U00": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -18334,6 +18358,18 @@
         "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
+      }
+    },
+    "Micromax A116": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A116",
+        "Device_Name": "Canvas HD",
+        "Device_Maker": "Micromax",
+        "Device_Brand_Name": "Micromax",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
       }
     },
     "Micromax A120": {
@@ -21963,8 +21999,32 @@
     "Xiaomi HM NOTE 1LTETD": {
       "properties": {
         "Device_Type": "Mobile Phone",
-        "Device_Name": "HM NOTE 1LTETD",
-        "Device_Code_Name": "HM NOTE 1LTETD",
+        "Device_Name": "HM NOTE 1LTE TD",
+        "Device_Code_Name": "HM NOTE 1LTE TD",
+        "Device_Maker": "Xiaomi Tech",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Xiaomi",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Xiaomi HM NOTE 1LTEEW": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "HM NOTE 1LTE EW",
+        "Device_Code_Name": "HM NOTE 1LTE EW",
+        "Device_Maker": "Xiaomi Tech",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Xiaomi",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Xiaomi HM NOTE 1LTE": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "HM NOTE 1LTE",
+        "Device_Code_Name": "HM NOTE 1LTE",
         "Device_Maker": "Xiaomi Tech",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Xiaomi",
@@ -24156,6 +24216,18 @@
         "isTablet": "false"
       }
     },
+    "ThL W8": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "W8 Beyond",
+        "Device_Code_Name": "W8",
+        "Device_Maker": "ThL",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "ThL",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "ThL W100": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -24814,6 +24886,18 @@
         "Device_Pointing_Method": "unknown",
         "isMobileDevice": "false",
         "isTablet": "false"
+      }
+    },
+    "M-way MD-948G": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "MD-948G",
+        "Device_Code_Name": "MD-948G",
+        "Device_Maker": "M-way",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "M-way",
+        "isMobileDevice": "true",
+        "isTablet": "true"
       }
     }
   }
