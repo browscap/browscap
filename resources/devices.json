@@ -7380,6 +7380,18 @@
         "isTablet": "false"
       }
     },
+    "Samsung SCL24": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SCL24",
+        "Device_Name": "Galaxy Note Edge",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Garmin-Asus A50": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -14220,6 +14232,18 @@
         "isTablet": "false"
       }
     },
+    "LG F200K": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "F200K",
+        "Device_Name": "F200K",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "1 & 1 Smartpad": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -20916,6 +20940,18 @@
         "isTablet": "false"
       }
     },
+    "Cube U51GT": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "U51GT",
+        "Device_Name": "Talk 7",
+        "Device_Maker": "Cube",
+        "Device_Brand_Name": "Cube",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "ZOPO ZP900": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -24898,6 +24934,42 @@
         "Device_Brand_Name": "M-way",
         "isMobileDevice": "true",
         "isTablet": "true"
+      }
+    },
+    "iNew V3": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "V3",
+        "Device_Code_Name": "V3",
+        "Device_Maker": "iNew",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "iNew",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Intego PX-0905": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "PX-0905",
+        "Device_Code_Name": "PX-0905",
+        "Device_Maker": "Intego",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Intego",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Master Smartphone 650": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Smartphone 650",
+        "Device_Code_Name": "Smartphone 650",
+        "Device_Maker": "Master",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Master",
+        "isMobileDevice": "true",
+        "isTablet": "false"
       }
     }
   }
