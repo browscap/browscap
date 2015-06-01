@@ -31,7 +31,7 @@
         "source": "https://github.com/browscap/browscap"
     },
     "require": {
-        "php": ">= 5.4.0",
+        "php": ">= 5.5.0",
         "symfony/console": "~2",
         "monolog/monolog": "~1"
     },
