@@ -19884,6 +19884,18 @@
         "isTablet": "true"
       }
     },
+    "Lenovo B6000-H": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "B6000-H",
+        "Device_Name": "Yoga 8 3G",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Lenovo B8000-F": {
       "properties": {
         "Device_Type": "Tablet",
