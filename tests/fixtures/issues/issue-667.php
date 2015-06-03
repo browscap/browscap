@@ -13,7 +13,7 @@ return [
             'MinorVer' => '0',
             'Platform' => 'Win7',
             'Platform_Version' => '6.1',
-            'Platform_Bits' => '32',
+            'Platform_Bits' => '64',
             'Platform_Maker' => 'Microsoft Corporation',
             'isMobileDevice' => false,
             'isTablet' => false,
