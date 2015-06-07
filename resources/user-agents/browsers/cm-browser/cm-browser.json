@@ -47,7 +47,21 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#PMP5785C3G_QUAD Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* ACHEETAHI\/*",
+          "device": "Prestigio PMP5785C3G_QUAD",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#K1 turbo Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Chrome\/*Safari\/* ACHEETAHI\/*",
+          "device": "Kingzone KZ-168",
+          "platforms": [
+            "Android_4_3"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#K1 turbo Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* ACHEETAHI\/*",
           "device": "Kingzone KZ-168",
           "platforms": [
             "Android_4_3"
@@ -61,14 +75,29 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#U51GT Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Chrome\/*Safari\/* ACHEETAHI\/*",
-          "device": "LG F200K",
+          "match": "Mozilla\/5.0 (#PLATFORM#U51GT Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* ACHEETAHI\/*",
+          "device": "Cube U51GT",
           "platforms": [
-            "Android_4_4"
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#W200 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* ACHEETAHI\/*",
+          "device": "ThL W200",
+          "platforms": [
+            "Android_4_2"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/* Chrome\/*Safari\/* ACHEETAHI\/*",
+          "platforms": [
+            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3",
+            "Android_4_4", "Android_5_0",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* ACHEETAHI\/*",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3",
             "Android_4_4", "Android_5_0",

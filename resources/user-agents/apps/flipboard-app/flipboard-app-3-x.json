@@ -40,6 +40,13 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#W200 Build\/*)*AppleWebKit\/*(*KHTML,*like Gecko*)*Version\/*Chrome*Safari* Flipboard\/#MAJORVER#.#MINORVER#*",
+          "device": "ThL W200",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/*(*KHTML,*like Gecko*)*Version\/*Chrome*Safari* Flipboard\/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "Android_4_4", "Android_5_0", "Android"

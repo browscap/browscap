@@ -1,6 +1,6 @@
 {
   "division": "YaBrowser #MAJORVER#.#MINORVER#",
-  "versions": ["14.12", "14.11", "14.10", "14.9", "14.8", "14.7", "14.6", "14.5", "14.4", "14.2", "14.0", "13.12", "13.10", "13.9", "1.20"],
+  "versions": ["15.2", "15.1", 15, "14.12", "14.11", "14.10", "14.9", "14.8", "14.7", "14.6", "14.5", "14.4", "14.2", "14.0", "13.12", "13.10", "13.9", "1.20"],
   "sortIndex": 1018,
   "lite": false,
   "userAgents": [
@@ -202,6 +202,20 @@
           "device": "Sony LT29i",
           "platforms": [
             "Android_4_3"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#MediaPad 10 Link+ Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/* YaBrowser\/#MAJORVER#.#MINORVER#* Safari\/*",
+          "device": "Huawei MediaPad 10+",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#C7 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/* YaBrowser\/#MAJORVER#.#MINORVER#* Safari\/*",
+          "device": "Cubot C7",
+          "platforms": [
+            "Android_4_1"
           ]
         },
         {

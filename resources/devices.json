@@ -15084,6 +15084,18 @@
         "isTablet": "true"
       }
     },
+    "Huawei MediaPad 10+": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "MediaPad 10+",
+        "Device_Name": "MediaPad 10 Link+",
+        "Device_Maker": "Huawei",
+        "Device_Brand_Name": "Huawei",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Huawei MediaPad 7 Classic": {
       "properties": {
         "Device_Type": "Tablet",
@@ -20892,6 +20904,18 @@
         "isTablet": "false"
       }
     },
+    "Prestigio PAP5000DUO": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "PAP5000DUO",
+        "Device_Name": "MultiPhone 5000 Duo",
+        "Device_Maker": "Prestigio",
+        "Device_Brand_Name": "Prestigio",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "HP Touchpad": {
       "properties": {
         "Device_Type": "Tablet",
@@ -23352,6 +23376,18 @@
         "isTablet": "false"
       }
     },
+    "Cubot C7": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "C7",
+        "Device_Code_Name": "C7",
+        "Device_Maker": "Cubot",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Cubot",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Tolino Tab 8.9": {
       "properties": {
         "Device_Type": "Tablet",
@@ -23513,6 +23549,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Name": "IQ4410 Quad Phoenix",
         "Device_Code_Name": "IQ4410 Quad Phoenix",
+        "Device_Maker": "Fly",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Fly",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Fly IQ4410i": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "IQ4410i Quad Phoenix 2",
+        "Device_Code_Name": "IQ4410i",
         "Device_Maker": "Fly",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Fly",
@@ -24444,6 +24492,18 @@
         "isTablet": "true"
       }
     },
+    "TeXet TM-4672": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "X-navi",
+        "Device_Code_Name": "TM-4672",
+        "Device_Maker": "TeXet",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "TeXet",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Highscreen Zera F": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -24994,6 +25054,54 @@
         "Device_Brand_Name": "Master",
         "isMobileDevice": "true",
         "isTablet": "false"
+      }
+    },
+    "PocketBook SURFpad 4 L": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "SURFpad 4 L",
+        "Device_Code_Name": "SURFpad 4 L",
+        "Device_Maker": "PocketBook",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "PocketBook",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Geniatech MX Enjoy": {
+      "properties": {
+        "Device_Type": "TV Device",
+        "Device_Name": "MX Enjoy TV BOX",
+        "Device_Code_Name": "MX Enjoy TV BOX",
+        "Device_Maker": "Geniatech",
+        "Device_Pointing_Method": "unknown",
+        "Device_Brand_Name": "Geniatech",
+        "isMobileDevice": "false",
+        "isTablet": "false"
+      }
+    },
+    "Xoro Xor400250": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "TelePAD 9A1",
+        "Device_Code_Name": "Xor400250",
+        "Device_Maker": "Xoro",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Xoro",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Xoro Xor400418": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "Pad 720",
+        "Device_Code_Name": "Xor400418",
+        "Device_Maker": "Xoro",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Xoro",
+        "isMobileDevice": "true",
+        "isTablet": "true"
       }
     }
   }
