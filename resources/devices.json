@@ -3216,6 +3216,18 @@
         "isTablet": "false"
       }
     },
+    "Samsung GT-S6810": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GT-S6810",
+        "Device_Name": "Galaxy Fame",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Samsung GT-S6810P": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -7397,6 +7409,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SCL24",
         "Device_Name": "Galaxy Note Edge",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung SC-02C": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SC-02C",
+        "Device_Name": "Galaxy S II (NTT Docomo)",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "touchscreen",
@@ -15384,6 +15408,18 @@
         "isTablet": "false"
       }
     },
+    "Huawei P6 S-U06": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "P6 S-U06",
+        "Device_Name": "Ascend P6 S",
+        "Device_Maker": "Huawei",
+        "Device_Brand_Name": "Huawei",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "UTStarcom GTX75": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -20938,6 +20974,18 @@
         "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
+      }
+    },
+    "Prestigio GV7777": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "GV7777",
+        "Device_Name": "GeoVision",
+        "Device_Maker": "Prestigio",
+        "Device_Brand_Name": "Prestigio",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
       }
     },
     "HP Touchpad": {
