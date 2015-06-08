@@ -14232,6 +14232,18 @@
         "isTablet": "false"
       }
     },
+    "LG D285": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "D285",
+        "Device_Name": "L65 Dual SIM",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "LG D855": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -18821,6 +18833,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "OT-6030X",
         "Device_Name": "One Touch Idol",
+        "Device_Maker": "Alcatel",
+        "Device_Brand_Name": "Alcatel",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Alcatel OT-5035D": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "OT-5035D",
+        "Device_Name": "One Touch XPop",
         "Device_Maker": "Alcatel",
         "Device_Brand_Name": "Alcatel",
         "Device_Pointing_Method": "touchscreen",
@@ -25100,6 +25124,18 @@
         "Device_Maker": "Xoro",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Xoro",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Starway Andromeda S925 3G": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "Andromeda S925 3G",
+        "Device_Code_Name": "Andromeda S925 3G",
+        "Device_Maker": "Starway",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Starway",
         "isMobileDevice": "true",
         "isTablet": "true"
       }

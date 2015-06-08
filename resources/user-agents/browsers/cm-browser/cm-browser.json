@@ -14,9 +14,6 @@
         "Browser": "CM Browser",
         "Browser_Type": "Browser",
         "Browser_Maker": "Cheetah Mobile",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
@@ -49,6 +46,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#PMP5785C3G_QUAD Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* ACHEETAHI\/*",
           "device": "Prestigio PMP5785C3G_QUAD",
+          "engine": "WebKit",
           "platforms": [
             "Android_4_2"
           ]
@@ -63,6 +61,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#K1 turbo Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* ACHEETAHI\/*",
           "device": "Kingzone KZ-168",
+          "engine": "WebKit",
           "platforms": [
             "Android_4_3"
           ]
@@ -77,6 +76,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#U51GT Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* ACHEETAHI\/*",
           "device": "Cube U51GT",
+          "engine": "WebKit",
           "platforms": [
             "Android_4_2"
           ]
@@ -86,6 +86,13 @@
           "device": "ThL W200",
           "platforms": [
             "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#LG-F200K Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Chrome\/*Safari\/* ACHEETAHI\/*",
+          "device": "LG F200K",
+          "platforms": [
+            "Android_4_4"
           ]
         },
         {

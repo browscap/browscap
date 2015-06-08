@@ -2612,7 +2612,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#TelePAD 9A1 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "device": "Xoro Xor400250",
           "platforms": [
-            "Android_4_2"
+            "Android_4_4"
           ]
         },
         {
