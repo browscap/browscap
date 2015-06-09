@@ -1,0 +1,98 @@
+{
+  "division": "Diigo Browser",
+  "sortIndex": 1901,
+  "lite": false,
+  "userAgents": [
+    {
+      "userAgent": "Diigo Browser",
+      "platform": "iOS",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Diigo Browser",
+        "Browser": "Diigo Browser",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Diigo, Inc.",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0*(iPad#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Safari\/*DiigoBrowser*",
+          "device": "iPad",
+          "platforms": [
+            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0",
+            "iOS_A_8_1",
+            "iOS_A",
+            "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0",
+            "iOS_C_8_1", "iOS_C_8_0",
+            "iOS_C"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0*(iPhone#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Safari\/*DiigoBrowser*",
+          "device": "iPhone",
+          "platforms": [
+            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0",
+            "iOS_A_8_1",
+            "iOS_A",
+            "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0",
+            "iOS_C_8_1", "iOS_C_8_0",
+            "iOS_C"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0*(#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Safari\/*DiigoBrowser*",
+          "platforms": [
+            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0",
+            "iOS_A_8_1",
+            "iOS_A",
+            "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0",
+            "iOS_C_8_1", "iOS_C_8_0",
+            "iOS_C"
+          ]
+        },
+        {
+          "match": "DiigoBrowser Mozilla\/5.0*(iPad#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/*Safari\/*",
+          "device": "iPad",
+          "platforms": [
+            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0",
+            "iOS_A_8_1",
+            "iOS_A",
+            "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0",
+            "iOS_C_8_1", "iOS_C_8_0",
+            "iOS_C"
+          ]
+        },
+        {
+          "match": "DiigoBrowser Mozilla\/5.0*(iPhone#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/*Safari\/*",
+          "device": "iPhone",
+          "platforms": [
+            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0",
+            "iOS_A_8_1",
+            "iOS_A",
+            "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0",
+            "iOS_C_8_1", "iOS_C_8_0",
+            "iOS_C"
+          ]
+        },
+        {
+          "match": "DiigoBrowser Mozilla\/5.0*(#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/*Safari\/*",
+          "platforms": [
+            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0",
+            "iOS_A_8_1",
+            "iOS_A",
+            "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0",
+            "iOS_C_8_1", "iOS_C_8_0",
+            "iOS_C"
+          ]
+        }
+      ]
+    }
+  ]
+}
