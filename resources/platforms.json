@@ -2011,6 +2011,17 @@
         "Win32": "false"
       }
     },
+    "WinPhone8.1_B": {
+      "match": "*Windows; U; wds 8.1*",
+      "lite": false,
+      "inherits": "Windows",
+      "properties": {
+        "Platform": "WinPhone8.1",
+        "Platform_Version": "8.1",
+        "Platform_Description": "Windows Phone OS 8.1",
+        "Win32": "false"
+      }
+    },
     "Android": {
       "match": "*Linux*Android*",
       "properties": {

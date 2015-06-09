@@ -1980,6 +1980,18 @@
         "isTablet": "false"
       }
     },
+    "Sony SO-03E": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SO-03E",
+        "Device_Name": "Xperia Tablet Z Docomo",
+        "Device_Maker": "Sony",
+        "Device_Brand_Name": "Sony",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Ericsson T68": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -7716,6 +7728,18 @@
         "isTablet": "false"
       }
     },
+    "Asus K00C": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "K00C",
+        "Device_Name": "Transformer Pad TF701T",
+        "Device_Maker": "Asus",
+        "Device_Brand_Name": "Asus",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Motorola MB525": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -11633,6 +11657,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "D820mu",
         "Device_Name": "D820mu",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC T328w": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "T328w",
+        "Device_Name": "Desire V",
         "Device_Maker": "HTC",
         "Device_Brand_Name": "HTC",
         "Device_Pointing_Method": "touchscreen",
@@ -16168,6 +16204,18 @@
       "properties": {
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Lumia 520",
+        "Device_Name": "Lumia 520",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia Lumia 520 RM-914": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Lumia 520 RM-914",
         "Device_Name": "Lumia 520",
         "Device_Maker": "Nokia",
         "Device_Brand_Name": "Nokia",
@@ -23436,6 +23484,18 @@
         "isTablet": "false"
       }
     },
+    "Cubot GT99": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "GT99",
+        "Device_Code_Name": "GT99",
+        "Device_Maker": "Cubot",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Cubot",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Cubot U30GT": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -23633,6 +23693,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Name": "IQ4410i Quad Phoenix 2",
         "Device_Code_Name": "IQ4410i",
+        "Device_Maker": "Fly",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Fly",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Fly IQ450": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Quattro Horizon 2",
+        "Device_Code_Name": "IQ450",
         "Device_Maker": "Fly",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Fly",
@@ -25186,6 +25258,30 @@
         "Device_Brand_Name": "Starway",
         "isMobileDevice": "true",
         "isTablet": "true"
+      }
+    },
+    "Logicom S9782": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "S9782",
+        "Device_Code_Name": "S9782",
+        "Device_Maker": "Logicom",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Logicom",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Gigabyte GSmart Rio R1": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "GSmart Rio R1",
+        "Device_Code_Name": "Rio R1",
+        "Device_Maker": "Gigabyte",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Gigabyte",
+        "isMobileDevice": "true",
+        "isTablet": "false"
       }
     }
   }
