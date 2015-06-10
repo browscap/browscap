@@ -73,7 +73,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Fly IQ450 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (#PLATFORM#Fly IQ450 Quattro Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
           "engine": "WebKit",
           "device": "Fly IQ450",
           "platforms": [

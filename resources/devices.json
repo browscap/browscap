@@ -11976,6 +11976,18 @@
         "isTablet": "false"
       }
     },
+    "LG E980h": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "E980h",
+        "Device_Name": "Optimus G Pro",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "LG E988": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -20196,6 +20208,18 @@
         "isTablet": "false"
       }
     },
+    "Lenovo A590": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A590",
+        "Device_Name": "A590",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Lenovo A850": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -20993,6 +21017,18 @@
         "Device_Type": "Tablet",
         "Device_Code_Name": "PMP5785C3G_QUAD",
         "Device_Name": "MultiPad 4 Quantum 7.85 3G",
+        "Device_Maker": "Prestigio",
+        "Device_Brand_Name": "Prestigio",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Prestigio PMP5297C_QUAD": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "PMP5297C_QUAD",
+        "Device_Name": "MultiPad 4 Quantum 9.7",
         "Device_Maker": "Prestigio",
         "Device_Brand_Name": "Prestigio",
         "Device_Pointing_Method": "touchscreen",
@@ -22248,6 +22284,18 @@
         "isTablet": "false"
       }
     },
+    "Xiaomi HM NOTE 1W": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Redmi Note",
+        "Device_Code_Name": "HM NOTE 1W",
+        "Device_Maker": "Xiaomi Tech",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Xiaomi",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "BLU Vivo IV": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -22447,6 +22495,18 @@
         "Device_Code_Name": "P9020",
         "Device_Maker": "Pantech",
         "Device_Pointing_Method": "unknown",
+        "Device_Brand_Name": "Pantech",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Pantech IM-A830L": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Vega Racer 2",
+        "Device_Code_Name": "IM-A830L",
+        "Device_Maker": "Pantech",
+        "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Pantech",
         "isMobileDevice": "true",
         "isTablet": "false"
@@ -24744,6 +24804,18 @@
         "isTablet": "true"
       }
     },
+    "Irbis TX18": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "TX18",
+        "Device_Code_Name": "TX18",
+        "Device_Maker": "Irbis",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Irbis",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Irbis TG97": {
       "properties": {
         "Device_Type": "Tablet",
@@ -25282,6 +25354,42 @@
         "Device_Brand_Name": "Gigabyte",
         "isMobileDevice": "true",
         "isTablet": "false"
+      }
+    },
+    "Qumo QUEST 450": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "QUEST 450",
+        "Device_Code_Name": "QUEST 450",
+        "Device_Maker": "Qumo",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Qumo",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Perfeo 7007-HD": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "7007-HD",
+        "Device_Code_Name": "7007-HD",
+        "Device_Maker": "Perfeo",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Perfeo",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Keener K-8S": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "K-8S",
+        "Device_Code_Name": "K-8S",
+        "Device_Maker": "Keener",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Keener",
+        "isMobileDevice": "true",
+        "isTablet": "true"
       }
     }
   }

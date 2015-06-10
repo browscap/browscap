@@ -34,6 +34,13 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#TX18 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* T5\/* bdbrowser_i18n\/#MAJORVER#.#MINORVER#*",
+          "device": "Irbis TX18",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#ALCATEL ONE TOUCH 5035D Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* bdbrowser_i18n\/#MAJORVER#.#MINORVER#*",
           "device": "Alcatel OT-5035D",
           "engine": "WebKit",

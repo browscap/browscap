@@ -172,6 +172,14 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#HM NOTE 1W Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* ?FB_IAB\/*FBAV\/#MAJORVER#.#MINORVER#*",
+          "device": "Xiaomi HM NOTE 1W",
+          "engine": "WebKit",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/* Chrome\/*Safari\/* ?FB_IAB\/*FBAV\/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "Android_4_3", "Android_4_4", "Android_5_0", "Android"
