@@ -18,7 +18,7 @@ before_script:
   - composer install -o --prefer-source
 
 script:
-  - vendor/bin/phpunit --coverage-text --coverage-clover=coverage.clover --colors --verbose
+  - vendor/bin/phpunit --coverage-text --coverage-clover=coverage.clover --colors
   - vendor/bin/phpcs --standard=psr2 -np src tests
 
 after_script:
