@@ -1764,6 +1764,18 @@
         "isTablet": "false"
       }
     },
+    "Sony C1904": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "C1904",
+        "Device_Name": "Xperia M",
+        "Device_Maker": "Sony",
+        "Device_Brand_Name": "Sony",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Sony C1905": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -11928,6 +11940,18 @@
         "isTablet": "false"
       }
     },
+    "LG P713": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "P713",
+        "Device_Name": "Optimus L7 II",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "LG E460": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -15840,6 +15864,18 @@
         "isTablet": "true"
       }
     },
+    "Archos 79 Xenon": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "79 Xenon",
+        "Device_Name": "79 Xenon",
+        "Device_Maker": "Archos",
+        "Device_Brand_Name": "Archos",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Archos 80 Xenon": {
       "properties": {
         "Device_Type": "Tablet",
@@ -18996,6 +19032,18 @@
         "isTablet": "false"
       }
     },
+    "sprd GT-A7100": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GT-A7100",
+        "Device_Name": "GT-A7100",
+        "Device_Maker": "sprd",
+        "Device_Brand_Name": "sprd",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Mastone G9": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -19901,6 +19949,18 @@
         "Device_Type": "Tablet",
         "Device_Code_Name": "S920_ROW",
         "Device_Name": "S920_ROW",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Lenovo S820_ROW": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "S820_ROW",
+        "Device_Name": "S820_ROW",
         "Device_Maker": "Lenovo",
         "Device_Brand_Name": "Lenovo",
         "Device_Pointing_Method": "touchscreen",
@@ -22236,6 +22296,18 @@
         "isTablet": "false"
       }
     },
+    "Xiaomi Mi 4 LTE": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Mi 4 LTE",
+        "Device_Code_Name": "Mi 4 LTE",
+        "Device_Maker": "Xiaomi Tech",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Xiaomi",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Xiaomi HM NOTE 1LTETD": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -23760,6 +23832,30 @@
         "isTablet": "false"
       }
     },
+    "Fly IQ4415": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "IQ4415 Quad ERA Style 3",
+        "Device_Code_Name": "IQ4415",
+        "Device_Maker": "Fly",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Fly",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Fly IQ442": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Miracle",
+        "Device_Code_Name": "IQ442",
+        "Device_Maker": "Fly",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Fly",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Fly IQ450": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -24521,6 +24617,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Name": "S4502M",
         "Device_Code_Name": "S4502M",
+        "Device_Maker": "DNS",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "DNS",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "DNS S4008": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "S4008",
+        "Device_Code_Name": "S4008",
         "Device_Maker": "DNS",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "DNS",
@@ -25356,6 +25464,18 @@
         "isTablet": "false"
       }
     },
+    "Gigabyte GSmart T4": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "GSmart T4",
+        "Device_Code_Name": "GSmart T4",
+        "Device_Maker": "Gigabyte",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Gigabyte",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Qumo QUEST 450": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -25390,6 +25510,30 @@
         "Device_Brand_Name": "Keener",
         "isMobileDevice": "true",
         "isTablet": "true"
+      }
+    },
+    "AOC M601": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "M601",
+        "Device_Code_Name": "M601",
+        "Device_Maker": "AOC",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "AOC",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Hummer H1+": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "H1+",
+        "Device_Code_Name": "H1+",
+        "Device_Maker": "Hummer",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Hummer",
+        "isMobileDevice": "true",
+        "isTablet": "false"
       }
     }
   }
