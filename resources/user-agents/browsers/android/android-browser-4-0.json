@@ -2496,7 +2496,14 @@
           "match": "Mozilla\/5.0 (#PLATFORM#SonyEricssonMT11i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "device": "SonyEricsson MT11i",
           "platforms": [
-            "Android_2_3", "Android_4_0"
+            "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#MT11i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "device": "SonyEricsson MT11i",
+          "platforms": [
+            "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
           ]
         },
         {

@@ -1147,7 +1147,7 @@
         "Device_Name": "Xperia Neo V",
         "Device_Maker": "Sony",
         "Device_Brand_Name": "Sony",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -4232,6 +4232,18 @@
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung SM-G3502L": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SM-G3502L",
+        "Device_Name": "Galaxy Core Plus",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -8212,6 +8224,18 @@
       "properties": {
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "XT1058",
+        "Device_Name": "Moto X",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola XT1052": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "XT1052",
         "Device_Name": "Moto X",
         "Device_Maker": "Motorola",
         "Device_Brand_Name": "Motorola",
@@ -25532,6 +25556,30 @@
         "Device_Maker": "Hummer",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Hummer",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Oysters Pacific 800i": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Pacific 800i",
+        "Device_Code_Name": "Pacific 800i",
+        "Device_Maker": "Oysters",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Oysters",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Vertex Impress L": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Impress L",
+        "Device_Code_Name": "Impress L",
+        "Device_Maker": "Vertex",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Vertex",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
