@@ -4308,6 +4308,18 @@
         "isTablet": "true"
       }
     },
+    "Samsung SM-P601": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "SM-P601",
+        "Device_Name": "Galaxy Note 10.1 2014 Edition 3G & Wifi",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Samsung SM-P605": {
       "properties": {
         "Device_Type": "Tablet",
@@ -11705,6 +11717,30 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "T328w",
         "Device_Name": "Desire V",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC Ruby": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Ruby",
+        "Device_Name": "Ruby",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC Desire 816": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Desire 816",
+        "Device_Name": "Desire 816",
         "Device_Maker": "HTC",
         "Device_Brand_Name": "HTC",
         "Device_Pointing_Method": "touchscreen",
@@ -25580,6 +25616,54 @@
         "Device_Maker": "Vertex",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Vertex",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Meizu M040": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "MX2",
+        "Device_Code_Name": "M040",
+        "Device_Maker": "Meizu",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Meizu",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "GzOne CAL21": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "TYPE-L",
+        "Device_Code_Name": "CAL21",
+        "Device_Maker": "GzOne",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "GzOne",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Reellex TAB-97E-01": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "TAB-97E-01",
+        "Device_Code_Name": "TAB-97E-01",
+        "Device_Maker": "Reellex",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Reellex",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "XOLO A1000s": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "A1000s",
+        "Device_Code_Name": "A1000s",
+        "Device_Maker": "XOLO",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "XOLO",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
