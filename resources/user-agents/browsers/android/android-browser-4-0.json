@@ -2556,7 +2556,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#SonyEricssonWT19i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#WT19i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "device": "SonyEricsson WT19i",
           "platforms": [
             "Android_2_3", "Android_4_0"

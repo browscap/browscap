@@ -18540,6 +18540,18 @@
         "isTablet": "false"
       }
     },
+    "Nokia N1": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "N1",
+        "Device_Name": "N1",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Micromax A27": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -20981,6 +20993,18 @@
         "Device_Type": "Tablet",
         "Device_Code_Name": "PMP7079D3G_QUAD",
         "Device_Name": "MultiPad 4 Diamond 7.85 3G",
+        "Device_Maker": "Prestigio",
+        "Device_Brand_Name": "Prestigio",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Prestigio PMP7070C3G": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "PMP7070C3G",
+        "Device_Name": "MultiPad 4 Diamond 7.0 3G",
         "Device_Maker": "Prestigio",
         "Device_Brand_Name": "Prestigio",
         "Device_Pointing_Method": "touchscreen",
@@ -25664,6 +25688,18 @@
         "Device_Maker": "XOLO",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "XOLO",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Elephone P3000": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "P3000",
+        "Device_Code_Name": "P3000",
+        "Device_Maker": "Elephone",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Elephone",
         "isMobileDevice": "true",
         "isTablet": "false"
       }

@@ -60,6 +60,14 @@
           ]
         },
         {
+          "match": "UCWEB\/*(#PLATFORM#D2105) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "engine": "U2",
+          "device": "Sony D2105",
+          "platforms": [
+            "Android_4_4_C"
+          ]
+        },
+        {
           "match": "UCWEB\/*(#PLATFORM#) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
           "engine": "U2",
           "device": "general Mobile Phone (Touch)",
