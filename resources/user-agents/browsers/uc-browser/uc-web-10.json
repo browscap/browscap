@@ -249,6 +249,38 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#LT26w Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
+          "engine": "U3",
+          "device": "Sony LT26w",
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#M7T Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
+          "engine": "U3",
+          "device": "PiPO M7T",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#ORION7o Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
+          "engine": "U3",
+          "device": "GOCLEVER ORION7o",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#M5301 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
+          "engine": "U3",
+          "device": "iRU M5301",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM# Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* *Safari\/*",
           "platforms": [
             "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android_5_0", "Android"

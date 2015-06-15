@@ -113,6 +113,13 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#I9300 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "device": "Samsung GT-I9300",
+          "platforms": [
+            "Android_4_1"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#LG-D802* Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "device": "LG D802",
           "platforms": [

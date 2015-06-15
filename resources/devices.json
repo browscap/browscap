@@ -984,6 +984,18 @@
         "isTablet": "false"
       }
     },
+    "Sony LT26w": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "LT26w",
+        "Device_Name": "Xperia Acro S",
+        "Device_Maker": "Sony",
+        "Device_Brand_Name": "Sony",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Sony LT29i": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -1937,6 +1949,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "D5803",
         "Device_Name": "Xperia Z3 Compact",
+        "Device_Maker": "Sony",
+        "Device_Brand_Name": "Sony",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Sony D5833": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "D5833",
+        "Device_Name": "Xperia Z3 Compact (Asia)",
         "Device_Maker": "Sony",
         "Device_Brand_Name": "Sony",
         "Device_Pointing_Method": "touchscreen",
@@ -24060,6 +24084,18 @@
         "isTablet": "true"
       }
     },
+    "GOCLEVER ORION7o": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "ORION 7o",
+        "Device_Code_Name": "ORION7o",
+        "Device_Maker": "GOCLEVER",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "GOCLEVER",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "MODECOM FreeTAB 1001": {
       "properties": {
         "Device_Type": "Tablet",
@@ -25272,6 +25308,18 @@
         "isTablet": "true"
       }
     },
+    "PiPO M7T": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "M7T 3G",
+        "Device_Code_Name": "M7T",
+        "Device_Maker": "PiPO Technology",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "PiPO",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Honlin PC1088": {
       "properties": {
         "Device_Type": "Desktop",
@@ -25700,6 +25748,18 @@
         "Device_Maker": "Elephone",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Elephone",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "iRU M5301": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "M5301",
+        "Device_Code_Name": "M5301",
+        "Device_Maker": "iRU",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "iRU",
         "isMobileDevice": "true",
         "isTablet": "false"
       }

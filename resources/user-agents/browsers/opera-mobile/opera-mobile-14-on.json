@@ -91,6 +91,13 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#I9300 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/* OPR\/#MAJORVER#.*",
+          "device": "Samsung GT-I9300",
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-S7262 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/* OPR\/#MAJORVER#.*",
           "device": "Samsung GT-S7262",
           "platforms": [
@@ -333,6 +340,20 @@
           "device": "HTC Ruby",
           "platforms": [
             "Android_2_3"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#LT26w Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/* OPR\/#MAJORVER#.*",
+          "device": "Sony LT26w",
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#D5833 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/* OPR\/#MAJORVER#.*",
+          "device": "Sony D5833",
+          "platforms": [
+            "Android_5_0"
           ]
         },
         {

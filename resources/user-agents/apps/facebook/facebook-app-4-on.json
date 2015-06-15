@@ -180,6 +180,29 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#LT26w Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* ?FB_IAB\/*FBAV\/#MAJORVER#.#MINORVER#*",
+          "device": "Sony LT26w",
+          "engine": "WebKit",
+          "platforms": [
+            "Android_4_1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#D5833 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Chrome\/*Safari\/* ?FB_IAB\/*FBAV\/#MAJORVER#.#MINORVER#*",
+          "device": "Sony D5833",
+          "platforms": [
+            "Android_5_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#D5833 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* ?FB_IAB\/*FBAV\/#MAJORVER#.#MINORVER#*",
+          "device": "Sony D5833",
+          "engine": "WebKit",
+          "platforms": [
+            "Android_5_0"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/* Chrome\/*Safari\/* ?FB_IAB\/*FBAV\/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "Android_4_3", "Android_4_4", "Android_5_0", "Android"
