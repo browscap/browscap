@@ -384,6 +384,18 @@
         "isTablet": "false"
       }
     },
+    "Sony SO-02D": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SO-02D",
+        "Device_Name": "Xperia NX",
+        "Device_Maker": "Sony",
+        "Device_Brand_Name": "Sony",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Sony NSZ-GS7\/GX70": {
       "properties": {
         "Device_Type": "TV Device",
@@ -14448,6 +14460,18 @@
         "isTablet": "false"
       }
     },
+    "LG D295": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "D295",
+        "Device_Name": "L Fino",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "1 & 1 Smartpad": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -16292,6 +16316,18 @@
         "Device_Maker": "Sharp Corporation",
         "Device_Brand_Name": "NTT Docomo",
         "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Sharp 304SH": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "304SH",
+        "Device_Name": "Aquos Xx",
+        "Device_Maker": "Sharp Corporation",
+        "Device_Brand_Name": "Softbank",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -19380,6 +19416,42 @@
         "isTablet": "false"
       }
     },
+    "ZTE Blade A430": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A430",
+        "Device_Name": "Blade A430",
+        "Device_Maker": "ZTE",
+        "Device_Brand_Name": "ZTE",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "ZTE Beeline Pro": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Beeline Pro",
+        "Device_Name": "Beeline Pro",
+        "Device_Maker": "ZTE",
+        "Device_Brand_Name": "ZTE",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "ZTE U930HD": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "U930HD",
+        "Device_Name": "U930HD",
+        "Device_Maker": "ZTE",
+        "Device_Brand_Name": "ZTE",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Dell Streak": {
       "properties": {
         "Device_Type": "Tablet",
@@ -20009,6 +20081,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "A656",
         "Device_Name": "A656",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Lenovo A606": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A606",
+        "Device_Name": "A606",
         "Device_Maker": "Lenovo",
         "Device_Brand_Name": "Lenovo",
         "Device_Pointing_Method": "touchscreen",
@@ -21233,6 +21317,18 @@
         "Device_Type": "Tablet",
         "Device_Code_Name": "GV7777",
         "Device_Name": "GeoVision",
+        "Device_Maker": "Prestigio",
+        "Device_Brand_Name": "Prestigio",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Prestigio PMT3037_3G": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "PMT3037_3G",
+        "Device_Name": "MultiPad Wize 3037 3G",
         "Device_Maker": "Prestigio",
         "Device_Brand_Name": "Prestigio",
         "Device_Pointing_Method": "touchscreen",
@@ -24396,6 +24492,18 @@
         "isTablet": "false"
       }
     },
+    "Philips W336": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Xenium",
+        "Device_Code_Name": "W336",
+        "Device_Maker": "Philips",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Philips",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Shiru Samurai 10": {
       "properties": {
         "Device_Type": "Tablet",
@@ -24857,6 +24965,18 @@
         "Device_Type": "Tablet",
         "Device_Name": "NetTAB SKY 3G Plus",
         "Device_Code_Name": "NT-3710S",
+        "Device_Maker": "iconBIT",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "iconBIT",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "iconBIT NT-1009T": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "NetTAB THOR QUAD II",
+        "Device_Code_Name": "NT-1009T",
         "Device_Maker": "iconBIT",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "iconBIT",
@@ -25760,6 +25880,54 @@
         "Device_Maker": "iRU",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "iRU",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Haipai Noble I9220‎": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Noble",
+        "Device_Code_Name": "I9220‎",
+        "Device_Maker": "Haipai",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Haipai",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "MegaFon SP-AI‎": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Login",
+        "Device_Code_Name": "SP-AI",
+        "Device_Maker": "MegaFon",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "MegaFon",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Star N9500‎": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "N9500",
+        "Device_Code_Name": "N9500",
+        "Device_Maker": "Star",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Star",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "UMi X2": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "X2",
+        "Device_Code_Name": "X2",
+        "Device_Maker": "UMi",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "UMi",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
