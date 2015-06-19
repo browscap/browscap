@@ -1,0 +1,76 @@
+{
+  "division": "Samsung Browser #MAJORVER#.#MINORVER#",
+  "versions": ["2.3", 1],
+  "sortIndex": 955,
+  "lite": false,
+  "userAgents": [
+    {
+      "userAgent": "Samsung Browser #MAJORVER#.#MINORVER# for TV",
+      "platform": "Tizen",
+      "engine": "WebKit",
+      "device": "general TV Device",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Samsung Browser #MAJORVER#.#MINORVER# for TV",
+        "Browser": "Samsung Browser",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Samsung",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (SMART-TV; #PLATFORM#) AppleWebkit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#* TV Safari/*",
+          "device": "Smart-TV",
+          "platforms": [
+            "Tizen_2_3", "Tizen_2_2", "Tizen"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "Samsung Browser #MAJORVER#.#MINORVER# for Mobile",
+      "platform": "Tizen",
+      "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Samsung Browser #MAJORVER#.#MINORVER# for Mobile",
+        "Browser": "Samsung Browser",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Samsung",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-Z130H) AppleWebkit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#* Mobile Safari/*",
+          "device": "Samsung SM-Z130H",
+          "platforms": [
+            "Tizen_2_3"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebkit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#* Mobile Safari/*",
+          "platforms": [
+            "Tizen_2_3", "Tizen_2_2", "Tizen"
+          ]
+        }
+      ]
+    }
+  ]
+}
