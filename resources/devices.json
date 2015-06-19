@@ -15584,7 +15584,7 @@
         "Device_Maker": "Amazon.com, Inc.",
         "Device_Brand_Name": "Amazon",
         "Device_Pointing_Method": "unknown",
-        "isMobileDevice": "false",
+        "isMobileDevice": "true",
         "isTablet": "true"
       }
     },
