@@ -15583,7 +15583,7 @@
         "Device_Name": "Fire HD 7 (4th Gen)",
         "Device_Maker": "Amazon.com, Inc.",
         "Device_Brand_Name": "Amazon",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
