@@ -5346,6 +5346,13 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#AFTB Build\/*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "device": "Amazon AFTB",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#Rooted Eris 2.1 v0.3 Build\/*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "device": "HTC Eris",
           "platforms": [
