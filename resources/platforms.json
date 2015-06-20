@@ -3021,6 +3021,35 @@
       "match": "*Linux armv*",
       "inherits": "Maemo"
     },
+    "Tizen": {
+      "match": "*Linux; Tizen*",
+      "lite": false,
+      "properties": {
+        "Platform": "Tizen",
+        "Platform_Maker": "unknown",
+        "Platform_Description": "Tizen",
+        "Platform_Version": "unknown",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "Tizen_2_2": {
+      "match": "*Linux; Tizen 2.2*",
+      "inherits": "Tizen",
+      "properties": {
+        "Platform_Version": "2.2"
+      }
+    },
+    "Tizen_2_3": {
+      "match": "*Linux; Tizen 2.3*",
+      "inherits": "Tizen",
+      "properties": {
+        "Platform_Version": "2.3"
+      }
+    },
     "OpenVMS": {
       "match": "*OpenVMS*",
       "lite": false,
