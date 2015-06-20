@@ -2040,6 +2040,18 @@
         "isTablet": "false"
       }
     },
+    "Sony SO-03C": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SO-03C",
+        "Device_Name": "Xperia ray",
+        "Device_Maker": "Sony",
+        "Device_Brand_Name": "Sony",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Ericsson T68": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -10879,7 +10891,7 @@
         "Device_Name": "Desire SV",
         "Device_Maker": "HTC",
         "Device_Brand_Name": "HTC",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -19200,6 +19212,30 @@
         "isTablet": "true"
       }
     },
+    "Alcatel OT-7041D": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "OT-7041D",
+        "Device_Name": "One Touch Pop C7",
+        "Device_Maker": "Alcatel",
+        "Device_Brand_Name": "Alcatel",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Alcatel OT-6036Y": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "OT-6036Y",
+        "Device_Name": "One Touch Idol 2 Mini S",
+        "Device_Maker": "Alcatel",
+        "Device_Brand_Name": "Alcatel",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Fairphone FP1": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -19517,6 +19553,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "U930HD",
         "Device_Name": "U930HD",
+        "Device_Maker": "ZTE",
+        "Device_Brand_Name": "ZTE",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "ZTE Atlas W": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Atlas W",
+        "Device_Name": "Atlas W",
         "Device_Maker": "ZTE",
         "Device_Brand_Name": "ZTE",
         "Device_Pointing_Method": "touchscreen",
@@ -24264,6 +24312,18 @@
         "isTablet": "true"
       }
     },
+    "GOCLEVER A93.2": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "A93.2",
+        "Device_Code_Name": "A93.2",
+        "Device_Maker": "GOCLEVER",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "GOCLEVER",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "MODECOM FreeTAB 1001": {
       "properties": {
         "Device_Type": "Tablet",
@@ -25140,6 +25200,18 @@
         "isTablet": "false"
       }
     },
+    "Highscreen Boost II SE": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Boost II SE",
+        "Device_Code_Name": "Boost II SE",
+        "Device_Maker": "Highscreen",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Highscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "BQ BQS-4007": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -25416,6 +25488,18 @@
         "isTablet": "true"
       }
     },
+    "Impression ImPAD 6213M V2": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "ImPAD 6213M V2",
+        "Device_Code_Name": "ImPAD 6213M V2",
+        "Device_Maker": "Impression",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Impression",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "iRulu U1": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -25546,6 +25630,18 @@
         "Device_Brand_Name": "Vodafone",
         "isMobileDevice": "true",
         "isTablet": "false"
+      }
+    },
+    "Vodafone Smart Tab 7": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "Smart Tab 7",
+        "Device_Code_Name": "Smart Tab 7",
+        "Device_Maker": "ZTE",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Vodafone",
+        "isMobileDevice": "true",
+        "isTablet": "true"
       }
     },
     "Comag WTDR1018": {
@@ -25992,6 +26088,18 @@
         "isTablet": "false"
       }
     },
+    "Star GT9000": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "H5W",
+        "Device_Code_Name": "GT9000",
+        "Device_Maker": "Star",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Star",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "UMi X2": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -26002,6 +26110,18 @@
         "Device_Brand_Name": "UMi",
         "isMobileDevice": "true",
         "isTablet": "false"
+      }
+    },
+    "Advent P10AN01": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "Vega",
+        "Device_Code_Name": "P10AN01",
+        "Device_Maker": "Advent",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Advent",
+        "isMobileDevice": "true",
+        "isTablet": "true"
       }
     }
   }
