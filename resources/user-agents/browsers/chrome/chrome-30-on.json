@@ -2736,7 +2736,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#N9500 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "device": "Star N9500‎",
+          "device": "Star N9500",
           "platforms": [
             "Android_5_0"
           ]

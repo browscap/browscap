@@ -25956,11 +25956,11 @@
         "isTablet": "false"
       }
     },
-    "Haipai Noble I9220‎": {
+    "Haipai Noble I9220": {
       "properties": {
         "Device_Type": "Mobile Phone",
         "Device_Name": "Noble",
-        "Device_Code_Name": "I9220‎",
+        "Device_Code_Name": "I9220",
         "Device_Maker": "Haipai",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Haipai",
@@ -25968,7 +25968,7 @@
         "isTablet": "false"
       }
     },
-    "MegaFon SP-AI‎": {
+    "MegaFon SP-AI": {
       "properties": {
         "Device_Type": "Mobile Phone",
         "Device_Name": "Login",
@@ -25980,7 +25980,7 @@
         "isTablet": "false"
       }
     },
-    "Star N9500‎": {
+    "Star N9500": {
       "properties": {
         "Device_Type": "Mobile Phone",
         "Device_Name": "N9500",
