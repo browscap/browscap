@@ -15864,6 +15864,18 @@
         "isTablet": "false"
       }
     },
+    "Amazon KFASWI": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "KFASWI",
+        "Device_Name": "Fire HD 7 (4th Gen)",
+        "Device_Maker": "Amazon.com, Inc.",
+        "Device_Brand_Name": "Amazon",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Archos A70BH": {
       "properties": {
         "Device_Type": "Mobile Phone",
