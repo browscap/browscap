@@ -67,6 +67,13 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#SUPRA M723G Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* T5\/* bdbrowser_i18n\/#MAJORVER#.#MINORVER#*",
+          "device": "Supra M723G",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* T5\/* bdbrowser_i18n\/#MAJORVER#.#MINORVER#*",
           "engine": "T5",
           "platforms": [

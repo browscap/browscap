@@ -269,7 +269,7 @@
           ]
         },
         {
-          "match": "UCWEB\/*(#PLATFORM#PMP7070C3G) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "match": "UCWEB\/*(#PLATFORM#NOKIAE5-00u) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
           "engine": "U2",
           "device": "Nokia E5-00",
           "platforms": [

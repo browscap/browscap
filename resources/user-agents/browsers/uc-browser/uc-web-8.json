@@ -152,6 +152,14 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-G130H Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/*UCBrowser\/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "device": "Samsung SM-G130H",
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/*UCBrowser\/#MAJORVER#.#MINORVER#*",
           "engine": "WebKit",
           "device": "general Mobile Phone (Touch)",

@@ -4356,6 +4356,18 @@
         "isTablet": "false"
       }
     },
+    "Samsung SM-G130H": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SM-G130H",
+        "Device_Name": "Galaxy Young 2",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Samsung SM-P600": {
       "properties": {
         "Device_Type": "Tablet",
@@ -4421,6 +4433,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SM-N9005",
         "Device_Name": "Galaxy Note 3 LTE",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung SM-N9006": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SM-N9006",
+        "Device_Name": "Galaxy Note 3 (China/WCDMA)",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "touchscreen",
@@ -5357,6 +5381,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SGH-T989",
         "Device_Name": "Galaxy S II",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung SGH-T999": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SGH-T999",
+        "Device_Name": "Galaxy S III (T-Mobile)",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "touchscreen",
@@ -10279,7 +10315,7 @@
         "Device_Name": "Dream",
         "Device_Maker": "HTC",
         "Device_Brand_Name": "HTC",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -14532,6 +14568,18 @@
         "isTablet": "false"
       }
     },
+    "LG D682TR": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "D682TR",
+        "Device_Name": "G Pro Lite",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "1 & 1 Smartpad": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -14901,6 +14949,18 @@
         "Device_Brand_Name": "Acer",
         "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Acer DA241HL": {
+      "properties": {
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "DA241HL",
+        "Device_Name": "DA 241HL",
+        "Device_Maker": "Acer",
+        "Device_Brand_Name": "Acer",
+        "Device_Pointing_Method": "mouse",
+        "isMobileDevice": "false",
         "isTablet": "false"
       }
     },
@@ -25212,6 +25272,18 @@
         "isTablet": "false"
       }
     },
+    "Highscreen ICE 2": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "ICE 2",
+        "Device_Code_Name": "ICE 2",
+        "Device_Maker": "Highscreen",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Highscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "BQ BQS-4007": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -25589,6 +25661,18 @@
         "Device_Type": "Tablet",
         "Device_Name": "M7T 3G",
         "Device_Code_Name": "M7T",
+        "Device_Maker": "PiPO Technology",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "PiPO",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "PiPO P9 3G": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "P9 3G",
+        "Device_Code_Name": "P9 3G",
         "Device_Maker": "PiPO Technology",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "PiPO",
@@ -26120,6 +26204,18 @@
         "Device_Maker": "Advent",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Advent",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Supra M723G": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "M723G",
+        "Device_Code_Name": "M723G",
+        "Device_Maker": "Supra",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Supra",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
