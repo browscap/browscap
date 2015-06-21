@@ -74,6 +74,13 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#M8 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* T5\/* bdbrowser_i18n\/#MAJORVER#.#MINORVER#*",
+          "device": "Amlogic M8",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* T5\/* bdbrowser_i18n\/#MAJORVER#.#MINORVER#*",
           "engine": "T5",
           "platforms": [

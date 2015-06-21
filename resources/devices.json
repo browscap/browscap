@@ -25056,6 +25056,18 @@
         "isTablet": "false"
       }
     },
+    "DNS S4505": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "S4505",
+        "Device_Code_Name": "S4505",
+        "Device_Maker": "DNS",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "DNS",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "ThL W8": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -26218,6 +26230,30 @@
         "Device_Brand_Name": "Supra",
         "isMobileDevice": "true",
         "isTablet": "true"
+      }
+    },
+    "Nextway F10X": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "F10X",
+        "Device_Code_Name": "F10X",
+        "Device_Maker": "Nextway",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Nextway",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Amlogic M8": {
+      "properties": {
+        "Device_Type": "TV Device",
+        "Device_Name": "M8",
+        "Device_Code_Name": "M8",
+        "Device_Maker": "Amlogic",
+        "Device_Pointing_Method": "unknown",
+        "Device_Brand_Name": "Amlogic",
+        "isMobileDevice": "false",
+        "isTablet": "false"
       }
     }
   }
