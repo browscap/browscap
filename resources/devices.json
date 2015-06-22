@@ -7411,7 +7411,7 @@
         "Device_Name": "Galaxy Note II",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -17976,6 +17976,18 @@
         "isTablet": "false"
       }
     },
+    "Nokia C1-01": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "C1-01",
+        "Device_Name": "C1",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Nokia N70-1": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -25296,6 +25308,18 @@
         "isTablet": "false"
       }
     },
+    "Highscreen Omega Prime S": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Omega Prime S",
+        "Device_Code_Name": "Omega Prime S",
+        "Device_Maker": "Highscreen",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Highscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "BQ BQS-4007": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -26254,6 +26278,42 @@
         "Device_Brand_Name": "Amlogic",
         "isMobileDevice": "false",
         "isTablet": "false"
+      }
+    },
+    "Adspec AdTab 7 Lite": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "AdTab 7 Lite",
+        "Device_Code_Name": "AdTab 7 Lite",
+        "Device_Maker": "Adspec",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Adspec",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "AllWinner A10": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "A10",
+        "Device_Code_Name": "A10",
+        "Device_Maker": "AllWinner",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "AllWinner",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Ainol Numy Note 9": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "Numy Note 9",
+        "Device_Code_Name": "Numy Note 9",
+        "Device_Maker": "Ainol",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Ainol",
+        "isMobileDevice": "true",
+        "isTablet": "true"
       }
     }
   }

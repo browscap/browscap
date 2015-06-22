@@ -143,6 +143,13 @@
           "platforms": [
             "WinCE"
           ]
+        },
+        {
+          "match": "NokiaC1-01\/* Profile\/MIDP* nokiac1-01\/UC Browser#MAJORVER#.#MINORVER#*",
+          "device": "Nokia C1-01",
+          "platforms": [
+            "JAVA"
+          ]
         }
       ]
     }
