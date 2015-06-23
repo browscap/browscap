@@ -307,7 +307,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#GT-P6800 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "device": "Samsung GT-P6800",
           "platforms": [
-            "Android_4_0"
+            "Android_3_2", "Android_4_0"
           ]
         },
         {
@@ -5413,6 +5413,27 @@
           "device": "Nokia X2DS",
           "platforms": [
             "Android_4_3"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#Prime S Build\/*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "device": "Highscreen Omega Prime S",
+          "platforms": [
+            "Android_4_3"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#Plane 10.3 3G PS1043MG Build\/*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "device": "Digma PS1043MG",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#LG-E612 Build\/*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "device": "LG E612",
+          "platforms": [
+            "Android_4_1"
           ]
         },
         {

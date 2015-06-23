@@ -1087,7 +1087,7 @@
         "Device_Name": "Xperia Mini Pro",
         "Device_Maker": "SonyEricsson",
         "Device_Brand_Name": "SonyEricsson",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -3199,7 +3199,7 @@
         "Device_Name": "Galaxy Ace Duos",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -12156,6 +12156,30 @@
         "isTablet": "false"
       }
     },
+    "LG E430": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "E430",
+        "Device_Name": "Optimus L3 II",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG E425": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "E425",
+        "Device_Name": "Optimus L3 II",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "LG VS840 4G": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -12173,6 +12197,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "E610",
         "Device_Name": "Optimus L5",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG E612": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "E612",
+        "Device_Name": "Optimus L5 Dual",
         "Device_Maker": "LG",
         "Device_Brand_Name": "LG",
         "Device_Pointing_Method": "touchscreen",
@@ -13481,18 +13517,6 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "VX9900",
         "Device_Name": "VX9900",
-        "Device_Maker": "LG",
-        "Device_Brand_Name": "LG",
-        "Device_Pointing_Method": "unknown",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
-    "LG E430": {
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "E430",
-        "Device_Name": "Optimus L3 II",
         "Device_Maker": "LG",
         "Device_Brand_Name": "LG",
         "Device_Pointing_Method": "unknown",
@@ -24576,6 +24600,18 @@
         "isTablet": "true"
       }
     },
+    "Kiano Intelect 7 3G": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "Intelect 7 3G",
+        "Device_Code_Name": "Intelect 7 3G",
+        "Device_Maker": "Kiano",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Kiano",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Manta MID802": {
       "properties": {
         "Device_Type": "Tablet",
@@ -24797,6 +24833,18 @@
         "Device_Type": "Tablet",
         "Device_Name": "iDxD7 3G",
         "Device_Code_Name": "iDxD7 3G",
+        "Device_Maker": "Digma",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Digma",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Digma PS1043MG": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "Plane 10.3 3G",
+        "Device_Code_Name": "PS1043MG",
         "Device_Maker": "Digma",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Digma",
@@ -25077,6 +25125,18 @@
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "DNS",
         "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "DNS MB40II1": {
+      "properties": {
+        "Device_Type": "Desktop",
+        "Device_Name": "MB40II1",
+        "Device_Code_Name": "MB40II1",
+        "Device_Maker": "DNS",
+        "Device_Pointing_Method": "mouse",
+        "Device_Brand_Name": "DNS",
+        "isMobileDevice": "false",
         "isTablet": "false"
       }
     },
@@ -26314,6 +26374,30 @@
         "Device_Brand_Name": "Ainol",
         "isMobileDevice": "true",
         "isTablet": "true"
+      }
+    },
+    "Axgio Neon N1": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Neon N1",
+        "Device_Code_Name": "Neon N1",
+        "Device_Maker": "Axgio",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Axgio",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Twinovo T118": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "T118",
+        "Device_Code_Name": "T118",
+        "Device_Maker": "Twinovo",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Twinovo",
+        "isMobileDevice": "true",
+        "isTablet": "false"
       }
     }
   }

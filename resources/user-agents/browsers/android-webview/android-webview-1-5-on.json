@@ -4058,7 +4058,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#Nexus 4 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "LG Nexus 4",
           "platforms": [
-            "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android_5_0"
+            "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android_5_0", "Android_5_1"
           ]
         },
         {
@@ -4838,7 +4838,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#AdTab 7 Lite Build\/*) AppleWebKit\/* (KTHML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#AdTab 7 Lite Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Adspec AdTab 7 Lite",
           "platforms": [
             "Android_4_4"
