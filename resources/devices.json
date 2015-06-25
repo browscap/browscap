@@ -26280,6 +26280,18 @@
         "isTablet": "false"
       }
     },
+    "Star N8000": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Note 3",
+        "Device_Code_Name": "N8000",
+        "Device_Maker": "Star",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Star",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "UMi X2": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -26396,6 +26408,30 @@
         "Device_Maker": "Twinovo",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Twinovo",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Accent Touareg8 3G": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "Touareg8 3G",
+        "Device_Code_Name": "Touareg8 3G",
+        "Device_Maker": "Accent",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Accent",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Yota YD201": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Yota Phone 2",
+        "Device_Code_Name": "YD201",
+        "Device_Maker": "Yota Devices",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Yota",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
