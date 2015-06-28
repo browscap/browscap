@@ -1908,6 +1908,18 @@
         "isTablet": "false"
       }
     },
+    "Sony D2302": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "D2302",
+        "Device_Name": "Xperia M2 Dual",
+        "Device_Maker": "Sony",
+        "Device_Brand_Name": "Sony",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Sony A5000": {
       "properties": {
         "Device_Type": "Digital Camera",
@@ -4889,6 +4901,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SM-Z910F",
         "Device_Name": "Z",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung SM-A500H": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SM-A500H",
+        "Device_Name": "Galaxy A5 Duos",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "touchscreen",
@@ -7925,6 +7949,18 @@
         "Device_Type": "Tablet",
         "Device_Code_Name": "K00C",
         "Device_Name": "Transformer Pad TF701T",
+        "Device_Maker": "Asus",
+        "Device_Brand_Name": "Asus",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Asus K00E": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "K00E",
+        "Device_Name": "Fonepad HD 7",
         "Device_Maker": "Asus",
         "Device_Brand_Name": "Asus",
         "Device_Pointing_Method": "touchscreen",
@@ -14645,6 +14681,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "D682TR",
         "Device_Name": "G Pro Lite",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG D415": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "D415",
+        "Device_Name": "Optimus L90",
         "Device_Maker": "LG",
         "Device_Brand_Name": "LG",
         "Device_Pointing_Method": "touchscreen",
@@ -21648,6 +21696,18 @@
         "isTablet": "false"
       }
     },
+    "Prestigio PAP4500DUO": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "PAP4500DUO",
+        "Device_Name": "MultiPhone 4500 Duo",
+        "Device_Maker": "Prestigio",
+        "Device_Brand_Name": "Prestigio",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Prestigio GV7777": {
       "properties": {
         "Device_Type": "Tablet",
@@ -21684,11 +21744,23 @@
         "isTablet": "true"
       }
     },
-    "Prestigio PAP5000DUO": {
+    "Prestigio PAP7600DUO": {
       "properties": {
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "PAP7600DUO",
         "Device_Name": "Multiphone 7600 Duo",
+        "Device_Maker": "Prestigio",
+        "Device_Brand_Name": "Prestigio",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Prestigio PAP5503": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "PAP5503",
+        "Device_Name": "MultiPhone PAP5503 DUO",
         "Device_Maker": "Prestigio",
         "Device_Brand_Name": "Prestigio",
         "Device_Pointing_Method": "touchscreen",
@@ -23664,6 +23736,18 @@
         "isTablet": "false"
       }
     },
+    "Bmobile AX512": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "AX512",
+        "Device_Code_Name": "AX512",
+        "Device_Maker": "Bmobile",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Bmobile",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Dino 762 A9": {
       "properties": {
         "Device_Type": "Tablet",
@@ -24437,6 +24521,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Name": "Quad EVO Energy 5",
         "Device_Code_Name": "IQ4504",
+        "Device_Maker": "Fly",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Fly",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Fly IQ436i": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Era Nano 9",
+        "Device_Code_Name": "IQ436i",
         "Device_Maker": "Fly",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Fly",
@@ -25488,6 +25584,18 @@
         "isTablet": "true"
       }
     },
+    "TeXet TM-7068": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "X-pad iX 7 3G",
+        "Device_Code_Name": "TM-7068",
+        "Device_Maker": "TeXet",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "TeXet",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "TeXet TM-4672": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -25570,6 +25678,18 @@
         "Device_Brand_Name": "BQ",
         "isMobileDevice": "true",
         "isTablet": "true"
+      }
+    },
+    "BQ Aquaris E5": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Aquaris E5",
+        "Device_Code_Name": "Aquaris E5",
+        "Device_Maker": "BQ",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "BQ",
+        "isMobileDevice": "true",
+        "isTablet": "false"
       }
     },
     "Andoer CX919": {
@@ -26684,6 +26804,66 @@
         "Device_Maker": "Globex",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Globex",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "RoverPad Air A70": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "Air A70",
+        "Device_Code_Name": "Air A70",
+        "Device_Maker": "RoverPad",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "RoverPad",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "GFive President G10 Fashion": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "President G10 Fashion",
+        "Device_Code_Name": "President G10 Fashion",
+        "Device_Maker": "GFive",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "GFive",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Woo SP6020": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "Quasar",
+        "Device_Code_Name": "SP6020",
+        "Device_Maker": "Woo Electronics",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Woo",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "i-mobile i-Style 7.7 DTV": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "i-Style 7.7 DTV",
+        "Device_Code_Name": "i-Style 7.7 DTV",
+        "Device_Maker": "i-mobile",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "i-mobile",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Reeder A8R": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "A8R",
+        "Device_Code_Name": "A8R",
+        "Device_Maker": "Reeder",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Reeder",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
