@@ -531,7 +531,7 @@ return [
             'Frames' => true,
             'IFrames' => true,
             'Tables' => true,
-            'Device_Name' => 'Galaxy Note 4 LTE',
+            'Device_Name' => 'Galaxy Note 4 LTE (Europe)',
             'Device_Maker' => 'Samsung',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen',

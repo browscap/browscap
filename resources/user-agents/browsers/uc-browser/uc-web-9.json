@@ -75,6 +75,14 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#PMP7074B3GRU Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "engine": "U3",
+          "device": "Prestigio PMP7074B3GRU",
+          "platforms": [
+            "Android_2_3"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-S7562 *) AppleWebKit\/* (KHTML,*like Gecko*) *UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
           "engine": "U3",
           "device": "Samsung GT-S7562",
@@ -160,6 +168,14 @@
           "device": "Samsung GT-S6802",
           "platforms": [
             "Android_2_3"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#C1505 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) *UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "engine": "U3",
+          "device": "Sony C1505",
+          "platforms": [
+            "Android_4_1"
           ]
         },
         {
@@ -328,6 +344,14 @@
           "match": "UCWEB\/*(#PLATFORM#T118) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
           "engine": "U2",
           "device": "Twinovo T118",
+          "platforms": [
+            "Android_4_2_C"
+          ]
+        },
+        {
+          "match": "UCWEB\/*(#PLATFORM#ZTE_V829) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "engine": "U2",
+          "device": "ZTE V829",
           "platforms": [
             "Android_4_2_C"
           ]
