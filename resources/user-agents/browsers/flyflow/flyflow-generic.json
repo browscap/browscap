@@ -12,6 +12,7 @@
         "Comment": "FlyFlow Generic",
         "Browser": "FlyFlow",
         "Browser_Type": "Browser",
+        "Browser_Maker": "Baidu",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",

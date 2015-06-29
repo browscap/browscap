@@ -7,7 +7,7 @@ return [
             'Browser' => 'FlyFlow',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
-            'Browser_Maker' => 'unknown',
+            'Browser_Maker' => 'Baidu',
             'Version' => '2.5',
             'MajorVer' => '2',
             'MinorVer' => '5',

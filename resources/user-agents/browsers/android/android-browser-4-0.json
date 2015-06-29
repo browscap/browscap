@@ -5459,7 +5459,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#PAP7600DUO Build\/*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "Prestigio PAP5000DUO",
+          "device": "Prestigio PAP7600DUO",
           "platforms": [
             "Android_4_2"
           ]

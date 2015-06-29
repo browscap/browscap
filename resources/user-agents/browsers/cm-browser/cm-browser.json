@@ -180,6 +180,21 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#K00E Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Chrome\/*Safari\/* ACHEETAHI\/*",
+          "device": "Asus K00E",
+          "platforms": [
+            "Android_4_4", "Android_5_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#K00E Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* ACHEETAHI\/*",
+          "device": "Asus K00E",
+          "engine": "WebKit",
+          "platforms": [
+            "Android_4_4", "Android_5_0"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/* Chrome\/*Safari\/* ACHEETAHI\/*",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3",
