@@ -24,12 +24,20 @@
           ]
         },
         {
-          "match": "UCWEB\/*(#PLATFORM#) U2\/* UCBrowser\/* U2\/*",
+          "match": "UCWEB\/*(#PLATFORM#AO5510) U2\/* UCBrowser*",
+          "engine": "U2",
+          "device": "YU AO5510",
+          "platforms": [
+            "Android_5_0_C"
+          ]
+        },
+        {
+          "match": "UCWEB\/*(#PLATFORM#) U2\/* UCBrowser*",
           "engine": "U2",
           "device": "general Mobile Phone (Touch)",
           "platforms": [
             "Android_2_1_C", "Android_2_2_C", "Android_2_3_D", "Android_4_0_C", "Android_4_1_C", "Android_4_2_C", "Android_4_3_C",
-            "Android_4_4_C",
+            "Android_4_4_C", "Android_5_0_C",
             "iOS_D_5_0", "iOS_D_5_1", "iOS_D_6_0", "iOS_D_6_1", "iOS_D_7_0", "iOS_D_7_1", "iOS_D_8_0",
             "WinPhone7_B", "WinPhone8_B",
             "SymbianOS_B"
