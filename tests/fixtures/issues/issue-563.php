@@ -3484,7 +3484,7 @@ return [
             'Frames' => false,
             'IFrames' => false,
             'Tables' => false,
-            'Device_Name' => 'Galaxy S3 Neo Duos',
+            'Device_Name' => 'Galaxy S III Neo Duos',
             'Device_Maker' => 'Samsung',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen',
