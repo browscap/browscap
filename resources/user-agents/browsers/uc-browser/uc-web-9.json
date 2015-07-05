@@ -115,6 +115,14 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#ZTE LEO Q2 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "engine": "U3",
+          "device": "ZTE V769M",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-S7562 *) AppleWebKit\/* (KHTML,*like Gecko*) *UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
           "engine": "U3",
           "device": "Samsung GT-S7562",
@@ -405,6 +413,30 @@
           ]
         },
         {
+          "match": "UCWEB\/*(#PLATFORM#HM_1SW) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "engine": "U2",
+          "device": "Xiaomi HM 1SW",
+          "platforms": [
+            "Android_4_4_C"
+          ]
+        },
+        {
+          "match": "UCWEB\/*(#PLATFORM#GT-I9100) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "engine": "U2",
+          "device": "GT-I9100",
+          "platforms": [
+            "Android_2_3_D"
+          ]
+        },
+        {
+          "match": "UCWEB\/*(#PLATFORM#GT-I9100P) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "engine": "U2",
+          "device": "GT-I9100P",
+          "platforms": [
+            "Android_2_3_D"
+          ]
+        },
+        {
           "match": "UCWEB\/*(#PLATFORM#) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
           "engine": "U2",
           "device": "general Mobile Phone (Touch)",
@@ -515,6 +547,14 @@
           "match": "UCWEB\/2.0 (Linux; U; Opera Mini\/*; USCCADR6230US) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
           "engine": "U2",
           "device": "HTC Wildfire S ADR6230",
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
+          "match": "UCWEB\/2.0 (Linux; U; Opera Mini\/*; thl_4400) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
+          "engine": "U2",
+          "device": "ThL 4400",
           "platforms": [
             "Android_4_0"
           ]
