@@ -226,7 +226,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#RMD-757 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Chrome\/*Safari\/* ACHEETAHI\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#RMD-757 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* ACHEETAHI\/*",
           "device": "Ritmix RMD-757",
           "platforms": [
             "Android_4_0"
