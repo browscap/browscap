@@ -123,6 +123,22 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#Sky Plus Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "engine": "U3",
+          "device": "Odys Sky Plus 3G",
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#Lenovo S720 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "engine": "U3",
+          "device": "Lenovo S720",
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-S7562 *) AppleWebKit\/* (KHTML,*like Gecko*) *UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
           "engine": "U3",
           "device": "Samsung GT-S7562",

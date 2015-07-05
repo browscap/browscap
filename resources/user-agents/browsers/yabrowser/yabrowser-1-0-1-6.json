@@ -1,6 +1,6 @@
 {
   "division": "YaBrowser #MAJORVER#.#MINORVER#",
-  "versions": ["1.6", "1.5", "1.1"],
+  "versions": ["1.6", "1.5", "1.1", 1],
   "sortIndex": 1020,
   "lite": false,
   "userAgents": [
@@ -39,6 +39,13 @@
           "device": "Fly IQ436i",
           "platforms": [
             "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#AP-105 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/* YaBrowser\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "device": "Mitashi AP-105",
+          "platforms": [
+            "Android_4_0"
           ]
         },
         {

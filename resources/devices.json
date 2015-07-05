@@ -2628,6 +2628,18 @@
         "isTablet": "false"
       }
     },
+    "Samsung GT-I8552": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GT-I8552",
+        "Device_Name": "Galaxy Win",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Samsung GT-I9001": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -15900,6 +15912,18 @@
         "isTablet": "false"
       }
     },
+    "Huawei Y511": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Y511",
+        "Device_Name": "Ascend Y511",
+        "Device_Maker": "Huawei",
+        "Device_Brand_Name": "Huawei",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Huawei M735": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -20604,6 +20628,18 @@
         "isTablet": "true"
       }
     },
+    "Odys Sky Plus 3G": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "Sky Plus 3G",
+        "Device_Name": "Sky Plus 3G",
+        "Device_Maker": "Odys",
+        "Device_Brand_Name": "Odys",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "ViewSonic ViewPad7": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -21214,6 +21250,18 @@
         "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
+      }
+    },
+    "Lenovo S720": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "S720",
+        "Device_Name": "S720",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
       }
     },
     "Lenovo IdeaPad A10": {
@@ -22008,6 +22056,18 @@
         "isTablet": "false"
       }
     },
+    "Prestigio PMP3007C": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "PMP3007C",
+        "Device_Name": "MultiPad Rider 7.0 3G",
+        "Device_Maker": "Prestigio",
+        "Device_Brand_Name": "Prestigio",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "HP Touchpad": {
       "properties": {
         "Device_Type": "Tablet",
@@ -22157,6 +22217,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "R813T",
         "Device_Name": "R813T",
+        "Device_Maker": "OPPO",
+        "Device_Brand_Name": "OPPO",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "OPPO X909": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "X909",
+        "Device_Name": "Find 5",
         "Device_Maker": "OPPO",
         "Device_Brand_Name": "OPPO",
         "Device_Pointing_Method": "touchscreen",
@@ -24840,6 +24912,30 @@
         "isTablet": "false"
       }
     },
+    "Fly IQ4490": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "ERA Nano 4",
+        "Device_Code_Name": "IQ4490",
+        "Device_Maker": "Fly",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Fly",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Fly IQ449": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Pronto",
+        "Device_Code_Name": "IQ449",
+        "Device_Maker": "Fly",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Fly",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Zeki TBD1083": {
       "properties": {
         "Device_Type": "Tablet",
@@ -25596,6 +25692,42 @@
         "isTablet": "true"
       }
     },
+    "Ritmix RMD-753": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "RMD-753",
+        "Device_Code_Name": "RMD-753",
+        "Device_Maker": "Ritmix",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Ritmix",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Ritmix RMD-757": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "RMD-757",
+        "Device_Code_Name": "RMD-757",
+        "Device_Maker": "Ritmix",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Ritmix",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Ritmix RMD-1040": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "RMD-1040",
+        "Device_Code_Name": "RMD-1040",
+        "Device_Maker": "Ritmix",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Ritmix",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Wexler TAB7iD": {
       "properties": {
         "Device_Type": "Tablet",
@@ -26208,18 +26340,6 @@
         "isTablet": "true"
       }
     },
-    "Ritmix RMD-753": {
-      "properties": {
-        "Device_Type": "Tablet",
-        "Device_Name": "RMD-753",
-        "Device_Code_Name": "RMD-753",
-        "Device_Maker": "Ritmix",
-        "Device_Pointing_Method": "touchscreen",
-        "Device_Brand_Name": "Ritmix",
-        "isMobileDevice": "true",
-        "isTablet": "true"
-      }
-    },
     "Tri-ray X8+": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -26297,6 +26417,18 @@
         "Device_Type": "Tablet",
         "Device_Name": "M1 Plus",
         "Device_Code_Name": "M1 Plus",
+        "Device_Maker": "Explay",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Explay",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Explay D7.2 3G": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "D7.2 3G",
+        "Device_Code_Name": "D7.2 3G",
         "Device_Maker": "Explay",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Explay",
@@ -26453,6 +26585,18 @@
         "Device_Type": "Tablet",
         "Device_Name": "P9 3G",
         "Device_Code_Name": "P9 3G",
+        "Device_Maker": "PiPO Technology",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "PiPO",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "PiPO i75": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "i75",
+        "Device_Code_Name": "i75",
         "Device_Maker": "PiPO Technology",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "PiPO",
@@ -27360,6 +27504,30 @@
         "isTablet": "true"
       }
     },
+    "Verico UQM11A": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "UNI Pad 10.1",
+        "Device_Code_Name": "UQM11A",
+        "Device_Maker": "Verico",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Verico",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Verico RP-UDM01A": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "Uni Pad",
+        "Device_Code_Name": "RP-UDM01A",
+        "Device_Maker": "Verico",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Verico",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "RugGear RG500": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -27368,6 +27536,54 @@
         "Device_Maker": "RugGear",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "RugGear",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Telsda T9666-1": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "T9666-1",
+        "Device_Code_Name": "T9666-1",
+        "Device_Maker": "Telsda",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Telsda",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "NEO N003": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "N003",
+        "Device_Code_Name": "N003",
+        "Device_Maker": "NEO",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "NEO",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Mitashi AP-105": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "Play Duo King",
+        "Device_Code_Name": "AP-105",
+        "Device_Maker": "Mitashi",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Mitashi",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Feiteng H7100": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "H7100",
+        "Device_Code_Name": "H7100",
+        "Device_Maker": "Feiteng",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Feiteng",
         "isMobileDevice": "true",
         "isTablet": "false"
       }

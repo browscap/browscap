@@ -94,7 +94,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#I9300 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/* OPR\/#MAJORVER#.*",
           "device": "Samsung GT-I9300",
           "platforms": [
-            "Android_4_0"
+            "Android_4_0", "Android_4_1"
           ]
         },
         {
@@ -529,6 +529,20 @@
           "device": "Huawei U8950-1",
           "platforms": [
             "Android_4_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#KM-UQM11A Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/* OPR\/#MAJORVER#.*",
+          "device": "Verico UQM11A",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#PMP3007C Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/* OPR\/#MAJORVER#.*",
+          "device": "Prestigio PMP3007C",
+          "platforms": [
+            "Android_4_2"
           ]
         },
         {

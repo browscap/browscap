@@ -361,6 +361,30 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#1080P-N003 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "engine": "U3",
+          "device": "NEO N003",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#x909 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "engine": "U3",
+          "device": "OPPO X909",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#GT-I8552 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "engine": "U3",
+          "device": "Samsung GT-I8552",
+          "platforms": [
+            "Android_4_1"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM# Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
           "platforms": [
             "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android_5_0", "Android"

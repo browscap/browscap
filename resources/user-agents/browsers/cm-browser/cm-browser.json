@@ -226,6 +226,20 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#RMD-757 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Chrome\/*Safari\/* ACHEETAHI\/*",
+          "device": "Ritmix RMD-757",
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#H7100 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Chrome\/*Safari\/* ACHEETAHI\/*",
+          "device": "Feiteng H7100",
+          "platforms": [
+            "Android_4_1"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/* Chrome\/*Safari\/* ACHEETAHI\/*",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3",
