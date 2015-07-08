@@ -2366,6 +2366,22 @@
         "Platform_Version": "5.0"
       }
     },
+    "Android_5_0_B": {
+      "match": "JUC (Linux; U; 5.0*",
+      "lite": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "5.0"
+      }
+    },
+    "Android_5_0_C": {
+      "match": "*; U; Adr 5.0*",
+      "lite": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "5.0"
+      }
+    },
     "AndroidMobile": {
       "match": "*Android*Mobile*",
       "inherits": "Android"

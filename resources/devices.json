@@ -24911,6 +24911,18 @@
         "isMobileDevice": "false",
         "isTablet": "false"
       }
+    },
+    "YU AO5510": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Yureka",
+        "Device_Code_Name": "AO5510",
+        "Device_Maker": "YU",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "YU",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
     }
   }
 }
