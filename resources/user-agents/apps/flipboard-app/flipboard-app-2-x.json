@@ -1,6 +1,6 @@
 {
   "division": "Flipboard App #MAJORVER#.#MINORVER#",
-  "versions": ["2.1"],
+  "versions": ["2.1", 2],
   "sortIndex": 940,
   "lite": false,
   "userAgents": [
@@ -40,9 +40,16 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#6036Y Build\/*)*AppleWebKit\/*(*KHTML,*like Gecko*)*Version\/*Safari* Flipboard\/#MAJORVER#.#MINORVER#*",
+          "device": "Alcatel OT-6036Y",
+          "platforms": [
+            "Android_4_3"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/*(*KHTML,*like Gecko*)*Version\/*Safari* Flipboard\/#MAJORVER#.#MINORVER#*",
           "platforms": [
-            "Android_2_3", "Android"
+            "Android_2_3", "Android_4_3", "Android"
           ]
         }
       ]

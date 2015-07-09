@@ -228,15 +228,41 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#RMD-757 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* ACHEETAHI\/*",
           "device": "Ritmix RMD-757",
+          "engine": "WebKit",
           "platforms": [
             "Android_4_0"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#H7100 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Chrome\/*Safari\/* ACHEETAHI\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#H7100 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* ACHEETAHI\/*",
           "device": "Feiteng H7100",
+          "engine": "WebKit",
           "platforms": [
             "Android_4_1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#GT-I8200 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* ACHEETAHI\/*",
+          "device": "Samsung GT-I8200",
+          "engine": "WebKit",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#A400 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* ACHEETAHI\/*",
+          "device": "Celkon A400",
+          "engine": "WebKit",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#T108 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* ACHEETAHI\/*",
+          "device": "Twinovo T108",
+          "engine": "WebKit",
+          "platforms": [
+            "Android_4_2"
           ]
         },
         {

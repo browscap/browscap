@@ -2040,6 +2040,18 @@
         "isTablet": "false"
       }
     },
+    "Sony D6633": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "D6633",
+        "Device_Name": "Xperia Z3 Dual SIM",
+        "Device_Maker": "Sony",
+        "Device_Brand_Name": "Sony",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Sony C2305": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -2981,6 +2993,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-I8200N",
         "Device_Name": "Galaxy S III Mini",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung GT-I8200": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GT-I8200",
+        "Device_Name": "Galaxy S III Mini Value Edition",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "touchscreen",
@@ -4524,6 +4548,18 @@
         "isTablet": "true"
       }
     },
+    "Samsung SM-P901": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "SM-P901",
+        "Device_Name": "Galaxy Note Pro 12.2 3G Wi-Fi",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Samsung SM-N9005": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -5659,7 +5695,7 @@
         "Device_Name": "Galaxy S Blaze 4G",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -14880,6 +14916,18 @@
         "isTablet": "false"
       }
     },
+    "LG D958": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "D958",
+        "Device_Name": "G Flex",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "1 & 1 Smartpad": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -21408,6 +21456,18 @@
         "isTablet": "false"
       }
     },
+    "Lexand A1002": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "A1002",
+        "Device_Name": "A1002",
+        "Device_Maker": "Lexand",
+        "Device_Brand_Name": "Lexand",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Arnova 7CG2": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -23268,6 +23328,18 @@
         "isTablet": "false"
       }
     },
+    "Xiaomi MI 4W": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "MI 4W",
+        "Device_Code_Name": "MI 4W",
+        "Device_Maker": "Xiaomi Tech",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Xiaomi",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Xiaomi HM NOTE 1LTETD": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -24044,6 +24116,18 @@
         "Device_Maker": "NEC",
         "Device_Pointing_Method": "unknown",
         "Device_Brand_Name": "NEC",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "NEC N-06E": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Medias X",
+        "Device_Code_Name": "N-06E",
+        "Device_Maker": "NEC",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Docomo",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -27084,6 +27168,18 @@
         "isTablet": "false"
       }
     },
+    "MegaFon MS3A": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Login 2",
+        "Device_Code_Name": "MS3A",
+        "Device_Maker": "MegaFon",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "MegaFon",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Star N9500": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -27257,6 +27353,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Name": "T118",
         "Device_Code_Name": "T118",
+        "Device_Maker": "Twinovo",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Twinovo",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Twinovo T108": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "T108",
+        "Device_Code_Name": "T108",
         "Device_Maker": "Twinovo",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Twinovo",
@@ -27596,6 +27704,42 @@
         "Device_Maker": "YU",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "YU",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Bliss Pad B9712KB": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "Pad B9712KB",
+        "Device_Code_Name": "Pad B9712KB",
+        "Device_Maker": "Bliss",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Bliss",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Celkon A400": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "A400",
+        "Device_Code_Name": "A400",
+        "Device_Maker": "Celkon",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Celkon",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Sunup OK999": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "OK999",
+        "Device_Code_Name": "OK999",
+        "Device_Maker": "Sunup",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Sunup",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
