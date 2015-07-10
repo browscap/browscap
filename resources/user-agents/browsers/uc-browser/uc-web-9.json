@@ -261,6 +261,14 @@
           ]
         },
         {
+          "match": "Nokia305\/* Profile\/MIDP-2* UCWEB\/2.0 (*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/* Mobile",
+          "engine": "U2",
+          "device": "Nokia 305",
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
           "match": "dv(GT-S6102);pr(UCBrowser\/#MAJORVER#.#MINORVER#*);ov(Android 2.3.6)*",
           "device": "Samsung GT-S6102",
           "platforms": [

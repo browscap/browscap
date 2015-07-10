@@ -113,6 +113,22 @@
           ]
         },
         {
+          "match": "UCWEB\/*(BlackBerry*8530\/*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
+          "engine": "U2",
+          "device": "Blackberry 8530",
+          "platforms": [
+            "RIMOS"
+          ]
+        },
+        {
+          "match": "UCWEB\/*(BlackBerry*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
+          "engine": "U2",
+          "device": "general Mobile Phone",
+          "platforms": [
+            "RIMOS"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I9100 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#* Mobile Safari\/*",
           "engine": "WebKit",
           "device": "GT-I9100",

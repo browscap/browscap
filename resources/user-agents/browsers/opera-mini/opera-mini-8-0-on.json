@@ -1,6 +1,6 @@
 {
   "division": "Opera Mini #MAJORVER#.#MINORVER#",
-  "versions": [26, 24, 20, 10, "9.1", 9, 8],
+  "versions": [28, 26, 24, 20, 10, "9.1", 9, 8],
   "sortIndex": 1931,
   "lite": false,
   "userAgents": [
@@ -85,9 +85,22 @@
           ]
         },
         {
+          "match": "Opera\/*(*Windows Phone*Opera Mini\/#MAJORVER#.*)*",
+          "device": "general Mobile Phone",
+          "platforms": [
+            "WinPhone"
+          ]
+        },
+        {
           "match": "Opera\/*(*BREW*Opera Mini\/#MAJORVER#.*)*",
           "platforms": [
             "Brew"
+          ]
+        },
+        {
+          "match": "Opera\/*(Tizen*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "platforms": [
+            "Tizen"
           ]
         },
         {

@@ -155,6 +155,12 @@
           "platforms": [
             "Brew"
           ]
+        },
+        {
+          "match": "Opera\/*(Tizen*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "platforms": [
+            "Tizen"
+          ]
         }
       ]
     }
