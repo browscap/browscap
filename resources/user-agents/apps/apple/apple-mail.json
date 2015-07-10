@@ -4,13 +4,13 @@
   "lite": false,
   "userAgents": [
     {
-      "userAgent": "Apple Mail for iOS",
+      "userAgent": "Apple Mail Generic for iOS",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Apple Mail",
+        "Comment": "Apple Mail Generic for iOS",
         "Browser": "Apple Mail",
         "Browser_Type": "Email Client",
         "Browser_Maker": "Apple Inc",
@@ -64,7 +64,7 @@
       "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Apple Mail",
+        "Comment": "Apple Mail for Darwin and OSX",
         "Browser": "Apple Mail",
         "Browser_Type": "Email Client",
         "Browser_Maker": "Apple Inc",
@@ -200,7 +200,7 @@
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Apple Mail",
+        "Comment": "Apple Mail for Windows",
         "Browser": "Apple Mail",
         "Browser_Type": "Email Client",
         "Browser_Maker": "Apple Inc",
