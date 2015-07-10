@@ -32,31 +32,27 @@
           "match": "Mozilla\/5.0*(iPad#PLATFORM#) AppleWebKit* (KHTML, like Gecko)",
           "device": "iPad",
           "platforms": [
-            "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3", "iOS_A_5_1", "iOS_A_5_0", "iOS_A_6_1", "iOS_A_6_0", "iOS_A_7_1", "iOS_A_7_0", "iOS_A_8_0", "iOS_A_8_1", "iOS_A",
-            "iOS_C_3_2", "iOS_C_4_0", "iOS_C_4_1", "iOS_C_4_2", "iOS_C_4_3", "iOS_C_5_1", "iOS_C_5_0", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_1", "iOS_C_8_0", "iOS_C"
+            "iOS_A", "iOS_C"
           ]
         },
         {
           "match": "Mozilla\/5.0*(iPhone#PLATFORM#) AppleWebKit* (KHTML, like Gecko)",
           "device": "iPhone",
           "platforms": [
-            "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3", "iOS_A_5_1", "iOS_A_5_0", "iOS_A_6_1", "iOS_A_6_0", "iOS_A_7_1", "iOS_A_7_0", "iOS_A_8_0", "iOS_A_8_1", "iOS_A",
-            "iOS_C_3_2", "iOS_C_4_0", "iOS_C_4_1", "iOS_C_4_2", "iOS_C_4_3", "iOS_C_5_1", "iOS_C_5_0", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_1", "iOS_C_8_0", "iOS_C"
+            "iOS_A", "iOS_C"
           ]
         },
         {
           "match": "Mozilla\/5.0*(iPod#PLATFORM#) AppleWebKit* (KHTML, like Gecko)",
           "device": "iPod Touch",
           "platforms": [
-            "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3", "iOS_A_5_1", "iOS_A_5_0", "iOS_A_6_1", "iOS_A_6_0", "iOS_A_7_1", "iOS_A_7_0", "iOS_A_8_0", "iOS_A_8_1", "iOS_A",
-            "iOS_C_3_2", "iOS_C_4_0", "iOS_C_4_1", "iOS_C_4_2", "iOS_C_4_3", "iOS_C_5_1", "iOS_C_5_0", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_1", "iOS_C_8_0", "iOS_C"
+            "iOS_A", "iOS_C"
           ]
         },
         {
           "match": "Mozilla\/5.0*(#PLATFORM#) AppleWebKit* (KHTML, like Gecko)",
           "platforms": [
-            "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3", "iOS_A_5_1", "iOS_A_5_0", "iOS_A_6_1", "iOS_A_6_0", "iOS_A_7_1", "iOS_A_7_0", "iOS_A_8_0", "iOS_A_8_1", "iOS_A",
-            "iOS_C_3_2", "iOS_C_4_0", "iOS_C_4_1", "iOS_C_4_2", "iOS_C_4_3", "iOS_C_5_1", "iOS_C_5_0", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_1", "iOS_C_8_0", "iOS_C"
+            "iOS_A", "iOS_C"
           ]
         }
       ]
@@ -94,10 +90,104 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit* (KHTML, like Gecko)",
+          "properties": {
+            "Version": "8.0",
+            "MajorVer": "8",
+            "MinorVer": "0"
+          },
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
-            "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B", "OSX_10_10_A", "OSX_10_10_B",
+            "OSX_10_10_A", "OSX_10_10_B"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit* (KHTML, like Gecko)",
+          "properties": {
+            "Version": "7.0",
+            "MajorVer": "7",
+            "MinorVer": "0"
+          },
+          "device": "Macintosh",
+          "platforms": [
+            "OSX_10_9_A", "OSX_10_9_B"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit* (KHTML, like Gecko)",
+          "properties": {
+            "Version": "6.0",
+            "MajorVer": "6",
+            "MinorVer": "0"
+          },
+          "device": "Macintosh",
+          "platforms": [
+           "OSX_10_8_A", "OSX_10_8_B"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit* (KHTML, like Gecko)",
+          "properties": {
+            "Version": "5.0",
+            "MajorVer": "5",
+            "MinorVer": "0"
+          },
+          "device": "Macintosh",
+          "platforms": [
+            "OSX_10_7_A", "OSX_10_7_B"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit* (KHTML, like Gecko)",
+          "properties": {
+            "Version": "4.0",
+            "MajorVer": "4",
+            "MinorVer": "0"
+          },
+          "device": "Macintosh",
+          "platforms": [
+            "OSX_10_6_A", "OSX_10_6_B"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit* (KHTML, like Gecko)",
+          "properties": {
+            "Version": "3.0",
+            "MajorVer": "3",
+            "MinorVer": "0"
+          },
+          "device": "Macintosh",
+          "platforms": [
+            "OSX_10_5_A", "OSX_10_5_B"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit* (KHTML, like Gecko)",
+          "properties": {
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0"
+          },
+          "device": "Macintosh",
+          "platforms": [
+            "OSX_10_4_A", "OSX_10_4_B"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit* (KHTML, like Gecko)",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          },
+          "device": "Macintosh",
+          "platforms": [
+            "OSX_10_3_A", "OSX_10_3_B"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit* (KHTML, like Gecko)",
+          "device": "Macintosh",
+          "platforms": [
             "OSX"
           ]
         }
