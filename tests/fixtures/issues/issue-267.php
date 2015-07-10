@@ -1055,7 +1055,7 @@ return [
             'Browser' => 'Coccoc bot',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
-            'Browser_Maker' => 'Coc Coc search engine',
+            'Browser_Maker' => 'Coc Coc Company Limited',
             'Version' => '1.0',
             'MajorVer' => '1',
             'MinorVer' => '0',
