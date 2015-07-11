@@ -113,6 +113,14 @@
           ]
         },
         {
+          "match": "UCWEB\/*(BlackBerry*8520\/*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
+          "engine": "U2",
+          "device": "Blackberry 8520",
+          "platforms": [
+            "RIMOS"
+          ]
+        },
+        {
           "match": "UCWEB\/*(BlackBerry*8530\/*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
           "engine": "U2",
           "device": "Blackberry 8530",
@@ -121,9 +129,25 @@
           ]
         },
         {
+          "match": "UCWEB\/*(BlackBerry*9320\/*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
+          "engine": "U2",
+          "device": "Blackberry 9320",
+          "platforms": [
+            "RIMOS"
+          ]
+        },
+        {
+          "match": "UCWEB\/*(BlackBerry*9700\/*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
+          "engine": "U2",
+          "device": "Blackberry 9700",
+          "platforms": [
+            "RIMOS"
+          ]
+        },
+        {
           "match": "UCWEB\/*(BlackBerry*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
           "engine": "U2",
-          "device": "general Mobile Phone",
+          "device": "Blackberry Blackberry",
           "platforms": [
             "RIMOS"
           ]
