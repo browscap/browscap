@@ -1,6 +1,6 @@
 {
   "division": "Samsung Browser #MAJORVER#.#MINORVER#",
-  "versions": [3, "2.1"],
+  "versions": [3, "2.1", 2],
   "sortIndex": 955,
   "lite": false,
   "userAgents": [
@@ -45,6 +45,13 @@
           "device": "Samsung SM-G925F",
           "platforms": [
             "Android_5_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-J100H Build\/*) AppleWebKit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "device": "Samsung SM-J100H",
+          "platforms": [
+            "Android_4_4"
           ]
         },
         {

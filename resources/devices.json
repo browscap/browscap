@@ -4740,6 +4740,18 @@
         "isTablet": "false"
       }
     },
+    "Samsung SM-J100H": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SM-J100H",
+        "Device_Name": "Galaxy J1",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Samsung SCH-U820": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -17640,6 +17652,18 @@
         "isTablet": "false"
       }
     },
+    "Nokia X2-02": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "X2-02",
+        "Device_Name": "X2",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Nokia X2DS": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -18156,6 +18180,30 @@
         "isTablet": "false"
       }
     },
+    "Nokia 205": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "205",
+        "Device_Name": "205",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 206": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "206",
+        "Device_Name": "206",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Nokia 220": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -18197,6 +18245,30 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "306",
         "Device_Name": "306",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 308": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "308",
+        "Device_Name": "308",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 311": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "311",
+        "Device_Name": "311",
         "Device_Maker": "Nokia",
         "Device_Brand_Name": "Nokia",
         "Device_Pointing_Method": "unknown",
@@ -18269,6 +18341,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "2112",
         "Device_Name": "2112",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 210": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "210",
+        "Device_Name": "210",
         "Device_Maker": "Nokia",
         "Device_Brand_Name": "Nokia",
         "Device_Pointing_Method": "unknown",
@@ -18413,6 +18497,18 @@
         "Device_Type": "Tablet",
         "Device_Code_Name": "A101",
         "Device_Name": "A101",
+        "Device_Maker": "Micromax",
+        "Device_Brand_Name": "Micromax",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Micromax A106": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "A106",
+        "Device_Name": "A106",
         "Device_Maker": "Micromax",
         "Device_Brand_Name": "Micromax",
         "Device_Pointing_Method": "touchscreen",
@@ -22025,6 +22121,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Name": "Curve 9320",
         "Device_Code_Name": "BlackBerry 9320",
+        "Device_Maker": "Research In Motion Limited",
+        "Device_Pointing_Method": "unknown",
+        "Device_Brand_Name": "RIM",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Blackberry 9220": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "BlackBerry 9220",
+        "Device_Code_Name": "BlackBerry 9220",
         "Device_Maker": "Research In Motion Limited",
         "Device_Pointing_Method": "unknown",
         "Device_Brand_Name": "RIM",
