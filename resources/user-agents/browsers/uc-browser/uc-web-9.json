@@ -261,7 +261,7 @@
           ]
         },
         {
-          "match": "Nokia5130c-2\/* Profile\/MIDP-2* UCWEB\/2.0 (*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/* Mobile",
+          "match": "Nokia5130c-2\/* Profile\/MIDP-2* UCWEB\/2.0 (*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/* Mobile*",
           "engine": "U2",
           "device": "Nokia 5130c-2",
           "platforms": [
@@ -269,7 +269,7 @@
           ]
         },
         {
-          "match": "Nokia305\/* Profile\/MIDP-2* UCWEB\/2.0 (*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/* Mobile",
+          "match": "Nokia305\/* Profile\/MIDP-2* UCWEB\/2.0 (*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/* Mobile*",
           "engine": "U2",
           "device": "Nokia 305",
           "platforms": [
@@ -277,7 +277,7 @@
           ]
         },
         {
-          "match": "Nokia308\/* Profile\/MIDP-2* UCWEB\/2.0 (*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/* Mobile",
+          "match": "Nokia308\/* Profile\/MIDP-2* UCWEB\/2.0 (*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/* Mobile*",
           "engine": "U2",
           "device": "Nokia 308",
           "platforms": [
@@ -285,7 +285,23 @@
           ]
         },
         {
-          "match": "Nokia210\/* Profile\/MIDP-2* UCWEB\/2.0 (*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/* Mobile",
+          "match": "Nokia311\/* Profile\/MIDP-2* UCWEB\/2.0 (*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/* Mobile*",
+          "engine": "U2",
+          "device": "Nokia 311",
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "Nokia110\/* Profile\/MIDP-2* UCWEB\/2.0 (*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/* Mobile*",
+          "engine": "U2",
+          "device": "Nokia 110",
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "Nokia210\/* Profile\/MIDP-2* UCWEB\/2.0 (*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/* Mobile*",
           "engine": "U2",
           "device": "Nokia 210",
           "platforms": [
@@ -293,7 +309,7 @@
           ]
         },
         {
-          "match": "Nokia200\/* Profile\/MIDP-2* UCWEB\/2.0 (*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/* Mobile",
+          "match": "Nokia200\/* Profile\/MIDP-2* UCWEB\/2.0 (*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/* Mobile*",
           "engine": "U2",
           "device": "Nokia 200",
           "platforms": [
@@ -301,7 +317,7 @@
           ]
         },
         {
-          "match": "Nokia205\/* Profile\/MIDP-2* UCWEB\/2.0 (*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/* Mobile",
+          "match": "Nokia205\/* Profile\/MIDP-2* UCWEB\/2.0 (*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/* Mobile*",
           "engine": "U2",
           "device": "Nokia 205",
           "platforms": [
@@ -309,7 +325,7 @@
           ]
         },
         {
-          "match": "Nokia206\/* Profile\/MIDP-2* UCWEB\/2.0 (*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/* Mobile",
+          "match": "Nokia206\/* Profile\/MIDP-2* UCWEB\/2.0 (*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/* Mobile*",
           "engine": "U2",
           "device": "Nokia 206",
           "platforms": [
@@ -317,7 +333,7 @@
           ]
         },
         {
-          "match": "NokiaX2-02\/* Profile\/MIDP-2* UCWEB\/2.0 (*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/* Mobile",
+          "match": "NokiaX2-02\/* Profile\/MIDP-2* UCWEB\/2.0 (*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/* Mobile*",
           "engine": "U2",
           "device": "Nokia X2-02",
           "platforms": [
@@ -325,7 +341,7 @@
           ]
         },
         {
-          "match": "NokiaX2-01\/* Profile\/MIDP-2* UCWEB\/2.0 (*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/* Mobile",
+          "match": "NokiaX2-01\/* Profile\/MIDP-2* UCWEB\/2.0 (*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/* Mobile*",
           "engine": "U2",
           "device": "Nokia X2-01",
           "platforms": [
@@ -333,9 +349,17 @@
           ]
         },
         {
-          "match": "NokiaX3-02\/* Profile\/MIDP-2* UCWEB\/2.0 (*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/* Mobile",
+          "match": "NokiaX3-02\/* Profile\/MIDP-2* UCWEB\/2.0 (*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/* Mobile*",
           "engine": "U2",
           "device": "Nokia X3-02",
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "NokiaC2-03\/* Profile\/MIDP-2* UCWEB\/2.0 (*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/* Mobile*",
+          "engine": "U2",
+          "device": "Nokia C2-03",
           "platforms": [
             "JAVA"
           ]
