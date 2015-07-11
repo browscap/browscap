@@ -37,7 +37,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite' => true,
+        'lite' => false,
     ],
     'issue-687-B' => [
         'Opera/9.80 (Android; Opera Mini/10.0.1884/36.2534; U; en) Presto/2.12.423 Version/12.16',
@@ -75,7 +75,7 @@ return [
             'RenderingEngine_Version' => '2.8',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
     ],
     'issue-687-C' => [
         'Opera/9.80 (Android; Opera Mini/10.0.1884/36.2534; U; id) Presto/2.12.423 Version/12.16',
@@ -113,7 +113,7 @@ return [
             'RenderingEngine_Version' => '2.8',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
     ],
     'issue-687-D' => [
         'Opera/9.80 (Windows Phone; Opera Mini/8.0.4/36.2534; U; en) Presto/2.12.423 Version/12.16',
@@ -151,7 +151,7 @@ return [
             'RenderingEngine_Version' => '2.8',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
     ],
     'issue-687-E' => [
         'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) coc_coc_browser/49.0 Chrome/43.0.2357.126_coc_coc Safari/537.36',
@@ -189,7 +189,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite' => true,
+        'lite' => false,
     ],
     'issue-687-G' => [
         'Opera/9.80 (Tizen; Opera Mini/7.6.9/36.2534; U; en) Presto/2.12.423 Version/12.16',
@@ -227,7 +227,7 @@ return [
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
     ],
     'issue-687-H' => [
         'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) coc_coc_browser/49.0 Chrome/43.0.2357.126_coc_coc Safari/537.36',
@@ -265,7 +265,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite' => true,
+        'lite' => false,
     ],
     'issue-687-J' => [
         'Mozilla/5.0 (X11; OpenBSD i386) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36',
@@ -341,7 +341,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite' => true,
+        'lite' => false,
     ],
     'issue-687-L' => [
         'UCWEB/2.0(BlackBerry; U; 4.2.0.201; en-us; 8530/4.2.0.201) U2/1.0.0 UCBrowser/8.1.0.216 U2/1.0.0 Mobile',
@@ -455,7 +455,7 @@ return [
             'RenderingEngine_Version' => '2.8',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
     ],
     'issue-687-O' => [
         'Nokia305/2.0 (05.92) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; Nokia305) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
@@ -623,7 +623,7 @@ return [
             'Platform_Version' => '7.1',
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Research In Motion Limited',
-            'isMobileDevice' => false,
+            'isMobileDevice' => true,
             'isTablet' => false,
             'Crawler' => false,
             'JavaScript' => false,
@@ -645,7 +645,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
-        'lite' => true,
+        'lite' => false,
     ],
     'issue-687-T' => [
         'Agent:Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36',
@@ -699,7 +699,7 @@ return [
             'Platform_Version' => '7.1',
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Research In Motion Limited',
-            'isMobileDevice' => false,
+            'isMobileDevice' => true,
             'isTablet' => false,
             'Crawler' => false,
             'JavaScript' => false,
@@ -721,7 +721,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
-        'lite' => true,
+        'lite' => false,
     ],
     'issue-687-V' => [
         'UCWEB/2.0 (MIDP-2.0; U; Adr 5.0; en-US; Micromax_A106) U2/1.0.0 UCBrowser/9.7.0.520 U2/1.0.0 Mobile',
@@ -949,7 +949,7 @@ return [
             'RenderingEngine_Version' => '2.8',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
     ],
     'issue-687-AB' => [
         'NokiaX2-01/5.0 (08.63) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; id; NokiaX2-01) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
@@ -1064,7 +1064,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite' => true,
+        'lite' => false,
     ],
     'issue-687-AE' => [
         'UCWEB/2.0 (MIDP-2.0; U; Adr 5.0; en-US; Micromax_A106) U2/1.0.0 UCBrowser/10.1.5.583 U2/1.0.0 Mobile',
@@ -1178,7 +1178,7 @@ return [
             'RenderingEngine_Version' => '2.8',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
     ],
     'issue-687-AH' => [
         'Nokia200/2.0 (11.95) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; Nokia200) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
@@ -1634,7 +1634,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
-        'lite' => true,
+        'lite' => false,
     ],
     'issue-687-AT' => [
         'UCWEB/2.0(BlackBerry; U; 6.6.0.236; en-us; 9700/6.6.0.236) U2/1.0.0 UCBrowser/8.1.0.216 U2/1.0.0 Mobile',
@@ -1710,7 +1710,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite' => true,
+        'lite' => false,
     ],
     'issue-687-AV' => [
         'Opera/9.80 (BlackBerry; Opera Mini/4.5.33868/36.2534; U; en) Presto/2.12.423 Version/12.16',
@@ -1741,14 +1741,14 @@ return [
             'Device_Name' => 'Blackberry',
             'Device_Maker' => 'Research In Motion Limited',
             'Device_Type' => 'Mobile Phone',
-            'Device_Pointing_Method' => 'touchscreen',
+            'Device_Pointing_Method' => 'unknown',
             'Device_Code_Name' => 'Blackberry',
             'Device_Brand_Name' => 'RIM',
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
     ],
     'issue-687-AW' => [
         'NokiaC2-03/2.0 (07.63) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; NokiaC2-03) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
@@ -1938,7 +1938,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
-        'lite' => true,
+        'lite' => false,
     ],
     'issue-687-BB' => [
         'NokiaX3-02/5.0 (07.51) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; NokiaX3-02) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
