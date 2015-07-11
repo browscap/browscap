@@ -1,6 +1,6 @@
 {
   "division": "Opera Mini #MAJORVER#.#MINORVER#",
-  "versions": [28, 26, 24, 20, 10, "9.1", 9, 8],
+  "versions": [28, 26, 24, 20, 19, 10, "9.1", 9, 8],
   "sortIndex": 1931,
   "lite": false,
   "userAgents": [
@@ -86,19 +86,21 @@
         },
         {
           "match": "Opera\/*(*Windows Phone*Opera Mini\/#MAJORVER#.*)*",
-          "device": "general Mobile Phone",
+          "device": "general Mobile Phone (Touch)",
           "platforms": [
             "WinPhone"
           ]
         },
         {
           "match": "Opera\/*(*BREW*Opera Mini\/#MAJORVER#.*)*",
+          "device": "general Mobile Phone",
           "platforms": [
             "Brew"
           ]
         },
         {
           "match": "Opera\/*(Tizen*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "device": "general Mobile Phone (Touch)",
           "platforms": [
             "Tizen"
           ]
@@ -127,6 +129,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) OPiOS\/#MAJORVER#.* Mobile\/* Safari\/*",
+          "device": "general Mobile Device (Apple)",
           "engine": "WebKit",
           "platforms": [
             "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0", "iOS_A_8_1",

@@ -123,6 +123,14 @@
         {
           "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9320*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.1*Safari\/*",
           "device": "Blackberry 9320"
+        },
+        {
+          "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9220*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.1*Safari\/*",
+          "device": "Blackberry 9220"
+        },
+        {
+          "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.1*Safari\/*",
+          "device": "Blackberry Blackberry"
         }
       ]
     }
