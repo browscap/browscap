@@ -9,7 +9,7 @@
         "Parent": "DefaultProperties",
         "Browser_Type": "Bot/Crawler",
         "Browser_Maker": "Microsoft Corporation",
-        "Comment": "MSN",
+        "Comment": "BingPreview",
         "Browser": "BingPreview",
         "Frames": "true",
         "IFrames": "true",

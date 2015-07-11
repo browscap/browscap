@@ -962,7 +962,7 @@
           "match": "Mozilla\/5.0 (compatible; coccoc\/1.0*",
           "properties": {
             "Browser": "Coccoc bot",
-            "Browser_Maker": "Coc Coc search engine",
+            "Browser_Maker": "Coc Coc Company Limited",
             "Version": "1.0",
             "MajorVer": "1",
             "MinorVer": "0"
@@ -972,7 +972,7 @@
           "match": "Mozilla\/5.0 (compatible; coccoc\/*",
           "properties": {
             "Browser": "Coccoc bot",
-            "Browser_Maker": "Coc Coc search engine"
+            "Browser_Maker": "Coc Coc Company Limited"
           }
         },
         {

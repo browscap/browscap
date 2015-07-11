@@ -509,6 +509,26 @@
       },
       "children": [
         {
+          "match": "UCWEB\/*(#PLATFORM#Micromax_A106) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "engine": "U2",
+          "device": "Micromax A106",
+          "platforms": [
+            "Android_5_0_C"
+          ]
+        },
+        {
+          "match": "UCWEB\/*(#PLATFORM#) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "engine": "U2",
+          "device": "general Mobile Phone (Touch)",
+          "platforms": [
+            "Android_2_1_C", "Android_2_2_C", "Android_2_3_D", "Android_4_0_C", "Android_4_1_C", "Android_4_2_C", "Android_4_3_C",
+            "Android_4_4_C",
+            "iOS_D_5_0", "iOS_D_5_1", "iOS_D_6_0", "iOS_D_6_1", "iOS_D_7_0", "iOS_D_7_1", "iOS_D_8_0",
+            "WinPhone7_B", "WinPhone8_B",
+            "SymbianOS_B"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#; Desktop) AppleWebKit\/* (KHTML, like Gecko) UCBrowser\/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "Vista_64", "Vista_32", "Win7_64", "Win7_32", "Win8_64", "Win8_32", "Win8_1_64", "Win8_1_32"
