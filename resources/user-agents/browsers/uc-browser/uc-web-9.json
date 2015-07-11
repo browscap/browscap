@@ -163,6 +163,14 @@
           ]
         },
         {
+          "match": "UCWEB\/*(#PLATFORM#Micromax_A106) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "engine": "U2",
+          "device": "Micromax A106",
+          "platforms": [
+            "Android_5_0_C"
+          ]
+        },
+        {
           "match": "UCWEB\/*(#PLATFORM#) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
           "engine": "U2",
           "device": "general Mobile Phone (Touch)",
@@ -253,9 +261,105 @@
           ]
         },
         {
-          "match": "Nokia5130c-2\/* Profile\/MIDP-2* UCWEB\/2.0 (*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/* Mobile",
+          "match": "Nokia5130c-2\/* Profile\/MIDP-2* UCWEB\/2.0 (*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/* Mobile*",
           "engine": "U2",
           "device": "Nokia 5130c-2",
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "Nokia305\/* Profile\/MIDP-2* UCWEB\/2.0 (*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/* Mobile*",
+          "engine": "U2",
+          "device": "Nokia 305",
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "Nokia308\/* Profile\/MIDP-2* UCWEB\/2.0 (*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/* Mobile*",
+          "engine": "U2",
+          "device": "Nokia 308",
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "Nokia311\/* Profile\/MIDP-2* UCWEB\/2.0 (*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/* Mobile*",
+          "engine": "U2",
+          "device": "Nokia 311",
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "Nokia110\/* Profile\/MIDP-2* UCWEB\/2.0 (*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/* Mobile*",
+          "engine": "U2",
+          "device": "Nokia 110",
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "Nokia210\/* Profile\/MIDP-2* UCWEB\/2.0 (*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/* Mobile*",
+          "engine": "U2",
+          "device": "Nokia 210",
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "Nokia200\/* Profile\/MIDP-2* UCWEB\/2.0 (*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/* Mobile*",
+          "engine": "U2",
+          "device": "Nokia 200",
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "Nokia205\/* Profile\/MIDP-2* UCWEB\/2.0 (*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/* Mobile*",
+          "engine": "U2",
+          "device": "Nokia 205",
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "Nokia206\/* Profile\/MIDP-2* UCWEB\/2.0 (*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/* Mobile*",
+          "engine": "U2",
+          "device": "Nokia 206",
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "NokiaX2-02\/* Profile\/MIDP-2* UCWEB\/2.0 (*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/* Mobile*",
+          "engine": "U2",
+          "device": "Nokia X2-02",
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "NokiaX2-01\/* Profile\/MIDP-2* UCWEB\/2.0 (*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/* Mobile*",
+          "engine": "U2",
+          "device": "Nokia X2-01",
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "NokiaX3-02\/* Profile\/MIDP-2* UCWEB\/2.0 (*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/* Mobile*",
+          "engine": "U2",
+          "device": "Nokia X3-02",
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "NokiaC2-03\/* Profile\/MIDP-2* UCWEB\/2.0 (*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/* Mobile*",
+          "engine": "U2",
+          "device": "Nokia C2-03",
           "platforms": [
             "JAVA"
           ]
