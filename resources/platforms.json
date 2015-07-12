@@ -2133,7 +2133,7 @@
       "lite": false,
       "inherits": "Android",
       "properties": {
-        "Platform_Version": "2.2"
+        "Platform_Version": "2.1"
       }
     },
     "Android_2_2": {

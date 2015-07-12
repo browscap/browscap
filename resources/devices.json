@@ -4416,6 +4416,18 @@
         "isTablet": "false"
       }
     },
+    "Samsung SM-G355H": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SM-G355H",
+        "Device_Name": "Galaxy Core II Dual SIM",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Samsung SM-G3502L": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -16008,6 +16020,18 @@
         "isTablet": "false"
       }
     },
+    "Huawei Y320-U30": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Y320-U30",
+        "Device_Name": "Ascend Y320",
+        "Device_Maker": "Huawei",
+        "Device_Brand_Name": "Huawei",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Huawei Y330-U01": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -18137,6 +18161,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "6700c",
         "Device_Name": "6700c",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 6700s": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "6700s",
+        "Device_Name": "6700s",
         "Device_Maker": "Nokia",
         "Device_Brand_Name": "Nokia",
         "Device_Pointing_Method": "unknown",

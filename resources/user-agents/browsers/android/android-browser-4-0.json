@@ -5535,6 +5535,13 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-G355H Build\/*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "device": "Samsung SM-G355H",
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
           "match": "Lenovo A390*Mozilla\/5.0 (#PLATFORM#Lenovo A390*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "device": "Lenovo A390",
           "platforms": [
