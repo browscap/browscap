@@ -28,6 +28,7 @@
       "children": [
         {
           "match": "Mozilla\/5.0 (#PLATFORM#gxt_dongle_3188 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Chrome\/*Safari\/* bdbrowserhd_i18n\/#MAJORVER#.#MINORVER#*",
+          "engine": "Blink",
           "device": "Andoer CX919",
           "platforms": [
             "Android_4_4"

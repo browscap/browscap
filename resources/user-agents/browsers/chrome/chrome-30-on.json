@@ -897,7 +897,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#LT22i Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "device": "SonyEricsson LT22i",
           "platforms": [
-            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
+            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android_5_0"
           ]
         },
         {
@@ -3018,7 +3018,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#Norma 2 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "device": "Keneksi Norma 2",
           "platforms": [
-            "Android_4_4"
+            "Android_4_2"
           ]
         },
         {
@@ -3033,6 +3033,13 @@
           "device": "Samsung SCH-I815",
           "platforms": [
             "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#NT-3702M Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "device": "iconBIT NT-3702M",
+          "platforms": [
+            "Android_4_1"
           ]
         },
         {

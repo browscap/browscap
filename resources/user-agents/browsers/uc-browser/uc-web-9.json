@@ -147,6 +147,14 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#Lenovo S660 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "engine": "U3",
+          "device": "Lenovo S660",
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-S7562 *) AppleWebKit\/* (KHTML,*like Gecko*) *UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
           "engine": "U3",
           "device": "Samsung GT-S7562",
@@ -474,6 +482,14 @@
           "device": "Nokia 6700s",
           "platforms": [
             "SymbianOS_B"
+          ]
+        },
+        {
+          "match": "UCWEB\/*(#PLATFORM#LG-P765) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "engine": "U2",
+          "device": "LG P765",
+          "platforms": [
+            "Android_4_0_C"
           ]
         },
         {

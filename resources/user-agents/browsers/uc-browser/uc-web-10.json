@@ -361,11 +361,19 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#1080P-N003 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#N003 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
           "engine": "U3",
           "device": "NEO N003",
           "platforms": [
             "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#TCL M2U Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "engine": "U3",
+          "device": "TCL M2U",
+          "platforms": [
+            "Android_4_4"
           ]
         },
         {

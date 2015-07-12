@@ -7,7 +7,7 @@
     {
       "userAgent": "Flipboard App #MAJORVER#.#MINORVER#",
       "platform": "Android",
-      "engine": "Blink",
+      "engine": "WebKit",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",

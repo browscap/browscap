@@ -936,6 +936,18 @@
         "isTablet": "false"
       }
     },
+    "SonyEricsson SO-01E": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SO-01E",
+        "Device_Name": "Xperia AX (NTT Docomo)",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "SonyEricsson X10iv": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -5316,23 +5328,11 @@
         "isTablet": "false"
       }
     },
-    "Samsung SCH-I200": {
+    "Samsung SCH-I510": {
       "properties": {
         "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "SCH-I200",
-        "Device_Name": "Galaxy Stellar 4G",
-        "Device_Maker": "Samsung",
-        "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
-    "Samsung SCH-I605": {
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "SCH-I605",
-        "Device_Name": "Galaxy Note II",
+        "Device_Code_Name": "SCH-I510",
+        "Device_Name": "Droid Charge I510 CDMA+LTE (Verizon)",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "touchscreen",
@@ -5357,6 +5357,30 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SCH-I545",
         "Device_Name": "Galaxy S4 LTE (Verizon), White Frost 16GB",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung SCH-I200": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SCH-I200",
+        "Device_Name": "Galaxy Stellar 4G",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung SCH-I605": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SCH-I605",
+        "Device_Name": "Galaxy Note II",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "touchscreen",
@@ -8129,6 +8153,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "T00N",
         "Device_Name": "T00N",
+        "Device_Maker": "Asus",
+        "Device_Brand_Name": "Asus",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Asus T00J": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "T00J",
+        "Device_Name": "ZenFone 5",
         "Device_Maker": "Asus",
         "Device_Brand_Name": "Asus",
         "Device_Pointing_Method": "touchscreen",
@@ -12648,6 +12684,18 @@
         "isTablet": "false"
       }
     },
+    "LG P765": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "P765",
+        "Device_Name": "Optimus L9 (India)",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "LG P880": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -16100,6 +16148,18 @@
         "Device_Maker": "Huawei",
         "Device_Brand_Name": "Huawei",
         "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Huawei Y330-U11": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Y330-U11",
+        "Device_Name": "Ascend Y330",
+        "Device_Maker": "Huawei",
+        "Device_Brand_Name": "Huawei",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -21192,6 +21252,18 @@
         "isTablet": "true"
       }
     },
+    "Lenovo S660": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "S660",
+        "Device_Name": "S660",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Lenovo A3000-H": {
       "properties": {
         "Device_Type": "Tablet",
@@ -25272,6 +25344,18 @@
         "isTablet": "false"
       }
     },
+    "Fly IQ444": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Diamond 2 Quattro",
+        "Device_Code_Name": "IQ444",
+        "Device_Maker": "Fly",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Fly",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Zeki TBD1083": {
       "properties": {
         "Device_Type": "Tablet",
@@ -26232,6 +26316,18 @@
         "isTablet": "false"
       }
     },
+    "ThL W7": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "W7",
+        "Device_Code_Name": "W7",
+        "Device_Maker": "ThL",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "ThL",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "ThL W8": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -26357,6 +26453,18 @@
         "Device_Type": "Tablet",
         "Device_Name": "NetTAB SKY 3G Plus",
         "Device_Code_Name": "NT-3710S",
+        "Device_Maker": "iconBIT",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "iconBIT",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "iconBIT NT-3702M": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "NetTAB Matrix 3G Duo",
+        "Device_Code_Name": "NT-3702M",
         "Device_Maker": "iconBIT",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "iconBIT",
@@ -28090,6 +28198,54 @@
         "Device_Brand_Name": "Bravis",
         "isMobileDevice": "true",
         "isTablet": "true"
+      }
+    },
+    "Fnac Phablet 4.5": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "Phablet 4.5",
+        "Device_Code_Name": "Phablet 4.5",
+        "Device_Maker": "Fnac",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Fnac",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Etuline T880G": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "T880G",
+        "Device_Code_Name": "T880G",
+        "Device_Maker": "Etuline",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Etuline",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "TCL M2U": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "M2U",
+        "Device_Code_Name": "M2U",
+        "Device_Maker": "TCL",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "TCL",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Radxa Rock": {
+      "properties": {
+        "Device_Type": "Desktop",
+        "Device_Name": "Rock",
+        "Device_Code_Name": "Rock",
+        "Device_Maker": "Radxa",
+        "Device_Pointing_Method": "mouse",
+        "Device_Brand_Name": "Radxa",
+        "isMobileDevice": "false",
+        "isTablet": "false"
       }
     }
   }

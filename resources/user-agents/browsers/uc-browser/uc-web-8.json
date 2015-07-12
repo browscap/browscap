@@ -90,18 +90,17 @@
         {
           "match": "UCWEB\/*(Linux; U; Opera Mini\/*GT-S7262) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
           "engine": "U2",
-          "device": "Samsung GT-S7262"
+          "device": "Samsung GT-S7262",
+          "platforms": [
+            "Android"
+          ]
         },
         {
-          "match": "Mozilla\/5.0 (Java;*samsung-gt-s5263) UCBrowser#MAJORVER#.#MINORVER#*UCWEB*Mobile*UNTRUSTED\/*",
-          "device": "Samsung GT-S5263",
-          "properties": {
-            "Version": "8.2",
-            "MajorVer": "8",
-            "MinorVer": "2"
-          },
+          "match": "UCWEB\/2.0 (Linux; U; Opera Mini\/*; ASUS_T00J) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
+          "engine": "U2",
+          "device": "Asus T00J",
           "platforms": [
-            "JAVA"
+            "Android"
           ]
         },
         {
@@ -118,6 +117,13 @@
           "device": "general Mobile Phone (Touch)",
           "platforms": [
             "Android"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (Java;*samsung-gt-s5263) UCBrowser#MAJORVER#.#MINORVER#*UCWEB*Mobile*UNTRUSTED\/*",
+          "device": "Samsung GT-S5263",
+          "platforms": [
+            "JAVA"
           ]
         },
         {

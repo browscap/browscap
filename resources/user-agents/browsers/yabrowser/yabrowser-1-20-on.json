@@ -422,6 +422,20 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#T880G Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/* YaBrowser\/#MAJORVER#.#MINORVER#* Safari\/*",
+          "device": "Etuline T880G",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#radxa rock Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/* YaBrowser\/#MAJORVER#.#MINORVER#* Safari\/*",
+          "device": "Radxa Rock",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/* YaBrowser\/#MAJORVER#.#MINORVER#* Safari\/*",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android_5_0", "Android"
