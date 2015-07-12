@@ -2401,6 +2401,14 @@
         "Platform_Version": "4.4"
       }
     },
+    "Android_4_5": {
+      "match": "*Linux*Android?4.5*",
+      "lite": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "4.5"
+      }
+    },
     "Android_5_0": {
       "match": "*Linux*Android?5.0*",
       "lite": false,

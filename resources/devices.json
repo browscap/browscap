@@ -2028,6 +2028,18 @@
         "isTablet": "true"
       }
     },
+    "Sony SGP412": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SGP412",
+        "Device_Name": "Xperia Z Ultra WiFi",
+        "Device_Maker": "Sony",
+        "Device_Brand_Name": "Sony",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Sony D6603": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -5364,6 +5376,18 @@
         "isTablet": "false"
       }
     },
+    "Samsung SCH-I815": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SCH-I815",
+        "Device_Name": "Galaxy Tab 7.7 CDMA + LTE",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Samsung SCH-R880": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -7412,6 +7436,18 @@
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung SHV-E160S": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SHV-E160S",
+        "Device_Name": "Galaxy Note LTE",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -10524,6 +10560,18 @@
         "isTablet": "false"
       }
     },
+    "HTC Desire 300": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Desire 300",
+        "Device_Name": "Desire 300",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "HTC Desire 310": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -10772,6 +10820,18 @@
         "Device_Maker": "HTC",
         "Device_Brand_Name": "HTC",
         "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC Sensation 4G": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Sensation 4G",
+        "Device_Name": "Sensation 4G",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -16152,6 +16212,18 @@
         "isTablet": "false"
       }
     },
+    "Huawei H30-U10": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "H30-U10",
+        "Device_Name": "Honor 3C",
+        "Device_Maker": "Huawei",
+        "Device_Brand_Name": "Huawei",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "UTStarcom GTX75": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -20184,6 +20256,18 @@
         "isTablet": "false"
       }
     },
+    "ZTE Blade L2": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Blade L2",
+        "Device_Name": "Blade L2",
+        "Device_Maker": "ZTE",
+        "Device_Brand_Name": "ZTE",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "ZTE Beeline Pro": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -21576,6 +21660,18 @@
         "isTablet": "false"
       }
     },
+    "Lenovo AT1010-T": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "AT1010-T",
+        "Device_Name": "AT1010-T",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Malata I50": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -22181,6 +22277,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "PAP4500DUO",
         "Device_Name": "MultiPhone 4500 Duo",
+        "Device_Maker": "Prestigio",
+        "Device_Brand_Name": "Prestigio",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Prestigio PAP4044DUO": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "PAP4044DUO",
+        "Device_Name": "MultiPhone 4044 Duo",
         "Device_Maker": "Prestigio",
         "Device_Brand_Name": "Prestigio",
         "Device_Pointing_Method": "touchscreen",
@@ -26196,14 +26304,26 @@
         "isTablet": "true"
       }
     },
-    "KENEKSI Crystal": {
+    "Keneksi Crystal": {
       "properties": {
         "Device_Type": "Mobile Phone",
         "Device_Name": "Crystal",
         "Device_Code_Name": "Crystal",
-        "Device_Maker": "KENEKSI",
+        "Device_Maker": "Keneksi",
         "Device_Pointing_Method": "touchscreen",
-        "Device_Brand_Name": "KENEKSI",
+        "Device_Brand_Name": "Keneksi",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Keneksi Norma 2": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Norma 2",
+        "Device_Code_Name": "Norma 2",
+        "Device_Maker": "Keneksi",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Keneksi",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -26417,6 +26537,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Name": "Valencia",
         "Device_Code_Name": "BQS-4007",
+        "Device_Maker": "BQ",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "BQ",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "BQ BQS-4005": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Seoul",
+        "Device_Code_Name": "BQS-4005",
         "Device_Maker": "BQ",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "BQ",
@@ -26768,6 +26900,18 @@
         "Device_Maker": "Suntech",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Suntech",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Sunstech TAB785DUAL": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "TAB785DUAL",
+        "Device_Code_Name": "TAB785DUAL",
+        "Device_Maker": "Sunstech",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Sunstech",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -27886,6 +28030,66 @@
         "Device_Brand_Name": "Sunup",
         "isMobileDevice": "true",
         "isTablet": "false"
+      }
+    },
+    "Axioo PicoPad S1": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "PicoPad S1 (WiFi + 3G)",
+        "Device_Code_Name": "PicoPad S1",
+        "Device_Maker": "Axioo",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Axioo",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Doogee DG800": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Valencia",
+        "Device_Code_Name": "DG800",
+        "Device_Maker": "Doogee",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Doogee",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Doogee DG2014": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Turbo",
+        "Device_Code_Name": "DG2014",
+        "Device_Maker": "Doogee",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Doogee",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Artel Adi5S": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Adi5S",
+        "Device_Code_Name": "Adi5S",
+        "Device_Maker": "Artel",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Artel",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Bravis NP 844": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "NP 844",
+        "Device_Code_Name": "NP 844",
+        "Device_Maker": "Bravis",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Bravis",
+        "isMobileDevice": "true",
+        "isTablet": "true"
       }
     }
   }

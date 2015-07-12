@@ -139,6 +139,14 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#DG800 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "engine": "U3",
+          "device": "Doogee DG800",
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-S7562 *) AppleWebKit\/* (KHTML,*like Gecko*) *UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
           "engine": "U3",
           "device": "Samsung GT-S7562",
@@ -587,6 +595,22 @@
           "match": "UCWEB\/2.0 (Linux; U; Opera Mini\/*; thl_4400) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
           "engine": "U2",
           "device": "ThL 4400",
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
+          "match": "UCWEB\/2.0 (Linux; U; Opera Mini\/*; Adi_5S) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
+          "engine": "U2",
+          "device": "Artel Adi5S",
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
+          "match": "UCWEB\/2.0 (Linux; U; Opera Mini\/*; SM-T2105) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
+          "engine": "U2",
+          "device": "Samsung SM-T2105",
           "platforms": [
             "Android_4_0"
           ]

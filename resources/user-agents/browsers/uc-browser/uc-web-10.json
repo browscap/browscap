@@ -401,6 +401,14 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#ZTE Blade L2 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "engine": "U3",
+          "device": "ZTE Blade L2",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM# Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
           "platforms": [
             "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android_5_0", "Android"
@@ -490,6 +498,22 @@
           "device": "GT-I5500",
           "platforms": [
             "Android_2_1_C"
+          ]
+        },
+        {
+          "match": "UCWEB\/*(#PLATFORM#PICOpad_S1*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "engine": "U2",
+          "device": "Axioo PicoPad S1",
+          "platforms": [
+            "Android_4_4_C"
+          ]
+        },
+        {
+          "match": "UCWEB\/*(#PLATFORM#H30-U10) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "engine": "U2",
+          "device": "Huawei H30-U10",
+          "platforms": [
+            "Android_4_2_C"
           ]
         },
         {
