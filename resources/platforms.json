@@ -2513,6 +2513,10 @@
         "Platform_Bits": "32"
       }
     },
+    "OpenBSD_386": {
+      "match": "*OpenBSD*i386*",
+      "inherits": "OpenBSD"
+    },
     "NetBSD": {
       "match": "*NetBSD*",
       "lite": false,
@@ -2642,6 +2646,13 @@
     },
     "RIMOS_4_2": {
       "match": "*BlackBerry; U*",
+      "inherits": "RIMOS",
+      "properties": {
+        "Platform_Version": "4.2"
+      }
+    },
+    "RIMOS_4_2_B": {
+      "match": "*BlackBerry; U; 4.2*",
       "inherits": "RIMOS",
       "properties": {
         "Platform_Version": "4.2"
