@@ -81,13 +81,6 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#HTC Desire 300 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* T5\/* bdbrowser_i18n\/#MAJORVER#.#MINORVER#*",
-          "device": "HTC Desire 300",
-          "platforms": [
-            "Android_4_1"
-          ]
-        },
-        {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* T5\/* bdbrowser_i18n\/#MAJORVER#.#MINORVER#*",
           "engine": "T5",
           "platforms": [
@@ -103,6 +96,14 @@
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3",
             "Android_4_4", "Android_5_0",
             "Android"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#HTC Desire 300 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* bdbrowser_i18n\/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "device": "HTC Desire 300",
+          "platforms": [
+            "Android_4_1"
           ]
         },
         {

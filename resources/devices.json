@@ -20004,6 +20004,18 @@
         "isTablet": "false"
       }
     },
+    "Alcatel OT-6035R": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "OT-6035R",
+        "Device_Name": "One Touch Idol S",
+        "Device_Maker": "Alcatel",
+        "Device_Brand_Name": "Alcatel",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Fairphone FP1": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -21742,6 +21754,18 @@
         "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
+      }
+    },
+    "Lenovo S2109A-F": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "S2109A-F",
+        "Device_Name": "Ideatab S2109A",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
       }
     },
     "Malata I50": {
@@ -23753,6 +23777,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Name": "Studio 5.0 S II",
         "Device_Code_Name": "Studio 5.0 S II",
+        "Device_Maker": "BLU",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "BLU",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "BLU Studio 5.5": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Studio 5.5",
+        "Device_Code_Name": "Studio 5.5",
         "Device_Maker": "BLU",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "BLU",
@@ -28245,6 +28281,18 @@
         "Device_Pointing_Method": "mouse",
         "Device_Brand_Name": "Radxa",
         "isMobileDevice": "false",
+        "isTablet": "false"
+      }
+    },
+    "Kyocera DM015K": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Disney Mobile",
+        "Device_Code_Name": "DM015K",
+        "Device_Maker": "Kyocera",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Kyocera",
+        "isMobileDevice": "true",
         "isTablet": "false"
       }
     }

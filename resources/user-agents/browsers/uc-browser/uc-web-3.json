@@ -113,8 +113,28 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#GT-I8160 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Chrome\/*Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
+          "engine": "Blink",
+          "device": "Samsung GT-I8160",
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
           "engine": "WebKit",
+          "platforms": [
+            "Android_2_3",
+            "Android_4_0",
+            "Android_4_1",
+            "Android_4_2",
+            "Android_4_3",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Chrome\/*Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
+          "engine": "Blink",
           "platforms": [
             "Android_2_3",
             "Android_4_0",
