@@ -83,6 +83,13 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#FP1U Build\/*)*AppleWebKit\/*(*KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "device": "Fairphone FP1U",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#FP1 Build\/*)*AppleWebKit\/*(*KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
           "device": "Fairphone FP1",
           "platforms": [
@@ -5255,6 +5262,13 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#ImPAD 0413 Build\/*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "device": "Impression ImPAD 0413",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#AC0732C Build\/*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "device": "3Q AC0732C",
           "platforms": [
@@ -5600,6 +5614,13 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#DM015K Build\/*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "device": "Kyocera DM015K",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#GT-I9060 Build\/*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "device": "Samsung GT-I9060",
           "platforms": [
             "Android_4_2"
           ]

@@ -337,6 +337,22 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#GT-S6500T Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
+          "engine": "WebKit",
+          "device": "Samsung GT-S6500T",
+          "platforms": [
+            "Android_2_3"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#GT-I9060 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
+          "engine": "WebKit",
+          "device": "Samsung GT-I9060",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
           "engine": "WebKit",
           "platforms": [
@@ -490,6 +506,14 @@
           "device": "LG P765",
           "platforms": [
             "Android_4_0_C"
+          ]
+        },
+        {
+          "match": "UCWEB\/*(#PLATFORM#MB300) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "engine": "U2",
+          "device": "Motorola MB300",
+          "platforms": [
+            "Android_2_3_D"
           ]
         },
         {

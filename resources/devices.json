@@ -1344,6 +1344,18 @@
         "isTablet": "false"
       }
     },
+    "Sony C6606": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "C6606",
+        "Device_Name": "Xperia Z 4G LTE",
+        "Device_Maker": "Sony",
+        "Device_Brand_Name": "Sony",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Sony LT25i": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -3084,6 +3096,18 @@
         "isTablet": "false"
       }
     },
+    "Samsung GT-I9060L": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GT-I9060L",
+        "Device_Name": "Galaxy Grand Neo",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "GT-S5830": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -3284,6 +3308,18 @@
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung GT-S6500T": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GT-S6500T",
+        "Device_Name": "Galaxy Mini 2",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -4524,6 +4560,18 @@
         "isTablet": "false"
       }
     },
+    "Samsung SM-G710L": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SM-G710L",
+        "Device_Name": "Galaxy Grand 2 LTE",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Samsung SM-P600": {
       "properties": {
         "Device_Type": "Tablet",
@@ -4709,6 +4757,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SM-N910C",
         "Device_Name": "Galaxy Note 4 LTE (Asia, Europe, South America)",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung SM-N910G": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SM-N910G",
+        "Device_Name": "Galaxy Note 4 LTE (Singapore, India, Australia)",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "touchscreen",
@@ -5285,6 +5345,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SGH-I337M",
         "Device_Name": "Galaxy S4 (Canada)",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung SGH-I257": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SGH-I257",
+        "Device_Name": "Galaxy S4 Mini (AT&T)",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "touchscreen",
@@ -8117,6 +8189,18 @@
         "Device_Type": "Tablet",
         "Device_Code_Name": "K012",
         "Device_Name": "K012",
+        "Device_Maker": "Asus",
+        "Device_Brand_Name": "Asus",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Asus K013": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "K013",
+        "Device_Name": "MeMO Pad 7",
         "Device_Maker": "Asus",
         "Device_Brand_Name": "Asus",
         "Device_Pointing_Method": "touchscreen",
@@ -20028,6 +20112,18 @@
         "isTablet": "false"
       }
     },
+    "Fairphone FP1U": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "FP1U",
+        "Device_Name": "FP1U",
+        "Device_Maker": "Fairphone",
+        "Device_Brand_Name": "Fairphone",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Intenso INM8002KP": {
       "properties": {
         "Device_Type": "Tablet",
@@ -21792,6 +21888,18 @@
         "isTablet": "true"
       }
     },
+    "Lexand A811": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "A811",
+        "Device_Name": "A811",
+        "Device_Maker": "Lexand",
+        "Device_Brand_Name": "Lexand",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Arnova 7CG2": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -22596,6 +22704,18 @@
         "isTablet": "false"
       }
     },
+    "ZOPO ZP980": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "ZP980",
+        "Device_Name": "ZP980",
+        "Device_Maker": "ZOPO",
+        "Device_Brand_Name": "ZOPO",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "TechniSat TechniPad 10 3G": {
       "properties": {
         "Device_Type": "Tablet",
@@ -22625,6 +22745,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "X909",
         "Device_Name": "Find 5",
+        "Device_Maker": "OPPO",
+        "Device_Brand_Name": "OPPO",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "OPPO R815": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "R815",
+        "Device_Name": "R815",
         "Device_Maker": "OPPO",
         "Device_Brand_Name": "OPPO",
         "Device_Pointing_Method": "touchscreen",
@@ -25980,6 +26112,18 @@
         "isTablet": "true"
       }
     },
+    "Digma iDrQ10 3G": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "iDrQ10 3G",
+        "Device_Code_Name": "iDrQ10 3G",
+        "Device_Maker": "Digma",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Digma",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "ZONDA ZMNG1900": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -26940,6 +27084,18 @@
         "isTablet": "true"
       }
     },
+    "Explay Art 3G": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "Art 3G",
+        "Device_Code_Name": "Art 3G",
+        "Device_Maker": "Explay",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Explay",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "PMEDIA PMSmart450": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -26981,6 +27137,18 @@
         "Device_Type": "Tablet",
         "Device_Name": "ImPAD 6213M V2",
         "Device_Code_Name": "ImPAD 6213M V2",
+        "Device_Maker": "Impression",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Impression",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Impression ImPAD 0413": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "ImPAD 0413",
+        "Device_Code_Name": "ImPAD 0413",
         "Device_Maker": "Impression",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Impression",
@@ -28294,6 +28462,18 @@
         "Device_Brand_Name": "Kyocera",
         "isMobileDevice": "true",
         "isTablet": "false"
+      }
+    },
+    "Prology Tab-970": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "Evolution",
+        "Device_Code_Name": "Tab-970",
+        "Device_Maker": "Prology",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Prology",
+        "isMobileDevice": "true",
+        "isTablet": "true"
       }
     }
   }
