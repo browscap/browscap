@@ -5388,6 +5388,13 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#E-TAB IVORY Build\/*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "device": "Lava E-Tab IVORY",
+          "platforms": [
+            "Android_4_1"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#GOCLEVER TAB A93.2 Build\/*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "device": "GOCLEVER A93.2",
           "platforms": [

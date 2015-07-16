@@ -400,6 +400,14 @@
         "Platform_Version": "8.3"
       }
     },
+    "iOS_A_8_4": {
+      "match": "*CPU iPhone OS 8?4* like Mac OS X*",
+      "lite": false,
+      "inherits": "iOS",
+      "properties": {
+        "Platform_Version": "8.4"
+      }
+    },
     "iOS_A_dynamic": {
       "match": "*CPU iPhone OS #MAJORVER#?#MINORVER#* like Mac OS X*",
       "lite": false,
@@ -575,6 +583,14 @@
       "inherits": "iOS",
       "properties": {
         "Platform_Version": "8.3"
+      }
+    },
+    "iOS_C_8_4": {
+      "match": "*CPU OS 8_4* like Mac OS X*",
+      "lite": false,
+      "inherits": "iOS",
+      "properties": {
+        "Platform_Version": "8.4"
       }
     },
     "iOS_C_dynamic": {
