@@ -25031,6 +25031,18 @@
         "isMobileDevice": "true",
         "isTablet": "false"
       }
+    },
+    "Lava E-Tab IVORY": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "E-Tab IVORY",
+        "Device_Code_Name": "E-Tab IVORY",
+        "Device_Maker": "Lava",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Lava",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
     }
   }
 }

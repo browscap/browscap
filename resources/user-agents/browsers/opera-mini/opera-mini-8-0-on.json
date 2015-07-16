@@ -1,6 +1,6 @@
 {
   "division": "Opera Mini #MAJORVER#.#MINORVER#",
-  "versions": [28, 26, 24, 20, 19, 10, "9.1", 9, 8],
+  "versions": [28, 26, 24, 20, 19, "10.2", "10.1", 10, "9.1", 9, 8],
   "sortIndex": 1931,
   "lite": false,
   "userAgents": [
@@ -27,7 +27,7 @@
       },
       "children": [
         {
-          "match": "Opera\/*(*Android*Opera Mini\/#MAJORVER#.*)*",
+          "match": "Opera\/*(*Android*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
           "device": "general Mobile Phone (Touch)",
           "platforms": [
             "Android"
@@ -41,14 +41,14 @@
           ]
         },
         {
-          "match": "Opera\/*(*BlackBerry*Opera Mini\/#MAJORVER#.*)*",
+          "match": "Opera\/*(*BlackBerry*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
           "device": "Blackberry Blackberry",
           "platforms": [
             "RIMOS"
           ]
         },
         {
-          "match": "Opera\/*(*iPad*Opera Mini\/#MAJORVER#.*)*",
+          "match": "Opera\/*(*iPad*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
           "device": "iPad",
           "engine": "WebKit",
           "platforms": [
@@ -56,7 +56,7 @@
           ]
         },
         {
-          "match": "Opera\/*(*iPhone*Opera Mini\/#MAJORVER#.*)*",
+          "match": "Opera\/*(*iPhone*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
           "device": "iPhone",
           "engine": "WebKit",
           "platforms": [
@@ -64,35 +64,35 @@
           ]
         },
         {
-          "match": "Opera\/*(*J2ME\/MIDP*Opera Mini\/#MAJORVER#.*)*",
+          "match": "Opera\/*(*J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
           "device": "general Mobile Phone",
           "platforms": [
             "JAVA"
           ]
         },
         {
-          "match": "Opera\/*(*Series 60*Opera Mini\/#MAJORVER#.*)*",
+          "match": "Opera\/*(*Series 60*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
           "device": "general Mobile Phone",
           "platforms": [
             "SymbianOS"
           ]
         },
         {
-          "match": "Opera\/*(*Windows Mobile*Opera Mini\/#MAJORVER#.*)*",
+          "match": "Opera\/*(*Windows Mobile*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
           "device": "general Mobile Phone",
           "platforms": [
             "WinMobile"
           ]
         },
         {
-          "match": "Opera\/*(*Windows Phone*Opera Mini\/#MAJORVER#.*)*",
+          "match": "Opera\/*(*Windows Phone*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
           "device": "general Mobile Phone (Touch)",
           "platforms": [
             "WinPhone"
           ]
         },
         {
-          "match": "Opera\/*(*BREW*Opera Mini\/#MAJORVER#.*)*",
+          "match": "Opera\/*(*BREW*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
           "device": "general Mobile Phone",
           "platforms": [
             "Brew"
@@ -106,33 +106,33 @@
           ]
         },
         {
-          "match": "Opera\/*(*Bada*Opera Mini\/#MAJORVER#.*)*",
+          "match": "Opera\/*(*Bada*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
           "platforms": [
             "Bada_1_0"
           ]
         },
         {
-          "match": "* Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.*)*",
+          "match": "* Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
           "device": "general Mobile Phone",
           "platforms": [
             "JAVA"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (iPhone#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) OPiOS\/#MAJORVER#.* Mobile\/* Safari\/*",
+          "match": "Mozilla\/5.0 (iPhone#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) OPiOS\/#MAJORVER#.#MINORVER#* Mobile\/* Safari\/*",
           "engine": "WebKit",
           "device": "iPhone",
           "platforms": [
-            "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0", "iOS_A_8_1",
+            "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0", "iOS_A_8_1", "iOS_A_8_2", "iOS_A_8_3", "iOS_A_8_4",
             "iOS_A"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) OPiOS\/#MAJORVER#.* Mobile\/* Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) OPiOS\/#MAJORVER#.#MINORVER#* Mobile\/* Safari\/*",
           "device": "general Mobile Device (Apple)",
           "engine": "WebKit",
           "platforms": [
-            "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0", "iOS_A_8_1",
+            "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0", "iOS_A_8_1", "iOS_A_8_2", "iOS_A_8_3", "iOS_A_8_4",
             "iOS_A"
           ]
         }
