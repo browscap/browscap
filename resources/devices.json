@@ -4776,6 +4776,18 @@
         "isTablet": "false"
       }
     },
+    "Samsung SM-N910S": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SM-N910S",
+        "Device_Name": "Galaxy Note 4 LTE (Korea)",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Samsung SM-N915G": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -5712,6 +5724,30 @@
         "isTablet": "false"
       }
     },
+    "Samsung SGH-T809": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SGH-T809",
+        "Device_Name": "SGH-T809",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung SGH-T859": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "SGH-T859",
+        "Device_Name": "Galaxy Tab 10.1 (T-Mobile)",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Samsung SGH-T528g": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -5813,18 +5849,6 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SGH-T739",
         "Device_Name": "SGH-T739",
-        "Device_Maker": "Samsung",
-        "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
-    "Samsung SGH-T809": {
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "SGH-T809",
-        "Device_Name": "SGH-T809",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "unknown",
@@ -11172,6 +11196,18 @@
         "isTablet": "false"
       }
     },
+    "HTC T329D": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "T329D",
+        "Device_Name": "Desire XC",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "HTC PJ401": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -13205,6 +13241,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "D618",
         "Device_Name": "G2 mini Dual Sim",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG D690": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "D690",
+        "Device_Name": "G3 Stylus",
         "Device_Maker": "LG",
         "Device_Brand_Name": "LG",
         "Device_Pointing_Method": "touchscreen",
@@ -19824,6 +19872,18 @@
         "isTablet": "false"
       }
     },
+    "Alcatel OT-5042D": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "OT-5042D",
+        "Device_Name": "One Touch Pop 2",
+        "Device_Maker": "Alcatel",
+        "Device_Brand_Name": "Alcatel",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Alcatel OT-4012X": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -21271,6 +21331,18 @@
         "Device_Name": "Vibe Z LTE",
         "Device_Maker": "Lenovo",
         "Device_Brand_Name": "Vodafone",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Lenovo K900": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "K900",
+        "Device_Name": "IdeaPhone",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
         "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
@@ -24120,6 +24192,18 @@
         "isTablet": "false"
       }
     },
+    "Pantech IM-A900K": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Vega Secret Up",
+        "Device_Code_Name": "IM-A900K",
+        "Device_Maker": "Pantech",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Pantech",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "AUDIOVOX SMT5600": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -25452,6 +25536,18 @@
         "isTablet": "false"
       }
     },
+    "Fly IQ452": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "EGO",
+        "Device_Code_Name": "IQ452",
+        "Device_Maker": "Fly",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Fly",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Fly IQ4504": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -26496,6 +26592,18 @@
         "isTablet": "false"
       }
     },
+    "DNS S4503Q": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "S4503Q",
+        "Device_Code_Name": "S4503Q",
+        "Device_Maker": "DNS",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "DNS",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "ThL W7": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -26753,6 +26861,30 @@
         "Device_Type": "Mobile Phone",
         "Device_Name": "TM-3204R",
         "Device_Code_Name": "TM-3204R",
+        "Device_Maker": "TeXet",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "TeXet",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "TeXet TM-7055HD": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "NaviPad 3G",
+        "Device_Code_Name": "TM-7055HD",
+        "Device_Maker": "TeXet",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "TeXet",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "TeXet TM-5204": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "TM-5204",
+        "Device_Code_Name": "TM-5204",
         "Device_Maker": "TeXet",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "TeXet",
@@ -27288,6 +27420,30 @@
         "isTablet": "true"
       }
     },
+    "PiPO M8 3G": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "Max M8 3G",
+        "Device_Code_Name": "M8 3G",
+        "Device_Maker": "PiPO Technology",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "PiPO",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "PiPO M6": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "M6",
+        "Device_Code_Name": "M6",
+        "Device_Maker": "PiPO Technology",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "PiPO",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Honlin PC1088": {
       "properties": {
         "Device_Type": "Desktop",
@@ -27653,6 +27809,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Name": "Pacific 800i",
         "Device_Code_Name": "Pacific 800i",
+        "Device_Maker": "Oysters",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Oysters",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Oysters Pacific 800": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Pacific 800",
+        "Device_Code_Name": "Pacific 800",
         "Device_Maker": "Oysters",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Oysters",
@@ -28486,6 +28654,42 @@
         "Device_Brand_Name": "Lava",
         "isMobileDevice": "true",
         "isTablet": "true"
+      }
+    },
+    "DEX iP1020-8GB": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "iP1020-8GB",
+        "Device_Code_Name": "iP1020-8GB",
+        "Device_Maker": "DEX",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "DEX",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Assistant AP-804": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "AP-804",
+        "Device_Code_Name": "AP-804",
+        "Device_Maker": "Assistant",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Assistant",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Evercoss A66A": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Elevate Y",
+        "Device_Code_Name": "A66A",
+        "Device_Maker": "Evercoss",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Evercoss",
+        "isMobileDevice": "true",
+        "isTablet": "false"
       }
     }
   }

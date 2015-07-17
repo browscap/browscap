@@ -29,7 +29,6 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#TAB917QC-8GB Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* T5\/* bdbrowser_i18n\/#MAJORVER#.#MINORVER#*",
           "device": "Suntech TAB917QC 8GB",
-          "engine": "T5",
           "platforms": [
             "Android_4_4"
           ]
@@ -37,7 +36,6 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#TX18 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* T5\/* bdbrowser_i18n\/#MAJORVER#.#MINORVER#*",
           "device": "Irbis TX18",
-          "engine": "T5",
           "platforms": [
             "Android_4_2"
           ]
@@ -53,7 +51,6 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#IQ4415 Quad Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* T5\/* bdbrowser_i18n\/#MAJORVER#.#MINORVER#*",
           "device": "Fly IQ4415",
-          "engine": "T5",
           "platforms": [
             "Android_4_4"
           ]
@@ -78,6 +75,13 @@
           "device": "Amlogic M8",
           "platforms": [
             "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#Boost IIse Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* T5\/* bdbrowser_i18n\/#MAJORVER#.#MINORVER#*",
+          "device": "Highscreen Boost II SE",
+          "platforms": [
+            "Android_4_3"
           ]
         },
         {
