@@ -3377,7 +3377,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#GT-S7562 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "device": "Samsung GT-S7562",
           "platforms": [
-            "Android_4_0"
+            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {
@@ -5648,9 +5648,9 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#A66A Build\/*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "Oysters Pacific 800",
+          "device": "Evercoss A66A",
           "platforms": [
-            "Android_4_4"
+            "Android_4_2"
           ]
         },
         {

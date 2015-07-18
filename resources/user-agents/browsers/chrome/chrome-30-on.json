@@ -1069,6 +1069,13 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#GT-S7562L Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "device": "Samsung GT-S7562L",
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-S7710 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "device": "Samsung GT-S7710",
           "platforms": [
@@ -3080,6 +3087,27 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SM-N910S Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "device": "Samsung SM-N910S",
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#PAP5044DUO Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "device": "Prestigio PAP5044DUO",
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#TT7026MW Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "device": "Digma TT7026MW",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#LG-D410 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "device": "LG D410",
           "platforms": [
             "Android_4_4"
           ]

@@ -633,7 +633,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#S4503Q Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/* OPR\/#MAJORVER#.*",
           "device": "DNS S4503Q",
           "platforms": [
-            "Android_4_2"
+            "Android_4_1"
           ]
         },
         {

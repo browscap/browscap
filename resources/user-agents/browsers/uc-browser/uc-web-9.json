@@ -163,7 +163,39 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-S7562 *) AppleWebKit\/* (KHTML,*like Gecko*) *UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#GT-I9100 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#* Mobile Safari\/*",
+          "engine": "WebKit",
+          "device": "GT-I9100",
+          "platforms": [
+            "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#GT-I9100T Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#* Mobile Safari\/*",
+          "engine": "WebKit",
+          "device": "Samsung GT-I9100T",
+          "platforms": [
+            "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#LA-M1 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#* Mobile Safari\/*",
+          "engine": "WebKit",
+          "device": "Beidou LA-M1",
+          "platforms": [
+            "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#TM-5204 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Mobile Safari\/*",
+          "engine": "U3",
+          "device": "TeXet TM-5204",
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#GT-S7562 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
           "engine": "U3",
           "device": "Samsung GT-S7562",
           "platforms": [
@@ -171,27 +203,25 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-S7562 *) AppleWebKit\/* (KHTML,*like Gecko*) *UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#C1505 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
           "engine": "U3",
-          "device": "Samsung GT-S7562",
+          "device": "Sony C1505",
           "platforms": [
-            "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
+            "Android_4_1"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-S7562 *) AppleWebKit\/* (KHTML,*like Gecko*) *UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM# Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Mobile Safari\/*",
           "engine": "U3",
-          "device": "Samsung GT-S7562",
           "platforms": [
-            "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
+            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-S7562 *) AppleWebKit\/* (KHTML,*like Gecko*) *UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
-          "engine": "U3",
-          "device": "Samsung GT-S7562",
+          "match": "Mozilla\/5.0 (#PLATFORM# Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#* Mobile Safari\/*",
+          "engine": "WebKit",
           "platforms": [
-            "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
+            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {
@@ -248,14 +278,6 @@
           "device": "Samsung GT-S6802",
           "platforms": [
             "Android_2_3"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#C1505 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) *UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
-          "engine": "U3",
-          "device": "Sony C1505",
-          "platforms": [
-            "Android_4_1"
           ]
         },
         {
@@ -557,52 +579,6 @@
           "device": "general Mobile Phone",
           "platforms": [
             "JAVA"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-I9100 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#* Mobile Safari\/*",
-          "engine": "WebKit",
-          "device": "GT-I9100",
-          "platforms": [
-            "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-I9100T Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#* Mobile Safari\/*",
-          "engine": "WebKit",
-          "device": "Samsung GT-I9100T",
-          "platforms": [
-            "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#LA-M1 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#* Mobile Safari\/*",
-          "engine": "WebKit",
-          "device": "Beidou LA-M1",
-          "platforms": [
-            "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#TM-5204 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Mobile Safari\/*",
-          "engine": "U3",
-          "device": "TeXet TM-5204",
-          "platforms": [
-            "Android_4_0"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM# Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Mobile Safari\/*",
-          "engine": "U3",
-          "platforms": [
-            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM# Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#* Mobile Safari\/*",
-          "engine": "WebKit",
-          "platforms": [
-            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {

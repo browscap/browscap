@@ -3360,6 +3360,18 @@
         "isTablet": "false"
       }
     },
+    "Samsung GT-S7562L": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GT-S7562L",
+        "Device_Name": "Galaxy S Duos",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Samsung GT-S7710": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -7961,6 +7973,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SC-02C",
         "Device_Name": "Galaxy S II (NTT Docomo)",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung SC-02F": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SC-02F",
+        "Device_Name": "Galaxy J (NTT Docomo)",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "touchscreen",
@@ -15173,6 +15197,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "D415",
         "Device_Name": "Optimus L90",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG D410": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "D410",
+        "Device_Name": "Optimus L90 Dual",
         "Device_Maker": "LG",
         "Device_Brand_Name": "LG",
         "Device_Pointing_Method": "touchscreen",
@@ -22548,6 +22584,18 @@
         "isTablet": "false"
       }
     },
+    "Prestigio PAP5044DUO": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "PAP5044DUO",
+        "Device_Name": "MultiPhone 5044 Duo",
+        "Device_Maker": "Prestigio",
+        "Device_Brand_Name": "Prestigio",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Prestigio PAP4500DUO": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -26220,6 +26268,18 @@
         "isTablet": "false"
       }
     },
+    "Digma TT7026MW": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Optima 7.6",
+        "Device_Code_Name": "TT7026MW",
+        "Device_Maker": "Digma",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Digma",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "ZONDA ZMNG1900": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -28181,6 +28241,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Name": "Turbo X6",
         "Device_Code_Name": "Turbo X6",
+        "Device_Maker": "TurboPad",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "TurboPad",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "TurboPad 500": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "500",
+        "Device_Code_Name": "500",
         "Device_Maker": "TurboPad",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "TurboPad",
