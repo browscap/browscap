@@ -1,6 +1,6 @@
 {
   "division": "Samsung Browser #MAJORVER#.#MINORVER#",
-  "versions": [3, "2.1", 2],
+  "versions": ["3.2", "3.1", 3, "2.1", 2],
   "sortIndex": 955,
   "lite": false,
   "userAgents": [
@@ -57,7 +57,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM# Build\/*) AppleWebKit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "platforms": [
-            "Android_5_0"
+            "Android_5_0", "Android_5_1", "Android"
           ]
         }
       ]

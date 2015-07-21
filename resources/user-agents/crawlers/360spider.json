@@ -30,7 +30,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible; MSIE 9.0*; #PLATFORM#Trident\/5.0* 360Spider",
+          "match": "Mozilla\/5.0 (compatible; MSIE 9.0*; #PLATFORM#Trident\/5.0* 360Spider*",
           "device": "Windows Desktop",
           "platforms": [
             "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32",

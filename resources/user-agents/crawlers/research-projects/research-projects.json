@@ -147,12 +147,6 @@
           }
         },
         {
-          "match": "Steeler\/*",
-          "properties": {
-            "Browser": "Steeler"
-          }
-        },
-        {
           "match": "Taiga web spider",
           "properties": {
             "Browser": "Taiga"

@@ -1,0 +1,34 @@
+{
+  "division": "Steeler",
+  "sortIndex": 471,
+  "lite": false,
+  "userAgents": [
+    {
+      "userAgent": "Steeler",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Steeler",
+        "Browser": "Steeler",
+        "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "Kitsuregawa Laboratory, The University of Tokyo",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Steeler\/*"
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Steeler\/3.5*",
+          "properties": {
+            "Version": "3.5",
+            "MajorVer": "3",
+            "MinorVer": "5"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Steeler\/*"
+        }
+      ]
+    }
+  ]
+}
