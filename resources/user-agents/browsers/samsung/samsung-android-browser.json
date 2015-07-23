@@ -55,6 +55,20 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-G925R4 USCC Build\/*) AppleWebKit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "device": "Samsung SM-G925R4",
+          "platforms": [
+            "Android_5_1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-T530 Build\/*) AppleWebKit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "device": "Samsung SM-T530",
+          "platforms": [
+            "Android_5_0"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM# Build\/*) AppleWebKit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "platforms": [
             "Android_5_0", "Android_5_1", "Android"

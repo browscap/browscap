@@ -4176,6 +4176,18 @@
         "isTablet": "false"
       }
     },
+    "Samsung SM-G925R4": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SM-G925R4",
+        "Device_Name": "Galaxy S6 Edge (US Cellular)",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Samsung SM-G925F": {
       "properties": {
         "Device_Type": "Mobile Phone",
