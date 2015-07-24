@@ -24,7 +24,6 @@
         "Win64": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
-        "Browser_Maker": "Yandex",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
