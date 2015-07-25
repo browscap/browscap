@@ -7800,6 +7800,18 @@
         "isTablet": "true"
       }
     },
+    "Samsung GT-N8000D": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "GT-N8000D",
+        "Device_Name": "Galaxy Note 10.1 3G & WiFi",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Samsung GT-N8005": {
       "properties": {
         "Device_Type": "Tablet",
@@ -12804,6 +12816,18 @@
         "isTablet": "false"
       }
     },
+    "LG E615": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "E615",
+        "Device_Name": "Optimus L5 Dual",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "LG E975": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -12833,6 +12857,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "E988",
         "Device_Name": "E988",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG E989": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "E989",
+        "Device_Name": "Optimus G Pro 5.5",
         "Device_Maker": "LG",
         "Device_Brand_Name": "LG",
         "Device_Pointing_Method": "touchscreen",
@@ -16013,6 +16049,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "U8220",
         "Device_Name": "U8220",
+        "Device_Maker": "Huawei",
+        "Device_Brand_Name": "Huawei",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Huawei U8230": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "U8230",
+        "Device_Name": "U8230",
         "Device_Maker": "Huawei",
         "Device_Brand_Name": "Huawei",
         "Device_Pointing_Method": "unknown",
@@ -22752,11 +22800,35 @@
         "isTablet": "false"
       }
     },
+    "Prestigio PAP3350DUO": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "PAP3350DUO",
+        "Device_Name": "MultiPhone 3350 Duo",
+        "Device_Maker": "Prestigio",
+        "Device_Brand_Name": "Prestigio",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Prestigio PMP3007C": {
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "PMP3007C",
         "Device_Name": "MultiPad Rider 7.0 3G",
+        "Device_Maker": "Prestigio",
+        "Device_Brand_Name": "Prestigio",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Prestigio PMP3970B": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "PMP3970B",
+        "Device_Name": "MultiPad 7.0 HD",
         "Device_Maker": "Prestigio",
         "Device_Brand_Name": "Prestigio",
         "Device_Pointing_Method": "touchscreen",
@@ -27216,6 +27288,18 @@
         "isTablet": "true"
       }
     },
+    "Irbis TX08": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "TX08",
+        "Device_Code_Name": "TX08",
+        "Device_Maker": "Irbis",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Irbis",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Irbis TG97": {
       "properties": {
         "Device_Type": "Tablet",
@@ -27365,6 +27449,18 @@
         "Device_Type": "Tablet",
         "Device_Name": "Art 3G",
         "Device_Code_Name": "Art 3G",
+        "Device_Maker": "Explay",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Explay",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Explay Informer 921": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "Informer 921",
+        "Device_Code_Name": "Informer 921",
         "Device_Maker": "Explay",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Explay",
@@ -27605,6 +27701,18 @@
         "Device_Type": "Tablet",
         "Device_Name": "Smart Tab 4",
         "Device_Code_Name": "Smart Tab 4",
+        "Device_Maker": "Vodafone",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Vodafone",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Vodafone Smart Tab 4G": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "Smart Tab 4 LTE",
+        "Device_Code_Name": "Smart Tab 4G",
         "Device_Maker": "Vodafone",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Vodafone",
@@ -28236,6 +28344,18 @@
         "isTablet": "true"
       }
     },
+    "Ainol Novo 7 Fire": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "Novo 7 Fire",
+        "Device_Code_Name": "Novo 7 Fire",
+        "Device_Maker": "Ainol",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Ainol",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Axgio Neon N1": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -28764,6 +28884,18 @@
         "isTablet": "false"
       }
     },
+    "TCL S720T": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "S720T",
+        "Device_Code_Name": "S720T",
+        "Device_Maker": "TCL",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "TCL",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Radxa Rock": {
       "properties": {
         "Device_Type": "Desktop",
@@ -28846,6 +28978,42 @@
         "Device_Brand_Name": "Evercoss",
         "isMobileDevice": "true",
         "isTablet": "false"
+      }
+    },
+    "Jiayu F1": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "F1",
+        "Device_Code_Name": "F1",
+        "Device_Maker": "Jiayu",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Jiayu",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Treelogic Gravis 77 QC 3G IPS GPS": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "Gravis 77 QC 3G IPS GPS",
+        "Device_Code_Name": "Gravis 77 QC 3G IPS GPS",
+        "Device_Maker": "Treelogic",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Treelogic",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Marshal ME-701": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "ME-701",
+        "Device_Code_Name": "ME-701",
+        "Device_Maker": "Marshal",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Marshal",
+        "isMobileDevice": "true",
+        "isTablet": "true"
       }
     }
   }

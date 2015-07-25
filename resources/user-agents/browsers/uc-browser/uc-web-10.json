@@ -433,6 +433,22 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#Novo7Fire Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "engine": "U3",
+          "device": "Ainol Novo 7 Fire",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#PMP3970B Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "engine": "U3",
+          "device": "Prestigio PMP3970B",
+          "platforms": [
+            "Android_4_1"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM# Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
           "platforms": [
             "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android_5_0", "Android"
@@ -444,6 +460,14 @@
           "device": "Samsung GT-P5200",
           "platforms": [
             "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#JY-F1 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile",
+          "engine": "WebKit",
+          "device": "Jiayu F1",
+          "platforms": [
+            "Android_4_2"
           ]
         },
         {

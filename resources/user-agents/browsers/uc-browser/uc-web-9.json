@@ -555,6 +555,14 @@
           ]
         },
         {
+          "match": "UCWEB\/*(#PLATFORM#U8230) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "engine": "U2",
+          "device": "Huawei U8230",
+          "platforms": [
+            "Android_2_1_C"
+          ]
+        },
+        {
           "match": "UCWEB\/*(#PLATFORM#) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
           "engine": "U2",
           "device": "general Mobile Phone (Touch)",

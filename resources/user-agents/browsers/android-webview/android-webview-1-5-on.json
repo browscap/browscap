@@ -4992,6 +4992,13 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#Vodafone Smart Tab 4G Build\/*) AppleWebKit* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "device": "Vodafone Smart Tab 4G",
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
           "match": "*Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/*KHTML, like Gecko) Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android_5_0",
