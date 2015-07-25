@@ -100,7 +100,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#SM-G925I Build\/*) AppleWebKit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Samsung SM-G925I",
           "platforms": [
-            "Android_5_0"
+            "Android_5_1"
           ]
         },
         {
