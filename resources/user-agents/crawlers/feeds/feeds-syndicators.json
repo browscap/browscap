@@ -662,6 +662,13 @@
           "properties": {
             "Browser": "Blogshares Spiders"
           }
+        },
+        {
+          "match": "R6_FeedFetcher*",
+          "properties": {
+            "Browser": "R6 FeedFetcher",
+            "Browser_Maker": "salesforce.com, inc."
+          }
         }
       ]
     }

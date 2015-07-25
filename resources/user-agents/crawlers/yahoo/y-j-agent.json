@@ -10,7 +10,7 @@
         "Comment": "Yahoo",
         "Browser": "Y!J-AGENT",
         "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Yahoo!",
+        "Browser_Maker": "Yahoo!JAPAN",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
@@ -34,6 +34,120 @@
           "properties": {
             "Browser": "Y!J-AGENT\/BMI"
           }
+        },
+        {
+          "match": "Y!J SearchMonkey*"
+        },
+        {
+          "match": "Y!J-BRE*"
+        },
+        {
+          "match": "Y!J-BRG\/GSC*"
+        },
+        {
+          "match": "Y!J-BRI*"
+        },
+        {
+          "match": "Y!J-BRO\/YFSJ*"
+        },
+        {
+          "match": "Y!J-BRP\/YFSBJ*"
+        },
+        {
+          "match": "Y!J-BRQ\/DLCK*"
+        },
+        {
+          "match": "Y!J-BSC*"
+        },
+        {
+          "match": "Y!J-DSC*"
+        },
+        {
+          "match": "Y!J-NSC*"
+        },
+        {
+          "match": "Y!J-PSC*"
+        },
+        {
+          "match": "Y!J-SRD*"
+        },
+        {
+          "match": "Y!J-VSC\/ViSe*"
+        },
+        {
+          "match": "Y!J-BRT*"
+        },
+        {
+          "match": "Y!J-BRU\/VSIDX*"
+        },
+        {
+          "match": "Y!J-IER*"
+        },
+        {
+          "match": "Y!J-BRW*"
+        },
+        {
+          "match": "Y!J-RIE*"
+        },
+        {
+          "match": "Y!J-APP*"
+        },
+        {
+          "match": "Y!J-BRH*"
+        },
+        {
+          "match": "Y!J-BRS*"
+        },
+        {
+          "match": "Y!J-BRD\/YSML*"
+        },
+        {
+          "match": "Y!J-BUZZ*"
+        },
+        {
+          "match": "Y!J-ASR*"
+        },
+        {
+          "match": "Y!J-SSF*"
+        },
+        {
+          "match": "Y!J-MMP\/dscv*"
+        },
+        {
+          "match": "Y!J-BRJ\/YATS*"
+        },
+        {
+          "match": "Y!J-BRL\/YATSS*"
+        },
+        {
+          "match": "Y!J-BRM\/YATSD*"
+        },
+        {
+          "match": "Y!J-BRN\/YATSA*"
+        },
+        {
+          "match": "Y!J-BRY\/YATSH*"
+        },
+        {
+          "match": "Y!J-BRZ\/YATSHA*"
+        },
+        {
+          "match": "Y!J-DLC*"
+        },
+        {
+          "match": "Y!J-BRX\/DLCK*"
+        },
+        {
+          "match": "Y!J-BRQ\/DLCK*"
+        },
+        {
+          "match": "Y!J-PSC*"
+        },
+        {
+          "match": "Y!J-DSC*"
+        },
+        {
+          "match": "Y!J-PUF*"
         }
       ]
     }
