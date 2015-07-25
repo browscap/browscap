@@ -1,12 +1,12 @@
 {
   "division": "Puffin #MAJORVER#.#MINORVER#",
-  "versions": ["4.4", "3.7"],
+  "versions": ["4.4", "4.2", "3.7"],
   "sortIndex": 1118,
   "lite": false,
   "userAgents": [
     {
       "userAgent": "Puffin #MAJORVER#.#MINORVER#",
-      "engine": "WebKit",
+      "engine": "Blink",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
@@ -41,6 +41,7 @@
         {
           "match": "Mozilla\/5.0 (*Linux x86_64*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/* Safari\/* Puffin\/#MAJORVER#.#MINORVER#*IP*",
           "device": "iPhone",
+          "engine": "WebKit",
           "platforms": [
             "iOS"
           ]
@@ -48,6 +49,7 @@
         {
           "match": "Mozilla\/5.0 (*Linux x86_64*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/* Safari\/* Puffin\/#MAJORVER#.#MINORVER#*IT*",
           "device": "iPad",
+          "engine": "WebKit",
           "platforms": [
             "iOS"
           ]

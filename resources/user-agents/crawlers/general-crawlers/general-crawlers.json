@@ -3849,6 +3849,12 @@
           "properties": {
             "Browser": "TestCrawler"
           }
+        },
+        {
+          "match": "*robots*",
+          "properties": {
+            "Browser": "TestCrawler"
+          }
         }
       ]
     }
