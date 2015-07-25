@@ -20,55 +20,6 @@
       "children": [
         {
           "match": "YahooFeedSeeker*"
-        },
-        {
-          "match": "Y!J SearchMonkey*"
-        },
-        {
-          "match": "Y!J-BRE*"
-        },
-        {
-          "match": "Y!J-BRG\/GSC*"
-        },
-        {
-          "match": "Y!J-BRI*"
-        },
-        {
-          "match": "Y!J-BRO\/YFSJ*"
-        },
-        {
-          "match": "Y!J-BRP\/YFSBJ*"
-        },
-        {
-          "match": "Y!J-BRQ\/DLCK*"
-        },
-        {
-          "match": "Y!J-BSC*",
-          "properties": {
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
-          }
-        },
-        {
-          "match": "Y!J-DSC*"
-        },
-        {
-          "match": "Y!J-NSC*"
-        },
-        {
-          "match": "Y!J-PSC*"
-        },
-        {
-          "match": "Y!J-SRD*",
-          "properties": {
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
-          }
-        },
-        {
-          "match": "Y!J-VSC\/ViSe*"
         }
       ]
     }

@@ -135,6 +135,16 @@
           ]
         },
         {
+          "match": "TBDG773 Mozilla\/5.0 (X11; Linux x86_64) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "properties": {
+            "Browser_Modus": "Desktop Mode"
+          },
+          "device": "Zeki TBDG773",
+          "platforms": [
+            "Android_4_1"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "platforms": [
             "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
