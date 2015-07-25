@@ -4200,6 +4200,54 @@
         "isTablet": "false"
       }
     },
+    "Samsung SM-G925I": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SM-G925I",
+        "Device_Name": "Galaxy S6 Edge (LATAM, Singapore, India, Australia)",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung SM-G920F": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SM-G920F",
+        "Device_Name": "Galaxy S6 (Global)",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung SM-G920P": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SM-G920P",
+        "Device_Name": "Galaxy S6 CDMA (Sprint)",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung SM-G920I": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SM-G920I",
+        "Device_Name": "Galaxy S6 (LATAM, Singapore, India, Australia)",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Samsung SM-G350": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -4757,6 +4805,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SM-J100H",
         "Device_Name": "Galaxy J1",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung SM-A500FU": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SM-A500FU",
+        "Device_Name": "Galaxy A5",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "touchscreen",
@@ -23657,6 +23717,18 @@
         "Device_Type": "Tablet",
         "Device_Name": "TBDC1093",
         "Device_Code_Name": "TBDC1093",
+        "Device_Maker": "Zeki",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Zeki",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Zeki TBDG773": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "TBDG773",
+        "Device_Code_Name": "TBDG773",
         "Device_Maker": "Zeki",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Zeki",
