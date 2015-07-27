@@ -2784,6 +2784,18 @@
         "isTablet": "false"
       }
     },
+    "Samsung GT-I9082": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GT-I9082",
+        "Device_Name": "Galaxy Grand Duos",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Samsung GT-I9192": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -12432,6 +12444,18 @@
         "isTablet": "false"
       }
     },
+    "HTC D820us": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "D820us",
+        "Device_Name": "D820us",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "HTC T328w": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -16577,6 +16601,42 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "H30-U10",
         "Device_Name": "Honor 3C",
+        "Device_Maker": "Huawei",
+        "Device_Brand_Name": "Huawei",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Huawei Media Pad": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "Media Pad",
+        "Device_Name": "Media Pad",
+        "Device_Maker": "Huawei",
+        "Device_Brand_Name": "Huawei",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Huawei G750-U10": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "G750-U10",
+        "Device_Name": "Honor 3X",
+        "Device_Maker": "Huawei",
+        "Device_Brand_Name": "Huawei",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Huawei D2-0082": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "D2-0082",
+        "Device_Name": "Ascend D2",
         "Device_Maker": "Huawei",
         "Device_Brand_Name": "Huawei",
         "Device_Pointing_Method": "touchscreen",
@@ -22848,6 +22908,18 @@
         "isTablet": "false"
       }
     },
+    "Prestigio PAP5450": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "PAP5450",
+        "Device_Name": "MultiPhone 5450 Duo",
+        "Device_Maker": "Prestigio",
+        "Device_Brand_Name": "Prestigio",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Prestigio PAP3350DUO": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -24240,6 +24312,18 @@
         "isTablet": "false"
       }
     },
+    "BLU Life Play": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Life Play",
+        "Device_Code_Name": "Life Play",
+        "Device_Maker": "BLU",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "BLU",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "XDA Star": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -25529,6 +25613,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Name": "C7",
         "Device_Code_Name": "C7",
+        "Device_Maker": "Cubot",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Cubot",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Cubot S200": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "S200",
+        "Device_Code_Name": "S200",
         "Device_Maker": "Cubot",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Cubot",
@@ -29110,6 +29206,30 @@
         "Device_Brand_Name": "Telefunken",
         "isMobileDevice": "true",
         "isTablet": "true"
+      }
+    },
+    "Tecno H6": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "H6",
+        "Device_Code_Name": "H6",
+        "Device_Maker": "Tecno",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Tecno",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "OnePlus A0001": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "One",
+        "Device_Code_Name": "A0001",
+        "Device_Maker": "OnePlus",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "OnePlus",
+        "isMobileDevice": "true",
+        "isTablet": "false"
       }
     }
   }

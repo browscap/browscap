@@ -5675,6 +5675,20 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#MEDIA PAD Build\/*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "device": "Huawei Media Pad",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#GT-I9082 Build\/*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "device": "Samsung GT-I9082",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
           "match": "Lenovo A390*Mozilla\/5.0 (#PLATFORM#Lenovo A390*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "device": "Lenovo A390",
           "platforms": [

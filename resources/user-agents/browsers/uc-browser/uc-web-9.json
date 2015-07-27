@@ -383,6 +383,14 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#HTC_One Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
+          "engine": "WebKit",
+          "device": "HTC M7",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
           "engine": "WebKit",
           "platforms": [
@@ -576,6 +584,14 @@
           "device": "Lenovo A706",
           "platforms": [
             "Android_4_1_C"
+          ]
+        },
+        {
+          "match": "UCWEB\/*(#PLATFORM#Lenovo_K910L) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "engine": "U2",
+          "device": "Lenovo K910L",
+          "platforms": [
+            "Android_4_3_C"
           ]
         },
         {

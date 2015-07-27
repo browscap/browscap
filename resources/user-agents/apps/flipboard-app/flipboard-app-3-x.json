@@ -163,6 +163,13 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#A0001 Build\/*)*AppleWebKit\/*(*KHTML,*like Gecko*)*Version\/*Chrome*Safari* Flipboard\/#MAJORVER#.#MINORVER#*",
+          "device": "OnePlus A0001",
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/*(*KHTML,*like Gecko*)*Version\/*Chrome*Safari* Flipboard\/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "Android_4_4", "Android_5_0", "Android_5_1", "Android"

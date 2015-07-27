@@ -76,6 +76,22 @@
           ]
         },
         {
+          "match": "UCWEB\/*(#PLATFORM#HUAWEI_D2-0082) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "engine": "U2",
+          "device": "Huawei D2-0082",
+          "platforms": [
+            "Android_4_1_C"
+          ]
+        },
+        {
+          "match": "UCWEB\/*(#PLATFORM#GT-I9082) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "engine": "U2",
+          "device": "Samsung GT-I9082",
+          "platforms": [
+            "Android_4_2_C"
+          ]
+        },
+        {
           "match": "UCWEB\/*(#PLATFORM#) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
           "engine": "U2",
           "device": "general Mobile Phone (Touch)",
