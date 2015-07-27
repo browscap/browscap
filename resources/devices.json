@@ -5340,6 +5340,18 @@
         "isTablet": "true"
       }
     },
+    "Samsung SGH-I717": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SGH-I717",
+        "Device_Name": "Galaxy Note LTE (AT&T)",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Samsung SGH-I900": {
       "properties": {
         "Device_Type": "Tablet",
@@ -21420,6 +21432,18 @@
         "isTablet": "true"
       }
     },
+    "Lenovo S960": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "S960",
+        "Device_Name": "Vibe X",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Lenovo S820_ROW": {
       "properties": {
         "Device_Type": "Tablet",
@@ -21684,6 +21708,18 @@
         "isTablet": "false"
       }
     },
+    "Lenovo A398t+": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A398t+",
+        "Device_Name": "A398t+",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Lenovo A889": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -21797,6 +21833,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "A789",
         "Device_Name": "A789",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Lenovo A706": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A706",
+        "Device_Name": "A706",
         "Device_Maker": "Lenovo",
         "Device_Brand_Name": "Lenovo",
         "Device_Pointing_Method": "touchscreen",
@@ -27576,14 +27624,26 @@
         "isTablet": "false"
       }
     },
-    "Suntech TAB917QC 8GB": {
+    "Sunstech TAB917QC 8GB": {
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "TAB917QC 8GB",
         "Device_Code_Name": "TAB917QC 8GB",
-        "Device_Maker": "Suntech",
+        "Device_Maker": "Sunstech",
         "Device_Pointing_Method": "touchscreen",
-        "Device_Brand_Name": "Suntech",
+        "Device_Brand_Name": "Sunstech",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Sunstech TAB917QC 16GB": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "TAB917QC 16GB",
+        "Device_Code_Name": "TAB917QC 16GB",
+        "Device_Maker": "Sunstech",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Sunstech",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -27876,6 +27936,18 @@
         "isTablet": "false"
       }
     },
+    "iNew i4000S": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "i4000S",
+        "Device_Code_Name": "i4000S",
+        "Device_Maker": "iNew",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "iNew",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Intego PX-0905": {
       "properties": {
         "Device_Type": "Tablet",
@@ -28078,6 +28150,18 @@
         "Device_Brand_Name": "Oysters",
         "isMobileDevice": "true",
         "isTablet": "false"
+      }
+    },
+    "Oysters T72M 3G": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "T72M 3G",
+        "Device_Code_Name": "T72M 3G",
+        "Device_Maker": "Oysters",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Oysters",
+        "isMobileDevice": "true",
+        "isTablet": "true"
       }
     },
     "Vertex Impress L": {
@@ -29012,6 +29096,18 @@
         "Device_Maker": "Marshal",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Marshal",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Telefunken TF-MID806G": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "TF-MID806G",
+        "Device_Code_Name": "TF-MID806G",
+        "Device_Maker": "Telefunken",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Telefunken",
         "isMobileDevice": "true",
         "isTablet": "true"
       }

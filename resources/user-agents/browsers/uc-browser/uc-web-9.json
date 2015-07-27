@@ -563,6 +563,22 @@
           ]
         },
         {
+          "match": "UCWEB\/*(#PLATFORM#HTC_Ruby) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "engine": "U2",
+          "device": "HTC Ruby",
+          "platforms": [
+            "Android_4_0_C"
+          ]
+        },
+        {
+          "match": "UCWEB\/*(#PLATFORM#Lenovo_A706_ROW) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "engine": "U2",
+          "device": "Lenovo A706",
+          "platforms": [
+            "Android_4_1_C"
+          ]
+        },
+        {
           "match": "UCWEB\/*(#PLATFORM#) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
           "engine": "U2",
           "device": "general Mobile Phone (Touch)",
