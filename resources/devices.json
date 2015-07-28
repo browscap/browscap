@@ -2340,6 +2340,18 @@
         "isTablet": "true"
       }
     },
+    "Coby MID7016": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "MID7016",
+        "Device_Name": "Kyros MID7016",
+        "Device_Maker": "Coby",
+        "Device_Brand_Name": "Coby",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Samsung GT-C3310": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -3881,6 +3893,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-S7390",
         "Device_Name": "Galaxy Trend Lite",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung GT-S7392": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GT-S7392",
+        "Device_Name": "Galaxy Fresh",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "touchscreen",
@@ -8364,6 +8388,18 @@
         "isTablet": "true"
       }
     },
+    "Asus K016": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "K016",
+        "Device_Name": "Fonepad 8",
+        "Device_Maker": "Asus",
+        "Device_Brand_Name": "Asus",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Asus ME302C": {
       "properties": {
         "Device_Type": "Tablet",
@@ -10860,6 +10896,102 @@
         "isTablet": "false"
       }
     },
+    "HTC Desire 400": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Desire 400",
+        "Device_Name": "Desire 400",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC Desire 500": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Desire 500",
+        "Device_Name": "Desire 500",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC Desire 816": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Desire 816",
+        "Device_Name": "Desire 816",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC Desire HD": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Desire HD",
+        "Device_Name": "Desire HD",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC Desire HD A9191": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A9191",
+        "Device_Name": "Desire HD",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC Desire S": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Desire S",
+        "Device_Name": "Desire S",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC Desire A8181": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A8181",
+        "Device_Name": "Desire",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC Desire SV": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Desire SV",
+        "Device_Name": "Desire SV",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "HTC Dream": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -10925,42 +11057,6 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Tattoo",
         "Device_Name": "Tattoo",
-        "Device_Maker": "HTC",
-        "Device_Brand_Name": "HTC",
-        "Device_Pointing_Method": "unknown",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
-    "HTC Desire HD": {
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "Desire HD",
-        "Device_Name": "Desire HD",
-        "Device_Maker": "HTC",
-        "Device_Brand_Name": "HTC",
-        "Device_Pointing_Method": "unknown",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
-    "HTC Desire HD A9191": {
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "A9191",
-        "Device_Name": "Desire HD",
-        "Device_Maker": "HTC",
-        "Device_Brand_Name": "HTC",
-        "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
-    "HTC Desire S": {
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "Desire S",
-        "Device_Name": "Desire S",
         "Device_Maker": "HTC",
         "Device_Brand_Name": "HTC",
         "Device_Pointing_Method": "unknown",
@@ -11117,18 +11213,6 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Spark",
         "Device_Name": "7 Trophy",
-        "Device_Maker": "HTC",
-        "Device_Brand_Name": "HTC",
-        "Device_Pointing_Method": "unknown",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
-    "HTC Desire A8181": {
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "A8181",
-        "Device_Name": "Desire",
         "Device_Maker": "HTC",
         "Device_Brand_Name": "HTC",
         "Device_Pointing_Method": "unknown",
@@ -11448,6 +11532,18 @@
         "isTablet": "false"
       }
     },
+    "HTC One Max": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "One Max",
+        "Device_Name": "One Max",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "HTC M8": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -11489,30 +11585,6 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "9292",
         "Device_Name": "EVO 4G",
-        "Device_Maker": "HTC",
-        "Device_Brand_Name": "HTC",
-        "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
-    "HTC Desire 500": {
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "Desire 500",
-        "Device_Name": "Desire 500",
-        "Device_Maker": "HTC",
-        "Device_Brand_Name": "HTC",
-        "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
-    "HTC Desire SV": {
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "Desire SV",
-        "Device_Name": "Desire SV",
         "Device_Maker": "HTC",
         "Device_Brand_Name": "HTC",
         "Device_Pointing_Method": "touchscreen",
@@ -12480,18 +12552,6 @@
         "isTablet": "false"
       }
     },
-    "HTC Desire 816": {
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "Desire 816",
-        "Device_Name": "Desire 816",
-        "Device_Maker": "HTC",
-        "Device_Brand_Name": "HTC",
-        "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
     "HTC Amaze 4G": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -12809,6 +12869,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "E425",
         "Device_Name": "Optimus L3 II",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG E455g": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "E455g",
+        "Device_Name": "Optimus L5 II Dual",
         "Device_Maker": "LG",
         "Device_Brand_Name": "LG",
         "Device_Pointing_Method": "touchscreen",
@@ -22200,6 +22272,18 @@
         "isTablet": "true"
       }
     },
+    "Lenovo N908": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "N908",
+        "Device_Name": "N908",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Malata I50": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -25956,6 +26040,18 @@
         "isTablet": "false"
       }
     },
+    "Fly Flylife Connect 7 3G": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "Flylife Connect 7 3G",
+        "Device_Code_Name": "Flylife Connect 7 3G",
+        "Device_Maker": "Fly",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Fly",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Zeki TBD1083": {
       "properties": {
         "Device_Type": "Tablet",
@@ -26112,6 +26208,18 @@
         "isTablet": "false"
       }
     },
+    "GOCLEVER Terra 7oW": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "Terra 7oW",
+        "Device_Code_Name": "Terra 7oW",
+        "Device_Maker": "GOCLEVER",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "GOCLEVER",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "MODECOM FreeTAB 1001": {
       "properties": {
         "Device_Type": "Tablet",
@@ -26189,6 +26297,18 @@
         "Device_Type": "Tablet",
         "Device_Name": "FreeTAB 7800 IPS IC",
         "Device_Code_Name": "FreeTAB 7800 IPS IC",
+        "Device_Maker": "MODECOM",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "MODECOM",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "MODECOM FreeTAB 8001 IPS X2 3G": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "FreeTAB 8001 IPS X2 3G",
+        "Device_Code_Name": "FreeTAB 8001 IPS X2 3G",
         "Device_Maker": "MODECOM",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "MODECOM",
@@ -26429,6 +26549,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Name": "Xenium",
         "Device_Code_Name": "W336",
+        "Device_Maker": "Philips",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Philips",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Philips W6500": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Xenium",
+        "Device_Code_Name": "W6500",
         "Device_Maker": "Philips",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Philips",
@@ -27336,6 +27468,18 @@
         "isTablet": "false"
       }
     },
+    "BQ BQS-4501": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Bristol",
+        "Device_Code_Name": "BQS-4501",
+        "Device_Maker": "BQ",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "BQ",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "BQ 7056G": {
       "properties": {
         "Device_Type": "Tablet",
@@ -27473,6 +27617,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Name": "982",
         "Device_Code_Name": "982",
+        "Device_Maker": "MTC",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "MTC",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "MTC 978": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "978",
+        "Device_Code_Name": "978",
         "Device_Maker": "MTC",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "MTC",
@@ -28188,6 +28344,18 @@
         "isTablet": "true"
       }
     },
+    "Perfeo PATG7506HD": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "7506-HD",
+        "Device_Code_Name": "PATG7506HD",
+        "Device_Maker": "Perfeo",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Perfeo",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Keener K-8S": {
       "properties": {
         "Device_Type": "Tablet",
@@ -28253,6 +28421,18 @@
         "Device_Type": "Tablet",
         "Device_Name": "T72M 3G",
         "Device_Code_Name": "T72M 3G",
+        "Device_Maker": "Oysters",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Oysters",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Oysters T72HRi 3G": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "T72HRi 3G",
+        "Device_Code_Name": "T72HRi 3G",
         "Device_Maker": "Oysters",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Oysters",
@@ -28409,6 +28589,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Name": "Note 3",
         "Device_Code_Name": "N8000",
+        "Device_Maker": "Star",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Star",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Star N3+": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Note 3 Super Slim",
+        "Device_Code_Name": "N3+",
         "Device_Maker": "Star",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Star",
@@ -28673,6 +28865,18 @@
         "Device_Type": "Tablet",
         "Device_Name": "GU7814",
         "Device_Code_Name": "GU7814",
+        "Device_Maker": "Globex",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Globex",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Globex GU730C": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "GU730C",
+        "Device_Code_Name": "GU730C",
         "Device_Maker": "Globex",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Globex",
@@ -29228,6 +29432,30 @@
         "Device_Maker": "OnePlus",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "OnePlus",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Alps XLD": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "XLD",
+        "Device_Code_Name": "XLD",
+        "Device_Maker": "Alps",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Alps",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Zifro ZS-6500": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Vivid",
+        "Device_Code_Name": "ZS-6500",
+        "Device_Maker": "Zifro",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Zifro",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
