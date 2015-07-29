@@ -238,7 +238,7 @@ return [
     'issue-711-G' => [
         'Mozilla/5.0 (Linux; U; Android 4.2.2; ru-ru; Lenovo B8000-H Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30 ACHEETAHI/2100050022',
         [
-            'Browser' => 'ACHEETAHI',
+            'Browser' => 'CM Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'unknown',
@@ -394,7 +394,7 @@ return [
     'issue-711-K' => [
         'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo B8000-H Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36 ACHEETAHI/2100050034',
         [
-            'Browser' => 'ACHEETAHI',
+            'Browser' => 'CM Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'unknown',
