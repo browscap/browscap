@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'issue-635-A' => [
+    'issue-711-A' => [
         'Mozilla/5.0 (Linux; U; Android 4.4.2; ru-ru; Lenovo A5500-H Build/KOT49H) AppleWebKit/537.16 (KHTML, like Gecko) Version/4.0 Safari/537.16',
         [
             'Browser' => 'Android',
@@ -38,9 +38,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
-        'lite' => true,
+        'lite' => false,
     ],
-    'issue-635-B' => [
+    'issue-711-B' => [
         'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A5500-H Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36 UCBrowser/3.0.0.357',
         [
             'Browser' => 'UC Browser',
@@ -79,7 +79,7 @@ return [
         ],
         'lite' => false,
     ],
-    'issue-635-C' => [
+    'issue-711-C' => [
         'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A5500-H Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36',
         [
             'Browser' => 'Android WebView',
@@ -116,9 +116,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite' => true,
+        'lite' => false,
     ],
-    'issue-635-D' => [
+    'issue-711-D' => [
         'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo B8000-H Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.78 Safari/537.36 OPR/30.0.1856.93524',
         [
             'Browser' => 'Opera Mobile',
@@ -157,7 +157,7 @@ return [
         ],
         'lite' => false,
     ],
-    'issue-635-E' => [
+    'issue-711-E' => [
         'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo B8000-H Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.111 Safari/537.36',
         [
             'Browser' => 'Chrome',
@@ -194,9 +194,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite' => true,
+        'lite' => false,
     ],
-    'issue-635-F' => [
+    'issue-711-F' => [
         'Mozilla/5.0 (Linux; U; Android 4.2.2; ru-ru; Lenovo B8000-H Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30 [FB_IAB/FB4A;FBAV/32.0.0.23.15;]',
         [
             'Browser' => 'Facebook App',
@@ -235,7 +235,7 @@ return [
         ],
         'lite' => false,
     ],
-    'issue-635-G' => [
+    'issue-711-G' => [
         'Mozilla/5.0 (Linux; U; Android 4.2.2; ru-ru; Lenovo B8000-H Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30 ACHEETAHI/2100050022',
         [
             'Browser' => 'ACHEETAHI',
@@ -274,7 +274,7 @@ return [
         ],
         'lite' => false,
     ],
-    'issue-635-H' => [
+    'issue-711-H' => [
         'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo B8000-H Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 YaBrowser/15.4.2272.3842.01 Safari/537.36',
         [
             'Browser' => 'Yandex Browser',
@@ -313,7 +313,7 @@ return [
         ],
         'lite' => false,
     ],
-    'issue-635-I' => [
+    'issue-711-I' => [
         'Mozilla/5.0 (Linux; U; Android 4.4.2; en-US; Lenovo B8000-H Build/KOT49H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.5.2.582 U3/0.8.0 Mobile Safari/534.30',
         [
             'Browser' => 'UC Browser',
@@ -352,7 +352,7 @@ return [
         ],
         'lite' => false,
     ],
-    'issue-635-J' => [
+    'issue-711-J' => [
         'Mozilla/5.0 (Linux; U; Android 4.2.2;ru-ru; Lenovo B8000-H/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.2.2 Mobile Safari/534.30',
         [
             'Browser' => 'Android',
@@ -391,7 +391,7 @@ return [
         ],
         'lite' => false,
     ],
-    'issue-635-K' => [
+    'issue-711-K' => [
         'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo B8000-H Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36 ACHEETAHI/2100050034',
         [
             'Browser' => 'ACHEETAHI',
@@ -430,7 +430,7 @@ return [
         ],
         'lite' => false,
     ],
-    'issue-635-L' => [
+    'issue-711-L' => [
         'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo B8000-H Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Safari/537.36',
         [
             'Browser' => 'Chrome',
@@ -467,9 +467,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite' => true,
+        'lite' => false,
     ],
-    'issue-635-M' => [
+    'issue-711-M' => [
         'Mozilla/5.0 (Linux; U; Android 4.2.2; ru-ru; Lenovo B6000-H/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.2.2 Mobile Safari/534.30',
         [
             'Browser' => 'Android',
@@ -508,7 +508,7 @@ return [
         ],
         'lite' => false,
     ],
-    'issue-635-N' => [
+    'issue-711-N' => [
         'Mozilla/5.0 (Linux; Android 4.2.2; Lenovo B6000-HV Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.93 Safari/537.36',
         [
             'Browser' => 'Chrome',
@@ -545,9 +545,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite' => true,
+        'lite' => false,
     ],
-    'issue-635-O' => [
+    'issue-711-O' => [
         'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo B6000-H Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.93 Safari/537.36',
         [
             'Browser' => 'Chrome',
@@ -584,9 +584,9 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite' => true,
+        'lite' => false,
     ],
-    'issue-635-P' => [
+    'issue-711-P' => [
         'Mozilla/5.0 (Linux; Android 4.2.2; Lenovo B6000-H Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.94 Safari/537.36',
         [
             'Browser' => 'Chrome',
@@ -625,46 +625,7 @@ return [
         ],
         'lite' => false,
     ],
-    'issue-635-Q' => [
-        'Mozilla/5.0 (Linux; U; Android 4.2.2; ru-ru; Lenovo B6000-H/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.2.2 Mobile Safari/534.30',
-        [
-            'Browser' => 'Android',
-            'Browser_Type' => 'Browser',
-            'Browser_Bits' => '32',
-            'Browser_Maker' => 'Google Inc',
-            'Browser_Modus' => 'unknown',
-            'Version' => '4.2',
-            'MajorVer' => '4',
-            'MinorVer' => '2',
-            'Platform' => 'Android',
-            'Platform_Version' => '4.2',
-            'Platform_Bits' => '32',
-            'Platform_Maker' => 'Google Inc',
-            'isMobileDevice' => true,
-            'isTablet' => true,
-            'Crawler' => false,
-            'JavaScript' => true,
-            'Cookies' => true,
-            'Frames' => true,
-            'IFrames' => true,
-            'Tables' => true,
-            'VBScript' => false,
-            'JavaApplets' => true,
-            'ActiveXControls' => false,
-            'BackgroundSounds' => false,
-            'Device_Name' => 'Yoga 8 3G',
-            'Device_Maker' => 'Lenovo',
-            'Device_Type' => 'Tablet',
-            'Device_Pointing_Method' => 'touchscreen',
-            'Device_Code_Name' => 'B6000-H',
-            'Device_Brand_Name' => 'Lenovo',
-            'RenderingEngine_Name' => 'WebKit',
-            'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'Apple Inc',
-        ],
-        'lite' => false,
-    ],
-    'issue-635-R' => [
+    'issue-711-R' => [
         'Mozilla/5.0 (Linux; U; Android 4.2.2;ru-ru; Lenovo B6000-H/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.2.2 Mobile Safari/534.30',
         [
             'Browser' => 'Android',
@@ -703,7 +664,7 @@ return [
         ],
         'lite' => false,
     ],
-    'issue-635-S' => [
+    'issue-711-S' => [
         'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo B6000-H Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.117 Safari/537.36',
         [
             'Browser' => 'Chrome',
@@ -742,7 +703,7 @@ return [
         ],
         'lite' => true,
     ],
-    'issue-635-T' => [
+    'issue-711-T' => [
         'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo B6000-HV Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.93 Safari/537.36',
         [
             'Browser' => 'Chrome',
@@ -781,7 +742,7 @@ return [
         ],
         'lite' => true,
     ],
-    'issue-635-U' => [
+    'issue-711-U' => [
         'Mozilla/5.0 (Linux; U; Android 4.4.2; ru-ru; Lenovo B6000-H Build/KOT49H) AppleWebKit/537.16 (KHTML, like Gecko) Version/4.0 Safari/537.16',
         [
             'Browser' => 'Android',
@@ -820,7 +781,7 @@ return [
         ],
         'lite' => true,
     ],
-    'issue-635-V' => [
+    'issue-711-V' => [
         'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo B6000-H Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.141 Safari/537.36',
         [
             'Browser' => 'Chrome',
