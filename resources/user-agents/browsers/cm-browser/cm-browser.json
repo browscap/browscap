@@ -97,6 +97,13 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#Lenovo B8000-H Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/*Chrome\/*Safari\/* ACHEETAHI\/*",
+          "device": "Lenovo B8000-H",
+          "platforms": [
+            "Android_4_2", "Android_4_3", "Android_4_4"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#Lenovo B8000-H Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/*Safari\/* ACHEETAHI\/*",
           "device": "Lenovo B8000-H",
           "engine": "WebKit",
