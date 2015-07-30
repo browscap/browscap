@@ -4838,7 +4838,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Lenovo A5500-H Build\/*) AppleWebKit\/* (KTHML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#Lenovo A5500-H Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Lenovo A5500-H",
           "platforms": [
             "Android_4_4"
@@ -4854,13 +4854,6 @@
         {
           "match": "LG-D855*Mozilla\/5.0 (#PLATFORM#LG-D855*) AppleWebKit* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "LG D855",
-          "platforms": [
-            "Android_4_4"
-          ]
-        },
-        {
-          "match": "LG-D855*Mozilla\/5.0 (#PLATFORM#Lenovo A5500-H Build\/*) AppleWebKit* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
-          "device": "Lenovo A5500-H",
           "platforms": [
             "Android_4_4"
           ]
