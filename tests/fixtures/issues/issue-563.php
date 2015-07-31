@@ -3129,12 +3129,12 @@ return [
     'issue-563-CQ' => [
         'Mozilla/5.0 (Linux; Android 4.4.2; MTC SMART Run Build/ARK) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 ACHEETAHI/2100501044',
         [
-            'Browser' => 'Android WebView',
+            'Browser' => 'CM Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
-            'Browser_Maker' => 'Google Inc',
-            'Version' => '4.0',
-            'MajorVer' => '4',
+            'Browser_Maker' => 'Cheetah Mobile',
+            'Version' => '0.0',
+            'MajorVer' => '0',
             'MinorVer' => '0',
             'Platform' => 'Android',
             'Platform_Version' => '4.4',
@@ -3158,6 +3158,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
+        'lite' => false,
     ],
     'issue-563-CR' => [
         'Mozilla/5.0 (Linux; Android 4.4.2; ONDA V989 Build/KVT49L) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.59 Safari/537.36',
@@ -3430,12 +3431,12 @@ return [
     'issue-563-CZ' => [
         'Mozilla/5.0 (Linux; Android 4.4.3; D5303 Build/19.1.1.A.0.165) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36 ACHEETAHI/2100501044',
         [
-            'Browser' => 'Android WebView',
+            'Browser' => 'CM Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
-            'Browser_Maker' => 'Google Inc',
-            'Version' => '4.0',
-            'MajorVer' => '4',
+            'Browser_Maker' => 'Cheetah Mobile',
+            'Version' => '0.0',
+            'MajorVer' => '0',
             'MinorVer' => '0',
             'Platform' => 'Android',
             'Platform_Version' => '4.4',
@@ -3459,6 +3460,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
+        'lite' => false,
     ],
     'issue-563-DA' => [
         'Mozilla/5.0 (Linux; Android 4.4.4; GT-I9300I Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36 Flipboard/3.1.5/2581,3.1.5.2581,2015-02-24 17:19, +0800, ru',
@@ -4913,12 +4915,12 @@ return [
     'issue-563-ER' => [
         'Mozilla/5.0 (Linux; U; Android 4.2.2; ru-ru; PMP5785C3G_QUAD Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30 ACHEETAHI/2100501044',
         [
-            'Browser' => 'Android',
+            'Browser' => 'CM Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
-            'Browser_Maker' => 'Google Inc',
-            'Version' => '4.0',
-            'MajorVer' => '4',
+            'Browser_Maker' => 'Cheetah Mobile',
+            'Version' => '0.0',
+            'MajorVer' => '0',
             'MinorVer' => '0',
             'Platform' => 'Android',
             'Platform_Version' => '4.2',
@@ -5081,12 +5083,12 @@ return [
     'issue-563-EW' => [
         'Mozilla/5.0 (Linux; U; Android 4.3.9; ru-ru; K1 turbo Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 ACHEETAHI/2100501044',
         [
-            'Browser' => 'Android',
+            'Browser' => 'CM Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
-            'Browser_Maker' => 'Google Inc',
-            'Version' => '4.0',
-            'MajorVer' => '4',
+            'Browser_Maker' => 'Cheetah Mobile',
+            'Version' => '0.0',
+            'MajorVer' => '0',
             'MinorVer' => '0',
             'Platform' => 'Android',
             'Platform_Version' => '4.3',
@@ -5110,6 +5112,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
+        'lite' => false,
     ],
     'issue-563-EX' => [
         'Mozilla/5.0 (Linux; U; Android 4.3; el-gr; C1905 Build/15.4.A.1.9) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 [FB_IAB/FB4A;FBAV/27.0.0.25.15;]',
