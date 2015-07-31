@@ -5493,6 +5493,13 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#Lenovo A5500-H Build\/*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "device": "Lenovo A5500-H",
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#MB612 Build\/*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "device": "Motorola MB612",
           "platforms": [
@@ -5558,6 +5565,13 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SM-G355H Build\/*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "device": "Samsung SM-G355H",
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#Lenovo B6000-H Build\/*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "device": "Lenovo B6000-H",
           "platforms": [
             "Android_4_4"
           ]

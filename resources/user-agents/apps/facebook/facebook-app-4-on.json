@@ -204,6 +204,14 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#Lenovo B8000-H Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/*Safari\/* ?FB_IAB\/*FBAV\/#MAJORVER#.#MINORVER#*",
+          "device": "Lenovo B8000-H",
+          "engine": "WebKit",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#LT26w Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* ?FB_IAB\/*FBAV\/#MAJORVER#.#MINORVER#*",
           "device": "Sony LT26w",
           "engine": "WebKit",
@@ -264,6 +272,14 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Lenovo A820 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* ?FB_IAB\/*FBAV\/#MAJORVER#.#MINORVER#*",
           "device": "Lenovo A820",
+          "engine": "WebKit",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#Lenovo B6000-H Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/*Safari\/* ?FB_IAB\/*FBAV\/#MAJORVER#.#MINORVER#*",
+          "device": "Lenovo B6000-H",
           "engine": "WebKit",
           "platforms": [
             "Android_4_2"

@@ -4841,6 +4841,13 @@
           "match": "Mozilla\/5.0 (#PLATFORM#AdTab 7 Lite Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Adspec AdTab 7 Lite",
           "platforms": [
+          "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#Lenovo A5500-H Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "device": "Lenovo A5500-H",
+          "platforms": [
             "Android_4_4"
           ]
         },
