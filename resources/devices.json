@@ -16524,6 +16524,18 @@
         "isTablet": "false"
       }
     },
+    "Huawei Y320-U10": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Y320-U10",
+        "Device_Name": "Ascend Y320",
+        "Device_Maker": "Huawei",
+        "Device_Brand_Name": "Huawei",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Huawei Y320-U30": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -26724,6 +26736,18 @@
         "isTablet": "false"
       }
     },
+    "Digma PS604M": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Linx 6.0",
+        "Device_Code_Name": "PS604M",
+        "Device_Maker": "Digma",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Digma",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "ZONDA ZMNG1900": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -27264,6 +27288,18 @@
         "isTablet": "true"
       }
     },
+    "iconBIT NT-3502M": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "NetTAB Mercury Duo",
+        "Device_Code_Name": "NT-3502M",
+        "Device_Maker": "iconBIT",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "iconBIT",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "iconBIT NT-1009T": {
       "properties": {
         "Device_Type": "Tablet",
@@ -27701,6 +27737,18 @@
         "Device_Type": "Tablet",
         "Device_Name": "Q-lite",
         "Device_Code_Name": "AC0732C",
+        "Device_Maker": "3Q",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "3Q",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "3Q RC9724C": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "Q-pad",
+        "Device_Code_Name": "RC9724C",
         "Device_Maker": "3Q",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "3Q",
@@ -28452,6 +28500,18 @@
         "isTablet": "true"
       }
     },
+    "Oysters T80 3G": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "T80 3G",
+        "Device_Code_Name": "T80 3G",
+        "Device_Maker": "Oysters",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Oysters",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Vertex Impress L": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -28529,6 +28589,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Name": "M5301",
         "Device_Code_Name": "M5301",
+        "Device_Maker": "iRU",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "iRU",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "iRU M5302": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "M5302",
+        "Device_Code_Name": "M5302",
         "Device_Maker": "iRU",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "iRU",
@@ -29381,6 +29453,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Name": "F1",
         "Device_Code_Name": "F1",
+        "Device_Maker": "Jiayu",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Jiayu",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Jiayu G2": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "G2",
+        "Device_Code_Name": "G2",
         "Device_Maker": "Jiayu",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Jiayu",
