@@ -1,7 +1,7 @@
 {
   "division": "UC Browser #MAJORVER#.#MINORVER#",
   "versions": ["2.3", "2.2", "2.1", "2.0"],
-  "sortIndex": 1116,
+  "sortIndex": 936,
   "lite": false,
   "userAgents": [
     {
