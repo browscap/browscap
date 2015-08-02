@@ -399,7 +399,6 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#C6833 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Chrome\/*Safari\/* ?FB_IAB\/*FBAV\/#MAJORVER#.#MINORVER#*",
           "device": "Sony C6833",
-          "engine": "WebKit",
           "platforms": [
             "Android_4_4"
           ]
@@ -409,7 +408,7 @@
           "device": "Huawei G750-T00",
           "engine": "WebKit",
           "platforms": [
-            "Android_4_4"
+            "Android_4_2"
           ]
         },
         {

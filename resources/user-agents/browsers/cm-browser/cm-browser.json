@@ -366,8 +366,9 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#LC0720C Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/*Chrome\/*Safari\/* ACHEETAHI\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#LC0720C Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/*Safari\/* ACHEETAHI\/*",
           "device": "3Q LC0720C",
+          "engine": "WebKit",
           "platforms": [
             "Android_4_1"
           ]
