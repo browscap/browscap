@@ -27,11 +27,11 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#gxt_dongle_3188 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* bdbrowser_mini\/#MAJORVER#.#MINORVER#*",
-          "engine": "Blink",
-          "device": "Andoer CX919",
+          "match": "Mozilla\/5.0 (#PLATFORM#s4502 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* bdbrowser_mini\/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "device": "DNS S4502",
           "platforms": [
-            "Android_4_4"
+            "Android_4_1"
           ]
         },
         {

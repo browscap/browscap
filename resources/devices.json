@@ -4824,11 +4824,23 @@
         "isTablet": "false"
       }
     },
+    "Samsung SM-N750": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SM-N750",
+        "Device_Name": "Galaxy Note 3 Neo 3G",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Samsung SM-N7505": {
       "properties": {
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SM-N7505",
-        "Device_Name": "Note 3 Neo Duos",
+        "Device_Name": "Galaxy Note 3 Neo LTE+",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "touchscreen",
@@ -17292,13 +17304,13 @@
         "isTablet": "false"
       }
     },
-    "unknown MT6515M": {
+    "United MT6515M": {
       "properties": {
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "MT6515M",
-        "Device_Name": "MT6515M",
-        "Device_Maker": "unknown",
-        "Device_Brand_Name": "unknown",
+        "Device_Name": "Utime S23",
+        "Device_Maker": "United Time Technology Co., Ltd.",
+        "Device_Brand_Name": "United",
         "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
@@ -20688,6 +20700,30 @@
         "isTablet": "false"
       }
     },
+    "ZTE V769M": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "V769M",
+        "Device_Name": "Leo Q2",
+        "Device_Maker": "ZTE",
+        "Device_Brand_Name": "ZTE",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "ZTE V795": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "V795",
+        "Device_Name": "V795",
+        "Device_Maker": "ZTE",
+        "Device_Brand_Name": "ZTE",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "ZTE V967S": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -20849,18 +20885,6 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "V975",
         "Device_Name": "Geek",
-        "Device_Maker": "ZTE",
-        "Device_Brand_Name": "ZTE",
-        "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
-    "ZTE V769M": {
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "V769M",
-        "Device_Name": "Leo Q2",
         "Device_Maker": "ZTE",
         "Device_Brand_Name": "ZTE",
         "Device_Pointing_Method": "touchscreen",
@@ -21900,6 +21924,54 @@
         "isTablet": "false"
       }
     },
+    "Lenovo A850": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A850",
+        "Device_Name": "A850",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Lenovo A850+": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A850+",
+        "Device_Name": "A850+",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Lenovo A820": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A820",
+        "Device_Name": "A820",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Lenovo A808": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A808",
+        "Device_Name": "A808",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Lenovo ET980": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -21960,30 +22032,6 @@
         "isTablet": "false"
       }
     },
-    "Lenovo A850": {
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "A850",
-        "Device_Name": "A850",
-        "Device_Maker": "Lenovo",
-        "Device_Brand_Name": "Lenovo",
-        "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
-    "Lenovo A850+": {
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "A850+",
-        "Device_Name": "A850+",
-        "Device_Maker": "Lenovo",
-        "Device_Brand_Name": "Lenovo",
-        "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
     "Lenovo A789": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -22001,18 +22049,6 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "A706",
         "Device_Name": "A706",
-        "Device_Maker": "Lenovo",
-        "Device_Brand_Name": "Lenovo",
-        "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
-    "Lenovo A820": {
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "A820",
-        "Device_Name": "A820",
         "Device_Maker": "Lenovo",
         "Device_Brand_Name": "Lenovo",
         "Device_Pointing_Method": "touchscreen",
@@ -22973,6 +23009,18 @@
         "Device_Type": "Tablet",
         "Device_Code_Name": "PMT3037_3G",
         "Device_Name": "MultiPad Wize 3037 3G",
+        "Device_Maker": "Prestigio",
+        "Device_Brand_Name": "Prestigio",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Prestigio PMT3047_3G": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "PMT3047_3G",
+        "Device_Name": "MultiPad Wize 3047 3G",
         "Device_Maker": "Prestigio",
         "Device_Brand_Name": "Prestigio",
         "Device_Pointing_Method": "touchscreen",
@@ -27396,6 +27444,18 @@
         "isTablet": "false"
       }
     },
+    "TeXet TM-4377": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "TM-4377",
+        "Device_Code_Name": "TM-4377",
+        "Device_Maker": "TeXet",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "TeXet",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "TeXet TM-3204R": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -27696,6 +27756,18 @@
         "isTablet": "true"
       }
     },
+    "ONDA MID": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "VI10 Elite",
+        "Device_Code_Name": "MID",
+        "Device_Maker": "ONDA",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "ONDA",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Tri-ray X8+": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -27749,6 +27821,18 @@
         "Device_Type": "Tablet",
         "Device_Name": "Q-pad",
         "Device_Code_Name": "RC9724C",
+        "Device_Maker": "3Q",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "3Q",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "3Q MT0739D": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "Q-pad",
+        "Device_Code_Name": "MT0739D",
         "Device_Maker": "3Q",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "3Q",
@@ -28157,6 +28241,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Name": "Trooper 2 5.0",
         "Device_Code_Name": "Trooper 2 5.0",
+        "Device_Maker": "KAZAM",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "KAZAM",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "KAZAM Tornado 348": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Tornado 348",
+        "Device_Code_Name": "Tornado 348",
         "Device_Maker": "KAZAM",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "KAZAM",
@@ -28805,6 +28901,18 @@
         "Device_Type": "Tablet",
         "Device_Name": "Novo 7 Fire",
         "Device_Code_Name": "Novo 7 Fire",
+        "Device_Maker": "Ainol",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Ainol",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Ainol Numy 3G AX1": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "Novo 7 Numy AX1 3G",
+        "Device_Code_Name": "Numy 3G AX1",
         "Device_Maker": "Ainol",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Ainol",
@@ -29554,6 +29662,18 @@
         "Device_Brand_Name": "Zifro",
         "isMobileDevice": "true",
         "isTablet": "false"
+      }
+    },
+    "Alcor Q813IS": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "Zest",
+        "Device_Code_Name": "Q813IS",
+        "Device_Maker": "Alcor",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Alcor",
+        "isMobileDevice": "true",
+        "isTablet": "true"
       }
     }
   }

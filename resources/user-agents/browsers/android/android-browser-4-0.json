@@ -131,7 +131,7 @@
         },
         {
           "match": "MT6515M#PLATFORM# Release* Browser?AppleWebkit* (KHTML, like Gecko) Mozilla\/5.0 Mobile",
-          "device": "unknown MT6515M",
+          "device": "United MT6515M",
           "platforms": [
             "Android_2_3"
           ]
@@ -5742,6 +5742,20 @@
           "device": "3Q RC9724C",
           "platforms": [
             "Android_4_1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#ONDA MID Build\/*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "device": "ONDA MID",
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#Alcor Zest Q813IS Build\/*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "device": "Alcor Q813IS",
+          "platforms": [
+            "Android_4_2"
           ]
         },
         {
