@@ -353,7 +353,7 @@
           "device": "LG E615",
           "engine": "WebKit",
           "platforms": [
-            "Android_4_2"
+            "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {
@@ -386,6 +386,22 @@
           "engine": "WebKit",
           "platforms": [
             "Android_4_3"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#i-mobile IQ5.1 Pro Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* ?FB_IAB\/*FBAV\/#MAJORVER#.#MINORVER#*",
+          "device": "i-mobile IQ5.1 Pro",
+          "engine": "WebKit",
+          "platforms": [
+            "Android_4_1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#C6833 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Chrome\/*Safari\/* ?FB_IAB\/*FBAV\/#MAJORVER#.#MINORVER#*",
+          "device": "Sony C6833",
+          "engine": "WebKit",
+          "platforms": [
+            "Android_4_4"
           ]
         },
         {

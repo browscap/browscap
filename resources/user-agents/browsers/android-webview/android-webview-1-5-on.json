@@ -4859,6 +4859,13 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#Oysters T72H 3G Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "device": "Oysters T72H 3G",
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
           "match": "Lenovo A390*Mozilla\/5.0 (#PLATFORM#Lenovo A390*) AppleWebKit* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Lenovo A390",
           "platforms": [

@@ -8136,6 +8136,18 @@
         "isTablet": "false"
       }
     },
+    "Samsung SC-01F": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SC-01F",
+        "Device_Name": "Galaxy Note 3 (NTT Docomo)",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Garmin-Asus A50": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -13013,6 +13025,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "F160K",
         "Device_Name": "F160K",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG F180K": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "F180K",
+        "Device_Name": "Optimus G 4G LTE (Korea)",
         "Device_Maker": "LG",
         "Device_Brand_Name": "LG",
         "Device_Pointing_Method": "touchscreen",
@@ -21564,6 +21588,18 @@
         "isTablet": "false"
       }
     },
+    "Lenovo A680": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A680",
+        "Device_Name": "A680",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Lenovo IdeaPad A1": {
       "properties": {
         "Device_Type": "Tablet",
@@ -22380,6 +22416,18 @@
         "isTablet": "true"
       }
     },
+    "Lexand S5A4": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "S5A4",
+        "Device_Name": "Argon",
+        "Device_Maker": "Lexand",
+        "Device_Brand_Name": "Lexand",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Arnova 7CG2": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -22841,6 +22889,18 @@
         "Device_Type": "Tablet",
         "Device_Code_Name": "PMP5101C_QUAD",
         "Device_Name": "MultiPad 4 Quantum 10.1",
+        "Device_Maker": "Prestigio",
+        "Device_Brand_Name": "Prestigio",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Prestigio PMP5101D3G_QUAD": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "PMP5101D3G_QUAD",
+        "Device_Name": "MultiPad 4 Quantum 10.1 3G",
         "Device_Maker": "Prestigio",
         "Device_Brand_Name": "Prestigio",
         "Device_Pointing_Method": "touchscreen",
@@ -26700,6 +26760,18 @@
         "isTablet": "true"
       }
     },
+    "Digma iDsD10 3G": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "iDsD10 3G",
+        "Device_Code_Name": "iDsD10 3G",
+        "Device_Maker": "Digma",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Digma",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Digma iDnD7": {
       "properties": {
         "Device_Type": "Tablet",
@@ -27288,6 +27360,18 @@
         "isTablet": "false"
       }
     },
+    "Keneksi Libra": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Libra",
+        "Device_Code_Name": "Libra",
+        "Device_Maker": "Keneksi",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Keneksi",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Gionee Marathon M3": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -27612,6 +27696,18 @@
         "isTablet": "false"
       }
     },
+    "BQ Edison": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "Edison",
+        "Device_Code_Name": "Edison",
+        "Device_Maker": "BQ",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "BQ",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Andoer CX919": {
       "properties": {
         "Device_Type": "TV Device",
@@ -27840,6 +27936,18 @@
         "isTablet": "true"
       }
     },
+    "3Q LC0720C": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "Q-pad",
+        "Device_Code_Name": "LC0720C",
+        "Device_Maker": "3Q",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "3Q",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "SXZ PDX0-01": {
       "properties": {
         "Device_Type": "Tablet",
@@ -27857,6 +27965,18 @@
         "Device_Type": "Tablet",
         "Device_Name": "Surfer 7.34 3G",
         "Device_Code_Name": "Surfer 7.34 3G",
+        "Device_Maker": "Explay",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Explay",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Explay Surfer 8.31 3G": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "Surfer 8.31 3G",
+        "Device_Code_Name": "Surfer 8.31 3G",
         "Device_Maker": "Explay",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Explay",
@@ -28584,6 +28704,18 @@
         "isTablet": "true"
       }
     },
+    "Oysters T72H 3G": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "T72H 3G",
+        "Device_Code_Name": "T72H 3G",
+        "Device_Maker": "Oysters",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Oysters",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Oysters T72HRi 3G": {
       "properties": {
         "Device_Type": "Tablet",
@@ -29136,6 +29268,18 @@
         "isTablet": "false"
       }
     },
+    "i-mobile IQ5.1 Pro": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "IQ5.1 Pro",
+        "Device_Code_Name": "IQ5.1 Pro",
+        "Device_Maker": "i-mobile",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "i-mobile",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Reeder A8R": {
       "properties": {
         "Device_Type": "Tablet",
@@ -29544,6 +29688,18 @@
         "isTablet": "true"
       }
     },
+    "Assistant AP-708": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "AP-708",
+        "Device_Code_Name": "AP-708",
+        "Device_Maker": "Assistant",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Assistant",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Evercoss A66A": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -29674,6 +29830,54 @@
         "Device_Brand_Name": "Alcor",
         "isMobileDevice": "true",
         "isTablet": "true"
+      }
+    },
+    "Karbonn S20": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Titanium S20",
+        "Device_Code_Name": "S20",
+        "Device_Maker": "Karbonn",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Karbonn",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "AOSON M785": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "M785",
+        "Device_Code_Name": "M785",
+        "Device_Maker": "AOSON",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "AOSON",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Jiake JK11": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "JK11",
+        "Device_Code_Name": "JK11",
+        "Device_Maker": "Jiake",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Jiake",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Lovme X50": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "X50",
+        "Device_Code_Name": "X50",
+        "Device_Maker": "Lovme",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Lovme",
+        "isMobileDevice": "true",
+        "isTablet": "false"
       }
     }
   }
