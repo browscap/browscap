@@ -358,8 +358,9 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Surfer 8.31 3G Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/*Chrome\/*Safari\/* ACHEETAHI\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#Surfer 8.31 3G Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/*Safari\/* ACHEETAHI\/*",
           "device": "Explay Surfer 8.31 3G",
+          "engine": "WebKit",
           "platforms": [
             "Android_4_1"
           ]
@@ -374,6 +375,14 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#AP-708 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/*Safari\/* ACHEETAHI\/*",
           "device": "Assistant AP-708",
+          "engine": "WebKit",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#Philips W3500 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/*Safari\/* ACHEETAHI\/*",
+          "device": "Philips W3500",
           "engine": "WebKit",
           "platforms": [
             "Android_4_2"

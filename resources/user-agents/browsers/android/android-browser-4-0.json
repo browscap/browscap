@@ -2542,6 +2542,13 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#SonyEricssonST25a Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "device": "SonyEricsson ST25a",
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#ST25i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "device": "SonyEricsson ST25i",
           "platforms": [
@@ -5777,6 +5784,13 @@
           "device": "BQ Edison",
           "platforms": [
             "Android_4_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#SGH-I317 Build\/*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "device": "Samsung SGH-I317",
+          "platforms": [
+            "Android_4_1"
           ]
         },
         {

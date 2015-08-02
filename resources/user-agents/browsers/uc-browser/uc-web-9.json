@@ -259,6 +259,14 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#HTC One S Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "engine": "U3",
+          "device": "HTC PJ401",
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM# Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
           "engine": "U3",
           "platforms": [
@@ -651,6 +659,14 @@
           ]
         },
         {
+          "match": "UCWEB\/*(#PLATFORM#CinemaTV_3G) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "engine": "U2",
+          "device": "Explay CinemaTV 3G",
+          "platforms": [
+            "Android_4_2_C"
+          ]
+        },
+        {
           "match": "UCWEB\/*(#PLATFORM#) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
           "engine": "U2",
           "device": "general Mobile Phone (Touch)",
@@ -769,6 +785,22 @@
           "match": "UCWEB\/2.0 (Linux; U; Opera Mini\/*; Oysters_T72HRi_3G) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
           "engine": "U2",
           "device": "Oysters T72HRi 3G",
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
+          "match": "UCWEB\/2.0 (Linux; U; Opera Mini\/*; Lenovo_A376) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
+          "engine": "U2",
+          "device": "Lenovo A376",
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
+          "match": "UCWEB\/2.0 (Linux; U; Opera Mini\/*; ZTE_Grand_Era) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
+          "engine": "U2",
+          "device": "ZTE Grand Era",
           "platforms": [
             "Android_4_0"
           ]

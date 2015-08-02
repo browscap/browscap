@@ -1236,6 +1236,18 @@
         "isTablet": "false"
       }
     },
+    "SonyEricsson ST25a": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "ST25a",
+        "Device_Name": "Xperia U",
+        "Device_Maker": "SonyEricsson",
+        "Device_Brand_Name": "SonyEricsson",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "SonyEricsson ST27i": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -5508,6 +5520,18 @@
         "isTablet": "false"
       }
     },
+    "Samsung SGH-I317": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SGH-I317",
+        "Device_Name": "Galaxy Note II (AT&T)",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Samsung SGH-I257": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -5693,6 +5717,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SCH-R430",
         "Device_Name": "SCH-R430",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung SCH-R530C": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SCH-R530C",
+        "Device_Name": "Galaxy S III CDMA 4G LTE",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "unknown",
@@ -16752,6 +16788,18 @@
         "isTablet": "false"
       }
     },
+    "Huawei G750-T00": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "G750-T00",
+        "Device_Name": "Honor 3X",
+        "Device_Maker": "Huawei",
+        "Device_Brand_Name": "Huawei",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Huawei D2-0082": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -20916,6 +20964,18 @@
         "isTablet": "false"
       }
     },
+    "ZTE Grand Era": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Grand Era",
+        "Device_Name": "Grand Era",
+        "Device_Maker": "ZTE",
+        "Device_Brand_Name": "ZTE",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Dell Streak": {
       "properties": {
         "Device_Type": "Tablet",
@@ -21840,6 +21900,66 @@
         "isTablet": "true"
       }
     },
+    "Lenovo A3300-HV": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "A3300-HV",
+        "Device_Name": "TAB A7-30 Wi-Fi + 3G",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Lenovo A3300-H": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "A3300-H",
+        "Device_Name": "TAB A7-30 Wi-Fi + 3G",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Lenovo A3300-GV": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "A3300-GV",
+        "Device_Name": "TAB A7-30 Wi-Fi",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Lenovo A3500-FL": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "A3500-FL",
+        "Device_Name": "IdeaTab A7-40",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Lenovo A3500-H": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "A3500-H",
+        "Device_Name": "A7-50 A3500 Wi-Fi + 3G",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Lenovo A1000L-F": {
       "properties": {
         "Device_Type": "Tablet",
@@ -21936,6 +22056,42 @@
         "isTablet": "false"
       }
     },
+    "Lenovo A328": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A328",
+        "Device_Name": "A328",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Lenovo A388T": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A388T",
+        "Device_Name": "A388T",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Lenovo A376": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A376",
+        "Device_Name": "A376",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Lenovo A889": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -22016,30 +22172,6 @@
         "Device_Maker": "Lenovo",
         "Device_Brand_Name": "Lenovo",
         "Device_Pointing_Method": "unknown",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
-    "Lenovo A328": {
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "A328",
-        "Device_Name": "A328",
-        "Device_Maker": "Lenovo",
-        "Device_Brand_Name": "Lenovo",
-        "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
-    "Lenovo A388T": {
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "A388T",
-        "Device_Name": "A388T",
-        "Device_Maker": "Lenovo",
-        "Device_Brand_Name": "Lenovo",
-        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -22140,42 +22272,6 @@
         "isTablet": "true"
       }
     },
-    "Lenovo A3300-HV": {
-      "properties": {
-        "Device_Type": "Tablet",
-        "Device_Code_Name": "A3300-HV",
-        "Device_Name": "TAB A7-30 Wi-Fi + 3G",
-        "Device_Maker": "Lenovo",
-        "Device_Brand_Name": "Lenovo",
-        "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true",
-        "isTablet": "true"
-      }
-    },
-    "Lenovo A3300-H": {
-      "properties": {
-        "Device_Type": "Tablet",
-        "Device_Code_Name": "A3300-H",
-        "Device_Name": "TAB A7-30 Wi-Fi + 3G",
-        "Device_Maker": "Lenovo",
-        "Device_Brand_Name": "Lenovo",
-        "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true",
-        "isTablet": "true"
-      }
-    },
-    "Lenovo A3300-GV": {
-      "properties": {
-        "Device_Type": "Tablet",
-        "Device_Code_Name": "A3300-GV",
-        "Device_Name": "TAB A7-30 Wi-Fi",
-        "Device_Maker": "Lenovo",
-        "Device_Brand_Name": "Lenovo",
-        "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true",
-        "isTablet": "true"
-      }
-    },
     "Lenovo S5000-F": {
       "properties": {
         "Device_Type": "Tablet",
@@ -22236,18 +22332,6 @@
         "isTablet": "true"
       }
     },
-    "Lenovo A3500-FL": {
-      "properties": {
-        "Device_Type": "Tablet",
-        "Device_Code_Name": "A3500-FL",
-        "Device_Name": "IdeaTab A7-40",
-        "Device_Maker": "Lenovo",
-        "Device_Brand_Name": "Lenovo",
-        "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true",
-        "isTablet": "true"
-      }
-    },
     "Lenovo A7600-H": {
       "properties": {
         "Device_Type": "Tablet",
@@ -22265,18 +22349,6 @@
         "Device_Type": "Tablet",
         "Device_Code_Name": "A5500-H",
         "Device_Name": "Ideatab A8-50 WI-FI + 3G",
-        "Device_Maker": "Lenovo",
-        "Device_Brand_Name": "Lenovo",
-        "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true",
-        "isTablet": "true"
-      }
-    },
-    "Lenovo A3500-H": {
-      "properties": {
-        "Device_Type": "Tablet",
-        "Device_Code_Name": "A3500-H",
-        "Device_Name": "A7-50 A3500 Wi-Fi + 3G",
         "Device_Maker": "Lenovo",
         "Device_Brand_Name": "Lenovo",
         "Device_Pointing_Method": "touchscreen",
@@ -24744,6 +24816,18 @@
         "isTablet": "false"
       }
     },
+    "Pantech IM-A910L": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Vega Iron 2 WiFi",
+        "Device_Code_Name": "IM-A910L",
+        "Device_Maker": "Pantech",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Pantech",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "AUDIOVOX SMT5600": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -26676,6 +26760,18 @@
         "isTablet": "false"
       }
     },
+    "Philips W3500": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "W3500",
+        "Device_Code_Name": "W3500",
+        "Device_Maker": "Philips",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Philips",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Philips W336": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -28025,6 +28121,30 @@
         "Device_Type": "Tablet",
         "Device_Name": "Informer 921",
         "Device_Code_Name": "Informer 921",
+        "Device_Maker": "Explay",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Explay",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Explay CinemaTV 3G": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "CinemaTV 3G",
+        "Device_Code_Name": "CinemaTV 3G",
+        "Device_Maker": "Explay",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Explay",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Explay sQuad 7.82 3G": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "sQuad 7.82 3G",
+        "Device_Code_Name": "sQuad 7.82 3G",
         "Device_Maker": "Explay",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Explay",
@@ -29616,6 +29736,18 @@
         "isTablet": "false"
       }
     },
+    "TCL S950": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Idol X",
+        "Device_Code_Name": "S950",
+        "Device_Maker": "TCL",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "TCL",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Radxa Rock": {
       "properties": {
         "Device_Type": "Desktop",
@@ -29878,6 +30010,18 @@
         "Device_Brand_Name": "Lovme",
         "isMobileDevice": "true",
         "isTablet": "false"
+      }
+    },
+    "Beeline Tab": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "Tab",
+        "Device_Code_Name": "Tab",
+        "Device_Maker": "Beeline",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Beeline",
+        "isMobileDevice": "true",
+        "isTablet": "true"
       }
     }
   }

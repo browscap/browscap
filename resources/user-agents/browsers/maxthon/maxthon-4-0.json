@@ -53,6 +53,13 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#PMP5080B Build\/*)Maxthon AppleWebKit\/* (KHTML, like Gecko) Version\/4.0 *Safari\/*",
+          "device": "Multipad PMP5080B",
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#)Maxthon AppleWebKit\/* (KHTML, like Gecko) Version\/4.0 *Safari\/*",
           "platforms": [
             "Android_2_3", "Android_4_0", "Android"

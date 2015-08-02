@@ -177,6 +177,13 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#ALCATEL ONE TOUCH P310X Build\/*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "device": "Alcatel P310X",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM# Android\/* Release\/* Browser\/AppleWebKit* Build\/*) AppleWebKit* (KHTML, like Gecko) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "platforms": [
             "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
