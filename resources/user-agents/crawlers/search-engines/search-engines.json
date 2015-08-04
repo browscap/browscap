@@ -566,12 +566,6 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; ScoutJet; +http:\/\/www.scoutjet.com\/)",
-          "properties": {
-            "Browser": "ScoutJet"
-          }
-        },
-        {
           "match": "Mozilla\/5.0 (compatible; Scrubby\/*; +http:\/\/www.scrubtheweb.com\/abs\/meta-check.html)",
           "properties": {
             "Browser": "Scrubby"

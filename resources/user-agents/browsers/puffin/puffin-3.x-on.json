@@ -26,20 +26,20 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (*Linux x86_64*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/* Safari\/* Puffin\/#MAJORVER#.#MINORVER#*AP*",
+          "match": "Mozilla\/5.0 (*Linux x86_64*) AppleWebKit\/* (KHTML, like Gecko) *Chrome\/* Safari\/* Puffin\/#MAJORVER#.#MINORVER#*AP*",
           "platforms": [
             "Android"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (*Linux x86_64*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/* Safari\/* Puffin\/#MAJORVER#.#MINORVER#*AT*",
+          "match": "Mozilla\/5.0 (*Linux x86_64*) AppleWebKit\/* (KHTML, like Gecko) *Chrome\/* Safari\/* Puffin\/#MAJORVER#.#MINORVER#*AT*",
           "device": "general Tablet",
           "platforms": [
             "Android"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (*Linux x86_64*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/* Safari\/* Puffin\/#MAJORVER#.#MINORVER#*IP*",
+          "match": "Mozilla\/5.0 (*Linux x86_64*) AppleWebKit\/* (KHTML, like Gecko) *Chrome\/* Safari\/* Puffin\/#MAJORVER#.#MINORVER#*IP*",
           "device": "iPhone",
           "engine": "WebKit",
           "platforms": [
@@ -47,7 +47,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (*Linux x86_64*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/* Safari\/* Puffin\/#MAJORVER#.#MINORVER#*IT*",
+          "match": "Mozilla\/5.0 (*Linux x86_64*) AppleWebKit\/* (KHTML, like Gecko) *Chrome\/* Safari\/* Puffin\/#MAJORVER#.#MINORVER#*IT*",
           "device": "iPad",
           "engine": "WebKit",
           "platforms": [

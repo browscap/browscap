@@ -1,0 +1,23 @@
+{
+  "division": "ScoutJet",
+  "sortIndex": 250,
+  "lite": false,
+  "userAgents": [
+    {
+      "userAgent": "ScoutJet",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "ScoutJet",
+        "Browser": "ScoutJet",
+        "Browser_Maker": "Blekko Inc.",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (compatible; ScoutJet; +http:\/\/www.scoutjet.com\/)"
+        }
+      ]
+    }
+  ]
+}
