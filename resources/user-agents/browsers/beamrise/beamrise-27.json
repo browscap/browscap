@@ -2,7 +2,7 @@
   "division": "Beamrise #MAJORVER#.#MINORVER#",
   "versions": ["27.3"],
   "sortIndex": 955,
-  "lite": true,
+  "lite": false,
   "userAgents": [
     {
       "userAgent": "Beamrise #MAJORVER#.#MINORVER#",

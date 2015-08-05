@@ -160,7 +160,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (Linux; U; *) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* like Chrome\/* Safari*",
+          "match": "Mozilla\/5.0 (X11; Linux*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* like Chrome\/* Safari*",
           "engine": "Blink",
           "properties": {
             "Browser_Modus": "Desktop Mode"
