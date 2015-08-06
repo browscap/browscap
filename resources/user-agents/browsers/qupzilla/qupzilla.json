@@ -12,6 +12,7 @@
         "Comment": "QupZilla",
         "Browser": "QupZilla",
         "Browser_Type": "Browser",
+        "Browser_Maker": "David Rosca and Community",
         "Alpha": "false",
         "Beta": "false",
         "Win16": "false",

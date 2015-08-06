@@ -5,6 +5,8 @@
   "userAgents": [
     {
       "userAgent": "gvfs",
+      "platform": "Linux",
+      "device": "Linux Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "gvfs",
