@@ -1,0 +1,38 @@
+{
+  "division": "Kontact #MAJORVER#.#MINORVER#",
+  "versions": ["4.14"],
+  "sortIndex": 954,
+  "lite": false,
+  "userAgents": [
+    {
+      "userAgent": "Kontact #MAJORVER#.#MINORVER#",
+      "platform": "Linux",
+      "engine": "WebKit",
+      "device": "Linux Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Kontact #MAJORVER#.#MINORVER#",
+        "Browser": "Kontact",
+        "Browser_Type": "Email Client",
+        "Browser_Maker": "KDE e.V.",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) kontact\/#MAJORVER#.#MINORVER#* Safari\/*",
+          "platforms": [
+            "Linux_64", "Linux_32"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -4332,11 +4332,11 @@
         "isTablet": "false"
       }
     },
-    "Samsung F031": {
+    "Samsung SM-G850F": {
       "properties": {
         "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "F031",
-        "Device_Name": "Galaxy S5",
+        "Device_Code_Name": "SM-G850F",
+        "Device_Name": "Galaxy Alpha",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "touchscreen",
@@ -4344,11 +4344,23 @@
         "isTablet": "false"
       }
     },
-    "Samsung SM-G850F": {
+    "Samsung SM-G530H": {
       "properties": {
         "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "SM-G850F",
-        "Device_Name": "Galaxy Alpha",
+        "Device_Code_Name": "SM-G530H",
+        "Device_Name": "Galaxy Grand Prime Dual",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung F031": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "F031",
+        "Device_Name": "Galaxy S5",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "touchscreen",
@@ -4920,6 +4932,18 @@
         "isTablet": "false"
       }
     },
+    "Samsung SM-J100F": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SM-J100F",
+        "Device_Name": "Galaxy J1 LTE",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Samsung SM-A500FU": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -4937,6 +4961,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SM-A300FU",
         "Device_Name": "Galaxy A3 LTE",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung SM-A700F": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SM-A700F",
+        "Device_Name": "Galaxy A7 LTE",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "touchscreen",

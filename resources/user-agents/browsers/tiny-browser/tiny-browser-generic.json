@@ -1,0 +1,33 @@
+{
+  "division": "TinyBrowser Generic",
+  "sortIndex": 2451,
+  "lite": false,
+  "userAgents": [
+    {
+      "userAgent": "TinyBrowser Generic",
+      "platform": "Linux",
+      "engine": "Gecko",
+      "device": "Linux Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "TinyBrowser Generic",
+        "Browser": "TinyBrowser",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "unknown",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "CssVersion": "2"
+      },
+      "children": [
+        {
+          "match": "TinyBrowser\/* (TinyBrowser *) Gecko\/*"
+        }
+      ]
+    }
+  ]
+}

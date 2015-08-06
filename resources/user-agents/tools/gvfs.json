@@ -1,0 +1,34 @@
+{
+  "division": "gvfs",
+  "sortIndex": 130,
+  "lite": false,
+  "userAgents": [
+    {
+      "userAgent": "gvfs",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "gvfs",
+        "Browser": "gvfs",
+        "Browser_Type": "Tool",
+        "Browser_Maker": "The GNOME Project",
+        "Frames": "false",
+        "IFrames": "false",
+        "Tables": "false",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "gvfs\/1.24.1*",
+          "properties": {
+            "Version": "1.24",
+            "MajorVer": "1",
+            "MinorVer": "24"
+          }
+        },
+        {
+          "match": "gvfs\/*"
+        }
+      ]
+    }
+  ]
+}

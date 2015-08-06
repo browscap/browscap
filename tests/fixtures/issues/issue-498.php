@@ -1089,7 +1089,7 @@ return [
             'Browser' => 'Waterfox',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '64',
-            'Browser_Maker' => 'unknown',
+            'Browser_Maker' => 'www.waterfoxproject.org',
             'Version' => '32.0',
             'MajorVer' => '32',
             'MinorVer' => '0',
