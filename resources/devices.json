@@ -4308,6 +4308,18 @@
         "isTablet": "false"
       }
     },
+    "Samsung SM-G388F": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SM-G388F",
+        "Device_Name": "Galaxy Xcover 3 LTE",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Samsung SM-G800F": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -4728,11 +4740,11 @@
         "isTablet": "true"
       }
     },
-    "Samsung SM-T111": {
+    "Samsung SM-T535": {
       "properties": {
         "Device_Type": "Tablet",
-        "Device_Code_Name": "SM-T111",
-        "Device_Name": "Galaxy Tab 3 Lite 7.0 3G",
+        "Device_Code_Name": "SM-T535",
+        "Device_Name": "Galaxy Tab 4 10.1",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "touchscreen",
@@ -4740,11 +4752,47 @@
         "isTablet": "true"
       }
     },
-    "Samsung SM-T535": {
+    "Samsung SM-T525": {
       "properties": {
         "Device_Type": "Tablet",
-        "Device_Code_Name": "SM-T535",
+        "Device_Code_Name": "SM-T525",
+        "Device_Name": "Galaxy Tab Pro 10.1",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Samsung SM-T531": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "SM-T531",
         "Device_Name": "Galaxy Tab 4 10.1",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Samsung SM-T550": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "SM-T550",
+        "Device_Name": "Galaxy Tab A 9.7 Wifi",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Samsung SM-T111": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "SM-T111",
+        "Device_Name": "Galaxy Tab 3 Lite 7.0 3G",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "touchscreen",
@@ -4800,18 +4848,6 @@
         "isTablet": "true"
       }
     },
-    "Samsung SM-T525": {
-      "properties": {
-        "Device_Type": "Tablet",
-        "Device_Code_Name": "SM-T525",
-        "Device_Name": "Galaxy Tab Pro 10.1",
-        "Device_Maker": "Samsung",
-        "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true",
-        "isTablet": "true"
-      }
-    },
     "Samsung SM-T235": {
       "properties": {
         "Device_Type": "Tablet",
@@ -4853,18 +4889,6 @@
         "Device_Type": "Tablet",
         "Device_Code_Name": "SM-T2105",
         "Device_Name": "Galaxy Tab 3 Kids",
-        "Device_Maker": "Samsung",
-        "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true",
-        "isTablet": "true"
-      }
-    },
-    "Samsung SM-T531": {
-      "properties": {
-        "Device_Type": "Tablet",
-        "Device_Code_Name": "SM-T531",
-        "Device_Name": "Galaxy Tab 4 10.1",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "touchscreen",
@@ -4937,6 +4961,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SM-J100F",
         "Device_Name": "Galaxy J1 LTE",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung SM-J100ML": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SM-J100ML",
+        "Device_Name": "Galaxy J1",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "touchscreen",
@@ -11971,7 +12007,7 @@
         "Device_Name": "E730",
         "Device_Maker": "LG",
         "Device_Brand_Name": "LG",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -25294,6 +25330,18 @@
         "Device_Brand_Name": "Lava",
         "isMobileDevice": "true",
         "isTablet": "true"
+      }
+    },
+    "Thornton Pickard THOT61": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "THOT61",
+        "Device_Code_Name": "THOT61",
+        "Device_Maker": "Thornton Pickard",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Thornton Pickard",
+        "isMobileDevice": "true",
+        "isTablet": "false"
       }
     }
   }
