@@ -1774,33 +1774,6 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; MSIE or Firefox mutant; not on Windows server;*) Daumoa\/4.0*",
-          "properties": {
-            "Browser": "Daumoa",
-            "Browser_Maker": "Daum Communications Corp",
-            "Version": "4.0",
-            "MajorVer": "4",
-            "MinorVer": "0"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (compatible; MSIE or Firefox mutant; not on Windows server;*) Daumoa\/3.0*",
-          "properties": {
-            "Browser": "Daumoa",
-            "Browser_Maker": "Daum Communications Corp",
-            "Version": "3.0",
-            "MajorVer": "3",
-            "MinorVer": "0"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (compatible; MSIE or Firefox mutant; not on Windows server;*) Daumoa\/*",
-          "properties": {
-            "Browser": "Daumoa",
-            "Browser_Maker": "Daum Communications Corp"
-          }
-        },
-        {
           "match": "Photon\/1.0*",
           "properties": {
             "Browser": "Photon",
@@ -2251,13 +2224,6 @@
           "properties": {
             "Browser": "TweetmemeBot",
             "Browser_Maker": "datasift.com"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (compatible; Blekkobot*",
-          "properties": {
-            "Browser": "Blekkobot",
-            "Browser_Maker": "Blekko Inc."
           }
         },
         {

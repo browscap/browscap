@@ -1,0 +1,39 @@
+{
+  "division": "Daumoa",
+  "sortIndex": 170,
+  "lite": false,
+  "userAgents": [
+    {
+      "userAgent": "Daumoa",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Daumoa",
+        "Browser": "Daumoa",
+        "Browser_Maker": "Daum Communications Corp",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (compatible; MSIE or Firefox mutant; not on Windows server;*) Daumoa?4.0*",
+          "properties": {
+            "Version": "4.0",
+            "MajorVer": "4",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; MSIE or Firefox mutant; not on Windows server;*) Daumoa?3.0*",
+          "properties": {
+            "Version": "3.0",
+            "MajorVer": "3",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; MSIE or Firefox mutant; not on Windows server;*"
+        }
+      ]
+    }
+  ]
+}
