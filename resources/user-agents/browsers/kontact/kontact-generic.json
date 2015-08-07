@@ -1,0 +1,34 @@
+{
+  "division": "Kontact Generic",
+  "sortIndex": 956,
+  "lite": false,
+  "userAgents": [
+    {
+      "userAgent": "Kontact Generic",
+      "platform": "Linux",
+      "engine": "WebKit",
+      "device": "Linux Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Kontact Generic",
+        "Browser": "Kontact",
+        "Browser_Type": "Email Client",
+        "Browser_Maker": "KDE e.V.",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) kontact\/* Safari\/*",
+          "platforms": [
+            "Linux_64", "Linux_32"
+          ]
+        }
+      ]
+    }
+  ]
+}

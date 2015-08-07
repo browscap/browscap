@@ -58,6 +58,12 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (*Linux#PLATFORM#) AppleWebKit\/* Chromium\/#MAJORVER#.*Safari\/*",
+          "platforms": [
+            "Ubuntu_14_04"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Chromium\/#MAJORVER#.*Chrome\/*Safari\/*",
           "platforms": [
             "Ubuntu_64", "Ubuntu_32", "Ubuntu",

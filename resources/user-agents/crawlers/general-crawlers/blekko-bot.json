@@ -1,0 +1,23 @@
+{
+  "division": "Blekkobot",
+  "sortIndex": 170,
+  "lite": false,
+  "userAgents": [
+    {
+      "userAgent": "Blekkobot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Blekkobot",
+        "Browser": "Blekkobot",
+        "Browser_Maker": "Blekko Inc.",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (compatible; Blekkobot*"
+        }
+      ]
+    }
+  ]
+}

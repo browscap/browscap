@@ -7,7 +7,7 @@ return [
             'Browser' => 'Waterfox',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '64',
-            'Browser_Maker' => 'unknown',
+            'Browser_Maker' => 'www.waterfoxproject.org',
             'Version' => '26.0',
             'MajorVer' => '26',
             'MinorVer' => '0',

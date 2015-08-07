@@ -1,6 +1,6 @@
 {
   "division": "Waterfox #MAJORVER#.#MINORVER#",
-  "versions": [34, 33, 32, 31, 30, 29, 28, 27, 26],
+  "versions": ["38.1", 38, 37, 36, 35, 34, 33, 32, 31, 30, 29, 28, 27, 26],
   "sortIndex": 3145,
   "lite": false,
   "userAgents": [
@@ -14,6 +14,7 @@
         "Comment": "Waterfox #MAJORVER#.#MINORVER#",
         "Browser": "Waterfox",
         "Browser_Type": "Browser",
+        "Browser_Maker": "www.waterfoxproject.org",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
@@ -28,7 +29,12 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/* Waterfox\/#MAJORVER#*",
           "platforms": [
-            "Win7_64", "Win7_x64", "Win7_x64_2", "Win8_64", "Win8_x64", "Win8_1_64", "Win8_1_x64", "NT4_64", "NT4_x64"
+            "Win7_64", "Win7_x64", "Win7_x64_2",
+            "Win8_64", "Win8_x64",
+            "Win8_1_64", "Win8_1_x64",
+            "Win10_x64", "Win10_64",
+            "Win10_x64_B", "Win10_64_B",
+            "NT4_64", "NT4_x64"
           ]
         }
       ]
