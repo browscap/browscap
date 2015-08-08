@@ -4644,6 +4644,18 @@
         "isTablet": "false"
       }
     },
+    "Samsung SM-G350E": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SM-G350E",
+        "Device_Name": "Galaxy Star Advance",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Samsung SM-G355H": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -21048,6 +21060,42 @@
         "isTablet": "false"
       }
     },
+    "ZTE V975": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "V975",
+        "Device_Name": "Geek",
+        "Device_Maker": "ZTE",
+        "Device_Brand_Name": "ZTE",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "ZTE V970": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "V970",
+        "Device_Name": "Grand X",
+        "Device_Maker": "ZTE",
+        "Device_Brand_Name": "ZTE",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "ZTE V987": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "V987",
+        "Device_Name": "Grand X Quad",
+        "Device_Maker": "ZTE",
+        "Device_Brand_Name": "ZTE",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "ZTE Z221": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -21185,30 +21233,6 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Atlas W",
         "Device_Name": "Atlas W",
-        "Device_Maker": "ZTE",
-        "Device_Brand_Name": "ZTE",
-        "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
-    "ZTE V975": {
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "V975",
-        "Device_Name": "Geek",
-        "Device_Maker": "ZTE",
-        "Device_Brand_Name": "ZTE",
-        "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
-    "ZTE V970": {
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "V970",
-        "Device_Name": "Grand X",
         "Device_Maker": "ZTE",
         "Device_Brand_Name": "ZTE",
         "Device_Pointing_Method": "touchscreen",
@@ -26292,6 +26316,18 @@
         "isTablet": "false"
       }
     },
+    "Wiko GOA": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "GOA",
+        "Device_Code_Name": "GOA",
+        "Device_Maker": "Wiko",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Wiko",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Fujitsu M532": {
       "properties": {
         "Device_Type": "Tablet",
@@ -27389,6 +27425,18 @@
         "Device_Type": "Console",
         "Device_Name": "Func Titan-02",
         "Device_Code_Name": "Func Titan-02",
+        "Device_Maker": "DFunc",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "DFunc",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "DFunc Func Titan-01A": {
+      "properties": {
+        "Device_Type": "Console",
+        "Device_Name": "Func Titan-01A",
+        "Device_Code_Name": "Func Titan-01A",
         "Device_Maker": "DFunc",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "DFunc",
@@ -28908,6 +28956,18 @@
         "isTablet": "true"
       }
     },
+    "M-way MD027G": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "MD027G",
+        "Device_Code_Name": "MD027G",
+        "Device_Maker": "M-way",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "M-way",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "iNew V3": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -30209,6 +30269,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Name": "G2",
         "Device_Code_Name": "G2",
+        "Device_Maker": "Jiayu",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Jiayu",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Jiayu G2S": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "G2S",
+        "Device_Code_Name": "G2S",
         "Device_Maker": "Jiayu",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Jiayu",

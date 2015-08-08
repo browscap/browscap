@@ -136,6 +136,14 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-G350E Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Chrome\/*Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
+          "engine": "Blink",
+          "device": "Samsung SM-G350E",
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
           "engine": "WebKit",
           "platforms": [
