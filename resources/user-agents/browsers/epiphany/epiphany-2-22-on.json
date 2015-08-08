@@ -1,0 +1,81 @@
+{
+  "division": "Epiphany #MAJORVER#.#MINORVER#",
+  "versions": ["3.14", "3.12", "3.10", "3.8", "3.6", "3.4", "3.2", 3, "2.32", "2.30", "2.22"],
+  "sortIndex": 1943,
+  "lite": false,
+  "userAgents": [
+    {
+      "userAgent": "Epiphany #MAJORVER#.#MINORVER#",
+      "platform": "Linux",
+      "engine": "WebKit",
+      "device": "Linux Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Epiphany #MAJORVER#.#MINORVER#",
+        "Browser": "Epiphany",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "The GNOME Project",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "CssVersion": "3",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/*(KHTML,*like Gecko*) Safari\/* Epiphany\/#MAJORVER#.#MINORVER#*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/*(KHTML,*like Gecko*) Safari\/* Epiphany\/#MAJORVER#.#MINORVER#*",
+          "device": "general Desktop",
+          "platforms": [
+            "FreeBSD", "SunOS"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Version\/5.0 Safari\/* Epiphany\/#MAJORVER#.#MINORVER#*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/*(KHTML,*like Gecko*) Version\/*Safari\/* Epiphany\/#MAJORVER#.#MINORVER#*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Epiphany\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (Macintosh; ARM Mac OS X) AppleWebKit\/* (KHTML, like Gecko) Safari\/* Version\/* Debian\/* (*rpi*rpi*) Epiphany\/#MAJORVER#.#MINORVER#*",
+          "device": "Raspberry Pi",
+          "platforms": [
+            "Debian"
+          ]
+        }
+      ]
+    }
+  ]
+}
