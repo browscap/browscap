@@ -1085,6 +1085,13 @@
         "Platform_Version": "12.04"
       }
     },
+    "Ubuntu_14_04": {
+      "match": "*Ubuntu?14.04*",
+      "inherits": "Ubuntu",
+      "properties": {
+        "Platform_Version": "14.04"
+      }
+    },
     "Ubuntu_64": {
       "match": "*Ubuntu; Linux x86_64*",
       "inherits": "Ubuntu",

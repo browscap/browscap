@@ -68,6 +68,14 @@
           ]
         },
         {
+          "match": "UCWEB\/*(#PLATFORM#SM-G530H) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "engine": "U2",
+          "device": "Samsung SM-G530H",
+          "platforms": [
+            "Android_4_4_C"
+          ]
+        },
+        {
           "match": "UCWEB\/*(#PLATFORM#IQ4490) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
           "engine": "U2",
           "device": "Fly IQ4490",
@@ -97,6 +105,14 @@
           "device": "Lexand S5A4",
           "platforms": [
             "Android_4_2_C"
+          ]
+        },
+        {
+          "match": "UCWEB\/*(#PLATFORM#SM-G530H) U2\/* UC Browser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "engine": "U2",
+          "device": "Samsung SM-G530H",
+          "platforms": [
+            "Android_4_4_C"
           ]
         },
         {

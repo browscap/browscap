@@ -44,6 +44,13 @@
             "SymbianOS_C",
             "WinMobile"
           ]
+        },
+        {
+          "match": "SAMSUNG-GT-C3312R* Opera\/9.80 (X11; Linux *) Presto\/* Version\/#MAJORVER#.#MINORVER#*",
+          "device": "Samsung GT-C3312R",
+          "platforms": [
+            "JAVA"
+          ]
         }
       ]
     }
