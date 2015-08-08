@@ -134,6 +134,14 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#Keneksi-Flora Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* bdbrowser_i18n\/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "device": "Keneksi Flora",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* bdbrowser_i18n\/#MAJORVER#.#MINORVER#*",
           "engine": "WebKit",
           "platforms": [

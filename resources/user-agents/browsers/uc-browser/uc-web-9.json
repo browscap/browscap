@@ -203,6 +203,14 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#LG-P936 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "engine": "U3",
+          "device": "LG P936",
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I9100 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#* Mobile Safari\/*",
           "engine": "WebKit",
           "device": "GT-I9100",
@@ -447,6 +455,14 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#Lenovo_A529 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
+          "engine": "WebKit",
+          "device": "Lenovo A529",
+          "platforms": [
+            "Android_2_3"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
           "engine": "WebKit",
           "platforms": [
@@ -662,6 +678,30 @@
           "match": "UCWEB\/*(#PLATFORM#CinemaTV_3G) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
           "engine": "U2",
           "device": "Explay CinemaTV 3G",
+          "platforms": [
+            "Android_4_2_C"
+          ]
+        },
+        {
+          "match": "UCWEB\/*(#PLATFORM#HS-U98) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "engine": "U2",
+          "device": "Hisense HS-U98",
+          "platforms": [
+            "Android_4_1_C"
+          ]
+        },
+        {
+          "match": "UCWEB\/*(#PLATFORM#Lenovo_A3000-H) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "engine": "U2",
+          "device": "Lenovo A3000-H",
+          "platforms": [
+            "Android_4_2_C"
+          ]
+        },
+        {
+          "match": "UCWEB\/*(#PLATFORM#Lenovo_A516) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "engine": "U2",
+          "device": "Lenovo A516",
           "platforms": [
             "Android_4_2_C"
           ]

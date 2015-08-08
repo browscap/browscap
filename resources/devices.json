@@ -3780,6 +3780,18 @@
         "isTablet": "false"
       }
     },
+    "Samsung GT-S5310M": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GT-S5310M",
+        "Device_Name": "Galaxy Pocket Neo",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Samsung GT-S7560": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -7928,6 +7940,18 @@
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung SHV-E250L": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SHV-E250L",
+        "Device_Name": "Galaxy Note II LTE (Korea LG+)",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -13004,6 +13028,18 @@
         "Device_Maker": "LG",
         "Device_Brand_Name": "LG",
         "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG P936": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "P936",
+        "Device_Name": "Optimus True HD LTE",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -20988,6 +21024,18 @@
         "isTablet": "false"
       }
     },
+    "ZTE V779M": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "V779M",
+        "Device_Name": "V779M",
+        "Device_Maker": "ZTE",
+        "Device_Brand_Name": "ZTE",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "ZTE V967S": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -21149,6 +21197,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "V975",
         "Device_Name": "Geek",
+        "Device_Maker": "ZTE",
+        "Device_Brand_Name": "ZTE",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "ZTE V970": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "V970",
+        "Device_Name": "Grand X",
         "Device_Maker": "ZTE",
         "Device_Brand_Name": "ZTE",
         "Device_Pointing_Method": "touchscreen",
@@ -22068,6 +22128,18 @@
         "isTablet": "true"
       }
     },
+    "Lenovo S6000D": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "S6000D",
+        "Device_Name": "S6000D",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Lenovo S660": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -22385,6 +22457,30 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "A590",
         "Device_Name": "A590",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Lenovo A529": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A529",
+        "Device_Name": "A529",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Lenovo A516": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A516",
+        "Device_Name": "A516",
         "Device_Maker": "Lenovo",
         "Device_Brand_Name": "Lenovo",
         "Device_Pointing_Method": "touchscreen",
@@ -22997,6 +23093,18 @@
         "Device_Type": "Tablet",
         "Device_Code_Name": "PMP7100D3G",
         "Device_Name": "Multipad",
+        "Device_Maker": "Prestigio",
+        "Device_Brand_Name": "Prestigio",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Prestigio PMP7110D3G": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "PMP7110D3G",
+        "Device_Name": "MultiPad 4 Diamond 10.1 3G",
         "Device_Maker": "Prestigio",
         "Device_Brand_Name": "Prestigio",
         "Device_Pointing_Method": "touchscreen",
@@ -27360,6 +27468,18 @@
         "isTablet": "true"
       }
     },
+    "Ritmix RMD-855": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "RMD-855",
+        "Device_Code_Name": "RMD-855",
+        "Device_Maker": "Ritmix",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Ritmix",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Wexler TAB7iD": {
       "properties": {
         "Device_Type": "Tablet",
@@ -27653,6 +27773,30 @@
         "Device_Type": "Mobile Phone",
         "Device_Name": "Libra",
         "Device_Code_Name": "Libra",
+        "Device_Maker": "Keneksi",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Keneksi",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Keneksi Sun": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Sun",
+        "Device_Code_Name": "Sun",
+        "Device_Maker": "Keneksi",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Keneksi",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Keneksi Flora": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Flora",
+        "Device_Code_Name": "Flora",
         "Device_Maker": "Keneksi",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Keneksi",
@@ -29040,6 +29184,18 @@
         "isTablet": "true"
       }
     },
+    "Oysters T7B 3G": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "T7B 3G",
+        "Device_Code_Name": "T7B 3G",
+        "Device_Maker": "Oysters",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Oysters",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Oysters T80 3G": {
       "properties": {
         "Device_Type": "Tablet",
@@ -30238,6 +30394,54 @@
         "Device_Pointing_Method": "mouse",
         "isMobileDevice": "false",
         "isTablet": "false"
+      }
+    },
+    "Hisense AD688G": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "C2S",
+        "Device_Code_Name": "AD688G",
+        "Device_Maker": "Hisense",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Smartfren Andromax",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Hisense HS-U98": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "HS-U98",
+        "Device_Code_Name": "HS-U98",
+        "Device_Maker": "Hisense",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Hisense",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Lark Evolution X2 7 3G-GPS": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "Evolution X2 7 3G-GPS",
+        "Device_Code_Name": "Evolution X2 7 3G-GPS",
+        "Device_Maker": "Lark",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Lark",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "JXD P200S": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "P200S",
+        "Device_Code_Name": "P200S",
+        "Device_Maker": "JXD",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "JXD",
+        "isMobileDevice": "true",
+        "isTablet": "true"
       }
     }
   }
