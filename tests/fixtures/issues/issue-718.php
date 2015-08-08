@@ -38,6 +38,6 @@ return [
             'RenderingEngine_Version' => '8.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
-        'lite' => true,
+        'lite' => false,
     ],
 ];
