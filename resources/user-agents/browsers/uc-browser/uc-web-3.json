@@ -185,6 +185,15 @@
           ]
         },
         {
+          "match": "UCWEB\/*(#PLATFORM#SAMSUNG; GT-I8350*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "engine": "U2",
+          "device": "Samsung GT-I8350",
+          "platforms": [
+            "WinPhone7_B",
+            "WinPhone8_B"
+          ]
+        },
+        {
           "match": "UCWEB\/*(*GT-P3100*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
           "engine": "U2",
           "device": "Samsung GT-P3100",
@@ -258,6 +267,14 @@
           "match": "UCWEB\/*(MIDP-2.0*Beeline Tab) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
           "engine": "U2",
           "device": "Beeline Tab",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "UCWEB\/*(MIDP-2.0*P7mini) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
+          "engine": "U2",
+          "device": "Huawei P7 Mini",
           "platforms": [
             "Android_4_2"
           ]
