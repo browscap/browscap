@@ -35,8 +35,8 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#MID Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Chrome\/*Safari\/* bdbrowserhd_i18n\/#MAJORVER#.#MINORVER#*",
-          "engine": "Blink",
+          "match": "Mozilla\/5.0 (#PLATFORM#MID Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* bdbrowserhd_i18n\/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
           "device": "unknown MID",
           "platforms": [
             "Android_4_1"

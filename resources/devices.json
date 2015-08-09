@@ -13392,6 +13392,18 @@
         "isTablet": "false"
       }
     },
+    "LG P875": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "P875",
+        "Device_Name": "Optimus F5",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "LG Nexus 4": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -22716,6 +22728,30 @@
         "isTablet": "false"
       }
     },
+    "Lenovo P786": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "P786",
+        "Device_Name": "Optimus L9",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Lenovo P770": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "P770",
+        "Device_Name": "P770",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Lenovo A766": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -22762,6 +22798,18 @@
         "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
+      }
+    },
+    "Lenovo Pad A4": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "Pad A4",
+        "Device_Name": "Pad A4",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
       }
     },
     "Malata I50": {
@@ -25152,6 +25200,18 @@
         "isTablet": "false"
       }
     },
+    "Pantech IM-A850K": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Vega R3",
+        "Device_Code_Name": "IM-A850K",
+        "Device_Maker": "Pantech",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Pantech",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "AUDIOVOX SMT5600": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -26376,6 +26436,18 @@
         "isTablet": "false"
       }
     },
+    "Fly IQ440": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Energie",
+        "Device_Code_Name": "IQ440",
+        "Device_Maker": "Fly",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Fly",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Fly IQ456": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -27197,6 +27269,18 @@
         "Device_Type": "Tablet",
         "Device_Name": "iDsD10 3G",
         "Device_Code_Name": "iDsD10 3G",
+        "Device_Maker": "Digma",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Digma",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Digma iDsD8 3G": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "iDsD8 3G",
+        "Device_Code_Name": "iDsD8 3G",
         "Device_Maker": "Digma",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Digma",
@@ -28265,6 +28349,18 @@
         "Device_Type": "Tablet",
         "Device_Name": "TX08",
         "Device_Code_Name": "TX08",
+        "Device_Maker": "Irbis",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Irbis",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Irbis TX97": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "TX97",
+        "Device_Code_Name": "TX97",
         "Device_Maker": "Irbis",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Irbis",
@@ -30512,6 +30608,30 @@
         "Device_Maker": "JXD",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "JXD",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Captiva PAD 10.1 Quad FHD 3G": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "PAD 10.1 Quad FHD 3G",
+        "Device_Code_Name": "PAD 10.1 Quad FHD 3G",
+        "Device_Maker": "Captiva",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Captiva",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "PolyPad 1010IPS": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "1010IPS",
+        "Device_Code_Name": "1010IPS",
+        "Device_Maker": "PolyPad",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "PolyPad",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
