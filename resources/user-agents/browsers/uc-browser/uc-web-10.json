@@ -700,6 +700,14 @@
           ]
         },
         {
+          "match": "UCWEB\/*(#PLATFORM#Micromax_A35) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "engine": "U2",
+          "device": "Micromax A35",
+          "platforms": [
+            "Android_2_3_D"
+          ]
+        },
+        {
           "match": "UCWEB\/*(#PLATFORM#) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
           "engine": "U2",
           "device": "general Mobile Phone (Touch)",

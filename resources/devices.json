@@ -5760,6 +5760,18 @@
         "isTablet": "false"
       }
     },
+    "Samsung SGH-I467": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "SGH-I467",
+        "Device_Name": "Galaxy Note 8.0 (AT&T)",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Samsung SGH-J700": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -8024,6 +8036,18 @@
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung SPH-M840": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SPH-M840",
+        "Device_Name": "Galaxy Ring (Virgin Mobile)",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -20208,6 +20232,18 @@
         "isTablet": "true"
       }
     },
+    "Nokia Asha 500 Dual Sim": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Asha 500 Dual Sim",
+        "Device_Name": "Asha 500 Dual Sim",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Micromax A27": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -27756,6 +27792,18 @@
         "isTablet": "false"
       }
     },
+    "DNS S4005": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "S4005",
+        "Device_Code_Name": "S4005",
+        "Device_Maker": "DNS",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "DNS",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "DNS S4505": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -27792,6 +27840,18 @@
         "isTablet": "false"
       }
     },
+    "DNS AirTab PF7001": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "AirTab PF7001",
+        "Device_Code_Name": "AirTab PF7001",
+        "Device_Maker": "DNS",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "DNS",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "ThL W7": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -27809,6 +27869,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Name": "W8 Beyond",
         "Device_Code_Name": "W8",
+        "Device_Maker": "ThL",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "ThL",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "ThL W1": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "W1",
+        "Device_Code_Name": "W1",
         "Device_Maker": "ThL",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "ThL",
@@ -30336,6 +30408,18 @@
         "isTablet": "true"
       }
     },
+    "Assistant AP-705": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "AP-705",
+        "Device_Code_Name": "AP-705",
+        "Device_Maker": "Assistant",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Assistant",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Evercoss A66A": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -30377,6 +30461,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Name": "G2S",
         "Device_Code_Name": "G2S",
+        "Device_Maker": "Jiayu",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Jiayu",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Jiayu G3": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "G3",
+        "Device_Code_Name": "G3",
         "Device_Maker": "Jiayu",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Jiayu",
@@ -30632,6 +30728,42 @@
         "Device_Maker": "PolyPad",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "PolyPad",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Innos i6": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "i6",
+        "Device_Code_Name": "i6",
+        "Device_Maker": "Innos",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Innos",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Aveo X8": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "X8",
+        "Device_Code_Name": "X8",
+        "Device_Maker": "Aveo",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Aveo",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Ross&Moor RM-997": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "RM-997",
+        "Device_Code_Name": "RM-997",
+        "Device_Maker": "Ross&Moor",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Ross&Moor",
         "isMobileDevice": "true",
         "isTablet": "true"
       }

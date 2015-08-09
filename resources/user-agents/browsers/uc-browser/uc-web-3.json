@@ -144,6 +144,14 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#JY-G3 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "device": "Jiayu G3",
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
           "engine": "WebKit",
           "platforms": [

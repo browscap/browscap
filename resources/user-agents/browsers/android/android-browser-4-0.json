@@ -5822,7 +5822,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#IM-A850K Build\/*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#IM-A850K* Build\/*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "device": "Pantech IM-A850K",
           "platforms": [
             "Android_4_1"
@@ -5840,6 +5840,13 @@
           "device": "PolyPad 1010IPS",
           "platforms": [
             "Android_4_1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#PMP7079D3G_QUAD Build\/*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "device": "Prestigio PMP7079D3G_QUAD",
+          "platforms": [
+            "Android_4_2"
           ]
         },
         {

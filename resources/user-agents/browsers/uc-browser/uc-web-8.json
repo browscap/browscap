@@ -116,7 +116,7 @@
           ]
         },
         {
-          "match": "UCWEB\/*(#PLATFORM#IQ440) U2\/* UC Browser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "match": "UCWEB\/*(#PLATFORM#IQ440) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
           "engine": "U2",
           "device": "Fly IQ440",
           "platforms": [

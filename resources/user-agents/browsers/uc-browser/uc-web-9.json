@@ -734,14 +734,6 @@
           ]
         },
         {
-          "match": "UCWEB\/*(Java*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
-          "engine": "U2",
-          "device": "general Mobile Phone",
-          "platforms": [
-            "JAVA"
-          ]
-        },
-        {
           "match": "UCWEB\/2.0 (Linux; U; Opera Mini\/*; Videocon_A15) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
           "engine": "U2",
           "device": "Videocon A15",
@@ -871,6 +863,22 @@
           "match": "UCWEB\/2.0 (Java; *SAMSUNG-SGH-T669) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/* Mobile*",
           "engine": "U2",
           "device": "Samsung SGH-T669",
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "UCWEB\/2.0 (Java; *nokiaasha500dualsim) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/* Mobile*",
+          "engine": "U2",
+          "device": "Nokia Asha 500 Dual Sim",
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "UCWEB\/*(Java*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
+          "engine": "U2",
+          "device": "general Mobile Phone",
           "platforms": [
             "JAVA"
           ]
