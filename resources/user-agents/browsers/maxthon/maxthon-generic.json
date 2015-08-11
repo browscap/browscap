@@ -1,23 +1,19 @@
 {
-  "division": "Maxthon #MAJORVER#.#MINORVER#",
-  "versions": ["4.4"],
-  "sortIndex": 941,
+  "division": "Maxthon Generic",
+  "sortIndex": 946,
   "lite": false,
   "userAgents": [
     {
-      "userAgent": "Maxthon #MAJORVER#.#MINORVER# for Android",
+      "userAgent": "Maxthon Generic for Android",
       "platform": "Android",
       "engine": "Blink",
       "device": "general Mobile Device",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Maxthon #MAJORVER#.#MINORVER#",
+        "Comment": "Maxthon Generic",
         "Browser": "Maxthon",
         "Browser_Type": "Browser",
         "Browser_Maker": "Maxthon International Limited",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
         "Alpha": "false",
         "Beta": "false",
         "Win16": "false",
@@ -34,40 +30,19 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-I9100 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/4.0 *Safari\/* Maxthon\/#MAJORVER#.#MINORVER#*",
-          "device": "GT-I9100",
-          "platforms": [
-            "Android_2_3", "Android_4_0"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-S5830i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/* MxBrowser\/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung GT-S5830i",
-          "platforms": [
-            "Android_2_3"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#SM-N900 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Chrome\/*Safari\/* MxBrowser\/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SM-N900",
-          "platforms": [
-            "Android_5_0"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Version\/4.0 *Safari\/* Maxthon\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Version\/4.0 *Safari\/* Maxthon\/*",
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Chrome\/*Safari\/* MxBrowser\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Chrome\/*Safari\/* MxBrowser\/*",
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android_5_0", "Android"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/* MxBrowser\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/* MxBrowser\/*",
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android_5_0", "Android"
           ]
@@ -75,17 +50,14 @@
       ]
     },
     {
-      "userAgent": "Maxthon #MAJORVER#.#MINORVER#",
+      "userAgent": "Maxthon Generic",
       "platform": "Win32",
       "engine": "Blink",
       "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Maxthon #MAJORVER#.#MINORVER#",
+        "Comment": "Maxthon Generic",
         "Browser": "Maxthon",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
         "Browser_Type": "Browser",
         "Browser_Maker": "Maxthon International Limited",
         "Alpha": "false",
@@ -104,14 +76,14 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*)*Maxthon\/#MAJORVER#.#MINORVER#* Chrome\/* Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*)*Maxthon\/* Chrome\/* Safari\/*",
           "device": "Linux Desktop",
           "platforms": [
             "Linux_64", "Linux_32", "Linux"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*)*Maxthon\/#MAJORVER#.#MINORVER#* Chrome\/* Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*)*Maxthon\/* Chrome\/* Safari\/*",
           "device": "Windows Desktop",
           "platforms": [
             "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32", "Vista_64", "Vista_32",
@@ -122,7 +94,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*)*Maxthon\/#MAJORVER#.#MINORVER#* Chrome\/* Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*)*Maxthon\/* Chrome\/* Safari\/*",
           "device": "Macintosh",
           "platforms": [
             "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
@@ -131,14 +103,14 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*)*MxBrowser\/#MAJORVER#.#MINORVER#* Chrome\/* Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*)*MxBrowser\/* Chrome\/* Safari\/*",
           "device": "Linux Desktop",
           "platforms": [
             "Linux_64", "Linux_32", "Linux"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*)*MxBrowser\/#MAJORVER#.#MINORVER#* Chrome\/* Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*)*MxBrowser\/* Chrome\/* Safari\/*",
           "device": "Windows Desktop",
           "platforms": [
             "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32", "Vista_64", "Vista_32",
@@ -149,7 +121,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*)*MxBrowser\/#MAJORVER#.#MINORVER#* Chrome\/* Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*)*MxBrowser\/* Chrome\/* Safari\/*",
           "device": "Macintosh",
           "platforms": [
             "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
@@ -158,14 +130,14 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*)*Maxthon\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*)*Maxthon\/*Safari\/*",
           "device": "Linux Desktop",
           "platforms": [
             "Linux_64", "Linux_32", "Linux"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*)*Maxthon\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*)*Maxthon\/*Safari\/*",
           "device": "Windows Desktop",
           "platforms": [
             "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32", "Vista_64", "Vista_32",
@@ -176,7 +148,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*)*Maxthon\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*)*Maxthon\/*Safari\/*",
           "device": "Macintosh",
           "platforms": [
             "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
