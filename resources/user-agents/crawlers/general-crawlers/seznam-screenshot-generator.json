@@ -27,6 +27,17 @@
         },
         {
           "match": "Mozilla\/5.0 (compatible; Seznam screenshot-generator*"
+        },
+        {
+          "match": "Mozilla\/5.0 PhantomJS (compatible; Seznam screenshot-generator 2.1*",
+          "properties": {
+            "Version": "2.1",
+            "MajorVer": "2",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 PhantomJS (compatible; Seznam screenshot-generator*"
         }
       ]
     }

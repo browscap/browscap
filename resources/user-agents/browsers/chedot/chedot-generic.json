@@ -1,0 +1,51 @@
+{
+  "division": "Chedot Generic",
+  "sortIndex": 956,
+  "lite": false,
+  "userAgents": [
+    {
+      "userAgent": "Chedot Generic",
+      "platform": "Windows",
+      "engine": "WebKit",
+      "device": "Windows Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Chedot Generic",
+        "Browser": "Chedot",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Chedot.com",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Chedot\/* Safari\/*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win7_x64", "Win7_64", "Win7_32",
+            "Win8_x64", "Win8_64", "Win8_32",
+            "Win8_1_x64", "Win8_1_64", "Win8_1_32",
+            "Win10_x64", "Win10_64", "Win10_32",
+            "Win10_x64_B", "Win10_64_B", "Win10_32_B"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Chedot Chrome\/* Safari\/*",
+          "device": "Windows Desktop",
+          "engine": "Blink",
+          "platforms": [
+            "Win7_x64", "Win7_64", "Win7_32",
+            "Win8_x64", "Win8_64", "Win8_32",
+            "Win8_1_x64", "Win8_1_64", "Win8_1_32",
+            "Win10_x64", "Win10_64", "Win10_32",
+            "Win10_x64_B", "Win10_64_B", "Win10_32_B"
+          ]
+        }
+      ]
+    }
+  ]
+}
