@@ -16836,18 +16836,6 @@
         "isTablet": "false"
       }
     },
-    "Huawei Y300": {
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "Y300",
-        "Device_Name": "Ascend Y 300",
-        "Device_Maker": "Huawei",
-        "Device_Brand_Name": "Huawei",
-        "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
     "Huawei MediaPad 7 Lite": {
       "properties": {
         "Device_Type": "Tablet",
@@ -16944,6 +16932,18 @@
         "isTablet": "false"
       }
     },
+    "Huawei Y300": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Y300",
+        "Device_Name": "Ascend Y 300",
+        "Device_Maker": "Huawei",
+        "Device_Brand_Name": "Huawei",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Huawei Y530-U00": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -16961,30 +16961,6 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Y511",
         "Device_Name": "Ascend Y511",
-        "Device_Maker": "Huawei",
-        "Device_Brand_Name": "Huawei",
-        "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
-    "Huawei M735": {
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "M735",
-        "Device_Name": "M735",
-        "Device_Maker": "Huawei",
-        "Device_Brand_Name": "Huawei",
-        "Device_Pointing_Method": "unknown",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
-    "Huawei G7300": {
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "G7300",
-        "Device_Name": "G7300",
         "Device_Maker": "Huawei",
         "Device_Brand_Name": "Huawei",
         "Device_Pointing_Method": "touchscreen",
@@ -17033,6 +17009,42 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Y330-U11",
         "Device_Name": "Ascend Y330",
+        "Device_Maker": "Huawei",
+        "Device_Brand_Name": "Huawei",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Huawei Y600-U00": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Y600-U00",
+        "Device_Name": "Ascend Y600",
+        "Device_Maker": "Huawei",
+        "Device_Brand_Name": "Huawei",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Huawei M735": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "M735",
+        "Device_Name": "M735",
+        "Device_Maker": "Huawei",
+        "Device_Brand_Name": "Huawei",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Huawei G7300": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "G7300",
+        "Device_Name": "G7300",
         "Device_Maker": "Huawei",
         "Device_Brand_Name": "Huawei",
         "Device_Pointing_Method": "touchscreen",
