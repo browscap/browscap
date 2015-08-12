@@ -29388,6 +29388,18 @@
         "isTablet": "false"
       }
     },
+    "Raspberry Pi": {
+      "properties": {
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Raspberry Pi",
+        "Device_Name": "Raspberry Pi",
+        "Device_Maker": "Raspberry Pi Foundation",
+        "Device_Brand_Name": "Raspberry Pi Foundation",
+        "Device_Pointing_Method": "mouse",
+        "isMobileDevice": "false",
+        "isTablet": "false"
+      }
+    },
     "PocketBook SURFpad 4 L": {
       "properties": {
         "Device_Type": "Tablet",
