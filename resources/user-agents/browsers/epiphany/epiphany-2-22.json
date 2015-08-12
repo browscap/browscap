@@ -1,0 +1,50 @@
+{
+  "division": "Epiphany 2.22",
+  "sortIndex": 1943,
+  "lite": false,
+  "userAgents": [
+    {
+      "userAgent": "Epiphany 2.22",
+      "platform": "Linux",
+      "engine": "Gecko",
+      "device": "Linux Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Epiphany 2.22",
+        "Browser": "Epiphany",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "The GNOME Project",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "CssVersion": "3",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "Version": "2.22",
+        "MajorVer": "2",
+        "MinorVer": "22"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Epiphany\/2.22*",
+          "platforms": [
+            "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Epiphany\/2.22 (Debian\/*)",
+          "platforms": [
+            "Linux"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -25332,18 +25332,6 @@
         "isTablet": "true"
       }
     },
-    "Thornton Pickard THOT61": {
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Name": "THOT61",
-        "Device_Code_Name": "THOT61",
-        "Device_Maker": "Thornton Pickard",
-        "Device_Pointing_Method": "touchscreen",
-        "Device_Brand_Name": "Thornton Pickard",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
     "Raspberry Pi": {
       "properties": {
         "Device_Type": "Desktop",
@@ -25353,6 +25341,18 @@
         "Device_Brand_Name": "Raspberry Pi Foundation",
         "Device_Pointing_Method": "mouse",
         "isMobileDevice": "false",
+        "isTablet": "false"
+      }
+    },
+    "Thornton Pickard THOT61": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "THOT61",
+        "Device_Code_Name": "THOT61",
+        "Device_Maker": "Thornton Pickard",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Thornton Pickard",
+        "isMobileDevice": "true",
         "isTablet": "false"
       }
     }

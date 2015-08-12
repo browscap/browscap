@@ -1,7 +1,7 @@
 {
   "division": "Epiphany #MAJORVER#.#MINORVER#",
-  "versions": ["3.14", "3.12", "3.10", "3.8", "3.6", "3.4", "3.2", 3, "2.32", "2.30", "2.22"],
-  "sortIndex": 1943,
+  "versions": ["3.14", "3.12", "3.10", "3.8", "3.6", "3.4", "3.2", 3, "2.32", "2.30"],
+  "sortIndex": 1942,
   "lite": false,
   "userAgents": [
     {
