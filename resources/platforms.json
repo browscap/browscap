@@ -1137,7 +1137,7 @@
       }
     },
     "Ubuntu_14_04_64": {
-      "match": "*Ubuntu?12.04*",
+      "match": "*Ubuntu?14.04*",
       "inherits": "Ubuntu",
       "properties": {
         "Platform_Version": "14.04",
