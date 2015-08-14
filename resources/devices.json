@@ -5040,6 +5040,18 @@
         "isTablet": "false"
       }
     },
+    "Samsung SM-N910A": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SM-N910A",
+        "Device_Name": "Galaxy Note 4 CDMA (AT&T)",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Samsung SM-N915G": {
       "properties": {
         "Device_Type": "Mobile Phone",
