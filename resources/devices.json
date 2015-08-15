@@ -28056,6 +28056,18 @@
         "isTablet": "true"
       }
     },
+    "DNS AirTab M104G": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "AirTab M104G",
+        "Device_Code_Name": "AirTab M104G",
+        "Device_Maker": "DNS",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "DNS",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "ThL W7": {
       "properties": {
         "Device_Type": "Mobile Phone",
