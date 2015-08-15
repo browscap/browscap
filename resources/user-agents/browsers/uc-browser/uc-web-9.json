@@ -886,6 +886,14 @@
           ]
         },
         {
+          "match": "UCWEB\/2.0 (Linux; U; Opera Mini\/*; HTC_Desire_S) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
+          "engine": "U2",
+          "device": "HTC Desire S",
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
           "match": "UCWEB\/2.0 (Linux; U; Opera Mini\/*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
           "engine": "U2",
           "platforms": [

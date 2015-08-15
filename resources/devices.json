@@ -24024,6 +24024,18 @@
         "isTablet": "false"
       }
     },
+    "OPPO R831": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "R831",
+        "Device_Name": "Neo R831",
+        "Device_Maker": "OPPO",
+        "Device_Brand_Name": "OPPO",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "ultrafone 303": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -28937,6 +28949,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Name": "Benefit M3S",
         "Device_Code_Name": "Benefit M3S",
+        "Device_Maker": "ARK",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "ARK",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "ARK Benefit M2": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Benefit M2",
+        "Device_Code_Name": "Benefit M2",
         "Device_Maker": "ARK",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "ARK",
