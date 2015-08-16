@@ -235,6 +235,14 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#L925(L1020) Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "engine": "U3",
+          "device": "China L925 l1020",
+          "platforms": [
+            "Android_2_2"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I9100 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#* Mobile Safari\/*",
           "engine": "WebKit",
           "device": "GT-I9100",
@@ -744,6 +752,14 @@
           "device": "Pantech P9060",
           "platforms": [
             "Android_2_3_D"
+          ]
+        },
+        {
+          "match": "UCWEB\/*(#PLATFORM#Micromax_A94) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "engine": "U2",
+          "device": "Micromax A94",
+          "platforms": [
+            "Android_4_2_C"
           ]
         },
         {

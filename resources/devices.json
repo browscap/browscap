@@ -20424,18 +20424,6 @@
         "isTablet": "false"
       }
     },
-    "Micromax X650": {
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "X650",
-        "Device_Name": "X650",
-        "Device_Maker": "Micromax",
-        "Device_Brand_Name": "Micromax",
-        "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
     "Micromax A065": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -20501,6 +20489,30 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "A59",
         "Device_Name": "Bolt",
+        "Device_Maker": "Micromax",
+        "Device_Brand_Name": "Micromax",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Micromax A94": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A94",
+        "Device_Name": "Canvas Mad",
+        "Device_Maker": "Micromax",
+        "Device_Brand_Name": "Micromax",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Micromax X650": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "X650",
+        "Device_Name": "X650",
         "Device_Maker": "Micromax",
         "Device_Brand_Name": "Micromax",
         "Device_Pointing_Method": "touchscreen",
@@ -21377,6 +21389,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "N918St",
         "Device_Name": "V5S",
+        "Device_Maker": "ZTE",
+        "Device_Brand_Name": "ZTE",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "ZTE N861": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "N861",
+        "Device_Name": "Warp Sequent",
         "Device_Maker": "ZTE",
         "Device_Brand_Name": "ZTE",
         "Device_Pointing_Method": "touchscreen",
@@ -22812,6 +22836,18 @@
         "isTablet": "true"
       }
     },
+    "Lenovo S580": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "S580",
+        "Device_Name": "S580",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Lenovo S720": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -23969,6 +24005,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "ZP980",
         "Device_Name": "ZP980",
+        "Device_Maker": "ZOPO",
+        "Device_Brand_Name": "ZOPO",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "ZOPO ZP800H": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "ZP800H",
+        "Device_Name": "Libero HD",
         "Device_Maker": "ZOPO",
         "Device_Brand_Name": "ZOPO",
         "Device_Pointing_Method": "touchscreen",
@@ -27264,6 +27312,18 @@
         "isTablet": "true"
       }
     },
+    "Overmax Vertis 01": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Vertis 01",
+        "Device_Code_Name": "Vertis 01",
+        "Device_Maker": "Overmax",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Overmax",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Kiano Elegance 8 3G": {
       "properties": {
         "Device_Type": "Tablet",
@@ -27960,18 +28020,6 @@
         "isTablet": "false"
       }
     },
-    "DNS S5701": {
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Name": "S5701",
-        "Device_Code_Name": "S5701",
-        "Device_Maker": "DNS",
-        "Device_Pointing_Method": "touchscreen",
-        "Device_Brand_Name": "DNS",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
     "DNS S4502": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -28032,18 +28080,6 @@
         "isTablet": "false"
       }
     },
-    "DNS MB40II1": {
-      "properties": {
-        "Device_Type": "Desktop",
-        "Device_Name": "MB40II1",
-        "Device_Code_Name": "MB40II1",
-        "Device_Maker": "DNS",
-        "Device_Pointing_Method": "mouse",
-        "Device_Brand_Name": "DNS",
-        "isMobileDevice": "false",
-        "isTablet": "false"
-      }
-    },
     "DNS S4503Q": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -28053,6 +28089,42 @@
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "DNS",
         "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "DNS S4702M": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "S4702M",
+        "Device_Code_Name": "S4702M",
+        "Device_Maker": "DNS",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "DNS",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "DNS S5701": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "S5701",
+        "Device_Code_Name": "S5701",
+        "Device_Maker": "DNS",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "DNS",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "DNS MB40II1": {
+      "properties": {
+        "Device_Type": "Desktop",
+        "Device_Name": "MB40II1",
+        "Device_Code_Name": "MB40II1",
+        "Device_Maker": "DNS",
+        "Device_Pointing_Method": "mouse",
+        "Device_Brand_Name": "DNS",
+        "isMobileDevice": "false",
         "isTablet": "false"
       }
     },
@@ -28404,6 +28476,18 @@
         "isTablet": "false"
       }
     },
+    "TeXet TM-4077": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "X-point",
+        "Device_Code_Name": "TM-4077",
+        "Device_Maker": "TeXet",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "TeXet",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "TeXet TM-3204R": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -28493,6 +28577,30 @@
         "Device_Type": "Mobile Phone",
         "Device_Name": "Explosion",
         "Device_Code_Name": "Explosion",
+        "Device_Maker": "Highscreen",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Highscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Highscreen Alpha GT": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Alpha GT",
+        "Device_Code_Name": "Alpha GT",
+        "Device_Maker": "Highscreen",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Highscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Highscreen Alpha GTR": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Alpha GTR",
+        "Device_Code_Name": "Alpha GTR",
         "Device_Maker": "Highscreen",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Highscreen",
@@ -28961,6 +29069,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Name": "Benefit M2",
         "Device_Code_Name": "Benefit M2",
+        "Device_Maker": "ARK",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "ARK",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "ARK Benefit M4": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Benefit M4",
+        "Device_Code_Name": "Benefit M4",
         "Device_Maker": "ARK",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "ARK",
@@ -29693,6 +29813,18 @@
         "Device_Type": "Tablet",
         "Device_Name": "T80 3G",
         "Device_Code_Name": "T80 3G",
+        "Device_Maker": "Oysters",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Oysters",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Oysters T37": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "T37",
+        "Device_Code_Name": "T37",
         "Device_Maker": "Oysters",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Oysters",
@@ -31030,6 +31162,18 @@
         "Device_Brand_Name": "Ross&Moor",
         "isMobileDevice": "true",
         "isTablet": "true"
+      }
+    },
+    "China L925 l1020": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "L925 l1020",
+        "Device_Code_Name": "L925 l1020",
+        "Device_Maker": "China Phone",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "China Phone",
+        "isMobileDevice": "true",
+        "isTablet": "false"
       }
     }
   }

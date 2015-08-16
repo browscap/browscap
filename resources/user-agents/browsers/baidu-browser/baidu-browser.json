@@ -142,6 +142,14 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#ARK_Benefit_M4 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* bdbrowser_i18n\/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "device": "ARK Benefit M4",
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* bdbrowser_i18n\/#MAJORVER#.#MINORVER#*",
           "engine": "WebKit",
           "platforms": [
