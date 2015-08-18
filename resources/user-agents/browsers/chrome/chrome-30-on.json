@@ -1210,7 +1210,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SM-N910V 4G Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "device": "Samsung SM-N910V 4G",
+          "device": "Samsung SM-N910V",
           "platforms": [
             "Android_4_4"
           ]
