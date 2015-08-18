@@ -164,7 +164,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#KENEKSI-Crystal Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/* YaBrowser\/#MAJORVER#.#MINORVER#* Safari\/*",
-          "device": "KENEKSI Crystal",
+          "device": "Keneksi Crystal",
           "platforms": [
             "Android_4_2"
           ]
