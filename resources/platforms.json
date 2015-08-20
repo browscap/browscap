@@ -2075,6 +2075,17 @@
         "Win32": "false"
       }
     },
+    "WinPhone8.1_B": {
+      "match": "*Windows; U; wds 8.1*",
+      "lite": false,
+      "inherits": "Windows",
+      "properties": {
+        "Platform": "WinPhone8.1",
+        "Platform_Version": "8.1",
+        "Platform_Description": "Windows Phone OS 8.1",
+        "Win32": "false"
+      }
+    },
     "Android": {
       "match": "*Linux*Android*",
       "properties": {
@@ -2154,7 +2165,7 @@
       "lite": false,
       "inherits": "Android",
       "properties": {
-        "Platform_Version": "2.2"
+        "Platform_Version": "2.1"
       }
     },
     "Android_2_2": {
@@ -2422,6 +2433,14 @@
         "Platform_Version": "4.4"
       }
     },
+    "Android_4_5": {
+      "match": "*Linux*Android?4.5*",
+      "lite": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "4.5"
+      }
+    },
     "Android_5_0": {
       "match": "*Linux*Android?5.0*",
       "lite": false,
@@ -2448,6 +2467,22 @@
     },
     "Android_5_1": {
       "match": "*Linux*Android?5.1*",
+      "lite": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "5.1"
+      }
+    },
+    "Android_5_1_B": {
+      "match": "JUC (Linux; U; 5.1*",
+      "lite": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "5."
+      }
+    },
+    "Android_5_1_C": {
+      "match": "*; U; Adr 5.1*",
       "lite": false,
       "inherits": "Android",
       "properties": {

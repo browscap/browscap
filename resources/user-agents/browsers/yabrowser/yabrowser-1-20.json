@@ -164,7 +164,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#KENEKSI-Crystal Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/* YaBrowser\/#MAJORVER#.#MINORVER#* Safari\/*",
-          "device": "KENEKSI Crystal",
+          "device": "Keneksi Crystal",
           "platforms": [
             "Android_4_2"
           ]
@@ -216,6 +216,20 @@
           "device": "Lenovo B6000-H",
           "platforms": [
             "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-T555 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/* YaBrowser\/#MAJORVER#.#MINORVER#* Safari\/*",
+          "device": "Samsung SM-T555",
+          "platforms": [
+            "Android_5_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#Plane 10.5 3G PS1005MG Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/* YaBrowser\/#MAJORVER#.#MINORVER#* Safari\/*",
+          "device": "Digma PS1005MG",
+          "platforms": [
+            "Android_4_2"
           ]
         },
         {
