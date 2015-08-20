@@ -2875,6 +2875,13 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#PMT5777_3G Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "device": "Prestigio PMT5777_3G",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#GFIVE President G10 Fashion Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "device": "GFive President G10 Fashion",
           "platforms": [

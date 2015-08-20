@@ -5304,6 +5304,18 @@
         "isTablet": "true"
       }
     },
+    "Samsung SM-T555": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "SM-T555",
+        "Device_Name": "Galaxy Tab A 9.7 LTE",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Samsung SM-T111": {
       "properties": {
         "Device_Type": "Tablet",
@@ -23544,6 +23556,18 @@
         "isTablet": "true"
       }
     },
+    "Prestigio PMT5777_3G": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "PMT5777_3G",
+        "Device_Name": "MultiPad Color 7.0 3G WiFi",
+        "Device_Maker": "Prestigio",
+        "Device_Brand_Name": "Prestigio",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Prestigio PMT7077_3G": {
       "properties": {
         "Device_Type": "Tablet",
@@ -27653,6 +27677,18 @@
         "Device_Type": "Tablet",
         "Device_Name": "Plane 10.3 3G",
         "Device_Code_Name": "PS1043MG",
+        "Device_Maker": "Digma",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Digma",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Digma PS1005MG": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "Plane 10.5 3G",
+        "Device_Code_Name": "PS1005MG",
         "Device_Maker": "Digma",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Digma",
