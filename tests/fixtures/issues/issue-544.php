@@ -23,7 +23,7 @@ return [
             'Frames' => true,
             'IFrames' => true,
             'Tables' => true,
-            'Device_Name' => 'TAB A7-30',
+            'Device_Name' => 'TAB A7-30 Wi-Fi + 3G',
             'Device_Maker' => 'Lenovo',
             'Device_Type' => 'Tablet',
             'Device_Pointing_Method' => 'touchscreen',

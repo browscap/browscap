@@ -1210,7 +1210,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SM-N910V 4G Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "device": "Samsung SM-N910V 4G",
+          "device": "Samsung SM-N910V",
           "platforms": [
             "Android_4_4"
           ]
@@ -2571,6 +2571,13 @@
           "device": "Samsung GT-P3100",
           "platforms": [
             "Android_4_1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#PMT5777_3G Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "device": "Prestigio PMT5777_3G",
+          "platforms": [
+            "Android_4_2"
           ]
         },
         {
