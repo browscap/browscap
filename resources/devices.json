@@ -22620,6 +22620,18 @@
         "isTablet": "false"
       }
     },
+    "Lenovo A369i": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A369i",
+        "Device_Name": "A369i",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Lenovo A889": {
       "properties": {
         "Device_Type": "Mobile Phone",
