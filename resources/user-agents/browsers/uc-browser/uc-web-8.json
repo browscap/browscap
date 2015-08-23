@@ -152,6 +152,14 @@
           ]
         },
         {
+          "match": "UCWEB\/2.0 (Linux; U; Opera Mini\/*; Infinityll) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
+          "engine": "U2",
+          "device": "Explay Infinity ll",
+          "platforms": [
+            "Android"
+          ]
+        },
+        {
           "match": "UCWEB\/*(Linux; U; Opera Mini\/*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
           "engine": "U2",
           "device": "general Mobile Phone (Touch)",

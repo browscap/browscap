@@ -832,7 +832,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#EXEQ P-720 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "device": "Exec P-720",
+          "device": "Exeq P-720",
           "platforms": [
             "Android_4_1"
           ]

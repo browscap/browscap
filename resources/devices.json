@@ -2496,30 +2496,6 @@
         "isTablet": "false"
       }
     },
-    "GT-I5500": {
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "GT-I5500",
-        "Device_Name": "Galaxy 5",
-        "Device_Maker": "Samsung",
-        "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
-    "GT-I9000": {
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "GT-I9000",
-        "Device_Name": "Galaxy S",
-        "Device_Maker": "Samsung",
-        "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
     "GT-I9100G": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -2540,6 +2516,114 @@
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung GT-I9100T": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GT-I9100T",
+        "Device_Name": "Galaxy S II",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung GT-I9103": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GT-I9103",
+        "Device_Name": "Galaxy S II",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung GT-I9105P": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GT-I9105P",
+        "Device_Name": "Galaxy S II NFC",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung GT-I9192": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GT-I9192",
+        "Device_Name": "GT-I9192",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung GT-I9195": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GT-I9195",
+        "Device_Name": "Galaxy S4 Mini",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung GT-I9190": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GT-I9190",
+        "Device_Name": "Galaxy S4 Mini",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung GT-I9152": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GT-I9152",
+        "Device_Name": "Galaxy Mega 5.8",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "GT-I5500": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GT-I5500",
+        "Device_Name": "Galaxy 5",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "GT-I9000": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GT-I9000",
+        "Device_Name": "Galaxy S",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -2624,18 +2708,6 @@
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
-    "Samsung GT-I9100T": {
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "GT-I9100T",
-        "Device_Name": "Galaxy S II",
-        "Device_Maker": "Samsung",
-        "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -2760,30 +2832,6 @@
         "isTablet": "false"
       }
     },
-    "Samsung GT-I9103": {
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "GT-I9103",
-        "Device_Name": "Galaxy S II",
-        "Device_Maker": "Samsung",
-        "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
-    "Samsung GT-I9105P": {
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "GT-I9105P",
-        "Device_Name": "Galaxy S II NFC",
-        "Device_Maker": "Samsung",
-        "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
     "Samsung GT-I9210": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -2828,30 +2876,6 @@
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "unknown",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
-    "Samsung GT-I9192": {
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "GT-I9192",
-        "Device_Name": "GT-I9192",
-        "Device_Maker": "Samsung",
-        "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
-    "Samsung GT-I9195": {
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "GT-I9195",
-        "Device_Name": "Galaxy S4 Mini",
-        "Device_Maker": "Samsung",
-        "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -2981,18 +3005,6 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-I9515",
         "Device_Name": "Galaxy S4 Value Edition",
-        "Device_Maker": "Samsung",
-        "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
-    "Samsung GT-I9190": {
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "GT-I9190",
-        "Device_Name": "Galaxy S4 Mini",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "touchscreen",
@@ -13224,11 +13236,239 @@
         "isTablet": "false"
       }
     },
+    "LG VS840 4G": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "VS840 4G",
+        "Device_Name": "Lucid 4G VS840",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG VS980": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "VS980",
+        "Device_Name": "G2 Verizon VS980",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG VS880": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "VS880",
+        "Device_Name": "G Vista (Verizon)",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG VI125": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "VI125",
+        "Device_Name": "VI125",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG VI5225": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "VI5225",
+        "Device_Name": "VI5225",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG VX6000": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "VX6000",
+        "Device_Name": "VX6000",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG VX6100": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "VX6100",
+        "Device_Name": "VX6100",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG VX7000": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "VX7000",
+        "Device_Name": "VX7000",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG VX8100": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "VX8100",
+        "Device_Name": "VX8100",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG VX8300": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "VX8300",
+        "Device_Name": "VX8300",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG VX8350": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "VX8350",
+        "Device_Name": "VX8350",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG VX8500": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "VX8500",
+        "Device_Name": "VX8500",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG VX8610": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "VX8610",
+        "Device_Name": "VX8610",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG VX9100": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "VX9100",
+        "Device_Name": "VX9100",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG VX9800": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "VX9800",
+        "Device_Name": "VX9800",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG VX9900": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "VX9900",
+        "Device_Name": "VX9900",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "LG V900": {
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "V900",
         "Device_Name": "Optimus Pad",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "LG V500": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "V500",
+        "Device_Name": "G Pad 8.3",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "LG V490": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "V490",
+        "Device_Name": "G Pad 8.0 4G LTE",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "LG V700": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "V700",
+        "Device_Name": "G Pad 10.1",
         "Device_Maker": "LG",
         "Device_Brand_Name": "LG",
         "Device_Pointing_Method": "touchscreen",
@@ -13301,18 +13541,6 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "E455g",
         "Device_Name": "Optimus L5 II Dual",
-        "Device_Maker": "LG",
-        "Device_Brand_Name": "LG",
-        "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
-    "LG VS840 4G": {
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "VS840 4G",
-        "Device_Name": "Lucid 4G VS840",
         "Device_Maker": "LG",
         "Device_Brand_Name": "LG",
         "Device_Pointing_Method": "touchscreen",
@@ -13433,6 +13661,138 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "F180K",
         "Device_Name": "Optimus G 4G LTE (Korea)",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG F410S": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "F410S",
+        "Device_Name": "G3 A LTE",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG F7100": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "F7100",
+        "Device_Name": "F7100",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG F1200": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "F1200",
+        "Device_Name": "F1200",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG F9100": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "F9100",
+        "Device_Name": "F9100",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG F2100": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "F2100",
+        "Device_Name": "F2100",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG F2300": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "F2300",
+        "Device_Name": "F2300",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG F2400": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "F2400",
+        "Device_Name": "F2400",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG F240L": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "F240L",
+        "Device_Name": "Optimus G Pro 5.5",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG F200K": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "F200K",
+        "Device_Name": "F200K",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG F220K": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "F220K",
+        "Device_Name": "Optimus GK",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG F370S": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "F370S",
+        "Device_Name": "F70",
         "Device_Maker": "LG",
         "Device_Brand_Name": "LG",
         "Device_Pointing_Method": "touchscreen",
@@ -13584,18 +13944,6 @@
         "isTablet": "false"
       }
     },
-    "LG VS980": {
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "VS980",
-        "Device_Name": "G2 Verizon VS980",
-        "Device_Maker": "LG",
-        "Device_Brand_Name": "LG",
-        "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
     "LG E906": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -13649,18 +13997,6 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "C3100",
         "Device_Name": "C3100",
-        "Device_Maker": "LG",
-        "Device_Brand_Name": "LG",
-        "Device_Pointing_Method": "unknown",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
-    "LG F7100": {
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "F7100",
-        "Device_Name": "F7100",
         "Device_Maker": "LG",
         "Device_Brand_Name": "LG",
         "Device_Pointing_Method": "unknown",
@@ -14028,18 +14364,6 @@
         "isTablet": "false"
       }
     },
-    "LG VX6000": {
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "VX6000",
-        "Device_Name": "VX6000",
-        "Device_Maker": "LG",
-        "Device_Brand_Name": "LG",
-        "Device_Pointing_Method": "unknown",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
     "LG C1300": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -14093,30 +14417,6 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "CG300",
         "Device_Name": "CG300",
-        "Device_Maker": "LG",
-        "Device_Brand_Name": "LG",
-        "Device_Pointing_Method": "unknown",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
-    "LG F1200": {
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "F1200",
-        "Device_Name": "F1200",
-        "Device_Maker": "LG",
-        "Device_Brand_Name": "LG",
-        "Device_Pointing_Method": "unknown",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
-    "LG F9100": {
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "F9100",
-        "Device_Name": "F9100",
         "Device_Maker": "LG",
         "Device_Brand_Name": "LG",
         "Device_Pointing_Method": "unknown",
@@ -14602,174 +14902,6 @@
         "Device_Pointing_Method": "unknown",
         "isMobileDevice": "true",
         "isTablet": "false"
-      }
-    },
-    "LG VI125": {
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "VI125",
-        "Device_Name": "VI125",
-        "Device_Maker": "LG",
-        "Device_Brand_Name": "LG",
-        "Device_Pointing_Method": "unknown",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
-    "LG VI5225": {
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "VI5225",
-        "Device_Name": "VI5225",
-        "Device_Maker": "LG",
-        "Device_Brand_Name": "LG",
-        "Device_Pointing_Method": "unknown",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
-    "LG VX6100": {
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "VX6100",
-        "Device_Name": "VX6100",
-        "Device_Maker": "LG",
-        "Device_Brand_Name": "LG",
-        "Device_Pointing_Method": "unknown",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
-    "LG VX7000": {
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "VX7000",
-        "Device_Name": "VX7000",
-        "Device_Maker": "LG",
-        "Device_Brand_Name": "LG",
-        "Device_Pointing_Method": "unknown",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
-    "LG VX8100": {
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "VX8100",
-        "Device_Name": "VX8100",
-        "Device_Maker": "LG",
-        "Device_Brand_Name": "LG",
-        "Device_Pointing_Method": "unknown",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
-    "LG VX8300": {
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "VX8300",
-        "Device_Name": "VX8300",
-        "Device_Maker": "LG",
-        "Device_Brand_Name": "LG",
-        "Device_Pointing_Method": "unknown",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
-    "LG VX8350": {
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "VX8350",
-        "Device_Name": "VX8350",
-        "Device_Maker": "LG",
-        "Device_Brand_Name": "LG",
-        "Device_Pointing_Method": "unknown",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
-    "LG VX8500": {
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "VX8500",
-        "Device_Name": "VX8500",
-        "Device_Maker": "LG",
-        "Device_Brand_Name": "LG",
-        "Device_Pointing_Method": "unknown",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
-    "LG VX8610": {
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "VX8610",
-        "Device_Name": "VX8610",
-        "Device_Maker": "LG",
-        "Device_Brand_Name": "LG",
-        "Device_Pointing_Method": "unknown",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
-    "LG VX9100": {
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "VX9100",
-        "Device_Name": "VX9100",
-        "Device_Maker": "LG",
-        "Device_Brand_Name": "LG",
-        "Device_Pointing_Method": "unknown",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
-    "LG VX9800": {
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "VX9800",
-        "Device_Name": "VX9800",
-        "Device_Maker": "LG",
-        "Device_Brand_Name": "LG",
-        "Device_Pointing_Method": "unknown",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
-    "LG VX9900": {
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "VX9900",
-        "Device_Name": "VX9900",
-        "Device_Maker": "LG",
-        "Device_Brand_Name": "LG",
-        "Device_Pointing_Method": "unknown",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
-    "LG V500": {
-      "properties": {
-        "Device_Type": "Tablet",
-        "Device_Code_Name": "V500",
-        "Device_Name": "G Pad 8.3",
-        "Device_Maker": "LG",
-        "Device_Brand_Name": "LG",
-        "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true",
-        "isTablet": "true"
-      }
-    },
-    "LG V490": {
-      "properties": {
-        "Device_Type": "Tablet",
-        "Device_Code_Name": "V490",
-        "Device_Name": "G Pad 8.0 4G LTE",
-        "Device_Maker": "LG",
-        "Device_Brand_Name": "LG",
-        "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true",
-        "isTablet": "true"
       }
     },
     "LG GT550": {
@@ -15432,54 +15564,6 @@
         "isTablet": "false"
       }
     },
-    "LG F2100": {
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "F2100",
-        "Device_Name": "F2100",
-        "Device_Maker": "LG",
-        "Device_Brand_Name": "LG",
-        "Device_Pointing_Method": "unknown",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
-    "LG F2300": {
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "F2300",
-        "Device_Name": "F2300",
-        "Device_Maker": "LG",
-        "Device_Brand_Name": "LG",
-        "Device_Pointing_Method": "unknown",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
-    "LG F2400": {
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "F2400",
-        "Device_Name": "F2400",
-        "Device_Maker": "LG",
-        "Device_Brand_Name": "LG",
-        "Device_Pointing_Method": "unknown",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
-    "LG F240L": {
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "F240L",
-        "Device_Name": "Optimus G Pro 5.5",
-        "Device_Maker": "LG",
-        "Device_Brand_Name": "LG",
-        "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
     "LG G262": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -15756,18 +15840,6 @@
         "isTablet": "false"
       }
     },
-    "LG VS880": {
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "VS880",
-        "Device_Name": "G Vista (Verizon)",
-        "Device_Maker": "LG",
-        "Device_Brand_Name": "LG",
-        "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
     "LG D280": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -15809,30 +15881,6 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "D856",
         "Device_Name": "G3 Dual LTE",
-        "Device_Maker": "LG",
-        "Device_Brand_Name": "LG",
-        "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
-    "LG F200K": {
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "F200K",
-        "Device_Name": "F200K",
-        "Device_Maker": "LG",
-        "Device_Brand_Name": "LG",
-        "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
-    "LG F220K": {
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "F220K",
-        "Device_Name": "Optimus GK",
         "Device_Maker": "LG",
         "Device_Brand_Name": "LG",
         "Device_Pointing_Method": "touchscreen",
@@ -15905,6 +15953,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "D958",
         "Device_Name": "G Flex",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG X135": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "X135",
+        "Device_Name": "L60",
         "Device_Maker": "LG",
         "Device_Brand_Name": "LG",
         "Device_Pointing_Method": "touchscreen",
@@ -27792,6 +27852,18 @@
         "isTablet": "false"
       }
     },
+    "Digma TT7022MG-O72": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "TT7022MG-O72 3G UMTS",
+        "Device_Code_Name": "TT7022MG-O72",
+        "Device_Maker": "Digma",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Digma",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Digma PS604M": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -28068,14 +28140,38 @@
         "isTablet": "true"
       }
     },
-    "Exec P-720": {
+    "Wexler Book T7008": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "Book T7008",
+        "Device_Code_Name": "Book T7008",
+        "Device_Maker": "Wexler",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Wexler",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Exeq P-720": {
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "P-720",
         "Device_Code_Name": "P-720",
-        "Device_Maker": "Exec",
+        "Device_Maker": "Exeq",
         "Device_Pointing_Method": "touchscreen",
-        "Device_Brand_Name": "Exec",
+        "Device_Brand_Name": "Exeq",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Exeq P-746": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "P-746",
+        "Device_Code_Name": "P-746",
+        "Device_Maker": "Exeq",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Exeq",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
@@ -29148,6 +29244,18 @@
         "isTablet": "true"
       }
     },
+    "Explay Infinity ll": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Infinity ll",
+        "Device_Code_Name": "Infinity ll",
+        "Device_Maker": "Explay",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Explay",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Explay CinemaTV 3G": {
       "properties": {
         "Device_Type": "Tablet",
@@ -29945,6 +30053,18 @@
         "Device_Type": "Tablet",
         "Device_Name": "T80 3G",
         "Device_Code_Name": "T80 3G",
+        "Device_Maker": "Oysters",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Oysters",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Oysters T84HRi": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "T84HRi (Wi-Fi, 3G)",
+        "Device_Code_Name": "T84HRi",
         "Device_Maker": "Oysters",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Oysters",
@@ -31378,6 +31498,54 @@
         "Device_Brand_Name": "Smarty",
         "isMobileDevice": "true",
         "isTablet": "true"
+      }
+    },
+    "Ginzzu RS61D Ultimate": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "RS61D Ultimate",
+        "Device_Code_Name": "RS61D Ultimate",
+        "Device_Maker": "Ginzzu",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Ginzzu",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Utok 350D": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "350D",
+        "Device_Code_Name": "350D",
+        "Device_Maker": "Utok",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Utok",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Twinmos TwinTab T7283GD1": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "TwinTab T7283GD1",
+        "Device_Code_Name": "TwinTab T7283GD1",
+        "Device_Maker": "Twinmos",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Twinmos",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "SPCinternet 9200N": {
+      "properties": {
+        "Device_Type": "TV Device",
+        "Device_Name": "Smartee",
+        "Device_Code_Name": "9200N",
+        "Device_Maker": "SPCinternet",
+        "Device_Pointing_Method": "unknown",
+        "Device_Brand_Name": "SPCinternet",
+        "isMobileDevice": "false",
+        "isTablet": "false"
       }
     }
   }
