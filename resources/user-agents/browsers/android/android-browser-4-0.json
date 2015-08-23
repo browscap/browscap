@@ -5871,6 +5871,20 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#HP 8 Build\/*) *AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "device": "HP 8",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#2013022 Build\/*) *AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "device": "Xiaomi 2013022",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
           "match": "Lenovo A390*Mozilla\/5.0 (#PLATFORM#Lenovo A390*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "device": "Lenovo A390",
           "platforms": [

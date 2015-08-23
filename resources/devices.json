@@ -23904,6 +23904,18 @@
         "isTablet": "true"
       }
     },
+    "HP 8": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "8",
+        "Device_Name": "8",
+        "Device_Maker": "HP",
+        "Device_Brand_Name": "HP",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "HP Pixi": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -25248,6 +25260,18 @@
         "isTablet": "false"
       }
     },
+    "Xiaomi 2013022": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Red Rice",
+        "Device_Code_Name": "2013022",
+        "Device_Maker": "Xiaomi Tech",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Xiaomi",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "BLU Vivo IV": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -25500,6 +25524,30 @@
         "isTablet": "false"
       }
     },
+    "Pantech IM-A850K": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Vega R3",
+        "Device_Code_Name": "IM-A850K",
+        "Device_Maker": "Pantech",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Pantech",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Pantech IM-A870L": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Vega Iron",
+        "Device_Code_Name": "IM-A870L",
+        "Device_Maker": "Pantech",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Pantech",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Pantech IM-A900K": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -25517,18 +25565,6 @@
         "Device_Type": "Mobile Phone",
         "Device_Name": "Vega Iron 2 WiFi",
         "Device_Code_Name": "IM-A910L",
-        "Device_Maker": "Pantech",
-        "Device_Pointing_Method": "touchscreen",
-        "Device_Brand_Name": "Pantech",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
-    "Pantech IM-A850K": {
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Name": "Vega R3",
-        "Device_Code_Name": "IM-A850K",
         "Device_Maker": "Pantech",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Pantech",
@@ -27677,6 +27713,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Name": "iDxD4 3G",
         "Device_Code_Name": "iDxD4 3G",
+        "Device_Maker": "Digma",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Digma",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Digma iDxD8 3G": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "iDxD8 3G",
+        "Device_Code_Name": "iDxD8 3G",
         "Device_Maker": "Digma",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Digma",
