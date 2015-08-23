@@ -31056,6 +31056,18 @@
         "isTablet": "true"
       }
     },
+    "DEX iP890": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "iP890 3G",
+        "Device_Code_Name": "iP890",
+        "Device_Maker": "DEX",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "DEX",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Assistant AP-804": {
       "properties": {
         "Device_Type": "Tablet",
