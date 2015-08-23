@@ -124,6 +124,14 @@
           ]
         },
         {
+          "match": "UCWEB\/*(#PLATFORM#A47) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "engine": "U2",
+          "device": "Micromax A47",
+          "platforms": [
+            "Android_4_2_C"
+          ]
+        },
+        {
           "match": "UCWEB\/*(#PLATFORM#) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
           "engine": "U2",
           "device": "general Mobile Phone (Touch)",

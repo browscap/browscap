@@ -20496,6 +20496,18 @@
         "isTablet": "false"
       }
     },
+    "Micromax A47": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A47",
+        "Device_Name": "A47",
+        "Device_Maker": "Micromax",
+        "Device_Brand_Name": "Micromax",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Micromax A065": {
       "properties": {
         "Device_Type": "Mobile Phone",
