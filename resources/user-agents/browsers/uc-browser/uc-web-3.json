@@ -152,8 +152,16 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
-          "engine": "WebKit",
+          "match": "Mozilla\/5.0 (#PLATFORM#Beeline Smart 3 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Chrome\/*Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
+          "engine": "Blink",
+          "device": "Beeline Smart 3",
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Chrome\/*Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
+          "engine": "Blink",
           "platforms": [
             "Android_2_3",
             "Android_4_0",
@@ -164,8 +172,8 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Chrome\/*Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
-          "engine": "Blink",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
           "platforms": [
             "Android_2_3",
             "Android_4_0",

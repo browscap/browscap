@@ -5885,6 +5885,13 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#MID-721 Build\/*) *AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "device": "Mystery MID-721",
+          "platforms": [
+            "Android_4_1"
+          ]
+        },
+        {
           "match": "Lenovo A390*Mozilla\/5.0 (#PLATFORM#Lenovo A390*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "device": "Lenovo A390",
           "platforms": [

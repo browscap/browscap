@@ -11239,7 +11239,7 @@
         "Device_Name": "Desire C",
         "Device_Maker": "HTC",
         "Device_Brand_Name": "HTC",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -21408,6 +21408,18 @@
         "isTablet": "false"
       }
     },
+    "ZTE N9510": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "N9510",
+        "Device_Name": "Warp 4G LTE",
+        "Device_Maker": "ZTE",
+        "Device_Brand_Name": "ZTE",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "ZTE N861": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -28476,6 +28488,18 @@
         "isTablet": "true"
       }
     },
+    "iconBIT THOR-LE": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "NetTAB THOR-LE",
+        "Device_Code_Name": "NetTAB THOR-LE",
+        "Device_Maker": "iconBIT",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "iconBIT",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "MSI Primo76": {
       "properties": {
         "Device_Type": "Tablet",
@@ -28613,6 +28637,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Name": "TM-5204",
         "Device_Code_Name": "TM-5204",
+        "Device_Maker": "TeXet",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "TeXet",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "TeXet TM-5377": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "TM-5377",
+        "Device_Code_Name": "TM-5377",
         "Device_Maker": "TeXet",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "TeXet",
@@ -30336,6 +30372,18 @@
         "isTablet": "false"
       }
     },
+    "TurboPad TP705": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "TP705",
+        "Device_Code_Name": "TP705",
+        "Device_Maker": "TurboPad",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "TurboPad",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "TurboPad 500": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -30876,6 +30924,18 @@
         "isTablet": "true"
       }
     },
+    "DEX iP977": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "iP977",
+        "Device_Code_Name": "iP977",
+        "Device_Maker": "DEX",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "DEX",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Assistant AP-804": {
       "properties": {
         "Device_Type": "Tablet",
@@ -31128,6 +31188,18 @@
         "isTablet": "true"
       }
     },
+    "Beeline Smart 3": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Smart 3",
+        "Device_Code_Name": "Smart 3",
+        "Device_Maker": "Beeline",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Beeline",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Thornton Pickard THOT61": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -31270,6 +31342,42 @@
         "Device_Brand_Name": "China Phone",
         "isMobileDevice": "true",
         "isTablet": "false"
+      }
+    },
+    "Minno Minno8": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "Minno8",
+        "Device_Code_Name": "Minno8",
+        "Device_Maker": "Minno LLC",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Minno",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Mystery MID-721": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "MID-721",
+        "Device_Code_Name": "MID-721",
+        "Device_Maker": "Mystery",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Mystery",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Smarty Maxi 10L": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "Maxi 10L",
+        "Device_Code_Name": "Maxi 10L",
+        "Device_Maker": "Smarty",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Smarty",
+        "isMobileDevice": "true",
+        "isTablet": "true"
       }
     }
   }

@@ -3533,6 +3533,41 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#Minno8 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "device": "Minno Minno8",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#N9510 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "device": "ZTE N9510",
+          "platforms": [
+            "Android_4_1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#Smarty Maxi 10L Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "device": "Smarty Maxi 10L",
+          "platforms": [
+            "Android_4_1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#Desire C Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "device": "HTC Desire C",
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#iP977 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "device": "DEX iP977",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "platforms": [
             "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",

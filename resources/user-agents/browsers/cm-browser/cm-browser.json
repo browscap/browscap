@@ -438,6 +438,22 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#TM-5377 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/*Safari\/* ACHEETAHI\/*",
+          "device": "TeXet TM-5377",
+          "engine": "WebKit",
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#TurboPad TP705 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/*Safari\/* ACHEETAHI\/*",
+          "device": "TurboPad TP705",
+          "engine": "WebKit",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/*Chrome\/*Safari\/* ACHEETAHI\/*",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3",
