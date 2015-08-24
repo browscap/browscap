@@ -24096,6 +24096,18 @@
         "isTablet": "true"
       }
     },
+    "Cube U20GT_WS": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "U20GT_WS",
+        "Device_Name": "U20GT_WS",
+        "Device_Maker": "Cube",
+        "Device_Brand_Name": "Cube",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "ZOPO ZP900": {
       "properties": {
         "Device_Type": "Mobile Phone",
