@@ -1,14 +1,14 @@
 {
-  "division": "BitTorrent Clients",
+  "division": "BitTorrent Client",
   "sortIndex": 260,
   "lite": false,
   "userAgents": [
     {
-      "userAgent": "BitTorrent Clients",
+      "userAgent": "BitTorrent Client",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "BitTorrent Clients",
-        "Browser": "",
+        "Comment": "BitTorrent Client",
+        "Browser": "BitTorrent Client",
         "Browser_Type": "Bot/Crawler",
         "Crawler": "true"
       },
