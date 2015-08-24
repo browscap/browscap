@@ -124,7 +124,7 @@
         },
         {
           "match": "MT6515M#PLATFORM# Release* Browser?AppleWebkit* (KHTML, like Gecko) Mozilla\/5.0 Mobile",
-          "device": "unknown MT6515M",
+          "device": "United MT6515M",
           "platforms": [
             "Android_2_3"
           ]
@@ -5312,7 +5312,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#TAB917QC-8GB Build\/*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "Suntech TAB917QC 8GB",
+          "device": "Sunstech TAB917QC 8GB",
           "platforms": [
             "Android_4_4"
           ]
