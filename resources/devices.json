@@ -28860,6 +28860,18 @@
         "isTablet": "false"
       }
     },
+    "Highscreen Prime Mini SE": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Omega Prime mini SE",
+        "Device_Code_Name": "Prime Mini SE",
+        "Device_Maker": "Highscreen",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Highscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "BQ BQS-4007": {
       "properties": {
         "Device_Type": "Mobile Phone",
