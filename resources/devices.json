@@ -22368,6 +22368,18 @@
         "isTablet": "true"
       }
     },
+    "Lenovo K910": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "K910",
+        "Device_Name": "Vibe Z",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Lenovo K910L": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -24197,6 +24209,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "X909",
         "Device_Name": "Find 5",
+        "Device_Maker": "OPPO",
+        "Device_Brand_Name": "OPPO",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "OPPO X9007": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "X9007",
+        "Device_Name": "Find 7a",
         "Device_Maker": "OPPO",
         "Device_Brand_Name": "OPPO",
         "Device_Pointing_Method": "touchscreen",
@@ -27252,6 +27276,18 @@
         "isTablet": "true"
       }
     },
+    "GOCLEVER T76": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "TAB T76 GPS",
+        "Device_Code_Name": "T76",
+        "Device_Maker": "GOCLEVER",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "GOCLEVER",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "GOCLEVER ORION7o": {
       "properties": {
         "Device_Type": "Tablet",
@@ -29688,6 +29724,18 @@
         "isTablet": "false"
       }
     },
+    "KAZAM Trooper X40": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Trooper X40",
+        "Device_Code_Name": "Trooper X40",
+        "Device_Maker": "KAZAM",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "KAZAM",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "KAZAM Tornado 348": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -31594,6 +31642,18 @@
         "Device_Brand_Name": "SPCinternet",
         "isMobileDevice": "false",
         "isTablet": "false"
+      }
+    },
+    "KTC 800P11B": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "800P11B",
+        "Device_Code_Name": "800P11B",
+        "Device_Maker": "KTC",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "KTC",
+        "isMobileDevice": "true",
+        "isTablet": "true"
       }
     }
   }

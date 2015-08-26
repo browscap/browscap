@@ -5913,6 +5913,13 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#X9007 Build\/*) *AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "device": "OPPO X9007",
+          "platforms": [
+            "Android_4_3"
+          ]
+        },
+        {
           "match": "Lenovo A390*Mozilla\/5.0 (#PLATFORM#Lenovo A390*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "device": "Lenovo A390",
           "platforms": [
