@@ -21492,6 +21492,18 @@
         "isTablet": "false"
       }
     },
+    "ZTE N909": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "N909",
+        "Device_Name": "Grand",
+        "Device_Maker": "ZTE",
+        "Device_Brand_Name": "ZTE",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "ZTE N861": {
       "properties": {
         "Device_Type": "Mobile Phone",
