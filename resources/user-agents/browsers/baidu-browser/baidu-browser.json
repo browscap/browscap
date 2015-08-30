@@ -85,6 +85,13 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#X-tremer Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* T5\/* bdbrowser_i18n\/#MAJORVER#.#MINORVER#*",
+          "device": "Explay X-tremer",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#Oysters T72M 3G Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Chrome\/*Safari\/* bdbrowser_i18n\/#MAJORVER#.#MINORVER#*",
           "device": "Oysters T72M 3G",
           "engine": "Blink",

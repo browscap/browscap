@@ -1,6 +1,6 @@
 {
   "division": "Flipboard App #MAJORVER#.#MINORVER#",
-  "versions": ["2.1", 2],
+  "versions": ["2.3", "2.2", "2.1", 2],
   "sortIndex": 940,
   "lite": false,
   "userAgents": [
@@ -44,6 +44,13 @@
           "device": "Alcatel OT-6036Y",
           "platforms": [
             "Android_4_3"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-T325 Build\/*)*AppleWebKit\/*(*KHTML,*like Gecko*)*Version\/*Chrome*Safari* Flipboard\/#MAJORVER#.#MINORVER#*",
+          "device": "Samsung SM-T325",
+          "platforms": [
+            "Android_4_4"
           ]
         },
         {

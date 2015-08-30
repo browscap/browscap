@@ -13548,6 +13548,18 @@
         "isTablet": "false"
       }
     },
+    "LG E450": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "E450",
+        "Device_Name": "Optimus L5 II",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "LG E610": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -16985,6 +16997,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "P7 Mini",
         "Device_Name": "Ascend P7 Mini",
+        "Device_Maker": "Huawei",
+        "Device_Brand_Name": "Huawei",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Huawei P7-L10": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "P7-L10",
+        "Device_Name": "Ascend P7",
         "Device_Maker": "Huawei",
         "Device_Brand_Name": "Huawei",
         "Device_Pointing_Method": "touchscreen",
@@ -22596,78 +22620,6 @@
         "isTablet": "true"
       }
     },
-    "Lenovo A1000L-F": {
-      "properties": {
-        "Device_Type": "Tablet",
-        "Device_Code_Name": "A1000L-F",
-        "Device_Name": "IdeaTab A1000L-F",
-        "Device_Maker": "Lenovo",
-        "Device_Brand_Name": "Lenovo",
-        "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true",
-        "isTablet": "true"
-      }
-    },
-    "Lenovo IdeaPad A660": {
-      "properties": {
-        "Device_Type": "Tablet",
-        "Device_Code_Name": "IdeaPad A660",
-        "Device_Name": "IdeaPad A660",
-        "Device_Maker": "Lenovo",
-        "Device_Brand_Name": "Lenovo",
-        "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true",
-        "isTablet": "true"
-      }
-    },
-    "Lenovo B6000-H": {
-      "properties": {
-        "Device_Type": "Tablet",
-        "Device_Code_Name": "B6000-H",
-        "Device_Name": "Yoga 8 3G",
-        "Device_Maker": "Lenovo",
-        "Device_Brand_Name": "Lenovo",
-        "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true",
-        "isTablet": "true"
-      }
-    },
-    "Lenovo B6000-HV": {
-      "properties": {
-        "Device_Type": "Tablet",
-        "Device_Code_Name": "B6000-HV",
-        "Device_Name": "Yoga 8 3G + WiFi",
-        "Device_Maker": "Lenovo",
-        "Device_Brand_Name": "Lenovo",
-        "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true",
-        "isTablet": "true"
-      }
-    },
-    "Lenovo B8000-F": {
-      "properties": {
-        "Device_Type": "Tablet",
-        "Device_Code_Name": "B8000-F",
-        "Device_Name": "Yoga B8000-F",
-        "Device_Maker": "Lenovo",
-        "Device_Brand_Name": "Lenovo",
-        "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true",
-        "isTablet": "true"
-      }
-    },
-    "Lenovo B8000-H": {
-      "properties": {
-        "Device_Type": "Tablet",
-        "Device_Code_Name": "B8000-H",
-        "Device_Name": "Yoga Tablet 10 3G",
-        "Device_Maker": "Lenovo",
-        "Device_Brand_Name": "Lenovo",
-        "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true",
-        "isTablet": "true"
-      }
-    },
     "Lenovo A390": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -22738,6 +22690,90 @@
         "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
+      }
+    },
+    "Lenovo A316i": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A369i",
+        "Device_Name": "A369i",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Lenovo A1000L-F": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "A1000L-F",
+        "Device_Name": "IdeaTab A1000L-F",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Lenovo IdeaPad A660": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "IdeaPad A660",
+        "Device_Name": "IdeaPad A660",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Lenovo B6000-H": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "B6000-H",
+        "Device_Name": "Yoga 8 3G",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Lenovo B6000-HV": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "B6000-HV",
+        "Device_Name": "Yoga 8 3G + WiFi",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Lenovo B8000-F": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "B8000-F",
+        "Device_Name": "Yoga B8000-F",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Lenovo B8000-H": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "B8000-H",
+        "Device_Name": "Yoga Tablet 10 3G",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
       }
     },
     "Lenovo A889": {
@@ -25279,6 +25315,18 @@
         "Device_Code_Name": "MI 2",
         "Device_Maker": "Xiaomi Tech",
         "Device_Pointing_Method": "unknown",
+        "Device_Brand_Name": "Xiaomi",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Xiaomi MI 2S": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "MI 2S",
+        "Device_Code_Name": "MI 2S",
+        "Device_Maker": "Xiaomi Tech",
+        "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Xiaomi",
         "isMobileDevice": "true",
         "isTablet": "false"
@@ -28188,6 +28236,18 @@
         "isTablet": "true"
       }
     },
+    "Wexler TAB 7i 3G": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "TAB 7i 3G",
+        "Device_Code_Name": "TAB 7i 3G",
+        "Device_Maker": "Wexler",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Wexler",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Wexler TABA742": {
       "properties": {
         "Device_Type": "Tablet",
@@ -28666,6 +28726,18 @@
         "Device_Brand_Name": "iconBIT",
         "isMobileDevice": "true",
         "isTablet": "true"
+      }
+    },
+    "iconBIT TOUCAN Stick 3D mk2": {
+      "properties": {
+        "Device_Type": "TV Device",
+        "Device_Name": "TOUCAN Stick 3D mk2",
+        "Device_Code_Name": "TOUCAN Stick 3D mk2",
+        "Device_Maker": "iconBIT",
+        "Device_Pointing_Method": "unknown",
+        "Device_Brand_Name": "iconBIT",
+        "isMobileDevice": "false",
+        "isTablet": "false"
       }
     },
     "MSI Primo76": {
@@ -29364,6 +29436,18 @@
         "isTablet": "true"
       }
     },
+    "Explay X-tremer": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "X-tremer",
+        "Device_Code_Name": "X-tremer",
+        "Device_Maker": "Explay",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Explay",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "PMEDIA PMSmart450": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -30029,6 +30113,18 @@
         "Device_Type": "Tablet",
         "Device_Name": "7506-HD",
         "Device_Code_Name": "PATG7506HD",
+        "Device_Maker": "Perfeo",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Perfeo",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Perfeo 9103W": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "9103W",
+        "Device_Code_Name": "9103W",
         "Device_Maker": "Perfeo",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Perfeo",
@@ -30756,6 +30852,18 @@
         "isTablet": "true"
       }
     },
+    "VastKing MID-717R": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "MID-717R",
+        "Device_Code_Name": "MID-717R",
+        "Device_Maker": "VastKing",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "VastKing",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Wopad Q10S": {
       "properties": {
         "Device_Type": "Tablet",
@@ -31368,6 +31476,18 @@
         "isTablet": "false"
       }
     },
+    "Karbonn S4": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Titanium S4",
+        "Device_Code_Name": "S4",
+        "Device_Maker": "Karbonn",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Karbonn",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "AOSON M785": {
       "properties": {
         "Device_Type": "Tablet",
@@ -31560,6 +31680,18 @@
         "isTablet": "true"
       }
     },
+    "Ross&Moor RM-560": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "RM-560",
+        "Device_Code_Name": "RM-560",
+        "Device_Maker": "Ross&Moor",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Ross&Moor",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "China L925 l1020": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -31664,6 +31796,18 @@
         "Device_Maker": "KTC",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "KTC",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Ninetology T8700": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "Outlook Pure",
+        "Device_Code_Name": "T8700",
+        "Device_Maker": "Ninetology",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Ninetology",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
