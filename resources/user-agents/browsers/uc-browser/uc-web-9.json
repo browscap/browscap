@@ -835,6 +835,14 @@
           ]
         },
         {
+          "match": "UCWEB\/*(#PLATFORM#Lenovo_A318t) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "engine": "U2",
+          "device": "Lenovo A318t",
+          "platforms": [
+            "Android_2_3_D"
+          ]
+        },
+        {
           "match": "UCWEB\/*(#PLATFORM#) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
           "engine": "U2",
           "device": "general Mobile Phone (Touch)",
@@ -905,6 +913,14 @@
           "match": "UCWEB\/2.0 (Linux; U; Opera Mini\/*; SHV-E210K) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
           "engine": "U2",
           "device": "Samsung SHV-E210K",
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
+          "match": "UCWEB\/2.0 (Linux; U; Opera Mini\/*; SHV-E250S) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
+          "engine": "U2",
+          "device": "Samsung SHV-E250S",
           "platforms": [
             "Android_4_0"
           ]

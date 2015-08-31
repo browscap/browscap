@@ -1147,7 +1147,7 @@
         "Device_Name": "Xperia Arc",
         "Device_Maker": "SonyEricsson",
         "Device_Brand_Name": "SonyEricsson",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -8021,6 +8021,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SHV-E250L",
         "Device_Name": "Galaxy Note II LTE (Korea LG+)",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung SHV-E250S": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SHV-E250S",
+        "Device_Name": "Galaxy Note II LTE (Korea SK Telecom)",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "touchscreen",
@@ -22695,8 +22707,20 @@
     "Lenovo A316i": {
       "properties": {
         "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "A369i",
-        "Device_Name": "A369i",
+        "Device_Code_Name": "A316i",
+        "Device_Name": "A316i",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Lenovo A318t": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A318t",
+        "Device_Name": "A318t",
         "Device_Maker": "Lenovo",
         "Device_Brand_Name": "Lenovo",
         "Device_Pointing_Method": "touchscreen",
@@ -28620,6 +28644,18 @@
         "isTablet": "false"
       }
     },
+    "Keneksi Libra Dual": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Libra Dual",
+        "Device_Code_Name": "Libra Dual",
+        "Device_Maker": "Keneksi",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Keneksi",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Keneksi Sun": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -30804,6 +30840,18 @@
         "isTablet": "false"
       }
     },
+    "i-mobile i-Tab Fun": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "i-Tab Fun",
+        "Device_Code_Name": "i-Tab Fun",
+        "Device_Maker": "i-mobile",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "i-mobile",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "i-mobile IQ X OKU": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -31440,6 +31488,18 @@
         "isTablet": "true"
       }
     },
+    "Alps Baoxue 7": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "Baoxue 7",
+        "Device_Code_Name": "Baoxue 7",
+        "Device_Maker": "Alps",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Alps",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Zifro ZS-6500": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -31810,6 +31870,30 @@
         "Device_Brand_Name": "Ninetology",
         "isMobileDevice": "true",
         "isTablet": "true"
+      }
+    },
+    "GooPhone S4 Mega": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "S4 Mega",
+        "Device_Code_Name": "S4 Mega",
+        "Device_Maker": "GooPhone",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "GooPhone",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Coolpad 8675": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "F2",
+        "Device_Code_Name": "8675",
+        "Device_Maker": "Coolpad",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Coolpad",
+        "isMobileDevice": "true",
+        "isTablet": "false"
       }
     }
   }
