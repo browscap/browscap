@@ -998,6 +998,14 @@
           ]
         },
         {
+          "match": "UCWEB\/2.0 (Linux; U; Opera Mini\/*; T8700) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
+          "engine": "U2",
+          "device": "Ninetology T8700",
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
           "match": "UCWEB\/2.0 (Linux; U; Opera Mini\/*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
           "engine": "U2",
           "platforms": [
