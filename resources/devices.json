@@ -2083,7 +2083,7 @@
         "Device_Name": "Xperia Z3",
         "Device_Maker": "Sony",
         "Device_Brand_Name": "Sony",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -15024,6 +15024,18 @@
         "isTablet": "false"
       }
     },
+    "LG GS-500": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GS-500",
+        "Device_Name": "Cookie Plus",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "LG GT350": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -21132,6 +21144,18 @@
         "isTablet": "false"
       }
     },
+    "Alcatel OT-Fierce": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "OT-Fierce",
+        "Device_Name": "One Touch Fierce",
+        "Device_Maker": "Alcatel",
+        "Device_Brand_Name": "Alcatel",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Fairphone FP1": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -21581,6 +21605,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Beeline Pro",
         "Device_Name": "Beeline Pro",
+        "Device_Maker": "ZTE",
+        "Device_Brand_Name": "ZTE",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "ZTE Beeline Smart2": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Beeline Smart 2",
+        "Device_Name": "Beeline Smart 2",
         "Device_Maker": "ZTE",
         "Device_Brand_Name": "ZTE",
         "Device_Pointing_Method": "touchscreen",
@@ -24060,6 +24096,18 @@
         "isTablet": "false"
       }
     },
+    "Prestigio PER5274B": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "PER5274B",
+        "Device_Name": "MultiReader",
+        "Device_Maker": "Prestigio",
+        "Device_Brand_Name": "Prestigio",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "HP Touchpad": {
       "properties": {
         "Device_Type": "Tablet",
@@ -25493,6 +25541,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Name": "Studio 5.0 S II",
         "Device_Code_Name": "Studio 5.0 S II",
+        "Device_Maker": "BLU",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "BLU",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "BLU STUDIO 5.0 II": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "STUDIO 5.0 II",
+        "Device_Code_Name": "STUDIO 5.0 II",
         "Device_Maker": "BLU",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "BLU",
@@ -27024,6 +27084,54 @@
         "isTablet": "false"
       }
     },
+    "Fly IQ450": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Quattro Horizon 2",
+        "Device_Code_Name": "IQ450",
+        "Device_Maker": "Fly",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Fly",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Fly IQ452": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "EGO",
+        "Device_Code_Name": "IQ452",
+        "Device_Maker": "Fly",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Fly",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Fly IQ453": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Luminor",
+        "Device_Code_Name": "IQ453",
+        "Device_Maker": "Fly",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Fly",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Fly IQ4504": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Quad EVO Energy 5",
+        "Device_Code_Name": "IQ4504",
+        "Device_Maker": "Fly",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Fly",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Fly IQ4403": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -27125,42 +27233,6 @@
         "Device_Type": "Mobile Phone",
         "Device_Name": "Chic",
         "Device_Code_Name": "IQ448",
-        "Device_Maker": "Fly",
-        "Device_Pointing_Method": "touchscreen",
-        "Device_Brand_Name": "Fly",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
-    "Fly IQ450": {
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Name": "Quattro Horizon 2",
-        "Device_Code_Name": "IQ450",
-        "Device_Maker": "Fly",
-        "Device_Pointing_Method": "touchscreen",
-        "Device_Brand_Name": "Fly",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
-    "Fly IQ452": {
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Name": "EGO",
-        "Device_Code_Name": "IQ452",
-        "Device_Maker": "Fly",
-        "Device_Pointing_Method": "touchscreen",
-        "Device_Brand_Name": "Fly",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
-    "Fly IQ4504": {
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Name": "Quad EVO Energy 5",
-        "Device_Code_Name": "IQ4504",
         "Device_Maker": "Fly",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Fly",
@@ -28428,6 +28500,18 @@
         "isTablet": "false"
       }
     },
+    "DNS S4004M": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "S4004M",
+        "Device_Code_Name": "S4004M",
+        "Device_Maker": "DNS",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "DNS",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "DNS S4505": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -28493,6 +28577,18 @@
         "Device_Type": "Tablet",
         "Device_Name": "AirTab PF7001",
         "Device_Code_Name": "AirTab PF7001",
+        "Device_Maker": "DNS",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "DNS",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "DNS AirTab P970g": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "AirTab P970g",
+        "Device_Code_Name": "AirTab P970g",
         "Device_Maker": "DNS",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "DNS",
@@ -28733,6 +28829,18 @@
         "Device_Type": "Tablet",
         "Device_Name": "NetTAB Mercury Duo",
         "Device_Code_Name": "NT-3502M",
+        "Device_Maker": "iconBIT",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "iconBIT",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "iconBIT NT-3507M": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "NetTAB Mercury Quad",
+        "Device_Code_Name": "NT-3507M",
         "Device_Maker": "iconBIT",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "iconBIT",
@@ -30612,6 +30720,18 @@
         "isTablet": "true"
       }
     },
+    "Ainol Novo 10 Hero": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "Novo 10 Hero",
+        "Device_Code_Name": "Novo 10 Hero",
+        "Device_Maker": "Ainol",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Ainol",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Ainol Numy 3G AX1": {
       "properties": {
         "Device_Type": "Tablet",
@@ -31452,6 +31572,18 @@
         "isTablet": "true"
       }
     },
+    "Telefunken TF-SP4502": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "TF-SP4502",
+        "Device_Code_Name": "TF-SP4502",
+        "Device_Maker": "Telefunken",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Telefunken",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Tecno H6": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -31894,6 +32026,30 @@
         "Device_Brand_Name": "Coolpad",
         "isMobileDevice": "true",
         "isTablet": "false"
+      }
+    },
+    "HTM M3": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "M3",
+        "Device_Code_Name": "M3",
+        "Device_Maker": "HTM",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "HTM",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Aamra Kaya": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "Kaya",
+        "Device_Code_Name": "Kaya",
+        "Device_Maker": "Aamra",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Aamra",
+        "isMobileDevice": "true",
+        "isTablet": "true"
       }
     }
   }

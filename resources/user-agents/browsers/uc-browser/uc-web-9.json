@@ -519,6 +519,14 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#TF-SP4502 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
+          "engine": "WebKit",
+          "device": "Telefunken TF-SP4502",
+          "platforms": [
+            "Android_4_1"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
           "engine": "WebKit",
           "platforms": [
@@ -1031,6 +1039,14 @@
           "match": "UCWEB\/2.0 (Java; *nokiaasha500dualsim) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/* Mobile*",
           "engine": "U2",
           "device": "Nokia Asha 500 Dual Sim",
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "UCWEB\/2.0 (Java; *NokiaC6-01) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/* Mobile*",
+          "engine": "U2",
+          "device": "Nokia C6-01",
           "platforms": [
             "JAVA"
           ]
