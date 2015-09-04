@@ -649,9 +649,17 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#X10 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "engine": "U3",
+          "device": "SonyEricsson X10",
+          "platforms": [
+            "Android_2_3"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM# Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
           "platforms": [
-            "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android_5_0", "Android"
+            "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android_5_0", "Android_5_1", "Android"
           ]
         },
         {
@@ -793,6 +801,14 @@
           "device": "Micromax A35",
           "platforms": [
             "Android_2_3_D"
+          ]
+        },
+        {
+          "match": "UCWEB\/*(#PLATFORM#GT-P3110) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "engine": "U2",
+          "device": "Samsung GT-P3110",
+          "platforms": [
+            "Android_4_1_C"
           ]
         },
         {

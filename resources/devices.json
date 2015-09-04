@@ -9103,7 +9103,7 @@
         "Device_Name": "MB526",
         "Device_Maker": "Motorola",
         "Device_Brand_Name": "Motorola",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -24156,6 +24156,18 @@
         "isTablet": "false"
       }
     },
+    "Prestigio PSP3450DUO": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "PSP3450DUO",
+        "Device_Name": "MultiPhone PSP 3450 DUO",
+        "Device_Maker": "Prestigio",
+        "Device_Brand_Name": "Prestigio",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Prestigio PER5274B": {
       "properties": {
         "Device_Type": "Tablet",
@@ -28272,6 +28284,18 @@
         "isTablet": "false"
       }
     },
+    "DoCoMo N-03E": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "N-03E",
+        "Device_Code_Name": "N-03E",
+        "Device_Maker": "DoCoMo",
+        "Device_Pointing_Method": "unknown",
+        "Device_Brand_Name": "DoCoMo",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "DFunc Func Titan-02": {
       "properties": {
         "Device_Type": "Console",
@@ -30588,6 +30612,18 @@
         "isTablet": "false"
       }
     },
+    "iRU M1003G": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "Pad Master",
+        "Device_Code_Name": "M1003G",
+        "Device_Maker": "iRU",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "iRU",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Haipai Noble I9220": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -32158,6 +32194,18 @@
         "Device_Brand_Name": "Jinga",
         "isMobileDevice": "true",
         "isTablet": "false"
+      }
+    },
+    "Cello T1144": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "T1144",
+        "Device_Code_Name": "T1144",
+        "Device_Maker": "Cello",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Cello",
+        "isMobileDevice": "true",
+        "isTablet": "true"
       }
     }
   }
