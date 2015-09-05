@@ -826,7 +826,7 @@
         {
           "match": "spider (tspyyp@tom.com)",
           "properties": {
-            "Browser": "spider (tspyyp@tom.com)"
+            "Browser": "spider from tspyyp@tom.com"
           }
         },
         {
