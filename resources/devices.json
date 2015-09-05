@@ -11352,6 +11352,18 @@
         "isTablet": "false"
       }
     },
+    "HTC Desire 600": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Desire 600",
+        "Device_Name": "Desire 600",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "HTC Desire 816": {
       "properties": {
         "Device_Type": "Mobile Phone",
