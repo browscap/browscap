@@ -4824,6 +4824,18 @@
         "isTablet": "false"
       }
     },
+    "Samsung SM-G7102": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SM-G7102",
+        "Device_Name": "Galaxy Grand 2 Duos",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Samsung SM-P600": {
       "properties": {
         "Device_Type": "Tablet",
@@ -8988,6 +9000,18 @@
         "isTablet": "false"
       }
     },
+    "Motorola MB855": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "MB855",
+        "Device_Name": "Photon 4G",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Motorola XT615": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -11357,6 +11381,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Desire 600",
         "Device_Name": "Desire 600",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC Desire 610": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Desire 610",
+        "Device_Name": "Desire 610",
         "Device_Maker": "HTC",
         "Device_Brand_Name": "HTC",
         "Device_Pointing_Method": "touchscreen",
@@ -14340,6 +14376,18 @@
         "isTablet": "false"
       }
     },
+    "LG D610AR": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "D610AR",
+        "Device_Name": "G2 Mini 3G",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "LG D690": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -16092,78 +16140,6 @@
         "isTablet": "true"
       }
     },
-    "Acer Stream": {
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "Stream",
-        "Device_Name": "Stream",
-        "Device_Maker": "Acer",
-        "Device_Brand_Name": "Acer",
-        "Device_Pointing_Method": "unknown",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
-    "Acer Liquid": {
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "Liquid",
-        "Device_Name": "Liquid",
-        "Device_Maker": "Acer",
-        "Device_Brand_Name": "Acer",
-        "Device_Pointing_Method": "unknown",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
-    "Acer E140": {
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "E140",
-        "Device_Name": "E140",
-        "Device_Maker": "Acer",
-        "Device_Brand_Name": "Acer",
-        "Device_Pointing_Method": "unknown",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
-    "Acer E310": {
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "E310",
-        "Device_Name": "Liquid Mini",
-        "Device_Maker": "Acer",
-        "Device_Brand_Name": "Acer",
-        "Device_Pointing_Method": "unknown",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
-    "Acer Liquid Metal": {
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "Liquid Metal",
-        "Device_Name": "Liquid Metal",
-        "Device_Maker": "Acer",
-        "Device_Brand_Name": "Acer",
-        "Device_Pointing_Method": "unknown",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
-    "Acer E320": {
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "E320",
-        "Device_Name": "Liquid Express",
-        "Device_Maker": "Acer",
-        "Device_Brand_Name": "Acer",
-        "Device_Pointing_Method": "unknown",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
     "Acer A100": {
       "properties": {
         "Device_Type": "Tablet",
@@ -16181,18 +16157,6 @@
         "Device_Type": "Tablet",
         "Device_Code_Name": "A501",
         "Device_Name": "Picasso",
-        "Device_Maker": "Acer",
-        "Device_Brand_Name": "Acer",
-        "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true",
-        "isTablet": "true"
-      }
-    },
-    "Acer G100W": {
-      "properties": {
-        "Device_Type": "Tablet",
-        "Device_Code_Name": "G100W",
-        "Device_Name": "G100W",
         "Device_Maker": "Acer",
         "Device_Brand_Name": "Acer",
         "Device_Pointing_Method": "touchscreen",
@@ -16284,11 +16248,11 @@
         "isTablet": "true"
       }
     },
-    "Acer B1-710": {
+    "Acer A1-810": {
       "properties": {
         "Device_Type": "Tablet",
-        "Device_Code_Name": "B1-710",
-        "Device_Name": "Iconia B1-710",
+        "Device_Code_Name": "A1-810",
+        "Device_Name": "Iconia A1-810",
         "Device_Maker": "Acer",
         "Device_Brand_Name": "Acer",
         "Device_Pointing_Method": "touchscreen",
@@ -16296,11 +16260,143 @@
         "isTablet": "true"
       }
     },
-    "Acer A1-810": {
+    "Acer A1-811": {
       "properties": {
         "Device_Type": "Tablet",
-        "Device_Code_Name": "A1-810",
-        "Device_Name": "Iconia A1-810",
+        "Device_Code_Name": "A1-811",
+        "Device_Name": "Iconia A",
+        "Device_Maker": "Acer",
+        "Device_Brand_Name": "Acer",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Acer A3-A10": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "A3-A10",
+        "Device_Name": "Iconia Tab A3",
+        "Device_Maker": "Acer",
+        "Device_Brand_Name": "Acer",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Acer A1-830": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "A1-830",
+        "Device_Name": "Iconia A1-830",
+        "Device_Maker": "Acer",
+        "Device_Brand_Name": "Acer",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Acer Stream": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Stream",
+        "Device_Name": "Stream",
+        "Device_Maker": "Acer",
+        "Device_Brand_Name": "Acer",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Acer Liquid": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Liquid",
+        "Device_Name": "Liquid",
+        "Device_Maker": "Acer",
+        "Device_Brand_Name": "Acer",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Acer E140": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "E140",
+        "Device_Name": "E140",
+        "Device_Maker": "Acer",
+        "Device_Brand_Name": "Acer",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Acer E310": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "E310",
+        "Device_Name": "Liquid Mini",
+        "Device_Maker": "Acer",
+        "Device_Brand_Name": "Acer",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Acer E320": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "E320",
+        "Device_Name": "Liquid Express",
+        "Device_Maker": "Acer",
+        "Device_Brand_Name": "Acer",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Acer E380": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "E380",
+        "Device_Name": "Liquid E3",
+        "Device_Maker": "Acer",
+        "Device_Brand_Name": "Acer",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Acer Liquid Metal": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Liquid Metal",
+        "Device_Name": "Liquid Metal",
+        "Device_Maker": "Acer",
+        "Device_Brand_Name": "Acer",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Acer G100W": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "G100W",
+        "Device_Name": "G100W",
+        "Device_Maker": "Acer",
+        "Device_Brand_Name": "Acer",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Acer B1-710": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "B1-710",
+        "Device_Name": "Iconia B1-710",
         "Device_Maker": "Acer",
         "Device_Brand_Name": "Acer",
         "Device_Pointing_Method": "touchscreen",
@@ -16332,30 +16428,6 @@
         "isTablet": "false"
       }
     },
-    "Acer A1-811": {
-      "properties": {
-        "Device_Type": "Tablet",
-        "Device_Code_Name": "A1-811",
-        "Device_Name": "Iconia A",
-        "Device_Maker": "Acer",
-        "Device_Brand_Name": "Acer",
-        "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true",
-        "isTablet": "true"
-      }
-    },
-    "Acer A3-A10": {
-      "properties": {
-        "Device_Type": "Tablet",
-        "Device_Code_Name": "A3-A10",
-        "Device_Name": "Iconia Tab A3",
-        "Device_Maker": "Acer",
-        "Device_Brand_Name": "Acer",
-        "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true",
-        "isTablet": "true"
-      }
-    },
     "Acer S200": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -16373,18 +16445,6 @@
         "Device_Type": "Tablet",
         "Device_Code_Name": "B1-711",
         "Device_Name": "Iconia B1-711",
-        "Device_Maker": "Acer",
-        "Device_Brand_Name": "Acer",
-        "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true",
-        "isTablet": "true"
-      }
-    },
-    "Acer A1-830": {
-      "properties": {
-        "Device_Type": "Tablet",
-        "Device_Code_Name": "A1-830",
-        "Device_Name": "Iconia A1-830",
         "Device_Maker": "Acer",
         "Device_Brand_Name": "Acer",
         "Device_Pointing_Method": "touchscreen",
@@ -27156,6 +27216,42 @@
         "isTablet": "false"
       }
     },
+    "Fly IQ4403": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "IQ4403",
+        "Device_Code_Name": "IQ4403",
+        "Device_Maker": "Fly",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Fly",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Fly IQ4404": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "IQ4404",
+        "Device_Code_Name": "IQ4404",
+        "Device_Maker": "Fly",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Fly",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Fly IQ4406": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "ERA Nano 6",
+        "Device_Code_Name": "IQ4406",
+        "Device_Maker": "Fly",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Fly",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Fly IQ456": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -27209,30 +27305,6 @@
         "Device_Type": "Mobile Phone",
         "Device_Name": "Quad EVO Energy 5",
         "Device_Code_Name": "IQ4504",
-        "Device_Maker": "Fly",
-        "Device_Pointing_Method": "touchscreen",
-        "Device_Brand_Name": "Fly",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
-    "Fly IQ4403": {
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Name": "IQ4403",
-        "Device_Code_Name": "IQ4403",
-        "Device_Maker": "Fly",
-        "Device_Pointing_Method": "touchscreen",
-        "Device_Brand_Name": "Fly",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
-    "Fly IQ4404": {
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Name": "IQ4404",
-        "Device_Code_Name": "IQ4404",
         "Device_Maker": "Fly",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Fly",
@@ -28174,6 +28246,18 @@
         "Device_Brand_Name": "Digma",
         "isMobileDevice": "true",
         "isTablet": "false"
+      }
+    },
+    "Digma HT7070MG": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "HIT 3G",
+        "Device_Code_Name": "HT7070MG",
+        "Device_Maker": "Digma",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Digma",
+        "isMobileDevice": "true",
+        "isTablet": "true"
       }
     },
     "ZONDA ZMNG1900": {
@@ -31776,6 +31860,18 @@
         "isTablet": "true"
       }
     },
+    "Alps worldphone 4": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "worldphone 4",
+        "Device_Code_Name": "worldphone 4",
+        "Device_Maker": "Alps",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Alps",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Zifro ZS-6500": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -32216,6 +32312,42 @@
         "Device_Maker": "Cello",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Cello",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Ployer Momo20s": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "Momo20s",
+        "Device_Code_Name": "Momo20s",
+        "Device_Maker": "Ployer",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Ployer",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "oblio mint": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "mint",
+        "Device_Code_Name": "mint",
+        "Device_Maker": "oblio",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "oblio",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "KingTop KT07": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "KT07",
+        "Device_Code_Name": "KT07",
+        "Device_Maker": "KingTop",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "KingTop",
         "isMobileDevice": "true",
         "isTablet": "true"
       }

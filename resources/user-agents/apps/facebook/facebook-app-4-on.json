@@ -249,7 +249,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Ice2 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Chrome\/*Safari\/* ?FB_IAB\/*FBAV\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (#PLATFORM#Ice2 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Chrome\/*Safari\/*FBAV\/#MAJORVER#.#MINORVER#*",
           "device": "Highscreen ICE 2",
           "platforms": [
             "Android_4_4"
@@ -559,6 +559,13 @@
           "engine": "WebKit",
           "platforms": [
             "Android_4_1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-G7102 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Chrome\/*Safari\/* ?FB_IAB\/*FBAV\/#MAJORVER#.#MINORVER#*",
+          "device": "Samsung SM-G7102",
+          "platforms": [
+            "Android_4_4"
           ]
         },
         {

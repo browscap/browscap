@@ -74,7 +74,17 @@
         },
         {
           "match": "Nokia5230\/UC Browser#MAJORVER#.#MINORVER#*",
-          "device": "Nokia 5230"
+          "device": "Nokia 5230",
+          "platforms": [
+            "SymbianOS"
+          ]
+        },
+        {
+          "match": "nokia6120c\/UC Browser#MAJORVER#.#MINORVER#*",
+          "device": "Nokia 6120c",
+          "platforms": [
+            "SymbianOS"
+          ]
         },
         {
           "match": "JUC(Linux;?;2.2*;Desire HD*)UCWEB#MAJORVER#.#MINORVER#*",
