@@ -140,6 +140,14 @@
           ]
         },
         {
+          "match": "UCWEB\/*(#PLATFORM#SHV-E210S) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "engine": "U2",
+          "device": "Samsung SHV-E210S",
+          "platforms": [
+            "Android_4_1_C"
+          ]
+        },
+        {
           "match": "UCWEB\/*(#PLATFORM#) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
           "engine": "U2",
           "device": "general Mobile Phone (Touch)",
