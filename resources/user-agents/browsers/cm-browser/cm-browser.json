@@ -501,6 +501,14 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#Desire 700 dual sim Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/*Safari\/* ACHEETAHI\/*",
+          "device": "HTC Desire 700",
+          "engine": "WebKit",
+          "platforms": [
+            "Android_4_1"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/*Chrome\/*Safari\/* ACHEETAHI\/*",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3",

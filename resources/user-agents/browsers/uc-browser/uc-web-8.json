@@ -132,6 +132,14 @@
           ]
         },
         {
+          "match": "UCWEB\/*(#PLATFORM#SPHS_on_Hsdroid) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "engine": "U2",
+          "device": "sprd SPHS On HSDroid",
+          "platforms": [
+            "Android_4_4_C"
+          ]
+        },
+        {
           "match": "UCWEB\/*(#PLATFORM#) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
           "engine": "U2",
           "device": "general Mobile Phone (Touch)",

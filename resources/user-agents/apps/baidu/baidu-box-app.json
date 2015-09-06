@@ -1,0 +1,44 @@
+{
+  "division": "Baidu Box App #MAJORVER#.#MINORVER#",
+  "versions": ["6.3"],
+  "sortIndex": 1903,
+  "lite": false,
+  "userAgents": [
+    {
+      "userAgent": "Baidu Box App #MAJORVER#.#MINORVER#",
+      "platform": "Android",
+      "engine": "T5",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Baidu Box App #MAJORVER#.#MINORVER#",
+        "Browser": "Baidu Box App",
+        "Browser_Type": "Application",
+        "Browser_Maker": "Baidu",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#HUAWEI MT7-TL10 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* T5\/* baiduboxapp\/#MAJORVER#.#MINORVER#*",
+          "device": "Huawei MT7-TL10",
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* T5\/* baiduboxapp\/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Android_4_4"
+          ]
+        }
+      ]
+    }
+  ]
+}

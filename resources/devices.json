@@ -396,6 +396,18 @@
         "isTablet": "false"
       }
     },
+    "Sony SO-02E": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SO-02E",
+        "Device_Name": "Xperia Z",
+        "Device_Maker": "Sony",
+        "Device_Brand_Name": "Sony",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Sony NSZ-GS7\/GX70": {
       "properties": {
         "Device_Type": "TV Device",
@@ -1819,7 +1831,7 @@
         "Device_Name": "Xperia Tipo Dual",
         "Device_Maker": "Sony",
         "Device_Brand_Name": "Sony",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -5585,6 +5597,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SM-A700F",
         "Device_Name": "Galaxy A7 LTE",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung SM-C101": {
+      "properties": {
+        "Device_Type": "Digital Camera",
+        "Device_Code_Name": "SM-C101",
+        "Device_Name": "Galaxy S4 Zoom",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "touchscreen",
@@ -11388,11 +11412,35 @@
         "isTablet": "false"
       }
     },
+    "HTC Desire 606w": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Desire 606w",
+        "Device_Name": "Desire 606w",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "HTC Desire 610": {
       "properties": {
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Desire 610",
         "Device_Name": "Desire 610",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC Desire 700": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Desire 700",
+        "Device_Name": "Desire 700",
         "Device_Maker": "HTC",
         "Device_Brand_Name": "HTC",
         "Device_Pointing_Method": "touchscreen",
@@ -16368,6 +16416,18 @@
         "isTablet": "false"
       }
     },
+    "Acer E350": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "E350",
+        "Device_Name": "Liquid Gallant",
+        "Device_Maker": "Acer",
+        "Device_Brand_Name": "Acer",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Acer Liquid Metal": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -16863,7 +16923,7 @@
     "Huawei Vodafone 858": {
       "properties": {
         "Device_Type": "Tablet",
-        "Device_Code_Name": "Vodafone 858",
+        "Device_Code_Name": "U8160",
         "Device_Name": "Vodafone 858",
         "Device_Maker": "Huawei",
         "Device_Brand_Name": "Huawei",
@@ -17309,6 +17369,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "MT2-L01",
         "Device_Name": "Ascend Mate2",
+        "Device_Maker": "Huawei",
+        "Device_Brand_Name": "Huawei",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Huawei MT7-TL10": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "MT7-TL10",
+        "Device_Name": "Mate 7",
         "Device_Maker": "Huawei",
         "Device_Brand_Name": "Huawei",
         "Device_Pointing_Method": "touchscreen",
@@ -21336,6 +21408,18 @@
         "isTablet": "false"
       }
     },
+    "sprd SPHS On HSDroid": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SPHS On HSDroid",
+        "Device_Name": "SPHS On HSDroid",
+        "Device_Maker": "sprd",
+        "Device_Brand_Name": "sprd",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Mastone G9": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -23940,6 +24024,18 @@
         "isTablet": "true"
       }
     },
+    "Prestigio PMP5101C3G_QUAD": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "PMP5101C3G_QUAD",
+        "Device_Name": "MultiPad 4 Quantum 10.1 3G",
+        "Device_Maker": "Prestigio",
+        "Device_Brand_Name": "Prestigio",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Prestigio PMP5101D3G_QUAD": {
       "properties": {
         "Device_Type": "Tablet",
@@ -24089,6 +24185,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "PAP4044DUO",
         "Device_Name": "MultiPhone 4044 Duo",
+        "Device_Maker": "Prestigio",
+        "Device_Brand_Name": "Prestigio",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Prestigio PAP4020DUO": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "PAP4020DUO",
+        "Device_Name": "MultiPhone 4020 Duo",
         "Device_Maker": "Prestigio",
         "Device_Brand_Name": "Prestigio",
         "Device_Pointing_Method": "touchscreen",
@@ -24377,6 +24485,18 @@
         "Device_Type": "Tablet",
         "Device_Code_Name": "U20GT_WS",
         "Device_Name": "U20GT_WS",
+        "Device_Maker": "Cube",
+        "Device_Brand_Name": "Cube",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Cube U9GT2": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "U9GT2",
+        "Device_Name": "U9GT2",
         "Device_Maker": "Cube",
         "Device_Brand_Name": "Cube",
         "Device_Pointing_Method": "touchscreen",
@@ -28476,6 +28596,18 @@
         "isTablet": "true"
       }
     },
+    "Ritmix RMD-751": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "RMD-751",
+        "Device_Code_Name": "RMD-751",
+        "Device_Maker": "Ritmix",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Ritmix",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Ritmix RMD-1040": {
       "properties": {
         "Device_Type": "Tablet",
@@ -30725,6 +30857,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Name": "Noble",
         "Device_Code_Name": "I9220",
+        "Device_Maker": "Haipai",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Haipai",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Haipai i9377": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "i9377",
+        "Device_Code_Name": "i9377",
         "Device_Maker": "Haipai",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Haipai",
