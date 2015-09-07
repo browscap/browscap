@@ -3381,7 +3381,7 @@ return [
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
     ],
     'issue-635-CO' => [
         'Mozilla/5.0 (Linux; Android 5.0; SAMSUNG-SM-N900A Build/LRX21V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/42.0.2311.129 Mobile Safari/537.36 [Pinterest/Android]',
@@ -3913,7 +3913,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite' => true,
+        'lite' => false,
     ],
     'issue-635-DC' => [
         'Mozilla/5.0 (Linux; Android 4.4.4; C6902 Build/14.4.A.0.157) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/32.0.0.0.14;]',
@@ -34236,7 +34236,7 @@ return [
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
     ],
     'issue-635-AHZ' => [
         'Opera/9.80 (Android 4.1.1; Linux; Opera Mobi/ADR-1305251841) Presto/2.11.355 Version/12.10',
@@ -35066,7 +35066,7 @@ return [
             'Device_Maker' => 'Xiaomi Tech',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen',
-            'Device_Code_Name' => '',
+            'Device_Code_Name' => 'MI 4W',
             'Device_Brand_Name' => 'Xiaomi',
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',

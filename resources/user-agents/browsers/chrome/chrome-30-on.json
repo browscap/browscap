@@ -1191,14 +1191,14 @@
           "match": "Mozilla\/5.0 (#PLATFORM#SM-P600 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "device": "Samsung SM-P600",
           "platforms": [
-            "Android_4_2"
+            "Android_4_3", "Android_4_4"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#P600 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "device": "Samsung SM-P600",
           "platforms": [
-            "Android_4_3", "Android_4_4"
+            "Android_4_2"
           ]
         },
         {
