@@ -17268,6 +17268,18 @@
         "isTablet": "false"
       }
     },
+    "Huawei P7-L09": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "P7-L09",
+        "Device_Name": "Ascend P7",
+        "Device_Maker": "Huawei",
+        "Device_Brand_Name": "Huawei",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Huawei P8": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -22704,6 +22716,18 @@
         "isTablet": "false"
       }
     },
+    "Lenovo A678t": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A678t",
+        "Device_Name": "A678t",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Lenovo IdeaPad A1": {
       "properties": {
         "Device_Type": "Tablet",
@@ -27768,6 +27792,18 @@
         "isTablet": "true"
       }
     },
+    "Fly Flylife Connect 7.85 3G Slim": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "Flylife Connect 7.85 3G Slim",
+        "Device_Code_Name": "Flylife Connect 7.85 3G Slim",
+        "Device_Maker": "Fly",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Fly",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Zeki TBD1083": {
       "properties": {
         "Device_Type": "Tablet",
@@ -29112,6 +29148,18 @@
         "isTablet": "true"
       }
     },
+    "DNS AirTab ES9701": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "AirTab ES9701",
+        "Device_Code_Name": "AirTab ES9701",
+        "Device_Maker": "DNS",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "DNS",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "ThL W7": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -29669,6 +29717,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Name": "Seoul",
         "Device_Code_Name": "BQS-4005",
+        "Device_Maker": "BQ",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "BQ",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "BQ BQS-4001": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Oxford",
+        "Device_Code_Name": "BQS-4001",
         "Device_Maker": "BQ",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "BQ",
@@ -30713,6 +30773,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Name": "QUEST 450",
         "Device_Code_Name": "QUEST 450",
+        "Device_Maker": "Qumo",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Qumo",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Qumo QUEST 354": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "QUEST 354",
+        "Device_Code_Name": "QUEST 354",
         "Device_Maker": "Qumo",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Qumo",
@@ -32674,6 +32746,66 @@
         "Device_Brand_Name": "Bephone",
         "isMobileDevice": "true",
         "isTablet": "false"
+      }
+    },
+    "CrownMicro B860": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "B860",
+        "Device_Code_Name": "B860",
+        "Device_Maker": "CrownMicro",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "CrownMicro",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Ceros CT9716-B": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "Revolution",
+        "Device_Code_Name": "CT9716-B",
+        "Device_Maker": "Ceros",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Ceros",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Hero H2000+": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "H2000+",
+        "Device_Code_Name": "H2000+",
+        "Device_Maker": "Hero",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Hero",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Foxconn Infocus M310": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Infocus M310",
+        "Device_Code_Name": "Infocus M310",
+        "Device_Maker": "Foxconn",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Foxconn",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Smartbook S10": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "S10",
+        "Device_Code_Name": "S10",
+        "Device_Maker": "Smartbook",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Smartbook",
+        "isMobileDevice": "true",
+        "isTablet": "true"
       }
     }
   }

@@ -1060,6 +1060,14 @@
           ]
         },
         {
+          "match": "UCWEB\/2.0 (Java; *NokiaC6-00) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/* Mobile*",
+          "engine": "U2",
+          "device": "Nokia C6-00",
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
           "match": "UCWEB\/*(Java*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
           "engine": "U2",
           "device": "general Mobile Phone",

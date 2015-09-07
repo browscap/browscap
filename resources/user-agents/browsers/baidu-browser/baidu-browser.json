@@ -165,6 +165,14 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#Lenovo A678t Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* bdbrowser_i18n\/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "device": "Lenovo A678t",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* bdbrowser_i18n\/#MAJORVER#.#MINORVER#*",
           "engine": "WebKit",
           "platforms": [

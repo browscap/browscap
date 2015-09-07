@@ -619,7 +619,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#HTC Legend* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "device": "HTC Legend",
           "platforms": [
-            "Android_2_1", "Android_2_2"
+            "Android_2_1", "Android_2_2", "Android_2_3"
           ]
         },
         {
