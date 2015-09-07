@@ -847,6 +847,13 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#KFAPWA Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/* OPR\/#MAJORVER#.*",
+          "device": "Amazon KFAPWA",
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/*OPR\/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",

@@ -318,6 +318,14 @@
           ]
         },
         {
+          "match": "UCWEB\/*(MIDP-2.0*PMP7280C) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
+          "engine": "U2",
+          "device": "Prestigio PMP7280C",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
           "match": "UCWEB\/*(MIDP-2.0*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
           "engine": "U2",
           "platforms": [

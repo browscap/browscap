@@ -286,6 +286,13 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-N910V Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Chrome\/*Safari\/*FBAV\/#MAJORVER#.#MINORVER#*",
+          "device": "Samsung SM-N910V",
+          "platforms": [
+            "Android_5_0"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#SM-N910V Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/*FBAV\/#MAJORVER#.#MINORVER#*",
           "device": "Samsung SM-N910V",
           "engine": "WebKit",

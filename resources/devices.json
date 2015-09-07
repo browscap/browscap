@@ -1404,6 +1404,30 @@
         "isTablet": "false"
       }
     },
+    "Sony C2305": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "C2305",
+        "Device_Name": "Xperia C HSPA+",
+        "Device_Maker": "Sony",
+        "Device_Brand_Name": "Sony",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Sony C2005": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "C2005",
+        "Device_Name": "Xperia M Dual ",
+        "Device_Maker": "Sony",
+        "Device_Brand_Name": "Sony",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "SonyEricsson C6602": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -2129,18 +2153,6 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "D6633",
         "Device_Name": "Xperia Z3 Dual SIM",
-        "Device_Maker": "Sony",
-        "Device_Brand_Name": "Sony",
-        "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
-    "Sony C2305": {
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "C2305",
-        "Device_Name": "Xperia C HSPA+",
         "Device_Maker": "Sony",
         "Device_Brand_Name": "Sony",
         "Device_Pointing_Method": "touchscreen",
@@ -24048,6 +24060,18 @@
         "isTablet": "true"
       }
     },
+    "Prestigio PMP7280C": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "PMP7280C",
+        "Device_Name": "Multipad 2 Ultra Duo 8.0",
+        "Device_Maker": "Prestigio",
+        "Device_Brand_Name": "Prestigio",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Prestigio PMP7280C3G": {
       "properties": {
         "Device_Type": "Tablet",
@@ -24276,6 +24300,42 @@
         "isTablet": "true"
       }
     },
+    "Prestigio PMT3037_3G": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "PMT3037_3G",
+        "Device_Name": "MultiPad Wize 3037 3G",
+        "Device_Maker": "Prestigio",
+        "Device_Brand_Name": "Prestigio",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Prestigio PMT3047_3G": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "PMT3047_3G",
+        "Device_Name": "MultiPad Wize 3047 3G",
+        "Device_Maker": "Prestigio",
+        "Device_Brand_Name": "Prestigio",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Prestigio PMT3177_3G": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "PMT3177_3G",
+        "Device_Name": "MultiPad PMT3177 3G",
+        "Device_Maker": "Prestigio",
+        "Device_Brand_Name": "Prestigio",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Prestigio PMP7079D_QUAD": {
       "properties": {
         "Device_Type": "Tablet",
@@ -24401,30 +24461,6 @@
         "Device_Type": "Tablet",
         "Device_Code_Name": "GV7777",
         "Device_Name": "GeoVision",
-        "Device_Maker": "Prestigio",
-        "Device_Brand_Name": "Prestigio",
-        "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true",
-        "isTablet": "true"
-      }
-    },
-    "Prestigio PMT3037_3G": {
-      "properties": {
-        "Device_Type": "Tablet",
-        "Device_Code_Name": "PMT3037_3G",
-        "Device_Name": "MultiPad Wize 3037 3G",
-        "Device_Maker": "Prestigio",
-        "Device_Brand_Name": "Prestigio",
-        "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true",
-        "isTablet": "true"
-      }
-    },
-    "Prestigio PMT3047_3G": {
-      "properties": {
-        "Device_Type": "Tablet",
-        "Device_Code_Name": "PMT3047_3G",
-        "Device_Name": "MultiPad Wize 3047 3G",
         "Device_Maker": "Prestigio",
         "Device_Brand_Name": "Prestigio",
         "Device_Pointing_Method": "touchscreen",
@@ -32804,6 +32840,18 @@
         "Device_Maker": "Smartbook",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Smartbook",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "BB-Mobile Techno 9.7 3G": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "Techno 9.7 3G",
+        "Device_Code_Name": "Techno 9.7 3G",
+        "Device_Maker": "BB-Mobile",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "BB-Mobile",
         "isMobileDevice": "true",
         "isTablet": "true"
       }
