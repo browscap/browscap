@@ -19,7 +19,7 @@ namespace Browscap\Generator;
 
 use Browscap\Command\GrepCommand;
 use Psr\Log\LoggerInterface;
-use phpbrowscap\Browscap;
+use BrowscapPHP\Browscap;
 
 /**
  * Class GrepGenerator
@@ -36,14 +36,14 @@ class GrepGenerator
     private $logger = null;
 
     /**
-     * @var \phpbrowscap\Browscap
+     * @var \BrowscapPHP\Browscap
      */
     private $browscap = null;
 
     /**
      * Entry point for generating builds for a specified version
      *
-     * @param \phpbrowscap\Browscap $browscap
+     * @param \BrowscapPHP\Browscap $browscap
      * @param string                $inputFile
      * @param string                $mode
      */
