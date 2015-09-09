@@ -43,7 +43,7 @@ class BuildGenerator extends AbstractBuildGenerator
             ->preBuild()
             ->build($version)
             ->postBuild($createZipFile)
-        ;
+            ;
     }
 
     /**
@@ -64,15 +64,27 @@ class BuildGenerator extends AbstractBuildGenerator
         $zip = new ZipArchive();
         $zip->open($this->buildFolder . '/browscap.zip', ZipArchive::CREATE | ZipArchive::OVERWRITE);
 
-        $zip->addFile($this->buildFolder . '/full_asp_browscap.ini', 'full_asp_browscap.ini');
-        $zip->addFile($this->buildFolder . '/full_php_browscap.ini', 'full_php_browscap.ini');
-        $zip->addFile($this->buildFolder . '/browscap.ini', 'browscap.ini');
-        $zip->addFile($this->buildFolder . '/php_browscap.ini', 'php_browscap.ini');
-        $zip->addFile($this->buildFolder . '/lite_asp_browscap.ini', 'lite_asp_browscap.ini');
-        $zip->addFile($this->buildFolder . '/lite_php_browscap.ini', 'lite_php_browscap.ini');
-        $zip->addFile($this->buildFolder . '/browscap.xml', 'browscap.xml');
-        $zip->addFile($this->buildFolder . '/browscap.csv', 'browscap.csv');
-        $zip->addFile($this->buildFolder . '/browscap.json', 'browscap.json');
+        $files = array(
+            'full_asp_browscap.ini',
+            'full_php_browscap.ini',
+            'browscap.ini',
+            'php_browscap.ini',
+            'lite_asp_browscap.ini',
+            'lite_php_browscap.ini',
+            'browscap.xml',
+            'browscap.csv',
+            'browscap.json'
+        );
+
+        foreach ($files as $file) {
+            $filePath = $this->buildFolder . '/' . $file;
+
+            if (!file_exists($filePath) || !is_readable($filePath)) {
+                continue;
+            }
+
+            $zip->addFile($filePath, $file);
+        }
 
         $zip->close();
 
