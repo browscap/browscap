@@ -1,6 +1,6 @@
 {
   "division": "UC Browser #MAJORVER#.#MINORVER#",
-  "versions": ["2.3", "2.2", "2.1", "2.0"],
+  "versions": ["2.6", "2.5", "2.4", "2.3", "2.2", "2.1", "2.0"],
   "sortIndex": 936,
   "lite": false,
   "userAgents": [
@@ -106,11 +106,25 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#LG-P970 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/4.0 Mobile Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (#PLATFORM#LG-P970 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
           "engine": "WebKit",
           "device": "LG P970",
           "platforms": [
             "Android_2_3"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "platforms": [
+            "Android_2_3"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/* Chrome\/*Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "platforms": [
+            "Android_4_4"
           ]
         }
       ]

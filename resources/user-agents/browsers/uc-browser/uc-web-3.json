@@ -88,7 +88,110 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
+          "match": "Mozilla\/5.0 (#PLATFORM#Fly IQ450 Quattro Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "device": "Fly IQ450",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#IQ434 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "device": "Fly IQ434",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-P601 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "device": "Samsung SM-P601",
+          "platforms": [
+            "Android_4_3"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#Lenovo A766 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "device": "Lenovo A766",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#iDxD4 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "device": "Digma iDxD4 3G",
+          "platforms": [
+            "Android_4_1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#GT-I8160 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Chrome\/*Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
+          "engine": "Blink",
+          "device": "Samsung GT-I8160",
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-G350E Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Chrome\/*Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
+          "engine": "Blink",
+          "device": "Samsung SM-G350E",
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#JY-G3 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "device": "Jiayu G3",
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#Beeline Smart 3 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Chrome\/*Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
+          "engine": "Blink",
+          "device": "Beeline Smart 3",
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#LT26ii Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "device": "Sony LT26ii",
+          "platforms": [
+            "Android_4_1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#A701 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "device": "Acer A701",
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Chrome\/*Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
+          "engine": "Blink",
+          "platforms": [
+            "Android_2_3",
+            "Android_4_0",
+            "Android_4_1",
+            "Android_4_2",
+            "Android_4_3",
+            "Android_4_4",
+            "Android_5_0",
+            "Android_5_1",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
           "engine": "WebKit",
           "platforms": [
             "Android_2_3",
@@ -96,7 +199,19 @@
             "Android_4_1",
             "Android_4_2",
             "Android_4_3",
+            "Android_4_4",
+            "Android_5_0",
+            "Android_5_1",
             "Android"
+          ]
+        },
+        {
+          "match": "UCWEB\/*(#PLATFORM#SAMSUNG; GT-I8350*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "engine": "U2",
+          "device": "Samsung GT-I8350",
+          "platforms": [
+            "WinPhone7_B",
+            "WinPhone8_B"
           ]
         },
         {
@@ -166,6 +281,46 @@
           "match": "UCWEB\/*(MIDP-2.0*C2305) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
           "engine": "U2",
           "device": "Sony C2305",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "UCWEB\/*(MIDP-2.0*A811) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
+          "engine": "U2",
+          "device": "Lexand A811",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "UCWEB\/*(MIDP-2.0*Beeline Tab) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
+          "engine": "U2",
+          "device": "Beeline Tab",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "UCWEB\/*(MIDP-2.0*P7mini) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
+          "engine": "U2",
+          "device": "Huawei P7 Mini",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "UCWEB\/*(MIDP-2.0*IQ4406) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
+          "engine": "U2",
+          "device": "Fly IQ4406",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "UCWEB\/*(MIDP-2.0*PMP7280C) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
+          "engine": "U2",
+          "device": "Prestigio PMP7280C",
           "platforms": [
             "Android_4_2"
           ]

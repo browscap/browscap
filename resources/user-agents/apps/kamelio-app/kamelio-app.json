@@ -1,0 +1,45 @@
+{
+  "division": "Kamelio App #MAJORVER#.#MINORVER#",
+  "versions": [4],
+  "sortIndex": 1048,
+  "lite": false,
+  "userAgents": [
+    {
+      "userAgent": "Kamelio App #MAJORVER#.#MINORVER#",
+      "platform": "Android",
+      "engine": "Blink",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser_Maker": "Kamelio",
+        "Comment": "Kamelio App #MAJORVER#.#MINORVER#",
+        "Browser": "Kamelio App",
+        "Browser_Type": "Application",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "false",
+        "Cookies": "true",
+        "JavaScript": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#SCL24 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/#MAJORVER#.#MINORVER# Chrome\/*Safari\/* Kamelio *",
+          "device": "Samsung SCL24",
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/#MAJORVER#.#MINORVER# Chrome\/*Safari\/* Kamelio *",
+          "platforms": [
+            "Android_4_4", "Android_5_0", "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}

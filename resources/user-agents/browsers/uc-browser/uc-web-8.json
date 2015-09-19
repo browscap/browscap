@@ -60,6 +60,14 @@
           ]
         },
         {
+          "match": "UCWEB\/*(#PLATFORM#D2105) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "engine": "U2",
+          "device": "Sony D2105",
+          "platforms": [
+            "Android_4_4_C"
+          ]
+        },
+        {
           "match": "UCWEB\/*(#PLATFORM#SM-G530H) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
           "engine": "U2",
           "device": "Samsung SM-G530H",
@@ -68,11 +76,75 @@
           ]
         },
         {
+          "match": "UCWEB\/*(#PLATFORM#IQ4490) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "engine": "U2",
+          "device": "Fly IQ4490",
+          "platforms": [
+            "Android_4_1_C"
+          ]
+        },
+        {
+          "match": "UCWEB\/*(#PLATFORM#HUAWEI_D2-0082) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "engine": "U2",
+          "device": "Huawei D2-0082",
+          "platforms": [
+            "Android_4_1_C"
+          ]
+        },
+        {
+          "match": "UCWEB\/*(#PLATFORM#GT-I9082) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "engine": "U2",
+          "device": "Samsung GT-I9082",
+          "platforms": [
+            "Android_4_2_C"
+          ]
+        },
+        {
+          "match": "UCWEB\/*(#PLATFORM#S5A4) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "engine": "U2",
+          "device": "Lexand S5A4",
+          "platforms": [
+            "Android_4_2_C"
+          ]
+        },
+        {
           "match": "UCWEB\/*(#PLATFORM#SM-G530H) U2\/* UC Browser\/#MAJORVER#.#MINORVER#* U2\/*",
           "engine": "U2",
           "device": "Samsung SM-G530H",
           "platforms": [
             "Android_4_4_C"
+          ]
+        },
+        {
+          "match": "UCWEB\/*(#PLATFORM#IQ440) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "engine": "U2",
+          "device": "Fly IQ440",
+          "platforms": [
+            "Android_4_0_C"
+          ]
+        },
+        {
+          "match": "UCWEB\/*(#PLATFORM#A47) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "engine": "U2",
+          "device": "Micromax A47",
+          "platforms": [
+            "Android_4_2_C"
+          ]
+        },
+        {
+          "match": "UCWEB\/*(#PLATFORM#SPHS_on_Hsdroid) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "engine": "U2",
+          "device": "sprd SPHS On HSDroid",
+          "platforms": [
+            "Android_4_4_C"
+          ]
+        },
+        {
+          "match": "UCWEB\/*(#PLATFORM#SHV-E210S) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "engine": "U2",
+          "device": "Samsung SHV-E210S",
+          "platforms": [
+            "Android_4_1_C"
           ]
         },
         {
@@ -90,18 +162,25 @@
         {
           "match": "UCWEB\/*(Linux; U; Opera Mini\/*GT-S7262) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
           "engine": "U2",
-          "device": "Samsung GT-S7262"
+          "device": "Samsung GT-S7262",
+          "platforms": [
+            "Android"
+          ]
         },
         {
-          "match": "Mozilla\/5.0 (Java;*samsung-gt-s5263) UCBrowser#MAJORVER#.#MINORVER#*UCWEB*Mobile*UNTRUSTED\/*",
-          "device": "Samsung GT-S5263",
-          "properties": {
-            "Version": "8.2",
-            "MajorVer": "8",
-            "MinorVer": "2"
-          },
+          "match": "UCWEB\/2.0 (Linux; U; Opera Mini\/*; ASUS_T00J) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
+          "engine": "U2",
+          "device": "Asus T00J",
           "platforms": [
-            "JAVA"
+            "Android"
+          ]
+        },
+        {
+          "match": "UCWEB\/2.0 (Linux; U; Opera Mini\/*; Infinityll) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
+          "engine": "U2",
+          "device": "Explay Infinity ll",
+          "platforms": [
+            "Android"
           ]
         },
         {
@@ -118,6 +197,13 @@
           "device": "general Mobile Phone (Touch)",
           "platforms": [
             "Android"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (Java;*samsung-gt-s5263) UCBrowser#MAJORVER#.#MINORVER#*UCWEB*Mobile*UNTRUSTED\/*",
+          "device": "Samsung GT-S5263",
+          "platforms": [
+            "JAVA"
           ]
         },
         {
@@ -197,6 +283,22 @@
           "device": "Lenovo P780",
           "platforms": [
             "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-G130H Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/*UCBrowser\/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "device": "Samsung SM-G130H",
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#ST25i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/*UCBrowser\/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "device": "SonyEricsson ST25i",
+          "platforms": [
+            "Android_2_3"
           ]
         },
         {

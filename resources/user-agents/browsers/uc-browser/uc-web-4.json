@@ -1,0 +1,40 @@
+{
+  "division": "UC Browser #MAJORVER#.#MINORVER#",
+  "versions": ["4.2", "4.1", "4.0"],
+  "sortIndex": 1115,
+  "lite": false,
+  "userAgents": [
+    {
+      "userAgent": "UC Browser #MAJORVER#.#MINORVER#",
+      "device": "general Mobile Phone (Touch)",
+      "platform": "WinPhone",
+      "engine": "U2",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "UC Browser #MAJORVER#.#MINORVER#",
+        "Browser": "UC Browser",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "UC Web",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Win32": "false",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "UCWEB\/*(#PLATFORM#NOKIA; RM-914*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "device": "Nokia Lumia 520 RM-914",
+          "platforms": [
+            "WinPhone8.1_B"
+          ]
+        }
+      ]
+    }
+  ]
+}

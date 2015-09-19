@@ -1,0 +1,187 @@
+{
+  "division": "Baidu Browser #MAJORVER#.#MINORVER#",
+  "versions": ["4.7", "4.6", "4.5", "4.4", "4.3", "4.2", "3.2"],
+  "sortIndex": 884,
+  "lite": false,
+  "userAgents": [
+    {
+      "userAgent": "Baidu Browser #MAJORVER#.#MINORVER#",
+      "platform": "Android",
+      "engine": "T5",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Baidu Browser #MAJORVER#.#MINORVER#",
+        "Browser": "Baidu Browser",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Baidu",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#TAB917QC-8GB Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* T5\/* bdbrowser_i18n\/#MAJORVER#.#MINORVER#*",
+          "device": "Sunstech TAB917QC 8GB",
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#TX18 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* T5\/* bdbrowser_i18n\/#MAJORVER#.#MINORVER#*",
+          "device": "Irbis TX18",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#ALCATEL ONE TOUCH 5035D Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* bdbrowser_i18n\/#MAJORVER#.#MINORVER#*",
+          "device": "Alcatel OT-5035D",
+          "engine": "WebKit",
+          "platforms": [
+            "Android_4_1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#IQ4415 Quad Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* T5\/* bdbrowser_i18n\/#MAJORVER#.#MINORVER#*",
+          "device": "Fly IQ4415",
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#Lenovo A606 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Chrome\/*Safari\/* bdbrowser_i18n\/#MAJORVER#.#MINORVER#*",
+          "device": "Lenovo A606",
+          "engine": "Blink",
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#SUPRA M723G Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* T5\/* bdbrowser_i18n\/#MAJORVER#.#MINORVER#*",
+          "device": "Supra M723G",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#M8 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* T5\/* bdbrowser_i18n\/#MAJORVER#.#MINORVER#*",
+          "device": "Amlogic M8",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#Boost IIse Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* T5\/* bdbrowser_i18n\/#MAJORVER#.#MINORVER#*",
+          "device": "Highscreen Boost II SE",
+          "platforms": [
+            "Android_4_3"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#X-tremer Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* T5\/* bdbrowser_i18n\/#MAJORVER#.#MINORVER#*",
+          "device": "Explay X-tremer",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#Oysters T72M 3G Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Chrome\/*Safari\/* bdbrowser_i18n\/#MAJORVER#.#MINORVER#*",
+          "device": "Oysters T72M 3G",
+          "engine": "Blink",
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#Oysters T72M 3G Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* T5\/* bdbrowser_i18n\/#MAJORVER#.#MINORVER#*",
+          "device": "Oysters T72M 3G",
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* T5\/* bdbrowser_i18n\/#MAJORVER#.#MINORVER#*",
+          "engine": "T5",
+          "platforms": [
+            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3",
+            "Android_4_4", "Android_5_0",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/* Chrome\/*Safari\/* bdbrowser_i18n\/#MAJORVER#.#MINORVER#*",
+          "engine": "Blink",
+          "platforms": [
+            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3",
+            "Android_4_4", "Android_5_0",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#HTC Desire 300 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* bdbrowser_i18n\/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "device": "HTC Desire 300",
+          "platforms": [
+            "Android_4_1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#K013 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* bdbrowser_i18n\/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "device": "Asus K013",
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#Keneksi-Flora Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* bdbrowser_i18n\/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "device": "Keneksi Flora",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#ARK_Benefit_M4 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* bdbrowser_i18n\/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "device": "ARK Benefit M4",
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#HTC Desire 600c dual sim Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* bdbrowser_i18n\/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "device": "HTC Desire 600c",
+          "platforms": [
+            "Android_4_1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#Lenovo A678t Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* bdbrowser_i18n\/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "device": "Lenovo A678t",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* bdbrowser_i18n\/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "platforms": [
+            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3",
+            "Android_4_4", "Android_5_0",
+            "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}
