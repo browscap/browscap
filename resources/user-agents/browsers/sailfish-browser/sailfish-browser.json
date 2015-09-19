@@ -1,0 +1,46 @@
+{
+  "division": "Sailfish Browser #MAJORVER#.#MINORVER#",
+  "versions": [1],
+  "sortIndex": 3020,
+  "lite": false,
+  "userAgents": [
+    {
+      "userAgent": "Sailfish Browser #MAJORVER#.#MINORVER#",
+      "engine": "Gecko",
+      "device": "general Mobile",
+      "platform": "SailfishOS",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Sailfish Browser #MAJORVER#.#MINORVER#",
+        "Browser": "Sailfish Browser",
+        "Browser_Maker": "Jolla Ltd.",
+        "Browser_Type": "Browser",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Win32": "false",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (*Jolla#PLATFORM#) Gecko\/* Firefox\/* SailfishBrowser\/#MAJORVER#.#MINORVER#*",
+          "device": "Jolla Phone",
+          "platforms": [
+            "SailfishOS"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/* SailfishBrowser\/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "SailfishOS"
+          ]
+        }
+      ]
+    }
+  ]
+}

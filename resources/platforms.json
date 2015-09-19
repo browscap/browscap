@@ -3281,6 +3281,14 @@
         "Platform": "Liberate",
         "Platform_Version": "unknown"
       }
+    },
+    "SailfishOS": {
+      "match": "*Sailfish*",
+      "lite": false,
+      "properties": {
+        "Platform": "SailfishOS",
+        "Platform_Version": "Jolla Ltd."
+      }
     }
   }
 }
