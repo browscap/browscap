@@ -3297,6 +3297,18 @@
         "Platform": "Liberate",
         "Platform_Version": "unknown"
       }
+    },
+    "SailfishOS": {
+      "match": "*Sailfish*",
+      "lite": false,
+      "properties": {
+        "Platform": "SailfishOS",
+        "Platform_Maker": "Jolla Ltd.",
+        "Platform_Version": "unknown",
+        "Win32": "false",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
     }
   }
 }

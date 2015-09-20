@@ -21,7 +21,7 @@ before_script:
 
 script:
   - vendor/bin/phpunit --colors --verbose --exclude-group useragenttest --coverage-text --coverage-clover=coverage.clover
-  - vendor/bin/phpunit --colors --verbose --group useragenttest
+  - vendor/bin/phpunit --colors --group useragenttest
   - vendor/bin/phpcs --standard=psr2 -np src tests
 
 after_script:

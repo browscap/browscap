@@ -47,7 +47,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (iPad; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit\/* (KHTML, like Gecko) FxiOS\/#MAJORVER#.#MINORVER#* Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) FxiOS\/#MAJORVER#.#MINORVER#* Safari\/*",
           "platforms": [
             "iOS_A_8_0", "iOS_A_8_1", "iOS_A_8_2", "iOS_A_8_3",
             "iOS_A",
