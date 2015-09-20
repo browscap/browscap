@@ -31,6 +31,7 @@ use Browscap\Writer\Factory\PhpWriterFactory;
  * @category   BrowscapTest
  * @package    Test
  * @author     James Titcumb <james@asgrim.com>
+ * @group      useragenttest
  */
 class UserAgentsTest extends \PHPUnit_Framework_TestCase
 {
