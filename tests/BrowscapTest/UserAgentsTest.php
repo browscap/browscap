@@ -52,8 +52,6 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
 
     /**
      * This method is called before the first test of this test class is run.
-     *
-     * @since Method available since Release 3.4.0
      */
     public static function setUpBeforeClass()
     {
@@ -142,7 +140,7 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
      * @param string $userAgent
      * @param array  $expectedProperties
      *
-     * @group intergration
+     * @group integration
      * @group useragenttest
      * @group full
      */
@@ -193,7 +191,7 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
      * @param string $userAgent
      * @param array  $expectedProperties
      *
-     * @group intergration
+     * @group integration
      * @group useragenttest
      * @group standard
      */
@@ -250,10 +248,7 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
      * @param array  $expectedProperties
      * @param bool   $lite
      *
-     * @throws \Exception
-     * @throws \phpbrowscap\Exception
-     *
-     * @group intergration
+     * @group integration
      * @group useragenttest
      * @group lite
      */

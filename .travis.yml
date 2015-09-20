@@ -8,9 +8,6 @@ php:
   - nightly
   - hhvm
 
-matrix:
-  fast_finish: true
-
 os:
   - linux
 
@@ -23,7 +20,7 @@ before_script:
   - composer install -o --prefer-source
 
 script:
-  - vendor/bin/phpunit --colors --verbode --exclude-group useragenttest --coverage-text --coverage-clover=coverage.clover
+  - vendor/bin/phpunit --colors --verbose --exclude-group useragenttest --coverage-text --coverage-clover=coverage.clover
   - vendor/bin/phpunit --colors --verbose --group useragenttest
   - vendor/bin/phpcs --standard=psr2 -np src tests
 
