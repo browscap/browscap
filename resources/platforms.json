@@ -3303,7 +3303,10 @@
       "lite": false,
       "properties": {
         "Platform": "SailfishOS",
-        "Platform_Version": "Jolla Ltd."
+        "Platform_Version": "Jolla Ltd.",
+        "Win32": "false",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
       }
     }
   }
