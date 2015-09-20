@@ -1506,7 +1506,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#SM-T800 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "device": "Samsung SM-T800",
           "platforms": [
-            "Android_4_4"
+            "Android_4_4", "Android_5_0"
           ]
         },
         {
