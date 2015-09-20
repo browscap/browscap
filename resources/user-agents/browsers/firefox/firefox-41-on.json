@@ -1,7 +1,7 @@
 {
   "division": "Firefox #MAJORVER#.#MINORVER#",
-  "versions": [42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31, 30],
-  "sortIndex": 3161,
+  "versions": [42, 41],
+  "sortIndex": 3160,
   "lite": true,
   "userAgents": [
     {
@@ -205,16 +205,16 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/#MAJORVER#.*",
+          "match": "Mozilla\/5.0 (#PLATFORM#Mobile *) Gecko\/* Firefox\/#MAJORVER#.*",
           "platforms": [
-            "AndroidMobile"
+            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/#MAJORVER#.*",
+          "match": "Mozilla\/5.0 (#PLATFORM#Tablet *) Gecko\/* Firefox\/#MAJORVER#.*",
           "device": "general Tablet",
           "platforms": [
-            "AndroidTablet"
+            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android"
           ]
         }
       ]
