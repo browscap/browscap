@@ -7,7 +7,7 @@
     {
       "userAgent": "Sailfish Browser #MAJORVER#.#MINORVER#",
       "engine": "Gecko",
-      "device": "general Mobile",
+      "device": "general Mobile Phone (Touch)",
       "platform": "SailfishOS",
       "properties": {
         "Parent": "DefaultProperties",
