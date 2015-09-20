@@ -3,11 +3,5 @@ inherit: true
 tools:
     external_code_coverage:
         enabled: true
-        timeout: 1800            # 30 minutes
+        timeout: 1800 # 30 minutes
         runs: 1
-
-build:
-    tests:
-        override:
-            - command: ./run-tests.sh
-              idle_timeout: 1800 # 30 minutes
