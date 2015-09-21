@@ -11,7 +11,7 @@ return [
             'Version' => '2.0',
             'MajorVer' => '2',
             'MinorVer' => '0',
-            'Platform' => 'WinNT',
+            'Platform' => 'Win32',
             'Platform_Version' => 'unknown',
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Microsoft Corporation',
