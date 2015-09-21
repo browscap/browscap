@@ -29,7 +29,7 @@ return [
             'BackgroundSounds' => false,
             'Device_Name' => 'Windows Desktop',
             'Device_Maker' => 'Various',
-            'Device_Type' => 'Dektop',
+            'Device_Type' => 'Desktop',
             'Device_Pointing_Method' => 'mouse',
             'Device_Code_Name' => 'Windows Desktop',
             'Device_Brand_Name' => 'unknown',
