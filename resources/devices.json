@@ -23184,6 +23184,18 @@
         "isTablet": "false"
       }
     },
+    "Lenovo A319": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A319",
+        "Device_Name": "A319",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Lenovo A1000L-F": {
       "properties": {
         "Device_Type": "Tablet",
