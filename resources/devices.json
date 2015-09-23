@@ -23568,6 +23568,18 @@
         "isTablet": "true"
       }
     },
+    "Lenovo A5500-HV": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "A5500-HV",
+        "Device_Name": "Ideatab A8-50 WI-FI + 3G",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Lenovo A5500-F": {
       "properties": {
         "Device_Type": "Tablet",
