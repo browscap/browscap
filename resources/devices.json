@@ -22716,6 +22716,18 @@
         "isTablet": "false"
       }
     },
+    "Lenovo A6000": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A6000",
+        "Device_Name": "A6000",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Lenovo A680": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -23076,6 +23088,18 @@
         "isTablet": "true"
       }
     },
+    "Lenovo A3500-HV": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "A3500-HV",
+        "Device_Name": "A7-50 A3500 Wi-Fi + 3G",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Lenovo A390": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -23160,6 +23184,18 @@
         "isTablet": "false"
       }
     },
+    "Lenovo A360t": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A360t",
+        "Device_Name": "A360t",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Lenovo A316i": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -23189,6 +23225,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "A319",
         "Device_Name": "A319",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Lenovo A355e": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A355e",
+        "Device_Name": "A355e",
         "Device_Maker": "Lenovo",
         "Device_Brand_Name": "Lenovo",
         "Device_Pointing_Method": "touchscreen",
@@ -23316,6 +23364,18 @@
         "isTablet": "false"
       }
     },
+    "Lenovo A859": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A859",
+        "Device_Name": "A859",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Lenovo A820": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -23333,6 +23393,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "A808",
         "Device_Name": "A808",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Lenovo A806": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A806",
+        "Device_Name": "A806",
         "Device_Maker": "Lenovo",
         "Device_Brand_Name": "Lenovo",
         "Device_Pointing_Method": "touchscreen",
@@ -23388,11 +23460,35 @@
         "isTablet": "false"
       }
     },
+    "Lenovo A526": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A526",
+        "Device_Name": "A526",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Lenovo A516": {
       "properties": {
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "A516",
         "Device_Name": "A516",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Lenovo A5000": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A5000",
+        "Device_Name": "A5000",
         "Device_Maker": "Lenovo",
         "Device_Brand_Name": "Lenovo",
         "Device_Pointing_Method": "touchscreen",
@@ -23417,6 +23513,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "A706",
         "Device_Name": "A706",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Lenovo A7000-A": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A7000-A",
+        "Device_Name": "A7000",
         "Device_Maker": "Lenovo",
         "Device_Brand_Name": "Lenovo",
         "Device_Pointing_Method": "touchscreen",
