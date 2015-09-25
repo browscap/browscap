@@ -931,7 +931,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Lenovo A680_ROW Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/* OPR\/#MAJORVER#.*",
+          "match": "Mozilla\/5.0 (#PLATFORM#Lenovo A680* Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/* OPR\/#MAJORVER#.*",
           "device": "Lenovo A680",
           "platforms": [
             "Android_4_2"

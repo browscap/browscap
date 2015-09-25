@@ -22692,6 +22692,42 @@
         "isTablet": "false"
       }
     },
+    "Lenovo A238t": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A238t",
+        "Device_Name": "A238t",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Lenovo A2107A-H": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "A2107A-H",
+        "Device_Name": "IdeaTab A2107A-H",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Vodafone",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Lenovo A2109A": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "A2109A",
+        "Device_Name": "IdeaTab A2109A",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Vodafone",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Lenovo A656": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -22901,30 +22937,6 @@
         "Device_Type": "Tablet",
         "Device_Code_Name": "1838",
         "Device_Name": "ThinkPad Tablet",
-        "Device_Maker": "Lenovo",
-        "Device_Brand_Name": "Vodafone",
-        "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true",
-        "isTablet": "true"
-      }
-    },
-    "Lenovo A2107A-H": {
-      "properties": {
-        "Device_Type": "Tablet",
-        "Device_Code_Name": "A2107A-H",
-        "Device_Name": "IdeaTab A2107A-H",
-        "Device_Maker": "Lenovo",
-        "Device_Brand_Name": "Vodafone",
-        "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true",
-        "isTablet": "true"
-      }
-    },
-    "Lenovo A2109A": {
-      "properties": {
-        "Device_Type": "Tablet",
-        "Device_Code_Name": "A2109A",
-        "Device_Name": "IdeaTab A2109A",
         "Device_Maker": "Lenovo",
         "Device_Brand_Name": "Vodafone",
         "Device_Pointing_Method": "touchscreen",
@@ -23436,6 +23448,18 @@
         "isTablet": "false"
       }
     },
+    "Lenovo A820t": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A820t",
+        "Device_Name": "A820t",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Lenovo A808": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -23453,6 +23477,30 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "A806",
         "Device_Name": "A806",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Lenovo A800": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A800",
+        "Device_Name": "A800",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Lenovo A830": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A830",
+        "Device_Name": "A830",
         "Device_Maker": "Lenovo",
         "Device_Brand_Name": "Lenovo",
         "Device_Pointing_Method": "touchscreen",

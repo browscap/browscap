@@ -6133,7 +6133,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#Lenovo A3500-FL Build\/*) *AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "device": "Lenovo A3500-FL",
           "platforms": [
-            "Android_4_4"
+            "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {
@@ -6153,6 +6153,20 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Lenovo A3500-F Build\/*) *AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "device": "Lenovo A3500-F",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#Lenovo A800 *) *AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "device": "Lenovo A800",
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#Lenovo A5500-F Build\/*) *AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "device": "Lenovo A5500-F",
           "platforms": [
             "Android_4_2"
           ]

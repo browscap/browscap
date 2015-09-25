@@ -2861,6 +2861,13 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#Lenovo A820t Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "device": "Lenovo A820t",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#Lenovo A820 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "device": "Lenovo A820",
           "platforms": [
@@ -3988,7 +3995,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Lenovo A680_ROW Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#Lenovo A680* Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "device": "Lenovo A680",
           "platforms": [
             "Android_4_2"
@@ -4011,6 +4018,13 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Lenovo A936 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "device": "Lenovo A936",
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#Lenovo A5500-F Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "device": "Lenovo A5500-F",
           "platforms": [
             "Android_4_4"
           ]

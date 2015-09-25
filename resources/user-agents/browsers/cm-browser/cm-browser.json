@@ -552,6 +552,14 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#Lenovo A706_ROW Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/*Safari\/* ACHEETAHI\/*",
+          "device": "Lenovo A706",
+          "engine": "WebKit",
+          "platforms": [
+            "Android_4_1"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#Lenovo A3500-FL Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/*Chrome\/*Safari\/* ACHEETAHI\/*",
           "device": "Lenovo A3500-FL",
           "platforms": [
