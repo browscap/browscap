@@ -644,6 +644,13 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#Lenovo A5000 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Chrome\/*Safari\/*FBAV\/#MAJORVER#.#MINORVER#*",
+          "device": "Lenovo A5000",
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#Lenovo A5000 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/*FBAV\/#MAJORVER#.#MINORVER#*",
           "device": "Lenovo A5000",
           "engine": "WebKit",
