@@ -21,13 +21,13 @@ before_script:
 
 script:
 # XDebug not installed on HHVM
-  - if [ "`phpenv version-name`" != "hhvm" ]; vendor/bin/phpunit --colors --verbose --exclude-group useragenttest --coverage-text --coverage-clover=coverage.clover; fi
-  - if [ "`phpenv version-name`" == "hhvm" ]; vendor/bin/phpunit --colors --verbose --exclude-group useragenttest; fi
+  - if [ "`phpenv version-name`" != "hhvm" ]; then vendor/bin/phpunit --colors --verbose --exclude-group useragenttest --coverage-text --coverage-clover=coverage.clover; fi
+  - if [ "`phpenv version-name`" == "hhvm" ]; then vendor/bin/phpunit --colors --verbose --exclude-group useragenttest; fi
   - vendor/bin/phpunit --colors --group useragenttest
   - vendor/bin/phpcs --standard=psr2 -np src tests
 
 after_script:
 # XDebug not installed on HHVM
-  - if [ "`phpenv version-name`" != "hhvm" ]; wget https://scrutinizer-ci.com/ocular.phar; fi
-  - if [ "`phpenv version-name`" != "hhvm" ]; php ocular.phar code-coverage:upload --format=php-clover coverage.clover; fi
+  - if [ "`phpenv version-name`" != "hhvm" ]; then wget https://scrutinizer-ci.com/ocular.phar; fi
+  - if [ "`phpenv version-name`" != "hhvm" ]; then php ocular.phar code-coverage:upload --format=php-clover coverage.clover; fi
 

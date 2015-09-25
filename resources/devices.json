@@ -23040,6 +23040,18 @@
         "isTablet": "true"
       }
     },
+    "Lenovo A338t": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A338t",
+        "Device_Name": "A338t",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Lenovo A3300-HV": {
       "properties": {
         "Device_Type": "Tablet",
@@ -23189,6 +23201,30 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "A328t",
         "Device_Name": "A328t",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Lenovo A320": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A320",
+        "Device_Name": "A320",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Lenovo A320t": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A320t",
+        "Device_Name": "A320t",
         "Device_Maker": "Lenovo",
         "Device_Brand_Name": "Lenovo",
         "Device_Pointing_Method": "touchscreen",
@@ -23885,6 +23921,18 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "A936",
         "Device_Name": "Note 8",
+        "Device_Maker": "Lenovo",
+        "Device_Brand_Name": "Lenovo",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Lenovo A916": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A916",
+        "Device_Name": "A916",
         "Device_Maker": "Lenovo",
         "Device_Brand_Name": "Lenovo",
         "Device_Pointing_Method": "touchscreen",
