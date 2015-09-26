@@ -120,13 +120,6 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; Lipperhey SEO Service*",
-          "properties": {
-            "Browser": "Lipperhey SEO Service",
-            "Browser_Maker": "Lipperhey"
-          }
-        },
-        {
           "match": "Mozilla\/5.0 (compatible; Prlog\/1.0*",
           "properties": {
             "Browser": "Prlog",
