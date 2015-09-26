@@ -1,6 +1,6 @@
 {
   "division": "Baidu Browser #MAJORVER#.#MINORVER#",
-  "versions": ["4.7", "4.6", "4.5", "4.4", "4.3", "4.2", "3.2"],
+  "versions": ["4.9", "4.8", "4.7", "4.6", "4.5", "4.4", "4.3", "4.2", "3.2"],
   "sortIndex": 884,
   "lite": false,
   "userAgents": [
@@ -170,6 +170,14 @@
           "device": "Lenovo A678t",
           "platforms": [
             "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#Lenovo A800 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* bdbrowser_i18n\/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "device": "Lenovo A800",
+          "platforms": [
+            "Android_4_0"
           ]
         },
         {

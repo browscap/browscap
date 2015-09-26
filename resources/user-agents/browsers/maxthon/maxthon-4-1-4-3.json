@@ -64,6 +64,29 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#Lenovo A328 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Chrome\/*Safari\/* MxBrowser\/#MAJORVER#.#MINORVER#*",
+          "device": "Lenovo A328",
+          "engine": "Blink",
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#Lenovo A328t Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Chrome\/*Safari\/* MxBrowser\/#MAJORVER#.#MINORVER#*",
+          "device": "Lenovo A328t",
+          "engine": "Blink",
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#Lenovo A529 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/4.0 *Safari\/* Maxthon\/#MAJORVER#.#MINORVER#*",
+          "device": "Lenovo A529",
+          "platforms": [
+            "Android_2_3"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Version\/4.0 *Safari\/* Maxthon\/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android"
