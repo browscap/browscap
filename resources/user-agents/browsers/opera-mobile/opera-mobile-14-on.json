@@ -920,7 +920,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#Lenovo A5000 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/* OPR\/#MAJORVER#.*",
           "device": "Lenovo A5000",
           "platforms": [
-            "Android_4_2"
+            "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {
@@ -956,6 +956,13 @@
           "device": "Lenovo A390",
           "platforms": [
             "Android_4_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#Lenovo A760 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/* OPR\/#MAJORVER#.*",
+          "device": "Lenovo A760",
+          "platforms": [
+            "Android_4_1"
           ]
         },
         {
