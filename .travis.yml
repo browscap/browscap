@@ -20,14 +20,14 @@ before_script:
   - composer install -o --prefer-source
 
 script:
-# XDebug not installed on HHVM
+# xdebug is not installed on hhvm, so we are skipping the creation of code coverage data there
   - if [ "`phpenv version-name`" != "hhvm" ]; then vendor/bin/phpunit --colors --verbose --exclude-group useragenttest --coverage-text --coverage-clover=coverage.clover; fi
   - if [ "`phpenv version-name`" == "hhvm" ]; then vendor/bin/phpunit --colors --verbose --exclude-group useragenttest; fi
   - vendor/bin/phpunit --colors --group useragenttest
   - vendor/bin/phpcs --standard=psr2 -np src tests
 
 after_script:
-# XDebug not installed on HHVM
+# xdebug is not installed on hhvm, so we have no code coverage data to send
   - if [ "`phpenv version-name`" != "hhvm" ]; then wget https://scrutinizer-ci.com/ocular.phar; fi
   - if [ "`phpenv version-name`" != "hhvm" ]; then php ocular.phar code-coverage:upload --format=php-clover coverage.clover; fi
 
