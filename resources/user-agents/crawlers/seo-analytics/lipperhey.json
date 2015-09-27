@@ -1,0 +1,29 @@
+{
+  "division": "Lipperhey SEO Service",
+  "sortIndex": 249,
+  "lite": false,
+  "userAgents": [
+    {
+      "userAgent": "Lipperhey SEO Service",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Lipperhey SEO Service",
+        "Browser": "Lipperhey SEO Service",
+        "Browser_Maker": "Lipperhey",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (compatible; Lipperhey SEO Service*"
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Lipperhey Spider*"
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Lipperhey*"
+        }
+      ]
+    }
+  ]
+}
