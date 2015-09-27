@@ -138,6 +138,9 @@
         {
           "match": "Opera\/#MAJORVER#.#MINORVER#*(Nintendo Wii; U; *)",
           "device": "Nintendo Wii"
+        },
+        {
+          "match": "Opera\/#MAJORVER#.#MINORVER#*"
         }
       ]
     }
