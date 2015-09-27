@@ -24,7 +24,7 @@ return [
             'IFrames' => true,
             'Tables' => true,
             'VBScript' => false,
-            'JavaApplets' => true,
+            'JavaApplets' => false,
             'ActiveXControls' => false,
             'BackgroundSounds' => false,
             'Device_Name' => 'general Desktop',
