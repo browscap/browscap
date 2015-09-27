@@ -1,11 +1,12 @@
 {
   "division": "Opera #MAJORVER#.#MINORVER#",
-  "versions": ["4.02", "4.01", "4.00"],
-  "sortIndex": 1063,
+  "versions": ["9.80"],
+  "sortIndex": 1057,
   "lite": false,
   "userAgents": [
     {
       "userAgent": "Opera #MAJORVER#.#MINORVER#",
+      "engine": "Presto_2_0",
       "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
@@ -22,7 +23,7 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "CssVersion": "2"
+        "CssVersion": "3"
       },
       "children": [
         {
@@ -133,6 +134,10 @@
           "platforms": [
             "FreeBSD", "SunOS"
           ]
+        },
+        {
+          "match": "Opera\/#MAJORVER#.#MINORVER#*(Nintendo Wii; U; *)",
+          "device": "Nintendo Wii"
         }
       ]
     }
