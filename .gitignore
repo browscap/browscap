@@ -5,3 +5,4 @@ vendor/
 .project
 composer.phar
 test*.txt
+composer.lock
