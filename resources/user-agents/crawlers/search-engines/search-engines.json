@@ -524,12 +524,6 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; Lipperhey Spider; http:\/\/www.lipperhey.com\/)",
-          "properties": {
-            "Browser": "Lipperhey Spider"
-          }
-        },
-        {
           "match": "Mozilla\/5.0 (compatible; MojeekBot\/*; http:\/\/www.mojeek.com\/bot.html)",
           "properties": {
             "Browser": "MojeekBot"

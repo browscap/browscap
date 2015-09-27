@@ -3821,6 +3821,12 @@
           "properties": {
             "Browser": "TestCrawler"
           }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Digincore*",
+          "properties": {
+            "Browser": "Digincore Bot"
+          }
         }
       ]
     }

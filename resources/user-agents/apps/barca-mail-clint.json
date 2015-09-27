@@ -1,15 +1,15 @@
 {
-  "division": "Barca Mail Clint",
+  "division": "Barca Mail Client",
   "sortIndex": 1670,
   "lite": false,
   "userAgents": [
     {
-      "userAgent": "Barca Mail Clint",
+      "userAgent": "Barca Mail Client",
       "platform": "OSX",
       "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Barca Mail Clint",
+        "Comment": "Barca Mail Client",
         "Browser_Type": "Email Client",
         "Alpha": "false",
         "Beta": "false",
@@ -23,7 +23,7 @@
         "JavaScript": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
-        "Browser": "Barca Mail Clint"
+        "Browser": "Barca Mail Client"
       },
       "children": [
         {
