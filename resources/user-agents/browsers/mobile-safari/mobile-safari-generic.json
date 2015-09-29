@@ -95,7 +95,7 @@
             "iOS_C"
           ]
         },
-        {        
+        {
           "match": "Mozilla\/5.0*(iPhone#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Mobile\/*",
           "device": "iPhone",
           "platforms": [
