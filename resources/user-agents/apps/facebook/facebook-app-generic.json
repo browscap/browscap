@@ -1,0 +1,148 @@
+{
+  "division": "Facebook App Generic",
+  "sortIndex": 953,
+  "lite": false,
+  "userAgents": [
+    {
+      "userAgent": "Facebook App Generic for iOS",
+      "engine": "WebKit",
+      "device": "iPhone",
+      "platform": "iOS",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Facebook App Generic for iOS",
+        "Browser": "Facebook App",
+        "Browser_Type": "Application",
+        "Browser_Maker": "Facebook",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (iPhone#PLATFORM#) AppleWebKit* (KHTML,*like Gecko*) Mobile* ?FBAN\/*FBAV\/*",
+          "device": "iPhone",
+          "platforms": [
+            "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
+            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1",
+            "iOS_A_8_0", "iOS_A_8_1", "iOS_A_8_2", "iOS_A_8_3", "iOS_A_8_4",
+            "iOS_A_9_0", "iOS_A_9_1",
+            "iOS_A",
+            "iOS_B",
+            "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0",
+            "iOS_C_8_4", "iOS_C_8_3", "iOS_C_8_2", "iOS_C_8_1", "iOS_C_8_0",
+            "iOS_C_9_1", "iOS_C_9_0",
+            "iOS_C"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (iPad#PLATFORM#) AppleWebKit* (KHTML,*like Gecko*) Mobile* ?FBAN\/*FBAV\/*",
+          "device": "iPad",
+          "platforms": [
+            "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
+            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1",
+            "iOS_A_8_0", "iOS_A_8_1", "iOS_A_8_2", "iOS_A_8_3", "iOS_A_8_4",
+            "iOS_A_9_0", "iOS_A_9_1",
+            "iOS_A",
+            "iOS_B",
+            "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0",
+            "iOS_C_8_4", "iOS_C_8_3", "iOS_C_8_2", "iOS_C_8_1", "iOS_C_8_0",
+            "iOS_C_9_1", "iOS_C_9_0",
+            "iOS_C"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (iPod#PLATFORM#) AppleWebKit* (KHTML,*like Gecko*) Mobile* ?FBAN\/*FBAV\/*",
+          "device": "iPod Touch",
+          "platforms": [
+            "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
+            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1",
+            "iOS_A_8_0", "iOS_A_8_1", "iOS_A_8_2", "iOS_A_8_3", "iOS_A_8_4",
+            "iOS_A_9_0", "iOS_A_9_1",
+            "iOS_A",
+            "iOS_B",
+            "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0",
+            "iOS_C_8_4", "iOS_C_8_3", "iOS_C_8_2", "iOS_C_8_1", "iOS_C_8_0",
+            "iOS_C_9_1", "iOS_C_9_0",
+            "iOS_C"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit* (KHTML,*like Gecko*) Mobile* ?FBAN\/*FBAV\/*",
+          "platforms": [
+            "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
+            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1",
+            "iOS_A_8_0", "iOS_A_8_1", "iOS_A_8_2", "iOS_A_8_3", "iOS_A_8_4",
+            "iOS_A_9_0", "iOS_A_9_1",
+            "iOS_A",
+            "iOS_B",
+            "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0",
+            "iOS_C_8_4", "iOS_C_8_3", "iOS_C_8_2", "iOS_C_8_1", "iOS_C_8_0",
+            "iOS_C_9_1", "iOS_C_9_0",
+            "iOS_C"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "Facebook App Generic for Android",
+      "engine": "Blink",
+      "device": "general Mobile Phone (Touch)",
+      "platform": "Android",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Facebook App Generic for Android",
+        "Browser": "Facebook App",
+        "Browser_Type": "Application",
+        "Browser_Maker": "Facebook",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/* Chrome\/*Safari\/*FBAV\/*",
+          "platforms": [
+            "Android_4_2", "Android_4_3", "Android_4_4", "Android_5_0", "Android"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/*Safari\/*FBAV\/*",
+          "engine": "WebKit",
+          "platforms": [
+            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android_5_0", "Android"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "Facebook App Generic",
+      "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Facebook App Generic",
+        "Browser": "Facebook App",
+        "Browser_Type": "Application",
+        "Browser_Maker": "Facebook",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "?FBAN\/*FBAV\/*"
+        }
+      ]
+    }
+  ]
+}
