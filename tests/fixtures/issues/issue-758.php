@@ -1,0 +1,43 @@
+<?php
+
+return [
+    'issue-758' => [
+        'Mozilla/5.0 (iPhone; CPU iPhone OS 8_4_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12H321',
+        [
+            'Browser' => 'Safari',
+            'Browser_Type' => 'Browser',
+            'Browser_Bits' => '32',
+            'Browser_Maker' => 'Apple Inc',
+            'Browser_Modus' => 'unknown',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'iOS',
+            'Platform_Version' => '8.4',
+            'Platform_Bits' => '32',
+            'Platform_Maker' => 'Apple Inc',
+            'isMobileDevice' => true,
+            'isTablet' => false,
+            'Crawler' => false,
+            'JavaScript' => true,
+            'Cookies' => true,
+            'Frames' => true,
+            'IFrames' => true,
+            'Tables' => true,
+            'VBScript' => false,
+            'JavaApplets' => true,
+            'ActiveXControls' => false,
+            'BackgroundSounds' => false,
+            'Device_Name' => 'iPhone',
+            'Device_Maker' => 'Apple Inc',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen',
+            'Device_Code_Name' => 'iPhone',
+            'Device_Brand_Name' => 'Apple',
+            'RenderingEngine_Name' => 'WebKit',
+            'RenderingEngine_Version' => 'unknown',
+            'RenderingEngine_Maker' => 'Apple Inc',
+        ],
+        'lite' => true,
+    ]
+];
