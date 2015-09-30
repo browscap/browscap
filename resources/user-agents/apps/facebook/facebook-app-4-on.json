@@ -710,7 +710,7 @@
       },
       "children": [
         {
-          "match": "[FBAN\/*FBAV\/#MAJORVER#.#MINORVER#*"
+          "match": "?FBAN\/*FBAV\/#MAJORVER#.#MINORVER#*"
         }
       ]
     }
