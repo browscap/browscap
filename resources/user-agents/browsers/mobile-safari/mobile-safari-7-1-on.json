@@ -36,7 +36,7 @@
             "iOS_A",
             "iOS_B",
             "iOS_C_4_2", "iOS_C_4_3", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0",
-            "iOS_C_8_1", "iOS_C_8_2", "iOS_C_8_3", "iOS_C_8_4", "iOS_C_8_0", "iOS_C_9_0", "iOS_C_9_1",
+            "iOS_C_8_4", "iOS_C_8_3", "iOS_C_8_2", "iOS_C_8_1", "iOS_C_8_0", "iOS_C_9_1", "iOS_C_9_0",
             "iOS_C"
           ]
         },
@@ -50,7 +50,7 @@
             "iOS_A", 
             "iOS_B",
             "iOS_C_4_2", "iOS_C_4_3", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0",
-            "iOS_C_8_1", "iOS_C_8_2", "iOS_C_8_3", "iOS_C_8_4", "iOS_C_8_0", "iOS_C_9_0", "iOS_C_9_1",
+            "iOS_C_8_4", "iOS_C_8_3", "iOS_C_8_2", "iOS_C_8_1", "iOS_C_8_0", "iOS_C_9_1", "iOS_C_9_0",
             "iOS_C"
           ]
         },
@@ -64,7 +64,7 @@
             "iOS_A",
             "iOS_B",
             "iOS_C_4_2", "iOS_C_4_3", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0",
-            "iOS_C_8_1", "iOS_C_8_2", "iOS_C_8_3", "iOS_C_8_4", "iOS_C_8_0", "iOS_C_9_0", "iOS_C_9_1",
+            "iOS_C_8_4", "iOS_C_8_3", "iOS_C_8_2", "iOS_C_8_1", "iOS_C_8_0", "iOS_C_9_1", "iOS_C_9_0",
             "iOS_C"
           ]
         },
@@ -77,7 +77,7 @@
             "iOS_A",
             "iOS_B",
             "iOS_C_4_2", "iOS_C_4_3", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0",
-            "iOS_C_8_1", "iOS_C_8_2", "iOS_C_8_3", "iOS_C_8_4", "iOS_C_8_0", "iOS_C_9_0", "iOS_C_9_1",
+            "iOS_C_8_4", "iOS_C_8_3", "iOS_C_8_2", "iOS_C_8_1", "iOS_C_8_0", "iOS_C_9_1", "iOS_C_9_0",
             "iOS_C"
           ]
         }
