@@ -252,6 +252,16 @@ class DataCollection
 
         if (isset($divisionData['userAgents']) && is_array($divisionData['userAgents'])) {
             foreach ($divisionData['userAgents'] as $useragent) {
+                if (!isset($useragent['userAgent'])) {
+                    throw new \UnexpectedValueException('Name for Division is missing');
+                }
+
+                if (preg_match('/[\[\]]/', $useragent['userAgent'])) {
+                    throw new \UnexpectedValueException(
+                        'Name of Division "' . $useragent['userAgent'] . '" includes invalid characters'
+                    );
+                }
+
                 if (false === strpos($useragent['userAgent'], '#')
                     && in_array($useragent['userAgent'], $this->allDivision)
                 ) {
@@ -323,6 +333,12 @@ class DataCollection
                             throw new \UnexpectedValueException(
                                 'each entry of the children property requires an "match" entry for key "'
                                 . $useragent['userAgent'] . '", missing for child data: ' . json_encode($child)
+                            );
+                        }
+
+                        if (preg_match('/[\[\]]/', $child['match'])) {
+                            throw new \UnexpectedValueException(
+                                'key "' . $child['match'] . '" includes invalid characters'
                             );
                         }
 
