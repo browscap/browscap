@@ -253,10 +253,10 @@ class DataCollection
         if (isset($divisionData['userAgents']) && is_array($divisionData['userAgents'])) {
             foreach ($divisionData['userAgents'] as $useragent) {
                 if (!isset($useragent['userAgent'])) {
-                    throw new \UnexpectedValueException('Nsme for Division is missing');
+                    throw new \UnexpectedValueException('Name for Division is missing');
                 }
 
-                if (preg_match('/[\[]/', $useragent['userAgent'])) {
+                if (preg_match('/[\[\]]/', $useragent['userAgent'])) {
                     throw new \UnexpectedValueException(
                         'Name of Division "' . $useragent['userAgent'] . '" includes invalid characters'
                     );
@@ -336,7 +336,7 @@ class DataCollection
                             );
                         }
 
-                        if (preg_match('/[\[]/', $child['match'])) {
+                        if (preg_match('/[\[\]]/', $child['match'])) {
                             throw new \UnexpectedValueException(
                                 'key "' . $child['match'] . '" includes invalid characters'
                             );
