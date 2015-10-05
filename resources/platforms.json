@@ -933,6 +933,10 @@
         "Platform_Version": "8.1"
       }
     },
+    "iOS_M": {
+      "match": "*iOS; like Mac OS X*",
+      "inherits": "iOS"
+    },
     "ATV_OSX": {
       "match": "*CPU*OS*like Mac OS X*",
       "lite": false,
