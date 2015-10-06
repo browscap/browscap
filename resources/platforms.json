@@ -203,6 +203,29 @@
         "Platform_Version": "10.10"
       }
     },
+    "OSX_10_11_A": {
+      "match": "*Mac OS X 10_11*",
+      "lite": false,
+      "inherits": "OSX",
+      "properties": {
+        "Platform_Version": "10.11"
+      }
+    },
+    "OSX_10_11_B": {
+      "match": "*Mac OS X 10.11*",
+      "lite": false,
+      "inherits": "OSX",
+      "properties": {
+        "Platform_Version": "10.11"
+      }
+    },
+    "OSX_10_11_C": {
+      "match": "*Macintosh; OS X 10.11*",
+      "inherits": "OSX",
+      "properties": {
+        "Platform_Version": "10.11"
+      }
+    },
     "MacPPC": {
       "match": "*PPC*",
       "lite": false,
