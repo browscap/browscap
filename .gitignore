@@ -4,4 +4,3 @@ vendor/
 .settings
 .project
 composer.phar
-composer.lock
