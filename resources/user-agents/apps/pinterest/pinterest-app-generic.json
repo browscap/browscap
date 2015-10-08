@@ -1,0 +1,107 @@
+{
+  "division": "Pinterest App Generic",
+  "sortIndex": 1994,
+  "lite": false,
+  "userAgents": [
+    {
+      "userAgent": "Pinterest App Generic",
+      "engine": "WebKit",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Pinterest App Generic",
+        "Browser": "Pinterest App",
+        "Browser_Type": "Application",
+        "Browser_Maker": "Ericsson Research",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (iPad#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Mobile\/* ?Pinterest\/iOS*",
+          "device": "iPad",
+          "platforms": [
+            "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1",
+            "iOS_A_8_0", "iOS_A_8_1", "iOS_A_8_2", "iOS_A_8_3", "iOS_A_8_4",
+            "iOS_A_9_0", "iOS_A_9_1",
+            "iOS_A",
+            "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0",
+            "iOS_C_8_4", "iOS_C_8_3", "iOS_C_8_2", "iOS_C_8_1", "iOS_C_8_0",
+            "iOS_C_9_1", "iOS_C_9_0",
+            "iOS_C"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (iPhone#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Mobile\/* ?Pinterest\/iOS*",
+          "device": "iPhone",
+          "platforms": [
+            "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1",
+            "iOS_A_8_0", "iOS_A_8_1", "iOS_A_8_2", "iOS_A_8_3", "iOS_A_8_4",
+            "iOS_A_9_0", "iOS_A_9_1",
+            "iOS_A",
+            "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0",
+            "iOS_C_8_4", "iOS_C_8_3", "iOS_C_8_2", "iOS_C_8_1", "iOS_C_8_0",
+            "iOS_C_9_1", "iOS_C_9_0",
+            "iOS_C"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Mobile\/* ?Pinterest\/iOS*",
+          "device": "general Mobile Device (Apple)",
+          "platforms": [
+            "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1",
+            "iOS_A_8_0", "iOS_A_8_1", "iOS_A_8_2", "iOS_A_8_3", "iOS_A_8_4",
+            "iOS_A_9_0", "iOS_A_9_1",
+            "iOS_A",
+            "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0",
+            "iOS_C_8_4", "iOS_C_8_3", "iOS_C_8_2", "iOS_C_8_1", "iOS_C_8_0",
+            "iOS_C_9_1", "iOS_C_9_0",
+            "iOS_C"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#A3-A11 Build\/*) AppleWebKit\/* (KHTML like Gecko) Version\/* Chrome\/* Safari\/* ?Pinterest\/Android*",
+          "device": "Acer A3-A11",
+          "engine": "Blink",
+          "platforms": [
+            "Android_4_4", "Android"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM# Build\/*) AppleWebKit\/* (KHTML like Gecko) Version\/* Chrome\/* Safari\/* ?Pinterest\/Android*",
+          "device": "general Mobile Phone (Touch)",
+          "engine": "Blink",
+          "platforms": [
+            "Android_4_4", "Android"
+          ]
+        },
+        {
+          "match": "Pinterest for Android Tablet\/*",
+          "device": "general Tablet",
+          "platforms": [
+            "Android"
+          ]
+        },
+        {
+          "match": "Pinterest for Android\/*",
+          "device": "general Mobile Phone (Touch)",
+          "platforms": [
+            "Android"
+          ]
+        },
+        {
+          "match": "Pinterest\/* CFNetwork\/* Darwin\/*",
+          "platforms": [
+            "Darwin"
+          ]
+        },
+        {
+          "match": "Pinterest\/*"
+        }
+      ]
+    }
+  ]
+}
