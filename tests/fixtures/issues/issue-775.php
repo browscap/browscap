@@ -23,7 +23,7 @@ return [
             'Frames' => true,
             'IFrames' => true,
             'Tables' => true,
-            'VBScript' => false,
+            'VBScript' => true,
             'JavaApplets' => true,
             'ActiveXControls' => false,
             'BackgroundSounds' => false,
