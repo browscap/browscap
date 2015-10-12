@@ -12072,6 +12072,18 @@
         "isTablet": "false"
       }
     },
+    "HTC Endeavoru": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Endeavoru",
+        "Device_Name": "One X",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "HTC PM63100": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -16397,6 +16409,18 @@
         "Device_Type": "Tablet",
         "Device_Code_Name": "A3-A10",
         "Device_Name": "Iconia Tab A3",
+        "Device_Maker": "Acer",
+        "Device_Brand_Name": "Acer",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Acer A3-A11": {
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "A3-A11",
+        "Device_Name": "Iconia A3",
         "Device_Maker": "Acer",
         "Device_Brand_Name": "Acer",
         "Device_Pointing_Method": "touchscreen",

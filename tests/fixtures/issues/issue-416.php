@@ -7,7 +7,7 @@ return [
             'Browser' => 'Pinterest App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '0',
-            'Browser_Maker' => 'Pinterest',
+            'Browser_Maker' => 'Ericsson Research',
             'Version' => '0.2',
             'MajorVer' => '0',
             'MinorVer' => '2',
