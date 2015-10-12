@@ -490,7 +490,7 @@ return [
     'issue-369-R' => [
         'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_2 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D257',
         [
-            'Browser' => 'Safari',
+            'Browser' => 'Mobile Safari UIWebView',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Apple Inc',
