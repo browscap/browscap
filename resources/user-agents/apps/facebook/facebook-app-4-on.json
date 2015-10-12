@@ -702,7 +702,7 @@
           ]
         },
         {
-          "match": "Dalvik\/* (#PLATFORM#HTC Desire Build\/*) *FBAV\/#MAJORVER#.#MINORVER#*",
+          "match": "Dalvik\/1.2* (#PLATFORM#HTC Desire Build\/*) *FBAV\/#MAJORVER#.#MINORVER#*",
           "device": "HTC Desire",
           "engine": "WebKit",
           "platforms": [
