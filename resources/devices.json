@@ -18588,6 +18588,30 @@
         "isTablet": "false"
       }
     },
+    "Nokia Lumia 710": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Lumia 710",
+        "Device_Name": "Lumia 710",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia Lumia 730": {
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Lumia 730",
+        "Device_Name": "Lumia 730",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Nokia Lumia 1020": {
       "properties": {
         "Device_Type": "Mobile Phone",
@@ -18617,18 +18641,6 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Lumia 800",
         "Device_Name": "Lumia 800",
-        "Device_Maker": "Nokia",
-        "Device_Brand_Name": "Nokia",
-        "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
-    "Nokia Lumia 710": {
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "Lumia 710",
-        "Device_Name": "Lumia 710",
         "Device_Maker": "Nokia",
         "Device_Brand_Name": "Nokia",
         "Device_Pointing_Method": "touchscreen",
