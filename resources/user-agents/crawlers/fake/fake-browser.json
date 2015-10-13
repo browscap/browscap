@@ -421,6 +421,9 @@
           "match": "?x22Mozilla*"
         },
         {
+          "match": "(null)*iPhone*"
+        },
+        {
           "match": "(null)*"
         },
         {
