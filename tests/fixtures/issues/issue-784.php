@@ -1,0 +1,42 @@
+<?php
+
+return [
+    'issue-784' => [
+        'Chrome/15.0.860.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/15.0.860.0',
+        [
+            'Browser' => 'Fake Chrome',
+            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Bits' => '0',
+            'Browser_Maker' => 'unknown',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'unknown',
+            'Platform_Version' => 'unknown',
+            'Platform_Bits' => '0',
+            'Platform_Maker' => 'unknown',
+            'isMobileDevice' => false,
+            'isTablet' => false,
+            'Crawler' => true,
+            'JavaScript' => false,
+            'Cookies' => false,
+            'Frames' => true,
+            'IFrames' => true,
+            'Tables' => true,
+            'BackgroundSounds' => false,
+            'VBScript' => false,
+            'JavaApplets' => false,
+            'ActiveXControls' => false,
+            'Device_Name' => 'unknown',
+            'Device_Maker' => 'unknown',
+            'Device_Type' => 'unknown',
+            'Device_Pointing_Method' => 'unknown',
+            'Device_Code_Name' => 'unknown',
+            'Device_Brand_Name' => 'unknown',
+            'RenderingEngine_Name' => 'unknown',
+            'RenderingEngine_Version' => 'unknown',
+            'RenderingEngine_Maker' => 'unknown',
+        ],
+        'lite' => false,
+    ]
+];
