@@ -18,7 +18,7 @@
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
         "Alpha": "false",
-        "Beta": "false",
+        "Beta": "true",
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
