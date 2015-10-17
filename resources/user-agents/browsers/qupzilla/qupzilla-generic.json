@@ -1,22 +1,18 @@
 {
-  "division": "QupZilla #MAJORVER#.#MINORVER#",
-  "versions": ["1.9", "1.8", "1.7", "1.6", "1.5", "1.4"],
-  "sortIndex": 1890,
+  "division": "QupZilla Generic",
+  "sortIndex": 1891,
   "lite": false,
   "userAgents": [
     {
-      "userAgent": "QupZilla #MAJORVER#.#MINORVER#",
+      "userAgent": "QupZilla Generic",
       "engine": "WebKit",
       "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "QupZilla #MAJORVER#.#MINORVER#",
+        "Comment": "QupZilla Generic",
         "Browser": "QupZilla",
         "Browser_Type": "Browser",
         "Browser_Maker": "David Rosca and Community",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
         "Alpha": "false",
         "Beta": "false",
         "Win16": "false",
@@ -28,14 +24,14 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) QupZilla\/#MAJORVER#.#MINORVER#* Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) QupZilla\/* Safari\/*",
           "device": "Linux Desktop",
           "platforms": [
             "Linux_64", "Linux_32", "Linux"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) QupZilla\/#MAJORVER#.#MINORVER#* Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) QupZilla\/* Safari\/*",
           "device": "Windows Desktop",
           "platforms": [
             "WinXPa_32",
@@ -48,14 +44,14 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) QupZilla\/#MAJORVER#.#MINORVER#* Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) QupZilla\/* Safari\/*",
           "device": "Macintosh",
           "platforms": [
             "OSX"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) QupZilla\/#MAJORVER#.#MINORVER#* Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) QupZilla\/* Safari\/*",
           "device": "general Desktop",
           "platforms": [
             "Unix", "OS2"
