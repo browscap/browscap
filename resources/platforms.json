@@ -2145,6 +2145,17 @@
         "Win32": "false"
       }
     },
+    "WinPhone10": {
+      "match": "*Windows Phone 10.0*",
+      "lite": false,
+      "inherits": "Windows",
+      "properties": {
+        "Platform": "WinPhone10",
+        "Platform_Version": "10.0",
+        "Platform_Description": "Windows Phone OS 10.0",
+        "Win32": "false"
+      }
+    },
     "Android": {
       "match": "*Linux*Android*",
       "properties": {
