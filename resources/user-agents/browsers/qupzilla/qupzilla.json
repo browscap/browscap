@@ -23,6 +23,11 @@
         "Win32": "false",
         "Win64": "false",
         "isSyndicationReader": "false",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
         "Crawler": "false",
         "CssVersion": "3"
       },
