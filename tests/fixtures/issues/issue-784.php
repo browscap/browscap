@@ -1,8 +1,8 @@
 <?php
 
 return [
-    'issue-399' => [
-        'Mozilla/5.0 (Windows NT 7.1) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.112 Safari/534.30',
+    'issue-784' => [
+        'Chrome/15.0.860.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/15.0.860.0',
         [
             'Browser' => 'Fake Chrome',
             'Browser_Type' => 'Bot/Crawler',
@@ -38,5 +38,5 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-    ],
+    ]
 ];
