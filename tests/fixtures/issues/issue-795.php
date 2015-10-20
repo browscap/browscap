@@ -1,13 +1,14 @@
 <?php
 
 return [
-    'issue-771' => [
-        'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11) AppleWebKit/601.1.39 (KHTML, like Gecko) Version/9.0 Safari/601.1.39',
+    'issue-795' => [
+        'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11) AppleWebKit/601.1.56 (KHTML, like Gecko) Version/9.0 Safari/601.1.56',
         [
             'Browser' => 'Safari',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Apple Inc',
+            'Browser_Modus' => 'unknown',
             'Version' => '9.0',
             'MajorVer' => '9',
             'MinorVer' => '0',
@@ -15,6 +16,7 @@ return [
             'Platform_Version' => '10.11',
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Apple Inc',
+            'Win64' => false,
             'isMobileDevice' => false,
             'isTablet' => false,
             'Crawler' => false,
