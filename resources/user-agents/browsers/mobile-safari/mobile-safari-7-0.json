@@ -5,7 +5,7 @@
   "lite": true,
   "userAgents": [
     {
-      "userAgent": "Mobile MobileSafari #MAJORVER#.#MINORVER#",
+      "userAgent": "Mobile Safari #MAJORVER#.#MINORVER#",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
