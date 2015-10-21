@@ -6,9 +6,9 @@
   "userAgents": [
     {
       "userAgent": "Mercury #MAJORVER#.#MINORVER#",
-      "platform": "iOS",
+      "platform": "Darwin",
       "engine": "WebKit",
-      "device": "general Mobile Device (Apple)",
+      "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Mercury #MAJORVER#.#MINORVER#",
