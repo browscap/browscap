@@ -18,6 +18,204 @@
       },
       "children": [
         {
+          "match": "*CFNetwork\/459*",
+          "platforms": [
+            "iOS_A_3_1"
+          ]
+        },
+        {
+          "match": "*CFNetwork\/485.2*",
+          "platforms": [
+            "iOS_A_4_0"
+          ]
+        },
+        {
+          "match": "*CFNetwork\/485.10*",
+          "platforms": [
+            "iOS_A_4_1"
+          ]
+        },
+        {
+          "match": "*CFNetwork\/485.12*",
+          "platforms": [
+            "iOS_A_4_2"
+          ]
+        },
+        {
+          "match": "*CFNetwork\/485.13*",
+          "platforms": [
+            "iOS_A_4_3"
+          ]
+        },
+        {
+          "match": "*CFNetwork\/548.1*",
+          "platforms": [
+            "iOS_A_5_1"
+          ]
+        },
+        {
+          "match": "*CFNetwork\/548.0*",
+          "platforms": [
+            "iOS_A_5_0"
+          ]
+        },
+        {
+          "match": "*CFNetwork\/609.1*",
+          "platforms": [
+            "iOS_A_6_1"
+          ]
+        },
+        {
+          "match": "*CFNetwork\/609*",
+          "platforms": [
+            "iOS_A_6_0"
+          ]
+        },
+        {
+          "match": "*CFNetwork\/672.0*",
+          "platforms": [
+            "iOS_A_7_0"
+          ]
+        },
+        {
+          "match": "*CFNetwork\/672.1*",
+          "platforms": [
+            "iOS_A_7_1"
+          ]
+        },
+        {
+          "match": "*CFNetwork\/711.0*",
+          "platforms": [
+            "iOS_A_8_0"
+          ]
+        },
+        {
+          "match": "*CFNetwork\/711.1*",
+          "platforms": [
+            "iOS_A_8_1"
+          ]
+        },
+        {
+          "match": "*CFNetwork\/711.2*",
+          "platforms": [
+            "iOS_A_8_2"
+          ]
+        },
+        {
+          "match": "*CFNetwork\/711.3*",
+          "platforms": [
+            "iOS_A_8_3"
+          ]
+        },
+        {
+          "match": "*CFNetwork\/711.4*",
+          "platforms": [
+            "iOS_A_8_4"
+          ]
+        },
+        {
+          "match": "*CFNetwork\/711.5*",
+          "platforms": [
+            "iOS_A_8_4"
+          ]
+        },
+        {
+          "match": "*CFNetwork\/758*",
+          "platforms": [
+            "iOS_A_9_0"
+          ]
+        },
+        {
+          "match": "*CFNetwork\/128*",
+          "platforms": [
+            "OSX_10_4_A"
+          ]
+        },
+        {
+          "match": "*CFNetwork\/129*",
+          "platforms": [
+            "OSX_10_4_A"
+          ]
+        },
+        {
+          "match": "*CFNetwork\/217*",
+          "platforms": [
+            "OSX_10_5_A"
+          ]
+        },
+        {
+          "match": "*CFNetwork\/220*",
+          "platforms": [
+            "OSX_10_5_A"
+          ]
+        },
+        {
+          "match": "*CFNetwork\/221*",
+          "platforms": [
+            "OSX_10_5_A"
+          ]
+        },
+        {
+          "match": "*CFNetwork\/330*",
+          "platforms": [
+            "OSX_10_5_A"
+          ]
+        },
+        {
+          "match": "*CFNetwork\/339*",
+          "platforms": [
+            "OSX_10_5_A"
+          ]
+        },
+        {
+          "match": "*CFNetwork\/422*",
+          "platforms": [
+            "OSX_10_5_A"
+          ]
+        },
+        {
+          "match": "*CFNetwork\/438*",
+          "platforms": [
+            "OSX_10_5_A"
+          ]
+        },
+        {
+          "match": "*CFNetwork\/454*",
+          "platforms": [
+            "OSX_10_6_A"
+          ]
+        },
+        {
+          "match": "*CFNetwork\/520*",
+          "platforms": [
+            "OSX_10_7_A"
+          ]
+        },
+        {
+          "match": "*CFNetwork\/596*",
+          "platforms": [
+            "OSX_10_8_A"
+          ]
+        },
+        {
+          "match": "*CFNetwork\/673*",
+          "platforms": [
+            "OSX_10_9_A"
+          ]
+        },
+        {
+          "match": "*CFNetwork\/720*",
+          "platforms": [
+            "OSX_10_10_A"
+          ]
+        },
+        {
+          "match": "*CFNetwork\/760*",
+          "platforms": [
+            "OSX_10_11_A"
+          ]
+        },
+        {
           "match": "*CFNetwork*",
           "properties": {
             "Browser": "CFNetwork"
