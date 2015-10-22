@@ -88,6 +88,12 @@
           ]
         },
         {
+          "match": "MobileSafari\/95??.* CFNetwork\/467.12*",
+          "platforms": [
+            "iOS_A_3_2"
+          ]
+        },
+        {
           "match": "MobileSafari\/95??.* CFNetwork\/485.2*",
           "platforms": [
             "iOS_A_4_0"

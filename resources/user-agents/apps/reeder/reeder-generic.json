@@ -1,135 +1,142 @@
 {
-  "division": "Google App for Darwin",
-  "sortIndex": 1148,
+  "division": "Reeder Generic",
+  "sortIndex": 9911,
   "lite": false,
   "userAgents": [
     {
-      "userAgent": "Google App for Darwin",
+      "userAgent": "Reeder Generic",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Browser_Maker": "Google Inc",
+        "Comment": "Reeder Generic",
+        "Browser": "Reeder",
         "Browser_Type": "Application",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Crawler": "false",
-        "Comment": "Google App",
-        "Browser": "Google App"
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Frames": "false",
+        "IFrames": "false",
+        "Tables": "false",
+        "Cookies": "false",
+        "JavaScript": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false"
       },
       "children": [
         {
-          "match": "Google\/* CFNetwork\/459*",
+          "match": "Reeder\/* CFNetwork\/459*",
           "platforms": [
             "iOS_A_3_1"
           ]
         },
         {
-          "match": "Google\/* CFNetwork\/485.2*",
+          "match": "Reeder\/* CFNetwork\/485.2*",
           "platforms": [
             "iOS_A_4_0"
           ]
         },
         {
-          "match": "Google\/* CFNetwork\/485.10*",
+          "match": "Reeder\/* CFNetwork\/485.10*",
           "platforms": [
             "iOS_A_4_1"
           ]
         },
         {
-          "match": "Google\/* CFNetwork\/485.12*",
+          "match": "Reeder\/* CFNetwork\/485.12*",
           "platforms": [
             "iOS_A_4_2"
           ]
         },
         {
-          "match": "Google\/* CFNetwork\/485.13*",
+          "match": "Reeder\/* CFNetwork\/485.13*",
           "platforms": [
             "iOS_A_4_3"
           ]
         },
         {
-          "match": "Google\/* CFNetwork\/548.1*",
+          "match": "Reeder\/* CFNetwork\/548.1*",
           "platforms": [
             "iOS_A_5_1"
           ]
         },
         {
-          "match": "Google\/* CFNetwork\/548.0*",
+          "match": "Reeder\/* CFNetwork\/548.0*",
           "platforms": [
             "iOS_A_5_0"
           ]
         },
         {
-          "match": "Google\/* CFNetwork\/609.1*",
+          "match": "Reeder\/* CFNetwork\/609.1*",
           "platforms": [
             "iOS_A_6_1"
           ]
         },
         {
-          "match": "Google\/* CFNetwork\/609*",
+          "match": "Reeder\/* CFNetwork\/609*",
           "platforms": [
             "iOS_A_6_0"
           ]
         },
         {
-          "match": "Google\/* CFNetwork\/672.0*",
+          "match": "Reeder\/* CFNetwork\/672.0*",
           "platforms": [
             "iOS_A_7_0"
           ]
         },
         {
-          "match": "Google\/* CFNetwork\/672.1*",
+          "match": "Reeder\/* CFNetwork\/672.1*",
           "platforms": [
             "iOS_A_7_1"
           ]
         },
         {
-          "match": "Google\/* CFNetwork\/711.0*",
+          "match": "Reeder\/* CFNetwork\/711.0*",
           "platforms": [
             "iOS_A_8_0"
           ]
         },
         {
-          "match": "Google\/* CFNetwork\/711.1*",
+          "match": "Reeder\/* CFNetwork\/711.1*",
           "platforms": [
             "iOS_A_8_1"
           ]
         },
         {
-          "match": "Google\/* CFNetwork\/711.2*",
+          "match": "Reeder\/* CFNetwork\/711.2*",
           "platforms": [
             "iOS_A_8_2"
           ]
         },
         {
-          "match": "Google\/* CFNetwork\/711.3*",
+          "match": "Reeder\/* CFNetwork\/711.3*",
           "platforms": [
             "iOS_A_8_3"
           ]
         },
         {
-          "match": "Google\/* CFNetwork\/711.4*",
+          "match": "Reeder\/* CFNetwork\/711.4*",
           "platforms": [
             "iOS_A_8_4"
           ]
         },
         {
-          "match": "Google\/* CFNetwork\/711.5*",
+          "match": "Reeder\/* CFNetwork\/711.5*",
           "platforms": [
             "iOS_A_8_4"
           ]
         },
         {
-          "match": "Google\/* CFNetwork\/758*",
+          "match": "Reeder\/* CFNetwork\/758*",
           "platforms": [
             "iOS_A_9_0"
           ]
         },
         {
-          "match": "Google\/* CFNetwork\/#PLATFORM#",
+          "match": "Reeder\/* CFNetwork\/#PLATFORM#",
           "platforms": [
             "Darwin"
           ]

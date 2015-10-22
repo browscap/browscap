@@ -1,13 +1,13 @@
 {
   "division": "Mercury",
-  "sortIndex": 1948,
+  "sortIndex": 1949,
   "lite": false,
   "userAgents": [
     {
       "userAgent": "Mercury",
-      "platform": "Darwin",
+      "platform": "iOS",
       "engine": "WebKit",
-      "device": "Macintosh",
+      "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Mercury",
@@ -30,57 +30,229 @@
       },
       "children": [
         {
-          "match": "Mercury3\/4.0* CFNetwork\/#PLATFORM#",
-          "properties": {
-            "Version": "4.0",
-            "MajorVer": "4",
-            "MinorVer": "0"
-          },
+          "match": "Mercury\/* CFNetwork\/459*",
           "platforms": [
-            "Darwin"
+            "iOS_A_3_1"
           ]
         },
         {
-          "match": "Mercury3\/4.1* CFNetwork\/#PLATFORM#",
-          "properties": {
-            "Version": "4.1",
-            "MajorVer": "4",
-            "MinorVer": "1"
-          },
+          "match": "Mercury\/* CFNetwork\/485.2*",
           "platforms": [
-            "Darwin"
+            "iOS_A_4_0"
           ]
         },
         {
-          "match": "Mercury3\/4.2* CFNetwork\/#PLATFORM#",
-          "properties": {
-            "Version": "4.2",
-            "MajorVer": "4",
-            "MinorVer": "2"
-          },
+          "match": "Mercury\/* CFNetwork\/485.10*",
           "platforms": [
-            "Darwin"
+            "iOS_A_4_1"
           ]
         },
         {
-          "match": "Mercury3\/4.3* CFNetwork\/#PLATFORM#",
-          "properties": {
-            "Version": "4.3",
-            "MajorVer": "4",
-            "MinorVer": "3"
-          },
+          "match": "Mercury\/* CFNetwork\/485.12*",
           "platforms": [
-            "Darwin"
+            "iOS_A_4_2"
           ]
         },
         {
-          "match": "Mercury3\/* CFNetwork\/#PLATFORM#",
+          "match": "Mercury\/* CFNetwork\/485.13*",
           "platforms": [
-            "Darwin"
+            "iOS_A_4_3"
+          ]
+        },
+        {
+          "match": "Mercury\/* CFNetwork\/548.1*",
+          "platforms": [
+            "iOS_A_5_1"
+          ]
+        },
+        {
+          "match": "Mercury\/* CFNetwork\/548.0*",
+          "platforms": [
+            "iOS_A_5_0"
+          ]
+        },
+        {
+          "match": "Mercury\/* CFNetwork\/609.1*",
+          "platforms": [
+            "iOS_A_6_1"
+          ]
+        },
+        {
+          "match": "Mercury\/* CFNetwork\/609*",
+          "platforms": [
+            "iOS_A_6_0"
+          ]
+        },
+        {
+          "match": "Mercury\/* CFNetwork\/672.0*",
+          "platforms": [
+            "iOS_A_7_0"
+          ]
+        },
+        {
+          "match": "Mercury\/* CFNetwork\/672.1*",
+          "platforms": [
+            "iOS_A_7_1"
+          ]
+        },
+        {
+          "match": "Mercury\/* CFNetwork\/711.0*",
+          "platforms": [
+            "iOS_A_8_0"
+          ]
+        },
+        {
+          "match": "Mercury\/* CFNetwork\/711.1*",
+          "platforms": [
+            "iOS_A_8_1"
+          ]
+        },
+        {
+          "match": "Mercury\/* CFNetwork\/711.2*",
+          "platforms": [
+            "iOS_A_8_2"
+          ]
+        },
+        {
+          "match": "Mercury\/* CFNetwork\/711.3*",
+          "platforms": [
+            "iOS_A_8_3"
+          ]
+        },
+        {
+          "match": "Mercury\/* CFNetwork\/711.4*",
+          "platforms": [
+            "iOS_A_8_4"
+          ]
+        },
+        {
+          "match": "Mercury\/* CFNetwork\/711.5*",
+          "platforms": [
+            "iOS_A_8_4"
+          ]
+        },
+        {
+          "match": "Mercury\/* CFNetwork\/758*",
+          "platforms": [
+            "iOS_A_9_0"
           ]
         },
         {
           "match": "Mercury\/* CFNetwork\/#PLATFORM#",
+          "platforms": [
+            "Darwin"
+          ]
+        },
+        {
+          "match": "Mercury3\/* CFNetwork\/459*",
+          "platforms": [
+            "iOS_A_3_1"
+          ]
+        },
+        {
+          "match": "Mercury3\/* CFNetwork\/485.2*",
+          "platforms": [
+            "iOS_A_4_0"
+          ]
+        },
+        {
+          "match": "Mercury3\/* CFNetwork\/485.10*",
+          "platforms": [
+            "iOS_A_4_1"
+          ]
+        },
+        {
+          "match": "Mercury3\/* CFNetwork\/485.12*",
+          "platforms": [
+            "iOS_A_4_2"
+          ]
+        },
+        {
+          "match": "Mercury3\/* CFNetwork\/485.13*",
+          "platforms": [
+            "iOS_A_4_3"
+          ]
+        },
+        {
+          "match": "Mercury3\/* CFNetwork\/548.1*",
+          "platforms": [
+            "iOS_A_5_1"
+          ]
+        },
+        {
+          "match": "Mercury3\/* CFNetwork\/548.0*",
+          "platforms": [
+            "iOS_A_5_0"
+          ]
+        },
+        {
+          "match": "Mercury3\/* CFNetwork\/609.1*",
+          "platforms": [
+            "iOS_A_6_1"
+          ]
+        },
+        {
+          "match": "Mercury3\/* CFNetwork\/609*",
+          "platforms": [
+            "iOS_A_6_0"
+          ]
+        },
+        {
+          "match": "Mercury3\/* CFNetwork\/672.0*",
+          "platforms": [
+            "iOS_A_7_0"
+          ]
+        },
+        {
+          "match": "Mercury3\/* CFNetwork\/672.1*",
+          "platforms": [
+            "iOS_A_7_1"
+          ]
+        },
+        {
+          "match": "Mercury3\/* CFNetwork\/711.0*",
+          "platforms": [
+            "iOS_A_8_0"
+          ]
+        },
+        {
+          "match": "Mercury3\/* CFNetwork\/711.1*",
+          "platforms": [
+            "iOS_A_8_1"
+          ]
+        },
+        {
+          "match": "Mercury3\/* CFNetwork\/711.2*",
+          "platforms": [
+            "iOS_A_8_2"
+          ]
+        },
+        {
+          "match": "Mercury3\/* CFNetwork\/711.3*",
+          "platforms": [
+            "iOS_A_8_3"
+          ]
+        },
+        {
+          "match": "Mercury3\/* CFNetwork\/711.4*",
+          "platforms": [
+            "iOS_A_8_4"
+          ]
+        },
+        {
+          "match": "Mercury3\/* CFNetwork\/711.5*",
+          "platforms": [
+            "iOS_A_8_4"
+          ]
+        },
+        {
+          "match": "Mercury3\/* CFNetwork\/758*",
+          "platforms": [
+            "iOS_A_9_0"
+          ]
+        },
+        {
+          "match": "Mercury3\/* CFNetwork\/#PLATFORM#",
           "platforms": [
             "Darwin"
           ]
