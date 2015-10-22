@@ -4,13 +4,169 @@
   "lite": false,
   "userAgents": [
     {
-      "userAgent": "CFNetwork",
-      "platform": "Darwin",
+      "userAgent": "CFNetwork for iOS",
+      "platform": "iOS",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "CFNetwork for iOS",
+        "Browser": "CFNetwork",
+        "Browser_Type": "Application",
+        "Browser_Maker": "Apple Inc",
+        "Crawler": "false"
+      },
+      "children": [
+        {
+          "match": "*CFNetwork\/459*",
+          "device": "general Mobile Device (Apple)",
+          "platforms": [
+            "iOS_A_3_1"
+          ]
+        },
+        {
+          "match": "*CFNetwork\/467.12*",
+          "device": "general Mobile Device (Apple)",
+          "platforms": [
+            "iOS_A_3_2"
+          ]
+        },
+        {
+          "match": "*CFNetwork\/485.2*",
+          "device": "general Mobile Device (Apple)",
+          "platforms": [
+            "iOS_A_4_0"
+          ]
+        },
+        {
+          "match": "*CFNetwork\/485.10*",
+          "device": "general Mobile Device (Apple)",
+          "platforms": [
+            "iOS_A_4_1"
+          ]
+        },
+        {
+          "match": "*CFNetwork\/485.12*",
+          "device": "general Mobile Device (Apple)",
+          "platforms": [
+            "iOS_A_4_2"
+          ]
+        },
+        {
+          "match": "*CFNetwork\/485.13*",
+          "device": "general Mobile Device (Apple)",
+          "platforms": [
+            "iOS_A_4_3"
+          ]
+        },
+        {
+          "match": "*CFNetwork\/548.1*",
+          "device": "general Mobile Device (Apple)",
+          "platforms": [
+            "iOS_A_5_1"
+          ]
+        },
+        {
+          "match": "*CFNetwork\/548.0*",
+          "device": "general Mobile Device (Apple)",
+          "platforms": [
+            "iOS_A_5_0"
+          ]
+        },
+        {
+          "match": "*CFNetwork\/602*",
+          "device": "general Mobile Device (Apple)",
+          "platforms": [
+            "iOS_A_6_0"
+          ]
+        },
+        {
+          "match": "*CFNetwork\/609.1*",
+          "device": "general Mobile Device (Apple)",
+          "platforms": [
+            "iOS_A_6_1"
+          ]
+        },
+        {
+          "match": "*CFNetwork\/609*",
+          "device": "general Mobile Device (Apple)",
+          "platforms": [
+            "iOS_A_6_0"
+          ]
+        },
+        {
+          "match": "*CFNetwork\/672.0*",
+          "device": "general Mobile Device (Apple)",
+          "platforms": [
+            "iOS_A_7_0"
+          ]
+        },
+        {
+          "match": "*CFNetwork\/672.1*",
+          "device": "general Mobile Device (Apple)",
+          "platforms": [
+            "iOS_A_7_1"
+          ]
+        },
+        {
+          "match": "*CFNetwork\/711.0*",
+          "device": "general Mobile Device (Apple)",
+          "platforms": [
+            "iOS_A_8_0"
+          ]
+        },
+        {
+          "match": "*CFNetwork\/711.1*",
+          "device": "general Mobile Device (Apple)",
+          "platforms": [
+            "iOS_A_8_1"
+          ]
+        },
+        {
+          "match": "*CFNetwork\/711.2*",
+          "device": "general Mobile Device (Apple)",
+          "platforms": [
+            "iOS_A_8_2"
+          ]
+        },
+        {
+          "match": "*CFNetwork\/711.3*",
+          "device": "general Mobile Device (Apple)",
+          "platforms": [
+            "iOS_A_8_3"
+          ]
+        },
+        {
+          "match": "*CFNetwork\/711.4*",
+          "device": "general Mobile Device (Apple)",
+          "platforms": [
+            "iOS_A_8_4"
+          ]
+        },
+        {
+          "match": "*CFNetwork\/711.5*",
+          "device": "general Mobile Device (Apple)",
+          "platforms": [
+            "iOS_A_8_4"
+          ]
+        },
+        {
+          "match": "*CFNetwork\/758*",
+          "device": "general Mobile Device (Apple)",
+          "platforms": [
+            "iOS_A_9_0"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "CFNetwork for MacOSX",
+      "platform": "MacOSX",
       "engine": "WebKit",
       "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "CFNetwork",
+        "Comment": "CFNetwork for MacOSX",
         "Browser": "CFNetwork",
         "Browser_Type": "Application",
         "Browser_Maker": "Apple Inc",
@@ -102,48 +258,6 @@
           ]
         },
         {
-          "match": "*CFNetwork\/459*",
-          "device": "general Mobile Device (Apple)",
-          "platforms": [
-            "iOS_A_3_1"
-          ]
-        },
-        {
-          "match": "*CFNetwork\/467.12*",
-          "device": "general Mobile Device (Apple)",
-          "platforms": [
-            "iOS_A_3_2"
-          ]
-        },
-        {
-          "match": "*CFNetwork\/485.2*",
-          "device": "general Mobile Device (Apple)",
-          "platforms": [
-            "iOS_A_4_0"
-          ]
-        },
-        {
-          "match": "*CFNetwork\/485.10*",
-          "device": "general Mobile Device (Apple)",
-          "platforms": [
-            "iOS_A_4_1"
-          ]
-        },
-        {
-          "match": "*CFNetwork\/485.12*",
-          "device": "general Mobile Device (Apple)",
-          "platforms": [
-            "iOS_A_4_2"
-          ]
-        },
-        {
-          "match": "*CFNetwork\/485.13*",
-          "device": "general Mobile Device (Apple)",
-          "platforms": [
-            "iOS_A_4_3"
-          ]
-        },
-        {
           "match": "*CFNetwork\/515*",
           "platforms": [
             "OSX_10_7_A"
@@ -153,20 +267,6 @@
           "match": "*CFNetwork\/520*",
           "platforms": [
             "OSX_10_7_A"
-          ]
-        },
-        {
-          "match": "*CFNetwork\/548.1*",
-          "device": "general Mobile Device (Apple)",
-          "platforms": [
-            "iOS_A_5_1"
-          ]
-        },
-        {
-          "match": "*CFNetwork\/548.0*",
-          "device": "general Mobile Device (Apple)",
-          "platforms": [
-            "iOS_A_5_0"
           ]
         },
         {
@@ -188,44 +288,9 @@
           ]
         },
         {
-          "match": "*CFNetwork\/602*",
-          "device": "general Mobile Device (Apple)",
-          "platforms": [
-            "iOS_A_6_0"
-          ]
-        },
-        {
-          "match": "*CFNetwork\/609.1*",
-          "device": "general Mobile Device (Apple)",
-          "platforms": [
-            "iOS_A_6_1"
-          ]
-        },
-        {
-          "match": "*CFNetwork\/609*",
-          "device": "general Mobile Device (Apple)",
-          "platforms": [
-            "iOS_A_6_0"
-          ]
-        },
-        {
           "match": "*CFNetwork\/647*",
           "platforms": [
             "OSX_10_9_A"
-          ]
-        },
-        {
-          "match": "*CFNetwork\/672.0*",
-          "device": "general Mobile Device (Apple)",
-          "platforms": [
-            "iOS_A_7_0"
-          ]
-        },
-        {
-          "match": "*CFNetwork\/672.1*",
-          "device": "general Mobile Device (Apple)",
-          "platforms": [
-            "iOS_A_7_1"
           ]
         },
         {
@@ -265,48 +330,6 @@
           ]
         },
         {
-          "match": "*CFNetwork\/711.0*",
-          "device": "general Mobile Device (Apple)",
-          "platforms": [
-            "iOS_A_8_0"
-          ]
-        },
-        {
-          "match": "*CFNetwork\/711.1*",
-          "device": "general Mobile Device (Apple)",
-          "platforms": [
-            "iOS_A_8_1"
-          ]
-        },
-        {
-          "match": "*CFNetwork\/711.2*",
-          "device": "general Mobile Device (Apple)",
-          "platforms": [
-            "iOS_A_8_2"
-          ]
-        },
-        {
-          "match": "*CFNetwork\/711.3*",
-          "device": "general Mobile Device (Apple)",
-          "platforms": [
-            "iOS_A_8_3"
-          ]
-        },
-        {
-          "match": "*CFNetwork\/711.4*",
-          "device": "general Mobile Device (Apple)",
-          "platforms": [
-            "iOS_A_8_4"
-          ]
-        },
-        {
-          "match": "*CFNetwork\/711.5*",
-          "device": "general Mobile Device (Apple)",
-          "platforms": [
-            "iOS_A_8_4"
-          ]
-        },
-        {
           "match": "*CFNetwork\/714*",
           "platforms": [
             "OSX_10_10_A"
@@ -325,18 +348,27 @@
           ]
         },
         {
-          "match": "*CFNetwork\/758*",
-          "device": "general Mobile Device (Apple)",
-          "platforms": [
-            "iOS_A_9_0"
-          ]
-        },
-        {
           "match": "*CFNetwork\/760*",
           "platforms": [
             "OSX_10_11_A"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "userAgent": "CFNetwork Generic",
+      "platform": "Darwin",
+      "engine": "WebKit",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "CFNetwork Generic",
+        "Browser": "CFNetwork",
+        "Browser_Type": "Application",
+        "Browser_Maker": "Apple Inc",
+        "Crawler": "false"
+      },
+      "children": [
         {
           "match": "*CFNetwork*",
           "properties": {
