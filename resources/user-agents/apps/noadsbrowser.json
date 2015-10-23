@@ -28,7 +28,7 @@
       },
       "children": [
         {
-          "match": "noadsbrowser* CFNetwork\/#PLATFORM#",
+          "match": "noadsbrowser* CFNetwork\/*",
           "platforms": [
             "Darwin"
           ]

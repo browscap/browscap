@@ -28,7 +28,7 @@
       },
       "children": [
         {
-          "match": "MyNews* CFNetwork\/#PLATFORM#",
+          "match": "MyNews* CFNetwork\/*",
           "platforms": [
             "Darwin"
           ]

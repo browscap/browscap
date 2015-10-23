@@ -21,7 +21,7 @@
       },
       "children": [
         {
-          "match": "Y!%20Messenger\/* CFNetwork\/#PLATFORM#",
+          "match": "Y!%20Messenger\/* CFNetwork\/*",
           "platforms": [
             "Darwin"
           ]

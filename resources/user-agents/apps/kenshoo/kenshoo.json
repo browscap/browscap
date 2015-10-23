@@ -56,6 +56,12 @@
           ]
         },
         {
+          "match": "Kenshoo\/* CFNetwork\/467.12*",
+          "platforms": [
+            "iOS_A_3_2"
+          ]
+        },
+        {
           "match": "Kenshoo\/* CFNetwork\/485.2*",
           "platforms": [
             "iOS_A_4_0"
@@ -89,6 +95,12 @@
           "match": "Kenshoo\/* CFNetwork\/548.0*",
           "platforms": [
             "iOS_A_5_0"
+          ]
+        },
+        {
+          "match": "Kenshoo\/* CFNetwork\/602*",
+          "platforms": [
+            "iOS_A_6_0"
           ]
         },
         {
@@ -158,7 +170,8 @@
           ]
         },
         {
-          "match": "Kenshoo\/* CFNetwork\/#PLATFORM#",
+          "match": "Kenshoo\/* CFNetwork\/*",
+          "device": "Macintosh",
           "platforms": [
             "Darwin"
           ]

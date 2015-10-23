@@ -31,6 +31,12 @@
           ]
         },
         {
+          "match": "Google\/#MAJORVER#.#MINORVER#* CFNetwork\/467.12*",
+          "platforms": [
+            "iOS_A_3_2"
+          ]
+        },
+        {
           "match": "Google\/#MAJORVER#.#MINORVER#* CFNetwork\/485.2*",
           "platforms": [
             "iOS_A_4_0"
@@ -64,6 +70,12 @@
           "match": "Google\/#MAJORVER#.#MINORVER#* CFNetwork\/548.0*",
           "platforms": [
             "iOS_A_5_0"
+          ]
+        },
+        {
+          "match": "Google\/#MAJORVER#.#MINORVER#* CFNetwork\/602*",
+          "platforms": [
+            "iOS_A_6_0"
           ]
         },
         {
@@ -133,7 +145,8 @@
           ]
         },
         {
-          "match": "Google\/#MAJORVER#.#MINORVER#* CFNetwork\/#PLATFORM#",
+          "match": "Google\/#MAJORVER#.#MINORVER#* CFNetwork\/*",
+          "device": "Macintosh",
           "platforms": [
             "Darwin"
           ]

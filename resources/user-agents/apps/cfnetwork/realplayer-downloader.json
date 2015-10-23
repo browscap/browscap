@@ -28,7 +28,7 @@
       },
       "children": [
         {
-          "match": "RealPlayer%20Downloader* CFNetwork\/#PLATFORM#",
+          "match": "RealPlayer%20Downloader* CFNetwork\/*",
           "platforms": [
             "Darwin"
           ]

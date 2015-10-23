@@ -120,7 +120,8 @@
           }
         },
         {
-          "match": "iBrowse\/2.60 CFNetwork\/#PLATFORM#",
+          "match": "iBrowse\/2.60 CFNetwork\/*",
+          "device": "Macintosh",
           "properties": {
             "Version": "2.6",
             "MajorVer": "2",

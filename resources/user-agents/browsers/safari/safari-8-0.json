@@ -189,7 +189,7 @@
           ]
         },
         {
-          "match": "Safari\/10???.* CFNetwork\/#PLATFORM#",
+          "match": "Safari\/10???.* CFNetwork\/*",
           "platforms": [
             "Darwin_64", "Darwin"
           ]

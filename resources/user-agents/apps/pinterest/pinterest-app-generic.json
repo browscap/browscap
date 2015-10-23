@@ -100,6 +100,13 @@
           ]
         },
         {
+          "match": "Pinterest\/* CFNetwork\/467.12*",
+          "device": "general Mobile Device (Apple)",
+          "platforms": [
+            "iOS_A_3_2"
+          ]
+        },
+        {
           "match": "Pinterest\/* CFNetwork\/485.2*",
           "device": "general Mobile Device (Apple)",
           "platforms": [
@@ -139,6 +146,13 @@
           "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A_5_0"
+          ]
+        },
+        {
+          "match": "Pinterest\/* CFNetwork\/602*",
+          "device": "general Mobile Device (Apple)",
+          "platforms": [
+            "iOS_A_6_0"
           ]
         },
         {
@@ -219,8 +233,8 @@
           ]
         },
         {
-          "match": "Pinterest\/* CFNetwork\/* Darwin\/*",
-          "device": "general Mobile Device (Apple)",
+          "match": "Pinterest\/* CFNetwork\/*",
+          "device": "Macintosh",
           "platforms": [
             "Darwin"
           ]

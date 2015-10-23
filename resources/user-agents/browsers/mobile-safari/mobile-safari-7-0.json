@@ -130,6 +130,12 @@
           ]
         },
         {
+          "match": "MobileSafari\/95??.* CFNetwork\/602*",
+          "platforms": [
+            "iOS_A_6_0"
+          ]
+        },
+        {
           "match": "MobileSafari\/95??.* CFNetwork\/609.1*",
           "platforms": [
             "iOS_A_6_1"
@@ -196,7 +202,7 @@
           ]
         },
         {
-          "match": "MobileSafari\/95??.* CFNetwork\/#PLATFORM#",
+          "match": "MobileSafari\/95??.* CFNetwork\/*",
           "platforms": [
             "Darwin"
           ]

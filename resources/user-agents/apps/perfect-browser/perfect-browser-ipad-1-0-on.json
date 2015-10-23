@@ -38,6 +38,12 @@
           ]
         },
         {
+          "match": "Perfect%20Browser-iPad\/#MAJORVER#.#MINORVER#* CFNetwork\/467.12*",
+          "platforms": [
+            "iOS_A_3_2"
+          ]
+        },
+        {
           "match": "Perfect%20Browser-iPad\/#MAJORVER#.#MINORVER#* CFNetwork\/485.2*",
           "platforms": [
             "iOS_A_4_0"
@@ -71,6 +77,12 @@
           "match": "Perfect%20Browser-iPad\/#MAJORVER#.#MINORVER#* CFNetwork\/548.0*",
           "platforms": [
             "iOS_A_5_0"
+          ]
+        },
+        {
+          "match": "Perfect%20Browser-iPad\/#MAJORVER#.#MINORVER#* CFNetwork\/602*",
+          "platforms": [
+            "iOS_A_6_0"
           ]
         },
         {
@@ -140,7 +152,8 @@
           ]
         },
         {
-          "match": "Perfect%20Browser-iPad\/#MAJORVER#.#MINORVER#* CFNetwork\/#PLATFORM#",
+          "match": "Perfect%20Browser-iPad\/#MAJORVER#.#MINORVER#* CFNetwork\/*",
+          "device": "Macintosh",
           "platforms": [
             "Darwin"
           ]
