@@ -2786,7 +2786,7 @@ return [
             'Version' => '8.0',
             'MajorVer' => '8',
             'MinorVer' => '0',
-            'Platform' => 'MaxOSX',
+            'Platform' => 'MacOSX',
             'Platform_Version' => '10.10',
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Apple Inc',
