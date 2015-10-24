@@ -13,7 +13,7 @@ return [
             'MajorVer' => '2',
             'MinorVer' => '1',
             'Platform' => 'iOS',
-            'Platform_Version' => '6.0',
+            'Platform_Version' => '8.3',
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Apple Inc',
             'Win64' => false,
@@ -21,7 +21,7 @@ return [
             'isTablet' => false,
             'Crawler' => true,
             'JavaScript' => true,
-            'Cookies' => true,
+            'Cookies' => false,
             'Frames' => true,
             'IFrames' => true,
             'Tables' => true,
@@ -39,6 +39,6 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
-        'lite' => true,
+        'lite' => false,
     ]
 ];

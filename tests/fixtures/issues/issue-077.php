@@ -79,7 +79,7 @@ return [
             'isTablet' => false,
             'Crawler' => true,
             'JavaScript' => true,
-            'Cookies' => true,
+            'Cookies' => false,
             'Frames' => true,
             'IFrames' => true,
             'Tables' => true,
