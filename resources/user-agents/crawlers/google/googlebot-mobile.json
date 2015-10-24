@@ -25,9 +25,6 @@
         {
           "match": "*Googlebot-Mobile\/2.*",
           "properties": {
-            "Frames": "false",
-            "IFrames": "false",
-            "Tables": "false",
             "Version": "2.0",
             "MajorVer": "2",
             "MinorVer": "0"

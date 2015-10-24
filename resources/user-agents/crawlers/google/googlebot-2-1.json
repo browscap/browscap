@@ -28,6 +28,7 @@
         {
           "match": "Mozilla\/5.0*(iPhone#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/*Safari\/* (compatible; Googlebot\/#MAJORVER#.#MINORVER#*",
           "device": "iPhone",
+          "engine": "WebKit",
           "platforms": [
             "iOS_A_6_0", "iOS_A_8_3"
           ]
@@ -38,6 +39,7 @@
         {
           "match": "Mozilla\/5.0 (Windows; U*Gecko\/* Googlebot?#MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
+          "engine": "Gecko",
           "platforms": [
             "Windows"
           ]
@@ -45,6 +47,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Googlebot?#MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
+          "engine": "Gecko",
           "platforms": [
             "WinXPa_32", "WinXPb_32", "Vista_32"
           ]
