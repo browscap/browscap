@@ -12,9 +12,10 @@
         "Browser_Type": "Bot/Crawler",
         "Crawler": "true",
         "Browser": "Google Bot",
-        "Frames": "false",
-        "IFrames": "false",
-        "Tables": "false"
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "JavaScript": "true"
       },
       "children": [
         {

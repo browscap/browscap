@@ -10,9 +10,9 @@
         "Comment": "Google Feedfetcher",
         "Browser_Maker": "Google Inc",
         "Browser_Type": "Bot/Crawler",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
+        "Frames": "false",
+        "IFrames": "false",
+        "Tables": "false",
         "Crawler": "true",
         "Browser": "Google Feedfetcher",
         "isSyndicationReader": "true"

@@ -13,9 +13,10 @@
         "Browser_Type": "Bot/Crawler",
         "Crawler": "true",
         "Browser": "Google Bot",
-        "Frames": "false",
-        "IFrames": "false",
-        "Tables": "false",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "JavaScript": "true",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#"
@@ -28,7 +29,7 @@
           "match": "Mozilla\/5.0*(iPhone#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/*Safari\/* (compatible; Googlebot\/#MAJORVER#.#MINORVER#*",
           "device": "iPhone",
           "platforms": [
-            "iOS_A_6_0"
+            "iOS_A_6_0", "iOS_A_8_3"
           ]
         },
         {

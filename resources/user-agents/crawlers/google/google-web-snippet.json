@@ -12,6 +12,7 @@
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
+        "JavaScript": "true",
         "Crawler": "true",
         "Comment": "Google Web Snippet",
         "Browser": "Google Web Snippet"

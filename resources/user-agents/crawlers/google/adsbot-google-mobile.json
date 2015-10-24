@@ -13,6 +13,7 @@
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
+        "JavaScript": "true",
         "Crawler": "true",
         "Browser": "AdsBot Google-Mobile"
       },
