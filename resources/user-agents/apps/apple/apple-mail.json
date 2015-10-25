@@ -58,13 +58,13 @@
       ]
     },
     {
-      "userAgent": "Apple Mail for Darwin and OSX",
-      "platform": "OSX",
+      "userAgent": "Apple Mail for Darwin",
+      "platform": "iOS",
       "engine": "WebKit",
-      "device": "Macintosh",
+      "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Apple Mail for Darwin and OSX",
+        "Comment": "Apple Mail for Darwin",
         "Browser": "Apple Mail",
         "Browser_Type": "Email Client",
         "Browser_Maker": "Apple Inc",
@@ -83,11 +83,159 @@
       },
       "children": [
         {
-          "match": "Mail\/* CFNetwork\/#PLATFORM#",
+          "match": "Mail\/* CFNetwork\/459*",
+          "platforms": [
+            "iOS_A_3_1"
+          ]
+        },
+        {
+          "match": "Mail\/* CFNetwork\/467.12*",
+          "platforms": [
+            "iOS_A_3_2"
+          ]
+        },
+        {
+          "match": "Mail\/* CFNetwork\/485.2*",
+          "platforms": [
+            "iOS_A_4_0"
+          ]
+        },
+        {
+          "match": "Mail\/* CFNetwork\/485.10*",
+          "platforms": [
+            "iOS_A_4_1"
+          ]
+        },
+        {
+          "match": "Mail\/* CFNetwork\/485.12*",
+          "platforms": [
+            "iOS_A_4_2"
+          ]
+        },
+        {
+          "match": "Mail\/* CFNetwork\/485.13*",
+          "platforms": [
+            "iOS_A_4_3"
+          ]
+        },
+        {
+          "match": "Mail\/* CFNetwork\/548.1*",
+          "platforms": [
+            "iOS_A_5_1"
+          ]
+        },
+        {
+          "match": "Mail\/* CFNetwork\/548.0*",
+          "platforms": [
+            "iOS_A_5_0"
+          ]
+        },
+        {
+          "match": "Mail\/* CFNetwork\/602*",
+          "platforms": [
+            "iOS_A_6_0"
+          ]
+        },
+        {
+          "match": "Mail\/* CFNetwork\/609.1*",
+          "platforms": [
+            "iOS_A_6_1"
+          ]
+        },
+        {
+          "match": "Mail\/* CFNetwork\/609*",
+          "platforms": [
+            "iOS_A_6_0"
+          ]
+        },
+        {
+          "match": "Mail\/* CFNetwork\/672.0*",
+          "platforms": [
+            "iOS_A_7_0"
+          ]
+        },
+        {
+          "match": "Mail\/* CFNetwork\/672.1*",
+          "platforms": [
+            "iOS_A_7_1"
+          ]
+        },
+        {
+          "match": "Mail\/* CFNetwork\/711.0*",
+          "platforms": [
+            "iOS_A_8_0"
+          ]
+        },
+        {
+          "match": "Mail\/* CFNetwork\/711.1*",
+          "platforms": [
+            "iOS_A_8_1"
+          ]
+        },
+        {
+          "match": "Mail\/* CFNetwork\/711.2*",
+          "platforms": [
+            "iOS_A_8_2"
+          ]
+        },
+        {
+          "match": "Mail\/* CFNetwork\/711.3*",
+          "platforms": [
+            "iOS_A_8_3"
+          ]
+        },
+        {
+          "match": "Mail\/* CFNetwork\/711.4*",
+          "platforms": [
+            "iOS_A_8_4"
+          ]
+        },
+        {
+          "match": "Mail\/* CFNetwork\/711.5*",
+          "platforms": [
+            "iOS_A_8_4"
+          ]
+        },
+        {
+          "match": "Mail\/* CFNetwork\/758*",
+          "platforms": [
+            "iOS_A_9_0"
+          ]
+        },
+        {
+          "match": "Mail\/* CFNetwork\/*",
+          "device": "Macintosh",
           "platforms": [
             "Darwin"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "userAgent": "Apple Mail for OSX",
+      "platform": "OSX",
+      "engine": "WebKit",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Apple Mail for OSX",
+        "Browser": "Apple Mail",
+        "Browser_Type": "Email Client",
+        "Browser_Maker": "Apple Inc",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Frames": "false",
+        "IFrames": "false",
+        "Tables": "false",
+        "Cookies": "false",
+        "JavaScript": "false",
+        "Crawler": "false",
+        "isSyndicationReader": "false"
+      },
+      "children": [
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit* (KHTML, like Gecko)",
           "properties": {
@@ -121,7 +269,7 @@
           },
           "device": "Macintosh",
           "platforms": [
-           "OSX_10_8_A", "OSX_10_8_B"
+            "OSX_10_8_A", "OSX_10_8_B"
           ]
         },
         {

@@ -28,7 +28,7 @@
       },
       "children": [
         {
-          "match": "Snowtape* CFNetwork\/#PLATFORM#",
+          "match": "Snowtape* CFNetwork\/*",
           "platforms": [
             "Darwin"
           ]

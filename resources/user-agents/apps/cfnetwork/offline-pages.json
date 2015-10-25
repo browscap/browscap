@@ -20,7 +20,7 @@
       },
       "children": [
         {
-          "match": "OfflinePages\/* CFNetwork\/#PLATFORM#",
+          "match": "OfflinePages\/* CFNetwork\/*",
           "platforms": [
             "Darwin"
           ]

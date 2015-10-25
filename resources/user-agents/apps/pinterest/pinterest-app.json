@@ -67,7 +67,148 @@
           ]
         },
         {
-          "match": "Pinterest\/#MAJORVER#.#MINORVER#* CFNetwork\/* Darwin\/*",
+          "match": "Pinterest\/#MAJORVER#.#MINORVER#* CFNetwork\/459*",
+          "device": "general Mobile Device (Apple)",
+          "platforms": [
+            "iOS_A_3_1"
+          ]
+        },
+        {
+          "match": "Pinterest\/#MAJORVER#.#MINORVER#* CFNetwork\/467.12*",
+          "device": "general Mobile Device (Apple)",
+          "platforms": [
+            "iOS_A_3_2"
+          ]
+        },
+        {
+          "match": "Pinterest\/#MAJORVER#.#MINORVER#* CFNetwork\/485.2*",
+          "device": "general Mobile Device (Apple)",
+          "platforms": [
+            "iOS_A_4_0"
+          ]
+        },
+        {
+          "match": "Pinterest\/#MAJORVER#.#MINORVER#* CFNetwork\/485.10*",
+          "device": "general Mobile Device (Apple)",
+          "platforms": [
+            "iOS_A_4_1"
+          ]
+        },
+        {
+          "match": "Pinterest\/#MAJORVER#.#MINORVER#* CFNetwork\/485.12*",
+          "device": "general Mobile Device (Apple)",
+          "platforms": [
+            "iOS_A_4_2"
+          ]
+        },
+        {
+          "match": "Pinterest\/#MAJORVER#.#MINORVER#* CFNetwork\/485.13*",
+          "device": "general Mobile Device (Apple)",
+          "platforms": [
+            "iOS_A_4_3"
+          ]
+        },
+        {
+          "match": "Pinterest\/#MAJORVER#.#MINORVER#* CFNetwork\/548.1*",
+          "device": "general Mobile Device (Apple)",
+          "platforms": [
+            "iOS_A_5_1"
+          ]
+        },
+        {
+          "match": "Pinterest\/#MAJORVER#.#MINORVER#* CFNetwork\/548.0*",
+          "device": "general Mobile Device (Apple)",
+          "platforms": [
+            "iOS_A_5_0"
+          ]
+        },
+        {
+          "match": "Pinterest\/#MAJORVER#.#MINORVER#* CFNetwork\/602*",
+          "device": "general Mobile Device (Apple)",
+          "platforms": [
+            "iOS_A_6_0"
+          ]
+        },
+        {
+          "match": "Pinterest\/#MAJORVER#.#MINORVER#* CFNetwork\/609.1*",
+          "device": "general Mobile Device (Apple)",
+          "platforms": [
+            "iOS_A_6_1"
+          ]
+        },
+        {
+          "match": "Pinterest\/#MAJORVER#.#MINORVER#* CFNetwork\/609*",
+          "device": "general Mobile Device (Apple)",
+          "platforms": [
+            "iOS_A_6_0"
+          ]
+        },
+        {
+          "match": "Pinterest\/#MAJORVER#.#MINORVER#* CFNetwork\/672.0*",
+          "device": "general Mobile Device (Apple)",
+          "platforms": [
+            "iOS_A_7_0"
+          ]
+        },
+        {
+          "match": "Pinterest\/#MAJORVER#.#MINORVER#* CFNetwork\/672.1*",
+          "device": "general Mobile Device (Apple)",
+          "platforms": [
+            "iOS_A_7_1"
+          ]
+        },
+        {
+          "match": "Pinterest\/#MAJORVER#.#MINORVER#* CFNetwork\/711.0*",
+          "device": "general Mobile Device (Apple)",
+          "platforms": [
+            "iOS_A_8_0"
+          ]
+        },
+        {
+          "match": "Pinterest\/#MAJORVER#.#MINORVER#* CFNetwork\/711.1*",
+          "device": "general Mobile Device (Apple)",
+          "platforms": [
+            "iOS_A_8_1"
+          ]
+        },
+        {
+          "match": "Pinterest\/#MAJORVER#.#MINORVER#* CFNetwork\/711.2*",
+          "device": "general Mobile Device (Apple)",
+          "platforms": [
+            "iOS_A_8_2"
+          ]
+        },
+        {
+          "match": "Pinterest\/#MAJORVER#.#MINORVER#* CFNetwork\/711.3*",
+          "device": "general Mobile Device (Apple)",
+          "platforms": [
+            "iOS_A_8_3"
+          ]
+        },
+        {
+          "match": "Pinterest\/#MAJORVER#.#MINORVER#* CFNetwork\/711.4*",
+          "device": "general Mobile Device (Apple)",
+          "platforms": [
+            "iOS_A_8_4"
+          ]
+        },
+        {
+          "match": "Pinterest\/#MAJORVER#.#MINORVER#* CFNetwork\/711.5*",
+          "device": "general Mobile Device (Apple)",
+          "platforms": [
+            "iOS_A_8_4"
+          ]
+        },
+        {
+          "match": "Pinterest\/#MAJORVER#.#MINORVER#* CFNetwork\/758*",
+          "device": "general Mobile Device (Apple)",
+          "platforms": [
+            "iOS_A_9_0"
+          ]
+        },
+        {
+          "match": "Pinterest\/#MAJORVER#.#MINORVER#* CFNetwork\/*",
+          "device": "Macintosh",
           "platforms": [
             "Darwin"
           ]

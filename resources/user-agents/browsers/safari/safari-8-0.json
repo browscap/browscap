@@ -105,7 +105,91 @@
       },
       "children": [
         {
-          "match": "Safari\/10???.* CFNetwork\/#PLATFORM#",
+          "match": "Safari\/10???.* CFNetwork\/128*",
+          "platforms": [
+            "OSX_10_4_A"
+          ]
+        },
+        {
+          "match": "Safari\/10???.* CFNetwork\/129*",
+          "platforms": [
+            "OSX_10_4_A"
+          ]
+        },
+        {
+          "match": "Safari\/10???.* CFNetwork\/217*",
+          "platforms": [
+            "OSX_10_5_A"
+          ]
+        },
+        {
+          "match": "Safari\/10???.* CFNetwork\/220*",
+          "platforms": [
+            "OSX_10_5_A"
+          ]
+        },
+        {
+          "match": "Safari\/10???.* CFNetwork\/221*",
+          "platforms": [
+            "OSX_10_5_A"
+          ]
+        },
+        {
+          "match": "Safari\/10???.* CFNetwork\/330*",
+          "platforms": [
+            "OSX_10_5_A"
+          ]
+        },
+        {
+          "match": "Safari\/10???.* CFNetwork\/339*",
+          "platforms": [
+            "OSX_10_5_A"
+          ]
+        },
+        {
+          "match": "Safari\/10???.* CFNetwork\/422*",
+          "platforms": [
+            "OSX_10_5_A"
+          ]
+        },
+        {
+          "match": "Safari\/10???.* CFNetwork\/438*",
+          "platforms": [
+            "OSX_10_5_A"
+          ]
+        },
+        {
+          "match": "Safari\/10???.* CFNetwork\/454*",
+          "platforms": [
+            "OSX_10_6_A"
+          ]
+        },
+        {
+          "match": "Safari\/10???.* CFNetwork\/520*",
+          "platforms": [
+            "OSX_10_7_A"
+          ]
+        },
+        {
+          "match": "Safari\/10???.* CFNetwork\/596*",
+          "platforms": [
+            "OSX_10_8_A"
+          ]
+        },
+        {
+          "match": "Safari\/10???.* CFNetwork\/673*",
+          "platforms": [
+            "OSX_10_9_A"
+          ]
+        },
+        {
+          "match": "Safari\/10???.* CFNetwork\/720*",
+          "platforms": [
+            "OSX_10_10_A"
+          ]
+        },
+        {
+          "match": "Safari\/10???.* CFNetwork\/*",
           "platforms": [
             "Darwin_64", "Darwin"
           ]

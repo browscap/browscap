@@ -54,6 +54,14 @@
       "match": "*Macintosh; OS X*",
       "inherits": "OSX"
     },
+    "OSX_10_2_A": {
+      "match": "*Mac OS X 10_2*",
+      "lite": false,
+      "inherits": "OSX",
+      "properties": {
+        "Platform_Version": "10.2"
+      }
+    },
     "OSX_10_3_A": {
       "match": "*Mac OS X 10_3*",
       "lite": false,

@@ -21,7 +21,7 @@
       },
       "children": [
         {
-          "match": "Bing\/2.2* CFNetwork\/#PLATFORM#",
+          "match": "Bing\/2.2* CFNetwork\/*",
           "properties": {
             "Version": "2.2",
             "MajorVer": "2",
@@ -32,7 +32,7 @@
           ]
         },
         {
-          "match": "Bing\/* CFNetwork\/#PLATFORM#",
+          "match": "Bing\/* CFNetwork\/*",
           "platforms": [
             "Darwin"
           ]

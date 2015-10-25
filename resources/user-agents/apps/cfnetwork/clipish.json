@@ -28,7 +28,7 @@
       },
       "children": [
         {
-          "match": "Clipish\/9.26* CFNetwork\/#PLATFORM#",
+          "match": "Clipish\/9.26* CFNetwork\/*",
           "properties": {
             "Version": "9.26",
             "MajorVer": "9",
@@ -39,7 +39,7 @@
           ]
         },
         {
-          "match": "Clipish\/* CFNetwork\/#PLATFORM#",
+          "match": "Clipish\/* CFNetwork\/*",
           "platforms": [
             "Darwin"
           ]
