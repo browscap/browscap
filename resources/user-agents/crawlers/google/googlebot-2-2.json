@@ -13,9 +13,10 @@
         "Browser_Type": "Bot/Crawler",
         "Crawler": "true",
         "Browser": "Google Bot",
-        "Frames": "false",
-        "IFrames": "false",
-        "Tables": "false",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "JavaScript": "true",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#"
@@ -27,6 +28,7 @@
         {
           "match": "Mozilla\/5.0 (Windows; U*Gecko\/* Googlebot\/#MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
+          "engine": "Gecko",
           "platforms": [
             "Windows"
           ]
@@ -34,6 +36,7 @@
         {
           "match": "Mozilla\/5.0 (Windows; U*Gecko\/* Googlebot?#MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
+          "engine": "Gecko",
           "platforms": [
             "Windows"
           ]
@@ -41,6 +44,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Googlebot?#MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
+          "engine": "Gecko",
           "platforms": [
             "WinXPa_32"
           ]

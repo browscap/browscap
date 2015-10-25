@@ -9,9 +9,9 @@
         "Parent": "DefaultProperties",
         "Browser_Maker": "Google Inc",
         "Browser_Type": "Bot/Crawler",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
+        "Frames": "false",
+        "IFrames": "false",
+        "Tables": "false",
         "Crawler": "true",
         "Comment": "Google Image Proxy",
         "Browser": "Google Image Proxy"

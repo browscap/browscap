@@ -19,7 +19,10 @@
         "Win32": "false",
         "Win64": "false",
         "Cookies": "false",
-        "JavaScript": "false",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "JavaScript": "true",
         "isSyndicationReader": "false",
         "Crawler": "false"
       },
