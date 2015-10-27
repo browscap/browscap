@@ -2585,23 +2585,43 @@
     },
     "AndroidMobile_4_0": {
       "match": "*Android 4.0*Mobile*",
-      "inherits": "Android"
+      "lite": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "4.0"
+      }
     },
     "AndroidMobile_4_1": {
       "match": "*Android 4.1*Mobile*",
-      "inherits": "Android"
+      "lite": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "4.1"
+      }
     },
     "AndroidMobile_4_2": {
       "match": "*Android 4.2*Mobile*",
-      "inherits": "Android"
+      "lite": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "4.2"
+      }
     },
     "AndroidMobile_4_3": {
       "match": "*Android 4.3*Mobile*",
-      "inherits": "Android"
+      "lite": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "4.3"
+      }
     },
     "AndroidMobile_4_4": {
       "match": "*Android 4.4*Mobile*",
-      "inherits": "Android"
+      "lite": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "4.4"
+      }
     },
     "AndroidMobile": {
       "match": "*Android*Mobile*",
@@ -2613,23 +2633,43 @@
     },
     "AndroidTablet_4_0": {
       "match": "*Android 4.0*Tablet*",
-      "inherits": "Android"
+      "lite": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "4.0"
+      }
     },
     "AndroidTablet_4_1": {
       "match": "*Android 4.1*Tablet*",
-      "inherits": "Android"
+      "lite": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "4.1"
+      }
     },
     "AndroidTablet_4_2": {
       "match": "*Android 4.2*Tablet*",
-      "inherits": "Android"
+      "lite": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "4.2"
+      }
     },
     "AndroidTablet_4_3": {
       "match": "*Android 4.3*Tablet*",
-      "inherits": "Android"
+      "lite": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "4.3"
+      }
     },
     "AndroidTablet_4_4": {
       "match": "*Android 4.4*Tablet*",
-      "inherits": "Android"
+      "lite": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "4.4"
+      }
     },
     "AndroidTablet": {
       "match": "*Android*Tablet*",
