@@ -800,6 +800,22 @@
         "Platform_Version": "8.1"
       }
     },
+    "iOS_E_9_0": {
+      "match": "*iPhone OS?9?0*",
+      "lite": false,
+      "inherits": "iOS",
+      "properties": {
+        "Platform_Version": "9.0"
+      }
+    },
+    "iOS_E_9_1": {
+      "match": "*iPhone OS?9?1*",
+      "lite": false,
+      "inherits": "iOS",
+      "properties": {
+        "Platform_Version": "9.1"
+      }
+    },
     "iOS_F": {
       "match": "*CPU like Mac OS X*",
       "inherits": "iOS"
@@ -2567,6 +2583,46 @@
         "Platform_Version": "5.1"
       }
     },
+    "AndroidMobile_4_0": {
+      "match": "*Android 4.0*Mobile*",
+      "lite": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "4.0"
+      }
+    },
+    "AndroidMobile_4_1": {
+      "match": "*Android 4.1*Mobile*",
+      "lite": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "4.1"
+      }
+    },
+    "AndroidMobile_4_2": {
+      "match": "*Android 4.2*Mobile*",
+      "lite": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "4.2"
+      }
+    },
+    "AndroidMobile_4_3": {
+      "match": "*Android 4.3*Mobile*",
+      "lite": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "4.3"
+      }
+    },
+    "AndroidMobile_4_4": {
+      "match": "*Android 4.4*Mobile*",
+      "lite": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "4.4"
+      }
+    },
     "AndroidMobile": {
       "match": "*Android*Mobile*",
       "inherits": "Android"
@@ -2574,6 +2630,46 @@
     "AndroidLinux": {
       "match": "*Android; Linux*",
       "inherits": "Android"
+    },
+    "AndroidTablet_4_0": {
+      "match": "*Android 4.0*Tablet*",
+      "lite": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "4.0"
+      }
+    },
+    "AndroidTablet_4_1": {
+      "match": "*Android 4.1*Tablet*",
+      "lite": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "4.1"
+      }
+    },
+    "AndroidTablet_4_2": {
+      "match": "*Android 4.2*Tablet*",
+      "lite": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "4.2"
+      }
+    },
+    "AndroidTablet_4_3": {
+      "match": "*Android 4.3*Tablet*",
+      "lite": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "4.3"
+      }
+    },
+    "AndroidTablet_4_4": {
+      "match": "*Android 4.4*Tablet*",
+      "lite": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "4.4"
+      }
     },
     "AndroidTablet": {
       "match": "*Android*Tablet*",
