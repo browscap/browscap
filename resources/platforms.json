@@ -2583,12 +2583,52 @@
         "Platform_Version": "5.1"
       }
     },
+    "AndroidMobile_4_0": {
+      "match": "*Android 4.0*Mobile*",
+      "inherits": "Android"
+    },
+    "AndroidMobile_4_1": {
+      "match": "*Android 4.1*Mobile*",
+      "inherits": "Android"
+    },
+    "AndroidMobile_4_2": {
+      "match": "*Android 4.2*Mobile*",
+      "inherits": "Android"
+    },
+    "AndroidMobile_4_3": {
+      "match": "*Android 4.3*Mobile*",
+      "inherits": "Android"
+    },
+    "AndroidMobile_4_4": {
+      "match": "*Android 4.4*Mobile*",
+      "inherits": "Android"
+    },
     "AndroidMobile": {
       "match": "*Android*Mobile*",
       "inherits": "Android"
     },
     "AndroidLinux": {
       "match": "*Android; Linux*",
+      "inherits": "Android"
+    },
+    "AndroidTablet_4_0": {
+      "match": "*Android 4.0*Tablet*",
+      "inherits": "Android"
+    },
+    "AndroidTablet_4_1": {
+      "match": "*Android 4.1*Tablet*",
+      "inherits": "Android"
+    },
+    "AndroidTablet_4_2": {
+      "match": "*Android 4.2*Tablet*",
+      "inherits": "Android"
+    },
+    "AndroidTablet_4_3": {
+      "match": "*Android 4.3*Tablet*",
+      "inherits": "Android"
+    },
+    "AndroidTablet_4_4": {
+      "match": "*Android 4.4*Tablet*",
       "inherits": "Android"
     },
     "AndroidTablet": {

@@ -208,16 +208,16 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Mobile *) Gecko\/* Firefox\/#MAJORVER#.*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/#MAJORVER#.*",
           "platforms": [
-            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android"
+            "AndroidMobile_4_0", "AndroidMobile_4_1", "AndroidMobile_4_2", "AndroidMobile_4_3", "AndroidMobile_4_4", "AndroidMobile"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Tablet *) Gecko\/* Firefox\/#MAJORVER#.*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/#MAJORVER#.*",
           "device": "general Tablet",
           "platforms": [
-            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android"
+            "AndroidTablet_4_0", "AndroidTablet_4_1", "AndroidTablet_4_2", "AndroidTablet_4_3", "AndroidTablet_4_4", "AndroidTablet"
           ]
         }
       ]
