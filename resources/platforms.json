@@ -800,6 +800,22 @@
         "Platform_Version": "8.1"
       }
     },
+    "iOS_E_9_0": {
+      "match": "*iPhone OS?9?0*",
+      "lite": false,
+      "inherits": "iOS",
+      "properties": {
+        "Platform_Version": "9.0"
+      }
+    },
+    "iOS_E_9_1": {
+      "match": "*iPhone OS?9?1*",
+      "lite": false,
+      "inherits": "iOS",
+      "properties": {
+        "Platform_Version": "9.1"
+      }
+    },
     "iOS_F": {
       "match": "*CPU like Mac OS X*",
       "inherits": "iOS"

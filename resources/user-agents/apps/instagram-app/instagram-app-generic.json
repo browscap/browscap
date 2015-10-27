@@ -1,22 +1,18 @@
 {
-  "division": "Instagram App #MAJORVER#.#MINORVER#",
-  "versions": ["7.8", "7.7", "7.6", "7.5", "7.4", "7.3", "7.2", "7.1", 7, 6, 5, "4.2", "4.1", 4, "3.4", "3.3", "3.2", "3.1", 3, 2, "1.1", 1],
-  "sortIndex": 1990,
+  "division": "Instagram App Generic",
+  "sortIndex": 1991,
   "lite": false,
   "userAgents": [
     {
-      "userAgent": "Instagram App #MAJORVER#.#MINORVER#",
+      "userAgent": "Instagram App Generic",
       "engine": "WebKit",
       "device": "iPhone",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Instagram App #MAJORVER#.#MINORVER#",
+        "Comment": "Instagram App Generic",
         "Browser": "Instagram App",
         "Browser_Type": "Application",
         "Browser_Maker": "Facebook",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
@@ -26,7 +22,7 @@
       },
       "children": [
         {
-          "match": "Instagram #MAJORVER#.#MINORVER#* (iPhone#PLATFORM#) AppleWebKit\/*",
+          "match": "Instagram* (iPhone#PLATFORM#) AppleWebKit\/*",
           "device": "iPhone",
           "platforms": [
             "iOS_E_5_0", "iOS_E_5_1", "iOS_E_6_0", "iOS_E_6_1", "iOS_E_7_0", "iOS_E_7_1", "iOS_E_8_0", "iOS_E_8_1", "iOS_E_9_0", "iOS_E_9_1",
@@ -34,7 +30,7 @@
           ]
         },
         {
-          "match": "Instagram #MAJORVER#.#MINORVER#* (iPad#PLATFORM#) AppleWebKit\/*",
+          "match": "Instagram* (iPad#PLATFORM#) AppleWebKit\/*",
           "device": "iPad",
           "platforms": [
             "iOS_E_5_0", "iOS_E_5_1", "iOS_E_6_0", "iOS_E_6_1", "iOS_E_7_0", "iOS_E_7_1", "iOS_E_8_0", "iOS_E_8_1", "iOS_E_9_0", "iOS_E_9_1",
@@ -42,7 +38,7 @@
           ]
         },
         {
-          "match": "Instagram #MAJORVER#.#MINORVER#* (#PLATFORM#) AppleWebKit\/*",
+          "match": "Instagram* (#PLATFORM#) AppleWebKit\/*",
           "platforms": [
             "iOS_A_4_3", "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0", "iOS_A_8_1", "iOS_A_9_0", "iOS_A_9_1",
             "iOS_A",
@@ -51,7 +47,7 @@
           ]
         },
         {
-          "match": "Instagram #MAJORVER#.#MINORVER#* Android*",
+          "match": "Instagram* Android*",
           "platforms": [
             "Android"
           ]
