@@ -20,11 +20,11 @@ return [
             'isMobileDevice' => false,
             'isTablet' => false,
             'Crawler' => true,
-            'JavaScript' => false,
+            'JavaScript' => true,
             'Cookies' => false,
-            'Frames' => false,
-            'IFrames' => false,
-            'Tables' => false,
+            'Frames' => true,
+            'IFrames' => true,
+            'Tables' => true,
             'VBScript' => false,
             'JavaApplets' => false,
             'ActiveXControls' => false,
@@ -39,7 +39,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
-        'lite' => true,
+        'lite' => false,
     ],
     'issue-808-B' => [
         'test certificate info',
@@ -79,6 +79,6 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
-        'lite' => true,
+        'lite' => false,
     ]
 ];

@@ -8,7 +8,7 @@ return [
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Microsoft Corporation',
-            'Browser_Modus' => 'IE 9.0 Compatibility Mode',
+            'Browser_Modus' => 'unknown',
             'Version' => '11.0',
             'MajorVer' => '11',
             'MinorVer' => '0',
