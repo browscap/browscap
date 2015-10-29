@@ -10,20 +10,12 @@
         "Comment": "VoilaBot",
         "Browser": "VoilaBot",
         "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "Orange S.A.",
         "Crawler": "true"
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (*) VoilaBot*"
-        },
-        {
           "match": "Mozilla\/5.0 (*VoilaBot*"
-        },
-        {
-          "match": "Mozilla\/5.0 (*Windows NT 5.1*) VoilaBot*",
-          "platforms": [
-            "WinXPa_32"
-          ]
         }
       ]
     }
