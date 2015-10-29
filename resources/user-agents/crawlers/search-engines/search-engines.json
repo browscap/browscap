@@ -1133,6 +1133,33 @@
             "Browser": "iZSearch Bot",
             "Browser_Maker": "iZSearch"
           }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; DeuSu\/0.1*",
+          "properties": {
+            "Browser": "Werbefreie Deutsche Suchmaschine",
+            "Browser_Maker": "Michael Schoebel",
+            "Version": "0.1",
+            "MajorVer": "0",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; DeuSu\/5.0*",
+          "properties": {
+            "Browser": "Werbefreie Deutsche Suchmaschine",
+            "Browser_Maker": "Michael Schoebel",
+            "Version": "5.0",
+            "MajorVer": "5",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; DeuSu\/*",
+          "properties": {
+            "Browser": "Werbefreie Deutsche Suchmaschine",
+            "Browser_Maker": "Michael Schoebel"
+          }
         }
       ]
     }
