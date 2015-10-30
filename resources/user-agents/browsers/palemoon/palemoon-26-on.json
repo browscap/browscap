@@ -28,14 +28,14 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Goanna* Firefox\/* PaleMoon\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) Goanna* PaleMoon\/#MAJORVER#.#MINORVER#*",
           "device": "Linux Desktop",
           "platforms": [
             "Linux_64", "Linux_32", "Linux"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Goanna* Firefox\/* PaleMoon\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) Goanna* PaleMoon\/#MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
           "platforms": [
             "WinXPa_32",

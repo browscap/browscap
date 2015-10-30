@@ -1,0 +1,55 @@
+{
+  "division": "Firefox #MAJORVER#.#MINORVER# for FirefoxOS 1.4",
+  "versions": [31, 30],
+  "sortIndex": 3163,
+  "lite": false,
+  "userAgents": [
+    {
+      "userAgent": "Firefox #MAJORVER#.#MINORVER# for FirefoxOS 1.4",
+      "platform": "FirefoxOS_1_4",
+      "engine": "Gecko_Dynamic",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Firefox #MAJORVER#.#MINORVER# for FirefoxOS 1.4",
+        "Browser": "Firefox",
+        "Browser_Maker": "Mozilla Foundation",
+        "Browser_Type": "Browser",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (Mobile; ALCATELOneTouch4012X*; rv:#MAJORVER#.#MINORVER#*)*Gecko\/#MAJORVER#.#MINORVER#*Firefox\/#MAJORVER#.#MINORVER#",
+          "device": "Alcatel OT-4012X"
+        },
+        {
+          "match": "Mozilla\/5.0 (Mobile; ALCATEL ONE TOUCH 4012A; rv:#MAJORVER#.#MINORVER#*)*Gecko\/#MAJORVER#.#MINORVER#*Firefox\/#MAJORVER#.#MINORVER#",
+          "device": "Alcatel OT-4012A"
+        },
+        {
+          "match": "Mozilla\/5.0 (Mobile; LG-D300; rv:#MAJORVER#.#MINORVER#*)*Gecko\/#MAJORVER#.#MINORVER#*Firefox\/#MAJORVER#.#MINORVER#",
+          "device": "LG D300"
+        },
+        {
+          "match": "Mozilla\/5.0 (Mobile; ZTEOPEN; rv:#MAJORVER#.#MINORVER#*)*Gecko\/#MAJORVER#.#MINORVER#*Firefox\/#MAJORVER#.#MINORVER#",
+          "device": "ZTE Open"
+        },
+        {
+          "match": "Mozilla\/5.0 (Mobile; rv:#MAJORVER#.#MINORVER#*)*Gecko\/#MAJORVER#.#MINORVER#*Firefox\/#MAJORVER#.#MINORVER#"
+        },
+        {
+          "match": "Mozilla\/5.0 (Tablet; rv:#MAJORVER#.#MINORVER#*)*Gecko\/#MAJORVER#.#MINORVER#*Firefox\/#MAJORVER#.#MINORVER#",
+          "device": "general Tablet"
+        }
+      ]
+    }
+  ]
+}

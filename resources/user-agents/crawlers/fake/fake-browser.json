@@ -473,6 +473,9 @@
         },
         {
           "match": "*Window NT*"
+        },
+        {
+          "match": "Mozilla\/5.0 (Mobile; rv:*) Gecko\/20100101 Firefox\/*"
         }
       ]
     }

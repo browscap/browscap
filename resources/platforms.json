@@ -3397,6 +3397,60 @@
         "Platform_Bits": "32"
       }
     },
+    "FirefoxOS_0_x": {
+      "inherits": "FirefoxOS",
+      "properties": {
+        "Platform_Version": "0.x"
+      }
+    },
+    "FirefoxOS_1_0": {
+      "inherits": "FirefoxOS",
+      "properties": {
+        "Platform_Version": "1.0"
+      }
+    },
+    "FirefoxOS_1_1": {
+      "inherits": "FirefoxOS",
+      "properties": {
+        "Platform_Version": "1.1"
+      }
+    },
+    "FirefoxOS_1_2": {
+      "inherits": "FirefoxOS",
+      "properties": {
+        "Platform_Version": "1.2"
+      }
+    },
+    "FirefoxOS_1_3": {
+      "inherits": "FirefoxOS",
+      "properties": {
+        "Platform_Version": "1.3"
+      }
+    },
+    "FirefoxOS_1_4": {
+      "inherits": "FirefoxOS",
+      "properties": {
+        "Platform_Version": "1.4"
+      }
+    },
+    "FirefoxOS_2_0": {
+      "inherits": "FirefoxOS",
+      "properties": {
+        "Platform_Version": "2.0"
+      }
+    },
+    "FirefoxOS_2_1": {
+      "inherits": "FirefoxOS",
+      "properties": {
+        "Platform_Version": "2.1"
+      }
+    },
+    "FirefoxOS_2_2": {
+      "inherits": "FirefoxOS",
+      "properties": {
+        "Platform_Version": "2.2"
+      }
+    },
     "PalmOS": {
       "match": "*Palm OS*",
       "lite": false,
