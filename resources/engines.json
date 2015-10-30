@@ -461,6 +461,24 @@
         "ActiveXControls": "false",
         "BackgroundSounds": "false"
       }
+    },
+    "Goanna": {
+      "properties": {
+        "RenderingEngine_Name": "Goanna",
+        "RenderingEngine_Version": "unknown",
+        "RenderingEngine_Description": "a Gecko Fork by Moonchild Productions",
+        "RenderingEngine_Maker": "Moonchild Productions",
+        "VBScript": "false",
+        "JavaApplets": "true",
+        "ActiveXControls": "false",
+        "BackgroundSounds": "false"
+      }
+    },
+    "Goanna_Major_Dynamic": {
+      "inherits": "Goanna",
+      "properties": {
+        "RenderingEngine_Version": "#MAJORVER#.0"
+      }
     }
   }
 }

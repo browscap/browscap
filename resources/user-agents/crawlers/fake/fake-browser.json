@@ -403,7 +403,13 @@
           }
         },
         {
-          "match": "Mozilla\/*Windows NT 7.1*"
+          "match": "Mozilla\/*Windows NT 7*"
+        },
+        {
+          "match": "Mozilla\/*Windows NT 8*"
+        },
+        {
+          "match": "Mozilla\/*Windows NT 9*"
         },
         {
           "match": "Windows; ?; Windows*"
@@ -464,6 +470,9 @@
         },
         {
           "match": "?'*"
+        },
+        {
+          "match": "*Window NT*"
         }
       ]
     }

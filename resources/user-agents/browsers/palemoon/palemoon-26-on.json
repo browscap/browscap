@@ -1,13 +1,13 @@
 {
   "division": "Palemoon #MAJORVER#.#MINORVER#",
-  "versions": ["25.5", "25.4", "25.3", "25.2", "25.1", 25, "24.9", "24.8", "24.7", "24.6", "24.5", "24.4", "24.3", "24.2", "24.1", 24, "20.3", "20.2", "20.1", 20],
-  "sortIndex": 2660,
+  "versions": [26],
+  "sortIndex": 2659,
   "lite": false,
   "userAgents": [
     {
       "userAgent": "Palemoon #MAJORVER#.#MINORVER#",
       "device": "general Desktop",
-      "engine": "Gecko_Major_Dynamic",
+      "engine": "Goanna_Major_Dynamic",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Palemoon #MAJORVER#.#MINORVER#",
@@ -28,14 +28,14 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Firefox\/* PaleMoon\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) Goanna* Firefox\/* PaleMoon\/#MAJORVER#.#MINORVER#*",
           "device": "Linux Desktop",
           "platforms": [
             "Linux_64", "Linux_32", "Linux"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Firefox\/* PaleMoon\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) Goanna* Firefox\/* PaleMoon\/#MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
           "platforms": [
             "WinXPa_32",
@@ -48,14 +48,14 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* PaleMoon\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) Goanna* PaleMoon\/#MAJORVER#.#MINORVER#*",
           "device": "Linux Desktop",
           "platforms": [
             "Linux_64", "Linux_32", "Linux"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* PaleMoon\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) Goanna* PaleMoon\/#MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
           "platforms": [
             "WinXPa_32",
