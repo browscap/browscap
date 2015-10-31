@@ -15,7 +15,8 @@
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
-        "JavaScript": "true"
+        "JavaScript": "true",
+        "Crawler": "true"
       },
       "children": [
         {
