@@ -14,7 +14,8 @@
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
-        "Javascript": "true"
+        "Cookies": "true",
+        "JavaScript": "true"
       },
       "children": [
         {
