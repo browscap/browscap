@@ -11,9 +11,6 @@
         "Comment": "Fake Browser",
         "Browser_Type": "Bot/Crawler",
         "Browser_Maker": "unknown",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
         "Crawler": "true"
       },
       "children": [
@@ -473,9 +470,6 @@
         },
         {
           "match": "*Window NT*"
-        },
-        {
-          "match": "Mozilla\/5.0 (Mobile; rv:*) Gecko\/20100101 Firefox\/*"
         }
       ]
     }

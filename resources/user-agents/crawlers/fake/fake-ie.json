@@ -11,9 +11,6 @@
         "Comment": "Fake IE",
         "Browser_Type": "Bot/Crawler",
         "Browser_Maker": "unknown",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
         "Crawler": "true"
       },
       "children": [
