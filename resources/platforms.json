@@ -3398,54 +3398,63 @@
       }
     },
     "FirefoxOS_0_x": {
+      "match": "*Gecko\/*",
       "inherits": "FirefoxOS",
       "properties": {
         "Platform_Version": "0.x"
       }
     },
     "FirefoxOS_1_0": {
+      "match": "*Gecko\/*",
       "inherits": "FirefoxOS",
       "properties": {
         "Platform_Version": "1.0"
       }
     },
     "FirefoxOS_1_1": {
+      "match": "*Gecko\/*",
       "inherits": "FirefoxOS",
       "properties": {
         "Platform_Version": "1.1"
       }
     },
     "FirefoxOS_1_2": {
+      "match": "*Gecko\/*",
       "inherits": "FirefoxOS",
       "properties": {
         "Platform_Version": "1.2"
       }
     },
     "FirefoxOS_1_3": {
+      "match": "*Gecko\/*",
       "inherits": "FirefoxOS",
       "properties": {
         "Platform_Version": "1.3"
       }
     },
     "FirefoxOS_1_4": {
+      "match": "*Gecko\/*",
       "inherits": "FirefoxOS",
       "properties": {
         "Platform_Version": "1.4"
       }
     },
     "FirefoxOS_2_0": {
+      "match": "*Gecko\/*",
       "inherits": "FirefoxOS",
       "properties": {
         "Platform_Version": "2.0"
       }
     },
     "FirefoxOS_2_1": {
+      "match": "*Gecko\/*",
       "inherits": "FirefoxOS",
       "properties": {
         "Platform_Version": "2.1"
       }
     },
     "FirefoxOS_2_2": {
+      "match": "*Gecko\/*",
       "inherits": "FirefoxOS",
       "properties": {
         "Platform_Version": "2.2"
