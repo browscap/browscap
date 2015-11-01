@@ -42,23 +42,30 @@ class Platform
     private $isLite = false;
 
     /**
+     * @var bool
+     */
+    private $isStandard = false;
+
+    /**
+     * @param string   $match
+     * @param string[] $properties
+     * @param boolean  $isLite
+     * @param boolean  $standard
+     */
+    public function __construct($match, array $properties, $isLite, $standard)
+    {
+        $this->match      = $match;
+        $this->properties = $properties;
+        $this->isLite     = (bool) $isLite;
+        $this->standard   = (bool) $standard;
+    }
+
+    /**
      * @return string
      */
     public function getMatch()
     {
         return $this->match;
-    }
-
-    /**
-     * @param string $match
-     *
-     * @return \Browscap\Data\Platform
-     */
-    public function setMatch($match)
-    {
-        $this->match = $match;
-
-        return $this;
     }
 
     /**
@@ -70,19 +77,7 @@ class Platform
     }
 
     /**
-     * @param string[] $properties
-     *
-     * @return \Browscap\Data\Platform
-     */
-    public function setProperties(array $properties)
-    {
-        $this->properties = $properties;
-
-        return $this;
-    }
-
-    /**
-     * @return bool
+     * @return boolean
      */
     public function isLite()
     {
@@ -90,12 +85,10 @@ class Platform
     }
 
     /**
-     * @param bool $isLite
-     * @return \Browscap\Data\Platform
+     * @return boolean
      */
-    public function setIsLite($isLite)
+    public function isStandard()
     {
-        $this->isLite = (bool)$isLite;
-        return $this;
+        return $this->isStandard;
     }
 }

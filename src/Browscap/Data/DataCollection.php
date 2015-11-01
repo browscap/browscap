@@ -144,7 +144,7 @@ class DataCollection
                 throw new \UnexpectedValueException('required attibute "properties" is missing');
             }
 
-            $this->platforms[$platformName] = $platformFactory->build($platformData, $json, $platformName, $this);
+            $this->platforms[$platformName] = $platformFactory->build($platformData, $json, $platformName);
         }
 
         $this->divisionsHaveBeenSorted = false;
@@ -192,6 +192,7 @@ class DataCollection
      *
      * @return \Browscap\Data\DataCollection
      * @throws \RuntimeException if the file does not exist or has invalid JSON
+     * @throws \UnexpectedValueException if the properties and the inherits kyewords are missing
      */
     public function addDevicesFile($src)
     {
@@ -237,17 +238,14 @@ class DataCollection
             throw new \UnexpectedValueException('required attibute "lite" is missing in File ' . $src);
         }
 
-        $division = new Division();
-        $division
-            ->setName($divisionData['division'])
-            ->setSortIndex((int) $divisionData['sortIndex'])
-            ->setLite((boolean) $divisionData['lite'])
-        ;
+        if (!array_key_exists('standard', $divisionData)) {
+            $divisionData['standard'] = true;
+        }
 
         if (isset($divisionData['versions']) && is_array($divisionData['versions'])) {
-            $division->setVersions($divisionData['versions']);
+            $versions = $divisionData['versions'];
         } else {
-            $division->setVersions(array('0.0'));
+            $versions = array('0.0');
         }
 
         if (isset($divisionData['userAgents']) && is_array($divisionData['userAgents'])) {
@@ -378,10 +376,19 @@ class DataCollection
                 }
             }
 
-            $division->setUserAgents($divisionData['userAgents']);
+            $userAgents = $divisionData['userAgents'];
+        } else {
+            $userAgents = array();
         }
 
-        $this->divisions[] = $division;
+        $this->divisions[] = new Division(
+            $divisionData['division'],
+            (int) $divisionData['sortIndex'],
+            $userAgents,
+            (boolean) $divisionData['lite'],
+            (boolean) $divisionData['standard'],
+            $versions
+        );
 
         $this->divisionsHaveBeenSorted = false;
 
@@ -496,15 +503,12 @@ class DataCollection
     {
         $divisionData = $this->loadFile($src);
 
-        $division = new Division();
-        $division
-            ->setName($divisionData['division'])
-            ->setSortIndex((int) $divisionData['sortIndex'])
-            ->setUserAgents($divisionData['userAgents'])
-            ->setLite(true)
-        ;
-
-        $this->defaultProperties = $division;
+        $this->defaultProperties = new Division(
+            $divisionData['division'],
+            (int) $divisionData['sortIndex'],
+            $divisionData['userAgents'],
+            true
+        );
 
         $this->divisionsHaveBeenSorted = false;
 
@@ -523,15 +527,12 @@ class DataCollection
     {
         $divisionData = $this->loadFile($src);
 
-        $division = new Division();
-        $division
-            ->setName($divisionData['division'])
-            ->setSortIndex((int) $divisionData['sortIndex'])
-            ->setUserAgents($divisionData['userAgents'])
-            ->setLite(true)
-        ;
-
-        $this->defaultBrowser = $division;
+        $this->defaultBrowser = new Division(
+            $divisionData['division'],
+            (int) $divisionData['sortIndex'],
+            $divisionData['userAgents'],
+            true
+        );
 
         $this->divisionsHaveBeenSorted = false;
 

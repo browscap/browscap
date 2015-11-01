@@ -63,6 +63,11 @@ class IniWriter implements WriterInterface
     private $outputProperties = array();
 
     /**
+     * @var \Browscap\Data\Expander
+     */
+    private $expander = null;
+
+    /**
      * @param string $file
      */
     public function __construct($file)
@@ -149,6 +154,18 @@ class IniWriter implements WriterInterface
     public function getFilter()
     {
         return $this->type;
+    }
+
+    /**
+     * @param \Browscap\Data\Expander $expander
+     *
+     * @return \Browscap\Writer\WriterInterface
+     */
+    public function setExpander(Expander $expander)
+    {
+        $this->expander = $expander;
+
+        return $this;
     }
 
     /**
@@ -329,10 +346,8 @@ class IniWriter implements WriterInterface
         $defaultproperties = $ua[0]['properties'];
         $properties        = array_merge(array('Parent'), array_keys($defaultproperties));
 
-        $expander = new Expander();
-
         foreach ($defaultproperties as $propertyName => $propertyValue) {
-            $defaultproperties[$propertyName] = $expander->trimProperty($propertyValue);
+            $defaultproperties[$propertyName] = $this->expander->trimProperty($propertyValue);
         }
 
         foreach ($properties as $property) {

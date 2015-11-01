@@ -88,6 +88,7 @@ class BuildHelper
         );
 
         $writerCollection
+            ->setExpander($expander)
             ->fileStart()
             ->renderHeader($comments)
             ->renderVersion($version, $collection)
@@ -160,7 +161,7 @@ class BuildHelper
 
                 foreach (array_keys($sectionsWithVersion) as $sectionName) {
                     if (array_key_exists($sectionName, $output)) {
-                        $logger->debug('tried to add section "' . $sectionName . '" more than once -> skipped');
+                        $logger->error('tried to add section "' . $sectionName . '" more than once -> skipped');
                         continue;
                     }
 
