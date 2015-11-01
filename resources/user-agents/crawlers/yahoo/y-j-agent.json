@@ -7,7 +7,7 @@
       "userAgent": "Y!J-AGENT",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Yahoo",
+        "Comment": "Y!J-AGENT",
         "Browser": "Y!J-AGENT",
         "Browser_Type": "Bot/Crawler",
         "Browser_Maker": "Yahoo!JAPAN",

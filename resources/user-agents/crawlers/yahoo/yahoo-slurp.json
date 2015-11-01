@@ -1,13 +1,13 @@
 {
   "division": "Yahoo Slurp",
-  "sortIndex": 1380,
+  "sortIndex": 1180,
   "lite": false,
   "userAgents": [
     {
       "userAgent": "Yahoo Slurp",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Yahoo",
+        "Comment": "Yahoo! Slurp",
         "Browser": "Yahoo! Slurp",
         "Browser_Type": "Bot/Crawler",
         "Browser_Maker": "Yahoo!",
@@ -54,10 +54,15 @@
           }
         },
         {
-          "match": "slurp",
-          "properties": {
-            "Browser": "slurp"
-          }
+          "match": "slurp"
+        },
+        {
+          "match": "Mozilla\/5.0*(iPhone#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*) Mobile (compatible; Yahoo! Slurp*",
+          "device": "iPhone",
+          "engine": "WebKit",
+          "platforms": [
+            "iOS_A_7_1"
+          ]
         }
       ]
     }

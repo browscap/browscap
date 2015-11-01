@@ -7,7 +7,7 @@
       "userAgent": "Yahoo Verifier",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Yahoo",
+        "Comment": "Yahoo! Verifier",
         "Browser": "Yahoo! Verifier",
         "Browser_Type": "Bot/Crawler",
         "Browser_Maker": "Yahoo!",

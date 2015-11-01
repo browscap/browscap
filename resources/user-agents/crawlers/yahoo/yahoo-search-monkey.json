@@ -7,7 +7,7 @@
       "userAgent": "Yahoo Search Monkey",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Yahoo",
+        "Comment": "Yahoo! Search Monkey",
         "Browser": "Yahoo! Search Monkey",
         "Browser_Type": "Bot/Crawler",
         "Browser_Maker": "Yahoo!",
