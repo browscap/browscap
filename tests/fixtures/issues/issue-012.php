@@ -29,6 +29,8 @@ return [
             'RenderingEngine_Version' => '7.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
+        'lite' => true,
+        'standard' => true,
     ],
     'issue-012-b' => [
         'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:24.0) Gecko/20100101 Firefox/24.0',
@@ -59,5 +61,6 @@ return [
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
         'lite' => false,
+        'standard' => true,
     ],
 ];

@@ -29,6 +29,7 @@ return [
             'RenderingEngine_Maker' => 'UC Web',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-385-B' => [
         'Mozilla/5.0 (Linux; U; Android 4.3; en-us; GT-I9300 Build/JSS15J) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 UCBrowser/9.8.9.457 U3/0.8.0 Mobile Safari/533.1',
@@ -58,5 +59,6 @@ return [
             'RenderingEngine_Maker' => 'UC Web',
         ],
         'lite' => false,
+        'standard' => true,
     ],
 ];

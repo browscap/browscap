@@ -29,6 +29,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-138B' => [
         'Mozilla/5.0 (iPad2,5; iPad; U; CPU OS 7_1 like Mac OS X; de_DE) com.google.GooglePlus/29676 (KHTML, like Gecko) Mobile/P105AP (gzip)',
@@ -58,6 +59,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-138A' => [
         'Mozilla/5.0 (iPhone3,1; iPhone; U; CPU OS 7_0_4 like Mac OS X; en_US) com.google.GooglePlus/29676 (KHTML, like Gecko) Mobile/N90AP (gzip)',
@@ -87,5 +89,6 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
 ];

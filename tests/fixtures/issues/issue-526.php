@@ -34,6 +34,7 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-526-B' => [
         'seebot/2.0 (+http://www.seegnify.com/bot)',
@@ -68,5 +69,6 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
+        'standard' => true,
     ],
 ];

@@ -1,6 +1,7 @@
 {
   "devices": {
     "unknown": {
+      "standard": true,
       "properties": {
         "Device_Name": "unknown",
         "Device_Maker": "unknown",
@@ -13,6 +14,7 @@
       }
     },
     "general Mobile Device": {
+      "standard": true,
       "properties": {
         "Device_Name": "general Mobile Device",
         "Device_Maker": "unknown",
@@ -25,6 +27,7 @@
       }
     },
     "general Mobile Phone": {
+      "standard": true,
       "properties": {
         "Device_Name": "general Mobile Phone",
         "Device_Maker": "unknown",
@@ -37,6 +40,7 @@
       }
     },
     "general Tablet": {
+      "standard": true,
       "properties": {
         "Device_Name": "general Tablet",
         "Device_Maker": "unknown",
@@ -49,6 +53,7 @@
       }
     },
     "general Mobile Phone (Touch)": {
+      "standard": true,
       "properties": {
         "Device_Name": "general Mobile Phone",
         "Device_Maker": "unknown",
@@ -61,6 +66,7 @@
       }
     },
     "general Mobile Phone (Blackberry)": {
+      "standard": true,
       "properties": {
         "Device_Name": "Blackberry",
         "Device_Maker": "Research In Motion Limited",
@@ -73,6 +79,7 @@
       }
     },
     "general Mobile Phone (old Blackberry)": {
+      "standard": true,
       "properties": {
         "Device_Name": "Blackberry",
         "Device_Maker": "Research In Motion Limited",
@@ -85,6 +92,7 @@
       }
     },
     "general Mobile Device (Apple)": {
+      "standard": true,
       "properties": {
         "Device_Name": "general Mobile Device",
         "Device_Maker": "Apple Inc",
@@ -97,6 +105,7 @@
       }
     },
     "general Mobile Device (Samsung)": {
+      "standard": true,
       "properties": {
         "Device_Name": "general Mobile Device",
         "Device_Maker": "Samsung",
@@ -109,6 +118,7 @@
       }
     },
     "general Mobile Phone (Nokia)": {
+      "standard": true,
       "properties": {
         "Device_Name": "general Mobile Device",
         "Device_Maker": "Nokia",
@@ -121,6 +131,7 @@
       }
     },
     "general Desktop": {
+      "standard": true,
       "properties": {
         "Device_Type": "Desktop",
         "Device_Code_Name": "general Desktop",
@@ -133,6 +144,7 @@
       }
     },
     "general TV Device": {
+      "standard": true,
       "properties": {
         "Device_Type": "TV Device",
         "Device_Code_Name": "TV",
@@ -145,6 +157,7 @@
       }
     },
     "Windows Desktop": {
+      "standard": true,
       "properties": {
         "Device_Type": "Desktop",
         "Device_Code_Name": "Windows Desktop",
@@ -157,6 +170,7 @@
       }
     },
     "Linux Desktop": {
+      "standard": true,
       "properties": {
         "Device_Type": "Desktop",
         "Device_Code_Name": "Linux Desktop",
@@ -169,6 +183,7 @@
       }
     },
     "Macintosh": {
+      "standard": true,
       "properties": {
         "Device_Type": "Desktop",
         "Device_Code_Name": "Macintosh",
@@ -181,6 +196,7 @@
       }
     },
     "PowerMac": {
+      "standard": true,
       "properties": {
         "Device_Type": "Desktop",
         "Device_Code_Name": "PowerMac",
@@ -206,6 +222,7 @@
       }
     },
     "iPod Touch": {
+      "standard": true,
       "properties": {
         "Device_Name": "iPod Touch",
         "Device_Maker": "Apple Inc",
@@ -218,6 +235,7 @@
       }
     },
     "iPad": {
+      "standard": true,
       "properties": {
         "Device_Name": "iPad",
         "Device_Maker": "Apple Inc",
@@ -230,6 +248,7 @@
       }
     },
     "Apple AppleTV": {
+      "standard": true,
       "properties": {
         "Device_Name": "AppleTV",
         "Device_Maker": "Apple Inc",
@@ -242,6 +261,7 @@
       }
     },
     "Smart-TV": {
+      "standard": true,
       "properties": {
         "Device_Type": "TV Device",
         "Device_Code_Name": "Smart TV",
@@ -254,6 +274,7 @@
       }
     },
     "Viera": {
+      "standard": true,
       "properties": {
         "Device_Type": "TV Device",
         "Device_Code_Name": "Viera TV",
@@ -292,6 +313,7 @@
       }
     },
     "WebTV": {
+      "standard": true,
       "properties": {
         "Device_Type": "TV Device",
         "Device_Code_Name": "WebTV",
@@ -304,6 +326,7 @@
       }
     },
     "PowerTV": {
+      "standard": true,
       "properties": {
         "Device_Type": "TV Device",
         "Device_Code_Name": "PowerTV",
@@ -316,6 +339,7 @@
       }
     },
     "Boxee": {
+      "standard": true,
       "properties": {
         "Device_Type": "TV Device",
         "Device_Code_Name": "Boxee",
@@ -328,6 +352,7 @@
       }
     },
     "D-Link DSM 380": {
+      "standard": true,
       "properties": {
         "Device_Type": "TV Device",
         "Device_Code_Name": "DSM 380",
@@ -340,6 +365,7 @@
       }
     },
     "GoogleTV": {
+      "standard": true,
       "properties": {
         "Device_Type": "TV Device",
         "Device_Code_Name": "GoogleTV",
@@ -417,6 +443,7 @@
       }
     },
     "Sony NSZ-GS7\/GX70": {
+      "standard": true,
       "properties": {
         "Device_Type": "TV Device",
         "Device_Code_Name": "NSZ-GS7\/GX70",
@@ -429,6 +456,7 @@
       }
     },
     "Sony Netbox": {
+      "standard": true,
       "properties": {
         "Device_Type": "TV Device",
         "Device_Code_Name": "Netbox",
@@ -441,6 +469,7 @@
       }
     },
     "Sony Playstation": {
+      "standard": true,
       "properties": {
         "Device_Type": "Console",
         "Device_Code_Name": "Playstation",
@@ -453,6 +482,7 @@
       }
     },
     "Sony PS4": {
+      "standard": true,
       "properties": {
         "Device_Type": "TV Device",
         "Device_Code_Name": "Playstation 4",
@@ -465,6 +495,7 @@
       }
     },
     "Sony PS3": {
+      "standard": true,
       "properties": {
         "Device_Type": "TV Device",
         "Device_Code_Name": "Playstation 3",
@@ -477,6 +508,7 @@
       }
     },
     "Sony PSP": {
+      "standard": true,
       "properties": {
         "Device_Type": "Console",
         "Device_Code_Name": "Playstation Portable",
@@ -489,6 +521,7 @@
       }
     },
     "Sony PS2": {
+      "standard": true,
       "properties": {
         "Device_Type": "Console",
         "Device_Code_Name": "PS2",
@@ -501,6 +534,7 @@
       }
     },
     "Sony PS Vita": {
+      "standard": true,
       "properties": {
         "Device_Type": "Console",
         "Device_Code_Name": "Playstation Vita",
@@ -1410,6 +1444,7 @@
       }
     },
     "Sony Tablet S": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "Tablet S",
@@ -1422,6 +1457,7 @@
       }
     },
     "Sony Tablet P": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "Tablet P",
@@ -1928,6 +1964,7 @@
       }
     },
     "Sony SGPT12": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "SGPT12",
@@ -1940,6 +1977,7 @@
       }
     },
     "Sony SGPT13": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "SGPT13",
@@ -2108,6 +2146,7 @@
       }
     },
     "Sony SGP321": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "SGP321",
@@ -2120,6 +2159,7 @@
       }
     },
     "Sony SGP512": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "SGP512",
@@ -2158,6 +2198,7 @@
       }
     },
     "Sony A5000": {
+      "standard": true,
       "properties": {
         "Device_Type": "Digital Camera",
         "Device_Code_Name": "A5000",
@@ -2183,6 +2224,7 @@
       }
     },
     "Sony SGP511": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "SGP511",
@@ -2195,6 +2237,7 @@
       }
     },
     "Sony SGP521": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "SGP521",
@@ -2233,6 +2276,7 @@
       }
     },
     "Sony SGP312": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "SGP312",
@@ -2414,6 +2458,7 @@
       }
     },
     "Microsoft Xbox 360": {
+      "standard": true,
       "properties": {
         "Device_Type": "TV Device",
         "Device_Code_Name": "Xbox 360",
@@ -2426,6 +2471,7 @@
       }
     },
     "Microsoft Xbox One": {
+      "standard": true,
       "properties": {
         "Device_Type": "TV Device",
         "Device_Code_Name": "Xbox One",
@@ -2438,6 +2484,7 @@
       }
     },
     "Microsoft ZuneHD": {
+      "standard": true,
       "properties": {
         "Device_Type": "Mobile Device",
         "Device_Code_Name": "ZuneHD",
@@ -2450,6 +2497,7 @@
       }
     },
     "Microsoft Surface": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "Surface",
@@ -2462,6 +2510,7 @@
       }
     },
     "Tesla Motors Model S": {
+      "standard": true,
       "properties": {
         "Device_Type": "Car Entertainment System",
         "Device_Code_Name": "Model S",
@@ -2474,6 +2523,7 @@
       }
     },
     "WeTab": {
+      "standard": true,
       "properties": {
         "Device_Name": "WeTab",
         "Device_Maker": "WeTab GmbH",
@@ -2486,6 +2536,7 @@
       }
     },
     "Coby NBPC724": {
+      "standard": true,
       "properties": {
         "Device_Type": "Desktop",
         "Device_Code_Name": "NBPC724",
@@ -2498,6 +2549,7 @@
       }
     },
     "Coby MID1125": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "MID1125",
@@ -2510,6 +2562,7 @@
       }
     },
     "Coby MID1126": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "MID1126",
@@ -2522,6 +2575,7 @@
       }
     },
     "Coby MID7022": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "MID7022",
@@ -2534,6 +2588,7 @@
       }
     },
     "Coby MID8127": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "MID8127",
@@ -2546,6 +2601,7 @@
       }
     },
     "Coby MID7016": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "MID7016",
@@ -4469,6 +4525,7 @@
       }
     },
     "GT-P1000": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "GT-P1000",
@@ -4481,6 +4538,7 @@
       }
     },
     "GT-P1010": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "GT-P1010",
@@ -4493,6 +4551,7 @@
       }
     },
     "GT-P7510": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "GT-P7510",
@@ -4505,6 +4564,7 @@
       }
     },
     "Samsung GT-P6800": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "GT-P6800",
@@ -4517,6 +4577,7 @@
       }
     },
     "Samsung GT-P7500": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "GT-P7500",
@@ -4529,6 +4590,7 @@
       }
     },
     "Samsung GT-P7300": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "GT-P7300",
@@ -4541,6 +4603,7 @@
       }
     },
     "Samsung GT-P7310": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "GT-P7310",
@@ -4553,6 +4616,7 @@
       }
     },
     "Samsung GT-P6201": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "GT-P6201",
@@ -4565,6 +4629,7 @@
       }
     },
     "Samsung GT-P6211": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "GT-P6211",
@@ -4577,6 +4642,7 @@
       }
     },
     "Samsung GT-P7300B": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "GT-P7300B",
@@ -4589,6 +4655,7 @@
       }
     },
     "Samsung GT-P7501": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "GT-P7501",
@@ -4601,6 +4668,7 @@
       }
     },
     "Samsung GT-P7511": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "GT-P7511",
@@ -4613,6 +4681,7 @@
       }
     },
     "Samsung GT-P3100": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "GT-P3100",
@@ -4625,6 +4694,7 @@
       }
     },
     "Samsung GT-P3110": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "GT-P3110",
@@ -4637,6 +4707,7 @@
       }
     },
     "Samsung GT-P3113": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "GT-P3113",
@@ -4649,6 +4720,7 @@
       }
     },
     "Samsung GT-P5100": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "GT-P5100",
@@ -4661,6 +4733,7 @@
       }
     },
     "Samsung GT-P5110": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "GT-P5110",
@@ -4673,6 +4746,7 @@
       }
     },
     "Samsung GT-P5113": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "GT-P5113",
@@ -4685,6 +4759,7 @@
       }
     },
     "Samsung GT-P5200": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "GT-P5200",
@@ -4697,6 +4772,7 @@
       }
     },
     "Samsung GT-P5210": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "GT-P5210",
@@ -4709,6 +4785,7 @@
       }
     },
     "Samsung GT-P7100": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "GT-P7100",
@@ -4721,6 +4798,7 @@
       }
     },
     "Samsung GT-P5220": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "GT-P5220",
@@ -4733,6 +4811,7 @@
       }
     },
     "Samsung GT-P7320": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "GT-P7320",
@@ -4745,6 +4824,7 @@
       }
     },
     "Samsung Nexus 10": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "Nexus 10",
@@ -5199,6 +5279,7 @@
       }
     },
     "Samsung SM-P600": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "SM-P600",
@@ -5211,6 +5292,7 @@
       }
     },
     "Samsung SM-P601": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "SM-P601",
@@ -5223,6 +5305,7 @@
       }
     },
     "Samsung SM-P605": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "SM-P605",
@@ -5235,6 +5318,7 @@
       }
     },
     "Samsung SM-P905": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "SM-P905",
@@ -5247,6 +5331,7 @@
       }
     },
     "Samsung SM-P900": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "SM-P900",
@@ -5259,6 +5344,7 @@
       }
     },
     "Samsung SM-P901": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "SM-P901",
@@ -5271,6 +5357,7 @@
       }
     },
     "Samsung SM-P550": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "SM-P550",
@@ -5491,6 +5578,7 @@
       }
     },
     "Samsung SM-N8000": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "SM-N8000",
@@ -5503,6 +5591,7 @@
       }
     },
     "Samsung SM-T210": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "SM-T210",
@@ -5515,6 +5604,7 @@
       }
     },
     "Samsung SM-T310": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "SM-T310",
@@ -5527,6 +5617,7 @@
       }
     },
     "Samsung SM-T315": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "SM-T315",
@@ -5539,6 +5630,7 @@
       }
     },
     "Samsung SM-T311": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "SM-T311",
@@ -5551,6 +5643,7 @@
       }
     },
     "Samsung SM-T320": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "SM-T320",
@@ -5563,6 +5656,7 @@
       }
     },
     "Samsung SM-T325": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "SM-T325",
@@ -5575,6 +5669,7 @@
       }
     },
     "Samsung SM-T331": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "SM-T331",
@@ -5587,6 +5682,7 @@
       }
     },
     "Samsung SM-T350": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "SM-T350",
@@ -5599,6 +5695,7 @@
       }
     },
     "Samsung SM-T355Y": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "SM-T355Y",
@@ -5611,6 +5708,7 @@
       }
     },
     "Samsung SM-T110": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "SM-T110",
@@ -5623,6 +5721,7 @@
       }
     },
     "Samsung SM-T211": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "SM-T211",
@@ -5635,6 +5734,7 @@
       }
     },
     "Samsung SM-T520": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "SM-T520",
@@ -5647,6 +5747,7 @@
       }
     },
     "Samsung SM-T530NU": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "SM-T530NU",
@@ -5659,6 +5760,7 @@
       }
     },
     "Samsung SM-T530": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "SM-T530",
@@ -5671,6 +5773,7 @@
       }
     },
     "Samsung SM-T535": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "SM-T535",
@@ -5683,6 +5786,7 @@
       }
     },
     "Samsung SM-T525": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "SM-T525",
@@ -5695,6 +5799,7 @@
       }
     },
     "Samsung SM-T531": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "SM-T531",
@@ -5707,6 +5812,7 @@
       }
     },
     "Samsung SM-T550": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "SM-T550",
@@ -5719,6 +5825,7 @@
       }
     },
     "Samsung SM-T555": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "SM-T555",
@@ -5731,6 +5838,7 @@
       }
     },
     "Samsung SM-T111": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "SM-T111",
@@ -5743,6 +5851,7 @@
       }
     },
     "Samsung SM-T805": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "SM-T805",
@@ -5755,6 +5864,7 @@
       }
     },
     "Samsung SM-T230": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "SM-T230",
@@ -5767,6 +5877,7 @@
       }
     },
     "Samsung SM-T230NU": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "SM-T230NU",
@@ -5779,6 +5890,7 @@
       }
     },
     "Samsung SM-T800": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "SM-T800",
@@ -5791,6 +5903,7 @@
       }
     },
     "Samsung SM-T235": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "SM-T235",
@@ -5803,6 +5916,7 @@
       }
     },
     "Samsung SM-T700": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "SM-T700",
@@ -5815,6 +5929,7 @@
       }
     },
     "Samsung SM-T705": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "SM-T705",
@@ -5827,6 +5942,7 @@
       }
     },
     "Samsung SM-T2105": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "SM-T2105",
@@ -5839,6 +5955,7 @@
       }
     },
     "Samsung SM-T900": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "SM-T900",
@@ -5981,6 +6098,7 @@
       }
     },
     "Samsung SM-C101": {
+      "standard": true,
       "properties": {
         "Device_Type": "Digital Camera",
         "Device_Code_Name": "SM-C101",
@@ -6084,6 +6202,7 @@
       }
     },
     "Samsung SGH-I777": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "SGH-I777",
@@ -6109,6 +6228,7 @@
       }
     },
     "Samsung SGH-I900": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "SGH-I900",
@@ -6251,6 +6371,7 @@
       }
     },
     "Samsung SGH-I467": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "SGH-I467",
@@ -6666,6 +6787,7 @@
       }
     },
     "Samsung SGH-T859": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "SGH-T859",
@@ -8719,6 +8841,7 @@
       }
     },
     "Samsung SHW-M480W": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "SHW-M480W",
@@ -8874,6 +8997,7 @@
       }
     },
     "Samsung GT-N8000": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "GT-N8000",
@@ -8886,6 +9010,7 @@
       }
     },
     "Samsung GT-N8000D": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "GT-N8000D",
@@ -8898,6 +9023,7 @@
       }
     },
     "Samsung GT-N8005": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "GT-N8005",
@@ -8910,6 +9036,7 @@
       }
     },
     "Samsung GT-N8010": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "GT-N8010",
@@ -8922,6 +9049,7 @@
       }
     },
     "Samsung GT-N5100": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "GT-N5100",
@@ -8934,6 +9062,7 @@
       }
     },
     "Samsung GT-N5110": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "GT-N5110",
@@ -8972,6 +9101,7 @@
       }
     },
     "Samsung GT-N8020": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "GT-N8020",
@@ -8984,6 +9114,7 @@
       }
     },
     "Samsung GT-N8013": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "GT-N8013",
@@ -8996,6 +9127,7 @@
       }
     },
     "Samsung YP-G1": {
+      "standard": true,
       "properties": {
         "Device_Type": "Mobile Device",
         "Device_Code_Name": "YP-G1",
@@ -9008,6 +9140,7 @@
       }
     },
     "Samsung YP-G70": {
+      "standard": true,
       "properties": {
         "Device_Type": "Mobile Device",
         "Device_Code_Name": "YP-G70",
@@ -9020,6 +9153,7 @@
       }
     },
     "Samsung YP-GI1": {
+      "standard": true,
       "properties": {
         "Device_Type": "Mobile Device",
         "Device_Code_Name": "YP-GI1",
@@ -9032,6 +9166,7 @@
       }
     },
     "Samsung YP-GS1": {
+      "standard": true,
       "properties": {
         "Device_Type": "Mobile Device",
         "Device_Code_Name": "YP-GS1",
@@ -9213,6 +9348,7 @@
       }
     },
     "Asus TF101": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "TF101",
@@ -9225,6 +9361,7 @@
       }
     },
     "Asus TF201": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "Eee Pad TF201",
@@ -9237,6 +9374,7 @@
       }
     },
     "Asus TF101G": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "Eee Pad Transformer TF101G",
@@ -9249,6 +9387,7 @@
       }
     },
     "Asus TF300T": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "TF300T",
@@ -9261,6 +9400,7 @@
       }
     },
     "Asus TF300TG": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "TF300TG",
@@ -9273,6 +9413,7 @@
       }
     },
     "Asus TF300TL": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "TF300TL",
@@ -9285,6 +9426,7 @@
       }
     },
     "Asus TF700T": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "TF700T",
@@ -9297,6 +9439,7 @@
       }
     },
     "Asus Nexus 7": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "Nexus 7",
@@ -9309,6 +9452,7 @@
       }
     },
     "Asus SL101": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "SL101",
@@ -9321,6 +9465,7 @@
       }
     },
     "Asus ME173X": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "ME173X",
@@ -9333,6 +9478,7 @@
       }
     },
     "Asus ME301T": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "ME301T",
@@ -9345,6 +9491,7 @@
       }
     },
     "Asus ME172V": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "ME172V",
@@ -9357,6 +9504,7 @@
       }
     },
     "Asus A68": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "A68",
@@ -9369,6 +9517,7 @@
       }
     },
     "Asus PadFone": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "PadFone",
@@ -9394,6 +9543,7 @@
       }
     },
     "Asus ME302KL": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "ME302KL",
@@ -9406,6 +9556,7 @@
       }
     },
     "Asus K01A": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "K01A",
@@ -9418,6 +9569,7 @@
       }
     },
     "Asus K017": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "K017",
@@ -9430,6 +9582,7 @@
       }
     },
     "Asus K012": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "K012",
@@ -9442,6 +9595,7 @@
       }
     },
     "Asus K013": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "K013",
@@ -9454,6 +9608,7 @@
       }
     },
     "Asus K016": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "K016",
@@ -9466,6 +9621,7 @@
       }
     },
     "Asus ME302C": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "ME302C",
@@ -9478,6 +9634,7 @@
       }
     },
     "Asus ME371MG": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "ME371MG",
@@ -9516,6 +9673,7 @@
       }
     },
     "Asus K00C": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "K00C",
@@ -9528,6 +9686,7 @@
       }
     },
     "Asus K00E": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "K00E",
@@ -9826,6 +9985,7 @@
       }
     },
     "Motorola MZ601": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "MZ601",
@@ -9838,6 +9998,7 @@
       }
     },
     "Motorola Xoom": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "Xoom",
@@ -9850,6 +10011,7 @@
       }
     },
     "Motorola MZ604": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "MZ604",
@@ -9862,6 +10024,7 @@
       }
     },
     "Motorola MZ616": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "MZ616",
@@ -9874,6 +10037,7 @@
       }
     },
     "Motorola Xoom 2": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "Xoom 2",
@@ -9886,6 +10050,7 @@
       }
     },
     "Motorola MZ608": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "MZ608",
@@ -12524,6 +12689,7 @@
       }
     },
     "HTC P510e": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "P510e",
@@ -12536,6 +12702,7 @@
       }
     },
     "HTC P512": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "P512",
@@ -14576,6 +14743,7 @@
       }
     },
     "LG V900": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "V900",
@@ -14588,6 +14756,7 @@
       }
     },
     "LG V500": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "V500",
@@ -14600,6 +14769,7 @@
       }
     },
     "LG V490": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "V490",
@@ -14612,6 +14782,7 @@
       }
     },
     "LG V700": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "V700",
@@ -17393,6 +17564,7 @@
       }
     },
     "Acer A500": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "A500",
@@ -17405,6 +17577,7 @@
       }
     },
     "Acer A510": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "A510",
@@ -17417,6 +17590,7 @@
       }
     },
     "Acer A100": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "A100",
@@ -17429,6 +17603,7 @@
       }
     },
     "Acer A501": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "A501",
@@ -17441,6 +17616,7 @@
       }
     },
     "Acer A101": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "A101",
@@ -17453,6 +17629,7 @@
       }
     },
     "Acer A200": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "A200",
@@ -17465,6 +17642,7 @@
       }
     },
     "Acer A210": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "A210",
@@ -17477,6 +17655,7 @@
       }
     },
     "Acer A211": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "A211",
@@ -17489,6 +17668,7 @@
       }
     },
     "Acer A511": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "A511",
@@ -17501,6 +17681,7 @@
       }
     },
     "Acer A700": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "A700",
@@ -17513,6 +17694,7 @@
       }
     },
     "Acer A701": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "A701",
@@ -17525,6 +17707,7 @@
       }
     },
     "Acer A1-810": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "A1-810",
@@ -17537,6 +17720,7 @@
       }
     },
     "Acer A1-811": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "A1-811",
@@ -17549,6 +17733,7 @@
       }
     },
     "Acer A3-A10": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "A3-A10",
@@ -17561,6 +17746,7 @@
       }
     },
     "Acer A3-A11": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "A3-A11",
@@ -17573,6 +17759,7 @@
       }
     },
     "Acer A1-830": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "A1-830",
@@ -17689,6 +17876,7 @@
       }
     },
     "Acer G100W": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "G100W",
@@ -17701,6 +17889,7 @@
       }
     },
     "Acer B1-710": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "B1-710",
@@ -17713,6 +17902,7 @@
       }
     },
     "Acer B1-A71": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "B1-A71",
@@ -17751,6 +17941,7 @@
       }
     },
     "Acer B1-711": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "B1-711",
@@ -17763,6 +17954,7 @@
       }
     },
     "Acer B1-730HD": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "B1-730HD",
@@ -17801,6 +17993,7 @@
       }
     },
     "Acer DA241HL": {
+      "standard": true,
       "properties": {
         "Device_Type": "Desktop",
         "Device_Code_Name": "DA241HL",
@@ -17904,6 +18097,7 @@
       }
     },
     "Medion LifeTab S9714": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "LifeTab S9714",
@@ -17916,6 +18110,7 @@
       }
     },
     "Medion LifeTab P4310": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "LifeTab P4310",
@@ -17941,6 +18136,7 @@
       }
     },
     "Medion LifeTab P9514": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "LifeTab P9514",
@@ -17953,6 +18149,7 @@
       }
     },
     "Medion LifeTab P9516": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "LifeTab P9516",
@@ -17965,6 +18162,7 @@
       }
     },
     "Medion LifeTab S9512": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "LifeTab S9512",
@@ -17977,6 +18175,7 @@
       }
     },
     "Medion LifeTab P4012": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "LifeTab P4012",
@@ -17989,6 +18188,7 @@
       }
     },
     "Medion LifeTab E10312": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "LifeTab E10312",
@@ -18001,6 +18201,7 @@
       }
     },
     "Medion LifeTab E10316": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "LifeTab E10316",
@@ -18013,6 +18214,7 @@
       }
     },
     "Medion Lifetab E7312": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "MD 98488",
@@ -18025,6 +18227,7 @@
       }
     },
     "Medion Lifetab E7316": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "MD 98282",
@@ -18037,6 +18240,7 @@
       }
     },
     "Medion E10320": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "E10320",
@@ -18049,6 +18253,7 @@
       }
     },
     "Medion E10310": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "E10310",
@@ -18178,6 +18383,7 @@
       }
     },
     "Huawei Vodafone 858": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "U8160",
@@ -18294,6 +18500,7 @@
       }
     },
     "Huawei S7-301w": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "S7-301w",
@@ -18306,6 +18513,7 @@
       }
     },
     "Huawei MediaPad 10": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "MediaPad 10",
@@ -18318,6 +18526,7 @@
       }
     },
     "Huawei MediaPad 10+": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "MediaPad 10+",
@@ -18330,6 +18539,7 @@
       }
     },
     "Huawei MediaPad 10 FHD": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "MediaPad 10 FHD",
@@ -18342,6 +18552,7 @@
       }
     },
     "Huawei MediaPad 7 Classic": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "MediaPad 7 Classic",
@@ -18393,6 +18604,7 @@
       }
     },
     "Huawei MediaPad 7 Lite": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "MediaPad 7 Lite",
@@ -18717,6 +18929,7 @@
       }
     },
     "Huawei MediaPad M1 8.0": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "MediaPad M1 8.0",
@@ -18729,6 +18942,7 @@
       }
     },
     "Huawei S8-701u": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "S8-701u",
@@ -18806,6 +19020,7 @@
       }
     },
     "Huawei Media Pad": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "Media Pad",
@@ -18870,6 +19085,7 @@
       }
     },
     "Nintendo WiiU": {
+      "standard": true,
       "properties": {
         "Device_Type": "Console",
         "Device_Code_Name": "WiiU",
@@ -18882,6 +19098,7 @@
       }
     },
     "Nintendo 3DS": {
+      "standard": true,
       "properties": {
         "Device_Type": "Console",
         "Device_Code_Name": "3DS",
@@ -18894,6 +19111,7 @@
       }
     },
     "Nintendo DSi": {
+      "standard": true,
       "properties": {
         "Device_Type": "Console",
         "Device_Code_Name": "DSi",
@@ -18906,6 +19124,7 @@
       }
     },
     "Nintendo Wii": {
+      "standard": true,
       "properties": {
         "Device_Type": "Console",
         "Device_Code_Name": "Wii",
@@ -18918,6 +19137,7 @@
       }
     },
     "Amazon Kindle": {
+      "standard": true,
       "properties": {
         "Device_Type": "Ebook Reader",
         "Device_Code_Name": "Kindle",
@@ -18930,6 +19150,7 @@
       }
     },
     "Amazon Kindle Fire": {
+      "standard": true,
       "properties": {
         "Device_Type": "Ebook Reader",
         "Device_Code_Name": "Kindle Fire",
@@ -18942,6 +19163,7 @@
       }
     },
     "Amazon Kindle 3": {
+      "standard": true,
       "properties": {
         "Device_Type": "Ebook Reader",
         "Device_Code_Name": "Kindle 3",
@@ -18954,6 +19176,7 @@
       }
     },
     "Amazon KFTT": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "KFTT",
@@ -18966,6 +19189,7 @@
       }
     },
     "Amazon KFOT": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "KFOT",
@@ -18978,6 +19202,7 @@
       }
     },
     "Amazon KFSOWI": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "KFSOWI",
@@ -18990,6 +19215,7 @@
       }
     },
     "Amazon KFJWI": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "KFJWI",
@@ -19002,6 +19228,7 @@
       }
     },
     "Amazon KFTHWI": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "KFTHWI",
@@ -19014,6 +19241,7 @@
       }
     },
     "Amazon KFAPWI": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "KFAPWI",
@@ -19026,6 +19254,7 @@
       }
     },
     "Amazon KFJWA": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "KFJWA",
@@ -19038,6 +19267,7 @@
       }
     },
     "Amazon KFAPWA": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "KFAPWA",
@@ -19063,6 +19293,7 @@
       }
     },
     "Amazon AFTB": {
+      "standard": true,
       "properties": {
         "Device_Type": "TV Device",
         "Device_Code_Name": "AFTB",
@@ -19075,6 +19306,7 @@
       }
     },
     "Amazon KFASWI": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "KFASWI",
@@ -19204,6 +19436,7 @@
       }
     },
     "Archos 101 G9": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "101 G9",
@@ -19216,6 +19449,7 @@
       }
     },
     "Archos 80 G9": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "80 G9",
@@ -19228,6 +19462,7 @@
       }
     },
     "Archos 101 G10": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "101 G10",
@@ -19240,6 +19475,7 @@
       }
     },
     "Archos 97 carbon": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "97 carbon",
@@ -19252,6 +19488,7 @@
       }
     },
     "Archos Family Pad 2": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "Family Pad 2",
@@ -19264,6 +19501,7 @@
       }
     },
     "Archos 79 Xenon": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "79 Xenon",
@@ -19276,6 +19514,7 @@
       }
     },
     "Archos 80 Xenon": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "80 Xenon",
@@ -19288,6 +19527,7 @@
       }
     },
     "Archos 101 Neon": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "101 Neon",
@@ -19300,6 +19540,7 @@
       }
     },
     "Archos 50 Platinum": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "50 Platinum",
@@ -19312,6 +19553,7 @@
       }
     },
     "Archos 50 Titanium": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "50 Titanium",
@@ -19350,6 +19592,7 @@
       }
     },
     "Point of View P701": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "P701",
@@ -19362,6 +19605,7 @@
       }
     },
     "Point of View Protab 3 XXL": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "Protab 3 XXL",
@@ -19374,6 +19618,7 @@
       }
     },
     "Point of View PI1045": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "PI1045",
@@ -19620,6 +19865,7 @@
       }
     },
     "Sharp Aquos TV": {
+      "standard": true,
       "properties": {
         "Device_Type": "TV Device",
         "Device_Code_Name": "Aquos TV",
@@ -22245,6 +22491,7 @@
       }
     },
     "Nokia N1": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "N1",
@@ -22335,6 +22582,7 @@
       }
     },
     "Micromax A101": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "A101",
@@ -22360,6 +22608,7 @@
       }
     },
     "Micromax A106": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "A106",
@@ -22749,6 +22998,7 @@
       }
     },
     "Alcatel P310X": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "P310X",
@@ -22761,6 +23011,7 @@
       }
     },
     "Alcatel P320X": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "P320X",
@@ -22890,6 +23141,7 @@
       }
     },
     "Alcatel OT-TAB7HD": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "OT-TAB7HD",
@@ -22993,6 +23245,7 @@
       }
     },
     "Intenso INM8002KP": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "INM8002KP",
@@ -23096,6 +23349,7 @@
       }
     },
     "ZTE BASE Tab": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "BASE Tab",
@@ -23524,6 +23778,7 @@
       }
     },
     "Dell Streak": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "Streak",
@@ -23536,6 +23791,7 @@
       }
     },
     "Dell Streak 7": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "Streak 7",
@@ -23561,6 +23817,7 @@
       }
     },
     "Dell Venue 8 3830": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "Venue 8 3830",
@@ -23573,6 +23830,7 @@
       }
     },
     "Dell Venue 7 3730": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "Venue 7 3730",
@@ -23585,6 +23843,7 @@
       }
     },
     "Dell Venue 7 HSPA+": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "Venue 7 HSPA+",
@@ -23597,6 +23856,7 @@
       }
     },
     "Dell Venue 8 HSPA+": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "Venue 8 HSPA+",
@@ -23817,6 +24077,7 @@
       }
     },
     "Toshiba Folio 100": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "Folio 100",
@@ -23829,6 +24090,7 @@
       }
     },
     "Toshiba AT100": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "AT100",
@@ -23841,6 +24103,7 @@
       }
     },
     "Toshiba AT200": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "AT200",
@@ -23853,6 +24116,7 @@
       }
     },
     "Toshiba AT300": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "AT300",
@@ -23865,6 +24129,7 @@
       }
     },
     "Toshiba AT300SE": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "AT300SE",
@@ -23877,6 +24142,7 @@
       }
     },
     "Toshiba AT10-A": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "AT10-A",
@@ -23928,6 +24194,7 @@
       }
     },
     "Vodafone Smart Tab 4": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Smart Tab 4",
@@ -23940,6 +24207,7 @@
       }
     },
     "Vodafone Smart Tab 4G": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Smart Tab 4 LTE",
@@ -23965,6 +24233,7 @@
       }
     },
     "Vodafone Smart Tab 7": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Smart Tab 7",
@@ -23990,6 +24259,7 @@
       }
     },
     "Odys Space": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "Space",
@@ -24028,6 +24298,7 @@
       }
     },
     "Odys Loox Plus": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "Loox Plus",
@@ -24040,6 +24311,7 @@
       }
     },
     "Odys Noon": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "Noon",
@@ -24065,6 +24337,7 @@
       }
     },
     "Odys Uno X10": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "Uno X10",
@@ -24077,6 +24350,7 @@
       }
     },
     "Odys Xelio 7 Pro": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "Xelio 7 Pro",
@@ -24089,6 +24363,7 @@
       }
     },
     "Odys Xeno 10": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "Xeno 10",
@@ -24101,6 +24376,7 @@
       }
     },
     "Odys Xelio 10 Pro": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "Xelio 10 Pro",
@@ -24113,6 +24389,7 @@
       }
     },
     "Odys Evo": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "Evo",
@@ -24125,6 +24402,7 @@
       }
     },
     "Odys ADM816KC": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "ADM816KC",
@@ -24137,6 +24415,7 @@
       }
     },
     "Odys ADM816HC": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "ADM816HC",
@@ -24149,6 +24428,7 @@
       }
     },
     "Odys Neo Quad 10": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "Neo Quad 10",
@@ -24161,6 +24441,7 @@
       }
     },
     "Odys Ieos Quad": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "Ieos Quad",
@@ -24173,6 +24454,7 @@
       }
     },
     "Odys Sky Plus 3G": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "Sky Plus 3G",
@@ -24224,6 +24506,7 @@
       }
     },
     "ViewSonic N1010": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "N1010",
@@ -24288,6 +24571,7 @@
       }
     },
     "Lenovo A2107A-H": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "A2107A-H",
@@ -24300,6 +24584,7 @@
       }
     },
     "Lenovo A2109A": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "A2109A",
@@ -24377,6 +24662,7 @@
       }
     },
     "Lenovo IdeaPad A1": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "IdeaPad A1",
@@ -24389,6 +24675,7 @@
       }
     },
     "Lenovo v860": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "v860",
@@ -24401,6 +24688,7 @@
       }
     },
     "Lenovo S920_ROW": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "S920_ROW",
@@ -24426,6 +24714,7 @@
       }
     },
     "Lenovo S820_ROW": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "S820_ROW",
@@ -24438,6 +24727,7 @@
       }
     },
     "Lenovo Smart Tab 3G": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "Smart Tab 3G",
@@ -24450,6 +24740,7 @@
       }
     },
     "Lenovo Smart Tab III 10": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "Smart Tab III 10",
@@ -24462,6 +24753,7 @@
       }
     },
     "Lenovo SmartTab II 10": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "SmartTab II 10",
@@ -24474,6 +24766,7 @@
       }
     },
     "Lenovo K1": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "K1",
@@ -24525,6 +24818,7 @@
       }
     },
     "Lenovo 1838": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "1838",
@@ -24537,6 +24831,7 @@
       }
     },
     "Lenovo S2110AF": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "S2110AF",
@@ -24549,6 +24844,7 @@
       }
     },
     "Lenovo S6000-H": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "S6000-H",
@@ -24561,6 +24857,7 @@
       }
     },
     "Lenovo S6000L-F": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "S6000L-F",
@@ -24573,6 +24870,7 @@
       }
     },
     "Lenovo S6000-F": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "IdeaTab",
@@ -24585,6 +24883,7 @@
       }
     },
     "Lenovo S6000D": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "S6000D",
@@ -24623,6 +24922,7 @@
       }
     },
     "Lenovo A3000-H": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "A3000-H",
@@ -24648,6 +24948,7 @@
       }
     },
     "Lenovo A3300-HV": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "A3300-HV",
@@ -24660,6 +24961,7 @@
       }
     },
     "Lenovo A3300-H": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "A3300-H",
@@ -24672,6 +24974,7 @@
       }
     },
     "Lenovo A3300-GV": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "A3300-GV",
@@ -24684,6 +24987,7 @@
       }
     },
     "Lenovo A3500-FL": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "A3500-FL",
@@ -24696,6 +25000,7 @@
       }
     },
     "Lenovo A3500-F": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "A3500-F",
@@ -24708,6 +25013,7 @@
       }
     },
     "Lenovo A3500-H": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "A3500-H",
@@ -24720,6 +25026,7 @@
       }
     },
     "Lenovo A3500-HV": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "A3500-HV",
@@ -24966,6 +25273,7 @@
       }
     },
     "Lenovo A1000L-F": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "A1000L-F",
@@ -24978,6 +25286,7 @@
       }
     },
     "Lenovo IdeaPad A660": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "IdeaPad A660",
@@ -24990,6 +25299,7 @@
       }
     },
     "Lenovo B6000-H": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "B6000-H",
@@ -25002,6 +25312,7 @@
       }
     },
     "Lenovo B6000-HV": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "B6000-HV",
@@ -25014,6 +25325,7 @@
       }
     },
     "Lenovo B8000-F": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "B8000-F",
@@ -25026,6 +25338,7 @@
       }
     },
     "Lenovo B8000-H": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "B8000-H",
@@ -25311,6 +25624,7 @@
       }
     },
     "Lenovo B6000-F": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "B6000-F",
@@ -25323,6 +25637,7 @@
       }
     },
     "Lenovo Lifetab S785X": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "Lifetab S785X",
@@ -25335,6 +25650,7 @@
       }
     },
     "Lenovo Lifetab S1033X": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "Lifetab S1033X",
@@ -25347,6 +25663,7 @@
       }
     },
     "Lenovo Lifetab S1034X": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "S1034X",
@@ -25359,6 +25676,7 @@
       }
     },
     "Lenovo S5000-F": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "S5000-F",
@@ -25371,6 +25689,7 @@
       }
     },
     "Lenovo S5000-H": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "S5000-H",
@@ -25409,6 +25728,7 @@
       }
     },
     "Lenovo IdeaPad A10": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "IdeaPad A10",
@@ -25421,6 +25741,7 @@
       }
     },
     "Lenovo B8080-H": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "B8080-H",
@@ -25433,6 +25754,7 @@
       }
     },
     "Lenovo A7600-H": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "A7600-H",
@@ -25445,6 +25767,7 @@
       }
     },
     "Lenovo A7600-F": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "A7600-F",
@@ -25470,6 +25793,7 @@
       }
     },
     "Lenovo A5500-H": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "A5500-H",
@@ -25482,6 +25806,7 @@
       }
     },
     "Lenovo A5500-HV": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "A5500-HV",
@@ -25494,6 +25819,7 @@
       }
     },
     "Lenovo A5500-F": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "A5500-F",
@@ -25506,6 +25832,7 @@
       }
     },
     "Lenovo B8080-F": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "B8080-F",
@@ -25609,6 +25936,7 @@
       }
     },
     "Lenovo S2109A-F": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "S2109A-F",
@@ -25634,6 +25962,7 @@
       }
     },
     "Lenovo Pad A4": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "Pad A4",
@@ -25659,6 +25988,7 @@
       }
     },
     "Lexand A1002": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "A1002",
@@ -25671,6 +26001,7 @@
       }
     },
     "Lexand A811": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "A811",
@@ -25709,6 +26040,7 @@
       }
     },
     "Arnova 9G2": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "9 G2",
@@ -25721,6 +26053,7 @@
       }
     },
     "Arnova 101G4": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "101 G4",
@@ -25733,6 +26066,7 @@
       }
     },
     "Arnova AN10BG3": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "AN10BG3",
@@ -25745,6 +26079,7 @@
       }
     },
     "CatSound Nova": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "Nova",
@@ -25757,6 +26092,7 @@
       }
     },
     "CatSound Galactica X": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "Galactica X",
@@ -25769,6 +26105,7 @@
       }
     },
     "CatSound Tablet": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "Tablet",
@@ -25781,6 +26118,7 @@
       }
     },
     "CatSound Cat Nova 8": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "Cat Nova 8",
@@ -25793,6 +26131,7 @@
       }
     },
     "CatSound Tablet PC 4": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "Tablet PC 4",
@@ -25831,6 +26170,7 @@
       }
     },
     "Weltbild Kinder-Tablet": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "Kinder-Tablet",
@@ -25843,6 +26183,7 @@
       }
     },
     "Faktor Zwei FX2 PAD10": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "812223",
@@ -25855,6 +26196,7 @@
       }
     },
     "Lalsoft INM803HC": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "INM803HC",
@@ -25906,6 +26248,7 @@
       }
     },
     "Pearl Touchlet X7G": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "Touchlet X7G",
@@ -25918,6 +26261,7 @@
       }
     },
     "Pearl X10.Dual+": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "X10",
@@ -25930,6 +26274,7 @@
       }
     },
     "Pearl X10.Dual": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "X10",
@@ -25942,6 +26287,7 @@
       }
     },
     "YUANDAO N90FHDRK": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "N90FHDRK",
@@ -25954,6 +26300,7 @@
       }
     },
     "Prestigio PMP5080CPRO": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "PMP5080CPRO",
@@ -25966,6 +26313,7 @@
       }
     },
     "Prestigio PMP5580C": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "PMP5580C",
@@ -25978,6 +26326,7 @@
       }
     },
     "Prestigio PMP5570C": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "PMP5570C",
@@ -25990,6 +26339,7 @@
       }
     },
     "Prestigio PMP7170B3G": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "PMP7170B3G",
@@ -26002,6 +26352,7 @@
       }
     },
     "Prestigio PMP7100D3G": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "PMP7100D3G",
@@ -26014,6 +26365,7 @@
       }
     },
     "Prestigio PMP7110D3G": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "PMP7110D3G",
@@ -26026,6 +26378,7 @@
       }
     },
     "Prestigio PMP7280C": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "PMP7280C",
@@ -26038,6 +26391,7 @@
       }
     },
     "Prestigio PMP7280C3G": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "PMP7280C3G",
@@ -26050,6 +26404,7 @@
       }
     },
     "Prestigio PMP7280C3G_QUAD": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "PMP7280C3G_QUAD",
@@ -26062,6 +26417,7 @@
       }
     },
     "Prestigio PMP5770D": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "PMP5770D",
@@ -26074,6 +26430,7 @@
       }
     },
     "Prestigio PMP5670C_DUO": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "PMP5670C_DUO",
@@ -26086,6 +26443,7 @@
       }
     },
     "Prestigio PMP7079D3G_QUAD": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "PMP7079D3G_QUAD",
@@ -26098,6 +26456,7 @@
       }
     },
     "Prestigio PMP7070C3G": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "PMP7070C3G",
@@ -26110,6 +26469,7 @@
       }
     },
     "Prestigio PMP7480D3G_QUAD": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "PMP7480D3G_QUAD",
@@ -26122,6 +26482,7 @@
       }
     },
     "Prestigio PMP5785C_QUAD": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "PMP5785C_QUAD",
@@ -26134,6 +26495,7 @@
       }
     },
     "Multipad PMP5080B": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "PMP5080B",
@@ -26146,6 +26508,7 @@
       }
     },
     "Prestigio PMP3870C": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "PMP3870C",
@@ -26158,6 +26521,7 @@
       }
     },
     "Prestigio PMT5587_Wi": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "PMT5587_Wi",
@@ -26170,6 +26534,7 @@
       }
     },
     "Prestigio PMT5777_3G": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "PMT5777_3G",
@@ -26182,6 +26547,7 @@
       }
     },
     "Prestigio PMT7077_3G": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "PMT7077_3G",
@@ -26194,6 +26560,7 @@
       }
     },
     "Prestigio PMP5101C_QUAD": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "PMP5101C_QUAD",
@@ -26206,6 +26573,7 @@
       }
     },
     "Prestigio PMP5101C3G_QUAD": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "PMP5101C3G_QUAD",
@@ -26218,6 +26586,7 @@
       }
     },
     "Prestigio PMP5101D3G_QUAD": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "PMP5101D3G_QUAD",
@@ -26230,6 +26599,7 @@
       }
     },
     "Prestigio PMT3277_3G": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "PMT3277_3G",
@@ -26242,6 +26612,7 @@
       }
     },
     "Prestigio PMT3287_3G": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "PMT3287_3G",
@@ -26254,6 +26625,7 @@
       }
     },
     "Prestigio PMT3377_Wi": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "PMT3377_Wi",
@@ -26266,6 +26638,7 @@
       }
     },
     "Prestigio PMT3037_3G": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "PMT3037_3G",
@@ -26278,6 +26651,7 @@
       }
     },
     "Prestigio PMT3047_3G": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "PMT3047_3G",
@@ -26290,6 +26664,7 @@
       }
     },
     "Prestigio PMT3177_3G": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "PMT3177_3G",
@@ -26302,6 +26677,7 @@
       }
     },
     "Prestigio PMP7079D_QUAD": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "PMP7079D_QUAD",
@@ -26314,6 +26690,7 @@
       }
     },
     "Prestigio PMP3074BRU": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "PMP3074BRU",
@@ -26326,6 +26703,7 @@
       }
     },
     "Prestigio PMP5785C3G_QUAD": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "PMP5785C3G_QUAD",
@@ -26338,6 +26716,7 @@
       }
     },
     "Prestigio PMP5297C_QUAD": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "PMP5297C_QUAD",
@@ -26428,6 +26807,7 @@
       }
     },
     "Prestigio GV7777": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "GV7777",
@@ -26440,6 +26820,7 @@
       }
     },
     "Prestigio PMP7074B3GRU": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "PMP7074B3GRU",
@@ -26504,6 +26885,7 @@
       }
     },
     "Prestigio PMP3007C": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "PMP3007C",
@@ -26516,6 +26898,7 @@
       }
     },
     "Prestigio PMP3970B": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "PMP3970B",
@@ -26554,6 +26937,7 @@
       }
     },
     "Prestigio PER5274B": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "PER5274B",
@@ -26566,6 +26950,7 @@
       }
     },
     "HP Touchpad": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "Touchpad",
@@ -26578,6 +26963,7 @@
       }
     },
     "HP 8": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "8",
@@ -26655,6 +27041,7 @@
       }
     },
     "Cube U51GT": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "U51GT",
@@ -26667,6 +27054,7 @@
       }
     },
     "Cube U51GT_C4": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "U51GT_C4",
@@ -26679,6 +27067,7 @@
       }
     },
     "Cube U55GT": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "U55GT",
@@ -26691,6 +27080,7 @@
       }
     },
     "Cube U20GT_WS": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "U20GT_WS",
@@ -26703,6 +27093,7 @@
       }
     },
     "Cube U9GT2": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "U9GT2",
@@ -26780,6 +27171,7 @@
       }
     },
     "TechniSat TechniPad 10 3G": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "TechniPad 10 3G",
@@ -26883,6 +27275,7 @@
       }
     },
     "TrekStor ST10216": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "ST10216",
@@ -26895,6 +27288,7 @@
       }
     },
     "TrekStor ST701041": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "ST701041",
@@ -26907,6 +27301,7 @@
       }
     },
     "TrekStor VT10416-1": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "VT10416-1",
@@ -26919,6 +27314,7 @@
       }
     },
     "TrekStor VT10416-2": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "VT10416-2",
@@ -26931,6 +27327,7 @@
       }
     },
     "TrekStor ST10216-2": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "ST10216-2",
@@ -26943,6 +27340,7 @@
       }
     },
     "TrekStor SurfTab Breeze 10.1 Quad": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "SurfTab Breeze 10.1 Quad",
@@ -26955,6 +27353,7 @@
       }
     },
     "Barnes & Noble Nook HD+": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "Nook HD+",
@@ -26967,6 +27366,7 @@
       }
     },
     "Barnes & Noble Nook Color": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "Nook Color",
@@ -26979,6 +27379,7 @@
       }
     },
     "Barnes & Noble BNRV200": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "BNRV200",
@@ -26991,6 +27392,7 @@
       }
     },
     "Barnes & Noble Nook": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "Nook",
@@ -27003,6 +27405,7 @@
       }
     },
     "I-ONIK TP10": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "TP10",
@@ -27015,6 +27418,7 @@
       }
     },
     "Nextbook Next": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "Next",
@@ -27027,6 +27431,7 @@
       }
     },
     "Nuqleo Zaffire 785": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "Zaffire 785",
@@ -27039,6 +27444,7 @@
       }
     },
     "Nuqleo Zaffire 1010": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "Zaffire 1010",
@@ -27051,6 +27457,7 @@
       }
     },
     "Blackberry PlayBook": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "PlayBook",
@@ -28831,6 +29238,7 @@
       }
     },
     "Elonex eTouch": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "eTouch",
@@ -28843,6 +29251,7 @@
       }
     },
     "Apad MID Rockchip 2808A+ Tablet": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "MID Rockchip 2808A+ Tablet",
@@ -28972,6 +29381,7 @@
       }
     },
     "Yarvik TAB10-400": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Noble 10c",
@@ -29010,6 +29420,7 @@
       }
     },
     "Dino 762 A9": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "762 A9 TABLET",
@@ -29620,6 +30031,7 @@
       }
     },
     "Tolino Tab 8.9": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Tab 8.9",
@@ -29632,6 +30044,7 @@
       }
     },
     "Tolino Tab 7": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Tab 7",
@@ -29696,6 +30109,7 @@
       }
     },
     "Fujitsu M532": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "STYLISTIC M532",
@@ -29708,6 +30122,7 @@
       }
     },
     "Blaupunkt Endeavour 1010": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Endeavour 1010",
@@ -30032,6 +30447,7 @@
       }
     },
     "Fly Flylife Connect 7 3G": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Flylife Connect 7 3G",
@@ -30044,6 +30460,7 @@
       }
     },
     "Fly Flylife Connect 7.85 3G Slim": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Flylife Connect 7.85 3G Slim",
@@ -30056,6 +30473,7 @@
       }
     },
     "Zeki TBD1083": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "TBD1083",
@@ -30068,6 +30486,7 @@
       }
     },
     "Zeki TBDB863": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "TBDB863",
@@ -30080,6 +30499,7 @@
       }
     },
     "Zeki TBDC1093": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "TBDC1093",
@@ -30092,6 +30512,7 @@
       }
     },
     "Zeki TBDG773": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "TBDG773",
@@ -30104,6 +30525,7 @@
       }
     },
     "GOCLEVER A1021": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "TERRA 101",
@@ -30116,6 +30538,7 @@
       }
     },
     "GOCLEVER INSIGNIA 785 PRO": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "INSIGNIA 785 PRO",
@@ -30128,6 +30551,7 @@
       }
     },
     "GOCLEVER Aries 785": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Aries 785",
@@ -30140,6 +30564,7 @@
       }
     },
     "GOCLEVER Aries 101": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Aries 101",
@@ -30152,6 +30577,7 @@
       }
     },
     "GOCLEVER TQ700": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "QUANTUM 700",
@@ -30164,6 +30590,7 @@
       }
     },
     "GOCLEVER T76": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "TAB T76 GPS",
@@ -30176,6 +30603,7 @@
       }
     },
     "GOCLEVER ORION7o": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "ORION 7o",
@@ -30188,6 +30616,7 @@
       }
     },
     "GOCLEVER A93.2": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "A93.2",
@@ -30226,6 +30655,7 @@
       }
     },
     "GOCLEVER Terra 7oW": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Terra 7oW",
@@ -30238,6 +30668,7 @@
       }
     },
     "MODECOM FreeTAB 1001": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "FreeTAB 1001",
@@ -30250,6 +30681,7 @@
       }
     },
     "MODECOM FreeTAB 1014 IPS X4 3G+": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "FreeTAB 1014 IPS X4 3G+",
@@ -30262,6 +30694,7 @@
       }
     },
     "MODECOM FreeTAB 9702 HD X4": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "FreeTAB 9702 HD X4",
@@ -30274,6 +30707,7 @@
       }
     },
     "MODECOM FreeTAB 7001 HD IC": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "FreeTAB 7001 HD IC",
@@ -30286,6 +30720,7 @@
       }
     },
     "MODECOM FreeTAB 8001 IPS X2 3G+": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "FreeTAB 8001 IPS X2 3G+",
@@ -30298,6 +30733,7 @@
       }
     },
     "MODECOM FreeTAB 9000 IPS IC": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "FreeTAB 9000 IPS IC",
@@ -30310,6 +30746,7 @@
       }
     },
     "MODECOM FreeTAB 7800 IPS IC": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "FreeTAB 7800 IPS IC",
@@ -30322,6 +30759,7 @@
       }
     },
     "MODECOM FreeTAB 8001 IPS X2 3G": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "FreeTAB 8001 IPS X2 3G",
@@ -30334,6 +30772,7 @@
       }
     },
     "myTAB Mini 3G": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Mini 3G",
@@ -30346,6 +30785,7 @@
       }
     },
     "Orange FunTab 8": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "FunTab 8",
@@ -30371,6 +30811,7 @@
       }
     },
     "Overmax Solution 10 Ii 3G": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Solution 10 Ii 3G",
@@ -30383,6 +30824,7 @@
       }
     },
     "Overmax Quattor 10+": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Quattor 10+",
@@ -30395,6 +30837,7 @@
       }
     },
     "Overmax SteelCore": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "SteelCore",
@@ -30407,6 +30850,7 @@
       }
     },
     "Overmax Solution 7 III": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Solution 7 III",
@@ -30432,6 +30876,7 @@
       }
     },
     "Kiano Elegance 8 3G": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Elegance 8 3G",
@@ -30444,6 +30889,7 @@
       }
     },
     "Kiano Elegance": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Elegance",
@@ -30456,6 +30902,7 @@
       }
     },
     "Kiano Intelect 7 3G": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Intelect 7 3G",
@@ -30468,6 +30915,7 @@
       }
     },
     "Manta MID802": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "MID802 POWER DUO HD",
@@ -30480,6 +30928,7 @@
       }
     },
     "Philips PI3210G": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Amio7",
@@ -30635,6 +31084,7 @@
       }
     },
     "Shiru Samurai 10": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Samurai 10",
@@ -30647,6 +31097,7 @@
       }
     },
     "TB Touch Ignis 8": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Ignis 8",
@@ -30659,6 +31110,7 @@
       }
     },
     "NTT System NTT 611 10.1": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "NTT 611 10.1",
@@ -30671,6 +31123,7 @@
       }
     },
     "Pentagram Tab 7.6": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Tab 7.6",
@@ -30683,6 +31136,7 @@
       }
     },
     "Digma iDsD7 3G": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "iDsD7 3G",
@@ -30695,6 +31149,7 @@
       }
     },
     "Digma iDsD10 3G": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "iDsD10 3G",
@@ -30707,6 +31162,7 @@
       }
     },
     "Digma iDsD8 3G": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "iDsD8 3G",
@@ -30719,6 +31175,7 @@
       }
     },
     "Digma iDnD7": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "iDnD7",
@@ -30731,6 +31188,7 @@
       }
     },
     "Digma iDjD7": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "iDjD7",
@@ -30743,6 +31201,7 @@
       }
     },
     "Digma iDxD7 3G": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "iDxD7 3G",
@@ -30781,6 +31240,7 @@
       }
     },
     "Digma PS1043MG": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Plane 10.3 3G",
@@ -30793,6 +31253,7 @@
       }
     },
     "Digma PS1005MG": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Plane 10.5 3G",
@@ -30831,6 +31292,7 @@
       }
     },
     "Digma TT7022MG-O72": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "TT7022MG-O72 3G UMTS",
@@ -30843,6 +31305,7 @@
       }
     },
     "Digma TT7007MG": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Optima 7.07 3G",
@@ -30868,6 +31331,7 @@
       }
     },
     "Digma HT7070MG": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "HIT 3G",
@@ -31023,6 +31487,7 @@
       }
     },
     "DFunc Func Titan-02": {
+      "standard": true,
       "properties": {
         "Device_Type": "Console",
         "Device_Name": "Func Titan-02",
@@ -31035,6 +31500,7 @@
       }
     },
     "DFunc Func Titan-01A": {
+      "standard": true,
       "properties": {
         "Device_Type": "Console",
         "Device_Name": "Func Titan-01A",
@@ -31047,6 +31513,7 @@
       }
     },
     "Ergo Tab Crystal Lite": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Tab Crystal Lite",
@@ -31059,6 +31526,7 @@
       }
     },
     "Ritmix RMD-1028": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "RMD-1028",
@@ -31071,6 +31539,7 @@
       }
     },
     "Ritmix RMD-1025": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "RMD-1025",
@@ -31083,6 +31552,7 @@
       }
     },
     "Ritmix RMD-753": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "RMD-753",
@@ -31095,6 +31565,7 @@
       }
     },
     "Ritmix RMD-757": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "RMD-757",
@@ -31107,6 +31578,7 @@
       }
     },
     "Ritmix RMD-751": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "RMD-751",
@@ -31119,6 +31591,7 @@
       }
     },
     "Ritmix RMD-1040": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "RMD-1040",
@@ -31131,6 +31604,7 @@
       }
     },
     "Ritmix RMD-855": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "RMD-855",
@@ -31143,6 +31617,7 @@
       }
     },
     "Wexler TAB7iD": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Tab7ID",
@@ -31155,6 +31630,7 @@
       }
     },
     "Wexler TAB 7i 3G": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "TAB 7i 3G",
@@ -31167,6 +31643,7 @@
       }
     },
     "Wexler TABA742": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "TAB A742",
@@ -31179,6 +31656,7 @@
       }
     },
     "Wexler TAB-7T": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "TAB 7T",
@@ -31191,6 +31669,7 @@
       }
     },
     "Wexler Book T7008": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Book T7008",
@@ -31203,6 +31682,7 @@
       }
     },
     "Exeq P-720": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "P-720",
@@ -31215,6 +31695,7 @@
       }
     },
     "Exeq P-746": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "P-746",
@@ -31396,6 +31877,7 @@
       }
     },
     "DNS MB40II1": {
+      "standard": true,
       "properties": {
         "Device_Type": "Desktop",
         "Device_Name": "MB40II1",
@@ -31408,6 +31890,7 @@
       }
     },
     "DNS AirTab PF7001": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "AirTab PF7001",
@@ -31420,6 +31903,7 @@
       }
     },
     "DNS AirTab P970g": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "AirTab P970g",
@@ -31432,6 +31916,7 @@
       }
     },
     "DNS AirTab M104G": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "AirTab M104G",
@@ -31444,6 +31929,7 @@
       }
     },
     "DNS AirTab ES9701": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "AirTab ES9701",
@@ -31547,6 +32033,7 @@
       }
     },
     "DEXP Ursus 9EV 3G": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Ursus 9EV 3G",
@@ -31650,6 +32137,7 @@
       }
     },
     "iconBIT NetTAB Pocket 3G": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "NetTAB Pocket 3G",
@@ -31662,6 +32150,7 @@
       }
     },
     "iconBIT NT-3710S": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "NetTAB SKY 3G Plus",
@@ -31674,6 +32163,7 @@
       }
     },
     "iconBIT NT-3702M": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "NetTAB Matrix 3G Duo",
@@ -31686,6 +32176,7 @@
       }
     },
     "iconBIT NT-3502M": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "NetTAB Mercury Duo",
@@ -31698,6 +32189,7 @@
       }
     },
     "iconBIT NT-3507M": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "NetTAB Mercury Quad",
@@ -31710,6 +32202,7 @@
       }
     },
     "iconBIT NT-1009T": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "NetTAB THOR QUAD II",
@@ -31722,6 +32215,7 @@
       }
     },
     "iconBIT THOR-LE": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "NetTAB THOR-LE",
@@ -31734,6 +32228,7 @@
       }
     },
     "iconBIT TOUCAN Stick 3D mk2": {
+      "standard": true,
       "properties": {
         "Device_Type": "TV Device",
         "Device_Name": "TOUCAN Stick 3D mk2",
@@ -31746,6 +32241,7 @@
       }
     },
     "MSI Primo76": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Global Primo 76",
@@ -31784,6 +32280,7 @@
       }
     },
     "TeXet TM-7066": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "X-pad LITE 7.1",
@@ -31796,6 +32293,7 @@
       }
     },
     "TeXet TM-7058": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "X-pad STYLE 7.1 3G",
@@ -31808,6 +32306,7 @@
       }
     },
     "TeXet TM-7068": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "X-pad iX 7 3G",
@@ -31885,6 +32384,7 @@
       }
     },
     "TeXet TM-7055HD": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "NaviPad 3G",
@@ -32079,6 +32579,7 @@
       }
     },
     "BQ 7056G": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "7056G",
@@ -32104,6 +32605,7 @@
       }
     },
     "BQ Edison": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Edison",
@@ -32116,6 +32618,7 @@
       }
     },
     "Andoer CX919": {
+      "standard": true,
       "properties": {
         "Device_Type": "TV Device",
         "Device_Code_Name": "CX919",
@@ -32154,6 +32657,7 @@
       }
     },
     "Irbis TX68": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "TX68",
@@ -32166,6 +32670,7 @@
       }
     },
     "Irbis TX17": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "TX17",
@@ -32178,6 +32683,7 @@
       }
     },
     "Irbis TX18": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "TX18",
@@ -32190,6 +32696,7 @@
       }
     },
     "Irbis TX08": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "TX08",
@@ -32202,6 +32709,7 @@
       }
     },
     "Irbis TX97": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "TX97",
@@ -32214,6 +32722,7 @@
       }
     },
     "Irbis TG97": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "TG97",
@@ -32265,6 +32774,7 @@
       }
     },
     "ONDA V989": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "V989",
@@ -32277,6 +32787,7 @@
       }
     },
     "ONDA MID": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "VI10 Elite",
@@ -32315,6 +32826,7 @@
       }
     },
     "3Q QS0716D": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Q-pad",
@@ -32327,6 +32839,7 @@
       }
     },
     "3Q AC0732C": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Q-lite",
@@ -32339,6 +32852,7 @@
       }
     },
     "3Q RC9724C": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Q-pad",
@@ -32351,6 +32865,7 @@
       }
     },
     "3Q MT0739D": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Q-pad",
@@ -32363,6 +32878,7 @@
       }
     },
     "3Q LC0720C": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Q-pad",
@@ -32375,6 +32891,7 @@
       }
     },
     "SXZ PDX0-01": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "PDX0-01",
@@ -32387,6 +32904,7 @@
       }
     },
     "Explay Surfer 7.34 3G": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Surfer 7.34 3G",
@@ -32399,6 +32917,7 @@
       }
     },
     "Explay Surfer 8.31 3G": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Surfer 8.31 3G",
@@ -32411,6 +32930,7 @@
       }
     },
     "Explay M1 Plus": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "M1 Plus",
@@ -32423,6 +32943,7 @@
       }
     },
     "Explay D7.2 3G": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "D7.2 3G",
@@ -32435,6 +32956,7 @@
       }
     },
     "Explay Art 3G": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Art 3G",
@@ -32447,6 +32969,7 @@
       }
     },
     "Explay Informer 921": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Informer 921",
@@ -32472,6 +32995,7 @@
       }
     },
     "Explay CinemaTV 3G": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "CinemaTV 3G",
@@ -32484,6 +33008,7 @@
       }
     },
     "Explay sQuad 7.82 3G": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "sQuad 7.82 3G",
@@ -32561,6 +33086,7 @@
       }
     },
     "Impression ImPAD 9708": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "ImPAD 9708",
@@ -32573,6 +33099,7 @@
       }
     },
     "Impression ImPAD 6213M V2": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "ImPAD 6213M V2",
@@ -32585,6 +33112,7 @@
       }
     },
     "Impression ImPAD 0413": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "ImPAD 0413",
@@ -32636,6 +33164,7 @@
       }
     },
     "Denver TAD-70112": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "TAD-70112",
@@ -32661,6 +33190,7 @@
       }
     },
     "Sunstech TAB917QC 8GB": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "TAB917QC 8GB",
@@ -32673,6 +33203,7 @@
       }
     },
     "Sunstech TAB917QC 16GB": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "TAB917QC 16GB",
@@ -32685,6 +33216,7 @@
       }
     },
     "Sunstech TAB785DUAL": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "TAB785DUAL",
@@ -32710,6 +33242,7 @@
       }
     },
     "PiPO PA10.1M": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "PA10.1M",
@@ -32722,6 +33255,7 @@
       }
     },
     "PiPO P9 3G": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "P9 3G",
@@ -32734,6 +33268,7 @@
       }
     },
     "PiPO P4": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "P4",
@@ -32746,6 +33281,7 @@
       }
     },
     "PiPO M7T": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "M7T 3G",
@@ -32758,6 +33294,7 @@
       }
     },
     "PiPO i75": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "i75",
@@ -32770,6 +33307,7 @@
       }
     },
     "PiPO M8 3G": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Max M8 3G",
@@ -32782,6 +33320,7 @@
       }
     },
     "PiPO M6": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "M6",
@@ -32794,6 +33333,7 @@
       }
     },
     "Honlin PC1088": {
+      "standard": true,
       "properties": {
         "Device_Type": "Desktop",
         "Device_Name": "PC1088",
@@ -32806,6 +33346,7 @@
       }
     },
     "Comag WTDR1018": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "WTDR1018",
@@ -32883,6 +33424,7 @@
       }
     },
     "Thomson LF1V307": {
+      "standard": true,
       "properties": {
         "Device_Type": "TV Device",
         "Device_Code_Name": "LF1V307",
@@ -32895,6 +33437,7 @@
       }
     },
     "Thomson LF1V325": {
+      "standard": true,
       "properties": {
         "Device_Type": "TV Device",
         "Device_Code_Name": "LF1V325",
@@ -32907,6 +33450,7 @@
       }
     },
     "Thomson LF1V373": {
+      "standard": true,
       "properties": {
         "Device_Type": "TV Device",
         "Device_Code_Name": "LF1V373",
@@ -32919,6 +33463,7 @@
       }
     },
     "Thomson LF1V394": {
+      "standard": true,
       "properties": {
         "Device_Type": "TV Device",
         "Device_Code_Name": "LF1V394",
@@ -32931,6 +33476,7 @@
       }
     },
     "Thomson LF1V401": {
+      "standard": true,
       "properties": {
         "Device_Type": "TV Device",
         "Device_Code_Name": "LF1V401",
@@ -32943,6 +33489,7 @@
       }
     },
     "M-way MD-948G": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "MD-948G",
@@ -32955,6 +33502,7 @@
       }
     },
     "M-way MD027G": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "MD027G",
@@ -32993,6 +33541,7 @@
       }
     },
     "Intego PX-0905": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "PX-0905",
@@ -33018,6 +33567,7 @@
       }
     },
     "Raspberry Pi": {
+      "standard": true,
       "properties": {
         "Device_Type": "Desktop",
         "Device_Code_Name": "Raspberry Pi",
@@ -33030,6 +33580,7 @@
       }
     },
     "PocketBook SURFpad 4 L": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "SURFpad 4 L",
@@ -33042,6 +33593,7 @@
       }
     },
     "Geniatech MX Enjoy": {
+      "standard": true,
       "properties": {
         "Device_Type": "TV Device",
         "Device_Name": "MX Enjoy TV BOX",
@@ -33054,6 +33606,7 @@
       }
     },
     "Xoro Xor400250": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "TelePAD 9A1",
@@ -33066,6 +33619,7 @@
       }
     },
     "Xoro Xor400418": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Pad 720",
@@ -33078,6 +33632,7 @@
       }
     },
     "Starway Andromeda S925 3G": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Andromeda S925 3G",
@@ -33090,6 +33645,7 @@
       }
     },
     "Logicom S9782": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "S9782",
@@ -33154,6 +33710,7 @@
       }
     },
     "Perfeo 7007-HD": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "7007-HD",
@@ -33166,6 +33723,7 @@
       }
     },
     "Perfeo PATG7506HD": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "7506-HD",
@@ -33178,6 +33736,7 @@
       }
     },
     "Perfeo 9103W": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "9103W",
@@ -33190,6 +33749,7 @@
       }
     },
     "Keener K-8S": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "K-8S",
@@ -33254,6 +33814,7 @@
       }
     },
     "Oysters T72M 3G": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "T72M 3G",
@@ -33266,6 +33827,7 @@
       }
     },
     "Oysters T72H 3G": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "T72H 3G",
@@ -33278,6 +33840,7 @@
       }
     },
     "Oysters T72HRi 3G": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "T72HRi 3G",
@@ -33290,6 +33853,7 @@
       }
     },
     "Oysters T7B 3G": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "T7B 3G",
@@ -33302,6 +33866,7 @@
       }
     },
     "Oysters T80 3G": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "T80 3G",
@@ -33314,6 +33879,7 @@
       }
     },
     "Oysters T84HRi": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "T84HRi (Wi-Fi, 3G)",
@@ -33326,6 +33892,7 @@
       }
     },
     "Oysters T37": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "T37",
@@ -33377,6 +33944,7 @@
       }
     },
     "Reellex TAB-97E-01": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "TAB-97E-01",
@@ -33441,6 +34009,7 @@
       }
     },
     "iRU M1003G": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Pad Master",
@@ -33583,6 +34152,7 @@
       }
     },
     "Advent P10AN01": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Vega",
@@ -33595,6 +34165,7 @@
       }
     },
     "Supra M723G": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "M723G",
@@ -33607,6 +34178,7 @@
       }
     },
     "Supra M121G": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "M121G",
@@ -33619,6 +34191,7 @@
       }
     },
     "Nextway F10X": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "F10X",
@@ -33631,6 +34204,7 @@
       }
     },
     "Amlogic M8": {
+      "standard": true,
       "properties": {
         "Device_Type": "TV Device",
         "Device_Name": "M8",
@@ -33643,6 +34217,7 @@
       }
     },
     "Adspec AdTab 7 Lite": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "AdTab 7 Lite",
@@ -33655,6 +34230,7 @@
       }
     },
     "AllWinner A10": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "A10",
@@ -33667,6 +34243,7 @@
       }
     },
     "Ainol Numy Note 9": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Numy Note 9",
@@ -33679,6 +34256,7 @@
       }
     },
     "Ainol Novo 7 Fire": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Novo 7 Fire",
@@ -33691,6 +34269,7 @@
       }
     },
     "Ainol Novo 10 Hero": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Novo 10 Hero",
@@ -33703,6 +34282,7 @@
       }
     },
     "Ainol Numy 3G AX1": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Novo 7 Numy AX1 3G",
@@ -33715,6 +34295,7 @@
       }
     },
     "Ainol Aurora-II": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Novo 7 Aurora II",
@@ -33779,6 +34360,7 @@
       }
     },
     "Accent Touareg8 3G": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Touareg8 3G",
@@ -33830,6 +34412,7 @@
       }
     },
     "TurboPad TP705": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "TP705",
@@ -33868,6 +34451,7 @@
       }
     },
     "Nomi C07000": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "C07000",
@@ -33880,6 +34464,7 @@
       }
     },
     "Globex GU7814": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "GU7814",
@@ -33892,6 +34477,7 @@
       }
     },
     "Globex GU730C": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "GU730C",
@@ -33904,6 +34490,7 @@
       }
     },
     "RoverPad Air A70": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Air A70",
@@ -33929,6 +34516,7 @@
       }
     },
     "Woo SP6020": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Quasar",
@@ -33954,6 +34542,7 @@
       }
     },
     "i-mobile i-Tab Fun": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "i-Tab Fun",
@@ -33992,6 +34581,7 @@
       }
     },
     "Reeder A8R": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "A8R",
@@ -34004,6 +34594,7 @@
       }
     },
     "VastKing M717R-HD": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "M717R-HD",
@@ -34016,6 +34607,7 @@
       }
     },
     "VastKing MID-717R": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "MID-717R",
@@ -34028,6 +34620,7 @@
       }
     },
     "Wopad Q10S": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Q10S",
@@ -34053,6 +34646,7 @@
       }
     },
     "Condor CTAB785R16-3G": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "CTAB 7.85 3G",
@@ -34078,6 +34672,7 @@
       }
     },
     "Verico RP-UDM02A": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Uni Pad",
@@ -34090,6 +34685,7 @@
       }
     },
     "Verico M1BGV": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "UNI Pad UQ785 7.8",
@@ -34102,6 +34698,7 @@
       }
     },
     "Verico UQM11A": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "UNI Pad 10.1",
@@ -34114,6 +34711,7 @@
       }
     },
     "Verico RP-UDM01A": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Uni Pad",
@@ -34165,6 +34763,7 @@
       }
     },
     "Mitashi AP-105": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Play Duo King",
@@ -34203,6 +34802,7 @@
       }
     },
     "Bliss Pad B9712KB": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Pad B9712KB",
@@ -34241,6 +34841,7 @@
       }
     },
     "Axioo PicoPad S1": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "PicoPad S1 (WiFi + 3G)",
@@ -34292,6 +34893,7 @@
       }
     },
     "Bravis NP 844": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "NP 844",
@@ -34304,6 +34906,7 @@
       }
     },
     "Fnac Phablet 4.5": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Phablet 4.5",
@@ -34316,6 +34919,7 @@
       }
     },
     "Etuline T880G": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "T880G",
@@ -34367,6 +34971,7 @@
       }
     },
     "Radxa Rock": {
+      "standard": true,
       "properties": {
         "Device_Type": "Desktop",
         "Device_Name": "Rock",
@@ -34392,6 +34997,7 @@
       }
     },
     "Prology Tab-970": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Evolution",
@@ -34404,6 +35010,7 @@
       }
     },
     "Lava E-Tab IVORY": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "E-Tab IVORY",
@@ -34416,6 +35023,7 @@
       }
     },
     "DEX iP1020-8GB": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "iP1020-8GB",
@@ -34428,6 +35036,7 @@
       }
     },
     "DEX iP977": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "iP977",
@@ -34440,6 +35049,7 @@
       }
     },
     "DEX iP890": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "iP890 3G",
@@ -34452,6 +35062,7 @@
       }
     },
     "Assistant AP-804": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "AP-804",
@@ -34464,6 +35075,7 @@
       }
     },
     "Assistant AP-708": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "AP-708",
@@ -34476,6 +35088,7 @@
       }
     },
     "Assistant AP-705": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "AP-705",
@@ -34553,6 +35166,7 @@
       }
     },
     "Treelogic Gravis 77 QC 3G IPS GPS": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Gravis 77 QC 3G IPS GPS",
@@ -34565,6 +35179,7 @@
       }
     },
     "Marshal ME-701": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "ME-701",
@@ -34577,6 +35192,7 @@
       }
     },
     "Telefunken TF-MID806G": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "TF-MID806G",
@@ -34628,6 +35244,7 @@
       }
     },
     "Alps XLD": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "XLD",
@@ -34640,6 +35257,7 @@
       }
     },
     "Alps Baoxue 7": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Baoxue 7",
@@ -34678,6 +35296,7 @@
       }
     },
     "Alcor Q813IS": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Zest",
@@ -34716,6 +35335,7 @@
       }
     },
     "AOSON M785": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "M785",
@@ -34754,6 +35374,7 @@
       }
     },
     "Beeline Tab": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Tab",
@@ -34818,6 +35439,7 @@
       }
     },
     "Lark Evolution X2 7 3G-GPS": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Evolution X2 7 3G-GPS",
@@ -34830,6 +35452,7 @@
       }
     },
     "JXD P200S": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "P200S",
@@ -34842,6 +35465,7 @@
       }
     },
     "Captiva PAD 10.1 Quad FHD 3G": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "PAD 10.1 Quad FHD 3G",
@@ -34854,6 +35478,7 @@
       }
     },
     "PolyPad 1010IPS": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "1010IPS",
@@ -34892,6 +35517,7 @@
       }
     },
     "Ross&Moor RM-997": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "RM-997",
@@ -34930,6 +35556,7 @@
       }
     },
     "Minno Minno8": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Minno8",
@@ -34942,6 +35569,7 @@
       }
     },
     "Mystery MID-721": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "MID-721",
@@ -34954,6 +35582,7 @@
       }
     },
     "Smarty Maxi 10L": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Maxi 10L",
@@ -34992,6 +35621,7 @@
       }
     },
     "Twinmos TwinTab T7283GD1": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "TwinTab T7283GD1",
@@ -35004,6 +35634,7 @@
       }
     },
     "SPCinternet 9200N": {
+      "standard": true,
       "properties": {
         "Device_Type": "TV Device",
         "Device_Name": "Smartee",
@@ -35016,6 +35647,7 @@
       }
     },
     "KTC 800P11B": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "800P11B",
@@ -35028,6 +35660,7 @@
       }
     },
     "Ninetology T8700": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Outlook Pure",
@@ -35079,6 +35712,7 @@
       }
     },
     "Aamra Kaya": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Kaya",
@@ -35104,6 +35738,7 @@
       }
     },
     "Cello T1144": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "T1144",
@@ -35116,6 +35751,7 @@
       }
     },
     "Ployer Momo20s": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Momo20s",
@@ -35128,6 +35764,7 @@
       }
     },
     "oblio mint": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "mint",
@@ -35140,6 +35777,7 @@
       }
     },
     "KingTop KT07": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "KT07",
@@ -35152,6 +35790,7 @@
       }
     },
     "Cambridge Sciences StarPAD": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "StarPAD",
@@ -35177,6 +35816,7 @@
       }
     },
     "CrownMicro B860": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "B860",
@@ -35189,6 +35829,7 @@
       }
     },
     "Ceros CT9716-B": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Revolution",
@@ -35227,6 +35868,7 @@
       }
     },
     "Smartbook S10": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "S10",
@@ -35239,6 +35881,7 @@
       }
     },
     "BB-Mobile Techno 9.7 3G": {
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Techno 9.7 3G",

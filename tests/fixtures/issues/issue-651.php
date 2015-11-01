@@ -38,6 +38,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-B' => [
         'Appcent/2.6 CFNetwork/672.1.15 Darwin/14.0.0',
@@ -76,6 +77,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-C' => [
         'Appzilla3/1.1 CFNetwork/548.1.4 Darwin/11.0.0',
@@ -114,6 +116,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-D' => [
         'AtomicBrowser/3.7.1 CFNetwork/467.12 Darwin/10.3.1',
@@ -152,6 +155,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-E' => [
         'AtomicBrowser/6.0.1 CFNetwork/548.0.4 Darwin/11.0.0',
@@ -190,6 +194,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-F' => [
         'AtomicBrowser/7.0.1 CFNetwork/548.0.4 Darwin/11.0.0',
@@ -228,6 +233,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-G' => [
         'AtomicBrowser/7.0.1 CFNetwork/548.1.4 Darwin/11.0.0',
@@ -266,6 +272,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-H' => [
         'AtomicBrowser/7.0.1 CFNetwork/609.1.4 Darwin/13.0.0',
@@ -304,6 +311,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-I' => [
         'AtomicBrowser/7.0.1 CFNetwork/672.0.8 Darwin/14.0.0',
@@ -342,6 +350,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-J' => [
         'AtomicBrowser/7.0.1 CFNetwork/672.1.13 Darwin/14.0.0',
@@ -380,6 +389,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-K' => [
         'AtomicBrowser/7.0.1 CFNetwork/672.1.14 Darwin/14.0.0',
@@ -418,6 +428,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-L' => [
         'AtomicBrowser/7.0.1 CFNetwork/672.1.15 Darwin/14.0.0',
@@ -456,6 +467,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-M' => [
         'AtomicBrowser/7.0.1 CFNetwork/711.1.16 Darwin/14.0.0',
@@ -494,6 +506,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-N' => [
         'AtomicLite/7.0.1 CFNetwork/672.1.13 Darwin/14.0.0',
@@ -532,6 +545,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-O' => [
         'com.apple.WebKit.Networking/9537.73.11 CFNetwork/673.0.3 Darwin/13.0.0 (x86_64) (MacBookAir5%2C2)',
@@ -570,6 +584,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-P' => [
         'com.apple.WebKit.WebContent/10538.46 CFNetwork/705 Darwin/14.0.0 (x86_64)',
@@ -608,6 +623,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-Q' => [
         'com.apple.WebKit.WebContent/10600.1.15 CFNetwork/718 Darwin/14.0.0 (x86_64)',
@@ -646,6 +662,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-R' => [
         'com.apple.WebKit.WebContent/10600.1.25 CFNetwork/720.0.9 Darwin/14.0.0 (x86_64)',
@@ -684,6 +701,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-S' => [
         'com.apple.WebKit.WebContent/10600.1.25 CFNetwork/720.1.1 Darwin/14.0.0 (x86_64)',
@@ -722,6 +740,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-T' => [
         'com.apple.WebKit.WebContent/10600.2.2 CFNetwork/720.1.1 Darwin/14.0.0 (x86_64)',
@@ -760,6 +779,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-U' => [
         'com.apple.WebKit.WebContent/10600.2.5 CFNetwork/720.0.9 Darwin/14.0.0 (x86_64)',
@@ -798,6 +818,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-V' => [
         'com.apple.WebKit.WebContent/10600.2.5 CFNetwork/720.1.1 Darwin/14.0.0 (x86_64)',
@@ -836,6 +857,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-W' => [
         'com.apple.WebKit.WebContent/10600.3.10.2 CFNetwork/720.2.3 Darwin/14.1.0 (x86_64)',
@@ -874,6 +896,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-X' => [
         'com.apple.WebKit.WebContent/10600.3.18 CFNetwork/720.2.4 Darwin/14.1.0 (x86_64)',
@@ -912,6 +935,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-Y' => [
         'com.apple.WebKit.WebContent/10600.3.5 CFNetwork/720.2.2 Darwin/14.1.0 (x86_64)',
@@ -950,6 +974,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-Z' => [
         'com.apple.WebKit.WebContent/10600.3.8.2 CFNetwork/720.2.3 Darwin/14.1.0 (x86_64)',
@@ -988,6 +1013,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-AA' => [
         'CSN%20Philly/1.03.01 CFNetwork/485.12.30 Darwin/10.4.0',
@@ -1026,6 +1052,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-AB' => [
         'DealsFREE/1.6.1 CFNetwork/548.1.4 Darwin/11.0.0',
@@ -1064,6 +1091,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-AC' => [
         'Differences/1.2 CFNetwork/548.1.4 Darwin/11.0.0',
@@ -1102,6 +1130,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-AD' => [
         'FastBrowser/1 CFNetwork/711.1.16 Darwin/14.0.0',
@@ -1140,6 +1169,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-AE' => [
         'Flint/173 CFNetwork/520.5.1 Darwin/11.4.2 (x86_64) (MacBookPro8%2C2)',
@@ -1178,6 +1208,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-AF' => [
         'Flint/173 CFNetwork/673.0.3 Darwin/13.0.0 (x86_64) (MacBookAir4%2C2)',
@@ -1216,6 +1247,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-AG' => [
         'Flint/173 CFNetwork/673.0.3 Darwin/13.0.0 (x86_64) (MacBookPro10%2C1)',
@@ -1254,6 +1286,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-AH' => [
         'Flint/173 CFNetwork/673.0.3 Darwin/13.0.0 (x86_64) (MacBookPro8%2C2)',
@@ -1292,6 +1325,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-AI' => [
         'Free%20Video%20Downloader/1.5 CFNetwork/672.0.8 Darwin/14.0.0',
@@ -1330,6 +1364,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-AJ' => [
         'GolfLogix/2.6 CFNetwork/485.12.30 Darwin/10.4.0',
@@ -1368,6 +1403,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-AK' => [
         'Google/2.0.1.10455 CFNetwork/548.1.4 Darwin/11.0.0',
@@ -1406,6 +1442,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-AL' => [
         'GroupMe/3.3.5 CFNetwork/548.1.4 Darwin/11.0.0',
@@ -1444,6 +1481,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-AM' => [
         'iCabMobile/1.1 CFNetwork/711.1.16 Darwin/14.0.0',
@@ -1482,6 +1520,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-AN' => [
         'iCabMobile/1.3 CFNetwork/711.1.12 Darwin/14.0.0',
@@ -1520,6 +1559,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-AO' => [
         'iCabMobile/8.5.6 CFNetwork/672.1.15 Darwin/14.0.0',
@@ -1558,6 +1598,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-AP' => [
         'iDownlaoder/1.1 CFNetwork/672.0.8 Darwin/14.0.0',
@@ -1596,6 +1637,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-AQ' => [
         'iHeartRadio/430 CFNetwork/485.12.30 Darwin/10.4.0',
@@ -1634,6 +1676,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-AR' => [
         'iMangaX/3.0.5 CFNetwork/548.0.4 Darwin/11.0.0',
@@ -1672,6 +1715,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-AS' => [
         'Instagram/2.4.0 CFNetwork/548.1.4 Darwin/11.0.0',
@@ -1710,6 +1754,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-AT' => [
         'Kenshoo/3049 CFNetwork/672.0.2 Darwin/14.0.0',
@@ -1748,6 +1793,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-AU' => [
         'Lingo/47740 CFNetwork/720.1.1 Darwin/14.0.0 (x86_64)',
@@ -1786,6 +1832,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-AV' => [
         'Mercury/810 CFNetwork/672.0.8 Darwin/14.0.0',
@@ -1825,6 +1872,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-AW' => [
         'Mercury/830 CFNetwork/609.1.4 Darwin/13.0.0',
@@ -1864,6 +1912,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-AX' => [
         'Mercury/830 CFNetwork/672.0.8 Darwin/14.0.0',
@@ -1903,6 +1952,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-AY' => [
         'Mercury/830 CFNetwork/672.1.13 Darwin/14.0.0',
@@ -1942,6 +1992,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-AZ' => [
         'Mercury/840 CFNetwork/672.1.13 Darwin/14.0.0',
@@ -1981,6 +2032,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-BA' => [
         'Mercury/841 CFNetwork/672.1.13 Darwin/14.0.0',
@@ -2020,6 +2072,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-BB' => [
         'Mercury/841 CFNetwork/672.1.14 Darwin/14.0.0',
@@ -2059,6 +2112,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-BC' => [
         'Mercury/850 CFNetwork/672.1.14 Darwin/14.0.0',
@@ -2098,6 +2152,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-BD' => [
         'Mercury/850 CFNetwork/672.1.15 Darwin/14.0.0',
@@ -2137,6 +2192,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-BE' => [
         'Mercury/860 CFNetwork/672.1.15 Darwin/14.0.0',
@@ -2176,6 +2232,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-BF' => [
         'Mercury/861 CFNetwork/672.1.15 Darwin/14.0.0',
@@ -2215,6 +2272,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-BG' => [
         'Mercury/870 CFNetwork/672.0.8 Darwin/14.0.0',
@@ -2254,6 +2312,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-BH' => [
         'Mercury/870 CFNetwork/672.1.15 Darwin/14.0.0',
@@ -2293,6 +2352,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-BI' => [
         'Mercury/870 CFNetwork/711.0.6 Darwin/14.0.0',
@@ -2332,6 +2392,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-BJ' => [
         'Mercury/872 CFNetwork/672.1.15 Darwin/14.0.0',
@@ -2371,6 +2432,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-BK' => [
         'Mercury/872 CFNetwork/711.0.6 Darwin/14.0.0',
@@ -2410,6 +2472,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-BL' => [
         'Mercury/872 CFNetwork/711.1.12 Darwin/14.0.0',
@@ -2449,6 +2512,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-BM' => [
         'Mercury/882 CFNetwork/711.1.12 Darwin/14.0.0',
@@ -2488,6 +2552,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-BN' => [
         'Mercury/883 CFNetwork/711.1.12 Darwin/14.0.0',
@@ -2527,6 +2592,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-BO' => [
         'Mercury/883 CFNetwork/711.1.16 Darwin/14.0.0',
@@ -2566,6 +2632,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-BP' => [
         'Mercury/894 CFNetwork/672.0.2 Darwin/14.0.0',
@@ -2605,6 +2672,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-BQ' => [
         'Mercury/894 CFNetwork/711.1.12 Darwin/14.0.0',
@@ -2644,6 +2712,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-BS' => [
         'Mercury/894 CFNetwork/711.2.23 Darwin/14.0.0',
@@ -2683,6 +2752,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-BT' => [
         'Mercury/894 CFNetwork/711.3.18 Darwin/14.0.0',
@@ -2722,6 +2792,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-BU' => [
         'MobileSafari/600.1.4 CFNetwork/711.0.6 Darwin/14.0.0',
@@ -2760,6 +2831,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-BV' => [
         'MobileSafari/600.1.4 CFNetwork/711.1.12 Darwin/14.0.0',
@@ -2798,6 +2870,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-BX' => [
         'MobileSafari/7534.48.3 CFNetwork/548.1.4 Darwin/11.0.0',
@@ -2836,6 +2909,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-BZ' => [
         'MobileSafari/8536.25 CFNetwork/609.1.4 Darwin/13.0.0',
@@ -2874,6 +2948,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-CA' => [
         'MobileSafari/9537.53 CFNetwork/672.0.2 Darwin/14.0.0',
@@ -2912,6 +2987,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-CB' => [
         'MobileSafari/9537.53 CFNetwork/672.0.8 Darwin/14.0.0',
@@ -2950,6 +3026,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-CC' => [
         'MobileSafari/9537.53 CFNetwork/672.1.13 Darwin/14.0.0',
@@ -2988,6 +3065,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-CD' => [
         'MobileSafari/9537.53 CFNetwork/672.1.14 Darwin/14.0.0',
@@ -3026,6 +3104,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-CF' => [
         'MobileTestLab/1 CFNetwork/711.1.12 Darwin/14.0.0',
@@ -3064,6 +3143,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-CG' => [
         'MobileTestLab/1 CFNetwork/711.1.16 Darwin/14.0.0',
@@ -3102,6 +3182,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-CH' => [
         'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36 Kenshoo/3049',
@@ -3140,6 +3221,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-CI' => [
         'PacMan/14193 CFNetwork/548.1.4 Darwin/11.0.0',
@@ -3178,6 +3260,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-CJ' => [
         'Perfect%20Browser/9.1 CFNetwork/672.0.8 Darwin/14.0.0',
@@ -3216,6 +3299,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-CK' => [
         'Puffin/12318 CFNetwork/672.1.14 Darwin/14.0.0',
@@ -3254,6 +3338,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-CL' => [
         'Puffin/12318 CFNetwork/672.1.15 Darwin/14.0.0',
@@ -3292,6 +3377,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-CM' => [
         'Puffin/12963 CFNetwork/672.1.15 Darwin/14.0.0',
@@ -3330,6 +3416,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-CN' => [
         'Puffin/12963 CFNetwork/711.1.12 Darwin/14.0.0',
@@ -3368,6 +3455,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-CO' => [
         'Puffin/12963 CFNetwork/711.1.16 Darwin/14.0.0',
@@ -3406,6 +3494,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-CP' => [
         'Puffin/13109 CFNetwork/711.1.16 Darwin/14.0.0',
@@ -3444,6 +3533,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-CQ' => [
         'Puffin/13170 CFNetwork/711.1.16 Darwin/14.0.0',
@@ -3482,6 +3572,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-CR' => [
         'Reeder/2.1.1 CFNetwork/672.0.8 Darwin/14.0.0',
@@ -3520,6 +3611,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-CS' => [
         'Reeder/2.1.1 CFNetwork/672.1.13 Darwin/14.0.0',
@@ -3558,6 +3650,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-CT' => [
         'Rhapsody/2.2.11 CFNetwork/548.1.4 Darwin/11.0.0',
@@ -3596,6 +3689,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-CU' => [
         'Safari/6534.59.10 CFNetwork/454.12.4 Darwin/10.8.0 (i386) (MacBook5%2C1)',
@@ -3634,6 +3728,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-CV' => [
         'Safari/6534.59.8 CFNetwork/454.12.4 Darwin/10.8.0 (i386) (Macmini1%2C1)',
@@ -3672,6 +3767,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-CW' => [
         'Safari/8536.30.1 CFNetwork/596.4.3 Darwin/12.4.0 (x86_64) (Macmini6%2C2)',
@@ -3710,6 +3806,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-CX' => [
         'Safari/8536.30.1 CFNetwork/596.5 Darwin/12.5.0 (x86_64) (MacBookPro9%2C2)',
@@ -3748,6 +3845,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-CY' => [
         'Safari/9537.73.11 CFNetwork/673.0.3 Darwin/13.0.0 (x86_64) (iMac8%2C1)',
@@ -3786,6 +3884,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-CZ' => [
         'Safari/9537.73.11 CFNetwork/673.0.3 Darwin/13.0.2 (x86_64) (MacBookPro11%2C1)',
@@ -3824,6 +3923,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-DA' => [
         'Safari/9537.73.11 CFNetwork/673.0.3 Darwin/13.0.2 (x86_64) (MacBookPro11%2C3)',
@@ -3862,6 +3962,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-DB' => [
         'Spillo/70 CFNetwork/720.0.9 Darwin/14.0.0 (x86_64)',
@@ -3900,6 +4001,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-DC' => [
         'Spillo/70 CFNetwork/720.1.1 Darwin/14.0.0 (x86_64)',
@@ -3938,6 +4040,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-DD' => [
         'Spillo/70 CFNetwork/720.2.4 Darwin/14.1.0 (x86_64)',
@@ -3976,6 +4079,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-DE' => [
         'Spillo/71 CFNetwork/720.2.4 Darwin/14.1.0 (x86_64)',
@@ -4014,6 +4118,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-DF' => [
         'Spillo/82 CFNetwork/720.2.4 Darwin/14.1.0 (x86_64)',
@@ -4052,6 +4157,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-DG' => [
         'UCBrowserHD/2.2.1.335 CFNetwork/548.1.4 Darwin/11.0.0',
@@ -4090,6 +4196,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-DH' => [
         'UCBrowserHD/2.4.0.367 CFNetwork/672.1.15 Darwin/14.0.0',
@@ -4128,6 +4235,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-DI' => [
         'VideoDownloaderDevstarPro/1.9.103 CFNetwork/672.1.15 Darwin/14.0.0',
@@ -4166,6 +4274,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-DJ' => [
         'YJTop/3.3.12 CFNetwork/672.1.15 Darwin/14.0.0',
@@ -4204,6 +4313,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-DK' => [
         'YJTop/3.3.13 CFNetwork/672.1.15 Darwin/14.0.0',
@@ -4242,6 +4352,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-DL' => [
         'YJTop/3.3.25 CFNetwork/711.1.16 Darwin/14.0.0',
@@ -4280,6 +4391,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-DM' => [
         'YJTop/3.3.8 CFNetwork/672.1.14 Darwin/14.0.0',
@@ -4318,6 +4430,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-651-DN' => [
         'YJTop/3.3.9 CFNetwork/672.1.14 Darwin/14.0.0',
@@ -4356,5 +4469,6 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
 ];

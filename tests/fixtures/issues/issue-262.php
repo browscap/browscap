@@ -14,5 +14,6 @@ return [
             'Crawler' => true,
         ],
         'lite' => false,
+        'standard' => true,
     ],
 ];

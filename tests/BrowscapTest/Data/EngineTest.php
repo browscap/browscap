@@ -29,30 +29,17 @@ use Browscap\Data\Engine;
 class EngineTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * @var \Browscap\Data\Engine
-     */
-    private $object = null;
-
-    /**
-     * Sets up the fixture, for example, open a network connection.
-     * This method is called before a test is executed.
-     */
-    public function setUp()
-    {
-        $this->object = new Engine();
-    }
-
-    /**
      * tests setter and getter for the engine properties
      *
      * @group data
      * @group sourcetest
      */
-    public function testSetGetProperties()
+    public function testGetProperties()
     {
         $properties = array('abc' => 'def');
 
-        self::assertSame($this->object, $this->object->setProperties($properties));
-        self::assertSame($properties, $this->object->getProperties());
+        $object = new Engine($properties);
+
+        self::assertSame($properties, $object->getProperties());
     }
 }

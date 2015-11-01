@@ -410,6 +410,15 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
             )
         );
 
+        $mockExpander = $this->getMock('\Browscap\Data\Expander', array('trimProperty'), array(), '', false);
+        $mockExpander
+            ->expects(self::any())
+            ->method('trimProperty')
+            ->will(self::returnArgument(0))
+        ;
+
+        self::assertSame($this->object, $this->object->setExpander($mockExpander));
+
         $mockDivision = $this->getMock('\Browscap\Data\Division', array('getUserAgents'), array(), '', false);
         $mockDivision
             ->expects(self::once())
@@ -508,6 +517,15 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
             )
         );
 
+        $mockExpander = $this->getMock('\Browscap\Data\Expander', array('trimProperty'), array(), '', false);
+        $mockExpander
+            ->expects(self::any())
+            ->method('trimProperty')
+            ->will(self::returnArgument(0))
+        ;
+
+        self::assertSame($this->object, $this->object->setExpander($mockExpander));
+
         $mockDivision = $this->getMock('\Browscap\Data\Division', array('getUserAgents'), array(), '', false);
         $mockDivision
             ->expects(self::once())
@@ -601,6 +619,15 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
                 )
             )
         );
+
+        $mockExpander = $this->getMock('\Browscap\Data\Expander', array('trimProperty'), array(), '', false);
+        $mockExpander
+            ->expects(self::any())
+            ->method('trimProperty')
+            ->will(self::returnArgument(0))
+        ;
+
+        self::assertSame($this->object, $this->object->setExpander($mockExpander));
 
         $mockDivision = $this->getMock('\Browscap\Data\Division', array('getUserAgents'), array(), '', false);
         $mockDivision

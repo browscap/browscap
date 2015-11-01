@@ -29,57 +29,21 @@ use Browscap\Data\Platform;
 class PlatformTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * @var \Browscap\Data\Platform
-     */
-    private $object = null;
-
-    /**
-     * Sets up the fixture, for example, open a network connection.
-     * This method is called before a test is executed.
-     */
-    public function setUp()
-    {
-        $this->object = new Platform();
-    }
-
-    /**
      * tests setter and getter for the match property
      *
      * @group data
      * @group sourcetest
      */
-    public function testSetGetMatch()
+    public function testGetter()
     {
         $match = 'TestMatchName';
-
-        self::assertSame($this->object, $this->object->setMatch($match));
-        self::assertSame($match, $this->object->getMatch());
-    }
-
-    /**
-     * tests setter and getter for data properties
-     *
-     * @group data
-     * @group sourcetest
-     */
-    public function testSetGetProperties()
-    {
         $properties = array('abc' => 'def');
 
-        self::assertSame($this->object, $this->object->setProperties($properties));
-        self::assertSame($properties, $this->object->getProperties());
-    }
+        $object = new Platform($match, $properties, true, false);
 
-    /**
-     * tests setter and getter for the lite property
-     *
-     * @group data
-     * @group sourcetest
-     */
-    public function testSetGetIsLite()
-    {
-        $this->assertFalse($this->object->isLite());
-        $this->object->setIsLite(true);
-        $this->assertTrue($this->object->isLite());
+        self::assertSame($match, $object->getMatch());
+        self::assertSame($properties, $object->getProperties());
+        $this->assertTrue($object->isLite());
+        $this->assertFalse($object->isStandard());
     }
 }

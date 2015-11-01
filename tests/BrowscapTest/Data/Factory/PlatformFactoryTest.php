@@ -50,7 +50,7 @@ class PlatformFactoryTest extends \PHPUnit_Framework_TestCase
      */
     public function testBuild()
     {
-        $platformData = array('abc' => 'def', 'match' => 'test*');
+        $platformData = array('abc' => 'def', 'match' => 'test*', 'lite' => true, 'standard' => true);
         $json         = array();
         $platformName = 'Test';
 

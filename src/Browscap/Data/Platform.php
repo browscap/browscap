@@ -57,7 +57,7 @@ class Platform
         $this->match      = $match;
         $this->properties = $properties;
         $this->isLite     = (bool) $isLite;
-        $this->standard   = (bool) $standard;
+        $this->isStandard = (bool) $standard;
     }
 
     /**

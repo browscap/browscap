@@ -40,6 +40,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-747-B' => [
         'Mozilla/5.0 (iPad; CPU OS 8_1_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B440 [FBAN/FBIOS;FBAV/39.1.0.41.31;FBBV/14951342;FBDV/iPad4,1;FBMD/iPad;FBSN/iPhone OS;FBSV/8.1.2;FBSS/2; FBCR/;FBID/tablet;FBLC/da_DK;FBOP/1]',
@@ -80,6 +81,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-747-C' => [
         'Mozilla/5.0 (iPad; CPU OS 8_1_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B466 [FBAN/FBIOS;FBAV/39.1.0.41.31;FBBV/14951342;FBDV/iPad4,5;FBMD/iPad;FBSN/iPhone OS;FBSV/8.1.3;FBSS/2; FBCR/TELIA;FBID/tablet;FBLC/da_DK;FBOP/1]',
@@ -120,6 +122,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-747-D' => [
         'Mozilla/5.0 (iPad; CPU OS 8_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12D508 [FBAN/FBIOS;FBAV/39.1.0.41.31;FBBV/14951342;FBDV/iPad2,4;FBMD/iPad;FBSN/iPhone OS;FBSV/8.2;FBSS/1; FBCR/;FBID/tablet;FBLC/da_DK;FBOP/1]',
@@ -160,6 +163,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-747-E' => [
         'Mozilla/5.0 (iPad; CPU OS 8_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12D508 [FBAN/MessengerForiOS;FBAV/36.1.0.41.36;FBBV/14947464;FBDV/iPad4,1;FBMD/iPad;FBSN/iPhone OS;FBSV/8.2;FBSS/2; FBCR/;FBID/tablet;FBLC/da_DK;FBOP/1]',
@@ -200,6 +204,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-747-F' => [
         'Mozilla/5.0 (iPad; CPU OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F69 [FBAN/FBIOS;FBAV/39.1.0.41.31;FBBV/14951342;FBDV/iPad2,1;FBMD/iPad;FBSN/iPhone OS;FBSV/8.3;FBSS/1; FBCR/;FBID/tablet;FBLC/da_DK;FBOP/1]',
@@ -240,6 +245,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-747-G' => [
         'Mozilla/5.0 (iPad; CPU OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F69 [FBAN/MessengerForiOS;FBAV/36.1.0.41.36;FBBV/14947464;FBDV/iPad5,4;FBMD/iPad;FBSN/iPhone OS;FBSV/8.3;FBSS/2; FBCR/3DK;FBID/tablet;FBLC/da_DK;FBOP/1]',
@@ -280,6 +286,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-747-H' => [
         'Mozilla/5.0 (iPad; CPU OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12H143 [FBAN/FBIOS;FBAV/39.1.0.41.31;FBBV/14951342;FBDV/iPad4,2;FBMD/iPad;FBSN/iPhone OS;FBSV/8.4;FBSS/2; FBCR/;FBID/tablet;FBLC/da_DK;FBOP/1]',
@@ -320,6 +327,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-747-I' => [
         'Mozilla/5.0 (iPad; CPU OS 8_4_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12H321 [FBAN/FBIOS;FBAV/39.1.0.41.31;FBBV/14951342;FBDV/iPad2,2;FBMD/iPad;FBSN/iPhone OS;FBSV/8.4.1;FBSS/1; FBCR/3DK;FBID/tablet;FBLC/da_DK;FBOP/1]',
@@ -360,6 +368,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-747-J' => [
         'Mozilla/5.0 (iPad; CPU OS 9_0 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13A344 [FBAN/FBIOS;FBAV/39.1.0.41.31;FBBV/14951342;FBDV/iPad2,1;FBMD/iPad;FBSN/iPhone OS;FBSV/9.0;FBSS/1; FBCR/;FBID/tablet;FBLC/da_DK;FBOP/1]',
@@ -400,6 +409,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-747-K' => [
         'Mozilla/5.0 (iPad; CPU OS 9_0 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13A344 [FBAN/MessengerForiOS;FBAV/36.1.0.41.36;FBBV/14947464;FBDV/iPad5,4;FBMD/iPad;FBSN/iPhone OS;FBSV/9.0;FBSS/2; FBCR/3DK;FBID/tablet;FBLC/da_DK;FBOP/1]',
@@ -440,6 +450,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-747-L' => [
         'Mozilla/5.0 (iPad; CPU OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13B5110e [FBAN/FBIOS;FBAV/39.1.0.41.31;FBBV/14951342;FBDV/iPad4,2;FBMD/iPad;FBSN/iOS;FBSV/9.1;FBSS/2; FBCR/;FBID/tablet;FBLC/da_DK;FBOP/1]',
@@ -480,6 +491,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-747-M' => [
         'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D167 [FBAN/FBIOS;FBAV/39.1.0.41.31;FBBV/14951342;FBDV/iPhone5,4;FBMD/iPhone;FBSN/iPhone OS;FBSV/7.1;FBSS/2; FBCR/TELIA;FBID/phone;FBLC/da_DK;FBOP/5]',
@@ -519,6 +531,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-747-N' => [
         'Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12A405 [FBAN/FBIOS;FBAV/39.1.0.41.31;FBBV/14951342;FBDV/iPhone6,2;FBMD/iPhone;FBSN/iPhone OS;FBSV/8.0.2;FBSS/2; FBCR/3DK;FBID/phone;FBLC/da_DK;FBOP/5]',
@@ -558,6 +571,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-747-O' => [
         'Mozilla/5.0 (iPhone; CPU iPhone OS 8_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B411 [FBAN/FBIOS;FBAV/39.1.0.41.31;FBBV/14951342;FBDV/iPhone5,4;FBMD/iPhone;FBSN/iPhone OS;FBSV/8.1;FBSS/2; FBCR/TDC;FBID/phone;FBLC/da_DK;FBOP/5]',
@@ -597,6 +611,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-747-P' => [
         'Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B435 [FBAN/MessengerForiOS;FBAV/36.1.0.41.36;FBBV/14947464;FBDV/iPhone5,4;FBMD/iPhone;FBSN/iPhone OS;FBSV/8.1.1;FBSS/2; FBCR/TelenorDK;FBID/phone;FBLC/da_DK;FBOP/5]',
@@ -636,6 +651,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-747-Q' => [
         'Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B440 [FBAN/FBIOS;FBAV/39.1.0.41.31;FBBV/14951342;FBDV/iPhone5,2;FBMD/iPhone;FBSN/iPhone OS;FBSV/8.1.2;FBSS/2; FBCR/3DK;FBID/phone;FBLC/da_DK;FBOP/5]',
@@ -675,6 +691,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-747-R' => [
         'Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B466 [FBAN/FBIOS;FBAV/39.1.0.41.31;FBBV/14951342;FBDV/iPhone6,2;FBMD/iPhone;FBSN/iPhone OS;FBSV/8.1.3;FBSS/2; FBCR/TelenorDK;FBID/phone;FBLC/da_DK;FBOP/5]',
@@ -714,6 +731,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-747-S' => [
         'Mozilla/5.0 (iPhone; CPU iPhone OS 8_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12D508 [FBAN/FBIOS;FBAV/39.1.0.41.31;FBBV/14951342;FBDV/iPhone4,1;FBMD/iPhone;FBSN/iPhone OS;FBSV/8.2;FBSS/2; FBCR/TELIA;FBID/phone;FBLC/da_DK;FBOP/5]',
@@ -753,6 +771,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-747-T' => [
         'Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70 [FBAN/FBIOS;FBAV/39.1.0.41.31;FBBV/14951342;FBDV/iPhone7,2;FBMD/iPhone;FBSN/iPhone OS;FBSV/8.3;FBSS/2; FBCR/TelenorDK;FBID/phone;FBLC/da_DK;FBOP/5]',
@@ -792,6 +811,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-747-U' => [
         'Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70 [FBAN/MessengerForiOS;FBAV/32.1.0.42.216;FBBV/13241093;FBDV/iPhone7,2;FBMD/iPhone;FBSN/iPhone OS;FBSV/8.3;FBSS/2; FBCR/TelenorDK;FBID/phone;FBLC/da_DK;FBOP/5]',
@@ -831,6 +851,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-747-V' => [
         'Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70 [FBAN/MessengerForiOS;FBAV/33.1.0.40.254;FBBV/13557856;FBDV/iPhone5,2;FBMD/iPhone;FBSN/iPhone OS;FBSV/8.3;FBSS/2; FBCR/TELIA;FBID/phone;FBLC/en_US;FBOP/5]',
@@ -870,6 +891,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-747-W' => [
         'Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70 [FBAN/MessengerForiOS;FBAV/36.1.0.41.36;FBBV/14947464;FBDV/iPhone4,1;FBMD/iPhone;FBSN/iPhone OS;FBSV/8.3;FBSS/2; FBCR/TELIA;FBID/phone;FBLC/da_DK;FBOP/5]',
@@ -909,6 +931,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-747-X' => [
         'Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70 [FBAN/MessengerForiOS;FBAV/36.1.0.41.36;FBBV/14947464;FBDV/iPhone5,2;FBMD/iPhone;FBSN/iPhone OS;FBSV/8.3;FBSS/2; FBCR/TDC;FBID/phone;FBLC/da_DK;FBOP/5]',
@@ -948,6 +971,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-747-Y' => [
         'Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70 [FBAN/MessengerForiOS;FBAV/36.1.0.41.36;FBBV/14947464;FBDV/iPhone6,2;FBMD/iPhone;FBSN/iPhone OS;FBSV/8.3;FBSS/2; FBCR/TDC;FBID/phone;FBLC/da_DK;FBOP/5]',
@@ -987,6 +1011,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-747-Z' => [
         'Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70 [FBAN/MessengerForiOS;FBAV/36.1.0.41.36;FBBV/14947464;FBDV/iPhone7,1;FBMD/iPhone;FBSN/iPhone OS;FBSV/8.3;FBSS/3; FBCR/TELIA;FBID/phone;FBLC/da_DK;FBOP/5]',
@@ -1026,6 +1051,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-747-AA' => [
         'Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70 [FBAN/MessengerForiOS;FBAV/36.1.0.41.36;FBBV/14947464;FBDV/iPhone7,2;FBMD/iPhone;FBSN/iPhone OS;FBSV/8.3;FBSS/2; FBCR/TelenorDK;FBID/phone;FBLC/da_DK;FBOP/5]',
@@ -1065,6 +1091,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-747-AB' => [
         'Mozilla/5.0 (iPhone; CPU iPhone OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12H143 [FBAN/FBIOS;FBAV/39.1.0.41.31;FBBV/14951342;FBDV/iPhone4,1;FBMD/iPhone;FBSN/iPhone OS;FBSV/8.4;FBSS/2; FBCR/TelenorDK;FBID/phone;FBLC/da_DK;FBOP/5]',
@@ -1104,6 +1131,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-747-AC' => [
         'Mozilla/5.0 (iPhone; CPU iPhone OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12H143 [FBAN/MessengerForiOS;FBAV/36.1.0.41.36;FBBV/14947464;FBDV/iPhone5,2;FBMD/iPhone;FBSN/iPhone OS;FBSV/8.4;FBSS/2; FBCR/TDC;FBID/phone;FBLC/da_DK;FBOP/5]',
@@ -1143,6 +1171,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-747-AD' => [
         'Mozilla/5.0 (iPhone; CPU iPhone OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12H143 [FBAN/MessengerForiOS;FBAV/36.1.0.41.36;FBBV/14947464;FBDV/iPhone6,2;FBMD/iPhone;FBSN/iPhone OS;FBSV/8.4;FBSS/2; FBCR/TelenorDK;FBID/phone;FBLC/da_DK;FBOP/5]',
@@ -1182,6 +1211,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-747-AE' => [
         'Mozilla/5.0 (iPhone; CPU iPhone OS 8_4_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12H321 [FBAN/FBIOS;FBAV/36.1.0.43.231;FBBV/13557860;FBDV/iPhone7,1;FBMD/iPhone;FBSN/iPhone OS;FBSV/8.4.1;FBSS/3; FBCR/TELIA;FBID/phone;FBLC/da_DK;FBOP/5]',
@@ -1221,6 +1251,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-747-AF' => [
         'Mozilla/5.0 (iPhone; CPU iPhone OS 8_4_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12H321 [FBAN/FBIOS;FBAV/39.1.0.41.31;FBBV/14951342;FBDV/iPhone4,1;FBMD/iPhone;FBSN/iPhone OS;FBSV/8.4.1;FBSS/2; FBCR/TDC;FBID/phone;FBLC/da_DK;FBOP/5]',
@@ -1260,6 +1291,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-747-AG' => [
         'Mozilla/5.0 (iPhone; CPU iPhone OS 8_4_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12H321 [FBAN/MessengerForiOS;FBAV/36.1.0.41.36;FBBV/14947464;FBDV/iPhone5,2;FBMD/iPhone;FBSN/iPhone OS;FBSV/8.4.1;FBSS/2; FBCR/TelenorDK;FBID/phone;FBLC/da_DK;FBOP/5]',
@@ -1299,6 +1331,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-747-AH' => [
         'Mozilla/5.0 (iPhone; CPU iPhone OS 8_4_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12H321 [FBAN/MessengerForiOS;FBAV/36.1.0.41.36;FBBV/14947464;FBDV/iPhone6,2;FBMD/iPhone;FBSN/iPhone OS;FBSV/8.4.1;FBSS/2; FBCR/TDC;FBID/phone;FBLC/da_DK;FBOP/5]',
@@ -1338,6 +1371,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-747-AI' => [
         'Mozilla/5.0 (iPhone; CPU iPhone OS 8_4_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12H321 [FBAN/MessengerForiOS;FBAV/36.1.0.41.36;FBBV/14947464;FBDV/iPhone7,2;FBMD/iPhone;FBSN/iPhone OS;FBSV/8.4.1;FBSS/2; FBCR/3DK;FBID/phone;FBLC/da_DK;FBOP/5]',
@@ -1377,6 +1411,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-747-AJ' => [
         'Mozilla/5.0 (iPhone; CPU iPhone OS 8_4_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12H321 [FBAN/MessengerForiOS;FBAV/36.1.0.41.36;FBBV/14947464;FBDV/iPhone7,2;FBMD/iPhone;FBSN/iPhone OS;FBSV/8.4.1;FBSS/2; FBCR/TDC;FBID/phone;FBLC/da_DK;FBOP/5]',
@@ -1416,6 +1451,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-747-AK' => [
         'Mozilla/5.0 (iPhone; CPU iPhone OS 9_0 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13A344 [FBAN/FBIOS;FBAV/39.1.0.41.31;FBBV/14951342;FBDV/iPhone4,1;FBMD/iPhone;FBSN/iPhone OS;FBSV/9.0;FBSS/2; FBCR/TDC;FBID/phone;FBLC/da_DK;FBOP/5]',
@@ -1455,6 +1491,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-747-AL' => [
         'Mozilla/5.0 (iPhone; CPU iPhone OS 9_0 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13A344 [FBAN/MessengerForiOS;FBAV/32.1.0.42.216;FBBV/13241093;FBDV/iPhone7,2;FBMD/iPhone;FBSN/iPhone OS;FBSV/9.0;FBSS/2; FBCR/TDC;FBID/phone;FBLC/da_DK;FBOP/5]',
@@ -1494,6 +1531,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-747-AM' => [
         'Mozilla/5.0 (iPhone; CPU iPhone OS 9_0 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13A344 [FBAN/MessengerForiOS;FBAV/36.1.0.41.36;FBBV/14947464;FBDV/iPhone7,2;FBMD/iPhone;FBSN/iPhone OS;FBSV/9.0;FBSS/2; FBCR/TelenorDK;FBID/phone;FBLC/da_DK;FBOP/5]',
@@ -1533,6 +1571,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-747-AN' => [
         'Mozilla/5.0 (iPhone; CPU iPhone OS 9_0 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13A4325c [FBAN/FBIOS;FBAV/39.1.0.41.31;FBBV/14951342;FBDV/iPhone6,2;FBMD/iPhone;FBSN/iPhone OS;FBSV/9.0;FBSS/2; FBCR/TelenorDK;FBID/phone;FBLC/da_DK;FBOP/5]',
@@ -1572,6 +1611,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-747-AO' => [
         'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13B5110e [FBAN/FBIOS;FBAV/39.1.0.41.31;FBBV/14951342;FBDV/iPhone7,2;FBMD/iPhone;FBSN/iOS;FBSV/9.1;FBSS/2; FBCR/TELIA;FBID/phone;FBLC/da_DK;FBOP/5]',
@@ -1611,6 +1651,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-747-AP' => [
         'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13B5110e [FBAN/MessengerForiOS;FBAV/36.1.0.41.36;FBBV/14947464;FBDV/iPhone7,2;FBMD/iPhone;FBSN/iOS;FBSV/9.1;FBSS/2; FBCR/3DK;FBID/phone;FBLC/da_DK;FBOP/5]',
@@ -1650,5 +1691,6 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
 ];

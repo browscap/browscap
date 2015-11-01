@@ -46,11 +46,15 @@ class PlatformFactory
         }
 
         if (!array_key_exists('lite', $platformData)) {
-            $platformData['lite'] = true;
+            throw new \UnexpectedValueException(
+                'the value for "lite" key is missing for the platform with the key "' . $platformName . '"'
+            );
         }
 
         if (!array_key_exists('standard', $platformData)) {
-            $platformData['standard'] = true;
+            throw new \UnexpectedValueException(
+                'the value for "standard" key is missing for the platform with the key "' . $platformName . '"'
+            );
         }
 
         if (array_key_exists('inherits', $platformData)) {

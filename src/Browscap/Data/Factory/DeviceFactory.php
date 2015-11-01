@@ -43,7 +43,9 @@ class DeviceFactory
         }
 
         if (!array_key_exists('standard', $deviceData)) {
-            $deviceData['standard'] = true;
+            throw new \UnexpectedValueException(
+                'the value for "standard" key is missing for device "' . $deviceName . '"'
+            );
         }
 
         if (array_key_exists('inherits', $deviceData)) {
