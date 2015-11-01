@@ -22,6 +22,7 @@
         {
           "match": "Mozilla\/4.0 (compatible; MSIE 8.0*; #PLATFORM#Trident\/4.0*)* 360Spider",
           "device": "Windows Desktop",
+          "engine": "Trident_4",
           "platforms": [
             "Win2000_64", "Win2000_3", "Win2000",
             "WinXPa_x64", "WinXPa_64", "WinXPa_32",
@@ -34,6 +35,7 @@
         {
           "match": "Mozilla\/5.0 (compatible; MSIE 9.0*; #PLATFORM#Trident\/5.0* 360Spider*",
           "device": "Windows Desktop",
+          "engine": "Trident_5",
           "platforms": [
             "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32",
             "Vista_64", "Vista_32",
@@ -44,6 +46,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#)  Firefox\/*; 360Spider*",
           "device": "Windows Desktop",
+          "engine": "Gecko",
           "platforms": [
             "WinXPa_32"
           ]
