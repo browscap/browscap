@@ -1,0 +1,31 @@
+{
+  "division": "Orangebot",
+  "sortIndex": 1290,
+  "lite": false,
+  "userAgents": [
+    {
+      "userAgent": "Orangebot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Orangebot",
+        "Browser": "Orangebot",
+        "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "Orange S.A.",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (compatible; Orangebot\/2.0*",
+          "properties": {
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Orangebot\/*"
+        }
+      ]
+    }
+  ]
+}
