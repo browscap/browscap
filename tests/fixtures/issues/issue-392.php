@@ -12,7 +12,7 @@ return [
             'MajorVer' => '18',
             'MinorVer' => '1',
             'Platform' => 'FirefoxOS',
-            'Platform_Version' => 'unknown',
+            'Platform_Version' => '1.1',
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Mozilla Foundation',
             'isMobileDevice' => true,

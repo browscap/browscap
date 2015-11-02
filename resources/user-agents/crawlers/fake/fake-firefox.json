@@ -11,9 +11,6 @@
         "Comment": "Fake Firefox",
         "Browser_Type": "Bot/Crawler",
         "Browser_Maker": "unknown",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
         "Crawler": "true"
       },
       "children": [
@@ -49,6 +46,12 @@
         },
         {
           "match": "Mozilla\/5.0  Gecko*"
+        },
+        {
+          "match": "Mozilla\/5.0 (Mobile; rv:*) Gecko\/20100101 Firefox\/*"
+        },
+        {
+          "match": "Mozilla\/5.0 (Windows NT 7.0*) Gecko\/* Firefox\/*"
         }
       ]
     }

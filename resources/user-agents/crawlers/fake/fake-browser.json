@@ -11,9 +11,6 @@
         "Comment": "Fake Browser",
         "Browser_Type": "Bot/Crawler",
         "Browser_Maker": "unknown",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
         "Crawler": "true"
       },
       "children": [
@@ -403,7 +400,13 @@
           }
         },
         {
-          "match": "Mozilla\/*Windows NT 7.1*"
+          "match": "Mozilla\/*Windows NT 7*"
+        },
+        {
+          "match": "Mozilla\/*Windows NT 8*"
+        },
+        {
+          "match": "Mozilla\/*Windows NT 9*"
         },
         {
           "match": "Windows; ?; Windows*"
@@ -464,6 +467,9 @@
         },
         {
           "match": "?'*"
+        },
+        {
+          "match": "*Window NT*"
         }
       ]
     }

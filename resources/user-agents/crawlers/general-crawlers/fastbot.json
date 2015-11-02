@@ -1,0 +1,40 @@
+{
+  "division": "fastbot crawler",
+  "sortIndex": 350,
+  "lite": false,
+  "userAgents": [
+    {
+      "userAgent": "fastbot crawler",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "fastbot crawler",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true",
+        "Browser": "fastbot crawler",
+        "Browser_Maker": "Pagedesign GmbH",
+        "Beta": "true"
+      },
+      "children": [
+        {
+          "match": "fastbot crawler beta 4.0*",
+          "properties": {
+            "Version": "4.0",
+            "MajorVer": "4",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "fastbot crawler beta 2.0*",
+          "properties": {
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "fastbot crawler beta*"
+        }
+      ]
+    }
+  ]
+}

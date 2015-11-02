@@ -11,26 +11,23 @@
         "Comment": "Fake Chrome",
         "Browser_Type": "Bot/Crawler",
         "Browser_Maker": "unknown",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
         "Crawler": "true"
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (X11; Windows x86_64) AppleWebKit\/* (KHTML, like Gecko) chrome\/* Safari\/*"
+          "match": "Mozilla\/5.0 (X11; Windows x86_64) AppleWebKit\/* (KHTML, like Gecko) chrome\/*Safari\/*"
         },
         {
           "match": "Mozilla\/* (Windows NT 7.1) AppleWebKit\/* (KHTML, like Gecko) Chrome\/*Safari\/*"
         },
         {
-          "match": "Mozilla\/5.0 (Windows*) AppleWebKit\/* (KHTML like Gecko) Chrome\/* Safari\/*"
+          "match": "Mozilla\/5.0 (Windows*) AppleWebKit\/* (KHTML like Gecko) Chrome\/*Safari\/*"
         },
         {
-          "match": "=Mozilla\/5.0 (Windows*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/* Safari\/*"
+          "match": "=Mozilla\/5.0 (Windows*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/*Safari\/*"
         },
         {
-          "match": "Mozilla\/4.0 (Windows*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/* Safari\/*"
+          "match": "Mozilla\/4.0 (Windows*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/*Safari\/*"
         },
         {
           "match": "Chrome\/* (Windows*"

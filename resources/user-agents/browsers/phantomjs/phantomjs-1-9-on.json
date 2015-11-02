@@ -1,0 +1,72 @@
+{
+  "division": "PhantomJS #MAJORVER#.#MINORVER#",
+  "versions": [2, "1.9"],
+  "sortIndex": 1860,
+  "lite": false,
+  "userAgents": [
+    {
+      "userAgent": "PhantomJS #MAJORVER#.#MINORVER#",
+      "platform": "Linux",
+      "engine": "WebKit",
+      "device": "general Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "PhantomJS #MAJORVER#.#MINORVER#",
+        "Browser": "PhantomJS",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "phantomjs.org",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "CssVersion": "2"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) PhantomJS\/#MAJORVER#.#MINORVER#*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) PhantomJS\/#MAJORVER#.#MINORVER#*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win8_64"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) PhantomJS\/#MAJORVER#.#MINORVER#*",
+          "device": "general Desktop",
+          "platforms": [
+            "BSD Four"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) CasperJS*PhantomJS\/#MAJORVER#.#MINORVER#*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) CasperJS*PhantomJS\/#MAJORVER#.#MINORVER#*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win8_64"
+          ]
+        },
+        {
+          "match": "PhantomJS\/#MAJORVER#.#MINORVER#*"
+        }
+      ]
+    }
+  ]
+}

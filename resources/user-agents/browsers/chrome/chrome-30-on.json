@@ -4230,7 +4230,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko) Chrome\/#MAJORVER#.*",
           "device": "Linux Desktop",
           "platforms": [
             "ChromeOS_x64", "ChromeOS_i686", "ChromeOS_ARM", "ChromeOS",
