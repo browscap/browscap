@@ -6,7 +6,7 @@
   "userAgents": [
     {
       "userAgent": "Android Browser #MAJORVER#.#MINORVER#",
-      "platform": "Android_4_3",
+      "platform": "Android",
       "engine": "WebKit",
       "device": "general Mobile Phone (Touch)",
       "properties": {
