@@ -7,7 +7,7 @@
       "userAgent": "YahooFeedSeeker",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Yahoo",
+        "Comment": "YahooFeedSeeker",
         "Browser": "YahooFeedSeeker",
         "Browser_Type": "Bot/Crawler",
         "Browser_Maker": "Yahoo!",

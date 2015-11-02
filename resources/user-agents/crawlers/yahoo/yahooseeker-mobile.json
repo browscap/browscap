@@ -8,7 +8,7 @@
       "device": "general Mobile Device",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Yahoo",
+        "Comment": "YahooSeeker-Mobile",
         "Browser": "YahooSeeker-Mobile",
         "Browser_Type": "Bot/Crawler",
         "Browser_Maker": "Yahoo!",

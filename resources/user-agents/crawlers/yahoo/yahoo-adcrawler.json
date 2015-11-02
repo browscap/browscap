@@ -7,7 +7,7 @@
       "userAgent": "Yahoo AdCrawler",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Yahoo",
+        "Comment": "Yahoo!-AdCrawler",
         "Browser": "Yahoo!-AdCrawler",
         "Browser_Type": "Bot/Crawler",
         "Browser_Maker": "Yahoo!",

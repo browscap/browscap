@@ -7,7 +7,7 @@
       "userAgent": "YahooSeeker",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Yahoo",
+        "Comment": "YahooSeeker",
         "Browser": "YahooSeeker",
         "Browser_Type": "Bot/Crawler",
         "Browser_Maker": "Yahoo!",
