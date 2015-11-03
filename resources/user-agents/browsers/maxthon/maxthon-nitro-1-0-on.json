@@ -6,7 +6,7 @@
   "userAgents": [
     {
       "userAgent": "Maxthon Nitro #MAJORVER#.#MINORVER#",
-      "platform": "Win32",
+      "platform": "Windows",
       "engine": "Blink",
       "device": "general Desktop",
       "properties": {

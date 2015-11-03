@@ -7,7 +7,7 @@
     {
       "userAgent": "Instagram App #MAJORVER#.#MINORVER#",
       "engine": "WebKit",
-      "device": "iPhone",
+      "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Instagram App #MAJORVER#.#MINORVER#",

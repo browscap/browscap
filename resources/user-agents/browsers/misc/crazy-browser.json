@@ -6,7 +6,7 @@
   "userAgents": [
     {
       "userAgent": "Crazy Browser #MAJORVER#.#MINORVER#",
-      "platform": "Win32",
+      "platform": "Windows",
       "engine": "Trident",
       "device": "Windows Desktop",
       "properties": {

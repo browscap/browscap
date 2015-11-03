@@ -5,7 +5,7 @@
   "userAgents": [
     {
       "userAgent": "K-Meleon Generic",
-      "platform": "Win32",
+      "platform": "Windows",
       "engine": "Gecko",
       "device": "Windows Desktop",
       "properties": {

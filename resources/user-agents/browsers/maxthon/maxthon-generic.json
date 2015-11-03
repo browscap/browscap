@@ -51,7 +51,7 @@
     },
     {
       "userAgent": "Maxthon Generic",
-      "platform": "Win32",
+      "platform": "Windows",
       "engine": "Blink",
       "device": "general Desktop",
       "properties": {

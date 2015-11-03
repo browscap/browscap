@@ -69,7 +69,7 @@
     },
     {
       "userAgent": "Maxthon #MAJORVER#.#MINORVER#",
-      "platform": "Win32",
+      "platform": "Windows",
       "engine": "WebKit",
       "device": "Windows Desktop",
       "properties": {

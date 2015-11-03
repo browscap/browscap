@@ -5,7 +5,7 @@
   "userAgents": [
     {
       "userAgent": "My Internet Browser Generic",
-      "platform": "Win32",
+      "platform": "Windows",
       "engine": "Gecko",
       "device": "Windows Desktop",
       "properties": {

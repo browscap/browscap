@@ -6,7 +6,7 @@
   "userAgents": [
     {
       "userAgent": "CometBird #MAJORVER#.#MINORVER#",
-      "platform": "Win32",
+      "platform": "Windows",
       "engine": "Gecko_Dynamic",
       "device": "Windows Desktop",
       "properties": {

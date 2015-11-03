@@ -6,7 +6,7 @@
     {
       "userAgent": "Facebook App Generic for iOS",
       "engine": "WebKit",
-      "device": "iPhone",
+      "device": "general Mobile Device (Apple)",
       "platform": "iOS",
       "properties": {
         "Parent": "DefaultProperties",

@@ -5,7 +5,7 @@
   "userAgents": [
     {
       "userAgent": "ArgClrInt",
-      "platform": "Win32",
+      "platform": "Windows",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
