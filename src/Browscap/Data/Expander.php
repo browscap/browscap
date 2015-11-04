@@ -199,7 +199,7 @@ class Expander
         foreach ($uaData['children'] as $child) {
             $output = array_merge(
                 $output,
-                $this->parseChildren($ua, $child)
+                $this->parseChildren($ua, $child, $lite, $standard)
             );
         }
 
@@ -244,17 +244,18 @@ class Expander
      *
      * @param string $ua
      * @param array  $uaDataChild
+     * @param bool   $lite
+     * @param bool   $standard
      *
-     * @throws \LogicException
-     * @return array[]
+     * @return \array[]
      */
-    private function parseChildren($ua, array $uaDataChild)
+    private function parseChildren($ua, array $uaDataChild, $lite = true, $standard = true)
     {
         $output = array();
 
         if (isset($uaDataChild['platforms']) && is_array($uaDataChild['platforms'])) {
             foreach ($uaDataChild['platforms'] as $platform) {
-                $properties   = ['Parent' => $ua, 'lite' => true, 'standard' => true];
+                $properties   = ['Parent' => $ua, 'lite' => $lite, 'standard' => $standard];
                 $platformData = $this->getDataCollection()->getPlatform($platform);
 
                 if (!$platformData->isLite()) {
@@ -303,7 +304,7 @@ class Expander
                 $output[$uaBase] = $properties;
             }
         } else {
-            $properties = ['Parent' => $ua, 'lite' => true, 'standard' => true];
+            $properties = ['Parent' => $ua, 'lite' => $lite, 'standard' => $standard];
 
             if (array_key_exists('engine', $uaDataChild)) {
                 $engine     = $this->getDataCollection()->getEngine($uaDataChild['engine']);

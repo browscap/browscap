@@ -2,6 +2,7 @@
   "division": "Windows Phone Search",
   "sortIndex": 1280,
   "lite": false,
+  "standard": false,
   "userAgents": [
     {
       "userAgent": "Windows Phone Search",

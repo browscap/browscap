@@ -3380,7 +3380,7 @@
     "RIM_Tablet_OS_1": {
       "match": "*RIM Tablet OS*",
       "lite": false,
-      "standard": false,
+      "standard": true,
       "inherits": "RIM_Tablet_OS",
       "properties": {
         "Platform_Version": "1.0"

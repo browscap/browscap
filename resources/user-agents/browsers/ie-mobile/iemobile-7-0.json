@@ -3,6 +3,7 @@
   "versions": ["7.0"],
   "sortIndex": 1719,
   "lite": false,
+  "standard": false,
   "userAgents": [
     {
       "userAgent": "IEMobile #MAJORVER#.#MINORVER#",

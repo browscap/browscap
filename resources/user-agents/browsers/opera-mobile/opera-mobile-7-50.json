@@ -2,6 +2,7 @@
   "division": "Opera Mobile 7.50",
   "sortIndex": 1046,
   "lite": false,
+  "standard": false,
   "userAgents": [
     {
       "userAgent": "Opera Mobile 7.50",
