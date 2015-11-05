@@ -34,6 +34,14 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0*(#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/*Safari\/* (compatible; Googlebot\/#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Device (Apple)",
+          "engine": "WebKit",
+          "platforms": [
+            "iOS_A_6_0", "iOS_A_8_3"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (compatible; Googlebot\/#MAJORVER#.#MINORVER#*"
         },
         {

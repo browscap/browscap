@@ -2476,6 +2476,12 @@
       "standard": true,
       "inherits": "Android"
     },
+    "Android_C": {
+      "match": "JUC(Linux;U;Android*",
+      "lite": false,
+      "standard": true,
+      "inherits": "Android"
+    },
     "Android_1_0": {
       "match": "*Linux*Android?1.0*",
       "lite": false,

@@ -6237,6 +6237,15 @@
             "Android_5_0", "Android_5_1",
             "Android", "Android_B"
           ]
+        },
+        {
+          "match": "Mozilla\/5.0 (*Linux*) AppleWebKit\/* (KHTML, like Gecko) *Version\/#MAJORVER#.#MINORVER#* Safari\/*",
+          "properties": {
+            "Browser_Modus": "Desktop Mode"
+          },
+          "platforms": [
+            "Android"
+          ]
         }
       ]
     }

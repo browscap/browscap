@@ -32,6 +32,14 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0*(#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/*Safari\/* (compatible; Googlebot-Mobile\/#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Device (Apple)",
+          "engine": "WebKit",
+          "platforms": [
+            "iOS_A_4_1", "iOS_A_6_0"
+          ]
+        },
+        {
           "match": "DoCoMo\/1.0\/N505i\/c20\/TB\/W20H10 (compatible; Googlebot-Mobile\/#MAJORVER#.#MINORVER#*",
           "device": "NEC N505i",
           "platforms": [

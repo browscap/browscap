@@ -41,6 +41,9 @@
         {
           "match": "Mozilla\/5.0 (BB10; Kbd) AppleWebKit\/* (KHTML, like Gecko)*",
           "device": "Blackberry KBD"
+        },
+        {
+          "match": "Mozilla\/5.0 (BB10; *) AppleWebKit\/* (KHTML, like Gecko)*"
         }
       ]
     }
