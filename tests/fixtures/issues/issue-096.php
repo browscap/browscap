@@ -29,7 +29,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-096-CD' => [
         'Mozilla/5.0 (hp-tablet; Linux; hpwOS/3.0.5; U; fr-CA) AppleWebKit/534.6 (KHTML, like Gecko) wOSBrowser/234.83 Safari/534.6 Touchpad/1.0',
@@ -89,7 +89,7 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-096-CB' => [
         'Mozilla/5.0(iPad; U;CPU OS 7 like Mac OS X; zh-CN; iPad2,5) AppleWebKit/534.46 (KHTML, like Gecko) UCBrowser/2.0.1.280 U3/0.8.0 Safari/7543.48.3',
@@ -210,7 +210,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-096-BX' => [
         'Mozilla/5.0 (Linux; U; en-us; KFJWA Build/IMM76D) AppleWebKit/535.19 (KHTML, like Gecko) Silk/3.8 Safari/535.19 Silk-Accelerated=false',
@@ -241,7 +241,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-096-BW' => [
         'SAMSUNG-SGH-T528g/T528UDKE4[TF355314045027030009640018153425713] Dolfin/1.5 SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1',
@@ -271,7 +271,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-096-BV' => [
         'SonyEricssonS312/R1EA Browser/OpenWave/1.0 Profile/MIDP-2.1 Configuration/CLDC-1.1',
@@ -481,7 +481,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-096-BO' => [
         'Mozilla/5.0 (X11; FreeBSD; U; Viera; pt-BR) AppleWebKit/535.1 (KHTML, like Gecko) Viera/1.5.1 Chrome/14.0.835.202 Safari/535.1',
@@ -541,7 +541,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-096-BM' => [
         'Huawei/1.0/HUAWEI-G7300 Browser/Opera MMS/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 Opera/9.80 (MTK; Nucleus; Opera Mobi/4000; U; it-IT) Presto/2.5.28 Version/10.10',
@@ -601,7 +601,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-096-BK' => [
         'Mozilla/5.0 (Linux; U; Android 2.3.6; zh-cn; sprd-B51+/1.0 Android/2.3.6 Release/fk.ho.hfgi Browser/AppleWebKit533.1 Build/MocorDroid2.3.5) AppleWebKit533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
@@ -631,7 +631,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-096-BJ' => [
         'Mozilla/5.0 (masking-agent; rv:15.0) Gecko/20100101 Firefox/15.0.1',
@@ -781,7 +781,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-096-BE' => [
         'Mozilla/5.0 (Windows NT 5.1; rv:) Gecko/20100101 Firefox/ anonymized by Abelssoft 1433017337',
@@ -841,7 +841,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-096-BC' => [
         'UCWEB/2.0 (Linux; U; Opera Mini/7.1.32052/30.3697; en-US; AX5_Duo) U2/1.0.0 UCBrowser/8.8.1.359 Mobile',
@@ -961,7 +961,7 @@ return [
             'RenderingEngine_Maker' => 'UC Web',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-096-AY' => [
         'UCWEB/2.0 (Symbian; U; S60 V5; en-US; SonyEricssonU1) U2/1.0.0 UCBrowser/8.9.0.277 U2/1.0.0 Mobile',
