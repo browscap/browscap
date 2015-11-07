@@ -41,7 +41,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko\/*Thunderbird\/*",
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_10_B", "OSX"
+            "OSX_10_10", "OSX"
           ]
         }
       ]

@@ -606,7 +606,7 @@
             "Browser_Maker": "www.newsblur.com"
           },
           "platforms": [
-            "OSX_10_7_A", "OSX_10_8_A", "OSX_10_9_A", "OSX_10_10_A"
+            "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10"
           ]
         },
         {
@@ -617,7 +617,7 @@
             "Browser_Maker": "www.newsblur.com"
           },
           "platforms": [
-            "OSX_10_7_A", "OSX_10_8_A", "OSX_10_9_A", "OSX_10_10_A"
+            "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10"
           ]
         },
         {
@@ -628,7 +628,7 @@
             "Browser_Maker": "www.newsblur.com"
           },
           "platforms": [
-            "OSX_10_7_A", "OSX_10_8_A", "OSX_10_9_A", "OSX_10_10_A"
+            "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10"
           ]
         },
         {

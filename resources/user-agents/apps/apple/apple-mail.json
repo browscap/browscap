@@ -245,7 +245,7 @@
           },
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_10_A", "OSX_10_10_B"
+            "OSX_10_10"
           ]
         },
         {
@@ -257,7 +257,7 @@
           },
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_9_A", "OSX_10_9_B"
+            "OSX_10_9"
           ]
         },
         {
@@ -269,7 +269,7 @@
           },
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_8_A", "OSX_10_8_B"
+            "OSX_10_8"
           ]
         },
         {
@@ -281,7 +281,7 @@
           },
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_7_A", "OSX_10_7_B"
+            "OSX_10_7"
           ]
         },
         {
@@ -293,7 +293,7 @@
           },
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_6_A", "OSX_10_6_B"
+            "OSX_10_6"
           ]
         },
         {
@@ -305,7 +305,7 @@
           },
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_5_A", "OSX_10_5_B"
+            "OSX_10_5"
           ]
         },
         {
@@ -317,7 +317,7 @@
           },
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_4_A", "OSX_10_4_B"
+            "OSX_10_4"
           ]
         },
         {
@@ -329,7 +329,7 @@
           },
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_3_A", "OSX_10_3_B"
+            "OSX_10_3"
           ]
         },
         {

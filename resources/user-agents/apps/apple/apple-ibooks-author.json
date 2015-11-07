@@ -31,8 +31,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) iBooks Author\/*",
           "platforms": [
-            "OSX_10_10_A", "OSX_10_10_B",
-            "OSX"
+            "OSX_10_10", "OSX"
           ]
         }
       ]

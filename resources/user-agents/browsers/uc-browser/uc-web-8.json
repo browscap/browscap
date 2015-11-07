@@ -30,7 +30,8 @@
           "match": "#PLATFORM#) UCWEB#MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone (Touch)",
           "platforms": [
-            "Android_2_3_C", "Android_2_3_E", "Android_4_0_B", "Android_4_1_B", "Android_4_2_B", "Android_4_3_B", "Android_C"
+            "Android_C_2_3", "Android_C",
+            "Android_D_2_3", "Android_D_4_0", "Android_D_4_1", "Android_D_4_2", "Android_D_4_3", "Android_D"
           ]
         },
         {
@@ -46,8 +47,8 @@
           "engine": "U2",
           "device": "Samsung GT-S5570",
           "platforms": [
-            "Android_2_1_C", "Android_2_2_C", "Android_2_3_D", "Android_4_0_C", "Android_4_1_C", "Android_4_2_C", "Android_4_3_C",
-            "Android_4_4_C"
+            "Android_E_2_1", "Android_E_2_2", "Android_E_2_3", "Android_E_4_0", "Android_E_4_1", "Android_E_4_2", "Android_E_4_3",
+            "Android_E_4_4"
           ]
         },
         {
@@ -55,8 +56,8 @@
           "engine": "U2",
           "device": "Samsung GT-S7262",
           "platforms": [
-            "Android_2_1_C", "Android_2_2_C", "Android_2_3_D", "Android_4_0_C", "Android_4_1_C", "Android_4_2_C", "Android_4_3_C",
-            "Android_4_4_C"
+            "Android_E_2_1", "Android_E_2_2", "Android_E_2_3", "Android_E_4_0", "Android_E_4_1", "Android_E_4_2", "Android_E_4_3",
+            "Android_E_4_4"
           ]
         },
         {
@@ -64,7 +65,7 @@
           "engine": "U2",
           "device": "Sony D2105",
           "platforms": [
-            "Android_4_4_C"
+            "Android_E_4_4"
           ]
         },
         {
@@ -72,7 +73,7 @@
           "engine": "U2",
           "device": "Samsung SM-G530H",
           "platforms": [
-            "Android_4_4_C"
+            "Android_E_4_4"
           ]
         },
         {
@@ -80,7 +81,7 @@
           "engine": "U2",
           "device": "Fly IQ4490",
           "platforms": [
-            "Android_4_1_C"
+            "Android_E_4_1"
           ]
         },
         {
@@ -88,7 +89,7 @@
           "engine": "U2",
           "device": "Huawei D2-0082",
           "platforms": [
-            "Android_4_1_C"
+            "Android_E_4_1"
           ]
         },
         {
@@ -96,7 +97,7 @@
           "engine": "U2",
           "device": "Samsung GT-I9082",
           "platforms": [
-            "Android_4_2_C"
+            "Android_E_4_2"
           ]
         },
         {
@@ -104,7 +105,7 @@
           "engine": "U2",
           "device": "Lexand S5A4",
           "platforms": [
-            "Android_4_2_C"
+            "Android_E_4_2"
           ]
         },
         {
@@ -112,7 +113,7 @@
           "engine": "U2",
           "device": "Samsung SM-G530H",
           "platforms": [
-            "Android_4_4_C"
+            "Android_E_4_4"
           ]
         },
         {
@@ -120,7 +121,7 @@
           "engine": "U2",
           "device": "Fly IQ440",
           "platforms": [
-            "Android_4_0_C"
+            "Android_E_4_0"
           ]
         },
         {
@@ -128,7 +129,7 @@
           "engine": "U2",
           "device": "Micromax A47",
           "platforms": [
-            "Android_4_2_C"
+            "Android_E_4_2"
           ]
         },
         {
@@ -136,7 +137,7 @@
           "engine": "U2",
           "device": "sprd SPHS On HSDroid",
           "platforms": [
-            "Android_4_4_C"
+            "Android_E_4_4"
           ]
         },
         {
@@ -144,7 +145,7 @@
           "engine": "U2",
           "device": "Samsung SHV-E210S",
           "platforms": [
-            "Android_4_1_C"
+            "Android_E_4_1"
           ]
         },
         {
@@ -152,10 +153,10 @@
           "engine": "U2",
           "device": "general Mobile Phone (Touch)",
           "platforms": [
-            "Android_2_1_C", "Android_2_2_C", "Android_2_3_D", "Android_4_0_C", "Android_4_1_C", "Android_4_2_C", "Android_4_3_C",
-            "Android_4_4_C",
-            "iOS_D_5_0", "iOS_D_5_1", "iOS_D_6_0", "iOS_D_6_1", "iOS_D_7_0", "iOS_D_7_1", "iOS_D_8_0",
-            "WinPhone7_B", "WinPhone8_B",
+            "Android_E_2_1", "Android_E_2_2", "Android_E_2_3", "Android_E_4_0", "Android_E_4_1", "Android_E_4_2", "Android_E_4_3", "Android_E_4_4",
+            "Android_E",
+            "iOS_D_5_0", "iOS_D_5_1", "iOS_D_6_0", "iOS_D_6_1", "iOS_D_7_0", "iOS_D_7_1", "iOS_D_8_0", "iOS_D",
+            "WinPhone7_C", "WinPhone8_B",
             "SymbianOS_B"
           ]
         },
@@ -318,7 +319,8 @@
           "device": "Samsung GT-S3370"
         },
         {
-          "match": "*\/UC Browser#MAJORVER#.#MINORVER#* UNTRUSTED\/1.0"
+          "match": "*\/UC Browser#MAJORVER#.#MINORVER#* UNTRUSTED\/1.0",
+          "device": "general Mobile Phone (Touch)"
         }
       ]
     }

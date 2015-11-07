@@ -6,8 +6,8 @@
   "userAgents": [
     {
       "userAgent": "Windows Phone Search",
-      "platform": "WinMobile",
-      "device": "general Mobile Phone",
+      "platform": "WinPhone710",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser_Type": "Bot/Crawler",
@@ -21,24 +21,23 @@
       },
       "children": [
         {
-          "match": "Windows Phone Search (Windows Phone OS 7.10;HTC;7 Trophy;*)",
+          "match": "Windows Phone Search (#PLATFORM#HTC;7 Trophy;*)",
           "device": "HTC Spark",
           "platforms": [
-            "WinPhone7"
+            "WinPhone710"
           ]
         },
         {
-          "match": "Windows Phone Search (Windows Phone OS 7.10;NOKIA;Lumia 900;*)",
+          "match": "Windows Phone Search (#PLATFORM#NOKIA;Lumia 900;*)",
           "device": "Nokia Lumia 900",
           "platforms": [
-            "WinPhone7"
+            "WinPhone710"
           ]
         },
         {
-          "match": "Windows Phone Search (Windows Phone OS 7.10;*)",
-          "device": "general Mobile Phone (Touch)",
+          "match": "Windows Phone Search (#PLATFORM#*)",
           "platforms": [
-            "WinPhone7"
+            "WinPhone710", "WinPhone"
           ]
         }
       ]

@@ -856,7 +856,7 @@
           "engine": "U2",
           "device": "Hummer H1+",
           "platforms": [
-            "Android_4_4_C"
+            "Android_E_4_4"
           ]
         },
         {
@@ -864,7 +864,7 @@
           "engine": "U2",
           "device": "HTC Desire 816",
           "platforms": [
-            "Android_4_4_C"
+            "Android_E_4_4"
           ]
         },
         {
@@ -872,7 +872,7 @@
           "engine": "U2",
           "device": "DNS S4501M",
           "platforms": [
-            "Android_4_1_C"
+            "Android_E_4_1"
           ]
         },
         {
@@ -880,7 +880,7 @@
           "engine": "U2",
           "device": "Supra M121G",
           "platforms": [
-            "Android_4_4_C"
+            "Android_E_4_4"
           ]
         },
         {
@@ -888,7 +888,7 @@
           "engine": "U2",
           "device": "Micromax A106",
           "platforms": [
-            "Android_5_0_C"
+            "Android_E_5_0"
           ]
         },
         {
@@ -896,7 +896,7 @@
           "engine": "U2",
           "device": "GT-I5500",
           "platforms": [
-            "Android_2_1_C"
+            "Android_E_2_1"
           ]
         },
         {
@@ -904,7 +904,7 @@
           "engine": "U2",
           "device": "Axioo PicoPad S1",
           "platforms": [
-            "Android_4_4_C"
+            "Android_E_4_4"
           ]
         },
         {
@@ -912,7 +912,7 @@
           "engine": "U2",
           "device": "Huawei H30-U10",
           "platforms": [
-            "Android_4_2_C"
+            "Android_E_4_2"
           ]
         },
         {
@@ -920,7 +920,7 @@
           "engine": "U2",
           "device": "Cubot S200",
           "platforms": [
-            "Android_4_4_C"
+            "Android_E_4_4"
           ]
         },
         {
@@ -928,7 +928,7 @@
           "engine": "U2",
           "device": "AOSON M785",
           "platforms": [
-            "Android_4_2_C"
+            "Android_E_4_2"
           ]
         },
         {
@@ -936,7 +936,7 @@
           "engine": "U2",
           "device": "Micromax A35",
           "platforms": [
-            "Android_2_3_D"
+            "Android_E_2_3"
           ]
         },
         {
@@ -944,7 +944,7 @@
           "engine": "U2",
           "device": "Samsung GT-P3110",
           "platforms": [
-            "Android_4_1_C"
+            "Android_E_4_1"
           ]
         },
         {
@@ -952,10 +952,10 @@
           "engine": "U2",
           "device": "general Mobile Phone (Touch)",
           "platforms": [
-            "Android_2_1_C", "Android_2_2_C", "Android_2_3_D", "Android_4_0_C", "Android_4_1_C", "Android_4_2_C", "Android_4_3_C",
-            "Android_4_4_C",
-            "iOS_D_5_0", "iOS_D_5_1", "iOS_D_6_0", "iOS_D_6_1", "iOS_D_7_0", "iOS_D_7_1", "iOS_D_8_0",
-            "WinPhone7_B", "WinPhone8_B",
+            "Android_E_2_1", "Android_E_2_2", "Android_E_2_3", "Android_E_4_0", "Android_E_4_1", "Android_E_4_2", "Android_E_4_3", "Android_E_4_4",
+            "Android_E",
+            "iOS_D_5_0", "iOS_D_5_1", "iOS_D_6_0", "iOS_D_6_1", "iOS_D_7_0", "iOS_D_7_1", "iOS_D_8_0", "iOS_D",
+            "WinPhone7_C", "WinPhone8_B",
             "SymbianOS_B"
           ]
         }

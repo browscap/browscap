@@ -30,8 +30,9 @@
           "match": "Opera\/9.80*(#PLATFORM#Opera Mobi*)*Version\/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "AndroidLinux",
-            "Android_2_3", "Android_2_3_F", "Android_4_0", "Android_4_0_D", "Android_4_1", "Android_4_1_D", "Android_4_2",
-            "Android_4_3", "Android_4_4", "Android",
+            "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4",
+            "Android_F_2_3", "Android_F_4_0", "Android_F_4_1", "Android_F",
+            "Android",
             "SymbianOS_C",
             "WinMobile"
           ]
@@ -41,7 +42,9 @@
           "device": "general Tablet",
           "platforms": [
             "AndroidLinux",
-            "Android_4_0", "Android_4_0_D", "Android_4_1", "Android_4_1_D", "Android_4_2", "Android_4_3", "Android_4_4", "Android",
+            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4",
+            "Android_F_4_0", "Android_F_4_1", "Android_F",
+            "Android",
             "SymbianOS_C",
             "WinMobile"
           ]

@@ -6,7 +6,7 @@
   "userAgents": [
     {
       "userAgent": "IEMobile 5.0",
-      "platform": "WinMobile",
+      "platform": "WinCE",
       "engine": "Trident_3_1",
       "device": "general Mobile Phone",
       "properties": {

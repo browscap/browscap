@@ -61,14 +61,8 @@
         "Win64": "false"
       }
     },
-    "OSX_C": {
-      "match": "*Macintosh; OS X*",
-      "lite": true,
-      "standard": true,
-      "inherits": "OSX"
-    },
-    "OSX_10_2_A": {
-      "match": "*Mac OS X 10_2*",
+    "OSX_10_2": {
+      "match": "*Mac OS X 10?2*",
       "lite": false,
       "standard": false,
       "inherits": "OSX",
@@ -76,8 +70,8 @@
         "Platform_Version": "10.2"
       }
     },
-    "OSX_10_3_A": {
-      "match": "*Mac OS X 10_3*",
+    "OSX_10_3": {
+      "match": "*Mac OS X 10?3*",
       "lite": false,
       "standard": false,
       "inherits": "OSX",
@@ -85,17 +79,8 @@
         "Platform_Version": "10.3"
       }
     },
-    "OSX_10_3_B": {
-      "match": "*Mac OS X 10.3*",
-      "lite": false,
-      "standard": false,
-      "inherits": "OSX",
-      "properties": {
-        "Platform_Version": "10.3"
-      }
-    },
-    "OSX_10_4_A": {
-      "match": "*Mac OS X 10_4*",
+    "OSX_10_4": {
+      "match": "*Mac OS X 10?4*",
       "lite": false,
       "standard": false,
       "inherits": "OSX",
@@ -103,17 +88,8 @@
         "Platform_Version": "10.4"
       }
     },
-    "OSX_10_4_B": {
-      "match": "*Mac OS X 10.4*",
-      "lite": false,
-      "standard": false,
-      "inherits": "OSX",
-      "properties": {
-        "Platform_Version": "10.4"
-      }
-    },
-    "OSX_10_5_A": {
-      "match": "*Mac OS X 10_5*",
+    "OSX_10_5": {
+      "match": "*Mac OS X 10?5*",
       "lite": false,
       "standard": false,
       "inherits": "OSX",
@@ -121,17 +97,8 @@
         "Platform_Version": "10.5"
       }
     },
-    "OSX_10_5_B": {
-      "match": "*Mac OS X 10.5*",
-      "lite": false,
-      "standard": false,
-      "inherits": "OSX",
-      "properties": {
-        "Platform_Version": "10.5"
-      }
-    },
-    "OSX_10_6_A": {
-      "match": "*Mac OS X 10_6*",
+    "OSX_10_6": {
+      "match": "*Mac OS X 10?6*",
       "lite": false,
       "standard": false,
       "inherits": "OSX",
@@ -139,17 +106,8 @@
         "Platform_Version": "10.6"
       }
     },
-    "OSX_10_6_B": {
-      "match": "*Mac OS X 10.6*",
-      "lite": false,
-      "standard": false,
-      "inherits": "OSX",
-      "properties": {
-        "Platform_Version": "10.6"
-      }
-    },
-    "OSX_10_7_A": {
-      "match": "*Mac OS X 10_7*",
+    "OSX_10_7": {
+      "match": "*Mac OS X 10?7*",
       "lite": false,
       "standard": false,
       "inherits": "OSX",
@@ -157,17 +115,8 @@
         "Platform_Version": "10.7"
       }
     },
-    "OSX_10_7_B": {
-      "match": "*Mac OS X 10.7*",
-      "lite": false,
-      "standard": false,
-      "inherits": "OSX",
-      "properties": {
-        "Platform_Version": "10.7"
-      }
-    },
-    "OSX_10_8_A": {
-      "match": "*Mac OS X 10_8*",
+    "OSX_10_8": {
+      "match": "*Mac OS X 10?8*",
       "lite": false,
       "standard": false,
       "inherits": "OSX",
@@ -175,16 +124,40 @@
         "Platform_Version": "10.8"
       }
     },
-    "OSX_10_8_B": {
-      "match": "*Mac OS X 10.8*",
+    "OSX_10_9": {
+      "match": "*Mac OS X 10?9*",
       "lite": false,
-      "standard": false,
+      "standard": true,
       "inherits": "OSX",
       "properties": {
-        "Platform_Version": "10.8"
+        "Platform_Version": "10.9"
       }
     },
-    "OSX_10_8_C": {
+    "OSX_10_10": {
+      "match": "*Mac OS X 10?10*",
+      "lite": false,
+      "standard": true,
+      "inherits": "OSX",
+      "properties": {
+        "Platform_Version": "10.10"
+      }
+    },
+    "OSX_10_11": {
+      "match": "*Mac OS X 10?11*",
+      "lite": false,
+      "standard": true,
+      "inherits": "OSX",
+      "properties": {
+        "Platform_Version": "10.11"
+      }
+    },
+    "OSX_B": {
+      "match": "*Macintosh; OS X *",
+      "lite": true,
+      "standard": true,
+      "inherits": "OSX"
+    },
+    "OSX_B_10_8": {
       "match": "*Macintosh; OS X 10.8*",
       "inherits": "OSX",
       "lite": false,
@@ -193,25 +166,7 @@
         "Platform_Version": "10.8"
       }
     },
-    "OSX_10_9_A": {
-      "match": "*Mac OS X 10_9*",
-      "lite": false,
-      "standard": true,
-      "inherits": "OSX",
-      "properties": {
-        "Platform_Version": "10.9"
-      }
-    },
-    "OSX_10_9_B": {
-      "match": "*Mac OS X 10.9*",
-      "lite": false,
-      "standard": true,
-      "inherits": "OSX",
-      "properties": {
-        "Platform_Version": "10.9"
-      }
-    },
-    "OSX_10_9_C": {
+    "OSX_B_10_9": {
       "match": "*Macintosh; OS X 10.9*",
       "lite": false,
       "standard": true,
@@ -220,25 +175,7 @@
         "Platform_Version": "10.9"
       }
     },
-    "OSX_10_10_A": {
-      "match": "*Mac OS X 10_10*",
-      "lite": false,
-      "standard": true,
-      "inherits": "OSX",
-      "properties": {
-        "Platform_Version": "10.10"
-      }
-    },
-    "OSX_10_10_B": {
-      "match": "*Mac OS X 10.10*",
-      "lite": false,
-      "standard": true,
-      "inherits": "OSX",
-      "properties": {
-        "Platform_Version": "10.10"
-      }
-    },
-    "OSX_10_10_C": {
+    "OSX_B_10_10": {
       "match": "*Macintosh; OS X 10.10*",
       "lite": false,
       "standard": true,
@@ -247,25 +184,7 @@
         "Platform_Version": "10.10"
       }
     },
-    "OSX_10_11_A": {
-      "match": "*Mac OS X 10_11*",
-      "lite": false,
-      "standard": true,
-      "inherits": "OSX",
-      "properties": {
-        "Platform_Version": "10.11"
-      }
-    },
-    "OSX_10_11_B": {
-      "match": "*Mac OS X 10.11*",
-      "lite": false,
-      "standard": true,
-      "inherits": "OSX",
-      "properties": {
-        "Platform_Version": "10.11"
-      }
-    },
-    "OSX_10_11_C": {
+    "OSX_B_10_11": {
       "match": "*Macintosh; OS X 10.11*",
       "lite": false,
       "standard": true,
@@ -2359,7 +2278,7 @@
       }
     },
     "WinPhone7": {
-      "match": "*Windows Phone 7*",
+      "match": "*Windows Phone OS 7.0*",
       "lite": false,
       "standard": false,
       "inherits": "Windows",
@@ -2370,7 +2289,7 @@
         "Win32": "false"
       }
     },
-    "WinPhone7_B": {
+    "WinPhone7_C": {
       "match": "*Windows; U; wds 7*",
       "lite": false,
       "standard": false,
@@ -2383,7 +2302,7 @@
       }
     },
     "WinPhone75": {
-      "match": "*Windows Phone 7.5*",
+      "match": "*Windows Phone OS 7.5*",
       "lite": false,
       "standard": false,
       "inherits": "Windows",
@@ -2391,6 +2310,18 @@
         "Platform": "WinPhone7.5",
         "Platform_Version": "7.5",
         "Platform_Description": "Windows Phone OS 7.5",
+        "Win32": "false"
+      }
+    },
+    "WinPhone710": {
+      "match": "*Windows Phone OS 7.10*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Windows",
+      "properties": {
+        "Platform": "WinPhone7.10",
+        "Platform_Version": "7.10",
+        "Platform_Description": "Windows Phone OS 7.10",
         "Win32": "false"
       }
     },
@@ -2470,18 +2401,6 @@
         "Platform_Bits": "32"
       }
     },
-    "Android_B": {
-      "match": "* Build\/*",
-      "lite": false,
-      "standard": true,
-      "inherits": "Android"
-    },
-    "Android_C": {
-      "match": "JUC(Linux;U;Android*",
-      "lite": false,
-      "standard": true,
-      "inherits": "Android"
-    },
     "Android_1_0": {
       "match": "*Linux*Android?1.0*",
       "lite": false,
@@ -2536,24 +2455,6 @@
         "Platform_Version": "2.1"
       }
     },
-    "Android_2_1_B": {
-      "match": "JUC(Linux;U;Android2.1*",
-      "lite": false,
-      "standard": false,
-      "inherits": "Android",
-      "properties": {
-        "Platform_Version": "2.1"
-      }
-    },
-    "Android_2_1_C": {
-      "match": "*; U; Adr 2.1*",
-      "lite": false,
-      "standard": false,
-      "inherits": "Android",
-      "properties": {
-        "Platform_Version": "2.1"
-      }
-    },
     "Android_2_2": {
       "match": "*Linux*Android?2.2*",
       "lite": false,
@@ -2563,80 +2464,8 @@
         "Platform_Version": "2.2"
       }
     },
-    "Android_2_2_B": {
-      "match": "JUC(Linux;U;Android2.2*",
-      "lite": false,
-      "standard": false,
-      "inherits": "Android",
-      "properties": {
-        "Platform_Version": "2.2"
-      }
-    },
-    "Android_2_2_C": {
-      "match": "*; U; Adr 2.2*",
-      "lite": false,
-      "standard": false,
-      "inherits": "Android",
-      "properties": {
-        "Platform_Version": "2.2"
-      }
-    },
-    "Android_2_2_D": {
-      "match": "JUC (Linux; U; 2.2*",
-      "lite": false,
-      "standard": false,
-      "inherits": "Android",
-      "properties": {
-        "Platform_Version": "2.2"
-      }
-    },
     "Android_2_3": {
       "match": "*Linux*Android?2.3*",
-      "lite": false,
-      "standard": false,
-      "inherits": "Android",
-      "properties": {
-        "Platform_Version": "2.3"
-      }
-    },
-    "Android_2_3_B": {
-      "match": "* Build\/GINGERBREAD*",
-      "lite": false,
-      "standard": false,
-      "inherits": "Android",
-      "properties": {
-        "Platform_Version": "2.3"
-      }
-    },
-    "Android_2_3_C": {
-      "match": "JUC(Linux;U;Android2.3*",
-      "lite": false,
-      "standard": false,
-      "inherits": "Android",
-      "properties": {
-        "Platform_Version": "2.3"
-      }
-    },
-    "Android_2_3_D": {
-      "match": "*; U; Adr 2.3*",
-      "lite": false,
-      "standard": false,
-      "inherits": "Android",
-      "properties": {
-        "Platform_Version": "2.3"
-      }
-    },
-    "Android_2_3_E": {
-      "match": "JUC (Linux; U; 2.3*",
-      "lite": false,
-      "standard": false,
-      "inherits": "Android",
-      "properties": {
-        "Platform_Version": "2.3"
-      }
-    },
-    "Android_2_3_F": {
-      "match": "*Android?2.3*Linux*",
       "lite": false,
       "standard": false,
       "inherits": "Android",
@@ -2671,17 +2500,6 @@
         "Platform_Version": "3.2"
       }
     },
-    "Android_3_2_GoogleTV": {
-      "match": "*Linux*GoogleTV 3.2*",
-      "lite": false,
-      "standard": false,
-      "inherits": "Android",
-      "properties": {
-        "Platform": "Android for GoogleTV",
-        "Platform_Version": "3.2",
-        "Platform_Description": "Android OS for GoogleTV"
-      }
-    },
     "Android_4_0": {
       "match": "*Linux*Android?4.0*",
       "lite": false,
@@ -2691,62 +2509,8 @@
         "Platform_Version": "4.0"
       }
     },
-    "Android_4_0_B": {
-      "match": "JUC (Linux; U; 4.0*",
-      "lite": false,
-      "standard": false,
-      "inherits": "Android",
-      "properties": {
-        "Platform_Version": "4.0"
-      }
-    },
-    "Android_4_0_C": {
-      "match": "*; U; Adr 4.0*",
-      "lite": false,
-      "standard": false,
-      "inherits": "Android",
-      "properties": {
-        "Platform_Version": "4.0"
-      }
-    },
-    "Android_4_0_D": {
-      "match": "*Android?4.0*Linux*",
-      "lite": false,
-      "standard": false,
-      "inherits": "Android",
-      "properties": {
-        "Platform_Version": "4.0"
-      }
-    },
     "Android_4_1": {
       "match": "*Linux*Android?4.1*",
-      "lite": false,
-      "standard": false,
-      "inherits": "Android",
-      "properties": {
-        "Platform_Version": "4.1"
-      }
-    },
-    "Android_4_1_B": {
-      "match": "JUC (Linux; U; 4.1*",
-      "lite": false,
-      "standard": false,
-      "inherits": "Android",
-      "properties": {
-        "Platform_Version": "4.1"
-      }
-    },
-    "Android_4_1_C": {
-      "match": "*; U; Adr 4.1*",
-      "lite": false,
-      "standard": false,
-      "inherits": "Android",
-      "properties": {
-        "Platform_Version": "4.1"
-      }
-    },
-    "Android_4_1_D": {
-      "match": "*Android 4.1*Linux*",
       "lite": false,
       "standard": false,
       "inherits": "Android",
@@ -2772,24 +2536,6 @@
         "Platform_Version": "4.2"
       }
     },
-    "Android_4_2_B": {
-      "match": "JUC (Linux; U; 4.2*",
-      "lite": false,
-      "standard": false,
-      "inherits": "Android",
-      "properties": {
-        "Platform_Version": "4.2"
-      }
-    },
-    "Android_4_2_C": {
-      "match": "*; U; Adr 4.2*",
-      "lite": false,
-      "standard": false,
-      "inherits": "Android",
-      "properties": {
-        "Platform_Version": "4.2"
-      }
-    },
     "Android_4_3": {
       "match": "*Linux*Android?4.3*",
       "lite": false,
@@ -2799,44 +2545,8 @@
         "Platform_Version": "4.3"
       }
     },
-    "Android_4_3_B": {
-      "match": "JUC (Linux; U; 4.3*",
-      "lite": false,
-      "standard": true,
-      "inherits": "Android",
-      "properties": {
-        "Platform_Version": "4.3"
-      }
-    },
-    "Android_4_3_C": {
-      "match": "*; U; Adr 4.3*",
-      "lite": false,
-      "standard": true,
-      "inherits": "Android",
-      "properties": {
-        "Platform_Version": "4.3"
-      }
-    },
     "Android_4_4": {
       "match": "*Linux*Android?4.4*",
-      "lite": false,
-      "standard": true,
-      "inherits": "Android",
-      "properties": {
-        "Platform_Version": "4.4"
-      }
-    },
-    "Android_4_4_B": {
-      "match": "JUC (Linux; U; 4.4*",
-      "lite": false,
-      "standard": true,
-      "inherits": "Android",
-      "properties": {
-        "Platform_Version": "4.4"
-      }
-    },
-    "Android_4_4_C": {
-      "match": "*; U; Adr 4.4*",
       "lite": false,
       "standard": true,
       "inherits": "Android",
@@ -2871,24 +2581,6 @@
         "Platform_Version": "5.0"
       }
     },
-    "Android_5_0_B": {
-      "match": "JUC (Linux; U; 5.0*",
-      "lite": false,
-      "standard": true,
-      "inherits": "Android",
-      "properties": {
-        "Platform_Version": "5.0"
-      }
-    },
-    "Android_5_0_C": {
-      "match": "*; U; Adr 5.0*",
-      "lite": false,
-      "standard": true,
-      "inherits": "Android",
-      "properties": {
-        "Platform_Version": "5.0"
-      }
-    },
     "Android_5_1": {
       "match": "*Linux*Android?5.1*",
       "lite": false,
@@ -2898,7 +2590,142 @@
         "Platform_Version": "5.1"
       }
     },
-    "Android_5_1_B": {
+    "Android_B": {
+      "match": "* Build\/*",
+      "lite": false,
+      "standard": true,
+      "inherits": "Android"
+    },
+    "Android_B_2_3": {
+      "match": "* Build\/GINGERBREAD*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "2.3"
+      }
+    },
+    "Android_C": {
+      "match": "JUC(Linux;U;Android*",
+      "lite": false,
+      "standard": true,
+      "inherits": "Android"
+    },
+    "Android_C_2_1": {
+      "match": "JUC(Linux;U;Android2.1*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "2.1"
+      }
+    },
+    "Android_C_2_2": {
+      "match": "JUC(Linux;U;Android2.2*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "2.2"
+      }
+    },
+    "Android_C_2_3": {
+      "match": "JUC(Linux;U;Android2.3*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "2.3"
+      }
+    },
+    "Android_C_4_2": {
+      "match": "JUC(Linux;U;Android4.2*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "4.2"
+      }
+    },
+    "Android_D": {
+      "match": "JUC (Linux; U; *",
+      "lite": false,
+      "standard": true,
+      "inherits": "Android"
+    },
+    "Android_D_2_2": {
+      "match": "JUC (Linux; U; 2.2*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "2.2"
+      }
+    },
+    "Android_D_2_3": {
+      "match": "JUC (Linux; U; 2.3*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "2.3"
+      }
+    },
+    "Android_D_4_0": {
+      "match": "JUC (Linux; U; 4.0*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "4.0"
+      }
+    },
+    "Android_D_4_1": {
+      "match": "JUC (Linux; U; 4.1*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "4.1"
+      }
+    },
+    "Android_D_4_2": {
+      "match": "JUC (Linux; U; 4.2*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "4.2"
+      }
+    },
+    "Android_D_4_3": {
+      "match": "JUC (Linux; U; 4.3*",
+      "lite": false,
+      "standard": true,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "4.3"
+      }
+    },
+    "Android_D_4_4": {
+      "match": "JUC (Linux; U; 4.4*",
+      "lite": false,
+      "standard": true,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "4.4"
+      }
+    },
+    "Android_D_5_0": {
+      "match": "JUC (Linux; U; 5.0*",
+      "lite": false,
+      "standard": true,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "5.0"
+      }
+    },
+    "Android_D_5_1": {
       "match": "JUC (Linux; U; 5.1*",
       "lite": false,
       "standard": true,
@@ -2907,13 +2734,169 @@
         "Platform_Version": "5."
       }
     },
-    "Android_5_1_C": {
+    "Android_E": {
+      "match": "*; U; Adr *",
+      "lite": false,
+      "standard": true,
+      "inherits": "Android"
+    },
+    "Android_E_2_1": {
+      "match": "*; U; Adr 2.1*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "2.1"
+      }
+    },
+    "Android_E_2_2": {
+      "match": "*; U; Adr 2.2*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "2.2"
+      }
+    },
+    "Android_E_2_3": {
+      "match": "*; U; Adr 2.3*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "2.3"
+      }
+    },
+    "Android_E_4_0": {
+      "match": "*; U; Adr 4.0*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "4.0"
+      }
+    },
+    "Android_E_4_1": {
+      "match": "*; U; Adr 4.1*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "4.1"
+      }
+    },
+    "Android_E_4_2": {
+      "match": "*; U; Adr 4.2*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "4.2"
+      }
+    },
+    "Android_E_4_3": {
+      "match": "*; U; Adr 4.3*",
+      "lite": false,
+      "standard": true,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "4.3"
+      }
+    },
+    "Android_E_4_4": {
+      "match": "*; U; Adr 4.4*",
+      "lite": false,
+      "standard": true,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "4.4"
+      }
+    },
+    "Android_E_5_0": {
+      "match": "*; U; Adr 5.0*",
+      "lite": false,
+      "standard": true,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "5.0"
+      }
+    },
+    "Android_E_5_1": {
       "match": "*; U; Adr 5.1*",
       "lite": false,
       "standard": true,
       "inherits": "Android",
       "properties": {
         "Platform_Version": "5.1"
+      }
+    },
+    "Android_F": {
+      "match": "*Android?*Linux*",
+      "lite": false,
+      "standard": true,
+      "inherits": "Android"
+    },
+    "Android_F_2_3": {
+      "match": "*Android?2.3*Linux*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "2.3"
+      }
+    },
+    "Android_F_4_0": {
+      "match": "*Android?4.0*Linux*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "4.0"
+      }
+    },
+    "Android_F_4_1": {
+      "match": "*Android?4.1*Linux*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "4.1"
+      }
+    },
+    "Android_G": {
+      "match": "JUC(Linux;?;*",
+      "lite": false,
+      "standard": true,
+      "inherits": "Android"
+    },
+    "Android_G_2_2": {
+      "match": "JUC(Linux;?;2.2*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "2.2"
+      }
+    },
+    "Android_GoogleTV": {
+      "match": "*Linux*GoogleTV*",
+      "lite": false,
+      "standard": true,
+      "inherits": "Android",
+      "properties": {
+        "Platform": "Android for GoogleTV",
+        "Platform_Description": "Android OS for GoogleTV"
+      }
+    },
+    "Android_GoogleTV_3_2": {
+      "match": "*Linux*GoogleTV 3.2*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform": "Android for GoogleTV",
+        "Platform_Version": "3.2",
+        "Platform_Description": "Android OS for GoogleTV"
       }
     },
     "AndroidMobile_4_0": {

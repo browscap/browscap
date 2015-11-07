@@ -43,7 +43,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.* Safari\/* Nichrome\/self\/#MAJORVER#*",
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_8_A", "OSX_10_9_A", "OSX_10_10_A", "OSX"
+            "OSX_10_8", "OSX_10_9", "OSX_10_10", "OSX"
           ]
         }
       ]

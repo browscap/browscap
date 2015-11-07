@@ -59,7 +59,7 @@ return [
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-270-F' => [
         'WebTarantula.com Crawler',

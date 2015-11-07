@@ -36,8 +36,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) *Version\/#MAJORVER#.#MINORVER#* Safari\/*",
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
-            "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B", "OSX_10_10_A", "OSX_10_10_B",
+            "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
             "OSX"
           ]
         },
@@ -45,8 +44,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) *Version\/#MAJORVER#.#MINORVER#*",
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
-            "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B", "OSX_10_10_A", "OSX_10_10_B",
+            "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
             "OSX"
           ]
         }
@@ -106,85 +104,85 @@
         {
           "match": "Safari\/95??.* CFNetwork\/128*",
           "platforms": [
-            "OSX_10_4_A"
+            "OSX_10_4"
           ]
         },
         {
           "match": "Safari\/95??.* CFNetwork\/129*",
           "platforms": [
-            "OSX_10_4_A"
+            "OSX_10_4"
           ]
         },
         {
           "match": "Safari\/95??.* CFNetwork\/217*",
           "platforms": [
-            "OSX_10_5_A"
+            "OSX_10_5"
           ]
         },
         {
           "match": "Safari\/95??.* CFNetwork\/220*",
           "platforms": [
-            "OSX_10_5_A"
+            "OSX_10_5"
           ]
         },
         {
           "match": "Safari\/95??.* CFNetwork\/221*",
           "platforms": [
-            "OSX_10_5_A"
+            "OSX_10_5"
           ]
         },
         {
           "match": "Safari\/95??.* CFNetwork\/330*",
           "platforms": [
-            "OSX_10_5_A"
+            "OSX_10_5"
           ]
         },
         {
           "match": "Safari\/95??.* CFNetwork\/339*",
           "platforms": [
-            "OSX_10_5_A"
+            "OSX_10_5"
           ]
         },
         {
           "match": "Safari\/95??.* CFNetwork\/422*",
           "platforms": [
-            "OSX_10_5_A"
+            "OSX_10_5"
           ]
         },
         {
           "match": "Safari\/95??.* CFNetwork\/438*",
           "platforms": [
-            "OSX_10_5_A"
+            "OSX_10_5"
           ]
         },
         {
           "match": "Safari\/95??.* CFNetwork\/454*",
           "platforms": [
-            "OSX_10_6_A"
+            "OSX_10_6"
           ]
         },
         {
           "match": "Safari\/95??.* CFNetwork\/520*",
           "platforms": [
-            "OSX_10_7_A"
+            "OSX_10_7"
           ]
         },
         {
           "match": "Safari\/95??.* CFNetwork\/596*",
           "platforms": [
-            "OSX_10_8_A"
+            "OSX_10_8"
           ]
         },
         {
           "match": "Safari\/95??.* CFNetwork\/673*",
           "platforms": [
-            "OSX_10_9_A"
+            "OSX_10_9"
           ]
         },
         {
           "match": "Safari\/95??.* CFNetwork\/720*",
           "platforms": [
-            "OSX_10_10_A"
+            "OSX_10_10"
           ]
         },
         {

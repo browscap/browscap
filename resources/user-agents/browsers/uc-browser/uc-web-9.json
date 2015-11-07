@@ -30,8 +30,8 @@
           "match": "#PLATFORM#) UCWEB#MAJORVER#.#MINORVER#*",
           "engine": "WebKit",
           "platforms": [
-            "Android_2_3_C", "Android_2_3_E", "Android_4_0_B", "Android_4_1_B", "Android_4_2_B", "Android_4_3_B",
-            "Android_4_4_B", "Android_C"
+            "Android_C_2_3", "Android_C",
+            "Android_D_2_3", "Android_D_4_0", "Android_D_4_1", "Android_D_4_2", "Android_D_4_3", "Android_D_4_4", "Android_D"
           ]
         },
         {
@@ -666,8 +666,8 @@
           "engine": "U2",
           "device": "Samsung GT-S5360",
           "platforms": [
-            "Android_2_1_C", "Android_2_2_C", "Android_2_3_D", "Android_4_0_C", "Android_4_1_C", "Android_4_2_C", "Android_4_3_C",
-            "Android_4_4_C"
+            "Android_E_2_1", "Android_E_2_2", "Android_E_2_3", "Android_E_4_0", "Android_E_4_1", "Android_E_4_2", "Android_E_4_3",
+            "Android_E_4_4"
           ]
         },
         {
@@ -675,8 +675,8 @@
           "engine": "U2",
           "device": "Samsung GT-S7562",
           "platforms": [
-            "Android_2_1_C", "Android_2_2_C", "Android_2_3_D", "Android_4_0_C", "Android_4_1_C", "Android_4_2_C", "Android_4_3_C",
-            "Android_4_4_C"
+            "Android_E_2_1", "Android_E_2_2", "Android_E_2_3", "Android_E_4_0", "Android_E_4_1", "Android_E_4_2", "Android_E_4_3",
+            "Android_E_4_4"
           ]
         },
         {
@@ -684,8 +684,8 @@
           "engine": "U2",
           "device": "Micromax A27",
           "platforms": [
-            "Android_2_1_C", "Android_2_2_C", "Android_2_3_D", "Android_4_0_C", "Android_4_1_C", "Android_4_2_C", "Android_4_3_C",
-            "Android_4_4_C"
+            "Android_E_2_1", "Android_E_2_2", "Android_E_2_3", "Android_E_4_0", "Android_E_4_1", "Android_E_4_2", "Android_E_4_3",
+            "Android_E_4_4"
           ]
         },
         {
@@ -693,8 +693,8 @@
           "engine": "U2",
           "device": "ThL W8",
           "platforms": [
-          "Android_2_1_C", "Android_2_2_C", "Android_2_3_D", "Android_4_0_C", "Android_4_1_C", "Android_4_2_C", "Android_4_3_C",
-          "Android_4_4_C"
+          "Android_E_2_1", "Android_E_2_2", "Android_E_2_3", "Android_E_4_0", "Android_E_4_1", "Android_E_4_2", "Android_E_4_3",
+          "Android_E_4_4"
           ]
         },
         {
@@ -702,7 +702,7 @@
           "engine": "U2",
           "device": "Micromax A106",
           "platforms": [
-            "Android_5_0_C"
+            "Android_E_5_0"
           ]
         },
         {
@@ -710,8 +710,8 @@
           "engine": "U2",
           "device": "SonyEricsson MT11i",
           "platforms": [
-            "Android_2_1_C", "Android_2_2_C", "Android_2_3_D", "Android_4_0_C", "Android_4_1_C", "Android_4_2_C", "Android_4_3_C",
-            "Android_4_4_C"
+            "Android_E_2_1", "Android_E_2_2", "Android_E_2_3", "Android_E_4_0", "Android_E_4_1", "Android_E_4_2", "Android_E_4_3",
+            "Android_E_4_4"
           ]
         },
         {
@@ -719,7 +719,7 @@
           "engine": "U2",
           "device": "Prestigio PMP7070C3G",
           "platforms": [
-            "Android_4_4_C"
+            "Android_E_4_4"
           ]
         },
         {
@@ -735,7 +735,7 @@
           "engine": "U2",
           "device": "Star GT9000",
           "platforms": [
-            "Android_4_3_C"
+            "Android_E_4_3"
           ]
         },
         {
@@ -743,7 +743,7 @@
           "engine": "U2",
           "device": "ThL W100",
           "platforms": [
-            "Android_4_2_C"
+            "Android_E_4_2"
           ]
         },
         {
@@ -751,7 +751,7 @@
           "engine": "U2",
           "device": "Twinovo T118",
           "platforms": [
-            "Android_4_2_C"
+            "Android_E_4_2"
           ]
         },
         {
@@ -759,7 +759,7 @@
           "engine": "U2",
           "device": "ZTE V829",
           "platforms": [
-            "Android_4_2_C"
+            "Android_E_4_2"
           ]
         },
         {
@@ -767,7 +767,7 @@
           "engine": "U2",
           "device": "Xiaomi HM 1SW",
           "platforms": [
-            "Android_4_4_C"
+            "Android_E_4_4"
           ]
         },
         {
@@ -775,7 +775,7 @@
           "engine": "U2",
           "device": "GT-I9100",
           "platforms": [
-            "Android_2_3_D"
+            "Android_E_2_3"
           ]
         },
         {
@@ -783,7 +783,7 @@
           "engine": "U2",
           "device": "GT-I9100P",
           "platforms": [
-            "Android_2_3_D"
+            "Android_E_2_3"
           ]
         },
         {
@@ -799,7 +799,7 @@
           "engine": "U2",
           "device": "LG P765",
           "platforms": [
-            "Android_4_0_C"
+            "Android_E_4_0"
           ]
         },
         {
@@ -807,7 +807,7 @@
           "engine": "U2",
           "device": "Motorola MB300",
           "platforms": [
-            "Android_2_3_D"
+            "Android_E_2_3"
           ]
         },
         {
@@ -815,7 +815,7 @@
           "engine": "U2",
           "device": "LG D724",
           "platforms": [
-            "Android_4_4_C"
+            "Android_E_4_4"
           ]
         },
         {
@@ -823,7 +823,7 @@
           "engine": "U2",
           "device": "Huawei U8230",
           "platforms": [
-            "Android_2_1_C"
+            "Android_E_2_1"
           ]
         },
         {
@@ -831,7 +831,7 @@
           "engine": "U2",
           "device": "HTC Ruby",
           "platforms": [
-            "Android_4_0_C"
+            "Android_E_4_0"
           ]
         },
         {
@@ -839,7 +839,7 @@
           "engine": "U2",
           "device": "Lenovo A706",
           "platforms": [
-            "Android_4_1_C"
+            "Android_E_4_1"
           ]
         },
         {
@@ -847,7 +847,7 @@
           "engine": "U2",
           "device": "Lenovo K910L",
           "platforms": [
-            "Android_4_3_C"
+            "Android_E_4_3"
           ]
         },
         {
@@ -855,7 +855,7 @@
           "engine": "U2",
           "device": "HTC Desire 310",
           "platforms": [
-            "Android_4_2_C"
+            "Android_E_4_2"
           ]
         },
         {
@@ -863,7 +863,7 @@
           "engine": "U2",
           "device": "Explay CinemaTV 3G",
           "platforms": [
-            "Android_4_2_C"
+            "Android_E_4_2"
           ]
         },
         {
@@ -871,7 +871,7 @@
           "engine": "U2",
           "device": "Hisense HS-U98",
           "platforms": [
-            "Android_4_1_C"
+            "Android_E_4_1"
           ]
         },
         {
@@ -879,7 +879,7 @@
           "engine": "U2",
           "device": "Lenovo A3000-H",
           "platforms": [
-            "Android_4_2_C"
+            "Android_E_4_2"
           ]
         },
         {
@@ -887,7 +887,7 @@
           "engine": "U2",
           "device": "Lenovo A516",
           "platforms": [
-            "Android_4_2_C"
+            "Android_E_4_2"
           ]
         },
         {
@@ -895,7 +895,7 @@
           "engine": "U2",
           "device": "Pantech P9060",
           "platforms": [
-            "Android_2_3_D"
+            "Android_E_2_3"
           ]
         },
         {
@@ -903,7 +903,7 @@
           "engine": "U2",
           "device": "Micromax A94",
           "platforms": [
-            "Android_4_2_C"
+            "Android_E_4_2"
           ]
         },
         {
@@ -911,7 +911,7 @@
           "engine": "U2",
           "device": "Digma iDxD8 3G",
           "platforms": [
-            "Android_4_0_C"
+            "Android_E_4_0"
           ]
         },
         {
@@ -919,7 +919,7 @@
           "engine": "U2",
           "device": "Samsung SM-T311",
           "platforms": [
-            "Android_4_2_C"
+            "Android_E_4_2"
           ]
         },
         {
@@ -927,7 +927,7 @@
           "engine": "U2",
           "device": "Lenovo P770",
           "platforms": [
-            "Android_4_1_C"
+            "Android_E_4_1"
           ]
         },
         {
@@ -935,7 +935,7 @@
           "engine": "U2",
           "device": "Wexler Book T7008",
           "platforms": [
-            "Android_4_0_C"
+            "Android_E_4_0"
           ]
         },
         {
@@ -943,7 +943,7 @@
           "engine": "U2",
           "device": "Samsung GT-N8000",
           "platforms": [
-            "Android_4_2_C"
+            "Android_E_4_2"
           ]
         },
         {
@@ -951,7 +951,7 @@
           "engine": "U2",
           "device": "Ninetology T8700",
           "platforms": [
-            "Android_4_2_C"
+            "Android_E_4_2"
           ]
         },
         {
@@ -959,7 +959,7 @@
           "engine": "U2",
           "device": "Lenovo A316i",
           "platforms": [
-            "Android_4_2_C"
+            "Android_E_4_2"
           ]
         },
         {
@@ -967,7 +967,7 @@
           "engine": "U2",
           "device": "Lenovo A318t",
           "platforms": [
-            "Android_2_3_D"
+            "Android_E_2_3"
           ]
         },
         {
@@ -975,7 +975,7 @@
           "engine": "U2",
           "device": "Lenovo A390t",
           "platforms": [
-            "Android_4_0_C"
+            "Android_E_4_0"
           ]
         },
         {
@@ -983,7 +983,7 @@
           "engine": "U2",
           "device": "Samsung GT-I9195",
           "platforms": [
-            "Android_4_2_C"
+            "Android_E_4_2"
           ]
         },
         {
@@ -991,7 +991,7 @@
           "engine": "U2",
           "device": "Lenovo A7600-H",
           "platforms": [
-            "Android_4_2_C"
+            "Android_E_4_2"
           ]
         },
         {
@@ -999,7 +999,7 @@
           "engine": "U2",
           "device": "Lenovo A369i",
           "platforms": [
-            "Android_4_2_C"
+            "Android_E_4_2"
           ]
         },
         {
@@ -1007,10 +1007,10 @@
           "engine": "U2",
           "device": "general Mobile Phone (Touch)",
           "platforms": [
-            "Android_2_1_C", "Android_2_2_C", "Android_2_3_D", "Android_4_0_C", "Android_4_1_C", "Android_4_2_C", "Android_4_3_C",
-            "Android_4_4_C",
-            "iOS_D_5_0", "iOS_D_5_1", "iOS_D_6_0", "iOS_D_6_1", "iOS_D_7_0", "iOS_D_7_1", "iOS_D_8_0",
-            "WinPhone7_B", "WinPhone8_B",
+            "Android_E_2_1", "Android_E_2_2", "Android_E_2_3", "Android_E_4_0", "Android_E_4_1", "Android_E_4_2", "Android_E_4_3", "Android_E_4_4",
+            "Android_E",
+            "iOS_D_5_0", "iOS_D_5_1", "iOS_D_6_0", "iOS_D_6_1", "iOS_D_7_0", "iOS_D_7_1", "iOS_D_8_0", "iOS_D",
+            "WinPhone7_C", "WinPhone8_B",
             "SymbianOS_B"
           ]
         },
@@ -1019,14 +1019,6 @@
           "engine": "U2",
           "platforms": [
             "Android"
-          ]
-        },
-        {
-          "match": "UCWEB\/2.0 (Linux; U; Opera Mini\/*; Videocon_A15) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
-          "engine": "U2",
-          "device": "Videocon A15",
-          "platforms": [
-            "Android_4_0"
           ]
         },
         {
@@ -1041,6 +1033,21 @@
           "match": "UCWEB\/2.0(Linux; U; Opera Mini\/*; MB525 Build\/*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
           "engine": "U2",
           "device": "Motorola MB525",
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
+          "match": "UCWEB\/2.0(Linux; U; Opera Mini\/*; * Build\/*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
+          "engine": "U2",
+          "platforms": [
+            "Android"
+          ]
+        },
+        {
+          "match": "UCWEB\/2.0 (Linux; U; Opera Mini\/*; Videocon_A15) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
+          "engine": "U2",
+          "device": "Videocon A15",
           "platforms": [
             "Android_4_0"
           ]
@@ -1169,7 +1176,7 @@
           "match": "UCWEB\/2.0 (Linux; U; Opera Mini\/*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
           "engine": "U2",
           "platforms": [
-            "Android_4_0"
+            "Android"
           ]
         },
         {

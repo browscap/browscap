@@ -101,7 +101,7 @@
             "Browser_Maker": "Utsire Software"
           },
           "platforms": [
-            "OSX_10_10_A", "OSX"
+            "OSX_10_10", "OSX"
           ]
         }
       ]

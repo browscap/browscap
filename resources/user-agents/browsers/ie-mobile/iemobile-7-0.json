@@ -35,7 +35,10 @@
       },
       "children": [
         {
-          "match": "Mozilla\/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.*)*"
+          "match": "Mozilla\/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.*)*",
+          "platforms": [
+            "WinCE"
+          ]
         },
         {
           "match": "8900a\/1.2 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile 7.*",
@@ -174,94 +177,94 @@
           ]
         },
         {
-          "match": "Mozilla\/4.0 (compatible*; MSIE 7.0; Windows Phone OS 7.0; Trident\/3.1; IEMobile\/#MAJORVER#.#MINORVER#; HTC; 7 Mozart)",
+          "match": "Mozilla\/4.0 (compatible*; MSIE 7.0; #PLATFORM# Trident\/3.1; IEMobile\/#MAJORVER#.#MINORVER#; HTC; 7 Mozart)",
           "device": "HTC T8698",
           "platforms": [
             "WinPhone7"
           ]
         },
         {
-          "match": "Mozilla\/4.0 (compatible*; MSIE 7.0; Windows Phone OS 7.0; Trident\/3.1; IEMobile\/#MAJORVER#.#MINORVER#; HTC; 7 Pro T7576)",
+          "match": "Mozilla\/4.0 (compatible*; MSIE 7.0; #PLATFORM# Trident\/3.1; IEMobile\/#MAJORVER#.#MINORVER#; HTC; 7 Pro T7576)",
           "device": "HTC T7576",
           "platforms": [
             "WinPhone7"
           ]
         },
         {
-          "match": "Mozilla\/4.0 (compatible*; MSIE 7.0; Windows Phone OS 7.0; Trident\/3.1; IEMobile\/#MAJORVER#.#MINORVER#; LG; LG-E900)",
+          "match": "Mozilla\/4.0 (compatible*; MSIE 7.0; #PLATFORM# Trident\/3.1; IEMobile\/#MAJORVER#.#MINORVER#; LG; LG-E900)",
           "device": "LG E900",
           "platforms": [
             "WinPhone7"
           ]
         },
         {
-          "match": "Mozilla\/4.0 (compatible*; MSIE 7.0; Windows Phone OS 7.0; Trident\/3.1; IEMobile\/#MAJORVER#.#MINORVER#; SAMSUNG; OMNIA7)",
+          "match": "Mozilla\/4.0 (compatible*; MSIE 7.0; #PLATFORM# Trident\/3.1; IEMobile\/#MAJORVER#.#MINORVER#; SAMSUNG; OMNIA7)",
           "device": "Samsung GT-I8700",
           "platforms": [
             "WinPhone7"
           ]
         },
         {
-          "match": "Mozilla\/4.0 (compatible*; MSIE 7.0*; Windows Phone OS 7.0; Trident\/3.1; IEMobile\/#MAJORVER#.#MINORVER#; NOKIA; Lumia 520*)",
+          "match": "Mozilla\/4.0 (compatible*; MSIE 7.0*; #PLATFORM# Trident\/3.1; IEMobile\/#MAJORVER#.#MINORVER#; NOKIA; Lumia 520*)",
           "device": "Nokia Lumia 520",
           "platforms": [
             "WinPhone7"
           ]
         },
         {
-          "match": "Mozilla\/4.0 (compatible*; MSIE 7.0*; Windows Phone OS 7.0; Trident\/3.1; IEMobile\/#MAJORVER#.#MINORVER#; NOKIA; Lumia 720*)",
+          "match": "Mozilla\/4.0 (compatible*; MSIE 7.0*; #PLATFORM# Trident\/3.1; IEMobile\/#MAJORVER#.#MINORVER#; NOKIA; Lumia 720*)",
           "device": "Nokia Lumia 720",
           "platforms": [
             "WinPhone7"
           ]
         },
         {
-          "match": "Mozilla\/4.0 (compatible*; MSIE 7.0*; Windows Phone OS 7.0; Trident\/3.1; IEMobile\/#MAJORVER#.#MINORVER#; NOKIA; Lumia 820*)",
+          "match": "Mozilla\/4.0 (compatible*; MSIE 7.0*; #PLATFORM# Trident\/3.1; IEMobile\/#MAJORVER#.#MINORVER#; NOKIA; Lumia 820*)",
           "device": "Nokia Lumia 820",
           "platforms": [
             "WinPhone7"
           ]
         },
         {
-          "match": "Mozilla\/4.0 (compatible*; MSIE 7.0*; Windows Phone OS 7.0; Trident\/3.1; IEMobile\/#MAJORVER#.#MINORVER#; NOKIA; Lumia 920*)",
+          "match": "Mozilla\/4.0 (compatible*; MSIE 7.0*; #PLATFORM# Trident\/3.1; IEMobile\/#MAJORVER#.#MINORVER#; NOKIA; Lumia 920*)",
           "device": "Nokia Lumia 920",
           "platforms": [
             "WinPhone7"
           ]
         },
         {
-          "match": "Mozilla\/4.0 (compatible*; MSIE 7.0*; Windows Phone OS 7.0; Trident\/3.1; IEMobile\/#MAJORVER#.#MINORVER#; NOKIA; Lumia 925*)",
+          "match": "Mozilla\/4.0 (compatible*; MSIE 7.0*; #PLATFORM# Trident\/3.1; IEMobile\/#MAJORVER#.#MINORVER#; NOKIA; Lumia 925*)",
           "device": "Nokia Lumia 925",
           "platforms": [
             "WinPhone7"
           ]
         },
         {
-          "match": "Mozilla\/4.0 (compatible*; MSIE 7.0*; Windows Phone OS 7.0; Trident\/3.1; IEMobile\/#MAJORVER#.#MINORVER#; NOKIA; Lumia 930*)",
+          "match": "Mozilla\/4.0 (compatible*; MSIE 7.0*; #PLATFORM# Trident\/3.1; IEMobile\/#MAJORVER#.#MINORVER#; NOKIA; Lumia 930*)",
           "device": "Nokia Lumia 930",
           "platforms": [
             "WinPhone7"
           ]
         },
         {
-          "match": "Mozilla\/4.0 (compatible*; MSIE 7.0*; Windows Phone OS 7.0; Trident\/3.1; IEMobile\/#MAJORVER#.#MINORVER#; NOKIA; Lumia 1520*)",
+          "match": "Mozilla\/4.0 (compatible*; MSIE 7.0*; #PLATFORM# Trident\/3.1; IEMobile\/#MAJORVER#.#MINORVER#; NOKIA; Lumia 1520*)",
           "device": "Nokia Lumia 1520",
           "platforms": [
             "WinPhone7"
           ]
         },
         {
-          "match": "Mozilla\/4.0 (compatible*; MSIE 7.0*; Windows Phone OS 7.0; Trident\/3.1; IEMobile\/#MAJORVER#.#MINORVER#; HTC; Windows Phone 8S by HTC)",
+          "match": "Mozilla\/4.0 (compatible*; MSIE 7.0*; #PLATFORM# Trident\/3.1; IEMobile\/#MAJORVER#.#MINORVER#; HTC; Windows Phone 8S by HTC)",
           "device": "HTC 8S",
           "platforms": [
             "WinPhone7"
           ]
         },
         {
-          "match": "Mozilla\/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident\/3.1; IEMobile\/#MAJORVER#.#MINORVER#*)*",
+          "match": "Mozilla\/4.0 (compatible; MSIE 7.0; #PLATFORM# Trident\/3.1; IEMobile\/#MAJORVER#.#MINORVER#*)*",
           "device": "general Mobile Phone (Touch)",
           "platforms": [
-            "WinPhone7"
+            "WinPhone7", "WinPhone"
           ]
         },
         {
@@ -510,10 +513,17 @@
           ]
         },
         {
-          "match": "Mozilla\/4.0 (*compatible*;*MSIE 7.0; Windows Phone OS 7.0; Trident\/3.1; IEMobile\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/4.0 (*compatible*;*MSIE 7.0; #PLATFORM# Trident\/3.1; IEMobile\/#MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone (Touch)",
           "platforms": [
-            "WinPhone7"
+            "WinPhone7", "WinPhone"
+          ]
+        },
+        {
+          "match": "Mozilla\/4.0 (compatible; MSIE 7.0*; #PLATFORM# Trident\/3.1; IEMobile\/#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Phone (Touch)",
+          "platforms": [
+            "WinPhone7", "WinPhone"
           ]
         },
         {

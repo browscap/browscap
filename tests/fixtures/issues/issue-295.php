@@ -269,7 +269,7 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-295-L' => [
         '"Mozilla/4.0 (compatible; MSIE 6.0; Windows 98; Win 9x 4.90)"',
