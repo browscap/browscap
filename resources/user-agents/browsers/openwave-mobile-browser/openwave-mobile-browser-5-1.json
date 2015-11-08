@@ -30,6 +30,9 @@
         {
           "match": "NEC-N600\/1.0 HopenOS\/2.0 UP.Link\/5.1*",
           "device": "NEC N600"
+        },
+        {
+          "match": "* UP.Link\/5.1*"
         }
       ]
     }

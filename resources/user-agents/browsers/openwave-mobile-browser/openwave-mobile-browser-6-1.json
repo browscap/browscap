@@ -459,6 +459,9 @@
         },
         {
           "match": "YAS-COSMOS\/1.0 UP.Browser\/6.1*"
+        },
+        {
+          "match": "* UP.Browser\/6.1*"
         }
       ]
     }

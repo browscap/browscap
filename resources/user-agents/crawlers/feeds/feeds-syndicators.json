@@ -62,23 +62,6 @@
           }
         },
         {
-          "match": "Apple-PubSub\/65.28*",
-          "properties": {
-            "Browser": "Apple-PubSub",
-            "Browser_Maker": "Apple Inc",
-            "Version": "65.28",
-            "MajorVer": "65",
-            "MinorVer": "28"
-          }
-        },
-        {
-          "match": "Apple-PubSub\/*",
-          "properties": {
-            "Browser": "Apple-PubSub",
-            "Browser_Maker": "Apple Inc"
-          }
-        },
-        {
           "match": "AppleSyndication\/*",
           "device": "Macintosh",
           "properties": {

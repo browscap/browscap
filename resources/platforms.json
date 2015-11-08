@@ -2257,7 +2257,7 @@
     "WinPhone": {
       "match": "*Windows Phone*",
       "lite": false,
-      "standard": false,
+      "standard": true,
       "inherits": "Windows",
       "properties": {
         "Platform": "WinPhone",

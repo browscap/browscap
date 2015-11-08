@@ -71,7 +71,7 @@
         "Device_Name": "Blackberry",
         "Device_Maker": "Research In Motion Limited",
         "Device_Type": "Mobile Phone",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "Device_Code_Name": "Blackberry",
         "Device_Brand_Name": "RIM",
         "isMobileDevice": "true",

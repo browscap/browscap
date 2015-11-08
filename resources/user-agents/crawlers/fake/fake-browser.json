@@ -21,9 +21,6 @@
           "match": "* UP.Browser\/6.*"
         },
         {
-          "match": "* UP.Browser\/6.2*"
-        },
-        {
           "match": "*Google Chrome*"
         },
         {
@@ -190,9 +187,6 @@
         },
         {
           "match": "https:\/\/*"
-        },
-        {
-          "match": "r451* UP.Browser\/6.2*Novarra-Vision\/*"
         },
         {
           "match": "GoogleBot\/* (Windows 98 1.1; *;)",

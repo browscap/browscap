@@ -30,6 +30,9 @@
         },
         {
           "match": "OPWV-SDK\/* UP.Browser\/6.0*"
+        },
+        {
+          "match": "* UP.Browser\/6.0*"
         }
       ]
     }

@@ -329,6 +329,9 @@
           "platforms": [
             "RIMOS_4_0"
           ]
+        },
+        {
+          "match": "* UP.Browser\/5.0*"
         }
       ]
     }

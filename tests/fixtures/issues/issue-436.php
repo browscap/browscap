@@ -59,7 +59,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-436-C' => [
         'Mozilla/5.0 (Windows NT 6.4; Trident/7.0; rv:11.0) like Gecko',
@@ -2242,7 +2242,7 @@ return [
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-436-BT' => [
         'Mozilla/5.0 (X11; Linux) AppleWebKit/535.22 (KHTML, like Gecko) Chrome/18.0.1025.133 Safari/535.22 Midori/0.4',
@@ -2461,7 +2461,7 @@ return [
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-436-CA' => [
         'Mozilla/5.0 (Windows NT 5.1; U; en) Opera 8.01',
@@ -2671,7 +2671,7 @@ return [
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-436-CH' => [
         'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:22.0) Gecko/ /22.0',
@@ -4024,6 +4024,6 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
 ];

@@ -263,6 +263,9 @@
         {
           "match": "ZTE-C880\/* UP.Browser\/4.1*",
           "device": "ZTE C880"
+        },
+        {
+          "match": "* UP.Browser\/4.1*"
         }
       ]
     }

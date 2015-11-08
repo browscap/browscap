@@ -22,6 +22,9 @@
       "children": [
         {
           "match": "UPG1* UP.Browser\/4.0*"
+        },
+        {
+          "match": "* UP.Browser\/4.0*"
         }
       ]
     }

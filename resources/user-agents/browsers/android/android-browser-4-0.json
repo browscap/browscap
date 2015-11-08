@@ -4828,28 +4828,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Nuqleo; Zaffire 785*) AppleWebKit*(KTHML,like Gecko) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "Nuqleo Zaffire 785",
-          "platforms": [
-            "Android_4_2"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#Nuqleo; Zaffire 1010*) AppleWebKit*(KTHML,like Gecko) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "Nuqleo Zaffire 1010",
-          "platforms": [
-            "Android_4_2"
-          ]
-        },
-        {
           "match": "Mozilla\/5.0 (#PLATFORM#AX540 Build\/*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "Bmobile AX540",
-          "platforms": [
-            "Android_4_0"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#AX540 Build\/*) AppleWebKit* (KHMTL,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "device": "Bmobile AX540",
           "platforms": [
             "Android_4_0"
@@ -4867,20 +4846,6 @@
           "device": "Lenovo A328",
           "platforms": [
             "Android_4_4"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0(#PLATFORM#NEC-0912 Build\/*)AppleWebKit\/*(KHTML, Like Gecko)Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "NEC 0912",
-          "platforms": [
-            "Android_4_0"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0(#PLATFORM#BLU Studio 5.0 S II Build\/*)AppleWebKit\/*(KHTML,like Gecko)Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "BLU Studio 5.0 S II",
-          "platforms": [
-            "Android_4_2"
           ]
         },
         {
@@ -6236,6 +6201,60 @@
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android_4_5",
             "Android_5_0", "Android_5_1",
             "Android", "Android_B"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#Nuqleo; Zaffire 785*) AppleWebKit*(KTHML,like Gecko) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "device": "Nuqleo Zaffire 785",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#Nuqleo; Zaffire 1010*) AppleWebKit*(KTHML,like Gecko) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "device": "Nuqleo Zaffire 1010",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit*(KTHML,like Gecko) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "device": "general Tablet",
+          "platforms": [
+            "Android_4_2", "Android"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#AX540 Build\/*) AppleWebKit* (KHMTL,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "device": "Bmobile AX540",
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit* (KHMTL,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0(#PLATFORM#NEC-0912 Build\/*)AppleWebKit\/*(KHTML, Like Gecko)Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "device": "NEC 0912",
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0(#PLATFORM#BLU Studio 5.0 S II Build\/*)AppleWebKit\/*(KHTML,like Gecko)Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "device": "BLU Studio 5.0 S II",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0(#PLATFORM#)AppleWebKit\/*(KHTML,like Gecko)Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "platforms": [
+            "Android_4_0", "Android_4_2"
           ]
         },
         {

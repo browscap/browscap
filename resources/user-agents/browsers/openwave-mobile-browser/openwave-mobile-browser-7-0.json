@@ -24,7 +24,7 @@
           "match": "BenQ-SL91\/01 UP.Browser\/7.0*"
         },
         {
-          "match": "MOT-A-1C\/00.07 UP.Browser\/7.0.0.2*"
+          "match": "MOT-A-1C\/00.07 UP.Browser\/7.0*"
         },
         {
           "match": "MOT-A-3E\/0?.0? UP.Browser\/7.0*"
@@ -252,6 +252,9 @@
         },
         {
           "match": "samsung UP.Browser\/7.0*"
+        },
+        {
+          "match": "* UP.Browser\/7.0*"
         }
       ]
     }

@@ -29,7 +29,7 @@ return [
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-392-B' => [
         'NokiaC3-00/5.0 (08.70) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
@@ -119,6 +119,6 @@ return [
             'RenderingEngine_Maker' => 'UC Web',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
 ];

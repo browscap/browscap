@@ -65,6 +65,9 @@
         },
         {
           "match": "UTS-7126M\/1.0 UP.Browser\/6.3*"
+        },
+        {
+          "match": "* UP.Browser\/6.3*"
         }
       ]
     }

@@ -28,8 +28,14 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (MeeGo; NokiaN9) AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/#MAJORVER#.#MINORVER#*Safari\/534*",
+          "match": "Mozilla\/5.0 (MeeGo; NokiaN9) AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/#MAJORVER#.#MINORVER#*Safari\/*",
           "device": "Nokia N9",
+          "platforms": [
+            "MeeGo"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (MeeGo*) AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/#MAJORVER#.#MINORVER#*Safari\/*",
           "platforms": [
             "MeeGo"
           ]

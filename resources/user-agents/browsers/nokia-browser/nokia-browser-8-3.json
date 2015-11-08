@@ -61,6 +61,9 @@
         {
           "match": "Mozilla\/5.0 (Symbian\/*; Series60\/* NokiaC7-00\/* AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/#MAJORVER#.#MINORVER#*Safari\/*",
           "device": "Nokia C7-00"
+        },
+        {
+          "match": "Mozilla\/5.0 (Symbian\/*; Series60\/* AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/#MAJORVER#.#MINORVER#*Safari\/*"
         }
       ]
     }

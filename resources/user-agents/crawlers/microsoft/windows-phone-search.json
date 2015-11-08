@@ -2,11 +2,11 @@
   "division": "Windows Phone Search",
   "sortIndex": 1280,
   "lite": false,
-  "standard": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Windows Phone Search",
-      "platform": "WinPhone710",
+      "platform": "WinPhone",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",

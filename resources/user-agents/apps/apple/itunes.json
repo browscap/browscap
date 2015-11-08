@@ -85,7 +85,7 @@
             "MinorVer": "1"
           },
           "platforms": [
-            "Win32"
+            "Windows"
           ]
         },
         {
@@ -109,7 +109,7 @@
             "MinorVer": "2"
           },
           "platforms": [
-            "Win32"
+            "Windows"
           ]
         },
         {
@@ -133,7 +133,7 @@
             "MinorVer": "3"
           },
           "platforms": [
-            "Win32"
+            "Windows"
           ]
         },
         {
@@ -157,7 +157,7 @@
             "MinorVer": "0"
           },
           "platforms": [
-            "Win32"
+            "Windows"
           ]
         },
         {
@@ -171,7 +171,7 @@
           "match": "iTunes\/* (Windows*",
           "device": "Windows Desktop",
           "platforms": [
-            "Win32"
+            "Windows"
           ]
         },
         {

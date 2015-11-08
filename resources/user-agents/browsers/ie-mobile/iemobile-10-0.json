@@ -125,6 +125,12 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (compatible*; MSIE #MAJORVER#*; #PLATFORM# *Trident\/6.0; IEMobile\/#MAJORVER#*; ARM; Touch; *)",
+          "platforms": [
+            "WinPhone8"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (*MSIE #MAJORVER#* #PLATFORM# *Trident\/6.0* *IEMobile\/#MAJORVER#*)",
           "platforms": [
             "WinPhone8"

@@ -74,6 +74,9 @@
         },
         {
           "match": "SIE-SL75\/* UP.Browser\/7.1*"
+        },
+        {
+          "match": "* UP.Browser\/7.1*"
         }
       ]
     }

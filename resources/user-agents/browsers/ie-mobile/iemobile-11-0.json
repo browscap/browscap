@@ -34,92 +34,104 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#.#MINORVER#*; IEMobile\/#MAJORVER#.#MINORVER#; NOKIA; Lumia 635*",
+          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#.#MINORVER#*IEMobile\/#MAJORVER#.#MINORVER#) like Android *; compatible) like iPhone OS * Mac OS X WebKit\/537.36 (KHTML, like Gecko) Chrome*Safari*",
+          "platforms": [
+            "WinPhone8.1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#.#MINORVER#*IEMobile\/#MAJORVER#.#MINORVER#; NOKIA; Lumia 635*",
           "device": "Nokia Lumia 635",
           "platforms": [
             "WinPhone8.1"
           ]
         },
         {
-          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#.#MINORVER#*; IEMobile\/#MAJORVER#.#MINORVER#; NOKIA; Lumia 930*",
+          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#.#MINORVER#*IEMobile\/#MAJORVER#.#MINORVER#; NOKIA; Lumia 930*",
           "device": "Nokia Lumia 930",
           "platforms": [
             "WinPhone8.1"
           ]
         },
         {
-          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#.#MINORVER#*; IEMobile\/#MAJORVER#.#MINORVER#; NOKIA; Lumia 520*",
+          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#.#MINORVER#*IEMobile\/#MAJORVER#.#MINORVER#; NOKIA; Lumia 520*",
           "device": "Nokia Lumia 520",
           "platforms": [
             "WinPhone8.1"
           ]
         },
         {
-          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#.#MINORVER#*; IEMobile\/#MAJORVER#.#MINORVER#; NOKIA; Lumia 630*",
+          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#.#MINORVER#*IEMobile\/#MAJORVER#.#MINORVER#; NOKIA; Lumia 630*",
           "device": "Nokia Lumia 630",
           "platforms": [
             "WinPhone8.1"
           ]
         },
         {
-          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#.#MINORVER#*; IEMobile\/#MAJORVER#.#MINORVER#; NOKIA; Lumia 925*",
+          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#.#MINORVER#*IEMobile\/#MAJORVER#.#MINORVER#; NOKIA; Lumia 925*",
           "device": "Nokia Lumia 925",
           "platforms": [
             "WinPhone8.1"
           ]
         },
         {
-          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#.#MINORVER#*; IEMobile\/#MAJORVER#.#MINORVER#; NOKIA; Lumia 920*",
+          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#.#MINORVER#*IEMobile\/#MAJORVER#.#MINORVER#; NOKIA; Lumia 920*",
           "device": "Nokia Lumia 920",
           "platforms": [
             "WinPhone8.1"
           ]
         },
         {
-          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#.#MINORVER#*; IEMobile\/#MAJORVER#.#MINORVER#; NOKIA; Lumia 730*",
+          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#.#MINORVER#*IEMobile\/#MAJORVER#.#MINORVER#; NOKIA; Lumia 730*",
           "device": "Nokia Lumia 730",
           "platforms": [
             "WinPhone8.1"
           ]
         },
         {
-          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#*IEMobile\/#MAJORVER#.#MINORVER#; NOKIA; Lumia 928*",
+          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#.#MINORVER#*IEMobile\/#MAJORVER#.#MINORVER#; NOKIA; Lumia 928*",
           "device": "Nokia Lumia 928",
           "platforms": [
             "WinPhone8.1"
           ]
         },
         {
-          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#*IEMobile\/#MAJORVER#.#MINORVER#; NOKIA; Lumia 625*",
+          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#.#MINORVER#*IEMobile\/#MAJORVER#.#MINORVER#; NOKIA; Lumia 625*",
           "device": "Nokia Lumia 625",
           "platforms": [
             "WinPhone8.1"
           ]
         },
         {
-          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#*IEMobile\/#MAJORVER#.#MINORVER#; NOKIA; 909*",
+          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#.#MINORVER#*IEMobile\/#MAJORVER#.#MINORVER#; NOKIA; 909*",
           "device": "Nokia Lumia 1020",
           "platforms": [
             "WinPhone8.1"
           ]
         },
         {
-          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#*IEMobile\/#MAJORVER#.#MINORVER#; NOKIA; Lumia 820*",
+          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#.#MINORVER#*IEMobile\/#MAJORVER#.#MINORVER#; NOKIA; Lumia 820*",
           "device": "Nokia Lumia 820",
           "platforms": [
             "WinPhone8.1"
           ]
         },
         {
-          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#*IEMobile\/#MAJORVER#.#MINORVER#; NOKIA; Lumia 620*",
+          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#.#MINORVER#*IEMobile\/#MAJORVER#.#MINORVER#; NOKIA; Lumia 620*",
           "device": "Nokia Lumia 620",
           "platforms": [
             "WinPhone8.1"
           ]
         },
         {
-          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#*IEMobile\/#MAJORVER#.#MINORVER#; NOKIA; Lumia 530*",
+          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#.#MINORVER#*IEMobile\/#MAJORVER#.#MINORVER#; NOKIA; Lumia 530*",
           "device": "Nokia Lumia 530",
+          "platforms": [
+            "WinPhone8.1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#.#MINORVER#*IEMobile\/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "WinPhone8.1"
           ]
@@ -230,18 +242,6 @@
             "Browser_Modus": "Desktop Mode"
           },
           "device": "Nokia Lumia 720",
-          "platforms": [
-            "WinPhone8.1"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#Trident\/7.0*rv:#MAJORVER#*; IEMobile\/#MAJORVER#.#MINORVER#) like Android *; compatible) like iPhone OS * Mac OS X WebKit\/537.36 (KHTML, like Gecko) Chrome*Safari*",
-          "platforms": [
-            "WinPhone8.1"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#.#MINORVER#*; IEMobile\/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "WinPhone8.1"
           ]

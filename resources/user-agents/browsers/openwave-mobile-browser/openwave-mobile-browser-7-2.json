@@ -71,6 +71,9 @@
         },
         {
           "match": "http:\/\/mms.revol.us\/uaprofs\/E1000-JV\/1.0.09 UP.Browser\/7.2*"
+        },
+        {
+          "match": "* UP.Browser\/7.2*"
         }
       ]
     }

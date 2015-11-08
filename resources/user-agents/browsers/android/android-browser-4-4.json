@@ -34,6 +34,12 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "platforms": [
+            "Android_4_4", "Android"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0(#PLATFORM#Lenovo A536 Build\/*)AppleWebKit\/* (KHTML, like Gecko) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "device": "Lenovo A536",
           "platforms": [
@@ -41,9 +47,9 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "Mozilla\/5.0(#PLATFORM#)AppleWebKit\/* (KHTML, like Gecko) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "platforms": [
-            "Android_4_4", "Android"
+            "Android_4_4"
           ]
         }
       ]

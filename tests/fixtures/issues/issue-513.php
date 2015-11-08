@@ -545,7 +545,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-513-R' => [
         'Dorado WAP-Browser/1.0.0',
@@ -845,7 +845,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-513-AC' => [
         'HTC7088_TD/1.0 Android/4.1 release/2013 Browser/WAP2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 AppleWebKit/534.30',
@@ -875,7 +875,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-513-AD' => [
         'HTC802t_TD/1.0 Android/4.1 release/2013 Browser/WAP2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -905,7 +905,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-513-AE' => [
         'iBall Majestic 2.4D',
@@ -1055,7 +1055,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-513-AJ' => [
         'Jeode/1.x.x',
@@ -1214,7 +1214,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-513-AO' => [
         'LIAuthLibrary:0.0.2 com.linkedin.android:3.4.2 TCL_ALCATEL ONE TOUCH 4037T:android_4.4.2',
@@ -2765,7 +2765,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-513-CL' => [
         'Mozilla/5.0 (iPod; CPU iPhone OS 7_1_2 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile Schoolwires',
@@ -2954,7 +2954,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-513-CT' => [
         'Mozilla/5.0 (Linux; U; en-gb) AppleWebKit/418.9.1 (KHTML, like Gecko) SiteCon/8.10.22',
@@ -3504,7 +3504,7 @@ return [
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-513-DL' => [
         'Mozilla/5.0 (Mobile; ZTEOPEN; rv:18.1) Gecko/18.1 Firefox/18.1',
@@ -3534,7 +3534,7 @@ return [
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-513-DM' => [
         'Mozilla/5.0 (Mobile; rv:28.1) Gecko/28.1 Firefox/28.1',
@@ -3564,7 +3564,7 @@ return [
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-513-DO' => [
         'Mozilla/5.0 (Windows NT 10.0; Win64; x64; Trident/7.0; rv:11.0) like Gecko',
@@ -4194,7 +4194,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-513-EI' => [
         'Mozilla/5.0(Linux;U; Android 4.0.4; en-us;NEC-0912 Build/A8212300)AppleWebKit/534.30(KHTML, Like Gecko)Version/4.0 Mobile Safari/534.30',
@@ -4701,6 +4701,6 @@ return [
             'RenderingEngine_Maker' => 'UC Web',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
 ];
