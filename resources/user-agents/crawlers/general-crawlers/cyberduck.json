@@ -1,13 +1,13 @@
 {
-  "division": "General Crawlers",
+  "division": "Cyberduck",
   "sortIndex": 171,
   "lite": false,
   "userAgents": [
     {
-      "userAgent": "General Crawlers",
+      "userAgent": "Cyberduck",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "General Crawlers",
+        "Comment": "Cyberduck",
         "Browser": "Cyberduck",
         "Browser_Maker": "iterate GmbH",
         "Browser_Type": "Bot/Crawler",
