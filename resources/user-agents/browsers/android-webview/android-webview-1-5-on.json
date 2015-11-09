@@ -5252,7 +5252,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit* (KHMTL,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "platforms": [
-            "Android_4_0"
+            "Android_4_0", "Android"
           ]
         },
         {
@@ -5272,7 +5272,7 @@
         {
           "match": "Mozilla\/5.0(#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "platforms": [
-            "Android_4_4"
+            "Android_4_4", "Android"
           ]
         }
       ]

@@ -205,6 +205,13 @@
           ]
         },
         {
+          "match": "Mozilla\/4.0 (compatible*; MSIE 7.0; #PLATFORM# Trident\/3.1; IEMobile\/#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Phone (Touch)",
+          "platforms": [
+            "WinPhone7", "WinPhone"
+          ]
+        },
+        {
           "match": "Mozilla\/4.0 (compatible*; MSIE 7.0*; #PLATFORM# Trident\/3.1; IEMobile\/#MAJORVER#.#MINORVER#; NOKIA; Lumia 520*)",
           "device": "Nokia Lumia 520",
           "platforms": [
@@ -258,6 +265,13 @@
           "device": "HTC 8S",
           "platforms": [
             "WinPhone7"
+          ]
+        },
+        {
+          "match": "Mozilla\/4.0 (compatible*; MSIE 7.0*; #PLATFORM# Trident\/3.1; IEMobile\/#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Phone (Touch)",
+          "platforms": [
+            "WinPhone7", "WinPhone"
           ]
         },
         {

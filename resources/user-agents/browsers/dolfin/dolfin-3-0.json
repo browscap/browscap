@@ -8,7 +8,7 @@
       "userAgent": "Dolfin #MAJORVER#.#MINORVER#",
       "platform": "Bada_2_0",
       "engine": "WebKit",
-      "device": "general Mobile Device",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Dolfin #MAJORVER#.#MINORVER#",

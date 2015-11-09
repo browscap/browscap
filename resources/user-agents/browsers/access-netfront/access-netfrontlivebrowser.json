@@ -7,7 +7,7 @@
     {
       "userAgent": "NetFrontLifeBrowser #MAJORVER#.#MINORVER#",
       "engine": "WebKit",
-      "device": "general Mobile Device",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Access NetFrontLifeBrowser #MAJORVER#.#MINORVER#",

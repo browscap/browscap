@@ -32,6 +32,12 @@
           "platforms": [
             "JAVA"
           ]
+        },
+        {
+          "match": "MQQBrowser\/Mini#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "JAVA"
+          ]
         }
       ]
     }

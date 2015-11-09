@@ -94,6 +94,10 @@
         {
           "match": "Mozilla\/5.0 (BlackBerry; U; BlackBerry 9860*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/6.0*Safari\/*",
           "device": "Blackberry 9860"
+        },
+        {
+          "match": "Mozilla\/5.0 (BlackBerry; U; BlackBerry*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/6.0*Safari\/*",
+          "device": "general Mobile Phone (old Blackberry)"
         }
       ]
     }

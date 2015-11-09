@@ -56,7 +56,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) applewebkit\/* (khtml, like gecko) version\/* safari\/* yjapp-android jp.co.yahoo.android.yjtop\/#MAJORVER#.#MINORVER#*",
           "platforms": [
-            "Android_4_0", "Android_4_1", "Android_4_2"
+            "Android_4_0", "Android_4_1", "Android_4_2", "Android"
           ]
         }
       ]
