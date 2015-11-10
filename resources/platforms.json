@@ -2530,7 +2530,7 @@
     "Android_4_2": {
       "match": "*Linux*Android?4.2*",
       "lite": false,
-      "standard": false,
+      "standard": true,
       "inherits": "Android",
       "properties": {
         "Platform_Version": "4.2"
@@ -2590,6 +2590,15 @@
         "Platform_Version": "5.1"
       }
     },
+    "Android_6_0": {
+      "match": "*Linux*Android?6.0*",
+      "lite": false,
+      "standard": true,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "6.0"
+      }
+    },
     "Android_B": {
       "match": "* Build\/*",
       "lite": false,
@@ -2641,7 +2650,7 @@
     "Android_C_4_2": {
       "match": "JUC(Linux;U;Android4.2*",
       "lite": false,
-      "standard": false,
+      "standard": true,
       "inherits": "Android",
       "properties": {
         "Platform_Version": "4.2"
@@ -2692,7 +2701,7 @@
     "Android_D_4_2": {
       "match": "JUC (Linux; U; 4.2*",
       "lite": false,
-      "standard": false,
+      "standard": true,
       "inherits": "Android",
       "properties": {
         "Platform_Version": "4.2"
@@ -2788,7 +2797,7 @@
     "Android_E_4_2": {
       "match": "*; U; Adr 4.2*",
       "lite": false,
-      "standard": false,
+      "standard": true,
       "inherits": "Android",
       "properties": {
         "Platform_Version": "4.2"

@@ -7,7 +7,6 @@
   "userAgents": [
     {
       "userAgent": "IEMobile #MAJORVER#.#MINORVER#",
-      "platform": "WinMobile",
       "engine": "Trident_3_1",
       "device": "general Mobile Phone",
       "properties": {

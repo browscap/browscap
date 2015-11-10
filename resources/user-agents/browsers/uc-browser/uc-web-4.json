@@ -33,6 +33,12 @@
           "platforms": [
             "WinPhone8.1_B"
           ]
+        },
+        {
+          "match": "UCWEB\/*(#PLATFORM#) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "platforms": [
+            "WinPhone8.1_B"
+          ]
         }
       ]
     }

@@ -6238,21 +6238,21 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0(#PLATFORM#NEC-0912 Build\/*)AppleWebKit\/*(KHTML, Like Gecko)Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "Mozilla\/5.0(#PLATFORM#NEC-0912 Build\/*)AppleWebKit\/*(KHTML,*Like Gecko)Version\/#MAJORVER#.#MINORVER#*Safari*",
           "device": "NEC 0912",
           "platforms": [
             "Android_4_0"
           ]
         },
         {
-          "match": "Mozilla\/5.0(#PLATFORM#BLU Studio 5.0 S II Build\/*)AppleWebKit\/*(KHTML,like Gecko)Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "Mozilla\/5.0(#PLATFORM#BLU Studio 5.0 S II Build\/*)AppleWebKit\/*(KHTML,*like Gecko)Version\/#MAJORVER#.#MINORVER#*Safari*",
           "device": "BLU Studio 5.0 S II",
           "platforms": [
             "Android_4_2"
           ]
         },
         {
-          "match": "Mozilla\/5.0(#PLATFORM#)AppleWebKit\/*(KHTML,like Gecko)Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "Mozilla\/5.0(#PLATFORM#)AppleWebKit\/*(KHTML,*like Gecko)Version\/#MAJORVER#.#MINORVER#*Safari*",
           "platforms": [
             "Android_4_0", "Android_4_2", "Android"
           ]

@@ -1022,7 +1022,7 @@
         "Device_Name": "Xperia AX (NTT Docomo)",
         "Device_Maker": "SonyEricsson",
         "Device_Brand_Name": "SonyEricsson",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -2790,7 +2790,7 @@
         "Device_Name": "Galaxy S II",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -3518,7 +3518,7 @@
         "Device_Name": "Galaxy Gio",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -4467,7 +4467,7 @@
         "Device_Name": "GT-E2252",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -8757,7 +8757,7 @@
         "Device_Name": "Galaxy S III (Korea KT)",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -9810,7 +9810,7 @@
         "Device_Name": "XPRT (CDMA)",
         "Device_Maker": "Motorola",
         "Device_Brand_Name": "Motorola",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -12787,7 +12787,7 @@
         "Device_Name": "Eris",
         "Device_Maker": "HTC",
         "Device_Brand_Name": "HTC",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -13957,7 +13957,7 @@
         "Device_Name": "Butterfly S CDMA",
         "Device_Maker": "HTC",
         "Device_Brand_Name": "HTC",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -17870,7 +17870,7 @@
         "Device_Name": "Liquid Metal",
         "Device_Maker": "Acer",
         "Device_Brand_Name": "Acer",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -18442,7 +18442,7 @@
         "Device_Name": "Honor Pro",
         "Device_Maker": "Huawei",
         "Device_Brand_Name": "Huawei",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -28321,7 +28321,7 @@
         "Device_Name": "Curve 9320",
         "Device_Code_Name": "BlackBerry 9320",
         "Device_Maker": "Research In Motion Limited",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "RIM",
         "isMobileDevice": "true",
         "isTablet": "false"
@@ -31415,7 +31415,7 @@
         "Device_Name": "W718",
         "Device_Code_Name": "W718",
         "Device_Maker": "Haier",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Haier",
         "isMobileDevice": "true",
         "isTablet": "false"

@@ -2068,7 +2068,7 @@ return [
             'Device_Name' => 'GT-E2252',
             'Device_Maker' => 'Samsung',
             'Device_Type' => 'Mobile Phone',
-            'Device_Pointing_Method' => 'unknown',
+            'Device_Pointing_Method' => 'touchscreen',
             'Device_Code_Name' => 'GT-E2252',
             'Device_Brand_Name' => 'Samsung',
             'RenderingEngine_Name' => 'Presto',

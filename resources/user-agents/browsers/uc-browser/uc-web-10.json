@@ -848,7 +848,7 @@
           "match": "UCWEB\/2.0 (Linux; U; Opera Mini\/*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
           "engine": "U2",
           "platforms": [
-            "Android_4_2"
+            "Android_4_2", "Android"
           ]
         },
         {
