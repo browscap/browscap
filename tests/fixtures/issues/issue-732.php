@@ -3831,7 +3831,7 @@ return [
             'Device_Name' => 'A238t',
             'Device_Maker' => 'Lenovo',
             'Device_Type' => 'Mobile Phone',
-            'Device_Pointing_Method' => 'unknown',
+            'Device_Pointing_Method' => 'touchscreen',
             'Device_Code_Name' => 'A238t',
             'Device_Brand_Name' => 'Lenovo',
             'RenderingEngine_Name' => 'U3',
@@ -8359,7 +8359,7 @@ return [
             'RenderingEngine_Maker' => 'UC Web',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-732-HE' => [
         'Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A319 Build/MocorDroid4.4.2) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 Mobile UCBrowser/3.4.3.532',

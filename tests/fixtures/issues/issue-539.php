@@ -341,7 +341,7 @@ return [
             'Device_Name' => 'GT-E2252',
             'Device_Maker' => 'Samsung',
             'Device_Type' => 'Mobile Phone',
-            'Device_Pointing_Method' => 'touchscreen',
+            'Device_Pointing_Method' => 'unknown',
             'Device_Code_Name' => 'GT-E2252',
             'Device_Brand_Name' => 'Samsung',
             'RenderingEngine_Name' => 'WebKit',
@@ -349,7 +349,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-539-M' => [
         'MetaInspector/3.0.0 (+https://github.com/jaimeiniesta/metainspector)',

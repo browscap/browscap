@@ -1391,13 +1391,6 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Nexus 5 Build\/*) AppleWebKit\/* (KHTML, like Gecko*) Chrome\/#MAJORVER#.*Safari\/*",
-          "device": "LG Nexus 5",
-          "platforms": [
-            "Android_4_2", "Android_4_3", "Android_4_4", "Android_5_0"
-          ]
-        },
-        {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I9515* Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "device": "Samsung GT-I9515",
           "platforms": [
@@ -2295,7 +2288,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#TWZ A49 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "device": "Wexler TABA742",
+          "device": "TWZ A49",
           "platforms": [
             "Android_4_2"
           ]
@@ -3980,6 +3973,20 @@
             "Android_2_0", "Android_2_1", "Android_2_2", "Android_2_3",
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3",
             "Android_4_4", "Android_5_0", "Android_5_1",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#Nexus 5 Build\/*) AppleWebKit\/* (KHTML, like Gecko*) Chrome\/#MAJORVER#.*Safari\/*",
+          "device": "LG Nexus 5",
+          "platforms": [
+            "Android_4_2", "Android_4_3", "Android_4_4", "Android_5_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko*) Chrome\/#MAJORVER#.*Safari\/*",
+          "platforms": [
+            "Android_4_2", "Android_4_3", "Android_4_4", "Android_5_0", "Android_5_1",
             "Android"
           ]
         },
