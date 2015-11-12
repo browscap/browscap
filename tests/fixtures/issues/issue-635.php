@@ -12830,7 +12830,7 @@ return [
             'RenderingEngine_Maker' => 'Baidu',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-LU' => [
         'Mozilla/5.0 (Linux; Android 4.4.3; CM on rk31board Build/KTU84M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 YaBrowser/15.2.2214.3725.01 Safari/537.36',
@@ -24413,7 +24413,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-XI' => [
         'Mozilla/5.0 (Linux; Android 5.0.1; GT-I9506 Build/LRX22C) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/40.0.0.0 Mobile Safari/537.36 Flipboard/3.2.1-go/2610,3.2.1-go.2610,2015-04-01 03:03, +0500, ru',
@@ -26441,7 +26441,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => true,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-635-ZI' => [
         'Mozilla/5.0 (Linux; Android 4.4.4; GT-N7105 Build/KTU84Q) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 YaBrowser/15.2.2214.3725.00 Mobile Safari/537.36',
