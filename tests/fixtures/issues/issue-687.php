@@ -857,7 +857,7 @@ return [
             'RenderingEngine_Maker' => 'UC Web',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-687-Y' => [
         'Nokia308/2.0 (08.13) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; Nokia308) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
@@ -1248,7 +1248,7 @@ return [
             'RenderingEngine_Maker' => 'UC Web',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-687-AI' => [
         'Nokia311/5.0 (07.36) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; Nokia311) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
@@ -1404,7 +1404,7 @@ return [
             'RenderingEngine_Maker' => 'UC Web',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-687-AM' => [
         'Mozilla/5.0 (Windows NT 6.1; WOW64) SkypeUriPreview Preview/0.5',
@@ -1950,7 +1950,7 @@ return [
             'RenderingEngine_Maker' => 'UC Web',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-687-BA' => [
         'Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.114 Safari/537.36 Puffin/4.4.0IP ',
@@ -1989,7 +1989,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
     ],
     'issue-687-BB' => [
         'NokiaX3-02/5.0 (07.51) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; NokiaX3-02) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',

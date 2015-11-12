@@ -1822,7 +1822,7 @@ return [
             'MajorVer' => '3',
             'MinorVer' => '21',
             'Platform' => 'Android',
-            'Platform_Version' => '4.0',
+            'Platform_Version' => 'unknown',
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Google Inc',
             'isMobileDevice' => true,

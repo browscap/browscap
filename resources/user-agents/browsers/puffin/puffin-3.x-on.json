@@ -42,7 +42,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) *Chrome\/* Safari\/* Puffin\/#MAJORVER#.#MINORVER#*AP*",
           "platforms": [
-            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
+            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android"
           ]
         },
         {
@@ -69,6 +69,14 @@
         {
           "match": "Mozilla\/5.0 (*Linux x86_64*) AppleWebKit\/* (KHTML, like Gecko) *Chrome\/* Safari\/* Puffin\/#MAJORVER#.#MINORVER#*IT*",
           "device": "iPad",
+          "engine": "WebKit",
+          "platforms": [
+            "iOS"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (*Linux x86_64*) AppleWebKit\/* (KHTML, like Gecko) *Chrome\/* Safari\/* Puffin\/#MAJORVER#.#MINORVER#*I?*",
+          "device": "general Mobile Device (Apple)",
           "engine": "WebKit",
           "platforms": [
             "iOS"

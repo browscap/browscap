@@ -428,7 +428,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-765-M' => [
         'Pinterest/3356 CFNetwork/711.0.6 Darwin/14.0.0',
