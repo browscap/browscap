@@ -192,7 +192,7 @@ return [
             'MajorVer' => '0',
             'MinorVer' => '0',
             'Platform' => 'WinPhone7.10',
-            'Platform_Version' => '7.0',
+            'Platform_Version' => '7.10',
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Microsoft Corporation',
             'isMobileDevice' => true,
