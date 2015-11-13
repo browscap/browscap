@@ -29329,7 +29329,7 @@
       }
     },
     "NEC N905i": {
-      "standard": false,
+      "standard": true,
       "properties": {
         "Device_Type": "Mobile Phone",
         "Device_Name": "N905i",
