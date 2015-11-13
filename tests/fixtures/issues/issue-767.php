@@ -545,7 +545,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-767-O' => [
         '[FBAN/FB4A;FBAV/3.6;FBBV/330148;FBDM/{density=0.75,width=240,height=320};FBLC/de_DE;FBCR/o2 - de;FBPN/com.facebook.katana;FBDV/GT-S5570;FBSV/2.2.1;FBCA/armeabi:unknown;]',

@@ -69,6 +69,9 @@
           "match": "Mozilla\/?.0 (compatible; MSIE 9.?; *Trident\/?.0; Windows *"
         },
         {
+          "match": "Mozilla\/5.0 (compatible; MSIE 9.0; Windows NT 7.1; Trident\/?.0*"
+        },
+        {
           "match": "Mozilla\/?.0 (compatible; MSIE ?.0; Windows NT 7.1; Trident\/?.0*"
         },
         {

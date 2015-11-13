@@ -29342,7 +29342,7 @@
       }
     },
     "NEC N505i": {
-      "standard": false,
+      "standard": true,
       "properties": {
         "Device_Type": "Mobile Phone",
         "Device_Name": "N505i",
@@ -31448,7 +31448,7 @@
       }
     },
     "DoCoMo P900i": {
-      "standard": false,
+      "standard": true,
       "properties": {
         "Device_Type": "Mobile Phone",
         "Device_Name": "P900i",
