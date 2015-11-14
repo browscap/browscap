@@ -2,6 +2,7 @@
   "division": "HubSpot Webcrawler",
   "sortIndex": 1101,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "HubSpot Webcrawler",

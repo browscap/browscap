@@ -1,0 +1,31 @@
+{
+  "division": "fr-crawler",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "fr-crawler",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "fr-crawler",
+        "Browser": "fr-crawler",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (compatible; fr-crawler\/1.1*",
+          "properties": {
+            "Version": "1.1",
+            "MajorVer": "1",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; fr-crawler\/*"
+        }
+      ]
+    }
+  ]
+}

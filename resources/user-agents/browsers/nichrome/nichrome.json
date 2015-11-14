@@ -3,6 +3,7 @@
   "versions": [33],
   "sortIndex": 1070,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Nichrome Browser #MAJORVER#.#MINORVER#",

@@ -2,6 +2,7 @@
   "division": "ccWAP",
   "sortIndex": 2590,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "ccWAP",

@@ -3,6 +3,7 @@
   "versions": [2, 1],
   "sortIndex": 1940,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "WebKit\/webOS #MAJORVER#.#MINORVER#",

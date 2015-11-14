@@ -2,6 +2,7 @@
   "division": "Baidu",
   "sortIndex": 1067,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Baidu",

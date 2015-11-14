@@ -3,6 +3,7 @@
   "versions": [1],
   "sortIndex": 730,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "iOS dataaccessd #MAJORVER#.#MINORVER#",

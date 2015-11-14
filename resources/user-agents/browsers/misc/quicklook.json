@@ -2,6 +2,7 @@
   "division": "QuickLook",
   "sortIndex": 9870,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "QuickLook",

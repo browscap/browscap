@@ -2,6 +2,7 @@
   "division": "Epiphany",
   "sortIndex": 1944,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Epiphany",

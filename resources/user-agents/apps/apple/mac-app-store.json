@@ -2,6 +2,7 @@
   "division": "MacAppStore",
   "sortIndex": 6361,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "MacAppStore",

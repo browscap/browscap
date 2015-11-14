@@ -3,6 +3,7 @@
   "versions": [2],
   "sortIndex": 1028,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Sogou Explorer #MAJORVER#.#MINORVER#",

@@ -3,6 +3,7 @@
   "versions": [2],
   "sortIndex": 945,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Maxthon #MAJORVER#.#MINORVER#",

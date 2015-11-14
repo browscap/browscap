@@ -3,6 +3,7 @@
   "versions": [5],
   "sortIndex": 3085,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Thunderbird #MAJORVER#.#MINORVER#",

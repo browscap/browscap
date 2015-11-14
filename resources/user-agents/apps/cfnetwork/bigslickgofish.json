@@ -2,6 +2,7 @@
   "division": "BigSlickGoFish",
   "sortIndex": 2320,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "BigSlickGoFish",

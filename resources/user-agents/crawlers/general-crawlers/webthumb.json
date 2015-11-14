@@ -1,0 +1,42 @@
+{
+  "division": "WebThumb",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "WebThumb",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "WebThumb",
+        "Browser": "WebThumb",
+        "Browser_Maker": "Boutell.Com, Inc.",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM# rv:1.9.2*) Gecko WebThumb\/1.0*",
+          "engine": "Gecko_1_9_2",
+          "device": "Linux Desktop",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          },
+          "platforms": [
+            "Linux_32_on_x64_2", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM# rv:1.9.2*) Gecko WebThumb\/*",
+          "engine": "Gecko_1_9_2",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_32_on_x64_2", "Linux"
+          ]
+        }
+      ]
+    }
+  ]
+}

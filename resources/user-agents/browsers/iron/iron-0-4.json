@@ -1,15 +1,17 @@
 {
-  "division": "Iron 0.4",
+  "division": "Iron #MAJORVER#.#MINORVER#",
+  "versions": ["0.4"],
   "sortIndex": 1131,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
-      "userAgent": "Iron 0.4",
+      "userAgent": "Iron #MAJORVER#.#MINORVER#",
       "engine": "WebKit",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Iron 0.4",
+        "Comment": "Iron #MAJORVER#.#MINORVER#",
         "Browser": "Iron",
         "Browser_Type": "Browser",
         "Browser_Maker": "SRWare",
@@ -20,12 +22,13 @@
         "Cookies": "true",
         "JavaScript": "true",
         "CssVersion": "1",
-        "Version": "0.4",
-        "MinorVer": "4"
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#"
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Iron\/0.4*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Iron\/#MAJORVER#.#MINORVER#*Safari\/*",
           "platforms": [
             "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32"
           ]

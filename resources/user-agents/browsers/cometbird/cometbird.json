@@ -3,6 +3,7 @@
   "versions": [11, 10, 7],
   "sortIndex": 3256,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "CometBird #MAJORVER#.#MINORVER#",

@@ -3,6 +3,7 @@
   "versions": [5, 4],
   "sortIndex": 3142,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Fennec #MAJORVER#.#MINORVER#",

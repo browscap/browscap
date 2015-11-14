@@ -3,6 +3,7 @@
   "versions": ["3.5"],
   "sortIndex": 3167,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Firefox #MAJORVER#.#MINORVER#",

@@ -2,6 +2,7 @@
   "division": "Screaming Frog SEO Spider General",
   "sortIndex": 249,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Screaming Frog SEO Spider General",

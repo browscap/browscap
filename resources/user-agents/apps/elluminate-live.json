@@ -2,6 +2,7 @@
   "division": "Elluminate Live",
   "sortIndex": 1186,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Elluminate Live",

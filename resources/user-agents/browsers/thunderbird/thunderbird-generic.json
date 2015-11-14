@@ -2,6 +2,7 @@
   "division": "Thunderbird Generic",
   "sortIndex": 3087,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Thunderbird Generic",

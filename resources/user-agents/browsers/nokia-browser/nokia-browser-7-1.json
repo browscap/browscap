@@ -3,6 +3,7 @@
   "versions": ["7.1"],
   "sortIndex": 1790,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Nokia Browser #MAJORVER#.#MINORVER#",

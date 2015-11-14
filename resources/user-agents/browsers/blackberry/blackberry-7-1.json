@@ -1,16 +1,18 @@
 {
-  "division": "BlackBerry 7.1",
+  "division": "BlackBerry #MAJORVER#.#MINORVER#",
+  "versions": ["7.1"],
   "sortIndex": 2362,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
-      "userAgent": "BlackBerry 7.1",
-      "platform": "RIMOS_7_1",
+      "userAgent": "BlackBerry #MAJORVER#.#MINORVER#",
+      "platform": "RIMOS_Dynamic",
       "engine": "WebKit",
       "device": "general Mobile Phone (old Blackberry)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "BlackBerry 7.1",
+        "Comment": "BlackBerry #MAJORVER#.#MINORVER#",
         "Browser": "BlackBerry",
         "Browser_Type": "Browser",
         "Browser_Maker": "Research In Motion Limited",
@@ -20,117 +22,117 @@
         "Cookies": "true",
         "JavaScript": "true",
         "CssVersion": "2",
-        "Version": "7.1",
-        "MajorVer": "7",
-        "MinorVer": "1"
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#"
       },
       "children": [
         {
-          "match": "Blackberry9800\/7.1*",
+          "match": "Blackberry9800\/#MAJORVER#.#MINORVER#*",
           "device": "Blackberry 9800"
         },
         {
-          "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9105*AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.1*Safari\/*",
+          "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9105*AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "device": "Blackberry 9105"
         },
         {
-          "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9300*AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.1*Safari\/*",
+          "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9300*AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "device": "Blackberry 9300"
         },
         {
-          "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9650*AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.1*Safari\/*",
+          "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9650*AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "device": "Blackberry 9650"
         },
         {
-          "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9670*AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.1*Safari\/*",
+          "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9670*AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "device": "Blackberry 9670"
         },
         {
-          "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9700*AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.1*Safari\/*",
+          "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9700*AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "device": "Blackberry 9700"
         },
         {
-          "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9780*AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.1*Safari\/*",
+          "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9780*AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "device": "Blackberry 9780"
         },
         {
-          "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9790*AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.1*Safari\/*",
+          "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9790*AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "device": "Blackberry 9790"
         },
         {
-          "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9800*AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.1*Safari\/*",
+          "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9800*AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "device": "Blackberry 9800"
         },
         {
-          "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9810*AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.1*Safari\/*",
+          "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9810*AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "device": "Blackberry 9810"
         },
         {
-          "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9360; *) AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.1*Safari\/*",
+          "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9360; *) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "device": "Blackberry 9360"
         },
         {
-          "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9380; *) AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.1*Safari\/*",
+          "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9380; *) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "device": "Blackberry 9380"
         },
         {
-          "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9860; *) AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.1*Safari\/*",
+          "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9860; *) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "device": "Blackberry 9860"
         },
         {
-          "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9900; *) AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.1*Safari\/*",
+          "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9900; *) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "device": "Blackberry 9900"
         },
         {
-          "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9930; *) AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.1*Safari\/*",
+          "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9930; *) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "device": "Blackberry 9930"
         },
         {
-          "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9105*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.1*Safari\/*",
+          "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9105*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "device": "Blackberry 9105"
         },
         {
-          "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9300*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.1*Safari\/*",
+          "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9300*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "device": "Blackberry 9300"
         },
         {
-          "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9650*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.1*Safari\/*",
+          "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9650*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "device": "Blackberry 9650"
         },
         {
-          "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9670*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.1*Safari\/*",
+          "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9670*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "device": "Blackberry 9670"
         },
         {
-          "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9700*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.1*Safari\/*",
+          "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9700*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "device": "Blackberry 9700"
         },
         {
-          "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9780*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.1*Safari\/*",
+          "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9780*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "device": "Blackberry 9780"
         },
         {
-          "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9790*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.1*Safari\/*",
+          "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9790*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "device": "Blackberry 9790"
         },
         {
-          "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9800*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.1*Safari\/*",
+          "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9800*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "device": "Blackberry 9800"
         },
         {
-          "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9810*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.1*Safari\/*",
+          "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9810*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "device": "Blackberry 9810"
         },
         {
-          "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9320*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.1*Safari\/*",
+          "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9320*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "device": "Blackberry 9320"
         },
         {
-          "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9220*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.1*Safari\/*",
+          "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry 9220*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "device": "Blackberry 9220"
         },
         {
-          "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/7.1*Safari\/*",
+          "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "device": "general Mobile Phone (Blackberry)"
         }
       ]

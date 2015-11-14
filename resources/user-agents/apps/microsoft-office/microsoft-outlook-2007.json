@@ -1,20 +1,23 @@
 {
-  "division": "Microsoft Outlook 2007",
+  "division": "Microsoft Outlook #MAJORVER#",
+  "versions": [2007],
   "sortIndex": 1653,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
-      "userAgent": "Microsoft Outlook 2007",
+      "userAgent": "Microsoft Outlook #MAJORVER#",
       "engine": "Trident",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Microsoft Outlook 2007",
+        "Comment": "Microsoft Outlook #MAJORVER#",
         "Browser_Type": "Email Client",
         "Browser": "Outlook",
         "Browser_Maker": "Microsoft Corporation",
-        "Version": "2007",
-        "MajorVer": "2007",
+        "Version": "#MAJORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
         "Frames": "true",
         "Tables": "true",
         "CssVersion": "2",

@@ -3,6 +3,7 @@
   "versions": ["3.3"],
   "sortIndex": 1137,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Silk #MAJORVER#.#MINORVER#",

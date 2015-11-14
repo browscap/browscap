@@ -2,6 +2,7 @@
   "division": "OSSProxy",
   "sortIndex": 1010,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "OSSProxy",

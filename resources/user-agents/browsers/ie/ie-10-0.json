@@ -1,21 +1,23 @@
 {
-  "division": "IE 10.0",
+  "division": "IE #MAJORVER#.#MINORVER#",
+  "versions": [10],
   "sortIndex": 2761,
   "lite": true,
+  "standard": true,
   "userAgents": [
     {
-      "userAgent": "IE 10.0 for Win RT",
+      "userAgent": "IE #MAJORVER#.#MINORVER# for Win RT",
       "engine": "Trident_6",
       "device": "general Tablet",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "IE 10.0",
+        "Comment": "IE #MAJORVER#.#MINORVER#",
         "Browser": "IE",
         "Browser_Type": "Browser",
         "Browser_Maker": "Microsoft Corporation",
-        "Version": "10.0",
-        "MajorVer": "10",
-        "MinorVer": "0",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
         "Win32": "false",
         "Frames": "true",
         "IFrames": "true",
@@ -26,7 +28,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (*MSIE 10.#PLATFORM#Trident\/6.0*Touch*)*",
+          "match": "Mozilla\/5.0 (*MSIE #MAJORVER#.#MINORVER##PLATFORM#Trident\/6.0*Touch*)*",
           "platforms": [
             "WinRT8_32", "WinRT8_1_32"
           ]
@@ -34,18 +36,18 @@
       ]
     },
     {
-      "userAgent": "IE 10.0 for Tablet",
+      "userAgent": "IE #MAJORVER#.#MINORVER# for Tablet",
       "engine": "Trident_6",
       "device": "general Tablet",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "IE 10.0",
+        "Comment": "IE #MAJORVER#.#MINORVER#",
         "Browser": "IE",
         "Browser_Type": "Browser",
         "Browser_Maker": "Microsoft Corporation",
-        "Version": "10.0",
-        "MajorVer": "10",
-        "MinorVer": "0",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
         "Win32": "false",
         "Frames": "true",
         "IFrames": "true",
@@ -56,7 +58,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (*MSIE 10.#PLATFORM#Trident\/6.0*Touch*)*",
+          "match": "Mozilla\/5.0 (*MSIE #MAJORVER#.#MINORVER##PLATFORM#Trident\/6.0*Touch*)*",
           "platforms": [
             "Win8_x64", "Win8_64", "Win8_32",
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
@@ -66,18 +68,18 @@
       ]
     },
     {
-      "userAgent": "IE 10.0 for Desktop",
+      "userAgent": "IE #MAJORVER#.#MINORVER# for Desktop",
       "engine": "Trident_6",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "IE 10.0",
+        "Comment": "IE #MAJORVER#.#MINORVER#",
         "Browser": "IE",
         "Browser_Type": "Browser",
         "Browser_Maker": "Microsoft Corporation",
-        "Version": "10.0",
-        "MajorVer": "10",
-        "MinorVer": "0",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
         "Beta": "true",
         "Win32": "false",
         "Frames": "true",
@@ -89,7 +91,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (*MSIE 10.#PLATFORM#Trident\/6.0*Xbox; Xbox One*)*",
+          "match": "Mozilla\/5.0 (*MSIE #MAJORVER#.#MINORVER##PLATFORM#Trident\/6.0*Xbox; Xbox One*)*",
           "device": "Microsoft Xbox One",
           "platforms": [
             "Win8_x64", "Win8_64", "Win8_32",
@@ -97,7 +99,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (*MSIE 10.#PLATFORM#Trident\/6.0*)*",
+          "match": "Mozilla\/5.0 (*MSIE #MAJORVER#.#MINORVER##PLATFORM#Trident\/6.0*)*",
           "platforms": [
             "WinXPa_64", "WinXPa_32",
             "Vista_64", "Vista_32",
@@ -109,7 +111,7 @@
         {
           "match": "Mozilla\/5.0 (compatible; MSIE 9.#PLATFORM#Trident\/6.0*)*",
           "properties": {
-            "Comment": "IE 10.0 in IE 9.0 Compatibility Mode",
+            "Comment": "IE #MAJORVER#.#MINORVER# in IE 9.0 Compatibility Mode",
             "Browser_Modus": "IE 9.0 Compatibility Mode"
           },
           "platforms": [
@@ -123,7 +125,7 @@
         {
           "match": "Mozilla\/4.0 (compatible; MSIE 8.#PLATFORM#Trident\/6.0*)*",
           "properties": {
-            "Comment": "IE 10.0 in IE 8.0 Compatibility Mode",
+            "Comment": "IE #MAJORVER#.#MINORVER# in IE 8.0 Compatibility Mode",
             "Browser_Modus": "IE 8.0 Compatibility Mode"
           },
           "platforms": [
@@ -137,7 +139,7 @@
         {
           "match": "Mozilla\/5.0 (compatible; MSIE 8.#PLATFORM#Trident\/6.0*)*",
           "properties": {
-            "Comment": "IE 10.0 in IE 8.0 Compatibility Mode",
+            "Comment": "IE #MAJORVER#.#MINORVER# in IE 8.0 Compatibility Mode",
             "Browser_Modus": "IE 8.0 Compatibility Mode"
           },
           "platforms": [
@@ -151,7 +153,7 @@
         {
           "match": "Mozilla\/4.0 (compatible; MSIE 7.#PLATFORM#Trident\/6.0*)*",
           "properties": {
-            "Comment": "IE 10.0 in IE 7.0 Compatibility Mode",
+            "Comment": "IE #MAJORVER#.#MINORVER# in IE 7.0 Compatibility Mode",
             "Browser_Modus": "IE 7.0 Compatibility Mode"
           },
           "platforms": [
@@ -165,7 +167,7 @@
         {
           "match": "Mozilla\/5.0 (compatible; MSIE 7.#PLATFORM#Trident\/6.0*)*",
           "properties": {
-            "Comment": "IE 10.0 in IE 7.0 Compatibility Mode",
+            "Comment": "IE #MAJORVER#.#MINORVER# in IE 7.0 Compatibility Mode",
             "Browser_Modus": "IE 7.0 Compatibility Mode"
           },
           "platforms": [
@@ -179,7 +181,7 @@
         {
           "match": "Mozilla\/4.0 (*MSIE 7.*Trident\/6.0*)*",
           "properties": {
-            "Comment": "IE 10.0 in IE 7.0 Compatibility Mode",
+            "Comment": "IE #MAJORVER#.#MINORVER# in IE 7.0 Compatibility Mode",
             "Browser_Modus": "IE 7.0 Compatibility Mode"
           },
           "platforms": [
@@ -189,7 +191,7 @@
         {
           "match": "Mozilla\/5.0 (*MSIE 7.*Trident\/6.0*)*",
           "properties": {
-            "Comment": "IE 10.0 in IE 7.0 Compatibility Mode",
+            "Comment": "IE #MAJORVER#.#MINORVER# in IE 7.0 Compatibility Mode",
             "Browser_Modus": "IE 7.0 Compatibility Mode"
           },
           "platforms": [
@@ -197,7 +199,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible; MSIE 10.0; Windows 95; Anonymisiert*Trident\/6.0*)*",
+          "match": "Mozilla\/5.0 (compatible; MSIE #MAJORVER#.#MINORVER#; Windows 95; Anonymisiert*Trident\/6.0*)*",
           "platforms": [
             "Win8_32"
           ]

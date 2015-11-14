@@ -2,6 +2,7 @@
   "division": "Kazehakase Generic",
   "sortIndex": 2461,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Kazehakase Generic",

@@ -3,6 +3,7 @@
   "versions": [2],
   "sortIndex": 2061,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Apple AppStore App #MAJORVER#.#MINORVER#",

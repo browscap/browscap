@@ -3,6 +3,7 @@
   "versions": [17, 16],
   "sortIndex": 1155,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Chrome #MAJORVER#.#MINORVER# for Android",

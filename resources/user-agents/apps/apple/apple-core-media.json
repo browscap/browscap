@@ -3,6 +3,7 @@
   "versions": [1],
   "sortIndex": 2060,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "AppleCoreMedia #MAJORVER#.#MINORVER#",

@@ -2,6 +2,7 @@
   "division": "Download Managers",
   "sortIndex": 340,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Download Managers",

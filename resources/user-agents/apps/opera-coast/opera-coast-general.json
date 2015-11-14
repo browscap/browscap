@@ -2,6 +2,7 @@
   "division": "Coast",
   "sortIndex": 1946,
   "lite": true,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Coast",

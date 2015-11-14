@@ -2,6 +2,7 @@
   "division": "Facebook App Generic",
   "sortIndex": 953,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Facebook App Generic for iOS",

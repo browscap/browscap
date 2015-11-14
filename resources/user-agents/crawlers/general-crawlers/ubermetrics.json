@@ -2,6 +2,7 @@
   "division": "uMBot",
   "sortIndex": 661,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "uMBot",

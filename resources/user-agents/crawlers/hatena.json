@@ -2,6 +2,7 @@
   "division": "Hatena",
   "sortIndex": 270,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Hatena",

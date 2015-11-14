@@ -3,6 +3,7 @@
   "versions": ["6.1"],
   "sortIndex": 1962,
   "lite": true,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Mobile Safari #MAJORVER#.#MINORVER#",

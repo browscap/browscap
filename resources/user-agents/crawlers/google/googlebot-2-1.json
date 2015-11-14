@@ -3,6 +3,7 @@
   "versions": ["2.1"],
   "sortIndex": 1145,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Googlebot #MAJORVER#.#MINORVER#",

@@ -1,17 +1,18 @@
 {
-  "division": "IEMobile 4.01",
+  "division": "IEMobile #MAJORVER#.#MINORVER#",
+  "versions": ["4.01"],
   "sortIndex": 1723,
   "lite": false,
   "standard": false,
   "userAgents": [
     {
-      "userAgent": "IEMobile 4.01",
+      "userAgent": "IEMobile #MAJORVER#.#MINORVER#",
       "platform": "WinCE",
       "engine": "Trident_3_1",
       "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "IEMobile",
+        "Comment": "IEMobile #MAJORVER#.#MINORVER#",
         "Browser": "IEMobile",
         "Frames": "true",
         "IFrames": "true",
@@ -28,365 +29,365 @@
         "Win64": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
-        "Version": "4.01",
-        "MajorVer": "4",
-        "MinorVer": "01"
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#"
       },
       "children": [
         {
-          "match": "AUDIOVOX-SMT5600\/Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE; Smartphone; 176x220)",
+          "match": "AUDIOVOX-SMT5600\/Mozilla\/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; Smartphone; 176x220)",
           "device": "AUDIOVOX SMT5600",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "BenQ P50 Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE*)",
+          "match": "BenQ P50 Mozilla\/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE*)",
           "device": "BenQ P50",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "Dopod565 Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE; Smartphone; 176x220)",
+          "match": "Dopod565 Mozilla\/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; Smartphone; 176x220)",
           "device": "Dopod 565",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "Dopod575 Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE; Smartphone; 176x220)",
+          "match": "Dopod575 Mozilla\/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; Smartphone; 176x220)",
           "device": "Dopod 575",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "Dopod575\/4.21.1088\/WAP1.2 Profile\/MIDP2.0 Configuration\/CLDC1.0\/Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE; Smartphone; 176x220)",
+          "match": "Dopod575\/4.21.1088\/WAP1.2 Profile\/MIDP2.0 Configuration\/CLDC1.0\/Mozilla\/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; Smartphone; 176x220)",
           "device": "Dopod 575",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "Dopod577W\/Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE; Smartphone; 176x220)*",
+          "match": "Dopod577W\/Mozilla\/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; Smartphone; 176x220)*",
           "device": "Dopod 577W",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "Dopod577W\/Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE; Smartphone; 240x320)*",
+          "match": "Dopod577W\/Mozilla\/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; Smartphone; 240x320)*",
           "device": "Dopod 577W",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "Dopod595\/Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE; Smartphone; 240x320)*",
+          "match": "Dopod595\/Mozilla\/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; Smartphone; 240x320)*",
           "device": "Dopod 595",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "Dopod818\/4.21.1088\/WAP1.2 *?Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE; PPC; 240x320)*",
+          "match": "Dopod818\/4.21.1088\/WAP1.2 *?Mozilla\/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; PPC; 240x320)*",
           "device": "Dopod 818",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "Dopod818\/4.21.1088\/WAP1.2 Profile\/MIDP2.0 Configuration\/CLDC1.0 Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE; PPC; 240x320)",
+          "match": "Dopod818\/4.21.1088\/WAP1.2 Profile\/MIDP2.0 Configuration\/CLDC1.0 Mozilla\/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; PPC; 240x320)",
           "device": "Dopod 818",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "Dopod818Pro\/Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE; PPC; 240x320; Dopod818 Pro)*",
+          "match": "Dopod818Pro\/Mozilla\/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; PPC; 240x320; Dopod818 Pro)*",
           "device": "Dopod 818 Pro",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "Dopod838 Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE*)*",
+          "match": "Dopod838 Mozilla\/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE*)*",
           "device": "Dopod 838",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "Dopod838Pro\/Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE*; Dopod838*Pro)*",
+          "match": "Dopod838Pro\/Mozilla\/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE*; Dopod838*Pro)*",
           "device": "Dopod 838 Pro",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "Dopod900 Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE*; Dopod900)",
+          "match": "Dopod900 Mozilla\/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE*; Dopod900)",
           "device": "Dopod 900",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "DopodC700\/Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE*)",
+          "match": "DopodC700\/Mozilla\/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE*)",
           "device": "Dopod C700",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "DopodC720W\/Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE*)",
+          "match": "DopodC720W\/Mozilla\/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE*)",
           "device": "Dopod C720W",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "DopodD810\/Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE*)",
+          "match": "DopodD810\/Mozilla\/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE*)",
           "device": "Dopod D810",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "DopodP800W\/Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE*)",
+          "match": "DopodP800W\/Mozilla\/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE*)",
           "device": "Dopod P800W",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "DopodS300\/Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE*)*",
+          "match": "DopodS300\/Mozilla\/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE*)*",
           "device": "Dopod S300",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "DopodS301\/Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE*)",
+          "match": "DopodS301\/Mozilla\/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE*)",
           "device": "Dopod S301",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "HPiPAQhw6900\/1.0\/Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE*)",
+          "match": "HPiPAQhw6900\/1.0\/Mozilla\/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE*)",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "HTC_P3400-Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE*)",
+          "match": "HTC_P3400-Mozilla\/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE*)",
           "device": "HTC P3400",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "HTC_P4350-Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE; PPC)",
+          "match": "HTC_P4350-Mozilla\/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; PPC)",
           "device": "HTC P4350",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "HTC_Touch2_T3333 Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE*",
+          "match": "HTC_Touch2_T3333 Mozilla\/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE*",
           "device": "HTC T3333",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "LENOVO-ET980\/*\/WAP2.0 *\/ (*compatible*;*MSIE 4.01; Windows CE*)",
+          "match": "LENOVO-ET980\/*\/WAP2.0 *\/ (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE*)",
           "device": "Lenovo ET980",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "MIO8390\/R41 Profile\/MIDP-1.0 MIDP-2.0 Configuration\/CLDC-1.0 (*compatible*;*MSIE 4.01; Windows CE*)",
+          "match": "MIO8390\/R41 Profile\/MIDP-1.0 MIDP-2.0 Configuration\/CLDC-1.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE*)",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "MOT-MPx\/1.0* Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE*",
+          "match": "MOT-MPx\/1.0* Mozilla\/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE*",
           "device": "Motorola MPx",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "MOT-MPx220* (*compatible*;*MSIE 4.01; Windows CE;*",
+          "match": "MOT-MPx220* (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE;*",
           "device": "Motorola MPx220",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "MOT-MPx220\/* Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE*",
+          "match": "MOT-MPx220\/* Mozilla\/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE*",
           "device": "Motorola MPx220",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "MOT-MPx220\/0.3* Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE*",
+          "match": "MOT-MPx220\/0.3* Mozilla\/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE*",
           "device": "Motorola MPx220",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "MOT-MPx220\/1.* Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE*",
+          "match": "MOT-MPx220\/1.* Mozilla\/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE*",
           "device": "Motorola MPx220",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "MOT-MPx220\/3* Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE*",
+          "match": "MOT-MPx220\/3* Mozilla\/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE*",
           "device": "Motorola MPx220",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "MOT-MPx230\/* Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE*",
+          "match": "MOT-MPx230\/* Mozilla\/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE*",
           "device": "Motorola MPx230",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE*",
+          "match": "Mozilla\/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE*",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE; O2 Xda 2mini*",
+          "match": "Mozilla\/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; O2 Xda 2mini*",
           "device": "O2 Xda 2mini",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE; O2 Xda 2s;*",
+          "match": "Mozilla\/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; O2 Xda 2s;*",
           "device": "O2 Xda 2s",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE; O2 Xda II;*",
+          "match": "Mozilla\/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; O2 Xda II;*",
           "device": "O2 Xda II",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE; O2 Xphone II*",
+          "match": "Mozilla\/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; O2 Xphone II*",
           "device": "O2 Xphone II",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE; O2 Xphone*",
+          "match": "Mozilla\/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; O2 Xphone*",
           "device": "O2 Xphone",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE; PPC*)",
+          "match": "Mozilla\/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; PPC*)",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE; Smartphone; 176x220)*",
+          "match": "Mozilla\/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; Smartphone; 176x220)*",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE; Xda neo*)",
+          "match": "Mozilla\/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; Xda neo*)",
           "device": "O2 Xda neo",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "Mozilla\/4.0 MPx (*compatible*;*MSIE 4.01; Windows CE*",
+          "match": "Mozilla\/4.0 MPx (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE*",
           "device": "Motorola MPx",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "SAMSUNG-SGH-I607\/I607FG1 Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE*",
+          "match": "SAMSUNG-SGH-I607\/I607FG1 Mozilla\/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE*",
           "device": "Samsung SGH-I607",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "dopod566\/4.21.1088\/WAP1.2 Profile\/MIDP2.0 Configuration\/CLDC1.0\/Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE*)",
+          "match": "dopod566\/4.21.1088\/WAP1.2 Profile\/MIDP2.0 Configuration\/CLDC1.0\/Mozilla\/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE*)",
           "device": "Dopod 566",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "dopod566\/4.21.1088\/WAP1.2 Profile\/MIDP2.0 Configuration\/CLDC1.0?Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE; Smartphone; 176x220)",
+          "match": "dopod566\/4.21.1088\/WAP1.2 Profile\/MIDP2.0 Configuration\/CLDC1.0?Mozilla\/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; Smartphone; 176x220)",
           "device": "Dopod 566",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "dopod566\/4.21.1088\/WAP1.2 Profile\/MIDP2.0 Configuration\/CLDC1.0?Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE; Smartphone; 240x320)",
+          "match": "dopod566\/4.21.1088\/WAP1.2 Profile\/MIDP2.0 Configuration\/CLDC1.0?Mozilla\/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; Smartphone; 240x320)",
           "device": "Dopod 566",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "dopod586\/4.21.1088\/WAP1.2 Profile\/MIDP2.0 Configuration\/CLDC1.0\/Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE; Smartphone; 176x220)",
+          "match": "dopod586\/4.21.1088\/WAP1.2 Profile\/MIDP2.0 Configuration\/CLDC1.0\/Mozilla\/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; Smartphone; 176x220)",
           "device": "Dopod 586",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "dopod710\/5.1.195\/WAP1.2 Profile\/MIDP2.0 Configuration\/CLDC1.0 Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE; Smartphone; 176x220)",
+          "match": "dopod710\/5.1.195\/WAP1.2 Profile\/MIDP2.0 Configuration\/CLDC1.0 Mozilla\/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; Smartphone; 176x220)",
           "device": "Dopod 710",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "dopod830\/5.1.70\/WAP1.2 Profile\/MIDP2.0 Configuration\/CLDC1.0 Mozilla\/4.0 (*compatible*;*MSIE 4.01; Windows CE; PPC; 240x320)",
+          "match": "dopod830\/5.1.70\/WAP1.2 Profile\/MIDP2.0 Configuration\/CLDC1.0 Mozilla\/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; PPC; 240x320)",
           "device": "Dopod 830",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "dopod838\/5.1.65\/WAP1.2 Profile\/MIDP2.0 Configuration\/CLDC1.0 (*compatible*;*MSIE 4.01; Windows CE*)",
+          "match": "dopod838\/5.1.65\/WAP1.2 Profile\/MIDP2.0 Configuration\/CLDC1.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE*)",
           "device": "Dopod 838",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "htc900\/ (*compatible*;*MSIE 4.01; Windows CE*)",
+          "match": "htc900\/ (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE*)",
           "device": "HTC 900",
           "platforms": [
             "WinCE"

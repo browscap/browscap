@@ -1,0 +1,30 @@
+{
+  "division": "WebCrawler",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "WebCrawler",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "WebCrawler",
+        "Browser": "WebCrawler",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "WebCrawler_1.*",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1"
+          }
+        },
+        {
+          "match": "WebCrawler_*"
+        }
+      ]
+    }
+  ]
+}

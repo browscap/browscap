@@ -2,6 +2,7 @@
   "division": "Silk Generic",
   "sortIndex": 1141,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Silk Generic",

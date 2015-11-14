@@ -3,6 +3,7 @@
   "versions": ["10.3", "10.2", "10.1"],
   "sortIndex": 2360,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "BlackBerry #MAJORVER#.#MINORVER#",

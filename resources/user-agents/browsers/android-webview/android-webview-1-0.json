@@ -3,6 +3,7 @@
   "versions": [1],
   "sortIndex": 956,
   "lite": true,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Android WebView #MAJORVER#.#MINORVER#",

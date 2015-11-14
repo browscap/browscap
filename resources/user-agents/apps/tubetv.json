@@ -2,6 +2,7 @@
   "division": "TubeTV",
   "sortIndex": 1188,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "TubeTV",

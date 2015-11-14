@@ -3,6 +3,7 @@
   "versions": [6],
   "sortIndex": 7802,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Netscape #MAJORVER#.#MINORVER#",

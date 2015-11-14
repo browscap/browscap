@@ -3,6 +3,7 @@
   "versions": ["6.1"],
   "sortIndex": 1975,
   "lite": true,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Safari #MAJORVER#.#MINORVER#",

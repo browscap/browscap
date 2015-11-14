@@ -3,6 +3,7 @@
   "versions": ["0.5"],
   "sortIndex": 1240,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "SkypeUriPreview #MAJORVER#.#MINORVER#",

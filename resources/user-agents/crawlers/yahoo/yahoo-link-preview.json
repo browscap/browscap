@@ -2,6 +2,7 @@
   "division": "Yahoo Link Preview",
   "sortIndex": 1331,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Yahoo Link Preview",

@@ -2,6 +2,7 @@
   "division": "Gigabot",
   "sortIndex": 160,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Gigabot",

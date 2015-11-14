@@ -2,6 +2,7 @@
   "division": "findlinks",
   "sortIndex": 440,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "findlinks",

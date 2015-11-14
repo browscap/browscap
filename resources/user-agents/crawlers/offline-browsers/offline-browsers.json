@@ -2,6 +2,7 @@
   "division": "Offline Browsers",
   "sortIndex": 440,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Offline Browsers",

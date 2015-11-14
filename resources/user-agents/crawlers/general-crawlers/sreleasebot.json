@@ -1,0 +1,32 @@
+{
+  "division": "sReleaseBot",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "sReleaseBot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "sReleaseBot",
+        "Browser": "sReleaseBot",
+        "Browser_Maker": "srelease.com",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (compatible; sReleaseBot\/6.1*",
+          "properties": {
+            "Version": "6.1",
+            "MajorVer": "6",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; sReleaseBot\/*"
+        }
+      ]
+    }
+  ]
+}

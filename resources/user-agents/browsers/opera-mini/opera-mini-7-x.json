@@ -3,6 +3,7 @@
   "versions": ["7.6", "7.5", "7.4", "7.3", "7.2", "7.1", "7.0"],
   "sortIndex": 1932,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Opera Mini #MAJORVER#.#MINORVER#",

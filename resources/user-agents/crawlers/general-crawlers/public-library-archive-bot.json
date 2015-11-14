@@ -1,0 +1,32 @@
+{
+  "division": "publiclibraryarchive Bot",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "publiclibraryarchive Bot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "publiclibraryarchive Bot",
+        "Browser": "publiclibraryarchive Bot",
+        "Browser_Maker": "publiclibraryarchive.org",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (compatible; publiclibraryarchive.org\/1.0*",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; publiclibraryarchive.org\/*"
+        }
+      ]
+    }
+  ]
+}

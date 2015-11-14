@@ -2,6 +2,7 @@
   "division": "Sony",
   "sortIndex": 10650,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Sony",

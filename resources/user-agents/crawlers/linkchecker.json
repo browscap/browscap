@@ -2,6 +2,7 @@
   "division": "LinkChecker",
   "sortIndex": 670,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "LinkChecker",

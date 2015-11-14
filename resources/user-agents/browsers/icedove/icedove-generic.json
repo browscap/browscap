@@ -2,6 +2,7 @@
   "division": "Icedove Generic",
   "sortIndex": 5402,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Icedove Generic",

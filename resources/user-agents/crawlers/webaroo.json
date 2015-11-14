@@ -2,6 +2,7 @@
   "division": "Webaroo",
   "sortIndex": 300,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Webaroo",

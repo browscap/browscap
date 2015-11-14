@@ -2,6 +2,7 @@
   "division": "iTunes",
   "sortIndex": 6360,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "iTunes",

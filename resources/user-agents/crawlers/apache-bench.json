@@ -2,6 +2,7 @@
   "division": "Apache Bench",
   "sortIndex": 60,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Apache Bench",

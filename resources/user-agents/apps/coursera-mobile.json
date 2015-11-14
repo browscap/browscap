@@ -2,6 +2,7 @@
   "division": "Coursera Mobile App",
   "sortIndex": 2280,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Coursera Mobile App",

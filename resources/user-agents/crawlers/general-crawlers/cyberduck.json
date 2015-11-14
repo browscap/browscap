@@ -2,6 +2,7 @@
   "division": "Cyberduck",
   "sortIndex": 171,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Cyberduck",

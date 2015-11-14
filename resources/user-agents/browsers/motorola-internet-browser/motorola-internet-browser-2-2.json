@@ -1,20 +1,22 @@
 {
-  "division": "Motorola Internet Browser 2.2",
+  "division": "Motorola Internet Browser #MAJORVER#.#MINORVER#",
+  "versions": ["2.2"],
   "sortIndex": 7350,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
-      "userAgent": "Motorola Internet Browser 2.2",
+      "userAgent": "Motorola Internet Browser #MAJORVER#.#MINORVER#",
       "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Motorola Internet Browser 2.2",
+        "Comment": "Motorola Internet Browser #MAJORVER#.#MINORVER#",
         "Browser": "Motorola Internet Browser",
         "Browser_Type": "Browser",
         "Browser_Maker": "Motorola",
-        "Version": "2.2",
-        "MajorVer": "2",
-        "MinorVer": "2",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
@@ -22,18 +24,18 @@
       },
       "children": [
         {
-          "match": "MOT-280\/00.00.00 MIB\/2.2*",
+          "match": "MOT-280\/00.00.00 MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola 280"
         },
         {
-          "match": "MOT-?Hybrid?\/0E.30.1ER MIB\/2.2*"
+          "match": "MOT-?Hybrid?\/0E.30.1ER MIB\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "MOT-A630\/0B.81.* MIB\/2.2 *",
+          "match": "MOT-A630\/0B.81.* MIB\/#MAJORVER#.#MINORVER# *",
           "device": "Motorola A630"
         },
         {
-          "match": "MOT-A728\/* MIB\/2.2 *",
+          "match": "MOT-A728\/* MIB\/#MAJORVER#.#MINORVER# *",
           "device": "Motorola A728"
         },
         {
@@ -65,139 +67,139 @@
           "device": "Motorola A768i"
         },
         {
-          "match": "MOT-A835\/7?.* MIB\/2.2 *",
+          "match": "MOT-A835\/7?.* MIB\/#MAJORVER#.#MINORVER# *",
           "device": "Motorola A835"
         },
         {
-          "match": "MOT-A845\/74.07.* MIB\/2.2*",
+          "match": "MOT-A845\/74.07.* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola A845"
         },
         {
-          "match": "MOT-C380\/0B.D?.* MIB\/2.2*",
+          "match": "MOT-C380\/0B.D?.* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola C380"
         },
         {
-          "match": "MOT-C381\/0B.* MIB\/2.2*",
+          "match": "MOT-C381\/0B.* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola C381"
         },
         {
-          "match": "MOT-C381p\/0B.* MIB\/2.2*",
+          "match": "MOT-C381p\/0B.* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola C381p"
         },
         {
-          "match": "MOT-C385\/0B.D* MIB\/2.2*",
+          "match": "MOT-C385\/0B.D* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola C385"
         },
         {
-          "match": "MOT-C390\/0B.A0.* MIB\/2.2*",
+          "match": "MOT-C390\/0B.A0.* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola C390"
         },
         {
-          "match": "MOT-C450\/0A.03.* MIB\/2.2 *",
+          "match": "MOT-C450\/0A.03.* MIB\/#MAJORVER#.#MINORVER# *",
           "device": "Motorola C450"
         },
         {
-          "match": "MOT-C450\/0A.04.* MIB\/2.2 *",
+          "match": "MOT-C450\/0A.04.* MIB\/#MAJORVER#.#MINORVER# *",
           "device": "Motorola C450"
         },
         {
-          "match": "MOT-C550\/0A.10.* MIB\/2.2 *",
+          "match": "MOT-C550\/0A.10.* MIB\/#MAJORVER#.#MINORVER# *",
           "device": "Motorola C550"
         },
         {
-          "match": "MOT-C650\/0B.D* MIB\/2.2*",
+          "match": "MOT-C650\/0B.D* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola C650"
         },
         {
-          "match": "MOT-C650\/0B.D2.* MIB\/2.2*",
+          "match": "MOT-C650\/0B.D2.* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola C650"
         },
         {
-          "match": "MOT-C975\/8* MIB\/2.2*",
+          "match": "MOT-C975\/8* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola C975"
         },
         {
-          "match": "MOT-C980\/80.2E.2A. MIB\/2.2*",
+          "match": "MOT-C980\/80.2E.2A. MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola C980"
         },
         {
-          "match": "MOT-Canary\/SJUG1361AA 08.02.27I\/* MIB\/BER2.2 *",
+          "match": "MOT-Canary\/SJUG1361AA 08.0#MAJORVER#.#MINORVER#7I\/* MIB\/BER#MAJORVER#.#MINORVER# *",
           "device": "Motorola Canary"
         },
         {
-          "match": "MOT-E1 iTunes\/0E.30.* MIB\/2.2*",
+          "match": "MOT-E1 iTunes\/0E.30.* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola E1 iTunes"
         },
         {
-          "match": "MOT-E1 iTunes\/0E.30.44R MIB\/2.2*",
+          "match": "MOT-E1 iTunes\/0E.30.44R MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola E1 iTunes"
         },
         {
-          "match": "MOT-E1000\/8* MIB\/2.2*",
+          "match": "MOT-E1000\/8* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola E1000"
         },
         {
-          "match": "MOT-E1000M\/8* MIB\/2.2*",
+          "match": "MOT-E1000M\/8* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola E1000M"
         },
         {
-          "match": "MOT-E1070\/85.* MIB\/BER2.2 *",
+          "match": "MOT-E1070\/85.* MIB\/BER#MAJORVER#.#MINORVER# *",
           "device": "Motorola E1070"
         },
         {
-          "match": "MOT-E375\/0E.23.* MIB\/2.2*",
+          "match": "MOT-E375\/0E.23.* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola E375"
         },
         {
-          "match": "MOT-E380\/0A.0* MIB\/2.2 *",
+          "match": "MOT-E380\/0A.0* MIB\/#MAJORVER#.#MINORVER# *",
           "device": "Motorola E380"
         },
         {
-          "match": "MOT-E398 ROKR\/0E.30.4* MIB\/2.2*",
+          "match": "MOT-E398 ROKR\/0E.30.4* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola E398"
         },
         {
-          "match": "MOT-E398\/0E.* MIB\/2.2*",
+          "match": "MOT-E398\/0E.* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola E398"
         },
         {
-          "match": "MOT-E398B\/0E.* MIB\/2.2*",
+          "match": "MOT-E398B\/0E.* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola E398B"
         },
         {
-          "match": "MOT-E550\/08.83.* MIB\/2.2*",
+          "match": "MOT-E550\/08.83.* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola E550"
         },
         {
-          "match": "MOT-E550\/0E.6* MIB\/2.2*",
+          "match": "MOT-E550\/0E.6* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola E550"
         },
         {
-          "match": "MOT-E680\/R51_G_0F.* MIB\/2.2 *",
+          "match": "MOT-E680\/R51_G_0F.* MIB\/#MAJORVER#.#MINORVER# *",
           "device": "Motorola E680"
         },
         {
-          "match": "MOT-E770\/85.8* MIB\/BER2.2 *",
+          "match": "MOT-E770\/85.8* MIB\/BER#MAJORVER#.#MINORVER# *",
           "device": "Motorola E770"
         },
         {
-          "match": "MOT-E770\/85.9* MIB\/BER2.2 *",
+          "match": "MOT-E770\/85.9* MIB\/BER#MAJORVER#.#MINORVER# *",
           "device": "Motorola E770"
         },
         {
-          "match": "MOT-E770v\/85.* MIB\/BER2.2 *",
+          "match": "MOT-E770v\/85.* MIB\/BER#MAJORVER#.#MINORVER# *",
           "device": "Motorola E770v"
         },
         {
-          "match": "MOT-E770v\/85.8* MIB\/BER2.2 *",
+          "match": "MOT-E770v\/85.8* MIB\/BER#MAJORVER#.#MINORVER# *",
           "device": "Motorola E770v"
         },
         {
-          "match": "MOT-E770v\/85.92.701 MIB\/BER2.2 *",
+          "match": "MOT-E770v\/85.92.701 MIB\/BER#MAJORVER#.#MINORVER# *",
           "device": "Motorola E770v"
         },
         {
-          "match": "MOT-E790\/0E.30.34R MIB\/2.2*",
+          "match": "MOT-E790\/0E.30.34R MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola E790"
         },
         {
@@ -205,203 +207,203 @@
           "device": "Motorola E8"
         },
         {
-          "match": "MOT-E825\/03.* MIB\/BER2.2 *",
+          "match": "MOT-E825\/03.* MIB\/BER#MAJORVER#.#MINORVER# *",
           "device": "Motorola E825"
         },
         {
-          "match": "MOT-K1\/* MIB\/BER2.2 *",
+          "match": "MOT-K1\/* MIB\/BER#MAJORVER#.#MINORVER# *",
           "device": "Motorola K1"
         },
         {
-          "match": "MOT-K1\/08.22.0* MIB\/BER2.2 *",
+          "match": "MOT-K1\/08.22.0* MIB\/BER#MAJORVER#.#MINORVER# *",
           "device": "Motorola K1"
         },
         {
-          "match": "MOT-K1v\/08.* MIB\/BER2.2 * EGE\/1.0*",
+          "match": "MOT-K1v\/08.* MIB\/BER#MAJORVER#.#MINORVER# * EGE\/1.0*",
           "device": "Motorola K1v"
         },
         {
-          "match": "MOT-KLGO iTunes\/0E.* MIB\/2.2*",
+          "match": "MOT-KLGO iTunes\/0E.* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola KLGO iTunes"
         },
         {
-          "match": "MOT-KLGO\/0E.30.* MIB\/2.2*",
+          "match": "MOT-KLGO\/0E.30.* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola KLGO"
         },
         {
-          "match": "MOT-L2\/0A.* MIB\/2.2*",
+          "match": "MOT-L2\/0A.* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola L2"
         },
         {
-          "match": "MOT-L6\/0A.* MIB\/2.2*",
+          "match": "MOT-L6\/0A.* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola L6"
         },
         {
-          "match": "MOT-L6\/0A.52.45R MIB\/2.2*",
+          "match": "MOT-L6\/0A.52.45R MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola L6"
         },
         {
-          "match": "MOT-L6\/0A.53.* MIB\/2.2*",
+          "match": "MOT-L6\/0A.53.* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola L6"
         },
         {
-          "match": "MOT-L6i\/* MIB\/2.2*",
+          "match": "MOT-L6i\/* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola L6i"
         },
         {
-          "match": "MOT-L6i\/0A.64.* MIB\/2.2*",
+          "match": "MOT-L6i\/0A.64.* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola L6i"
         },
         {
-          "match": "MOT-L6i\/0A.65.03R MIB\/2.2*",
+          "match": "MOT-L6i\/0A.65.03R MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola L6i"
         },
         {
-          "match": "MOT-L7\/08.* MIB\/2.2*",
+          "match": "MOT-L7\/08.* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola L7"
         },
         {
-          "match": "MOT-L7i\/* MIB\/BER2.2 *",
+          "match": "MOT-L7i\/* MIB\/BER#MAJORVER#.#MINORVER# *",
           "device": "Motorola L7i"
         },
         {
-          "match": "MOT-L7v\/08.B7.* MIB\/2.2*",
+          "match": "MOT-L7v\/08.B7.* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola L7v"
         },
         {
-          "match": "MOT-L7v\/08.B7.5DR MIB\/2.2*",
+          "match": "MOT-L7v\/08.B7.5DR MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola L7v"
         },
         {
-          "match": "MOT-PEBL U6\/08.83.* MIB\/2.2*",
+          "match": "MOT-PEBL U6\/08.83.* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola PEBL U6"
         },
         {
-          "match": "MOT-PEBL U6\/08.84.* MIB\/2.2*",
+          "match": "MOT-PEBL U6\/08.84.* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola PEBL U6"
         },
         {
-          "match": "MOT-RAZRV3x\/* MIB\/BER2.2 *",
+          "match": "MOT-RAZRV3x\/* MIB\/BER#MAJORVER#.#MINORVER# *",
           "device": "Motorola RAZRV3x"
         },
         {
-          "match": "MOT-RAZRV3xv\/* MIB\/BER2.2 *",
+          "match": "MOT-RAZRV3xv\/* MIB\/BER#MAJORVER#.#MINORVER# *",
           "device": "Motorola RAZRV3xv"
         },
         {
-          "match": "MOT-ROKR E1\/0E.30.1ER MIB\/2.2*",
+          "match": "MOT-ROKR E1\/0E.30.1ER MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola ROKR E1"
         },
         {
-          "match": "MOT-U15\/* MIB\/2.2 *",
+          "match": "MOT-U15\/* MIB\/#MAJORVER#.#MINORVER# *",
           "device": "Motorola U15"
         },
         {
-          "match": "MOT-Unx\/0B.D1.1FR MIB\/2.2*",
+          "match": "MOT-Unx\/0B.D1.1FR MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola Unx"
         },
         {
-          "match": "MOT-V1050\/* MIB\/2.2*",
+          "match": "MOT-V1050\/* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola V1050"
         },
         {
-          "match": "MOT-V180\/* MIB\/2.2*",
+          "match": "MOT-V180\/* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola V180"
         },
         {
-          "match": "MOT-V180ENS\/* MIB\/2.2*",
+          "match": "MOT-V180ENS\/* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola V180ENS"
         },
         {
-          "match": "MOT-V185\/* MIB\/2.2*",
+          "match": "MOT-V185\/* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola V185"
         },
         {
-          "match": "MOT-V186\/* MIB\/2.2*",
+          "match": "MOT-V186\/* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola V186"
         },
         {
-          "match": "MOT-V188\/* MIB\/2.2*",
+          "match": "MOT-V188\/* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola V188"
         },
         {
-          "match": "MOT-V190\/* MIB\/2.2*",
+          "match": "MOT-V190\/* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola V190"
         },
         {
-          "match": "MOT-V191\/* MIB\/2.2*",
+          "match": "MOT-V191\/* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola V191"
         },
         {
-          "match": "MOT-V220\/* MIB\/2.2*",
+          "match": "MOT-V220\/* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola V220"
         },
         {
-          "match": "MOT-V220ENS\/* MIB\/2.2*",
+          "match": "MOT-V220ENS\/* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola V220ENS"
         },
         {
-          "match": "MOT-V235\/* MIB\/2.2*",
+          "match": "MOT-V235\/* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola V235"
         },
         {
-          "match": "MOT-V270\/* MIB\/2.2*",
+          "match": "MOT-V270\/* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola V270"
         },
         {
-          "match": "MOT-V280\/* MIB\/2.2*",
+          "match": "MOT-V280\/* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola V280"
         },
         {
-          "match": "MOT-V3\/* MIB\/2.2*",
+          "match": "MOT-V3\/* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola V3"
         },
         {
-          "match": "MOT-V300\/* MIB\/2.2 *",
+          "match": "MOT-V300\/* MIB\/#MAJORVER#.#MINORVER# *",
           "device": "Motorola V300"
         },
         {
-          "match": "MOT-V303\/* MIB\/2.2 *",
+          "match": "MOT-V303\/* MIB\/#MAJORVER#.#MINORVER# *",
           "device": "Motorola V303"
         },
         {
-          "match": "MOT-V360\/* MIB\/2.2*",
+          "match": "MOT-V360\/* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola V360"
         },
         {
-          "match": "MOT-V360v\/* MIB\/2.2*",
+          "match": "MOT-V360v\/* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola V360v"
         },
         {
-          "match": "MOT-V361\/* MIB\/2.2*",
+          "match": "MOT-V361\/* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola V361"
         },
         {
-          "match": "MOT-V365\/* MIB\/2.2*",
+          "match": "MOT-V365\/* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola V365"
         },
         {
-          "match": "MOT-V3e\/* MIB\/2.2*",
+          "match": "MOT-V3e\/* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola V3e"
         },
         {
-          "match": "MOT-V3i\/* MIB\/2.2*",
+          "match": "MOT-V3i\/* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola V3i"
         },
         {
-          "match": "MOT-V3i_iTunes\/* MIB\/2.2*",
+          "match": "MOT-V3i_iTunes\/* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola V3i"
         },
         {
-          "match": "MOT-V3i_iTunes\/* MIB\/BER2.2 *",
+          "match": "MOT-V3i_iTunes\/* MIB\/BER#MAJORVER#.#MINORVER# *",
           "device": "Motorola V3i"
         },
         {
-          "match": "MOT-V3ire\/* MIB\/2.2*",
+          "match": "MOT-V3ire\/* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola V3ire"
         },
         {
-          "match": "MOT-V3r\/* MIB\/2.2*",
+          "match": "MOT-V3r\/* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola V3r"
         },
         {
@@ -409,111 +411,111 @@
           "device": "Motorola V3r"
         },
         {
-          "match": "MOT-V3re\/* MIB\/2.2*",
+          "match": "MOT-V3re\/* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola V3re"
         },
         {
-          "match": "MOT-V400\/* MIB\/2.2 *",
+          "match": "MOT-V400\/* MIB\/#MAJORVER#.#MINORVER# *",
           "device": "Motorola V400"
         },
         {
-          "match": "MOT-V500\/* MIB\/2.2 *",
+          "match": "MOT-V500\/* MIB\/#MAJORVER#.#MINORVER# *",
           "device": "Motorola V500"
         },
         {
-          "match": "MOT-V505\/* MIB\/2.2 *",
+          "match": "MOT-V505\/* MIB\/#MAJORVER#.#MINORVER# *",
           "device": "Motorola V505"
         },
         {
-          "match": "MOT-V525M\/* MIB\/2.2 *",
+          "match": "MOT-V525M\/* MIB\/#MAJORVER#.#MINORVER# *",
           "device": "Motorola V525M"
         },
         {
-          "match": "MOT-V535\/* MIB\/2.2*",
+          "match": "MOT-V535\/* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola V535"
         },
         {
-          "match": "MOT-V545\/* MIB\/2.2*",
+          "match": "MOT-V545\/* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola V545"
         },
         {
-          "match": "MOT-V547\/* MIB\/2.2*",
+          "match": "MOT-V547\/* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola V547"
         },
         {
-          "match": "MOT-V550\/* MIB\/2.2*",
+          "match": "MOT-V550\/* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola V550"
         },
         {
-          "match": "MOT-V551\/* MIB\/2.2*",
+          "match": "MOT-V551\/* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola V551"
         },
         {
-          "match": "MOT-V551J\/* MIB\/2.2*",
+          "match": "MOT-V551J\/* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola V551J"
         },
         {
-          "match": "MOT-V555\/* MIB\/2.2*",
+          "match": "MOT-V555\/* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola V555"
         },
         {
-          "match": "MOT-V557\/* MIB\/2.2*",
+          "match": "MOT-V557\/* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola V557"
         },
         {
-          "match": "MOT-V557p\/* MIB\/2.2*",
+          "match": "MOT-V557p\/* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola V557p"
         },
         {
-          "match": "MOT-V6\/* MIB\/2.2*",
+          "match": "MOT-V6\/* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola V6"
         },
         {
-          "match": "MOT-V600\/* MIB\/2.2*",
+          "match": "MOT-V600\/* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola V600"
         },
         {
-          "match": "MOT-V600i\/* MIB\/2.2*",
+          "match": "MOT-V600i\/* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola V600i"
         },
         {
-          "match": "MOT-V620\/* MIB\/2.2*",
+          "match": "MOT-V620\/* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola V620"
         },
         {
-          "match": "MOT-V635\/* MIB\/2.2*",
+          "match": "MOT-V635\/* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola V635"
         },
         {
-          "match": "MOT-V8\/* MIB\/2.2*",
+          "match": "MOT-V8\/* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola V8"
         },
         {
-          "match": "MOT-V80\/* MIB\/2.2*",
+          "match": "MOT-V80\/* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola V80"
         },
         {
-          "match": "MOT-V975\/* MIB\/2.2*",
+          "match": "MOT-V975\/* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola V975"
         },
         {
-          "match": "MOT-V980\/* MIB\/2.2*",
+          "match": "MOT-V980\/* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola V980"
         },
         {
-          "match": "MOT-V980M\/* MIB\/2.2*",
+          "match": "MOT-V980M\/* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola V980M"
         },
         {
-          "match": "MOT-W490\/* MIB\/BER2.2 *",
+          "match": "MOT-W490\/* MIB\/BER#MAJORVER#.#MINORVER# *",
           "device": "Motorola W490"
         },
         {
-          "match": "MOT-Z3\/* MIB\/BER2.2 *",
+          "match": "MOT-Z3\/* MIB\/BER#MAJORVER#.#MINORVER# *",
           "device": "Motorola Z3"
         },
         {
-          "match": "mot-V3\/* MIB\/2.2*",
+          "match": "mot-V3\/* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola V3"
         }
       ]

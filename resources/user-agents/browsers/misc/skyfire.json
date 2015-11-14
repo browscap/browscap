@@ -2,6 +2,7 @@
   "division": "Skyfire",
   "sortIndex": 1870,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Skyfire",

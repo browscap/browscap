@@ -3,6 +3,7 @@
   "versions": ["9.9", "9.8", "9.7", "9.6", "9.5", "9.4", "9.3", "9.2", "9.1", "9.0"],
   "sortIndex": 932,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER#",

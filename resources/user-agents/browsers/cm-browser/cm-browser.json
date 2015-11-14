@@ -2,6 +2,7 @@
   "division": "CM Browser",
   "sortIndex": 883,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "CM Browser",

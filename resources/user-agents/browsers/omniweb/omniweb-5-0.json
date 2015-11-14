@@ -1,21 +1,23 @@
 {
-  "division": "OmniWeb 5.0",
+  "division": "OmniWeb #MAJORVER#.#MINORVER#",
+  "versions": [5],
   "sortIndex": 2702,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
-      "userAgent": "OmniWeb 5.0",
+      "userAgent": "OmniWeb #MAJORVER#.#MINORVER#",
       "platform": "OSX",
       "engine": "WebKit",
       "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "OmniWeb 5.0",
+        "Comment": "OmniWeb #MAJORVER#.#MINORVER#",
         "Browser": "OmniWeb",
         "Browser_Type": "Browser",
-        "Version": "5.0",
-        "MajorVer": "5",
-        "MinorVer": "0",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
@@ -43,12 +45,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (*Mac OS X*) AppleWebKit\/* (KHTML, like Gecko) *OmniWeb\/v558.*",
-          "properties": {
-            "Version": "5.0",
-            "MajorVer": "5",
-            "MinorVer": "0"
-          }
+          "match": "Mozilla\/5.0 (*Mac OS X*) AppleWebKit\/* (KHTML, like Gecko) *OmniWeb\/v558.*"
         },
         {
           "match": "Mozilla\/5.0 (*Mac OS X*) AppleWebKit\/* (KHTML, like Gecko, Safari) *OmniWeb\/v563.*",

@@ -3,6 +3,7 @@
   "versions": ["4.3", "4.2", "4.1", 4],
   "sortIndex": 2410,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "iSiloX #MAJORVER#.#MINORVER#",
@@ -12,6 +13,9 @@
         "Comment": "iSiloX #MAJORVER#.#MINORVER#",
         "Browser": "iSiloX",
         "Browser_Type": "Application",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",

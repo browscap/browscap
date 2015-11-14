@@ -3,6 +3,7 @@
   "versions": ["8.3"],
   "sortIndex": 1783,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Nokia Browser #MAJORVER#.#MINORVER#",

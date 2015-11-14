@@ -2,6 +2,7 @@
   "division": "EB iPhone\/IPad App",
   "sortIndex": 1181,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "EB iPhone\/IPad App",

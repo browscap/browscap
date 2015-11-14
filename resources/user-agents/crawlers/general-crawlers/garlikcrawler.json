@@ -1,0 +1,40 @@
+{
+  "division": "GarlikCrawler",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "GarlikCrawler",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "GarlikCrawler",
+        "Browser": "GarlikCrawler",
+        "Browser_Maker": "Experian Ltd",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "GarlikCrawler\/1.1*",
+          "properties": {
+            "Version": "1.1",
+            "MajorVer": "1",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "GarlikCrawler\/1.2*",
+          "properties": {
+            "Version": "1.2",
+            "MajorVer": "1",
+            "MinorVer": "2"
+          }
+        },
+        {
+          "match": "GarlikCrawler\/*"
+        }
+      ]
+    }
+  ]
+}

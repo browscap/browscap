@@ -1,0 +1,30 @@
+{
+  "division": "ShopWiki",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "ShopWiki",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "ShopWiki",
+        "Browser": "ShopWiki",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "ShopWiki\/1.0*",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1"
+          }
+        },
+        {
+          "match": "ShopWiki\/*"
+        }
+      ]
+    }
+  ]
+}

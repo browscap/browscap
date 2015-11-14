@@ -3,6 +3,7 @@
   "versions": ["2.2", "2.1", 2],
   "sortIndex": 9910,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Reeder #MAJORVER#.#MINORVER#",

@@ -1,0 +1,31 @@
+{
+  "division": "WBSearchBot",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "WBSearchBot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "WBSearchBot",
+        "Browser": "WBSearchBot",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (compatible; WBSearchBot\/1.1*; +http:\/\/www.warebay.com\/bot.html)*",
+          "properties": {
+            "Version": "1.1",
+            "MajorVer": "1",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; WBSearchBot\/*; +http:\/\/www.warebay.com\/bot.html)*"
+        }
+      ]
+    }
+  ]
+}

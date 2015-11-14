@@ -3,6 +3,7 @@
   "versions": ["1.8"],
   "sortIndex": 259,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "phantomas",

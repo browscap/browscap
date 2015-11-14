@@ -3,6 +3,7 @@
   "versions": [3],
   "sortIndex": 1760,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Postbox #MAJORVER#.#MINORVER#",

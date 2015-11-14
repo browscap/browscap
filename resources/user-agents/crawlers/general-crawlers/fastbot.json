@@ -2,6 +2,7 @@
   "division": "fastbot crawler",
   "sortIndex": 350,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "fastbot crawler",

@@ -2,6 +2,7 @@
   "division": "Firefox for FirefoxOS Generic",
   "sortIndex": 3169,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Firefox for FirefoxOS Generic",

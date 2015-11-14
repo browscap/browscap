@@ -3,6 +3,7 @@
   "versions": ["4.1", "4.2", "4.3", "4.4"],
   "sortIndex": 2130,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "AndroidDownloadManager #MAJORVER#.#MINORVER#",

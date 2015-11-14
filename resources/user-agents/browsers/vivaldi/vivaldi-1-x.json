@@ -3,6 +3,7 @@
   "versions": [1],
   "sortIndex": 1142,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Vivaldi #MAJORVER#.#MINORVER#",

@@ -2,6 +2,7 @@
   "division": "Maxthon Generic",
   "sortIndex": 946,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Maxthon Generic for Android",

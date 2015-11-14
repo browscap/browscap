@@ -2,6 +2,7 @@
   "division": "Spector",
   "sortIndex": 10690,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Spector",

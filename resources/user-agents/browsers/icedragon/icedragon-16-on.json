@@ -3,6 +3,7 @@
   "versions": [26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16],
   "sortIndex": 3146,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "IceDragon #MAJORVER#.#MINORVER#",

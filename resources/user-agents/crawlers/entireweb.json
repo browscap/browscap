@@ -2,6 +2,7 @@
   "division": "Entireweb",
   "sortIndex": 110,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Entireweb",

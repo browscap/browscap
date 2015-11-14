@@ -2,6 +2,7 @@
   "division": "Bolt",
   "sortIndex": 2520,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Bolt",

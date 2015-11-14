@@ -2,6 +2,7 @@
   "division": "MobileExplorer",
   "sortIndex": 7270,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "MobileExplorer",

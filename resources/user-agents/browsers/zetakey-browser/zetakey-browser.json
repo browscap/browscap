@@ -3,6 +3,7 @@
   "versions": ["3.2"],
   "sortIndex": 3159,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Zetakey Browser #MAJORVER#.#MINORVER#",

@@ -2,6 +2,7 @@
   "division": "libwww",
   "sortIndex": 990,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "libwww",

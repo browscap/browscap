@@ -2,6 +2,7 @@
   "division": "Version Checkers",
   "sortIndex": 520,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Version Checkers",

@@ -2,6 +2,7 @@
   "division": "Online Scanners",
   "sortIndex": 450,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Online Scanners",

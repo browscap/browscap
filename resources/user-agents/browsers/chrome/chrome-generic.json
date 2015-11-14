@@ -2,6 +2,7 @@
   "division": "Chrome Generic",
   "sortIndex": 1165,
   "lite": true,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Chrome Generic for Android",
@@ -14,9 +15,6 @@
         "Browser": "Chrome",
         "Browser_Maker": "Google Inc",
         "Browser_Type": "Browser",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
         "Win32": "false",
         "Frames": "true",
         "IFrames": "true",

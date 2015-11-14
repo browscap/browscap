@@ -2,6 +2,7 @@
   "division": "HTMLParser",
   "sortIndex": 980,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "HTMLParser",

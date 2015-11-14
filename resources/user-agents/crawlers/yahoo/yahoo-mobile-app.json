@@ -3,6 +3,7 @@
   "versions": [5, 4, "3.3", "3.2", "3.1"],
   "sortIndex": 1331,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "YahooMobile #MAJORVER#.#MINORVER#",

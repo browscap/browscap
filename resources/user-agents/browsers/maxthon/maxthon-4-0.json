@@ -3,6 +3,7 @@
   "versions": [4],
   "sortIndex": 943,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Maxthon #MAJORVER#.#MINORVER# for Android",

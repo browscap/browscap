@@ -3,6 +3,7 @@
   "versions": ["12.13", "12.12", "12.11", "12.10", "12.00", "11.60"],
   "sortIndex": 1032,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Opera Mobile #MAJORVER#.#MINORVER#",

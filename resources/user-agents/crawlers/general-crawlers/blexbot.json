@@ -1,0 +1,32 @@
+{
+  "division": "BLEXBot",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "BLEXBot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "BLEXBot",
+        "Browser": "BLEXBot",
+        "Browser_Maker": "WebMeUp",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (compatible; BLEXBot\/1.0*",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; BLEXBot\/*"
+        }
+      ]
+    }
+  ]
+}

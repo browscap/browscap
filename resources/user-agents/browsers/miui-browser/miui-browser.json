@@ -3,6 +3,7 @@
   "versions": [2, 1],
   "sortIndex": 1110,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Miui Browser #MAJORVER#.#MINORVER#",

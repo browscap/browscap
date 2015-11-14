@@ -3,6 +3,7 @@
   "versions": ["3.4", "3.3", "3.2", "3.1", "3.0"],
   "sortIndex": 935,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER#",

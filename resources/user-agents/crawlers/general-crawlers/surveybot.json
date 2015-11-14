@@ -1,0 +1,53 @@
+{
+  "division": "SurveyBot",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "SurveyBot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "SurveyBot",
+        "Browser": "SurveyBot",
+        "Browser_Maker": "DomainTools",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "SurveyBot\/2.3*",
+          "properties": {
+            "Version": "2.3",
+            "MajorVer": "2",
+            "MinorVer": "3"
+          }
+        },
+        {
+          "match": "SurveyBot\/*"
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/* (*) SurveyBot\/2.3*",
+          "engine": "Gecko",
+          "device": "Windows Desktop",
+          "properties": {
+            "Version": "2.3",
+            "MajorVer": "2",
+            "MinorVer": "3"
+          },
+          "platforms": [
+            "WinXPa_32"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/* (*) SurveyBot\/*",
+          "engine": "Gecko",
+          "device": "Windows Desktop",
+          "platforms": [
+            "WinXPa_32"
+          ]
+        }
+      ]
+    }
+  ]
+}

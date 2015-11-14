@@ -3,6 +3,7 @@
   "versions": ["1.7"],
   "sortIndex": 1019,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Yandex Browser #MAJORVER#.#MINORVER#",

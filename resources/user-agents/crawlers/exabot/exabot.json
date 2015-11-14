@@ -2,6 +2,7 @@
   "division": "Exalead",
   "sortIndex": 130,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Exalead",

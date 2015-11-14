@@ -1,0 +1,31 @@
+{
+  "division": "Metaspinner",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Metaspinner",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Metaspinner",
+        "Browser": "Metaspinner",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Metaspinner\/0.01*",
+          "properties": {
+            "Version": "0.01",
+            "MajorVer": "0",
+            "MinorVer": "01"
+          }
+        },
+        {
+          "match": "Metaspinner\/*"
+        }
+      ]
+    }
+  ]
+}

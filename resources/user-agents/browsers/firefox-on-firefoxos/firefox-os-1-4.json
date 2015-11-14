@@ -3,6 +3,7 @@
   "versions": [31, 30],
   "sortIndex": 3163,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Firefox #MAJORVER#.#MINORVER# for FirefoxOS 1.4",

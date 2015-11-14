@@ -3,6 +3,7 @@
   "versions": [5],
   "sortIndex": 2450,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "My Internet Browser #MAJORVER#.#MINORVER#",

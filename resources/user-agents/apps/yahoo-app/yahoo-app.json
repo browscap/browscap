@@ -3,6 +3,7 @@
   "versions": ["2.4", "2.3", "2.2", "2.1"],
   "sortIndex": 1903,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Yahoo! App #MAJORVER#.#MINORVER#",

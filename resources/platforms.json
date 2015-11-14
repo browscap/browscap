@@ -3357,6 +3357,15 @@
         "Platform_Version": "7.1"
       }
     },
+    "RIMOS_Dynamic": {
+      "match": "*BlackBerry; U*",
+      "lite": false,
+      "standard": true,
+      "inherits": "RIMOS",
+      "properties": {
+        "Platform_Version": "#MAJORVER#.#MINORVER#"
+      }
+    },
     "RIMOS_10_X": {
       "match": "*BB10*",
       "lite": false,

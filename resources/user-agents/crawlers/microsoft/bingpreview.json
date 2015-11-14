@@ -2,6 +2,7 @@
   "division": "BingPreview",
   "sortIndex": 1240,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "BingPreview",

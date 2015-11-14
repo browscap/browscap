@@ -2,6 +2,7 @@
   "division": "Galeon Generic",
   "sortIndex": 2381,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Galeon Generic",

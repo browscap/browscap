@@ -2,6 +2,7 @@
   "division": "Apple Mail",
   "sortIndex": 1180,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Apple Mail Generic for iOS",

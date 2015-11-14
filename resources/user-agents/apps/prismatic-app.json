@@ -2,6 +2,7 @@
   "division": "Prismatic App",
   "sortIndex": 1186,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Prismatic App",

@@ -1,20 +1,23 @@
 {
-  "division": "Microsoft Outlook 2010",
+  "division": "Microsoft Outlook #MAJORVER#",
+  "versions": [2010],
   "sortIndex": 1652,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
-      "userAgent": "Microsoft Outlook 2010",
+      "userAgent": "Microsoft Outlook #MAJORVER#",
       "engine": "Trident",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Microsoft Outlook 2010",
+        "Comment": "Microsoft Outlook #MAJORVER#",
         "Browser": "Outlook",
         "Browser_Type": "Email Client",
         "Browser_Maker": "Microsoft Corporation",
-        "Version": "2010",
-        "MajorVer": "2010",
+        "Version": "#MAJORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",

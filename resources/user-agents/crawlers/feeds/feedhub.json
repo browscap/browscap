@@ -2,6 +2,7 @@
   "division": "FeedHub",
   "sortIndex": 560,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "FeedHub",

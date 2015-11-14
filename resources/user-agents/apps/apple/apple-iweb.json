@@ -2,6 +2,7 @@
   "division": "iWeb",
   "sortIndex": 1185,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "iWeb",

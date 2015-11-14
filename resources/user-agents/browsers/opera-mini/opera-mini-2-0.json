@@ -3,6 +3,7 @@
   "versions": [2],
   "sortIndex": 1937,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Opera Mini 2.0",

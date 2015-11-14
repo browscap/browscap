@@ -2,6 +2,7 @@
   "division": "Firefox Generic",
   "sortIndex": 3173,
   "lite": true,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Firefox Generic",

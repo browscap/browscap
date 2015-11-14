@@ -2,6 +2,7 @@
   "division": "LibreOffice",
   "sortIndex": 2430,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "LibreOffice",
