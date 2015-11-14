@@ -1218,13 +1218,13 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#; rv:*) Gecko\/* ThumbShotsBot*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* ThumbShotsBot*",
           "device": "Linux Desktop",
           "properties": {
             "Browser": "ThumbShotsBot"
           },
           "platforms": [
-            "Linux_64"
+            "Linux_64", "Linux"
           ]
         },
         {
@@ -2013,7 +2013,7 @@
             "MinorVer": "0"
           },
           "platforms": [
-            "Linux_32_on_x64_2"
+            "Linux_32_on_x64_2", "Linux"
           ]
         },
         {
@@ -2025,7 +2025,7 @@
             "Browser_Maker": "Boutell.Com, Inc."
           },
           "platforms": [
-            "Linux_32_on_x64_2"
+            "Linux_32_on_x64_2", "Linux"
           ]
         },
         {

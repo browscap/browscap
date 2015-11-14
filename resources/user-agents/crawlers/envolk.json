@@ -16,10 +16,10 @@
       },
       "children": [
         {
-          "match": "envolk\/* (?http:\/\/www.envolk.com\/envolk*)"
+          "match": "envolk?ITS?spider\/*"
         },
         {
-          "match": "envolk?ITS?spider\/* (?http:\/\/www.envolk.com\/envolk*)"
+          "match": "envolk\/*"
         }
       ]
     }

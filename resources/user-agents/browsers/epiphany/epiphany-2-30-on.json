@@ -34,6 +34,13 @@
       },
       "children": [
         {
+          "match": "Mozilla\/5.0 (Macintosh; ARM Mac OS X) AppleWebKit\/* (KHTML, like Gecko) Safari\/* Version\/* Debian\/* (*rpi*rpi*) Epiphany\/#MAJORVER#.#MINORVER#*",
+          "device": "Raspberry Pi",
+          "platforms": [
+            "Debian"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/*(KHTML,*like Gecko*) Safari\/* Epiphany\/#MAJORVER#.#MINORVER#*",
           "device": "Linux Desktop",
           "platforms": [
@@ -65,14 +72,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Epiphany\/#MAJORVER#.#MINORVER#*Safari\/*",
           "device": "Linux Desktop",
           "platforms": [
-            "Linux_64"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (Macintosh; ARM Mac OS X) AppleWebKit\/* (KHTML, like Gecko) Safari\/* Version\/* Debian\/* (*rpi*rpi*) Epiphany\/#MAJORVER#.#MINORVER#*",
-          "device": "Raspberry Pi",
-          "platforms": [
-            "Debian"
+            "Linux_64", "Linux"
           ]
         }
       ]

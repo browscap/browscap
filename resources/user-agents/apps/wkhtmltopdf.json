@@ -31,7 +31,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) wkhtmltoimage Safari\/*",
           "device": "Linux Desktop",
           "platforms": [
-            "ChromeOS", "Linux_64", "Linux_32", "Linux", "CentOS"
+            "ChromeOS", "CentOS", "Linux_64", "Linux_32", "Linux"
           ]
         },
         {

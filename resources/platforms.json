@@ -26,13 +26,13 @@
     "ChromeOS_i686": {
       "match": "*CrOS*i686*",
       "lite": false,
-      "standard": true,
+      "standard": false,
       "inherits": "ChromeOS"
     },
     "ChromeOS_x64": {
       "match": "*CrOS x86_64*",
       "lite": false,
-      "standard": true,
+      "standard": false,
       "inherits": "ChromeOS",
       "properties": {
         "Browser_Bits": "64",
@@ -42,7 +42,7 @@
     "ChromeOS_ARM": {
       "match": "*CrOS armv*",
       "lite": false,
-      "standard": true,
+      "standard": false,
       "inherits": "ChromeOS"
     },
     "OSX": {
@@ -1110,13 +1110,13 @@
     "Linux_32": {
       "match": "*Linux i686*",
       "lite": false,
-      "standard": true,
+      "standard": false,
       "inherits": "Linux"
     },
     "Linux_32_on_x64": {
       "match": "*Linux i686 on x86_64*",
       "lite": false,
-      "standard": true,
+      "standard": false,
       "inherits": "Linux",
       "properties": {
         "Platform_Bits": "64"
@@ -1125,7 +1125,7 @@
     "Linux_32_on_x64_2": {
       "match": "*Linux i686 (x86_64)*",
       "lite": false,
-      "standard": true,
+      "standard": false,
       "inherits": "Linux",
       "properties": {
         "Platform_Bits": "64"
@@ -1134,19 +1134,19 @@
     "Linux_32_x586": {
       "match": "*Linux i586*",
       "lite": false,
-      "standard": true,
+      "standard": false,
       "inherits": "Linux"
     },
     "Linux_32_x86": {
       "match": "*Linux x86*",
       "lite": false,
-      "standard": true,
+      "standard": false,
       "inherits": "Linux"
     },
     "Linux_64": {
       "match": "*Linux*x86_64*",
       "lite": false,
-      "standard": true,
+      "standard": false,
       "inherits": "Linux",
       "properties": {
         "Browser_Bits": "64",
@@ -1156,7 +1156,7 @@
     "Linux_64_B": {
       "match": "*x86_64*linux*",
       "lite": false,
-      "standard": true,
+      "standard": false,
       "inherits": "Linux",
       "properties": {
         "Browser_Bits": "64",
@@ -1166,7 +1166,7 @@
     "Linux_x64": {
       "match": "*linux x64*",
       "lite": false,
-      "standard": true,
+      "standard": false,
       "inherits": "Linux",
       "properties": {
         "Browser_Bits": "64",
@@ -1176,7 +1176,7 @@
     "Linux_PPC": {
       "match": "*Linux*; PPC*",
       "lite": false,
-      "standard": true,
+      "standard": false,
       "inherits": "Linux"
     },
     "Debian": {
@@ -3650,7 +3650,7 @@
     "Darwin_64": {
       "match": "*Darwin*(x86_64)*",
       "lite": false,
-      "standard": true,
+      "standard": false,
       "properties": {
         "Platform": "Darwin",
         "Platform_Maker": "Apple Inc",

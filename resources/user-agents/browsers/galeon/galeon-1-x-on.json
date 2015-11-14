@@ -1,6 +1,6 @@
 {
   "division": "Galeon #MAJORVER#.#MINORVER#",
-  "versions": ["2.0"],
+  "versions": [2, "1.3", "1.2", "1.1", 1],
   "sortIndex": 2380,
   "lite": false,
   "userAgents": [
@@ -23,12 +23,6 @@
         "CssVersion": "2"
       },
       "children": [
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Galeon\/#MAJORVER#.#MINORVER#*",
-          "platforms": [
-            "Linux_32", "Linux"
-          ]
-        },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Galeon\/#MAJORVER#.#MINORVER#*",
           "platforms": [

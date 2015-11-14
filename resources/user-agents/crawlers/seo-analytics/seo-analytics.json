@@ -144,12 +144,6 @@
           }
         },
         {
-          "match": "Screaming Frog SEO Spider\/*",
-          "properties": {
-            "Browser": "Screaming Frog SEO Spider"
-          }
-        },
-        {
           "match": "ssearch_bot (sSearch Crawler*",
           "properties": {
             "Browser": "sSearch Crawler",

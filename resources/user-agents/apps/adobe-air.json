@@ -35,7 +35,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) AdobeAIR\/#MAJORVER#.#MINORVER#*",
           "device": "Linux Desktop",
           "platforms": [
-            "Linux_32"
+            "Linux_32", "Linux"
           ]
         },
         {

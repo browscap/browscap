@@ -92,12 +92,6 @@
           }
         },
         {
-          "match": "TurnitinBot\/*",
-          "properties": {
-            "Browser": "TurnitinBot"
-          }
-        },
-        {
           "match": "TutorGigBot\/*",
           "properties": {
             "Browser": "TutorGig"

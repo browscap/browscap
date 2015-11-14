@@ -19,7 +19,7 @@
           "match": "IlseBot\/*"
         },
         {
-          "match": "INGRID\/?.0*"
+          "match": "INGRID\/*"
         },
         {
           "match": "Mozilla\/3.0 (INGRID\/*"

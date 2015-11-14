@@ -16,19 +16,13 @@
       },
       "children": [
         {
+          "match": "boitho.com-dc\/*"
+        },
+        {
+          "match": "boitho.com-robot\/*"
+        },
+        {
           "match": "boitho.com-*"
-        },
-        {
-          "match": "boitho.com-dc\/*",
-          "properties": {
-            "Browser": "boitho.com-dc"
-          }
-        },
-        {
-          "match": "boitho.com-robot\/*",
-          "properties": {
-            "Browser": "boitho.com-robot"
-          }
         }
       ]
     }

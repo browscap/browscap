@@ -189,188 +189,97 @@
           "match": "https:\/\/*"
         },
         {
-          "match": "GoogleBot\/* (Windows 98 1.1; *;)",
-          "platforms": [
-            "Win98"
-          ]
+          "match": "GoogleBot\/* (Windows 98 1.1; *;)"
         },
         {
-          "match": "Mozilla\/1.0 (Windows; ?; Windows NT; *) Gecko\/*",
-          "platforms": [
-            "NT"
-          ]
+          "match": "Mozilla\/1.0 (Windows; ?; Windows NT; *) Gecko\/*"
         },
         {
-          "match": "Mozilla\/1.0 (Windows; ?; Windows NT; *) Gecko\/* Mozilla\/*",
-          "platforms": [
-            "NT"
-          ]
+          "match": "Mozilla\/1.0 (Windows; ?; Windows NT; *) Gecko\/* Mozilla\/*"
         },
         {
-          "match": "Mozilla\/2.0 (Windows; ?; Windows NT; *) Gecko\/*",
-          "platforms": [
-            "NT"
-          ]
+          "match": "Mozilla\/2.0 (Windows; ?; Windows NT; *) Gecko\/*"
         },
         {
-          "match": "Mozilla\/2.0 (Windows; ?; Windows NT; *) Gecko\/* Mozilla\/*",
-          "platforms": [
-            "NT"
-          ]
+          "match": "Mozilla\/2.0 (Windows; ?; Windows NT; *) Gecko\/* Mozilla\/*"
         },
         {
-          "match": "Mozilla\/3.0 (Windows NT 6.1*",
-          "platforms": [
-            "Win7_32"
-          ]
+          "match": "Mozilla\/3.0 (Windows NT 6.1*"
         },
         {
-          "match": "Mozilla\/3.0 (Windows; ?; Windows NT; *) Gecko\/*",
-          "platforms": [
-            "NT"
-          ]
+          "match": "Mozilla\/3.0 (Windows; ?; Windows NT; *) Gecko\/*"
         },
         {
-          "match": "Mozilla\/3.0 (Windows; ?; Windows NT; *) Gecko\/* Mozilla\/*",
-          "platforms": [
-            "NT"
-          ]
+          "match": "Mozilla\/3.0 (Windows; ?; Windows NT; *) Gecko\/* Mozilla\/*"
         },
         {
-          "match": "Mozilla\/4.0 (Windows; ?; Windows NT; *) Gecko\/*",
-          "platforms": [
-            "NT"
-          ]
+          "match": "Mozilla\/4.0 (Windows; ?; Windows NT; *) Gecko\/*"
         },
         {
-          "match": "Mozilla\/4.0 (Windows; ?; Windows NT; *) Gecko\/* Mozilla\/*",
-          "platforms": [
-            "NT"
-          ]
+          "match": "Mozilla\/4.0 (Windows; ?; Windows NT; *) Gecko\/* Mozilla\/*"
         },
         {
-          "match": "Mozilla\/5.0 (Windows; ?; Windows NT 3.1; *) AppleWebKit\/* (KHTML,*like Gecko*) Version\/9.*Safari\/*",
-          "platforms": [
-            "NT3.1"
-          ]
+          "match": "Mozilla\/5.0 (Windows; ?; Windows NT 3.1; *) AppleWebKit\/* (KHTML,*like Gecko*) Version\/9.*Safari\/*"
         },
         {
-          "match": "Mozilla\/5.0 (*Windows NT 5.2*) AppleWebKit\/* (KHTML,*like Gecko*) CEF\/*Safari\/*",
-          "platforms": [
-            "WinXPb_32"
-          ]
+          "match": "Mozilla\/5.0 (*Windows NT 5.2*) AppleWebKit\/* (KHTML,*like Gecko*) CEF\/*Safari\/*"
         },
         {
-          "match": "Mozilla\/5.0 (Windows; ?; Windows NT; *) Gecko\/*",
-          "platforms": [
-            "NT"
-          ]
+          "match": "Mozilla\/5.0 (Windows; ?; Windows NT; *) Gecko\/*"
         },
         {
-          "match": "Mozilla\/5.0 (Windows; ?; Windows NT; *) Gecko\/* Mozilla\/*",
-          "platforms": [
-            "NT"
-          ]
+          "match": "Mozilla\/5.0 (Windows; ?; Windows NT; *) Gecko\/* Mozilla\/*"
         },
         {
-          "match": "Mozilla\/5.0 (Windows; U; Windows 4.10; *) Gecko\/* Firefox\/3.*",
-          "platforms": [
-            "NT4"
-          ]
+          "match": "Mozilla\/5.0 (Windows; U; Windows 4.10; *) Gecko\/* Firefox\/3.*"
         },
         {
-          "match": "Mozilla\/5.3 (*Windows NT 5.2*) Gecko\/* Firefox\/3.*",
-          "platforms": [
-            "WinXPb_32"
-          ]
+          "match": "Mozilla\/5.3 (*Windows NT 5.2*) Gecko\/* Firefox\/3.*"
         },
         {
-          "match": "Mozilla\/6.0 (Windows; ?; Windows NT ?.?; *) *Firefox\/2.0*",
-          "platforms": [
-            "NT"
-          ]
+          "match": "Mozilla\/6.0 (Windows; ?; Windows NT ?.?; *) *Firefox\/2.0*"
         },
         {
-          "match": "Mozilla\/6.0 (Windows; ?; Windows NT ?.?; *) *Firefox\/3.0*",
-          "platforms": [
-            "NT"
-          ]
+          "match": "Mozilla\/6.0 (Windows; ?; Windows NT ?.?; *) *Firefox\/3.0*"
         },
         {
-          "match": "Mozilla\/6.0 (Windows; ?; Windows NT ?.?; *) Firefox\/0.*",
-          "platforms": [
-            "NT"
-          ]
+          "match": "Mozilla\/6.0 (Windows; ?; Windows NT ?.?; *) Firefox\/0.*"
         },
         {
-          "match": "Mozilla\/6.0 (Windows; ?; Windows NT ?.?; *) Firefox\/1.*",
-          "platforms": [
-            "NT"
-          ]
+          "match": "Mozilla\/6.0 (Windows; ?; Windows NT ?.?; *) Firefox\/1.*"
         },
         {
-          "match": "Mozilla\/6.0 (Windows; ?; Windows NT; *) Gecko\/*",
-          "platforms": [
-            "NT"
-          ]
+          "match": "Mozilla\/6.0 (Windows; ?; Windows NT; *) Gecko\/*"
         },
         {
-          "match": "Mozilla\/6.0 (Windows; ?; Windows NT; *) Gecko\/* Mozilla\/*",
-          "platforms": [
-            "NT"
-          ]
+          "match": "Mozilla\/6.0 (Windows; ?; Windows NT; *) Gecko\/* Mozilla\/*"
         },
         {
-          "match": "Mozilla\/6.2 (Linux; U; Windows Vista*) Gecko\/* Firefox\/1.5*",
-          "platforms": [
-            "Vista_32"
-          ]
+          "match": "Mozilla\/6.2 (Linux; U; Windows Vista*) Gecko\/* Firefox\/1.5*"
         },
         {
-          "match": "Mozilla\/6.2 (Linux; U; Windows Vista*) Gecko\/* Firefox\/5*",
-          "platforms": [
-            "Vista_32"
-          ]
+          "match": "Mozilla\/6.2 (Linux; U; Windows Vista*) Gecko\/* Firefox\/5*"
         },
         {
-          "match": "Mozilla\/?.0 (Windows; ?; Windows NT*) Gecko\/*Safari\/*",
-          "platforms": [
-            "NT"
-          ]
+          "match": "Mozilla\/?.0 (Windows; ?; Windows NT*) Gecko\/*Safari\/*"
         },
         {
-          "match": "Mozilla\/?.0 (Windows; ?; Windows NT; *) Gecko\/* Firefox\/1*",
-          "platforms": [
-            "NT"
-          ]
+          "match": "Mozilla\/?.0 (Windows; ?; Windows NT; *) Gecko\/* Firefox\/1*"
         },
         {
-          "match": "Mozilla\/?.0 (Windows; ?; Windows NT; *) Gecko\/* Google Chrome\/2*",
-          "platforms": [
-            "NT"
-          ]
+          "match": "Mozilla\/?.0 (Windows; ?; Windows NT; *) Gecko\/* Google Chrome\/2*"
         },
         {
-          "match": "Mozilla\/?.0 (Windows; ?; Windows NT; *) Gecko\/* Opera\/*",
-          "platforms": [
-            "NT"
-          ]
+          "match": "Mozilla\/?.0 (Windows; ?; Windows NT; *) Gecko\/* Opera\/*"
         },
         {
-          "match": "Opera\/9.9* (Windows NT ?.?; U; *) Presto\/*",
-          "platforms": [
-            "NT"
-          ]
+          "match": "Opera\/9.9* (Windows NT ?.?; U; *) Presto\/*"
         },
         {
           "match": "mozilla\/5.0 (compatible; firefox\/*; Windows NT*; Trident\/*"
         },
         {
-          "match": "Mojilla\/5.0 (H11; U; Linux!x86_64;\\xa0en-US+ rf:*) Gecko\/* Firefox\/2.*",
-          "device": "Linux Desktop",
-          "platforms": [
-            "Linux_64"
-          ]
+          "match": "Mojilla\/5.0 (H11; U; Linux!x86_64;\\xa0en-US+ rf:*) Gecko\/* Firefox\/2.*"
         },
         {
           "match": "Mozilla\/5.0 (Windows NT.*"

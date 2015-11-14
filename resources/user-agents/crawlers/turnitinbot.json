@@ -23,6 +23,9 @@
             "MajorVer": "2",
             "MinorVer": "1"
           }
+        },
+        {
+          "match": "TurnitinBot\/*"
         }
       ]
     }

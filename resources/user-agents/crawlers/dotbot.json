@@ -16,13 +16,10 @@
       },
       "children": [
         {
-          "match": "DotBot\/* (http:\/\/www.dotnetdotcom.org\/*)"
+          "match": "DotBot\/*"
         },
         {
-          "match": "Mozilla\/5.0 (compatible; DotBot\/*; http:\/\/www.dotnetdotcom.org\/*)"
-        },
-        {
-          "match": "Mozilla\/5.0 (compatible; DotBot\/1.1; http:\/\/www.opensiteexplorer.org\/dotbot*)",
+          "match": "Mozilla\/5.0 (compatible; DotBot\/1.1*",
           "properties": {
             "Version": "1.1",
             "MajorVer": "1",
@@ -30,7 +27,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; DotBot\/*; http:\/\/www.opensiteexplorer.org\/dotbot*)"
+          "match": "Mozilla\/5.0 (compatible; DotBot\/*"
         }
       ]
     }

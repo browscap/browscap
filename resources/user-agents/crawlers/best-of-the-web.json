@@ -17,27 +17,14 @@
       },
       "children": [
         {
-          "match": "Mozilla\/4.0 (compatible; BOTW Feed Grabber*http:\/\/botw.org)",
+          "match": "Mozilla\/4.0 (compatible; BOTW Feed Grabber*",
           "properties": {
             "Browser": "BOTW Feed Grabber",
             "isSyndicationReader": "true"
           }
         },
         {
-          "match": "Mozilla\/4.0 (compatible; BOTW Feed Grabber; *http:\/\/botw.org)",
-          "properties": {
-            "Browser": "BOTW Feed Grabber",
-            "isSyndicationReader": "true"
-          }
-        },
-        {
-          "match": "Mozilla\/4.0 (compatible; BOTW Spider; *http:\/\/botw.org)",
-          "properties": {
-            "Browser": "BOTW Spider"
-          }
-        },
-        {
-          "match": "Mozilla\/4.0 (compatible; BOTW Spider*http:\/\/botw.org)",
+          "match": "Mozilla\/4.0 (compatible; BOTW Spider*",
           "properties": {
             "Browser": "BOTW Spider"
           }

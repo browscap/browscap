@@ -17,10 +17,10 @@
       },
       "children": [
         {
-          "match": "BlitzBOT*"
+          "match": "BlitzBOT@tricus.com (Mozilla compatible)*"
         },
         {
-          "match": "BlitzBOT@tricus.com (Mozilla compatible)*"
+          "match": "BlitzBOT*"
         }
       ]
     }

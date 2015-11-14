@@ -16,13 +16,13 @@
       },
       "children": [
         {
-          "match": "Gigabot*"
-        },
-        {
           "match": "GigabotSiteSearch\/*",
           "properties": {
             "Browser": "GigabotSiteSearch"
           }
+        },
+        {
+          "match": "Gigabot*"
         }
       ]
     }
