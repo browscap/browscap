@@ -1758,7 +1758,7 @@
     "WinXPa_64": {
       "match": "*Windows NT 5.1*WOW64*",
       "lite": false,
-      "standard": true,
+      "standard": false,
       "inherits": "Windows",
       "properties": {
         "Platform": "WinXP",
@@ -1772,7 +1772,7 @@
     "WinXPa_x64": {
       "match": "*Windows NT 5.1;*Win64? x64*",
       "lite": false,
-      "standard": true,
+      "standard": false,
       "inherits": "Windows",
       "properties": {
         "Browser_Bits": "64",
@@ -1787,7 +1787,7 @@
     "WinXPa_x64_2": {
       "match": "*Windows NT 5.1 x64*",
       "lite": false,
-      "standard": true,
+      "standard": false,
       "inherits": "Windows",
       "properties": {
         "Browser_Bits": "64",
@@ -1846,7 +1846,7 @@
     "WinXPb_64": {
       "match": "*Windows NT 5.2*WOW64*",
       "lite": false,
-      "standard": true,
+      "standard": false,
       "inherits": "Windows",
       "properties": {
         "Platform": "WinXP",
@@ -1860,7 +1860,7 @@
     "WinXPb_x64": {
       "match": "*Windows NT 5.2;*Win64? x64*",
       "lite": false,
-      "standard": true,
+      "standard": false,
       "inherits": "Windows",
       "properties": {
         "Browser_Bits": "64",
@@ -1875,7 +1875,7 @@
     "WinXPb_x64_2": {
       "match": "*Windows NT 5.2 x64*",
       "lite": false,
-      "standard": true,
+      "standard": false,
       "inherits": "Windows",
       "properties": {
         "Browser_Bits": "64",
@@ -1890,7 +1890,7 @@
     "WinXPb_x64_3": {
       "match": "*Windows NT 5.2;*Win64*",
       "lite": false,
-      "standard": true,
+      "standard": false,
       "inherits": "Windows",
       "properties": {
         "Platform": "WinXP",
@@ -1926,7 +1926,7 @@
     "Vista_64": {
       "match": "*Windows NT 6.0*WOW64*",
       "lite": false,
-      "standard": true,
+      "standard": false,
       "inherits": "Windows",
       "properties": {
         "Platform": "WinVista",
@@ -1940,7 +1940,7 @@
     "Vista_x64": {
       "match": "*Windows NT 6.0;*Win64? x64*",
       "lite": false,
-      "standard": true,
+      "standard": false,
       "inherits": "Windows",
       "properties": {
         "Browser_Bits": "64",
@@ -1955,7 +1955,7 @@
     "Vista_x64_2": {
       "match": "*Windows NT 6.0 x64*",
       "lite": false,
-      "standard": true,
+      "standard": false,
       "inherits": "Windows",
       "properties": {
         "Browser_Bits": "64",
@@ -1992,7 +1992,7 @@
     "Win7_64": {
       "match": "*Windows NT 6.1*WOW64*",
       "lite": false,
-      "standard": true,
+      "standard": false,
       "inherits": "Windows",
       "properties": {
         "Platform": "Win7",
@@ -2006,7 +2006,7 @@
     "Win7_x64": {
       "match": "*Windows NT 6.1*Win64? x64*",
       "lite": false,
-      "standard": true,
+      "standard": false,
       "inherits": "Windows",
       "properties": {
         "Browser_Bits": "64",
@@ -2021,7 +2021,7 @@
     "Win7_x64_2": {
       "match": "*Windows NT 6.1 x64*",
       "lite": false,
-      "standard": true,
+      "standard": false,
       "inherits": "Windows",
       "properties": {
         "Browser_Bits": "64",
@@ -2047,7 +2047,7 @@
     "Win8_64": {
       "match": "*Windows NT 6.2*WOW64*",
       "lite": false,
-      "standard": true,
+      "standard": false,
       "inherits": "Windows",
       "properties": {
         "Platform": "Win8",
@@ -2061,7 +2061,7 @@
     "Win8_x64": {
       "match": "*Windows NT 6.2*Win64? x64*",
       "lite": false,
-      "standard": true,
+      "standard": false,
       "inherits": "Windows",
       "properties": {
         "Browser_Bits": "64",
@@ -2076,7 +2076,7 @@
     "Win8_x64_2": {
       "match": "*Windows NT 6.2 x64*",
       "lite": false,
-      "standard": true,
+      "standard": false,
       "inherits": "Windows",
       "properties": {
         "Browser_Bits": "64",
@@ -2102,7 +2102,7 @@
     "Win8_1_64": {
       "match": "*Windows NT 6.3*WOW64*",
       "lite": false,
-      "standard": true,
+      "standard": false,
       "inherits": "Windows",
       "properties": {
         "Platform": "Win8.1",
@@ -2116,7 +2116,7 @@
     "Win8_1_x64": {
       "match": "*Windows NT 6.3*Win64? x64*",
       "lite": false,
-      "standard": true,
+      "standard": false,
       "inherits": "Windows",
       "properties": {
         "Browser_Bits": "64",
@@ -2142,7 +2142,7 @@
     "Win10_64": {
       "match": "*Windows NT 6.4*WOW64*",
       "lite": false,
-      "standard": true,
+      "standard": false,
       "inherits": "Windows",
       "properties": {
         "Platform": "Win10",
@@ -2156,7 +2156,7 @@
     "Win10_x64": {
       "match": "*Windows NT 6.4*Win64? x64*",
       "lite": false,
-      "standard": true,
+      "standard": false,
       "inherits": "Windows",
       "properties": {
         "Browser_Bits": "64",
@@ -2182,7 +2182,7 @@
     "Win10_64_B": {
       "match": "*Windows NT 10.0*WOW64*",
       "lite": false,
-      "standard": true,
+      "standard": false,
       "inherits": "Windows",
       "properties": {
         "Platform": "Win10",
@@ -2196,7 +2196,7 @@
     "Win10_x64_B": {
       "match": "*Windows NT 10.0*Win64? x64*",
       "lite": false,
-      "standard": true,
+      "standard": false,
       "inherits": "Windows",
       "properties": {
         "Browser_Bits": "64",
