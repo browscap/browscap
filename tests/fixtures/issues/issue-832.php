@@ -1,15 +1,16 @@
 <?php
 
 return [
-    'issue-548' => [
-        'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Safari/537.36 Edge/12.0',
+    'issue-832' => [
+        'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2486.0 Safari/537.36 Edge/13.10586',
         [
             'Browser' => 'Edge',
             'Browser_Type' => 'Browser',
-            'Browser_Bits' => '32',
+            'Browser_Bits' => '64',
             'Browser_Maker' => 'Microsoft Corporation',
-            'Version' => '12.0',
-            'MajorVer' => '12',
+            'Browser_Modus' => 'unknown',
+            'Version' => '13.0',
+            'MajorVer' => '13',
             'MinorVer' => '0',
             'Platform' => 'Win10',
             'Platform_Version' => '10.0',
@@ -35,8 +36,10 @@ return [
             'Device_Code_Name' => 'Windows Desktop',
             'Device_Brand_Name' => 'unknown',
             'RenderingEngine_Name' => 'Edge',
-            'RenderingEngine_Version' => '12.0',
+            'RenderingEngine_Version' => '13.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
-    ],
+        'lite' => false,
+        'standard' => true,
+    ]
 ];
