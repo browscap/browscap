@@ -1,0 +1,35 @@
+{
+  "division": "Applebot #MAJORVER#.#MINORVER#",
+  "versions": ["0.1"],
+  "sortIndex": 970,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Applebot #MAJORVER#.#MINORVER#",
+      "device": "Macintosh",
+      "platform": "OSX",
+      "engine": "WebKit",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Applebot #MAJORVER#.#MINORVER#",
+        "Browser": "Applebot",
+        "Browser_Maker": "Apple Inc",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* (Applebot\/#MAJORVER#.#MINORVER#*",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX"
+          ]
+        }
+      ]
+    }
+  ]
+}
