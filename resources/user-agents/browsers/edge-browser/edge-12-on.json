@@ -1,12 +1,12 @@
 {
   "division": "Edge #MAJORVER#.#MINORVER#",
-  "versions": [12],
+  "versions": [13, 12],
   "sortIndex": 1149,
   "lite": true,
   "userAgents": [
     {
       "userAgent": "Edge #MAJORVER#.#MINORVER#",
-      "engine": "Edge_12",
+      "engine": "Edge_Dynamic",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
