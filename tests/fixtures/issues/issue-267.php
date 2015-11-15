@@ -1977,7 +1977,7 @@ return [
     'issue-267-BM' => [
         'LSSRocketCrawler/1.0 LightspeedSystems',
         [
-            'Browser' => 'Lightspeedsystems RocketCrawler',
+            'Browser' => 'Lightspeed Systems RocketCrawler',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Lightspeed Systems',

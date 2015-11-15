@@ -120,7 +120,7 @@ return [
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-381-E' => [
         'Austin Linux/3.0.13 Android/4.0.4 Release/05.07.2013 Browser/AppleWebKit534.30 Profile/MIDP-2.0 Configuration/CLDC-1.1 Mobile Safari/534.30 Android 4.0.1;',
