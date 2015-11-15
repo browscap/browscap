@@ -14,7 +14,10 @@
         "Browser": "Applebot",
         "Browser_Maker": "Apple Inc",
         "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Crawler": "true",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true"
       },
       "children": [
         {

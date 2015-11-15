@@ -19,7 +19,10 @@
         "Crawler": "true",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#"
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true"
       },
       "children": [
         {
