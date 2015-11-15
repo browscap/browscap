@@ -50,6 +50,7 @@
           "device": "LG KU990",
           "properties": {
             "Version": "3.6",
+            "MajorVer": "3",
             "MinorVer": "6"
           }
         },
@@ -58,6 +59,7 @@
           "device": "LG HB620T",
           "properties": {
             "Version": "3.12",
+            "MajorVer": "3",
             "MinorVer": "12"
           }
         }
