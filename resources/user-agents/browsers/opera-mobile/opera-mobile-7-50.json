@@ -1,11 +1,12 @@
 {
-  "division": "Opera Mobile 7.50",
+  "division": "Opera Mobile #MAJORVER#.#MINORVER#",
+  "versions": ["7.50"],
   "sortIndex": 1046,
   "lite": false,
   "standard": false,
   "userAgents": [
     {
-      "userAgent": "Opera Mobile 7.50",
+      "userAgent": "Opera Mobile #MAJORVER#.#MINORVER#",
       "engine": "Presto_2_2",
       "device": "general Mobile Phone (Touch)",
       "properties": {
@@ -14,9 +15,9 @@
         "Browser": "Opera Mobile",
         "Browser_Maker": "Opera Software ASA",
         "Browser_Type": "Browser",
-        "Version": "7.50",
-        "MajorVer": "7",
-        "MinorVer": "50",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
         "Win32": "false",
         "Frames": "true",
         "IFrames": "true",
@@ -41,7 +42,7 @@
           ]
         },
         {
-          "match": "MOT-A780\/E680I_G_0* Opera 7.5*",
+          "match": "MOT-A780\/E680I_G_0* Opera #MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone",
           "platforms": [
             "SymbianOS"

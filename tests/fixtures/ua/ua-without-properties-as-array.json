@@ -5,7 +5,8 @@
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "UA1"
+      "userAgent": "UA1",
+      "properties": "UA1"
     }
   ]
 }

@@ -1,16 +1,17 @@
 {
-  "division": "SonyEricsson 4.0",
+  "division": "SonyEricsson #MAJORVER#.#MINORVER#",
+  "versions": [4],
   "sortIndex": 10671,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "SonyEricsson 4.0",
+      "userAgent": "SonyEricsson #MAJORVER#.#MINORVER#",
       "platform": "SymbianOS",
       "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "SonyEricsson 4.0",
+        "Comment": "SonyEricsson #MAJORVER#.#MINORVER#",
         "Browser": "SEMC",
         "Browser_Type": "Browser",
         "Alpha": "false",
@@ -22,52 +23,53 @@
         "isSyndicationReader": "false",
         "Crawler": "false",
         "CssVersion": "1",
-        "Version": "4.0",
-        "MajorVer": "4"
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#"
       },
       "children": [
         {
-          "match": "SonyEricssonF500i\/* SEMC-Browser\/4.*",
+          "match": "SonyEricssonF500i\/* SEMC-Browser\/#MAJORVER#.#MINORVER#*",
           "device": "SonyEricsson F500i"
         },
         {
-          "match": "SonyEricssonJ300a\/* SEMC-Browser\/4.*",
+          "match": "SonyEricssonJ300a\/* SEMC-Browser\/#MAJORVER#.#MINORVER#*",
           "device": "SonyEricsson J300a"
         },
         {
-          "match": "SonyEricssonJ300c\/* SEMC-Browser\/4.*",
+          "match": "SonyEricssonJ300c\/* SEMC-Browser\/#MAJORVER#.#MINORVER#*",
           "device": "SonyEricsson J300c"
         },
         {
-          "match": "SonyEricssonJ300i\/* SEMC-Browser\/4.*",
+          "match": "SonyEricssonJ300i\/* SEMC-Browser\/#MAJORVER#.#MINORVER#*",
           "device": "SonyEricsson J300i"
         },
         {
-          "match": "SonyEricssonK300a\/* SEMC-Browser\/4.*",
+          "match": "SonyEricssonK300a\/* SEMC-Browser\/#MAJORVER#.#MINORVER#*",
           "device": "SonyEricsson K300a"
         },
         {
-          "match": "SonyEricssonK300c\/* SEMC-Browser\/4.*",
+          "match": "SonyEricssonK300c\/* SEMC-Browser\/#MAJORVER#.#MINORVER#*",
           "device": "SonyEricsson K300c"
         },
         {
-          "match": "SonyEricssonK300i\/* SEMC-Browser\/4.*",
+          "match": "SonyEricssonK300i\/* SEMC-Browser\/#MAJORVER#.#MINORVER#*",
           "device": "SonyEricsson K300i"
         },
         {
-          "match": "SonyEricssonK500c\/* SEMC-Browser\/4.*",
+          "match": "SonyEricssonK500c\/* SEMC-Browser\/#MAJORVER#.#MINORVER#*",
           "device": "SonyEricsson K500c"
         },
         {
-          "match": "SonyEricssonK500i\/* SEMC-Browser\/4.*",
+          "match": "SonyEricssonK500i\/* SEMC-Browser\/#MAJORVER#.#MINORVER#*",
           "device": "SonyEricsson K500i"
         },
         {
-          "match": "SonyEricssonK508c\/* SEMC-Browser\/4.*",
+          "match": "SonyEricssonK508c\/* SEMC-Browser\/#MAJORVER#.#MINORVER#*",
           "device": "SonyEricsson K508c"
         },
         {
-          "match": "SonyEricssonK508i\/* SEMC-Browser\/4.*",
+          "match": "SonyEricssonK508i\/* SEMC-Browser\/#MAJORVER#.#MINORVER#*",
           "device": "SonyEricsson K508i"
         }
       ]

@@ -1,8 +1,9 @@
 {
   "division": "Division2",
+  "versions": ["1.0"],
   "sortIndex": 100,
   "lite": true,
-  "versions": ["1.0"],
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "UA2",
@@ -13,7 +14,12 @@
         "Version": "2.0",
         "MajorVer": "2",
         "MinorVer": "0"
-      }
+      },
+      "children": [
+        {
+          "match": "cde2"
+        }
+      ]
     }
   ]
 }

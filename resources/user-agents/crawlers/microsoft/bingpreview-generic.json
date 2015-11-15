@@ -1,43 +1,39 @@
 {
-  "division": "BingPreview #MAJORVER#.#MINORVER#",
-  "versions": ["1.0"],
-  "sortIndex": 1241,
+  "division": "BingPreview Generic",
+  "sortIndex": 1242,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "BingPreview #MAJORVER#.#MINORVER#",
+      "userAgent": "BingPreview Generic",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser_Type": "Bot/Crawler",
         "Browser_Maker": "Microsoft Corporation",
-        "Comment": "BingPreview #MAJORVER#.#MINORVER#",
+        "Comment": "BingPreview Generic",
         "Browser": "BingPreview",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
-        "Crawler": "true",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#"
+        "Crawler": "true"
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) *BingPreview\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) *BingPreview\/*",
           "device": "Windows Desktop",
           "platforms": [
             "Win7_64", "Win7_32"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible; MSIE 9.0; #PLATFORM# Trident\/5.0; *BingPreview\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (compatible; MSIE 9.0; #PLATFORM# Trident\/5.0; *BingPreview\/*",
           "device": "Windows Desktop",
           "platforms": [
             "Win7_64", "Win7_32"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible; MSIE 10.0; #PLATFORM# Trident\/6.0*)*BingPreview\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (compatible; MSIE 10.0; #PLATFORM# Trident\/6.0*)*BingPreview\/*",
           "device": "Windows Desktop",
           "platforms": [
             "Win7_x64", "Win7_64", "Win7_32",
@@ -47,7 +43,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Trident\/7.0*rv:11.0; BingPreview\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (#PLATFORM#Trident\/7.0*rv:11.0; BingPreview\/*",
           "device": "Windows Desktop",
           "platforms": [
             "Win7_x64", "Win7_64", "Win7_32",
@@ -55,30 +51,30 @@
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
             "Win10_x64", "Win10_64", "Win10_32", "Win10_x64_B", "Win10_64_B", "Win10_32_B"
           ]
+        },
+        {
+          "match": "Mozilla\/* (*) AppleWebKit\/* (KHTML, like Gecko) BingPreview\/*"
         }
       ]
     },
     {
-      "userAgent": "BingPreview for iOS #MAJORVER#.#MINORVER#",
+      "userAgent": "BingPreview for iOS Generic",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser_Type": "Bot/Crawler",
         "Browser_Maker": "Microsoft Corporation",
-        "Comment": "BingPreview for iOS #MAJORVER#.#MINORVER#",
+        "Comment": "BingPreview for iOS Generic",
         "Browser": "BingPreview",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
-        "Crawler": "true",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#"
+        "Crawler": "true"
       },
       "children": [
         {
-          "match": "Mozilla\/5.0*(iPad#PLATFORM#)*AppleWebKit\/*(*KHTML? like Gecko*)*Version\/*Safari\/* BingPreview\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0*(iPad#PLATFORM#)*AppleWebKit\/*(*KHTML? like Gecko*)*Version\/*Safari\/* BingPreview\/*",
           "device": "iPad",
           "platforms": [
             "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
@@ -91,7 +87,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0*(iPhone#PLATFORM#)*AppleWebKit\/*(*KHTML? like Gecko*)*Version\/*Safari\/* BingPreview\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0*(iPhone#PLATFORM#)*AppleWebKit\/*(*KHTML? like Gecko*)*Version\/*Safari\/* BingPreview\/*",
           "device": "iPhone",
           "platforms": [
             "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
@@ -104,7 +100,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0*(iPod#PLATFORM#)*AppleWebKit\/*(*KHTML? like Gecko*)*Version\/*Safari\/* BingPreview\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0*(iPod#PLATFORM#)*AppleWebKit\/*(*KHTML? like Gecko*)*Version\/*Safari\/* BingPreview\/*",
           "device": "iPod Touch",
           "platforms": [
             "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
@@ -117,7 +113,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0*(#PLATFORM#)*AppleWebKit\/*(*KHTML? like Gecko*)*Version\/*Safari\/* BingPreview\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0*(#PLATFORM#)*AppleWebKit\/*(*KHTML? like Gecko*)*Version\/*Safari\/* BingPreview\/*",
           "platforms": [
             "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
             "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0", "iOS_A_8_0_B",

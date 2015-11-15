@@ -1,6 +1,5 @@
 {
   "division": "Division1",
-  "versions": ["1.0"],
   "sortIndex": 200,
   "lite": true,
   "standard": true,
@@ -10,14 +9,12 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "UA1",
-        "Browser": "UA1",
-        "Version": "1.0",
-        "MajorVer": "1",
-        "MinorVer": "0",
-        "RenderingEngine_Name": "xyz"
+        "Browser": "UA1"
       },
       "children": [
-        "xyz"
+        {
+          "match": "cde #MAJORVER#.#MINORVER#"
+        }
       ]
     }
   ]

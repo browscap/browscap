@@ -475,11 +475,12 @@ class Expander
 
             $completeVersions = explode('.', $properties['Version'], 2);
 
-            if (!isset($properties['MajorVer'])) {
+            if (!isset($properties['MajorVer']) || '#MAJORVER#' === $properties['MajorVer']) {
                 $properties['MajorVer'] = (string) $completeVersions[0];
             } elseif ($properties['MajorVer'] !== (string) $completeVersions[0]) {
                 throw new \UnexpectedValueException(
-                    'MajorVersion from properties does not match with Version for key "' . $key . '"'
+                    'MajorVersion from properties does not match with Version for key "' . $key . '", "'
+                    . $properties['MajorVer'] . '" was defined, "' . (string) $completeVersions[0] . '" was expected'
                 );
             }
 
@@ -489,11 +490,12 @@ class Expander
                 $minorVersion = '0';
             }
 
-            if (!isset($properties['MinorVer'])) {
+            if (!isset($properties['MinorVer']) || '#MINORVER#' === $properties['MinorVer']) {
                 $properties['MinorVer'] = $minorVersion;
             } elseif ($properties['MinorVer'] !== $minorVersion) {
                 throw new \UnexpectedValueException(
-                    'MinorVersion from properties does not match with Version for key "' . $key . '"'
+                    'MinorVersion from properties does not match with Version for key "' . $key . '", "'
+                    . $properties['MinorVer'] . '" was defined, "' . $minorVersion . '" was expected'
                 );
             }
 

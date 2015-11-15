@@ -266,7 +266,8 @@ class DataCollection
                     throw new \UnexpectedValueException('Division "' . $useragent['userAgent'] . '" is defined twice');
                 }
 
-                if ((false !== strpos($useragent['userAgent'], '#MAJORVER#') || false !== strpos($useragent['userAgent'], '#MINORVER#'))
+                if ((false !== strpos($useragent['userAgent'], '#MAJORVER#')
+                        || false !== strpos($useragent['userAgent'], '#MINORVER#'))
                     && array('0.0') === $versions
                 ) {
                     throw new \UnexpectedValueException(
@@ -275,7 +276,13 @@ class DataCollection
                     );
                 }
 
-                if (!isset($useragent['properties']) || !is_array($useragent['properties'])) {
+                if (!isset($useragent['properties'])) {
+                    throw new \UnexpectedValueException(
+                        'the properties entry is missing for key "' . $useragent['userAgent'] . '"'
+                    );
+                }
+
+                if (!is_array($useragent['properties'])) {
                     throw new \UnexpectedValueException(
                         'the properties entry has to be an array for key "' . $useragent['userAgent'] . '"'
                     );
@@ -371,11 +378,12 @@ class DataCollection
                         );
                     }
 
-                    if ((false !== strpos($child['match'], '#MAJORVER#') || false !== strpos($child['match'], '#MINORVER#'))
+                    if ((false !== strpos($child['match'], '#MAJORVER#')
+                            || false !== strpos($child['match'], '#MINORVER#'))
                         && array('0.0') === $versions
                     ) {
                         throw new \UnexpectedValueException(
-                            'the  key "' . $child['match']
+                            'the key "' . $child['match']
                             . '" is defined with version placeholders, but no versions are set'
                         );
                     }
@@ -384,7 +392,7 @@ class DataCollection
                         && !isset($child['platforms'])
                     ) {
                         throw new \UnexpectedValueException(
-                            'the  key "' . $child['match']
+                            'the key "' . $child['match']
                             . '" is defined with platform placeholder, but no platforms are asigned'
                         );
                     }

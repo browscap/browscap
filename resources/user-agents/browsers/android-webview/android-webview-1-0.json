@@ -149,13 +149,6 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#;HTC_Flyer_P510e Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER# Safari*",
-          "device": "HTC P510e",
-          "platforms": [
-            "Android_3_2"
-          ]
-        },
-        {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-P6800 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Samsung GT-P6800",
           "platforms": [
@@ -1181,13 +1174,6 @@
           "device": "GT-S5830",
           "platforms": [
             "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#HTC Incredible S Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER# *",
-          "device": "HTC S710E",
-          "platforms": [
-            "Android_2_2", "Android_2_3", "Android_4_0"
           ]
         },
         {
@@ -4018,13 +4004,6 @@
           "device": "TechniSat TechniPad 10 3G",
           "platforms": [
             "Android_4_1"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#Tablet-PC-4 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER# Safari*",
-          "device": "CatSound Tablet PC 4",
-          "platforms": [
-            "Android_4_0"
           ]
         },
         {

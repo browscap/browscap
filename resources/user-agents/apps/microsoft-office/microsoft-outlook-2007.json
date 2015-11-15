@@ -17,7 +17,7 @@
         "Browser_Maker": "Microsoft Corporation",
         "Version": "#MAJORVER#",
         "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
+        "MinorVer": "0",
         "Frames": "true",
         "Tables": "true",
         "CssVersion": "2",

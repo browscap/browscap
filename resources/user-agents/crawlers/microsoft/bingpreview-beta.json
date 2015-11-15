@@ -1,7 +1,7 @@
 {
   "division": "BingPreview #MAJORVER#.#MINORVER#",
-  "versions": ["1.0"],
-  "sortIndex": 1241,
+  "versions": ["1.0b"],
+  "sortIndex": 1240,
   "lite": false,
   "standard": true,
   "userAgents": [
@@ -19,7 +19,8 @@
         "Crawler": "true",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#"
+        "MinorVer": "#MINORVER#",
+        "Beta": "true"
       },
       "children": [
         {
@@ -74,7 +75,8 @@
         "Crawler": "true",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#"
+        "MinorVer": "#MINORVER#",
+        "Beta": "true"
       },
       "children": [
         {

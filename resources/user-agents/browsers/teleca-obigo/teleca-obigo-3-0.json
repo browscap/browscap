@@ -1,16 +1,17 @@
 {
-  "division": "Teleca-Obigo 3.0",
+  "division": "Teleca-Obigo #MAJORVER#.#MINORVER#",
+  "versions": [3],
   "sortIndex": 10773,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "Teleca-Obigo 3.0",
+      "userAgent": "Teleca-Obigo #MAJORVER#.#MINORVER#",
       "platform": "JAVA",
       "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Teleca-Obigo",
+        "Comment": "Teleca-Obigo #MAJORVER#.#MINORVER#",
         "Browser": "Teleca-Obigo",
         "Browser_Type": "Browser",
         "Frames": "true",
@@ -19,8 +20,9 @@
         "Cookies": "true",
         "JavaScript": "true",
         "CssVersion": "1",
-        "Version": "3.0",
-        "MajorVer": "3"
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#"
       },
       "children": [
         {
@@ -36,7 +38,7 @@
           "device": "Huawei G6600"
         },
         {
-          "match": "Vodafone\/1.0\/Panasonic-VS3\/VA43 Browser\/Obigo-Browser\/3.0 *",
+          "match": "Vodafone\/1.0\/Panasonic-VS3\/VA43 Browser\/Obigo-Browser\/#MAJORVER#.#MINORVER# *",
           "device": "Panasonic VS3"
         },
         {

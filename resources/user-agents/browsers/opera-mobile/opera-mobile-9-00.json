@@ -1,11 +1,12 @@
 {
-  "division": "Opera Mobile 9.00",
+  "division": "Opera Mobile #MAJORVER#.#MINORVER#",
+  "versions": ["9.00"],
   "sortIndex": 1040,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "Opera Mobile 9.00",
+      "userAgent": "Opera Mobile #MAJORVER#.#MINORVER#",
       "engine": "Presto_2_2",
       "device": "general Mobile Phone (Touch)",
       "properties": {
@@ -14,9 +15,9 @@
         "Browser": "Opera Mobile",
         "Browser_Maker": "Opera Software ASA",
         "Browser_Type": "Browser",
-        "Version": "9.00",
-        "MajorVer": "9",
-        "MinorVer": "00",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
         "Win32": "false",
         "Frames": "true",
         "IFrames": "true",
@@ -27,14 +28,14 @@
       },
       "children": [
         {
-          "match": "Opera\/9.* (Microsoft Windows; PPC; Opera Mobi\/*)",
+          "match": "Opera\/#MAJORVER#.#MINORVER#* (Microsoft Windows; PPC; Opera Mobi\/*)",
           "device": "general Mobile Phone",
           "platforms": [
             "WinMobile"
           ]
         },
         {
-          "match": "Opera\/9.* (Windows*; Opera Mobi\/*) Presto\/2.*",
+          "match": "Opera\/#MAJORVER#.#MINORVER#* (Windows*; Opera Mobi\/*) Presto\/2.*",
           "device": "general Mobile Phone",
           "platforms": [
             "WinMobile"

@@ -1,16 +1,17 @@
 {
-  "division": "SonyEricsson 4.2",
+  "division": "SonyEricsson #MAJORVER#.#MINORVER#",
+  "versions": ["4.2"],
   "sortIndex": 10670,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "SonyEricsson 4.2",
+      "userAgent": "SonyEricsson #MAJORVER#.#MINORVER#",
       "platform": "SymbianOS",
       "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "SonyEricsson 4.2",
+        "Comment": "SonyEricsson #MAJORVER#.#MINORVER#",
         "Browser": "SEMC",
         "Browser_Type": "Browser",
         "Alpha": "false",
@@ -22,21 +23,21 @@
         "isSyndicationReader": "false",
         "Crawler": "false",
         "CssVersion": "1",
-        "Version": "4.2",
-        "MajorVer": "4",
-        "MinorVer": "2"
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#"
       },
       "children": [
         {
-          "match": "SonyEricssonD750i\/* Browser\/SEMC-Browser\/4.2*",
+          "match": "SonyEricssonD750i\/* Browser\/SEMC-Browser\/#MAJORVER#.#MINORVER#*",
           "device": "SonyEricsson D750i"
         },
         {
-          "match": "SonyEricssonK600c\/* Browser\/SEMC-Browser\/4.2*",
+          "match": "SonyEricssonK600c\/* Browser\/SEMC-Browser\/#MAJORVER#.#MINORVER#*",
           "device": "SonyEricsson K600c"
         },
         {
-          "match": "SonyEricssonK600i\/* Browser\/SEMC-Browser\/4.2*",
+          "match": "SonyEricssonK600i\/* Browser\/SEMC-Browser\/#MAJORVER#.#MINORVER#*",
           "device": "SonyEricsson K600i"
         }
       ]
