@@ -29,7 +29,7 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "Version": "#MAJORVER#",
+        "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#"
       },
