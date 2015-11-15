@@ -1,0 +1,12 @@
+{
+  "division": "Division1",
+  "sortIndex": 200,
+  "lite": true,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "UA1",
+      "properties": "UA1"
+    }
+  ]
+}

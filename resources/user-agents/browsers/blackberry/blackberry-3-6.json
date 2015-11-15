@@ -1,15 +1,17 @@
 {
-  "division": "BlackBerry 3.6",
+  "division": "BlackBerry #MAJORVER#.#MINORVER#",
+  "versions": ["3.6"],
   "sortIndex": 2375,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
-      "userAgent": "BlackBerry 3.6",
-      "platform": "RIMOS_3_6",
+      "userAgent": "BlackBerry #MAJORVER#.#MINORVER#",
+      "platform": "RIMOS_Dynamic",
       "device": "general Mobile Phone (old Blackberry)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "BlackBerry 3.6",
+        "Comment": "BlackBerry #MAJORVER#.#MINORVER#",
         "Browser": "BlackBerry",
         "Browser_Type": "Browser",
         "Browser_Maker": "Research In Motion Limited",
@@ -18,29 +20,29 @@
         "Cookies": "true",
         "JavaScript": "true",
         "CssVersion": "2",
-        "Version": "3.6",
-        "MajorVer": "3",
-        "MinorVer": "6"
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#"
       },
       "children": [
         {
-          "match": "BlackBerry5810\/3.6*",
+          "match": "BlackBerry5810\/#MAJORVER#.#MINORVER#*",
           "device": "Blackberry 5810"
         },
         {
-          "match": "BlackBerry5820\/3.6*",
+          "match": "BlackBerry5820\/#MAJORVER#.#MINORVER#*",
           "device": "Blackberry 5820"
         },
         {
-          "match": "BlackBerry6220\/3.6*",
+          "match": "BlackBerry6220\/#MAJORVER#.#MINORVER#*",
           "device": "Blackberry 6220"
         },
         {
-          "match": "BlackBerry6720\/3.6*",
+          "match": "BlackBerry6720\/#MAJORVER#.#MINORVER#*",
           "device": "Blackberry 6720"
         },
         {
-          "match": "BlackBerrySimulator\/3.6*"
+          "match": "BlackBerrySimulator\/#MAJORVER#.#MINORVER#*"
         }
       ]
     }

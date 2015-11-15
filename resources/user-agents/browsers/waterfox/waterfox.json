@@ -3,6 +3,7 @@
   "versions": ["38.1", 38, 37, 36, 35, 34, 33, 32, 31, 30, 29, 28, 27, 26],
   "sortIndex": 3145,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Waterfox #MAJORVER#.#MINORVER#",
@@ -34,7 +35,7 @@
             "Win8_1_64", "Win8_1_x64",
             "Win10_x64", "Win10_64",
             "Win10_x64_B", "Win10_64_B",
-            "NT4_64", "NT4_x64"
+            "NT4_64", "NT4_x64", "Windows"
           ]
         }
       ]

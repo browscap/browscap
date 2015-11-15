@@ -1,0 +1,42 @@
+{
+  "division": "Lightspeed Systems RocketCrawler",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Lightspeed Systems RocketCrawler",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Lightspeed Systems RocketCrawler",
+        "Browser": "Lightspeed Systems RocketCrawler",
+        "Browser_Maker": "Lightspeed Systems",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/4.0 (#PLATFORM#) Lightspeedsystems*",
+          "device": "Windows Desktop",
+          "properties": {
+            "Browser": "Lightspeed Systems Crawler"
+          },
+          "platforms": [
+            "WinXPa_32"
+          ]
+        },
+        {
+          "match": "LSSRocketCrawler\/1.0 LightspeedSystems*",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "LSSRocketCrawler\/* LightspeedSystems*"
+        }
+      ]
+    }
+  ]
+}

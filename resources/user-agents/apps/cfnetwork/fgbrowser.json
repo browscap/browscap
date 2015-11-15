@@ -2,6 +2,7 @@
   "division": "fgBrowser",
   "sortIndex": 4340,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "fgBrowser",

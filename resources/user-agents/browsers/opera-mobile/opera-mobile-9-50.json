@@ -1,10 +1,12 @@
 {
-  "division": "Opera Mobile 9.50",
+  "division": "Opera Mobile #MAJORVER#.#MINORVER#",
+  "versions": ["9.50", "9.5"],
   "sortIndex": 1039,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
-      "userAgent": "Opera Mobile 9.50",
+      "userAgent": "Opera Mobile #MAJORVER#.#MINORVER#",
       "engine": "Presto_2_2",
       "device": "general Mobile Phone (Touch)",
       "properties": {
@@ -13,9 +15,9 @@
         "Browser": "Opera Mobile",
         "Browser_Maker": "Opera Software ASA",
         "Browser_Type": "Browser",
-        "Version": "9.50",
-        "MajorVer": "9",
-        "MinorVer": "50",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
         "Win32": "false",
         "Frames": "true",
         "IFrames": "true",
@@ -26,189 +28,189 @@
       },
       "children": [
         {
-          "match": "HTC-P4600\/1.2 Opera\/9.5*",
+          "match": "HTC-P4600\/1.2 Opera\/#MAJORVER#.#MINORVER#*",
           "device": "HTC P4600"
         },
         {
-          "match": "HTC\/ 1.0 Opera 9.5"
+          "match": "HTC\/ 1.0 Opera #MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "HTC_HD_T8282 Opera\/9.5*",
+          "match": "HTC_HD_T8282 Opera\/#MAJORVER#.#MINORVER#*",
           "device": "HTC HD T8282"
         },
         {
-          "match": "HTC_P3700 Opera\/9.5*",
+          "match": "HTC_P3700 Opera\/#MAJORVER#.#MINORVER#*",
           "device": "HTC P3700"
         },
         {
-          "match": "HTC_P3701 Opera\/9.5*",
+          "match": "HTC_P3701 Opera\/#MAJORVER#.#MINORVER#*",
           "device": "HTC P3701"
         },
         {
-          "match": "HTC_Touch2_T3333 Opera\/9.5*",
+          "match": "HTC_Touch2_T3333 Opera\/#MAJORVER#.#MINORVER#*",
           "device": "HTC T3333"
         },
         {
-          "match": "HTC_Touch_3G_T3232 Opera\/9.5*",
+          "match": "HTC_Touch_3G_T3232 Opera\/#MAJORVER#.#MINORVER#*",
           "device": "HTC Touch 3G T3232"
         },
         {
-          "match": "HTC_Touch_Cruise_T4242 Opera\/9.5*",
+          "match": "HTC_Touch_Cruise_T4242 Opera\/#MAJORVER#.#MINORVER#*",
           "device": "HTC Touch Cruise T4242"
         },
         {
-          "match": "HTC_Touch_Diamond2_T5353 Opera\/9.5*",
+          "match": "HTC_Touch_Diamond2_T5353 Opera\/#MAJORVER#.#MINORVER#*",
           "device": "HTC Touch Diamond2 T5353"
         },
         {
-          "match": "HTC_Touch_HD Opera\/9.5*",
+          "match": "HTC_Touch_HD Opera\/#MAJORVER#.#MINORVER#*",
           "device": "HTC Touch HD"
         },
         {
-          "match": "HTC_Touch_HD_T8282 Opera\/9.5*",
+          "match": "HTC_Touch_HD_T8282 Opera\/#MAJORVER#.#MINORVER#*",
           "device": "HTC Touch HD T8282"
         },
         {
-          "match": "HTC_Touch_Pro2_T7272 Opera\/9.5*",
+          "match": "HTC_Touch_Pro2_T7272 Opera\/#MAJORVER#.#MINORVER#*",
           "device": "HTC Touch Pro2 T7272"
         },
         {
-          "match": "HTC_Touch_Pro2_T7373 Opera\/9.5*",
+          "match": "HTC_Touch_Pro2_T7373 Opera\/#MAJORVER#.#MINORVER#*",
           "device": "HTC Touch Pro2 T7373"
         },
         {
-          "match": "HTC_Touch_Pro_T7272 Opera\/9.5*",
+          "match": "HTC_Touch_Pro_T7272 Opera\/#MAJORVER#.#MINORVER#*",
           "device": "HTC T7272"
         },
         {
-          "match": "SAMSUNG-GT-B7610\/* Opera 9.5",
+          "match": "SAMSUNG-GT-B7610\/* Opera #MAJORVER#.#MINORVER#*",
           "device": "Samsung GT-B7610"
         },
         {
-          "match": "SAMSUNG-GT-i8000* (*Opera Mobi; U*Opera 9.5",
+          "match": "SAMSUNG-GT-i8000* (*Opera Mobi; U*Opera #MAJORVER#.#MINORVER#*",
           "device": "Samsung GT-I8000"
         },
         {
-          "match": "SAMSUNG-S8000* Opera\/9.5 *",
+          "match": "SAMSUNG-S8000* Opera\/#MAJORVER#.#MINORVER#*",
           "device": "Samsung GT-S8000"
         },
         {
-          "match": "SAMSUNG-S8300* Opera\/9.5 *",
+          "match": "SAMSUNG-S8300* Opera\/#MAJORVER#.#MINORVER#*",
           "device": "Samsung GT-S8300"
         },
         {
-          "match": "SAMSUNG-SGH-L810-Vodafone\/L810BUHEC SHP\/VPP\/R5 Opera\/9.5*",
+          "match": "SAMSUNG-SGH-L810-Vodafone\/L810BUHEC SHP\/VPP\/R5 Opera\/#MAJORVER#.#MINORVER#*",
           "device": "Samsung SGH-L810"
         },
         {
-          "match": "SAMSUNG-SGH-i900* Opera 9.5",
+          "match": "SAMSUNG-SGH-i900* Opera #MAJORVER#.#MINORVER#*",
           "device": "Samsung SGH-I900"
         },
         {
-          "match": "Swisscom\/1.0\/HTC_Touch_Pro2\/ Opera\/9.5*",
+          "match": "Swisscom\/1.0\/HTC_Touch_Pro2\/ Opera\/#MAJORVER#.#MINORVER#*",
           "device": "HTC Touch Pro2"
         },
         {
-          "match": "Vodafone\/1.0\/HTC_Diamond Opera\/9.5*",
+          "match": "Vodafone\/1.0\/HTC_Diamond Opera\/#MAJORVER#.#MINORVER#*",
           "device": "HTC Diamond"
         },
         {
-          "match": "Vodafone\/1.0\/HTC_Touch_3G_T3232 Opera\/9.5*",
+          "match": "Vodafone\/1.0\/HTC_Touch_3G_T3232 Opera\/#MAJORVER#.#MINORVER#*",
           "device": "HTC Touch 3G T3232"
         },
         {
-          "match": "Vodafone\/1.0\/HTC_Touch_Diamond2 Opera\/9.5*",
+          "match": "Vodafone\/1.0\/HTC_Touch_Diamond2 Opera\/#MAJORVER#.#MINORVER#*",
           "device": "HTC Diamond2"
         },
         {
-          "match": "Vodafone\/1.0\/HTC_Touch_Diamond2\/* Opera\/9.5*",
+          "match": "Vodafone\/1.0\/HTC_Touch_Diamond2\/* Opera\/#MAJORVER#.#MINORVER#*",
           "device": "HTC Diamond2"
         },
         {
-          "match": "Vodafone\/1.0\/HTC_Touch_Pro Opera\/9.5*",
+          "match": "Vodafone\/1.0\/HTC_Touch_Pro Opera\/#MAJORVER#.#MINORVER#*",
           "device": "HTC Touch Pro"
         },
         {
-          "match": "Vodafone\/1.0\/SAMSUNG-GT-B7610\/BUIH3 Browser\/Opera\/9.5*",
+          "match": "Vodafone\/1.0\/SAMSUNG-GT-B7610\/BUIH3 Browser\/Opera\/#MAJORVER#.#MINORVER#*",
           "device": "Samsung GT-B7610"
         },
         {
-          "match": "Xda_Diamond_2 Opera\/9.5*",
+          "match": "Xda_Diamond_2 Opera\/#MAJORVER#.#MINORVER#*",
           "device": "HTC Touch Diamond2"
         },
         {
-          "match": "Xda_diamond Opera\/9.5*",
+          "match": "Xda_diamond Opera\/#MAJORVER#.#MINORVER#*",
           "device": "HTC Touch Diamond"
         },
         {
-          "match": "Xda_diamond_pro Opera\/9.5*",
+          "match": "Xda_diamond_pro Opera\/#MAJORVER#.#MINORVER#*",
           "device": "HTC Touch Diamond Pro"
         },
         {
-          "match": "HTC-ST6356\/* (*Opera\/9.5* (Windows NT 5.1; U*)",
+          "match": "HTC-ST6356\/* (*Opera\/#MAJORVER#.#MINORVER#* (Windows NT 5.1; U*)",
           "device": "HTC ST6356",
           "platforms": [
             "WinMobile"
           ]
         },
         {
-          "match": "HTC-ST7377\/* (*Opera\/9.5* (Windows NT 5.1; U*)",
+          "match": "HTC-ST7377\/* (*Opera\/#MAJORVER#.#MINORVER#* (Windows NT 5.1; U*)",
           "device": "HTC ST7377",
           "platforms": [
             "WinMobile"
           ]
         },
         {
-          "match": "HTC_Touch2_T3335 Opera\/9.50 (Windows*)",
+          "match": "HTC_Touch2_T3335 Opera\/#MAJORVER#.#MINORVER# (Windows*)",
           "device": "HTC Touch2 T3335",
           "platforms": [
             "WinMobile"
           ]
         },
         {
-          "match": "MOT-A3100\/ Opera\/9.5* (Microsoft Windows; PPC; Opera Mobi\/*)",
+          "match": "MOT-A3100\/ Opera\/#MAJORVER#.#MINORVER#* (Microsoft Windows; PPC; Opera Mobi\/*)",
           "device": "Motorola A3100",
           "platforms": [
             "WinMobile"
           ]
         },
         {
-          "match": "O2\/1.0\/SEX1i\/R3AA Opera\/9.5 (Microsoft Windows; PPC; Opera Mobi\/*UP.Link\/*",
+          "match": "O2\/1.0\/SEX1i\/R3AA Opera\/#MAJORVER#.#MINORVER#* (Microsoft Windows; PPC; Opera Mobi\/*UP.Link\/*",
           "device": "SonyEricsson X1i",
           "platforms": [
             "WinMobile"
           ]
         },
         {
-          "match": "Opera\/9.5 (Microsoft Windows; PPC*Opera Mobile\/*)",
+          "match": "Opera\/#MAJORVER#.#MINORVER#* (Microsoft Windows; PPC*Opera Mobile\/*)",
           "device": "general Mobile Phone",
           "platforms": [
             "WinMobile"
           ]
         },
         {
-          "match": "Opera\/9.5 (Microsoft Windows; PPC; Opera Mobi\/*)",
+          "match": "Opera\/#MAJORVER#.#MINORVER#* (Microsoft Windows; PPC; Opera Mobi\/*)",
           "device": "general Mobile Phone",
           "platforms": [
             "WinMobile"
           ]
         },
         {
-          "match": "Opera\/9.5* Beta (Microsoft Windows; PPC; Opera Mobi\/*",
+          "match": "Opera\/#MAJORVER#.#MINORVER#* Beta (Microsoft Windows; PPC; Opera Mobi\/*",
           "device": "general Mobile Phone",
           "platforms": [
             "WinMobile"
           ]
         },
         {
-          "match": "PPC; 240x320; HTC_Mega-T3333-Orange; OpVer* Opera\/9.5* (Microsoft Windows 6.5; U;*)",
+          "match": "PPC; 240x320; HTC_Mega-T3333-Orange; OpVer* Opera\/#MAJORVER#.#MINORVER#* (Microsoft Windows 6.5; U;*)",
           "device": "HTC T3333",
           "platforms": [
             "WinMobile"
           ]
         },
         {
-          "match": "SAMSUNG-GT-B7300\/* (Windows CE; Opera Mobi; ?*Opera 9.5",
+          "match": "SAMSUNG-GT-B7300\/* (Windows CE; Opera Mobi; ?*Opera #MAJORVER#.#MINORVER#*",
           "device": "Samsung GT-B7300",
           "platforms": [
             "WinCE"

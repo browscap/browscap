@@ -3,6 +3,7 @@
   "versions": ["4.2", "4.1", "4.0"],
   "sortIndex": 1540,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "NetFront #MAJORVER#.#MINORVER#",
@@ -27,7 +28,6 @@
       "children": [
         {
           "match": "Mozilla\/4.0 (compatible; Linux*) NetFront\/#MAJORVER#.#MINORVER#* Kindle\/1.0 (screen 600x800)",
-
           "device": "Amazon Kindle",
           "platforms": [
             "Android"
@@ -58,7 +58,11 @@
           ]
         },
         {
-          "match": "SAMSUNG* *NetFront\/#MAJORVER#.#MINORVER#*"
+          "match": "SAMSUNG* *NetFront\/#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Phone (Touch)",
+          "platforms": [
+            "JAVA"
+          ]
         },
         {
           "match": "SEC-* *NetFront\/#MAJORVER#.#MINORVER#*"

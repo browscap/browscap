@@ -2,6 +2,7 @@
   "division": "BlackBerry",
   "sortIndex": 2376,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "BlackBerry",
@@ -20,6 +21,13 @@
         "CssVersion": "2"
       },
       "children": [
+        {
+          "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/*",
+          "device": "Blackberry Blackberry",
+          "platforms": [
+            "RIMOS"
+          ]
+        },
         {
           "match": "*BlackBerry*",
           "platforms": [

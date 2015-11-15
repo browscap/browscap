@@ -3,6 +3,7 @@
   "versions": [9],
   "sortIndex": 2420,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "PAD-bot #MAJORVER#.#MINORVER#",

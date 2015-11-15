@@ -1,0 +1,43 @@
+{
+  "division": "ZumBot",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "ZumBot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "ZumBot",
+        "Browser": "ZumBot",
+        "Browser_Maker": "ZUMinternet Corp",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "ZumBot\/1.0*",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "ZumBot\/*"
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; ZumBot\/1.0*",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; ZumBot\/*"
+        }
+      ]
+    }
+  ]
+}

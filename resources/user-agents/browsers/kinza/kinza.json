@@ -3,6 +3,7 @@
   "versions": ["1.2"],
   "sortIndex": 883,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Kinza #MAJORVER#.#MINORVER#",

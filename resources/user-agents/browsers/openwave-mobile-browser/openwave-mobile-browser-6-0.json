@@ -1,7 +1,9 @@
 {
   "division": "Openwave Mobile Browser 6.0",
+  "versions": [6],
   "sortIndex": 8216,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Openwave Mobile Browser 6.0",
@@ -16,8 +18,9 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "Version": "6.0",
-        "MajorVer": "6"
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#"
       },
       "children": [
         {
@@ -30,6 +33,9 @@
         },
         {
           "match": "OPWV-SDK\/* UP.Browser\/6.0*"
+        },
+        {
+          "match": "* UP.Browser\/6.0*"
         }
       ]
     }

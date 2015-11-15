@@ -2,6 +2,7 @@
   "division": "GEO",
   "sortIndex": 5030,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "GEO",

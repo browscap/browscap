@@ -1,20 +1,22 @@
 {
-  "division": "Motorola Internet Browser 2.0",
+  "division": "Motorola Internet Browser #MAJORVER#.#MINORVER#",
+  "versions": [2],
   "sortIndex": 7352,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
-      "userAgent": "Motorola Internet Browser 2.0",
+      "userAgent": "Motorola Internet Browser #MAJORVER#.#MINORVER#",
       "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Motorola Internet Browser 2.0",
+        "Comment": "Motorola Internet Browser #MAJORVER#.#MINORVER#",
         "Browser": "Motorola Internet Browser",
         "Browser_Type": "Browser",
         "Browser_Maker": "Motorola",
-        "Version": "2.0",
-        "MajorVer": "2",
-        "MinorVer": "0",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
@@ -22,35 +24,35 @@
       },
       "children": [
         {
-          "match": "MOT-A732\/ WAP.Browser\/2.0 *",
+          "match": "MOT-A732\/ WAP.Browser\/#MAJORVER#.#MINORVER# *",
           "device": "Motorola A732"
         },
         {
-          "match": "MOT-A732\/*\/WAP2.0 *",
+          "match": "MOT-A732\/*\/WAP#MAJORVER#.#MINORVER# *",
           "device": "Motorola A732"
         },
         {
-          "match": "MOT-T720\/* MIB\/2.0*",
+          "match": "MOT-T720\/* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola T720"
         },
         {
-          "match": "MOT-T720\/05.* MIB\/2.0*",
+          "match": "MOT-T720\/05.* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola T720"
         },
         {
-          "match": "MOT-T720\/G_0* MIB\/2.0*",
+          "match": "MOT-T720\/G_0* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola T720"
         },
         {
-          "match": "MOT-T720\/G_0C.0B.3BR MIB\/2.0*",
+          "match": "MOT-T720\/G_0C.0B.3BR MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola T720"
         },
         {
-          "match": "MOT-T720M\/AS_G_05.06.20R MIB\/2.0*",
+          "match": "MOT-T720M\/AS_G_05.06.20R MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola T720M"
         },
         {
-          "match": "MOT-TA02\/* MIB\/2.0*",
+          "match": "MOT-TA02\/* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola TA02"
         },
         {
@@ -62,47 +64,47 @@
           "device": "Motorola W220"
         },
         {
-          "match": "MOT-c350\/G_09.04.* MIB\/2.0*",
+          "match": "MOT-c350\/G_09.04.* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola C350"
         },
         {
-          "match": "MOT-c350\/ULS_G_09.10.1?R MIB\/2.0*",
+          "match": "MOT-c350\/ULS_G_09.10.1?R MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola C350"
         },
         {
-          "match": "MOT-c350M\/AS_G_09.04.* MIB\/2.0*",
+          "match": "MOT-c350M\/AS_G_09.04.* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola C350M"
         },
         {
-          "match": "MOT-c350M\/G_09.04.* MIB\/2.0*",
+          "match": "MOT-c350M\/G_09.04.* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola C350M"
         },
         {
-          "match": "MOT-c350M\/G_09.04.7* MIB\/2.0*",
+          "match": "MOT-c350M\/G_09.04.7* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola C350M"
         },
         {
-          "match": "MOT-c350M\/LTS_G_09.10.* MIB\/2.0*",
+          "match": "MOT-c350M\/LTS_G_09.10.* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola C350M"
         },
         {
-          "match": "MOT-c350M\/ULSAS_G_09.10.* MIB\/2.0*",
+          "match": "MOT-c350M\/ULSAS_G_09.10.* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola C350M"
         },
         {
-          "match": "MOT-c350M\/ULS_G_09.* MIB\/2.0*",
+          "match": "MOT-c350M\/ULS_G_09.* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola C350M"
         },
         {
-          "match": "MOT-c350V\/AS_G_09.08.* MIB\/2.0*",
+          "match": "MOT-c350V\/AS_G_09.08.* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola C350V"
         },
         {
-          "match": "MOT-c350V\/G_09.08.* MIB\/2.0*",
+          "match": "MOT-c350V\/G_09.08.* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola C350V"
         },
         {
-          "match": "MOT-v150\/AS_G_09.09.* MIB\/2.0 *",
+          "match": "MOT-v150\/AS_G_09.09.* MIB\/#MAJORVER#.#MINORVER# *",
           "device": "Motorola V150"
         }
       ]

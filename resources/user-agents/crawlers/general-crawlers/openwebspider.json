@@ -1,0 +1,32 @@
+{
+  "division": "OpenWebSpider",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "OpenWebSpider",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "OpenWebSpider",
+        "Browser": "OpenWebSpider",
+        "Browser_Maker": "Stefano Alimonti",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "OpenWebSpider v0.1*",
+          "properties": {
+            "Version": "0.1",
+            "MajorVer": "0",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "OpenWebSpider*"
+        }
+      ]
+    }
+  ]
+}

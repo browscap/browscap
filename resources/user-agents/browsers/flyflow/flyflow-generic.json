@@ -2,6 +2,7 @@
   "division": "FlyFlow Generic",
   "sortIndex": 1711,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "FlyFlow Generic",

@@ -3,6 +3,7 @@
   "versions": [1],
   "sortIndex": 1142,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Vivaldi #MAJORVER#.#MINORVER#",
@@ -36,7 +37,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Chrome\/* Vivaldi\/#MAJORVER#.#MINORVER#*Safari\/*",
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_9_A", "OSX_10_9_B", "OSX_10_10_A", "OSX_10_10_B",
+            "OSX_10_9", "OSX_10_10",
             "OSX"
           ]
         },
@@ -54,7 +55,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Chrome\/* Safari\/* Vivaldi\/#MAJORVER#.#MINORVER#*",
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_9_A", "OSX_10_9_B", "OSX_10_10_A", "OSX_10_10_B",
+            "OSX_10_9", "OSX_10_10",
             "OSX"
           ]
         },

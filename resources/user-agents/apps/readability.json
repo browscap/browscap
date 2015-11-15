@@ -2,6 +2,7 @@
   "division": "Readability",
   "sortIndex": 5040,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Readability",

@@ -1,21 +1,23 @@
 {
-  "division": "OmniWeb 5.10",
+  "division": "OmniWeb #MAJORVER#.#MINORVER#",
+  "versions": ["5.10"],
   "sortIndex": 2701,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
-      "userAgent": "OmniWeb 5.10",
+      "userAgent": "OmniWeb #MAJORVER#.#MINORVER#",
       "platform": "OSX",
       "engine": "WebKit",
       "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "OmniWeb 5.10",
+        "Comment": "OmniWeb #MAJORVER#.#MINORVER#",
         "Browser": "OmniWeb",
         "Browser_Type": "Browser",
-        "Version": "5.10",
-        "MajorVer": "5",
-        "MinorVer": "10",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
@@ -25,10 +27,9 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/*(KHTML, like Gecko, Safari\/*) *Version\/5.10* *OmniWeb\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/*(KHTML, like Gecko, Safari\/*) *Version\/#MAJORVER#.#MINORVER#* *OmniWeb\/*",
           "platforms": [
-            "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
-            "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B", "OSX_10_10_A", "OSX_10_10_B",
+            "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
             "OSX"
           ]
         },

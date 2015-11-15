@@ -40,6 +40,7 @@ return [
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
         'lite' => true,
+        'standard' => true,
     ],
     'issue-766-B' => [
         'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.3; Trident/7.0)',
@@ -80,5 +81,6 @@ return [
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
         'lite' => true,
+        'standard' => true,
     ]
 ];

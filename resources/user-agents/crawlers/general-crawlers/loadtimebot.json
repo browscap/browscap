@@ -1,0 +1,48 @@
+{
+  "division": "LoadTimeBot",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "LoadTimeBot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "LoadTimeBot",
+        "Browser": "LoadTimeBot",
+        "Browser_Maker": "LoadTime",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (compatible; LoadTimeBot\/0.7*",
+          "properties": {
+            "Version": "0.7",
+            "MajorVer": "0",
+            "MinorVer": "7"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; LoadTimeBot\/0.8*",
+          "properties": {
+            "Version": "0.8",
+            "MajorVer": "0",
+            "MinorVer": "8"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; LoadTimeBot\/0.9*",
+          "properties": {
+            "Version": "0.9",
+            "MajorVer": "0",
+            "MinorVer": "9"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; LoadTimeBot\/*"
+        }
+      ]
+    }
+  ]
+}

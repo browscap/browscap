@@ -29,5 +29,7 @@ return [
             'RenderingEngine_Version' => '30.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
+        'lite' => true,
+        'standard' => true,
     ],
 ];

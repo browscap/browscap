@@ -29,5 +29,6 @@ return [
             'RenderingEngine_Maker' => 'KDE',
         ],
         'lite' => false,
+        'standard' => true,
     ],
 ];

@@ -2,6 +2,7 @@
   "division": "Convera",
   "sortIndex": 90,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Convera",
@@ -16,18 +17,18 @@
       },
       "children": [
         {
-          "match": "ConveraCrawler\/*",
-          "properties": {
-            "Browser": "ConveraCrawler"
-          }
-        },
-        {
           "match": "ConveraMultiMediaCrawler\/0.1*",
           "properties": {
             "Browser": "ConveraMultiMediaCrawler",
             "Version": "0.1",
             "MajorVer": "0",
             "MinorVer": "1"
+          }
+        },
+        {
+          "match": "ConveraMultiMediaCrawler\/*",
+          "properties": {
+            "Browser": "ConveraMultiMediaCrawler"
           }
         },
         {
@@ -40,6 +41,7 @@
           "match": "ConveraCrawler\/0.4*",
           "properties": {
             "Version": "0.4",
+            "MajorVer": "0",
             "MinorVer": "4"
           }
         },
@@ -47,6 +49,7 @@
           "match": "ConveraCrawler\/0.5*",
           "properties": {
             "Version": "0.5",
+            "MajorVer": "0",
             "MinorVer": "5"
           }
         },
@@ -54,6 +57,7 @@
           "match": "ConveraCrawler\/0.6*",
           "properties": {
             "Version": "0.6",
+            "MajorVer": "0",
             "MinorVer": "6"
           }
         },
@@ -61,6 +65,7 @@
           "match": "ConveraCrawler\/0.7*",
           "properties": {
             "Version": "0.7",
+            "MajorVer": "0",
             "MinorVer": "7"
           }
         },
@@ -68,6 +73,7 @@
           "match": "ConveraCrawler\/0.8*",
           "properties": {
             "Version": "0.8",
+            "MajorVer": "0",
             "MinorVer": "8"
           }
         },
@@ -75,7 +81,14 @@
           "match": "ConveraCrawler\/0.9*",
           "properties": {
             "Version": "0.9",
+            "MajorVer": "0",
             "MinorVer": "9"
+          }
+        },
+        {
+          "match": "ConveraCrawler\/*",
+          "properties": {
+            "Browser": "ConveraCrawler"
           }
         }
       ]

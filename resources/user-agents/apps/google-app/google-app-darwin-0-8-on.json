@@ -3,6 +3,7 @@
   "versions": [2, 1, "0.9", "0.8"],
   "sortIndex": 1147,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Google App #MAJORVER#.#MINORVER# for Darwin",

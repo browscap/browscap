@@ -1,0 +1,23 @@
+{
+  "division": "Screaming Frog SEO Spider General",
+  "sortIndex": 249,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Screaming Frog SEO Spider General",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Screaming Frog SEO Spider General",
+        "Browser": "Screaming Frog SEO Spider",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Screaming Frog SEO Spider\/*"
+        }
+      ]
+    }
+  ]
+}

@@ -1,10 +1,12 @@
 {
-  "division": "Opera Mobile 8.00",
+  "division": "Opera Mobile #MAJORVER#.#MINORVER#",
+  "versions": ["8.00"],
   "sortIndex": 1044,
   "lite": false,
+  "standard": false,
   "userAgents": [
     {
-      "userAgent": "Opera Mobile 8.00",
+      "userAgent": "Opera Mobile #MAJORVER#.#MINORVER#",
       "engine": "Presto_2_2",
       "device": "general Mobile Phone (Touch)",
       "properties": {
@@ -13,9 +15,9 @@
         "Browser": "Opera Mobile",
         "Browser_Maker": "Opera Software ASA",
         "Browser_Type": "Browser",
-        "Version": "8.00",
-        "MajorVer": "8",
-        "MinorVer": "00",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
         "Win32": "false",
         "Frames": "true",
         "IFrames": "true",
@@ -26,80 +28,80 @@
       },
       "children": [
         {
-          "match": "MOT-A1200\/* LinuxOS\/* Browser\/Opera8.0*",
+          "match": "MOT-A1200\/* LinuxOS\/* Browser\/Opera#MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone",
           "platforms": [
             "Maemo"
           ]
         },
         {
-          "match": "MOT-A1200r\/* LinuxOS\/* Browser\/Opera8.0*",
+          "match": "MOT-A1200r\/* LinuxOS\/* Browser\/Opera#MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone",
           "platforms": [
             "Maemo"
           ]
         },
         {
-          "match": "MOT-A1200eam\/* Mozilla\/4.0 (*compatible*;*MSIE 6.0; Linux; A1200eam; *) * Opera 8.0*",
+          "match": "MOT-A1200eam\/* Mozilla\/4.0 (*compatible*;*MSIE 6.0; Linux; A1200eam; *) * Opera #MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone",
           "platforms": [
             "SymbianOS"
           ]
         },
         {
-          "match": "MOT-MOTOROKR E6 Opera 8.0*"
+          "match": "MOT-MOTOROKR E6 Opera #MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "MOT-A1200\/* Mozilla\/4.0 (*compatible*;*MSIE 6.0; Linux; Motorola A1200* Opera 8.0*",
+          "match": "MOT-A1200\/* Mozilla\/4.0 (*compatible*;*MSIE 6.0; Linux; Motorola A1200* Opera #MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone",
           "platforms": [
             "WinMobile"
           ]
         },
         {
-          "match": "MOT-E690\/1.0\/* Mozilla\/4.0 (*compatible*;*MSIE 6.0; Linux; Motorola E690* Opera 8.0*",
+          "match": "MOT-E690\/1.0\/* Mozilla\/4.0 (*compatible*;*MSIE 6.0; Linux; Motorola E690* Opera #MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone",
           "platforms": [
             "WinMobile"
           ]
         },
         {
-          "match": "MOT-MOTOROKR E6\/1.0\/* Mozilla\/4.0 (*compatible*;*MSIE 6.0; Linux; MOTOROKR E6* Opera 8.0*",
+          "match": "MOT-MOTOROKR E6\/1.0\/* Mozilla\/4.0 (*compatible*;*MSIE 6.0; Linux; MOTOROKR E6* Opera #MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone",
           "platforms": [
             "WinMobile"
           ]
         },
         {
-          "match": "MOT-RAZRV3xx\/* BER2.2 Mozilla\/4.0 (*compatible*;*MSIE 6.0*  Opera 8.0*",
+          "match": "MOT-RAZRV3xx\/* BER2.2 Mozilla\/4.0 (*compatible*;*MSIE 6.0*  Opera #MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone",
           "platforms": [
             "WinMobile"
           ]
         },
         {
-          "match": "MOT-RAZRV3xx\/96.* BER2.2 Mozilla\/4.0 (*compatible*;*MSIE 6.0*  Opera 8.0*",
+          "match": "MOT-RAZRV3xx\/96.* BER2.2 Mozilla\/4.0 (*compatible*;*MSIE 6.0*  Opera #MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone",
           "platforms": [
             "WinMobile"
           ]
         },
         {
-          "match": "MOT-RAZRV3xxv\/98.50.11R BER2.2 Mozilla\/4.0 (*compatible*;*MSIE 6.0;*  Opera 8.0*",
+          "match": "MOT-RAZRV3xxv\/98.50.11R BER2.2 Mozilla\/4.0 (*compatible*;*MSIE 6.0;*  Opera #MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone",
           "platforms": [
             "WinMobile"
           ]
         },
         {
-          "match": "MOT-RAZRV6\/9* BER2.2 Mozilla\/4.0 (*compatible*;*MSIE 6.0; 12093118) * Opera 8.0*",
+          "match": "MOT-RAZRV6\/9* BER2.2 Mozilla\/4.0 (*compatible*;*MSIE 6.0; 12093118) * Opera #MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone",
           "platforms": [
             "WinMobile"
           ]
         },
         {
-          "match": "ZTE-E700\/(2006)4.0 (*compatible*;*MSIE 6.0*ZTE-E700\/R52_G_0D.52.A1R * Opera 8.0*",
+          "match": "ZTE-E700\/(2006)4.0 (*compatible*;*MSIE 6.0*ZTE-E700\/R52_G_0D.52.A1R * Opera #MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone",
           "platforms": [
             "WinMobile"

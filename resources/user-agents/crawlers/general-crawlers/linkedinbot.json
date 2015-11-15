@@ -2,6 +2,7 @@
   "division": "LinkedInBot",
   "sortIndex": 680,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "LinkedInBot",
@@ -32,6 +33,14 @@
           "match": "LIAuthLibrary:0.0.2 com.linkedin.android:3.4.2 TCL_ALCATEL ONE TOUCH 4037T:android_4.4.2*",
           "engine": "WebKit",
           "device": "Alcatel 4037T",
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "LIAuthLibrary:0.0.2 com.linkedin.android:3.4.2 TCL_*android_4.4.2*",
+          "engine": "WebKit",
+          "device": "general Mobile Phone (Touch)",
           "platforms": [
             "Android_4_4"
           ]

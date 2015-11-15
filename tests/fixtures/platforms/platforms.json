@@ -2,6 +2,8 @@
   "platforms": {
     "Platform1": {
       "match": "*Platform1*",
+      "lite": true,
+      "standard": true,
       "properties": {
         "Platform": "Platform1",
         "Platform_Description": "The first test platform",
@@ -10,6 +12,8 @@
     },
     "Platform2": {
       "match": "*Platform2*",
+      "lite": true,
+      "standard": true,
       "properties": {
         "Platform": "Platform2",
         "Win32": "false"

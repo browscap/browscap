@@ -1,0 +1,37 @@
+{
+  "division": "Iceowl Generic",
+  "sortIndex": 5361,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Iceowl Generic",
+      "platform": "Linux",
+      "engine": "Gecko",
+      "device": "Linux Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Iceowl Generic",
+        "Browser": "Iceowl",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Debian",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "CssVersion": "2"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Iceowl\/* Icedove\/*",
+          "platforms": [
+            "Linux_32", "Linux"
+          ]
+        }
+      ]
+    }
+  ]
+}

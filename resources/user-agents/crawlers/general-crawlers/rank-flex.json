@@ -2,6 +2,7 @@
   "division": "RankFlex",
   "sortIndex": 1030,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "RankFlex",

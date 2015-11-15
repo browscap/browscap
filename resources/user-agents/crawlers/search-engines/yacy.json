@@ -2,6 +2,7 @@
   "division": "YaCy",
   "sortIndex": 1300,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "YaCy",
@@ -17,31 +18,24 @@
       },
       "children": [
         {
-          "match": "yacybot (freeworld?global; i386 Linux *http:\/\/yacy.net\/bot.html",
+          "match": "yacybot (sciencenet?global; amd64 Linux*http:\/\/yacy.net\/bot.html",
           "device": "Linux Desktop",
           "platforms": [
-            "Linux_32"
+            "Linux_64"
           ]
         },
         {
-          "match": "yacybot (i386 linux *http:\/\/yacy.net\/bot.html",
+          "match": "yacybot (sciencenet?global; *Linux*http:\/\/yacy.net\/bot.html",
           "device": "Linux Desktop",
           "platforms": [
             "Linux"
           ]
         },
         {
-          "match": "yacybot (amd64 linux *http:\/\/yacy.net\/bot.html",
+          "match": "yacybot (freeworld?global; i386 Linux *http:\/\/yacy.net\/bot.html",
           "device": "Linux Desktop",
           "platforms": [
-            "Linux_64"
-          ]
-        },
-        {
-          "match": "yacybot (freeworld\/global; amd64 Linux 3.2 *http:\/\/yacy.net\/bot.html",
-          "device": "Linux Desktop",
-          "platforms": [
-            "Linux_64"
+            "Linux"
           ]
         },
         {
@@ -59,35 +53,28 @@
           ]
         },
         {
-          "match": "yacybot (sciencenet?global; amd64 Linux *http:\/\/yacy.net\/bot.html",
+          "match": "yacybot (freeworld?global; *Linux*http:\/\/yacy.net\/bot.html",
           "device": "Linux Desktop",
           "platforms": [
-            "Linux_64"
+            "Linux"
           ]
         },
         {
-          "match": "yacybot (freeworld\/global; x86 Windows 7 6.1;*http:\/\/yacy.net\/bot.html",
+          "match": "yacybot (freeworld?global; x86 Windows 7 6.1;*http:\/\/yacy.net\/bot.html",
           "device": "Windows Desktop",
           "platforms": [
             "Win7_32"
           ]
         },
         {
-          "match": "yacybot (freeworld\/global; x86 Windows XP 5.1;*http:\/\/yacy.net\/bot.html",
+          "match": "yacybot (freeworld?global; x86 Windows XP 5.1;*http:\/\/yacy.net\/bot.html",
           "device": "Windows Desktop",
           "platforms": [
             "WinXPa_32"
           ]
         },
         {
-          "match": "yacybot (webportal-global; x86 Windows XP 5.1;*http:\/\/yacy.net\/bot.html",
-          "device": "Windows Desktop",
-          "platforms": [
-            "WinXPa_32"
-          ]
-        },
-        {
-          "match": "yacybot (freeworld\/global; amd64 Windows Vista 6.0;*http:\/\/yacy.net\/bot.html",
+          "match": "yacybot (freeworld?global; amd64 Windows Vista 6.0;*http:\/\/yacy.net\/bot.html",
           "device": "Windows Desktop",
           "platforms": [
             "Vista_x64"
@@ -98,6 +85,41 @@
           "device": "Windows Desktop",
           "platforms": [
             "Win7_x64"
+          ]
+        },
+        {
+          "match": "yacybot (webportal-global; x86 Windows XP 5.1;*http:\/\/yacy.net\/bot.html",
+          "device": "Windows Desktop",
+          "platforms": [
+            "WinXPa_32"
+          ]
+        },
+        {
+          "match": "yacybot (webportal-global; *Windows*http:\/\/yacy.net\/bot.html",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Windows"
+          ]
+        },
+        {
+          "match": "yacybot (i386 linux *http:\/\/yacy.net\/bot.html",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_32"
+          ]
+        },
+        {
+          "match": "yacybot (amd64 linux *http:\/\/yacy.net\/bot.html",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64"
+          ]
+        },
+        {
+          "match": "yacybot (* linux *http:\/\/yacy.net\/bot.html",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux"
           ]
         },
         {

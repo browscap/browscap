@@ -1,0 +1,33 @@
+{
+  "division": "Experibot",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Experibot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Experibot",
+        "Browser": "Experibot",
+        "Browser_Maker": "Amir Krause",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true",
+        "Alpha": "true"
+      },
+      "children": [
+        {
+          "match": "Experibot_v1*",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Experibot*"
+        }
+      ]
+    }
+  ]
+}

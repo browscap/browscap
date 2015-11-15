@@ -1,16 +1,18 @@
 {
-  "division": "IEMobile 3.02",
+  "division": "IEMobile #MAJORVER#.#MINORVER#",
+  "versions": ["3.02"],
   "sortIndex": 1724,
   "lite": false,
+  "standard": false,
   "userAgents": [
     {
-      "userAgent": "IEMobile 3.02",
-      "platform": "WinMobile",
+      "userAgent": "IEMobile #MAJORVER#.#MINORVER#",
+      "platform": "WinCE",
       "engine": "Trident_3_1",
       "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "IEMobile",
+        "Comment": "IEMobile #MAJORVER#.#MINORVER#",
         "Browser": "IEMobile",
         "Frames": "true",
         "IFrames": "true",
@@ -27,13 +29,13 @@
         "isSyndicationReader": "false",
         "Crawler": "false",
         "CssVersion": "2",
-        "Version": "3.02",
-        "MajorVer": "3",
-        "MinorVer": "02"
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#"
       },
       "children": [
         {
-          "match": "Mozilla\/2.0 (*compatible*;*MSIE 3.02; Windows CE*)",
+          "match": "Mozilla\/2.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE*)",
           "platforms": [
             "WinCE"
           ]

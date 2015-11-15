@@ -1,0 +1,32 @@
+{
+  "division": "reddit pic scraper",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "reddit pic scraper",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "reddit pic scraper",
+        "Browser": "reddit pic scraper",
+        "Browser_Maker": "Reddit Inc.",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla \/ reddit pic scraper v0.8*",
+          "properties": {
+            "Version": "0.8",
+            "MajorVer": "0",
+            "MinorVer": "8"
+          }
+        },
+        {
+          "match": "Mozilla \/ reddit pic scraper*"
+        }
+      ]
+    }
+  ]
+}

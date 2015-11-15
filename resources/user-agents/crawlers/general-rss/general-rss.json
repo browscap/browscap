@@ -2,6 +2,7 @@
   "division": "General RSS",
   "sortIndex": 380,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "General RSS",
@@ -101,7 +102,7 @@
             "Browser_Maker": "Utsire Software"
           },
           "platforms": [
-            "OSX_10_10_A", "OSX"
+            "OSX_10_10", "OSX"
           ]
         }
       ]

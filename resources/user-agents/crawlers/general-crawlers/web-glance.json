@@ -1,0 +1,45 @@
+{
+  "division": "Web Glance",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Web Glance",
+      "engine": "WebKit",
+      "device": "Linux Desktop",
+      "platform": "Linux",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Web Glance",
+        "Browser": "Web Glance",
+        "Browser_Maker": "webglance.com",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko, Safari\/*) *Webglance\/0.1*",
+          "engine": "WebKit",
+          "device": "Linux Desktop",
+          "properties": {
+            "Version": "0.1",
+            "MajorVer": "0",
+            "MinorVer": "1"
+          },
+          "platforms": [
+            "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko, Safari\/*) *Webglance\/*",
+          "engine": "WebKit",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux"
+          ]
+        }
+      ]
+    }
+  ]
+}

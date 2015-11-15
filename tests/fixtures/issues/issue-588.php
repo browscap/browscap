@@ -34,6 +34,7 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-588-B' => [
         'Mozilla/5.0 (compatible; Cliqzbot/0.1 +http://cliqz.com/company/cliqzbot)',
@@ -68,6 +69,7 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-588-C' => [
         'Mozilla/4.0 (compatible; DAWINCI ANTIPLAG SPIDER)',
@@ -102,6 +104,7 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-588-D' => [
         'AccServer[HOGANMIDSCHOOL]/5.0.2.20(24517) 64-bit HTTP-Agent',
@@ -136,6 +139,7 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-588-E' => [
         'SafeSearch microdata crawler (https://safesearch.avira.com, safesearch-abuse@avira.com)',
@@ -170,6 +174,7 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-588-F' => [
         'Mozilla/5.0 (compatible; AdvBot/2.0; +http://advbot.net/bot.html)',
@@ -204,6 +209,7 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-588-G' => [
         'Mozilla/5.0 (compatible; DuckDuckGo-Favicons-Bot/1.0; +http://duckduckgo.com)',
@@ -238,6 +244,7 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-588-H' => [
         'Mozilla/4.0 compatible ZyBorg/1.0',
@@ -272,6 +279,7 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-588-I' => [
         'Mozilla/5.0 (Macintosh; Butterfly/1.0; +http://labs.topsy.com/butterfly/) Gecko/2009032608 Firefox/3.0.8',
@@ -306,5 +314,6 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
+        'standard' => true,
     ],
 ];

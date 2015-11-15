@@ -3,6 +3,7 @@
   "versions": ["9.1", "5.6", "5.1", "4.6"],
   "sortIndex": 9752,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "PERFECT Browser #MAJORVER#.#MINORVER#",

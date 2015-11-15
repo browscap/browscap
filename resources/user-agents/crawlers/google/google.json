@@ -2,6 +2,7 @@
   "division": "Google",
   "sortIndex": 1070,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Google",
@@ -34,7 +35,27 @@
             "MinorVer": "5"
           },
           "platforms": [
-            "WinXPa_v2"
+            "WinXPa_v2", "Windows"
+          ]
+        },
+        {
+          "match": "Mozilla\/4.0 (compatible; GoogleToolbar 7.5*",
+          "device": "Windows Desktop",
+          "properties": {
+            "Browser": "Google Toolbar",
+            "Version": "7.5",
+            "MajorVer": "7",
+            "MinorVer": "5"
+          }
+        },
+        {
+          "match": "Mozilla\/4.0 (compatible; GoogleToolbar#PLATFORM#",
+          "device": "Windows Desktop",
+          "properties": {
+            "Browser": "Google Toolbar"
+          },
+          "platforms": [
+            "WinXPa_v2", "Windows"
           ]
         },
         {

@@ -1,19 +1,22 @@
 {
-  "division": "Huawei",
+  "division": "Huawei #MAJORVER#.#MINORVER#",
+  "versions": [1],
   "sortIndex": 5220,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
-      "userAgent": "Huawei",
+      "userAgent": "Huawei #MAJORVER#.#MINORVER#",
       "platform": "Brew",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Huawei",
+        "Comment": "Huawei #MAJORVER#.#MINORVER#",
         "Browser": "Huawei",
         "Browser_Type": "Browser",
-        "Version": "1.0",
-        "MajorVer": "1",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
         "Alpha": "false",
         "Beta": "false",
         "Win16": "false",
@@ -25,19 +28,19 @@
       },
       "children": [
         {
-          "match": "Huawei-U526\/1.0 BREW\/3.1 Browser\/1.0 *",
+          "match": "Huawei-U526\/1.0 BREW\/3.1 Browser\/#MAJORVER#.#MINORVER# *",
           "platforms": [
             "Brew"
           ]
         },
         {
-          "match": "Huawei-U626\/1.0 BREW\/2.1 Browser\/1.0 *",
+          "match": "Huawei-U626\/1.0 BREW\/2.1 Browser\/#MAJORVER#.#MINORVER# *",
           "platforms": [
             "Brew"
           ]
         },
         {
-          "match": "Huawei-U636\/1.0 BREW\/2.1 Browser\/1.0 *",
+          "match": "Huawei-U636\/1.0 BREW\/2.1 Browser\/#MAJORVER#.#MINORVER# *",
           "platforms": [
             "Brew"
           ]

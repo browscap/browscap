@@ -2,6 +2,7 @@
   "division": "GSmart",
   "sortIndex": 5130,
   "lite": false,
+  "standard": false,
   "userAgents": [
     {
       "userAgent": "GSmart",

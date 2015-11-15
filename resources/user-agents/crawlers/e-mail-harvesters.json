@@ -2,6 +2,7 @@
   "division": "E-Mail Harvesters",
   "sortIndex": 350,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "E-Mail Harvesters",

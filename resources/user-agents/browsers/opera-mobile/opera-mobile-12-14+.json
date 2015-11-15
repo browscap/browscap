@@ -3,6 +3,7 @@
   "versions": ["12.17", "12.16", "12.15", "12.14"],
   "sortIndex": 1031,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Opera Mobile #MAJORVER#.#MINORVER#",
@@ -40,7 +41,9 @@
           "device": "general Tablet",
           "platforms": [
             "AndroidLinux",
-            "Android_4_0", "Android_4_0_D", "Android_4_1", "Android_4_1_D", "Android_4_2", "Android_4_3", "Android_4_4", "Android",
+            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4",
+            "Android_F_4_0", "Android_F_4_1", "Android_F",
+            "Android",
             "SymbianOS_C",
             "WinMobile"
           ]

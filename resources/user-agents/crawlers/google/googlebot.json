@@ -2,6 +2,7 @@
   "division": "Googlebot",
   "sortIndex": 1148,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Googlebot",

@@ -3,10 +3,11 @@
   "versions": [74, "1.7", "1.6", "1.5", "1.1", 1],
   "sortIndex": 2450,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "K-Meleon #MAJORVER#.#MINORVER#",
-      "platform": "Win32",
+      "platform": "Windows",
       "engine": "Gecko",
       "device": "Windows Desktop",
       "properties": {

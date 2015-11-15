@@ -2,6 +2,7 @@
   "division": "Picsearch Bot",
   "sortIndex": 401,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Picsearch Bot",

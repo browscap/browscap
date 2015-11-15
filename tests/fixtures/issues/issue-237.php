@@ -29,6 +29,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-237-B' => [
         'Mozilla/5.0 (iPhone4,1; iPhone; U; CPU OS 7_1 like Mac OS X; de_DE) com.google.GooglePlus/33839 (KHTML, like Gecko) Mobile/N94AP (gzip)',
@@ -58,5 +59,6 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
 ];

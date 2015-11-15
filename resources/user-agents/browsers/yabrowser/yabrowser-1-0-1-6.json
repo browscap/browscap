@@ -3,6 +3,7 @@
   "versions": ["1.6", "1.5", "1.1", 1],
   "sortIndex": 1020,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Yandex Browser #MAJORVER#.#MINORVER# for Android",
@@ -66,7 +67,7 @@
     {
       "userAgent": "Yandex Browser #MAJORVER#.#MINORVER#",
       "engine": "WebKit",
-      "device": "general Desktop",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Yandex Browser #MAJORVER#.#MINORVER#",

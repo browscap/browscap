@@ -2,6 +2,7 @@
   "division": "Blekkobot",
   "sortIndex": 170,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Blekkobot",

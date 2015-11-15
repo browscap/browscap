@@ -3,6 +3,7 @@
   "versions": [1],
   "sortIndex": 2060,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "AppleCoreMedia #MAJORVER#.#MINORVER#",
@@ -62,7 +63,7 @@
           "match": "AppleCoreMedia\/#MAJORVER#.#MINORVER#* (#PLATFORM#)*",
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_7_A", "OSX_10_8_A", "OSX_10_9_A", "OSX_10_10_A", "OSX"
+            "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10", "OSX"
           ]
         }
       ]

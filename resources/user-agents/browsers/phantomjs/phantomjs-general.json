@@ -2,6 +2,7 @@
   "division": "PhantomJS General",
   "sortIndex": 1862,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "PhantomJS General",

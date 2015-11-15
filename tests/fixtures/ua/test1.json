@@ -1,7 +1,9 @@
 {
   "division": "Division1",
+  "versions": ["1.0"],
   "sortIndex": 200,
   "lite": true,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "UA1",
@@ -12,7 +14,12 @@
         "Version": "1.0",
         "MajorVer": "1",
         "MinorVer": "0"
-      }
+      },
+      "children": [
+        {
+          "match": "cde1"
+        }
+      ]
     },
     {
       "userAgent": "UA2",
@@ -24,7 +31,12 @@
         "Version": "1.0",
         "MajorVer": "1",
         "MinorVer": "0"
-      }
+      },
+      "children": [
+        {
+          "match": "cde2"
+        }
+      ]
     },
     {
       "userAgent": "\"UA3",
@@ -55,7 +67,12 @@
         "Version": "1.0",
         "MajorVer": "1",
         "MinorVer": "0"
-      }
+      },
+      "children": [
+        {
+          "match": "cde4"
+        }
+      ]
     }
   ]
 }

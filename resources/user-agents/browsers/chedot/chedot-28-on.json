@@ -3,6 +3,7 @@
   "versions": [43],
   "sortIndex": 954,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Chedot #MAJORVER#.#MINORVER#",

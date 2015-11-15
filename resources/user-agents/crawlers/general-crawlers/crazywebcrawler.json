@@ -1,0 +1,32 @@
+{
+  "division": "Crazywebcrawler",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Crazywebcrawler",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Crazywebcrawler",
+        "Browser": "Crazywebcrawler",
+        "Browser_Maker": "crazywebcrawler.com",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "CRAZYWEBCRAWLER 0.9*",
+          "properties": {
+            "Version": "0.9",
+            "MajorVer": "0",
+            "MinorVer": "9"
+          }
+        },
+        {
+          "match": "CRAZYWEBCRAWLER*"
+        }
+      ]
+    }
+  ]
+}

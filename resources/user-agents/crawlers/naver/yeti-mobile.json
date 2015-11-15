@@ -2,6 +2,7 @@
   "division": "Yeti-Mobile",
   "sortIndex": 810,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Yeti-Mobile",

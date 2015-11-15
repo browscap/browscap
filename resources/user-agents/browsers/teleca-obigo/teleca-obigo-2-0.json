@@ -1,15 +1,17 @@
 {
-  "division": "Teleca-Obigo 2.0",
+  "division": "Teleca-Obigo #MAJORVER#.#MINORVER#",
+  "versions": [2],
   "sortIndex": 10774,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
-      "userAgent": "Teleca-Obigo 2.0",
+      "userAgent": "Teleca-Obigo #MAJORVER#.#MINORVER#",
       "platform": "JAVA",
       "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Teleca-Obigo",
+        "Comment": "Teleca-Obigo #MAJORVER#.#MINORVER#",
         "Browser": "Teleca-Obigo",
         "Browser_Type": "Browser",
         "Frames": "true",
@@ -18,28 +20,29 @@
         "Cookies": "true",
         "JavaScript": "true",
         "CssVersion": "1",
-        "Version": "2.0",
-        "MajorVer": "2"
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#"
       },
       "children": [
         {
-          "match": "Alcatel-OH1C\/1.0 ObigoInternetBrowser\/2.0",
+          "match": "Alcatel-OH1C\/1.0 ObigoInternetBrowser\/#MAJORVER#.#MINORVER#",
           "device": "Alcatel OH1C"
         },
         {
-          "match": "Alcatel-OH2\/1.0 ObigoInternetBrowser\/2.0",
+          "match": "Alcatel-OH2\/1.0 ObigoInternetBrowser\/#MAJORVER#.#MINORVER#",
           "device": "Alcatel OH2"
         },
         {
-          "match": "Haier-M1000 \/ Obigo Browser 2.0",
+          "match": "Haier-M1000 \/ Obigo Browser #MAJORVER#.#MINORVER#",
           "device": "Haier M1000"
         },
         {
-          "match": "Haier-M1211 \/ Obigo Browser 2.0",
+          "match": "Haier-M1211 \/ Obigo Browser #MAJORVER#.#MINORVER#",
           "device": "Haier M1211"
         },
         {
-          "match": "Haier-M1610 \/ Obigo Browser 2.0",
+          "match": "Haier-M1610 \/ Obigo Browser #MAJORVER#.#MINORVER#",
           "device": "Haier M1610"
         },
         {
@@ -47,19 +50,19 @@
           "device": "LG KU800"
         },
         {
-          "match": "PHILIPS 350 \/ Teleca-Obigo 2.0 *",
+          "match": "PHILIPS 350 \/ Teleca-Obigo #MAJORVER#.#MINORVER# *",
           "device": "Philips 350"
         },
         {
-          "match": "PHILIPS650 ObigoInternetBrowser\/2.0 *",
+          "match": "PHILIPS650 ObigoInternetBrowser\/#MAJORVER#.#MINORVER# *",
           "device": "Philips 650"
         },
         {
-          "match": "PHILIPS755 ObigoInternetBrowser\/2.0 *",
+          "match": "PHILIPS755 ObigoInternetBrowser\/#MAJORVER#.#MINORVER# *",
           "device": "Philips 755"
         },
         {
-          "match": "SIE-SF65 ObigoInternetBrowser\/2.0 *",
+          "match": "SIE-SF65 ObigoInternetBrowser\/#MAJORVER#.#MINORVER# *",
           "device": "Siemens SF65"
         },
         {

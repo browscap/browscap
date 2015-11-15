@@ -3,6 +3,7 @@
   "versions": [1],
   "sortIndex": 956,
   "lite": true,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Android WebView #MAJORVER#.#MINORVER#",
@@ -128,7 +129,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM# Android\/* Release\/* Browser\/AppleWebKit* Build\/*) AppleWebKit* (KHTML, like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "platforms": [
             "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
-            "Android_2_0", "Android_2_1", "Android_2_2", "Android_2_3", "Android_2_3_B",
+            "Android_2_0", "Android_2_1", "Android_2_2", "Android_2_3", "Android_B_2_3",
             "Android_3_0", "Android_3_1", "Android_3_2",
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
           ]
@@ -145,13 +146,6 @@
           "device": "Samsung SM-N900A",
           "platforms": [
             "Android_4_3", "Android_4_4"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#;HTC_Flyer_P510e Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER# Safari*",
-          "device": "HTC P510e",
-          "platforms": [
-            "Android_3_2"
           ]
         },
         {
@@ -1183,13 +1177,6 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#HTC Incredible S Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER# *",
-          "device": "HTC S710E",
-          "platforms": [
-            "Android_2_2", "Android_2_3", "Android_4_0"
-          ]
-        },
-        {
           "match": "Mozilla\/5.0 (#PLATFORM#HTC Incredible S Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "HTC S710E",
           "platforms": [
@@ -1646,13 +1633,6 @@
           "device": "Samsung GT-N8000",
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
-          ]
-        },
-        {
-          "match": "Cakemix\/* Mozilla\/5.0 (#PLATFORM#GT-N8000 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/?.0*Safari*",
-          "device": "Samsung GT-N8000",
-          "platforms": [
-            "Android_4_1"
           ]
         },
         {
@@ -4027,13 +4007,6 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Tablet-PC-4 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER# Safari*",
-          "device": "CatSound Tablet PC 4",
-          "platforms": [
-            "Android_4_0"
-          ]
-        },
-        {
           "match": "Mozilla\/5.0 (#PLATFORM#C6503 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "SonyEricsson C6503",
           "platforms": [
@@ -4446,28 +4419,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Nuqleo; Zaffire 785*) AppleWebKit*(KTHML,like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
-          "device": "Nuqleo Zaffire 785",
-          "platforms": [
-            "Android_4_2"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#Nuqleo; Zaffire 1010*) AppleWebKit*(KTHML,like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
-          "device": "Nuqleo Zaffire 1010",
-          "platforms": [
-            "Android_4_2"
-          ]
-        },
-        {
           "match": "Mozilla\/5.0 (#PLATFORM#AX540 Build\/*) AppleWebKit* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
-          "device": "Bmobile AX540",
-          "platforms": [
-            "Android_4_0"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#AX540 Build\/*) AppleWebKit* (KHMTL,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Bmobile AX540",
           "platforms": [
             "Android_4_0"
@@ -4483,13 +4435,6 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Lenovo A328 Build\/*) AppleWebKit* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Lenovo A328",
-          "platforms": [
-            "Android_4_4"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0(#PLATFORM#Fly IQ4409 Quad Build\/*) AppleWebKit\/*(KHTML, like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
-          "device": "Fly IQ4409 Quad",
           "platforms": [
             "Android_4_4"
           ]
@@ -4712,13 +4657,6 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0(#PLATFORM#Micromax A065 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
-          "device": "Micromax A065",
-          "platforms": [
-            "Android_4_4"
-          ]
-        },
-        {
           "match": "Mozilla\/5.0 (#PLATFORM#Lenovo A3300-HV Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*",
           "device": "Lenovo A3300-HV",
           "platforms": [
@@ -4835,6 +4773,60 @@
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android_5_0",
             "Android"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#Nuqleo; Zaffire 785*) AppleWebKit*(KTHML,like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "device": "Nuqleo Zaffire 785",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#Nuqleo; Zaffire 1010*) AppleWebKit*(KTHML,like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "device": "Nuqleo Zaffire 1010",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit*(KTHML,like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "device": "general Tablet",
+          "platforms": [
+            "Android_4_2", "Android"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#AX540 Build\/*) AppleWebKit* (KHMTL,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "device": "Bmobile AX540",
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit* (KHMTL,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "platforms": [
+            "Android_4_0", "Android"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0(#PLATFORM#Fly IQ4409 Quad Build\/*) AppleWebKit\/*(KHTML, like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "device": "Fly IQ4409 Quad",
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0(#PLATFORM#Micromax A065 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "device": "Micromax A065",
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0(#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "platforms": [
+            "Android_4_4", "Android"
           ]
         }
       ]

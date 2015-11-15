@@ -40,6 +40,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-750-B' => [
         'AtomicBrowser/5.8.0 CFNetwork/485.13.9 Darwin/11.0.0',
@@ -80,5 +81,6 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => false,
     ]
 ];

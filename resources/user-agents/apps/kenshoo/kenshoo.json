@@ -2,6 +2,7 @@
   "division": "Kenshoo",
   "sortIndex": 1049,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Kenshoo",

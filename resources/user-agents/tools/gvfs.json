@@ -2,6 +2,7 @@
   "division": "gvfs",
   "sortIndex": 130,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "gvfs",
@@ -20,7 +21,7 @@
       },
       "children": [
         {
-          "match": "gvfs\/1.24.1*",
+          "match": "gvfs\/1.24*",
           "properties": {
             "Version": "1.24",
             "MajorVer": "1",

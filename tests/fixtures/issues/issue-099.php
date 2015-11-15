@@ -29,6 +29,7 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-099-B' => [
         'XING-contenttabreceiver/2.0',
@@ -58,6 +59,7 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-099-A' => [
         'Opera/9.60 (Windows NT 5.1; U; de) Presto/2.1.1',
@@ -87,5 +89,6 @@ return [
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
         'lite' => false,
+        'standard' => true,
     ],
 ];

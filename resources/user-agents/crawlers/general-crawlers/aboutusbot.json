@@ -1,0 +1,42 @@
+{
+  "division": "AboutUs Bot",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "AboutUs Bot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "AboutUs Bot",
+        "Browser": "AboutUs Bot",
+        "Browser_Maker": "aboutus.org",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (compatible; AboutUsBot\/*"
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; AboutUsBot Johnny5\/2.0*",
+          "properties": {
+            "Browser": "AboutUs Bot Johnny5",
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; AboutUsBot Johnny5\/*",
+          "properties": {
+            "Browser": "AboutUs Bot Johnny5"
+          }
+        },
+        {
+          "match": "AboutUsBot\/* (Website Analysis*"
+        }
+      ]
+    }
+  ]
+}

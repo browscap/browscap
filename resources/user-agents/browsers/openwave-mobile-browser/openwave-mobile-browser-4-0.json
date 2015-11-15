@@ -1,14 +1,16 @@
 {
-  "division": "Openwave Mobile Browser 4.0",
+  "division": "Openwave Mobile Browser #MAJORVER#.#MINORVER#",
+  "versions": [4],
   "sortIndex": 8220,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
-      "userAgent": "Openwave Mobile Browser 4.0",
+      "userAgent": "Openwave Mobile Browser #MAJORVER#.#MINORVER#",
       "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Openwave Mobile Browser",
+        "Comment": "Openwave Mobile Browser #MAJORVER#.#MINORVER#",
         "Browser": "Openwave Mobile Browser",
         "Browser_Type": "Browser",
         "Frames": "true",
@@ -16,12 +18,16 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "Version": "4.0",
-        "MajorVer": "4"
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#"
       },
       "children": [
         {
-          "match": "UPG1* UP.Browser\/4.0*"
+          "match": "UPG1* UP.Browser\/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "* UP.Browser\/#MAJORVER#.#MINORVER#*"
         }
       ]
     }

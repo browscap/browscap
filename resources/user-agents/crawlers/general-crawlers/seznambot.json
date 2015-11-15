@@ -2,6 +2,7 @@
   "division": "SeznamBot",
   "sortIndex": 1440,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "SeznamBot",

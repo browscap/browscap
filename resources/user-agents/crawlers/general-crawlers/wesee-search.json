@@ -1,0 +1,33 @@
+{
+  "division": "WeSEE:Search",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "WeSEE:Search",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "WeSEE:Search",
+        "Browser": "WeSEE:Search",
+        "Browser_Maker": "WeSEE",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "WeSEE:Search\/0.1 (Alpha*",
+          "properties": {
+            "Version": "0.1",
+            "MajorVer": "0",
+            "MinorVer": "1",
+            "Alpha": "true"
+          }
+        },
+        {
+          "match": "WeSEE:Search\/*"
+        }
+      ]
+    }
+  ]
+}

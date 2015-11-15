@@ -2,6 +2,7 @@
   "division": "Miui Browser Generic",
   "sortIndex": 1110,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Miui Browser Generic",

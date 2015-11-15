@@ -2,6 +2,7 @@
   "division": "DCPbot",
   "sortIndex": 200,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "DCPbot",

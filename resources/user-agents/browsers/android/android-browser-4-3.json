@@ -3,10 +3,11 @@
   "versions": ["4.3"],
   "sortIndex": 1909,
   "lite": true,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Android Browser #MAJORVER#.#MINORVER#",
-      "platform": "Android_4_3",
+      "platform": "Android",
       "engine": "WebKit",
       "device": "general Mobile Phone (Touch)",
       "properties": {

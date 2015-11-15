@@ -2,6 +2,7 @@
   "division": "Realplayer",
   "sortIndex": 7120,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Realplayer",
@@ -17,7 +18,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* RealPlayer",
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_8_B", "OSX"
+            "OSX_10_8", "OSX"
           ]
         },
         {

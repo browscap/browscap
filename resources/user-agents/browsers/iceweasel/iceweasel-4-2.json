@@ -3,6 +3,7 @@
   "versions": [4.2],
   "sortIndex": 3150,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Iceweasel #MAJORVER#.#MINORVER#",

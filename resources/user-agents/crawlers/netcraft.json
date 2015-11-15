@@ -2,6 +2,7 @@
   "division": "Netcraft",
   "sortIndex": 600,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Netcraft",

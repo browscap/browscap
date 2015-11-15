@@ -2,6 +2,7 @@
   "division": "WooRank",
   "sortIndex": 661,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "WooRank",

@@ -3,6 +3,7 @@
   "versions": ["1.2", "1.1", 1],
   "sortIndex": 7121,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "stagefright #MAJORVER#.#MINORVER#",

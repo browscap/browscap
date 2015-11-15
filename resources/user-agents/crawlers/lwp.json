@@ -2,6 +2,7 @@
   "division": "lwp",
   "sortIndex": 1000,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "lwp",

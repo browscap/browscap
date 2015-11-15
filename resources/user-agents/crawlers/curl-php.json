@@ -2,6 +2,7 @@
   "division": "cURL PHP",
   "sortIndex": 2020,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "cURL PHP",

@@ -1,0 +1,62 @@
+{
+  "division": "Offline Browsers",
+  "sortIndex": 440,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Offline Browsers",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Offline Browsers",
+        "Browser": "Offline Browsers",
+        "Browser_Type": "Offline Browser",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "*Check&Get*",
+          "properties": {
+            "Browser": "Check&Get"
+          }
+        },
+        {
+          "match": "*MSIECrawler*",
+          "properties": {
+            "Browser": "IE Offline Browser"
+          }
+        },
+        {
+          "match": "*TweakMASTER*",
+          "properties": {
+            "Browser": "TweakMASTER"
+          }
+        },
+        {
+          "match": "BackStreet Browser *",
+          "properties": {
+            "Browser": "BackStreet Browser"
+          }
+        },
+        {
+          "match": "Go-Ahead-Got-It*",
+          "properties": {
+            "Browser": "Go Ahead Got-It"
+          }
+        },
+        {
+          "match": "iGetter\/*",
+          "properties": {
+            "Browser": "iGetter"
+          }
+        },
+        {
+          "match": "Teleport*",
+          "properties": {
+            "Browser": "Teleport"
+          }
+        }
+      ]
+    }
+  ]
+}

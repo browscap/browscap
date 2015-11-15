@@ -2,6 +2,7 @@
   "division": "Prince",
   "sortIndex": 1851,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Prince",

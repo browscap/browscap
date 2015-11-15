@@ -3,10 +3,11 @@
   "versions": ["1.5"],
   "sortIndex": 2751,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Deepnet Explorer #MAJORVER#.#MINORVER#",
-      "platform": "Win32",
+      "platform": "Windows",
       "engine": "Trident",
       "device": "Windows Desktop",
       "properties": {

@@ -2,6 +2,7 @@
   "division": "Exabot-Images",
   "sortIndex": 130,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Exabot-Images",

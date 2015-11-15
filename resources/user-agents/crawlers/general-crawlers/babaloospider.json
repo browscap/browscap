@@ -1,0 +1,31 @@
+{
+  "division": "BabalooSpider",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "BabalooSpider",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "BabalooSpider",
+        "Browser": "BabalooSpider",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "BabalooSpider\/1.*",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "BabalooSpider\/*"
+        }
+      ]
+    }
+  ]
+}

@@ -40,5 +40,6 @@ return [
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
         'lite' => true,
+        'standard' => true,
     ]
 ];

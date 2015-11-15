@@ -3,6 +3,7 @@
   "versions": ["5.3", "5.2", "5.1", "5.0"],
   "sortIndex": 1934,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Opera Mini #MAJORVER#.#MINORVER#",

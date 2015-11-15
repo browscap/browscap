@@ -34,6 +34,7 @@ return [
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-573-B' => [
         'Microsoft Office/15.0 (Windows NT 6.2; Microsoft Word 15.0.4693; Pro)',
@@ -68,6 +69,7 @@ return [
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-573-C' => [
         'Microsoft Office Excel 2013 (15.0.4693) Windows NT 6.2',
@@ -102,6 +104,7 @@ return [
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-573-D' => [
         'Microsoft Office/15.0 (Windows NT 6.2; Microsoft Excel 15.0.4693; Pro)',
@@ -136,6 +139,7 @@ return [
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-573-E' => [
         'Microsoft Office OneNote 2013',
@@ -170,6 +174,7 @@ return [
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-573-F' => [
         'Microsoft Office OneNote 2013 (15.0.4693) Windows NT 6.2',
@@ -204,6 +209,7 @@ return [
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-573-G' => [
         'Microsoft Office Outlook 2013 (15.0.4693) Windows NT 6.2',
@@ -238,6 +244,7 @@ return [
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-573-H' => [
         'Microsoft Outlook Social Connector (15.0.4569) MsoStatic (15.0.4569)',
@@ -272,6 +279,7 @@ return [
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-573-I' => [
         'Microsoft Office PowerPoint 2013 (15.0.4693) Windows NT 6.2',
@@ -306,6 +314,7 @@ return [
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-573-J' => [
         'Microsoft Office/15.0 (Windows NT 6.2; Microsoft PowerPoint 15.0.4693; Pro)',
@@ -340,6 +349,7 @@ return [
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-573-K' => [
         'Microsoft Office Visio 2013 (15.0.4693) Windows NT 6.2',
@@ -374,6 +384,7 @@ return [
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-573-L' => [
         'Microsoft Office/15.0 (Windows NT 6.2; Microsoft Visio 15.0.4693; Pro)',
@@ -408,6 +419,7 @@ return [
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-573-M' => [
         'Microsoft Office/15.0 (Windows NT 6.2; Access Web Datasheet 15.0.4693; Pro)',
@@ -442,6 +454,7 @@ return [
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-573-N' => [
         'Microsoft Office/15.0 (Windows NT 6.2; Microsoft Access 15.0.4693; Pro)',
@@ -476,6 +489,7 @@ return [
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-573-O' => [
         'Microsoft Office/15.0 (Windows NT 6.2; Microsoft Lync 15.0.4675; Pro)',
@@ -510,6 +524,7 @@ return [
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-573-P' => [
         'MSFrontPage/15.0',
@@ -544,6 +559,7 @@ return [
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-573-Q' => [
         'Microsoft Office SyncProc 2013 (15.0.4693) Windows NT 6.2',
@@ -578,6 +594,7 @@ return [
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-573-R' => [
         'Microsoft Office Upload Center 2013 (15.0.4693) Windows NT 6.2',
@@ -612,6 +629,7 @@ return [
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-573-S' => [
         'non-browser; Microsoft Office/15.0 (Windows NT 6.2; 15.0.4691; Pro)',
@@ -646,5 +664,6 @@ return [
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
         'lite' => false,
+        'standard' => true,
     ],
 ];

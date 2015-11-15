@@ -1,0 +1,31 @@
+{
+  "division": "Paper.li Bot",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Paper.li Bot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Paper.li Bot",
+        "Browser": "Paper.li Bot",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (compatible; PaperLiBot\/2.1*",
+          "properties": {
+            "Version": "2.1",
+            "MajorVer": "2",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; PaperLiBot\/*"
+        }
+      ]
+    }
+  ]
+}

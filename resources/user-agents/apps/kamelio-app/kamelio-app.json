@@ -3,6 +3,7 @@
   "versions": [4],
   "sortIndex": 1048,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Kamelio App #MAJORVER#.#MINORVER#",

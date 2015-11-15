@@ -2,6 +2,7 @@
   "division": "Microsoft Word",
   "sortIndex": 7180,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Microsoft Word",

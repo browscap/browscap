@@ -37,6 +37,8 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
+        'lite' => true,
+        'standard' => true,
     ],
     'issue-468-B' => [
         'Mozilla/5.0 (iPad; CPU OS 8_0 like Mac OS X) AppleWebKit/538.34.9 (KHTML, like Gecko) Mobile/12A4265u',
@@ -75,6 +77,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => true,
+        'standard' => true,
     ],
     'issue-468-C' => [
         'Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12A405 Safari/600.1.4',
@@ -103,6 +106,8 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
+        'lite' => true,
+        'standard' => true,
     ],
     'issue-468-D' => [
         'Mozilla/5.0 (iPad; CPU OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12A405 Safari/600.1.4',
@@ -132,5 +137,6 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => true,
+        'standard' => true,
     ],
 ];

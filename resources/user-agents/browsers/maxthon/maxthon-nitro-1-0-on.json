@@ -3,10 +3,11 @@
   "versions": ["1.1", 1],
   "sortIndex": 940,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Maxthon Nitro #MAJORVER#.#MINORVER#",
-      "platform": "Win32",
+      "platform": "Windows",
       "engine": "Blink",
       "device": "general Desktop",
       "properties": {

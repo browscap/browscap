@@ -1,0 +1,30 @@
+{
+  "division": "NSO_Debugger_User",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "NSO_Debugger_User",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "NSO_Debugger_User",
+        "Browser": "NSO_Debugger_User",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "NSO_Debugger_User\/2.0*",
+          "properties": {
+            "Version": "2.0",
+            "MajorVer": "2"
+          }
+        },
+        {
+          "match": "NSO_Debugger_User\/*"
+        }
+      ]
+    }
+  ]
+}
