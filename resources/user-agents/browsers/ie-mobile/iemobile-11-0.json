@@ -90,6 +90,13 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#.#MINORVER#*; IEMobile\/#MAJORVER#.#MINORVER#; NOKIA; Lumia 920*",
+          "device": "Nokia Lumia 920",
+          "platforms": [
+            "WinPhone8.1"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#*IEMobile\/#MAJORVER#.#MINORVER#; NOKIA; Lumia 928*",
           "device": "Nokia Lumia 928",
           "platforms": [
