@@ -20,6 +20,7 @@ return [
             'isTablet' => false,
             'Crawler' => false,
             'Cookies' => true,
+            'JavaScript' => true,
             'Frames' => true,
             'IFrames' => true,
             'Tables' => true,

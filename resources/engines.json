@@ -312,6 +312,18 @@
         "RenderingEngine_Version": "12.0"
       }
     },
+    "Edge_13": {
+      "inherits": "Edge",
+      "properties": {
+        "RenderingEngine_Version": "13.0"
+      }
+    },
+    "Edge_Dynamic": {
+      "inherits": "Edge",
+      "properties": {
+        "RenderingEngine_Version": "#MAJORVER#.#MINORVER#"
+      }
+    },
     "Presto": {
       "properties": {
         "RenderingEngine_Name": "Presto",
