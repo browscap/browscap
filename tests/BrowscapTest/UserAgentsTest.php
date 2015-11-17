@@ -137,14 +137,19 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
     /**
      * @dataProvider userAgentDataProvider
      * @coversNothing
+     *
      * @param string $userAgent
      * @param array  $expectedProperties
+     * @param bool   $lite
+     * @param bool   $standard
      *
-     * @group integration
-     * @group useragenttest
-     * @group full
+     * @throws \Exception
+     * @throws \phpbrowscap\Exception
+     * @group  integration
+     * @group  useragenttest
+     * @group  full
      */
-    public function testUserAgentsFull($userAgent, $expectedProperties)
+    public function testUserAgentsFull($userAgent, $expectedProperties, $lite = true, $standard = true)
     {
         if (!is_array($expectedProperties) || !count($expectedProperties)) {
             self::markTestSkipped('Could not run test - no properties were defined to test');
@@ -188,17 +193,26 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
     /**
      * @dataProvider userAgentDataProvider
      * @coversNothing
+     *
      * @param string $userAgent
      * @param array  $expectedProperties
+     * @param bool   $lite
+     * @param bool   $standard
      *
-     * @group integration
-     * @group useragenttest
-     * @group standard
+     * @throws \Exception
+     * @throws \phpbrowscap\Exception
+     * @group  integration
+     * @group  useragenttest
+     * @group  standard
      */
-    public function testUserAgentsStandard($userAgent, $expectedProperties)
+    public function testUserAgentsStandard($userAgent, $expectedProperties, $lite = true, $standard = true)
     {
         if (!is_array($expectedProperties) || !count($expectedProperties)) {
             self::markTestSkipped('Could not run test - no properties were defined to test');
+        }
+
+        if (!$standard) {
+            self::markTestSkipped('Test skipped - Browser/Platform/Version not defined for Standard Mode');
         }
 
         self::$browscap->iniFilename   = 'browscap.ini';
@@ -247,12 +261,15 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
      * @param string $userAgent
      * @param array  $expectedProperties
      * @param bool   $lite
+     * @param bool   $standard
      *
-     * @group integration
-     * @group useragenttest
-     * @group lite
+     * @throws \Exception
+     * @throws \phpbrowscap\Exception
+     * @group  integration
+     * @group  useragenttest
+     * @group  lite
      */
-    public function testUserAgentsLite($userAgent, $expectedProperties, $lite = true)
+    public function testUserAgentsLite($userAgent, $expectedProperties, $lite = true, $standard = true)
     {
         if (!is_array($expectedProperties) || !count($expectedProperties)) {
             self::markTestSkipped('Could not run test - no properties were defined to test');

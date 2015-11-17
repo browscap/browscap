@@ -395,58 +395,6 @@ HERE;
     }
 
     /**
-     * checks if a exception is thrown if a division is defined twice in the source files
-     *
-     * @expectedException \UnexpectedValueException
-     * @expectedExceptionMessage Division "UA2" is defined twice
-     *
-     * @group data
-     * @group sourcetest
-     */
-    public function testAddSourceFileFail()
-    {
-        $files = $this->getUserAgentFixtures();
-
-        foreach ($files as $file) {
-            $this->object->addSourceFile($file);
-        }
-    }
-
-    /**
-     * checks if a source file is added successful
-     *
-     * @group data
-     * @group sourcetest
-     */
-    public function testAddSourceFileOk()
-    {
-        $this->object->addSourceFile(__DIR__ . '/../../fixtures/ua/test1.json');
-
-        $divisions = $this->object->getDivisions();
-
-        self::assertInternalType('array', $divisions);
-        self::assertArrayHasKey(0, $divisions);
-        self::assertInstanceOf('\Browscap\Data\Division', $divisions[0]);
-    }
-
-    /**
-     * checks if a source file is added successful
-     *
-     * @group data
-     * @group sourcetest
-     */
-    public function testAddSourceFileOkWithLiteAndVersions()
-    {
-        $this->object->addSourceFile(__DIR__ . '/../../fixtures/ua/test2.json');
-
-        $divisions = $this->object->getDivisions();
-
-        self::assertInternalType('array', $divisions);
-        self::assertArrayHasKey(0, $divisions);
-        self::assertInstanceOf('\Browscap\Data\Division', $divisions[0]);
-    }
-
-    /**
      * @expectedException \RuntimeException
      * @expectedExceptionMessage File "/hopefully/this/file/does/not/exist" does not exist
      *
@@ -487,7 +435,7 @@ HERE;
             if ('File "' . $tmpfile . '" had invalid JSON.' !== $ex->getMessage()) {
                 $fail    = true;
                 $message = 'expected Message \'File "' . $tmpfile
-                . '" had invalid JSON.\' not available, the message was "' . $ex->getMessage() . '"';
+                    . '" had invalid JSON.\' not available, the message was "' . $ex->getMessage() . '"';
             }
         } catch (\Exception $ex) {
             $fail    = true;
@@ -544,6 +492,76 @@ HERE;
     }
 
     /**
+     * checks if a exception is thrown if the lite property is missing
+     *
+     * @expectedException \RuntimeException
+     * @expectedExceptionMessage required attibute "standard" is missing
+     *
+     * @group data
+     * @group sourcetest
+     */
+    public function testAddSourceFileThrowsExceptionIfNoStandardPropertyIsAvailable()
+    {
+        $this->object->addSourceFile(__DIR__ . '/../../fixtures/ua/ua-without-standard-property.json');
+    }
+
+    /**
+     * checks if a exception is thrown if the lite property is missing
+     *
+     * @expectedException \UnexpectedValueException
+     * @expectedExceptionMessage Name for Division is missing
+     *
+     * @group data
+     * @group sourcetest
+     */
+    public function testAddSourceFileThrowsExceptionIfNoNameIsAvailableForUseragent()
+    {
+        $this->object->addSourceFile(__DIR__ . '/../../fixtures/ua/ua-without-useragent-name.json');
+    }
+
+    /**
+     * checks if a exception is thrown if the lite property is missing
+     *
+     * @expectedException \UnexpectedValueException
+     * @expectedExceptionMessage Name of Division "[UA1" includes invalid characters
+     *
+     * @group data
+     * @group sourcetest
+     */
+    public function testAddSourceFileThrowsExceptionIfNameHasInvalidCharsForUseragent()
+    {
+        $this->object->addSourceFile(__DIR__ . '/../../fixtures/ua/ua-with-invalid-useragent-name.json');
+    }
+
+    /**
+     * checks if a exception is thrown if the sortindex property is missing
+     *
+     * @expectedException \UnexpectedValueException
+     * @expectedExceptionMessage Division "UA1 #MAJORVER#.#MINORVER#" is defined with version placeholders, but no versions are set
+     *
+     * @group data
+     * @group sourcetest
+     */
+    public function testAddSourceFileThrowsExceptionIfNoVersionsAreDefinedWithVersionPlaceholders()
+    {
+        $this->object->addSourceFile(__DIR__ . '/../../fixtures/ua/ua-without-defined-versions-with-placeholders.json');
+    }
+
+    /**
+     * checks if a exception is thrown if the sortindex property is missing
+     *
+     * @expectedException \RuntimeException
+     * @expectedExceptionMessage the properties entry is missing for key "UA1"
+     *
+     * @group data
+     * @group sourcetest
+     */
+    public function testAddSourceFileThrowsExceptionIfNoPropertiesAreAvailable()
+    {
+        $this->object->addSourceFile(__DIR__ . '/../../fixtures/ua/ua-without-properties.json');
+    }
+
+    /**
      * checks if a exception is thrown if the sortindex property is missing
      *
      * @expectedException \RuntimeException
@@ -552,9 +570,9 @@ HERE;
      * @group data
      * @group sourcetest
      */
-    public function testAddSourceFileThrowsExceptionIfNoPropertiesAreAvailable()
+    public function testAddSourceFileThrowsExceptionIfPropertiesEntryIsNotAnArray()
     {
-        $this->object->addSourceFile(__DIR__ . '/../../fixtures/ua/ua-without-properties.json');
+        $this->object->addSourceFile(__DIR__ . '/../../fixtures/ua/ua-without-properties-as-array.json');
     }
 
     /**
@@ -575,6 +593,20 @@ HERE;
      * checks if a exception is thrown if the sortindex property is missing
      *
      * @expectedException \UnexpectedValueException
+     * @expectedExceptionMessage the "Parent" property is not linked to the "DefaultProperties" for key "UA1"
+     *
+     * @group data
+     * @group sourcetest
+     */
+    public function testAddSourceFileThrowsExceptionIfParentPropertyIsNotDefaultProperties()
+    {
+        $this->object->addSourceFile(__DIR__ . '/../../fixtures/ua/ua-without-default-as-parent.json');
+    }
+
+    /**
+     * checks if a exception is thrown if the sortindex property is missing
+     *
+     * @expectedException \UnexpectedValueException
      * @expectedExceptionMessage the "Comment" property is missing for key "UA1"
      *
      * @group data
@@ -583,6 +615,62 @@ HERE;
     public function testAddSourceFileThrowsExceptionIfNoCommentPropertyIsAvailable()
     {
         $this->object->addSourceFile(__DIR__ . '/../../fixtures/ua/ua-without-comment.json');
+    }
+
+    /**
+     * checks if a exception is thrown if the sortindex property is missing
+     *
+     * @expectedException \UnexpectedValueException
+     * @expectedExceptionMessage the "Version" property is set for key "UA1", but no versions are defined
+     *
+     * @group data
+     * @group sourcetest
+     */
+    public function testAddSourceFileThrowsExceptionIfNoVersionsAreDefinedButVersionPropertyIsAvailable()
+    {
+        $this->object->addSourceFile(__DIR__ . '/../../fixtures/ua/ua-with-version-property-but-no-versions.json');
+    }
+
+    /**
+     * checks if a exception is thrown if the sortindex property is missing
+     *
+     * @expectedException \UnexpectedValueException
+     * @expectedExceptionMessage the children property is missing for key "UA1"
+     *
+     * @group data
+     * @group sourcetest
+     */
+    public function testAddSourceFileThrowsExceptionIfNoChildrenPropertyIsAvailable()
+    {
+        $this->object->addSourceFile(__DIR__ . '/../../fixtures/ua/ua-without-children.json');
+    }
+
+    /**
+     * checks if a exception is thrown if the sortindex property is missing
+     *
+     * @expectedException \UnexpectedValueException
+     * @expectedExceptionMessage the children property has to be an array for key "UA1"
+     *
+     * @group data
+     * @group sourcetest
+     */
+    public function testAddSourceFileThrowsExceptionIfChildrenPropertyIsNotAnArray()
+    {
+        $this->object->addSourceFile(__DIR__ . '/../../fixtures/ua/ua-without-children-array.json');
+    }
+
+    /**
+     * checks if a exception is thrown if the sortindex property is missing
+     *
+     * @expectedException \UnexpectedValueException
+     * @expectedExceptionMessage the children property shall not have the "match" entry for key "UA1"
+     *
+     * @group data
+     * @group sourcetest
+     */
+    public function testAddSourceFileThrowsExceptionIfChildrenIsNotAnArray()
+    {
+        $this->object->addSourceFile(__DIR__ . '/../../fixtures/ua/ua-with-children-with-match.json');
     }
 
     /**
@@ -616,15 +704,15 @@ HERE;
     /**
      * checks if a exception is thrown if the sortindex property is missing
      *
-     * @expectedException \UnexpectedValueException
-     * @expectedExceptionMessage the children property shall not have the "match" entry for key "UA1"
+     * @expectedException \LogicException
+     * @expectedExceptionMessage the properties array contains device data for key "UA1", please use the "device" keyword
      *
      * @group data
      * @group sourcetest
      */
-    public function testAddSourceFileThrowsExceptionIfChildrenIsNotAnArray()
+    public function testAddSourceFileThrowsExceptionIfPropertiesIncludeDeviceData()
     {
-        $this->object->addSourceFile(__DIR__ . '/../../fixtures/ua/ua-with-children-with-match.json');
+        $this->object->addSourceFile(__DIR__ . '/../../fixtures/ua/ua-with-devicedata.json');
     }
 
     /**
@@ -636,7 +724,7 @@ HERE;
      * @group data
      * @group sourcetest
      */
-    public function testAddSourceFileThrowsExceptionIfChildrenHaveMatchProperty()
+    public function testAddSourceFileThrowsExceptionIfChildrenAreNotArrays()
     {
         $this->object->addSourceFile(__DIR__ . '/../../fixtures/ua/ua-with-children-no-array.json');
     }
@@ -653,6 +741,48 @@ HERE;
     public function testAddSourceFileThrowsExceptionIfChildrenDoesNotHaveMatchKeyword()
     {
         $this->object->addSourceFile(__DIR__ . '/../../fixtures/ua/ua-with-children-without-match.json');
+    }
+
+    /**
+     * checks if a exception is thrown if the sortindex property is missing
+     *
+     * @expectedException \UnexpectedValueException
+     * @expectedExceptionMessage key "[cde" includes invalid characters
+     *
+     * @group data
+     * @group sourcetest
+     */
+    public function testAddSourceFileThrowsExceptionIfChildrenHaveAnInvalidMatchKeyword()
+    {
+        $this->object->addSourceFile(__DIR__ . '/../../fixtures/ua/ua-with-children-with-invalid-match.json');
+    }
+
+    /**
+     * checks if a exception is thrown if the sortindex property is missing
+     *
+     * @expectedException \UnexpectedValueException
+     * @expectedExceptionMessage the key "cde #MAJORVER#.#MINORVER#" is defined with version placeholders, but no versions are set
+     *
+     * @group data
+     * @group sourcetest
+     */
+    public function testAddSourceFileThrowsExceptionIfChildrenMatchKeywordHasVersionPlaceHolderWithoutVersions()
+    {
+        $this->object->addSourceFile(__DIR__ . '/../../fixtures/ua/ua-with-children-with-version-property-but-no-versions.json');
+    }
+
+    /**
+     * checks if a exception is thrown if the sortindex property is missing
+     *
+     * @expectedException \UnexpectedValueException
+     * @expectedExceptionMessage the key "cde #PLATFORM#" is defined with platform placeholder, but no platforms are asigned
+     *
+     * @group data
+     * @group sourcetest
+     */
+    public function testAddSourceFileThrowsExceptionIfChildrenMatchKeywordHasPlatformPlaceHolderWithoutPlatforms()
+    {
+        $this->object->addSourceFile(__DIR__ . '/../../fixtures/ua/ua-with-children-with-platform-placeholder-but-no-platforms.json');
     }
 
     /**
@@ -709,6 +839,72 @@ HERE;
     public function testAddSourceFileThrowsExceptionIfChildrenHasEngineProperties()
     {
         $this->object->addSourceFile(__DIR__ . '/../../fixtures/ua/ua-with-children-with-engine-properties.json');
+    }
+
+    /**
+     * checks if a exception is thrown if the sortindex property is missing
+     *
+     * @expectedException \LogicException
+     * @expectedExceptionMessage the properties array contains device data for key "cde", please use the "device" keyword
+     *
+     * @group data
+     * @group sourcetest
+     */
+    public function testAddSourceFileThrowsExceptionIfChildrenHasDeviceProperties()
+    {
+        $this->object->addSourceFile(__DIR__ . '/../../fixtures/ua/ua-with-children-with-device-properties.json');
+    }
+
+    /**
+     * checks if a exception is thrown if a division is defined twice in the source files
+     *
+     * @expectedException \UnexpectedValueException
+     * @expectedExceptionMessage Division "UA2" is defined twice
+     *
+     * @group data
+     * @group sourcetest
+     */
+    public function testAddSourceFileThrowsExceptionIfDivisionIsAddedTwice()
+    {
+        $files = $this->getUserAgentFixtures();
+
+        foreach ($files as $file) {
+            $this->object->addSourceFile($file);
+        }
+    }
+
+    /**
+     * checks if a source file is added successful
+     *
+     * @group data
+     * @group sourcetest
+     */
+    public function testAddSourceFileOk()
+    {
+        $this->object->addSourceFile(__DIR__ . '/../../fixtures/ua/test1.json');
+
+        $divisions = $this->object->getDivisions();
+
+        self::assertInternalType('array', $divisions);
+        self::assertArrayHasKey(0, $divisions);
+        self::assertInstanceOf('\Browscap\Data\Division', $divisions[0]);
+    }
+
+    /**
+     * checks if a source file is added successful
+     *
+     * @group data
+     * @group sourcetest
+     */
+    public function testAddSourceFileOkWithLiteAndVersions()
+    {
+        $this->object->addSourceFile(__DIR__ . '/../../fixtures/ua/test2.json');
+
+        $divisions = $this->object->getDivisions();
+
+        self::assertInternalType('array', $divisions);
+        self::assertArrayHasKey(0, $divisions);
+        self::assertInstanceOf('\Browscap\Data\Division', $divisions[0]);
     }
 
     /**

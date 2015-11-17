@@ -18,6 +18,7 @@
 namespace Browscap\Writer;
 
 use Browscap\Data\DataCollection;
+use Browscap\Data\Expander;
 use Browscap\Filter\FilterInterface;
 use Browscap\Formatter\FormatterInterface;
 use Psr\Log\LoggerInterface;
@@ -61,6 +62,11 @@ class XmlWriter implements WriterInterface
      * @var array
      */
     private $outputProperties = array();
+
+    /**
+     * @var \Browscap\Data\Expander
+     */
+    private $expander = null;
 
     /**
      * @param string $file
@@ -149,6 +155,18 @@ class XmlWriter implements WriterInterface
     public function getFilter()
     {
         return $this->type;
+    }
+
+    /**
+     * @param \Browscap\Data\Expander $expander
+     *
+     * @return \Browscap\Writer\WriterInterface
+     */
+    public function setExpander(Expander $expander)
+    {
+        $this->expander = $expander;
+
+        return $this;
     }
 
     /**
@@ -332,6 +350,10 @@ class XmlWriter implements WriterInterface
         $ua                = $division->getUserAgents();
         $defaultproperties = $ua[0]['properties'];
         $properties        = array_merge(array('Parent'), array_keys($defaultproperties));
+
+        foreach ($section as $property => $propertyValue) {
+            $section[$property] = trim($propertyValue);
+        }
 
         foreach ($properties as $property) {
             if (!isset($section[$property])) {

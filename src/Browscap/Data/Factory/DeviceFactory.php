@@ -42,6 +42,12 @@ class DeviceFactory
             $deviceData['properties'] = array();
         }
 
+        if (!array_key_exists('standard', $deviceData)) {
+            throw new \UnexpectedValueException(
+                'the value for "standard" key is missing for device "' . $deviceName . '"'
+            );
+        }
+
         if (array_key_exists('inherits', $deviceData)) {
             $parentName = $deviceData['inherits'];
 
@@ -57,10 +63,12 @@ class DeviceFactory
             $inheritedPlatformProperties = $deviceData['properties'];
 
             foreach ($inheritedPlatformProperties as $name => $value) {
-                if (isset($parentEngineData[$name]) && $parentEngineData[$name] == $value
+                if (isset($parentEngineData[$name])
+                    && $parentEngineData[$name] == $value
                 ) {
                     throw new \UnexpectedValueException(
-                        'the value for property "' . $name . '" has the same value in the keys "' . $deviceName . '" and its parent "' . $deviceData['inherits'] . '"'
+                        'the value for property "' . $name . '" has the same value in the keys "' . $deviceName
+                        . '" and its parent "' . $deviceData['inherits'] . '"'
                     );
                 }
             }
@@ -69,11 +77,12 @@ class DeviceFactory
                 $parentEngineData,
                 $inheritedPlatformProperties
             );
+
+            if (!$parentEngine->isStandard()) {
+                $deviceData['standard'] = false;
+            }
         }
 
-        $engine = new Device();
-        $engine->setProperties($deviceData['properties']);
-
-        return $engine;
+        return new Device($deviceData['properties'], $deviceData['standard']);
     }
 }

@@ -29,84 +29,25 @@ use Browscap\Data\Division;
 class DivisionTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * @var \Browscap\Data\Division
-     */
-    private $object = null;
-
-    /**
-     * Sets up the fixture, for example, open a network connection.
-     * This method is called before a test is executed.
-     */
-    public function setUp()
-    {
-        $this->object = new Division();
-    }
-
-    /**
      * tests setter and getter
      *
      * @group data
      * @group sourcetest
      */
-    public function testSetGetLite()
+    public function testGetter()
     {
-        self::assertSame($this->object, $this->object->setLite(true));
-        self::assertTrue($this->object->isLite());
-    }
-
-    /**
-     * tests setter and getter for the division name
-     *
-     * @group data
-     * @group sourcetest
-     */
-    public function testSetGetName()
-    {
-        $name = 'TestName';
-
-        self::assertSame($this->object, $this->object->setName($name));
-        self::assertSame($name, $this->object->getName());
-    }
-
-    /**
-     * tests setter and getter for the sortindex
-     *
-     * @group data
-     * @group sourcetest
-     */
-    public function testSetGetSortIndex()
-    {
-        $sortIndex = 42;
-
-        self::assertSame($this->object, $this->object->setSortIndex($sortIndex));
-        self::assertSame($sortIndex, $this->object->getSortIndex());
-    }
-
-    /**
-     * tests setter and getter for useragents
-     *
-     * @group data
-     * @group sourcetest
-     */
-    public function testSetGetUserAgents()
-    {
+        $name       = 'TestName';
+        $sortIndex  = 42;
         $userAgents = array('abc' => 'def');
+        $versions   = array(1, 2, 3);
 
-        self::assertSame($this->object, $this->object->setUserAgents($userAgents));
-        self::assertSame($userAgents, $this->object->getUserAgents());
-    }
+        $object = new Division($name, $sortIndex, $userAgents, true, false, $versions);
 
-    /**
-     * tests setter and getter for versions
-     *
-     * @group data
-     * @group sourcetest
-     */
-    public function testSetGetVersions()
-    {
-        $versions = array(1, 2, 3);
-
-        self::assertSame($this->object, $this->object->setVersions($versions));
-        self::assertSame($versions, $this->object->getVersions());
+        self::assertSame($name, $object->getName());
+        self::assertSame($sortIndex, $object->getSortIndex());
+        self::assertSame($userAgents, $object->getUserAgents());
+        self::assertTrue($object->isLite());
+        self::assertFalse($object->isStandard());
+        self::assertSame($versions, $object->getVersions());
     }
 }

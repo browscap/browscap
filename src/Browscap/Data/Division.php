@@ -42,6 +42,11 @@ class Division
     private $lite = false;
 
     /**
+     * @var boolean
+     */
+    private $standard = false;
+
+    /**
      * @var array
      */
     private $versions = array();
@@ -52,6 +57,24 @@ class Division
     private $userAgents = array();
 
     /**
+     * @param string  $name
+     * @param integer $sortIndex
+     * @param array   $userAgents
+     * @param boolean $lite
+     * @param boolean $standard
+     * @param array   $versions
+     */
+    public function __construct($name, $sortIndex, array $userAgents, $lite, $standard = true, array $versions = array())
+    {
+        $this->name       = $name;
+        $this->sortIndex  = $sortIndex;
+        $this->userAgents = $userAgents;
+        $this->lite       = $lite;
+        $this->standard   = $standard;
+        $this->versions   = $versions;
+    }
+
+    /**
      * @return boolean
      */
     public function isLite()
@@ -60,15 +83,11 @@ class Division
     }
 
     /**
-     * @param boolean $lite
-     *
-     * @return \Browscap\Data\Division
+     * @return boolean
      */
-    public function setLite($lite)
+    public function isStandard()
     {
-        $this->lite = $lite;
-
-        return $this;
+        return $this->standard;
     }
 
     /**
@@ -80,35 +99,11 @@ class Division
     }
 
     /**
-     * @param string $name
-     *
-     * @return \Browscap\Data\Division
-     */
-    public function setName($name)
-    {
-        $this->name = $name;
-
-        return $this;
-    }
-
-    /**
      * @return int
      */
     public function getSortIndex()
     {
         return $this->sortIndex;
-    }
-
-    /**
-     * @param int $sortIndex
-     *
-     * @return \Browscap\Data\Division
-     */
-    public function setSortIndex($sortIndex)
-    {
-        $this->sortIndex = $sortIndex;
-
-        return $this;
     }
 
     /**
@@ -120,34 +115,10 @@ class Division
     }
 
     /**
-     * @param array $userAgents
-     *
-     * @return \Browscap\Data\Division
-     */
-    public function setUserAgents($userAgents)
-    {
-        $this->userAgents = $userAgents;
-
-        return $this;
-    }
-
-    /**
      * @return array
      */
     public function getVersions()
     {
         return $this->versions;
-    }
-
-    /**
-     * @param array $versions
-     *
-     * @return \Browscap\Data\Division
-     */
-    public function setVersions($versions)
-    {
-        $this->versions = $versions;
-
-        return $this;
     }
 }
