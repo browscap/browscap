@@ -3,6 +3,7 @@
   "versions": [13],
   "sortIndex": 1148,
   "lite": true,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Edge #MAJORVER#.#MINORVER#",
