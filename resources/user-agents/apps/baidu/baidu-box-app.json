@@ -3,6 +3,7 @@
   "versions": ["6.3"],
   "sortIndex": 1903,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Baidu Box App #MAJORVER#.#MINORVER#",

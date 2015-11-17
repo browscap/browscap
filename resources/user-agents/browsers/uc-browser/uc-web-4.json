@@ -3,6 +3,7 @@
   "versions": ["4.2", "4.1", "4.0"],
   "sortIndex": 1115,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER#",
@@ -30,6 +31,12 @@
         {
           "match": "UCWEB\/*(#PLATFORM#NOKIA; RM-914*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
           "device": "Nokia Lumia 520 RM-914",
+          "platforms": [
+            "WinPhone8.1_B"
+          ]
+        },
+        {
+          "match": "UCWEB\/*(#PLATFORM#) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
           "platforms": [
             "WinPhone8.1_B"
           ]

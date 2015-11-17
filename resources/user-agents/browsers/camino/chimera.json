@@ -2,6 +2,7 @@
   "division": "Chimera",
   "sortIndex": 2320,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Chimera",

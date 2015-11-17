@@ -2,6 +2,7 @@
   "division": "iBooks Author",
   "sortIndex": 1183,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "iBooks Author",
@@ -31,8 +32,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) iBooks Author\/*",
           "platforms": [
-            "OSX_10_10_A", "OSX_10_10_B",
-            "OSX"
+            "OSX_10_10", "OSX"
           ]
         }
       ]

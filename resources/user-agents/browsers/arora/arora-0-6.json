@@ -3,10 +3,11 @@
   "versions": ["0.6"],
   "sortIndex": 1192,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Arora #MAJORVER#.#MINORVER#",
-      "platform": "Win32",
+      "platform": "Windows",
       "engine": "WebKit",
       "device": "general Desktop",
       "properties": {

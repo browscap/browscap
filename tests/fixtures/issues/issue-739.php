@@ -39,6 +39,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => true,
+        'standard' => true,
     ],
     'issue-739-B' => [
         'Mozilla/5.0 (iPad; CPU OS 9_0 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13A344 Safari/601.1',
@@ -78,5 +79,6 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => true,
+        'standard' => true,
     ],
 ];

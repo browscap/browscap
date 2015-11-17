@@ -3,6 +3,7 @@
   "versions": [2, "1.3", "1.2"],
   "sortIndex": 1018,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Seznam Browser #MAJORVER#.#MINORVER#",

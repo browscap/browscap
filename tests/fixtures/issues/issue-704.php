@@ -38,6 +38,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-704-B' => [
         'Mozilla/5.0 (Linux; Android 5.0.2; SAMSUNG SM-T530 Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.2 Chrome/38.0.2125.102 Safari/537.36',
@@ -76,5 +77,6 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
 ];

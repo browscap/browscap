@@ -3,6 +3,7 @@
   "versions": ["5.5", "5.0", "4.0", "3.9", "3.8", "3.2", "3.0", "2.3", "2.2", "2.0", "1.5", "1.4"],
   "sortIndex": 1792,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Nokia Proxy Browser #MAJORVER#.#MINORVER#",
@@ -55,10 +56,6 @@
           "device": "Nokia 203"
         },
         {
-          "match": "Mozilla\/5.0 (Series30*; Nokia220*) Gecko\/* S40OviBrowser\/#MAJORVER#.#MINORVER#*",
-          "device": "Nokia 220"
-        },
-        {
           "match": "Mozilla\/5.0 (Series40; Nokia220*) Gecko\/* S40OviBrowser\/#MAJORVER#.#MINORVER#*",
           "device": "Nokia 220"
         },
@@ -99,10 +96,14 @@
           "device": "Nokia 501"
         },
         {
-          "match": "Mozilla\/5.0 (Series30*) Gecko\/* S40OviBrowser\/#MAJORVER#.#MINORVER#*"
+          "match": "Mozilla\/5.0 (Series40*) Gecko\/* S40OviBrowser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "Mozilla\/5.0 (Series40*) Gecko\/* S40OviBrowser\/#MAJORVER#.#MINORVER#*"
+          "match": "Mozilla\/5.0 (Series30*; Nokia220*) Gecko\/* S40OviBrowser\/#MAJORVER#.#MINORVER#*",
+          "device": "Nokia 220"
+        },
+        {
+          "match": "Mozilla\/5.0 (Series30*) Gecko\/* S40OviBrowser\/#MAJORVER#.#MINORVER#*"
         }
       ]
     }

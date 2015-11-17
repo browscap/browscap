@@ -1,10 +1,12 @@
 {
-  "division": "Openwave Mobile Browser 6.1",
+  "division": "Openwave Mobile Browser #MAJORVER#.#MINORVER#",
+  "versions": ["6.1"],
   "sortIndex": 8215,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
-      "userAgent": "Openwave Mobile Browser 6.1",
+      "userAgent": "Openwave Mobile Browser #MAJORVER#.#MINORVER#",
       "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
@@ -16,449 +18,452 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "Version": "6.1",
-        "MajorVer": "6",
-        "MinorVer": "1"
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#"
       },
       "children": [
         {
-          "match": "Alcatel-OH5\/1.0 UP.Browser\/6.1*"
+          "match": "Alcatel-OH5\/1.0 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "BENQ-A500\/1.00\/WAP2.0\/MIDP1.0\/CLDC1.0 UP.Browser\/6.1*"
+          "match": "BENQ-A500\/1.00\/WAP2.0\/MIDP1.0\/CLDC1.0 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "BENQ-Athena\/0.1 * UP.Browser\/6.1*"
+          "match": "BENQ-Athena\/0.1 * UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "BENQ-Morpheus\/0.1 * UP.Browser\/6.1*"
+          "match": "BENQ-Morpheus\/0.1 * UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "BENQ-NIKE1\/CLDC_1.0 UP.Browser\/6.1*"
+          "match": "BENQ-NIKE1\/CLDC_1.0 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "BENQ-S680C\/CLDC_1.0 UP.Browser\/6.1*"
+          "match": "BENQ-S680C\/CLDC_1.0 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "BENQS700?1.00?WAP2.0?MIDP2.0?CLDC1.0 UP.Browser\/6.1*"
+          "match": "BENQS700?1.00?WAP2.0?MIDP2.0?CLDC1.0 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "BIRD.G118 MO130m-128x160\/1.1 UP.Browser\/6.1*"
+          "match": "BIRD.G118 MO130m-128x160\/1.1 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "BenQ-M220\/6.1.0.7 UP.Browser\/6.1*"
+          "match": "BenQ-M220\/#MAJORVER#.#MINORVER#.0.7 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "BenQ-M300\/6.1.0.7 UP.Browser\/6.1*"
+          "match": "BenQ-M300\/#MAJORVER#.#MINORVER#.0.7 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "BenQ-M300\/6.1.07 UP.Browser\/6.1*"
+          "match": "BenQ-M300\/#MAJORVER#.#MINORVER#.07 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "BenQ-M305\/6.1* UP.Browser\/6.1*"
+          "match": "BenQ-M305\/#MAJORVER#.#MINORVER#* UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "BenQ-M315\/6.1* UP.Browser\/6.1*"
+          "match": "BenQ-M315\/#MAJORVER#.#MINORVER#* UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "BenQ-M350\/6.1* UP.Browser\/6.1*"
+          "match": "BenQ-M350\/#MAJORVER#.#MINORVER#* UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "Bird.V89\/KK3,LA\/WAP1.2.1 UP.Browser\/6.1*"
+          "match": "Bird.V89\/KK3,LA\/WAP1.2.1 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "EGISS-WAP\/22 UP.Browser\/6.1*"
+          "match": "EGISS-WAP\/22 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "G-xxx\/1.0beta * UP.Browser\/6.1*"
+          "match": "G-xxx\/1.0beta * UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "GEO-GV500\/1.0 UP.Browser\/6.1*"
+          "match": "GEO-GV500\/1.0 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "Hitachi-P300 UP.Browser\/6.1*"
+          "match": "Hitachi-P300 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "LGE-LX5350\/1.0 UP.Browser\/6.1*",
+          "match": "LGE-LX5350\/1.0 UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "LG LX5350"
         },
         {
-          "match": "MOT-T720\/* UP.Browser\/6.1*",
+          "match": "MOT-T720\/* UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola T720"
         },
         {
-          "match": "MOT-V290\/6.1.0.7 UP.Browser\/6.1*"
+          "match": "MOT-V290\/#MAJORVER#.#MINORVER#.0.7 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "MOT-V295\/6.1.0.7 UP.Browser\/6.1*"
+          "match": "MOT-V295\/#MAJORVER#.#MINORVER#.0.7 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "Motorola-E365 UP.Browser\/6.1*",
+          "match": "Motorola-E365 UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola E365"
         },
         {
-          "match": "NEC-525\/* up.Browser\/6.1*",
+          "match": "NEC-525\/* up.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "NEC 525"
         },
         {
-          "match": "NEC-530\/* UP.Browser\/6.1*",
+          "match": "NEC-530\/* UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "NEC 530"
         },
         {
-          "match": "NEC-N8\/* UP.Browser\/6.1*",
+          "match": "NEC-N8\/* UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "NEC N8"
         },
         {
-          "match": "NEC-N800\/1.0 * UP.Browser\/6.1*"
+          "match": "NEC-N800\/1.0 * UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "NEC-N810\/1.0 * UP.Browser\/6.1*"
+          "match": "NEC-N810\/1.0 * UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "NEC-e101\/2.0 * UP.Browser\/6.1*"
+          "match": "NEC-e101\/2.0 * UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "Nokia1100\/* UP.Browser\/6.1*",
+          "match": "Nokia1100\/* UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Nokia 1100"
         },
         {
-          "match": "Nokia7650\/* UP.Browser\/6.1*",
+          "match": "Nokia7650\/* UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Nokia 7650"
         },
         {
-          "match": "O2-X1i\/6.1.0.7 UP.Browser\/6.1*"
+          "match": "O2-X1i\/#MAJORVER#.#MINORVER#.0.7 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "Opera\/92 Profile\/JAVAS-3.0.1 Configuration\/CLDC-3.0.6 UP.Browser\/6.1*"
+          "match": "Opera\/92 Profile\/JAVAS-3.0.1 Configuration\/CLDC-3.0.6 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "PHILIPS568\/1.0 UP.Browser\/6.1*"
+          "match": "PHILIPS568\/1.0 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "Panasonic-A210\/1.0 UP.Browser\/6.1*"
+          "match": "Panasonic-A210\/1.0 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "Panasonic-G50\/1.0 UP.Browser\/6.1*"
+          "match": "Panasonic-G50\/1.0 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "Panasonic-G60\/1.0 UP.Browser\/6.1*"
+          "match": "Panasonic-G60\/1.0 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "Panasonic-G70\/1.0 UP.Browser\/6.1*"
+          "match": "Panasonic-G70\/1.0 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "Panasonic-SC3\/1.0 * UP.Browser\/6.1*"
+          "match": "Panasonic-SC3\/1.0 * UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "Panasonic-X300\/1.0 UP.Browser\/6.1*"
+          "match": "Panasonic-X300\/1.0 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "QCI-31\/1.0 UP.Browser\/6.1*"
+          "match": "QCI-31\/1.0 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "SAGEM-my202\/1.0 UP.Browser\/6.1*"
+          "match": "SAGEM-my202\/1.0 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "SAGEM-myC-3b\/1.0 UP.Browser\/6.1*"
+          "match": "SAGEM-myC-3b\/1.0 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "SAGEM-myC3-2\/1.0 UP.Browser\/6.1*"
+          "match": "SAGEM-myC3-2\/1.0 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "SAGEM-myX-2m\/1.0 UP.Browser\/6.1*"
+          "match": "SAGEM-myX-2m\/1.0 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "SAGEM-myX-5m\/1.0 UP.Browser\/6.1*"
+          "match": "SAGEM-myX-5m\/1.0 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "SAGEM-myX-5m\/1.1 UP.Browser\/6.1*"
+          "match": "SAGEM-myX-5m\/1.1 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "SAGEM-myX-6\/1.0 UP.Browser\/6.1*"
+          "match": "SAGEM-myX-6\/1.0 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "SAGEM-myX2-2m\/1.0 UP.Browser\/6.1*"
+          "match": "SAGEM-myX2-2m\/1.0 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "SAGEM-myX3-2\/1.0 UP.Browser\/6.1*"
+          "match": "SAGEM-myX3-2\/1.0 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "SAMSUNG SGH-X100 UP.Browser\/6.1*"
+          "match": "SAMSUNG SGH-X100 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "SAMSUNG SGH-X100A UP.Browser\/6.1*"
+          "match": "SAMSUNG SGH-X100A UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "SAMSUNG-SGH-E100\/T2 UP.Browser\/6.1*"
+          "match": "SAMSUNG-SGH-E100\/T2 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "SAMSUNG-SGH-E100A\/T2 UP.Browser\/6.1*"
+          "match": "SAMSUNG-SGH-E100A\/T2 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "SAMSUNG-SGH-E108\/T2* UP.Browser\/6.1*"
+          "match": "SAMSUNG-SGH-E108\/T2* UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "SAMSUNG-SGH-E700-OLYMPIC2004\/1.0 UP.Browser\/6.1*",
+          "match": "SAMSUNG-SGH-E700-OLYMPIC2004\/1.0 UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Samsung SGH-E700"
         },
         {
-          "match": "SAMSUNG-SGH-E700\/BSI* UP.Browser\/6.1*",
+          "match": "SAMSUNG-SGH-E700\/BSI* UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Samsung SGH-E700"
         },
         {
-          "match": "SAMSUNG-SGH-E700\/BSI2.0 UP.Browser\/6.1*",
+          "match": "SAMSUNG-SGH-E700\/BSI2.0 UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Samsung SGH-E700"
         },
         {
-          "match": "SAMSUNG-SGH-E700A\/BSI UP.Browser\/6.1*"
+          "match": "SAMSUNG-SGH-E700A\/BSI UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "SAMSUNG-SGH-X100\/PEARL UP.Browser\/6.1*"
+          "match": "SAMSUNG-SGH-X100\/PEARL UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "SAMSUNG-SGH-X100A\/Pearl UP.Browser\/6.1*"
+          "match": "SAMSUNG-SGH-X100A\/Pearl UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "SAMSUNG-SGH-X108\/1.0* UP.Browser\/6.1*"
+          "match": "SAMSUNG-SGH-X108\/1.0* UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "SAMSUNG-SGH-X460\/1.0 UP.Browser\/6.1*"
+          "match": "SAMSUNG-SGH-X460\/1.0 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "SAMSUNG-SGH-X460C\/1.0 UP.Browser\/6.1*"
+          "match": "SAMSUNG-SGH-X460C\/1.0 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "SAMSUNG-SGH-X468\/1.0* UP.Browser\/6.1*"
+          "match": "SAMSUNG-SGH-X468\/1.0* UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "SAMSUNG-SGH-X600\/K3 UP.Browser\/6.1*",
+          "match": "SAMSUNG-SGH-X600\/K3 UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Samsung SGH-X600"
         },
         {
-          "match": "SAMSUNG-SGH-X600A\/K3 UP.Browser\/6.1*"
+          "match": "SAMSUNG-SGH-X600A\/K3 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "SAMSUNG-SGH-X608\/1.0* UP.Browser\/6.1*"
+          "match": "SAMSUNG-SGH-X608\/1.0* UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "SEC-SGHD410-X100\/PEARL UP.Browser\/6.1*"
+          "match": "SEC-SGHD410-X100\/PEARL UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "SEC-SGHS100\/1.0 UP.Browser\/6.1*"
+          "match": "SEC-SGHS100\/1.0 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "SEC-SGHS300\/1.0 UP.Browser\/6.1*",
+          "match": "SEC-SGHS300\/1.0 UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Samsung SGH-S300"
         },
         {
-          "match": "SEC-SGHV200-X100\/PEARL UP.Browser\/6.1*",
+          "match": "SEC-SGHV200-X100\/PEARL UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Samsung SGH-V200"
         },
         {
-          "match": "SEC-SGHV200\/1.0 UP.Browser\/6.1*",
+          "match": "SEC-SGHV200\/1.0 UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Samsung SGH-V200"
         },
         {
-          "match": "SHARP-TQ-GX1\/1.0 UP.Browser\/6.1*"
+          "match": "SHARP-TQ-GX1\/1.0 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "SHARP-TQ-GX10\/1.0 * UP.Browser\/6.1*"
+          "match": "SHARP-TQ-GX10\/1.0 * UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "SHARP-TQ-GX10\/1.1 * UP.Browser\/6.1*"
+          "match": "SHARP-TQ-GX10\/1.1 * UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "SHARP-TQ-GX10\/1.1gr * UP.Browser\/6.1*"
+          "match": "SHARP-TQ-GX10\/1.1gr * UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "SHARP-TQ-GX10N\/1.0 * UP.Browser\/6.1*"
+          "match": "SHARP-TQ-GX10N\/1.0 * UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "SHARP-TQ-GX10i\/1.0 * UP.Browser\/6.1*"
+          "match": "SHARP-TQ-GX10i\/1.0 * UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "SHARP-TQ-GX10i\/1.1 * UP.Browser\/6.1*"
+          "match": "SHARP-TQ-GX10i\/1.1 * UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "SHARP-TQ-V750\/1.0 * UP.Browser\/6.1*"
+          "match": "SHARP-TQ-V750\/1.0 * UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "SIE-A31\/* UP.Browser\/6.1*",
+          "match": "SIE-A31\/* UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Siemens A31"
         },
         {
-          "match": "SIE-A31a\/* UP.Browser\/6.1*",
+          "match": "SIE-A31a\/* UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Siemens A31A"
         },
         {
-          "match": "SIE-A60\/* UP.Browser\/6.1*",
+          "match": "SIE-A60\/* UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Siemens A60"
         },
         {
-          "match": "SIE-A62\/* UP.Browser\/6.1*",
+          "match": "SIE-A62\/* UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Siemens A62"
         },
         {
-          "match": "SIE-A65\/* UP.Browser\/6.1*",
+          "match": "SIE-A65\/* UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Siemens A65"
         },
         {
-          "match": "SIE-A65C\/* UP.Browser\/6.1*",
+          "match": "SIE-A65C\/* UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Siemens A65C"
         },
         {
-          "match": "SIE-A75\/* UP.Browser\/6.1*",
+          "match": "SIE-A75\/* UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Siemens A75"
         },
         {
-          "match": "SIE-A76\/* UP.Browser\/6.1*",
+          "match": "SIE-A76\/* UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Siemens A76"
         },
         {
-          "match": "SIE-AF51\/* UP.Browser\/6.1*",
+          "match": "SIE-AF51\/* UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Siemens AF51"
         },
         {
-          "match": "SIE-AL21\/* UP.Browser\/6.1*",
+          "match": "SIE-AL21\/* UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Siemens AL21"
         },
         {
-          "match": "SIE-AX72\/* UP.Browser\/6.1*",
+          "match": "SIE-AX72\/* UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Siemens AX72"
         },
         {
-          "match": "SIE-AX75\/* UP.Browser\/6.1*",
+          "match": "SIE-AX75\/* UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Siemens AX75"
         },
         {
-          "match": "SIE-C110\/* UP.Browser\/6.1*",
+          "match": "SIE-C110\/* UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Siemens C110"
         },
         {
-          "match": "SIE-C60\/* UP.Browser\/6.1*",
+          "match": "SIE-C60\/* UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Siemens C60"
         },
         {
-          "match": "SIE-C60A\/* UP.Browser\/6.1*",
+          "match": "SIE-C60A\/* UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Siemens C60A"
         },
         {
-          "match": "SIE-C61\/* UP.Browser\/6.1*",
+          "match": "SIE-C61\/* UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Siemens C61"
         },
         {
-          "match": "SIE-C75\/* UP.Browser\/6.1*",
+          "match": "SIE-C75\/* UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Siemens C75"
         },
         {
-          "match": "SIE-CF62\/* UP.Browser\/6.1*",
+          "match": "SIE-CF62\/* UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Siemens CF62"
         },
         {
-          "match": "SIE-CF6C\/* UP.Browser\/6.1*",
+          "match": "SIE-CF6C\/* UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Siemens CF6C"
         },
         {
-          "match": "SIE-CX65 UP.Browser\/6.1*",
+          "match": "SIE-CX65 UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Siemens CX65"
         },
         {
-          "match": "SIE-CX75\/* UP.Browser\/6.1*",
+          "match": "SIE-CX75\/* UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Siemens CX75"
         },
         {
-          "match": "SIE-M55-XP\/91 * UP.Browser\/6.1*",
+          "match": "SIE-M55-XP\/91 * UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Siemens M55-XP"
         },
         {
-          "match": "SIE-M55\/* UP.Browser\/6.1*",
+          "match": "SIE-M55\/* UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Siemens M55"
         },
         {
-          "match": "SIE-M55\/1* UP.Browser\/6.1*",
+          "match": "SIE-M55\/1* UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Siemens M55"
         },
         {
-          "match": "SIE-M55C\/* UP.Browser\/6.1*",
+          "match": "SIE-M55C\/* UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Siemens M55C"
         },
         {
-          "match": "SIE-M55Z\/* UP.Browser\/6.1*",
+          "match": "SIE-M55Z\/* UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Siemens M55Z"
         },
         {
-          "match": "SIE-M55e\/* UP.Browser\/6.1*",
+          "match": "SIE-M55e\/* UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Siemens M55e"
         },
         {
-          "match": "SIE-M56\/* UP.Browser\/6.1*",
+          "match": "SIE-M56\/* UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Siemens M56"
         },
         {
-          "match": "SIE-MC60\/* UP.Browser\/6.1*",
+          "match": "SIE-MC60\/* UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Siemens MC60"
         },
         {
-          "match": "SIE-MC6C\/* UP.Browser\/6.1*",
+          "match": "SIE-MC6C\/* UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Siemens MC6C"
         },
         {
-          "match": "SIE-ME75\/* UP.Browser\/6.1*",
+          "match": "SIE-ME75\/* UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Siemens ME75"
         },
         {
-          "match": "SIE-S55\/* UP.Browser\/6.1*",
+          "match": "SIE-S55\/* UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Siemens S55"
         },
         {
-          "match": "SIE-S56\/* UP.Browser\/6.1*",
+          "match": "SIE-S56\/* UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Siemens S56"
         },
         {
-          "match": "SIE-S57\/* UP.Browser\/6.1*",
+          "match": "SIE-S57\/* UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Siemens S57"
         },
         {
-          "match": "SIE-S57C\/* UP.Browser\/6.1*",
+          "match": "SIE-S57C\/* UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Siemens S57C"
         },
         {
-          "match": "SIE-SL55\/* UP.Browser\/6.1*",
+          "match": "SIE-SL55\/* UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Siemens SL55"
         },
         {
-          "match": "SIE-SL56\/* UP.Browser\/6.1*",
+          "match": "SIE-SL56\/* UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Siemens SL56"
         },
         {
-          "match": "SIE-SL5C\/* UP.Browser\/6.1*",
+          "match": "SIE-SL5C\/* UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Siemens SL5C"
         },
         {
-          "match": "SIE-ST55\/* UP.Browser\/6.1*",
+          "match": "SIE-ST55\/* UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Siemens ST55"
         },
         {
-          "match": "SIE-ST60\/* UP.Browser\/6.1*",
+          "match": "SIE-ST60\/* UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Siemens ST60"
         },
         {
-          "match": "Soutec-SG7610\/1.0 UP.Browser\/6.1*"
+          "match": "Soutec-SG7610\/1.0 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "T618X UP.Browser\/6.1*"
+          "match": "T618X UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "Telit-G80\/2.01 UP.Browser\/6.1*"
+          "match": "Telit-G80\/2.01 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "V750\/* UP.Browser\/6.1*"
+          "match": "V750\/* UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "Wonu S3 UP.Browser\/6.1*"
+          "match": "Wonu S3 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "YAS-COSMOS\/1.0 UP.Browser\/6.1*"
+          "match": "YAS-COSMOS\/1.0 UP.Browser\/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "* UP.Browser\/#MAJORVER#.#MINORVER#*"
         }
       ]
     }

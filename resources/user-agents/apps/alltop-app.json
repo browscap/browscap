@@ -3,6 +3,7 @@
   "versions": ["1.1"],
   "sortIndex": 1992,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Alltop App #MAJORVER#.#MINORVER#",

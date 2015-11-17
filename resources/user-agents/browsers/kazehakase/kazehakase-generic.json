@@ -1,0 +1,34 @@
+{
+  "division": "Kazehakase Generic",
+  "sortIndex": 2461,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Kazehakase Generic",
+      "platform": "Linux",
+      "engine": "Gecko",
+      "device": "Linux Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Kazehakase Generic",
+        "Browser": "Kazehakase",
+        "Browser_Type": "Browser",
+        "Win32": "false",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Kazehakase\/*",
+          "platforms": [
+            "Linux_64", "Linux_32", "Linux"
+          ]
+        }
+      ]
+    }
+  ]
+}

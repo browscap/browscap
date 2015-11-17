@@ -1,0 +1,32 @@
+{
+  "division": "AOLbot",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "AOLbot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "AOLbot",
+        "Browser": "AOLbot",
+        "Browser_Maker": "AOL-SOFT.COM",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (compatible; AOLbot\/4.0*",
+          "properties": {
+            "Version": "4.0",
+            "MajorVer": "4",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; AOLbot\/*"
+        }
+      ]
+    }
+  ]
+}

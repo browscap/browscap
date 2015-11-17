@@ -3,6 +3,7 @@
   "versions": [1],
   "sortIndex": 884,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Baidu Browser Mini #MAJORVER#.#MINORVER#",

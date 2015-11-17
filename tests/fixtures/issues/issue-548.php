@@ -19,8 +19,8 @@ return [
             'isMobileDevice' => false,
             'isTablet' => false,
             'Crawler' => false,
-            'JavaScript' => true,
             'Cookies' => true,
+            'JavaScript' => true,
             'Frames' => true,
             'IFrames' => true,
             'Tables' => true,
@@ -38,5 +38,7 @@ return [
             'RenderingEngine_Version' => '12.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
+        'lite' => true,
+        'standard' => true,
     ],
 ];

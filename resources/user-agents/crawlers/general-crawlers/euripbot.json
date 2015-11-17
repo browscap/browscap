@@ -2,6 +2,7 @@
   "division": "EuripBot",
   "sortIndex": 330,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "EuripBot",

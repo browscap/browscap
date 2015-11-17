@@ -2,6 +2,7 @@
   "division": "Copyright\/Plagiarism",
   "sortIndex": 320,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Copyright\/Plagiarism",
@@ -89,12 +90,6 @@
           "match": "SlySearch\/*",
           "properties": {
             "Browser": "SlySearch"
-          }
-        },
-        {
-          "match": "TurnitinBot\/*",
-          "properties": {
-            "Browser": "TurnitinBot"
           }
         },
         {

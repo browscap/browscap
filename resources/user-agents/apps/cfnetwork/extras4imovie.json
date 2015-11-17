@@ -2,6 +2,7 @@
   "division": "Extras4iMovie",
   "sortIndex": 4100,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Extras4iMovie",

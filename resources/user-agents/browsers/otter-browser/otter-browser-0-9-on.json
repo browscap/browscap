@@ -3,6 +3,7 @@
   "versions": ["0.9"],
   "sortIndex": 1890,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Otter #MAJORVER#.#MINORVER#",

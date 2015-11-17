@@ -3,6 +3,7 @@
   "versions": [10],
   "sortIndex": 1715,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "IEMobile #MAJORVER#.#MINORVER#",
@@ -120,6 +121,12 @@
         {
           "match": "Mozilla\/5.0 (compatible*; MSIE #MAJORVER#*; #PLATFORM# *Trident\/6.0; IEMobile\/#MAJORVER#*; ARM; Touch; HUAWEI; W1-U00*)",
           "device": "Huawei W1-U00",
+          "platforms": [
+            "WinPhone8"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible*; MSIE #MAJORVER#*; #PLATFORM# *Trident\/6.0; IEMobile\/#MAJORVER#*; ARM; Touch; *)",
           "platforms": [
             "WinPhone8"
           ]

@@ -2,6 +2,7 @@
   "division": "Diigo Browser",
   "sortIndex": 1901,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Diigo Browser",

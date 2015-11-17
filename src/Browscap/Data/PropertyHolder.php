@@ -166,8 +166,7 @@ class PropertyHolder
         $outputProperties = array(
             'MajorVer'               => 1,
             'MinorVer'               => 1,
-            'Win32'                  => 1,
-            'Win64'                  => 1,
+            'Crawler'                => 1,
             'Browser_Maker'          => 1,
             'Device_Pointing_Method' => 1,
         );

@@ -3,6 +3,7 @@
   "versions": ["8.2"],
   "sortIndex": 1784,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Nokia Browser #MAJORVER#.#MINORVER#",
@@ -45,6 +46,9 @@
         {
           "match": "Mozilla\/5.0 (Symbian\/*; Series60\/* Nokia603\/* AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/#MAJORVER#.#MINORVER#*Safari\/*",
           "device": "Nokia 603"
+        },
+        {
+          "match": "Mozilla\/5.0 (Symbian\/*; Series60\/* AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/#MAJORVER#.#MINORVER#*Safari\/*"
         }
       ]
     }

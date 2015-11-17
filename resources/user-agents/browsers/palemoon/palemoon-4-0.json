@@ -3,6 +3,7 @@
   "versions": [4],
   "sortIndex": 2662,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Palemoon #MAJORVER#.#MINORVER#",

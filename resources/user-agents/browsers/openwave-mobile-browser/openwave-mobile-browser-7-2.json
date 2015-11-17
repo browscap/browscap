@@ -1,14 +1,16 @@
 {
-  "division": "Openwave Mobile Browser 7.2",
+  "division": "Openwave Mobile Browser #MAJORVER#.#MINORVER#",
+  "versions": ["7.2"],
   "sortIndex": 8210,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
-      "userAgent": "Openwave Mobile Browser 7.2",
+      "userAgent": "Openwave Mobile Browser #MAJORVER#.#MINORVER#",
       "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Openwave Mobile Browser",
+        "Comment": "Openwave Mobile Browser #MAJORVER#.#MINORVER#",
         "Browser": "Openwave Mobile Browser",
         "Browser_Type": "Browser",
         "Frames": "true",
@@ -16,61 +18,64 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "Version": "7.2",
-        "MajorVer": "7",
-        "MinorVer": "2"
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#"
       },
       "children": [
         {
-          "match": "BenQ-E81\/10 * Browser\/UP.Browser\/7.2*"
+          "match": "BenQ-E81\/10 * Browser\/UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "KWC-Buckle\/ UP.Browser\/7.2*"
+          "match": "KWC-Buckle\/ UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "KWC-Glide\/ UP.Browser\/7.2*"
+          "match": "KWC-Glide\/ UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "KWC-Lightpipe\/ UP.Browser\/7.2*"
+          "match": "KWC-Lightpipe\/ UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "KWC-M2000\/ZQ1000 UP.Browser\/7.2*"
+          "match": "KWC-M2000\/ZQ1000 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "KWC-S1300\/* UP.Browser\/7.2*"
+          "match": "KWC-S1300\/* UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "KWC-Torino\/ UP.Browser\/7.2*"
+          "match": "KWC-Torino\/ UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "MOT-A-A6\/00.04 UP.Browser\/7.2*"
+          "match": "MOT-A-A6\/00.04 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "MOT-A455\/1.0 UP.Browser\/7.2*"
+          "match": "MOT-A455\/1.0 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "MOT-QA30\/00.72 UP.Browser\/7.2*"
+          "match": "MOT-QA30\/00.72 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "MOT-RASPB\/00.72 UP.Browser\/7.2*"
+          "match": "MOT-RASPB\/00.72 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "MOT-VE240\/00.72 UP.Browser\/7.2*"
+          "match": "MOT-VE240\/00.72 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "MOT-VE440\/00.72 UP.Browser\/7.2*"
+          "match": "MOT-VE440\/00.72 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "MOT-VE465\/00.72 UP.Browser\/7.2*"
+          "match": "MOT-VE465\/00.72 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "MOT-VEGAS\/00.72 UP.Browser\/7.2*"
+          "match": "MOT-VEGAS\/00.72 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "MOT-ZN4\/00.72 UP.Browser\/7.2*"
+          "match": "MOT-ZN4\/00.72 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "http:\/\/mms.revol.us\/uaprofs\/E1000-JV\/1.0.09 UP.Browser\/7.2*"
+          "match": "http:\/\/mms.revol.us\/uaprofs\/E1000-JV\/1.0.09 UP.Browser\/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "* UP.Browser\/#MAJORVER#.#MINORVER#*"
         }
       ]
     }

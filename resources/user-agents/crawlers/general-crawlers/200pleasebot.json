@@ -1,0 +1,32 @@
+{
+  "division": "200PleaseBot",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "200PleaseBot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "200PleaseBot",
+        "Browser": "200PleaseBot",
+        "Browser_Maker": "200please.com",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (compatible; 200PleaseBot\/1.0*",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; 200PleaseBot\/*"
+        }
+      ]
+    }
+  ]
+}

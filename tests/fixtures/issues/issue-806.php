@@ -40,6 +40,7 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-806-B' => [
         'Mozilla/5.0 (compatible; DeuSu/5.0.2; +https://deusu.de/robot.html)',
@@ -80,5 +81,6 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
+        'standard' => true,
     ]
 ];

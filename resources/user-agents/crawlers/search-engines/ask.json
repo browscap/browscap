@@ -2,6 +2,7 @@
   "division": "Ask",
   "sortIndex": 10,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Ask",

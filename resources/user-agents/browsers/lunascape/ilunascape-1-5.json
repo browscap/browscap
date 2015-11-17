@@ -3,6 +3,7 @@
   "versions": ["1.5"],
   "sortIndex": 6790,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "iLunascape #MAJORVER#.#MINORVER#",

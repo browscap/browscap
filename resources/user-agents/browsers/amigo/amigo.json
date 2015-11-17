@@ -3,6 +3,7 @@
   "versions": [36, 35, 34, 33, 32],
   "sortIndex": 883,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Amigo #MAJORVER#.#MINORVER#",

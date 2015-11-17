@@ -34,5 +34,6 @@ return [
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
         'lite' => false,
+        'standard' => true,
     ],
 ];

@@ -49,7 +49,7 @@ class StandardFilter implements FilterInterface
      */
     public function isOutput(Division $division)
     {
-        return true;
+        return $division->isStandard();
     }
 
     /**
@@ -61,7 +61,7 @@ class StandardFilter implements FilterInterface
      */
     public function isOutputSection(array $section)
     {
-        return true;
+        return !isset($section['standard']) || $section['standard'] == 1;
     }
 
     /**

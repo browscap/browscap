@@ -3,6 +3,7 @@
   "versions": ["6.18", "6.15"],
   "sortIndex": 1008,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Flixster App #MAJORVER#.#MINORVER#",

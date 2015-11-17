@@ -2,6 +2,7 @@
   "division": "Yahoo Slurp",
   "sortIndex": 1180,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Yahoo Slurp",
@@ -62,6 +63,14 @@
           "engine": "WebKit",
           "platforms": [
             "iOS_A_7_1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0*(#PLATFORM#)*AppleWebKit*(*KHTML, like Gecko*) Mobile (compatible; Yahoo! Slurp*",
+          "device": "general Mobile Device (Apple)",
+          "engine": "WebKit",
+          "platforms": [
+            "iOS_A_7_1", "iOS_A"
           ]
         }
       ]

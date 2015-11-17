@@ -2,6 +2,7 @@
   "division": "BlitzBot",
   "sortIndex": 110,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "BlitzBot",
@@ -17,10 +18,10 @@
       },
       "children": [
         {
-          "match": "BlitzBOT*"
+          "match": "BlitzBOT@tricus.com (Mozilla compatible)*"
         },
         {
-          "match": "BlitzBOT@tricus.com (Mozilla compatible)*"
+          "match": "BlitzBOT*"
         }
       ]
     }

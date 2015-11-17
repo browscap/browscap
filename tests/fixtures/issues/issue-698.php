@@ -20,6 +20,7 @@ return [
             'isTablet' => false,
             'Crawler' => false,
             'Cookies' => true,
+            'JavaScript' => true,
             'Frames' => true,
             'IFrames' => true,
             'Tables' => true,
@@ -38,5 +39,6 @@ return [
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
         'lite' => false,
+        'standard' => true,
     ],
 ];

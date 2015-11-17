@@ -1,0 +1,43 @@
+{
+  "division": "TweetmemeBot",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "TweetmemeBot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "TweetmemeBot",
+        "Browser": "TweetmemeBot",
+        "Browser_Maker": "datasift.com",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (TweetmemeBot\/4.0*",
+          "properties": {
+            "Version": "4.0",
+            "MajorVer": "4",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (TweetmemeBot\/*"
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; TweetmemeBot\/3.0*",
+          "properties": {
+            "Version": "3.0",
+            "MajorVer": "3",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; TweetmemeBot\/*"
+        }
+      ]
+    }
+  ]
+}

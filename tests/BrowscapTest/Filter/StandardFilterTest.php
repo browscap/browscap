@@ -59,11 +59,34 @@ class StandardFilterTest extends \PHPUnit_Framework_TestCase
      * @group filter
      * @group sourcetest
      */
-    public function testIsOutput()
+    public function testIsOutputTrue()
     {
-        $mockDivision = $this->getMock('\Browscap\Data\Division', array(), array(), '', false);
+        $mockDivision = $this->getMock('\Browscap\Data\Division', array('isStandard'), array(), '', false);
+        $mockDivision
+            ->expects(self::once())
+            ->method('isStandard')
+            ->will(self::returnValue(true))
+        ;
 
         self::assertTrue($this->object->isOutput($mockDivision));
+    }
+
+    /**
+     * tests detecting if a divion should be in the output
+     *
+     * @group filter
+     * @group sourcetest
+     */
+    public function testIsOutputFalse()
+    {
+        $mockDivision = $this->getMock('\Browscap\Data\Division', array('isStandard'), array(), '', false);
+        $mockDivision
+            ->expects(self::once())
+            ->method('isStandard')
+            ->will(self::returnValue(false))
+        ;
+
+        self::assertFalse($this->object->isOutput($mockDivision));
     }
 
     /**
@@ -93,8 +116,8 @@ class StandardFilterTest extends \PHPUnit_Framework_TestCase
             ['Alpha', false],
             ['Beta', false],
             ['Win16', false],
-            ['Win32', true],
-            ['Win64', true],
+            ['Win32', false],
+            ['Win64', false],
             ['Frames', false],
             ['IFrames', false],
             ['Tables', false],
@@ -106,7 +129,7 @@ class StandardFilterTest extends \PHPUnit_Framework_TestCase
             ['ActiveXControls', false],
             ['isMobileDevice', true],
             ['isSyndicationReader', false],
-            ['Crawler', false],
+            ['Crawler', true],
             ['lite', false],
             ['sortIndex', false],
             ['Parents', false],

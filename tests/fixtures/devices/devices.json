@@ -1,6 +1,7 @@
 {
   "devices": {
     "unknown": {
+      "standard": true,
       "properties": {
         "Device_Name": "unknown",
         "Device_Maker": "unknown",

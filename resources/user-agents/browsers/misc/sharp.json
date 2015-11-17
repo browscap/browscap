@@ -2,6 +2,7 @@
   "division": "Sharp",
   "sortIndex": 10900,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Sharp",

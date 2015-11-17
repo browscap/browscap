@@ -1,0 +1,76 @@
+{
+  "division": "Edge #MAJORVER#.#MINORVER#",
+  "versions": [13],
+  "sortIndex": 1148,
+  "lite": true,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Edge #MAJORVER#.#MINORVER#",
+      "engine": "Edge_Dynamic",
+      "device": "Windows Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Edge #MAJORVER#.#MINORVER#",
+        "Browser": "Edge",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Microsoft Corporation",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Win32": "false",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Chrome\/* Safari\/* Edge\/#MAJORVER#.*",
+          "platforms": [
+            "Win10_x64", "Win10_64", "Win10_32", "Win10_x64_B", "Win10_64_B", "Win10_32_B"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "Edge Mobile #MAJORVER#.#MINORVER#",
+      "engine": "Edge_Dynamic",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Edge Mobile #MAJORVER#.#MINORVER#",
+        "Browser": "Edge Mobile",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Microsoft Corporation",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Win32": "false",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#NOKIA; Lumia 930) AppleWebKit\/* (KHTML, like Gecko) Chrome\/* Safari\/* Edge\/#MAJORVER#.*",
+          "device": "Nokia Lumia 930",
+          "platforms": [
+            "WinPhone10"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Chrome\/* Safari\/* Edge\/#MAJORVER#.*",
+          "platforms": [
+            "WinPhone10"
+          ]
+        }
+      ]
+    }
+  ]
+}

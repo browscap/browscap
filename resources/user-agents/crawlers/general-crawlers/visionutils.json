@@ -1,0 +1,32 @@
+{
+  "division": "visionutils",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "visionutils",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "visionutils",
+        "Browser": "visionutils",
+        "Browser_Maker": "Bob Mottram",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "visionutils\/0.2*",
+          "properties": {
+            "Version": "0.2",
+            "MajorVer": "0",
+            "MinorVer": "2"
+          }
+        },
+        {
+          "match": "visionutils\/*"
+        }
+      ]
+    }
+  ]
+}

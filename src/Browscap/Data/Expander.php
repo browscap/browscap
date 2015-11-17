@@ -108,6 +108,7 @@ class Expander
                 $this->parseUserAgent(
                     $uaData,
                     $division->isLite(),
+                    $division->isStandard(),
                     $division->getSortIndex(),
                     $divisionName
                 )
@@ -122,13 +123,13 @@ class Expander
      *
      * @param string[] $uaData
      * @param boolean  $lite
+     * @param boolean  $standard
      * @param integer  $sortIndex
      * @param string   $divisionName
      *
-     * @throws \LogicException
      * @return array
      */
-    private function parseUserAgent(array $uaData, $lite, $sortIndex, $divisionName)
+    private function parseUserAgent(array $uaData, $lite, $standard, $sortIndex, $divisionName)
     {
         if (!isset($uaData['properties']) || !is_array($uaData['properties'])) {
             throw new \LogicException('properties are missing or not an array for key "' . $uaData['userAgent'] . '"');
@@ -141,10 +142,16 @@ class Expander
         }
 
         if (array_key_exists('platform', $uaData)) {
-            $platform     = $this->getDataCollection()->getPlatform($uaData['platform']);
+            $platform = $this->getDataCollection()->getPlatform($uaData['platform']);
+
             if (!$platform->isLite()) {
                 $lite = false;
             }
+
+            if (!$platform->isStandard()) {
+                $standard = false;
+            }
+
             $platformData = $platform->getProperties();
         } else {
             $platformData = array();
@@ -160,6 +167,10 @@ class Expander
         if (array_key_exists('device', $uaData)) {
             $device     = $this->getDataCollection()->getDevice($uaData['device']);
             $deviceData = $device->getProperties();
+
+            if (!$device->isStandard()) {
+                $standard = false;
+            }
         } else {
             $deviceData = array();
         }
@@ -169,9 +180,10 @@ class Expander
         $output = array(
             $ua => array_merge(
                 array(
-                    'lite' => $lite,
+                    'lite'      => $lite,
+                    'standard'  => $standard,
                     'sortIndex' => $sortIndex,
-                    'division' => $divisionName
+                    'division'  => $divisionName
                 ),
                 $platformData,
                 $engineData,
@@ -187,7 +199,7 @@ class Expander
         foreach ($uaData['children'] as $child) {
             $output = array_merge(
                 $output,
-                $this->parseChildren($ua, $child)
+                $this->parseChildren($ua, $child, $lite, $standard)
             );
         }
 
@@ -232,18 +244,29 @@ class Expander
      *
      * @param string $ua
      * @param array  $uaDataChild
+     * @param bool   $lite
+     * @param bool   $standard
      *
-     * @throws \LogicException
-     * @return array[]
+     * @return \array[]
      */
-    private function parseChildren($ua, array $uaDataChild)
+    private function parseChildren($ua, array $uaDataChild, $lite = true, $standard = true)
     {
         $output = array();
 
         if (isset($uaDataChild['platforms']) && is_array($uaDataChild['platforms'])) {
             foreach ($uaDataChild['platforms'] as $platform) {
+                $properties   = ['Parent' => $ua, 'lite' => $lite, 'standard' => $standard];
                 $platformData = $this->getDataCollection()->getPlatform($platform);
-                $uaBase       = str_replace('#PLATFORM#', $platformData->getMatch(), $uaDataChild['match']);
+
+                if (!$platformData->isLite()) {
+                    $properties['lite'] = false;
+                }
+
+                if (!$platformData->isStandard()) {
+                    $properties['standard'] = false;
+                }
+
+                $uaBase = str_replace('#PLATFORM#', $platformData->getMatch(), $uaDataChild['match']);
 
                 if (array_key_exists('engine', $uaDataChild)) {
                     $engine     = $this->getDataCollection()->getEngine($uaDataChild['engine']);
@@ -255,12 +278,16 @@ class Expander
                 if (array_key_exists('device', $uaDataChild)) {
                     $device     = $this->getDataCollection()->getDevice($uaDataChild['device']);
                     $deviceData = $device->getProperties();
+
+                    if (!$device->isStandard()) {
+                        $properties['standard'] = false;
+                    }
                 } else {
                     $deviceData = array();
                 }
 
                 $properties = array_merge(
-                    ['Parent' => $ua],
+                    $properties,
                     $engineData,
                     $deviceData,
                     $platformData->getProperties()
@@ -274,14 +301,10 @@ class Expander
                     $properties = array_merge($properties, $childProperties);
                 }
 
-                if (!$platformData->isLite()) {
-                    $properties['lite'] = false;
-                }
-
                 $output[$uaBase] = $properties;
             }
         } else {
-            $properties = ['Parent' => $ua];
+            $properties = ['Parent' => $ua, 'lite' => $lite, 'standard' => $standard];
 
             if (array_key_exists('engine', $uaDataChild)) {
                 $engine     = $this->getDataCollection()->getEngine($uaDataChild['engine']);
@@ -293,6 +316,10 @@ class Expander
             if (array_key_exists('device', $uaDataChild)) {
                 $device     = $this->getDataCollection()->getDevice($uaDataChild['device']);
                 $deviceData = $device->getProperties();
+
+                if (!$device->isStandard()) {
+                    $properties['standard'] = false;
+                }
             } else {
                 $deviceData = array();
             }
@@ -319,7 +346,9 @@ class Expander
                 $properties = array_merge($properties, $childProperties);
             }
 
-            $output[$uaDataChild['match']] = $properties;
+            $uaBase = str_replace('#PLATFORM#', '', $uaDataChild['match']);
+
+            $output[$uaBase] = $properties;
         }
 
         return $output;
@@ -446,11 +475,12 @@ class Expander
 
             $completeVersions = explode('.', $properties['Version'], 2);
 
-            if (!isset($properties['MajorVer'])) {
+            if (!isset($properties['MajorVer']) || '#MAJORVER#' === $properties['MajorVer']) {
                 $properties['MajorVer'] = (string) $completeVersions[0];
             } elseif ($properties['MajorVer'] !== (string) $completeVersions[0]) {
                 throw new \UnexpectedValueException(
-                    'MajorVersion from properties does not match with Version for key "' . $key . '"'
+                    'MajorVersion from properties does not match with Version for key "' . $key . '", "'
+                    . $properties['MajorVer'] . '" was defined, "' . (string) $completeVersions[0] . '" was expected'
                 );
             }
 
@@ -460,11 +490,12 @@ class Expander
                 $minorVersion = '0';
             }
 
-            if (!isset($properties['MinorVer'])) {
+            if (!isset($properties['MinorVer']) || '#MINORVER#' === $properties['MinorVer']) {
                 $properties['MinorVer'] = $minorVersion;
             } elseif ($properties['MinorVer'] !== $minorVersion) {
                 throw new \UnexpectedValueException(
-                    'MinorVersion from properties does not match with Version for key "' . $key . '"'
+                    'MinorVersion from properties does not match with Version for key "' . $key . '", "'
+                    . $properties['MinorVer'] . '" was defined, "' . $minorVersion . '" was expected'
                 );
             }
 

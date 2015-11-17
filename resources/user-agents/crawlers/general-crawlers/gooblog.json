@@ -1,0 +1,32 @@
+{
+  "division": "gooblog",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "gooblog",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "gooblog",
+        "Browser": "gooblog",
+        "Browser_Maker": "NTT Resonant Inc.",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "gooblog\/2.0*",
+          "properties": {
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "gooblog\/*"
+        }
+      ]
+    }
+  ]
+}

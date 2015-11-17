@@ -3,6 +3,7 @@
   "versions": ["15.6", "15.5", "15.4", "15.3", "15.2", "15.1", 15, "14.12", "14.11", "14.10", "14.9", "14.8", "14.7", "14.6", "14.5", "14.4", "14.3", "14.2", "14.1", 14, "13.12", "13.10", "13.9", "1.20"],
   "sortIndex": 1018,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Yandex Browser #MAJORVER#.#MINORVER#",
@@ -43,7 +44,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/* YaBrowser\/#MAJORVER#.#MINORVER#*Safari\/*",
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_8_A", "OSX_10_9_A", "OSX_10_10_A", "OSX"
+            "OSX_10_8", "OSX_10_9", "OSX_10_10", "OSX"
           ]
         },
         {
@@ -57,7 +58,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) YaBrowser\/#MAJORVER#.#MINORVER#*Chrome\/*Safari\/*",
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_8_A", "OSX_10_9_A", "OSX_10_10_A", "OSX"
+            "OSX_10_8", "OSX_10_9", "OSX_10_10", "OSX"
           ]
         }
       ]
@@ -103,7 +104,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#HTC One Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/* YaBrowser\/#MAJORVER#.#MINORVER#* Safari\/*",
           "device": "HTC M7",
           "platforms": [
-            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android"
+            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
           ]
         },
         {

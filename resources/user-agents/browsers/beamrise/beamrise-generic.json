@@ -2,6 +2,7 @@
   "division": "Beamrise Generic",
   "sortIndex": 956,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Beamrise Generic",

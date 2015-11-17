@@ -2,6 +2,7 @@
   "division": "Ilse",
   "sortIndex": 170,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Ilse",
@@ -19,7 +20,7 @@
           "match": "IlseBot\/*"
         },
         {
-          "match": "INGRID\/?.0*"
+          "match": "INGRID\/*"
         },
         {
           "match": "Mozilla\/3.0 (INGRID\/*"

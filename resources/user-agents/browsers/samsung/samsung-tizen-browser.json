@@ -3,6 +3,7 @@
   "versions": ["2.3", 1],
   "sortIndex": 955,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Samsung Browser #MAJORVER#.#MINORVER# for TV",

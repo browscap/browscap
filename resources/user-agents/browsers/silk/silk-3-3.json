@@ -3,6 +3,7 @@
   "versions": ["3.3"],
   "sortIndex": 1137,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Silk #MAJORVER#.#MINORVER#",
@@ -32,7 +33,7 @@
           },
           "device": "Amazon KFOT",
           "platforms": [
-            "Android_4_0"
+            "Android"
           ]
         },
         {
@@ -42,14 +43,17 @@
           },
           "device": "Amazon KFTT",
           "platforms": [
-            "Android_4_0"
+            "Android"
           ]
         },
         {
           "match": "Mozilla\/5.0 (Linux; U; *; KFOT Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* Safari*",
+          "properties": {
+            "Browser_Modus": "Desktop Mode"
+          },
           "device": "Amazon KFOT",
           "platforms": [
-            "Android_4_0"
+            "Android"
           ]
         },
         {
@@ -59,7 +63,16 @@
           },
           "device": "Amazon KFTT",
           "platforms": [
-            "Android_4_0"
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (Linux; U; * Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* Safari*",
+          "properties": {
+            "Browser_Modus": "Desktop Mode"
+          },
+          "platforms": [
+            "Android"
           ]
         }
       ]

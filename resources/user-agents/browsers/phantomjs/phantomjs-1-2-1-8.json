@@ -3,6 +3,7 @@
   "versions": ["1.8", "1.7", "1.6", "1.2"],
   "sortIndex": 1861,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "PhantomJS #MAJORVER#.#MINORVER#",

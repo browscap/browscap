@@ -3,6 +3,7 @@
   "versions": [15, 14, 13, 12],
   "sortIndex": 2061,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Adobe Dreamweaver #MAJORVER#.#MINORVER#",

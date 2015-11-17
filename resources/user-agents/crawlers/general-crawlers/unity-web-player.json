@@ -1,0 +1,32 @@
+{
+  "division": "Unity Web Player",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Unity Web Player",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Unity Web Player",
+        "Browser": "Unity Web Player",
+        "Browser_Maker": "Unity Technologies",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "UnityPlayer\/4.3*",
+          "properties": {
+            "Version": "4.3",
+            "MajorVer": "4",
+            "MinorVer": "3"
+          }
+        },
+        {
+          "match": "UnityPlayer\/*"
+        }
+      ]
+    }
+  ]
+}

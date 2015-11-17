@@ -1,20 +1,22 @@
 {
-  "division": "Motorola Internet Browser 1.2",
+  "division": "Motorola Internet Browser #MAJORVER#.#MINORVER#",
+  "versions": ["1.2"],
   "sortIndex": 7353,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
-      "userAgent": "Motorola Internet Browser 1.2",
+      "userAgent": "Motorola Internet Browser #MAJORVER#.#MINORVER#",
       "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Motorola Internet Browser 1.2",
+        "Comment": "Motorola Internet Browser #MAJORVER#.#MINORVER#",
         "Browser": "Motorola Internet Browser",
         "Browser_Type": "Browser",
         "Browser_Maker": "Motorola",
-        "Version": "1.2",
-        "MajorVer": "1",
-        "MinorVer": "2",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
@@ -22,35 +24,35 @@
       },
       "children": [
         {
-          "match": "MOT-TA02\/* MIB\/1.2*",
+          "match": "MOT-TA02\/* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola TA02"
         },
         {
-          "match": "MOT-V60M\/03.* MIB\/1.2*",
+          "match": "MOT-V60M\/03.* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola V60M"
         },
         {
-          "match": "MOT-V66M\/03.* MIB\/1.2*",
+          "match": "MOT-V66M\/03.* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola V66M"
         },
         {
-          "match": "MOT-V730\/1.0 MIB1.2\/*",
+          "match": "MOT-V730\/1.0 MIB#MAJORVER#.#MINORVER#\/*",
           "device": "Motorola V730"
         },
         {
-          "match": "MOT-V860\/1.0 MIB1.2\/*",
+          "match": "MOT-V860\/1.0 MIB#MAJORVER#.#MINORVER#\/*",
           "device": "Motorola V860"
         },
         {
-          "match": "MOT-V868\/1.0 MIB1.2\/*",
+          "match": "MOT-V868\/1.0 MIB#MAJORVER#.#MINORVER#\/*",
           "device": "Motorola V868"
         },
         {
-          "match": "MOT-ta02\/06.04.2fr_columbia_3mnc_fix MIB\/1.2*",
+          "match": "MOT-ta02\/06.04.2fr_columbia_3mnc_fix MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola TA02"
         },
         {
-          "match": "MOT-ta02\/E-G_C_* MIB\/1.2*",
+          "match": "MOT-ta02\/E-G_C_* MIB\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola TA02"
         }
       ]

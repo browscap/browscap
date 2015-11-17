@@ -1,0 +1,37 @@
+{
+  "division": "XML Sitemaps Generator",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "XML Sitemaps Generator",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "XML Sitemaps Generator",
+        "Browser": "XML Sitemaps Generator",
+        "Browser_Maker": "XML Sitemaps",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "XML Sitemaps Generator*"
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; XML Sitemaps Generator; http:\/\/www.xml-sitemaps.com) Gecko XML-Sitemaps\/1.0*",
+          "engine": "Gecko",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; XML Sitemaps Generator; http:\/\/www.xml-sitemaps.com) Gecko XML-Sitemaps\/*",
+          "engine": "Gecko"
+        }
+      ]
+    }
+  ]
+}

@@ -3,6 +3,7 @@
   "versions": ["3.4", "3.3", "3.2", "3.1", "3.0"],
   "sortIndex": 935,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER#",
@@ -30,12 +31,12 @@
           "match": "#PLATFORM#) UCWEB#MAJORVER#.#MINORVER#*",
           "engine": "WebKit",
           "platforms": [
-            "Android_2_3_C",
-            "Android_2_3_E",
-            "Android_4_0_B",
-            "Android_4_1_B",
-            "Android_4_2_B",
-            "Android_4_3_B"
+            "Android_C_2_3", "Android_C",
+            "Android_D_2_3",
+            "Android_D_4_0",
+            "Android_D_4_1",
+            "Android_D_4_2",
+            "Android_D_4_3", "Android_D"
           ]
         },
         {
@@ -250,7 +251,7 @@
           "engine": "U2",
           "device": "Samsung GT-I8350",
           "platforms": [
-            "WinPhone7_B",
+            "WinPhone7_C",
             "WinPhone8_B"
           ]
         },
@@ -259,7 +260,7 @@
           "engine": "U2",
           "device": "Samsung GT-I8350",
           "platforms": [
-            "WinPhone7_B",
+            "WinPhone7_C",
             "WinPhone8_B"
           ]
         },
@@ -275,14 +276,15 @@
           "match": "UCWEB\/*(#PLATFORM#) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
           "engine": "U2",
           "platforms": [
-            "Android_2_1_C",
-            "Android_2_2_C",
-            "Android_2_3_D",
-            "Android_4_0_C",
-            "Android_4_1_C",
-            "Android_4_2_C",
-            "Android_4_3_C",
-            "Android_4_4_C",
+            "Android_E_2_1",
+            "Android_E_2_2",
+            "Android_E_2_3",
+            "Android_E_4_0",
+            "Android_E_4_1",
+            "Android_E_4_2",
+            "Android_E_4_3",
+            "Android_E_4_4",
+            "Android_E",
             "iOS_D_5_0",
             "iOS_D_5_1",
             "iOS_D_6_0",
@@ -290,7 +292,8 @@
             "iOS_D_7_0",
             "iOS_D_7_1",
             "iOS_D_8_0",
-            "WinPhone7_B",
+            "iOS_D",
+            "WinPhone7_C",
             "WinPhone8_B",
             "SymbianOS_B"
           ]
@@ -424,8 +427,7 @@
           "engine": "WebKit",
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
-            "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B", "OSX_10_10_A", "OSX_10_10_B",
+            "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
             "OSX"
           ]
         }

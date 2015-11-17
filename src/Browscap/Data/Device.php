@@ -32,6 +32,21 @@ class Device
     private $properties = array();
 
     /**
+     * @var boolean
+     */
+    private $standard = false;
+
+    /**
+     * @param string[] $properties
+     * @param boolean  $standard
+     */
+    public function __construct(array $properties, $standard)
+    {
+        $this->properties = $properties;
+        $this->standard   = (bool) $standard;
+    }
+
+    /**
      * @return string[]
      */
     public function getProperties()
@@ -40,14 +55,10 @@ class Device
     }
 
     /**
-     * @param string[] $properties
-     *
-     * @return \Browscap\Data\Device
+     * @return boolean
      */
-    public function setProperties(array $properties)
+    public function isStandard()
     {
-        $this->properties = $properties;
-
-        return $this;
+        return $this->standard;
     }
 }

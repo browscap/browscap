@@ -2,6 +2,7 @@
   "division": "Facebook",
   "sortIndex": 140,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Facebook",
@@ -78,18 +79,18 @@
           }
         },
         {
-          "match": "facebookscraper\/*( http*:\/\/www.facebook.com\/sharescraper_help.php)*",
-          "properties": {
-            "Browser": "Facebookscraper"
-          }
-        },
-        {
           "match": "facebookscraper\/1.0( http*:\/\/www.facebook.com\/sharescraper_help.php)*",
           "properties": {
             "Browser": "Facebookscraper",
             "Version": "1.0",
             "MajorVer": "1",
             "MinorVer": "0"
+          }
+        },
+        {
+          "match": "facebookscraper\/*( http*:\/\/www.facebook.com\/sharescraper_help.php)*",
+          "properties": {
+            "Browser": "Facebookscraper"
           }
         }
       ]

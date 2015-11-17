@@ -2,6 +2,7 @@
   "division": "Coc Coc Browser Generic",
   "sortIndex": 884,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Coc Coc Browser Generic",

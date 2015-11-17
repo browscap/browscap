@@ -1,0 +1,32 @@
+{
+  "division": "meanpathbot",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "meanpathbot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "meanpathbot",
+        "Browser": "meanpathbot",
+        "Browser_Maker": "Meanpath",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (compatible; meanpathbot\/1.0*",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; meanpathbot\/*"
+        }
+      ]
+    }
+  ]
+}

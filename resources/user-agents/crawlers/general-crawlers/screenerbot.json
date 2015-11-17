@@ -1,0 +1,33 @@
+{
+  "division": "ScreenerBot",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "ScreenerBot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "ScreenerBot",
+        "Browser": "ScreenerBot",
+        "Browser_Maker": "ScreenerBot.com",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true",
+        "Beta": "true"
+      },
+      "children": [
+        {
+          "match": "ScreenerBot Crawler Beta 2.0 *",
+          "properties": {
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "ScreenerBot Crawler Beta *"
+        }
+      ]
+    }
+  ]
+}

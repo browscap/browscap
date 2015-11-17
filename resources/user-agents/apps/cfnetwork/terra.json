@@ -2,6 +2,7 @@
   "division": "Terra",
   "sortIndex": 10790,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Terra",

@@ -2,6 +2,7 @@
   "division": "RealPlayer Downloader",
   "sortIndex": 9900,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "RealPlayer Downloader",

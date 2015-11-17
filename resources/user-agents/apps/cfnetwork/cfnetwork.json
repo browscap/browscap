@@ -2,6 +2,7 @@
   "division": "CFNetwork",
   "sortIndex": 20000,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "CFNetwork for iOS",
@@ -186,181 +187,181 @@
         {
           "match": "*CFNetwork\/1.1*",
           "platforms": [
-            "OSX_10_2_A"
+            "OSX_10_2"
           ]
         },
         {
           "match": "*CFNetwork\/1.2*",
           "platforms": [
-            "OSX_10_3_A"
+            "OSX_10_3"
           ]
         },
         {
           "match": "*CFNetwork\/4.0*",
           "platforms": [
-            "OSX_10_3_A"
+            "OSX_10_3"
           ]
         },
         {
           "match": "*CFNetwork\/128*",
           "platforms": [
-            "OSX_10_4_A"
+            "OSX_10_4"
           ]
         },
         {
           "match": "*CFNetwork\/129*",
           "platforms": [
-            "OSX_10_4_A"
+            "OSX_10_4"
           ]
         },
         {
           "match": "*CFNetwork\/217*",
           "platforms": [
-            "OSX_10_5_A"
+            "OSX_10_5"
           ]
         },
         {
           "match": "*CFNetwork\/220*",
           "platforms": [
-            "OSX_10_5_A"
+            "OSX_10_5"
           ]
         },
         {
           "match": "*CFNetwork\/221*",
           "platforms": [
-            "OSX_10_5_A"
+            "OSX_10_5"
           ]
         },
         {
           "match": "*CFNetwork\/330*",
           "platforms": [
-            "OSX_10_5_A"
+            "OSX_10_5"
           ]
         },
         {
           "match": "*CFNetwork\/339*",
           "platforms": [
-            "OSX_10_5_A"
+            "OSX_10_5"
           ]
         },
         {
           "match": "*CFNetwork\/422*",
           "platforms": [
-            "OSX_10_5_A"
+            "OSX_10_5"
           ]
         },
         {
           "match": "*CFNetwork\/433*",
           "platforms": [
-            "OSX_10_5_A"
+            "OSX_10_5"
           ]
         },
         {
           "match": "*CFNetwork\/438*",
           "platforms": [
-            "OSX_10_5_A"
+            "OSX_10_5"
           ]
         },
         {
           "match": "*CFNetwork\/454*",
           "platforms": [
-            "OSX_10_6_A"
+            "OSX_10_6"
           ]
         },
         {
           "match": "*CFNetwork\/515*",
           "platforms": [
-            "OSX_10_7_A"
+            "OSX_10_7"
           ]
         },
         {
           "match": "*CFNetwork\/520*",
           "platforms": [
-            "OSX_10_7_A"
+            "OSX_10_7"
           ]
         },
         {
           "match": "*CFNetwork\/561*",
           "platforms": [
-            "OSX_10_8_A"
+            "OSX_10_8"
           ]
         },
         {
           "match": "*CFNetwork\/595*",
           "platforms": [
-            "OSX_10_8_A"
+            "OSX_10_8"
           ]
         },
         {
           "match": "*CFNetwork\/596*",
           "platforms": [
-            "OSX_10_8_A"
+            "OSX_10_8"
           ]
         },
         {
           "match": "*CFNetwork\/647*",
           "platforms": [
-            "OSX_10_9_A"
+            "OSX_10_9"
           ]
         },
         {
           "match": "*CFNetwork\/673*",
           "platforms": [
-            "OSX_10_9_A"
+            "OSX_10_9"
           ]
         },
         {
           "match": "*CFNetwork\/696*",
           "platforms": [
-            "OSX_10_10_A"
+            "OSX_10_10"
           ]
         },
         {
           "match": "*CFNetwork\/699*",
           "platforms": [
-            "OSX_10_10_A"
+            "OSX_10_10"
           ]
         },
         {
           "match": "*CFNetwork\/705*",
           "platforms": [
-            "OSX_10_10_A"
+            "OSX_10_10"
           ]
         },
         {
           "match": "*CFNetwork\/708*",
           "platforms": [
-            "OSX_10_10_A"
+            "OSX_10_10"
           ]
         },
         {
           "match": "*CFNetwork\/709*",
           "platforms": [
-            "OSX_10_10_A"
+            "OSX_10_10"
           ]
         },
         {
           "match": "*CFNetwork\/714*",
           "platforms": [
-            "OSX_10_10_A"
+            "OSX_10_10"
           ]
         },
         {
           "match": "*CFNetwork\/718*",
           "platforms": [
-            "OSX_10_10_A"
+            "OSX_10_10"
           ]
         },
         {
           "match": "*CFNetwork\/720*",
           "platforms": [
-            "OSX_10_10_A"
+            "OSX_10_10"
           ]
         },
         {
           "match": "*CFNetwork\/760*",
           "platforms": [
-            "OSX_10_11_A"
+            "OSX_10_11"
           ]
         }
       ]

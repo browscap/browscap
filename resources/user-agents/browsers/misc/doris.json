@@ -2,6 +2,7 @@
   "division": "Doris",
   "sortIndex": 3930,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Doris",

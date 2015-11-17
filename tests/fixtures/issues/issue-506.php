@@ -29,6 +29,8 @@ return [
             'RenderingEngine_Version' => '7.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
+        'lite' => true,
+        'standard' => true,
     ],
     'issue-506-B' => [
         'Mozilla/5.0 (Windows NT 6.4; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.143 Safari/537.36 Edge/12.0',
@@ -48,6 +50,11 @@ return [
             'isMobileDevice' => false,
             'isTablet' => false,
             'Crawler' => false,
+            'Cookies' => true,
+            'JavaScript' => true,
+            'Frames' => true,
+            'IFrames' => true,
+            'Tables' => true,
             'VBScript' => false,
             'JavaApplets' => false,
             'ActiveXControls' => false,
@@ -62,6 +69,8 @@ return [
             'RenderingEngine_Version' => '12.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
+        'lite' => true,
+        'standard' => true,
     ],
     'issue-506-C' => [
         'Mozilla/5.0 (Windows NT 6.1; Win64; x64; Trident/7.0; rv:11.0) like Gecko/20100101 Firefox/12.0',
@@ -91,6 +100,8 @@ return [
             'RenderingEngine_Version' => '7.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
+        'lite' => true,
+        'standard' => true,
     ],
     'issue-506-D' => [
         'Mozilla/5.0 (Mobile; Windows Phone 8.1; Android 4.0; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 930) like iPhone OS 7_0_3 Mac OS X AppleWebKit/537 (KHTML, like Gecko) Mobile Safari/537',
@@ -121,5 +132,6 @@ return [
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
         'lite' => false,
+        'standard' => true,
     ],
 ];

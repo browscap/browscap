@@ -3,6 +3,7 @@
   "versions": ["0.7"],
   "sortIndex": 3103,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Flock #MAJORVER#.#MINORVER#",

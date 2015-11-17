@@ -3,6 +3,7 @@
   "versions": ["2.6", "2.5", "2.4", "2.3", "2.2", "2.1", "2.0"],
   "sortIndex": 936,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER#",
@@ -30,7 +31,8 @@
           "match": "#PLATFORM#) UCWEB#MAJORVER#.#MINORVER#*",
           "engine": "WebKit",
           "platforms": [
-            "Android_2_3_C", "Android_2_3_E", "Android_4_0_B", "Android_4_1_B", "Android_4_2_B", "Android_4_3_B"
+            "Android_C_2_3", "Android_C",
+            "Android_D_2_3", "Android_D_4_0", "Android_D_4_1", "Android_D_4_2", "Android_D_4_3", "Android_D"
           ]
         },
         {
@@ -59,10 +61,10 @@
           "device": "general Mobile Phone (Touch)",
           "engine": "U2",
           "platforms": [
-            "Android_2_1_C", "Android_2_2_C", "Android_2_3_D", "Android_4_0_C", "Android_4_1_C", "Android_4_2_C", "Android_4_3_C",
-            "Android_4_4_C",
+            "Android_E_2_1", "Android_E_2_2", "Android_E_2_3", "Android_E_4_0", "Android_E_4_1", "Android_E_4_2", "Android_E_4_3", "Android_E_4_4",
+            "Android_E",
             "iOS_D_5_0", "iOS_D_5_1", "iOS_D_6_0", "iOS_D_6_1", "iOS_D_7_0", "iOS_D_7_1", "iOS_D_8_0",
-            "WinPhone7_B", "WinPhone8_B",
+            "WinPhone7_C", "WinPhone8_B",
             "SymbianOS_B"
           ]
         },

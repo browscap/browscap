@@ -75,9 +75,6 @@ class EngineFactory
             );
         }
 
-        $engine = new Engine();
-        $engine->setProperties($engineData['properties']);
-
-        return $engine;
+        return new Engine($engineData['properties']);
     }
 }

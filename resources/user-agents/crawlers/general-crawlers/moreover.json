@@ -1,0 +1,32 @@
+{
+  "division": "Moreover",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Moreover",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Moreover",
+        "Browser": "Moreover",
+        "Browser_Maker": "Moreover Technologies, Inc",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 Moreover\/5.1*",
+          "properties": {
+            "Version": "5.1",
+            "MajorVer": "5",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 Moreover\/*"
+        }
+      ]
+    }
+  ]
+}

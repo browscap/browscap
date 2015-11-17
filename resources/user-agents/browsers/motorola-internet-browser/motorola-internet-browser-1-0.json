@@ -1,20 +1,22 @@
 {
-  "division": "Motorola Internet Browser 1.0",
+  "division": "Motorola Internet Browser #MAJORVER#.#MINORVER#",
+  "versions": [1],
   "sortIndex": 7354,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
-      "userAgent": "Motorola Internet Browser 1.0",
+      "userAgent": "Motorola Internet Browser #MAJORVER#.#MINORVER#",
       "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Motorola Internet Browser 1.0",
+        "Comment": "Motorola Internet Browser #MAJORVER#.#MINORVER#",
         "Browser": "Motorola Internet Browser",
         "Browser_Type": "Browser",
         "Browser_Maker": "Motorola",
-        "Version": "1.0",
-        "MajorVer": "1",
-        "MinorVer": "0",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
@@ -22,27 +24,27 @@
       },
       "children": [
         {
-          "match": "MOT-A668\/ WAP.Browser\/1.0 *",
+          "match": "MOT-A668\/ WAP.Browser\/#MAJORVER#.#MINORVER# *",
           "device": "Motorola A668"
         },
         {
-          "match": "MOT-V690\/ WAP.Browser\/1.0 *",
+          "match": "MOT-V690\/ WAP.Browser\/#MAJORVER#.#MINORVER# *",
           "device": "Motorola V690"
         },
         {
-          "match": "MOT-V868\/1.0 MIB1.2\/v1.0 *",
+          "match": "MOT-V868\/#MAJORVER#.#MINORVER# MIB1.2\/v#MAJORVER#.#MINORVER# *",
           "device": "Motorola V868"
         },
         {
-          "match": "MOT-V878\/ WAP.Browser\/1.0 *",
+          "match": "MOT-V878\/ WAP.Browser\/#MAJORVER#.#MINORVER# *",
           "device": "Motorola V878"
         },
         {
-          "match": "MOT-W220\/ WAP.Browser\/1.0 *",
+          "match": "MOT-W220\/ WAP.Browser\/#MAJORVER#.#MINORVER# *",
           "device": "Motorola W220"
         },
         {
-          "match": "MOT-W220\/1.0 Release\/6.30.2006 Browser\/CMCS1.0 *",
+          "match": "MOT-W220\/#MAJORVER#.#MINORVER# Release\/6.30.2006 Browser\/CMCS1.0 *",
           "device": "Motorola W220"
         }
       ]

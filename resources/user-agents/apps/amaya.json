@@ -2,6 +2,7 @@
   "division": "Amaya",
   "sortIndex": 2050,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Amaya",

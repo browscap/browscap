@@ -1,0 +1,59 @@
+{
+  "division":   "HTTrack",
+  "sortIndex":  441,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent":  "HTTrack",
+      "properties": {
+        "Parent":  "DefaultProperties",
+        "Comment": "HTTrack",
+        "Browser": "HTTrack",
+        "Browser_Type": "Offline Browser",
+        "Browser_Maker": "Xavier Roche",
+        "Crawler": "true"
+      },
+      "children":   [
+        {
+          "match": "Mozilla\/* (compatible; HTTrack 3.#PLATFORM#",
+          "device": "Windows Desktop",
+          "properties": {
+            "Version":       "3.0",
+            "MajorVer":      "3"
+          },
+          "platforms": [
+            "Win98_2", "Windows"
+          ]
+        },
+        {
+          "match": "Mozilla\/* (compatible; HTTrack 3.*",
+          "properties": {
+            "Version":       "3.0",
+            "MajorVer":      "3"
+          }
+        },
+        {
+          "match": "*HTTrack 3.*",
+          "properties": {
+            "Version":       "3.0",
+            "MajorVer":      "3"
+          }
+        },
+        {
+          "match": "Mozilla\/* (compatible; HTTrack#PLATFORM#",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win98_2", "Windows"
+          ]
+        },
+        {
+          "match": "Mozilla\/* (compatible; HTTrack*"
+        },
+        {
+          "match": "*HTTrack*"
+        }
+      ]
+    }
+  ]
+}

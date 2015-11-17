@@ -32,22 +32,18 @@ class Engine
     private $properties = array();
 
     /**
+     * @param string[] $properties
+     */
+    public function __construct(array $properties)
+    {
+        $this->properties = $properties;
+    }
+
+    /**
      * @return string[]
      */
     public function getProperties()
     {
         return $this->properties;
-    }
-
-    /**
-     * @param string[] $properties
-     *
-     * @return \Browscap\Data\Engine
-     */
-    public function setProperties(array $properties)
-    {
-        $this->properties = $properties;
-
-        return $this;
     }
 }

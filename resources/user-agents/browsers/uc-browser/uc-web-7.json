@@ -3,6 +3,7 @@
   "versions": ["7.9", "7.8", "7.7", "7.6", "7.5", "7.4", "7.3", "7.2", "7.1", "7.0"],
   "sortIndex": 934,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER#",
@@ -31,33 +32,65 @@
           "match": "#PLATFORM#GT-S5570*) UCWEB#MAJORVER#.#MINORVER#*",
           "device": "Samsung GT-S5570",
           "platforms": [
-            "Android_2_2_B", "Android_2_2_D", "Android_2_3_C", "Android_2_3_E", "Android_4_0_B", "Android_4_1_B", "Android_4_2_B", "Android_4_3_B"
+            "Android_C_2_2", "Android_C_2_3",
+            "Android_D_2_2", "Android_D_2_3", "Android_D_4_0", "Android_D_4_1", "Android_D_4_2", "Android_D_4_3"
           ]
         },
         {
           "match": "#PLATFORM#GT-I9100*) UCWEB#MAJORVER#.#MINORVER#*",
           "device": "GT-I9100",
           "platforms": [
-            "Android_2_2_B", "Android_2_2_D", "Android_2_3_C", "Android_2_3_E", "Android_4_0_B", "Android_4_1_B", "Android_4_2_B", "Android_4_3_B"
+            "Android_C_2_2", "Android_C_2_3",
+            "Android_D_2_2", "Android_D_2_3", "Android_D_4_0", "Android_D_4_1", "Android_D_4_2", "Android_D_4_3"
+          ]
+        },
+        {
+          "match": "#PLATFORM#GT-I9060*)UCWEB#MAJORVER#.#MINORVER#*",
+          "device": "Samsung GT-I9060",
+          "platforms": [
+            "Android_C_4_2"
           ]
         },
         {
           "match": "#PLATFORM#Micromax A35*)UCWEB#MAJORVER#.#MINORVER#*",
           "device": "Micromax A35",
           "platforms": [
-            "Android_2_2_B", "Android_2_3_C", "Android_4_0_B", "Android_4_1_B"
+            "Android_C_2_2", "Android_C_2_3",
+            "Android_D_4_0", "Android_D_4_1"
           ]
         },
         {
           "match": "#PLATFORM#) UCWEB#MAJORVER#.#MINORVER#*",
           "platforms": [
-            "Android_2_2_B", "Android_2_2_D", "Android_2_3_C", "Android_2_3_E", "Android_4_0_B", "Android_4_1_B", "Android_4_2_B", "Android_4_3_B"
+            "Android_C_2_2", "Android_C_2_3", "Android_C_4_2", "Android_C",
+            "Android_D_2_2", "Android_D_2_3", "Android_D_4_0", "Android_D_4_1", "Android_D_4_2", "Android_D_4_3", "Android_D"
           ]
         },
         {
           "match": "#PLATFORM#)UCWEB#MAJORVER#.#MINORVER#*",
           "platforms": [
-            "Android_2_2_B", "Android_2_3_C", "Android_4_0_B", "Android_4_1_B"
+            "Android_C_2_2", "Android_C_2_3", "Android_C_4_2", "Android_C",
+            "Android_D_4_0", "Android_D_4_1", "Android_D_4_2", "Android_D"
+          ]
+        },
+        {
+          "match": "#PLATFORM#Desire HD*)UCWEB#MAJORVER#.#MINORVER#*",
+          "device": "HTC Desire HD",
+          "platforms": [
+            "Android_G_2_2"
+          ]
+        },
+        {
+          "match": "#PLATFORM#XT702*)UCWEB#MAJORVER#.#MINORVER#*",
+          "device": "Motorola XT702",
+          "platforms": [
+            "Android_G_2_2"
+          ]
+        },
+        {
+          "match": "#PLATFORM)UCWEB#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Android_G_2_2", "Android_G"
           ]
         },
         {
@@ -87,25 +120,11 @@
           ]
         },
         {
-          "match": "JUC(Linux;?;2.2*;Desire HD*)UCWEB#MAJORVER#.#MINORVER#*",
-          "device": "HTC Desire HD",
-          "platforms": [
-            "Android_2_2_B"
-          ]
-        },
-        {
           "match": "NokiaN97\/UC Browser#MAJORVER#.#MINORVER#*",
           "device": "Nokia N97"
         },
         {
           "match": "S8500 UCWEB6.0\/UC Browser#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "JUC(Linux;?;2.2*;XT702*)UCWEB#MAJORVER#.#MINORVER#*",
-          "device": "Motorola XT702",
-          "platforms": [
-            "Android_2_2_B"
-          ]
         },
         {
           "match": "NokiaN8-00\/UC Browser#MAJORVER#.#MINORVER#*",
@@ -120,27 +139,6 @@
           "device": "iPod Touch",
           "platforms": [
             "iOS_G_4_3"
-          ]
-        },
-        {
-          "match": "JUC (Linux; U; 4.0*; *) UCWEB#MAJORVER#.#MINORVER#*",
-          "device": "general Mobile Phone",
-          "platforms": [
-            "Android_4_0_B"
-          ]
-        },
-        {
-          "match": "JUC (Linux; U; 4.0*; GT-I9100; *) UCWEB#MAJORVER#.#MINORVER#*",
-          "device": "GT-I9100",
-          "platforms": [
-            "Android_4_0_B"
-          ]
-        },
-        {
-          "match": "JUC(Linux;U;Android4.2.2;Zh_cn;GT-I9060;*)UCWEB#MAJORVER#.#MINORVER#*",
-          "device": "Samsung GT-I9060",
-          "platforms": [
-            "Android_4_2_B"
           ]
         },
         {

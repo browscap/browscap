@@ -2,6 +2,7 @@
   "division": "Hot Wallpapers",
   "sortIndex": 5160,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Hot Wallpapers",

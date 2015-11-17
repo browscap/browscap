@@ -38,6 +38,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-648-B' => [
         'Mail/53 CFNetwork/711.2.23 Darwin/14.0.0',
@@ -76,6 +77,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-648-C' => [
         'Safari/10600.3.18 CFNetwork/720.2.4 Darwin/14.1.0 (x86_64)',
@@ -114,5 +116,6 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
 ];

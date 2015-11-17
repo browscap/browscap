@@ -30,6 +30,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-286-B' => [
         'Mozilla/5.0 (Windows NT 6.2; WOW64; Trident/7.0; Avant Browser; rv:11.0) like Gecko',
@@ -60,6 +61,7 @@ return [
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-286-C' => [
         'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0; Avant TriCore) Gecko/20100101 Firefox/27.0',
@@ -90,5 +92,6 @@ return [
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
         'lite' => false,
+        'standard' => true,
     ],
 ];

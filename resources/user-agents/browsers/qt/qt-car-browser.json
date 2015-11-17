@@ -2,6 +2,7 @@
   "division": "Qt Car Browser",
   "sortIndex": 1178,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Qt Car Browser",

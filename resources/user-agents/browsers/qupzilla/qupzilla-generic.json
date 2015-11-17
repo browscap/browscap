@@ -2,6 +2,7 @@
   "division": "QupZilla Generic",
   "sortIndex": 1891,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "QupZilla Generic",

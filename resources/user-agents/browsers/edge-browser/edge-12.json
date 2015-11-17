@@ -3,10 +3,11 @@
   "versions": [12],
   "sortIndex": 1149,
   "lite": true,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Edge #MAJORVER#.#MINORVER#",
-      "engine": "Edge_12",
+      "engine": "Edge_Dynamic",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
@@ -48,7 +49,7 @@
     },
     {
       "userAgent": "Edge Mobile #MAJORVER#.#MINORVER#",
-      "engine": "Edge_12",
+      "engine": "Edge_Dynamic",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",

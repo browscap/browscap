@@ -1,15 +1,17 @@
 {
-  "division": "BlackBerry 4.6",
+  "division": "BlackBerry #MAJORVER#.#MINORVER#",
+  "versions": ["4.6"],
   "sortIndex": 2367,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
-      "userAgent": "BlackBerry 4.6",
-      "platform": "RIMOS_4_6",
+      "userAgent": "BlackBerry #MAJORVER#.#MINORVER#",
+      "platform": "RIMOS_Dynamic",
       "device": "general Mobile Phone (old Blackberry)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "BlackBerry 4.6",
+        "Comment": "BlackBerry #MAJORVER#.#MINORVER#",
         "Browser": "BlackBerry",
         "Browser_Type": "Browser",
         "Browser_Maker": "Research In Motion Limited",
@@ -18,37 +20,37 @@
         "Cookies": "true",
         "JavaScript": "true",
         "CssVersion": "2",
-        "Version": "4.6",
-        "MajorVer": "4",
-        "MinorVer": "6"
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#"
       },
       "children": [
         {
-          "match": "BlackBerry8220\/4.6*",
+          "match": "BlackBerry8220\/#MAJORVER#.#MINORVER#*",
           "device": "Blackberry 8220"
         },
         {
-          "match": "BlackBerry8230\/4.6*",
+          "match": "BlackBerry8230\/#MAJORVER#.#MINORVER#*",
           "device": "Blackberry 8230"
         },
         {
-          "match": "BlackBerry8230f\/4.6*",
+          "match": "BlackBerry8230f\/#MAJORVER#.#MINORVER#*",
           "device": "Blackberry 8230f"
         },
         {
-          "match": "BlackBerry8350i\/4.6*",
+          "match": "BlackBerry8350i\/#MAJORVER#.#MINORVER#*",
           "device": "Blackberry 8350i"
         },
         {
-          "match": "BlackBerry8520\/4.6*",
+          "match": "BlackBerry8520\/#MAJORVER#.#MINORVER#*",
           "device": "Blackberry 8520"
         },
         {
-          "match": "BlackBerry8900\/4.6*",
+          "match": "BlackBerry8900\/#MAJORVER#.#MINORVER#*",
           "device": "Blackberry 8900"
         },
         {
-          "match": "BlackBerry9000\/4.6*",
+          "match": "BlackBerry9000\/#MAJORVER#.#MINORVER#*",
           "device": "Blackberry 9000"
         }
       ]

@@ -2,6 +2,7 @@
   "division": "Handspring Blazer",
   "sortIndex": 2510,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Blazer",

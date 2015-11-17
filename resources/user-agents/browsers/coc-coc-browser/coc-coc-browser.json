@@ -3,6 +3,7 @@
   "versions": [49, 48, 47, 46, 45],
   "sortIndex": 883,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Coc Coc Browser #MAJORVER#.#MINORVER#",

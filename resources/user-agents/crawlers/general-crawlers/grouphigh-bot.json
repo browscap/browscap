@@ -1,0 +1,32 @@
+{
+  "division": "GroupHigh Bot",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "GroupHigh Bot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "GroupHigh Bot",
+        "Browser": "GroupHigh Bot",
+        "Browser_Maker": "GroupHigh LLC",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (compatible; GroupHigh\/1.0*",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; GroupHigh\/*"
+        }
+      ]
+    }
+  ]
+}

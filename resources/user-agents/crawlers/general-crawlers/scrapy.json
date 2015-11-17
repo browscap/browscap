@@ -1,0 +1,31 @@
+{
+  "division": "Scrapy",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Scrapy",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Scrapy",
+        "Browser": "Scrapy",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Scrapy\/0.16*",
+          "properties": {
+            "Version": "0.16",
+            "MajorVer": "0",
+            "MinorVer": "16"
+          }
+        },
+        {
+          "match": "Scrapy\/*"
+        }
+      ]
+    }
+  ]
+}

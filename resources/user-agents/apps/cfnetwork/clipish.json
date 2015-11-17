@@ -2,6 +2,7 @@
   "division": "Clipish",
   "sortIndex": 3250,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Clipish",

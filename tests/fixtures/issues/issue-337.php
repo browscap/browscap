@@ -28,6 +28,8 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
+        'lite' => true,
+        'standard' => true,
     ],
     'issue-337-B' => [
         'Mozilla/5.0 (Linux; U; Android 4.2.2; en-us; FP1 Build/JDQ39) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 UCBrowser/9.8.0.435 U3/0.8.0 Mobile Safari/533.1',
@@ -57,6 +59,7 @@ return [
             'RenderingEngine_Maker' => 'UC Web',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-337-C' => [
         'Mozilla/5.0 (Linux; Android 4.2.2; FP1 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.141 Mobile Safari/537.36',
@@ -85,5 +88,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
+        'lite' => true,
+        'standard' => true,
     ],
 ];

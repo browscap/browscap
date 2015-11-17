@@ -2,6 +2,7 @@
   "division": "M3Gate",
   "sortIndex": 6890,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "M3Gate",

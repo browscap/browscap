@@ -3,6 +3,7 @@
   "versions": ["0.11"],
   "sortIndex": 1190,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Arora #MAJORVER#.#MINORVER#",

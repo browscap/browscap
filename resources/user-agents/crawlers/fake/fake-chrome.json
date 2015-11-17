@@ -2,6 +2,7 @@
   "division": "Fake Chrome",
   "sortIndex": 955,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Fake Chrome",
@@ -16,6 +17,9 @@
       "children": [
         {
           "match": "Mozilla\/5.0 (X11; Windows x86_64) AppleWebKit\/* (KHTML, like Gecko) chrome\/*Safari\/*"
+        },
+        {
+          "match": "Mozilla\/5.0 (Windows NT 7.1) AppleWebKit\/* (KHTML, like Gecko) Chrome\/*Safari\/*"
         },
         {
           "match": "Mozilla\/* (Windows NT 7.1) AppleWebKit\/* (KHTML, like Gecko) Chrome\/*Safari\/*"

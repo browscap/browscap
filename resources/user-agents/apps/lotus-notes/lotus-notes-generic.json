@@ -2,6 +2,7 @@
   "division": "Lotus Notes Generic",
   "sortIndex": 1633,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Lotus Notes Generic",
@@ -29,6 +30,12 @@
           "match": "Mozilla\/4.0 (compatible; Lotus-Notes\/*; Macintosh PPC)",
           "platforms": [
             "MacPPC_3"
+          ]
+        },
+        {
+          "match": "Mozilla\/4.0 (compatible; Lotus-Notes\/*; Windows-NT)",
+          "platforms": [
+            "NT"
           ]
         },
         {

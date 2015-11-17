@@ -2,6 +2,7 @@
   "division": "ArchitextSpider",
   "sortIndex": 70,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "ArchitextSpider",

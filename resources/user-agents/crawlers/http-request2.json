@@ -2,6 +2,7 @@
   "division": "HTTP_Request2",
   "sortIndex": 1990,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "HTTP_Request2",

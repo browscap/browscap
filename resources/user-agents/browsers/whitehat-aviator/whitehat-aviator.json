@@ -3,6 +3,7 @@
   "versions": [37, 36, 35, 34, 33],
   "sortIndex": 883,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "WhiteHat Aviator #MAJORVER#.#MINORVER#",

@@ -144,7 +144,7 @@ class DataCollection
                 throw new \UnexpectedValueException('required attibute "properties" is missing');
             }
 
-            $this->platforms[$platformName] = $platformFactory->build($platformData, $json, $platformName, $this);
+            $this->platforms[$platformName] = $platformFactory->build($platformData, $json, $platformName);
         }
 
         $this->divisionsHaveBeenSorted = false;
@@ -192,6 +192,7 @@ class DataCollection
      *
      * @return \Browscap\Data\DataCollection
      * @throws \RuntimeException if the file does not exist or has invalid JSON
+     * @throws \UnexpectedValueException if the properties and the inherits kyewords are missing
      */
     public function addDevicesFile($src)
     {
@@ -237,17 +238,14 @@ class DataCollection
             throw new \UnexpectedValueException('required attibute "lite" is missing in File ' . $src);
         }
 
-        $division = new Division();
-        $division
-            ->setName($divisionData['division'])
-            ->setSortIndex((int) $divisionData['sortIndex'])
-            ->setLite((boolean) $divisionData['lite'])
-        ;
+        if (!array_key_exists('standard', $divisionData)) {
+            throw new \UnexpectedValueException('required attibute "standard" is missing in File ' . $src);
+        }
 
         if (isset($divisionData['versions']) && is_array($divisionData['versions'])) {
-            $division->setVersions($divisionData['versions']);
+            $versions = $divisionData['versions'];
         } else {
-            $division->setVersions(array('0.0'));
+            $versions = array('0.0');
         }
 
         if (isset($divisionData['userAgents']) && is_array($divisionData['userAgents'])) {
@@ -268,7 +266,23 @@ class DataCollection
                     throw new \UnexpectedValueException('Division "' . $useragent['userAgent'] . '" is defined twice');
                 }
 
-                if (!isset($useragent['properties']) || !is_array($useragent['properties'])) {
+                if ((false !== strpos($useragent['userAgent'], '#MAJORVER#')
+                        || false !== strpos($useragent['userAgent'], '#MINORVER#'))
+                    && array('0.0') === $versions
+                ) {
+                    throw new \UnexpectedValueException(
+                        'Division "' . $useragent['userAgent']
+                        . '" is defined with version placeholders, but no versions are set'
+                    );
+                }
+
+                if (!isset($useragent['properties'])) {
+                    throw new \UnexpectedValueException(
+                        'the properties entry is missing for key "' . $useragent['userAgent'] . '"'
+                    );
+                }
+
+                if (!is_array($useragent['properties'])) {
                     throw new \UnexpectedValueException(
                         'the properties entry has to be an array for key "' . $useragent['userAgent'] . '"'
                     );
@@ -293,6 +307,38 @@ class DataCollection
                     );
                 }
 
+                if (isset($useragent['properties']['Version']) && array('0.0') === $versions) {
+                    throw new \UnexpectedValueException(
+                        'the "Version" property is set for key "' . $useragent['userAgent']
+                        . '", but no versions are defined'
+                    );
+                }
+
+                if (!isset($useragent['properties']['Version']) && array('0.0') !== $versions) {
+                    throw new \UnexpectedValueException(
+                        'the "Version" property is missing for key "' . $useragent['userAgent']
+                        . '", but there are defined versions'
+                    );
+                }
+
+                if (!isset($useragent['children'])) {
+                    throw new \UnexpectedValueException(
+                        'the children property is missing for key "' . $useragent['userAgent'] . '"'
+                    );
+                }
+
+                if (!is_array($useragent['children'])) {
+                    throw new \UnexpectedValueException(
+                        'the children property has to be an array for key "' . $useragent['userAgent'] . '"'
+                    );
+                }
+
+                if (isset($useragent['children']['match'])) {
+                    throw new \UnexpectedValueException(
+                        'the children property shall not have the "match" entry for key "' . $useragent['userAgent'] . '"'
+                    );
+                }
+
                 $this->checkPlatformData(
                     $useragent['properties'],
                     'the properties array contains platform data for key "' . $useragent['userAgent']
@@ -311,77 +357,103 @@ class DataCollection
                     . '", please use the "device" keyword'
                 );
 
-                $this->allDivision[] = $useragent['userAgent'];
-
-                if (isset($useragent['children']) && is_array($useragent['children'])) {
-                    if (isset($useragent['children']['match'])) {
+                foreach ($useragent['children'] as $child) {
+                    if (!is_array($child)) {
                         throw new \UnexpectedValueException(
-                            'the children property shall not have the "match" entry for key "'
+                            'each entry of the children property has to be an array for key "'
                             . $useragent['userAgent'] . '"'
                         );
                     }
 
-                    foreach ($useragent['children'] as $child) {
-                        if (!is_array($child)) {
+                    if (!isset($child['match'])) {
+                        throw new \UnexpectedValueException(
+                            'each entry of the children property requires an "match" entry for key "'
+                            . $useragent['userAgent'] . '", missing for child data: ' . json_encode($child)
+                        );
+                    }
+
+                    if (preg_match('/[\[\]]/', $child['match'])) {
+                        throw new \UnexpectedValueException(
+                            'key "' . $child['match'] . '" includes invalid characters'
+                        );
+                    }
+
+                    if ((false !== strpos($child['match'], '#MAJORVER#')
+                            || false !== strpos($child['match'], '#MINORVER#'))
+                        && array('0.0') === $versions
+                    ) {
+                        throw new \UnexpectedValueException(
+                            'the key "' . $child['match']
+                            . '" is defined with version placeholders, but no versions are set'
+                        );
+                    }
+
+                    if (false !== strpos($child['match'], '#PLATFORM#')
+                        && !isset($child['platforms'])
+                    ) {
+                        throw new \UnexpectedValueException(
+                            'the key "' . $child['match']
+                            . '" is defined with platform placeholder, but no platforms are asigned'
+                        );
+                    }
+
+                    if (isset($child['properties'])) {
+                        if (!is_array($child['properties'])) {
                             throw new \UnexpectedValueException(
-                                'each entry of the children property has to be an array for key "'
-                                . $useragent['userAgent'] . '"'
+                                'the properties entry has to be an array for key "' . $child['match'] . '"'
                             );
                         }
 
-                        if (!isset($child['match'])) {
+                        if (isset($child['properties']['Parent'])) {
                             throw new \UnexpectedValueException(
-                                'each entry of the children property requires an "match" entry for key "'
-                                . $useragent['userAgent'] . '", missing for child data: ' . json_encode($child)
+                                'the Parent property must not set inside the children array for key "'
+                                . $child['match'] . '"'
                             );
                         }
 
-                        if (preg_match('/[\[\]]/', $child['match'])) {
-                            throw new \UnexpectedValueException(
-                                'key "' . $child['match'] . '" includes invalid characters'
+                        if (isset($useragent['properties']['Version']) && isset($child['properties']['Version'])) {
+                            $this->logger->warning(
+                                'the "Version" property is set for key "' . $child['match']
+                                . '", but was already set for its parent "' . $useragent['userAgent'] . '"'
                             );
                         }
 
-                        if (isset($child['properties'])) {
-                            if (!is_array($child['properties'])) {
-                                throw new \UnexpectedValueException(
-                                    'the properties entry has to be an array for key "' . $child['match'] . '"'
-                                );
-                            }
+                        $this->checkPlatformData(
+                            $child['properties'],
+                            'the properties array contains platform data for key "' . $child['match']
+                            . '", please use the "platforms" keyword'
+                        );
 
-                            if (isset($child['properties']['Parent'])) {
-                                throw new \UnexpectedValueException(
-                                    'the Parent property must not set inside the children array for key "'
-                                    . $child['match'] . '"'
-                                );
-                            }
+                        $this->checkEngineData(
+                            $child['properties'],
+                            'the properties array contains engine data for key "' . $child['match']
+                            . '", please use the "engine" keyword'
+                        );
 
-                            $this->checkPlatformData(
-                                $child['properties'],
-                                'the properties array contains platform data for key "' . $child['match']
-                                . '", please use the "platforms" keyword'
-                            );
-
-                            $this->checkEngineData(
-                                $child['properties'],
-                                'the properties array contains engine data for key "' . $child['match']
-                                . '", please use the "engine" keyword'
-                            );
-
-                            $this->checkDeviceData(
-                                $child['properties'],
-                                'the properties array contains device data for key "' . $child['match']
-                                . '", please use the "device" keyword'
-                            );
-                        }
+                        $this->checkDeviceData(
+                            $child['properties'],
+                            'the properties array contains device data for key "' . $child['match']
+                            . '", please use the "device" keyword'
+                        );
                     }
                 }
+
+                $this->allDivision[] = $useragent['userAgent'];
             }
 
-            $division->setUserAgents($divisionData['userAgents']);
+            $userAgents = $divisionData['userAgents'];
+        } else {
+            $userAgents = array();
         }
 
-        $this->divisions[] = $division;
+        $this->divisions[] = new Division(
+            $divisionData['division'],
+            (int) $divisionData['sortIndex'],
+            $userAgents,
+            (boolean) $divisionData['lite'],
+            (boolean) $divisionData['standard'],
+            $versions
+        );
 
         $this->divisionsHaveBeenSorted = false;
 
@@ -496,15 +568,12 @@ class DataCollection
     {
         $divisionData = $this->loadFile($src);
 
-        $division = new Division();
-        $division
-            ->setName($divisionData['division'])
-            ->setSortIndex((int) $divisionData['sortIndex'])
-            ->setUserAgents($divisionData['userAgents'])
-            ->setLite(true)
-        ;
-
-        $this->defaultProperties = $division;
+        $this->defaultProperties = new Division(
+            $divisionData['division'],
+            (int) $divisionData['sortIndex'],
+            $divisionData['userAgents'],
+            true
+        );
 
         $this->divisionsHaveBeenSorted = false;
 
@@ -523,15 +592,12 @@ class DataCollection
     {
         $divisionData = $this->loadFile($src);
 
-        $division = new Division();
-        $division
-            ->setName($divisionData['division'])
-            ->setSortIndex((int) $divisionData['sortIndex'])
-            ->setUserAgents($divisionData['userAgents'])
-            ->setLite(true)
-        ;
-
-        $this->defaultBrowser = $division;
+        $this->defaultBrowser = new Division(
+            $divisionData['division'],
+            (int) $divisionData['sortIndex'],
+            $divisionData['userAgents'],
+            true
+        );
 
         $this->divisionsHaveBeenSorted = false;
 

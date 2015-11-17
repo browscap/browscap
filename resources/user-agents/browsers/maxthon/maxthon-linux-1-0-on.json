@@ -3,6 +3,7 @@
   "versions": [1],
   "sortIndex": 941,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Maxthon #MAJORVER#.#MINORVER# for Linux",

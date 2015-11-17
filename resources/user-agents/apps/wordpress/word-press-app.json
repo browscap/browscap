@@ -2,6 +2,7 @@
   "division": "WordPress App",
   "sortIndex": 312,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "WordPress App",

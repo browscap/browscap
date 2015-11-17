@@ -2,10 +2,11 @@
   "division": "K-Meleon Generic",
   "sortIndex": 2451,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "K-Meleon Generic",
-      "platform": "Win32",
+      "platform": "Windows",
       "engine": "Gecko",
       "device": "Windows Desktop",
       "properties": {

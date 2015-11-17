@@ -2,6 +2,7 @@
   "division": "DoCoMo",
   "sortIndex": 3880,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "DoCoMo",

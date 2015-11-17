@@ -3,6 +3,7 @@
   "versions": ["4.9", "4.8", "4.7", "4.6", "4.5", "4.4", "4.3", "4.2", "3.2"],
   "sortIndex": 884,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Baidu Browser #MAJORVER#.#MINORVER#",

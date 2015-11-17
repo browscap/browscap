@@ -3,10 +3,11 @@
   "versions": [2],
   "sortIndex": 2749,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "KKMAN #MAJORVER#.#MINORVER#",
-      "platform": "Win32",
+      "platform": "Windows",
       "engine": "Trident",
       "device": "Windows Desktop",
       "properties": {

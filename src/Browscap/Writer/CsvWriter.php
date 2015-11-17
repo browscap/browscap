@@ -18,6 +18,7 @@
 namespace Browscap\Writer;
 
 use Browscap\Data\DataCollection;
+use Browscap\Data\Expander;
 use Browscap\Filter\FilterInterface;
 use Browscap\Formatter\FormatterInterface;
 use Psr\Log\LoggerInterface;
@@ -60,6 +61,11 @@ class CsvWriter implements WriterInterface
      * @var array
      */
     private $outputProperties = array();
+
+    /**
+     * @var \Browscap\Data\Expander
+     */
+    private $expander = null;
 
     /**
      * @param string $file
@@ -148,6 +154,18 @@ class CsvWriter implements WriterInterface
     public function getFilter()
     {
         return $this->type;
+    }
+
+    /**
+     * @param \Browscap\Data\Expander $expander
+     *
+     * @return \Browscap\Writer\WriterInterface
+     */
+    public function setExpander(Expander $expander)
+    {
+        $this->expander = $expander;
+
+        return $this;
     }
 
     /**
@@ -332,6 +350,10 @@ class CsvWriter implements WriterInterface
             $section['LiteMode'] = 'true';
         } else {
             $section['LiteMode'] = ((!isset($section['lite']) || !$section['lite']) ? 'false' : 'true');
+        }
+
+        foreach ($section as $property => $propertyValue) {
+            $section[$property] = trim($propertyValue);
         }
 
         foreach ($properties as $property) {

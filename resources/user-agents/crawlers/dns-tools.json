@@ -2,6 +2,7 @@
   "division": "DNS Tools",
   "sortIndex": 330,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "DNS Tools",

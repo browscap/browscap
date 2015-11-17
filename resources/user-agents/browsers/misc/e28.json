@@ -2,6 +2,7 @@
   "division": "E28",
   "sortIndex": 3940,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "E28",
