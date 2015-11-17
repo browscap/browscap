@@ -38,6 +38,7 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-701-B' => [
         'R6_FeedFetcher_(www.radian6.com/crawler)',
@@ -76,6 +77,7 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-701-C' => [
         'Y!J-ASR/0.1 crawler (http://www.yahoo-help.jp/app/answers/detail/p/595/a_id/42716/)',
@@ -114,6 +116,7 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-701-D' => [
         'robots',
@@ -152,5 +155,6 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
+        'standard' => true,
     ],
 ];

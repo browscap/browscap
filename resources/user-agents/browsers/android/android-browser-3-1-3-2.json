@@ -3,6 +3,7 @@
   "versions": ["3.2", "3.1"],
   "sortIndex": 1913,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Android Browser #MAJORVER#.#MINORVER#",

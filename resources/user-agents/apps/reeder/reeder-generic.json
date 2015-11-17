@@ -2,6 +2,7 @@
   "division": "Reeder Generic",
   "sortIndex": 9911,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Reeder Generic",

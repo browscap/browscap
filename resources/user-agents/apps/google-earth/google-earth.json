@@ -3,6 +3,7 @@
   "versions": ["7.1", 7, 6, 5],
   "sortIndex": 5070,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Google Earth #MAJORVER#.#MINORVER#",

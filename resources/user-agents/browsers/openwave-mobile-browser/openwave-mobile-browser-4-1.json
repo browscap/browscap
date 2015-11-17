@@ -1,14 +1,16 @@
 {
-  "division": "Openwave Mobile Browser 4.1",
+  "division": "Openwave Mobile Browser #MAJORVER#.#MINORVER#",
+  "versions": ["4.1"],
   "sortIndex": 8219,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
-      "userAgent": "Openwave Mobile Browser 4.1",
+      "userAgent": "Openwave Mobile Browser #MAJORVER#.#MINORVER#",
       "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Openwave Mobile Browser",
+        "Comment": "Openwave Mobile Browser #MAJORVER#.#MINORVER#",
         "Browser": "Openwave Mobile Browser",
         "Browser_Type": "Browser",
         "Frames": "true",
@@ -16,253 +18,256 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "Version": "4.1",
-        "MajorVer": "4",
-        "MinorVer": "1"
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#"
       },
       "children": [
         {
-          "match": "ALAV UP\/4.1* UP.Browser\/4.1*"
+          "match": "ALAV UP\/#MAJORVER#.#MINORVER#* UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "Alcatel-BF3\/1.0 UP.Browser\/4.1*",
+          "match": "Alcatel-BF3\/1.0 UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Alcatel BF3"
         },
         {
-          "match": "GSD-550\/1.0 UP.Browser\/4.1*"
+          "match": "GSD-550\/1.0 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "IAC KM100\/168 UP.Browser\/4.1*"
+          "match": "IAC KM100\/168 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "IAC\/KM15\/UP.Link\/4.1*"
+          "match": "IAC\/KM15\/UP.Link\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "IAC\/KM178\/UP.Link\/4.1*"
+          "match": "IAC\/KM178\/UP.Link\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "IM1K UP\/4.1* UP.Browser\/4.1*"
+          "match": "IM1K UP\/#MAJORVER#.#MINORVER#* UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "KWC-K4xxN\/MY1002 UP.Browser\/4.1*"
+          "match": "KWC-K4xxN\/MY1002 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "KWC-K4xxN\/MY1003 UP.Browser\/4.1*"
+          "match": "KWC-K4xxN\/MY1003 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "KWC-KE414\/* UP.Browser\/4.1*"
+          "match": "KWC-KE414\/* UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "KWC-KX414c\/1.0.39 UP.Browser\/4.1*"
+          "match": "KWC-KX414c\/1.0.39 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "KWC-KX414c\/1.0.46 UP.Browser\/4.1*"
+          "match": "KWC-KX414c\/1.0.46 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "KWC-KX414c\/1.0.48 UP.Browser\/4.1*"
+          "match": "KWC-KX414c\/1.0.48 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "KWC-KX444c-BC\/* UP.Browser\/4.1*"
+          "match": "KWC-KX444c-BC\/* UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "KWC-SE44\/1.0.08 UP.Browser\/4.1*"
+          "match": "KWC-SE44\/1.0.08 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "KWC-SE44\/1.0.11 UP.Browser\/4.1*"
+          "match": "KWC-SE44\/1.0.11 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "KWC-SE44\/1.0.22 UP.Browser\/4.1*"
+          "match": "KWC-SE44\/1.0.22 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "LG-C810\/1.0 UP.Browser\/4.1*",
+          "match": "LG-C810\/1.0 UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "LG C810"
         },
         {
-          "match": "LGE-AD5235\/* UP.Browser\/4.1*",
+          "match": "LGE-AD5235\/* UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "LG AD5235"
         },
         {
-          "match": "LGE-AX3200 UP.Browser\/4.1.26*",
+          "match": "LGE-AX3200 UP.Browser\/#MAJORVER#.#MINORVER#.26*",
           "device": "LG AX3200"
         },
         {
-          "match": "LGE-AX5450 UP.Browser\/4.1*",
+          "match": "LGE-AX5450 UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "LG AX5450"
         },
         {
-          "match": "LGE-CU8080\/* UP.Browser\/4.1*",
+          "match": "LGE-CU8080\/* UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "LG CU8080"
         },
         {
-          "match": "LGE-LG3200 UP.Browser\/4.1.27*",
+          "match": "LGE-LG3200 UP.Browser\/#MAJORVER#.#MINORVER#.27*",
           "device": "LG 3200"
         },
         {
-          "match": "LGE-TM520\/1.0 UP.Browser\/4.1*",
+          "match": "LGE-TM520\/1.0 UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "LG TM520"
         },
         {
-          "match": "LGE-VX6000 UP.Browser\/4.1*",
+          "match": "LGE-VX6000 UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "LG VX6000"
         },
         {
-          "match": "MOT-1.2.0* UP.Browser\/4.1*",
+          "match": "MOT-1.2.0* UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola 120"
         },
         {
-          "match": "MOT-1.2.2\/* UP.Browser\/4.1*",
+          "match": "MOT-1.2.2\/* UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola 122"
         },
         {
-          "match": "MOT-76\/* UP.Browser\/4.1*",
+          "match": "MOT-76\/* UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola 76"
         },
         {
-          "match": "MOT-A-0A\/00.0? UP.Browser\/4.1*",
+          "match": "MOT-A-0A\/00.0? UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola A-0A"
         },
         {
-          "match": "MOT-A-1F\/* UP.Browser\/4.1*",
+          "match": "MOT-A-1F\/* UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola A-1F"
         },
         {
-          "match": "MOT-A-2B\/* UP.Browser\/4.1*",
+          "match": "MOT-A-2B\/* UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola A-2B"
         },
         {
-          "match": "MOT-A-88\/* UP.Browser\/4.1*",
+          "match": "MOT-A-88\/* UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola A-88"
         },
         {
-          "match": "MOT-AF\/* UP.Browser\/4.1*",
+          "match": "MOT-AF\/* UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola AF"
         },
         {
-          "match": "MOT-AF\/* UP\/4.1*",
+          "match": "MOT-AF\/* UP\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola AF"
         },
         {
-          "match": "MOT-C4\/* UP\/4.1*",
+          "match": "MOT-C4\/* UP\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola C4"
         },
         {
-          "match": "MOT-D5\/* UP.Browser\/4.1*",
+          "match": "MOT-D5\/* UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola D5"
         },
         {
-          "match": "MOT-F5\/* UP.Browser\/4.1*",
+          "match": "MOT-F5\/* UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola F5"
         },
         {
-          "match": "MOT-F6\/* UP.Browser\/4.1*",
+          "match": "MOT-F6\/* UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola F6"
         },
         {
-          "match": "MOT-FE\/* UP.Browser\/4.1*",
+          "match": "MOT-FE\/* UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola FE"
         },
         {
-          "match": "MOT-MCCB\/* UP.Browser\/4.1*",
+          "match": "MOT-MCCB\/* UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola MCCB"
         },
         {
-          "match": "MOT-PAN4_* UP.Browser\/4.1*",
+          "match": "MOT-PAN4_* UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola PAN4"
         },
         {
-          "match": "MOT-SAP4A* UP.Browser\/4.1*",
+          "match": "MOT-SAP4A* UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola SAP4A"
         },
         {
-          "match": "MOT-SAP4_* UP.Browser\/4.1*",
+          "match": "MOT-SAP4_* UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Motorola SAP4"
         },
         {
-          "match": "NOKIA-NPD-4AW\/* UP.Browser\/4.1*",
+          "match": "NOKIA-NPD-4AW\/* UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Nokia NPD-4AW"
         },
         {
-          "match": "NOKIA-RH-17\/* UP.Browser\/4.1*",
+          "match": "NOKIA-RH-17\/* UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Nokia RH-17"
         },
         {
-          "match": "NOKIA-RH-44\/* UP.Browser\/4.1*",
+          "match": "NOKIA-RH-44\/* UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Nokia RH-44"
         },
         {
-          "match": "Nokia2112\/* UP.Browser\/4.1*",
+          "match": "Nokia2112\/* UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Nokia 2112"
         },
         {
-          "match": "Nokia6016i\/* (*UP.Browser\/4.1*",
+          "match": "Nokia6016i\/* (*UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Nokia 6016i"
         },
         {
-          "match": "OWG1 UP\/* UP.Browser\/4.1*"
+          "match": "OWG1 UP\/* UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "QC-2255\/* UP.Browser\/4.1*"
+          "match": "QC-2255\/* UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "QC-2325\/* UP.Browser\/4.1*"
+          "match": "QC-2325\/* UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "QC-5135\/* UP.Browser\/4.1*"
+          "match": "QC-5135\/* UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "QC07 UP.Browser\/4.1*"
+          "match": "QC07 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "SAMSUNG-SGH-A300\/* UP\/* UP.Browser\/4.1*",
+          "match": "SAMSUNG-SGH-A300\/* UP\/* UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Samsung SGH-A300"
         },
         {
-          "match": "SAMSUNG-SGH-N620\/* UP\/* UP.Browser\/4.1*",
+          "match": "SAMSUNG-SGH-N620\/* UP\/* UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Samsung SGH-N620"
         },
         {
-          "match": "SAMSUNG-SGH-T100\/* UP.Browser\/4.1*",
+          "match": "SAMSUNG-SGH-T100\/* UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Samsung SGH-T100"
         },
         {
-          "match": "SEC-SGHQ200\/* UP.Browser\/4.1*",
+          "match": "SEC-SGHQ200\/* UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Samsung SGH-Q200"
         },
         {
-          "match": "SEC-scha650 UP.Browser\/4.1*",
+          "match": "SEC-scha650 UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Samsung SCH-A650"
         },
         {
-          "match": "SEC-scha670 UP.Browser\/4.1*",
+          "match": "SEC-scha670 UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Samsung SCH-A670"
         },
         {
-          "match": "SEC-schn391 UP.Browser\/4.1*",
+          "match": "SEC-schn391 UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Samsung SCH-N391"
         },
         {
-          "match": "SEC-schx199 UP.Browser\/4.1*",
+          "match": "SEC-schx199 UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Samsung SCH-X199"
         },
         {
-          "match": "SEC-schx339 UP.Browser\/4.1*",
+          "match": "SEC-schx339 UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Samsung SCH-X339"
         },
         {
-          "match": "SEC-schx609 UP.Browser\/4.1*",
+          "match": "SEC-schx609 UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Samsung SCH-X609"
         },
         {
-          "match": "SEC-schx659 UP.Browser\/4.1*",
+          "match": "SEC-schx659 UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Samsung SCH-X659"
         },
         {
-          "match": "SEC-spha500 UP.Browser\/4.1.26*",
+          "match": "SEC-spha500 UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "Samsung SPH-A500"
         },
         {
-          "match": "ZTE-C880\/* UP.Browser\/4.1*",
+          "match": "ZTE-C880\/* UP.Browser\/#MAJORVER#.#MINORVER#*",
           "device": "ZTE C880"
+        },
+        {
+          "match": "* UP.Browser\/#MAJORVER#.#MINORVER#*"
         }
       ]
     }

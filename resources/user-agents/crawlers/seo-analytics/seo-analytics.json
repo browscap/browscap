@@ -2,6 +2,7 @@
   "division": "SEO & Analytics",
   "sortIndex": 249,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "SEO & Analytics",
@@ -141,12 +142,6 @@
           "properties": {
             "Browser": "Browsershots",
             "Browser_Maker": "browsershots.org"
-          }
-        },
-        {
-          "match": "Screaming Frog SEO Spider\/*",
-          "properties": {
-            "Browser": "Screaming Frog SEO Spider"
           }
         },
         {

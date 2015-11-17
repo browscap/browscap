@@ -1,0 +1,32 @@
+{
+  "division": "Photon",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Photon",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Photon",
+        "Browser": "Photon",
+        "Browser_Maker": "photonproject.net",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Photon\/1.0*",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Photon\/*"
+        }
+      ]
+    }
+  ]
+}

@@ -38,5 +38,6 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
+        'standard' => true,
     ],
 ];

@@ -1,0 +1,40 @@
+{
+  "division": "Cyberduck",
+  "sortIndex": 171,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Cyberduck",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Cyberduck",
+        "Browser": "Cyberduck",
+        "Browser_Maker": "iterate GmbH",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Cyberduck\/4.6* (#PLATFORM#) *",
+          "device": "Windows Desktop",
+          "properties": {
+            "Version": "4.6",
+            "MajorVer": "4",
+            "MinorVer": "6"
+          },
+          "platforms": [
+            "WinXPa_v2", "Windows"
+          ]
+        },
+        {
+          "match": "Cyberduck\/* (#PLATFORM#) *",
+          "device": "Windows Desktop",
+          "platforms": [
+            "WinXPa_v2", "Windows"
+          ]
+        }
+      ]
+    }
+  ]
+}

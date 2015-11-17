@@ -3,6 +3,7 @@
   "versions": ["1.9", "1.8", "1.7", "1.6", "1.5", "1.4"],
   "sortIndex": 1890,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "QupZilla #MAJORVER#.#MINORVER#",

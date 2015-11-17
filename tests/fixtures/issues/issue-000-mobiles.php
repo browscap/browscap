@@ -29,6 +29,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-mobiles-E' => [
         'Dalvik/1.6.0 (Linux; U; Android 4.0.4; GT-I9100 Build/IMM76D)',
@@ -58,6 +59,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-mobiles-D' => [
         'Dalvik/1.4.0 (Linux; U; Android 2.3.6; GT-I9100G Build/GINGERBREAD)',
@@ -87,6 +89,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-mobiles-C' => [
         'Mozilla/5.0 (Linux; U; Android 4.0.4; de-de; GT-I9100 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Dolphin/INT-1.0 Mobile Safari/534.30',
@@ -116,6 +119,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-mobiles-B' => [
         'Mozilla/5.0 (Linux; U; Android 4.0.3; de-de; GT-I9100 Build/IML74K) AppleWebKit/535.7 (KHTML, like Gecko) CrMo/16.0.912.77 Mobile Safari/535.7',
@@ -145,6 +149,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-mobiles-A' => [
         'Mozilla/5.0 (Linux; U; de-de; GT-I9100 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Safari/533.1',
@@ -173,5 +178,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
+        'lite' => true,
+        'standard' => true,
     ],
 ];

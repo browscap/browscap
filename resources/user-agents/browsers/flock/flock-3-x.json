@@ -1,0 +1,39 @@
+{
+  "division": "Flock #MAJORVER#.#MINORVER#",
+  "versions": ["3.6", "3.5", 3],
+  "sortIndex": 3100,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Flock #MAJORVER#.#MINORVER#",
+      "engine": "WebKit",
+      "device": "general Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Flock #MAJORVER#.#MINORVER#",
+        "Browser": "Flock",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Win32": "false",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Flock\/#MAJORVER#.#MINORVER#* Chrome\/* Safari\/*",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
+            "OSX"
+          ]
+        }
+      ]
+    }
+  ]
+}

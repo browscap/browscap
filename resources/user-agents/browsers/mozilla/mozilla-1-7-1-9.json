@@ -3,6 +3,7 @@
   "versions": ["1.9", "1.8", "1.7"],
   "sortIndex": 17581,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Mozilla #MAJORVER#.#MINORVER#",

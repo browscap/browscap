@@ -3,6 +3,7 @@
   "versions": ["8.3"],
   "sortIndex": 1783,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Nokia Browser #MAJORVER#.#MINORVER#",
@@ -61,6 +62,9 @@
         {
           "match": "Mozilla\/5.0 (Symbian\/*; Series60\/* NokiaC7-00\/* AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/#MAJORVER#.#MINORVER#*Safari\/*",
           "device": "Nokia C7-00"
+        },
+        {
+          "match": "Mozilla\/5.0 (Symbian\/*; Series60\/* AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/#MAJORVER#.#MINORVER#*Safari\/*"
         }
       ]
     }

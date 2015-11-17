@@ -3,6 +3,7 @@
   "versions": ["6.1", 6],
   "sortIndex": 954,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "WeChat App #MAJORVER#.#MINORVER#",

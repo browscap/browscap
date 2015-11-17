@@ -3,6 +3,7 @@
   "versions": ["8.5"],
   "sortIndex": 1782,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Nokia Browser #MAJORVER#.#MINORVER#",
@@ -24,12 +25,21 @@
         "IFrames": "false",
         "JavaScript": "true",
         "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Crawler": "false",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#"
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (MeeGo; NokiaN9) AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/#MAJORVER#.#MINORVER#*Safari\/534*",
+          "match": "Mozilla\/5.0 (MeeGo; NokiaN9) AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/#MAJORVER#.#MINORVER#*Safari\/*",
           "device": "Nokia N9",
+          "platforms": [
+            "MeeGo"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (MeeGo*) AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/#MAJORVER#.#MINORVER#*Safari\/*",
           "platforms": [
             "MeeGo"
           ]

@@ -2,6 +2,7 @@
   "division": "Lynx",
   "sortIndex": 2230,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Lynx",

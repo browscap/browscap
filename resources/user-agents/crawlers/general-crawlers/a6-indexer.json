@@ -1,0 +1,35 @@
+{
+  "division": "A6-Indexer",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "A6-Indexer",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "A6-Indexer",
+        "Browser": "A6-Indexer",
+        "Browser_Maker": "A6 Corp",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "A6-Indexer\/1.0*",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "A6-Indexer*",
+          "properties": {
+
+          }
+        }
+      ]
+    }
+  ]
+}

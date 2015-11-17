@@ -2,6 +2,7 @@
   "division": "Daumoa",
   "sortIndex": 170,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Daumoa",

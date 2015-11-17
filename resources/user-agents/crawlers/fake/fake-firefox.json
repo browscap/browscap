@@ -2,6 +2,7 @@
   "division": "Fake Firefox",
   "sortIndex": 956,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Fake Firefox",

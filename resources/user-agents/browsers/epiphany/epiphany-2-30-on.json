@@ -3,6 +3,7 @@
   "versions": ["3.14", "3.12", "3.10", "3.8", "3.6", "3.4", "3.2", 3, "2.32", "2.30"],
   "sortIndex": 1942,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Epiphany #MAJORVER#.#MINORVER#",
@@ -33,6 +34,13 @@
         "MinorVer": "#MINORVER#"
       },
       "children": [
+        {
+          "match": "Mozilla\/5.0 (Macintosh; ARM Mac OS X) AppleWebKit\/* (KHTML, like Gecko) Safari\/* Version\/* Debian\/* (*rpi*rpi*) Epiphany\/#MAJORVER#.#MINORVER#*",
+          "device": "Raspberry Pi",
+          "platforms": [
+            "Debian"
+          ]
+        },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/*(KHTML,*like Gecko*) Safari\/* Epiphany\/#MAJORVER#.#MINORVER#*",
           "device": "Linux Desktop",
@@ -65,14 +73,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Epiphany\/#MAJORVER#.#MINORVER#*Safari\/*",
           "device": "Linux Desktop",
           "platforms": [
-            "Linux_64"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (Macintosh; ARM Mac OS X) AppleWebKit\/* (KHTML, like Gecko) Safari\/* Version\/* Debian\/* (*rpi*rpi*) Epiphany\/#MAJORVER#.#MINORVER#*",
-          "device": "Raspberry Pi",
-          "platforms": [
-            "Debian"
+            "Linux_64", "Linux"
           ]
         }
       ]

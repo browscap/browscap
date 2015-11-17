@@ -2,6 +2,7 @@
   "division": "Microsoft Lync",
   "sortIndex": 7181,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Microsoft Lync",

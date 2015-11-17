@@ -38,6 +38,7 @@ return [
             'RenderingEngine_Maker' => 'UC Web',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-685-B' => [
         'Mozilla/5.0 (Linux; Android 5.0.2; Nexus 5 Build/LMY48B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safari/537.36',
@@ -76,5 +77,6 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
 ];

@@ -1,16 +1,18 @@
 {
-  "division": "IEMobile 5.5",
+  "division": "IEMobile #MAJORVER#.#MINORVER#",
+  "versions": ["5.5"],
   "sortIndex": 1721,
   "lite": false,
+  "standard": false,
   "userAgents": [
     {
-      "userAgent": "IEMobile 5.5",
-      "platform": "WinMobile",
+      "userAgent": "IEMobile #MAJORVER#.#MINORVER#",
+      "platform": "WinCE",
       "engine": "Trident_3_1",
       "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "IEMobile",
+        "Comment": "IEMobile #MAJORVER#.#MINORVER#",
         "Browser": "IEMobile",
         "Frames": "true",
         "IFrames": "true",
@@ -27,34 +29,34 @@
         "Win64": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
-        "Version": "5.5",
-        "MajorVer": "5",
-        "MinorVer": "5"
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#"
       },
       "children": [
         {
-          "match": "HTC-2125\/1.2 Mozilla\/4.0 (*compatible*;*MSIE 5.5; Windows CE; Smartphone; 240x320)*",
+          "match": "HTC-2125\/1.2 Mozilla\/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; Smartphone; 240x320)*",
           "device": "HTC 2125",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "HTC-8100\/1.2 Mozilla\/4.0 (*compatible*;*MSIE 5.5; Windows CE; PPC; 240x320)*",
+          "match": "HTC-8100\/1.2 Mozilla\/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; PPC; 240x320)*",
           "device": "HTC 8100",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "HTC-8500\/1.2 Mozilla\/4.0 (*compatible*;*MSIE 5.5; Windows CE; PPC; 240x320)*",
+          "match": "HTC-8500\/1.2 Mozilla\/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; PPC; 240x320)*",
           "device": "HTC 8500",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile 5.5*",
+          "match": "Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.#MINORVER#*",
           "platforms": [
             "WinCE"
           ]

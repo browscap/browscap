@@ -1,0 +1,40 @@
+{
+  "division": "GG PeekBot",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "GG PeekBot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "GG PeekBot",
+        "Browser": "GG PeekBot",
+        "Browser_Maker": "gadu-gadu.pl",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "GG PeekBot 1.0*",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "GG PeekBot 2.0*",
+          "properties": {
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "GG PeekBot *"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "division": "ShowXML",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "ShowXML",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "ShowXML",
+        "Browser": "ShowXML",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "ShowXML\/1.0*",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1"
+          }
+        },
+        {
+          "match": "ShowXML\/*"
+        }
+      ]
+    }
+  ]
+}

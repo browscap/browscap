@@ -38,5 +38,6 @@ return [
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
         'lite' => false,
+        'standard' => true,
     ]
 ];

@@ -29,6 +29,7 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-046-b' => [
         'Mozilla/5.0 (compatible; Ezooms/1.0; help@moz.com)',
@@ -58,5 +59,6 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
+        'standard' => true,
     ],
 ];

@@ -3,6 +3,7 @@
   "versions": [3, "3.1"],
   "sortIndex": 530,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "GomezAgent #MAJORVER#.#MINORVER#",

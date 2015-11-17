@@ -34,6 +34,7 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-590-B' => [
         'iZSearch.com',
@@ -68,6 +69,7 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-590-C' => [
         'Mozilla/2.0 (compatible; ARCHIVE.ORG.UA crawler)',
@@ -102,5 +104,6 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
+        'standard' => true,
     ],
 ];

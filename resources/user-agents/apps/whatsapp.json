@@ -2,6 +2,7 @@
   "division": "WhatsApp",
   "sortIndex": 11020,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "WhatsApp",

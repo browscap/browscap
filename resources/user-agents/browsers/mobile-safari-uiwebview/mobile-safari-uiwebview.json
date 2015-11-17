@@ -2,6 +2,7 @@
   "division": "Mobile Safari UIWebView",
   "sortIndex": 1969,
   "lite": true,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Mobile Safari UIWebView",

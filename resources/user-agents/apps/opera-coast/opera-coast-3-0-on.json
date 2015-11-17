@@ -3,6 +3,7 @@
   "versions": [4, "3.1", 3],
   "sortIndex": 1945,
   "lite": true,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Coast #MAJORVER#.#MINORVER#",

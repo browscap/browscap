@@ -3,6 +3,7 @@
   "versions": ["2.6", "2.5", "2.4", "2.3", "2.2", "2.1", "2.0"],
   "sortIndex": 936,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "UC Browser HD #MAJORVER#.#MINORVER#",

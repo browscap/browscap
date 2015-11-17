@@ -3,6 +3,7 @@
   "versions": [2, "1.1", 1],
   "sortIndex": 3021,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "SeaMonkey #MAJORVER#.#MINORVER#",

@@ -1,0 +1,30 @@
+{
+  "division": "Tagyu",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Tagyu",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Tagyu",
+        "Browser": "Tagyu",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Tagyu Agent\/1.*",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1"
+          }
+        },
+        {
+          "match": "Tagyu Agent\/*"
+        }
+      ]
+    }
+  ]
+}

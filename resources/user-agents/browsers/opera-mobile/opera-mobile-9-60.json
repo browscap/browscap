@@ -1,10 +1,12 @@
 {
-  "division": "Opera Mobile 9.60",
+  "division": "Opera Mobile #MAJORVER#.#MINORVER#",
+  "versions": ["9.60"],
   "sortIndex": 1038,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
-      "userAgent": "Opera Mobile 9.60",
+      "userAgent": "Opera Mobile #MAJORVER#.#MINORVER#",
       "engine": "Presto_2_2",
       "device": "general Mobile Phone (Touch)",
       "properties": {
@@ -13,9 +15,9 @@
         "Browser": "Opera Mobile",
         "Browser_Maker": "Opera Software ASA",
         "Browser_Type": "Browser",
-        "Version": "9.60",
-        "MajorVer": "9",
-        "MinorVer": "60",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
         "Win32": "false",
         "Frames": "true",
         "IFrames": "true",
@@ -26,15 +28,15 @@
       },
       "children": [
         {
-          "match": "Opera\/9.6* Presto\/2.2*\/SAMSUNG-GT-I8320*",
+          "match": "Opera\/#MAJORVER#.#MINORVER#* Presto\/2.2*\/SAMSUNG-GT-I8320*",
           "device": "Samsung GT-I8320"
         },
         {
-          "match": "SAMSUNG-GT-I6410* Linux\/* Opera\/9.6*",
+          "match": "SAMSUNG-GT-I6410* Linux\/* Opera\/#MAJORVER#.#MINORVER#*",
           "device": "Samsung GT-I6410"
         },
         {
-          "match": "SAMSUNG-GT-I8320* Linux\/* Opera\/9.6*",
+          "match": "SAMSUNG-GT-I8320* Linux\/* Opera\/#MAJORVER#.#MINORVER#*",
           "device": "Samsung GT-I8320"
         }
       ]

@@ -1,15 +1,17 @@
 {
-  "division": "Teleca-Obigo 4.0",
+  "division": "Teleca-Obigo #MAJORVER#.#MINORVER#",
+  "versions": [4],
   "sortIndex": 10772,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
-      "userAgent": "Teleca-Obigo 4.0",
+      "userAgent": "Teleca-Obigo #MAJORVER#.#MINORVER#",
       "platform": "JAVA",
       "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Teleca-Obigo",
+        "Comment": "Teleca-Obigo #MAJORVER#.#MINORVER#",
         "Browser": "Teleca-Obigo",
         "Browser_Type": "Browser",
         "Frames": "true",
@@ -18,8 +20,9 @@
         "Cookies": "true",
         "JavaScript": "true",
         "CssVersion": "1",
-        "Version": "4.0",
-        "MajorVer": "4"
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#"
       },
       "children": [
         {

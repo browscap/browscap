@@ -2,6 +2,7 @@
   "division": "QuickTime Agent",
   "sortIndex": 7110,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "QuickTime Agent",

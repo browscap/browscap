@@ -2,6 +2,7 @@
   "division": "Envolk",
   "sortIndex": 120,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Envolk",
@@ -16,10 +17,10 @@
       },
       "children": [
         {
-          "match": "envolk\/* (?http:\/\/www.envolk.com\/envolk*)"
+          "match": "envolk?ITS?spider\/*"
         },
         {
-          "match": "envolk?ITS?spider\/* (?http:\/\/www.envolk.com\/envolk*)"
+          "match": "envolk\/*"
         }
       ]
     }

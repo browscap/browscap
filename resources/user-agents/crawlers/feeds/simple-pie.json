@@ -2,6 +2,7 @@
   "division": "SimplePie",
   "sortIndex": 371,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "SimplePie",

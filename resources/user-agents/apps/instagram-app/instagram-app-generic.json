@@ -2,11 +2,12 @@
   "division": "Instagram App Generic",
   "sortIndex": 1991,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Instagram App Generic",
       "engine": "WebKit",
-      "device": "iPhone",
+      "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Instagram App Generic",

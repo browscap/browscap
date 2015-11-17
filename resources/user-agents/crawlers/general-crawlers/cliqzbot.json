@@ -1,0 +1,43 @@
+{
+  "division": "Cliqzbot",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Cliqzbot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Cliqzbot",
+        "Browser": "Cliqzbot",
+        "Browser_Maker": "10betterpages GmbH",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (compatible; Cliqzbot\/0.1*",
+          "properties": {
+            "Version": "0.1",
+            "MajorVer": "0",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Cliqzbot\/*"
+        },
+        {
+          "match": "Cliqzbot\/0.1*",
+          "properties": {
+            "Version": "0.1",
+            "MajorVer": "0",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "Cliqzbot\/*"
+        }
+      ]
+    }
+  ]
+}

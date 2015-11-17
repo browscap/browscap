@@ -2,6 +2,7 @@
   "division": "Adbeat",
   "sortIndex": 40,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Adbeat",
@@ -18,7 +19,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#) adbeat.com* Gecko\/* Firefox\/*AppleWebKit\/*Safari\/*",
           "device": "Linux Desktop",
           "platforms": [
-            "Linux_32_x86"
+            "Linux_32_x86", "Linux"
           ]
         },
         {

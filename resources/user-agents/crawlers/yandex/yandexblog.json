@@ -2,6 +2,7 @@
   "division": "YandexBlog",
   "sortIndex": 1600,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "YandexBlog",

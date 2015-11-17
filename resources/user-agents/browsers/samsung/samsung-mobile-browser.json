@@ -2,6 +2,7 @@
   "division": "Samsung Mobile Browser",
   "sortIndex": 10180,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Samsung Mobile Browser",

@@ -3,6 +3,7 @@
   "versions": ["0.13", "0.12", "0.11", "0.10", "0.9"],
   "sortIndex": 2300,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "ELinks #MAJORVER#.#MINORVER#",

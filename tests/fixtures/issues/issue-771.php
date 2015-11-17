@@ -38,5 +38,6 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => true,
+        'standard' => true,
     ]
 ];

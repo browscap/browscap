@@ -2,6 +2,7 @@
   "division": "TurnitinBot",
   "sortIndex": 170,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "TurnitinBot",
@@ -23,6 +24,9 @@
             "MajorVer": "2",
             "MinorVer": "1"
           }
+        },
+        {
+          "match": "TurnitinBot\/*"
         }
       ]
     }

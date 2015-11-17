@@ -40,6 +40,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-788-B' => [
         'Mozilla/5.0 (OS/2 Warp 4.5) AppleWebKit/537.21 (KHTML, like Gecko) QupZilla/1.6.4 Safari/537.21',
@@ -80,6 +81,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-788-C' => [
         'Mozilla/5.0 (Unknown; UNIX BSD/SYSV system) AppleWebKit/534.34 (KHTML, like Gecko) QupZilla/1.7.0 Safari/534.34',
@@ -120,6 +122,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-788-D' => [
         'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.21 (KHTML, like Gecko) QupZilla/1.6.1 Safari/537.21',
@@ -160,6 +163,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-788-E' => [
         'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/538.1 (KHTML, like Gecko) Otter/0.9.03 beta 3 Safari/538.1',
@@ -200,6 +204,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-788-F' => [
         'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/538.1 (KHTML, like Gecko) Otter/0.9.04',
@@ -240,6 +245,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-788-G' => [
         'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.21 (KHTML, like Gecko) Otter/0.9.04-dev',
@@ -280,6 +286,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-788-H' => [
         'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) Otter/0.3.01-dev Safari/538.1',
@@ -320,6 +327,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-788-I' => [
         'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) Otter/0.9.03 beta 3 Safari/538.1',
@@ -360,6 +368,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-788-J' => [
         'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) Otter/0.9.05',
@@ -400,5 +409,6 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
 ];

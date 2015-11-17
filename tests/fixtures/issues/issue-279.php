@@ -29,6 +29,7 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-279-B' => [
         'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)',
@@ -58,6 +59,8 @@ return [
             'RenderingEngine_Version' => '6.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
+        'lite' => true,
+        'standard' => true,
     ],
     'issue-279-C' => [
         'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:13.0; GomezAgent 3.0) Gecko/20100101 Firefox/13.0.1',
@@ -88,6 +91,7 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-279-D' => [
         'Mozilla/5.0 (X11; Linux x86_64; rv:25.0) Gecko/20100101 Firefox/25.0 Iceweasel/25.0',
@@ -117,6 +121,7 @@ return [
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-279-E' => [
         'Mozilla/5.0 (X11; U; Linux x86_64; C) AppleWebKit/533.3 (KHTML, like Gecko) Qt/4.7.0 Safari/533.3',
@@ -146,6 +151,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-279-F' => [
         'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/534.57.7 (KHTML, like Gecko)',
@@ -175,6 +181,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => false,
     ],
     'issue-279-G' => [
         'Wget/1.10.2',
@@ -204,6 +211,7 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-279-H' => [
         'Scrapy/0.16.4 (+http://scrapy.org)',
@@ -233,6 +241,7 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-279-I' => [
         'Mozilla/5.0 (compatible; MJ12bot/v1.4.3; http://www.majestic12.co.uk/bot.php?+)',
@@ -262,6 +271,7 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-279-J' => [
         'adidxbot/2.0 (+http://search.msn.com/msnbot.htm)',
@@ -291,6 +301,7 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-279-K' => [
         'Mozilla/5.0 (Linux; U; Android 2.3.5; de-de; HTC_DesireHD_A9191 Build/GRJ90) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
@@ -319,6 +330,8 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
+        'lite' => true,
+        'standard' => true,
     ],
     'issue-279-L' => [
         'Mozilla/5.0 (compatible; SEOkicks-Robot +http://www.seokicks.de/robot.html)',
@@ -348,6 +361,7 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-279-O' => [
         'Mozilla/5.0 (compatible; MJ12bot/v1.4.4; http://www.majestic12.co.uk/bot.php?+)',
@@ -377,6 +391,7 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-279-P' => [
         'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0;  WOW64;  Trident/5.0;  BingPreview/1.0b)',
@@ -407,6 +422,7 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-279-Q' => [
         'Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)',
@@ -436,6 +452,7 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-279-R' => [
         'Mozilla/5.0 (compatible; UnisterBot; crawler@unister.de)',
@@ -465,6 +482,7 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-279-T' => [
         'Mozilla/5.0 (Linux; U; Android 4.1.1; de-de; A210 Build/JRO03H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -494,6 +512,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-279-W' => [
         'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.12 (KHTML, like Gecko) Maxthon/3.0 Chrome/18.0.966.0 Safari/535.12',
@@ -524,6 +543,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-279-X' => [
         'Moozilla',
@@ -553,6 +573,7 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-279-Y' => [
         'Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; GT-P5200 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -582,6 +603,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-279-Z' => [
         'Opera/9.80 (Windows NT 6.1; Win64; x64) Presto/2.12.388 Version/12.16',
@@ -612,6 +634,7 @@ return [
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-279-AA' => [
         'Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; HD7 T9292)',
@@ -641,6 +664,7 @@ return [
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-279-AB' => [
         'Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; NOKIA; Lumia 710)',
@@ -670,6 +694,7 @@ return [
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-279-AC' => [
         'Mozilla/5.0 (Linux; U; Android 4.1.2; de-de; A511 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -699,6 +724,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-279-AD' => [
         'Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; LIFETAB_E10316 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -728,6 +754,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-279-AE' => [
         'Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; NOKIA; Lumia 610)',
@@ -757,6 +784,7 @@ return [
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-279-AF' => [
         'Mozilla/5.0 (Linux; U; Android 4.1.1; de-de; ODYS-NOON Build/JRO03H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -786,6 +814,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-279-AG' => [
         'Outlook-Express/7.0 (MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; TmstmpExt)',
@@ -815,6 +844,7 @@ return [
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-279-AI' => [
         'Mozilla/5.0 (X11; Linux i686) AppleWebKit/536.11 (KHTML, like Gecko) Ubuntu/12.04 Chromium/20.0.1132.47 Chrome/20.0.1132.47 Safari/536.11',
@@ -844,6 +874,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-279-AJ' => [
         'Mozilla/5.0 (iPad;U;CPU OS 5_1_1 like Mac OS X; zh-cn)AppleWebKit/534.46.0(KHTML, like Gecko)CriOS/19.0.1084.60 Mobile/9B206 Safari/7534.48.3',
@@ -873,6 +904,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-279-AK' => [
         'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0; ARM; Touch; WPDesktop)',
@@ -903,6 +935,7 @@ return [
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-279-AL' => [
         'Mozilla/5.0 (Linux; U; Android 4.0.3; de-de; LOOX Plus Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -932,6 +965,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-279-AM' => [
         'Mozilla/5.0 (Symbian/3; Series60/5.3 NokiaN8-00/111.040.1511; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/535.1 (KHTML, like Gecko) NokiaBrowser/8.3.1.4 Mobile Safari/535.1 3gpp-gba',
@@ -961,6 +995,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => false,
     ],
     'issue-279-AN' => [
         'Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; A1-810 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -990,6 +1025,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-279-AO' => [
         'Mozilla/5.0 (Windows NT 4.0; rv:17.0) Gecko/20130107 Thunderbird/17.0.2',
@@ -1019,6 +1055,7 @@ return [
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-279-AP' => [
         'Mozilla/5.0 (compatible; Exabot/3.0; +http://www.exabot.com/go/robot)',
@@ -1048,6 +1085,7 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-279-AQ' => [
         'Mozilla/5.0 (Linux; U; Android 4.2.1; de-de; ASUS Transformer Pad TF300T Build/JOP40D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -1077,6 +1115,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-279-AR' => [
         'Mozilla/5.0 (Linux; Android 4.4.2; Nexus 7 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.99 Safari/537.36',
@@ -1106,6 +1145,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-279-AT' => [
         'MobileSafari/8536.25 CFNetwork/609 Darwin/13.0.0',
@@ -1135,6 +1175,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-279-AU' => [
         'Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; GT-N5100 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -1164,6 +1205,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-279-AV' => [
         'Opera/9.80 (Android 4.1.2; Linux; Opera Mobi/ADR-1301080958) Presto/2.11.355 Version/12.10',
@@ -1193,5 +1235,6 @@ return [
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
         'lite' => false,
+        'standard' => true,
     ],
 ];

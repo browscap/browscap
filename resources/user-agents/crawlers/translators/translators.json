@@ -2,6 +2,7 @@
   "division": "Translators",
   "sortIndex": 510,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Translators",

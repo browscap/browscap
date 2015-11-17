@@ -2,6 +2,7 @@
   "division": "NameProtect",
   "sortIndex": 590,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "NameProtect",

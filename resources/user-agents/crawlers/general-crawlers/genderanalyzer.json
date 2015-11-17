@@ -1,0 +1,33 @@
+{
+  "division": "Genderanalyzer",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Genderanalyzer",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Genderanalyzer",
+        "Browser": "Genderanalyzer",
+        "Browser_Maker": "genderanalyzer.com",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true",
+        "Beta": "true"
+      },
+      "children": [
+        {
+          "match": "Genderanalyzer\/1.0*",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Genderanalyzer\/*"
+        }
+      ]
+    }
+  ]
+}

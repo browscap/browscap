@@ -3,6 +3,7 @@
   "versions": [1],
   "sortIndex": 2420,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Lycoris Desktop\/LX #MAJORVER#.#MINORVER#",

@@ -2,6 +2,7 @@
   "division": "Gigabot",
   "sortIndex": 160,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Gigabot",
@@ -16,13 +17,13 @@
       },
       "children": [
         {
-          "match": "Gigabot*"
-        },
-        {
           "match": "GigabotSiteSearch\/*",
           "properties": {
             "Browser": "GigabotSiteSearch"
           }
+        },
+        {
+          "match": "Gigabot*"
         }
       ]
     }

@@ -29,6 +29,7 @@ return [
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-092-A' => [
         'Mozilla/5.0 (compatible; proximic; +http://www.proximic.com/info/spider.php)',
@@ -58,5 +59,6 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
+        'standard' => true,
     ],
 ];

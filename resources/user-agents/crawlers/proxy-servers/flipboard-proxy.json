@@ -2,6 +2,7 @@
   "division": "FlipboardProxy",
   "sortIndex": 461,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "FlipboardProxy",
@@ -50,8 +51,7 @@
             "MinorVer": "1"
           },
           "platforms": [
-            "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
-            "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B", "OSX_10_10_A", "OSX_10_10_B",
+            "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
             "OSX"
           ]
         },
@@ -76,8 +76,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/* (FlipboardProxy\/*",
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_4_A", "OSX_10_4_B", "OSX_10_5_A", "OSX_10_5_B", "OSX_10_6_A", "OSX_10_6_B", "OSX_10_7_A",
-            "OSX_10_7_B", "OSX_10_8_A", "OSX_10_8_B", "OSX_10_9_A", "OSX_10_9_B", "OSX_10_10_A", "OSX_10_10_B",
+            "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
             "OSX"
           ]
         }

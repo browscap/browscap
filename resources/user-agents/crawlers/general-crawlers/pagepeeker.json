@@ -2,6 +2,7 @@
   "division": "PagePeeker",
   "sortIndex": 870,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "PagePeeker",
@@ -27,14 +28,14 @@
             "MinorVer": "1"
           },
           "platforms": [
-            "Linux_64"
+            "Linux_64", "Linux"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/* Safari\/* PagePeeker\/*",
           "device": "Linux Desktop",
           "platforms": [
-            "Linux_64"
+            "Linux_64", "Linux"
           ]
         }
       ]

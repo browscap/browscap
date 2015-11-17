@@ -2,6 +2,7 @@
   "division": "Xerka WebBot",
   "sortIndex": 1580,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Xerka WebBot",

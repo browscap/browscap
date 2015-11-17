@@ -38,5 +38,7 @@ return [
             'RenderingEngine_Version' => '12.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
+        'lite' => true,
+        'standard' => true,
     ],
 ];

@@ -2,6 +2,7 @@
   "division": "liebao browser",
   "sortIndex": 883,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "liebao browser",

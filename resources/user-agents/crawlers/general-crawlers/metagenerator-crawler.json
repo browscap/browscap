@@ -1,0 +1,43 @@
+{
+  "division": "MetaGeneratorCrawler",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "MetaGeneratorCrawler",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "MetaGeneratorCrawler",
+        "Browser": "MetaGeneratorCrawler",
+        "Browser_Maker": "Jan Bogutzki",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "MetaGeneratorCrawler\/1.1*",
+          "properties": {
+            "Version": "1.1",
+            "MajorVer": "1",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "MetaGeneratorCrawler\/1.3*",
+          "properties": {
+            "Version": "1.3",
+            "MajorVer": "1",
+            "MinorVer": "3"
+          }
+        },
+        {
+          "match": "MetaGeneratorCrawler\/*",
+          "properties": {
+
+          }
+        }
+      ]
+    }
+  ]
+}

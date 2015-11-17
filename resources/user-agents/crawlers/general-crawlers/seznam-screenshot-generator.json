@@ -2,6 +2,7 @@
   "division": "Seznam Screenshot Generator",
   "sortIndex": 1430,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Seznam Screenshot Generator",

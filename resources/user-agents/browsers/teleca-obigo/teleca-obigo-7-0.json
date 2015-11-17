@@ -1,15 +1,17 @@
 {
-  "division": "Teleca-Obigo 7.0",
+  "division": "Teleca-Obigo #MAJORVER#.#MINORVER#",
+  "versions": [7],
   "sortIndex": 10770,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
-      "userAgent": "Teleca-Obigo 7.0",
+      "userAgent": "Teleca-Obigo #MAJORVER#.#MINORVER#",
       "platform": "JAVA",
       "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Teleca-Obigo",
+        "Comment": "Teleca-Obigo #MAJORVER#.#MINORVER#",
         "Browser": "Teleca-Obigo",
         "Browser_Type": "Browser",
         "Frames": "true",
@@ -18,8 +20,9 @@
         "Cookies": "true",
         "JavaScript": "true",
         "CssVersion": "1",
-        "Version": "7.0",
-        "MajorVer": "7"
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#"
       },
       "children": [
         {
@@ -27,11 +30,11 @@
           "device": "HTC Smart F3188"
         },
         {
-          "match": "LG-CF360\/V10h Teleca\/Q7.0 *",
+          "match": "LG-CF360\/V10h Teleca\/Q#MAJORVER#.#MINORVER# *",
           "device": "LG CF360"
         },
         {
-          "match": "LG-GR500\/V10? Teleca\/Q7.0*",
+          "match": "LG-GR500\/V10? Teleca\/Q#MAJORVER#.#MINORVER#*",
           "device": "LG GR500"
         },
         {
@@ -55,6 +58,7 @@
           "device": "LG GT400",
           "properties": {
             "Version": "7.1",
+            "MajorVer": "7",
             "MinorVer": "1"
           }
         },
@@ -63,6 +67,7 @@
           "device": "LG KC910",
           "properties": {
             "Version": "7.1",
+            "MajorVer": "7",
             "MinorVer": "1"
           }
         },
@@ -71,6 +76,7 @@
           "device": "LG T300",
           "properties": {
             "Version": "7.3",
+            "MajorVer": "7",
             "MinorVer": "3"
           }
         },
@@ -79,6 +85,7 @@
           "device": "LG T310i",
           "properties": {
             "Version": "7.3",
+            "MajorVer": "7",
             "MinorVer": "3"
           }
         },
@@ -87,6 +94,7 @@
           "device": "LG BL40",
           "properties": {
             "Version": "7.3",
+            "MajorVer": "7",
             "MinorVer": "3"
           }
         }

@@ -38,6 +38,7 @@ return [
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-689-B' => [
         'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:38.0) Gecko/20100101 Thunderbird/38.0.1 Lightning/4.0.0.1',
@@ -76,5 +77,6 @@ return [
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
         'lite' => false,
+        'standard' => true,
     ],
 ];

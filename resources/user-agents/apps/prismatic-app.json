@@ -2,6 +2,7 @@
   "division": "Prismatic App",
   "sortIndex": 1186,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Prismatic App",
@@ -31,7 +32,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) (Contact: backend@getprismatic.com*",
           "platforms": [
-            "OSX_10_6_A", "OSX_10_7_A", "OSX_10_8_A", "OSX_10_9_A", "OSX_10_10_A",
+            "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
             "OSX"
           ]
         }

@@ -2,6 +2,7 @@
   "division": "Origin",
   "sortIndex": 9510,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Origin",

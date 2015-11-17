@@ -1,0 +1,31 @@
+{
+  "division": "http_requester",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "http_requester",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "http_requester",
+        "Browser": "http_requester",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "http_requester\/0.1*",
+          "properties": {
+            "Version": "0.1",
+            "MajorVer": "0",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "http_requester\/*"
+        }
+      ]
+    }
+  ]
+}

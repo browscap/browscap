@@ -1,15 +1,17 @@
 {
-  "division": "BlackBerry 5.0",
+  "division": "BlackBerry #MAJORVER#.#MINORVER#",
+  "versions": [5],
   "sortIndex": 2365,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
-      "userAgent": "BlackBerry 5.0",
-      "platform": "RIMOS_5_0",
+      "userAgent": "BlackBerry #MAJORVER#.#MINORVER#",
+      "platform": "RIMOS_Dynamic",
       "device": "general Mobile Phone (old Blackberry)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "BlackBerry 5.0",
+        "Comment": "BlackBerry #MAJORVER#.#MINORVER#",
         "Browser": "BlackBerry",
         "Browser_Type": "Browser",
         "Browser_Maker": "Research In Motion Limited",
@@ -18,72 +20,73 @@
         "Cookies": "true",
         "JavaScript": "true",
         "CssVersion": "2",
-        "Version": "5.0",
-        "MajorVer": "5"
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#"
       },
       "children": [
         {
-          "match": "BlackBerry8330\/5.0*",
+          "match": "BlackBerry8330\/#MAJORVER#.#MINORVER#*",
           "device": "Blackberry 8330"
         },
         {
-          "match": "BlackBerry8520\/5.0*",
+          "match": "BlackBerry8520\/#MAJORVER#.#MINORVER#*",
           "device": "Blackberry 8520"
         },
         {
-          "match": "BlackBerry8530\/5.0*",
+          "match": "BlackBerry8530\/#MAJORVER#.#MINORVER#*",
           "device": "Blackberry 8530"
         },
         {
-          "match": "BlackBerry8900\/5.0*",
+          "match": "BlackBerry8900\/#MAJORVER#.#MINORVER#*",
           "device": "Blackberry 8900"
         },
         {
-          "match": "BlackBerry8980\/5.0*",
+          "match": "BlackBerry8980\/#MAJORVER#.#MINORVER#*",
           "device": "Blackberry 8980"
         },
         {
-          "match": "BlackBerry9000\/5.0*",
+          "match": "BlackBerry9000\/#MAJORVER#.#MINORVER#*",
           "device": "Blackberry 9000"
         },
         {
-          "match": "BlackBerry9100\/5.0*",
+          "match": "BlackBerry9100\/#MAJORVER#.#MINORVER#*",
           "device": "Blackberry 9100"
         },
         {
-          "match": "BlackBerry9105\/5.0*",
+          "match": "BlackBerry9105\/#MAJORVER#.#MINORVER#*",
           "device": "Blackberry 9105"
         },
         {
-          "match": "BlackBerry9300\/5.0*",
+          "match": "BlackBerry9300\/#MAJORVER#.#MINORVER#*",
           "device": "Blackberry 9300"
         },
         {
-          "match": "BlackBerry9500\/5.0*",
+          "match": "BlackBerry9500\/#MAJORVER#.#MINORVER#*",
           "device": "Blackberry 9500"
         },
         {
-          "match": "BlackBerry9520\/5.0*",
+          "match": "BlackBerry9520\/#MAJORVER#.#MINORVER#*",
           "device": "Blackberry 9520"
         },
         {
-          "match": "BlackBerry9530\/5.0*",
+          "match": "BlackBerry9530\/#MAJORVER#.#MINORVER#*",
           "device": "Blackberry 9530"
         },
         {
-          "match": "BlackBerry9550\/5.0*",
+          "match": "BlackBerry9550\/#MAJORVER#.#MINORVER#*",
           "device": "Blackberry 9550"
         },
         {
-          "match": "BlackBerry9630\/5.0*",
+          "match": "BlackBerry9630\/#MAJORVER#.#MINORVER#*",
           "device": "Blackberry 9630"
         },
         {
-          "match": "BlackBerry9650\/5.0*",
+          "match": "BlackBerry9650\/#MAJORVER#.#MINORVER#*",
           "device": "Blackberry 9650"
         },
         {
-          "match": "BlackBerry9700\/5.0*",
+          "match": "BlackBerry9700\/#MAJORVER#.#MINORVER#*",
           "device": "Blackberry 9700"
         }
       ]

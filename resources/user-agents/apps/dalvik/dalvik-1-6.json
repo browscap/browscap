@@ -3,6 +3,7 @@
   "versions": ["1.6"],
   "sortIndex": 2211,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Dalvik #MAJORVER#.#MINORVER#",

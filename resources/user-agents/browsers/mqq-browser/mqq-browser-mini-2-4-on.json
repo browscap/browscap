@@ -3,6 +3,7 @@
   "versions": ["2.4"],
   "sortIndex": 1005,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "QQbrowser Mini #MAJORVER#.#MINORVER#",
@@ -29,6 +30,12 @@
         {
           "match": "MQQBrowser\/Mini#MAJORVER#.#MINORVER#* (SAMSUNG-GT-E2252)*",
           "device": "Samsung GT-E2252",
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "MQQBrowser\/Mini#MAJORVER#.#MINORVER#*",
           "platforms": [
             "JAVA"
           ]

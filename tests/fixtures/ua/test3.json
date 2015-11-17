@@ -11,7 +11,12 @@
         "Version": "3.0",
         "MajorVer": "3",
         "MinorVer": "0"
-      }
+      },
+      "children": [
+        {
+          "match": "cde3"
+        }
+      ]
     }
   ]
 }

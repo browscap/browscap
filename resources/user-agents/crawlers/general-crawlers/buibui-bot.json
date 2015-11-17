@@ -1,0 +1,32 @@
+{
+  "division": "BuiBui-Bot",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "BuiBui-Bot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "BuiBui-Bot",
+        "Browser": "BuiBui-Bot",
+        "Browser_Maker": "dadapro.com",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "BuiBui-Bot\/1.0*",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "BuiBui-Bot\/*"
+        }
+      ]
+    }
+  ]
+}

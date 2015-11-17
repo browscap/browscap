@@ -34,5 +34,6 @@ return [
             'RenderingEngine_Maker' => 'UC Web',
         ],
         'lite' => false,
+        'standard' => true,
     ],
 ];

@@ -2,6 +2,7 @@
   "division": "360 Speed Browser",
   "sortIndex": 930,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "360 Speed Browser",

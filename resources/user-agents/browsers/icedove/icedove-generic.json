@@ -1,0 +1,37 @@
+{
+  "division": "Icedove Generic",
+  "sortIndex": 5402,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Icedove Generic",
+      "platform": "Linux",
+      "engine": "Gecko_Dynamic",
+      "device": "Linux Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Icedove Generic",
+        "Browser": "Icedove",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Debian",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "CssVersion": "2"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Icedove\/*",
+          "platforms": [
+            "Linux_32", "Linux"
+          ]
+        }
+      ]
+    }
+  ]
+}

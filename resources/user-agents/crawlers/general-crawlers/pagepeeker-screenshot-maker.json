@@ -2,6 +2,7 @@
   "division": "PagePeeker Screenshot Maker",
   "sortIndex": 2959,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "PagePeeker Screenshot Maker",

@@ -1,14 +1,16 @@
 {
-  "division": "Openwave Mobile Browser 6.3",
+  "division": "Openwave Mobile Browser #MAJORVER#.#MINORVER#",
+  "versions": ["6.3"],
   "sortIndex": 8213,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
-      "userAgent": "Openwave Mobile Browser 6.3",
+      "userAgent": "Openwave Mobile Browser #MAJORVER#.#MINORVER#",
       "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Openwave Mobile Browser",
+        "Comment": "Openwave Mobile Browser #MAJORVER#.#MINORVER#",
         "Browser": "Openwave Mobile Browser",
         "Browser_Type": "Browser",
         "Frames": "true",
@@ -16,55 +18,58 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "Version": "6.3",
-        "MajorVer": "6",
-        "MinorVer": "3"
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#"
       },
       "children": [
         {
-          "match": "BENQ UP.Browser\/6.3*"
+          "match": "BENQ UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "BenQ-CF61\/1.00\/WAP2.0\/MIDP2.0\/CLDC1.0 UP.Browser\/6.3*"
+          "match": "BenQ-CF61\/1.00\/WAP2.0\/MIDP2.0\/CLDC1.0 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "BenQ-CL71\/1.00\/WAP2.0\/MIDP2.0\/CLDC1.0 UP.Browser\/6.3*"
+          "match": "BenQ-CL71\/1.00\/WAP2.0\/MIDP2.0\/CLDC1.0 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "BenQ-E61\/1.00\/WAP2.0 UP.Browser\/6.3*"
+          "match": "BenQ-E61\/1.00\/WAP2.0 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "BenQ-EF51\/1.00\/WAP2.0\/MIDP2.0\/CLDC1.0 UP.Browser\/6.3*"
+          "match": "BenQ-EF51\/1.00\/WAP2.0\/MIDP2.0\/CLDC1.0 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "BenQ-S80\/1.00\/WAP2.0\/MIDP2.0\/CLDC1.1 UP.Browser\/6.3*"
+          "match": "BenQ-S80\/1.00\/WAP2.0\/MIDP2.0\/CLDC1.1 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "BenQ-S81\/1.00\/WAP2.0\/MIDP2.0\/CLDC1.1 UP.Browser\/6.3*"
+          "match": "BenQ-S81\/1.00\/WAP2.0\/MIDP2.0\/CLDC1.1 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "BenQ-S88\/1.00\/WAP2.0\/MIDP2.0\/CLDC1.0 UP.Browser\/6.3*"
+          "match": "BenQ-S88\/1.00\/WAP2.0\/MIDP2.0\/CLDC1.0 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
           "match": "BlackBerry8100\/4.2* VendorID\/124 UP.Browser\/5.0*"
         },
         {
-          "match": "Cricket-A100\/1.0 UP.Browser\/6.3*"
+          "match": "Cricket-A100\/1.0 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "Cricket-A310\/1.0 UP.Browser\/6.3*"
+          "match": "Cricket-A310\/1.0 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "MOT-W375\/* UP.Browser\/6.3.0*"
+          "match": "MOT-W375\/* UP.Browser\/#MAJORVER#.#MINORVER#.0*"
         },
         {
-          "match": "SIEMENS-SFG75\/1.00\/WAP2.0\/MIDP2.0\/CLDC1.1 UP.Browser\/6.3*"
+          "match": "SIEMENS-SFG75\/1.00\/WAP2.0\/MIDP2.0\/CLDC1.1 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "UT-GW206\/1.0.0 CLDC\/CLDC-1.0 MIDP\/MIDP-2.0 UP.Browser\/6.3*"
+          "match": "UT-GW206\/1.0.0 CLDC\/CLDC-1.0 MIDP\/MIDP-2.0 UP.Browser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "UTS-7126M\/1.0 UP.Browser\/6.3*"
+          "match": "UTS-7126M\/1.0 UP.Browser\/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "* UP.Browser\/#MAJORVER#.#MINORVER#*"
         }
       ]
     }

@@ -1,0 +1,40 @@
+{
+  "division": "Livelap Crawler",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Livelap Crawler",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Livelap Crawler",
+        "Browser": "Livelap Crawler",
+        "Browser_Maker": "Paypal",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "LivelapBot\/0.2*",
+          "properties": {
+            "Version": "0.2",
+            "MajorVer": "0",
+            "MinorVer": "2"
+          }
+        },
+        {
+          "match": "LivelapBot\/0.1*",
+          "properties": {
+            "Version": "0.1",
+            "MajorVer": "0",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "LivelapBot\/*"
+        }
+      ]
+    }
+  ]
+}

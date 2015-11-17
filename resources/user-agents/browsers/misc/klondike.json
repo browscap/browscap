@@ -2,6 +2,7 @@
   "division": "Klondike",
   "sortIndex": 6490,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Klondike",

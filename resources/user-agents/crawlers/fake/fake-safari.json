@@ -2,6 +2,7 @@
   "division": "Fake Safari",
   "sortIndex": 957,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Fake Safari",

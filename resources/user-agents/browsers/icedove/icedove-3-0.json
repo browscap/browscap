@@ -3,6 +3,7 @@
   "versions": [3],
   "sortIndex": 5401,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Icedove #MAJORVER#.#MINORVER#",

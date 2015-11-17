@@ -2,6 +2,7 @@
   "division": "Become",
   "sortIndex": 80,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Become",
@@ -33,13 +34,16 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; BecomeJPBot\/2.3; *)",
+          "match": "Mozilla\/5.0 (compatible; BecomeJPBot\/2.3*",
           "properties": {
-            "Browser": "BecomeJPBot"
+            "Browser": "BecomeJPBot",
+            "Version": "2.3",
+            "MajorVer": "2",
+            "MinorVer": "3"
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; BecomeJPBot\/2.3*)",
+          "match": "Mozilla\/5.0 (compatible; BecomeJPBot\/*",
           "properties": {
             "Browser": "BecomeJPBot"
           }

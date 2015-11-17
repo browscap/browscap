@@ -1,14 +1,16 @@
 {
-  "division": "Openwave Mobile Browser 5.1",
+  "division": "Openwave Mobile Browser #MAJORVER#.#MINORVER#",
+  "versions": ["5.1"],
   "sortIndex": 8217,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
-      "userAgent": "Openwave Mobile Browser 5.1",
+      "userAgent": "Openwave Mobile Browser #MAJORVER#.#MINORVER#",
       "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Openwave Mobile Browser",
+        "Comment": "Openwave Mobile Browser #MAJORVER#.#MINORVER#",
         "Browser": "Openwave Mobile Browser",
         "Browser_Type": "Browser",
         "Frames": "true",
@@ -16,20 +18,23 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "Version": "5.1",
-        "MajorVer": "5",
-        "MinorVer": "1"
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#"
       },
       "children": [
         {
-          "match": "Amoi-V600\/Plat-EMP\/WAP2.0\/MIDP2.0\/CLDC1.0 UP.Link\/5.1*"
+          "match": "Amoi-V600\/Plat-EMP\/WAP2.0\/MIDP2.0\/CLDC1.0 UP.Link\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "Haier-P7 UP.Link\/5.1*"
+          "match": "Haier-P7 UP.Link\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "NEC-N600\/1.0 HopenOS\/2.0 UP.Link\/5.1*",
+          "match": "NEC-N600\/1.0 HopenOS\/2.0 UP.Link\/#MAJORVER#.#MINORVER#*",
           "device": "NEC N600"
+        },
+        {
+          "match": "* UP.Link\/#MAJORVER#.#MINORVER#*"
         }
       ]
     }

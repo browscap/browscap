@@ -1,0 +1,33 @@
+{
+  "division": "shelob",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "shelob",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "shelob",
+        "Browser": "shelob",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Shelob (shelob@gmx.net)"
+        },
+        {
+          "match": "shelob v1.*",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1"
+          }
+        },
+        {
+          "match": "shelob*"
+        }
+      ]
+    }
+  ]
+}

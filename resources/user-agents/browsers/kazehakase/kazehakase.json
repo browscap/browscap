@@ -3,6 +3,7 @@
   "versions": ["0.5", "0.4"],
   "sortIndex": 2460,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Kazehakase #MAJORVER#.#MINORVER#",

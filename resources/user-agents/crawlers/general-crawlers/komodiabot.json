@@ -1,0 +1,40 @@
+{
+  "division": "KomodiaBot",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "KomodiaBot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "KomodiaBot",
+        "Browser": "KomodiaBot",
+        "Browser_Maker": "Komodia Inc",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) KomodiaBot\/1.0*",
+          "device": "Windows Desktop",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          },
+          "platforms": [
+            "Win7_x64", "Win7_32"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) KomodiaBot\/*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win7_x64", "Win7_32"
+          ]
+        }
+      ]
+    }
+  ]
+}

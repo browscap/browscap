@@ -3,6 +3,7 @@
   "versions": ["4.79", "4.73", "4.7", "4.8"],
   "sortIndex": 7803,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Netscape #MAJORVER#.#MINORVER#",

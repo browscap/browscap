@@ -1,0 +1,40 @@
+{
+  "division": "Abonti WebSearch",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Abonti WebSearch",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Abonti WebSearch",
+        "Browser": "Abonti WebSearch",
+        "Browser_Maker": "abonti.com",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (compatible; Abonti\/0.91*",
+          "properties": {
+            "Version": "0.91",
+            "MajorVer": "0",
+            "MinorVer": "91"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Abonti\/0.92*",
+          "properties": {
+            "Version": "0.92",
+            "MajorVer": "0",
+            "MinorVer": "92"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Abonti\/*"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "division": "LinkpadBot",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "LinkpadBot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "LinkpadBot",
+        "Browser": "LinkpadBot",
+        "Browser_Maker": "LinkPad",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (compatible; LinkpadBot\/1.06*",
+          "properties": {
+            "Version": "1.06",
+            "MajorVer": "1",
+            "MinorVer": "06"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; LinkpadBot\/*"
+        }
+      ]
+    }
+  ]
+}

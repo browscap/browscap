@@ -2,6 +2,7 @@
   "division": "Avant\/IE 7.0",
   "sortIndex": 938,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Avant\/IE 7.0",
@@ -31,7 +32,7 @@
             "WinXPb_x64", "WinXPb_64", "WinXPb_32",
             "WinXPa_x64", "WinXPa_64", "WinXPa_32",
             "Win2000_64", "Win2000_3", "Win2000",
-            "NT"
+            "NT", "Windows"
           ]
         },
         {
@@ -43,19 +44,19 @@
             "WinXPb_x64", "WinXPb_64", "WinXPb_32",
             "WinXPa_x64", "WinXPa_64", "WinXPa_32",
             "Win2000_64", "Win2000_3", "Win2000",
-            "NT"
+            "NT", "Windows"
           ]
         },
         {
           "match": "Mozilla\/4.0 (*MSIE 7.0; #PLATFORM#Avant Browser*",
           "platforms": [
-            "Vista_32", "WinXPa_32"
+            "Vista_32", "WinXPa_32", "Windows"
           ]
         },
         {
           "match": "Mozilla\/5.0 (*MSIE 7.0; #PLATFORM#Avant Browser*",
           "platforms": [
-            "Vista_32", "WinXPa_32"
+            "Vista_32", "WinXPa_32", "Windows"
           ]
         },
         {
@@ -67,7 +68,7 @@
             "WinXPb_x64", "WinXPb_64", "WinXPb_32",
             "WinXPa_x64", "WinXPa_64", "WinXPa_32",
             "Win2000_64", "Win2000_3", "Win2000",
-            "NT"
+            "NT", "Windows"
           ]
         },
         {
@@ -79,7 +80,7 @@
             "WinXPb_x64", "WinXPb_64", "WinXPb_32",
             "WinXPa_x64", "WinXPa_64", "WinXPa_32",
             "Win2000_64", "Win2000_3", "Win2000",
-            "NT"
+            "NT", "Windows"
           ]
         },
         {
@@ -91,7 +92,7 @@
             "WinXPb_x64", "WinXPb_64", "WinXPb_32",
             "WinXPa_x64", "WinXPa_64", "WinXPa_32",
             "Win2000_64", "Win2000_3", "Win2000",
-            "NT"
+            "NT", "Windows"
           ]
         },
         {
@@ -103,7 +104,7 @@
             "WinXPb_x64", "WinXPb_64", "WinXPb_32",
             "WinXPa_x64", "WinXPa_64", "WinXPa_32",
             "Win2000_64", "Win2000_3", "Win2000",
-            "NT"
+            "NT", "Windows"
           ]
         }
       ]

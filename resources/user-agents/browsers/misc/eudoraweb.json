@@ -2,6 +2,7 @@
   "division": "EudoraWeb",
   "sortIndex": 4060,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "EudoraWeb",

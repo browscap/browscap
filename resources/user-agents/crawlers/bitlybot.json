@@ -2,6 +2,7 @@
   "division": "bitlybot",
   "sortIndex": 100,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "bitlybot",

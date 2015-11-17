@@ -2,6 +2,7 @@
   "division": "Feeds Syndicators",
   "sortIndex": 370,
   "lite": false,
+  "standard": true,
   "userAgents": [
     {
       "userAgent": "Feeds Syndicators",
@@ -59,23 +60,6 @@
           "properties": {
             "Browser": "akregator",
             "Browser_Maker": "KDE e.V."
-          }
-        },
-        {
-          "match": "Apple-PubSub\/65.28*",
-          "properties": {
-            "Browser": "Apple-PubSub",
-            "Browser_Maker": "Apple Inc",
-            "Version": "65.28",
-            "MajorVer": "65",
-            "MinorVer": "28"
-          }
-        },
-        {
-          "match": "Apple-PubSub\/*",
-          "properties": {
-            "Browser": "Apple-PubSub",
-            "Browser_Maker": "Apple Inc"
           }
         },
         {
@@ -606,7 +590,7 @@
             "Browser_Maker": "www.newsblur.com"
           },
           "platforms": [
-            "OSX_10_7_A", "OSX_10_8_A", "OSX_10_9_A", "OSX_10_10_A"
+            "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10"
           ]
         },
         {
@@ -617,7 +601,7 @@
             "Browser_Maker": "www.newsblur.com"
           },
           "platforms": [
-            "OSX_10_7_A", "OSX_10_8_A", "OSX_10_9_A", "OSX_10_10_A"
+            "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10"
           ]
         },
         {
@@ -628,7 +612,7 @@
             "Browser_Maker": "www.newsblur.com"
           },
           "platforms": [
-            "OSX_10_7_A", "OSX_10_8_A", "OSX_10_9_A", "OSX_10_10_A"
+            "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10"
           ]
         },
         {

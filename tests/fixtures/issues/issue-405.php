@@ -29,6 +29,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-405-B' => [
         'Mozilla/5.0 (PlayStation Vita 3.18) AppleWebKit/536.26 (KHTML, like Gecko) Silk/3.2',
@@ -60,6 +61,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
     'issue-405-C' => [
         'Mozilla/5.0 (PLAYSTATION 3 4.60) AppleWebKit/531.22.8 (KHTML, like Gecko)',
@@ -90,5 +92,6 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
+        'standard' => true,
     ],
 ];
