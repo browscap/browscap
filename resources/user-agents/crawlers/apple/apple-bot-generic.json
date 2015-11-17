@@ -1,0 +1,33 @@
+{
+  "division": "Applebot Generic",
+  "sortIndex": 971,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Applebot Generic",
+      "device": "Macintosh",
+      "platform": "OSX",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Applebot Generic",
+        "Browser": "Applebot",
+        "Browser_Maker": "Apple Inc",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* (Applebot\/*",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX"
+          ]
+        }
+      ]
+    }
+  ]
+}
