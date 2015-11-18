@@ -4106,6 +4106,24 @@
           "platforms": [
             "Android_4_0", "Android"
           ]
+        },
+        {
+          "match": "LMT6752_TD* Linux\/* Android\/5.0* Release\/* Browser\/AppleWebkit* Chrome\/#MAJORVER#.*",
+          "platforms": [
+            "Android_5_0"
+          ]
+        },
+        {
+          "match": "* Linux\/* Android\/5.0* Release\/* Browser\/AppleWebkit* Chrome\/#MAJORVER#.*",
+          "platforms": [
+            "Android_5_0"
+          ]
+        },
+        {
+          "match": "* Linux\/* Android\/5.1* Release\/* Browser\/AppleWebkit* Chrome\/#MAJORVER#.*",
+          "platforms": [
+            "Android_5_1"
+          ]
         }
       ]
     },

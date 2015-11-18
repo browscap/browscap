@@ -231,6 +231,111 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-N920V 4G Build\/*) AppleWebKit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "device": "Samsung SM-N920V",
+          "platforms": [
+            "Android_5_1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-N920P Build\/*) AppleWebKit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "device": "Samsung SM-N920P",
+          "platforms": [
+            "Android_5_1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-N920T Build\/*) AppleWebKit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "device": "Samsung SM-N920T",
+          "platforms": [
+            "Android_5_1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-N920A Build\/*) AppleWebKit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "device": "Samsung SM-N920A",
+          "platforms": [
+            "Android_5_1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-N920W8 Build\/*) AppleWebKit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "device": "Samsung SM-N920W8",
+          "platforms": [
+            "Android_5_1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-N9208 Build\/*) AppleWebKit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "device": "Samsung SM-N9208",
+          "platforms": [
+            "Android_5_1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-N920I Build\/*) AppleWebKit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "device": "Samsung SM-N920I",
+          "platforms": [
+            "Android_5_1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-G928F* Build\/*) AppleWebKit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "device": "Samsung SM-G928F",
+          "platforms": [
+            "Android_5_1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-G928A Build\/*) AppleWebKit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "device": "Samsung SM-G928A",
+          "platforms": [
+            "Android_5_1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-G928I Build\/*) AppleWebKit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "device": "Samsung SM-G928I",
+          "platforms": [
+            "Android_5_1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-G928T Build\/*) AppleWebKit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "device": "Samsung SM-G928T",
+          "platforms": [
+            "Android_5_1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-G928G Build\/*) AppleWebKit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "device": "Samsung SM-G928G",
+          "platforms": [
+            "Android_5_1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-G928P Build\/*) AppleWebKit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "device": "Samsung SM-G928P",
+          "platforms": [
+            "Android_5_1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-G928V Build\/*) AppleWebKit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "device": "Samsung SM-G928V",
+          "platforms": [
+            "Android_5_1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-G928R Build\/*) AppleWebKit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "device": "Samsung SM-G928R",
+          "platforms": [
+            "Android_5_1"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM# Build\/*) AppleWebKit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "platforms": [
             "Android_4_4", "Android_5_0", "Android_5_1", "Android"

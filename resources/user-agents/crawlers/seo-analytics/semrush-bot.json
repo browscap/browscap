@@ -1,0 +1,78 @@
+{
+  "division": "SEO & Analytics",
+  "sortIndex": 249,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "SEO & Analytics",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "SEO & Analytics",
+        "Browser": "SemrushBot",
+        "Browser_Maker": "SEMrush",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (compatible; SemrushBot-SA\/0.96*",
+          "properties": {
+            "Version": "0.96",
+            "MajorVer": "0",
+            "MinorVer": "96"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; SemrushBot-SA\/0.97*",
+          "properties": {
+            "Version": "0.97",
+            "MajorVer": "0",
+            "MinorVer": "97"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; SemrushBot-SA\/*"
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; SemrushBot-SI\/0.96*",
+          "properties": {
+            "Version": "0.96",
+            "MajorVer": "0",
+            "MinorVer": "96"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; SemrushBot-SI\/0.97*",
+          "properties": {
+            "Version": "0.97",
+            "MajorVer": "0",
+            "MinorVer": "97"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; SemrushBot-SI\/*"
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; SemrushBot\/0.96*",
+          "properties": {
+            "Version": "0.96",
+            "MajorVer": "0",
+            "MinorVer": "96"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; SemrushBot\/0.97*",
+          "properties": {
+            "Version": "0.97",
+            "MajorVer": "0",
+            "MinorVer": "97"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; SemrushBot\/*"
+        }
+      ]
+    }
+  ]
+}

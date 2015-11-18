@@ -1,0 +1,39 @@
+{
+  "division": "Qword Browser #MAJORVER#.#MINORVER#",
+  "versions": [35],
+  "sortIndex": 883,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Qword Browser #MAJORVER#.#MINORVER#",
+      "engine": "WebKit",
+      "device": "general Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Qword Browser #MAJORVER#.#MINORVER#",
+        "Browser": "Qword Browser",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Qword Corporation",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Qword\/#MAJORVER#.* Safari\/*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win8_1_64", "Win8_1_32"
+          ]
+        }
+      ]
+    }
+  ]
+}

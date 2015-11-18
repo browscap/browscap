@@ -51,12 +51,18 @@
           }
         },
         {
+          "match": "Barca\/*"
+        },
+        {
           "match": "BarcaPro\/2.8*",
           "properties": {
             "Version": "2.8",
             "MajorVer": "2",
             "MinorVer": "8"
           }
+        },
+        {
+          "match": "BarcaPro\/*"
         }
       ]
     }

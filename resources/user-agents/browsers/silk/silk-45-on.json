@@ -1,0 +1,48 @@
+{
+  "division": "Silk #MAJORVER#.#MINORVER#",
+  "versions": ["45.1", 45],
+  "sortIndex": 1134,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Silk #MAJORVER#.#MINORVER#",
+      "platform": "Android",
+      "engine": "Blink",
+      "device": "Amazon Kindle",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Silk #MAJORVER#.#MINORVER#",
+        "Browser": "Silk",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Amazon.com, Inc.",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#KFFOWI Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* like Chrome\/* Safari*",
+          "engine": "Blink",
+          "device": "Amazon KFFOWI",
+          "platforms": [
+            "Android_5_1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* like Chrome\/* Safari*",
+          "engine": "Blink",
+          "platforms": [
+            "Android_5_1"
+          ]
+        }
+      ]
+    }
+  ]
+}

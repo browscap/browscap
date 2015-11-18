@@ -1,0 +1,32 @@
+{
+  "division": "DueDil Crawler",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "DueDil Crawler",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "DueDil Crawler",
+        "Browser": "DueDil Crawler",
+        "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "DueDil Ltd",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (compatible; electricmonk\/3.2*",
+          "properties": {
+            "Version": "3.2",
+            "MajorVer": "3",
+            "MinorVer": "2"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; electricmonk\/*"
+        }
+      ]
+    }
+  ]
+}

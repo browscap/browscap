@@ -27,6 +27,23 @@
           "match": "Mozilla\/5.0 (compatible; *; heritrix\/*"
         },
         {
+          "match": "bl.uk_lddc_bot\/3.3*",
+          "properties": {
+            "Browser": "bl.uk_lddc_bot",
+            "Browser_Maker": "The British Legal Deposit Libraries",
+            "Version": "3.3",
+            "MajorVer": "3",
+            "MinorVer": "3"
+          }
+        },
+        {
+          "match": "bl.uk_lddc_bot\/*",
+          "properties": {
+            "Browser": "bl.uk_lddc_bot",
+            "Browser_Maker": "The British Legal Deposit Libraries"
+          }
+        },
+        {
           "match": "Mozilla\/5.0 (bl.uk_lddc_bot; #PLATFORM#)*",
           "device": "Linux Desktop",
           "properties": {
