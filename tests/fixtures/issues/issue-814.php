@@ -547,7 +547,7 @@ return [
             'MinorVer' => '6',
             'Platform' => 'Win8.1',
             'Platform_Version' => '6.3',
-            'Platform_Bits' => '64',
+            'Platform_Bits' => '32',
             'Platform_Maker' => 'Microsoft Corporation',
             'Win64' => false,
             'isMobileDevice' => false,
@@ -864,7 +864,7 @@ return [
     'issue-814-W' => [
         'Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG SM-N920T Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.4 Chrome/38.0.2125.102 Mobile Safari/537.36',
         [
-            'Browser' => 'SamsungBrowser',
+            'Browser' => 'Samsung Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Samsung',
@@ -1068,7 +1068,7 @@ return [
     'issue-814-AB' => [
         'Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG SM-G928F Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.4 Chrome/38.0.2125.102 Mobile Safari/537.36',
         [
-            'Browser' => 'SamsungBrowser',
+            'Browser' => 'Samsung Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Samsung',
@@ -1108,7 +1108,7 @@ return [
     'issue-814-AC' => [
         'Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG SM-N920P Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.4 Chrome/38.0.2125.102 Mobile Safari/537.36',
         [
-            'Browser' => 'SamsungBrowser',
+            'Browser' => 'Samsung Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Samsung',
@@ -1199,7 +1199,7 @@ return [
             'MinorVer' => '6',
             'Platform' => 'Win8.1',
             'Platform_Version' => '6.3',
-            'Platform_Bits' => '64',
+            'Platform_Bits' => '32',
             'Platform_Maker' => 'Microsoft Corporation',
             'Win64' => false,
             'isMobileDevice' => false,
@@ -1314,7 +1314,7 @@ return [
         [
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
-            'Browser_Bits' => '32',
+            'Browser_Bits' => '64',
             'Browser_Maker' => 'Google Inc',
             'Browser_Modus' => 'unknown',
             'Version' => '48.0',
@@ -1517,7 +1517,7 @@ return [
     'issue-814-AN' => [
         'Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG-SM-N920A Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.4 Chrome/38.0.2125.102 Mobile Safari/537.36',
         [
-            'Browser' => 'SamsungBrowser',
+            'Browser' => 'Samsung Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Samsung',
@@ -1607,7 +1607,7 @@ return [
             'MinorVer' => '0',
             'Platform' => 'Win10',
             'Platform_Version' => '10.0',
-            'Platform_Bits' => '64',
+            'Platform_Bits' => '32',
             'Platform_Maker' => 'Microsoft Corporation',
             'Win64' => false,
             'isMobileDevice' => false,
@@ -2088,7 +2088,7 @@ return [
     'issue-814-BB' => [
         'Mozilla/5.0 (Linux; Android 5.1.1; SM-N920W8 Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.4 Chrome/38.0.2125.102 Mobile Safari/537.36',
         [
-            'Browser' => 'SamsungBrowser',
+            'Browser' => 'Samsung Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Samsung',
@@ -2220,7 +2220,7 @@ return [
             'MinorVer' => '6',
             'Platform' => 'Win10',
             'Platform_Version' => '10.0',
-            'Platform_Bits' => '64',
+            'Platform_Bits' => '32',
             'Platform_Maker' => 'Microsoft Corporation',
             'Win64' => false,
             'isMobileDevice' => false,
@@ -2251,7 +2251,7 @@ return [
     'issue-814-BF' => [
         'Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG SM-G928I Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.4 Chrome/38.0.2125.102 Mobile Safari/537.36',
         [
-            'Browser' => 'SamsungBrowser',
+            'Browser' => 'Samsung Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Samsung',

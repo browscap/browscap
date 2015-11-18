@@ -457,7 +457,7 @@ return [
         [
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
-            'Browser_Bits' => '32',
+            'Browser_Bits' => '64',
             'Browser_Maker' => 'Google Inc',
             'Browser_Modus' => 'unknown',
             'Version' => '48.0',
@@ -539,7 +539,7 @@ return [
         [
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
-            'Browser_Bits' => '32',
+            'Browser_Bits' => '64',
             'Browser_Maker' => 'Google Inc',
             'Browser_Modus' => 'unknown',
             'Version' => '48.0',
@@ -621,7 +621,7 @@ return [
         [
             'Browser' => 'PaleMoon',
             'Browser_Type' => 'Browser',
-            'Browser_Bits' => '32',
+            'Browser_Bits' => '64',
             'Browser_Maker' => 'Moonchild Productions',
             'Browser_Modus' => 'unknown',
             'Version' => '25.7',
@@ -787,7 +787,7 @@ return [
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Amazon.com, Inc.',
-            'Browser_Modus' => 'unknown',
+            'Browser_Modus' => 'Desktop Mode',
             'Version' => '45.1',
             'MajorVer' => '45',
             'MinorVer' => '1',
@@ -988,7 +988,7 @@ return [
     'issue-810-AA' => [
         'Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG SM-N920V 4G Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.4 Chrome/38.0.2125.102 Mobile Safari/537.36',
         [
-            'Browser' => 'SamsungBrowser',
+            'Browser' => 'Samsung Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Samsung',
