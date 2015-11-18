@@ -499,7 +499,7 @@ return [
             'Browser' => 'PhantomJS',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
-            'Browser_Maker' => 'phantomjs.orgm',
+            'Browser_Maker' => 'phantomjs.org',
             'Browser_Modus' => 'unknown',
             'Version' => '2.0',
             'MajorVer' => '2',
@@ -1030,7 +1030,7 @@ return [
         [
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
-            'Browser_Bits' => '32',
+            'Browser_Bits' => '64',
             'Browser_Maker' => 'Google Inc',
             'Browser_Modus' => 'unknown',
             'Version' => '11.0',

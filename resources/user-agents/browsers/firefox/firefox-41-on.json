@@ -181,7 +181,7 @@
           ]
         },
         {
-          "match": "Mozilla\/4.0 (#PLATFORM#rv:#MAJORVER#.#MINORVER#*) Gecko* Firefox*",
+          "match": "Mozilla\/5.0 (#PLATFORM#rv:#MAJORVER#.#MINORVER#*) Gecko* Firefox*",
           "device": "Windows Desktop",
           "platforms": [
             "Win10_x64", "Win10_64", "Win10_32",

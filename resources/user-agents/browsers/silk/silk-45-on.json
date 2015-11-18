@@ -41,6 +41,16 @@
           "platforms": [
             "Android_5_1"
           ]
+        },
+        {
+          "match": "Mozilla\/5.0 (X11; Linux*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* like Chrome\/* Safari*",
+          "engine": "Blink",
+          "properties": {
+            "Browser_Modus": "Desktop Mode"
+          },
+          "platforms": [
+            "Android"
+          ]
         }
       ]
     }

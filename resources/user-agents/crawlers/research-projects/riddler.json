@@ -16,7 +16,7 @@
       },
       "children": [
         {
-          "match": "Riddler\/*"
+          "match": "Riddler *"
         }
       ]
     }

@@ -104,6 +104,14 @@
         {
           "match": "Mozilla\/5.0 (masking-agent; rv:*) Gecko\/* Firefox\/*",
           "device": "general Desktop"
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#rv:*) Gecko* Firefox*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win10_x64", "Win10_64", "Win10_32",
+            "Win10_x64_B", "Win10_64_B", "Win10_32_B"
+          ]
         }
       ]
     },
