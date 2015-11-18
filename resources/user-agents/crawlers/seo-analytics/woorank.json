@@ -8,7 +8,7 @@
       "userAgent": "WooRank",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "SEO & Analytics",
+        "Comment": "WooRank",
         "Browser": "WooRank",
         "Browser_Type": "Bot/Crawler",
         "Browser_Maker": "woorank.com",

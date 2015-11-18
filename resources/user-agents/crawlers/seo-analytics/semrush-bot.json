@@ -1,14 +1,14 @@
 {
-  "division": "SEO & Analytics",
+  "division": "SemrushBot",
   "sortIndex": 249,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "SEO & Analytics",
+      "userAgent": "SemrushBot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "SEO & Analytics",
+        "Comment": "SemrushBot",
         "Browser": "SemrushBot",
         "Browser_Maker": "SEMrush",
         "Browser_Type": "Bot/Crawler",
