@@ -5257,14 +5257,14 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0(#PLATFORM#ALCATEL ONETOUCH 6050A Build\/*)*AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0(#PLATFORM#ALCATEL ONETOUCH 6050A Build\/*)*AppleWebKit\/*(KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Alcatel OT-6050A",
           "platforms": [
             "Android_4_4"
           ]
         },
         {
-          "match": "Mozilla\/5.0(#PLATFORM#)*AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0(#PLATFORM#)*AppleWebKit\/*(KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "platforms": [
             "Android_4_4", "Android"
           ]
