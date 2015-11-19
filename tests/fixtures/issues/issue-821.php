@@ -447,8 +447,8 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
-        'lite'     => true,
-        'standard' => true,
+        'lite'     => false,
+        'standard' => false,
     ],
     'issue-821-AE' => [
         'Mozilla/5.0 (X11; Linux i686) AppleWebKit/535.19 (KHTML, like Gecko) Sabayon Chrome/18.0.1025.151 Safari/535.19',
@@ -1344,7 +1344,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
-        'lite'     => true,
+        'lite'     => false,
         'standard' => true,
     ],
     'issue-821-BR' => [
@@ -1467,7 +1467,7 @@ return [
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
         'lite'     => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-821-BU' => [
         'Mozilla/5.0 (compatible; MSIE 10.0; AOL 9.7; AOLBuild 4343.1023; Windows NT 6.2; WOW64; Trident/8.0)',
