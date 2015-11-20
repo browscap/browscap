@@ -59,7 +59,7 @@ class LoggerHelper
             $peakMemoryProcessor = new MemoryPeakUsageProcessor(true);
             $logger->pushProcessor($peakMemoryProcessor);
         } else {
-            $stream = new StreamHandler('php://output', Logger::INFO);
+            $stream = new StreamHandler('php://output', Logger::WARNING);
             $stream->setFormatter(new LineFormatter('[%datetime%] %message% %extra%' . "\n"));
 
             /** @var callable $peakMemoryProcessor */
