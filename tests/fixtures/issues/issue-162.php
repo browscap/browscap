@@ -5,7 +5,7 @@ return [
         'Google-HTTP-Java-Client/1.17.0-rc (gzip)',
         [
             'Browser' => 'Google HTTP Client Library for Java',
-            'Browser_Type' => 'Application',
+            'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Google Inc',
             'Version' => '1.17',
@@ -17,7 +17,7 @@ return [
             'Platform_Maker' => 'unknown',
             'isMobileDevice' => false,
             'isTablet' => false,
-            'Crawler' => false,
+            'Crawler' => true,
             'Device_Name' => 'unknown',
             'Device_Maker' => 'unknown',
             'Device_Type' => 'unknown',
