@@ -374,6 +374,9 @@
         },
         {
           "match": "*Window NT*"
+        },
+        {
+          "match": "*MSIE*Chrome*"
         }
       ]
     }

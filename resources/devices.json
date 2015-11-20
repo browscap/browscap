@@ -4992,19 +4992,6 @@
         "isTablet": "false"
       }
     },
-    "Samsung SM-G313HU": {
-      "standard": false,
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "SM-G313HU",
-        "Device_Name": "Galaxy S Duos 3",
-        "Device_Maker": "Samsung",
-        "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
     "Samsung SM-G925I": {
       "standard": false,
       "properties": {
@@ -5089,6 +5076,123 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SM-G920K",
         "Device_Name": "Galaxy S6 (Korea)",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung SM-G928F": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SM-G928F",
+        "Device_Name": "Galaxy S6 Edge Plus LTE",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung SM-G928A": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SM-G928A",
+        "Device_Name": "Galaxy S6 Edge Plus LTE (AT&T)",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung SM-G928T": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SM-G928T",
+        "Device_Name": "Galaxy S6 Edge Plus LTE (T-Mobile)",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung SM-G928I": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SM-G928I",
+        "Device_Name": "Galaxy S6 Edge Plus LTE (Australia)",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung SM-G928G": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SM-G928G",
+        "Device_Name": "Galaxy S6 Edge Plus LTE (Mexico)",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung SM-G928P": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SM-G928P",
+        "Device_Name": "Galaxy S6 Edge Plus CDMA+LTE (Sprint)",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung SM-G928V": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SM-G928V",
+        "Device_Name": "Galaxy S6 Edge Plus CDMA+LTE (Verizon)",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung SM-G928R": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SM-G928R",
+        "Device_Name": "Galaxy S6 Edge Plus CDMA+LTE (US Cellular)",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung SM-G313HU": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SM-G313HU",
+        "Device_Name": "Galaxy S Duos 3",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "touchscreen",
@@ -5440,6 +5544,97 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SM-N900V",
         "Device_Name": "Galaxy Note 3 LTE (Verizon)",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung SM-N920V": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SM-N920V",
+        "Device_Name": "Galaxy Note 5 CDMA + LTE (Verizon)",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung SM-N920P": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SM-N920P",
+        "Device_Name": "Galaxy Note 5 CDMA + LTE (Sprint)",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung SM-N920T": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SM-N920T",
+        "Device_Name": "Galaxy Note 5 LTE (T-Mobile)",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung SM-N920A": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SM-N920A",
+        "Device_Name": "Galaxy Note 5 LTE (AT&T)",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung SM-N920W8": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SM-N920W8",
+        "Device_Name": "Galaxy Note 5 LTE (Canada)",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung SM-N9208": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SM-N9208",
+        "Device_Name": "Galaxy Note 5 LTE (Taiwan)",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung SM-N920I": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SM-N920I",
+        "Device_Name": "Galaxy Note 5 LTE (Australia, New Zealand, Singapore, Canada)",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "touchscreen",
@@ -19279,6 +19474,19 @@
         "isTablet": "true"
       }
     },
+    "Amazon KFFOWI": {
+      "standard": true,
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "KFFOWI",
+        "Device_Name": "Kindle Fire (5th Gen)",
+        "Device_Maker": "Amazon.com, Inc.",
+        "Device_Brand_Name": "Amazon",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Amazon SD4930UR": {
       "standard": false,
       "properties": {
@@ -22594,6 +22802,19 @@
         "isTablet": "true"
       }
     },
+    "Micromax A102": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "A102",
+        "Device_Name": "Canvas Doodle 3",
+        "Device_Maker": "Micromax",
+        "Device_Brand_Name": "Micromax",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Micromax A116": {
       "standard": false,
       "properties": {
@@ -23198,6 +23419,19 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "OT-6035R",
         "Device_Name": "One Touch Idol S",
+        "Device_Maker": "Alcatel",
+        "Device_Brand_Name": "Alcatel",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Alcatel OT-6050A": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "OT-6050A",
+        "Device_Name": "One Touch Idol 2 S",
         "Device_Maker": "Alcatel",
         "Device_Brand_Name": "Alcatel",
         "Device_Pointing_Method": "touchscreen",
@@ -35904,6 +36138,45 @@
         "Device_Brand_Name": "Jolla",
         "isMobileDevice": "true",
         "isTablet": "false"
+      }
+    },
+    "itel it1701": {
+      "standard": true,
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "iNote Prime",
+        "Device_Code_Name": "it1701",
+        "Device_Maker": "Itel",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Itel",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Intex Aqua_Life V": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Aqua_Life V",
+        "Device_Code_Name": "Aqua_Life V",
+        "Device_Maker": "Intex",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Intex",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Velocity Micro T408": {
+      "standard": true,
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "Cruz",
+        "Device_Code_Name": "T408",
+        "Device_Maker": "Velocity Micro",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Velocity Micro",
+        "isMobileDevice": "true",
+        "isTablet": "true"
       }
     }
   }

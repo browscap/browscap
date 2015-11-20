@@ -8,7 +8,8 @@
     {
       "userAgent": "Palemoon #MAJORVER#.#MINORVER#",
       "engine": "Gecko_Dynamic",
-      "device": "general Desktop",
+      "device": "Windows Desktop",
+      "platform": "Windows",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Palemoon #MAJORVER#.#MINORVER#",
@@ -25,7 +26,12 @@
         "Win64": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
-        "CssVersion": "2"
+        "CssVersion": "2",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true"
       },
       "children": [
         {

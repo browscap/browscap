@@ -35,6 +35,12 @@
         },
         {
           "match": "Chrome\/* (Windows*"
+        },
+        {
+          "match": "24.* Chrome*"
+        },
+        {
+          "match": "Mozilla\/5.0 (Chrome* Firefox*"
         }
       ]
     }

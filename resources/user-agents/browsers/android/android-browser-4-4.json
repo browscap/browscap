@@ -52,6 +52,26 @@
           "platforms": [
             "Android_4_4"
           ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#itel it1701;*Release\/*) AppleWebKit\/* (KHTML, like Gecko) Mobile Safari*",
+          "device": "itel it1701",
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#Aqua_Life V;*Release\/*) AppleWebKit\/* (KHTML, like Gecko) Mobile Safari*",
+          "device": "Intex Aqua_Life V",
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#Release\/*) AppleWebKit\/* (KHTML, like Gecko) Mobile Safari*",
+          "platforms": [
+            "Android_4_4"
+          ]
         }
       ]
     }

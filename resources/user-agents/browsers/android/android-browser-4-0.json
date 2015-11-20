@@ -6259,7 +6259,17 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (*Linux*) AppleWebKit\/* (KHTML, like Gecko) *Version\/#MAJORVER#.#MINORVER#* Safari\/*",
+          "match": "Mozilla\/5.0 (*Linux*Velocitymicro\/T408*) AppleWebKit\/*(KHTML, like Gecko) *Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "device": "Velocity Micro T408",
+          "properties": {
+            "Browser_Modus": "Desktop Mode"
+          },
+          "platforms": [
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (*Linux*) AppleWebKit\/*(KHTML, like Gecko) *Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
             "Browser_Modus": "Desktop Mode"
           },

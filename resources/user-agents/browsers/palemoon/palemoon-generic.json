@@ -20,7 +20,12 @@
         "Win64": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
-        "CssVersion": "3"
+        "CssVersion": "3",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true"
       },
       "children": [
         {

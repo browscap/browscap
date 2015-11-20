@@ -1,0 +1,24 @@
+{
+  "division": "Riddler",
+  "sortIndex": 471,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Riddler",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Riddler",
+        "Browser": "Riddler",
+        "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "riddler.io",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Riddler *"
+        }
+      ]
+    }
+  ]
+}

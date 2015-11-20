@@ -35,6 +35,18 @@
             "Android_4_4", "Android_5_0", "Android_5_1",
             "Android"
           ]
+        },
+        {
+          "match": "* Linux\/* Android\/5.0* Release\/* Browser\/AppleWebkit* Chrome\/*",
+          "platforms": [
+            "Android_5_0"
+          ]
+        },
+        {
+          "match": "* Linux\/* Android\/5.1* Release\/* Browser\/AppleWebkit* Chrome\/*",
+          "platforms": [
+            "Android_5_1"
+          ]
         }
       ]
     },
@@ -178,6 +190,13 @@
           "device": "Windows Desktop",
           "platforms": [
             "WinXPa_32"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Sabayon Chrome\/*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64", "Linux_32", "Linux"
           ]
         }
       ]

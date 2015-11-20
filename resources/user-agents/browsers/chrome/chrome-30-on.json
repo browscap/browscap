@@ -1,6 +1,6 @@
 {
   "division": "Chrome #MAJORVER#.#MINORVER#",
-  "versions": [47, 46, 45, 44, 43, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31, 30],
+  "versions": [48, 47, 46, 45, 44, 43, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31, 30],
   "sortIndex": 1150,
   "lite": true,
   "standard": true,
@@ -4105,6 +4105,24 @@
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*CrMo\/#MAJORVER#.*Safari\/*",
           "platforms": [
             "Android_4_0", "Android"
+          ]
+        },
+        {
+          "match": "LMT6752_TD* Linux\/* Android\/5.0* Release\/* Browser\/AppleWebkit* Chrome\/#MAJORVER#.*",
+          "platforms": [
+            "Android_5_0"
+          ]
+        },
+        {
+          "match": "* Linux\/* Android\/5.0* Release\/* Browser\/AppleWebkit* Chrome\/#MAJORVER#.*",
+          "platforms": [
+            "Android_5_0"
+          ]
+        },
+        {
+          "match": "* Linux\/* Android\/5.1* Release\/* Browser\/AppleWebkit* Chrome\/#MAJORVER#.*",
+          "platforms": [
+            "Android_5_1"
           ]
         }
       ]

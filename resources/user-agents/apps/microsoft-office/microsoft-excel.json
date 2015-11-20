@@ -89,6 +89,13 @@
             "Version": "2013",
             "MajorVer": "2013"
           }
+        },
+        {
+          "match": "Microsoft Office Excel 2014",
+          "properties": {
+            "Version": "2013",
+            "MajorVer": "2013"
+          }
         }
       ]
     }
