@@ -1,7 +1,7 @@
 {
   "division": "IEMobile #MAJORVER#.#MINORVER#",
-  "versions": ["7.0"],
-  "sortIndex": 1720,
+  "versions": ["7.6"],
+  "sortIndex": 1719,
   "lite": false,
   "standard": false,
   "userAgents": [
@@ -34,506 +34,506 @@
       },
       "children": [
         {
-          "match": "Mozilla\/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile #MAJORVER#.*)*",
+          "match": "Mozilla\/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile #MAJORVER#.#MINORVER#*)*",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "8900a\/1.2 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.*",
+          "match": "8900a\/1.2 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.#MINORVER#*",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "8900b\/MR2 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.*",
+          "match": "8900b\/MR2 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.#MINORVER#*",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "HPiPAQ910\/1.0\/Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.*(PPC; 320x240)",
+          "match": "HPiPAQ910\/1.0\/Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.#MINORVER#*(PPC; 320x240)",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "HTC-8900\/1.2 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.*)*",
+          "match": "HTC-8900\/1.2 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.#MINORVER#*)*",
           "device": "HTC 8900",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "HTC-P3450-Ten\/PPC; 240x320; OpVer 23.227.2.792 (*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.*)",
+          "match": "HTC-P3450-Ten\/PPC; 240x320; OpVer 23.227.2.792 (*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.#MINORVER#*)",
           "device": "HTC P3450",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "HTC-P4550-orange\/PPC; 240x320; OpVer 24.181.2.731 (*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.*)",
+          "match": "HTC-P4550-orange\/PPC; 240x320; OpVer 24.181.2.731 (*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.#MINORVER#*)",
           "device": "HTC P4550",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "HTC_P3300 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.*)",
+          "match": "HTC_P3300 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.#MINORVER#*)",
           "device": "HTC P3300",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "HTC_P3470 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.*)",
+          "match": "HTC_P3470 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.#MINORVER#*)",
           "device": "HTC P3470",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "HTC_P3650 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.*)",
+          "match": "HTC_P3650 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.#MINORVER#*)",
           "device": "HTC P3650",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "HTC_P3700 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.*)",
+          "match": "HTC_P3700 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.#MINORVER#*)",
           "device": "HTC P3700",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "HTC_P4550 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.*)",
+          "match": "HTC_P4550 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.#MINORVER#*)",
           "device": "HTC P4550",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "HTC_P6500 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.*)",
+          "match": "HTC_P6500 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.#MINORVER#*)",
           "device": "HTC P6500",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "HTC_S730 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.*)",
+          "match": "HTC_S730 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.#MINORVER#*)",
           "device": "HTC S730",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "HTC_S740 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.*)",
+          "match": "HTC_S740 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.#MINORVER#*)",
           "device": "HTC S740",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "HTC_TouchDual Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.*)",
+          "match": "HTC_TouchDual Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.#MINORVER#*)",
           "device": "HTC TouchDual",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "HTC_Touch_3G_T3232 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.*)",
+          "match": "HTC_Touch_3G_T3232 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.#MINORVER#*)",
           "device": "HTC Touch 3G T3232",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "HTC_Touch_HD_T8282 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.*)",
+          "match": "HTC_Touch_HD_T8282 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.#MINORVER#*)",
           "device": "HTC Touch HD T8282",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "HTC_Touch_Pro_T7272 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.*)",
+          "match": "HTC_Touch_Pro_T7272 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.#MINORVER#*)",
           "device": "HTC T7272",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "HTC_TyTN_II Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; *IEMobile #MAJORVER#.*)",
+          "match": "HTC_TyTN_II Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.#MINORVER#*)",
           "device": "HTC TyTN II",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.*",
+          "match": "Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.#MINORVER#*",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "Mozilla\/4.0 (compatible*; MSIE 7.0; #PLATFORM# Trident\/3.1; IEMobile #MAJORVER#.*; HTC; 7 Mozart)",
+          "match": "Mozilla\/4.0 (compatible*; MSIE 7.0; #PLATFORM# Trident\/3.1; IEMobile #MAJORVER#.#MINORVER#*; HTC; 7 Mozart)",
           "device": "HTC T8698",
           "platforms": [
             "WinPhone7"
           ]
         },
         {
-          "match": "Mozilla\/4.0 (compatible*; MSIE 7.0; #PLATFORM# Trident\/3.1; IEMobile #MAJORVER#.*; HTC; 7 Pro T7576)",
+          "match": "Mozilla\/4.0 (compatible*; MSIE 7.0; #PLATFORM# Trident\/3.1; IEMobile #MAJORVER#.#MINORVER#*; HTC; 7 Pro T7576)",
           "device": "HTC T7576",
           "platforms": [
             "WinPhone7"
           ]
         },
         {
-          "match": "Mozilla\/4.0 (compatible*; MSIE 7.0; #PLATFORM# Trident\/3.1; IEMobile #MAJORVER#.*; LG; LG-E900)",
+          "match": "Mozilla\/4.0 (compatible*; MSIE 7.0; #PLATFORM# Trident\/3.1; IEMobile #MAJORVER#.#MINORVER#*; LG; LG-E900)",
           "device": "LG E900",
           "platforms": [
             "WinPhone7"
           ]
         },
         {
-          "match": "Mozilla\/4.0 (compatible*; MSIE 7.0; #PLATFORM# Trident\/3.1; IEMobile #MAJORVER#.*; SAMSUNG; OMNIA7)",
+          "match": "Mozilla\/4.0 (compatible*; MSIE 7.0; #PLATFORM# Trident\/3.1; IEMobile #MAJORVER#.#MINORVER#*; SAMSUNG; OMNIA7)",
           "device": "Samsung GT-I8700",
           "platforms": [
             "WinPhone7"
           ]
         },
         {
-          "match": "Mozilla\/4.0 (compatible*; MSIE 7.0; #PLATFORM# Trident\/3.1; IEMobile #MAJORVER#.*",
+          "match": "Mozilla\/4.0 (compatible*; MSIE 7.0; #PLATFORM# Trident\/3.1; IEMobile #MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone (Touch)",
           "platforms": [
             "WinPhone7", "WinPhone"
           ]
         },
         {
-          "match": "Mozilla\/4.0 (compatible*; MSIE 7.0*; #PLATFORM# Trident\/3.1; IEMobile #MAJORVER#.*; NOKIA; Lumia 520*)",
+          "match": "Mozilla\/4.0 (compatible*; MSIE 7.0*; #PLATFORM# Trident\/3.1; IEMobile #MAJORVER#.#MINORVER#*; NOKIA; Lumia 520*)",
           "device": "Nokia Lumia 520",
           "platforms": [
             "WinPhone7"
           ]
         },
         {
-          "match": "Mozilla\/4.0 (compatible*; MSIE 7.0*; #PLATFORM# Trident\/3.1; IEMobile #MAJORVER#.*; NOKIA; Lumia 720*)",
+          "match": "Mozilla\/4.0 (compatible*; MSIE 7.0*; #PLATFORM# Trident\/3.1; IEMobile #MAJORVER#.#MINORVER#*; NOKIA; Lumia 720*)",
           "device": "Nokia Lumia 720",
           "platforms": [
             "WinPhone7"
           ]
         },
         {
-          "match": "Mozilla\/4.0 (compatible*; MSIE 7.0*; #PLATFORM# Trident\/3.1; IEMobile #MAJORVER#.*; NOKIA; Lumia 820*)",
+          "match": "Mozilla\/4.0 (compatible*; MSIE 7.0*; #PLATFORM# Trident\/3.1; IEMobile #MAJORVER#.#MINORVER#*; NOKIA; Lumia 820*)",
           "device": "Nokia Lumia 820",
           "platforms": [
             "WinPhone7"
           ]
         },
         {
-          "match": "Mozilla\/4.0 (compatible*; MSIE 7.0*; #PLATFORM# Trident\/3.1; IEMobile #MAJORVER#.*; NOKIA; Lumia 920*)",
+          "match": "Mozilla\/4.0 (compatible*; MSIE 7.0*; #PLATFORM# Trident\/3.1; IEMobile #MAJORVER#.#MINORVER#*; NOKIA; Lumia 920*)",
           "device": "Nokia Lumia 920",
           "platforms": [
             "WinPhone7"
           ]
         },
         {
-          "match": "Mozilla\/4.0 (compatible*; MSIE 7.0*; #PLATFORM# Trident\/3.1; IEMobile #MAJORVER#.*; NOKIA; Lumia 925*)",
+          "match": "Mozilla\/4.0 (compatible*; MSIE 7.0*; #PLATFORM# Trident\/3.1; IEMobile #MAJORVER#.#MINORVER#*; NOKIA; Lumia 925*)",
           "device": "Nokia Lumia 925",
           "platforms": [
             "WinPhone7"
           ]
         },
         {
-          "match": "Mozilla\/4.0 (compatible*; MSIE 7.0*; #PLATFORM# Trident\/3.1; IEMobile #MAJORVER#.*; NOKIA; Lumia 930*)",
+          "match": "Mozilla\/4.0 (compatible*; MSIE 7.0*; #PLATFORM# Trident\/3.1; IEMobile #MAJORVER#.#MINORVER#*; NOKIA; Lumia 930*)",
           "device": "Nokia Lumia 930",
           "platforms": [
             "WinPhone7"
           ]
         },
         {
-          "match": "Mozilla\/4.0 (compatible*; MSIE 7.0*; #PLATFORM# Trident\/3.1; IEMobile #MAJORVER#.*; NOKIA; Lumia 1520*)",
+          "match": "Mozilla\/4.0 (compatible*; MSIE 7.0*; #PLATFORM# Trident\/3.1; IEMobile #MAJORVER#.#MINORVER#*; NOKIA; Lumia 1520*)",
           "device": "Nokia Lumia 1520",
           "platforms": [
             "WinPhone7"
           ]
         },
         {
-          "match": "Mozilla\/4.0 (compatible*; MSIE 7.0*; #PLATFORM# Trident\/3.1; IEMobile #MAJORVER#.*; HTC; Windows Phone 8S by HTC)",
+          "match": "Mozilla\/4.0 (compatible*; MSIE 7.0*; #PLATFORM# Trident\/3.1; IEMobile #MAJORVER#.#MINORVER#*; HTC; Windows Phone 8S by HTC)",
           "device": "HTC 8S",
           "platforms": [
             "WinPhone7"
           ]
         },
         {
-          "match": "Mozilla\/4.0 (compatible*; MSIE 7.0*; #PLATFORM# Trident\/3.1; IEMobile #MAJORVER#.*",
+          "match": "Mozilla\/4.0 (compatible*; MSIE 7.0*; #PLATFORM# Trident\/3.1; IEMobile #MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone (Touch)",
           "platforms": [
             "WinPhone7", "WinPhone"
           ]
         },
         {
-          "match": "Mozilla\/4.0 (compatible; MSIE 7.0; #PLATFORM# Trident\/3.1; IEMobile #MAJORVER#.*)*",
+          "match": "Mozilla\/4.0 (compatible; MSIE 7.0; #PLATFORM# Trident\/3.1; IEMobile #MAJORVER#.#MINORVER#*)*",
           "device": "general Mobile Phone (Touch)",
           "platforms": [
             "WinPhone7", "WinPhone"
           ]
         },
         {
-          "match": "O2\/1.0\/SEX1i\/R?AA Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.*UP.Link\/6.3*",
+          "match": "O2\/1.0\/SEX1i\/R?AA Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.#MINORVER#*UP.Link\/6.3*",
           "device": "SonyEricsson X1i",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "PANTECH-C810\/R01 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.*",
+          "match": "PANTECH-C810\/R01 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.#MINORVER#*",
           "device": "Pantech C810",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "Palm750\/v0005 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.*",
+          "match": "Palm750\/v0005 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.#MINORVER#*",
           "device": "Palm 750",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "SAMSUNG-C3050*(*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.*",
+          "match": "SAMSUNG-C3050*(*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.#MINORVER#*",
           "device": "Samsung C3050",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "SAMSUNG-GT-3210*(*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.*",
+          "match": "SAMSUNG-GT-3210*(*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.#MINORVER#*",
           "device": "Samsung GT-3210",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "SAMSUNG-GT-B3310*(*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.*",
+          "match": "SAMSUNG-GT-B3310*(*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.#MINORVER#*",
           "device": "Samsung GT-B3310",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "SAMSUNG-GT-B3410*(*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.*",
+          "match": "SAMSUNG-GT-B3410*(*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.#MINORVER#*",
           "device": "Samsung GT-B3410",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "SAMSUNG-GT-B7610*(*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.*",
+          "match": "SAMSUNG-GT-B7610*(*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.#MINORVER#*",
           "device": "Samsung GT-B6710",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "SAMSUNG-GT-E2550*(*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.*",
+          "match": "SAMSUNG-GT-E2550*(*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.#MINORVER#*",
           "device": "Samsung GT-E2550",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "SAMSUNG-GT-I6410*(*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.*",
+          "match": "SAMSUNG-GT-I6410*(*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.#MINORVER#*",
           "device": "Samsung GT-I6410",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "SAMSUNG-GT-I8320*(*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.*",
+          "match": "SAMSUNG-GT-I8320*(*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.#MINORVER#*",
           "device": "Samsung GT-I8320",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "SAMSUNG-GT-S3370*(*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.*",
+          "match": "SAMSUNG-GT-S3370*(*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.#MINORVER#*",
           "device": "Samsung GT-S3370",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "SAMSUNG-GT-S3650*(*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.*",
+          "match": "SAMSUNG-GT-S3650*(*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.#MINORVER#*",
           "device": "Samsung GT-S3650",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "SAMSUNG-GT-S5230*(*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.*",
+          "match": "SAMSUNG-GT-S5230*(*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.#MINORVER#*",
           "device": "Samsung GT-S5230",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "SAMSUNG-GT-S5560*(*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.*",
+          "match": "SAMSUNG-GT-S5560*(*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.#MINORVER#*",
           "device": "Samsung GT-S5560",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "SAMSUNG-GT-S7550*(*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.*",
+          "match": "SAMSUNG-GT-S7550*(*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.#MINORVER#*",
           "device": "Samsung GT-S7550",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "SAMSUNG-GT-i8000*(*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.*",
+          "match": "SAMSUNG-GT-i8000*(*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.#MINORVER#*",
           "device": "Samsung GT-I8000",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "SAMSUNG-S8000*(*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.*",
+          "match": "SAMSUNG-S8000*(*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.#MINORVER#*",
           "device": "Samsung GT-S8000",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "SAMSUNG-S8300*(*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.*",
+          "match": "SAMSUNG-S8300*(*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.#MINORVER#*",
           "device": "Samsung GT-S8300",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "SAMSUNG-SGH-E250*(*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.*",
+          "match": "SAMSUNG-SGH-E250*(*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.#MINORVER#*",
           "device": "Samsung SGH-E250",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "SAMSUNG-SGH-F480*(*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.*",
+          "match": "SAMSUNG-SGH-F480*(*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.#MINORVER#*",
           "device": "Samsung SGH-F480",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "SAMSUNG-SGH-G800*(*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.*",
+          "match": "SAMSUNG-SGH-G800*(*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.#MINORVER#*",
           "device": "Samsung SGH-G800",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "SAMSUNG-SGH-I617\/1.0 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; *IEMobile #MAJORVER#.*) UP.Link\/6.3*",
+          "match": "SAMSUNG-SGH-I617\/1.0 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.#MINORVER#*) UP.Link\/6.3*",
           "device": "Samsung SGH-I617",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "SAMSUNG-SGH-I617\/UCHH2 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.*",
+          "match": "SAMSUNG-SGH-I617\/UCHH2 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.#MINORVER#*",
           "device": "Samsung SGH-I617",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "SAMSUNG-SGH-I617\/UCHJ1 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.*",
+          "match": "SAMSUNG-SGH-I617\/UCHJ1 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.#MINORVER#*",
           "device": "Samsung SGH-I617",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "SAMSUNG-SGH-I627\/UCIC2 * Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.*",
+          "match": "SAMSUNG-SGH-I627\/UCIC2 * Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.#MINORVER#*",
           "device": "Samsung SGH-I627",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "SAMSUNG-SGH-I907\/UCHI5 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.*",
+          "match": "SAMSUNG-SGH-I907\/UCHI5 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.#MINORVER#*",
           "device": "Samsung SGH-I907",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "SAMSUNG-SGH-U700*(*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.*",
+          "match": "SAMSUNG-SGH-U700*(*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.#MINORVER#*",
           "device": "Samsung SGH-U700",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "SAMSUNG-SGH-U900*(*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.*",
+          "match": "SAMSUNG-SGH-U900*(*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.#MINORVER#*",
           "device": "Samsung SGH-U900",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "SAMSUNG-SGH-i900*(*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.*",
+          "match": "SAMSUNG-SGH-i900*(*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.#MINORVER#*",
           "device": "Samsung SGH-I900",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "Vodafone\/1.0\/SamsungC6625\/BUIF2 (*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.*",
+          "match": "Vodafone\/1.0\/SamsungC6625\/BUIF2 (*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.#MINORVER#*",
           "device": "Samsung C6625",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "X1i Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.*",
+          "match": "X1i Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.#MINORVER#*",
           "device": "SonyEricsson X1i",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "Xda_Stellar? 240x320 (*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.*",
+          "match": "Xda_Stellar? 240x320 (*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.#MINORVER#*",
           "device": "XDA Stellar",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "Xda_orbit_2\/240x320 (*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.*",
+          "match": "Xda_orbit_2\/240x320 (*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.#MINORVER#*",
           "device": "XDA Orbit2",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "Xda_star; 240x320 (*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.*",
+          "match": "Xda_star; 240x320 (*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.#MINORVER#*",
           "device": "XDA Star",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "Mozilla\/4.0 (*compatible*;*MSIE 7.0; #PLATFORM# Trident\/3.1; IEMobile #MAJORVER#.*",
+          "match": "Mozilla\/4.0 (*compatible*;*MSIE 7.0; #PLATFORM# Trident\/3.1; IEMobile #MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone (Touch)",
           "platforms": [
             "WinPhone7", "WinPhone"
           ]
         },
         {
-          "match": "Mozilla\/4.0 (compatible; MSIE 7.0*; #PLATFORM# Trident\/3.1; IEMobile #MAJORVER#.*",
+          "match": "Mozilla\/4.0 (compatible; MSIE 7.0*; #PLATFORM# Trident\/3.1; IEMobile #MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone (Touch)",
           "platforms": [
             "WinPhone7", "WinPhone"
