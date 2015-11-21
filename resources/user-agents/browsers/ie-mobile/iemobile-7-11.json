@@ -1,18 +1,18 @@
 {
-  "division": "IEMobile?#MAJORVER#.#MINORVER#",
+  "division": "IEMobile #MAJORVER#.#MINORVER#",
   "versions": ["7.11"],
   "sortIndex": 1718,
   "lite": false,
   "standard": false,
   "userAgents": [
     {
-      "userAgent": "IEMobile?#MAJORVER#.#MINORVER#",
+      "userAgent": "IEMobile #MAJORVER#.#MINORVER#",
       "platform": "WinCE",
       "engine": "Trident_3_1",
       "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "IEMobile?#MAJORVER#.#MINORVER#",
+        "Comment": "IEMobile #MAJORVER#.#MINORVER#",
         "Browser": "IEMobile",
         "Frames": "true",
         "IFrames": "true",
