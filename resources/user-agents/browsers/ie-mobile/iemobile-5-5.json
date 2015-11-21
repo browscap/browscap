@@ -1,7 +1,7 @@
 {
   "division": "IEMobile #MAJORVER#.#MINORVER#",
   "versions": ["5.5"],
-  "sortIndex": 1722,
+  "sortIndex": 1724,
   "lite": false,
   "standard": false,
   "userAgents": [
