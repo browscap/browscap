@@ -18,7 +18,6 @@
 namespace Browscap\Writer;
 
 use Browscap\Data\DataCollection;
-use Browscap\Data\Expander;
 use Browscap\Filter\FilterInterface;
 use Browscap\Formatter\FormatterInterface;
 use Psr\Log\LoggerInterface;
