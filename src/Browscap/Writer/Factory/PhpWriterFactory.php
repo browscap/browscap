@@ -24,13 +24,6 @@ use Browscap\Writer\WriterCollection;
 use Psr\Log\LoggerInterface;
 use Browscap\Filter\LiteFilter;
 use Browscap\Filter\StandardFilter;
-use Browscap\Formatter\AspFormatter;
-use Browscap\Formatter\CsvFormatter;
-use Browscap\Formatter\JsonFormatter;
-use Browscap\Formatter\XmlFormatter;
-use Browscap\Writer\CsvWriter;
-use Browscap\Writer\JsonWriter;
-use Browscap\Writer\XmlWriter;
 
 /**
  * Class FullPhpWriterFactory
