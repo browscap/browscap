@@ -31,7 +31,7 @@ use Psr\Log\LoggerInterface;
  * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
  */
 
-class JsonWriter implements WriterInterface
+class JsonWriter implements WriterInterface, WriterNeedsExpanderInterface
 {
     /**
      * @var \Psr\Log\LoggerInterface

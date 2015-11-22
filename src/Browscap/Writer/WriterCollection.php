@@ -85,7 +85,9 @@ class WriterCollection
     public function setExpander(Expander $expander)
     {
         foreach ($this->writers as $writer) {
-            $writer->setExpander($expander);
+            if ($writer instanceof WriterNeedsExpanderInterface) {
+                $writer->setExpander($expander);
+            }
         }
 
         return $this;
