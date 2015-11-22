@@ -1,0 +1,32 @@
+{
+  "division": "yoozBot",
+  "sortIndex": 1290,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "yoozBot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "yoozBot",
+        "Browser": "yoozBot",
+        "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "yooz.ir",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (compatible; yoozBot-2.2*",
+          "properties": {
+            "Version": "2.2",
+            "MajorVer": "2",
+            "MinorVer": "2"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; yoozBot-*"
+        }
+      ]
+    }
+  ]
+}
