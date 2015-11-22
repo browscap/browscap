@@ -12415,6 +12415,19 @@
         "isTablet": "false"
       }
     },
+    "Motorola Q9c": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Q9c",
+        "Device_Name": "Q9c",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "HTC Desire": {
       "standard": false,
       "properties": {
@@ -12436,6 +12449,19 @@
         "Device_Name": "Legend",
         "Device_Maker": "HTC",
         "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC Leo": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Leo",
+        "Device_Name": "Leo",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "T-Mobile",
         "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"

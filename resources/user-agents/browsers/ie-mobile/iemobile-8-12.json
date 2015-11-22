@@ -1,7 +1,7 @@
 {
   "division": "IEMobile #MAJORVER#.#MINORVER#",
-  "versions": ["5.5"],
-  "sortIndex": 1724,
+  "versions": ["8.12"],
+  "sortIndex": 1716,
   "lite": false,
   "standard": false,
   "userAgents": [
@@ -35,28 +35,14 @@
       },
       "children": [
         {
-          "match": "HTC-2125\/1.2 Mozilla\/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; Smartphone; 240x320)*",
-          "device": "HTC 2125",
+          "match": "Mozilla\/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile?#MAJORVER#.#MINORVER#*) T-Mobile_LEO*",
+          "device": "HTC Leo",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "HTC-8100\/1.2 Mozilla\/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; PPC; 240x320)*",
-          "device": "HTC 8100",
-          "platforms": [
-            "WinCE"
-          ]
-        },
-        {
-          "match": "HTC-8500\/1.2 Mozilla\/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; PPC; 240x320)*",
-          "device": "HTC 8500",
-          "platforms": [
-            "WinCE"
-          ]
-        },
-        {
-          "match": "Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile #MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile?#MAJORVER#.#MINORVER#*)*",
           "platforms": [
             "WinCE"
           ]

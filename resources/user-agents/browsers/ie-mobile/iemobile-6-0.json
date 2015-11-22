@@ -1,7 +1,7 @@
 {
   "division": "IEMobile #MAJORVER#.#MINORVER#",
   "versions": [6],
-  "sortIndex": 1720,
+  "sortIndex": 1723,
   "lite": false,
   "standard": false,
   "userAgents": [
@@ -35,7 +35,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/4.0 (compatible; MSIE #MAJORVER#.#MINORVER#; Windows CE; IEMobile 6.*)*",
+          "match": "Mozilla\/4.0 (compatible; MSIE #MAJORVER#.#MINORVER#; Windows CE; IEMobile?#MAJORVER#.*)*",
           "platforms": [
             "WinCE"
           ]
@@ -67,7 +67,7 @@
           ]
         },
         {
-          "match": "HTC-3100\/1.2 Mozilla\/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; IEMobile 6.*)",
+          "match": "HTC-3100\/1.2 Mozilla\/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; IEMobile?#MAJORVER#.*)",
           "device": "HTC 3100",
           "platforms": [
             "WinCE"
@@ -81,21 +81,21 @@
           ]
         },
         {
-          "match": "HTC-8500\/1.2 Mozilla\/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; IEMobile 6.*)*",
+          "match": "HTC-8500\/1.2 Mozilla\/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; IEMobile?#MAJORVER#.*)*",
           "device": "HTC 8500",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "HTC_P4350 Mozilla\/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; IEMobile 6.*)",
+          "match": "HTC_P4350 Mozilla\/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; IEMobile?#MAJORVER#.*)",
           "device": "HTC P4350",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "HTC_S620 Mozilla\/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; IEMobile 6.*)",
+          "match": "HTC_S620 Mozilla\/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; IEMobile?#MAJORVER#.*)",
           "device": "HTC S620",
           "platforms": [
             "WinCE"
@@ -109,47 +109,47 @@
           ]
         },
         {
-          "match": "HTC_TyTN Mozilla\/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; IEMobile 6.12)",
+          "match": "HTC_TyTN Mozilla\/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; IEMobile?#MAJORVER#.*)",
           "device": "HTC TyTN",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "HTC_X7500 Mozilla\/4.0 (compatible*; MSIE #MAJORVER#.#MINORVER#; Windows CE; IEMobile 6.*)",
+          "match": "HTC_X7500 Mozilla\/4.0 (compatible*; MSIE #MAJORVER#.#MINORVER#; Windows CE; IEMobile?#MAJORVER#.*)",
           "device": "HTC X7500",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "Mozilla\/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; IEMobile 6.*",
+          "match": "Mozilla\/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; IEMobile?#MAJORVER#.*",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "Mozilla\/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; IEMobile 6.12) PPC; MDA Touch\/1.0 *",
+          "match": "Mozilla\/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; IEMobile?#MAJORVER#.*) PPC; MDA Touch\/1.0 *",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "Mozilla\/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; IEMobile 6.8) PPC; 240x320; HTC_P3600\/1.0 *",
+          "match": "Mozilla\/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; IEMobile?#MAJORVER#.*) PPC; 240x320; HTC_P3600\/1.0 *",
           "device": "HTC P3600",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "Mozilla\/4.0 (compatible*; MSIE #MAJORVER#.#MINORVER#; Windows CE; IEMobile 6.12) Vodafone\/1.0\/HTC_Elf\/*",
+          "match": "Mozilla\/4.0 (compatible*; MSIE #MAJORVER#.#MINORVER#; Windows CE; IEMobile?#MAJORVER#.*) Vodafone\/1.0\/HTC_Elf\/*",
           "device": "HTC Elf",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "Mozilla\/4.0 (compatible*; MSIE #MAJORVER#.#MINORVER#; Windows CE; IEMobile 6.12) Vodafone\/1.0\/HTC_VPACompactIV\/*",
+          "match": "Mozilla\/4.0 (compatible*; MSIE #MAJORVER#.#MINORVER#; Windows CE; IEMobile?#MAJORVER#.*) Vodafone\/1.0\/HTC_VPACompactIV\/*",
           "device": "HTC VPA Compact IV",
           "platforms": [
             "WinCE"
@@ -170,7 +170,7 @@
           ]
         },
         {
-          "match": "Xda orbit; 240x320 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; IEMobile 6.*)",
+          "match": "Xda orbit; 240x320 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; IEMobile?#MAJORVER#.*)",
           "device": "XDA Orbit",
           "platforms": [
             "WinCE"
