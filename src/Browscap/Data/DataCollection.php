@@ -411,7 +411,10 @@ class DataCollection
                             );
                         }
 
-                        if (isset($useragent['properties']['Version']) && isset($child['properties']['Version'])) {
+                        if (isset($useragent['properties']['Version'])
+                            && isset($child['properties']['Version'])
+                            && $useragent['properties']['Version'] == $child['properties']['Version']
+                        ) {
                             $this->logger->warning(
                                 'the "Version" property is set for key "' . $child['match']
                                 . '", but was already set for its parent "' . $useragent['userAgent'] . '"'
