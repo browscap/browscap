@@ -63,11 +63,6 @@ class CsvWriter implements WriterInterface
     private $outputProperties = array();
 
     /**
-     * @var \Browscap\Data\Expander
-     */
-    private $expander = null;
-
-    /**
      * @param string $file
      */
     public function __construct($file)
@@ -154,18 +149,6 @@ class CsvWriter implements WriterInterface
     public function getFilter()
     {
         return $this->type;
-    }
-
-    /**
-     * @param \Browscap\Data\Expander $expander
-     *
-     * @return \Browscap\Writer\WriterInterface
-     */
-    public function setExpander(Expander $expander)
-    {
-        $this->expander = $expander;
-
-        return $this;
     }
 
     /**

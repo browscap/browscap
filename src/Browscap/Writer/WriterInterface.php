@@ -64,13 +64,6 @@ interface WriterInterface
     public function getLogger();
 
     /**
-     * @param Expander $expander
-     *
-     * @return \Browscap\Writer\WriterInterface
-     */
-    public function setExpander(Expander $expander);
-
-    /**
      * @param boolean $silent
      *
      * @return \Browscap\Writer\WriterInterface

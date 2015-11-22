@@ -30,7 +30,7 @@ use Psr\Log\LoggerInterface;
  * @package    Writer
  * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
  */
-class IniWriter implements WriterInterface
+class IniWriter implements WriterInterface, WriterNeedsExpanderInterface
 {
     /**
      * @var \Psr\Log\LoggerInterface
