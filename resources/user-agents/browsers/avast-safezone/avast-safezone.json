@@ -1,0 +1,40 @@
+{
+  "division": "Avast SafeZone #MAJORVER#.#MINORVER#",
+  "versions": ["1.46"],
+  "sortIndex": 883,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Avast SafeZone #MAJORVER#.#MINORVER#",
+      "engine": "Blink",
+      "device": "general Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Avast SafeZone #MAJORVER#.#MINORVER#",
+        "Browser": "Avast SafeZone",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "AVAST Software s.r.o.",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Chrome\/* Safari\/* ASW\/#MAJORVER#.#MINORVER#*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win8_1_x64", "Win8_1_64", "Win8_1_32",
+            "Win10_x64", "Win10_64", "Win10_32", "Win10_x64_B", "Win10_64_B", "Win10_32_B"
+          ]
+        }
+      ]
+    }
+  ]
+}

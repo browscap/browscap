@@ -1,0 +1,35 @@
+{
+  "division": "Qword Browser Generic",
+  "sortIndex": 884,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Qword Browser Generic",
+      "engine": "WebKit",
+      "device": "general Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Qword Browser Generic",
+        "Browser": "Qword Browser",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Qword Corporation",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Qword\/* Safari\/*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win8_1_64", "Win8_1_32"
+          ]
+        }
+      ]
+    }
+  ]
+}
