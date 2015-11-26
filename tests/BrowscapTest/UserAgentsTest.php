@@ -263,18 +263,11 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
      * @param bool   $standard
      *
      * @throws \Exception
-<<<<<<< HEAD
-     * @throws \phpbrowscap\Exception
-     * @group  integration
-     * @group  useragenttest
-     * @group  lite
-=======
      * @throws \BrowscapPHP\Exception
      *
      * @group intergration
      * @group useragenttest
      * @group lite
->>>>>>> take tests
      */
     public function testUserAgentsLite($userAgent, $expectedProperties, $lite = true, $standard = true)
     {
