@@ -20,7 +20,8 @@ namespace BrowscapTest;
 use Browscap\Data\PropertyHolder;
 use Monolog\Handler\NullHandler;
 use Monolog\Logger;
-use phpbrowscap\Browscap;
+use BrowscapPHP\Browscap;
+use WurflCache\Adapter\File;
 use Browscap\Generator\BuildGenerator;
 use Browscap\Helper\CollectionCreator;
 use Browscap\Writer\Factory\PhpWriterFactory;
@@ -36,7 +37,7 @@ use Browscap\Writer\Factory\PhpWriterFactory;
 class UserAgentsTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * @var \phpbrowscap\Browscap
+     * @var \BrowscapPHP\Browscap
      */
     private static $browscap = null;
 
@@ -85,8 +86,14 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
 
         $buildGenerator->run('test', false);
 
-        // Now, load an INI file into phpbrowscap\Browscap for testing the UAs
-        self::$browscap       = new Browscap(self::$buildFolder);
+        $cache = new File(array(File::DIR => self::$buildFolder));
+        // Now, load an INI file into BrowscapPHP\Browscap for testing the UAs
+        self::$browscap = new Browscap();
+        self::$browscap
+            ->setCache($cache)
+            ->setLogger($logger)
+        ;
+
         self::$propertyHolder = new PropertyHolder();
     }
 
@@ -155,16 +162,10 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
             self::markTestSkipped('Could not run test - no properties were defined to test');
         }
 
-        self::$browscap->iniFilename   = 'full_browscap.ini';
-        self::$browscap->localFile     = self::$buildFolder . '/full_php_browscap.ini';
-        self::$browscap->cacheFilename = 'cache-full.php';
-        self::$browscap->doAutoUpdate  = false;
-        self::$browscap->silent        = false;
-        self::$browscap->updateMethod  = Browscap::UPDATE_LOCAL;
-        static $updatedFullCache       = false;
+        static $updatedFullCache = false;
 
         if (!$updatedFullCache) {
-            self::$browscap->updateCache();
+            self::$browscap->convertFile(self::$buildFolder . '/full_php_browscap.ini');
             $updatedFullCache = true;
         }
 
@@ -174,6 +175,8 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
             if (!self::$propertyHolder->isOutputProperty($propName)) {
                 continue;
             }
+
+            $propName = strtolower($propName);
 
             self::assertArrayHasKey(
                 $propName,
@@ -215,16 +218,10 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
             self::markTestSkipped('Test skipped - Browser/Platform/Version not defined for Standard Mode');
         }
 
-        self::$browscap->iniFilename   = 'browscap.ini';
-        self::$browscap->localFile     = self::$buildFolder . '/php_browscap.ini';
-        self::$browscap->cacheFilename = 'cache-standard.php';
-        self::$browscap->doAutoUpdate  = false;
-        self::$browscap->silent        = false;
-        self::$browscap->updateMethod  = Browscap::UPDATE_LOCAL;
-        static $updatedStandardCache   = false;
+        static $updatedStandardCache = false;
 
         if (!$updatedStandardCache) {
-            self::$browscap->updateCache();
+            self::$browscap->convertFile(self::$buildFolder . '/php_browscap.ini');
             $updatedStandardCache = true;
         }
 
@@ -238,6 +235,8 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
             if (!self::$propertyHolder->isStandardModeProperty($propName)) {
                 continue;
             }
+
+            $propName = strtolower($propName);
 
             self::assertArrayHasKey(
                 $propName,
@@ -264,10 +263,11 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
      * @param bool   $standard
      *
      * @throws \Exception
-     * @throws \phpbrowscap\Exception
-     * @group  integration
-     * @group  useragenttest
-     * @group  lite
+     * @throws \BrowscapPHP\Exception
+     *
+     * @group intergration
+     * @group useragenttest
+     * @group lite
      */
     public function testUserAgentsLite($userAgent, $expectedProperties, $lite = true, $standard = true)
     {
@@ -279,16 +279,10 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
             self::markTestSkipped('Test skipped - Browser/Platform/Version not defined for Lite Mode');
         }
 
-        self::$browscap->iniFilename   = 'lite_browscap.ini';
-        self::$browscap->localFile     = self::$buildFolder . '/lite_php_browscap.ini';
-        self::$browscap->cacheFilename = 'cache-lite.php';
-        self::$browscap->doAutoUpdate  = false;
-        self::$browscap->silent        = false;
-        self::$browscap->updateMethod  = Browscap::UPDATE_LOCAL;
-        static $updatedLiteCache       = false;
+        static $updatedLiteCache = false;
 
         if (!$updatedLiteCache) {
-            self::$browscap->updateCache();
+            self::$browscap->convertFile(self::$buildFolder . '/lite_php_browscap.ini');
             $updatedLiteCache = true;
         }
 
@@ -302,6 +296,8 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
             if (!self::$propertyHolder->isLiteModeProperty($propName)) {
                 continue;
             }
+
+            $propName = strtolower($propName);
 
             self::assertArrayHasKey(
                 $propName,

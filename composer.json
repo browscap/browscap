@@ -1,56 +1,56 @@
 {
-    "name": "browscap/browscap",
-    "type": "application",
-    "description": "Browser Capabilities Tools",
-    "keywords": ["browscap"],
-    "homepage": "https://github.com/browscap/browscap",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Joshua Estes",
-            "email": "f1gm3nt@gmail.com",
-            "homepage": "http://joshuaestes.me"
-        },
-        {
-            "name": "James Titcumb",
-            "email": "james@asgrim.com",
-            "homepage": "http://www.jamestitcumb.com"
-        },
-        {
-            "name": "Thomas Müller",
-            "homepage": "https://github.com/mimmi20",
-            "role": "Developer"
-        },
-        {
-            "name": "Contributors",
-            "homepage": "https://github.com/browscap/browscap/graphs/contributors"
-        }
-    ],
-    "support": {
-        "issues": "https://github.com/browscap/browscap/issues",
-        "source": "https://github.com/browscap/browscap"
+  "name": "browscap/browscap",
+  "type": "application",
+  "description": "Browser Capabilities Tools",
+  "keywords": ["browscap"],
+  "homepage": "https://github.com/browscap/browscap",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Joshua Estes",
+      "email": "f1gm3nt@gmail.com",
+      "homepage": "http://joshuaestes.me"
     },
-    "require": {
-        "php": ">= 5.5.0",
-        "symfony/console": "~2",
-        "monolog/monolog": "~1.13"
+    {
+      "name": "James Titcumb",
+      "email": "james@asgrim.com",
+      "homepage": "http://www.jamestitcumb.com"
     },
-    "require-dev": {
-        "phpunit/phpunit": "*",
-        "browscap/browscap-php": "*@dev",
-        "mikey179/vfsStream": "dev-master",
-        "squizlabs/php_codesniffer": "2.*",
-        "fabpot/php-cs-fixer": "*"
+    {
+      "name": "Thomas Müller",
+      "homepage": "https://github.com/mimmi20",
+      "role": "Developer"
     },
-    "autoload": {
-        "psr-4": {
-            "Browscap\\": "src/Browscap/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "BrowscapTest\\": "tests/BrowscapTest/"
-        }
-    },
-    "bin": ["bin/browscap"]
+    {
+      "name": "Contributors",
+      "homepage": "https://github.com/browscap/browscap/graphs/contributors"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/browscap/browscap/issues",
+    "source": "https://github.com/browscap/browscap"
+  },
+  "require": {
+    "php": ">= 5.5.0",
+    "symfony/console": "~2",
+    "monolog/monolog": "~1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*",
+    "browscap/browscap-php": "dev-master",
+    "mikey179/vfsStream": "dev-master",
+    "squizlabs/php_codesniffer": "2.*",
+    "fabpot/php-cs-fixer": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Browscap\\": "src/Browscap/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "BrowscapTest\\": "tests/BrowscapTest/"
+    }
+  },
+  "bin": ["bin/browscap"]
 }
