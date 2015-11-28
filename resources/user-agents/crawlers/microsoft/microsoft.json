@@ -144,21 +144,6 @@
           }
         },
         {
-          "match": "Microsoft-CryptoAPI\/6.1*",
-          "properties": {
-            "Browser": "Microsoft CryptoAPI",
-            "Version": "6.1",
-            "MajorVer": "6",
-            "MinorVer": "1"
-          }
-        },
-        {
-          "match": "Microsoft-CryptoAPI\/*",
-          "properties": {
-            "Browser": "Microsoft CryptoAPI"
-          }
-        },
-        {
           "match": "MS Web Services Client Protocol 1.0*",
           "properties": {
             "Browser": ".NET Framework CLR",

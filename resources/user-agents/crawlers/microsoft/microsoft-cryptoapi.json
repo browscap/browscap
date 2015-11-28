@@ -1,0 +1,48 @@
+{
+  "division": "Microsoft CryptoAPI",
+  "sortIndex": 420,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Microsoft CryptoAPI",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Microsoft CryptoAPI",
+        "Browser": "Microsoft CryptoAPI",
+        "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "Microsoft Corporation",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Microsoft-CryptoAPI\/6.1*",
+          "properties": {
+            "Version": "6.1",
+            "MajorVer": "6",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "Microsoft-CryptoAPI\/6.2*",
+          "properties": {
+            "Version": "6.2",
+            "MajorVer": "6",
+            "MinorVer": "2"
+          }
+        },
+        {
+          "match": "Microsoft-CryptoAPI\/6.3*",
+          "properties": {
+            "Version": "6.3",
+            "MajorVer": "6",
+            "MinorVer": "3"
+          }
+        },
+        {
+          "match": "Microsoft-CryptoAPI\/*"
+        }
+      ]
+    }
+  ]
+}
