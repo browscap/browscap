@@ -9,7 +9,7 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Rippers",
-        "Browser": "Ripper",
+        "Browser": "Rippers",
         "Browser_Type": "Bot/Crawler",
         "Crawler": "true"
       },
@@ -1049,12 +1049,6 @@
           "match": "Windows-Live-Social-Object-Extractor-Engine*",
           "properties": {
             "Browser": "Windows-Live-Social-Object-Extractor-Engine"
-          }
-        },
-        {
-          "match": "Windows-Update-Agent*",
-          "properties": {
-            "Browser": "Windows-Update-Agent"
           }
         },
         {

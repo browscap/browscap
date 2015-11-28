@@ -1,0 +1,31 @@
+{
+  "division": "Windows-Update-Agent",
+  "sortIndex": 481,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Windows-Update-Agent",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Windows-Update-Agent",
+        "Browser": "Windows-Update-Agent",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Windows-Update-Agent\/7.9*",
+          "properties": {
+            "Version": "7.9",
+            "MajorVer": "7",
+            "MinorVer": "9"
+          }
+        },
+        {
+          "match": "Windows-Update-Agent*"
+        }
+      ]
+    }
+  ]
+}
