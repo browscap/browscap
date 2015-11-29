@@ -7,13 +7,13 @@
     {
       "userAgent": "Ubuntu APT-HTTP",
       "device": "Linux Desktop",
-      "platform": "Debian",
+      "platform": "Ubuntu",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Ubuntu APT-HTTP",
         "Browser": "Apt HTTP Transport",
         "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Debian",
+        "Browser_Maker": "Canonical Foundation",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",

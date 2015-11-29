@@ -99,7 +99,7 @@ return [
             'Browser' => 'Iceweasel',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '64',
-            'Browser_Maker' => 'Debian',
+            'Browser_Maker' => 'Software in the Public Interest, Inc.',
             'Version' => '25.0',
             'MajorVer' => '25',
             'MinorVer' => '0',

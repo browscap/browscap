@@ -13,7 +13,7 @@
         "Comment": "Debian APT-HTTP",
         "Browser": "Apt HTTP Transport",
         "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Debian",
+        "Browser_Maker": "Software in the Public Interest, Inc.",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
