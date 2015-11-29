@@ -41,6 +41,9 @@
         },
         {
           "match": "Mozilla\/5.0 (Chrome* Firefox*"
+        },
+        {
+          "match": "Chrome?Linux*"
         }
       ]
     }

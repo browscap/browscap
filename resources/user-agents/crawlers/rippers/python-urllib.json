@@ -1,0 +1,40 @@
+{
+  "division": "Python-urllib",
+  "sortIndex": 479,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Python-urllib",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Python-urllib",
+        "Browser": "Python-urllib",
+        "Browser_Maker": "Python Software Foundation",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Python-urllib\/2.7*",
+          "properties": {
+            "Version": "2.7",
+            "MajorVer": "2",
+            "MinorVer": "7"
+          }
+        },
+        {
+          "match": "Python-urllib\/1.17*",
+          "properties": {
+            "Version": "1.17",
+            "MajorVer": "1",
+            "MinorVer": "17"
+          }
+        },
+        {
+          "match": "Python-urllib\/*"
+        }
+      ]
+    }
+  ]
+}

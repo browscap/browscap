@@ -1,0 +1,31 @@
+{
+  "division": "lftp",
+  "sortIndex": 340,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "lftp",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "lftp",
+        "Browser": "lftp",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "lftp\/3.2*",
+          "properties": {
+            "Version": "3.2",
+            "MajorVer": "3",
+            "MinorVer": "2"
+          }
+        },
+        {
+          "match": "lftp\/*"
+        }
+      ]
+    }
+  ]
+}

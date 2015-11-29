@@ -1,0 +1,43 @@
+{
+  "division": "RMSnapKit",
+  "sortIndex": 480,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "RMSnapKit",
+      "engine": "WebKit",
+      "device": "Macintosh",
+      "platform": "OSX",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "RMSnapKit",
+        "Browser": "RMSnapKit",
+        "Browser_Maker": "realmacsoftware",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) RMSnapKit\/1.0*",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          },
+          "platforms": [
+            "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
+            "OSX"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) RMSnapKit\/*",
+          "platforms": [
+            "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
+            "OSX"
+          ]
+        }
+      ]
+    }
+  ]
+}

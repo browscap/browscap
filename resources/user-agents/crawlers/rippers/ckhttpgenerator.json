@@ -1,0 +1,26 @@
+{
+  "division": "CKHttpGenerator",
+  "sortIndex": 480,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "CKHttpGenerator",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "CKHttpGenerator",
+        "Browser": "CKHttpGenerator",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "<*>*"
+        },
+        {
+          "match": "CKHttpGenerator*"
+        }
+      ]
+    }
+  ]
+}

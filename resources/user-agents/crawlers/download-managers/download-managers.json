@@ -168,12 +168,6 @@
           }
         },
         {
-          "match": "lftp\/3.2.1",
-          "properties": {
-            "Browser": "lftp"
-          }
-        },
-        {
           "match": "LightningDownload\/*",
           "properties": {
             "Browser": "LightningDownload"
