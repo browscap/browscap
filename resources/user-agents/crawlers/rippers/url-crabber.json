@@ -17,20 +17,21 @@
         {
           "match": "urlgrabber/3.9*",
           "properties": {
-            "Browser": "grub"
+            "Version": "3.9",
+            "MajorVer": "3",
+            "MinorVer": "9"
           }
         },
         {
           "match": "urlgrabber/3.10*",
           "properties": {
-            "Browser": "IP*Works"
+            "Version": "3.10",
+            "MajorVer": "3",
+            "MinorVer": "10"
           }
         },
         {
-          "match": "urlgrabber/*",
-          "properties": {
-            "Browser": "Generic Ruby Crawler"
-          }
+          "match": "urlgrabber/*"
         }
       ]
     }

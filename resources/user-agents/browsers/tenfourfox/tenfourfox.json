@@ -1,20 +1,24 @@
 {
-  "division": "TenFourFox",
-  "sortIndex": 10781,
+  "division": "TenFourFox #MAJORVER#.#MINORVER#",
+  "versions": ["38.4", "38.3", "38.2", "38.1", 38, "31.8", "31.7", "31.6", "31.5", "31.4", "31.3", "31.2", "31.1", 31, "24.8", "24.7", "24.6", "24.5", "24.4", "24.3", "24.2", "24.1", 24, 17, 10],
+  "sortIndex": 10780,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "TenFourFox",
+      "userAgent": "TenFourFox #MAJORVER#.#MINORVER#",
       "platform": "OSX",
       "engine": "Gecko",
       "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "TenFourFox",
+        "Comment": "TenFourFox #MAJORVER#.#MINORVER#",
         "Browser": "TenFourFox",
         "Browser_Type": "Browser",
         "Browser_Maker": "Cameron Kaiser",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
         "Alpha": "false",
         "Beta": "false",
         "Win16": "false",
@@ -26,7 +30,8 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/* TenFourFox\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#; rv:#MAJORVER#.#MINORVER#*) Gecko\/* Firefox\/* TenFourFox\/*",
+          "engine": "Gecko_Major_Dynamic",
           "platforms": [
             "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10", "OSX"
           ]
