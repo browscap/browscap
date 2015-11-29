@@ -29,7 +29,7 @@
         "Cookies": "true",
         "JavaScript": "true",
         "isSyndicationReader": "false",
-        "Crawler": "false",
+        "Crawler": "true",
         "CssVersion": "3"
       },
       "children": [

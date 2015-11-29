@@ -2,7 +2,7 @@
   "division": "Debian APT-HTTP",
   "sortIndex": 2021,
   "lite": false,
-  "standard": true,
+  "standard": false,
   "userAgents": [
     {
       "userAgent": "Debian APT-HTTP",
