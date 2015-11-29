@@ -1,0 +1,24 @@
+{
+  "division": "Jupdate",
+  "sortIndex": 520,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Jupdate",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Jupdate",
+        "Browser": "Jupdate",
+        "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "DM Solutions e.K.",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "jupdate*"
+        }
+      ]
+    }
+  ]
+}

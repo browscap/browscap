@@ -92,6 +92,17 @@
           }
         },
         {
+          "match": "Wget\/1.14* (#PLATFORM#)*",
+          "properties": {
+            "Version": "1.14",
+            "MajorVer": "1",
+            "MinorVer": "14"
+          },
+          "platforms": [
+            "Linux"
+          ]
+        },
+        {
           "match": "Wget\/1.14*",
           "properties": {
             "Version": "1.14",
