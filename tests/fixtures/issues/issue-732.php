@@ -10976,6 +10976,7 @@ return [
             'Platform_Version' => '4.4',
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Google Inc',
+            'Win64' => false,
             'isMobileDevice' => true,
             'isTablet' => true,
             'Crawler' => false,

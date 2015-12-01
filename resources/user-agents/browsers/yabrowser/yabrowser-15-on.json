@@ -1,7 +1,7 @@
 {
   "division": "YaBrowser #MAJORVER#.#MINORVER#",
-  "versions": ["15.6", "15.5", "15.4", "15.3", "15.2", "15.1", 15, "14.12", "14.11", "14.10", "14.9", "14.8", "14.7", "14.6", "14.5", "14.4", "14.3", "14.2", "14.1", 14, "13.12", "13.10", "13.9", "1.20"],
-  "sortIndex": 1018,
+  "versions": ["15.10", "15.9", "15.8", "15.7", "15.6", "15.5", "15.4", "15.3", "15.2", "15.1", 15],
+  "sortIndex": 1017,
   "lite": false,
   "standard": true,
   "userAgents": [
@@ -37,28 +37,32 @@
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/* YaBrowser\/#MAJORVER#.#MINORVER#*Safari\/*",
           "device": "Windows Desktop",
           "platforms": [
-            "WinXPa_32", "Vista_64", "Vista_32", "Win7_64", "Win7_32", "Win8_64", "Win8_32"
+            "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32", "Vista_64", "Vista_32",
+            "Win7_64", "Win7_32", "Win8_64", "Win8_32", "Win8_1_64", "Win8_1_32",
+            "Win10_x64", "Win10_64", "Win10_32", "Win10_x64_B", "Win10_64_B", "Win10_32_B", "Windows"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/* YaBrowser\/#MAJORVER#.#MINORVER#*Safari\/*",
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_8", "OSX_10_9", "OSX_10_10", "OSX"
+            "OSX_10_8", "OSX_10_9", "OSX_10_10", "OSX_10_11", "OSX"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) YaBrowser\/#MAJORVER#.#MINORVER#*Chrome\/*Safari\/*",
           "device": "Windows Desktop",
           "platforms": [
-            "WinXPa_32", "Vista_64", "Vista_32", "Win7_64", "Win7_32", "Win8_64", "Win8_32"
+            "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32", "Vista_64", "Vista_32",
+            "Win7_64", "Win7_32", "Win8_64", "Win8_32", "Win8_1_64", "Win8_1_32",
+            "Win10_x64", "Win10_64", "Win10_32", "Win10_x64_B", "Win10_64_B", "Win10_32_B", "Windows"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) YaBrowser\/#MAJORVER#.#MINORVER#*Chrome\/*Safari\/*",
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_8", "OSX_10_9", "OSX_10_10", "OSX"
+            "OSX_10_8", "OSX_10_9", "OSX_10_10", "OSX_10_11", "OSX"
           ]
         }
       ]
