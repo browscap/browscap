@@ -1,0 +1,39 @@
+{
+  "division": "urlgrabber",
+  "sortIndex": 480,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "urlgrabber",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "urlgrabber",
+        "Browser": "URL Grabber",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "urlgrabber/3.9*",
+          "properties": {
+            "Version": "3.9",
+            "MajorVer": "3",
+            "MinorVer": "9"
+          }
+        },
+        {
+          "match": "urlgrabber/3.10*",
+          "properties": {
+            "Version": "3.10",
+            "MajorVer": "3",
+            "MinorVer": "10"
+          }
+        },
+        {
+          "match": "urlgrabber/*"
+        }
+      ]
+    }
+  ]
+}

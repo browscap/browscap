@@ -49,6 +49,22 @@
           }
         },
         {
+          "match": "libwww-perl\/6.04*",
+          "properties": {
+            "Version": "6.04",
+            "MajorVer": "6",
+            "MinorVer": "04"
+          }
+        },
+        {
+          "match": "libwww-perl\/6.05*",
+          "properties": {
+            "Version": "6.05",
+            "MajorVer": "6",
+            "MinorVer": "05"
+          }
+        },
+        {
           "match": "libwww-perl\/*"
         },
         {

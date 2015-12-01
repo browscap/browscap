@@ -15,7 +15,7 @@ return [
             'Platform' => 'Debian',
             'Platform_Version' => 'unknown',
             'Platform_Bits' => '32',
-            'Platform_Maker' => 'Debian',
+            'Platform_Maker' => 'Software in the Public Interest, Inc.',
             'isMobileDevice' => false,
             'isTablet' => false,
             'Crawler' => false,

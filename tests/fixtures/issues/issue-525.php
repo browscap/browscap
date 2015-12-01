@@ -5076,7 +5076,7 @@ return [
             'Browser' => 'Iceweasel',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
-            'Browser_Maker' => 'Debian',
+            'Browser_Maker' => 'Software in the Public Interest, Inc.',
             'Version' => '24.3',
             'MajorVer' => '24',
             'MinorVer' => '3',

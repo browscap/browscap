@@ -1,0 +1,32 @@
+{
+  "division": "ActiveWorlds Bot",
+  "sortIndex": 480,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "ActiveWorlds Bot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "ActiveWorlds Bot",
+        "Browser": "ActiveWorlds Bot",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "ActiveWorlds*",
+          "properties": {
+            "Browser": "ActiveWorlds Bot"
+          }
+        },
+        {
+          "match": "agent*",
+          "properties": {
+            "Browser": "ActiveWorlds Bot"
+          }
+        }
+      ]
+    }
+  ]
+}

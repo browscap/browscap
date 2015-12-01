@@ -9,7 +9,7 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Rippers",
-        "Browser": "Ripper",
+        "Browser": "Rippers",
         "Browser_Type": "Bot/Crawler",
         "Crawler": "true"
       },
@@ -375,12 +375,6 @@
           "match": "LeechGet*",
           "properties": {
             "Browser": "LeechGet"
-          }
-        },
-        {
-          "match": "libcurl-agent\/*",
-          "properties": {
-            "Browser": "libcurl"
           }
         },
         {
@@ -825,26 +819,6 @@
           }
         },
         {
-          "match": "ActiveWorlds Bot",
-          "properties": {
-            "Browser": "ActiveWorlds Bot"
-          },
-          "children": [
-            {
-              "match": "ActiveWorlds*",
-              "properties": {
-                "Browser": "ActiveWorlds Bot"
-              }
-            },
-            {
-              "match": "agent*",
-              "properties": {
-                "Browser": "ActiveWorlds Bot"
-              }
-            }
-          ]
-        },
-        {
           "match": "Adaxas Spider*",
           "properties": {
             "Browser": "Adaxas Spider"
@@ -903,27 +877,6 @@
           "properties": {
             "Browser": "Chordie.com"
           }
-        },
-        {
-          "match": "CKHttpGenerator",
-          "properties": {
-            "Browser": "CKHttpGenerator"
-          },
-          "children": [
-            {
-              "match": "<*>*",
-              "properties": {
-                "Browser": "CKHttpGenerator"
-              }
-            },
-            {
-              "match": "CKHttpGenerator*",
-              "properties": {
-                "Division": "Rippers",
-                "Browser": "CKHttpGenerator"
-              }
-            }
-          ]
         },
         {
           "match": "crawler4j*",
@@ -1052,12 +1005,6 @@
           }
         },
         {
-          "match": "Windows-Update-Agent*",
-          "properties": {
-            "Browser": "Windows-Update-Agent"
-          }
-        },
-        {
           "match": "WinSysClean*",
           "properties": {
             "Browser": "WinSysClean"
@@ -1078,195 +1025,6 @@
           "properties": {
             "Browser": "Dolphin smalltalk http client",
             "Browser_Maker": "Steve Waring"
-          }
-        },
-        {
-          "match": "Python-urllib\/2.7*",
-          "properties": {
-            "Browser": "Python-urllib",
-            "Browser_Maker": "Python Software Foundation",
-            "Version": "2.7",
-            "MajorVer": "2",
-            "MinorVer": "7"
-          }
-        },
-        {
-          "match": "Python-urllib\/1.17*",
-          "properties": {
-            "Browser": "Python-urllib",
-            "Browser_Maker": "Python Software Foundation",
-            "Version": "1.17",
-            "MajorVer": "1",
-            "MinorVer": "17"
-          }
-        },
-        {
-          "match": "Python-urllib\/*",
-          "properties": {
-            "Browser": "Python-urllib",
-            "Browser_Maker": "Python Software Foundation"
-          }
-        },
-        {
-          "match": "python-requests\/2.5* CPython\/#PLATFORM#",
-          "device": "Linux Desktop",
-          "properties": {
-            "Browser": "python-requests",
-            "Browser_Maker": "Python Software Foundation",
-            "Version": "2.5",
-            "MajorVer": "2",
-            "MinorVer": "5"
-          },
-          "platforms": [
-            "Linux_64", "Linux_32", "Linux"
-          ]
-        },
-        {
-          "match": "python-requests\/2.5*",
-          "properties": {
-            "Browser": "python-requests",
-            "Browser_Maker": "Python Software Foundation",
-            "Version": "2.5",
-            "MajorVer": "2",
-            "MinorVer": "5"
-          }
-        },
-        {
-          "match": "python-requests\/2.4* CPython\/#PLATFORM#",
-          "device": "Linux Desktop",
-          "properties": {
-            "Browser": "python-requests",
-            "Browser_Maker": "Python Software Foundation",
-            "Version": "2.4",
-            "MajorVer": "2",
-            "MinorVer": "4"
-          },
-          "platforms": [
-            "Linux_64", "Linux_32", "Linux"
-          ]
-        },
-        {
-          "match": "python-requests\/2.4*",
-          "properties": {
-            "Browser": "python-requests",
-            "Browser_Maker": "Python Software Foundation",
-            "Version": "2.4",
-            "MajorVer": "2",
-            "MinorVer": "4"
-          }
-        },
-        {
-          "match": "python-requests\/2.3* CPython\/#PLATFORM#",
-          "device": "Linux Desktop",
-          "properties": {
-            "Browser": "python-requests",
-            "Browser_Maker": "Python Software Foundation",
-            "Version": "2.3",
-            "MajorVer": "2",
-            "MinorVer": "3"
-          },
-          "platforms": [
-            "Linux_64", "Linux_32", "Linux"
-          ]
-        },
-        {
-          "match": "python-requests\/2.3*",
-          "properties": {
-            "Browser": "python-requests",
-            "Browser_Maker": "Python Software Foundation",
-            "Version": "2.3",
-            "MajorVer": "2",
-            "MinorVer": "3"
-          }
-        },
-        {
-          "match": "python-requests\/2.2* CPython\/#PLATFORM#",
-          "device": "Linux Desktop",
-          "properties": {
-            "Browser": "python-requests",
-            "Browser_Maker": "Python Software Foundation",
-            "Version": "2.2",
-            "MajorVer": "2",
-            "MinorVer": "2"
-          },
-          "platforms": [
-            "Linux_64", "Linux_32", "Linux"
-          ]
-        },
-        {
-          "match": "python-requests\/2.2*",
-          "properties": {
-            "Browser": "python-requests",
-            "Browser_Maker": "Python Software Foundation",
-            "Version": "2.2",
-            "MajorVer": "2",
-            "MinorVer": "2"
-          }
-        },
-        {
-          "match": "python-requests\/2.1* CPython\/#PLATFORM#",
-          "device": "Linux Desktop",
-          "properties": {
-            "Browser": "python-requests",
-            "Browser_Maker": "Python Software Foundation",
-            "Version": "2.1",
-            "MajorVer": "2",
-            "MinorVer": "1"
-          },
-          "platforms": [
-            "Linux_64", "Linux_32", "Linux"
-          ]
-        },
-        {
-          "match": "python-requests\/2.1*",
-          "properties": {
-            "Browser": "python-requests",
-            "Browser_Maker": "Python Software Foundation",
-            "Version": "2.1",
-            "MajorVer": "2",
-            "MinorVer": "1"
-          }
-        },
-        {
-          "match": "python-requests\/2.0* CPython\/#PLATFORM#",
-          "device": "Linux Desktop",
-          "properties": {
-            "Browser": "python-requests",
-            "Browser_Maker": "Python Software Foundation",
-            "Version": "2.0",
-            "MajorVer": "2",
-            "MinorVer": "0"
-          },
-          "platforms": [
-            "Linux_64", "Linux_32", "Linux"
-          ]
-        },
-        {
-          "match": "python-requests\/2.0*",
-          "properties": {
-            "Browser": "python-requests",
-            "Browser_Maker": "Python Software Foundation",
-            "Version": "2.0",
-            "MajorVer": "2",
-            "MinorVer": "0"
-          }
-        },
-        {
-          "match": "python-requests\/* CPython\/#PLATFORM#",
-          "device": "Linux Desktop",
-          "properties": {
-            "Browser": "python-requests",
-            "Browser_Maker": "Python Software Foundation"
-          },
-          "platforms": [
-            "Linux_64", "Linux_32", "Linux"
-          ]
-        },
-        {
-          "match": "python-requests\/*",
-          "properties": {
-            "Browser": "python-requests",
-            "Browser_Maker": "Python Software Foundation"
           }
         },
         {
@@ -1293,35 +1051,6 @@
             "Browser": "EventMachine HttpClient",
             "Browser_Maker": "Ilya Grigorik"
           }
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) RMSnapKit\/1.0*",
-          "engine": "WebKit",
-          "device": "Macintosh",
-          "properties": {
-            "Browser": "RMSnapKit",
-            "Browser_Maker": "realmacsoftware",
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
-          },
-          "platforms": [
-            "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
-            "OSX"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) RMSnapKit\/*",
-          "engine": "WebKit",
-          "device": "Macintosh",
-          "properties": {
-            "Browser": "RMSnapKit",
-            "Browser_Maker": "realmacsoftware"
-          },
-          "platforms": [
-            "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
-            "OSX"
-          ]
         }
       ]
     }

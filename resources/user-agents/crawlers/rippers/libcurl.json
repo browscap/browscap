@@ -1,0 +1,31 @@
+{
+  "division": "libcurl",
+  "sortIndex": 481,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "libcurl",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "libcurl",
+        "Browser": "libcurl",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "libcurl-agent\/1.0*",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "libcurl-agent\/*"
+        }
+      ]
+    }
+  ]
+}

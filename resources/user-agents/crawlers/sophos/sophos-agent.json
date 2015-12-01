@@ -1,0 +1,32 @@
+{
+  "division": "SophosAgent",
+  "sortIndex": 520,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "SophosAgent",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "SophosAgent",
+        "Browser": "SophosAgent",
+        "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "Sophos Ltd.",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "SophosAgent\/1.0*",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "SophosAgent\/*"
+        }
+      ]
+    }
+  ]
+}

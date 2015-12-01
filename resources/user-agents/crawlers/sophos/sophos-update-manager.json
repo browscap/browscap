@@ -1,0 +1,32 @@
+{
+  "division": "SophosUpdateManager",
+  "sortIndex": 520,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "SophosUpdateManager",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "SophosUpdateManager",
+        "Browser": "SophosUpdateManager",
+        "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "Sophos Ltd.",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "SophosUpdateManager\/1.5.*",
+          "properties": {
+            "Version": "1.5",
+            "MajorVer": "1",
+            "MinorVer": "5"
+          }
+        },
+        {
+          "match": "SophosUpdateManager\/*"
+        }
+      ]
+    }
+  ]
+}

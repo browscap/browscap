@@ -8,7 +8,7 @@
       "userAgent": "cURL",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "CURL",
+        "Comment": "cURL",
         "Browser": "cURL",
         "Browser_Type": "Bot/Crawler",
         "Frames": "true",
@@ -23,6 +23,14 @@
             "Version": "7.35",
             "MajorVer": "7",
             "MinorVer": "35"
+          }
+        },
+        {
+          "match": "curl\/7.29*",
+          "properties": {
+            "Version": "7.29",
+            "MajorVer": "7",
+            "MinorVer": "29"
           }
         },
         {

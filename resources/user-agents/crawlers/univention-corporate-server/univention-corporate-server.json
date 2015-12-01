@@ -1,0 +1,42 @@
+{
+  "division": "Univention Corporate Server #MAJORVER#.#MINORVER#",
+  "versions": ["4.1", 4, "3.2", "3.1", 3, "2.4", "2.3", "2.2", "2.1", 2],
+  "sortIndex": 1142,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Univention Corporate Server #MAJORVER#.#MINORVER#",
+      "device": "Linux Desktop",
+      "platform": "Linux",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Univention Corporate Server #MAJORVER#.#MINORVER#",
+        "Browser": "Univention Corporate Server",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "Univention GmbH",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "isSyndicationReader": "false",
+        "Crawler": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "UCS (ESX) - #MAJORVER#.#MINORVER#*"
+        }
+      ]
+    }
+  ]
+}

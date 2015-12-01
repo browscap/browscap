@@ -1186,7 +1186,7 @@
       "properties": {
         "Platform": "Debian",
         "Platform_Description": "Debian Linux",
-        "Platform_Maker": "Debian",
+        "Platform_Maker": "Software in the Public Interest, Inc.",
         "Platform_Version": "unknown",
         "Win16": "false",
         "Win32": "false",
