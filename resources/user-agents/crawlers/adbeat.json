@@ -16,7 +16,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) adbeat.com* Gecko\/* Firefox\/*AppleWebKit\/*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) adbeat.com*",
           "device": "Linux Desktop",
           "platforms": [
             "Linux_32_x86", "Linux"
