@@ -73,9 +73,9 @@ class XmlFormatter implements FormatterInterface
                 $valueOutput = trim($value);
                 break;
             case PropertyHolder::TYPE_BOOLEAN:
-                if (true === $value || $value === 'true' || $value === '1') {
+                if (true === $value || $value === 'true') {
                     $valueOutput = 'true';
-                } elseif (false === $value || $value === 'false' || $value === '') {
+                } elseif (false === $value || $value === 'false') {
                     $valueOutput = 'false';
                 } else {
                     $valueOutput = '';

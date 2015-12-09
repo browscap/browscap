@@ -20,7 +20,6 @@ namespace Browscap\Writer;
 use Browscap\Data\DataCollection;
 use Browscap\Filter\FilterInterface;
 use Browscap\Formatter\FormatterInterface;
-use Browscap\Data\PropertyHolder;
 use Psr\Log\LoggerInterface;
 
 /**
