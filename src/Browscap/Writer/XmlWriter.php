@@ -20,6 +20,7 @@ namespace Browscap\Writer;
 use Browscap\Data\DataCollection;
 use Browscap\Filter\FilterInterface;
 use Browscap\Formatter\FormatterInterface;
+use Browscap\Data\PropertyHolder;
 use Psr\Log\LoggerInterface;
 
 /**
@@ -333,8 +334,14 @@ class XmlWriter implements WriterInterface
         $defaultproperties = $ua[0]['properties'];
         $properties        = array_merge(array('Parent'), array_keys($defaultproperties));
 
+        $propertyHolder = new PropertyHolder();
+
         foreach ($section as $property => $propertyValue) {
-            $section[$property] = trim($propertyValue);
+            if ($this->getFilter()->isOutputProperty($property, $this)
+                && PropertyHolder::TYPE_STRING === $propertyHolder->getPropertyType($property)
+            ) {
+                $section[$property] = trim($propertyValue);
+            }
         }
 
         foreach ($properties as $property) {

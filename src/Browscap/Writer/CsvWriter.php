@@ -20,6 +20,7 @@ namespace Browscap\Writer;
 use Browscap\Data\DataCollection;
 use Browscap\Filter\FilterInterface;
 use Browscap\Formatter\FormatterInterface;
+use Browscap\Data\PropertyHolder;
 use Psr\Log\LoggerInterface;
 
 /**
@@ -334,8 +335,14 @@ class CsvWriter implements WriterInterface
             $section['LiteMode'] = ((!isset($section['lite']) || !$section['lite']) ? 'false' : 'true');
         }
 
+        $propertyHolder = new PropertyHolder();
+
         foreach ($section as $property => $propertyValue) {
-            $section[$property] = trim($propertyValue);
+            if ($this->getFilter()->isOutputProperty($property, $this)
+                && PropertyHolder::TYPE_STRING === $propertyHolder->getPropertyType($property)
+            ) {
+                $section[$property] = trim($propertyValue);
+            }
         }
 
         foreach ($properties as $property) {

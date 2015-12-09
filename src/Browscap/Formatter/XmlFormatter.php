@@ -70,9 +70,9 @@ class XmlFormatter implements FormatterInterface
 
         switch ($propertyHolder->getPropertyType($property)) {
             case PropertyHolder::TYPE_BOOLEAN:
-                if (true === $value || $value === 'true') {
+                if (true === $value || $value === 'true' || $value === '1') {
                     $valueOutput = 'true';
-                } elseif (false === $value || $value === 'false') {
+                } elseif (false === $value || $value === 'false' || $value === '') {
                     $valueOutput = 'false';
                 } else {
                     $valueOutput = '';
