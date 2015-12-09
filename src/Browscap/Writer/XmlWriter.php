@@ -334,16 +334,6 @@ class XmlWriter implements WriterInterface
         $defaultproperties = $ua[0]['properties'];
         $properties        = array_merge(array('Parent'), array_keys($defaultproperties));
 
-        $propertyHolder = new PropertyHolder();
-
-        foreach ($section as $property => $propertyValue) {
-            if ($this->getFilter()->isOutputProperty($property, $this)
-                && PropertyHolder::TYPE_STRING === $propertyHolder->getPropertyType($property)
-            ) {
-                $section[$property] = trim($propertyValue);
-            }
-        }
-
         foreach ($properties as $property) {
             if (!isset($section[$property])) {
                 continue;

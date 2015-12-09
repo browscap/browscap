@@ -335,16 +335,6 @@ class CsvWriter implements WriterInterface
             $section['LiteMode'] = ((!isset($section['lite']) || !$section['lite']) ? 'false' : 'true');
         }
 
-        $propertyHolder = new PropertyHolder();
-
-        foreach ($section as $property => $propertyValue) {
-            if ($this->getFilter()->isOutputProperty($property, $this)
-                && PropertyHolder::TYPE_STRING === $propertyHolder->getPropertyType($property)
-            ) {
-                $section[$property] = trim($propertyValue);
-            }
-        }
-
         foreach ($properties as $property) {
             if (!isset($this->outputProperties[$property])) {
                 $this->outputProperties[$property] = $this->getFilter()->isOutputProperty($property, $this);

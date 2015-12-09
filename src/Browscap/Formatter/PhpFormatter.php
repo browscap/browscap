@@ -71,7 +71,7 @@ class PhpFormatter implements FormatterInterface
 
         switch ($propertyHolder->getPropertyType($property)) {
             case PropertyHolder::TYPE_STRING:
-                $valueOutput = '"' . $value . '"';
+                $valueOutput = '"' . trim($value) . '"';
                 break;
             case PropertyHolder::TYPE_BOOLEAN:
                 if (true === $value || $value === 'true') {
