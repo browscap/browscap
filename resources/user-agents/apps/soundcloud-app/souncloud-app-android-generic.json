@@ -1,0 +1,48 @@
+{
+  "division": "SoundCloud App Generic",
+  "sortIndex": 2061,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "SoundCloud App Generic",
+      "engine": "WebKit",
+      "platform": "Android",
+      "device": "general Mobile Phone",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "SoundCloud App Generic",
+        "Browser": "SoundCloud App",
+        "Browser_Type": "Application",
+        "Browser_Maker": "SoundCloud Limited",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "IFrames": "false",
+        "Cookies": "false",
+        "JavaScript": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "Frames": "true",
+        "Tables": "true"
+      },
+      "children": [
+        {
+          "match": "SoundCloud-Android\/* (#PLATFORM#SGH-I337*",
+          "device": "Samsung SGH-I337",
+          "platforms": [
+            "Android_H_4_4", "Android_H"
+          ]
+        },
+        {
+          "match": "SoundCloud-Android\/* (#PLATFORM#",
+          "platforms": [
+            "Android_H_4_4", "Android_H"
+          ]
+        }
+      ]
+    }
+  ]
+}

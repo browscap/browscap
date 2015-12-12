@@ -2887,6 +2887,21 @@
         "Platform_Version": "2.2"
       }
     },
+    "Android_H": {
+      "match": "*Android*",
+      "lite": false,
+      "standard": true,
+      "inherits": "Android"
+    },
+    "Android_H_4_4": {
+      "match": "*Android?4.4*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "4.4"
+      }
+    },
     "Android_GoogleTV": {
       "match": "*Linux*GoogleTV*",
       "lite": false,

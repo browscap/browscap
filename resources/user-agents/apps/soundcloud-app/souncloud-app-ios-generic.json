@@ -1,0 +1,43 @@
+{
+  "division": "SoundCloud App Generic",
+  "versions": [3],
+  "sortIndex": 2061,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "SoundCloud App Generic",
+      "engine": "WebKit",
+      "platform": "iOS",
+      "device": "general Mobile Device (Apple)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "SoundCloud App Generic",
+        "Browser": "SoundCloud App",
+        "Browser_Type": "Application",
+        "Browser_Maker": "SoundCloud Limited",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "IFrames": "false",
+        "Cookies": "false",
+        "JavaScript": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "Frames": "true",
+        "Tables": "true"
+      },
+      "children": [
+        {
+          "match": "SoundCloud\/*; iPhone\/#PLATFORM#",
+          "device": "iPhone",
+          "platforms": [
+            "iOS_E_9_1", "iOS_E_9_0", "iOS_E_8_1", "iOS_E_8_0", "iOS_E_7_1", "iOS_E"
+          ]
+        }
+      ]
+    }
+  ]
+}
