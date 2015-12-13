@@ -1,18 +1,17 @@
 {
-  "division": "SoundCloud App Generic",
-  "versions": [3],
+  "division": "SoundCloud App Generic for iOS",
   "sortIndex": 2061,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "SoundCloud App Generic",
+      "userAgent": "SoundCloud App Generic for iOS",
       "engine": "WebKit",
       "platform": "iOS",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "SoundCloud App Generic",
+        "Comment": "SoundCloud App Generic for iOS",
         "Browser": "SoundCloud App",
         "Browser_Type": "Application",
         "Browser_Maker": "SoundCloud Limited",
