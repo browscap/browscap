@@ -8,7 +8,7 @@
       "userAgent": "SoundCloud App Generic for Android",
       "engine": "WebKit",
       "platform": "Android",
-      "device": "general Mobile Phone",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "SoundCloud App Generic for Android",
