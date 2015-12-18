@@ -333,10 +333,6 @@ class XmlWriter implements WriterInterface
         $defaultproperties = $ua[0]['properties'];
         $properties        = array_merge(array('Parent'), array_keys($defaultproperties));
 
-        foreach ($section as $property => $propertyValue) {
-            $section[$property] = trim($propertyValue);
-        }
-
         foreach ($properties as $property) {
             if (!isset($section[$property])) {
                 continue;

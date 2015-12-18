@@ -69,6 +69,9 @@ class XmlFormatter implements FormatterInterface
         $propertyHolder = new PropertyHolder();
 
         switch ($propertyHolder->getPropertyType($property)) {
+            case PropertyHolder::TYPE_STRING:
+                $valueOutput = trim($value);
+                break;
             case PropertyHolder::TYPE_BOOLEAN:
                 if (true === $value || $value === 'true') {
                     $valueOutput = 'true';
