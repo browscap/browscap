@@ -84,7 +84,7 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
             ->setWriterCollection($writerCollection)
         ;
 
-        $buildGenerator->run('test', false);
+        $buildGenerator->run($buildNumber, false);
 
         $cache = new File(array(File::DIR => self::$buildFolder));
         // Now, load an INI file into BrowscapPHP\Browscap for testing the UAs
