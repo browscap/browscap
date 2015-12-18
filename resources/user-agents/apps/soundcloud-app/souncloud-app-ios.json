@@ -1,0 +1,52 @@
+{
+  "division": "SoundCloud App #MAJORVER#.#MINORVER# for iOS",
+  "versions": [3],
+  "sortIndex": 2060,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "SoundCloud App #MAJORVER#.#MINORVER# for iOS",
+      "engine": "WebKit",
+      "platform": "iOS",
+      "device": "general Mobile Device (Apple)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "SoundCloud App #MAJORVER#.#MINORVER# for iOS",
+        "Browser": "SoundCloud App",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Browser_Type": "Application",
+        "Browser_Maker": "SoundCloud Limited",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "IFrames": "false",
+        "Cookies": "false",
+        "JavaScript": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "Frames": "true",
+        "Tables": "true"
+      },
+      "children": [
+        {
+          "match": "SoundCloud\/#MAJORVER#.#MINORVER#*; iPhone\/#PLATFORM#",
+          "device": "iPhone",
+          "platforms": [
+            "iOS_E_9_1", "iOS_E_9_0", "iOS_E_8_1", "iOS_E_8_0", "iOS_E_7_1", "iOS_E"
+          ]
+        },
+        {
+          "match": "SoundCloud\/#MAJORVER#.#MINORVER#*; *\/#PLATFORM#",
+          "platforms": [
+            "iOS_E_9_1", "iOS_E_9_0", "iOS_E_8_1", "iOS_E_8_0", "iOS_E_7_1", "iOS_E"
+          ]
+        }
+      ]
+    }
+  ]
+}
