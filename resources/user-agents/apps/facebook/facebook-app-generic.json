@@ -676,6 +676,12 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM# Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Chrome\/*Safari\/*FBAV\/*",
+          "platforms": [
+            "Android_4_2", "Android_4_3", "Android_4_4", "Android_5_0", "Android"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/* Chrome\/*Safari\/*FBAV\/*",
           "platforms": [
             "Android_4_2", "Android_4_3", "Android_4_4", "Android_5_0", "Android"
