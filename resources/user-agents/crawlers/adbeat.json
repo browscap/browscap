@@ -16,6 +16,30 @@
       },
       "children": [
         {
+          "match": "Mozilla\/5.0 (*Linux*x86_64*) adbeat.com* Gecko\/#PLATFORM# Firefox*",
+          "device": "Linux Desktop",
+          "engine": "Gecko",
+          "platforms": [
+            "Ubuntu_10_04_64"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (*Linux x86*) adbeat.com* Gecko\/#PLATFORM# Firefox*",
+          "device": "Linux Desktop",
+          "engine": "Gecko",
+          "platforms": [
+            "Ubuntu_10_04"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) adbeat.com* Gecko\/* Firefox*",
+          "device": "Linux Desktop",
+          "engine": "Gecko",
+          "platforms": [
+            "Linux_64", "Linux_32_x86", "Linux"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#) adbeat.com*",
           "device": "Linux Desktop",
           "platforms": [
