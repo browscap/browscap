@@ -50,6 +50,14 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#Coolpad 8675* Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* T5\/* baiduboxapp\/#MAJORVER#.#MINORVER#*",
+          "engine": "T5",
+          "device": "Coolpad 8675",
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* T5\/* baiduboxapp\/#MAJORVER#.#MINORVER#*",
           "engine": "T5",
           "platforms": [
