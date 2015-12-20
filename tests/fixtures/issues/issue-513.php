@@ -654,7 +654,7 @@ return [
         'ElmediaPlayer Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/537.13+ (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2',
         [
             'Browser' => 'Elmedia Player',
-            'Browser_Type' => 'Application',
+            'Browser_Type' => 'Multimedia Player',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Eltima Software',
             'Version' => '0.0',
@@ -4618,7 +4618,7 @@ return [
         'VLC/2.0.6 LibVLC/2.0.6',
         [
             'Browser' => 'VLC Media Player',
-            'Browser_Type' => 'Application',
+            'Browser_Type' => 'Multimedia Player',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'VideoLAN non-profit organization',
             'Version' => '2.0',
@@ -4648,7 +4648,7 @@ return [
         'VLC/2.1.4 LibVLC/2.1.4',
         [
             'Browser' => 'VLC Media Player',
-            'Browser_Type' => 'Application',
+            'Browser_Type' => 'Multimedia Player',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'VideoLAN non-profit organization',
             'Version' => '2.1',
@@ -4710,7 +4710,7 @@ return [
             'Browser' => 'WordPress App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
-            'Browser_Maker' => 'WordPress.org',
+            'Browser_Maker' => 'wordpress.org',
             'Version' => '3.0',
             'MajorVer' => '3',
             'MinorVer' => '0',

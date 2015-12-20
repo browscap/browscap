@@ -18,7 +18,7 @@ return [
             'isMobileDevice' => false,
             'isTablet' => false,
             'Crawler' => false,
-            'JavaScript' => false,
+            'JavaScript' => true,
             'Cookies' => true,
             'Frames' => true,
             'IFrames' => true,

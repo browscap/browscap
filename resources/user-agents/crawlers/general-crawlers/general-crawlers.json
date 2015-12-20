@@ -1110,7 +1110,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0?(compatible;?PiplBot*",
+          "match": "Mozilla\/5.0 (compatible; PiplBot*",
           "properties": {
             "Browser": "PiplBot",
             "Browser_Maker": "Pipl"
@@ -1348,7 +1348,7 @@
         {
           "match": "Mozilla\/5.0 (compatible; discoverybot\/2.0*",
           "properties": {
-            "Browser": "discoverybot",
+            "Browser": "Discovery Bot",
             "Browser_Maker": "discoveryengine.com",
             "Version": "2.0",
             "MajorVer": "2",
@@ -1358,7 +1358,7 @@
         {
           "match": "Mozilla\/5.0 (compatible; discoverybot\/*",
           "properties": {
-            "Browser": "discoverybot",
+            "Browser": "Discovery Bot",
             "Browser_Maker": "discoveryengine.com"
           }
         },
@@ -1373,7 +1373,7 @@
           "match": "RED\/1*",
           "properties": {
             "Browser": "redbot",
-            "Browser_Maker": "mnot",
+            "Browser_Maker": "redbot.org",
             "Version": "1.0",
             "MajorVer": "1",
             "MinorVer": "0"
@@ -1383,7 +1383,7 @@
           "match": "RED\/*",
           "properties": {
             "Browser": "redbot",
-            "Browser_Maker": "mnot"
+            "Browser_Maker": "redbot.org"
           }
         },
         {

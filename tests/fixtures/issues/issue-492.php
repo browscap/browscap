@@ -484,8 +484,8 @@ return [
     'issue-492-U' => [
         'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/7.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; Microsoft Outlook 15.0.4615; ms-office; MSOffice 15)',
         [
-            'Browser' => 'Outlook',
-            'Browser_Type' => 'Email Client',
+            'Browser' => 'Office',
+            'Browser_Type' => 'Application',
             'Browser_Bits' => '64',
             'Browser_Maker' => 'Microsoft Corporation',
             'Version' => '2013',
@@ -1786,7 +1786,7 @@ return [
             'Browser' => 'OpenOffice',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '0',
-            'Browser_Maker' => 'Apache Foundation',
+            'Browser_Maker' => 'The Apache Software Foundation',
             'Version' => '4.0',
             'MajorVer' => '4',
             'MinorVer' => '0',

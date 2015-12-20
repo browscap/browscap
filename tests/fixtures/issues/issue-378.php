@@ -127,7 +127,7 @@ return [
             'Browser' => 'WordPress',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
-            'Browser_Maker' => 'WordPress.org',
+            'Browser_Maker' => 'wordpress.org',
             'Browser_Modus' => 'unknown',
             'Version' => '4.0',
             'MajorVer' => '4',
@@ -438,7 +438,7 @@ return [
         'NSPlayer/12.00.9200.16550 WMFSDK/12.00.9200.16550',
         [
             'Browser' => 'Windows Media Player',
-            'Browser_Type' => 'Application',
+            'Browser_Type' => 'Multimedia Player',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Version' => '12.0',
@@ -467,7 +467,7 @@ return [
     'issue-378-P' => [
         'NewsBlur Feed Fetcher - 0 subscribers - http://www.newsblur.com/site/1719739/nouvelles-cinema (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_1) AppleWebKit/534.48.3 (KHTML, like Gecko) Version/5.1 Safari/534.48.3)',
         [
-            'Browser' => 'NewsBlur Favicon Fetcher',
+            'Browser' => 'NewsBlur Feed Fetcher',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'www.newsblur.com',

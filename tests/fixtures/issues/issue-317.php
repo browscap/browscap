@@ -706,7 +706,7 @@ return [
             'Browser' => 'WEB.DE MailCheck',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
-            'Browser_Maker' => 'unknown',
+            'Browser_Maker' => '1 & 1',
             'Version' => '2.4',
             'MajorVer' => '2',
             'MinorVer' => '4',
@@ -736,7 +736,7 @@ return [
             'Browser' => 'CareerBot',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
-            'Browser_Maker' => 'www.career-x.de',
+            'Browser_Maker' => 'career-x.de',
             'Version' => '1.1',
             'MajorVer' => '1',
             'MinorVer' => '1',
@@ -853,8 +853,8 @@ return [
     'issue-317-AC' => [
         'Microsoft Office/14.0 (Windows NT 6.1; Microsoft Outlook 14.0.4760; Pro; ms-office; MSOffice 14)',
         [
-            'Browser' => 'Outlook',
-            'Browser_Type' => 'Email Client',
+            'Browser' => 'Office',
+            'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Microsoft Corporation',
             'Version' => '2010',

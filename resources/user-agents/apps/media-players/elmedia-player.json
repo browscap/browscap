@@ -1,0 +1,33 @@
+{
+  "division": "Elmedia Player",
+  "sortIndex": 1531,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Elmedia Player",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Elmedia Player",
+        "Browser": "Elmedia Player",
+        "Browser_Maker": "Eltima Software",
+        "Browser_Type": "Multimedia Player"
+      },
+      "children": [
+        {
+          "match": "ElmediaPlayer Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/*",
+          "device": "Macintosh",
+          "engine": "WebKit",
+          "properties": {
+            "Browser": "Elmedia Player",
+            "Browser_Maker": "Eltima Software",
+            "Browser_Type": "Multimedia Player"
+          },
+          "platforms": [
+            "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10", "OSX"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -157,7 +157,7 @@
           "match": "Mozilla\/5.0 (compatible; Linux; InfegyAtlas\/1.0*",
           "properties": {
             "Browser": "InfegyAtlas",
-            "Browser_Maker": "Infegy",
+            "Browser_Maker": "infegy.com",
             "Version": "1.0",
             "MajorVer": "1",
             "MinorVer": "0"
@@ -167,7 +167,7 @@
           "match": "Mozilla\/5.0 (compatible; Linux; InfegyAtlas\/*",
           "properties": {
             "Browser": "InfegyAtlas",
-            "Browser_Maker": "Infegy"
+            "Browser_Maker": "infegy.com"
           }
         },
         {

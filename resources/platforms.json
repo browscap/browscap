@@ -200,9 +200,7 @@
       "inherits": "OSX",
       "properties": {
         "Platform": "MacPPC",
-        "Platform_Version": "unknown",
-        "RenderingEngine_Name": "Tasman",
-        "RenderingEngine_Description": "For Internet Explorer 5 for Mac, Microsoft Office 2004 for Mac, and Microsoft Office 2008 for Mac."
+        "Platform_Version": "unknown"
       }
     },
     "MacPPC_2": {

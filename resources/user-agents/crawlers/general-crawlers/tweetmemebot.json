@@ -1,15 +1,15 @@
 {
-  "division": "TweetmemeBot",
+  "division": "Tweetmeme Bot",
   "sortIndex": 170,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "TweetmemeBot",
+      "userAgent": "Tweetmeme Bot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "TweetmemeBot",
-        "Browser": "TweetmemeBot",
+        "Comment": "Tweetmeme Bot",
+        "Browser": "Tweetmeme Bot",
         "Browser_Maker": "datasift.com",
         "Browser_Type": "Bot/Crawler",
         "Crawler": "true"

@@ -11,7 +11,7 @@
         "Parent": "DefaultProperties",
         "Comment": "Windows Media Player",
         "Browser": "Windows Media Player",
-        "Browser_Type": "Application",
+        "Browser_Type": "Multimedia Player",
         "Win32": "false",
         "Frames": "true",
         "IFrames": "true",

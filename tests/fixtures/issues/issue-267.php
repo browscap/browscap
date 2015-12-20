@@ -396,8 +396,8 @@ return [
     'issue-267-N' => [
         'Microsoft Office Mobile/15.0',
         [
-            'Browser' => 'Outlook',
-            'Browser_Type' => 'Email Client',
+            'Browser' => 'Office',
+            'Browser_Type' => 'Application',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Microsoft Corporation',
             'Version' => '2013',
@@ -1019,7 +1019,7 @@ return [
             'Browser' => 'Apache Synapse',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
-            'Browser_Maker' => 'Apache Foundation',
+            'Browser_Maker' => 'The Apache Software Foundation',
             'Version' => '0.0',
             'MajorVer' => '0',
             'MinorVer' => '0',
@@ -2083,7 +2083,7 @@ return [
             'Browser' => 'URLAppendBot',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
-            'Browser_Maker' => 'Profound Networks',
+            'Browser_Maker' => 'Profound Networks, LLC',
             'Version' => '1.0',
             'MajorVer' => '1',
             'MinorVer' => '0',
@@ -2138,7 +2138,7 @@ return [
         'standard' => true,
     ],
     'issue-267-BR' => [
-        'Mozilla/5.0+(compatible;+PiplBot;++http://www.pipl.com/bot/)',
+        'Mozilla/5.0 (compatible; PiplBot;  http://www.pipl.com/bot/)',
         [
             'Browser' => 'PiplBot',
             'Browser_Type' => 'Bot/Crawler',
@@ -2724,7 +2724,7 @@ return [
             'Browser' => 'Comodo Spider',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
-            'Browser_Maker' => 'unknown',
+            'Browser_Maker' => 'Comodo Group Inc',
             'Version' => '1.2',
             'MajorVer' => '1',
             'MinorVer' => '2',
@@ -3391,7 +3391,7 @@ return [
     'issue-267-DM' => [
         'Mozilla/5.0 (compatible; TweetmemeBot/3.0; +http://tweetmeme.com/)',
         [
-            'Browser' => 'TweetmemeBot',
+            'Browser' => 'Tweetmeme Bot',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'datasift.com',
@@ -3554,7 +3554,7 @@ return [
     'issue-267-DR' => [
         'Mozilla/5.0 (compatible; Blekkobot; ScoutJet; +http://blekko.com/about/blekkobot)',
         [
-            'Browser' => 'Blekkobot',
+            'Browser' => 'BlekkoBot',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Blekko Inc.',

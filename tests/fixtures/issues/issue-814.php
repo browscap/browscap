@@ -2830,8 +2830,8 @@ return [
     'issue-814-BT' => [
         'Microsoft Office Mobile /14.0',
         [
-            'Browser' => 'Outlook',
-            'Browser_Type' => 'Email Client',
+            'Browser' => 'Office',
+            'Browser_Type' => 'Application',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Microsoft Corporation',
             'Browser_Modus' => 'unknown',
@@ -2846,7 +2846,7 @@ return [
             'isMobileDevice' => true,
             'isTablet' => false,
             'Crawler' => false,
-            'JavaScript' => false,
+            'JavaScript' => true,
             'Cookies' => true,
             'Frames' => true,
             'IFrames' => true,
