@@ -668,6 +668,13 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#Coolpad 7620L-W00 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Chrome\/*Safari\/*FBAV\/*",
+          "device": "Coolpad 7620L-W00",
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#SCH-R720 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/*FBAV\/*",
           "device": "Samsung SCH-R720",
           "engine": "WebKit",

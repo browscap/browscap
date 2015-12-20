@@ -1,6 +1,6 @@
 {
   "division": "Baidu Box App #MAJORVER#.#MINORVER#",
-  "versions": ["6.3"],
+  "versions": ["6.9", "6.8", "6.7", "6.6", "6.5", "6.4", "6.3", "6.2", "6.1", 6, 5],
   "sortIndex": 1903,
   "lite": false,
   "standard": true,
@@ -27,14 +27,31 @@
       },
       "children": [
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#Coolpad 8675* Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Chrome\/* Safari\/* baiduboxapp\/#MAJORVER#.#MINORVER#*",
+          "engine": "Blink",
+          "device": "Coolpad 8675",
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/* Chrome\/* Safari\/* baiduboxapp\/#MAJORVER#.#MINORVER#*",
+          "engine": "Blink",
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#HUAWEI MT7-TL10 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* T5\/* baiduboxapp\/#MAJORVER#.#MINORVER#*",
           "device": "Huawei MT7-TL10",
+          "engine": "T5",
           "platforms": [
             "Android_4_4"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* T5\/* baiduboxapp\/#MAJORVER#.#MINORVER#*",
+          "engine": "T5",
           "platforms": [
             "Android_4_4"
           ]

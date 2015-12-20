@@ -32084,7 +32084,7 @@ return [
             'VBScript' => false,
             'JavaApplets' => false,
             'ActiveXControls' => false,
-            'Device_Name' => 'F2',
+            'Device_Name' => 'Dashen F2',
             'Device_Maker' => 'Coolpad',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen',

@@ -27,6 +27,21 @@
       },
       "children": [
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#GFIVE A5 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) FlyFlow\/#MAJORVER#.#MINORVER#* Version\/* Safari\/* T5\/*",
+          "engine": "T5",
+          "device": "GFive A5",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM# Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) FlyFlow\/#MAJORVER#.#MINORVER#* Version\/* Safari\/* T5\/*",
+          "engine": "T5",
+          "platforms": [
+            "Android_4_2", "Android"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#GT-I9100G Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) FlyFlow\/#MAJORVER#.#MINORVER#* Version\/4.0 *Safari\/*",
           "engine": "WebKit",
           "device": "GT-I9100G",
