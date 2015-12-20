@@ -1,6 +1,6 @@
 {
   "division": "FlyFlow #MAJORVER#.#MINORVER#",
-  "versions": ["2.5", "2.4", "2.3", "2.2", "1.4"],
+  "versions": ["3.1", 3, "2.5", "2.4", "2.3", "2.2", "1.4"],
   "sortIndex": 1710,
   "lite": false,
   "standard": true,
