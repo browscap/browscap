@@ -1,0 +1,36 @@
+{
+  "division": "WKBrowser Generic",
+  "sortIndex": 956,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "WKBrowser Generic",
+      "platform": "Android",
+      "engine": "Blink",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "WKBrowser Generic",
+        "Browser": "WKBrowser",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Keanu Lee",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Chrome\/* Safari\/* wkbrowser *",
+          "platforms": [
+            "Android_4_4", "Android_5_0",
+            "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}

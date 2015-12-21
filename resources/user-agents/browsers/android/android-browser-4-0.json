@@ -5830,6 +5830,13 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#ZP980 Build\/*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "device": "ZOPO ZP980",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#SH-10D Build\/*) *AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "device": "Sharp SH-10D",
           "platforms": [

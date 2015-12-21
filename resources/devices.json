@@ -12688,6 +12688,19 @@
         "isTablet": "false"
       }
     },
+    "HTC Desire 820": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Desire 820",
+        "Device_Name": "Desire 820",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "HTC Desire HD": {
       "standard": false,
       "properties": {
@@ -19064,6 +19077,19 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Y600-U00",
         "Device_Name": "Ascend Y600",
+        "Device_Maker": "Huawei",
+        "Device_Brand_Name": "Huawei",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Huawei Y635-L21": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Y635-L21",
+        "Device_Name": "Ascend Y635",
         "Device_Maker": "Huawei",
         "Device_Brand_Name": "Huawei",
         "Device_Pointing_Method": "touchscreen",
@@ -27352,6 +27378,19 @@
         "isTablet": "true"
       }
     },
+    "Cube U25GT-C4W": {
+      "standard": true,
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "U25GT-C4W",
+        "Device_Name": "U25GT-C4W",
+        "Device_Maker": "Cube",
+        "Device_Brand_Name": "Cube",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Cube U9GT2": {
       "standard": true,
       "properties": {
@@ -34710,6 +34749,19 @@
         "isTablet": "false"
       }
     },
+    "Spice Mi-440": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Stellar 440",
+        "Device_Code_Name": "Mi-440",
+        "Device_Maker": "Spice",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Spice",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Nomi C07000": {
       "standard": true,
       "properties": {
@@ -34768,6 +34820,19 @@
         "Device_Type": "Mobile Phone",
         "Device_Name": "President G10 Fashion",
         "Device_Code_Name": "President G10 Fashion",
+        "Device_Maker": "GFive",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "GFive",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "GFive A5": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "A5",
+        "Device_Code_Name": "A5",
         "Device_Maker": "GFive",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "GFive",
@@ -35949,8 +36014,73 @@
       "standard": false,
       "properties": {
         "Device_Type": "Mobile Phone",
-        "Device_Name": "F2",
+        "Device_Name": "Dashen F2",
         "Device_Code_Name": "8675",
+        "Device_Maker": "Coolpad",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Coolpad",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Coolpad 8297-T01": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Dashen F1",
+        "Device_Code_Name": "8297-T01",
+        "Device_Maker": "Coolpad",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Coolpad",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Coolpad 8297-C00": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Dashen F1",
+        "Device_Code_Name": "8297-C00",
+        "Device_Maker": "Coolpad",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Coolpad",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Coolpad 8730L": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "8730L",
+        "Device_Code_Name": "8730L",
+        "Device_Maker": "Coolpad",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Coolpad",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Coolpad 8089": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "8089",
+        "Device_Code_Name": "8089",
+        "Device_Maker": "Coolpad",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Coolpad",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Coolpad 7620L-W00": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "K1",
+        "Device_Code_Name": "7620L-W00",
         "Device_Maker": "Coolpad",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Coolpad",
