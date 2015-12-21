@@ -1,0 +1,36 @@
+{
+  "division": "Rival IQ Bot",
+  "sortIndex": 884,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Rival IQ Bot",
+      "engine": "WebKit",
+      "device": "general Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Rival IQ Bot",
+        "Browser": "Rival IQ Bot",
+        "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "Rival IQ Corporation",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* (Rival IQ, rivaliq.com)*",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX_10_9", "OSX"
+          ]
+        }
+      ]
+    }
+  ]
+}
