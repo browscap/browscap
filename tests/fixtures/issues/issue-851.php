@@ -84,7 +84,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite'     => true,
+        'lite'     => false,
         'standard' => true,
     ],
     'issue-851-D' => [
@@ -127,7 +127,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite'     => true,
+        'lite'     => false,
         'standard' => true,
     ],
     'issue-851-F' => [
@@ -428,7 +428,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite'     => true,
+        'lite'     => false,
         'standard' => true,
     ],
     'issue-851-P' => [
@@ -686,7 +686,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite'     => true,
+        'lite'     => false,
         'standard' => true,
     ],
     'issue-851-W' => [
