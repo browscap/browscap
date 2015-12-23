@@ -61,10 +61,14 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
         $resourceFolder = __DIR__ . '/../../resources/';
 
         self::$buildFolder = __DIR__ . '/../../build/browscap-ua-test-' . $buildNumber;
+        $cacheFolder       = __DIR__ . '/../../build/browscap-ua-cache-' . $buildNumber;
 
         // create build folder if it does not exist
         if (!file_exists(self::$buildFolder)) {
             mkdir(self::$buildFolder, 0777, true);
+        }
+        if (!file_exists($cacheFolder)) {
+            mkdir($cacheFolder, 0777, true);
         }
 
         $logger = new Logger('browscap');
@@ -86,7 +90,7 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
 
         $buildGenerator->run($buildNumber, false);
 
-        $cache = new File(array(File::DIR => self::$buildFolder));
+        $cache = new File(array(File::DIR => $cacheFolder));
         // Now, load an INI file into BrowscapPHP\Browscap for testing the UAs
         self::$browscap = new Browscap();
         self::$browscap
