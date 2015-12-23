@@ -60,8 +60,8 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
         $buildNumber    = time();
         $resourceFolder = __DIR__ . '/../../resources/';
 
-        self::$buildFolder = __DIR__ . '/../../build/browscap-ua-test-' . $buildNumber;
-        $cacheFolder       = __DIR__ . '/../../build/browscap-ua-cache-' . $buildNumber;
+        self::$buildFolder = __DIR__ . '/../../build/browscap-ua-test-' . $buildNumber . '/build/';
+        $cacheFolder       = __DIR__ . '/../../build/browscap-ua-test-' . $buildNumber . '/cache/';
 
         // create build folder if it does not exist
         if (!file_exists(self::$buildFolder)) {
