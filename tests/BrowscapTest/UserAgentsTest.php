@@ -165,6 +165,7 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
         static $updatedFullCache = false;
 
         if (!$updatedFullCache) {
+            self::$browscap->getCache()->flush();
             self::$browscap->convertFile(self::$buildFolder . '/full_php_browscap.ini');
             $updatedFullCache = true;
         }
@@ -221,6 +222,7 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
         static $updatedStandardCache = false;
 
         if (!$updatedStandardCache) {
+            self::$browscap->getCache()->flush();
             self::$browscap->convertFile(self::$buildFolder . '/php_browscap.ini');
             $updatedStandardCache = true;
         }
@@ -282,6 +284,7 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
         static $updatedLiteCache = false;
 
         if (!$updatedLiteCache) {
+            self::$browscap->getCache()->flush();
             self::$browscap->convertFile(self::$buildFolder . '/lite_php_browscap.ini');
             $updatedLiteCache = true;
         }
