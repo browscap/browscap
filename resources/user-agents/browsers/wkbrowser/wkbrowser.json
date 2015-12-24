@@ -35,7 +35,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Chrome\/* Safari\/* wkbrowser #MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (#PLATFORM# Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Chrome\/* Safari\/* wkbrowser #MAJORVER#.#MINORVER#*",
           "platforms": [
             "Android_4_4", "Android_5_0",
             "Android"

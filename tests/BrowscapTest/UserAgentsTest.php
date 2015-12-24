@@ -60,11 +60,15 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
         $buildNumber    = time();
         $resourceFolder = __DIR__ . '/../../resources/';
 
-        self::$buildFolder = __DIR__ . '/../../build/browscap-ua-test-' . $buildNumber;
+        self::$buildFolder = __DIR__ . '/../../build/browscap-ua-test-' . $buildNumber . '/build/';
+        $cacheFolder       = __DIR__ . '/../../build/browscap-ua-test-' . $buildNumber . '/cache/';
 
         // create build folder if it does not exist
         if (!file_exists(self::$buildFolder)) {
             mkdir(self::$buildFolder, 0777, true);
+        }
+        if (!file_exists($cacheFolder)) {
+            mkdir($cacheFolder, 0777, true);
         }
 
         $logger = new Logger('browscap');
@@ -86,7 +90,7 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
 
         $buildGenerator->run($buildNumber, false);
 
-        $cache = new File(array(File::DIR => self::$buildFolder));
+        $cache = new File(array(File::DIR => $cacheFolder));
         // Now, load an INI file into BrowscapPHP\Browscap for testing the UAs
         self::$browscap = new Browscap();
         self::$browscap
@@ -165,6 +169,7 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
         static $updatedFullCache = false;
 
         if (!$updatedFullCache) {
+            self::$browscap->getCache()->flush();
             self::$browscap->convertFile(self::$buildFolder . '/full_php_browscap.ini');
             $updatedFullCache = true;
         }
@@ -221,6 +226,7 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
         static $updatedStandardCache = false;
 
         if (!$updatedStandardCache) {
+            self::$browscap->getCache()->flush();
             self::$browscap->convertFile(self::$buildFolder . '/php_browscap.ini');
             $updatedStandardCache = true;
         }
@@ -282,6 +288,7 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
         static $updatedLiteCache = false;
 
         if (!$updatedLiteCache) {
+            self::$browscap->getCache()->flush();
             self::$browscap->convertFile(self::$buildFolder . '/lite_php_browscap.ini');
             $updatedLiteCache = true;
         }
