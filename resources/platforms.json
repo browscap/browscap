@@ -2968,6 +2968,24 @@
         "Platform_Version": "4.4"
       }
     },
+    "AndroidMobile_5_0": {
+      "match": "*Android 5.0*Mobile*",
+      "lite": false,
+      "standard": true,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "5.0"
+      }
+    },
+    "AndroidMobile_5_1": {
+      "match": "*Android 5.1*Mobile*",
+      "lite": false,
+      "standard": true,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "5.1"
+      }
+    },
     "AndroidMobile": {
       "match": "*Android*Mobile*",
       "lite": true,
@@ -3023,6 +3041,24 @@
       "inherits": "Android",
       "properties": {
         "Platform_Version": "4.4"
+      }
+    },
+    "AndroidTablet_5_0": {
+      "match": "*Android 5.0*Tablet*",
+      "lite": false,
+      "standard": true,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "5.0"
+      }
+    },
+    "AndroidTablet_5_1": {
+      "match": "*Android 5.1*Tablet*",
+      "lite": false,
+      "standard": true,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "5.1"
       }
     },
     "AndroidTablet": {
