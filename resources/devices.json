@@ -10452,6 +10452,19 @@
         "isTablet": "false"
       }
     },
+    "Motorola XT1021": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "XT1021",
+        "Device_Name": "Moto E",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Motorola MPx": {
       "standard": false,
       "properties": {
