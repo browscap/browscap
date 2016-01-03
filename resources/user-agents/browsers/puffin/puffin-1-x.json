@@ -36,6 +36,12 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (*Linux*) AppleWebKit\/* (KHTML, like Gecko) Puffin\/#MAJORVER#.#MINORVER#*MS Mobile Safari\/*",
+          "platforms": [
+            "Android"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Chrome\/* Safari\/* Puffin\/#MAJORVER#.*AT Mobile",
           "device": "general Tablet",
           "platforms": [
