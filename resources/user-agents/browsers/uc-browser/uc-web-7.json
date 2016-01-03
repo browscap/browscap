@@ -88,7 +88,7 @@
           ]
         },
         {
-          "match": "#PLATFORM)UCWEB#MAJORVER#.#MINORVER#*",
+          "match": "#PLATFORM#)UCWEB#MAJORVER#.#MINORVER#*",
           "platforms": [
             "Android_G_2_2", "Android_G"
           ]
