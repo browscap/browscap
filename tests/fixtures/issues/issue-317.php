@@ -853,8 +853,8 @@ return [
     'issue-317-AC' => [
         'Microsoft Office/14.0 (Windows NT 6.1; Microsoft Outlook 14.0.4760; Pro; ms-office; MSOffice 14)',
         [
-            'Browser' => 'Office',
-            'Browser_Type' => 'Application',
+            'Browser' => 'Outlook',
+            'Browser_Type' => 'Email Client',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Microsoft Corporation',
             'Version' => '2010',

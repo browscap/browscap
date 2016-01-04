@@ -72,11 +72,35 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-N900A Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Chrome\/* Safari\/* ?Pinterest\/Android*",
+          "device": "Samsung SM-N900A",
+          "engine": "Blink",
+          "platforms": [
+            "Android_5_0", "Android"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#D6503 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Chrome\/* Safari\/* ?Pinterest\/Android*",
+          "device": "Sony D6503",
+          "engine": "Blink",
+          "platforms": [
+            "Android_5_0", "Android"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM# Build\/*) AppleWebKit\/* (KHTML like Gecko) Version\/* Chrome\/* Safari\/* ?Pinterest\/Android*",
           "device": "general Mobile Phone (Touch)",
           "engine": "Blink",
           "platforms": [
-            "Android_4_4", "Android"
+            "Android_4_4", "Android_5_0", "Android"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM# Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Chrome\/* Safari\/* ?Pinterest\/Android*",
+          "device": "general Mobile Phone (Touch)",
+          "engine": "Blink",
+          "platforms": [
+            "Android_4_4", "Android_5_0", "Android"
           ]
         },
         {

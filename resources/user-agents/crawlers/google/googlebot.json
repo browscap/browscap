@@ -34,7 +34,7 @@
         {
           "match": "Googlebot-Image*",
           "properties": {
-            "Browser": "Googlebot-Image"
+            "Browser": "Google Image Search"
           }
         },
         {

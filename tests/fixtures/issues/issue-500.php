@@ -466,7 +466,7 @@ return [
             'Browser' => 'Crawler',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
-            'Browser_Maker' => 'linkfluence.net',
+            'Browser_Maker' => 'Linkfluence SAS',
             'Version' => '0.9',
             'MajorVer' => '0',
             'MinorVer' => '9',

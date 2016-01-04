@@ -50,6 +50,13 @@
           ]
         },
         {
+          "match": "MicromaxX650 ASTRO36_TD\/* MAUI\/* Release\/* Browser\/Opera *\/MIDP* Opera\/9.80 (*) Presto\/* Version\/#MAJORVER#.#MINORVER#*",
+          "device": "Micromax X650",
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
           "match": "*Opera\/*(MTK*)*Version\/#MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone (Touch)",
           "platforms": [

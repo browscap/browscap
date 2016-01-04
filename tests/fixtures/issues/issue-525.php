@@ -3389,7 +3389,7 @@ return [
             'Browser' => 'Esribot',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
-            'Browser_Maker' => 'unknown',
+            'Browser_Maker' => 'www.esrihu.hu',
             'Version' => '1.0',
             'MajorVer' => '1',
             'MinorVer' => '0',

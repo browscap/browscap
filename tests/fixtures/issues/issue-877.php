@@ -5,7 +5,7 @@ return [
         'Roku/DVP-6.2 (096.02E06005A)',
         [
             'Browser' => 'Roku DVP',
-            'Browser_Type' => 'Application',
+            'Browser_Type' => 'Multimedia Player',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Roku, Inc.',
             'Browser_Modus' => 'unknown',

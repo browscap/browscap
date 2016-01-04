@@ -1614,7 +1614,7 @@
           "match": "Mozilla\/5.0 (compatible; Crawler\/0.9*",
           "properties": {
             "Browser": "Crawler",
-            "Browser_Maker": "linkfluence.net",
+            "Browser_Maker": "Linkfluence SAS",
             "Version": "0.9",
             "MajorVer": "0",
             "MinorVer": "9"
@@ -1624,7 +1624,7 @@
           "match": "Mozilla\/5.0 (compatible; Crawler\/*",
           "properties": {
             "Browser": "Crawler",
-            "Browser_Maker": "linkfluence.net"
+            "Browser_Maker": "Linkfluence SAS"
           }
         },
         {

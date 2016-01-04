@@ -440,7 +440,7 @@ return [
             'Browser' => 'Windows Media Player',
             'Browser_Type' => 'Multimedia Player',
             'Browser_Bits' => '0',
-            'Browser_Maker' => 'unknown',
+            'Browser_Maker' => 'Microsoft Corporation',
             'Version' => '12.0',
             'MajorVer' => '12',
             'MinorVer' => '0',

@@ -390,7 +390,7 @@
         {
           "match": "Mnogosearch*",
           "properties": {
-            "Browser": "Mnogosearch"
+            "Browser": "MnoGoSearch"
           }
         },
         {

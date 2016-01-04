@@ -2727,7 +2727,7 @@ return [
             'Browser' => 'NaverBot',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
-            'Browser_Maker' => 'unknown',
+            'Browser_Maker' => 'NHN Corporation',
             'Version' => '1.1',
             'MajorVer' => '1',
             'MinorVer' => '1',
@@ -3180,7 +3180,7 @@ return [
     'issue-618-CM' => [
         'Googlebot-Image/1.0',
         [
-            'Browser' => 'Googlebot-Image',
+            'Browser' => 'Google Image Search',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Google Inc',
@@ -4248,7 +4248,7 @@ return [
     'issue-618-DQ' => [
         'MnoGoSearch/3.3.15',
         [
-            'Browser' => 'Mnogosearch',
+            'Browser' => 'MnoGoSearch',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',

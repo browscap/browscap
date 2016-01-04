@@ -1904,7 +1904,7 @@ return [
     'issue-513-BI' => [
         'Mozilla/5.0 (compatible; bnf.fr_bot; +http://www.bnf.fr/fr/outils/a.dl_web_capture_robot.html)',
         [
-            'Browser' => 'bnf.fr_bot',
+            'Browser' => 'bnf.fr Bot',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Bibliotheque nationale de France',
@@ -3838,12 +3838,12 @@ return [
     'issue-513-DV' => [
         'Mozilla/5.0 (Windows NT 6.4; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.137 Safari/537.36 LBBROWSER',
         [
-            'Browser' => 'Chrome',
+            'Browser' => 'liebao',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
-            'Browser_Maker' => 'Google Inc',
-            'Version' => '34.0',
-            'MajorVer' => '34',
+            'Browser_Maker' => 'Kingsoft',
+            'Version' => '0.0',
+            'MajorVer' => '0',
             'MinorVer' => '0',
             'Platform' => 'Win10',
             'Platform_Version' => '6.4',
@@ -3862,7 +3862,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-513-DW' => [

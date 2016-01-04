@@ -3497,7 +3497,7 @@ return [
             'Browser' => 'R6 CommentReader',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
-            'Browser_Maker' => 'salesforce.com, inc.',
+            'Browser_Maker' => 'Salesforce.com, Inc.',
             'Version' => '0.0',
             'MajorVer' => '0',
             'MinorVer' => '0',
