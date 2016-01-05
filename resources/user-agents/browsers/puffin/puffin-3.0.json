@@ -82,6 +82,42 @@
           "platforms": [
             "iOS"
           ]
+        },
+        {
+          "match": "Mozilla\/5.0 (iPad#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) *Chrome\/* Safari\/* Puffin\/#MAJORVER#*IT*",
+          "device": "iPad",
+          "engine": "WebKit",
+          "platforms": [
+            "iOS_C_7_1", "iOS_C_7_0", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_5_1", "iOS_C_5_0", "iOS_C",
+            "iOS_A_7_1", "iOS_A_7_0", "iOS_A_6_1", "iOS_A_6_0", "iOS_A_5_1", "iOS_A_5_0", "iOS_A"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (iPhone#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) *Chrome\/* Safari\/* Puffin\/#MAJORVER#*IP*",
+          "device": "iPad",
+          "engine": "WebKit",
+          "platforms": [
+            "iOS_C_7_1", "iOS_C_7_0", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_5_1", "iOS_C_5_0", "iOS_C",
+            "iOS_A_7_1", "iOS_A_7_0", "iOS_A_6_1", "iOS_A_6_0", "iOS_A_5_1", "iOS_A_5_0", "iOS_A"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (iPod#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) *Chrome\/* Safari\/* Puffin\/#MAJORVER#*IP*",
+          "device": "iPod Touch",
+          "engine": "WebKit",
+          "platforms": [
+            "iOS_C_7_1", "iOS_C_7_0", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_5_1", "iOS_C_5_0", "iOS_C",
+            "iOS_A_7_1", "iOS_A_7_0", "iOS_A_6_1", "iOS_A_6_0", "iOS_A_5_1", "iOS_A_5_0", "iOS_A"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) *Chrome\/* Safari\/* Puffin\/#MAJORVER#*I?*",
+          "device": "general Mobile Device (Apple)",
+          "engine": "WebKit",
+          "platforms": [
+            "iOS_C_7_1", "iOS_C_7_0", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_5_1", "iOS_C_5_0", "iOS_C",
+            "iOS_A_7_1", "iOS_A_7_0", "iOS_A_6_1", "iOS_A_6_0", "iOS_A_5_1", "iOS_A_5_0", "iOS_A"
+          ]
         }
       ]
     }
