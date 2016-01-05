@@ -74,14 +74,6 @@
           "platforms": [
             "iOS"
           ]
-        },
-        {
-          "match": "Mozilla\/5.0 (*Linux x86_64*) AppleWebKit\/* (KHTML, like Gecko) *Chrome\/* Safari\/* Puffin\/#MAJORVER#.#MINORVER#.*I?*",
-          "device": "general Mobile Device (Apple)",
-          "engine": "WebKit",
-          "platforms": [
-            "iOS"
-          ]
         }
       ]
     }
