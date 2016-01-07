@@ -1,0 +1,38 @@
+{
+  "division": "Wire App #MAJORVER#.#MINORVER#",
+  "versions": ["2.3"],
+  "sortIndex": 2220,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Wire App #MAJORVER#.#MINORVER#",
+      "engine": "Blink",
+      "device": "general Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Wire App #MAJORVER#.#MINORVER#",
+        "Browser": "Wire App",
+        "Browser_Type": "Application",
+        "Browser_Maker": "Wire Swiss GmbH",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Wire\/#MAJORVER#.#MINORVER#* Chrome\/* Electron\/* Safari\/*",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX_10_11", "OSX_10_10", "OSX"
+          ]
+        }
+      ]
+    }
+  ]
+}
