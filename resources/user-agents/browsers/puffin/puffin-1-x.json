@@ -1,0 +1,75 @@
+{
+  "division": "Puffin #MAJORVER#.#MINORVER#",
+  "versions": ["1.3", 1],
+  "sortIndex": 1123,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Puffin #MAJORVER#.#MINORVER#",
+      "platform": "Android",
+      "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Puffin #MAJORVER#.#MINORVER#",
+        "Browser": "Puffin",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "CloudMosa Inc.",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "2"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Puffin\/#MAJORVER#.#MINORVER#*S *Safari\/*",
+          "platforms": [
+            "Android_2_2", "Android_2_3",
+            "Android_3_0", "Android_3_1", "Android_3_2",
+            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (iPod#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Puffin\/#MAJORVER#.#MINORVER#*MS *Safari\/*",
+          "device": "iPod Touch",
+          "engine": "WebKit",
+          "platforms": [
+            "iOS_C_4_3", "iOS_C",
+            "iOS_A_4_3", "iOS_A"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (*Linux*) AppleWebKit\/* (KHTML, like Gecko) Puffin\/#MAJORVER#.#MINORVER#*MS *Safari\/*",
+          "platforms": [
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Chrome\/* Safari\/* Puffin\/#MAJORVER#.#MINORVER#*AT Mobile",
+          "device": "general Tablet",
+          "platforms": [
+            "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
+            "Android_2_0", "Android_2_1", "Android_2_2", "Android_2_3",
+            "Android_3_0", "Android_3_1", "Android_3_2",
+            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Chrome\/* Safari\/* Puffin\/#MAJORVER#.#MINORVER#* Mobile",
+          "platforms": [
+            "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
+            "Android_2_0", "Android_2_1", "Android_2_2", "Android_2_3",
+            "Android_3_0", "Android_3_1", "Android_3_2",
+            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}
