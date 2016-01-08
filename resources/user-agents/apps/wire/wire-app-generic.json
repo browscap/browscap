@@ -1,0 +1,34 @@
+{
+  "division": "Wire App Generic",
+  "sortIndex": 2221,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Wire App Generic",
+      "engine": "Blink",
+      "device": "general Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Wire App Generic",
+        "Browser": "Wire App",
+        "Browser_Type": "Application",
+        "Browser_Maker": "Wire Swiss GmbH",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Wire\/* Chrome\/* Electron\/* Safari\/*",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX_10_11", "OSX_10_10", "OSX"
+          ]
+        }
+      ]
+    }
+  ]
+}
