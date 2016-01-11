@@ -293,13 +293,6 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#HTC_Desire_A8181 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
-          "device": "HTC Desire A8181",
-          "platforms": [
-            "Android_2_1", "Android_2_2", "Android_2_3"
-          ]
-        },
-        {
           "match": "Mozilla\/5.0 (#PLATFORM#Droid Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Motorola Droid",
           "platforms": [
@@ -308,13 +301,6 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#E10i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
-          "device": "SonyEricsson E10i",
-          "platforms": [
-            "Android_2_1"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#SonyEricssonE10i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "SonyEricsson E10i",
           "platforms": [
             "Android_2_1"
@@ -392,13 +378,6 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#GT540 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
-          "device": "LG GT540",
-          "platforms": [
-            "Android_2_1"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#LG-GT540 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "LG GT540",
           "platforms": [
             "Android_2_1"
@@ -570,13 +549,6 @@
           "device": "Motorola MB525",
           "platforms": [
             "Android_2_1", "Android_2_2", "Android_2_3"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#MotoMB525 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
-          "device": "Motorola MB525",
-          "platforms": [
-            "Android_2_1", "Android_2_2"
           ]
         },
         {
@@ -1951,13 +1923,6 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#SonyEricssonLT18i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
-          "device": "SonyEricsson LT18i",
-          "platforms": [
-            "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2"
-          ]
-        },
-        {
           "match": "Mozilla\/5.0 (#PLATFORM#SonyEricssonLT18iv Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "SonyEricsson LT18iv",
           "platforms": [
@@ -2079,13 +2044,6 @@
           "match": "Mozilla\/5.0 (#PLATFORM#MT15i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "SonyEricsson MT15i",
           "platforms": [
-            "Android_2_3"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#SonyEricssonMT15i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
-          "device": "SonyEricsson MT15i",
-          "platforms": [
             "Android_2_3", "Android_4_0"
           ]
         },
@@ -2160,13 +2118,6 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#SonyEricssonR800i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
-          "device": "SonyEricsson R800i",
-          "platforms": [
-            "Android_2_3"
-          ]
-        },
-        {
           "match": "Mozilla\/5.0 (#PLATFORM#SonyEricssonR800iv Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "SonyEricsson R800iv",
           "platforms": [
@@ -2202,13 +2153,6 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#SonyEricssonSK17i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
-          "device": "SonyEricsson SK17i",
-          "platforms": [
-            "Android_2_3", "Android_4_0"
-          ]
-        },
-        {
           "match": "Mozilla\/5.0 (#PLATFORM#SonyEricssonSK17iv Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "SonyEricsson SK17iv",
           "platforms": [
@@ -2234,13 +2178,6 @@
           "device": "SonyEricsson ST18i",
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#SonyEricssonST18i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
-          "device": "SonyEricsson ST18i",
-          "platforms": [
-            "Android_2_3", "Android_4_0"
           ]
         },
         {
@@ -3566,21 +3503,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#SonyEricssonLT28h Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
-          "device": "SonyEricsson LT28h",
-          "platforms": [
-            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
-          ]
-        },
-        {
           "match": "Mozilla\/5.0 (#PLATFORM#LT30p Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
-          "device": "Sony LT30p",
-          "platforms": [
-            "Android_4_0", "Android_4_1"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#SonyLT30p Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Sony LT30p",
           "platforms": [
             "Android_4_0", "Android_4_1"

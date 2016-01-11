@@ -182,13 +182,6 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#SonyEricssonE10i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-          "device": "SonyEricsson E10i",
-          "platforms": [
-            "Android_1_6"
-          ]
-        },
-        {
           "match": "Mozilla\/5.0 (#PLATFORM#SonyEricssonE10iv Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "device": "SonyEricsson E10iv",
           "platforms": [
