@@ -205,6 +205,8 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/#MAJORVER#.*",
           "platforms": [
+            "AndroidMobile_4_0", "AndroidMobile_4_1", "AndroidMobile_4_2", "AndroidMobile_4_3", "AndroidMobile_4_4",
+            "AndroidMobile_5_0", "AndroidMobile_5_1",
             "AndroidMobile"
           ]
         },
@@ -212,6 +214,8 @@
           "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/#MAJORVER#.*",
           "device": "general Tablet",
           "platforms": [
+            "AndroidTablet_4_0", "AndroidTablet_4_1", "AndroidTablet_4_2", "AndroidTablet_4_3", "AndroidTablet_4_4",
+            "AndroidTablet_5_0", "AndroidTablet_5_1",
             "AndroidTablet"
           ]
         }
