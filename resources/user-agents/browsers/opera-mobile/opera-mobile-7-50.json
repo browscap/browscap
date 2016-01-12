@@ -75,13 +75,6 @@
           "platforms": [
             "WinMobile"
           ]
-        },
-        {
-          "match": "MOT-E680i\/E680I_G_0D.C3.A8P Mozilla\/4.0 (*compatible*;*MSIE 6.0; Linux; Motorola; *) Profile\/MIDP-2.0*",
-          "device": "general Mobile Phone",
-          "platforms": [
-            "WinMobile"
-          ]
         }
       ]
     }

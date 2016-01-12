@@ -430,7 +430,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#Nexus 4 *) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "device": "LG Nexus 4",
           "platforms": [
-            "Android_4_2"
+            "Android_4_1", "Android_4_2"
           ]
         },
         {
@@ -681,13 +681,6 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#SGP321 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "device": "Sony SGP321",
-          "platforms": [
-            "Android_4_1", "Android_4_2"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#Nexus 4 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "device": "LG Nexus 4",
           "platforms": [
             "Android_4_1", "Android_4_2"
           ]
