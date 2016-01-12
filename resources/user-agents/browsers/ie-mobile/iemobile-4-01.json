@@ -236,27 +236,6 @@
           ]
         },
         {
-          "match": "MOT-MPx220\/0.3* Mozilla\/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE*",
-          "device": "Motorola MPx220",
-          "platforms": [
-            "WinCE"
-          ]
-        },
-        {
-          "match": "MOT-MPx220\/1.* Mozilla\/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE*",
-          "device": "Motorola MPx220",
-          "platforms": [
-            "WinCE"
-          ]
-        },
-        {
-          "match": "MOT-MPx220\/3* Mozilla\/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE*",
-          "device": "Motorola MPx220",
-          "platforms": [
-            "WinCE"
-          ]
-        },
-        {
           "match": "MOT-MPx230\/* Mozilla\/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE*",
           "device": "Motorola MPx230",
           "platforms": [
