@@ -83,7 +83,6 @@
         },
         {
           "match": "ASTRO36_TD\/* Browser\/Opera *Profile\/MIDP* Opera\/*(MTK*)*Version\/#MAJORVER#.#MINORVER#*",
-          "device": "Micromax X650",
           "platforms": [
             "Android"
           ]

@@ -4105,7 +4105,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#LIFETAB_E7312 Build\/*) AppleWebKit* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
-          "device": "Medion Lifetab E7312",
+          "device": "Medion LifeTab E7312",
           "platforms": [
             "Android_4_2"
           ]
@@ -4133,7 +4133,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#LIFETAB_E7316 Build\/*) AppleWebKit* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
-          "device": "Medion Lifetab E7316",
+          "device": "Medion LifeTab E7316",
           "platforms": [
             "Android_4_2"
           ]
@@ -4455,7 +4455,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#LIFETAB_S1033X Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
-          "device": "Lenovo Lifetab S1033X",
+          "device": "Lenovo LifeTab S1033X",
           "platforms": [
             "Android_4_4"
           ]

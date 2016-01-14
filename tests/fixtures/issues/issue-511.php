@@ -1284,7 +1284,7 @@ return [
             'isMobileDevice' => true,
             'isTablet' => true,
             'Crawler' => false,
-            'Device_Name' => 'Xperia Tablet Z2',
+            'Device_Name' => 'Xperia Tablet Z WiFi',
             'Device_Maker' => 'Sony',
             'Device_Type' => 'Tablet',
             'Device_Pointing_Method' => 'touchscreen',

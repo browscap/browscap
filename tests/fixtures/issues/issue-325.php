@@ -50,7 +50,7 @@ return [
             'isMobileDevice' => true,
             'isTablet' => true,
             'Crawler' => false,
-            'Device_Name' => 'Kindle Fire HDX 7',
+            'Device_Name' => 'Kindle Fire HDX 7 WiFi',
             'Device_Maker' => 'Amazon.com, Inc.',
             'Device_Type' => 'Tablet',
             'Device_Pointing_Method' => 'touchscreen',

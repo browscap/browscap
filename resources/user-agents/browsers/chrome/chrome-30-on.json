@@ -1918,7 +1918,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#LIFETAB_S1033X Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "device": "Lenovo Lifetab S1033X",
+          "device": "Lenovo LifeTab S1033X",
           "platforms": [
             "Android_4_4"
           ]

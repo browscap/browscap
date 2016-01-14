@@ -1521,7 +1521,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#NGM Miracle Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "device": "NGM WeMove Miracle",
           "platforms": [
-            "Android_2_2"
+            "Android_2_2", "Android_2_3", "Android_4_0"
           ]
         },
         {
@@ -4528,7 +4528,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#LIFETAB_E7312 Build\/*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "Medion Lifetab E7312",
+          "device": "Medion LifeTab E7312",
           "platforms": [
             "Android_4_2"
           ]
@@ -4556,7 +4556,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#LIFETAB_E7316 Build\/*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "Medion Lifetab E7316",
+          "device": "Medion LifeTab E7316",
           "platforms": [
             "Android_4_2"
           ]

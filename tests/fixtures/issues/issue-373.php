@@ -18,7 +18,7 @@ return [
             'isMobileDevice' => true,
             'isTablet' => false,
             'Crawler' => false,
-            'Device_Name' => '220',
+            'Device_Name' => 'Asha 220',
             'Device_Maker' => 'Nokia',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'unknown',

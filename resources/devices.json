@@ -368,8 +368,8 @@
       "standard": true,
       "properties": {
         "Device_Type": "TV Device",
-        "Device_Code_Name": "GoogleTV",
-        "Device_Name": "GoogleTV",
+        "Device_Code_Name": "Google TV",
+        "Device_Name": "Google TV",
         "Device_Maker": "Google Inc",
         "Device_Brand_Name": "Google",
         "Device_Pointing_Method": "mouse",
@@ -537,8 +537,8 @@
       "standard": true,
       "properties": {
         "Device_Type": "Console",
-        "Device_Code_Name": "Playstation Vita",
-        "Device_Name": "Playstation Vita",
+        "Device_Code_Name": "PlayStation Vita",
+        "Device_Name": "PlayStation Vita",
         "Device_Maker": "Sony",
         "Device_Brand_Name": "Sony",
         "Device_Pointing_Method": "unknown",
@@ -1460,7 +1460,7 @@
       "standard": true,
       "properties": {
         "Device_Type": "Tablet",
-        "Device_Code_Name": "Tablet P",
+        "Device_Code_Name": "SGPT211",
         "Device_Name": "Tablet P",
         "Device_Maker": "Sony",
         "Device_Brand_Name": "Sony",
@@ -2163,7 +2163,7 @@
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "SGP512",
-        "Device_Name": "Xperia Tablet Z2",
+        "Device_Name": "Xperia Tablet Z WiFi",
         "Device_Maker": "Sony",
         "Device_Brand_Name": "Sony",
         "Device_Pointing_Method": "touchscreen",
@@ -3437,7 +3437,7 @@
       "properties": {
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-I8350",
-        "Device_Name": "GT-I8350",
+        "Device_Name": "Omnia W",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "touchscreen",
@@ -3892,7 +3892,7 @@
       "properties": {
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "GT-S5230",
-        "Device_Name": "GT-S5230",
+        "Device_Name": "Star",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "unknown",
@@ -4776,7 +4776,7 @@
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "GT-P5210",
-        "Device_Name": "Galaxy Tab 3 10.1",
+        "Device_Name": "Galaxy Tab 3 10.1 3G WiFi",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "touchscreen",
@@ -5933,7 +5933,7 @@
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "SM-T520",
-        "Device_Name": "Galaxy Tab Pro 10.1",
+        "Device_Name": "Galaxy Tab Pro 10.1 WiFi",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "touchscreen",
@@ -5959,7 +5959,7 @@
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "SM-T530",
-        "Device_Name": "Galaxy Tab 4 10.1",
+        "Device_Name": "Galaxy Tab 4 10.1 WiFi",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "touchscreen",
@@ -5972,7 +5972,7 @@
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "SM-T535",
-        "Device_Name": "Galaxy Tab 4 10.1",
+        "Device_Name": "Galaxy Tab 4 10.1 LTE",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "touchscreen",
@@ -18590,12 +18590,12 @@
         "isTablet": "true"
       }
     },
-    "Medion Lifetab E7312": {
+    "Medion LifeTab E7312": {
       "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "MD 98488",
-        "Device_Name": "Lifetab E7312",
+        "Device_Name": "LifeTab E7312",
         "Device_Maker": "Medion",
         "Device_Brand_Name": "Medion",
         "Device_Pointing_Method": "touchscreen",
@@ -18603,12 +18603,12 @@
         "isTablet": "true"
       }
     },
-    "Medion Lifetab E7316": {
+    "Medion LifeTab E7316": {
       "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "MD 98282",
-        "Device_Name": "Lifetab E7316",
+        "Device_Name": "LifeTab E7316",
         "Device_Maker": "Medion",
         "Device_Brand_Name": "Medion",
         "Device_Pointing_Method": "touchscreen",
@@ -19635,7 +19635,7 @@
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "KFTHWI",
-        "Device_Name": "Kindle Fire HDX 7",
+        "Device_Name": "Kindle Fire HDX 7 WiFi",
         "Device_Maker": "Amazon.com, Inc.",
         "Device_Brand_Name": "Amazon",
         "Device_Pointing_Method": "touchscreen",
@@ -20934,7 +20934,7 @@
       "standard": false,
       "properties": {
         "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "808PureView",
+        "Device_Code_Name": "808 PureView",
         "Device_Name": "808 PureView",
         "Device_Maker": "Nokia",
         "Device_Brand_Name": "Nokia",
@@ -20974,6 +20974,19 @@
       "properties": {
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "2323c",
+        "Device_Name": "2323 classic",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia 2320c": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "2320c",
         "Device_Name": "2320 classic",
         "Device_Maker": "Nokia",
         "Device_Brand_Name": "Nokia",
@@ -22677,7 +22690,7 @@
       "properties": {
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "220",
-        "Device_Name": "220",
+        "Device_Name": "Asha 220",
         "Device_Maker": "Nokia",
         "Device_Brand_Name": "Nokia",
         "Device_Pointing_Method": "unknown",
@@ -22716,7 +22729,7 @@
       "properties": {
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "306",
-        "Device_Name": "306",
+        "Device_Name": "Asha 306",
         "Device_Maker": "Nokia",
         "Device_Brand_Name": "Nokia",
         "Device_Pointing_Method": "unknown",
@@ -23106,7 +23119,7 @@
       "properties": {
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "OT-4030D",
-        "Device_Name": "OT-4030D",
+        "Device_Name": "S-POP",
         "Device_Maker": "Alcatel",
         "Device_Brand_Name": "Alcatel",
         "Device_Pointing_Method": "touchscreen",
@@ -26117,12 +26130,12 @@
         "isTablet": "true"
       }
     },
-    "Lenovo Lifetab S1033X": {
+    "Lenovo LifeTab S1033X": {
       "standard": true,
       "properties": {
         "Device_Type": "Tablet",
-        "Device_Code_Name": "Lifetab S1033X",
-        "Device_Name": "Lifetab S1033X",
+        "Device_Code_Name": "LifeTab S1033X",
+        "Device_Name": "LifeTab S1033X",
         "Device_Maker": "Lenovo",
         "Device_Brand_Name": "Lenovo",
         "Device_Pointing_Method": "touchscreen",
@@ -26304,7 +26317,7 @@
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "B8080-F",
-        "Device_Name": "Yoga Tab 10 HD+",
+        "Device_Name": "Yoga Tablet 10 HD+",
         "Device_Maker": "Lenovo",
         "Device_Brand_Name": "Lenovo",
         "Device_Pointing_Method": "touchscreen",
@@ -27462,6 +27475,19 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Pre",
         "Device_Name": "Pre",
+        "Device_Maker": "HP",
+        "Device_Brand_Name": "HP",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HP Pre3": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Pre3",
+        "Device_Name": "Pre3",
         "Device_Maker": "HP",
         "Device_Brand_Name": "HP",
         "Device_Pointing_Method": "unknown",
@@ -28840,6 +28866,19 @@
         "Device_Type": "Mobile Phone",
         "Device_Name": "MI 2S",
         "Device_Code_Name": "MI 2S",
+        "Device_Maker": "Xiaomi Tech",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Xiaomi",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Xiaomi MI 2A": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "MI 2A",
+        "Device_Code_Name": "MI 2A",
         "Device_Maker": "Xiaomi Tech",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Xiaomi",
@@ -36731,6 +36770,19 @@
         "Device_Type": "Mobile Phone",
         "Device_Name": "WOW",
         "Device_Code_Name": "WOW",
+        "Device_Maker": "Intex",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Intex",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Intex Aqua Star": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Aqua Star",
+        "Device_Code_Name": "Aqua Star",
         "Device_Maker": "Intex",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Intex",
