@@ -57,9 +57,6 @@
           "match": "DoCoMo\/#MAJORVER#.#MINORVER# N900i*"
         },
         {
-          "match": "DoCoMo\/#MAJORVER#.#MINORVER# N900iS(c100;TB;W30H15)"
-        },
-        {
           "match": "DoCoMo\/#MAJORVER#.#MINORVER# N900iS*"
         },
         {

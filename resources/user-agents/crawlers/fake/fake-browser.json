@@ -16,12 +16,6 @@
       },
       "children": [
         {
-          "match": "* UP.Browser\/*"
-        },
-        {
-          "match": "* UP.Browser\/6.*"
-        },
-        {
           "match": "*Google Chrome*"
         },
         {

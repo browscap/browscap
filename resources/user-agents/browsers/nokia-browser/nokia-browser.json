@@ -659,13 +659,6 @@
           ]
         },
         {
-          "match": "Nokia7610\/2.0 (6.0522.0) SymbianOS\/*",
-          "device": "Nokia 7610",
-          "platforms": [
-            "SymbianOS"
-          ]
-        },
-        {
           "match": "Nokia7610\/2.0 *SymbianOS\/*",
           "device": "Nokia 7610",
           "platforms": [
