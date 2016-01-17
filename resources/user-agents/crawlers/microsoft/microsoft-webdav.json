@@ -1,0 +1,39 @@
+{
+  "division": "Microsoft-WebDAV",
+  "sortIndex": 421,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Microsoft-WebDAV",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Microsoft-WebDAV",
+        "Browser": "Microsoft-WebDAV",
+        "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "Microsoft Corporation",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Microsoft-WebDAV-MiniRedir\/6.1*",
+          "properties": {
+            "Version": "6.1",
+            "MajorVer": "6",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "Microsoft-WebDAV-MiniRedir\/*"
+        },
+        {
+          "match": "DavClnt*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win7_32"
+          ]
+        }
+      ]
+    }
+  ]
+}

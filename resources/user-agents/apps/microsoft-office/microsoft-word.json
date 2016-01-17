@@ -62,6 +62,17 @@
           ]
         },
         {
+          "match": "Microsoft Office\/15.* (#PLATFORM#Microsoft Word 15.*)",
+          "device": "Windows Desktop",
+          "properties": {
+            "Version": "2013",
+            "MajorVer": "2013"
+          },
+          "platforms": [
+            "Win8_32"
+          ]
+        },
+        {
           "match": "Microsoft Office Word 2013 (15.*) #PLATFORM#",
           "device": "Windows Desktop",
           "properties": {
@@ -73,15 +84,18 @@
           ]
         },
         {
-          "match": "Microsoft Office\/15.* (#PLATFORM#Microsoft Word 15.*)",
-          "device": "Windows Desktop",
+          "match": "Microsoft Office Word 2013",
           "properties": {
             "Version": "2013",
             "MajorVer": "2013"
-          },
-          "platforms": [
-            "Win8_32"
-          ]
+          }
+        },
+        {
+          "match": "Microsoft Office Word 2014",
+          "properties": {
+            "Version": "2014",
+            "MajorVer": "2014"
+          }
         }
       ]
     }

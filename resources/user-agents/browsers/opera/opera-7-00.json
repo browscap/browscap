@@ -115,7 +115,7 @@
           "device": "Windows Desktop",
           "platforms": [
             "Win2000", "Win2000_2", "WinME", "WinME_2", "Win95_2", "Win98_2", "NT4",
-            "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32", "Win8_32", "Win8_1_32"
+            "WinXPa_32", "WinXPb_32", "WinXPa_v2", "Vista_32", "Win7_32", "Win8_32", "Win8_1_32"
           ]
         },
         {

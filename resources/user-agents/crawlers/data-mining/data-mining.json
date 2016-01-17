@@ -37,6 +37,12 @@
             "Browser": "Lucidworks Bot",
             "Browser_Maker": "Lucidworks"
           }
+        },
+        {
+          "match": "Mozilla\/5.0 CommonCrawler Node*",
+          "properties": {
+            "Browser": "CommonCrawler Node"
+          }
         }
       ]
     }

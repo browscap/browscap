@@ -1063,7 +1063,7 @@ return [
             'Browser' => 'Exabot',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
-            'Browser_Maker' => 'Dasault Systems',
+            'Browser_Maker' => 'Dassault Systemes',
             'Version' => '3.0',
             'MajorVer' => '3',
             'MinorVer' => '0',

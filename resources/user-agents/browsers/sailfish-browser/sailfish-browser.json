@@ -40,6 +40,19 @@
           "platforms": [
             "SailfishOS"
           ]
+        },
+        {
+          "match": "Mozilla\/5.0 (*Jolla#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Mobile Safari\/*",
+          "device": "Jolla Phone",
+          "platforms": [
+            "SailfishOS"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Mobile Safari\/*",
+          "platforms": [
+            "SailfishOS"
+          ]
         }
       ]
     }

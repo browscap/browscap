@@ -1,17 +1,17 @@
 {
-  "division": "E28",
+  "division": "WAP Browser",
   "sortIndex": 3940,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "E28",
+      "userAgent": "WAP Browser",
       "platform": "JAVA",
       "device": "general Mobile Device",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "E28",
-        "Browser": "E28",
+        "Comment": "WAP Browser",
+        "Browser": "WAP Browser",
         "Browser_Type": "Browser",
         "Alpha": "false",
         "Beta": "false",
@@ -41,6 +41,38 @@
         },
         {
           "match": "e28\/1.0.0.0(2005.09.20)\/WAP2.0 Profile\/MIDP2.0 Configuration\/CLDC1.1"
+        },
+        {
+          "match": "KKT20\/*",
+          "device": "Lava KKT20"
+        },
+        {
+          "match": "Videocon_S351_Wap Browser*",
+          "device": "Videocon S351"
+        },
+        {
+          "match": "WAP Browser Karbonn K52*",
+          "device": "Karbonn K52"
+        },
+        {
+          "match": "Spice QT-75*",
+          "device": "Spice QT-75"
+        },
+        {
+          "match": "LAVA Spark284*",
+          "device": "Lava Spark284"
+        },
+        {
+          "match": "Lemon B556*",
+          "device": "Lemon B556"
+        },
+        {
+          "match": "TIANYU-KTOUCH\/A930*",
+          "device": "K-Touch Tianyu A930"
+        },
+        {
+          "match": "SAMSUNG-SPH-L720\/*",
+          "device": "Samsung SPH-L720"
         }
       ]
     }

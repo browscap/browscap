@@ -1,0 +1,41 @@
+{
+  "division": "kioclient Generic",
+  "sortIndex": 1851,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "kioclient Generic",
+      "engine": "WebKit",
+      "device": "general Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "kioclient Generic",
+        "Browser": "kioclient",
+        "Browser_Type": "Application",
+        "Browser_Maker": "KDE e.V.",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Cookies": "false",
+        "JavaScript": "false",
+        "isSyndicationReader": "false",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "false"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) kioclient\/* Safari\/*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "ChromeOS", "CentOS", "Linux_64", "Linux_32", "Linux"
+          ]
+        }
+      ]
+    }
+  ]
+}

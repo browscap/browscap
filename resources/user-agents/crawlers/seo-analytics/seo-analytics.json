@@ -35,23 +35,6 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; Alexabot\/1.0; *",
-          "properties": {
-            "Browser": "Alexabot",
-            "Browser_Maker": "Alexa Internet, Inc",
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (compatible; Alexabot\/*",
-          "properties": {
-            "Browser": "Alexabot",
-            "Browser_Maker": "Alexa Internet, Inc"
-          }
-        },
-        {
           "match": "WebTarantula.com Crawler*",
           "properties": {
             "Browser": "WebTarantula",
@@ -166,6 +149,13 @@
           }
         },
         {
+          "match": "vBulletin via PHP*",
+          "properties": {
+            "Browser": "vBulletin Bot",
+            "Browser_Maker": "www.vbseo.com"
+          }
+        },
+        {
           "match": "Mozilla\/5.0 (compatible; SemanticBot\/1.1*",
           "properties": {
             "Browser": "SemanticBot",
@@ -194,6 +184,23 @@
           "match": "bot-pge.chlooe.com\/*",
           "properties": {
             "Browser": "chlooe Bot",
+            "Browser_Maker": "AsiaWS network"
+          }
+        },
+        {
+          "match": "wscheck.com\/1.0*",
+          "properties": {
+            "Browser": "WSCheck Bot",
+            "Browser_Maker": "AsiaWS network",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "wscheck.com\/*",
+          "properties": {
+            "Browser": "WSCheck Bot",
             "Browser_Maker": "AsiaWS network"
           }
         },
@@ -230,6 +237,82 @@
           "platforms": [
             "WinXPa_32"
           ]
+        },
+        {
+          "match": "SEOstats 2.1*",
+          "properties": {
+            "Browser": "SEOstats",
+            "Browser_Maker": "Stephan Schmitz",
+            "Version": "2.1",
+            "MajorVer": "2",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "SEOstats*",
+          "properties": {
+            "Browser": "SEOstats",
+            "Browser_Maker": "Stephan Schmitz"
+          }
+        },
+        {
+          "match": "Athena Site Analyzer*",
+          "properties": {
+            "Browser": "Athena Site Analyzer",
+            "Browser_Maker": "bestsiteanalyzer.com"
+          }
+        },
+        {
+          "match": "AuditMyPC Webmaster Tool*",
+          "properties": {
+            "Browser": "AuditMyPC Webmaster Tool",
+            "Browser_Maker": "AuditMyPC.com"
+          }
+        },
+        {
+          "match": "SPDYCheck SPDY Protocol Tester*",
+          "properties": {
+            "Browser": "SPDYCheck SPDY Protocol Tester",
+            "Browser_Maker": "Rigor Inc."
+          }
+        },
+        {
+          "match": "WeSEE",
+          "properties": {
+            "Browser": "WeSEE Bot",
+            "Browser_Maker": "WeSEE"
+          }
+        },
+        {
+          "match": "WeSEE_Bot*",
+          "properties": {
+            "Browser": "WeSEE Bot",
+            "Browser_Maker": "WeSEE"
+          }
+        },
+        {
+          "match": "Page Analyzer v4.0*",
+          "properties": {
+            "Browser": "Page Analyzer",
+            "Browser_Maker": "ranks.nl",
+            "Version": "4.0",
+            "MajorVer": "4",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Page Analyzer*",
+          "properties": {
+            "Browser": "Page Analyzer",
+            "Browser_Maker": "ranks.nl"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; http://alyze.info*",
+          "properties": {
+            "Browser": "alyze Bot",
+            "Browser_Maker": "Alexandre Tourette"
+          }
         }
       ]
     }

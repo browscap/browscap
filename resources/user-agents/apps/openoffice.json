@@ -38,6 +38,17 @@
         },
         {
           "match": "OpenOffice*"
+        },
+        {
+          "match": "Apache OpenOffice\/4.1*",
+          "properties": {
+            "Version": "4.1",
+            "MajorVer": "4",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "Apache OpenOffice*"
         }
       ]
     }

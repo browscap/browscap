@@ -35,6 +35,12 @@
         },
         {
           "match": "Mozilla\/5.0 (*like MacOS X) AppleWebKit\/* (KHTML, like Gecko) Version\/*Safari\/*"
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Macintosh*"
+        },
+        {
+          "match": "*Safari\/12x.x*"
         }
       ]
     }

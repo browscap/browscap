@@ -38,6 +38,12 @@
         },
         {
           "match": "Mozilla\/5.0 (Windows NT 7.0*) Gecko\/* Firefox\/*"
+        },
+        {
+          "match": "   Gecko*"
+        },
+        {
+          "match": "Mozilla\/5.0 (X11;) Firefox*"
         }
       ]
     }

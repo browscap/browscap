@@ -82,6 +82,13 @@
           "platforms": [
             "Win8_32"
           ]
+        },
+        {
+          "match": "Microsoft Office PowerPoint 2013",
+          "properties": {
+            "Version": "2013",
+            "MajorVer": "2013"
+          }
         }
       ]
     }

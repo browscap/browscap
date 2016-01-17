@@ -37,6 +37,12 @@
           ]
         },
         {
+          "match": "Mozilla\/4.0 (#PLATFORM#Opera Mobi*)*Version\/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "WinMobile"
+          ]
+        },
+        {
           "match": "Browser\/Opera Opera\/*(MTK*)*Version\/#MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone (Touch)",
           "platforms": [

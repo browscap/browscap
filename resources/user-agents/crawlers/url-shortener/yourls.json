@@ -1,0 +1,72 @@
+{
+  "division": "YOURLS",
+  "sortIndex": 501,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "YOURLS",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "YOURLS",
+        "Browser": "YOURLS",
+        "Browser_Maker": "unknown",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "YOURLS v1.7*",
+          "properties": {
+            "Version": "1.7",
+            "MajorVer": "1",
+            "MinorVer": "7"
+          }
+        },
+        {
+          "match": "YOURLS v1.6*",
+          "properties": {
+            "Version": "1.6",
+            "MajorVer": "1",
+            "MinorVer": "6"
+          }
+        },
+        {
+          "match": "YOURLS v1.5*",
+          "properties": {
+            "Version": "1.5",
+            "MajorVer": "1",
+            "MinorVer": "5"
+          }
+        },
+        {
+          "match": "YOURLS v1.4*",
+          "properties": {
+            "Version": "1.4",
+            "MajorVer": "1",
+            "MinorVer": "4"
+          }
+        },
+        {
+          "match": "YOURLS v1.2*",
+          "properties": {
+            "Version": "1.2",
+            "MajorVer": "1",
+            "MinorVer": "2"
+          }
+        },
+        {
+          "match": "YOURLS v1.0*",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "YOURLS *"
+        }
+      ]
+    }
+  ]
+}

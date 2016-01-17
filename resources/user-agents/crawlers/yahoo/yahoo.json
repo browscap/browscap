@@ -41,7 +41,10 @@
           "match": "Mozilla\/5.0 (compatible; del.icio.us-thumbnails\/*; *) KHTML\/* (like Gecko)"
         },
         {
-          "match": "YahooCacheSystem"
+          "match": "YahooCacheSystem*",
+          "properties": {
+            "Browser": "YahooCacheSystem"
+          }
         },
         {
           "match": "Mozilla\/4.0 (*compatible*;*MSIE 5.0; Windows NT)",

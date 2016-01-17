@@ -251,6 +251,139 @@
             "Browser": "AddThis.com robot",
             "Browser_Maker": "AddThis.com"
           }
+        },
+        {
+          "match": "NING\/1.0*",
+          "properties": {
+            "Browser": "NING",
+            "Browser_Maker": "Ning, Inc.",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "NING\/*",
+          "properties": {
+            "Browser": "NING",
+            "Browser_Maker": "Ning, Inc."
+          }
+        },
+        {
+          "match": "Sprinklr 2.0*",
+          "properties": {
+            "Browser": "Sprinklr",
+            "Browser_Maker": "SPRINKLR INC.",
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Sprinklr*",
+          "properties": {
+            "Browser": "Sprinklr",
+            "Browser_Maker": "SPRINKLR INC."
+          }
+        },
+        {
+          "match": "Traackr*",
+          "properties": {
+            "Browser": "Traackr",
+            "Browser_Maker": "Traackr Inc"
+          }
+        },
+        {
+          "match": "Kimengi\/nineconnections*",
+          "properties": {
+            "Browser": "nineconnections",
+            "Browser_Maker": "Kimengi"
+          }
+        },
+        {
+          "match": "Twikle\/1.0*",
+          "properties": {
+            "Browser": "Twikle Bot",
+            "Browser_Maker": "The NATEVIA Company",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Twikle\/*",
+          "properties": {
+            "Browser": "Twikle Bot",
+            "Browser_Maker": "The NATEVIA Company"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 Tweetminster*",
+          "properties": {
+            "Browser": "Tweetminster Bot",
+            "Browser_Maker": "Tweetminster"
+          }
+        },
+        {
+          "match": "Trove*",
+          "properties": {
+            "Browser": "Trove Bot",
+            "Browser_Maker": "SocialCode, LLC."
+          }
+        },
+        {
+          "match": "Pearltrees*",
+          "properties": {
+            "Browser": "Pearltrees Bot",
+            "Browser_Maker": "Pearltrees - Broceliand SAS"
+          }
+        },
+        {
+          "match": "Svven-Summarizer*",
+          "properties": {
+            "Browser": "Svven Summarizer Bot"
+          }
+        },
+        {
+          "match": "Leadify\/1.01*",
+          "properties": {
+            "Browser": "Leadify Bot",
+            "Browser_Maker": "Greenbowl Island (Pty) Ltd",
+            "Version": "1.01",
+            "MajorVer": "1",
+            "MinorVer": "01"
+          }
+        },
+        {
+          "match": "Leadify\/*",
+          "properties": {
+            "Browser": "Leadify Bot",
+            "Browser_Maker": "Greenbowl Island (Pty) Ltd"
+          }
+        },
+        {
+          "match": "inbound.li parser*",
+          "properties": {
+            "Browser": "inbound.li parser",
+            "Browser_Maker": "inboundli, UG."
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 ( compatible ; Veooz\/1.0*",
+          "properties": {
+            "Browser": "Veooz Bot",
+            "Browser_Maker": "Veooz Labs",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 ( compatible ; Veooz\/*",
+          "properties": {
+            "Browser": "Veooz Bot",
+            "Browser_Maker": "Veooz Labs"
+          }
         }
       ]
     }

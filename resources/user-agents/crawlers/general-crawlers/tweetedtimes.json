@@ -11,23 +11,23 @@
         "Comment": "TweetedTimes Bot",
         "Browser": "TweetedTimes Bot",
         "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "Semantic Dimension",
         "Crawler": "true"
       },
       "children": [
         {
           "match": "Mozilla\/5.0 (compatible; TweetedTimes Bot\/1.0*",
           "properties": {
-            "Browser": "TweetedTimes Bot",
             "Version": "1.0",
             "MajorVer": "1",
             "MinorVer": "0"
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; TweetedTimes Bot\/*",
-          "properties": {
-            "Browser": "TweetedTimes Bot"
-          }
+          "match": "Mozilla\/5.0 (compatible; TweetedTimes Bot\/*"
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; +http:\/\/tweetedtimes*"
         }
       ]
     }

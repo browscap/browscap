@@ -1,0 +1,32 @@
+{
+  "division": "GWPImages",
+  "sortIndex": 401,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "GWPImages",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "GWPImages",
+        "Browser": "GWPImages",
+        "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "unknown",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (compatible; GWPImages\/1.0*",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; GWPImages\/*"
+        }
+      ]
+    }
+  ]
+}

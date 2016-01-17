@@ -1,0 +1,39 @@
+{
+  "division": "ABrowse #MAJORVER#.#MINORVER#",
+  "versions": ["0.6", "0.5", "0.4"],
+  "sortIndex": 955,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "ABrowse #MAJORVER#.#MINORVER#",
+      "platform": "Syllable",
+      "engine": "WebKit",
+      "device": "general Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "ABrowse #MAJORVER#.#MINORVER#",
+        "Browser": "ABrowse",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Syllable Project",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (compatible; U; ABrowse #MAJORVER#.#MINORVER##PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*",
+          "platforms": [
+            "Syllable"
+          ]
+        }
+      ]
+    }
+  ]
+}

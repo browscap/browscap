@@ -1,0 +1,40 @@
+{
+  "division": "MultiZilla #MAJORVER#.#MINORVER#",
+  "versions": ["1.6"],
+  "sortIndex": 17582,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "MultiZilla #MAJORVER#.#MINORVER#",
+      "engine": "Gecko_Dynamic",
+      "device": "general Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "MultiZilla #MAJORVER#.#MINORVER#",
+        "Browser": "MultiZilla",
+        "Browser_Maker": "HJ van Rantwijk",
+        "Browser_Type": "Browser",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Win32": "false",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "2"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko MultiZilla\/#MAJORVER#.#MINORVER#*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "WinXPa_v2"
+          ]
+        }
+      ]
+    }
+  ]
+}

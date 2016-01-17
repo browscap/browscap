@@ -1,18 +1,17 @@
 {
-  "division": "Dorado WAP Browser",
-  "sortIndex": 3931,
+  "division": "HubSpot Grader",
+  "sortIndex": 1101,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "Dorado WAP Browser",
-      "platform": "JAVA",
-      "device": "general Mobile Phone",
+      "userAgent": "HubSpot Grader",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Dorado WAP Browser",
-        "Browser": "Dorado WAP Browser",
-        "Browser_Type": "Browser",
+        "Comment": "HubSpot Grader",
+        "Browser": "HubSpot Grader",
+        "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "HubSpot, Inc.",
         "Alpha": "false",
         "Beta": "false",
         "Win16": "false",
@@ -24,19 +23,14 @@
         "Cookies": "false",
         "JavaScript": "false",
         "isSyndicationReader": "false",
-        "Crawler": "false"
+        "Crawler": "true"
       },
       "children": [
         {
-          "match": "Dorado WAP-Browser\/1.0*",
+          "match": "HubSpot Marketing Grader*",
           "properties": {
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Browser": "Marketing Grader"
           }
-        },
-        {
-          "match": "Dorado WAP-Browser*"
         }
       ]
     }

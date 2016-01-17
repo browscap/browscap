@@ -1,0 +1,24 @@
+{
+  "division": "Blackboard Safeassign",
+  "sortIndex": 320,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Blackboard Safeassign",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Blackboard Safeassign",
+        "Browser": "Blackboard Safeassign",
+        "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "Blackboard Inc.",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Blackboard Safeassign*"
+        }
+      ]
+    }
+  ]
+}

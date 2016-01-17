@@ -1,0 +1,39 @@
+{
+  "division": "Evernote App",
+  "sortIndex": 401,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Evernote App",
+      "engine": "WebKit",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Evernote App",
+        "Browser": "Evernote App",
+        "Browser_Maker": "Evernote Corporation",
+        "Browser_Type": "Application",
+        "Crawler": "false",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "CssVersion": "2",
+        "JavaScript": "false",
+        "isSyndicationReader": "false"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Evernote Windows\/*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win7_x64", "Win7_64", "Win7_32",
+            "Win8_x64", "Win8_64", "Win8_32",
+            "Win8_1_x64", "Win8_1_64", "Win8_1_32",
+            "Win10_x64", "Win10_64", "Win10_32", "Win10_x64_B", "Win10_64_B", "Win10_32_B"
+          ]
+        }
+      ]
+    }
+  ]
+}

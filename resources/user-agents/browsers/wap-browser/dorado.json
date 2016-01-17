@@ -1,0 +1,68 @@
+{
+  "division": "Dorado WAP Browser",
+  "sortIndex": 3931,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Dorado WAP Browser",
+      "platform": "JAVA",
+      "device": "general Mobile Phone",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Dorado WAP Browser",
+        "Browser": "Dorado WAP Browser",
+        "Browser_Type": "Browser",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Frames": "false",
+        "IFrames": "false",
+        "Tables": "false",
+        "Cookies": "false",
+        "JavaScript": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false"
+      },
+      "children": [
+        {
+          "match": "Dorado WAP-Browser\/1.0*",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Dorado WAP-Browser*"
+        },
+        {
+          "match": "LAVA.KKT22S\/Dorado WAP-Browser\/1.0*",
+          "device": "Lava KKT22S",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "LAVA.KKT22S\/Dorado WAP-Browser*",
+          "device": "Lava KKT22S"
+        },
+        {
+          "match": "*\/Dorado WAP-Browser\/1.0*",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "*\/Dorado WAP-Browser*"
+        }
+      ]
+    }
+  ]
+}

@@ -6045,12 +6045,51 @@
         "isTablet": "true"
       }
     },
+    "Samsung SM-T800": {
+      "standard": true,
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "SM-T800",
+        "Device_Name": "Galaxy Tab S 10.5",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Samsung SM-T805": {
       "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Code_Name": "SM-T805",
         "Device_Name": "Galaxy Tab S 10.5 LTE",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Samsung SM-T810": {
+      "standard": true,
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "SM-T810",
+        "Device_Name": "Galaxy Tab S2 9.7 WiFi",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Samsung SM-T815": {
+      "standard": true,
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "SM-T815",
+        "Device_Name": "Galaxy Tab S2 9.7 LTE",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "touchscreen",
@@ -6077,19 +6116,6 @@
         "Device_Type": "Tablet",
         "Device_Code_Name": "SM-T230NU",
         "Device_Name": "Galaxy Tab 4 7.0 (Wi-Fi) 8GB",
-        "Device_Maker": "Samsung",
-        "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true",
-        "isTablet": "true"
-      }
-    },
-    "Samsung SM-T800": {
-      "standard": true,
-      "properties": {
-        "Device_Type": "Tablet",
-        "Device_Code_Name": "SM-T800",
-        "Device_Name": "Galaxy Tab S 10.5",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "touchscreen",
@@ -6129,6 +6155,19 @@
         "Device_Type": "Tablet",
         "Device_Code_Name": "SM-T705",
         "Device_Name": "Galaxy Tab S 8.4 LTE",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Samsung SM-T710": {
+      "standard": true,
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "SM-T710",
+        "Device_Name": "Galaxy Tab S2 8.0",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "touchscreen",
@@ -6246,6 +6285,32 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SM-J100ML",
         "Device_Name": "Galaxy J1",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung SM-J200G": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SM-J200G",
+        "Device_Name": "Galaxy J2 4G Duos",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung SM-J200GU": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SM-J200GU",
+        "Device_Name": "Galaxy J2 4G Duos",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "touchscreen",
@@ -19396,6 +19461,19 @@
         "isTablet": "false"
       }
     },
+    "Huawei ALE-21": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "ALE-21",
+        "Device_Name": "P8lite",
+        "Device_Maker": "Huawei",
+        "Device_Brand_Name": "Huawei",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "UTStarcom GTX75": {
       "standard": false,
       "properties": {
@@ -23439,6 +23517,19 @@
         "isTablet": "false"
       }
     },
+    "Alcatel OT-3075A": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "OT-3075A",
+        "Device_Name": "One Touch Tribe",
+        "Device_Maker": "Alcatel",
+        "Device_Brand_Name": "Alcatel",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Alcatel 4037T": {
       "standard": false,
       "properties": {
@@ -24134,6 +24225,19 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Grand Era",
         "Device_Name": "Grand Era",
+        "Device_Maker": "ZTE",
+        "Device_Brand_Name": "ZTE",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "ZTE Grand X2": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Grand X2",
+        "Device_Name": "Grand X2",
         "Device_Maker": "ZTE",
         "Device_Brand_Name": "ZTE",
         "Device_Pointing_Method": "touchscreen",
@@ -29822,6 +29926,19 @@
         "isTablet": "false"
       }
     },
+    "iBall Andi 4F ARC3": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Andi 4F ARC3",
+        "Device_Code_Name": "Andi 4F ARC3",
+        "Device_Maker": "iBall",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "iBall",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Siemens A31": {
       "standard": false,
       "properties": {
@@ -31817,8 +31934,21 @@
         "Device_Type": "Mobile Phone",
         "Device_Name": "A15",
         "Device_Code_Name": "A15",
-        "Device_Maker": "Videocon",
+        "Device_Maker": "Videocon Industries Limited",
         "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Videocon",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Videocon S351": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "S351",
+        "Device_Code_Name": "S351",
+        "Device_Maker": "Videocon Industries Limited",
+        "Device_Pointing_Method": "unknown",
         "Device_Brand_Name": "Videocon",
         "isMobileDevice": "true",
         "isTablet": "false"
@@ -34346,6 +34476,19 @@
         "isTablet": "false"
       }
     },
+    "XOLO era": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "era",
+        "Device_Code_Name": "era",
+        "Device_Maker": "XOLO",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "XOLO",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Elephone P3000": {
       "standard": false,
       "properties": {
@@ -34495,6 +34638,19 @@
         "Device_Type": "Mobile Phone",
         "Device_Name": "Note 3 Super Slim",
         "Device_Code_Name": "N3+",
+        "Device_Maker": "Star",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Star",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Star PLAY Style": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "PLAY Style",
+        "Device_Code_Name": "PLAY Style",
         "Device_Maker": "Star",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Star",
@@ -34835,6 +34991,19 @@
         "Device_Code_Name": "Mi-440",
         "Device_Maker": "Spice",
         "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Spice",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Spice QT-75": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "QT-75",
+        "Device_Code_Name": "QT-75",
+        "Device_Maker": "Spice",
+        "Device_Pointing_Method": "unknown",
         "Device_Brand_Name": "Spice",
         "isMobileDevice": "true",
         "isTablet": "false"
@@ -35425,6 +35594,84 @@
         "isTablet": "true"
       }
     },
+    "Lava KKT20": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "KKT20",
+        "Device_Code_Name": "KKT20",
+        "Device_Maker": "Lava",
+        "Device_Pointing_Method": "unknown",
+        "Device_Brand_Name": "Lava",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Lava KKT22S": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "KKT22S",
+        "Device_Code_Name": "KKT22S",
+        "Device_Maker": "Lava",
+        "Device_Pointing_Method": "unknown",
+        "Device_Brand_Name": "Lava",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Lava Spark284": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Spark 284",
+        "Device_Code_Name": "Spark 284",
+        "Device_Maker": "Lava",
+        "Device_Pointing_Method": "unknown",
+        "Device_Brand_Name": "Lava",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Lava Iris X1 Beats": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Iris X1 Beats",
+        "Device_Code_Name": "Iris X1 Beats",
+        "Device_Maker": "Lava",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Lava",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Lava Iris X1 Atom S": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Iris X1 Atom S",
+        "Device_Code_Name": "Iris X1 Atom S",
+        "Device_Maker": "Lava",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Lava",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Lava Iris Atom 2": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Iris Atom 2",
+        "Device_Code_Name": "Iris Atom 2",
+        "Device_Maker": "Lava",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Lava",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "DEX iP1020-8GB": {
       "standard": true,
       "properties": {
@@ -35732,6 +35979,19 @@
         "Device_Code_Name": "S4",
         "Device_Maker": "Karbonn",
         "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Karbonn",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Karbonn K52": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "K52",
+        "Device_Code_Name": "K52",
+        "Device_Maker": "Karbonn",
+        "Device_Pointing_Method": "unknown",
         "Device_Brand_Name": "Karbonn",
         "isMobileDevice": "true",
         "isTablet": "false"
@@ -36387,12 +36647,90 @@
         "isTablet": "true"
       }
     },
+    "itel it1502": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "it1502",
+        "Device_Code_Name": "it1502",
+        "Device_Maker": "Itel",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Itel",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Intex Aqua_Life V": {
       "standard": false,
       "properties": {
         "Device_Type": "Mobile Phone",
         "Device_Name": "Aqua_Life V",
         "Device_Code_Name": "Aqua_Life V",
+        "Device_Maker": "Intex",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Intex",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Intex Aqua Q3": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Aqua Q3",
+        "Device_Code_Name": "Aqua Q3",
+        "Device_Maker": "Intex",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Intex",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Intex Aqua Sense 5.0": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Aqua Sense 5.0",
+        "Device_Code_Name": "Aqua Sense 5.0",
+        "Device_Maker": "Intex",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Intex",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Intex Aqua Star 2": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Aqua Star 2",
+        "Device_Code_Name": "Aqua Star 2",
+        "Device_Maker": "Intex",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Intex",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Intex Aqua Star 2 HD": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Aqua Star 2 HD",
+        "Device_Code_Name": "Aqua Star 2 HD",
+        "Device_Maker": "Intex",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Intex",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Intex WOW": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "WOW",
+        "Device_Code_Name": "WOW",
         "Device_Maker": "Intex",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Intex",
@@ -36411,6 +36749,71 @@
         "Device_Brand_Name": "Velocity Micro",
         "isMobileDevice": "true",
         "isTablet": "true"
+      }
+    },
+    "O+ 8.96 Android": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "8.96 Android",
+        "Device_Code_Name": "8.96 Android",
+        "Device_Maker": "O+",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "O+",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "CCE SK352": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Motion Plus",
+        "Device_Code_Name": "SK352",
+        "Device_Maker": "CCE",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "CCE",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Infinix X510": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Hot 2",
+        "Device_Code_Name": "X510",
+        "Device_Maker": "Infinix",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Infinix",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Lemon B556": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Agni 3",
+        "Device_Code_Name": "B556",
+        "Device_Maker": "Lemon",
+        "Device_Pointing_Method": "unknown",
+        "Device_Brand_Name": "Lemon",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "K-Touch Tianyu A930": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Tianyu A930",
+        "Device_Code_Name": "Tianyu A930",
+        "Device_Maker": "K-Touch",
+        "Device_Pointing_Method": "unknown",
+        "Device_Brand_Name": "K-Touch",
+        "isMobileDevice": "true",
+        "isTablet": "false"
       }
     }
   }

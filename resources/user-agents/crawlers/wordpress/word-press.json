@@ -18,9 +18,6 @@
       },
       "children": [
         {
-          "match": "WordPress\/*"
-        },
-        {
           "match": "WordPress-B-\/2.*",
           "properties": {
             "Browser": "WordPress-B",
@@ -43,6 +40,9 @@
         },
         {
           "match": "The Incutio XML-RPC PHP Library -- WordPress*"
+        },
+        {
+          "match": "WordPress*"
         }
       ]
     }

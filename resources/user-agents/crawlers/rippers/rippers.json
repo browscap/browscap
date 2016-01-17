@@ -759,12 +759,6 @@
           }
         },
         {
-          "match": "A1 Sitemap Generator*",
-          "properties": {
-            "Browser": "A1 Sitemap Generator"
-          }
-        },
-        {
           "match": "A1 Website Analyzer*",
           "properties": {
             "Browser": "A1 Website Analyzer"
@@ -1050,6 +1044,287 @@
           "properties": {
             "Browser": "EventMachine HttpClient",
             "Browser_Maker": "Ilya Grigorik"
+          }
+        },
+        {
+          "match": "node-superagent\/1.4*",
+          "properties": {
+            "Browser": "superagent",
+            "Browser_Maker": "visionmedia",
+            "Version": "1.4",
+            "MajorVer": "1",
+            "MinorVer": "4"
+          }
+        },
+        {
+          "match": "node-superagent\/*",
+          "properties": {
+            "Browser": "superagent",
+            "Browser_Maker": "visionmedia"
+          }
+        },
+        {
+          "match": "Goose\/1.0*",
+          "properties": {
+            "Browser": "goose-extractor",
+            "Browser_Maker": "Xavier Grangier",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Goose\/*",
+          "properties": {
+            "Browser": "goose-extractor",
+            "Browser_Maker": "Xavier Grangier"
+          }
+        },
+        {
+          "match": "AHC\/1.0*",
+          "properties": {
+            "Browser": "Asynchronous HTTP Client",
+            "Browser_Maker": "Jeanfrancois Arcand",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "AHC\/*",
+          "properties": {
+            "Browser": "Asynchronous HTTP Client",
+            "Browser_Maker": "Jeanfrancois Arcand"
+          }
+        },
+        {
+          "match": "newspaper\/0.0*",
+          "properties": {
+            "Browser": "newspaper",
+            "Browser_Maker": "Lucas Ou-Yang",
+            "Version": "0.0",
+            "MajorVer": "0",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "newspaper\/*",
+          "properties": {
+            "Browser": "newspaper",
+            "Browser_Maker": "Lucas Ou-Yang"
+          }
+        },
+        {
+          "match": "EasyBib AutoCite*",
+          "properties": {
+            "Browser": "EasyBib AutoCite",
+            "Browser_Maker": "Imagine Easy Solutions, LLC"
+          }
+        },
+        {
+          "match": "Dispatch\/0.11*",
+          "properties": {
+            "Browser": "Dispatch",
+            "Version": "0.11",
+            "MajorVer": "0",
+            "MinorVer": "11"
+          }
+        },
+        {
+          "match": "Dispatch\/*",
+          "properties": {
+            "Browser": "Dispatch"
+          }
+        },
+        {
+          "match": "http-kit\/2.0*",
+          "properties": {
+            "Browser": "HTTP Kit",
+            "Browser_Maker": "Feng Shen",
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "http-kit\/*",
+          "properties": {
+            "Browser": "HTTP Kit",
+            "Browser_Maker": "Feng Shen"
+          }
+        },
+        {
+          "match": "node-fetch\/1.0*",
+          "properties": {
+            "Browser": "node-fetch",
+            "Browser_Maker": "David Frank",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "node-fetch\/*",
+          "properties": {
+            "Browser": "node-fetch",
+            "Browser_Maker": "David Frank"
+          }
+        },
+        {
+          "match": "Faraday v0.9*",
+          "properties": {
+            "Browser": "Faraday",
+            "Browser_Maker": "Mislav Marohnic",
+            "Version": "0.9",
+            "MajorVer": "0",
+            "MinorVer": "9"
+          }
+        },
+        {
+          "match": "Faraday*",
+          "properties": {
+            "Browser": "Faraday",
+            "Browser_Maker": "Mislav Marohnic"
+          }
+        },
+        {
+          "match": "Ruby\/Curb*",
+          "properties": {
+            "Browser": "Curb",
+            "Browser_Maker": "Ross Bamford"
+          }
+        },
+        {
+          "match": "Embed PHP Library*",
+          "properties": {
+            "Browser": "Embed PHP Library",
+            "Browser_Maker": "Oscar Otero"
+          }
+        },
+        {
+          "match": "OpmlViewer network fetcher version 1.0*",
+          "properties": {
+            "Browser": "OpmlViewer network fetcher",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "OpmlViewer network fetcher*",
+          "properties": {
+            "Browser": "OpmlViewer network fetcher"
+          }
+        },
+        {
+          "match": "raynette_httprequest\/1.0*",
+          "properties": {
+            "Browser": "HTTP Request",
+            "Browser_Maker": "Raynette",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "raynette_httprequest\/*",
+          "properties": {
+            "Browser": "HTTP Request",
+            "Browser_Maker": "Raynette"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; ProspectB2B\/2.0*",
+          "properties": {
+            "Browser": "ProspectB2B Bot",
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; ProspectB2B\/*",
+          "properties": {
+            "Browser": "ProspectB2B Bot"
+          }
+        },
+        {
+          "match": "CakePHP*",
+          "properties": {
+            "Browser": "CakePHP"
+          }
+        },
+        {
+          "match": "gpEasy RemoteGet*",
+          "properties": {
+            "Browser": "RemoteGet",
+            "Browser_Maker": "gpEasy"
+          }
+        },
+        {
+          "match": "asynchttp*",
+          "properties": {
+            "Browser": "asynchttp"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; U; Pcore-HTTP-UA\/v0.12*",
+          "properties": {
+            "Browser": "Pcore::HTTP::UA",
+            "Version": "0.12",
+            "MajorVer": "0",
+            "MinorVer": "12"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; U; Pcore-HTTP-UA\/*",
+          "properties": {
+            "Browser": "Pcore::HTTP::UA"
+          }
+        },
+        {
+          "match": "WebClient\/1.0*",
+          "properties": {
+            "Browser": "WebClient",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "WebClient\/*",
+          "properties": {
+            "Browser": "WebClient"
+          }
+        },
+        {
+          "match": "greasemonkey &#8211; google images relinker (v 2.0*",
+          "properties": {
+            "Browser": "google images relinker",
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "greasemonkey &#8211; google images relinker*",
+          "properties": {
+            "Browser": "google images relinker"
+          }
+        },
+        {
+          "match": "SoftMaker Fetch\/1.0*",
+          "properties": {
+            "Browser": "SoftMaker Fetch",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "SoftMaker Fetch\/*",
+          "properties": {
+            "Browser": "SoftMaker Fetch"
           }
         }
       ]

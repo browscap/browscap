@@ -200,7 +200,7 @@ return [
             'isTablet' => false,
             'Crawler' => false,
             'Device_Name' => 'A15',
-            'Device_Maker' => 'Videocon',
+            'Device_Maker' => 'Videocon Industries Limited',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen',
             'Device_Code_Name' => 'A15',

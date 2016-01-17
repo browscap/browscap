@@ -1,0 +1,117 @@
+{
+  "division": "Obigo Q #MAJORVER#.#MINORVER#",
+  "versions": [7],
+  "sortIndex": 10770,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Obigo Q #MAJORVER#.#MINORVER#",
+      "platform": "JAVA",
+      "device": "general Mobile Phone",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Obigo Q #MAJORVER#.#MINORVER#",
+        "Browser": "Obigo Q",
+        "Browser_Type": "Browser",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "1",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "HTC_Smart_F3188 Mozilla\/5.0 (like Gecko) Obigo\/Q7",
+          "device": "HTC Smart F3188"
+        },
+        {
+          "match": "LG-CF360\/V10h Teleca\/Q#MAJORVER#.#MINORVER# *",
+          "device": "LG CF360"
+        },
+        {
+          "match": "LG-GR500\/V10? Teleca\/Q#MAJORVER#.#MINORVER#*",
+          "device": "LG GR500"
+        },
+        {
+          "match": "SonyEricssonW150i\/R2AD032 TelecaBrowser\/Q07C1-1 *",
+          "device": "SonyEricsson W150i"
+        },
+        {
+          "match": "SonyEricssonWT13i\/R3AD017 TelecaBrowser\/Q07C1-1 *",
+          "device": "SonyEricsson WT13i"
+        },
+        {
+          "match": "LG-GT400\/v10a Browser\/Teleca-Q7.1*",
+          "device": "LG GT400",
+          "properties": {
+            "Version": "7.1",
+            "MajorVer": "7",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "LG\/KC910\/V10a Browser\/Obigo-Q7.1*",
+          "device": "LG KC910",
+          "properties": {
+            "Version": "7.1",
+            "MajorVer": "7",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "LG-T300\/V100 Obigo\/Q7.3*",
+          "device": "LG T300",
+          "properties": {
+            "Version": "7.3",
+            "MajorVer": "7",
+            "MinorVer": "3"
+          }
+        },
+        {
+          "match": "LG-T310i\/V100 Obigo\/Q7.3*",
+          "device": "LG T310i",
+          "properties": {
+            "Version": "7.3",
+            "MajorVer": "7",
+            "MinorVer": "3"
+          }
+        },
+        {
+          "match": "LG\/BL40\/V10a Browser\/Obigo-Q7.3*",
+          "device": "LG BL40",
+          "properties": {
+            "Version": "7.3",
+            "MajorVer": "7",
+            "MinorVer": "3"
+          }
+        },
+        {
+          "match": "LG-KM900\/V10x Browser\/Obigo-Q7.1*",
+          "device": "LG KM900",
+          "properties": {
+            "Version": "7.1",
+            "MajorVer": "7",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "*Teleca\/Q7*"
+        },
+        {
+          "match": "*TelecaBrowser\/Q07*"
+        },
+        {
+          "match": "*Browser\/Teleca-Q7*"
+        },
+        {
+          "match": "*Browser\/Obigo-Q7*"
+        }
+      ]
+    }
+  ]
+}

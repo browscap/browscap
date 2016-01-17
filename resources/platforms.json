@@ -3878,7 +3878,7 @@
       "standard": true,
       "properties": {
         "Platform": "Tizen",
-        "Platform_Maker": "unknown",
+        "Platform_Maker": "Linux Foundation",
         "Platform_Description": "Tizen",
         "Platform_Version": "unknown",
         "Win16": "false",
@@ -3904,6 +3904,15 @@
       "inherits": "Tizen",
       "properties": {
         "Platform_Version": "2.3"
+      }
+    },
+    "Tizen_2_4": {
+      "match": "*Linux; Tizen 2.4*",
+      "lite": false,
+      "standard": true,
+      "inherits": "Tizen",
+      "properties": {
+        "Platform_Version": "2.4"
       }
     },
     "OpenVMS": {
@@ -4102,6 +4111,19 @@
       "properties": {
         "Platform": "SailfishOS",
         "Platform_Maker": "Jolla Ltd.",
+        "Platform_Version": "unknown",
+        "Win32": "false",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "Syllable": {
+      "match": "*Syllable*",
+      "lite": false,
+      "standard": true,
+      "properties": {
+        "Platform": "Syllable",
+        "Platform_Maker": "Syllable Project",
         "Platform_Version": "unknown",
         "Win32": "false",
         "Browser_Bits": "32",

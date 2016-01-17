@@ -26,7 +26,7 @@ return [
             'Device_Brand_Name' => 'unknown',
             'RenderingEngine_Name' => 'KHTML',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'KDE',
+            'RenderingEngine_Maker' => 'KDE e.V.',
         ],
         'lite' => false,
         'standard' => true,

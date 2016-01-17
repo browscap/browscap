@@ -84,6 +84,13 @@
             "Browser": "Qualidator.com Bot",
             "Browser_Maker": "Qualidator.com"
           }
+        },
+        {
+          "match": "CSE HTML Validator Online*",
+          "properties": {
+            "Browser": "CSE HTML Validator",
+            "Browser_Maker": "AI Internet Solutions LLC"
+          }
         }
       ]
     }

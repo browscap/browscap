@@ -425,7 +425,7 @@
         "RenderingEngine_Name": "KHTML",
         "RenderingEngine_Version": "unknown",
         "RenderingEngine_Description": "For Konqueror.",
-        "RenderingEngine_Maker": "KDE",
+        "RenderingEngine_Maker": "KDE e.V.",
         "VBScript": "false",
         "JavaApplets": "true",
         "ActiveXControls": "false",
