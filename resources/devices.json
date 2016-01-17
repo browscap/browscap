@@ -9893,6 +9893,19 @@
         "isTablet": "true"
       }
     },
+    "Asus Z00AD": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Z00AD",
+        "Device_Name": "Zenfone 2",
+        "Device_Maker": "Asus",
+        "Device_Brand_Name": "Asus",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Motorola MB525": {
       "standard": false,
       "properties": {
@@ -10458,6 +10471,19 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "XT1021",
         "Device_Name": "Moto E",
+        "Device_Maker": "Motorola",
+        "Device_Brand_Name": "Motorola",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Motorola XT1254": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "XT1254",
+        "Device_Name": "DROID Turbo XLTE",
         "Device_Maker": "Motorola",
         "Device_Brand_Name": "Motorola",
         "Device_Pointing_Method": "touchscreen",
@@ -12525,6 +12551,19 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Nexus One",
         "Device_Name": "HTC Nexus One",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "Google",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC Nexus 9": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Nexus 9",
+        "Device_Name": "HTC Nexus 9",
         "Device_Maker": "HTC",
         "Device_Brand_Name": "Google",
         "Device_Pointing_Method": "touchscreen",
@@ -15431,6 +15470,19 @@
         "isTablet": "false"
       }
     },
+    "LG LS770": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "LS770",
+        "Device_Name": "G Stylo",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "LG LS970": {
       "standard": false,
       "properties": {
@@ -15853,6 +15905,19 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "L160L",
         "Device_Name": "Optimus LTE2",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG L16C": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "L16C",
+        "Device_Name": "Lucky",
         "Device_Maker": "LG",
         "Device_Brand_Name": "LG",
         "Device_Pointing_Method": "touchscreen",
