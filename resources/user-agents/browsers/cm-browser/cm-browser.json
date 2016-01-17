@@ -609,7 +609,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/*Chrome\/*Safari\/* ACHEETAHI\/*",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3",
-            "Android_4_4", "Android_5_0",
+            "Android_4_4", "Android_5_0", "Android_5_1",
             "Android"
           ]
         },
@@ -618,7 +618,7 @@
           "engine": "WebKit",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3",
-            "Android_4_4", "Android_5_0",
+            "Android_4_4", "Android_5_0", "Android_5_1",
             "Android"
           ]
         }
