@@ -29,7 +29,7 @@
       "children": [
         {
           "match": "IVO\/1.0 Android\/#MAJORVER#.#MINORVER#* Release\/* Browser\/AppleWebKit*",
-          "device": "unknown IVO",
+          "device": "general Mobile Phone (Touch)",
           "platforms": [
             "Android_4_4"
           ]

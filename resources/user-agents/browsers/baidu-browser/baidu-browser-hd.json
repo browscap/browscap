@@ -38,7 +38,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#MID Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* T5\/* bdbrowserhd_i18n\/#MAJORVER#.#MINORVER#*",
           "engine": "T5",
-          "device": "unknown MID",
+          "device": "general Mobile Phone",
           "platforms": [
             "Android_4_1"
           ]

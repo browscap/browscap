@@ -497,14 +497,14 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Ideos S7 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
-          "device": "unknown Ideos S7",
+          "device": "general Mobile Phone",
           "platforms": [
             "Android_2_1"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#LU2300 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
-          "device": "unknown LU2300",
+          "device": "general Mobile Phone",
           "platforms": [
             "Android_2_1"
           ]
@@ -518,7 +518,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#M82VG Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
-          "device": "unknown M82VG",
+          "device": "general Mobile Phone",
           "platforms": [
             "Android_2_1"
           ]
@@ -560,7 +560,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#MID Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
-          "device": "unknown MID",
+          "device": "general Mobile Phone",
           "platforms": [
             "Android_2_1"
           ]
@@ -1171,7 +1171,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Ideos Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
-          "device": "unknown Ideos",
+          "device": "general Mobile Phone",
           "platforms": [
             "Android_2_2"
           ]

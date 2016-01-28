@@ -60,7 +60,7 @@
           ]
         },
         {
-          "match": "#PLATFORM#Aqua_Star*)UCWEB#MAJORVER#.#MINORVER#*",
+          "match": "#PLATFORM#Aqua_Star*) UCWEB#MAJORVER#.#MINORVER#*",
           "device": "Intex Aqua Star",
           "platforms": [
             "Android_D_2_3"

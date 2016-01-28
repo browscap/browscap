@@ -1235,6 +1235,22 @@
           ]
         },
         {
+          "match": "UCWEB\/*(Java; *ALCATEL_one_touch_818) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/* Mobile*",
+          "engine": "U2",
+          "device": "Alcatel OT-818",
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "UCWEB\/*(Java; *SonyEricssonK790i) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/* Mobile*",
+          "engine": "U2",
+          "device": "SonyEricsson K790i",
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
           "match": "UCWEB\/*(Java*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
           "engine": "U2",
           "device": "general Mobile Phone",

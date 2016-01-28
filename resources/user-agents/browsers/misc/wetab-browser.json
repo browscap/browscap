@@ -32,7 +32,6 @@
         },
         {
           "match": "Mozilla\/5.0 (*Linux*) AppleWebKit\/* (KHTML,*like Gecko*) WeTab-Browser Safari\/*",
-          "device": "Linux Desktop",
           "properties": {
             "Browser_Modus": "Desktop Mode"
           }

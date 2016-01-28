@@ -1,0 +1,46 @@
+{
+  "division": "restify",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "restify",
+      "engine": "WebKit",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "restify",
+        "Browser": "restify",
+        "Browser_Maker": "Mark Cavage",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "restify\/2.6* (*darwin*) node\/*",
+          "device": "Macintosh",
+          "properties": {
+            "Version": "2.6",
+            "MajorVer": "2",
+            "MinorVer": "6"
+          }
+        },
+        {
+          "match": "restify\/2.6* (*) node\/*",
+          "properties": {
+            "Version": "2.6",
+            "MajorVer": "2",
+            "MinorVer": "6"
+          }
+        },
+        {
+          "match": "restify\/* (*darwin*) node\/*",
+          "device": "Macintosh"
+        },
+        {
+          "match": "restify\/* (*) node\/*"
+        }
+      ]
+    }
+  ]
+}

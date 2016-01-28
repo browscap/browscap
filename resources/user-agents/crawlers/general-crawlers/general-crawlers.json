@@ -1845,23 +1845,6 @@
           }
         },
         {
-          "match": "restify\/2.6* (*) node\/*",
-          "properties": {
-            "Browser": "restify",
-            "Browser_Maker": "Mark Cavage",
-            "Version": "2.6",
-            "MajorVer": "2",
-            "MinorVer": "6"
-          }
-        },
-        {
-          "match": "restify\/* (*) node\/*",
-          "properties": {
-            "Browser": "restify",
-            "Browser_Maker": "Mark Cavage"
-          }
-        },
-        {
           "match": "ShowyouBot*",
           "properties": {
             "Browser": "ShowyouBot",

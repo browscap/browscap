@@ -596,7 +596,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#MID Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/* YaBrowser\/#MAJORVER#.#MINORVER#* Safari\/*",
-          "device": "unknown MID",
+          "device": "general Mobile Phone",
           "platforms": [
             "Android_4_1"
           ]

@@ -1448,6 +1448,13 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#A10100 Build\/*) AppleWebKit\/*(KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "device": "Nomi A10100",
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#PMP7280C3G Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "device": "Prestigio PMP7280C3G",
           "platforms": [
@@ -2415,7 +2422,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#LIFETAB_S1034X Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "device": "Lenovo Lifetab S1034X",
+          "device": "Lenovo LifeTab S1034X",
           "platforms": [
             "Android_4_4"
           ]
@@ -3290,7 +3297,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#MID Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "device": "unknown MID",
+          "device": "general Mobile Phone",
           "platforms": [
             "Android_4_1"
           ]
