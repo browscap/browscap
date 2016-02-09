@@ -2914,7 +2914,7 @@ return [
             'JavaApplets' => false,
             'ActiveXControls' => false,
             'Device_Name' => 'MX2',
-            'Device_Maker' => 'Meizu',
+            'Device_Maker' => 'Meizu Technology Co., Ltd.',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen',
             'Device_Code_Name' => 'M040',

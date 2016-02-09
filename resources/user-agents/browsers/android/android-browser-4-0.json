@@ -1513,6 +1513,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#meizu_m9 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "device": "Meizu M9",
           "platforms": [
             "Android_2_2"
           ]

@@ -34365,7 +34365,20 @@
         "Device_Type": "Mobile Phone",
         "Device_Name": "MX2",
         "Device_Code_Name": "M040",
-        "Device_Maker": "Meizu",
+        "Device_Maker": "Meizu Technology Co., Ltd.",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Meizu",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Meizu M9": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "M9",
+        "Device_Code_Name": "M9",
+        "Device_Maker": "Meizu Technology Co., Ltd.",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Meizu",
         "isMobileDevice": "true",
