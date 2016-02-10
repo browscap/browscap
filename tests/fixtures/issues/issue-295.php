@@ -313,7 +313,7 @@ return [
     'issue-295-M' => [
         '"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:11.0) Gecko Firefox/11.0',
         [
-            'Browser' => 'Fake Firefox',
+            'Browser' => 'Fake Browser',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
