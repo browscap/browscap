@@ -1,18 +1,18 @@
 {
-  "division": "Teleca-Obigo #MAJORVER#.#MINORVER#",
+  "division": "Obigo Q #MAJORVER#.#MINORVER#",
   "versions": [5],
   "sortIndex": 10771,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "Teleca-Obigo #MAJORVER#.#MINORVER#",
+      "userAgent": "Obigo Q #MAJORVER#.#MINORVER#",
       "platform": "JAVA",
       "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Teleca-Obigo #MAJORVER#.#MINORVER#",
-        "Browser": "Teleca-Obigo",
+        "Comment": "Obigo Q #MAJORVER#.#MINORVER#",
+        "Browser": "Obigo Q",
         "Browser_Type": "Browser",
         "Frames": "true",
         "IFrames": "true",
@@ -48,6 +48,35 @@
         {
           "match": "ALCATEL-OT871A\/* ObigoInternetBrowser\/Q05A*",
           "device": "Alcatel OT-871A"
+        },
+        {
+          "match": "ALCATEL_TRIBE_3075A* ObigoInternetBrowser\/Q05A*",
+          "device": "Alcatel OT-3075A"
+        },
+        {
+          "match": "LG\/KU990\/* Browser\/Obigo-Q05A\/*",
+          "device": "LG KU990"
+        },
+        {
+          "match": "LG\/HB620T\/* Browser\/Obigo-Q05A\/*",
+          "device": "LG HB620T"
+        },
+        {
+          "match": "LG\/KU990\/* Browser\/Obigo-Q05A\/*",
+          "device": "LG KU990"
+        },
+        {
+          "match": "LG\/HB620T\/* Browser\/Obigo-Q05A\/*",
+          "device": "LG HB620T"
+        },
+        {
+          "match": "*Obigo\/Q05*"
+        },
+        {
+          "match": "*Browser\/Obigo-Q05*"
+        },
+        {
+          "match": "*ObigoInternetBrowser\/Q05*"
         }
       ]
     }

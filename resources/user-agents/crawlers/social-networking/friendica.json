@@ -1,0 +1,43 @@
+{
+  "division": "Friendica",
+  "sortIndex": 501,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Friendica",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Friendica",
+        "Browser": "Friendica",
+        "Browser_Maker": "the friendica project",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Friendica '*' 3.4*",
+          "properties": {
+            "Version": "3.4",
+            "MajorVer": "3",
+            "MinorVer": "4"
+          }
+        },
+        {
+          "match": "Friendica '*' 3.3*",
+          "properties": {
+            "Version": "3.3",
+            "MajorVer": "3",
+            "MinorVer": "3"
+          }
+        },
+        {
+          "match": "Friendica*"
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Friendica*"
+        }
+      ]
+    }
+  ]
+}

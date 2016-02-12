@@ -19,9 +19,6 @@
           "match": "Mozilla\/6.0 (*) Gecko\/* Firefox\/*"
         },
         {
-          "match": "?Mozilla\/* Firefox\/*"
-        },
-        {
           "match": "Mozilla\/5.0 (Windows; U; Windows*rv:*) Firefox\/*"
         },
         {
@@ -38,6 +35,12 @@
         },
         {
           "match": "Mozilla\/5.0 (Windows NT 7.0*) Gecko\/* Firefox\/*"
+        },
+        {
+          "match": "   Gecko*"
+        },
+        {
+          "match": "Mozilla\/5.0 (X11;) Firefox*"
         }
       ]
     }

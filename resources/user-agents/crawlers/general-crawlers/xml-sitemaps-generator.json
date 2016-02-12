@@ -19,7 +19,7 @@
           "match": "XML Sitemaps Generator*"
         },
         {
-          "match": "Mozilla\/5.0 (compatible; XML Sitemaps Generator; http:\/\/www.xml-sitemaps.com) Gecko XML-Sitemaps\/1.0*",
+          "match": "Mozilla\/5.0 (compatible; XML Sitemaps Generator; *) Gecko XML-Sitemaps\/1.0*",
           "engine": "Gecko",
           "properties": {
             "Version": "1.0",
@@ -28,7 +28,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; XML Sitemaps Generator; http:\/\/www.xml-sitemaps.com) Gecko XML-Sitemaps\/*",
+          "match": "Mozilla\/5.0 (compatible; XML Sitemaps Generator; *) Gecko XML-Sitemaps\/*",
           "engine": "Gecko"
         }
       ]

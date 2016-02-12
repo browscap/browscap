@@ -1,0 +1,31 @@
+{
+  "division": "linkCheck",
+  "sortIndex": 670,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "linkCheck",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "linkCheck",
+        "Browser": "linkCheck",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (compatible; linkCheckV3.0*",
+          "properties": {
+            "Version": "3.0",
+            "MajorVer": "3",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; linkCheckV*"
+        }
+      ]
+    }
+  ]
+}

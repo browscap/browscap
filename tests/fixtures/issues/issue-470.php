@@ -7,7 +7,7 @@ return [
             'Browser' => 'Evernote Clip Resolver',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
-            'Browser_Maker' => 'Evernote',
+            'Browser_Maker' => 'Evernote Corporation',
             'Version' => '0.0',
             'MajorVer' => '0',
             'MinorVer' => '0',

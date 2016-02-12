@@ -69,11 +69,12 @@
           }
         },
         {
-          "match": "Hatena::Bookmark\/2.00",
+          "match": "Hatena::Bookmark\/2.00*",
           "properties": {
             "Browser": "Hatena::Bookmark",
             "Version": "2.0",
-            "MajorVer": "2"
+            "MajorVer": "2",
+            "MinorVer": "0"
           }
         }
       ]

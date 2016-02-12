@@ -89,31 +89,6 @@
           }
         },
         {
-          "match": "Microsoft-WebDAV-MiniRedir\/6.1*",
-          "properties": {
-            "Browser": "Microsoft-WebDAV",
-            "Version": "6.1",
-            "MajorVer": "6",
-            "MinorVer": "1"
-          }
-        },
-        {
-          "match": "Microsoft-WebDAV-MiniRedir\/*",
-          "properties": {
-            "Browser": "Microsoft-WebDAV"
-          }
-        },
-        {
-          "match": "DavClnt*",
-          "device": "Windows Desktop",
-          "properties": {
-            "Browser": "Microsoft-WebDAV"
-          },
-          "platforms": [
-            "Win7_32"
-          ]
-        },
-        {
           "match": "MSN Feed Manager",
           "properties": {
             "Browser": "MSN Feed Manager",

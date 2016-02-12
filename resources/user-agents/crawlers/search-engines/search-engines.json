@@ -183,29 +183,6 @@
           }
         },
         {
-          "match": "DuckDuckBot\/*; (?http:\/\/duckduckgo.com\/duckduckbot.html)",
-          "properties": {
-            "Browser": "DuckDuckBot",
-            "Browser_Maker": "DuckDuckGo"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (compatible; DuckDuckGo-Favicons-Bot\/1.0*",
-          "properties": {
-            "Browser": "DuckDuck Favicons Bot",
-            "Browser_Maker": "DuckDuckGo",
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (compatible; DuckDuckGo-Favicons-Bot\/*",
-          "properties": {
-            "Browser": "DuckDuck Favicons Bot"
-          }
-        },
-        {
           "match": "Dumbot*",
           "properties": {
             "Browser": "Dumbot",
@@ -1160,6 +1137,57 @@
           "properties": {
             "Browser": "Werbefreie Deutsche Suchmaschine",
             "Browser_Maker": "Michael Schoebel"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; WbSrch\/1.1*",
+          "properties": {
+            "Browser": "WbSrch Web Search",
+            "Browser_Maker": "Zeta Centauri",
+            "Version": "1.1",
+            "MajorVer": "1",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; WbSrch\/*",
+          "properties": {
+            "Browser": "WbSrch Web Search",
+            "Browser_Maker": "Zeta Centauri"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Exploratodo\/1.0*",
+          "properties": {
+            "Browser": "Exploratodo Bot",
+            "Browser_Maker": "Exploratodo",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Exploratodo\/*",
+          "properties": {
+            "Browser": "Exploratodo Bot",
+            "Browser_Maker": "Exploratodo"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; WebCorp\/5.0*",
+          "properties": {
+            "Browser": "WebCorp",
+            "Browser_Maker": "Research and Development Unit for English Studies, Birmingham City University",
+            "Version": "5.0",
+            "MajorVer": "5",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; WebCorp\/*",
+          "properties": {
+            "Browser": "WebCorp",
+            "Browser_Maker": "Research and Development Unit for English Studies, Birmingham City University"
           }
         }
       ]

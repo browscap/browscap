@@ -252,6 +252,19 @@
           "platforms": [
             "Android_4_2", "Android"
           ]
+        },
+        {
+          "match": "Mozilla\/5.0(#PLATFORM#CCE SK352)\/AppleWebKit* Mobile Safari*",
+          "device": "CCE SK352",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0(#PLATFORM#)\/AppleWebKit* Mobile Safari*",
+          "platforms": [
+            "Android_4_2"
+          ]
         }
       ]
     }

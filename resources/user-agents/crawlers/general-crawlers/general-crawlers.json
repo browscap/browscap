@@ -650,12 +650,6 @@
           }
         },
         {
-          "match": "Rome Client (http:\/\/tinyurl.com\/64t5n) Ver: 0.*",
-          "properties": {
-            "Browser": "TinyURL"
-          }
-        },
-        {
           "match": "SBIder\/*",
           "properties": {
             "Browser": "SiteSell"
@@ -1933,23 +1927,6 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (Digg\/1.0*",
-          "properties": {
-            "Browser": "Digg Bot",
-            "Browser_Maker": "News.me Inc",
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (Digg\/*",
-          "properties": {
-            "Browser": "Digg Bot",
-            "Browser_Maker": "News.me Inc"
-          }
-        },
-        {
           "match": "Mozilla\/5.0 (compatible; CrawlRobot*",
           "properties": {
             "Browser": "CrawlRobot"
@@ -2302,6 +2279,321 @@
           "match": "Mozilla\/5.0 (compatible; Digincore*",
           "properties": {
             "Browser": "Digincore Bot"
+          }
+        },
+        {
+          "match": "NoteTextView*",
+          "properties": {
+            "Browser": "NoteTextView"
+          }
+        },
+        {
+          "match": "ShortLinkTranslate*",
+          "properties": {
+            "Browser": "ShortLinkTranslate"
+          }
+        },
+        {
+          "match": "Grammarly\/1.0*",
+          "properties": {
+            "Browser": "Grammarly",
+            "Browser_Maker": "Grammarly Inc.",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Grammarly\/*",
+          "properties": {
+            "Browser": "Grammarly",
+            "Browser_Maker": "Grammarly Inc."
+          }
+        },
+        {
+          "match": "BCKLINKS 1.0*",
+          "properties": {
+            "Browser": "BCKLINKS",
+            "Browser_Maker": "Monitor Backlinks Ltd.",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "BCKLINKS*",
+          "properties": {
+            "Browser": "BCKLINKS",
+            "Browser_Maker": "Monitor Backlinks Ltd."
+          }
+        },
+        {
+          "match": "gettor\/0.5*",
+          "properties": {
+            "Browser": "gettor",
+            "Version": "0.5",
+            "MajorVer": "0",
+            "MinorVer": "5"
+          }
+        },
+        {
+          "match": "gettor\/*",
+          "properties": {
+            "Browser": "gettor"
+          }
+        },
+        {
+          "match": "infoX-WISG*",
+          "properties": {
+            "Browser": "infoX-WISG"
+          }
+        },
+        {
+          "match": "Melvil\/1.0*",
+          "properties": {
+            "Browser": "Melvil Bot",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Melvil\/*",
+          "properties": {
+            "Browser": "Melvil Bot"
+          }
+        },
+        {
+          "match": "Melvil Favicon\/1.0*",
+          "properties": {
+            "Browser": "Melvil Favicon Bot",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Melvil Favicon\/*",
+          "properties": {
+            "Browser": "Melvil Favicon Bot"
+          }
+        },
+        {
+          "match": "Quora Link Preview\/1.0*",
+          "properties": {
+            "Browser": "Quora Link Preview Bot",
+            "Browser_Maker": "Quora, Inc.",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Quora Link Preview\/*",
+          "properties": {
+            "Browser": "Quora Link Preview Bot",
+            "Browser_Maker": "Quora, Inc."
+          }
+        },
+        {
+          "match": "Ruby, link_thumbnailer*",
+          "properties": {
+            "Browser": "link_thumbnailer",
+            "Browser_Maker": "Pierre-Louis Gottfrois"
+          }
+        },
+        {
+          "match": "ROR Sitemap Generator*",
+          "properties": {
+            "Browser": "ROR Sitemap Generator",
+            "Browser_Maker": "Rorweb.com"
+          }
+        },
+        {
+          "match": "XmlSitemapGenerator*",
+          "properties": {
+            "Browser": "XmlSitemapGenerator"
+          }
+        },
+        {
+          "match": "Stratagems Kumo*",
+          "properties": {
+            "Browser": "Stratagems Kumo"
+          }
+        },
+        {
+          "match": "Mozilla/4.0 (compatible; Virtuoso*",
+          "properties": {
+            "Browser": "Virtuoso",
+            "Browser_Maker": "OpenLink Software"
+          }
+        },
+        {
+          "match": "SPIP-3.0*",
+          "properties": {
+            "Browser": "SPIP",
+            "Browser_Maker": "SPIP Community",
+            "Version": "3.0",
+            "MajorVer": "3",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "SPIP-*",
+          "properties": {
+            "Browser": "SPIP",
+            "Browser_Maker": "SPIP Community"
+          }
+        },
+        {
+          "match": "webnumbrFetcher\/1.0*",
+          "properties": {
+            "Browser": "webnumbr Fetcher",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "webnumbrFetcher\/*",
+          "properties": {
+            "Browser": "webnumbr Fetcher"
+          }
+        },
+        {
+          "match": "ARC Reader*",
+          "properties": {
+            "Browser": "ARC Reader"
+          }
+        },
+        {
+          "match": "Vinti\/0.1*",
+          "properties": {
+            "Browser": "Vinti",
+            "Version": "0.1",
+            "MajorVer": "0",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "Vinti\/*",
+          "properties": {
+            "Browser": "Vinti"
+          }
+        },
+        {
+          "match": "EBSCO EJS Content Server*",
+          "properties": {
+            "Browser": "EBSCO EJS Content Server"
+          }
+        },
+        {
+          "match": "HTTP Service*",
+          "properties": {
+            "Browser": "HTTP Service"
+          }
+        },
+        {
+          "match": "Mozilla\/4.0 (compatible; Globel*",
+          "properties": {
+            "Browser": "Globel Bot"
+          }
+        },
+        {
+          "match": "BlueDragon*",
+          "properties": {
+            "Browser": "BlueDragon"
+          }
+        },
+        {
+          "match": "Stewdio Windmaker 2.2*",
+          "properties": {
+            "Browser": "Windmaker Bot",
+            "Browser_Maker": "Stewart Smith",
+            "Version": "2.2",
+            "MajorVer": "2",
+            "MinorVer": "2"
+          }
+        },
+        {
+          "match": "Stewdio Windmaker*",
+          "properties": {
+            "Browser": "Windmaker Bot",
+            "Browser_Maker": "Stewart Smith"
+          }
+        },
+        {
+          "match": "aboutthedomain*",
+          "properties": {
+            "Browser": "AboutTheDomain Bot",
+            "Browser_Maker": "AboutTheDomain.com"
+          }
+        },
+        {
+          "match": "A1 Sitemap Generator*",
+          "properties": {
+            "Browser": "A1 Sitemap Generator"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Sitemap Generator\/1.3*",
+          "properties": {
+            "Browser": "Sitemap Generator",
+            "Browser_Maker": "check-domains.com",
+            "Version": "1.3",
+            "MajorVer": "1",
+            "MinorVer": "3"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Sitemap Generator\/*",
+          "properties": {
+            "Browser": "Sitemap Generator",
+            "Browser_Maker": "check-domains.com"
+          }
+        },
+        {
+          "match": "HubPages V0.2*",
+          "properties": {
+            "Browser": "HubPages Bot",
+            "Browser_Maker": "HubPages Inc.",
+            "Version": "0.2",
+            "MajorVer": "0",
+            "MinorVer": "2"
+          }
+        },
+        {
+          "match": "HubPages*",
+          "properties": {
+            "Browser": "HubPages Bot",
+            "Browser_Maker": "HubPages Inc."
+          }
+        },
+        {
+          "match": "Casterly*",
+          "properties": {
+            "Browser": "Casterly"
+          }
+        },
+        {
+          "match": "UserAgent\/*",
+          "properties": {
+            "Browser": "UserAgent Bot"
+          }
+        },
+        {
+          "match": "wonderbot\/JS 1.0*",
+          "properties": {
+            "Browser": "wonderbot",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "wonderbot*",
+          "properties": {
+            "Browser": "wonderbot"
           }
         }
       ]

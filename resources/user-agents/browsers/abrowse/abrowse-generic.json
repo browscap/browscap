@@ -1,0 +1,35 @@
+{
+  "division": "ABrowse Generic",
+  "sortIndex": 956,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "ABrowse Generic",
+      "platform": "Syllable",
+      "engine": "WebKit",
+      "device": "general Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "ABrowse Generic",
+        "Browser": "ABrowse",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Syllable Project",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (compatible; U; ABrowse #PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*",
+          "platforms": [
+            "Syllable"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -26,7 +26,7 @@ return [
             'Device_Brand_Name' => 'unknown',
             'RenderingEngine_Name' => 'KHTML',
             'RenderingEngine_Version' => '4.11',
-            'RenderingEngine_Maker' => 'KDE',
+            'RenderingEngine_Maker' => 'KDE e.V.',
         ],
         'lite' => false,
         'standard' => true,
@@ -86,7 +86,7 @@ return [
             'Device_Brand_Name' => 'unknown',
             'RenderingEngine_Name' => 'KHTML',
             'RenderingEngine_Version' => '4.9',
-            'RenderingEngine_Maker' => 'KDE',
+            'RenderingEngine_Maker' => 'KDE e.V.',
         ],
         'lite' => false,
         'standard' => true,
@@ -116,7 +116,7 @@ return [
             'Device_Brand_Name' => 'unknown',
             'RenderingEngine_Name' => 'KHTML',
             'RenderingEngine_Version' => '4.8',
-            'RenderingEngine_Maker' => 'KDE',
+            'RenderingEngine_Maker' => 'KDE e.V.',
         ],
         'lite' => false,
         'standard' => true,
@@ -274,7 +274,7 @@ return [
     'issue-295-L' => [
         '"Mozilla/4.0 (compatible; MSIE 6.0; Windows 98; Win 9x 4.90)"',
         [
-            'Browser' => 'Fake IE',
+            'Browser' => 'Fake Browser',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
@@ -313,7 +313,7 @@ return [
     'issue-295-M' => [
         '"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:11.0) Gecko Firefox/11.0',
         [
-            'Browser' => 'Fake Firefox',
+            'Browser' => 'Fake Browser',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',

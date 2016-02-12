@@ -997,6 +997,19 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0(#PLATFORM#ZTE Grand X2 Build\/*) AppleWebKit\/*(KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "device": "ZTE Grand X2",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0(#PLATFORM#) AppleWebKit\/*(KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "platforms": [
+            "Android_4_2", "Android"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#TOSHIBA_FOLIO_AND_A Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "device": "Toshiba Folio 100",
           "platforms": [

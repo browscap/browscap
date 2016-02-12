@@ -79,9 +79,6 @@
           "match": "Mozilla\/4.0 (compatible- MSIE ?.0- *"
         },
         {
-          "match": "?Mozilla\/?.0 (compatible; MSIE*"
-        },
-        {
           "match": "Mozilla\/5.0 (Windows; ?; Windows NT; *) Gecko\/* Internet Explorer\/7*",
           "device": "Windows Desktop",
           "platforms": [
@@ -623,6 +620,12 @@
         },
         {
           "match": "( ; MSIE*"
+        },
+        {
+          "match": "Mozilla\/4.0 (compatible; MSIE8*"
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; MSIE 5.5*"
         }
       ]
     }

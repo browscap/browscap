@@ -233,6 +233,12 @@
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
             "Win10_x64", "Win10_64", "Win10_32", "Win10_x64_B", "Win10_64_B", "Win10_32_B"
           ]
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; MSIE #MAJORVER#.#MINORVER#*; Trident\/6.0; #PLATFORM#",
+          "platforms": [
+            "Win7_32", "Win2000", "Windows"
+          ]
         }
       ]
     }

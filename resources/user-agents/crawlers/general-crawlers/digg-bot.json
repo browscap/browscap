@@ -1,0 +1,43 @@
+{
+  "division": "Digg Bot",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Digg Bot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Digg Bot",
+        "Browser": "Digg Bot",
+        "Browser_Maker": "News.me Inc",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (Digg\/1.0*",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (Digg\/*"
+        },
+        {
+          "match": "Digg Deeper\/v1*",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Digg Deeper\/*"
+        }
+      ]
+    }
+  ]
+}

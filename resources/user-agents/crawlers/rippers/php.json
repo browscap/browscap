@@ -168,9 +168,47 @@
           }
         },
         {
-          "match": "PHP*",
+          "match": "PHP*"
+        },
+        {
+          "match": "GuzzleHttp\/6.1*",
           "properties": {
-            "Browser": "PHP"
+            "Browser": "Guzzle Http Client",
+            "Browser_Maker": "Michael Dowling",
+            "Version": "6.1",
+            "MajorVer": "6",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "GuzzleHttp\/*",
+          "properties": {
+            "Browser": "Guzzle Http Client",
+            "Browser_Maker": "Michael Dowling"
+          }
+        },
+        {
+          "match": "Guzzle\/4.2*",
+          "properties": {
+            "Browser": "Guzzle Http Client",
+            "Browser_Maker": "Michael Dowling",
+            "Version": "4.2",
+            "MajorVer": "4",
+            "MinorVer": "2"
+          }
+        },
+        {
+          "match": "Guzzle\/*",
+          "properties": {
+            "Browser": "Guzzle Http Client",
+            "Browser_Maker": "Michael Dowling"
+          }
+        },
+        {
+          "match": "Taproot*",
+          "properties": {
+            "Browser": "Taproot Bot",
+            "Browser_Maker": "Barnaby Walters"
           }
         }
       ]

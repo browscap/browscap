@@ -123,13 +123,6 @@
           }
         },
         {
-          "match": "Evernote Clip Resolver*",
-          "properties": {
-            "Browser": "Evernote Clip Resolver",
-            "Browser_Maker": "Evernote"
-          }
-        },
-        {
           "match": "Thumbor\/3.14*",
           "properties": {
             "Browser": "Thumbor",
@@ -166,6 +159,23 @@
           "properties": {
             "Browser": "Elmer",
             "Browser_Maker": "ThingLink Oy"
+          }
+        },
+        {
+          "match": "ZnajdzFoto\/Image 2.0*",
+          "properties": {
+            "Browser": "ZnajdzFoto\/ImageBot",
+            "Browser_Maker": "Eksadata sp. z o.o.",
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "ZnajdzFoto\/Image*",
+          "properties": {
+            "Browser": "ZnajdzFoto\/ImageBot",
+            "Browser_Maker": "Eksadata sp. z o.o."
           }
         }
       ]

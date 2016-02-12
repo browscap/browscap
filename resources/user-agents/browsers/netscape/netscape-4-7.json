@@ -1,6 +1,6 @@
 {
   "division": "Netscape #MAJORVER#.#MINORVER#",
-  "versions": ["4.79", "4.73", "4.7", "4.8"],
+  "versions": ["4.79", "4.76", "4.73", "4.7", "4.8"],
   "sortIndex": 7803,
   "lite": false,
   "standard": true,
@@ -50,7 +50,7 @@
           "match": "Mozilla\/#MAJORVER#.#MINORVER#*(#PLATFORM#)*",
           "device": "general Desktop",
           "platforms": [
-            "SunOS"
+            "SunOS", "FreeBSD"
           ]
         }
       ]

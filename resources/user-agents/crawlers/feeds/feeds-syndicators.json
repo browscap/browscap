@@ -187,7 +187,16 @@
           }
         },
         {
-          "match": "MagpieRSS\/* (*)",
+          "match": "MagpieRSS\/0.72*",
+          "properties": {
+            "Browser": "MagpieRSS",
+            "Version": "0.72",
+            "MajorVer": "0",
+            "MinorVer": "72"
+          }
+        },
+        {
+          "match": "MagpieRSS\/*",
           "properties": {
             "Browser": "MagpieRSS"
           }
@@ -352,7 +361,8 @@
         {
           "match": "Netvibes (*)",
           "properties": {
-            "Browser": "Netvibes"
+            "Browser": "Netvibes",
+            "Browser_Maker": "Dassault Systemes"
           }
         },
         {
@@ -652,6 +662,38 @@
           "properties": {
             "Browser": "R6 FeedFetcher",
             "Browser_Maker": "salesforce.com, inc."
+          }
+        },
+        {
+          "match": "newsme\/1.0*",
+          "properties": {
+            "Browser": "newsme",
+            "Browser_Maker": "News.me Inc",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "newsme\/*",
+          "properties": {
+            "Browser": "newsme",
+            "Browser_Maker": "News.me Inc"
+          }
+        },
+        {
+          "match": "sfFeedReader\/0.9*",
+          "properties": {
+            "Browser": "Symfony RSS reader",
+            "Version": "0.9",
+            "MajorVer": "0",
+            "MinorVer": "9"
+          }
+        },
+        {
+          "match": "sfFeedReader\/*",
+          "properties": {
+            "Browser": "Symfony RSS reader"
           }
         }
       ]

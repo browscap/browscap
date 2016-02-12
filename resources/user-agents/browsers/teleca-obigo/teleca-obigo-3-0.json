@@ -26,42 +26,8 @@
       },
       "children": [
         {
-          "match": "Alcatel-OT-216\/1.0 ObigoInternetBrowser\/Q03C",
-          "device": "Alcatel OT-216"
-        },
-        {
-          "match": "Alcatel-OT-C550\/1.0 ObigoInternetBrowser\/Q03C",
-          "device": "Alcatel OT-C550"
-        },
-        {
-          "match": "Huawei\/*\/G6600\/Browser\/obigo-browser\/q03c",
-          "device": "Huawei G6600"
-        },
-        {
           "match": "Vodafone\/1.0\/Panasonic-VS3\/VA43 Browser\/Obigo-Browser\/#MAJORVER#.#MINORVER# *",
           "device": "Panasonic VS3"
-        },
-        {
-          "match": "ZTE-G-X760-vegas-orange\/X760_Z15UK_FS_B07A106_ORANGE Obigo\/Q03C*",
-          "device": "ZTE G-X760"
-        },
-        {
-          "match": "LG\/KU990\/* Browser\/Obigo-Q05A\/3.6 *",
-          "device": "LG KU990",
-          "properties": {
-            "Version": "3.6",
-            "MajorVer": "3",
-            "MinorVer": "6"
-          }
-        },
-        {
-          "match": "LG\/HB620T\/* Browser\/Obigo-Q05A\/*",
-          "device": "LG HB620T",
-          "properties": {
-            "Version": "3.12",
-            "MajorVer": "3",
-            "MinorVer": "12"
-          }
         }
       ]
     }

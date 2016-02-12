@@ -1,0 +1,59 @@
+{
+  "division": "DuckDuckBot",
+  "sortIndex": 250,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "DuckDuckBot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "DuckDuckBot",
+        "Browser": "DuckDuckBot",
+        "Browser_Maker": "DuckDuckGo",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "DuckDuckBot\/*; (?http:\/\/duckduckgo.com\/duckduckbot.html)",
+          "properties": {
+            "Browser": "DuckDuckBot"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; DuckDuckGo-Favicons-Bot\/1.0*",
+          "properties": {
+            "Browser": "DuckDuck Favicons Bot",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; DuckDuckGo-Favicons-Bot\/*",
+          "properties": {
+            "Browser": "DuckDuck Favicons Bot"
+          }
+        },
+        {
+          "match": "DDG-Android-3.0*",
+          "properties": {
+            "Browser": "DuckDuck App",
+            "Browser_Type": "Application",
+            "Version": "3.0",
+            "MajorVer": "3",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "DDG-Android-*",
+          "properties": {
+            "Browser": "DuckDuck App",
+            "Browser_Type": "Application"
+          }
+        }
+      ]
+    }
+  ]
+}

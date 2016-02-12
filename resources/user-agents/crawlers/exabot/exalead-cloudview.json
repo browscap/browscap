@@ -1,0 +1,34 @@
+{
+  "division": "Exalead CloudView",
+  "sortIndex": 130,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Exalead CloudView",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Exalead CloudView",
+        "Browser": "Exalead CloudView",
+        "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "Dassault Systemes",
+        "Frames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (compatible; ExaleadCloudView\/5*",
+          "properties": {
+            "Version": "5.0",
+            "MajorVer": "5",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; ExaleadCloudView\/*"
+        }
+      ]
+    }
+  ]
+}

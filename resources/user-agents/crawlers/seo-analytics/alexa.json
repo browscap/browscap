@@ -1,0 +1,32 @@
+{
+  "division": "Alexabot",
+  "sortIndex": 249,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Alexabot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Alexabot",
+        "Browser": "Alexabot",
+        "Browser_Maker": "Alexa Internet, Inc",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (compatible; Alexabot\/1.0; *",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Alexabot\/*"
+        }
+      ]
+    }
+  ]
+}

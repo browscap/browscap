@@ -44,10 +44,6 @@
           "device": "BIRD D670"
         },
         {
-          "match": "ZONDA-ZMNG1900\/REV 2.*\/Teleca Q03B1",
-          "device": "ZONDA ZMNG1900"
-        },
-        {
           "match": "*Obigo\/WAP2.0*"
         },
         {
@@ -94,31 +90,7 @@
           }
         },
         {
-          "match": "*ObigoInternetBrowser\/Q03*",
-          "properties": {
-            "Version": "3.0",
-            "MajorVer": "3",
-            "MinorVer": "0"
-          }
-        },
-        {
-          "match": "*Browser\/obigo-browser\/q03*",
-          "properties": {
-            "Version": "3.0",
-            "MajorVer": "3",
-            "MinorVer": "0"
-          }
-        },
-        {
           "match": "*Browser\/Obigo-Browser\/3*",
-          "properties": {
-            "Version": "3.0",
-            "MajorVer": "3",
-            "MinorVer": "0"
-          }
-        },
-        {
-          "match": "*Obigo\/Q03*",
           "properties": {
             "Version": "3.0",
             "MajorVer": "3",
@@ -134,55 +106,7 @@
           }
         },
         {
-          "match": "*Obigo\/Q05*",
-          "properties": {
-            "Version": "5.0",
-            "MajorVer": "5",
-            "MinorVer": "0"
-          }
-        },
-        {
-          "match": "*Browser\/Obigo-Q05*",
-          "properties": {
-            "Version": "5.0",
-            "MajorVer": "5",
-            "MinorVer": "0"
-          }
-        },
-        {
           "match": "*Obigo\/Q7*",
-          "properties": {
-            "Version": "7.0",
-            "MajorVer": "7",
-            "MinorVer": "0"
-          }
-        },
-        {
-          "match": "*Teleca\/Q7*",
-          "properties": {
-            "Version": "7.0",
-            "MajorVer": "7",
-            "MinorVer": "0"
-          }
-        },
-        {
-          "match": "*TelecaBrowser\/Q07*",
-          "properties": {
-            "Version": "7.0",
-            "MajorVer": "7",
-            "MinorVer": "0"
-          }
-        },
-        {
-          "match": "*Browser\/Teleca-Q7*",
-          "properties": {
-            "Version": "7.0",
-            "MajorVer": "7",
-            "MinorVer": "0"
-          }
-        },
-        {
-          "match": "*Browser\/Obigo-Q7*",
           "properties": {
             "Version": "7.0",
             "MajorVer": "7",
@@ -312,15 +236,6 @@
           "properties": {
             "Version": "4.1",
             "MajorVer": "4",
-            "MinorVer": "1"
-          }
-        },
-        {
-          "match": "LG-KM900\/V10x Browser\/Obigo-Q7.1*",
-          "device": "LG KM900",
-          "properties": {
-            "Version": "7.1",
-            "MajorVer": "7",
             "MinorVer": "1"
           }
         },

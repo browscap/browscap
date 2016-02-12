@@ -1,0 +1,32 @@
+{
+  "division": "Camo Asset Proxy",
+  "sortIndex": 461,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Camo Asset Proxy",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Camo Asset Proxy",
+        "Browser": "Camo Asset Proxy",
+        "Browser_Maker": "Corey Donohoe",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Camo Asset Proxy 2.2*",
+          "properties": {
+            "Version": "2.2",
+            "MajorVer": "2",
+            "MinorVer": "2"
+          }
+        },
+        {
+          "match": "Camo Asset Proxy*"
+        }
+      ]
+    }
+  ]
+}

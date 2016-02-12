@@ -1,0 +1,32 @@
+{
+  "division": "Webmaster Tips Bot",
+  "sortIndex": 1560,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Webmaster Tips Bot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Webmaster Tips Bot",
+        "Browser": "Webmaster Tips Bot",
+        "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "wmtips.com",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (compatible; wmtips.com\/1.0*",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; wmtips.com\/*"
+        }
+      ]
+    }
+  ]
+}

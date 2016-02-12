@@ -280,24 +280,6 @@
           "match": "Mozilla\/5.0 (Windows NT.*"
         },
         {
-          "match": "Mozilla\/5.0 (Linux; U; Android * App3leWebKit\/*",
-          "properties": {
-            "Browser": "Fake Android"
-          }
-        },
-        {
-          "match": "Mozilla\/4.0 (compatible;Android;320x480)",
-          "properties": {
-            "Browser": "Fake Android"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (Linux; *Android*) AppleWebKit\/* (KHTML, like Geccko)*",
-          "properties": {
-            "Browser": "Fake Android"
-          }
-        },
-        {
           "match": "Mozilla\/*Windows NT 7*"
         },
         {
@@ -371,6 +353,45 @@
         },
         {
           "match": "*MSIE*Chrome*"
+        },
+        {
+          "match": "Mozilla\/5.0 ;*"
+        },
+        {
+          "match": "'*"
+        },
+        {
+          "match": "\"*"
+        },
+        {
+          "match": "Ruby, Mozilla*"
+        },
+        {
+          "match": "Mozilla\/4.2 *"
+        },
+        {
+          "match": "*   Linux*"
+        },
+        {
+          "match": "no-ua*"
+        },
+        {
+          "match": "AppleWebKit*"
+        },
+        {
+          "match": "*AppleWebKit\/1.1*"
+        },
+        {
+          "match": "*AppleWebKit\/999*"
+        },
+        {
+          "match": "*SeaMonkey\/8.2*"
+        },
+        {
+          "match": "Mozilla\/5.0 Windows*"
+        },
+        {
+          "match": "*AppleWebKit\/xxx.x*"
         }
       ]
     }

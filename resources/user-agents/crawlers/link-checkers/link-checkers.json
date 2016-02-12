@@ -466,6 +466,130 @@
             "Browser": "MOSBookmarks Link Checker",
             "Browser_Maker": "tegdesign.ch"
           }
+        },
+        {
+          "match": "URLChecker*",
+          "properties": {
+            "Browser": "URLChecker"
+          }
+        },
+        {
+          "match": "*Short URL Checker*",
+          "properties": {
+            "Browser": "Short URL Checker"
+          }
+        },
+        {
+          "match": "Raven Link Checker*",
+          "properties": {
+            "Browser": "Raven Link Checker",
+            "Browser_Maker": "Raven Internet Marketing Tools"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) BrokenLinkCheck.com\/1.1*",
+          "properties": {
+            "Browser": "BrokenLinkCheck",
+            "Browser_Maker": "Raven Internet Marketing Tools",
+            "Version": "1.1",
+            "MajorVer": "1",
+            "MinorVer": "1"
+          },
+          "device": "Windows Desktop",
+          "platforms": [
+            "WinXPa_32"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) BrokenLinkCheck.com\/*",
+          "properties": {
+            "Browser": "BrokenLinkCheck",
+            "Browser_Maker": "Raven Internet Marketing Tools"
+          },
+          "device": "Windows Desktop",
+          "platforms": [
+            "WinXPa_32"
+          ]
+        },
+        {
+          "match": "LongURL API*",
+          "properties": {
+            "Browser": "LongURL Bot",
+            "Browser_Maker": "LongURL.org"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (GetLinkInfo*",
+          "properties": {
+            "Browser": "GetLinkInfo Bot"
+          }
+        },
+        {
+          "match": "Slinky v1.0*",
+          "properties": {
+            "Browser": "Slinky",
+            "Browser_Maker": "Beau Lebens",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Slinky v*",
+          "properties": {
+            "Browser": "Slinky",
+            "Browser_Maker": "Beau Lebens"
+          }
+        },
+        {
+          "match": "BMC Link Validator*",
+          "properties": {
+            "Browser": "BMC Link Validator"
+          }
+        },
+        {
+          "match": "Premium URL Shortener 4.0*",
+          "properties": {
+            "Browser": "Premium URL Shortener",
+            "Version": "4.0",
+            "MajorVer": "4",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Premium URL Shortener*",
+          "properties": {
+            "Browser": "Premium URL Shortener"
+          }
+        },
+        {
+          "match": "Mozilla\/4.0 (compatible; TURLValidator\/1.0*",
+          "properties": {
+            "Browser": "TURLValidator",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/4.0 (compatible; TURLValidator\/*",
+          "properties": {
+            "Browser": "TURLValidator"
+          }
+        },
+        {
+          "match": "*deadlinkchecker*",
+          "properties": {
+            "Browser": "dead link checker",
+            "Browser_Maker": "Traffic Names Ltd"
+          }
+        },
+        {
+          "match": "inboundli link checker*",
+          "properties": {
+            "Browser": "inbound.li link checker",
+            "Browser_Maker": "inboundli, UG."
+          }
         }
       ]
     }

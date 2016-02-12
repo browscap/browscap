@@ -1,0 +1,32 @@
+{
+  "division": "Alexa Site Audit",
+  "sortIndex": 249,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Alexa Site Audit",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Alexa Site Audit",
+        "Browser": "Alexa Site Audit",
+        "Browser_Maker": "Alexa Internet, Inc",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (compatible; alexa site audit\/1.0*",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; alexa site audit\/*"
+        }
+      ]
+    }
+  ]
+}

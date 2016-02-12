@@ -1,0 +1,27 @@
+{
+  "division": "Typhoeus",
+  "sortIndex": 2020,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Typhoeus",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Typhoeus",
+        "Browser_Type": "Bot/Crawler",
+        "Browser": "Typhoeus",
+        "Browser_Maker": "Hans Hasselberg",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Typhoeus*"
+        }
+      ]
+    }
+  ]
+}
