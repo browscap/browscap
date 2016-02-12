@@ -1,6 +1,6 @@
 {
   "division": "IE #MAJORVER#.#MINORVER#",
-  "versions": ["7.0"],
+  "versions": ["7.0b"],
   "sortIndex": 2764,
   "lite": true,
   "standard": true,
@@ -19,7 +19,7 @@
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
         "Alpha": "false",
-        "Beta": "false",
+        "Beta": "true",
         "Win16": "false",
         "Win32": "false",
         "Win64": "false",
