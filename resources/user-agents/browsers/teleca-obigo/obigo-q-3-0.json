@@ -38,10 +38,6 @@
           "device": "Huawei G6600"
         },
         {
-          "match": "Vodafone\/1.0\/Panasonic-VS3\/VA43 Browser\/Obigo-Browser\/#MAJORVER#.#MINORVER# *",
-          "device": "Panasonic VS3"
-        },
-        {
           "match": "ZTE-G-X760-vegas-orange\/X760_Z15UK_FS_B07A106_ORANGE Obigo\/Q03C*",
           "device": "ZTE G-X760"
         },
