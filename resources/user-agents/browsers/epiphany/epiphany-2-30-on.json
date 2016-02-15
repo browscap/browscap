@@ -42,6 +42,13 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (Macintosh; ARM Mac OS X) AppleWebKit\/* (KHTML, like Gecko) Safari\/* Version\/* Raspbian\/* (*rpi*rpi*) Epiphany\/#MAJORVER#.#MINORVER#*",
+          "device": "Raspberry Pi",
+          "platforms": [
+            "Debian"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/*(KHTML,*like Gecko*) Safari\/* Epiphany\/#MAJORVER#.#MINORVER#*",
           "device": "Linux Desktop",
           "platforms": [

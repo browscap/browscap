@@ -1,8 +1,8 @@
 <?php
 
 return [
-    'issue-714' => [
-        'Mozilla/5.0 (Macintosh; ARM Mac OS X) AppleWebKit/538.15 (KHTML, like Gecko) Safari/538.15 Version/6.0 Debian/7.8 (3.8.2.0-0rpi21rpi1) Epiphany/3.8.2',
+    'issue-894' => [
+        'Mozilla/5.0 (Macintosh; ARM Mac OS X) AppleWebKit/538.15 (KHTML, like Gecko) Safari/538.15 Version/6.0 Raspbian/8.0 (1:3.8.2.0-0rpi27rpi1g) Epiphany/3.8.2',
         [
             'Browser' => 'Epiphany',
             'Browser_Type' => 'Browser',
