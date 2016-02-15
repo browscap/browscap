@@ -136,6 +136,15 @@ class FullCollectionFactory
         ;
         $writerCollection->addWriter($jsonWriter);
 
+        $liteJsonWriter = new JsonWriter($buildFolder . '/lite_browscap.json');
+        $formatter  = new JsonFormatter();
+        $liteJsonWriter
+          ->setLogger($logger)
+          ->setFormatter($formatter->setFilter($liteFilter))
+          ->setFilter($liteFilter)
+        ;
+        $writerCollection->addWriter($liteJsonWriter);
+
         return $writerCollection;
     }
 }
