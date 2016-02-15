@@ -64,8 +64,8 @@ return [
     'issue-323-C' => [
         'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/534.57.7 (KHTML, like Gecko) WebClip/7537.76.1 Safari/7537.76.4',
         [
-            'Browser' => 'WebClip',
-            'Browser_Type' => 'Browser',
+            'Browser' => 'WebClip App',
+            'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'unknown',
             'Version' => '0.0',
@@ -187,7 +187,7 @@ return [
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
-            'Browser_Maker' => 'UC Web',
+            'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '3.2',
             'MajorVer' => '3',
             'MinorVer' => '2',

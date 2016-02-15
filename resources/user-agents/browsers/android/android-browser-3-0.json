@@ -99,14 +99,14 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#STM7UC Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-          "device": "unknown STM7UC",
+          "device": "general Mobile Phone",
           "platforms": [
             "Android_1_0"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#STM7UH Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-          "device": "unknown STM7UH",
+          "device": "general Mobile Phone",
           "platforms": [
             "Android_1_0"
           ]

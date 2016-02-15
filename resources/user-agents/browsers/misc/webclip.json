@@ -1,19 +1,19 @@
 {
-  "division": "WebClip",
+  "division": "WebClip App",
   "sortIndex": 1950,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "WebClip",
+      "userAgent": "WebClip App",
       "engine": "WebKit",
       "device": "Macintosh",
       "platform": "OSX",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "WebClip",
-        "Browser": "WebClip",
-        "Browser_Type": "Browser",
+        "Comment": "WebClip App",
+        "Browser": "WebClip App",
+        "Browser_Type": "Application",
         "Alpha": "false",
         "Beta": "false",
         "Win16": "false",

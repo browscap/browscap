@@ -14,6 +14,7 @@
         "Parent": "DefaultProperties",
         "Comment": "Dolfin Android #MAJORVER#.#MINORVER#",
         "Browser": "Dolfin",
+        "Browser_Maker": "MopoTab Inc",
         "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",

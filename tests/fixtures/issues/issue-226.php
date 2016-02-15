@@ -7,7 +7,7 @@ return [
             'Browser' => 'oBot',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
-            'Browser_Maker' => 'Content Security Division of IBM Germany Research & Development GmbH',
+            'Browser_Maker' => 'IBM',
             'Version' => '2.3',
             'MajorVer' => '2',
             'MinorVer' => '3',

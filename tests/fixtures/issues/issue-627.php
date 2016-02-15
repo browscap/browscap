@@ -7,7 +7,7 @@ return [
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
-            'Browser_Maker' => 'UC Web',
+            'Browser_Maker' => 'UCWeb Inc.',
             'Version' => '9.8',
             'MajorVer' => '9',
             'MinorVer' => '8',

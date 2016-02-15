@@ -11,7 +11,7 @@
         "Comment": "YahooFeedSeeker",
         "Browser": "YahooFeedSeeker",
         "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Yahoo!",
+        "Browser_Maker": "Yahoo! Inc.",
         "Crawler": "true",
         "Frames": "true",
         "IFrames": "true",

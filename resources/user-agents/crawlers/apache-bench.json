@@ -10,7 +10,7 @@
         "Parent": "DefaultProperties",
         "Comment": "Apache Bench",
         "Browser": "Apache Bench",
-        "Browser_Maker": "Apache Foundation",
+        "Browser_Maker": "The Apache Software Foundation",
         "Browser_Type": "Bot/Crawler",
         "Frames": "true",
         "IFrames": "true",

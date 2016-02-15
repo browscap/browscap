@@ -32,7 +32,7 @@
         },
         {
           "match": "Nokia2320c-2b\/*",
-          "device": "Nokia 2323c"
+          "device": "Nokia 2320c"
         },
         {
           "match": "Nokia2323c-2\/*",

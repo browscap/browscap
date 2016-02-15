@@ -26,47 +26,6 @@
           }
         },
         {
-          "match": "VLC media player*",
-          "properties": {
-            "Browser": "VLC Media Player",
-            "Browser_Maker": "VideoLAN non-profit organization"
-          }
-        },
-        {
-          "match": "VLC\/2.0*",
-          "properties": {
-            "Browser": "VLC Media Player",
-            "Browser_Maker": "VideoLAN non-profit organization",
-            "Version": "2.0",
-            "MajorVer": "2",
-            "MinorVer": "0"
-          }
-        },
-        {
-          "match": "VLC\/2.1*",
-          "properties": {
-            "Browser": "VLC Media Player",
-            "Browser_Maker": "VideoLAN non-profit organization",
-            "Version": "2.1",
-            "MajorVer": "2",
-            "MinorVer": "1"
-          }
-        },
-        {
-          "match": "VLC\/*",
-          "properties": {
-            "Browser": "VLC Media Player",
-            "Browser_Maker": "VideoLAN non-profit organization"
-          }
-        },
-        {
-          "match": "vlc\/*",
-          "properties": {
-            "Browser": "VLC Media Player",
-            "Browser_Maker": "VideoLAN non-profit organization"
-          }
-        },
-        {
           "match": "vobsub",
           "properties": {
             "Browser": "vobsub"
@@ -77,18 +36,6 @@
           "properties": {
             "Browser": "WinAmp"
           }
-        },
-        {
-          "match": "ElmediaPlayer Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/*",
-          "device": "Macintosh",
-          "engine": "WebKit",
-          "properties": {
-            "Browser": "Elmedia Player",
-            "Browser_Maker": "Eltima Software"
-          },
-          "platforms": [
-            "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10", "OSX"
-          ]
         }
       ]
     }

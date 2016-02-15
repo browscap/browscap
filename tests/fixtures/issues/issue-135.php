@@ -7,7 +7,7 @@ return [
             'Browser' => 'WBSearchBot',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
-            'Browser_Maker' => 'unknown',
+            'Browser_Maker' => 'www.warebay.com',
             'Version' => '1.1',
             'MajorVer' => '1',
             'MinorVer' => '1',

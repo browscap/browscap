@@ -10,6 +10,7 @@
         "Parent": "DefaultProperties",
         "Comment": "NaverBot",
         "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "NHN Corporation",
         "Browser": "NaverBot",
         "Frames": "true",
         "Tables": "true",

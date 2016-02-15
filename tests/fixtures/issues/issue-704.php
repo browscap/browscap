@@ -66,7 +66,7 @@ return [
             'JavaApplets' => false,
             'ActiveXControls' => false,
             'BackgroundSounds' => false,
-            'Device_Name' => 'Galaxy Tab 4 10.1',
+            'Device_Name' => 'Galaxy Tab 4 10.1 WiFi',
             'Device_Maker' => 'Samsung',
             'Device_Type' => 'Tablet',
             'Device_Pointing_Method' => 'touchscreen',

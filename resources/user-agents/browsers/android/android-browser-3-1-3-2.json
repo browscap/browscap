@@ -120,7 +120,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#WS171 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-          "device": "unknown WS171",
+          "device": "general Mobile Phone",
           "platforms": [
             "Android_1_5"
           ]
@@ -225,14 +225,14 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#Zio Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-          "device": "unknown Zio",
+          "device": "general Mobile Phone",
           "platforms": [
             "Android_1_6"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#edge Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
-          "device": "unknown Edge",
+          "device": "general Mobile Phone",
           "platforms": [
             "Android_1_6"
           ]

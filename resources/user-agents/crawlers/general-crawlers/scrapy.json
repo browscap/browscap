@@ -11,6 +11,7 @@
         "Comment": "Scrapy",
         "Browser": "Scrapy",
         "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "scrapy.org",
         "Crawler": "true"
       },
       "children": [

@@ -28,7 +28,7 @@ return [
             'ActiveXControls' => false,
             'BackgroundSounds' => false,
             'Device_Name' => 'KBD',
-            'Device_Maker' => 'Research In Motion Limited',
+            'Device_Maker' => 'BlackBerry Limited',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen',
             'Device_Code_Name' => 'KBD',

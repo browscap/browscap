@@ -23,6 +23,18 @@
       },
       "children": [
         {
+          "match": "com.douban.group\/2.2* Mozilla\/5.0 (#PLATFORM#MI 2A Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/*Safari\/*",
+          "properties": {
+            "Version": "2.2",
+            "MajorVer": "2",
+            "MinorVer": "2"
+          },
+          "device": "Xiaomi MI 2A",
+          "platforms": [
+            "Android_4_1"
+          ]
+        },
+        {
           "match": "com.douban.group\/2.2* Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/*Safari\/*",
           "properties": {
             "Version": "2.2",

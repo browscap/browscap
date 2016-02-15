@@ -11,6 +11,7 @@
         "Comment": "Mail.Ru",
         "Browser": "Mail.Ru",
         "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "Mail.Ru Group",
         "Crawler": "true"
       },
       "children": [

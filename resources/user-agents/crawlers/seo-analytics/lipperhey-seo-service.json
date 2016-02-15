@@ -22,6 +22,21 @@
           "match": "Mozilla\/5.0 (compatible; Lipperhey Spider*"
         },
         {
+          "match": "Mozilla\/5.0 (compatible; Lipperhey-Kaus-Australis\/5.0*",
+          "properties": {
+            "Browser": "Lipperhey Kaus Australis",
+            "Version": "5.0",
+            "MajorVer": "5",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Lipperhey-Kaus-Australis\/*",
+          "properties": {
+            "Browser": "Lipperhey Kaus Australis"
+          }
+        },
+        {
           "match": "Mozilla\/5.0 (compatible; Lipperhey*"
         }
       ]

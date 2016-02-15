@@ -1,16 +1,17 @@
 {
-  "division": "Yeti-Mobile",
+  "division": "NaverBot Mobile",
   "sortIndex": 810,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "Yeti-Mobile",
+      "userAgent": "NaverBot Mobile",
       "device": "general Mobile Device",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "NaverBot",
         "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "NHN Corporation",
         "Frames": "true",
         "Tables": "true",
         "Crawler": "true",

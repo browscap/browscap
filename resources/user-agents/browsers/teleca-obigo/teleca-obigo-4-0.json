@@ -13,6 +13,7 @@
         "Parent": "DefaultProperties",
         "Comment": "Teleca-Obigo #MAJORVER#.#MINORVER#",
         "Browser": "Teleca-Obigo",
+        "Browser_Maker": "Obigo",
         "Browser_Type": "Browser",
         "Frames": "true",
         "IFrames": "true",

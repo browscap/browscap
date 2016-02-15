@@ -13,6 +13,7 @@
         "Parent": "DefaultProperties",
         "Comment": "Obigo Q #MAJORVER#.#MINORVER#",
         "Browser": "Obigo Q",
+        "Browser_Maker": "Obigo",
         "Browser_Type": "Browser",
         "Frames": "true",
         "IFrames": "true",

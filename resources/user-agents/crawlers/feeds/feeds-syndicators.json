@@ -252,7 +252,7 @@
           "engine": "Gecko",
           "properties": {
             "Browser": "Jakarta FeedParser",
-            "Browser_Maker": "Apache Foundation"
+            "Browser_Maker": "The Apache Software Foundation"
           },
           "platforms": [
             "Linux_64", "Linux_32", "Linux"
@@ -607,7 +607,7 @@
           "match": "NewsBlur Feed Fetcher*Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/*",
           "device": "Macintosh",
           "properties": {
-            "Browser": "NewsBlur Favicon Fetcher",
+            "Browser": "NewsBlur Feed Fetcher",
             "Browser_Maker": "www.newsblur.com"
           },
           "platforms": [
@@ -661,7 +661,7 @@
           "match": "R6_FeedFetcher*",
           "properties": {
             "Browser": "R6 FeedFetcher",
-            "Browser_Maker": "salesforce.com, inc."
+            "Browser_Maker": "Salesforce.com, Inc."
           }
         },
         {

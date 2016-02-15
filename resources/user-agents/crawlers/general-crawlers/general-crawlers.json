@@ -1099,7 +1099,7 @@
           "match": "WeSEE:Ads\/*",
           "properties": {
             "Browser": "WeSEE:Ads",
-            "Browser_Maker": "WeSEE"
+            "Browser_Maker": "WeSEE Ltd"
           }
         },
         {
@@ -1110,7 +1110,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0?(compatible;?PiplBot*",
+          "match": "Mozilla\/5.0 (compatible; PiplBot*",
           "properties": {
             "Browser": "PiplBot",
             "Browser_Maker": "Pipl"
@@ -1348,7 +1348,7 @@
         {
           "match": "Mozilla\/5.0 (compatible; discoverybot\/2.0*",
           "properties": {
-            "Browser": "discoverybot",
+            "Browser": "Discovery Bot",
             "Browser_Maker": "discoveryengine.com",
             "Version": "2.0",
             "MajorVer": "2",
@@ -1358,7 +1358,7 @@
         {
           "match": "Mozilla\/5.0 (compatible; discoverybot\/*",
           "properties": {
-            "Browser": "discoverybot",
+            "Browser": "Discovery Bot",
             "Browser_Maker": "discoveryengine.com"
           }
         },
@@ -1373,7 +1373,7 @@
           "match": "RED\/1*",
           "properties": {
             "Browser": "redbot",
-            "Browser_Maker": "mnot",
+            "Browser_Maker": "redbot.org",
             "Version": "1.0",
             "MajorVer": "1",
             "MinorVer": "0"
@@ -1383,7 +1383,7 @@
           "match": "RED\/*",
           "properties": {
             "Browser": "redbot",
-            "Browser_Maker": "mnot"
+            "Browser_Maker": "redbot.org"
           }
         },
         {
@@ -1614,7 +1614,7 @@
           "match": "Mozilla\/5.0 (compatible; Crawler\/0.9*",
           "properties": {
             "Browser": "Crawler",
-            "Browser_Maker": "linkfluence.net",
+            "Browser_Maker": "Linkfluence SAS",
             "Version": "0.9",
             "MajorVer": "0",
             "MinorVer": "9"
@@ -1624,7 +1624,7 @@
           "match": "Mozilla\/5.0 (compatible; Crawler\/*",
           "properties": {
             "Browser": "Crawler",
-            "Browser_Maker": "linkfluence.net"
+            "Browser_Maker": "Linkfluence SAS"
           }
         },
         {
@@ -1842,23 +1842,6 @@
           "properties": {
             "Browser": "PageFreezer",
             "Browser_Maker": "PageFreezer Software Inc."
-          }
-        },
-        {
-          "match": "restify\/2.6* (*) node\/*",
-          "properties": {
-            "Browser": "restify",
-            "Browser_Maker": "Mark Cavage",
-            "Version": "2.6",
-            "MajorVer": "2",
-            "MinorVer": "6"
-          }
-        },
-        {
-          "match": "restify\/* (*) node\/*",
-          "properties": {
-            "Browser": "restify",
-            "Browser_Maker": "Mark Cavage"
           }
         },
         {

@@ -390,7 +390,7 @@
         {
           "match": "Mnogosearch*",
           "properties": {
-            "Browser": "Mnogosearch"
+            "Browser": "MnoGoSearch"
           }
         },
         {
@@ -1060,7 +1060,7 @@
         {
           "match": "Mozilla\/5.1 (compatible; +5Bot\/1.0*",
           "properties": {
-            "Browser": "5Bot",
+            "Browser": "Plus5Bot",
             "Browser_Maker": "plus5files.net",
             "Version": "1.0",
             "MajorVer": "1",
@@ -1070,7 +1070,7 @@
         {
           "match": "Mozilla\/5.1 (compatible; +5Bot\/*",
           "properties": {
-            "Browser": "5Bot",
+            "Browser": "Plus5Bot",
             "Browser_Maker": "plus5files.net"
           }
         },

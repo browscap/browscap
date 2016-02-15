@@ -169,6 +169,7 @@
           "match": "WEB.DE MailCheck\/2.4*",
           "properties": {
             "Browser": "WEB.DE MailCheck",
+            "Browser_Maker": "1 & 1",
             "Version": "2.4",
             "MajorVer": "2",
             "MinorVer": "4"
@@ -177,13 +178,15 @@
         {
           "match": "WEB.DE MailCheck\/*",
           "properties": {
-            "Browser": "WEB.DE MailCheck"
+            "Browser": "WEB.DE MailCheck",
+            "Browser_Maker": "1 & 1"
           }
         },
         {
           "match": "GMX MailCheck\/2.3*",
           "properties": {
             "Browser": "GMX MailCheck",
+            "Browser_Maker": "1 & 1",
             "Version": "2.3",
             "MajorVer": "2",
             "MinorVer": "3"
@@ -193,6 +196,7 @@
           "match": "GMX MailCheck\/2.4*",
           "properties": {
             "Browser": "GMX MailCheck",
+            "Browser_Maker": "1 & 1",
             "Version": "2.4",
             "MajorVer": "2",
             "MinorVer": "4"

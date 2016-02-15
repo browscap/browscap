@@ -11,7 +11,7 @@
         "Comment": "YandexBot",
         "Browser": "YandexBot",
         "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "Yandex",
+        "Browser_Maker": "Yandex LLC",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",

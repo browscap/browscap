@@ -1,6 +1,6 @@
 {
   "division": "WordPress",
-  "sortIndex": 310,
+  "sortIndex": 311,
   "lite": false,
   "standard": true,
   "userAgents": [
@@ -11,7 +11,7 @@
         "Comment": "WordPress",
         "Browser": "WordPress",
         "Browser_Type": "Bot/Crawler",
-        "Browser_Maker": "WordPress.org",
+        "Browser_Maker": "wordpress.org",
         "Frames": "true",
         "Tables": "true",
         "Crawler": "true"

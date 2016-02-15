@@ -12,7 +12,7 @@
         "Browser": "CareerBot",
         "Browser_Type": "Bot/Crawler",
         "Crawler": "true",
-        "Browser_Maker": "www.career-x.de"
+        "Browser_Maker": "career-x.de"
       },
       "children": [
         {

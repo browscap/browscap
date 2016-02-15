@@ -97,7 +97,7 @@ return [
             'Browser' => 'Dolfin',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
-            'Browser_Maker' => 'unknown',
+            'Browser_Maker' => 'MopoTab Inc',
             'Version' => '1.0',
             'MajorVer' => '1',
             'MinorVer' => '0',

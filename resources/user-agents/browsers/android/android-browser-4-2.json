@@ -130,7 +130,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#ALCATEL ONE TOUCH 7047D*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "Alcatel 7047D",
+          "device": "Alcatel OT-7047D",
           "platforms": [
             "Android_4_2"
           ]

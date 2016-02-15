@@ -67,7 +67,7 @@ return [
             'Browser' => 'InfegyAtlas',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
-            'Browser_Maker' => 'Infegy',
+            'Browser_Maker' => 'infegy.com',
             'Version' => '1.0',
             'MajorVer' => '1',
             'MinorVer' => '0',
@@ -226,7 +226,7 @@ return [
             'Browser' => 'DomainAppender Bot',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
-            'Browser_Maker' => 'Profound Networks',
+            'Browser_Maker' => 'Profound Networks, LLC',
             'Version' => '1.0',
             'MajorVer' => '1',
             'MinorVer' => '0',
@@ -403,7 +403,7 @@ return [
     'issue-497-N' => [
         'Mozilla/5.1 (compatible; +5Bot/1.0; +http://plus5files.net)',
         [
-            'Browser' => '5Bot',
+            'Browser' => 'Plus5Bot',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'plus5files.net',
@@ -433,7 +433,7 @@ return [
     'issue-497-O' => [
         'Mozilla/5.0 (TweetmemeBot/4.0; +http://datasift.com/bot.html) Gecko/20100101 Firefox/31.0',
         [
-            'Browser' => 'TweetmemeBot',
+            'Browser' => 'Tweetmeme Bot',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'datasift.com',

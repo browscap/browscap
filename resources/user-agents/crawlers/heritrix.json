@@ -57,7 +57,7 @@
         {
           "match": "Mozilla\/5.0 (compatible; bnf.fr_bot;*",
           "properties": {
-            "Browser": "bnf.fr_bot",
+            "Browser": "bnf.fr Bot",
             "Browser_Maker": "Bibliotheque nationale de France"
           }
         }

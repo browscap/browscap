@@ -15,7 +15,7 @@
         "Comment": "UC Browser #MAJORVER#.#MINORVER#",
         "Browser": "UC Browser",
         "Browser_Type": "Browser",
-        "Browser_Maker": "UC Web",
+        "Browser_Maker": "UCWeb Inc.",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
@@ -57,6 +57,13 @@
           "platforms": [
             "Android_C_2_2", "Android_C_2_3",
             "Android_D_4_0", "Android_D_4_1"
+          ]
+        },
+        {
+          "match": "#PLATFORM#Aqua_Star*) UCWEB#MAJORVER#.#MINORVER#*",
+          "device": "Intex Aqua Star",
+          "platforms": [
+            "Android_D_2_3"
           ]
         },
         {

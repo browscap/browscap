@@ -14,6 +14,7 @@
         "Comment": "Teleca-Obigo #MAJORVER#.#MINORVER#",
         "Browser": "Teleca-Obigo",
         "Browser_Type": "Browser",
+        "Browser_Maker": "Obigo",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",

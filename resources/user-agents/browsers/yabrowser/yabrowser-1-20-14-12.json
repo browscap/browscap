@@ -24,7 +24,7 @@
         "Win64": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
-        "Browser_Maker": "Yandex",
+        "Browser_Maker": "Yandex LLC",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
@@ -83,7 +83,7 @@
         "Win64": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
-        "Browser_Maker": "Yandex",
+        "Browser_Maker": "Yandex LLC",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
@@ -592,7 +592,7 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#MID Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/* YaBrowser\/#MAJORVER#.#MINORVER#* Safari\/*",
-          "device": "unknown MID",
+          "device": "general Mobile Phone",
           "platforms": [
             "Android_4_1"
           ]

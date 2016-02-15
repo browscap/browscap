@@ -10,7 +10,7 @@
         "Parent": "DefaultProperties",
         "Comment": "URLAppendBot",
         "Browser": "URLAppendBot",
-        "Browser_Maker": "Profound Networks",
+        "Browser_Maker": "Profound Networks, LLC",
         "Browser_Type": "Bot/Crawler",
         "Crawler": "true"
       },

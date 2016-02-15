@@ -4,12 +4,12 @@ return [
     'issue-746-A' => [
         'Mozilla/5.0 (compatible; Lipperhey-Kaus-Australis/5.0; +https://www.lipperhey.com/en/about/)',
         [
-            'Browser' => 'Lipperhey SEO Service',
+            'Browser' => 'Lipperhey Kaus Australis',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Lipperhey',
-            'Version' => '0.0',
-            'MajorVer' => '0',
+            'Version' => '5.0',
+            'MajorVer' => '5',
             'MinorVer' => '0',
             'Platform' => 'unknown',
             'Platform_Version' => 'unknown',

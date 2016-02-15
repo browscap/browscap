@@ -34,7 +34,7 @@ return [
     'issue-484-B' => [
         'Mozilla/5.0 (compatible; discoverybot/2.0; +http://discoveryengine.com/discoverybot.html)',
         [
-            'Browser' => 'discoverybot',
+            'Browser' => 'Discovery Bot',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'discoveryengine.com',
@@ -397,7 +397,7 @@ return [
             'Browser' => 'redbot',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
-            'Browser_Maker' => 'mnot',
+            'Browser_Maker' => 'redbot.org',
             'Version' => '1.0',
             'MajorVer' => '1',
             'MinorVer' => '0',

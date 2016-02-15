@@ -28,7 +28,7 @@ return [
             'ActiveXControls' => false,
             'BackgroundSounds' => false,
             'Device_Name' => 'Z10',
-            'Device_Maker' => 'BlackBerry',
+            'Device_Maker' => 'BlackBerry Limited',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen',
             'Device_Code_Name' => 'Z10',

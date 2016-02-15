@@ -31,11 +31,10 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) WeTab-Browser Safari\/*",
-          "device": "Linux Desktop",
-          "platforms": [
-            "Linux_32", "Linux"
-          ]
+          "match": "Mozilla\/5.0 (*Linux*) AppleWebKit\/* (KHTML,*like Gecko*) WeTab-Browser Safari\/*",
+          "properties": {
+            "Browser_Modus": "Desktop Mode"
+          }
         }
       ]
     }

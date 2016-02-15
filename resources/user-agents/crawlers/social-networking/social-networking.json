@@ -108,7 +108,7 @@
         {
           "match": "Mozilla\/5.0 (compatible; Linux; Socialradarbot\/2.0*",
           "properties": {
-            "Browser": "Socialradarbot",
+            "Browser": "Socialradar Bot",
             "Browser_Maker": "infegy.com",
             "Version": "2.0",
             "MajorVer": "2",
@@ -118,7 +118,7 @@
         {
           "match": "Mozilla\/5.0 (compatible; Linux; Socialradarbot\/*",
           "properties": {
-            "Browser": "Socialradarbot",
+            "Browser": "Socialradar Bot",
             "Browser_Maker": "infegy.com"
           }
         },
@@ -143,7 +143,7 @@
           "match": "R6_CommentReader*",
           "properties": {
             "Browser": "R6 CommentReader",
-            "Browser_Maker": "salesforce.com, inc."
+            "Browser_Maker": "Salesforce.com, Inc."
           }
         },
         {
@@ -157,7 +157,7 @@
           "match": "Mozilla\/5.0 (compatible; Linux; InfegyAtlas\/1.0*",
           "properties": {
             "Browser": "InfegyAtlas",
-            "Browser_Maker": "Infegy",
+            "Browser_Maker": "infegy.com",
             "Version": "1.0",
             "MajorVer": "1",
             "MinorVer": "0"
@@ -167,7 +167,7 @@
           "match": "Mozilla\/5.0 (compatible; Linux; InfegyAtlas\/*",
           "properties": {
             "Browser": "InfegyAtlas",
-            "Browser_Maker": "Infegy"
+            "Browser_Maker": "infegy.com"
           }
         },
         {

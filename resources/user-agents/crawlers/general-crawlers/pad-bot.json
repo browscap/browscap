@@ -7,9 +7,6 @@
   "userAgents": [
     {
       "userAgent": "PAD-bot #MAJORVER#.#MINORVER#",
-      "engine": "WebKit",
-      "platform": "iOS",
-      "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "PAD-bot #MAJORVER#.#MINORVER#",
