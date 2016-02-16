@@ -121,6 +121,9 @@ class PropertyHolder
             'Crawler'             => 1,
             'MasterParent'        => 1,
             'LiteMode'            => 1,
+            'isFake'              => 1,
+            'isAnonymized'        => 1,
+            'isModified'          => 1,
         );
 
         if (isset($booleanProperties[$propertyName])) {
@@ -243,6 +246,9 @@ class PropertyHolder
             'isTablet'                    => 1,
             'isSyndicationReader'         => 1,
             'Crawler'                     => 1,
+            'isFake'                      => 1,
+            'isAnonymized'                => 1,
+            'isModified'                  => 1,
         );
 
         if (isset($outputProperties[$propertyName])) {
