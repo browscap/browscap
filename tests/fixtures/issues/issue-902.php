@@ -2,8 +2,8 @@
 
 return [
     'issue-902-A' => [
-        'Microsoft Office/16.0 (Microsoft Outlook Mail 16.0.6416; Pro)',
-        [
+        'ua' => 'Microsoft Office/16.0 (Microsoft Outlook Mail 16.0.6416; Pro)',
+        'properties' => [
             'Browser' => 'Outlook',
             'Browser_Type' => 'Email Client',
             'Browser_Bits' => '0',
@@ -45,8 +45,8 @@ return [
         'standard' => true,
     ],
     'issue-902-B' => [
-        'Microsoft Office/16.0 (Windows NT 10.0; Microsoft Outlook 16.0.6326; Pro)',
-        [
+        'ua' => 'Microsoft Office/16.0 (Windows NT 10.0; Microsoft Outlook 16.0.6326; Pro)',
+        'properties' => [
             'Browser' => 'Outlook',
             'Browser_Type' => 'Email Client',
             'Browser_Bits' => '32',
@@ -88,8 +88,8 @@ return [
         'standard' => true,
     ],
     'issue-902-C' => [
-        'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; WOW64; Trident/8.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Microsoft Outlook 16.0.6366; ms-office; MSOffice 16)',
-        [
+        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; WOW64; Trident/8.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Microsoft Outlook 16.0.6366; ms-office; MSOffice 16)',
+        'properties' => [
             'Browser' => 'Outlook',
             'Browser_Type' => 'Email Client',
             'Browser_Bits' => '32',
