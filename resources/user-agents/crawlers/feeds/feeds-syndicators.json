@@ -151,6 +151,15 @@
           }
         },
         {
+          "match": "Gregarius\/0.5*",
+          "properties": {
+            "Browser": "Gregarius",
+            "Version": "0.5",
+            "MajorVer": "0",
+            "MinorVer": "5"
+          }
+        },
+        {
           "match": "Gregarius\/*",
           "properties": {
             "Browser": "Gregarius"
@@ -193,6 +202,15 @@
             "Version": "0.72",
             "MajorVer": "0",
             "MinorVer": "72"
+          }
+        },
+        {
+          "match": "MagpieRSS\/0.7*",
+          "properties": {
+            "Browser": "MagpieRSS",
+            "Version": "0.7",
+            "MajorVer": "0",
+            "MinorVer": "7"
           }
         },
         {

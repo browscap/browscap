@@ -27,7 +27,7 @@
       },
       "children": [
         {
-          "match": "Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "match": "Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "JAVA"
           ]
