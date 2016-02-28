@@ -1,0 +1,38 @@
+{
+  "division": "Charon",
+  "sortIndex": 944,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Charon",
+      "platform": "Inferno",
+      "device": "general Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Charon",
+        "Browser": "Charon",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Vita Nuova Holdings Ltd",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win64": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "Win32": "false",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "false",
+        "CssVersion": "0"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/4.08 (Charon; Inferno*"
+        }
+      ]
+    }
+  ]
+}

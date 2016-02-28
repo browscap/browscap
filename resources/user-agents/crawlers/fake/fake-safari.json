@@ -16,9 +16,6 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (*) AppleWebKit\/* (KHTML like Gecko) Version\/* Safari\/*"
-        },
-        {
           "match": "Mozilla\/5.0 (iPad; CPU iPhone OS 501*"
         },
         {
@@ -34,7 +31,7 @@
           "match": "Mozilla\/6.0 (iPhone*"
         },
         {
-          "match": "Mozilla\/5.0 (*like MacOS X) AppleWebKit\/* (KHTML, like Gecko) Version\/*Safari\/*"
+          "match": "Mozilla\/5.0 (*like MacOS X) AppleWebKit\/* (KHTML* like Gecko) Version\/*Safari\/*"
         },
         {
           "match": "Mozilla\/5.0 (compatible; Macintosh*"

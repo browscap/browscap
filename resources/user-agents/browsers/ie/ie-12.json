@@ -146,7 +146,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Trident\/8.0; rv:550) AppleWebKit\/* (KHTML, like Gecko) Version\/7.0 Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#Trident\/8.0; rv:550) AppleWebKit\/* (KHTML* like Gecko) Version\/7.0 Safari\/*",
           "platforms": [
             "Win8_x64", "Win8_64", "Win8_32",
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",

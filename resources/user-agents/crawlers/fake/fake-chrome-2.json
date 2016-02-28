@@ -16,7 +16,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (*Mac OS X* AppleWebKit\/* (KHTML, like Gecko) Chrome\/*Safari\/*"
+          "match": "Mozilla\/5.0 (*Mac OS X* AppleWebKit\/* (KHTML* like Gecko) Chrome\/*Safari\/*"
         }
       ]
     }

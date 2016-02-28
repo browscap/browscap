@@ -2,8 +2,8 @@
 
 return [
     'issue-906' => [
-        'SetLinks bot 1.0',
-        [
+        'ua' => 'SetLinks bot 1.0',
+        'properties' => [
             'Browser' => 'SetLinks.ru Crawler',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',

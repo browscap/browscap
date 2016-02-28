@@ -144,6 +144,13 @@
           "platforms": [
             "WinXPb_32"
           ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firebird\/#MAJORVER#.#MINORVER#*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win2000", "WinXPa_32", "Vista_32", "Win7_32"
+          ]
         }
       ]
     }

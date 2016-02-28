@@ -628,7 +628,7 @@
           }
         },
         {
-          "match": "NewsBlur Favicon Fetcher*Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/*",
+          "match": "NewsBlur Favicon Fetcher*Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Version\/* Safari\/*",
           "device": "Macintosh",
           "properties": {
             "Browser": "NewsBlur Favicon Fetcher",
@@ -639,7 +639,7 @@
           ]
         },
         {
-          "match": "NewsBlur Feed Fetcher*Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/*",
+          "match": "NewsBlur Feed Fetcher*Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Version\/* Safari\/*",
           "device": "Macintosh",
           "properties": {
             "Browser": "NewsBlur Feed Fetcher",
@@ -650,7 +650,7 @@
           ]
         },
         {
-          "match": "NewsBlur Page Fetcher*Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/*",
+          "match": "NewsBlur Page Fetcher*Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Version\/* Safari\/*",
           "device": "Macintosh",
           "properties": {
             "Browser": "NewsBlur Favicon Fetcher",

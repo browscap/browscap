@@ -332,7 +332,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko, Safari\/*) ADM\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko, Safari\/*) ADM\/*",
           "device": "Macintosh",
           "properties": {
             "Browser": "Adobe Dialog Manager"
@@ -990,7 +990,7 @@
           "match": "Mozilla\/5.0 (X11; Linux*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/13.0*Safari\/* botname\/cpan@dataminr.com*"
         },
         {
-          "match": "Mozilla\/5.0 (*Linux*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/13.0*Safari\/* botname\/cpan@dataminr.com*"
+          "match": "Mozilla\/5.0 (*Linux*) AppleWebKit\/* (KHTML* like Gecko)*Chrome\/13.0*Safari\/* botname\/cpan@dataminr.com*"
         },
         {
           "match": "ArtfaceBot (*compatible*;*MSIE 6.0; Mozilla\/4.0; Windows NT*)",

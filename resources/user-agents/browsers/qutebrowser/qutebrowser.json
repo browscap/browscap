@@ -30,7 +30,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) qutebrowser\/0.2* Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) qutebrowser\/0.2* Safari\/*",
           "properties": {
             "Version": "0.2",
             "MajorVer": "0",
@@ -41,7 +41,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) qutebrowser\/* Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) qutebrowser\/* Safari\/*",
           "platforms": [
             "Linux_64", "Linux_32", "Linux"
           ]

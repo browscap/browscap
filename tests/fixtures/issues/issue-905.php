@@ -2,8 +2,8 @@
 
 return [
     'issue-905' => [
-        'Lynx/2.8.9dev.1 libwww-FM/2.14 SSL-MM/1.4.1 GNUTLS/3.3.8',
-        [
+        'ua' => 'Lynx/2.8.9dev.1 libwww-FM/2.14 SSL-MM/1.4.1 GNUTLS/3.3.8',
+        'properties' => [
             'Browser' => 'Lynx',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',

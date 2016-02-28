@@ -46,7 +46,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) *OmniWeb\/v558.*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) *OmniWeb\/v558.*",
           "properties": {
             "Version": "5.0",
             "MajorVer": "5",
@@ -57,7 +57,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko, Safari) *OmniWeb\/v563.*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko, Safari) *OmniWeb\/v563.*",
           "properties": {
             "Version": "5.1",
             "MajorVer": "5",
@@ -68,7 +68,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko, Safari\/420) *OmniWeb\/v*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko, Safari\/420) *OmniWeb\/v*",
           "properties": {
             "Version": "5.5",
             "MajorVer": "5",
@@ -79,7 +79,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko, Safari\/522) *OmniWeb\/v61?.0.*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko, Safari\/522) *OmniWeb\/v61?.0.*",
           "properties": {
             "Version": "5.6",
             "MajorVer": "5",
@@ -90,7 +90,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko, Safari\/523.10) *OmniWeb\/v621.*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko, Safari\/523.10) *OmniWeb\/v621.*",
           "properties": {
             "Version": "5.7",
             "MajorVer": "5",
@@ -101,7 +101,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko, Safari\/525.20) *OmniWeb\/v622.*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko, Safari\/525.20) *OmniWeb\/v622.*",
           "properties": {
             "Version": "5.9",
             "MajorVer": "5",
@@ -112,7 +112,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko, Safari\/525.20) *OmniWeb\/v622.3.*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko, Safari\/525.20) *OmniWeb\/v622.3.*",
           "properties": {
             "Version": "5.8",
             "MajorVer": "5",
@@ -123,7 +123,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/420  (KHTML, like Gecko, Safari) *OmniWeb\/v*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/420  (KHTML* like Gecko, Safari) *OmniWeb\/v*",
           "properties": {
             "Version": "5.5",
             "MajorVer": "5",
@@ -151,7 +151,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#AppleWebKit\/420  (KHTML, like Gecko, Safari) *OmniWeb\/v*",
+          "match": "Mozilla\/5.0 (#PLATFORM#AppleWebKit\/420  (KHTML* like Gecko, Safari) *OmniWeb\/v*",
           "properties": {
             "Version": "5.5",
             "MajorVer": "5",
@@ -162,7 +162,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko, Safari\/*) *OmniWeb\/v622.3.*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko, Safari\/*) *OmniWeb\/v622.3.*",
           "properties": {
             "Version": "5.8",
             "MajorVer": "5",
@@ -173,7 +173,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) *OmniWeb\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) *OmniWeb\/*",
           "properties": {
             "CssVersion": "1"
           },

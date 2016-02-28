@@ -1,17 +1,19 @@
 {
-  "division": "Maemo Browser",
+  "division": "MicroB",
   "sortIndex": 1770,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "Maemo",
-      "platform": "Linux",
+      "userAgent": "MicroB",
+      "platform": "Maemo",
       "device": "general Mobile Phone",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Maemo Browser",
-        "Browser": "Maemo",
+        "Comment": "MicroB",
+        "Browser": "MicroB",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Nokia",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
@@ -21,12 +23,33 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (X11; U; Linux*; *; rv:1.9.*) Gecko\/* Firefox\/* Maemo Browser 1.7.*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/* Maemo Browser 1.7.* N900*",
+          "device": "Nokia N900",
+          "platforms": [
+            "Maemo_ARM"
+          ],
           "properties": {
             "Version": "1.7",
             "MajorVer": "1",
             "MinorVer": "7"
           }
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/* Maemo Browser 1.7.*",
+          "platforms": [
+            "Maemo_ARM"
+          ],
+          "properties": {
+            "Version": "1.7",
+            "MajorVer": "1",
+            "MinorVer": "7"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/* Maemo Browser *",
+          "platforms": [
+            "Maemo_ARM"
+          ]
         }
       ]
     }

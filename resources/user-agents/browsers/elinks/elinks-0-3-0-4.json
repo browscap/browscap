@@ -1,6 +1,6 @@
 {
   "division": "ELinks #MAJORVER#.#MINORVER#",
-  "versions": ["0.4"],
+  "versions": ["0.4", "0.3"],
   "sortIndex": 2301,
   "lite": false,
   "standard": true,
@@ -21,14 +21,23 @@
       "children": [
         {
           "match": "ELinks (#MAJORVER#.#MINORVER##PLATFORM#)",
+          "device": "Linux Desktop",
           "platforms": [
             "Linux"
           ]
         },
         {
           "match": "ELinks\/#MAJORVER#.#MINORVER#* (#PLATFORM#)",
+          "device": "Linux Desktop",
           "platforms": [
             "Linux"
+          ]
+        },
+        {
+          "match": "ELinks (#MAJORVER#.#MINORVER##PLATFORM#)",
+          "device": "general Desktop",
+          "platforms": [
+            "NetBSD"
           ]
         }
       ]

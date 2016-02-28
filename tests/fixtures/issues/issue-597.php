@@ -4,7 +4,7 @@ return [
     'issue-597' => [
         'ua' => 'AddThis.com robot tech.support@clearspring.com',
         'properties' => [
-            'Comment' => 'Social Bookmarkers',
+            'Comment' => 'AddThis.com robot',
             'Browser' => 'AddThis.com robot',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
