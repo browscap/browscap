@@ -46,7 +46,7 @@
           "match": "Mozilla\/5.0 (compatible; SMTBot\/*"
         },
         {
-          "match": "Mozilla\/5.0 (iPhone#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Version\/*Safari\/* (compatible; SMTBot\/1.0*",
+          "match": "Mozilla\/5.0 (iPhone#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko)*Version\/*Safari\/* (compatible; SMTBot\/1.0*",
           "properties": {
             "Version": "1.0",
             "MajorVer": "1",
@@ -61,7 +61,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (iPhone#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Version\/*Safari\/* (compatible; SMTBot\/*",
+          "match": "Mozilla\/5.0 (iPhone#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko)*Version\/*Safari\/* (compatible; SMTBot\/*",
           "device": "iPhone",
           "engine": "WebKit",
           "platforms": [
@@ -71,7 +71,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Version\/*Safari\/* (compatible; SMTBot\/1.0*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko)*Version\/*Safari\/* (compatible; SMTBot\/1.0*",
           "properties": {
             "Version": "1.0",
             "MajorVer": "1",
@@ -86,7 +86,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Version\/*Safari\/* (compatible; SMTBot\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko)*Version\/*Safari\/* (compatible; SMTBot\/*",
           "device": "general Mobile Device (Apple)",
           "engine": "WebKit",
           "platforms": [

@@ -4,7 +4,7 @@ return [
     'issue-576' => [
         'ua' => 'Mozilla/5.0 (compatible; SetLinks bot 1.2)',
         'properties' => [
-            'Comment' => 'General Crawlers',
+            'Comment' => 'SetLinks.ru Crawler',
             'Browser' => 'SetLinks.ru Crawler',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',

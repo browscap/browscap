@@ -1,0 +1,63 @@
+{
+  "division": "Voyager",
+  "sortIndex": 944,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Voyager",
+      "platform": "Amiga",
+      "device": "Amiga",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Voyager",
+        "Browser": "Voyager",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "VaporWare",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win64": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "Win32": "false",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "0"
+      },
+      "children": [
+        {
+          "match": "AmigaVoyager\/3.2 (#PLATFORM#",
+          "platforms": [
+            "Amiga"
+          ],
+          "properties": {
+            "Version": "3.2",
+            "MajorVer": "3",
+            "MinorVer": "2"
+          }
+        },
+        {
+          "match": "AmigaVoyager\/2.95 (#PLATFORM#",
+          "platforms": [
+            "Amiga"
+          ],
+          "properties": {
+            "Version": "2.95",
+            "MajorVer": "2",
+            "MinorVer": "95"
+          }
+        },
+        {
+          "match": "AmigaVoyager\/#PLATFORM#",
+          "platforms": [
+            "Amiga"
+          ]
+        }
+      ]
+    }
+  ]
+}

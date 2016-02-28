@@ -84,7 +84,7 @@
           ]
         },
         {
-          "match": "*Mozilla\/5.0 (#PLATFORM#INM8002KP Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "*Mozilla\/5.0 (#PLATFORM#INM8002KP Build\/*) AppleWebKit\/* (KHTML* like Gecko) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "device": "Intenso INM8002KP",
           "platforms": [
             "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
@@ -94,7 +94,7 @@
           ]
         },
         {
-          "match": "*Mozilla\/5.0 (*GT-I9100#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "*Mozilla\/5.0 (*GT-I9100#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "device": "GT-I9100",
           "platforms": [
             "Android_B_2_3"
@@ -192,7 +192,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM# Android\/* Release\/* Browser\/AppleWebKit* Build\/*) AppleWebKit* (KHTML, like Gecko) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM# Android\/* Release\/* Browser\/AppleWebKit* Build\/*) AppleWebKit* (KHTML* like Gecko) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "platforms": [
             "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
             "Android_2_0", "Android_2_1", "Android_2_2", "Android_2_3", "Android_B_2_3",
@@ -201,14 +201,14 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#sprd-B51+* Android\/* Release\/* Browser\/AppleWebKit* Build\/*) AppleWebKit* (KHTML, like Gecko) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#sprd-B51+* Android\/* Release\/* Browser\/AppleWebKit* Build\/*) AppleWebKit* (KHTML* like Gecko) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "device": "sprd B51+",
           "platforms": [
             "Android_2_3"
           ]
         },
         {
-          "match": "Mastone_G9_TD\/* Release\/* Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "Mastone_G9_TD\/* Release\/* Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/*(*KHTML* like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
           "device": "Mastone G9",
           "platforms": [
             "Android_2_3"
@@ -236,13 +236,13 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/*(*KHTML* like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
           "platforms": [
             "Android_4_2", "Android"
           ]
         },
         {
-          "match": "*Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "*Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "platforms": [
             "Android_4_2", "Android"
           ]

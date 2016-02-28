@@ -16,6 +16,22 @@
       },
       "children": [
         {
+          "match": "Python-urllib\/3.1*",
+          "properties": {
+            "Version": "3.1",
+            "MajorVer": "3",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "Python-urllib\/3.0*",
+          "properties": {
+            "Version": "3.0",
+            "MajorVer": "3",
+            "MinorVer": "0"
+          }
+        },
+        {
           "match": "Python-urllib\/2.7*",
           "properties": {
             "Version": "2.7",
@@ -24,11 +40,67 @@
           }
         },
         {
+          "match": "Python-urllib\/2.6*",
+          "properties": {
+            "Version": "2.6",
+            "MajorVer": "2",
+            "MinorVer": "6"
+          }
+        },
+        {
+          "match": "Python-urllib\/2.5*",
+          "properties": {
+            "Version": "2.5",
+            "MajorVer": "2",
+            "MinorVer": "5"
+          }
+        },
+        {
+          "match": "Python-urllib\/2.4*",
+          "properties": {
+            "Version": "2.4",
+            "MajorVer": "2",
+            "MinorVer": "4"
+          }
+        },
+        {
+          "match": "Python-urllib\/2.1*",
+          "properties": {
+            "Version": "2.1",
+            "MajorVer": "2",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "Python-urllib\/2.0*",
+          "properties": {
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0"
+          }
+        },
+        {
           "match": "Python-urllib\/1.17*",
           "properties": {
             "Version": "1.17",
             "MajorVer": "1",
             "MinorVer": "17"
+          }
+        },
+        {
+          "match": "Python-urllib\/1.16*",
+          "properties": {
+            "Version": "1.16",
+            "MajorVer": "1",
+            "MinorVer": "16"
+          }
+        },
+        {
+          "match": "Python-urllib\/1.15*",
+          "properties": {
+            "Version": "1.15",
+            "MajorVer": "1",
+            "MinorVer": "15"
           }
         },
         {

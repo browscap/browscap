@@ -19,7 +19,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko, Safari\/*) *Webglance\/0.1*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko, Safari\/*) *Webglance\/0.1*",
           "engine": "WebKit",
           "device": "Linux Desktop",
           "properties": {
@@ -32,7 +32,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko, Safari\/*) *Webglance\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko, Safari\/*) *Webglance\/*",
           "engine": "WebKit",
           "device": "Linux Desktop",
           "platforms": [

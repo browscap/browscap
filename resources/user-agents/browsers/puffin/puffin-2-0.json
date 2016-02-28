@@ -28,7 +28,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) *Chrome\/* Safari\/* Puffin\/#MAJORVER#.*AP Mobile",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) *Chrome\/* Safari\/* Puffin\/#MAJORVER#.*AP Mobile",
           "platforms": [
             "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
             "Android_2_0", "Android_2_1", "Android_2_2", "Android_2_3",
@@ -37,7 +37,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) *Chrome\/* Safari\/* Puffin\/#MAJORVER#.*AT Mobile",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) *Chrome\/* Safari\/* Puffin\/#MAJORVER#.*AT Mobile",
           "device": "general Tablet",
           "platforms": [
             "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
@@ -47,7 +47,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) *Chrome\/* Safari\/* Puffin\/#MAJORVER#.* Mobile",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) *Chrome\/* Safari\/* Puffin\/#MAJORVER#.* Mobile",
           "platforms": [
             "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
             "Android_2_0", "Android_2_1", "Android_2_2", "Android_2_3",
@@ -56,13 +56,13 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (*Linux x86_64*) AppleWebKit\/* (KHTML, like Gecko) *Chrome\/* Safari\/* Puffin\/#MAJORVER#*AP*",
+          "match": "Mozilla\/5.0 (*Linux x86_64*) AppleWebKit\/* (KHTML* like Gecko) *Chrome\/* Safari\/* Puffin\/#MAJORVER#*AP*",
           "platforms": [
             "Android"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (*Linux x86_64*) AppleWebKit\/* (KHTML, like Gecko) *Chrome\/* Safari\/* Puffin\/#MAJORVER#*AT*",
+          "match": "Mozilla\/5.0 (*Linux x86_64*) AppleWebKit\/* (KHTML* like Gecko) *Chrome\/* Safari\/* Puffin\/#MAJORVER#*AT*",
           "device": "general Tablet",
           "platforms": [
             "Android"

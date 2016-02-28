@@ -200,7 +200,8 @@
       "inherits": "OSX",
       "properties": {
         "Platform": "MacPPC",
-        "Platform_Version": "unknown"
+        "Platform_Version": "unknown",
+        "Platform_Description": "Mac OS for Power PC"
       }
     },
     "MacPPC_2": {
@@ -221,8 +222,16 @@
       "standard": false,
       "inherits": "OSX",
       "properties": {
-        "Platform": "Mac68K"
+        "Platform": "Mac68K",
+        "Platform_Version": "unknown",
+        "Platform_Description": "Mac OS for Motorola 68000 Series"
       }
+    },
+    "Mac68K_2": {
+      "match": "*Mac_68K*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Mac68K"
     },
     "iOS": {
       "match": "*CPU iPhone OS * like Mac OS X*",
@@ -1099,6 +1108,7 @@
       "standard": true,
       "properties": {
         "Platform": "CentOS",
+        "Platform_Maker": "unknown",
         "Platform_Version": "unknown",
         "Win16": "false",
         "Win32": "false",
@@ -1279,6 +1289,15 @@
         "Platform_Version": "10.10"
       }
     },
+    "Ubuntu_11_04": {
+      "match": "*Ubuntu\/11.04*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Ubuntu",
+      "properties": {
+        "Platform_Version": "11.04"
+      }
+    },
     "Ubuntu_12_04": {
       "match": "*Ubuntu\/12.04*",
       "lite": false,
@@ -1336,6 +1355,17 @@
       "inherits": "Ubuntu",
       "properties": {
         "Platform_Version": "10.10",
+        "Browser_Bits": "64",
+        "Platform_Bits": "64"
+      }
+    },
+    "Ubuntu_11_04_64": {
+      "match": "*Ubuntu\/11.04*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Ubuntu",
+      "properties": {
+        "Platform_Version": "11.04",
         "Browser_Bits": "64",
         "Platform_Bits": "64"
       }
@@ -3177,12 +3207,23 @@
         "Platform_Bits": "64"
       }
     },
+    "FreeBSD_64_2": {
+      "match": "*FreeBSD amd64*",
+      "lite": false,
+      "standard": false,
+      "inherits": "FreeBSD",
+      "properties": {
+        "Browser_Bits": "64",
+        "Platform_Bits": "64"
+      }
+    },
     "OpenBSD": {
       "match": "*OpenBSD*",
       "lite": false,
       "standard": true,
       "properties": {
         "Platform": "OpenBSD",
+        "Platform_Maker": "unknown",
         "Platform_Description": "OpenBSD",
         "Platform_Version": "unknown",
         "Win16": "false",
@@ -3198,12 +3239,33 @@
       "standard": false,
       "inherits": "OpenBSD"
     },
+    "OpenBSD_64": {
+      "match": "*OpenBSD x86_64*",
+      "lite": false,
+      "standard": false,
+      "inherits": "OpenBSD",
+      "properties": {
+        "Browser_Bits": "64",
+        "Platform_Bits": "64"
+      }
+    },
+    "OpenBSD_64_2": {
+      "match": "*OpenBSD amd64*",
+      "lite": false,
+      "standard": false,
+      "inherits": "OpenBSD",
+      "properties": {
+        "Browser_Bits": "64",
+        "Platform_Bits": "64"
+      }
+    },
     "NetBSD": {
       "match": "*NetBSD*",
       "lite": false,
       "standard": true,
       "properties": {
         "Platform": "NetBSD",
+        "Platform_Maker": "unknown",
         "Platform_Description": "NetBSD",
         "Platform_Version": "unknown",
         "Win16": "false",
@@ -3219,6 +3281,7 @@
       "standard": true,
       "properties": {
         "Platform": "DragonFly BSD",
+        "Platform_Maker": "unknown",
         "Platform_Description": "DragonFlyBSD",
         "Platform_Version": "unknown",
         "Win16": "false",
@@ -3521,6 +3584,7 @@
       "standard": true,
       "properties": {
         "Platform": "Unix",
+        "Platform_Maker": "unknown",
         "Platform_Description": "Unix",
         "Platform_Version": "unknown",
         "Win16": "false",
@@ -3816,6 +3880,7 @@
       "standard": true,
       "properties": {
         "Platform": "RISC OS",
+        "Platform_Maker": "unknown",
         "Platform_Description": "RISC OS",
         "Platform_Version": "unknown",
         "Win16": "false",
@@ -3874,7 +3939,7 @@
       }
     },
     "Maemo_ARM": {
-      "match": "*Linux armv*",
+      "match": "*Linux arm*",
       "lite": false,
       "standard": true,
       "inherits": "Maemo"
@@ -4073,7 +4138,7 @@
       "standard": true,
       "properties": {
         "Platform": "Amiga OS",
-        "Platform_Maker": "Amiga",
+        "Platform_Maker": "Commodore International",
         "Platform_Version": "unknown",
         "Win32": "false",
         "Browser_Bits": "32",
@@ -4099,7 +4164,8 @@
       "standard": true,
       "properties": {
         "Platform": "WyderOS",
-        "Platform_Version": "unknown"
+        "Platform_Version": "unknown",
+        "Platform_Maker": "unknown"
       }
     },
     "Liberate": {
@@ -4108,6 +4174,7 @@
       "standard": true,
       "properties": {
         "Platform": "Liberate",
+        "Platform_Maker": "unknown",
         "Platform_Version": "unknown"
       }
     },
@@ -4131,6 +4198,19 @@
       "properties": {
         "Platform": "Syllable",
         "Platform_Maker": "Syllable Project",
+        "Platform_Version": "unknown",
+        "Win32": "false",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "Inferno": {
+      "match": "*Inferno*",
+      "lite": false,
+      "standard": true,
+      "properties": {
+        "Platform": "Inferno OS",
+        "Platform_Maker": "Vita Nuova Holdings Ltd",
         "Platform_Version": "unknown",
         "Win32": "false",
         "Browser_Bits": "32",

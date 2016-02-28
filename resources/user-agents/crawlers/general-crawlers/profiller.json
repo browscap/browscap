@@ -17,7 +17,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) profiller Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) profiller Safari\/*",
           "engine": "WebKit",
           "device": "Linux Desktop",
           "platforms": [
@@ -25,7 +25,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) profiller Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) profiller Safari\/*",
           "engine": "WebKit",
           "device": "Windows Desktop",
           "platforms": [
@@ -39,7 +39,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) profiller Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) profiller Safari\/*",
           "engine": "WebKit",
           "device": "Macintosh",
           "platforms": [

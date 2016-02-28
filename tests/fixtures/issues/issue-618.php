@@ -5202,7 +5202,7 @@ return [
             'Browser' => 'CoolNovo',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
-            'Browser_Maker' => 'unknown',
+            'Browser_Maker' => 'Maple Studio',
             'Browser_Modus' => 'unknown',
             'Version' => '2.0',
             'MajorVer' => '2',

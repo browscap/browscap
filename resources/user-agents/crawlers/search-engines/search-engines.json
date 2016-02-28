@@ -806,9 +806,30 @@
           }
         },
         {
-          "match": "voyager\/2.0 (http:\/\/www.kosmix.com\/html\/crawler.html)",
+          "match": "voyager\/2.0*",
           "properties": {
-            "Browser": "Voyager"
+            "Browser": "Voyager Bot",
+            "Browser_Maker": "Cosmix Corporation",
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "voyager\/1.0*",
+          "properties": {
+            "Browser": "Voyager Bot",
+            "Browser_Maker": "Cosmix Corporation",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "voyager\/*",
+          "properties": {
+            "Browser": "Voyager Bot",
+            "Browser_Maker": "Cosmix Corporation"
           }
         },
         {

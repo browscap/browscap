@@ -30,7 +30,7 @@
           "match": "Mozilla\/4.0 (compatible; MSIE ?.0; Windows NT *Lunascape #MAJORVER#.#MINORVER#*)*"
         },
         {
-          "match": "Mozilla\/5.0 (Windows; U; Windows NT *; *) AppleWebKit\/* (KHTML, like Gecko*) Lunascape\/#MAJORVER#.#MINORVER#*"
+          "match": "Mozilla\/5.0 (Windows; U; Windows NT *; *) AppleWebKit\/* (KHTML* like Gecko*) Lunascape\/#MAJORVER#.#MINORVER#*"
         },
         {
           "match": "Mozilla\/5.0 (Windows; U; Windows NT *; *; rv:1.9.*) Gecko\/* Firefox\/3.* Lunascape\/#MAJORVER#.#MINORVER#*"
@@ -57,7 +57,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (Windows; ?; Windows NT *) AppleWebKit\/* (KHTML, like Gecko*Lunascape\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (Windows; ?; Windows NT *) AppleWebKit\/* (KHTML* like Gecko*Lunascape\/#MAJORVER#.#MINORVER#*",
           "engine": "WebKit",
           "platforms": [
             "NT4"

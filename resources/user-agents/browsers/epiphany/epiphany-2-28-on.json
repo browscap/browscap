@@ -1,13 +1,12 @@
 {
   "division": "Epiphany #MAJORVER#.#MINORVER#",
-  "versions": ["3.14", "3.12", "3.10", "3.8", "3.6", "3.4", "3.2", 3, "2.32", "2.30"],
+  "versions": ["3.14", "3.12", "3.10", "3.8", "3.6", "3.4", "3.2", 3, "2.32", "2.30", "2.29", "2.28"],
   "sortIndex": 1942,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
       "userAgent": "Epiphany #MAJORVER#.#MINORVER#",
-      "platform": "Linux",
       "engine": "WebKit",
       "device": "Linux Desktop",
       "properties": {
@@ -35,14 +34,14 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (Macintosh; ARM Mac OS X) AppleWebKit\/* (KHTML, like Gecko) Safari\/* Version\/* Debian\/* (*rpi*rpi*) Epiphany\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (Macintosh; ARM Mac OS X) AppleWebKit\/* (KHTML* like Gecko) Safari\/* Version\/* Debian\/* (*rpi*rpi*) Epiphany\/#MAJORVER#.#MINORVER#*",
           "device": "Raspberry Pi",
           "platforms": [
             "Debian"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (Macintosh; ARM Mac OS X) AppleWebKit\/* (KHTML, like Gecko) Safari\/* Version\/* Raspbian\/* (*rpi*rpi*) Epiphany\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (Macintosh; ARM Mac OS X) AppleWebKit\/* (KHTML* like Gecko) Safari\/* Version\/* Raspbian\/* (*rpi*rpi*) Epiphany\/#MAJORVER#.#MINORVER#*",
           "device": "Raspberry Pi",
           "platforms": [
             "Debian"
@@ -52,35 +51,49 @@
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/*(KHTML,*like Gecko*) Safari\/* Epiphany\/#MAJORVER#.#MINORVER#*",
           "device": "Linux Desktop",
           "platforms": [
-            "Linux"
+            "Linux_64", "Linux_32", "Linux"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/*(KHTML,*like Gecko*) Safari\/* Epiphany\/#MAJORVER#.#MINORVER#*",
           "device": "general Desktop",
           "platforms": [
-            "FreeBSD", "SunOS"
+            "FreeBSD", "OpenBSD", "SunOS"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Version\/5.0 Safari\/* Epiphany\/#MAJORVER#.#MINORVER#*",
           "device": "Linux Desktop",
           "platforms": [
-            "Linux_64", "Linux"
+            "Linux_64", "Linux_32", "Linux"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/*(KHTML,*like Gecko*) Version\/*Safari\/* Epiphany\/#MAJORVER#.#MINORVER#*",
           "device": "Linux Desktop",
           "platforms": [
-            "Linux"
+            "Linux_64", "Linux_32", "Linux"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Epiphany\/#MAJORVER#.#MINORVER#*Safari\/*",
           "device": "Linux Desktop",
           "platforms": [
-            "Linux_64", "Linux"
+            "Linux_64", "Linux_32", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (*Linux x86_64*) AppleWebKit\/* (KHTML,*like Gecko*) #PLATFORM# Epiphany\/#MAJORVER#.#MINORVER#*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Ubuntu_11_04_64"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Epiphany\/#MAJORVER#.#MINORVER#*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64", "Linux_32", "Linux"
           ]
         }
       ]

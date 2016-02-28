@@ -53,12 +53,6 @@
           ]
         },
         {
-          "match": "Opera\/*(J2ME\/MIDP*Opera Mini*",
-          "platforms": [
-            "JAVA"
-          ]
-        },
-        {
           "match": "Opera\/9.80 (J2ME\/MIDP*Opera Mini*",
           "platforms": [
             "JAVA"
@@ -72,6 +66,12 @@
         },
         {
           "match": "Opera\/9.50 (J2ME\/MIDP*Opera Mini*",
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "Opera\/*(J2ME\/MIDP*Opera Mini*",
           "platforms": [
             "JAVA"
           ]

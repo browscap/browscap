@@ -62,6 +62,9 @@
             "AIX", "BeOS", "Darwin", "Digital_Unix", "FreeBSD", "HPUX_2", "IRIX64_2",
             "NetBSD", "OpenBSD", "OS2", "RISC_OS", "Solaris", "Unix_B", "SunOS"
           ]
+        },
+        {
+          "match": "ELinks\/#MAJORVER#.#MINORVER#*"
         }
       ]
     }

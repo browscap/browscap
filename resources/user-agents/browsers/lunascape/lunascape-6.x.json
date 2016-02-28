@@ -83,7 +83,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko*) Lunascape\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko*) Lunascape\/#MAJORVER#.#MINORVER#*",
           "engine": "WebKit",
           "device": "Windows Desktop",
           "platforms": [

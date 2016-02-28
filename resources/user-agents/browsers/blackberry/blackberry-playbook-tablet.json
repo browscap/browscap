@@ -59,7 +59,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (PlayBook*RIM Tablet OS*AppleWebKit\/*(*KHTML, like Gecko*Version\/0.*Safari\/*"
+          "match": "Mozilla\/5.0 (PlayBook*RIM Tablet OS*AppleWebKit\/*(*KHTML* like Gecko*Version\/0.*Safari\/*"
         }
       ]
     }

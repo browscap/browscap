@@ -2,8 +2,8 @@
 
 return [
     'issue-908-A' => [
-        'GetintentCrawler getintent.com',
-        [
+        'ua' => 'GetintentCrawler getintent.com',
+        'properties' => [
             'Browser' => 'Getintent Crawler',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
@@ -45,8 +45,8 @@ return [
         'standard' => true,
     ],
     'issue-908-B' => [
-        'MonitorBacklinksWP (+http://monitorbacklinks.com/blog/incoming-links/)',
-        [
+        'ua' => 'MonitorBacklinksWP (+http://monitorbacklinks.com/blog/incoming-links/)',
+        'properties' => [
             'Browser' => 'Incoming Links - WordPress Plugin',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
@@ -88,8 +88,8 @@ return [
         'standard' => true,
     ],
     'issue-908-C' => [
-        'AddThis.com (http://support.addthis.com/)',
-        [
+        'ua' => 'AddThis.com (http://support.addthis.com/)',
+        'properties' => [
             'Browser' => 'AddThis.com robot',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',

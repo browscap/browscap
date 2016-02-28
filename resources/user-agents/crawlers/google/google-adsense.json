@@ -29,7 +29,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (iPhone#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/*Safari\/* (compatible; Mediapartners-Google/2.1*",
+          "match": "Mozilla\/5.0 (iPhone#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Version\/*Safari\/* (compatible; Mediapartners-Google/2.1*",
           "device":"iPhone",
           "engine": "WebKit",
           "properties": {
@@ -44,7 +44,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/*Safari\/* (compatible; Mediapartners-Google/2.1*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Version\/*Safari\/* (compatible; Mediapartners-Google/2.1*",
           "device":"general Mobile Device (Apple)",
           "engine": "WebKit",
           "properties": {

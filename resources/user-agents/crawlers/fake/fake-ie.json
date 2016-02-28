@@ -200,9 +200,6 @@
           "match": "Mozilla\/4.0 (compatible*; MSIE 999*"
         },
         {
-          "match": "Mozilla\/4.0 (compatible; Mozilla\/4.0 (compatible*; MSIE 8.0;*"
-        },
-        {
           "match": "Mozilla\/5.0 (Linux; Unix OS ?; *) Gecko\/* Internet Explorer\/7*"
         },
         {
@@ -398,7 +395,7 @@
           ]
         },
         {
-          "match": "Mozilla\/4.0 (compatible*; MSIE 6.0; Windows) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/12.*Safari\/*",
+          "match": "Mozilla\/4.0 (compatible*; MSIE 6.0; Windows) AppleWebKit\/* (KHTML* like Gecko)*Chrome\/12.*Safari\/*",
           "device": "Windows Desktop",
           "platforms": [
             "Windows"

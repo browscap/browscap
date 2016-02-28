@@ -21931,6 +21931,19 @@
         "isTablet": "false"
       }
     },
+    "Nokia N900": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "N900",
+        "Device_Name": "N900",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Nokia X2-00": {
       "standard": false,
       "properties": {
@@ -36787,6 +36800,19 @@
         "Device_Pointing_Method": "unknown",
         "Device_Brand_Name": "K-Touch",
         "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Amiga": {
+      "standard": true,
+      "properties": {
+        "Device_Type": "Desktop",
+        "Device_Code_Name": "Amiga",
+        "Device_Name": "Amiga",
+        "Device_Maker": "Commodore International",
+        "Device_Brand_Name": "Commodore",
+        "Device_Pointing_Method": "mouse",
+        "isMobileDevice": "false",
         "isTablet": "false"
       }
     }
