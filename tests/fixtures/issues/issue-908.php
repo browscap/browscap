@@ -47,7 +47,7 @@ return [
     'issue-908-B' => [
         'MonitorBacklinksWP (+http://monitorbacklinks.com/blog/incoming-links/)',
         [
-            'Browser' => 'Incoming Links – WordPress Plugin',
+            'Browser' => 'Incoming Links - WordPress Plugin',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Monitor Backlinks Ltd.',
@@ -104,7 +104,7 @@ return [
             'Platform_Maker' => 'unknown',
             'Win16' => false,
             'Win32' => false,
-            'Win64' => true,
+            'Win64' => false,
             'isMobileDevice' => false,
             'isTablet' => false,
             'Crawler' => true,

@@ -18,7 +18,7 @@ return [
             'Platform_Maker' => 'unknown',
             'Win16' => false,
             'Win32' => false,
-            'Win64' => true,
+            'Win64' => false,
             'isMobileDevice' => false,
             'isTablet' => false,
             'Crawler' => true,
