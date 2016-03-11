@@ -1,17 +1,17 @@
 <?php
 
 return [
-    'issue-576' => [
-        'Mozilla/5.0 (compatible; SetLinks bot 1.2)',
+    'issue-906' => [
+        'SetLinks bot 1.0',
         [
             'Browser' => 'SetLinks.ru Crawler',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'SetLinks.ru',
             'Browser_Modus' => 'unknown',
-            'Version' => '1.2',
+            'Version' => '1.0',
             'MajorVer' => '1',
-            'MinorVer' => '2',
+            'MinorVer' => '0',
             'Platform' => 'unknown',
             'Platform_Version' => 'unknown',
             'Platform_Bits' => '0',
