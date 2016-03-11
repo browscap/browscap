@@ -2064,23 +2064,6 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; SetLinks bot 1.2*",
-          "properties": {
-            "Browser": "SetLinks.ru Crawler",
-            "Browser_Maker": "SetLinks.ru",
-            "Version": "1.2",
-            "MajorVer": "1",
-            "MinorVer": "2"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (compatible; SetLinks bot *",
-          "properties": {
-            "Browser": "SetLinks.ru Crawler",
-            "Browser_Maker": "SetLinks.ru"
-          }
-        },
-        {
           "match": "Mozilla\/5.0 (compatible; BegunAdvertising\/3.0*",
           "properties": {
             "Browser": "Begun Advertising Bot",
