@@ -921,6 +921,23 @@
           }
         },
         {
+          "match": "Echoping\/6.0*",
+          "properties": {
+            "Browser": "Echoping",
+            "Browser_Maker": "Stephane Bortzmeyer",
+            "Version": "6.0",
+            "MajorVer": "6",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Echoping*",
+          "properties": {
+            "Browser": "Echoping",
+            "Browser_Maker": "Stephane Bortzmeyer"
+          }
+        },
+        {
           "match": "Mozilla\/2.0 (compatible; NEWT ActiveX; *)",
           "properties": {
             "Browser": "NEWT ActiveX"
