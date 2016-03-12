@@ -39,6 +39,7 @@
       "userAgent": "Edge Mobile #MAJORVER#.#MINORVER#",
       "engine": "Edge_Dynamic",
       "device": "general Mobile Phone (Touch)",
+      "platform": "WinPhone10",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Edge Mobile #MAJORVER#.#MINORVER#",
