@@ -2367,7 +2367,7 @@
     },
     "WinPhone8.1": {
       "match": "*Windows Phone 8.1*",
-      "lite": false,
+      "lite": true,
       "standard": true,
       "inherits": "Windows",
       "properties": {
@@ -2379,7 +2379,7 @@
     },
     "WinPhone8.1_B": {
       "match": "*Windows; U; wds 8.1*",
-      "lite": false,
+      "lite": true,
       "standard": true,
       "inherits": "Windows",
       "properties": {
@@ -2391,7 +2391,7 @@
     },
     "WinPhone10": {
       "match": "*Windows Phone 10.0*",
-      "lite": false,
+      "lite": true,
       "standard": true,
       "inherits": "Windows",
       "properties": {
