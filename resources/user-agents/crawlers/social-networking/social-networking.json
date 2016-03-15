@@ -246,13 +246,6 @@
           }
         },
         {
-          "match": "AddThis.com robot*",
-          "properties": {
-            "Browser": "AddThis.com robot",
-            "Browser_Maker": "AddThis.com"
-          }
-        },
-        {
           "match": "NING\/1.0*",
           "properties": {
             "Browser": "NING",
