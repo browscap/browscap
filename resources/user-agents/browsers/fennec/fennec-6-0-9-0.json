@@ -1,13 +1,13 @@
 {
   "division": "Fennec #MAJORVER#.#MINORVER#",
-  "versions": [2],
-  "sortIndex": 3143,
+  "versions": [9, 8, 7, 6],
+  "sortIndex": 3141,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
       "userAgent": "Fennec #MAJORVER#.#MINORVER#",
-      "engine": "Gecko_1_9",
+      "engine": "Gecko_Major_Dynamic",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
@@ -18,6 +18,7 @@
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
+        "Win32": "false",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
@@ -37,7 +38,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Firefox* Fennec\/#MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone",
           "platforms": [
-            "AndroidMobile", "AndroidLinux"
+            "Maemo_ARM", "AndroidMobile", "AndroidLinux"
           ]
         },
         {
@@ -56,6 +57,20 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Firefox* Fennec\/#MAJORVER#.#MINORVER#*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Firefox* Fennec\/#MAJORVER#.#MINORVER#*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32", "Win8_32"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Firefox* Fennec\/#MAJORVER#.#MINORVER#*",
           "device": "Macintosh",
           "platforms": [
             "OSX"
@@ -66,13 +81,6 @@
           "device": "general Mobile Phone",
           "platforms": [
             "Maemo"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Firefox* Fennec\/#MAJORVER#.#MINORVER#*",
-          "device": "Windows Desktop",
-          "platforms": [
-            "WinXPa_64", "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_64", "Win7_32"
           ]
         }
       ]

@@ -7,7 +7,7 @@
   "userAgents": [
     {
       "userAgent": "ChromePlus #MAJORVER#.#MINORVER#",
-      "engine": "Blink",
+      "engine": "WebKit",
       "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
