@@ -2071,7 +2071,7 @@
       }
     },
     "Win7_x64_2": {
-      "match": "*Windows NT 6.1 x64*",
+      "match": "*Windows NT 6.1*x64*",
       "lite": false,
       "standard": false,
       "inherits": "Windows",
