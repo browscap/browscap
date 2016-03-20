@@ -11,6 +11,7 @@
         "Parent": "DefaultProperties",
         "Comment": "ELinks Generic",
         "Browser": "ELinks",
+        "Browser_Type": "Browser",
         "Frames": "true",
         "Tables": "true"
       },

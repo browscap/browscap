@@ -806,12 +806,6 @@
           }
         },
         {
-          "match": "User*Agent:*",
-          "properties": {
-            "Browser": "Generic Crawler"
-          }
-        },
-        {
           "match": "USER_AGENT",
           "properties": {
             "Browser": "Generic Crawler"
