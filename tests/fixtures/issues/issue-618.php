@@ -2316,7 +2316,7 @@ return [
             'isSyndicationReader' => false,
             'Crawler' => false,
             'isFake' => false,
-            'isAnonymized' => false,
+            'isAnonymized' => true,
             'isModified' => false,
             'CssVersion' => '3',
             'AolVersion' => '0',

@@ -299,6 +299,9 @@
         },
         {
           "match": "Mozilla\/5.0 (Windows 95; Anonymisiert*; Trident\/7.0*",
+          "properties": {
+            "isAnonymized": "true"
+          },
           "platforms": [
             "Win8_1_32"
           ]

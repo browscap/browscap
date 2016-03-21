@@ -1793,6 +1793,13 @@
           }
         },
         {
+          "match": "Mozilla\/5.0 (compatible; MSIE ?.0*; *windows*; MarketwireBot*",
+          "properties": {
+            "Browser": "MarketwireBot",
+            "Browser_Maker": "Marketwire L.P."
+          }
+        },
+        {
           "match": "Mozilla\/5.0 (compatible*; MarketwireBot*",
           "properties": {
             "Browser": "MarketwireBot",

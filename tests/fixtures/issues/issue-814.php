@@ -640,9 +640,9 @@ return [
     'issue-814-M' => [
         'ua' => 'Mozilla/5.0 compatible; MSIE 9.0; Windows NT 4.1 Chrome/31.0.1229.79',
         'properties' => [
-            'Comment' => 'Fake Browser',
-            'Browser' => 'Fake Browser',
-            'Browser_Type' => 'Bot/Crawler',
+            'Comment' => 'Default Browser',
+            'Browser' => 'Default Browser',
+            'Browser_Type' => 'unknown',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -671,7 +671,7 @@ return [
             'isMobileDevice' => false,
             'isTablet' => false,
             'isSyndicationReader' => false,
-            'Crawler' => true,
+            'Crawler' => false,
             'isFake' => false,
             'isAnonymized' => false,
             'isModified' => false,
@@ -687,7 +687,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
     ],
     'issue-814-N' => [

@@ -269,9 +269,9 @@ return [
     'issue-500-F' => [
         'ua' => '\\x22Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534+ (KHTML, like Gecko) MsnBot-Media /1.0b\\x22',
         'properties' => [
-            'Comment' => 'Fake Browser',
-            'Browser' => 'Fake Browser',
-            'Browser_Type' => 'Bot/Crawler',
+            'Comment' => 'Default Browser',
+            'Browser' => 'Default Browser',
+            'Browser_Type' => 'unknown',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -300,7 +300,7 @@ return [
             'isMobileDevice' => false,
             'isTablet' => false,
             'isSyndicationReader' => false,
-            'Crawler' => true,
+            'Crawler' => false,
             'isFake' => false,
             'isAnonymized' => false,
             'isModified' => false,
@@ -316,7 +316,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
     ],
     'issue-500-G' => [
@@ -1223,9 +1223,9 @@ return [
     'issue-500-X' => [
         'ua' => 'Mozilla/4.0(compatible;MSIE 7.0;Windows NT 6.1;SV1;.NET CLR 1.0.3705;.NET CLR 3.0.30618)',
         'properties' => [
-            'Comment' => 'Fake IE',
-            'Browser' => 'Fake IE',
-            'Browser_Type' => 'Bot/Crawler',
+            'Comment' => 'Default Browser',
+            'Browser' => 'Default Browser',
+            'Browser_Type' => 'unknown',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -1254,7 +1254,7 @@ return [
             'isMobileDevice' => false,
             'isTablet' => false,
             'isSyndicationReader' => false,
-            'Crawler' => true,
+            'Crawler' => false,
             'isFake' => false,
             'isAnonymized' => false,
             'isModified' => false,
@@ -1270,7 +1270,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
     ],
     'issue-500-Y' => [

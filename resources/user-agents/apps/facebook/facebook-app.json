@@ -148,6 +148,9 @@
             "iOS_C_9_1", "iOS_C_9_0",
             "iOS_C"
           ]
+        },
+        {
+          "match": "*FBAN\/FBIOS;FBAV\/*"
         }
       ]
     },
@@ -787,7 +790,7 @@
           ]
         },
         {
-          "match": "?FBAN\/*FBAV\/*Nexus 5*",
+          "match": "*FBAN\/*FBAV\/*Nexus 5*",
           "device": "LG Nexus 5",
           "engine": "WebKit"
         }
@@ -812,7 +815,7 @@
       },
       "children": [
         {
-          "match": "?FBAN\/*FBAV\/*"
+          "match": "*FBAN\/*FBAV\/*"
         }
       ]
     }

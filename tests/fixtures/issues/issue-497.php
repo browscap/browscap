@@ -216,9 +216,9 @@ return [
     'issue-497-E' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN; rv:1.9.1.2) Firefox/3.5.2',
         'properties' => [
-            'Comment' => 'Fake Firefox',
-            'Browser' => 'Fake Firefox',
-            'Browser_Type' => 'Bot/Crawler',
+            'Comment' => 'Default Browser',
+            'Browser' => 'Default Browser',
+            'Browser_Type' => 'unknown',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -247,7 +247,7 @@ return [
             'isMobileDevice' => false,
             'isTablet' => false,
             'isSyndicationReader' => false,
-            'Crawler' => true,
+            'Crawler' => false,
             'isFake' => false,
             'isAnonymized' => false,
             'isModified' => false,
@@ -263,7 +263,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
     ],
     'issue-497-F' => [

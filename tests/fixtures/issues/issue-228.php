@@ -1,17 +1,17 @@
 <?php
 
 return [
-    'issue-399' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 7.1) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.112 Safari/534.30',
+    'issue-228' => [
+        'ua' => 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/536.11 (KHTML, like Gecko) chrome/22.0.1190.0 Safari/536.11',
         'properties' => [
-            'Comment' => 'Chrome 12.0',
+            'Comment' => 'Chrome 22.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
             'Browser_Modus' => 'unknown',
-            'Version' => '12.0',
-            'MajorVer' => '12',
+            'Version' => '22.0',
+            'MajorVer' => '22',
             'MinorVer' => '0',
             'Platform' => 'Win32',
             'Platform_Version' => 'unknown',
