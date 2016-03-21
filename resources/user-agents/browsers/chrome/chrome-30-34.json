@@ -4323,6 +4323,9 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Chrome anonymized by*",
+          "properties": {
+            "isAnonymized": "true"
+          },
           "device": "Windows Desktop",
           "platforms": [
             "NT40_64", "NT4", "NT4_1", "Win2000", "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32",
@@ -4334,6 +4337,9 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Anonymisiert durch*",
+          "properties": {
+            "isAnonymized": "true"
+          },
           "device": "Windows Desktop",
           "platforms": [
             "Win95_2", "Win98_2", "NT40_64", "NT4", "NT4_1", "Win2000", "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32",

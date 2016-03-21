@@ -171,7 +171,7 @@
           ]
         },
         {
-          "match": "Opera\/#MAJORVER#.#MINORVER#*(Nintendo Wii; U; *)",
+          "match": "Opera?#MAJORVER#.#MINORVER#*(Nintendo Wii; U; *)",
           "device": "Nintendo Wii"
         }
       ]

@@ -569,7 +569,7 @@ return [
             'isFake' => false,
             'isAnonymized' => false,
             'isModified' => false,
-            'CssVersion' => '0',
+            'CssVersion' => '3',
             'AolVersion' => '0',
             'Device_Name' => 'Windows Desktop',
             'Device_Maker' => 'Various',

@@ -56,6 +56,17 @@
           ]
         },
         {
+          "match": "Mozilla\/6.0 (#PLATFORM#) Gecko* Firefox\/#MAJORVER#.#MINORVER#*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "NT4", "Win2000_64", "Win2000", "NT4_1",
+            "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32",
+            "Vista_x64", "Vista_64", "Vista_32", "Win7_x64", "Win7_64", "Win7_32",
+            "Win8_x64", "Win8_64", "Win8_32",
+            "Win8_1_x64", "Win8_1_64", "Win8_1_32"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Firefox\/#MAJORVER#.#MINORVER#*",
           "device": "general Desktop",
           "platforms": [
@@ -98,6 +109,9 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#; rv:#MAJORVER#.#MINORVER#*) Gecko\/* Firefox anonymized by *",
+          "properties": {
+            "isAnonymized": "true"
+          },
           "device": "Windows Desktop",
           "platforms": [
             "WinXPa_32", "Windows"
@@ -105,6 +119,9 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/#MAJORVER#.#MINORVER#* Anonymisiert*",
+          "properties": {
+            "isAnonymized": "true"
+          },
           "device": "Windows Desktop",
           "platforms": [
             "Win95_2", "Windows"
@@ -112,6 +129,9 @@
         },
         {
           "match": "Firefox\/#MAJORVER#.#MINORVER#*anonymized by Abelssoft*",
+          "properties": {
+            "isAnonymized": "true"
+          },
           "device": "Windows Desktop",
           "platforms": [
             "Windows"
@@ -119,6 +139,9 @@
         },
         {
           "match": "Mozilla\/5.0 (masking-agent; rv:*) Gecko\/* Firefox\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "isAnonymized": "true"
+          },
           "device": "general Desktop"
         },
         {

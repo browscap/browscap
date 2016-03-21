@@ -62,6 +62,9 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko\/*Firefox\/ anonymized by Abelssoft*",
+          "properties": {
+            "isAnonymized": "true"
+          },
           "device": "Linux Desktop",
           "platforms": [
             "Linux_64", "Linux_32", "Linux"
@@ -69,6 +72,9 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko\/*Firefox\/ anonymized by Abelssoft*",
+          "properties": {
+            "isAnonymized": "true"
+          },
           "device": "Windows Desktop",
           "platforms": [
             "NT4", "Win2000_64", "Win2000", "NT4_1",
@@ -83,6 +89,9 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko\/*Firefox\/ anonymized by Abelssoft*",
+          "properties": {
+            "isAnonymized": "true"
+          },
           "device": "Macintosh",
           "platforms": [
             "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
@@ -92,6 +101,9 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko\/*Firefox\/ anonymized by Abelssoft*",
+          "properties": {
+            "isAnonymized": "true"
+          },
           "device": "general Desktop",
           "platforms": [
             "FreeBSD", "HPUX", "IRIX64", "OpenBSD", "SunOS"
@@ -99,10 +111,16 @@
         },
         {
           "match": "Firefox\/*anonymized by Abelssoft*",
+          "properties": {
+            "isAnonymized": "true"
+          },
           "device": "general Desktop"
         },
         {
           "match": "Mozilla\/5.0 (masking-agent; rv:*) Gecko\/* Firefox\/*",
+          "properties": {
+            "isAnonymized": "true"
+          },
           "device": "general Desktop"
         },
         {
@@ -143,6 +161,9 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko\/*Firefox\/ anonymized by Abelssoft*",
+          "properties": {
+            "isAnonymized": "true"
+          },
           "platforms": [
             "AndroidMobile"
           ]
@@ -156,6 +177,9 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko\/*Firefox\/ anonymized by Abelssoft*",
+          "properties": {
+            "isAnonymized": "true"
+          },
           "device": "general Tablet",
           "platforms": [
             "AndroidTablet"

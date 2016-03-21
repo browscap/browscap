@@ -375,9 +375,9 @@ return [
     'issue-849-I' => [
         'ua' => 'Chrome LINUX 45.0.2454.85 (4c2743615eaa2806ad014c59bf6acbb652cf3aa8)-devel',
         'properties' => [
-            'Comment' => 'Fake Chrome',
-            'Browser' => 'Fake Chrome',
-            'Browser_Type' => 'Bot/Crawler',
+            'Comment' => 'Default Browser',
+            'Browser' => 'Default Browser',
+            'Browser_Type' => 'unknown',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -406,7 +406,7 @@ return [
             'isMobileDevice' => false,
             'isTablet' => false,
             'isSyndicationReader' => false,
-            'Crawler' => true,
+            'Crawler' => false,
             'isFake' => false,
             'isAnonymized' => false,
             'isModified' => false,
@@ -422,7 +422,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
     ],
     'issue-849-J' => [

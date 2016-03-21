@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'issue-142K' => [
+    'issue-142-K' => [
         'ua' => 'Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_3_3 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8J2 Safari/6533.18.5',
         'properties' => [
             'Comment' => 'Mobile Safari 5.0',
@@ -54,7 +54,7 @@ return [
         'lite' => false,
         'standard' => true,
     ],
-    'issue-142J' => [
+    'issue-142-J' => [
         'ua' => 'Mozilla/5.0 (iPhone; U; CPU like Mac OS X; en) AppleWebKit/420+',
         'properties' => [
             'Comment' => 'Mobile Safari Generic',
@@ -107,7 +107,7 @@ return [
         'lite' => true,
         'standard' => true,
     ],
-    'issue-142I' => [
+    'issue-142-I' => [
         'ua' => 'Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_0 like Mac OS X; en-us) AppleWebKit/532.9 (KHTML, like Gecko) Version/4.0.5 Mobile/8A293 Safari/6531.22.7',
         'properties' => [
             'Comment' => 'Mobile Safari 4.0',
@@ -160,7 +160,7 @@ return [
         'lite' => false,
         'standard' => true,
     ],
-    'issue-142H' => [
+    'issue-142-H' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 5_0 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9A334 Safari/7534.48.3',
         'properties' => [
             'Comment' => 'Mobile Safari 5.1',
@@ -213,7 +213,7 @@ return [
         'lite' => false,
         'standard' => true,
     ],
-    'issue-142G' => [
+    'issue-142-G' => [
         'ua' => 'Mozilla/5.0 (iPad; U; CPU like Mac OS X; en) AppleWebKit/420+',
         'properties' => [
             'Comment' => 'Mobile Safari Generic',
@@ -266,7 +266,7 @@ return [
         'lite' => true,
         'standard' => true,
     ],
-    'issue-142F' => [
+    'issue-142-F' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5355d Safari/8536.25',
         'properties' => [
             'Comment' => 'Mobile Safari 6.0',
@@ -319,7 +319,7 @@ return [
         'lite' => true,
         'standard' => true,
     ],
-    'issue-142E' => [
+    'issue-142-E' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 7_0_4 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11B554a Safari/9537.53',
         'properties' => [
             'Comment' => 'Mobile Safari 7.0',
@@ -372,7 +372,7 @@ return [
         'lite' => true,
         'standard' => true,
     ],
-    'issue-142D' => [
+    'issue-142-D' => [
         'ua' => 'Dalvik/1.6.0 (Linux; U; Android 4.3; HTC One Build/JSS15J)',
         'properties' => [
             'Comment' => 'Dalvik 1.6',
@@ -425,7 +425,7 @@ return [
         'lite' => false,
         'standard' => true,
     ],
-    'issue-142C' => [
+    'issue-142-C' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.3; HTC One Build/JSS15J) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.99 Mobile Safari/537.36',
         'properties' => [
             'Comment' => 'Chrome 32.0',
@@ -478,7 +478,7 @@ return [
         'lite' => false,
         'standard' => true,
     ],
-    'issue-142B' => [
+    'issue-142-B' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; GT-I9100 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.99 Mobile Safari/537.36',
         'properties' => [
             'Comment' => 'Chrome 32.0',
@@ -531,7 +531,7 @@ return [
         'lite' => false,
         'standard' => true,
     ],
-    'issue-142A' => [
+    'issue-142-A' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.3; GT-I9505 Build/JSS15J) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.99 Mobile Safari/537.36',
         'properties' => [
             'Comment' => 'Chrome 32.0',

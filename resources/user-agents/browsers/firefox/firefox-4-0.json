@@ -60,6 +60,9 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#; rv:2.0*) Gecko\/* Firefox anonymized by *",
+          "properties": {
+            "isAnonymized": "true"
+          },
           "device": "Windows Desktop",
           "platforms": [
             "WinXPa_32"

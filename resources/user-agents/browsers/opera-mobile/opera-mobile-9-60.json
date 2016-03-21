@@ -28,7 +28,7 @@
       },
       "children": [
         {
-          "match": "Opera\/#MAJORVER#.#MINORVER#* Presto\/2.2*\/SAMSUNG-GT-I8320*",
+          "match": "Opera?#MAJORVER#.#MINORVER#* Presto\/2.2*\/SAMSUNG-GT-I8320*",
           "device": "Samsung GT-I8320"
         },
         {
