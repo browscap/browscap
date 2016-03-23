@@ -2399,7 +2399,7 @@ return [
             'MajorVer' => '8',
             'MinorVer' => '0',
             'Platform' => 'iOS',
-            'Platform_Version' => '8.0',
+            'Platform_Version' => 'unknown',
             'Platform_Description' => 'iPod, iPhone & iPad',
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Apple Inc',

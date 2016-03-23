@@ -1,6 +1,6 @@
 {
   "division": "Firefox #MAJORVER#.#MINORVER#",
-  "versions": ["3.7"],
+  "versions": ["3.8"],
   "sortIndex": 3165,
   "lite": false,
   "standard": true,
@@ -24,7 +24,7 @@
         "Cookies": "true",
         "JavaScript": "true",
         "CssVersion": "3",
-        "Beta": "true"
+        "Alpha": "true"
       },
       "children": [
         {
