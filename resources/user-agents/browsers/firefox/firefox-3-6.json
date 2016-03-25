@@ -125,8 +125,11 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#; rv:1.9.2*) Gecko\/* Firefox anonymized *",
+          "match": "Mozilla\/5.0 (#PLATFORM#; rv:1.9.2*) Gecko\/* Firefox anonymized*",
           "device": "Windows Desktop",
+          "properties": {
+            "isAnonymized": "true"
+          },
           "platforms": [
             "Win7_32", "Win8_32"
           ]

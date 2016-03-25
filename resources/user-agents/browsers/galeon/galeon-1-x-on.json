@@ -9,10 +9,12 @@
       "userAgent": "Galeon #MAJORVER#.#MINORVER#",
       "platform": "Linux",
       "device": "Linux Desktop",
+      "engine": "Gecko",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Galeon #MAJORVER#.#MINORVER#",
         "Browser": "Galeon",
+        "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
@@ -25,9 +27,22 @@
       },
       "children": [
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Galeon\/#MAJORVER#.#MINORVER#* Firefox\/*",
+          "platforms": [
+            "Linux_32", "Linux"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Galeon\/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "Linux_32", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Galeon\/#MAJORVER#.#MINORVER#*",
+          "device": "general Desktop",
+          "platforms": [
+            "FreeBSD"
           ]
         },
         {

@@ -8,10 +8,12 @@
       "userAgent": "Galeon Generic",
       "platform": "Linux",
       "device": "Linux Desktop",
+      "engine": "Gecko",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Galeon Generic",
         "Browser": "Galeon",
+        "Browser_Type": "Browser",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
@@ -21,9 +23,22 @@
       },
       "children": [
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Galeon\/* Firefox\/*",
+          "platforms": [
+            "Linux_32", "Linux"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Galeon\/*",
           "platforms": [
             "Linux_32", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Galeon\/*",
+          "device": "general Desktop",
+          "platforms": [
+            "FreeBSD"
           ]
         },
         {
