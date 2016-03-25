@@ -1145,6 +1145,7 @@
       "standard": false,
       "inherits": "Linux",
       "properties": {
+        "Browser_Bits": "64",
         "Platform_Bits": "64"
       }
     },
@@ -1191,6 +1192,16 @@
     },
     "Linux_x64": {
       "match": "*linux x64*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Linux",
+      "properties": {
+        "Browser_Bits": "64",
+        "Platform_Bits": "64"
+      }
+    },
+    "Linux_64_sparc": {
+      "match": "*linux sparc64*",
       "lite": false,
       "standard": false,
       "inherits": "Linux",

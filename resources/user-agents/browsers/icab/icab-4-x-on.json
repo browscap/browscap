@@ -1,6 +1,6 @@
 {
   "division": "iCab #MAJORVER#.#MINORVER#",
-  "versions": ["5.5", "5.4", "5.3", "5.2", "5.1", 5, "4.8", "4.7", "4.6", "4.5", "4.4", "4.3", "4.2", "4.1", 4, 3, "2.9", "2.8", "2.7", "2.6", "2.5"],
+  "versions": ["5.5", "5.4", "5.3", "5.2", "5.1", 5, "4.8", "4.7", "4.6", "4.5", "4.4", "4.3", "4.2", "4.1", 4],
   "sortIndex": 2400,
   "lite": false,
   "standard": true,
@@ -30,6 +30,15 @@
           "match": "iCab\/#MAJORVER#.#MINORVER#* (#PLATFORM#)",
           "platforms": [
             "Mac68K", "MacPPC_3", "OSX"
+          ]
+        },
+        {
+          "match": "iCab\/#MAJORVER#.#MINORVER#* (#PLATFORM#)",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win2000", "WinXPa_x64_2", "WinXPa_32", "WinXPb_x64_2", "WinXPb_32",
+            "Vista_x64_2", "Vista_32", "Win7_x64_2", "Win7_32", "Win8_64", "Win8_32",
+            "Win8_1_64", "Win8_1_32"
           ]
         },
         {

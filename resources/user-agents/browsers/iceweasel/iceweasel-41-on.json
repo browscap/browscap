@@ -1,7 +1,7 @@
 {
   "division": "Iceweasel #MAJORVER#.#MINORVER#",
-  "versions": [37, 36, 35, 34, 33, 32, "31.3", "31.2", "31.1", 31, 30],
-  "sortIndex": 3148,
+  "versions": [46, 45, 44, 43, 42, 41],
+  "sortIndex": 3147,
   "lite": false,
   "standard": true,
   "userAgents": [
@@ -30,13 +30,19 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/* Iceweasel\/#MAJORVER#.#MINORVER#*",
           "platforms": [
-            "Linux_64", "Linux"
+            "Linux_64", "Linux_32", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Iceweasel\/#MAJORVER#.#MINORVER#* Firefox\/*",
+          "platforms": [
+            "Linux_64", "Linux_32", "Linux"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Iceweasel\/#MAJORVER#.#MINORVER#*",
           "platforms": [
-            "Linux_32_on_x64_2", "Linux_64", "Linux"
+            "Linux_32_on_x64_2", "Linux_64", "Linux_32", "Linux"
           ]
         }
       ]

@@ -1,0 +1,40 @@
+{
+  "division": "IceApe #MAJORVER#.#MINORVER#",
+  "versions": ["2.14", "2.13", "2.12", "2.11", "2.10", "2.9", "2.8", "2.7", "2.6", "2.5", "2.4", "2.3", "2.2", "2.1", 2, "1.1", 1],
+  "sortIndex": 5280,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "IceApe #MAJORVER#.#MINORVER#",
+      "platform": "Linux",
+      "engine": "Gecko",
+      "device": "Linux Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Iceape #MAJORVER#.#MINORVER#",
+        "Browser": "Iceape",
+        "Browser_Type": "Browser",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "CssVersion": "2"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Iceape\/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Linux_64", "Linux_32", "Linux"
+          ]
+        }
+      ]
+    }
+  ]
+}

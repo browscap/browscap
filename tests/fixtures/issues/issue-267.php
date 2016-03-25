@@ -4618,7 +4618,7 @@ return [
             'Comment' => 'WebThumb',
             'Browser' => 'WebThumb',
             'Browser_Type' => 'Bot/Crawler',
-            'Browser_Bits' => '32',
+            'Browser_Bits' => '64',
             'Browser_Maker' => 'Boutell.Com, Inc.',
             'Browser_Modus' => 'unknown',
             'Version' => '1.0',
