@@ -1,14 +1,14 @@
 {
   "division": "Iceweasel #MAJORVER#.#MINORVER#",
-  "versions": [2],
-  "sortIndex": 3155,
+  "versions": ["1.5", 1],
+  "sortIndex": 3156,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
       "userAgent": "Iceweasel #MAJORVER#.#MINORVER#",
       "platform": "Linux",
-      "engine": "Gecko_1_8",
+      "engine": "Gecko_1",
       "device": "Linux Desktop",
       "properties": {
         "Parent": "DefaultProperties",
