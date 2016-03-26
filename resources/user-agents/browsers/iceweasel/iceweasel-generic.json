@@ -1,13 +1,13 @@
 {
   "division": "Iceweasel Generic",
-  "sortIndex": 3147,
+  "sortIndex": 3157,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
       "userAgent": "Iceweasel Generic",
       "platform": "Linux",
-      "engine": "Gecko_Major_Dynamic",
+      "engine": "Gecko",
       "device": "Linux Desktop",
       "properties": {
         "Parent": "DefaultProperties",
