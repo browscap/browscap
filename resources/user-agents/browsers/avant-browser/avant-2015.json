@@ -47,7 +47,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#rv:32.0; Avant TriCore) Gecko\/* Firefox\/32.*",
+          "match": "Mozilla\/5.0 (#PLATFORM#rv:32.0; Avant TriCore) Gecko* Firefox\/32.*",
           "engine": "Gecko_27",
           "platforms": [
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",

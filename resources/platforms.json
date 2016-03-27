@@ -4038,7 +4038,7 @@
       }
     },
     "FirefoxOS": {
-      "match": "*Gecko\/*",
+      "match": "*Gecko*",
       "lite": false,
       "standard": true,
       "properties": {
@@ -4051,7 +4051,7 @@
       }
     },
     "FirefoxOS_0_x": {
-      "match": "*Gecko\/*",
+      "match": "*Gecko*",
       "lite": false,
       "standard": false,
       "inherits": "FirefoxOS",
@@ -4060,7 +4060,7 @@
       }
     },
     "FirefoxOS_1_0": {
-      "match": "*Gecko\/*",
+      "match": "*Gecko*",
       "lite": false,
       "standard": false,
       "inherits": "FirefoxOS",
@@ -4069,7 +4069,7 @@
       }
     },
     "FirefoxOS_1_1": {
-      "match": "*Gecko\/*",
+      "match": "*Gecko*",
       "lite": false,
       "standard": false,
       "inherits": "FirefoxOS",
@@ -4078,7 +4078,7 @@
       }
     },
     "FirefoxOS_1_2": {
-      "match": "*Gecko\/*",
+      "match": "*Gecko*",
       "lite": false,
       "standard": false,
       "inherits": "FirefoxOS",
@@ -4087,7 +4087,7 @@
       }
     },
     "FirefoxOS_1_3": {
-      "match": "*Gecko\/*",
+      "match": "*Gecko*",
       "lite": false,
       "standard": false,
       "inherits": "FirefoxOS",
@@ -4096,7 +4096,7 @@
       }
     },
     "FirefoxOS_1_4": {
-      "match": "*Gecko\/*",
+      "match": "*Gecko*",
       "lite": false,
       "standard": false,
       "inherits": "FirefoxOS",
@@ -4105,7 +4105,7 @@
       }
     },
     "FirefoxOS_2_0": {
-      "match": "*Gecko\/*",
+      "match": "*Gecko*",
       "lite": false,
       "standard": true,
       "inherits": "FirefoxOS",
@@ -4114,7 +4114,7 @@
       }
     },
     "FirefoxOS_2_1": {
-      "match": "*Gecko\/*",
+      "match": "*Gecko*",
       "lite": false,
       "standard": true,
       "inherits": "FirefoxOS",
@@ -4123,7 +4123,7 @@
       }
     },
     "FirefoxOS_2_2": {
-      "match": "*Gecko\/*",
+      "match": "*Gecko*",
       "lite": false,
       "standard": true,
       "inherits": "FirefoxOS",

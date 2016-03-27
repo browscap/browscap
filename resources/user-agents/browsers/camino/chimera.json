@@ -41,7 +41,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 Gecko\/* Chimera\/*"
+          "match": "Mozilla\/5.0 Gecko* Chimera\/*"
         }
       ]
     }

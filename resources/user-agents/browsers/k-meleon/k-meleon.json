@@ -35,7 +35,7 @@
           ]
         },
         {
-          "match": "K-Meleon\/#MAJORVER#.#MINORVER# (#PLATFORM#) Gecko\/* Mozilla\/5.0",
+          "match": "K-Meleon\/#MAJORVER#.#MINORVER# (#PLATFORM#) Gecko* Mozilla\/5.0",
           "platforms": [
             "WinXPa_32"
           ]

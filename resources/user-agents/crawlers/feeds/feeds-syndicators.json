@@ -265,7 +265,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#; aggregator:FeedParser; *) Gecko\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#; aggregator:FeedParser; *) Gecko*",
           "device": "Linux Desktop",
           "engine": "Gecko",
           "properties": {
@@ -277,7 +277,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#; aggregator:NewsMonster; *) Gecko\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#; aggregator:NewsMonster; *) Gecko*",
           "engine": "Gecko",
           "device": "Linux Desktop",
           "properties": {
@@ -289,7 +289,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#; aggregator:Rojo; *) Gecko\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#; aggregator:Rojo; *) Gecko*",
           "device": "Linux Desktop",
           "engine": "Gecko",
           "properties": {
@@ -308,7 +308,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#; aggregator:Tailrank (Spinn3r 2.3); *) Gecko\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#; aggregator:Tailrank (Spinn3r 2.3); *) Gecko*",
           "engine": "Gecko",
           "device": "Linux Desktop",
           "properties": {
@@ -323,7 +323,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#; aggregator:Spinn3r (Spinn3r 3.0); *) Gecko\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#; aggregator:Spinn3r (Spinn3r 3.0); *) Gecko*",
           "engine": "Gecko",
           "device": "Linux Desktop",
           "properties": {
@@ -338,7 +338,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#; aggregator:Spinn3r (Spinn3r 3.1); *) Gecko\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#; aggregator:Spinn3r (Spinn3r 3.1); *) Gecko*",
           "engine": "Gecko",
           "device": "Linux Desktop",
           "properties": {
@@ -353,7 +353,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#; aggregator:Spinn3r (Spinn3r *); *) Gecko\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#; aggregator:Spinn3r (Spinn3r *); *) Gecko*",
           "engine": "Gecko",
           "device": "Linux Desktop",
           "properties": {

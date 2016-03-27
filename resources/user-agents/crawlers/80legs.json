@@ -18,7 +18,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (compatible; *; http:\/\/www.80legs.com\/*) Gecko\/*"
+          "match": "Mozilla\/5.0 (compatible; *; http:\/\/www.80legs.com\/*) Gecko*"
         }
       ]
     }

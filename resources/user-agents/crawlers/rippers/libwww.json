@@ -34,7 +34,7 @@
           }
         },
         {
-          "match": "Mozilla\/* (windows; U; *) Gecko\/* libwww-perl\/6.0*",
+          "match": "Mozilla\/* (windows; U; *) Gecko* libwww-perl\/6.0*",
           "properties": {
             "Version": "6.0",
             "MajorVer": "6"

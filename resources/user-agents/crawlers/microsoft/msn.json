@@ -19,7 +19,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (Danger hiptop 3.*; U; rv:1.7.*Gecko\/*",
+          "match": "Mozilla\/5.0 (Danger hiptop 3.*; U; rv:1.7.*Gecko*",
           "properties": {
             "Browser": "Danger",
             "Version": "3.0",
@@ -58,7 +58,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (Danger hiptop 3.*; U; rv:1.7.*) Gecko\/*",
+          "match": "Mozilla\/5.0 (Danger hiptop 3.*; U; rv:1.7.*) Gecko*",
           "properties": {
             "Browser": "Danger",
             "Version": "3.0",

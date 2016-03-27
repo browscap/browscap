@@ -26,7 +26,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* SlimerJS\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* SlimerJS\/*",
           "device": "Linux Desktop",
           "platforms": [
             "Linux_64", "Linux"

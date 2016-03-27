@@ -23,7 +23,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (*Windows NT 6.1*WOW64*) Gecko\/* Firefox\/4.0*\/Nutch*",
+          "match": "Mozilla\/5.0 (*Windows NT 6.1*WOW64*) Gecko* Firefox\/4.0*\/Nutch*",
           "properties": {
             "Division": "Nutch",
             "Browser": "Nutch test crawler"

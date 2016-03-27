@@ -29,7 +29,7 @@
       },
       "children": [
         {
-          "match": "TinyBrowser\/#MAJORVER#.#MINORVER#* (TinyBrowser *) Gecko\/*"
+          "match": "TinyBrowser\/#MAJORVER#.#MINORVER#* (TinyBrowser *) Gecko*"
         }
       ]
     }

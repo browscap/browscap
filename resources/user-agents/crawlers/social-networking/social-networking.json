@@ -27,7 +27,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (*) Gecko\/* Firefox\/2.0 OneRiot\/1.0 (http:\/\/www.oneriot.com) ",
+          "match": "Mozilla\/5.0 (*) Gecko* Firefox\/2.0 OneRiot\/1.0 (http:\/\/www.oneriot.com) ",
           "properties": {
             "Browser": "OneRiot"
           }
@@ -69,7 +69,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (*Gecko\/* Firefox\/2.0 OneRiot\/1.0 (http:\/\/www.oneriot.com) ",
+          "match": "Mozilla\/5.0 (*Gecko* Firefox\/2.0 OneRiot\/1.0 (http:\/\/www.oneriot.com) ",
           "properties": {
             "Browser": "OneRiot"
           }

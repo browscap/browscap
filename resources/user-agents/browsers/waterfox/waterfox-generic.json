@@ -24,7 +24,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/* Waterfox\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Firefox\/* Waterfox\/*",
           "platforms": [
             "Win7_64", "Win7_x64", "Win7_x64_2",
             "Win8_64", "Win8_x64",
