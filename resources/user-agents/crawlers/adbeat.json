@@ -16,7 +16,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (*Linux*x86_64*) adbeat.com* Gecko\/#PLATFORM# Firefox*",
+          "match": "Mozilla\/5.0 (*Linux*x86_64*) adbeat.com* Gecko#PLATFORM# Firefox*",
           "device": "Linux Desktop",
           "engine": "Gecko",
           "platforms": [
@@ -24,7 +24,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (*Linux x86*) adbeat.com* Gecko\/#PLATFORM# Firefox*",
+          "match": "Mozilla\/5.0 (*Linux x86*) adbeat.com* Gecko#PLATFORM# Firefox*",
           "device": "Linux Desktop",
           "engine": "Gecko",
           "platforms": [
@@ -32,7 +32,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) adbeat.com* Gecko\/* Firefox*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) adbeat.com* Gecko* Firefox*",
           "device": "Linux Desktop",
           "engine": "Gecko",
           "platforms": [

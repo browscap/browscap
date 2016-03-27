@@ -29,25 +29,25 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* IceCat\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* IceCat\/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "Linux_64_sparc", "Linux_64", "Linux_32", "Linux"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* IceCat\/#MAJORVER#.#MINORVER#* Firefox\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* IceCat\/#MAJORVER#.#MINORVER#* Firefox\/*",
           "platforms": [
             "Linux_64_sparc", "Linux_64", "Linux_32", "Linux"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (GNU; rv:*) Gecko\/* IceCat\/#MAJORVER#.#MINORVER#* Firefox\/*",
+          "match": "Mozilla\/5.0 (GNU; rv:*) Gecko* IceCat\/#MAJORVER#.#MINORVER#* Firefox\/*",
           "platforms": [
             "Linux"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* IceCat\/#MAJORVER#.#MINORVER#* Firefox\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* IceCat\/#MAJORVER#.#MINORVER#* Firefox\/*",
           "device": "Windows Desktop",
           "platforms": [
             "NT4", "Win2000_64", "Win2000", "WinXPa_32",

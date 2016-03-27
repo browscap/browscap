@@ -59,7 +59,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#rv:27.0; Avant TriCore) Gecko\/* Firefox\/30.*",
+          "match": "Mozilla\/5.0 (#PLATFORM#rv:27.0; Avant TriCore) Gecko* Firefox\/30.*",
           "engine": "Gecko_27",
           "platforms": [
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
@@ -71,7 +71,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#rv:27.0; Avant TriCore) Gecko\/* Firefox\/27.*",
+          "match": "Mozilla\/5.0 (#PLATFORM#rv:27.0; Avant TriCore) Gecko* Firefox\/27.*",
           "engine": "Gecko_27",
           "platforms": [
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",

@@ -22,7 +22,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko\/*Firefox\/*Lunascape*",
+          "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko*Firefox\/*Lunascape*",
           "engine": "Gecko",
           "device": "Linux Desktop",
           "platforms": [
@@ -30,7 +30,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko\/*Firefox\/*Lunascape*",
+          "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko*Firefox\/*Lunascape*",
           "engine": "Gecko",
           "device": "Windows Desktop",
           "platforms": [
@@ -41,7 +41,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko\/*Firefox\/*Lunascape*",
+          "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko*Firefox\/*Lunascape*",
           "engine": "Gecko",
           "device": "Macintosh",
           "platforms": [
@@ -50,7 +50,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko\/*Firefox\/*Lunascape*",
+          "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko*Firefox\/*Lunascape*",
           "engine": "Gecko",
           "device": "general Desktop",
           "platforms": [

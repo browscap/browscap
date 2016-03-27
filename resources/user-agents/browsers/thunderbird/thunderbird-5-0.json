@@ -28,7 +28,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko\/*Thunderbird\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko*Thunderbird\/#MAJORVER#.#MINORVER#*",
           "engine": "Gecko_Dynamic",
           "device": "Linux Desktop",
           "platforms": [
@@ -36,7 +36,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko\/*Thunderbird\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko*Thunderbird\/#MAJORVER#.#MINORVER#*",
           "engine": "Gecko_Dynamic",
           "device": "Windows Desktop",
           "platforms": [
@@ -45,7 +45,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko\/*Thunderbird\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko*Thunderbird\/#MAJORVER#.#MINORVER#*",
           "engine": "Gecko_Dynamic",
           "device": "Macintosh",
           "platforms": [
@@ -53,7 +53,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#rv:2.*)*Gecko\/*Thunderbird\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (#PLATFORM#rv:2.*)*Gecko*Thunderbird\/#MAJORVER#.#MINORVER#*",
           "engine": "Gecko_2",
           "device": "Linux Desktop",
           "platforms": [
@@ -61,7 +61,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#rv:2.*)*Gecko\/*Thunderbird\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (#PLATFORM#rv:2.*)*Gecko*Thunderbird\/#MAJORVER#.#MINORVER#*",
           "engine": "Gecko_2",
           "device": "Windows Desktop",
           "platforms": [
@@ -70,7 +70,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#rv:2.*)*Gecko\/*Thunderbird\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (#PLATFORM#rv:2.*)*Gecko*Thunderbird\/#MAJORVER#.#MINORVER#*",
           "engine": "Gecko_2",
           "device": "Macintosh",
           "platforms": [
@@ -78,7 +78,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#rv:#MAJORVER#.*)*Gecko\/*Thunderbird\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (#PLATFORM#rv:#MAJORVER#.*)*Gecko*Thunderbird\/#MAJORVER#.#MINORVER#*",
           "engine": "Gecko_Dynamic",
           "device": "Linux Desktop",
           "platforms": [
@@ -86,7 +86,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#rv:#MAJORVER#.*)*Gecko\/*Thunderbird\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (#PLATFORM#rv:#MAJORVER#.*)*Gecko*Thunderbird\/#MAJORVER#.#MINORVER#*",
           "engine": "Gecko_Dynamic",
           "device": "Windows Desktop",
           "platforms": [
@@ -95,7 +95,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#rv:#MAJORVER#.*)*Gecko\/*Thunderbird\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (#PLATFORM#rv:#MAJORVER#.*)*Gecko*Thunderbird\/#MAJORVER#.#MINORVER#*",
           "engine": "Gecko_Dynamic",
           "device": "Macintosh",
           "platforms": [

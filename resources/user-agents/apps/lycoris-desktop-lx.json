@@ -24,7 +24,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Desktop\/LX Amethyst*) *Gecko\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#Desktop\/LX Amethyst*) *Gecko*",
           "platforms": [
             "Linux_32", "Linux"
           ]

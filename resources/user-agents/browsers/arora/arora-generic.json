@@ -29,7 +29,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* (KHTML* like Gecko, Safari\/*)*Arora\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* (KHTML* like Gecko, Safari\/*)*Arora\/*",
           "device": "Linux Desktop",
           "platforms": [
             "Linux_64", "Linux"

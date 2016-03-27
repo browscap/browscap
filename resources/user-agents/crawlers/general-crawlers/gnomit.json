@@ -18,14 +18,14 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (*http:\/\/gnomit.com\/) Gecko\/* Gnomit\/1.0*",
+          "match": "Mozilla\/5.0 (*http:\/\/gnomit.com\/) Gecko* Gnomit\/1.0*",
           "properties": {
             "Version": "1.0",
             "MajorVer": "1"
           }
         },
         {
-          "match": "Mozilla\/5.0 (*http:\/\/gnomit.com\/) Gecko\/* Gnomit\/*"
+          "match": "Mozilla\/5.0 (*http:\/\/gnomit.com\/) Gecko* Gnomit\/*"
         }
       ]
     }

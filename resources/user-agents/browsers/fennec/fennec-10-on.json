@@ -42,21 +42,21 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#rv:#MAJORVER#.#MINORVER#*)*Gecko\/*Firefox\/#MAJORVER#.#MINORVER#*Fennec\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (#PLATFORM#rv:#MAJORVER#.#MINORVER#*)*Gecko*Firefox\/#MAJORVER#.#MINORVER#*Fennec\/#MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone",
           "platforms": [
             "AndroidMobile", "AndroidLinux"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#rv:#MAJORVER#.#MINORVER#*)*Gecko\/*Firefox\/#MAJORVER#.#MINORVER#*Fennec\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (#PLATFORM#rv:#MAJORVER#.#MINORVER#*)*Gecko*Firefox\/#MAJORVER#.#MINORVER#*Fennec\/#MAJORVER#.#MINORVER#*",
           "device": "general Tablet",
           "platforms": [
             "AndroidTablet"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Fennec\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Fennec\/#MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone",
           "platforms": [
             "Maemo"

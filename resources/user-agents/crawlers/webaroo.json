@@ -23,7 +23,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (Windows; U; Windows *; *; rv:*) Gecko\/* Firefox\/* webaroo\/*"
+          "match": "Mozilla\/5.0 (Windows; U; Windows *; *; rv:*) Gecko* Firefox\/* webaroo\/*"
         }
       ]
     }

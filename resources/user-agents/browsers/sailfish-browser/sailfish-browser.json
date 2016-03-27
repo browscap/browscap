@@ -29,14 +29,14 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (*Jolla#PLATFORM#) Gecko\/* Firefox\/* SailfishBrowser\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (*Jolla#PLATFORM#) Gecko* Firefox\/* SailfishBrowser\/#MAJORVER#.#MINORVER#*",
           "device": "Jolla Phone",
           "platforms": [
             "SailfishOS"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/* SailfishBrowser\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Firefox\/* SailfishBrowser\/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "SailfishOS"
           ]

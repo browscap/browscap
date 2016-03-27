@@ -1024,7 +1024,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* ThumbShotsBot*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* ThumbShotsBot*",
           "device": "Linux Desktop",
           "properties": {
             "Browser": "ThumbShotsBot"

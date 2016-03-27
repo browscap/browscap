@@ -44,7 +44,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#compatible; Jobboerse.com;*) Gecko\/* Firefox\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#compatible; Jobboerse.com;*) Gecko* Firefox\/*",
           "properties": {
             "Browser": "JobBoerse Bot",
             "Browser_Maker": "Jobboerse.com"

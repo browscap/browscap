@@ -21,7 +21,7 @@
           }
         },
         {
-          "match": "Amico Alpha * (*) Gecko\/* AmicoAlpha\/*",
+          "match": "Amico Alpha * (*) Gecko* AmicoAlpha\/*",
           "properties": {
             "Browser": "Amico Alpha"
           }
@@ -212,7 +212,7 @@
           }
         },
         {
-          "match": "Amico Alpha * (*Gecko\/* AmicoAlpha\/*"
+          "match": "Amico Alpha * (*Gecko* AmicoAlpha\/*"
         },
         {
           "match": "IRLbot\/*"

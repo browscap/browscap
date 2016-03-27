@@ -95,7 +95,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#rv:26.0; Avant TriCore) Gecko\/* Firefox\/26.*",
+          "match": "Mozilla\/5.0 (#PLATFORM#rv:26.0; Avant TriCore) Gecko* Firefox\/26.*",
           "engine": "Gecko_26",
           "platforms": [
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
@@ -107,7 +107,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#rv:25.0; Avant TriCore) Gecko\/* Firefox\/25.*",
+          "match": "Mozilla\/5.0 (#PLATFORM#rv:25.0; Avant TriCore) Gecko* Firefox\/25.*",
           "engine": "Gecko_25",
           "platforms": [
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
@@ -119,7 +119,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#rv:23.0; Avant TriCore) Gecko\/* Firefox\/23.*",
+          "match": "Mozilla\/5.0 (#PLATFORM#rv:23.0; Avant TriCore) Gecko* Firefox\/23.*",
           "engine": "Gecko_23",
           "platforms": [
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
@@ -131,7 +131,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#rv:22.0; Avant TriCore) Gecko\/* Firefox\/22.*",
+          "match": "Mozilla\/5.0 (#PLATFORM#rv:22.0; Avant TriCore) Gecko* Firefox\/22.*",
           "engine": "Gecko_22",
           "platforms": [
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
@@ -143,7 +143,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#rv:20.0; Avant TriCore) Gecko\/* Firefox\/20.*",
+          "match": "Mozilla\/5.0 (#PLATFORM#rv:20.0; Avant TriCore) Gecko* Firefox\/20.*",
           "engine": "Gecko_20",
           "platforms": [
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
