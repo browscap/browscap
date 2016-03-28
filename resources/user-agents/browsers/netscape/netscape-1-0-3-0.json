@@ -26,35 +26,35 @@
       },
       "children": [
         {
-          "match": "Mozilla\/#MAJORVER#.*(#PLATFORM#)*",
+          "match": "Mozilla\/#MAJORVER#.#MINORVER#*(#PLATFORM#)*",
           "device": "Linux Desktop",
           "platforms": [
             "Linux"
           ]
         },
         {
-          "match": "Mozilla\/#MAJORVER#.*(#PLATFORM#)*",
+          "match": "Mozilla\/#MAJORVER#.#MINORVER#*(#PLATFORM#)*",
           "device": "Windows Desktop",
           "platforms": [
             "Win16", "Win95", "Win98", "NT_2", "WinXPa_32", "Windows"
           ]
         },
         {
-          "match": "Mozilla\/#MAJORVER#.*(#PLATFORM#)*",
+          "match": "Mozilla\/#MAJORVER#.#MINORVER#*(#PLATFORM#)*",
           "device": "Macintosh",
           "platforms": [
             "MacPPC_3", "Mac68K"
           ]
         },
         {
-          "match": "Mozilla\/#MAJORVER#.*(#PLATFORM#)*",
+          "match": "Mozilla\/#MAJORVER#.#MINORVER#*(#PLATFORM#)*",
           "device": "general Desktop",
           "platforms": [
-            "IRIX64_2", "OpenVMS", "OS2", "SunOS"
+            "IRIX64_2", "OpenVMS", "OS2", "SunOS", "AIX"
           ]
         },
         {
-          "match": "Mozilla\/#MAJORVER#.*(*compatible;*",
+          "match": "Mozilla\/#MAJORVER#.#MINORVER#*(*compatible;*",
           "device": "general Desktop"
         }
       ]
