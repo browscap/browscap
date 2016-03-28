@@ -3873,8 +3873,24 @@
         "Platform_Bits": "32"
       }
     },
-    "Digital_Unix": {
+    "Tru64_Unix": {
       "match": "*Digital Unix*",
+      "lite": false,
+      "standard": true,
+      "properties": {
+        "Platform": "Tru64 UNIX",
+        "Platform_Maker": "HP",
+        "Platform_Description": "Tru64 UNIX",
+        "Platform_Version": "unknown",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Browser_Bits": "64",
+        "Platform_Bits": "64"
+      }
+    },
+    "Tru64_Unix_B": {
+      "match": "*OSF1*",
       "lite": false,
       "standard": true,
       "properties": {
