@@ -46,6 +46,15 @@
           }
         },
         {
+          "match": "Mozilla\/4.5 (compatible; OmniWeb\/4.2*; Mac_PowerPC)",
+          "properties": {
+            "CssVersion": "1",
+            "Version": "4.2",
+            "MajorVer": "4",
+            "MinorVer": "2"
+          }
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) *OmniWeb\/v558.*",
           "properties": {
             "Version": "5.0",
@@ -123,7 +132,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/420  (KHTML* like Gecko, Safari) *OmniWeb\/v*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko, Safari) *OmniWeb\/v*",
           "properties": {
             "Version": "5.5",
             "MajorVer": "5",
@@ -151,7 +160,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#AppleWebKit\/420  (KHTML* like Gecko, Safari) *OmniWeb\/v*",
+          "match": "Mozilla\/5.0 (#PLATFORM#AppleWebKit\/* (KHTML* like Gecko, Safari) *OmniWeb\/v*",
           "properties": {
             "Version": "5.5",
             "MajorVer": "5",
