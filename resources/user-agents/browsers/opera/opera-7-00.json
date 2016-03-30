@@ -28,7 +28,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/4.* (#PLATFORM#)*Gecko* Firefox\/* Opera?#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/4.* (#PLATFORM#)*Gecko*Firefox\/* Opera?#MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
           "platforms": [
             "Win2000", "Win2000_2", "WinME", "WinME_2", "Win95_2", "Win98_2", "NT4",
@@ -36,7 +36,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko* Firefox\/* Opera?#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko*Firefox\/* Opera?#MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
           "platforms": [
             "Win2000", "Win2000_2", "WinME", "WinME_2", "Win95_2", "Win98_2", "NT4",
@@ -44,7 +44,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko* Firefox\/* Opera?#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko*Firefox\/* Opera?#MAJORVER#.#MINORVER#*",
           "device": "Linux Desktop",
           "platforms": [
             "Linux_64", "Linux_32", "Linux"

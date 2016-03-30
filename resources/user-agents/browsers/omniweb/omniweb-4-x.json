@@ -7,8 +7,7 @@
   "userAgents": [
     {
       "userAgent": "OmniWeb #MAJORVER#.#MINORVER#",
-      "platform": "OSX",
-      "engine": "WebKit",
+      "platform": "MacPPC_2",
       "device": "Macintosh",
       "properties": {
         "Parent": "DefaultProperties",
