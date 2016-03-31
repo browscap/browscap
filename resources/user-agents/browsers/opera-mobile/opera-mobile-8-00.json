@@ -1,6 +1,6 @@
 {
   "division": "Opera Mobile #MAJORVER#.#MINORVER#",
-  "versions": ["8.00", "8.0"],
+  "versions": ["8.01", "8.00", "8.0"],
   "sortIndex": 1044,
   "lite": false,
   "standard": false,
