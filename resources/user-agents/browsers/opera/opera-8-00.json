@@ -160,7 +160,7 @@
           "device": "Macintosh",
           "platforms": [
             "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
-            "OSX", "MacPPC_2"
+            "OSX", "MacPPC_2", "MacPPC_3"
           ]
         },
         {
