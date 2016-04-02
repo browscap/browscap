@@ -1,0 +1,43 @@
+{
+  "division": "TinEye Bot",
+  "sortIndex": 400,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "TinEye Bot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "TinEye Bot",
+        "Browser": "TinEye Bot",
+        "Browser_Maker": "Idee Inc.",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "TinEye-bot\/0.02*",
+          "properties": {
+            "Version": "0.02",
+            "MajorVer": "0",
+            "MinorVer": "02"
+          }
+        },
+        {
+          "match": "TinEye-bot\/*"
+        },
+        {
+          "match": "TinEye\/1.1*",
+          "properties": {
+            "Version": "1.1",
+            "MajorVer": "1",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "TinEye*"
+        }
+      ]
+    }
+  ]
+}

@@ -1117,7 +1117,7 @@ return [
     'issue-497-V' => [
         'ua' => 'TinEye-bot/0.02 (see http://www.tineye.com/crawler.html)',
         'properties' => [
-            'Comment' => 'Image Crawlers',
+            'Comment' => 'TinEye Bot',
             'Browser' => 'TinEye Bot',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',

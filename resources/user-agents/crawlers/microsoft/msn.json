@@ -122,11 +122,29 @@
           }
         },
         {
-          "match": "msnbot\/1.0*",
+          "match": "msnbot\/2.1*",
           "properties": {
             "Browser": "msnbot",
-            "Version": "1.0",
-            "MajorVer": "1",
+            "Version": "2.1",
+            "MajorVer": "2",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "msnbot\/2.0b*",
+          "properties": {
+            "Browser": "msnbot",
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0",
+            "Beta": "true"
+          }
+        },
+        {
+          "match": "msnbot\/2.0*",
+          "properties": {
+            "Version": "2.0",
+            "MajorVer": "2",
             "MinorVer": "0"
           }
         },
@@ -140,14 +158,43 @@
           }
         },
         {
-          "match": "msnbot\/2.0b*",
+          "match": "msnbot\/1.0*",
           "properties": {
             "Browser": "msnbot",
-            "Version": "2.0",
-            "MajorVer": "2",
-            "MinorVer": "0",
-            "Beta": "true"
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
           }
+        },
+        {
+          "match": "msnbot\/0.11*",
+          "properties": {
+            "Browser": "msnbot",
+            "Version": "0.11",
+            "MajorVer": "0",
+            "MinorVer": "11"
+          }
+        },
+        {
+          "match": "msnbot\/0.9*",
+          "properties": {
+            "Browser": "msnbot",
+            "Version": "0.9",
+            "MajorVer": "0",
+            "MinorVer": "9"
+          }
+        },
+        {
+          "match": "msnbot\/0.1*",
+          "properties": {
+            "Browser": "msnbot",
+            "Version": "0.1",
+            "MajorVer": "0",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "msnbot\/*"
         },
         {
           "match": "MSR-ISRCCrawler",
@@ -181,16 +228,6 @@
         },
         {
           "match": "msnbot-UDiscovery\/*"
-        },
-        {
-          "match": "msnbot\/*"
-        },
-        {
-          "match": "msnbot\/2.0*",
-          "properties": {
-            "Version": "2.0",
-            "MajorVer": "2"
-          }
         },
         {
           "match": "MSNBot-News\/*",

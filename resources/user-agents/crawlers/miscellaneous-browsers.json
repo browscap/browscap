@@ -141,12 +141,6 @@
           }
         },
         {
-          "match": "SlimBrowser",
-          "properties": {
-            "Browser": "SlimBrowser"
-          }
-        },
-        {
           "match": "WWW_Browser\/*",
           "properties": {
             "Browser": "WWW Browser",

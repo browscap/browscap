@@ -1,0 +1,65 @@
+{
+  "division": "GurujiBot",
+  "sortIndex": 250,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "GurujiBot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "GurujiBot",
+        "Browser": "GurujiBot",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "GurujiBot\/1.0*",
+          "properties": {
+            "Browser": "GurujiBot",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "GurujiBot\/*",
+          "properties": {
+            "Browser": "GurujiBot"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 GurujiBot\/1.0*",
+          "properties": {
+            "Browser": "GurujiBot",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 GurujiBot\/*",
+          "properties": {
+            "Browser": "GurujiBot"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; GurujiBot\/1.0*",
+          "properties": {
+            "Browser": "GurujiBot",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; GurujiBot\/*",
+          "properties": {
+            "Browser": "GurujiBot"
+          }
+        }
+      ]
+    }
+  ]
+}

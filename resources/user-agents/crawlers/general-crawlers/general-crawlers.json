@@ -153,12 +153,6 @@
           }
         },
         {
-          "match": "htdig\/*",
-          "properties": {
-            "Browser": "ht:\/\/Dig"
-          }
-        },
-        {
           "match": "http:\/\/hilfe.acont.de\/bot.html ACONTBOT",
           "properties": {
             "Browser": "ACONTBOT"

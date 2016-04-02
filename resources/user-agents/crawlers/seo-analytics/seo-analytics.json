@@ -42,23 +42,6 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; Scrubby\/3.2*",
-          "properties": {
-            "Browser": "Scrubby",
-            "Browser_Maker": "ScrubTheWeb",
-            "Version": "3.2",
-            "MajorVer": "3",
-            "MinorVer": "2"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (compatible; Scrubby\/*",
-          "properties": {
-            "Browser": "Scrubby",
-            "Browser_Maker": "ScrubTheWeb"
-          }
-        },
-        {
           "match": "Mozilla\/5.0 (compatible; SiteExplorer\/1.0b;*",
           "properties": {
             "Browser": "SiteExplorer",

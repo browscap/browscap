@@ -1,0 +1,31 @@
+{
+  "division": "ht:\/\/Dig",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "ht:\/\/Dig",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "ht:\/\/Dig",
+        "Browser": "ht:\/\/Dig",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "htdig\/3.1*",
+          "properties": {
+            "Version": "3.1",
+            "MajorVer": "3",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "htdig\/*"
+        }
+      ]
+    }
+  ]
+}

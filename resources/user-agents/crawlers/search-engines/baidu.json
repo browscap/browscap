@@ -19,27 +19,23 @@
       },
       "children": [
         {
+          "match": "Mozilla\/5.0 (compatible;*Baiduspider\/2.0*",
+          "properties": {
+            "Browser": "Baiduspider",
+            "Version": "2.0",
+            "MajorVer": "2"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible;*Baiduspider\/*",
+          "properties": {
+            "Browser": "Baiduspider"
+          }
+        },
+        {
           "match": "Baiduspider-image*",
           "properties": {
             "Browser": "Baidu Image Search"
-          }
-        },
-        {
-          "match": "Baiduspider*",
-          "properties": {
-            "Browser": "BaiDu"
-          }
-        },
-        {
-          "match": "baidu bot*",
-          "properties": {
-            "Browser": "BaiDu"
-          }
-        },
-        {
-          "match": "*Baiduspider*",
-          "properties": {
-            "Browser": "BaiDu"
           }
         },
         {
@@ -79,6 +75,21 @@
           }
         },
         {
+          "match": "Baiduspider*",
+          "properties": {
+            "Browser": "Baiduspider"
+          }
+        },
+        {
+          "match": "*Baiduspider*",
+          "properties": {
+            "Browser": "Baiduspider"
+          }
+        },
+        {
+          "match": "baidu bot*"
+        },
+        {
           "match": "AC-BaiduBot\/*",
           "properties": {
             "Browser": "AC-BaiduBot"
@@ -87,15 +98,7 @@
         {
           "match": "BaiduImageSpider*",
           "properties": {
-            "Browser": "BaiduImageSpider"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (compatible;*Baiduspider\/2.0;*+http:\/\/www.baidu.com\/search\/spider.html)",
-          "properties": {
-            "Browser": "Baiduspider",
-            "Version": "2.0",
-            "MajorVer": "2"
+            "Browser": "Baidu Image Search"
           }
         }
       ]

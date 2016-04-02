@@ -47,37 +47,19 @@
         {
           "match": "Sogou Pic Agent",
           "properties": {
-            "Browser": "Sogou\/Image Crawler"
+            "Browser": "Sogou Image Crawler"
           }
         },
         {
-          "match": "Sogou Pic Spider\/*",
+          "match": "Sogou Pic Spider*",
           "properties": {
-            "Browser": "Sogou Pic Spider"
-          }
-        },
-        {
-          "match": "Sogou Push Spider\/*",
-          "properties": {
-            "Browser": "Sogou Push Spider"
-          }
-        },
-        {
-          "match": "sogou spider",
-          "properties": {
-            "Browser": "Sogou\/Spider"
+            "Browser": "Sogou Image Crawler"
           }
         },
         {
           "match": "Sogou-Test-Spider\/*",
           "properties": {
             "Browser": "Sogou-Test-Spider"
-          }
-        },
-        {
-          "match": "Sogou Pic Spider*",
-          "properties": {
-            "Browser": "Sogou Pic Spider"
           }
         },
         {
@@ -89,7 +71,7 @@
         {
           "match": "sogou spider*",
           "properties": {
-            "Browser": "Sogou\/Spider"
+            "Browser": "Sogou Spider"
           }
         },
         {
