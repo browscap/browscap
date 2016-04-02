@@ -66,31 +66,6 @@
           }
         },
         {
-          "match": "IRLbot\/1.0 (*http:\/\/irl.cs.tamu.edu\/crawler*)",
-          "properties": {
-            "Browser": "IRLbot",
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
-          }
-        },
-        {
-          "match": "IRLbot\/2.0 (*http:\/\/irl.cs.tamu.edu\/crawler*)",
-          "properties": {
-            "Version": "2.0",
-            "MajorVer": "2",
-            "MinorVer": "0"
-          }
-        },
-        {
-          "match": "IRLbot\/3.0 (*http:\/\/irl.cs.tamu.edu\/crawler*)",
-          "properties": {
-            "Version": "3.0",
-            "MajorVer": "3",
-            "MinorVer": "0"
-          }
-        },
-        {
           "match": "JUST-CRAWLER(*)",
           "properties": {
             "Browser": "JUST-CRAWLER"
@@ -213,9 +188,6 @@
         },
         {
           "match": "Amico Alpha * (*Gecko* AmicoAlpha\/*"
-        },
-        {
-          "match": "IRLbot\/*"
         },
         {
           "match": "Cloud mapping experiment. Contact research@pdrlabs.net",

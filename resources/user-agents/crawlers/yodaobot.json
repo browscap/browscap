@@ -17,19 +17,37 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (compatible; YodaoBot\/1.*)"
+          "match": "Mozilla\/5.0 (compatible; YodaoBot\/1.*)",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
         },
         {
           "match": "Mozilla\/5.0 (compatible;YodaoBot-Image\/1.*)",
           "properties": {
-            "Browser": "YodaoBot-Image"
+            "Browser": "YodaoBot-Image",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
           }
         },
         {
-          "match": "WAP_Browser\/5.0 (compatible; YodaoBot\/1.*)"
+          "match": "WAP_Browser\/5.0 (compatible; YodaoBot\/1.*)",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
         },
         {
-          "match": "YodaoBot\/1.* (*)"
+          "match": "YodaoBot\/1.* (*)",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
         },
         {
           "match": "Best Whois (http:\/\/www.bestwhois.net\/)",

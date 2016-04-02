@@ -22,7 +22,25 @@
           }
         },
         {
-          "match": "Bloglines\/* (http:\/\/www.bloglines.com*)",
+          "match": "Bloglines\/3.1*",
+          "properties": {
+            "Browser": "BlogLines Web",
+            "Version": "3.1",
+            "MajorVer": "3",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "Bloglines\/3.0*",
+          "properties": {
+            "Browser": "BlogLines Web",
+            "Version": "3.0",
+            "MajorVer": "3",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Bloglines\/*",
           "properties": {
             "Browser": "BlogLines Web"
           }

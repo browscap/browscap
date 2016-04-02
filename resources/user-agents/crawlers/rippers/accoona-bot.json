@@ -1,0 +1,39 @@
+{
+  "division": "Accoona Bot",
+  "sortIndex": 480,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Accoona Bot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Accoona Bot",
+        "Browser": "Accoona Bot",
+        "Browser_Maker": "Accoona.com",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Accoona-AI-Agent\/1.1*",
+          "properties": {
+            "Browser": "Accoona-AI-Agent",
+            "Version": "1.1",
+            "MajorVer": "1",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "Accoona-AI-Agent\/*",
+          "properties": {
+            "Browser": "Accoona-AI-Agent"
+          }
+        },
+        {
+          "match": "accoona*"
+        }
+      ]
+    }
+  ]
+}

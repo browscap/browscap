@@ -211,6 +211,15 @@
           }
         },
         {
+          "match": "LinkWalker\/2.0*",
+          "properties": {
+            "Browser": "LinkWalker",
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0"
+          }
+        },
+        {
           "match": "LinkWalker*",
           "properties": {
             "Browser": "LinkWalker"
@@ -300,9 +309,10 @@
           }
         },
         {
-          "match": "online link validator (http:\/\/www.dead-links.com\/)",
+          "match": "online link validator*",
           "properties": {
-            "Browser": "Dead-Links.com"
+            "Browser": "online link validator",
+            "Browser_Maker": "Dead-Links.com"
           }
         },
         {

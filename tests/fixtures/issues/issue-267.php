@@ -852,7 +852,7 @@ return [
     'issue-267-Q' => [
         'ua' => 'Mozilla/5.0 (compatible; Scrubby/3.2; +http://seotools.scrubtheweb.com/webpage-analyzer.html)',
         'properties' => [
-            'Comment' => 'SEO & Analytics',
+            'Comment' => 'Scrubby',
             'Browser' => 'Scrubby',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',

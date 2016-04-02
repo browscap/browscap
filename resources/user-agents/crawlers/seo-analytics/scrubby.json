@@ -1,0 +1,81 @@
+{
+  "division": "Scrubby",
+  "sortIndex": 249,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Scrubby",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Scrubby",
+        "Browser": "Scrubby",
+        "Browser_Maker": "ScrubTheWeb",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (compatible; Scrubby\/3.2*",
+          "properties": {
+            "Browser": "Scrubby",
+            "Browser_Maker": "ScrubTheWeb",
+            "Version": "3.2",
+            "MajorVer": "3",
+            "MinorVer": "2"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Scrubby\/2.2*",
+          "properties": {
+            "Browser": "Scrubby",
+            "Browser_Maker": "ScrubTheWeb",
+            "Version": "2.2",
+            "MajorVer": "2",
+            "MinorVer": "2"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Scrubby\/2.1*",
+          "properties": {
+            "Browser": "Scrubby",
+            "Browser_Maker": "ScrubTheWeb",
+            "Version": "2.1",
+            "MajorVer": "2",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Scrubby\/*",
+          "properties": {
+            "Browser": "Scrubby",
+            "Browser_Maker": "ScrubTheWeb"
+          }
+        },
+        {
+          "match": "Scrubby\/2.2*",
+          "properties": {
+            "Browser": "Scrubby",
+            "Browser_Maker": "ScrubTheWeb",
+            "Version": "2.2",
+            "MajorVer": "2",
+            "MinorVer": "2"
+          }
+        },
+        {
+          "match": "Scrubby\/2.1*",
+          "properties": {
+            "Browser": "Scrubby",
+            "Browser_Maker": "ScrubTheWeb",
+            "Version": "2.1",
+            "MajorVer": "2",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "Scrubby\/*"
+        }
+      ]
+    }
+  ]
+}

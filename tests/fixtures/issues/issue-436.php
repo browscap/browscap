@@ -905,7 +905,7 @@ return [
     'issue-436-R' => [
         'ua' => 'Mozilla/4.0 (compatible;  Vagabondo/4.0/EU; http://www.wise-guys.nl/)',
         'properties' => [
-            'Comment' => 'Search Engines',
+            'Comment' => 'Vagabondo',
             'Browser' => 'Vagabondo',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',

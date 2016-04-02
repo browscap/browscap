@@ -10,11 +10,36 @@
         "Parent": "DefaultProperties",
         "Comment": "Become",
         "Browser": "Become",
+        "Browser_Maker": "Become, Inc.",
         "Browser_Type": "Bot/Crawler",
         "isSyndicationReader": "true",
         "Crawler": "true"
       },
       "children": [
+        {
+          "match": "Mozilla\/5.0 (compatible; BecomeBot\/3.0*",
+          "properties": {
+            "Browser": "BecomeBot",
+            "Version": "3.0",
+            "MajorVer": "3",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; BecomeBot\/2.3*",
+          "properties": {
+            "Browser": "BecomeBot",
+            "Version": "2.3",
+            "MajorVer": "2",
+            "MinorVer": "3"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; BecomeBot\/*",
+          "properties": {
+            "Browser": "BecomeBot"
+          }
+        },
         {
           "match": "*BecomeBot\/*",
           "properties": {
@@ -22,7 +47,7 @@
           }
         },
         {
-          "match": "*BecomeBot@exava.com*",
+          "match": "*BecomeBot*",
           "properties": {
             "Browser": "BecomeBot"
           }
