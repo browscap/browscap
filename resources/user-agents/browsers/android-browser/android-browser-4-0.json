@@ -91,7 +91,7 @@
           ]
         },
         {
-          "match": "*Mozilla\/5.0 (#PLATFORM#INM8002KP Build\/*) AppleWebKit\/*KHTML* like Gecko) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "*Mozilla\/5.0 (#PLATFORM#INM8002KP Build\/*) AppleWebKit\/*KHTML, like Gecko) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "device": "Intenso INM8002KP",
           "platforms": [
             "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
@@ -101,7 +101,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM# Android\/* Release\/* Browser\/AppleWebKit* Build\/*) AppleWebKit* (KHTML* like Gecko) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM# Android\/* Release\/* Browser\/AppleWebKit* Build\/*) AppleWebKit* (KHTML, like Gecko) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "platforms": [
             "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
             "Android_2_0", "Android_2_1", "Android_2_2", "Android_2_3", "Android_B_2_3",
@@ -110,21 +110,21 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#sprd-B51+* Android\/* Release\/* Browser\/AppleWebKit* Build\/*) AppleWebKit* (KHTML* like Gecko) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#sprd-B51+* Android\/* Release\/* Browser\/AppleWebKit* Build\/*) AppleWebKit* (KHTML, like Gecko) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "device": "sprd B51+",
           "platforms": [
             "Android_2_3"
           ]
         },
         {
-          "match": "Mastone_G9_TD\/* Release\/* Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/*(*KHTML* like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "Mastone_G9_TD\/* Release\/* Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
           "device": "Mastone G9",
           "platforms": [
             "Android_2_3"
           ]
         },
         {
-          "match": "MT6515M#PLATFORM# Release* Browser?AppleWebkit* (KHTML* like Gecko) Mozilla\/5.0 Mobile",
+          "match": "MT6515M#PLATFORM# Release* Browser?AppleWebkit* (KHTML, like Gecko) Mozilla\/5.0 Mobile",
           "device": "United MT6515M",
           "platforms": [
             "Android_2_3"
@@ -1571,14 +1571,14 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (*GT-I9100#PLATFORM#)*AppleWebKit\/*(*KHTML* like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "Mozilla\/5.0 (*GT-I9100#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
           "device": "GT-I9100",
           "platforms": [
             "Android_B_2_3"
           ]
         },
         {
-          "match": "*Mozilla\/5.0 (*GT-I9100#PLATFORM#) AppleWebKit\/*KHTML* like Gecko) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "*Mozilla\/5.0 (*GT-I9100#PLATFORM#) AppleWebKit\/*KHTML, like Gecko) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "device": "GT-I9100",
           "platforms": [
             "Android_B_2_3"
@@ -2005,7 +2005,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#HTC_DesireS_S510e Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#HTC_DesireS_S510e Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Mobile*",
           "device": "HTC S510e",
           "platforms": [
             "Android_2_3"
@@ -4292,7 +4292,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#sprd-B51+* Android\/* Release\/* Browser\/AppleWebKit* Build\/*) AppleWebKit* (KHTML* like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#sprd-B51+* Android\/* Release\/* Browser\/AppleWebKit* Build\/*) AppleWebKit* (KHTML, like Gecko)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "sprd B51+",
           "platforms": [
             "Android_2_3"
@@ -4444,21 +4444,21 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#NookColor*)*AppleWebKit\/*(*KHTML* like Gecko*)*Version\/4.*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#NookColor*)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/4.*Safari\/*",
           "device": "Barnes & Noble Nook Color",
           "platforms": [
             "Android_2_2", "Android_2_3", "Android"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#NOOK BNRV200*)*Apple*WebKit\/*(*KHTML* like Gecko*)*Version\/4.*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#NOOK BNRV200*)*Apple*WebKit\/*(*KHTML, like Gecko*)*Version\/4.*Safari\/*",
           "device": "Barnes & Noble BNRV200",
           "platforms": [
             "Android_2_2"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#NOOK*)*AppleWebKit\/*(*KHTML* like Gecko*)*Version\/4.*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#NOOK*)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/4.*Safari\/*",
           "device": "Barnes & Noble Nook",
           "platforms": [
             "Android_2_2", "Android_2_3", "Android"
@@ -6089,7 +6089,7 @@
           ]
         },
         {
-          "match": "*Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/*KHTML* like Gecko) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "*Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/*KHTML, like Gecko) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "platforms": [
             "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
             "Android_2_0", "Android_2_1", "Android_2_2", "Android_2_3", "Android_B_2_3",
@@ -6175,7 +6175,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (*Linux*Velocitymicro\/T408*) AppleWebKit\/*(KHTML* like Gecko) *Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla\/5.0 (*Linux*Velocitymicro\/T408*) AppleWebKit\/*(KHTML, like Gecko) *Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "device": "Velocity Micro T408",
           "properties": {
             "Browser_Modus": "Desktop Mode"
@@ -6185,7 +6185,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (*Linux*) AppleWebKit\/*(KHTML* like Gecko) *Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla\/5.0 (*Linux*) AppleWebKit\/*(KHTML, like Gecko) *Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "properties": {
             "Browser_Modus": "Desktop Mode"
           },

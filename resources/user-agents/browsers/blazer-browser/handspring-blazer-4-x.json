@@ -1,0 +1,34 @@
+{
+  "division": "Handspring Blazer #MAJORVER#.#MINORVER#",
+  "versions": ["4.5", "4.4", "4.3", "4.2", "4.1", 4],
+  "sortIndex": 2511,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Blazer #MAJORVER#.#MINORVER#",
+      "platform": "PalmOS",
+      "device": "general Mobile Device",
+      "engine": "NetFront",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Blazer",
+        "Browser": "Blazer",
+        "Browser_Maker": "Palm",
+        "Browser_Type": "Browser",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/4.0 (compatible; MSIE ?.0; *Windows 98*PalmSource*; Blazer?#MAJORVER#.#MINORVER#*"
+        }
+      ]
+    }
+  ]
+}

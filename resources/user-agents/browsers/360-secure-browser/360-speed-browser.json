@@ -67,7 +67,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Chrome\/*Safari\/* QIHU 360EE",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Chrome\/*Safari\/* QIHU 360EE",
           "device": "Windows Desktop",
           "engine": "WebKit",
           "platforms": [

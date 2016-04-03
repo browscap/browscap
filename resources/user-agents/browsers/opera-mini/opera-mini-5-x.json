@@ -73,6 +73,29 @@
           ]
         },
         {
+          "match": "Opera\/9.80 (*Windows NT*; Opera/9.80 (J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*Version\/*",
+          "properties": {
+            "isModified": "true"
+          },
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "Opera\/9.80 (J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*HTC Legend*",
+          "device": "HTC Legend",
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "Opera\/9.80 (J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*HTC_DesireHD_A9191*",
+          "device": "HTC Desire HD A9191",
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
           "match": "Opera\/9.80 (J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "JAVA"

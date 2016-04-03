@@ -27,7 +27,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Coolpad 8675* Build\/*) AppleWebKit\/* (KHTML* like Gecko) Version\/* Chrome\/* Safari\/* baiduboxapp\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (#PLATFORM#Coolpad 8675* Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Chrome\/* Safari\/* baiduboxapp\/#MAJORVER#.#MINORVER#*",
           "engine": "Blink",
           "device": "Coolpad 8675",
           "platforms": [
@@ -35,14 +35,14 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Version\/* Chrome\/* Safari\/* baiduboxapp\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/* Chrome\/* Safari\/* baiduboxapp\/#MAJORVER#.#MINORVER#*",
           "engine": "Blink",
           "platforms": [
             "Android_4_4"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#HUAWEI MT7-TL10 Build\/*) AppleWebKit\/* (KHTML* like Gecko) Version\/* Safari\/* T5\/* baiduboxapp\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (#PLATFORM#HUAWEI MT7-TL10 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* T5\/* baiduboxapp\/#MAJORVER#.#MINORVER#*",
           "device": "Huawei MT7-TL10",
           "engine": "T5",
           "platforms": [
@@ -50,7 +50,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Coolpad 8675* Build\/*) AppleWebKit\/* (KHTML* like Gecko) Version\/* Safari\/* T5\/* baiduboxapp\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (#PLATFORM#Coolpad 8675* Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* T5\/* baiduboxapp\/#MAJORVER#.#MINORVER#*",
           "engine": "T5",
           "device": "Coolpad 8675",
           "platforms": [
@@ -58,7 +58,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Version\/* Safari\/* T5\/* baiduboxapp\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* T5\/* baiduboxapp\/#MAJORVER#.#MINORVER#*",
           "engine": "T5",
           "platforms": [
             "Android_4_4"

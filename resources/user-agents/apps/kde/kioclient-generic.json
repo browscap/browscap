@@ -29,7 +29,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) kioclient\/* Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) kioclient\/* Safari\/*",
           "device": "Linux Desktop",
           "platforms": [
             "ChromeOS", "CentOS", "Linux_64", "Linux_32", "Linux"

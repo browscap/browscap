@@ -35,19 +35,19 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (*Linux x86_64#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Chrome\/* Maxthon\/#MAJORVER#.#MINORVER#* Safari\/*",
+          "match": "Mozilla\/5.0 (*Linux x86_64#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Chrome\/* Maxthon\/#MAJORVER#.#MINORVER#* Safari\/*",
           "platforms": [
             "Ubuntu_14_04_64"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (*Linux i686#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Chrome\/* Maxthon\/#MAJORVER#.#MINORVER#* Safari\/*",
+          "match": "Mozilla\/5.0 (*Linux i686#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Chrome\/* Maxthon\/#MAJORVER#.#MINORVER#* Safari\/*",
           "platforms": [
             "Ubuntu_14_04_64"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Chrome\/* Maxthon\/#MAJORVER#.#MINORVER#* Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Chrome\/* Maxthon\/#MAJORVER#.#MINORVER#* Safari\/*",
           "platforms": [
             "Linux_64", "Linux_32", "Linux"
           ]

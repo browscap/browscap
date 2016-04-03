@@ -34,7 +34,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0*(iPad#PLATFORM#) AppleWebKit* (KHTML* like Gecko)",
+          "match": "Mozilla\/5.0*(iPad#PLATFORM#) AppleWebKit* (KHTML, like Gecko)",
           "device": "iPad",
           "platforms": [
             "iOS_A_dynamic",
@@ -42,7 +42,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0*(iPhone#PLATFORM#) AppleWebKit* (KHTML* like Gecko)",
+          "match": "Mozilla\/5.0*(iPhone#PLATFORM#) AppleWebKit* (KHTML, like Gecko)",
           "device": "iPhone",
           "platforms": [
             "iOS_A_dynamic",
@@ -50,7 +50,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0*(iPod#PLATFORM#) AppleWebKit* (KHTML* like Gecko)",
+          "match": "Mozilla\/5.0*(iPod#PLATFORM#) AppleWebKit* (KHTML, like Gecko)",
           "device": "iPod Touch",
           "platforms": [
             "iOS_A_dynamic",
@@ -58,7 +58,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0*(#PLATFORM#) AppleWebKit* (KHTML* like Gecko)",
+          "match": "Mozilla\/5.0*(#PLATFORM#) AppleWebKit* (KHTML, like Gecko)",
           "platforms": [
             "iOS_A_dynamic",
             "iOS_C_dynamic"
