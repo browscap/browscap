@@ -25,7 +25,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0*(iPhone#PLATFORM#)*AppleWebKit\/*(*KHTML* like Gecko*)*Version\/*Safari\/* (compatible; Googlebot-Mobile\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0*(iPhone#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/*Safari\/* (compatible; Googlebot-Mobile\/#MAJORVER#.#MINORVER#*",
           "device": "iPhone",
           "engine": "WebKit",
           "platforms": [
@@ -33,7 +33,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0*(#PLATFORM#)*AppleWebKit\/*(*KHTML* like Gecko*)*Version\/*Safari\/* (compatible; Googlebot-Mobile\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0*(#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/*Safari\/* (compatible; Googlebot-Mobile\/#MAJORVER#.#MINORVER#*",
           "device": "general Mobile Device (Apple)",
           "engine": "WebKit",
           "platforms": [

@@ -116,7 +116,7 @@
           "device": "Amazon Kindle"
         },
         {
-          "match": "SonyEricsson*\/* Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) *Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "SonyEricsson*\/* Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) *Version\/#MAJORVER#.#MINORVER#*Safari\/*",
           "device": "general Mobile Phone",
           "platforms": [
             "SymbianOS"

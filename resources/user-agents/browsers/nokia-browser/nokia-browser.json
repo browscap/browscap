@@ -292,7 +292,7 @@
           "device": "Nokia 7210"
         },
         {
-          "match": "Nokia7230\/* Profile\/MIDP-2* Mozilla\/5.0 AppleWebKit\/* (KHTML* like Gecko) Safari\/*",
+          "match": "Nokia7230\/* Profile\/MIDP-2* Mozilla\/5.0 AppleWebKit\/* (KHTML, like Gecko) Safari\/*",
           "engine": "WebKit",
           "device": "Nokia 7230",
           "platforms": [

@@ -387,12 +387,6 @@
           }
         },
         {
-          "match": "Xenu* Link Sleuth*",
-          "properties": {
-            "Browser": "Xenus Link Sleuth"
-          }
-        },
-        {
           "match": "Z-Add Link Checker*",
           "properties": {
             "Browser": "Z-Add Link Checker"

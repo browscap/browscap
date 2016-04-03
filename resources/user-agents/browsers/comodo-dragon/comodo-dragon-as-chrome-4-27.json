@@ -28,14 +28,14 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (*linux*x86_64*) AppleWebKit\/* (KHTML* like Gecko) #PLATFORM# Chrome\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla\/5.0 (*linux*x86_64*) AppleWebKit\/* (KHTML, like Gecko) #PLATFORM# Chrome\/#MAJORVER#.#MINORVER#*Safari\/*",
           "device": "Linux Desktop",
           "platforms": [
             "Ubuntu_10_10_64"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (*linux*) AppleWebKit\/* (KHTML* like Gecko) #PLATFORM# Chrome\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla\/5.0 (*linux*) AppleWebKit\/* (KHTML, like Gecko) #PLATFORM# Chrome\/#MAJORVER#.#MINORVER#*Safari\/*",
           "device": "Linux Desktop",
           "platforms": [
             "Ubuntu_10_10"

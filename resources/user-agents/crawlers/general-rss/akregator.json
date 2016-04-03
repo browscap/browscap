@@ -24,7 +24,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (X11;) AppleWebKit\/* (KHTML* like Gecko) akregator\/#MAJORVER#.#MINORVER#* Safari\/*"
+          "match": "Mozilla\/5.0 (X11;) AppleWebKit\/* (KHTML, like Gecko) akregator\/#MAJORVER#.#MINORVER#* Safari\/*"
         }
       ]
     }

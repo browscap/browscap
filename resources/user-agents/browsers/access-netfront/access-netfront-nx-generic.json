@@ -28,7 +28,7 @@
           "device": "Nintendo 3DS"
         },
         {
-          "match": "Mozilla\/* (Nintendo WiiU) AppleWebKit\/* (KHTML* like Gecko) *",
+          "match": "Mozilla\/* (Nintendo WiiU) AppleWebKit\/* (KHTML, like Gecko) *",
           "device": "Nintendo WiiU"
         }
       ]

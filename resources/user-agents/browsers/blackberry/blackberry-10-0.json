@@ -32,7 +32,7 @@
           "device": "Blackberry Z10"
         },
         {
-          "match": "Mozilla\/5.0 (BB10; Touch) AppleWebKit\/* (KHTML* like Gecko)*",
+          "match": "Mozilla\/5.0 (BB10; Touch) AppleWebKit\/* (KHTML, like Gecko)*",
           "device": "Blackberry Z10"
         },
         {
@@ -40,11 +40,11 @@
           "device": "Blackberry KBD"
         },
         {
-          "match": "Mozilla\/5.0 (BB10; Kbd) AppleWebKit\/* (KHTML* like Gecko)*",
+          "match": "Mozilla\/5.0 (BB10; Kbd) AppleWebKit\/* (KHTML, like Gecko)*",
           "device": "Blackberry KBD"
         },
         {
-          "match": "Mozilla\/5.0 (BB10; *) AppleWebKit\/* (KHTML* like Gecko)*"
+          "match": "Mozilla\/5.0 (BB10; *) AppleWebKit\/* (KHTML, like Gecko)*"
         }
       ]
     }

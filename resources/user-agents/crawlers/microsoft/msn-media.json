@@ -38,7 +38,7 @@
           "match": "msnbot-media\/*"
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) MsnBot-Media \/1.0b*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) MsnBot-Media \/1.0b*",
           "engine": "WebKit",
           "device": "Windows Desktop",
           "properties": {

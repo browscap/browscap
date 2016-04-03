@@ -18,14 +18,14 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (iPad#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Mobile ?TWCAN\/SportsNetForiOS*",
+          "match": "Mozilla\/5.0 (iPad#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Mobile ?TWCAN\/SportsNetForiOS*",
           "device": "iPad",
           "platforms": [
             "iOS_C_8_1", "iOS_C_8_0", "iOS_C"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Mobile ?TWCAN\/SportsNetForiOS*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Mobile ?TWCAN\/SportsNetForiOS*",
           "platforms": [
             "iOS_C_8_1", "iOS_C_8_0", "iOS_C"
           ]

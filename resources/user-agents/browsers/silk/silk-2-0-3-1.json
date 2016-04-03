@@ -27,7 +27,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (Linux; U; *; KFOT Build\/*) AppleWebKit\/* (KHTML* like Gecko) Silk\/#MAJORVER#.#MINORVER#* Safari*",
+          "match": "Mozilla\/5.0 (Linux; U; *; KFOT Build\/*) AppleWebKit\/* (KHTML, like Gecko) Silk\/#MAJORVER#.#MINORVER#* Safari*",
           "properties": {
             "Browser_Modus": "Desktop Mode"
           },
@@ -37,7 +37,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (Linux; U; *; KFTT Build\/*) AppleWebKit\/* (KHTML* like Gecko) Silk\/#MAJORVER#.#MINORVER#* Safari*",
+          "match": "Mozilla\/5.0 (Linux; U; *; KFTT Build\/*) AppleWebKit\/* (KHTML, like Gecko) Silk\/#MAJORVER#.#MINORVER#* Safari*",
           "properties": {
             "Browser_Modus": "Desktop Mode"
           },

@@ -28,28 +28,28 @@
       },
       "children": [
         {
-          "match": "MQQBrowser\/#MAJORVER#.#MINORVER#*Mozilla\/5.0 (#PLATFORM#GT-N7100 Build\/*) AppleWebKit\/* (KHTML* like Gecko) Version\/4.0 *Safari\/*",
+          "match": "MQQBrowser\/#MAJORVER#.#MINORVER#*Mozilla\/5.0 (#PLATFORM#GT-N7100 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/4.0 *Safari\/*",
           "device": "Samsung GT-N7100",
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1"
           ]
         },
         {
-          "match": "MQQBrowser\/#MAJORVER#.#MINORVER#*Mozilla\/5.0 (#PLATFORM#GT-I9100 Build\/*) AppleWebKit\/* (KHTML* like Gecko) Version\/4.0 *Safari\/*",
+          "match": "MQQBrowser\/#MAJORVER#.#MINORVER#*Mozilla\/5.0 (#PLATFORM#GT-I9100 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/4.0 *Safari\/*",
           "device": "GT-I9100",
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1"
           ]
         },
         {
-          "match": "MQQBrowser\/#MAJORVER#.#MINORVER#*Mozilla\/5.0 (#PLATFORM#A5000 Build\/*) AppleWebKit\/* (KHTML* like Gecko) Version\/4.0 *Safari\/*",
+          "match": "MQQBrowser\/#MAJORVER#.#MINORVER#*Mozilla\/5.0 (#PLATFORM#A5000 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/4.0 *Safari\/*",
           "device": "Sony A5000",
           "platforms": [
             "Android"
           ]
         },
         {
-          "match": "MQQBrowser\/#MAJORVER#.#MINORVER#*Mozilla\/5.0 (#PLATFORM#MI 4LTE Build\/*) AppleWebKit\/* (KHTML* like Gecko) Version\/4.0 Chrome\/*Safari\/*",
+          "match": "MQQBrowser\/#MAJORVER#.#MINORVER#*Mozilla\/5.0 (#PLATFORM#MI 4LTE Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/4.0 Chrome\/*Safari\/*",
           "device": "Xiaomi Mi 4 LTE",
           "engine": "Blink",
           "platforms": [
@@ -57,14 +57,14 @@
           ]
         },
         {
-          "match": "MQQBrowser\/#MAJORVER#.#MINORVER#*Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Version\/4.0 Chrome\/*Safari\/*",
+          "match": "MQQBrowser\/#MAJORVER#.#MINORVER#*Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/4.0 Chrome\/*Safari\/*",
           "engine": "Blink",
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android"
           ]
         },
         {
-          "match": "MQQBrowser\/#MAJORVER#.#MINORVER#*Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Version\/4.0 *Safari\/*",
+          "match": "MQQBrowser\/#MAJORVER#.#MINORVER#*Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/4.0 *Safari\/*",
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android"
           ]

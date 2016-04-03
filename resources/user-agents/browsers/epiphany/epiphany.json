@@ -25,14 +25,14 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (Macintosh; ARM Mac OS X) AppleWebKit\/* (KHTML* like Gecko) Safari\/* Version\/* Debian\/* (*rpi*rpi*) Epiphany\/*",
+          "match": "Mozilla\/5.0 (Macintosh; ARM Mac OS X) AppleWebKit\/* (KHTML, like Gecko) Safari\/* Version\/* Debian\/* (*rpi*rpi*) Epiphany\/*",
           "device": "Raspberry Pi",
           "platforms": [
             "Debian"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (Macintosh; ARM Mac OS X) AppleWebKit\/* (KHTML* like Gecko) Safari\/* Version\/* Raspbian\/* (*rpi*rpi*) Epiphany\/*",
+          "match": "Mozilla\/5.0 (Macintosh; ARM Mac OS X) AppleWebKit\/* (KHTML, like Gecko) Safari\/* Version\/* Raspbian\/* (*rpi*rpi*) Epiphany\/*",
           "device": "Raspberry Pi",
           "platforms": [
             "Debian"

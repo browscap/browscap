@@ -24,7 +24,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/530.17*(KHTML* like Gecko)*Version\/*Safari\/*Skyfire\/2.*",
+          "match": "Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/530.17*(KHTML, like Gecko)*Version\/*Safari\/*Skyfire\/2.*",
           "properties": {
             "Version": "2.0",
             "MajorVer": "2",

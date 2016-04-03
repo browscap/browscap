@@ -41,7 +41,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) SecondLife\/3.7* (Second Life *) Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) SecondLife\/3.7* (Second Life *) Safari\/*",
           "engine": "WebKit",
           "device": "Windows Desktop",
           "properties": {
@@ -55,7 +55,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) SecondLife\/* (Second Life *) Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) SecondLife\/* (Second Life *) Safari\/*",
           "engine": "WebKit",
           "device": "Windows Desktop",
           "properties": {
