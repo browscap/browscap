@@ -234,7 +234,7 @@
       "inherits": "Mac68K"
     },
     "iOS": {
-      "match": "*CPU iPhone OS * like Mac OS X*",
+      "match": "*CPU iPhone OS *",
       "lite": true,
       "standard": true,
       "properties": {
@@ -283,7 +283,7 @@
       }
     },
     "iOS_A_3_2": {
-      "match": "*CPU iPhone OS 3?2* like Mac OS X*",
+      "match": "*CPU iPhone OS 3?2 like Mac OS X**",
       "lite": false,
       "standard": false,
       "inherits": "iOS",
@@ -478,7 +478,7 @@
       "inherits": "iOS"
     },
     "iOS_C": {
-      "match": "*CPU*OS*like Mac OS X*",
+      "match": "*CPU*OS* like Mac OS X*",
       "lite": true,
       "standard": true,
       "inherits": "iOS"
@@ -1084,7 +1084,7 @@
       "inherits": "iOS"
     },
     "ATV_OSX": {
-      "match": "*CPU*OS*like Mac OS X*",
+      "match": "*CPU*OS* like Mac OS X*",
       "lite": false,
       "standard": true,
       "inherits": "iOS",

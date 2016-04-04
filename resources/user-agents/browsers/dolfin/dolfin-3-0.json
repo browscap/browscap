@@ -57,7 +57,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (SAMSUNG*SAMSUNG-GT-S#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Dolfin\/#MAJORVER#.*",
+          "match": "Mozilla\/5.0 (SAMSUNG*SAMSUNG-GT-S#PLATFORM#)*AppleWebKit\/*(*KHTML* like Gecko*)*Dolfin\/#MAJORVER#.*",
           "platforms": [
             "Bada_2_0"
           ]

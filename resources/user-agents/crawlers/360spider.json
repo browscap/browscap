@@ -53,7 +53,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Chrome\/* Safari\/*; 360Spider*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Chrome\/* Safari\/*; 360Spider*",
           "device": "Windows Desktop",
           "engine": "WebKit",
           "platforms": [

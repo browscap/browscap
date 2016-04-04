@@ -24,7 +24,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0*(iPad#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Safari\/*DiigoBrowser*",
+          "match": "Mozilla\/5.0*(iPad#PLATFORM#)*AppleWebKit\/*(*KHTML* like Gecko*)*Safari\/*DiigoBrowser*",
           "device": "iPad",
           "platforms": [
             "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0",
@@ -36,7 +36,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0*(iPhone#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Safari\/*DiigoBrowser*",
+          "match": "Mozilla\/5.0*(iPhone#PLATFORM#)*AppleWebKit\/*(*KHTML* like Gecko*)*Safari\/*DiigoBrowser*",
           "device": "iPhone",
           "platforms": [
             "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0",
@@ -48,7 +48,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0*(#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Safari\/*DiigoBrowser*",
+          "match": "Mozilla\/5.0*(#PLATFORM#)*AppleWebKit\/*(*KHTML* like Gecko*)*Safari\/*DiigoBrowser*",
           "platforms": [
             "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0",
             "iOS_A_8_1",
@@ -59,7 +59,7 @@
           ]
         },
         {
-          "match": "DiigoBrowser Mozilla\/5.0*(iPad#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/*Safari\/*",
+          "match": "DiigoBrowser Mozilla\/5.0*(iPad#PLATFORM#)*AppleWebKit\/*(*KHTML* like Gecko*)*Version\/*Safari\/*",
           "device": "iPad",
           "platforms": [
             "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0",
@@ -71,7 +71,7 @@
           ]
         },
         {
-          "match": "DiigoBrowser Mozilla\/5.0*(iPhone#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/*Safari\/*",
+          "match": "DiigoBrowser Mozilla\/5.0*(iPhone#PLATFORM#)*AppleWebKit\/*(*KHTML* like Gecko*)*Version\/*Safari\/*",
           "device": "iPhone",
           "platforms": [
             "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0",
@@ -83,7 +83,7 @@
           ]
         },
         {
-          "match": "DiigoBrowser Mozilla\/5.0*(#PLATFORM#)*AppleWebKit\/*(*KHTML, like Gecko*)*Version\/*Safari\/*",
+          "match": "DiigoBrowser Mozilla\/5.0*(#PLATFORM#)*AppleWebKit\/*(*KHTML* like Gecko*)*Version\/*Safari\/*",
           "platforms": [
             "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0",
             "iOS_A_8_1",

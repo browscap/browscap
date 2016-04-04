@@ -28,7 +28,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#gxt_dongle_3188 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Chrome\/*Safari\/* bdbrowserhd_i18n\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (#PLATFORM#gxt_dongle_3188 Build\/*) AppleWebKit\/* (KHTML* like Gecko) Version\/* Chrome\/*Safari\/* bdbrowserhd_i18n\/#MAJORVER#.#MINORVER#*",
           "engine": "Blink",
           "device": "Andoer CX919",
           "platforms": [
@@ -36,7 +36,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#MID Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* T5\/* bdbrowserhd_i18n\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (#PLATFORM#MID Build\/*) AppleWebKit\/* (KHTML* like Gecko) Version\/* Safari\/* T5\/* bdbrowserhd_i18n\/#MAJORVER#.#MINORVER#*",
           "engine": "T5",
           "device": "general Mobile Phone",
           "platforms": [
@@ -44,7 +44,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* T5\/* bdbrowserhd_i18n\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Version\/* Safari\/* T5\/* bdbrowserhd_i18n\/#MAJORVER#.#MINORVER#*",
           "engine": "T5",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3",
@@ -53,7 +53,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/* Chrome\/*Safari\/* bdbrowserhd_i18n\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Version\/* Chrome\/*Safari\/* bdbrowserhd_i18n\/#MAJORVER#.#MINORVER#*",
           "engine": "Blink",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3",
@@ -62,7 +62,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/* bdbrowserhd_i18n\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Version\/* Safari\/* bdbrowserhd_i18n\/#MAJORVER#.#MINORVER#*",
           "engine": "WebKit",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3",

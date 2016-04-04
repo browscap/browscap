@@ -65,7 +65,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Cheshire\/1.0*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Cheshire\/1.0*",
           "platforms": [
             "OSX"
           ],
@@ -76,7 +76,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Cheshire\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Cheshire\/*",
           "platforms": [
             "OSX"
           ]

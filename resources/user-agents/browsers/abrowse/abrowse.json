@@ -28,7 +28,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (compatible; U; ABrowse #MAJORVER#.#MINORVER##PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*",
+          "match": "Mozilla\/5.0 (compatible; U; ABrowse #MAJORVER#.#MINORVER##PLATFORM#) AppleWebKit\/* (KHTML* like Gecko)*",
           "platforms": [
             "Syllable"
           ]

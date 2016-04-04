@@ -22,7 +22,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (iPad#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Mobile\/* ?Pinterest\/iOS*",
+          "match": "Mozilla\/5.0 (iPad#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Mobile\/* ?Pinterest\/iOS*",
           "device": "iPad",
           "platforms": [
             "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1",
@@ -36,7 +36,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (iPhone#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Mobile\/* ?Pinterest\/iOS*",
+          "match": "Mozilla\/5.0 (iPhone#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Mobile\/* ?Pinterest\/iOS*",
           "device": "iPhone",
           "platforms": [
             "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1",
@@ -50,7 +50,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Mobile\/* ?Pinterest\/iOS*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Mobile\/* ?Pinterest\/iOS*",
           "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1",
@@ -72,7 +72,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#SM-N900A Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Chrome\/* Safari\/* ?Pinterest\/Android*",
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-N900A Build\/*) AppleWebKit\/* (KHTML* like Gecko) Version\/* Chrome\/* Safari\/* ?Pinterest\/Android*",
           "device": "Samsung SM-N900A",
           "engine": "Blink",
           "platforms": [
@@ -80,7 +80,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#D6503 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Chrome\/* Safari\/* ?Pinterest\/Android*",
+          "match": "Mozilla\/5.0 (#PLATFORM#D6503 Build\/*) AppleWebKit\/* (KHTML* like Gecko) Version\/* Chrome\/* Safari\/* ?Pinterest\/Android*",
           "device": "Sony D6503",
           "engine": "Blink",
           "platforms": [
@@ -96,7 +96,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM# Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Chrome\/* Safari\/* ?Pinterest\/Android*",
+          "match": "Mozilla\/5.0 (#PLATFORM# Build\/*) AppleWebKit\/* (KHTML* like Gecko) Version\/* Chrome\/* Safari\/* ?Pinterest\/Android*",
           "device": "general Mobile Phone (Touch)",
           "engine": "Blink",
           "platforms": [
