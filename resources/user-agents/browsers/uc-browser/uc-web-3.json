@@ -384,7 +384,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0*(iPad#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/*Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0*(iPad#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Version\/*Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
           "engine": "WebKit",
           "device": "iPad",
           "platforms": [
@@ -392,7 +392,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0*(#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/*Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0*(#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Version\/*Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
           "engine": "WebKit",
           "device": "general Mobile Device (Apple)",
           "platforms": [
@@ -423,7 +423,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Chrome\/* Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Chrome\/* Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
           "engine": "WebKit",
           "device": "Macintosh",
           "platforms": [

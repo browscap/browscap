@@ -2122,7 +2122,7 @@ return [
         'standard' => true,
     ],
     'issue-539-AZ' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_1 like MacOS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Version/7.0 Mobile/11D201 Safari/9537.53',
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_1 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Version/7.0 Mobile/11D201 Safari/9537.53',
         'properties' => [
             'Comment' => 'Mobile Safari 7.0',
             'Browser' => 'Safari',

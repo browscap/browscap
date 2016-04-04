@@ -1376,7 +1376,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
     ],
     'issue-900-AB' => [
@@ -50984,8 +50984,8 @@ return [
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
-        'standard' => true,
+        'lite' => false,
+        'standard' => false,
     ],
     'issue-900-ATS' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 5.0; Linux 2.4.20-4GB i686) Opera 6.12  [de]',
@@ -51885,8 +51885,8 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
-        'standard' => true,
+        'lite' => false,
+        'standard' => false,
     ],
     'issue-900-AUQ' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 5.0; Linux 2.4.20-4GB i686) Opera 6.03  [en]',
@@ -52839,8 +52839,8 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
-        'standard' => true,
+        'lite' => false,
+        'standard' => false,
     ],
     'issue-900-AVO' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 5.0; Windows 2000) Opera 6.0  [en]',
@@ -52892,8 +52892,8 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
-        'standard' => true,
+        'lite' => false,
+        'standard' => false,
     ],
     'issue-900-AVP' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 5.0; Windows 2000) Opera 6.0  [de]',
@@ -52945,8 +52945,8 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
-        'standard' => true,
+        'lite' => false,
+        'standard' => false,
     ],
     'issue-900-AVU' => [
         'ua' => 'Opera/5.12 (Windows NT 5.1; U)  [de]',
@@ -53104,7 +53104,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
     ],
     'issue-900-AWC' => [

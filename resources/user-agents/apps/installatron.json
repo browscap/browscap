@@ -30,7 +30,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 AppleWebKit\/* (KHTML, like Gecko) Version\/6.0* Safari\/* Installatron*",
+          "match": "Mozilla\/5.0 AppleWebKit\/* (KHTML* like Gecko) Version\/6.0* Safari\/* Installatron*",
           "properties": {
             "Version": "6.0",
             "MajorVer": "6",
