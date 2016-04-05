@@ -7,7 +7,7 @@
     {
       "userAgent": "MicroB",
       "platform": "Maemo",
-      "device": "general Mobile Phone",
+      "device": "general Mobile Phone (Touch)",
       "engine": "Gecko",
       "properties": {
         "Parent": "DefaultProperties",

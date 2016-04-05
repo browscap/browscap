@@ -2417,7 +2417,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#Nexus 6 Build\/*) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "device": "Motorola Nexus 6",
           "platforms": [
-            "Android_5_0", "Android_6_0"
+            "Android_5_0"
           ]
         },
         {
