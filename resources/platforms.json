@@ -2672,15 +2672,6 @@
         "Platform_Version": "6.0"
       }
     },
-    "Android_6_0_1": {
-      "match": "*Linux*Android?6.0.1*",
-      "lite": false,
-      "standard": true,
-      "inherits": "Android",
-      "properties": {
-        "Platform_Version": "6.0.1"
-      }
-    },
     "Android_B": {
       "match": "* Build\/*",
       "lite": false,
