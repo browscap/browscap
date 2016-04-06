@@ -1,0 +1,46 @@
+{
+  "division": "Android Browser #MAJORVER#.#MINORVER#",
+  "versions": ["5.1"],
+  "sortIndex": 1906,
+  "lite": true,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Android Browser #MAJORVER#.#MINORVER#",
+      "platform": "Android",
+      "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Android Browser #MAJORVER#.#MINORVER#",
+        "Browser": "Android",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Google Inc",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#Infinix X510 Build\/* AppleWebKit\/* (KHTML* like Gecko) Version\/#MAJORVER#.#MINORVER#* Mobile Safari*",
+          "device": "Infinix X510",
+          "platforms": [
+            "Android_5_1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM# Build\/* AppleWebKit\/* (KHTML* like Gecko) Version\/#MAJORVER#.#MINORVER#* Mobile Safari*",
+          "platforms": [
+            "Android_5_1", "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "division": "Classilla",
+  "sortIndex": 17582,
+  "lite": false,
+  "standard": false,
+  "userAgents": [
+    {
+      "userAgent": "Classilla",
+      "engine": "Gecko",
+      "device": "Macintosh",
+      "platform": "MacPPC",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Classilla",
+        "Browser": "Classilla",
+        "Browser_Maker": "Cameron Kaiser",
+        "Browser_Type": "Browser",
+        "Win32": "false",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "2"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko*Classilla*",
+          "platforms": [
+            "MacPPC"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Clecko*Classilla*",
+          "engine": "Clecko",
+          "platforms": [
+            "MacPPC"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -12,6 +12,7 @@
         "Parent": "DefaultProperties",
         "Comment": "ELinks #MAJORVER#.#MINORVER#",
         "Browser": "ELinks",
+        "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
@@ -37,7 +38,7 @@
           "match": "ELinks (#MAJORVER#.#MINORVER##PLATFORM#)",
           "device": "general Desktop",
           "platforms": [
-            "AIX", "BeOS", "Darwin", "Digital_Unix", "FreeBSD", "HPUX_2", "IRIX64_2",
+            "AIX", "BeOS", "Darwin", "Tru64_Unix", "FreeBSD", "HPUX_2", "IRIX64_2",
             "NetBSD", "OpenBSD", "OS2", "RISC_OS", "Solaris", "Unix_B", "SunOS"
           ]
         },
@@ -59,9 +60,12 @@
           "match": "ELinks\/#MAJORVER#.#MINORVER#* (#PLATFORM#)",
           "device": "general Desktop",
           "platforms": [
-            "AIX", "BeOS", "Darwin", "Digital_Unix", "FreeBSD", "HPUX_2", "IRIX64_2",
+            "AIX", "BeOS", "Darwin", "Tru64_Unix", "FreeBSD", "HPUX_2", "IRIX64_2",
             "NetBSD", "OpenBSD", "OS2", "RISC_OS", "Solaris", "Unix_B", "SunOS"
           ]
+        },
+        {
+          "match": "ELinks\/#MAJORVER#.#MINORVER#*"
         }
       ]
     }

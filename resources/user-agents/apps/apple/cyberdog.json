@@ -1,0 +1,55 @@
+{
+  "division": "Cyberdog",
+  "sortIndex": 1185,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Cyberdog",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Cyberdog",
+        "Browser": "Cyberdog",
+        "Browser_Type": "Application",
+        "Browser_Maker": "Apple Inc",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Frames": "false",
+        "IFrames": "false",
+        "Tables": "false",
+        "Cookies": "false",
+        "JavaScript": "false",
+        "Crawler": "false",
+        "isSyndicationReader": "false"
+      },
+      "children": [
+        {
+          "match": "Cyberdog\/2.0 (Macintosh; PPC)*",
+          "properties": {
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0"
+          },
+          "platforms": [
+            "MacPPC"
+          ]
+        },
+        {
+          "match": "Cyberdog\/2.0 (Macintosh; 68k)*",
+          "properties": {
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0"
+          },
+          "platforms": [
+            "Mac68K"
+          ]
+        }
+      ]
+    }
+  ]
+}

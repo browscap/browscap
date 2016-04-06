@@ -29,6 +29,36 @@
       },
       "children": [
         {
+          "match": "Mozilla\/4.0 (compatible; MSIE#PLATFORM#)*Opera?#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "WinCE"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; MSIE#PLATFORM#)*Opera?#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "WinCE"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; MSIE*Windows NT 5.1*)*Opera?#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "Browser_Modus": "Desktop Mode"
+          },
+          "platforms": [
+            "WinMobile"
+          ]
+        },
+        {
+          "match": "Mozilla\/4.0 (compatible; MSIE*Windows NT 5.1*)*Opera?#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "Browser_Modus": "Desktop Mode"
+          },
+          "platforms": [
+            "WinMobile"
+          ]
+        },
+        {
           "match": "MOT-MOTORAZRV9\/A0.03.* BER2.2 Mozilla\/4.0 (*compatible*;*MSIE 6.0; *) *  Opera #MAJORVER#.#MINORVER#*"
         },
         {

@@ -41,7 +41,7 @@
           "device": "Windows Desktop",
           "engine": "Goanna",
           "platforms": [
-            "WinXPa_32",
+            "WinXPa_32", "WinXPb_32",
             "Vista_x64", "Vista_64", "Vista_32",
             "Win7_x64", "Win7_64", "Win7_32",
             "Win8_x64", "Win8_64", "Win8_32",
@@ -63,7 +63,7 @@
           "device": "Windows Desktop",
           "engine": "Goanna",
           "platforms": [
-            "WinXPa_32",
+            "WinXPa_32", "WinXPb_32",
             "Vista_x64", "Vista_64", "Vista_32",
             "Win7_x64", "Win7_64", "Win7_32",
             "Win8_x64", "Win8_64", "Win8_32",
@@ -84,7 +84,7 @@
           "device": "Windows Desktop",
           "engine": "Gecko",
           "platforms": [
-            "WinXPa_32",
+            "WinXPa_32", "WinXPb_32",
             "Vista_x64", "Vista_64", "Vista_32",
             "Win7_x64", "Win7_64", "Win7_32",
             "Win8_x64", "Win8_64", "Win8_32",
@@ -106,7 +106,7 @@
           "device": "Windows Desktop",
           "engine": "Gecko",
           "platforms": [
-            "WinXPa_32",
+            "WinXPa_32", "WinXPb_32",
             "Vista_x64", "Vista_64", "Vista_32",
             "Win7_x64", "Win7_64", "Win7_32",
             "Win8_x64", "Win8_64", "Win8_32",

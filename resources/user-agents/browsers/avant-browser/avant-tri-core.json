@@ -23,7 +23,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Avant TriCore) AppleWebKit\/* (KHTML, like Gecko) Chrome\/* Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#Avant TriCore) AppleWebKit\/* (KHTML* like Gecko) Chrome\/* Safari\/*",
           "engine": "WebKit",
           "platforms": [
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
@@ -35,7 +35,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#rv:*; Avant TriCore) Gecko\/* Firefox\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#rv:*; Avant TriCore) Gecko* Firefox\/*",
           "engine": "Gecko",
           "platforms": [
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",

@@ -27,9 +27,29 @@
       },
       "children": [
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Firefox* Kazehakase\/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Linux_64", "Linux_32", "Linux"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Kazehakase\/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "Linux_64", "Linux_32", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Firefox* Kazehakase\/#MAJORVER#.#MINORVER#*",
+          "device": "general Desktop",
+          "platforms": [
+            "FreeBSD"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Kazehakase\/#MAJORVER#.#MINORVER#*",
+          "device": "general Desktop",
+          "platforms": [
+            "FreeBSD"
           ]
         }
       ]

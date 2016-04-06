@@ -27,7 +27,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#; Viera; *) AppleWebKit\/* (KHTML, like Gecko) Viera\/#MAJORVER#.#MINORVER#* Chrome\/*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#; Viera; *) AppleWebKit\/* (KHTML* like Gecko) Viera\/#MAJORVER#.#MINORVER#* Chrome\/*Safari\/*",
           "platforms": [
             "FreeBSD"
           ]

@@ -30,14 +30,14 @@
       },
       "children": [
         {
-          "match": "iPhone OS\/* (iPhone) Salesforce1\/* Mozilla\/5.0 (iPhone#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Mobile\/*",
+          "match": "iPhone OS\/* (iPhone) Salesforce1\/* Mozilla\/5.0 (iPhone#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Mobile\/*",
           "device": "iPhone",
           "platforms": [
             "iOS_A_8_0", "iOS_A_8_1", "iOS_A"
           ]
         },
         {
-          "match": "iPhone OS\/* Salesforce1\/* Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Mobile\/*",
+          "match": "iPhone OS\/* Salesforce1\/* Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Mobile\/*",
           "platforms": [
             "iOS_A_8_0", "iOS_A_8_1", "iOS_A"
           ]

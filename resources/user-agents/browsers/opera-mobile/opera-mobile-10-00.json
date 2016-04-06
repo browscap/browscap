@@ -1,6 +1,6 @@
 {
   "division": "Opera Mobile #MAJORVER#.#MINORVER#",
-  "versions": ["10.70", "10.60", "10.50", "10.10", "10.00"],
+  "versions": ["10.70", "10.60", "10.50", "10.5", "10.10", "10.00"],
   "sortIndex": 1036,
   "lite": false,
   "standard": true,
@@ -29,6 +29,15 @@
       "children": [
         {
           "match": "Opera\/9.80*(#PLATFORM#Opera Mobi*)*Version\/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "AndroidLinux",
+            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android",
+            "SymbianOS_C",
+            "WinMobile"
+          ]
+        },
+        {
+          "match": "Opera\/9.80*(#PLATFORM#Opera Tablet*)*Version\/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "AndroidLinux",
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android",

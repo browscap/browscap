@@ -1,0 +1,53 @@
+{
+  "division": "Camino Generic",
+  "sortIndex": 2551,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Camino Generic",
+      "platform": "OSX",
+      "device": "Macintosh",
+      "engine": "Gecko",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Camino Generic",
+        "Browser": "Camino",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Mozilla Foundation",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "2"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) *Gecko* Camino\/* (like Firefox\/*",
+          "platforms": [
+            "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
+            "OSX"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) *Gecko* Firefox\/* Camino\/*",
+          "platforms": [
+            "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
+            "OSX"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) *Gecko* Camino\/*",
+          "platforms": [
+            "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
+            "OSX"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 Gecko* Camino\/*"
+        }
+      ]
+    }
+  ]
+}

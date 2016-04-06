@@ -28,357 +28,357 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#SM-G900F Build\/*) AppleWebKit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-G900F Build\/*) AppleWebKit\/* (KHTML* like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Samsung SM-G900F",
           "platforms": [
             "Android_5_0"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#SM-G925T Build\/*) AppleWebKit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-G925T Build\/*) AppleWebKit\/* (KHTML* like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Samsung SM-G925T",
           "platforms": [
             "Android_5_0", "Android_5_1"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#SM-G925F* Build\/*) AppleWebKit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-G925F* Build\/*) AppleWebKit\/* (KHTML* like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Samsung SM-G925F",
           "platforms": [
             "Android_5_0", "Android_5_1"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#SM-J100H Build\/*) AppleWebKit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-J100H Build\/*) AppleWebKit\/* (KHTML* like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Samsung SM-J100H",
           "platforms": [
             "Android_4_4"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#SM-G925R4 USCC Build\/*) AppleWebKit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-G925R4 USCC Build\/*) AppleWebKit\/* (KHTML* like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Samsung SM-G925R4",
           "platforms": [
             "Android_5_1"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#SM-T530 Build\/*) AppleWebKit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-T530 Build\/*) AppleWebKit\/* (KHTML* like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Samsung SM-T530",
           "platforms": [
             "Android_5_0"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#SM-G920F* Build\/*) AppleWebKit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-G920F* Build\/*) AppleWebKit\/* (KHTML* like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Samsung SM-G920F",
           "platforms": [
             "Android_5_1"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#SM-G920P Build\/*) AppleWebKit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-G920P Build\/*) AppleWebKit\/* (KHTML* like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Samsung SM-G920P",
           "platforms": [
             "Android_5_1"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#SM-G920I Build\/*) AppleWebKit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-G920I Build\/*) AppleWebKit\/* (KHTML* like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Samsung SM-G920I",
           "platforms": [
             "Android_5_1"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#SM-A500FU* Build\/*) AppleWebKit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-A500FU* Build\/*) AppleWebKit\/* (KHTML* like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Samsung SM-A500FU",
           "platforms": [
             "Android_5_0"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#SM-G925I Build\/*) AppleWebKit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-G925I Build\/*) AppleWebKit\/* (KHTML* like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Samsung SM-G925I",
           "platforms": [
             "Android_5_1"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#SM-G925P Build\/*) AppleWebKit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-G925P Build\/*) AppleWebKit\/* (KHTML* like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Samsung SM-G925P",
           "platforms": [
             "Android_5_1"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#SM-T535* Build\/*) AppleWebKit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-T535* Build\/*) AppleWebKit\/* (KHTML* like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Samsung SM-T535",
           "platforms": [
             "Android_5_0"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#SM-P550 Build\/*) AppleWebKit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-P550 Build\/*) AppleWebKit\/* (KHTML* like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Samsung SM-P550",
           "platforms": [
             "Android_5_0"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#SM-N915P Build\/*) AppleWebKit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-N915P Build\/*) AppleWebKit\/* (KHTML* like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Samsung SM-N915P",
           "platforms": [
             "Android_5_1"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#SM-G360T1 Build\/*) AppleWebKit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-G360T1 Build\/*) AppleWebKit\/* (KHTML* like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Samsung SM-G360T1",
           "platforms": [
             "Android_5_1"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#SM-G920T1 Build\/*) AppleWebKit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-G920T1 Build\/*) AppleWebKit\/* (KHTML* like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Samsung SM-G920T1",
           "platforms": [
             "Android_5_1"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#SM-G920T Build\/*) AppleWebKit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-G920T Build\/*) AppleWebKit\/* (KHTML* like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Samsung SM-G920T",
           "platforms": [
             "Android_5_1"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#SM-J100Y Build\/*) AppleWebKit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-J100Y Build\/*) AppleWebKit\/* (KHTML* like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Samsung SM-J100Y",
           "platforms": [
             "Android_4_4"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#SM-T350 Build\/*) AppleWebKit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-T350 Build\/*) AppleWebKit\/* (KHTML* like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Samsung SM-T350",
           "platforms": [
             "Android_5_0"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#SM-A300FU Build\/*) AppleWebKit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-A300FU Build\/*) AppleWebKit\/* (KHTML* like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Samsung SM-A300FU",
           "platforms": [
             "Android_5_0"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#SM-T355Y Build\/*) AppleWebKit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-T355Y Build\/*) AppleWebKit\/* (KHTML* like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Samsung SM-T355Y",
           "platforms": [
             "Android_5_0"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#SM-T530NU Build\/*) AppleWebKit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-T530NU Build\/*) AppleWebKit\/* (KHTML* like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Samsung SM-T530NU",
           "platforms": [
             "Android_5_0"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#SM-A700F Build\/*) AppleWebKit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-A700F Build\/*) AppleWebKit\/* (KHTML* like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Samsung SM-A700F",
           "platforms": [
             "Android_5_0"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#SM-G900T Build\/*) AppleWebKit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-G900T Build\/*) AppleWebKit\/* (KHTML* like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Samsung SM-G900T",
           "platforms": [
             "Android_5_1"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#SM-J100F Build\/*) AppleWebKit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-J100F Build\/*) AppleWebKit\/* (KHTML* like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Samsung SM-J100F",
           "platforms": [
             "Android_4_4"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#SM-T550 Build\/*) AppleWebKit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-T550 Build\/*) AppleWebKit\/* (KHTML* like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Samsung SM-T550",
           "platforms": [
             "Android_5_0"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#SM-J100ML Build\/*) AppleWebKit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-J100ML Build\/*) AppleWebKit\/* (KHTML* like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Samsung SM-J100ML",
           "platforms": [
             "Android_4_4"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#SM-G388F Build\/*) AppleWebKit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-G388F Build\/*) AppleWebKit\/* (KHTML* like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Samsung SM-G388F",
           "platforms": [
             "Android_4_4"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#SM-N920V 4G Build\/*) AppleWebKit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-N920V 4G Build\/*) AppleWebKit\/* (KHTML* like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Samsung SM-N920V",
           "platforms": [
             "Android_5_1"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#SM-N920P Build\/*) AppleWebKit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-N920P Build\/*) AppleWebKit\/* (KHTML* like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Samsung SM-N920P",
           "platforms": [
             "Android_5_1"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#SM-N920T Build\/*) AppleWebKit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-N920T Build\/*) AppleWebKit\/* (KHTML* like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Samsung SM-N920T",
           "platforms": [
             "Android_5_1"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#SM-N920A Build\/*) AppleWebKit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-N920A Build\/*) AppleWebKit\/* (KHTML* like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Samsung SM-N920A",
           "platforms": [
             "Android_5_1"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#SM-N920W8 Build\/*) AppleWebKit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-N920W8 Build\/*) AppleWebKit\/* (KHTML* like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Samsung SM-N920W8",
           "platforms": [
             "Android_5_1"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#SM-N9208 Build\/*) AppleWebKit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-N9208 Build\/*) AppleWebKit\/* (KHTML* like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Samsung SM-N9208",
           "platforms": [
             "Android_5_1"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#SM-N920I Build\/*) AppleWebKit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-N920I Build\/*) AppleWebKit\/* (KHTML* like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Samsung SM-N920I",
           "platforms": [
             "Android_5_1"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#SM-G928F* Build\/*) AppleWebKit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-G928F* Build\/*) AppleWebKit\/* (KHTML* like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Samsung SM-G928F",
           "platforms": [
             "Android_5_1"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#SM-G928A Build\/*) AppleWebKit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-G928A Build\/*) AppleWebKit\/* (KHTML* like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Samsung SM-G928A",
           "platforms": [
             "Android_5_1"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#SM-G928I Build\/*) AppleWebKit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-G928I Build\/*) AppleWebKit\/* (KHTML* like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Samsung SM-G928I",
           "platforms": [
             "Android_5_1"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#SM-G928T Build\/*) AppleWebKit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-G928T Build\/*) AppleWebKit\/* (KHTML* like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Samsung SM-G928T",
           "platforms": [
             "Android_5_1"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#SM-G928G Build\/*) AppleWebKit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-G928G Build\/*) AppleWebKit\/* (KHTML* like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Samsung SM-G928G",
           "platforms": [
             "Android_5_1"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#SM-G928P Build\/*) AppleWebKit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-G928P Build\/*) AppleWebKit\/* (KHTML* like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Samsung SM-G928P",
           "platforms": [
             "Android_5_1"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#SM-G928V Build\/*) AppleWebKit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-G928V Build\/*) AppleWebKit\/* (KHTML* like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Samsung SM-G928V",
           "platforms": [
             "Android_5_1"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#SM-G928R Build\/*) AppleWebKit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-G928R Build\/*) AppleWebKit\/* (KHTML* like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Samsung SM-G928R",
           "platforms": [
             "Android_5_1"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#SM-G850F Build\/*) AppleWebKit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-G850F Build\/*) AppleWebKit\/* (KHTML* like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Samsung SM-G850F",
           "platforms": [
             "Android_5_0"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#SM-J200GU Build\/*) AppleWebKit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-J200GU Build\/*) AppleWebKit\/* (KHTML* like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Samsung SM-J200GU",
           "platforms": [
             "Android_5_1"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#SM-J200G Build\/*) AppleWebKit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-J200G Build\/*) AppleWebKit\/* (KHTML* like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Samsung SM-J200G",
           "platforms": [
             "Android_5_1"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#SM-T710 Build\/*) AppleWebKit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-T710 Build\/*) AppleWebKit\/* (KHTML* like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Samsung SM-T710",
           "platforms": [
             "Android_5_0"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#SM-T810 Build\/*) AppleWebKit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-T810 Build\/*) AppleWebKit\/* (KHTML* like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Samsung SM-T810",
           "platforms": [
             "Android_5_0"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#SM-T815 Build\/*) AppleWebKit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-T815 Build\/*) AppleWebKit\/* (KHTML* like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Samsung SM-T815",
           "platforms": [
             "Android_5_0"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM# Build\/*) AppleWebKit\/* (KHTML, like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0 (#PLATFORM# Build\/*) AppleWebKit\/* (KHTML* like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "platforms": [
             "Android_4_4", "Android_5_0", "Android_5_1", "Android"
           ]

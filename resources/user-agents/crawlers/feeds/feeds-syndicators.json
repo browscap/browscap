@@ -142,12 +142,27 @@
           }
         },
         {
-          "match": "GreatNews\/1.0",
+          "match": "GreatNews\/1.0*",
           "properties": {
             "Browser": "GreatNews",
             "Version": "1.0",
             "MajorVer": "1",
             "MinorVer": "0"
+          }
+        },
+        {
+          "match": "GreatNews\/*",
+          "properties": {
+            "Browser": "GreatNews"
+          }
+        },
+        {
+          "match": "Gregarius\/0.5*",
+          "properties": {
+            "Browser": "Gregarius",
+            "Version": "0.5",
+            "MajorVer": "0",
+            "MinorVer": "5"
           }
         },
         {
@@ -193,6 +208,15 @@
             "Version": "0.72",
             "MajorVer": "0",
             "MinorVer": "72"
+          }
+        },
+        {
+          "match": "MagpieRSS\/0.7*",
+          "properties": {
+            "Browser": "MagpieRSS",
+            "Version": "0.7",
+            "MajorVer": "0",
+            "MinorVer": "7"
           }
         },
         {
@@ -247,7 +271,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#; aggregator:FeedParser; *) Gecko\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#; aggregator:FeedParser; *) Gecko*",
           "device": "Linux Desktop",
           "engine": "Gecko",
           "properties": {
@@ -259,7 +283,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#; aggregator:NewsMonster; *) Gecko\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#; aggregator:NewsMonster; *) Gecko*",
           "engine": "Gecko",
           "device": "Linux Desktop",
           "properties": {
@@ -271,7 +295,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#; aggregator:Rojo; *) Gecko\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#; aggregator:Rojo; *) Gecko*",
           "device": "Linux Desktop",
           "engine": "Gecko",
           "properties": {
@@ -290,7 +314,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#; aggregator:Tailrank (Spinn3r 2.3); *) Gecko\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#; aggregator:Tailrank (Spinn3r 2.3); *) Gecko*",
           "engine": "Gecko",
           "device": "Linux Desktop",
           "properties": {
@@ -305,7 +329,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#; aggregator:Spinn3r (Spinn3r 3.0); *) Gecko\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#; aggregator:Spinn3r (Spinn3r 3.0); *) Gecko*",
           "engine": "Gecko",
           "device": "Linux Desktop",
           "properties": {
@@ -320,7 +344,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#; aggregator:Spinn3r (Spinn3r 3.1); *) Gecko\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#; aggregator:Spinn3r (Spinn3r 3.1); *) Gecko*",
           "engine": "Gecko",
           "device": "Linux Desktop",
           "properties": {
@@ -335,7 +359,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#; aggregator:Spinn3r (Spinn3r *); *) Gecko\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#; aggregator:Spinn3r (Spinn3r *); *) Gecko*",
           "engine": "Gecko",
           "device": "Linux Desktop",
           "properties": {
@@ -593,7 +617,7 @@
           }
         },
         {
-          "match": "NewsBlur Favicon Fetcher*Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/*",
+          "match": "NewsBlur Favicon Fetcher*Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Version\/* Safari\/*",
           "device": "Macintosh",
           "properties": {
             "Browser": "NewsBlur Favicon Fetcher",
@@ -604,7 +628,7 @@
           ]
         },
         {
-          "match": "NewsBlur Feed Fetcher*Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/*",
+          "match": "NewsBlur Feed Fetcher*Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Version\/* Safari\/*",
           "device": "Macintosh",
           "properties": {
             "Browser": "NewsBlur Feed Fetcher",
@@ -615,7 +639,7 @@
           ]
         },
         {
-          "match": "NewsBlur Page Fetcher*Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/* Safari\/*",
+          "match": "NewsBlur Page Fetcher*Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Version\/* Safari\/*",
           "device": "Macintosh",
           "properties": {
             "Browser": "NewsBlur Favicon Fetcher",

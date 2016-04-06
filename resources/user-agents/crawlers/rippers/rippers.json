@@ -795,12 +795,6 @@
           }
         },
         {
-          "match": "accoona*",
-          "properties": {
-            "Browser": "Accoona Bot"
-          }
-        },
-        {
           "match": "Acme.Spider*",
           "properties": {
             "Browser": "Acme.Spider"

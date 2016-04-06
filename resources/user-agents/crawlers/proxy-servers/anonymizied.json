@@ -11,7 +11,8 @@
         "Comment": "Anonymizied",
         "Browser": "Anonymizied",
         "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Crawler": "true",
+        "isAnonymized": "true"
       },
       "children": [
         {

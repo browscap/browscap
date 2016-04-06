@@ -1,0 +1,58 @@
+{
+  "division": "Epiphany #MAJORVER#.#MINORVER#",
+  "versions": ["2.22", "2.20", "2.18", "2.16", "2.14", "1.8", "1.7", "1.4", "1.2", 1, "0.9"],
+  "sortIndex": 1943,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Epiphany #MAJORVER#.#MINORVER#",
+      "engine": "Gecko",
+      "device": "Linux Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Epiphany #MAJORVER#.#MINORVER#",
+        "Browser": "Epiphany",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "The GNOME Project",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "CssVersion": "3",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Epiphany\/#MAJORVER#.#MINORVER#* (Debian\/*)",
+          "platforms": [
+            "Linux_64", "Linux_32", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Epiphany\/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Linux_64", "Linux_32", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Epiphany\/#MAJORVER#.#MINORVER#*",
+          "device": "general Desktop",
+          "platforms": [
+            "FreeBSD_386", "FreeBSD", "OpenBSD_64_2", "OpenBSD_386", "OpenBSD", "SunOS"
+          ]
+        }
+      ]
+    }
+  ]
+}

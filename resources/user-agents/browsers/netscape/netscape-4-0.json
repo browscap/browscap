@@ -1,6 +1,6 @@
 {
   "division": "Netscape #MAJORVER#.#MINORVER#",
-  "versions": ["4.05", 4],
+  "versions": ["4.51", "4.5", "4.41", "4.05", 4],
   "sortIndex": 7805,
   "lite": false,
   "standard": true,
@@ -51,7 +51,7 @@
           "match": "Mozilla\/#MAJORVER#.#MINORVER#*(#PLATFORM#)*",
           "device": "general Desktop",
           "platforms": [
-            "IRIX64_2", "OpenVMS", "OS2", "SunOS"
+            "IRIX64_2", "OpenVMS", "OS2", "SunOS", "BeOS", "AIX"
           ]
         }
       ]

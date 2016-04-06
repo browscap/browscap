@@ -1,0 +1,41 @@
+{
+  "division": "OmniWeb Generic",
+  "sortIndex": 2692,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "OmniWeb Generic",
+      "platform": "OSX",
+      "engine": "WebKit",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "OmniWeb Generic",
+        "Browser": "OmniWeb",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Omni Development Inc",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "1"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) *OmniWeb\/*",
+          "platforms": [
+            "OSX"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) *OmniWeb\/*",
+          "platforms": [
+            "OSX"
+          ]
+        }
+      ]
+    }
+  ]
+}

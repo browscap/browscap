@@ -1,6 +1,6 @@
 {
   "division": "My Internet Browser Generic",
-  "sortIndex": 2451,
+  "sortIndex": 2452,
   "lite": false,
   "standard": true,
   "userAgents": [
@@ -26,7 +26,13 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Whistler\/* myibrow/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) Whistler* myibrow*",
+          "platforms": [
+            "Win7_32"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* myibrow*",
           "platforms": [
             "Win7_32"
           ]

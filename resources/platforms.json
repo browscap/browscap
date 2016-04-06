@@ -200,7 +200,8 @@
       "inherits": "OSX",
       "properties": {
         "Platform": "MacPPC",
-        "Platform_Version": "unknown"
+        "Platform_Version": "unknown",
+        "Platform_Description": "Mac OS for Power PC"
       }
     },
     "MacPPC_2": {
@@ -221,11 +222,19 @@
       "standard": false,
       "inherits": "OSX",
       "properties": {
-        "Platform": "Mac68K"
+        "Platform": "Mac68K",
+        "Platform_Version": "unknown",
+        "Platform_Description": "Mac OS for Motorola 68000 Series"
       }
     },
+    "Mac68K_2": {
+      "match": "*Mac_68K*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Mac68K"
+    },
     "iOS": {
-      "match": "*CPU iPhone OS * like Mac OS X*",
+      "match": "*CPU iPhone OS *",
       "lite": true,
       "standard": true,
       "properties": {
@@ -274,7 +283,7 @@
       }
     },
     "iOS_A_3_2": {
-      "match": "*CPU iPhone OS 3?2* like Mac OS X*",
+      "match": "*CPU iPhone OS 3?2 like Mac OS X**",
       "lite": false,
       "standard": false,
       "inherits": "iOS",
@@ -469,7 +478,7 @@
       "inherits": "iOS"
     },
     "iOS_C": {
-      "match": "*CPU*OS*like Mac OS X*",
+      "match": "*CPU*OS* like Mac OS X*",
       "lite": true,
       "standard": true,
       "inherits": "iOS"
@@ -1075,7 +1084,7 @@
       "inherits": "iOS"
     },
     "ATV_OSX": {
-      "match": "*CPU*OS*like Mac OS X*",
+      "match": "*CPU*OS* like Mac OS X*",
       "lite": false,
       "standard": true,
       "inherits": "iOS",
@@ -1099,6 +1108,7 @@
       "standard": true,
       "properties": {
         "Platform": "CentOS",
+        "Platform_Maker": "unknown",
         "Platform_Version": "unknown",
         "Win16": "false",
         "Win32": "false",
@@ -1144,6 +1154,7 @@
       "standard": false,
       "inherits": "Linux",
       "properties": {
+        "Browser_Bits": "64",
         "Platform_Bits": "64"
       }
     },
@@ -1181,6 +1192,26 @@
     },
     "Linux_x64": {
       "match": "*linux x64*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Linux",
+      "properties": {
+        "Browser_Bits": "64",
+        "Platform_Bits": "64"
+      }
+    },
+    "Linux_64_sparc": {
+      "match": "*linux sparc64*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Linux",
+      "properties": {
+        "Browser_Bits": "64",
+        "Platform_Bits": "64"
+      }
+    },
+    "Linux_64_amd": {
+      "match": "*Linux amd64*",
       "lite": false,
       "standard": false,
       "inherits": "Linux",
@@ -1279,6 +1310,15 @@
         "Platform_Version": "10.10"
       }
     },
+    "Ubuntu_11_04": {
+      "match": "*Ubuntu\/11.04*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Ubuntu",
+      "properties": {
+        "Platform_Version": "11.04"
+      }
+    },
     "Ubuntu_12_04": {
       "match": "*Ubuntu\/12.04*",
       "lite": false,
@@ -1336,6 +1376,17 @@
       "inherits": "Ubuntu",
       "properties": {
         "Platform_Version": "10.10",
+        "Browser_Bits": "64",
+        "Platform_Bits": "64"
+      }
+    },
+    "Ubuntu_11_04_64": {
+      "match": "*Ubuntu\/11.04*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Ubuntu",
+      "properties": {
+        "Platform_Version": "11.04",
         "Browser_Bits": "64",
         "Platform_Bits": "64"
       }
@@ -2035,7 +2086,7 @@
       }
     },
     "Win7_x64_2": {
-      "match": "*Windows NT 6.1 x64*",
+      "match": "*Windows NT 6.1*x64*",
       "lite": false,
       "standard": false,
       "inherits": "Windows",
@@ -2615,15 +2666,6 @@
         "Platform_Version": "6.0"
       }
     },
-    "Android_6_0_1": {
-      "match": "*Linux*Android?6.0.1*",
-      "lite": false,
-      "standard": true,
-      "inherits": "Android",
-      "properties": {
-        "Platform_Version": "6.0.1"
-      }
-    },
     "Android_B": {
       "match": "* Build\/*",
       "lite": false,
@@ -3177,12 +3219,23 @@
         "Platform_Bits": "64"
       }
     },
+    "FreeBSD_64_2": {
+      "match": "*FreeBSD amd64*",
+      "lite": false,
+      "standard": false,
+      "inherits": "FreeBSD",
+      "properties": {
+        "Browser_Bits": "64",
+        "Platform_Bits": "64"
+      }
+    },
     "OpenBSD": {
       "match": "*OpenBSD*",
       "lite": false,
       "standard": true,
       "properties": {
         "Platform": "OpenBSD",
+        "Platform_Maker": "unknown",
         "Platform_Description": "OpenBSD",
         "Platform_Version": "unknown",
         "Win16": "false",
@@ -3198,12 +3251,33 @@
       "standard": false,
       "inherits": "OpenBSD"
     },
+    "OpenBSD_64": {
+      "match": "*OpenBSD x86_64*",
+      "lite": false,
+      "standard": false,
+      "inherits": "OpenBSD",
+      "properties": {
+        "Browser_Bits": "64",
+        "Platform_Bits": "64"
+      }
+    },
+    "OpenBSD_64_2": {
+      "match": "*OpenBSD amd64*",
+      "lite": false,
+      "standard": false,
+      "inherits": "OpenBSD",
+      "properties": {
+        "Browser_Bits": "64",
+        "Platform_Bits": "64"
+      }
+    },
     "NetBSD": {
       "match": "*NetBSD*",
       "lite": false,
       "standard": true,
       "properties": {
         "Platform": "NetBSD",
+        "Platform_Maker": "unknown",
         "Platform_Description": "NetBSD",
         "Platform_Version": "unknown",
         "Win16": "false",
@@ -3219,6 +3293,7 @@
       "standard": true,
       "properties": {
         "Platform": "DragonFly BSD",
+        "Platform_Maker": "unknown",
         "Platform_Description": "DragonFlyBSD",
         "Platform_Version": "unknown",
         "Win16": "false",
@@ -3521,6 +3596,7 @@
       "standard": true,
       "properties": {
         "Platform": "Unix",
+        "Platform_Maker": "unknown",
         "Platform_Description": "Unix",
         "Platform_Version": "unknown",
         "Win16": "false",
@@ -3794,8 +3870,24 @@
         "Platform_Bits": "32"
       }
     },
-    "Digital_Unix": {
+    "Tru64_Unix": {
       "match": "*Digital Unix*",
+      "lite": false,
+      "standard": true,
+      "properties": {
+        "Platform": "Tru64 UNIX",
+        "Platform_Maker": "HP",
+        "Platform_Description": "Tru64 UNIX",
+        "Platform_Version": "unknown",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Browser_Bits": "64",
+        "Platform_Bits": "64"
+      }
+    },
+    "Tru64_Unix_B": {
+      "match": "*OSF1*",
       "lite": false,
       "standard": true,
       "properties": {
@@ -3816,6 +3908,7 @@
       "standard": true,
       "properties": {
         "Platform": "RISC OS",
+        "Platform_Maker": "unknown",
         "Platform_Description": "RISC OS",
         "Platform_Version": "unknown",
         "Win16": "false",
@@ -3874,7 +3967,7 @@
       }
     },
     "Maemo_ARM": {
-      "match": "*Linux armv*",
+      "match": "*Linux arm*",
       "lite": false,
       "standard": true,
       "inherits": "Maemo"
@@ -3952,7 +4045,7 @@
       }
     },
     "FirefoxOS": {
-      "match": "*Gecko\/*",
+      "match": "*Gecko*",
       "lite": false,
       "standard": true,
       "properties": {
@@ -3965,7 +4058,7 @@
       }
     },
     "FirefoxOS_0_x": {
-      "match": "*Gecko\/*",
+      "match": "*Gecko*",
       "lite": false,
       "standard": false,
       "inherits": "FirefoxOS",
@@ -3974,7 +4067,7 @@
       }
     },
     "FirefoxOS_1_0": {
-      "match": "*Gecko\/*",
+      "match": "*Gecko*",
       "lite": false,
       "standard": false,
       "inherits": "FirefoxOS",
@@ -3983,7 +4076,7 @@
       }
     },
     "FirefoxOS_1_1": {
-      "match": "*Gecko\/*",
+      "match": "*Gecko*",
       "lite": false,
       "standard": false,
       "inherits": "FirefoxOS",
@@ -3992,7 +4085,7 @@
       }
     },
     "FirefoxOS_1_2": {
-      "match": "*Gecko\/*",
+      "match": "*Gecko*",
       "lite": false,
       "standard": false,
       "inherits": "FirefoxOS",
@@ -4001,7 +4094,7 @@
       }
     },
     "FirefoxOS_1_3": {
-      "match": "*Gecko\/*",
+      "match": "*Gecko*",
       "lite": false,
       "standard": false,
       "inherits": "FirefoxOS",
@@ -4010,7 +4103,7 @@
       }
     },
     "FirefoxOS_1_4": {
-      "match": "*Gecko\/*",
+      "match": "*Gecko*",
       "lite": false,
       "standard": false,
       "inherits": "FirefoxOS",
@@ -4019,7 +4112,7 @@
       }
     },
     "FirefoxOS_2_0": {
-      "match": "*Gecko\/*",
+      "match": "*Gecko*",
       "lite": false,
       "standard": true,
       "inherits": "FirefoxOS",
@@ -4028,7 +4121,7 @@
       }
     },
     "FirefoxOS_2_1": {
-      "match": "*Gecko\/*",
+      "match": "*Gecko*",
       "lite": false,
       "standard": true,
       "inherits": "FirefoxOS",
@@ -4037,7 +4130,7 @@
       }
     },
     "FirefoxOS_2_2": {
-      "match": "*Gecko\/*",
+      "match": "*Gecko*",
       "lite": false,
       "standard": true,
       "inherits": "FirefoxOS",
@@ -4073,7 +4166,7 @@
       "standard": true,
       "properties": {
         "Platform": "Amiga OS",
-        "Platform_Maker": "Amiga",
+        "Platform_Maker": "Commodore International",
         "Platform_Version": "unknown",
         "Win32": "false",
         "Browser_Bits": "32",
@@ -4099,7 +4192,8 @@
       "standard": true,
       "properties": {
         "Platform": "WyderOS",
-        "Platform_Version": "unknown"
+        "Platform_Version": "unknown",
+        "Platform_Maker": "unknown"
       }
     },
     "Liberate": {
@@ -4108,6 +4202,7 @@
       "standard": true,
       "properties": {
         "Platform": "Liberate",
+        "Platform_Maker": "unknown",
         "Platform_Version": "unknown"
       }
     },
@@ -4131,6 +4226,19 @@
       "properties": {
         "Platform": "Syllable",
         "Platform_Maker": "Syllable Project",
+        "Platform_Version": "unknown",
+        "Win32": "false",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "Inferno": {
+      "match": "*Inferno*",
+      "lite": false,
+      "standard": true,
+      "properties": {
+        "Platform": "Inferno OS",
+        "Platform_Maker": "Vita Nuova Holdings Ltd",
         "Platform_Version": "unknown",
         "Win32": "false",
         "Browser_Bits": "32",

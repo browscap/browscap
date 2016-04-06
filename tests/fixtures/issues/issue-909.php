@@ -2,8 +2,8 @@
 
 return [
     'issue-909' => [
-        'Echoping/6.0.2',
-        [
+        'ua' => 'Echoping/6.0.2',
+        'properties' => [
             'Browser' => 'Echoping',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',

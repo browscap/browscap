@@ -1,6 +1,6 @@
 {
   "division": "Netscape #MAJORVER#.#MINORVER#",
-  "versions": ["4.79", "4.76", "4.73", "4.7", "4.8"],
+  "versions": ["4.8", "4.79", "4.77", "4.76", "4.75", "4.73", "4.72", "4.7"],
   "sortIndex": 7803,
   "lite": false,
   "standard": true,
@@ -36,7 +36,7 @@
           "match": "Mozilla\/#MAJORVER#.#MINORVER#*(#PLATFORM#)*",
           "device": "Windows Desktop",
           "platforms": [
-            "Win2000_4", "Win95", "Win98", "NT4", "Win2000", "WinXPa_32", "NT_2"
+            "Win2000_4", "Win95", "Win98", "NT4", "Win2000", "WinXPa_32", "WinXPb_32", "Vista_32", "NT_2"
           ]
         },
         {
@@ -50,7 +50,7 @@
           "match": "Mozilla\/#MAJORVER#.#MINORVER#*(#PLATFORM#)*",
           "device": "general Desktop",
           "platforms": [
-            "SunOS", "FreeBSD"
+            "SunOS", "FreeBSD", "IRIX64", "IRIX64_2", "HPUX", "OpenBSD"
           ]
         }
       ]

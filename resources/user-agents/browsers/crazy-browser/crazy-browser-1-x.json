@@ -1,0 +1,73 @@
+{
+  "division": "Crazy Browser #MAJORVER#.#MINORVER#",
+  "versions": ["1.x"],
+  "sortIndex": 2751,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Crazy Browser #MAJORVER#.#MINORVER#",
+      "platform": "Windows",
+      "engine": "Trident",
+      "device": "Windows Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Crazy Browser #MAJORVER#.0",
+        "Browser": "Crazy Browser",
+        "Version": "#MAJORVER#.0",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "0",
+        "Browser_Type": "Browser",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "Browser_Maker": "CrazyBrowser.com",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/4.0 (compatible; MSIE ?.?; #PLATFORM#Crazy Browser #MAJORVER#.*",
+          "platforms": [
+            "Win98_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; MSIE ?.?; #PLATFORM#Crazy Browser #MAJORVER#.*",
+          "platforms": [
+            "Win98_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/4.0 (compatible; MSIE ?.?; #PLATFORM# Trident\/4.0; *Crazy Browser #MAJORVER#.*",
+          "engine": "Trident_4",
+          "platforms": [
+            "Win98_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; MSIE ?.?; #PLATFORM# Trident\/4.0; *Crazy Browser #MAJORVER#.*",
+          "engine": "Trident_4",
+          "platforms": [
+            "Win98_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; MSIE ?.?; #PLATFORM# Trident\/5.0; *Crazy Browser #MAJORVER#.*",
+          "engine": "Trident_5",
+          "platforms": [
+            "Win98_2"
+          ]
+        }
+      ]
+    }
+  ]
+}

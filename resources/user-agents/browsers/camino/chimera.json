@@ -8,6 +8,7 @@
       "userAgent": "Chimera",
       "platform": "OSX",
       "device": "Macintosh",
+      "engine": "Gecko",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser_Type": "Browser",
@@ -23,16 +24,24 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (Macintosh; U; *Mac OS X*; *; rv:1.*) Gecko\/* Chimera\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) *Gecko* Chimera\/0.6*",
+          "platforms": [
+            "OSX"
+          ],
+          "properties": {
+            "Version": "0.6",
+            "MajorVer": "0",
+            "MinorVer": "6"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) *Gecko* Chimera\/*",
           "platforms": [
             "OSX"
           ]
         },
         {
-          "match": "Mozilla\/5.0 Gecko\/* Chimera\/*",
-          "platforms": [
-            "OSX"
-          ]
+          "match": "Mozilla\/5.0 Gecko* Chimera\/*"
         }
       ]
     }

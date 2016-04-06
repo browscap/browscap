@@ -15,16 +15,7 @@
       },
       "children": [
         {
-          "match": "ActiveWorlds*",
-          "properties": {
-            "Browser": "ActiveWorlds Bot"
-          }
-        },
-        {
-          "match": "agent*",
-          "properties": {
-            "Browser": "ActiveWorlds Bot"
-          }
+          "match": "ActiveWorlds*"
         }
       ]
     }

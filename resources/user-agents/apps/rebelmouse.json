@@ -27,7 +27,7 @@
       },
       "children": [
         {
-          "match": "RebelMouse\/0.1 Mozilla\/5.0 (compatible; http:\/\/rebelmouse.com) Gecko\/* Firefox\/*",
+          "match": "RebelMouse\/0.1 Mozilla\/5.0 (compatible; http:\/\/rebelmouse.com) Gecko* Firefox\/*",
           "engine": "Gecko",
           "properties": {
             "Version": "0.1",

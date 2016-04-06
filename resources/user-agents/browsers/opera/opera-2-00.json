@@ -101,14 +101,14 @@
           ]
         },
         {
-          "match": "Opera\/#MAJORVER#.#MINORVER#*(#PLATFORM#)*",
+          "match": "Opera?#MAJORVER#.#MINORVER#*(#PLATFORM#)*",
           "device": "Linux Desktop",
           "platforms": [
             "Linux"
           ]
         },
         {
-          "match": "Opera\/#MAJORVER#.#MINORVER#*(#PLATFORM#)*",
+          "match": "Opera?#MAJORVER#.#MINORVER#*(#PLATFORM#)*",
           "device": "Windows Desktop",
           "platforms": [
             "Win2000", "Win2000_2", "WinME", "WinME_2", "Win95_2", "Win98_2", "NT4",
@@ -116,7 +116,7 @@
           ]
         },
         {
-          "match": "Opera\/#MAJORVER#.#MINORVER#*(#PLATFORM#)*",
+          "match": "Opera?#MAJORVER#.#MINORVER#*(#PLATFORM#)*",
           "device": "Macintosh",
           "platforms": [
             "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
@@ -124,7 +124,7 @@
           ]
         },
         {
-          "match": "Opera\/#MAJORVER#.#MINORVER#*(#PLATFORM#)*",
+          "match": "Opera?#MAJORVER#.#MINORVER#*(#PLATFORM#)*",
           "device": "general Desktop",
           "platforms": [
             "FreeBSD", "SunOS"

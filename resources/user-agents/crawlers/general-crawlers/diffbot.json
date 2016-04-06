@@ -25,7 +25,7 @@
           "match": "Mozilla\/5.0 (compatible; Diffbot\/*"
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko; +http:\/\/www.diffbot.com) Chrome\/* Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko; +http:\/\/www.diffbot.com) Chrome\/* Safari\/*",
           "engine": "WebKit",
           "device": "Linux Desktop",
           "platforms": [
@@ -33,7 +33,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko; +http:\/\/www.diffbot.com) Chrome\/* Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko; +http:\/\/www.diffbot.com) Chrome\/* Safari\/*",
           "engine": "WebKit",
           "device": "Windows Desktop",
           "platforms": [
@@ -47,7 +47,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko; +http:\/\/www.diffbot.com) Chrome\/* Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko; +http:\/\/www.diffbot.com) Chrome\/* Safari\/*",
           "engine": "WebKit",
           "device": "Macintosh",
           "platforms": [

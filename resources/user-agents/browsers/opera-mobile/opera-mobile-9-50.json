@@ -182,21 +182,21 @@
           ]
         },
         {
-          "match": "Opera\/#MAJORVER#.#MINORVER#* (Microsoft Windows; PPC*Opera Mobile\/*)",
+          "match": "Opera?#MAJORVER#.#MINORVER#* (Microsoft Windows; PPC*Opera Mobile\/*)",
           "device": "general Mobile Phone",
           "platforms": [
             "WinMobile"
           ]
         },
         {
-          "match": "Opera\/#MAJORVER#.#MINORVER#* (Microsoft Windows; PPC; Opera Mobi\/*)",
+          "match": "Opera?#MAJORVER#.#MINORVER#* (Microsoft Windows; PPC; Opera Mobi\/*)",
           "device": "general Mobile Phone",
           "platforms": [
             "WinMobile"
           ]
         },
         {
-          "match": "Opera\/#MAJORVER#.#MINORVER#* Beta (Microsoft Windows; PPC; Opera Mobi\/*",
+          "match": "Opera?#MAJORVER#.#MINORVER#* Beta (Microsoft Windows; PPC; Opera Mobi\/*",
           "device": "general Mobile Phone",
           "platforms": [
             "WinMobile"

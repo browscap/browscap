@@ -1,0 +1,53 @@
+{
+  "division": "Conkeror #MAJORVER#.#MINORVER#",
+  "versions": [1, "0.9"],
+  "sortIndex": 2492,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Conkeror #MAJORVER#.#MINORVER#",
+      "engine": "Gecko",
+      "device": "general Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Conkeror #MAJORVER#.#MINORVER#",
+        "Browser": "Conkeror",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "false",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "2",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "unknown",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Conkeror\/#MAJORVER#.#MINORVER#*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64", "Linux_32", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Conkeror\/#MAJORVER#.#MINORVER#*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win7_32"
+          ]
+        }
+      ]
+    }
+  ]
+}

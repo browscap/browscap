@@ -35,7 +35,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (iPad#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Mercury\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla\/5.0 (iPad#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Mercury\/#MAJORVER#.#MINORVER#*Safari\/*",
           "device": "iPad",
           "platforms": [
             "iOS_A_4_3", "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_1", "iOS_A_6_0", "iOS_A_7_1", "iOS_A_7_0", "iOS_A_8_0", "iOS_A_8_1",
@@ -45,7 +45,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (iPhone#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Mercury\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla\/5.0 (iPhone#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Mercury\/#MAJORVER#.#MINORVER#*Safari\/*",
           "device": "iPhone",
           "platforms": [
             "iOS_A_4_3", "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_1", "iOS_A_6_0", "iOS_A_7_1", "iOS_A_7_0", "iOS_A_8_0", "iOS_A_8_1",
@@ -55,7 +55,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Mercury\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Mercury\/#MAJORVER#.#MINORVER#*Safari\/*",
           "platforms": [
             "iOS_A_4_3", "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_1", "iOS_A_6_0", "iOS_A_7_1", "iOS_A_7_0", "iOS_A_8_0", "iOS_A_8_1",
             "iOS_A",
