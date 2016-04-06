@@ -11976,7 +11976,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-ID' => [
@@ -12082,7 +12082,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-IG' => [
@@ -16004,7 +16004,7 @@ return [
             'RenderingEngine_Version' => '5.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-LE' => [
@@ -22364,7 +22364,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-TH' => [
@@ -23424,7 +23424,7 @@ return [
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-UM' => [
@@ -23477,7 +23477,7 @@ return [
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-UN' => [
@@ -23530,7 +23530,7 @@ return [
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-UO' => [
@@ -23583,7 +23583,7 @@ return [
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-UP' => [
@@ -23636,7 +23636,7 @@ return [
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-UQ' => [
@@ -23689,7 +23689,7 @@ return [
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-UR' => [
@@ -23742,7 +23742,7 @@ return [
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-US' => [
@@ -23795,7 +23795,7 @@ return [
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-UT' => [
@@ -23848,7 +23848,7 @@ return [
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-UU' => [
@@ -23901,7 +23901,7 @@ return [
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-UV' => [
@@ -23954,7 +23954,7 @@ return [
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-UW' => [
@@ -24007,7 +24007,7 @@ return [
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-UX' => [
@@ -24060,7 +24060,7 @@ return [
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-UY' => [
@@ -24113,7 +24113,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-UZ' => [
@@ -24166,7 +24166,7 @@ return [
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-VA' => [
@@ -24219,7 +24219,7 @@ return [
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-VB' => [
@@ -24272,7 +24272,7 @@ return [
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-VC' => [
@@ -24325,7 +24325,7 @@ return [
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-VD' => [
@@ -24378,7 +24378,7 @@ return [
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-VE' => [
@@ -24431,7 +24431,7 @@ return [
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-VF' => [
@@ -45843,7 +45843,7 @@ return [
             'RenderingEngine_Version' => '2.12',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-APU' => [
@@ -45896,7 +45896,7 @@ return [
             'RenderingEngine_Version' => '2.12',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-APV' => [
@@ -45949,7 +45949,7 @@ return [
             'RenderingEngine_Version' => '2.8',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-APW' => [
@@ -46002,7 +46002,7 @@ return [
             'RenderingEngine_Version' => '2.7',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-APX' => [
@@ -46055,7 +46055,7 @@ return [
             'RenderingEngine_Version' => '2.7',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-APY' => [
@@ -46108,7 +46108,7 @@ return [
             'RenderingEngine_Version' => '2.7',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-APZ' => [
@@ -46161,7 +46161,7 @@ return [
             'RenderingEngine_Version' => '2.7',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-AQA' => [
@@ -46214,7 +46214,7 @@ return [
             'RenderingEngine_Version' => '2.7',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-AQB' => [
@@ -46267,7 +46267,7 @@ return [
             'RenderingEngine_Version' => '2.7',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-AQC' => [
@@ -46320,7 +46320,7 @@ return [
             'RenderingEngine_Version' => '2.7',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-AQD' => [
@@ -46373,7 +46373,7 @@ return [
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-AQE' => [
@@ -46426,7 +46426,7 @@ return [
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-AQF' => [
@@ -46479,7 +46479,7 @@ return [
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-AQG' => [
@@ -46532,7 +46532,7 @@ return [
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-AQH' => [
@@ -46585,7 +46585,7 @@ return [
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-AQI' => [
@@ -46638,7 +46638,7 @@ return [
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-AQJ' => [
@@ -46691,7 +46691,7 @@ return [
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-AQK' => [
@@ -46744,7 +46744,7 @@ return [
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-AQL' => [
@@ -46797,7 +46797,7 @@ return [
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-AQM' => [
@@ -46850,7 +46850,7 @@ return [
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-AQN' => [
@@ -46903,7 +46903,7 @@ return [
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-AQO' => [
@@ -46956,7 +46956,7 @@ return [
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-AQP' => [
@@ -47009,7 +47009,7 @@ return [
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-AQQ' => [
@@ -47062,7 +47062,7 @@ return [
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-AQR' => [
@@ -47168,7 +47168,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-AQT' => [
@@ -47221,7 +47221,7 @@ return [
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-AQU' => [
@@ -47274,7 +47274,7 @@ return [
             'RenderingEngine_Version' => '2.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-AQV' => [
@@ -47327,7 +47327,7 @@ return [
             'RenderingEngine_Version' => '2.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-AQW' => [
@@ -47380,7 +47380,7 @@ return [
             'RenderingEngine_Version' => '2.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-AQX' => [
@@ -47433,7 +47433,7 @@ return [
             'RenderingEngine_Version' => '2.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-AQY' => [
@@ -47486,7 +47486,7 @@ return [
             'RenderingEngine_Version' => '2.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-AQZ' => [
@@ -47539,7 +47539,7 @@ return [
             'RenderingEngine_Version' => '2.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-ARA' => [
@@ -47592,7 +47592,7 @@ return [
             'RenderingEngine_Version' => '2.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-ARB' => [
@@ -47645,7 +47645,7 @@ return [
             'RenderingEngine_Version' => '2.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-ARC' => [
@@ -47698,7 +47698,7 @@ return [
             'RenderingEngine_Version' => '2.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-ARD' => [
@@ -47751,7 +47751,7 @@ return [
             'RenderingEngine_Version' => '2.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-ARE' => [
@@ -47804,7 +47804,7 @@ return [
             'RenderingEngine_Version' => '2.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-ARF' => [
@@ -47857,7 +47857,7 @@ return [
             'RenderingEngine_Version' => '2.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-ARG' => [
@@ -47910,7 +47910,7 @@ return [
             'RenderingEngine_Version' => '2.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-ARH' => [
@@ -47963,7 +47963,7 @@ return [
             'RenderingEngine_Version' => '2.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-ARI' => [
@@ -48016,7 +48016,7 @@ return [
             'RenderingEngine_Version' => '2.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-ARJ' => [
@@ -48122,7 +48122,7 @@ return [
             'RenderingEngine_Version' => '2.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-ARL' => [
@@ -48175,7 +48175,7 @@ return [
             'RenderingEngine_Version' => '2.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-ARM' => [
@@ -48228,7 +48228,7 @@ return [
             'RenderingEngine_Version' => '2.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-ARN' => [
@@ -48281,7 +48281,7 @@ return [
             'RenderingEngine_Version' => '2.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-ARO' => [
@@ -48334,7 +48334,7 @@ return [
             'RenderingEngine_Version' => '2.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-ARP' => [
@@ -48387,7 +48387,7 @@ return [
             'RenderingEngine_Version' => '2.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-ARQ' => [
@@ -48493,7 +48493,7 @@ return [
             'RenderingEngine_Version' => '2.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-ARS' => [
@@ -48546,7 +48546,7 @@ return [
             'RenderingEngine_Version' => '2.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-ART' => [
@@ -48599,7 +48599,7 @@ return [
             'RenderingEngine_Version' => '2.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-ARU' => [
@@ -49394,7 +49394,7 @@ return [
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-ASJ' => [
@@ -49447,7 +49447,7 @@ return [
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-ASK' => [
@@ -49500,7 +49500,7 @@ return [
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-ASL' => [
@@ -49553,7 +49553,7 @@ return [
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-ASM' => [
@@ -49606,7 +49606,7 @@ return [
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-ASN' => [
@@ -49712,7 +49712,7 @@ return [
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-ASP' => [
@@ -49765,7 +49765,7 @@ return [
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-ASQ' => [
@@ -49818,7 +49818,7 @@ return [
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-ASR' => [
@@ -49871,7 +49871,7 @@ return [
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-ASS' => [
@@ -49924,7 +49924,7 @@ return [
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
     ],
     'issue-900-AST' => [
@@ -49977,7 +49977,7 @@ return [
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
     ],
     'issue-900-ASU' => [
@@ -50136,7 +50136,7 @@ return [
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-ASX' => [
@@ -50189,7 +50189,7 @@ return [
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-ASY' => [
@@ -50242,7 +50242,7 @@ return [
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-ASZ' => [
@@ -50348,7 +50348,7 @@ return [
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-ATC' => [
@@ -50401,7 +50401,7 @@ return [
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-ATD' => [
@@ -50454,7 +50454,7 @@ return [
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-ATE' => [
@@ -50507,7 +50507,7 @@ return [
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-ATF' => [
@@ -50560,7 +50560,7 @@ return [
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
     ],
     'issue-900-ATI' => [
@@ -50613,7 +50613,7 @@ return [
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
     ],
     'issue-900-ATL' => [
@@ -50666,7 +50666,7 @@ return [
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-ATM' => [
@@ -50719,7 +50719,7 @@ return [
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
     ],
     'issue-900-ATN' => [
@@ -50772,7 +50772,7 @@ return [
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
     ],
     'issue-900-ATO' => [
@@ -51037,7 +51037,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-ATT' => [
@@ -51090,7 +51090,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-ATU' => [
@@ -51143,7 +51143,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-ATV' => [
@@ -51196,7 +51196,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-ATW' => [
@@ -51249,7 +51249,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-ATX' => [
@@ -51302,7 +51302,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-ATY' => [
@@ -51355,7 +51355,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-ATZ' => [
@@ -51408,7 +51408,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-AUA' => [
@@ -51461,7 +51461,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-AUB' => [
@@ -51938,7 +51938,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-AUR' => [
@@ -51991,7 +51991,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-AUS' => [
@@ -52044,7 +52044,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-AUT' => [
@@ -52097,7 +52097,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-AUU' => [
@@ -52150,7 +52150,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-AUV' => [
@@ -52203,7 +52203,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-AUW' => [
@@ -52998,7 +52998,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-AVV' => [
@@ -53210,7 +53210,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-AWE' => [
@@ -68474,7 +68474,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-BPN' => [
@@ -68527,7 +68527,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-BPO' => [
@@ -74940,7 +74940,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-BUJ' => [
@@ -74993,7 +74993,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-BUK' => [
@@ -75947,7 +75947,7 @@ return [
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-BYT' => [
@@ -76000,7 +76000,7 @@ return [
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-BYU' => [
@@ -76212,7 +76212,7 @@ return [
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-BYY' => [
@@ -76265,7 +76265,7 @@ return [
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-BYZ' => [
@@ -76318,7 +76318,7 @@ return [
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-BZA' => [
@@ -76371,7 +76371,7 @@ return [
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-BZB' => [
@@ -76424,7 +76424,7 @@ return [
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-BZC' => [
@@ -76477,7 +76477,7 @@ return [
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-BZD' => [
@@ -76530,7 +76530,7 @@ return [
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-BZE' => [
@@ -76583,7 +76583,7 @@ return [
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-BZF' => [
@@ -76742,7 +76742,7 @@ return [
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-BZI' => [
@@ -76795,7 +76795,7 @@ return [
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-BZJ' => [
@@ -76848,7 +76848,7 @@ return [
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-BZK' => [
@@ -76901,7 +76901,7 @@ return [
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-BZL' => [
@@ -76954,7 +76954,7 @@ return [
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-BZM' => [
@@ -77007,7 +77007,7 @@ return [
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-BZN' => [
@@ -77060,7 +77060,7 @@ return [
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-900-BZO' => [
@@ -77113,7 +77113,7 @@ return [
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
 ];
