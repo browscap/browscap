@@ -283,10 +283,25 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
 
         $this->object->setSilent(false);
 
+        $mockFormatter = $this->getMock(
+            '\Browscap\Formatter\XmlFormatter',
+            array('formatPropertyName'),
+            array(),
+            '',
+            false
+        );
+        $mockFormatter
+            ->expects(self::exactly(2))
+            ->method('formatPropertyName')
+            ->will(self::returnValue('test'))
+        ;
+
+        self::assertSame($this->object, $this->object->setFormatter($mockFormatter));
+
         self::assertSame($this->object, $this->object->renderVersion($version));
         self::assertSame(
             '<gjk_browscap_version>' . PHP_EOL . '<item name="Version" value="test"/>' . PHP_EOL
-            . '<item name="Released" value="' . date('Y-m-d') . '"/>' . PHP_EOL . '</gjk_browscap_version>' . PHP_EOL,
+            . '<item name="Released" value="test"/>' . PHP_EOL . '</gjk_browscap_version>' . PHP_EOL,
             file_get_contents($this->file)
         );
     }
@@ -306,10 +321,25 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
 
         $this->object->setSilent(false);
 
+        $mockFormatter = $this->getMock(
+            '\Browscap\Formatter\XmlFormatter',
+            array('formatPropertyName'),
+            array(),
+            '',
+            false
+        );
+        $mockFormatter
+            ->expects(self::exactly(2))
+            ->method('formatPropertyName')
+            ->will(self::returnValue('test'))
+        ;
+
+        self::assertSame($this->object, $this->object->setFormatter($mockFormatter));
+
         self::assertSame($this->object, $this->object->renderVersion($version));
         self::assertSame(
-            '<gjk_browscap_version>' . PHP_EOL . '<item name="Version" value="0"/>' . PHP_EOL
-            . '<item name="Released" value=""/>' . PHP_EOL . '</gjk_browscap_version>' . PHP_EOL,
+            '<gjk_browscap_version>' . PHP_EOL . '<item name="Version" value="test"/>' . PHP_EOL
+            . '<item name="Released" value="test"/>' . PHP_EOL . '</gjk_browscap_version>' . PHP_EOL,
             file_get_contents($this->file)
         );
     }
