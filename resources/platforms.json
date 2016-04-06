@@ -1074,6 +1074,12 @@
       "standard": true,
       "inherits": "iOS"
     },
+    "iOS_N": {
+      "match": "*iOS*",
+      "lite": true,
+      "standard": true,
+      "inherits": "iOS"
+    },
     "ATV_OSX": {
       "match": "*CPU*OS*like Mac OS X*",
       "lite": false,
