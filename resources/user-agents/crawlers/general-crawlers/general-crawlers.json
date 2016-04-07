@@ -2544,6 +2544,13 @@
           "properties": {
             "Browser": "wonderbot"
           }
+        },
+        {
+          "match": "DMCA.com Page Protection Crawling Service*",
+          "properties": {
+            "Browser": "DMCA Page Protection Crawling Service",
+            "Browser_Maker": "Digital Millennium Copyright Act Services Ltd."
+          }
         }
       ]
     }
