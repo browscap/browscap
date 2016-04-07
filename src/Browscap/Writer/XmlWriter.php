@@ -255,8 +255,8 @@ class XmlWriter implements WriterInterface
             $versionData['released'] = '';
         }
 
-        fputs($this->file, '<item name="Version" value="' . $versionData['version'] . '"/>' . PHP_EOL);
-        fputs($this->file, '<item name="Released" value="' . $versionData['released'] . '"/>' . PHP_EOL);
+        fputs($this->file, '<item name="Version" value="' . $this->getFormatter()->formatPropertyName($versionData['version']) . '"/>' . PHP_EOL);
+        fputs($this->file, '<item name="Released" value="' . $this->getFormatter()->formatPropertyName($versionData['released']) . '"/>' . PHP_EOL);
 
         fputs($this->file, '</gjk_browscap_version>' . PHP_EOL);
 

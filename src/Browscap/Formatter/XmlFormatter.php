@@ -70,7 +70,7 @@ class XmlFormatter implements FormatterInterface
 
         switch ($propertyHolder->getPropertyType($property)) {
             case PropertyHolder::TYPE_STRING:
-                $valueOutput = trim($value);
+                $valueOutput = htmlentities(trim($value));
                 break;
             case PropertyHolder::TYPE_BOOLEAN:
                 if (true === $value || $value === 'true') {

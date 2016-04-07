@@ -1,16 +1,17 @@
 <?php
 
 return [
-    'issue-182' => [
-        'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.154 Safari/537.36 OPR/20.0.1387.82',
+    'issue-930' => [
+        'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 YaBrowser/15.12.0.6151 Safari/537.36',
         [
-            'Browser' => 'Opera',
+            'Browser' => 'Yandex Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
-            'Browser_Maker' => 'Opera Software ASA',
-            'Version' => '20.0',
-            'MajorVer' => '20',
-            'MinorVer' => '0',
+            'Browser_Maker' => 'Yandex LLC',
+            'Browser_Modus' => 'unknown',
+            'Version' => '15.12',
+            'MajorVer' => '15',
+            'MinorVer' => '12',
             'Platform' => 'Win7',
             'Platform_Version' => '6.1',
             'Platform_Bits' => '64',
@@ -19,6 +20,15 @@ return [
             'isMobileDevice' => false,
             'isTablet' => false,
             'Crawler' => false,
+            'JavaScript' => true,
+            'Cookies' => true,
+            'Frames' => true,
+            'IFrames' => true,
+            'Tables' => true,
+            'VBScript' => false,
+            'JavaApplets' => false,
+            'ActiveXControls' => false,
+            'BackgroundSounds' => false,
             'Device_Name' => 'Windows Desktop',
             'Device_Maker' => 'Various',
             'Device_Type' => 'Desktop',
