@@ -1,0 +1,24 @@
+{
+  "division": "Comodo SSL Checker",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Comodo SSL Checker",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Comodo SSL Checker",
+        "Browser": "Comodo SSL Checker",
+        "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "Comodo Group Inc",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Comodo SSL Checker*"
+        }
+      ]
+    }
+  ]
+}
