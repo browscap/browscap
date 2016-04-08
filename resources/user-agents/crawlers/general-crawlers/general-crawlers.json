@@ -2558,6 +2558,21 @@
             "Browser": "DMCA Page Protection Crawling Service",
             "Browser_Maker": "Digital Millennium Copyright Act Services Ltd."
           }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Gluten Free Crawler\/1.0*",
+          "properties": {
+            "Browser": "Gluten Free Crawler",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Gluten Free Crawler\/*",
+          "properties": {
+            "Browser": "Gluten Free Crawler"
+          }
         }
       ]
     }
