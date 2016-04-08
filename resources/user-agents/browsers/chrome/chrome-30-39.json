@@ -3975,6 +3975,13 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#TPC-7001 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "device": "Vivax TPC-7001",
+          "platforms": [
+            "Android_5_1"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "platforms": [
             "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
