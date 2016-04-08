@@ -6,13 +6,13 @@
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "Instagram App #MAJORVER#.#MINORVER#",
+      "userAgent": "Instagram App #MAJORVER#.#MINORVER# for Darwin",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Instagram App #MAJORVER#.#MINORVER#",
+        "Comment": "Instagram App #MAJORVER#.#MINORVER# for Darwin",
         "Browser": "Instagram App",
         "Browser_Type": "Application",
         "Browser_Maker": "Facebook",
