@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-458' => [
+return array(
+    'issue-458' => array(
         'ua' => 'Mozilla/5.0 (compatible; SMTBot/1.0; +http://www.similartech.com/smtbot)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'SMTBot',
             'Browser' => 'SMTBot',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

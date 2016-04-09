@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-122' => [
+return array(
+    'issue-122' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; rv:6.0) Gecko/20110814 Firefox/6.0 Google (+https://developers.google.com/+/web/snippet/)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Google Web Snippet',
             'Browser' => 'Google Web Snippet',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

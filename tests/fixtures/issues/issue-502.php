@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-502-A' => [
+return array(
+    'issue-502-A' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Nexus 10 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Chrome 34.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -50,13 +50,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-502-B' => [
+    ),
+    'issue-502-B' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; Nexus 10 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.141 Safari/537.3',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Chrome 35.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -103,13 +103,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-502-C' => [
+    ),
+    'issue-502-C' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; Nexus 10 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.131 Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Chrome 36.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -156,13 +156,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-502-D' => [
+    ),
+    'issue-502-D' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; Nexus 10 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.117 Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Chrome 37.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -209,13 +209,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-502-E' => [
+    ),
+    'issue-502-E' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; Nexus 10 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.114 Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Chrome 38.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -262,8 +262,8 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

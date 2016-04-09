@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-269-A' => [
+return array(
+    'issue-269-A' => array(
         'ua' => 'Slackbot-LinkExpanding (+https://api.slack.com/robots)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Social Bookmarkers',
             'Browser' => 'Slackbot-Link-Expanding',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,13 +50,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-269-B' => [
+    ),
+    'issue-269-B' => array(
         'ua' => 'Slackbot (+https://api.slack.com/robots)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Social Bookmarkers',
             'Browser' => 'Slackbot',
             'Browser_Type' => 'Bot/Crawler',
@@ -103,8 +103,8 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-225' => [
+return array(
+    'issue-225' => array(
         'ua' => 'New-Sogou-Spider/1.0 (compatible; MSIE 5.5; Windows 98)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sogou',
             'Browser' => 'Sogou Spider',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

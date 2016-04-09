@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-084-H' => [
+return array(
+    'issue-084-H' => array(
         'ua' => 'Mozilla/5.0 (Linux; U) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.79 Safari/537.4',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Chrome 22.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -50,13 +50,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-084-G' => [
+    ),
+    'issue-084-G' => array(
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; pt-BR; H5000 Build/IMM76D) AppleWebKit/534.31 (KHTML, like Gecko) UCBrowser/9.3.0.321 U3/0.8.0 Mobile Safari/534.31',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'UC Browser 9.3',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
@@ -103,13 +103,13 @@ return [
             'RenderingEngine_Name' => 'U3',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'UCWeb Inc.',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-084-F' => [
+    ),
+    'issue-084-F' => array(
         'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/5.0)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'IE 10.0',
             'Browser' => 'IE',
             'Browser_Type' => 'Browser',
@@ -156,13 +156,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '6.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-084-E' => [
+    ),
+    'issue-084-E' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS101607; OfficeLiveConnector.1.3; OfficeLivePatch.0.0; .NET CLR 2.0.50727; InfoPath.2; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET4.0C; Ask',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'IE 8.0',
             'Browser' => 'IE',
             'Browser_Type' => 'Browser',
@@ -209,13 +209,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-084-D' => [
+    ),
+    'issue-084-D' => array(
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 7.1; Trident/5.0)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'IE 9.0',
             'Browser' => 'IE',
             'Browser_Type' => 'Browser',
@@ -262,13 +262,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '5.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-084-C' => [
+    ),
+    'issue-084-C' => array(
         'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/4.0; InfoPath.2; SV1; .NET CLR 2.0.50727; WOW64)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'IE 10.0',
             'Browser' => 'IE',
             'Browser_Type' => 'Browser',
@@ -315,13 +315,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '6.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-084-B' => [
+    ),
+    'issue-084-B' => array(
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; es-sa; LG-D805 Build/JDQ39B) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.2 Mobile Safari/534.30',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Android Browser 4.2',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -368,13 +368,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-084-A' => [
+    ),
+    'issue-084-A' => array(
         'ua' => 'Mozilla/5.0 (compatible; MSIE 10.6; Windows NT 6.1; Trident/5.0; InfoPath.2; SLCC1; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET CLR 2.0.50727) 3gpp-gba UNTRUSTED/1.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -421,8 +421,8 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-];
+    ),
+);

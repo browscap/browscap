@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-783' => [
+return array(
+    'issue-783' => array(
         'ua' => 'Mozilla/5.0 (iPad; U; CPU OS 4_3_2 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Mobile',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mobile Safari UIWebView',
             'Browser' => 'Mobile Safari UIWebView',
             'Browser_Type' => 'Browser',
@@ -50,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

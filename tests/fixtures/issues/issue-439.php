@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-439' => [
+return array(
+    'issue-439' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.116 Safari/537.36 HubSpot Webcrawler',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'HubSpot Webcrawler',
             'Browser' => 'HubSpot Webcrawler',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

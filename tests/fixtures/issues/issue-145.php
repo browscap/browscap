@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-145' => [
+return array(
+    'issue-145' => array(
         'ua' => 'Nokia7230/5.0 (05.71) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Nokia Browser',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
@@ -50,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

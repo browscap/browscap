@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-701-A' => [
+return array(
+    'issue-701-A' => array(
         'ua' => 'Mozilla/5.0 (compatible; Steeler/3.5; http://www.tkl.iis.u-tokyo.ac.jp/~crawler/)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Steeler',
             'Browser' => 'Steeler',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,13 +50,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-701-B' => [
+    ),
+    'issue-701-B' => array(
         'ua' => 'R6_FeedFetcher_(www.radian6.com/crawler)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Feeds Syndicators',
             'Browser' => 'R6 FeedFetcher',
             'Browser_Type' => 'Bot/Crawler',
@@ -103,13 +103,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-701-C' => [
+    ),
+    'issue-701-C' => array(
         'ua' => 'Y!J-ASR/0.1 crawler (http://www.yahoo-help.jp/app/answers/detail/p/595/a_id/42716/)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Y!J-AGENT',
             'Browser' => 'Y!J-AGENT',
             'Browser_Type' => 'Bot/Crawler',
@@ -156,13 +156,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-701-D' => [
+    ),
+    'issue-701-D' => array(
         'ua' => 'robots',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'General Crawlers',
             'Browser' => 'TestCrawler',
             'Browser_Type' => 'Bot/Crawler',
@@ -209,8 +209,8 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

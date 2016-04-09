@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-047-phpbrowscap-8' => [
+return array(
+    'issue-047-phpbrowscap-8' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Chrome 31.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -50,13 +50,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-047-phpbrowscap-7' => [
+    ),
+    'issue-047-phpbrowscap-7' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; rv:26.0) Gecko/20100101 Firefox/26.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 26.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -103,13 +103,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '26.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-047-phpbrowscap-4' => [
+    ),
+    'issue-047-phpbrowscap-4' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Chrome 31.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -156,13 +156,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-047-phpbrowscap-3' => [
+    ),
+    'issue-047-phpbrowscap-3' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'IE 11.0',
             'Browser' => 'IE',
             'Browser_Type' => 'Browser',
@@ -209,13 +209,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '7.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-047-phpbrowscap-2' => [
+    ),
+    'issue-047-phpbrowscap-2' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:25.0) Gecko/20100101 Firefox/25.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 25.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -262,13 +262,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '25.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-047-phpbrowscap-1' => [
+    ),
+    'issue-047-phpbrowscap-1' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:25.0) Gecko/20100101 Firefox/25.0 FirePHP/0.7.4',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 25.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -315,8 +315,8 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '25.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

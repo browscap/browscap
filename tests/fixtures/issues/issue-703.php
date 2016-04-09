@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-703-A' => [
+return array(
+    'issue-703-A' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.76 Safari/537.36 Seznam.cz/1.2.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Seznam Browser 1.2',
             'Browser' => 'Seznam Browser',
             'Browser_Type' => 'Browser',
@@ -50,13 +50,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-703-B' => [
+    ),
+    'issue-703-B' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG SM-G925R4 USCC Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.2 Chrome/38.0.2125.102 Mobile Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Samsung Browser 3.2',
             'Browser' => 'Samsung Browser',
             'Browser_Type' => 'Browser',
@@ -103,13 +103,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-703-C' => [
+    ),
+    'issue-703-C' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Dragon/43.3.3.185 Chrome/43.0.2357.81 Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Comodo Dragon 43.3',
             'Browser' => 'Dragon',
             'Browser_Type' => 'Browser',
@@ -156,13 +156,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-703-D' => [
+    ),
+    'issue-703-D' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.76 Safari/537.36 Seznam.cz/1.2.6',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Seznam Browser 1.2',
             'Browser' => 'Seznam Browser',
             'Browser_Type' => 'Browser',
@@ -209,13 +209,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-703-E' => [
+    ),
+    'issue-703-E' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-GB) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.114 Safari/537.36 Puffin/4.4.0IT',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Puffin 4.4',
             'Browser' => 'Puffin',
             'Browser_Type' => 'Browser',
@@ -262,13 +262,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-703-F' => [
+    ),
+    'issue-703-F' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.76 Safari/537.36 Seznam.cz/1.2.6',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Seznam Browser 1.2',
             'Browser' => 'Seznam Browser',
             'Browser_Type' => 'Browser',
@@ -315,8 +315,8 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

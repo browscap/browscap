@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-147' => [
+return array(
+    'issue-147' => array(
         'ua' => 'Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Yahoo! Slurp',
             'Browser' => 'Yahoo! Slurp',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

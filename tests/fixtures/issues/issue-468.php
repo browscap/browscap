@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-468-A' => [
+return array(
+    'issue-468-A' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/538.34.9 (KHTML, like Gecko) Mobile/12A4265u',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mobile Safari UIWebView',
             'Browser' => 'Mobile Safari UIWebView',
             'Browser_Type' => 'Browser',
@@ -50,13 +50,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-468-B' => [
+    ),
+    'issue-468-B' => array(
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_0 like Mac OS X) AppleWebKit/538.34.9 (KHTML, like Gecko) Mobile/12A4265u',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mobile Safari UIWebView',
             'Browser' => 'Mobile Safari UIWebView',
             'Browser_Type' => 'Browser',
@@ -103,13 +103,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-468-C' => [
+    ),
+    'issue-468-C' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12A405 Safari/600.1.4',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mobile Safari 8.0',
             'Browser' => 'Safari',
             'Browser_Type' => 'Browser',
@@ -156,13 +156,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-468-D' => [
+    ),
+    'issue-468-D' => array(
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12A405 Safari/600.1.4',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mobile Safari 8.0',
             'Browser' => 'Safari',
             'Browser_Type' => 'Browser',
@@ -209,8 +209,8 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-];
+    ),
+);

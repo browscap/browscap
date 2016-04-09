@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-358-A' => [
+return array(
+    'issue-358-A' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; it-it; SAMSUNG SM-N9005 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Android WebView 1.5',
             'Browser' => 'Android WebView',
             'Browser_Type' => 'Browser',
@@ -50,13 +50,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-358-B' => [
+    ),
+    'issue-358-B' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; SM-N9005 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.141 Mobile Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Chrome 35.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -103,8 +103,8 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-765-A' => [
+return array(
+    'issue-765-A' => array(
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F69 [Pinterest/iOS]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Pinterest App Generic',
             'Browser' => 'Pinterest App',
             'Browser_Type' => 'Application',
@@ -50,13 +50,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-765-B' => [
+    ),
+    'issue-765-B' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 6_1_4 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10B350 [Pinterest/iOS]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Pinterest App Generic',
             'Browser' => 'Pinterest App',
             'Browser_Type' => 'Application',
@@ -103,13 +103,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-765-C' => [
+    ),
+    'issue-765-C' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; A3-A11 Build/KOT49H) AppleWebKit/537.36 (KHTML like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36 [Pinterest/Android]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Pinterest App Generic',
             'Browser' => 'Pinterest App',
             'Browser_Type' => 'Application',
@@ -156,13 +156,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-765-D' => [
+    ),
+    'issue-765-D' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 6_0_1 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10A525 [Pinterest/iOS]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Pinterest App Generic',
             'Browser' => 'Pinterest App',
             'Browser_Type' => 'Application',
@@ -209,13 +209,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-765-E' => [
+    ),
+    'issue-765-E' => array(
         'ua' => 'Pinterest for Android Tablet/1.8.4 (SGP321; 4.3)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Pinterest App 1.8',
             'Browser' => 'Pinterest App',
             'Browser_Type' => 'Application',
@@ -262,13 +262,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-765-F' => [
+    ),
+    'issue-765-F' => array(
         'ua' => 'Pinterest for Android Tablet/4.3.1 (A7600-H; 4.4.2)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Pinterest App 4.3',
             'Browser' => 'Pinterest App',
             'Browser_Type' => 'Application',
@@ -315,13 +315,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-765-G' => [
+    ),
+    'issue-765-G' => array(
         'ua' => 'Pinterest for Android/1.1.1 (endeavoru; 4.1.1)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Pinterest App 1.1',
             'Browser' => 'Pinterest App',
             'Browser_Type' => 'Application',
@@ -368,13 +368,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-765-H' => [
+    ),
+    'issue-765-H' => array(
         'ua' => 'Pinterest for Android/3.6.2 (klte; 4.4.2)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Pinterest App 3.6',
             'Browser' => 'Pinterest App',
             'Browser_Type' => 'Application',
@@ -421,13 +421,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-765-I' => [
+    ),
+    'issue-765-I' => array(
         'ua' => 'Pinterest/0.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Pinterest App 0.1',
             'Browser' => 'Pinterest App',
             'Browser_Type' => 'Application',
@@ -474,13 +474,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-765-K' => [
+    ),
+    'issue-765-K' => array(
         'ua' => 'Pinterest/3.2 CFNetwork/672.0.8 Darwin/14.0.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Pinterest App 3.2',
             'Browser' => 'Pinterest App',
             'Browser_Type' => 'Application',
@@ -527,13 +527,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-765-L' => [
+    ),
+    'issue-765-L' => array(
         'ua' => 'Pinterest/3.3.3 CFNetwork/609.1.4 Darwin/13.0.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Pinterest App 3.3',
             'Browser' => 'Pinterest App',
             'Browser_Type' => 'Application',
@@ -580,13 +580,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-765-M' => [
+    ),
+    'issue-765-M' => array(
         'ua' => 'Pinterest/3356 CFNetwork/711.0.6 Darwin/14.0.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Pinterest App Generic',
             'Browser' => 'Pinterest App',
             'Browser_Type' => 'Application',
@@ -633,13 +633,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-765-N' => [
+    ),
+    'issue-765-N' => array(
         'ua' => 'Pinterest/4.1.3 CFNetwork/672.1.14 Darwin/14.0.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Pinterest App 4.1',
             'Browser' => 'Pinterest App',
             'Browser_Type' => 'Application',
@@ -686,8 +686,8 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

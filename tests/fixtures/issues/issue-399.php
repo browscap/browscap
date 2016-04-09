@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-399' => [
+return array(
+    'issue-399' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 7.1) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.112 Safari/534.30',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Chrome 12.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -50,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

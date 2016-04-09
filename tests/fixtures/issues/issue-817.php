@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-817' => [
+return array(
+    'issue-817' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1 like Mac OS X) AppleWebKit (KHTML, like Gecko) Mobile (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Yahoo! Slurp',
             'Browser' => 'Yahoo! Slurp',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

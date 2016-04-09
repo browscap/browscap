@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-062' => [
+return array(
+    'issue-062' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.3; WOW64; Trident/7.0; Touch; .NET4.0E; .NET4.0C; Tablet PC 2.0)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'IE 11.0 in IE 7.0 Compatibility Mode',
             'Browser' => 'IE',
             'Browser_Type' => 'Browser',
@@ -50,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '7.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-];
+    ),
+);

@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-291-A' => [
+return array(
+    'issue-291-A' => array(
         'ua' => 'Browsershots',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'SEO & Analytics',
             'Browser' => 'Browsershots',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,13 +50,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-291-B' => [
+    ),
+    'issue-291-B' => array(
         'ua' => 'DomainSCAN',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'DomainScan Server Monitoring',
             'Browser' => 'DomainScan Server Monitoring',
             'Browser_Type' => 'Bot/Crawler',
@@ -103,13 +103,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-291-C' => [
+    ),
+    'issue-291-C' => array(
         'ua' => 'Dillo/2.1.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Dillo 2.1',
             'Browser' => 'Dillo',
             'Browser_Type' => 'Browser',
@@ -156,13 +156,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-291-D' => [
+    ),
+    'issue-291-D' => array(
         'ua' => 'revolt',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'General Crawlers',
             'Browser' => 'Bot Revolt',
             'Browser_Type' => 'Bot/Crawler',
@@ -209,13 +209,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-291-E' => [
+    ),
+    'issue-291-E' => array(
         'ua' => 'Mozilla/5.0 (Linux i686) AppleWebKit/535.22+ (KHTML, like Gecko) WebKitGTK+/1.8.0 luakit',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'luakit',
             'Browser' => 'luakit',
             'Browser_Type' => 'Browser',
@@ -262,13 +262,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-291-F' => [
+    ),
+    'issue-291-F' => array(
         'ua' => 'Cloud mapping experiment. Contact research@pdrlabs.net',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Research Projects',
             'Browser' => 'pdrlabs Bot',
             'Browser_Type' => 'Bot/Crawler',
@@ -315,8 +315,8 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

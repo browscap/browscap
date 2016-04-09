@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-531-A' => [
+return array(
+    'issue-531-A' => array(
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 7_1 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D167 [FBAN/FBIOS;FBAV/20.1.0.15.10;FBBV/5758778;FBDV/iPad2,4;FBMD/iPad;FBSN/iPhone OS;FBSV/7.1;FBSS/1; FBCR/;FBID/tablet;FBLC/da_DK;FBOP/1]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Facebook App for iOS',
             'Browser' => 'Facebook App',
             'Browser_Type' => 'Application',
@@ -50,13 +50,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-531-B' => [
+    ),
+    'issue-531-B' => array(
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 7_1 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D167 [FBAN/MessengerForiOS;FBAV/17.0.0.20.11;FBBV/5740516;FBDV/iPad2,4;FBMD/iPad;FBSN/iPhone OS;FBSV/7.1;FBSS/1; FBCR/;FBID/tablet;FBLC/da_DK;FBOP/1]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Facebook App for iOS',
             'Browser' => 'Facebook App',
             'Browser_Type' => 'Application',
@@ -103,13 +103,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-531-C' => [
+    ),
+    'issue-531-C' => array(
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 7_1_1 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D201 [FBAN/FBIOS;FBAV/19.0.0.10.12;FBBV/5450691;FBDV/iPad2,4;FBMD/iPad;FBSN/iPhone OS;FBSV/7.1.1;FBSS/1; FBCR/;FBID/tablet;FBLC/da_DK;FBOP/1]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Facebook App for iOS',
             'Browser' => 'Facebook App',
             'Browser_Type' => 'Application',
@@ -156,13 +156,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-531-D' => [
+    ),
+    'issue-531-D' => array(
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 7_1_1 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D201 [FBAN/MessengerForiOS;FBAV/17.0.0.20.11;FBBV/5740516;FBDV/iPad2,4;FBMD/iPad;FBSN/iPhone OS;FBSV/7.1.1;FBSS/1; FBCR/;FBID/tablet;FBLC/da_DK;FBOP/1]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Facebook App for iOS',
             'Browser' => 'Facebook App',
             'Browser_Type' => 'Application',
@@ -209,13 +209,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-531-E' => [
+    ),
+    'issue-531-E' => array(
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 7_1_2 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D257 [FBAN/FBIOS;FBAV/20.0.0.14.10;FBBV/5674926;FBDV/iPad2,4;FBMD/iPad;FBSN/iPhone OS;FBSV/7.1.2;FBSS/1; FBCR/;FBID/tablet;FBLC/da_DK;FBOP/1]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Facebook App for iOS',
             'Browser' => 'Facebook App',
             'Browser_Type' => 'Application',
@@ -262,13 +262,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-531-F' => [
+    ),
+    'issue-531-F' => array(
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 7_1_2 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D257 [FBAN/FBIOS;FBAV/20.1.0.15.10;FBBV/5758778;FBDV/iPad4,1;FBMD/iPad;FBSN/iPhone OS;FBSV/7.1.2;FBSS/2; FBCR/;FBID/tablet;FBLC/da_DK;FBOP/1]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Facebook App for iOS',
             'Browser' => 'Facebook App',
             'Browser_Type' => 'Application',
@@ -315,13 +315,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-531-G' => [
+    ),
+    'issue-531-G' => array(
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 7_1_2 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D257 [FBAN/MessengerForiOS;FBAV/17.0.0.20.11;FBBV/5740516;FBDV/iPad3,4;FBMD/iPad;FBSN/iPhone OS;FBSV/7.1.2;FBSS/2; FBCR/;FBID/tablet;FBLC/da_DK;FBOP/1]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Facebook App for iOS',
             'Browser' => 'Facebook App',
             'Browser_Type' => 'Application',
@@ -368,13 +368,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-531-H' => [
+    ),
+    'issue-531-H' => array(
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12A405 [FBAN/FBIOS;FBAV/20.1.0.15.10;FBBV/5758778;FBDV/iPad4,1;FBMD/iPad;FBSN/iPhone OS;FBSV/8.0.2;FBSS/2; FBCR/;FBID/tablet;FBLC/da_DK;FBOP/1]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Facebook App for iOS',
             'Browser' => 'Facebook App',
             'Browser_Type' => 'Application',
@@ -421,13 +421,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-531-I' => [
+    ),
+    'issue-531-I' => array(
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12A405 [FBAN/FBIOS;FBAV/20.1.0.15.10;FBBV/5758778;FBDV/iPad4,2;FBMD/iPad;FBSN/iPhone OS;FBSV/8.0.2;FBSS/2; FBCR/TelenorDK;FBID/tablet;FBLC/da_DK;FBOP/1]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Facebook App for iOS',
             'Browser' => 'Facebook App',
             'Browser_Type' => 'Application',
@@ -474,13 +474,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-531-J' => [
+    ),
+    'issue-531-J' => array(
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B410 [FBAN/MessengerForiOS;FBAV/17.0.0.20.11;FBBV/5740516;FBDV/iPad4,1;FBMD/iPad;FBSN/iPhone OS;FBSV/8.1;FBSS/2; FBCR/;FBID/tablet;FBLC/da_DK;FBOP/1]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Facebook App for iOS',
             'Browser' => 'Facebook App',
             'Browser_Type' => 'Application',
@@ -527,13 +527,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-531-K' => [
+    ),
+    'issue-531-K' => array(
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_1_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B435 [FBAN/FBIOS;FBAV/17.0.0.14.13;FBBV/4950859;FBDV/iPad3,1;FBMD/iPad;FBSN/iPhone OS;FBSV/8.1.1;FBSS/2; FBCR/;FBID/tablet;FBLC/da_DK;FBOP/1]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Facebook App for iOS',
             'Browser' => 'Facebook App',
             'Browser_Type' => 'Application',
@@ -580,13 +580,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-531-L' => [
+    ),
+    'issue-531-L' => array(
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_1_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B435 [FBAN/FBIOS;FBAV/20.1.0.15.10;FBBV/5758778;FBDV/iPad3,3;FBMD/iPad;FBSN/iPhone OS;FBSV/8.1.1;FBSS/2; FBCR/TelenorDK;FBID/tablet;FBLC/da_DK;FBOP/1]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Facebook App for iOS',
             'Browser' => 'Facebook App',
             'Browser_Type' => 'Application',
@@ -633,13 +633,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-531-M' => [
+    ),
+    'issue-531-M' => array(
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_1_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B435 [FBAN/FBIOS;FBAV/20.1.0.15.10;FBBV/5758778;FBDV/iPad3,4;FBMD/iPad;FBSN/iPhone OS;FBSV/8.1.1;FBSS/2; FBCR/;FBID/tablet;FBLC/da_DK;FBOP/1]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Facebook App for iOS',
             'Browser' => 'Facebook App',
             'Browser_Type' => 'Application',
@@ -686,13 +686,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-531-N' => [
+    ),
+    'issue-531-N' => array(
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_1_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B435 [FBAN/FBIOS;FBAV/20.1.0.15.10;FBBV/5758778;FBDV/iPad4,1;FBMD/iPad;FBSN/iPhone OS;FBSV/8.1.1;FBSS/2; FBCR/;FBID/tablet;FBLC/da_DK;FBOP/1]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Facebook App for iOS',
             'Browser' => 'Facebook App',
             'Browser_Type' => 'Application',
@@ -739,13 +739,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-531-O' => [
+    ),
+    'issue-531-O' => array(
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_1_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B440 [FBAN/FBIOS;FBAV/20.1.0.15.10;FBBV/5758778;FBDV/iPad2,1;FBMD/iPad;FBSN/iPhone OS;FBSV/8.1.2;FBSS/1; FBCR/;FBID/tablet;FBLC/da_DK;FBOP/1]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Facebook App for iOS',
             'Browser' => 'Facebook App',
             'Browser_Type' => 'Application',
@@ -792,13 +792,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-531-P' => [
+    ),
+    'issue-531-P' => array(
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_1_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B440 [FBAN/FBIOS;FBAV/20.1.0.15.10;FBBV/5758778;FBDV/iPad2,2;FBMD/iPad;FBSN/iPhone OS;FBSV/8.1.2;FBSS/1; FBCR/3DK;FBID/tablet;FBLC/da_DK;FBOP/1]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Facebook App for iOS',
             'Browser' => 'Facebook App',
             'Browser_Type' => 'Application',
@@ -845,13 +845,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-531-Q' => [
+    ),
+    'issue-531-Q' => array(
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_1_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B440 [FBAN/FBIOS;FBAV/20.1.0.15.10;FBBV/5758778;FBDV/iPad3,3;FBMD/iPad;FBSN/iPhone OS;FBSV/8.1.2;FBSS/2; FBCR/TELIA;FBID/tablet;FBLC/da_DK;FBOP/1]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Facebook App for iOS',
             'Browser' => 'Facebook App',
             'Browser_Type' => 'Application',
@@ -898,13 +898,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-531-R' => [
+    ),
+    'issue-531-R' => array(
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_1_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B440 [FBAN/FBIOS;FBAV/20.1.0.15.10;FBBV/5758778;FBDV/iPad3,6;FBMD/iPad;FBSN/iPhone OS;FBSV/8.1.2;FBSS/2; FBCR/TDCDK;FBID/tablet;FBLC/da_DK;FBOP/1]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Facebook App for iOS',
             'Browser' => 'Facebook App',
             'Browser_Type' => 'Application',
@@ -951,13 +951,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-531-S' => [
+    ),
+    'issue-531-S' => array(
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_1_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B440 [FBAN/FBIOS;FBAV/20.1.0.15.10;FBBV/5758778;FBDV/iPad4,2;FBMD/iPad;FBSN/iPhone OS;FBSV/8.1.2;FBSS/2; FBCR/TDCDK;FBID/tablet;FBLC/da_DK;FBOP/1]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Facebook App for iOS',
             'Browser' => 'Facebook App',
             'Browser_Type' => 'Application',
@@ -1004,13 +1004,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-531-T' => [
+    ),
+    'issue-531-T' => array(
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_1_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B440 [FBAN/MessengerForiOS;FBAV/17.0.0.20.11;FBBV/5740516;FBDV/iPad2,5;FBMD/iPad;FBSN/iPhone OS;FBSV/8.1.2;FBSS/1; FBCR/;FBID/tablet;FBLC/da_DK;FBOP/1]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Facebook App for iOS',
             'Browser' => 'Facebook App',
             'Browser_Type' => 'Application',
@@ -1057,13 +1057,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-531-U' => [
+    ),
+    'issue-531-U' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_2 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/11A501 [FBAN/MessengerForiOS;FBAV/17.0.0.20.11;FBBV/5740516;FBDV/iPhone5,2;FBMD/iPhone;FBSN/iPhone OS;FBSV/7.0.2;FBSS/2; FBCR/3DK;FBID/phone;FBLC/da_DK;FBOP/5]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Facebook App for iOS',
             'Browser' => 'Facebook App',
             'Browser_Type' => 'Application',
@@ -1110,13 +1110,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-531-V' => [
+    ),
+    'issue-531-V' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D167 [FBAN/FBIOS;FBAV/17.0.0.14.13;FBBV/4950859;FBDV/iPhone5,2;FBMD/iPhone;FBSN/iPhone OS;FBSV/7.1;FBSS/2; FBCR/TELIA;FBID/phone;FBLC/da_DK;FBOP/5]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Facebook App for iOS',
             'Browser' => 'Facebook App',
             'Browser_Type' => 'Application',
@@ -1163,13 +1163,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-531-W' => [
+    ),
+    'issue-531-W' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D167 [FBAN/FBIOS;FBAV/18.1.0.14.11;FBBV/5295262;FBDV/iPhone4,1;FBMD/iPhone;FBSN/iPhone OS;FBSV/7.1;FBSS/2; FBCR/TELIA;FBID/phone;FBLC/da_DK;FBOP/5]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Facebook App for iOS',
             'Browser' => 'Facebook App',
             'Browser_Type' => 'Application',
@@ -1216,13 +1216,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-531-X' => [
+    ),
+    'issue-531-X' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D167 [FBAN/FBIOS;FBAV/20.0.0.14.10;FBBV/5674926;FBDV/iPhone6,2;FBMD/iPhone;FBSN/iPhone OS;FBSV/7.1;FBSS/2; FBCR/TelenorDK;FBID/phone;FBLC/da_DK;FBOP/5]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Facebook App for iOS',
             'Browser' => 'Facebook App',
             'Browser_Type' => 'Application',
@@ -1269,13 +1269,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-531-Y' => [
+    ),
+    'issue-531-Y' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D167 [FBAN/FBIOS;FBAV/20.1.0.15.10;FBBV/5758778;FBDV/iPhone4,1;FBMD/iPhone;FBSN/iPhone OS;FBSV/7.1;FBSS/2; FBCR/TelenorDK;FBID/phone;FBLC/da_DK;FBOP/5]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Facebook App for iOS',
             'Browser' => 'Facebook App',
             'Browser_Type' => 'Application',
@@ -1322,13 +1322,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-531-Z' => [
+    ),
+    'issue-531-Z' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_1 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D201 [FBAN/FBIOS;FBAV/17.0.0.14.13;FBBV/4950859;FBDV/iPhone5,2;FBMD/iPhone;FBSN/iPhone OS;FBSV/7.1.1;FBSS/2; FBCR/TDC;FBID/phone;FBLC/da_DK;FBOP/5]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Facebook App for iOS',
             'Browser' => 'Facebook App',
             'Browser_Type' => 'Application',
@@ -1375,13 +1375,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-531-AA' => [
+    ),
+    'issue-531-AA' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_1 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D201 [FBAN/FBIOS;FBAV/18.1.0.14.11;FBBV/5295262;FBDV/iPhone5,2;FBMD/iPhone;FBSN/iPhone OS;FBSV/7.1.1;FBSS/2; FBCR/TELIA;FBID/phone;FBLC/da_DK;FBOP/5]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Facebook App for iOS',
             'Browser' => 'Facebook App',
             'Browser_Type' => 'Application',
@@ -1428,13 +1428,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-531-AB' => [
+    ),
+    'issue-531-AB' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_1 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D201 [FBAN/FBIOS;FBAV/20.1.0.15.10;FBBV/5758778;FBDV/iPhone6,2;FBMD/iPhone;FBSN/iPhone OS;FBSV/7.1.1;FBSS/2; FBCR/3DK;FBID/phone;FBLC/da_DK;FBOP/5]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Facebook App for iOS',
             'Browser' => 'Facebook App',
             'Browser_Type' => 'Application',
@@ -1481,13 +1481,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-531-AC' => [
+    ),
+    'issue-531-AC' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_1 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D201 [FBAN/FBIOS;FBAV/20.1.0.15.10;FBBV/5758778;FBDV/iPhone6,2;FBMD/iPhone;FBSN/iPhone OS;FBSV/7.1.1;FBSS/2; FBCR/TelenorDK;FBID/phone;FBLC/da_DK;FBOP/5]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Facebook App for iOS',
             'Browser' => 'Facebook App',
             'Browser_Type' => 'Application',
@@ -1534,13 +1534,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-531-AD' => [
+    ),
+    'issue-531-AD' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_2 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D257 [FBAN/FBIOS;FBAV/17.0.0.14.13;FBBV/4950859;FBDV/iPhone5,2;FBMD/iPhone;FBSN/iPhone OS;FBSV/7.1.2;FBSS/2; FBCR/TELIA;FBID/phone;FBLC/da_DK;FBOP/5]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Facebook App for iOS',
             'Browser' => 'Facebook App',
             'Browser_Type' => 'Application',
@@ -1587,13 +1587,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-531-AE' => [
+    ),
+    'issue-531-AE' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_2 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D257 [FBAN/FBIOS;FBAV/20.1.0.15.10;FBBV/5758778;FBDV/iPhone3,1;FBMD/iPhone;FBSN/iPhone OS;FBSV/7.1.2;FBSS/2; FBCR/TDC;FBID/phone;FBLC/da_DK;FBOP/5]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Facebook App for iOS',
             'Browser' => 'Facebook App',
             'Browser_Type' => 'Application',
@@ -1640,13 +1640,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-531-AF' => [
+    ),
+    'issue-531-AF' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_2 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D257 [FBAN/FBIOS;FBAV/20.1.0.15.10;FBBV/5758778;FBDV/iPhone3,1;FBMD/iPhone;FBSN/iPhone OS;FBSV/7.1.2;FBSS/2; FBCR/TELIA;FBID/phone;FBLC/da_DK;FBOP/5]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Facebook App for iOS',
             'Browser' => 'Facebook App',
             'Browser_Type' => 'Application',
@@ -1693,13 +1693,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-531-AG' => [
+    ),
+    'issue-531-AG' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_2 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D257 [FBAN/FBIOS;FBAV/20.1.0.15.10;FBBV/5758778;FBDV/iPhone4,1;FBMD/iPhone;FBSN/iPhone OS;FBSV/7.1.2;FBSS/2; FBCR/3DK;FBID/phone;FBLC/da_DK;FBOP/5]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Facebook App for iOS',
             'Browser' => 'Facebook App',
             'Browser_Type' => 'Application',
@@ -1746,13 +1746,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-531-AH' => [
+    ),
+    'issue-531-AH' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_2 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D257 [FBAN/MessengerForiOS;FBAV/17.0.0.20.11;FBBV/5740516;FBDV/iPhone4,1;FBMD/iPhone;FBSN/iPhone OS;FBSV/7.1.2;FBSS/2; FBCR/TDC;FBID/phone;FBLC/da_DK;FBOP/5]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Facebook App for iOS',
             'Browser' => 'Facebook App',
             'Browser_Type' => 'Application',
@@ -1799,13 +1799,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-531-AI' => [
+    ),
+    'issue-531-AI' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_2 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D257 [FBAN/MessengerForiOS;FBAV/17.0.0.20.11;FBBV/5740516;FBDV/iPhone5,2;FBMD/iPhone;FBSN/iPhone OS;FBSV/7.1.2;FBSS/2; FBCR/3DK;FBID/phone;FBLC/da_DK;FBOP/5]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Facebook App for iOS',
             'Browser' => 'Facebook App',
             'Browser_Type' => 'Application',
@@ -1852,13 +1852,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-531-AJ' => [
+    ),
+    'issue-531-AJ' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_2 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D257 [FBAN/MessengerForiOS;FBAV/17.0.0.20.11;FBBV/5740516;FBDV/iPhone5,2;FBMD/iPhone;FBSN/iPhone OS;FBSV/7.1.2;FBSS/2; FBCR/TELIA;FBID/phone;FBLC/da_DK;FBOP/5]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Facebook App for iOS',
             'Browser' => 'Facebook App',
             'Browser_Type' => 'Application',
@@ -1905,13 +1905,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-531-AK' => [
+    ),
+    'issue-531-AK' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12A405 [FBAN/FBIOS;FBAV/20.0.0.14.10;FBBV/5674926;FBDV/iPhone4,1;FBMD/iPhone;FBSN/iPhone OS;FBSV/8.0.2;FBSS/2; FBCR/TDC;FBID/phone;FBLC/da_DK;FBOP/5]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Facebook App for iOS',
             'Browser' => 'Facebook App',
             'Browser_Type' => 'Application',
@@ -1958,13 +1958,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-531-AL' => [
+    ),
+    'issue-531-AL' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12A405 [FBAN/MessengerForiOS;FBAV/17.0.0.20.11;FBBV/5740516;FBDV/iPhone5,2;FBMD/iPhone;FBSN/iPhone OS;FBSV/8.0.2;FBSS/2; FBCR/TDC;FBID/phone;FBLC/da_DK;FBOP/5]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Facebook App for iOS',
             'Browser' => 'Facebook App',
             'Browser_Type' => 'Application',
@@ -2011,13 +2011,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-531-AM' => [
+    ),
+    'issue-531-AM' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B411 [FBAN/FBIOS;FBAV/20.1.0.15.10;FBBV/5758778;FBDV/iPhone5,4;FBMD/iPhone;FBSN/iPhone OS;FBSV/8.1;FBSS/2; FBCR/TDC;FBID/phone;FBLC/da_DK;FBOP/5]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Facebook App for iOS',
             'Browser' => 'Facebook App',
             'Browser_Type' => 'Application',
@@ -2064,13 +2064,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-531-AN' => [
+    ),
+    'issue-531-AN' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B411 [FBAN/FBIOS;FBAV/20.1.0.15.10;FBBV/5758778;FBDV/iPhone7,1;FBMD/iPhone;FBSN/iPhone OS;FBSV/8.1;FBSS/3; FBCR/3DK;FBID/phone;FBLC/da_DK;FBOP/5]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Facebook App for iOS',
             'Browser' => 'Facebook App',
             'Browser_Type' => 'Application',
@@ -2117,13 +2117,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-531-AO' => [
+    ),
+    'issue-531-AO' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B411 [FBAN/FBIOS;FBAV/20.1.0.15.10;FBBV/5758778;FBDV/iPhone7,1;FBMD/iPhone;FBSN/iPhone OS;FBSV/8.1;FBSS/3; FBCR/TelenorDK;FBID/phone;FBLC/da_DK;FBOP/5]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Facebook App for iOS',
             'Browser' => 'Facebook App',
             'Browser_Type' => 'Application',
@@ -2170,13 +2170,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-531-AP' => [
+    ),
+    'issue-531-AP' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B411 [FBAN/FBIOS;FBAV/20.1.0.15.10;FBBV/5758778;FBDV/iPhone7,2;FBMD/iPhone;FBSN/iPhone OS;FBSV/8.1;FBSS/2; FBCR/3DK;FBID/phone;FBLC/da_DK;FBOP/5]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Facebook App for iOS',
             'Browser' => 'Facebook App',
             'Browser_Type' => 'Application',
@@ -2223,13 +2223,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-531-AQ' => [
+    ),
+    'issue-531-AQ' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B411 [FBAN/FBIOS;FBAV/20.1.0.15.10;FBBV/5758778;FBDV/iPhone7,2;FBMD/iPhone;FBSN/iPhone OS;FBSV/8.1;FBSS/2; FBCR/TELIA;FBID/phone;FBLC/da_DK;FBOP/5]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Facebook App for iOS',
             'Browser' => 'Facebook App',
             'Browser_Type' => 'Application',
@@ -2276,13 +2276,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-531-AR' => [
+    ),
+    'issue-531-AR' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B435 [FBAN/FBIOS;FBAV/20.1.0.15.10;FBBV/5758778;FBDV/iPhone5,2;FBMD/iPhone;FBSN/iPhone OS;FBSV/8.1.1;FBSS/2; FBCR/3DK;FBID/phone;FBLC/da_DK;FBOP/5]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Facebook App for iOS',
             'Browser' => 'Facebook App',
             'Browser_Type' => 'Application',
@@ -2329,13 +2329,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-531-AS' => [
+    ),
+    'issue-531-AS' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B435 [FBAN/FBIOS;FBAV/20.1.0.15.10;FBBV/5758778;FBDV/iPhone5,2;FBMD/iPhone;FBSN/iPhone OS;FBSV/8.1.1;FBSS/2; FBCR/TelenorDK;FBID/phone;FBLC/da_DK;FBOP/5]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Facebook App for iOS',
             'Browser' => 'Facebook App',
             'Browser_Type' => 'Application',
@@ -2382,13 +2382,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-531-AT' => [
+    ),
+    'issue-531-AT' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B435 [FBAN/FBIOS;FBAV/20.1.0.15.10;FBBV/5758778;FBDV/iPhone5,4;FBMD/iPhone;FBSN/iPhone OS;FBSV/8.1.1;FBSS/2; FBCR/TDC;FBID/phone;FBLC/da_DK;FBOP/5]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Facebook App for iOS',
             'Browser' => 'Facebook App',
             'Browser_Type' => 'Application',
@@ -2435,13 +2435,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-531-AU' => [
+    ),
+    'issue-531-AU' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B435 [FBAN/FBIOS;FBAV/20.1.0.15.10;FBBV/5758778;FBDV/iPhone6,2;FBMD/iPhone;FBSN/iPhone OS;FBSV/8.1.1;FBSS/2; FBCR/TelenorDK;FBID/phone;FBLC/da_DK;FBOP/5]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Facebook App for iOS',
             'Browser' => 'Facebook App',
             'Browser_Type' => 'Application',
@@ -2488,13 +2488,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-531-AV' => [
+    ),
+    'issue-531-AV' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B435 [FBAN/MessengerForiOS;FBAV/17.0.0.20.11;FBBV/5740516;FBDV/iPhone6,2;FBMD/iPhone;FBSN/iPhone OS;FBSV/8.1.1;FBSS/2; FBCR/TELIA;FBID/phone;FBLC/da_DK;FBOP/5]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Facebook App for iOS',
             'Browser' => 'Facebook App',
             'Browser_Type' => 'Application',
@@ -2541,13 +2541,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-531-AW' => [
+    ),
+    'issue-531-AW' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B436 [FBAN/FBIOS;FBAV/20.1.0.15.10;FBBV/5758778;FBDV/iPhone7,2;FBMD/iPhone;FBSN/iPhone OS;FBSV/8.1.1;FBSS/2; FBCR/TDC;FBID/phone;FBLC/da_DK;FBOP/5]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Facebook App for iOS',
             'Browser' => 'Facebook App',
             'Browser_Type' => 'Application',
@@ -2594,13 +2594,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-531-AX' => [
+    ),
+    'issue-531-AX' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B436 [FBAN/MessengerForiOS;FBAV/17.0.0.20.11;FBBV/5740516;FBDV/iPhone7,2;FBMD/iPhone;FBSN/iPhone OS;FBSV/8.1.1;FBSS/2; FBCR/3DK;FBID/phone;FBLC/da_DK;FBOP/5]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Facebook App for iOS',
             'Browser' => 'Facebook App',
             'Browser_Type' => 'Application',
@@ -2647,13 +2647,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-531-AY' => [
+    ),
+    'issue-531-AY' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B436 [FBAN/MessengerForiOS;FBAV/17.0.0.20.11;FBBV/5740516;FBDV/iPhone7,2;FBMD/iPhone;FBSN/iPhone OS;FBSV/8.1.1;FBSS/2; FBCR/TELIA;FBID/phone;FBLC/da_DK;FBOP/5]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Facebook App for iOS',
             'Browser' => 'Facebook App',
             'Browser_Type' => 'Application',
@@ -2700,13 +2700,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-531-AZ' => [
+    ),
+    'issue-531-AZ' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B440 [FBAN/FBIOS;FBAV/17.0.0.14.13;FBBV/4950859;FBDV/iPhone7,2;FBMD/iPhone;FBSN/iPhone OS;FBSV/8.1.2;FBSS/2; FBCR/TDC;FBID/phone;FBLC/da_DK;FBOP/5]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Facebook App for iOS',
             'Browser' => 'Facebook App',
             'Browser_Type' => 'Application',
@@ -2753,13 +2753,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-531-BA' => [
+    ),
+    'issue-531-BA' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B440 [FBAN/FBIOS;FBAV/20.1.0.15.10;FBBV/5758778;FBDV/iPhone5,2;FBMD/iPhone;FBSN/iPhone OS;FBSV/8.1.2;FBSS/2; FBCR/TDC;FBID/phone;FBLC/da_DK;FBOP/5]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Facebook App for iOS',
             'Browser' => 'Facebook App',
             'Browser_Type' => 'Application',
@@ -2806,13 +2806,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-531-BB' => [
+    ),
+    'issue-531-BB' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B440 [FBAN/FBIOS;FBAV/20.1.0.15.10;FBBV/5758778;FBDV/iPhone5,2;FBMD/iPhone;FBSN/iPhone OS;FBSV/8.1.2;FBSS/2; FBCR/TelenorDK;FBID/phone;FBLC/da_DK;FBOP/5]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Facebook App for iOS',
             'Browser' => 'Facebook App',
             'Browser_Type' => 'Application',
@@ -2859,13 +2859,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-531-BC' => [
+    ),
+    'issue-531-BC' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B440 [FBAN/FBIOS;FBAV/20.1.0.15.10;FBBV/5758778;FBDV/iPhone6,1;FBMD/iPhone;FBSN/iPhone OS;FBSV/8.1.2;FBSS/2; FBCR/TDC;FBID/phone;FBLC/da_DK;FBOP/5]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Facebook App for iOS',
             'Browser' => 'Facebook App',
             'Browser_Type' => 'Application',
@@ -2912,13 +2912,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-531-BD' => [
+    ),
+    'issue-531-BD' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B440 [FBAN/FBIOS;FBAV/20.1.0.15.10;FBBV/5758778;FBDV/iPhone6,2;FBMD/iPhone;FBSN/iPhone OS;FBSV/8.1.2;FBSS/2; FBCR/3DK;FBID/phone;FBLC/da_DK;FBOP/5]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Facebook App for iOS',
             'Browser' => 'Facebook App',
             'Browser_Type' => 'Application',
@@ -2965,13 +2965,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-531-BE' => [
+    ),
+    'issue-531-BE' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B440 [FBAN/FBIOS;FBAV/20.1.0.15.10;FBBV/5758778;FBDV/iPhone6,2;FBMD/iPhone;FBSN/iPhone OS;FBSV/8.1.2;FBSS/2; FBCR/TDC;FBID/phone;FBLC/da_DK;FBOP/5]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Facebook App for iOS',
             'Browser' => 'Facebook App',
             'Browser_Type' => 'Application',
@@ -3018,13 +3018,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-531-BF' => [
+    ),
+    'issue-531-BF' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B440 [FBAN/FBIOS;FBAV/20.1.0.15.10;FBBV/5758778;FBDV/iPhone6,2;FBMD/iPhone;FBSN/iPhone OS;FBSV/8.1.2;FBSS/2; FBCR/TDC;FBID/phone;FBLC/en_GB;FBOP/5]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Facebook App for iOS',
             'Browser' => 'Facebook App',
             'Browser_Type' => 'Application',
@@ -3071,13 +3071,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-531-BG' => [
+    ),
+    'issue-531-BG' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B440 [FBAN/FBIOS;FBAV/20.1.0.15.10;FBBV/5758778;FBDV/iPhone6,2;FBMD/iPhone;FBSN/iPhone OS;FBSV/8.1.2;FBSS/2; FBCR/TelenorDK;FBID/phone;FBLC/da_DK;FBOP/5]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Facebook App for iOS',
             'Browser' => 'Facebook App',
             'Browser_Type' => 'Application',
@@ -3124,13 +3124,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-531-BH' => [
+    ),
+    'issue-531-BH' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B440 [FBAN/FBIOS;FBAV/20.1.0.15.10;FBBV/5758778;FBDV/iPhone7,2;FBMD/iPhone;FBSN/iPhone OS;FBSV/8.1.2;FBSS/2; FBCR/3DK;FBID/phone;FBLC/da_DK;FBOP/5]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Facebook App for iOS',
             'Browser' => 'Facebook App',
             'Browser_Type' => 'Application',
@@ -3177,13 +3177,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-531-BI' => [
+    ),
+    'issue-531-BI' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B440 [FBAN/FBIOS;FBAV/20.1.0.15.10;FBBV/5758778;FBDV/iPhone7,2;FBMD/iPhone;FBSN/iPhone OS;FBSV/8.1.2;FBSS/2; FBCR/TDC;FBID/phone;FBLC/da_DK;FBOP/5]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Facebook App for iOS',
             'Browser' => 'Facebook App',
             'Browser_Type' => 'Application',
@@ -3230,13 +3230,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-531-BJ' => [
+    ),
+    'issue-531-BJ' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B440 [FBAN/FBIOS;FBAV/20.1.0.15.10;FBBV/5758778;FBDV/iPhone7,2;FBMD/iPhone;FBSN/iPhone OS;FBSV/8.1.2;FBSS/2; FBCR/TELIA;FBID/phone;FBLC/da_DK;FBOP/5]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Facebook App for iOS',
             'Browser' => 'Facebook App',
             'Browser_Type' => 'Application',
@@ -3283,13 +3283,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-531-BK' => [
+    ),
+    'issue-531-BK' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B440 [FBAN/FBIOS;FBAV/20.1.0.15.10;FBBV/5758778;FBDV/iPhone7,2;FBMD/iPhone;FBSN/iPhone OS;FBSV/8.1.2;FBSS/2; FBCR/TelenorDK;FBID/phone;FBLC/da_DK;FBOP/5]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Facebook App for iOS',
             'Browser' => 'Facebook App',
             'Browser_Type' => 'Application',
@@ -3336,13 +3336,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-531-BL' => [
+    ),
+    'issue-531-BL' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B440 [FBAN/MessengerForiOS;FBAV/17.0.0.20.11;FBBV/5740516;FBDV/iPhone4,1;FBMD/iPhone;FBSN/iPhone OS;FBSV/8.1.2;FBSS/2; FBCR/TelenorDK;FBID/phone;FBLC/da_DK;FBOP/5]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Facebook App for iOS',
             'Browser' => 'Facebook App',
             'Browser_Type' => 'Application',
@@ -3389,13 +3389,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-531-BM' => [
+    ),
+    'issue-531-BM' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B440 [FBAN/MessengerForiOS;FBAV/17.0.0.20.11;FBBV/5740516;FBDV/iPhone5,2;FBMD/iPhone;FBSN/iPhone OS;FBSV/8.1.2;FBSS/2; FBCR/TELIA;FBID/phone;FBLC/en_US;FBOP/5]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Facebook App for iOS',
             'Browser' => 'Facebook App',
             'Browser_Type' => 'Application',
@@ -3442,13 +3442,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-531-BN' => [
+    ),
+    'issue-531-BN' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B440 [FBAN/MessengerForiOS;FBAV/17.0.0.20.11;FBBV/5740516;FBDV/iPhone6,2;FBMD/iPhone;FBSN/iPhone OS;FBSV/8.1.2;FBSS/2; FBCR/TDC;FBID/phone;FBLC/da_DK;FBOP/5]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Facebook App for iOS',
             'Browser' => 'Facebook App',
             'Browser_Type' => 'Application',
@@ -3495,13 +3495,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-531-BO' => [
+    ),
+    'issue-531-BO' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B440 [FBAN/MessengerForiOS;FBAV/17.0.0.20.11;FBBV/5740516;FBDV/iPhone7,1;FBMD/iPhone;FBSN/iPhone OS;FBSV/8.1.2;FBSS/3; FBCR/TelenorDK;FBID/phone;FBLC/da_DK;FBOP/5]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Facebook App for iOS',
             'Browser' => 'Facebook App',
             'Browser_Type' => 'Application',
@@ -3548,13 +3548,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-531-BP' => [
+    ),
+    'issue-531-BP' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B440 [FBAN/MessengerForiOS;FBAV/17.0.0.20.11;FBBV/5740516;FBDV/iPhone7,2;FBMD/iPhone;FBSN/iPhone OS;FBSV/8.1.2;FBSS/2; FBCR/TELIA;FBID/phone;FBLC/da_DK;FBOP/5]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Facebook App for iOS',
             'Browser' => 'Facebook App',
             'Browser_Type' => 'Application',
@@ -3601,13 +3601,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-531-BQ' => [
+    ),
+    'issue-531-BQ' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B440 [FBAN/MessengerForiOS;FBAV/17.0.0.20.11;FBBV/5740516;FBDV/iPhone7,2;FBMD/iPhone;FBSN/iPhone OS;FBSV/8.1.2;FBSS/2; FBCR/TelenorDK;FBID/phone;FBLC/da_DK;FBOP/5]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Facebook App for iOS',
             'Browser' => 'Facebook App',
             'Browser_Type' => 'Application',
@@ -3654,8 +3654,8 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

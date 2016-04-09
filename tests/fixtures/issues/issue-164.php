@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-164' => [
+return array(
+    'issue-164' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 10.0; Trident/6.0; Windows 98; MyIE2)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Maxthon 2.0',
             'Browser' => 'Maxthon',
             'Browser_Type' => 'Browser',
@@ -50,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-308' => [
+return array(
+    'issue-308' => array(
         'ua' => 'Microsoft Office Excel 2013',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Microsoft Excel',
             'Browser' => 'Excel',
             'Browser_Type' => 'Application',
@@ -50,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

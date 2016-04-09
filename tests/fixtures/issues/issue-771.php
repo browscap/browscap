@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-771' => [
+return array(
+    'issue-771' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11) AppleWebKit/601.1.39 (KHTML, like Gecko) Version/9.0 Safari/601.1.39',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Safari 9.0',
             'Browser' => 'Safari',
             'Browser_Type' => 'Browser',
@@ -50,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-];
+    ),
+);

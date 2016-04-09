@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-573-A' => [
+return array(
+    'issue-573-A' => array(
         'ua' => 'Microsoft Office Word 2013 (15.0.4693) Windows NT 6.2',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Microsoft Word',
             'Browser' => 'Word',
             'Browser_Type' => 'Application',
@@ -50,13 +50,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-573-B' => [
+    ),
+    'issue-573-B' => array(
         'ua' => 'Microsoft Office/15.0 (Windows NT 6.2; Microsoft Word 15.0.4693; Pro)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Microsoft Word',
             'Browser' => 'Word',
             'Browser_Type' => 'Application',
@@ -103,13 +103,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-573-C' => [
+    ),
+    'issue-573-C' => array(
         'ua' => 'Microsoft Office Excel 2013 (15.0.4693) Windows NT 6.2',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Microsoft Excel',
             'Browser' => 'Excel',
             'Browser_Type' => 'Application',
@@ -156,13 +156,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-573-D' => [
+    ),
+    'issue-573-D' => array(
         'ua' => 'Microsoft Office/15.0 (Windows NT 6.2; Microsoft Excel 15.0.4693; Pro)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Microsoft Excel',
             'Browser' => 'Excel',
             'Browser_Type' => 'Application',
@@ -209,13 +209,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-573-E' => [
+    ),
+    'issue-573-E' => array(
         'ua' => 'Microsoft Office OneNote 2013',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Microsoft OneNote',
             'Browser' => 'OneNote',
             'Browser_Type' => 'Application',
@@ -262,13 +262,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-573-F' => [
+    ),
+    'issue-573-F' => array(
         'ua' => 'Microsoft Office OneNote 2013 (15.0.4693) Windows NT 6.2',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Microsoft OneNote',
             'Browser' => 'OneNote',
             'Browser_Type' => 'Application',
@@ -315,13 +315,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-573-G' => [
+    ),
+    'issue-573-G' => array(
         'ua' => 'Microsoft Office Outlook 2013 (15.0.4693) Windows NT 6.2',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Microsoft Outlook 2013',
             'Browser' => 'Outlook',
             'Browser_Type' => 'Email Client',
@@ -368,13 +368,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-573-H' => [
+    ),
+    'issue-573-H' => array(
         'ua' => 'Microsoft Outlook Social Connector (15.0.4569) MsoStatic (15.0.4569)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Microsoft Outlook 2013',
             'Browser' => 'Outlook',
             'Browser_Type' => 'Email Client',
@@ -421,13 +421,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-573-I' => [
+    ),
+    'issue-573-I' => array(
         'ua' => 'Microsoft Office PowerPoint 2013 (15.0.4693) Windows NT 6.2',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Microsoft PowerPoint',
             'Browser' => 'PowerPoint',
             'Browser_Type' => 'Application',
@@ -474,13 +474,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-573-J' => [
+    ),
+    'issue-573-J' => array(
         'ua' => 'Microsoft Office/15.0 (Windows NT 6.2; Microsoft PowerPoint 15.0.4693; Pro)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Microsoft PowerPoint',
             'Browser' => 'PowerPoint',
             'Browser_Type' => 'Application',
@@ -527,13 +527,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-573-K' => [
+    ),
+    'issue-573-K' => array(
         'ua' => 'Microsoft Office Visio 2013 (15.0.4693) Windows NT 6.2',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Microsoft Visio',
             'Browser' => 'Visio',
             'Browser_Type' => 'Application',
@@ -580,13 +580,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-573-L' => [
+    ),
+    'issue-573-L' => array(
         'ua' => 'Microsoft Office/15.0 (Windows NT 6.2; Microsoft Visio 15.0.4693; Pro)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Microsoft Visio',
             'Browser' => 'Visio',
             'Browser_Type' => 'Application',
@@ -633,13 +633,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-573-M' => [
+    ),
+    'issue-573-M' => array(
         'ua' => 'Microsoft Office/15.0 (Windows NT 6.2; Access Web Datasheet 15.0.4693; Pro)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Microsoft Access',
             'Browser' => 'Access',
             'Browser_Type' => 'Application',
@@ -686,13 +686,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-573-N' => [
+    ),
+    'issue-573-N' => array(
         'ua' => 'Microsoft Office/15.0 (Windows NT 6.2; Microsoft Access 15.0.4693; Pro)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Microsoft Access',
             'Browser' => 'Access',
             'Browser_Type' => 'Application',
@@ -739,13 +739,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-573-O' => [
+    ),
+    'issue-573-O' => array(
         'ua' => 'Microsoft Office/15.0 (Windows NT 6.2; Microsoft Lync 15.0.4675; Pro)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Microsoft Lync',
             'Browser' => 'Lync',
             'Browser_Type' => 'Application',
@@ -792,13 +792,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-573-P' => [
+    ),
+    'issue-573-P' => array(
         'ua' => 'MSFrontPage/15.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Microsoft FrontPage',
             'Browser' => 'FrontPage',
             'Browser_Type' => 'Application',
@@ -845,13 +845,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-573-Q' => [
+    ),
+    'issue-573-Q' => array(
         'ua' => 'Microsoft Office SyncProc 2013 (15.0.4693) Windows NT 6.2',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Microsoft Office SyncProc',
             'Browser' => 'Office SyncProc',
             'Browser_Type' => 'Application',
@@ -898,13 +898,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-573-R' => [
+    ),
+    'issue-573-R' => array(
         'ua' => 'Microsoft Office Upload Center 2013 (15.0.4693) Windows NT 6.2',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Microsoft Office Upload Center',
             'Browser' => 'Office Upload Center',
             'Browser_Type' => 'Application',
@@ -951,13 +951,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-573-S' => [
+    ),
+    'issue-573-S' => array(
         'ua' => 'non-browser; Microsoft Office/15.0 (Windows NT 6.2; 15.0.4691; Pro)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Microsoft Office',
             'Browser' => 'Office',
             'Browser_Type' => 'Application',
@@ -1004,8 +1004,8 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

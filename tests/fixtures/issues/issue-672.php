@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-672' => [
+return array(
+    'issue-672' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12F70 Safari/600.1.4',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mobile Safari 8.0',
             'Browser' => 'Safari',
             'Browser_Type' => 'Browser',
@@ -50,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-];
+    ),
+);

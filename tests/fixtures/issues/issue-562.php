@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-562-A' => [
+return array(
+    'issue-562-A' => array(
         'ua' => 'Cyberduck/4.6.4 (16610) (Windows XP/5.1) (x86)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Cyberduck',
             'Browser' => 'Cyberduck',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,13 +50,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-562-B' => [
+    ),
+    'issue-562-B' => array(
         'ua' => 'Lynx/2.8.5rel.1 libwww-FM/2.15FC SSL-MM/1.4.1c OpenSSL/0.9.7e-dev',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Lynx',
             'Browser' => 'Lynx',
             'Browser_Type' => 'Browser',
@@ -103,8 +103,8 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
-        'lite'     => false,
+        ),
+        'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

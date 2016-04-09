@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-414' => [
+return array(
+    'issue-414' => array(
         'ua' => 'WeSEE:Ads/PageBot (http://www.wesee.com/bot/)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'General Crawlers',
             'Browser' => 'WeSEE:Ads',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

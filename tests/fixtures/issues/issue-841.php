@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-841-A' => [
+return array(
+    'issue-841-A' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.11) Sprint:MotoQ9c',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'IEMobile 7.11',
             'Browser' => 'IEMobile',
             'Browser_Type' => 'Browser',
@@ -50,13 +50,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '3.1',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-841-B' => [
+    ),
+    'issue-841-B' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.0) T-Mobile_LEO',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'IEMobile 8.12',
             'Browser' => 'IEMobile',
             'Browser_Type' => 'Browser',
@@ -103,8 +103,8 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '3.1',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-];
+    ),
+);

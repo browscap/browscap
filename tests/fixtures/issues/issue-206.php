@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-206' => [
+return array(
+    'issue-206' => array(
         'ua' => 'Mozilla/5.0 (compatible; DotBot/1.1; http://www.opensiteexplorer.org/dotbot, help@moz.com)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'DotBot',
             'Browser' => 'DotBot',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

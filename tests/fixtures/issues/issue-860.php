@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-860-A' => [
+return array(
+    'issue-860-A' => array(
         'ua' => 'SoundCloud/3.0.0 build 2547; iPhone/iPhone OS/7.1.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'SoundCloud App 3.0 for iOS',
             'Browser' => 'SoundCloud App',
             'Browser_Type' => 'Application',
@@ -50,13 +50,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-860-B' => [
+    ),
+    'issue-860-B' => array(
         'ua' => 'SoundCloud-Android/14.08.21-17 (Android 4.4.2; samsung SAMSUNG-SGH-I337)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'SoundCloud App 14.08 for Android',
             'Browser' => 'SoundCloud App',
             'Browser_Type' => 'Application',
@@ -103,8 +103,8 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

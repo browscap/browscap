@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-850' => [
+return array(
+    'issue-850' => array(
         'ua' => 'Mozilla/5.0 (compatible; online-webceo-bot/1.0; +http://online.webceo.com)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'webceo Bot',
             'Browser' => 'webceo Bot',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

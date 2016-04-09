@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-516' => [
+return array(
+    'issue-516' => array(
         'ua' => 'AdsBot-Google-Mobile (+http://www.google.com/mobile/adsbot.html) Mozilla (iPhone; U; CPU iPhone OS 3 0 like Mac OS X) AppleWebKit (KHTML, like Gecko) Mobile Safari',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'AdsBot Google-Mobile',
             'Browser' => 'AdsBot Google-Mobile',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

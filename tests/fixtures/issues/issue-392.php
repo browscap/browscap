@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-392-A' => [
+return array(
+    'issue-392-A' => array(
         'ua' => 'Mozilla/5.0 (Mobile; ALCATELOneTouch4012X/SVN 01014G; rv:18.1) Gecko/18.1 Firefox/18.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 18.1 for FirefoxOS 1.1',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -50,13 +50,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '18.1',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-392-B' => [
+    ),
+    'issue-392-B' => array(
         'ua' => 'NokiaC3-00/5.0 (08.70) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Nokia Browser',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
@@ -103,13 +103,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-392-C' => [
+    ),
+    'issue-392-C' => array(
         'ua' => 'Mozilla/5.0 (Series40; Nokia501/14.0.4/java_runtime_version=Nokia_Asha_1_2; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/3.0.0.0.73',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Nokia Proxy Browser 3.0',
             'Browser' => 'Nokia Proxy Browser',
             'Browser_Type' => 'Browser',
@@ -156,13 +156,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-392-D' => [
+    ),
+    'issue-392-D' => array(
         'ua' => 'Nokia5130c-2/2.0 (07.91) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; Nokia5130c-2) U2/1.0.0 UCBrowser/9.3.0.326 U2/1.0.0 Mobile',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'UC Browser 9.3',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
@@ -209,8 +209,8 @@ return [
             'RenderingEngine_Name' => 'U2',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'UCWeb Inc.',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-];
+    ),
+);

@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-637' => [
+return array(
+    'issue-637' => array(
         'ua' => 'iTunes/12.0.1 (Macintosh; OS X 10.9.2) AppleWebKit/537.74.9',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'iTunes',
             'Browser' => 'iTunes',
             'Browser_Type' => 'Application',
@@ -50,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

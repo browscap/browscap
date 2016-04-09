@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-520' => [
+return array(
+    'issue-520' => array(
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 6_0_1 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mercury/7.4.1 Mobile/10A523 Safari/8536.25',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mercury 7.4',
             'Browser' => 'Mercury',
             'Browser_Type' => 'Browser',
@@ -50,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

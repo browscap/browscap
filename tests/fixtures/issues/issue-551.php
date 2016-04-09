@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-551' => [
+return array(
+    'issue-551' => array(
         'ua' => 'Mozilla/5.0 (compatible; Kraken/0.1; http://linkfluence.net/; bot@linkfluence.net)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Social Bookmarkers',
             'Browser' => 'Kraken',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

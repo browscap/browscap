@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-418-A' => [
+return array(
+    'issue-418-A' => array(
         'ua' => 'Mozilla/5.0 (compatible; 200PleaseBot/1.0; +http://www.200please.com/bot)',
-        'properties' => [
+        'properties' => array(
             'Comment' => '200PleaseBot',
             'Browser' => '200PleaseBot',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,13 +50,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-418-B' => [
+    ),
+    'issue-418-B' => array(
         'ua' => 'Mozilla/5.0 (compatible; Abonti/0.92 - http://www.abonti.com)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Abonti WebSearch',
             'Browser' => 'Abonti WebSearch',
             'Browser_Type' => 'Bot/Crawler',
@@ -103,13 +103,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-418-C' => [
+    ),
+    'issue-418-C' => array(
         'ua' => 'GG PeekBot 2.0 ( http://gg.pl/ http://info.gadu-gadu.pl/praca )',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'GG PeekBot',
             'Browser' => 'GG PeekBot',
             'Browser_Type' => 'Bot/Crawler',
@@ -156,8 +156,8 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

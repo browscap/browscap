@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-234-A' => [
+return array(
+    'issue-234-A' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_1 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D201 Twitter for iPhone',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Twitter App',
             'Browser' => 'Twitter App',
             'Browser_Type' => 'Application',
@@ -50,13 +50,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-234-B' => [
+    ),
+    'issue-234-B' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_1 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Coast/3.0.0.74604 Mobile/11D201 Safari/7534.48.3',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Coast 3.0',
             'Browser' => 'Coast',
             'Browser_Type' => 'Application',
@@ -103,8 +103,8 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

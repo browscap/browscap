@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-053' => [
+return array(
+    'issue-053' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.1; en-us; Nexus 4 Build/JOP40D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Chrome 18.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -50,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

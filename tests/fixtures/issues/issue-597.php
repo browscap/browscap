@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-597' => [
+return array(
+    'issue-597' => array(
         'ua' => 'AddThis.com robot tech.support@clearspring.com',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'AddThis.com robot',
             'Browser' => 'AddThis.com robot',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

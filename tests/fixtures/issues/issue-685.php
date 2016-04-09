@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-685-A' => [
+return array(
+    'issue-685-A' => array(
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 5.0.2; en-US; AO5510) U2/1.0.0 UCBrowser',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'UC Browser Generic',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
@@ -50,13 +50,13 @@ return [
             'RenderingEngine_Name' => 'U2',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'UCWeb Inc.',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-685-B' => [
+    ),
+    'issue-685-B' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; Nexus 5 Build/LMY48B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Chrome 43.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -103,8 +103,8 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

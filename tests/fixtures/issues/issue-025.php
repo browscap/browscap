@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-025' => [
+return array(
+    'issue-025' => array(
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; ru-ru; HTC_One_X Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Android Browser 4.0',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -50,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-];
+    ),
+);

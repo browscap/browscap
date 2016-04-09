@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-723' => [
+return array(
+    'issue-723' => array(
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64; Ubuntu 14.04.2 LTS) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.0 Maxthon/1.0.5.3 Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Maxthon 1.0 for Linux',
             'Browser' => 'Maxthon',
             'Browser_Type' => 'Browser',
@@ -50,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

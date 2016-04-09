@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-262' => [
+return array(
+    'issue-262' => array(
         'ua' => 'Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'AhrefsBot',
             'Browser' => 'AhrefsBot',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

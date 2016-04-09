@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-768' => [
+return array(
+    'issue-768' => array(
         'ua' => 'Mozilla/5.0 (iOS; like Mac OS X) AppleWebKit/536.36 (KHTML, like Gecko) not Chrome/27.0.1500.95 Mobile/10B141 Safari/537.36 Bowser/0.2.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Bowser 0.2',
             'Browser' => 'Bowser',
             'Browser_Type' => 'Browser',
@@ -50,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

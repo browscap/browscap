@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-621' => [
+return array(
+    'issue-621' => array(
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) domain.com Safari/538.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'PagePeeker Screenshot Maker',
             'Browser' => 'PagePeeker Screenshot Maker',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

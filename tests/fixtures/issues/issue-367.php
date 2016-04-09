@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-367' => [
+return array(
+    'issue-367' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; de; rv:1.9.0.7) Gecko/2009021910 Firefox/3.0.7 (via ggpht.com)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Google Image Proxy',
             'Browser' => 'Google Image Proxy',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

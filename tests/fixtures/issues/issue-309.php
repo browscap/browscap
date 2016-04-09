@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-309' => [
+return array(
+    'issue-309' => array(
         'ua' => 'WinHTTP',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'cURL',
             'Browser' => 'WinHttp',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

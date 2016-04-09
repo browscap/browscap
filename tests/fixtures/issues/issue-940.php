@@ -1,9 +1,10 @@
 <?php
 
-return [
-    'issue-940' => [
-        'Mozilla/5.0 (Linux; Android 5.1; TPC-7001 Build/LMY47I) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.93 Safari/537.36',
-        [
+return array(
+    'issue-940' => array(
+        'ua' => 'Mozilla/5.0 (Linux; Android 5.1; TPC-7001 Build/LMY47I) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.93 Safari/537.36',
+        'properties' => array(
+            'Comment' => 'Chrome 43.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -14,23 +15,32 @@ return [
             'MinorVer' => '0',
             'Platform' => 'Android',
             'Platform_Version' => '5.1',
+            'Platform_Description' => 'Android OS',
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Google Inc',
+            'Alpha' => false,
+            'Beta' => false,
             'Win16' => false,
             'Win32' => false,
             'Win64' => false,
-            'isMobileDevice' => true,
-            'isTablet' => true,
-            'Crawler' => false,
-            'JavaScript' => true,
-            'Cookies' => true,
             'Frames' => true,
             'IFrames' => true,
             'Tables' => true,
+            'Cookies' => true,
+            'BackgroundSounds' => false,
+            'JavaScript' => true,
             'VBScript' => false,
             'JavaApplets' => false,
             'ActiveXControls' => false,
-            'BackgroundSounds' => false,
+            'isMobileDevice' => true,
+            'isTablet' => true,
+            'isSyndicationReader' => false,
+            'Crawler' => false,
+            'isFake' => false,
+            'isAnonymized' => false,
+            'isModified' => false,
+            'CssVersion' => '3',
+            'AolVersion' => '0',
             'Device_Name' => 'TCP-7001',
             'Device_Maker' => 'Vivax',
             'Device_Type' => 'Tablet',
@@ -40,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
-        'lite'     => true,
+        ),
+        'lite' => true,
         'standard' => true,
-    ],
-];
+    ),
+);

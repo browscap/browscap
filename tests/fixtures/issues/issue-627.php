@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-627' => [
+return array(
+    'issue-627' => array(
         'ua' => 'dv(GT-S6102);pr(UCBrowser/9.8.5.442);ov(Android 2.3.6);ss(240*301);bt(GJ);pm(1);bv(0);nm(0);im(0);sr(0);nt(2);',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'UC Browser 9.8',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
@@ -50,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

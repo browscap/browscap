@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-443' => [
+return array(
+    'issue-443' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:33.0) Gecko/20100101 Firefox/33.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 33.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -50,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '33.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-];
+    ),
+);

@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-209-A' => [
+return array(
+    'issue-209-A' => array(
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 5_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9B176 Safari/7534.48.3',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mobile Safari 5.1',
             'Browser' => 'Safari',
             'Browser_Type' => 'Browser',
@@ -50,13 +50,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-209-B' => [
+    ),
+    'issue-209-B' => array(
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 7_1 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Version/7.0 Mobile/11D167 Safari/9537.53',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mobile Safari 7.0',
             'Browser' => 'Safari',
             'Browser_Type' => 'Browser',
@@ -103,13 +103,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-209-C' => [
+    ),
+    'issue-209-C' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Version/7.0 Mobile/11D167 Safari/9537.53',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mobile Safari 7.0',
             'Browser' => 'Safari',
             'Browser_Type' => 'Browser',
@@ -156,13 +156,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-209-D' => [
+    ),
+    'issue-209-D' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mobile Safari 6.0',
             'Browser' => 'Safari',
             'Browser_Type' => 'Browser',
@@ -209,8 +209,8 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-];
+    ),
+);

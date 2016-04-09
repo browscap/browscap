@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-385-A' => [
+return array(
+    'issue-385-A' => array(
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-us; MI 3W Build/KVT49L) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 UCBrowser/9.8.9.457 U3/0.8.0 Mobile Safari/533.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'UC Browser 9.8',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
@@ -50,13 +50,13 @@ return [
             'RenderingEngine_Name' => 'U3',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'UCWeb Inc.',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-385-B' => [
+    ),
+    'issue-385-B' => array(
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-us; GT-I9300 Build/JSS15J) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 UCBrowser/9.8.9.457 U3/0.8.0 Mobile Safari/533.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'UC Browser 9.8',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
@@ -103,8 +103,8 @@ return [
             'RenderingEngine_Name' => 'U3',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'UCWeb Inc.',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

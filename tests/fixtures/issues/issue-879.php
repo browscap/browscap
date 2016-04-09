@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-879' => [
+return array(
+    'issue-879' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/537.36 (KHTML, like Gecko) Wire/2.3.2553 Chrome/45.0.2454.85 Electron/0.35.2 Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Wire App 2.3',
             'Browser' => 'Wire App',
             'Browser_Type' => 'Application',
@@ -50,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

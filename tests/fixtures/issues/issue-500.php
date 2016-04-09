@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-500-A' => [
+return array(
+    'issue-500-A' => array(
         'ua' => 'Mozilla/5.0 (compatible; CloudFlare-AlwaysOnline/1.0; +http://www.cloudflare.com/always-online) AppleWebKit/534.34',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Online Scanners',
             'Browser' => 'CloudFlare AlwaysOnline',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,13 +50,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-500-B' => [
+    ),
+    'issue-500-B' => array(
         'ua' => 'BigBozz/BigBozz-2.2.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'General Crawlers',
             'Browser' => 'BigBozz - Financial Search',
             'Browser_Type' => 'Bot/Crawler',
@@ -103,13 +103,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-500-C' => [
+    ),
+    'issue-500-C' => array(
         'ua' => 'ECCP/1.0 (search@eniro.com)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'General Crawlers',
             'Browser' => 'ECCP',
             'Browser_Type' => 'Bot/Crawler',
@@ -156,13 +156,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-500-D' => [
+    ),
+    'issue-500-D' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux; C -) AppleWebKit/527+ (KHTML, like Gecko, Safari/419.3)  Webglance/0.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Web Glance',
             'Browser' => 'Web Glance',
             'Browser_Type' => 'Bot/Crawler',
@@ -209,13 +209,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-500-E' => [
+    ),
+    'issue-500-E' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit (KHTML, like Gecko)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Apple Mail for OSX',
             'Browser' => 'Apple Mail',
             'Browser_Type' => 'Email Client',
@@ -262,13 +262,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-500-F' => [
+    ),
+    'issue-500-F' => array(
         'ua' => '\\x22Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534+ (KHTML, like Gecko) MsnBot-Media /1.0b\\x22',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -315,13 +315,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-500-G' => [
+    ),
+    'issue-500-G' => array(
         'ua' => 'wp-iphone/4.4 (iPhone OS 8.0.2, iPad) Mobile',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'WordPress App',
             'Browser' => 'WordPress App',
             'Browser_Type' => 'Application',
@@ -368,13 +368,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-500-H' => [
+    ),
+    'issue-500-H' => array(
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.2.1; en-us; NOOK BNRV200 Build/ERD79 1.4.3) Apple WebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Android Browser 4.0',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -421,13 +421,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-500-I' => [
+    ),
+    'issue-500-I' => array(
         'ua' => 'facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Facebook',
             'Browser' => 'FacebookExternalHit',
             'Browser_Type' => 'Bot/Crawler',
@@ -474,13 +474,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-500-J' => [
+    ),
+    'issue-500-J' => array(
         'ua' => 'Mozilla/5.0 (Mobile; ALCATEL ONE TOUCH 4012A; rv:18.1) Gecko/18.1 Firefox/18.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 18.1 for FirefoxOS 1.1',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -527,13 +527,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '18.1',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-500-K' => [
+    ),
+    'issue-500-K' => array(
         'ua' => 'Mozilla/5.0 (Linux;U; Android 4.2.2;  en-us;  Nuqleo; Zaffire 785 Build/ICS) AppleWebKit/531.21.10(KTHML,like Gecko) Version/4.0.4 Mobile/7B367 Safari/531.21.10',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Android Browser 4.0',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -580,13 +580,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-500-L' => [
+    ),
+    'issue-500-L' => array(
         'ua' => 'Mozilla/5.0 (LG-C199 AppleWebkit/531 Browser/Phantom/V2.0 Widget/LGMW/3.0 MMS/LG-MMS-V1.0/1.2 Java/ASVM/1.1 Profile/MIDP-2.1 Configuration/CLDC-1.1)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Phantom Browser',
             'Browser' => 'Phantom Browser',
             'Browser_Type' => 'Browser',
@@ -633,13 +633,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-500-M' => [
+    ),
+    'issue-500-M' => array(
         'ua' => 'GigablastOpenSource/1.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Search Engines',
             'Browser' => 'Gigablast Search Engine',
             'Browser_Type' => 'Bot/Crawler',
@@ -686,13 +686,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-500-N' => [
+    ),
+    'issue-500-N' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) Shrook/434l',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'General RSS',
             'Browser' => 'Shrook',
             'Browser_Type' => 'Bot/Crawler',
@@ -739,13 +739,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-500-O' => [
+    ),
+    'issue-500-O' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) Shrook/1290y',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'General RSS',
             'Browser' => 'Shrook',
             'Browser_Type' => 'Bot/Crawler',
@@ -792,13 +792,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-500-P' => [
+    ),
+    'issue-500-P' => array(
         'ua' => 'Mozilla/5.0 (compatible; Crawler/0.9; http://linkfluence.net/)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'General Crawlers',
             'Browser' => 'Crawler',
             'Browser_Type' => 'Bot/Crawler',
@@ -845,13 +845,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-500-Q' => [
+    ),
+    'issue-500-Q' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X; de) AppleWebKit/533.19.4 (KHTML, like Gecko) AdobeAIR/13.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Adobe AIR 13.0',
             'Browser' => 'Adobe AIR',
             'Browser_Type' => 'Application',
@@ -898,13 +898,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-500-R' => [
+    ),
+    'issue-500-R' => array(
         'ua' => 'Mozilla/5.0 (Windows; N; ; ru-RU) AppleWebKit/527+ (KHTML, like Gecko, Safari/419.3) Qt/4.5.3',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Qt 4.5',
             'Browser' => 'Qt',
             'Browser_Type' => 'Browser',
@@ -951,13 +951,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-500-S' => [
+    ),
+    'issue-500-S' => array(
         'ua' => 'WebIndex',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'General Crawlers',
             'Browser' => 'WebIndex',
             'Browser_Type' => 'Bot/Crawler',
@@ -1004,13 +1004,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-500-T' => [
+    ),
+    'issue-500-T' => array(
         'ua' => 'Prince/7.1 (http://www.princexml.com)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Prince',
             'Browser' => 'Prince',
             'Browser_Type' => 'Application',
@@ -1057,13 +1057,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-500-U' => [
+    ),
+    'issue-500-U' => array(
         'ua' => 'Mozilla/5.0 (compatible; MetaJobBot; http://www.metajob.at/crawler)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Jobs',
             'Browser' => 'MetaJobBot',
             'Browser_Type' => 'Bot/Crawler',
@@ -1110,13 +1110,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-500-V' => [
+    ),
+    'issue-500-V' => array(
         'ua' => 'Mozilla/4.0 (Windows NT 6.2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.70 Safari/537.17',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Chrome 24.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -1163,13 +1163,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-500-W' => [
+    ),
+    'issue-500-W' => array(
         'ua' => 'ArchiveTeam ArchiveBot/20141009.02 (wpull 0.1002a1) and not Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.101 Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'General Crawlers',
             'Browser' => 'ArchiveBot',
             'Browser_Type' => 'Bot/Crawler',
@@ -1216,13 +1216,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-500-X' => [
+    ),
+    'issue-500-X' => array(
         'ua' => 'Mozilla/4.0(compatible;MSIE 7.0;Windows NT 6.1;SV1;.NET CLR 1.0.3705;.NET CLR 3.0.30618)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -1269,13 +1269,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-500-Y' => [
+    ),
+    'issue-500-Y' => array(
         'ua' => 'Smartsite HTTPClient - Mozilla/4.0 (compatible; MSIE 6.0)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Rippers',
             'Browser' => 'Smartsite HTTPClient',
             'Browser_Type' => 'Bot/Crawler',
@@ -1322,13 +1322,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-500-Z' => [
+    ),
+    'issue-500-Z' => array(
         'ua' => 'Mozilla/4.0 (jig browser web; 1.0.4; N02A)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'W3C',
             'Browser' => 'jig browser web',
             'Browser_Type' => 'Bot/Crawler',
@@ -1375,13 +1375,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-500-AA' => [
+    ),
+    'issue-500-AA' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 9.0;IPMS/FFFFFFFF-1518D070BFB-000000000000; Windows NT 6.1; Trident/6.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; Tablet PC 2.0; InfoPath.3; MASMJS)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'IE 10.0 in IE 9.0 Compatibility Mode',
             'Browser' => 'IE',
             'Browser_Type' => 'Browser',
@@ -1428,8 +1428,8 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '6.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-];
+    ),
+);

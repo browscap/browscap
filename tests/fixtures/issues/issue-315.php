@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-315-A' => [
+return array(
+    'issue-315-A' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36 Nichrome/self/33',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Nichrome 33.0',
             'Browser' => 'Nichrome',
             'Browser_Type' => 'Browser',
@@ -50,13 +50,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-315-B' => [
+    ),
+    'issue-315-B' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36 Nichrome/self/33',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Nichrome 33.0',
             'Browser' => 'Nichrome',
             'Browser_Type' => 'Browser',
@@ -103,8 +103,8 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

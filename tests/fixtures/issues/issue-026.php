@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-026' => [
+return array(
+    'issue-026' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Chrome 30.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -50,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

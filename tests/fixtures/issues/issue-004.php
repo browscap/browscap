@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-004' => [
+return array(
+    'issue-004' => array(
         'ua' => 'Mozilla/5.0 (PLAYSTATION 3; 2.00)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Playstation Browser',
             'Browser' => 'Playstation Browser',
             'Browser_Type' => 'Browser',
@@ -50,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

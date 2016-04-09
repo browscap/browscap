@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-350-A' => [
+return array(
+    'issue-350-A' => array(
         'ua' => 'Mozilla/5.0 (compatible; XoviBot/2.0; +http://www.xovibot.net/)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'XoviBot',
             'Browser' => 'XoviBot',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,13 +50,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-350-B' => [
+    ),
+    'issue-350-B' => array(
         'ua' => 'Mozilla/5.0 (compatible; 007ac9 Crawler; http://crawler.007ac9.net/)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sistrix Crawler',
             'Browser' => '007AC9 Crawler',
             'Browser_Type' => 'Bot/Crawler',
@@ -103,13 +103,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-350-C' => [
+    ),
+    'issue-350-C' => array(
         'ua' => 'Mozilla/5.0 (compatible; AOLbot/4.0; +http://www.aol-soft.com/)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'AOLbot',
             'Browser' => 'AOLbot',
             'Browser_Type' => 'Bot/Crawler',
@@ -156,13 +156,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-350-D' => [
+    ),
+    'issue-350-D' => array(
         'ua' => 'Go 1.1 package http',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'HttpClient for Google Go Programming Language',
             'Browser' => 'GO HttpClient',
             'Browser_Type' => 'Bot/Crawler',
@@ -209,13 +209,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-350-E' => [
+    ),
+    'issue-350-E' => array(
         'ua' => 'Mozilla/5.0 (compatible; DomainSCAN/2.0; +http://domainscan.info/robot/)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'DomainScan Server Monitoring',
             'Browser' => 'DomainScan Server Monitoring',
             'Browser_Type' => 'Bot/Crawler',
@@ -262,13 +262,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-350-F' => [
+    ),
+    'issue-350-F' => array(
         'ua' => 'Proxy Gear Pro/2.1 (Windows; N; Windows NT 6.1; en)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Proxy Gear Pro',
             'Browser' => 'Proxy Gear Pro',
             'Browser_Type' => 'Bot/Crawler',
@@ -315,8 +315,8 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-172' => [
+return array(
+    'issue-172' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; ARM; Trident/7.0; Touch; rv:11.0) like Gecko',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'IE 11.0',
             'Browser' => 'IE',
             'Browser_Type' => 'Browser',
@@ -50,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '7.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

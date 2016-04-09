@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-413' => [
+return array(
+    'issue-413' => array(
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0); 360Spider',
-        'properties' => [
+        'properties' => array(
             'Comment' => '360Spider',
             'Browser' => '360Spider',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '5.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-396' => [
+return array(
+    'issue-396' => array(
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.6; fa-fa; GT-S5830i Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1 MxBrowser/4.3.0.2000',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Maxthon 4.3',
             'Browser' => 'Maxthon',
             'Browser_Type' => 'Browser',
@@ -50,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

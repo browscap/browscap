@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-292' => [
+return array(
+    'issue-292' => array(
         'ua' => 'Mozilla/5.0 (compatible; uMBot-FC/1.0; mailto: crawling@ubermetrics-technologies.com)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'uMBot',
             'Browser' => 'uMBot',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-148' => [
+return array(
+    'issue-148' => array(
         'ua' => 'Yahoo:LinkExpander:Slingstone',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Yahoo',
             'Browser' => 'Yahoo Slingstone',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

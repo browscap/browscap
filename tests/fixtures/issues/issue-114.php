@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-114-D' => [
+return array(
+    'issue-114-D' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1200.0 Iron/21.0.1200.0 Safari/537.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Iron 21.0',
             'Browser' => 'Iron',
             'Browser_Type' => 'Browser',
@@ -50,13 +50,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-114-C' => [
+    ),
+    'issue-114-C' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/534.30 (KHTML, like Gecko) Iron/12.0.750.0 Chrome/12.0.750.0 Safari/534.30',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Iron 12.0',
             'Browser' => 'Iron',
             'Browser_Type' => 'Browser',
@@ -103,13 +103,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-114-B' => [
+    ),
+    'issue-114-B' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.1.4) Gecko/20091016 Firefox/3.5.4 (.NET CLR 3.5.30729)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.5',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -156,13 +156,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.1',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-114-A' => [
+    ),
+    'issue-114-A' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.7) Gecko/2009021910 Firefox/3.0.7 (.NET CLR 3.5.30729)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -209,8 +209,8 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

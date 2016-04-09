@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-588-A' => [
+return array(
+    'issue-588-A' => array(
         'ua' => 'Mozilla/5.0 (compatible; MegaIndex.ru/2.0; +https://www.megaindex.ru/?tab=linkAnalyze)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'General Crawlers',
             'Browser' => 'MegaIndex Bot',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,13 +50,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-588-B' => [
+    ),
+    'issue-588-B' => array(
         'ua' => 'Mozilla/5.0 (compatible; Cliqzbot/0.1 +http://cliqz.com/company/cliqzbot)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Cliqzbot',
             'Browser' => 'Cliqzbot',
             'Browser_Type' => 'Bot/Crawler',
@@ -103,13 +103,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-588-C' => [
+    ),
+    'issue-588-C' => array(
         'ua' => 'Mozilla/4.0 (compatible; DAWINCI ANTIPLAG SPIDER)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'General Crawlers',
             'Browser' => 'DAWINCI ANTIPLAG SPIDER',
             'Browser_Type' => 'Bot/Crawler',
@@ -156,13 +156,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-588-D' => [
+    ),
+    'issue-588-D' => array(
         'ua' => 'AccServer[HOGANMIDSCHOOL]/5.0.2.20(24517) 64-bit HTTP-Agent',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'General Crawlers',
             'Browser' => 'AccServer',
             'Browser_Type' => 'Bot/Crawler',
@@ -209,13 +209,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-588-E' => [
+    ),
+    'issue-588-E' => array(
         'ua' => 'SafeSearch microdata crawler (https://safesearch.avira.com, safesearch-abuse@avira.com)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'General Crawlers',
             'Browser' => 'SafeSearch microdata crawler',
             'Browser_Type' => 'Bot/Crawler',
@@ -262,13 +262,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-588-F' => [
+    ),
+    'issue-588-F' => array(
         'ua' => 'Mozilla/5.0 (compatible; AdvBot/2.0; +http://advbot.net/bot.html)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'General Crawlers',
             'Browser' => 'AdvBot',
             'Browser_Type' => 'Bot/Crawler',
@@ -315,13 +315,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-588-G' => [
+    ),
+    'issue-588-G' => array(
         'ua' => 'Mozilla/5.0 (compatible; DuckDuckGo-Favicons-Bot/1.0; +http://duckduckgo.com)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'DuckDuckBot',
             'Browser' => 'DuckDuck Favicons Bot',
             'Browser_Type' => 'Bot/Crawler',
@@ -368,13 +368,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-588-H' => [
+    ),
+    'issue-588-H' => array(
         'ua' => 'Mozilla/4.0 compatible ZyBorg/1.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'General Crawlers',
             'Browser' => 'WiseNut search engine crawler',
             'Browser_Type' => 'Bot/Crawler',
@@ -421,13 +421,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-588-I' => [
+    ),
+    'issue-588-I' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; Butterfly/1.0; +http://labs.topsy.com/butterfly/) Gecko/2009032608 Firefox/3.0.8',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'General Crawlers',
             'Browser' => 'Butterfly Robot',
             'Browser_Type' => 'Bot/Crawler',
@@ -474,8 +474,8 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-077-G' => [
+return array(
+    'issue-077-G' => array(
         'ua' => 'SAMSUNG-SGH-E250/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/6.2.3.3.c.1.101 (GUI) MMP/2.0 (compatible; Googlebot-Mobile/2.1; +http://www.google.com/bot.html)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Googlebot',
             'Browser' => 'Google Bot Mobile',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,13 +50,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-077-F' => [
+    ),
+    'issue-077-F' => array(
         'ua' => 'DoCoMo/2.0 N905i(c100;TB;W24H16) (compatible; Googlebot-Mobile/2.1; +http://www.google.com/bot.html)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Googlebot',
             'Browser' => 'Google Bot Mobile',
             'Browser_Type' => 'Bot/Crawler',
@@ -103,13 +103,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-077-E' => [
+    ),
+    'issue-077-E' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Googlebot 2.1',
             'Browser' => 'Google Bot',
             'Browser_Type' => 'Bot/Crawler',
@@ -156,13 +156,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-077-D' => [
+    ),
+    'issue-077-D' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25 (compatible; Googlebot-Mobile/2.1; +http://www.google.com/bot.html)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Googlebot',
             'Browser' => 'Google Bot Mobile',
             'Browser_Type' => 'Bot/Crawler',
@@ -209,13 +209,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-077-C' => [
+    ),
+    'issue-077-C' => array(
         'ua' => 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Googlebot 2.1',
             'Browser' => 'Google Bot',
             'Browser_Type' => 'Bot/Crawler',
@@ -262,13 +262,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-077-B' => [
+    ),
+    'issue-077-B' => array(
         'ua' => 'integrity/4',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Link Checkers',
             'Browser' => 'Integrity',
             'Browser_Type' => 'Bot/Crawler',
@@ -315,13 +315,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-077-A' => [
+    ),
+    'issue-077-A' => array(
         'ua' => 'Mozilla/5.0 (Linux; U; en-us; KFTT Build/IML74K) AppleWebKit/535.19 (KHTML, like Gecko) Silk/3.11 Safari/535.19 Silk-Accelerated=true',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Silk 3.11',
             'Browser' => 'Silk',
             'Browser_Type' => 'Browser',
@@ -368,8 +368,8 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-];
+    ),
+);

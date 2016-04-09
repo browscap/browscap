@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-237-A' => [
+return array(
+    'issue-237-A' => array(
         'ua' => 'Mozilla/5.0 (iPhone5,2; iPhone; U; CPU OS 7_1_1 like Mac OS X; de_DE) com.google.GooglePlus/33839 (KHTML, like Gecko) Mobile/N42AP (gzip)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Google+ App',
             'Browser' => 'Google+ App',
             'Browser_Type' => 'Application',
@@ -50,13 +50,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-237-B' => [
+    ),
+    'issue-237-B' => array(
         'ua' => 'Mozilla/5.0 (iPhone4,1; iPhone; U; CPU OS 7_1 like Mac OS X; de_DE) com.google.GooglePlus/33839 (KHTML, like Gecko) Mobile/N94AP (gzip)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Google+ App',
             'Browser' => 'Google+ App',
             'Browser_Type' => 'Application',
@@ -103,8 +103,8 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

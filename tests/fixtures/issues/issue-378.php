@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-378-A' => [
+return array(
+    'issue-378-A' => array(
         'ua' => 'YUANDA50_12864_11B_HW (MRE\\2.5.00(800) resolution\\320480 chipset\\MT6250 touch\\1 tpannel\\1 camera\\1 gsensor\\0 keyboard\\reduced) C529AH_JY_539_W1.11B.V2.2 Release/2012.09.26 WAP Browser/MAUI (HTTP PGDL; HTTPS) Profile/ Q03C1-2.40 fr-FR',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'MAUI Wap Browser',
             'Browser' => 'MAUI Wap Browser',
             'Browser_Type' => 'Browser',
@@ -50,13 +50,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-378-B' => [
+    ),
+    'issue-378-B' => array(
         'ua' => 'Z15A-Z15A/1.0 Linux/2.6.35.7 Android/4.0 Release/03.25.2013 Browser/AppleWebKit533.1 (KHTML, like Gecko) Mozilla/5.0 Mobile',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Android Browser 4.0',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -103,13 +103,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-378-C' => [
+    ),
+    'issue-378-C' => array(
         'ua' => 'YahooMobile/1.0 (Yahoo! Search; 3.1.2) (Apple; iPod touch; iPhone OS/7.1.1); YHOO_Search_App/3.1.2',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Yahoo Mobile App 3.1',
             'Browser' => 'Yahoo Mobile App',
             'Browser_Type' => 'Bot/Crawler',
@@ -156,13 +156,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-378-D' => [
+    ),
+    'issue-378-D' => array(
         'ua' => 'YahooMobile/1.0 (Yahoo! Search; 3.1.3) (Apple; iPhone; iPhone OS/7.1.2); YHOO_Search_App/3.1.3',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Yahoo Mobile App 3.1',
             'Browser' => 'Yahoo Mobile App',
             'Browser_Type' => 'Bot/Crawler',
@@ -209,13 +209,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-378-E' => [
+    ),
+    'issue-378-E' => array(
         'ua' => 'WordPress 4.0-alpha Feed Client Mozilla/5.0 Compatible',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'WordPress 4.0',
             'Browser' => 'WordPress',
             'Browser_Type' => 'Bot/Crawler',
@@ -262,13 +262,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-378-F' => [
+    ),
+    'issue-378-F' => array(
         'ua' => 'Windows-RSS-Platform/2.0 (IE 11.0; Windows NT 6.3)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Windows-RSS-Platform 2.0',
             'Browser' => 'Windows-RSS-Platform',
             'Browser_Type' => 'Bot/Crawler',
@@ -315,13 +315,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-378-G' => [
+    ),
+    'issue-378-G' => array(
         'ua' => 'Windows Phone Search (Windows Phone OS 7.10;NOKIA;Lumia 900;7.10;8862)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'MSN',
             'Browser' => 'Windows Phone Search',
             'Browser_Type' => 'Bot/Crawler',
@@ -368,13 +368,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-378-H' => [
+    ),
+    'issue-378-H' => array(
         'ua' => 'UCWEB/2.0(Linux; U; Opera Mini/7.1.32052/30.3697; fr-fr; MB525 Build/JRDNEM_U3_2.24.0) U2/1.0.0 UCBrowser/9.5.0.360 Mobile',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'UC Browser 9.5',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
@@ -421,13 +421,13 @@ return [
             'RenderingEngine_Name' => 'U2',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'UCWeb Inc.',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-378-I' => [
+    ),
+    'issue-378-I' => array(
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 4.4; en-US; SPHS_on_Hsdroid) U2/1.0.0 UCBrowser/8.9.2.373 U2/1.0.0 Mobile',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'UC Browser 8.9',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
@@ -474,13 +474,13 @@ return [
             'RenderingEngine_Name' => 'U2',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'UCWeb Inc.',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-378-J' => [
+    ),
+    'issue-378-J' => array(
         'ua' => 'Tiny Tiny RSS/1.10 (http://tt-rss.org/)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Tiny Tiny RSS 1.10',
             'Browser' => 'Tiny Tiny RSS',
             'Browser_Type' => 'Bot/Crawler',
@@ -527,13 +527,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-378-K' => [
+    ),
+    'issue-378-K' => array(
         'ua' => 'stagefright/1.2 (Linux;Android 4.2.1)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'stagefright 1.2',
             'Browser' => 'stagefright',
             'Browser_Type' => 'Application',
@@ -580,13 +580,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-378-L' => [
+    ),
+    'issue-378-L' => array(
         'ua' => 'Screaming Frog SEO Spider/2.40',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Screaming Frog SEO Spider 2.40',
             'Browser' => 'Screaming Frog SEO Spider',
             'Browser_Type' => 'Bot/Crawler',
@@ -633,13 +633,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-378-M' => [
+    ),
+    'issue-378-M' => array(
         'ua' => 'Readability/de31a5 - http://readability.com/about/',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Readability',
             'Browser' => 'Readability',
             'Browser_Type' => 'Application',
@@ -686,13 +686,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-378-N' => [
+    ),
+    'issue-378-N' => array(
         'ua' => 'Opera/9.80 (MTK; Opera Mini/2.1198/34.2336; U; fr) Presto/2.8.119 Version/11.10',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera Mini 2.0',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
@@ -739,13 +739,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-378-O' => [
+    ),
+    'issue-378-O' => array(
         'ua' => 'NSPlayer/12.00.9200.16550 WMFSDK/12.00.9200.16550',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Windows Media Player',
             'Browser' => 'Windows Media Player',
             'Browser_Type' => 'Multimedia Player',
@@ -792,13 +792,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-378-P' => [
+    ),
+    'issue-378-P' => array(
         'ua' => 'NewsBlur Feed Fetcher - 0 subscribers - http://www.newsblur.com/site/1719739/nouvelles-cinema (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_1) AppleWebKit/534.48.3 (KHTML, like Gecko) Version/5.1 Safari/534.48.3)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Feeds Syndicators',
             'Browser' => 'NewsBlur Feed Fetcher',
             'Browser_Type' => 'Bot/Crawler',
@@ -845,13 +845,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-378-Q' => [
+    ),
+    'issue-378-Q' => array(
         'ua' => '[FBAN/FB4A;FBAV/10.0.0.28.27;FBBV/2802760;FBDM/{density=3.0,width=1080,height=1776};FBLC/fr_CA;FBCR/VIRGIN;FBPN/com.facebook.katana;FBDV/Nexus 5;FBSV/4.4.3;FBOP/1;FBCA/armeabi-v7a:armeabi;]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Facebook App for Android',
             'Browser' => 'Facebook App',
             'Browser_Type' => 'Application',
@@ -898,13 +898,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-378-R' => [
+    ),
+    'issue-378-R' => array(
         'ua' => 'AppleCoreMedia/1.0.0.11D5145e (iPad; U; CPU OS 7_1 like Mac OS X; fr_fr)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'AppleCoreMedia 1.0',
             'Browser' => 'AppleCoreMedia',
             'Browser_Type' => 'Application',
@@ -951,13 +951,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-378-S' => [
+    ),
+    'issue-378-S' => array(
         'ua' => 'AppleCoreMedia/1.0.0.11D169 (iPhone; U; CPU OS 7_1 like Mac OS X; fr_fr)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'AppleCoreMedia 1.0',
             'Browser' => 'AppleCoreMedia',
             'Browser_Type' => 'Application',
@@ -1004,13 +1004,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-378-T' => [
+    ),
+    'issue-378-T' => array(
         'ua' => 'AppleCoreMedia/1.0.0.11D201 (iPod touch; U; CPU OS 7_1_1 like Mac OS X; fr_fr)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'AppleCoreMedia 1.0',
             'Browser' => 'AppleCoreMedia',
             'Browser_Type' => 'Application',
@@ -1057,13 +1057,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-378-U' => [
+    ),
+    'issue-378-U' => array(
         'ua' => 'AppleCoreMedia/1.0.0.11G63b (Macintosh; U; Intel Mac OS X 10_7_5; fr_ca)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'AppleCoreMedia 1.0',
             'Browser' => 'AppleCoreMedia',
             'Browser_Type' => 'Application',
@@ -1110,8 +1110,8 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

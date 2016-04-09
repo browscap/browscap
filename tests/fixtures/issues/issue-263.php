@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-263' => [
+return array(
+    'issue-263' => array(
         'ua' => 'Domnutch-Bot/Nutch-1.0 (Domnutch; http://www.Nutch.de/)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Nutch',
             'Browser' => 'Domnutch Bot',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

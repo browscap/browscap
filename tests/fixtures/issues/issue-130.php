@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-130' => [
+return array(
+    'issue-130' => array(
         'ua' => 'Mozilla/5.0 (en-us) AppleWebKit/534.14 (KHTML, like Gecko; Google Wireless Transcoder) Chrome/9.0.597 Safari/534.14',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Google',
             'Browser' => 'Google Wireless Transcoder',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

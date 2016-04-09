@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-224-A' => [
+return array(
+    'issue-224-A' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 1084) AppleWebKit/536.29.13 (KHTML like Gecko) Version/6.0.4 Safari/536.29.13',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Safari 6.0',
             'Browser' => 'Safari',
             'Browser_Type' => 'Browser',
@@ -50,13 +50,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-224-B' => [
+    ),
+    'issue-224-B' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 107) AppleWebKit/534.48.3 (KHTML like Gecko) Version/5.1 Safari/534.48.3',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Safari 5.1',
             'Browser' => 'Safari',
             'Browser_Type' => 'Browser',
@@ -103,8 +103,8 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

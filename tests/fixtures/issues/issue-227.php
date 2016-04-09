@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-227' => [
+return array(
+    'issue-227' => array(
         'ua' => 'RankFlex.com Webspider',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'RankFlex',
             'Browser' => 'RankFlex',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

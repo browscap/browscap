@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-258' => [
+return array(
+    'issue-258' => array(
         'ua' => 'Mozilla/5.0 (compatible; nbot/2.0)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'nbot',
             'Browser' => 'nbot',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

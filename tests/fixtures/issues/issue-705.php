@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-705-A' => [
+return array(
+    'issue-705-A' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.76 Safari/537.36 Seznam.cz/1.2.6',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Seznam Browser 1.2',
             'Browser' => 'Seznam Browser',
             'Browser_Type' => 'Browser',
@@ -50,13 +50,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-705-B' => [
+    ),
+    'issue-705-B' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG SM-G920F Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.2 Chrome/38.0.2125.102 Mobile Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Samsung Browser 3.2',
             'Browser' => 'Samsung Browser',
             'Browser_Type' => 'Browser',
@@ -103,13 +103,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-705-C' => [
+    ),
+    'issue-705-C' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG SM-G925T Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.2 Chrome/38.0.2125.102 Mobile Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Samsung Browser 3.2',
             'Browser' => 'Samsung Browser',
             'Browser_Type' => 'Browser',
@@ -156,13 +156,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-705-D' => [
+    ),
+    'issue-705-D' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Dragon/43.3.3.185 Chrome/43.0.2357.81 Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Comodo Dragon 43.3',
             'Browser' => 'Dragon',
             'Browser_Type' => 'Browser',
@@ -209,13 +209,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-705-E' => [
+    ),
+    'issue-705-E' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG SM-G920P Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.2 Chrome/38.0.2125.102 Mobile Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Samsung Browser 3.2',
             'Browser' => 'Samsung Browser',
             'Browser_Type' => 'Browser',
@@ -262,13 +262,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-705-F' => [
+    ),
+    'issue-705-F' => array(
         'ua' => 'TBDG773 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.34 Safari/534.24',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Chrome 11.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -315,13 +315,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-705-G' => [
+    ),
+    'issue-705-G' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Dragon/43.3.3.176 Chrome/43.0.2357.81 Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Comodo Dragon 43.3',
             'Browser' => 'Dragon',
             'Browser_Type' => 'Browser',
@@ -368,13 +368,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-705-H' => [
+    ),
+    'issue-705-H' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-us) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.114 Safari/537.36 Puffin/4.2.0.1834AP',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Puffin 4.2',
             'Browser' => 'Puffin',
             'Browser_Type' => 'Browser',
@@ -421,13 +421,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-705-I' => [
+    ),
+    'issue-705-I' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG SM-G925I Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.2 Chrome/38.0.2125.102 Mobile Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Samsung Browser 3.2',
             'Browser' => 'Samsung Browser',
             'Browser_Type' => 'Browser',
@@ -474,13 +474,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-705-J' => [
+    ),
+    'issue-705-J' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Dragon/43.3.3.176 Chrome/43.0.2357.81 Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Comodo Dragon 43.3',
             'Browser' => 'Dragon',
             'Browser_Type' => 'Browser',
@@ -527,13 +527,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-705-K' => [
+    ),
+    'issue-705-K' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Superbird/32.0.1700.7 Chrome/32.0.1700.7 Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'SuperBird 32.0',
             'Browser' => 'SuperBird',
             'Browser_Type' => 'Browser',
@@ -580,13 +580,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-705-L' => [
+    ),
+    'issue-705-L' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-GB) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.114 Safari/537.36 Puffin/4.4.0IP',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Puffin 4.4',
             'Browser' => 'Puffin',
             'Browser_Type' => 'Browser',
@@ -633,13 +633,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-705-M' => [
+    ),
+    'issue-705-M' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Dragon/43.3.3.185 Chrome/43.0.2357.81 Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Comodo Dragon 43.3',
             'Browser' => 'Dragon',
             'Browser_Type' => 'Browser',
@@ -686,13 +686,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-705-N' => [
+    ),
+    'issue-705-N' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Dragon/42.1.2.91 Chrome/42.0.2311.135 Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Comodo Dragon 42.1',
             'Browser' => 'Dragon',
             'Browser_Type' => 'Browser',
@@ -739,13 +739,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-705-O' => [
+    ),
+    'issue-705-O' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.76 Safari/537.36 Seznam.cz/1.2.6',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Seznam Browser 1.2',
             'Browser' => 'Seznam Browser',
             'Browser_Type' => 'Browser',
@@ -792,13 +792,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-705-P' => [
+    ),
+    'issue-705-P' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Dragon/36.7.0.8 Chrome/36.0.1985.97 Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Comodo Dragon 36.7',
             'Browser' => 'Dragon',
             'Browser_Type' => 'Browser',
@@ -845,13 +845,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-705-Q' => [
+    ),
+    'issue-705-Q' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; fr-FR) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.114 Safari/537.36 Puffin/4.4.0IT',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Puffin 4.4',
             'Browser' => 'Puffin',
             'Browser_Type' => 'Browser',
@@ -898,13 +898,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-705-R' => [
+    ),
+    'issue-705-R' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-gb) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.114 Safari/537.36 Puffin/4.2.0.1834AP',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Puffin 4.2',
             'Browser' => 'Puffin',
             'Browser_Type' => 'Browser',
@@ -951,13 +951,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-705-S' => [
+    ),
+    'issue-705-S' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG SM-G920I Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.2 Chrome/38.0.2125.102 Mobile Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Samsung Browser 3.2',
             'Browser' => 'Samsung Browser',
             'Browser_Type' => 'Browser',
@@ -1004,13 +1004,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-705-T' => [
+    ),
+    'issue-705-T' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; SAMSUNG SM-A500FU Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.2 Chrome/38.0.2125.102 Mobile Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Samsung Browser 3.2',
             'Browser' => 'Samsung Browser',
             'Browser_Type' => 'Browser',
@@ -1057,13 +1057,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-705-U' => [
+    ),
+    'issue-705-U' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-us) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.114 Safari/537.36 Puffin/4.2.0.1834AT',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Puffin 4.2',
             'Browser' => 'Puffin',
             'Browser_Type' => 'Browser',
@@ -1110,13 +1110,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-705-V' => [
+    ),
+    'issue-705-V' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG SM-G925F Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.2 Chrome/38.0.2125.102 Mobile Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Samsung Browser 3.2',
             'Browser' => 'Samsung Browser',
             'Browser_Type' => 'Browser',
@@ -1163,13 +1163,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-705-W' => [
+    ),
+    'issue-705-W' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Dragon/42.1.2.90 Chrome/42.0.2311.135 Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Comodo Dragon 42.1',
             'Browser' => 'Dragon',
             'Browser_Type' => 'Browser',
@@ -1216,13 +1216,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-705-X' => [
+    ),
+    'issue-705-X' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Thunderbird/38.1.0 Lightning/4.0.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Thunderbird 38.1',
             'Browser' => 'Thunderbird',
             'Browser_Type' => 'Email Client',
@@ -1269,8 +1269,8 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '38.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-733' => [
+return array(
+    'issue-733' => array(
         'ua' => 'Mozilla/5.0 (Maemo; Linux; U; Jolla; Sailfish; Mobile; rv:31.0) Gecko/31.0 Firefox/31.0 SailfishBrowser/1.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sailfish Browser 1.0',
             'Browser' => 'Sailfish Browser',
             'Browser_Type' => 'Browser',
@@ -50,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

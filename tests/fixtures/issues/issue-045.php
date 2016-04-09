@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-045' => [
+return array(
+    'issue-045' => array(
         'ua' => 'Mozilla/5.0 (compatible; SISTRIX Crawler; http://crawler.sistrix.net/)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sistrix Crawler',
             'Browser' => 'Sistrix Crawler',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

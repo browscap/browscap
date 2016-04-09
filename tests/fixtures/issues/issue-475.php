@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-475' => [
+return array(
+    'issue-475' => array(
         'ua' => 'Java/1.7',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Java Standard Library',
             'Browser' => 'Java Standard Library',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

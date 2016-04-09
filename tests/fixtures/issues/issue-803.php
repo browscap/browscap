@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-803-A' => [
+return array(
+    'issue-803-A' => array(
         'ua' => 'Instagram 3.4.1 (iPhone5,1; iPhone OS 6.0.2; en_US; en) AppleWebKit/420+',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Instagram App 3.4',
             'Browser' => 'Instagram App',
             'Browser_Type' => 'Application',
@@ -50,13 +50,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-803-B' => [
+    ),
+    'issue-803-B' => array(
         'ua' => 'Instagram 7.8.0 (iPhone5,3; iPhone OS 9_0_2; en_US; en-US; scale=2.00; 640x1136) AppleWebKit/420+',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Instagram App 7.8',
             'Browser' => 'Instagram App',
             'Browser_Type' => 'Application',
@@ -103,13 +103,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-803-C' => [
+    ),
+    'issue-803-C' => array(
         'ua' => 'Mozilla/5.0 (Android 4.1.2; Tablet; rv:41.0) Gecko/41.0 Firefox/41.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 41.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -156,8 +156,8 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '41.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

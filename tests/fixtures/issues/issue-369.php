@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-369-A' => [
+return array(
+    'issue-369-A' => array(
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 5_0_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Mobile/9A405',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mobile Safari UIWebView',
             'Browser' => 'Mobile Safari UIWebView',
             'Browser_Type' => 'Browser',
@@ -50,13 +50,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-369-B' => [
+    ),
+    'issue-369-B' => array(
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 5_1_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Mobile/9B206',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mobile Safari UIWebView',
             'Browser' => 'Mobile Safari UIWebView',
             'Browser_Type' => 'Browser',
@@ -103,13 +103,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-369-C' => [
+    ),
+    'issue-369-C' => array(
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10A40',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mobile Safari UIWebView',
             'Browser' => 'Mobile Safari UIWebView',
             'Browser_Type' => 'Browser',
@@ -156,13 +156,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-369-D' => [
+    ),
+    'issue-369-D' => array(
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 6_1_3 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10B329',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mobile Safari UIWebView',
             'Browser' => 'Mobile Safari UIWebView',
             'Browser_Type' => 'Browser',
@@ -209,13 +209,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-369-E' => [
+    ),
+    'issue-369-E' => array(
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 7_0 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/11A465',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mobile Safari UIWebView',
             'Browser' => 'Mobile Safari UIWebView',
             'Browser_Type' => 'Browser',
@@ -262,13 +262,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-369-F' => [
+    ),
+    'issue-369-F' => array(
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 7_0_6 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/11B651',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mobile Safari UIWebView',
             'Browser' => 'Mobile Safari UIWebView',
             'Browser_Type' => 'Browser',
@@ -315,13 +315,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-369-G' => [
+    ),
+    'issue-369-G' => array(
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 7_1_2 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D257',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mobile Safari UIWebView',
             'Browser' => 'Mobile Safari UIWebView',
             'Browser_Type' => 'Browser',
@@ -368,13 +368,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-369-H' => [
+    ),
+    'issue-369-H' => array(
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_0 like Mac OS X) AppleWebKit/538.46 (KHTML, like Gecko) Mobile/12A4331d',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mobile Safari UIWebView',
             'Browser' => 'Mobile Safari UIWebView',
             'Browser_Type' => 'Browser',
@@ -421,13 +421,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-369-I' => [
+    ),
+    'issue-369-I' => array(
         'ua' => 'Mozilla/5.0 (iPad; U; CPU OS 4_2 like Mac OS X; da-dk) AppleWebKit/533.17.9 (KHTML, like Gecko) Mobile/8C134',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mobile Safari UIWebView',
             'Browser' => 'Mobile Safari UIWebView',
             'Browser_Type' => 'Browser',
@@ -474,13 +474,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-369-J' => [
+    ),
+    'issue-369-J' => array(
         'ua' => 'Mozilla/5.0 (iPad; U; CPU OS 4_3_3 like Mac OS X; da-dk) AppleWebKit/533.17.9 (KHTML, like Gecko) Mobile/8J2',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mobile Safari UIWebView',
             'Browser' => 'Mobile Safari UIWebView',
             'Browser_Type' => 'Browser',
@@ -527,13 +527,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-369-K' => [
+    ),
+    'issue-369-K' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 5_0 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Mobile/9A334',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mobile Safari UIWebView',
             'Browser' => 'Mobile Safari UIWebView',
             'Browser_Type' => 'Browser',
@@ -580,13 +580,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-369-L' => [
+    ),
+    'issue-369-L' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 5_1_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Mobile/9B208',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mobile Safari UIWebView',
             'Browser' => 'Mobile Safari UIWebView',
             'Browser_Type' => 'Browser',
@@ -633,13 +633,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-369-M' => [
+    ),
+    'issue-369-M' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10A403',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mobile Safari UIWebView',
             'Browser' => 'Mobile Safari UIWebView',
             'Browser_Type' => 'Browser',
@@ -686,13 +686,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-369-N' => [
+    ),
+    'issue-369-N' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 6_1_6 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10B500',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mobile Safari UIWebView',
             'Browser' => 'Mobile Safari UIWebView',
             'Browser_Type' => 'Browser',
@@ -739,13 +739,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-369-O' => [
+    ),
+    'issue-369-O' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_0 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/11A465',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mobile Safari UIWebView',
             'Browser' => 'Mobile Safari UIWebView',
             'Browser_Type' => 'Browser',
@@ -792,13 +792,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-369-P' => [
+    ),
+    'issue-369-P' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_6 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/11B651',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mobile Safari UIWebView',
             'Browser' => 'Mobile Safari UIWebView',
             'Browser_Type' => 'Browser',
@@ -845,13 +845,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-369-Q' => [
+    ),
+    'issue-369-Q' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D167',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mobile Safari UIWebView',
             'Browser' => 'Mobile Safari UIWebView',
             'Browser_Type' => 'Browser',
@@ -898,13 +898,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-369-R' => [
+    ),
+    'issue-369-R' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_2 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D257',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mobile Safari UIWebView',
             'Browser' => 'Mobile Safari UIWebView',
             'Browser_Type' => 'Browser',
@@ -951,13 +951,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-369-S' => [
+    ),
+    'issue-369-S' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/538.46 (KHTML, like Gecko) Mobile/12A4331d',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mobile Safari UIWebView',
             'Browser' => 'Mobile Safari UIWebView',
             'Browser_Type' => 'Browser',
@@ -1004,13 +1004,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-369-T' => [
+    ),
+    'issue-369-T' => array(
         'ua' => 'Mozilla/5.0 (iPod touch; CPU iPhone OS 7_1_2 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D257',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mobile Safari UIWebView',
             'Browser' => 'Mobile Safari UIWebView',
             'Browser_Type' => 'Browser',
@@ -1057,13 +1057,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-369-U' => [
+    ),
+    'issue-369-U' => array(
         'ua' => 'Mozilla/5.0 (iPod; CPU iPhone OS 5_1_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Mobile/9B206',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mobile Safari UIWebView',
             'Browser' => 'Mobile Safari UIWebView',
             'Browser_Type' => 'Browser',
@@ -1110,13 +1110,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-369-V' => [
+    ),
+    'issue-369-V' => array(
         'ua' => 'Mozilla/5.0 (iPod; CPU iPhone OS 6_1_6 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10B500',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mobile Safari UIWebView',
             'Browser' => 'Mobile Safari UIWebView',
             'Browser_Type' => 'Browser',
@@ -1163,13 +1163,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-369-W' => [
+    ),
+    'issue-369-W' => array(
         'ua' => 'Mozilla/5.0 (iPod; U; CPU iPhone OS 4_3_5 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Mobile/8L1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mobile Safari UIWebView',
             'Browser' => 'Mobile Safari UIWebView',
             'Browser_Type' => 'Browser',
@@ -1216,13 +1216,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-369-X' => [
+    ),
+    'issue-369-X' => array(
         'ua' => 'Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; da-dk) AppleWebKit/533.17.9 (KHTML, like Gecko) Mobile/8C148',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mobile Safari UIWebView',
             'Browser' => 'Mobile Safari UIWebView',
             'Browser_Type' => 'Browser',
@@ -1269,13 +1269,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-369-Y' => [
+    ),
+    'issue-369-Y' => array(
         'ua' => 'Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_3 like Mac OS X; da-dk) AppleWebKit/533.17.9 (KHTML, like Gecko) Mobile/8F190',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mobile Safari UIWebView',
             'Browser' => 'Mobile Safari UIWebView',
             'Browser_Type' => 'Browser',
@@ -1322,13 +1322,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-369-Z' => [
+    ),
+    'issue-369-Z' => array(
         'ua' => 'Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_3_1 like Mac OS X; da-dk) AppleWebKit/533.17.9 (KHTML, like Gecko) Mobile/8G4',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mobile Safari UIWebView',
             'Browser' => 'Mobile Safari UIWebView',
             'Browser_Type' => 'Browser',
@@ -1375,8 +1375,8 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-];
+    ),
+);

@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-245' => [
+return array(
+    'issue-245' => array(
         'ua' => 'Mozilla/5.0 (compatible; Zollard; Linux)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Zollard Worm',
             'Browser' => 'Zollard Worm',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

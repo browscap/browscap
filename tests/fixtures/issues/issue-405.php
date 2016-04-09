@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-405-A' => [
+return array(
+    'issue-405-A' => array(
         'ua' => 'Mozilla/5.0 (PlayStation 4 1.75) AppleWebKit/536.26 (KHTML, like Gecko)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Access NetFront Generic',
             'Browser' => 'NetFront',
             'Browser_Type' => 'Browser',
@@ -50,13 +50,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-405-B' => [
+    ),
+    'issue-405-B' => array(
         'ua' => 'Mozilla/5.0 (PlayStation Vita 3.18) AppleWebKit/536.26 (KHTML, like Gecko) Silk/3.2',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Silk 3.2',
             'Browser' => 'Silk',
             'Browser_Type' => 'Browser',
@@ -103,13 +103,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-405-C' => [
+    ),
+    'issue-405-C' => array(
         'ua' => 'Mozilla/5.0 (PLAYSTATION 3 4.60) AppleWebKit/531.22.8 (KHTML, like Gecko)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Playstation Browser',
             'Browser' => 'Playstation Browser',
             'Browser_Type' => 'Browser',
@@ -156,8 +156,8 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

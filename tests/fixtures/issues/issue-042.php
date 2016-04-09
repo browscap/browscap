@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-042' => [
+return array(
+    'issue-042' => array(
         'ua' => 'Mozilla/5.0 (BB10; Kbd) AppleWebKit/537.35+ (KHTML, like Gecko)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'BlackBerry 10.0',
             'Browser' => 'BlackBerry',
             'Browser_Type' => 'Browser',
@@ -50,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-];
+    ),
+);

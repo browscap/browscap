@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-900-B' => [
+return array(
+    'issue-900-B' => array(
         'ua' => 'Mozilla/5.0 (compatible; U; ABrowse 0.6;  Syllable) AppleWebKit/420+ (KHTML, like Gecko)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'ABrowse 0.6',
             'Browser' => 'ABrowse',
             'Browser_Type' => 'Browser',
@@ -50,13 +50,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-C' => [
+    ),
+    'issue-900-C' => array(
         'ua' => 'Mozilla/5.0 (compatible; ABrowse 0.4; Syllable)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'ABrowse 0.4',
             'Browser' => 'ABrowse',
             'Browser_Type' => 'Browser',
@@ -103,13 +103,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-D' => [
+    ),
+    'issue-900-D' => array(
         'ua' => 'Mozilla/5.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; Acoo Browser 1.98.744; .NET CLR 3.5.30729)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Acoo Browser',
             'Browser' => 'Acoo Browser',
             'Browser_Type' => 'Browser',
@@ -156,13 +156,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-E' => [
+    ),
+    'issue-900-E' => array(
         'ua' => 'Mozilla/5.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; Acoo Browser 1.98.744; .NET CLR   3.5.30729)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Acoo Browser',
             'Browser' => 'Acoo Browser',
             'Browser_Type' => 'Browser',
@@ -209,13 +209,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-F' => [
+    ),
+    'issue-900-F' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0;   Acoo Browser; GTB5; Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;   SV1) ; InfoPath.1; .NET CLR 3.5.30729; .NET CLR 3.0.30618)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Acoo Browser',
             'Browser' => 'Acoo Browser',
             'Browser_Type' => 'Browser',
@@ -262,13 +262,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-G' => [
+    ),
+    'issue-900-G' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; SV1; Acoo Browser; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; Avant Browser)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Acoo Browser',
             'Browser' => 'Acoo Browser',
             'Browser_Type' => 'Browser',
@@ -315,13 +315,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-H' => [
+    ),
+    'issue-900-H' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Acoo Browser; SLCC1;   .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Acoo Browser',
             'Browser' => 'Acoo Browser',
             'Browser_Type' => 'Browser',
@@ -368,13 +368,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-I' => [
+    ),
+    'issue-900-I' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Acoo Browser; GTB5; Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) ; Maxthon; InfoPath.1; .NET CLR 3.5.30729; .NET CLR 3.0.30618)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Acoo Browser',
             'Browser' => 'Acoo Browser',
             'Browser_Type' => 'Browser',
@@ -421,13 +421,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-J' => [
+    ),
+    'issue-900-J' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Acoo Browser; GTB5;',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Acoo Browser',
             'Browser' => 'Acoo Browser',
             'Browser_Type' => 'Browser',
@@ -474,13 +474,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-K' => [
+    ),
+    'issue-900-K' => array(
         'ua' => 'Mozilla/4.0 (compatible; Mozilla/5.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; Acoo Browser 1.98.744; .NET CLR 3.5.30729); Windows NT 5.1; Trident/4.0)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Acoo Browser',
             'Browser' => 'Acoo Browser',
             'Browser_Type' => 'Browser',
@@ -527,13 +527,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-L' => [
+    ),
+    'issue-900-L' => array(
         'ua' => 'Mozilla/4.0 (compatible; Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6; Acoo Browser; .NET CLR 1.1.4322; .NET CLR 2.0.50727); Windows NT 5.1; Trident/4.0; Maxthon; .NET CLR 2.0.50727; .NET CLR 1.1.4322; InfoPath.2)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Acoo Browser',
             'Browser' => 'Acoo Browser',
             'Browser_Type' => 'Browser',
@@ -580,13 +580,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-M' => [
+    ),
+    'issue-900-M' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; Acoo Browser; GTB6; Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) ; InfoPath.1; .NET CLR 3.5.30729; .NET CLR 3.0.30618)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Acoo Browser',
             'Browser' => 'Acoo Browser',
             'Browser_Type' => 'Browser',
@@ -633,13 +633,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-N' => [
+    ),
+    'issue-900-N' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; Acoo Browser; GTB5; Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) ; InfoPath.1; .NET CLR 3.5.30729; .NET CLR 3.0.30618)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Acoo Browser',
             'Browser' => 'Acoo Browser',
             'Browser_Type' => 'Browser',
@@ -686,13 +686,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-O' => [
+    ),
+    'issue-900-O' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6; Acoo Browser; .NET CLR 1.1.4322; .NET CLR 2.0.50727)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Acoo Browser',
             'Browser' => 'Acoo Browser',
             'Browser_Type' => 'Browser',
@@ -739,13 +739,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-P' => [
+    ),
+    'issue-900-P' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Trident/4.0; Acoo Browser; GTB5; Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) ; InfoPath.1; .NET CLR 3.5.30729; .NET CLR 3.0.30618)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Acoo Browser',
             'Browser' => 'Acoo Browser',
             'Browser_Type' => 'Browser',
@@ -792,13 +792,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-Q' => [
+    ),
+    'issue-900-Q' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Acoo Browser; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Acoo Browser',
             'Browser' => 'Acoo Browser',
             'Browser_Type' => 'Browser',
@@ -845,13 +845,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-R' => [
+    ),
+    'issue-900-R' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Acoo Browser; GTB5; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Acoo Browser',
             'Browser' => 'Acoo Browser',
             'Browser_Type' => 'Browser',
@@ -898,13 +898,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-S' => [
+    ),
+    'issue-900-S' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Acoo Browser; GTB5; Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) ; InfoPath.1; .NET CLR 3.5.30729; .NET CLR 3.0.30618)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Acoo Browser',
             'Browser' => 'Acoo Browser',
             'Browser_Type' => 'Browser',
@@ -951,13 +951,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-T' => [
+    ),
+    'issue-900-T' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Acoo Browser; InfoPath.2; .NET CLR 2.0.50727; Alexa Toolbar)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Acoo Browser',
             'Browser' => 'Acoo Browser',
             'Browser_Type' => 'Browser',
@@ -1004,13 +1004,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-U' => [
+    ),
+    'issue-900-U' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Acoo Browser; .NET CLR 2.0.50727; .NET CLR 1.1.4322)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Acoo Browser',
             'Browser' => 'Acoo Browser',
             'Browser_Type' => 'Browser',
@@ -1057,13 +1057,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-V' => [
+    ),
+    'issue-900-V' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Acoo Browser; .NET CLR 1.0.3705; .NET CLR 1.1.4322; .NET CLR 2.0.50727; FDM; .NET CLR 3.0.04506.30; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; InfoPath.2)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Acoo Browser',
             'Browser' => 'Acoo Browser',
             'Browser_Type' => 'Browser',
@@ -1110,13 +1110,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-W' => [
+    ),
+    'issue-900-W' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; Acoo Browser; .NET CLR 1.1.4322; .NET CLR 2.0.50727)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Acoo Browser',
             'Browser' => 'Acoo Browser',
             'Browser_Type' => 'Browser',
@@ -1163,13 +1163,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-X' => [
+    ),
+    'issue-900-X' => array(
         'ua' => 'AmigaVoyager/3.2 (AmigaOS/MC680x0)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Voyager',
             'Browser' => 'Voyager',
             'Browser_Type' => 'Browser',
@@ -1216,13 +1216,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-Y' => [
+    ),
+    'issue-900-Y' => array(
         'ua' => 'AmigaVoyager/2.95 (compatible; MC680x0; AmigaOS; SV1)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Voyager',
             'Browser' => 'Voyager',
             'Browser_Type' => 'Browser',
@@ -1269,13 +1269,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-Z' => [
+    ),
+    'issue-900-Z' => array(
         'ua' => 'AmigaVoyager/2.95 (compatible; MC680x0; AmigaOS)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Voyager',
             'Browser' => 'Voyager',
             'Browser_Type' => 'Browser',
@@ -1322,13 +1322,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AA' => [
+    ),
+    'issue-900-AA' => array(
         'ua' => 'Mozilla/4.0  (compatible; MSIE 5.5; AOL 5.0; Windows NT 5.0)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'IE 5.5',
             'Browser' => 'IE',
             'Browser_Type' => 'Browser',
@@ -1375,13 +1375,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-AB' => [
+    ),
+    'issue-900-AB' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 4.01; AOL 4.0; Mac_68K)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'IE 4.01',
             'Browser' => 'IE',
             'Browser_Type' => 'Browser',
@@ -1428,13 +1428,13 @@ return [
             'RenderingEngine_Name' => 'Tasman',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-AC' => [
+    ),
+    'issue-900-AC' => array(
         'ua' => 'Mozilla/5.0 (X11; U; UNICOS lcLinux; en-US) Gecko/20140730 (KHTML, like Gecko, Safari/419.3) Arora/0.8.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Arora 0.8',
             'Browser' => 'Arora',
             'Browser_Type' => 'Browser',
@@ -1481,13 +1481,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AD' => [
+    ),
+    'issue-900-AD' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux; de-DE) AppleWebKit/527+ (KHTML, like Gecko, Safari/419.3)  Arora/0.8.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Arora 0.8',
             'Browser' => 'Arora',
             'Browser_Type' => 'Browser',
@@ -1534,13 +1534,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AE' => [
+    ),
+    'issue-900-AE' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; ; en-NZ) AppleWebKit/527+ (KHTML, like Gecko, Safari/419.3)  Arora/0.8.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Arora 0.8',
             'Browser' => 'Arora',
             'Browser_Type' => 'Browser',
@@ -1587,13 +1587,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AF' => [
+    ),
+    'issue-900-AF' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux; ru-RU) AppleWebKit/527+ (KHTML, like Gecko, Safari/419.3)  Arora/0.6 (Change: 802 025a17d)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Arora 0.6',
             'Browser' => 'Arora',
             'Browser_Type' => 'Browser',
@@ -1640,13 +1640,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AG' => [
+    ),
+    'issue-900-AG' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux; fi-FI) AppleWebKit/527+ (KHTML, like Gecko, Safari/419.3)  Arora/0.6 (Change: 754 46b659a)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Arora 0.6',
             'Browser' => 'Arora',
             'Browser_Type' => 'Browser',
@@ -1693,13 +1693,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AH' => [
+    ),
+    'issue-900-AH' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux; en-US) AppleWebKit/527+ (KHTML, like Gecko, Safari/419.3)  Arora/0.6',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Arora 0.6',
             'Browser' => 'Arora',
             'Browser_Type' => 'Browser',
@@ -1746,13 +1746,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AI' => [
+    ),
+    'issue-900-AI' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/527+ (KHTML, like Gecko, Safari/419.3)  Arora/0.6 (Change:  )',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Arora 0.6',
             'Browser' => 'Arora',
             'Browser_Type' => 'Browser',
@@ -1799,13 +1799,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AJ' => [
+    ),
+    'issue-900-AJ' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/527+ (KHTML, like Gecko, Safari/419.3)  Arora/0.6 (Change:  )',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Arora 0.6',
             'Browser' => 'Arora',
             'Browser_Type' => 'Browser',
@@ -1852,13 +1852,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AK' => [
+    ),
+    'issue-900-AK' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux; pt-PT) AppleWebKit/523.15 (KHTML, like Gecko, Safari/419.3)  Arora/0.4',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Arora 0.4',
             'Browser' => 'Arora',
             'Browser_Type' => 'Browser',
@@ -1905,13 +1905,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AL' => [
+    ),
+    'issue-900-AL' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux; nb-NO) AppleWebKit/527+ (KHTML, like Gecko, Safari/419.3)  Arora/0.4',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Arora 0.4',
             'Browser' => 'Arora',
             'Browser_Type' => 'Browser',
@@ -1958,13 +1958,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AM' => [
+    ),
+    'issue-900-AM' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux; it-IT) AppleWebKit/527+ (KHTML, like Gecko, Safari/419.3)  Arora/0.4 (Change: 413 12f13f8)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Arora 0.4',
             'Browser' => 'Arora',
             'Browser_Type' => 'Browser',
@@ -2011,13 +2011,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AN' => [
+    ),
+    'issue-900-AN' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux; it-IT) AppleWebKit/523.15 (KHTML, like Gecko, Safari/419.3)  Arora/0.4',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Arora 0.4',
             'Browser' => 'Arora',
             'Browser_Type' => 'Browser',
@@ -2064,13 +2064,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AO' => [
+    ),
+    'issue-900-AO' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux; hu-HU) AppleWebKit/523.15 (KHTML, like Gecko, Safari/419.3)  Arora/0.4 (Change: 388 835b3b6)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Arora 0.4',
             'Browser' => 'Arora',
             'Browser_Type' => 'Browser',
@@ -2117,13 +2117,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AP' => [
+    ),
+    'issue-900-AP' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux; hu-HU) AppleWebKit/523.15 (KHTML, like Gecko, Safari/419.3)  Arora/0.4',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Arora 0.4',
             'Browser' => 'Arora',
             'Browser_Type' => 'Browser',
@@ -2170,13 +2170,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AQ' => [
+    ),
+    'issue-900-AQ' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux; fr-FR) AppleWebKit/523.15 (KHTML, like Gecko, Safari/419.3)  Arora/0.4',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Arora 0.4',
             'Browser' => 'Arora',
             'Browser_Type' => 'Browser',
@@ -2223,13 +2223,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AR' => [
+    ),
+    'issue-900-AR' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux; es-ES) AppleWebKit/523.15 (KHTML, like Gecko, Safari/419.3)  Arora/0.4 (Change: 388 835b3b6)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Arora 0.4',
             'Browser' => 'Arora',
             'Browser_Type' => 'Browser',
@@ -2276,13 +2276,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AS' => [
+    ),
+    'issue-900-AS' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux; en-US) AppleWebKit/523.15 (KHTML, like Gecko, Safari/419.3)  Arora/0.4',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Arora 0.4',
             'Browser' => 'Arora',
             'Browser_Type' => 'Browser',
@@ -2329,13 +2329,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AT' => [
+    ),
+    'issue-900-AT' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux; en-GB) AppleWebKit/523.15 (KHTML, like Gecko, Safari/419.3)  Arora/0.4 (Change: 388 835b3b6)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Arora 0.4',
             'Browser' => 'Arora',
             'Browser_Type' => 'Browser',
@@ -2382,13 +2382,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AU' => [
+    ),
+    'issue-900-AU' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux; en-GB) AppleWebKit/523.15 (KHTML, like Gecko, Safari/419.3)  Arora/0.4',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Arora 0.4',
             'Browser' => 'Arora',
             'Browser_Type' => 'Browser',
@@ -2435,13 +2435,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AV' => [
+    ),
+    'issue-900-AV' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux; de-DE) AppleWebKit/523.15 (KHTML, like Gecko, Safari/419.3)  Arora/0.4',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Arora 0.4',
             'Browser' => 'Arora',
             'Browser_Type' => 'Browser',
@@ -2488,13 +2488,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AW' => [
+    ),
+    'issue-900-AW' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux; cs-CZ) AppleWebKit/523.15 (KHTML, like Gecko, Safari/419.3)  Arora/0.4 (Change: 333 41e3bc6)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Arora 0.4',
             'Browser' => 'Arora',
             'Browser_Type' => 'Browser',
@@ -2541,13 +2541,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AX' => [
+    ),
+    'issue-900-AX' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/527+ (KHTML, like Gecko, Safari/419.3)  Arora/0.4 (Change:  )',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Arora 0.4',
             'Browser' => 'Arora',
             'Browser_Type' => 'Browser',
@@ -2594,13 +2594,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AY' => [
+    ),
+    'issue-900-AY' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; de-DE) AppleWebKit/527+ (KHTML, like Gecko, Safari/419.3)  Arora/0.4 (Change:  )',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Arora 0.4',
             'Browser' => 'Arora',
             'Browser_Type' => 'Browser',
@@ -2647,13 +2647,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AZ' => [
+    ),
+    'issue-900-AZ' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.2; pt-BR) AppleWebKit/527+ (KHTML, like Gecko, Safari/419.3)  Arora/0.4 (Change:  )',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Arora 0.4',
             'Browser' => 'Arora',
             'Browser_Type' => 'Browser',
@@ -2700,13 +2700,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BA' => [
+    ),
+    'issue-900-BA' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; de-DE) AppleWebKit/527+ (KHTML, like Gecko, Safari/419.3)  Arora/0.4 (Change:  )',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Arora 0.4',
             'Browser' => 'Arora',
             'Browser_Type' => 'Browser',
@@ -2753,13 +2753,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BB' => [
+    ),
+    'issue-900-BB' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux; en-GB) AppleWebKit/527+ (KHTML, like Gecko, Safari/419.3)  Arora/0.3 (Change: 239 52c6958)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Arora 0.3',
             'Browser' => 'Arora',
             'Browser_Type' => 'Browser',
@@ -2806,13 +2806,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BC' => [
+    ),
+    'issue-900-BC' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN) AppleWebKit/523.15 (KHTML, like Gecko, Safari/419.3)  Arora/0.3 (Change: 287 c9dfb30)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Arora 0.3',
             'Browser' => 'Arora',
             'Browser_Type' => 'Browser',
@@ -2859,13 +2859,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BD' => [
+    ),
+    'issue-900-BD' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; fr-BE) AppleWebKit/523.15 (KHTML, like Gecko, Safari/419.3)  Arora/0.3 (Change: 287 c9dfb30)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Arora 0.3',
             'Browser' => 'Arora',
             'Browser_Type' => 'Browser',
@@ -2912,13 +2912,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BE' => [
+    ),
+    'issue-900-BE' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/523.15 (KHTML, like Gecko, Safari/419.3)  Arora/0.3 (Change: 287 c9dfb30)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Arora 0.3',
             'Browser' => 'Arora',
             'Browser_Type' => 'Browser',
@@ -2965,13 +2965,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BF' => [
+    ),
+    'issue-900-BF' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux; sk-SK) AppleWebKit/523.15 (KHTML, like Gecko, Safari/419.3)  Arora/0.2 (Change: 0 )',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Arora 0.2',
             'Browser' => 'Arora',
             'Browser_Type' => 'Browser',
@@ -3018,13 +3018,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BG' => [
+    ),
+    'issue-900-BG' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux; nb-NO) AppleWebKit/523.15 (KHTML, like Gecko, Safari/419.3)  Arora/0.2 (Change: 0 )',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Arora 0.2',
             'Browser' => 'Arora',
             'Browser_Type' => 'Browser',
@@ -3071,13 +3071,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BH' => [
+    ),
+    'issue-900-BH' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux; es-CR) AppleWebKit/523.15 (KHTML, like Gecko, Safari/419.3)  Arora/0.2 (Change: 0 )',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Arora 0.2',
             'Browser' => 'Arora',
             'Browser_Type' => 'Browser',
@@ -3124,13 +3124,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BI' => [
+    ),
+    'issue-900-BI' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux; en-US) AppleWebKit/523.15 (KHTML, like Gecko, Safari/419.3)  Arora/0.2 (Change: 189 35c14e0)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Arora 0.2',
             'Browser' => 'Arora',
             'Browser_Type' => 'Browser',
@@ -3177,13 +3177,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BJ' => [
+    ),
+    'issue-900-BJ' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux; en-US) AppleWebKit/523.15 (KHTML, like Gecko, Safari/419.3)  Arora/0.2 (Change: 0 )',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Arora 0.2',
             'Browser' => 'Arora',
             'Browser_Type' => 'Browser',
@@ -3230,13 +3230,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BK' => [
+    ),
+    'issue-900-BK' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux; de-DE) AppleWebKit/523.15 (KHTML, like Gecko, Safari/419.3)  Arora/0.2 (Change: 0 )',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Arora 0.2',
             'Browser' => 'Arora',
             'Browser_Type' => 'Browser',
@@ -3283,13 +3283,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BL' => [
+    ),
+    'issue-900-BL' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; de-DE) AppleWebKit/523.15 (KHTML, like Gecko, Safari/419.3)  Arora/0.2',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Arora 0.2',
             'Browser' => 'Arora',
             'Browser_Type' => 'Browser',
@@ -3336,13 +3336,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BM' => [
+    ),
+    'issue-900-BM' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; nl-NL) AppleWebKit/523.15 (KHTML, like Gecko, Safari/419.3)  Arora/0.2',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Arora 0.2',
             'Browser' => 'Arora',
             'Browser_Type' => 'Browser',
@@ -3389,13 +3389,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BN' => [
+    ),
+    'issue-900-BN' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/523.15 (KHTML, like Gecko, Safari/419.3)  Arora/0.2',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Arora 0.2',
             'Browser' => 'Arora',
             'Browser_Type' => 'Browser',
@@ -3442,13 +3442,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BO' => [
+    ),
+    'issue-900-BO' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; de-CH) AppleWebKit/523.15 (KHTML, like Gecko, Safari/419.3)  Arora/0.2',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Arora 0.2',
             'Browser' => 'Arora',
             'Browser_Type' => 'Browser',
@@ -3495,13 +3495,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BP' => [
+    ),
+    'issue-900-BP' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-MY) AppleWebKit/527+ (KHTML, like Gecko, Safari/419.3)  Arora/0.10.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Arora 0.10',
             'Browser' => 'Arora',
             'Browser_Type' => 'Browser',
@@ -3548,13 +3548,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BQ' => [
+    ),
+    'issue-900-BQ' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; ; hu-HU) AppleWebKit/527+ (KHTML, like Gecko, Safari/419.3)  Arora/0.10.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Arora 0.10',
             'Browser' => 'Arora',
             'Browser_Type' => 'Browser',
@@ -3601,13 +3601,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BR' => [
+    ),
+    'issue-900-BR' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; WinNT; en; rv:1.0.2) Gecko/20030311 Beonex/0.8.2-stable',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Beonex Communicator',
             'Browser' => 'Beonex Communicator',
             'Browser_Type' => 'Application',
@@ -3654,13 +3654,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-BS' => [
+    ),
+    'issue-900-BS' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; WinNT; en; Preview) Gecko/20020603 Beonex/0.8-stable',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Beonex Communicator',
             'Browser' => 'Beonex Communicator',
             'Browser_Type' => 'Application',
@@ -3707,13 +3707,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-BT' => [
+    ),
+    'issue-900-BT' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1b2) Gecko/20060826 BonEcho/2.0b2',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 2.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -3760,13 +3760,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.8',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BU' => [
+    ),
+    'issue-900-BU' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.8.1b2) Gecko/20060831 BonEcho/2.0b2',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 2.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -3813,13 +3813,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.8',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-BV' => [
+    ),
+    'issue-900-BV' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-GB; rv:1.8.1b1) Gecko/20060601 BonEcho/2.0b1 (Ubuntu-edgy)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 2.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -3866,13 +3866,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.8',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BW' => [
+    ),
+    'issue-900-BW' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1a3) Gecko/20060526 BonEcho/2.0a3',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 2.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -3919,13 +3919,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.8',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BX' => [
+    ),
+    'issue-900-BX' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US; rv:1.8.1a2) Gecko/20060512 BonEcho/2.0a2',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 2.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -3972,13 +3972,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.8',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BY' => [
+    ),
+    'issue-900-BY' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1a2) Gecko/20060512 BonEcho/2.0a2',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 2.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -4025,13 +4025,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.8',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BZ' => [
+    ),
+    'issue-900-BZ' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; en-US; rv:1.8.1a2) Gecko/20060512 BonEcho/2.0a2',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 2.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -4078,13 +4078,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.8',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-CA' => [
+    ),
+    'issue-900-CA' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; en-GB; rv:1.8.1a2) Gecko/20060512 BonEcho/2.0a2',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 2.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -4131,13 +4131,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.8',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-CB' => [
+    ),
+    'issue-900-CB' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X Mach-O; en-US; rv:1.8.1a2) Gecko/20060512 BonEcho/2.0a2',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 2.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -4184,13 +4184,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.8',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-CC' => [
+    ),
+    'issue-900-CC' => array(
         'ua' => 'Mozilla/5.0 (X11; U; OpenBSD ppc; en-US; rv:1.8.1.9) Gecko/20070223 BonEcho/2.0.0.9',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 2.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -4237,13 +4237,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.8',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-CD' => [
+    ),
+    'issue-900-CD' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.8.1.9) Gecko/20071103 BonEcho/2.0.0.9',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 2.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -4290,13 +4290,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.8',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-CE' => [
+    ),
+    'issue-900-CE' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.8pre) Gecko/20071012 BonEcho/2.0.0.8pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 2.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -4343,13 +4343,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.8',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-CF' => [
+    ),
+    'issue-900-CF' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.7pre) Gecko/20070901 BonEcho/2.0.0.7pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 2.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -4396,13 +4396,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.8',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-CG' => [
+    ),
+    'issue-900-CG' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.8.1.7) Gecko/20070918 BonEcho/2.0.0.7',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 2.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -4449,13 +4449,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.8',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-CH' => [
+    ),
+    'issue-900-CH' => array(
         'ua' => 'Mozilla/5.0 (BeOS; U; BeOS BePC; en-US; rv:1.8.1.7) Gecko/20070917 BonEcho/2.0.0.7',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 2.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -4502,13 +4502,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.8',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-CI' => [
+    ),
+    'issue-900-CI' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.8.1.6) Gecko/20070812 BonEcho/2.0.0.6',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 2.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -4555,13 +4555,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.8',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-CJ' => [
+    ),
+    'issue-900-CJ' => array(
         'ua' => 'Mozilla/5.0 (BeOS; U; BeOS BePC; en-US; rv:1.8.1.6) Gecko/20070731 BonEcho/2.0.0.6',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 2.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -4608,13 +4608,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.8',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-CK' => [
+    ),
+    'issue-900-CK' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; de; rv:1.8.1.5pre) Gecko/20070604 BonEcho/2.0.0.5pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 2.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -4661,13 +4661,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.8',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-CL' => [
+    ),
+    'issue-900-CL' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.5pre) Gecko/20070622 BonEcho/2.0.0.5pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 2.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -4714,13 +4714,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.8',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-CM' => [
+    ),
+    'issue-900-CM' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US; rv:1.8.1.4pre) Gecko/20070510 BonEcho/2.0.0.4pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 2.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -4767,13 +4767,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.8',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-CN' => [
+    ),
+    'issue-900-CN' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.4pre) Gecko/20070416 BonEcho/2.0.0.4pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 2.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -4820,13 +4820,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.8',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-CO' => [
+    ),
+    'issue-900-CO' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.4pre) Gecko/20070410 BonEcho/2.0.0.4pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 2.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -4873,13 +4873,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.8',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-CP' => [
+    ),
+    'issue-900-CP' => array(
         'ua' => 'Mozilla/5.0 (X11; U; OpenBSD ppc; en-US; rv:1.8.1.4) Gecko/20070223 BonEcho/2.0.0.4',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 2.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -4926,13 +4926,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.8',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-CQ' => [
+    ),
+    'issue-900-CQ' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.4) Gecko/20070416 BonEcho/2.0.0.4',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 2.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -4979,13 +4979,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.8',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-CR' => [
+    ),
+    'issue-900-CR' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.2; en-GB; rv:1.8.1.3pre) Gecko/20070302 BonEcho/2.0.0.3pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 2.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -5032,13 +5032,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.8',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-CS' => [
+    ),
+    'issue-900-CS' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3pre) Gecko/20070302 BonEcho/2.0.0.3pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 2.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -5085,13 +5085,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.8',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-CT' => [
+    ),
+    'issue-900-CT' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.8.1.3pre) Gecko/20070301 BonEcho/2.0.0.3pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 2.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -5138,13 +5138,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.8',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-CU' => [
+    ),
+    'issue-900-CU' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.9a3) Gecko/20070409 BonEcho/2.0.0.3',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 2.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -5191,13 +5191,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.8',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-CV' => [
+    ),
+    'issue-900-CV' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; en-US; rv:1.8.1.3) Gecko/20070329 BonEcho/2.0.0.3',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 2.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -5244,13 +5244,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.8',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-CW' => [
+    ),
+    'issue-900-CW' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X; en-US; rv:1.8.1.3) Gecko/20070322 BonEcho/2.0.0.3',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 2.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -5297,13 +5297,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.8',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-CX' => [
+    ),
+    'issue-900-CX' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.2; en-GB; rv:1.8.1.2pre) Gecko/20070226 BonEcho/2.0.0.2pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 2.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -5350,13 +5350,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.8',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-CY' => [
+    ),
+    'issue-900-CY' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.2pre) Gecko/20070213 BonEcho/2.0.0.2pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 2.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -5403,13 +5403,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.8',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-CZ' => [
+    ),
+    'issue-900-CZ' => array(
         'ua' => 'Mozilla/5.0 (BeOS; U; Haiku BePC; en-US; rv:1.8.1.21pre) Gecko/20090218 BonEcho/2.0.0.21pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 2.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -5456,13 +5456,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.8',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-DA' => [
+    ),
+    'issue-900-DA' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.2) Gecko/20070227 BonEcho/2.0.0.2',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 2.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -5509,13 +5509,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.8',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-DB' => [
+    ),
+    'issue-900-DB' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; en-US; rv:1.8.1.2) Gecko/20070223 BonEcho/2.0.0.2',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 2.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -5562,13 +5562,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.8',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-DC' => [
+    ),
+    'issue-900-DC' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.1pre) Gecko/20061203 BonEcho/2.0.0.1pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 2.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -5615,13 +5615,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.8',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-DD' => [
+    ),
+    'issue-900-DD' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.1pre) Gecko/20061202 BonEcho/2.0.0.1pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 2.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -5668,13 +5668,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.8',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-DE' => [
+    ),
+    'issue-900-DE' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.1pre) Gecko/20061122 BonEcho/2.0.0.1pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 2.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -5721,13 +5721,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.8',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-DF' => [
+    ),
+    'issue-900-DF' => array(
         'ua' => 'Mozilla/5.0 (BeOS; U; Haiku BePC; en-US; rv:1.8.1.18) Gecko/20081114 BonEcho/2.0.0.18',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 2.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -5774,13 +5774,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.8',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-DG' => [
+    ),
+    'issue-900-DG' => array(
         'ua' => 'Mozilla/5.0 (BeOS; U; Haiku BePC; en-US; rv:1.8.1.17) Gecko/20080831 BonEcho/2.0.0.17',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 2.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -5827,13 +5827,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.8',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-DH' => [
+    ),
+    'issue-900-DH' => array(
         'ua' => 'Mozilla/5.0 (BeOS; U; BeOS BePC; en-US; rv:1.8.1.17) Gecko/20080831 BonEcho/2.0.0.17',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 2.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -5880,13 +5880,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.8',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-DI' => [
+    ),
+    'issue-900-DI' => array(
         'ua' => 'Mozilla/5.0 (BeOS; U; Haiku BePC; en-US; rv:1.8.1.14) Gecko/20080429 BonEcho/2.0.0.14',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 2.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -5933,13 +5933,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.8',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-DJ' => [
+    ),
+    'issue-900-DJ' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686 (x86_64); en-US; rv:1.8.1.12pre) Gecko/20080103 BonEcho/2.0.0.12pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 2.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -5986,13 +5986,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.8',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-DK' => [
+    ),
+    'issue-900-DK' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.8.1.12) Gecko/20080208 BonEcho/2.0.0.12',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 2.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -6039,13 +6039,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.8',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-DL' => [
+    ),
+    'issue-900-DL' => array(
         'ua' => 'Mozilla/5.0 (X11; U; SunOS sun4u; en-US; rv:1.8.1.11) Gecko/20080208 BonEcho/2.0.0.11',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 2.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -6092,13 +6092,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.8',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-DM' => [
+    ),
+    'issue-900-DM' => array(
         'ua' => 'Mozilla/5.0 (BeOS; U; BeOS BePC; en-US; rv:1.8.1.10) Gecko/20071128 BonEcho/2.0.0.10',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 2.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -6145,13 +6145,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.8',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-DN' => [
+    ),
+    'issue-900-DN' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en; rv:1.8.1.1) Gecko/20070117 Epiphany/2.16 BonEcho/2.0.0.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Epiphany 2.16',
             'Browser' => 'Epiphany',
             'Browser_Type' => 'Browser',
@@ -6198,13 +6198,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-DO' => [
+    ),
+    'issue-900-DO' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686 (x86_64); en-US; rv:1.8.1.1) Gecko/20070131 BonEcho/2.0.0.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 2.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -6251,13 +6251,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.8',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-DP' => [
+    ),
+    'issue-900-DP' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.1) Gecko/20061222 BonEcho/2.0.0.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 2.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -6304,13 +6304,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.8',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-DQ' => [
+    ),
+    'issue-900-DQ' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-GB; rv:1.8.1.1) Gecko/20061230 BonEcho/2.0.0.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 2.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -6357,13 +6357,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.8',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-DR' => [
+    ),
+    'issue-900-DR' => array(
         'ua' => 'Mozilla/5.0 (BeOS; U; BeOS BePC; en-US; rv:1.8.1.1) Gecko/20061220 BonEcho/2.0.0.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 2.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -6410,13 +6410,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.8',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-DS' => [
+    ),
+    'issue-900-DS' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Win95; en-US; rv:1.8.1) Gecko/20061125 BonEcho/2.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 2.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -6463,13 +6463,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.8',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-DT' => [
+    ),
+    'issue-900-DT' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1) Gecko/20061210 BonEcho/2.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 2.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -6516,13 +6516,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.8',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-DU' => [
+    ),
+    'issue-900-DU' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1) Gecko/20061209 BonEcho/2.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 2.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -6569,13 +6569,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.8',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-DV' => [
+    ),
+    'issue-900-DV' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1) Gecko/20061121 BonEcho/2.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 2.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -6622,13 +6622,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.8',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-DW' => [
+    ),
+    'issue-900-DW' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1) Gecko/20061113 BonEcho/2.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 2.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -6675,13 +6675,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.8',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-DX' => [
+    ),
+    'issue-900-DX' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1) Gecko/20061112 BonEcho/2.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 2.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -6728,13 +6728,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.8',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-DY' => [
+    ),
+    'issue-900-DY' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1) Gecko/20060930 BonEcho/2.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 2.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -6781,13 +6781,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.8',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-DZ' => [
+    ),
+    'issue-900-DZ' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; en-US; rv:1.8.1) Gecko/20061026 BonEcho/2.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 2.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -6834,13 +6834,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.8',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-EA' => [
+    ),
+    'issue-900-EA' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; en-US; rv:1.8.1) Gecko/20061025 BonEcho/2.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 2.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -6887,13 +6887,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.8',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-EB' => [
+    ),
+    'issue-900-EB' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X; en-US; rv:1.8.1) Gecko/20061024 BonEcho/2.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 2.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -6940,13 +6940,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.8',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-EC' => [
+    ),
+    'issue-900-EC' => array(
         'ua' => 'Mozilla/5.0 (BeOS; U; BeOS BeBox; fr; rv:1.9) Gecko/2008052906 BonEcho/2.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 2.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -6993,13 +6993,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.8',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ED' => [
+    ),
+    'issue-900-ED' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en; rv:1.9a1) Gecko/20061128 BonEcho/0.7b1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 0.7',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -7046,13 +7046,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-EE' => [
+    ),
+    'issue-900-EE' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 1.1.4322; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; Browzar)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Browzar',
             'Browser' => 'Browzar',
             'Browser_Type' => 'Browser',
@@ -7099,13 +7099,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-EF' => [
+    ),
+    'issue-900-EF' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; XH; rv:8.578.498) fr, Gecko/20121021 Camino/8.723+ (Firefox compatible)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Camino Generic',
             'Browser' => 'Camino',
             'Browser_Type' => 'Browser',
@@ -7152,13 +7152,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-EG' => [
+    ),
+    'issue-900-EG' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; XH; rv:8.578.498) fr, Gecko/20121021 Camino/8.443+ (Firefox compatible)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Camino Generic',
             'Browser' => 'Camino',
             'Browser_Type' => 'Browser',
@@ -7205,13 +7205,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-EH' => [
+    ),
+    'issue-900-EH' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.8; it; rv:1.9.2.28) Gecko/20130628 Camino/3.245.226 (MultiLang) (like Firefox/3.621.218)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Camino Generic',
             'Browser' => 'Camino',
             'Browser_Type' => 'Browser',
@@ -7258,13 +7258,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-EI' => [
+    ),
+    'issue-900-EI' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.8; it; rv:1.93.26.2658) Gecko/20141026 Camino/2.176.223 (MultiLang) (like Firefox/3.64.2268)0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Camino 2.1',
             'Browser' => 'Camino',
             'Browser_Type' => 'Browser',
@@ -7311,13 +7311,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-EJ' => [
+    ),
+    'issue-900-EJ' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; en; rv:1.9.2.14pre) Gecko/20101212 Camino/2.1a1pre (like Firefox/3.6.14pre)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Camino 2.1',
             'Browser' => 'Camino',
             'Browser_Type' => 'Browser',
@@ -7364,13 +7364,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-EK' => [
+    ),
+    'issue-900-EK' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; en; rv:1.9.2.14pre)   Gecko/20101212 Camino/2.1a1pre (like Firefox/3.6.14pre)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Camino 2.1',
             'Browser' => 'Camino',
             'Browser_Type' => 'Browser',
@@ -7417,13 +7417,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-EL' => [
+    ),
+    'issue-900-EL' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; en; rv:1.9.2.29pre) Gecko/20130101 Camino/2.1.3pre (like Firefox/3.6.29pre)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Camino 2.1',
             'Browser' => 'Camino',
             'Browser_Type' => 'Browser',
@@ -7470,13 +7470,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-EM' => [
+    ),
+    'issue-900-EM' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10.5; de; rv:1.9.2.28) Gecko/20120308 Camino/2.1.2 (MultiLang) (like Firefox/3.6.28)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Camino 2.1',
             'Browser' => 'Camino',
             'Browser_Type' => 'Browser',
@@ -7523,13 +7523,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-EN' => [
+    ),
+    'issue-900-EN' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.8; it; rv:1.9.2.28) Gecko/20120308 Camino/2.1.2 (MultiLang) (like Firefox/3.6.28)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Camino 2.1',
             'Browser' => 'Camino',
             'Browser_Type' => 'Browser',
@@ -7576,13 +7576,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-EO' => [
+    ),
+    'issue-900-EO' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; fr; rv:1.9.2.28) Gecko/20120308 Camino/2.1.2 (MultiLang) (like Firefox/3.6.28)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Camino 2.1',
             'Browser' => 'Camino',
             'Browser_Type' => 'Browser',
@@ -7629,13 +7629,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-EP' => [
+    ),
+    'issue-900-EP' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10.4; en; rv:1.9.2.24) Gecko/20111114 Camino/2.1 (like Firefox/3.6.24)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Camino 2.1',
             'Browser' => 'Camino',
             'Browser_Type' => 'Browser',
@@ -7682,13 +7682,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-EQ' => [
+    ),
+    'issue-900-EQ' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.5; en; rv:1.9.0.10pre) Gecko/2009041800 Camino/2.0b3pre (like Firefox/3.0.10pre)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Camino 2.0',
             'Browser' => 'Camino',
             'Browser_Type' => 'Browser',
@@ -7735,13 +7735,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ER' => [
+    ),
+    'issue-900-ER' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10.5; it; rv:1.9.0.19) Gecko/2010111021 Camino/2.0.6 (MultiLang) (like Firefox/3.0.19)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Camino 2.0',
             'Browser' => 'Camino',
             'Browser_Type' => 'Browser',
@@ -7788,13 +7788,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ES' => [
+    ),
+    'issue-900-ES' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; en; rv:1.9.0.19) Gecko/2010111021 Camino/2.0.6 (MultiLang) (like Firefox/3.0.19)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Camino 2.0',
             'Browser' => 'Camino',
             'Browser_Type' => 'Browser',
@@ -7841,13 +7841,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ET' => [
+    ),
+    'issue-900-ET' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10.4; en; rv:1.9.0.19) Gecko/2010051911 Camino/2.0.3 (like Firefox/3.0.19)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Camino 2.0',
             'Browser' => 'Camino',
             'Browser_Type' => 'Browser',
@@ -7894,13 +7894,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-EU' => [
+    ),
+    'issue-900-EU' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; nl; rv:1.9.0.19) Gecko/2010051911 Camino/2.0.3 (MultiLang) (like Firefox/3.0.19)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Camino 2.0',
             'Browser' => 'Camino',
             'Browser_Type' => 'Browser',
@@ -7947,13 +7947,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-EV' => [
+    ),
+    'issue-900-EV' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; en; rv:1.9.0.18) Gecko/2010021619 Camino/2.0.2 (like Firefox/3.0.18)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Camino 2.0',
             'Browser' => 'Camino',
             'Browser_Type' => 'Browser',
@@ -8000,13 +8000,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-EW' => [
+    ),
+    'issue-900-EW' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; it; rv:1.8.1.21) Gecko/20090327 Camino/1.6.7 (MultiLang) (like Firefox/2.0.0.21pre)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Camino 1.6',
             'Browser' => 'Camino',
             'Browser_Type' => 'Browser',
@@ -8053,13 +8053,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-EX' => [
+    ),
+    'issue-900-EX' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; fr; rv:1.8.1.21) Gecko/20090327 Camino/1.6.7 (MultiLang) (like Firefox/2.0.0.21pre)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Camino 1.6',
             'Browser' => 'Camino',
             'Browser_Type' => 'Browser',
@@ -8106,13 +8106,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-EY' => [
+    ),
+    'issue-900-EY' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; en; rv:1.8.1.21) Gecko/20090327 Camino/1.6.7 (like Firefox/2.0.0.21pre)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Camino 1.6',
             'Browser' => 'Camino',
             'Browser_Type' => 'Browser',
@@ -8159,13 +8159,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-EZ' => [
+    ),
+    'issue-900-EZ' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X; en; rv:1.8.1.24) Gecko/20100305 Camino/1.6.11 (like Firefox/2.0.0.24)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Camino 1.6',
             'Browser' => 'Camino',
             'Browser_Type' => 'Browser',
@@ -8212,13 +8212,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-FA' => [
+    ),
+    'issue-900-FA' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X; en; rv:1.8.1.6) Gecko/20070809 Firefox/2.0.0.6 Camino/1.5.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Camino 1.5',
             'Browser' => 'Camino',
             'Browser_Type' => 'Browser',
@@ -8265,13 +8265,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-FB' => [
+    ),
+    'issue-900-FB' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X; en-US; rv:1.8.1.6) Gecko/20070725 Firefox/2.0.0.6 Camino/1.5.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Camino 1.5',
             'Browser' => 'Camino',
             'Browser_Type' => 'Browser',
@@ -8318,13 +8318,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-FC' => [
+    ),
+    'issue-900-FC' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Max OS X Mach-O; it-IT; rv:1.8.0.7) Gecko/200609211 Camino/1.0.3',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Camino 1.0',
             'Browser' => 'Camino',
             'Browser_Type' => 'Browser',
@@ -8371,13 +8371,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-FD' => [
+    ),
+    'issue-900-FD' => array(
         'ua' => 'Mozilla/5.0 Gecko/20030306 Camino/0.7',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Camino 0.7',
             'Browser' => 'Camino',
             'Browser_Type' => 'Browser',
@@ -8424,13 +8424,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-FE' => [
+    ),
+    'issue-900-FE' => array(
         'ua' => 'Mozilla/4.08 (Charon; Inferno)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Charon',
             'Browser' => 'Charon',
             'Browser_Type' => 'Browser',
@@ -8477,13 +8477,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-FF' => [
+    ),
+    'issue-900-FF' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en) AppleWebKit/418.8 (KHTML, like Gecko, Safari) Cheshire/1.0.UNOFFICIAL',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Cheshire',
             'Browser' => 'Cheshire',
             'Browser_Type' => 'Browser',
@@ -8530,13 +8530,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-FG' => [
+    ),
+    'issue-900-FG' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X; en) AppleWebKit/418.9 (KHTML, like Gecko, Safari) Cheshire/1.0.UNOFFICIAL',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Cheshire',
             'Browser' => 'Cheshire',
             'Browser_Type' => 'Browser',
@@ -8583,13 +8583,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-FH' => [
+    ),
+    'issue-900-FH' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en) AppleWebKit/419 (KHTML, like Gecko, Safari/419.3) Cheshire/1.0.ALPHA',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Cheshire',
             'Browser' => 'Cheshire',
             'Browser_Type' => 'Browser',
@@ -8636,13 +8636,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-FI' => [
+    ),
+    'issue-900-FI' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en) AppleWebKit/418.9 (KHTML, like Safari) Cheshire/1.0.ALPHA',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Cheshire',
             'Browser' => 'Cheshire',
             'Browser_Type' => 'Browser',
@@ -8689,13 +8689,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-FJ' => [
+    ),
+    'issue-900-FJ' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en) AppleWebKit/418.9 (KHTML, like Gecko, Safari/111) Cheshire/1.0.ALPHA',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Cheshire',
             'Browser' => 'Cheshire',
             'Browser_Type' => 'Browser',
@@ -8742,13 +8742,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-FK' => [
+    ),
+    'issue-900-FK' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en) AppleWebKit/418.9 (KHTML, like Gecko, Safari) Safari/419.3 Cheshire/1.0.ALPHA',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Cheshire',
             'Browser' => 'Cheshire',
             'Browser_Type' => 'Browser',
@@ -8795,13 +8795,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-FL' => [
+    ),
+    'issue-900-FL' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en) AppleWebKit/418.9 (KHTML, like Gecko) Safari/419.3 Cheshire/1.0.ALPHA',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Cheshire',
             'Browser' => 'Cheshire',
             'Browser_Type' => 'Browser',
@@ -8848,13 +8848,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-FM' => [
+    ),
+    'issue-900-FM' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en) AppleWebKit/418.9 (KHTML, like Gecko) AppleWebKit/418.9 Cheshire/1.0.ALPHA',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Cheshire',
             'Browser' => 'Cheshire',
             'Browser_Type' => 'Browser',
@@ -8901,13 +8901,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-FN' => [
+    ),
+    'issue-900-FN' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X; en) AppleWebKit/419 (KHTML, like Gecko, Safari/419.3) Cheshire/1.0.ALPHA',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Cheshire',
             'Browser' => 'Cheshire',
             'Browser_Type' => 'Browser',
@@ -8954,13 +8954,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-FO' => [
+    ),
+    'issue-900-FO' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X; en) AppleWebKit/419 (KHTML, like Gecko, Safari/125) Cheshire/1.0.ALPHA',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Cheshire',
             'Browser' => 'Cheshire',
             'Browser_Type' => 'Browser',
@@ -9007,13 +9007,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-FP' => [
+    ),
+    'issue-900-FP' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X; pl-PL; rv:1.0.1)   Gecko/20021111 Chimera/0.6',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Chimera',
             'Browser' => 'Chimera',
             'Browser_Type' => 'Browser',
@@ -9060,13 +9060,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-FR' => [
+    ),
+    'issue-900-FR' => array(
         'ua' => 'Mozilla/5.0 (X11; FreeBSD amd64) AppleWebKit/536.5 (KHTML like Gecko) Chrome/19.0.1084.56 Safari/1EA69',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Chrome 19.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -9113,13 +9113,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-FU' => [
+    ),
+    'issue-900-FU' => array(
         'ua' => 'Mozilla/5.0 ArchLinux (X11; Linux x86_64) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.41 Safari/535.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Chrome 13.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -9166,13 +9166,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-FV' => [
+    ),
+    'issue-900-FV' => array(
         'ua' => 'Mozilla/5.0 Slackware/13.37 (X11; U; Linux x86_64; en-US) AppleWebKit/534.16 (KHTML, like Gecko) Chrome/12.0.742.91',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Chrome 12.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -9219,13 +9219,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-GA' => [
+    ),
+    'issue-900-GA' => array(
         'ua' => 'Mozilla/5.0 Slackware/13.37 (X11; U; Linux x86_64; en-US) AppleWebKit/534.16 (KHTML, like Gecko) Chrome/11.0.696.50',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Chrome 11.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -9272,13 +9272,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-GB' => [
+    ),
+    'issue-900-GB' => array(
         'ua' => 'Mozilla/4.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/11.0.1245.0 Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Chrome 11.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -9325,13 +9325,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-GC' => [
+    ),
+    'issue-900-GC' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_5; en-US) AppleWebKit/534.16 (KHTML, like Gecko) Chrome/10.0.648.204',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Chrome 10.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -9378,13 +9378,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-GD' => [
+    ),
+    'issue-900-GD' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.1; ru-RU; AppleWebKit/534.16; KHTML; like Gecko; Chrome/10.0.648.11;Safari/534.16)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Chrome 10.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -9431,13 +9431,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-GE' => [
+    ),
+    'issue-900-GE' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/540.0 (KHTML,like Gecko) Chrome/9.1.0.0 Safari/540.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Comodo Dragon 9.1',
             'Browser' => 'Dragon',
             'Browser_Type' => 'Browser',
@@ -9484,13 +9484,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-GF' => [
+    ),
+    'issue-900-GF' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/540.0 (KHTML, like Gecko) Ubuntu/10.10 Chrome/9.1.0.0 Safari/540.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Comodo Dragon 9.1',
             'Browser' => 'Dragon',
             'Browser_Type' => 'Browser',
@@ -9537,13 +9537,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-GG' => [
+    ),
+    'issue-900-GG' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-CA) AppleWebKit/534.13 (KHTML like Gecko) Chrome/9.0.597.98 Safari/534.13',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Chrome 9.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -9590,13 +9590,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-GH' => [
+    ),
+    'issue-900-GH' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US)  AppleWebKit/534.13 (KHTML, like Gecko) Chrome/9.0.597.0 Safari/534.13',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Chrome 9.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -9643,13 +9643,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-GI' => [
+    ),
+    'issue-900-GI' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/540.0 (KHTML, like Gecko) Ubuntu/10.10 Chrome/8.1.0.0 Safari/540.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Comodo Dragon 8.1',
             'Browser' => 'Dragon',
             'Browser_Type' => 'Browser',
@@ -9696,13 +9696,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-GJ' => [
+    ),
+    'issue-900-GJ' => array(
         'ua' => 'Mozilla/5.0 (X11; U; OpenBSD i386; en-US) AppleWebKit/533.3 (KHTML, like Gecko) Chrome/5.0.359.0 Safari/533.3',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Chrome 5.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -9749,13 +9749,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-GK' => [
+    ),
+    'issue-900-GK' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; de-DE) Chrome/4.0.223.3 Safari/532.2',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Chrome 4.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -9802,13 +9802,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-GL' => [
+    ),
+    'issue-900-GL' => array(
         'ua' => 'Mozilla/4.0 (Windows; U; Windows NT 5.0; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.195.33 Safari/532.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Chrome 3.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -9855,13 +9855,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-GM' => [
+    ),
+    'issue-900-GM' => array(
         'ua' => 'Mozilla/6.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.195.27 Safari/532.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Chrome 3.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -9908,13 +9908,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-GN' => [
+    ),
+    'issue-900-GN' => array(
         'ua' => 'Mozilla/6.0 (Windows; U; Windows NT 6.0; en-US) Gecko/2009032609 Chrome/2.0.172.6 Safari/530.7',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Chrome 2.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -9961,13 +9961,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-GO' => [
+    ),
+    'issue-900-GO' => array(
         'ua' => 'Mozilla/6.0 (Windows; U; Windows NT 6.0; en-US) Gecko/2009032609 (KHTML, like Gecko) Chrome/2.0.172.6 Safari/530.7',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Chrome 2.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -10014,13 +10014,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-GP' => [
+    ),
+    'issue-900-GP' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/528.8 (KHTML, like Gecko) Chrome/2.0.156.0 Version/3.2.1 Safari/528.8',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Chrome 2.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -10067,13 +10067,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-GQ' => [
+    ),
+    'issue-900-GQ' => array(
         'ua' => 'Mozilla/4.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/525.19 (KHTML, like Gecko) Chrome/1.0.154.59 Safari/525.19',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Chrome 1.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -10120,13 +10120,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-GT' => [
+    ),
+    'issue-900-GT' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.2 (KHTML, like Gecko) ChromePlus/4.0.222.3 Chrome/4.0.222.3 Safari/532.2',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'ChromePlus 4.0',
             'Browser' => 'ChromePlus',
             'Browser_Type' => 'Browser',
@@ -10173,13 +10173,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-GU' => [
+    ),
+    'issue-900-GU' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/525.28.3 (KHTML, like Gecko) Version/3.2.3 ChromePlus/4.0.222.3 Chrome/4.0.222.3 Safari/525.28.3',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'ChromePlus 4.0',
             'Browser' => 'ChromePlus',
             'Browser_Type' => 'Browser',
@@ -10226,13 +10226,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-GV' => [
+    ),
+    'issue-900-GV' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC; en-US; mimic; rv:9.3.0) Gecko/20120117 Firefox/3.6.25 Classilla/CFM',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Classilla',
             'Browser' => 'Classilla',
             'Browser_Type' => 'Browser',
@@ -10279,13 +10279,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-GW' => [
+    ),
+    'issue-900-GW' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC; en-US; mimic; rv:9.3.0) Clecko/20120101 Classilla/CFM',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Classilla',
             'Browser' => 'Classilla',
             'Browser_Type' => 'Browser',
@@ -10332,13 +10332,13 @@ return [
             'RenderingEngine_Name' => 'Clecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-GX' => [
+    ),
+    'issue-900-GX' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.3) Gecko/20100409 Firefox/3.6.3 CometBird/3.6.3',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'CometBird 3.6',
             'Browser' => 'CometBird',
             'Browser_Type' => 'Browser',
@@ -10385,13 +10385,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.2',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-GY' => [
+    ),
+    'issue-900-GY' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; it; rv:1.9.2.16) Gecko/20110325 Firefox/3.6.16 CometBird/3.6.16',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'CometBird 3.6',
             'Browser' => 'CometBird',
             'Browser_Type' => 'Browser',
@@ -10438,13 +10438,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.2',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-GZ' => [
+    ),
+    'issue-900-GZ' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9.0.5) Gecko/2009011615 Firefox/3.0.5 CometBird/3.0.5',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'CometBird 3.0',
             'Browser' => 'CometBird',
             'Browser_Type' => 'Browser',
@@ -10491,13 +10491,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-HA' => [
+    ),
+    'issue-900-HA' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.5) Gecko/2009011615 Firefox/3.0.5 CometBird/3.0.5',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'CometBird 3.0',
             'Browser' => 'CometBird',
             'Browser_Type' => 'Browser',
@@ -10544,13 +10544,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-HB' => [
+    ),
+    'issue-900-HB' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Comodo_Dragon/12.1.0.0 Chrome/12.0.742.91 Safari/534.30',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Comodo Dragon 12.1',
             'Browser' => 'Dragon',
             'Browser_Type' => 'Browser',
@@ -10597,13 +10597,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-HC' => [
+    ),
+    'issue-900-HC' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/534.30 (KHTML, like Gecko) Comodo_Dragon/12.1.0.0 Chrome/12.0.742.91 Safari/534.30',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Comodo Dragon 12.1',
             'Browser' => 'Dragon',
             'Browser_Type' => 'Browser',
@@ -10650,13 +10650,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-HD' => [
+    ),
+    'issue-900-HD' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/534.30 (KHTML, like Gecko) Comodo_Dragon/12.1.0.0 Chrome/12.0.742.91 Safari/534.30',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Comodo Dragon 12.1',
             'Browser' => 'Dragon',
             'Browser_Type' => 'Browser',
@@ -10703,13 +10703,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-HE' => [
+    ),
+    'issue-900-HE' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/532.5 (KHTML, like Gecko) Comodo_Dragon/4.1.1.11 Chrome/4.1.249.1042 Safari/532.5',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Comodo Dragon 4.1',
             'Browser' => 'Dragon',
             'Browser_Type' => 'Browser',
@@ -10756,13 +10756,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-HF' => [
+    ),
+    'issue-900-HF' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.5 (KHTML, like Gecko) Comodo_Dragon/4.1.1.11 Chrome/4.1.249.1042 Safari/532.5',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Comodo Dragon 4.1',
             'Browser' => 'Dragon',
             'Browser_Type' => 'Browser',
@@ -10809,13 +10809,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-HG' => [
+    ),
+    'issue-900-HG' => array(
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64; rv:10.0.11) Gecko/20100101 conkeror/1.0pre (Debian-1.0~~pre+git120527-1)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Conkeror 1.0',
             'Browser' => 'Conkeror',
             'Browser_Type' => 'Browser',
@@ -10862,13 +10862,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-HH' => [
+    ),
+    'issue-900-HH' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; rv:16.0) Gecko/20121010 conkeror/1.0pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Conkeror 1.0',
             'Browser' => 'Conkeror',
             'Browser_Type' => 'Browser',
@@ -10915,13 +10915,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-HI' => [
+    ),
+    'issue-900-HI' => array(
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64; rv:6.0.1) Gecko/20110831 conkeror/0.9.3',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Conkeror 0.9',
             'Browser' => 'Conkeror',
             'Browser_Type' => 'Browser',
@@ -10968,13 +10968,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-HJ' => [
+    ),
+    'issue-900-HJ' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.1.16) Gecko/20101209 Conkeror/0.9.2 (Debian-0.9.2+git100804-1)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Conkeror 0.9',
             'Browser' => 'Conkeror',
             'Browser_Type' => 'Browser',
@@ -11021,13 +11021,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-HK' => [
+    ),
+    'issue-900-HK' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.1.15) Gecko/20101028 Conkeror/0.9.2 (Debian-0.9.2+git100804-1)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Conkeror 0.9',
             'Browser' => 'Conkeror',
             'Browser_Type' => 'Browser',
@@ -11074,13 +11074,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-HL' => [
+    ),
+    'issue-900-HL' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.1.14) Gecko/20101020 Conkeror/0.9.2 (Debian-0.9.2+git100804-1)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Conkeror 0.9',
             'Browser' => 'Conkeror',
             'Browser_Type' => 'Browser',
@@ -11127,13 +11127,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-HM' => [
+    ),
+    'issue-900-HM' => array(
         'ua' => 'Mozilla/5.0 (compatible; MSIE 8.0; Windows NT 6.0; SV1; Crazy Browser 9.0.04)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Crazy Browser 9.0',
             'Browser' => 'Crazy Browser',
             'Browser_Type' => 'Browser',
@@ -11180,13 +11180,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-HN' => [
+    ),
+    'issue-900-HN' => array(
         'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0; Crazy Browser 3.1.0)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Crazy Browser 3.1',
             'Browser' => 'Crazy Browser',
             'Browser_Type' => 'Browser',
@@ -11233,13 +11233,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-HO' => [
+    ),
+    'issue-900-HO' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; Crazy Browser 3.0.5) ; .NET CLR 3.0.04506.30; InfoPath.2; InfoPath.3; .NET CLR 1.1.4322; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Crazy Browser 3.0',
             'Browser' => 'Crazy Browser',
             'Browser_Type' => 'Browser',
@@ -11286,13 +11286,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-HP' => [
+    ),
+    'issue-900-HP' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; .NET CLR 1.1.4322; Crazy Browser 2.0.1)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Crazy Browser 2.0',
             'Browser' => 'Crazy Browser',
             'Browser_Type' => 'Browser',
@@ -11339,13 +11339,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-HQ' => [
+    ),
+    'issue-900-HQ' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 5.5; Windows 98; Crazy Browser 1.x.x)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Crazy Browser 1.0',
             'Browser' => 'Crazy Browser',
             'Browser_Type' => 'Browser',
@@ -11392,13 +11392,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-HR' => [
+    ),
+    'issue-900-HR' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; Q312461; Crazy Browser 1.0.5; .NET CLR 1.0.3705)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Crazy Browser 1.0',
             'Browser' => 'Crazy Browser',
             'Browser_Type' => 'Browser',
@@ -11445,13 +11445,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-HS' => [
+    ),
+    'issue-900-HS' => array(
         'ua' => 'Cyberdog/2.0 (Macintosh; PPC)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Cyberdog',
             'Browser' => 'Cyberdog',
             'Browser_Type' => 'Application',
@@ -11498,13 +11498,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-HT' => [
+    ),
+    'issue-900-HT' => array(
         'ua' => 'Cyberdog/2.0 (Macintosh; 68k)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Cyberdog',
             'Browser' => 'Cyberdog',
             'Browser_Type' => 'Application',
@@ -11551,13 +11551,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-HU' => [
+    ),
+    'issue-900-HU' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X; pl-pl) AppleWebKit/312.8 (KHTML, like Gecko, Safari) DeskBrowse/1.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -11604,13 +11604,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-HV' => [
+    ),
+    'issue-900-HV' => array(
         'ua' => 'Dooble/0.07 (de_CH) WebKit',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -11657,13 +11657,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-HX' => [
+    ),
+    'issue-900-HX' => array(
         'ua' => 'ELinks (0.4.3; NetBSD 3.0.2_PATCH sparc64; 80x25)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'ELinks 0.4',
             'Browser' => 'ELinks',
             'Browser_Type' => 'Browser',
@@ -11710,13 +11710,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-HY' => [
+    ),
+    'issue-900-HY' => array(
         'ua' => 'ELinks (0.4.3; NetBSD 3.0.2_PATCH sparc64; 80x24)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'ELinks 0.4',
             'Browser' => 'ELinks',
             'Browser_Type' => 'Browser',
@@ -11763,13 +11763,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-HZ' => [
+    ),
+    'issue-900-HZ' => array(
         'ua' => 'ELinks (0.4.3; NetBSD 3.0.2_PATCH sparc64; 143x45)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'ELinks 0.4',
             'Browser' => 'ELinks',
             'Browser_Type' => 'Browser',
@@ -11816,13 +11816,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-IA' => [
+    ),
+    'issue-900-IA' => array(
         'ua' => 'ELinks (0.4.3; NetBSD 3.0.2_PATCH sparc64; 126x14)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'ELinks 0.4',
             'Browser' => 'ELinks',
             'Browser_Type' => 'Browser',
@@ -11869,13 +11869,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-IB' => [
+    ),
+    'issue-900-IB' => array(
         'ua' => 'ELinks (0.4.3; NetBSD 3.0.2PATCH sparc64; 141x19)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'ELinks 0.4',
             'Browser' => 'ELinks',
             'Browser_Type' => 'Browser',
@@ -11922,13 +11922,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-IC' => [
+    ),
+    'issue-900-IC' => array(
         'ua' => 'Elinks (0.3.2; Linux 2.4.20-13.8 i686)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'ELinks 0.3',
             'Browser' => 'ELinks',
             'Browser_Type' => 'Browser',
@@ -11975,13 +11975,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ID' => [
+    ),
+    'issue-900-ID' => array(
         'ua' => 'ELinks/0.12pre1.GIT',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'ELinks 0.12',
             'Browser' => 'ELinks',
             'Browser_Type' => 'Browser',
@@ -12028,13 +12028,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-IE' => [
+    ),
+    'issue-900-IE' => array(
         'ua' => 'Elinks (textmode)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'ELinks Generic',
             'Browser' => 'ELinks',
             'Browser_Type' => 'Browser',
@@ -12081,13 +12081,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-IG' => [
+    ),
+    'issue-900-IG' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; it-it) AppleWebKit/534.26+ (KHTML, like Gecko) Ubuntu/11.04 Epiphany/2.30.6',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Epiphany 2.30',
             'Browser' => 'Epiphany',
             'Browser_Type' => 'Browser',
@@ -12134,13 +12134,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-IH' => [
+    ),
+    'issue-900-IH' => array(
         'ua' => 'Mozilla/5.0 (X11; U; OpenBSD arm; en-us) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ Epiphany/2.30.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Epiphany 2.30',
             'Browser' => 'Epiphany',
             'Browser_Type' => 'Browser',
@@ -12187,13 +12187,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-II' => [
+    ),
+    'issue-900-II' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; nl-nl) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ Epiphany/2.29.91',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Epiphany 2.29',
             'Browser' => 'Epiphany',
             'Browser_Type' => 'Browser',
@@ -12240,13 +12240,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-IJ' => [
+    ),
+    'issue-900-IJ' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; fr-fr) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ Epiphany/2.29.91',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Epiphany 2.29',
             'Browser' => 'Epiphany',
             'Browser_Type' => 'Browser',
@@ -12293,13 +12293,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-IK' => [
+    ),
+    'issue-900-IK' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; zh-cn) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ Epiphany/2.28.2 SUSE/2.28.0-2.4',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Epiphany 2.28',
             'Browser' => 'Epiphany',
             'Browser_Type' => 'Browser',
@@ -12346,13 +12346,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-IL' => [
+    ),
+    'issue-900-IL' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; zh-cn) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ Epiphany/2.28.0 SUSE/2.28.0-2.4',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Epiphany 2.28',
             'Browser' => 'Epiphany',
             'Browser_Type' => 'Browser',
@@ -12399,13 +12399,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-IM' => [
+    ),
+    'issue-900-IM' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en; rv:1.9.0.8) Gecko/20080528 Fedora/2.24.3-4.fc10 Epiphany/2.22 Firefox/3.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Epiphany 2.22',
             'Browser' => 'Epiphany',
             'Browser_Type' => 'Browser',
@@ -12452,13 +12452,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-IN' => [
+    ),
+    'issue-900-IN' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en; rv:1.9.0.8) Gecko/20080528 Epiphany/2.22 Firefox/3.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Epiphany 2.22',
             'Browser' => 'Epiphany',
             'Browser_Type' => 'Browser',
@@ -12505,13 +12505,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-IO' => [
+    ),
+    'issue-900-IO' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en; rv:1.9.0.14) Gecko/20080528 Ubuntu/9.10 (karmic) Epiphany/2.22 Firefox/3.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Epiphany 2.22',
             'Browser' => 'Epiphany',
             'Browser_Type' => 'Browser',
@@ -12558,13 +12558,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-IP' => [
+    ),
+    'issue-900-IP' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en; rv:1.9.0.1) Gecko/20080528 Epiphany/2.22 Firefox/3.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Epiphany 2.22',
             'Browser' => 'Epiphany',
             'Browser_Type' => 'Browser',
@@ -12611,13 +12611,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-IQ' => [
+    ),
+    'issue-900-IQ' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en; rv:1.9) Gecko/20080528 Epiphany/2.22 Firefox/3.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Epiphany 2.22',
             'Browser' => 'Epiphany',
             'Browser_Type' => 'Browser',
@@ -12664,13 +12664,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-IR' => [
+    ),
+    'issue-900-IR' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en; rv:1.8.1.13) Gecko/20080322 Epiphany/2.22 Firefox/2.0.0.4',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Epiphany 2.22',
             'Browser' => 'Epiphany',
             'Browser_Type' => 'Browser',
@@ -12717,13 +12717,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-IS' => [
+    ),
+    'issue-900-IS' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en_GB; rv:1.9.0.1) Gecko/20080528 Epiphany/2.22 Firefox/3.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Epiphany 2.22',
             'Browser' => 'Epiphany',
             'Browser_Type' => 'Browser',
@@ -12770,13 +12770,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-IT' => [
+    ),
+    'issue-900-IT' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en; rv:1.9.0.9) Gecko/20080528 Epiphany/2.22 Firefox/3.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Epiphany 2.22',
             'Browser' => 'Epiphany',
             'Browser_Type' => 'Browser',
@@ -12823,13 +12823,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-IU' => [
+    ),
+    'issue-900-IU' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en; rv:1.9.0.8) Gecko/20080528 Epiphany/2.22 Firefox/3.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Epiphany 2.22',
             'Browser' => 'Epiphany',
             'Browser_Type' => 'Browser',
@@ -12876,13 +12876,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-IV' => [
+    ),
+    'issue-900-IV' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en; rv:1.9.0.5) Gecko/20080528 Fedora/2.24.1-3.fc10 Epiphany/2.22 Firefox/3.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Epiphany 2.22',
             'Browser' => 'Epiphany',
             'Browser_Type' => 'Browser',
@@ -12929,13 +12929,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-IW' => [
+    ),
+    'issue-900-IW' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en; rv:1.9.0.4) Gecko/20080528 Epiphany/2.22 Firefox/3.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Epiphany 2.22',
             'Browser' => 'Epiphany',
             'Browser_Type' => 'Browser',
@@ -12982,13 +12982,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-IX' => [
+    ),
+    'issue-900-IX' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en; rv:1.9.0.15) Gecko/20080528 Epiphany/2.22 Firefox/3.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Epiphany 2.22',
             'Browser' => 'Epiphany',
             'Browser_Type' => 'Browser',
@@ -13035,13 +13035,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-IY' => [
+    ),
+    'issue-900-IY' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en; rv:1.9.0.12) Gecko/20080528 Epiphany/2.22 Firefox/3.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Epiphany 2.22',
             'Browser' => 'Epiphany',
             'Browser_Type' => 'Browser',
@@ -13088,13 +13088,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-IZ' => [
+    ),
+    'issue-900-IZ' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en; rv:1.9) Gecko/20080528 (Gentoo) Epiphany/2.22 Firefox/3.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Epiphany 2.22',
             'Browser' => 'Epiphany',
             'Browser_Type' => 'Browser',
@@ -13141,13 +13141,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-JA' => [
+    ),
+    'issue-900-JA' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en; rv:1.8.1.14) Gecko/20080616 Fedora/2.20.3-4.fc8 Epiphany/2.20 Firefox/2.0.0.14',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Epiphany 2.20',
             'Browser' => 'Epiphany',
             'Browser_Type' => 'Browser',
@@ -13194,13 +13194,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-JB' => [
+    ),
+    'issue-900-JB' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en; rv:1.8.1.13) Gecko/20080326 (Debian-1.8.1.13-1) Epiphany/2.20',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Epiphany 2.20',
             'Browser' => 'Epiphany',
             'Browser_Type' => 'Browser',
@@ -13247,13 +13247,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-JC' => [
+    ),
+    'issue-900-JC' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux ppc; en; rv:1.8.1.13) Gecko/20080325 Epiphany/2.20 Firefox/2.0.0.13',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Epiphany 2.20',
             'Browser' => 'Epiphany',
             'Browser_Type' => 'Browser',
@@ -13300,13 +13300,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-JD' => [
+    ),
+    'issue-900-JD' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en; rv:1.9b3) Gecko Epiphany/2.20',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Epiphany 2.20',
             'Browser' => 'Epiphany',
             'Browser_Type' => 'Browser',
@@ -13353,13 +13353,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-JE' => [
+    ),
+    'issue-900-JE' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en; rv:1.8.1.19) Gecko/20081216 Epiphany/2.20 Firefox/2.0.0.19',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Epiphany 2.20',
             'Browser' => 'Epiphany',
             'Browser_Type' => 'Browser',
@@ -13406,13 +13406,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-JF' => [
+    ),
+    'issue-900-JF' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en; rv:1.8.1.17) Gecko/20080927 Epiphany/2.20 Firefox/2.0.0.17 (Dropline GNOME)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Epiphany 2.20',
             'Browser' => 'Epiphany',
             'Browser_Type' => 'Browser',
@@ -13459,13 +13459,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-JG' => [
+    ),
+    'issue-900-JG' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en; rv:1.8.1.14) Gecko/20080418 Epiphany/2.20 Firefox/2.0.0.14',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Epiphany 2.20',
             'Browser' => 'Epiphany',
             'Browser_Type' => 'Browser',
@@ -13512,13 +13512,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-JH' => [
+    ),
+    'issue-900-JH' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en; rv:1.8.1.12) Gecko/20080208 (Debian-1.8.1.12-5) Epiphany/2.20',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Epiphany 2.20',
             'Browser' => 'Epiphany',
             'Browser_Type' => 'Browser',
@@ -13565,13 +13565,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-JI' => [
+    ),
+    'issue-900-JI' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en; rv:1.8.1.12) Gecko/20080208 (Debian-1.8.1.12-2) Epiphany/2.20',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Epiphany 2.20',
             'Browser' => 'Epiphany',
             'Browser_Type' => 'Browser',
@@ -13618,13 +13618,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-JJ' => [
+    ),
+    'issue-900-JJ' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en; rv:1.8.1.10) Gecko/20071213 Epiphany/2.20 Firefox/2.0.0.10',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Epiphany 2.20',
             'Browser' => 'Epiphany',
             'Browser_Type' => 'Browser',
@@ -13671,13 +13671,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-JK' => [
+    ),
+    'issue-900-JK' => array(
         'ua' => 'Mozilla/5.0 (X11; U; FreeBSD i386; pl; rv:1.8.1.12) Gecko/20080213 Epiphany/2.20 Firefox/2.0.0.12',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Epiphany 2.20',
             'Browser' => 'Epiphany',
             'Browser_Type' => 'Browser',
@@ -13724,13 +13724,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-JL' => [
+    ),
+    'issue-900-JL' => array(
         'ua' => 'Mozilla/5.0 (X11; U; FreeBSD i386; en; rv:1.8.1.12) Gecko/20080213 Epiphany/2.20 Firefox/2.0.0.12',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Epiphany 2.20',
             'Browser' => 'Epiphany',
             'Browser_Type' => 'Browser',
@@ -13777,13 +13777,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-JM' => [
+    ),
+    'issue-900-JM' => array(
         'ua' => 'Mozilla/5.0 (X11; U; OpenBSD amd64; en; rv:1.8.1.6) Gecko/20070817 Epiphany/2.18 Firefox/2.0.0.6',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Epiphany 2.18',
             'Browser' => 'Epiphany',
             'Browser_Type' => 'Browser',
@@ -13830,13 +13830,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-JN' => [
+    ),
+    'issue-900-JN' => array(
         'ua' => 'Mozilla/5.0 (X11; U; FreeBSD i386; en-US; rv:1.8.1) Gecko/20070322 Epiphany/2.18',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Epiphany 2.18',
             'Browser' => 'Epiphany',
             'Browser_Type' => 'Browser',
@@ -13883,13 +13883,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-JO' => [
+    ),
+    'issue-900-JO' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.13) Gecko/20060501 Epiphany/2.14',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Epiphany 2.14',
             'Browser' => 'Epiphany',
             'Browser_Type' => 'Browser',
@@ -13936,13 +13936,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-JP' => [
+    ),
+    'issue-900-JP' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.12) Gecko/20051215 Epiphany/1.8.4.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Epiphany 1.8',
             'Browser' => 'Epiphany',
             'Browser_Type' => 'Browser',
@@ -13989,13 +13989,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-JQ' => [
+    ),
+    'issue-900-JQ' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.12) Gecko/20060208 Epiphany/1.8.3',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Epiphany 1.8',
             'Browser' => 'Epiphany',
             'Browser_Type' => 'Browser',
@@ -14042,13 +14042,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-JR' => [
+    ),
+    'issue-900-JR' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; fr; rv:1.7.12) Gecko/20051010 Epiphany/1.8.2 (Ubuntu) (Ubuntu package 1.0.7)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Epiphany 1.8',
             'Browser' => 'Epiphany',
             'Browser_Type' => 'Browser',
@@ -14095,13 +14095,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-JS' => [
+    ),
+    'issue-900-JS' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.12) Gecko/20051010 Epiphany/1.8.2 (Ubuntu) (Ubuntu package 1.0.7)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Epiphany 1.8',
             'Browser' => 'Epiphany',
             'Browser_Type' => 'Browser',
@@ -14148,13 +14148,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-JT' => [
+    ),
+    'issue-900-JT' => array(
         'ua' => 'Mozilla/5.0 (X11; U; SunOS 5.11; en-US; rv:1.8.0.2) Gecko/20050405 Epiphany/1.7.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Epiphany 1.7',
             'Browser' => 'Epiphany',
             'Browser_Type' => 'Browser',
@@ -14201,13 +14201,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-JU' => [
+    ),
+    'issue-900-JU' => array(
         'ua' => 'Mozilla/5.0 (X11; U; SunOS sun4u; en-US; rv:1.7.5) Gecko/20050105 Epiphany/1.4.8',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Epiphany 1.4',
             'Browser' => 'Epiphany',
             'Browser_Type' => 'Browser',
@@ -14254,13 +14254,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-JV' => [
+    ),
+    'issue-900-JV' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i586; en-US; rv:1.6) Gecko/20040413 Epiphany/1.2.6',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Epiphany 1.2',
             'Browser' => 'Epiphany',
             'Browser_Type' => 'Browser',
@@ -14307,13 +14307,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-JW' => [
+    ),
+    'issue-900-JW' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux; i686; en-US; rv:1.6) Gecko Epiphany/1.2.5',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Epiphany 1.2',
             'Browser' => 'Epiphany',
             'Browser_Type' => 'Browser',
@@ -14360,13 +14360,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-JX' => [
+    ),
+    'issue-900-JX' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.6) Gecko/20040114 Epiphany/1.0.7',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Epiphany 1.0',
             'Browser' => 'Epiphany',
             'Browser_Type' => 'Browser',
@@ -14413,13 +14413,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-JY' => [
+    ),
+    'issue-900-JY' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; de-AT; rv:1.6) Gecko/20040114 Epiphany/1.0.7',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Epiphany 1.0',
             'Browser' => 'Epiphany',
             'Browser_Type' => 'Browser',
@@ -14466,13 +14466,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-JZ' => [
+    ),
+    'issue-900-JZ' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030908 Epiphany/0.9.2',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Epiphany 0.9',
             'Browser' => 'Epiphany',
             'Browser_Type' => 'Browser',
@@ -14519,13 +14519,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-KA' => [
+    ),
+    'issue-900-KA' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i586; en-US) Gecko/20030908 Epiphany/0.9.2',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Epiphany 0.9',
             'Browser' => 'Epiphany',
             'Browser_Type' => 'Browser',
@@ -14572,13 +14572,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-KB' => [
+    ),
+    'issue-900-KB' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; pl-pl) AppleWebKit/525.1+ (KHTML, like Gecko, Safari/525.1+) epiphany-browser',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Epiphany',
             'Browser' => 'Epiphany',
             'Browser_Type' => 'Browser',
@@ -14625,13 +14625,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-KC' => [
+    ),
+    'issue-900-KC' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-gb) AppleWebKit/525.1+ (KHTML, like Gecko, Safari/525.1+) epiphany-webkit',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Epiphany',
             'Browser' => 'Epiphany',
             'Browser_Type' => 'Browser',
@@ -14678,13 +14678,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-KE' => [
+    ),
+    'issue-900-KE' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.1; x64; fr; rv:1.9.2.13) Gecko/20101203 Firebird/3.6.13',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.6',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -14731,13 +14731,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.2',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-KF' => [
+    ),
+    'issue-900-KF' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.6b) Gecko/20031212 Firebird/0.7+',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 0.7',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -14784,13 +14784,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-KG' => [
+    ),
+    'issue-900-KG' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.6a) Gecko/20031002 Firebird/0.7',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 0.7',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -14837,13 +14837,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-KH' => [
+    ),
+    'issue-900-KH' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.5) Gecko/20031007 Firebird/0.7',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 0.7',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -14890,13 +14890,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-KI' => [
+    ),
+    'issue-900-KI' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; de-DE; rv:1.5) Gecko/20031007 Firebird/0.7',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 0.7',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -14943,13 +14943,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-KJ' => [
+    ),
+    'issue-900-KJ' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Win98; en-US; rv:1.5) Gecko/20031007 Firebird/0.7',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 0.7',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -14996,13 +14996,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-KK' => [
+    ),
+    'issue-900-KK' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Win95; en-US; rv:1.5) Gecko/20031007 Firebird/0.7',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 0.7',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -15049,13 +15049,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-KL' => [
+    ),
+    'issue-900-KL' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; en-US; rv:1.5) Gecko/20031026 Firebird/0.7',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 0.7',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -15102,13 +15102,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-KM' => [
+    ),
+    'issue-900-KM' => array(
         'ua' => 'Mozilla/5.0 (X11; U; SunOS sun4u; en-US; rv:1.5a) Gecko/20030729 Mozilla Firebird/0.6.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 0.6',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -15155,13 +15155,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-KN' => [
+    ),
+    'issue-900-KN' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.5a) Gecko/20030728 Mozilla Firebird/0.6.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 0.6',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -15208,13 +15208,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-KO' => [
+    ),
+    'issue-900-KO' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.5a) Gecko/20030728 Mozilla Firebird/0.6.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 0.6',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -15261,13 +15261,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-KP' => [
+    ),
+    'issue-900-KP' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Win98; de-DE; rv:1.5a) Gecko/20030728 Mozilla Firebird/0.6.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 0.6',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -15314,13 +15314,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-KQ' => [
+    ),
+    'issue-900-KQ' => array(
         'ua' => 'Mozilla/5.0 (X11; U; SunOS sun4u; en-US; rv:1.4b) Gecko/20030517 Mozilla Firebird/0.6',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 0.6',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -15367,13 +15367,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-KR' => [
+    ),
+    'issue-900-KR' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4b) Gecko/20030630 Mozilla Firebird/0.6',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 0.6',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -15420,13 +15420,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-KS' => [
+    ),
+    'issue-900-KS' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4b) Gecko/20030607 Mozilla Firebird/0.6',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 0.6',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -15473,13 +15473,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-KT' => [
+    ),
+    'issue-900-KT' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4b) Gecko/20030516 Mozilla Firebird/0.6',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 0.6',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -15526,13 +15526,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-KU' => [
+    ),
+    'issue-900-KU' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4b) Gecko/20030505 Mozilla Firebird/0.6',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 0.6',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -15579,13 +15579,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-KV' => [
+    ),
+    'issue-900-KV' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4a) Gecko/20030425 Mozilla Firebird/0.6',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 0.6',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -15632,13 +15632,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-KW' => [
+    ),
+    'issue-900-KW' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; WinNT4.0; en-US; rv:1.4b) Gecko/20030610 Mozilla Firebird/0.6',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 0.6',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -15685,13 +15685,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-KX' => [
+    ),
+    'issue-900-KX' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Win98; en-US; rv:1.4b) Gecko/20030516 Mozilla Firebird/0.6',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 0.6',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -15738,13 +15738,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-KY' => [
+    ),
+    'issue-900-KY' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Win98; de-DE; rv:1.4b) Gecko/20030516 Mozilla Firebird/0.6',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 0.6',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -15791,13 +15791,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-KZ' => [
+    ),
+    'issue-900-KZ' => array(
         'ua' => 'Mozilla/5.0 (Windows x86; rv:19.0) Gecko/20100101 Firefox/19.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -15844,13 +15844,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-LB' => [
+    ),
+    'issue-900-LB' => array(
         'ua' => 'Mozilla/5.0 (X11; NetBSD amd64; rv:16.0) Gecko/20121102 Firefox/16.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 16.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -15897,13 +15897,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '16.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-LC' => [
+    ),
+    'issue-900-LC' => array(
         'ua' => 'Mozilla/6.0 (Macintosh; I; Intel Mac OS X 11_7_9; de-LI; rv:1.9b4) Gecko/2012010317 Firefox/10.0a4',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 10.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -15950,13 +15950,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '10.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-LD' => [
+    ),
+    'issue-900-LD' => array(
         'ua' => 'mozilla/3.0 (Windows NT 6.1; rv:2.0.1) Gecko/20100101 Firefox/5.0.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 5.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -16003,13 +16003,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '5.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-LE' => [
+    ),
+    'issue-900-LE' => array(
         'ua' => 'Mozilla/4.0 (compatible;  Intel Mac OS X 10.6; rv:2.0b8) Gecko/20100101 Firefox/4.0b8)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 4.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -16056,13 +16056,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '2.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-LF' => [
+    ),
+    'issue-900-LF' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.2.3) Gecko/20100401 Mozilla/5.0 (X11; U; Linux i686; it-IT; rv:1.9.0.2) Gecko/2008092313 Ubuntu/9.25 (jaunty) Firefox/3.8',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.8',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -16109,13 +16109,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.3',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-LG' => [
+    ),
+    'issue-900-LG' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; en-US; rv:1.9.2) Gecko/20091218 Firefox 3.6b5',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.6',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -16162,13 +16162,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.2',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-LH' => [
+    ),
+    'issue-900-LH' => array(
         'ua' => 'Mozilla/5.0 Mozilla/5.0 (Windows; U; Windows NT 5.1; de; rv:1.9.2.13) Firefox/3.6.13',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -16215,13 +16215,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-LI' => [
+    ),
+    'issue-900-LI' => array(
         'ua' => 'Mozilla/5.0 (X11; U; NetBSD i386; en-US; rv:1.9.2.12) Gecko/20101030 Firefox/3.6.12',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.6',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -16268,13 +16268,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.2',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-LJ' => [
+    ),
+    'issue-900-LJ' => array(
         'ua' => 'Mozilla/5.0(Windows; U; Windows NT 7.0; rv:1.9.2) Gecko/20100101 Firefox/3.6',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -16321,13 +16321,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-LL' => [
+    ),
+    'issue-900-LL' => array(
         'ua' => 'Mozilla/5.0 (X11; FreeBSD i686) Firefox/3.6',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -16374,13 +16374,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-LP' => [
+    ),
+    'issue-900-LP' => array(
         'ua' => 'Mozilla/5.0 (X11; U; DragonFly i386; de; rv:1.9.1) Gecko/20090720 Firefox/3.5.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.5',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -16427,13 +16427,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.1',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-LQ' => [
+    ),
+    'issue-900-LQ' => array(
         'ua' => 'Mozilla/5.0 (X11; U; DragonFly i386; de; rv:1.9.1b2) Gecko/20081201 Firefox/3.1b2',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.1',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -16480,13 +16480,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-LR' => [
+    ),
+    'issue-900-LR' => array(
         'ua' => 'Mozilla/6.0 (Windows; U; Windows NT 7.0; en-US; rv:1.9.0.8) Gecko/2009032609 Firefox/3.0.9 (.NET CLR 3.5.30729)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -16533,13 +16533,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-LS' => [
+    ),
+    'issue-900-LS' => array(
         'ua' => 'Mozilla/5.0  (Windows; U;  Windows NT 5.1; de; rv:1.9.0.4) Firefox/3.0.8)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -16586,13 +16586,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-LT' => [
+    ),
+    'issue-900-LT' => array(
         'ua' => 'Mozilla/6.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9.0.8) Gecko/2009032609 Firefox/3.0.8 (.NET CLR 3.5.30729)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -16639,13 +16639,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-LU' => [
+    ),
+    'issue-900-LU' => array(
         'ua' => 'Mozilla/6.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9.0.8) Gecko/2009032609 Firefox/3.0.8',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -16692,13 +16692,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-MY' => [
+    ),
+    'issue-900-MY' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.7 (KHTML, like Gecko) Flock/3.5.2.4599 Chrome/7.0.517.442 Safari/534.7',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Flock 3.5',
             'Browser' => 'Flock',
             'Browser_Type' => 'Browser',
@@ -16745,13 +16745,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-MZ' => [
+    ),
+    'issue-900-MZ' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.7 (KHTML, like Gecko) Flock/3.5.2.4599 Chrome/7.0.517.442 Safari/534.7',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Flock 3.5',
             'Browser' => 'Flock',
             'Browser_Type' => 'Browser',
@@ -16798,13 +16798,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-NA' => [
+    ),
+    'issue-900-NA' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686 (x86_64); en-US; rv:1.8.1.17) Gecko/20080913 Firefox/2.0.0.17 Flock/1.2.6',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Flock 1.2',
             'Browser' => 'Flock',
             'Browser_Type' => 'Browser',
@@ -16851,13 +16851,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-NB' => [
+    ),
+    'issue-900-NB' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.14) Gecko/20080530 Firefox/2.0.0.14 Flock/1.2.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Flock 1.2',
             'Browser' => 'Flock',
             'Browser_Type' => 'Browser',
@@ -16904,13 +16904,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-NC' => [
+    ),
+    'issue-900-NC' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.14) Gecko/20080414 Firefox/2.0.0.14 Flock/1.1.2',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Flock 1.1',
             'Browser' => 'Flock',
             'Browser_Type' => 'Browser',
@@ -16957,13 +16957,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ND' => [
+    ),
+    'issue-900-ND' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.12) Gecko/20080304 Firefox/2.0.0.12 Flock/1.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Flock 1.1',
             'Browser' => 'Flock',
             'Browser_Type' => 'Browser',
@@ -17010,13 +17010,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-NE' => [
+    ),
+    'issue-900-NE' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; ru; rv:1.8.1.11) Gecko/20080131 Firefox/2.0.0.11 Flock/1.0.8',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Flock 1.0',
             'Browser' => 'Flock',
             'Browser_Type' => 'Browser',
@@ -17063,13 +17063,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-NF' => [
+    ),
+    'issue-900-NF' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686 (x86_64); en-US; rv:1.8.1.11) Gecko/20080126 Firefox/2.0.0.11 Flock/1.0.8',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Flock 1.0',
             'Browser' => 'Flock',
             'Browser_Type' => 'Browser',
@@ -17116,13 +17116,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-NG' => [
+    ),
+    'issue-900-NG' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.11) Gecko/20071206 Firefox/2.0.0.11 Flock/1.0.3',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Flock 1.0',
             'Browser' => 'Flock',
             'Browser_Type' => 'Browser',
@@ -17169,13 +17169,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-NH' => [
+    ),
+    'issue-900-NH' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.7) Gecko/20071013 Firefox/2.0.0.7 Flock/0.9.1.3',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Flock 0.9',
             'Browser' => 'Flock',
             'Browser_Type' => 'Browser',
@@ -17222,13 +17222,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-NI' => [
+    ),
+    'issue-900-NI' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.8.1.7) Gecko/20070925 Firefox/2.0.0.7 Flock/0.9.1.2',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Flock 0.9',
             'Browser' => 'Flock',
             'Browser_Type' => 'Browser',
@@ -17275,13 +17275,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-NJ' => [
+    ),
+    'issue-900-NJ' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.6) Gecko/20070914 Firefox/2.0.0.6 Flock/0.9.1.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Flock 0.9',
             'Browser' => 'Flock',
             'Browser_Type' => 'Browser',
@@ -17328,13 +17328,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-NK' => [
+    ),
+    'issue-900-NK' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.6) Gecko/20070801 Firefox/2.0.0.6 Flock/0.9.0.2',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Flock 0.9',
             'Browser' => 'Flock',
             'Browser_Type' => 'Browser',
@@ -17381,13 +17381,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-NL' => [
+    ),
+    'issue-900-NL' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.4) Gecko/20070707 Firefox/2.0.0.4 Flock/0.9.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Flock 0.9',
             'Browser' => 'Flock',
             'Browser_Type' => 'Browser',
@@ -17434,13 +17434,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-NM' => [
+    ),
+    'issue-900-NM' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.2) Gecko/20070307 Firefox/2.0.0.2 Flock/0.7.99',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Flock 0.7',
             'Browser' => 'Flock',
             'Browser_Type' => 'Browser',
@@ -17487,13 +17487,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-NN' => [
+    ),
+    'issue-900-NN' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.0.9) Gecko/20061219 Flock/0.7.9.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Flock 0.7',
             'Browser' => 'Flock',
             'Browser_Type' => 'Browser',
@@ -17540,13 +17540,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-NO' => [
+    ),
+    'issue-900-NO' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux ia64; pl; rv:1.8.0.5) Gecko/20060801 Firefox/1.5.0.5 Flock/0.7.4.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Flock 0.7',
             'Browser' => 'Flock',
             'Browser_Type' => 'Browser',
@@ -17593,13 +17593,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-NP' => [
+    ),
+    'issue-900-NP' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; pl; rv:1.8.0.5) Gecko/20060801 Firefox/1.5.0.5 Flock/0.7.4.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Flock 0.7',
             'Browser' => 'Flock',
             'Browser_Type' => 'Browser',
@@ -17646,13 +17646,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-NQ' => [
+    ),
+    'issue-900-NQ' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.0.5) Gecko/20060731 Firefox/1.5.0.5 Flock/0.7.4.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Flock 0.7',
             'Browser' => 'Flock',
             'Browser_Type' => 'Browser',
@@ -17699,13 +17699,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-NR' => [
+    ),
+    'issue-900-NR' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.0.11) Gecko/20070501 Firefox/1.5.0.11 Flock/0.7.13.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Flock 0.7',
             'Browser' => 'Flock',
             'Browser_Type' => 'Browser',
@@ -17752,13 +17752,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-NS' => [
+    ),
+    'issue-900-NS' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.0.4) Gecko/20060612 Firefox/1.5.0.4 Flock/0.7.0.17.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Flock 0.7',
             'Browser' => 'Flock',
             'Browser_Type' => 'Browser',
@@ -17805,13 +17805,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-NT' => [
+    ),
+    'issue-900-NT' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; en-US; rv:1.8.0.1) Gecko/20060331 Flock/0.7',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Flock 0.7',
             'Browser' => 'Flock',
             'Browser_Type' => 'Browser',
@@ -17858,13 +17858,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-NU' => [
+    ),
+    'issue-900-NU' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; pl; rv:1.8.0.1) Gecko/20060314 Flock/0.5.13.2',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Flock 0.5',
             'Browser' => 'Flock',
             'Browser_Type' => 'Browser',
@@ -17911,13 +17911,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-NV' => [
+    ),
+    'issue-900-NV' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.0.1) Gecko/20060314 Flock/0.5.13.2',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Flock 0.5',
             'Browser' => 'Flock',
             'Browser_Type' => 'Browser',
@@ -17964,13 +17964,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-NW' => [
+    ),
+    'issue-900-NW' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; en-US; rv:1.8.0.1) Gecko/20060314 Flock/0.5.13.2',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Flock 0.5',
             'Browser' => 'Flock',
             'Browser_Type' => 'Browser',
@@ -18017,13 +18017,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-NX' => [
+    ),
+    'issue-900-NX' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.0.1) Gecko/20060217 Flock/0.5.11',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Flock 0.5',
             'Browser' => 'Flock',
             'Browser_Type' => 'Browser',
@@ -18070,13 +18070,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-NY' => [
+    ),
+    'issue-900-NY' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; en-US; rv:1.8.0.1) Gecko/20060217 Flock/0.5.11',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Flock 0.5',
             'Browser' => 'Flock',
             'Browser_Type' => 'Browser',
@@ -18123,13 +18123,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-NZ' => [
+    ),
+    'issue-900-NZ' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8) Gecko/20060102 Flock/0.4.11 Firefox/1.5',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Flock 0.4',
             'Browser' => 'Flock',
             'Browser_Type' => 'Browser',
@@ -18176,13 +18176,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-OA' => [
+    ),
+    'issue-900-OA' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8) Gecko/20051119 Flock/0.4.11 Firefox/1.0+',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Flock 0.4',
             'Browser' => 'Flock',
             'Browser_Type' => 'Browser',
@@ -18229,13 +18229,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-OB' => [
+    ),
+    'issue-900-OB' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.8b5) Gecko/20051019 Flock/0.4 Firefox/1.0+',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Flock 0.4',
             'Browser' => 'Flock',
             'Browser_Type' => 'Browser',
@@ -18282,13 +18282,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-OC' => [
+    ),
+    'issue-900-OC' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8b5) Gecko/20051103 Flock/0.4 Firefox/1.0+',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Flock 0.4',
             'Browser' => 'Flock',
             'Browser_Type' => 'Browser',
@@ -18335,13 +18335,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-OD' => [
+    ),
+    'issue-900-OD' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8b5) Gecko/20051021 Flock/0.4 Firefox/1.0+',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Flock 0.4',
             'Browser' => 'Flock',
             'Browser_Type' => 'Browser',
@@ -18388,13 +18388,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-OE' => [
+    ),
+    'issue-900-OE' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; en-US; rv:1.8b5) Gecko/20051021 Flock/0.4 Firefox/1.0+',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Flock 0.4',
             'Browser' => 'Flock',
             'Browser_Type' => 'Browser',
@@ -18441,13 +18441,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-OF' => [
+    ),
+    'issue-900-OF' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_1; nl-nl) AppleWebKit/532.3+ (KHTML, like Gecko) Fluid/0.9.6 Safari/532.3+',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Fluid 0.9',
             'Browser' => 'Fluid',
             'Browser_Type' => 'Browser',
@@ -18494,13 +18494,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-OG' => [
+    ),
+    'issue-900-OG' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_1; nl-nl) AppleWebKit/531.9 (KHTML, like Gecko) Fluid/0.9.6 Safari/531.9',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Fluid 0.9',
             'Browser' => 'Fluid',
             'Browser_Type' => 'Browser',
@@ -18547,13 +18547,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-OH' => [
+    ),
+    'issue-900-OH' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_6; en-us) AppleWebKit/528.16 (KHTML, like Gecko) Fluid/0.9.6 Safari/528.16',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Fluid 0.9',
             'Browser' => 'Fluid',
             'Browser_Type' => 'Browser',
@@ -18600,13 +18600,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-OI' => [
+    ),
+    'issue-900-OI' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/525.13 (KHTML, like Gecko) Fluid/0.9.4 Safari/525.13',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Fluid 0.9',
             'Browser' => 'Fluid',
             'Browser_Type' => 'Browser',
@@ -18653,13 +18653,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-OL' => [
+    ),
+    'issue-900-OL' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.19) Gecko/20081216 Galeon/2.0.4 Firefox/2.0.0.19',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Galeon 2.0',
             'Browser' => 'Galeon',
             'Browser_Type' => 'Browser',
@@ -18706,13 +18706,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-OM' => [
+    ),
+    'issue-900-OM' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux sparc64; en-GB; rv:1.8.1.11) Gecko/20071217 Galeon/2.0.3 Firefox/2.0.0.11',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Galeon 2.0',
             'Browser' => 'Galeon',
             'Browser_Type' => 'Browser',
@@ -18759,13 +18759,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ON' => [
+    ),
+    'issue-900-ON' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.0.13pre) Gecko/20080207 Galeon/2.0.1 (Ubuntu package 2.0.1-1ubuntu2) Firefox/1.5.0.13pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Galeon 2.0',
             'Browser' => 'Galeon',
             'Browser_Type' => 'Browser',
@@ -18812,13 +18812,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-OO' => [
+    ),
+    'issue-900-OO' => array(
         'ua' => 'Mozilla/5.0 (X11; U; FreeBSD i386; en-US; rv:1.7.12) Gecko/20051105 Galeon/1.3.21',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Galeon 1.3',
             'Browser' => 'Galeon',
             'Browser_Type' => 'Browser',
@@ -18865,13 +18865,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-OP' => [
+    ),
+    'issue-900-OP' => array(
         'ua' => 'Mozilla/5.0 (X11; U; FreeBSD i386; en-US; rv:1.6) Gecko/20040406 Galeon/1.3.15',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Galeon 1.3',
             'Browser' => 'Galeon',
             'Browser_Type' => 'Browser',
@@ -18918,13 +18918,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-OQ' => [
+    ),
+    'issue-900-OQ' => array(
         'ua' => 'Mozilla/5.0(X11;U;Linux(x86_64);en;rv:1.9a8)Gecko/2007100619;GranParadiso/3.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -18971,13 +18971,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-OR' => [
+    ),
+    'issue-900-OR' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux ppc; en-US; rv:1.9a8) Gecko/2007100620 GranParadiso/3.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.1',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -19024,13 +19024,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-OS' => [
+    ),
+    'issue-900-OS' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9a7) Gecko/2007080210 GranParadiso/3.0a7',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -19077,13 +19077,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-OT' => [
+    ),
+    'issue-900-OT' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9a4) Gecko/2007042705 GranParadiso/3.0a4',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -19130,13 +19130,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-OU' => [
+    ),
+    'issue-900-OU' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9a4) Gecko/20070427 GranParadiso/3.0a4',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -19183,13 +19183,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-OV' => [
+    ),
+    'issue-900-OV' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9a3) Gecko/20070322 GranParadiso/3.0a3',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -19236,13 +19236,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-OW' => [
+    ),
+    'issue-900-OW' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9a2) Gecko/20070206 GranParadiso/3.0a2',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -19289,13 +19289,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-OX' => [
+    ),
+    'issue-900-OX' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN; rv:1.9a1) Gecko/20061204 GranParadiso/3.0a1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -19342,13 +19342,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-OY' => [
+    ),
+    'issue-900-OY' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9a1) Gecko/20061204 GranParadiso/3.0a1 MEGAUPLOAD 1.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -19395,13 +19395,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-OZ' => [
+    ),
+    'issue-900-OZ' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9a1) Gecko/20061204 GranParadiso/3.0a1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -19448,13 +19448,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-PA' => [
+    ),
+    'issue-900-PA' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.9a1) Gecko/20061204 GranParadiso/3.0a1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -19501,13 +19501,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-PB' => [
+    ),
+    'issue-900-PB' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; en-US; rv:1.9a1) Gecko/20061204 GranParadiso/3.0a1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -19554,13 +19554,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-PD' => [
+    ),
+    'issue-900-PD' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN; rv:1.9.0.7pre) Gecko/2009012106 GranParadiso/3.0.7pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -19607,13 +19607,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-PE' => [
+    ),
+    'issue-900-PE' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.4pre) Gecko/2008102405 GranParadiso/3.0.4pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -19660,13 +19660,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-PF' => [
+    ),
+    'issue-900-PF' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.4pre) Gecko/2008101305 GranParadiso/3.0.4pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -19713,13 +19713,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-PG' => [
+    ),
+    'issue-900-PG' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.5; en-US; rv:1.9.0.3pre) Gecko/2008090704 GranParadiso/3.0.3pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -19766,13 +19766,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-PH' => [
+    ),
+    'issue-900-PH' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.2pre) Gecko/2008072405 GranParadiso/3.0.2pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -19819,13 +19819,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-PI' => [
+    ),
+    'issue-900-PI' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.2pre) Gecko/2008071405 GranParadiso/3.0.2pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -19872,13 +19872,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-PJ' => [
+    ),
+    'issue-900-PJ' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.9a3) Gecko/20070409 GranParadiso/2.0.0.3',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 2.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -19925,13 +19925,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.8',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-PK' => [
+    ),
+    'issue-900-PK' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.9a1) Gecko/20061204 GranParadiso/2.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 2.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -19978,13 +19978,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.8',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-QM' => [
+    ),
+    'issue-900-QM' => array(
         'ua' => 'iCab/4.0  (Windows; U; Windows NT 6.0; en-gb)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'iCab 4.0',
             'Browser' => 'iCab',
             'Browser_Type' => 'Browser',
@@ -20031,13 +20031,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-QN' => [
+    ),
+    'issue-900-QN' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS; en) iCab 3',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'iCab 3.0',
             'Browser' => 'iCab',
             'Browser_Type' => 'Browser',
@@ -20084,13 +20084,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-QO' => [
+    ),
+    'issue-900-QO' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.1.13) Gecko/20100916 Iceape/2.0.8',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Iceape 2.0',
             'Browser' => 'Iceape',
             'Browser_Type' => 'Browser',
@@ -20137,13 +20137,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-QP' => [
+    ),
+    'issue-900-QP' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.1.11) Gecko/20100721 Iceape/2.0.6',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Iceape 2.0',
             'Browser' => 'Iceape',
             'Browser_Type' => 'Browser',
@@ -20190,13 +20190,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-QQ' => [
+    ),
+    'issue-900-QQ' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.1.9) Gecko/20100502 Iceape/2.0.4',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Iceape 2.0',
             'Browser' => 'Iceape',
             'Browser_Type' => 'Browser',
@@ -20243,13 +20243,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-QR' => [
+    ),
+    'issue-900-QR' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.1.16) Gecko/20110302 Iceape/2.0.11',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Iceape 2.0',
             'Browser' => 'Iceape',
             'Browser_Type' => 'Browser',
@@ -20296,13 +20296,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-QS' => [
+    ),
+    'issue-900-QS' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.1.16) Gecko/20101227 Iceape/2.0.11',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Iceape 2.0',
             'Browser' => 'Iceape',
             'Browser_Type' => 'Browser',
@@ -20349,13 +20349,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-QT' => [
+    ),
+    'issue-900-QT' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.8.1.19) Gecko/20081204 Iceape/1.1.14 (Debian-1.1.14-1) Mnenhy/0.7.6.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Iceape 1.1',
             'Browser' => 'Iceape',
             'Browser_Type' => 'Browser',
@@ -20402,13 +20402,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-QU' => [
+    ),
+    'issue-900-QU' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux sparc64; es-PY; rv:5.0) Gecko/20100101 IceCat/5.0 (like Firefox/5.0; Debian-6.0.1)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'IceCat 5.0',
             'Browser' => 'IceCat',
             'Browser_Type' => 'Browser',
@@ -20455,13 +20455,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-QV' => [
+    ),
+    'issue-900-QV' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; fr; rv:1.9.2.13) Gecko/20101203 IceCat/3.6.13-g1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'IceCat 3.6',
             'Browser' => 'IceCat',
             'Browser_Type' => 'Browser',
@@ -20508,13 +20508,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-QW' => [
+    ),
+    'issue-900-QW' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; it; rv:1.9.2.12) Gecko/20101114 IceCat/3.6.12 (like Firefox/3.6.12)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'IceCat 3.6',
             'Browser' => 'IceCat',
             'Browser_Type' => 'Browser',
@@ -20561,13 +20561,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-QX' => [
+    ),
+    'issue-900-QX' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; pt-PT; rv:1.9.2.3) Gecko/20100402 Iceweasel/3.6.3 (like Firefox/3.6.3) GTB7.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Iceweasel 3.6',
             'Browser' => 'Iceweasel',
             'Browser_Type' => 'Browser',
@@ -20614,13 +20614,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.2',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-QY' => [
+    ),
+    'issue-900-QY' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; it; rv:1.9.2.13) Gecko/20110109 Iceweasel/3.6.13 (like Firefox/3.6.13)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Iceweasel 3.6',
             'Browser' => 'Iceweasel',
             'Browser_Type' => 'Browser',
@@ -20667,13 +20667,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.2',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-QZ' => [
+    ),
+    'issue-900-QZ' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; pt-PT; rv:1.9.2.3) Gecko/20100402 Iceweasel/3.6 (like Firefox/3.6) GTB7.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Iceweasel 3.6',
             'Browser' => 'Iceweasel',
             'Browser_Type' => 'Browser',
@@ -20720,13 +20720,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.2',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-RA' => [
+    ),
+    'issue-900-RA' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; de-DE; rv:1.9.1.9) Gecko/20100501 Iceweasel/3.5.9 (like Firefox/3.5.9)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Iceweasel 3.5',
             'Browser' => 'Iceweasel',
             'Browser_Type' => 'Browser',
@@ -20773,13 +20773,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.1',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-RB' => [
+    ),
+    'issue-900-RB' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.9) Gecko/20100501 Iceweasel/3.5.8 (like Firefox/3.5.8)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Iceweasel 3.5',
             'Browser' => 'Iceweasel',
             'Browser_Type' => 'Browser',
@@ -20826,13 +20826,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.1',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-RC' => [
+    ),
+    'issue-900-RC' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.9) Gecko/20100501 Iceweasel/3.5.6 (like Firefox/3.5.6; Debian-3.5.6-2)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Iceweasel 3.5',
             'Browser' => 'Iceweasel',
             'Browser_Type' => 'Browser',
@@ -20879,13 +20879,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.1',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-RD' => [
+    ),
+    'issue-900-RD' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; de; rv:1.9.1.5) Gecko/20091112 Iceweasel/3.5.5 (like Firefox/3.5.5; Debian-3.5.5-1)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Iceweasel 3.5',
             'Browser' => 'Iceweasel',
             'Browser_Type' => 'Browser',
@@ -20932,13 +20932,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.1',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-RE' => [
+    ),
+    'issue-900-RE' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; de; rv:1.9.1.19) Gecko/20110430 Iceweasel/3.5.19 (like Firefox/3.5.19)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Iceweasel 3.5',
             'Browser' => 'Iceweasel',
             'Browser_Type' => 'Browser',
@@ -20985,13 +20985,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.1',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-RF' => [
+    ),
+    'issue-900-RF' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; de-DE; rv:1.9.1.18) Gecko/20110324 Iceweasel/3.5.18 (like Firefox/3.5.18)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Iceweasel 3.5',
             'Browser' => 'Iceweasel',
             'Browser_Type' => 'Browser',
@@ -21038,13 +21038,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.1',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-RG' => [
+    ),
+    'issue-900-RG' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; it; rv:1.9.1.16) Gecko/20120602 Iceweasel/3.5.16 (like Firefox/3.5.16)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Iceweasel 3.5',
             'Browser' => 'Iceweasel',
             'Browser_Type' => 'Browser',
@@ -21091,13 +21091,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.1',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-RH' => [
+    ),
+    'issue-900-RH' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; fr; rv:1.9.1.16) Gecko/20120714 Iceweasel/3.5.16 (like Firefox/3.5.16)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Iceweasel 3.5',
             'Browser' => 'Iceweasel',
             'Browser_Type' => 'Browser',
@@ -21144,13 +21144,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.1',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-RI' => [
+    ),
+    'issue-900-RI' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; es-ES; rv:1.9.1.16) Gecko/20111108 Iceweasel/3.5.16 (like Firefox/3.5.16)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Iceweasel 3.5',
             'Browser' => 'Iceweasel',
             'Browser_Type' => 'Browser',
@@ -21197,13 +21197,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.1',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-RJ' => [
+    ),
+    'issue-900-RJ' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-GB; rv:1.9.1.11) Gecko/20100819 Iceweasel/3.5.11 (like Firefox/3.5.11)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Iceweasel 3.5',
             'Browser' => 'Iceweasel',
             'Browser_Type' => 'Browser',
@@ -21250,13 +21250,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.1',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-RK' => [
+    ),
+    'issue-900-RK' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; it; rv:1.9.0.6) Gecko/2009020409 Iceweasel 3.0.6 (Debian 5.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Iceweasel 3.0',
             'Browser' => 'Iceweasel',
             'Browser_Type' => 'Browser',
@@ -21303,13 +21303,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-RL' => [
+    ),
+    'issue-900-RL' => array(
         'ua' => 'Mozilla/15.0 (X11; U; Linux i686; es-ES; rv:1.8.1.9) Gecko/20071025 Iceweasel/2.0.0.9',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -21356,13 +21356,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-RM' => [
+    ),
+    'issue-900-RM' => array(
         'ua' => 'Mozilla 5.0 (X11; U; Linux i686; en-US; rv:1.8.1.14) Gecko/200770508  Iceweasel/2.0.0.4',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -21409,13 +21409,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-RN' => [
+    ),
+    'issue-900-RN' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.13) Gecko/20080311 Firefox/2.0 Iceweasel/2.0.0.3 (Debian-2.0.0.13-1)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Iceweasel 2.0',
             'Browser' => 'Iceweasel',
             'Browser_Type' => 'Browser',
@@ -21462,13 +21462,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.8',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-RO' => [
+    ),
+    'issue-900-RO' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.9a3) Gecko/20070409 IceWeasel/2.0.0.3',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Iceweasel 2.0',
             'Browser' => 'Iceweasel',
             'Browser_Type' => 'Browser',
@@ -21515,13 +21515,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.8',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-RP' => [
+    ),
+    'issue-900-RP' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.13) Gecko/20080311 Firefox/2.0.0.3 Iceweasel/2.0.0.13 (Debian-2.0.0.13-1)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Iceweasel 2.0',
             'Browser' => 'Iceweasel',
             'Browser_Type' => 'Browser',
@@ -21568,13 +21568,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.8',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-RQ' => [
+    ),
+    'issue-900-RQ' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.0; ru; rv:1.9.2.13) Gecko/20101203 IceWeasel/2.0.0.11 Mnenhy/0.8.3',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Iceweasel 2.0',
             'Browser' => 'Iceweasel',
             'Browser_Type' => 'Browser',
@@ -21621,13 +21621,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.8',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-RR' => [
+    ),
+    'issue-900-RR' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.0.7) Gecko/20061022 Iceweasel/1.5.0.7-g2',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Iceweasel 1.5',
             'Browser' => 'Iceweasel',
             'Browser_Type' => 'Browser',
@@ -21674,13 +21674,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-RS' => [
+    ),
+    'issue-900-RS' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.0.8pre) Gecko/20061001 Firefox/1.5.0.8pre (Iceweasel)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Iceweasel Generic',
             'Browser' => 'Iceweasel',
             'Browser_Type' => 'Browser',
@@ -21727,13 +21727,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-RT' => [
+    ),
+    'issue-900-RT' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-GB; rv:1.9.0.7) Gecko/2009030814 Iceweasel Firefox/3.0.7 (Debian-3.0.7-1)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Iceweasel Generic',
             'Browser' => 'Iceweasel',
             'Browser_Type' => 'Browser',
@@ -21780,13 +21780,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-RU' => [
+    ),
+    'issue-900-RU' => array(
         'ua' => 'Mozilla/5.0 (Linux) Gecko Iceweasel (Debian) Mnenhy',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -21833,13 +21833,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-RX' => [
+    ),
+    'issue-900-RX' => array(
         'ua' => 'Mozilla/4.0(compatible; MSIE 7.0b; Windows NT 6.0)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -21886,13 +21886,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-SA' => [
+    ),
+    'issue-900-SA' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.1; Windows XP; .NET CLR 1.1.4322; .NET CLR 2.0.50727)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -21939,13 +21939,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-SB' => [
+    ),
+    'issue-900-SB' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.1; Windows XP)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -21992,13 +21992,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-SC' => [
+    ),
+    'issue-900-SC' => array(
         'ua' => 'Mozilla/45.0 (compatible; MSIE 6.0; Windows NT 5.1)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -22045,13 +22045,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-SM' => [
+    ),
+    'issue-900-SM' => array(
         'ua' => 'Mozilla/4.0 (compatible;MSIE 5.5; Windows 98)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -22098,13 +22098,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-SN' => [
+    ),
+    'issue-900-SN' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 5.5;)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -22151,13 +22151,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-SO' => [
+    ),
+    'issue-900-SO' => array(
         'ua' => 'Mozilla/4.0(compatible; MSIE 5.0; Windows 98; DigExt)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -22204,13 +22204,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-SP' => [
+    ),
+    'issue-900-SP' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 5.0; Windows NT)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'IE 5.0',
             'Browser' => 'IE',
             'Browser_Type' => 'Browser',
@@ -22257,13 +22257,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-TF' => [
+    ),
+    'issue-900-TF' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/4.0; iRider 2.60.0008; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'IE 8.0 in IE 7.0 Compatibility Mode',
             'Browser' => 'IE',
             'Browser_Type' => 'Browser',
@@ -22310,13 +22310,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-TG' => [
+    ),
+    'issue-900-TG' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; iRider 2.21.1108)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'IE 6.0',
             'Browser' => 'IE',
             'Browser_Type' => 'Browser',
@@ -22363,13 +22363,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-TH' => [
+    ),
+    'issue-900-TH' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux amd64) Iron/21.0.1200.0 Chrome/21.0.1200.0 Safari/537.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -22416,13 +22416,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-TI' => [
+    ),
+    'issue-900-TI' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux amd64) Iron/20.0.1150.1 Chrome/20.0.1150.1 Safari/536.11',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -22469,13 +22469,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-TJ' => [
+    ),
+    'issue-900-TJ' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/532.8 (KHTML, like Gecko) Chrome/4.0.280.0 Safari/532.8 Iron/4.0.280.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Iron 4.0',
             'Browser' => 'Iron',
             'Browser_Type' => 'Browser',
@@ -22522,13 +22522,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-TK' => [
+    ),
+    'issue-900-TK' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/532.8 (KHTML, like Gecko) Chrome/4.0.275.2 Safari/532.8 Iron/4.0.275.2',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Iron 4.0',
             'Browser' => 'Iron',
             'Browser_Type' => 'Browser',
@@ -22575,13 +22575,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-TL' => [
+    ),
+    'issue-900-TL' => array(
         'ua' => 'Mozilla/5.0 (Windows; U;) AppleWebKit/532.0 (KHTML, like Gecko) Iron/3.0.197.0 Safari/532.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -22628,13 +22628,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-TM' => [
+    ),
+    'issue-900-TM' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) Chrome/0.0.0 Iron/3.0.197.0 AppleWebKit/532.0 (KHTML, like Gecko) Safari/532.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -22681,13 +22681,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-TN' => [
+    ),
+    'issue-900-TN' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/532.0 (KHTML, like Gecko)  Chrome/0.0.0 Safari/532.0 Iron/3.0.197.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -22734,13 +22734,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-TO' => [
+    ),
+    'issue-900-TO' => array(
         'ua' => 'Mozilla/5.0 (U;) AppleWebKit/532.0 (KHTML, like Gecko) Iron/3.0.197.0 Safari/532.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -22787,13 +22787,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-TP' => [
+    ),
+    'issue-900-TP' => array(
         'ua' => 'Iron/2.0.168.0 (Windows; U; Windows NT 6.1; de-DE) AppleWebKit/530.1 (KHTML, like Gecko)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -22840,13 +22840,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-TQ' => [
+    ),
+    'issue-900-TQ' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US)AppleWebKit/525.19 (KHTML, like Gecko) Iron/0.2.152.0 Safari/13657880.525',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -22893,13 +22893,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-TR' => [
+    ),
+    'issue-900-TR' => array(
         'ua' => 'Mozilla/5.0 (Windows; U;) AppleWebKit/532.0 (KHTML, like Gecko) Iron',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -22946,13 +22946,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-TS' => [
+    ),
+    'issue-900-TS' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.21) Gecko/20090331 K-Meleon/1.5.3',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'K-Meleon 1.5',
             'Browser' => 'K-Meleon',
             'Browser_Type' => 'Browser',
@@ -22999,13 +22999,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-TT' => [
+    ),
+    'issue-900-TT' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Win 9x 4.90; de-DE; rv:1.8.1.21) Gecko/20090331 K-Meleon/1.5.3',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'K-Meleon 1.5',
             'Browser' => 'K-Meleon',
             'Browser_Type' => 'Browser',
@@ -23052,13 +23052,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-TU' => [
+    ),
+    'issue-900-TU' => array(
         'ua' => 'Mozilla/5.0 (Darwin; FreeBSD 5.6; en-GB; rv:1.9.1b3pre)Gecko/20081211 K-Meleon/1.5.2',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -23105,13 +23105,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-TV' => [
+    ),
+    'issue-900-TV' => array(
         'ua' => 'Mozilla/5.0 (Darwin; FreeBSD 5.6; en-GB; rv:1.8.1.17pre) Gecko/20080716 K-Meleon/1.5.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'K-Meleon 1.5',
             'Browser' => 'K-Meleon',
             'Browser_Type' => 'Browser',
@@ -23158,13 +23158,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-TW' => [
+    ),
+    'issue-900-TW' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Win 9x 4.90; es-ES; rv:1.8.1.10) Gecko/20071116 K-Meleon/1.1.3',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'K-Meleon 1.1',
             'Browser' => 'K-Meleon',
             'Browser_Type' => 'Browser',
@@ -23211,13 +23211,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-TX' => [
+    ),
+    'issue-900-TX' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Win 9x 4.90; en-US; rv:1.7.5) Gecko/20041220 K-Meleon/0.9',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'K-Meleon 0.9',
             'Browser' => 'K-Meleon',
             'Browser_Type' => 'Browser',
@@ -23264,13 +23264,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-UH' => [
+    ),
+    'issue-900-UH' => array(
         'ua' => 'Mozilla/5.0 (X11; U; FreeBSD i386; en-US; rv:1.8.1.16) Gecko/20080816 Firefox/2.0.0.16 Kazehakase/0.5.4',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Kazehakase 0.5',
             'Browser' => 'Kazehakase',
             'Browser_Type' => 'Browser',
@@ -23317,13 +23317,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-UI' => [
+    ),
+    'issue-900-UI' => array(
         'ua' => 'Mozilla/5.0 (X11; U; FreeBSD i386; rv:1.8.1.12) Gecko/0 Kazehakase/0.4.9',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Kazehakase 0.4',
             'Browser' => 'Kazehakase',
             'Browser_Type' => 'Browser',
@@ -23370,13 +23370,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-UL' => [
+    ),
+    'issue-900-UL' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; KKMAN3.2; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.2; .NET4.0C)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'KKMAN 3.2',
             'Browser' => 'KKMAN',
             'Browser_Type' => 'Browser',
@@ -23423,13 +23423,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-UM' => [
+    ),
+    'issue-900-UM' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; KKMAN3.2; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET CLR 1.1.4322; InfoPath.3)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'KKMAN 3.2',
             'Browser' => 'KKMAN',
             'Browser_Type' => 'Browser',
@@ -23476,13 +23476,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-UN' => [
+    ),
+    'issue-900-UN' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; GTB6.6; KKMAN3.2; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.2)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'KKMAN 3.2',
             'Browser' => 'KKMAN',
             'Browser_Type' => 'Browser',
@@ -23529,13 +23529,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-UO' => [
+    ),
+    'issue-900-UO' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; GTB6.6; KKMAN3.2; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET CLR 1.1.4322; InfoPath.2)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'KKMAN 3.2',
             'Browser' => 'KKMAN',
             'Browser_Type' => 'Browser',
@@ -23582,13 +23582,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-UP' => [
+    ),
+    'issue-900-UP' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; GTB6.5; KKMAN3.2; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; eSobiSubscriber 2.0.4.16; InfoPath.3)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'KKMAN 3.2',
             'Browser' => 'KKMAN',
             'Browser_Type' => 'Browser',
@@ -23635,13 +23635,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-UQ' => [
+    ),
+    'issue-900-UQ' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; KKMAN3.2; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'KKMAN 3.2',
             'Browser' => 'KKMAN',
             'Browser_Type' => 'Browser',
@@ -23688,13 +23688,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-UR' => [
+    ),
+    'issue-900-UR' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; GTB6.6; KKMAN3.2; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.2)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'KKMAN 3.2',
             'Browser' => 'KKMAN',
             'Browser_Type' => 'Browser',
@@ -23741,13 +23741,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-US' => [
+    ),
+    'issue-900-US' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; GTB6.6; KKMAN3.2; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'KKMAN 3.2',
             'Browser' => 'KKMAN',
             'Browser_Type' => 'Browser',
@@ -23794,13 +23794,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-UT' => [
+    ),
+    'issue-900-UT' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; GTB6.6; KKMAN3.2; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET CLR 1.1.4322; .NET4.0C)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'KKMAN 3.2',
             'Browser' => 'KKMAN',
             'Browser_Type' => 'Browser',
@@ -23847,13 +23847,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-UU' => [
+    ),
+    'issue-900-UU' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; GTB6.5; KKMAN3.2; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; Tablet PC 2.0; InfoPath.3; .NET CLR 1.1.4322)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'KKMAN 3.2',
             'Browser' => 'KKMAN',
             'Browser_Type' => 'Browser',
@@ -23900,13 +23900,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-UV' => [
+    ),
+    'issue-900-UV' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; KKMAN3.2; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.5.30729; .NET CLR 3.0.30729; OfficeLiveConnector.1.5; OfficeLivePatch.1.3; .NET4.0C)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'KKMAN 3.2',
             'Browser' => 'KKMAN',
             'Browser_Type' => 'Browser',
@@ -23953,13 +23953,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-UW' => [
+    ),
+    'issue-900-UW' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; GTB6.6; KKMAN3.2; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.30729; .NET CLR 3.5.30729; .NET CLR 1.1.4322; InfoPath.2)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'KKMAN 3.2',
             'Browser' => 'KKMAN',
             'Browser_Type' => 'Browser',
@@ -24006,13 +24006,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-UX' => [
+    ),
+    'issue-900-UX' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; GTB6.6; KKMAN3.2; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.5.21022; .NET CLR 3.5.30729; .NET CLR 3.0.30729; OfficeLiveConnector.1.5; OfficeLivePatch.1.3; .NET4.0C; InfoPath.2; InfoPath.1)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'KKMAN 3.2',
             'Browser' => 'KKMAN',
             'Browser_Type' => 'Browser',
@@ -24059,13 +24059,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-UY' => [
+    ),
+    'issue-900-UY' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) ; KKMAN3.2; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'KKMAN 3.2',
             'Browser' => 'KKMAN',
             'Browser_Type' => 'Browser',
@@ -24112,13 +24112,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-UZ' => [
+    ),
+    'issue-900-UZ' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; KKMAN3.2; InfoPath.1; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'KKMAN 3.2',
             'Browser' => 'KKMAN',
             'Browser_Type' => 'Browser',
@@ -24165,13 +24165,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-VA' => [
+    ),
+    'issue-900-VA' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6.6; KKMAN3.2; InfoPath.2; .NET CLR 1.1.4322; .NET CLR 2.0.50727; AskTB5.6)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'KKMAN 3.2',
             'Browser' => 'KKMAN',
             'Browser_Type' => 'Browser',
@@ -24218,13 +24218,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-VB' => [
+    ),
+    'issue-900-VB' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6.6; KKMAN3.2; InfoPath.2; .NET CLR 1.1.4322; .NET CLR 2.0.50727)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'KKMAN 3.2',
             'Browser' => 'KKMAN',
             'Browser_Type' => 'Browser',
@@ -24271,13 +24271,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-VC' => [
+    ),
+    'issue-900-VC' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6.6; KKMAN3.2; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; InfoPath.3)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'KKMAN 3.2',
             'Browser' => 'KKMAN',
             'Browser_Type' => 'Browser',
@@ -24324,13 +24324,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-VD' => [
+    ),
+    'issue-900-VD' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6.6; KKMAN3.2; .NET CLR 1.1.4322; InfoPath.2)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'KKMAN 3.2',
             'Browser' => 'KKMAN',
             'Browser_Type' => 'Browser',
@@ -24377,13 +24377,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-VE' => [
+    ),
+    'issue-900-VE' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; (R1 1.6); KKMAN3.2; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET CLR 1.1.4322; InfoPath.2)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'KKMAN 3.2',
             'Browser' => 'KKMAN',
             'Browser_Type' => 'Browser',
@@ -24430,13 +24430,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-VF' => [
+    ),
+    'issue-900-VF' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6.6; KKman3.0; .NET CLR 1.1.4322)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'KKMAN 3.0',
             'Browser' => 'KKMAN',
             'Browser_Type' => 'Browser',
@@ -24483,13 +24483,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-VG' => [
+    ),
+    'issue-900-VG' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; (R1 1.5); KKman3.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'KKMAN 3.0',
             'Browser' => 'KKMAN',
             'Browser_Type' => 'Browser',
@@ -24536,13 +24536,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-VH' => [
+    ),
+    'issue-900-VH' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Trident/4.0; GTB6.6; KKman3.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; InfoPath.1; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'KKMAN 3.0',
             'Browser' => 'KKMAN',
             'Browser_Type' => 'Browser',
@@ -24589,13 +24589,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-VI' => [
+    ),
+    'issue-900-VI' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Trident/4.0; GTB6.6; KKman3.0; SLCC1; .NET CLR 2.0.50727; .NET CLR 1.1.4322; .NET CLR 3.5.30729; OfficeLiveConnector.1.5; OfficeLivePatch.1.3; .NET CLR 3.0.30729)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'KKMAN 3.0',
             'Browser' => 'KKMAN',
             'Browser_Type' => 'Browser',
@@ -24642,13 +24642,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-VJ' => [
+    ),
+    'issue-900-VJ' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) ; KKman3.0; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.0.04506; .NET CLR 1.1.4322; MEGAUPLOAD 2.0; InfoPath.2)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'KKMAN 3.0',
             'Browser' => 'KKMAN',
             'Browser_Type' => 'Browser',
@@ -24695,13 +24695,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-VK' => [
+    ),
+    'issue-900-VK' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; KKman3.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.5.30729; .NET CLR 3.0.30618; OfficeLiveConnector.1.3; OfficeLivePatch.0.0)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'KKMAN 3.0',
             'Browser' => 'KKMAN',
             'Browser_Type' => 'Browser',
@@ -24748,13 +24748,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-VL' => [
+    ),
+    'issue-900-VL' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; KKman3.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.30618; .NET CLR 3.5.30729)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'KKMAN 3.0',
             'Browser' => 'KKMAN',
             'Browser_Type' => 'Browser',
@@ -24801,13 +24801,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-VM' => [
+    ),
+    'issue-900-VM' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; KKman3.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506; InfoPath.2; .NET CLR 1.1.4322)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'KKMAN 3.0',
             'Browser' => 'KKMAN',
             'Browser_Type' => 'Browser',
@@ -24854,13 +24854,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-VN' => [
+    ),
+    'issue-900-VN' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; KKman3.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506; InfoPath.2)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'KKMAN 3.0',
             'Browser' => 'KKMAN',
             'Browser_Type' => 'Browser',
@@ -24907,13 +24907,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-VO' => [
+    ),
+    'issue-900-VO' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; KKman3.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506; InfoPath.1)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'KKMAN 3.0',
             'Browser' => 'KKMAN',
             'Browser_Type' => 'Browser',
@@ -24960,13 +24960,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-VP' => [
+    ),
+    'issue-900-VP' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; KKman3.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506; .NET CLR 1.1.4322)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'KKMAN 3.0',
             'Browser' => 'KKMAN',
             'Browser_Type' => 'Browser',
@@ -25013,13 +25013,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-VQ' => [
+    ),
+    'issue-900-VQ' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; KKman3.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'KKMAN 3.0',
             'Browser' => 'KKMAN',
             'Browser_Type' => 'Browser',
@@ -25066,13 +25066,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-VR' => [
+    ),
+    'issue-900-VR' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; GTB6; KKman3.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506; .NET CLR 1.1.4322; .NET CLR 3.5.21022; InfoPath.1)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'KKMAN 3.0',
             'Browser' => 'KKMAN',
             'Browser_Type' => 'Browser',
@@ -25119,13 +25119,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-VS' => [
+    ),
+    'issue-900-VS' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; GTB5; KKman3.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506; InfoPath.1)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'KKMAN 3.0',
             'Browser' => 'KKMAN',
             'Browser_Type' => 'Browser',
@@ -25172,13 +25172,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-VT' => [
+    ),
+    'issue-900-VT' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; GTB5; KKman3.0; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.0.04506; InfoPath.2)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'KKMAN 3.0',
             'Browser' => 'KKMAN',
             'Browser_Type' => 'Browser',
@@ -25225,13 +25225,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-VU' => [
+    ),
+    'issue-900-VU' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) ; KKman3.0; InfoPath.2; .NET CLR 2.0.50727)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'KKMAN 3.0',
             'Browser' => 'KKMAN',
             'Browser_Type' => 'Browser',
@@ -25278,13 +25278,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-VV' => [
+    ),
+    'issue-900-VV' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) ; KKman3.0; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'KKMAN 3.0',
             'Browser' => 'KKMAN',
             'Browser_Type' => 'Browser',
@@ -25331,13 +25331,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-VW' => [
+    ),
+    'issue-900-VW' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) ; KKman3.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; InfoPath.1)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'KKMAN 3.0',
             'Browser' => 'KKMAN',
             'Browser_Type' => 'Browser',
@@ -25384,13 +25384,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-VX' => [
+    ),
+    'issue-900-VX' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; KKman3.0; InfoPath.1; .NET CLR 2.0.50727)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'KKMAN 3.0',
             'Browser' => 'KKMAN',
             'Browser_Type' => 'Browser',
@@ -25437,13 +25437,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-VY' => [
+    ),
+    'issue-900-VY' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; KKman3.0; .NET CLR 2.0.50727)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'KKMAN 3.0',
             'Browser' => 'KKMAN',
             'Browser_Type' => 'Browser',
@@ -25490,13 +25490,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-VZ' => [
+    ),
+    'issue-900-VZ' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 5.5; Windows NT 5.0; KKman2.0)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'KKMAN 2.0',
             'Browser' => 'KKMAN',
             'Browser_Type' => 'Browser',
@@ -25543,13 +25543,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-WA' => [
+    ),
+    'issue-900-WA' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; KKman3.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'KKMAN 3.0',
             'Browser' => 'KKMAN',
             'Browser_Type' => 'Browser',
@@ -25596,13 +25596,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-WD' => [
+    ),
+    'issue-900-WD' => array(
         'ua' => 'Mozilla/5.0 (X11) KHTML/4.9.1 (like Gecko) Konqueror/4.9',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -25649,13 +25649,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-WR' => [
+    ),
+    'issue-900-WR' => array(
         'ua' => 'Links (1.00pre3; SunOS 5.9 i86pc; 80x24)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Links 1.0',
             'Browser' => 'Links',
             'Browser_Type' => 'Browser',
@@ -25702,13 +25702,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-WS' => [
+    ),
+    'issue-900-WS' => array(
         'ua' => 'Links (0.98; Darwin 6.0 Power Macintosh)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Links 0.98',
             'Browser' => 'Links',
             'Browser_Type' => 'Browser',
@@ -25755,13 +25755,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-XI' => [
+    ),
+    'issue-900-XI' => array(
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; Lunascape 6.7.1.25446)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Lunascape 6.7',
             'Browser' => 'Lunascape',
             'Browser_Type' => 'Browser',
@@ -25808,13 +25808,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '5.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-XJ' => [
+    ),
+    'issue-900-XJ' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; SLCC1; Tablet PC 2.0; Lunascape 6.3.4.23051)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Lunascape 6.3',
             'Browser' => 'Lunascape',
             'Browser_Type' => 'Browser',
@@ -25861,13 +25861,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-XK' => [
+    ),
+    'issue-900-XK' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET CLR 1.1.4322; InfoPath.3; .NET4.0C; Lunascape 6.3.4.23051)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Lunascape 6.3',
             'Browser' => 'Lunascape',
             'Browser_Type' => 'Browser',
@@ -25914,13 +25914,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-XL' => [
+    ),
+    'issue-900-XL' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; OfficeLiveConnector.1.5; OfficeLivePatch.1.3; .NET4.0C; Lunascape 6.3.4.23051)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Lunascape 6.3',
             'Browser' => 'Lunascape',
             'Browser_Type' => 'Browser',
@@ -25967,13 +25967,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-XM' => [
+    ),
+    'issue-900-XM' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; Lunascape 6.3.4.23051)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Lunascape 6.3',
             'Browser' => 'Lunascape',
             'Browser_Type' => 'Browser',
@@ -26020,13 +26020,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-XN' => [
+    ),
+    'issue-900-XN' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; GTB6.5; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Lunascape 6.3.4.23051)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Lunascape 6.3',
             'Browser' => 'Lunascape',
             'Browser_Type' => 'Browser',
@@ -26073,13 +26073,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-XO' => [
+    ),
+    'issue-900-XO' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; InfoPath.2; .NET CLR 2.0.50727; .NET CLR 1.1.4322; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; Lunascape 6.3.4.23051)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Lunascape 6.3',
             'Browser' => 'Lunascape',
             'Browser_Type' => 'Browser',
@@ -26126,13 +26126,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-XP' => [
+    ),
+    'issue-900-XP' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6.6; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; Lunascape 6.3.4.23051)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Lunascape 6.3',
             'Browser' => 'Lunascape',
             'Browser_Type' => 'Browser',
@@ -26179,13 +26179,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-XQ' => [
+    ),
+    'issue-900-XQ' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6.6; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; Lunascape 6.3.4.23051)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Lunascape 6.3',
             'Browser' => 'Lunascape',
             'Browser_Type' => 'Browser',
@@ -26232,13 +26232,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-XR' => [
+    ),
+    'issue-900-XR' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB5; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; Lunascape 6.3.4.23051)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Lunascape 6.3',
             'Browser' => 'Lunascape',
             'Browser_Type' => 'Browser',
@@ -26285,13 +26285,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-XS' => [
+    ),
+    'issue-900-XS' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; InfoPath.2; OfficeLiveConnector.1.4; OfficeLivePatch.1.3; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; Lunascape 6.3.4.23051)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Lunascape 6.3',
             'Browser' => 'Lunascape',
             'Browser_Type' => 'Browser',
@@ -26338,13 +26338,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-XT' => [
+    ),
+    'issue-900-XT' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; Lunascape 6.3.4.23051)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Lunascape 6.3',
             'Browser' => 'Lunascape',
             'Browser_Type' => 'Browser',
@@ -26391,13 +26391,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-XU' => [
+    ),
+    'issue-900-XU' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; InfoPath.2; Lunascape 6.3.4.23051)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Lunascape 6.3',
             'Browser' => 'Lunascape',
             'Browser_Type' => 'Browser',
@@ -26444,13 +26444,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-XV' => [
+    ),
+    'issue-900-XV' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; Media Center PC 5.0; SLCC1; OfficeLiveConnector.1.5; OfficeLivePatch.1.3; .NET4.0C; Lunascape 6.3.',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Lunascape 6.3',
             'Browser' => 'Lunascape',
             'Browser_Type' => 'Browser',
@@ -26497,13 +26497,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-XW' => [
+    ),
+    'issue-900-XW' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; InfoPath.2; OfficeLiveConnector.1.4; OfficeLivePatch.1.3; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; Lunascape 6.3.3.22929)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Lunascape 6.3',
             'Browser' => 'Lunascape',
             'Browser_Type' => 'Browser',
@@ -26550,13 +26550,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-XX' => [
+    ),
+    'issue-900-XX' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.2; Lunascape 6.3.2.22803)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Lunascape 6.3',
             'Browser' => 'Lunascape',
             'Browser_Type' => 'Browser',
@@ -26603,13 +26603,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-XY' => [
+    ),
+    'issue-900-XY' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; SLCC1; Tablet PC 2.0; Lunascape 6.2.0.22177)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Lunascape 6.2',
             'Browser' => 'Lunascape',
             'Browser_Type' => 'Browser',
@@ -26656,13 +26656,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-XZ' => [
+    ),
+    'issue-900-XZ' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Trident/4.0; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; OfficeLiveConnector.1.5; OfficeLivePatch.1.3; Lunascape 6.2.0.22177)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Lunascape 6.2',
             'Browser' => 'Lunascape',
             'Browser_Type' => 'Browser',
@@ -26709,13 +26709,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-YA' => [
+    ),
+    'issue-900-YA' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Trident/4.0; GTB6.5; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Lunascape 6.2.0.22177)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Lunascape 6.2',
             'Browser' => 'Lunascape',
             'Browser_Type' => 'Browser',
@@ -26762,13 +26762,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-YB' => [
+    ),
+    'issue-900-YB' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; GTB6.5; .NET CLR 2.0.50727; eSobiSubscriber 2.0.4.16; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; Lunascape 6.2.0.22177)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Lunascape 6.2',
             'Browser' => 'Lunascape',
             'Browser_Type' => 'Browser',
@@ -26815,13 +26815,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-YC' => [
+    ),
+    'issue-900-YC' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; GTB6.5; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; Lunascape 6.2.0.22177)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Lunascape 6.2',
             'Browser' => 'Lunascape',
             'Browser_Type' => 'Browser',
@@ -26868,13 +26868,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-YD' => [
+    ),
+    'issue-900-YD' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; GTB6.5; (R1 1.6); .NET CLR 2.0.50727; eSobiSubscriber 2.0.4.16; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; Lunascape 6.2.0.22177)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Lunascape 6.2',
             'Browser' => 'Lunascape',
             'Browser_Type' => 'Browser',
@@ -26921,13 +26921,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-YE' => [
+    ),
+    'issue-900-YE' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; Lunascape 6.2.0.22177)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Lunascape 6.2',
             'Browser' => 'Lunascape',
             'Browser_Type' => 'Browser',
@@ -26974,13 +26974,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-YF' => [
+    ),
+    'issue-900-YF' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; Lunascape 6.2.0.22177)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Lunascape 6.2',
             'Browser' => 'Lunascape',
             'Browser_Type' => 'Browser',
@@ -27027,13 +27027,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-YG' => [
+    ),
+    'issue-900-YG' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; Lunascape 6.1.7.21880)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Lunascape 6.1',
             'Browser' => 'Lunascape',
             'Browser_Type' => 'Browser',
@@ -27080,13 +27080,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-YH' => [
+    ),
+    'issue-900-YH' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; .NET CLR 1.0.3705; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; Lunascape 6.1.7.21880)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Lunascape 6.1',
             'Browser' => 'Lunascape',
             'Browser_Type' => 'Browser',
@@ -27133,13 +27133,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-YI' => [
+    ),
+    'issue-900-YI' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; InfoPath.1; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; Lunascape 6.1.5.21576)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Lunascape 6.1',
             'Browser' => 'Lunascape',
             'Browser_Type' => 'Browser',
@@ -27186,13 +27186,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-YJ' => [
+    ),
+    'issue-900-YJ' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; .NET CLR 1.1.4322; Lunascape 6.1.5.21576)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Lunascape 6.1',
             'Browser' => 'Lunascape',
             'Browser_Type' => 'Browser',
@@ -27239,13 +27239,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-YK' => [
+    ),
+    'issue-900-YK' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; GTB6; .NET CLR 1.0.3705; .NET CLR 1.1.4322; .NET CLR 2.0.50727; InfoPath.1; Lunascape 5.1.4.5)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Lunascape 5.1',
             'Browser' => 'Lunascape',
             'Browser_Type' => 'Browser',
@@ -27292,13 +27292,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-YL' => [
+    ),
+    'issue-900-YL' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; MathPlayer 2.10b; .NET CLR 1.1.4322; InfoPath.1; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; .NET CLR 1.0.3705; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; Lunascape',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Lunascape Generic',
             'Browser' => 'Lunascape',
             'Browser_Type' => 'Browser',
@@ -27345,13 +27345,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-YM' => [
+    ),
+    'issue-900-YM' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Trident/4.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; InfoPath.2; .NET CLR 3.5.30729; .NET CLR 3.0.30618; Lunascape 5.1.3.4)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Lunascape 5.1',
             'Browser' => 'Lunascape',
             'Browser_Type' => 'Browser',
@@ -27398,13 +27398,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-YN' => [
+    ),
+    'issue-900-YN' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Trident/4.0; GTB6; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.5.30729; OfficeLiveConnector.1.4; OfficeLivePatch.1.3; .NET CLR 3.0.30729; Lunascape 5.1.3.4)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Lunascape 5.1',
             'Browser' => 'Lunascape',
             'Browser_Type' => 'Browser',
@@ -27451,13 +27451,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-YO' => [
+    ),
+    'issue-900-YO' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; ; cs-CZ) AppleWebKit/532+ (KHTML, like Gecko, Safari/532.0) Lunascape/5.1.2.3',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Lunascape 5.1',
             'Browser' => 'Lunascape',
             'Browser_Type' => 'Browser',
@@ -27504,13 +27504,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-YP' => [
+    ),
+    'issue-900-YP' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Trident/4.0; GTB6; Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) ; InfoPath.1; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Lunascape 5.1.2.3)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Lunascape 5.1',
             'Browser' => 'Lunascape',
             'Browser_Type' => 'Browser',
@@ -27557,13 +27557,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-YQ' => [
+    ),
+    'issue-900-YQ' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; ; cs-CZ) AppleWebKit/528+ (KHTML, like Gecko, Safari/528.0) Lunascape/5.1.2.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Lunascape 5.1',
             'Browser' => 'Lunascape',
             'Browser_Type' => 'Browser',
@@ -27610,13 +27610,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-YR' => [
+    ),
+    'issue-900-YR' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; GTB6; SLCC1; .NET CLR 2.0.50727; InfoPath.2; .NET CLR 1.1.4322; .NET CLR 3.5.21022; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Lunascape 5.1.1.2)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Lunascape 5.1',
             'Browser' => 'Lunascape',
             'Browser_Type' => 'Browser',
@@ -27663,13 +27663,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-YS' => [
+    ),
+    'issue-900-YS' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; ; cs-CZ) AppleWebKit/528+ (KHTML, like Gecko, Safari/528.0) Lunascape/5.1.1.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Lunascape 5.1',
             'Browser' => 'Lunascape',
             'Browser_Type' => 'Browser',
@@ -27716,13 +27716,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-YT' => [
+    ),
+    'issue-900-YT' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; ; cs-CZ) AppleWebKit/528+ (KHTML, like Gecko, Safari/528.0) Lunascape/5.1.0.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Lunascape 5.1',
             'Browser' => 'Lunascape',
             'Browser_Type' => 'Browser',
@@ -27769,13 +27769,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-YU' => [
+    ),
+    'issue-900-YU' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; WOW64; Trident/4.0; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.5.30729; OfficeLiveConnector.1.3; OfficeLivePatch.0.0; .NET CLR 3.0.30729; Lunascape 5.0.5.0)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Lunascape 5.0',
             'Browser' => 'Lunascape',
             'Browser_Type' => 'Browser',
@@ -27822,13 +27822,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-YV' => [
+    ),
+    'issue-900-YV' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) ; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; Lunascape 5.0.3.0)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Lunascape 5.0',
             'Browser' => 'Lunascape',
             'Browser_Type' => 'Browser',
@@ -27875,13 +27875,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-YW' => [
+    ),
+    'issue-900-YW' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) ; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506; Tablet PC 2.0; Lunascape 5.0 alpha2)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Lunascape 5.0',
             'Browser' => 'Lunascape',
             'Browser_Type' => 'Browser',
@@ -27928,13 +27928,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-YX' => [
+    ),
+    'issue-900-YX' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; ja-JP) AppleWebKit/529 (KHTML, like Gecko, Safari/529.0) Lunascape/4.9.9.99',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Lunascape 4.9',
             'Browser' => 'Lunascape',
             'Browser_Type' => 'Browser',
@@ -27981,13 +27981,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-YY' => [
+    ),
+    'issue-900-YY' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) ; .NET CLR 1.0.3705; .NET CLR 1.1.4322; .NET CLR 2.0.50727; Lunascape 4.9.9.98)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Lunascape 4.9',
             'Browser' => 'Lunascape',
             'Browser_Type' => 'Browser',
@@ -28034,13 +28034,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-YZ' => [
+    ),
+    'issue-900-YZ' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; Lunascape 4.9.9.97)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Lunascape 4.9',
             'Browser' => 'Lunascape',
             'Browser_Type' => 'Browser',
@@ -28087,13 +28087,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ZA' => [
+    ),
+    'issue-900-ZA' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-GB) AppleWebKit/529 (KHTML, like Gecko, Safari/529.0) Lunascape/4.9.9.96',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Lunascape 4.9',
             'Browser' => 'Lunascape',
             'Browser_Type' => 'Browser',
@@ -28140,13 +28140,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ZB' => [
+    ),
+    'issue-900-ZB' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.0; ja-JP) AppleWebKit/529 (KHTML, like Gecko, Safari/529.0) Lunascape/4.9.9.96',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Lunascape 4.9',
             'Browser' => 'Lunascape',
             'Browser_Type' => 'Browser',
@@ -28193,13 +28193,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-ZC' => [
+    ),
+    'issue-900-ZC' => array(
         'ua' => 'Mozilla/5.0 (Windows; N; Windows NT 5.2; ru-RU) AppleWebKit/529 (KHTML, like Gecko, Safari/529.0) Lunascape/4.9.9.94',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Lunascape 4.9',
             'Browser' => 'Lunascape',
             'Browser_Type' => 'Browser',
@@ -28246,13 +28246,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ZD' => [
+    ),
+    'issue-900-ZD' => array(
         'ua' => 'Mozilla/5.0 (Windows; N; Windows NT 5.1; id-ID) AppleWebKit/529 (KHTML, like Gecko, Safari/529.0) Lunascape/4.9.9.94',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Lunascape 4.9',
             'Browser' => 'Lunascape',
             'Browser_Type' => 'Browser',
@@ -28299,13 +28299,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ZE' => [
+    ),
+    'issue-900-ZE' => array(
         'ua' => 'Mozilla/5.0 (Windows; N; Windows NT 5.1; hu-HU) AppleWebKit/529 (KHTML, like Gecko, Safari/529.0) Lunascape/4.9.9.94',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Lunascape 4.9',
             'Browser' => 'Lunascape',
             'Browser_Type' => 'Browser',
@@ -28352,13 +28352,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ZF' => [
+    ),
+    'issue-900-ZF' => array(
         'ua' => 'Mozilla/5.0 (Windows; N; Windows NT 5.1; en-US) AppleWebKit/529 (KHTML, like Gecko, Safari/529.0) Lunascape/4.9.9.94',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Lunascape 4.9',
             'Browser' => 'Lunascape',
             'Browser_Type' => 'Browser',
@@ -28405,13 +28405,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ZG' => [
+    ),
+    'issue-900-ZG' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/529 (KHTML, like Gecko, Safari/529.0) Lunascape/4.9.9.100',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Lunascape 4.9',
             'Browser' => 'Lunascape',
             'Browser_Type' => 'Browser',
@@ -28458,13 +28458,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ZH' => [
+    ),
+    'issue-900-ZH' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; .NET CLR 1.1.4322; Lunascape 4.8.1)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Lunascape 4.8',
             'Browser' => 'Lunascape',
             'Browser_Type' => 'Browser',
@@ -28511,13 +28511,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ZI' => [
+    ),
+    'issue-900-ZI' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727; Lunascape 4.7.2)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Lunascape 4.7',
             'Browser' => 'Lunascape',
             'Browser_Type' => 'Browser',
@@ -28564,13 +28564,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ZJ' => [
+    ),
+    'issue-900-ZJ' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Lunascape 4.0.1)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Lunascape 4.0',
             'Browser' => 'Lunascape',
             'Browser_Type' => 'Browser',
@@ -28617,13 +28617,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ZK' => [
+    ),
+    'issue-900-ZK' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows 98; Q312461; .NET CLR 1.1.4322; Lunascape 4.0.1)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Lunascape 4.0',
             'Browser' => 'Lunascape',
             'Browser_Type' => 'Browser',
@@ -28670,13 +28670,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-ZL' => [
+    ),
+    'issue-900-ZL' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; InfoPath.1; .NET CLR 2.0.50727; Lunascape 3.0.4)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Lunascape 3.0',
             'Browser' => 'Lunascape',
             'Browser_Type' => 'Browser',
@@ -28723,13 +28723,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ZM' => [
+    ),
+    'issue-900-ZM' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; .NET CLR 1.1.4322; Lunascape 2.1.3)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Lunascape 2.1',
             'Browser' => 'Lunascape',
             'Browser_Type' => 'Browser',
@@ -28776,13 +28776,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-ACC' => [
+    ),
+    'issue-900-ACC' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:2.0b4pre) Gecko/20100815 Minefield/4.0b4pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 4.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -28829,13 +28829,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '2.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ACD' => [
+    ),
+    'issue-900-ACD' => array(
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64; en-US; rv:2.0b2pre) Gecko/20100712 Minefield/4.0b2pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 4.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -28882,13 +28882,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '2.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ACE' => [
+    ),
+    'issue-900-ACE' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:2.0a1pre) Gecko/2008060602 Minefield/4.0a1pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 4.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -28935,13 +28935,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '2.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ACF' => [
+    ),
+    'issue-900-ACF' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:2.0a1pre) Gecko/2008032002 Minefield/4.0a1pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 4.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -28988,13 +28988,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '2.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ACG' => [
+    ),
+    'issue-900-ACG' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:2.0a1pre) Gecko/2008032902 Minefield/4.0a1pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 4.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -29041,13 +29041,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '2.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ACH' => [
+    ),
+    'issue-900-ACH' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.2a1pre) Gecko/20090716 Minefield/3.6a1pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.6',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -29094,13 +29094,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.2',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ACI' => [
+    ),
+    'issue-900-ACI' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.2a1pre) Gecko/20090501 Minefield/3.6a1pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.6',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -29147,13 +29147,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.2',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ACJ' => [
+    ),
+    'issue-900-ACJ' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.2a1pre) Gecko/20090418 Minefield/3.6a1pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.6',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -29200,13 +29200,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.2',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ACK' => [
+    ),
+    'issue-900-ACK' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.2a1pre) Gecko/20090417 Minefield/3.6a1pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.6',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -29253,13 +29253,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.2',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ACL' => [
+    ),
+    'issue-900-ACL' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.2a1pre) Gecko/20090331 Minefield/3.6a1pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.6',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -29306,13 +29306,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.2',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ACM' => [
+    ),
+    'issue-900-ACM' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.2a1pre) Gecko/20090403 Minefield/3.6a1pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.6',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -29359,13 +29359,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.2',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ACN' => [
+    ),
+    'issue-900-ACN' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.2a1pre) Gecko/20090327 Minefield/3.6a1pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.6',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -29412,13 +29412,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.2',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ACO' => [
+    ),
+    'issue-900-ACO' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9.2a1pre) Gecko/20090707 Minefield/3.6a1pre (.NET CLR 3.5.30729)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.6',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -29465,13 +29465,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.2',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ACP' => [
+    ),
+    'issue-900-ACP' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9.2a1pre) Gecko/20090420 Minefield/3.6a1pre (.NET CLR 3.5.30729)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.6',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -29518,13 +29518,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.2',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ACQ' => [
+    ),
+    'issue-900-ACQ' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9.2a1pre) Gecko/20090411 Minefield/3.6a1pre (.NET CLR 3.5.30729)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.6',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -29571,13 +29571,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.2',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ACR' => [
+    ),
+    'issue-900-ACR' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9.2a1pre) Gecko/20090407 Minefield/3.6a1pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.6',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -29624,13 +29624,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.2',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ACS' => [
+    ),
+    'issue-900-ACS' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9.2a1pre) Gecko/20090401 Minefield/3.6a1pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.6',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -29677,13 +29677,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.2',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ACT' => [
+    ),
+    'issue-900-ACT' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9.2a1pre) Gecko/20090324 Minefield/3.6a1pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.6',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -29730,13 +29730,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.2',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ACU' => [
+    ),
+    'issue-900-ACU' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.2a1pre) Gecko/20090709 Minefield/3.6a1pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.6',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -29783,13 +29783,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.2',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ACV' => [
+    ),
+    'issue-900-ACV' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.2a1pre) Gecko/20090425 Minefield/3.6a1pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.6',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -29836,13 +29836,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.2',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ACW' => [
+    ),
+    'issue-900-ACW' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.2a1pre) Gecko/20090424 Minefield/3.6a1pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.6',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -29889,13 +29889,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.2',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ACX' => [
+    ),
+    'issue-900-ACX' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.2a1pre) Gecko/20090418 Minefield/3.6a1pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.6',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -29942,13 +29942,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.2',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ACY' => [
+    ),
+    'issue-900-ACY' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.2a1pre) Gecko/20090415 Minefield/3.6a1pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.6',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -29995,13 +29995,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.2',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ACZ' => [
+    ),
+    'issue-900-ACZ' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.2a1pre) Gecko/20090413 Minefield/3.6a1pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.6',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -30048,13 +30048,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.2',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ADA' => [
+    ),
+    'issue-900-ADA' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.2a1pre) Gecko/20090410 Minefield/3.6a1pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.6',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -30101,13 +30101,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.2',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ADB' => [
+    ),
+    'issue-900-ADB' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.2a1pre) Gecko/20081205 Minefield/3.2a1pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.2',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -30154,13 +30154,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.1',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ADC' => [
+    ),
+    'issue-900-ADC' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; pl-PL; rv:1.9.2a1pre) Gecko/20090330 Kubuntu/8.10 (intrepid) Minefield/3.2a1pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.2',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -30207,13 +30207,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.1',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ADD' => [
+    ),
+    'issue-900-ADD' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; pl-PL; rv:1.9.2a1pre) Gecko/20090128 Kubuntu/8.10 (intrepid) Minefield/3.2a1pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.2',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -30260,13 +30260,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.1',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ADE' => [
+    ),
+    'issue-900-ADE' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.2a1pre) Gecko/20090102 Ubuntu/9.04 (jaunty) Minefield/3.2a1pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.2',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -30313,13 +30313,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.1',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ADF' => [
+    ),
+    'issue-900-ADF' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2a1pre) Gecko/20090316 Minefield/3.2a1pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.2',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -30366,13 +30366,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.1',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ADG' => [
+    ),
+    'issue-900-ADG' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9.2a1pre) Gecko/20090306 Minefield/3.2a1pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.2',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -30419,13 +30419,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.1',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ADH' => [
+    ),
+    'issue-900-ADH' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9.2a1pre) Gecko/20090226 Minefield/3.2a1pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.2',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -30472,13 +30472,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.1',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ADI' => [
+    ),
+    'issue-900-ADI' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9.2a1pre) Gecko/20090210 Minefield/3.2a1pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.2',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -30525,13 +30525,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.1',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ADJ' => [
+    ),
+    'issue-900-ADJ' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9.2a1pre) Gecko/20090207 Minefield/3.2a1pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.2',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -30578,13 +30578,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.1',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ADK' => [
+    ),
+    'issue-900-ADK' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.2a1pre) Gecko/20090306 Minefield/3.2a1pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.2',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -30631,13 +30631,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.1',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ADL' => [
+    ),
+    'issue-900-ADL' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.2a1pre) Gecko/20090304 Minefield/3.2a1pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.2',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -30684,13 +30684,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.1',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ADM' => [
+    ),
+    'issue-900-ADM' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.2a1pre) Gecko/20090219 Minefield/3.2a1pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.2',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -30737,13 +30737,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.1',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ADN' => [
+    ),
+    'issue-900-ADN' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.2a1pre) Gecko/20090120 Minefield/3.2a1pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.2',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -30790,13 +30790,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.1',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ADO' => [
+    ),
+    'issue-900-ADO' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.2a1pre) Gecko/20090113 Minefield/3.2a1pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.2',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -30843,13 +30843,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.1',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ADP' => [
+    ),
+    'issue-900-ADP' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.9.2a1pre) Gecko/20090117 Minefield/3.2a1pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.2',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -30896,13 +30896,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.1',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-ADQ' => [
+    ),
+    'issue-900-ADQ' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows CE 6.0; en-US; rv:1.9.2a1pre) Gecko/20090219 Minefield/3.2a1pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.2',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -30949,13 +30949,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.1',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-ADR' => [
+    ),
+    'issue-900-ADR' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.5; en-US; rv:1.9.2a1pre) Gecko/20090315 Minefield/3.2a1pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.2',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -31002,13 +31002,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.1',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ADS' => [
+    ),
+    'issue-900-ADS' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.5; en-US; rv:1.9.2a1pre) Gecko/20090302 Minefield/3.2a1pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.2',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -31055,13 +31055,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.1',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ADT' => [
+    ),
+    'issue-900-ADT' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.5; en-US; rv:1.9.2a1pre) Gecko/20090225 Minefield/3.2a1pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.2',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -31108,13 +31108,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.1',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ADU' => [
+    ),
+    'issue-900-ADU' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.5; en-US; rv:1.9.2a1pre) Gecko/20090224 Minefield/3.2a1pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.2',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -31161,13 +31161,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.1',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ADV' => [
+    ),
+    'issue-900-ADV' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.1b3pre) Gecko/20081201 Minefield/3.1b3pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.1',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -31214,13 +31214,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ADW' => [
+    ),
+    'issue-900-ADW' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.1b2pre) Gecko/20081115 Minefield/3.1b2pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.1',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -31267,13 +31267,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ADX' => [
+    ),
+    'issue-900-ADX' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9.1b2pre) Gecko/20081011 Minefield/3.1b2pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.1',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -31320,13 +31320,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ADY' => [
+    ),
+    'issue-900-ADY' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0 x64; en-US; rv:1.9.1b2pre) Gecko/20081026 Minefield/3.1b2pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.1',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -31373,13 +31373,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ADZ' => [
+    ),
+    'issue-900-ADZ' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US; rv:1.9.1b2pre) Gecko/20081110 Minefield/3.1b2pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.1',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -31426,13 +31426,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AEA' => [
+    ),
+    'issue-900-AEA' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.1b2pre) Gecko/20081031 Minefield/3.1b2pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.1',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -31479,13 +31479,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AEB' => [
+    ),
+    'issue-900-AEB' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.1b2pre) Gecko/20081026 Minefield/3.1b2pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.1',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -31532,13 +31532,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AEC' => [
+    ),
+    'issue-900-AEC' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.1b2pre) Gecko/20081020 Minefield/3.1b2pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.1',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -31585,13 +31585,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AED' => [
+    ),
+    'issue-900-AED' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10.4; en-US; rv:1.9.1b2pre) Gecko/20081027 Minefield/3.1b2pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.1',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -31638,13 +31638,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AEE' => [
+    ),
+    'issue-900-AEE' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1b2) Gecko/20090128 Fedora/3.1-0.4.beta2.fc11 Minefield/3.1b2',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.1',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -31691,13 +31691,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AEF' => [
+    ),
+    'issue-900-AEF' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.1b1pre) Gecko/20080929020931 Minefield/3.1b1pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.1',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -31744,13 +31744,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AEG' => [
+    ),
+    'issue-900-AEG' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1b1pre) Gecko/20080930020755 Minefield/3.1b1pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.1',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -31797,13 +31797,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AEH' => [
+    ),
+    'issue-900-AEH' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1b1pre) Gecko/20080916020338 Minefield/3.1b1pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.1',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -31850,13 +31850,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AEI' => [
+    ),
+    'issue-900-AEI' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.1b1pre) Gecko/20081001 Minefield/3.1b1pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.1',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -31903,13 +31903,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AEJ' => [
+    ),
+    'issue-900-AEJ' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.1b1pre) Gecko/20080930093007 Minefield/3.1b1pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.1',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -31956,13 +31956,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AEK' => [
+    ),
+    'issue-900-AEK' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.1b1pre) Gecko/20080927033433 Minefield/3.1b1pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.1',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -32009,13 +32009,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AEL' => [
+    ),
+    'issue-900-AEL' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.1b1pre) Gecko/20080926033937 Minefield/3.1b1pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.1',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -32062,13 +32062,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AEM' => [
+    ),
+    'issue-900-AEM' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.1b1pre) Gecko/20080920085411 Minefield/3.1b1pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.1',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -32115,13 +32115,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AEN' => [
+    ),
+    'issue-900-AEN' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.1b1pre) Gecko/20080913185648 Minefield/3.1b1pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.1',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -32168,13 +32168,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AEO' => [
+    ),
+    'issue-900-AEO' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.1b1pre) Gecko/20080904053130 Minefield/3.1b1pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.1',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -32221,13 +32221,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AEP' => [
+    ),
+    'issue-900-AEP' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.5; en-US; rv:1.9.1b1pre) Gecko/20080908170408 Minefield/3.1b1pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.1',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -32274,13 +32274,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AEQ' => [
+    ),
+    'issue-900-AEQ' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.1a2pre) Gecko/2008080205 Minefield/3.1a2pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.1',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -32327,13 +32327,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AER' => [
+    ),
+    'issue-900-AER' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; de-DE; rv:1.9.1a2pre) Gecko/20080826020557 Minefield/3.1a2pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.1',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -32380,13 +32380,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AES' => [
+    ),
+    'issue-900-AES' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9.1a2pre) Gecko/2008072403 Minefield/3.1a2pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.1',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -32433,13 +32433,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AET' => [
+    ),
+    'issue-900-AET' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.5; en-US; rv:1.9.1a2pre) Gecko/20080826052737 Minefield/3.1a2pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.1',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -32486,13 +32486,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AEU' => [
+    ),
+    'issue-900-AEU' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9.1a1pre) Gecko/2008071403 Minefield/3.1a1pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.1',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -32539,13 +32539,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AEV' => [
+    ),
+    'issue-900-AEV' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.1a1pre) Gecko/2008071003 Minefield/3.1a1pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.1',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -32592,13 +32592,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AEW' => [
+    ),
+    'issue-900-AEW' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.1a1pre) Gecko/2008062005 Minefield/3.1a1pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.1',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -32645,13 +32645,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AEX' => [
+    ),
+    'issue-900-AEX' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9pre) Gecko/2008042312 Minefield/3.0pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -32698,13 +32698,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AEY' => [
+    ),
+    'issue-900-AEY' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9pre) Gecko/2008061504 Minefield/3.0pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -32751,13 +32751,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AEZ' => [
+    ),
+    'issue-900-AEZ' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9pre) Gecko/2008032621 Fedora/3.0-0.49.cvs20080326.fc9 Minefield/3.0pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -32804,13 +32804,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AFA' => [
+    ),
+    'issue-900-AFA' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9pre) Gecko/2008041506 Minefield/3.0pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -32857,13 +32857,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AFB' => [
+    ),
+    'issue-900-AFB' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9pre) Gecko/2008041406 Minefield/3.0pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -32910,13 +32910,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AFC' => [
+    ),
+    'issue-900-AFC' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9pre) Gecko/2008040907 Minefield/3.0pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -32963,13 +32963,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AFD' => [
+    ),
+    'issue-900-AFD' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9pre) Gecko/2008032904 Minefield/3.0pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -33016,13 +33016,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AFE' => [
+    ),
+    'issue-900-AFE' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9b5pre) Gecko/2008032204 Minefield/3.0b5pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -33069,13 +33069,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AFF' => [
+    ),
+    'issue-900-AFF' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9b5pre) Gecko/2008031004 Minefield/3.0b5pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -33122,13 +33122,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AFG' => [
+    ),
+    'issue-900-AFG' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9b5pre) Gecko/2008030706 Minefield/3.0b5pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -33175,13 +33175,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AFH' => [
+    ),
+    'issue-900-AFH' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9b4pre) Gecko/2008022304 Minefield/3.0b4pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -33228,13 +33228,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AFI' => [
+    ),
+    'issue-900-AFI' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9b4pre) Gecko/2008021304 Minefield/3.0b4pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -33281,13 +33281,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AFJ' => [
+    ),
+    'issue-900-AFJ' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.5; en-US; rv:1.9b4pre) Gecko/2008022104 Minefield/3.0b4pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -33334,13 +33334,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AFK' => [
+    ),
+    'issue-900-AFK' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9b3pre) Gecko/2008010404 Minefield/3.0b3pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -33387,13 +33387,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AFL' => [
+    ),
+    'issue-900-AFL' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; fr; rv:1.9b3pre) Gecko/2008011205 Minefield/3.0b3pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -33440,13 +33440,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AFM' => [
+    ),
+    'issue-900-AFM' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN; rv:1.9b3pre) Gecko/2007121805 Minefield/3.0b3pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -33493,13 +33493,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AFN' => [
+    ),
+    'issue-900-AFN' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9b3pre) Gecko/2007122205 Minefield/3.0b3pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -33546,13 +33546,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AFO' => [
+    ),
+    'issue-900-AFO' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9b3) Gecko/2008021322 Minefield/3.0b3',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -33599,13 +33599,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AFP' => [
+    ),
+    'issue-900-AFP' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9b2pre) Gecko/2007112704 Minefield/3.0b2pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -33652,13 +33652,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AFQ' => [
+    ),
+    'issue-900-AFQ' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN; rv:1.9b2pre) Gecko/2007112619 Minefield/3.0b2pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -33705,13 +33705,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AFR' => [
+    ),
+    'issue-900-AFR' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9b2pre) Gecko/2007120505 Minefield/3.0b2pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -33758,13 +33758,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AFS' => [
+    ),
+    'issue-900-AFS' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9b2pre) Gecko/2007120405 Minefield/3.0b2pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -33811,13 +33811,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AFT' => [
+    ),
+    'issue-900-AFT' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9b2pre) Gecko/2007111605 Minefield/3.0b2pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -33864,13 +33864,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AFU' => [
+    ),
+    'issue-900-AFU' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9b2pre) Gecko/2007110805 Minefield/3.0b2pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -33917,13 +33917,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AFV' => [
+    ),
+    'issue-900-AFV' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.9b2pre) Gecko/2007110913 Minefield/3.0b2pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -33970,13 +33970,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-AFW' => [
+    ),
+    'issue-900-AFW' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9b2) Gecko/2007122607 Minefield/3.0b2',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -34023,13 +34023,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AFX' => [
+    ),
+    'issue-900-AFX' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9b2) Gecko/2008011913 Minefield/3.0b2',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -34076,13 +34076,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AFY' => [
+    ),
+    'issue-900-AFY' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9a9pre) Gecko/2007092705 Minefield/3.0a9pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -34129,13 +34129,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AFZ' => [
+    ),
+    'issue-900-AFZ' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9a9pre) Gecko/2007110705 Minefield/3.0a9pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -34182,13 +34182,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AGA' => [
+    ),
+    'issue-900-AGA' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9a9pre) Gecko/2007102105 Minefield/3.0a9pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -34235,13 +34235,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AGB' => [
+    ),
+    'issue-900-AGB' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9a8pre) Gecko/2007092004 Minefield/3.0a8pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -34288,13 +34288,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AGC' => [
+    ),
+    'issue-900-AGC' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0 x64; en-US; rv:1.9a8pre) Gecko/2007090213 Minefield/3.0a8pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -34341,13 +34341,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AGD' => [
+    ),
+    'issue-900-AGD' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9a8pre) Gecko/2007082705 Minefield/3.0a8pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -34394,13 +34394,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AGE' => [
+    ),
+    'issue-900-AGE' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X; en-US; rv:1.9a8pre) Gecko/2007083104 Minefield/3.0a8pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -34447,13 +34447,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AGF' => [
+    ),
+    'issue-900-AGF' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9a7pre) Gecko/2007073105 Minefield/3.0a7pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -34500,13 +34500,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AGG' => [
+    ),
+    'issue-900-AGG' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9a6pre) Gecko/20070615 Minefield/3.0a6pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -34553,13 +34553,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AGH' => [
+    ),
+    'issue-900-AGH' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9a6pre) Gecko/20070630 Minefield/3.0a6pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -34606,13 +34606,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AGI' => [
+    ),
+    'issue-900-AGI' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9a6pre) Gecko/20070626 Minefield/3.0a6pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -34659,13 +34659,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AGJ' => [
+    ),
+    'issue-900-AGJ' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9a6pre) Gecko/20070622 Minefield/3.0a6pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -34712,13 +34712,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AGK' => [
+    ),
+    'issue-900-AGK' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9a6pre) Gecko/20070604 Minefield/3.0a6pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -34765,13 +34765,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AGL' => [
+    ),
+    'issue-900-AGL' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9a6pre) Gecko/20070603 Minefield/3.0a6pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -34818,13 +34818,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AGM' => [
+    ),
+    'issue-900-AGM' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9a6pre) Gecko/20070602 Minefield/3.0a6pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -34871,13 +34871,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AGN' => [
+    ),
+    'issue-900-AGN' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9a5pre) Gecko/20070428 Minefield/3.0a5pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -34924,13 +34924,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AGO' => [
+    ),
+    'issue-900-AGO' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9a5pre) Gecko/20070529 Minefield/3.0a5pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -34977,13 +34977,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AGP' => [
+    ),
+    'issue-900-AGP' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9a5pre) Gecko/20070517 Minefield/3.0a5pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -35030,13 +35030,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AGQ' => [
+    ),
+    'issue-900-AGQ' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN; rv:1.9a4pre) Gecko/20070427 Minefield/3.0a4pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -35083,13 +35083,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AGR' => [
+    ),
+    'issue-900-AGR' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9a4pre) Gecko/20070427 Minefield/3.0a4pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -35136,13 +35136,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AGS' => [
+    ),
+    'issue-900-AGS' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9a4pre) Gecko/20070416 Minefield/3.0a4pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -35189,13 +35189,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AGT' => [
+    ),
+    'issue-900-AGT' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9a4pre) Gecko/20070407 Minefield/3.0a4pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -35242,13 +35242,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AGU' => [
+    ),
+    'issue-900-AGU' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9a3pre) Gecko/20070301 Minefield/3.0a3pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -35295,13 +35295,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AGV' => [
+    ),
+    'issue-900-AGV' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US; rv:1.9a3pre) Gecko/20070320 Minefield/3.0a3pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -35348,13 +35348,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AGW' => [
+    ),
+    'issue-900-AGW' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9a3pre) Gecko/20070218 Minefield/3.0a3pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -35401,13 +35401,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AGX' => [
+    ),
+    'issue-900-AGX' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9a3) Gecko/20070328 Minefield/3.0a3',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -35454,13 +35454,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AGY' => [
+    ),
+    'issue-900-AGY' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9a2pre) Gecko/20070204 Minefield/3.0a2pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -35507,13 +35507,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AGZ' => [
+    ),
+    'issue-900-AGZ' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9a2pre) Gecko/20070105 Minefield/3.0a2pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -35560,13 +35560,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AHA' => [
+    ),
+    'issue-900-AHA' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9a2pre) Gecko/20061231 Minefield/3.0a2pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -35613,13 +35613,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AHB' => [
+    ),
+    'issue-900-AHB' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9a2pre) Gecko/20061230 Minefield/3.0a2pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -35666,13 +35666,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AHC' => [
+    ),
+    'issue-900-AHC' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9a2pre) Gecko/20061221 Minefield/3.0a2pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -35719,13 +35719,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AHD' => [
+    ),
+    'issue-900-AHD' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.9a2pre) Gecko/20061225 Minefield/3.0a2pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -35772,13 +35772,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-AHE' => [
+    ),
+    'issue-900-AHE' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9a2) Gecko/20070221 Minefield/3.0a2',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -35825,13 +35825,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AHF' => [
+    ),
+    'issue-900-AHF' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9a1) Gecko/20070308 Minefield/3.0a1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -35878,13 +35878,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AHG' => [
+    ),
+    'issue-900-AHG' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9a1) Gecko/20061111 Minefield/3.0a1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -35931,13 +35931,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AHH' => [
+    ),
+    'issue-900-AHH' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9a1) Gecko/20061016 Minefield/3.0a1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -35984,13 +35984,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AHI' => [
+    ),
+    'issue-900-AHI' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9a1) Gecko/20060819 Minefield/3.0a1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -36037,13 +36037,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AHJ' => [
+    ),
+    'issue-900-AHJ' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9a1) Gecko/20060609 Minefield/3.0a1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -36090,13 +36090,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AHK' => [
+    ),
+    'issue-900-AHK' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0 x64; en-US; rv:1.9a1) Gecko/20061007 Minefield/3.0a1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -36143,13 +36143,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AHL' => [
+    ),
+    'issue-900-AHL' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US; rv:1.9a1) Gecko/20060926 Minefield/3.0a1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -36196,13 +36196,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AHM' => [
+    ),
+    'issue-900-AHM' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.2 x64; en-US; rv:1.9a1) Gecko/20061007 Minefield/3.0a1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -36249,13 +36249,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AHN' => [
+    ),
+    'issue-900-AHN' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9a1) Gecko/20061217 Minefield/3.0a1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -36302,13 +36302,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AHO' => [
+    ),
+    'issue-900-AHO' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9a1) Gecko/20061129 Minefield/3.0a1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -36355,13 +36355,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AHP' => [
+    ),
+    'issue-900-AHP' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9a1) Gecko/20061125 Minefield/3.0a1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -36408,13 +36408,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AHQ' => [
+    ),
+    'issue-900-AHQ' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9a1) Gecko/20061124 Minefield/3.0a1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -36461,13 +36461,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AHR' => [
+    ),
+    'issue-900-AHR' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9a1) Gecko/20061123 Minefield/3.0a1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -36514,13 +36514,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AHS' => [
+    ),
+    'issue-900-AHS' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9a1) Gecko/2006112204 Minefield/3.0a1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -36567,13 +36567,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AHT' => [
+    ),
+    'issue-900-AHT' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9a1) Gecko/20061102 Minefield/3.0a1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -36620,13 +36620,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AHU' => [
+    ),
+    'issue-900-AHU' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9a1) Gecko/20060910 Minefield/3.0a1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -36673,13 +36673,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AHV' => [
+    ),
+    'issue-900-AHV' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9a1) Gecko/20060826 Minefield/3.0a1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -36726,13 +36726,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AHW' => [
+    ),
+    'issue-900-AHW' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9a1) Gecko/20060816 Minefield/3.0a1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -36779,13 +36779,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AHX' => [
+    ),
+    'issue-900-AHX' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9a1) Gecko/20060809 Minefield/3.0a1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -36832,13 +36832,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AHY' => [
+    ),
+    'issue-900-AHY' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9a1) Gecko/20060725 Minefield/3.0a1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -36885,13 +36885,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AHZ' => [
+    ),
+    'issue-900-AHZ' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.2 x64; en-US; rv:1.9.0.7) Gecko/2009030713 Minefield/3.0.7',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -36938,13 +36938,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AIA' => [
+    ),
+    'issue-900-AIA' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6.0; en-US; rv:1.9.0.7) Gecko/2009030517 Minefield/3.0.7',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -36991,13 +36991,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AIB' => [
+    ),
+    'issue-900-AIB' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.6) Gecko/2009030302 Minefield/3.0.6',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -37044,13 +37044,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AIC' => [
+    ),
+    'issue-900-AIC' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0 x64; en-US; rv:1.9.0.3pre) Gecko/2008111500 Minefield/3.0.5pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -37097,13 +37097,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AID' => [
+    ),
+    'issue-900-AID' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.0.4) Gecko/2008112012 Minefield/3.0.4',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -37150,13 +37150,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AIE' => [
+    ),
+    'issue-900-AIE' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.1) Gecko/2008071910 Minefield/3.0.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -37203,13 +37203,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AIF' => [
+    ),
+    'issue-900-AIF' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux armv7l; en-US; rv:1.9.0.1) Gecko/2009010915 Minefield/3.0.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -37256,13 +37256,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AIG' => [
+    ),
+    'issue-900-AIG' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.0.6) Gecko/2009020911 Ubuntu/8.10 (intrepid) Minefield/3.0 MEGAUPLOAD 2.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -37309,13 +37309,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AIH' => [
+    ),
+    'issue-900-AIH' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9) Gecko/2008071513 Minefield/3.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -37362,13 +37362,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AII' => [
+    ),
+    'issue-900-AII' => array(
         'ua' => 'Mozilla/5.001 (X11; U; Linux i686; rv:1.8.1.6; de-ch) Gecko/25250101 (ubuntu-feisty)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -37415,13 +37415,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-AIJ' => [
+    ),
+    'issue-900-AIJ' => array(
         'ua' => 'Mozilla/5.001 (Macintosh; N; PPC; ja) Gecko/25250101',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -37468,13 +37468,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-AIK' => [
+    ),
+    'issue-900-AIK' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.1; cs; rv:1.9.2.6) Gecko/20100628 myibrow/4alpha2',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'My Internet Browser 4.0',
             'Browser' => 'My Internet Browser',
             'Browser_Type' => 'Browser',
@@ -37521,13 +37521,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AIL' => [
+    ),
+    'issue-900-AIL' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.1; WOW64; cs; rv:1.9.2.6) Gecko/20100723 myibrow/4.0.0.0 (Firefox/3.6 compatible)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'My Internet Browser 4.0',
             'Browser' => 'My Internet Browser',
             'Browser_Type' => 'Browser',
@@ -37574,13 +37574,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AJG' => [
+    ),
+    'issue-900-AJG' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2a2pre) Gecko/20090918 Namoroka/3.6a2pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.6',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -37627,13 +37627,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.2',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AJH' => [
+    ),
+    'issue-900-AJH' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2a2pre) Gecko/20090917 Namoroka/3.6a2pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.6',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -37680,13 +37680,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.2',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AJI' => [
+    ),
+    'issue-900-AJI' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.1; cs; rv:1.9.2a2pre) Gecko/20090912 Namoroka/3.6a2pre (.NET CLR 3.5.30729)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.6',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -37733,13 +37733,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.2',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AJJ' => [
+    ),
+    'issue-900-AJJ' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9.2a2pre) Gecko/20090826 Namoroka/3.6a2pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.6',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -37786,13 +37786,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.2',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AJK' => [
+    ),
+    'issue-900-AJK' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.2a2pre) Gecko/20090826 Namoroka/3.6a2pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.6',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -37839,13 +37839,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.2',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AJL' => [
+    ),
+    'issue-900-AJL' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.2a2pre) Gecko/20090816 Namoroka/3.6a2pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.6',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -37892,13 +37892,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.2',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AJM' => [
+    ),
+    'issue-900-AJM' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2a1) Gecko/20090806 Namoroka/3.6a1 (.NET CLR 3.5.30729)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.6',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -37945,13 +37945,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.2',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AJN' => [
+    ),
+    'issue-900-AJN' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2a1) Gecko/20090806 Namoroka/3.6a1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.6',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -37998,13 +37998,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.2',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AJO' => [
+    ),
+    'issue-900-AJO' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9.2a1) Gecko/20090806 Namoroka/3.6a1 (.NET CLR 3.5.30729)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.6',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -38051,13 +38051,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.2',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AJP' => [
+    ),
+    'issue-900-AJP' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9.2a1) Gecko/20090806 Namoroka/3.6a1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.6',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -38104,13 +38104,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.2',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AJQ' => [
+    ),
+    'issue-900-AJQ' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.2a1) Gecko/20090806 Namoroka/3.6a1 (.NET CLR 3.5.30729)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.6',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -38157,13 +38157,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.2',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AJR' => [
+    ),
+    'issue-900-AJR' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.2a1) Gecko/20090806 Namoroka/3.6a1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.6',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -38210,13 +38210,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.2',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AJS' => [
+    ),
+    'issue-900-AJS' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.5; en-US; rv:1.9.2a1) Gecko/20090806 Namoroka/3.6a1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.6',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -38263,13 +38263,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.2',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AJT' => [
+    ),
+    'issue-900-AJT' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.2.9pre) Gecko/20100812 Namoroka/3.6.9pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.6',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -38316,13 +38316,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.2',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AJU' => [
+    ),
+    'issue-900-AJU' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.1; fr; rv:1.9.2.6pre) Gecko/20100604 Namoroka/3.6.6pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.6',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -38369,13 +38369,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.2',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AJV' => [
+    ),
+    'issue-900-AJV' => array(
         'ua' => 'Mozilla/5.0 (X11; U; NetBSD i386; en-US; rv:1.9.2.3) Gecko/20100403 Namoroka/3.6.3',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.6',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -38422,13 +38422,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.2',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AJW' => [
+    ),
+    'issue-900-AJW' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9.2.3) Gecko/20100405 Namoroka/3.6.3 ( .NET CLR 3.5.30729)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.6',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -38475,13 +38475,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.2',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AJX' => [
+    ),
+    'issue-900-AJX' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.2.2pre) Gecko/20100312 Namoroka/3.6.2pre (.NET CLR 3.5.30729)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.6',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -38528,13 +38528,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.2',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AJY' => [
+    ),
+    'issue-900-AJY' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.9.2.20pre) Gecko/20110718 Namoroka/3.6.20pre ( )',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.6',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -38581,13 +38581,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.2',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AJZ' => [
+    ),
+    'issue-900-AJZ' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.2.19pre) Gecko/20110620 Namoroka/3.6.19pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.6',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -38634,13 +38634,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.2',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AKA' => [
+    ),
+    'issue-900-AKA' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.9.2.18pre) Gecko/20110610 Namoroka/3.6.18pre ( )',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.6',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -38687,13 +38687,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.2',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AKB' => [
+    ),
+    'issue-900-AKB' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-TW; rv:1.9.2.15pre) Gecko/20110127 Namoroka/3.6.15pre (.NET CLR 3.5.30729)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.6',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -38740,13 +38740,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.2',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AKC' => [
+    ),
+    'issue-900-AKC' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9.2.10pre) Gecko/20100828 Namoroka/3.6.10pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.6',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -38793,13 +38793,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.2',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AKQ' => [
+    ),
+    'issue-900-AKQ' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.8.1.8pre) Gecko/20070928 Firefox/2.0.0.7 Navigator/9.0RC1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 9.0',
             'Browser' => 'Navigator',
             'Browser_Type' => 'Browser',
@@ -38846,13 +38846,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AKR' => [
+    ),
+    'issue-900-AKR' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Win98; en-US; rv:1.8.1.8pre) Gecko/20070928 Firefox/2.0.0.7 Navigator/9.0RC1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 9.0',
             'Browser' => 'Navigator',
             'Browser_Type' => 'Browser',
@@ -38899,13 +38899,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-AKS' => [
+    ),
+    'issue-900-AKS' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X; en-US; rv:1.8.1.8pre) Gecko/20071001 Firefox/2.0.0.7 Navigator/9.0RC1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 9.0',
             'Browser' => 'Navigator',
             'Browser_Type' => 'Browser',
@@ -38952,13 +38952,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AKT' => [
+    ),
+    'issue-900-AKT' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.7pre) Gecko/20070815 Firefox/2.0.0.6 Navigator/9.0b3',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 9.0',
             'Browser' => 'Navigator',
             'Browser_Type' => 'Browser',
@@ -39005,13 +39005,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AKU' => [
+    ),
+    'issue-900-AKU' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US; rv:1.8.1.7pre) Gecko/20070815 Firefox/2.0.0.6 Navigator/9.0b3',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 9.0',
             'Browser' => 'Navigator',
             'Browser_Type' => 'Browser',
@@ -39058,13 +39058,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AKV' => [
+    ),
+    'issue-900-AKV' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.7pre) Gecko/20070815 Firefox/2.0.0.6 Navigator/9.0b3',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 9.0',
             'Browser' => 'Navigator',
             'Browser_Type' => 'Browser',
@@ -39111,13 +39111,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AKW' => [
+    ),
+    'issue-900-AKW' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; en-US; rv:1.8.1.7pre) Gecko/20070815 Firefox/2.0.0.6 Navigator/9.0b3',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 9.0',
             'Browser' => 'Navigator',
             'Browser_Type' => 'Browser',
@@ -39164,13 +39164,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AKX' => [
+    ),
+    'issue-900-AKX' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows 98; en-US; rv:1.8.1.5pre) Gecko/20070710 Firefox/2.0.0.4 Navigator/9.0b2',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 9.0',
             'Browser' => 'Navigator',
             'Browser_Type' => 'Browser',
@@ -39217,13 +39217,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-AKY' => [
+    ),
+    'issue-900-AKY' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; en-US; rv:1.8.1.5pre) Gecko/20070710 Firefox/2.0.0.4 Navigator/9.0b2',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 9.0',
             'Browser' => 'Navigator',
             'Browser_Type' => 'Browser',
@@ -39270,13 +39270,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AKZ' => [
+    ),
+    'issue-900-AKZ' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.12) Gecko/20080219 Firefox/2.0.0.12 Navigator/9.0.0.6',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 9.0',
             'Browser' => 'Navigator',
             'Browser_Type' => 'Browser',
@@ -39323,13 +39323,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ALA' => [
+    ),
+    'issue-900-ALA' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.8.1.12) Gecko/20080219 Firefox/2.0.0.12 Navigator/9.0.0.6',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 9.0',
             'Browser' => 'Navigator',
             'Browser_Type' => 'Browser',
@@ -39376,13 +39376,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ALB' => [
+    ),
+    'issue-900-ALB' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.12) Gecko/20080219 Firefox/2.0.0.12 Navigator/9.0.0.6',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 9.0',
             'Browser' => 'Navigator',
             'Browser_Type' => 'Browser',
@@ -39429,13 +39429,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ALC' => [
+    ),
+    'issue-900-ALC' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; en-US; rv:1.8.1.12) Gecko/20080219 Firefox/2.0.0.12 Navigator/9.0.0.6',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 9.0',
             'Browser' => 'Navigator',
             'Browser_Type' => 'Browser',
@@ -39482,13 +39482,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ALD' => [
+    ),
+    'issue-900-ALD' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.11pre) Gecko/20071206 Firefox/2.0.0.11 Navigator/9.0.0.5',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 9.0',
             'Browser' => 'Navigator',
             'Browser_Type' => 'Browser',
@@ -39535,13 +39535,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ALE' => [
+    ),
+    'issue-900-ALE' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.11pre) Gecko/20071206 Firefox/2.0.0.11 Navigator/9.0.0.5 GTB5',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 9.0',
             'Browser' => 'Navigator',
             'Browser_Type' => 'Browser',
@@ -39588,13 +39588,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ALF' => [
+    ),
+    'issue-900-ALF' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.11pre) Gecko/20071206 Firefox/2.0.0.11 Navigator/9.0.0.5',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 9.0',
             'Browser' => 'Navigator',
             'Browser_Type' => 'Browser',
@@ -39641,13 +39641,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ALG' => [
+    ),
+    'issue-900-ALG' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.8.1.11pre) Gecko/20071206 Firefox/2.0.0.11 Navigator/9.0.0.5',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 9.0',
             'Browser' => 'Navigator',
             'Browser_Type' => 'Browser',
@@ -39694,13 +39694,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-ALH' => [
+    ),
+    'issue-900-ALH' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; en-US; rv:1.8.1.11pre) Gecko/20071206 Firefox/2.0.0.11 Navigator/9.0.0.5',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 9.0',
             'Browser' => 'Navigator',
             'Browser_Type' => 'Browser',
@@ -39747,13 +39747,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ALI' => [
+    ),
+    'issue-900-ALI' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X; en-US; rv:1.8.1.11pre) Gecko/20071206 Firefox/2.0.0.11 Navigator/9.0.0.5',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 9.0',
             'Browser' => 'Navigator',
             'Browser_Type' => 'Browser',
@@ -39800,13 +39800,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ALJ' => [
+    ),
+    'issue-900-ALJ' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X; en-US; rv:1.8.1.10pre) Gecko/20071127 Firefox/2.0.0.10 Navigator/9.0.0.4',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 9.0',
             'Browser' => 'Navigator',
             'Browser_Type' => 'Browser',
@@ -39853,13 +39853,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ALK' => [
+    ),
+    'issue-900-ALK' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i586; en-US; rv:1.8.1.9pre) Gecko/20071102 Firefox/2.0.0.9 Navigator/9.0.0.3',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 9.0',
             'Browser' => 'Navigator',
             'Browser_Type' => 'Browser',
@@ -39906,13 +39906,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ALL' => [
+    ),
+    'issue-900-ALL' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.9pre) Gecko/20071102 Firefox/2.0.0.9 Navigator/9.0.0.3',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 9.0',
             'Browser' => 'Navigator',
             'Browser_Type' => 'Browser',
@@ -39959,13 +39959,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ALM' => [
+    ),
+    'issue-900-ALM' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.0; fr; rv:1.8.1.9pre) Gecko/20071102 Firefox/2.0.0.9 Navigator/9.0.0.3',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 9.0',
             'Browser' => 'Navigator',
             'Browser_Type' => 'Browser',
@@ -40012,13 +40012,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-ALN' => [
+    ),
+    'issue-900-ALN' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Win98; en-US; rv:1.8.1.9pre) Gecko/20071102 Firefox/2.0.0.9 Navigator/9.0.0.3',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 9.0',
             'Browser' => 'Navigator',
             'Browser_Type' => 'Browser',
@@ -40065,13 +40065,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-ALO' => [
+    ),
+    'issue-900-ALO' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X; en-US; rv:1.8.1.9pre) Gecko/20071102 Firefox/2.0.0.9 Navigator/9.0.0.3',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 9.0',
             'Browser' => 'Navigator',
             'Browser_Type' => 'Browser',
@@ -40118,13 +40118,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ALP' => [
+    ),
+    'issue-900-ALP' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.8.1.8pre) Gecko/20071019 Firefox/2.0.0.8 Navigator/9.0.0.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 9.0',
             'Browser' => 'Navigator',
             'Browser_Type' => 'Browser',
@@ -40171,13 +40171,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ALQ' => [
+    ),
+    'issue-900-ALQ' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.8pre) Gecko/20071019 Firefox/2.0.0.8 Navigator/9.0.0.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 9.0',
             'Browser' => 'Navigator',
             'Browser_Type' => 'Browser',
@@ -40224,13 +40224,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ALR' => [
+    ),
+    'issue-900-ALR' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows 98; en-US; rv:1.8.1.8pre) Gecko/20071019 Firefox/2.0.0.8 Navigator/9.0.0.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 9.0',
             'Browser' => 'Navigator',
             'Browser_Type' => 'Browser',
@@ -40277,13 +40277,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-ALS' => [
+    ),
+    'issue-900-ALS' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Win98; en-US; rv:1.8.1.8pre) Gecko/20071019 Firefox/2.0.0.8 Navigator/9.0.0.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 9.0',
             'Browser' => 'Navigator',
             'Browser_Type' => 'Browser',
@@ -40330,13 +40330,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-ALT' => [
+    ),
+    'issue-900-ALT' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X; en-US; rv:1.8.1.8pre) Gecko/20071019 Firefox/2.0.0.8 Navigator/9.0.0.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 9.0',
             'Browser' => 'Navigator',
             'Browser_Type' => 'Browser',
@@ -40383,13 +40383,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ALU' => [
+    ),
+    'issue-900-ALU' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.8pre) Gecko/20071015 Firefox/2.0.0.7 Navigator/9.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 9.0',
             'Browser' => 'Navigator',
             'Browser_Type' => 'Browser',
@@ -40436,13 +40436,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ALV' => [
+    ),
+    'issue-900-ALV' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.8pre) Gecko/20071015 Firefox/2.0.0.7 Navigator/9.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 9.0',
             'Browser' => 'Navigator',
             'Browser_Type' => 'Browser',
@@ -40489,13 +40489,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ALW' => [
+    ),
+    'issue-900-ALW' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Win 9x 4.90; en-US; rv:1.8.1.8pre) Gecko/20071015 Firefox/2.0.0.7 Navigator/9.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 9.0',
             'Browser' => 'Navigator',
             'Browser_Type' => 'Browser',
@@ -40542,13 +40542,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-ALX' => [
+    ),
+    'issue-900-ALX' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; en-US; rv:1.8.1.8pre) Gecko/20071015 Firefox/2.0.0.7 Navigator/9.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 9.0',
             'Browser' => 'Navigator',
             'Browser_Type' => 'Browser',
@@ -40595,13 +40595,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ALY' => [
+    ),
+    'issue-900-ALY' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.5) Gecko/20070321 Netscape/8.1.3',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 8.1',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -40648,13 +40648,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ALZ' => [
+    ),
+    'issue-900-ALZ' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.7.5) Gecko/20070321 Netscape/8.1.3',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 8.1',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -40701,13 +40701,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AMA' => [
+    ),
+    'issue-900-AMA' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.7.5) Gecko/20060912 Netscape/8.1.2',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 8.1',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -40754,13 +40754,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AMB' => [
+    ),
+    'issue-900-AMB' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; es-AR; rv:1.7.5) Gecko/20060912 Netscape/8.1.2',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 8.1',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -40807,13 +40807,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AMC' => [
+    ),
+    'issue-900-AMC' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.0; es-AR; rv:1.7.5) Gecko/20060912 Netscape/8.1.2',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 8.1',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -40860,13 +40860,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-AMD' => [
+    ),
+    'issue-900-AMD' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.7.5) Gecko/20060912 Netscape/8.1.2',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 8.1',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -40913,13 +40913,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-AME' => [
+    ),
+    'issue-900-AME' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.5) Gecko/20060127 Netscape/8.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 8.1',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -40966,13 +40966,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AMF' => [
+    ),
+    'issue-900-AMF' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; it-IT; rv:1.7.5) Gecko/20060127 Netscape/8.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 8.1',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -41019,13 +41019,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AMG' => [
+    ),
+    'issue-900-AMG' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; es-ES; rv:1.7.5) Gecko/20060127 Netscape/8.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 8.1',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -41072,13 +41072,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AMH' => [
+    ),
+    'issue-900-AMH' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.7.5) Gecko/20060127 Netscape/8.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 8.1',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -41125,13 +41125,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AMI' => [
+    ),
+    'issue-900-AMI' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.7.5) Gecko/20060111 Netscape/8.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 8.1',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -41178,13 +41178,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AMJ' => [
+    ),
+    'issue-900-AMJ' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; de-DE; rv:1.7.5) Gecko/20060127 Netscape/8.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 8.1',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -41231,13 +41231,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AMK' => [
+    ),
+    'issue-900-AMK' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.7.5) Gecko/20060127 Netscape/8.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 8.1',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -41284,13 +41284,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-AML' => [
+    ),
+    'issue-900-AML' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Win98; en-US; rv:1.7.5) Gecko/20060127 Netscape/8.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 8.1',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -41337,13 +41337,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-AMM' => [
+    ),
+    'issue-900-AMM' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.7.5) Gecko/20050519 Netscape/8.0.1 FirePHP/0.3',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 8.0',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -41390,13 +41390,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AMN' => [
+    ),
+    'issue-900-AMN' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.7.2) Gecko/20050208  Netscape/7.20',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 7.2',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -41443,13 +41443,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-AMO' => [
+    ),
+    'issue-900-AMO' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.2) Gecko/20040805 Netscape/7.2',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 7.2',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -41496,13 +41496,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AMP' => [
+    ),
+    'issue-900-AMP' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.7.2) Gecko/20040804 Netscape/7.2 (ax)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 7.2',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -41549,13 +41549,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AMQ' => [
+    ),
+    'issue-900-AMQ' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.7.2) Gecko/20040804 Netscape/7.2 (ax)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 7.2',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -41602,13 +41602,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-AMR' => [
+    ),
+    'issue-900-AMR' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.0; de-DE; rv:1.7.2) Gecko/20040804 Netscape/7.2 (ax)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 7.2',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -41655,13 +41655,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-AMS' => [
+    ),
+    'issue-900-AMS' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Win98; en-US; rv:1.7.2) Gecko/20040804 Netscape/7.2 (ax)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 7.2',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -41708,13 +41708,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-AMT' => [
+    ),
+    'issue-900-AMT' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Win 9x 4.90; en-US; rv:1.7.2) Gecko/20040804 Netscape/7.2 (ax)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 7.2',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -41761,13 +41761,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-AMU' => [
+    ),
+    'issue-900-AMU' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; rv:1.7.2) Gecko/20040804 Netscape/7.2',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 7.2',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -41814,13 +41814,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-AMV' => [
+    ),
+    'issue-900-AMV' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; en-US; rv:1.7.2) Gecko/20040804 Netscape/7.2',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 7.2',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -41867,13 +41867,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-AMW' => [
+    ),
+    'issue-900-AMW' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Win98; en-US; rv:1.4) Gecko Netscape/7.1 (ax)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 7.1',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -41920,13 +41920,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-AMX' => [
+    ),
+    'issue-900-AMX' => array(
         'ua' => 'Mozilla/5.0 (X11; U; HP-UX 9000/785; es-ES; rv:1.0.1) Gecko/20020827 Netscape/7.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 7.0',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -41973,13 +41973,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AMY' => [
+    ),
+    'issue-900-AMY' => array(
         'ua' => 'Mozilla/5.0 (X11; U; AIX 0048013C4C00; en-US; rv:1.0.1) Gecko/20021009 Netscape/7.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 7.0',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -42026,13 +42026,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AMZ' => [
+    ),
+    'issue-900-AMZ' => array(
         'ua' => 'Mozilla/5.0 (X11; U; OSF1 alpha; en-US; rv:0.9.4.1) Gecko/20020517 Netscape6/6.2.3',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 6.2',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -42079,13 +42079,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ANA' => [
+    ),
+    'issue-900-ANA' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; WinNT4.0; en-US; rv:0.9.4.1) Gecko/20020314 Netscape6/6.2.2',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 6.2',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -42132,13 +42132,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-ANB' => [
+    ),
+    'issue-900-ANB' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.0; fr-FR; rv:0.9.4.1) Gecko/20020314 Netscape6/6.2.2',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 6.2',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -42185,13 +42185,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-ANC' => [
+    ),
+    'issue-900-ANC' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:0.9.4.1) Gecko/20020314 Netscape6/6.2.2',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 6.2',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -42238,13 +42238,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-AND' => [
+    ),
+    'issue-900-AND' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Win98; de-DE; rv:0.9.4.1) Gecko/20020314 Netscape6/6.2.2',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 6.2',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -42291,13 +42291,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-ANE' => [
+    ),
+    'issue-900-ANE' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; WinNT4.0; en-US; rv:0.9.4) Gecko/20011019 Netscape6/6.2',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 6.2',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -42344,13 +42344,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-ANF' => [
+    ),
+    'issue-900-ANF' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:0.9.2) Gecko/20010726 Netscape6/6.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 6.1',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -42397,13 +42397,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ANG' => [
+    ),
+    'issue-900-ANG' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; WinNT4.0; de-DE; rv:0.9.2) Gecko/20010726 Netscape6/6.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 6.1',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -42450,13 +42450,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-ANH' => [
+    ),
+    'issue-900-ANH' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:0.9.2) Gecko/20010726 Netscape6/6.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 6.1',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -42503,13 +42503,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-ANI' => [
+    ),
+    'issue-900-ANI' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC; en-US; rv:0.9.2) Gecko/20010726 Netscape6/6.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 6.1',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -42556,13 +42556,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-ANJ' => [
+    ),
+    'issue-900-ANJ' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC; de-DE; rv:0.9.2) Gecko/20010726 Netscape6/6.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 6.1',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -42609,13 +42609,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-ANK' => [
+    ),
+    'issue-900-ANK' => array(
         'ua' => 'Mozilla/4.8C-SGI [en] (X11; U; IRIX64 6.5 IP27)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 4.8',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -42662,13 +42662,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ANL' => [
+    ),
+    'issue-900-ANL' => array(
         'ua' => 'Mozilla/4.8 [nl] (Windows NT 6.0; U)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 4.8',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -42715,13 +42715,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ANM' => [
+    ),
+    'issue-900-ANM' => array(
         'ua' => 'Mozilla/4.8 [en] (X11; U; IRIX64 6.5 IP27)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 4.8',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -42768,13 +42768,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ANN' => [
+    ),
+    'issue-900-ANN' => array(
         'ua' => 'Mozilla/4.8 [en] (X11; U; HP-UX B.11.00 9000/785)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 4.8',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -42821,13 +42821,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ANO' => [
+    ),
+    'issue-900-ANO' => array(
         'ua' => 'Mozilla/4.8 [en] (Windows NT 6.0; U) Paros/3.2.13',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 4.8',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -42874,13 +42874,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ANP' => [
+    ),
+    'issue-900-ANP' => array(
         'ua' => 'Mozilla/4.8 [en] (Windows NT 6.0; U)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 4.8',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -42927,13 +42927,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ANQ' => [
+    ),
+    'issue-900-ANQ' => array(
         'ua' => 'Mozilla/4.8 [en] (Windows NT 6.0; en-US; U)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 4.8',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -42980,13 +42980,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ANR' => [
+    ),
+    'issue-900-ANR' => array(
         'ua' => 'Mozilla/4.8 [en] (FreeBSD; U)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 4.8',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -43033,13 +43033,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ANS' => [
+    ),
+    'issue-900-ANS' => array(
         'ua' => 'Mozilla/4.8 [en-US] (Windows NT 6.0; U)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 4.8',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -43086,13 +43086,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ANT' => [
+    ),
+    'issue-900-ANT' => array(
         'ua' => 'Mozilla/4.79C-SGI [en] (X11; I; IRIX64 6.5 IP30)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 4.79',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -43139,13 +43139,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ANU' => [
+    ),
+    'issue-900-ANU' => array(
         'ua' => 'Mozilla/4.79C-SGI [en] (X11; I; IRIX64 6.5 IP28)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 4.79',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -43192,13 +43192,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ANV' => [
+    ),
+    'issue-900-ANV' => array(
         'ua' => 'Mozilla/4.77C-SGI [en] (X11; I; IRIX64 6.5 IP30)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 4.77',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -43245,13 +43245,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ANW' => [
+    ),
+    'issue-900-ANW' => array(
         'ua' => 'Mozilla/4.77 [en] (X11; U; HP-UX B.11.00 9000/800)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 4.77',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -43298,13 +43298,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ANX' => [
+    ),
+    'issue-900-ANX' => array(
         'ua' => 'Mozilla/4.76C-SGI [en] (X11; I; IRIX64 6.5 IP30)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 4.76',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -43351,13 +43351,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ANY' => [
+    ),
+    'issue-900-ANY' => array(
         'ua' => 'Mozilla/4.76C-SGI [en] (X11; I; IRIX 6.5 IP32)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 4.76',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -43404,13 +43404,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ANZ' => [
+    ),
+    'issue-900-ANZ' => array(
         'ua' => 'Mozilla/4.76 [en] (X11; U; HP-UX B.10.20 9000/782)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 4.76',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -43457,13 +43457,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AOA' => [
+    ),
+    'issue-900-AOA' => array(
         'ua' => 'Mozilla/4.75 [en] (X11; U; OpenBSD 2.8 i386)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 4.75',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -43510,13 +43510,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AOB' => [
+    ),
+    'issue-900-AOB' => array(
         'ua' => 'Mozilla/4.73 [en] (X11; I; HP-UX B.10.20 9000/879)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 4.73',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -43563,13 +43563,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AOC' => [
+    ),
+    'issue-900-AOC' => array(
         'ua' => 'Mozilla/4.72 [en] (X11; I; HP-UX B.11.00 9000/800)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 4.72',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -43616,13 +43616,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AOD' => [
+    ),
+    'issue-900-AOD' => array(
         'ua' => 'Mozilla/4.7C-SGI [en] (X11; I; IRIX 6.5 IP32)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 4.7',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -43669,13 +43669,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AOE' => [
+    ),
+    'issue-900-AOE' => array(
         'ua' => 'Mozilla/4.7 [en] (Windows NT 6.0; U)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 4.7',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -43722,13 +43722,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AOF' => [
+    ),
+    'issue-900-AOF' => array(
         'ua' => 'Mozilla/4.51 [it] (Win98; U)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 4.51',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -43775,13 +43775,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-AOG' => [
+    ),
+    'issue-900-AOG' => array(
         'ua' => 'Mozilla/4.51 [fr] (Win95; I)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 4.51',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -43828,13 +43828,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-AOH' => [
+    ),
+    'issue-900-AOH' => array(
         'ua' => 'Mozilla/4.51 [en] (X11; I; Linux 2.2.7 i686)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 4.51',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -43881,13 +43881,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AOI' => [
+    ),
+    'issue-900-AOI' => array(
         'ua' => 'Mozilla/4.51 [en] (X11; I; Linux 2.2.5 i686)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 4.51',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -43934,13 +43934,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AOJ' => [
+    ),
+    'issue-900-AOJ' => array(
         'ua' => 'Mozilla/4.51 [en] (WinNT; I)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 4.51',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -43987,13 +43987,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-AOK' => [
+    ),
+    'issue-900-AOK' => array(
         'ua' => 'Mozilla/4.51 [en] (Win98; U)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 4.51',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -44040,13 +44040,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-AOL' => [
+    ),
+    'issue-900-AOL' => array(
         'ua' => 'Mozilla/4.51 [en] (Win95; I)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 4.51',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -44093,13 +44093,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-AOM' => [
+    ),
+    'issue-900-AOM' => array(
         'ua' => 'Mozilla/4.51 [de] (WinNT; I)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 4.51',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -44146,13 +44146,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-AON' => [
+    ),
+    'issue-900-AON' => array(
         'ua' => 'Mozilla/4.51 [de] (Win98; I)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 4.51',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -44199,13 +44199,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-AOO' => [
+    ),
+    'issue-900-AOO' => array(
         'ua' => 'Mozilla/4.51 [de] (Win95; I)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 4.51',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -44252,13 +44252,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-AOP' => [
+    ),
+    'issue-900-AOP' => array(
         'ua' => 'Mozilla/4.51 (Macintosh; I; PPC)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 4.51',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -44305,13 +44305,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-AOQ' => [
+    ),
+    'issue-900-AOQ' => array(
         'ua' => 'Mozilla/4.5 [it] (Win98; I)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 4.5',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -44358,13 +44358,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-AOR' => [
+    ),
+    'issue-900-AOR' => array(
         'ua' => 'Mozilla/4.5 [fr] (Win98; I)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 4.5',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -44411,13 +44411,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-AOS' => [
+    ),
+    'issue-900-AOS' => array(
         'ua' => 'Mozilla/4.5 [fr] (Win95; I)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 4.5',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -44464,13 +44464,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-AOT' => [
+    ),
+    'issue-900-AOT' => array(
         'ua' => 'Mozilla/4.5 [fr] (Macintosh; U; PPC)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 4.5',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -44517,13 +44517,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-AOU' => [
+    ),
+    'issue-900-AOU' => array(
         'ua' => 'Mozilla/4.5 [fr] (Macintosh; I; PPC)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 4.5',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -44570,13 +44570,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-AOV' => [
+    ),
+    'issue-900-AOV' => array(
         'ua' => 'Mozilla/4.5 [es] (Win98; I)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 4.5',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -44623,13 +44623,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-AOW' => [
+    ),
+    'issue-900-AOW' => array(
         'ua' => 'Mozilla/4.5 [en] (X11; I; SunOS 5.8 sun4u)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 4.5',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -44676,13 +44676,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AOX' => [
+    ),
+    'issue-900-AOX' => array(
         'ua' => 'Mozilla/4.5 [en] (X11; I; SunOS 5.7 sun4u)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 4.5',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -44729,13 +44729,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AOY' => [
+    ),
+    'issue-900-AOY' => array(
         'ua' => 'Mozilla/4.5 [en] (X11; I; SunOS 5.6 sun4u)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 4.5',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -44782,13 +44782,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AOZ' => [
+    ),
+    'issue-900-AOZ' => array(
         'ua' => 'Mozilla/4.5 [en] (X11; I; Linux 2.2.16 i586)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 4.5',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -44835,13 +44835,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-APA' => [
+    ),
+    'issue-900-APA' => array(
         'ua' => 'Mozilla/4.5 [en] (WinNT; U)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 4.5',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -44888,13 +44888,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-APB' => [
+    ),
+    'issue-900-APB' => array(
         'ua' => 'Mozilla/4.5 [en] (Win98; I)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 4.5',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -44941,13 +44941,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-APC' => [
+    ),
+    'issue-900-APC' => array(
         'ua' => 'Mozilla/4.5 [en] (Win95; I)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 4.5',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -44994,13 +44994,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-APD' => [
+    ),
+    'issue-900-APD' => array(
         'ua' => 'Mozilla/4.5 [de] (WinNT; I)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 4.5',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -45047,13 +45047,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-APE' => [
+    ),
+    'issue-900-APE' => array(
         'ua' => 'Mozilla/4.5 [de] (Win98; I)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 4.5',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -45100,13 +45100,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-APF' => [
+    ),
+    'issue-900-APF' => array(
         'ua' => 'Mozilla/4.5 [de] (Macintosh; I; PPC)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 4.5',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -45153,13 +45153,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-APG' => [
+    ),
+    'issue-900-APG' => array(
         'ua' => 'Mozilla/4.5 (Macintosh; U; PPC)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 4.5',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -45206,13 +45206,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-API' => [
+    ),
+    'issue-900-API' => array(
         'ua' => 'Mozilla/4.5 [en] (WinNT; I)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 4.5',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -45259,13 +45259,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-APJ' => [
+    ),
+    'issue-900-APJ' => array(
         'ua' => 'Mozilla/4.41  (BEOS; U ;Nav)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 4.41',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -45312,13 +45312,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-APK' => [
+    ),
+    'issue-900-APK' => array(
         'ua' => 'Mozilla/3.0 (X11; I; AIX 2)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 3.0',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -45365,13 +45365,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-APL' => [
+    ),
+    'issue-900-APL' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_7; en-US) AppleWebKit/530.18+(KHTML, like Gecko, Safari/528.16) OmniWeb/v622.8.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'OmniWeb 5.10',
             'Browser' => 'OmniWeb',
             'Browser_Type' => 'Browser',
@@ -45418,13 +45418,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-APM' => [
+    ),
+    'issue-900-APM' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_7; en-US) AppleWebKit/528.16+(KHTML, like Gecko, Safari/528.16) OmniWeb/v622.8.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'OmniWeb 5.10',
             'Browser' => 'OmniWeb',
             'Browser_Type' => 'Browser',
@@ -45471,13 +45471,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-APN' => [
+    ),
+    'issue-900-APN' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_2; en-US) AppleWebKit/531.21.8+(KHTML, like Gecko, Safari/528.16) OmniWeb/v622.11.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'OmniWeb 5.10',
             'Browser' => 'OmniWeb',
             'Browser_Type' => 'Browser',
@@ -45524,13 +45524,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-APO' => [
+    ),
+    'issue-900-APO' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; PowerPC Mac OS X 10_5_8; en-US) AppleWebKit/531.9+(KHTML, like Gecko, Safari/528.16) OmniWeb/v622.10.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'OmniWeb 5.10',
             'Browser' => 'OmniWeb',
             'Browser_Type' => 'Browser',
@@ -45577,13 +45577,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-APP' => [
+    ),
+    'issue-900-APP' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_3; en-US) AppleWebKit/531.9+(KHTML, like Gecko, Safari/528.16) OmniWeb/v622.10.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'OmniWeb 5.10',
             'Browser' => 'OmniWeb',
             'Browser_Type' => 'Browser',
@@ -45630,13 +45630,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-APQ' => [
+    ),
+    'issue-900-APQ' => array(
         'ua' => 'Mozilla/4.5 (compatible; OmniWeb/4.2.1-v435.9; Mac_PowerPC)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'OmniWeb 4.2',
             'Browser' => 'OmniWeb',
             'Browser_Type' => 'Browser',
@@ -45683,13 +45683,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-APR' => [
+    ),
+    'issue-900-APR' => array(
         'ua' => 'Mozilla/4.5 (compatible; OmniWeb/4.2-v435.5; Mac_PowerPC)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'OmniWeb 4.2',
             'Browser' => 'OmniWeb',
             'Browser_Type' => 'Browser',
@@ -45736,13 +45736,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-APS' => [
+    ),
+    'issue-900-APS' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en) AppleWebKit/522+ (KHTML, like Gecko) OmniWeb',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -45789,13 +45789,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-APT' => [
+    ),
+    'issue-900-APT' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 6.0; rv:2.0) Gecko/20100101 Firefox/4.0 Opera 12.14',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 12.14',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -45842,13 +45842,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.12',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-APU' => [
+    ),
+    'issue-900-APU' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 5.1) Gecko/20100101 Firefox/14.0 Opera/12.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 12.0',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -45895,13 +45895,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.12',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-APV' => [
+    ),
+    'issue-900-APV' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; U; en; rv:1.8.1) Gecko/20061208 Firefox/5.0 Opera 11.11',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 11.11',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -45948,13 +45948,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.8',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-APW' => [
+    ),
+    'issue-900-APW' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.13) Gecko/20101213 Opera/9.80 (Windows NT 6.1; U; zh-tw) Presto/2.7.62 Version/11.01',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 11.01',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -46001,13 +46001,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.7',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-APX' => [
+    ),
+    'issue-900-APX' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; U; nl; rv:1.9.1.6) Gecko/20091201 Firefox/3.5.6 Opera 11.01',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 11.01',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -46054,13 +46054,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.7',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-APY' => [
+    ),
+    'issue-900-APY' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; U; de; rv:1.9.1.6) Gecko/20091201 Firefox/3.5.6 Opera 11.01',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 11.01',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -46107,13 +46107,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.7',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-APZ' => [
+    ),
+    'issue-900-APZ' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 6.0; U; ja; rv:1.9.1.6) Gecko/20091201 Firefox/3.5.6 Opera 11.00',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 11.00',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -46160,13 +46160,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.7',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AQA' => [
+    ),
+    'issue-900-AQA' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; U; pl; rv:1.9.1.6) Gecko/20091201 Firefox/3.5.6 Opera 11.00',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 11.00',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -46213,13 +46213,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.7',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AQB' => [
+    ),
+    'issue-900-AQB' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; U; de; rv:1.9.1.6) Gecko/20091201 Firefox/3.5.6 Opera 11.00',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 11.00',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -46266,13 +46266,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.7',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AQC' => [
+    ),
+    'issue-900-AQC' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; X11; Linux x86_64; pl) Opera 11.00',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 11.00',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -46319,13 +46319,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.7',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AQD' => [
+    ),
+    'issue-900-AQD' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 5.2; U; ru; rv:1.9.1.6) Gecko/20091201 Firefox/3.5.6 Opera 10.70',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 10.70',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -46372,13 +46372,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AQE' => [
+    ),
+    'issue-900-AQE' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; U; zh-cn; rv:1.9.1.6) Gecko/20091201 Firefox/3.5.6 Opera 10.70',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 10.70',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -46425,13 +46425,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AQF' => [
+    ),
+    'issue-900-AQF' => array(
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64; U; de; rv:1.9.1.6) Gecko/20091201 Firefox/3.5.6 Opera 10.62',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 10.62',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -46478,13 +46478,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AQG' => [
+    ),
+    'issue-900-AQG' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; X11; Linux x86_64; de) Opera 10.62',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 10.62',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -46531,13 +46531,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AQH' => [
+    ),
+    'issue-900-AQH' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; U; zh-cn; rv:1.9.1.6) Gecko/20091201 Firefox/3.5.6 Opera 10.53',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 10.53',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -46584,13 +46584,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AQI' => [
+    ),
+    'issue-900-AQI' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; U; Firefox/5.0; en; rv:1.9.1.6) Gecko/20091201 Firefox/3.5.6 Opera 10.53',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 10.53',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -46637,13 +46637,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AQJ' => [
+    ),
+    'issue-900-AQJ' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; U; Firefox/4.5; en; rv:1.9.1.6) Gecko/20091201 Firefox/3.5.6 Opera 10.53',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 10.53',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -46690,13 +46690,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AQK' => [
+    ),
+    'issue-900-AQK' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; U; Firefox/3.5; en; rv:1.9.1.6) Gecko/20091201 Firefox/3.5.6 Opera 10.53',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 10.53',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -46743,13 +46743,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AQL' => [
+    ),
+    'issue-900-AQL' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; U; en-GB; rv:1.9.1.6) Gecko/20091201 Firefox/3.5.6 Opera 10.51',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 10.51',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -46796,13 +46796,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AQM' => [
+    ),
+    'issue-900-AQM' => array(
         'ua' => 'Mozilla/5.0 (Linux i686; U; en; rv:1.9.1.6) Gecko/20091201 Firefox/3.5.6 Opera 10.51',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 10.51',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -46849,13 +46849,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AQN' => [
+    ),
+    'issue-900-AQN' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Linux i686; en) Opera 10.51',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 10.51',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -46902,13 +46902,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AQO' => [
+    ),
+    'issue-900-AQO' => array(
         'ua' => 'Opera/9.80 (S60; SymbOS; Opera Tablet/9174; U; en) Presto/2.7.81 Version/10.5',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera Mobile 10.5',
             'Browser' => 'Opera Mobile',
             'Browser_Type' => 'Browser',
@@ -46955,13 +46955,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AQP' => [
+    ),
+    'issue-900-AQP' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 6.0; U; tr; rv:1.8.1) Gecko/20061208 Firefox/2.0.0 Opera 10.10',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 10.10',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -47008,13 +47008,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AQQ' => [
+    ),
+    'issue-900-AQQ' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; X11; Linux i686; de) Opera 10.10',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 10.10',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -47061,13 +47061,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AQR' => [
+    ),
+    'issue-900-AQR' => array(
         'ua' => 'Opera/9.99 (X11; U; sk)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -47114,13 +47114,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-AQS' => [
+    ),
+    'issue-900-AQS' => array(
         'ua' => 'Opera/9.99 (Windows NT 5.1; U; pl) Presto/9.9.9',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera Generic',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -47167,13 +47167,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AQT' => [
+    ),
+    'issue-900-AQT' => array(
         'ua' => 'Opera/9.80 (J2ME/MIDP; Opera Mini/5.0 (Windows; U; Windows NT 5.1; en) AppleWebKit/886; U; en) Presto/2.4.15',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera Mini 5.0',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
@@ -47220,13 +47220,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AQU' => [
+    ),
+    'issue-900-AQU' => array(
         'ua' => 'Mozilla/5.0 (Linux i686 ; U; en; rv:1.8.1) Gecko/20061208 Firefox/2.0.0 Opera 9.70',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 9.70',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -47273,13 +47273,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AQV' => [
+    ),
+    'issue-900-AQV' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Linux i686 ; en) Opera 9.70',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 9.70',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -47326,13 +47326,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AQW' => [
+    ),
+    'issue-900-AQW' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; U; en-GB; rv:1.8.1) Gecko/20061208 Firefox/2.0.0 Opera 9.61',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 9.61',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -47379,13 +47379,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AQX' => [
+    ),
+    'issue-900-AQX' => array(
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64; U; en; rv:1.8.1) Gecko/20061208 Firefox/2.0.0 Opera 9.60',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 9.60',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -47432,13 +47432,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AQY' => [
+    ),
+    'issue-900-AQY' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; X11; Linux x86_64; en) Opera 9.60',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 9.60',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -47485,13 +47485,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AQZ' => [
+    ),
+    'issue-900-AQZ' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; U; de; rv:1.8.1) Gecko/20061208 Firefox/2.0.0 Opera 9.52',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 9.52',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -47538,13 +47538,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ARA' => [
+    ),
+    'issue-900-ARA' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; U;  ; rv:1.8.1) Gecko/20061208 Firefox/2.0.0 Opera 9.52',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 9.52',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -47591,13 +47591,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ARB' => [
+    ),
+    'issue-900-ARB' => array(
         'ua' => 'Mozilla/5.0 (X11; Linux i686; U; en; rv:1.8.1) Gecko/20061208 Firefox/2.0.0 Opera 9.51',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 9.51',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -47644,13 +47644,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ARC' => [
+    ),
+    'issue-900-ARC' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 6.0; U; en; rv:1.8.1) Gecko/20061208 Firefox/2.0.0 Opera 9.51',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 9.51',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -47697,13 +47697,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ARD' => [
+    ),
+    'issue-900-ARD' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; U; en; rv:1.8.1) Gecko/20061208 Firefox/2.0.0 Opera 9.51',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 9.51',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -47750,13 +47750,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ARE' => [
+    ),
+    'issue-900-ARE' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; U; en-GB; rv:1.8.1) Gecko/20061208 Firefox/2.0.0 Opera 9.51',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 9.51',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -47803,13 +47803,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ARF' => [
+    ),
+    'issue-900-ARF' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; U; de; rv:1.8.1) Gecko/20061208 Firefox/2.0.0 Opera 9.51',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 9.51',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -47856,13 +47856,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ARG' => [
+    ),
+    'issue-900-ARG' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; U; zh-cn; rv:1.8.1) Gecko/20061208 Firefox/2.0.0 Opera 9.50',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 9.50',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -47909,13 +47909,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ARH' => [
+    ),
+    'issue-900-ARH' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; X11; Linux x86_64; en) Opera 9.50',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 9.50',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -47962,13 +47962,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ARI' => [
+    ),
+    'issue-900-ARI' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; de; rv:1.9b3) Gecko/2008020514 Opera 9.5',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 9.5',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -48015,13 +48015,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ARJ' => [
+    ),
+    'issue-900-ARJ' => array(
         'ua' => 'Opera 9.4 (Windows NT 5.3; U; en)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 9.4',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -48068,13 +48068,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-ARK' => [
+    ),
+    'issue-900-ARK' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 5.2; U; en; rv:1.8.0) Gecko/20060728 Firefox/1.5.0 Opera 9.27',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 9.27',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -48121,13 +48121,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ARL' => [
+    ),
+    'issue-900-ARL' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; U; es-la; rv:1.8.0) Gecko/20060728 Firefox/1.5.0 Opera 9.27',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 9.27',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -48174,13 +48174,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ARM' => [
+    ),
+    'issue-900-ARM' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X; U; en; rv:1.8.0) Gecko/20060728 Firefox/1.5.0 Opera 9.27',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 9.27',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -48227,13 +48227,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ARN' => [
+    ),
+    'issue-900-ARN' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; X11; Linux i686; en) Opera 9.27',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 9.27',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -48280,13 +48280,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ARO' => [
+    ),
+    'issue-900-ARO' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; U; en; rv:1.8.0) Gecko/20060728 Firefox/1.5.0 Opera 9.26',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 9.26',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -48333,13 +48333,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ARP' => [
+    ),
+    'issue-900-ARP' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; U; en; rv:1.8.0) Gecko/20060728 Firefox/1.5.0 Opera 9.24',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 9.24',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -48386,13 +48386,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ARQ' => [
+    ),
+    'issue-900-ARQ' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Mac_PowerPC; en) Opera 9.24',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 9.24',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -48439,13 +48439,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-ARR' => [
+    ),
+    'issue-900-ARR' => array(
         'ua' => 'Mozilla/5.0 (X11; Linux i686; U; en; rv:1.8.0) Gecko/20060728 Firefox/1.5.0 Opera 9.23',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 9.23',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -48492,13 +48492,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ARS' => [
+    ),
+    'issue-900-ARS' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; U; en; rv:1.8.0) Gecko/20060728 Firefox/1.5.0 Opera 9.22',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 9.22',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -48545,13 +48545,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ART' => [
+    ),
+    'issue-900-ART' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; X11; Linux i686; en) Opera 9.22',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 9.22',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -48598,13 +48598,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ARU' => [
+    ),
+    'issue-900-ARU' => array(
         'ua' => 'Mozilla/5.0 (compatible; MSIE 6.0; Windows NT 5.1; zh-cn) Opera 8.65',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera Mobile 8.65',
             'Browser' => 'Opera Mobile',
             'Browser_Type' => 'Browser',
@@ -48651,13 +48651,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-ARV' => [
+    ),
+    'issue-900-ARV' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; zh-cn) Opera 8.65',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera Mobile 8.65',
             'Browser' => 'Opera Mobile',
             'Browser_Type' => 'Browser',
@@ -48704,13 +48704,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-ARW' => [
+    ),
+    'issue-900-ARW' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) Opera 8.65 [en]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera Mobile 8.65',
             'Browser' => 'Opera Mobile',
             'Browser_Type' => 'Browser',
@@ -48757,13 +48757,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-ARX' => [
+    ),
+    'issue-900-ARX' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; Sprint:PPC-6700) Opera 8.65 [en]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera Mobile 8.65',
             'Browser' => 'Opera Mobile',
             'Browser_Type' => 'Browser',
@@ -48810,13 +48810,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-ARY' => [
+    ),
+    'issue-900-ARY' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; PPC; 320x320)Opera 8.65 [en]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera Mobile 8.65',
             'Browser' => 'Opera Mobile',
             'Browser_Type' => 'Browser',
@@ -48863,13 +48863,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-ARZ' => [
+    ),
+    'issue-900-ARZ' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; PPC; 320x320) Opera 8.65 [en]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera Mobile 8.65',
             'Browser' => 'Opera Mobile',
             'Browser_Type' => 'Browser',
@@ -48916,13 +48916,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-ASA' => [
+    ),
+    'issue-900-ASA' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; PPC; 240x320) Opera 8.65 [zh-cn]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera Mobile 8.65',
             'Browser' => 'Opera Mobile',
             'Browser_Type' => 'Browser',
@@ -48969,13 +48969,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-ASB' => [
+    ),
+    'issue-900-ASB' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; PPC; 240x320) Opera 8.65 [nl]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera Mobile 8.65',
             'Browser' => 'Opera Mobile',
             'Browser_Type' => 'Browser',
@@ -49022,13 +49022,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-ASC' => [
+    ),
+    'issue-900-ASC' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; PPC; 240x320) Opera 8.65 [de]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera Mobile 8.65',
             'Browser' => 'Opera Mobile',
             'Browser_Type' => 'Browser',
@@ -49075,13 +49075,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-ASD' => [
+    ),
+    'issue-900-ASD' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; PPC; 240x240) Opera 8.65 [en]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera Mobile 8.65',
             'Browser' => 'Opera Mobile',
             'Browser_Type' => 'Browser',
@@ -49128,13 +49128,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-ASE' => [
+    ),
+    'issue-900-ASE' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; PPC) Opera 8.65 [en]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera Mobile 8.65',
             'Browser' => 'Opera Mobile',
             'Browser_Type' => 'Browser',
@@ -49181,13 +49181,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-ASF' => [
+    ),
+    'issue-900-ASF' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) Opera 8.60 [en]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera Mobile 8.60',
             'Browser' => 'Opera Mobile',
             'Browser_Type' => 'Browser',
@@ -49234,13 +49234,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-ASG' => [
+    ),
+    'issue-900-ASG' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; PPC; 240x320) Opera 8.60 [en]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera Mobile 8.60',
             'Browser' => 'Opera Mobile',
             'Browser_Type' => 'Browser',
@@ -49287,13 +49287,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-ASH' => [
+    ),
+    'issue-900-ASH' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; PPC; 240x240) Opera 8.60 [en]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera Mobile 8.60',
             'Browser' => 'Opera Mobile',
             'Browser_Type' => 'Browser',
@@ -49340,13 +49340,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-ASI' => [
+    ),
+    'issue-900-ASI' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; X11; Linux i686; en) Opera 8.54',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 8.54',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -49393,13 +49393,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ASJ' => [
+    ),
+    'issue-900-ASJ' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; X11; Linux i686; en) Opera 8.52',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 8.52',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -49446,13 +49446,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ASK' => [
+    ),
+    'issue-900-ASK' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; X11; Linux i686; ru) Opera 8.51',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 8.51',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -49499,13 +49499,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ASL' => [
+    ),
+    'issue-900-ASL' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; X11; Linux i686; en) Opera 8.51',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 8.51',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -49552,13 +49552,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ASM' => [
+    ),
+    'issue-900-ASM' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; X11; Linux i686; en) Opera 8.02',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 8.02',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -49605,13 +49605,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ASN' => [
+    ),
+    'issue-900-ASN' => array(
         'ua' => 'Opera/8.01 (Macintosh; U; PPC Mac OS; en)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 8.01',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -49658,13 +49658,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-ASO' => [
+    ),
+    'issue-900-ASO' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; ru) Opera 8.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 8.0',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -49711,13 +49711,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ASP' => [
+    ),
+    'issue-900-ASP' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; IT) Opera 8.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 8.0',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -49764,13 +49764,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ASQ' => [
+    ),
+    'issue-900-ASQ' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; en) Opera 8.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 8.0',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -49817,13 +49817,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ASR' => [
+    ),
+    'issue-900-ASR' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; de) Opera 8.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 8.0',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -49870,13 +49870,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ASS' => [
+    ),
+    'issue-900-ASS' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; en) Opera 8.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 8.0',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -49923,13 +49923,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-AST' => [
+    ),
+    'issue-900-AST' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; de) Opera 8.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 8.0',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -49976,13 +49976,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-ASU' => [
+    ),
+    'issue-900-ASU' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows CE) Opera 8.0  [en]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera Mobile 8.0',
             'Browser' => 'Opera Mobile',
             'Browser_Type' => 'Browser',
@@ -50029,13 +50029,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-ASV' => [
+    ),
+    'issue-900-ASV' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows 98; en) Opera 8.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 8.0',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -50082,13 +50082,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-ASW' => [
+    ),
+    'issue-900-ASW' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; en) Opera 7.60',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 7.60',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -50135,13 +50135,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ASX' => [
+    ),
+    'issue-900-ASX' => array(
         'ua' => 'Mozilla/4.78 (Windows NT 5.1; U) Opera 7.54  [de]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 7.54',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -50188,13 +50188,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ASY' => [
+    ),
+    'issue-900-ASY' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; X11; Linux i686) Opera 7.54  [en]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 7.54',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -50241,13 +50241,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ASZ' => [
+    ),
+    'issue-900-ASZ' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 5.23; Mac_PowerPC) Opera 7.54  [en]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 7.54',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -50294,13 +50294,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-ATA' => [
+    ),
+    'issue-900-ATA' => array(
         'ua' => 'Mozilla/4.78 (Windows NT 5.1; U) Opera 7.51  [en]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 7.51',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -50347,13 +50347,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ATC' => [
+    ),
+    'issue-900-ATC' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; ; Linux x86_64) Opera 7.50 [en]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 7.50',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -50400,13 +50400,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ATD' => [
+    ),
+    'issue-900-ATD' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; ; Linux i686) Opera 7.50 [en]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 7.50',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -50453,13 +50453,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ATE' => [
+    ),
+    'issue-900-ATE' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; X11; Linux i686) Opera 7.23  [fi]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 7.23',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -50506,13 +50506,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ATF' => [
+    ),
+    'issue-900-ATF' => array(
         'ua' => 'Mozilla/4.78 (Windows NT 5.0; U) Opera 7.11  [en]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 7.11',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -50559,13 +50559,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-ATI' => [
+    ),
+    'issue-900-ATI' => array(
         'ua' => 'Mozilla/4.78 (Windows NT 5.0; U) Opera 7.01  [en]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 7.01',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -50612,13 +50612,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-ATL' => [
+    ),
+    'issue-900-ATL' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; MSIE 5.5; Windows NT 5.1) Opera 7.0  [en]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 7.0',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -50665,13 +50665,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ATM' => [
+    ),
+    'issue-900-ATM' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; MSIE 5.5; Windows NT 5.0) Opera 7.0  [en]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 7.0',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -50718,13 +50718,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-ATN' => [
+    ),
+    'issue-900-ATN' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; MSIE 5.5; Windows NT 5.0) Opera 7.0  [de]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 7.0',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -50771,13 +50771,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-ATO' => [
+    ),
+    'issue-900-ATO' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; MSIE 5.5; Windows NT 4.0) Opera 7.0  [en]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 7.0',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -50824,13 +50824,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-ATP' => [
+    ),
+    'issue-900-ATP' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; MSIE 5.5; Windows ME) Opera 7.0  [en]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 7.0',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -50877,13 +50877,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-ATQ' => [
+    ),
+    'issue-900-ATQ' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; MSIE 5.5; Windows 98) Opera 7.0  [en]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 7.0',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -50930,13 +50930,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-ATR' => [
+    ),
+    'issue-900-ATR' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; MSIE 5.5; Windows 2000) Opera 7.0  [en]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 7.0',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -50983,13 +50983,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-ATS' => [
+    ),
+    'issue-900-ATS' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 5.0; Linux 2.4.20-4GB i686) Opera 6.12  [de]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 6.12',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -51036,13 +51036,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ATT' => [
+    ),
+    'issue-900-ATT' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 5.0; Linux 2.4.4 i686) Opera 6.11  [en]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 6.11',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -51089,13 +51089,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ATU' => [
+    ),
+    'issue-900-ATU' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 5.0; Linux 2.4.20-13.7 i686) Opera 6.11  [de]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 6.11',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -51142,13 +51142,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ATV' => [
+    ),
+    'issue-900-ATV' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 5.0; Linux 2.4.19-4GB i686) Opera 6.11  [en]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 6.11',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -51195,13 +51195,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ATW' => [
+    ),
+    'issue-900-ATW' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 5.0; Linux 2.4.19-16mdk i686) Opera 6.11  [en]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 6.11',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -51248,13 +51248,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ATX' => [
+    ),
+    'issue-900-ATX' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 5.0; Linux 2.4.18 i686) Opera 6.11  [de]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 6.11',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -51301,13 +51301,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ATY' => [
+    ),
+    'issue-900-ATY' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 5.0; Linux 2.4.10-4GB i686) Opera 6.11  [en]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 6.11',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -51354,13 +51354,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-ATZ' => [
+    ),
+    'issue-900-ATZ' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 5.0; Linux 2.4.19 i686) Opera 6.1  [en]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 6.1',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -51407,13 +51407,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AUA' => [
+    ),
+    'issue-900-AUA' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 5.0; Linux 2.4.18-4GB i686) Opera 6.1  [de]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 6.1',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -51460,13 +51460,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AUB' => [
+    ),
+    'issue-900-AUB' => array(
         'ua' => 'Mozilla/5.0 (Windows XP; U) Opera 6.06  [en]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -51513,13 +51513,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-AUE' => [
+    ),
+    'issue-900-AUE' => array(
         'ua' => 'Opera/6.05 (Windows XP; U) [en]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -51566,13 +51566,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-AUF' => [
+    ),
+    'issue-900-AUF' => array(
         'ua' => 'Opera/6.05 (Windows XP; U)  [en]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -51619,13 +51619,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-AUG' => [
+    ),
+    'issue-900-AUG' => array(
         'ua' => 'Opera/6.05 (Windows XP; U)  [de]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -51672,13 +51672,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-AUH' => [
+    ),
+    'issue-900-AUH' => array(
         'ua' => 'Mozilla/5.0 (Windows XP; U) Opera 6.05  [de]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -51725,13 +51725,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-AUI' => [
+    ),
+    'issue-900-AUI' => array(
         'ua' => 'Opera/6.04 (Windows XP; U)  [en]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -51778,13 +51778,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-AUJ' => [
+    ),
+    'issue-900-AUJ' => array(
         'ua' => 'Opera/6.04 (Windows XP; U)  [de]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -51831,13 +51831,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-AUO' => [
+    ),
+    'issue-900-AUO' => array(
         'ua' => 'Opera/6.04 (Windows 2000; U)  [en]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 6.04',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -51884,13 +51884,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-AUQ' => [
+    ),
+    'issue-900-AUQ' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 5.0; Linux 2.4.20-4GB i686) Opera 6.03  [en]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 6.03',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -51937,13 +51937,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AUR' => [
+    ),
+    'issue-900-AUR' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 5.0; Linux 2.4.19-4GB i686) Opera 6.03  [en]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 6.03',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -51990,13 +51990,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AUS' => [
+    ),
+    'issue-900-AUS' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 5.0; Linux 2.4.18-4GB i686) Opera 6.03  [en]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 6.03',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -52043,13 +52043,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AUT' => [
+    ),
+    'issue-900-AUT' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 5.0; Linux 2.4.0-64GB-SMP i686) Opera 6.03  [en]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 6.03',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -52096,13 +52096,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AUU' => [
+    ),
+    'issue-900-AUU' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 5.0; Linux 2.4.20-686 i686) Opera 6.02  [en]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 6.02',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -52149,13 +52149,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AUV' => [
+    ),
+    'issue-900-AUV' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 5.0; Linux 2.4.18-4GB i686) Opera 6.02  [en]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 6.02',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -52202,13 +52202,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AUW' => [
+    ),
+    'issue-900-AUW' => array(
         'ua' => 'Opera/6.02 (Windows NT 4.0; U)  [de]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 6.02',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -52255,13 +52255,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-AUX' => [
+    ),
+    'issue-900-AUX' => array(
         'ua' => 'Opera/6.01 (X11; U; nn)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -52308,13 +52308,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-AUY' => [
+    ),
+    'issue-900-AUY' => array(
         'ua' => 'Opera/6.01 (Windows XP; U)  [de]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -52361,13 +52361,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-AVC' => [
+    ),
+    'issue-900-AVC' => array(
         'ua' => 'Opera/6.0 (Windows XP; U)  [de]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -52414,13 +52414,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-AVG' => [
+    ),
+    'issue-900-AVG' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 5.0; Windows NT 4.0) Opera 6.0  [en]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 6.0',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -52467,13 +52467,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-AVH' => [
+    ),
+    'issue-900-AVH' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 5.0; Windows NT 4.0) Opera 6.0  [de]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 6.0',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -52520,13 +52520,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-AVI' => [
+    ),
+    'issue-900-AVI' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 5.0; Windows ME) Opera 6.0  [de]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 6.0',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -52573,13 +52573,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-AVJ' => [
+    ),
+    'issue-900-AVJ' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 5.0; Windows 98) Opera 6.0 [en]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 6.0',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -52626,13 +52626,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-AVK' => [
+    ),
+    'issue-900-AVK' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 5.0; Windows 98) Opera 6.0  [fr]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 6.0',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -52679,13 +52679,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-AVL' => [
+    ),
+    'issue-900-AVL' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 5.0; Windows 98) Opera 6.0  [en]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 6.0',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -52732,13 +52732,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-AVM' => [
+    ),
+    'issue-900-AVM' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 5.0; Windows 98) Opera 6.0  [de]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 6.0',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -52785,13 +52785,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-AVN' => [
+    ),
+    'issue-900-AVN' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 5.0; Windows 2000) Opera 6.0 [en]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 6.0',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -52838,13 +52838,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-AVO' => [
+    ),
+    'issue-900-AVO' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 5.0; Windows 2000) Opera 6.0  [en]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 6.0',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -52891,13 +52891,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-AVP' => [
+    ),
+    'issue-900-AVP' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 5.0; Windows 2000) Opera 6.0  [de]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 6.0',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -52944,13 +52944,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-AVU' => [
+    ),
+    'issue-900-AVU' => array(
         'ua' => 'Opera/5.12 (Windows NT 5.1; U)  [de]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 5.12',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -52997,13 +52997,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AVV' => [
+    ),
+    'issue-900-AVV' => array(
         'ua' => 'Opera/5.02 (Macintosh; U; id)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -53050,13 +53050,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-AVW' => [
+    ),
+    'issue-900-AVW' => array(
         'ua' => 'Opera/5.02 (Windows NT 5.0; U) [en]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 5.02',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -53103,13 +53103,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-AWC' => [
+    ),
+    'issue-900-AWC' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; ; Intel Mac OS X; fr; rv:1.8.1.1) Gecko/20061204 Opera',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -53156,13 +53156,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-AWD' => [
+    ),
+    'issue-900-AWD' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; en) Opera',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera Generic',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -53209,13 +53209,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AWE' => [
+    ),
+    'issue-900-AWE' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows CE) Opera',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera Mobile Generic',
             'Browser' => 'Opera Mobile',
             'Browser_Type' => 'Browser',
@@ -53262,13 +53262,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-AWO' => [
+    ),
+    'issue-900-AWO' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 5.2; rv:25.5) Gecko/20150609 Firefox/31.9 PaleMoon/25.5.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Palemoon 25.5',
             'Browser' => 'PaleMoon',
             'Browser_Type' => 'Browser',
@@ -53315,13 +53315,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '25.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AYT' => [
+    ),
+    'issue-900-AYT' => array(
         'ua' => 'Mozilla/5.0 (OS/2; Warp 4.5; rv:10.0.12) Gecko/20130108 Firefox/10.0.12 SeaMonkey/2.7.2',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'SeaMonkey 2.7',
             'Browser' => 'SeaMonkey',
             'Browser_Type' => 'Browser',
@@ -53368,13 +53368,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AYU' => [
+    ),
+    'issue-900-AYU' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0 SeaMonkey/2.35',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'SeaMonkey 2.35',
             'Browser' => 'SeaMonkey',
             'Browser_Type' => 'Browser',
@@ -53421,13 +53421,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-AYV' => [
+    ),
+    'issue-900-AYV' => array(
         'ua' => 'Mozilla/5.0 (X11; OpenBSD amd64; rv:24.0) Gecko/20100101 Firefox/24.0 SeaMonkey/2.21',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'SeaMonkey 2.21',
             'Browser' => 'SeaMonkey',
             'Browser_Type' => 'Browser',
@@ -53474,13 +53474,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-A[Y' => [
+    ),
+    'issue-900-A[Y' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9.1b5pre) Gecko/20090519 Shiretoko/3.5b5pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.5',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -53527,13 +53527,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.1',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-A[Z' => [
+    ),
+    'issue-900-A[Z' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.1b4pre) Gecko/20090420 Shiretoko/3.5b4pre (.NET CLR 3.5.30729)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.5',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -53580,13 +53580,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.1',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BAA' => [
+    ),
+    'issue-900-BAA' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.1b4pre) Gecko/20090413 Shiretoko/3.5b4pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.5',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -53633,13 +53633,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.1',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BAB' => [
+    ),
+    'issue-900-BAB' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.1b4pre) Gecko/20090411 Shiretoko/3.5b4pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.5',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -53686,13 +53686,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.1',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BAC' => [
+    ),
+    'issue-900-BAC' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.1b4pre) Gecko/20090323 Shiretoko/3.5b4pre (.NET CLR 3.5.30729)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.5',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -53739,13 +53739,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.1',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BAD' => [
+    ),
+    'issue-900-BAD' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US; rv:1.9.1.6) Gecko/20091222 Shiretoko/3.5.6 ( .NET CLR 3.5.30729)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.5',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -53792,13 +53792,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.1',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BAE' => [
+    ),
+    'issue-900-BAE' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.1.5pre) Gecko/20091016 Shiretoko/3.5.5pre GTB6',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.5',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -53845,13 +53845,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.1',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BAF' => [
+    ),
+    'issue-900-BAF' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Darwin i386; en-US; rv:1.9.1.4) Gecko/20100311 Shiretoko/3.5.5',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.5',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -53898,13 +53898,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.1',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BAG' => [
+    ),
+    'issue-900-BAG' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.2; zh-TW; rv:1.9.1.5) Gecko/20091106 Shiretoko/3.5.5 (.NET CLR 3.5.30729)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.5',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -53951,13 +53951,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.1',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BAH' => [
+    ),
+    'issue-900-BAH' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.1.2) Gecko/20090805 Shiretoko/3.5.2',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.5',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -54004,13 +54004,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.1',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BAI' => [
+    ),
+    'issue-900-BAI' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1b4pre) Gecko/20090311 Ubuntu/9.04 (jaunty) Shiretoko/3.1b4pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.1',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -54057,13 +54057,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BAJ' => [
+    ),
+    'issue-900-BAJ' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9.1b4pre) Gecko/20090311 Shiretoko/3.1b4pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.1',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -54110,13 +54110,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BAK' => [
+    ),
+    'issue-900-BAK' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9.1b4pre) Gecko/20090307 Shiretoko/3.1b4pre (.NET CLR 3.5.30729)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.1',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -54163,13 +54163,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BAL' => [
+    ),
+    'issue-900-BAL' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-TW; rv:1.9.1b4pre) Gecko/20090308 Shiretoko/3.1b4pre (.NET CLR 3.5.30729)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.1',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -54216,13 +54216,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BAM' => [
+    ),
+    'issue-900-BAM' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; bg-BG; rv:1.9.1b4pre) Gecko/20090307 Shiretoko/3.1b4pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.1',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -54269,13 +54269,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BAN' => [
+    ),
+    'issue-900-BAN' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.1b3pre) Gecko/20090109 Shiretoko/3.1b3pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.1',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -54322,13 +54322,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BAO' => [
+    ),
+    'issue-900-BAO' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.1b3pre) Gecko/20081223 Shiretoko/3.1b3pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.1',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -54375,13 +54375,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BAP' => [
+    ),
+    'issue-900-BAP' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.1b3pre) Gecko/20081222 Shiretoko/3.1b3pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.1',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -54428,13 +54428,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BAQ' => [
+    ),
+    'issue-900-BAQ' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1b3pre) Gecko/20090106 Shiretoko/3.1b3pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.1',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -54481,13 +54481,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BAR' => [
+    ),
+    'issue-900-BAR' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1b3pre) Gecko/20090105 Shiretoko/3.1b3pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.1',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -54534,13 +54534,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BAS' => [
+    ),
+    'issue-900-BAS' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1b3pre) Gecko/20081203 Shiretoko/3.1b3pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.1',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -54587,13 +54587,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BAT' => [
+    ),
+    'issue-900-BAT' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.1; pt-BR; rv:1.9.1b3pre) Gecko/20090103 Shiretoko/3.1b3pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.1',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -54640,13 +54640,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BAU' => [
+    ),
+    'issue-900-BAU' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9.1b3pre) Gecko/20081207 Shiretoko/3.1b3pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.1',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -54693,13 +54693,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BAV' => [
+    ),
+    'issue-900-BAV' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9.1b3pre) Gecko/20081204 Shiretoko/3.1b3pre (.NET CLR 3.5.30729)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.1',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -54746,13 +54746,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BAW' => [
+    ),
+    'issue-900-BAW' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US; rv:1.9.1b3pre) Gecko/20090105 Shiretoko/3.1b3pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.1',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -54799,13 +54799,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BAX' => [
+    ),
+    'issue-900-BAX' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US; rv:1.9.1b3pre) Gecko/20090104 Shiretoko/3.1b3pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.1',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -54852,13 +54852,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BAY' => [
+    ),
+    'issue-900-BAY' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; pl; rv:1.9.1b3pre) Gecko/20090205 Shiretoko/3.1b3pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.1',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -54905,13 +54905,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BAZ' => [
+    ),
+    'issue-900-BAZ' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.1b3pre) Gecko/20090207 Shiretoko/3.1b3pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.1',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -54958,13 +54958,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BBA' => [
+    ),
+    'issue-900-BBA' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.1b3pre) Gecko/20090121 Shiretoko/3.1b3pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.1',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -55011,13 +55011,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BBB' => [
+    ),
+    'issue-900-BBB' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.1b3pre) Gecko/20090113 Shiretoko/3.1b3pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.1',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -55064,13 +55064,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BBC' => [
+    ),
+    'issue-900-BBC' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.1b3pre) Gecko/20090102 Shiretoko/3.1b3pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.1',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -55117,13 +55117,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BBD' => [
+    ),
+    'issue-900-BBD' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.1b3pre) Gecko/20081228 Shiretoko/3.1b3pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.1',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -55170,13 +55170,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BBE' => [
+    ),
+    'issue-900-BBE' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.1b3pre) Gecko/20081221 Shiretoko/3.1b3pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.1',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -55223,13 +55223,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BBF' => [
+    ),
+    'issue-900-BBF' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.1b3pre) Gecko/20081218 Shiretoko/3.1b3pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.1',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -55276,13 +55276,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BBG' => [
+    ),
+    'issue-900-BBG' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.1b3pre) Gecko/20081212 Shiretoko/3.1b3pre',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.1',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -55329,13 +55329,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BBH' => [
+    ),
+    'issue-900-BBH' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.5.30729; .NET CLR 3.0.30618; .NET4.0C; .NET4.0E; Sleipnir/2.9.9)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.9',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -55382,13 +55382,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BBI' => [
+    ),
+    'issue-900-BBI' => array(
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.0; Trident/5.0; Sleipnir/2.9.7)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.9',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -55435,13 +55435,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '5.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BBJ' => [
+    ),
+    'issue-900-BBJ' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.2; Sleipnir/2.9.6)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.9',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -55488,13 +55488,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BBK' => [
+    ),
+    'issue-900-BBK' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB0.0; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; .NET CLR 1.1.4322; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; OfficeLiveConnector.1.3; OfficeLivePatch.0.0; Sleipnir/2.9.6)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.9',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -55541,13 +55541,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BBL' => [
+    ),
+    'issue-900-BBL' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 1.1.4322; InfoPath.1; MS-RTC LM 8; Sleipnir/2.9.6)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.9',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -55594,13 +55594,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BBM' => [
+    ),
+    'issue-900-BBM' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; WOW64; Trident/4.0; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Sleipnir/2.9.4)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.9',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -55647,13 +55647,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BBN' => [
+    ),
+    'issue-900-BBN' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; InfoPath.1; Sleipnir/2.9.4)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.9',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -55700,13 +55700,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BBO' => [
+    ),
+    'issue-900-BBO' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; InfoPath.2; Sleipnir/2.9.3)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.9',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -55753,13 +55753,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BBP' => [
+    ),
+    'issue-900-BBP' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 2.0.50727; .NET CLR 1.1.4322; .NET CLR 3.0.04506.30; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; InfoPath.2; Sleipnir/2.9.3)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.9',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -55806,13 +55806,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BBQ' => [
+    ),
+    'issue-900-BBQ' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; InfoPath.1; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET CLR 1.1.4322; Sleipnir/2.9.2)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.9',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -55859,13 +55859,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BBR' => [
+    ),
+    'issue-900-BBR' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6.3; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; .NET CLR 1.1.4322; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; Sleipnir/2.9.2)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.9',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -55912,13 +55912,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BBS' => [
+    ),
+    'issue-900-BBS' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET CLR 2.0.50727; Sleipnir/2.9.2)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.9',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -55965,13 +55965,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BBT' => [
+    ),
+    'issue-900-BBT' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.0.3705; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; Sleipnir/2.9.2)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.9',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -56018,13 +56018,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BBU' => [
+    ),
+    'issue-900-BBU' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; GTB6.3; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; Sleipnir/2.9.2)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.9',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -56071,13 +56071,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BBV' => [
+    ),
+    'issue-900-BBV' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727; .NET CLR 1.1.4322; OfficeLiveConnector.1.3; OfficeLivePatch.0.0; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; Sleipnir/2.9.2)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.9',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -56124,13 +56124,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BBW' => [
+    ),
+    'issue-900-BBW' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; InfoPath.2; .NET CLR 2.0.50727; Sleipnir/2.9.2)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.9',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -56177,13 +56177,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BBX' => [
+    ),
+    'issue-900-BBX' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; InfoPath.2; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; Sleipnir/2.9.2)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.9',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -56230,13 +56230,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BBY' => [
+    ),
+    'issue-900-BBY' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; InfoPath.1; .NET CLR 2.0.50727; Sleipnir/2.9.2)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.9',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -56283,13 +56283,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BBZ' => [
+    ),
+    'issue-900-BBZ' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50727; InfoPath.1; Sleipnir/2.9.1)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.9',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -56336,13 +56336,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BCA' => [
+    ),
+    'issue-900-BCA' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; Sleipnir/2.9.1)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.9',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -56389,13 +56389,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-BCB' => [
+    ),
+    'issue-900-BCB' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Trident/4.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.5.30729; OfficeLiveConnector.1.4; OfficeLivePatch.1.3; .NET CLR 3.0.30729; Sleipnir/2.8.5)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.8',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -56442,13 +56442,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BCC' => [
+    ),
+    'issue-900-BCC' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Trident/4.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Sleipnir/2.8.5)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.8',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -56495,13 +56495,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BCD' => [
+    ),
+    'issue-900-BCD' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Trident/4.0; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30618; FDM; Sleipnir/2.8.5)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.8',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -56548,13 +56548,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BCE' => [
+    ),
+    'issue-900-BCE' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Trident/4.0; GTB6; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.5.30729; .NET CLR 3.0.30618; Sleipnir/2.8.5)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.8',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -56601,13 +56601,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BCF' => [
+    ),
+    'issue-900-BCF' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; SV1; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.5.30729; .NET CLR 3.0.30618; Sleipnir/2.8.5)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.8',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -56654,13 +56654,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BCG' => [
+    ),
+    'issue-900-BCG' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30618; Sleipnir/2.8.5)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.8',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -56707,13 +56707,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BCH' => [
+    ),
+    'issue-900-BCH' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; GTB6; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; InfoPath.2; Sleipnir/2.8.5)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.8',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -56760,13 +56760,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BCI' => [
+    ),
+    'issue-900-BCI' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET CLR 4.0.20506; Sleipnir/2.8.5)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.8',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -56813,13 +56813,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BCJ' => [
+    ),
+    'issue-900-BCJ' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; .NET CLR 1.1.4322; InfoPath.2; Sleipnir/2.8.5)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.8',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -56866,13 +56866,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BCK' => [
+    ),
+    'issue-900-BCK' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; Sleipnir/2.8.5)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.8',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -56919,13 +56919,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BCL' => [
+    ),
+    'issue-900-BCL' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 1.0.3705; Sleipnir/2.8.5)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.8',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -56972,13 +56972,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BCM' => [
+    ),
+    'issue-900-BCM' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; InfoPath.1; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; msn OptimizedIE8;JAJP; Sleipnir/2.8.5)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.8',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -57025,13 +57025,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BCN' => [
+    ),
+    'issue-900-BCN' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB6; .NET CLR 1.1.4322; .NET CLR 2.0.50727; Sleipnir/2.8.5)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.8',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -57078,13 +57078,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BCO' => [
+    ),
+    'issue-900-BCO' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB6; .NET CLR 1.1.4322; .NET CLR 2.0.50727; InfoPath.1; OfficeLiveConnector.1.3; OfficeLivePatch.0.0; Sleipnir/2.8.5)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.8',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -57131,13 +57131,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BCP' => [
+    ),
+    'issue-900-BCP' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; InfoPath.1; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; Sleipnir/2.8.5)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.8',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -57184,13 +57184,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BCQ' => [
+    ),
+    'issue-900-BCQ' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50727; FDM; Sleipnir/2.8.5)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.8',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -57237,13 +57237,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BCR' => [
+    ),
+    'issue-900-BCR' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; .NET CLR 1.1.4322; Sleipnir/2.8.5)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.8',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -57290,13 +57290,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-BCS' => [
+    ),
+    'issue-900-BCS' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Trident/4.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506; OfficeLiveConnector.1.3; OfficeLivePatch.1.3) Sleipnir/2.8.4',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.8',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -57343,13 +57343,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BCT' => [
+    ),
+    'issue-900-BCT' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Trident/4.0; MathPlayer 2.10d; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; OfficeLiveConnector.1.3; OfficeLivePatch.1.3; .NET CLR 3.5.30729; .NET CLR 3.0.30618; .NET CLR 1.1.4322) Sleipnir/2.8.4',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.8',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -57396,13 +57396,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BCU' => [
+    ),
+    'issue-900-BCU' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.2; WOW64; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022) Sleipnir/2.8.4',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.8',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -57449,13 +57449,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BCV' => [
+    ),
+    'issue-900-BCV' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729) Sleipnir/2.8.4',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.8',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -57502,13 +57502,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BCW' => [
+    ),
+    'issue-900-BCW' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; InfoPath.1; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022) Sleipnir/2.8.4',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.8',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -57555,13 +57555,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BCX' => [
+    ),
+    'issue-900-BCX' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729) Sleipnir/2.8.4',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.8',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -57608,13 +57608,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BCY' => [
+    ),
+    'issue-900-BCY' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) ; .NET CLR 1.1.4322; InfoPath.1; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30) Sleipnir/2.8.4',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.8',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -57661,13 +57661,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BCZ' => [
+    ),
+    'issue-900-BCZ' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; InfoPath.1; .NET CLR 2.0.50727) Sleipnir/2.8.4',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.8',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -57714,13 +57714,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BDA' => [
+    ),
+    'issue-900-BDA' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729) Sleipnir/2.8.4',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.8',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -57767,13 +57767,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BDB' => [
+    ),
+    'issue-900-BDB' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; User-agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1); .NET CLR 2.0.50727; .NET CLR 1.1.4322) Sleipnir/2.8.4',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.8',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -57820,13 +57820,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BDC' => [
+    ),
+    'issue-900-BDC' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; User-agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1); .NET CLR 1.0.3705; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729) Sleipnir/2.8.4',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.8',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -57873,13 +57873,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BDD' => [
+    ),
+    'issue-900-BDD' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; FunWebProducts-AskJeevesJapan; GTB6; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729) Sleipnir/2.8.4',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.8',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -57926,13 +57926,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BDE' => [
+    ),
+    'issue-900-BDE' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729) Sleipnir/2.8.4',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.8',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -57979,13 +57979,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BDF' => [
+    ),
+    'issue-900-BDF' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; FDM) Sleipnir/2.8.4',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.8',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -58032,13 +58032,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-BDG' => [
+    ),
+    'issue-900-BDG' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729) Sleipnir/2.8.3',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.8',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -58085,13 +58085,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BDH' => [
+    ),
+    'issue-900-BDH' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; .NET CLR 1.1.4322) Sleipnir/2.8.3',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.8',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -58138,13 +58138,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-BDI' => [
+    ),
+    'issue-900-BDI' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1) Sleipnir/2.8.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.8',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -58191,13 +58191,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BDJ' => [
+    ),
+    'issue-900-BDJ' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0) Sleipnir/2.8.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.8',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -58244,13 +58244,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-BDK' => [
+    ),
+    'issue-900-BDK' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB5; .NET CLR 1.1.4322; .NET CLR 2.0.50727) Sleipnir/2.8.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.8',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -58297,13 +58297,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BDL' => [
+    ),
+    'issue-900-BDL' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; .NET CLR 3.0.04506.648) Sleipnir/2.8.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.8',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -58350,13 +58350,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BDM' => [
+    ),
+    'issue-900-BDM' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50727) Sleipnir/2.8.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.8',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -58403,13 +58403,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BDN' => [
+    ),
+    'issue-900-BDN' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; WOW64; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.0.04506; Media Center PC 5.0) Sleipnir/2.7.2',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.7',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -58456,13 +58456,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BDO' => [
+    ),
+    'issue-900-BDO' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 2.0.50727) Sleipnir/2.7.2',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.7',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -58509,13 +58509,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BDP' => [
+    ),
+    'issue-900-BDP' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) Sleipnir/2.7.2',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.7',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -58562,13 +58562,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BDQ' => [
+    ),
+    'issue-900-BDQ' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.0.3705; .NET CLR 1.1.4322; Media Center PC 4.0; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30) Sleipnir/2.7.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.7',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -58615,13 +58615,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BDR' => [
+    ),
+    'issue-900-BDR' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) ; .NET CLR 2.0.50727; InfoPath.1; .NET CLR 3.0.04506.30; .NET CLR 3.0.04506.648) Sleipnir/2.7.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.7',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -58668,13 +58668,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BDS' => [
+    ),
+    'issue-900-BDS' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; .NET CLR 1.1.4322) Sleipnir/2.7.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.7',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -58721,13 +58721,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BDT' => [
+    ),
+    'issue-900-BDT' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506) Sleipnir/2.6.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.6',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -58774,13 +58774,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BDU' => [
+    ),
+    'issue-900-BDU' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30) Sleipnir/2.6.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.6',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -58827,13 +58827,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BDV' => [
+    ),
+    'issue-900-BDV' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50727) Sleipnir/2.6.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.6',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -58880,13 +58880,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BDW' => [
+    ),
+    'issue-900-BDW' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506; InfoPath.1) Sleipnir/2.5.17',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.5',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -58933,13 +58933,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BDX' => [
+    ),
+    'issue-900-BDX' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152) Sleipnir/2.5.13',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.5',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -58986,13 +58986,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BDY' => [
+    ),
+    'issue-900-BDY' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; InfoPath.1; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729) Sleipnir/2.5.12',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.5',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -59039,13 +59039,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BDZ' => [
+    ),
+    'issue-900-BDZ' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) Sleipnir/2.5.12',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.5',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -59092,13 +59092,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BEA' => [
+    ),
+    'issue-900-BEA' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB6; .NET CLR 1.1.4322; .NET CLR 2.0.50727) Sleipnir/2.49',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.49',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -59145,13 +59145,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BEB' => [
+    ),
+    'issue-900-BEB' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0) Sleipnir/2.49',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.49',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -59198,13 +59198,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-BEC' => [
+    ),
+    'issue-900-BEC' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50727) Sleipnir/2.48',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.48',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -59251,13 +59251,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BED' => [
+    ),
+    'issue-900-BED' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322) Sleipnir/2.48',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.48',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -59304,13 +59304,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BEE' => [
+    ),
+    'issue-900-BEE' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; GTB6; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022) Sleipnir/2.46',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.46',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -59357,13 +59357,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BEF' => [
+    ),
+    'issue-900-BEF' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50727) Sleipnir/2.41',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.41',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -59410,13 +59410,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BEG' => [
+    ),
+    'issue-900-BEG' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.0.3705; Media Center PC 3.1; .NET CLR 2.0.50727; .NET CLR 1.1.4322) Sleipnir/2.30',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.30',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -59463,13 +59463,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BEH' => [
+    ),
+    'issue-900-BEH' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) Sleipnir/2.30',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.30',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -59516,13 +59516,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BEI' => [
+    ),
+    'issue-900-BEI' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; InfoPath.1) Sleipnir/2.21',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.21',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -59569,13 +59569,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BEJ' => [
+    ),
+    'issue-900-BEJ' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322) Sleipnir/2.21',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.21',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -59622,13 +59622,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BEK' => [
+    ),
+    'issue-900-BEK' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; Sleipnir 2.8.4)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sleipnir 2.8',
             'Browser' => 'Sleipnir',
             'Browser_Type' => 'Browser',
@@ -59675,13 +59675,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BEL' => [
+    ),
+    'issue-900-BEL' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; SlimBrowser)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'SlimBrowser',
             'Browser' => 'SlimBrowser',
             'Browser_Type' => 'Browser',
@@ -59728,13 +59728,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BEM' => [
+    ),
+    'issue-900-BEM' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; SlimBrowser)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'SlimBrowser',
             'Browser' => 'SlimBrowser',
             'Browser_Type' => 'Browser',
@@ -59781,13 +59781,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BEN' => [
+    ),
+    'issue-900-BEN' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; SlimBrowser)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'SlimBrowser',
             'Browser' => 'SlimBrowser',
             'Browser_Type' => 'Browser',
@@ -59834,13 +59834,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BIQ' => [
+    ),
+    'issue-900-BIQ' => array(
         'ua' => 'Accoona-AI-Agent/1.1.2 (aicrawler at accoonabot dot com)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Accoona Bot',
             'Browser' => 'Accoona-AI-Agent',
             'Browser_Type' => 'Bot/Crawler',
@@ -59887,13 +59887,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BIR' => [
+    ),
+    'issue-900-BIR' => array(
         'ua' => 'Accoona-AI-Agent/1.1.2',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Accoona Bot',
             'Browser' => 'Accoona-AI-Agent',
             'Browser_Type' => 'Bot/Crawler',
@@ -59940,13 +59940,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BIS' => [
+    ),
+    'issue-900-BIS' => array(
         'ua' => 'Accoona-AI-Agent/1.1.1 (crawler at accoona dot com)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Accoona Bot',
             'Browser' => 'Accoona-AI-Agent',
             'Browser_Type' => 'Bot/Crawler',
@@ -59993,13 +59993,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BIU' => [
+    ),
+    'issue-900-BIU' => array(
         'ua' => 'Mozilla/5.0 (compatible; AnyApexBot/1.0; +http://www.anyapex.com/bot.html)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -60046,13 +60046,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BIV' => [
+    ),
+    'issue-900-BIV' => array(
         'ua' => 'Mozilla/4.0 (compatible; B-l-i-t-z-B-O-T)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -60099,13 +60099,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BIW' => [
+    ),
+    'issue-900-BIW' => array(
         'ua' => 'Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Baidu',
             'Browser' => 'Baiduspider',
             'Browser_Type' => 'Bot/Crawler',
@@ -60152,13 +60152,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BIX' => [
+    ),
+    'issue-900-BIX' => array(
         'ua' => 'Baiduspider+(+http://www.baidu.com/search/spider_jp.html)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Baidu',
             'Browser' => 'Baiduspider',
             'Browser_Type' => 'Bot/Crawler',
@@ -60205,13 +60205,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BIY' => [
+    ),
+    'issue-900-BIY' => array(
         'ua' => 'Baiduspider+(+http://www.baidu.com/search/spider.htm)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Baidu',
             'Browser' => 'Baiduspider',
             'Browser_Type' => 'Bot/Crawler',
@@ -60258,13 +60258,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BIZ' => [
+    ),
+    'issue-900-BIZ' => array(
         'ua' => 'BaiDuSpider',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Baidu',
             'Browser' => 'Baiduspider',
             'Browser_Type' => 'Bot/Crawler',
@@ -60311,13 +60311,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BJA' => [
+    ),
+    'issue-900-BJA' => array(
         'ua' => 'Mozilla/5.0 (compatible; BecomeBot/3.0; MSIE 6.0 compatible; +http://www.become.com/site_owners.html)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Become',
             'Browser' => 'BecomeBot',
             'Browser_Type' => 'Bot/Crawler',
@@ -60364,13 +60364,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BJB' => [
+    ),
+    'issue-900-BJB' => array(
         'ua' => 'Mozilla/5.0 (compatible; BecomeBot/2.3; MSIE 6.0 compatible; +http://www.become.com/site_owners.html)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Become',
             'Browser' => 'BecomeBot',
             'Browser_Type' => 'Bot/Crawler',
@@ -60417,13 +60417,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BJC' => [
+    ),
+    'issue-900-BJC' => array(
         'ua' => 'Mozilla/5.0 (compatible; BeslistBot; nl; BeslistBot 1.0;  http://www.beslist.nl/',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -60470,13 +60470,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BJD' => [
+    ),
+    'issue-900-BJD' => array(
         'ua' => 'BillyBobBot/1.0 (+http://www.billybobbot.com/crawler/)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -60523,13 +60523,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BJE' => [
+    ),
+    'issue-900-BJE' => array(
         'ua' => 'Bimbot/1.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -60576,13 +60576,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BJF' => [
+    ),
+    'issue-900-BJF' => array(
         'ua' => 'Mozilla/4.0 (compatible; BlitzBot)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -60629,13 +60629,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BJG' => [
+    ),
+    'issue-900-BJG' => array(
         'ua' => 'CatchBot/2.0; +http://www.catchbot.com',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Search Engines',
             'Browser' => 'CatchBot',
             'Browser_Type' => 'Bot/Crawler',
@@ -60682,13 +60682,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BJH' => [
+    ),
+    'issue-900-BJH' => array(
         'ua' => 'CatchBot/1.0; +http://www.catchbot.com',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Search Engines',
             'Browser' => 'CatchBot',
             'Browser_Type' => 'Bot/Crawler',
@@ -60735,13 +60735,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BJI' => [
+    ),
+    'issue-900-BJI' => array(
         'ua' => 'CatchBot/1.0;  http://www.catchbot.com',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Search Engines',
             'Browser' => 'CatchBot',
             'Browser_Type' => 'Bot/Crawler',
@@ -60788,13 +60788,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BJJ' => [
+    ),
+    'issue-900-BJJ' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686 (x86_64); en-US; rv:1.8.1.11) Gecko/20080109 (Charlotte/0.9t; http://www.searchme.com/support/) (Charlotte/0.9t; http://www.searchme.com/support/)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -60841,13 +60841,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BJK' => [
+    ),
+    'issue-900-BJK' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686 (x86_64); en-US; rv:1.8.1.11) Gecko/20080109 (Charlotte/0.9t; http://www.searchme.com/support/)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -60894,13 +60894,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BJL' => [
+    ),
+    'issue-900-BJL' => array(
         'ua' => 'cosmos/0.9_(robot@xyleme.com)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Search Engines',
             'Browser' => 'Xyleme',
             'Browser_Type' => 'Bot/Crawler',
@@ -60947,13 +60947,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BJM' => [
+    ),
+    'issue-900-BJM' => array(
         'ua' => 'DataparkSearch/4.37-23012006 ( http://www.dataparksearch.org/)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -61000,13 +61000,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BJN' => [
+    ),
+    'issue-900-BJN' => array(
         'ua' => 'DataparkSearch/4.36 ( http://www.dataparksearch.org/)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -61053,13 +61053,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BJO' => [
+    ),
+    'issue-900-BJO' => array(
         'ua' => 'DataparkSearch/4.35-02122005 ( http://www.dataparksearch.org/)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -61106,13 +61106,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BJP' => [
+    ),
+    'issue-900-BJP' => array(
         'ua' => 'DataparkSearch/4.35 ( http://www.dataparksearch.org/)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -61159,13 +61159,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BJQ' => [
+    ),
+    'issue-900-BJQ' => array(
         'ua' => 'Mozilla/5.0 (compatible; discobot/1.0; +http://discoveryengine.com/discobot.html)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -61212,13 +61212,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BJR' => [
+    ),
+    'issue-900-BJR' => array(
         'ua' => 'EmeraldShield.com WebBot (http://www.emeraldshield.com/webbot.aspx)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -61265,13 +61265,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BJS' => [
+    ),
+    'issue-900-BJS' => array(
         'ua' => 'EsperanzaBot(+http://www.esperanza.to/bot/)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -61318,13 +61318,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BJT' => [
+    ),
+    'issue-900-BJT' => array(
         'ua' => 'FAST Enteprise Crawler/6 (www dot fastsearch dot com)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -61371,13 +61371,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BJU' => [
+    ),
+    'issue-900-BJU' => array(
         'ua' => 'Mozilla/4.0 (compatible: FDSE robot)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Search Engines',
             'Browser' => 'FDSE Robot',
             'Browser_Type' => 'Bot/Crawler',
@@ -61424,13 +61424,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BJV' => [
+    ),
+    'issue-900-BJV' => array(
         'ua' => 'Mozilla/4.0 compatible FurlBot/Furl Search 2.0 (FurlBot; http://www.furl.net; wn.furlbot@looksmart.net)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -61477,13 +61477,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BJW' => [
+    ),
+    'issue-900-BJW' => array(
         'ua' => 'FyberSpider (+http://www.fybersearch.com/fyberspider.php)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Search Engines',
             'Browser' => 'FyberSpider',
             'Browser_Type' => 'Bot/Crawler',
@@ -61530,13 +61530,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BJX' => [
+    ),
+    'issue-900-BJX' => array(
         'ua' => 'FyberSpider',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Search Engines',
             'Browser' => 'FyberSpider',
             'Browser_Type' => 'Bot/Crawler',
@@ -61583,13 +61583,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BJY' => [
+    ),
+    'issue-900-BJY' => array(
         'ua' => 'g2Crawler nobody@airmail.net',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -61636,13 +61636,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BJZ' => [
+    ),
+    'issue-900-BJZ' => array(
         'ua' => 'GalaxyBot/1.0 (http://www.galaxy.com/galaxybot.html)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -61689,13 +61689,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BKA' => [
+    ),
+    'issue-900-BKA' => array(
         'ua' => 'genieBot (http://64.5.245.11/faq/faq.html)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Search Engines',
             'Browser' => 'GenieKnows',
             'Browser_Type' => 'Bot/Crawler',
@@ -61742,13 +61742,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BKB' => [
+    ),
+    'issue-900-BKB' => array(
         'ua' => 'genieBot ((http://64.5.245.11/faq/faq.html))',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Search Engines',
             'Browser' => 'GenieKnows',
             'Browser_Type' => 'Bot/Crawler',
@@ -61795,13 +61795,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BKC' => [
+    ),
+    'issue-900-BKC' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; SV1; .NET CLR 1.1.4322; Girafabot [girafa.com])',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Girafabot',
             'Browser' => 'Girafabot',
             'Browser_Type' => 'Bot/Crawler',
@@ -61848,13 +61848,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BKD' => [
+    ),
+    'issue-900-BKD' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 4.0; Girafabot; girafabot at girafa dot com; http://www.girafa.com)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Girafabot',
             'Browser' => 'Girafabot',
             'Browser_Type' => 'Bot/Crawler',
@@ -61901,13 +61901,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-BKE' => [
+    ),
+    'issue-900-BKE' => array(
         'ua' => 'Mozilla/5.0 GurujiBot/1.0 (+http://www.guruji.com/en/WebmasterFAQ.html)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'GurujiBot',
             'Browser' => 'GurujiBot',
             'Browser_Type' => 'Bot/Crawler',
@@ -61954,13 +61954,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BKF' => [
+    ),
+    'issue-900-BKF' => array(
         'ua' => 'Mozilla/5.0 GurujiBot/1.0 ( http://www.guruji.com/en/WebmasterFAQ.html)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'GurujiBot',
             'Browser' => 'GurujiBot',
             'Browser_Type' => 'Bot/Crawler',
@@ -62007,13 +62007,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BKG' => [
+    ),
+    'issue-900-BKG' => array(
         'ua' => 'Mozilla/5.0 (compatible; GurujiBot/1.0; +http://www.guruji.com/en/WebmasterFAQ.html)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'GurujiBot',
             'Browser' => 'GurujiBot',
             'Browser_Type' => 'Bot/Crawler',
@@ -62060,13 +62060,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BKH' => [
+    ),
+    'issue-900-BKH' => array(
         'ua' => 'GurujiBot/1.0 (+http://www.guruji.com/WebmasterFAQ.html)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'GurujiBot',
             'Browser' => 'GurujiBot',
             'Browser_Type' => 'Bot/Crawler',
@@ -62113,13 +62113,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BKI' => [
+    ),
+    'issue-900-BKI' => array(
         'ua' => 'GurujiBot/1.0 (+http://www.guruji.com/en/WebmasterFAQ.html)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'GurujiBot',
             'Browser' => 'GurujiBot',
             'Browser_Type' => 'Bot/Crawler',
@@ -62166,13 +62166,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BKJ' => [
+    ),
+    'issue-900-BKJ' => array(
         'ua' => 'HappyFunBot/1.1 ( http://www.happyfunsearch.com/bot.html)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -62219,13 +62219,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BKK' => [
+    ),
+    'issue-900-BKK' => array(
         'ua' => 'hl_ftien_spider_v1.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -62272,13 +62272,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BKL' => [
+    ),
+    'issue-900-BKL' => array(
         'ua' => 'hl_ftien_spider',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -62325,13 +62325,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BKM' => [
+    ),
+    'issue-900-BKM' => array(
         'ua' => 'htdig/3.1.6 (unconfigured@htdig.searchengine.maintainer)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'ht://Dig',
             'Browser' => 'ht://Dig',
             'Browser_Type' => 'Bot/Crawler',
@@ -62378,13 +62378,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BKN' => [
+    ),
+    'issue-900-BKN' => array(
         'ua' => 'htdig/3.1.6 (mathieu.peltier@inrialpes.fr)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'ht://Dig',
             'Browser' => 'ht://Dig',
             'Browser_Type' => 'Bot/Crawler',
@@ -62431,13 +62431,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BKO' => [
+    ),
+    'issue-900-BKO' => array(
         'ua' => 'htdig/3.1.5 (webmaster@online-medien.de)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'ht://Dig',
             'Browser' => 'ht://Dig',
             'Browser_Type' => 'Bot/Crawler',
@@ -62484,13 +62484,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BKP' => [
+    ),
+    'issue-900-BKP' => array(
         'ua' => 'htdig/3.1.5 (root@localhost)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'ht://Dig',
             'Browser' => 'ht://Dig',
             'Browser_Type' => 'Bot/Crawler',
@@ -62537,13 +62537,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BKQ' => [
+    ),
+    'issue-900-BKQ' => array(
         'ua' => 'htdig/3.1.5 (infosys@storm.rmi.org)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'ht://Dig',
             'Browser' => 'ht://Dig',
             'Browser_Type' => 'Bot/Crawler',
@@ -62590,13 +62590,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BKR' => [
+    ),
+    'issue-900-BKR' => array(
         'ua' => 'htdig/3.1.5',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'ht://Dig',
             'Browser' => 'ht://Dig',
             'Browser_Type' => 'Bot/Crawler',
@@ -62643,13 +62643,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BKS' => [
+    ),
+    'issue-900-BKS' => array(
         'ua' => 'iaskspider/2.0(+http://iask.com/help/help_index.html)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -62696,13 +62696,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BKT' => [
+    ),
+    'issue-900-BKT' => array(
         'ua' => 'iaskspider',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -62749,13 +62749,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BKU' => [
+    ),
+    'issue-900-BKU' => array(
         'ua' => 'iCCrawler (http://www.iccenter.net/bot.htm)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -62802,13 +62802,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BKV' => [
+    ),
+    'issue-900-BKV' => array(
         'ua' => 'igdeSpyder (compatible; igde.ru; +http://igde.ru/doc/tech.html)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -62855,13 +62855,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BKW' => [
+    ),
+    'issue-900-BKW' => array(
         'ua' => 'IRLbot/3.0 (compatible; MSIE 6.0; http://irl.cs.tamu.edu/crawler/)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'IRLbot',
             'Browser' => 'IRLbot',
             'Browser_Type' => 'Bot/Crawler',
@@ -62908,13 +62908,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BKX' => [
+    ),
+    'issue-900-BKX' => array(
         'ua' => 'IRLbot/3.0 (compatible; MSIE 6.0; http://irl.cs.tamu.edu/crawler)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'IRLbot',
             'Browser' => 'IRLbot',
             'Browser_Type' => 'Bot/Crawler',
@@ -62961,13 +62961,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BKY' => [
+    ),
+    'issue-900-BKY' => array(
         'ua' => 'IRLbot/2.0 (compatible; MSIE 6.0; http://irl.cs.tamu.edu/crawler)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'IRLbot',
             'Browser' => 'IRLbot',
             'Browser_Type' => 'Bot/Crawler',
@@ -63014,13 +63014,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BKZ' => [
+    ),
+    'issue-900-BKZ' => array(
         'ua' => 'IRLbot/2.0 (+http://irl.cs.tamu.edu/crawler)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'IRLbot',
             'Browser' => 'IRLbot',
             'Browser_Type' => 'Bot/Crawler',
@@ -63067,13 +63067,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BLA' => [
+    ),
+    'issue-900-BLA' => array(
         'ua' => 'IRLbot/2.0 ( http://irl.cs.tamu.edu/crawler)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'IRLbot',
             'Browser' => 'IRLbot',
             'Browser_Type' => 'Bot/Crawler',
@@ -63120,13 +63120,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BLB' => [
+    ),
+    'issue-900-BLB' => array(
         'ua' => 'IssueCrawler',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -63173,13 +63173,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BLC' => [
+    ),
+    'issue-900-BLC' => array(
         'ua' => 'Jaxified Bot (+http://www.jaxified.com/crawler/)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -63226,13 +63226,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BLD' => [
+    ),
+    'issue-900-BLD' => array(
         'ua' => 'Jyxobot/1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -63279,13 +63279,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BLE' => [
+    ),
+    'issue-900-BLE' => array(
         'ua' => 'Mozilla/5.0 (compatible; KoepaBot BETA; http://www.koepa.nl/bot.html)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -63332,13 +63332,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BLF' => [
+    ),
+    'issue-900-BLF' => array(
         'ua' => 'L.webis/0.87 (http://webalgo.iit.cnr.it/index.php?pg=lwebis)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -63385,13 +63385,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BLH' => [
+    ),
+    'issue-900-BLH' => array(
         'ua' => 'LexxeBot/1.0 (lexxebot@lexxe.com)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -63438,13 +63438,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BLI' => [
+    ),
+    'issue-900-BLI' => array(
         'ua' => 'LinkWalker/2.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Link Checkers',
             'Browser' => 'LinkWalker',
             'Browser_Type' => 'Bot/Crawler',
@@ -63491,13 +63491,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BLJ' => [
+    ),
+    'issue-900-BLJ' => array(
         'ua' => 'lmspider lmspider@scansoft.com',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -63544,13 +63544,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BLK' => [
+    ),
+    'issue-900-BLK' => array(
         'ua' => 'lmspider (lmspider@scansoft.com)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -63597,13 +63597,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BLL' => [
+    ),
+    'issue-900-BLL' => array(
         'ua' => 'lwp-trivial/1.41',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'lwp',
             'Browser' => 'lwp',
             'Browser_Type' => 'Bot/Crawler',
@@ -63650,13 +63650,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BLM' => [
+    ),
+    'issue-900-BLM' => array(
         'ua' => 'lwp-trivial/1.38',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'lwp',
             'Browser' => 'lwp',
             'Browser_Type' => 'Bot/Crawler',
@@ -63703,13 +63703,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BLN' => [
+    ),
+    'issue-900-BLN' => array(
         'ua' => 'lwp-trivial/1.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'lwp',
             'Browser' => 'lwp',
             'Browser_Type' => 'Bot/Crawler',
@@ -63756,13 +63756,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BLO' => [
+    ),
+    'issue-900-BLO' => array(
         'ua' => 'lwp-trivial/1.35',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'lwp',
             'Browser' => 'lwp',
             'Browser_Type' => 'Bot/Crawler',
@@ -63809,13 +63809,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BLP' => [
+    ),
+    'issue-900-BLP' => array(
         'ua' => 'http://www.mabontland.com',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -63862,13 +63862,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BLQ' => [
+    ),
+    'issue-900-BLQ' => array(
         'ua' => 'mogimogi/1.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -63915,13 +63915,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BLR' => [
+    ),
+    'issue-900-BLR' => array(
         'ua' => 'MojeekBot/0.2 (archi; http://www.mojeek.com/bot.html)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -63968,13 +63968,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BLS' => [
+    ),
+    'issue-900-BLS' => array(
         'ua' => 'Moreoverbot/5.1 ( http://w.moreover.com; webmaster@moreover.com) Mozilla/5.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -64021,13 +64021,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BLT' => [
+    ),
+    'issue-900-BLT' => array(
         'ua' => 'Moreoverbot/5.00 (+http://www.moreover.com; webmaster@moreover.com)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -64074,13 +64074,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BLU' => [
+    ),
+    'issue-900-BLU' => array(
         'ua' => 'Moreoverbot/5.00 (+http://www.moreover.com)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -64127,13 +64127,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BLW' => [
+    ),
+    'issue-900-BLW' => array(
         'ua' => 'msnbot/2.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'MSN',
             'Browser' => 'msnbot',
             'Browser_Type' => 'Bot/Crawler',
@@ -64180,13 +64180,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BLX' => [
+    ),
+    'issue-900-BLX' => array(
         'ua' => 'msnbot/0.9 (+http://search.msn.com/msnbot.htm)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'MSN',
             'Browser' => 'msnbot',
             'Browser_Type' => 'Bot/Crawler',
@@ -64233,13 +64233,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BLY' => [
+    ),
+    'issue-900-BLY' => array(
         'ua' => 'msnbot/0.11 ( http://search.msn.com/msnbot.htm)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'MSN',
             'Browser' => 'msnbot',
             'Browser_Type' => 'Bot/Crawler',
@@ -64286,13 +64286,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BLZ' => [
+    ),
+    'issue-900-BLZ' => array(
         'ua' => 'MSNBOT/0.1 (http://search.msn.com/msnbot.htm)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'MSN',
             'Browser' => 'msnbot',
             'Browser_Type' => 'Bot/Crawler',
@@ -64339,13 +64339,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BMA' => [
+    ),
+    'issue-900-BMA' => array(
         'ua' => 'MSRBOT (http://research.microsoft.com/research/sv/msrbot/)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'MSN',
             'Browser' => 'MSRBOT',
             'Browser_Type' => 'Bot/Crawler',
@@ -64392,13 +64392,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BMB' => [
+    ),
+    'issue-900-BMB' => array(
         'ua' => 'MVAClient',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -64445,13 +64445,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BMC' => [
+    ),
+    'issue-900-BMC' => array(
         'ua' => 'Mozilla/5.0 (compatible; mxbot/1.0; +http://www.chainn.com/mxbot.html)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -64498,13 +64498,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BMD' => [
+    ),
+    'issue-900-BMD' => array(
         'ua' => 'Mozilla/5.0 (compatible; mxbot/1.0;  http://www.chainn.com/mxbot.html)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -64551,13 +64551,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BMK' => [
+    ),
+    'issue-900-BMK' => array(
         'ua' => 'noxtrumbot/1.0 (crawler@noxtrum.com)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -64604,13 +64604,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BML' => [
+    ),
+    'issue-900-BML' => array(
         'ua' => 'Nymesis/1.0 (http://nymesis.com)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -64657,13 +64657,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BMN' => [
+    ),
+    'issue-900-BMN' => array(
         'ua' => 'oegp v. 1.3.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -64710,13 +64710,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BMO' => [
+    ),
+    'issue-900-BMO' => array(
         'ua' => 'omgilibot/0.4 +http://omgili.com',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -64763,13 +64763,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BMP' => [
+    ),
+    'issue-900-BMP' => array(
         'ua' => 'omgilibot/0.3 +http://www.omgili.com/Crawler.html',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -64816,13 +64816,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BMQ' => [
+    ),
+    'issue-900-BMQ' => array(
         'ua' => 'omgilibot/0.3  http://www.omgili.com/Crawler.html',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -64869,13 +64869,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BMR' => [
+    ),
+    'issue-900-BMR' => array(
         'ua' => 'OmniExplorer_Bot/6.70 (+http://www.omni-explorer.com) WorldIndexer',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -64922,13 +64922,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BMS' => [
+    ),
+    'issue-900-BMS' => array(
         'ua' => 'OmniExplorer_Bot/6.65a (+http://www.omni-explorer.com) WorldIndexer',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -64975,13 +64975,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BMT' => [
+    ),
+    'issue-900-BMT' => array(
         'ua' => 'OmniExplorer_Bot/6.63b (+http://www.omni-explorer.com) WorldIndexer',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -65028,13 +65028,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BMU' => [
+    ),
+    'issue-900-BMU' => array(
         'ua' => 'OmniExplorer_Bot/6.62 (+http://www.omni-explorer.com) WorldIndexer',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -65081,13 +65081,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BMV' => [
+    ),
+    'issue-900-BMV' => array(
         'ua' => 'OmniExplorer_Bot/6.60 (+http://www.omni-explorer.com) WorldIndexer',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -65134,13 +65134,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BMW' => [
+    ),
+    'issue-900-BMW' => array(
         'ua' => 'OmniExplorer_Bot/6.47 (+http://www.omni-explorer.com) WorldIndexer',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -65187,13 +65187,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BMX' => [
+    ),
+    'issue-900-BMX' => array(
         'ua' => 'OmniExplorer_Bot/5.91c (+http://www.omni-explorer.com) WorldIndexer',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -65240,13 +65240,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BMY' => [
+    ),
+    'issue-900-BMY' => array(
         'ua' => 'OmniExplorer_Bot/5.28 (+http://www.omni-explorer.com) WorldIndexer',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -65293,13 +65293,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BMZ' => [
+    ),
+    'issue-900-BMZ' => array(
         'ua' => 'OmniExplorer_Bot/5.25 (+http://www.omni-explorer.com) WorldIndexer',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -65346,13 +65346,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BNA' => [
+    ),
+    'issue-900-BNA' => array(
         'ua' => 'OmniExplorer_Bot/5.20 (+http://www.omni-explorer.com) WorldIndexer',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -65399,13 +65399,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BNB' => [
+    ),
+    'issue-900-BNB' => array(
         'ua' => 'OmniExplorer_Bot/5.01 (+http://www.omni-explorer.com) WorldIndexer',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -65452,13 +65452,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BNC' => [
+    ),
+    'issue-900-BNC' => array(
         'ua' => 'OmniExplorer_Bot/4.80 (+http://www.omni-explorer.com) WorldIndexer',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -65505,13 +65505,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BND' => [
+    ),
+    'issue-900-BND' => array(
         'ua' => 'OmniExplorer_Bot/4.32 (+http://www.omni-explorer.com) WorldIndexer',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -65558,13 +65558,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BNE' => [
+    ),
+    'issue-900-BNE' => array(
         'ua' => 'OOZBOT/0.20 ( -- ; http://www.setooz.com/oozbot.html ; agentname at setooz dot_com )',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -65611,13 +65611,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BNF' => [
+    ),
+    'issue-900-BNF' => array(
         'ua' => 'OOZBOT/0.17 (--; http://www.setooz.com/oozbot.html; pvvpr at iiit dot ac dot in)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -65664,13 +65664,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BNG' => [
+    ),
+    'issue-900-BNG' => array(
         'ua' => 'Orbiter (+http://www.dailyorbit.com/bot.htm)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -65717,13 +65717,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BNH' => [
+    ),
+    'issue-900-BNH' => array(
         'ua' => 'PageBitesHyperBot/600 (http://www.pagebites.com/)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -65770,13 +65770,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BNI' => [
+    ),
+    'issue-900-BNI' => array(
         'ua' => 'Mozilla/5.0 (compatible; Peew/1.0; http://www.peew.de/crawler/)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -65823,13 +65823,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BNJ' => [
+    ),
+    'issue-900-BNJ' => array(
         'ua' => 'PostPost/1.0 (+http://postpo.st/crawlers)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -65876,13 +65876,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BNK' => [
+    ),
+    'issue-900-BNK' => array(
         'ua' => 'PycURL',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -65929,13 +65929,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BNL' => [
+    ),
+    'issue-900-BNL' => array(
         'ua' => 'Qseero v1.0.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -65982,13 +65982,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BNM' => [
+    ),
+    'issue-900-BNM' => array(
         'ua' => 'radian6_default_(www.radian6.com/crawler)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -66035,13 +66035,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BNN' => [
+    ),
+    'issue-900-BNN' => array(
         'ua' => 'RAMPyBot - www.giveRAMP.com/0.1 (RAMPyBot - www.giveRAMP.com; http://www.giveramp.com/bot.html; support@giveRAMP.com)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -66088,13 +66088,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BNO' => [
+    ),
+    'issue-900-BNO' => array(
         'ua' => 'RufusBot (Rufus Web Miner; http://64.124.122.252/feedback.html)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -66141,13 +66141,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BNP' => [
+    ),
+    'issue-900-BNP' => array(
         'ua' => 'SandCrawler - Compatibility Testing',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -66194,13 +66194,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BNQ' => [
+    ),
+    'issue-900-BNQ' => array(
         'ua' => 'SBIder/0.8-dev (SBIder; http://www.sitesell.com/sbider.html; http://support.sitesell.com/contact-support.html)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'General Crawlers',
             'Browser' => 'SiteSell',
             'Browser_Type' => 'Bot/Crawler',
@@ -66247,13 +66247,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BNR' => [
+    ),
+    'issue-900-BNR' => array(
         'ua' => 'Mozilla/5.0 (compatible; ScoutJet;  http://www.scoutjet.com/)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -66300,13 +66300,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BNS' => [
+    ),
+    'issue-900-BNS' => array(
         'ua' => 'Scrubby/2.2 (http://www.scrubtheweb.com/)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Scrubby',
             'Browser' => 'Scrubby',
             'Browser_Type' => 'Bot/Crawler',
@@ -66353,13 +66353,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BNT' => [
+    ),
+    'issue-900-BNT' => array(
         'ua' => 'Mozilla/5.0 (compatible; Scrubby/2.2; +http://www.scrubtheweb.com/)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Scrubby',
             'Browser' => 'Scrubby',
             'Browser_Type' => 'Bot/Crawler',
@@ -66406,13 +66406,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BNU' => [
+    ),
+    'issue-900-BNU' => array(
         'ua' => 'Mozilla/5.0 (compatible; Scrubby/2.2;  http://www.scrubtheweb.com/)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Scrubby',
             'Browser' => 'Scrubby',
             'Browser_Type' => 'Bot/Crawler',
@@ -66459,13 +66459,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BNV' => [
+    ),
+    'issue-900-BNV' => array(
         'ua' => 'Scrubby/2.1 (http://www.scrubtheweb.com/)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Scrubby',
             'Browser' => 'Scrubby',
             'Browser_Type' => 'Bot/Crawler',
@@ -66512,13 +66512,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BNW' => [
+    ),
+    'issue-900-BNW' => array(
         'ua' => 'Mozilla/5.0 (compatible; Scrubby/2.1; +http://www.scrubtheweb.com/abs/meta-check.html)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Scrubby',
             'Browser' => 'Scrubby',
             'Browser_Type' => 'Bot/Crawler',
@@ -66565,13 +66565,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BNX' => [
+    ),
+    'issue-900-BNX' => array(
         'ua' => 'SearchSight/2.0 (http://SearchSight.com/)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -66618,13 +66618,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BNY' => [
+    ),
+    'issue-900-BNY' => array(
         'ua' => 'Sensis Web Crawler (search_comments\\at\\sensis\\dot\\com\\dot\\au)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -66671,13 +66671,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BOA' => [
+    ),
+    'issue-900-BOA' => array(
         'ua' => 'Mozilla/4.0 (compatible: Shoula robot)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -66724,13 +66724,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BOB' => [
+    ),
+    'issue-900-BOB' => array(
         'ua' => 'silk/1.0 (+http://www.slider.com/silk.htm)/3.7',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -66777,13 +66777,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BOC' => [
+    ),
+    'issue-900-BOC' => array(
         'ua' => 'Silk/1.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -66830,13 +66830,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BOD' => [
+    ),
+    'issue-900-BOD' => array(
         'ua' => 'Mozilla/5.0 (compatible; SiteBot/0.1; +http://www.sitebot.org/robot/)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -66883,13 +66883,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BOE' => [
+    ),
+    'issue-900-BOE' => array(
         'ua' => 'Mozilla/5.0 (compatible; SiteBot/0.1;  http://www.sitebot.org/robot/)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -66936,13 +66936,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BOF' => [
+    ),
+    'issue-900-BOF' => array(
         'ua' => 'Snappy/1.1 ( http://www.urltrends.com/ )',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -66989,13 +66989,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BOG' => [
+    ),
+    'issue-900-BOG' => array(
         'ua' => 'sogou spider',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sogou',
             'Browser' => 'Sogou Spider',
             'Browser_Type' => 'Bot/Crawler',
@@ -67042,13 +67042,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BOH' => [
+    ),
+    'issue-900-BOH' => array(
         'ua' => 'Sosospider+(+http://help.soso.com/webspider.htm)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Search Engines',
             'Browser' => 'Sosospider',
             'Browser_Type' => 'Bot/Crawler',
@@ -67095,13 +67095,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BOI' => [
+    ),
+    'issue-900-BOI' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) Speedy Spider (http://www.entireweb.com/about/search_tech/speedy_spider/)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Entireweb',
             'Browser' => 'Entireweb',
             'Browser_Type' => 'Bot/Crawler',
@@ -67148,13 +67148,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BOJ' => [
+    ),
+    'issue-900-BOJ' => array(
         'ua' => 'Mozilla/5.0 (compatible; Speedy Spider; http://www.entireweb.com/about/search_tech/speedy_spider/)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Entireweb',
             'Browser' => 'Entireweb',
             'Browser_Type' => 'Bot/Crawler',
@@ -67201,13 +67201,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BOK' => [
+    ),
+    'issue-900-BOK' => array(
         'ua' => 'Speedy Spider (Entireweb; Beta/1.3; http://www.entireweb.com/about/search_tech/speedyspider/)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Entireweb',
             'Browser' => 'Entireweb',
             'Browser_Type' => 'Bot/Crawler',
@@ -67254,13 +67254,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BOL' => [
+    ),
+    'issue-900-BOL' => array(
         'ua' => 'Speedy Spider (Entireweb; Beta/1.2; http://www.entireweb.com/about/search_tech/speedyspider/)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Entireweb',
             'Browser' => 'Entireweb',
             'Browser_Type' => 'Bot/Crawler',
@@ -67307,13 +67307,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BOM' => [
+    ),
+    'issue-900-BOM' => array(
         'ua' => 'Speedy Spider (Entireweb; Beta/1.1; http://www.entireweb.com/about/search_tech/speedyspider/)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Entireweb',
             'Browser' => 'Entireweb',
             'Browser_Type' => 'Bot/Crawler',
@@ -67360,13 +67360,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BON' => [
+    ),
+    'issue-900-BON' => array(
         'ua' => 'Speedy Spider (Entireweb; Beta/1.0; http://www.entireweb.com/about/search_tech/speedyspider/)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Entireweb',
             'Browser' => 'Entireweb',
             'Browser_Type' => 'Bot/Crawler',
@@ -67413,13 +67413,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BOO' => [
+    ),
+    'issue-900-BOO' => array(
         'ua' => 'Speedy Spider (Beta/1.0; www.entireweb.com)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Entireweb',
             'Browser' => 'Entireweb',
             'Browser_Type' => 'Bot/Crawler',
@@ -67466,13 +67466,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BOP' => [
+    ),
+    'issue-900-BOP' => array(
         'ua' => 'Speedy Spider (http://www.entireweb.com/about/search_tech/speedy_spider/)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Entireweb',
             'Browser' => 'Entireweb',
             'Browser_Type' => 'Bot/Crawler',
@@ -67519,13 +67519,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BOQ' => [
+    ),
+    'issue-900-BOQ' => array(
         'ua' => 'Speedy Spider (http://www.entireweb.com/about/search_tech/speedyspider/)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Entireweb',
             'Browser' => 'Entireweb',
             'Browser_Type' => 'Bot/Crawler',
@@ -67572,13 +67572,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BOS' => [
+    ),
+    'issue-900-BOS' => array(
         'ua' => 'Sqworm/2.9.85-BETA (beta_release; 20011115-775; i686-pc-linux-gnu)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Proxy Servers',
             'Browser' => 'Websense',
             'Browser_Type' => 'Bot/Crawler',
@@ -67625,13 +67625,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BOT' => [
+    ),
+    'issue-900-BOT' => array(
         'ua' => 'Mozilla/5.0 (compatible; suggybot v0.01a, http://blog.suggy.com/was-ist-suggy/suggy-webcrawler/)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -67678,13 +67678,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BOU' => [
+    ),
+    'issue-900-BOU' => array(
         'ua' => 'SynooBot/0.7.1 (SynooBot; http://www.synoo.de/bot.html; webmaster@synoo.com)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -67731,13 +67731,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BOV' => [
+    ),
+    'issue-900-BOV' => array(
         'ua' => 'Mozilla/2.0 (compatible; Ask Jeeves/Teoma; +http://sp.ask.com/docs/about/tech_crawling.html)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Ask',
             'Browser' => 'Teoma',
             'Browser_Type' => 'Bot/Crawler',
@@ -67784,13 +67784,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BOW' => [
+    ),
+    'issue-900-BOW' => array(
         'ua' => 'Mozilla/2.0 (compatible; Ask Jeeves/Teoma; +http://about.ask.com/en/docs/about/webmasters.shtml)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Ask',
             'Browser' => 'Teoma',
             'Browser_Type' => 'Bot/Crawler',
@@ -67837,13 +67837,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BOX' => [
+    ),
+    'issue-900-BOX' => array(
         'ua' => 'Mozilla/2.0 (compatible; Ask Jeeves/Teoma)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Ask',
             'Browser' => 'Teoma',
             'Browser_Type' => 'Bot/Crawler',
@@ -67890,13 +67890,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BOY' => [
+    ),
+    'issue-900-BOY' => array(
         'ua' => 'TheSuBot/0.2 (www.thesubot.de)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -67943,13 +67943,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BOZ' => [
+    ),
+    'issue-900-BOZ' => array(
         'ua' => 'TheSuBot/0.1 (www.thesubot.de)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -67996,13 +67996,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BPB' => [
+    ),
+    'issue-900-BPB' => array(
         'ua' => 'TinEye/1.1 (http://tineye.com/crawler.html)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'TinEye Bot',
             'Browser' => 'TinEye Bot',
             'Browser_Type' => 'Bot/Crawler',
@@ -68049,13 +68049,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BPC' => [
+    ),
+    'issue-900-BPC' => array(
         'ua' => 'TinEye',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'TinEye Bot',
             'Browser' => 'TinEye Bot',
             'Browser_Type' => 'Bot/Crawler',
@@ -68102,13 +68102,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BPD' => [
+    ),
+    'issue-900-BPD' => array(
         'ua' => 'truwoGPS/1.0 (GNU/Linux; U; i686; en-US; +http://www.lan4lano.net/browser.html )',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -68155,13 +68155,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BPE' => [
+    ),
+    'issue-900-BPE' => array(
         'ua' => 'TwengaBot',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -68208,13 +68208,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BPF' => [
+    ),
+    'issue-900-BPF' => array(
         'ua' => 'Mozilla/5.0 (compatible; Urlfilebot/2.2; +http://urlfile.com/bot.html)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -68261,13 +68261,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BPG' => [
+    ),
+    'issue-900-BPG' => array(
         'ua' => 'Mozilla/5.0 (compatible; Vagabondo/2.1; webcrawler at wise-guys dot nl; http://webagent.wise-guys.nl/)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Vagabondo',
             'Browser' => 'Vagabondo',
             'Browser_Type' => 'Bot/Crawler',
@@ -68314,13 +68314,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BPH' => [
+    ),
+    'issue-900-BPH' => array(
         'ua' => 'Mozilla/3.0 (Vagabondo/2.0 MT; webcrawler@NOSPAMexperimental.net; http://aanmelden.ilse.nl/?aanmeld_mode=webhints)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Vagabondo',
             'Browser' => 'Vagabondo',
             'Browser_Type' => 'Bot/Crawler',
@@ -68367,13 +68367,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BPI' => [
+    ),
+    'issue-900-BPI' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 5.0; Windows 95) VoilaBot BETA 1.2 (http://www.voila.com/)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'VoilaBot',
             'Browser' => 'VoilaBot',
             'Browser_Type' => 'Bot/Crawler',
@@ -68420,13 +68420,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-BPM' => [
+    ),
+    'issue-900-BPM' => array(
         'ua' => 'voyager/2.0 (http://www.kosmix.com/crawler.html)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Search Engines',
             'Browser' => 'Voyager Bot',
             'Browser_Type' => 'Bot/Crawler',
@@ -68473,13 +68473,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BPN' => [
+    ),
+    'issue-900-BPN' => array(
         'ua' => 'voyager/1.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Search Engines',
             'Browser' => 'Voyager Bot',
             'Browser_Type' => 'Bot/Crawler',
@@ -68526,13 +68526,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BPO' => [
+    ),
+    'issue-900-BPO' => array(
         'ua' => 'VYU2 (GNU; OpenRISC)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -68579,13 +68579,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BPP' => [
+    ),
+    'issue-900-BPP' => array(
         'ua' => 'Websquash.com (Add url robot)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -68632,13 +68632,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BPQ' => [
+    ),
+    'issue-900-BPQ' => array(
         'ua' => 'http://www.almaden.ibm.com/cs/crawler   [wf84]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -68685,13 +68685,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BPR' => [
+    ),
+    'issue-900-BPR' => array(
         'ua' => 'WoFindeIch Robot 1.0(+http://www.search.wofindeich.com/robot.php)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -68738,13 +68738,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BPS' => [
+    ),
+    'issue-900-BPS' => array(
         'ua' => 'WoFindeIch Robot 1.0( http://www.search.wofindeich.com/robot.php)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -68791,13 +68791,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BPT' => [
+    ),
+    'issue-900-BPT' => array(
         'ua' => 'WomlpeFactory/0.1 (+http://www.Womple.com/bot.html)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -68844,13 +68844,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BPU' => [
+    ),
+    'issue-900-BPU' => array(
         'ua' => 'Xaldon_WebSpider/2.0.b1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -68897,13 +68897,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BPW' => [
+    ),
+    'issue-900-BPW' => array(
         'ua' => 'Yasaklibot/v1.2 (http://www.Yasakli.com/bot.php)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -68950,13 +68950,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BPX' => [
+    ),
+    'issue-900-BPX' => array(
         'ua' => 'Yeti/1.0 (NHN Corp.; http://help.naver.com/robots/)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'NaverBot',
             'Browser' => 'NaverBot',
             'Browser_Type' => 'Bot/Crawler',
@@ -69003,13 +69003,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BPY' => [
+    ),
+    'issue-900-BPY' => array(
         'ua' => 'Yeti/1.0 (+http://help.naver.com/robots/)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'NaverBot',
             'Browser' => 'NaverBot',
             'Browser_Type' => 'Bot/Crawler',
@@ -69056,13 +69056,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BPZ' => [
+    ),
+    'issue-900-BPZ' => array(
         'ua' => 'Mozilla/5.0 (compatible; YodaoBot/1.0; http://www.yodao.com/help/webmaster/spider/; )',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'YodaoBot',
             'Browser' => 'YodaoBot',
             'Browser_Type' => 'Bot/Crawler',
@@ -69109,13 +69109,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BQA' => [
+    ),
+    'issue-900-BQA' => array(
         'ua' => 'yoogliFetchAgent/0.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -69162,13 +69162,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BQB' => [
+    ),
+    'issue-900-BQB' => array(
         'ua' => 'Zao/0.1 (http://www.kototoi.org/zao/)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Research Projects',
             'Browser' => 'Zao',
             'Browser_Type' => 'Bot/Crawler',
@@ -69215,13 +69215,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BQD' => [
+    ),
+    'issue-900-BQD' => array(
         'ua' => 'Mozilla/4.0 (compatible; Zealbot 1.0)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -69268,13 +69268,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BQE' => [
+    ),
+    'issue-900-BQE' => array(
         'ua' => 'zspider/0.9-dev http://feedback.redkolibri.com/',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -69321,13 +69321,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BQF' => [
+    ),
+    'issue-900-BQF' => array(
         'ua' => 'Mozilla/4.0 compatible ZyBorg/1.0 DLC (wn.zyborg@looksmart.net; http://www.WISEnutbot.com)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'General Crawlers',
             'Browser' => 'WiseNut search engine crawler',
             'Browser_Type' => 'Bot/Crawler',
@@ -69374,13 +69374,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BQG' => [
+    ),
+    'issue-900-BQG' => array(
         'ua' => 'Mozilla/4.0 compatible ZyBorg/1.0 Dead Link Checker (wn.zyborg@looksmart.net; http://www.WISEnutbot.com)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'General Crawlers',
             'Browser' => 'WiseNut search engine crawler',
             'Browser_Type' => 'Bot/Crawler',
@@ -69427,13 +69427,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BQH' => [
+    ),
+    'issue-900-BQH' => array(
         'ua' => 'Mozilla/4.0 compatible ZyBorg/1.0 Dead Link Checker (wn.dlc@looksmart.net; http://www.WISEnutbot.com)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'General Crawlers',
             'Browser' => 'WiseNut search engine crawler',
             'Browser_Type' => 'Bot/Crawler',
@@ -69480,13 +69480,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BQI' => [
+    ),
+    'issue-900-BQI' => array(
         'ua' => 'Mozilla/4.0 compatible ZyBorg/1.0 (wn.zyborg@looksmart.net; http://www.WISEnutbot.com)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'General Crawlers',
             'Browser' => 'WiseNut search engine crawler',
             'Browser_Type' => 'Bot/Crawler',
@@ -69533,13 +69533,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BQJ' => [
+    ),
+    'issue-900-BQJ' => array(
         'ua' => 'Mozilla/4.0 compatible ZyBorg/1.0 (wn-16.zyborg@looksmart.net; http://www.WISEnutbot.com)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'General Crawlers',
             'Browser' => 'WiseNut search engine crawler',
             'Browser_Type' => 'Bot/Crawler',
@@ -69586,13 +69586,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BQK' => [
+    ),
+    'issue-900-BQK' => array(
         'ua' => 'Mozilla/4.0 compatible ZyBorg/1.0 (wn-14.zyborg@looksmart.net; http://www.WISEnutbot.com)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'General Crawlers',
             'Browser' => 'WiseNut search engine crawler',
             'Browser_Type' => 'Bot/Crawler',
@@ -69639,13 +69639,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BQL' => [
+    ),
+    'issue-900-BQL' => array(
         'ua' => 'Mozilla/5.0 (X11; U; SunOS sun4u; en-US; rv:1.8.1.4) Gecko/20070622 Thunderbird/2.0.0.4',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -69692,13 +69692,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BQM' => [
+    ),
+    'issue-900-BQM' => array(
         'ua' => 'EmailSiphon',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'E-Mail Harvesters',
             'Browser' => 'E-Mail Siphon',
             'Browser_Type' => 'Bot/Crawler',
@@ -69745,13 +69745,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BQN' => [
+    ),
+    'issue-900-BQN' => array(
         'ua' => 'Bloglines/3.1 (http://www.bloglines.com)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Feeds Blogs',
             'Browser' => 'BlogLines Web',
             'Browser_Type' => 'Bot/Crawler',
@@ -69798,13 +69798,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BQO' => [
+    ),
+    'issue-900-BQO' => array(
         'ua' => 'Bloglines/3.0-rho (http://www.bloglines.com; 3 subscribers)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Feeds Blogs',
             'Browser' => 'BlogLines Web',
             'Browser_Type' => 'Bot/Crawler',
@@ -69851,13 +69851,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BQP' => [
+    ),
+    'issue-900-BQP' => array(
         'ua' => 'everyfeed-spider/2.0 (http://www.everyfeed.com)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -69904,13 +69904,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BQQ' => [
+    ),
+    'issue-900-BQQ' => array(
         'ua' => 'GreatNews/1.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Feeds Syndicators',
             'Browser' => 'GreatNews',
             'Browser_Type' => 'Bot/Crawler',
@@ -69957,13 +69957,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BQR' => [
+    ),
+    'issue-900-BQR' => array(
         'ua' => 'Gregarius/0.5.2 (+http://devlog.gregarius.net/docs/ua)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Feeds Syndicators',
             'Browser' => 'Gregarius',
             'Browser_Type' => 'Bot/Crawler',
@@ -70010,13 +70010,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BQS' => [
+    ),
+    'issue-900-BQS' => array(
         'ua' => 'MagpieRSS/0.7 ( http://magpierss.sf.net)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Feeds Syndicators',
             'Browser' => 'MagpieRSS',
             'Browser_Type' => 'Bot/Crawler',
@@ -70063,13 +70063,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BQT' => [
+    ),
+    'issue-900-BQT' => array(
         'ua' => 'NFReader/1.4.1.0 (http://www.gaijin.at/)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -70116,13 +70116,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BQU' => [
+    ),
+    'issue-900-BQU' => array(
         'ua' => 'UniversalFeedParser/3.3 +http://feedparser.org/',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -70169,13 +70169,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BQV' => [
+    ),
+    'issue-900-BQV' => array(
         'ua' => 'BinGet/1.00.A (http://www.bin-co.com/php/scripts/load/)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -70222,13 +70222,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BQW' => [
+    ),
+    'issue-900-BQW' => array(
         'ua' => 'Java1.4.2_03',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Java Standard Library',
             'Browser' => 'Java Standard Library',
             'Browser_Type' => 'Bot/Crawler',
@@ -70275,13 +70275,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BQX' => [
+    ),
+    'issue-900-BQX' => array(
         'ua' => 'Java1.4.0_03',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Java Standard Library',
             'Browser' => 'Java Standard Library',
             'Browser_Type' => 'Bot/Crawler',
@@ -70328,13 +70328,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BQY' => [
+    ),
+    'issue-900-BQY' => array(
         'ua' => 'Java1.4.0_02',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Java Standard Library',
             'Browser' => 'Java Standard Library',
             'Browser_Type' => 'Bot/Crawler',
@@ -70381,13 +70381,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BQZ' => [
+    ),
+    'issue-900-BQZ' => array(
         'ua' => 'Java1.4.0_01',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Java Standard Library',
             'Browser' => 'Java Standard Library',
             'Browser_Type' => 'Bot/Crawler',
@@ -70434,13 +70434,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BRA' => [
+    ),
+    'issue-900-BRA' => array(
         'ua' => 'Java1.4.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Java Standard Library',
             'Browser' => 'Java Standard Library',
             'Browser_Type' => 'Bot/Crawler',
@@ -70487,13 +70487,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BRB' => [
+    ),
+    'issue-900-BRB' => array(
         'ua' => 'Java1.3.1_06',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Java Standard Library',
             'Browser' => 'Java Standard Library',
             'Browser_Type' => 'Bot/Crawler',
@@ -70540,13 +70540,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BRC' => [
+    ),
+    'issue-900-BRC' => array(
         'ua' => 'Java1.3.1_04',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Java Standard Library',
             'Browser' => 'Java Standard Library',
             'Browser_Type' => 'Bot/Crawler',
@@ -70593,13 +70593,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BRD' => [
+    ),
+    'issue-900-BRD' => array(
         'ua' => 'Java1.3.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Java Standard Library',
             'Browser' => 'Java Standard Library',
             'Browser_Type' => 'Bot/Crawler',
@@ -70646,13 +70646,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BRE' => [
+    ),
+    'issue-900-BRE' => array(
         'ua' => 'Java1.3.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Java Standard Library',
             'Browser' => 'Java Standard Library',
             'Browser_Type' => 'Bot/Crawler',
@@ -70699,13 +70699,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BRF' => [
+    ),
+    'issue-900-BRF' => array(
         'ua' => 'Java1.2.2-JDeveloper',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Java Standard Library',
             'Browser' => 'Java Standard Library',
             'Browser_Type' => 'Bot/Crawler',
@@ -70752,13 +70752,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BRG' => [
+    ),
+    'issue-900-BRG' => array(
         'ua' => 'Java1.2.2',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Java Standard Library',
             'Browser' => 'Java Standard Library',
             'Browser_Type' => 'Bot/Crawler',
@@ -70805,13 +70805,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BRH' => [
+    ),
+    'issue-900-BRH' => array(
         'ua' => 'Java1.2.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Java Standard Library',
             'Browser' => 'Java Standard Library',
             'Browser_Type' => 'Bot/Crawler',
@@ -70858,13 +70858,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BRI' => [
+    ),
+    'issue-900-BRI' => array(
         'ua' => 'libwww-perl/5.821',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'libwww',
             'Browser' => 'libwww',
             'Browser_Type' => 'Bot/Crawler',
@@ -70911,13 +70911,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BRJ' => [
+    ),
+    'issue-900-BRJ' => array(
         'ua' => 'libwww-perl/5.820',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'libwww',
             'Browser' => 'libwww',
             'Browser_Type' => 'Bot/Crawler',
@@ -70964,13 +70964,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BRK' => [
+    ),
+    'issue-900-BRK' => array(
         'ua' => 'libwww-perl/5.816',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'libwww',
             'Browser' => 'libwww',
             'Browser_Type' => 'Bot/Crawler',
@@ -71017,13 +71017,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BRL' => [
+    ),
+    'issue-900-BRL' => array(
         'ua' => 'libwww-perl/5.814',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'libwww',
             'Browser' => 'libwww',
             'Browser_Type' => 'Bot/Crawler',
@@ -71070,13 +71070,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BRM' => [
+    ),
+    'issue-900-BRM' => array(
         'ua' => 'libwww-perl/5.808',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'libwww',
             'Browser' => 'libwww',
             'Browser_Type' => 'Bot/Crawler',
@@ -71123,13 +71123,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BRN' => [
+    ),
+    'issue-900-BRN' => array(
         'ua' => 'libwww-perl/5.805',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'libwww',
             'Browser' => 'libwww',
             'Browser_Type' => 'Bot/Crawler',
@@ -71176,13 +71176,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BRO' => [
+    ),
+    'issue-900-BRO' => array(
         'ua' => 'libwww-perl/5.803',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'libwww',
             'Browser' => 'libwww',
             'Browser_Type' => 'Bot/Crawler',
@@ -71229,13 +71229,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BRP' => [
+    ),
+    'issue-900-BRP' => array(
         'ua' => 'libwww-perl/5.800 (+http://passoire.afraid.org/mylittlewebsurvey/index.html)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'libwww',
             'Browser' => 'libwww',
             'Browser_Type' => 'Bot/Crawler',
@@ -71282,13 +71282,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BRQ' => [
+    ),
+    'issue-900-BRQ' => array(
         'ua' => 'libwww-perl/5.800',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'libwww',
             'Browser' => 'libwww',
             'Browser_Type' => 'Bot/Crawler',
@@ -71335,13 +71335,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BRR' => [
+    ),
+    'issue-900-BRR' => array(
         'ua' => 'libwww-perl/5.76',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'libwww',
             'Browser' => 'libwww',
             'Browser_Type' => 'Bot/Crawler',
@@ -71388,13 +71388,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BRS' => [
+    ),
+    'issue-900-BRS' => array(
         'ua' => 'libwww-perl/5.75',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'libwww',
             'Browser' => 'libwww',
             'Browser_Type' => 'Bot/Crawler',
@@ -71441,13 +71441,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BRT' => [
+    ),
+    'issue-900-BRT' => array(
         'ua' => 'libwww-perl/5.69',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'libwww',
             'Browser' => 'libwww',
             'Browser_Type' => 'Bot/Crawler',
@@ -71494,13 +71494,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BRU' => [
+    ),
+    'issue-900-BRU' => array(
         'ua' => 'libwww-perl/5.65',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'libwww',
             'Browser' => 'libwww',
             'Browser_Type' => 'Bot/Crawler',
@@ -71547,13 +71547,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BRW' => [
+    ),
+    'issue-900-BRW' => array(
         'ua' => 'libwww-perl/5.64',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'libwww',
             'Browser' => 'libwww',
             'Browser_Type' => 'Bot/Crawler',
@@ -71600,13 +71600,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BRX' => [
+    ),
+    'issue-900-BRX' => array(
         'ua' => 'libwww-perl/5.63',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'libwww',
             'Browser' => 'libwww',
             'Browser_Type' => 'Bot/Crawler',
@@ -71653,13 +71653,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BRY' => [
+    ),
+    'issue-900-BRY' => array(
         'ua' => 'libwww-perl/5.53',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'libwww',
             'Browser' => 'libwww',
             'Browser_Type' => 'Bot/Crawler',
@@ -71706,13 +71706,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BRZ' => [
+    ),
+    'issue-900-BRZ' => array(
         'ua' => 'libwww-perl/5.50',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'libwww',
             'Browser' => 'libwww',
             'Browser_Type' => 'Bot/Crawler',
@@ -71759,13 +71759,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BSA' => [
+    ),
+    'issue-900-BSA' => array(
         'ua' => 'libwww-perl/5.48',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'libwww',
             'Browser' => 'libwww',
             'Browser_Type' => 'Bot/Crawler',
@@ -71812,13 +71812,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BSB' => [
+    ),
+    'issue-900-BSB' => array(
         'ua' => 'libwww-perl/5.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'libwww',
             'Browser' => 'libwww',
             'Browser_Type' => 'Bot/Crawler',
@@ -71865,13 +71865,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BSC' => [
+    ),
+    'issue-900-BSC' => array(
         'ua' => 'Peach/1.01 (Ubuntu 8.04 LTS; U; en)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -71918,13 +71918,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BSD' => [
+    ),
+    'issue-900-BSD' => array(
         'ua' => 'pxyscand/2.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -71971,13 +71971,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BSE' => [
+    ),
+    'issue-900-BSE' => array(
         'ua' => 'Python-urllib/3.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Python-urllib',
             'Browser' => 'Python-urllib',
             'Browser_Type' => 'Bot/Crawler',
@@ -72024,13 +72024,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BSF' => [
+    ),
+    'issue-900-BSF' => array(
         'ua' => 'Python-urllib/3.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Python-urllib',
             'Browser' => 'Python-urllib',
             'Browser_Type' => 'Bot/Crawler',
@@ -72077,13 +72077,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BSG' => [
+    ),
+    'issue-900-BSG' => array(
         'ua' => 'Python-urllib/2.7',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Python-urllib',
             'Browser' => 'Python-urllib',
             'Browser_Type' => 'Bot/Crawler',
@@ -72130,13 +72130,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BSH' => [
+    ),
+    'issue-900-BSH' => array(
         'ua' => 'Python-urllib/2.6',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Python-urllib',
             'Browser' => 'Python-urllib',
             'Browser_Type' => 'Bot/Crawler',
@@ -72183,13 +72183,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BSI' => [
+    ),
+    'issue-900-BSI' => array(
         'ua' => 'Python-urllib/2.5',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Python-urllib',
             'Browser' => 'Python-urllib',
             'Browser_Type' => 'Bot/Crawler',
@@ -72236,13 +72236,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BSJ' => [
+    ),
+    'issue-900-BSJ' => array(
         'ua' => 'Python-urllib/2.4',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Python-urllib',
             'Browser' => 'Python-urllib',
             'Browser_Type' => 'Bot/Crawler',
@@ -72289,13 +72289,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BSK' => [
+    ),
+    'issue-900-BSK' => array(
         'ua' => 'Python-urllib/2.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Python-urllib',
             'Browser' => 'Python-urllib',
             'Browser_Type' => 'Bot/Crawler',
@@ -72342,13 +72342,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BSL' => [
+    ),
+    'issue-900-BSL' => array(
         'ua' => 'Python-urllib/2.0a1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Python-urllib',
             'Browser' => 'Python-urllib',
             'Browser_Type' => 'Bot/Crawler',
@@ -72395,13 +72395,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BSM' => [
+    ),
+    'issue-900-BSM' => array(
         'ua' => 'Python-urllib/1.17',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Python-urllib',
             'Browser' => 'Python-urllib',
             'Browser_Type' => 'Bot/Crawler',
@@ -72448,13 +72448,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BSN' => [
+    ),
+    'issue-900-BSN' => array(
         'ua' => 'Python-urllib/1.16',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Python-urllib',
             'Browser' => 'Python-urllib',
             'Browser_Type' => 'Bot/Crawler',
@@ -72501,13 +72501,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BSO' => [
+    ),
+    'issue-900-BSO' => array(
         'ua' => 'Python-urllib/1.15',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Python-urllib',
             'Browser' => 'Python-urllib',
             'Browser_Type' => 'Bot/Crawler',
@@ -72554,13 +72554,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BSP' => [
+    ),
+    'issue-900-BSP' => array(
         'ua' => 'Mozilla/5.0 (compatible; AbiLogicBot/1.0; +http://www.abilogic.com/bot.html)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -72607,13 +72607,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BSQ' => [
+    ),
+    'issue-900-BSQ' => array(
         'ua' => 'Mozilla/5.0 (compatible; AbiLogicBot/1.0; +http://www.abilogic.com)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -72660,13 +72660,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BSR' => [
+    ),
+    'issue-900-BSR' => array(
         'ua' => 'Link Valet Online 1.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Link Checkers',
             'Browser' => 'Link Valet',
             'Browser_Type' => 'Bot/Crawler',
@@ -72713,13 +72713,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BSS' => [
+    ),
+    'issue-900-BSS' => array(
         'ua' => 'Link Validity Check From: http://www.w3dir.com/cgi-bin (Using: Hot Links SQL by Mrcgiguy.com)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -72766,13 +72766,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BST' => [
+    ),
+    'issue-900-BST' => array(
         'ua' => 'LinkExaminer/1.01 (Windows)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -72819,13 +72819,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BSU' => [
+    ),
+    'issue-900-BSU' => array(
         'ua' => 'Mozilla/5.0 (compatible; LinksManager.com_bot  http://linksmanager.com/linkchecker.html)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Link Checkers',
             'Browser' => 'LinksManager',
             'Browser_Type' => 'Bot/Crawler',
@@ -72872,13 +72872,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BSV' => [
+    ),
+    'issue-900-BSV' => array(
         'ua' => 'Mozilla/5.0 (compatible; LinksManager.com_bot +http://linksmanager.com/linkchecker.html)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Link Checkers',
             'Browser' => 'LinksManager',
             'Browser_Type' => 'Bot/Crawler',
@@ -72925,13 +72925,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BSW' => [
+    ),
+    'issue-900-BSW' => array(
         'ua' => 'Mojoo Robot (http://www.mojoo.com/)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -72978,13 +72978,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BSX' => [
+    ),
+    'issue-900-BSX' => array(
         'ua' => 'Notifixious/LinkChecker (http://notifixio.us)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -73031,13 +73031,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BSY' => [
+    ),
+    'issue-900-BSY' => array(
         'ua' => 'online link validator (http://www.dead-links.com/)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Link Checkers',
             'Browser' => 'online link validator',
             'Browser_Type' => 'Bot/Crawler',
@@ -73084,13 +73084,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BSZ' => [
+    ),
+    'issue-900-BSZ' => array(
         'ua' => 'Ploetz + Zeller (http://www.ploetz-zeller.de) Link Validator v1.0 (support@p-und-z.de) for ARIS Business Architect',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -73137,13 +73137,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BTA' => [
+    ),
+    'issue-900-BTA' => array(
         'ua' => 'InfoWizards Reciprocal Link System PRO - (http://www.infowizards.com)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -73190,13 +73190,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BTB' => [
+    ),
+    'issue-900-BTB' => array(
         'ua' => 'REL Link Checker Lite 1.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Link Checkers',
             'Browser' => 'REL Link Checker',
             'Browser_Type' => 'Bot/Crawler',
@@ -73243,13 +73243,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BTC' => [
+    ),
+    'issue-900-BTC' => array(
         'ua' => 'SiteBar/3.3.8 (Bookmark Server; http://sitebar.org/)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Link Checkers',
             'Browser' => 'SiteBar',
             'Browser_Type' => 'Bot/Crawler',
@@ -73296,13 +73296,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BTD' => [
+    ),
+    'issue-900-BTD' => array(
         'ua' => 'SiteBar/3.3.5 (Bookmark Server; http://sitebar.org/)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Link Checkers',
             'Browser' => 'SiteBar',
             'Browser_Type' => 'Bot/Crawler',
@@ -73349,13 +73349,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BTE' => [
+    ),
+    'issue-900-BTE' => array(
         'ua' => 'Vivante Link Checker (http://www.vivante.com)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -73402,13 +73402,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BTF' => [
+    ),
+    'issue-900-BTF' => array(
         'ua' => 'Xenu Link Sleuth 1.2i',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Xenus Link Sleuth',
             'Browser' => 'Xenus Link Sleuth',
             'Browser_Type' => 'Bot/Crawler',
@@ -73455,13 +73455,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BTG' => [
+    ),
+    'issue-900-BTG' => array(
         'ua' => 'Xenu Link Sleuth 1.2h',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Xenus Link Sleuth',
             'Browser' => 'Xenus Link Sleuth',
             'Browser_Type' => 'Bot/Crawler',
@@ -73508,13 +73508,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BTH' => [
+    ),
+    'issue-900-BTH' => array(
         'ua' => 'Xenu Link Sleuth 1.2g',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Xenus Link Sleuth',
             'Browser' => 'Xenus Link Sleuth',
             'Browser_Type' => 'Bot/Crawler',
@@ -73561,13 +73561,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BTI' => [
+    ),
+    'issue-900-BTI' => array(
         'ua' => 'Xenu Link Sleuth 1.2f',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Xenus Link Sleuth',
             'Browser' => 'Xenus Link Sleuth',
             'Browser_Type' => 'Bot/Crawler',
@@ -73614,13 +73614,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BTJ' => [
+    ),
+    'issue-900-BTJ' => array(
         'ua' => 'Xenu Link Sleuth 1.2e',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Xenus Link Sleuth',
             'Browser' => 'Xenus Link Sleuth',
             'Browser_Type' => 'Bot/Crawler',
@@ -73667,13 +73667,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BTK' => [
+    ),
+    'issue-900-BTK' => array(
         'ua' => 'Xenu Link Sleuth 1.2d',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Xenus Link Sleuth',
             'Browser' => 'Xenus Link Sleuth',
             'Browser_Type' => 'Bot/Crawler',
@@ -73720,13 +73720,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BTL' => [
+    ),
+    'issue-900-BTL' => array(
         'ua' => 'Xenu Link Sleuth 1.2c',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Xenus Link Sleuth',
             'Browser' => 'Xenus Link Sleuth',
             'Browser_Type' => 'Bot/Crawler',
@@ -73773,13 +73773,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BTM' => [
+    ),
+    'issue-900-BTM' => array(
         'ua' => 'Xenu Link Sleuth 1.2b',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Xenus Link Sleuth',
             'Browser' => 'Xenus Link Sleuth',
             'Browser_Type' => 'Bot/Crawler',
@@ -73826,13 +73826,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BTN' => [
+    ),
+    'issue-900-BTN' => array(
         'ua' => 'Xenu Link Sleuth/1.3.7',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Xenus Link Sleuth',
             'Browser' => 'Xenus Link Sleuth',
             'Browser_Type' => 'Bot/Crawler',
@@ -73879,13 +73879,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BTO' => [
+    ),
+    'issue-900-BTO' => array(
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.3; ko-kr; LG-L160L Build/IML74K) AppleWebkit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Android Browser 4.0',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -73932,13 +73932,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BTP' => [
+    ),
+    'issue-900-BTP' => array(
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.3; de-ch; HTC Sensation Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Android Browser 4.0',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -73985,13 +73985,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-BTR' => [
+    ),
+    'issue-900-BTR' => array(
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.5; zh-cn; HTC_IncredibleS_S710e Build/GRJ90) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Android Browser 4.0',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -74038,13 +74038,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-BTS' => [
+    ),
+    'issue-900-BTS' => array(
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.5; en-us; HTC Vision Build/GRI40) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Android Browser 4.0',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -74091,13 +74091,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-BTT' => [
+    ),
+    'issue-900-BTT' => array(
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.4; fr-fr; HTC Desire Build/GRJ22) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Android Browser 4.0',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -74144,13 +74144,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BTU' => [
+    ),
+    'issue-900-BTU' => array(
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.4; en-us; T-Mobile myTouch 3G Slide Build/GRI40) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Android Browser 4.0',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -74197,13 +74197,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BTV' => [
+    ),
+    'issue-900-BTV' => array(
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.3; zh-tw; HTC_Pyramid Build/GRI40) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Android Browser 4.0',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -74250,13 +74250,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BTW' => [
+    ),
+    'issue-900-BTW' => array(
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.3; zh-tw; HTC_Pyramid Build/GRI40) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Android Browser 4.0',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -74303,13 +74303,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BTX' => [
+    ),
+    'issue-900-BTX' => array(
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.3; zh-tw; HTC Pyramid Build/GRI40) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Android Browser 4.0',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -74356,13 +74356,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BTY' => [
+    ),
+    'issue-900-BTY' => array(
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.3; ko-kr; LG-LU3000 Build/GRI40) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Android Browser 4.0',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -74409,13 +74409,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BTZ' => [
+    ),
+    'issue-900-BTZ' => array(
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.3; en-us; HTC_DesireS_S510e Build/GRI40) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Android Browser 4.0',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -74462,13 +74462,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BUA' => [
+    ),
+    'issue-900-BUA' => array(
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.3; en-us; HTC_DesireS_S510e Build/GRI40) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Android Browser 4.0',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -74515,13 +74515,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BUB' => [
+    ),
+    'issue-900-BUB' => array(
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.3; de-de; HTC Desire Build/GRI40) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Android Browser 4.0',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -74568,13 +74568,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BUC' => [
+    ),
+    'issue-900-BUC' => array(
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.3; de-ch; HTC Desire Build/FRF91) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Android Browser 4.0',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -74621,13 +74621,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BUD' => [
+    ),
+    'issue-900-BUD' => array(
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.2; fr-lu; HTC Legend Build/FRF91) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Android Browser 4.0',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -74674,13 +74674,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BUE' => [
+    ),
+    'issue-900-BUE' => array(
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.2; en-sa; HTC_DesireHD_A9191 Build/FRF91) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Android Browser 4.0',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -74727,13 +74727,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BUF' => [
+    ),
+    'issue-900-BUF' => array(
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.2.1; fr-fr; HTC_DesireZ_A7272 Build/FRG83D) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Android Browser 4.0',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -74780,13 +74780,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BUG' => [
+    ),
+    'issue-900-BUG' => array(
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.2.1; en-gb; HTC_DesireZ_A7272 Build/FRG83D) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Android Browser 4.0',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -74833,13 +74833,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BUH' => [
+    ),
+    'issue-900-BUH' => array(
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.2.1; en-ca; LG-P505R Build/FRG83) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Android Browser 4.0',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -74886,13 +74886,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BUI' => [
+    ),
+    'issue-900-BUI' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows 95; PalmSource; Blazer 3.0) 16; 160x160',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Blazer',
             'Browser' => 'Blazer',
             'Browser_Type' => 'Browser',
@@ -74939,13 +74939,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BUJ' => [
+    ),
+    'issue-900-BUJ' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; BOLT/2.340) AppleWebKit/530+ (KHTML, like Gecko) Version/4.0 Safari/530.17 UNTRUSTED/1.0 3gpp-gba',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Safari 4.0',
             'Browser' => 'Safari',
             'Browser_Type' => 'Browser',
@@ -74992,13 +74992,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BUK' => [
+    ),
+    'issue-900-BUK' => array(
         'ua' => 'SamsungI8910/SymbianOS/9.1 Series60/3.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -75045,13 +75045,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BYC' => [
+    ),
+    'issue-900-BYC' => array(
         'ua' => 'Mozilla/5.0 (Windows NT; U; en) AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.1 Iris/1.1.7 Safari/525.20',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -75098,13 +75098,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-900-BYD' => [
+    ),
+    'issue-900-BYD' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux armv7l; ru-RU; rv:1.9.2.3pre) Gecko/20100723 Firefox/3.5 Maemo Browser 1.7.4.8 RX-51 N900',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'MicroB',
             'Browser' => 'MicroB',
             'Browser_Type' => 'Browser',
@@ -75151,13 +75151,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BYE' => [
+    ),
+    'issue-900-BYE' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux armv7l; pt-PT; rv:1.9.2.3pre) Gecko/20100723 Firefox/3.5 Maemo Browser 1.7.4.8 RX-51 N900',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'MicroB',
             'Browser' => 'MicroB',
             'Browser_Type' => 'Browser',
@@ -75204,13 +75204,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BYF' => [
+    ),
+    'issue-900-BYF' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux armv7l; no-NO; rv:1.9.2.3pre) Gecko/20100723 Firefox/3.5 Maemo Browser 1.7.4.8 RX-51 N900',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'MicroB',
             'Browser' => 'MicroB',
             'Browser_Type' => 'Browser',
@@ -75257,13 +75257,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BYG' => [
+    ),
+    'issue-900-BYG' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux arm7tdmi; rv:1.8.1.11) Gecko/20071130 Minimo/0.025',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Minimo 0.025',
             'Browser' => 'Minimo',
             'Browser_Type' => 'Browser',
@@ -75310,13 +75310,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BYH' => [
+    ),
+    'issue-900-BYH' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux arm7tdmi; rv:1.8.1.8) Gecko/20071018 Minimo/0.024',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Minimo 0.024',
             'Browser' => 'Minimo',
             'Browser_Type' => 'Browser',
@@ -75363,13 +75363,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BYI' => [
+    ),
+    'issue-900-BYI' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux armv6l; rv: 1.8.1.5pre) Gecko/20070619 Minimo/0.020',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Minimo 0.020',
             'Browser' => 'Minimo',
             'Browser_Type' => 'Browser',
@@ -75416,13 +75416,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BYJ' => [
+    ),
+    'issue-900-BYJ' => array(
         'ua' => 'Mozilla/5.0 (Windows; Windows; U; Windows NT 5.1; Windows CE 5.2; rv:1.8.1.4pre) Gecko/20070327 Minimo/0.020',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Minimo 0.020',
             'Browser' => 'Minimo',
             'Browser_Type' => 'Browser',
@@ -75469,13 +75469,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-BYK' => [
+    ),
+    'issue-900-BYK' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows CE 5.2; rv:1.8.1.4pre) Gecko/20070327 Minimo/0.020',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Minimo 0.020',
             'Browser' => 'Minimo',
             'Browser_Type' => 'Browser',
@@ -75522,13 +75522,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-BYL' => [
+    ),
+    'issue-900-BYL' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows CE 5.1; rv:1.8.1.4pre) Gecko/20070327 Minimo/0.020',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Minimo 0.020',
             'Browser' => 'Minimo',
             'Browser_Type' => 'Browser',
@@ -75575,13 +75575,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-BYM' => [
+    ),
+    'issue-900-BYM' => array(
         'ua' => 'Mozilla/5.0 (X11; U; OpenBSD macppc; rv:1.8.1) Gecko/20070222 Minimo/0.016',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Minimo 0.016',
             'Browser' => 'Minimo',
             'Browser_Type' => 'Browser',
@@ -75628,13 +75628,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BYN' => [
+    ),
+    'issue-900-BYN' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows CE 5.2; rv:1.8.1a3) Gecko/20060610 Minimo/0.016',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Minimo 0.016',
             'Browser' => 'Minimo',
             'Browser_Type' => 'Browser',
@@ -75681,13 +75681,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-BYO' => [
+    ),
+    'issue-900-BYO' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows CE 5.1; rv:1.8.1a3) Gecko/20060610 Minimo/0.016',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Minimo 0.016',
             'Browser' => 'Minimo',
             'Browser_Type' => 'Browser',
@@ -75734,13 +75734,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-BYP' => [
+    ),
+    'issue-900-BYP' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows CE 5.1; rv:1.8) Gecko/20060428 Minimo/0.015',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Minimo 0.015',
             'Browser' => 'Minimo',
             'Browser_Type' => 'Browser',
@@ -75787,13 +75787,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-BYQ' => [
+    ),
+    'issue-900-BYQ' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows CE 4.20; rv:1.8) Gecko/20060215 Minimo/0.013',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Minimo 0.013',
             'Browser' => 'Minimo',
             'Browser_Type' => 'Browser',
@@ -75840,13 +75840,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-BYR' => [
+    ),
+    'issue-900-BYR' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows CE 4.21; rv:1.8b4) Gecko/20050720 Minimo/0.007',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Minimo 0.007',
             'Browser' => 'Minimo',
             'Browser_Type' => 'Browser',
@@ -75893,13 +75893,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-BYS' => [
+    ),
+    'issue-900-BYS' => array(
         'ua' => 'Opera/9.50 (J2ME/MIDP; Opera Mini/5.1.21965/20.2513; U; en)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera Mini 5.1',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
@@ -75946,13 +75946,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BYT' => [
+    ),
+    'issue-900-BYT' => array(
         'ua' => 'Opera/9.80 (Windows NT 5.1; U; Opera/9.80 (J2ME/MIDP; Opera Mini/5.0.18635/1030; U; en) Presto/2.4.15; ru) Presto/2.8.99 Version/11.10',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera Mini 5.0',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
@@ -75999,13 +75999,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BYU' => [
+    ),
+    'issue-900-BYU' => array(
         'ua' => 'Opera/9.80 (J2ME/iPhone;Opera Mini/5.0.019802/886; U; ja)Presto/2.4.15',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera Mini 5.0',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
@@ -76052,13 +76052,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-BYV' => [
+    ),
+    'issue-900-BYV' => array(
         'ua' => 'Opera/9.80 (J2ME/iPhone;Opera Mini/5.0.019802/886; U; ja)Presto/ 2.4.15',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera Mini 5.0',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
@@ -76105,13 +76105,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-BYW' => [
+    ),
+    'issue-900-BYW' => array(
         'ua' => 'Opera/9.80 (J2ME/iPhone;Opera Mini/5.0.019802/886; U; ja) Presto/2.4.15',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera Mini 5.0',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
@@ -76158,13 +76158,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-BYX' => [
+    ),
+    'issue-900-BYX' => array(
         'ua' => 'Opera/9.80 (J2ME/MIDP; Opera Mini/5.0(Windows; U; Windows NT 5.1; en-US)/23.390; U; en) Presto/2.5.25 Version/10.54',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera Mini 5.0',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
@@ -76211,13 +76211,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BYY' => [
+    ),
+    'issue-900-BYY' => array(
         'ua' => 'Opera/9.80 (J2ME/MIDP; Opera Mini/5.0 (Windows; U; Windows NT 6.1; sv-SE) AppleWebKit/23.411; U; en) Presto/2.5.25 Version/10.54',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera Mini 5.0',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
@@ -76264,13 +76264,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BYZ' => [
+    ),
+    'issue-900-BYZ' => array(
         'ua' => 'Opera/9.80 (J2ME/MIDP; Opera Mini/5.0 (Windows; U; Windows NT 6.1; rv:2.2) Gecko/24.838; U; id) Presto/2.5.25 Version/10.54',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera Mini 5.0',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
@@ -76317,13 +76317,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BZA' => [
+    ),
+    'issue-900-BZA' => array(
         'ua' => 'Opera/9.80 (J2ME/MIDP; Opera Mini/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/23.411; U; en) Presto/2.5.25 Version/10.54',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera Mini 5.0',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
@@ -76370,13 +76370,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BZB' => [
+    ),
+    'issue-900-BZB' => array(
         'ua' => 'Opera/9.80 (J2ME/MIDP; Opera Mini/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/22.478; U; en) Presto/2.5.25 Version/10.54',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera Mini 5.0',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
@@ -76423,13 +76423,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BZC' => [
+    ),
+    'issue-900-BZC' => array(
         'ua' => 'Opera/9.80 (J2ME/MIDP; Opera Mini/5.0 (Windows; U; Windows NT 5.1; de; rv:1.9.2.3) Gecko/23.377; U; en) Presto/2.5.25 Version/10.54',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera Mini 5.0',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
@@ -76476,13 +76476,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BZD' => [
+    ),
+    'issue-900-BZD' => array(
         'ua' => 'Opera/9.80 (J2ME/MIDP; Opera Mini/5.0 (Windows NT 6.1; WOW64) AppleWebKit/23.411; U; en) Presto/2.5.25 Version/10.54',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera Mini 5.0',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
@@ -76529,13 +76529,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BZE' => [
+    ),
+    'issue-900-BZE' => array(
         'ua' => 'Opera/9.80 (J2ME/MIDP; Opera Mini/5.0 (SymbianOS/24.838; U; en) Presto/2.5.25 Version/10.54',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera Mini 5.0',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
@@ -76582,13 +76582,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BZF' => [
+    ),
+    'issue-900-BZF' => array(
         'ua' => 'Opera/9.80 (J2ME/MIDP; Opera Mini/5.0 (Linux; U; Android 2.2; fr-lu; HTC Legend Build/24.838; U; en) Presto/2.5.25 Version/10.54',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera Mini 5.0',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
@@ -76635,13 +76635,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-BZG' => [
+    ),
+    'issue-900-BZG' => array(
         'ua' => 'Opera/9.80 (J2ME/MIDP; Opera Mini/5.0 (Linux; U; Android 2.2; en-sa; HTC_DesireHD_A9191 Build/24.741; U; en) Presto/2.5.25 Version/10.54',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera Mini 5.0',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
@@ -76688,13 +76688,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-900-BZH' => [
+    ),
+    'issue-900-BZH' => array(
         'ua' => 'Opera/9.80 (J2ME/MIDP; Opera Mini/5.0 (iPhone; U; xxxx like Mac OS X; en) AppleWebKit/24.838; U; en) Presto/2.5.25 Version/10.54',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera Mini 5.0',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
@@ -76741,13 +76741,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BZI' => [
+    ),
+    'issue-900-BZI' => array(
         'ua' => 'Opera/9.80 (J2ME/MIDP; Opera Mini/5.0 (iPhone; U; fr; CPU iPhone OS 4_2_1 like Mac OS X; fr) AppleWebKit/23.405; U; en) Presto/2.5.25 Version/10.54',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera Mini 5.0',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
@@ -76794,13 +76794,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BZJ' => [
+    ),
+    'issue-900-BZJ' => array(
         'ua' => 'Opera/9.80 (J2ME/MIDP; Opera Mini/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/23.411; U; en) Presto/2.5.25 Version/10.54',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera Mini 5.0',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
@@ -76847,13 +76847,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BZK' => [
+    ),
+    'issue-900-BZK' => array(
         'ua' => 'Opera/9.80 (J2ME/MIDP; Opera Mini/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/23.377; U; en) Presto/2.5.25 Version/10.54',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera Mini 5.0',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
@@ -76900,13 +76900,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BZL' => [
+    ),
+    'issue-900-BZL' => array(
         'ua' => 'Opera/9.80 (J2ME/MIDP; Opera Mini/4.3.24214; iPhone; CPU iPhone OS 4_2_1 like Mac OS X; AppleWebKit/24.783; U; en) Presto/2.5.25 Version/10.54',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera Mini 4.3',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
@@ -76953,13 +76953,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BZM' => [
+    ),
+    'issue-900-BZM' => array(
         'ua' => 'Opera/9.80 (J2ME/MIDP; Opera Mini/4.3.24214 (Windows; U; Windows NT 6.1) AppleWebKit/24.838; U; id) Presto/2.5.25 Version/10.54',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera Mini 4.3',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
@@ -77006,13 +77006,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BZN' => [
+    ),
+    'issue-900-BZN' => array(
         'ua' => 'Opera/9.60 (J2ME/MIDP;Opera Mini/4.2.15410Mod.by.Handler/503; U; en)Presto/2.2.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera Mini 4.2',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
@@ -77059,13 +77059,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-900-BZO' => [
+    ),
+    'issue-900-BZO' => array(
         'ua' => 'Opera/9.50 (J2ME/MIDP; Opera Mini/4.2.15410Mod.by.Handler/20.2590; U; en)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera Mini 4.2',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
@@ -77112,8 +77112,8 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

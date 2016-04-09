@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-555' => [
+return array(
+    'issue-555' => array(
         'ua' => 'Mozilla/5.0 (compatible; Qwantify/2.0; +https://www.qwant.com/)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Social Bookmarkers',
             'Browser' => 'Qwantify',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

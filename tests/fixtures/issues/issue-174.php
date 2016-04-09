@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-174' => [
+return array(
+    'issue-174' => array(
         'ua' => 'Mozilla/5.0 (compatible; spbot/4.0.9; +http://OpenLinkProfiler.org/bot )',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'spbot',
             'Browser' => 'SEOprofiler',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

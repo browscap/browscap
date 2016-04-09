@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-511-A' => [
+return array(
+    'issue-511-A' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B411',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mobile Safari UIWebView',
             'Browser' => 'Mobile Safari UIWebView',
             'Browser_Type' => 'Browser',
@@ -50,13 +50,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-511-C' => [
+    ),
+    'issue-511-C' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; en-us; SAMSUNG SCH-I545 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Android WebView 1.5',
             'Browser' => 'Android WebView',
             'Browser_Type' => 'Browser',
@@ -103,13 +103,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-511-D' => [
+    ),
+    'issue-511-D' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; en-ca; SAMSUNG SM-T530NU Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Android WebView 1.5',
             'Browser' => 'Android WebView',
             'Browser_Type' => 'Browser',
@@ -156,13 +156,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-511-E' => [
+    ),
+    'issue-511-E' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; SM-T530NU Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.59 Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Chrome 39.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -209,13 +209,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-511-F' => [
+    ),
+    'issue-511-F' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_1 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D201',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mobile Safari UIWebView',
             'Browser' => 'Mobile Safari UIWebView',
             'Browser_Type' => 'Browser',
@@ -262,13 +262,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-511-G' => [
+    ),
+    'issue-511-G' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12A405',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mobile Safari UIWebView',
             'Browser' => 'Mobile Safari UIWebView',
             'Browser_Type' => 'Browser',
@@ -315,13 +315,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-511-I' => [
+    ),
+    'issue-511-I' => array(
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B410',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mobile Safari UIWebView',
             'Browser' => 'Mobile Safari UIWebView',
             'Browser_Type' => 'Browser',
@@ -368,13 +368,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-511-J' => [
+    ),
+    'issue-511-J' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; XT1033 Build/KXB21.14-L1.40) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.59 Mobile Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Chrome 39.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -421,13 +421,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-511-K' => [
+    ),
+    'issue-511-K' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_4 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/11B554a',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mobile Safari UIWebView',
             'Browser' => 'Mobile Safari UIWebView',
             'Browser_Type' => 'Browser',
@@ -474,13 +474,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-511-L' => [
+    ),
+    'issue-511-L' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; Nexus 5 Build/KTU84Q) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/19.77.34.5 Mobile Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Chrome 19.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -527,13 +527,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-511-N' => [
+    ),
+    'issue-511-N' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 6_1_2 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10B146',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mobile Safari UIWebView',
             'Browser' => 'Mobile Safari UIWebView',
             'Browser_Type' => 'Browser',
@@ -580,13 +580,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-511-O' => [
+    ),
+    'issue-511-O' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_3 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/11B511',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mobile Safari UIWebView',
             'Browser' => 'Mobile Safari UIWebView',
             'Browser_Type' => 'Browser',
@@ -633,13 +633,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-511-P' => [
+    ),
+    'issue-511-P' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12A365',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mobile Safari UIWebView',
             'Browser' => 'Mobile Safari UIWebView',
             'Browser_Type' => 'Browser',
@@ -686,13 +686,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-511-Q' => [
+    ),
+    'issue-511-Q' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 6_1_4 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10B350',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mobile Safari UIWebView',
             'Browser' => 'Mobile Safari UIWebView',
             'Browser_Type' => 'Browser',
@@ -739,13 +739,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-511-R' => [
+    ),
+    'issue-511-R' => array(
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12A405',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mobile Safari UIWebView',
             'Browser' => 'Mobile Safari UIWebView',
             'Browser_Type' => 'Browser',
@@ -792,13 +792,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-511-T' => [
+    ),
+    'issue-511-T' => array(
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 7_1 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D167',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mobile Safari UIWebView',
             'Browser' => 'Mobile Safari UIWebView',
             'Browser_Type' => 'Browser',
@@ -845,13 +845,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-511-U' => [
+    ),
+    'issue-511-U' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10A405',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mobile Safari UIWebView',
             'Browser' => 'Mobile Safari UIWebView',
             'Browser_Type' => 'Browser',
@@ -898,13 +898,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-511-V' => [
+    ),
+    'issue-511-V' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_2 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/11A501',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mobile Safari UIWebView',
             'Browser' => 'Mobile Safari UIWebView',
             'Browser_Type' => 'Browser',
@@ -951,13 +951,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-511-X' => [
+    ),
+    'issue-511-X' => array(
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 6_0_1 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10A8426',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mobile Safari UIWebView',
             'Browser' => 'Mobile Safari UIWebView',
             'Browser_Type' => 'Browser',
@@ -1004,13 +1004,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-511-Y' => [
+    ),
+    'issue-511-Y' => array(
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 6_1_2 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10B146',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mobile Safari UIWebView',
             'Browser' => 'Mobile Safari UIWebView',
             'Browser_Type' => 'Browser',
@@ -1057,13 +1057,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-511-AA' => [
+    ),
+    'issue-511-AA' => array(
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 7_0_2 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/11A501',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mobile Safari UIWebView',
             'Browser' => 'Mobile Safari UIWebView',
             'Browser_Type' => 'Browser',
@@ -1110,13 +1110,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-511-AB' => [
+    ),
+    'issue-511-AB' => array(
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 7_1_1 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D201',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mobile Safari UIWebView',
             'Browser' => 'Mobile Safari UIWebView',
             'Browser_Type' => 'Browser',
@@ -1163,13 +1163,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-511-AD' => [
+    ),
+    'issue-511-AD' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 6_0_1 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10A523',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mobile Safari UIWebView',
             'Browser' => 'Mobile Safari UIWebView',
             'Browser_Type' => 'Browser',
@@ -1216,13 +1216,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-511-AE' => [
+    ),
+    'issue-511-AE' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; XT1080 Build/SU5-24) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.59 Mobile Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Chrome 39.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -1269,13 +1269,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-511-AF' => [
+    ),
+    'issue-511-AF' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; XT1080 Build/SU5-24) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.114 Mobile Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Chrome 38.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -1322,13 +1322,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-511-AG' => [
+    ),
+    'issue-511-AG' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; SM-G900V Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.114 Mobile Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Chrome 38.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -1375,13 +1375,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-511-AH' => [
+    ),
+    'issue-511-AH' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 6_1_3 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10B329',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mobile Safari UIWebView',
             'Browser' => 'Mobile Safari UIWebView',
             'Browser_Type' => 'Browser',
@@ -1428,13 +1428,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-511-AI' => [
+    ),
+    'issue-511-AI' => array(
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 7_0_4 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/11B554a',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mobile Safari UIWebView',
             'Browser' => 'Mobile Safari UIWebView',
             'Browser_Type' => 'Browser',
@@ -1481,13 +1481,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-511-AK' => [
+    ),
+    'issue-511-AK' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.3; HTC6500LVW Build/KTU84L) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.59 Mobile Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Chrome 39.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -1534,13 +1534,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-511-AL' => [
+    ),
+    'issue-511-AL' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 4_1_1 like Mac OS X) AppleWebKit/533.17.9 (KHTML, like Gecko) Mobile/10B329',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mobile Safari UIWebView',
             'Browser' => 'Mobile Safari UIWebView',
             'Browser_Type' => 'Browser',
@@ -1587,13 +1587,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-511-AM' => [
+    ),
+    'issue-511-AM' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 6_0_2 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10A551',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mobile Safari UIWebView',
             'Browser' => 'Mobile Safari UIWebView',
             'Browser_Type' => 'Browser',
@@ -1640,13 +1640,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-511-AN' => [
+    ),
+    'issue-511-AN' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 6_1 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10B142',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mobile Safari UIWebView',
             'Browser' => 'Mobile Safari UIWebView',
             'Browser_Type' => 'Browser',
@@ -1693,13 +1693,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-511-AP' => [
+    ),
+    'issue-511-AP' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_2 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D257 Version/6.0 Safari/537.51.2',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mobile Safari 6.0',
             'Browser' => 'Safari',
             'Browser_Type' => 'Browser',
@@ -1746,13 +1746,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-511-AQ' => [
+    ),
+    'issue-511-AQ' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/8.1 Mobile/9B179 Safari/7534.48.3 OktaMobile/4.0.9',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Okta Mobile 4.0',
             'Browser' => 'Okta Mobile App',
             'Browser_Type' => 'Application',
@@ -1799,13 +1799,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-511-AR' => [
+    ),
+    'issue-511-AR' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; HTC One_M8 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/19.77.34.5 Mobile Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Chrome 19.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -1852,13 +1852,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-511-AS' => [
+    ),
+    'issue-511-AS' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; SGP512 Build/23.0.1.A.0.167) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.114 Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Chrome 38.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -1905,13 +1905,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-511-AT' => [
+    ),
+    'issue-511-AT' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; es-us; SAMSUNG SCH-I545 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Android WebView 1.5',
             'Browser' => 'Android WebView',
             'Browser_Type' => 'Browser',
@@ -1958,13 +1958,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-511-AU' => [
+    ),
+    'issue-511-AU' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; SCH-I545 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.114 Mobile Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Chrome 38.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -2011,13 +2011,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-511-AV' => [
+    ),
+    'issue-511-AV' => array(
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_0 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12A365',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mobile Safari UIWebView',
             'Browser' => 'Mobile Safari UIWebView',
             'Browser_Type' => 'Browser',
@@ -2064,13 +2064,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-511-AW' => [
+    ),
+    'issue-511-AW' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.3; 831C Build/KTU84L) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.114 Mobile Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Chrome 38.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -2117,13 +2117,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-511-AX' => [
+    ),
+    'issue-511-AX' => array(
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 7_0_3 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/11B511',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mobile Safari UIWebView',
             'Browser' => 'Mobile Safari UIWebView',
             'Browser_Type' => 'Browser',
@@ -2170,13 +2170,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-511-AY' => [
+    ),
+    'issue-511-AY' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 6_0_1 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10A525',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mobile Safari UIWebView',
             'Browser' => 'Mobile Safari UIWebView',
             'Browser_Type' => 'Browser',
@@ -2223,13 +2223,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-511-AZ' => [
+    ),
+    'issue-511-AZ' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 6_1_1 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10B145',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mobile Safari UIWebView',
             'Browser' => 'Mobile Safari UIWebView',
             'Browser_Type' => 'Browser',
@@ -2276,13 +2276,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-511-BA' => [
+    ),
+    'issue-511-BA' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D169',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mobile Safari UIWebView',
             'Browser' => 'Mobile Safari UIWebView',
             'Browser_Type' => 'Browser',
@@ -2329,13 +2329,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-511-BB' => [
+    ),
+    'issue-511-BB' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12A366',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mobile Safari UIWebView',
             'Browser' => 'Mobile Safari UIWebView',
             'Browser_Type' => 'Browser',
@@ -2382,13 +2382,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-511-BC' => [
+    ),
+    'issue-511-BC' => array(
         'ua' => 'Mozilla/5.0 (iPod touch; CPU iPhone OS 8_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B411',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mobile Safari UIWebView',
             'Browser' => 'Mobile Safari UIWebView',
             'Browser_Type' => 'Browser',
@@ -2435,13 +2435,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-511-BD' => [
+    ),
+    'issue-511-BD' => array(
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.34 (KHTML, like Gecko) kmail2/4.14.2 Safari/534.34',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'KMail2 4.14',
             'Browser' => 'KMail2',
             'Browser_Type' => 'Email Client',
@@ -2488,13 +2488,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-511-BE' => [
+    ),
+    'issue-511-BE' => array(
         'ua' => 'Mozilla/5.0 (Android; Mobile; rv:33.1) Gecko/33.1 Firefox/33.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 33.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -2541,13 +2541,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '33.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-511-BF' => [
+    ),
+    'issue-511-BF' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; D2306 Build/18.3.C.0.37) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.114 Mobile Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Chrome 38.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -2594,13 +2594,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-511-BG' => [
+    ),
+    'issue-511-BG' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; SCH-I545 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/19.77.34.5 Mobile Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Chrome 19.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -2647,13 +2647,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-511-BH' => [
+    ),
+    'issue-511-BH' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.3; 831C Build/KTU84L) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.59 Mobile Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Chrome 39.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -2700,13 +2700,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-511-BI' => [
+    ),
+    'issue-511-BI' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; Nexus 5 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/19.77.34.5 Mobile Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Chrome 19.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -2753,13 +2753,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-511-BJ' => [
+    ),
+    'issue-511-BJ' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; XT1058 Build/KXA21.12-L1.26) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.114 Mobile Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Chrome 38.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -2806,13 +2806,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-511-BK' => [
+    ),
+    'issue-511-BK' => array(
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 6_0_1 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10A523',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mobile Safari UIWebView',
             'Browser' => 'Mobile Safari UIWebView',
             'Browser_Type' => 'Browser',
@@ -2859,13 +2859,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-511-BM' => [
+    ),
+    'issue-511-BM' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 6_1 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10B143',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mobile Safari UIWebView',
             'Browser' => 'Mobile Safari UIWebView',
             'Browser_Type' => 'Browser',
@@ -2912,13 +2912,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-511-BN' => [
+    ),
+    'issue-511-BN' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_5 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/11B601',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mobile Safari UIWebView',
             'Browser' => 'Mobile Safari UIWebView',
             'Browser_Type' => 'Browser',
@@ -2965,8 +2965,8 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-];
+    ),
+);

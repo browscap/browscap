@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-750-A' => [
+return array(
+    'issue-750-A' => array(
         'ua' => 'TestApp/1.0 CFNetwork/758.0.2 Darwin/15.0.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'CFNetwork for iOS',
             'Browser' => 'CFNetwork',
             'Browser_Type' => 'Application',
@@ -50,13 +50,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-750-B' => [
+    ),
+    'issue-750-B' => array(
         'ua' => 'AtomicBrowser/5.8.0 CFNetwork/485.13.9 Darwin/11.0.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Atomic Browser 5.8',
             'Browser' => 'Atomic Browser',
             'Browser_Type' => 'Browser',
@@ -103,8 +103,8 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-];
+    ),
+);

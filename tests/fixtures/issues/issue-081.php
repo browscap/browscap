@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-081-G' => [
+return array(
+    'issue-081-G' => array(
         'ua' => 'Mozilla/5.0 (compatible; Linux x86_64; Mail.RU_Bot/2.0; +http://go.mail.ru/help/robots)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mail.Ru',
             'Browser' => 'Mail.Ru',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,13 +50,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-081-F' => [
+    ),
+    'issue-081-F' => array(
         'ua' => 'masscan/1.0 (https://github.com/robertdavidgraham/masscan)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Download Managers',
             'Browser' => 'Download Accelerator',
             'Browser_Type' => 'Bot/Crawler',
@@ -103,13 +103,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-081-E' => [
+    ),
+    'issue-081-E' => array(
         'ua' => 'ZmEu',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'ZmEu',
             'Browser' => 'ZmEu',
             'Browser_Type' => 'Bot/Crawler',
@@ -156,13 +156,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-081-D' => [
+    ),
+    'issue-081-D' => array(
         'ua' => 'Mozilla/5.0 (X11; Linux i686; U;rv: 1.7.13) Gecko/20070322 Kazehakase/0.4.4.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Kazehakase 0.4',
             'Browser' => 'Kazehakase',
             'Browser_Type' => 'Browser',
@@ -209,13 +209,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-081-C' => [
+    ),
+    'issue-081-C' => array(
         'ua' => 'woobot/1.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'WooRank',
             'Browser' => 'WooRank',
             'Browser_Type' => 'Bot/Crawler',
@@ -262,13 +262,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-081-B' => [
+    ),
+    'issue-081-B' => array(
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko; Google Page Speed Insights) Chrome/27.0.1453 Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Google PageSpeed Insights',
             'Browser' => 'Google PageSpeed Insights',
             'Browser_Type' => 'Bot/Crawler',
@@ -315,13 +315,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-081-A' => [
+    ),
+    'issue-081-A' => array(
         'ua' => 'Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Sogou',
             'Browser' => 'Sogou Web Spider',
             'Browser_Type' => 'Bot/Crawler',
@@ -368,8 +368,8 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

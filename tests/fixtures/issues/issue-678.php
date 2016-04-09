@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-678-A' => [
+return array(
+    'issue-678-A' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; rv:37.0) Gecko/20100101 Firefox/37.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 37.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -50,13 +50,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '37.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-678-B' => [
+    ),
+    'issue-678-B' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; rv:38.0) Gecko/20100101 Firefox/38.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 38.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -103,8 +103,8 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '38.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-];
+    ),
+);

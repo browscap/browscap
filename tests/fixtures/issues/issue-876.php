@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-876-A' => [
+return array(
+    'issue-876-A' => array(
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.2.1; es-us) AppleWebKit/534.12 (KHTML, like Gecko) Puffin/1.3.2913S Mobile Safari/534.12',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Puffin 1.3',
             'Browser' => 'Puffin',
             'Browser_Type' => 'Browser',
@@ -50,13 +50,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-876-B' => [
+    ),
+    'issue-876-B' => array(
         'ua' => 'Mozilla/5.0 (Linux; U; Android 3.2.1; es-es) AppleWebKit/534.35 (KHTML, like Gecko) Chrome/11.0.696.65 Safari/534.35 Puffin/2.0.6440M Mobile',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Puffin 2.0',
             'Browser' => 'Puffin',
             'Browser_Type' => 'Browser',
@@ -103,13 +103,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-876-C' => [
+    ),
+    'issue-876-C' => array(
         'ua' => 'Mozilla/5.0 (Linux; U; Android 3.2; en-gb) AppleWebKit/534.35 (KHTML, like Gecko) Chrome/11.0.696.65 Safari/534.35 Puffin/2.0.5932M Mobile',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Puffin 2.0',
             'Browser' => 'Puffin',
             'Browser_Type' => 'Browser',
@@ -156,13 +156,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-876-D' => [
+    ),
+    'issue-876-D' => array(
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; en-us) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/2.9909AT Mobile',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Puffin 2.0',
             'Browser' => 'Puffin',
             'Browser_Type' => 'Browser',
@@ -209,13 +209,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-876-E' => [
+    ),
+    'issue-876-E' => array(
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; de-de) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/3.11558AT Mobile',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Puffin 3.0',
             'Browser' => 'Puffin',
             'Browser_Type' => 'Browser',
@@ -262,13 +262,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-876-F' => [
+    ),
+    'issue-876-F' => array(
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-us) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/3.11558AP Mobile',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Puffin 3.0',
             'Browser' => 'Puffin',
             'Browser_Type' => 'Browser',
@@ -315,13 +315,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-876-G' => [
+    ),
+    'issue-876-G' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; th-TH@calendar=gregorian) AppleWebKit/534.12 (KHTML, like Gecko) Puffin/1.3.2665MS Safari/534.12',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Puffin 1.3',
             'Browser' => 'Puffin',
             'Browser_Type' => 'Browser',
@@ -368,13 +368,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-876-H' => [
+    ),
+    'issue-876-H' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; ar-AE) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/3.10990IT',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Puffin 3.0',
             'Browser' => 'Puffin',
             'Browser_Type' => 'Browser',
@@ -421,13 +421,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-876-I' => [
+    ),
+    'issue-876-I' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; ar-SA) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/3.11546IP',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Puffin 3.0',
             'Browser' => 'Puffin',
             'Browser_Type' => 'Browser',
@@ -474,13 +474,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-876-J' => [
+    ),
+    'issue-876-J' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; de-at) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/2.10977AT',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Puffin 2.0',
             'Browser' => 'Puffin',
             'Browser_Type' => 'Browser',
@@ -527,13 +527,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-876-K' => [
+    ),
+    'issue-876-K' => array(
         'ua' => 'Mozilla/5.0 (iPad; U; CPU OS 7_0_6 like Mac OS X; de-DE) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/3.11558IT Mobile',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Puffin 3.0',
             'Browser' => 'Puffin',
             'Browser_Type' => 'Browser',
@@ -580,13 +580,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-876-L' => [
+    ),
+    'issue-876-L' => array(
         'ua' => 'Mozilla/5.0 (iPhone; U; CPU iPhone OS 7_0_6 like Mac OS X; de-DE) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/3.11558IP Mobile',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Puffin 3.0',
             'Browser' => 'Puffin',
             'Browser_Type' => 'Browser',
@@ -633,13 +633,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-876-M' => [
+    ),
+    'issue-876-M' => array(
         'ua' => 'Mozilla/5.0 (iPod; U; CPU iPhone OS 4_3_5 like Mac OS X; en-US) AppleWebKit/534.12 (KHTML, like Gecko) Puffin/1.3.3102MS Mobile Safari/534.12',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Puffin 1.3',
             'Browser' => 'Puffin',
             'Browser_Type' => 'Browser',
@@ -686,13 +686,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-876-N' => [
+    ),
+    'issue-876-N' => array(
         'ua' => 'Mozilla/5.0 (iPod; U; CPU iPhone OS 5_1_1 like Mac OS X; de-DE) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/3.9174IP Mobile',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Puffin 3.0',
             'Browser' => 'Puffin',
             'Browser_Type' => 'Browser',
@@ -739,8 +739,8 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

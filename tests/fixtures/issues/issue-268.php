@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-268' => [
+return array(
+    'issue-268' => array(
         'ua' => 'Mozilla/5.0 (compatible; Embedly/0.2; snap; +http://support.embed.ly/)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Social Bookmarkers',
             'Browser' => 'Embedly',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

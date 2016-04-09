@@ -1,9 +1,10 @@
 <?php
 
-return [
-    'issue-922' => [
-        'Digg Feed Fetcher 1.0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_1) AppleWebKit/534.48.3 (KHTML, like Gecko) Version/5.1 Safari/534.48.3)',
-        [
+return array(
+    'issue-922' => array(
+        'ua' => 'Digg Feed Fetcher 1.0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_1) AppleWebKit/534.48.3 (KHTML, like Gecko) Version/5.1 Safari/534.48.3)',
+        'properties' => array(
+            'Comment' => 'General RSS',
             'Browser' => 'Digg Feed Fetcher',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
@@ -14,23 +15,32 @@ return [
             'MinorVer' => '0',
             'Platform' => 'MacOSX',
             'Platform_Version' => '10.7',
+            'Platform_Description' => 'Mac OS X',
             'Platform_Bits' => '0',
             'Platform_Maker' => 'Apple Inc',
+            'Alpha' => false,
+            'Beta' => false,
             'Win16' => false,
             'Win32' => false,
             'Win64' => false,
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Crawler' => true,
-            'JavaScript' => false,
-            'Cookies' => false,
             'Frames' => false,
             'IFrames' => false,
             'Tables' => false,
+            'Cookies' => false,
+            'BackgroundSounds' => false,
+            'JavaScript' => false,
             'VBScript' => false,
             'JavaApplets' => true,
             'ActiveXControls' => false,
-            'BackgroundSounds' => false,
+            'isMobileDevice' => false,
+            'isTablet' => false,
+            'isSyndicationReader' => true,
+            'Crawler' => true,
+            'isFake' => false,
+            'isAnonymized' => false,
+            'isModified' => false,
+            'CssVersion' => '0',
+            'AolVersion' => '0',
             'Device_Name' => 'Macintosh',
             'Device_Maker' => 'Apple Inc',
             'Device_Type' => 'Desktop',
@@ -40,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
-        'lite'     => false,
+        ),
+        'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

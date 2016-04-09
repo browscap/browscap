@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-931' => [
+return array(
+    'issue-931' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; Nexus 6 Build/MMB29V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.105 Mobile Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Chrome 49.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -50,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

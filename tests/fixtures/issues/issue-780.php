@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-780' => [
+return array(
+    'issue-780' => array(
         'ua' => 'Alizee iPod 2005 (Beta; Mac OS X)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mobile Safari UIWebView',
             'Browser' => 'Mobile Safari UIWebView',
             'Browser_Type' => 'Browser',
@@ -50,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-039' => [
+return array(
+    'issue-039' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; de; rv:1.8.1.11) Gecko/20071127 Firefox/2.0.0.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 2.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -50,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.8',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

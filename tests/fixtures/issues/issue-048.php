@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-048' => [
+return array(
+    'issue-048' => array(
         'ua' => 'Mozilla/5.0 (Android; Mobile; rv:26.0) Gecko/26.0 Firefox/26.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 26.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -50,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '26.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

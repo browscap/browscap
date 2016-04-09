@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-096-CE' => [
+return array(
+    'issue-096-CE' => array(
         'ua' => 'com.douban.group/2.2.0(220) Mozilla/5.0 (Linux; U; Android 4.1.1; zh-cn; MI 2A Build/JRO03L) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'douban App',
             'Browser' => 'douban App',
             'Browser_Type' => 'Application',
@@ -50,13 +50,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-096-CD' => [
+    ),
+    'issue-096-CD' => array(
         'ua' => 'Mozilla/5.0 (hp-tablet; Linux; hpwOS/3.0.5; U; fr-CA) AppleWebKit/534.6 (KHTML, like Gecko) wOSBrowser/234.83 Safari/534.6 Touchpad/1.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'WebKit/webOS Generic',
             'Browser' => 'WebKit/webOS',
             'Browser_Type' => 'Browser',
@@ -103,13 +103,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-096-CC' => [
+    ),
+    'issue-096-CC' => array(
         'ua' => 'Mozilla/4.0(compatible;Polaris 6.2;Brew 3.1.5;U;en)/400x240 Samsung SCH-U820',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Polaris',
             'Browser' => 'Polaris',
             'Browser_Type' => 'Application',
@@ -156,13 +156,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-096-CB' => [
+    ),
+    'issue-096-CB' => array(
         'ua' => 'Mozilla/5.0(iPad; U;CPU OS 7 like Mac OS X; zh-CN; iPad2,5) AppleWebKit/534.46 (KHTML, like Gecko) UCBrowser/2.0.1.280 U3/0.8.0 Safari/7543.48.3',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'UC Browser 2.0',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
@@ -209,13 +209,13 @@ return [
             'RenderingEngine_Name' => 'U3',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'UCWeb Inc.',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-096-CA' => [
+    ),
+    'issue-096-CA' => array(
         'ua' => 'LG-GD350/V100 Obigo/WAP2.0 Profile/MIDP-2.1 Configuration/CLDC-1.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Teleca-Obigo',
             'Browser' => 'Teleca-Obigo',
             'Browser_Type' => 'Browser',
@@ -262,13 +262,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-096-BZ' => [
+    ),
+    'issue-096-BZ' => array(
         'ua' => 'Mozilla/5.0 (iPod touch; U; CPU iPhone OS 4_2_1 like Mac OS X; es_ES) AppleWebKit (KHTML, like Gecko) Mobile [FBAN/FBForIPhone;FBAV/4.1.1;FBBV/4110.0;FBDV/iPod2,1;FBMD/iPod touch;FBSN/iPhone OS;FBSV/4.2.1;FBSS/1; FBCR/;FBID/phone;FBLC/es_ES;FBSF/1.0]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Facebook App for iOS',
             'Browser' => 'Facebook App',
             'Browser_Type' => 'Application',
@@ -315,13 +315,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-096-BY' => [
+    ),
+    'issue-096-BY' => array(
         'ua' => 'Mozilla/5.0 (Linux; U; en-au; KFAPWI Build/JDQ39) AppleWebKit/535.19 (KHTML, like Gecko) Silk/3.11 Safari/535.19 Silk-Accelerated=true',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Silk 3.11',
             'Browser' => 'Silk',
             'Browser_Type' => 'Browser',
@@ -368,13 +368,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-096-BX' => [
+    ),
+    'issue-096-BX' => array(
         'ua' => 'Mozilla/5.0 (Linux; U; en-us; KFJWA Build/IMM76D) AppleWebKit/535.19 (KHTML, like Gecko) Silk/3.8 Safari/535.19 Silk-Accelerated=false',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Silk 3.8',
             'Browser' => 'Silk',
             'Browser_Type' => 'Browser',
@@ -421,13 +421,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-096-BW' => [
+    ),
+    'issue-096-BW' => array(
         'ua' => 'SAMSUNG-SGH-T528g/T528UDKE4[TF355314045027030009640018153425713] Dolfin/1.5 SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Dolfin 1.5',
             'Browser' => 'Dolfin',
             'Browser_Type' => 'Browser',
@@ -474,13 +474,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-096-BV' => [
+    ),
+    'issue-096-BV' => array(
         'ua' => 'SonyEricssonS312/R1EA Browser/OpenWave/1.0 Profile/MIDP-2.1 Configuration/CLDC-1.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Openwave Mobile Browser',
             'Browser' => 'Openwave Mobile Browser',
             'Browser_Type' => 'Browser',
@@ -527,13 +527,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-096-BU' => [
+    ),
+    'issue-096-BU' => array(
         'ua' => 'Firefox/25.0 (de); anonymized by Abelssoft 1704153795',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 25.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -580,13 +580,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '25.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-096-BT' => [
+    ),
+    'issue-096-BT' => array(
         'ua' => 'Mozilla/5.0 (Linux; U; Android 1.5; fr-fr; GT-I5700 Build/CUPCAKE) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Android Browser 3.1',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -633,13 +633,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-096-BS' => [
+    ),
+    'issue-096-BS' => array(
         'ua' => 'iBrowser/3.1/Mozilla/5.0 (Linux; U; Android 2.2; en-gb; GT-I5510 Build/FROYO) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'iBrowser 3.1',
             'Browser' => 'iBrowser',
             'Browser_Type' => 'Browser',
@@ -686,13 +686,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-096-BR' => [
+    ),
+    'issue-096-BR' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_9_1; en-US) AppleWebKit/533.21.1+(KHTML, like Gecko, Safari/533.19.4) Version/5.11 OmniWeb/622.16.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'OmniWeb 5.11',
             'Browser' => 'OmniWeb',
             'Browser_Type' => 'Browser',
@@ -739,13 +739,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-096-BQ' => [
+    ),
+    'issue-096-BQ' => array(
         'ua' => 'MQQBrowser/3.2/Mozilla/5.0 (Linux; U; Android 4.1.2; en-gb; GT-N7100 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'QQbrowser 3.2',
             'Browser' => 'QQbrowser',
             'Browser_Type' => 'Browser',
@@ -792,13 +792,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-096-BP' => [
+    ),
+    'issue-096-BP' => array(
         'ua' => 'Tablet-PC-4.1-Mozilla/5.0 (Linux; U; Android 4.1.1; el-gr; INM8002KP Build/JRO03H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Android Browser 4.0',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -845,13 +845,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-096-BO' => [
+    ),
+    'issue-096-BO' => array(
         'ua' => 'Mozilla/5.0 (X11; FreeBSD; U; Viera; pt-BR) AppleWebKit/535.1 (KHTML, like Gecko) Viera/1.5.1 Chrome/14.0.835.202 Safari/535.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'SmartViera 1.5',
             'Browser' => 'SmartViera',
             'Browser_Type' => 'Browser',
@@ -898,13 +898,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-096-BN' => [
+    ),
+    'issue-096-BN' => array(
         'ua' => 'JUC (Linux; U; 2.2.1; zh-cn; GT-S5570; 240*320) UCWEB7.9.0.94/139/444',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'UC Browser 7.9',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
@@ -951,13 +951,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-096-BM' => [
+    ),
+    'issue-096-BM' => array(
         'ua' => 'Huawei/1.0/HUAWEI-G7300 Browser/Opera MMS/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 Opera/9.80 (MTK; Nucleus; Opera Mobi/4000; U; it-IT) Presto/2.5.28 Version/10.10',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera Mobile 10.10',
             'Browser' => 'Opera Mobile',
             'Browser_Type' => 'Browser',
@@ -1004,13 +1004,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-096-BL' => [
+    ),
+    'issue-096-BL' => array(
         'ua' => 'OPPO_R813T/1.0 Linux/3.0.35.7 Android/4.0 Release/11.15.2012 Browser/AppleWebKit534.30 Mobile Safari/534.30 MBBMS/2.2',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Android Browser 4.0',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -1057,13 +1057,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-096-BK' => [
+    ),
+    'issue-096-BK' => array(
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.6; zh-cn; sprd-B51+/1.0 Android/2.3.6 Release/fk.ho.hfgi Browser/AppleWebKit533.1 Build/MocorDroid2.3.5) AppleWebKit533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Android Browser 4.0',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -1110,13 +1110,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-096-BJ' => [
+    ),
+    'issue-096-BJ' => array(
         'ua' => 'Mozilla/5.0 (masking-agent; rv:15.0) Gecko/20100101 Firefox/15.0.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 15.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -1163,13 +1163,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '15.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-096-BI' => [
+    ),
+    'issue-096-BI' => array(
         'ua' => 'Mozilla/5.0 (iPad; U; CPU iPhone OS 5_1_1 like Mac OS X; en_US) AppleWebKit (KHTML, like Gecko) Mobile [FBAN/FBForIPhone;FBAV/4.1.1;FBBV/4110.0;FBDV/iPad3,1;FBMD/iPad;FBSN/iPhone OS;FBSV/5.1.1;FBSS/2; FBCR/;FBID/tablet;FBLC/en_US;FBSF/2.0]',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Facebook App for iOS',
             'Browser' => 'Facebook App',
             'Browser_Type' => 'Application',
@@ -1216,13 +1216,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-096-BH' => [
+    ),
+    'issue-096-BH' => array(
         'ua' => 'Mozilla/5.0 (iPhone5,2; iPhone; U; CPU OS 7_0_4 like Mac OS X; it_IT) com.google.GooglePlus/29676 (KHTML, like Gecko) Mobile/N42AP (gzip)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Google+ App',
             'Browser' => 'Google+ App',
             'Browser_Type' => 'Application',
@@ -1269,13 +1269,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-096-BG' => [
+    ),
+    'issue-096-BG' => array(
         'ua' => 'SAMSUNG-GT-E3309T Opera/9.80 (J2ME/MIDP; Opera Mini/4.4.34189/34.1016; U; en) Presto/2.8.119 Version/11.10',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera Mini 4.4',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
@@ -1322,13 +1322,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-096-BF' => [
+    ),
+    'issue-096-BF' => array(
         'ua' => 'Mozilla/5.0 (Linux; U; Android 3.2.1; en-us) AppleWebKit/534.35 (KHTML, like Gecko) Chrome/11.0.696.65 Safari/534.35 Puffin/2.10990AT Mobile',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Puffin 2.0',
             'Browser' => 'Puffin',
             'Browser_Type' => 'Browser',
@@ -1375,13 +1375,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-096-BE' => [
+    ),
+    'issue-096-BE' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; rv:) Gecko/20100101 Firefox/ anonymized by Abelssoft 1433017337',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox Generic',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -1428,13 +1428,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-096-BD' => [
+    ),
+    'issue-096-BD' => array(
         'ua' => 'AT-AS40SE Linux/3.0.13 Android/4.0.4 Release/04.10.2013 Browser/AppleWebKit534.30 Profile/MIDP-2.0 Configuration/CLDC-1.1 Mobile Safari/534.30 Android 4.0.1;',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Android Browser 4.0',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -1481,13 +1481,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-096-BC' => [
+    ),
+    'issue-096-BC' => array(
         'ua' => 'UCWEB/2.0 (Linux; U; Opera Mini/7.1.32052/30.3697; en-US; AX5_Duo) U2/1.0.0 UCBrowser/8.8.1.359 Mobile',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'UC Browser 8.8',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
@@ -1534,13 +1534,13 @@ return [
             'RenderingEngine_Name' => 'U2',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'UCWeb Inc.',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-096-BB' => [
+    ),
+    'issue-096-BB' => array(
         'ua' => 'Opera/9.80 (BREW; Opera Mini/5.0/27.2339; U; en) Presto/2.8.119 320X240 Samsung SCH-U750',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera Mini 5.0',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
@@ -1587,13 +1587,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-096-BA' => [
+    ),
+    'issue-096-BA' => array(
         'ua' => 'UCWEB/2.0 (iOS; U; iPh OS 7_0_4; zh-CN; iPh5,2) U2/1.0.0 UCBrowser/9.0.1.284 U2/1.0.0 Mobile',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'UC Browser 9.0',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
@@ -1640,13 +1640,13 @@ return [
             'RenderingEngine_Name' => 'U2',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'UCWeb Inc.',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-096-AZ' => [
+    ),
+    'issue-096-AZ' => array(
         'ua' => 'UCWEB/2.0 (Windows; U; wds 7.10; en-US; SAMSUNG; GT-I8350) U2/1.0.0 UCBrowser/3.2.0.340 U2/1.0.0 Mobile',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'UC Browser 3.2',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
@@ -1693,13 +1693,13 @@ return [
             'RenderingEngine_Name' => 'U2',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'UCWeb Inc.',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-096-AY' => [
+    ),
+    'issue-096-AY' => array(
         'ua' => 'UCWEB/2.0 (Symbian; U; S60 V5; en-US; SonyEricssonU1) U2/1.0.0 UCBrowser/8.9.0.277 U2/1.0.0 Mobile',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'UC Browser 8.9',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
@@ -1746,13 +1746,13 @@ return [
             'RenderingEngine_Name' => 'U2',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'UCWeb Inc.',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-096-AX' => [
+    ),
+    'issue-096-AX' => array(
         'ua' => 'OneBrowser/3.5/Mozilla/5.0 (Linux; U; Android 2.3.6; en-gb; GT-S5302 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'OneBrowser 3.5',
             'Browser' => 'OneBrowser',
             'Browser_Type' => 'Browser',
@@ -1799,13 +1799,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-096-AW' => [
+    ),
+    'issue-096-AW' => array(
         'ua' => 'JUC (Linux; U; 2.3.6; zh-cn; Aqua_Star; 320*480) UCWEB7.9.0.94/139/444',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'UC Browser 7.9',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
@@ -1852,13 +1852,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-096-AV' => [
+    ),
+    'issue-096-AV' => array(
         'ua' => 'UCWEB/2.0 (Linux; U; Adr 2.2.1; en-US; GT-S5570) U2/1.0.0 UCBrowser/8.2.0.242 U2/1.0.0 Mobile',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'UC Browser 8.2',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
@@ -1905,13 +1905,13 @@ return [
             'RenderingEngine_Name' => 'U2',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'UCWeb Inc.',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-096-AU' => [
+    ),
+    'issue-096-AU' => array(
         'ua' => 'UCWEB/2.0 (Linux; U; Adr 2.3.6; en-US; GT-S5360) U2/1.0.0 UCBrowser/9.2.3.324 U2/1.0.0 Mobile',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'UC Browser 9.2',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
@@ -1958,13 +1958,13 @@ return [
             'RenderingEngine_Name' => 'U2',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'UCWeb Inc.',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-096-AT' => [
+    ),
+    'issue-096-AT' => array(
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 4.1.2; en-US; GT-S7262) U2/1.0.0 UCBrowser/8.8.1.359 U2/1.0.0 Mobile',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'UC Browser 8.8',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
@@ -2011,13 +2011,13 @@ return [
             'RenderingEngine_Name' => 'U2',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'UCWeb Inc.',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-096-AS' => [
+    ),
+    'issue-096-AS' => array(
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; en-US; GT-S7562 Build/IMM76I) AppleWebKit/534.31 (KHTML, like Gecko) UCBrowser/9.3.1.344 U3/0.8.0 Mobile Safari/534.31',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'UC Browser 9.3',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
@@ -2064,13 +2064,13 @@ return [
             'RenderingEngine_Name' => 'U3',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'UCWeb Inc.',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-096-AR' => [
+    ),
+    'issue-096-AR' => array(
         'ua' => 'MicromaxX650 ASTRO36_TD/v3 MAUI/10A1032MP_ASTRO_W1052 Release/31.12.2010 Browser/Opera Sync/SyncClient1.1 Profile/MIDP-2.0 Configuration/CLDC-1.1 Opera/9.80 (MTK; U; en-US) Presto/2.5.28 Version/10.10',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera Mobile 10.10',
             'Browser' => 'Opera Mobile',
             'Browser_Type' => 'Browser',
@@ -2117,13 +2117,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-096-AQ' => [
+    ),
+    'issue-096-AQ' => array(
         'ua' => 'Opera/9.80 (MAUI Runtime; Opera Mini/4.4.31762/34.1000; U; en) Presto/2.8.119 Version/11.10',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera Mini 4.4',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
@@ -2170,13 +2170,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-096-AP' => [
+    ),
+    'issue-096-AP' => array(
         'ua' => 'Opera/9.80 (Bada; Opera Mini/6.5/34.1016; U; tr) Presto/2.8.119 Version/11.10',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera Mini 6.5',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
@@ -2223,13 +2223,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-096-AO' => [
+    ),
+    'issue-096-AO' => array(
         'ua' => 'Opera/9.80 (BREW; Opera Mini/6.5/34.1016; U; en) Presto/2.8.119 Version/11.10',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera Mini 6.5',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
@@ -2276,13 +2276,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-096-AN' => [
+    ),
+    'issue-096-AN' => array(
         'ua' => 'UCWEB/2.0 (Linux; U; Adr 4.1.1; en-US; AURUS III) U2/1.0.0 UCBrowser/9.3.0.321 U2/1.0.0 Mobile',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'UC Browser 9.3',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
@@ -2329,13 +2329,13 @@ return [
             'RenderingEngine_Name' => 'U2',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'UCWeb Inc.',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-096-AM' => [
+    ),
+    'issue-096-AM' => array(
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.3; en-us; KFTT Build/IML74K) AppleWebKit/535.7 (KHTML, like Gecko) CrMo/16.0.912.77 Safari/535.7',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Chrome 16.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -2382,13 +2382,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-096-AL' => [
+    ),
+    'issue-096-AL' => array(
         'ua' => 'JUC(Linux;U;Android2.3.5;Zh_cn;Micromax A35;480*800;)UCWEB7.8.0.95/139/444',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'UC Browser 7.8',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
@@ -2435,13 +2435,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-096-AK' => [
+    ),
+    'issue-096-AK' => array(
         'ua' => 'OneBrowser/4.2.0/Adr(Linux; U; Android 2.3.5; en-us; Micromax A27 Build/MocorDroid2.3.5) AppleWebKit/533.1 (KHTML, like Gecko) Mobile Safari/533.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'OneBrowser 4.2',
             'Browser' => 'OneBrowser',
             'Browser_Type' => 'Browser',
@@ -2488,13 +2488,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-096-AJ' => [
+    ),
+    'issue-096-AJ' => array(
         'ua' => 'UCWEB/2.0 (Linux; U; Adr 2.3.5; en-US; Micromax A27) U2/1.0.0 UCBrowser/9.3.2.349 U2/1.0.0 Mobile',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'UC Browser 9.3',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
@@ -2541,13 +2541,13 @@ return [
             'RenderingEngine_Name' => 'U2',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'UCWeb Inc.',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-096-AI' => [
+    ),
+    'issue-096-AI' => array(
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; en-US; GT-S7562 Build/IMM76I) AppleWebKit/534.31 (KHTML, like Gecko) UCBrowser/9.3.2.349 U3/0.8.0 Mobile Safari/534.31',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'UC Browser 9.3',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
@@ -2594,13 +2594,13 @@ return [
             'RenderingEngine_Name' => 'U3',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'UCWeb Inc.',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-096-AH' => [
+    ),
+    'issue-096-AH' => array(
         'ua' => 'Mozilla/5.0 (Linux; U; en-us; KFTHWI Build/JDQ39) AppleWebKit/535.19 (KHTML, like Gecko) Silk/3.12 Safari/535.19 Silk-Accelerated=true',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Silk 3.12',
             'Browser' => 'Silk',
             'Browser_Type' => 'Browser',
@@ -2647,13 +2647,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-096-AG' => [
+    ),
+    'issue-096-AG' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:29.0) Gecko/20100101 Firefox/29.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 29.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -2700,13 +2700,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '29.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-096-AF' => [
+    ),
+    'issue-096-AF' => array(
         'ua' => 'SAMSUNG-GT-B7722/DDKD1 SHP/VPP/R5 Dolfin/1.5 Nextreaming SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Dolfin 1.5',
             'Browser' => 'Dolfin',
             'Browser_Type' => 'Browser',
@@ -2753,13 +2753,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-096-AE' => [
+    ),
+    'issue-096-AE' => array(
         'ua' => 'OneBrowser/4.2.0/Adr(Linux; U; Android 4.0.4; en-gb; GT-S7562 Build/IMM76I) AppleWebKit/533.1 (KHTML, like Gecko) Mobile Safari/533.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'OneBrowser 4.2',
             'Browser' => 'OneBrowser',
             'Browser_Type' => 'Browser',
@@ -2806,13 +2806,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-096-AD' => [
+    ),
+    'issue-096-AD' => array(
         'ua' => 'Opera/9.80 (J2ME/MIDP; Opera Mini; U; en) Presto/2.8.119 Version/11.10',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera Mini Generic',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
@@ -2859,13 +2859,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-096-AC' => [
+    ),
+    'issue-096-AC' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:29.0) Gecko/20100101 Firefox/29.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 29.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -2912,13 +2912,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '29.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-096-AB' => [
+    ),
+    'issue-096-AB' => array(
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; en-US; GT-S7562 Build/IMM76I) AppleWebKit/534.31 (KHTML, like Gecko) UCBrowser/9.2.3.324 U3/0.8.0 Mobile Safari/534.31',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'UC Browser 9.2',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
@@ -2965,13 +2965,13 @@ return [
             'RenderingEngine_Name' => 'U3',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'UCWeb Inc.',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-096-AA' => [
+    ),
+    'issue-096-AA' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:29.0) Gecko/20100101 Firefox/29.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 29.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -3018,13 +3018,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '29.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-096-Z' => [
+    ),
+    'issue-096-Z' => array(
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; en-gb; ALCATEL ONE TOUCH 4030D Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.1 Mobile Safari/534.30',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Android Browser 4.1',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -3071,13 +3071,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-096-Y' => [
+    ),
+    'issue-096-Y' => array(
         'ua' => 'MT6515M-A1+/1.0 Linux/2.6.35.7 Android 2.3.6 Release/12.09.2012 Browser/AppleWebKit533.1 (KHTML, like Gecko) Mozilla/5.0 Mobile',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Android Browser 4.0',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -3124,13 +3124,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-096-W' => [
+    ),
+    'issue-096-W' => array(
         'ua' => 'UCWEB/2.0 (Linux; U; Opera Mini/7.1.32052/30.3697; en-US; GT-S7262) U2/1.0.0 UCBrowser/8.8.1.359 Mobile',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'UC Browser 8.8',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
@@ -3177,13 +3177,13 @@ return [
             'RenderingEngine_Name' => 'U2',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'UCWeb Inc.',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-096-V' => [
+    ),
+    'issue-096-V' => array(
         'ua' => 'SAMSUNG-GT-S3802 Opera/9.80 (J2ME/MIDP; Opera Mini/7.1.32830/34.1000; U; en) Presto/2.8.119 Version/11.10',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera Mini 7.1',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
@@ -3230,13 +3230,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-096-S' => [
+    ),
+    'issue-096-S' => array(
         'ua' => 'SAMSUNG-GT-C6712/C6712DDKG1 SHP/VPP/R5 Dolfin/2.0 NexPlayer/3.0 SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1 OPN-B',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Dolfin 2.0',
             'Browser' => 'Dolfin',
             'Browser_Type' => 'Browser',
@@ -3283,13 +3283,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-096-R' => [
+    ),
+    'issue-096-R' => array(
         'ua' => 'Opera/9.80 (J2ME/MIDP; Opera Mini/6.5.27510/34.1000; U; en) Presto/2.8.119 Version/11.10',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera Mini 6.5',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
@@ -3336,13 +3336,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-096-Q' => [
+    ),
+    'issue-096-Q' => array(
         'ua' => 'SAMSUNG-GT-C3262 Opera/9.80 (J2ME/MIDP; Opera Mini/7.0.30281/34.1000; U; en) Presto/2.8.119 Version/11.10',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera Mini 7.0',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
@@ -3389,13 +3389,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-096-P' => [
+    ),
+    'issue-096-P' => array(
         'ua' => 'iBrowser/2.7 Mozilla/5.0 (Linux; U; Android 2.3.6; en-in; A1+ Build/MocorDroid2.3.5) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'iBrowser 2.7',
             'Browser' => 'iBrowser',
             'Browser_Type' => 'Browser',
@@ -3442,13 +3442,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-096-O' => [
+    ),
+    'issue-096-O' => array(
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; en-us; AURUS III Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.1 Mobile Safari/534.30',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Android Browser 4.1',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -3495,13 +3495,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-096-N' => [
+    ),
+    'issue-096-N' => array(
         'ua' => 'SAMSUNG-GT-E2202 Opera/9.80 (J2ME/MIDP; Opera Mini/4.4.32420/34.1000; U; en) Presto/2.8.119 Version/11.10',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera Mini 4.4',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
@@ -3548,13 +3548,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-096-M' => [
+    ),
+    'issue-096-M' => array(
         'ua' => 'Mozilla/5.0 (Linux; U; en-us; KFOT Build/IML74K) AppleWebKit/535.19 (KHTML, like Gecko) Silk/3.11 Safari/535.19 Silk-Accelerated=true',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Silk 3.11',
             'Browser' => 'Silk',
             'Browser_Type' => 'Browser',
@@ -3601,13 +3601,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-096-L' => [
+    ),
+    'issue-096-L' => array(
         'ua' => 'SAMSUNG-GT-E2252 Opera/9.80 (J2ME/MIDP; Opera Mini/4.4.29595/34.1000; U; en) Presto/2.8.119 Version/11.10',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera Mini 4.4',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
@@ -3654,13 +3654,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-096-K' => [
+    ),
+    'issue-096-K' => array(
         'ua' => 'Mozilla/5.0 (Linux;U; Android 2.3.5; en-us; Micromax A40 Build/IML74K) AppleWebKit/534.30(khtml,LIKE Gecko) Version/4.0 Mobile Safari/534.30',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Android Browser 4.0',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -3707,13 +3707,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-096-J' => [
+    ),
+    'issue-096-J' => array(
         'ua' => 'SAMSUNG-GT-E1282T Opera/9.80 (J2ME/MIDP; Opera Mini/4.4.31524/34.1016; U; en) Presto/2.8.119 Version/11.10',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera Mini 4.4',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
@@ -3760,13 +3760,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-096-I' => [
+    ),
+    'issue-096-I' => array(
         'ua' => 'Mozilla/5.0 (Linux; U; en-us; KFSOWI Build/JDQ39) AppleWebKit/535.19 (KHTML, like Gecko) Silk/3.8 Safari/535.19 Silk-Accelerated=true',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Silk 3.8',
             'Browser' => 'Silk',
             'Browser_Type' => 'Browser',
@@ -3813,13 +3813,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-096-H' => [
+    ),
+    'issue-096-H' => array(
         'ua' => 'Mozilla/5.0 (Linux; U; en-us; KFOT Build/IML74K) AppleWebKit/535.19 (KHTML, like Gecko) Silk/3.8 Safari/535.19 Silk-Accelerated=true',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Silk 3.8',
             'Browser' => 'Silk',
             'Browser_Type' => 'Browser',
@@ -3866,13 +3866,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-096-G' => [
+    ),
+    'issue-096-G' => array(
         'ua' => 'Mastone_G9_TD/V2.00 Release/3.19.2012 Mozilla/5.0 (Linux; U; Android 2.3.5) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Android Browser 4.0',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -3919,13 +3919,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-096-F' => [
+    ),
+    'issue-096-F' => array(
         'ua' => 'Opera/9.80 (SpreadTrum; Opera Mini/4.4.31492/34.1000; U; en) Presto/2.8.119 Version/11.10',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera Mini 4.4',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
@@ -3972,13 +3972,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-096-D' => [
+    ),
+    'issue-096-D' => array(
         'ua' => 'Mozilla/5.0 (Linux; U; en-us; KFTT Build/IML74K) AppleWebKit/535.19 (KHTML, like Gecko) Silk/3.8 Safari/535.19 Silk-Accelerated=true',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Silk 3.8',
             'Browser' => 'Silk',
             'Browser_Type' => 'Browser',
@@ -4025,13 +4025,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-096-C' => [
+    ),
+    'issue-096-C' => array(
         'ua' => 'SAMSUNG-GT-E1282T Opera/9.80 (J2ME/MIDP; Opera Mini/4.4.31524/34.1000; U; en) Presto/2.8.119 Version/11.10',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera Mini 4.4',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
@@ -4078,13 +4078,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-096-B' => [
+    ),
+    'issue-096-B' => array(
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.5; en-us; Micromax A35 Build/IML74K) AppleWebKit/534.30(KHTML,like Gecko) Version/4.0 Mobile Safari/534.30',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Android Browser 4.0',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -4131,13 +4131,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-096-A' => [
+    ),
+    'issue-096-A' => array(
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.5; en-us; Micromax A27 Build/IML74K) AppleWebKit/534.30(KHTML,like Gecko) Version/4.0 Mobile Safari/534.30',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Android Browser 4.0',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -4184,8 +4184,8 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

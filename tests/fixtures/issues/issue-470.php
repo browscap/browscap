@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-470-A' => [
+return array(
+    'issue-470-A' => array(
         'ua' => 'Evernote Clip Resolver',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Evernote Clip Resolver',
             'Browser' => 'Evernote Clip Resolver',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,13 +50,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-470-B' => [
+    ),
+    'issue-470-B' => array(
         'ua' => 'NetzCheckBot/1.0 (security seal; private-krankenversicherung.de.netzcheck.com; bot@netzcheck.com)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'NetzCheckBot',
             'Browser' => 'NetzCheckBot',
             'Browser_Type' => 'Bot/Crawler',
@@ -103,13 +103,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-470-C' => [
+    ),
+    'issue-470-C' => array(
         'ua' => 'MOT-RAZRV3x/01.2A.01 MIB/BER2.2 Profile/MIDP-2.0 Configuration/CLDC-1.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Motorola Internet Browser 2.2',
             'Browser' => 'Motorola Internet Browser',
             'Browser_Type' => 'Browser',
@@ -156,13 +156,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-470-D' => [
+    ),
+    'issue-470-D' => array(
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; BN NookHD+ Build/JDQ39E) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30 CyanogenMod/10.1.3/ovation',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Android Browser 4.0',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -209,13 +209,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-470-E' => [
+    ),
+    'issue-470-E' => array(
         'ua' => 'Nokia2320c-2b/2.0(ATT.11.10) Profile/MIDP-2.1 Configuration/CLDC-1.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Nokia Browser',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
@@ -262,13 +262,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-470-F' => [
+    ),
+    'issue-470-F' => array(
         'ua' => 'Mozilla/5.0 (Nintendo WiiU) AppleWebKit/536.28 (KHTML, like Gecko) NX/3.0.3.12.11 NintendoBrowser/2.1.0.9559.EU',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Access NetFront 3.0',
             'Browser' => 'NetFront NX',
             'Browser_Type' => 'Browser',
@@ -315,13 +315,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-470-G' => [
+    ),
+    'issue-470-G' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; AOL 9.0; Windows NT 5.1; Trident/4.0; BTRS101576; GTB7.5; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; AskTbAVR-W1/5.15.11.30498)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'IE 8.0 in IE 7.0 Compatibility Mode',
             'Browser' => 'IE',
             'Browser_Type' => 'Browser',
@@ -368,8 +368,8 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

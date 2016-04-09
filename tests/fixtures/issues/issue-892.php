@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-892' => [
+return array(
+    'issue-892' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/537.36 (KHTML, like Gecko) brave/0.7.11 Chrome/47.0.2526.110 Brave/0.36.5 Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Brave 0.7',
             'Browser' => 'Brave',
             'Browser_Type' => 'Browser',
@@ -50,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

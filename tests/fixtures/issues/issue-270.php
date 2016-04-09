@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-270-A' => [
+return array(
+    'issue-270-A' => array(
         'ua' => 'Mozilla/5.0 (compatible; Alexabot/1.0; +http://www.alexa.com/help/certifyscan; certifyscan@alexa.com)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Alexabot',
             'Browser' => 'Alexabot',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,13 +50,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-270-C' => [
+    ),
+    'issue-270-C' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 4.01; Digital AlphaServer 1000A 4/233; Windows NT; Powered By 64-Bit Alpha Processor)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'IE 4.01',
             'Browser' => 'IE',
             'Browser_Type' => 'Browser',
@@ -103,13 +103,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-270-F' => [
+    ),
+    'issue-270-F' => array(
         'ua' => 'WebTarantula.com Crawler',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'SEO & Analytics',
             'Browser' => 'WebTarantula',
             'Browser_Type' => 'Bot/Crawler',
@@ -156,8 +156,8 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

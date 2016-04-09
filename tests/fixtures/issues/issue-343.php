@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-343' => [
+return array(
+    'issue-343' => array(
         'ua' => 'Mozilla/5.0 (PlayStation 4 1.72) AppleWebKit/536.26 (KHTML, like Gecko)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Access NetFront Generic',
             'Browser' => 'NetFront',
             'Browser_Type' => 'Browser',
@@ -50,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

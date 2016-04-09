@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-548' => [
+return array(
+    'issue-548' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Safari/537.36 Edge/12.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Edge 12.0',
             'Browser' => 'Edge',
             'Browser_Type' => 'Browser',
@@ -50,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'Edge',
             'RenderingEngine_Version' => '12.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-];
+    ),
+);

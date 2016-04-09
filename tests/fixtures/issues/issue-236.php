@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-236' => [
+return array(
+    'issue-236' => array(
         'ua' => 'Mozilla/5.0 (compatible;picmole/1.0 +http://www.picmole.com)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'picmole Bot',
             'Browser' => 'picmole Bot',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

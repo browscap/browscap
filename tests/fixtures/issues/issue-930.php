@@ -1,9 +1,10 @@
 <?php
 
-return [
-    'issue-930' => [
-        'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 YaBrowser/15.12.0.6151 Safari/537.36',
-        [
+return array(
+    'issue-930' => array(
+        'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 YaBrowser/15.12.0.6151 Safari/537.36',
+        'properties' => array(
+            'Comment' => 'Yandex Browser 15.12',
             'Browser' => 'Yandex Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -14,21 +15,32 @@ return [
             'MinorVer' => '12',
             'Platform' => 'Win7',
             'Platform_Version' => '6.1',
+            'Platform_Description' => 'Windows 7',
             'Platform_Bits' => '64',
             'Platform_Maker' => 'Microsoft Corporation',
+            'Alpha' => false,
+            'Beta' => false,
+            'Win16' => false,
+            'Win32' => false,
             'Win64' => true,
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Crawler' => false,
-            'JavaScript' => true,
-            'Cookies' => true,
             'Frames' => true,
             'IFrames' => true,
             'Tables' => true,
+            'Cookies' => true,
+            'BackgroundSounds' => false,
+            'JavaScript' => true,
             'VBScript' => false,
             'JavaApplets' => false,
             'ActiveXControls' => false,
-            'BackgroundSounds' => false,
+            'isMobileDevice' => false,
+            'isTablet' => false,
+            'isSyndicationReader' => false,
+            'Crawler' => false,
+            'isFake' => false,
+            'isAnonymized' => false,
+            'isModified' => false,
+            'CssVersion' => '3',
+            'AolVersion' => '0',
             'Device_Name' => 'Windows Desktop',
             'Device_Maker' => 'Various',
             'Device_Type' => 'Desktop',
@@ -38,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

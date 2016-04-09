@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-544' => [
+return array(
+    'issue-544' => array(
         'ua' => 'Mozilla/5.0 (Linux;U;Android 4.4.2;zh-cn;Lenovo A3300-HV Build/KOT49H) AppleWebkit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/537.306;',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Android WebView 4.0',
             'Browser' => 'Android WebView',
             'Browser_Type' => 'Browser',
@@ -50,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-117' => [
+return array(
+    'issue-117' => array(
         'ua' => 'netEstate NE Crawler (+http://www.website-datenbank.de/)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'General Crawlers',
             'Browser' => 'netEstate NE Crawler',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

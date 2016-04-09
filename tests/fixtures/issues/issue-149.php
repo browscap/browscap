@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-149' => [
+return array(
+    'issue-149' => array(
         'ua' => 'Mozilla/5.0 (compatible; PaperLiBot/2.1; http://support.paper.li/entries/20023257-what-is-paper-li)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Paper.li Bot',
             'Browser' => 'Paper.li Bot',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

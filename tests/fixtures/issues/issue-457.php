@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-457' => [
+return array(
+    'issue-457' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:25.0) Gecko/20141005 PaleMoon/25.0.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Palemoon 25.0',
             'Browser' => 'PaleMoon',
             'Browser_Type' => 'Browser',
@@ -50,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '25.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

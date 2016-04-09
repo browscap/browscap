@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-099-C' => [
+return array(
+    'issue-099-C' => array(
         'ua' => 'DavClnt',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Microsoft-WebDAV',
             'Browser' => 'Microsoft-WebDAV',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,13 +50,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-099-B' => [
+    ),
+    'issue-099-B' => array(
         'ua' => 'XING-contenttabreceiver/2.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Xing',
             'Browser' => 'XING Contenttabreceiver',
             'Browser_Type' => 'Bot/Crawler',
@@ -103,13 +103,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-099-A' => [
+    ),
+    'issue-099-A' => array(
         'ua' => 'Opera/9.60 (Windows NT 5.1; U; de) Presto/2.1.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera 9.60',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -156,8 +156,8 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

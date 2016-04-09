@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-781' => [
+return array(
+    'issue-781' => array(
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) qutebrowser/0.2.1 Safari/538.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'qutebrowser',
             'Browser' => 'qutebrowser',
             'Browser_Type' => 'Browser',
@@ -50,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-204' => [
+return array(
+    'issue-204' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:24.0) Gecko/20100101 Thunderbird/24.4.0 Lightning/2.6.4',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Thunderbird 24.4',
             'Browser' => 'Thunderbird',
             'Browser_Type' => 'Email Client',
@@ -50,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '24.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

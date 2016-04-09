@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-226' => [
+return array(
+    'issue-226' => array(
         'ua' => 'Mozilla/5.0 (compatible; oBot/2.3.1; +http://filterdb.iss.net/crawler/)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'oBot',
             'Browser' => 'oBot',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-788-A' => [
+return array(
+    'issue-788-A' => array(
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) QupZilla/1.6.3 Safari/538.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'QupZilla 1.6',
             'Browser' => 'QupZilla',
             'Browser_Type' => 'Browser',
@@ -50,13 +50,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-788-B' => [
+    ),
+    'issue-788-B' => array(
         'ua' => 'Mozilla/5.0 (OS/2 Warp 4.5) AppleWebKit/537.21 (KHTML, like Gecko) QupZilla/1.6.4 Safari/537.21',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'QupZilla 1.6',
             'Browser' => 'QupZilla',
             'Browser_Type' => 'Browser',
@@ -103,13 +103,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-788-C' => [
+    ),
+    'issue-788-C' => array(
         'ua' => 'Mozilla/5.0 (Unknown; UNIX BSD/SYSV system) AppleWebKit/534.34 (KHTML, like Gecko) QupZilla/1.7.0 Safari/534.34',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'QupZilla 1.7',
             'Browser' => 'QupZilla',
             'Browser_Type' => 'Browser',
@@ -156,13 +156,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-788-D' => [
+    ),
+    'issue-788-D' => array(
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.21 (KHTML, like Gecko) QupZilla/1.6.1 Safari/537.21',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'QupZilla 1.6',
             'Browser' => 'QupZilla',
             'Browser_Type' => 'Browser',
@@ -209,13 +209,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-788-E' => [
+    ),
+    'issue-788-E' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/538.1 (KHTML, like Gecko) Otter/0.9.03 beta 3 Safari/538.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Otter 0.9',
             'Browser' => 'Otter',
             'Browser_Type' => 'Browser',
@@ -262,13 +262,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-788-F' => [
+    ),
+    'issue-788-F' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/538.1 (KHTML, like Gecko) Otter/0.9.04',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Otter 0.9',
             'Browser' => 'Otter',
             'Browser_Type' => 'Browser',
@@ -315,13 +315,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-788-G' => [
+    ),
+    'issue-788-G' => array(
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.21 (KHTML, like Gecko) Otter/0.9.04-dev',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Otter 0.9',
             'Browser' => 'Otter',
             'Browser_Type' => 'Browser',
@@ -368,13 +368,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-788-H' => [
+    ),
+    'issue-788-H' => array(
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) Otter/0.3.01-dev Safari/538.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Otter 0.3',
             'Browser' => 'Otter',
             'Browser_Type' => 'Browser',
@@ -421,13 +421,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-788-I' => [
+    ),
+    'issue-788-I' => array(
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) Otter/0.9.03 beta 3 Safari/538.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Otter 0.9',
             'Browser' => 'Otter',
             'Browser_Type' => 'Browser',
@@ -474,13 +474,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-788-J' => [
+    ),
+    'issue-788-J' => array(
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) Otter/0.9.05',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Otter 0.9',
             'Browser' => 'Otter',
             'Browser_Type' => 'Browser',
@@ -527,8 +527,8 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

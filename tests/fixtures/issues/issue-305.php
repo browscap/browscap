@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-305' => [
+return array(
+    'issue-305' => array(
         'ua' => 'Microsoft Office Protocol Discovery',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Microsoft',
             'Browser' => 'MS OPD',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

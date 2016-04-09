@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-568' => [
+return array(
+    'issue-568' => array(
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-US; SM-T531 Build/KOT49H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.2.0.535 U3/0.8.0 Mobile Safari/534.30',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'UC Browser 10.2',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
@@ -50,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'U3',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'UCWeb Inc.',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-668' => [
+return array(
+    'issue-668' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; SAMSUNG SM-G925T Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.0 Chrome/38.0.2125.102 Mobile Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Samsung Browser 3.0',
             'Browser' => 'Samsung Browser',
             'Browser_Type' => 'Browser',
@@ -50,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

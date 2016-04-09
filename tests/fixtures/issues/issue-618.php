@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-618-A' => [
+return array(
+    'issue-618-A' => array(
         'ua' => 'Mozilla/5.0 (Android; Mobile; rv:34.0) Gecko/34.0 Firefox/34.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 34.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -50,13 +50,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '34.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-618-B' => [
+    ),
+    'issue-618-B' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; D5503 Build/14.4.A.0.157) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.93 Mobile Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Chrome 39.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -103,13 +103,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-C' => [
+    ),
+    'issue-618-C' => array(
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; GT-I8200N Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Android Browser 4.0',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -156,13 +156,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-618-D' => [
+    ),
+    'issue-618-D' => array(
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.3; de-de; KFTT Build/IML74K) AppleWebKit/537.36 (KHTML, like Gecko) Silk/3.41 like Chrome/37.0.2026.117 Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Silk 3.41',
             'Browser' => 'Silk',
             'Browser_Type' => 'Browser',
@@ -209,13 +209,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-E' => [
+    ),
+    'issue-618-E' => array(
         'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; HTC; Windows Phone 8S by HTC; 4.05.162.02)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'IEMobile',
             'Browser' => 'IEMobile',
             'Browser_Type' => 'Browser',
@@ -262,13 +262,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '6.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-F' => [
+    ),
+    'issue-618-F' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; LIFETAB_S1034X Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.93 Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Chrome 39.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -315,13 +315,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-G' => [
+    ),
+    'issue-618-G' => array(
         'ua' => 'Mozilla/5.0 (Nintendo 3DS; U; ; de) Version/1.7567.EU',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Access NetFront Generic',
             'Browser' => 'NetFront NX',
             'Browser_Type' => 'Browser',
@@ -368,13 +368,13 @@ return [
             'RenderingEngine_Name' => 'NetFront',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Access',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-H' => [
+    ),
+    'issue-618-H' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; TPC-PA10.1M Build/KVT49L) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Android WebView 4.0',
             'Browser' => 'Android WebView',
             'Browser_Type' => 'Browser',
@@ -421,13 +421,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-I' => [
+    ),
+    'issue-618-I' => array(
         'ua' => 'Opera/9.80 (Android; Opera Mini/26.0.1656/35.6497; U; de) Presto/2.8.119 Version/11.10',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera Mini 26.0',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
@@ -474,13 +474,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.8',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-J' => [
+    ),
+    'issue-618-J' => array(
         'ua' => 'Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 530 Dual SIM) like Gecko',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'IEMobile',
             'Browser' => 'IEMobile',
             'Browser_Type' => 'Browser',
@@ -527,13 +527,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '7.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-618-K' => [
+    ),
+    'issue-618-K' => array(
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; NEO_QUAD10 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Android Browser 4.0',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -580,13 +580,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-L' => [
+    ),
+    'issue-618-L' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; de-de; SAMSUNG SM-T900 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Android WebView 1.5',
             'Browser' => 'Android WebView',
             'Browser_Type' => 'Browser',
@@ -633,13 +633,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-M' => [
+    ),
+    'issue-618-M' => array(
         'ua' => 'MobileSafari/600.1.4 CFNetwork/711.1.16 Darwin/14.0.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mobile Safari 4.0',
             'Browser' => 'Safari',
             'Browser_Type' => 'Browser',
@@ -686,13 +686,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-N' => [
+    ),
+    'issue-618-N' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Maxthon/4.4.3.4000 Chrome/30.0.1599.101 Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Maxthon 4.4',
             'Browser' => 'Maxthon',
             'Browser_Type' => 'Browser',
@@ -739,13 +739,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-O' => [
+    ),
+    'issue-618-O' => array(
         'ua' => 'Mozilla/5.0 (Linux; U; Android 5.0.1; de-de; GT-I9505G Build/LRX22C.S012.unofficial) AppleWebKit/537.16 (KHTML, like Gecko) Version/4.0 Mobile Safari/537.16',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Android Browser 4.0',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -792,13 +792,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-618-P' => [
+    ),
+    'issue-618-P' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; de-de; SAMSUNG SM-N910F/N910FXXU1ANK4 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/2.0 Chrome/34.0.1847.76 Mobile Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Android WebView 2.0',
             'Browser' => 'Android WebView',
             'Browser_Type' => 'Browser',
@@ -845,13 +845,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-Q' => [
+    ),
+    'issue-618-Q' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Dragon/36.1.1.21 Chrome/36.0.1985.97 Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Comodo Dragon 36.1',
             'Browser' => 'Dragon',
             'Browser_Type' => 'Browser',
@@ -898,13 +898,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-R' => [
+    ),
+    'issue-618-R' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; XT890 Build/9.8.2I-50_SMI-26) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.59 Mobile Safari/537.36 OPR/26.0.1656.87080',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera Mobile 26.0 for Android',
             'Browser' => 'Opera Mobile',
             'Browser_Type' => 'Browser',
@@ -951,13 +951,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-S' => [
+    ),
+    'issue-618-S' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 6_0_1 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko; Google Page Speed Insights) Version/6.0 Mobile/10A525 Safari/8536.25 GoogleBot/2.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Google PageSpeed Insights',
             'Browser' => 'Google PageSpeed Insights',
             'Browser_Type' => 'Bot/Crawler',
@@ -1004,13 +1004,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-T' => [
+    ),
+    'issue-618-T' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; GT-I9195 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 MxBrowser/4.3.6.2000',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Maxthon 4.3',
             'Browser' => 'Maxthon',
             'Browser_Type' => 'Browser',
@@ -1057,13 +1057,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-U' => [
+    ),
+    'issue-618-U' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; SMART-E5 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Android WebView 4.0',
             'Browser' => 'Android WebView',
             'Browser_Type' => 'Browser',
@@ -1110,13 +1110,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-V' => [
+    ),
+    'issue-618-V' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'IE 9.0',
             'Browser' => 'IE',
             'Browser_Type' => 'Browser',
@@ -1163,13 +1163,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '5.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-618-W' => [
+    ),
+    'issue-618-W' => array(
         'ua' => 'Mozilla/5.0 (Series40; Nokia300/07.65; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/2.0.1.62.6',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Nokia Proxy Browser 2.0',
             'Browser' => 'Nokia Proxy Browser',
             'Browser_Type' => 'Browser',
@@ -1216,13 +1216,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-X' => [
+    ),
+    'issue-618-X' => array(
         'ua' => 'Opera/9.80 (iPad; Opera Mini/9.1.0/35.6497; U; de) Presto/2.8.119 Version/11.10',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera Mini 9.1',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
@@ -1269,13 +1269,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-Y' => [
+    ),
+    'issue-618-Y' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_4 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Mercury/8.9 Mobile/11B554a Safari/9537.53',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mercury 8.9',
             'Browser' => 'Mercury',
             'Browser_Type' => 'Browser',
@@ -1322,13 +1322,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-Z' => [
+    ),
+    'issue-618-Z' => array(
         'ua' => 'Opera/9.80 (Android; Opera Mini/20.0.1396/35.6497; U; de) Presto/2.8.119 Version/11.10',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera Mini 20.0',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
@@ -1375,13 +1375,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.8',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-AA' => [
+    ),
+    'issue-618-AA' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; D5503 Build/14.4.A.0.157) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.141 Mobile Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Chrome 35.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -1428,13 +1428,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-AB' => [
+    ),
+    'issue-618-AB' => array(
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/39.0.2171.65 Chrome/39.0.2171.65 Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Chromium 39.0',
             'Browser' => 'Chromium',
             'Browser_Type' => 'Browser',
@@ -1481,13 +1481,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-AC' => [
+    ),
+    'issue-618-AC' => array(
         'ua' => 'Mozilla/5.0 (X11; FreeBSD; U; Viera; de-DE) AppleWebKit/537.11 (KHTML, like Gecko) Viera/3.4.10 Chrome/23.0.1271.97 Safari/537.11',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'SmartViera 3.4',
             'Browser' => 'SmartViera',
             'Browser_Type' => 'Browser',
@@ -1534,13 +1534,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-AD' => [
+    ),
+    'issue-618-AD' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; de-de; SAMSUNG GT-I9205 Build/JDQ39) AppleWebKit/535.19 (KHTML, like Gecko) Version/1.0 Chrome/18.0.1025.308 Mobile Safari/535.19',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Android WebView 1.0',
             'Browser' => 'Android WebView',
             'Browser_Type' => 'Browser',
@@ -1587,13 +1587,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-618-AE' => [
+    ),
+    'issue-618-AE' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.1.0.0 Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Comodo Dragon 31.1',
             'Browser' => 'Dragon',
             'Browser_Type' => 'Browser',
@@ -1640,13 +1640,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-AF' => [
+    ),
+    'issue-618-AF' => array(
         'ua' => 'OpenOffice/4.1.1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'OpenOffice',
             'Browser' => 'OpenOffice',
             'Browser_Type' => 'Application',
@@ -1693,13 +1693,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-AG' => [
+    ),
+    'issue-618-AG' => array(
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 7_0_4 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Mercury/8.8.3 Mobile/11B554a Safari/9537.53',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mercury 8.8',
             'Browser' => 'Mercury',
             'Browser_Type' => 'Browser',
@@ -1746,13 +1746,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-AH' => [
+    ),
+    'issue-618-AH' => array(
         'ua' => 'Dalvik/1.6.0 (Linux; U; Android 4.4.2; GT-I9505 Build/KOT49H)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Dalvik 1.6',
             'Browser' => 'Dalvik',
             'Browser_Type' => 'Application',
@@ -1799,13 +1799,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-AI' => [
+    ),
+    'issue-618-AI' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; A3-A10 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.94 Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Chrome 28.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -1852,13 +1852,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-AJ' => [
+    ),
+    'issue-618-AJ' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; de-DE; rv:99.0) Gecko/201212231 Firefox/25.0.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 25.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -1905,13 +1905,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '25.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-AK' => [
+    ),
+    'issue-618-AK' => array(
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64; rv:31.0) Gecko/20100101 Firefox/31.0 Iceweasel/31.3.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Iceweasel 31.3',
             'Browser' => 'Iceweasel',
             'Browser_Type' => 'Browser',
@@ -1958,13 +1958,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '31.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-AL' => [
+    ),
+    'issue-618-AL' => array(
         'ua' => 'Mozilla/4.05 [en] (X11; I; Linux 2.0.34 i586)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 4.05',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -2011,13 +2011,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-AM' => [
+    ),
+    'issue-618-AM' => array(
         'ua' => 'curl/7.15.5 (x86_64-redhat-linux-gnu) libcurl/7.15.5 OpenSSL/0.9.8b zlib/1.2.3 libidn/0.6.5',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'cURL',
             'Browser' => 'cURL',
             'Browser_Type' => 'Bot/Crawler',
@@ -2064,13 +2064,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-AN' => [
+    ),
+    'issue-618-AN' => array(
         'ua' => 'NetLyzer FastProbe',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'General Crawlers',
             'Browser' => 'NetLyzer FastProbe',
             'Browser_Type' => 'Bot/Crawler',
@@ -2117,13 +2117,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-AO' => [
+    ),
+    'issue-618-AO' => array(
         'ua' => 'Dalvik/1.6.0 (Linux; U; Android 4.2.2; LIFETAB_E10320 Build/JDQ39)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Dalvik 1.6',
             'Browser' => 'Dalvik',
             'Browser_Type' => 'Application',
@@ -2170,13 +2170,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-AP' => [
+    ),
+    'issue-618-AP' => array(
         'ua' => 'Mozilla/5.0 (compatible; TestCrawler)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'General Crawlers',
             'Browser' => 'TestCrawler',
             'Browser_Type' => 'Bot/Crawler',
@@ -2223,13 +2223,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-AQ' => [
+    ),
+    'issue-618-AQ' => array(
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; NOKIA; Lumia 520)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'IEMobile 7.0',
             'Browser' => 'IEMobile',
             'Browser_Type' => 'Browser',
@@ -2276,13 +2276,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '3.1',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-618-AR' => [
+    ),
+    'issue-618-AR' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; rv:33.1.1) Gecko/20100101 Firefox/33.1.1 anonymized by Abelssoft 780246616',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 33.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -2329,13 +2329,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '33.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-618-AS' => [
+    ),
+    'issue-618-AS' => array(
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/532.5 (KHTML, like Gecko) Chrome/4.1.249.1025 Safari/532.5',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Comodo Dragon 4.1',
             'Browser' => 'Dragon',
             'Browser_Type' => 'Browser',
@@ -2382,13 +2382,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-AT' => [
+    ),
+    'issue-618-AT' => array(
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.1; de-de; HL-PC1088 Build/JOP40D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30 Mobile UCBrowser/3.4.3.532',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'UC Browser 3.4',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
@@ -2435,13 +2435,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-618-AU' => [
+    ),
+    'issue-618-AU' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; GT-S7390 Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.82 Mobile Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Chrome 30.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -2488,13 +2488,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-AV' => [
+    ),
+    'issue-618-AV' => array(
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; Vodafone Smart Tab 4 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.2 Mobile Safari/534.30 SVN/040FDG1',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Android Browser 4.2',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -2541,13 +2541,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-AW' => [
+    ),
+    'issue-618-AW' => array(
         'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; ARM; Trident/6.0; Touch; WebView/1.0)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'IE 10.0',
             'Browser' => 'IE',
             'Browser_Type' => 'Browser',
@@ -2594,13 +2594,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '6.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-AX' => [
+    ),
+    'issue-618-AX' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Galaxy Nexus Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Android WebView 4.0',
             'Browser' => 'Android WebView',
             'Browser_Type' => 'Browser',
@@ -2647,13 +2647,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-AY' => [
+    ),
+    'issue-618-AY' => array(
         'ua' => 'Mozilla/2.0 (compatible; MS FrontPage 5.0)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Microsoft FrontPage',
             'Browser' => 'FrontPage',
             'Browser_Type' => 'Application',
@@ -2700,13 +2700,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-AZ' => [
+    ),
+    'issue-618-AZ' => array(
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; de-de; ALCATEL ONE TOUCH 6030X Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.1 Mobile Safari/534.30',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Android Browser 4.1',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -2753,13 +2753,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-BA' => [
+    ),
+    'issue-618-BA' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.1; ONE TOUCH TAB 7HD Build/SDT016) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166  Safari/535.19',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Chrome 18.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -2806,13 +2806,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-BB' => [
+    ),
+    'issue-618-BB' => array(
         'ua' => 'OpenOffice/4.0.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'OpenOffice',
             'Browser' => 'OpenOffice',
             'Browser_Type' => 'Application',
@@ -2859,13 +2859,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-BC' => [
+    ),
+    'issue-618-BC' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:25.1) Gecko/20141110 Firefox/31.9 PaleMoon/25.1.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Palemoon 25.1',
             'Browser' => 'PaleMoon',
             'Browser_Type' => 'Browser',
@@ -2912,13 +2912,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '25.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-BD' => [
+    ),
+    'issue-618-BD' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; WTDR1018 Build/JDQ39) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.58 Safari/537.31',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Chrome 26.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -2965,13 +2965,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-BE' => [
+    ),
+    'issue-618-BE' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; C2105 Build/15.3.A.1.17) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.94 Mobile Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Chrome 28.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -3018,13 +3018,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-BF' => [
+    ),
+    'issue-618-BF' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; LG-D280 Build/KOT49I.A1399482427) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.114 Mobile Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Chrome 34.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -3071,13 +3071,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-BG' => [
+    ),
+    'issue-618-BG' => array(
         'ua' => 'Tablet-PC-4.1-Mozilla/5.0 (Linux; U; Android 4.1.1; de-de; ADM8000KP_A Build/JRO03H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Android Browser 4.0',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -3124,13 +3124,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-618-BH' => [
+    ),
+    'issue-618-BH' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; breeze 10.1 quad Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.135 Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Chrome 36.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -3177,13 +3177,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-BI' => [
+    ),
+    'issue-618-BI' => array(
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; fr-fr; CUBOT P9 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Android Browser 4.0',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -3230,13 +3230,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-618-BJ' => [
+    ),
+    'issue-618-BJ' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; rv:34.0) Gecko/20100101 Firefox/34.0 SeaMonkey/2.31',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'SeaMonkey 2.31',
             'Browser' => 'SeaMonkey',
             'Browser_Type' => 'Browser',
@@ -3283,13 +3283,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-BK' => [
+    ),
+    'issue-618-BK' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Archos 50 Titanium Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.117 Mobile Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Chrome 37.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -3336,13 +3336,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-BL' => [
+    ),
+    'issue-618-BL' => array(
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-US; SM-G900F Build/KOT49H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.0.2.523 U3/0.8.0 Mobile Safari/534.30',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'UC Browser 10.0',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
@@ -3389,13 +3389,13 @@ return [
             'RenderingEngine_Name' => 'U3',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'UCWeb Inc.',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-BM' => [
+    ),
+    'issue-618-BM' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; rv:11.0; Lunascape 6.9.2.27391) like Gecko',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Lunascape 6.9',
             'Browser' => 'Lunascape',
             'Browser_Type' => 'Browser',
@@ -3442,13 +3442,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '7.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-BN' => [
+    ),
+    'issue-618-BN' => array(
         'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; HTC; Windows Phone 8X by HTC)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'IEMobile',
             'Browser' => 'IEMobile',
             'Browser_Type' => 'Browser',
@@ -3495,13 +3495,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '6.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-BO' => [
+    ),
+    'issue-618-BO' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.89 Safari/537.1; 360Spider',
-        'properties' => [
+        'properties' => array(
             'Comment' => '360Spider',
             'Browser' => '360Spider',
             'Browser_Type' => 'Bot/Crawler',
@@ -3548,13 +3548,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-BP' => [
+    ),
+    'issue-618-BP' => array(
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; Vodafone Smart 4G Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 SWV/090.37DE',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Android Browser 4.0',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -3601,13 +3601,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-618-BQ' => [
+    ),
+    'issue-618-BQ' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; Cosmote Xplore Build/JZO54K) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.58 Mobile Safari/537.31',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Chrome 26.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -3654,13 +3654,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-BR' => [
+    ),
+    'issue-618-BR' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.1; PAP5000TDUO Build/PrestigioPAP5000TDUO) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Chrome 18.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -3707,13 +3707,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-BS' => [
+    ),
+    'issue-618-BS' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Archos 40b Titanium Surround Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Chrome 31.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -3760,13 +3760,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-BT' => [
+    ),
+    'issue-618-BT' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; KAZAM Trooper2 50 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.99 Mobile Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Chrome 32.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -3813,13 +3813,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-BU' => [
+    ),
+    'issue-618-BU' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.2.16) Gecko/20110323 Ubuntu/10.10 (maverick) Firefox/3.6.16',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 3.6',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -3866,13 +3866,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.2',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-BV' => [
+    ),
+    'issue-618-BV' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 4.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2049.0 Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Chrome 37.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -3919,13 +3919,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-BW' => [
+    ),
+    'issue-618-BW' => array(
         'ua' => 'python-requests/2.5.1 CPython/2.7.6 Linux/3.13.0-36-generic',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'python-requests',
             'Browser' => 'python-requests',
             'Browser_Type' => 'Bot/Crawler',
@@ -3972,13 +3972,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-BX' => [
+    ),
+    'issue-618-BX' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; de-de; SAMSUNG SM-G850F/G850FXXU2ANHB Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.6 Chrome/28.0.1500.94 Mobile Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Android WebView 1.6',
             'Browser' => 'Android WebView',
             'Browser_Type' => 'Browser',
@@ -4025,13 +4025,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-618-BY' => [
+    ),
+    'issue-618-BY' => array(
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0; AvantBrowser)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Avant/IE 9.0',
             'Browser' => 'Avant',
             'Browser_Type' => 'Browser',
@@ -4078,13 +4078,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '5.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-BZ' => [
+    ),
+    'issue-618-BZ' => array(
         'ua' => 'Mozilla/5.0 (compatible; Yeti/1.1; +http://help.naver.com/robots/)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'NaverBot',
             'Browser' => 'NaverBot',
             'Browser_Type' => 'Bot/Crawler',
@@ -4131,13 +4131,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-CA' => [
+    ),
+    'issue-618-CA' => array(
         'ua' => 'PycURL/7.22.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Rippers',
             'Browser' => 'PycURL',
             'Browser_Type' => 'Bot/Crawler',
@@ -4184,13 +4184,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-CB' => [
+    ),
+    'issue-618-CB' => array(
         'ua' => 'Mozilla/5.0 (PlayStation 4 2.03) AppleWebKit/537.73 (KHTML, like Gecko)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Access NetFront Generic',
             'Browser' => 'NetFront',
             'Browser_Type' => 'Browser',
@@ -4237,13 +4237,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-CC' => [
+    ),
+    'issue-618-CC' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; DARKMOON Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.117 Mobile Safari/537.36 OPR/24.0.1565.82529',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera Mobile 24.0 for Android',
             'Browser' => 'Opera Mobile',
             'Browser_Type' => 'Browser',
@@ -4290,13 +4290,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-CD' => [
+    ),
+    'issue-618-CD' => array(
         'ua' => 'Mozilla/4.0 (compatible; Win32; WinHttp.WinHttpRequest.5)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'cURL',
             'Browser' => 'WinHttp',
             'Browser_Type' => 'Bot/Crawler',
@@ -4343,13 +4343,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-CE' => [
+    ),
+    'issue-618-CE' => array(
         'ua' => 'Safari/10600.1.25.1 CFNetwork/720.1.1 Darwin/14.0.0 (x86_64)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Safari 8.0',
             'Browser' => 'Safari',
             'Browser_Type' => 'Browser',
@@ -4396,13 +4396,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-CF' => [
+    ),
+    'issue-618-CF' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; C6503 Build/10.5.1.A.0.283) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.114 Mobile Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Chrome 38.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -4449,13 +4449,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-CG' => [
+    ),
+    'issue-618-CG' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; IdeaTab S6000-H Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.135 Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Chrome 36.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -4502,13 +4502,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-CH' => [
+    ),
+    'issue-618-CH' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; MI 3W Build/KVT49L) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.69 Mobile Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Chrome 40.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -4555,13 +4555,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-618-CI' => [
+    ),
+    'issue-618-CI' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; C2105 Build/15.3.A.1.14) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.117 Mobile Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Chrome 37.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -4608,13 +4608,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-CJ' => [
+    ),
+    'issue-618-CJ' => array(
         'ua' => 'iCabMobile/1.0.6 CFNetwork/711.1.16 Darwin/14.0.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'iCab Mobile 1.0',
             'Browser' => 'iCab Mobile',
             'Browser_Type' => 'Browser',
@@ -4661,13 +4661,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-CK' => [
+    ),
+    'issue-618-CK' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1709.117 Amigo/32.0.1709.117 MRCHROME SOC Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Amigo 32.0',
             'Browser' => 'Amigo',
             'Browser_Type' => 'Browser',
@@ -4714,13 +4714,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-CL' => [
+    ),
+    'issue-618-CL' => array(
         'ua' => 'Mozilla/5.0 (Linux; webOS/2.2.4; U; de-DE) AppleWebKit/534.6 (KHTML, like Gecko) webOSBrowser/221.56 Safari/534.6 Pre/3.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'WebKit/webOS Generic',
             'Browser' => 'WebKit/webOS',
             'Browser_Type' => 'Browser',
@@ -4767,13 +4767,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-CM' => [
+    ),
+    'issue-618-CM' => array(
         'ua' => 'Googlebot-Image/1.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Googlebot',
             'Browser' => 'Google Image Search',
             'Browser_Type' => 'Bot/Crawler',
@@ -4820,13 +4820,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-CN' => [
+    ),
+    'issue-618-CN' => array(
         'ua' => 'Mozilla/4.73 [en] (Windows NT 5.0)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 4.73',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -4873,13 +4873,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-618-CO' => [
+    ),
+    'issue-618-CO' => array(
         'ua' => 'Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_1 like Mac OS X; en-us) AppleWebKit/532.9 (KHTML, like Gecko) Version/4.0.5 Mobile/8B117 Safari/6531.22.7 (compatible; Mediapartners-Google/2.1; +http://www.google.com/bot.html)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Google',
             'Browser' => 'AdSense Bot',
             'Browser_Type' => 'Bot/Crawler',
@@ -4926,13 +4926,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-CP' => [
+    ),
+    'issue-618-CP' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:29.0) Gecko/20100101 /',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 29.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -4979,13 +4979,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '29.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-CQ' => [
+    ),
+    'issue-618-CQ' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:22.0) Gecko/ /22.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 22.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -5032,13 +5032,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '22.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-CR' => [
+    ),
+    'issue-618-CR' => array(
         'ua' => 'Mercury/894 CFNetwork/711.1.16 Darwin/14.0.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mercury',
             'Browser' => 'Mercury',
             'Browser_Type' => 'Browser',
@@ -5085,13 +5085,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-CS' => [
+    ),
+    'issue-618-CS' => array(
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64; rv:31.0) Gecko/20100101 Firefox/31.0 Iceweasel/31.2.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Iceweasel 31.2',
             'Browser' => 'Iceweasel',
             'Browser_Type' => 'Browser',
@@ -5138,13 +5138,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '31.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-CT' => [
+    ),
+    'issue-618-CT' => array(
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_1_2 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) CriOS/28.0.1500.12 Mobile/12B440 Safari/8536.25',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Chrome 28.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -5191,13 +5191,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-CU' => [
+    ),
+    'issue-618-CU' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.110 Safari/537.36 CoolNovo/2.0.9.20',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'CoolNovo 2.0',
             'Browser' => 'CoolNovo',
             'Browser_Type' => 'Browser',
@@ -5244,13 +5244,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-CV' => [
+    ),
+    'issue-618-CV' => array(
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 7_0 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Mercury/8.7.2 Mobile/11A465 Safari/9537.53',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mercury 8.7',
             'Browser' => 'Mercury',
             'Browser_Type' => 'Browser',
@@ -5297,13 +5297,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-CW' => [
+    ),
+    'issue-618-CW' => array(
         'ua' => 'LG-D855/Mozilla/5.0 (Linux; U; Android 4.4.2; de-de; LG-D855 Build/KVT49L.A1407411578) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/34.0.1847.118 Mobile Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Android WebView 4.0',
             'Browser' => 'Android WebView',
             'Browser_Type' => 'Browser',
@@ -5350,13 +5350,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-CX' => [
+    ),
+    'issue-618-CX' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; en-us; SAMSUNG-SGH-I337 Build/JDQ39) AppleWebKit/535.19 (KHTML, like Gecko) Version/1.0 Chrome/18.0.1025.308 Mobile Safari/535.19',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Android WebView 1.0',
             'Browser' => 'Android WebView',
             'Browser_Type' => 'Browser',
@@ -5403,13 +5403,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-    'issue-618-CY' => [
+    ),
+    'issue-618-CY' => array(
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; en-US; P4501 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.0.2.523 U3/0.8.0 Mobile Safari/534.30',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'UC Browser 10.0',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
@@ -5456,13 +5456,13 @@ return [
             'RenderingEngine_Name' => 'U3',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'UCWeb Inc.',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-CZ' => [
+    ),
+    'issue-618-CZ' => array(
         'ua' => 'Opera/9.80 (Android; Opera Mini/24.0.1565/35.6497; U; de) Presto/2.8.119 Version/11.10',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera Mini 24.0',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
@@ -5509,13 +5509,13 @@ return [
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.8',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-DA' => [
+    ),
+    'issue-618-DA' => array(
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.3; de-de; Lenovo B8080-H/JLS36C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.3 Mobile Safari/534.30',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Android Browser 4.3',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -5562,13 +5562,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-DB' => [
+    ),
+    'issue-618-DB' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; ME173X Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.59 Safari/537.36 OPR/26.0.1656.87080',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera Mobile 26.0 for Android',
             'Browser' => 'Opera Mobile',
             'Browser_Type' => 'Browser',
@@ -5615,13 +5615,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-DC' => [
+    ),
+    'issue-618-DC' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Maxthon/4.3.2.1000 Chrome/30.0.1599.101 Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Maxthon 4.3',
             'Browser' => 'Maxthon',
             'Browser_Type' => 'Browser',
@@ -5668,13 +5668,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-DD' => [
+    ),
+    'issue-618-DD' => array(
         'ua' => 'Mozilla/5.0 (iPad; U; CPU OS 5_1 like Mac OS X) AppleWebKit/531.21.10 (KHTML, like Gecko) Version/4.0.4 Mobile/7B367 Safari/531.21.10 UCBrowser/3.0.0.357',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'UC Browser 3.0',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
@@ -5721,13 +5721,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-DE' => [
+    ),
+    'issue-618-DE' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) MxBrowser/4.3.6.2000 Chrome/30.0.1551.0 Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Maxthon 4.3',
             'Browser' => 'Maxthon',
             'Browser_Type' => 'Browser',
@@ -5774,13 +5774,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-DF' => [
+    ),
+    'issue-618-DF' => array(
         'ua' => 'Mozilla/5.0 (BB10; Kbd) AppleWebKit/537.35+ (KHTML, like Gecko) Version/10.3.1.1154 Mobile Safari/537.35+',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'BlackBerry 10.3',
             'Browser' => 'BlackBerry',
             'Browser_Type' => 'Browser',
@@ -5827,13 +5827,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-DG' => [
+    ),
+    'issue-618-DG' => array(
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; SD4930UR Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Silk/3.41 like Chrome/37.0.2026.117 Mobile Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Silk 3.41',
             'Browser' => 'Silk',
             'Browser_Type' => 'Browser',
@@ -5880,13 +5880,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-DH' => [
+    ),
+    'issue-618-DH' => array(
         'ua' => 'Mozilla/5.0 (X11; Linux i686; rv:31.0) Gecko/20100101 Firefox/31.0 Iceweasel/31.3.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Iceweasel 31.3',
             'Browser' => 'Iceweasel',
             'Browser_Type' => 'Browser',
@@ -5933,13 +5933,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '31.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-DI' => [
+    ),
+    'issue-618-DI' => array(
         'ua' => 'TrendWinHttp/',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'cURL',
             'Browser' => 'TrendWinHttp',
             'Browser_Type' => 'Bot/Crawler',
@@ -5986,13 +5986,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-DJ' => [
+    ),
+    'issue-618-DJ' => array(
         'ua' => 'Mozilla/0.91 Beta (Windows)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Netscape 0.91',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -6039,13 +6039,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-DK' => [
+    ),
+    'issue-618-DK' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; V370 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.114 Mobile Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Chrome 38.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -6092,13 +6092,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-DL' => [
+    ),
+    'issue-618-DL' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86; nl-NL) adbeat.com/policy Gecko/20100423 Ubuntu/10.04 (lucid) Firefox/3.6.3 AppleWebKit/532.4 Safari/532.4',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Adbeat',
             'Browser' => 'Adbeat Bot',
             'Browser_Type' => 'Bot/Crawler',
@@ -6145,13 +6145,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-DM' => [
+    ),
+    'issue-618-DM' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko)                 Version/6.0 Mobile/10A5376e Safari/8536.25 (compatible; SMTBot/1.0; +http://www.similartech.com/smtbot)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'SMTBot',
             'Browser' => 'SMTBot',
             'Browser_Type' => 'Bot/Crawler',
@@ -6198,13 +6198,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-DN' => [
+    ),
+    'issue-618-DN' => array(
         'ua' => 'Mozilla/5.0 (Nintendo WiiU) AppleWebKit/536.28 (KHTML, like Gecko) NX/3.0.3.12.15 NintendoBrowser/4.1.1.9601.EU',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Access NetFront 3.0',
             'Browser' => 'NetFront NX',
             'Browser_Type' => 'Browser',
@@ -6251,13 +6251,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-DO' => [
+    ),
+    'issue-618-DO' => array(
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 5_0 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko; Google Web Preview) Version/5.1 Mobile/9A334 Safari/7534.48.3',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Google',
             'Browser' => 'Google Web Preview',
             'Browser_Type' => 'Bot/Crawler',
@@ -6304,13 +6304,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-DP' => [
+    ),
+    'issue-618-DP' => array(
         'ua' => 'Wget/1.12 (linux-gnu)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'wget',
             'Browser' => 'wget',
             'Browser_Type' => 'Offline Browser',
@@ -6357,13 +6357,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-DQ' => [
+    ),
+    'issue-618-DQ' => array(
         'ua' => 'MnoGoSearch/3.3.15',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Search Engines',
             'Browser' => 'MnoGoSearch',
             'Browser_Type' => 'Bot/Crawler',
@@ -6410,13 +6410,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-DR' => [
+    ),
+    'issue-618-DR' => array(
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 7_0_4 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Mercury/8.6 Mobile/11B554a Safari/9537.53',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mercury 8.6',
             'Browser' => 'Mercury',
             'Browser_Type' => 'Browser',
@@ -6463,13 +6463,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-DS' => [
+    ),
+    'issue-618-DS' => array(
         'ua' => 'Mozilla/4.0 (compatible; GoogleToolbar 7.5.5111.1712; Windows XP 5.1; MSIE 8.0.6001.18702)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Google',
             'Browser' => 'Google Toolbar',
             'Browser_Type' => 'Bot/Crawler',
@@ -6516,13 +6516,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-DT' => [
+    ),
+    'issue-618-DT' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; IdeaTab S6000-H Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.117 Safari/537.36 OPR/24.0.1565.82529',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera Mobile 24.0 for Android',
             'Browser' => 'Opera Mobile',
             'Browser_Type' => 'Browser',
@@ -6569,13 +6569,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-DU' => [
+    ),
+    'issue-618-DU' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android; 4.1.2; GT-I9100 Build/000000) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1234.12 Mobile Safari/537.22 OPR/14.0.123.123',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Opera Mobile 14.0 for Android',
             'Browser' => 'Opera Mobile',
             'Browser_Type' => 'Browser',
@@ -6622,13 +6622,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-DV' => [
+    ),
+    'issue-618-DV' => array(
         'ua' => 'Mozilla/5.0 (Symbian/3; Series60/5.3 NokiaE7-00/111.040.1511; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/535.1 (KHTML, like Gecko) NokiaBrowser/8.3.1.4 Mobile Safari/535.1 3gpp-gba',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Nokia Browser 8.3',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
@@ -6675,13 +6675,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-DW' => [
+    ),
+    'issue-618-DW' => array(
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Coast/4.00.86810 Mobile/12B440 Safari/7534.48.3',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Coast 4.0',
             'Browser' => 'Coast',
             'Browser_Type' => 'Application',
@@ -6728,13 +6728,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-DX' => [
+    ),
+    'issue-618-DX' => array(
         'ua' => 'Opera%20Coast/4.00.86810 CFNetwork/711.1.16 Darwin/14.0.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Coast 4.0',
             'Browser' => 'Coast',
             'Browser_Type' => 'Application',
@@ -6781,13 +6781,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-DY' => [
+    ),
+    'issue-618-DY' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux Core i7-4980HQ; de; rv:32.0; compatible; Jobboerse.com; http://www.xn--jobbrse-d1a.com) Gecko/20100401 Firefox/24.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Jobs',
             'Browser' => 'JobBoerse Bot',
             'Browser_Type' => 'Bot/Crawler',
@@ -6834,13 +6834,13 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-618-DZ' => [
+    ),
+    'issue-618-DZ' => array(
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_1_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B440 Safari/600.1.4,gzip(gfe)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Mobile Safari 8.0',
             'Browser' => 'Safari',
             'Browser_Type' => 'Browser',
@@ -6887,8 +6887,8 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => true,
         'standard' => true,
-    ],
-];
+    ),
+);

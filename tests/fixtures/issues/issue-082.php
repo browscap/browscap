@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-082' => [
+return array(
+    'issue-082' => array(
         'ua' => 'Mozilla/5.0 (X11; U; Linux; en-US) AppleWebKit/532.4 (KHTML, like Gecko) Arora/0.10.2 Safari/532.4',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Arora 0.10',
             'Browser' => 'Arora',
             'Browser_Type' => 'Browser',
@@ -50,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

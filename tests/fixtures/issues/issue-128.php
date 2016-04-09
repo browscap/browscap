@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-128' => [
+return array(
+    'issue-128' => array(
         'ua' => 'Mozilla/5.0 (compatible; Another Web Mining Tool 1.0; +none; awmt)',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Another Web Mining Tool',
             'Browser' => 'Another Web Mining Tool',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

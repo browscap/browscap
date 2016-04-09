@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-873-A' => [
+return array(
+    'issue-873-A' => array(
         'ua' => 'Mozilla/5.0 (Linux; U; Android 5.1; en-US; XT1021 Build/LPC23.13-34.8) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.7.5.658 U3/0.8.0 Mobile Safari/534.30',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'UC Browser 10.7',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
@@ -50,13 +50,13 @@ return [
             'RenderingEngine_Name' => 'U3',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'UCWeb Inc.',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-873-B' => [
+    ),
+    'issue-873-B' => array(
         'ua' => 'Mozilla/5.0 (Android 5.1; Mobile; rv:43.0) Gecko/43.0 Firefox/43.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Firefox 43.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -103,8 +103,8 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '43.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

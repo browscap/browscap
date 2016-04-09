@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-286-A' => [
+return array(
+    'issue-286-A' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; Avant TriCore) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Avant 2014',
             'Browser' => 'Avant',
             'Browser_Type' => 'Browser',
@@ -50,13 +50,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-286-B' => [
+    ),
+    'issue-286-B' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; WOW64; Trident/7.0; Avant Browser; rv:11.0) like Gecko',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Avant Generic Tricore',
             'Browser' => 'Avant',
             'Browser_Type' => 'Browser',
@@ -103,13 +103,13 @@ return [
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '7.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-286-C' => [
+    ),
+    'issue-286-C' => array(
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0; Avant TriCore) Gecko/20100101 Firefox/27.0',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Avant 2014',
             'Browser' => 'Avant',
             'Browser_Type' => 'Browser',
@@ -156,8 +156,8 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '27.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

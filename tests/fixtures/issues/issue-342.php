@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-342-A' => [
+return array(
+    'issue-342-A' => array(
         'ua' => 'Mozilla/5.0 (Series40; Nokia300/07.57; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/5.0.0.0.31',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Nokia Proxy Browser 5.0',
             'Browser' => 'Nokia Proxy Browser',
             'Browser_Type' => 'Browser',
@@ -50,13 +50,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-342-B' => [
+    ),
+    'issue-342-B' => array(
         'ua' => 'Mozilla/5.0 (Series40; Nokia300/07.65; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/4.0.0.0.45',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Nokia Proxy Browser 4.0',
             'Browser' => 'Nokia Proxy Browser',
             'Browser_Type' => 'Browser',
@@ -103,13 +103,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-342-C' => [
+    ),
+    'issue-342-C' => array(
         'ua' => 'Mozilla/5.0 (Symbian/3; Series60/5.5 Nokia808PureView/113.010.1508; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/535.1 (KHTML, like Gecko) NokiaBrowser/8.3.2.21 Mobile Safari/535.1 3gpp-gba',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Nokia Browser 8.3',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
@@ -156,13 +156,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-342-D' => [
+    ),
+    'issue-342-D' => array(
         'ua' => 'Mozilla/5.0 (Symbian/3; Series60/5.5 Nokia700/113.010.1506; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/535.1 (KHTML, like Gecko) NokiaBrowser/8.3.2.21 Mobile Safari/535.1 3gpp-gba',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Nokia Browser 8.3',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
@@ -209,13 +209,13 @@ return [
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => false,
-    ],
-    'issue-342-E' => [
+    ),
+    'issue-342-E' => array(
         'ua' => 'Mozilla/5.0 (Series40; NokiaC2-01/11.40; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/5.0.0.0.31',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Nokia Proxy Browser 5.0',
             'Browser' => 'Nokia Proxy Browser',
             'Browser_Type' => 'Browser',
@@ -262,13 +262,13 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-342-F' => [
+    ),
+    'issue-342-F' => array(
         'ua' => 'Mozilla/5.0 (Series40; NokiaC2-03/06.96; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/5.0.0.0.31',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Nokia Proxy Browser 5.0',
             'Browser' => 'Nokia Proxy Browser',
             'Browser_Type' => 'Browser',
@@ -315,8 +315,8 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-728-A' => [
+return array(
+    'issue-728-A' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Plane 10.5 3G PS1005MG Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 YaBrowser/15.4.2272.3842.01 Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Yandex Browser 15.4',
             'Browser' => 'Yandex Browser',
             'Browser_Type' => 'Browser',
@@ -50,13 +50,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-728-B' => [
+    ),
+    'issue-728-B' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; PMT5777_3G Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.136 Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Chrome 33.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -103,13 +103,13 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-    'issue-728-C' => [
+    ),
+    'issue-728-C' => array(
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; SM-T555 Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 YaBrowser/15.4.2272.3842.01 Safari/537.36',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Yandex Browser 15.4',
             'Browser' => 'Yandex Browser',
             'Browser_Type' => 'Browser',
@@ -156,8 +156,8 @@ return [
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

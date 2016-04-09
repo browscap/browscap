@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-409' => [
+return array(
+    'issue-409' => array(
         'ua' => 'CRAZYWEBCRAWLER 0.9.0, http://www.crazywebcrawler.com',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Crazywebcrawler',
             'Browser' => 'Crazywebcrawler',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

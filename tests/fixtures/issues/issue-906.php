@@ -1,9 +1,10 @@
 <?php
 
-return [
-    'issue-906' => [
+return array(
+    'issue-906' => array(
         'ua' => 'SetLinks bot 1.0',
-        'properties' => [
+        'properties' => array(
+            'Comment' => 'SetLinks.ru Crawler',
             'Browser' => 'SetLinks.ru Crawler',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
@@ -14,23 +15,32 @@ return [
             'MinorVer' => '0',
             'Platform' => 'unknown',
             'Platform_Version' => 'unknown',
+            'Platform_Description' => 'unknown',
             'Platform_Bits' => '0',
             'Platform_Maker' => 'unknown',
+            'Alpha' => false,
+            'Beta' => false,
             'Win16' => false,
             'Win32' => false,
             'Win64' => false,
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Crawler' => true,
-            'JavaScript' => false,
-            'Cookies' => false,
             'Frames' => false,
             'IFrames' => false,
             'Tables' => false,
+            'Cookies' => false,
+            'BackgroundSounds' => false,
+            'JavaScript' => false,
             'VBScript' => false,
             'JavaApplets' => false,
             'ActiveXControls' => false,
-            'BackgroundSounds' => false,
+            'isMobileDevice' => false,
+            'isTablet' => false,
+            'isSyndicationReader' => false,
+            'Crawler' => true,
+            'isFake' => false,
+            'isAnonymized' => false,
+            'isModified' => false,
+            'CssVersion' => '0',
+            'AolVersion' => '0',
             'Device_Name' => 'unknown',
             'Device_Maker' => 'unknown',
             'Device_Type' => 'unknown',
@@ -40,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ],
-        'lite'     => false,
+        ),
+        'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);

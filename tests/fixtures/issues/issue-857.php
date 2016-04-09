@@ -1,9 +1,9 @@
 <?php
 
-return [
-    'issue-857' => [
+return array(
+    'issue-857' => array(
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64) adbeat.com/policy AppleWebKit/537.21 (KHTML, like Gecko) Firefox/34.0 Safari/537.21',
-        'properties' => [
+        'properties' => array(
             'Comment' => 'Adbeat',
             'Browser' => 'Adbeat Bot',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,8 +50,8 @@ return [
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ],
+        ),
         'lite' => false,
         'standard' => true,
-    ],
-];
+    ),
+);
