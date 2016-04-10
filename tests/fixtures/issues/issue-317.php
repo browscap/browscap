@@ -1117,7 +1117,7 @@ return [
     'issue-317-V' => [
         'ua' => 'Instagram 5.0.2 (iPhone5,1; iPhone OS 7_0_4; en_US; en) AppleWebKit/420+',
         'properties' => [
-            'Comment' => 'Instagram App 5.0',
+            'Comment' => 'Instagram App 5.0 for iOS',
             'Browser' => 'Instagram App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',

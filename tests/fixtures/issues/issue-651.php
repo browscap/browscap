@@ -2336,7 +2336,7 @@ return [
     'issue-651-AS' => [
         'ua' => 'Instagram/2.4.0 CFNetwork/548.1.4 Darwin/11.0.0',
         'properties' => [
-            'Comment' => 'Instagram App 2.4',
+            'Comment' => 'Instagram App 2.4 for Darwin',
             'Browser' => 'Instagram App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
