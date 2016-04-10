@@ -78,6 +78,15 @@
           ]
         },
         {
+          "match": "Opera\/9.80 (J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*Mac OS X*Version\/*",
+          "properties": {
+            "isModified": "true"
+          },
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
           "match": "Opera\/9.80 (J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "JAVA"

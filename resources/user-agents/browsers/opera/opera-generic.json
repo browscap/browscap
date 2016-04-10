@@ -45,7 +45,7 @@
           ]
         },
         {
-          "match": "Mozilla\/4.0 (compatible; MSIE#PLATFORM#)*Opera*",
+          "match": "Mozilla\/4.0 (compatible; MSIE #PLATFORM#)*Opera*",
           "device": "Windows Desktop",
           "platforms": [
             "Win2000", "Win2000_2", "WinME", "WinME_2", "Win95_2", "Win98_2", "NT4",
@@ -56,7 +56,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible; MSIE#PLATFORM#)*Opera*",
+          "match": "Mozilla\/5.0 (compatible; MSIE #PLATFORM#)*Opera*",
           "device": "Windows Desktop",
           "platforms": [
             "Win2000", "Win2000_2", "WinME", "WinME_2", "Win95_2", "Win98_2", "NT4",
@@ -67,14 +67,14 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible; MSIE#PLATFORM#)*Opera*",
+          "match": "Mozilla\/5.0 (compatible; MSIE #PLATFORM#)*Opera*",
           "device": "Linux Desktop",
           "platforms": [
             "Linux_64", "Linux_32", "Linux"
           ]
         },
         {
-          "match": "Mozilla\/4.0 (compatible; MSIE#PLATFORM#)*Opera*",
+          "match": "Mozilla\/4.0 (compatible; MSIE #PLATFORM#)*Opera*",
           "device": "Linux Desktop",
           "platforms": [
             "Linux_64", "Linux_32", "Linux"
