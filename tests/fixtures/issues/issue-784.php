@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-784' => array(
+return [
+    'issue-784' => [
         'ua' => 'Chrome/15.0.860.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/15.0.860.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -50,8 +50,8 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-);
+    ],
+];

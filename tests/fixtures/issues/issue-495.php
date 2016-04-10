@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-495' => array(
+return [
+    'issue-495' => [
         'ua' => 'JoobleBot (compatible; http://jooble.org/jooble-bot)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'JoobleBot',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,8 +50,8 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-);
+    ],
+];

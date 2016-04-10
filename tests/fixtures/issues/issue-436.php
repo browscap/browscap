@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-436-A' => array(
+return [
+    'issue-436-A' => [
         'ua' => 'Mozilla/5.0 (compatible; ca-crawler/1.0)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'ca-crawler',
             'Browser' => 'ca-crawler',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,13 +50,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-B' => array(
+    ],
+    'issue-436-B' => [
         'ua' => 'Tablet-PC-4 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.34 Safari/534.24',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Chrome 11.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -103,13 +103,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => false,
-    ),
-    'issue-436-C' => array(
+    ],
+    'issue-436-C' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.4; Trident/7.0; rv:11.0) like Gecko',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'IE 11.0',
             'Browser' => 'IE',
             'Browser_Type' => 'Browser',
@@ -156,13 +156,13 @@ return array(
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '7.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-    'issue-436-D' => array(
+    ],
+    'issue-436-D' => [
         'ua' => 'Mozilla/5.0 (compatible; publiclibraryarchive.org/1.0; +crawl@publiclibraryarchive.org)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'publiclibraryarchive Bot',
             'Browser' => 'publiclibraryarchive Bot',
             'Browser_Type' => 'Bot/Crawler',
@@ -209,13 +209,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-E' => array(
+    ],
+    'issue-436-E' => [
         'ua' => 'Mozilla/5.0 (compatible; PAD-bot/9.0; +http://www.descargarprogramagratis.com/)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'PAD-bot 9.0',
             'Browser' => 'PAD-bot',
             'Browser_Type' => 'Bot/Crawler',
@@ -262,13 +262,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-F' => array(
+    ],
+    'issue-436-F' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/35.0.1916.47 Safari/537.36',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Chrome 35.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -315,13 +315,13 @@ return array(
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-G' => array(
+    ],
+    'issue-436-G' => [
         'ua' => 'BacklinkCrawler (http://www.backlinktest.com/crawler.html)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'BacklinkCrawler',
             'Browser_Type' => 'Bot/Crawler',
@@ -368,13 +368,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-H' => array(
+    ],
+    'issue-436-H' => [
         'ua' => 'LibreOffice',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'LibreOffice',
             'Browser' => 'LibreOffice',
             'Browser_Type' => 'Application',
@@ -421,13 +421,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-I' => array(
+    ],
+    'issue-436-I' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.0; Trident/6.0)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'IE 10.0 in IE 9.0 Compatibility Mode',
             'Browser' => 'IE',
             'Browser_Type' => 'Browser',
@@ -474,13 +474,13 @@ return array(
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '6.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-    'issue-436-J' => array(
+    ],
+    'issue-436-J' => [
         'ua' => 'Mozilla/5.0 (compatible; Linux x86_64; Mail.RU_Bot/Fast/2.0; +http://go.mail.ru/help/robots)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Mail.Ru',
             'Browser' => 'Mail.Ru',
             'Browser_Type' => 'Bot/Crawler',
@@ -527,13 +527,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-K' => array(
+    ],
+    'issue-436-K' => [
         'ua' => 'ThumbnailAgent',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'ThumbnailAgent',
             'Browser_Type' => 'Bot/Crawler',
@@ -580,13 +580,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-L' => array(
+    ],
+    'issue-436-L' => [
         'ua' => 'Mozilla/5.0 (compatible; SoftListBot/2.2; +http://www.softlist.us/)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'SoftListBot',
             'Browser' => 'SoftListBot',
             'Browser_Type' => 'Bot/Crawler',
@@ -633,13 +633,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-M' => array(
+    ],
+    'issue-436-M' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/35.0.1916.114 Safari/537.36',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Chrome 35.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -686,13 +686,13 @@ return array(
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-N' => array(
+    ],
+    'issue-436-N' => [
         'ua' => 'JobRoboter/1.1',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Jobs',
             'Browser' => 'JobRoboter',
             'Browser_Type' => 'Bot/Crawler',
@@ -739,13 +739,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-O' => array(
+    ],
+    'issue-436-O' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.1.16) Gecko',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -792,13 +792,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-    'issue-436-P' => array(
+    ],
+    'issue-436-P' => [
         'ua' => 'LinkStats Bot',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'LinkStats Bot',
             'Browser_Type' => 'Bot/Crawler',
@@ -845,13 +845,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-Q' => array(
+    ],
+    'issue-436-Q' => [
         'ua' => 'Mozilla/5.0 (compatible; sReleaseBot/6.1; +http://www.srelease.com/)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'sReleaseBot',
             'Browser' => 'sReleaseBot',
             'Browser_Type' => 'Bot/Crawler',
@@ -898,13 +898,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-R' => array(
+    ],
+    'issue-436-R' => [
         'ua' => 'Mozilla/4.0 (compatible;  Vagabondo/4.0/EU; http://www.wise-guys.nl/)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Vagabondo',
             'Browser' => 'Vagabondo',
             'Browser_Type' => 'Bot/Crawler',
@@ -951,13 +951,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-S' => array(
+    ],
+    'issue-436-S' => [
         'ua' => 'eZ Publish Link Validator',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Link Checkers',
             'Browser' => 'eZ Publish Link Validator',
             'Browser_Type' => 'Bot/Crawler',
@@ -1004,13 +1004,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-T' => array(
+    ],
+    'issue-436-T' => [
         'ua' => 'Mozilla/5.0 (Android 4.2.2;) AppleWebKit/1.1 Version/4.0 Mobile Safari/1.1',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -1057,13 +1057,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-    'issue-436-U' => array(
+    ],
+    'issue-436-U' => [
         'ua' => 'ThumbSniper (http://thumbsniper.com)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'ThumbSniper',
             'Browser_Type' => 'Bot/Crawler',
@@ -1110,13 +1110,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-V' => array(
+    ],
+    'issue-436-V' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.4; Win64; x64; Trident/7.0; rv:11.0) like Gecko',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'IE 11.0',
             'Browser' => 'IE',
             'Browser_Type' => 'Browser',
@@ -1163,13 +1163,13 @@ return array(
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '7.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-    'issue-436-W' => array(
+    ],
+    'issue-436-W' => [
         'ua' => 'LinksCrawler 0.1beta',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Link Checkers',
             'Browser' => 'LinksCrawler',
             'Browser_Type' => 'Bot/Crawler',
@@ -1216,13 +1216,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-X' => array(
+    ],
+    'issue-436-X' => [
         'ua' => 'stq_bot (+http://www.searchteq.de)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'Searchteq Bot',
             'Browser_Type' => 'Bot/Crawler',
@@ -1269,13 +1269,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-Y' => array(
+    ],
+    'issue-436-Y' => [
         'ua' => 'SNK Screenshot Bot/0.20 ( abuse at savenkeep dot_com )',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'Save n Keep Screenshot Bot',
             'Browser_Type' => 'Bot/Crawler',
@@ -1322,13 +1322,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-Z' => array(
+    ],
+    'issue-436-Z' => [
         'ua' => 'Phantom.js bot',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'Phantom.js bot',
             'Browser_Type' => 'Bot/Crawler',
@@ -1375,13 +1375,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-AA' => array(
+    ],
+    'issue-436-AA' => [
         'ua' => 'Mozilla/5.0 (compatible; special_archiver/3.1.1 +http://www.archive.org/details/archive.org_bot)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Internet Archive',
             'Browser' => 'Internet Archive Special Archiver',
             'Browser_Type' => 'Bot/Crawler',
@@ -1428,13 +1428,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-AB' => array(
+    ],
+    'issue-436-AB' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.1; Windows NT)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -1481,13 +1481,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-    'issue-436-AC' => array(
+    ],
+    'issue-436-AC' => [
         'ua' => 'SynHttpClient-Built/5759',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Rippers',
             'Browser' => 'SynHttpClient',
             'Browser_Type' => 'Bot/Crawler',
@@ -1534,13 +1534,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-AD' => array(
+    ],
+    'issue-436-AD' => [
         'ua' => 'Mozilla/5.0 (compatible; Optimizer)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'Optimizer Bot',
             'Browser_Type' => 'Bot/Crawler',
@@ -1587,13 +1587,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-AE' => array(
+    ],
+    'issue-436-AE' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU iPhone OS 501 like Mac OS X) AppleWebKit/534.46 (KHTML like Gecko) Version/5.1 Mobile/9A405 Safari/7534.48.3',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Mobile Safari 5.1',
             'Browser' => 'Safari',
             'Browser_Type' => 'Browser',
@@ -1640,13 +1640,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-AF' => array(
+    ],
+    'issue-436-AF' => [
         'ua' => '12345',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Miscellaneous Browsers',
             'Browser' => '12345',
             'Browser_Type' => 'Bot/Crawler',
@@ -1693,13 +1693,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-AG' => array(
+    ],
+    'issue-436-AG' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.11; Windows NT 6.1; Trident/5.0)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -1746,13 +1746,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-    'issue-436-AH' => array(
+    ],
+    'issue-436-AH' => [
         'ua' => 'Mozilla/5.0 (compatible; Sophora Linkchecker; http://www.subshell.com)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Link Checkers',
             'Browser' => 'Sophora Linkchecker',
             'Browser_Type' => 'Bot/Crawler',
@@ -1799,13 +1799,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-AI' => array(
+    ],
+    'issue-436-AI' => [
         'ua' => 'Mozilla/5.0 (compatible; SEOdiver/1.0; +http://www.seodiver.com/bot)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'SEOdiver Bot',
             'Browser' => 'SEOdiver Bot',
             'Browser_Type' => 'Bot/Crawler',
@@ -1852,13 +1852,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-AJ' => array(
+    ],
+    'issue-436-AJ' => [
         'ua' => 'HTTPClient/1.0 (2.4.0, ruby 1.9.3 (2013-06-27))',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Rippers',
             'Browser' => 'httpclient',
             'Browser_Type' => 'Bot/Crawler',
@@ -1905,13 +1905,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-AK' => array(
+    ],
+    'issue-436-AK' => [
         'ua' => 'T-Online Browser',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Miscellaneous Browsers',
             'Browser' => 'T-Online Browser',
             'Browser_Type' => 'Bot/Crawler',
@@ -1958,13 +1958,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-AL' => array(
+    ],
+    'issue-436-AL' => [
         'ua' => '=Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.16 (KHTML, like Gecko) Chrome/10.0.648.204 Safari/534.16',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -2011,13 +2011,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-    'issue-436-AM' => array(
+    ],
+    'issue-436-AM' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.11; Windows NT 6.2; Trident/5.0)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -2064,13 +2064,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-    'issue-436-AN' => array(
+    ],
+    'issue-436-AN' => [
         'ua' => 'BuiBui-Bot/1.0 (email: buibui[at]dadapro[dot]com)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'BuiBui-Bot',
             'Browser' => 'BuiBui-Bot',
             'Browser_Type' => 'Bot/Crawler',
@@ -2117,13 +2117,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-AO' => array(
+    ],
+    'issue-436-AO' => [
         'ua' => 'thumbshots-de-bot (+http://www.thumbshots.de/)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'thumbshots-de-bot',
             'Browser_Type' => 'Bot/Crawler',
@@ -2170,13 +2170,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-AP' => array(
+    ],
+    'issue-436-AP' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.1; zh-CN) AppleWebKit/533+ (KHTML, like Gecko)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Apple Mail for Windows',
             'Browser' => 'Apple Mail',
             'Browser_Type' => 'Email Client',
@@ -2223,13 +2223,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-AQ' => array(
+    ],
+    'issue-436-AQ' => [
         'ua' => 'ImplisenseBot 1.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'ImplisenseBot',
             'Browser' => 'ImplisenseBot',
             'Browser_Type' => 'Bot/Crawler',
@@ -2276,13 +2276,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-AR' => array(
+    ],
+    'issue-436-AR' => [
         'ua' => 'AboutUsBot/Harpy (Website Analysis; http://www.aboutus.org/Aboutus:Bot; help@aboutus.org)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'AboutUs Bot',
             'Browser' => 'AboutUs Bot',
             'Browser_Type' => 'Bot/Crawler',
@@ -2329,13 +2329,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-AS' => array(
+    ],
+    'issue-436-AS' => [
         'ua' => 'python-requests/2.3.0 CPython/2.7.6 Linux/3.13.0-24-generic',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'python-requests',
             'Browser' => 'python-requests',
             'Browser_Type' => 'Bot/Crawler',
@@ -2382,13 +2382,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-AT' => array(
+    ],
+    'issue-436-AT' => [
         'ua' => 'Airmail 1.5 rv:250 (Macintosh; Mac OS X 10.9.4; en_AT)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Airmail 1.5',
             'Browser' => 'Airmail',
             'Browser_Type' => 'Email Client',
@@ -2435,13 +2435,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-AU' => array(
+    ],
+    'issue-436-AU' => [
         'ua' => 'Bot.AraTurka.com/0.0.1',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'Bot.AraTurka.com',
             'Browser_Type' => 'Bot/Crawler',
@@ -2488,13 +2488,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-AV' => array(
+    ],
+    'issue-436-AV' => [
         'ua' => 'ssearch_bot (sSearch Crawler; http://www.semantissimo.de)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'SEO & Analytics',
             'Browser' => 'sSearch Crawler',
             'Browser_Type' => 'Bot/Crawler',
@@ -2541,13 +2541,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-AW' => array(
+    ],
+    'issue-436-AW' => [
         'ua' => 'http_requester/0.1',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'http_requester',
             'Browser' => 'http_requester',
             'Browser_Type' => 'Bot/Crawler',
@@ -2594,13 +2594,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-AX' => array(
+    ],
+    'issue-436-AX' => [
         'ua' => 'WhatWeb/0.4.8-dev',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Online Scanners',
             'Browser' => 'WhatWeb Web Scanner',
             'Browser_Type' => 'Bot/Crawler',
@@ -2647,13 +2647,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-AY' => array(
+    ],
+    'issue-436-AY' => [
         'ua' => 'Mozila/4.0 (compatible; MSIE 6.0; Windows NT 5.1;)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -2700,13 +2700,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-    'issue-436-AZ' => array(
+    ],
+    'issue-436-AZ' => [
         'ua' => 'HRCrawler/2.0 (XF86; MacOS x86_64) AppleWebKit/537.31 (KHTML, like Gecko)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'HRCrawler',
             'Browser_Type' => 'Bot/Crawler',
@@ -2753,13 +2753,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-BA' => array(
+    ],
+    'issue-436-BA' => [
         'ua' => 'python-requests/2.0.0 CPython/2.6.6 Linux/2.6.32-431.el6.x86_64',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'python-requests',
             'Browser' => 'python-requests',
             'Browser_Type' => 'Bot/Crawler',
@@ -2806,13 +2806,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-BB' => array(
+    ],
+    'issue-436-BB' => [
         'ua' => 'isc header collector handlers@isc.sans.edu',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'isc header collector handlers',
             'Browser_Type' => 'Bot/Crawler',
@@ -2859,13 +2859,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-BC' => array(
+    ],
+    'issue-436-BC' => [
         'ua' => 'Mozilla/5.0 (compatible; Linux x86_64; Mail.RU_Bot/Robots; +http://go.mail.ru/help/robots)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Mail.Ru',
             'Browser' => 'Mail.Ru',
             'Browser_Type' => 'Bot/Crawler',
@@ -2912,13 +2912,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-BD' => array(
+    ],
+    'issue-436-BD' => [
         'ua' => 'Thumbor/3.14.6',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Image Crawlers',
             'Browser' => 'Thumbor',
             'Browser_Type' => 'Bot/Crawler',
@@ -2965,13 +2965,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-BE' => array(
+    ],
+    'issue-436-BE' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.10; Windows NT 6.1; Trident/5.0)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -3018,13 +3018,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-    'issue-436-BF' => array(
+    ],
+    'issue-436-BF' => [
         'ua' => 'Mozilla/5.0 (compatible; Muenster University of Applied Sciences; +http://fb02itsscan.fh-muenster.de)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'itsscan',
             'Browser_Type' => 'Bot/Crawler',
@@ -3071,13 +3071,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-BG' => array(
+    ],
+    'issue-436-BG' => [
         'ua' => 'Mozilla/5.0 (compatible; MOSBookmarks/v2.6-Plus; Link Checker)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Link Checkers',
             'Browser' => 'MOSBookmarks Link Checker',
             'Browser_Type' => 'Bot/Crawler',
@@ -3124,13 +3124,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-BH' => array(
+    ],
+    'issue-436-BH' => [
         'ua' => 'Cliqzbot/0.1 (+http://cliqz.com/company/cliqzbot)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Cliqzbot',
             'Browser' => 'Cliqzbot',
             'Browser_Type' => 'Bot/Crawler',
@@ -3177,13 +3177,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-BI' => array(
+    ],
+    'issue-436-BI' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:34.0) Gecko/20100101 /34.0a1',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Firefox 34.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -3230,13 +3230,13 @@ return array(
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '34.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-    'issue-436-BJ' => array(
+    ],
+    'issue-436-BJ' => [
         'ua' => 'Sistrix',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Sistrix Crawler',
             'Browser' => 'Sistrix Crawler',
             'Browser_Type' => 'Bot/Crawler',
@@ -3283,13 +3283,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-BK' => array(
+    ],
+    'issue-436-BK' => [
         'ua' => 'Windows; U; Windows NT 5.1; lt; rv:1.9.0.14) Gecko/2009082707 Firefox/3.0.14 (.NET CLR 3.5.30729)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -3336,13 +3336,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-    'issue-436-BL' => array(
+    ],
+    'issue-436-BL' => [
         'ua' => 'Forum Poster V3',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'Forum Poster',
             'Browser_Type' => 'Bot/Crawler',
@@ -3389,13 +3389,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-BM' => array(
+    ],
+    'issue-436-BM' => [
         'ua' => 'Mozilla/5.0 (compatible; WebMasterAid/1.0; +http://wmaid.com/explore/)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'WebMasterAid',
             'Browser_Type' => 'Bot/Crawler',
@@ -3442,13 +3442,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-BN' => array(
+    ],
+    'issue-436-BN' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'IE 6.0',
             'Browser' => 'IE',
             'Browser_Type' => 'Browser',
@@ -3495,13 +3495,13 @@ return array(
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-BO' => array(
+    ],
+    'issue-436-BO' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'IE 8.0',
             'Browser' => 'IE',
             'Browser_Type' => 'Browser',
@@ -3548,13 +3548,13 @@ return array(
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '4.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-BP' => array(
+    ],
+    'issue-436-BP' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'IE 7.0',
             'Browser' => 'IE',
             'Browser_Type' => 'Browser',
@@ -3601,13 +3601,13 @@ return array(
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-BQ' => array(
+    ],
+    'issue-436-BQ' => [
         'ua' => 'SAMSUNG-GT-S5230/S5230RFJK1 SHP/VPP/R5 Jasmine/0.8 Nextreaming SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Jasmine 0.8',
             'Browser' => 'Jasmine',
             'Browser_Type' => 'Browser',
@@ -3654,13 +3654,13 @@ return array(
             'RenderingEngine_Name' => 'NetFront',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Access',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-BR' => array(
+    ],
+    'issue-436-BR' => [
         'ua' => 'SAMSUNG-GT-C3310/1.0 NetFront/4.2 Profile/MIDP-2.0 Configuration/CLDC-1.1',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Access NetFront 4.2',
             'Browser' => 'NetFront',
             'Browser_Type' => 'Browser',
@@ -3707,13 +3707,13 @@ return array(
             'RenderingEngine_Name' => 'NetFront',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Access',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-BS' => array(
+    ],
+    'issue-436-BS' => [
         'ua' => 'Mozilla/4.79 [en] (Windows NT 5.0; U)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Netscape 4.79',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -3760,13 +3760,13 @@ return array(
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ),
+        ],
         'lite' => false,
         'standard' => false,
-    ),
-    'issue-436-BT' => array(
+    ],
+    'issue-436-BT' => [
         'ua' => 'Mozilla/5.0 (X11; Linux) AppleWebKit/535.22 (KHTML, like Gecko) Chrome/18.0.1025.133 Safari/535.22 Midori/0.4',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Midori 0.4',
             'Browser' => 'Midori',
             'Browser_Type' => 'Browser',
@@ -3813,13 +3813,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-BU' => array(
+    ],
+    'issue-436-BU' => [
         'ua' => 'Mozilla/5.0 (BlackBerry; U; BlackBerry 9320; de) AppleWebKit/534.11+ (KHTML, like Gecko) Version/7.1.0.714 Mobile Safari/534.11+',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'BlackBerry 7.1',
             'Browser' => 'BlackBerry',
             'Browser_Type' => 'Browser',
@@ -3866,13 +3866,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-BV' => array(
+    ],
+    'issue-436-BV' => [
         'ua' => 'Dalvik/1.6.0 (Linux; U; Android 4.4.2; SM-N9005 Build/KOT49H)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Dalvik 1.6',
             'Browser' => 'Dalvik',
             'Browser_Type' => 'Application',
@@ -3919,13 +3919,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-BW' => array(
+    ],
+    'issue-436-BW' => [
         'ua' => 'Dalvik/1.6.0 (Linux; U; Android 4.4.2; SM-G900F Build/KOT49H)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Dalvik 1.6',
             'Browser' => 'Dalvik',
             'Browser_Type' => 'Application',
@@ -3972,13 +3972,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-BX' => array(
+    ],
+    'issue-436-BX' => [
         'ua' => 'Dalvik/1.6.0 (Linux; U; Android 4.4.2; D6503 Build/17.1.2.A.0.323)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Dalvik 1.6',
             'Browser' => 'Dalvik',
             'Browser_Type' => 'Application',
@@ -4025,13 +4025,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-BY' => array(
+    ],
+    'issue-436-BY' => [
         'ua' => 'Opera/9.0 (Windows NT 5.1; U; en)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Opera 9.0',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -4078,13 +4078,13 @@ return array(
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-BZ' => array(
+    ],
+    'issue-436-BZ' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 5.0; Windows 95) Opera 6.01  [en]',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Opera 6.01',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -4131,13 +4131,13 @@ return array(
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ),
+        ],
         'lite' => false,
         'standard' => false,
-    ),
-    'issue-436-CA' => array(
+    ],
+    'issue-436-CA' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; U; en) Opera 8.01',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Opera 8.01',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -4184,13 +4184,13 @@ return array(
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-CB' => array(
+    ],
+    'issue-436-CB' => [
         'ua' => 'Dalvik/1.6.0 (Linux; U; Android 4.2.1; HUAWEI G700-U10 Build/HuaweiG700-U10)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Dalvik 1.6',
             'Browser' => 'Dalvik',
             'Browser_Type' => 'Application',
@@ -4237,13 +4237,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-CC' => array(
+    ],
+    'issue-436-CC' => [
         'ua' => 'Dalvik/1.6.0 (Linux; U; Android 4.3; SM-P600 Build/JSS15J)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Dalvik 1.6',
             'Browser' => 'Dalvik',
             'Browser_Type' => 'Application',
@@ -4290,13 +4290,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-CD' => array(
+    ],
+    'issue-436-CD' => [
         'ua' => 'Dalvik/1.6.0 (Linux; U; Android 4.1.1; LIFETAB_S9714 Build/JRO03R)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Dalvik 1.6',
             'Browser' => 'Dalvik',
             'Browser_Type' => 'Application',
@@ -4343,13 +4343,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-CE' => array(
+    ],
+    'issue-436-CE' => [
         'ua' => 'SYM.S200.SYM.T63.DEWAV60A_64_11B_HW (MRE/3.1.00(1280);MAUI/_DY33891_Symphony_L102;BDATE/2014/04/18 14:22;LCD/240320;CHIP/MT6260;KEY/Normal;TOUCH/0;CAMERA/1;SENSOR/0;DEV/DEWAV60A_64_11B_HW;WAP Browser/MAUI (HTTP PGDL;HTTPS);GMOBI/001;MBOUNCE/002;MOMAGIC/003;INDEX/004;SPICEI2I/005;GAMELOFT/006;) Y3389_DY33891_Symphony_L102 Release/2014.04.18 WAP Browser/MAUI (HTTP PGDL; HTTPS) Profile/  Q03C1-2.40 en-US',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'MAUI Wap Browser',
             'Browser' => 'MAUI Wap Browser',
             'Browser_Type' => 'Browser',
@@ -4396,13 +4396,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-CF' => array(
+    ],
+    'issue-436-CF' => [
         'ua' => 'Opera/8.01 (Windows NT 5.1)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Opera 8.01',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -4449,13 +4449,13 @@ return array(
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-CG' => array(
+    ],
+    'issue-436-CG' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows ME) Opera 7.11  [en]',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Opera 7.11',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -4502,13 +4502,13 @@ return array(
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ),
+        ],
         'lite' => false,
         'standard' => false,
-    ),
-    'issue-436-CH' => array(
+    ],
+    'issue-436-CH' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:22.0) Gecko/ /22.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Firefox 22.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -4555,13 +4555,13 @@ return array(
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '22.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-CI' => array(
+    ],
+    'issue-436-CI' => [
         'ua' => 'Firefox/30.0 (de); anonymized by Abelssoft 2028724395',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Firefox 30.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -4608,13 +4608,13 @@ return array(
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '30.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-    'issue-436-CJ' => array(
+    ],
+    'issue-436-CJ' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows 95; de; rv:1.9.2.6) Gecko/20100625 Firefox/27.0.1 (de) Anonymisiert durch AlMiSoft Browser-Maulkorb 68827872',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Firefox 27.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -4661,13 +4661,13 @@ return array(
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '27.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-CK' => array(
+    ],
+    'issue-436-CK' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'IE 6.0',
             'Browser' => 'IE',
             'Browser_Type' => 'Browser',
@@ -4714,13 +4714,13 @@ return array(
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-CL' => array(
+    ],
+    'issue-436-CL' => [
         'ua' => 'Opera/9.30 (Nintendo Wii; U; ; 3642; de)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Opera 9.30',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -4767,13 +4767,13 @@ return array(
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-CM' => array(
+    ],
+    'issue-436-CM' => [
         'ua' => 'Mozilla/5.0 (compatible; Google Desktop/5.9.1005.12335; http://desktop.google.com/)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Google Desktop',
             'Browser' => 'Google Desktop',
             'Browser_Type' => 'Browser',
@@ -4820,13 +4820,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-CN' => array(
+    ],
+    'issue-436-CN' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows 98; Win 9x4.90)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'IE 6.0',
             'Browser' => 'IE',
             'Browser_Type' => 'Browser',
@@ -4873,13 +4873,13 @@ return array(
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-CO' => array(
+    ],
+    'issue-436-CO' => [
         'ua' => 'Nokia6120c/3.83; Profile/MIDP-2.0 Configuration/CLDC-1.1',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Nokia Browser',
             'Browser' => 'Nokia Browser',
             'Browser_Type' => 'Browser',
@@ -4926,13 +4926,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-CP' => array(
+    ],
+    'issue-436-CP' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_1 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D201 [FBAN/FBIOS;FBAV/12.1.0.24.20;FBBV/3214247;FBDV/iPhone6,1;FBMD/iPhone;FBSN/iPhone OS;FBSV/7.1.1;FBSS/2; FBCR/AT&T;FBID/phone;FBLC/en_US;FBOP/5]',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Facebook App for iOS',
             'Browser' => 'Facebook App',
             'Browser_Type' => 'Application',
@@ -4979,13 +4979,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-CQ' => array(
+    ],
+    'issue-436-CQ' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1 like Mac OS X) AppleWebKit/537.5 (KHTML, like Gecko) Version/7.0 Mobile/11D167 Safari/9537.53',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Mobile Safari 7.0',
             'Browser' => 'Safari',
             'Browser_Type' => 'Browser',
@@ -5032,13 +5032,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-    'issue-436-CR' => array(
+    ],
+    'issue-436-CR' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_10 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B401 Safari/600.1.4',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Mobile Safari 8.0',
             'Browser' => 'Safari',
             'Browser_Type' => 'Browser',
@@ -5085,13 +5085,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-    'issue-436-CS' => array(
+    ],
+    'issue-436-CS' => [
         'ua' => 'Samsung SM-N9005 stagefright/1.2 (Linux;Android 4.4.2)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'stagefright 1.2',
             'Browser' => 'stagefright',
             'Browser_Type' => 'Application',
@@ -5138,13 +5138,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-CT' => array(
+    ],
+    'issue-436-CT' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.1; en-us; Nexus One Build/ERD62) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17 %u2013Nexus',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Android Browser 4.0',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -5191,13 +5191,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-    'issue-436-CU' => array(
+    ],
+    'issue-436-CU' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; en-us; PJ83100/2.20.502.7 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Android Browser 4.0',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -5244,13 +5244,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-    'issue-436-CV' => array(
+    ],
+    'issue-436-CV' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; en-us; VS840 4G Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Android Browser 4.0',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -5297,13 +5297,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-    'issue-436-CW' => array(
+    ],
+    'issue-436-CW' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; de-de; GT-N8000 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Android Browser 4.0',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -5350,13 +5350,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-CX' => array(
+    ],
+    'issue-436-CX' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 5_1_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Apple Mail 5.1 for iOS',
             'Browser' => 'Apple Mail',
             'Browser_Type' => 'Email Client',
@@ -5403,13 +5403,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-CY' => array(
+    ],
+    'issue-436-CY' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0; WOW64; rv:16.0) Gecko/20100101 Firefox/16.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Firefox 16.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -5456,13 +5456,13 @@ return array(
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '16.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-CZ' => array(
+    ],
+    'issue-436-CZ' => [
         'ua' => 'Opera/9.80 (Windows NT 6.1; WOW64; U; de) Presto/2.10.289 Version/12.02',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Opera 12.02',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -5509,13 +5509,13 @@ return array(
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.12',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-DB' => array(
+    ],
+    'issue-436-DB' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; Trident/7.0; rv:11.0) like Gecko',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'IE 11.0',
             'Browser' => 'IE',
             'Browser_Type' => 'Browser',
@@ -5562,13 +5562,13 @@ return array(
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '7.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-    'issue-436-DC' => array(
+    ],
+    'issue-436-DC' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.2.13) Gecko/20110516 Ubuntu/10.04 (lucid) Firefox/3.6.13',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Firefox 3.6',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -5615,13 +5615,13 @@ return array(
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.2',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-DD' => array(
+    ],
+    'issue-436-DD' => [
         'ua' => 'Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; de-de) AppleWebKit/533.17.9 (KHTML, like Gecko)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Apple Mail 4.2 for iOS',
             'Browser' => 'Apple Mail',
             'Browser_Type' => 'Email Client',
@@ -5668,13 +5668,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-DE' => array(
+    ],
+    'issue-436-DE' => [
         'ua' => 'Outlook-Express/7.0 (MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Windows Live Mail 7.0',
             'Browser' => 'Windows Live Mail',
             'Browser_Type' => 'Email Client',
@@ -5721,13 +5721,13 @@ return array(
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '7.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-DF' => array(
+    ],
+    'issue-436-DF' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.1; de-de; ME301T Build/JOP40D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Android Browser 4.0',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -5774,13 +5774,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-DG' => array(
+    ],
+    'issue-436-DG' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; Lenovo S6000L-F Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Android Browser 4.0',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -5827,13 +5827,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-DH' => array(
+    ],
+    'issue-436-DH' => [
         'ua' => 'Mozilla/5.0 (Linux;U; Android 4.0.4; engb; SurfTab_7.0 Build/IMM76D) AppleWebKit/534.30 (KHTML,like Gecko) Version/4.0 Safari/534.30',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Android Browser 4.0',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -5880,13 +5880,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-DI' => array(
+    ],
+    'issue-436-DI' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; LG-D802 Build/JDQ39B) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.2 Mobile Safari/534.30',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Android Browser 4.2',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -5933,13 +5933,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-DJ' => array(
+    ],
+    'issue-436-DJ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; SM-T110 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Android Browser 4.0',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -5986,13 +5986,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-DK' => array(
+    ],
+    'issue-436-DK' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; LIFETAB_E7312 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Android Browser 4.0',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -6039,13 +6039,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-DL' => array(
+    ],
+    'issue-436-DL' => [
         'ua' => 'Opera/9.80 (X11; Linux x86_64) Presto/2.12.388 Version/12.16',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Opera 12.16',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -6092,13 +6092,13 @@ return array(
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.12',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-DM' => array(
+    ],
+    'issue-436-DM' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; de-de; GT-I8160 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Android Browser 4.0',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -6145,13 +6145,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-    'issue-436-DN' => array(
+    ],
+    'issue-436-DN' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; en-us; SCH-I535 4G Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Android Browser 4.0',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -6198,13 +6198,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-    'issue-436-DO' => array(
+    ],
+    'issue-436-DO' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; de-de; SM-T211 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Android Browser 4.0',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -6251,13 +6251,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-DP' => array(
+    ],
+    'issue-436-DP' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; LIFETAB_E7316 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Android Browser 4.0',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -6304,13 +6304,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-DQ' => array(
+    ],
+    'issue-436-DQ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; de-de; GT-N8000 Build/KOT49H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Android Browser 4.0',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -6357,13 +6357,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-DR' => array(
+    ],
+    'issue-436-DR' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; SM-T311 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Android Browser 4.0',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -6410,13 +6410,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-DS' => array(
+    ],
+    'issue-436-DS' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 5.5; Windows NT 5.0)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'IE 5.5',
             'Browser' => 'IE',
             'Browser_Type' => 'Browser',
@@ -6463,13 +6463,13 @@ return array(
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-DT' => array(
+    ],
+    'issue-436-DT' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; C6603 Build/10.5.A.0.230) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.141 Mobile Safari/537.36',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Chrome 35.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -6516,13 +6516,13 @@ return array(
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-DU' => array(
+    ],
+    'issue-436-DU' => [
         'ua' => 'crawler4j (http://code.google.com/p/crawler4j/)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Rippers',
             'Browser' => 'crawler4j',
             'Browser_Type' => 'Bot/Crawler',
@@ -6569,13 +6569,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-DV' => array(
+    ],
+    'issue-436-DV' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; de-de; AT300SE Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Android Browser 4.0',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -6622,13 +6622,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-436-DW' => array(
+    ],
+    'issue-436-DW' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; de-de; GT-S6310N Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Android Browser 4.0',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -6675,13 +6675,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-    'issue-436-DX' => array(
+    ],
+    'issue-436-DX' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; de-de; Cynus F3 Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Android Browser 4.0',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -6728,13 +6728,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-    'issue-436-DY' => array(
+    ],
+    'issue-436-DY' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.1; de-de; Cynus T5 Build/JOP40D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Android Browser 4.0',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -6781,13 +6781,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-    'issue-436-DZ' => array(
+    ],
+    'issue-436-DZ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; de-de; GT-S5301 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Android Browser 4.0',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -6834,13 +6834,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-    'issue-436-EA' => array(
+    ],
+    'issue-436-EA' => [
         'ua' => 'Mozilla/4.0 (compatible; Lotus-Notes/6.0; Windows-NT)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Lotus Notes 6.0',
             'Browser' => 'Lotus Notes',
             'Browser_Type' => 'Email Client',
@@ -6887,8 +6887,8 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => false,
-    ),
-);
+    ],
+];

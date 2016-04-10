@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-340' => array(
+return [
+    'issue-340' => [
         'ua' => 'Mozilla/5.0 (Android; U; -GB) AppleWebKit/533.19.4 (KHTML, like Gecko) AdobeAIR/13.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Adobe AIR 13.0',
             'Browser' => 'Adobe AIR',
             'Browser_Type' => 'Application',
@@ -50,8 +50,8 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-);
+    ],
+];

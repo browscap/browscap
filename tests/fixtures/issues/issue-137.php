@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-137' => array(
+return [
+    'issue-137' => [
         'ua' => 'Mozilla/5.0 (compatible; Konqueror/2.2.2; Linux 2.4.14-xfs; X11; i686)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Konqueror 2.2',
             'Browser' => 'Konqueror',
             'Browser_Type' => 'Browser',
@@ -50,8 +50,8 @@ return array(
             'RenderingEngine_Name' => 'KHTML',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'KDE e.V.',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-);
+    ],
+];

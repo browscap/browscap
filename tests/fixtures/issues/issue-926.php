@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-926' => array(
+return [
+    'issue-926' => [
         'ua' => 'DMCA.com Page Protection Crawling Service',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'DMCA Page Protection Crawling Service',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,8 +50,8 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-);
+    ],
+];

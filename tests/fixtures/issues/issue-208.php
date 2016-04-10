@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-208' => array(
+return [
+    'issue-208' => [
         'ua' => 'Mozilla/5.0 (compatible; X11; Linux x86_64; Google-StructuredDataTestingTool; +http://www.google.com/webmasters/tools/richsnippets)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Google Structured-Data TestingTool',
             'Browser' => 'Google Structured-Data TestingTool',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,8 +50,8 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-);
+    ],
+];

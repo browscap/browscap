@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-851-A' => array(
+return [
+    'issue-851-A' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; Y635-L21 Build/HuaweiY635-L21) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Android WebView 4.0',
             'Browser' => 'Android WebView',
             'Browser_Type' => 'Browser',
@@ -50,13 +50,13 @@ return array(
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-    'issue-851-C' => array(
+    ],
+    'issue-851-C' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; U25GT-C4W Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.76 Safari/537.36',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Chrome 46.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -103,13 +103,13 @@ return array(
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-851-D' => array(
+    ],
+    'issue-851-D' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; U55GT Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.76 Safari/537.36',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Chrome 46.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -156,13 +156,13 @@ return array(
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-851-F' => array(
+    ],
+    'issue-851-F' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; ZP980 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.76 Mobile Safari/537.36',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Chrome 46.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -209,13 +209,13 @@ return array(
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-    'issue-851-I' => array(
+    ],
+    'issue-851-I' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.1; ca-es; ZP980 Build/JOP40D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Android Browser 4.0',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -262,13 +262,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-    'issue-851-J' => array(
+    ],
+    'issue-851-J' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-US; Mi-440 Build/KOT49H) AppleWebKit/528.5 (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1 UCBrowser/9.4.0.460 Mobile',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'UC Browser 9.4',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
@@ -315,13 +315,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-851-K' => array(
+    ],
+    'issue-851-K' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Coolpad 8675 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 baiduboxapp/5.0 (Baidu; P1 4.4.2)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Baidu Box App 5.0',
             'Browser' => 'Baidu Box App',
             'Browser_Type' => 'Application',
@@ -368,13 +368,13 @@ return array(
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-851-L' => array(
+    ],
+    'issue-851-L' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.4; zh-CN; Coolpad 8297-T01 Build/KTU84P) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.8.5.689 U3/0.8.0 Mobile Safari/534.30',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'UC Browser 10.8',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
@@ -421,13 +421,13 @@ return array(
             'RenderingEngine_Name' => 'U3',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'UCWeb Inc.',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-851-N' => array(
+    ],
+    'issue-851-N' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; Coolpad 8297-C00 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36 SogouSearch Android1.0 version3.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Android WebView 4.0',
             'Browser' => 'Android WebView',
             'Browser_Type' => 'Browser',
@@ -474,13 +474,13 @@ return array(
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-    'issue-851-O' => array(
+    ],
+    'issue-851-O' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; Coolpad 8675-FHD Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36 Mb2345Browser/7.5.1',
-        'properties' => array(
+        'properties' => [
             'Comment' => '2345 Browser 7.5',
             'Browser' => '2345 Browser',
             'Browser_Type' => 'Browser',
@@ -527,13 +527,13 @@ return array(
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-851-P' => array(
+    ],
+    'issue-851-P' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.3; zh-CN; Coolpad 8730L Build/JLS36C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.8.5.689 U3/0.8.0 Mobile Safari/534.30',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'UC Browser 10.8',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
@@ -580,13 +580,13 @@ return array(
             'RenderingEngine_Name' => 'U3',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'UCWeb Inc.',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-851-Q' => array(
+    ],
+    'issue-851-Q' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.3; zh-CN; Coolpad 8089 Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.8.5.689 U3/0.8.0 Mobile Safari/534.30',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'UC Browser 10.8',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
@@ -633,13 +633,13 @@ return array(
             'RenderingEngine_Name' => 'U3',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'UCWeb Inc.',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-851-S' => array(
+    ],
+    'issue-851-S' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; zh-cn; Coolpad 8675 Build/KOT49H) AppleWebKit/534.24 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.24 T5/2.0 baiduboxapp/6.9.6 (Baidu; P1 4.4.2)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Baidu Box App 6.9',
             'Browser' => 'Baidu Box App',
             'Browser_Type' => 'Application',
@@ -686,13 +686,13 @@ return array(
             'RenderingEngine_Name' => 'T5',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Baidu',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-851-T' => array(
+    ],
+    'issue-851-T' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; Coolpad 7620L-W00 Build/KVT49L) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/54.0.0.0.25;]',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Facebook App for Android',
             'Browser' => 'Facebook App',
             'Browser_Type' => 'Application',
@@ -739,13 +739,13 @@ return array(
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-851-U' => array(
+    ],
+    'issue-851-U' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-us; GFIVE A5 Build/JDQ39) AppleWebKit/534.24 (KHTML, like Gecko) FlyFlow/3.1 Version/4.0 Mobile Safari/534.24 T5/2.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'FlyFlow 3.1',
             'Browser' => 'FlyFlow',
             'Browser_Type' => 'Browser',
@@ -792,13 +792,13 @@ return array(
             'RenderingEngine_Name' => 'T5',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Baidu',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-851-V' => array(
+    ],
+    'issue-851-V' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; HTC 802t 16GB Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 wkbrowser 3.2.56 696',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'WKBrowser 3.2',
             'Browser' => 'WKBrowser',
             'Browser_Type' => 'Browser',
@@ -845,13 +845,13 @@ return array(
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-851-W' => array(
+    ],
+    'issue-851-W' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; HTC Desire 820 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36 ACHEETAHI/2100502012',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'CM Browser',
             'Browser' => 'CM Browser',
             'Browser_Type' => 'Browser',
@@ -898,8 +898,8 @@ return array(
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-);
+    ],
+];

@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-529-A' => array(
+return [
+    'issue-529-A' => [
         'ua' => 'Mozilla/5.0 (Linux;Android 4.0.4; Digma iDsD7 3G Build/IMM76D) AppleWebKit/537.36(KHTML,like Gecko) Chrome/38.0.2125.102 Mobile Safari/537.36',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Chrome 38.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -50,13 +50,13 @@ return array(
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => false,
-    ),
-    'issue-529-B' => array(
+    ],
+    'issue-529-B' => [
         'ua' => 'Mozilla/5.0 (Linux;Android 4.4.2; SM - T531 Build/KOT-49H) AppleWebKit/537.36(KHTML,like Gecko) Chrome/39.0.2171.93 Safari/537.36',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Chrome 39.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -103,8 +103,8 @@ return array(
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-);
+    ],
+];

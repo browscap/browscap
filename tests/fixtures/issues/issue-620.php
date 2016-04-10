@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-620' => array(
+return [
+    'issue-620' => [
         'ua' => 'this user agent should never exist hopefully as it is is only used in browscap tests',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -50,8 +50,8 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-);
+    ],
+];

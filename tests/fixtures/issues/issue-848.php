@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-848' => array(
+return [
+    'issue-848' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36 ASW/1.46.1990.55',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Avast SafeZone 1.46',
             'Browser' => 'Avast SafeZone',
             'Browser_Type' => 'Browser',
@@ -50,8 +50,8 @@ return array(
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-);
+    ],
+];

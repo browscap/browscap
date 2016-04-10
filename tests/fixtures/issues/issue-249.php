@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-249' => array(
+return [
+    'issue-249' => [
         'ua' => 'Mozilla/5.0 (FHScan Core 1.1)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Fast HTTP Vulnerability scanner core api',
             'Browser' => 'FHScan Core',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,8 +50,8 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-);
+    ],
+];

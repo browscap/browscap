@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-629' => array(
+return [
+    'issue-629' => [
         'ua' => 'uipbot/1.0 (uipbot@semasio.net)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'Uipbot',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,8 +50,8 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-);
+    ],
+];

@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-797' => array(
+return [
+    'issue-797' => [
         'ua' => 'mozilla/5.0 (iphone; cpu iphone os 8_3 like mac os x) applewebkit/600.1.4 (khtml, like gecko) version/8.0 mobile/12f70 safari/600.1.4 (compatible; googlebot/2.1; +http://www.google.com/bot.html)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Googlebot 2.1',
             'Browser' => 'Google Bot',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,8 +50,8 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-);
+    ],
+];

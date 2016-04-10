@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-728-A' => array(
+return [
+    'issue-728-A' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Plane 10.5 3G PS1005MG Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 YaBrowser/15.4.2272.3842.01 Safari/537.36',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Yandex Browser 15.4',
             'Browser' => 'Yandex Browser',
             'Browser_Type' => 'Browser',
@@ -50,13 +50,13 @@ return array(
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-728-B' => array(
+    ],
+    'issue-728-B' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; PMT5777_3G Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.136 Safari/537.36',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Chrome 33.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -103,13 +103,13 @@ return array(
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-728-C' => array(
+    ],
+    'issue-728-C' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; SM-T555 Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 YaBrowser/15.4.2272.3842.01 Safari/537.36',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Yandex Browser 15.4',
             'Browser' => 'Yandex Browser',
             'Browser_Type' => 'Browser',
@@ -156,8 +156,8 @@ return array(
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-);
+    ],
+];

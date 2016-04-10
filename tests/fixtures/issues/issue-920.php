@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-920-A' => array(
+return [
+    'issue-920-A' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 UBrowser/5.6.10764.1203 Safari/537.36',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'UC Browser 5.6',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
@@ -50,13 +50,13 @@ return array(
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-920-B' => array(
+    ],
+    'issue-920-B' => [
         'ua' => 'Mozilla/5.0 (iPad; U; CPU OS 5_1 like Mac OS X) AppleWebKit/531.21.10 (KHTML, like Gecko) Version/4.0.4 Mobile/7B367 Safari/531.21.10 UCBrowser/3.4.3.532',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'UC Browser 3.4',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
@@ -103,13 +103,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-920-C' => array(
+    ],
+    'issue-920-C' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-US; IdealTab 10 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.8.8.730 U3/0.8.0 Mobile Safari/534.30',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'UC Browser 10.8',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
@@ -156,8 +156,8 @@ return array(
             'RenderingEngine_Name' => 'U3',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'UCWeb Inc.',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-);
+    ],
+];

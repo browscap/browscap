@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-908-A' => array(
+return [
+    'issue-908-A' => [
         'ua' => 'GetintentCrawler getintent.com',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'GetintentCrawler',
             'Browser' => 'Getintent Crawler',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,13 +50,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-908-B' => array(
+    ],
+    'issue-908-B' => [
         'ua' => 'MonitorBacklinksWP (+http://monitorbacklinks.com/blog/incoming-links/)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'BCKLINKS',
             'Browser' => 'Incoming Links - WordPress Plugin',
             'Browser_Type' => 'Bot/Crawler',
@@ -103,13 +103,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-908-C' => array(
+    ],
+    'issue-908-C' => [
         'ua' => 'AddThis.com (http://support.addthis.com/)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'AddThis.com robot',
             'Browser' => 'AddThis.com robot',
             'Browser_Type' => 'Bot/Crawler',
@@ -156,8 +156,8 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-);
+    ],
+];

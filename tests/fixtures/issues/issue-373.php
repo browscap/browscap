@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-373-A' => array(
+return [
+    'issue-373-A' => [
         'ua' => 'Mozilla/5.0 (Series30Plus; Nokia220/10.03.11; Profile/Series30Plus Configuration/Series30Plus) Gecko/20100401 S40OviBrowser/3.8.1.0.5',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Nokia Proxy Browser 3.8',
             'Browser' => 'Nokia Proxy Browser',
             'Browser_Type' => 'Browser',
@@ -50,13 +50,13 @@ return array(
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-373-B' => array(
+    ],
+    'issue-373-B' => [
         'ua' => 'Mozilla/5.0 (Series40; Nokia109/04.10; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/4.0.0.0.45',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Nokia Proxy Browser 4.0',
             'Browser' => 'Nokia Proxy Browser',
             'Browser_Type' => 'Browser',
@@ -103,13 +103,13 @@ return array(
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-373-C' => array(
+    ],
+    'issue-373-C' => [
         'ua' => 'Mozilla/5.0 (Series40; Nokia110/03.04; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/2.0.5.16.6',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Nokia Proxy Browser 2.0',
             'Browser' => 'Nokia Proxy Browser',
             'Browser_Type' => 'Browser',
@@ -156,13 +156,13 @@ return array(
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-373-D' => array(
+    ],
+    'issue-373-D' => [
         'ua' => 'Mozilla/5.0 (Series40; Nokia112/03.26; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/5.0.0.0.31',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Nokia Proxy Browser 5.0',
             'Browser' => 'Nokia Proxy Browser',
             'Browser_Type' => 'Browser',
@@ -209,8 +209,8 @@ return array(
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-);
+    ],
+];

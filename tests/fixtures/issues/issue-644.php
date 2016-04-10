@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-644' => array(
+return [
+    'issue-644' => [
         'ua' => 'MS Web Services Client Protocol 1.0.3705.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Microsoft',
             'Browser' => '.NET Framework CLR',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,8 +50,8 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-);
+    ],
+];

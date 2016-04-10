@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-381-A' => array(
+return [
+    'issue-381-A' => [
         'ua' => 'UCWEB/2.0 (Linux; U; Opera Mini/7.1.32052/30.3697; en-US; L3) U2/1.0.0 UCBrowser/9.3.0.440 Mobile',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'UC Browser 9.3',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
@@ -50,13 +50,13 @@ return array(
             'RenderingEngine_Name' => 'U2',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'UCWeb Inc.',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-381-B' => array(
+    ],
+    'issue-381-B' => [
         'ua' => 'NGM Dynamic Racing 2/V2 Linux/3.0.13 Android/4.2 Release/02.15.2012 Browser/AppleWebKit534.30 Mobile Safari/534.30 MBBMS/2.2 System/Android 4.2.2;',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Android Browser 4.2',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -103,13 +103,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => false,
-    ),
-    'issue-381-C' => array(
+    ],
+    'issue-381-C' => [
         'ua' => 'Athens15_TD/V2 Linux/3.0.13 Android/4.0 Release/02.15.2012 Browser/AppleWebKit534.30 Mobile Safari/534.30 MBBMS/2.2 System/Android 4.0.1;',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Android Browser 4.0',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -156,13 +156,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => false,
-    ),
-    'issue-381-D' => array(
+    ],
+    'issue-381-D' => [
         'ua' => 'PB0.6b Mozilla/5.0 (Windows NT 6.1; WOW64; rv:23.0) Gecko/20100101 Firefox/23.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Firefox 23.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -209,13 +209,13 @@ return array(
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '23.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ),
+        ],
         'lite' => false,
         'standard' => false,
-    ),
-    'issue-381-E' => array(
+    ],
+    'issue-381-E' => [
         'ua' => 'Austin Linux/3.0.13 Android/4.0.4 Release/05.07.2013 Browser/AppleWebKit534.30 Profile/MIDP-2.0 Configuration/CLDC-1.1 Mobile Safari/534.30 Android 4.0.1;',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Android Browser 4.0',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -262,8 +262,8 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => false,
-    ),
-);
+    ],
+];

@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-811-A' => array(
+return [
+    'issue-811-A' => [
         'ua' => 'Mozilla/5.0 (compatible; Scopia Crawler 1.2; +http://www.scopia.co)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Scopia Crawler',
             'Browser' => 'Scopia Crawler',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,13 +50,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-811-B' => array(
+    ],
+    'issue-811-B' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:26.0.0b2) Goanna/20150828 Gecko/20100101 AppleWebKit/601.1.37 (KHTML, like Gecko) Version/9.0 Safari/601.1.37 PaleMoon/26.0.0b2',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Palemoon 26.0',
             'Browser' => 'PaleMoon',
             'Browser_Type' => 'Browser',
@@ -103,13 +103,13 @@ return array(
             'RenderingEngine_Name' => 'Goanna',
             'RenderingEngine_Version' => '26.0',
             'RenderingEngine_Maker' => 'Moonchild Productions',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-811-C' => array(
+    ],
+    'issue-811-C' => [
         'ua' => 'Opera/9.80 (Window NT 6.2; Win64; x64) Presto/2.12.388 Version/12.16',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -156,13 +156,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-    'issue-811-D' => array(
+    ],
+    'issue-811-D' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:43.0) Gecko/20100101 Firefox/43.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Firefox 43.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -209,13 +209,13 @@ return array(
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '43.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-    'issue-811-E' => array(
+    ],
+    'issue-811-E' => [
         'ua' => 'Mozilla/5.0 (Mobile; rv:32.0) Gecko/20100101 Firefox/32.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Firefox 32.0 for FirefoxOS 2.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -262,13 +262,13 @@ return array(
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '32.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-811-F' => array(
+    ],
+    'issue-811-F' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:44.0) Gecko/20100101 Firefox/44.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Firefox 44.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -315,13 +315,13 @@ return array(
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '44.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-    'issue-811-G' => array(
+    ],
+    'issue-811-G' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Firefox 43.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -368,13 +368,13 @@ return array(
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '43.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-    'issue-811-H' => array(
+    ],
+    'issue-811-H' => [
         'ua' => 'Mozilla/5.0 (Windows NT 7.0; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -421,13 +421,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-    'issue-811-I' => array(
+    ],
+    'issue-811-I' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4 AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -474,13 +474,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-    'issue-811-J' => array(
+    ],
+    'issue-811-J' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 5.5;Windows NT)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'IE 5.5',
             'Browser' => 'IE',
             'Browser_Type' => 'Browser',
@@ -527,13 +527,13 @@ return array(
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-811-K' => array(
+    ],
+    'issue-811-K' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:16.0) KcB/16.0 Firefox/16.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -580,13 +580,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-    'issue-811-L' => array(
+    ],
+    'issue-811-L' => [
         'ua' => 'Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.0.1-development Safari/538.1',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'PhantomJS 2.0',
             'Browser' => 'PhantomJS',
             'Browser_Type' => 'Browser',
@@ -633,13 +633,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-811-M' => array(
+    ],
+    'issue-811-M' => [
         'ua' => 'Mozilla/5.0 (X11; CrOS armv7l 6457.83.0) AppleWebKit/537.36 (KHTML,like Gecko) Chrome/40.0.2214.93 Safari/537.36',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Chrome 40.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -686,13 +686,13 @@ return array(
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-811-N' => array(
+    ],
+    'issue-811-N' => [
         'ua' => 'Mozilla/5.0 (X11; CrOS x86_64 6946.31.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.46 Safari/537.36',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Chrome 43.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -739,13 +739,13 @@ return array(
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-811-O' => array(
+    ],
+    'issue-811-O' => [
         'ua' => 'fastbot crawler beta 4.0 (+http://www.fastbot.de)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'fastbot crawler',
             'Browser' => 'fastbot crawler',
             'Browser_Type' => 'Bot/Crawler',
@@ -792,8 +792,8 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-);
+    ],
+];

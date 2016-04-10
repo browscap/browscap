@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-739-A' => array(
+return [
+    'issue-739-A' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_0 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13A344 Safari/601.1',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Mobile Safari 9.0',
             'Browser' => 'Safari',
             'Browser_Type' => 'Browser',
@@ -50,13 +50,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-    'issue-739-B' => array(
+    ],
+    'issue-739-B' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 9_0 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13A344 Safari/601.1',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Mobile Safari 9.0',
             'Browser' => 'Safari',
             'Browser_Type' => 'Browser',
@@ -103,8 +103,8 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-);
+    ],
+];

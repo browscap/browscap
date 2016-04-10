@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-408' => array(
+return [
+    'issue-408' => [
         'ua' => 'Pingdom.com_bot_version_1.4_(http://www.pingdom.com)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Site Monitors',
             'Browser' => 'Pingdom',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,8 +50,8 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-);
+    ],
+];

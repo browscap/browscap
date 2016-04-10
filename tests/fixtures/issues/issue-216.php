@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-216' => array(
+return [
+    'issue-216' => [
         'ua' => 'Mozilla/5.0 (compatible; WebmasterCoffee/0.7; +http://webmastercoffee.com/about)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'WebmasterCoffee',
             'Browser' => 'WebmasterCoffee',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,8 +50,8 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-);
+    ],
+];

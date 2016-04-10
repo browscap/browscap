@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-667' => array(
+return [
+    'issue-667' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) MxNitro/1.0.1.3000 Chrome/35.0.1849.0 Safari/537.36',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Maxthon Nitro 1.0',
             'Browser' => 'Maxthon Nitro',
             'Browser_Type' => 'Browser',
@@ -50,8 +50,8 @@ return array(
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-);
+    ],
+];

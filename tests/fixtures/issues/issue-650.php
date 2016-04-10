@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-650-A' => array(
+return [
+    'issue-650-A' => [
         'ua' => 'Opera/9.80 (Linux armv7l; U; NETRANGEMMH;HbbTV/1.1.1;CE-HTML/1.0;Vendor/THOM;SW-Version/V8-MT51F01-LF1V307;Cnt/DEU;Lan/bul) Presto/2.12.362 Version/12.11',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Opera 12.11',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -50,13 +50,13 @@ return array(
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.12',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-650-B' => array(
+    ],
+    'issue-650-B' => [
         'ua' => 'Opera/9.80 (Linux armv7l; U; NETRANGEMMH;HbbTV/1.1.1;CE-HTML/1.0;Vendor/THOMSON;SW-Version/V8-MT51F01-LF1V325;Cnt/HRV;Lan/swe; NETRANGEMMH;HbbTV/1.1.1;CE-HTML/1.0) Presto/2.12.362 Version/12.11',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Opera 12.11',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -103,13 +103,13 @@ return array(
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.12',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-650-C' => array(
+    ],
+    'issue-650-C' => [
         'ua' => 'Opera/9.80 (Linux armv6l; U; NETRANGEMMH;HbbTV/1.1.1;CE-HTML/1.0;THOM LF1V373; en) Presto/2.10.250 Version/11.60',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Opera 11.60',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -156,13 +156,13 @@ return array(
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.10',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-650-D' => array(
+    ],
+    'issue-650-D' => [
         'ua' => 'Opera/9.80 (Linux armv6l; U; NETRANGEMMH;HbbTV/1.1.1;CE-HTML/1.0;THOMSON LF1V394; en) Presto/2.10.250 Version/11.60',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Opera 11.60',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -209,13 +209,13 @@ return array(
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.10',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-650-E' => array(
+    ],
+    'issue-650-E' => [
         'ua' => 'Opera/9.80 (Linux armv6l; U; NETRANGEMMH;HbbTV/1.1.1;CE-HTML/1.0;THOMSON LF1V401; en) Presto/2.10.250 Version/11.60',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Opera 11.60',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -262,8 +262,8 @@ return array(
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.10',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-);
+    ],
+];

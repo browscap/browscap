@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-162' => array(
+return [
+    'issue-162' => [
         'ua' => 'Google-HTTP-Java-Client/1.17.0-rc (gzip)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Google HTTP Client Library for Java',
             'Browser' => 'Google HTTP Client Library for Java',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,8 +50,8 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-);
+    ],
+];

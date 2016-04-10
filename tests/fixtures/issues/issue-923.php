@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-923' => array(
+return [
+    'issue-923' => [
         'ua' => 'FeedlyBot/1.0 (http://feedly.com)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Feeds Syndicators',
             'Browser' => 'FeedlyBot',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,8 +50,8 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-);
+    ],
+];

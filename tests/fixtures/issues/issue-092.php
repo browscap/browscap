@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-092-B' => array(
+return [
+    'issue-092-B' => [
         'ua' => 'Mozilla/5.0 (Series40; Nokia306/03.63; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/3.9.0.0.22',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Nokia Proxy Browser 3.9',
             'Browser' => 'Nokia Proxy Browser',
             'Browser_Type' => 'Browser',
@@ -50,13 +50,13 @@ return array(
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-092-A' => array(
+    ],
+    'issue-092-A' => [
         'ua' => 'Mozilla/5.0 (compatible; proximic; +http://www.proximic.com/info/spider.php)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'proximic',
             'Browser_Type' => 'Bot/Crawler',
@@ -103,8 +103,8 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-);
+    ],
+];

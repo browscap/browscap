@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-789' => array(
+return [
+    'issue-789' => [
         'ua' => 'Mozilla/5.0 (Windows Phone 10.0; Android 4.2.1; NOKIA; Lumia 930) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Mobile Safari/537.36 Edge/12.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Edge Mobile 12.0',
             'Browser' => 'Edge Mobile',
             'Browser_Type' => 'Browser',
@@ -50,8 +50,8 @@ return array(
             'RenderingEngine_Name' => 'Edge',
             'RenderingEngine_Version' => '12.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-);
+    ],
+];

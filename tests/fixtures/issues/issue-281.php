@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-281' => array(
+return [
+    'issue-281' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko) WhiteHat Aviator/33.0.1750.117 Chrome/33.0.1750.117 Safari/537.36',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'WhiteHat Aviator 33.0',
             'Browser' => 'WhiteHat Aviator',
             'Browser_Type' => 'Browser',
@@ -50,8 +50,8 @@ return array(
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-);
+    ],
+];

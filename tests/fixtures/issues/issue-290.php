@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-290' => array(
+return [
+    'issue-290' => [
         'ua' => 'woobot/2.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'WooRank',
             'Browser' => 'WooRank',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,8 +50,8 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-);
+    ],
+];

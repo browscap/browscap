@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-051-3' => array(
+return [
+    'issue-051-3' => [
         'ua' => 'Mozilla/5.0 (compatible; grapeFX/0.9; crawler@grapeshot.co.uk',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'GrapeshotCrawler',
             'Browser' => 'grapeFX',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,13 +50,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-051-2' => array(
+    ],
+    'issue-051-2' => [
         'ua' => 'Mozilla/5.0 (compatible; GrapeshotCrawler/2.0; +http://www.grapeshot.co.uk/crawler.php)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'GrapeshotCrawler',
             'Browser' => 'GrapeshotCrawler',
             'Browser_Type' => 'Bot/Crawler',
@@ -103,13 +103,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-051-1' => array(
+    ],
+    'issue-051-1' => [
         'ua' => 'niki-bot',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'NikiBot',
             'Browser' => 'NikiBot',
             'Browser_Type' => 'Bot/Crawler',
@@ -156,8 +156,8 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-);
+    ],
+];

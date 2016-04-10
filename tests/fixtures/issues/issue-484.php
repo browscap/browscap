@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-484-A' => array(
+return [
+    'issue-484-A' => [
         'ua' => 'Mozilla/5.0 (compatible; AskPeterBot; +http://www.askpeter.de/bot.html)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'AskPeterBot',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,13 +50,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-484-B' => array(
+    ],
+    'issue-484-B' => [
         'ua' => 'Mozilla/5.0 (compatible; discoverybot/2.0; +http://discoveryengine.com/discoverybot.html)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'Discovery Bot',
             'Browser_Type' => 'Bot/Crawler',
@@ -103,13 +103,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-484-C' => array(
+    ],
+    'issue-484-C' => [
         'ua' => 'Mozilla/5.0 (compatible; AcoonBot/4.11.1; +http://www.acoon.de/robot.asp)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Search Engines',
             'Browser' => 'AcoonBot',
             'Browser_Type' => 'Bot/Crawler',
@@ -156,13 +156,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-484-D' => array(
+    ],
+    'issue-484-D' => [
         'ua' => 'Mozilla/5.0 (compatible; AboutUsBot Johnny5/2.0; +http://www.AboutUs.org/)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'AboutUs Bot',
             'Browser' => 'AboutUs Bot Johnny5',
             'Browser_Type' => 'Bot/Crawler',
@@ -209,13 +209,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-484-E' => array(
+    ],
+    'issue-484-E' => [
         'ua' => 'Mozilla/5.0 (compatible; woriobot +http://worio.com)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Research Projects',
             'Browser' => 'woriobot',
             'Browser_Type' => 'Bot/Crawler',
@@ -262,13 +262,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-484-F' => array(
+    ],
+    'issue-484-F' => [
         'ua' => 'Mozilla/5.0 (compatible; woriobot support [at] zite [dot] com +http://zite.com)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Research Projects',
             'Browser' => 'woriobot',
             'Browser_Type' => 'Bot/Crawler',
@@ -315,13 +315,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-484-G' => array(
+    ],
+    'issue-484-G' => [
         'ua' => 'GIDBot/2.0 (+http://www.gidnetwork.com/tools/gzip-test.php)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'SEO & Analytics',
             'Browser' => 'GIDBot',
             'Browser_Type' => 'Bot/Crawler',
@@ -368,13 +368,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-484-H' => array(
+    ],
+    'issue-484-H' => [
         'ua' => 'Zookabot/2.4; +http://zookabot.com',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'Zookabot',
             'Browser_Type' => 'Bot/Crawler',
@@ -421,13 +421,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-484-I' => array(
+    ],
+    'issue-484-I' => [
         'ua' => 'FreeWebMonitoring SiteChecker/0.1 (+http://www.freewebmonitoring.com)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'SEO & Analytics',
             'Browser' => 'FreeWebMonitoring SiteChecker',
             'Browser_Type' => 'Bot/Crawler',
@@ -474,13 +474,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-484-J' => array(
+    ],
+    'issue-484-J' => [
         'ua' => 'IPv4Scan (+http://ipv4scan.com)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'IPv4Scan',
             'Browser_Type' => 'Bot/Crawler',
@@ -527,13 +527,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-484-K' => array(
+    ],
+    'issue-484-K' => [
         'ua' => 'MetaURI API/2.0 +metauri.com',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'MetaURI Bot',
             'Browser_Type' => 'Bot/Crawler',
@@ -580,13 +580,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-484-L' => array(
+    ],
+    'issue-484-L' => [
         'ua' => 'domainsbot (+http://www.domainsbot.com)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'DomainsBot',
             'Browser' => 'DomainsBot',
             'Browser_Type' => 'Bot/Crawler',
@@ -633,13 +633,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-484-M' => array(
+    ],
+    'issue-484-M' => [
         'ua' => 'netEstate NE Crawler (+http://www.sengine.info/)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'netEstate NE Crawler',
             'Browser_Type' => 'Bot/Crawler',
@@ -686,13 +686,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-484-N' => array(
+    ],
+    'issue-484-N' => [
         'ua' => 'RED/1 (http://redbot.org/)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'redbot',
             'Browser_Type' => 'Bot/Crawler',
@@ -739,8 +739,8 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-);
+    ],
+];

@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-775' => array(
+return [
+    'issue-775' => [
         'ua' => 'Mozilla/5.0 (Mobile: Windows Phone 8.1; Android 4.0; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; Nokia; Lumia 730 Dual Sim',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'IEMobile',
             'Browser' => 'IEMobile',
             'Browser_Type' => 'Browser',
@@ -50,8 +50,8 @@ return array(
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '7.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-);
+    ],
+];

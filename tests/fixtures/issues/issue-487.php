@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-487' => array(
+return [
+    'issue-487' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; zh-TW) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.114 Safari/537.36 Puffin/3.7.0IT',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Puffin 3.7',
             'Browser' => 'Puffin',
             'Browser_Type' => 'Browser',
@@ -50,8 +50,8 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-);
+    ],
+];

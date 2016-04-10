@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-046-a' => array(
+return [
+    'issue-046-a' => [
         'ua' => 'Mozilla/5.0 (compatible; Ezooms/1.0; ezooms.bot@gmail.com)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Ezooms',
             'Browser' => 'Ezooms',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,13 +50,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-046-b' => array(
+    ],
+    'issue-046-b' => [
         'ua' => 'Mozilla/5.0 (compatible; Ezooms/1.0; help@moz.com)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Ezooms',
             'Browser' => 'Ezooms',
             'Browser_Type' => 'Bot/Crawler',
@@ -103,8 +103,8 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-);
+    ],
+];

@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-382' => array(
+return [
+    'issue-382' => [
         'ua' => 'iOS/6.1.3 (10B329) dataaccessd/1.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'iOS dataaccessd',
             'Browser' => 'iOS dataaccessd',
             'Browser_Type' => 'Application',
@@ -50,8 +50,8 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-);
+    ],
+];

@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-mobiles-F' => array(
+return [
+    'issue-mobiles-F' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.4; en-us; GT-I9100G Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) FlyFlow/2.5 Version/4.0 Mobile Safari/533.1 baidubrowser/042_6.3.5.2_diordna_008_084/gnusmas_01_4.3.2_G0019I-TG/7400001l/AFCD145CE647EC590CFE42154CB19B89%7C274573340474753/1',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'FlyFlow 2.5',
             'Browser' => 'FlyFlow',
             'Browser_Type' => 'Browser',
@@ -50,13 +50,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-mobiles-E' => array(
+    ],
+    'issue-mobiles-E' => [
         'ua' => 'Dalvik/1.6.0 (Linux; U; Android 4.0.4; GT-I9100 Build/IMM76D)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Dalvik 1.6',
             'Browser' => 'Dalvik',
             'Browser_Type' => 'Application',
@@ -103,13 +103,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-mobiles-D' => array(
+    ],
+    'issue-mobiles-D' => [
         'ua' => 'Dalvik/1.4.0 (Linux; U; Android 2.3.6; GT-I9100G Build/GINGERBREAD)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Dalvik 1.4',
             'Browser' => 'Dalvik',
             'Browser_Type' => 'Application',
@@ -156,13 +156,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-mobiles-C' => array(
+    ],
+    'issue-mobiles-C' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; de-de; GT-I9100 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Dolphin/INT-1.0 Mobile Safari/534.30',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Dolfin Android 1.0',
             'Browser' => 'Dolfin',
             'Browser_Type' => 'Browser',
@@ -209,13 +209,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-mobiles-B' => array(
+    ],
+    'issue-mobiles-B' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.3; de-de; GT-I9100 Build/IML74K) AppleWebKit/535.7 (KHTML, like Gecko) CrMo/16.0.912.77 Mobile Safari/535.7',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Chrome 16.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -262,13 +262,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-mobiles-A' => array(
+    ],
+    'issue-mobiles-A' => [
         'ua' => 'Mozilla/5.0 (Linux; U; de-de; GT-I9100 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Safari/533.1',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Android Browser 4.0',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -315,8 +315,8 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-);
+    ],
+];

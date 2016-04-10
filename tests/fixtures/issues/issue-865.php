@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-865-A' => array(
+return [
+    'issue-865-A' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/536.5 (KHTML, like Gecko) Evernote Windows/276742; Windows/6.1.7601 Service Pack 1 (Win64); Safari/536.5',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Evernote App',
             'Browser' => 'Evernote App',
             'Browser_Type' => 'Application',
@@ -50,13 +50,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-B' => array(
+    ],
+    'issue-865-B' => [
         'ua' => 'Digg Deeper/v1 (http://digg.com/about)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Digg Bot',
             'Browser' => 'Digg Bot',
             'Browser_Type' => 'Bot/Crawler',
@@ -103,13 +103,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-C' => array(
+    ],
+    'issue-865-C' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.78.2 (KHTML, like Gecko) Maxthon/4.5.1',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Maxthon 4.5',
             'Browser' => 'Maxthon',
             'Browser_Type' => 'Browser',
@@ -156,13 +156,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-D' => array(
+    ],
+    'issue-865-D' => [
         'ua' => 'Blackboard Safeassign',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Blackboard Safeassign',
             'Browser' => 'Blackboard Safeassign',
             'Browser_Type' => 'Bot/Crawler',
@@ -209,13 +209,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-E' => array(
+    ],
+    'issue-865-E' => [
         'ua' => 'Mozilla/5.0 (compatible; +http://tweetedtimes.com)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'TweetedTimes Bot',
             'Browser' => 'TweetedTimes Bot',
             'Browser_Type' => 'Bot/Crawler',
@@ -262,13 +262,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-F' => array(
+    ],
+    'issue-865-F' => [
         'ua' => 'Mozilla/5.0 (compatible; ExaleadCloudView/5;)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Exalead CloudView',
             'Browser' => 'Exalead CloudView',
             'Browser_Type' => 'Bot/Crawler',
@@ -315,13 +315,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-G' => array(
+    ],
+    'issue-865-G' => [
         'ua' => 'Typhoeus - https://github.com/typhoeus/typhoeus',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Typhoeus',
             'Browser' => 'Typhoeus',
             'Browser_Type' => 'Bot/Crawler',
@@ -368,13 +368,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-H' => array(
+    ],
+    'issue-865-H' => [
         'ua' => 'Microsoft Office Word 2013',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Microsoft Word',
             'Browser' => 'Word',
             'Browser_Type' => 'Application',
@@ -421,13 +421,13 @@ return array(
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-I' => array(
+    ],
+    'issue-865-I' => [
         'ua' => 'Mozilla/5.0 (compatible; Google-Structured-Data-Testing-Tool +http://developers.google.com/structured-data/testing-tool/)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Google Structured-Data TestingTool',
             'Browser' => 'Google Structured-Data TestingTool',
             'Browser_Type' => 'Bot/Crawler',
@@ -474,13 +474,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-J' => array(
+    ],
+    'issue-865-J' => [
         'ua' => 'Camo Asset Proxy 2.2.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Camo Asset Proxy',
             'Browser' => 'Camo Asset Proxy',
             'Browser_Type' => 'Bot/Crawler',
@@ -527,13 +527,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-K' => array(
+    ],
+    'issue-865-K' => [
         'ua' => 'YahooCacheSystem; YahooWebServiceClient',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Yahoo',
             'Browser' => 'YahooCacheSystem',
             'Browser_Type' => 'Bot/Crawler',
@@ -580,13 +580,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-L' => array(
+    ],
+    'issue-865-L' => [
         'ua' => 'Mozilla/5.0 (compatible; wmtips.com/1.0; +http://www.wmtips.com/tools/)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Webmaster Tips Bot',
             'Browser' => 'Webmaster Tips Bot',
             'Browser_Type' => 'Bot/Crawler',
@@ -633,13 +633,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-M' => array(
+    ],
+    'issue-865-M' => [
         'ua' => 'Mozilla/5.0 (compatible; linkCheckV3.0)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'linkCheck',
             'Browser' => 'linkCheck',
             'Browser_Type' => 'Bot/Crawler',
@@ -686,13 +686,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-N' => array(
+    ],
+    'issue-865-N' => [
         'ua' => 'Mozilla/5.0 ;Windows NT 6.2; WOW64; rv:27.0; Gecko/20100101 Firefox/27.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -739,13 +739,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-    'issue-865-O' => array(
+    ],
+    'issue-865-O' => [
         'ua' => 'Mozilla/5.0 (compatible; U; ABrowse 0.6; Syllable) AppleWebKit/420+ (KHTML, like Gecko)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'ABrowse 0.6',
             'Browser' => 'ABrowse',
             'Browser_Type' => 'Browser',
@@ -792,13 +792,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-P' => array(
+    ],
+    'issue-865-P' => [
         'ua' => 'Mozilla/5.0 (compatible; GWPImages/1.0)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'GWPImages',
             'Browser' => 'GWPImages',
             'Browser_Type' => 'Bot/Crawler',
@@ -845,13 +845,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-Q' => array(
+    ],
+    'issue-865-Q' => [
         'ua' => 'WEBDAV Client',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'WEBDAV Client',
             'Browser' => 'WEBDAV Client',
             'Browser_Type' => 'Bot/Crawler',
@@ -898,13 +898,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-R' => array(
+    ],
+    'issue-865-R' => [
         'ua' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko) Slackware/Chrome/12.0.742.100 Safari/534.30',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Chrome 12.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -951,13 +951,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-S' => array(
+    ],
+    'issue-865-S' => [
         'ua' => 'NoteTextView',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'NoteTextView',
             'Browser_Type' => 'Bot/Crawler',
@@ -1004,13 +1004,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-T' => array(
+    ],
+    'issue-865-T' => [
         'ua' => 'NING/1.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Social Bookmarkers',
             'Browser' => 'NING',
             'Browser_Type' => 'Bot/Crawler',
@@ -1057,13 +1057,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-U' => array(
+    ],
+    'issue-865-U' => [
         'ua' => 'Mozilla/5.0 (compatible; WbSrch/1.1 +http://wbsrch.com)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Search Engines',
             'Browser' => 'WbSrch Web Search',
             'Browser_Type' => 'Bot/Crawler',
@@ -1110,13 +1110,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-V' => array(
+    ],
+    'issue-865-V' => [
         'ua' => 'Mozilla/5.0 (X11; U;                                     Linux i686; en-US; rv:1.8.1.1)                                     Gecko/20061205 Iceweasel/2.0.0.1                                     (Debian-2.0.0.1+dfsg-2)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -1163,13 +1163,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-    'issue-865-W' => array(
+    ],
+    'issue-865-W' => [
         'ua' => 'Sprinklr 2.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Social Bookmarkers',
             'Browser' => 'Sprinklr',
             'Browser_Type' => 'Bot/Crawler',
@@ -1216,13 +1216,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-X' => array(
+    ],
+    'issue-865-X' => [
         'ua' => 'URLChecker',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Link Checkers',
             'Browser' => 'URLChecker',
             'Browser_Type' => 'Bot/Crawler',
@@ -1269,13 +1269,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-Y' => array(
+    ],
+    'issue-865-Y' => [
         'ua' => 'newsme/1.0; feedback@news.me',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Feeds Syndicators',
             'Browser' => 'newsme',
             'Browser_Type' => 'Bot/Crawler',
@@ -1322,13 +1322,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-Z' => array(
+    ],
+    'issue-865-Z' => [
         'ua' => 'Traackr.com',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Social Bookmarkers',
             'Browser' => 'Traackr',
             'Browser_Type' => 'Bot/Crawler',
@@ -1375,13 +1375,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-AA' => array(
+    ],
+    'issue-865-AA' => [
         'ua' => 'Kimengi/nineconnections.com',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Social Bookmarkers',
             'Browser' => 'nineconnections',
             'Browser_Type' => 'Bot/Crawler',
@@ -1428,13 +1428,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-AB' => array(
+    ],
+    'issue-865-AB' => [
         'ua' => 'Mozilla/5.0 (Linux;Android 5.0;HUAWEI ALE-21/ALE-L21AUTC674B130)AppleWebKit/537.36 (KHTML, likeGecko) Version/4.0 Chrome/37.0.0.0 Mobile Safari/537.36',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Android WebView 4.0',
             'Browser' => 'Android WebView',
             'Browser_Type' => 'Browser',
@@ -1481,13 +1481,13 @@ return array(
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-AC' => array(
+    ],
+    'issue-865-AC' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE8.0; Windows NT 6.0) .NET CLR 2.0.50727)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -1534,13 +1534,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-    'issue-865-AD' => array(
+    ],
+    'issue-865-AD' => [
         'ua' => 'node-superagent/1.4.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Rippers',
             'Browser' => 'superagent',
             'Browser_Type' => 'Bot/Crawler',
@@ -1587,13 +1587,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-AE' => array(
+    ],
+    'issue-865-AE' => [
         'ua' => 'Goose/1.0.25',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Rippers',
             'Browser' => 'goose-extractor',
             'Browser_Type' => 'Bot/Crawler',
@@ -1640,13 +1640,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-AF' => array(
+    ],
+    'issue-865-AF' => [
         'ua' => 'KKT20/MIDP-2.0 Configuration/CLDC-1.1/Screen-240x320',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'WAP Browser',
             'Browser' => 'WAP Browser',
             'Browser_Type' => 'Browser',
@@ -1693,13 +1693,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-AG' => array(
+    ],
+    'issue-865-AG' => [
         'ua' => 'Mozilla/5.0 ArchLinux (X11; U; Linux x86_64; en-US) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.60 Safari/534.30',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Chrome 12.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -1746,13 +1746,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-AH' => array(
+    ],
+    'issue-865-AH' => [
         'ua' => 'AHC/1.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Rippers',
             'Browser' => 'Asynchronous HTTP Client',
             'Browser_Type' => 'Bot/Crawler',
@@ -1799,13 +1799,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-AI' => array(
+    ],
+    'issue-865-AI' => [
         'ua' => 'newspaper/0.0.6',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Rippers',
             'Browser' => 'newspaper',
             'Browser_Type' => 'Bot/Crawler',
@@ -1852,13 +1852,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-AJ' => array(
+    ],
+    'issue-865-AJ' => [
         'ua' => 'Hatena::Bookmark/2.00 (Hatena::Bookmark; master;)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Hatena',
             'Browser' => 'Hatena::Bookmark',
             'Browser_Type' => 'Bot/Crawler',
@@ -1905,13 +1905,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-AK' => array(
+    ],
+    'issue-865-AK' => [
         'ua' => 'ALCATEL_TRIBE_3075A/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 ObigoInternetBrowser/Q05A',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Obigo Q 5.0',
             'Browser' => 'Obigo Q',
             'Browser_Type' => 'Browser',
@@ -1958,13 +1958,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => false,
-    ),
-    'issue-865-AL' => array(
+    ],
+    'issue-865-AL' => [
         'ua' => 'EasyBib AutoCite (http://content.easybib.com/autocite/)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Rippers',
             'Browser' => 'EasyBib AutoCite',
             'Browser_Type' => 'Bot/Crawler',
@@ -2011,13 +2011,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-AM' => array(
+    ],
+    'issue-865-AM' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG SM-J200G Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.5 Chrome/38.0.2125.102 Mobile Safari/537.36',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Samsung Browser 3.5',
             'Browser' => 'Samsung Browser',
             'Browser_Type' => 'Browser',
@@ -2064,13 +2064,13 @@ return array(
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-AN' => array(
+    ],
+    'issue-865-AN' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9.0.6)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -2117,13 +2117,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-    'issue-865-AO' => array(
+    ],
+    'issue-865-AO' => [
         'ua' => 'ShortLinkTranslate',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'ShortLinkTranslate',
             'Browser_Type' => 'Bot/Crawler',
@@ -2170,13 +2170,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-AP' => array(
+    ],
+    'issue-865-AP' => [
         'ua' => 'HubSpot Marketing Grader',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'HubSpot Grader',
             'Browser' => 'Marketing Grader',
             'Browser_Type' => 'Bot/Crawler',
@@ -2223,13 +2223,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-AQ' => array(
+    ],
+    'issue-865-AQ' => [
         'ua' => 'Grammarly/1.0 (http://www.grammarly.com)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'Grammarly',
             'Browser_Type' => 'Bot/Crawler',
@@ -2276,13 +2276,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-AR' => array(
+    ],
+    'issue-865-AR' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit/537.31 (KHTML,like Gecko) Chrome/26.0.1410.65 Safari/537.31',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Chrome 26.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -2329,13 +2329,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-AS' => array(
+    ],
+    'issue-865-AS' => [
         'ua' => 'Dispatch/0.11.1-SNAPSHOT',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Rippers',
             'Browser' => 'Dispatch',
             'Browser_Type' => 'Bot/Crawler',
@@ -2382,13 +2382,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-AT' => array(
+    ],
+    'issue-865-AT' => [
         'ua' => 'Videocon_S351_Wap Browser',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'WAP Browser',
             'Browser' => 'WAP Browser',
             'Browser_Type' => 'Browser',
@@ -2435,13 +2435,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-AU' => array(
+    ],
+    'issue-865-AU' => [
         'ua' => 'Raven Link Checker',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Link Checkers',
             'Browser' => 'Raven Link Checker',
             'Browser_Type' => 'Bot/Crawler',
@@ -2488,13 +2488,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-AV' => array(
+    ],
+    'issue-865-AV' => [
         'ua' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 SlimerJS/0.9.5',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'SlimerJS 0.9',
             'Browser' => 'SlimerJS',
             'Browser_Type' => 'Browser',
@@ -2541,13 +2541,13 @@ return array(
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-AW' => array(
+    ],
+    'issue-865-AW' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Firefox 36.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -2594,13 +2594,13 @@ return array(
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '36.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-    'issue-865-AX' => array(
+    ],
+    'issue-865-AX' => [
         'ua' => 'http-kit/2.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Rippers',
             'Browser' => 'HTTP Kit',
             'Browser_Type' => 'Bot/Crawler',
@@ -2647,13 +2647,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-AY' => array(
+    ],
+    'issue-865-AY' => [
         'ua' => 'sfFeedReader/0.9',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Feeds Syndicators',
             'Browser' => 'Symfony RSS reader',
             'Browser_Type' => 'Bot/Crawler',
@@ -2700,13 +2700,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-AZ' => array(
+    ],
+    'issue-865-AZ' => [
         'ua' => 'Opera/7.50 (Windows XP; U)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Opera 7.50',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -2753,13 +2753,13 @@ return array(
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ),
+        ],
         'lite' => false,
         'standard' => false,
-    ),
-    'issue-865-BA' => array(
+    ],
+    'issue-865-BA' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows XP) Gecko MultiZilla/1.6.1.0a',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'MultiZilla 1.6',
             'Browser' => 'MultiZilla',
             'Browser_Type' => 'Browser',
@@ -2806,13 +2806,13 @@ return array(
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.6',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ),
+        ],
         'lite' => false,
         'standard' => false,
-    ),
-    'issue-865-BB' => array(
+    ],
+    'issue-865-BB' => [
         'ua' => 'Avant Browser/1.2.789rel1 (http://www.avantbrowser.com)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Avant 1.2',
             'Browser' => 'Avant',
             'Browser_Type' => 'Browser',
@@ -2859,13 +2859,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-BC' => array(
+    ],
+    'issue-865-BC' => [
         'ua' => 'Twikle/1.0 , http://twikle.com , contact@twikle.com',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Social Bookmarkers',
             'Browser' => 'Twikle Bot',
             'Browser_Type' => 'Bot/Crawler',
@@ -2912,13 +2912,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-BD' => array(
+    ],
+    'issue-865-BD' => [
         'ua' => 'node-fetch/1.0 (+https://github.com/bitinn/node-fetch)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Rippers',
             'Browser' => 'node-fetch',
             'Browser_Type' => 'Bot/Crawler',
@@ -2965,13 +2965,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-BE' => array(
+    ],
+    'issue-865-BE' => [
         'ua' => 'Mozilla/5.0 (Linux) LINE PagePoker',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -3018,13 +3018,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-    'issue-865-BF' => array(
+    ],
+    'issue-865-BF' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.1; ru; ru:1',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -3071,13 +3071,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-    'issue-865-BG' => array(
+    ],
+    'issue-865-BG' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1) BrokenLinkCheck.com/1.1',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Link Checkers',
             'Browser' => 'BrokenLinkCheck',
             'Browser_Type' => 'Bot/Crawler',
@@ -3124,13 +3124,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-BH' => array(
+    ],
+    'issue-865-BH' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 5.5; Windows NT 6.0)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -3177,13 +3177,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-    'issue-865-BI' => array(
+    ],
+    'issue-865-BI' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2;  zh-cn; Aqua Q3; Android/4.4.2; Release/03.05.2015)  AppleWebKit/534.30 (KHTML, like Gecko) Mobile Safari/534.30',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Android Browser 4.4',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -3230,13 +3230,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-BJ' => array(
+    ],
+    'issue-865-BJ' => [
         'ua' => 'BCKLINKS 1.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'BCKLINKS',
             'Browser' => 'BCKLINKS',
             'Browser_Type' => 'Bot/Crawler',
@@ -3283,13 +3283,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-BK' => array(
+    ],
+    'issue-865-BK' => [
         'ua' => 'Go-http-client/1.1',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'HttpClient for Google Go Programming Language',
             'Browser' => 'GO HttpClient',
             'Browser_Type' => 'Bot/Crawler',
@@ -3336,13 +3336,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-BL' => array(
+    ],
+    'issue-865-BL' => [
         'ua' => 'Mozilla/5.0 (Windows; chromeframe/2.4.8.5746) AppleWebKit/1.0 (KHTML, like Gecko) Bromium Safari/1.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Site Monitors',
             'Browser' => 'vSentry',
             'Browser_Type' => 'Bot/Crawler',
@@ -3389,13 +3389,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-BM' => array(
+    ],
+    'issue-865-BM' => [
         'ua' => 'Faraday v0.9.2',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Rippers',
             'Browser' => 'Faraday',
             'Browser_Type' => 'Bot/Crawler',
@@ -3442,13 +3442,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-BN' => array(
+    ],
+    'issue-865-BN' => [
         'ua' => 'gettor/0.5',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'gettor',
             'Browser_Type' => 'Bot/Crawler',
@@ -3495,13 +3495,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-BO' => array(
+    ],
+    'issue-865-BO' => [
         'ua' => 'SEOstats 2.1.0 https://github.com/eyecatchup/SEOstats',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'SEO & Analytics',
             'Browser' => 'SEOstats',
             'Browser_Type' => 'Bot/Crawler',
@@ -3548,13 +3548,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-BP' => array(
+    ],
+    'issue-865-BP' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; SAMSUNG SM-T710 Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.5 Chrome/38.0.2125.102 Safari/537.36',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Samsung Browser 3.5',
             'Browser' => 'Samsung Browser',
             'Browser_Type' => 'Browser',
@@ -3601,13 +3601,13 @@ return array(
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-BQ' => array(
+    ],
+    'issue-865-BQ' => [
         'ua' => 'ZnajdzFoto/Image 2.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Image Crawlers',
             'Browser' => 'ZnajdzFoto/ImageBot',
             'Browser_Type' => 'Bot/Crawler',
@@ -3654,13 +3654,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-BR' => array(
+    ],
+    'issue-865-BR' => [
         'ua' => 'WordPress.com; https://positivecups.wordpress.com',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'WordPress',
             'Browser' => 'WordPress',
             'Browser_Type' => 'Bot/Crawler',
@@ -3707,13 +3707,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-BS' => array(
+    ],
+    'issue-865-BS' => [
         'ua' => 'Microsoft Office/16.0 (Microsoft Outlook Mail 16.0.6310; Pro)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Microsoft Outlook 2016',
             'Browser' => 'Outlook',
             'Browser_Type' => 'Email Client',
@@ -3760,13 +3760,13 @@ return array(
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-BT' => array(
+    ],
+    'issue-865-BT' => [
         'ua' => 'Opera/9.80 (Tizen; Opera Mini/7.7.15/37.6897; U; en) Presto/2.12.423 Version/12.16',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Opera Mini 7.7',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
@@ -3813,13 +3813,13 @@ return array(
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-BU' => array(
+    ],
+    'issue-865-BU' => [
         'ua' => 'infoX-WISG',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'infoX-WISG',
             'Browser_Type' => 'Bot/Crawler',
@@ -3866,13 +3866,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-BV' => array(
+    ],
+    'issue-865-BV' => [
         'ua' => 'wscheck.com/1.0.0 (+http://wscheck.com/)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'SEO & Analytics',
             'Browser' => 'WSCheck Bot',
             'Browser_Type' => 'Bot/Crawler',
@@ -3919,13 +3919,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-BX' => array(
+    ],
+    'issue-865-BX' => [
         'ua' => 'Mozilla/5.0 Tweetminster',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Social Bookmarkers',
             'Browser' => 'Tweetminster Bot',
             'Browser_Type' => 'Bot/Crawler',
@@ -3972,13 +3972,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-BY' => array(
+    ],
+    'issue-865-BY' => [
         'ua' => 'GuzzleHttp/6.1.0 curl/7.45.0 PHP/5.6.14',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'PHP',
             'Browser' => 'Guzzle Http Client',
             'Browser_Type' => 'Bot/Crawler',
@@ -4025,13 +4025,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-BZ' => array(
+    ],
+    'issue-865-BZ' => [
         'ua' => 'Astute SRM',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Site Monitors',
             'Browser' => 'Astute Social',
             'Browser_Type' => 'Bot/Crawler',
@@ -4078,13 +4078,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-CA' => array(
+    ],
+    'issue-865-CA' => [
         'ua' => 'LongURL API',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Link Checkers',
             'Browser' => 'LongURL Bot',
             'Browser_Type' => 'Bot/Crawler',
@@ -4131,13 +4131,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-CB' => array(
+    ],
+    'issue-865-CB' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2;  zh-cn; itel_it1502; Android/4.4.2; Release/03.23.2015)  AppleWebKit/534.30 (KHTML, like Gecko) Mobile Safari/534.30',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Android Browser 4.4',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -4184,13 +4184,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-CC' => array(
+    ],
+    'issue-865-CC' => [
         'ua' => 'Ruby/Curb',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Rippers',
             'Browser' => 'Curb',
             'Browser_Type' => 'Bot/Crawler',
@@ -4237,13 +4237,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-CD' => array(
+    ],
+    'issue-865-CD' => [
         'ua' => '\'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2227.0 Safari/537.36\'',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -4290,13 +4290,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-    'issue-865-CE' => array(
+    ],
+    'issue-865-CE' => [
         'ua' => 'Mozilla/5.0 (compatible; alexa site audit/1.0; +http://www.alexa.com/help/webmasters; )',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Alexa Site Audit',
             'Browser' => 'Alexa Site Audit',
             'Browser_Type' => 'Bot/Crawler',
@@ -4343,13 +4343,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-CF' => array(
+    ],
+    'issue-865-CF' => [
         'ua' => 'Mozilla/5.0(Linux;U;Android 4.2.1; en_us; ZTE Grand X2 Build/JOP40D) AppleWebKit/534.30(KHTML,like Gecko) Version/4.0 Mobile Safari/534.30',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Android Browser 4.0',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -4396,13 +4396,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-CG' => array(
+    ],
+    'issue-865-CG' => [
         'ua' => 'no-ua',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -4449,13 +4449,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-    'issue-865-CH' => array(
+    ],
+    'issue-865-CH' => [
         'ua' => 'Trove (help@trove.com, http://www.trove.com)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Social Bookmarkers',
             'Browser' => 'Trove Bot',
             'Browser_Type' => 'Bot/Crawler',
@@ -4502,13 +4502,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-CI' => array(
+    ],
+    'issue-865-CI' => [
         'ua' => 'Melvil/1.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'Melvil Bot',
             'Browser_Type' => 'Bot/Crawler',
@@ -4555,13 +4555,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-CJ' => array(
+    ],
+    'issue-865-CJ' => [
         'ua' => 'Melvil Favicon/1.0 (Favicon fetcher for Melvil)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'Melvil Favicon Bot',
             'Browser_Type' => 'Bot/Crawler',
@@ -4608,13 +4608,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-CK' => array(
+    ],
+    'issue-865-CK' => [
         'ua' => 'Quora Link Preview/1.0 (http://www.quora.com)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'Quora Link Preview Bot',
             'Browser_Type' => 'Bot/Crawler',
@@ -4661,13 +4661,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-CL' => array(
+    ],
+    'issue-865-CL' => [
         'ua' => 'Pearltrees',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Social Bookmarkers',
             'Browser' => 'Pearltrees Bot',
             'Browser_Type' => 'Bot/Crawler',
@@ -4714,13 +4714,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-CM' => array(
+    ],
+    'issue-865-CM' => [
         'ua' => 'Ruby, Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_3) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.56 Safari/535.11',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -4767,13 +4767,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-    'issue-865-CN' => array(
+    ],
+    'issue-865-CN' => [
         'ua' => 'Svven-Summarizer',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Social Bookmarkers',
             'Browser' => 'Svven Summarizer Bot',
             'Browser_Type' => 'Bot/Crawler',
@@ -4820,13 +4820,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-CO' => array(
+    ],
+    'issue-865-CO' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Trident/6.0; Windows NT 5.0; ZangoToolbar 7.8.58; MyIE2)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Maxthon 2.0',
             'Browser' => 'Maxthon',
             'Browser_Type' => 'Browser',
@@ -4873,13 +4873,13 @@ return array(
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '6.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ),
+        ],
         'lite' => false,
         'standard' => false,
-    ),
-    'issue-865-CP' => array(
+    ],
+    'issue-865-CP' => [
         'ua' => 'Athena Site Analyzer (bestsiteanalyzer.com)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'SEO & Analytics',
             'Browser' => 'Athena Site Analyzer',
             'Browser_Type' => 'Bot/Crawler',
@@ -4926,13 +4926,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-CQ' => array(
+    ],
+    'issue-865-CQ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2;  zh-cn; AquaSense5.0; Android/4.4.2; Release/07.29.2015)  AppleWebKit/534.30 (KHTML, like Gecko) Mobile Safari/534.30',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Android Browser 4.4',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -4979,13 +4979,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-CR' => array(
+    ],
+    'issue-865-CR' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2;  zh-cn; X1 Beats; Android/4.4.2; Release/01.23.2015)  AppleWebKit/534.30 (KHTML, like Gecko) Mobile Safari/534.30',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Android Browser 4.4',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -5032,13 +5032,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-CS' => array(
+    ],
+    'issue-865-CS' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG SM-J200GU Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.5 Chrome/38.0.2125.102 Mobile Safari/537.36',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Samsung Browser 3.5',
             'Browser' => 'Samsung Browser',
             'Browser_Type' => 'Browser',
@@ -5085,13 +5085,13 @@ return array(
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-CT' => array(
+    ],
+    'issue-865-CT' => [
         'ua' => 'Ruby, link_thumbnailer',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'link_thumbnailer',
             'Browser_Type' => 'Bot/Crawler',
@@ -5138,13 +5138,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-CU' => array(
+    ],
+    'issue-865-CU' => [
         'ua' => 'Mozilla/5.0 ArchLinux (X11; U; Linux x86_64; en-US) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Chrome 12.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -5191,13 +5191,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-CV' => array(
+    ],
+    'issue-865-CV' => [
         'ua' => 'Mozilla/5.0 (compatible; Exploratodo/1.0; +http://www.exploratodo.com',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Search Engines',
             'Browser' => 'Exploratodo Bot',
             'Browser_Type' => 'Bot/Crawler',
@@ -5244,13 +5244,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-CW' => array(
+    ],
+    'issue-865-CW' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SM-G920F Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) 38.0.2125.102 Mobile Safari/537.36',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Chrome 38.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -5297,13 +5297,13 @@ return array(
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-CX' => array(
+    ],
+    'issue-865-CX' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2;  zh-cn; Andi 4F ARC3; Android/4.4.2; Release/07.14.2015)  AppleWebKit/534.30 (KHTML, like Gecko) Mobile Safari/534.30',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Android Browser 4.4',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -5350,13 +5350,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-CY' => array(
+    ],
+    'issue-865-CY' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/536.5 (KHTML, like Gecko) Evernote Windows/276742; Windows/6.3.9600 (Win64); Safari/536.5',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Evernote App',
             'Browser' => 'Evernote App',
             'Browser_Type' => 'Application',
@@ -5403,13 +5403,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-CZ' => array(
+    ],
+    'issue-865-CZ' => [
         'ua' => 'Mozilla/5.0 (X11;) Firefox/38.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -5456,13 +5456,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-    'issue-865-DA' => array(
+    ],
+    'issue-865-DA' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; WOW64)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -5509,13 +5509,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-    'issue-865-DB' => array(
+    ],
+    'issue-865-DB' => [
         'ua' => 'AppleWebKit/525.13 (KHTML, like Gecko) Safari/525.13.',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -5562,13 +5562,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-    'issue-865-DC' => array(
+    ],
+    'issue-865-DC' => [
         'ua' => 'GuzzleHttp/6.1.0 curl/7.35.0 PHP/5.5.9-1ubuntu4.14',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'PHP',
             'Browser' => 'Guzzle Http Client',
             'Browser_Type' => 'Bot/Crawler',
@@ -5615,13 +5615,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-DD' => array(
+    ],
+    'issue-865-DD' => [
         'ua' => 'WhatsApp',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'WhatsApp',
             'Browser' => 'WhatsApp',
             'Browser_Type' => 'Application',
@@ -5668,13 +5668,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-DE' => array(
+    ],
+    'issue-865-DE' => [
         'ua' => 'Mozilla/5.0 (Android 3.2; en-us) AppleWebKit/1.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.1',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -5721,13 +5721,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-    'issue-865-DF' => array(
+    ],
+    'issue-865-DF' => [
         'ua' => 'DDG-Android-3.0.11',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'DuckDuckBot',
             'Browser' => 'DuckDuck App',
             'Browser_Type' => 'Application',
@@ -5774,13 +5774,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-DG' => array(
+    ],
+    'issue-865-DG' => [
         'ua' => 'Mozilla/5.0 (compatible; WebCorp/5.0; +http://www.webcorp.org.uk)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Search Engines',
             'Browser' => 'WebCorp',
             'Browser_Type' => 'Bot/Crawler',
@@ -5827,13 +5827,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-DH' => array(
+    ],
+    'issue-865-DH' => [
         'ua' => 'ROR Sitemap Generator (http://www.rorweb.com)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'ROR Sitemap Generator',
             'Browser_Type' => 'Bot/Crawler',
@@ -5880,13 +5880,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-DI' => array(
+    ],
+    'issue-865-DI' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -5933,13 +5933,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-    'issue-865-DJ' => array(
+    ],
+    'issue-865-DJ' => [
         'ua' => 'Mozilla/5.0 (compatible; XML Sitemaps Generator; https://www.xml-sitemaps.com) Gecko XML-Sitemaps/1.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'XML Sitemaps Generator',
             'Browser' => 'XML Sitemaps Generator',
             'Browser_Type' => 'Bot/Crawler',
@@ -5986,13 +5986,13 @@ return array(
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-DK' => array(
+    ],
+    'issue-865-DK' => [
         'ua' => 'AuditMyPC Webmaster Tool',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'SEO & Analytics',
             'Browser' => 'AuditMyPC Webmaster Tool',
             'Browser_Type' => 'Bot/Crawler',
@@ -6039,13 +6039,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-DL' => array(
+    ],
+    'issue-865-DL' => [
         'ua' => 'XmlSitemapGenerator - http://xmlsitemapgenerator.org',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'XmlSitemapGenerator',
             'Browser_Type' => 'Bot/Crawler',
@@ -6092,13 +6092,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-DM' => array(
+    ],
+    'issue-865-DM' => [
         'ua' => 'XmlSitemapGenerator - http://XmlSitemapGenerator.org',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'XmlSitemapGenerator',
             'Browser_Type' => 'Bot/Crawler',
@@ -6145,13 +6145,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-DN' => array(
+    ],
+    'issue-865-DN' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36(KHTML,like Gecko) Chrome/40.0.2214.115 Safari/537.36',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Chrome 40.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -6198,13 +6198,13 @@ return array(
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-    'issue-865-DO' => array(
+    ],
+    'issue-865-DO' => [
         'ua' => 'LAVA.KKT22S/Dorado WAP-Browser/1.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Dorado WAP Browser',
             'Browser' => 'Dorado WAP Browser',
             'Browser_Type' => 'Browser',
@@ -6251,13 +6251,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-DP' => array(
+    ],
+    'issue-865-DP' => [
         'ua' => 'newspaper/0.0.7',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Rippers',
             'Browser' => 'newspaper',
             'Browser_Type' => 'Bot/Crawler',
@@ -6304,13 +6304,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-DQ' => array(
+    ],
+    'issue-865-DQ' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; ru; rv:33.2.3.12) Gecko/20120201 SeaMonkey/8.2.8',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -6357,13 +6357,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-    'issue-865-DR' => array(
+    ],
+    'issue-865-DR' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2;  zh-cn; X1 atom; Android/4.4.2; Release/04.08.2015)  AppleWebKit/534.30 (KHTML, like Gecko) Mobile Safari/534.30',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Android Browser 4.4',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -6410,13 +6410,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-DS' => array(
+    ],
+    'issue-865-DS' => [
         'ua' => 'Stratagems Kumo',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'Stratagems Kumo',
             'Browser_Type' => 'Bot/Crawler',
@@ -6463,13 +6463,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-DT' => array(
+    ],
+    'issue-865-DT' => [
         'ua' => 'WordPress.com; http://fleurdelyz.com',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'WordPress',
             'Browser' => 'WordPress',
             'Browser_Type' => 'Bot/Crawler',
@@ -6516,13 +6516,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-DU' => array(
+    ],
+    'issue-865-DU' => [
         'ua' => 'Spice QT-75',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'WAP Browser',
             'Browser' => 'WAP Browser',
             'Browser_Type' => 'Browser',
@@ -6569,13 +6569,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-DV' => array(
+    ],
+    'issue-865-DV' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/536.5 (KHTML, like Gecko) Evernote Windows/276742; Windows/10.0.10240 (Win64); Safari/536.5',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Evernote App',
             'Browser' => 'Evernote App',
             'Browser_Type' => 'Application',
@@ -6622,13 +6622,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-DW' => array(
+    ],
+    'issue-865-DW' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-US) Gecko Firefox/3.0.8',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Firefox 3.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -6675,13 +6675,13 @@ return array(
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-DX' => array(
+    ],
+    'issue-865-DX' => [
         'ua' => 'YOURLS v1.7 +http://yourls.org/ (running on http://z-url.us)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'YOURLS',
             'Browser' => 'YOURLS',
             'Browser_Type' => 'Bot/Crawler',
@@ -6728,13 +6728,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-DY' => array(
+    ],
+    'issue-865-DY' => [
         'ua' => 'Embed PHP Library',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Rippers',
             'Browser' => 'Embed PHP Library',
             'Browser_Type' => 'Bot/Crawler',
@@ -6781,13 +6781,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-DZ' => array(
+    ],
+    'issue-865-DZ' => [
         'ua' => 'WordPress.com; https://egointernationaltruffa.wordpress.com; verifying pingback from 23.19.127.211',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'WordPress',
             'Browser' => 'WordPress',
             'Browser_Type' => 'Bot/Crawler',
@@ -6834,13 +6834,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-EA' => array(
+    ],
+    'issue-865-EA' => [
         'ua' => 'WordPress.com; https://egointernationaltruffa.wordpress.com; verifying pingback from 23.19.176.193',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'WordPress',
             'Browser' => 'WordPress',
             'Browser_Type' => 'Bot/Crawler',
@@ -6887,13 +6887,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-EB' => array(
+    ],
+    'issue-865-EB' => [
         'ua' => 'Mozilla/4.0 (compatible; Virtuoso)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'Virtuoso',
             'Browser_Type' => 'Bot/Crawler',
@@ -6940,13 +6940,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-EC' => array(
+    ],
+    'issue-865-EC' => [
         'ua' => 'SPIP-3.0.20 (http://www.spip.net)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'SPIP',
             'Browser_Type' => 'Bot/Crawler',
@@ -6993,13 +6993,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-ED' => array(
+    ],
+    'issue-865-ED' => [
         'ua' => 'YOURLS v1.6 +http://yourls.org/ (running on http://xurl.co)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'YOURLS',
             'Browser' => 'YOURLS',
             'Browser_Type' => 'Bot/Crawler',
@@ -7046,13 +7046,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-EE' => array(
+    ],
+    'issue-865-EE' => [
         'ua' => 'YOURLS v1.7 +http://yourls.org/ (running on http://rutlink.info)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'YOURLS',
             'Browser' => 'YOURLS',
             'Browser_Type' => 'Bot/Crawler',
@@ -7099,13 +7099,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-EF' => array(
+    ],
+    'issue-865-EF' => [
         'ua' => 'WordPress.com; https://egointernationaltruffa.wordpress.com; verifying pingback from 23.19.127.108',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'WordPress',
             'Browser' => 'WordPress',
             'Browser_Type' => 'Bot/Crawler',
@@ -7152,13 +7152,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-EG' => array(
+    ],
+    'issue-865-EG' => [
         'ua' => 'YOURLS v1.6 +http://yourls.org/ (running on http://revmkt.in)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'YOURLS',
             'Browser' => 'YOURLS',
             'Browser_Type' => 'Bot/Crawler',
@@ -7205,13 +7205,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-EH' => array(
+    ],
+    'issue-865-EH' => [
         'ua' => 'YOURLS v1.6 +http://yourls.org/ (running on http://urlmicro.me)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'YOURLS',
             'Browser' => 'YOURLS',
             'Browser_Type' => 'Bot/Crawler',
@@ -7258,13 +7258,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-EI' => array(
+    ],
+    'issue-865-EI' => [
         'ua' => 'YOURLS v1.6 +http://yourls.org/ (running on http://2u4.us)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'YOURLS',
             'Browser' => 'YOURLS',
             'Browser_Type' => 'Bot/Crawler',
@@ -7311,13 +7311,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-EJ' => array(
+    ],
+    'issue-865-EJ' => [
         'ua' => 'YOURLS v1.6 +http://yourls.org/ (running on http://vaiqui.com)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'YOURLS',
             'Browser' => 'YOURLS',
             'Browser_Type' => 'Bot/Crawler',
@@ -7364,13 +7364,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-EK' => array(
+    ],
+    'issue-865-EK' => [
         'ua' => 'YOURLS v1.7 +http://yourls.org/ (running on http://ecra.se)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'YOURLS',
             'Browser' => 'YOURLS',
             'Browser_Type' => 'Bot/Crawler',
@@ -7417,13 +7417,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-EL' => array(
+    ],
+    'issue-865-EL' => [
         'ua' => 'Friendica \'Lily of the valley\' 3.4.0-1182; http://frndc.saschaschroeder.eu',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Friendica',
             'Browser' => 'Friendica',
             'Browser_Type' => 'Bot/Crawler',
@@ -7470,13 +7470,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-EM' => array(
+    ],
+    'issue-865-EM' => [
         'ua' => 'Taproot (Guzzle) http://taprootproject.com',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'PHP',
             'Browser' => 'Taproot Bot',
             'Browser_Type' => 'Bot/Crawler',
@@ -7523,13 +7523,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-EN' => array(
+    ],
+    'issue-865-EN' => [
         'ua' => 'MagpieRSS/0.72 \\(+http://magpierss.sf.net\\)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Feeds Syndicators',
             'Browser' => 'MagpieRSS',
             'Browser_Type' => 'Bot/Crawler',
@@ -7576,13 +7576,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-EO' => array(
+    ],
+    'issue-865-EO' => [
         'ua' => 'GentleSource Short URL Checker ( http://www.gentlesource.com/ )',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Link Checkers',
             'Browser' => 'Short URL Checker',
             'Browser_Type' => 'Bot/Crawler',
@@ -7629,13 +7629,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-EP' => array(
+    ],
+    'issue-865-EP' => [
         'ua' => 'YOURLS v1.6 +http://yourls.org/ (running on http://3uves.com)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'YOURLS',
             'Browser' => 'YOURLS',
             'Browser_Type' => 'Bot/Crawler',
@@ -7682,13 +7682,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-EQ' => array(
+    ],
+    'issue-865-EQ' => [
         'ua' => 'YOURLS v1.7 +http://yourls.org/ (running on http://www.vrbas.be/url)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'YOURLS',
             'Browser' => 'YOURLS',
             'Browser_Type' => 'Bot/Crawler',
@@ -7735,13 +7735,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-ER' => array(
+    ],
+    'issue-865-ER' => [
         'ua' => 'YOURLS v1.7 +http://yourls.org/ (running on http://mrk.im)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'YOURLS',
             'Browser' => 'YOURLS',
             'Browser_Type' => 'Bot/Crawler',
@@ -7788,13 +7788,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-ES' => array(
+    ],
+    'issue-865-ES' => [
         'ua' => 'YOURLS v1.6 +http://yourls.org/ (running on http://www.easylink.mobi)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'YOURLS',
             'Browser' => 'YOURLS',
             'Browser_Type' => 'Bot/Crawler',
@@ -7841,13 +7841,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-ET' => array(
+    ],
+    'issue-865-ET' => [
         'ua' => 'YOURLS v1.6 +http://yourls.org/ (running on http://pagn.info)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'YOURLS',
             'Browser' => 'YOURLS',
             'Browser_Type' => 'Bot/Crawler',
@@ -7894,13 +7894,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-EU' => array(
+    ],
+    'issue-865-EU' => [
         'ua' => 'YOURLS v1.0-rc +http://yourls.org/ (running on http://epi.my)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'YOURLS',
             'Browser' => 'YOURLS',
             'Browser_Type' => 'Bot/Crawler',
@@ -7947,13 +7947,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-EV' => array(
+    ],
+    'issue-865-EV' => [
         'ua' => 'YOURLS v1.7.1 +http://yourls.org/ (running on http://bp7.org)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'YOURLS',
             'Browser' => 'YOURLS',
             'Browser_Type' => 'Bot/Crawler',
@@ -8000,13 +8000,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-EW' => array(
+    ],
+    'issue-865-EW' => [
         'ua' => 'YOURLS v1.5 +http://yourls.org/ (running on http://jmp.su)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'YOURLS',
             'Browser' => 'YOURLS',
             'Browser_Type' => 'Bot/Crawler',
@@ -8053,13 +8053,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-EX' => array(
+    ],
+    'issue-865-EX' => [
         'ua' => 'Short URL Checker ( http://www.kurld.com/ )',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Link Checkers',
             'Browser' => 'Short URL Checker',
             'Browser_Type' => 'Bot/Crawler',
@@ -8106,13 +8106,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-EY' => array(
+    ],
+    'issue-865-EY' => [
         'ua' => 'YOURLS v1.7.1 +http://yourls.org/ (running on http://sresc.io)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'YOURLS',
             'Browser' => 'YOURLS',
             'Browser_Type' => 'Bot/Crawler',
@@ -8159,13 +8159,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-EZ' => array(
+    ],
+    'issue-865-EZ' => [
         'ua' => 'WordPress.com; https://egointernationaltruffa.wordpress.com; verifying pingback from 95.215.52.150',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'WordPress',
             'Browser' => 'WordPress',
             'Browser_Type' => 'Bot/Crawler',
@@ -8212,13 +8212,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-FA' => array(
+    ],
+    'issue-865-FA' => [
         'ua' => 'WordPress.com; https://egointernationaltruffa.wordpress.com; verifying pingback from 93.61.114.253',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'WordPress',
             'Browser' => 'WordPress',
             'Browser_Type' => 'Bot/Crawler',
@@ -8265,13 +8265,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-FB' => array(
+    ],
+    'issue-865-FB' => [
         'ua' => 'YOURLS v1.5.1 +http://yourls.org/ (running on http://fhort.com)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'YOURLS',
             'Browser' => 'YOURLS',
             'Browser_Type' => 'Bot/Crawler',
@@ -8318,13 +8318,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-FC' => array(
+    ],
+    'issue-865-FC' => [
         'ua' => 'YOURLS v1.7 +http://yourls.org/ (running on http://shortr.at)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'YOURLS',
             'Browser' => 'YOURLS',
             'Browser_Type' => 'Bot/Crawler',
@@ -8371,13 +8371,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-FD' => array(
+    ],
+    'issue-865-FD' => [
         'ua' => 'webnumbrFetcher/1.0 (http://webnumbr.com/)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'webnumbr Fetcher',
             'Browser_Type' => 'Bot/Crawler',
@@ -8424,13 +8424,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-FE' => array(
+    ],
+    'issue-865-FE' => [
         'ua' => 'vBulletin via PHP',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'SEO & Analytics',
             'Browser' => 'vBulletin Bot',
             'Browser_Type' => 'Bot/Crawler',
@@ -8477,13 +8477,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-FF' => array(
+    ],
+    'issue-865-FF' => [
         'ua' => 'Mozilla/5.0 (GetLinkInfo.com - http://www.getlinkinfo.com)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Link Checkers',
             'Browser' => 'GetLinkInfo Bot',
             'Browser_Type' => 'Bot/Crawler',
@@ -8530,13 +8530,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-FG' => array(
+    ],
+    'issue-865-FG' => [
         'ua' => 'YOURLS v1.7 +http://yourls.org/ (running on http://u.vsil.org)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'YOURLS',
             'Browser' => 'YOURLS',
             'Browser_Type' => 'Bot/Crawler',
@@ -8583,13 +8583,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-FH' => array(
+    ],
+    'issue-865-FH' => [
         'ua' => 'YOURLS v1.7 +http://yourls.org/ (running on http://www.bv-xa.com)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'YOURLS',
             'Browser' => 'YOURLS',
             'Browser_Type' => 'Bot/Crawler',
@@ -8636,13 +8636,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-FI' => array(
+    ],
+    'issue-865-FI' => [
         'ua' => 'Slinky v1.0 +http://dentedreality.com.au/projects/slinky/',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Link Checkers',
             'Browser' => 'Slinky',
             'Browser_Type' => 'Bot/Crawler',
@@ -8689,13 +8689,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-FJ' => array(
+    ],
+    'issue-865-FJ' => [
         'ua' => 'YOURLS v1.5 +http://yourls.org/ (running on http://mv2.me)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'YOURLS',
             'Browser' => 'YOURLS',
             'Browser_Type' => 'Bot/Crawler',
@@ -8742,13 +8742,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-FK' => array(
+    ],
+    'issue-865-FK' => [
         'ua' => 'YOURLS v1.5 +http://yourls.org/ (running on http://onj.me)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'YOURLS',
             'Browser' => 'YOURLS',
             'Browser_Type' => 'Bot/Crawler',
@@ -8795,13 +8795,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-FL' => array(
+    ],
+    'issue-865-FL' => [
         'ua' => 'ARC Reader (http://arc.semsol.org/)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'ARC Reader',
             'Browser_Type' => 'Bot/Crawler',
@@ -8848,13 +8848,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-FM' => array(
+    ],
+    'issue-865-FM' => [
         'ua' => 'CSE HTML Validator Online (http://www.OnlineWebCheck.com) via 108.62.195.142',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Validation Checkers',
             'Browser' => 'CSE HTML Validator',
             'Browser_Type' => 'Bot/Crawler',
@@ -8901,13 +8901,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-FN' => array(
+    ],
+    'issue-865-FN' => [
         'ua' => 'Friendica \'Ginger\' 3.3.1-1174; http://friendica.offerman.com',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Friendica',
             'Browser' => 'Friendica',
             'Browser_Type' => 'Bot/Crawler',
@@ -8954,13 +8954,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-FO' => array(
+    ],
+    'issue-865-FO' => [
         'ua' => 'Friendica',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Friendica',
             'Browser' => 'Friendica',
             'Browser_Type' => 'Bot/Crawler',
@@ -9007,13 +9007,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-FP' => array(
+    ],
+    'issue-865-FP' => [
         'ua' => 'Vinti/0.1',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'Vinti',
             'Browser_Type' => 'Bot/Crawler',
@@ -9060,13 +9060,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-FQ' => array(
+    ],
+    'issue-865-FQ' => [
         'ua' => 'Mozilla/5.0 (compatible; Friendica)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Friendica',
             'Browser' => 'Friendica',
             'Browser_Type' => 'Bot/Crawler',
@@ -9113,13 +9113,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-FR' => array(
+    ],
+    'issue-865-FR' => [
         'ua' => 'OpmlViewer network fetcher version 1.0.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Rippers',
             'Browser' => 'OpmlViewer network fetcher',
             'Browser_Type' => 'Bot/Crawler',
@@ -9166,13 +9166,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-FS' => array(
+    ],
+    'issue-865-FS' => [
         'ua' => 'YOURLS v1.7.1 +http://yourls.org/ (running on https://ivyti.es)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'YOURLS',
             'Browser' => 'YOURLS',
             'Browser_Type' => 'Bot/Crawler',
@@ -9219,13 +9219,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-FT' => array(
+    ],
+    'issue-865-FT' => [
         'ua' => 'YOURLS v1.5 +http://yourls.org/ (running on http://shelby.im)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'YOURLS',
             'Browser' => 'YOURLS',
             'Browser_Type' => 'Bot/Crawler',
@@ -9272,13 +9272,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-FU' => array(
+    ],
+    'issue-865-FU' => [
         'ua' => 'YOURLS v1.7 +http://yourls.org/ (running on http://jim-s.com)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'YOURLS',
             'Browser' => 'YOURLS',
             'Browser_Type' => 'Bot/Crawler',
@@ -9325,13 +9325,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-FV' => array(
+    ],
+    'issue-865-FV' => [
         'ua' => 'SPDYCheck SPDY Protocol Tester, see http://spdycheck.org/about.html',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'SEO & Analytics',
             'Browser' => 'SPDYCheck SPDY Protocol Tester',
             'Browser_Type' => 'Bot/Crawler',
@@ -9378,13 +9378,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-FW' => array(
+    ],
+    'issue-865-FW' => [
         'ua' => 'Premium URL Shortener 4.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Link Checkers',
             'Browser' => 'Premium URL Shortener',
             'Browser_Type' => 'Bot/Crawler',
@@ -9431,13 +9431,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-FX' => array(
+    ],
+    'issue-865-FX' => [
         'ua' => 'Friendica \'Lily of the valley\' 3.4.0-1182; http://social.feder8.ru',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Friendica',
             'Browser' => 'Friendica',
             'Browser_Type' => 'Bot/Crawler',
@@ -9484,13 +9484,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-FY' => array(
+    ],
+    'issue-865-FY' => [
         'ua' => 'Friendica \'Lily of the valley\' 3.4.2-1188; https://myfriendica.net',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Friendica',
             'Browser' => 'Friendica',
             'Browser_Type' => 'Bot/Crawler',
@@ -9537,13 +9537,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-FZ' => array(
+    ],
+    'issue-865-FZ' => [
         'ua' => 'Friendica \'Lily of the valley\' 3.4.3-dev-1191; http://toktan.org',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Friendica',
             'Browser' => 'Friendica',
             'Browser_Type' => 'Bot/Crawler',
@@ -9590,13 +9590,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-GA' => array(
+    ],
+    'issue-865-GA' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; SAMSUNG SM-T810 Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.5 Chrome/38.0.2125.102 Safari/537.36',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Samsung Browser 3.5',
             'Browser' => 'Samsung Browser',
             'Browser_Type' => 'Browser',
@@ -9643,13 +9643,13 @@ return array(
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-GB' => array(
+    ],
+    'issue-865-GB' => [
         'ua' => 'EBSCO EJS Content Server',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'EBSCO EJS Content Server',
             'Browser_Type' => 'Bot/Crawler',
@@ -9696,13 +9696,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-GC' => array(
+    ],
+    'issue-865-GC' => [
         'ua' => 'YOURLS v1.7 +http://yourls.org/ (running on http://linkcut.eu)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'YOURLS',
             'Browser' => 'YOURLS',
             'Browser_Type' => 'Bot/Crawler',
@@ -9749,13 +9749,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-GD' => array(
+    ],
+    'issue-865-GD' => [
         'ua' => 'YOURLS v1.7 +http://yourls.org/ (running on http://ezurl.me)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'YOURLS',
             'Browser' => 'YOURLS',
             'Browser_Type' => 'Bot/Crawler',
@@ -9802,13 +9802,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-GE' => array(
+    ],
+    'issue-865-GE' => [
         'ua' => 'asafaweb.com',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Vulnerability Scanners',
             'Browser' => 'Automated Security Analyser',
             'Browser_Type' => 'Bot/Crawler',
@@ -9855,13 +9855,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-GF' => array(
+    ],
+    'issue-865-GF' => [
         'ua' => 'Friendica \'Lily of the valley\' 3.4.2-1188; https://friendika.openmindspace.org',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Friendica',
             'Browser' => 'Friendica',
             'Browser_Type' => 'Bot/Crawler',
@@ -9908,13 +9908,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-GG' => array(
+    ],
+    'issue-865-GG' => [
         'ua' => 'Friendica \'Lily of the valley\' 3.4.2-1188; http://mozartweg.dyndns.org/friendica',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Friendica',
             'Browser' => 'Friendica',
             'Browser_Type' => 'Bot/Crawler',
@@ -9961,13 +9961,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-GH' => array(
+    ],
+    'issue-865-GH' => [
         'ua' => 'Friendica \'Ginger\' 3.3.3-RC-1178; https://anthron.octans.uberspace.de/friendica',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Friendica',
             'Browser' => 'Friendica',
             'Browser_Type' => 'Bot/Crawler',
@@ -10014,13 +10014,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-GI' => array(
+    ],
+    'issue-865-GI' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/534.34 (KHTML, like Gecko) wkhtmltopdf Safari/534.34',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'wkhtmltopdf',
             'Browser' => 'wkhtmltopdf',
             'Browser_Type' => 'Application',
@@ -10067,13 +10067,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-GJ' => array(
+    ],
+    'issue-865-GJ' => [
         'ua' => 'YOURLS v1.5 +http://yourls.org/ (running on http://oerk.at)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'YOURLS',
             'Browser' => 'YOURLS',
             'Browser_Type' => 'Bot/Crawler',
@@ -10120,13 +10120,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-GK' => array(
+    ],
+    'issue-865-GK' => [
         'ua' => 'YOURLS v1.5.1 +http://yourls.org/ (running on http://rlink.eu)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'YOURLS',
             'Browser' => 'YOURLS',
             'Browser_Type' => 'Bot/Crawler',
@@ -10173,13 +10173,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-GL' => array(
+    ],
+    'issue-865-GL' => [
         'ua' => 'YOURLS v1.6 +http://yourls.org/ (running on http://clickand.co)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'YOURLS',
             'Browser' => 'YOURLS',
             'Browser_Type' => 'Bot/Crawler',
@@ -10226,13 +10226,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-GM' => array(
+    ],
+    'issue-865-GM' => [
         'ua' => 'Friendica \'Lily of the valley\' 3.4.2-1188; https://friends.tausys.de',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Friendica',
             'Browser' => 'Friendica',
             'Browser_Type' => 'Bot/Crawler',
@@ -10279,13 +10279,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-GN' => array(
+    ],
+    'issue-865-GN' => [
         'ua' => 'YOURLS v1.5.1 +http://yourls.org/ (running on http://tty.nu)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'YOURLS',
             'Browser' => 'YOURLS',
             'Browser_Type' => 'Bot/Crawler',
@@ -10332,13 +10332,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-GO' => array(
+    ],
+    'issue-865-GO' => [
         'ua' => 'Mozilla/4.0 (compatible; TURLValidator/1.0)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Link Checkers',
             'Browser' => 'TURLValidator',
             'Browser_Type' => 'Bot/Crawler',
@@ -10385,13 +10385,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-GP' => array(
+    ],
+    'issue-865-GP' => [
         'ua' => 'HTTP Service',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'HTTP Service',
             'Browser_Type' => 'Bot/Crawler',
@@ -10438,13 +10438,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-GQ' => array(
+    ],
+    'issue-865-GQ' => [
         'ua' => 'CSE HTML Validator Online (http://www.OnlineWebCheck.com) via 108.62.151.31',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Validation Checkers',
             'Browser' => 'CSE HTML Validator',
             'Browser_Type' => 'Bot/Crawler',
@@ -10491,13 +10491,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-GR' => array(
+    ],
+    'issue-865-GR' => [
         'ua' => 'Friendica \'Ginger\' 3.3.1-1174; http://ccc.serpens.uberspace.de',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Friendica',
             'Browser' => 'Friendica',
             'Browser_Type' => 'Bot/Crawler',
@@ -10544,13 +10544,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-GS' => array(
+    ],
+    'issue-865-GS' => [
         'ua' => 'Mozilla/4.0 (compatible; Globel; Traffic Sent From: http://addictive.me.uk)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'Globel Bot',
             'Browser_Type' => 'Bot/Crawler',
@@ -10597,13 +10597,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-GT' => array(
+    ],
+    'issue-865-GT' => [
         'ua' => 'BlueDragon',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'BlueDragon',
             'Browser_Type' => 'Bot/Crawler',
@@ -10650,13 +10650,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-GU' => array(
+    ],
+    'issue-865-GU' => [
         'ua' => 'YOURLS v1.6 +http://yourls.org/ (running on http://sgfx.co)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'YOURLS',
             'Browser' => 'YOURLS',
             'Browser_Type' => 'Bot/Crawler',
@@ -10703,13 +10703,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-GV' => array(
+    ],
+    'issue-865-GV' => [
         'ua' => 'Mozilla/4.2 (compatible; MSIE 7.0; Windows NT 5.2; en-US)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -10756,13 +10756,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-    'issue-865-GW' => array(
+    ],
+    'issue-865-GW' => [
         'ua' => 'YOURLS v1.7 +http://yourls.org/ (running on http://www.h-link.de)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'YOURLS',
             'Browser' => 'YOURLS',
             'Browser_Type' => 'Bot/Crawler',
@@ -10809,13 +10809,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-GX' => array(
+    ],
+    'issue-865-GX' => [
         'ua' => 'Stewdio Windmaker 2.2',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'Windmaker Bot',
             'Browser_Type' => 'Bot/Crawler',
@@ -10862,13 +10862,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-GY' => array(
+    ],
+    'issue-865-GY' => [
         'ua' => 'raynette_httprequest/1.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Rippers',
             'Browser' => 'HTTP Request',
             'Browser_Type' => 'Bot/Crawler',
@@ -10915,13 +10915,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-GZ' => array(
+    ],
+    'issue-865-GZ' => [
         'ua' => 'Friendica \'Lily of the valley\' 3.4.2-1188; https://karl.marx.pm',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Friendica',
             'Browser' => 'Friendica',
             'Browser_Type' => 'Bot/Crawler',
@@ -10968,13 +10968,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-HA' => array(
+    ],
+    'issue-865-HA' => [
         'ua' => 'Friendica \'Lily of the valley\' 3.4.2-1188; https://f.tschlotfeldt.de',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Friendica',
             'Browser' => 'Friendica',
             'Browser_Type' => 'Bot/Crawler',
@@ -11021,13 +11021,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-HB' => array(
+    ],
+    'issue-865-HB' => [
         'ua' => 'CATExplorador/1.0beta (sistemes at domini dot cat; http://domini.cat/catexplorador.html)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Vulnerability Scanners',
             'Browser' => 'CATExplorador',
             'Browser_Type' => 'Bot/Crawler',
@@ -11074,13 +11074,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-HC' => array(
+    ],
+    'issue-865-HC' => [
         'ua' => 'aboutthedomain',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'AboutTheDomain Bot',
             'Browser_Type' => 'Bot/Crawler',
@@ -11127,13 +11127,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-HD' => array(
+    ],
+    'issue-865-HD' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -11180,13 +11180,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-    'issue-865-HE' => array(
+    ],
+    'issue-865-HE' => [
         'ua' => 'Mozilla/5.0 Slackware/13.37 (X11; U; Linux x86_64; en-US) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.41',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Chrome 13.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -11233,13 +11233,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-HF' => array(
+    ],
+    'issue-865-HF' => [
         'ua' => 'Ruby, Mozilla/5.0 (Windows; U; Windows NT 5.1; en-GB; rv:1.8.1.6) Gecko/20070725 Firefox/2.0.0.6',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -11286,13 +11286,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-    'issue-865-HG' => array(
+    ],
+    'issue-865-HG' => [
         'ua' => 'SAMSUNG-GT-I9100/100.40102',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -11339,13 +11339,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-    'issue-865-HH' => array(
+    ],
+    'issue-865-HH' => [
         'ua' => 'www.deadlinkchecker.com XMLHTTP/1.0 Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Link Checkers',
             'Browser' => 'dead link checker',
             'Browser_Type' => 'Bot/Crawler',
@@ -11392,13 +11392,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-HI' => array(
+    ],
+    'issue-865-HI' => [
         'ua' => 'CSE HTML Validator Online (http://www.OnlineWebCheck.com) via 23.19.188.134',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Validation Checkers',
             'Browser' => 'CSE HTML Validator',
             'Browser_Type' => 'Bot/Crawler',
@@ -11445,13 +11445,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-HJ' => array(
+    ],
+    'issue-865-HJ' => [
         'ua' => 'Friendica \'Lily of the valley\' 3.4.3-dev-1191; https://friendica.xyz',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Friendica',
             'Browser' => 'Friendica',
             'Browser_Type' => 'Bot/Crawler',
@@ -11498,13 +11498,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-HK' => array(
+    ],
+    'issue-865-HK' => [
         'ua' => 'YOURLS v1.5.1 +http://yourls.org/ (running on http://u.i4x3.tk)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'YOURLS',
             'Browser' => 'YOURLS',
             'Browser_Type' => 'Bot/Crawler',
@@ -11551,13 +11551,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-HL' => array(
+    ],
+    'issue-865-HL' => [
         'ua' => 'Microsoft Office PowerPoint 2013',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Microsoft PowerPoint',
             'Browser' => 'PowerPoint',
             'Browser_Type' => 'Application',
@@ -11604,13 +11604,13 @@ return array(
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-HM' => array(
+    ],
+    'issue-865-HM' => [
         'ua' => 'WeSEE',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'SEO & Analytics',
             'Browser' => 'WeSEE Bot',
             'Browser_Type' => 'Bot/Crawler',
@@ -11657,13 +11657,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-HN' => array(
+    ],
+    'issue-865-HN' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2;  zh-cn; WOW; Android/4.4.2; Release/02.02.2015)  AppleWebKit/534.30 (KHTML, like Gecko) Mobile Safari/534.30',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Android Browser 4.4',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -11710,13 +11710,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-HO' => array(
+    ],
+    'issue-865-HO' => [
         'ua' => 'Mozilla/5.0 (compatible; Sitemap Generator/1.3; +http://www.check-domains.com/sitemap/index.php)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'Sitemap Generator',
             'Browser_Type' => 'Bot/Crawler',
@@ -11763,13 +11763,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-HP' => array(
+    ],
+    'issue-865-HP' => [
         'ua' => 'GuzzleHttp/6.1.0 curl/7.38.0 PHP/7.0.0RC7',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'PHP',
             'Browser' => 'Guzzle Http Client',
             'Browser_Type' => 'Bot/Crawler',
@@ -11816,13 +11816,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-HQ' => array(
+    ],
+    'issue-865-HQ' => [
         'ua' => 'Mozilla/5.0 ArchLinux (X11; U; Linux x86_64; en-US) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Chrome 12.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -11869,13 +11869,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-HR' => array(
+    ],
+    'issue-865-HR' => [
         'ua' => 'Mozilla/5.0(Windows; U; Windows NT 5.2; rv:1.9.2) Gecko/20100101 Firefox/3.6',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Firefox 3.6',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -11922,13 +11922,13 @@ return array(
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '1.9.2',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-HS' => array(
+    ],
+    'issue-865-HS' => [
         'ua' => 'Leadify/1.01 Page Staleness Detector',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Social Bookmarkers',
             'Browser' => 'Leadify Bot',
             'Browser_Type' => 'Bot/Crawler',
@@ -11975,13 +11975,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-HT' => array(
+    ],
+    'issue-865-HT' => [
         'ua' => 'HubPages V0.2.2 (http://hubpages.com/help/crawlingpolicy)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'HubPages Bot',
             'Browser_Type' => 'Bot/Crawler',
@@ -12028,13 +12028,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-HU' => array(
+    ],
+    'issue-865-HU' => [
         'ua' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.34 (KHTML, like Gecko) kioclient/4.11.2 Safari/534.34',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'kioclient 4.11',
             'Browser' => 'kioclient',
             'Browser_Type' => 'Application',
@@ -12081,13 +12081,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-HV' => array(
+    ],
+    'issue-865-HV' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2;  zh-cn; PLAY Style; Android/4.4.2; Release/08.11.2015)  AppleWebKit/534.30 (KHTML, like Gecko) Mobile Safari/534.30',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Android Browser 4.4',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -12134,13 +12134,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-HW' => array(
+    ],
+    'issue-865-HW' => [
         'ua' => 'Mozilla/5.0(Linux;U;Android 4.2.2;pt;CCE SK352)/AppleWebKit534.30 Mobile Safari/534.30',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Android Browser 4.2',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -12187,13 +12187,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-HX' => array(
+    ],
+    'issue-865-HX' => [
         'ua' => 'Mozilla/5.0 (compatible; ProspectB2B/2.0; http://prospectb2b.com)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Rippers',
             'Browser' => 'ProspectB2B Bot',
             'Browser_Type' => 'Bot/Crawler',
@@ -12240,13 +12240,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-HY' => array(
+    ],
+    'issue-865-HY' => [
         'ua' => 'Mozilla/5.0 Windows NT 6.1 WOW64 rv 9.0.1 Gecko/20100101 Firefox/9.0.1',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -12293,13 +12293,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-    'issue-865-HZ' => array(
+    ],
+    'issue-865-HZ' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Dragon/45.7.11.387 Chrome/45.0.2454.93 Safari/537.36',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Comodo Dragon 45.7',
             'Browser' => 'Dragon',
             'Browser_Type' => 'Browser',
@@ -12346,13 +12346,13 @@ return array(
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-IA' => array(
+    ],
+    'issue-865-IA' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2;  zh-cn; era; Android/4.4.2; Release/06.24.2015)  AppleWebKit/534.30 (KHTML, like Gecko) Mobile Safari/534.30',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Android Browser 4.4',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -12399,13 +12399,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-IB' => array(
+    ],
+    'issue-865-IB' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Dragon/45.7.11.387 Chrome/45.0.2454.93 Safari/537.36',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Comodo Dragon 45.7',
             'Browser' => 'Dragon',
             'Browser_Type' => 'Browser',
@@ -12452,13 +12452,13 @@ return array(
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-IC' => array(
+    ],
+    'issue-865-IC' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3; en-us) AppleWebKit/999+ (KHTML, like Gecko) Safari/999.9',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -12505,13 +12505,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-    'issue-865-ID' => array(
+    ],
+    'issue-865-ID' => [
         'ua' => 'Mozilla/5.0 (compatible; Macintosh; Intel Mac OS X 10_7_4)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -12558,13 +12558,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-    'issue-865-IE' => array(
+    ],
+    'issue-865-IE' => [
         'ua' => 'CakePHP',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Rippers',
             'Browser' => 'CakePHP',
             'Browser_Type' => 'Bot/Crawler',
@@ -12611,13 +12611,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-IF' => array(
+    ],
+    'issue-865-IF' => [
         'ua' => 'Mozilla/4.0 (compatible; Windows Mobile; WCE; Opera Mobi/WMD-50433; U; de) Presto/2.4.13 Version/10.00',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Opera Mobile 10.00',
             'Browser' => 'Opera Mobile',
             'Browser_Type' => 'Browser',
@@ -12664,13 +12664,13 @@ return array(
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ),
+        ],
         'lite' => false,
         'standard' => false,
-    ),
-    'issue-865-IG' => array(
+    ],
+    'issue-865-IG' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_4)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -12717,13 +12717,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-    'issue-865-IH' => array(
+    ],
+    'issue-865-IH' => [
         'ua' => 'Page Analyzer v4.0 ( http://www.ranks.nl/ )',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'SEO & Analytics',
             'Browser' => 'Page Analyzer',
             'Browser_Type' => 'Bot/Crawler',
@@ -12770,13 +12770,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-II' => array(
+    ],
+    'issue-865-II' => [
         'ua' => 'Mozilla/4.0 (compatible; Intel Mac OS X 10.6; rv:2.0b8) Gecko/20100101 Firefox/4.0b8)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Firefox 4.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -12823,13 +12823,13 @@ return array(
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '2.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-IJ' => array(
+    ],
+    'issue-865-IJ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2;  zh-cn; Aqua Star II; Android/4.4.2; Release/06.17.2015)  AppleWebKit/534.30 (KHTML, like Gecko) Mobile Safari/534.30',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Android Browser 4.4',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -12876,13 +12876,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-IK' => array(
+    ],
+    'issue-865-IK' => [
         'ua' => 'WordPress.com; https://ramaransonvsthecult.wordpress.com',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'WordPress',
             'Browser' => 'WordPress',
             'Browser_Type' => 'Bot/Crawler',
@@ -12929,13 +12929,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-IL' => array(
+    ],
+    'issue-865-IL' => [
         'ua' => 'gpEasy RemoteGet',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Rippers',
             'Browser' => 'RemoteGet',
             'Browser_Type' => 'Bot/Crawler',
@@ -12982,13 +12982,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-IM' => array(
+    ],
+    'issue-865-IM' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 5.1; zh-cn; Infinix X510 Build/ AppleWebKit/534.30 (KHTML, like Gecko) Version/5.1 Mobile Safari/534.30;',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Android Browser 5.1',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -13035,13 +13035,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-IN' => array(
+    ],
+    'issue-865-IN' => [
         'ua' => 'LAVA Spark284/MIDP-2.0 Configuration/CLDC-1.1/Screen-240x320',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'WAP Browser',
             'Browser' => 'WAP Browser',
             'Browser_Type' => 'Browser',
@@ -13088,13 +13088,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-IO' => array(
+    ],
+    'issue-865-IO' => [
         'ua' => 'asynchttp',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Rippers',
             'Browser' => 'asynchttp',
             'Browser_Type' => 'Bot/Crawler',
@@ -13141,13 +13141,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-IP' => array(
+    ],
+    'issue-865-IP' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2;  zh-cn; Atom 2; Android/4.4.2; Release/07.17.2015)  AppleWebKit/534.30 (KHTML, like Gecko) Mobile Safari/534.30',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Android Browser 4.4',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -13194,13 +13194,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-IQ' => array(
+    ],
+    'issue-865-IQ' => [
         'ua' => 'Mozilla/5.0 (compatible; U; Pcore-HTTP-UA/v0.12.4',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Rippers',
             'Browser' => 'Pcore::HTTP::UA',
             'Browser_Type' => 'Bot/Crawler',
@@ -13247,13 +13247,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-IR' => array(
+    ],
+    'issue-865-IR' => [
         'ua' => 'WAP Browser Karbonn K52*/1.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'WAP Browser',
             'Browser' => 'WAP Browser',
             'Browser_Type' => 'Browser',
@@ -13300,13 +13300,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-IS' => array(
+    ],
+    'issue-865-IS' => [
         'ua' => 'WebFuck V2.1 T0PHackTeam www.t0p.xyz',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Vulnerability Scanners',
             'Browser' => 'WebFuck',
             'Browser_Type' => 'Bot/Crawler',
@@ -13353,13 +13353,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-IT' => array(
+    ],
+    'issue-865-IT' => [
         'ua' => 'Microsoft Office Word 2014',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Microsoft Word',
             'Browser' => 'Word',
             'Browser_Type' => 'Application',
@@ -13406,13 +13406,13 @@ return array(
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-IU' => array(
+    ],
+    'issue-865-IU' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0; like Gecko',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'IE 11.0',
             'Browser' => 'IE',
             'Browser_Type' => 'Browser',
@@ -13459,13 +13459,13 @@ return array(
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '7.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-    'issue-865-IV' => array(
+    ],
+    'issue-865-IV' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2;  zh-cn; 8_96_Android; Android/4.4.2; Release/07.30.2015)  AppleWebKit/534.30 (KHTML, like Gecko) Mobile Safari/534.30',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Android Browser 4.4',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -13512,13 +13512,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-IW' => array(
+    ],
+    'issue-865-IW' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Dragon/46.9.15.424 Chrome/46.0.2490.86 Safari/537.36',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Comodo Dragon 46.9',
             'Browser' => 'Dragon',
             'Browser_Type' => 'Browser',
@@ -13565,13 +13565,13 @@ return array(
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-IX' => array(
+    ],
+    'issue-865-IX' => [
         'ua' => 'Lemon B556',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'WAP Browser',
             'Browser' => 'WAP Browser',
             'Browser_Type' => 'Browser',
@@ -13618,13 +13618,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-IY' => array(
+    ],
+    'issue-865-IY' => [
         'ua' => 'Casterly',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'Casterly',
             'Browser_Type' => 'Bot/Crawler',
@@ -13671,13 +13671,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-IZ' => array(
+    ],
+    'issue-865-IZ' => [
         'ua' => 'Mozilla/4.76 [en] (X11; U; FreeBSD 4.4-STABLE i386)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Netscape 4.76',
             'Browser' => 'Netscape',
             'Browser_Type' => 'Browser',
@@ -13724,13 +13724,13 @@ return array(
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-JA' => array(
+    ],
+    'issue-865-JA' => [
         'ua' => 'TIANYU-KTOUCH/A930/Screen-240X320',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'WAP Browser',
             'Browser' => 'WAP Browser',
             'Browser_Type' => 'Browser',
@@ -13777,13 +13777,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-JB' => array(
+    ],
+    'issue-865-JB' => [
         'ua' => 'WebClient/1.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Rippers',
             'Browser' => 'WebClient',
             'Browser_Type' => 'Bot/Crawler',
@@ -13830,13 +13830,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-JC' => array(
+    ],
+    'issue-865-JC' => [
         'ua' => 'greasemonkey &#8211; google images relinker (v 2.0)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Rippers',
             'Browser' => 'google images relinker',
             'Browser_Type' => 'Bot/Crawler',
@@ -13883,13 +13883,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-JD' => array(
+    ],
+    'issue-865-JD' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2;  zh-cn; Aqua Star II HD; Android/4.4.2; Release/04.23.2015)  AppleWebKit/534.30 (KHTML, like Gecko) Mobile Safari/534.30',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Android Browser 4.4',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -13936,13 +13936,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-JE' => array(
+    ],
+    'issue-865-JE' => [
         'ua' => 'Mozilla/5.0 (compatible; http://alyze.info)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'SEO & Analytics',
             'Browser' => 'alyze Bot',
             'Browser_Type' => 'Bot/Crawler',
@@ -13989,13 +13989,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-JF' => array(
+    ],
+    'issue-865-JF' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Trident/6.0; Windows 98; Dealio Toolbar 3.1.03)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'IE 10.0',
             'Browser' => 'IE',
             'Browser_Type' => 'Browser',
@@ -14042,13 +14042,13 @@ return array(
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '6.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-    'issue-865-JG' => array(
+    ],
+    'issue-865-JG' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Trident/6.0; Windows NT 6.1; InfoPath.2)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'IE 10.0',
             'Browser' => 'IE',
             'Browser_Type' => 'Browser',
@@ -14095,13 +14095,13 @@ return array(
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '6.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-    'issue-865-JH' => array(
+    ],
+    'issue-865-JH' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Trident/6.0; Windows NT 5.0; FDM; Zango 2.6.91; Zango 5.3.98)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'IE 10.0',
             'Browser' => 'IE',
             'Browser_Type' => 'Browser',
@@ -14148,13 +14148,13 @@ return array(
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '6.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-JI' => array(
+    ],
+    'issue-865-JI' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Dragon/45.7.11.387 Chrome/45.0.2454.93 Safari/537.36',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Comodo Dragon 45.7',
             'Browser' => 'Dragon',
             'Browser_Type' => 'Browser',
@@ -14201,13 +14201,13 @@ return array(
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-JJ' => array(
+    ],
+    'issue-865-JJ' => [
         'ua' => 'Apache OpenOffice/4.1.2',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'OpenOffice',
             'Browser' => 'OpenOffice',
             'Browser_Type' => 'Application',
@@ -14254,13 +14254,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-JK' => array(
+    ],
+    'issue-865-JK' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2;  zh-cn; Aqua Star II; Android/4.4.2; Release/05.04.2015)  AppleWebKit/534.30 (KHTML, like Gecko) Mobile Safari/534.30',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Android Browser 4.4',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -14307,13 +14307,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-JL' => array(
+    ],
+    'issue-865-JL' => [
         'ua' => 'inboundli link checker',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Link Checkers',
             'Browser' => 'inbound.li link checker',
             'Browser_Type' => 'Bot/Crawler',
@@ -14360,13 +14360,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-JM' => array(
+    ],
+    'issue-865-JM' => [
         'ua' => 'inbound.li parser',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Social Bookmarkers',
             'Browser' => 'inbound.li parser',
             'Browser_Type' => 'Bot/Crawler',
@@ -14413,13 +14413,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-JN' => array(
+    ],
+    'issue-865-JN' => [
         'ua' => 'SoftMaker Fetch/1.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Rippers',
             'Browser' => 'SoftMaker Fetch',
             'Browser_Type' => 'Bot/Crawler',
@@ -14466,13 +14466,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-JO' => array(
+    ],
+    'issue-865-JO' => [
         'ua' => 'Mozilla/5.0 (Maemo; Linux; U; Jolla; Sailfish; like Android) AppleWebKit/538.1 (KHTML, like Gecko) Mobile Safari/538.1 (compatible)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Sailfish Browser 1.0',
             'Browser' => 'Sailfish Browser',
             'Browser_Type' => 'Browser',
@@ -14519,13 +14519,13 @@ return array(
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-JP' => array(
+    ],
+    'issue-865-JP' => [
         'ua' => 'newspaper/0.0.9.8',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Rippers',
             'Browser' => 'newspaper',
             'Browser_Type' => 'Bot/Crawler',
@@ -14572,13 +14572,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-JQ' => array(
+    ],
+    'issue-865-JQ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; SAMSUNG SM-T815 Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.5 Chrome/38.0.2125.102 Safari/537.36',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Samsung Browser 3.5',
             'Browser' => 'Samsung Browser',
             'Browser_Type' => 'Browser',
@@ -14625,13 +14625,13 @@ return array(
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-JR' => array(
+    ],
+    'issue-865-JR' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Dragon/45.8.12.389 Chrome/45.0.2454.93 Safari/537.36',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Comodo Dragon 45.8',
             'Browser' => 'Dragon',
             'Browser_Type' => 'Browser',
@@ -14678,13 +14678,13 @@ return array(
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-JS' => array(
+    ],
+    'issue-865-JS' => [
         'ua' => 'EasyBib AutoCite (http://autocite-info.citation-api.com/)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Rippers',
             'Browser' => 'EasyBib AutoCite',
             'Browser_Type' => 'Bot/Crawler',
@@ -14731,13 +14731,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-JT' => array(
+    ],
+    'issue-865-JT' => [
         'ua' => 'SAMSUNG-SPH-L720/101.40402',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'WAP Browser',
             'Browser' => 'WAP Browser',
             'Browser_Type' => 'Browser',
@@ -14784,13 +14784,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => false,
-    ),
-    'issue-865-JU' => array(
+    ],
+    'issue-865-JU' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en-us) AppleWebKit/xxx.x (KHTML like Gecko) Safari/12x.x',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Safari Generic',
             'Browser' => 'Safari',
             'Browser_Type' => 'Browser',
@@ -14837,13 +14837,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-JV' => array(
+    ],
+    'issue-865-JV' => [
         'ua' => 'WordPress.com; https://longboardrules.wordpress.com',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'WordPress',
             'Browser' => 'WordPress',
             'Browser_Type' => 'Bot/Crawler',
@@ -14890,13 +14890,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-JW' => array(
+    ],
+    'issue-865-JW' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/536.5 (KHTML, like Gecko) Evernote Windows/277494; Windows/10.0.10240 (Win64); Safari/536.5',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Evernote App',
             'Browser' => 'Evernote App',
             'Browser_Type' => 'Application',
@@ -14943,13 +14943,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-JX' => array(
+    ],
+    'issue-865-JX' => [
         'ua' => 'Guzzle/4.2.3 curl/7.35.0 PHP/5.5.9-1ubuntu4.11',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'PHP',
             'Browser' => 'Guzzle Http Client',
             'Browser_Type' => 'Bot/Crawler',
@@ -14996,13 +14996,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-JY' => array(
+    ],
+    'issue-865-JY' => [
         'ua' => 'UserAgent/1.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'UserAgent Bot',
             'Browser_Type' => 'Bot/Crawler',
@@ -15049,13 +15049,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-JZ' => array(
+    ],
+    'issue-865-JZ' => [
         'ua' => '\'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36\'',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -15102,13 +15102,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-    'issue-865-KA' => array(
+    ],
+    'issue-865-KA' => [
         'ua' => 'Mozilla/5.0 ( compatible ; Veooz/1.0 ; +http://www.veooz.com/veoozbot.html )',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Social Bookmarkers',
             'Browser' => 'Veooz Bot',
             'Browser_Type' => 'Bot/Crawler',
@@ -15155,13 +15155,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-KB' => array(
+    ],
+    'issue-865-KB' => [
         'ua' => 'wonderbot/JS 1.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'wonderbot',
             'Browser_Type' => 'Bot/Crawler',
@@ -15208,13 +15208,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-KC' => array(
+    ],
+    'issue-865-KC' => [
         'ua' => 'WeSEE_Bot:we_help_monitize_your_site (http://www.wesee.com/bot/)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'SEO & Analytics',
             'Browser' => 'WeSEE Bot',
             'Browser_Type' => 'Bot/Crawler',
@@ -15261,13 +15261,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-865-KD' => array(
+    ],
+    'issue-865-KD' => [
         'ua' => 'Mozilla/5.0 CommonCrawler Node MNATI3RZFBD6ZTQNRVQGXBDCQOEXIA4CIDEUKNYZDF3MJSH5G7BCQ5EMADE5TLF.MHCZ3LLTWGHIHMYLM.YFBJBHE6R2YQTHOTJ3N5BGFP457JRX4AJRXGAJYGDAANRY24.cdn0.common.crawl.zone',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Data Mining',
             'Browser' => 'CommonCrawler Node',
             'Browser_Type' => 'Bot/Crawler',
@@ -15314,8 +15314,8 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-);
+    ],
+];

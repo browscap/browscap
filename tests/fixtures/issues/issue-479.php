@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-479' => array(
+return [
+    'issue-479' => [
         'ua' => 'facebookscraper/1.0( http://www.facebook.com/sharescraper_help.php)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Facebook',
             'Browser' => 'Facebookscraper',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,8 +50,8 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-);
+    ],
+];

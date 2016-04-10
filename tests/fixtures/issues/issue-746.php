@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-746-A' => array(
+return [
+    'issue-746-A' => [
         'ua' => 'Mozilla/5.0 (compatible; Lipperhey-Kaus-Australis/5.0; +https://www.lipperhey.com/en/about/)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Lipperhey SEO Service',
             'Browser' => 'Lipperhey Kaus Australis',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,13 +50,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-746-B' => array(
+    ],
+    'issue-746-B' => [
         'ua' => 'Mozilla/5.0 (compatible; Digincore bot; https://www.digincore.com/crawler.html for rules and instructions.',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'Digincore Bot',
             'Browser_Type' => 'Bot/Crawler',
@@ -103,8 +103,8 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-);
+    ],
+];

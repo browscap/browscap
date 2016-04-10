@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-648-A' => array(
+return [
+    'issue-648-A' => [
         'ua' => 'AppleCoreMedia/1.0.0.12F69 (Apple TV; U; CPU OS 8_3 like Mac OS X; en_us)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'AppleCoreMedia 1.0',
             'Browser' => 'AppleCoreMedia',
             'Browser_Type' => 'Application',
@@ -50,13 +50,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-648-B' => array(
+    ],
+    'issue-648-B' => [
         'ua' => 'Mail/53 CFNetwork/711.2.23 Darwin/14.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Apple Mail for Darwin',
             'Browser' => 'Apple Mail',
             'Browser_Type' => 'Email Client',
@@ -103,13 +103,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-648-C' => array(
+    ],
+    'issue-648-C' => [
         'ua' => 'Safari/10600.3.18 CFNetwork/720.2.4 Darwin/14.1.0 (x86_64)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Safari 8.0',
             'Browser' => 'Safari',
             'Browser_Type' => 'Browser',
@@ -156,8 +156,8 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-);
+    ],
+];

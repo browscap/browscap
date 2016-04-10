@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-687-A' => array(
+return [
+    'issue-687-A' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.1; en-us; Nexus 5 Build/JOP40D) AppleWebKit/535.19 (KHTML, like Gecko; googleweblight) Chrome/38.0.1025.166 Mobile Safari/535.19',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Chrome 38.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -50,13 +50,13 @@ return array(
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-687-B' => array(
+    ],
+    'issue-687-B' => [
         'ua' => 'Opera/9.80 (Android; Opera Mini/10.0.1884/36.2534; U; en) Presto/2.12.423 Version/12.16',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Opera Mini 10.0',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
@@ -103,13 +103,13 @@ return array(
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.8',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-687-C' => array(
+    ],
+    'issue-687-C' => [
         'ua' => 'Opera/9.80 (Android; Opera Mini/10.0.1884/36.2534; U; id) Presto/2.12.423 Version/12.16',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Opera Mini 10.0',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
@@ -156,13 +156,13 @@ return array(
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.8',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-687-D' => array(
+    ],
+    'issue-687-D' => [
         'ua' => 'Opera/9.80 (Windows Phone; Opera Mini/8.0.4/36.2534; U; en) Presto/2.12.423 Version/12.16',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Opera Mini 8.0',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
@@ -209,13 +209,13 @@ return array(
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.8',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-687-E' => array(
+    ],
+    'issue-687-E' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) coc_coc_browser/49.0 Chrome/43.0.2357.126_coc_coc Safari/537.36',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Coc Coc Browser 49.0',
             'Browser' => 'Coc Coc Browser',
             'Browser_Type' => 'Browser',
@@ -262,13 +262,13 @@ return array(
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-687-G' => array(
+    ],
+    'issue-687-G' => [
         'ua' => 'Opera/9.80 (Tizen; Opera Mini/7.6.9/36.2534; U; en) Presto/2.12.423 Version/12.16',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Opera Mini 7.6',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
@@ -315,13 +315,13 @@ return array(
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-687-H' => array(
+    ],
+    'issue-687-H' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) coc_coc_browser/49.0 Chrome/43.0.2357.126_coc_coc Safari/537.36',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Coc Coc Browser 49.0',
             'Browser' => 'Coc Coc Browser',
             'Browser_Type' => 'Browser',
@@ -368,13 +368,13 @@ return array(
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-687-J' => array(
+    ],
+    'issue-687-J' => [
         'ua' => 'Mozilla/5.0 (X11; OpenBSD i386) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Chrome 36.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -421,13 +421,13 @@ return array(
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-687-K' => array(
+    ],
+    'issue-687-K' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) coc_coc_browser/49.0 Chrome/43.0.2357.126_coc_coc Safari/537.36',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Coc Coc Browser 49.0',
             'Browser' => 'Coc Coc Browser',
             'Browser_Type' => 'Browser',
@@ -474,13 +474,13 @@ return array(
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-687-L' => array(
+    ],
+    'issue-687-L' => [
         'ua' => 'UCWEB/2.0(BlackBerry; U; 4.2.0.201; en-us; 8530/4.2.0.201) U2/1.0.0 UCBrowser/8.1.0.216 U2/1.0.0 Mobile',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'UC Browser 8.1',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
@@ -527,13 +527,13 @@ return array(
             'RenderingEngine_Name' => 'U2',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'UCWeb Inc.',
-        ),
+        ],
         'lite' => false,
         'standard' => false,
-    ),
-    'issue-687-M' => array(
+    ],
+    'issue-687-M' => [
         'ua' => 'Nokia305/2.0 (07.42) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; id; Nokia305) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'UC Browser 9.5',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
@@ -580,13 +580,13 @@ return array(
             'RenderingEngine_Name' => 'U2',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'UCWeb Inc.',
-        ),
+        ],
         'lite' => false,
         'standard' => false,
-    ),
-    'issue-687-N' => array(
+    ],
+    'issue-687-N' => [
         'ua' => 'Opera/9.80 (Android; Opera Mini/28.0.1764/36.2534; U; en) Presto/2.12.423 Version/12.16 - 29',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Opera Mini 28.0',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
@@ -633,13 +633,13 @@ return array(
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.8',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-687-O' => array(
+    ],
+    'issue-687-O' => [
         'ua' => 'Nokia305/2.0 (05.92) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; Nokia305) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'UC Browser 9.5',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
@@ -686,13 +686,13 @@ return array(
             'RenderingEngine_Name' => 'U2',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'UCWeb Inc.',
-        ),
+        ],
         'lite' => false,
         'standard' => false,
-    ),
-    'issue-687-P' => array(
+    ],
+    'issue-687-P' => [
         'ua' => 'UCWEB/2.0(BlackBerry; U; 9.49.0.31; en-us; 9320/9.49.0.31) U2/1.0.0 UCBrowser/8.1.0.216 U2/1.0.0 Mobile - 23',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'UC Browser 8.1',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
@@ -739,13 +739,13 @@ return array(
             'RenderingEngine_Name' => 'U2',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'UCWeb Inc.',
-        ),
+        ],
         'lite' => false,
         'standard' => false,
-    ),
-    'issue-687-Q' => array(
+    ],
+    'issue-687-Q' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; SAMSUNG SM-J100H Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.0 Chrome/34.0.1847.76 Mobile Safari/537.36',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Samsung Browser 2.0',
             'Browser' => 'Samsung Browser',
             'Browser_Type' => 'Browser',
@@ -792,13 +792,13 @@ return array(
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-687-R' => array(
+    ],
+    'issue-687-R' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) coc_coc_browser/49.0 Chrome/43.0.2357.126_coc_coc Safari/537.36',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Coc Coc Browser 49.0',
             'Browser' => 'Coc Coc Browser',
             'Browser_Type' => 'Browser',
@@ -845,13 +845,13 @@ return array(
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-687-S' => array(
+    ],
+    'issue-687-S' => [
         'ua' => 'Mozilla/5.0 (BlackBerry; U; BlackBerry 9220; id) AppleWebKit/534.11+ (KHTML, like Gecko) Version/7.1.0.337 Mobile Safari/534.11+',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'BlackBerry 7.1',
             'Browser' => 'BlackBerry',
             'Browser_Type' => 'Browser',
@@ -898,13 +898,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-687-T' => array(
+    ],
+    'issue-687-T' => [
         'ua' => 'Agent:Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -951,13 +951,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-    'issue-687-U' => array(
+    ],
+    'issue-687-U' => [
         'ua' => 'Mozilla/5.0 (BlackBerry; U; BlackBerry 9220; id) AppleWebKit/534.11+ (KHTML, like Gecko) Version/7.1.0.746 Mobile Safari/534.11+',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'BlackBerry 7.1',
             'Browser' => 'BlackBerry',
             'Browser_Type' => 'Browser',
@@ -1004,13 +1004,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-687-V' => array(
+    ],
+    'issue-687-V' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 5.0; en-US; Micromax_A106) U2/1.0.0 UCBrowser/9.7.0.520 U2/1.0.0 Mobile',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'UC Browser 9.7',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
@@ -1057,13 +1057,13 @@ return array(
             'RenderingEngine_Name' => 'U2',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'UCWeb Inc.',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-687-W' => array(
+    ],
+    'issue-687-W' => [
         'ua' => 'Nokia210/2.0 (06.09) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; Nokia210) U2/1.0.0 UCBrowser/9.4.1.377 U2/1.0.0 Mobile',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'UC Browser 9.4',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
@@ -1110,13 +1110,13 @@ return array(
             'RenderingEngine_Name' => 'U2',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'UCWeb Inc.',
-        ),
+        ],
         'lite' => false,
         'standard' => false,
-    ),
-    'issue-687-X' => array(
+    ],
+    'issue-687-X' => [
         'ua' => 'NokiaX2-02/2.0 (12.04) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; NokiaX2-02) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile UNTRUSTED/1.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'UC Browser 9.5',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
@@ -1163,13 +1163,13 @@ return array(
             'RenderingEngine_Name' => 'U2',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'UCWeb Inc.',
-        ),
+        ],
         'lite' => false,
         'standard' => false,
-    ),
-    'issue-687-Y' => array(
+    ],
+    'issue-687-Y' => [
         'ua' => 'Nokia308/2.0 (08.13) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; Nokia308) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'UC Browser 9.5',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
@@ -1216,13 +1216,13 @@ return array(
             'RenderingEngine_Name' => 'U2',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'UCWeb Inc.',
-        ),
+        ],
         'lite' => false,
         'standard' => false,
-    ),
-    'issue-687-Z' => array(
+    ],
+    'issue-687-Z' => [
         'ua' => 'Nokia305/2.0 (07.42) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; Nokia305) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'UC Browser 9.5',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
@@ -1269,13 +1269,13 @@ return array(
             'RenderingEngine_Name' => 'U2',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'UCWeb Inc.',
-        ),
+        ],
         'lite' => false,
         'standard' => false,
-    ),
-    'issue-687-AA' => array(
+    ],
+    'issue-687-AA' => [
         'ua' => 'Opera/9.80 (Android; Opera Mini/19.0.1340/36.2534; U; in) Presto/2.12.423 Version/12.16 - 16',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Opera Mini 19.0',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
@@ -1322,13 +1322,13 @@ return array(
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.8',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-687-AB' => array(
+    ],
+    'issue-687-AB' => [
         'ua' => 'NokiaX2-01/5.0 (08.63) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; id; NokiaX2-01) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'UC Browser 9.5',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
@@ -1375,13 +1375,13 @@ return array(
             'RenderingEngine_Name' => 'U2',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'UCWeb Inc.',
-        ),
+        ],
         'lite' => false,
         'standard' => false,
-    ),
-    'issue-687-AC' => array(
+    ],
+    'issue-687-AC' => [
         'ua' => 'NokiaX2-02/2.0 (12.04) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; NokiaX2-02) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'UC Browser 9.5',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
@@ -1428,13 +1428,13 @@ return array(
             'RenderingEngine_Name' => 'U2',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'UCWeb Inc.',
-        ),
+        ],
         'lite' => false,
         'standard' => false,
-    ),
-    'issue-687-AD' => array(
+    ],
+    'issue-687-AD' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.3; en-us; KFASWI Build/KTU84M) AppleWebKit/537.36 (KHTML, like Gecko) Silk/3.67 like Chrome/39.0.2171.93 Safari/537.36',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Silk 3.67',
             'Browser' => 'Silk',
             'Browser_Type' => 'Browser',
@@ -1481,13 +1481,13 @@ return array(
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-687-AE' => array(
+    ],
+    'issue-687-AE' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 5.0; en-US; Micromax_A106) U2/1.0.0 UCBrowser/10.1.5.583 U2/1.0.0 Mobile',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'UC Browser 10.1',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
@@ -1534,13 +1534,13 @@ return array(
             'RenderingEngine_Name' => 'U2',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'UCWeb Inc.',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-687-AF' => array(
+    ],
+    'issue-687-AF' => [
         'ua' => 'NokiaX2-01/5.0 (08.71) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; NokiaX2-01) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'UC Browser 9.5',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
@@ -1587,13 +1587,13 @@ return array(
             'RenderingEngine_Name' => 'U2',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'UCWeb Inc.',
-        ),
+        ],
         'lite' => false,
         'standard' => false,
-    ),
-    'issue-687-AG' => array(
+    ],
+    'issue-687-AG' => [
         'ua' => 'Opera/9.80 (Windows Phone; Opera Mini/8.0.2/36.2534; U; en) Presto/2.12.423 Version/12.16',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Opera Mini 8.0',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
@@ -1640,13 +1640,13 @@ return array(
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.8',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-687-AH' => array(
+    ],
+    'issue-687-AH' => [
         'ua' => 'Nokia200/2.0 (11.95) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; Nokia200) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'UC Browser 9.5',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
@@ -1693,13 +1693,13 @@ return array(
             'RenderingEngine_Name' => 'U2',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'UCWeb Inc.',
-        ),
+        ],
         'lite' => false,
         'standard' => false,
-    ),
-    'issue-687-AI' => array(
+    ],
+    'issue-687-AI' => [
         'ua' => 'Nokia311/5.0 (07.36) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; Nokia311) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'UC Browser 9.5',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
@@ -1746,13 +1746,13 @@ return array(
             'RenderingEngine_Name' => 'U2',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'UCWeb Inc.',
-        ),
+        ],
         'lite' => false,
         'standard' => false,
-    ),
-    'issue-687-AJ' => array(
+    ],
+    'issue-687-AJ' => [
         'ua' => 'Nokia200/2.0 (11.64) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; Nokia200) U2/1.0.0 UCBrowser/9.4.1.377 U2/1.0.0 Mobile UNTRUSTED/1.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'UC Browser 9.4',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
@@ -1799,13 +1799,13 @@ return array(
             'RenderingEngine_Name' => 'U2',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'UCWeb Inc.',
-        ),
+        ],
         'lite' => false,
         'standard' => false,
-    ),
-    'issue-687-AK' => array(
+    ],
+    'issue-687-AK' => [
         'ua' => 'NokiaX2-01/5.0 (08.65) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; NokiaX2-01) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'UC Browser 9.5',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
@@ -1852,13 +1852,13 @@ return array(
             'RenderingEngine_Name' => 'U2',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'UCWeb Inc.',
-        ),
+        ],
         'lite' => false,
         'standard' => false,
-    ),
-    'issue-687-AL' => array(
+    ],
+    'issue-687-AL' => [
         'ua' => 'Nokia308/2.0 (05.80) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; Nokia308) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'UC Browser 9.5',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
@@ -1905,13 +1905,13 @@ return array(
             'RenderingEngine_Name' => 'U2',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'UCWeb Inc.',
-        ),
+        ],
         'lite' => false,
         'standard' => false,
-    ),
-    'issue-687-AM' => array(
+    ],
+    'issue-687-AM' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) SkypeUriPreview Preview/0.5',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'SkypeUriPreview 0.5',
             'Browser' => 'SkypeUriPreview',
             'Browser_Type' => 'Bot/Crawler',
@@ -1958,13 +1958,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-687-AN' => array(
+    ],
+    'issue-687-AN' => [
         'ua' => 'UCWEB/2.0(BlackBerry; U; 5.2.0.104; en-us; 8520/5.2.0.104) U2/1.0.0 UCBrowser/8.1.0.216 U2/1.0.0 Mobile',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'UC Browser 8.1',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
@@ -2011,13 +2011,13 @@ return array(
             'RenderingEngine_Name' => 'U2',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'UCWeb Inc.',
-        ),
+        ],
         'lite' => false,
         'standard' => false,
-    ),
-    'issue-687-AO' => array(
+    ],
+    'issue-687-AO' => [
         'ua' => 'Nokia210/2.0 (04.12) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; Nokia210) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'UC Browser 9.5',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
@@ -2064,13 +2064,13 @@ return array(
             'RenderingEngine_Name' => 'U2',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'UCWeb Inc.',
-        ),
+        ],
         'lite' => false,
         'standard' => false,
-    ),
-    'issue-687-AP' => array(
+    ],
+    'issue-687-AP' => [
         'ua' => 'NokiaX2-02/2.0 (11.57) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; NokiaX2-02) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'UC Browser 9.5',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
@@ -2117,13 +2117,13 @@ return array(
             'RenderingEngine_Name' => 'U2',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'UCWeb Inc.',
-        ),
+        ],
         'lite' => false,
         'standard' => false,
-    ),
-    'issue-687-AQ' => array(
+    ],
+    'issue-687-AQ' => [
         'ua' => 'Nokia200/2.0 (12.04) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; Nokia200) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'UC Browser 9.5',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
@@ -2170,13 +2170,13 @@ return array(
             'RenderingEngine_Name' => 'U2',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'UCWeb Inc.',
-        ),
+        ],
         'lite' => false,
         'standard' => false,
-    ),
-    'issue-687-AR' => array(
+    ],
+    'issue-687-AR' => [
         'ua' => 'Nokia206/2.0 (04.52) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; Nokia206) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'UC Browser 9.5',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
@@ -2223,13 +2223,13 @@ return array(
             'RenderingEngine_Name' => 'U2',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'UCWeb Inc.',
-        ),
+        ],
         'lite' => false,
         'standard' => false,
-    ),
-    'issue-687-AS' => array(
+    ],
+    'issue-687-AS' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.114 Safari/537.36 Puffin/4.4.0IT',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Puffin 4.4',
             'Browser' => 'Puffin',
             'Browser_Type' => 'Browser',
@@ -2276,13 +2276,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-687-AT' => array(
+    ],
+    'issue-687-AT' => [
         'ua' => 'UCWEB/2.0(BlackBerry; U; 6.6.0.236; en-us; 9700/6.6.0.236) U2/1.0.0 UCBrowser/8.1.0.216 U2/1.0.0 Mobile',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'UC Browser 8.1',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
@@ -2329,13 +2329,13 @@ return array(
             'RenderingEngine_Name' => 'U2',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'UCWeb Inc.',
-        ),
+        ],
         'lite' => false,
         'standard' => false,
-    ),
-    'issue-687-AU' => array(
+    ],
+    'issue-687-AU' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) coc_coc_browser/49.0 Chrome/43.0.2357.126_coc_coc Safari/537.36',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Coc Coc Browser 49.0',
             'Browser' => 'Coc Coc Browser',
             'Browser_Type' => 'Browser',
@@ -2382,13 +2382,13 @@ return array(
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-687-AV' => array(
+    ],
+    'issue-687-AV' => [
         'ua' => 'Opera/9.80 (BlackBerry; Opera Mini/4.5.33868/36.2534; U; en) Presto/2.12.423 Version/12.16',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Opera Mini 4.5',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
@@ -2435,13 +2435,13 @@ return array(
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.2',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ),
+        ],
         'lite' => false,
         'standard' => false,
-    ),
-    'issue-687-AW' => array(
+    ],
+    'issue-687-AW' => [
         'ua' => 'NokiaC2-03/2.0 (07.63) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; NokiaC2-03) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'UC Browser 9.5',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
@@ -2488,13 +2488,13 @@ return array(
             'RenderingEngine_Name' => 'U2',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'UCWeb Inc.',
-        ),
+        ],
         'lite' => false,
         'standard' => false,
-    ),
-    'issue-687-AX' => array(
+    ],
+    'issue-687-AX' => [
         'ua' => 'Nokia110/2.0 (03.47) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; Nokia110) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'UC Browser 9.5',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
@@ -2541,13 +2541,13 @@ return array(
             'RenderingEngine_Name' => 'U2',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'UCWeb Inc.',
-        ),
+        ],
         'lite' => false,
         'standard' => false,
-    ),
-    'issue-687-AY' => array(
+    ],
+    'issue-687-AY' => [
         'ua' => 'NokiaX2-01/5.0 (08.71) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; NokiaX2-01) U2/1.0.0 UCBrowser/9.4.1.377 U2/1.0.0 Mobile',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'UC Browser 9.4',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
@@ -2594,13 +2594,13 @@ return array(
             'RenderingEngine_Name' => 'U2',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'UCWeb Inc.',
-        ),
+        ],
         'lite' => false,
         'standard' => false,
-    ),
-    'issue-687-AZ' => array(
+    ],
+    'issue-687-AZ' => [
         'ua' => 'Nokia311/5.0 (03.81) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; Nokia311) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'UC Browser 9.5',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
@@ -2647,13 +2647,13 @@ return array(
             'RenderingEngine_Name' => 'U2',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'UCWeb Inc.',
-        ),
+        ],
         'lite' => false,
         'standard' => false,
-    ),
-    'issue-687-BA' => array(
+    ],
+    'issue-687-BA' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.114 Safari/537.36 Puffin/4.4.0IP ',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Puffin 4.4',
             'Browser' => 'Puffin',
             'Browser_Type' => 'Browser',
@@ -2700,13 +2700,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-687-BB' => array(
+    ],
+    'issue-687-BB' => [
         'ua' => 'NokiaX3-02/5.0 (07.51) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; NokiaX3-02) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'UC Browser 9.5',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
@@ -2753,13 +2753,13 @@ return array(
             'RenderingEngine_Name' => 'U2',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'UCWeb Inc.',
-        ),
+        ],
         'lite' => false,
         'standard' => false,
-    ),
-    'issue-687-BC' => array(
+    ],
+    'issue-687-BC' => [
         'ua' => 'Nokia205/2.0 (03.19) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; Nokia205) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'UC Browser 9.5',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
@@ -2806,8 +2806,8 @@ return array(
             'RenderingEngine_Name' => 'U2',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'UCWeb Inc.',
-        ),
+        ],
         'lite' => false,
         'standard' => false,
-    ),
-);
+    ],
+];

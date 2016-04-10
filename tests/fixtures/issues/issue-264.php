@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-264' => array(
+return [
+    'issue-264' => [
         'ua' => 'DiscoverEd/Nutch-1.7 (OER search crawler; http://wiki.creativecommons.org/DiscoverEd; webmaster@creativecommons.org)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Nutch',
             'Browser' => 'DiscoverEd',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,8 +50,8 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-);
+    ],
+];

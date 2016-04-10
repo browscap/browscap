@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-052' => array(
+return [
+    'issue-052' => [
         'ua' => 'Mozilla/5.0 (Windows NT; Win64; x64; rv:26.0) Gecko/20100101 Firefox/26.0 Waterfox/26.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Waterfox 26.0',
             'Browser' => 'Waterfox',
             'Browser_Type' => 'Browser',
@@ -50,8 +50,8 @@ return array(
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '26.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ),
+        ],
         'lite' => false,
         'standard' => false,
-    ),
-);
+    ],
+];

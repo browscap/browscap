@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-459' => array(
+return [
+    'issue-459' => [
         'ua' => 'Facebot/1.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Facebook',
             'Browser' => 'Facebot',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,8 +50,8 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-);
+    ],
+];

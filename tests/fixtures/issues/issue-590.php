@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-590-A' => array(
+return [
+    'issue-590-A' => [
         'ua' => 'Mozilla/5.0 (compatible; HyperCrawl/0.2; +http://www.seograph.net/bot.html)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'SEO & Analytics',
             'Browser' => 'HyperCrawl',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,13 +50,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-590-B' => array(
+    ],
+    'issue-590-B' => [
         'ua' => 'iZSearch.com',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Search Engines',
             'Browser' => 'iZSearch Bot',
             'Browser_Type' => 'Bot/Crawler',
@@ -103,13 +103,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-590-C' => array(
+    ],
+    'issue-590-C' => [
         'ua' => 'Mozilla/2.0 (compatible; ARCHIVE.ORG.UA crawler)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Internet Archive',
             'Browser' => 'Internet Archive',
             'Browser_Type' => 'Bot/Crawler',
@@ -156,8 +156,8 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-);
+    ],
+];

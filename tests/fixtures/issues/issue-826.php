@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-826-A' => array(
+return [
+    'issue-826-A' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/600.2.5 (KHTML, like Gecko) Version/8.0.2 Safari/600.2.5 (Applebot/0.1; +http://www.apple.com/go/applebot)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Applebot 0.1',
             'Browser' => 'Applebot',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,13 +50,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-826-B' => array(
+    ],
+    'issue-826-B' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/600.2.5 (KHTML, like Gecko) Version/8.0.2 Safari/600.2.5 (Applebot/0.1)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Applebot 0.1',
             'Browser' => 'Applebot',
             'Browser_Type' => 'Bot/Crawler',
@@ -103,8 +103,8 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-);
+    ],
+];

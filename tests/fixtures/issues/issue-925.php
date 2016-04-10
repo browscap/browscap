@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-925' => array(
+return [
+    'issue-925' => [
         'ua' => 'Comodo SSL Checker',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Comodo SSL Checker',
             'Browser' => 'Comodo SSL Checker',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,8 +50,8 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-);
+    ],
+];

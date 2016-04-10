@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-578-A' => array(
+return [
+    'issue-578-A' => [
         'ua' => 'check_http/v1.4.16 (nagios-plugins 1.4.16)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Nagios',
             'Browser' => 'Nagios',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,13 +50,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-578-B' => array(
+    ],
+    'issue-578-B' => [
         'ua' => 'check_http/v2.0 (nagios-plugins 2.0)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Nagios',
             'Browser' => 'Nagios',
             'Browser_Type' => 'Bot/Crawler',
@@ -103,8 +103,8 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-);
+    ],
+];

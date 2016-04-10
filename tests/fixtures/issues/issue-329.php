@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-329-A' => array(
+return [
+    'issue-329-A' => [
         'ua' => 'AppStore/2.0 iOS/7.1.1 model/iPhone5,1 build/11D201 (6; dt:79)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Apple AppStore App 2.0',
             'Browser' => 'Apple AppStore App',
             'Browser_Type' => 'Application',
@@ -50,13 +50,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-329-B' => array(
+    ],
+    'issue-329-B' => [
         'ua' => 'AppStore/2.0 iOS/7.0.4 model/iPhone6,1 (6; dt:89)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Apple AppStore App 2.0',
             'Browser' => 'Apple AppStore App',
             'Browser_Type' => 'Application',
@@ -103,13 +103,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-329-C' => array(
+    ],
+    'issue-329-C' => [
         'ua' => 'AppStore/2.0 iOS/7.1.1 model/iPhone3,2 build/11D201 (4; dt:27)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Apple AppStore App 2.0',
             'Browser' => 'Apple AppStore App',
             'Browser_Type' => 'Application',
@@ -156,13 +156,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-329-D' => array(
+    ],
+    'issue-329-D' => [
         'ua' => 'AppStore/2.0 iOS/7.1.1 model/iPhone6,1 build/11D201 (6; dt:89)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Apple AppStore App 2.0',
             'Browser' => 'Apple AppStore App',
             'Browser_Type' => 'Application',
@@ -209,13 +209,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-329-E' => array(
+    ],
+    'issue-329-E' => [
         'ua' => 'AppStore/2.0 iOS/7.1.1 model/iPhone4,1 build/11D201 (6; dt:73)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Apple AppStore App 2.0',
             'Browser' => 'Apple AppStore App',
             'Browser_Type' => 'Application',
@@ -262,13 +262,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-329-F' => array(
+    ],
+    'issue-329-F' => [
         'ua' => 'AppStore/2.0 iOS/7.0.6 model/iPhone6,1 (6; dt:89)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Apple AppStore App 2.0',
             'Browser' => 'Apple AppStore App',
             'Browser_Type' => 'Application',
@@ -315,8 +315,8 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-);
+    ],
+];

@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-807' => array(
+return [
+    'issue-807' => [
         'ua' => 'Mozilla/5.0 (compatible; Orangebot/2.0; support.orangebot@orange.com)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Orangebot',
             'Browser' => 'Orangebot',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,8 +50,8 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-);
+    ],
+];

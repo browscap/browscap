@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-166' => array(
+return [
+    'issue-166' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_4 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) GSA/3.2.1.25875 Mobile/11B554a Safari/8536.25',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Google App 3.2',
             'Browser' => 'Google App',
             'Browser_Type' => 'Application',
@@ -50,8 +50,8 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-);
+    ],
+];

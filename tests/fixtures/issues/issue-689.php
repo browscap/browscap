@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-689-A' => array(
+return [
+    'issue-689-A' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Thunderbird/38.0.1 Lightning/4.0.0.1',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Thunderbird 38.0',
             'Browser' => 'Thunderbird',
             'Browser_Type' => 'Email Client',
@@ -50,13 +50,13 @@ return array(
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '38.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-689-B' => array(
+    ],
+    'issue-689-B' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:38.0) Gecko/20100101 Thunderbird/38.0.1 Lightning/4.0.0.1',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Thunderbird 38.0',
             'Browser' => 'Thunderbird',
             'Browser_Type' => 'Email Client',
@@ -103,8 +103,8 @@ return array(
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '38.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-);
+    ],
+];

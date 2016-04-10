@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-141' => array(
+return [
+    'issue-141' => [
         'ua' => 'Mozilla/5.0 TYPO3-linkvalidator',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Link Checkers',
             'Browser' => 'TYPO3 Linkvalidator',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,8 +50,8 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-);
+    ],
+];

@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-877' => array(
+return [
+    'issue-877' => [
         'ua' => 'Roku/DVP-6.2 (096.02E06005A)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Roku DVP',
             'Browser' => 'Roku DVP',
             'Browser_Type' => 'Multimedia Player',
@@ -50,8 +50,8 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-);
+    ],
+];

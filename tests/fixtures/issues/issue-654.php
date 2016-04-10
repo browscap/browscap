@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-654' => array(
+return [
+    'issue-654' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows CE)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'IE 6.0',
             'Browser' => 'IE',
             'Browser_Type' => 'Browser',
@@ -50,8 +50,8 @@ return array(
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ),
+        ],
         'lite' => false,
         'standard' => false,
-    ),
-);
+    ],
+];

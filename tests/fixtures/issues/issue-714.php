@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-714' => array(
+return [
+    'issue-714' => [
         'ua' => 'Mozilla/5.0 (Macintosh; ARM Mac OS X) AppleWebKit/538.15 (KHTML, like Gecko) Safari/538.15 Version/6.0 Debian/7.8 (3.8.2.0-0rpi21rpi1) Epiphany/3.8.2',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Epiphany 3.8',
             'Browser' => 'Epiphany',
             'Browser_Type' => 'Browser',
@@ -50,8 +50,8 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => false,
-    ),
-);
+    ],
+];

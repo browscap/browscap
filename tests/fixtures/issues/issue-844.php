@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-844' => array(
+return [
+    'issue-844' => [
         'ua' => 'Mozilla/5.0 (compatible; yoozBot-2.2; http://yooz.ir; info@yooz.ir)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'yoozBot',
             'Browser' => 'yoozBot',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,8 +50,8 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-);
+    ],
+];

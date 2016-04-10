@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-029' => array(
+return [
+    'issue-029' => [
         'ua' => 'Mozilla/5.0 (Mobile; rv:18.0) Gecko/18.0 Firefox/18.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Firefox 18.0 for FirefoxOS 1.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -50,8 +50,8 @@ return array(
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '18.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ),
+        ],
         'lite' => false,
         'standard' => false,
-    ),
-);
+    ],
+];

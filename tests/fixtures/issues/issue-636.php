@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-636' => array(
+return [
+    'issue-636' => [
         'ua' => 'MacAppStore/2.0 (Macintosh; OS X 10.10.2; 14C81f) AppleWebKit/0600.3.10.2',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'MacAppStore',
             'Browser' => 'MacAppStore',
             'Browser_Type' => 'Application',
@@ -50,8 +50,8 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-);
+    ],
+];

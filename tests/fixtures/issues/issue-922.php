@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-922' => array(
+return [
+    'issue-922' => [
         'ua' => 'Digg Feed Fetcher 1.0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_1) AppleWebKit/534.48.3 (KHTML, like Gecko) Version/5.1 Safari/534.48.3)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'General RSS',
             'Browser' => 'Digg Feed Fetcher',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,8 +50,8 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-);
+    ],
+];

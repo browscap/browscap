@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-417' => array(
+return [
+    'issue-417' => [
         'ua' => 'psbot-page (+http://www.picsearch.com/bot.html)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Picsearch Bot',
             'Browser' => 'Picsearch Bot',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,8 +50,8 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-);
+    ],
+];

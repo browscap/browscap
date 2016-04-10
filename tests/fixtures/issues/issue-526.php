@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-526-A' => array(
+return [
+    'issue-526-A' => [
         'ua' => 'bot-pge.chlooe.com/1.0.0 (+http://www.chlooe.com/)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'SEO & Analytics',
             'Browser' => 'chlooe Bot',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,13 +50,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-526-B' => array(
+    ],
+    'issue-526-B' => [
         'ua' => 'seebot/2.0 (+http://www.seegnify.com/bot)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Social Bookmarkers',
             'Browser' => 'SeeBot',
             'Browser_Type' => 'Bot/Crawler',
@@ -103,8 +103,8 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-);
+    ],
+];

@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-576' => array(
+return [
+    'issue-576' => [
         'ua' => 'Mozilla/5.0 (compatible; SetLinks bot 1.2)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'SetLinks.ru Crawler',
             'Browser' => 'SetLinks.ru Crawler',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,8 +50,8 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-);
+    ],
+];

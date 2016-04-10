@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-069' => array(
+return [
+    'issue-069' => [
         'ua' => 'ContextAd Bot 1.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'ContextAd Bot',
             'Browser' => 'ContextAd Bot',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,8 +50,8 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-);
+    ],
+];

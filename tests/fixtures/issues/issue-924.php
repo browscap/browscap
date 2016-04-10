@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-924' => array(
+return [
+    'issue-924' => [
         'ua' => 'PayPal IPN ( https://www.paypal.com/ipn )',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'Instant Payment Notification',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,8 +50,8 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-);
+    ],
+];

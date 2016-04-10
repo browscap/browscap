@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-424' => array(
+return [
+    'issue-424' => [
         'ua' => 'iTunes/11.3.1 (Windows; Microsoft Windows 7 x64 Home Premium Edition Service Pack 1 (Build 7601)) AppleWebKit/537.60.17',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'iTunes',
             'Browser' => 'iTunes',
             'Browser_Type' => 'Application',
@@ -50,8 +50,8 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-);
+    ],
+];

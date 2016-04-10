@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-595' => array(
+return [
+    'issue-595' => [
         'ua' => 'Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'MSN',
             'Browser' => 'BingBot',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,8 +50,8 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-);
+    ],
+];

@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-881-A' => array(
+return [
+    'issue-881-A' => [
         'ua' => 'Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11; IEMobile/11.0) like Android 4.1.2; compatible) like iPhone OS 7_0_3 Mac OS X WebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.99 Mobile Safari/537.36',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'IEMobile',
             'Browser' => 'IEMobile',
             'Browser_Type' => 'Browser',
@@ -50,13 +50,13 @@ return array(
             'RenderingEngine_Name' => 'Trident',
             'RenderingEngine_Version' => '7.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-    'issue-881-B' => array(
+    ],
+    'issue-881-B' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; Galaxy Nexus Build/JRN84D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.111.166 Mobile Safari/537.36',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Chrome 42.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
@@ -103,13 +103,13 @@ return array(
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-    'issue-881-C' => array(
+    ],
+    'issue-881-C' => [
         'ua' => 'Mozilla/5.0 (Android Mobile; rv:40.0) Gecko/40.0 Firefox/40.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Firefox 40.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -156,13 +156,13 @@ return array(
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '40.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-    'issue-881-D' => array(
+    ],
+    'issue-881-D' => [
         'ua' => 'Mozilla/5.0 (Android 4.4.4; Mobile; rv:40.0) Gecko/40.0 Firefox/40.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Firefox 40.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -209,8 +209,8 @@ return array(
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '40.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-);
+    ],
+];

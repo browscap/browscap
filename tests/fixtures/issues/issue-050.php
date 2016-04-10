@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-050-2' => array(
+return [
+    'issue-050-2' => [
         'ua' => 'Mozilla/5.0 (X11; Linux) AppleWebKit/531.2+ Midori/0.3',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Midori 0.3',
             'Browser' => 'Midori',
             'Browser_Type' => 'Browser',
@@ -50,13 +50,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-050-1' => array(
+    ],
+    'issue-050-1' => [
         'ua' => 'Mozilla/5.0 (X11; Linux) AppleWebKit/537.32 (KHTML, like Gecko) Chrome/18.0.1025.133 Safari/537.32 Midori/0.5',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Midori 0.5',
             'Browser' => 'Midori',
             'Browser_Type' => 'Browser',
@@ -103,8 +103,8 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-);
+    ],
+];

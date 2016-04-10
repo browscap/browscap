@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-862' => array(
+return [
+    'issue-862' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9) AppleWebKit/537.71 (KHTML, like Gecko) Version/7.0 Safari/537.71 (Rival IQ, rivaliq.com)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Rival IQ Bot',
             'Browser' => 'Rival IQ Bot',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,8 +50,8 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-);
+    ],
+];

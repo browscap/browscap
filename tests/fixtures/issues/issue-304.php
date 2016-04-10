@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-304' => array(
+return [
+    'issue-304' => [
         'ua' => 'Slackbot-LinkExpanding+(+https://api.slack.com/robots)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Social Bookmarkers',
             'Browser' => 'Slackbot-Link-Expanding',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,8 +50,8 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-);
+    ],
+];

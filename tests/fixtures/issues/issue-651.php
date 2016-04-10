@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-651-A' => array(
+return [
+    'issue-651-A' => [
         'ua' => 'AdSheet/1.0 CFNetwork/548.1.4 Darwin/11.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'CFNetwork for iOS',
             'Browser' => 'CFNetwork',
             'Browser_Type' => 'Application',
@@ -50,13 +50,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => false,
-    ),
-    'issue-651-B' => array(
+    ],
+    'issue-651-B' => [
         'ua' => 'Appcent/2.6 CFNetwork/672.1.15 Darwin/14.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'CFNetwork for iOS',
             'Browser' => 'CFNetwork',
             'Browser_Type' => 'Application',
@@ -103,13 +103,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-C' => array(
+    ],
+    'issue-651-C' => [
         'ua' => 'Appzilla3/1.1 CFNetwork/548.1.4 Darwin/11.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'CFNetwork for iOS',
             'Browser' => 'CFNetwork',
             'Browser_Type' => 'Application',
@@ -156,13 +156,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => false,
-    ),
-    'issue-651-D' => array(
+    ],
+    'issue-651-D' => [
         'ua' => 'AtomicBrowser/3.7.1 CFNetwork/467.12 Darwin/10.3.1',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Atomic Browser 3.7',
             'Browser' => 'Atomic Browser',
             'Browser_Type' => 'Browser',
@@ -209,13 +209,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => false,
-    ),
-    'issue-651-E' => array(
+    ],
+    'issue-651-E' => [
         'ua' => 'AtomicBrowser/6.0.1 CFNetwork/548.0.4 Darwin/11.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Atomic Browser 6.0',
             'Browser' => 'Atomic Browser',
             'Browser_Type' => 'Browser',
@@ -262,13 +262,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => false,
-    ),
-    'issue-651-F' => array(
+    ],
+    'issue-651-F' => [
         'ua' => 'AtomicBrowser/7.0.1 CFNetwork/548.0.4 Darwin/11.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Atomic Browser 7.0',
             'Browser' => 'Atomic Browser',
             'Browser_Type' => 'Browser',
@@ -315,13 +315,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => false,
-    ),
-    'issue-651-G' => array(
+    ],
+    'issue-651-G' => [
         'ua' => 'AtomicBrowser/7.0.1 CFNetwork/548.1.4 Darwin/11.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Atomic Browser 7.0',
             'Browser' => 'Atomic Browser',
             'Browser_Type' => 'Browser',
@@ -368,13 +368,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => false,
-    ),
-    'issue-651-H' => array(
+    ],
+    'issue-651-H' => [
         'ua' => 'AtomicBrowser/7.0.1 CFNetwork/609.1.4 Darwin/13.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Atomic Browser 7.0',
             'Browser' => 'Atomic Browser',
             'Browser_Type' => 'Browser',
@@ -421,13 +421,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => false,
-    ),
-    'issue-651-I' => array(
+    ],
+    'issue-651-I' => [
         'ua' => 'AtomicBrowser/7.0.1 CFNetwork/672.0.8 Darwin/14.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Atomic Browser 7.0',
             'Browser' => 'Atomic Browser',
             'Browser_Type' => 'Browser',
@@ -474,13 +474,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-J' => array(
+    ],
+    'issue-651-J' => [
         'ua' => 'AtomicBrowser/7.0.1 CFNetwork/672.1.13 Darwin/14.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Atomic Browser 7.0',
             'Browser' => 'Atomic Browser',
             'Browser_Type' => 'Browser',
@@ -527,13 +527,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-K' => array(
+    ],
+    'issue-651-K' => [
         'ua' => 'AtomicBrowser/7.0.1 CFNetwork/672.1.14 Darwin/14.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Atomic Browser 7.0',
             'Browser' => 'Atomic Browser',
             'Browser_Type' => 'Browser',
@@ -580,13 +580,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-L' => array(
+    ],
+    'issue-651-L' => [
         'ua' => 'AtomicBrowser/7.0.1 CFNetwork/672.1.15 Darwin/14.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Atomic Browser 7.0',
             'Browser' => 'Atomic Browser',
             'Browser_Type' => 'Browser',
@@ -633,13 +633,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-M' => array(
+    ],
+    'issue-651-M' => [
         'ua' => 'AtomicBrowser/7.0.1 CFNetwork/711.1.16 Darwin/14.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Atomic Browser 7.0',
             'Browser' => 'Atomic Browser',
             'Browser_Type' => 'Browser',
@@ -686,13 +686,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-N' => array(
+    ],
+    'issue-651-N' => [
         'ua' => 'AtomicLite/7.0.1 CFNetwork/672.1.13 Darwin/14.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Atomic Browser 7.0',
             'Browser' => 'Atomic Browser',
             'Browser_Type' => 'Browser',
@@ -739,13 +739,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-O' => array(
+    ],
+    'issue-651-O' => [
         'ua' => 'com.apple.WebKit.Networking/9537.73.11 CFNetwork/673.0.3 Darwin/13.0.0 (x86_64) (MacBookAir5%2C2)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'CFNetwork for MacOSX',
             'Browser' => 'CFNetwork',
             'Browser_Type' => 'Application',
@@ -792,13 +792,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-P' => array(
+    ],
+    'issue-651-P' => [
         'ua' => 'com.apple.WebKit.WebContent/10538.46 CFNetwork/705 Darwin/14.0.0 (x86_64)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'CFNetwork for MacOSX',
             'Browser' => 'CFNetwork',
             'Browser_Type' => 'Application',
@@ -845,13 +845,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-Q' => array(
+    ],
+    'issue-651-Q' => [
         'ua' => 'com.apple.WebKit.WebContent/10600.1.15 CFNetwork/718 Darwin/14.0.0 (x86_64)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'CFNetwork for MacOSX',
             'Browser' => 'CFNetwork',
             'Browser_Type' => 'Application',
@@ -898,13 +898,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-R' => array(
+    ],
+    'issue-651-R' => [
         'ua' => 'com.apple.WebKit.WebContent/10600.1.25 CFNetwork/720.0.9 Darwin/14.0.0 (x86_64)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'CFNetwork for MacOSX',
             'Browser' => 'CFNetwork',
             'Browser_Type' => 'Application',
@@ -951,13 +951,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-S' => array(
+    ],
+    'issue-651-S' => [
         'ua' => 'com.apple.WebKit.WebContent/10600.1.25 CFNetwork/720.1.1 Darwin/14.0.0 (x86_64)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'CFNetwork for MacOSX',
             'Browser' => 'CFNetwork',
             'Browser_Type' => 'Application',
@@ -1004,13 +1004,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-T' => array(
+    ],
+    'issue-651-T' => [
         'ua' => 'com.apple.WebKit.WebContent/10600.2.2 CFNetwork/720.1.1 Darwin/14.0.0 (x86_64)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'CFNetwork for MacOSX',
             'Browser' => 'CFNetwork',
             'Browser_Type' => 'Application',
@@ -1057,13 +1057,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-U' => array(
+    ],
+    'issue-651-U' => [
         'ua' => 'com.apple.WebKit.WebContent/10600.2.5 CFNetwork/720.0.9 Darwin/14.0.0 (x86_64)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'CFNetwork for MacOSX',
             'Browser' => 'CFNetwork',
             'Browser_Type' => 'Application',
@@ -1110,13 +1110,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-V' => array(
+    ],
+    'issue-651-V' => [
         'ua' => 'com.apple.WebKit.WebContent/10600.2.5 CFNetwork/720.1.1 Darwin/14.0.0 (x86_64)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'CFNetwork for MacOSX',
             'Browser' => 'CFNetwork',
             'Browser_Type' => 'Application',
@@ -1163,13 +1163,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-W' => array(
+    ],
+    'issue-651-W' => [
         'ua' => 'com.apple.WebKit.WebContent/10600.3.10.2 CFNetwork/720.2.3 Darwin/14.1.0 (x86_64)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'CFNetwork for MacOSX',
             'Browser' => 'CFNetwork',
             'Browser_Type' => 'Application',
@@ -1216,13 +1216,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-X' => array(
+    ],
+    'issue-651-X' => [
         'ua' => 'com.apple.WebKit.WebContent/10600.3.18 CFNetwork/720.2.4 Darwin/14.1.0 (x86_64)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'CFNetwork for MacOSX',
             'Browser' => 'CFNetwork',
             'Browser_Type' => 'Application',
@@ -1269,13 +1269,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-Y' => array(
+    ],
+    'issue-651-Y' => [
         'ua' => 'com.apple.WebKit.WebContent/10600.3.5 CFNetwork/720.2.2 Darwin/14.1.0 (x86_64)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'CFNetwork for MacOSX',
             'Browser' => 'CFNetwork',
             'Browser_Type' => 'Application',
@@ -1322,13 +1322,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-Z' => array(
+    ],
+    'issue-651-Z' => [
         'ua' => 'com.apple.WebKit.WebContent/10600.3.8.2 CFNetwork/720.2.3 Darwin/14.1.0 (x86_64)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'CFNetwork for MacOSX',
             'Browser' => 'CFNetwork',
             'Browser_Type' => 'Application',
@@ -1375,13 +1375,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-AA' => array(
+    ],
+    'issue-651-AA' => [
         'ua' => 'CSN%20Philly/1.03.01 CFNetwork/485.12.30 Darwin/10.4.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'CFNetwork for iOS',
             'Browser' => 'CFNetwork',
             'Browser_Type' => 'Application',
@@ -1428,13 +1428,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => false,
-    ),
-    'issue-651-AB' => array(
+    ],
+    'issue-651-AB' => [
         'ua' => 'DealsFREE/1.6.1 CFNetwork/548.1.4 Darwin/11.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'CFNetwork for iOS',
             'Browser' => 'CFNetwork',
             'Browser_Type' => 'Application',
@@ -1481,13 +1481,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => false,
-    ),
-    'issue-651-AC' => array(
+    ],
+    'issue-651-AC' => [
         'ua' => 'Differences/1.2 CFNetwork/548.1.4 Darwin/11.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'CFNetwork for iOS',
             'Browser' => 'CFNetwork',
             'Browser_Type' => 'Application',
@@ -1534,13 +1534,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => false,
-    ),
-    'issue-651-AD' => array(
+    ],
+    'issue-651-AD' => [
         'ua' => 'FastBrowser/1 CFNetwork/711.1.16 Darwin/14.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'FastBrowser',
             'Browser' => 'FastBrowser',
             'Browser_Type' => 'Application',
@@ -1587,13 +1587,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-AE' => array(
+    ],
+    'issue-651-AE' => [
         'ua' => 'Flint/173 CFNetwork/520.5.1 Darwin/11.4.2 (x86_64) (MacBookPro8%2C2)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'CFNetwork for MacOSX',
             'Browser' => 'CFNetwork',
             'Browser_Type' => 'Application',
@@ -1640,13 +1640,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-AF' => array(
+    ],
+    'issue-651-AF' => [
         'ua' => 'Flint/173 CFNetwork/673.0.3 Darwin/13.0.0 (x86_64) (MacBookAir4%2C2)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'CFNetwork for MacOSX',
             'Browser' => 'CFNetwork',
             'Browser_Type' => 'Application',
@@ -1693,13 +1693,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-AG' => array(
+    ],
+    'issue-651-AG' => [
         'ua' => 'Flint/173 CFNetwork/673.0.3 Darwin/13.0.0 (x86_64) (MacBookPro10%2C1)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'CFNetwork for MacOSX',
             'Browser' => 'CFNetwork',
             'Browser_Type' => 'Application',
@@ -1746,13 +1746,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-AH' => array(
+    ],
+    'issue-651-AH' => [
         'ua' => 'Flint/173 CFNetwork/673.0.3 Darwin/13.0.0 (x86_64) (MacBookPro8%2C2)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'CFNetwork for MacOSX',
             'Browser' => 'CFNetwork',
             'Browser_Type' => 'Application',
@@ -1799,13 +1799,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-AI' => array(
+    ],
+    'issue-651-AI' => [
         'ua' => 'Free%20Video%20Downloader/1.5 CFNetwork/672.0.8 Darwin/14.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'CFNetwork for iOS',
             'Browser' => 'CFNetwork',
             'Browser_Type' => 'Application',
@@ -1852,13 +1852,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-AJ' => array(
+    ],
+    'issue-651-AJ' => [
         'ua' => 'GolfLogix/2.6 CFNetwork/485.12.30 Darwin/10.4.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'CFNetwork for iOS',
             'Browser' => 'CFNetwork',
             'Browser_Type' => 'Application',
@@ -1905,13 +1905,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => false,
-    ),
-    'issue-651-AK' => array(
+    ],
+    'issue-651-AK' => [
         'ua' => 'Google/2.0.1.10455 CFNetwork/548.1.4 Darwin/11.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Google App 2.0',
             'Browser' => 'Google App',
             'Browser_Type' => 'Application',
@@ -1958,13 +1958,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => false,
-    ),
-    'issue-651-AL' => array(
+    ],
+    'issue-651-AL' => [
         'ua' => 'GroupMe/3.3.5 CFNetwork/548.1.4 Darwin/11.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'CFNetwork for iOS',
             'Browser' => 'CFNetwork',
             'Browser_Type' => 'Application',
@@ -2011,13 +2011,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => false,
-    ),
-    'issue-651-AM' => array(
+    ],
+    'issue-651-AM' => [
         'ua' => 'iCabMobile/1.1 CFNetwork/711.1.16 Darwin/14.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'iCab Mobile 1.1',
             'Browser' => 'iCab Mobile',
             'Browser_Type' => 'Browser',
@@ -2064,13 +2064,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-AN' => array(
+    ],
+    'issue-651-AN' => [
         'ua' => 'iCabMobile/1.3 CFNetwork/711.1.12 Darwin/14.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'iCab Mobile 1.3',
             'Browser' => 'iCab Mobile',
             'Browser_Type' => 'Browser',
@@ -2117,13 +2117,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-AO' => array(
+    ],
+    'issue-651-AO' => [
         'ua' => 'iCabMobile/8.5.6 CFNetwork/672.1.15 Darwin/14.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'iCab Mobile 8.5',
             'Browser' => 'iCab Mobile',
             'Browser_Type' => 'Browser',
@@ -2170,13 +2170,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-AP' => array(
+    ],
+    'issue-651-AP' => [
         'ua' => 'iDownlaoder/1.1 CFNetwork/672.0.8 Darwin/14.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'CFNetwork for iOS',
             'Browser' => 'CFNetwork',
             'Browser_Type' => 'Application',
@@ -2223,13 +2223,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-AQ' => array(
+    ],
+    'issue-651-AQ' => [
         'ua' => 'iHeartRadio/430 CFNetwork/485.12.30 Darwin/10.4.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'CFNetwork for iOS',
             'Browser' => 'CFNetwork',
             'Browser_Type' => 'Application',
@@ -2276,13 +2276,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => false,
-    ),
-    'issue-651-AR' => array(
+    ],
+    'issue-651-AR' => [
         'ua' => 'iMangaX/3.0.5 CFNetwork/548.0.4 Darwin/11.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'CFNetwork for iOS',
             'Browser' => 'CFNetwork',
             'Browser_Type' => 'Application',
@@ -2329,13 +2329,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => false,
-    ),
-    'issue-651-AS' => array(
+    ],
+    'issue-651-AS' => [
         'ua' => 'Instagram/2.4.0 CFNetwork/548.1.4 Darwin/11.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Instagram App 2.4',
             'Browser' => 'Instagram App',
             'Browser_Type' => 'Application',
@@ -2382,13 +2382,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-AT' => array(
+    ],
+    'issue-651-AT' => [
         'ua' => 'Kenshoo/3049 CFNetwork/672.0.2 Darwin/14.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Kenshoo for Darwin',
             'Browser' => 'Kenshoo',
             'Browser_Type' => 'Application',
@@ -2435,13 +2435,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-AU' => array(
+    ],
+    'issue-651-AU' => [
         'ua' => 'Lingo/47740 CFNetwork/720.1.1 Darwin/14.0.0 (x86_64)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'CFNetwork for MacOSX',
             'Browser' => 'CFNetwork',
             'Browser_Type' => 'Application',
@@ -2488,13 +2488,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-AV' => array(
+    ],
+    'issue-651-AV' => [
         'ua' => 'Mercury/810 CFNetwork/672.0.8 Darwin/14.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Mercury',
             'Browser' => 'Mercury',
             'Browser_Type' => 'Browser',
@@ -2541,13 +2541,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-AW' => array(
+    ],
+    'issue-651-AW' => [
         'ua' => 'Mercury/830 CFNetwork/609.1.4 Darwin/13.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Mercury',
             'Browser' => 'Mercury',
             'Browser_Type' => 'Browser',
@@ -2594,13 +2594,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => false,
-    ),
-    'issue-651-AX' => array(
+    ],
+    'issue-651-AX' => [
         'ua' => 'Mercury/830 CFNetwork/672.0.8 Darwin/14.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Mercury',
             'Browser' => 'Mercury',
             'Browser_Type' => 'Browser',
@@ -2647,13 +2647,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-AY' => array(
+    ],
+    'issue-651-AY' => [
         'ua' => 'Mercury/830 CFNetwork/672.1.13 Darwin/14.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Mercury',
             'Browser' => 'Mercury',
             'Browser_Type' => 'Browser',
@@ -2700,13 +2700,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-AZ' => array(
+    ],
+    'issue-651-AZ' => [
         'ua' => 'Mercury/840 CFNetwork/672.1.13 Darwin/14.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Mercury',
             'Browser' => 'Mercury',
             'Browser_Type' => 'Browser',
@@ -2753,13 +2753,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-BA' => array(
+    ],
+    'issue-651-BA' => [
         'ua' => 'Mercury/841 CFNetwork/672.1.13 Darwin/14.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Mercury',
             'Browser' => 'Mercury',
             'Browser_Type' => 'Browser',
@@ -2806,13 +2806,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-BB' => array(
+    ],
+    'issue-651-BB' => [
         'ua' => 'Mercury/841 CFNetwork/672.1.14 Darwin/14.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Mercury',
             'Browser' => 'Mercury',
             'Browser_Type' => 'Browser',
@@ -2859,13 +2859,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-BC' => array(
+    ],
+    'issue-651-BC' => [
         'ua' => 'Mercury/850 CFNetwork/672.1.14 Darwin/14.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Mercury',
             'Browser' => 'Mercury',
             'Browser_Type' => 'Browser',
@@ -2912,13 +2912,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-BD' => array(
+    ],
+    'issue-651-BD' => [
         'ua' => 'Mercury/850 CFNetwork/672.1.15 Darwin/14.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Mercury',
             'Browser' => 'Mercury',
             'Browser_Type' => 'Browser',
@@ -2965,13 +2965,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-BE' => array(
+    ],
+    'issue-651-BE' => [
         'ua' => 'Mercury/860 CFNetwork/672.1.15 Darwin/14.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Mercury',
             'Browser' => 'Mercury',
             'Browser_Type' => 'Browser',
@@ -3018,13 +3018,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-BF' => array(
+    ],
+    'issue-651-BF' => [
         'ua' => 'Mercury/861 CFNetwork/672.1.15 Darwin/14.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Mercury',
             'Browser' => 'Mercury',
             'Browser_Type' => 'Browser',
@@ -3071,13 +3071,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-BG' => array(
+    ],
+    'issue-651-BG' => [
         'ua' => 'Mercury/870 CFNetwork/672.0.8 Darwin/14.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Mercury',
             'Browser' => 'Mercury',
             'Browser_Type' => 'Browser',
@@ -3124,13 +3124,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-BH' => array(
+    ],
+    'issue-651-BH' => [
         'ua' => 'Mercury/870 CFNetwork/672.1.15 Darwin/14.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Mercury',
             'Browser' => 'Mercury',
             'Browser_Type' => 'Browser',
@@ -3177,13 +3177,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-BI' => array(
+    ],
+    'issue-651-BI' => [
         'ua' => 'Mercury/870 CFNetwork/711.0.6 Darwin/14.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Mercury',
             'Browser' => 'Mercury',
             'Browser_Type' => 'Browser',
@@ -3230,13 +3230,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-BJ' => array(
+    ],
+    'issue-651-BJ' => [
         'ua' => 'Mercury/872 CFNetwork/672.1.15 Darwin/14.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Mercury',
             'Browser' => 'Mercury',
             'Browser_Type' => 'Browser',
@@ -3283,13 +3283,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-BK' => array(
+    ],
+    'issue-651-BK' => [
         'ua' => 'Mercury/872 CFNetwork/711.0.6 Darwin/14.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Mercury',
             'Browser' => 'Mercury',
             'Browser_Type' => 'Browser',
@@ -3336,13 +3336,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-BL' => array(
+    ],
+    'issue-651-BL' => [
         'ua' => 'Mercury/872 CFNetwork/711.1.12 Darwin/14.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Mercury',
             'Browser' => 'Mercury',
             'Browser_Type' => 'Browser',
@@ -3389,13 +3389,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-BM' => array(
+    ],
+    'issue-651-BM' => [
         'ua' => 'Mercury/882 CFNetwork/711.1.12 Darwin/14.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Mercury',
             'Browser' => 'Mercury',
             'Browser_Type' => 'Browser',
@@ -3442,13 +3442,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-BN' => array(
+    ],
+    'issue-651-BN' => [
         'ua' => 'Mercury/883 CFNetwork/711.1.12 Darwin/14.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Mercury',
             'Browser' => 'Mercury',
             'Browser_Type' => 'Browser',
@@ -3495,13 +3495,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-BO' => array(
+    ],
+    'issue-651-BO' => [
         'ua' => 'Mercury/883 CFNetwork/711.1.16 Darwin/14.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Mercury',
             'Browser' => 'Mercury',
             'Browser_Type' => 'Browser',
@@ -3548,13 +3548,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-BP' => array(
+    ],
+    'issue-651-BP' => [
         'ua' => 'Mercury/894 CFNetwork/672.0.2 Darwin/14.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Mercury',
             'Browser' => 'Mercury',
             'Browser_Type' => 'Browser',
@@ -3601,13 +3601,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-BQ' => array(
+    ],
+    'issue-651-BQ' => [
         'ua' => 'Mercury/894 CFNetwork/711.1.12 Darwin/14.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Mercury',
             'Browser' => 'Mercury',
             'Browser_Type' => 'Browser',
@@ -3654,13 +3654,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-BS' => array(
+    ],
+    'issue-651-BS' => [
         'ua' => 'Mercury/894 CFNetwork/711.2.23 Darwin/14.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Mercury',
             'Browser' => 'Mercury',
             'Browser_Type' => 'Browser',
@@ -3707,13 +3707,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-BT' => array(
+    ],
+    'issue-651-BT' => [
         'ua' => 'Mercury/894 CFNetwork/711.3.18 Darwin/14.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Mercury',
             'Browser' => 'Mercury',
             'Browser_Type' => 'Browser',
@@ -3760,13 +3760,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-BU' => array(
+    ],
+    'issue-651-BU' => [
         'ua' => 'MobileSafari/600.1.4 CFNetwork/711.0.6 Darwin/14.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Mobile Safari 4.0',
             'Browser' => 'Safari',
             'Browser_Type' => 'Browser',
@@ -3813,13 +3813,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-BV' => array(
+    ],
+    'issue-651-BV' => [
         'ua' => 'MobileSafari/600.1.4 CFNetwork/711.1.12 Darwin/14.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Mobile Safari 4.0',
             'Browser' => 'Safari',
             'Browser_Type' => 'Browser',
@@ -3866,13 +3866,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-BX' => array(
+    ],
+    'issue-651-BX' => [
         'ua' => 'MobileSafari/7534.48.3 CFNetwork/548.1.4 Darwin/11.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Mobile Safari 5.0',
             'Browser' => 'Safari',
             'Browser_Type' => 'Browser',
@@ -3919,13 +3919,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-BZ' => array(
+    ],
+    'issue-651-BZ' => [
         'ua' => 'MobileSafari/8536.25 CFNetwork/609.1.4 Darwin/13.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Mobile Safari 6.0',
             'Browser' => 'Safari',
             'Browser_Type' => 'Browser',
@@ -3972,13 +3972,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-CA' => array(
+    ],
+    'issue-651-CA' => [
         'ua' => 'MobileSafari/9537.53 CFNetwork/672.0.2 Darwin/14.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Mobile Safari 7.0',
             'Browser' => 'Safari',
             'Browser_Type' => 'Browser',
@@ -4025,13 +4025,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-CB' => array(
+    ],
+    'issue-651-CB' => [
         'ua' => 'MobileSafari/9537.53 CFNetwork/672.0.8 Darwin/14.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Mobile Safari 7.0',
             'Browser' => 'Safari',
             'Browser_Type' => 'Browser',
@@ -4078,13 +4078,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-CC' => array(
+    ],
+    'issue-651-CC' => [
         'ua' => 'MobileSafari/9537.53 CFNetwork/672.1.13 Darwin/14.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Mobile Safari 7.0',
             'Browser' => 'Safari',
             'Browser_Type' => 'Browser',
@@ -4131,13 +4131,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-CD' => array(
+    ],
+    'issue-651-CD' => [
         'ua' => 'MobileSafari/9537.53 CFNetwork/672.1.14 Darwin/14.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Mobile Safari 7.0',
             'Browser' => 'Safari',
             'Browser_Type' => 'Browser',
@@ -4184,13 +4184,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-CF' => array(
+    ],
+    'issue-651-CF' => [
         'ua' => 'MobileTestLab/1 CFNetwork/711.1.12 Darwin/14.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'CFNetwork for iOS',
             'Browser' => 'CFNetwork',
             'Browser_Type' => 'Application',
@@ -4237,13 +4237,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-CG' => array(
+    ],
+    'issue-651-CG' => [
         'ua' => 'MobileTestLab/1 CFNetwork/711.1.16 Darwin/14.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'CFNetwork for iOS',
             'Browser' => 'CFNetwork',
             'Browser_Type' => 'Application',
@@ -4290,13 +4290,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-CH' => array(
+    ],
+    'issue-651-CH' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36 Kenshoo/3049',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Kenshoo',
             'Browser' => 'Kenshoo',
             'Browser_Type' => 'Application',
@@ -4343,13 +4343,13 @@ return array(
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-CI' => array(
+    ],
+    'issue-651-CI' => [
         'ua' => 'PacMan/14193 CFNetwork/548.1.4 Darwin/11.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'CFNetwork for iOS',
             'Browser' => 'CFNetwork',
             'Browser_Type' => 'Application',
@@ -4396,13 +4396,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => false,
-    ),
-    'issue-651-CJ' => array(
+    ],
+    'issue-651-CJ' => [
         'ua' => 'Perfect%20Browser/9.1 CFNetwork/672.0.8 Darwin/14.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'PERFECT Browser 9.1',
             'Browser' => 'PERFECT Browser',
             'Browser_Type' => 'Application',
@@ -4449,13 +4449,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-CK' => array(
+    ],
+    'issue-651-CK' => [
         'ua' => 'Puffin/12318 CFNetwork/672.1.14 Darwin/14.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Puffin for Darwin',
             'Browser' => 'Puffin',
             'Browser_Type' => 'Browser',
@@ -4502,13 +4502,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-CL' => array(
+    ],
+    'issue-651-CL' => [
         'ua' => 'Puffin/12318 CFNetwork/672.1.15 Darwin/14.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Puffin for Darwin',
             'Browser' => 'Puffin',
             'Browser_Type' => 'Browser',
@@ -4555,13 +4555,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-CM' => array(
+    ],
+    'issue-651-CM' => [
         'ua' => 'Puffin/12963 CFNetwork/672.1.15 Darwin/14.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Puffin for Darwin',
             'Browser' => 'Puffin',
             'Browser_Type' => 'Browser',
@@ -4608,13 +4608,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-CN' => array(
+    ],
+    'issue-651-CN' => [
         'ua' => 'Puffin/12963 CFNetwork/711.1.12 Darwin/14.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Puffin for Darwin',
             'Browser' => 'Puffin',
             'Browser_Type' => 'Browser',
@@ -4661,13 +4661,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-CO' => array(
+    ],
+    'issue-651-CO' => [
         'ua' => 'Puffin/12963 CFNetwork/711.1.16 Darwin/14.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Puffin for Darwin',
             'Browser' => 'Puffin',
             'Browser_Type' => 'Browser',
@@ -4714,13 +4714,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-CP' => array(
+    ],
+    'issue-651-CP' => [
         'ua' => 'Puffin/13109 CFNetwork/711.1.16 Darwin/14.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Puffin for Darwin',
             'Browser' => 'Puffin',
             'Browser_Type' => 'Browser',
@@ -4767,13 +4767,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-CQ' => array(
+    ],
+    'issue-651-CQ' => [
         'ua' => 'Puffin/13170 CFNetwork/711.1.16 Darwin/14.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Puffin for Darwin',
             'Browser' => 'Puffin',
             'Browser_Type' => 'Browser',
@@ -4820,13 +4820,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-CR' => array(
+    ],
+    'issue-651-CR' => [
         'ua' => 'Reeder/2.1.1 CFNetwork/672.0.8 Darwin/14.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Reeder 2.1',
             'Browser' => 'Reeder',
             'Browser_Type' => 'Application',
@@ -4873,13 +4873,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-CS' => array(
+    ],
+    'issue-651-CS' => [
         'ua' => 'Reeder/2.1.1 CFNetwork/672.1.13 Darwin/14.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Reeder 2.1',
             'Browser' => 'Reeder',
             'Browser_Type' => 'Application',
@@ -4926,13 +4926,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-CT' => array(
+    ],
+    'issue-651-CT' => [
         'ua' => 'Rhapsody/2.2.11 CFNetwork/548.1.4 Darwin/11.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'CFNetwork for iOS',
             'Browser' => 'CFNetwork',
             'Browser_Type' => 'Application',
@@ -4979,13 +4979,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => false,
-    ),
-    'issue-651-CU' => array(
+    ],
+    'issue-651-CU' => [
         'ua' => 'Safari/6534.59.10 CFNetwork/454.12.4 Darwin/10.8.0 (i386) (MacBook5%2C1)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Safari 4.0',
             'Browser' => 'Safari',
             'Browser_Type' => 'Browser',
@@ -5032,13 +5032,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-CV' => array(
+    ],
+    'issue-651-CV' => [
         'ua' => 'Safari/6534.59.8 CFNetwork/454.12.4 Darwin/10.8.0 (i386) (Macmini1%2C1)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Safari 4.0',
             'Browser' => 'Safari',
             'Browser_Type' => 'Browser',
@@ -5085,13 +5085,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-CW' => array(
+    ],
+    'issue-651-CW' => [
         'ua' => 'Safari/8536.30.1 CFNetwork/596.4.3 Darwin/12.4.0 (x86_64) (Macmini6%2C2)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Safari 6.0',
             'Browser' => 'Safari',
             'Browser_Type' => 'Browser',
@@ -5138,13 +5138,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-CX' => array(
+    ],
+    'issue-651-CX' => [
         'ua' => 'Safari/8536.30.1 CFNetwork/596.5 Darwin/12.5.0 (x86_64) (MacBookPro9%2C2)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Safari 6.0',
             'Browser' => 'Safari',
             'Browser_Type' => 'Browser',
@@ -5191,13 +5191,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-CY' => array(
+    ],
+    'issue-651-CY' => [
         'ua' => 'Safari/9537.73.11 CFNetwork/673.0.3 Darwin/13.0.0 (x86_64) (iMac8%2C1)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Safari 7.0',
             'Browser' => 'Safari',
             'Browser_Type' => 'Browser',
@@ -5244,13 +5244,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-CZ' => array(
+    ],
+    'issue-651-CZ' => [
         'ua' => 'Safari/9537.73.11 CFNetwork/673.0.3 Darwin/13.0.2 (x86_64) (MacBookPro11%2C1)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Safari 7.0',
             'Browser' => 'Safari',
             'Browser_Type' => 'Browser',
@@ -5297,13 +5297,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-DA' => array(
+    ],
+    'issue-651-DA' => [
         'ua' => 'Safari/9537.73.11 CFNetwork/673.0.3 Darwin/13.0.2 (x86_64) (MacBookPro11%2C3)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Safari 7.0',
             'Browser' => 'Safari',
             'Browser_Type' => 'Browser',
@@ -5350,13 +5350,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-DB' => array(
+    ],
+    'issue-651-DB' => [
         'ua' => 'Spillo/70 CFNetwork/720.0.9 Darwin/14.0.0 (x86_64)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'CFNetwork for MacOSX',
             'Browser' => 'CFNetwork',
             'Browser_Type' => 'Application',
@@ -5403,13 +5403,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-DC' => array(
+    ],
+    'issue-651-DC' => [
         'ua' => 'Spillo/70 CFNetwork/720.1.1 Darwin/14.0.0 (x86_64)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'CFNetwork for MacOSX',
             'Browser' => 'CFNetwork',
             'Browser_Type' => 'Application',
@@ -5456,13 +5456,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-DD' => array(
+    ],
+    'issue-651-DD' => [
         'ua' => 'Spillo/70 CFNetwork/720.2.4 Darwin/14.1.0 (x86_64)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'CFNetwork for MacOSX',
             'Browser' => 'CFNetwork',
             'Browser_Type' => 'Application',
@@ -5509,13 +5509,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-DE' => array(
+    ],
+    'issue-651-DE' => [
         'ua' => 'Spillo/71 CFNetwork/720.2.4 Darwin/14.1.0 (x86_64)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'CFNetwork for MacOSX',
             'Browser' => 'CFNetwork',
             'Browser_Type' => 'Application',
@@ -5562,13 +5562,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-DF' => array(
+    ],
+    'issue-651-DF' => [
         'ua' => 'Spillo/82 CFNetwork/720.2.4 Darwin/14.1.0 (x86_64)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'CFNetwork for MacOSX',
             'Browser' => 'CFNetwork',
             'Browser_Type' => 'Application',
@@ -5615,13 +5615,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-DG' => array(
+    ],
+    'issue-651-DG' => [
         'ua' => 'UCBrowserHD/2.2.1.335 CFNetwork/548.1.4 Darwin/11.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'UC Browser HD 2.2',
             'Browser' => 'UC Browser HD',
             'Browser_Type' => 'Application',
@@ -5668,13 +5668,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => false,
-    ),
-    'issue-651-DH' => array(
+    ],
+    'issue-651-DH' => [
         'ua' => 'UCBrowserHD/2.4.0.367 CFNetwork/672.1.15 Darwin/14.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'UC Browser HD 2.4',
             'Browser' => 'UC Browser HD',
             'Browser_Type' => 'Application',
@@ -5721,13 +5721,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-DI' => array(
+    ],
+    'issue-651-DI' => [
         'ua' => 'VideoDownloaderDevstarPro/1.9.103 CFNetwork/672.1.15 Darwin/14.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'CFNetwork for iOS',
             'Browser' => 'CFNetwork',
             'Browser_Type' => 'Application',
@@ -5774,13 +5774,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-DJ' => array(
+    ],
+    'issue-651-DJ' => [
         'ua' => 'YJTop/3.3.12 CFNetwork/672.1.15 Darwin/14.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Yahoo! App 3.3',
             'Browser' => 'Yahoo! App',
             'Browser_Type' => 'Application',
@@ -5827,13 +5827,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-DK' => array(
+    ],
+    'issue-651-DK' => [
         'ua' => 'YJTop/3.3.13 CFNetwork/672.1.15 Darwin/14.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Yahoo! App 3.3',
             'Browser' => 'Yahoo! App',
             'Browser_Type' => 'Application',
@@ -5880,13 +5880,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-DL' => array(
+    ],
+    'issue-651-DL' => [
         'ua' => 'YJTop/3.3.25 CFNetwork/711.1.16 Darwin/14.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Yahoo! App 3.3',
             'Browser' => 'Yahoo! App',
             'Browser_Type' => 'Application',
@@ -5933,13 +5933,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-DM' => array(
+    ],
+    'issue-651-DM' => [
         'ua' => 'YJTop/3.3.8 CFNetwork/672.1.14 Darwin/14.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Yahoo! App 3.3',
             'Browser' => 'Yahoo! App',
             'Browser_Type' => 'Application',
@@ -5986,13 +5986,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-651-DN' => array(
+    ],
+    'issue-651-DN' => [
         'ua' => 'YJTop/3.3.9 CFNetwork/672.1.14 Darwin/14.0.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Yahoo! App 3.3',
             'Browser' => 'Yahoo! App',
             'Browser_Type' => 'Application',
@@ -6039,8 +6039,8 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-);
+    ],
+];

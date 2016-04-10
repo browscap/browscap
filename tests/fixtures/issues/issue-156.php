@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-156' => array(
+return [
+    'issue-156' => [
         'ua' => 'BOT/0.1 (BOT for JCE)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'JCE vulnerability scanner',
             'Browser' => 'BOT for JCE',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,8 +50,8 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-);
+    ],
+];

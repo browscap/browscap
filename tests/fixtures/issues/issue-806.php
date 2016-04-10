@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-806-A' => array(
+return [
+    'issue-806-A' => [
         'ua' => 'Mozilla/5.0 (compatible; DeuSu/0.1.0; +https://deusu.de/robot.html)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Search Engines',
             'Browser' => 'Werbefreie Deutsche Suchmaschine',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,13 +50,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-806-B' => array(
+    ],
+    'issue-806-B' => [
         'ua' => 'Mozilla/5.0 (compatible; DeuSu/5.0.2; +https://deusu.de/robot.html)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Search Engines',
             'Browser' => 'Werbefreie Deutsche Suchmaschine',
             'Browser_Type' => 'Bot/Crawler',
@@ -103,8 +103,8 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-);
+    ],
+];

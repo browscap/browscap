@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-295-A' => array(
+return [
+    'issue-295-A' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64) KHTML/4.11.5 (like Gecko) Konqueror/4.11',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Konqueror 4.11',
             'Browser' => 'Konqueror',
             'Browser_Type' => 'Browser',
@@ -50,13 +50,13 @@ return array(
             'RenderingEngine_Name' => 'KHTML',
             'RenderingEngine_Version' => '4.11',
             'RenderingEngine_Maker' => 'KDE e.V.',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-295-B' => array(
+    ],
+    'issue-295-B' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.1.16) Gecko Kazehakase/0.5.8 Debian/0.5.8-4',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Kazehakase 0.5',
             'Browser' => 'Kazehakase',
             'Browser_Type' => 'Browser',
@@ -103,13 +103,13 @@ return array(
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-295-C' => array(
+    ],
+    'issue-295-C' => [
         'ua' => 'Mozilla/5.0 (X11; Linux i686) KHTML/4.9.5 (like Gecko) Konqueror/4.9',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Konqueror 4.9',
             'Browser' => 'Konqueror',
             'Browser_Type' => 'Browser',
@@ -156,13 +156,13 @@ return array(
             'RenderingEngine_Name' => 'KHTML',
             'RenderingEngine_Version' => '4.9',
             'RenderingEngine_Maker' => 'KDE e.V.',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-295-D' => array(
+    ],
+    'issue-295-D' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64) KHTML/4.8.4 (like Gecko) Konqueror/4.8',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Konqueror 4.8',
             'Browser' => 'Konqueror',
             'Browser_Type' => 'Browser',
@@ -209,13 +209,13 @@ return array(
             'RenderingEngine_Name' => 'KHTML',
             'RenderingEngine_Version' => '4.8',
             'RenderingEngine_Maker' => 'KDE e.V.',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-295-E' => array(
+    ],
+    'issue-295-E' => [
         'ua' => 'Links (2.8; Linux 3.10.17 x86_64; GNU C 4.8.1; text)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Links 2.8',
             'Browser' => 'Links',
             'Browser_Type' => 'Browser',
@@ -262,13 +262,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-295-F' => array(
+    ],
+    'issue-295-F' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-gb; HTC_One Build/KOT49H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Android Browser 4.0',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
@@ -315,13 +315,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-    'issue-295-G' => array(
+    ],
+    'issue-295-G' => [
         'ua' => 'Opera/7.54 (Windows NT 5.1; U) [pl]',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Opera 7.54',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -368,13 +368,13 @@ return array(
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '1.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-295-I' => array(
+    ],
+    'issue-295-I' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; U;WOW64; de;rv:11.0) Gecko Firefox/11.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Firefox 11.0',
             'Browser' => 'Firefox',
             'Browser_Type' => 'Browser',
@@ -421,13 +421,13 @@ return array(
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => '11.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-295-K' => array(
+    ],
+    'issue-295-K' => [
         'ua' => 'Mozilla/4.0 (compatible; Opera/3.0; Windows 4.10) 3.51 [en]',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Opera 3.51',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -474,13 +474,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => false,
-    ),
-    'issue-295-L' => array(
+    ],
+    'issue-295-L' => [
         'ua' => '"Mozilla/4.0 (compatible; MSIE 6.0; Windows 98; Win 9x 4.90)"',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -527,13 +527,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-    'issue-295-M' => array(
+    ],
+    'issue-295-M' => [
         'ua' => '"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:11.0) Gecko Firefox/11.0',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Default Browser',
             'Browser' => 'Default Browser',
             'Browser_Type' => 'unknown',
@@ -580,8 +580,8 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => true,
         'standard' => true,
-    ),
-);
+    ],
+];

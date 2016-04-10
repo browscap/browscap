@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-533' => array(
+return [
+    'issue-533' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; rv:11.0) Gecko Firefox/11.0 (via ggpht.com GoogleImageProxy)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Google Image Proxy',
             'Browser' => 'Google Image Proxy',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,8 +50,8 @@ return array(
             'RenderingEngine_Name' => 'Gecko',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-);
+    ],
+];

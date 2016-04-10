@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-138C' => array(
+return [
+    'issue-138C' => [
         'ua' => 'Mozilla/5.0 (iPad3,1; iPad; U; CPU OS 7_0_4 like Mac OS X; en_GB) com.google.GooglePlus/29676 (KHTML, like Gecko) Mobile/J1AP (gzip)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Google+ App',
             'Browser' => 'Google+ App',
             'Browser_Type' => 'Application',
@@ -50,13 +50,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-138B' => array(
+    ],
+    'issue-138B' => [
         'ua' => 'Mozilla/5.0 (iPad2,5; iPad; U; CPU OS 7_1 like Mac OS X; de_DE) com.google.GooglePlus/29676 (KHTML, like Gecko) Mobile/P105AP (gzip)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Google+ App',
             'Browser' => 'Google+ App',
             'Browser_Type' => 'Application',
@@ -103,13 +103,13 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-138A' => array(
+    ],
+    'issue-138A' => [
         'ua' => 'Mozilla/5.0 (iPhone3,1; iPhone; U; CPU OS 7_0_4 like Mac OS X; en_US) com.google.GooglePlus/29676 (KHTML, like Gecko) Mobile/N90AP (gzip)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Google+ App',
             'Browser' => 'Google+ App',
             'Browser_Type' => 'Application',
@@ -156,8 +156,8 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-);
+    ],
+];

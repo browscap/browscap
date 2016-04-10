@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-163' => array(
+return [
+    'issue-163' => [
         'ua' => 'Validator.nu/LV http://validator.w3.org/services',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'W3C',
             'Browser' => 'Validator.nu/LV',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,8 +50,8 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-);
+    ],
+];

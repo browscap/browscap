@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-416' => array(
+return [
+    'issue-416' => [
         'ua' => 'Pinterest/0.2 (+http://www.pinterest.com/)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Pinterest App 0.2',
             'Browser' => 'Pinterest App',
             'Browser_Type' => 'Application',
@@ -50,8 +50,8 @@ return array(
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-);
+    ],
+];

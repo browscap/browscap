@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-601' => array(
+return [
+    'issue-601' => [
         'ua' => 'Mozilla/5.0 (compatible; worldwebheritage.org/1.0; +crawl@worldwebheritage.org)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'worldwebheritage.org Bot',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,8 +50,8 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-);
+    ],
+];

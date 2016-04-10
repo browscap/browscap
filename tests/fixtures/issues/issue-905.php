@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-905' => array(
+return [
+    'issue-905' => [
         'ua' => 'Lynx/2.8.9dev.1 libwww-FM/2.14 SSL-MM/1.4.1 GNUTLS/3.3.8',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Lynx',
             'Browser' => 'Lynx',
             'Browser_Type' => 'Browser',
@@ -50,8 +50,8 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-);
+    ],
+];

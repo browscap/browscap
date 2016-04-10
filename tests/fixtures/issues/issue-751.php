@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-751' => array(
+return [
+    'issue-751' => [
         'ua' => 'Opera/9.27',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Opera 9.27',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
@@ -50,8 +50,8 @@ return array(
             'RenderingEngine_Name' => 'Presto',
             'RenderingEngine_Version' => '2.0',
             'RenderingEngine_Maker' => 'Opera Software ASA',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-);
+    ],
+];

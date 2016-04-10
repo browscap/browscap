@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-638' => array(
+return [
+    'issue-638' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.89 Vivaldi/1.0.83.38 Safari/537.36',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Vivaldi 1.0',
             'Browser' => 'Vivaldi',
             'Browser_Type' => 'Browser',
@@ -50,8 +50,8 @@ return array(
             'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-);
+    ],
+];

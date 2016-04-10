@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-808-A' => array(
+return [
+    'issue-808-A' => [
         'ua' => 'Googlebot',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Googlebot',
             'Browser' => 'Google Bot',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,13 +50,13 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-    'issue-808-B' => array(
+    ],
+    'issue-808-B' => [
         'ua' => 'test certificate info',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'Vulnerability Scanners',
             'Browser' => 'test certificate info',
             'Browser_Type' => 'Bot/Crawler',
@@ -103,8 +103,8 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-);
+    ],
+];

@@ -1,9 +1,9 @@
 <?php
 
-return array(
-    'issue-135' => array(
+return [
+    'issue-135' => [
         'ua' => 'Mozilla/5.0 (compatible; WBSearchBot/1.1; +http://www.warebay.com/bot.html)',
-        'properties' => array(
+        'properties' => [
             'Comment' => 'WBSearchBot',
             'Browser' => 'WBSearchBot',
             'Browser_Type' => 'Bot/Crawler',
@@ -50,8 +50,8 @@ return array(
             'RenderingEngine_Name' => 'unknown',
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
-        ),
+        ],
         'lite' => false,
         'standard' => true,
-    ),
-);
+    ],
+];
