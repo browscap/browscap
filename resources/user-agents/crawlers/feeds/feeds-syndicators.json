@@ -586,6 +586,23 @@
           }
         },
         {
+          "match": "FeedlyBot\/1.0*",
+          "properties": {
+            "Browser": "FeedlyBot",
+            "Browser_Maker": "feedly.com",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "FeedlyBot\/*",
+          "properties": {
+            "Browser": "FeedlyBot",
+            "Browser_Maker": "feedly.com"
+          }
+        },
+        {
           "match": "Mozilla\/5.0 (compatible; theoldreader.com*",
           "properties": {
             "Browser": "The Old Reader",
