@@ -104,6 +104,21 @@
           "platforms": [
             "OSX_10_10", "OSX"
           ]
+        },
+        {
+          "match": "Digg Feed Fetcher 1.0 (Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*",
+          "engine": "WebKit",
+          "device": "Macintosh",
+          "properties": {
+            "Browser": "Digg Feed Fetcher",
+            "Browser_Maker": "News.me Inc",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          },
+          "platforms": [
+            "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX"
+          ]
         }
       ]
     }
