@@ -6,12 +6,13 @@
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "Instagram App #MAJORVER#.#MINORVER#",
+      "userAgent": "Instagram App #MAJORVER#.#MINORVER# for iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
+      "platform": "iOS",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Instagram App #MAJORVER#.#MINORVER#",
+        "Comment": "Instagram App #MAJORVER#.#MINORVER# for iOS",
         "Browser": "Instagram App",
         "Browser_Type": "Application",
         "Browser_Maker": "Facebook",
@@ -50,7 +51,31 @@
             "iOS_E_4_3", "iOS_E_5_0", "iOS_E_5_1", "iOS_E_6_0", "iOS_E_6_1", "iOS_E_7_0", "iOS_E_7_1", "iOS_E_8_0", "iOS_E_8_1", "iOS_E_9_0", "iOS_E_9_1",
             "iOS_E"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "userAgent": "Instagram App #MAJORVER#.#MINORVER# for Android",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "platform": "Android",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Instagram App #MAJORVER#.#MINORVER# for Android",
+        "Browser": "Instagram App",
+        "Browser_Type": "Application",
+        "Browser_Maker": "Facebook",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
         {
           "match": "Instagram #MAJORVER#.#MINORVER#* Android*",
           "platforms": [
