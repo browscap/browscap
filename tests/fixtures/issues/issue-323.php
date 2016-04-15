@@ -58,7 +58,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-323-C' => [
@@ -148,7 +148,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-323-F' => [
@@ -299,7 +299,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-323-K' => [
@@ -454,7 +454,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
 ];

@@ -1,7 +1,7 @@
 {
   "division": "Chrome #MAJORVER#.#MINORVER#",
-  "versions": [50, 49, 48, 47, 46, 45, 44, 43, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31, 30],
-  "sortIndex": 1150,
+  "versions": [51, 50],
+  "sortIndex": 1148,
   "lite": true,
   "standard": true,
   "userAgents": [
@@ -751,7 +751,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#Nexus 7 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "device": "Asus Nexus 7",
           "platforms": [
-            "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android_5_0"
+            "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android_5_0", "Android_5_1", "Android_6_0"
           ]
         },
         {
@@ -3980,7 +3980,7 @@
             "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
             "Android_2_0", "Android_2_1", "Android_2_2", "Android_2_3",
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3",
-            "Android_4_4", "Android_5_0", "Android_5_1",
+            "Android_4_4", "Android_5_0", "Android_5_1", "Android_6_0",
             "Android"
           ]
         },
