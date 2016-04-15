@@ -1729,6 +1729,13 @@
           }
         },
         {
+          "match": "PayPal IPN*",
+          "properties": {
+            "Browser": "Instant Payment Notification",
+            "Browser_Maker": "Paypal"
+          }
+        },
+        {
           "match": "Locubot*",
           "properties": {
             "Browser": "Locubot"
