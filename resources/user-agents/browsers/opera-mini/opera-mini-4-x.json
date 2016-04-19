@@ -27,135 +27,171 @@
       },
       "children": [
         {
-          "match": "Opera\/*(Android*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "match": "Opera\/*(Android*Opera Mini\/#MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone (Touch)",
           "platforms": [
             "Android"
           ]
         },
         {
-          "match": "Opera\/*(MTK*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "match": "Opera\/*(MTK*Opera Mini\/#MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone (Touch)",
           "platforms": [
             "Android"
           ]
         },
         {
-          "match": "Opera\/*(VRE*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "match": "Opera\/*(VRE*Opera Mini\/#MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone (Touch)",
           "platforms": [
             "Android"
           ]
         },
         {
-          "match": "Opera\/*(SpreadTrum*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "match": "Opera\/*(SpreadTrum*Opera Mini\/#MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone (Touch)",
           "platforms": [
             "Android"
           ]
         },
         {
-          "match": "Opera\/*(MAUI Runtime*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "match": "Opera\/*(MAUI Runtime*Opera Mini\/#MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone (Touch)",
           "platforms": [
             "Android"
           ]
         },
         {
-          "match": "Opera\/*(BlackBerry*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "match": "Opera\/*(BlackBerry*Opera Mini\/#MAJORVER#.#MINORVER#*",
           "device": "Blackberry Blackberry",
           "platforms": [
             "RIMOS"
           ]
         },
         {
-          "match": "Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "match": "Opera\/9.80 (J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*Windows NT*Version\/*",
+          "properties": {
+            "isModified": "true"
+          },
           "platforms": [
             "JAVA"
           ]
         },
         {
-          "match": "Opera\/*(Series 60*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "match": "Opera\/9.80 (J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*Mac OS X*Version\/*",
+          "properties": {
+            "isModified": "true"
+          },
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "Opera\/9.80 (J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "Opera\/9.60 (J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "Opera\/9.50 (J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "Opera\/*(Series 60*Opera Mini\/#MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone",
           "platforms": [
             "SymbianOS"
           ]
         },
         {
-          "match": "Opera\/*(Windows Mobile*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "match": "Opera\/*(Windows Mobile*Opera Mini\/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "WinMobile"
           ]
         },
         {
-          "match": "Opera\/*(*BREW*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "match": "Opera\/*(*BREW*Opera Mini\/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "Brew"
           ]
         },
         {
-          "match": "Opera\/*(*Bada*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "match": "Opera\/*(*Bada*Opera Mini\/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "Bada_1_0"
           ]
         },
         {
-          "match": "* Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "match": "* Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "JAVA"
           ]
         },
         {
-          "match": "SAMSUNG-GT-E1282T Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "match": "SAMSUNG-GT-E1282T Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*",
           "device": "Samsung GT-E1282T",
           "platforms": [
             "JAVA"
           ]
         },
         {
-          "match": "SAMSUNG-GT-E2252 Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "match": "SAMSUNG-GT-E2252 Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*",
           "device": "Samsung GT-E2252",
           "platforms": [
             "JAVA"
           ]
         },
         {
-          "match": "SAMSUNG-GT-E2202 Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "match": "SAMSUNG-GT-E2202 Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*",
           "device": "Samsung GT-E2202",
           "platforms": [
             "JAVA"
           ]
         },
         {
-          "match": "SAMSUNG-GT-E3309T Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*)*",
+          "match": "SAMSUNG-GT-E3309T Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*",
           "device": "Samsung GT-E3309T",
           "platforms": [
             "JAVA"
           ]
         },
         {
-          "match": "Z221; Mozilla\/5.0 (*\/MIDP*Opera Mini\/att\/#MAJORVER#.#MINORVER#*)*",
+          "match": "Z221; Mozilla\/5.0 (*\/MIDP*Opera Mini\/att\/#MAJORVER#.#MINORVER#*",
           "device": "ZTE Z221",
           "platforms": [
             "JAVA"
           ]
         },
         {
-          "match": "PantechP9020\/*; Mozilla\/5.0 (*\/MIDP*Opera Mini\/att\/#MAJORVER#.#MINORVER#*)*",
+          "match": "PantechP9020\/*; Mozilla\/5.0 (*\/MIDP*Opera Mini\/att\/#MAJORVER#.#MINORVER#*",
           "device": "Pantech P9020",
           "platforms": [
             "JAVA"
           ]
         },
         {
-          "match": "LG-GT550\/*; Mozilla\/5.0 (*\/MIDP*Opera Mini\/att\/#MAJORVER#.#MINORVER#*)*",
+          "match": "LG-GT550\/*; Mozilla\/5.0 (*\/MIDP*Opera Mini\/att\/#MAJORVER#.#MINORVER#*",
           "device": "LG GT550",
           "platforms": [
             "JAVA"
           ]
         },
         {
-          "match": "* Mozilla\/5.0 (*\/MIDP*Opera Mini\/att\/#MAJORVER#.#MINORVER#*)*",
+          "match": "* Mozilla\/5.0 (*\/MIDP*Opera Mini\/att\/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "JAVA"
           ]

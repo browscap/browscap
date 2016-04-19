@@ -27,7 +27,7 @@
           "match": "SurveyBot\/*"
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/* (*) SurveyBot\/2.3*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Firefox\/* (*) SurveyBot\/2.3*",
           "engine": "Gecko",
           "device": "Windows Desktop",
           "properties": {
@@ -40,7 +40,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/* (*) SurveyBot\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Firefox\/* (*) SurveyBot\/*",
           "engine": "Gecko",
           "device": "Windows Desktop",
           "platforms": [

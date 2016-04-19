@@ -65,7 +65,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (*) AppleWebKit\/* (KHTML, like Gecko; *) Version\/3.1 Safari\/*"
+          "match": "Mozilla\/5.0 (*) AppleWebKit\/* (KHTML* like Gecko; *) Version\/3.1 Safari\/*"
         },
         {
           "match": "google (*Enterprise*)",
@@ -86,7 +86,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (*) AppleWebKit\/* (KHTML, like Gecko; Google Wireless Transcoder) Chrome\/* Safari\/*",
+          "match": "Mozilla\/5.0 (*) AppleWebKit\/* (KHTML* like Gecko; Google Wireless Transcoder) Chrome\/* Safari\/*",
           "properties": {
             "Browser": "Google Wireless Transcoder"
           }
@@ -145,7 +145,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (*) AppleWebKit\/*(KHTML, like Gecko; Google-Adwords-DisplayAds-WebRender;)*",
+          "match": "Mozilla\/5.0 (*) AppleWebKit\/*(KHTML* like Gecko; Google-Adwords-DisplayAds-WebRender;)*",
           "properties": {
             "Browser": "Google Adwords DisplayAds WebRender"
           }

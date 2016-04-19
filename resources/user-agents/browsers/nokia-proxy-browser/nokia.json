@@ -28,82 +28,82 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (Series40; Nokia109*) Gecko\/* S40OviBrowser\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (Series40; Nokia109*) Gecko* S40OviBrowser\/#MAJORVER#.#MINORVER#*",
           "device": "Nokia 109"
         },
         {
-          "match": "Mozilla\/5.0 (Series40; Nokia110*) Gecko\/* S40OviBrowser\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (Series40; Nokia110*) Gecko* S40OviBrowser\/#MAJORVER#.#MINORVER#*",
           "device": "Nokia 110"
         },
         {
-          "match": "Mozilla\/5.0 (Series40; Nokia112*) Gecko\/* S40OviBrowser\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (Series40; Nokia112*) Gecko* S40OviBrowser\/#MAJORVER#.#MINORVER#*",
           "device": "Nokia 112"
         },
         {
-          "match": "Mozilla\/5.0 (Series40; Nokia113*) Gecko\/* S40OviBrowser\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (Series40; Nokia113*) Gecko* S40OviBrowser\/#MAJORVER#.#MINORVER#*",
           "device": "Nokia 113"
         },
         {
-          "match": "Mozilla\/5.0 (Series40; Nokia200*) Gecko\/* S40OviBrowser\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (Series40; Nokia200*) Gecko* S40OviBrowser\/#MAJORVER#.#MINORVER#*",
           "device": "Nokia 200"
         },
         {
-          "match": "Mozilla\/5.0 (Series40; Nokia201*) Gecko\/* S40OviBrowser\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (Series40; Nokia201*) Gecko* S40OviBrowser\/#MAJORVER#.#MINORVER#*",
           "device": "Nokia 201"
         },
         {
-          "match": "Mozilla\/5.0 (Series40; Nokia203*) Gecko\/* S40OviBrowser\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (Series40; Nokia203*) Gecko* S40OviBrowser\/#MAJORVER#.#MINORVER#*",
           "device": "Nokia 203"
         },
         {
-          "match": "Mozilla\/5.0 (Series40; Nokia220*) Gecko\/* S40OviBrowser\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (Series40; Nokia220*) Gecko* S40OviBrowser\/#MAJORVER#.#MINORVER#*",
           "device": "Nokia 220"
         },
         {
-          "match": "Mozilla\/5.0 (Series40; Nokia300*) Gecko\/* S40OviBrowser\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (Series40; Nokia300*) Gecko* S40OviBrowser\/#MAJORVER#.#MINORVER#*",
           "device": "Nokia 300"
         },
         {
-          "match": "Mozilla\/5.0 (Series40; Nokia305*) Gecko\/* S40OviBrowser\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (Series40; Nokia305*) Gecko* S40OviBrowser\/#MAJORVER#.#MINORVER#*",
           "device": "Nokia 305"
         },
         {
-          "match": "Mozilla\/5.0 (Series40; Nokia306*) Gecko\/* S40OviBrowser\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (Series40; Nokia306*) Gecko* S40OviBrowser\/#MAJORVER#.#MINORVER#*",
           "device": "Nokia 306"
         },
         {
-          "match": "Mozilla\/5.0 (Series40; Nokia6300*) Gecko\/* S40OviBrowser\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (Series40; Nokia6300*) Gecko* S40OviBrowser\/#MAJORVER#.#MINORVER#*",
           "device": "Nokia 6300"
         },
         {
-          "match": "Mozilla\/5.0 (Series40; NokiaC2-05*) Gecko\/* S40OviBrowser\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (Series40; NokiaC2-05*) Gecko* S40OviBrowser\/#MAJORVER#.#MINORVER#*",
           "device": "Nokia C2-05"
         },
         {
-          "match": "Mozilla\/5.0 (Series40; NokiaC2-06*) Gecko\/* S40OviBrowser\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (Series40; NokiaC2-06*) Gecko* S40OviBrowser\/#MAJORVER#.#MINORVER#*",
           "device": "Nokia C2-06"
         },
         {
-          "match": "Mozilla\/5.0 (Series40; NokiaC2-01*) Gecko\/* S40OviBrowser\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (Series40; NokiaC2-01*) Gecko* S40OviBrowser\/#MAJORVER#.#MINORVER#*",
           "device": "Nokia C2-01"
         },
         {
-          "match": "Mozilla\/5.0 (Series40; NokiaC2-03*) Gecko\/* S40OviBrowser\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (Series40; NokiaC2-03*) Gecko* S40OviBrowser\/#MAJORVER#.#MINORVER#*",
           "device": "Nokia C2-03"
         },
         {
-          "match": "Mozilla\/5.0 (Series40; Nokia501\/*) Gecko\/* S40OviBrowser\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (Series40; Nokia501\/*) Gecko* S40OviBrowser\/#MAJORVER#.#MINORVER#*",
           "device": "Nokia 501"
         },
         {
-          "match": "Mozilla\/5.0 (Series40*) Gecko\/* S40OviBrowser\/#MAJORVER#.#MINORVER#*"
+          "match": "Mozilla\/5.0 (Series40*) Gecko* S40OviBrowser\/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "Mozilla\/5.0 (Series30*; Nokia220*) Gecko\/* S40OviBrowser\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (Series30*; Nokia220*) Gecko* S40OviBrowser\/#MAJORVER#.#MINORVER#*",
           "device": "Nokia 220"
         },
         {
-          "match": "Mozilla\/5.0 (Series30*) Gecko\/* S40OviBrowser\/#MAJORVER#.#MINORVER#*"
+          "match": "Mozilla\/5.0 (Series30*) Gecko* S40OviBrowser\/#MAJORVER#.#MINORVER#*"
         }
       ]
     }

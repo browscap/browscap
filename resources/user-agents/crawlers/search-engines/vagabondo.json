@@ -1,0 +1,51 @@
+{
+  "division": "Vagabondo",
+  "sortIndex": 250,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Vagabondo",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Vagabondo",
+        "Browser": "Vagabondo",
+        "Browser_Maker": "wise-guys.nl",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/?.0 (compatible; *Vagabondo\/4.0*",
+          "properties": {
+            "Version": "4.0",
+            "MajorVer": "4",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/?.0 (compatible; *Vagabondo\/2.1*",
+          "properties": {
+            "Version": "2.1",
+            "MajorVer": "2",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "Mozilla\/?.0 (compatible; *Vagabondo\/*"
+        },
+        {
+          "match": "Mozilla\/?.0 (Vagabondo\/2.0*",
+          "properties": {
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/?.0 (Vagabondo\/*"
+        }
+      ]
+    }
+  ]
+}

@@ -23,21 +23,21 @@
       },
       "children": [
         {
-          "match": "Opera\/*(Android*Opera Mini*)*",
+          "match": "Opera\/*(Android*Opera Mini*",
           "device": "general Mobile Phone (Touch)",
           "platforms": [
             "Android"
           ]
         },
         {
-          "match": "Opera\/*(BlackBerry*Opera Mini*)*",
+          "match": "Opera\/*(BlackBerry*Opera Mini*",
           "device": "Blackberry Blackberry",
           "platforms": [
             "RIMOS"
           ]
         },
         {
-          "match": "Opera\/*(iPhone*Opera Mini*)*",
+          "match": "Opera\/*(iPhone*Opera Mini*",
           "device": "iPhone",
           "engine": "WebKit",
           "platforms": [
@@ -45,38 +45,64 @@
           ]
         },
         {
-          "match": "Opera\/*(J2ME\/MIDP*Opera Mini*)*",
+          "match": "Opera\/9.80 (J2ME\/iPhone;Opera Mini*",
+          "device": "iPhone",
+          "engine": "WebKit",
+          "platforms": [
+            "iOS"
+          ]
+        },
+        {
+          "match": "Opera\/9.80 (J2ME\/MIDP*Opera Mini*",
           "platforms": [
             "JAVA"
           ]
         },
         {
-          "match": "Opera\/*(Series 60*Opera Mini*)*",
+          "match": "Opera\/9.60 (J2ME\/MIDP*Opera Mini*",
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "Opera\/9.50 (J2ME\/MIDP*Opera Mini*",
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "Opera\/*(J2ME\/MIDP*Opera Mini*",
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "Opera\/*(Series 60*Opera Mini*",
           "device": "general Mobile Phone",
           "platforms": [
             "SymbianOS"
           ]
         },
         {
-          "match": "Opera\/*(Windows Mobile*Opera Mini*)*",
+          "match": "Opera\/*(Windows Mobile*Opera Mini*",
           "platforms": [
             "WinMobile"
           ]
         },
         {
-          "match": "Opera\/*(*BREW*Opera Mini*)*",
+          "match": "Opera\/*(*BREW*Opera Mini*",
           "platforms": [
             "Brew"
           ]
         },
         {
-          "match": "Opera\/*(*Bada*Opera Mini*)*",
+          "match": "Opera\/*(*Bada*Opera Mini*",
           "platforms": [
             "Bada_1_0"
           ]
         },
         {
-          "match": "* Opera\/*(J2ME\/MIDP*Opera Mini*)*",
+          "match": "* Opera\/*(J2ME\/MIDP*Opera Mini*",
           "platforms": [
             "JAVA"
           ]

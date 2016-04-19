@@ -49,6 +49,19 @@
         {
           "match": "Mozilla\/5.0 (Tablet; rv:#MAJORVER#.#MINORVER#*)*Gecko\/#MAJORVER#.#MINORVER#*Firefox\/#MAJORVER#.#MINORVER#*",
           "device": "general Tablet"
+        },
+        {
+          "match": "Mozilla\/5.0 (Mobile; rv:#MAJORVER#.#MINORVER#*)*Gecko*Firefox\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "isModified": "true"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (Tablet; rv:#MAJORVER#.#MINORVER#*)*Gecko*Firefox\/#MAJORVER#.#MINORVER#*",
+          "properties": {
+            "isModified": "true"
+          },
+          "device": "general Tablet"
         }
       ]
     }

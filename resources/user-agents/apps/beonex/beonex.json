@@ -1,0 +1,49 @@
+{
+  "division": "Beonex Communicator",
+  "sortIndex": 10840,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Beonex Communicator",
+      "platform": "NT_2",
+      "engine": "Gecko",
+      "device": "Windows Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Beonex Communicator",
+        "Browser": "Beonex Communicator",
+        "Browser_Type": "Application",
+        "Browser_Maker": "Beonex Business Services",
+        "Alpha": "false",
+        "Beta": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Beonex\/0.8*",
+          "properties": {
+            "Version": "0.8",
+            "MajorVer": "0",
+            "MinorVer": "8"
+          },
+          "platforms": [
+            "NT_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Beonex\/*",
+          "platforms": [
+            "NT_2"
+          ]
+        }
+      ]
+    }
+  ]
+}

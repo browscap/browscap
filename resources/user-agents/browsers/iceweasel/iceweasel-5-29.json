@@ -28,15 +28,21 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Firefox\/* Iceweasel\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Firefox\/* Iceweasel\/#MAJORVER#.#MINORVER#*",
           "platforms": [
-            "Linux_64", "Linux"
+            "Linux_64", "Linux_32", "Linux"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* Iceweasel\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Iceweasel\/#MAJORVER#.#MINORVER#* Firefox\/*",
           "platforms": [
-            "Linux_32_on_x64_2", "Linux_64", "Linux"
+            "Linux_64", "Linux_32", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Iceweasel\/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Linux_32_on_x64_2", "Linux_64", "Linux_32", "Linux"
           ]
         }
       ]

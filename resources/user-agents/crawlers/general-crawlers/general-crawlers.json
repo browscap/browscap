@@ -153,12 +153,6 @@
           }
         },
         {
-          "match": "htdig\/*",
-          "properties": {
-            "Browser": "ht:\/\/Dig"
-          }
-        },
-        {
           "match": "http:\/\/hilfe.acont.de\/bot.html ACONTBOT",
           "properties": {
             "Browser": "ACONTBOT"
@@ -332,7 +326,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko, Safari\/*) ADM\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko, Safari\/*) ADM\/*",
           "device": "Macintosh",
           "properties": {
             "Browser": "Adobe Dialog Manager"
@@ -806,12 +800,6 @@
           }
         },
         {
-          "match": "User*Agent:*",
-          "properties": {
-            "Browser": "Generic Crawler"
-          }
-        },
-        {
           "match": "USER_AGENT",
           "properties": {
             "Browser": "Generic Crawler"
@@ -990,7 +978,7 @@
           "match": "Mozilla\/5.0 (X11; Linux*) AppleWebKit\/* (KHTML,*like Gecko*)*Chrome\/13.0*Safari\/* botname\/cpan@dataminr.com*"
         },
         {
-          "match": "Mozilla\/5.0 (*Linux*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/13.0*Safari\/* botname\/cpan@dataminr.com*"
+          "match": "Mozilla\/5.0 (*Linux*) AppleWebKit\/* (KHTML* like Gecko)*Chrome\/13.0*Safari\/* botname\/cpan@dataminr.com*"
         },
         {
           "match": "ArtfaceBot (*compatible*;*MSIE 6.0; Mozilla\/4.0; Windows NT*)",
@@ -1030,7 +1018,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko\/* ThumbShotsBot*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* ThumbShotsBot*",
           "device": "Linux Desktop",
           "properties": {
             "Browser": "ThumbShotsBot"
@@ -1803,6 +1791,13 @@
           "match": "Mozilla\/5.0 (compatible; MerchantCentricBot\/*",
           "properties": {
             "Browser": "MerchantCentricBot"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; MSIE ?.0*; *windows*; MarketwireBot*",
+          "properties": {
+            "Browser": "MarketwireBot",
+            "Browser_Maker": "Marketwire L.P."
           }
         },
         {

@@ -53,7 +53,7 @@
           ]
         },
         {
-          "match": "Mozilla\/* (*) AppleWebKit\/* (KHTML, like Gecko) BingPreview\/*"
+          "match": "Mozilla\/* (*) AppleWebKit\/* (KHTML* like Gecko) BingPreview\/*"
         }
       ]
     },

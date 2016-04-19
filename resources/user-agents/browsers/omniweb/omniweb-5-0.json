@@ -1,7 +1,7 @@
 {
   "division": "OmniWeb #MAJORVER#.#MINORVER#",
   "versions": [5],
-  "sortIndex": 2702,
+  "sortIndex": 2694,
   "lite": false,
   "standard": true,
   "userAgents": [
@@ -28,155 +28,13 @@
       },
       "children": [
         {
-          "match": "Mozilla\/4.5 (compatible; OmniWeb\/4.0*; Mac_PowerPC)",
-          "properties": {
-            "CssVersion": "1",
-            "Version": "4.0",
-            "MajorVer": "4",
-            "MinorVer": "0"
-          }
-        },
-        {
-          "match": "Mozilla\/4.5 (compatible; OmniWeb\/4.1*; Mac_PowerPC)",
-          "properties": {
-            "CssVersion": "1",
-            "Version": "4.1",
-            "MajorVer": "4",
-            "MinorVer": "1"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) *OmniWeb\/v558.*",
-          "properties": {
-            "Version": "5.0",
-            "MajorVer": "5",
-            "MinorVer": "0"
-          },
-          "platforms": [
-            "OSX"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko, Safari) *OmniWeb\/v563.*",
-          "properties": {
-            "Version": "5.1",
-            "MajorVer": "5",
-            "MinorVer": "1"
-          },
-          "platforms": [
-            "OSX"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko, Safari\/420) *OmniWeb\/v*",
-          "properties": {
-            "Version": "5.5",
-            "MajorVer": "5",
-            "MinorVer": "5"
-          },
-          "platforms": [
-            "OSX"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko, Safari\/522) *OmniWeb\/v61?.0.*",
-          "properties": {
-            "Version": "5.6",
-            "MajorVer": "5",
-            "MinorVer": "6"
-          },
-          "platforms": [
-            "OSX"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko, Safari\/523.10) *OmniWeb\/v621.*",
-          "properties": {
-            "Version": "5.7",
-            "MajorVer": "5",
-            "MinorVer": "7"
-          },
-          "platforms": [
-            "OSX"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko, Safari\/525.20) *OmniWeb\/v622.*",
-          "properties": {
-            "Version": "5.9",
-            "MajorVer": "5",
-            "MinorVer": "9"
-          },
-          "platforms": [
-            "OSX"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko, Safari\/525.20) *OmniWeb\/v622.3.*",
-          "properties": {
-            "Version": "5.8",
-            "MajorVer": "5",
-            "MinorVer": "8"
-          },
-          "platforms": [
-            "OSX"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/420  (KHTML, like Gecko, Safari) *OmniWeb\/v*",
-          "properties": {
-            "Version": "5.5",
-            "MajorVer": "5",
-            "MinorVer": "5"
-          },
-          "platforms": [
-            "OSX"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) *OmniWeb\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) *OmniWeb\/v558.*",
           "platforms": [
             "OSX"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) *OmniWeb\/v558.*",
-          "properties": {
-            "Version": "5.0",
-            "MajorVer": "5",
-            "MinorVer": "0"
-          },
-          "platforms": [
-            "OSX"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#AppleWebKit\/420  (KHTML, like Gecko, Safari) *OmniWeb\/v*",
-          "properties": {
-            "Version": "5.5",
-            "MajorVer": "5",
-            "MinorVer": "5"
-          },
-          "platforms": [
-            "OSX"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko, Safari\/*) *OmniWeb\/v622.3.*",
-          "properties": {
-            "Version": "5.8",
-            "MajorVer": "5",
-            "MinorVer": "8"
-          },
-          "platforms": [
-            "OSX"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) *OmniWeb\/*",
-          "properties": {
-            "CssVersion": "1"
-          },
           "platforms": [
             "OSX"
           ]

@@ -76,7 +76,7 @@
           "device": "HTC HD mini"
         },
         {
-          "match": "Opera\/#MAJORVER#.#MINORVER#* (Windows NT 5.1; HTC_HD2\/1.0; ?*)",
+          "match": "Opera?#MAJORVER#.#MINORVER#* (Windows NT 5.1; HTC_HD2\/1.0; ?*)",
           "device": "HTC HD2",
           "platforms": [
             "WinMobile"

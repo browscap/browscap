@@ -1,0 +1,68 @@
+{
+  "division": "Arora #MAJORVER#.#MINORVER#",
+  "versions": ["0.5", "0.4", "0.3", "0.2"],
+  "sortIndex": 1193,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Arora #MAJORVER#.#MINORVER#",
+      "platform": "Windows",
+      "engine": "WebKit",
+      "device": "general Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Arora #MAJORVER#.#MINORVER#",
+        "Browser_Type": "Browser",
+        "Browser": "Arora",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Win32": "false",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "2"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko, Safari\/*)*Arora\/#MAJORVER#.#MINORVER#*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win2000", "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32", "Windows"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko, Safari\/*)*Arora\/#MAJORVER#.#MINORVER#*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* (KHTML* like Gecko, Safari\/*)*Arora\/#MAJORVER#.#MINORVER#*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko)*Arora\/#MAJORVER#.#MINORVER#* Safari\/*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win2000", "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32", "Windows"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko)*Arora\/#MAJORVER#.#MINORVER#* Safari\/*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux"
+          ]
+        }
+      ]
+    }
+  ]
+}

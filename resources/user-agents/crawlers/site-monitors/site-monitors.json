@@ -195,7 +195,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (Windows*) AppleWebKit\/* (KHTML, like Gecko) Bromium Safari\/1.0*",
+          "match": "Mozilla\/5.0 (Windows*) AppleWebKit\/* (KHTML* like Gecko) Bromium Safari\/1.0*",
           "properties": {
             "Browser": "vSentry",
             "Browser_Maker": "Bromium",
@@ -205,7 +205,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (Windows*) AppleWebKit\/* (KHTML, like Gecko) Bromium Safari\/*",
+          "match": "Mozilla\/5.0 (Windows*) AppleWebKit\/* (KHTML* like Gecko) Bromium Safari\/*",
           "properties": {
             "Browser": "vSentry",
             "Browser_Maker": "Bromium"

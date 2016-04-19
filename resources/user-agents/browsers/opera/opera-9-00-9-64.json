@@ -1,6 +1,6 @@
 {
   "division": "Opera #MAJORVER#.#MINORVER#",
-  "versions": ["9.64", "9.63", "9.62", "9.61", "9.60", "9.52", "9.51", "9.50", "9.30", "9.27", "9.26", "9.25", "9.24", "9.23", "9.22", "9.21", "9.20", "9.10", "9.02", "9.01", "9.00", "9.0"],
+  "versions": ["9.70", "9.64", "9.63", "9.62", "9.61", "9.60", "9.52", "9.51", "9.50", "9.5", "9.4", "9.30", "9.27", "9.26", "9.25", "9.24", "9.23", "9.22", "9.21", "9.20", "9.10", "9.02", "9.01", "9.00", "9.0"],
   "sortIndex": 1058,
   "lite": false,
   "standard": true,
@@ -28,10 +28,70 @@
       },
       "children": [
         {
+          "match": "Mozilla\/4.0 (#PLATFORM#)*Gecko*Firefox\/* Opera?#MAJORVER#.#MINORVER#*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win2000", "Win2000_2", "WinME", "WinME_2", "Win95_2", "Win98_2", "NT", "NT4",
+            "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32", "Win8_32", "Win8_1_32"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko*Firefox\/* Opera?#MAJORVER#.#MINORVER#*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win2000", "Win2000_2", "WinME", "WinME_2", "Win95_2", "Win98_2", "NT", "NT4",
+            "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32", "Win8_32", "Win8_1_32"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko*Firefox\/* Opera?#MAJORVER#.#MINORVER#*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64", "Linux_32", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla\/4.0 (#PLATFORM#)*Gecko*Firefox\/* Opera?#MAJORVER#.#MINORVER#*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win2000", "Win2000_2", "WinME", "WinME_2", "Win95_2", "Win98_2", "NT", "NT4",
+            "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32", "Win8_32", "Win8_1_32"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko*Firefox\/* Opera?#MAJORVER#.#MINORVER#*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win2000", "Win2000_2", "WinME", "WinME_2", "Win95_2", "Win98_2", "NT", "NT4",
+            "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32", "Win8_32", "Win8_1_32"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko*Firefox\/* Opera?#MAJORVER#.#MINORVER#*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64", "Linux_32", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla\/4.0 (#PLATFORM#)*Gecko*Firefox\/* Opera?#MAJORVER#.#MINORVER#*",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko*Firefox\/* Opera?#MAJORVER#.#MINORVER#*",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX"
+          ]
+        },
+        {
           "match": "Mozilla\/4.0 (compatible; MSIE#PLATFORM#)*Opera?#MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
           "platforms": [
-            "Win2000", "Win2000_2", "WinME", "WinME_2", "Win95_2", "Win98_2", "NT4",
+            "Win2000", "Win2000_2", "WinME", "WinME_2", "Win95_2", "Win98_2", "NT", "NT4",
             "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32", "Win8_32", "Win8_1_32"
           ]
         },
@@ -39,8 +99,36 @@
           "match": "Mozilla\/5.0 (compatible; MSIE#PLATFORM#)*Opera?#MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
           "platforms": [
-            "Win2000", "Win2000_2", "WinME", "WinME_2", "Win95_2", "Win98_2", "NT4",
+            "Win2000", "Win2000_2", "WinME", "WinME_2", "Win95_2", "Win98_2", "NT", "NT4",
             "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32", "Win8_32", "Win8_1_32"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; MSIE#PLATFORM#)*Opera?#MAJORVER#.#MINORVER#*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64", "Linux_32", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla\/4.0 (compatible; MSIE#PLATFORM#)*Opera?#MAJORVER#.#MINORVER#*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64", "Linux_32", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; MSIE#PLATFORM#)*Opera?#MAJORVER#.#MINORVER#*",
+          "device": "Macintosh",
+          "platforms": [
+            "MacPPC_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/4.0 (compatible; MSIE#PLATFORM#)*Opera?#MAJORVER#.#MINORVER#*",
+          "device": "Macintosh",
+          "platforms": [
+            "MacPPC_2"
           ]
         },
         {
@@ -54,7 +142,7 @@
           "match": "Mozilla\/?.*(#PLATFORM#)*Opera?#MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
           "platforms": [
-            "Win2000", "Win2000_2", "WinME", "WinME_2", "Win95_2", "Win98_2", "NT4",
+            "Win2000", "Win2000_2", "WinME", "WinME_2", "Win95_2", "Win98_2", "NT", "NT4",
             "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32", "Win8_32", "Win8_1_32"
           ]
         },
@@ -84,7 +172,7 @@
           "match": "Mozilla\/?.*(*Opera?#MAJORVER#.#MINORVER##PLATFORM#)*",
           "device": "Windows Desktop",
           "platforms": [
-            "Win2000", "Win2000_2", "WinME", "WinME_2", "Win95_2", "Win98_2", "NT4",
+            "Win2000", "Win2000_2", "WinME", "WinME_2", "Win95_2", "Win98_2", "NT", "NT4",
             "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32", "Win8_32", "Win8_1_32"
           ]
         },
@@ -104,22 +192,22 @@
           ]
         },
         {
-          "match": "Opera\/#MAJORVER#.#MINORVER#*(#PLATFORM#)*",
+          "match": "Opera?#MAJORVER#.#MINORVER#*(#PLATFORM#)*",
           "device": "Linux Desktop",
           "platforms": [
             "Linux"
           ]
         },
         {
-          "match": "Opera\/#MAJORVER#.#MINORVER#*(#PLATFORM#)*",
+          "match": "Opera?#MAJORVER#.#MINORVER#*(#PLATFORM#)*",
           "device": "Windows Desktop",
           "platforms": [
-            "Win2000", "Win2000_2", "WinME", "WinME_2", "Win95_2", "Win98_2", "NT4",
+            "Win2000", "Win2000_2", "WinME", "WinME_2", "Win95_2", "Win98_2", "NT", "NT4",
             "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32", "Win8_32", "Win8_1_32"
           ]
         },
         {
-          "match": "Opera\/#MAJORVER#.#MINORVER#*(#PLATFORM#)*",
+          "match": "Opera?#MAJORVER#.#MINORVER#*(#PLATFORM#)*",
           "device": "Macintosh",
           "platforms": [
             "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
@@ -127,18 +215,18 @@
           ]
         },
         {
-          "match": "Opera\/#MAJORVER#.#MINORVER#*(#PLATFORM#)*",
+          "match": "Opera?#MAJORVER#.#MINORVER#*(#PLATFORM#)*",
           "device": "general Desktop",
           "platforms": [
             "FreeBSD", "SunOS"
           ]
         },
         {
-          "match": "Opera\/#MAJORVER#.#MINORVER#*(Nintendo Wii; U; *)",
+          "match": "Opera?#MAJORVER#.#MINORVER#*(Nintendo Wii; U; *)",
           "device": "Nintendo Wii"
         },
         {
-          "match": "Opera\/#MAJORVER#.#MINORVER#*"
+          "match": "Opera?#MAJORVER#.#MINORVER#*"
         }
       ]
     }

@@ -1,0 +1,47 @@
+{
+  "division": "IRLbot",
+  "sortIndex": 470,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "IRLbot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "IRLbot",
+        "Browser": "IRLbot",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "IRLbot\/3.0*",
+          "properties": {
+            "Version": "3.0",
+            "MajorVer": "3",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "IRLbot\/2.0*",
+          "properties": {
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "IRLbot\/1.0*",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "IRLbot\/*"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "division": "Iceweasel Generic",
+  "sortIndex": 3157,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Iceweasel Generic",
+      "platform": "Linux",
+      "engine": "Gecko",
+      "device": "Linux Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Iceweasel Generic",
+        "Browser": "Iceweasel",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Software in the Public Interest, Inc.",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "2"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Firefox\/*Iceweasel*",
+          "platforms": [
+            "Linux_64", "Linux_32", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Iceweasel* Firefox\/*",
+          "platforms": [
+            "Linux_64", "Linux_32", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Iceweasel\/*",
+          "platforms": [
+            "Linux_32_on_x64_2", "Linux_64", "Linux_32", "Linux"
+          ]
+        }
+      ]
+    }
+  ]
+}

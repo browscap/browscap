@@ -1,0 +1,47 @@
+{
+  "division": "ELinks Generic",
+  "sortIndex": 2301,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "ELinks Generic",
+      "device": "general Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "ELinks Generic",
+        "Browser": "ELinks",
+        "Browser_Type": "Browser",
+        "Frames": "true",
+        "Tables": "true"
+      },
+      "children": [
+        {
+          "match": "ELinks (#PLATFORM#)",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux"
+          ]
+        },
+        {
+          "match": "ELinks\/* (#PLATFORM#)",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux"
+          ]
+        },
+        {
+          "match": "ELinks (#PLATFORM#)",
+          "device": "general Desktop",
+          "platforms": [
+            "NetBSD"
+          ]
+        },
+        {
+          "match": "Elinks (textmode)",
+          "device": "general Desktop"
+        }
+      ]
+    }
+  ]
+}

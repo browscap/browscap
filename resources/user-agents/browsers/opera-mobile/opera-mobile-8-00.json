@@ -1,6 +1,6 @@
 {
   "division": "Opera Mobile #MAJORVER#.#MINORVER#",
-  "versions": ["8.00"],
+  "versions": ["8.01", "8.00", "8.0"],
   "sortIndex": 1044,
   "lite": false,
   "standard": false,
@@ -27,6 +27,18 @@
         "CssVersion": "1"
       },
       "children": [
+        {
+          "match": "Mozilla\/4.0 (compatible; MSIE#PLATFORM#)*Opera?#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "WinCE"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; MSIE#PLATFORM#)*Opera?#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "WinCE"
+          ]
+        },
         {
           "match": "MOT-A1200\/* LinuxOS\/* Browser\/Opera#MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone",

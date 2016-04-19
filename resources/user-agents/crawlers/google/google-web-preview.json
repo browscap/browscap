@@ -20,14 +20,14 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko? Google Web Preview*)*Chrome\/*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko? Google Web Preview*)*Chrome\/*Safari\/*",
           "device": "Linux Desktop",
           "platforms": [
             "Linux_64", "Linux_32", "Linux"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (iPad#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko? Google Web Preview*)*Version\/*Safari\/*",
+          "match": "Mozilla\/5.0 (iPad#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko? Google Web Preview*)*Version\/*Safari\/*",
           "device": "iPad",
           "engine": "WebKit",
           "platforms": [
@@ -37,7 +37,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko? Google Web Preview*)*Version\/*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko? Google Web Preview*)*Version\/*Safari\/*",
           "device": "general Mobile Device (Apple)",
           "engine": "WebKit",
           "platforms": [
