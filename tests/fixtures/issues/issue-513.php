@@ -6925,7 +6925,7 @@ return [
             'isMobileDevice' => false,
             'isTablet' => false,
             'isSyndicationReader' => true,
-            'Crawler' => true,
+            'Crawler' => false,
             'isFake' => false,
             'isAnonymized' => false,
             'isModified' => false,

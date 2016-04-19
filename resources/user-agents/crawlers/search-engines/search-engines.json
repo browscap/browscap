@@ -532,12 +532,18 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; YoudaoBot\/1.*; http:\/\/www.youdao.com\/help\/webmaster\/spider\/*)",
+          "match": "Mozilla\/5.0 (compatible; YoudaoBot\/1.0*",
           "properties": {
             "Browser": "YoudaoBot",
             "Version": "1.0",
             "MajorVer": "1",
             "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; YoudaoBot\/*",
+          "properties": {
+            "Browser": "YoudaoBot"
           }
         },
         {

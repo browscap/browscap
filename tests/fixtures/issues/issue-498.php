@@ -165,7 +165,7 @@ return [
         'properties' => [
             'Comment' => 'Apple PubSub',
             'Browser' => 'Apple PubSub',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Feed Reader',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Apple Inc',
             'Browser_Modus' => 'unknown',
@@ -194,7 +194,7 @@ return [
             'isMobileDevice' => false,
             'isTablet' => false,
             'isSyndicationReader' => true,
-            'Crawler' => true,
+            'Crawler' => false,
             'isFake' => false,
             'isAnonymized' => false,
             'isModified' => false,
