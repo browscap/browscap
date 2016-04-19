@@ -322,7 +322,7 @@ return [
     'issue-267-G' => [
         'ua' => 'FeeddlerRSS 2.4 (iPad; iPhone OS 7.1; en_GB)',
         'properties' => [
-            'Comment' => 'Feeds Syndicators',
+            'Comment' => 'Feeddler RSS Reader',
             'Browser' => 'Feeddler RSS Reader',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '32',
@@ -4617,7 +4617,7 @@ return [
         'properties' => [
             'Comment' => 'WebThumb',
             'Browser' => 'WebThumb',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Boutell.Com, Inc.',
             'Browser_Modus' => 'unknown',
@@ -4646,7 +4646,7 @@ return [
             'isMobileDevice' => false,
             'isTablet' => false,
             'isSyndicationReader' => false,
-            'Crawler' => true,
+            'Crawler' => false,
             'isFake' => false,
             'isAnonymized' => false,
             'isModified' => false,
@@ -4774,7 +4774,7 @@ return [
     'issue-267-CN' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0b; Windows NT 6.0 ; .NET CLR 2.0.50215; SL Commerce Client v1.0; Tablet PC 2.0',
         'properties' => [
-            'Comment' => 'Second Live',
+            'Comment' => 'SecondLive',
             'Browser' => 'Second Live Commerce Client',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '32',

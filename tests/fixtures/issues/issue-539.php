@@ -1278,7 +1278,7 @@ return [
         'properties' => [
             'Comment' => 'open-webkit-sharp',
             'Browser' => 'open-webkit-sharp',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -1307,7 +1307,7 @@ return [
             'isMobileDevice' => false,
             'isTablet' => false,
             'isSyndicationReader' => false,
-            'Crawler' => true,
+            'Crawler' => false,
             'isFake' => false,
             'isAnonymized' => false,
             'isModified' => false,
@@ -1435,7 +1435,7 @@ return [
     'issue-539-AL' => [
         'ua' => 'Mozilla/5.0 (Windows; U; ; en-US) AppleWebKit/533.3 (KHTML, like Gecko) SecondLife/3.7.23.297296 (Second Life Release; default skin) Safari/533.3',
         'properties' => [
-            'Comment' => 'Second Live',
+            'Comment' => 'SecondLive',
             'Browser' => 'Second Live Client',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '32',
@@ -3716,7 +3716,7 @@ return [
         'properties' => [
             'Comment' => 'phantomas',
             'Browser' => 'phantomas',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Application',
             'Browser_Bits' => '64',
             'Browser_Maker' => 'Maciej Brencz',
             'Browser_Modus' => 'unknown',
@@ -3745,7 +3745,7 @@ return [
             'isMobileDevice' => false,
             'isTablet' => false,
             'isSyndicationReader' => false,
-            'Crawler' => true,
+            'Crawler' => false,
             'isFake' => false,
             'isAnonymized' => false,
             'isModified' => false,

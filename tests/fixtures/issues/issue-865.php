@@ -852,9 +852,9 @@ return [
     'issue-865-Q' => [
         'ua' => 'WEBDAV Client',
         'properties' => [
-            'Comment' => 'WEBDAV Client',
-            'Browser' => 'WEBDAV Client',
-            'Browser_Type' => 'Bot/Crawler',
+            'Comment' => 'Default Browser',
+            'Browser' => 'Default Browser',
+            'Browser_Type' => 'unknown',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -883,7 +883,7 @@ return [
             'isMobileDevice' => false,
             'isTablet' => false,
             'isSyndicationReader' => false,
-            'Crawler' => true,
+            'Crawler' => false,
             'isFake' => false,
             'isAnonymized' => false,
             'isModified' => false,
@@ -899,7 +899,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
     ],
     'issue-865-R' => [

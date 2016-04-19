@@ -6,7 +6,7 @@ return [
         'properties' => [
             'Comment' => 'Cyberduck',
             'Browser' => 'Cyberduck',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'iterate GmbH',
             'Browser_Modus' => 'unknown',
@@ -35,7 +35,7 @@ return [
             'isMobileDevice' => false,
             'isTablet' => false,
             'isSyndicationReader' => false,
-            'Crawler' => true,
+            'Crawler' => false,
             'isFake' => false,
             'isAnonymized' => false,
             'isModified' => false,

@@ -163,8 +163,8 @@ return [
     'issue-498-D' => [
         'ua' => 'Apple-PubSub/65.28',
         'properties' => [
-            'Comment' => 'Apple-PubSub',
-            'Browser' => 'Apple-PubSub',
+            'Comment' => 'Apple PubSub',
+            'Browser' => 'Apple PubSub',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Apple Inc',

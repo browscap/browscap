@@ -693,7 +693,7 @@ return [
     'issue-500-N' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) Shrook/434l',
         'properties' => [
-            'Comment' => 'General RSS',
+            'Comment' => 'Shrook',
             'Browser' => 'Shrook',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '32',
@@ -746,7 +746,7 @@ return [
     'issue-500-O' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) Shrook/1290y',
         'properties' => [
-            'Comment' => 'General RSS',
+            'Comment' => 'Shrook',
             'Browser' => 'Shrook',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '32',
@@ -1329,7 +1329,7 @@ return [
     'issue-500-Z' => [
         'ua' => 'Mozilla/4.0 (jig browser web; 1.0.4; N02A)',
         'properties' => [
-            'Comment' => 'W3C',
+            'Comment' => 'Jig Browser',
             'Browser' => 'jig browser web',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
