@@ -15704,6 +15704,19 @@
         "isTablet": "false"
       }
     },
+    "LG Nexus 5X": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Nexus 5X",
+        "Device_Name": "Nexus 5X",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "Google",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "LG E906": {
       "standard": false,
       "properties": {
