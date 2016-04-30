@@ -2655,7 +2655,7 @@ return [
         'ua' => 'sfFeedReader/0.9',
         'properties' => [
             'Comment' => 'Feeds Syndicators',
-            'Browser' => 'Symfony RSS reader',
+            'Browser' => 'Symfony RSS Reader',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',

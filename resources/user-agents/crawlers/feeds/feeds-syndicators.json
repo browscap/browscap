@@ -669,7 +669,7 @@
         {
           "match": "sfFeedReader\/0.9*",
           "properties": {
-            "Browser": "Symfony RSS reader",
+            "Browser": "Symfony RSS Reader",
             "Version": "0.9",
             "MajorVer": "0",
             "MinorVer": "9"
@@ -678,7 +678,28 @@
         {
           "match": "sfFeedReader\/*",
           "properties": {
-            "Browser": "Symfony RSS reader"
+            "Browser": "Symfony RSS Reader"
+          }
+        },
+        {
+          "match": "Feed Wrangler\/1.0*",
+          "properties": {
+            "Browser": "Feed Wrangler",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Feed Wrangler\/*",
+          "properties": {
+            "Browser": "Feed Wrangler"
+          }
+        },
+        {
+          "match": "Feedfetcher-feedraider\/*",
+          "properties": {
+            "Browser": "feedraider"
           }
         }
       ]

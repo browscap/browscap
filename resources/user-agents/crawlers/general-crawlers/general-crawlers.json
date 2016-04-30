@@ -1599,6 +1599,16 @@
           }
         },
         {
+          "match": "Mozilla\/5.0 (compatible; Crawler\/3.0*",
+          "properties": {
+            "Browser": "Crawler",
+            "Browser_Maker": "Linkfluence SAS",
+            "Version": "3.0",
+            "MajorVer": "3",
+            "MinorVer": "0"
+          }
+        },
+        {
           "match": "Mozilla\/5.0 (compatible; Crawler\/0.9*",
           "properties": {
             "Browser": "Crawler",
@@ -2582,6 +2592,58 @@
           "match": "abot\/*",
           "properties": {
             "Browser": "abot"
+          }
+        },
+        {
+          "match": "AdnormCrawler*",
+          "properties": {
+            "Browser": "AdnormCrawler",
+            "Browser_Maker": "Adnorm, LLC."
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; FatBot 2.0*",
+          "properties": {
+            "Browser": "FatBot",
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; FatBot*",
+          "properties": {
+            "Browser": "FatBot"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; InfuzApp\/1.0*",
+          "properties": {
+            "Browser": "InfuzAppBot",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; InfuzApp\/*",
+          "properties": {
+            "Browser": "InfuzAppBot"
+          }
+        },
+        {
+          "match": "wume_crawler\/1.1*",
+          "properties": {
+            "Browser": "wume crawler",
+            "Version": "1.1",
+            "MajorVer": "1",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "wume_crawler\/*",
+          "properties": {
+            "Browser": "wume crawler"
           }
         }
       ]

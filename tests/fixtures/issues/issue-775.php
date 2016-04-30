@@ -4,7 +4,7 @@ return [
     'issue-775' => [
         'ua' => 'Mozilla/5.0 (Mobile: Windows Phone 8.1; Android 4.0; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; Nokia; Lumia 730 Dual Sim',
         'properties' => [
-            'Comment' => 'IEMobile',
+            'Comment' => 'IEMobile 11.0',
             'Browser' => 'IEMobile',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
