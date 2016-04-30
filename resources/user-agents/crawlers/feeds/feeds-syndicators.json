@@ -697,7 +697,7 @@
           }
         },
         {
-          "match": "Feedfetcher-feedraider\/*",
+          "match": "Feedfetcher-feedraider*",
           "properties": {
             "Browser": "feedraider"
           }
