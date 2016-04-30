@@ -322,7 +322,7 @@ return [
     'issue-279-G' => [
         'ua' => 'Wget/1.10.2',
         'properties' => [
-            'Comment' => 'wget',
+            'Comment' => 'wget 1.10',
             'Browser' => 'wget',
             'Browser_Type' => 'Offline Browser',
             'Browser_Bits' => '0',

@@ -6311,7 +6311,7 @@ return [
     'issue-618-DP' => [
         'ua' => 'Wget/1.12 (linux-gnu)',
         'properties' => [
-            'Comment' => 'wget',
+            'Comment' => 'wget 1.12',
             'Browser' => 'wget',
             'Browser_Type' => 'Offline Browser',
             'Browser_Bits' => '32',

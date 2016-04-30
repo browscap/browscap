@@ -1437,7 +1437,7 @@ return [
         'properties' => [
             'Comment' => 'SecondLive',
             'Browser' => 'SecondLive',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Linden Labs',
             'Browser_Modus' => 'unknown',

@@ -1,0 +1,39 @@
+{
+  "division": "wget",
+  "sortIndex": 1561,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "wget",
+      "device": "general Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "wget",
+        "Browser_Type": "Offline Browser",
+        "Browser_Maker": "Free Software Foundation, Inc.",
+        "Crawler": "false",
+        "Browser": "wget"
+      },
+      "children": [
+        {
+          "match": "Wget\/* (#PLATFORM#)*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux"
+          ]
+        },
+        {
+          "match": "Wget\/* (#PLATFORM#)*",
+          "device": "Macintosh",
+          "platforms": [
+            "Darwin"
+          ]
+        },
+        {
+          "match": "Wget*"
+        }
+      ]
+    }
+  ]
+}

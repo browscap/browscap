@@ -873,6 +873,15 @@
           }
         },
         {
+          "match": "Crawllybot\/0.1*",
+          "properties": {
+            "Browser": "Crawllybot",
+            "Version": "0.1",
+            "MajorVer": "0",
+            "MinorVer": "1"
+          }
+        },
+        {
           "match": "Crawllybot*",
           "properties": {
             "Browser": "Crawllybot"

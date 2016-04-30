@@ -8,6 +8,7 @@
       "userAgent": "Apple PubSub",
       "platform": "OSX",
       "device": "Macintosh",
+      "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Apple PubSub",

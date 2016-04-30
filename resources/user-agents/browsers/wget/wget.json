@@ -1,148 +1,41 @@
 {
-  "division": "wget",
+  "division": "wget #MAJORVER#.#MINORVER#",
+  "versions": ["1.16", "1.15", "1.14", "1.13", "1.12", "1.11", "1.10", 1],
   "sortIndex": 1560,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "wget",
+      "userAgent": "wget #MAJORVER#.#MINORVER#",
+      "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "wget",
+        "Comment": "wget #MAJORVER#.#MINORVER#",
+        "Browser": "wget",
         "Browser_Type": "Offline Browser",
         "Browser_Maker": "Free Software Foundation, Inc.",
-        "Crawler": "false",
-        "Browser": "wget"
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Crawler": "false"
       },
       "children": [
         {
-          "match": "Wget\/1.10* (#PLATFORM#)*",
-          "properties": {
-            "Version": "1.10",
-            "MajorVer": "1",
-            "MinorVer": "10"
-          },
+          "match": "Wget\/#MAJORVER#.#MINORVER#* (#PLATFORM#)*",
           "device": "Linux Desktop",
           "platforms": [
             "Linux"
           ]
         },
         {
-          "match": "Wget\/1.10*",
-          "properties": {
-            "Version": "1.10",
-            "MajorVer": "1",
-            "MinorVer": "10"
-          }
-        },
-        {
-          "match": "Wget\/1.11* (#PLATFORM#)*",
-          "properties": {
-            "Version": "1.11",
-            "MajorVer": "1",
-            "MinorVer": "11"
-          },
-          "device": "Linux Desktop",
+          "match": "Wget\/#MAJORVER#.#MINORVER#* (#PLATFORM#)*",
+          "device": "Macintosh",
           "platforms": [
-            "Linux"
+            "Darwin"
           ]
         },
         {
-          "match": "Wget\/1.11*",
-          "properties": {
-            "Version": "1.11",
-            "MajorVer": "1",
-            "MinorVer": "11"
-          }
-        },
-        {
-          "match": "Wget\/1.12* (#PLATFORM#)*",
-          "properties": {
-            "Version": "1.12",
-            "MajorVer": "1",
-            "MinorVer": "12"
-          },
-          "device": "Linux Desktop",
-          "platforms": [
-            "Linux"
-          ]
-        },
-        {
-          "match": "Wget\/1.12*",
-          "properties": {
-            "Version": "1.12",
-            "MajorVer": "1",
-            "MinorVer": "12"
-          }
-        },
-        {
-          "match": "Wget\/1.13* (#PLATFORM#)*",
-          "properties": {
-            "Version": "1.13",
-            "MajorVer": "1",
-            "MinorVer": "13"
-          },
-          "device": "Linux Desktop",
-          "platforms": [
-            "Linux"
-          ]
-        },
-        {
-          "match": "Wget\/1.13*",
-          "properties": {
-            "Version": "1.13",
-            "MajorVer": "1",
-            "MinorVer": "13"
-          }
-        },
-        {
-          "match": "Wget\/1.14* (#PLATFORM#)*",
-          "properties": {
-            "Version": "1.14",
-            "MajorVer": "1",
-            "MinorVer": "14"
-          },
-          "device": "Linux Desktop",
-          "platforms": [
-            "Linux"
-          ]
-        },
-        {
-          "match": "Wget\/1.14*",
-          "properties": {
-            "Version": "1.14",
-            "MajorVer": "1",
-            "MinorVer": "14"
-          }
-        },
-        {
-          "match": "Wget\/1.* (#PLATFORM#)*",
-          "properties": {
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
-          },
-          "device": "Linux Desktop",
-          "platforms": [
-            "Linux"
-          ]
-        },
-        {
-          "match": "Wget\/1.*",
-          "properties": {
-            "Version": "1.0",
-            "MajorVer": "1"
-          }
-        },
-        {
-          "match": "Wget\/* (#PLATFORM#)*",
-          "device": "Linux Desktop",
-          "platforms": [
-            "Linux"
-          ]
-        },
-        {
-          "match": "Wget*"
+          "match": "Wget\/#MAJORVER#.#MINORVER#*"
         }
       ]
     }

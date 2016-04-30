@@ -693,7 +693,7 @@ return [
     'issue-849-O' => [
         'ua' => 'Wget/1.14 (linux-gnu)',
         'properties' => [
-            'Comment' => 'wget',
+            'Comment' => 'wget 1.14',
             'Browser' => 'wget',
             'Browser_Type' => 'Offline Browser',
             'Browser_Bits' => '32',
