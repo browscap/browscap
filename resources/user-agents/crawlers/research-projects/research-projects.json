@@ -210,12 +210,6 @@
           "properties": {
             "Browser": "Finderlein Research Crawler"
           }
-        },
-        {
-          "match": "*research*",
-          "properties": {
-            "Browser": "Generic Research Crawler"
-          }
         }
       ]
     }
