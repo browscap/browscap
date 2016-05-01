@@ -64134,7 +64134,7 @@ return [
     'issue-900-BLW' => [
         'ua' => 'msnbot/2.1',
         'properties' => [
-            'Comment' => 'MSN',
+            'Comment' => 'msnbot',
             'Browser' => 'msnbot',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
@@ -64187,7 +64187,7 @@ return [
     'issue-900-BLX' => [
         'ua' => 'msnbot/0.9 (+http://search.msn.com/msnbot.htm)',
         'properties' => [
-            'Comment' => 'MSN',
+            'Comment' => 'msnbot',
             'Browser' => 'msnbot',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
@@ -64240,7 +64240,7 @@ return [
     'issue-900-BLY' => [
         'ua' => 'msnbot/0.11 ( http://search.msn.com/msnbot.htm)',
         'properties' => [
-            'Comment' => 'MSN',
+            'Comment' => 'msnbot',
             'Browser' => 'msnbot',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
@@ -64293,7 +64293,7 @@ return [
     'issue-900-BLZ' => [
         'ua' => 'MSNBOT/0.1 (http://search.msn.com/msnbot.htm)',
         'properties' => [
-            'Comment' => 'MSN',
+            'Comment' => 'msnbot',
             'Browser' => 'msnbot',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
