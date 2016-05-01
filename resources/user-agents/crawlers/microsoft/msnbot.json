@@ -1,0 +1,92 @@
+{
+  "division": "msnbot",
+  "sortIndex": 1221,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "msnbot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "Microsoft Corporation",
+        "Comment": "msnbot",
+        "Browser": "msnbot",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "msnbot\/0.11*",
+          "properties": {
+            "Version": "0.11",
+            "MajorVer": "0",
+            "MinorVer": "11"
+          }
+        },
+        {
+          "match": "msnbot\/2.0b*",
+          "properties": {
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0",
+            "Beta": "true"
+          }
+        },
+        {
+          "match": "msnbot\/2.1*",
+          "properties": {
+            "Version": "2.1",
+            "MajorVer": "2",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "msnbot\/2.0*",
+          "properties": {
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "msnbot\/1.1*",
+          "properties": {
+            "Version": "1.1",
+            "MajorVer": "1",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "msnbot\/1.0*",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "msnbot\/0.9*",
+          "properties": {
+            "Version": "0.9",
+            "MajorVer": "0",
+            "MinorVer": "9"
+          }
+        },
+        {
+          "match": "msnbot\/0.1*",
+          "properties": {
+            "Version": "0.1",
+            "MajorVer": "0",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "msnbot\/*"
+        }
+      ]
+    }
+  ]
+}
