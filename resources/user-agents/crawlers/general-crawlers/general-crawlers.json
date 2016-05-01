@@ -2645,6 +2645,39 @@
           "properties": {
             "Browser": "wume crawler"
           }
+        },
+        {
+          "match": "Mozilla\/4.0, VM-Crawler\/*",
+          "properties": {
+            "Browser": "VM-Crawler"
+          }
+        },
+        {
+          "match": "OpenLink Virtuoso RDF crawler*",
+          "properties": {
+            "Browser": "RDF Crawler"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; SRCCN!Spider\/1.1*",
+          "properties": {
+            "Browser": "SRCCN!Spider",
+            "Version": "1.1",
+            "MajorVer": "1",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; SRCCN!Spider\/*",
+          "properties": {
+            "Browser": "SRCCN!Spider"
+          }
+        },
+        {
+          "match": "ZoomInfo::Beehive Crawler*",
+          "properties": {
+            "Browser": "Beehive Crawler"
+          }
         }
       ]
     }

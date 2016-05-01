@@ -1488,7 +1488,7 @@ return [
     'issue-267-AC' => [
         'ua' => 'Mozilla/5.0 (compatible; EasouSpider; +http://www.easou.com/search/spider.html)',
         'properties' => [
-            'Comment' => 'Search Engines',
+            'Comment' => 'EasouSpider',
             'Browser' => 'EasouSpider',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
