@@ -19,13 +19,25 @@
       },
       "children": [
         {
-          "match": "*Ask Jeeves\/Teoma*",
+          "match": "Mozilla\/2.0 (compatible; Ask Jeeves\/Teoma*",
           "properties": {
             "Browser": "Teoma"
           }
         },
         {
-          "match": "*Ask Jeeves*",
+          "match": "Mozilla\/2.0 (compatible; Ask Jeeves*",
+          "properties": {
+            "Browser": "Ask Jeeves"
+          }
+        },
+        {
+          "match": "*Mozilla\/2.0 (compatible; Ask Jeeves\/Teoma*",
+          "properties": {
+            "Browser": "Teoma"
+          }
+        },
+        {
+          "match": "*Mozilla\/2.0 (compatible; Ask Jeeves*",
           "properties": {
             "Browser": "Ask Jeeves"
           }

@@ -107,7 +107,7 @@
           }
         },
         {
-          "match": "FeedOnFeeds\/0.1.* ( http:\/\/minutillo.com\/steve\/feedonfeeds\/)",
+          "match": "FeedOnFeeds\/0.1.*",
           "properties": {
             "Browser": "FeedOnFeeds",
             "Version": "0.1",
@@ -176,7 +176,7 @@
           }
         },
         {
-          "match": "Liferea\/* (Linux; *; http:\/\/liferea.sf.net\/)*",
+          "match": "Liferea\/*",
           "properties": {
             "Browser": "Liferea",
             "Version": "1.0",
@@ -185,12 +185,18 @@
           }
         },
         {
-          "match": "livedoor FeedFetcher\/0.0* (http:\/\/reader.livedoor.com\/;*)",
+          "match": "livedoor FeedFetcher\/0.01*",
           "properties": {
-            "Browser": "FeedFetcher",
-            "Version": "0.0",
+            "Browser": "livedoor FeedFetcher",
+            "Version": "0.01",
             "MajorVer": "0",
-            "MinorVer": "0"
+            "MinorVer": "01"
+          }
+        },
+        {
+          "match": "livedoor FeedFetcher\/*",
+          "properties": {
+            "Browser": "livedoor FeedFetcher"
           }
         },
         {

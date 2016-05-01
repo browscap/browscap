@@ -680,12 +680,6 @@
           }
         },
         {
-          "match": "Sosospider*",
-          "properties": {
-            "Browser": "Sosospider"
-          }
-        },
-        {
           "match": "Spinne\/*",
           "properties": {
             "Browser": "Spinne"

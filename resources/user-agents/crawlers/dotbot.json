@@ -18,7 +18,7 @@
       },
       "children": [
         {
-          "match": "DotBot\/*"
+          "match": "DotBot*"
         },
         {
           "match": "Mozilla\/5.0 (compatible; DotBot\/1.1*",

@@ -1,0 +1,35 @@
+{
+  "division": "Sosospider",
+  "sortIndex": 250,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Sosospider",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Sosospider",
+        "Browser": "Sosospider",
+        "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "Sogou Inc",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Sosospider*"
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Sosospider\/2.0*",
+          "properties": {
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; Sosospider\/*"
+        }
+      ]
+    }
+  ]
+}

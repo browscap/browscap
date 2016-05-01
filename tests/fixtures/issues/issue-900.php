@@ -67049,11 +67049,11 @@ return [
     'issue-900-BOH' => [
         'ua' => 'Sosospider+(+http://help.soso.com/webspider.htm)',
         'properties' => [
-            'Comment' => 'Search Engines',
+            'Comment' => 'Sosospider',
             'Browser' => 'Sosospider',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
-            'Browser_Maker' => 'unknown',
+            'Browser_Maker' => 'Sogou Inc',
             'Browser_Modus' => 'unknown',
             'Version' => '0.0',
             'MajorVer' => '0',

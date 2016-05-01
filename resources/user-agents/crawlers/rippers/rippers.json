@@ -1352,6 +1352,12 @@
           "properties": {
             "Browser": "SoftMaker Fetch"
           }
+        },
+        {
+          "match": "livedoor HttpClient*",
+          "properties": {
+            "Browser": "livedoor HttpClient"
+          }
         }
       ]
     }
