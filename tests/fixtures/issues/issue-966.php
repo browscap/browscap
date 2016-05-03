@@ -96,7 +96,7 @@ return [
             'AolVersion' => '0',
             'Device_Name' => 'Nexus 6P',
             'Device_Maker' => 'Huawei',
-            'Device_Type' => 'MobilePhone',
+            'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen',
             'Device_Code_Name' => 'Nexus 6P',
             'Device_Brand_Name' => 'Google',
