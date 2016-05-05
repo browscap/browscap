@@ -19500,6 +19500,19 @@
         "isTablet": "false"
       }
     },
+    "Huawei Nexus 6P": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Nexus 6P",
+        "Device_Name": "Nexus 6P",
+        "Device_Maker": "Huawei",
+        "Device_Brand_Name": "Google",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "UTStarcom GTX75": {
       "standard": false,
       "properties": {
