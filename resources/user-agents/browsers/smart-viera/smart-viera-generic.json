@@ -1,0 +1,36 @@
+{
+  "division": "SmartViera Generic",
+  "sortIndex": 1149,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "SmartViera Generic",
+      "device": "Viera",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "SmartViera Generic",
+        "Browser": "SmartViera",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Panasonic",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "CssVersion": "2"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#; Viera; *) AppleWebKit\/* (KHTML* like Gecko) Viera\/* Chrome\/*Safari\/*",
+          "engine": "WebKit",
+          "platforms": [
+            "FreeBSD"
+          ]
+        },
+        {
+          "match": "HbbTV\/* (;Panasonic;VIERA 2011;*"
+        }
+      ]
+    }
+  ]
+}

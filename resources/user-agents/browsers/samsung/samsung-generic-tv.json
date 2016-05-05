@@ -1,0 +1,42 @@
+{
+  "division": "Samsung Generic TV",
+  "sortIndex": 10171,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Samsung Generic TV",
+      "device": "Smart-TV",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Samsung Generic TV",
+        "Browser": "Samsung",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Samsung",
+        "Alpha": "false",
+        "Beta": "false",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Frames": "false",
+        "IFrames": "false",
+        "Tables": "false",
+        "Cookies": "false",
+        "JavaScript": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false"
+      },
+      "children": [
+        {
+          "match": "HbbTV\/* (;Samsung;SmartTV2012;;;) WebKit*",
+          "device": "Smart-TV",
+          "engine": "WebKit"
+        },
+        {
+          "match": "HbbTV\/* (;;;;;) Maple_2011*",
+          "device": "Smart-TV"
+        }
+      ]
+    }
+  ]
+}
