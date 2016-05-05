@@ -43,6 +43,22 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0*(#PLATFORM#Nexus 5X Build\/*)*AppleWebKit\/*(*KHTML* like Gecko*) Chrome\/* Safari\/* (compatible; Googlebot\/#MAJORVER#.#MINORVER#*",
+          "device": "LG Nexus 5X",
+          "engine": "Blink",
+          "platforms": [
+            "Android_6_0", "Android"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0*(#PLATFORM#)*AppleWebKit\/*(*KHTML* like Gecko*) Chrome\/* Safari\/* (compatible; Googlebot\/#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Phone",
+          "engine": "Blink",
+          "platforms": [
+            "Android_6_0", "Android"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (compatible; Googlebot\/#MAJORVER#.#MINORVER#*"
         },
         {
