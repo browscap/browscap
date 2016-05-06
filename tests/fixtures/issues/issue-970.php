@@ -151,7 +151,7 @@ return [
             'Device_Maker' => 'Apple Inc',
             'Device_Type' => 'Tablet',
             'Device_Pointing_Method' => 'touchscreen',
-            'Device_Code_Name' => 'iPhone',
+            'Device_Code_Name' => 'iPad',
             'Device_Brand_Name' => 'Apple',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',
