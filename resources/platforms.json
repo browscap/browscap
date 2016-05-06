@@ -4250,6 +4250,29 @@
         "Browser_Bits": "32",
         "Platform_Bits": "32"
       }
+    },
+    "Miui_OS": {
+      "match": "*MIUI*",
+      "lite": false,
+      "standard": true,
+      "properties": {
+        "Platform": "Miui OS",
+        "Platform_Maker": "Xiaomi Tech",
+        "Platform_Version": "unknown",
+        "Platform_Description": "a fork of Android OS by Xiaomi",
+        "Win32": "false",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "Miui_OS_7_3": {
+      "match": "*MIUI\/V7.3*",
+      "lite": false,
+      "standard": true,
+      "inherits": "Miui_OS",
+      "properties": {
+        "Platform_Version": "7.3"
+      }
     }
   }
 }
