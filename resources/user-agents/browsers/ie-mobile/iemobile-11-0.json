@@ -97,7 +97,18 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible*; MSIE 10*; #PLATFORM# *Trident\/6.0; IEMobile?10*; ARM; Touch; rv:#MAJORVER#; NOKIA; Lumia 920) like Gecko*",
+          "match": "Mozilla\/5.0 (compatible; MSIE 10*; #PLATFORM# *Trident\/6.0; IEMobile?10*; ARM; Touch; rv:#MAJORVER#*; NOKIA; Lumia 920) like Gecko*",
+          "properties": {
+            "Comment": "IEMobile #MAJORVER#.#MINORVER# in IEMobile 10.0 Compatibility Mode",
+            "Browser_Modus": "IEMobile 10.0 Compatibility Mode"
+          },
+          "device": "Nokia Lumia 920",
+          "platforms": [
+            "WinPhone8"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible*; MSIE 10*; #PLATFORM# *Trident\/6.0; IEMobile?10*; ARM; Touch; rv:#MAJORVER#*; NOKIA; Lumia 920) like Gecko*",
           "properties": {
             "Comment": "IEMobile #MAJORVER#.#MINORVER# in IEMobile 10.0 Compatibility Mode",
             "Browser_Modus": "IEMobile 10.0 Compatibility Mode"
@@ -153,6 +164,26 @@
           "match": "Mozilla\/5.0*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#*",
           "platforms": [
             "WinPhone8.1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; MSIE 10*; #PLATFORM# *Trident\/6.0; IEMobile?10*; ARM; Touch; rv:#MAJORVER#*) like Gecko*",
+          "properties": {
+            "Comment": "IEMobile #MAJORVER#.#MINORVER# in IEMobile 10.0 Compatibility Mode",
+            "Browser_Modus": "IEMobile 10.0 Compatibility Mode"
+          },
+          "platforms": [
+            "WinPhone8"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible*; MSIE 10*; #PLATFORM# *Trident\/6.0; IEMobile?10*; ARM; Touch; rv:#MAJORVER#*) like Gecko*",
+          "properties": {
+            "Comment": "IEMobile #MAJORVER#.#MINORVER# in IEMobile 10.0 Compatibility Mode",
+            "Browser_Modus": "IEMobile 10.0 Compatibility Mode"
+          },
+          "platforms": [
+            "WinPhone8"
           ]
         },
         {
