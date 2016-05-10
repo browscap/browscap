@@ -1,0 +1,30 @@
+{
+  "division": "CaptiveNetworkAgent",
+  "sortIndex": 970,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "CaptiveNetworkAgent",
+      "device": "general Mobile Device (Apple)",
+      "platform": "iOS",
+      "engine": "WebKit",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "CaptiveNetworkAgent",
+        "Browser": "CaptiveNetworkAgent",
+        "Browser_Maker": "Apple Inc",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true"
+      },
+      "children": [
+        {
+          "match": "CaptiveNetworkSupport*"
+        }
+      ]
+    }
+  ]
+}
