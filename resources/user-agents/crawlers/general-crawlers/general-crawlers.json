@@ -955,7 +955,7 @@
           }
         },
         {
-          "match": "Mozilla\/4.0 (compatible*; MSIE 6.0; Windows NT 5.1*; CrystalSemanticsBot http:\/\/www.crystalsemantics.com\/service-navigation\/imprint\/useragent\/)*",
+          "match": "Mozilla\/4.0 (compatible*; MSIE 6.0; Windows NT 5.1*; CrystalSemanticsBot *",
           "device": "Windows Desktop",
           "properties": {
             "Browser": "CrystalSemanticsBot"
