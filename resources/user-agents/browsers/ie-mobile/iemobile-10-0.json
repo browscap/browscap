@@ -35,6 +35,103 @@
       },
       "children": [
         {
+          "match": "Mozilla\/5.0 (compatible; MSIE #MAJORVER#*; #PLATFORM# *Trident\/6.0; IEMobile?#MAJORVER#*; ARM; Touch; HTC; Windows Phone 8S by HTC*)",
+          "device": "HTC 8S",
+          "platforms": [
+            "WinPhone8"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; MSIE #MAJORVER#*; #PLATFORM# *Trident\/6.0; IEMobile?#MAJORVER#*; ARM; Touch; HTC; Windows Phone 8X by HTC*)",
+          "device": "HTC 8X",
+          "platforms": [
+            "WinPhone8"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; MSIE #MAJORVER#*; #PLATFORM# *Trident\/6.0; IEMobile?#MAJORVER#*; ARM; Touch; NOKIA; Lumia 925*)",
+          "device": "Nokia Lumia 925",
+          "platforms": [
+            "WinPhone8"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; MSIE #MAJORVER#*; #PLATFORM# *Trident\/6.0; IEMobile?#MAJORVER#*; ARM; Touch; NOKIA; Lumia 920*)",
+          "device": "Nokia Lumia 920",
+          "platforms": [
+            "WinPhone8"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; MSIE #MAJORVER#*; #PLATFORM# *Trident\/6.0; IEMobile?#MAJORVER#*; ARM; Touch; NOKIA; Lumia 820*)",
+          "device": "Nokia Lumia 820",
+          "platforms": [
+            "WinPhone8"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; MSIE #MAJORVER#*; #PLATFORM# *Trident\/6.0; IEMobile?#MAJORVER#*; ARM; Touch; NOKIA; Lumia 520*)",
+          "device": "Nokia Lumia 520",
+          "platforms": [
+            "WinPhone8"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; MSIE #MAJORVER#*; #PLATFORM# *Trident\/6.0; IEMobile?#MAJORVER#*; ARM; Touch; NOKIA; Lumia 620*)",
+          "device": "Nokia Lumia 620",
+          "platforms": [
+            "WinPhone8"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; MSIE #MAJORVER#*; #PLATFORM# *Trident\/6.0; IEMobile?#MAJORVER#*; ARM; Touch; NOKIA; Lumia 625*)",
+          "device": "Nokia Lumia 625",
+          "platforms": [
+            "WinPhone8"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; MSIE #MAJORVER#*; #PLATFORM# *Trident\/6.0; IEMobile?#MAJORVER#*; ARM; Touch; NOKIA; Lumia 720*)",
+          "device": "Nokia Lumia 720",
+          "platforms": [
+            "WinPhone8"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; MSIE #MAJORVER#*; #PLATFORM# *Trident\/6.0; IEMobile?#MAJORVER#*; ARM; Touch; SAMSUNG; GT-I8750*)",
+          "device": "Samsung GT-I8750",
+          "platforms": [
+            "WinPhone8"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; MSIE #MAJORVER#*; #PLATFORM# *Trident\/6.0; IEMobile?#MAJORVER#*; ARM; Touch; NOKIA; 909*)",
+          "device": "Nokia Lumia 1020",
+          "platforms": [
+            "WinPhone8"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; MSIE #MAJORVER#*; #PLATFORM# *Trident\/6.0; IEMobile?#MAJORVER#*; ARM; Touch; NOKIA; Lumia 1320*)",
+          "device": "Nokia Lumia 1320",
+          "platforms": [
+            "WinPhone8"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; MSIE #MAJORVER#*; #PLATFORM# *Trident\/6.0; IEMobile?#MAJORVER#*; ARM; Touch; HUAWEI; W1-U00*)",
+          "device": "Huawei W1-U00",
+          "platforms": [
+            "WinPhone8"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; MSIE #MAJORVER#*; #PLATFORM# *Trident\/6.0; IEMobile?#MAJORVER#*; ARM; Touch; *)",
+          "platforms": [
+            "WinPhone8"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (compatible*; MSIE #MAJORVER#*; #PLATFORM# *Trident\/6.0; IEMobile?#MAJORVER#*; ARM; Touch; HTC; Windows Phone 8S by HTC*)",
           "device": "HTC 8S",
           "platforms": [
