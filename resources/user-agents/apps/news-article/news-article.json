@@ -1,0 +1,50 @@
+{
+  "division": "NewsArticle App",
+  "sortIndex": 953,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "NewsArticle App",
+      "device": "general Mobile Phone (Touch)",
+      "platform": "Android",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "NewsArticle App",
+        "Browser": "NewsArticle App",
+        "Browser_Type": "Application",
+        "Browser_Maker": "unknown",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Dalvik\/2.1* (*Linux*Android* MI 4LTE#PLATFORM#) *NewsArticle\/*",
+          "engine": "WebKit",
+          "device": "Xiaomi Mi 4 LTE",
+          "platforms": [
+            "Miui_OS_7_3", "Miui_OS"
+          ]
+        },
+        {
+          "match": "Dalvik\/2.1* (*Linux*Android#PLATFORM#) *NewsArticle\/*",
+          "engine": "WebKit",
+          "platforms": [
+            "Miui_OS_7_3", "Miui_OS"
+          ]
+        },
+        {
+          "match": "Dalvik\/* (*Linux*Android#PLATFORM#) *NewsArticle\/*",
+          "engine": "WebKit",
+          "platforms": [
+            "Miui_OS_7_3", "Miui_OS"
+          ]
+        }
+      ]
+    }
+  ]
+}
