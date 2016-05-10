@@ -216,7 +216,7 @@ return [
     'issue-525-E' => [
         'ua' => 'Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 620) like Gecko',
         'properties' => [
-            'Comment' => 'IEMobile',
+            'Comment' => 'IEMobile 11.0',
             'Browser' => 'IEMobile',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -481,7 +481,7 @@ return [
     'issue-525-J' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; HUAWEI; W1-U00)',
         'properties' => [
-            'Comment' => 'IEMobile',
+            'Comment' => 'IEMobile 10.0',
             'Browser' => 'IEMobile',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -587,7 +587,7 @@ return [
     'issue-525-L' => [
         'ua' => 'Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 820) like Gecko',
         'properties' => [
-            'Comment' => 'IEMobile',
+            'Comment' => 'IEMobile 11.0',
             'Browser' => 'IEMobile',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -1117,7 +1117,7 @@ return [
     'issue-525-V' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; Lumia 1320)',
         'properties' => [
-            'Comment' => 'IEMobile',
+            'Comment' => 'IEMobile 10.0',
             'Browser' => 'IEMobile',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -1382,7 +1382,7 @@ return [
     'issue-525-AA' => [
         'ua' => 'Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; 909) like Gecko',
         'properties' => [
-            'Comment' => 'IEMobile',
+            'Comment' => 'IEMobile 11.0',
             'Browser' => 'IEMobile',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -4244,7 +4244,7 @@ return [
     'issue-525-CC' => [
         'ua' => 'Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 625) like Gecko',
         'properties' => [
-            'Comment' => 'IEMobile',
+            'Comment' => 'IEMobile 11.0',
             'Browser' => 'IEMobile',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -8590,7 +8590,7 @@ return [
     'issue-525-FG' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; ARM; Trident/7.0; Touch; rv:11.0; WPDesktop; NOKIA; Lumia 1520) like Gecko',
         'properties' => [
-            'Comment' => 'IEMobile',
+            'Comment' => 'IEMobile 11.0',
             'Browser' => 'IEMobile',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -9438,7 +9438,7 @@ return [
     'issue-525-FW' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; ARM; Trident/7.0; Touch; rv:11.0; WPDesktop; NOKIA; Lumia 925) like Gecko',
         'properties' => [
-            'Comment' => 'IEMobile',
+            'Comment' => 'IEMobile 11.0',
             'Browser' => 'IEMobile',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -10180,7 +10180,7 @@ return [
     'issue-525-GK' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; ARM; Trident/7.0; Touch; rv:11.0; WPDesktop; NOKIA; Lumia 635) like Gecko',
         'properties' => [
-            'Comment' => 'IEMobile',
+            'Comment' => 'IEMobile 11.0',
             'Browser' => 'IEMobile',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -10816,7 +10816,7 @@ return [
     'issue-525-GW' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; ARM; Trident/7.0; Touch; rv:11.0; WPDesktop; NOKIA; Lumia 925; Orange) like Gecko',
         'properties' => [
-            'Comment' => 'IEMobile',
+            'Comment' => 'IEMobile 11.0',
             'Browser' => 'IEMobile',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -12618,7 +12618,7 @@ return [
     'issue-525-IE' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; ARM; Trident/7.0; Touch; rv:11.0; WPDesktop; NOKIA; Lumia 625; Orange) like Gecko',
         'properties' => [
-            'Comment' => 'IEMobile',
+            'Comment' => 'IEMobile 11.0',
             'Browser' => 'IEMobile',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -12724,7 +12724,7 @@ return [
     'issue-525-IG' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; ARM; Trident/7.0; Touch; rv:11.0; WPDesktop; NOKIA; Lumia 720) like Gecko',
         'properties' => [
-            'Comment' => 'IEMobile',
+            'Comment' => 'IEMobile 11.0',
             'Browser' => 'IEMobile',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -12830,7 +12830,7 @@ return [
     'issue-525-II' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; ARM; Trident/7.0; Touch; rv:11.0; WPDesktop; NOKIA; Lumia 630; Orange) like Gecko',
         'properties' => [
-            'Comment' => 'IEMobile',
+            'Comment' => 'IEMobile 11.0',
             'Browser' => 'IEMobile',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -13678,7 +13678,7 @@ return [
     'issue-525-IY' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; ARM; Trident/7.0; Touch; rv:11.0; WPDesktop; NOKIA; 909) like Gecko',
         'properties' => [
-            'Comment' => 'IEMobile',
+            'Comment' => 'IEMobile 11.0',
             'Browser' => 'IEMobile',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',

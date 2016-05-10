@@ -1,19 +1,22 @@
 {
-  "division": "Apple-PubSub",
+  "division": "Apple PubSub",
   "sortIndex": 371,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "Apple-PubSub",
+      "userAgent": "Apple PubSub",
+      "platform": "OSX",
+      "device": "Macintosh",
+      "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Apple-PubSub",
-        "Browser": "Apple-PubSub",
+        "Comment": "Apple PubSub",
+        "Browser": "Apple PubSub",
         "Browser_Maker": "Apple Inc",
-        "Browser_Type": "Bot/Crawler",
+        "Browser_Type": "Feed Reader",
         "isSyndicationReader": "true",
-        "Crawler": "true"
+        "Crawler": "false"
       },
       "children": [
         {

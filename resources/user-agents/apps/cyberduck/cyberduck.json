@@ -11,8 +11,8 @@
         "Comment": "Cyberduck",
         "Browser": "Cyberduck",
         "Browser_Maker": "iterate GmbH",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Browser_Type": "Application",
+        "Crawler": "false"
       },
       "children": [
         {

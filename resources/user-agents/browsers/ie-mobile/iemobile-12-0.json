@@ -12,7 +12,7 @@
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "IEMobile",
+        "Comment": "IEMobile #MAJORVER#.#MINORVER#",
         "Browser": "IEMobile",
         "Frames": "true",
         "IFrames": "true",

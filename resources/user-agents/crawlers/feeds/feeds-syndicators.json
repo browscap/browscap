@@ -55,14 +55,6 @@
           }
         },
         {
-          "match": "Akregator\/*",
-          "device": "Linux Desktop",
-          "properties": {
-            "Browser": "akregator",
-            "Browser_Maker": "KDE e.V."
-          }
-        },
-        {
           "match": "AppleSyndication\/*",
           "device": "Macintosh",
           "properties": {
@@ -115,7 +107,7 @@
           }
         },
         {
-          "match": "FeedOnFeeds\/0.1.* ( http:\/\/minutillo.com\/steve\/feedonfeeds\/)",
+          "match": "FeedOnFeeds\/0.1.*",
           "properties": {
             "Browser": "FeedOnFeeds",
             "Version": "0.1",
@@ -184,7 +176,7 @@
           }
         },
         {
-          "match": "Liferea\/* (Linux; *; http:\/\/liferea.sf.net\/)*",
+          "match": "Liferea\/*",
           "properties": {
             "Browser": "Liferea",
             "Version": "1.0",
@@ -193,12 +185,18 @@
           }
         },
         {
-          "match": "livedoor FeedFetcher\/0.0* (http:\/\/reader.livedoor.com\/;*)",
+          "match": "livedoor FeedFetcher\/0.01*",
           "properties": {
-            "Browser": "FeedFetcher",
-            "Version": "0.0",
+            "Browser": "livedoor FeedFetcher",
+            "Version": "0.01",
             "MajorVer": "0",
-            "MinorVer": "0"
+            "MinorVer": "01"
+          }
+        },
+        {
+          "match": "livedoor FeedFetcher\/*",
+          "properties": {
+            "Browser": "livedoor FeedFetcher"
           }
         },
         {
@@ -511,54 +509,6 @@
           }
         },
         {
-          "match": "FeeddlerRSS 2.4 (iPad#PLATFORM#)",
-          "device": "iPad",
-          "properties": {
-            "Browser": "Feeddler RSS Reader",
-            "Browser_Maker": "Che-Bin Liu",
-            "Version": "2.4",
-            "MajorVer": "2",
-            "MinorVer": "4"
-          },
-          "platforms": [
-            "iOS_E_7_1", "iOS_E_8_0"
-          ]
-        },
-        {
-          "match": "FeeddlerRSS 2.4 (#PLATFORM#)",
-          "properties": {
-            "Browser": "Feeddler RSS Reader",
-            "Browser_Maker": "Che-Bin Liu",
-            "Version": "2.4",
-            "MajorVer": "2",
-            "MinorVer": "4"
-          },
-          "platforms": [
-            "iOS_E_7_1", "iOS_E_8_0"
-          ]
-        },
-        {
-          "match": "FeeddlerRSS * (iPad#PLATFORM#)",
-          "device": "iPad",
-          "properties": {
-            "Browser": "Feeddler RSS Reader",
-            "Browser_Maker": "Che-Bin Liu"
-          },
-          "platforms": [
-            "iOS_E_7_1", "iOS_E_8_0"
-          ]
-        },
-        {
-          "match": "FeeddlerRSS * (#PLATFORM#)",
-          "properties": {
-            "Browser": "Feeddler RSS Reader",
-            "Browser_Maker": "Che-Bin Liu"
-          },
-          "platforms": [
-            "iOS_E_7_1", "iOS_E_8_0"
-          ]
-        },
-        {
           "match": "FeedForAll rss2html.php v2",
           "properties": {
             "Browser": "RSS2HTML",
@@ -725,7 +675,7 @@
         {
           "match": "sfFeedReader\/0.9*",
           "properties": {
-            "Browser": "Symfony RSS reader",
+            "Browser": "Symfony RSS Reader",
             "Version": "0.9",
             "MajorVer": "0",
             "MinorVer": "9"
@@ -734,7 +684,28 @@
         {
           "match": "sfFeedReader\/*",
           "properties": {
-            "Browser": "Symfony RSS reader"
+            "Browser": "Symfony RSS Reader"
+          }
+        },
+        {
+          "match": "Feed Wrangler\/1.0*",
+          "properties": {
+            "Browser": "Feed Wrangler",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Feed Wrangler\/*",
+          "properties": {
+            "Browser": "Feed Wrangler"
+          }
+        },
+        {
+          "match": "Feedfetcher-feedraider*",
+          "properties": {
+            "Browser": "feedraider"
           }
         }
       ]

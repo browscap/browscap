@@ -1,0 +1,33 @@
+{
+  "division": "Shrook",
+  "sortIndex": 380,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Shrook",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Shrook",
+        "Browser": "Shrook",
+        "isSyndicationReader": "true",
+        "Browser_Type": "Feed Reader",
+        "Crawler": "false"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Shrook\/*",
+          "engine": "WebKit",
+          "device": "Macintosh",
+          "properties": {
+            "Browser": "Shrook",
+            "Browser_Maker": "Utsire Software"
+          },
+          "platforms": [
+            "OSX_10_10", "OSX"
+          ]
+        }
+      ]
+    }
+  ]
+}

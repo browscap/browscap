@@ -18,11 +18,23 @@
           "match": "Mozilla\/5.0 (compatible; Diffbot\/0.1*",
           "properties": {
             "Version": "0.1",
+            "MajorVer": "0",
             "MinorVer": "1"
           }
         },
         {
           "match": "Mozilla\/5.0 (compatible; Diffbot\/*"
+        },
+        {
+          "match": "Diffbot\/0.1*",
+          "properties": {
+            "Version": "0.1",
+            "MajorVer": "0",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "Diffbot\/*"
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko; +http:\/\/www.diffbot.com) Chrome\/* Safari\/*",

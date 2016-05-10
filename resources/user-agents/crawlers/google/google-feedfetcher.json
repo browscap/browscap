@@ -24,6 +24,9 @@
         },
         {
           "match": "Mozilla\/5.0 (compatible) Feedfetcher-Google; ( http:\/\/www.google.com\/feedfetcher.html)"
+        },
+        {
+          "match": "Feedfetcher-Google*"
         }
       ]
     }

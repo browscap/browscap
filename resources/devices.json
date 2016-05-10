@@ -36867,6 +36867,19 @@
         "isMobileDevice": "true",
         "isTablet": "true"
       }
+    },
+    "SPV M700": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "M700",
+        "Device_Code_Name": "M700",
+        "Device_Maker": "SPV",
+        "Device_Pointing_Method": "unknown",
+        "Device_Brand_Name": "SPV",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
     }
   }
 }

@@ -1,0 +1,58 @@
+{
+  "division": "Feeddler RSS Reader",
+  "sortIndex": 370,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Feeddler RSS Reader",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Feeddler RSS Reader",
+        "Browser": "Feeddler RSS Reader",
+        "Browser_Maker": "Che-Bin Liu",
+        "Browser_Type": "Feed Reader",
+        "isSyndicationReader": "true",
+        "Crawler": "false"
+      },
+      "children": [
+        {
+          "match": "FeeddlerRSS 2.4 (iPad#PLATFORM#)",
+          "device": "iPad",
+          "properties": {
+            "Version": "2.4",
+            "MajorVer": "2",
+            "MinorVer": "4"
+          },
+          "platforms": [
+            "iOS_E_7_1", "iOS_E_8_0"
+          ]
+        },
+        {
+          "match": "FeeddlerRSS 2.4 (#PLATFORM#)",
+          "properties": {
+            "Version": "2.4",
+            "MajorVer": "2",
+            "MinorVer": "4"
+          },
+          "platforms": [
+            "iOS_E_7_1", "iOS_E_8_0"
+          ]
+        },
+        {
+          "match": "FeeddlerRSS * (iPad#PLATFORM#)",
+          "device": "iPad",
+          "platforms": [
+            "iOS_E_7_1", "iOS_E_8_0"
+          ]
+        },
+        {
+          "match": "FeeddlerRSS * (#PLATFORM#)",
+          "platforms": [
+            "iOS_E_7_1", "iOS_E_8_0"
+          ]
+        }
+      ]
+    }
+  ]
+}

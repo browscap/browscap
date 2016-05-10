@@ -1,18 +1,18 @@
 {
-  "division": "Second Live",
+  "division": "SecondLive",
   "sortIndex": 170,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "Second Live",
+      "userAgent": "SecondLive",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Second Live",
-        "Browser": "Second Live",
+        "Comment": "SecondLive",
+        "Browser": "SecondLive",
         "Browser_Maker": "Linden Labs",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Browser_Type": "Application",
+        "Crawler": "false"
       },
       "children": [
         {
@@ -45,7 +45,6 @@
           "engine": "WebKit",
           "device": "Windows Desktop",
           "properties": {
-            "Browser": "Second Live Client",
             "Version": "3.7",
             "MajorVer": "3",
             "MinorVer": "7"
@@ -58,9 +57,6 @@
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) SecondLife\/* (Second Life *) Safari\/*",
           "engine": "WebKit",
           "device": "Windows Desktop",
-          "properties": {
-            "Browser": "Second Live Client"
-          },
           "platforms": [
             "Windows"
           ]

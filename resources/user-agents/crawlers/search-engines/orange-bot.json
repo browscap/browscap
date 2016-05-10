@@ -25,6 +25,16 @@
         },
         {
           "match": "Mozilla\/5.0 (compatible; Orangebot\/*"
+        },
+        {
+          "match": "Mozilla\/4.0 (compatible; MSIE 4.01; Windows CE; PPC; 240x320; SPV M700; OpVer 19.123.2.733) OrangeBot-Mobile*",
+          "properties": {
+            "Browser": "Orangebot Mobile"
+          },
+          "device": "SPV M700",
+          "platforms": [
+            "WinCE"
+          ]
         }
       ]
     }

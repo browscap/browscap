@@ -60,12 +60,27 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; UptimeRobot\/1.0; http:\/\/www.uptimerobot.com\/)",
+          "match": "Mozilla\/5.0?(compatible; UptimeRobot\/2.0*",
+          "properties": {
+            "Browser": "UptimeRobot",
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0?(compatible; UptimeRobot\/1.0*",
           "properties": {
             "Browser": "UptimeRobot",
             "Version": "1.0",
             "MajorVer": "1",
             "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0?(compatible; UptimeRobot\/*",
+          "properties": {
+            "Browser": "UptimeRobot"
           }
         },
         {

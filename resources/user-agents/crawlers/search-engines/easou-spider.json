@@ -1,0 +1,40 @@
+{
+  "division": "EasouSpider",
+  "sortIndex": 250,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "EasouSpider",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "EasouSpider",
+        "Browser": "EasouSpider",
+        "Browser_Maker": "easou.com",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (compatible; EasouSpider*"
+        },
+        {
+          "match": "Mozilla\/5.0 (iPhone; #PLATFORM#; EasouSpider*",
+          "device": "iPhone",
+          "engine": "WebKit",
+          "platforms": [
+            "iOS_A_3_0", "iOS_A"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#; EasouSpider*",
+          "device": "general Mobile Device (Apple)",
+          "engine": "WebKit",
+          "platforms": [
+            "iOS_A_3_0", "iOS_A"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -12,8 +12,8 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Android Download Manager #MAJORVER#.#MINORVER#",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true",
+        "Browser_Type": "Application",
+        "Crawler": "false",
         "Browser": "Android Download Manager",
         "Browser_Bits": "32",
         "Version": "#MAJORVER#.#MINORVER#",

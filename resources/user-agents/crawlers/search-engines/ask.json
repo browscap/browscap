@@ -27,7 +27,19 @@
         {
           "match": "Mozilla\/2.0 (compatible; Ask Jeeves*",
           "properties": {
-            "Browser": "AskJeeves"
+            "Browser": "Ask Jeeves"
+          }
+        },
+        {
+          "match": "*Mozilla\/2.0 (compatible; Ask Jeeves\/Teoma*",
+          "properties": {
+            "Browser": "Teoma"
+          }
+        },
+        {
+          "match": "*Mozilla\/2.0 (compatible; Ask Jeeves*",
+          "properties": {
+            "Browser": "Ask Jeeves"
           }
         }
       ]

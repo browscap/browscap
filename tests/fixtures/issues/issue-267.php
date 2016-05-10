@@ -322,9 +322,9 @@ return [
     'issue-267-G' => [
         'ua' => 'FeeddlerRSS 2.4 (iPad; iPhone OS 7.1; en_GB)',
         'properties' => [
-            'Comment' => 'Feeds Syndicators',
+            'Comment' => 'Feeddler RSS Reader',
             'Browser' => 'Feeddler RSS Reader',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Feed Reader',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Che-Bin Liu',
             'Browser_Modus' => 'unknown',
@@ -353,7 +353,7 @@ return [
             'isMobileDevice' => true,
             'isTablet' => true,
             'isSyndicationReader' => true,
-            'Crawler' => true,
+            'Crawler' => false,
             'isFake' => false,
             'isAnonymized' => false,
             'isModified' => false,
@@ -1488,7 +1488,7 @@ return [
     'issue-267-AC' => [
         'ua' => 'Mozilla/5.0 (compatible; EasouSpider; +http://www.easou.com/search/spider.html)',
         'properties' => [
-            'Comment' => 'Search Engines',
+            'Comment' => 'EasouSpider',
             'Browser' => 'EasouSpider',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
@@ -4617,7 +4617,7 @@ return [
         'properties' => [
             'Comment' => 'WebThumb',
             'Browser' => 'WebThumb',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Boutell.Com, Inc.',
             'Browser_Modus' => 'unknown',
@@ -4646,7 +4646,7 @@ return [
             'isMobileDevice' => false,
             'isTablet' => false,
             'isSyndicationReader' => false,
-            'Crawler' => true,
+            'Crawler' => false,
             'isFake' => false,
             'isAnonymized' => false,
             'isModified' => false,
@@ -4774,9 +4774,9 @@ return [
     'issue-267-CN' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0b; Windows NT 6.0 ; .NET CLR 2.0.50215; SL Commerce Client v1.0; Tablet PC 2.0',
         'properties' => [
-            'Comment' => 'Second Live',
+            'Comment' => 'SecondLive',
             'Browser' => 'Second Live Commerce Client',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Linden Labs',
             'Browser_Modus' => 'unknown',
@@ -4805,7 +4805,7 @@ return [
             'isMobileDevice' => false,
             'isTablet' => false,
             'isSyndicationReader' => false,
-            'Crawler' => true,
+            'Crawler' => false,
             'isFake' => false,
             'isAnonymized' => false,
             'isModified' => false,
@@ -6788,7 +6788,7 @@ return [
     'issue-267-EF' => [
         'ua' => 'Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 635) like Gecko',
         'properties' => [
-            'Comment' => 'IEMobile',
+            'Comment' => 'IEMobile 11.0',
             'Browser' => 'IEMobile',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -6841,7 +6841,7 @@ return [
     'issue-267-EG' => [
         'ua' => 'Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 930) like Gecko',
         'properties' => [
-            'Comment' => 'IEMobile',
+            'Comment' => 'IEMobile 11.0',
             'Browser' => 'IEMobile',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',

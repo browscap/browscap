@@ -14,8 +14,8 @@
         "Comment": "SiteCon",
         "Browser": "SiteCon",
         "Browser_Maker": "NCC Group.",
-        "Browser_Type": "Bot/Crawler",
-        "Crawler": "true"
+        "Browser_Type": "Application",
+        "Crawler": "false"
       },
       "children": [
         {

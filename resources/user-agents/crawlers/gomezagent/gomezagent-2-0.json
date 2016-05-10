@@ -1,0 +1,39 @@
+{
+  "division": "GomezAgent #MAJORVER#.#MINORVER#",
+  "versions": [2],
+  "sortIndex": 531,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "GomezAgent #MAJORVER#.#MINORVER#",
+      "platforms": "Windows",
+      "device": "Windows Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Gomez Site Monitor #MAJORVER#.#MINORVER#",
+        "Browser": "Gomez Site Monitor",
+        "Browser_Maker": "Compuware Corporation",
+        "Browser_Type": "Bot/Crawler",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/4.0 (compatible; MSIE 5.01; GomezAgent #MAJORVER#.#MINORVER##PLATFORM#)*",
+          "platforms": [
+            "NT"
+          ]
+        },
+        {
+          "match": "Mozilla\/4.0 (*GomezAgent #MAJORVER#.#MINORVER##PLATFORM#)*",
+          "platforms": [
+            "NT"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -27,6 +27,15 @@
           }
         },
         {
+          "match": "CydralSpider\/3.2*",
+          "properties": {
+            "Browser": "Cydral Web Image Search",
+            "Version": "3.2",
+            "MajorVer": "3",
+            "MinorVer": "2"
+          }
+        },
+        {
           "match": "CydralSpider\/*",
           "properties": {
             "Browser": "Cydral Web Image Search"
@@ -59,7 +68,10 @@
         {
           "match": "IconSurf\/2.*",
           "properties": {
-            "Browser": "IconSurf"
+            "Browser": "IconSurf",
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0"
           }
         },
         {

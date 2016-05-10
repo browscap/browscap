@@ -44,6 +44,15 @@
           }
         },
         {
+          "match": "Googlebot-Video\/1.0*",
+          "properties": {
+            "Browser": "Googlebot-Video",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
           "match": "Googlebot-Video*",
           "properties": {
             "Browser": "Googlebot-Video"

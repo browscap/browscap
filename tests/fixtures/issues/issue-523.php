@@ -375,7 +375,7 @@ return [
     'issue-523-H' => [
         'ua' => 'Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11;IEMobile/11.0; NOKIA; Lumia 928) like Gecko',
         'properties' => [
-            'Comment' => 'IEMobile',
+            'Comment' => 'IEMobile 11.0',
             'Browser' => 'IEMobile',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -905,7 +905,7 @@ return [
     'issue-523-R' => [
         'ua' => 'Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11; IEMobile/11.0) like Android 4.1.2; compatible) like iPhone OS 7_0_3 Mac OS X WebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.99 Mobile Safari /537.36',
         'properties' => [
-            'Comment' => 'IEMobile',
+            'Comment' => 'IEMobile 11.0',
             'Browser' => 'IEMobile',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -958,7 +958,7 @@ return [
     'issue-523-S' => [
         'ua' => 'Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11; IEMobile/11.0; NOKIA; Lumia 928) like Gecko',
         'properties' => [
-            'Comment' => 'IEMobile',
+            'Comment' => 'IEMobile 11.0',
             'Browser' => 'IEMobile',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -3608,7 +3608,7 @@ return [
     'issue-523-BQ' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; ARM; Trident/7.0; Touch; rv:11.0; WPDesktop; NOKIA; Lumia 625) like Gecko',
         'properties' => [
-            'Comment' => 'IEMobile',
+            'Comment' => 'IEMobile 11.0',
             'Browser' => 'IEMobile',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -4350,7 +4350,7 @@ return [
     'issue-523-CE' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; ARM; Trident/7.0; Touch; rv:11.0; WPDesktop; NOKIA; Lumia 1320) like Gecko',
         'properties' => [
-            'Comment' => 'IEMobile',
+            'Comment' => 'IEMobile 11.0',
             'Browser' => 'IEMobile',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -5675,7 +5675,7 @@ return [
     'issue-523-DD' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; ARM; Trident/7.0; Touch; rv:11.0; WPDesktop; NOKIA; Lumia 820) like Gecko',
         'properties' => [
-            'Comment' => 'IEMobile',
+            'Comment' => 'IEMobile 11.0',
             'Browser' => 'IEMobile',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -6152,7 +6152,7 @@ return [
     'issue-523-DM' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; ARM; Trident/7.0; Touch; rv:11.0; WPDesktop; NOKIA; Lumia 920) like Gecko',
         'properties' => [
-            'Comment' => 'IEMobile',
+            'Comment' => 'IEMobile 11.0',
             'Browser' => 'IEMobile',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -6576,7 +6576,7 @@ return [
     'issue-523-DU' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; ARM; Trident/7.0; Touch; rv:11.0; WPDesktop; NOKIA; Lumia 630) like Gecko',
         'properties' => [
-            'Comment' => 'IEMobile',
+            'Comment' => 'IEMobile 11.0',
             'Browser' => 'IEMobile',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -7477,7 +7477,7 @@ return [
     'issue-523-EL' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; ARM; Trident/7.0; Touch; rv:11.0; WPDesktop; NOKIA; Lumia 520) like Gecko',
         'properties' => [
-            'Comment' => 'IEMobile',
+            'Comment' => 'IEMobile 11.0',
             'Browser' => 'IEMobile',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -7636,7 +7636,7 @@ return [
     'issue-523-EO' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; ARM; Trident/7.0; Touch; rv:11.0; WPDesktop; NOKIA; Lumia 920; Orange) like Gecko',
         'properties' => [
-            'Comment' => 'IEMobile',
+            'Comment' => 'IEMobile 11.0',
             'Browser' => 'IEMobile',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',

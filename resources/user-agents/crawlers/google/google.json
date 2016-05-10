@@ -119,13 +119,6 @@
           }
         },
         {
-          "match": "Feedfetcher-Google*",
-          "properties": {
-            "Browser": "Feedfetcher-Google",
-            "isSyndicationReader": "true"
-          }
-        },
-        {
           "match": "Feedfetcher-Google-iGoogleGadgets*",
           "properties": {
             "Browser": "iGoogleGadgets",

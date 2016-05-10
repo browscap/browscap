@@ -15,9 +15,6 @@
       },
       "children": [
         {
-          "match": "abot\/*"
-        },
-        {
           "match": "NP\/*"
         },
         {

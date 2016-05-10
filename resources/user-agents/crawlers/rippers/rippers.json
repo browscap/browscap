@@ -873,6 +873,21 @@
           }
         },
         {
+          "match": "Crawllybot\/0.1*",
+          "properties": {
+            "Browser": "Crawllybot",
+            "Version": "0.1",
+            "MajorVer": "0",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "Crawllybot*",
+          "properties": {
+            "Browser": "Crawllybot"
+          }
+        },
+        {
           "match": "Crawl*",
           "properties": {
             "Browser": "Crawlboy"
@@ -1336,6 +1351,12 @@
           "match": "SoftMaker Fetch\/*",
           "properties": {
             "Browser": "SoftMaker Fetch"
+          }
+        },
+        {
+          "match": "livedoor HttpClient*",
+          "properties": {
+            "Browser": "livedoor HttpClient"
           }
         }
       ]

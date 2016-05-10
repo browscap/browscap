@@ -47,6 +47,14 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko? Google Web Preview*)*Version\/*Safari\/*",
+          "device": "general Mobile Phone (Touch)",
+          "engine": "WebKit",
+          "platforms": [
+            "Android_2_3", "Android"
+          ]
+        },
+        {
           "match": "*Google Web Preview*"
         }
       ]

@@ -1596,7 +1596,7 @@ return [
         'properties' => [
             'Comment' => 'Android Download Manager 4.3',
             'Browser' => 'Android Download Manager',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -1625,7 +1625,7 @@ return [
             'isMobileDevice' => true,
             'isTablet' => true,
             'isSyndicationReader' => false,
-            'Crawler' => true,
+            'Crawler' => false,
             'isFake' => false,
             'isAnonymized' => false,
             'isModified' => false,
