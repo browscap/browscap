@@ -749,6 +749,13 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#SCH-R970 Build\/*) AppleWebKit\/* (KHTML* like Gecko) Version\/* Chrome\/*Safari\/*FBAV\/*",
+          "device": "Samsung SCH-R970",
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM# Build\/*) AppleWebKit\/* (KHTML* like Gecko) Version\/* Chrome\/*Safari\/*FBAV\/*",
           "platforms": [
             "Android_4_2", "Android_4_3", "Android_4_4", "Android_5_0", "Android"

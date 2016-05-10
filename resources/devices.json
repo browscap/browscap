@@ -5304,12 +5304,12 @@
         "isTablet": "false"
       }
     },
-    "Samsung SM-G901F": {
+    "Samsung SM-G850F": {
       "standard": false,
       "properties": {
         "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "SM-G901F",
-        "Device_Name": "Galaxy S5 Plus",
+        "Device_Code_Name": "SM-G850F",
+        "Device_Name": "Galaxy Alpha",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "touchscreen",
@@ -5317,12 +5317,25 @@
         "isTablet": "false"
       }
     },
-    "Samsung SM-G850F": {
+    "Samsung SM-G870A": {
       "standard": false,
       "properties": {
         "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "SM-G850F",
-        "Device_Name": "Galaxy Alpha",
+        "Device_Code_Name": "SM-G870A",
+        "Device_Name": "Galaxy S5 Active LTE (AT&T)",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung SM-G901F": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SM-G901F",
+        "Device_Name": "Galaxy S5 Plus",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "touchscreen",
@@ -6857,6 +6870,19 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "SCH-R530C",
         "Device_Name": "Galaxy S III CDMA 4G LTE",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Samsung SCH-R970": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SCH-R970",
+        "Device_Name": "Galaxy S4 LTE (US Cellular)",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "touchscreen",
