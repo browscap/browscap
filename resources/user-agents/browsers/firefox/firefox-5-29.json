@@ -70,7 +70,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Firefox\/#MAJORVER#.#MINORVER#*",
           "device": "general Desktop",
           "platforms": [
-            "FreeBSD_64", "FreeBSD", "HPUX", "IRIX64", "OpenBSD", "SunOS", "OS2", "NetBSD"
+            "FreeBSD_64", "FreeBSD", "HPUX", "IRIX64", "OpenBSD_64_2", "OpenBSD", "SunOS", "OS2", "NetBSD"
           ]
         },
         {
@@ -123,7 +123,7 @@
           "match": "Mozilla\/4.0 (#PLATFORM#) Gecko* Firefox\/#MAJORVER#.#MINORVER#*",
           "device": "general Desktop",
           "platforms": [
-            "FreeBSD_64", "FreeBSD", "HPUX", "IRIX64", "OpenBSD", "SunOS", "OS2", "NetBSD"
+            "FreeBSD_64", "FreeBSD", "HPUX", "IRIX64", "OpenBSD_64_2", "OpenBSD", "SunOS", "OS2", "NetBSD"
           ]
         },
         {

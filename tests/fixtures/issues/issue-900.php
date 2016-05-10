@@ -53440,7 +53440,7 @@ return [
             'Platform' => 'OpenBSD',
             'Platform_Version' => 'unknown',
             'Platform_Description' => 'OpenBSD',
-            'Platform_Bits' => '32',
+            'Platform_Bits' => '64',
             'Platform_Maker' => 'unknown',
             'Alpha' => false,
             'Beta' => false,
