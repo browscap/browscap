@@ -101,7 +101,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#; rv:#MAJORVER#*) Gecko* Firefox\/#MAJORVER#*anonymized by *",
+          "match": "Mozilla\/5.0 (#PLATFORM#; rv:*) Gecko* Firefox\/*anonymized by *",
           "properties": {
             "isAnonymized": "true"
           },
@@ -111,7 +111,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#; rv:#MAJORVER#*) Gecko* Firefox anonymized by *",
+          "match": "Mozilla\/5.0 (#PLATFORM#; rv:*) Gecko* Firefox anonymized by *",
           "properties": {
             "isAnonymized": "true"
           },
