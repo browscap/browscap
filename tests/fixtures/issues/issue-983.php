@@ -75,7 +75,7 @@ return [
             'Beta' => false,
             'Win16' => false,
             'Win32' => false,
-            'Win64' => true,
+            'Win64' => false,
             'Frames' => true,
             'IFrames' => true,
             'Tables' => true,
