@@ -28990,6 +28990,19 @@
         "isTablet": "false"
       }
     },
+    "Xiaomi Mi Pad": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "Mi Pad",
+        "Device_Code_Name": "Mi Pad",
+        "Device_Maker": "Xiaomi Tech",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Xiaomi",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "BLU Vivo IV": {
       "standard": false,
       "properties": {

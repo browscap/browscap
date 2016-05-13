@@ -7,7 +7,8 @@
     {
       "userAgent": "NewsArticle App",
       "device": "general Mobile Phone (Touch)",
-      "platform": "Android",
+      "platform": "Miui_OS",
+      "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "NewsArticle App",
