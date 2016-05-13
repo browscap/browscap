@@ -18,6 +18,7 @@
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
+        "JavaScript": "true",
         "CssVersion": "1"
       },
       "children": [
