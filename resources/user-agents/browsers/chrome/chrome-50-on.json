@@ -3996,6 +3996,13 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#Mi 4i Build\/*) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "device": "Xiaomi MI 4i",
+          "platforms": [
+            "Android_5_0"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#Aquaris M10 Build\/*) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "device": "BQ Aquaris M10",
           "platforms": [
