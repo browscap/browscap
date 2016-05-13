@@ -48,7 +48,7 @@ return [
             'Device_Code_Name' => 'Windows Desktop',
             'Device_Brand_Name' => 'unknown',
             'RenderingEngine_Name' => 'Edge',
-            'RenderingEngine_Version' => '13.0',
+            'RenderingEngine_Version' => '14.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
         'lite' => false,
