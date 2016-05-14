@@ -12,6 +12,8 @@ os:
 
 matrix:
   allow_failures:
+  # fails due a segmentation fault
+    - php: nightly
   # the tests require > 4.8GB ram on hhvm, this exeeds the memory limit on the travis-ci boxes so we allow to fail these builds
     - php: hhvm
 
