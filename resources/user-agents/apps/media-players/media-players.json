@@ -10,7 +10,7 @@
         "Parent": "DefaultProperties",
         "Comment": "Media Players",
         "Browser": "Media Players",
-        "Browser_Type": "Application"
+        "Browser_Type": "Multimedia Player"
       },
       "children": [
         {
@@ -35,6 +35,100 @@
           "match": "WinampMPEG\/*",
           "properties": {
             "Browser": "WinAmp"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (Linux; U; en-us; BeyondPod 4*",
+          "properties": {
+            "Browser": "BeyondPod",
+            "Browser_Maker": "BeyondPod Team",
+            "Version": "4.0",
+            "MajorVer": "4",
+            "MinorVer": "0"
+          },
+          "device": "general Mobile Phone (Touch)",
+          "platforms": [
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (Linux; U; en-us; BeyondPod*",
+          "properties": {
+            "Browser": "BeyondPod",
+            "Browser_Maker": "BeyondPod Team"
+          },
+          "device": "general Mobile Phone (Touch)",
+          "platforms": [
+            "Android"
+          ]
+        },
+        {
+          "match": "Pocket Casts*",
+          "properties": {
+            "Browser": "Pocket Casts",
+            "Browser_Maker": "Shifty Jelly"
+          }
+        },
+        {
+          "match": "Shifty Jelly Pocket Casts*",
+          "properties": {
+            "Browser": "Pocket Casts",
+            "Browser_Maker": "Shifty Jelly"
+          }
+        },
+        {
+          "match": "Player\/LG Player 1.0 for #PLATFORM#, Pocket Casts*",
+          "device": "general Mobile Phone (Touch)",
+          "properties": {
+            "Browser": "Pocket Casts",
+            "Browser_Maker": "Shifty Jelly"
+          },
+          "platforms": [
+            "Android_4_4_D"
+          ]
+        },
+        {
+          "match": "PocketTunes\/5.5*",
+          "properties": {
+            "Browser": "PocketTunes",
+            "Browser_Maker": "NormSoft Inc.",
+            "Version": "5.5",
+            "MajorVer": "5",
+            "MinorVer": "5"
+          }
+        },
+        {
+          "match": "PocketTunes\/*",
+          "properties": {
+            "Browser": "PocketTunes",
+            "Browser_Maker": "NormSoft Inc."
+          }
+        },
+        {
+          "match": "Overcast\/2.0*",
+          "properties": {
+            "Browser": "Overcast",
+            "Browser_Maker": "Overcast Radio, LLC",
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Overcast\/1.0*",
+          "properties": {
+            "Browser": "Overcast",
+            "Browser_Maker": "Overcast Radio, LLC",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Overcast\/*",
+          "properties": {
+            "Browser": "Overcast",
+            "Browser_Maker": "Overcast Radio, LLC"
           }
         }
       ]

@@ -1,0 +1,162 @@
+{
+  "division": "Stitcher",
+  "sortIndex": 7121,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Stitcher",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Stitcher",
+        "Browser": "Stitcher",
+        "Browser_Type": "Multimedia Player",
+        "Browser_Maker": "Deezer"
+      },
+      "children": [
+        {
+          "match": "Stitcher\/iOS*",
+          "platforms": [
+            "iOS"
+          ]
+        },
+        {
+          "match": "Stitcher\/Android*",
+          "device": "general Mobile Phone (Touch)",
+          "platforms": [
+            "Android"
+          ]
+        },
+        {
+          "match": "Stitcher\/* CFNetwork\/459*",
+          "platforms": [
+            "iOS_A_3_1"
+          ]
+        },
+        {
+          "match": "Stitcher\/* CFNetwork\/467.12*",
+          "platforms": [
+            "iOS_A_3_2"
+          ]
+        },
+        {
+          "match": "Stitcher\/* CFNetwork\/485.2*",
+          "platforms": [
+            "iOS_A_4_0"
+          ]
+        },
+        {
+          "match": "Stitcher\/* CFNetwork\/485.10*",
+          "platforms": [
+            "iOS_A_4_1"
+          ]
+        },
+        {
+          "match": "Stitcher\/* CFNetwork\/485.12*",
+          "platforms": [
+            "iOS_A_4_2"
+          ]
+        },
+        {
+          "match": "Stitcher\/* CFNetwork\/485.13*",
+          "platforms": [
+            "iOS_A_4_3"
+          ]
+        },
+        {
+          "match": "Stitcher\/* CFNetwork\/548.1*",
+          "platforms": [
+            "iOS_A_5_1"
+          ]
+        },
+        {
+          "match": "Stitcher\/* CFNetwork\/548.0*",
+          "platforms": [
+            "iOS_A_5_0"
+          ]
+        },
+        {
+          "match": "Stitcher\/* CFNetwork\/602*",
+          "platforms": [
+            "iOS_A_6_0"
+          ]
+        },
+        {
+          "match": "Stitcher\/* CFNetwork\/609.1*",
+          "platforms": [
+            "iOS_A_6_1"
+          ]
+        },
+        {
+          "match": "Stitcher\/* CFNetwork\/609*",
+          "platforms": [
+            "iOS_A_6_0"
+          ]
+        },
+        {
+          "match": "Stitcher\/* CFNetwork\/672.0*",
+          "platforms": [
+            "iOS_A_7_0"
+          ]
+        },
+        {
+          "match": "Stitcher\/* CFNetwork\/672.1*",
+          "platforms": [
+            "iOS_A_7_1"
+          ]
+        },
+        {
+          "match": "Stitcher\/* CFNetwork\/711.0*",
+          "platforms": [
+            "iOS_A_8_0"
+          ]
+        },
+        {
+          "match": "Stitcher\/* CFNetwork\/711.1*",
+          "platforms": [
+            "iOS_A_8_1"
+          ]
+        },
+        {
+          "match": "Stitcher\/* CFNetwork\/711.2*",
+          "platforms": [
+            "iOS_A_8_2"
+          ]
+        },
+        {
+          "match": "Stitcher\/* CFNetwork\/711.3*",
+          "platforms": [
+            "iOS_A_8_3"
+          ]
+        },
+        {
+          "match": "Stitcher\/* CFNetwork\/711.4*",
+          "platforms": [
+            "iOS_A_8_4"
+          ]
+        },
+        {
+          "match": "Stitcher\/* CFNetwork\/711.5*",
+          "platforms": [
+            "iOS_A_8_4"
+          ]
+        },
+        {
+          "match": "Stitcher\/* CFNetwork\/758*",
+          "platforms": [
+            "iOS_A_9_0"
+          ]
+        },
+        {
+          "match": "Stitcher\/* CFNetwork\/*",
+          "device": "Macintosh",
+          "platforms": [
+            "Darwin"
+          ]
+        }
+      ]
+    }
+  ]
+}

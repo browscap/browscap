@@ -6,14 +6,14 @@
   "userAgents": [
     {
       "userAgent": "Windows Media Player",
-      "device": "general Desktop",
+      "device": "Windows Desktop",
+      "platform": "Win32",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Windows Media Player",
         "Browser": "Windows Media Player",
         "Browser_Type": "Multimedia Player",
         "Browser_Maker": "Microsoft Corporation",
-        "Win32": "false",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
@@ -22,7 +22,6 @@
       "children": [
         {
           "match": "NSPlayer\/4.*",
-          "device": "general Desktop",
           "properties": {
             "Version": "4.0",
             "MajorVer": "4",
@@ -31,7 +30,6 @@
         },
         {
           "match": "NSPlayer\/7.*",
-          "device": "general Desktop",
           "properties": {
             "Version": "7.0",
             "MajorVer": "7",
@@ -40,7 +38,6 @@
         },
         {
           "match": "NSPlayer\/07.*",
-          "device": "general Desktop",
           "properties": {
             "Version": "7.0",
             "MajorVer": "7",
@@ -49,7 +46,6 @@
         },
         {
           "match": "NSPlayer\/8.*",
-          "device": "general Desktop",
           "properties": {
             "Version": "8.0",
             "MajorVer": "8",
@@ -58,7 +54,6 @@
         },
         {
           "match": "NSPlayer\/9.*",
-          "device": "general Desktop",
           "properties": {
             "Version": "9.0",
             "MajorVer": "9",
@@ -67,7 +62,6 @@
         },
         {
           "match": "NSPlayer\/10.*",
-          "device": "general Desktop",
           "properties": {
             "Version": "10.0",
             "MajorVer": "10",
@@ -76,7 +70,6 @@
         },
         {
           "match": "NSPlayer\/11.*",
-          "device": "general Desktop",
           "properties": {
             "Version": "11.0",
             "MajorVer": "11",
@@ -85,7 +78,6 @@
         },
         {
           "match": "NSPlayer\/12.*",
-          "device": "general Desktop",
           "properties": {
             "Version": "12.0",
             "MajorVer": "12",
@@ -94,7 +86,6 @@
         },
         {
           "match": "Windows-Media-Player\/7.*",
-          "device": "Windows Desktop",
           "properties": {
             "Version": "7.0",
             "MajorVer": "7",
@@ -103,7 +94,6 @@
         },
         {
           "match": "Windows-Media-Player\/8.*",
-          "device": "Windows Desktop",
           "properties": {
             "Version": "8.0",
             "MajorVer": "8",
@@ -112,7 +102,6 @@
         },
         {
           "match": "Windows-Media-Player\/9.*",
-          "device": "Windows Desktop",
           "properties": {
             "Version": "9.0",
             "MajorVer": "9",
@@ -121,7 +110,6 @@
         },
         {
           "match": "Windows-Media-Player\/10.*",
-          "device": "Windows Desktop",
           "properties": {
             "Version": "10.0",
             "MajorVer": "10",
@@ -130,7 +118,6 @@
         },
         {
           "match": "Windows-Media-Player\/11.*",
-          "device": "Windows Desktop",
           "properties": {
             "Version": "11.0",
             "MajorVer": "11",
@@ -139,7 +126,6 @@
         },
         {
           "match": "Windows-Media-Player\/12.*",
-          "device": "Windows Desktop",
           "properties": {
             "Version": "12.0",
             "MajorVer": "12",
