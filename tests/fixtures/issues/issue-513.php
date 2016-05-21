@@ -1993,7 +1993,7 @@ return [
             'VBScript' => false,
             'JavaApplets' => false,
             'ActiveXControls' => false,
-            'isMobileDevice' => false,
+            'isMobileDevice' => true,
             'isTablet' => false,
             'isSyndicationReader' => false,
             'Crawler' => false,

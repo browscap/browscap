@@ -42,7 +42,7 @@
           ]
         },
         {
-          "match": "label=ypmobapp;anv=YPmobile4.3.1;os=Android 4.4.2;*",
+          "match": "label=ypmobapp;anv=YPmobile4.3.1;os=Android 4.4*",
           "properties": {
             "Version": "4.3",
             "MajorVer": "4",
@@ -50,6 +50,17 @@
           },
           "platforms": [
             "Android_4_4"
+          ]
+        },
+        {
+          "match": "label=ypmobapp;anv=YPmobile4.3.1;os=Android*",
+          "properties": {
+            "Version": "4.3",
+            "MajorVer": "4",
+            "MinorVer": "3"
+          },
+          "platforms": [
+            "Android"
           ]
         }
       ]
