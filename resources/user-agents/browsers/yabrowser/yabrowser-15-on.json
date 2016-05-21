@@ -1,6 +1,6 @@
 {
   "division": "YaBrowser #MAJORVER#.#MINORVER#",
-  "versions": ["15.12", "15.11", "15.10", "15.9", "15.8", "15.7", "15.6", "15.5", "15.4", "15.3", "15.2", "15.1", 15],
+  "versions": ["16.2", "16.1", 16, "15.12", "15.11", "15.10", "15.9", "15.8", "15.7", "15.6", "15.5", "15.4", "15.3", "15.2", "15.1", 15],
   "sortIndex": 1017,
   "lite": false,
   "standard": true,
@@ -784,9 +784,16 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#GT-I9505* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/* YaBrowser\/#MAJORVER#.#MINORVER#* Safari\/*",
+          "device": "Samsung GT-I9505",
+          "platforms": [
+            "Android_5_0"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Chrome\/* YaBrowser\/#MAJORVER#.#MINORVER#* Safari\/*",
           "platforms": [
-            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android_5_0", "Android_5_1", "Android"
+            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android_5_0", "Android_5_1", "Android_6_0", "Android"
           ]
         }
       ]
