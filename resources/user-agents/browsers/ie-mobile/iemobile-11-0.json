@@ -304,6 +304,263 @@
           "platforms": [
             "WinPhone8.1"
           ]
+        },
+        {
+          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/8.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#) like Android *; compatible) like iPhone OS * Mac OS X WebKit\/537.36 (KHTML* like Gecko) Chrome*Safari*",
+          "engine": "Trident_8",
+          "platforms": [
+            "WinPhone8.1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/8.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 635*",
+          "engine": "Trident_8",
+          "device": "Nokia Lumia 635",
+          "platforms": [
+            "WinPhone8.1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/8.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 930*",
+          "engine": "Trident_8",
+          "device": "Nokia Lumia 930",
+          "platforms": [
+            "WinPhone8.1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/8.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 520*",
+          "engine": "Trident_8",
+          "device": "Nokia Lumia 520",
+          "platforms": [
+            "WinPhone8.1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/8.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 630*",
+          "engine": "Trident_8",
+          "device": "Nokia Lumia 630",
+          "platforms": [
+            "WinPhone8.1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/8.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 925*",
+          "engine": "Trident_8",
+          "device": "Nokia Lumia 925",
+          "platforms": [
+            "WinPhone8.1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/8.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 920*",
+          "engine": "Trident_8",
+          "device": "Nokia Lumia 920",
+          "platforms": [
+            "WinPhone8.1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/8.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 730*",
+          "engine": "Trident_8",
+          "device": "Nokia Lumia 730",
+          "platforms": [
+            "WinPhone8.1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/8.0*rv:#MAJORVER#.#MINORVER#*; IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 920*",
+          "engine": "Trident_8",
+          "device": "Nokia Lumia 920",
+          "platforms": [
+            "WinPhone8.1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/8.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 928*",
+          "engine": "Trident_8",
+          "device": "Nokia Lumia 928",
+          "platforms": [
+            "WinPhone8.1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/8.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 625*",
+          "engine": "Trident_8",
+          "device": "Nokia Lumia 625",
+          "platforms": [
+            "WinPhone8.1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/8.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#; NOKIA; 909*",
+          "engine": "Trident_8",
+          "device": "Nokia Lumia 1020",
+          "platforms": [
+            "WinPhone8.1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/8.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 820*",
+          "engine": "Trident_8",
+          "device": "Nokia Lumia 820",
+          "platforms": [
+            "WinPhone8.1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/8.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 620*",
+          "engine": "Trident_8",
+          "device": "Nokia Lumia 620",
+          "platforms": [
+            "WinPhone8.1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/8.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 530*",
+          "engine": "Trident_8",
+          "device": "Nokia Lumia 530",
+          "platforms": [
+            "WinPhone8.1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/8.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#*",
+          "engine": "Trident_8",
+          "platforms": [
+            "WinPhone8.1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (Windows NT 6.2; ARM; Trident\/8.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; NOKIA; Lumia 625*",
+          "engine": "Trident_8",
+          "properties": {
+            "Browser_Modus": "Desktop Mode"
+          },
+          "device": "Nokia Lumia 625",
+          "platforms": [
+            "WinPhone8.1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (Windows NT 6.2; ARM; Trident\/8.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; NOKIA; Lumia 1320*",
+          "engine": "Trident_8",
+          "properties": {
+            "Browser_Modus": "Desktop Mode"
+          },
+          "device": "Nokia Lumia 1320",
+          "platforms": [
+            "WinPhone8.1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (Windows NT 6.2; ARM; Trident\/8.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; NOKIA; Lumia 820*",
+          "engine": "Trident_8",
+          "properties": {
+            "Browser_Modus": "Desktop Mode"
+          },
+          "device": "Nokia Lumia 820",
+          "platforms": [
+            "WinPhone8.1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (Windows NT 6.2; ARM; Trident\/8.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; NOKIA; Lumia 920*",
+          "engine": "Trident_8",
+          "properties": {
+            "Browser_Modus": "Desktop Mode"
+          },
+          "device": "Nokia Lumia 920",
+          "platforms": [
+            "WinPhone8.1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (Windows NT 6.2; ARM; Trident\/8.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; NOKIA; Lumia 630*",
+          "engine": "Trident_8",
+          "properties": {
+            "Browser_Modus": "Desktop Mode"
+          },
+          "device": "Nokia Lumia 630",
+          "platforms": [
+            "WinPhone8.1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (Windows NT 6.2; ARM; Trident\/8.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; NOKIA; Lumia 520*",
+          "engine": "Trident_8",
+          "properties": {
+            "Browser_Modus": "Desktop Mode"
+          },
+          "device": "Nokia Lumia 520",
+          "platforms": [
+            "WinPhone8.1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (Windows NT 6.2; ARM; Trident\/8.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; NOKIA; Lumia 1520*",
+          "engine": "Trident_8",
+          "properties": {
+            "Browser_Modus": "Desktop Mode"
+          },
+          "device": "Nokia Lumia 1520",
+          "platforms": [
+            "WinPhone8.1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (Windows NT 6.2; ARM; Trident\/8.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; NOKIA; Lumia 925*",
+          "engine": "Trident_8",
+          "properties": {
+            "Browser_Modus": "Desktop Mode"
+          },
+          "device": "Nokia Lumia 925",
+          "platforms": [
+            "WinPhone8.1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (Windows NT 6.2; ARM; Trident\/8.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; NOKIA; Lumia 635*",
+          "engine": "Trident_8",
+          "properties": {
+            "Browser_Modus": "Desktop Mode"
+          },
+          "device": "Nokia Lumia 635",
+          "platforms": [
+            "WinPhone8.1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (Windows NT 6.2; ARM; Trident\/8.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; NOKIA; 909*",
+          "engine": "Trident_8",
+          "properties": {
+            "Browser_Modus": "Desktop Mode"
+          },
+          "device": "Nokia Lumia 1020",
+          "platforms": [
+            "WinPhone8.1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (Windows NT 6.2; ARM; Trident\/8.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; NOKIA; Lumia 720*",
+          "engine": "Trident_8",
+          "properties": {
+            "Browser_Modus": "Desktop Mode"
+          },
+          "device": "Nokia Lumia 720",
+          "platforms": [
+            "WinPhone8.1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (Windows NT 6.2; ARM; Trident\/8.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; *",
+          "engine": "Trident_8",
+          "properties": {
+            "Browser_Modus": "Desktop Mode"
+          },
+          "platforms": [
+            "WinPhone8.1"
+          ]
         }
       ]
     }
