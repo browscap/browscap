@@ -1,6 +1,6 @@
 {
   "division": "Chrome #MAJORVER#.#MINORVER#",
-  "versions": [51, 50],
+  "versions": [53, 52, 51, 50],
   "sortIndex": 1146,
   "lite": true,
   "standard": true,
@@ -3993,6 +3993,13 @@
           "device": "Huawei Nexus 6P",
           "platforms": [
             "Android_6_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#Aquaris M10 Build\/*) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "device": "BQ Aquaris M10",
+          "platforms": [
+            "Android_5_1"
           ]
         },
         {
