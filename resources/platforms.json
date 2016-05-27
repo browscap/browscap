@@ -4273,6 +4273,15 @@
       "properties": {
         "Platform_Version": "7.3"
       }
+    },
+    "Miui_OS_Dynamic": {
+      "match": "*MIUI\/#MAJORVER#.#MINORVER#*",
+      "lite": false,
+      "standard": true,
+      "inherits": "Miui_OS",
+      "properties": {
+        "Platform_Version": "#MAJORVER#.#MINORVER#"
+      }
     }
   }
 }
