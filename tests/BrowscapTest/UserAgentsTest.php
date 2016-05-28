@@ -50,11 +50,6 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
     private static $propertyHolder = null;
 
     /**
-     * @var array
-     */
-    private static $data = array();
-
-    /**
      * This method is called before the first test of this test class is run.
      */
     public static function setUpBeforeClass()
@@ -100,12 +95,22 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
             ->setLogger($logger);
 
         self::$propertyHolder = new PropertyHolder();
+    }
 
-        self::$data      = [];
-        $checks          = [];
+    /**
+     * @return array[]
+     */
+    private function userAgentDataProvider()
+    {
+        static $data = array();
+
+        if (count($data)) {
+            return $data;
+        }
+
+        $checks          = array();
         $sourceDirectory = __DIR__ . '/../fixtures/issues/';
-
-        $iterator = new \RecursiveDirectoryIterator($sourceDirectory);
+        $iterator        = new \RecursiveDirectoryIterator($sourceDirectory);
 
         foreach (new \RecursiveIteratorIterator($iterator) as $file) {
             /** @var $file \SplFileInfo */
@@ -116,7 +121,7 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
             $tests = require_once $file->getPathname();
 
             foreach ($tests as $key => $test) {
-                if (isset(self::$data[$key])) {
+                if (isset($data[$key])) {
                     throw new \RuntimeException('Test data is duplicated for key "' . $key . '"');
                 }
 
@@ -127,33 +132,9 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
                     );
                 }
 
-                self::$data[$key]    = $test;
+                $data[$key]          = $test;
                 $checks[$test['ua']] = $key;
             }
-        }
-    }
-
-    /**
-     * @return array[]
-     */
-    public function userAgentDataProviderFull()
-    {
-        return self::$data;
-    }
-
-    /**
-     * @return array[]
-     */
-    public function userAgentDataProviderStandard()
-    {
-        $data = [];
-
-        foreach (self::$data as $key => $test) {
-            if (!isset($test['standard']) || !$test['standard']) {
-                continue;
-            }
-
-            $data[$key] = $test;
         }
 
         return $data;
@@ -162,11 +143,49 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
     /**
      * @return array[]
      */
+    public function userAgentDataProviderFull()
+    {
+        $providerData = [];
+
+        foreach ($this->userAgentDataProvider() as $key => $test) {
+            $providerData[$key] = [
+                $test['ua'],
+                $test['properties'],
+            ];
+        }
+
+        return $providerData;
+    }
+
+    /**
+     * @return array[]
+     */
+    public function userAgentDataProviderStandard()
+    {
+        $providerData = [];
+
+        foreach ($this->userAgentDataProvider() as $key => $test) {
+            if (!isset($test['standard']) || !$test['standard']) {
+                continue;
+            }
+
+            $providerData[$key] = [
+                $test['ua'],
+                $test['properties'],
+            ];
+        }
+
+        return $providerData;
+    }
+
+    /**
+     * @return array[]
+     */
     public function userAgentDataProviderLite()
     {
-        $data = [];
+        $providerData = [];
 
-        foreach (self::$data as $key => $test) {
+        foreach ($this->userAgentDataProvider() as $key => $test) {
             if (!isset($test['lite']) || !$test['lite']) {
                 continue;
             }
@@ -175,10 +194,13 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
                 continue;
             }
 
-            $data[$key] = $test;
+            $providerData[$key] = [
+                $test['ua'],
+                $test['properties'],
+            ];
         }
 
-        return $data;
+        return $providerData;
     }
 
     /**
