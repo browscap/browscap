@@ -50,6 +50,11 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
     private static $propertyHolder = null;
 
     /**
+     * @var array
+     */
+    private static $data = array();
+
+    /**
      * This method is called before the first test of this test class is run.
      */
     public static function setUpBeforeClass()
@@ -95,19 +100,8 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
             ->setLogger($logger);
 
         self::$propertyHolder = new PropertyHolder();
-    }
 
-    /**
-     * @return array
-     */
-    public function userAgentDataProvider()
-    {
-        static $data = [];
-
-        if (count($data)) {
-            return $data;
-        }
-
+        self::$data      = [];
         $checks          = [];
         $sourceDirectory = __DIR__ . '/../fixtures/issues/';
 
@@ -122,7 +116,7 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
             $tests = require_once $file->getPathname();
 
             foreach ($tests as $key => $test) {
-                if (isset($data[$key])) {
+                if (isset(self::$data[$key])) {
                     throw new \RuntimeException('Test data is duplicated for key "' . $key . '"');
                 }
 
@@ -133,22 +127,78 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
                     );
                 }
 
-                $data[$key]          = $test;
+                self::$data[$key]    = $test;
                 $checks[$test['ua']] = $key;
             }
+        }
+    }
+
+    /**
+     * @return array[]
+     */
+    public function userAgentDataProviderFull()
+    {
+        $data = [];
+
+        foreach (self::$data as $key => $test) {
+            unset($test['standard'], $test['lite']);
+
+            $data[$key] = $test;
         }
 
         return $data;
     }
 
     /**
-     * @dataProvider userAgentDataProvider
+     * @return array[]
+     */
+    public function userAgentDataProviderStandard()
+    {
+        $data = array();
+
+        foreach (self::$data as $key => $test) {
+            if (!isset($test['standard']) || !$test['standard']) {
+                continue;
+            }
+
+            unset($test['standard'], $test['lite']);
+
+            $data[$key] = $test;
+        }
+
+        return $data;
+    }
+
+    /**
+     * @return array[]
+     */
+    public function userAgentDataProviderLite()
+    {
+        $data = array();
+
+        foreach (self::$data as $key => $test) {
+            if (!isset($test['lite']) || !$test['lite']) {
+                continue;
+            }
+
+            if (!isset($test['standard']) || !$test['standard']) {
+                continue;
+            }
+
+            unset($test['standard'], $test['lite']);
+
+            $data[$key] = $test;
+        }
+
+        return $data;
+    }
+
+    /**
+     * @dataProvider userAgentDataProviderFull
      * @coversNothing
      *
      * @param string $userAgent
      * @param array  $expectedProperties
-     * @param bool   $lite
-     * @param bool   $standard
      *
      * @throws \Exception
      * @throws \BrowscapPHP\Exception
@@ -156,7 +206,7 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
      * @group  useragenttest
      * @group  full
      */
-    public function testUserAgentsFull($userAgent, $expectedProperties, $lite = true, $standard = true)
+    public function testUserAgentsFull($userAgent, $expectedProperties)
     {
         if (!is_array($expectedProperties) || !count($expectedProperties)) {
             self::markTestSkipped('Could not run test - no properties were defined to test');
@@ -195,13 +245,11 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @dataProvider userAgentDataProvider
+     * @dataProvider userAgentDataProviderStandard
      * @coversNothing
      *
      * @param string $userAgent
      * @param array  $expectedProperties
-     * @param bool   $lite
-     * @param bool   $standard
      *
      * @throws \Exception
      * @throws \BrowscapPHP\Exception
@@ -209,14 +257,10 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
      * @group  useragenttest
      * @group  standard
      */
-    public function testUserAgentsStandard($userAgent, $expectedProperties, $lite = true, $standard = true)
+    public function testUserAgentsStandard($userAgent, $expectedProperties)
     {
         if (!is_array($expectedProperties) || !count($expectedProperties)) {
             self::markTestSkipped('Could not run test - no properties were defined to test');
-        }
-
-        if (!$standard) {
-            self::markTestSkipped('Test skipped - Browser/Platform/Version not defined for Standard Mode');
         }
 
         static $updatedStandardCache = false;
@@ -256,13 +300,11 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @dataProvider userAgentDataProvider
+     * @dataProvider userAgentDataProviderLite
      * @coversNothing
      *
      * @param string $userAgent
      * @param array  $expectedProperties
-     * @param bool   $lite
-     * @param bool   $standard
      *
      * @throws \Exception
      * @throws \BrowscapPHP\Exception
@@ -271,14 +313,10 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
      * @group useragenttest
      * @group lite
      */
-    public function testUserAgentsLite($userAgent, $expectedProperties, $lite = true, $standard = true)
+    public function testUserAgentsLite($userAgent, $expectedProperties)
     {
         if (!is_array($expectedProperties) || !count($expectedProperties)) {
             self::markTestSkipped('Could not run test - no properties were defined to test');
-        }
-
-        if (!$lite) {
-            self::markTestSkipped('Test skipped - Browser/Platform/Version not defined for Lite Mode');
         }
 
         static $updatedLiteCache = false;
