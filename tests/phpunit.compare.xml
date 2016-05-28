@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<phpunit bootstrap="./bootstrap.php">
+  <testsuites>
+    <testsuite name="Browscap Test Suite for Compare Tests">
+      <file>BrowscapTest/UserAgentsTest.php</file>
+    </testsuite>
+  </testsuites>
+
+  <filter>
+    <whitelist>
+      <directory suffix=".php">../src/</directory>
+    </whitelist>
+  </filter>
+</phpunit>
