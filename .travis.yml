@@ -31,7 +31,8 @@ script:
   - if [ "`phpenv version-name`" != "5.6" ]; then vendor/bin/phpunit --colors --verbose --exclude-group useragenttest; fi
   - vendor/bin/phpunit --colors --group useragenttest
   - vendor/bin/phpcs --standard=psr2 -np src tests
-  - vendor/bin/php-cs-fixer fix --dry-run -vv
+# do not run this command on travis it needs too much time
+#  - vendor/bin/php-cs-fixer fix --dry-run -vv
 
 after_script:
 # xdebug is not installed on HHVM and PHP 7, so we have no code coverage data to send
