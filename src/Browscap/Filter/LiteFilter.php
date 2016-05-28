@@ -59,7 +59,7 @@ class LiteFilter implements FilterInterface
      */
     public function isOutputSection(array $section)
     {
-        return isset($section['lite']) && $section['lite'] === 1;
+        return isset($section['lite']) && $section['lite'];
     }
 
     /**

@@ -59,7 +59,7 @@ class StandardFilter implements FilterInterface
      */
     public function isOutputSection(array $section)
     {
-        return !isset($section['standard']) || $section['standard'] === 1;
+        return !isset($section['standard']) || $section['standard'];
     }
 
     /**
