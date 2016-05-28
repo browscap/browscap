@@ -138,15 +138,7 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
      */
     public function userAgentDataProviderFull()
     {
-        $data = [];
-
-        foreach (self::$data as $key => $test) {
-            unset($test['standard'], $test['lite']);
-
-            $data[$key] = $test;
-        }
-
-        return $data;
+        return self::$data;
     }
 
     /**
@@ -154,14 +146,12 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
      */
     public function userAgentDataProviderStandard()
     {
-        $data = array();
+        $data = [];
 
         foreach (self::$data as $key => $test) {
             if (!isset($test['standard']) || !$test['standard']) {
                 continue;
             }
-
-            unset($test['standard'], $test['lite']);
 
             $data[$key] = $test;
         }
@@ -174,7 +164,7 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
      */
     public function userAgentDataProviderLite()
     {
-        $data = array();
+        $data = [];
 
         foreach (self::$data as $key => $test) {
             if (!isset($test['lite']) || !$test['lite']) {
@@ -184,8 +174,6 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
             if (!isset($test['standard']) || !$test['standard']) {
                 continue;
             }
-
-            unset($test['standard'], $test['lite']);
 
             $data[$key] = $test;
         }
