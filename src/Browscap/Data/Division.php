@@ -10,7 +10,6 @@
  * Refer to the LICENSE file distributed with this package.
  *
  * @category   Browscap
- * @package    Data
  * @copyright  1998-2014 Browser Capabilities Project
  * @license    MIT
  */
@@ -21,7 +20,6 @@ namespace Browscap\Data;
  * Class Division
  *
  * @category   Browscap
- * @package    Data
  * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
  */
 class Division
@@ -32,39 +30,39 @@ class Division
     private $name = null;
 
     /**
-     * @var integer
+     * @var int
      */
     private $sortIndex = 0;
 
     /**
-     * @var boolean
+     * @var bool
      */
     private $lite = false;
 
     /**
-     * @var boolean
+     * @var bool
      */
     private $standard = false;
 
     /**
      * @var array
      */
-    private $versions = array();
+    private $versions = [];
 
     /**
      * @var array
      */
-    private $userAgents = array();
+    private $userAgents = [];
 
     /**
-     * @param string  $name
-     * @param integer $sortIndex
-     * @param array   $userAgents
-     * @param boolean $lite
-     * @param boolean $standard
-     * @param array   $versions
+     * @param string $name
+     * @param int    $sortIndex
+     * @param array  $userAgents
+     * @param bool   $lite
+     * @param bool   $standard
+     * @param array  $versions
      */
-    public function __construct($name, $sortIndex, array $userAgents, $lite, $standard = true, array $versions = array())
+    public function __construct($name, $sortIndex, array $userAgents, $lite, $standard = true, array $versions = [])
     {
         $this->name       = $name;
         $this->sortIndex  = $sortIndex;
@@ -75,7 +73,7 @@ class Division
     }
 
     /**
-     * @return boolean
+     * @return bool
      */
     public function isLite()
     {
@@ -83,7 +81,7 @@ class Division
     }
 
     /**
-     * @return boolean
+     * @return bool
      */
     public function isStandard()
     {

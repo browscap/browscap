@@ -10,7 +10,6 @@
  * Refer to the LICENSE file distributed with this package.
  *
  * @category   BrowscapTest
- * @package    Writer
  * @copyright  1998-2014 Browser Capabilities Project
  * @license    MIT
  */
@@ -24,7 +23,6 @@ use org\bovigo\vfs\vfsStream;
  * Class XmlWriterTest
  *
  * @category   BrowscapTest
- * @package    Writer
  * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
  */
 class XmlWriterTest extends \PHPUnit_Framework_TestCase
@@ -77,7 +75,7 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
      */
     public function testSetGetLogger()
     {
-        $mockLogger = $this->getMock('\Monolog\Logger', array(), array(), '', false);
+        $mockLogger = $this->getMock('\Monolog\Logger', [], [], '', false);
 
         self::assertSame($this->object, $this->object->setLogger($mockLogger));
         self::assertSame($mockLogger, $this->object->getLogger());
@@ -102,7 +100,7 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
      */
     public function testSetGetFormatter()
     {
-        $mockFormatter = $this->getMock('\Browscap\Formatter\XmlFormatter', array(), array(), '', false);
+        $mockFormatter = $this->getMock('\Browscap\Formatter\XmlFormatter', [], [], '', false);
 
         self::assertSame($this->object, $this->object->setFormatter($mockFormatter));
         self::assertSame($mockFormatter, $this->object->getFormatter());
@@ -116,7 +114,7 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
      */
     public function testSetGetFilter()
     {
-        $mockFilter = $this->getMock('\Browscap\Filter\FullFilter', array(), array(), '', false);
+        $mockFilter = $this->getMock('\Browscap\Filter\FullFilter', [], [], '', false);
 
         self::assertSame($this->object, $this->object->setFilter($mockFilter));
         self::assertSame($mockFilter, $this->object->getFilter());
@@ -203,10 +201,10 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
      */
     public function testRenderHeaderIfSilent()
     {
-        $mockLogger = $this->getMock('\Monolog\Logger', array(), array(), '', false);
+        $mockLogger = $this->getMock('\Monolog\Logger', [], [], '', false);
         $this->object->setLogger($mockLogger);
 
-        $header = array('TestData to be renderd into the Header');
+        $header = ['TestData to be renderd into the Header'];
 
         $this->object->setSilent(true);
 
@@ -222,10 +220,10 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
      */
     public function testRenderHeaderIfNotSilent()
     {
-        $mockLogger = $this->getMock('\Monolog\Logger', array(), array(), '', false);
+        $mockLogger = $this->getMock('\Monolog\Logger', [], [], '', false);
         $this->object->setLogger($mockLogger);
 
-        $header = array('TestData to be renderd into the Header');
+        $header = ['TestData to be renderd into the Header'];
 
         $this->object->setSilent(false);
 
@@ -245,16 +243,16 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
      */
     public function testRenderVersionIfSilent()
     {
-        $mockLogger = $this->getMock('\Monolog\Logger', array(), array(), '', false);
+        $mockLogger = $this->getMock('\Monolog\Logger', [], [], '', false);
         $this->object->setLogger($mockLogger);
 
-        $version = array(
+        $version = [
             'version' => 'test',
             'released' => date('Y-m-d'),
             'format' => 'TEST',
             'type' => 'full',
 
-        );
+        ];
 
         $this->object->setSilent(true);
 
@@ -270,31 +268,30 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
      */
     public function testRenderVersionIfNotSilent()
     {
-        $mockLogger = $this->getMock('\Monolog\Logger', array(), array(), '', false);
+        $mockLogger = $this->getMock('\Monolog\Logger', [], [], '', false);
         $this->object->setLogger($mockLogger);
 
-        $version = array(
+        $version = [
             'version' => 'test',
             'released' => date('Y-m-d'),
             'format' => 'TEST',
             'type' => 'full',
 
-        );
+        ];
 
         $this->object->setSilent(false);
 
         $mockFormatter = $this->getMock(
             '\Browscap\Formatter\XmlFormatter',
-            array('formatPropertyName'),
-            array(),
+            ['formatPropertyName'],
+            [],
             '',
             false
         );
         $mockFormatter
             ->expects(self::exactly(2))
             ->method('formatPropertyName')
-            ->will(self::returnValue('test'))
-        ;
+            ->will(self::returnValue('test'));
 
         self::assertSame($this->object, $this->object->setFormatter($mockFormatter));
 
@@ -314,25 +311,24 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
      */
     public function testRenderVersionIfNotSilentButWithoutVersion()
     {
-        $mockLogger = $this->getMock('\Monolog\Logger', array(), array(), '', false);
+        $mockLogger = $this->getMock('\Monolog\Logger', [], [], '', false);
         $this->object->setLogger($mockLogger);
 
-        $version = array();
+        $version = [];
 
         $this->object->setSilent(false);
 
         $mockFormatter = $this->getMock(
             '\Browscap\Formatter\XmlFormatter',
-            array('formatPropertyName'),
-            array(),
+            ['formatPropertyName'],
+            [],
             '',
             false
         );
         $mockFormatter
             ->expects(self::exactly(2))
             ->method('formatPropertyName')
-            ->will(self::returnValue('test'))
-        ;
+            ->will(self::returnValue('test'));
 
         self::assertSame($this->object, $this->object->setFormatter($mockFormatter));
 
@@ -352,7 +348,7 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
      */
     public function testRenderAllDivisionsHeader()
     {
-        $mockCollection = $this->getMock('\Browscap\Data\DataCollection', array(), array(), '', false);
+        $mockCollection = $this->getMock('\Browscap\Data\DataCollection', [], [], '', false);
 
         self::assertSame($this->object, $this->object->renderAllDivisionsHeader($mockCollection));
         self::assertSame('<browsercapitems>' . PHP_EOL, file_get_contents($this->file));
@@ -384,16 +380,15 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
 
         $mockFormatter = $this->getMock(
             '\Browscap\Formatter\XmlFormatter',
-            array('formatPropertyName'),
-            array(),
+            ['formatPropertyName'],
+            [],
             '',
             false
         );
         $mockFormatter
             ->expects(self::once())
             ->method('formatPropertyName')
-            ->will(self::returnValue('test'))
-        ;
+            ->will(self::returnValue('test'));
 
         self::assertSame($this->object, $this->object->setFormatter($mockFormatter));
 
@@ -425,73 +420,68 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
     {
         $this->object->setSilent(false);
 
-        $section = array(
+        $section = [
             'Test'   => 1,
             'isTest' => true,
-            'abc'    => 'bcd'
-        );
+            'abc'    => 'bcd',
+        ];
 
-        $expectedAgents = array(
-            0 => array(
-                'properties' => array(
+        $expectedAgents = [
+            0 => [
+                'properties' => [
                     'Test' => 'abc',
-                    'abc'  => true
-                )
-            )
-        );
+                    'abc'  => true,
+                ],
+            ],
+        ];
 
-        $mockDivision = $this->getMock('\Browscap\Data\Division', array('getUserAgents'), array(), '', false);
+        $mockDivision = $this->getMock('\Browscap\Data\Division', ['getUserAgents'], [], '', false);
         $mockDivision
             ->expects(self::once())
             ->method('getUserAgents')
-            ->will(self::returnValue($expectedAgents))
-        ;
+            ->will(self::returnValue($expectedAgents));
 
         $mockCollection = $this->getMock(
             '\Browscap\Data\DataCollection',
-            array('getDefaultProperties'),
-            array(),
+            ['getDefaultProperties'],
+            [],
             '',
             false
         );
         $mockCollection
             ->expects(self::once())
             ->method('getDefaultProperties')
-            ->will(self::returnValue($mockDivision))
-        ;
+            ->will(self::returnValue($mockDivision));
 
         $mockFormatter = $this->getMock(
             '\Browscap\Formatter\XmlFormatter',
-            array('formatPropertyName', 'formatPropertyValue'),
-            array(),
+            ['formatPropertyName', 'formatPropertyValue'],
+            [],
             '',
             false
         );
         $mockFormatter
             ->expects(self::exactly(2))
             ->method('formatPropertyName')
-            ->will(self::returnArgument(0))
-        ;
+            ->will(self::returnArgument(0));
         $mockFormatter
             ->expects(self::exactly(2))
             ->method('formatPropertyValue')
-            ->will(self::returnArgument(0))
-        ;
+            ->will(self::returnArgument(0));
 
         self::assertSame($this->object, $this->object->setFormatter($mockFormatter));
 
-        $mockFilter = $this->getMock('\Browscap\Filter\FullFilter', array('isOutputProperty'), array(), '', false);
-        $map        = array(
-            array('Test', $this->object, true),
-            array('isTest', $this->object, false),
-            array('abc', $this->object, true),
-        );
+        $mockFilter = $this->getMock('\Browscap\Filter\FullFilter', ['isOutputProperty'], [], '', false);
+        $map        = [
+            ['Test', $this->object, true],
+            ['isTest', $this->object, false],
+            ['abc', $this->object, true],
+        ];
 
         $mockFilter
             ->expects(self::exactly(2))
             ->method('isOutputProperty')
-            ->will(self::returnValueMap($map))
-        ;
+            ->will(self::returnValueMap($map));
 
         self::assertSame($this->object, $this->object->setFilter($mockFilter));
 
@@ -512,80 +502,76 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
     {
         $this->object->setSilent(false);
 
-        $section = array(
+        $section = [
             'Parent'   => 'X1',
             'Comment'  => '1',
             'Win16'    => true,
-            'Platform' => 'bcd'
-        );
+            'Platform' => 'bcd',
+        ];
 
-        $sections = array(
-            'X1' => array(
+        $sections = [
+            'X1' => [
                 'Comment'  => '12',
                 'Win16'    => false,
-                'Platform' => 'bcd'
-            ),
-            'X2' => $section
-        );
+                'Platform' => 'bcd',
+            ],
+            'X2' => $section,
+        ];
 
-        $expectedAgents = array(
-            0 => array(
-                'properties' => array(
+        $expectedAgents = [
+            0 => [
+                'properties' => [
                     'Comment'  => 1,
                     'Win16'    => true,
-                    'Platform' => 'bcd'
-                )
-            )
-        );
+                    'Platform' => 'bcd',
+                ],
+            ],
+        ];
 
-        $mockDivision = $this->getMock('\Browscap\Data\Division', array('getUserAgents'), array(), '', false);
+        $mockDivision = $this->getMock('\Browscap\Data\Division', ['getUserAgents'], [], '', false);
         $mockDivision
             ->expects(self::once())
             ->method('getUserAgents')
-            ->will(self::returnValue($expectedAgents))
-        ;
+            ->will(self::returnValue($expectedAgents));
 
         $mockCollection = $this->getMock(
             '\Browscap\Data\DataCollection',
-            array('getDefaultProperties'),
-            array(),
+            ['getDefaultProperties'],
+            [],
             '',
             false
         );
         $mockCollection
             ->expects(self::once())
             ->method('getDefaultProperties')
-            ->will(self::returnValue($mockDivision))
-        ;
+            ->will(self::returnValue($mockDivision));
 
         $mockFormatter = $this->getMock(
             '\Browscap\Formatter\XmlFormatter',
-            array('formatPropertyName'),
-            array(),
+            ['formatPropertyName'],
+            [],
             '',
             false
         );
         $mockFormatter
             ->expects(self::exactly(3))
             ->method('formatPropertyName')
-            ->will(self::returnArgument(0))
-        ;
+            ->will(self::returnArgument(0));
 
         self::assertSame($this->object, $this->object->setFormatter($mockFormatter));
 
-        $map = array(
-            array('Comment', $this->object, true),
-            array('Win16', $this->object, false),
-            array('Platform', $this->object, true),
-            array('Parent', $this->object, true),
-        );
+        $map = [
+            ['Comment', $this->object, true],
+            ['Win16', $this->object, false],
+            ['Platform', $this->object, true],
+            ['Parent', $this->object, true],
+        ];
 
-        $mockFilter = $this->getMock('\Browscap\Filter\StandardFilter', array('isOutputProperty'), array(), '', false);
+        $mockFilter = $this->getMock('\Browscap\Filter\StandardFilter', ['isOutputProperty'], [], '', false);
         $mockFilter
             ->expects(self::exactly(4))
             ->method('isOutputProperty')
-            ->will(self::returnValueMap($map))
-        ;
+            ->will(self::returnValueMap($map));
 
         self::assertSame($this->object, $this->object->setFilter($mockFilter));
 
@@ -607,75 +593,71 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
     {
         $this->object->setSilent(false);
 
-        $section = array(
+        $section = [
             'Parent'   => 'DefaultProperties',
             'Comment'  => '1',
             'Win16'    => true,
-            'Platform' => 'bcd'
-        );
+            'Platform' => 'bcd',
+        ];
 
-        $sections = array(
-            'X2' => $section
-        );
+        $sections = [
+            'X2' => $section,
+        ];
 
-        $expectedAgents = array(
-            0 => array(
-                'properties' => array(
+        $expectedAgents = [
+            0 => [
+                'properties' => [
                     'Comment'  => '12',
                     'Win16'    => true,
-                    'Platform' => 'bcd'
-                )
-            )
-        );
+                    'Platform' => 'bcd',
+                ],
+            ],
+        ];
 
-        $mockDivision = $this->getMock('\Browscap\Data\Division', array('getUserAgents'), array(), '', false);
+        $mockDivision = $this->getMock('\Browscap\Data\Division', ['getUserAgents'], [], '', false);
         $mockDivision
             ->expects(self::once())
             ->method('getUserAgents')
-            ->will(self::returnValue($expectedAgents))
-        ;
+            ->will(self::returnValue($expectedAgents));
 
         $mockCollection = $this->getMock(
             '\Browscap\Data\DataCollection',
-            array('getDefaultProperties'),
-            array(),
+            ['getDefaultProperties'],
+            [],
             '',
             false
         );
         $mockCollection
             ->expects(self::once())
             ->method('getDefaultProperties')
-            ->will(self::returnValue($mockDivision))
-        ;
+            ->will(self::returnValue($mockDivision));
 
         $mockFormatter = $this->getMock(
             '\Browscap\Formatter\XmlFormatter',
-            array('formatPropertyName'),
-            array(),
+            ['formatPropertyName'],
+            [],
             '',
             false
         );
         $mockFormatter
             ->expects(self::exactly(3))
             ->method('formatPropertyName')
-            ->will(self::returnArgument(0))
-        ;
+            ->will(self::returnArgument(0));
 
         self::assertSame($this->object, $this->object->setFormatter($mockFormatter));
 
-        $map = array(
-            array('Comment', $this->object, true),
-            array('Win16', $this->object, false),
-            array('Platform', $this->object, true),
-            array('Parent', $this->object, true),
-        );
+        $map = [
+            ['Comment', $this->object, true],
+            ['Win16', $this->object, false],
+            ['Platform', $this->object, true],
+            ['Parent', $this->object, true],
+        ];
 
-        $mockFilter = $this->getMock('\Browscap\Filter\StandardFilter', array('isOutputProperty'), array(), '', false);
+        $mockFilter = $this->getMock('\Browscap\Filter\StandardFilter', ['isOutputProperty'], [], '', false);
         $mockFilter
             ->expects(self::exactly(4))
             ->method('isOutputProperty')
-            ->will(self::returnValueMap($map))
-        ;
+            ->will(self::returnValueMap($map));
 
         self::assertSame($this->object, $this->object->setFilter($mockFilter));
         self::assertSame($this->object, $this->object->renderSectionBody($section, $mockCollection, $sections));
@@ -696,13 +678,13 @@ class XmlWriterTest extends \PHPUnit_Framework_TestCase
     {
         $this->object->setSilent(true);
 
-        $section = array(
+        $section = [
             'Test'   => 1,
             'isTest' => true,
-            'abc'    => 'bcd'
-        );
+            'abc'    => 'bcd',
+        ];
 
-        $mockCollection = $this->getMock('\Browscap\Data\DataCollection', array(), array(), '', false);
+        $mockCollection = $this->getMock('\Browscap\Data\DataCollection', [], [], '', false);
 
         self::assertSame($this->object, $this->object->renderSectionBody($section, $mockCollection));
         self::assertSame('', file_get_contents($this->file));

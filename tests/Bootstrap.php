@@ -5,10 +5,10 @@
  */
 chdir(dirname(__DIR__));
 
-$autoloadPaths = array(
+$autoloadPaths = [
     'vendor/autoload.php',
     '../../autoload.php',
-);
+];
 
 $foundVendorAutoload = false;
 foreach ($autoloadPaths as $path) {

@@ -10,7 +10,6 @@
  * Refer to the LICENSE file distributed with this package.
  *
  * @category   Browscap
- * @package    Generator
  * @copyright  1998-2014 Browser Capabilities Project
  * @license    MIT
  */
@@ -24,7 +23,6 @@ use Browscap\Writer;
  * Class BuildGenerator
  *
  * @category   Browscap
- * @package    Generator
  * @author     James Titcumb <james@asgrim.com>
  * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
  */
@@ -60,15 +58,14 @@ class BuildCustomFileGenerator extends AbstractBuildGenerator
      */
     public function run(
         $version,
-        $fields = array(),
+        $fields = [],
         $file = null,
         $format = self::OUTPUT_FORMAT_PHP
     ) {
         return $this
             ->preBuild($fields, $file, $format)
             ->build($version)
-            ->postBuild()
-        ;
+            ->postBuild();
     }
 
     /**
@@ -81,7 +78,7 @@ class BuildCustomFileGenerator extends AbstractBuildGenerator
      * @return \Browscap\Generator\BuildCustomFileGenerator
      */
     protected function preBuild(
-        $fields = array(),
+        $fields = [],
         $file = null,
         $format = self::OUTPUT_FORMAT_PHP
     ) {

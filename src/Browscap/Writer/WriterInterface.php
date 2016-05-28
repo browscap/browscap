@@ -10,7 +10,6 @@
  * Refer to the LICENSE file distributed with this package.
  *
  * @category   Browscap
- * @package    Writer
  * @copyright  1998-2014 Browser Capabilities Project
  * @license    MIT
  */
@@ -26,7 +25,6 @@ use Psr\Log\LoggerInterface;
  * Interface WriterInterface
  *
  * @category   Browscap
- * @package    Writer
  * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
  */
 interface WriterInterface
@@ -63,14 +61,14 @@ interface WriterInterface
     public function getLogger();
 
     /**
-     * @param boolean $silent
+     * @param bool $silent
      *
      * @return \Browscap\Writer\WriterInterface
      */
     public function setSilent($silent);
 
     /**
-     * @return boolean
+     * @return bool
      */
     public function isSilent();
 
@@ -95,7 +93,7 @@ interface WriterInterface
      *
      * @return \Browscap\Writer\WriterInterface
      */
-    public function renderHeader(array $comments = array());
+    public function renderHeader(array $comments = []);
 
     /**
      * renders the version information
@@ -104,7 +102,7 @@ interface WriterInterface
      *
      * @return \Browscap\Writer\WriterInterface
      */
-    public function renderVersion(array $versionData = array());
+    public function renderVersion(array $versionData = []);
 
     /**
      * renders the header for all divisions
@@ -145,7 +143,7 @@ interface WriterInterface
      * @throws \InvalidArgumentException
      * @return \Browscap\Writer\WriterCollection
      */
-    public function renderSectionBody(array $section, DataCollection $collection, array $sections = array(), $sectionName = '');
+    public function renderSectionBody(array $section, DataCollection $collection, array $sections = [], $sectionName = '');
 
     /**
      * renders the footer for a section

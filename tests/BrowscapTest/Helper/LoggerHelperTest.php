@@ -10,7 +10,6 @@
  * Refer to the LICENSE file distributed with this package.
  *
  * @category   BrowscapTest
- * @package    Helper
  * @copyright  1998-2014 Browser Capabilities Project
  * @license    MIT
  */
@@ -23,7 +22,6 @@ use Browscap\Helper\LoggerHelper;
  * Class LoggerHelperTest
  *
  * @category   BrowscapTest
- * @package    Helper
  * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
  */
 class LoggerHelperTest extends \PHPUnit_Framework_TestCase

@@ -10,7 +10,6 @@
  * Refer to the LICENSE file distributed with this package.
  *
  * @category   BrowscapTest
- * @package    Parser
  * @copyright  1998-2014 Browser Capabilities Project
  * @license    MIT
  */
@@ -23,7 +22,6 @@ use Browscap\Parser\IniParser;
  * Class IniParserTest
  *
  * @category   BrowscapTest
- * @package    Parser
  * @author     James Titcumb <james@asgrim.com>
  */
 class IniParserTest extends \PHPUnit_Framework_TestCase
@@ -155,7 +153,7 @@ HERE;
      */
     public function testGetLinesFromFileThrowsExceptionIfFileDoesNotExist()
     {
-        $file = '/hopefully/this/file/does/not/exist';
+        $file   = '/hopefully/this/file/does/not/exist';
         $parser = new IniParser($file);
         $this->setExpectedException('\InvalidArgumentException', 'File not found: ' . $file);
         $parser->getLinesFromFile();
@@ -203,7 +201,7 @@ HERE;
      */
     public function testGetFileLinesReturnsLinesFromPreviouslySetLines()
     {
-        $lines = ['first','second','third'];
+        $lines = ['first', 'second', 'third'];
 
         $parser = new IniParser('');
         $parser->setFileLines($lines);

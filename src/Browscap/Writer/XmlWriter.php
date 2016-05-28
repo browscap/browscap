@@ -10,7 +10,6 @@
  * Refer to the LICENSE file distributed with this package.
  *
  * @category   Browscap
- * @package    Writer
  * @copyright  1998-2014 Browser Capabilities Project
  * @license    MIT
  */
@@ -26,7 +25,6 @@ use Psr\Log\LoggerInterface;
  * Class XmlWriter
  *
  * @category   Browscap
- * @package    Writer
  * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
  */
 
@@ -53,14 +51,14 @@ class XmlWriter implements WriterInterface
     private $type = null;
 
     /**
-     * @var boolean
+     * @var bool
      */
     private $silent = false;
 
     /**
      * @var array
      */
-    private $outputProperties = array();
+    private $outputProperties = [];
 
     /**
      * @param string $file
@@ -138,7 +136,7 @@ class XmlWriter implements WriterInterface
     public function setFilter(FilterInterface $filter)
     {
         $this->type             = $filter;
-        $this->outputProperties = array();
+        $this->outputProperties = [];
 
         return $this;
     }
@@ -152,7 +150,7 @@ class XmlWriter implements WriterInterface
     }
 
     /**
-     * @param boolean $silent
+     * @param bool $silent
      *
      * @return \Browscap\Writer\WriterInterface
      */
@@ -164,7 +162,7 @@ class XmlWriter implements WriterInterface
     }
 
     /**
-     * @return boolean
+     * @return bool
      */
     public function isSilent()
     {
@@ -211,7 +209,7 @@ class XmlWriter implements WriterInterface
      *
      * @return \Browscap\Writer\WriterInterface
      */
-    public function renderHeader(array $comments = array())
+    public function renderHeader(array $comments = [])
     {
         if ($this->isSilent()) {
             return $this;
@@ -237,7 +235,7 @@ class XmlWriter implements WriterInterface
      *
      * @return \Browscap\Writer\WriterInterface
      */
-    public function renderVersion(array $versionData = array())
+    public function renderVersion(array $versionData = [])
     {
         if ($this->isSilent()) {
             return $this;
@@ -322,7 +320,7 @@ class XmlWriter implements WriterInterface
      * @throws \InvalidArgumentException
      * @return XmlWriter
      */
-    public function renderSectionBody(array $section, DataCollection $collection, array $sections = array(), $sectionName = '')
+    public function renderSectionBody(array $section, DataCollection $collection, array $sections = [], $sectionName = '')
     {
         if ($this->isSilent()) {
             return $this;
@@ -331,7 +329,7 @@ class XmlWriter implements WriterInterface
         $division          = $collection->getDefaultProperties();
         $ua                = $division->getUserAgents();
         $defaultproperties = $ua[0]['properties'];
-        $properties        = array_merge(array('Parent'), array_keys($defaultproperties));
+        $properties        = array_merge(['Parent'], array_keys($defaultproperties));
 
         foreach ($properties as $property) {
             if (!isset($section[$property])) {

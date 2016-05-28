@@ -10,7 +10,6 @@
  * Refer to the LICENSE file distributed with this package.
  *
  * @category   BrowscapTest
- * @package    Test
  * @copyright  1998-2014 Browser Capabilities Project
  * @license    MIT
  */
@@ -18,19 +17,18 @@
 namespace BrowscapTest;
 
 use Browscap\Data\PropertyHolder;
-use Monolog\Handler\NullHandler;
-use Monolog\Logger;
-use BrowscapPHP\Browscap;
-use WurflCache\Adapter\File;
 use Browscap\Generator\BuildGenerator;
 use Browscap\Helper\CollectionCreator;
 use Browscap\Writer\Factory\PhpWriterFactory;
+use BrowscapPHP\Browscap;
+use Monolog\Handler\NullHandler;
+use Monolog\Logger;
+use WurflCache\Adapter\File;
 
 /**
  * Class UserAgentsTest
  *
  * @category   BrowscapTest
- * @package    Test
  * @author     James Titcumb <james@asgrim.com>
  * @group      useragenttest
  */
@@ -85,18 +83,16 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
         $buildGenerator
             ->setLogger($logger)
             ->setCollectionCreator(new CollectionCreator())
-            ->setWriterCollection($writerCollection)
-        ;
+            ->setWriterCollection($writerCollection);
 
         $buildGenerator->run($buildNumber, false);
 
-        $cache = new File(array(File::DIR => $cacheFolder));
+        $cache = new File([File::DIR => $cacheFolder]);
         // Now, load an INI file into BrowscapPHP\Browscap for testing the UAs
         self::$browscap = new Browscap();
         self::$browscap
             ->setCache($cache)
-            ->setLogger($logger)
-        ;
+            ->setLogger($logger);
 
         self::$propertyHolder = new PropertyHolder();
     }
@@ -106,20 +102,20 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
      */
     public function userAgentDataProvider()
     {
-        static $data = array();
+        static $data = [];
 
         if (count($data)) {
             return $data;
         }
 
-        $checks          = array();
+        $checks          = [];
         $sourceDirectory = __DIR__ . '/../fixtures/issues/';
 
         $iterator = new \RecursiveDirectoryIterator($sourceDirectory);
 
         foreach (new \RecursiveIteratorIterator($iterator) as $file) {
             /** @var $file \SplFileInfo */
-            if (!$file->isFile() || $file->getExtension() != 'php') {
+            if (!$file->isFile() || $file->getExtension() !== 'php') {
                 continue;
             }
 
@@ -193,7 +189,7 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
                 $propValue,
                 $actualProps[$propName],
                 'Expected actual "' . $propName . '" to be "' . $propValue . '" (was "' . $actualProps[$propName]
-                . '"; used pattern: ' . $actualProps['browser_name_pattern'] .')'
+                . '"; used pattern: ' . $actualProps['browser_name_pattern'] . ')'
             );
         }
     }
@@ -254,7 +250,7 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
                 $propValue,
                 $actualProps[$propName],
                 'Expected actual "' . $propName . '" to be "' . $propValue . '" (was "' . $actualProps[$propName]
-                . '"; used pattern: ' . $actualProps['browser_name_pattern'] .')'
+                . '"; used pattern: ' . $actualProps['browser_name_pattern'] . ')'
             );
         }
     }
@@ -316,7 +312,7 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
                 $propValue,
                 $actualProps[$propName],
                 'Expected actual "' . $propName . '" to be "' . $propValue . '" (was "' . $actualProps[$propName]
-                . '"; used pattern: ' . $actualProps['browser_name_pattern'] .')'
+                . '"; used pattern: ' . $actualProps['browser_name_pattern'] . ')'
             );
         }
     }

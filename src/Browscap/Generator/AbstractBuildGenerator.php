@@ -10,7 +10,6 @@
  * Refer to the LICENSE file distributed with this package.
  *
  * @category   Browscap
- * @package    Generator
  * @copyright  1998-2014 Browser Capabilities Project
  * @license    MIT
  */
@@ -25,7 +24,6 @@ use Psr\Log\LoggerInterface;
  * Class BuildGenerator
  *
  * @category   Browscap
- * @package    Generator
  * @author     James Titcumb <james@asgrim.com>
  * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
  */
@@ -132,8 +130,8 @@ abstract class AbstractBuildGenerator
      * @param string $directory
      * @param string $type
      *
-     * @return string
      * @throws \Exception
+     * @return string
      */
     protected function checkDirectoryExists($directory, $type)
     {
@@ -157,9 +155,7 @@ abstract class AbstractBuildGenerator
     /**
      * Entry point for generating builds for a specified version
      *
-     * @param string  $version
-     *
-     * @return void
+     * @param string $version
      */
     /**
      * Entry point for generating builds for a specified version
@@ -173,8 +169,7 @@ abstract class AbstractBuildGenerator
         return $this
             ->preBuild()
             ->build($version)
-            ->postBuild()
-        ;
+            ->postBuild();
     }
 
     /**

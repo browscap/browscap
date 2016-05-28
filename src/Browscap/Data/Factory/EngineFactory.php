@@ -10,7 +10,6 @@
  * Refer to the LICENSE file distributed with this package.
  *
  * @category   Browscap
- * @package    Data
  * @copyright  1998-2014 Browser Capabilities Project
  * @license    MIT
  */
@@ -23,7 +22,6 @@ use Browscap\Data\Engine;
  * Class EngineFactory
  *
  * @category   Browscap
- * @package    Data
  * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
  */
 class EngineFactory
@@ -35,13 +33,13 @@ class EngineFactory
      * @param array  $json
      * @param string $engineName
      *
+     * @throws \RuntimeException     if the file does not exist or has invalid JSON
      * @return \Browscap\Data\Engine
-     * @throws \RuntimeException if the file does not exist or has invalid JSON
      */
     public function build(array $engineData, array $json, $engineName)
     {
         if (!isset($engineData['properties'])) {
-            $engineData['properties'] = array();
+            $engineData['properties'] = [];
         }
 
         if (array_key_exists('inherits', $engineData)) {
@@ -60,10 +58,10 @@ class EngineFactory
 
             foreach ($inhEngineProperties as $name => $value) {
                 if (isset($parentEngineData[$name])
-                    && $parentEngineData[$name] == $value
+                    && $parentEngineData[$name] === $value
                 ) {
                     throw new \UnexpectedValueException(
-                        'the value for property "' . $name .'" has the same value in the keys "' . $engineName
+                        'the value for property "' . $name . '" has the same value in the keys "' . $engineName
                         . '" and its parent "' . $engineData['inherits'] . '"'
                     );
                 }

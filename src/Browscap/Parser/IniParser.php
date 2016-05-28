@@ -10,7 +10,6 @@
  * Refer to the LICENSE file distributed with this package.
  *
  * @category   Browscap
- * @package    Parser
  * @copyright  1998-2014 Browser Capabilities Project
  * @license    MIT
  */
@@ -21,7 +20,6 @@ namespace Browscap\Parser;
  * Class IniParser
  *
  * @category   Browscap
- * @package    Parser
  * @author     James Titcumb <james@asgrim.com>
  */
 class IniParser implements ParserInterface
@@ -91,8 +89,8 @@ class IniParser implements ParserInterface
     }
 
     /**
-     * @return array
      * @throws \InvalidArgumentException
+     * @return array
      */
     public function getLinesFromFile()
     {
@@ -128,42 +126,42 @@ class IniParser implements ParserInterface
     }
 
     /**
-     * @return array
      * @throws \RuntimeException
+     * @return array
      */
     public function parse()
     {
         $fileLines = $this->getFileLines();
 
-        $data = array();
+        $data = [];
 
         $currentSection  = '';
         $currentDivision = '';
 
-        for ($line = 0, $count = count($fileLines); $line < $count; $line++) {
+        for ($line = 0, $count = count($fileLines); $line < $count; ++$line) {
             $currentLine       = ($fileLines[$line]);
             $currentLineLength = strlen($currentLine);
 
-            if ($currentLineLength == 0) {
+            if ($currentLineLength === 0) {
                 continue;
             }
 
-            if (substr($currentLine, 0, 40) == ';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;') {
+            if (substr($currentLine, 0, 40) === ';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;') {
                 $currentDivision = trim(substr($currentLine, 41));
                 continue;
             }
 
             // We only skip comments that *start* with semicolon
-            if ($currentLine[0] == ';') {
+            if ($currentLine[0] === ';') {
                 continue;
             }
 
-            if ($currentLine[0] == '[') {
+            if ($currentLine[0] === '[') {
                 $currentSection = substr($currentLine, 1, ($currentLineLength - 2));
                 continue;
             }
 
-            $bits = explode("=", $currentLine);
+            $bits = explode('=', $currentLine);
 
             if (count($bits) > 2) {
                 throw new \RuntimeException("Too many equals in line: {$currentLine}, in Division: {$currentDivision}");
@@ -173,7 +171,7 @@ class IniParser implements ParserInterface
                 $bits[1] = '';
             }
 
-            $data[$currentSection][$bits[0]] = $bits[1];
+            $data[$currentSection][$bits[0]]   = $bits[1];
             $data[$currentSection]['Division'] = $currentDivision;
         }
 

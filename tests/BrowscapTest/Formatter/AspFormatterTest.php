@@ -10,7 +10,6 @@
  * Refer to the LICENSE file distributed with this package.
  *
  * @category   BrowscapTest
- * @package    Formatter
  * @copyright  1998-2014 Browser Capabilities Project
  * @license    MIT
  */
@@ -23,7 +22,6 @@ use Browscap\Formatter\AspFormatter;
  * Class AspFormatterTest
  *
  * @category   BrowscapTest
- * @package    Formatter
  * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
  */
 class AspFormatterTest extends \PHPUnit_Framework_TestCase
@@ -61,7 +59,7 @@ class AspFormatterTest extends \PHPUnit_Framework_TestCase
      */
     public function testSetGetFilter()
     {
-        $mockFilter = $this->getMock('\Browscap\Filter\FullFilter', array(), array(), '', false);
+        $mockFilter = $this->getMock('\Browscap\Filter\FullFilter', [], [], '', false);
 
         self::assertSame($this->object, $this->object->setFilter($mockFilter));
         self::assertSame($mockFilter, $this->object->getFilter());

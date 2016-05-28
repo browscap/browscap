@@ -10,7 +10,6 @@
  * Refer to the LICENSE file distributed with this package.
  *
  * @category   Browscap
- * @package    Data
  * @copyright  1998-2014 Browser Capabilities Project
  * @license    MIT
  */
@@ -23,7 +22,6 @@ use Psr\Log\LoggerInterface;
  * Class DataCollection
  *
  * @category   Browscap
- * @package    Data
  * @author     James Titcumb <james@asgrim.com>
  */
 class DataCollection
@@ -31,35 +29,35 @@ class DataCollection
     /**
      * @var \Browscap\Data\Platform[]
      */
-    private $platforms = array();
+    private $platforms = [];
 
     /**
      * @var \Browscap\Data\Engine[]
      */
-    private $engines = array();
+    private $engines = [];
 
     /**
      * @var \Browscap\Data\Device[]
      */
-    private $devices = array();
+    private $devices = [];
 
     /**
      * @var \Browscap\Data\Division[]
      */
-    private $divisions = array();
+    private $divisions = [];
 
     /**
      * @var \Browscap\Data\Division
      */
-    private $defaultProperties = array();
+    private $defaultProperties = [];
 
     /**
      * @var \Browscap\Data\Division
      */
-    private $defaultBrowser = array();
+    private $defaultBrowser = [];
 
     /**
-     * @var boolean
+     * @var bool
      */
     private $divisionsHaveBeenSorted = false;
 
@@ -81,7 +79,7 @@ class DataCollection
     /**
      * @var string[]
      */
-    private $allDivision = array();
+    private $allDivision = [];
 
     /**
      * Create a new data collection for the specified version
@@ -119,9 +117,9 @@ class DataCollection
      *
      * @param string $src Name of the file
      *
-     * @return \Browscap\Data\DataCollection
-     * @throws \RuntimeException if the file does not exist or has invalid JSON
+     * @throws \RuntimeException             if the file does not exist or has invalid JSON
      * @throws \UnexpectedValueException
+     * @return \Browscap\Data\DataCollection
      */
     public function addPlatformsFile($src)
     {
@@ -157,8 +155,8 @@ class DataCollection
      *
      * @param string $src Name of the file
      *
+     * @throws \RuntimeException             if the file does not exist or has invalid JSON
      * @return \Browscap\Data\DataCollection
-     * @throws \RuntimeException if the file does not exist or has invalid JSON
      */
     public function addEnginesFile($src)
     {
@@ -190,9 +188,9 @@ class DataCollection
      *
      * @param string $src Name of the file
      *
+     * @throws \RuntimeException             if the file does not exist or has invalid JSON
+     * @throws \UnexpectedValueException     if the properties and the inherits kyewords are missing
      * @return \Browscap\Data\DataCollection
-     * @throws \RuntimeException if the file does not exist or has invalid JSON
-     * @throws \UnexpectedValueException if the properties and the inherits kyewords are missing
      */
     public function addDevicesFile($src)
     {
@@ -217,10 +215,10 @@ class DataCollection
      *
      * @param string $src Name of the file
      *
-     * @return \Browscap\Data\DataCollection
-     * @throws \RuntimeException If the file does not exist or has invalid JSON
-     * @throws \UnexpectedValueException If required attibutes are missing in the division
+     * @throws \RuntimeException             If the file does not exist or has invalid JSON
+     * @throws \UnexpectedValueException     If required attibutes are missing in the division
      * @throws \LogicException
+     * @return \Browscap\Data\DataCollection
      */
     public function addSourceFile($src)
     {
@@ -245,7 +243,7 @@ class DataCollection
         if (isset($divisionData['versions']) && is_array($divisionData['versions'])) {
             $versions = $divisionData['versions'];
         } else {
-            $versions = array('0.0');
+            $versions = ['0.0'];
         }
 
         if (isset($divisionData['userAgents']) && is_array($divisionData['userAgents'])) {
@@ -268,7 +266,7 @@ class DataCollection
 
                 if ((false !== strpos($useragent['userAgent'], '#MAJORVER#')
                         || false !== strpos($useragent['userAgent'], '#MINORVER#'))
-                    && array('0.0') === $versions
+                    && ['0.0'] === $versions
                 ) {
                     throw new \UnexpectedValueException(
                         'Division "' . $useragent['userAgent']
@@ -307,14 +305,14 @@ class DataCollection
                     );
                 }
 
-                if (isset($useragent['properties']['Version']) && array('0.0') === $versions) {
+                if (isset($useragent['properties']['Version']) && ['0.0'] === $versions) {
                     throw new \UnexpectedValueException(
                         'the "Version" property is set for key "' . $useragent['userAgent']
                         . '", but no versions are defined'
                     );
                 }
 
-                if (!isset($useragent['properties']['Version']) && array('0.0') !== $versions) {
+                if (!isset($useragent['properties']['Version']) && ['0.0'] !== $versions) {
                     throw new \UnexpectedValueException(
                         'the "Version" property is missing for key "' . $useragent['userAgent']
                         . '", but there are defined versions'
@@ -380,7 +378,7 @@ class DataCollection
 
                     if ((false !== strpos($child['match'], '#MAJORVER#')
                             || false !== strpos($child['match'], '#MINORVER#'))
-                        && array('0.0') === $versions
+                        && ['0.0'] === $versions
                     ) {
                         throw new \UnexpectedValueException(
                             'the key "' . $child['match']
@@ -413,7 +411,7 @@ class DataCollection
 
                         if (isset($useragent['properties']['Version'])
                             && isset($child['properties']['Version'])
-                            && $useragent['properties']['Version'] == $child['properties']['Version']
+                            && $useragent['properties']['Version'] === $child['properties']['Version']
                         ) {
                             $this->logger->warning(
                                 'the "Version" property is set for key "' . $child['match']
@@ -446,7 +444,7 @@ class DataCollection
 
             $userAgents = $divisionData['userAgents'];
         } else {
-            $userAgents = array();
+            $userAgents = [];
         }
 
         $this->divisions[] = new Division(
@@ -466,8 +464,8 @@ class DataCollection
     /**
      * @param string $src
      *
-     * @return array
      * @throws \RuntimeException
+     * @return array
      */
     private function loadFile($src)
     {
@@ -564,8 +562,8 @@ class DataCollection
      *
      * @param string $src Name of the file
      *
+     * @throws \RuntimeException             if the file does not exist or has invalid JSON
      * @return \Browscap\Data\DataCollection
-     * @throws \RuntimeException if the file does not exist or has invalid JSON
      */
     public function addDefaultProperties($src)
     {
@@ -588,8 +586,8 @@ class DataCollection
      *
      * @param string $src Name of the file
      *
+     * @throws \RuntimeException             if the file does not exist or has invalid JSON
      * @return \Browscap\Data\DataCollection
-     * @throws \RuntimeException if the file does not exist or has invalid JSON
      */
     public function addDefaultBrowser($src)
     {
@@ -627,8 +625,8 @@ class DataCollection
     public function sortDivisions()
     {
         if (!$this->divisionsHaveBeenSorted) {
-            $sortIndex    = array();
-            $sortPosition = array();
+            $sortIndex    = [];
+            $sortPosition = [];
 
             foreach ($this->divisions as $key => $division) {
                 /** @var \Browscap\Data\Division $division */
@@ -798,7 +796,7 @@ class DataCollection
             throw new \UnexpectedValueException('Version property not found for key "' . $key . '"');
         }
 
-        if (!isset($properties['Parent']) && !in_array($key, array('DefaultProperties', '*'))) {
+        if (!isset($properties['Parent']) && !in_array($key, ['DefaultProperties', '*'])) {
             throw new \UnexpectedValueException('Parent property is missing for key "' . $key . '"');
         }
 

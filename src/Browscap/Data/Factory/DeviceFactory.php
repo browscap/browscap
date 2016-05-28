@@ -8,7 +8,6 @@
  * Refer to the LICENSE file distributed with this package.
  *
  * @category   Browscap
- * @package    Data
  * @copyright  1998-2014 Browser Capabilities Project
  * @license    MIT
  */
@@ -21,7 +20,6 @@ use Browscap\Data\Device;
  * Class DeviceFactory
  *
  * @category   Browscap
- * @package    Data
  * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
  */
 class DeviceFactory
@@ -33,13 +31,13 @@ class DeviceFactory
      * @param array  $json
      * @param string $deviceName
      *
+     * @throws \RuntimeException     if the file does not exist or has invalid JSON
      * @return \Browscap\Data\Device
-     * @throws \RuntimeException if the file does not exist or has invalid JSON
      */
     public function build(array $deviceData, array $json, $deviceName)
     {
         if (!isset($deviceData['properties'])) {
-            $deviceData['properties'] = array();
+            $deviceData['properties'] = [];
         }
 
         if (!array_key_exists('standard', $deviceData)) {
@@ -64,7 +62,7 @@ class DeviceFactory
 
             foreach ($inheritedPlatformProperties as $name => $value) {
                 if (isset($parentEngineData[$name])
-                    && $parentEngineData[$name] == $value
+                    && $parentEngineData[$name] === $value
                 ) {
                     throw new \UnexpectedValueException(
                         'the value for property "' . $name . '" has the same value in the keys "' . $deviceName

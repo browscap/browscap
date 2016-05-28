@@ -10,7 +10,6 @@
  * Refer to the LICENSE file distributed with this package.
  *
  * @category   BrowscapTest
- * @package    Helper
  * @copyright  1998-2014 Browser Capabilities Project
  * @license    MIT
  */
@@ -25,7 +24,6 @@ use Monolog\Logger;
  * Class CollectionCreatorTest
  *
  * @category   BrowscapTest
- * @package    Helper
  * @author     James Titcumb <james@asgrim.com>
  */
 class CollectionCreatorTest extends \PHPUnit_Framework_TestCase
@@ -46,7 +44,7 @@ class CollectionCreatorTest extends \PHPUnit_Framework_TestCase
      */
     public function setUp()
     {
-        $this->logger = new Logger('browscapTest', array(new NullHandler()));
+        $this->logger = new Logger('browscapTest', [new NullHandler()]);
         $this->object = new CollectionCreator();
     }
 
@@ -73,16 +71,14 @@ class CollectionCreatorTest extends \PHPUnit_Framework_TestCase
     {
         $this->setExpectedException('\RunTimeException', 'File "./devices.json" does not exist.');
 
-        $mockCollection = $this->getMock('\Browscap\Data\DataCollection', array('getGenerationDate'), array(), '', false);
+        $mockCollection = $this->getMock('\Browscap\Data\DataCollection', ['getGenerationDate'], [], '', false);
         $mockCollection->expects(self::any())
             ->method('getGenerationDate')
-            ->will(self::returnValue(new \DateTime()))
-        ;
+            ->will(self::returnValue(new \DateTime()));
 
         $this->object
             ->setLogger($this->logger)
-            ->setDataCollection($mockCollection)
-        ;
+            ->setDataCollection($mockCollection);
         $this->object->createDataCollection('.');
     }
 
@@ -96,32 +92,27 @@ class CollectionCreatorTest extends \PHPUnit_Framework_TestCase
     {
         $mockCollection = $this->getMock(
             '\Browscap\Data\DataCollection',
-            array('addPlatformsFile', 'addSourceFile', 'addEnginesFile', 'addDevicesFile'),
-            array(),
+            ['addPlatformsFile', 'addSourceFile', 'addEnginesFile', 'addDevicesFile'],
+            [],
             '',
             false
         );
         $mockCollection->expects(self::any())
             ->method('addPlatformsFile')
-            ->will(self::returnSelf())
-        ;
+            ->will(self::returnSelf());
         $mockCollection->expects(self::any())
             ->method('addEnginesFile')
-            ->will(self::returnSelf())
-        ;
+            ->will(self::returnSelf());
         $mockCollection->expects(self::any())
             ->method('addDevicesFile')
-            ->will(self::returnSelf())
-        ;
+            ->will(self::returnSelf());
         $mockCollection->expects(self::any())
             ->method('addSourceFile')
-            ->will(self::returnSelf())
-        ;
+            ->will(self::returnSelf());
 
         $this->object
             ->setLogger($this->logger)
-            ->setDataCollection($mockCollection)
-        ;
+            ->setDataCollection($mockCollection);
 
         $result = $this->object->createDataCollection(__DIR__ . '/../../fixtures');
         self::assertInstanceOf('\Browscap\Data\DataCollection', $result);

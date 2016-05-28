@@ -10,7 +10,6 @@
  * Refer to the LICENSE file distributed with this package.
  *
  * @category   Browscap
- * @package    Writer
  * @copyright  1998-2014 Browser Capabilities Project
  * @license    MIT
  */
@@ -25,7 +24,6 @@ use Browscap\Data\Expander;
  * Class WriterCollection
  *
  * @category   Browscap
- * @package    Writer
  * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
  */
 class WriterCollection
@@ -33,7 +31,7 @@ class WriterCollection
     /**
      * @var \Browscap\Writer\WriterInterface[]
      */
-    private $writers = array();
+    private $writers = [];
 
     /**
      * add a new writer to the collection
@@ -142,7 +140,7 @@ class WriterCollection
      *
      * @return \Browscap\Writer\WriterCollection
      */
-    public function renderHeader(array $comments = array())
+    public function renderHeader(array $comments = [])
     {
         foreach ($this->writers as $writer) {
             $writer->renderHeader($comments);
@@ -163,12 +161,12 @@ class WriterCollection
     {
         foreach ($this->writers as $writer) {
             $writer->renderVersion(
-                array(
+                [
                     'version'  => $version,
                     'released' => $collection->getGenerationDate()->format('r'),
                     'format'   => $writer->getFormatter()->getType(),
                     'type'     => $writer->getFilter()->getType(),
-                )
+                ]
             );
         }
 
@@ -235,7 +233,7 @@ class WriterCollection
      * @throws \InvalidArgumentException
      * @return \Browscap\Writer\WriterCollection
      */
-    public function renderSectionBody(array $section, DataCollection $collection, array $sections = array(), $sectionName = '')
+    public function renderSectionBody(array $section, DataCollection $collection, array $sections = [], $sectionName = '')
     {
         foreach ($this->writers as $writer) {
             $writer->renderSectionBody($section, $collection, $sections, $sectionName);

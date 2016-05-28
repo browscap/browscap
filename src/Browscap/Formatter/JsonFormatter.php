@@ -10,7 +10,6 @@
  * Refer to the LICENSE file distributed with this package.
  *
  * @category   Browscap
- * @package    Formatter
  * @copyright  1998-2014 Browser Capabilities Project
  * @license    MIT
  */
@@ -24,7 +23,6 @@ use Browscap\Filter\FilterInterface;
  * Class JsonFormatter
  *
  * @category   Browscap
- * @package    Formatter
  * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
  */
 class JsonFormatter implements FormatterInterface
@@ -148,7 +146,7 @@ class JsonFormatter implements FormatterInterface
                 break;
             }
         }
-        $res = array();
+        $res = [];
         foreach ($val as $k => $v) {
             $v = $this->jsonEncode($v);
             if ($assoc) {

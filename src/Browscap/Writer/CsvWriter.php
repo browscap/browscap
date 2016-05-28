@@ -10,7 +10,6 @@
  * Refer to the LICENSE file distributed with this package.
  *
  * @category   Browscap
- * @package    Writer
  * @copyright  1998-2014 Browser Capabilities Project
  * @license    MIT
  */
@@ -26,7 +25,6 @@ use Psr\Log\LoggerInterface;
  * Class CsvWriter
  *
  * @category   Browscap
- * @package    Writer
  * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
  */
 class CsvWriter implements WriterInterface
@@ -52,14 +50,14 @@ class CsvWriter implements WriterInterface
     private $type = null;
 
     /**
-     * @var boolean
+     * @var bool
      */
     private $silent = false;
 
     /**
      * @var array
      */
-    private $outputProperties = array();
+    private $outputProperties = [];
 
     /**
      * @param string $file
@@ -137,7 +135,7 @@ class CsvWriter implements WriterInterface
     public function setFilter(FilterInterface $filter)
     {
         $this->type             = $filter;
-        $this->outputProperties = array();
+        $this->outputProperties = [];
 
         return $this;
     }
@@ -151,7 +149,7 @@ class CsvWriter implements WriterInterface
     }
 
     /**
-     * @param boolean $silent
+     * @param bool $silent
      *
      * @return \Browscap\Writer\WriterInterface
      */
@@ -163,7 +161,7 @@ class CsvWriter implements WriterInterface
     }
 
     /**
-     * @return boolean
+     * @return bool
      */
     public function isSilent()
     {
@@ -197,7 +195,7 @@ class CsvWriter implements WriterInterface
      *
      * @return \Browscap\Writer\WriterInterface
      */
-    public function renderHeader(array $comments = array())
+    public function renderHeader(array $comments = [])
     {
         return $this;
     }
@@ -209,7 +207,7 @@ class CsvWriter implements WriterInterface
      *
      * @return \Browscap\Writer\WriterInterface
      */
-    public function renderVersion(array $versionData = array())
+    public function renderVersion(array $versionData = [])
     {
         if ($this->isSilent()) {
             return $this;
@@ -250,11 +248,11 @@ class CsvWriter implements WriterInterface
 
         $defaultproperties = $ua[0]['properties'];
         $properties        = array_merge(
-            array('PropertyName', 'MasterParent', 'LiteMode', 'Parent'),
+            ['PropertyName', 'MasterParent', 'LiteMode', 'Parent'],
             array_keys($defaultproperties)
         );
 
-        $values = array();
+        $values = [];
 
         foreach ($properties as $property) {
             if (!isset($this->outputProperties[$property])) {
@@ -309,7 +307,7 @@ class CsvWriter implements WriterInterface
      * @throws \InvalidArgumentException
      * @return CsvWriter
      */
-    public function renderSectionBody(array $section, DataCollection $collection, array $sections = array(), $sectionName = '')
+    public function renderSectionBody(array $section, DataCollection $collection, array $sections = [], $sectionName = '')
     {
         if ($this->isSilent()) {
             return $this;
@@ -319,16 +317,16 @@ class CsvWriter implements WriterInterface
         $ua                = $division->getUserAgents();
         $defaultproperties = $ua[0]['properties'];
         $properties        = array_merge(
-            array('PropertyName', 'MasterParent', 'LiteMode', 'Parent'),
+            ['PropertyName', 'MasterParent', 'LiteMode', 'Parent'],
             array_keys($defaultproperties)
         );
 
-        $values = array();
+        $values = [];
 
         $section['PropertyName'] = $sectionName;
         $section['MasterParent'] = $this->detectMasterParent($sectionName, $section);
 
-        if (in_array($sectionName, array('DefaultProperties', '*'))) {
+        if (in_array($sectionName, ['DefaultProperties', '*'])) {
             $section['LiteMode'] = 'true';
         } else {
             $section['LiteMode'] = ((!isset($section['lite']) || !$section['lite']) ? 'false' : 'true');
@@ -399,7 +397,7 @@ class CsvWriter implements WriterInterface
     {
         $this->getLogger()->debug('check if the element can be marked as "MasterParent"');
 
-        if (in_array($key, array('DefaultProperties', '*'))
+        if (in_array($key, ['DefaultProperties', '*'])
             || empty($properties['Parent'])
             || 'DefaultProperties' === $properties['Parent']
         ) {

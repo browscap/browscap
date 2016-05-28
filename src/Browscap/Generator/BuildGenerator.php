@@ -10,7 +10,6 @@
  * Refer to the LICENSE file distributed with this package.
  *
  * @category   Browscap
- * @package    Generator
  * @copyright  1998-2014 Browser Capabilities Project
  * @license    MIT
  */
@@ -23,7 +22,6 @@ use ZipArchive;
  * Class BuildGenerator
  *
  * @category   Browscap
- * @package    Generator
  * @author     James Titcumb <james@asgrim.com>
  * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
  */
@@ -32,8 +30,8 @@ class BuildGenerator extends AbstractBuildGenerator
     /**
      * Entry point for generating builds for a specified version
      *
-     * @param string  $version
-     * @param boolean $createZipFile
+     * @param string $version
+     * @param bool   $createZipFile
      *
      * @return \Browscap\Generator\BuildGenerator
      */
@@ -42,14 +40,13 @@ class BuildGenerator extends AbstractBuildGenerator
         return $this
             ->preBuild()
             ->build($version)
-            ->postBuild($createZipFile)
-            ;
+            ->postBuild($createZipFile);
     }
 
     /**
      * runs after the build
      *
-     * @param boolean $createZipFile
+     * @param bool $createZipFile
      *
      * @return \Browscap\Generator\BuildGenerator
      */
@@ -64,7 +61,7 @@ class BuildGenerator extends AbstractBuildGenerator
         $zip = new ZipArchive();
         $zip->open($this->buildFolder . '/browscap.zip', ZipArchive::CREATE | ZipArchive::OVERWRITE);
 
-        $files = array(
+        $files = [
             'full_asp_browscap.ini',
             'full_php_browscap.ini',
             'browscap.ini',
@@ -73,8 +70,8 @@ class BuildGenerator extends AbstractBuildGenerator
             'lite_php_browscap.ini',
             'browscap.xml',
             'browscap.csv',
-            'browscap.json'
-        );
+            'browscap.json',
+        ];
 
         foreach ($files as $file) {
             $filePath = $this->buildFolder . '/' . $file;

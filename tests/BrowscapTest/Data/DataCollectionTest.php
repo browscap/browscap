@@ -10,7 +10,6 @@
  * Refer to the LICENSE file distributed with this package.
  *
  * @category   BrowscapTest
- * @package    Data
  * @copyright  1998-2014 Browser Capabilities Project
  * @license    MIT
  */
@@ -25,7 +24,6 @@ use Monolog\Logger;
  * Class DataCollectionTest
  *
  * @category   BrowscapTest
- * @package    Data
  * @author     James Titcumb <james@asgrim.com>
  */
 class DataCollectionTest extends \PHPUnit_Framework_TestCase
@@ -46,7 +44,7 @@ class DataCollectionTest extends \PHPUnit_Framework_TestCase
      */
     public function setUp()
     {
-        $this->logger = new Logger('browscapTest', array(new NullHandler()));
+        $this->logger = new Logger('browscapTest', [new NullHandler()]);
         $this->object = new DataCollection('1234');
     }
 
@@ -84,7 +82,7 @@ class DataCollectionTest extends \PHPUnit_Framework_TestCase
      */
     public function testSetGetLogger()
     {
-        $logger = $this->getMock('\Monolog\Logger', array(), array(), '', false);
+        $logger = $this->getMock('\Monolog\Logger', [], [], '', false);
 
         self::assertSame($this->object, $this->object->setLogger($logger));
         self::assertSame($logger, $this->object->getLogger());
@@ -135,7 +133,7 @@ HERE;
             }
         } catch (\Exception $ex) {
             $fail    = true;
-            $message = 'expected Exception "\RuntimeException" not thrown, Exception ' . get_class($ex) .' thrown';
+            $message = 'expected Exception "\RuntimeException" not thrown, Exception ' . get_class($ex) . ' thrown';
         }
 
         unlink($tmpfile);
@@ -277,7 +275,7 @@ HERE;
             }
         } catch (\Exception $ex) {
             $fail    = true;
-            $message = 'expected Exception "\RuntimeException" not thrown, Exception ' . get_class($ex) .' thrown';
+            $message = 'expected Exception "\RuntimeException" not thrown, Exception ' . get_class($ex) . ' thrown';
         }
 
         unlink($tmpfile);
@@ -382,8 +380,8 @@ HERE;
     {
         // Time isn't always exact, so allow a few seconds grace either way...
         $currentTime = time();
-        $minTime = $currentTime - 3;
-        $maxTime = $currentTime + 3;
+        $minTime     = $currentTime - 3;
+        $maxTime     = $currentTime + 3;
 
         $testDateTime = $this->object->getGenerationDate();
 
@@ -439,7 +437,7 @@ HERE;
             }
         } catch (\Exception $ex) {
             $fail    = true;
-            $message = 'expected Exception "\RuntimeException" not thrown, Exception ' . get_class($ex) .' thrown';
+            $message = 'expected Exception "\RuntimeException" not thrown, Exception ' . get_class($ex) . ' thrown';
         }
 
         unlink($tmpfile);
@@ -956,7 +954,7 @@ HERE;
     {
         $this->object->setLogger($this->logger);
 
-        $properties = array();
+        $properties = [];
         $this->object->checkProperty('test', $properties);
     }
 
@@ -971,9 +969,9 @@ HERE;
     {
         $this->object->setLogger($this->logger);
 
-        $properties = array(
-            'Version' => 'abc'
-        );
+        $properties = [
+            'Version' => 'abc',
+        ];
 
         $this->object->checkProperty('test', $properties);
     }
@@ -989,10 +987,10 @@ HERE;
     {
         $this->object->setLogger($this->logger);
 
-        $properties = array(
+        $properties = [
             'Version' => 'abc',
             'Parent'  => '123',
-        );
+        ];
 
         $this->object->checkProperty('test', $properties);
     }
@@ -1008,11 +1006,11 @@ HERE;
     {
         $this->object->setLogger($this->logger);
 
-        $properties = array(
+        $properties = [
             'Version'     => 'abc',
             'Parent'      => '123',
             'Device_Type' => 'Desktop',
-        );
+        ];
 
         $this->object->checkProperty('test', $properties);
     }
@@ -1028,12 +1026,12 @@ HERE;
     {
         $this->object->setLogger($this->logger);
 
-        $properties = array(
+        $properties = [
             'Version'     => 'abc',
             'Parent'      => '123',
             'Device_Type' => 'Desktop',
             'isTablet'    => false,
-        );
+        ];
 
         $this->object->checkProperty('test', $properties);
     }
@@ -1048,13 +1046,13 @@ HERE;
     {
         $this->object->setLogger($this->logger);
 
-        $properties = array(
+        $properties = [
             'Version'        => 'abc',
             'Parent'         => '123',
             'Device_Type'    => 'Desktop',
             'isTablet'       => false,
             'isMobileDevice' => false,
-        );
+        ];
 
         self::assertTrue($this->object->checkProperty('test', $properties));
     }
