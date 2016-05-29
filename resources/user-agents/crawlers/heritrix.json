@@ -18,13 +18,26 @@
       },
       "children": [
         {
+          "match": "*Mozilla\/5.0 compatible*; heritrix\/3.3*",
+          "properties": {
+            "Version": "3.3",
+            "MajorVer": "3",
+            "MinorVer": "3"
+          }
+        },
+        {
+          "match": "*Mozilla\/5.0 compatible*; heritrix\/3.2*",
+          "properties": {
+            "Version": "3.2",
+            "MajorVer": "3",
+            "MinorVer": "2"
+          }
+        },
+        {
+          "match": "*Mozilla\/5.0 compatible*; heritrix\/*"
+        },
+        {
           "match": "*heritrix*"
-        },
-        {
-          "match": "*Mozilla\/5.0 compatible; heritrix\/*"
-        },
-        {
-          "match": "Mozilla\/5.0 (compatible; *; heritrix\/*"
         },
         {
           "match": "bl.uk_lddc_bot\/3.3*",
