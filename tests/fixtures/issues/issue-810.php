@@ -958,14 +958,14 @@ return [
     'issue-810-T' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; AOL 9.7; AOLBuild 4343.1028; Windows NT 6.2; WOW64; Trident/8.0; MAARJS)',
         'properties' => [
-            'Comment' => 'IE 12.0 in IE 10.0 Compatibility Mode',
+            'Comment' => 'IE 11.0 in IE 10.0 Compatibility Mode',
             'Browser' => 'IE',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Microsoft Corporation',
             'Browser_Modus' => 'IE 10.0 Compatibility Mode',
-            'Version' => '12.0',
-            'MajorVer' => '12',
+            'Version' => '11.0',
+            'MajorVer' => '11',
             'MinorVer' => '0',
             'Platform' => 'Win8',
             'Platform_Version' => '6.2',
