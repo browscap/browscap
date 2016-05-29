@@ -1,13 +1,4 @@
 <?php
-$header = <<<EOF
-This file is part of the BrowserDetector package.
-
-(c) Thomas Mueller <mimmi20@live.de>
-
-For the full copyright and license information, please view the LICENSE
-file that was distributed with this source code.
-EOF;
-
 $finder = Symfony\CS\Finder\DefaultFinder::create()
     ->files()
     ->name('*.php')
