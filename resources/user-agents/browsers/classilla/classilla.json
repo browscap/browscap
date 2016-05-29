@@ -25,16 +25,22 @@
       },
       "children": [
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko*Firefox*Classilla*",
+          "platforms": [
+            "MacPPC", "MacPPC_3"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#) Gecko*Classilla*",
           "platforms": [
-            "MacPPC"
+            "MacPPC", "MacPPC_3"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) Clecko*Classilla*",
           "engine": "Clecko",
           "platforms": [
-            "MacPPC"
+            "MacPPC", "MacPPC_3"
           ]
         }
       ]

@@ -4311,7 +4311,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "device": "general Desktop",
           "platforms": [
-            "FreeBSD_64", "FreeBSD_64_2", "FreeBSD_386", "FreeBSD", "OpenBSD_386", "OpenBSD"
+            "FreeBSD_64", "FreeBSD_64_2", "FreeBSD_386", "FreeBSD", "OpenBSD_64_2", "OpenBSD_386", "OpenBSD"
           ]
         },
         {
