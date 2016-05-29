@@ -2847,6 +2847,19 @@
         "isTablet": "false"
       }
     },
+    "Samsung GT-I9195I": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "GT-I9195I",
+        "Device_Name": "Galaxy S4 Mini LTE",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Samsung GT-I9190": {
       "standard": false,
       "properties": {
