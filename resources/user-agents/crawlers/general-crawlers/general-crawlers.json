@@ -161,7 +161,15 @@
         {
           "match": "http:\/\/www.yellowpages.com*",
           "properties": {
-            "Browser": "Yellow Pages"
+            "Browser": "YellowPages",
+            "Browser_Maker": "YP LLC."
+          }
+        },
+        {
+          "match": "yp-crawl@attinteractive.com",
+          "properties": {
+            "Browser": "YellowPages",
+            "Browser_Maker": "YP LLC."
           }
         },
         {
@@ -905,12 +913,6 @@
           "match": "YooW!\/* (?http:\/\/www.yoow.eu)",
           "properties": {
             "Browser": "YooW!"
-          }
-        },
-        {
-          "match": "yp-crawl@attinteractive.com",
-          "properties": {
-            "Browser": "YellowPages"
           }
         },
         {
