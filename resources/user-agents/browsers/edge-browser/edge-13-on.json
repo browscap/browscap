@@ -1,6 +1,6 @@
 {
   "division": "Edge #MAJORVER#.#MINORVER#",
-  "versions": [13],
+  "versions": [16, 15, 14, 13],
   "sortIndex": 1148,
   "lite": true,
   "standard": true,
