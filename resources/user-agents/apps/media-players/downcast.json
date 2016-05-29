@@ -35,7 +35,9 @@
         },
         {
           "match": "Downcast\/2.9* (Mac OS X Version 10.11*",
-          "platform": "OSX_10_11",
+          "platforms": [
+            "OSX_10_11"
+          ],
           "device": "Macintosh",
           "properties": {
             "Version": "2.9",
@@ -45,7 +47,9 @@
         },
         {
           "match": "Downcast\/2.9* (Mac OS X*",
-          "platform": "OSX",
+          "platforms": [
+            "OSX"
+          ],
           "device": "Macintosh",
           "properties": {
             "Version": "2.9",
@@ -55,7 +59,9 @@
         },
         {
           "match": "Downcast\/2.9* (iPhone; iOS 9.2*",
-          "platform": "iOS_A_9_2",
+          "platforms": [
+            "iOS_A_9_2"
+          ],
           "device": "iPhone",
           "properties": {
             "Version": "2.9",
@@ -65,7 +71,9 @@
         },
         {
           "match": "Downcast\/2.9* (iPhone; iOS*",
-          "platform": "iOS",
+          "platforms": [
+            "iOS"
+          ],
           "device": "iPhone",
           "properties": {
             "Version": "2.9",
@@ -83,12 +91,16 @@
         },
         {
           "match": "Downcast\/* (Mac OS X*",
-          "platform": "OSX",
+          "platforms": [
+            "OSX"
+          ],
           "device": "Macintosh"
         },
         {
           "match": "Downcast\/* (iPhone; iOS*",
-          "platform": "iOS",
+          "platforms": [
+            "iOS"
+          ],
           "device": "iPhone"
         },
         {

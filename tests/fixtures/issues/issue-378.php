@@ -763,7 +763,7 @@ return [
             'Alpha' => false,
             'Beta' => false,
             'Win16' => false,
-            'Win32' => false,
+            'Win32' => true,
             'Win64' => false,
             'Frames' => true,
             'IFrames' => true,
