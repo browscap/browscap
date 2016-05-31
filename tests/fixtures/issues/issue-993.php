@@ -1543,9 +1543,9 @@ return [
         'properties' => [
             'Comment' => 'The Dan Patrick Show',
             'Browser' => 'The Dan Patrick Show',
-            'Browser_Type' => 'unknown',
+            'Browser_Type' => 'Multimedia Player',
             'Browser_Bits' => '32',
-            'Browser_Maker' => 'Multimedia Player',
+            'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
             'Version' => '0.0',
             'MajorVer' => '0',

@@ -1,17 +1,17 @@
 {
-  "division": "Sports Talk 1050",
+  "division": "77 WABC",
   "sortIndex": 7122,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "Sports Talk 1050",
+      "userAgent": "77 WABC",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Sports Talk 1050",
-        "Browser": "Sports Talk 1050",
+        "Comment": "77 WABC",
+        "Browser": "77 WABC",
         "Browser_Type": "Multimedia Player"
       },
       "children": [

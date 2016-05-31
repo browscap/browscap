@@ -12,8 +12,7 @@
         "Parent": "DefaultProperties",
         "Comment": "PodcastOne Generic",
         "Browser": "PodcastOne",
-        "Browser_Type": "Multimedia Player",
-        "Browser_Maker": "ESPN Internet Ventures."
+        "Browser_Type": "Multimedia Player"
       },
       "children": [
         {
