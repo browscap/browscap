@@ -2071,7 +2071,7 @@ return [
     'issue-993-AO' => [
         'ua' => 'Zune/4.8',
         'properties' => [
-            'Comment' => 'Microsoft Zune',
+            'Comment' => 'Microsoft Zune 4.8',
             'Browser' => 'Zune',
             'Browser_Type' => 'Multimedia Player',
             'Browser_Bits' => '32',
@@ -2124,7 +2124,7 @@ return [
     'issue-993-AP' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.3; Zune 4.7)',
         'properties' => [
-            'Comment' => 'Microsoft Zune',
+            'Comment' => 'Microsoft Zune 4.7',
             'Browser' => 'Zune',
             'Browser_Type' => 'Multimedia Player',
             'Browser_Bits' => '32',
@@ -2177,7 +2177,7 @@ return [
     'issue-993-AQ' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; InfoPath.2; OverDrive Download Station 1.0; Zune 4.7; .NET4.0C)',
         'properties' => [
-            'Comment' => 'Microsoft Zune',
+            'Comment' => 'Microsoft Zune 4.7',
             'Browser' => 'Zune',
             'Browser_Type' => 'Multimedia Player',
             'Browser_Bits' => '32',
@@ -2230,7 +2230,7 @@ return [
     'issue-993-AR' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; Zune 4.0; InfoPath.3; MS-RTC LM 8; .NET4.0C; .NET4.0E)',
         'properties' => [
-            'Comment' => 'Microsoft Zune',
+            'Comment' => 'Microsoft Zune 4.0',
             'Browser' => 'Zune',
             'Browser_Type' => 'Multimedia Player',
             'Browser_Bits' => '32',
@@ -2283,10 +2283,10 @@ return [
     'issue-993-AS' => [
         'ua' => 'RSSRadio/8899 (iPhone,iPhone OS,9.3)',
         'properties' => [
-            'Comment' => 'Default Browser',
+            'Comment' => 'RSSRadio',
             'Browser' => 'RSSRadio',
-            'Browser_Type' => 'unknown',
-            'Browser_Bits' => '32',
+            'Browser_Type' => 'Multimedia Player',
+            'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
             'Version' => '0.0',
@@ -2295,7 +2295,7 @@ return [
             'Platform' => 'unknown',
             'Platform_Version' => 'unknown',
             'Platform_Description' => 'unknown',
-            'Platform_Bits' => '32',
+            'Platform_Bits' => '0',
             'Platform_Maker' => 'unknown',
             'Alpha' => false,
             'Beta' => false,
@@ -2336,10 +2336,10 @@ return [
     'issue-993-AT' => [
         'ua' => 'RSSRadio (Push Notification Scanner;support@dorada.co.uk)',
         'properties' => [
-            'Comment' => 'Default Browser',
+            'Comment' => 'RSSRadio',
             'Browser' => 'RSSRadio',
-            'Browser_Type' => 'unknown',
-            'Browser_Bits' => '32',
+            'Browser_Type' => 'Multimedia Player',
+            'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
             'Version' => '0.0',
@@ -2348,7 +2348,7 @@ return [
             'Platform' => 'unknown',
             'Platform_Version' => 'unknown',
             'Platform_Description' => 'unknown',
-            'Platform_Bits' => '32',
+            'Platform_Bits' => '0',
             'Platform_Maker' => 'unknown',
             'Alpha' => false,
             'Beta' => false,
@@ -2389,10 +2389,10 @@ return [
     'issue-993-AU' => [
         'ua' => 'RSS_Radio 1.5',
         'properties' => [
-            'Comment' => 'Default Browser',
+            'Comment' => 'RSSRadio',
             'Browser' => 'RSSRadio',
-            'Browser_Type' => 'unknown',
-            'Browser_Bits' => '32',
+            'Browser_Type' => 'Multimedia Player',
+            'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
             'Version' => '0.0',
@@ -2401,7 +2401,7 @@ return [
             'Platform' => 'unknown',
             'Platform_Version' => 'unknown',
             'Platform_Description' => 'unknown',
-            'Platform_Bits' => '32',
+            'Platform_Bits' => '0',
             'Platform_Maker' => 'unknown',
             'Alpha' => false,
             'Beta' => false,
@@ -2442,9 +2442,9 @@ return [
     'issue-993-AV' => [
         'ua' => 'RSSRadio/2.68.14049 CFNetwork/672.1.15 Darwin/14.0.0',
         'properties' => [
-            'Comment' => 'Default Browser',
+            'Comment' => 'RSSRadio',
             'Browser' => 'RSSRadio',
-            'Browser_Type' => 'unknown',
+            'Browser_Type' => 'Multimedia Player',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
