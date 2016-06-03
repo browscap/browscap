@@ -19,9 +19,6 @@
         "MinorVer": "#MINORVER#",
         "Alpha": "false",
         "Beta": "false",
-        "Win16": "false",
-        "Win32": "false",
-        "Win64": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
         "CssVersion": "1"

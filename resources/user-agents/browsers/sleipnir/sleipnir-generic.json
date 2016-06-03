@@ -12,7 +12,6 @@
         "Comment": "Sleipnir Generic",
         "Browser": "Sleipnir",
         "Browser_Type": "Browser",
-        "Win32": "false",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",

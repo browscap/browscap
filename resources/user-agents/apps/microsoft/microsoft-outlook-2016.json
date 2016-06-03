@@ -66,12 +66,7 @@
         },
         {
           "match": "Microsoft Office Mobile\/16.0",
-          "device": "general Mobile Phone (Touch)",
-          "properties": {
-            "Win16": "false",
-            "Win32": "false",
-            "Win64": "false"
-          }
+          "device": "general Mobile Phone (Touch)"
         },
         {
           "match": "Microsoft Office Outlook #MAJORVER# (16.*) #PLATFORM#",
