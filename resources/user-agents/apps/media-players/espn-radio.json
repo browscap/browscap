@@ -176,7 +176,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#HP Slate 17 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*ESPN APP*#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (#PLATFORM#HP Slate 17 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Chrome*Safari*ESPN APP*#MAJORVER#.#MINORVER#*",
           "device": "HP Slate 17",
           "engine": "Blink",
           "platforms": [
@@ -184,7 +184,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM# Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*ESPN APP*#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla\/5.0 (#PLATFORM# Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Chrome*Safari*ESPN APP*#MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone (Touch)",
           "engine": "Blink",
           "platforms": [

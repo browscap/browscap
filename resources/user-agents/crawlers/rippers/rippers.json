@@ -428,7 +428,8 @@
         {
           "match": "Mozilla\/4.0 (compatible; BorderManager*)",
           "properties": {
-            "Browser": "Novell BorderManager"
+            "Browser": "Novell BorderManager",
+            "Browser_Maker": "Novell"
           }
         },
         {

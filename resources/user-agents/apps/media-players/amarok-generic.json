@@ -1,0 +1,29 @@
+{
+  "division": "Amarok Generic",
+  "sortIndex": 1531,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Amarok Generic",
+      "device": "Linux Desktop",
+      "engine": "WebKit",
+      "platform": "Linux",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Amarok Generic",
+        "Browser": "Amarok",
+        "Browser_Maker": "unknown",
+        "Browser_Type": "Multimedia Player"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) amarok\/#MAJORVER#.#MINORVER#* Safari\/*",
+          "platforms": [
+            "Linux_64", "Linux_32", "Linux"
+          ]
+        }
+      ]
+    }
+  ]
+}
