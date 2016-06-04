@@ -250,6 +250,17 @@
           "properties": {
             "Browser": "Podkicker"
           }
+        },
+        {
+          "match": "HTC Streaming Player*",
+          "properties": {
+            "Browser": "Streaming Player",
+            "Browser_Maker": "HTC"
+          },
+          "device": "general Mobile Phone (Touch)",
+          "platforms": [
+            "Android"
+          ]
         }
       ]
     }
