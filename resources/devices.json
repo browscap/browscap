@@ -17134,6 +17134,32 @@
         "isTablet": "false"
       }
     },
+    "LG H811": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "H811",
+        "Device_Name": "G4 (T-Mobile)",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG H345": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "H345",
+        "Device_Name": "Leon 4G LTE",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "LG CU515": {
       "standard": false,
       "properties": {
@@ -27493,6 +27519,19 @@
         "Device_Pointing_Method": "unknown",
         "isMobileDevice": "true",
         "isTablet": "false"
+      }
+    },
+    "HP Slate 17": {
+      "standard": true,
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "Slate 17",
+        "Device_Name": "Slate 17",
+        "Device_Maker": "HP",
+        "Device_Brand_Name": "HP",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
       }
     },
     "Cube U30GT": {

@@ -155,6 +155,22 @@
           "properties": {
             "Browser": "ESPN DownloadManager"
           }
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#HP Slate 17 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*ESPN APP*",
+          "device": "HP Slate 17",
+          "engine": "Blink",
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM# Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*ESPN APP*",
+          "device": "general Mobile Phone (Touch)",
+          "engine": "Blink",
+          "platforms": [
+            "Android_4_4", "Android_5_0", "Android_5_1", "Android_6_0", "Android"
+          ]
         }
       ]
     }

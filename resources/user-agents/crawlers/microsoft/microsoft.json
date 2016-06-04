@@ -132,6 +132,45 @@
           "properties": {
             "Browser": ".NET Framework CLR"
           }
+        },
+        {
+          "match": "ZDM\/4.0; Windows Mobile 8.1*",
+          "properties": {
+            "Browser": "BackgroundTransferService",
+            "Version": "4.0",
+            "MajorVer": "4",
+            "MinorVer": "0"
+          },
+          "device": "general Mobile Phone (Touch)",
+          "platforms": [
+            "WinPhone8.1"
+          ]
+        },
+        {
+          "match": "ZDM\/4.0; Windows Mobile 8.0*",
+          "properties": {
+            "Browser": "BackgroundTransferService",
+            "Version": "4.0",
+            "MajorVer": "4",
+            "MinorVer": "0"
+          },
+          "device": "general Mobile Phone (Touch)",
+          "platforms": [
+            "WinPhone8"
+          ]
+        },
+        {
+          "match": "ZDM\/4.0; Windows Mobile 7.0*",
+          "properties": {
+            "Browser": "BackgroundTransferService",
+            "Version": "4.0",
+            "MajorVer": "4",
+            "MinorVer": "0"
+          },
+          "device": "general Mobile Phone (Touch)",
+          "platforms": [
+            "WinPhone7"
+          ]
         }
       ]
     }

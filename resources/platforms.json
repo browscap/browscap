@@ -2975,6 +2975,33 @@
         "Platform_Version": "4.4"
       }
     },
+    "Android_H_5_0": {
+      "match": "*Android?5.0*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "5.0"
+      }
+    },
+    "Android_H_5_1": {
+      "match": "*Android?5.1*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "5.1"
+      }
+    },
+    "Android_H_6_0": {
+      "match": "*Android?6.0*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "6.0"
+      }
+    },
     "Android_GoogleTV": {
       "match": "*Linux*GoogleTV*",
       "lite": false,

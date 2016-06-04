@@ -261,6 +261,12 @@
           "platforms": [
             "Android"
           ]
+        },
+        {
+          "match": "bPod*",
+          "properties": {
+            "Browser": "bPod"
+          }
         }
       ]
     }

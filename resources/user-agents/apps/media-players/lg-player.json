@@ -1,0 +1,47 @@
+{
+  "division": "LG Player #MAJORVER#.#MINORVER#",
+  "versions": [1],
+  "sortIndex": 7121,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "LG Player #MAJORVER#.#MINORVER#",
+      "engine": "Blink",
+      "device": "general Mobile Phone (Touch)",
+      "platform": "Android",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "LG Player #MAJORVER#.#MINORVER#",
+        "Browser": "Player",
+        "Browser_Type": "Multimedia Player",
+        "Browser_Maker": "LG",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "LG-H345\/* Player\/LG Player #MAJORVER#.#MINORVER# for #PLATFORM# (stagefright alternative*",
+          "device": "LG H345",
+          "engine": "Blink",
+          "platforms": [
+            "Android_H_5_1"
+          ]
+        },
+        {
+          "match": "*Player\/LG Player #MAJORVER#.#MINORVER# for #PLATFORM# (stagefright alternative*",
+          "platforms": [
+            "Android_H_4_4", "Android_H_5_0", "Android_H_5_1", "Android_H_6_0", "Android_H"
+          ]
+        },
+        {
+          "match": "Player\/LG Player #MAJORVER#.#MINORVER# for #PLATFORM# (stagefright alternative*",
+          "platforms": [
+            "Android_H_4_4", "Android_H_5_0", "Android_H_5_1", "Android_H_6_0", "Android_H"
+          ]
+        }
+      ]
+    }
+  ]
+}
