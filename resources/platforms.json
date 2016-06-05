@@ -2627,15 +2627,6 @@
         "Platform_Version": "4.4"
       }
     },
-    "Android_4_4_D": {
-      "match": "*Android 4.4*",
-      "lite": false,
-      "standard": true,
-      "inherits": "Android",
-      "properties": {
-        "Platform_Version": "4.4"
-      }
-    },
     "Android_4_5": {
       "match": "*Linux*Android?4.5*",
       "lite": false,

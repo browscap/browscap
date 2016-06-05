@@ -18,11 +18,11 @@
           "match": "Player FM*"
         },
         {
-          "match": "Player\/LG Player 1.0 for #PLATFORM#, Player FM*",
+          "match": "Player\/LG Player 1.0 for #PLATFORM# (stagefright alternative*Player FM*",
           "device": "general Mobile Phone (Touch)",
           "engine": "WebKit",
           "platforms": [
-            "Android_4_4_D"
+            "Android_H_4_4"
           ]
         },
         {

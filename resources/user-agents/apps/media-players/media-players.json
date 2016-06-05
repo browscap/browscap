@@ -77,14 +77,14 @@
           }
         },
         {
-          "match": "Player\/LG Player 1.0 for #PLATFORM#, Pocket Casts*",
+          "match": "Player\/LG Player 1.0 for #PLATFORM# (stagefright alternative*Pocket Casts*",
           "device": "general Mobile Phone (Touch)",
           "properties": {
             "Browser": "Pocket Casts",
             "Browser_Maker": "Shifty Jelly"
           },
           "platforms": [
-            "Android_4_4_D"
+            "Android_H_4_4"
           ]
         },
         {
@@ -266,6 +266,30 @@
           "match": "bPod*",
           "properties": {
             "Browser": "bPod"
+          }
+        },
+        {
+          "match": "foobar2000\/1.2*",
+          "properties": {
+            "Browser": "foobar2000",
+            "Version": "1.2",
+            "MajorVer": "1",
+            "MinorVer": "2"
+          }
+        },
+        {
+          "match": "foobar2000\/1.1*",
+          "properties": {
+            "Browser": "foobar2000",
+            "Version": "1.1",
+            "MajorVer": "1",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "foobar2000\/*",
+          "properties": {
+            "Browser": "foobar2000"
           }
         }
       ]
