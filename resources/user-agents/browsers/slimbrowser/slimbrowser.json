@@ -12,7 +12,6 @@
         "Comment": "SlimBrowser",
         "Browser": "SlimBrowser",
         "Browser_Type": "Browser",
-        "Win32": "false",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
