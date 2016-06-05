@@ -8,6 +8,7 @@
       "userAgent": "PodCruncher Generic",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
+      "platform": "iOS",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "PodCruncher Generic",

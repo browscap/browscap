@@ -126,7 +126,7 @@
     },
     {
       "userAgent": "Safari Generic for Darwin",
-      "platform": "Darwin",
+      "platform": "OSX",
       "engine": "WebKit",
       "device": "Macintosh",
       "properties": {

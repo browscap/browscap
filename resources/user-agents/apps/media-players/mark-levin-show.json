@@ -8,6 +8,7 @@
       "userAgent": "Mark Levin Show",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
+      "platform": "iOS",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Mark Levin Show",

@@ -5,9 +5,10 @@
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "ESPN Radio Generic",
+      "userAgent": "ESPN Radio Generic for iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
+      "platform": "iOS",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "ESPN Radio Generic",
@@ -154,28 +155,53 @@
           "platforms": [
             "iOS_E_9_2", "iOS_E_9_1", "iOS_E_9_0", "iOS_E_8_1", "iOS_E_8_0", "iOS_E_7_1", "iOS_E_7_0", "iOS_E_6_1", "iOS_E_6_0", "iOS_E_5_1", "iOS_E"
           ]
-        },
-        {
-          "match": "EspnDownloadManager*",
-          "properties": {
-            "Browser": "ESPN DownloadManager"
-          }
-        },
+        }
+      ]
+    },
+    {
+      "userAgent": "ESPN Radio Generic for Android",
+      "device": "general Mobile Phone (Touch)",
+      "engine": "Blink",
+      "platform": "Android",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "ESPN Radio Generic",
+        "Browser": "ESPN Radio",
+        "Browser_Type": "Multimedia Player",
+        "Browser_Maker": "ESPN Internet Ventures."
+      },
+      "children": [
         {
           "match": "Mozilla\/5.0 (#PLATFORM#HP Slate 17 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Chrome*Safari*ESPN APP*",
           "device": "HP Slate 17",
-          "engine": "Blink",
           "platforms": [
             "Android_4_4"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM# Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Chrome*Safari*ESPN APP*",
-          "device": "general Mobile Phone (Touch)",
-          "engine": "Blink",
           "platforms": [
             "Android_4_4", "Android_5_0", "Android_5_1", "Android_6_0", "Android"
           ]
+        }
+      ]
+    },
+    {
+      "userAgent": "ESPN Radio Generic",
+      "engine": "WebKit",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "ESPN Radio Generic",
+        "Browser": "ESPN Radio",
+        "Browser_Type": "Multimedia Player",
+        "Browser_Maker": "ESPN Internet Ventures."
+      },
+      "children": [
+        {
+          "match": "EspnDownloadManager*",
+          "properties": {
+            "Browser": "ESPN DownloadManager"
+          }
         }
       ]
     }

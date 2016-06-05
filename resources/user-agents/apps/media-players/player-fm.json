@@ -22,7 +22,15 @@
           "device": "general Mobile Phone (Touch)",
           "engine": "WebKit",
           "platforms": [
-            "Android_H_4_4"
+            "Android_H_4_4", "Android_H"
+          ]
+        },
+        {
+          "match": "Player\/LG Player * for #PLATFORM# (stagefright alternative*Player FM*",
+          "device": "general Mobile Phone (Touch)",
+          "engine": "WebKit",
+          "platforms": [
+            "Android_H_4_4", "Android_H"
           ]
         },
         {

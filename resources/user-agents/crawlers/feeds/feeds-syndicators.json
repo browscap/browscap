@@ -88,7 +88,7 @@
             "Browser": "FeedDemon"
           },
           "platforms": [
-            "Win32"
+            "Windows"
           ]
         },
         {
@@ -241,7 +241,7 @@
             "Browser": "Mobitype"
           },
           "platforms": [
-            "Win32"
+            "Windows"
           ]
         },
         {

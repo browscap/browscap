@@ -8,6 +8,7 @@
       "userAgent": "RSSRadio",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
+      "platform": "iOS",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "RSSRadio",

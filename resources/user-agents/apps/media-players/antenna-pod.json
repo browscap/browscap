@@ -9,6 +9,7 @@
       "userAgent": "AntennaPod #MAJORVER#.#MINORVER#",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
+      "platform": "iOS",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "AntennaPod #MAJORVER#.#MINORVER#",

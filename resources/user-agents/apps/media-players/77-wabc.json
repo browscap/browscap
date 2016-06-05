@@ -8,6 +8,7 @@
       "userAgent": "77 WABC",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
+      "platform": "iOS",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "77 WABC",

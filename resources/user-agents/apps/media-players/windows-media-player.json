@@ -7,7 +7,7 @@
     {
       "userAgent": "Windows Media Player",
       "device": "Windows Desktop",
-      "platform": "Win32",
+      "platform": "Windows",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Windows Media Player",
@@ -21,10 +21,42 @@
       },
       "children": [
         {
-          "match": "NSPlayer\/4.*",
+          "match": "NSPlayer\/12.*",
           "properties": {
-            "Version": "4.0",
-            "MajorVer": "4",
+            "Version": "12.0",
+            "MajorVer": "12",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "NSPlayer\/11.*",
+          "properties": {
+            "Version": "11.0",
+            "MajorVer": "11",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "NSPlayer\/10.*",
+          "properties": {
+            "Version": "10.0",
+            "MajorVer": "10",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "NSPlayer\/9.*",
+          "properties": {
+            "Version": "9.0",
+            "MajorVer": "9",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "NSPlayer\/8.*",
+          "properties": {
+            "Version": "8.0",
+            "MajorVer": "8",
             "MinorVer": "0"
           }
         },
@@ -45,42 +77,10 @@
           }
         },
         {
-          "match": "NSPlayer\/8.*",
+          "match": "NSPlayer\/4.*",
           "properties": {
-            "Version": "8.0",
-            "MajorVer": "8",
-            "MinorVer": "0"
-          }
-        },
-        {
-          "match": "NSPlayer\/9.*",
-          "properties": {
-            "Version": "9.0",
-            "MajorVer": "9",
-            "MinorVer": "0"
-          }
-        },
-        {
-          "match": "NSPlayer\/10.*",
-          "properties": {
-            "Version": "10.0",
-            "MajorVer": "10",
-            "MinorVer": "0"
-          }
-        },
-        {
-          "match": "NSPlayer\/11.*",
-          "properties": {
-            "Version": "11.0",
-            "MajorVer": "11",
-            "MinorVer": "0"
-          }
-        },
-        {
-          "match": "NSPlayer\/12.*",
-          "properties": {
-            "Version": "12.0",
-            "MajorVer": "12",
+            "Version": "4.0",
+            "MajorVer": "4",
             "MinorVer": "0"
           }
         },

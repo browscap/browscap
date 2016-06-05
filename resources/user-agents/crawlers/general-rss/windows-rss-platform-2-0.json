@@ -31,7 +31,7 @@
         {
           "match": "Windows-RSS-Platform\/#MAJORVER#.#MINORVER# (MSIE ?.0; Windows NT *.*)",
           "platforms": [
-            "Win32"
+            "Windows"
           ]
         },
         {

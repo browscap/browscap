@@ -84,7 +84,18 @@
             "Browser_Maker": "Shifty Jelly"
           },
           "platforms": [
-            "Android_H_4_4"
+            "Android_H_4_4", "Android_H"
+          ]
+        },
+        {
+          "match": "Player\/LG Player * for #PLATFORM# (stagefright alternative*Pocket Casts*",
+          "device": "general Mobile Phone (Touch)",
+          "properties": {
+            "Browser": "Pocket Casts",
+            "Browser_Maker": "Shifty Jelly"
+          },
+          "platforms": [
+            "Android_H_4_4", "Android_H"
           ]
         },
         {
@@ -495,6 +506,111 @@
           "match": "Replay AV*",
           "properties": {
             "Browser": "Replay"
+          }
+        },
+        {
+          "match": "Podcasts\/2.2*",
+          "properties": {
+            "Browser": "Podcasts",
+            "Version": "2.2",
+            "MajorVer": "2",
+            "MinorVer": "2"
+          }
+        },
+        {
+          "match": "Podcasts\/1.4*",
+          "properties": {
+            "Browser": "Podcasts",
+            "Version": "1.4",
+            "MajorVer": "1",
+            "MinorVer": "4"
+          }
+        },
+        {
+          "match": "Podcasts\/*",
+          "properties": {
+            "Browser": "Podcasts"
+          }
+        },
+        {
+          "match": "Peapod\/1.0*",
+          "properties": {
+            "Browser": "Peapod",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Peapod\/*",
+          "properties": {
+            "Browser": "Peapod"
+          }
+        },
+        {
+          "match": "podracer v1.4*",
+          "properties": {
+            "Browser": "podracer",
+            "Version": "1.4",
+            "MajorVer": "1",
+            "MinorVer": "4"
+          }
+        },
+        {
+          "match": "podracer*",
+          "properties": {
+            "Browser": "podracer"
+          }
+        },
+        {
+          "match": "Kinoma5*",
+          "properties": {
+            "Browser": "Kinoma",
+            "Version": "5.0",
+            "MajorVer": "5",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Kinoma*",
+          "properties": {
+            "Browser": "Kinoma"
+          }
+        },
+        {
+          "match": "QuickNews\/1.25*",
+          "properties": {
+            "Browser": "QuickNews",
+            "Version": "1.25",
+            "MajorVer": "1",
+            "MinorVer": "25"
+          }
+        },
+        {
+          "match": "QuickNews\/*",
+          "properties": {
+            "Browser": "QuickNews"
+          }
+        },
+        {
+          "match": "DoggCatcher\/1.2*",
+          "properties": {
+            "Browser": "DoggCatcher",
+            "Version": "1.2",
+            "MajorVer": "1",
+            "MinorVer": "2"
+          }
+        },
+        {
+          "match": "DoggCatcher\/*",
+          "properties": {
+            "Browser": "DoggCatcher"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (Linux; U; Windows NT*) DoggCatcher*",
+          "properties": {
+            "Browser": "DoggCatcher"
           }
         }
       ]

@@ -65,14 +65,14 @@
             "MinorVer": "0"
           },
           "platforms": [
-            "Android_H_4_4", "Android"
+            "Android_H_4_4"
           ]
         },
         {
           "match": "wp-android\/* (#PLATFORM#GT-N7100\/*",
           "device": "Samsung GT-N7100",
           "platforms": [
-            "Android_H_4_4", "Android"
+            "Android_H_4_4"
           ]
         },
         {
@@ -83,13 +83,13 @@
             "MinorVer": "0"
           },
           "platforms": [
-            "Android_H_4_4", "Android"
+            "Android_H_4_4", "Android_H"
           ]
         },
         {
           "match": "wp-android\/* (#PLATFORM#",
           "platforms": [
-            "Android_H_4_4", "Android"
+            "Android_H_4_4", "Android_H"
           ]
         }
       ]

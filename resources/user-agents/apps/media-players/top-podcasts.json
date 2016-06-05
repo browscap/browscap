@@ -9,6 +9,7 @@
       "userAgent": "TopPodcasts #MAJORVER#.#MINORVER#",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
+      "platform": "iOS",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "TopPodcasts #MAJORVER#.#MINORVER#",

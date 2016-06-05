@@ -8,6 +8,7 @@
       "userAgent": "The Dan Patrick Show",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
+      "platform": "iOS",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "The Dan Patrick Show",

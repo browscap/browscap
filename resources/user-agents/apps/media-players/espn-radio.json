@@ -9,6 +9,7 @@
       "userAgent": "ESPN Radio #MAJORVER#.#MINORVER#",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
+      "platform": "iOS",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "ESPN Radio #MAJORVER#.#MINORVER#",
@@ -158,19 +159,34 @@
           "platforms": [
             "iOS_E_9_2", "iOS_E_9_1", "iOS_E_9_0", "iOS_E_8_1", "iOS_E_8_0", "iOS_E_7_1", "iOS_E_7_0", "iOS_E_6_1", "iOS_E_6_0", "iOS_E_5_1", "iOS_E"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "userAgent": "ESPN Radio #MAJORVER#.#MINORVER# for Android",
+      "device": "general Mobile Phone (Touch)",
+      "engine": "Blink",
+      "platform": "Android",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "ESPN Radio #MAJORVER#.#MINORVER#",
+        "Browser": "ESPN Radio",
+        "Browser_Type": "Multimedia Player",
+        "Browser_Maker": "ESPN Internet Ventures.",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#"
+      },
+      "children": [
         {
           "match": "Mozilla\/5.0 (#PLATFORM#HP Slate 17 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Chrome*Safari*ESPN APP*#MAJORVER#.#MINORVER#*",
           "device": "HP Slate 17",
-          "engine": "Blink",
           "platforms": [
             "Android_4_4"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM# Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Chrome*Safari*ESPN APP*#MAJORVER#.#MINORVER#*",
-          "device": "general Mobile Phone (Touch)",
-          "engine": "Blink",
           "platforms": [
             "Android_4_4", "Android_5_0", "Android_5_1", "Android_6_0", "Android"
           ]

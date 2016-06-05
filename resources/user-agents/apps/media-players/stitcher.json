@@ -5,9 +5,10 @@
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "Stitcher",
+      "userAgent": "Stitcher for iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
+      "platform": "iOS",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Stitcher",
@@ -20,13 +21,6 @@
           "match": "Stitcher\/iOS*",
           "platforms": [
             "iOS"
-          ]
-        },
-        {
-          "match": "Stitcher\/Android*",
-          "device": "general Mobile Phone (Touch)",
-          "platforms": [
-            "Android"
           ]
         },
         {
@@ -153,6 +147,27 @@
           "match": "Stitcher\/* CFNetwork\/*",
           "platforms": [
             "iOS"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "Stitcher for Android",
+      "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
+      "platform": "Android",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Stitcher",
+        "Browser": "Stitcher",
+        "Browser_Type": "Multimedia Player",
+        "Browser_Maker": "Deezer"
+      },
+      "children": [
+        {
+          "match": "Stitcher\/Android*",
+          "platforms": [
+            "Android"
           ]
         }
       ]
