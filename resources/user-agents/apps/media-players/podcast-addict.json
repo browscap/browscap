@@ -28,13 +28,13 @@
           "match": "Podcast*Addict*Dalvik\/* (#PLATFORM#SM-G920P Build\/*",
           "device": "Samsung SM-G920P",
           "platforms": [
-            "Android_6_0"
+            "Android_5_1"
           ]
         },
         {
           "match": "Podcast*Addict*Dalvik\/* (#PLATFORM#",
           "platforms": [
-            "Android_6_0", "Android"
+            "Android_5_1", "Android_6_0", "Android"
           ]
         }
       ]

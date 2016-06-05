@@ -291,6 +291,160 @@
           "properties": {
             "Browser": "foobar2000"
           }
+        },
+        {
+          "match": "gPodder\/3.7*",
+          "properties": {
+            "Browser": "gPodder",
+            "Version": "3.7",
+            "MajorVer": "3",
+            "MinorVer": "7"
+          }
+        },
+        {
+          "match": "gPodder\/*",
+          "properties": {
+            "Browser": "gPodder"
+          }
+        },
+        {
+          "match": "jPodder v 1.1*",
+          "properties": {
+            "Browser": "jPodder",
+            "Version": "1.1",
+            "MajorVer": "1",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "jPodder*",
+          "properties": {
+            "Browser": "jPodder"
+          }
+        },
+        {
+          "match": "iPodder\/2.1*",
+          "properties": {
+            "Browser": "iPodder",
+            "Version": "2.1",
+            "MajorVer": "2",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "iPodder\/*",
+          "properties": {
+            "Browser": "iPodder"
+          }
+        },
+        {
+          "match": "BashPodder*",
+          "properties": {
+            "Browser": "BashPodder"
+          }
+        },
+        {
+          "match": "massyn.net philpodder\/1.6*",
+          "properties": {
+            "Browser": "philpodder",
+            "Version": "1.6",
+            "MajorVer": "1",
+            "MinorVer": "6"
+          }
+        },
+        {
+          "match": "massyn.net philpodder\/*",
+          "properties": {
+            "Browser": "philpodder"
+          }
+        },
+        {
+          "match": "Juice\/2.2*",
+          "properties": {
+            "Browser": "Juice",
+            "Version": "2.2",
+            "MajorVer": "2",
+            "MinorVer": "2"
+          }
+        },
+        {
+          "match": "Juice\/*",
+          "properties": {
+            "Browser": "Juice"
+          }
+        },
+        {
+          "match": "MediaGo\/3.0* (#PLATFORM#)*",
+          "device": "Windows Desktop",
+          "properties": {
+            "Browser": "MediaGo",
+            "Version": "3.0",
+            "MajorVer": "3",
+            "MinorVer": "0"
+          },
+          "platforms": [
+            "Win8_1_x64", "Win8_1_64", "Win8_1_32"
+          ]
+        },
+        {
+          "match": "MediaGo\/3.0*",
+          "properties": {
+            "Browser": "MediaGo",
+            "Version": "3.0",
+            "MajorVer": "3",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "MediaGo*",
+          "properties": {
+            "Browser": "MediaGo"
+          }
+        },
+        {
+          "match": "MediaMonkey 4.1*",
+          "properties": {
+            "Browser": "MediaMonkey",
+            "Version": "4.1",
+            "MajorVer": "4",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "MediaMonkey*",
+          "properties": {
+            "Browser": "MediaMonkey"
+          }
+        },
+        {
+          "match": "Miro\/6.0*",
+          "properties": {
+            "Browser": "Miro",
+            "Version": "6.0",
+            "MajorVer": "6",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Miro\/3.0*",
+          "properties": {
+            "Browser": "Miro",
+            "Version": "3.0",
+            "MajorVer": "3",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Miro\/*",
+          "properties": {
+            "Browser": "Miro"
+          }
+        },
+        {
+          "match": "VOX Music Player*",
+          "properties": {
+            "Browser": "VOX Music Player"
+          }
         }
       ]
     }

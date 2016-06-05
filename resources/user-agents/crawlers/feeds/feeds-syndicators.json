@@ -176,12 +176,24 @@
           }
         },
         {
-          "match": "Liferea\/*",
+          "match": "Liferea\/0.*",
+          "properties": {
+            "Browser": "Liferea"
+          }
+        },
+        {
+          "match": "Liferea\/1.*",
           "properties": {
             "Browser": "Liferea",
             "Version": "1.0",
             "MajorVer": "1",
             "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Liferea\/*",
+          "properties": {
+            "Browser": "Liferea"
           }
         },
         {
