@@ -137,9 +137,8 @@
         },
         {
           "match": "KNBR%20680\/* CFNetwork\/*",
-          "device": "Macintosh",
           "platforms": [
-            "Darwin"
+            "iOS"
           ]
         }
       ]

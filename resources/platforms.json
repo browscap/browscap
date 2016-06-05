@@ -882,6 +882,15 @@
         "Platform_Version": "9.1"
       }
     },
+    "iOS_E_9_2": {
+      "match": "*iPhone OS?9?2*",
+      "lite": false,
+      "standard": true,
+      "inherits": "iOS",
+      "properties": {
+        "Platform_Version": "9.2"
+      }
+    },
     "iOS_F": {
       "match": "*CPU like Mac OS X*",
       "lite": true,

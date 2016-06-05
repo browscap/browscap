@@ -143,9 +143,8 @@
         },
         {
           "match": "Google\/* CFNetwork\/*",
-          "device": "Macintosh",
           "platforms": [
-            "Darwin"
+            "iOS"
           ]
         }
       ]

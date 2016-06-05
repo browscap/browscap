@@ -141,9 +141,8 @@
         },
         {
           "match": "Antenna\/#MAJORVER#.#MINORVER#* CFNetwork\/*",
-          "device": "Macintosh",
           "platforms": [
-            "Darwin"
+            "iOS"
           ]
         },
         {

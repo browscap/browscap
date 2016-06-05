@@ -149,9 +149,8 @@
         },
         {
           "match": "UCBrowserHD\/#MAJORVER#.#MINORVER#* CFNetwork\/*",
-          "device": "Macintosh",
           "platforms": [
-            "Darwin"
+            "iOS"
           ]
         }
       ]

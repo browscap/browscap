@@ -158,9 +158,8 @@
         },
         {
           "match": "Opera%20Coast\/* CFNetwork\/*",
-          "device": "Macintosh",
           "platforms": [
-            "Darwin"
+            "iOS"
           ]
         }
       ]

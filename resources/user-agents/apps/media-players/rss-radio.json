@@ -137,9 +137,8 @@
         },
         {
           "match": "RSSRadio\/* CFNetwork\/*",
-          "device": "Macintosh",
           "platforms": [
-            "Darwin"
+            "iOS"
           ]
         },
         {

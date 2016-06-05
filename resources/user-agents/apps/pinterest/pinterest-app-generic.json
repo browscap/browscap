@@ -259,9 +259,8 @@
         },
         {
           "match": "Pinterest\/* CFNetwork\/*",
-          "device": "Macintosh",
           "platforms": [
-            "Darwin"
+            "iOS"
           ]
         },
         {

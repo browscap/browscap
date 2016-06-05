@@ -1,142 +1,156 @@
 {
-  "division": "77 WABC",
-  "sortIndex": 7122,
+  "division": "GoodReader #MAJORVER#.#MINORVER#",
+  "versions": [4],
+  "sortIndex": 5039,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "77 WABC",
+      "userAgent": "GoodReader #MAJORVER#.#MINORVER#",
+      "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "77 WABC",
-        "Browser": "77 WABC",
-        "Browser_Type": "Multimedia Player"
+        "Comment": "GoodReader #MAJORVER#.#MINORVER#",
+        "Browser": "GoodReader",
+        "Browser_Type": "Application",
+        "Alpha": "false",
+        "Beta": "false",
+        "Frames": "false",
+        "IFrames": "false",
+        "Tables": "false",
+        "Cookies": "false",
+        "JavaScript": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#"
       },
       "children": [
         {
-          "match": "77%20WABC\/* CFNetwork\/459*",
+          "match": "GoodReader4\/* CFNetwork\/459*",
           "platforms": [
             "iOS_A_3_1"
           ]
         },
         {
-          "match": "77%20WABC\/* CFNetwork\/467.12*",
+          "match": "GoodReader4\/* CFNetwork\/467.12*",
           "platforms": [
             "iOS_A_3_2"
           ]
         },
         {
-          "match": "77%20WABC\/* CFNetwork\/485.2*",
+          "match": "GoodReader4\/* CFNetwork\/485.2*",
           "platforms": [
             "iOS_A_4_0"
           ]
         },
         {
-          "match": "77%20WABC\/* CFNetwork\/485.10*",
+          "match": "GoodReader4\/* CFNetwork\/485.10*",
           "platforms": [
             "iOS_A_4_1"
           ]
         },
         {
-          "match": "77%20WABC\/* CFNetwork\/485.12*",
+          "match": "GoodReader4\/* CFNetwork\/485.12*",
           "platforms": [
             "iOS_A_4_2"
           ]
         },
         {
-          "match": "77%20WABC\/* CFNetwork\/485.13*",
+          "match": "GoodReader4\/* CFNetwork\/485.13*",
           "platforms": [
             "iOS_A_4_3"
           ]
         },
         {
-          "match": "77%20WABC\/* CFNetwork\/548.1*",
+          "match": "GoodReader4\/* CFNetwork\/548.1*",
           "platforms": [
             "iOS_A_5_1"
           ]
         },
         {
-          "match": "77%20WABC\/* CFNetwork\/548.0*",
+          "match": "GoodReader4\/* CFNetwork\/548.0*",
           "platforms": [
             "iOS_A_5_0"
           ]
         },
         {
-          "match": "77%20WABC\/* CFNetwork\/602*",
+          "match": "GoodReader4\/* CFNetwork\/602*",
           "platforms": [
             "iOS_A_6_0"
           ]
         },
         {
-          "match": "77%20WABC\/* CFNetwork\/609.1*",
+          "match": "GoodReader4\/* CFNetwork\/609.1*",
           "platforms": [
             "iOS_A_6_1"
           ]
         },
         {
-          "match": "77%20WABC\/* CFNetwork\/609*",
+          "match": "GoodReader4\/* CFNetwork\/609*",
           "platforms": [
             "iOS_A_6_0"
           ]
         },
         {
-          "match": "77%20WABC\/* CFNetwork\/672.0*",
+          "match": "GoodReader4\/* CFNetwork\/672.0*",
           "platforms": [
             "iOS_A_7_0"
           ]
         },
         {
-          "match": "77%20WABC\/* CFNetwork\/672.1*",
+          "match": "GoodReader4\/* CFNetwork\/672.1*",
           "platforms": [
             "iOS_A_7_1"
           ]
         },
         {
-          "match": "77%20WABC\/* CFNetwork\/711.0*",
+          "match": "GoodReader4\/* CFNetwork\/711.0*",
           "platforms": [
             "iOS_A_8_0"
           ]
         },
         {
-          "match": "77%20WABC\/* CFNetwork\/711.1*",
+          "match": "GoodReader4\/* CFNetwork\/711.1*",
           "platforms": [
             "iOS_A_8_1"
           ]
         },
         {
-          "match": "77%20WABC\/* CFNetwork\/711.2*",
+          "match": "GoodReader4\/* CFNetwork\/711.2*",
           "platforms": [
             "iOS_A_8_2"
           ]
         },
         {
-          "match": "77%20WABC\/* CFNetwork\/711.3*",
+          "match": "GoodReader4\/* CFNetwork\/711.3*",
           "platforms": [
             "iOS_A_8_3"
           ]
         },
         {
-          "match": "77%20WABC\/* CFNetwork\/711.4*",
+          "match": "GoodReader4\/* CFNetwork\/711.4*",
           "platforms": [
             "iOS_A_8_4"
           ]
         },
         {
-          "match": "77%20WABC\/* CFNetwork\/711.5*",
+          "match": "GoodReader4\/* CFNetwork\/711.5*",
           "platforms": [
             "iOS_A_8_4"
           ]
         },
         {
-          "match": "77%20WABC\/* CFNetwork\/758*",
+          "match": "GoodReader4\/* CFNetwork\/758*",
           "platforms": [
             "iOS_A_9_0"
           ]
         },
         {
-          "match": "77%20WABC\/* CFNetwork\/*",
+          "match": "GoodReader4\/* CFNetwork\/*",
           "platforms": [
             "iOS"
           ]

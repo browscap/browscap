@@ -445,6 +445,57 @@
           "properties": {
             "Browser": "VOX Music Player"
           }
+        },
+        {
+          "match": "Spotify\/1.0*",
+          "properties": {
+            "Browser": "Spotify",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Spotify*",
+          "properties": {
+            "Browser": "Spotify"
+          }
+        },
+        {
+          "match": "Doppler 2.9*",
+          "properties": {
+            "Browser": "Doppler",
+            "Version": "2.9",
+            "MajorVer": "2",
+            "MinorVer": "9"
+          }
+        },
+        {
+          "match": "Doppler*",
+          "properties": {
+            "Browser": "Doppler"
+          }
+        },
+        {
+          "match": "GoldenPod\/0.8*",
+          "properties": {
+            "Browser": "GoldenPod",
+            "Version": "0.8",
+            "MajorVer": "0",
+            "MinorVer": "8"
+          }
+        },
+        {
+          "match": "GoldenPod\/*",
+          "properties": {
+            "Browser": "GoldenPod"
+          }
+        },
+        {
+          "match": "Replay AV*",
+          "properties": {
+            "Browser": "Replay"
+          }
         }
       ]
     }

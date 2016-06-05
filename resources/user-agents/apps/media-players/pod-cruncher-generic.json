@@ -137,9 +137,8 @@
         },
         {
           "match": "PodCruncher\/* CFNetwork\/*",
-          "device": "Macintosh",
           "platforms": [
-            "Darwin"
+            "iOS"
           ]
         },
         {

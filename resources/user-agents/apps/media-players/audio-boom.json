@@ -137,9 +137,8 @@
         },
         {
           "match": "AudioBoom\/* CFNetwork\/*",
-          "device": "Macintosh",
           "platforms": [
-            "Darwin"
+            "iOS"
           ]
         },
         {

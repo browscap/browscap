@@ -137,9 +137,8 @@
         },
         {
           "match": "Mark%20Levin%20Show\/* CFNetwork\/*",
-          "device": "Macintosh",
           "platforms": [
-            "Darwin"
+            "iOS"
           ]
         }
       ]

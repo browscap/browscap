@@ -141,37 +141,21 @@
         },
         {
           "match": "PodcastOne\/#MAJORVER#.#MINORVER#* CFNetwork\/*",
-          "device": "Macintosh",
-          "platforms": [
-            "Darwin"
-          ]
-        },
-        {
-          "match": "PodcastOne #MAJORVER#.#MINORVER#* (iPhone; iPhone OS 9.2*",
-          "device": "iPhone",
-          "platforms": [
-            "iOS_A_9_2"
-          ]
-        },
-        {
-          "match": "PodcastOne #MAJORVER#.#MINORVER#* (iPhone; iPhone OS 7.1*",
-          "device": "iPhone",
-          "platforms": [
-            "iOS_A_7_1"
-          ]
-        },
-        {
-          "match": "PodcastOne #MAJORVER#.#MINORVER#* (iPhone; iPhone OS 5.1*",
-          "device": "iPhone",
-          "platforms": [
-            "iOS_A_5_1"
-          ]
-        },
-        {
-          "match": "PodcastOne #MAJORVER#.#MINORVER#* (iPhone; iPhone OS*",
-          "device": "iPhone",
           "platforms": [
             "iOS"
+          ]
+        },
+        {
+          "match": "PodcastOne #MAJORVER#.#MINORVER#* (iPhone#PLATFORM#",
+          "device": "iPhone",
+          "platforms": [
+            "iOS_E_9_2", "iOS_E_9_1", "iOS_E_9_0", "iOS_E_8_1", "iOS_E_8_0", "iOS_E_7_1", "iOS_E_7_0", "iOS_E_6_1", "iOS_E_6_0", "iOS_E_5_1", "iOS_E"
+          ]
+        },
+        {
+          "match": "PodcastOne #MAJORVER#.#MINORVER#* (#PLATFORM#",
+          "platforms": [
+            "iOS_E_9_2", "iOS_E_9_1", "iOS_E_9_0", "iOS_E_8_1", "iOS_E_8_0", "iOS_E_7_1", "iOS_E_7_0", "iOS_E_6_1", "iOS_E_6_0", "iOS_E_5_1", "iOS_E"
           ]
         }
       ]

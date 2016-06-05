@@ -22,7 +22,7 @@
       },
       "children": [
         {
-          "match": "*NetNewsWire\/3.3*",
+          "match": "NetNewsWire\/3.3*",
           "properties": {
             "Version": "3.3",
             "MajorVer": "3",
@@ -30,7 +30,15 @@
           }
         },
         {
-          "match": "*NetNewsWire\/3.1*",
+          "match": "NetNewsWire\/3.2*",
+          "properties": {
+            "Version": "3.2",
+            "MajorVer": "3",
+            "MinorVer": "2"
+          }
+        },
+        {
+          "match": "NetNewsWire\/3.1*",
           "properties": {
             "Version": "3.1",
             "MajorVer": "3",

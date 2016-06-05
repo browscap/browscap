@@ -137,9 +137,8 @@
         },
         {
           "match": "Antenna\/* CFNetwork\/*",
-          "device": "Macintosh",
           "platforms": [
-            "Darwin"
+            "iOS"
           ]
         }
       ]

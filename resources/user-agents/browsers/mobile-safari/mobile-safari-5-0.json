@@ -226,7 +226,7 @@
         {
           "match": "MobileSafari\/75??.* CFNetwork\/*",
           "platforms": [
-            "Darwin"
+            "iOS"
           ]
         }
       ]

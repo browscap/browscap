@@ -137,9 +137,8 @@
         },
         {
           "match": "The%20Dan%20Patrick%20Show\/* CFNetwork\/*",
-          "device": "Macintosh",
           "platforms": [
-            "Darwin"
+            "iOS"
           ]
         }
       ]

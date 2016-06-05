@@ -205,7 +205,7 @@
         {
           "match": "Safari\/75??.* CFNetwork\/*",
           "platforms": [
-            "Darwin_64", "Darwin"
+            "OSX"
           ]
         }
       ]

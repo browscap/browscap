@@ -198,7 +198,7 @@
           "match": "Puffin%20Free\/* CFNetwork\/*",
           "device": "general Mobile Device (Apple)",
           "platforms": [
-            "Darwin"
+            "iOS"
           ]
         },
         {
@@ -344,7 +344,7 @@
           "match": "Puffin\/* CFNetwork\/*",
           "device": "general Mobile Device (Apple)",
           "platforms": [
-            "Darwin"
+            "iOS"
           ]
         }
       ]
