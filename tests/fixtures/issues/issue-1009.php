@@ -30,7 +30,7 @@ return [
             'BackgroundSounds' => false,
             'JavaScript' => true,
             'VBScript' => false,
-            'JavaApplets' => true,
+            'JavaApplets' => false,
             'ActiveXControls' => false,
             'isMobileDevice' => true,
             'isTablet' => true,
