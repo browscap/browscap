@@ -1,6 +1,6 @@
 {
   "division": "Iceweasel #MAJORVER#.#MINORVER#",
-  "versions": [46, 45, 44, 43, 42, 41],
+  "versions": [50, 49, 48, 47, 46, 45, 44, 43, 42, 41],
   "sortIndex": 3147,
   "lite": false,
   "standard": true,
