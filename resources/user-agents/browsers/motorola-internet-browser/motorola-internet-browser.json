@@ -29,9 +29,6 @@
         },
         {
           "match": "MOT-MP*\/* Mozilla\/* (compatible; MSIE *; Windows CE; *)",
-          "properties": {
-            "Win32": "false"
-          },
           "platforms": [
             "WinCE"
           ]

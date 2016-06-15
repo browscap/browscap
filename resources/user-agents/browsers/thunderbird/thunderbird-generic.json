@@ -14,7 +14,6 @@
         "Browser": "Thunderbird",
         "Browser_Maker": "Mozilla Foundation",
         "Browser_Type": "Email Client",
-        "Win32": "false",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",

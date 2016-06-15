@@ -19,9 +19,6 @@
         "Browser_Type": "Browser",
         "Alpha": "false",
         "Beta": "false",
-        "Win16": "false",
-        "Win32": "false",
-        "Win64": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
         "Browser_Maker": "Yandex LLC",
@@ -78,9 +75,6 @@
         "Browser_Type": "Browser",
         "Alpha": "false",
         "Beta": "false",
-        "Win16": "false",
-        "Win32": "false",
-        "Win64": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
         "Browser_Maker": "Yandex LLC",
@@ -89,8 +83,7 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "CssVersion": "3",
-        "Browser_Bits": "32"
+        "CssVersion": "3"
       },
       "children": [
         {

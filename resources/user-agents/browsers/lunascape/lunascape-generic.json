@@ -13,7 +13,6 @@
         "Browser": "Lunascape",
         "Browser_Type": "Browser",
         "Browser_Maker": "Lunascape Corporation",
-        "Win32": "false",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",

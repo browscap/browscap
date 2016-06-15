@@ -41,10 +41,7 @@
           ]
         },
         {
-          "match": "Windows-RSS-Platform\/#MAJORVER#.#MINORVER#*",
-          "properties": {
-            "Win32": "false"
-          }
+          "match": "Windows-RSS-Platform\/#MAJORVER#.#MINORVER#*"
         }
       ]
     }
