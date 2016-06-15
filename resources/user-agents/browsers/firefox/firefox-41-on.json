@@ -1,6 +1,6 @@
 {
   "division": "Firefox #MAJORVER#.#MINORVER#",
-  "versions": [46, 45, 44, 43, 42, 41],
+  "versions": [49, 48, 47, 46, 45, 44, 43, 42, 41],
   "sortIndex": 3160,
   "lite": true,
   "standard": true,
