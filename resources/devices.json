@@ -36192,6 +36192,19 @@
         "isTablet": "false"
       }
     },
+    "Hisense F5281": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "Sero 8 Pro",
+        "Device_Code_Name": "F5281",
+        "Device_Maker": "Hisense",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Hisense",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Lark Evolution X2 7 3G-GPS": {
       "standard": true,
       "properties": {
