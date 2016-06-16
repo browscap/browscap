@@ -15,7 +15,6 @@
         "Browser": "UC Browser",
         "Browser_Type": "Browser",
         "Browser_Maker": "UCWeb Inc.",
-        "Win32": "false",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",

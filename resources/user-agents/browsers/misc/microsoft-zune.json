@@ -12,8 +12,7 @@
         "Comment": "Microsoft Zune",
         "Browser": "Microsoft Zune",
         "Browser_Type": "Browser",
-        "Browser_Maker": "Microsoft Corporation",
-        "Win32": "false"
+        "Browser_Maker": "Microsoft Corporation"
       },
       "children": [
         {

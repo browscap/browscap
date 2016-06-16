@@ -23,8 +23,7 @@
         "IFrames": "true",
         "Tables": "true",
         "Cookies": "true",
-        "JavaScript": "true",
-        "Win32": "false"
+        "JavaScript": "true"
       },
       "children": [
         {

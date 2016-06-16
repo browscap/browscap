@@ -54,7 +54,6 @@
         "Comment": "Qt Generic for Desktop",
         "Browser": "Qt",
         "Browser_Type": "Browser",
-        "Win32": "false",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",

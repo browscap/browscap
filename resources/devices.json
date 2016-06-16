@@ -28912,6 +28912,19 @@
         "isTablet": "false"
       }
     },
+    "Xiaomi MI 4i": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "MI 4i",
+        "Device_Code_Name": "MI 4i",
+        "Device_Maker": "Xiaomi Tech",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Xiaomi",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Xiaomi HM NOTE 1LTETD": {
       "standard": false,
       "properties": {
@@ -36177,6 +36190,19 @@
         "Device_Brand_Name": "Hisense",
         "isMobileDevice": "true",
         "isTablet": "false"
+      }
+    },
+    "Hisense F5281": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "Sero 8 Pro",
+        "Device_Code_Name": "F5281",
+        "Device_Maker": "Hisense",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Hisense",
+        "isMobileDevice": "true",
+        "isTablet": "true"
       }
     },
     "Lark Evolution X2 7 3G-GPS": {

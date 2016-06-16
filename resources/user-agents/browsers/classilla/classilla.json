@@ -15,7 +15,6 @@
         "Browser": "Classilla",
         "Browser_Maker": "Cameron Kaiser",
         "Browser_Type": "Browser",
-        "Win32": "false",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",

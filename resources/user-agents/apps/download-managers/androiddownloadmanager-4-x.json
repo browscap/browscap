@@ -15,7 +15,6 @@
         "Browser_Type": "Application",
         "Crawler": "false",
         "Browser": "Android Download Manager",
-        "Browser_Bits": "32",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#"

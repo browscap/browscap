@@ -20,9 +20,6 @@
         "MinorVer": "0",
         "Alpha": "false",
         "Beta": "false",
-        "Win16": "false",
-        "Win32": "false",
-        "Win64": "false",
         "Frames": "false",
         "IFrames": "false",
         "Cookies": "false",
@@ -98,12 +95,7 @@
         },
         {
           "match": "Microsoft Office Mobile \/14.0",
-          "device": "general Mobile Phone (Touch)",
-          "properties": {
-            "Win16": "false",
-            "Win32": "false",
-            "Win64": "false"
-          }
+          "device": "general Mobile Phone (Touch)"
         }
       ]
     }

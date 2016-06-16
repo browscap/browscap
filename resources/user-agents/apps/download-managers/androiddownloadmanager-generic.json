@@ -13,8 +13,7 @@
         "Comment": "Android Download Manager Generic",
         "Browser_Type": "Application",
         "Crawler": "false",
-        "Browser": "Android Download Manager",
-        "Browser_Bits": "32"
+        "Browser": "Android Download Manager"
       },
       "children": [
         {

@@ -15,7 +15,6 @@
         "Browser": "Iron Mobile",
         "Browser_Type": "Browser",
         "Browser_Maker": "SRWare",
-        "Win32": "false",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
