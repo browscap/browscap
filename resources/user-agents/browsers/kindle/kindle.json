@@ -40,7 +40,6 @@
           "match": "Mozilla\/5.0 (Linux*; Android 2.3*Kindle Fire*) AppleWebKit\/* (*KHTML* like Gecko*) Version\/4.0*Safari\/533.1",
           "properties": {
             "Comment": "Kindle Fire",
-            "Browser_Bits": "32",
             "Version": "4.0",
             "MajorVer": "4"
           },

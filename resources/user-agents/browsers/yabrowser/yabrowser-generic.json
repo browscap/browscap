@@ -80,8 +80,7 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "CssVersion": "3",
-        "Browser_Bits": "32"
+        "CssVersion": "3"
       },
       "children": [
         {

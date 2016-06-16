@@ -296,6 +296,23 @@
             "Browser": "alyze Bot",
             "Browser_Maker": "Alexandre Tourette"
           }
+        },
+        {
+          "match": "Mozilla\/5.0 (Windows NT 6.3;compatible; Leikibot\/1.0*",
+          "properties": {
+            "Browser": "Leikibot",
+            "Browser_Maker": "Leiki Ltd",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (Windows NT 6.3;compatible; Leikibot\/*",
+          "properties": {
+            "Browser": "Leikibot",
+            "Browser_Maker": "Leiki Ltd"
+          }
         }
       ]
     }
