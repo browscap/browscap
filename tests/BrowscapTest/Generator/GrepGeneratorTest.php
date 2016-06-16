@@ -10,7 +10,6 @@
  * Refer to the LICENSE file distributed with this package.
  *
  * @category   BrowscapTest
- * @package    Generator
  * @copyright  1998-2014 Browser Capabilities Project
  * @license    MIT
  */
@@ -24,7 +23,6 @@ use Browscap\Generator\GrepGenerator;
  * Class GrepGeneratorTest
  *
  * @category   BrowscapTest
- * @package    Generator
  * @author     James Titcumb <james@asgrim.com>
  */
 class GrepGeneratorTest extends \PHPUnit_Framework_TestCase
@@ -51,7 +49,7 @@ class GrepGeneratorTest extends \PHPUnit_Framework_TestCase
      */
     public function testSetLogger()
     {
-        $mock = $this->getMock('\Monolog\Logger', array(), array(), '', false);
+        $mock = $this->getMock('\Monolog\Logger', [], [], '', false);
 
         self::assertSame($this->object, $this->object->setLogger($mock));
     }
@@ -64,11 +62,11 @@ class GrepGeneratorTest extends \PHPUnit_Framework_TestCase
      */
     public function testRun()
     {
-        $mockLogger = $this->getMock('\Monolog\Logger', array(), array(), '', false);
+        $mockLogger = $this->getMock('\Monolog\Logger', [], [], '', false);
 
         self::assertSame($this->object, $this->object->setLogger($mockLogger));
 
-        $mockBrowscap = $this->getMock('\BrowscapPHP\Browscap', array(), array(), '', false);
+        $mockBrowscap = $this->getMock('\BrowscapPHP\Browscap', [], [], '', false);
 
         $tmpfile = tempnam(sys_get_temp_dir(), 'browscaptest');
 

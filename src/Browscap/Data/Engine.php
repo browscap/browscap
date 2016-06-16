@@ -10,7 +10,6 @@
  * Refer to the LICENSE file distributed with this package.
  *
  * @category   Browscap
- * @package    Data
  * @copyright  1998-2014 Browser Capabilities Project
  * @license    MIT
  */
@@ -21,7 +20,6 @@ namespace Browscap\Data;
  * Class Engine
  *
  * @category   Browscap
- * @package    Data
  * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
  */
 class Engine
@@ -29,7 +27,7 @@ class Engine
     /**
      * @var string[]
      */
-    private $properties = array();
+    private $properties = [];
 
     /**
      * @param string[] $properties

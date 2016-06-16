@@ -10,7 +10,6 @@
  * Refer to the LICENSE file distributed with this package.
  *
  * @category   Browscap
- * @package    Generator
  * @copyright  1998-2014 Browser Capabilities Project
  * @license    MIT
  */
@@ -18,14 +17,13 @@
 namespace Browscap\Generator;
 
 use Browscap\Command\GrepCommand;
-use Psr\Log\LoggerInterface;
 use BrowscapPHP\Browscap;
+use Psr\Log\LoggerInterface;
 
 /**
  * Class GrepGenerator
  *
  * @category   Browscap
- * @package    Generator
  * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
  */
 class GrepGenerator
@@ -72,16 +70,16 @@ class GrepGenerator
             $check = $this->testUA($ua, $mode);
 
             if ($check === $mode) {
-                $foundMode++;
+                ++$foundMode;
             } elseif ($check === GrepCommand::FOUND_INVISIBLE) {
-                $foundInvisible++;
+                ++$foundInvisible;
             } else {
-                $foundUnexpected++;
+                ++$foundUnexpected;
             }
         }
 
         $this->logger->info(
-            'Found ' . $foundMode . ' ' . $mode . ' UAs and ' . $foundInvisible. ' other UAs, ' . $foundUnexpected
+            'Found ' . $foundMode . ' ' . $mode . ' UAs and ' . $foundInvisible . ' other UAs, ' . $foundUnexpected
             . ' UAs had unexpected results'
         );
     }
@@ -108,11 +106,11 @@ class GrepGenerator
     {
         $data = $this->browscap->getBrowser($ua, true);
 
-        if ($mode == GrepCommand::MODE_UNMATCHED && $data['Browser'] == 'Default Browser') {
+        if ($mode === GrepCommand::MODE_UNMATCHED && $data['Browser'] === 'Default Browser') {
             $this->logger->info($ua);
 
             return GrepCommand::MODE_UNMATCHED;
-        } elseif ($mode == GrepCommand::MODE_MATCHED && $data['Browser'] != 'Default Browser') {
+        } elseif ($mode === GrepCommand::MODE_MATCHED && $data['Browser'] !== 'Default Browser') {
             $this->logger->info($ua);
 
             return GrepCommand::MODE_MATCHED;

@@ -10,7 +10,6 @@
  * Refer to the LICENSE file distributed with this package.
  *
  * @category   Browscap
- * @package    Generator
  * @copyright  1998-2014 Browser Capabilities Project
  * @license    MIT
  */
@@ -24,7 +23,6 @@ use Psr\Log\LoggerInterface;
  * Class DiffGenerator
  *
  * @category   Browscap
- * @package    Generator
  * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
  */
 class DiffGenerator
@@ -51,7 +49,6 @@ class DiffGenerator
         $iniParserLeft = new IniParser($leftFilename);
         $leftFile      = $iniParserLeft->setShouldSort(true)->parse();
 
-
         $this->logger->debug('parsing right file ' . $rightFilename);
         $iniParserRight = new IniParser($rightFilename);
         $rightFile      = $iniParserRight->setShouldSort(true)->parse();
@@ -70,7 +67,7 @@ class DiffGenerator
 
         if (count($ltrDiff) || count($rtlDiff)) {
             $this->logger->info('The following differences have been found:');
-            $sectionsRead = array();
+            $sectionsRead = [];
 
             $this->logger->debug('Pass 1 (LTR)');
             foreach ($ltrDiff as $section => $props) {
@@ -83,7 +80,7 @@ class DiffGenerator
                     );
                 } else {
                     $this->logger->info('[' . $section . ']' . "\n" . 'Whole section only on LEFT');
-                    $this->diffsFound++;
+                    ++$this->diffsFound;
                 }
 
                 $sectionsRead[] = $section;
@@ -98,22 +95,22 @@ class DiffGenerator
                 if (isset($leftFile[$section]) && is_array($leftFile[$section])) {
                     $this->compareSectionProperties(
                         $section,
-                        (isset($ltrDiff[$section]) ? $ltrDiff[$section] : array()),
+                        (isset($ltrDiff[$section]) ? $ltrDiff[$section] : []),
                         $props,
                         $rightFile[$section]
                     );
                 } else {
                     $this->logger->info('[' . $section . ']' . "\n" . 'Whole section only on RIGHT');
-                    $this->diffsFound++;
+                    ++$this->diffsFound;
                 }
             }
 
             $msg = sprintf(
                 '%sThere %s %d difference%s found in the comparison.',
                 "\n",
-                ($this->diffsFound == 1 ? 'was'  : 'were'),
+                ($this->diffsFound === 1 ? 'was'  : 'were'),
                 $this->diffsFound,
-                ($this->diffsFound == 1 ? '' : 's')
+                ($this->diffsFound === 1 ? '' : 's')
             );
 
             $this->logger->info($msg);
@@ -149,7 +146,7 @@ class DiffGenerator
         $this->logger->info('[' . $section . ']');
 
         // Diff the properties
-        $propsRead = array();
+        $propsRead = [];
 
         if (isset($leftPropDifferences)) {
             foreach ($leftPropDifferences as $prop => $value) {
@@ -160,7 +157,7 @@ class DiffGenerator
                 }
 
                 $this->logger->info($msg);
-                $this->diffsFound++;
+                ++$this->diffsFound;
 
                 $propsRead[] = $prop;
             }
@@ -175,7 +172,7 @@ class DiffGenerator
                 $msg = sprintf('"%s" is only on the RIGHT', $prop);
                 $this->logger->info($msg);
 
-                $this->diffsFound++;
+                ++$this->diffsFound;
             }
         }
     }
@@ -188,7 +185,7 @@ class DiffGenerator
      */
     private function recursiveArrayDiff(array $leftArray, array $rightArray)
     {
-        $diffs = array();
+        $diffs = [];
 
         foreach ($leftArray as $key => $value) {
             if (array_key_exists($key, $rightArray)) {
@@ -199,7 +196,7 @@ class DiffGenerator
                         $diffs[$key] = $childDiffs;
                     }
                 } else {
-                    if ($value != $rightArray[$key]) {
+                    if ($value !== $rightArray[$key]) {
                         $diffs[$key] = $value;
                     }
                 }

@@ -10,7 +10,6 @@
  * Refer to the LICENSE file distributed with this package.
  *
  * @category   BrowscapTest
- * @package    Data
  * @copyright  1998-2014 Browser Capabilities Project
  * @license    MIT
  */
@@ -23,7 +22,6 @@ use Browscap\Data\Factory\EngineFactory;
  * Class EngineTest
  *
  * @category   BrowscapTest
- * @package    Data
  * @author     James Titcumb <james@asgrim.com>
  */
 class EngineFactoryTest extends \PHPUnit_Framework_TestCase
@@ -50,8 +48,8 @@ class EngineFactoryTest extends \PHPUnit_Framework_TestCase
      */
     public function testBuild()
     {
-        $engineData = array('abc' => 'def');
-        $json       = array();
+        $engineData = ['abc' => 'def'];
+        $json       = [];
         $engineName = 'Test';
 
         self::assertInstanceOf('\Browscap\Data\Engine', $this->object->build($engineData, $json, $engineName));

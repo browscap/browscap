@@ -10,7 +10,6 @@
  * Refer to the LICENSE file distributed with this package.
  *
  * @category   Browscap
- * @package    Formatter
  * @copyright  1998-2014 Browser Capabilities Project
  * @license    MIT
  */
@@ -23,7 +22,6 @@ use Browscap\Filter\FilterInterface;
  * Interface FormatterInterface
  *
  * @category   Browscap
- * @package    Formatter
  * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
  */
 interface FormatterInterface

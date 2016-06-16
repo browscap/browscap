@@ -10,7 +10,6 @@
  * Refer to the LICENSE file distributed with this package.
  *
  * @category   Browscap
- * @package    Writer
  * @copyright  1998-2014 Browser Capabilities Project
  * @license    MIT
  */
@@ -27,7 +26,6 @@ use Psr\Log\LoggerInterface;
  * Class IniWriter
  *
  * @category   Browscap
- * @package    Writer
  * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
  */
 class IniWriter implements WriterInterface, WriterNeedsExpanderInterface
@@ -53,14 +51,14 @@ class IniWriter implements WriterInterface, WriterNeedsExpanderInterface
     private $type = null;
 
     /**
-     * @var boolean
+     * @var bool
      */
     private $silent = false;
 
     /**
      * @var array
      */
-    private $outputProperties = array();
+    private $outputProperties = [];
 
     /**
      * @var \Browscap\Data\Expander
@@ -143,7 +141,7 @@ class IniWriter implements WriterInterface, WriterNeedsExpanderInterface
     public function setFilter(FilterInterface $filter)
     {
         $this->type             = $filter;
-        $this->outputProperties = array();
+        $this->outputProperties = [];
 
         return $this;
     }
@@ -169,7 +167,7 @@ class IniWriter implements WriterInterface, WriterNeedsExpanderInterface
     }
 
     /**
-     * @param boolean $silent
+     * @param bool $silent
      *
      * @return \Browscap\Writer\WriterInterface
      */
@@ -181,7 +179,7 @@ class IniWriter implements WriterInterface, WriterNeedsExpanderInterface
     }
 
     /**
-     * @return boolean
+     * @return bool
      */
     public function isSilent()
     {
@@ -215,7 +213,7 @@ class IniWriter implements WriterInterface, WriterNeedsExpanderInterface
      *
      * @return \Browscap\Writer\WriterInterface
      */
-    public function renderHeader(array $comments = array())
+    public function renderHeader(array $comments = [])
     {
         if ($this->isSilent()) {
             return $this;
@@ -239,7 +237,7 @@ class IniWriter implements WriterInterface, WriterNeedsExpanderInterface
      *
      * @return \Browscap\Writer\WriterInterface
      */
-    public function renderVersion(array $versionData = array())
+    public function renderVersion(array $versionData = [])
     {
         if ($this->isSilent()) {
             return $this;
@@ -335,7 +333,7 @@ class IniWriter implements WriterInterface, WriterNeedsExpanderInterface
      * @throws \InvalidArgumentException
      * @return IniWriter
      */
-    public function renderSectionBody(array $section, DataCollection $collection, array $sections = array(), $sectionName = '')
+    public function renderSectionBody(array $section, DataCollection $collection, array $sections = [], $sectionName = '')
     {
         if ($this->isSilent()) {
             return $this;
@@ -344,7 +342,7 @@ class IniWriter implements WriterInterface, WriterNeedsExpanderInterface
         $division          = $collection->getDefaultProperties();
         $ua                = $division->getUserAgents();
         $defaultproperties = $ua[0]['properties'];
-        $properties        = array_merge(array('Parent'), array_keys($defaultproperties));
+        $properties        = array_merge(['Parent'], array_keys($defaultproperties));
 
         foreach ($defaultproperties as $propertyName => $propertyValue) {
             $defaultproperties[$propertyName] = $this->expander->trimProperty($propertyValue);

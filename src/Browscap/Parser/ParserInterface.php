@@ -10,7 +10,6 @@
  * Refer to the LICENSE file distributed with this package.
  *
  * @category   Browscap
- * @package    Parser
  * @copyright  1998-2014 Browser Capabilities Project
  * @license    MIT
  */
@@ -21,7 +20,6 @@ namespace Browscap\Parser;
  * Interface ParserInterface
  *
  * @category   Browscap
- * @package    Parser
  * @author     James Titcumb <james@asgrim.com>
  */
 interface ParserInterface

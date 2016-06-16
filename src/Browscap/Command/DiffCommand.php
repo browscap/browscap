@@ -10,7 +10,6 @@
  * Refer to the LICENSE file distributed with this package.
  *
  * @category   Browscap
- * @package    Command
  * @copyright  1998-2014 Browser Capabilities Project
  * @license    MIT
  */
@@ -32,7 +31,6 @@ use Symfony\Component\Console\Output\OutputInterface;
  * Class DiffCommand
  *
  * @category   Browscap
- * @package    Command
  * @author     James Titcumb <james@asgrim.com>
  */
 class DiffCommand extends Command
@@ -50,8 +48,7 @@ class DiffCommand extends Command
             ->addArgument('left', InputArgument::REQUIRED, 'The left .ini file to compare')
             ->addArgument('right', InputArgument::OPTIONAL, 'The right .ini file to compare')
             ->addOption('resources', null, InputOption::VALUE_REQUIRED, 'Where the resource files are located', $defaultResourceFolder)
-            ->addOption('debug', null, InputOption::VALUE_NONE, 'Should the debug mode entered?')
-        ;
+            ->addOption('debug', null, InputOption::VALUE_NONE, 'Should the debug mode entered?');
     }
 
     /**
@@ -65,9 +62,9 @@ class DiffCommand extends Command
      * @param InputInterface  $input  An InputInterface instance
      * @param OutputInterface $output An OutputInterface instance
      *
-     * @return null|integer null or 0 if everything went fine, or an error code
-     *
      * @throws \LogicException When this abstract method is not implemented
+     * @return null|int        null or 0 if everything went fine, or an error code
+     *
      * @see    setCode()
      */
     protected function execute(InputInterface $input, OutputInterface $output)
@@ -100,8 +97,7 @@ class DiffCommand extends Command
             $buildGenerator
                 ->setLogger($logger)
                 ->setCollectionCreator(new CollectionCreator())
-                ->setWriterCollection($writerCollection)
-            ;
+                ->setWriterCollection($writerCollection);
 
             $buildGenerator->run($input->getArgument('version'), false);
         }
@@ -110,8 +106,7 @@ class DiffCommand extends Command
 
         $generator
             ->setLogger($logger)
-            ->run($leftFilename, $rightFilename)
-        ;
+            ->run($leftFilename, $rightFilename);
 
         $logger->info('Diff done.');
     }

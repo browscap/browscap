@@ -10,7 +10,6 @@
  * Refer to the LICENSE file distributed with this package.
  *
  * @category   BrowscapTest
- * @package    Browscap
  * @copyright  1998-2014 Browser Capabilities Project
  * @license    MIT
  */
@@ -24,7 +23,6 @@ use Symfony\Component\Console\Application;
  * Class BrowscapTest
  *
  * @category   BrowscapTest
- * @package    Browscap
  * @author     James Titcumb <james@asgrim.com>
  */
 class BrowscapTest extends \PHPUnit_Framework_TestCase

@@ -10,7 +10,6 @@
  * Refer to the LICENSE file distributed with this package.
  *
  * @category   BrowscapTest
- * @package    Data
  * @copyright  1998-2014 Browser Capabilities Project
  * @license    MIT
  */
@@ -23,7 +22,6 @@ use Browscap\Data\Platform;
  * Class PlatformTest
  *
  * @category   BrowscapTest
- * @package    Data
  * @author     James Titcumb <james@asgrim.com>
  */
 class PlatformTest extends \PHPUnit_Framework_TestCase
@@ -36,8 +34,8 @@ class PlatformTest extends \PHPUnit_Framework_TestCase
      */
     public function testGetter()
     {
-        $match = 'TestMatchName';
-        $properties = array('abc' => 'def');
+        $match      = 'TestMatchName';
+        $properties = ['abc' => 'def'];
 
         $object = new Platform($match, $properties, true, false);
 

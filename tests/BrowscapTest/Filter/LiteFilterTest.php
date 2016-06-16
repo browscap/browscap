@@ -10,7 +10,6 @@
  * Refer to the LICENSE file distributed with this package.
  *
  * @category   BrowscapTest
- * @package    Filter
  * @copyright  1998-2014 Browser Capabilities Project
  * @license    MIT
  */
@@ -23,7 +22,6 @@ use Browscap\Filter\LiteFilter;
  * Class LiteFilterTest
  *
  * @category   BrowscapTest
- * @package    Filter
  * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
  */
 class LiteFilterTest extends \PHPUnit_Framework_TestCase
@@ -61,12 +59,11 @@ class LiteFilterTest extends \PHPUnit_Framework_TestCase
      */
     public function testIsOutput()
     {
-        $mockDivision = $this->getMock('\Browscap\Data\Division', array('isLite'), array(), '', false);
+        $mockDivision = $this->getMock('\Browscap\Data\Division', ['isLite'], [], '', false);
         $mockDivision
             ->expects(self::once())
             ->method('isLite')
-            ->will(self::returnValue(false))
-        ;
+            ->will(self::returnValue(false));
 
         self::assertFalse($this->object->isOutput($mockDivision));
     }
@@ -144,8 +141,8 @@ class LiteFilterTest extends \PHPUnit_Framework_TestCase
      */
     public function testIsOutputSectionOnlyWhenLite()
     {
-        $this->assertFalse($this->object->isOutputSection(array()));
-        $this->assertFalse($this->object->isOutputSection(array('lite' => false)));
-        $this->assertTrue($this->object->isOutputSection(array('lite' => true)));
+        $this->assertFalse($this->object->isOutputSection([]));
+        $this->assertFalse($this->object->isOutputSection(['lite' => false]));
+        $this->assertTrue($this->object->isOutputSection(['lite' => true]));
     }
 }

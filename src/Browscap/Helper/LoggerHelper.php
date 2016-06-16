@@ -10,7 +10,6 @@
  * Refer to the LICENSE file distributed with this package.
  *
  * @category   Browscap
- * @package    Helper
  * @copyright  1998-2014 Browser Capabilities Project
  * @license    MIT
  */
@@ -29,7 +28,6 @@ use Monolog\Processor\MemoryUsageProcessor;
  * Class LoggerHelper
  *
  * @category   Browscap
- * @package    Helper
  * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
  */
 class LoggerHelper
@@ -37,7 +35,7 @@ class LoggerHelper
     /**
      * creates a \Monolo\Logger instance
      *
-     * @param boolean $debug If true the debug logging mode will be enabled
+     * @param bool $debug If true the debug logging mode will be enabled
      *
      * @return \Monolog\Logger
      */

@@ -10,7 +10,6 @@
  * Refer to the LICENSE file distributed with this package.
  *
  * @category   Browscap
- * @package    Data
  * @copyright  1998-2014 Browser Capabilities Project
  * @license    MIT
  */
@@ -21,7 +20,6 @@ namespace Browscap\Data;
  * Class Device
  *
  * @category   Browscap
- * @package    Data
  * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
  */
 class Device
@@ -29,16 +27,16 @@ class Device
     /**
      * @var string[]
      */
-    private $properties = array();
+    private $properties = [];
 
     /**
-     * @var boolean
+     * @var bool
      */
     private $standard = false;
 
     /**
      * @param string[] $properties
-     * @param boolean  $standard
+     * @param bool     $standard
      */
     public function __construct(array $properties, $standard)
     {
@@ -55,7 +53,7 @@ class Device
     }
 
     /**
-     * @return boolean
+     * @return bool
      */
     public function isStandard()
     {

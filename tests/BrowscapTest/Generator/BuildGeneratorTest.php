@@ -10,7 +10,6 @@
  * Refer to the LICENSE file distributed with this package.
  *
  * @category   BrowscapTest
- * @package    Generator
  * @copyright  1998-2014 Browser Capabilities Project
  * @license    MIT
  */
@@ -25,7 +24,6 @@ use Monolog\Logger;
  * Class BuildGeneratorTest
  *
  * @category   BrowscapTest
- * @package    Generator
  * @author     James Titcumb <james@asgrim.com>
  */
 class BuildGeneratorTest extends \PHPUnit_Framework_TestCase
@@ -33,7 +31,7 @@ class BuildGeneratorTest extends \PHPUnit_Framework_TestCase
     /**
      * @var array
      */
-    private $messages = array();
+    private $messages = [];
 
     /**
      * @var \Psr\Log\LoggerInterface
@@ -46,8 +44,8 @@ class BuildGeneratorTest extends \PHPUnit_Framework_TestCase
      */
     public function setUp()
     {
-        $this->logger   = new Logger('browscapTest', array(new NullHandler()));
-        $this->messages = array();
+        $this->logger   = new Logger('browscapTest', [new NullHandler()]);
+        $this->messages = [];
     }
 
     /**
@@ -117,7 +115,7 @@ class BuildGeneratorTest extends \PHPUnit_Framework_TestCase
      */
     public function testSetLogger()
     {
-        $mock = $this->getMock('\Monolog\Logger', array(), array(), '', false);
+        $mock = $this->getMock('\Monolog\Logger', [], [], '', false);
 
         $generator = new BuildGenerator('.', '.');
         self::assertSame($generator, $generator->setLogger($mock));
@@ -132,7 +130,7 @@ class BuildGeneratorTest extends \PHPUnit_Framework_TestCase
      */
     public function testSetCollectionCreator()
     {
-        $mock = $this->getMock('\Browscap\Helper\CollectionCreator', array(), array(), '', false);
+        $mock = $this->getMock('\Browscap\Helper\CollectionCreator', [], [], '', false);
 
         $generator = new BuildGenerator('.', '.');
         self::assertSame($generator, $generator->setCollectionCreator($mock));
@@ -150,8 +148,8 @@ class BuildGeneratorTest extends \PHPUnit_Framework_TestCase
 
         $mockDivision = $this->getMock(
             '\Browscap\Data\Division',
-            array('getUserAgents', 'getVersions'),
-            array(),
+            ['getUserAgents', 'getVersions'],
+            [],
             '',
             false
         );
@@ -160,28 +158,28 @@ class BuildGeneratorTest extends \PHPUnit_Framework_TestCase
             ->method('getUserAgents')
             ->will(
                 self::returnValue(
-                    array(
-                        0 => array(
-                            'properties' => array(
+                    [
+                        0 => [
+                            'properties' => [
                                 'Parent'   => 'DefaultProperties',
                                 'Browser'  => 'xyz',
                                 'Version'  => '1.0',
                                 'MajorBer' => '1',
-                            ),
-                            'userAgent'  => 'abc'
-                        )
-                    )
+                            ],
+                            'userAgent'  => 'abc',
+                        ],
+                    ]
                 )
             );
         $mockDivision
             ->expects(self::once())
             ->method('getVersions')
-            ->will(self::returnValue(array(2)));
+            ->will(self::returnValue([2]));
 
         $mockCollection = $this->getMock(
             '\Browscap\Data\DataCollection',
-            array('getGenerationDate', 'getDefaultProperties', 'getDefaultBrowser', 'getDivisions', 'checkProperty'),
-            array(),
+            ['getGenerationDate', 'getDefaultProperties', 'getDefaultBrowser', 'getDivisions', 'checkProperty'],
+            [],
             '',
             false
         );
@@ -200,7 +198,7 @@ class BuildGeneratorTest extends \PHPUnit_Framework_TestCase
         $mockCollection
             ->expects(self::once())
             ->method('getDivisions')
-            ->will(self::returnValue(array($mockDivision)));
+            ->will(self::returnValue([$mockDivision]));
         $mockCollection
             ->expects(self::once())
             ->method('checkProperty')
@@ -208,8 +206,8 @@ class BuildGeneratorTest extends \PHPUnit_Framework_TestCase
 
         $mockCreator = $this->getMock(
             '\Browscap\Helper\CollectionCreator',
-            array('createDataCollection'),
-            array(),
+            ['createDataCollection'],
+            [],
             '',
             false
         );
@@ -220,15 +218,15 @@ class BuildGeneratorTest extends \PHPUnit_Framework_TestCase
 
         $writerCollection = $this->getMock(
             '\Browscap\Writer\WriterCollection',
-            array(
+            [
                 'fileStart',
                 'renderHeader',
                 'renderAllDivisionsHeader',
                 'renderSectionHeader',
                 'renderSectionBody',
                 'fileEnd',
-            ),
-            array(),
+            ],
+            [],
             '',
             false
         );
@@ -275,8 +273,8 @@ class BuildGeneratorTest extends \PHPUnit_Framework_TestCase
     {
         $mockDivision = $this->getMock(
             '\Browscap\Data\Division',
-            array('getUserAgents', 'getVersions'),
-            array(),
+            ['getUserAgents', 'getVersions'],
+            [],
             '',
             false
         );
@@ -285,28 +283,28 @@ class BuildGeneratorTest extends \PHPUnit_Framework_TestCase
             ->method('getUserAgents')
             ->will(
                 self::returnValue(
-                    array(
-                        0 => array(
-                            'properties' => array(
+                    [
+                        0 => [
+                            'properties' => [
                                 'Parent'   => 'DefaultProperties',
                                 'Browser'  => 'xyz',
                                 'Version'  => '1.0',
                                 'MajorBer' => '1',
-                            ),
-                            'userAgent'  => 'abc'
-                        )
-                    )
+                            ],
+                            'userAgent'  => 'abc',
+                        ],
+                    ]
                 )
             );
         $mockDivision
             ->expects(self::once())
             ->method('getVersions')
-            ->will(self::returnValue(array(2)));
+            ->will(self::returnValue([2]));
 
         $mockCollection = $this->getMock(
             '\Browscap\Data\DataCollection',
-            array('getGenerationDate', 'getDefaultProperties', 'getDefaultBrowser', 'getDivisions', 'checkProperty'),
-            array(),
+            ['getGenerationDate', 'getDefaultProperties', 'getDefaultBrowser', 'getDivisions', 'checkProperty'],
+            [],
             '',
             false
         );
@@ -325,7 +323,7 @@ class BuildGeneratorTest extends \PHPUnit_Framework_TestCase
         $mockCollection
             ->expects(self::once())
             ->method('getDivisions')
-            ->will(self::returnValue(array($mockDivision)));
+            ->will(self::returnValue([$mockDivision]));
         $mockCollection
             ->expects(self::once())
             ->method('checkProperty')
@@ -333,8 +331,8 @@ class BuildGeneratorTest extends \PHPUnit_Framework_TestCase
 
         $mockCreator = $this->getMock(
             '\Browscap\Helper\CollectionCreator',
-            array('createDataCollection'),
-            array(),
+            ['createDataCollection'],
+            [],
             '',
             false
         );
@@ -345,15 +343,15 @@ class BuildGeneratorTest extends \PHPUnit_Framework_TestCase
 
         $writerCollection = $this->getMock(
             '\Browscap\Writer\WriterCollection',
-            array(
+            [
                 'fileStart',
                 'renderHeader',
                 'renderAllDivisionsHeader',
                 'renderSectionHeader',
                 'renderSectionBody',
                 'fileEnd',
-            ),
-            array(),
+            ],
+            [],
             '',
             false
         );
