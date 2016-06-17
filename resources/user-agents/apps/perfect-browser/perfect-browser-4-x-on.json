@@ -151,9 +151,8 @@
         },
         {
           "match": "Perfect%20Browser\/#MAJORVER#.#MINORVER#* CFNetwork\/*",
-          "device": "Macintosh",
           "platforms": [
-            "Darwin"
+            "iOS"
           ]
         }
       ]

@@ -1,0 +1,66 @@
+{
+  "division": "FancyMusic #MAJORVER#.#MINORVER#",
+  "versions": ["1.5", "1.4"],
+  "sortIndex": 7121,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "FancyMusic #MAJORVER#.#MINORVER#",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "FancyMusic #MAJORVER#.#MINORVER#",
+        "Browser": "FancyMusic",
+        "Browser_Type": "Multimedia Player",
+        "Browser_Maker": "unknown",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "FancyMusic #MAJORVER#.#MINORVER#* (iPhone#PLATFORM#",
+          "device": "iPhone",
+          "platforms": [
+            "iOS_E_9_2", "iOS_E_9_1", "iOS_E_9_0", "iOS_E_8_1", "iOS_E_8_0", "iOS_E_7_1", "iOS_E_7_0", "iOS_E_6_1", "iOS_E_6_0", "iOS_E_5_1", "iOS_E"
+          ]
+        },
+        {
+          "match": "FancyMusic #MAJORVER#.#MINORVER#* (iPod#PLATFORM#",
+          "device": "iPod Touch",
+          "platforms": [
+            "iOS_E_9_2", "iOS_E_9_1", "iOS_E_9_0", "iOS_E_8_1", "iOS_E_8_0", "iOS_E_7_1", "iOS_E_7_0", "iOS_E_6_1", "iOS_E_6_0", "iOS_E_5_1", "iOS_E"
+          ]
+        },
+        {
+          "match": "FancyMusic #MAJORVER#.#MINORVER#* (#PLATFORM#",
+          "platforms": [
+            "iOS_E_9_2", "iOS_E_9_1", "iOS_E_9_0", "iOS_E_8_1", "iOS_E_8_0", "iOS_E_7_1", "iOS_E_7_0", "iOS_E_6_1", "iOS_E_6_0", "iOS_E_5_1", "iOS_E"
+          ]
+        },
+        {
+          "match": "Fancy Cloud Music #MAJORVER#.#MINORVER#* (iPhone#PLATFORM#",
+          "device": "iPhone",
+          "platforms": [
+            "iOS_E_9_2", "iOS_E_9_1", "iOS_E_9_0", "iOS_E_8_1", "iOS_E_8_0", "iOS_E_7_1", "iOS_E_7_0", "iOS_E_6_1", "iOS_E_6_0", "iOS_E_5_1", "iOS_E"
+          ]
+        },
+        {
+          "match": "Fancy Cloud Music #MAJORVER#.#MINORVER#* (iPod#PLATFORM#",
+          "device": "iPod Touch",
+          "platforms": [
+            "iOS_E_9_2", "iOS_E_9_1", "iOS_E_9_0", "iOS_E_8_1", "iOS_E_8_0", "iOS_E_7_1", "iOS_E_7_0", "iOS_E_6_1", "iOS_E_6_0", "iOS_E_5_1", "iOS_E"
+          ]
+        },
+        {
+          "match": "Fancy Cloud Music #MAJORVER#.#MINORVER#* (#PLATFORM#",
+          "platforms": [
+            "iOS_E_9_2", "iOS_E_9_1", "iOS_E_9_0", "iOS_E_8_1", "iOS_E_8_0", "iOS_E_7_1", "iOS_E_7_0", "iOS_E_6_1", "iOS_E_6_0", "iOS_E_5_1", "iOS_E"
+          ]
+        }
+      ]
+    }
+  ]
+}

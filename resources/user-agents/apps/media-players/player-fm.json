@@ -1,0 +1,75 @@
+{
+  "division": "Player FM",
+  "sortIndex": 1530,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Player FM",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Player FM",
+        "Browser": "Player FM",
+        "Browser_Maker": "Nuvomondo Ltd",
+        "Browser_Type": "Multimedia Player"
+      },
+      "children": [
+        {
+          "match": "Player FM*"
+        },
+        {
+          "match": "Player\/LG Player 1.0 for #PLATFORM# (stagefright alternative*Player FM*",
+          "device": "general Mobile Phone (Touch)",
+          "engine": "WebKit",
+          "platforms": [
+            "Android_H_4_4", "Android_H"
+          ]
+        },
+        {
+          "match": "Player\/LG Player * for #PLATFORM# (stagefright alternative*Player FM*",
+          "device": "general Mobile Phone (Touch)",
+          "engine": "WebKit",
+          "platforms": [
+            "Android_H_4_4", "Android_H"
+          ]
+        },
+        {
+          "match": "AppleCoreMedia\/1.0* (iPod#PLATFORM#), Player FM*",
+          "device": "iPod Touch",
+          "engine": "WebKit",
+          "platforms": [
+            "iOS_C_4_0", "iOS_C_4_1", "iOS_C_4_2", "iOS_C_4_3", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0",
+            "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_1", "iOS_C_8_0", "iOS_C"
+          ]
+        },
+        {
+          "match": "AppleCoreMedia\/1.0* (iPhone#PLATFORM#), Player FM*",
+          "device": "iPhone",
+          "engine": "WebKit",
+          "platforms": [
+            "iOS_C_4_0", "iOS_C_4_1", "iOS_C_4_2", "iOS_C_4_3", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0",
+            "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_1", "iOS_C_8_0", "iOS_C"
+          ]
+        },
+        {
+          "match": "AppleCoreMedia\/1.0* (iPad#PLATFORM#), Player FM*",
+          "device": "iPad",
+          "engine": "WebKit",
+          "platforms": [
+            "iOS_C_4_0", "iOS_C_4_1", "iOS_C_4_2", "iOS_C_4_3", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0",
+            "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_1", "iOS_C_8_0", "iOS_C"
+          ]
+        },
+        {
+          "match": "AppleCoreMedia\/1.0* (#PLATFORM#), Player FM*",
+          "device": "general Mobile Device (Apple)",
+          "engine": "WebKit",
+          "platforms": [
+            "iOS_C_4_0", "iOS_C_4_1", "iOS_C_4_2", "iOS_C_4_3", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0",
+            "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_1", "iOS_C_8_0", "iOS_C"
+          ]
+        }
+      ]
+    }
+  ]
+}

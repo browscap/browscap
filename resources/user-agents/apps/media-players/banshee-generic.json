@@ -1,0 +1,23 @@
+{
+  "division": "Banshee Generic",
+  "sortIndex": 1532,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Banshee Generic",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Banshee Generic",
+        "Browser": "Banshee Media Player",
+        "Browser_Maker": "Novell",
+        "Browser_Type": "Multimedia Player"
+      },
+      "children": [
+        {
+          "match": "Banshee\/*"
+        }
+      ]
+    }
+  ]
+}

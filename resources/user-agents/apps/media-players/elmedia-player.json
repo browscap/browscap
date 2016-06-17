@@ -6,6 +6,9 @@
   "userAgents": [
     {
       "userAgent": "Elmedia Player",
+      "device": "Macintosh",
+      "engine": "WebKit",
+      "platform": "OSX",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Elmedia Player",
@@ -16,13 +19,6 @@
       "children": [
         {
           "match": "ElmediaPlayer Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Version\/* Safari\/*",
-          "device": "Macintosh",
-          "engine": "WebKit",
-          "properties": {
-            "Browser": "Elmedia Player",
-            "Browser_Maker": "Eltima Software",
-            "Browser_Type": "Multimedia Player"
-          },
           "platforms": [
             "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10", "OSX"
           ]

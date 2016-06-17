@@ -1,0 +1,23 @@
+{
+  "division": "Clementine Generic",
+  "sortIndex": 1532,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Clementine Generic",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Clementine Generic",
+        "Browser": "Clementine",
+        "Browser_Maker": "unknown",
+        "Browser_Type": "Multimedia Player"
+      },
+      "children": [
+        {
+          "match": "Clementine*"
+        }
+      ]
+    }
+  ]
+}

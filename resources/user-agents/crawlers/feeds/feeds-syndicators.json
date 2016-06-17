@@ -88,7 +88,7 @@
             "Browser": "FeedDemon"
           },
           "platforms": [
-            "Win32"
+            "Windows"
           ]
         },
         {
@@ -176,12 +176,24 @@
           }
         },
         {
-          "match": "Liferea\/*",
+          "match": "Liferea\/0.*",
+          "properties": {
+            "Browser": "Liferea"
+          }
+        },
+        {
+          "match": "Liferea\/1.*",
           "properties": {
             "Browser": "Liferea",
             "Version": "1.0",
             "MajorVer": "1",
             "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Liferea\/*",
+          "properties": {
+            "Browser": "Liferea"
           }
         },
         {
@@ -229,7 +241,7 @@
             "Browser": "Mobitype"
           },
           "platforms": [
-            "Win32"
+            "Windows"
           ]
         },
         {
@@ -309,69 +321,6 @@
           "properties": {
             "Browser": "TailRank",
             "Browser_Maker": "Tailrank Inc"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#; aggregator:Tailrank (Spinn3r 2.3); *) Gecko*",
-          "engine": "Gecko",
-          "device": "Linux Desktop",
-          "properties": {
-            "Browser": "Spinn3r RSS Aggregator",
-            "Browser_Maker": "Tailrank Inc",
-            "Version": "2.3",
-            "MajorVer": "2",
-            "MinorVer": "3"
-          },
-          "platforms": [
-            "Linux_64", "Linux_32", "Linux"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#; aggregator:Spinn3r (Spinn3r 3.0); *) Gecko*",
-          "engine": "Gecko",
-          "device": "Linux Desktop",
-          "properties": {
-            "Browser": "Spinn3r RSS Aggregator",
-            "Browser_Maker": "Tailrank Inc",
-            "Version": "3.0",
-            "MajorVer": "3",
-            "MinorVer": "0"
-          },
-          "platforms": [
-            "Linux_64", "Linux_32", "Linux"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#; aggregator:Spinn3r (Spinn3r 3.1); *) Gecko*",
-          "engine": "Gecko",
-          "device": "Linux Desktop",
-          "properties": {
-            "Browser": "Spinn3r RSS Aggregator",
-            "Browser_Maker": "Tailrank Inc",
-            "Version": "3.1",
-            "MajorVer": "3",
-            "MinorVer": "1"
-          },
-          "platforms": [
-            "Linux_64", "Linux_32", "Linux"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#; aggregator:Spinn3r (Spinn3r *); *) Gecko*",
-          "engine": "Gecko",
-          "device": "Linux Desktop",
-          "properties": {
-            "Browser": "Spinn3r RSS Aggregator",
-            "Browser_Maker": "Tailrank Inc"
-          },
-          "platforms": [
-            "Linux_64", "Linux_32", "Linux"
-          ]
-        },
-        {
-          "match": "*Spinn3r*http:\/\/spinn3r.com\/robot*",
-          "properties": {
-            "Browser": "Spinn3r RSS Aggregator"
           }
         },
         {
@@ -706,6 +655,27 @@
           "match": "Feedfetcher-feedraider*",
           "properties": {
             "Browser": "feedraider"
+          }
+        },
+        {
+          "match": "Custom-Feed Reader*",
+          "properties": {
+            "Browser": "Custom-Feed Reader"
+          }
+        },
+        {
+          "match": "CITA RSS Aggregator\/2.7*",
+          "properties": {
+            "Browser": "CITA RSS Aggregator",
+            "Version": "2.7",
+            "MajorVer": "2",
+            "MinorVer": "7"
+          }
+        },
+        {
+          "match": "CITA RSS Aggregator\/*",
+          "properties": {
+            "Browser": "CITA RSS Aggregator"
           }
         }
       ]

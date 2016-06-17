@@ -1,0 +1,56 @@
+{
+  "division": "okhttp",
+  "sortIndex": 480,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "okhttp",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "okhttp",
+        "Browser": "okhttp",
+        "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "Square, Inc.",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "okhttp\/3.2*",
+          "properties": {
+            "Version": "3.2",
+            "MajorVer": "3",
+            "MinorVer": "2"
+          }
+        },
+        {
+          "match": "okhttp\/3.1*",
+          "properties": {
+            "Version": "3.1",
+            "MajorVer": "3",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "okhttp\/3.0*",
+          "properties": {
+            "Version": "3.0",
+            "MajorVer": "3",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "okhttp\/2.7*",
+          "properties": {
+            "Version": "2.7",
+            "MajorVer": "2",
+            "MinorVer": "7"
+          }
+        },
+        {
+          "match": "okhttp\/*"
+        }
+      ]
+    }
+  ]
+}

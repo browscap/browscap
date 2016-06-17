@@ -163,9 +163,8 @@
         },
         {
           "match": "Opera%20Coast\/#MAJORVER#.#MINORVER#* CFNetwork\/*",
-          "device": "Macintosh",
           "platforms": [
-            "Darwin"
+            "iOS"
           ]
         }
       ]

@@ -882,6 +882,15 @@
         "Platform_Version": "9.1"
       }
     },
+    "iOS_E_9_2": {
+      "match": "*iPhone OS?9?2*",
+      "lite": false,
+      "standard": true,
+      "inherits": "iOS",
+      "properties": {
+        "Platform_Version": "9.2"
+      }
+    },
     "iOS_F": {
       "match": "*CPU like Mac OS X*",
       "lite": true,
@@ -2627,15 +2636,6 @@
         "Platform_Version": "4.4"
       }
     },
-    "Android_4_4_D": {
-      "match": "*Android 4.4*",
-      "lite": false,
-      "standard": true,
-      "inherits": "Android",
-      "properties": {
-        "Platform_Version": "4.4"
-      }
-    },
     "Android_4_5": {
       "match": "*Linux*Android?4.5*",
       "lite": false,
@@ -2973,6 +2973,33 @@
       "inherits": "Android",
       "properties": {
         "Platform_Version": "4.4"
+      }
+    },
+    "Android_H_5_0": {
+      "match": "*Android?5.0*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "5.0"
+      }
+    },
+    "Android_H_5_1": {
+      "match": "*Android?5.1*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "5.1"
+      }
+    },
+    "Android_H_6_0": {
+      "match": "*Android?6.0*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "6.0"
       }
     },
     "Android_GoogleTV": {

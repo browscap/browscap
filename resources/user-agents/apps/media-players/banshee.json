@@ -1,0 +1,27 @@
+{
+  "division": "Banshee #MAJORVER#.#MINORVER#",
+  "versions": ["2.6"],
+  "sortIndex": 1531,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Banshee #MAJORVER#.#MINORVER#",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Banshee #MAJORVER#.#MINORVER#",
+        "Browser": "Banshee Media Player",
+        "Browser_Maker": "Novell",
+        "Browser_Type": "Multimedia Player",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Banshee\/#MAJORVER#.#MINORVER#*"
+        }
+      ]
+    }
+  ]
+}

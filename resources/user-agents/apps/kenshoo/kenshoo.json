@@ -172,9 +172,8 @@
         },
         {
           "match": "Kenshoo\/* CFNetwork\/*",
-          "device": "Macintosh",
           "platforms": [
-            "Darwin"
+            "iOS"
           ]
         }
       ]

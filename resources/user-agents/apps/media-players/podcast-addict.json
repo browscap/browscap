@@ -1,0 +1,43 @@
+{
+  "division": "PodcastAddict",
+  "sortIndex": 2211,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "PodcastAddict",
+      "platform": "Android",
+      "engine": "Blink",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "PodcastAddict",
+        "Browser": "PodcastAddict",
+        "Browser_Type": "Multimedia Player",
+        "Browser_Maker": "unknown"
+      },
+      "children": [
+        {
+          "match": "Podcast*Addict*Dalvik\/* (#PLATFORM#LG-H811 Build\/*",
+          "device": "LG H811",
+          "platforms": [
+            "Android_6_0"
+          ]
+        },
+        {
+          "match": "Podcast*Addict*Dalvik\/* (#PLATFORM#SM-G920P Build\/*",
+          "device": "Samsung SM-G920P",
+          "platforms": [
+            "Android_5_1"
+          ]
+        },
+        {
+          "match": "Podcast*Addict*Dalvik\/* (#PLATFORM#",
+          "platforms": [
+            "Android_5_1", "Android_6_0", "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}

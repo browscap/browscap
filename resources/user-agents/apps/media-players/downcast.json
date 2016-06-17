@@ -1,0 +1,112 @@
+{
+  "division": "Downcast",
+  "sortIndex": 1530,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Downcast",
+      "engine": "WebKit",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Downcast",
+        "Browser": "Downcast",
+        "Browser_Type": "Multimedia Player"
+      },
+      "children": [
+        {
+          "match": "iTunes\/* Downcast\/2.9*",
+          "properties": {
+            "Version": "2.9",
+            "MajorVer": "2",
+            "MinorVer": "9"
+          }
+        },
+        {
+          "match": "iTunes\/* Downcast\/2.8*",
+          "properties": {
+            "Version": "2.8",
+            "MajorVer": "2",
+            "MinorVer": "8"
+          }
+        },
+        {
+          "match": "iTunes\/* Downcast\/*"
+        },
+        {
+          "match": "Downcast\/2.9* (Mac OS X Version 10.11*",
+          "platforms": [
+            "OSX_10_11"
+          ],
+          "device": "Macintosh",
+          "properties": {
+            "Version": "2.9",
+            "MajorVer": "2",
+            "MinorVer": "9"
+          }
+        },
+        {
+          "match": "Downcast\/2.9* (Mac OS X*",
+          "platforms": [
+            "OSX"
+          ],
+          "device": "Macintosh",
+          "properties": {
+            "Version": "2.9",
+            "MajorVer": "2",
+            "MinorVer": "9"
+          }
+        },
+        {
+          "match": "Downcast\/2.9* (iPhone; iOS 9.2*",
+          "platforms": [
+            "iOS_A_9_2"
+          ],
+          "device": "iPhone",
+          "properties": {
+            "Version": "2.9",
+            "MajorVer": "2",
+            "MinorVer": "9"
+          }
+        },
+        {
+          "match": "Downcast\/2.9* (iPhone; iOS*",
+          "platforms": [
+            "iOS"
+          ],
+          "device": "iPhone",
+          "properties": {
+            "Version": "2.9",
+            "MajorVer": "2",
+            "MinorVer": "9"
+          }
+        },
+        {
+          "match": "Downcast\/2.9*",
+          "properties": {
+            "Version": "2.9",
+            "MajorVer": "2",
+            "MinorVer": "9"
+          }
+        },
+        {
+          "match": "Downcast\/* (Mac OS X*",
+          "platforms": [
+            "OSX"
+          ],
+          "device": "Macintosh"
+        },
+        {
+          "match": "Downcast\/* (iPhone; iOS*",
+          "platforms": [
+            "iOS"
+          ],
+          "device": "iPhone"
+        },
+        {
+          "match": "Downcast\/*"
+        }
+      ]
+    }
+  ]
+}

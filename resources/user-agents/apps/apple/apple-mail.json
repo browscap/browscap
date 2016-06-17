@@ -199,9 +199,8 @@
         },
         {
           "match": "Mail\/* CFNetwork\/*",
-          "device": "Macintosh",
           "platforms": [
-            "Darwin"
+            "iOS"
           ]
         }
       ]

@@ -1,0 +1,30 @@
+{
+  "division": "Clementine #MAJORVER#.#MINORVER#",
+  "versions": ["1.2"],
+  "sortIndex": 1531,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Clementine #MAJORVER#.#MINORVER#",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Clementine #MAJORVER#.#MINORVER#",
+        "Browser": "Clementine",
+        "Browser_Maker": "unknown",
+        "Browser_Type": "Multimedia Player",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Clementine-qt5 #MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "Clementine #MAJORVER#.#MINORVER#*"
+        }
+      ]
+    }
+  ]
+}

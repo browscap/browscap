@@ -1,0 +1,274 @@
+{
+  "division": "MusicDownloader Generic",
+  "sortIndex": 7122,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "MusicDownloader Generic",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "platform": "iOS",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "MusicDownloader Generic",
+        "Browser": "MusicDownloader",
+        "Browser_Type": "Multimedia Player"
+      },
+      "children": [
+        {
+          "match": "MusicDownloader\/* CFNetwork\/459*",
+          "platforms": [
+            "iOS_A_3_1"
+          ]
+        },
+        {
+          "match": "MusicDownloader\/* CFNetwork\/467.12*",
+          "platforms": [
+            "iOS_A_3_2"
+          ]
+        },
+        {
+          "match": "MusicDownloader\/* CFNetwork\/485.2*",
+          "platforms": [
+            "iOS_A_4_0"
+          ]
+        },
+        {
+          "match": "MusicDownloader\/* CFNetwork\/485.10*",
+          "platforms": [
+            "iOS_A_4_1"
+          ]
+        },
+        {
+          "match": "MusicDownloader\/* CFNetwork\/485.12*",
+          "platforms": [
+            "iOS_A_4_2"
+          ]
+        },
+        {
+          "match": "MusicDownloader\/* CFNetwork\/485.13*",
+          "platforms": [
+            "iOS_A_4_3"
+          ]
+        },
+        {
+          "match": "MusicDownloader\/* CFNetwork\/548.1*",
+          "platforms": [
+            "iOS_A_5_1"
+          ]
+        },
+        {
+          "match": "MusicDownloader\/* CFNetwork\/548.0*",
+          "platforms": [
+            "iOS_A_5_0"
+          ]
+        },
+        {
+          "match": "MusicDownloader\/* CFNetwork\/602*",
+          "platforms": [
+            "iOS_A_6_0"
+          ]
+        },
+        {
+          "match": "MusicDownloader\/* CFNetwork\/609.1*",
+          "platforms": [
+            "iOS_A_6_1"
+          ]
+        },
+        {
+          "match": "MusicDownloader\/* CFNetwork\/609*",
+          "platforms": [
+            "iOS_A_6_0"
+          ]
+        },
+        {
+          "match": "MusicDownloader\/* CFNetwork\/672.0*",
+          "platforms": [
+            "iOS_A_7_0"
+          ]
+        },
+        {
+          "match": "MusicDownloader\/* CFNetwork\/672.1*",
+          "platforms": [
+            "iOS_A_7_1"
+          ]
+        },
+        {
+          "match": "MusicDownloader\/* CFNetwork\/711.0*",
+          "platforms": [
+            "iOS_A_8_0"
+          ]
+        },
+        {
+          "match": "MusicDownloader\/* CFNetwork\/711.1*",
+          "platforms": [
+            "iOS_A_8_1"
+          ]
+        },
+        {
+          "match": "MusicDownloader\/* CFNetwork\/711.2*",
+          "platforms": [
+            "iOS_A_8_2"
+          ]
+        },
+        {
+          "match": "MusicDownloader\/* CFNetwork\/711.3*",
+          "platforms": [
+            "iOS_A_8_3"
+          ]
+        },
+        {
+          "match": "MusicDownloader\/* CFNetwork\/711.4*",
+          "platforms": [
+            "iOS_A_8_4"
+          ]
+        },
+        {
+          "match": "MusicDownloader\/* CFNetwork\/711.5*",
+          "platforms": [
+            "iOS_A_8_4"
+          ]
+        },
+        {
+          "match": "MusicDownloader\/* CFNetwork\/758*",
+          "platforms": [
+            "iOS_A_9_0"
+          ]
+        },
+        {
+          "match": "MusicDownloader\/* CFNetwork\/*",
+          "platforms": [
+            "iOS"
+          ]
+        },
+        {
+          "match": "MusicDownloaderLite\/* CFNetwork\/459*",
+          "platforms": [
+            "iOS_A_3_1"
+          ]
+        },
+        {
+          "match": "MusicDownloaderLite\/* CFNetwork\/467.12*",
+          "platforms": [
+            "iOS_A_3_2"
+          ]
+        },
+        {
+          "match": "MusicDownloaderLite\/* CFNetwork\/485.2*",
+          "platforms": [
+            "iOS_A_4_0"
+          ]
+        },
+        {
+          "match": "MusicDownloaderLite\/* CFNetwork\/485.10*",
+          "platforms": [
+            "iOS_A_4_1"
+          ]
+        },
+        {
+          "match": "MusicDownloaderLite\/* CFNetwork\/485.12*",
+          "platforms": [
+            "iOS_A_4_2"
+          ]
+        },
+        {
+          "match": "MusicDownloaderLite\/* CFNetwork\/485.13*",
+          "platforms": [
+            "iOS_A_4_3"
+          ]
+        },
+        {
+          "match": "MusicDownloaderLite\/* CFNetwork\/548.1*",
+          "platforms": [
+            "iOS_A_5_1"
+          ]
+        },
+        {
+          "match": "MusicDownloaderLite\/* CFNetwork\/548.0*",
+          "platforms": [
+            "iOS_A_5_0"
+          ]
+        },
+        {
+          "match": "MusicDownloaderLite\/* CFNetwork\/602*",
+          "platforms": [
+            "iOS_A_6_0"
+          ]
+        },
+        {
+          "match": "MusicDownloaderLite\/* CFNetwork\/609.1*",
+          "platforms": [
+            "iOS_A_6_1"
+          ]
+        },
+        {
+          "match": "MusicDownloaderLite\/* CFNetwork\/609*",
+          "platforms": [
+            "iOS_A_6_0"
+          ]
+        },
+        {
+          "match": "MusicDownloaderLite\/* CFNetwork\/672.0*",
+          "platforms": [
+            "iOS_A_7_0"
+          ]
+        },
+        {
+          "match": "MusicDownloaderLite\/* CFNetwork\/672.1*",
+          "platforms": [
+            "iOS_A_7_1"
+          ]
+        },
+        {
+          "match": "MusicDownloaderLite\/* CFNetwork\/711.0*",
+          "platforms": [
+            "iOS_A_8_0"
+          ]
+        },
+        {
+          "match": "MusicDownloaderLite\/* CFNetwork\/711.1*",
+          "platforms": [
+            "iOS_A_8_1"
+          ]
+        },
+        {
+          "match": "MusicDownloaderLite\/* CFNetwork\/711.2*",
+          "platforms": [
+            "iOS_A_8_2"
+          ]
+        },
+        {
+          "match": "MusicDownloaderLite\/* CFNetwork\/711.3*",
+          "platforms": [
+            "iOS_A_8_3"
+          ]
+        },
+        {
+          "match": "MusicDownloaderLite\/* CFNetwork\/711.4*",
+          "platforms": [
+            "iOS_A_8_4"
+          ]
+        },
+        {
+          "match": "MusicDownloaderLite\/* CFNetwork\/711.5*",
+          "platforms": [
+            "iOS_A_8_4"
+          ]
+        },
+        {
+          "match": "MusicDownloaderLite\/* CFNetwork\/758*",
+          "platforms": [
+            "iOS_A_9_0"
+          ]
+        },
+        {
+          "match": "MusicDownloaderLite\/* CFNetwork\/*",
+          "platforms": [
+            "iOS"
+          ]
+        }
+      ]
+    }
+  ]
+}

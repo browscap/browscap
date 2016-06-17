@@ -8,6 +8,7 @@
       "userAgent": "NetNewsWire",
       "platform": "OSX",
       "device": "Macintosh",
+      "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "NetNewsWire",
@@ -21,11 +22,27 @@
       },
       "children": [
         {
-          "match": "*NetNewsWire\/3.3*",
+          "match": "NetNewsWire\/3.3*",
           "properties": {
             "Version": "3.3",
             "MajorVer": "3",
             "MinorVer": "3"
+          }
+        },
+        {
+          "match": "NetNewsWire\/3.2*",
+          "properties": {
+            "Version": "3.2",
+            "MajorVer": "3",
+            "MinorVer": "2"
+          }
+        },
+        {
+          "match": "NetNewsWire\/3.1*",
+          "properties": {
+            "Version": "3.1",
+            "MajorVer": "3",
+            "MinorVer": "1"
           }
         },
         {
@@ -75,7 +92,7 @@
             "MinorVer": "1"
           },
           "platforms": [
-            "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10", "OSX"
+            "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10", "OSX_10_11", "OSX"
           ]
         },
         {
@@ -86,7 +103,18 @@
             "MinorVer": "2"
           },
           "platforms": [
-            "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10", "OSX"
+            "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10", "OSX_10_11", "OSX"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) NetNewsWire\/3.3*",
+          "properties": {
+            "Version": "3.3",
+            "MajorVer": "3",
+            "MinorVer": "3"
+          },
+          "platforms": [
+            "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10", "OSX_10_11", "OSX"
           ]
         },
         {
@@ -97,13 +125,13 @@
             "MinorVer": "0"
           },
           "platforms": [
-            "OSX_10_8", "OSX_10_9", "OSX_10_10", "OSX"
+            "OSX_10_8", "OSX_10_9", "OSX_10_10", "OSX_10_11", "OSX"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) *NetNewsWire*",
           "platforms": [
-            "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10", "OSX"
+            "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10", "OSX_10_11", "OSX"
           ]
         }
       ]

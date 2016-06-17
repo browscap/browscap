@@ -149,9 +149,8 @@
         },
         {
           "match": "Mercury\/* CFNetwork\/*",
-          "device": "Macintosh",
           "platforms": [
-            "Darwin"
+            "iOS"
           ]
         },
         {
@@ -276,9 +275,8 @@
         },
         {
           "match": "Mercury3\/* CFNetwork\/*",
-          "device": "Macintosh",
           "platforms": [
-            "Darwin"
+            "iOS"
           ]
         }
       ]

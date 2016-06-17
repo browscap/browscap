@@ -83,7 +83,7 @@
     },
     {
       "userAgent": "Safari #MAJORVER#.#MINORVER# for Darwin",
-      "platform": "Darwin",
+      "platform": "OSX",
       "engine": "WebKit",
       "device": "Macintosh",
       "properties": {
@@ -190,7 +190,7 @@
         {
           "match": "Safari\/10???.* CFNetwork\/*",
           "platforms": [
-            "Darwin_64", "Darwin"
+            "OSX"
           ]
         }
       ]

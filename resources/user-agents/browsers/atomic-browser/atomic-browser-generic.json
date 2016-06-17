@@ -144,9 +144,8 @@
         },
         {
           "match": "AtomicBrowser\/* CFNetwork\/*",
-          "device": "Macintosh",
           "platforms": [
-            "Darwin"
+            "iOS"
           ]
         },
         {
@@ -271,9 +270,8 @@
         },
         {
           "match": "AtomicLite\/* CFNetwork\/*",
-          "device": "Macintosh",
           "platforms": [
-            "Darwin"
+            "iOS"
           ]
         }
       ]

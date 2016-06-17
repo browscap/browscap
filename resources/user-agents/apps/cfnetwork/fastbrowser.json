@@ -147,9 +147,8 @@
         },
         {
           "match": "FastBrowser* CFNetwork\/*",
-          "device": "Macintosh",
           "platforms": [
-            "Darwin"
+            "iOS"
           ]
         }
       ]

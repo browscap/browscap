@@ -10,7 +10,7 @@
         "Parent": "DefaultProperties",
         "Comment": "Media Players",
         "Browser": "Media Players",
-        "Browser_Type": "Application"
+        "Browser_Type": "Multimedia Player"
       },
       "children": [
         {
@@ -35,6 +35,582 @@
           "match": "WinampMPEG\/*",
           "properties": {
             "Browser": "WinAmp"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (Linux; U; en-us; BeyondPod 4*",
+          "properties": {
+            "Browser": "BeyondPod",
+            "Browser_Maker": "BeyondPod Team",
+            "Version": "4.0",
+            "MajorVer": "4",
+            "MinorVer": "0"
+          },
+          "device": "general Mobile Phone (Touch)",
+          "platforms": [
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (Linux; U; en-us; BeyondPod*",
+          "properties": {
+            "Browser": "BeyondPod",
+            "Browser_Maker": "BeyondPod Team"
+          },
+          "device": "general Mobile Phone (Touch)",
+          "platforms": [
+            "Android"
+          ]
+        },
+        {
+          "match": "Pocket Casts*",
+          "properties": {
+            "Browser": "Pocket Casts",
+            "Browser_Maker": "Shifty Jelly"
+          }
+        },
+        {
+          "match": "Shifty Jelly Pocket Casts*",
+          "properties": {
+            "Browser": "Pocket Casts",
+            "Browser_Maker": "Shifty Jelly"
+          }
+        },
+        {
+          "match": "Player\/LG Player 1.0 for #PLATFORM# (stagefright alternative*Pocket Casts*",
+          "device": "general Mobile Phone (Touch)",
+          "properties": {
+            "Browser": "Pocket Casts",
+            "Browser_Maker": "Shifty Jelly"
+          },
+          "platforms": [
+            "Android_H_4_4", "Android_H"
+          ]
+        },
+        {
+          "match": "Player\/LG Player * for #PLATFORM# (stagefright alternative*Pocket Casts*",
+          "device": "general Mobile Phone (Touch)",
+          "properties": {
+            "Browser": "Pocket Casts",
+            "Browser_Maker": "Shifty Jelly"
+          },
+          "platforms": [
+            "Android_H_4_4", "Android_H"
+          ]
+        },
+        {
+          "match": "PocketTunes\/5.5*",
+          "properties": {
+            "Browser": "PocketTunes",
+            "Browser_Maker": "NormSoft Inc.",
+            "Version": "5.5",
+            "MajorVer": "5",
+            "MinorVer": "5"
+          }
+        },
+        {
+          "match": "PocketTunes\/*",
+          "properties": {
+            "Browser": "PocketTunes",
+            "Browser_Maker": "NormSoft Inc."
+          }
+        },
+        {
+          "match": "Overcast\/2.0*",
+          "properties": {
+            "Browser": "Overcast",
+            "Browser_Maker": "Overcast Radio, LLC",
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Overcast\/1.0*",
+          "properties": {
+            "Browser": "Overcast",
+            "Browser_Maker": "Overcast Radio, LLC",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Overcast\/*",
+          "properties": {
+            "Browser": "Overcast",
+            "Browser_Maker": "Overcast Radio, LLC"
+          }
+        },
+        {
+          "match": "ExoPlayerDemo\/4.11* (Linux;Android*",
+          "platforms": [
+            "Android"
+          ],
+          "device": "general Mobile Phone (Touch)",
+          "properties": {
+            "Browser": "ExoPlayerDemo",
+            "Browser_Maker": "Mark Miller",
+            "Version": "4.11",
+            "MajorVer": "4",
+            "MinorVer": "11"
+          }
+        },
+        {
+          "match": "ExoPlayerDemo\/* (Linux;Android*",
+          "platforms": [
+            "Android"
+          ],
+          "device": "general Mobile Phone (Touch)",
+          "properties": {
+            "Browser": "ExoPlayerDemo",
+            "Browser_Maker": "Mark Miller"
+          }
+        },
+        {
+          "match": "Radio\/1.0* (Linux;Android*",
+          "platforms": [
+            "Android"
+          ],
+          "device": "general Mobile Phone (Touch)",
+          "properties": {
+            "Browser": "Radio",
+            "Browser_Maker": "Mark Miller",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Radio\/* (Linux;Android*",
+          "platforms": [
+            "Android"
+          ],
+          "device": "general Mobile Phone (Touch)",
+          "properties": {
+            "Browser": "Radio",
+            "Browser_Maker": "Mark Miller"
+          }
+        },
+        {
+          "match": "AlexaMediaPlayer\/5.3* (Linux;Android*",
+          "platforms": [
+            "Android"
+          ],
+          "device": "general Mobile Phone (Touch)",
+          "properties": {
+            "Browser": "Alexa MediaPlayer",
+            "Browser_Maker": "Mark Miller",
+            "Version": "5.3",
+            "MajorVer": "5",
+            "MinorVer": "3"
+          }
+        },
+        {
+          "match": "AlexaMediaPlayer\/* (Linux;Android*",
+          "platforms": [
+            "Android"
+          ],
+          "device": "general Mobile Phone (Touch)",
+          "properties": {
+            "Browser": "Alexa MediaPlayer",
+            "Browser_Maker": "Mark Miller"
+          }
+        },
+        {
+          "match": "Podkicker Pro\/2.2*",
+          "properties": {
+            "Browser": "Podkicker Pro",
+            "Version": "2.2",
+            "MajorVer": "2",
+            "MinorVer": "2"
+          }
+        },
+        {
+          "match": "Podkicker Pro\/*",
+          "properties": {
+            "Browser": "Podkicker Pro"
+          }
+        },
+        {
+          "match": "Podkicker Classic\/1.2*",
+          "properties": {
+            "Browser": "Podkicker Classic",
+            "Version": "1.2",
+            "MajorVer": "1",
+            "MinorVer": "2"
+          }
+        },
+        {
+          "match": "Podkicker Classic\/*",
+          "properties": {
+            "Browser": "Podkicker Classic"
+          }
+        },
+        {
+          "match": "Podkicker\/2.2*",
+          "properties": {
+            "Browser": "Podkicker",
+            "Version": "2.2",
+            "MajorVer": "2",
+            "MinorVer": "2"
+          }
+        },
+        {
+          "match": "Podkicker\/*",
+          "properties": {
+            "Browser": "Podkicker"
+          }
+        },
+        {
+          "match": "HTC Streaming Player*",
+          "properties": {
+            "Browser": "Streaming Player",
+            "Browser_Maker": "HTC"
+          },
+          "device": "general Mobile Phone (Touch)",
+          "platforms": [
+            "Android"
+          ]
+        },
+        {
+          "match": "bPod*",
+          "properties": {
+            "Browser": "bPod"
+          }
+        },
+        {
+          "match": "foobar2000\/1.2*",
+          "properties": {
+            "Browser": "foobar2000",
+            "Version": "1.2",
+            "MajorVer": "1",
+            "MinorVer": "2"
+          }
+        },
+        {
+          "match": "foobar2000\/1.1*",
+          "properties": {
+            "Browser": "foobar2000",
+            "Version": "1.1",
+            "MajorVer": "1",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "foobar2000\/*",
+          "properties": {
+            "Browser": "foobar2000"
+          }
+        },
+        {
+          "match": "gPodder\/3.7*",
+          "properties": {
+            "Browser": "gPodder",
+            "Version": "3.7",
+            "MajorVer": "3",
+            "MinorVer": "7"
+          }
+        },
+        {
+          "match": "gPodder\/*",
+          "properties": {
+            "Browser": "gPodder"
+          }
+        },
+        {
+          "match": "jPodder v 1.1*",
+          "properties": {
+            "Browser": "jPodder",
+            "Version": "1.1",
+            "MajorVer": "1",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "jPodder*",
+          "properties": {
+            "Browser": "jPodder"
+          }
+        },
+        {
+          "match": "iPodder\/2.1*",
+          "properties": {
+            "Browser": "iPodder",
+            "Version": "2.1",
+            "MajorVer": "2",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "iPodder\/*",
+          "properties": {
+            "Browser": "iPodder"
+          }
+        },
+        {
+          "match": "BashPodder*",
+          "properties": {
+            "Browser": "BashPodder"
+          }
+        },
+        {
+          "match": "massyn.net philpodder\/1.6*",
+          "properties": {
+            "Browser": "philpodder",
+            "Version": "1.6",
+            "MajorVer": "1",
+            "MinorVer": "6"
+          }
+        },
+        {
+          "match": "massyn.net philpodder\/*",
+          "properties": {
+            "Browser": "philpodder"
+          }
+        },
+        {
+          "match": "Juice\/2.2*",
+          "properties": {
+            "Browser": "Juice",
+            "Version": "2.2",
+            "MajorVer": "2",
+            "MinorVer": "2"
+          }
+        },
+        {
+          "match": "Juice\/*",
+          "properties": {
+            "Browser": "Juice"
+          }
+        },
+        {
+          "match": "MediaGo\/3.0* (#PLATFORM#)*",
+          "device": "Windows Desktop",
+          "properties": {
+            "Browser": "MediaGo",
+            "Version": "3.0",
+            "MajorVer": "3",
+            "MinorVer": "0"
+          },
+          "platforms": [
+            "Win8_1_x64", "Win8_1_64", "Win8_1_32"
+          ]
+        },
+        {
+          "match": "MediaGo\/3.0*",
+          "properties": {
+            "Browser": "MediaGo",
+            "Version": "3.0",
+            "MajorVer": "3",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "MediaGo*",
+          "properties": {
+            "Browser": "MediaGo"
+          }
+        },
+        {
+          "match": "MediaMonkey 4.1*",
+          "properties": {
+            "Browser": "MediaMonkey",
+            "Version": "4.1",
+            "MajorVer": "4",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "MediaMonkey*",
+          "properties": {
+            "Browser": "MediaMonkey"
+          }
+        },
+        {
+          "match": "Miro\/6.0*",
+          "properties": {
+            "Browser": "Miro",
+            "Version": "6.0",
+            "MajorVer": "6",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Miro\/3.0*",
+          "properties": {
+            "Browser": "Miro",
+            "Version": "3.0",
+            "MajorVer": "3",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Miro\/*",
+          "properties": {
+            "Browser": "Miro"
+          }
+        },
+        {
+          "match": "VOX Music Player*",
+          "properties": {
+            "Browser": "VOX Music Player"
+          }
+        },
+        {
+          "match": "Spotify\/1.0*",
+          "properties": {
+            "Browser": "Spotify",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Spotify*",
+          "properties": {
+            "Browser": "Spotify"
+          }
+        },
+        {
+          "match": "Doppler 2.9*",
+          "properties": {
+            "Browser": "Doppler",
+            "Version": "2.9",
+            "MajorVer": "2",
+            "MinorVer": "9"
+          }
+        },
+        {
+          "match": "Doppler*",
+          "properties": {
+            "Browser": "Doppler"
+          }
+        },
+        {
+          "match": "GoldenPod\/0.8*",
+          "properties": {
+            "Browser": "GoldenPod",
+            "Version": "0.8",
+            "MajorVer": "0",
+            "MinorVer": "8"
+          }
+        },
+        {
+          "match": "GoldenPod\/*",
+          "properties": {
+            "Browser": "GoldenPod"
+          }
+        },
+        {
+          "match": "Replay AV*",
+          "properties": {
+            "Browser": "Replay"
+          }
+        },
+        {
+          "match": "Podcasts\/2.2*",
+          "properties": {
+            "Browser": "Podcasts",
+            "Version": "2.2",
+            "MajorVer": "2",
+            "MinorVer": "2"
+          }
+        },
+        {
+          "match": "Podcasts\/1.4*",
+          "properties": {
+            "Browser": "Podcasts",
+            "Version": "1.4",
+            "MajorVer": "1",
+            "MinorVer": "4"
+          }
+        },
+        {
+          "match": "Podcasts\/*",
+          "properties": {
+            "Browser": "Podcasts"
+          }
+        },
+        {
+          "match": "Peapod\/1.0*",
+          "properties": {
+            "Browser": "Peapod",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Peapod\/*",
+          "properties": {
+            "Browser": "Peapod"
+          }
+        },
+        {
+          "match": "podracer v1.4*",
+          "properties": {
+            "Browser": "podracer",
+            "Version": "1.4",
+            "MajorVer": "1",
+            "MinorVer": "4"
+          }
+        },
+        {
+          "match": "podracer*",
+          "properties": {
+            "Browser": "podracer"
+          }
+        },
+        {
+          "match": "Kinoma5*",
+          "properties": {
+            "Browser": "Kinoma",
+            "Version": "5.0",
+            "MajorVer": "5",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Kinoma*",
+          "properties": {
+            "Browser": "Kinoma"
+          }
+        },
+        {
+          "match": "QuickNews\/1.25*",
+          "properties": {
+            "Browser": "QuickNews",
+            "Version": "1.25",
+            "MajorVer": "1",
+            "MinorVer": "25"
+          }
+        },
+        {
+          "match": "QuickNews\/*",
+          "properties": {
+            "Browser": "QuickNews"
+          }
+        },
+        {
+          "match": "DoggCatcher\/1.2*",
+          "properties": {
+            "Browser": "DoggCatcher",
+            "Version": "1.2",
+            "MajorVer": "1",
+            "MinorVer": "2"
+          }
+        },
+        {
+          "match": "DoggCatcher\/*",
+          "properties": {
+            "Browser": "DoggCatcher"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (Linux; U; Windows NT*) DoggCatcher*",
+          "properties": {
+            "Browser": "DoggCatcher"
           }
         }
       ]

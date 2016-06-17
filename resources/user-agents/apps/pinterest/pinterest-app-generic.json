@@ -5,8 +5,10 @@
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "Pinterest App Generic",
+      "userAgent": "Pinterest App Generic for iOS",
       "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "platform": "iOS",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Pinterest App Generic",
@@ -62,7 +64,28 @@
             "iOS_C_9_1", "iOS_C_9_0",
             "iOS_C"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "userAgent": "Pinterest App Generic for Android",
+      "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
+      "platform": "Android",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Pinterest App Generic",
+        "Browser": "Pinterest App",
+        "Browser_Type": "Application",
+        "Browser_Maker": "Ericsson Research",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
         {
           "match": "Mozilla\/5.0 (#PLATFORM#A3-A11 Build\/*) AppleWebKit\/* (KHTML like Gecko) Version\/* Chrome\/* Safari\/* ?Pinterest\/Android*",
           "device": "Acer A3-A11",
@@ -116,7 +139,28 @@
           "platforms": [
             "Android"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "userAgent": "Pinterest App Generic for Darwin",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "platform": "iOS",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Pinterest App Generic",
+        "Browser": "Pinterest App",
+        "Browser_Type": "Application",
+        "Browser_Maker": "Ericsson Research",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
         {
           "match": "Pinterest\/* CFNetwork\/459*",
           "device": "general Mobile Device (Apple)",
@@ -259,11 +303,29 @@
         },
         {
           "match": "Pinterest\/* CFNetwork\/*",
-          "device": "Macintosh",
           "platforms": [
-            "Darwin"
+            "iOS"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "userAgent": "Pinterest App Generic",
+      "engine": "WebKit",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Pinterest App Generic",
+        "Browser": "Pinterest App",
+        "Browser_Type": "Application",
+        "Browser_Maker": "Ericsson Research",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
         {
           "match": "Pinterest\/*"
         }

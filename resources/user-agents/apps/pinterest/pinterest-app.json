@@ -6,8 +6,10 @@
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "Pinterest App #MAJORVER#.#MINORVER#",
+      "userAgent": "Pinterest App #MAJORVER#.#MINORVER# for Android",
       "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
+      "platform": "Android",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Pinterest App #MAJORVER#.#MINORVER#",
@@ -62,158 +64,182 @@
         },
         {
           "match": "Pinterest for Android\/#MAJORVER#.#MINORVER#*",
-          "device": "general Mobile Phone (Touch)",
           "platforms": [
             "Android"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "userAgent": "Pinterest App #MAJORVER#.#MINORVER# for Darwin",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "platform": "iOS",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Pinterest App #MAJORVER#.#MINORVER#",
+        "Browser": "Pinterest App",
+        "Browser_Type": "Application",
+        "Browser_Maker": "Ericsson Research",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
         {
           "match": "Pinterest\/#MAJORVER#.#MINORVER#* CFNetwork\/459*",
-          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A_3_1"
           ]
         },
         {
           "match": "Pinterest\/#MAJORVER#.#MINORVER#* CFNetwork\/467.12*",
-          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A_3_2"
           ]
         },
         {
           "match": "Pinterest\/#MAJORVER#.#MINORVER#* CFNetwork\/485.2*",
-          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A_4_0"
           ]
         },
         {
           "match": "Pinterest\/#MAJORVER#.#MINORVER#* CFNetwork\/485.10*",
-          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A_4_1"
           ]
         },
         {
           "match": "Pinterest\/#MAJORVER#.#MINORVER#* CFNetwork\/485.12*",
-          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A_4_2"
           ]
         },
         {
           "match": "Pinterest\/#MAJORVER#.#MINORVER#* CFNetwork\/485.13*",
-          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A_4_3"
           ]
         },
         {
           "match": "Pinterest\/#MAJORVER#.#MINORVER#* CFNetwork\/548.1*",
-          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A_5_1"
           ]
         },
         {
           "match": "Pinterest\/#MAJORVER#.#MINORVER#* CFNetwork\/548.0*",
-          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A_5_0"
           ]
         },
         {
           "match": "Pinterest\/#MAJORVER#.#MINORVER#* CFNetwork\/602*",
-          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A_6_0"
           ]
         },
         {
           "match": "Pinterest\/#MAJORVER#.#MINORVER#* CFNetwork\/609.1*",
-          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A_6_1"
           ]
         },
         {
           "match": "Pinterest\/#MAJORVER#.#MINORVER#* CFNetwork\/609*",
-          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A_6_0"
           ]
         },
         {
           "match": "Pinterest\/#MAJORVER#.#MINORVER#* CFNetwork\/672.0*",
-          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A_7_0"
           ]
         },
         {
           "match": "Pinterest\/#MAJORVER#.#MINORVER#* CFNetwork\/672.1*",
-          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A_7_1"
           ]
         },
         {
           "match": "Pinterest\/#MAJORVER#.#MINORVER#* CFNetwork\/711.0*",
-          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A_8_0"
           ]
         },
         {
           "match": "Pinterest\/#MAJORVER#.#MINORVER#* CFNetwork\/711.1*",
-          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A_8_1"
           ]
         },
         {
           "match": "Pinterest\/#MAJORVER#.#MINORVER#* CFNetwork\/711.2*",
-          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A_8_2"
           ]
         },
         {
           "match": "Pinterest\/#MAJORVER#.#MINORVER#* CFNetwork\/711.3*",
-          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A_8_3"
           ]
         },
         {
           "match": "Pinterest\/#MAJORVER#.#MINORVER#* CFNetwork\/711.4*",
-          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A_8_4"
           ]
         },
         {
           "match": "Pinterest\/#MAJORVER#.#MINORVER#* CFNetwork\/711.5*",
-          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A_8_4"
           ]
         },
         {
           "match": "Pinterest\/#MAJORVER#.#MINORVER#* CFNetwork\/758*",
-          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A_9_0"
           ]
         },
         {
           "match": "Pinterest\/#MAJORVER#.#MINORVER#* CFNetwork\/*",
-          "device": "Macintosh",
           "platforms": [
-            "Darwin"
+            "iOS"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "userAgent": "Pinterest App #MAJORVER#.#MINORVER#",
+      "engine": "WebKit",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Pinterest App #MAJORVER#.#MINORVER#",
+        "Browser": "Pinterest App",
+        "Browser_Type": "Application",
+        "Browser_Maker": "Ericsson Research",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
         {
           "match": "Pinterest\/#MAJORVER#.#MINORVER#*"
         }

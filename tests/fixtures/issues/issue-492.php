@@ -1223,7 +1223,7 @@ return [
     'issue-492-AD' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.0.19; aggregator:Spinn3r (Spinn3r 3.1); http://spinn3r.com/robot) Gecko/2010040121 Firefox/3.0.19',
         'properties' => [
-            'Comment' => 'Feeds Syndicators',
+            'Comment' => 'Spinn3r RSS Aggregator',
             'Browser' => 'Spinn3r RSS Aggregator',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '64',

@@ -144,9 +144,8 @@
         },
         {
           "match": "iCabMobile\/* CFNetwork\/*",
-          "device": "Macintosh",
           "platforms": [
-            "Darwin"
+            "iOS"
           ]
         }
       ]
