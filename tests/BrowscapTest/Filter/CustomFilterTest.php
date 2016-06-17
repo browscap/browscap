@@ -10,7 +10,6 @@
  * Refer to the LICENSE file distributed with this package.
  *
  * @category   BrowscapTest
- * @package    Filter
  * @copyright  1998-2014 Browser Capabilities Project
  * @license    MIT
  */
@@ -23,7 +22,6 @@ use Browscap\Filter\CustomFilter;
  * Class CustomFilterTest
  *
  * @category   BrowscapTest
- * @package    Filter
  * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
  */
 class CustomFilterTest extends \PHPUnit_Framework_TestCase
@@ -39,7 +37,7 @@ class CustomFilterTest extends \PHPUnit_Framework_TestCase
      */
     public function setUp()
     {
-        $this->object = new CustomFilter(array('Parent'));
+        $this->object = new CustomFilter(['Parent']);
     }
 
     /**
@@ -61,7 +59,7 @@ class CustomFilterTest extends \PHPUnit_Framework_TestCase
      */
     public function testIsOutput()
     {
-        $mockDivision = $this->getMock('\Browscap\Data\Division', array(), array(), '', false);
+        $mockDivision = $this->getMock('\Browscap\Data\Division', [], [], '', false);
 
         self::assertTrue($this->object->isOutput($mockDivision));
     }
@@ -139,8 +137,8 @@ class CustomFilterTest extends \PHPUnit_Framework_TestCase
      */
     public function testIsOutputSectionAlways()
     {
-        $this->assertTrue($this->object->isOutputSection(array()));
-        $this->assertTrue($this->object->isOutputSection(array('lite' => false)));
-        $this->assertTrue($this->object->isOutputSection(array('lite' => true)));
+        $this->assertTrue($this->object->isOutputSection([]));
+        $this->assertTrue($this->object->isOutputSection(['lite' => false]));
+        $this->assertTrue($this->object->isOutputSection(['lite' => true]));
     }
 }

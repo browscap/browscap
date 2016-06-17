@@ -10,7 +10,6 @@
  * Refer to the LICENSE file distributed with this package.
  *
  * @category   Browscap
- * @package    Data
  * @copyright  1998-2014 Browser Capabilities Project
  * @license    MIT
  */
@@ -21,7 +20,6 @@ namespace Browscap\Data;
  * Class Platform
  *
  * @category   Browscap
- * @package    Data
  * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
  */
 class Platform
@@ -34,7 +32,7 @@ class Platform
     /**
      * @var string[]
      */
-    private $properties = array();
+    private $properties = [];
 
     /**
      * @var bool
@@ -49,8 +47,8 @@ class Platform
     /**
      * @param string   $match
      * @param string[] $properties
-     * @param boolean  $isLite
-     * @param boolean  $standard
+     * @param bool     $isLite
+     * @param bool     $standard
      */
     public function __construct($match, array $properties, $isLite, $standard)
     {
@@ -77,7 +75,7 @@ class Platform
     }
 
     /**
-     * @return boolean
+     * @return bool
      */
     public function isLite()
     {
@@ -85,7 +83,7 @@ class Platform
     }
 
     /**
-     * @return boolean
+     * @return bool
      */
     public function isStandard()
     {

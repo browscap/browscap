@@ -10,7 +10,6 @@
  * Refer to the LICENSE file distributed with this package.
  *
  * @category   BrowscapTest
- * @package    Generator
  * @copyright  1998-2014 Browser Capabilities Project
  * @license    MIT
  */
@@ -23,7 +22,6 @@ use Browscap\Generator\DiffGenerator;
  * Class DiffGeneratorTest
  *
  * @category   BrowscapTest
- * @package    Generator
  * @author     James Titcumb <james@asgrim.com>
  */
 class DiffGeneratorTest extends \PHPUnit_Framework_TestCase
@@ -50,7 +48,7 @@ class DiffGeneratorTest extends \PHPUnit_Framework_TestCase
      */
     public function testSetLogger()
     {
-        $mock = $this->getMock('\Monolog\Logger', array(), array(), '', false);
+        $mock = $this->getMock('\Monolog\Logger', [], [], '', false);
 
         self::assertSame($this->object, $this->object->setLogger($mock));
     }
@@ -63,7 +61,7 @@ class DiffGeneratorTest extends \PHPUnit_Framework_TestCase
      */
     public function testRun()
     {
-        $mock = $this->getMock('\Monolog\Logger', array(), array(), '', false);
+        $mock = $this->getMock('\Monolog\Logger', [], [], '', false);
 
         self::assertSame($this->object, $this->object->setLogger($mock));
 

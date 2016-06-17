@@ -10,7 +10,6 @@
  * Refer to the LICENSE file distributed with this package.
  *
  * @category   Browscap
- * @package    Data
  * @copyright  1998-2014 Browser Capabilities Project
  * @license    MIT
  */
@@ -23,7 +22,6 @@ use Psr\Log\LoggerInterface;
  * Class Expander
  *
  * @category   Browscap
- * @package    Data
  * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
  */
 class Expander
@@ -47,12 +45,13 @@ class Expander
     /**
      * Set the data collection
      *
-     * @param \Browscap\Data\DataCollection $collection
+     * @param  \Browscap\Data\DataCollection $collection
      * @return \Browscap\Data\Expander
      */
     public function setDataCollection(DataCollection $collection)
     {
         $this->collection = $collection;
+
         return $this;
     }
 
@@ -70,7 +69,7 @@ class Expander
         $majorVer = $dots[0];
         $minorVer = (isset($dots[1]) ? $dots[1] : 0);
 
-        return array($majorVer, $minorVer);
+        return [$majorVer, $minorVer];
     }
 
     /**
@@ -100,7 +99,7 @@ class Expander
      */
     private function parseDivision(Division $division, $divisionName)
     {
-        $output = array();
+        $output = [];
 
         foreach ($division->getUserAgents() as $uaData) {
             $output = array_merge(
@@ -122,9 +121,9 @@ class Expander
      * Render a single User Agent block
      *
      * @param string[] $uaData
-     * @param boolean  $lite
-     * @param boolean  $standard
-     * @param integer  $sortIndex
+     * @param bool     $lite
+     * @param bool     $standard
+     * @param int      $sortIndex
      * @param string   $divisionName
      *
      * @return array
@@ -154,14 +153,14 @@ class Expander
 
             $platformData = $platform->getProperties();
         } else {
-            $platformData = array();
+            $platformData = [];
         }
 
         if (array_key_exists('engine', $uaData)) {
             $engine     = $this->getDataCollection()->getEngine($uaData['engine']);
             $engineData = $engine->getProperties();
         } else {
-            $engineData = array();
+            $engineData = [];
         }
 
         if (array_key_exists('device', $uaData)) {
@@ -172,25 +171,25 @@ class Expander
                 $standard = false;
             }
         } else {
-            $deviceData = array();
+            $deviceData = [];
         }
 
         $ua = $uaData['userAgent'];
 
-        $output = array(
+        $output = [
             $ua => array_merge(
-                array(
+                [
                     'lite'      => $lite,
                     'standard'  => $standard,
                     'sortIndex' => $sortIndex,
-                    'division'  => $divisionName
-                ),
+                    'division'  => $divisionName,
+                ],
                 $platformData,
                 $engineData,
                 $deviceData,
                 $uaProperties
-            )
-        );
+            ),
+        ];
 
         if (!isset($uaData['children']) || !is_array($uaData['children']) || !count($uaData['children'])) {
             return $output;
@@ -218,8 +217,8 @@ class Expander
     public function parseProperty($value, $majorVer, $minorVer)
     {
         return str_replace(
-            array('#MAJORVER#', '#MINORVER#'),
-            array($majorVer, $minorVer),
+            ['#MAJORVER#', '#MINORVER#'],
+            [$majorVer, $minorVer],
             $value
         );
     }
@@ -251,7 +250,7 @@ class Expander
      */
     private function parseChildren($ua, array $uaDataChild, $lite = true, $standard = true)
     {
-        $output = array();
+        $output = [];
 
         if (isset($uaDataChild['platforms']) && is_array($uaDataChild['platforms'])) {
             foreach ($uaDataChild['platforms'] as $platform) {
@@ -272,7 +271,7 @@ class Expander
                     $engine     = $this->getDataCollection()->getEngine($uaDataChild['engine']);
                     $engineData = $engine->getProperties();
                 } else {
-                    $engineData = array();
+                    $engineData = [];
                 }
 
                 if (array_key_exists('device', $uaDataChild)) {
@@ -283,7 +282,7 @@ class Expander
                         $properties['standard'] = false;
                     }
                 } else {
-                    $deviceData = array();
+                    $deviceData = [];
                 }
 
                 $properties = array_merge(
@@ -310,7 +309,7 @@ class Expander
                 $engine     = $this->getDataCollection()->getEngine($uaDataChild['engine']);
                 $engineData = $engine->getProperties();
             } else {
-                $engineData = array();
+                $engineData = [];
             }
 
             if (array_key_exists('device', $uaDataChild)) {
@@ -321,7 +320,7 @@ class Expander
                     $properties['standard'] = false;
                 }
             } else {
-                $deviceData = array();
+                $deviceData = [];
             }
 
             $properties = array_merge($properties, $engineData, $deviceData);
@@ -405,7 +404,7 @@ class Expander
     private function expandProperties(array $allInputDivisions)
     {
         $this->getLogger()->debug('expand all properties');
-        $allDivisions = array();
+        $allDivisions = [];
 
         $ua                = $this->collection->getDefaultProperties()->getUserAgents();
         $defaultproperties = $ua[0]['properties'];
@@ -414,7 +413,7 @@ class Expander
             $this->getLogger()->debug('expand all properties for key "' . $key . '"');
 
             $userAgent = $key;
-            $parents   = array($userAgent);
+            $parents   = [$userAgent];
 
             while (isset($allInputDivisions[$userAgent]['Parent'])) {
                 if ($userAgent === $allInputDivisions[$userAgent]['Parent']) {
@@ -510,7 +509,7 @@ class Expander
      *
      * @param string $propertyValue
      *
-     * @return string|boolean
+     * @return string|bool
      */
     public function trimProperty($propertyValue)
     {

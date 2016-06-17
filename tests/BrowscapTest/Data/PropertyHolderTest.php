@@ -10,7 +10,6 @@
  * Refer to the LICENSE file distributed with this package.
  *
  * @category   BrowscapTest
- * @package    Data
  * @copyright  1998-2014 Browser Capabilities Project
  * @license    MIT
  */
@@ -23,7 +22,6 @@ use Browscap\Data\PropertyHolder;
  * Class PropertyHolderTest
  *
  * @category   BrowscapTest
- * @package    Data
  * @author     James Titcumb <james@asgrim.com>
  */
 class PropertyHolderTest extends \PHPUnit_Framework_TestCase
@@ -252,12 +250,11 @@ class PropertyHolderTest extends \PHPUnit_Framework_TestCase
      */
     public function testIsStandardModePropertyWithWriter()
     {
-        $mockWriter = $this->getMock('\Browscap\Writer\CsvWriter', array('getType'), array(), '', false);
+        $mockWriter = $this->getMock('\Browscap\Writer\CsvWriter', ['getType'], [], '', false);
         $mockWriter
             ->expects(self::once())
             ->method('getType')
-            ->will(self::returnValue('csv'))
-        ;
+            ->will(self::returnValue('csv'));
 
         self::assertTrue($this->object->isStandardModeProperty('PropertyName', $mockWriter));
     }
@@ -338,12 +335,11 @@ class PropertyHolderTest extends \PHPUnit_Framework_TestCase
      */
     public function testIsOutputPropertyWithWriter()
     {
-        $mockWriter = $this->getMock('\Browscap\Writer\CsvWriter', array('getType'), array(), '', false);
+        $mockWriter = $this->getMock('\Browscap\Writer\CsvWriter', ['getType'], [], '', false);
         $mockWriter
             ->expects(self::once())
             ->method('getType')
-            ->will(self::returnValue('csv'))
-        ;
+            ->will(self::returnValue('csv'));
 
         $actualValue = $this->object->isOutputProperty('PropertyName', $mockWriter);
         self::assertTrue($actualValue);

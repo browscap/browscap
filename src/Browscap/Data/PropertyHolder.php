@@ -10,7 +10,6 @@
  * Refer to the LICENSE file distributed with this package.
  *
  * @category   Browscap
- * @package    Data
  * @copyright  1998-2014 Browser Capabilities Project
  * @license    MIT
  */
@@ -23,7 +22,6 @@ use Browscap\Writer\WriterInterface;
  * Class PropertyHolder
  *
  * @category   Browscap
- * @package    Data
  * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
  */
 class PropertyHolder
@@ -37,13 +35,13 @@ class PropertyHolder
     /**
      * Get the type of a property
      *
-     * @param string $propertyName
+     * @param  string     $propertyName
      * @throws \Exception
      * @return string
      */
     public function getPropertyType($propertyName)
     {
-        $stringProperties = array(
+        $stringProperties = [
             'Comment'                     => 1,
             'Browser'                     => 1,
             'Browser_Maker'               => 1,
@@ -61,46 +59,46 @@ class PropertyHolder
             'RenderingEngine_Maker'       => 1,
             'Parent'                      => 1,
             'PropertyName'                => 1,
-        );
+        ];
 
         if (isset($stringProperties[$propertyName])) {
             return self::TYPE_STRING;
         }
 
-        $arrayProperties = array(
+        $arrayProperties = [
             'Browser_Type'           => 1,
             'Device_Type'            => 1,
             'Device_Pointing_Method' => 1,
             'Browser_Bits'           => 1,
             'Platform_Bits'          => 1,
-        );
+        ];
 
         if (isset($arrayProperties[$propertyName])) {
             return self::TYPE_IN_ARRAY;
         }
 
-        $genericProperties = array(
+        $genericProperties = [
             'Platform_Version'        => 1,
             'RenderingEngine_Version' => 1,
-        );
+        ];
 
         if (isset($genericProperties[$propertyName])) {
             return self::TYPE_GENERIC;
         }
 
-        $numericProperties = array(
+        $numericProperties = [
             'Version'    => 1,
             'CssVersion' => 1,
             'AolVersion' => 1,
             'MajorVer'   => 1,
             'MinorVer'   => 1,
-        );
+        ];
 
         if (isset($numericProperties[$propertyName])) {
             return self::TYPE_NUMBER;
         }
 
-        $booleanProperties = array(
+        $booleanProperties = [
             'Alpha'               => 1,
             'Beta'                => 1,
             'Win16'               => 1,
@@ -124,7 +122,7 @@ class PropertyHolder
             'isFake'              => 1,
             'isAnonymized'        => 1,
             'isModified'          => 1,
-        );
+        ];
 
         if (isset($booleanProperties[$propertyName])) {
             return self::TYPE_BOOLEAN;
@@ -137,12 +135,12 @@ class PropertyHolder
      * Determine if the specified property is an property that should
      * be included in the "full" versions of the files only
      *
-     * @param string $propertyName
-     * @return boolean
+     * @param  string $propertyName
+     * @return bool
      */
     public function isLiteModeProperty($propertyName)
     {
-        $outputProperties = array(
+        $outputProperties = [
             'Parent'         => 1,
             'Comment'        => 1,
             'Browser'        => 1,
@@ -151,7 +149,7 @@ class PropertyHolder
             'isMobileDevice' => 1,
             'isTablet'       => 1,
             'Device_Type'    => 1,
-        );
+        ];
 
         return isset($outputProperties[$propertyName]);
     }
@@ -160,26 +158,26 @@ class PropertyHolder
      * Determine if the specified property is an property that should
      * be included in the "full" versions of the files only
      *
-     * @param string $propertyName
-     * @param \Browscap\Writer\WriterInterface $writer
-     * @return boolean
+     * @param  string                           $propertyName
+     * @param  \Browscap\Writer\WriterInterface $writer
+     * @return bool
      */
     public function isStandardModeProperty($propertyName, WriterInterface $writer = null)
     {
-        $outputProperties = array(
+        $outputProperties = [
             'MajorVer'               => 1,
             'MinorVer'               => 1,
             'Crawler'                => 1,
             'Browser_Maker'          => 1,
             'Device_Pointing_Method' => 1,
-        );
+        ];
 
         if (isset($outputProperties[$propertyName])) {
             return true;
         }
 
-        if (null !== $writer && in_array($writer->getType(), array('csv', 'xml'))) {
-            $additionalProperties = array('PropertyName', 'MasterParent', 'LiteMode');
+        if (null !== $writer && in_array($writer->getType(), ['csv', 'xml'])) {
+            $additionalProperties = ['PropertyName', 'MasterParent', 'LiteMode'];
 
             if (in_array($propertyName, $additionalProperties)) {
                 return true;
@@ -193,13 +191,13 @@ class PropertyHolder
      * Determine if the specified property is an "extra" property (that should
      * be included in the "full" versions of the files)
      *
-     * @param string $propertyName
-     * @param \Browscap\Writer\WriterInterface $writer
-     * @return boolean
+     * @param  string                           $propertyName
+     * @param  \Browscap\Writer\WriterInterface $writer
+     * @return bool
      */
     public function isOutputProperty($propertyName, WriterInterface $writer = null)
     {
-        $outputProperties = array(
+        $outputProperties = [
             'Comment'                     => 1,
             'Browser'                     => 1,
             'Browser_Maker'               => 1,
@@ -249,14 +247,14 @@ class PropertyHolder
             'isFake'                      => 1,
             'isAnonymized'                => 1,
             'isModified'                  => 1,
-        );
+        ];
 
         if (isset($outputProperties[$propertyName])) {
             return true;
         }
 
-        if (null !== $writer && in_array($writer->getType(), array('csv', 'xml'))) {
-            $additionalProperties = array('PropertyName', 'MasterParent', 'LiteMode');
+        if (null !== $writer && in_array($writer->getType(), ['csv', 'xml'])) {
+            $additionalProperties = ['PropertyName', 'MasterParent', 'LiteMode'];
 
             if (in_array($propertyName, $additionalProperties)) {
                 return true;
@@ -277,7 +275,7 @@ class PropertyHolder
     {
         switch ($property) {
             case 'Browser_Type':
-                $allowedValues = array(
+                $allowedValues = [
                     'Useragent Anonymizer',
                     'Browser',
                     'Offline Browser',
@@ -289,10 +287,10 @@ class PropertyHolder
                     'Application',
                     'Tool',
                     'unknown',
-                );
+                ];
                 break;
             case 'Device_Type':
-                $allowedValues = array(
+                $allowedValues = [
                     'Console',
                     'TV Device',
                     'Tablet',
@@ -303,19 +301,19 @@ class PropertyHolder
                     'Car Entertainment System',
                     'Digital Camera',
                     'unknown',
-                );
+                ];
                 break;
             case 'Device_Pointing_Method':
                 // This property is taken from http://www.scientiamobile.com/wurflCapability
-                $allowedValues = array(
-                    'joystick', 'stylus', 'touchscreen', 'clickwheel', 'trackpad', 'trackball', 'mouse', 'unknown'
-                );
+                $allowedValues = [
+                    'joystick', 'stylus', 'touchscreen', 'clickwheel', 'trackpad', 'trackball', 'mouse', 'unknown',
+                ];
                 break;
             case 'Browser_Bits':
             case 'Platform_Bits':
-                $allowedValues = array(
-                    '0', '8', '16', '32', '64'
-                );
+                $allowedValues = [
+                    '0', '8', '16', '32', '64',
+                ];
                 break;
             default:
                 throw new \InvalidArgumentException('Property "' . $property . '" is not defined to be validated');

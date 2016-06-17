@@ -10,7 +10,6 @@
  * Refer to the LICENSE file distributed with this package.
  *
  * @category   Browscap
- * @package    Filter
  * @copyright  1998-2014 Browser Capabilities Project
  * @license    MIT
  */
@@ -25,7 +24,6 @@ use Browscap\Writer\WriterInterface;
  * Class FullFilter
  *
  * @category   Browscap
- * @package    Filter
  * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
  */
 class FullFilter implements FilterInterface
@@ -45,7 +43,7 @@ class FullFilter implements FilterInterface
      *
      * @param \Browscap\Data\Division $division
      *
-     * @return boolean
+     * @return bool
      */
     public function isOutput(Division $division)
     {
@@ -57,7 +55,7 @@ class FullFilter implements FilterInterface
      *
      * @param string[] $section
      *
-     * @return boolean
+     * @return bool
      */
     public function isOutputSection(array $section)
     {
@@ -67,10 +65,10 @@ class FullFilter implements FilterInterface
     /**
      * checks if a property should be in the output
      *
-     * @param string $property
+     * @param string                                $property
      * @param \Browscap\Writer\WriterInterface|null $writer
      *
-     * @return boolean
+     * @return bool
      */
     public function isOutputProperty($property, WriterInterface $writer = null)
     {

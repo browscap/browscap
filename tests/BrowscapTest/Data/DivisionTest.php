@@ -10,7 +10,6 @@
  * Refer to the LICENSE file distributed with this package.
  *
  * @category   BrowscapTest
- * @package    Data
  * @copyright  1998-2014 Browser Capabilities Project
  * @license    MIT
  */
@@ -23,7 +22,6 @@ use Browscap\Data\Division;
  * Class DivisionTest
  *
  * @category   BrowscapTest
- * @package    Data
  * @author     James Titcumb <james@asgrim.com>
  */
 class DivisionTest extends \PHPUnit_Framework_TestCase
@@ -38,8 +36,8 @@ class DivisionTest extends \PHPUnit_Framework_TestCase
     {
         $name       = 'TestName';
         $sortIndex  = 42;
-        $userAgents = array('abc' => 'def');
-        $versions   = array(1, 2, 3);
+        $userAgents = ['abc' => 'def'];
+        $versions   = [1, 2, 3];
 
         $object = new Division($name, $sortIndex, $userAgents, true, false, $versions);
 

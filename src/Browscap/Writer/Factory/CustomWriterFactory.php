@@ -10,7 +10,6 @@
  * Refer to the LICENSE file distributed with this package.
  *
  * @category   Browscap
- * @package    Data\Factory
  * @copyright  1998-2014 Browser Capabilities Project
  * @license    MIT
  */
@@ -27,7 +26,6 @@ use Psr\Log\LoggerInterface;
  * Class FullPhpWriterFactory
  *
  * @category   Browscap
- * @package    Data\Factory
  * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
  */
 class CustomWriterFactory
@@ -55,7 +53,7 @@ class CustomWriterFactory
         LoggerInterface $logger,
         $buildFolder,
         $file = null,
-        $fields = array(),
+        $fields = [],
         $format = self::OUTPUT_FORMAT_PHP
     ) {
         $writerCollection = new WriterCollection();
@@ -110,8 +108,7 @@ class CustomWriterFactory
         $writer
             ->setLogger($logger)
             ->setFormatter($formatter->setFilter($filter))
-            ->setFilter($filter)
-        ;
+            ->setFilter($filter);
 
         $writerCollection->addWriter($writer);
 

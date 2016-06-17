@@ -10,7 +10,6 @@
  * Refer to the LICENSE file distributed with this package.
  *
  * @category   BrowscapTest
- * @package    Data
  * @copyright  1998-2014 Browser Capabilities Project
  * @license    MIT
  */
@@ -23,7 +22,6 @@ use Browscap\Data\Factory\PlatformFactory;
  * Class PlatformTest
  *
  * @category   BrowscapTest
- * @package    Data
  * @author     James Titcumb <james@asgrim.com>
  */
 class PlatformFactoryTest extends \PHPUnit_Framework_TestCase
@@ -50,23 +48,21 @@ class PlatformFactoryTest extends \PHPUnit_Framework_TestCase
      */
     public function testBuild()
     {
-        $platformData = array('abc' => 'def', 'match' => 'test*', 'lite' => true, 'standard' => true);
-        $json         = array();
+        $platformData = ['abc' => 'def', 'match' => 'test*', 'lite' => true, 'standard' => true];
+        $json         = [];
         $platformName = 'Test';
 
-        $deviceData = array('Device_Name' => 'TestDevice');
+        $deviceData = ['Device_Name' => 'TestDevice'];
 
-        $deviceMock = $this->getMock('\Browscap\Data\Device', array('getProperties'), array(), '', false);
+        $deviceMock = $this->getMock('\Browscap\Data\Device', ['getProperties'], [], '', false);
         $deviceMock->expects(self::any())
             ->method('getProperties')
-            ->will(self::returnValue($deviceData))
-        ;
+            ->will(self::returnValue($deviceData));
 
-        $datacollection = $this->getMock('\Browscap\Data\DataCollection', array('getDevice'), array(), '', false);
+        $datacollection = $this->getMock('\Browscap\Data\DataCollection', ['getDevice'], [], '', false);
         $datacollection->expects(self::any())
             ->method('getDevice')
-            ->will(self::returnValue($deviceMock))
-        ;
+            ->will(self::returnValue($deviceMock));
 
         self::assertInstanceOf(
             '\Browscap\Data\Platform',

@@ -10,7 +10,6 @@
  * Refer to the LICENSE file distributed with this package.
  *
  * @category   BrowscapTest
- * @package    Writer
  * @copyright  1998-2014 Browser Capabilities Project
  * @license    MIT
  */
@@ -24,7 +23,6 @@ use org\bovigo\vfs\vfsStream;
  * Class FullPhpWriterFactoryTest
  *
  * @category   BrowscapTest
- * @package    Writer\Factory
  * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
  */
 class FullPhpWriterFactoryTest extends \PHPUnit_Framework_TestCase
@@ -55,7 +53,7 @@ class FullPhpWriterFactoryTest extends \PHPUnit_Framework_TestCase
      */
     public function testCreateCollection()
     {
-        $mockLogger = $this->getMock('\Monolog\Logger', array(), array(), '', false);
+        $mockLogger = $this->getMock('\Monolog\Logger', [], [], '', false);
         $dir        = vfsStream::url(self::STORAGE_DIR);
 
         self::assertInstanceOf('\Browscap\Writer\WriterCollection', $this->object->createCollection($mockLogger, $dir));

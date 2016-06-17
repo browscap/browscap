@@ -10,7 +10,6 @@
  * Refer to the LICENSE file distributed with this package.
  *
  * @category   BrowscapTest
- * @package    Data
  * @copyright  1998-2014 Browser Capabilities Project
  * @license    MIT
  */
@@ -25,7 +24,6 @@ use Monolog\Logger;
  * Class ExpanderTest
  *
  * @category   BrowscapTest
- * @package    Data
  * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
  */
 class ExpanderTest extends \PHPUnit_Framework_TestCase
@@ -46,7 +44,7 @@ class ExpanderTest extends \PHPUnit_Framework_TestCase
      */
     public function setUp()
     {
-        $this->logger = new Logger('browscapTest', array(new NullHandler()));
+        $this->logger = new Logger('browscapTest', [new NullHandler()]);
         $this->object = new Expander();
     }
 
@@ -58,7 +56,7 @@ class ExpanderTest extends \PHPUnit_Framework_TestCase
      */
     public function testGetDataCollectionReturnsSameDatacollectionAsInserted()
     {
-        $mockCollection = $this->getMock('\Browscap\Data\DataCollection', array(), array(), '', false);
+        $mockCollection = $this->getMock('\Browscap\Data\DataCollection', [], [], '', false);
 
         $this->object->setLogger($this->logger);
         self::assertSame($this->object, $this->object->setDataCollection($mockCollection));
@@ -76,7 +74,7 @@ class ExpanderTest extends \PHPUnit_Framework_TestCase
         $result = $this->object->getVersionParts(1);
 
         self::assertInternalType('array', $result);
-        self::assertSame(array('1', 0), $result);
+        self::assertSame(['1', 0], $result);
     }
 
     /**
@@ -89,36 +87,32 @@ class ExpanderTest extends \PHPUnit_Framework_TestCase
     {
         $mockCollection = $this->getMock(
             '\Browscap\Data\DataCollection',
-            array('getDivisions', 'getDefaultProperties'),
-            array(),
+            ['getDivisions', 'getDefaultProperties'],
+            [],
             '',
             false
         );
         $mockCollection
             ->expects(self::never())
             ->method('getDivisions')
-            ->will(self::returnValue(array()))
-        ;
+            ->will(self::returnValue([]));
 
-        $mockDivision = $this->getMock('\Browscap\Data\Division', array('getUserAgents'), array(), '', false);
+        $mockDivision = $this->getMock('\Browscap\Data\Division', ['getUserAgents'], [], '', false);
         $mockDivision
             ->expects(self::once())
             ->method('getUserAgents')
-            ->will(self::returnValue(array(0 => array('properties' => array('avd' => 'xyz')))))
-        ;
+            ->will(self::returnValue([0 => ['properties' => ['avd' => 'xyz']]]));
 
         $mockCollection
             ->expects(self::once())
             ->method('getDefaultProperties')
-            ->will(self::returnValue($mockDivision))
-        ;
+            ->will(self::returnValue($mockDivision));
 
-        $mockDivision = $this->getMock('\Browscap\Data\Division', array('getUserAgents'), array(), '', false);
+        $mockDivision = $this->getMock('\Browscap\Data\Division', ['getUserAgents'], [], '', false);
         $mockDivision
             ->expects(self::once())
             ->method('getUserAgents')
-            ->will(self::returnValue(array()))
-        ;
+            ->will(self::returnValue([]));
 
         $this->object->setLogger($this->logger);
         self::assertSame($this->object, $this->object->setDataCollection($mockCollection));
@@ -138,50 +132,46 @@ class ExpanderTest extends \PHPUnit_Framework_TestCase
     {
         $mockCollection = $this->getMock(
             '\Browscap\Data\DataCollection',
-            array('getDivisions', 'getDefaultProperties'),
-            array(),
+            ['getDivisions', 'getDefaultProperties'],
+            [],
             '',
             false
         );
         $mockCollection
             ->expects(self::never())
             ->method('getDivisions')
-            ->will(self::returnValue(array()))
-        ;
+            ->will(self::returnValue([]));
 
-        $mockDivision = $this->getMock('\Browscap\Data\Division', array('getUserAgents'), array(), '', false);
+        $mockDivision = $this->getMock('\Browscap\Data\Division', ['getUserAgents'], [], '', false);
         $mockDivision
             ->expects(self::once())
             ->method('getUserAgents')
-            ->will(self::returnValue(array(0 => array('properties' => array('avd' => 'xyz')))))
-        ;
+            ->will(self::returnValue([0 => ['properties' => ['avd' => 'xyz']]]));
 
         $mockCollection
             ->expects(self::once())
             ->method('getDefaultProperties')
-            ->will(self::returnValue($mockDivision))
-        ;
+            ->will(self::returnValue($mockDivision));
 
-        $mockDivision = $this->getMock('\Browscap\Data\Division', array('getUserAgents'), array(), '', false);
+        $mockDivision = $this->getMock('\Browscap\Data\Division', ['getUserAgents'], [], '', false);
         $mockDivision
             ->expects(self::once())
             ->method('getUserAgents')
             ->will(
                 self::returnValue(
-                    array(
-                        0 => array(
+                    [
+                        0 => [
                             'userAgent'  => 'abc',
-                            'properties' => array(
+                            'properties' => [
                                 'Parent'   => 'Defaultproperties',
                                 'Version'  => '1.0',
                                 'MajorVer' => 1,
-                                'Browser'  => 'xyz'
-                            )
-                        )
-                    )
+                                'Browser'  => 'xyz',
+                            ],
+                        ],
+                    ]
                 )
-            )
-        ;
+            );
 
         $this->object->setLogger($this->logger);
         self::assertSame($this->object, $this->object->setDataCollection($mockCollection));
@@ -201,53 +191,49 @@ class ExpanderTest extends \PHPUnit_Framework_TestCase
     {
         $mockCollection = $this->getMock(
             '\Browscap\Data\DataCollection',
-            array('getDivisions', 'getDefaultProperties'),
-            array(),
+            ['getDivisions', 'getDefaultProperties'],
+            [],
             '',
             false
         );
         $mockCollection
             ->expects(self::never())
             ->method('getDivisions')
-            ->will(self::returnValue(array()))
-        ;
+            ->will(self::returnValue([]));
 
-        $mockDivision = $this->getMock('\Browscap\Data\Division', array('getUserAgents'), array(), '', false);
+        $mockDivision = $this->getMock('\Browscap\Data\Division', ['getUserAgents'], [], '', false);
         $mockDivision
             ->expects(self::once())
             ->method('getUserAgents')
-            ->will(self::returnValue(array(0 => array('properties' => array('avd' => 'xyz')))))
-        ;
+            ->will(self::returnValue([0 => ['properties' => ['avd' => 'xyz']]]));
 
         $mockCollection
             ->expects(self::once())
             ->method('getDefaultProperties')
-            ->will(self::returnValue($mockDivision))
-        ;
+            ->will(self::returnValue($mockDivision));
 
-        $uaData = array(
-            0 => array(
+        $uaData = [
+            0 => [
                 'userAgent'  => 'abc',
-                'properties' => array('Parent'   => 'Defaultproperties',
+                'properties' => ['Parent'   => 'Defaultproperties',
                                       'Version'  => '1.0',
                                       'MajorVer' => 1,
-                                      'Browser'  => 'xyz'
-                ),
-                'children'   => array(
-                    0 => array(
+                                      'Browser'  => 'xyz',
+                ],
+                'children'   => [
+                    0 => [
                         'match' => 'abc*',
-                        'properties' => array('Browser' => 'xyza'),
-                    )
-                )
-            )
-        );
+                        'properties' => ['Browser' => 'xyza'],
+                    ],
+                ],
+            ],
+        ];
 
-        $mockDivision = $this->getMock('\Browscap\Data\Division', array('getUserAgents'), array(), '', false);
+        $mockDivision = $this->getMock('\Browscap\Data\Division', ['getUserAgents'], [], '', false);
         $mockDivision
             ->expects(self::once())
             ->method('getUserAgents')
-            ->will(self::returnValue($uaData))
-        ;
+            ->will(self::returnValue($uaData));
 
         $this->object->setLogger($this->logger);
         self::assertSame($this->object, $this->object->setDataCollection($mockCollection));

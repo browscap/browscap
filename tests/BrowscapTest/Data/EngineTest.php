@@ -10,7 +10,6 @@
  * Refer to the LICENSE file distributed with this package.
  *
  * @category   BrowscapTest
- * @package    Data
  * @copyright  1998-2014 Browser Capabilities Project
  * @license    MIT
  */
@@ -23,7 +22,6 @@ use Browscap\Data\Engine;
  * Class EngineTest
  *
  * @category   BrowscapTest
- * @package    Data
  * @author     James Titcumb <james@asgrim.com>
  */
 class EngineTest extends \PHPUnit_Framework_TestCase
@@ -36,7 +34,7 @@ class EngineTest extends \PHPUnit_Framework_TestCase
      */
     public function testGetProperties()
     {
-        $properties = array('abc' => 'def');
+        $properties = ['abc' => 'def'];
 
         $object = new Engine($properties);
 

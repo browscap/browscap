@@ -10,7 +10,6 @@
  * Refer to the LICENSE file distributed with this package.
  *
  * @category   Browscap
- * @package    Browscap
  * @copyright  1998-2014 Browser Capabilities Project
  * @license    MIT
  */
@@ -23,7 +22,6 @@ use Symfony\Component\Console\Application;
  * Class Browscap
  *
  * @category   Browscap
- * @package    Browscap
  * @author     James Titcumb <james@asgrim.com>
  */
 class Browscap extends Application
@@ -32,11 +30,11 @@ class Browscap extends Application
     {
         parent::__construct('Browser Capabilities Project', 'dev-master');
 
-        $commands = array(
+        $commands = [
             new Command\BuildCommand(),
             new Command\DiffCommand(),
             new Command\GrepCommand(),
-        );
+        ];
 
         foreach ($commands as $command) {
             $this->add($command);

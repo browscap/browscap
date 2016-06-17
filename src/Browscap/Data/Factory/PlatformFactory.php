@@ -10,7 +10,6 @@
  * Refer to the LICENSE file distributed with this package.
  *
  * @category   Browscap
- * @package    Data
  * @copyright  1998-2014 Browser Capabilities Project
  * @license    MIT
  */
@@ -23,7 +22,6 @@ use Browscap\Data\Platform;
  * Class PlatformFactory
  *
  * @category   Browscap
- * @package    Data
  * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
  */
 class PlatformFactory
@@ -35,14 +33,14 @@ class PlatformFactory
      * @param array  $json
      * @param string $platformName
      *
-     * @return \Browscap\Data\Platform
-     * @throws \RuntimeException if the file does not exist or has invalid JSON
+     * @throws \RuntimeException         if the file does not exist or has invalid JSON
      * @throws \UnexpectedValueException
+     * @return \Browscap\Data\Platform
      */
     public function build(array $platformData, array $json, $platformName)
     {
         if (!isset($platformData['properties'])) {
-            $platformData['properties'] = array();
+            $platformData['properties'] = [];
         }
 
         if (!array_key_exists('lite', $platformData)) {
@@ -73,10 +71,10 @@ class PlatformFactory
 
             foreach ($platformProperties as $name => $value) {
                 if (isset($parentPlatformData[$name])
-                    && $parentPlatformData[$name] == $value
+                    && $parentPlatformData[$name] === $value
                 ) {
                     throw new \UnexpectedValueException(
-                        'the value for property "' . $name .'" has the same value in the keys "' . $platformName
+                        'the value for property "' . $name . '" has the same value in the keys "' . $platformName
                         . '" and its parent "' . $platformData['inherits'] . '"'
                     );
                 }

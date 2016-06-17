@@ -10,7 +10,6 @@
  * Refer to the LICENSE file distributed with this package.
  *
  * @category   Browscap
- * @package    Command
  * @copyright  1998-2014 Browser Capabilities Project
  * @license    MIT
  */
@@ -33,7 +32,6 @@ use Symfony\Component\Console\Output\OutputInterface;
  * Class GrepCommand
  *
  * @category   Browscap
- * @package    Command
  * @author     James Titcumb <james@asgrim.com>
  */
 class GrepCommand extends Command
@@ -72,8 +70,7 @@ class GrepCommand extends Command
             ->addArgument('iniFile', InputArgument::OPTIONAL, 'The INI file to test against')
             ->addOption('mode', null, InputOption::VALUE_REQUIRED, 'What mode (matched/unmatched)', self::MODE_UNMATCHED)
             ->addOption('resources', null, InputOption::VALUE_REQUIRED, 'Where the resource files are located', $defaultResourceFolder)
-            ->addOption('debug', null, InputOption::VALUE_NONE, 'Should the debug mode entered?')
-        ;
+            ->addOption('debug', null, InputOption::VALUE_NONE, 'Should the debug mode entered?');
     }
 
     /**
@@ -88,7 +85,7 @@ class GrepCommand extends Command
      * @param OutputInterface $output An OutputInterface instance
      *
      * @throws \Exception
-     * @return null|integer null or 0 if everything went fine, or an error code
+     * @return null|int   null or 0 if everything went fine, or an error code
      *
      * @see    setCode()
      */
@@ -97,7 +94,7 @@ class GrepCommand extends Command
         $inputFile = $input->getArgument('inputFile');
         $mode      = $input->getOption('mode');
 
-        if (!in_array($mode, array(self::MODE_MATCHED, self::MODE_UNMATCHED))) {
+        if (!in_array($mode, [self::MODE_MATCHED, self::MODE_UNMATCHED])) {
             throw new \Exception('Mode must be "matched" or "unmatched"');
         }
 
@@ -134,20 +131,18 @@ class GrepCommand extends Command
             $buildGenerator
                 ->setLogger($this->logger)
                 ->setCollectionCreator(new CollectionCreator())
-                ->setWriterCollection($writerCollection)
-            ;
+                ->setWriterCollection($writerCollection);
 
             $buildGenerator->run($input->getArgument('version'), false);
         }
 
-        $generator = new GrepGenerator();
-        $browscap  = new Browscap($cacheDir);
+        $generator           = new GrepGenerator();
+        $browscap            = new Browscap($cacheDir);
         $browscap->localFile = $iniFile;
 
         $generator
             ->setLogger($this->logger)
-            ->run($browscap, $inputFile, $mode)
-        ;
+            ->run($browscap, $inputFile, $mode);
 
         $this->logger->info('Grep done.');
     }

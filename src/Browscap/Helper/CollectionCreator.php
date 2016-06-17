@@ -10,7 +10,6 @@
  * Refer to the LICENSE file distributed with this package.
  *
  * @category   Browscap
- * @package    Helper
  * @copyright  1998-2014 Browser Capabilities Project
  * @license    MIT
  */
@@ -24,7 +23,6 @@ use Psr\Log\LoggerInterface;
  * Class CollectionCreator
  *
  * @category   Browscap
- * @package    Helper
  * @author     James Titcumb <james@asgrim.com>
  * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
  */
@@ -95,8 +93,7 @@ class CollectionCreator
             ->addPlatformsFile($resourceFolder . '/platforms.json')
             ->addEnginesFile($resourceFolder . '/engines.json')
             ->addDefaultProperties($resourceFolder . '/core/default-properties.json')
-            ->addDefaultBrowser($resourceFolder . '/core/default-browser.json')
-        ;
+            ->addDefaultBrowser($resourceFolder . '/core/default-browser.json');
 
         $uaSourceDirectory = $resourceFolder . '/user-agents';
 
@@ -104,7 +101,7 @@ class CollectionCreator
 
         foreach (new \RecursiveIteratorIterator($iterator) as $file) {
             /** @var $file \SplFileInfo */
-            if (!$file->isFile() || $file->getExtension() != 'json') {
+            if (!$file->isFile() || $file->getExtension() !== 'json') {
                 continue;
             }
 

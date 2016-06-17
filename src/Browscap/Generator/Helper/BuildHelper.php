@@ -10,7 +10,6 @@
  * Refer to the LICENSE file distributed with this package.
  *
  * @category   Browscap
- * @package    Generator
  * @copyright  1998-2014 Browser Capabilities Project
  * @license    MIT
  */
@@ -27,7 +26,6 @@ use Psr\Log\LoggerInterface;
  * Class BuildGenerator
  *
  * @category   Browscap
- * @package    Generator
  * @author     James Titcumb <james@asgrim.com>
  * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
  */
@@ -58,8 +56,7 @@ class BuildHelper
 
         $collectionCreator
             ->setLogger($logger)
-            ->setDataCollection($dataCollection)
-        ;
+            ->setDataCollection($dataCollection);
 
         $collection = $collectionCreator->createDataCollection($resourceFolder);
 
@@ -70,33 +67,31 @@ class BuildHelper
         $expander = new Expander();
         $expander
             ->setDataCollection($collection)
-            ->setLogger($logger)
-        ;
+            ->setLogger($logger);
 
         $logger->info('finished initialisation of writers');
 
         $logger->info('started output of header and version');
 
-        $comments = array(
+        $comments = [
             'Provided courtesy of http://browscap.org/',
             'Created on ' . $collection->getGenerationDate()->format('l, F j, Y \a\t h:i A T'),
             'Keep up with the latest goings-on with the project:',
             'Follow us on Twitter <https://twitter.com/browscap>, or...',
             'Like us on Facebook <https://facebook.com/browscap>, or...',
             'Collaborate on GitHub <https://github.com/browscap>, or...',
-            'Discuss on Google Groups <https://groups.google.com/forum/#!forum/browscap>.'
-        );
+            'Discuss on Google Groups <https://groups.google.com/forum/#!forum/browscap>.',
+        ];
 
         $writerCollection
             ->setExpander($expander)
             ->fileStart()
             ->renderHeader($comments)
-            ->renderVersion($version, $collection)
-        ;
+            ->renderVersion($version, $collection);
 
         $logger->info('finished output of header and version');
 
-        $output = array();
+        $output = [];
 
         $logger->info('started output of divisions');
 
@@ -106,11 +101,10 @@ class BuildHelper
 
         $writerCollection
             ->renderAllDivisionsHeader($collection)
-            ->renderDivisionHeader($division->getName())
-        ;
+            ->renderDivisionHeader($division->getName());
 
         $ua       = $division->getUserAgents();
-        $sections = array($ua[0]['userAgent'] => $ua[0]['properties']);
+        $sections = [$ua[0]['userAgent'] => $ua[0]['properties']];
 
         foreach (array_keys($sections) as $sectionName) {
             $section = $sections[$sectionName];
@@ -119,8 +113,7 @@ class BuildHelper
                 ->setSilent($division)
                 ->renderSectionHeader($sectionName)
                 ->renderSectionBody($section, $collection, $sections, $sectionName)
-                ->renderSectionFooter($sectionName)
-            ;
+                ->renderSectionFooter($sectionName);
         }
 
         $writerCollection->renderDivisionFooter();
@@ -172,8 +165,7 @@ class BuildHelper
                     $writerCollection
                         ->renderSectionHeader($sectionName)
                         ->renderSectionBody($section, $collection, $sectionsWithVersion, $sectionName)
-                        ->renderSectionFooter($sectionName)
-                    ;
+                        ->renderSectionFooter($sectionName);
 
                     $output[$sectionName] = $sectionName;
                 }
@@ -191,12 +183,12 @@ class BuildHelper
         $writerCollection->renderDivisionHeader($division->getName());
 
         $ua       = $division->getUserAgents();
-        $sections = array(
+        $sections = [
             $ua[0]['userAgent'] => array_merge(
-                array('Parent' => 'DefaultProperties'),
+                ['Parent' => 'DefaultProperties'],
                 $ua[0]['properties']
-            )
-        );
+            ),
+        ];
 
         foreach (array_keys($sections) as $sectionName) {
             $section = $sections[$sectionName];
@@ -205,14 +197,12 @@ class BuildHelper
                 ->setSilent($division)
                 ->renderSectionHeader($sectionName)
                 ->renderSectionBody($section, $collection, $sections, $sectionName)
-                ->renderSectionFooter($sectionName)
-            ;
+                ->renderSectionFooter($sectionName);
         }
 
         $writerCollection
             ->renderDivisionFooter()
-            ->renderAllDivisionsFooter()
-        ;
+            ->renderAllDivisionsFooter();
 
         $logger->info('finished output of divisions');
 
@@ -220,8 +210,7 @@ class BuildHelper
 
         $writerCollection
             ->fileEnd()
-            ->close()
-        ;
+            ->close();
 
         $logger->info('finished closing writers');
     }
