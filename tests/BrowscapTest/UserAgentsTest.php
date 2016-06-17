@@ -102,7 +102,7 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
      */
     private function userAgentDataProvider()
     {
-        static $data = array();
+        static $data = [];
 
         if (count($data)) {
             return $data;
@@ -145,16 +145,7 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
      */
     public function userAgentDataProviderFull()
     {
-        $providerData = [];
-
-        foreach ($this->userAgentDataProvider() as $key => $test) {
-            $providerData[$key] = [
-                $test['ua'],
-                $test['properties'],
-            ];
-        }
-
-        return $providerData;
+        return $this->userAgentDataProvider();
     }
 
     /**
@@ -162,20 +153,12 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
      */
     public function userAgentDataProviderStandard()
     {
-        $providerData = [];
-
-        foreach ($this->userAgentDataProvider() as $key => $test) {
-            if (!isset($test['standard']) || !$test['standard']) {
-                continue;
+        return array_filter(
+            $this->userAgentDataProvider(),
+            function ($test) {
+                return (isset($test['standard']) && $test['standard']);
             }
-
-            $providerData[$key] = [
-                $test['ua'],
-                $test['properties'],
-            ];
-        }
-
-        return $providerData;
+        );
     }
 
     /**
@@ -183,24 +166,12 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
      */
     public function userAgentDataProviderLite()
     {
-        $providerData = [];
-
-        foreach ($this->userAgentDataProvider() as $key => $test) {
-            if (!isset($test['lite']) || !$test['lite']) {
-                continue;
+        return array_filter(
+            $this->userAgentDataProvider(),
+            function ($test) {
+                return (isset($test['lite']) && $test['lite'] && isset($test['standard']) && $test['standard']);
             }
-
-            if (!isset($test['standard']) || !$test['standard']) {
-                continue;
-            }
-
-            $providerData[$key] = [
-                $test['ua'],
-                $test['properties'],
-            ];
-        }
-
-        return $providerData;
+        );
     }
 
     /**
