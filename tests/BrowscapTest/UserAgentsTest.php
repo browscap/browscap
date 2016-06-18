@@ -108,7 +108,7 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
             return $data;
         }
 
-        $checks          = array();
+        $checks          = [];
         $sourceDirectory = __DIR__ . '/../fixtures/issues/';
         $iterator        = new \RecursiveDirectoryIterator($sourceDirectory);
 
