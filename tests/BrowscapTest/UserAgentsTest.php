@@ -98,9 +98,9 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @return array
+     * @return array[]
      */
-    public function userAgentDataProvider()
+    private function userAgentDataProvider()
     {
         static $data = [];
 
@@ -110,8 +110,7 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
 
         $checks          = [];
         $sourceDirectory = __DIR__ . '/../fixtures/issues/';
-
-        $iterator = new \RecursiveDirectoryIterator($sourceDirectory);
+        $iterator        = new \RecursiveDirectoryIterator($sourceDirectory);
 
         foreach (new \RecursiveIteratorIterator($iterator) as $file) {
             /** @var $file \SplFileInfo */
@@ -142,13 +141,45 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @dataProvider userAgentDataProvider
+     * @return array[]
+     */
+    public function userAgentDataProviderFull()
+    {
+        return $this->userAgentDataProvider();
+    }
+
+    /**
+     * @return array[]
+     */
+    public function userAgentDataProviderStandard()
+    {
+        return array_filter(
+            $this->userAgentDataProvider(),
+            function ($test) {
+                return (isset($test['standard']) && $test['standard']);
+            }
+        );
+    }
+
+    /**
+     * @return array[]
+     */
+    public function userAgentDataProviderLite()
+    {
+        return array_filter(
+            $this->userAgentDataProvider(),
+            function ($test) {
+                return (isset($test['lite']) && $test['lite'] && isset($test['standard']) && $test['standard']);
+            }
+        );
+    }
+
+    /**
+     * @dataProvider userAgentDataProviderFull
      * @coversNothing
      *
      * @param string $userAgent
      * @param array  $expectedProperties
-     * @param bool   $lite
-     * @param bool   $standard
      *
      * @throws \Exception
      * @throws \BrowscapPHP\Exception
@@ -156,7 +187,7 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
      * @group  useragenttest
      * @group  full
      */
-    public function testUserAgentsFull($userAgent, $expectedProperties, $lite = true, $standard = true)
+    public function testUserAgentsFull($userAgent, $expectedProperties)
     {
         if (!is_array($expectedProperties) || !count($expectedProperties)) {
             self::markTestSkipped('Could not run test - no properties were defined to test');
@@ -195,13 +226,11 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @dataProvider userAgentDataProvider
+     * @dataProvider userAgentDataProviderStandard
      * @coversNothing
      *
      * @param string $userAgent
      * @param array  $expectedProperties
-     * @param bool   $lite
-     * @param bool   $standard
      *
      * @throws \Exception
      * @throws \BrowscapPHP\Exception
@@ -209,14 +238,10 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
      * @group  useragenttest
      * @group  standard
      */
-    public function testUserAgentsStandard($userAgent, $expectedProperties, $lite = true, $standard = true)
+    public function testUserAgentsStandard($userAgent, $expectedProperties)
     {
         if (!is_array($expectedProperties) || !count($expectedProperties)) {
             self::markTestSkipped('Could not run test - no properties were defined to test');
-        }
-
-        if (!$standard) {
-            self::markTestSkipped('Test skipped - Browser/Platform/Version not defined for Standard Mode');
         }
 
         static $updatedStandardCache = false;
@@ -256,13 +281,11 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @dataProvider userAgentDataProvider
+     * @dataProvider userAgentDataProviderLite
      * @coversNothing
      *
      * @param string $userAgent
      * @param array  $expectedProperties
-     * @param bool   $lite
-     * @param bool   $standard
      *
      * @throws \Exception
      * @throws \BrowscapPHP\Exception
@@ -271,14 +294,10 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
      * @group useragenttest
      * @group lite
      */
-    public function testUserAgentsLite($userAgent, $expectedProperties, $lite = true, $standard = true)
+    public function testUserAgentsLite($userAgent, $expectedProperties)
     {
         if (!is_array($expectedProperties) || !count($expectedProperties)) {
             self::markTestSkipped('Could not run test - no properties were defined to test');
-        }
-
-        if (!$lite) {
-            self::markTestSkipped('Test skipped - Browser/Platform/Version not defined for Lite Mode');
         }
 
         static $updatedLiteCache = false;
