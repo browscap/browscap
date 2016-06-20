@@ -89,6 +89,13 @@
           }
         },
         {
+          "match": "Slack-ImgProxy*",
+          "properties": {
+            "Browser": "Slack-ImgProxy",
+            "Browser_Maker": "slack.com"
+          }
+        },
+        {
           "match": "Mozilla\/5.0 (compatible; Embedly\/0.2*",
           "properties": {
             "Browser": "Embedly",
