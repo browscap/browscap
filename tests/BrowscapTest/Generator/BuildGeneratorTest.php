@@ -115,11 +115,13 @@ class BuildGeneratorTest extends \PHPUnit_Framework_TestCase
      */
     public function testSetLogger()
     {
-        $mock = $this->getMock('\Monolog\Logger', [], [], '', false);
+        $logger = $this->getMockBuilder(\Monolog\Logger::class)
+            ->disableOriginalConstructor()
+            ->getMock();
 
         $generator = new BuildGenerator('.', '.');
-        self::assertSame($generator, $generator->setLogger($mock));
-        self::assertSame($mock, $generator->getLogger());
+        self::assertSame($generator, $generator->setLogger($logger));
+        self::assertSame($logger, $generator->getLogger());
     }
 
     /**
@@ -130,10 +132,12 @@ class BuildGeneratorTest extends \PHPUnit_Framework_TestCase
      */
     public function testSetCollectionCreator()
     {
-        $mock = $this->getMock('\Browscap\Helper\CollectionCreator', [], [], '', false);
+        $collectionCreator = $this->getMockBuilder(\Browscap\Helper\CollectionCreator::class)
+            ->disableOriginalConstructor()
+            ->getMock();
 
         $generator = new BuildGenerator('.', '.');
-        self::assertSame($generator, $generator->setCollectionCreator($mock));
+        self::assertSame($generator, $generator->setCollectionCreator($collectionCreator));
     }
 
     /**
@@ -146,14 +150,12 @@ class BuildGeneratorTest extends \PHPUnit_Framework_TestCase
     {
         self::markTestSkipped('will fail in PHP 7 because of error while creating the zip file');
 
-        $mockDivision = $this->getMock(
-            '\Browscap\Data\Division',
-            ['getUserAgents', 'getVersions'],
-            [],
-            '',
-            false
-        );
-        $mockDivision
+        $division = $this->getMockBuilder(\Browscap\Data\Division::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['getUserAgents', 'getVersions'])
+            ->getMock();
+
+        $division
             ->expects(self::exactly(4))
             ->method('getUserAgents')
             ->will(
@@ -171,65 +173,60 @@ class BuildGeneratorTest extends \PHPUnit_Framework_TestCase
                     ]
                 )
             );
-        $mockDivision
+        $division
             ->expects(self::once())
             ->method('getVersions')
             ->will(self::returnValue([2]));
 
-        $mockCollection = $this->getMock(
-            '\Browscap\Data\DataCollection',
-            ['getGenerationDate', 'getDefaultProperties', 'getDefaultBrowser', 'getDivisions', 'checkProperty'],
-            [],
-            '',
-            false
-        );
-        $mockCollection
+        $collection = $this->getMockBuilder(\Browscap\Data\DataCollection::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['getGenerationDate', 'getDefaultProperties', 'getDefaultBrowser', 'getDivisions', 'checkProperty'])
+            ->getMock();
+
+        $collection
             ->expects(self::once())
             ->method('getGenerationDate')
             ->will(self::returnValue(new \DateTime()));
-        $mockCollection
+        $collection
             ->expects(self::exactly(2))
             ->method('getDefaultProperties')
-            ->will(self::returnValue($mockDivision));
-        $mockCollection
+            ->will(self::returnValue($division));
+        $collection
             ->expects(self::once())
             ->method('getDefaultBrowser')
-            ->will(self::returnValue($mockDivision));
-        $mockCollection
+            ->will(self::returnValue($division));
+        $collection
             ->expects(self::once())
             ->method('getDivisions')
-            ->will(self::returnValue([$mockDivision]));
-        $mockCollection
+            ->will(self::returnValue([$division]));
+        $collection
             ->expects(self::once())
             ->method('checkProperty')
             ->will(self::returnValue(true));
 
-        $mockCreator = $this->getMock(
-            '\Browscap\Helper\CollectionCreator',
-            ['createDataCollection'],
-            [],
-            '',
-            false
-        );
+        $mockCreator = $this->getMockBuilder(\Browscap\Helper\CollectionCreator::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['createDataCollection'])
+            ->getMock();
+
         $mockCreator
             ->expects(self::any())
             ->method('createDataCollection')
-            ->will(self::returnValue($mockCollection));
+            ->will(self::returnValue($collection));
 
-        $writerCollection = $this->getMock(
-            '\Browscap\Writer\WriterCollection',
-            [
-                'fileStart',
-                'renderHeader',
-                'renderAllDivisionsHeader',
-                'renderSectionHeader',
-                'renderSectionBody',
-                'fileEnd',
-            ],
-            [],
-            '',
-            false
-        );
+        $writerCollection = $this->getMockBuilder(\Browscap\Writer\WriterCollection::class)
+            ->disableOriginalConstructor()
+            ->setMethods([
+                    'fileStart',
+                    'renderHeader',
+                    'renderAllDivisionsHeader',
+                    'renderSectionHeader',
+                    'renderSectionBody',
+                    'fileEnd',
+                ]
+            )
+            ->getMock();
+
         $writerCollection
             ->expects(self::once())
             ->method('fileStart')
@@ -271,14 +268,12 @@ class BuildGeneratorTest extends \PHPUnit_Framework_TestCase
      */
     public function testBuildWithoutZip()
     {
-        $mockDivision = $this->getMock(
-            '\Browscap\Data\Division',
-            ['getUserAgents', 'getVersions'],
-            [],
-            '',
-            false
-        );
-        $mockDivision
+        $division = $this->getMockBuilder(\Browscap\Data\Division::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['getUserAgents', 'getVersions'])
+            ->getMock();
+
+        $division
             ->expects(self::exactly(4))
             ->method('getUserAgents')
             ->will(
@@ -296,65 +291,60 @@ class BuildGeneratorTest extends \PHPUnit_Framework_TestCase
                     ]
                 )
             );
-        $mockDivision
+        $division
             ->expects(self::once())
             ->method('getVersions')
             ->will(self::returnValue([2]));
 
-        $mockCollection = $this->getMock(
-            '\Browscap\Data\DataCollection',
-            ['getGenerationDate', 'getDefaultProperties', 'getDefaultBrowser', 'getDivisions', 'checkProperty'],
-            [],
-            '',
-            false
-        );
-        $mockCollection
+        $collection = $this->getMockBuilder(\Browscap\Data\DataCollection::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['getGenerationDate', 'getDefaultProperties', 'getDefaultBrowser', 'getDivisions', 'checkProperty'])
+            ->getMock();
+
+        $collection
             ->expects(self::once())
             ->method('getGenerationDate')
             ->will(self::returnValue(new \DateTime()));
-        $mockCollection
+        $collection
             ->expects(self::exactly(2))
             ->method('getDefaultProperties')
-            ->will(self::returnValue($mockDivision));
-        $mockCollection
+            ->will(self::returnValue($division));
+        $collection
             ->expects(self::once())
             ->method('getDefaultBrowser')
-            ->will(self::returnValue($mockDivision));
-        $mockCollection
+            ->will(self::returnValue($division));
+        $collection
             ->expects(self::once())
             ->method('getDivisions')
-            ->will(self::returnValue([$mockDivision]));
-        $mockCollection
+            ->will(self::returnValue([$division]));
+        $collection
             ->expects(self::once())
             ->method('checkProperty')
             ->will(self::returnValue(true));
 
-        $mockCreator = $this->getMock(
-            '\Browscap\Helper\CollectionCreator',
-            ['createDataCollection'],
-            [],
-            '',
-            false
-        );
+        $mockCreator = $this->getMockBuilder(\Browscap\Helper\CollectionCreator::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['createDataCollection'])
+            ->getMock();
+
         $mockCreator
             ->expects(self::any())
             ->method('createDataCollection')
-            ->will(self::returnValue($mockCollection));
+            ->will(self::returnValue($collection));
 
-        $writerCollection = $this->getMock(
-            '\Browscap\Writer\WriterCollection',
-            [
-                'fileStart',
-                'renderHeader',
-                'renderAllDivisionsHeader',
-                'renderSectionHeader',
-                'renderSectionBody',
-                'fileEnd',
-            ],
-            [],
-            '',
-            false
-        );
+        $writerCollection = $this->getMockBuilder(\Browscap\Writer\WriterCollection::class)
+            ->disableOriginalConstructor()
+            ->setMethods([
+                    'fileStart',
+                    'renderHeader',
+                    'renderAllDivisionsHeader',
+                    'renderSectionHeader',
+                    'renderSectionBody',
+                    'fileEnd',
+                ]
+            )
+            ->getMock();
+
         $writerCollection
             ->expects(self::once())
             ->method('fileStart')

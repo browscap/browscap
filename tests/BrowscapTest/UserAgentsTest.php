@@ -21,6 +21,7 @@ use Browscap\Generator\BuildGenerator;
 use Browscap\Helper\CollectionCreator;
 use Browscap\Writer\Factory\PhpWriterFactory;
 use BrowscapPHP\Browscap;
+use BrowscapPHP\BrowscapUpdater;
 use Monolog\Handler\NullHandler;
 use Monolog\Logger;
 use WurflCache\Adapter\File;
@@ -38,6 +39,11 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
      * @var \BrowscapPHP\Browscap
      */
     private static $browscap = null;
+
+    /**
+     * @var \BrowscapPHP\BrowscapUpdater
+     */
+    private static $browscapUpdater = null;
 
     /**
      * @var string
@@ -88,9 +94,14 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
         $buildGenerator->run($buildNumber, false);
 
         $cache = new File([File::DIR => $cacheFolder]);
-        // Now, load an INI file into BrowscapPHP\Browscap for testing the UAs
+
         self::$browscap = new Browscap();
         self::$browscap
+            ->setCache($cache)
+            ->setLogger($logger);
+
+        self::$browscapUpdater = new BrowscapUpdater();
+        self::$browscapUpdater
             ->setCache($cache)
             ->setLogger($logger);
 
@@ -196,8 +207,8 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
         static $updatedFullCache = false;
 
         if (!$updatedFullCache) {
-            self::$browscap->getCache()->flush();
-            self::$browscap->convertFile(self::$buildFolder . '/full_php_browscap.ini');
+            self::$browscapUpdater->getCache()->flush();
+            self::$browscapUpdater->convertFile(self::$buildFolder . '/full_php_browscap.ini');
             $updatedFullCache = true;
         }
 
@@ -247,8 +258,8 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
         static $updatedStandardCache = false;
 
         if (!$updatedStandardCache) {
-            self::$browscap->getCache()->flush();
-            self::$browscap->convertFile(self::$buildFolder . '/php_browscap.ini');
+            self::$browscapUpdater->getCache()->flush();
+            self::$browscapUpdater->convertFile(self::$buildFolder . '/php_browscap.ini');
             $updatedStandardCache = true;
         }
 
@@ -303,8 +314,8 @@ class UserAgentsTest extends \PHPUnit_Framework_TestCase
         static $updatedLiteCache = false;
 
         if (!$updatedLiteCache) {
-            self::$browscap->getCache()->flush();
-            self::$browscap->convertFile(self::$buildFolder . '/lite_php_browscap.ini');
+            self::$browscapUpdater->getCache()->flush();
+            self::$browscapUpdater->convertFile(self::$buildFolder . '/lite_php_browscap.ini');
             $updatedLiteCache = true;
         }
 

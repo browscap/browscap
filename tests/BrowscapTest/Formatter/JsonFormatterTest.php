@@ -59,7 +59,9 @@ class JsonFormatterTest extends \PHPUnit_Framework_TestCase
      */
     public function testSetGetFilter()
     {
-        $mockFilter = $this->getMock('\Browscap\Filter\StandardFilter', [], [], '', false);
+        $mockFilter = $this->getMockBuilder(\Browscap\Filter\StandardFilter::class)
+            ->disableOriginalConstructor()
+            ->getMock();
 
         self::assertSame($this->object, $this->object->setFilter($mockFilter));
         self::assertSame($mockFilter, $this->object->getFilter());

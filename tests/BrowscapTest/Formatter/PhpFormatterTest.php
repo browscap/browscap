@@ -59,7 +59,9 @@ class PhpFormatterTest extends \PHPUnit_Framework_TestCase
      */
     public function testSetGetFilter()
     {
-        $mockFilter = $this->getMock('\Browscap\Filter\FullFilter', [], [], '', false);
+        $mockFilter = $this->getMockBuilder(\Browscap\Filter\FullFilter::class)
+            ->disableOriginalConstructor()
+            ->getMock();
 
         self::assertSame($this->object, $this->object->setFilter($mockFilter));
         self::assertSame($mockFilter, $this->object->getFilter());

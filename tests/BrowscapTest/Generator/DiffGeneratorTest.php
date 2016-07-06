@@ -48,9 +48,11 @@ class DiffGeneratorTest extends \PHPUnit_Framework_TestCase
      */
     public function testSetLogger()
     {
-        $mock = $this->getMock('\Monolog\Logger', [], [], '', false);
+        $logger = $this->getMockBuilder(\Monolog\Logger::class)
+            ->disableOriginalConstructor()
+            ->getMock();
 
-        self::assertSame($this->object, $this->object->setLogger($mock));
+        self::assertSame($this->object, $this->object->setLogger($logger));
     }
 
     /**
@@ -61,7 +63,9 @@ class DiffGeneratorTest extends \PHPUnit_Framework_TestCase
      */
     public function testRun()
     {
-        $mock = $this->getMock('\Monolog\Logger', [], [], '', false);
+        $mock = $this->getMockBuilder(\Monolog\Logger::class)
+            ->disableOriginalConstructor()
+            ->getMock();
 
         self::assertSame($this->object, $this->object->setLogger($mock));
 

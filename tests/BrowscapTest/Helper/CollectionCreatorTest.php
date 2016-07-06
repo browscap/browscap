@@ -53,11 +53,11 @@ class CollectionCreatorTest extends \PHPUnit_Framework_TestCase
      *
      * @group helper
      * @group sourcetest
+     * @expectedException \LogicException
+     * @expectedExceptionMessage An instance of \Browscap\Data\DataCollection is required for this function. Please set it with setDataCollection
      */
     public function testCreateDataCollectionThrowsExceptionIfNoDataCollectionIsSet()
     {
-        $this->setExpectedException('\LogicException', 'An instance of \Browscap\Data\DataCollection is required for this function. Please set it with setDataCollection');
-
         $this->object->createDataCollection('.');
     }
 
@@ -66,19 +66,24 @@ class CollectionCreatorTest extends \PHPUnit_Framework_TestCase
      *
      * @group helper
      * @group sourcetest
+     *
+     * @expectedException \RunTimeException
+     * @expectedExceptionMessage File "./devices.json" does not exist.
      */
     public function testCreateDataCollectionThrowsExceptionOnInvalidDirectory()
     {
-        $this->setExpectedException('\RunTimeException', 'File "./devices.json" does not exist.');
+        $collection = $this->getMockBuilder(\Browscap\Data\DataCollection::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['getGenerationDate'])
+            ->getMock();
 
-        $mockCollection = $this->getMock('\Browscap\Data\DataCollection', ['getGenerationDate'], [], '', false);
-        $mockCollection->expects(self::any())
+        $collection->expects(self::any())
             ->method('getGenerationDate')
             ->will(self::returnValue(new \DateTime()));
 
         $this->object
             ->setLogger($this->logger)
-            ->setDataCollection($mockCollection);
+            ->setDataCollection($collection);
         $this->object->createDataCollection('.');
     }
 
@@ -90,32 +95,30 @@ class CollectionCreatorTest extends \PHPUnit_Framework_TestCase
      */
     public function testCreateDataCollection()
     {
-        $mockCollection = $this->getMock(
-            '\Browscap\Data\DataCollection',
-            ['addPlatformsFile', 'addSourceFile', 'addEnginesFile', 'addDevicesFile'],
-            [],
-            '',
-            false
-        );
-        $mockCollection->expects(self::any())
+        $collection = $this->getMockBuilder(\Browscap\Data\DataCollection::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['addPlatformsFile', 'addSourceFile', 'addEnginesFile', 'addDevicesFile'])
+            ->getMock();
+
+        $collection->expects(self::any())
             ->method('addPlatformsFile')
             ->will(self::returnSelf());
-        $mockCollection->expects(self::any())
+        $collection->expects(self::any())
             ->method('addEnginesFile')
             ->will(self::returnSelf());
-        $mockCollection->expects(self::any())
+        $collection->expects(self::any())
             ->method('addDevicesFile')
             ->will(self::returnSelf());
-        $mockCollection->expects(self::any())
+        $collection->expects(self::any())
             ->method('addSourceFile')
             ->will(self::returnSelf());
 
         $this->object
             ->setLogger($this->logger)
-            ->setDataCollection($mockCollection);
+            ->setDataCollection($collection);
 
         $result = $this->object->createDataCollection(__DIR__ . '/../../fixtures');
-        self::assertInstanceOf('\Browscap\Data\DataCollection', $result);
-        self::assertSame($mockCollection, $result);
+        self::assertInstanceOf(\Browscap\Data\DataCollection::class, $result);
+        self::assertSame($collection, $result);
     }
 }

@@ -59,13 +59,17 @@ class StandardFilterTest extends \PHPUnit_Framework_TestCase
      */
     public function testIsOutputTrue()
     {
-        $mockDivision = $this->getMock('\Browscap\Data\Division', ['isStandard'], [], '', false);
-        $mockDivision
+        $division = $this->getMockBuilder(\Browscap\Data\Division::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['isStandard'])
+            ->getMock();
+
+        $division
             ->expects(self::once())
             ->method('isStandard')
             ->will(self::returnValue(true));
 
-        self::assertTrue($this->object->isOutput($mockDivision));
+        self::assertTrue($this->object->isOutput($division));
     }
 
     /**
@@ -76,13 +80,17 @@ class StandardFilterTest extends \PHPUnit_Framework_TestCase
      */
     public function testIsOutputFalse()
     {
-        $mockDivision = $this->getMock('\Browscap\Data\Division', ['isStandard'], [], '', false);
-        $mockDivision
+        $division = $this->getMockBuilder(\Browscap\Data\Division::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['isStandard'])
+            ->getMock();
+
+        $division
             ->expects(self::once())
             ->method('isStandard')
             ->will(self::returnValue(false));
 
-        self::assertFalse($this->object->isOutput($mockDivision));
+        self::assertFalse($this->object->isOutput($division));
     }
 
     /**
