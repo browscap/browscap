@@ -48,8 +48,7 @@ class BuildHelperTest extends \PHPUnit_Framework_TestCase
                     'renderSectionHeader',
                     'renderSectionBody',
                     'fileEnd',
-                ]
-            )
+                ])
             ->getMock();
 
         $writerCollection->expects(self::once())

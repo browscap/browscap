@@ -210,8 +210,7 @@ class BuildCustomFileGeneratorTest extends \PHPUnit_Framework_TestCase
                 'renderSectionHeader',
                 'renderSectionBody',
                 'fileEnd',
-            ]
-            )
+            ])
             ->getMock();
 
         $writerCollection
