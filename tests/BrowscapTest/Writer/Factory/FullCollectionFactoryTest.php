@@ -53,9 +53,7 @@ class FullCollectionFactoryTest extends \PHPUnit_Framework_TestCase
      */
     public function testCreateCollection()
     {
-        $logger = $this->getMockBuilder(\Monolog\Logger::class)
-            ->disableOriginalConstructor()
-            ->getMock();
+        $logger = $this->createMock(\Monolog\Logger::class);
         $dir    = vfsStream::url(self::STORAGE_DIR);
 
         self::assertInstanceOf(\Browscap\Writer\WriterCollection::class, $this->object->createCollection($logger, $dir));

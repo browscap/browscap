@@ -115,9 +115,7 @@ class BuildGeneratorTest extends \PHPUnit_Framework_TestCase
      */
     public function testSetLogger()
     {
-        $logger = $this->getMockBuilder(\Monolog\Logger::class)
-            ->disableOriginalConstructor()
-            ->getMock();
+        $logger = $this->createMock(\Monolog\Logger::class);
 
         $generator = new BuildGenerator('.', '.');
         self::assertSame($generator, $generator->setLogger($logger));
@@ -132,9 +130,7 @@ class BuildGeneratorTest extends \PHPUnit_Framework_TestCase
      */
     public function testSetCollectionCreator()
     {
-        $collectionCreator = $this->getMockBuilder(\Browscap\Helper\CollectionCreator::class)
-            ->disableOriginalConstructor()
-            ->getMock();
+        $collectionCreator = $this->createMock(\Browscap\Helper\CollectionCreator::class);
 
         $generator = new BuildGenerator('.', '.');
         self::assertSame($generator, $generator->setCollectionCreator($collectionCreator));

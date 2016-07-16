@@ -75,9 +75,7 @@ class IniWriterTest extends \PHPUnit_Framework_TestCase
      */
     public function testSetGetLogger()
     {
-        $logger = $this->getMockBuilder(\Monolog\Logger::class)
-            ->disableOriginalConstructor()
-            ->getMock();
+        $logger = $this->createMock(\Monolog\Logger::class);
 
         self::assertSame($this->object, $this->object->setLogger($logger));
         self::assertSame($logger, $this->object->getLogger());
@@ -102,9 +100,7 @@ class IniWriterTest extends \PHPUnit_Framework_TestCase
      */
     public function testSetGetFormatter()
     {
-        $mockFormatter = $this->getMockBuilder(\Browscap\Formatter\PhpFormatter::class)
-            ->disableOriginalConstructor()
-            ->getMock();
+        $mockFormatter = $this->createMock(\Browscap\Formatter\PhpFormatter::class);
 
         self::assertSame($this->object, $this->object->setFormatter($mockFormatter));
         self::assertSame($mockFormatter, $this->object->getFormatter());
@@ -118,9 +114,7 @@ class IniWriterTest extends \PHPUnit_Framework_TestCase
      */
     public function testSetGetFilter()
     {
-        $mockFilter = $this->getMockBuilder(\Browscap\Filter\FullFilter::class)
-            ->disableOriginalConstructor()
-            ->getMock();
+        $mockFilter = $this->createMock(\Browscap\Filter\FullFilter::class);
 
         self::assertSame($this->object, $this->object->setFilter($mockFilter));
         self::assertSame($mockFilter, $this->object->getFilter());
@@ -172,9 +166,7 @@ class IniWriterTest extends \PHPUnit_Framework_TestCase
      */
     public function testRenderHeaderIfSilent()
     {
-        $logger = $this->getMockBuilder(\Monolog\Logger::class)
-            ->disableOriginalConstructor()
-            ->getMock();
+        $logger = $this->createMock(\Monolog\Logger::class);
         $this->object->setLogger($logger);
 
         $header = ['TestData to be renderd into the Header'];
@@ -193,9 +185,7 @@ class IniWriterTest extends \PHPUnit_Framework_TestCase
      */
     public function testRenderHeaderIfNotSilent()
     {
-        $logger = $this->getMockBuilder(\Monolog\Logger::class)
-            ->disableOriginalConstructor()
-            ->getMock();
+        $logger = $this->createMock(\Monolog\Logger::class);
         $this->object->setLogger($logger);
 
         $header = ['TestData to be renderd into the Header'];
@@ -217,9 +207,7 @@ class IniWriterTest extends \PHPUnit_Framework_TestCase
      */
     public function testRenderVersionIfSilent()
     {
-        $logger = $this->getMockBuilder(\Monolog\Logger::class)
-            ->disableOriginalConstructor()
-            ->getMock();
+        $logger = $this->createMock(\Monolog\Logger::class);
         $this->object->setLogger($logger);
 
         $version = [
@@ -244,9 +232,7 @@ class IniWriterTest extends \PHPUnit_Framework_TestCase
      */
     public function testRenderVersionIfNotSilent()
     {
-        $logger = $this->getMockBuilder(\Monolog\Logger::class)
-            ->disableOriginalConstructor()
-            ->getMock();
+        $logger = $this->createMock(\Monolog\Logger::class);
         $this->object->setLogger($logger);
 
         $version = [
@@ -276,9 +262,7 @@ class IniWriterTest extends \PHPUnit_Framework_TestCase
      */
     public function testRenderVersionIfNotSilentButWithoutVersion()
     {
-        $logger = $this->getMockBuilder(\Monolog\Logger::class)
-            ->disableOriginalConstructor()
-            ->getMock();
+        $logger = $this->createMock(\Monolog\Logger::class);
         $this->object->setLogger($logger);
 
         $version = [];
@@ -302,9 +286,7 @@ class IniWriterTest extends \PHPUnit_Framework_TestCase
      */
     public function testRenderAllDivisionsHeader()
     {
-        $collection = $this->getMockBuilder(\Browscap\Data\DataCollection::class)
-            ->disableOriginalConstructor()
-            ->getMock();
+        $collection = $this->createMock(\Browscap\Data\DataCollection::class);
 
         self::assertSame($this->object, $this->object->renderAllDivisionsHeader($collection));
         self::assertSame('', file_get_contents($this->file));
@@ -678,9 +660,7 @@ class IniWriterTest extends \PHPUnit_Framework_TestCase
             'abc'    => 'bcd',
         ];
 
-        $collection = $this->getMockBuilder(\Browscap\Data\DataCollection::class)
-            ->disableOriginalConstructor()
-            ->getMock();
+        $collection = $this->createMock(\Browscap\Data\DataCollection::class);
 
         self::assertSame($this->object, $this->object->renderSectionBody($section, $collection));
         self::assertSame('', file_get_contents($this->file));

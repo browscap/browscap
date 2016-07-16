@@ -34,9 +34,7 @@ class BuildHelperTest extends \PHPUnit_Framework_TestCase
      */
     public function testRun()
     {
-        $logger = $this->getMockBuilder(\Monolog\Logger::class)
-            ->disableOriginalConstructor()
-            ->getMock();
+        $logger = $this->createMock(\Monolog\Logger::class);
 
         $writerCollection = $this->getMockBuilder(\Browscap\Writer\WriterCollection::class)
             ->disableOriginalConstructor()

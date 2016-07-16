@@ -115,9 +115,7 @@ class BuildCustomFileGeneratorTest extends \PHPUnit_Framework_TestCase
      */
     public function testSetLogger()
     {
-        $logger = $this->getMockBuilder(\Monolog\Logger::class)
-            ->disableOriginalConstructor()
-            ->getMock();
+        $logger = $this->createMock(\Monolog\Logger::class);
 
         $resourceFolder = __DIR__ . '/../../../resources/';
         $buildFolder    = __DIR__ . '/../../../build/browscap-ua-test-' . time();

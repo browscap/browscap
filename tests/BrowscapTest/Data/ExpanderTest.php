@@ -56,9 +56,7 @@ class ExpanderTest extends \PHPUnit_Framework_TestCase
      */
     public function testGetDataCollectionReturnsSameDatacollectionAsInserted()
     {
-        $collection = $this->getMockBuilder(\Browscap\Data\DataCollection::class)
-            ->disableOriginalConstructor()
-            ->getMock();
+        $collection = $this->createMock(\Browscap\Data\DataCollection::class);
 
         $this->object->setLogger($this->logger);
         self::assertSame($this->object, $this->object->setDataCollection($collection));

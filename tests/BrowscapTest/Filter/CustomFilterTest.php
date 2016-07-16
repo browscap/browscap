@@ -59,9 +59,7 @@ class CustomFilterTest extends \PHPUnit_Framework_TestCase
      */
     public function testIsOutput()
     {
-        $division = $this->getMockBuilder(\Browscap\Data\Division::class)
-            ->disableOriginalConstructor()
-            ->getMock();
+        $division = $this->createMock(\Browscap\Data\Division::class);
 
         self::assertTrue($this->object->isOutput($division));
     }
