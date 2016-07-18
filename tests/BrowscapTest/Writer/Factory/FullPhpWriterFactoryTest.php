@@ -53,9 +53,9 @@ class FullPhpWriterFactoryTest extends \PHPUnit_Framework_TestCase
      */
     public function testCreateCollection()
     {
-        $mockLogger = $this->getMock('\Monolog\Logger', [], [], '', false);
-        $dir        = vfsStream::url(self::STORAGE_DIR);
+        $logger = $this->createMock(\Monolog\Logger::class);
+        $dir    = vfsStream::url(self::STORAGE_DIR);
 
-        self::assertInstanceOf('\Browscap\Writer\WriterCollection', $this->object->createCollection($mockLogger, $dir));
+        self::assertInstanceOf(\Browscap\Writer\WriterCollection::class, $this->object->createCollection($logger, $dir));
     }
 }

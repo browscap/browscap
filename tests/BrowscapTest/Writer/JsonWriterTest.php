@@ -75,10 +75,10 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
      */
     public function testSetGetLogger()
     {
-        $mockLogger = $this->getMock('\Monolog\Logger', [], [], '', false);
+        $logger = $this->createMock(\Monolog\Logger::class);
 
-        self::assertSame($this->object, $this->object->setLogger($mockLogger));
-        self::assertSame($mockLogger, $this->object->getLogger());
+        self::assertSame($this->object, $this->object->setLogger($logger));
+        self::assertSame($logger, $this->object->getLogger());
     }
 
     /**
@@ -100,7 +100,7 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
      */
     public function testSetGetFormatter()
     {
-        $mockFormatter = $this->getMock('\Browscap\Formatter\JsonFormatter', [], [], '', false);
+        $mockFormatter = $this->createMock(\Browscap\Formatter\JsonFormatter::class);
 
         self::assertSame($this->object, $this->object->setFormatter($mockFormatter));
         self::assertSame($mockFormatter, $this->object->getFormatter());
@@ -114,7 +114,7 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
      */
     public function testSetGetFilter()
     {
-        $mockFilter = $this->getMock('\Browscap\Filter\StandardFilter', [], [], '', false);
+        $mockFilter = $this->createMock(\Browscap\Filter\StandardFilter::class);
 
         self::assertSame($this->object, $this->object->setFilter($mockFilter));
         self::assertSame($mockFilter, $this->object->getFilter());
@@ -201,8 +201,8 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
      */
     public function testRenderHeaderIfSilent()
     {
-        $mockLogger = $this->getMock('\Monolog\Logger', [], [], '', false);
-        $this->object->setLogger($mockLogger);
+        $logger = $this->createMock(\Monolog\Logger::class);
+        $this->object->setLogger($logger);
 
         $header = ['TestData to be renderd into the Header'];
 
@@ -220,8 +220,8 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
      */
     public function testRenderHeaderIfNotSilent()
     {
-        $mockLogger = $this->getMock('\Monolog\Logger', [], [], '', false);
-        $this->object->setLogger($mockLogger);
+        $logger = $this->createMock(\Monolog\Logger::class);
+        $this->object->setLogger($logger);
 
         $header = ['TestData to be renderd into the Header'];
 
@@ -243,8 +243,8 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
      */
     public function testRenderVersionIfSilent()
     {
-        $mockLogger = $this->getMock('\Monolog\Logger', [], [], '', false);
-        $this->object->setLogger($mockLogger);
+        $logger = $this->createMock(\Monolog\Logger::class);
+        $this->object->setLogger($logger);
 
         $version = [
             'version' => 'test',
@@ -268,8 +268,8 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
      */
     public function testRenderVersionIfNotSilent()
     {
-        $mockLogger = $this->getMock('\Monolog\Logger', [], [], '', false);
-        $this->object->setLogger($mockLogger);
+        $logger = $this->createMock(\Monolog\Logger::class);
+        $this->object->setLogger($logger);
 
         $version = [
             'version' => 'test',
@@ -297,8 +297,8 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
      */
     public function testRenderVersionIfNotSilentButWithoutVersion()
     {
-        $mockLogger = $this->getMock('\Monolog\Logger', [], [], '', false);
-        $this->object->setLogger($mockLogger);
+        $logger = $this->createMock(\Monolog\Logger::class);
+        $this->object->setLogger($logger);
 
         $version = [];
 
@@ -320,9 +320,9 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
      */
     public function testRenderAllDivisionsHeader()
     {
-        $mockCollection = $this->getMock('\Browscap\Data\DataCollection', [], [], '', false);
+        $collection = $this->createMock(\Browscap\Data\DataCollection::class);
 
-        self::assertSame($this->object, $this->object->renderAllDivisionsHeader($mockCollection));
+        self::assertSame($this->object, $this->object->renderAllDivisionsHeader($collection));
         self::assertSame('', file_get_contents($this->file));
     }
 
@@ -350,13 +350,11 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
     {
         $this->object->setSilent(false);
 
-        $mockFormatter = $this->getMock(
-            '\Browscap\Formatter\JsonFormatter',
-            ['formatPropertyName'],
-            [],
-            '',
-            false
-        );
+        $mockFormatter = $this->getMockBuilder(\Browscap\Formatter\JsonFormatter::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['formatPropertyName'])
+            ->getMock();
+
         $mockFormatter
             ->expects(self::once())
             ->method('formatPropertyName')
@@ -407,7 +405,11 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
             ],
         ];
 
-        $mockExpander = $this->getMock('\Browscap\Data\Expander', ['trimProperty'], [], '', false);
+        $mockExpander = $this->getMockBuilder(\Browscap\Data\Expander::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['trimProperty'])
+            ->getMock();
+
         $mockExpander
             ->expects(self::any())
             ->method('trimProperty')
@@ -415,31 +417,31 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
 
         self::assertSame($this->object, $this->object->setExpander($mockExpander));
 
-        $mockDivision = $this->getMock('\Browscap\Data\Division', ['getUserAgents'], [], '', false);
-        $mockDivision
+        $division = $this->getMockBuilder(\Browscap\Data\Division::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['getUserAgents'])
+            ->getMock();
+
+        $division
             ->expects(self::once())
             ->method('getUserAgents')
             ->will(self::returnValue($expectedAgents));
 
-        $mockCollection = $this->getMock(
-            '\Browscap\Data\DataCollection',
-            ['getDefaultProperties'],
-            [],
-            '',
-            false
-        );
-        $mockCollection
+        $collection = $this->getMockBuilder(\Browscap\Data\DataCollection::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['getDefaultProperties'])
+            ->getMock();
+
+        $collection
             ->expects(self::once())
             ->method('getDefaultProperties')
-            ->will(self::returnValue($mockDivision));
+            ->will(self::returnValue($division));
 
-        $mockFormatter = $this->getMock(
-            '\Browscap\Formatter\JsonFormatter',
-            ['formatPropertyName', 'formatPropertyValue'],
-            [],
-            '',
-            false
-        );
+        $mockFormatter = $this->getMockBuilder(\Browscap\Formatter\JsonFormatter::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['formatPropertyName', 'formatPropertyValue'])
+            ->getMock();
+
         $mockFormatter
             ->expects(self::never())
             ->method('formatPropertyName')
@@ -451,7 +453,11 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
 
         self::assertSame($this->object, $this->object->setFormatter($mockFormatter));
 
-        $mockFilter = $this->getMock('\Browscap\Filter\StandardFilter', ['isOutputProperty'], [], '', false);
+        $mockFilter = $this->getMockBuilder(\Browscap\Filter\StandardFilter::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['isOutputProperty'])
+            ->getMock();
+
         $map        = [
             ['Test', $this->object, true],
             ['isTest', $this->object, false],
@@ -465,7 +471,7 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
 
         self::assertSame($this->object, $this->object->setFilter($mockFilter));
 
-        self::assertSame($this->object, $this->object->renderSectionBody($section, $mockCollection));
+        self::assertSame($this->object, $this->object->renderSectionBody($section, $collection));
         self::assertSame(
             '{"Test":1,"abc":"bcd"}',
             file_get_contents($this->file)
@@ -508,7 +514,11 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
             ],
         ];
 
-        $mockExpander = $this->getMock('\Browscap\Data\Expander', ['trimProperty'], [], '', false);
+        $mockExpander = $this->getMockBuilder(\Browscap\Data\Expander::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['trimProperty'])
+            ->getMock();
+
         $mockExpander
             ->expects(self::any())
             ->method('trimProperty')
@@ -516,31 +526,31 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
 
         self::assertSame($this->object, $this->object->setExpander($mockExpander));
 
-        $mockDivision = $this->getMock('\Browscap\Data\Division', ['getUserAgents'], [], '', false);
-        $mockDivision
+        $division = $this->getMockBuilder(\Browscap\Data\Division::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['getUserAgents'])
+            ->getMock();
+
+        $division
             ->expects(self::once())
             ->method('getUserAgents')
             ->will(self::returnValue($expectedAgents));
 
-        $mockCollection = $this->getMock(
-            '\Browscap\Data\DataCollection',
-            ['getDefaultProperties'],
-            [],
-            '',
-            false
-        );
-        $mockCollection
+        $collection = $this->getMockBuilder(\Browscap\Data\DataCollection::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['getDefaultProperties'])
+            ->getMock();
+
+        $collection
             ->expects(self::once())
             ->method('getDefaultProperties')
-            ->will(self::returnValue($mockDivision));
+            ->will(self::returnValue($division));
 
-        $mockFormatter = $this->getMock(
-            '\Browscap\Formatter\JsonFormatter',
-            ['formatPropertyName', 'formatPropertyValue'],
-            [],
-            '',
-            false
-        );
+        $mockFormatter = $this->getMockBuilder(\Browscap\Formatter\JsonFormatter::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['formatPropertyName', 'formatPropertyValue'])
+            ->getMock();
+
         $mockFormatter
             ->expects(self::never())
             ->method('formatPropertyName')
@@ -559,7 +569,11 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
             ['Parent', $this->object, true],
         ];
 
-        $mockFilter = $this->getMock('\Browscap\Filter\StandardFilter', ['isOutputProperty'], [], '', false);
+        $mockFilter = $this->getMockBuilder(\Browscap\Filter\StandardFilter::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['isOutputProperty'])
+            ->getMock();
+
         $mockFilter
             ->expects(self::exactly(4))
             ->method('isOutputProperty')
@@ -567,7 +581,7 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
 
         self::assertSame($this->object, $this->object->setFilter($mockFilter));
 
-        self::assertSame($this->object, $this->object->renderSectionBody($section, $mockCollection, $sections));
+        self::assertSame($this->object, $this->object->renderSectionBody($section, $collection, $sections));
         self::assertSame(
             '{"Parent":"X1","Comment":"1"}',
             file_get_contents($this->file)
@@ -605,7 +619,11 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
             ],
         ];
 
-        $mockExpander = $this->getMock('\Browscap\Data\Expander', ['trimProperty'], [], '', false);
+        $mockExpander = $this->getMockBuilder(\Browscap\Data\Expander::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['trimProperty'])
+            ->getMock();
+
         $mockExpander
             ->expects(self::any())
             ->method('trimProperty')
@@ -613,31 +631,31 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
 
         self::assertSame($this->object, $this->object->setExpander($mockExpander));
 
-        $mockDivision = $this->getMock('\Browscap\Data\Division', ['getUserAgents'], [], '', false);
-        $mockDivision
+        $division = $this->getMockBuilder(\Browscap\Data\Division::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['getUserAgents'])
+            ->getMock();
+
+        $division
             ->expects(self::once())
             ->method('getUserAgents')
             ->will(self::returnValue($expectedAgents));
 
-        $mockCollection = $this->getMock(
-            '\Browscap\Data\DataCollection',
-            ['getDefaultProperties'],
-            [],
-            '',
-            false
-        );
-        $mockCollection
+        $collection = $this->getMockBuilder(\Browscap\Data\DataCollection::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['getDefaultProperties'])
+            ->getMock();
+
+        $collection
             ->expects(self::once())
             ->method('getDefaultProperties')
-            ->will(self::returnValue($mockDivision));
+            ->will(self::returnValue($division));
 
-        $mockFormatter = $this->getMock(
-            '\Browscap\Formatter\JsonFormatter',
-            ['formatPropertyName', 'formatPropertyValue'],
-            [],
-            '',
-            false
-        );
+        $mockFormatter = $this->getMockBuilder(\Browscap\Formatter\JsonFormatter::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['formatPropertyName', 'formatPropertyValue'])
+            ->getMock();
+
         $mockFormatter
             ->expects(self::never())
             ->method('formatPropertyName')
@@ -656,7 +674,11 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
             ['Parent', $this->object, true],
         ];
 
-        $mockFilter = $this->getMock('\Browscap\Filter\StandardFilter', ['isOutputProperty'], [], '', false);
+        $mockFilter = $this->getMockBuilder(\Browscap\Filter\StandardFilter::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['isOutputProperty'])
+            ->getMock();
+
         $mockFilter
             ->expects(self::exactly(4))
             ->method('isOutputProperty')
@@ -664,7 +686,7 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
 
         self::assertSame($this->object, $this->object->setFilter($mockFilter));
 
-        self::assertSame($this->object, $this->object->renderSectionBody($section, $mockCollection, $sections));
+        self::assertSame($this->object, $this->object->renderSectionBody($section, $collection, $sections));
         self::assertSame(
             '{"Parent":"DefaultProperties","Comment":"1"}',
             file_get_contents($this->file)
@@ -687,9 +709,9 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
             'abc'    => 'bcd',
         ];
 
-        $mockCollection = $this->getMock('\Browscap\Data\DataCollection', [], [], '', false);
+        $collection = $this->createMock(\Browscap\Data\DataCollection::class);
 
-        self::assertSame($this->object, $this->object->renderSectionBody($section, $mockCollection));
+        self::assertSame($this->object, $this->object->renderSectionBody($section, $collection));
         self::assertSame('', file_get_contents($this->file));
     }
 

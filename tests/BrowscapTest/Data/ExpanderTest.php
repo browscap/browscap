@@ -56,11 +56,11 @@ class ExpanderTest extends \PHPUnit_Framework_TestCase
      */
     public function testGetDataCollectionReturnsSameDatacollectionAsInserted()
     {
-        $mockCollection = $this->getMock('\Browscap\Data\DataCollection', [], [], '', false);
+        $collection = $this->createMock(\Browscap\Data\DataCollection::class);
 
         $this->object->setLogger($this->logger);
-        self::assertSame($this->object, $this->object->setDataCollection($mockCollection));
-        self::assertSame($mockCollection, $this->object->getDataCollection());
+        self::assertSame($this->object, $this->object->setDataCollection($collection));
+        self::assertSame($collection, $this->object->getDataCollection());
     }
 
     /**
@@ -85,39 +85,45 @@ class ExpanderTest extends \PHPUnit_Framework_TestCase
      */
     public function testParseDoesNothingOnEmptyDatacollection()
     {
-        $mockCollection = $this->getMock(
-            '\Browscap\Data\DataCollection',
-            ['getDivisions', 'getDefaultProperties'],
-            [],
-            '',
-            false
-        );
-        $mockCollection
+        $collection = $this->getMockBuilder(\Browscap\Data\DataCollection::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['getDivisions', 'getDefaultProperties'])
+            ->getMock();
+
+        $collection
             ->expects(self::never())
             ->method('getDivisions')
             ->will(self::returnValue([]));
 
-        $mockDivision = $this->getMock('\Browscap\Data\Division', ['getUserAgents'], [], '', false);
-        $mockDivision
+        $division = $this->getMockBuilder(\Browscap\Data\Division::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['getUserAgents'])
+            ->getMock();
+
+        $division
             ->expects(self::once())
             ->method('getUserAgents')
             ->will(self::returnValue([0 => ['properties' => ['avd' => 'xyz']]]));
 
-        $mockCollection
+        $collection
             ->expects(self::once())
             ->method('getDefaultProperties')
-            ->will(self::returnValue($mockDivision));
+            ->will(self::returnValue($division));
 
-        $mockDivision = $this->getMock('\Browscap\Data\Division', ['getUserAgents'], [], '', false);
-        $mockDivision
+        $division = $this->getMockBuilder(\Browscap\Data\Division::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['getUserAgents'])
+            ->getMock();
+
+        $division
             ->expects(self::once())
             ->method('getUserAgents')
             ->will(self::returnValue([]));
 
         $this->object->setLogger($this->logger);
-        self::assertSame($this->object, $this->object->setDataCollection($mockCollection));
+        self::assertSame($this->object, $this->object->setDataCollection($collection));
 
-        $result = $this->object->expand($mockDivision, 'TestDivision');
+        $result = $this->object->expand($division, 'TestDivision');
         self::assertInternalType('array', $result);
         self::assertCount(0, $result);
     }
@@ -130,31 +136,37 @@ class ExpanderTest extends \PHPUnit_Framework_TestCase
      */
     public function testParseOnNotEmptyDatacollectionWithoutChildren()
     {
-        $mockCollection = $this->getMock(
-            '\Browscap\Data\DataCollection',
-            ['getDivisions', 'getDefaultProperties'],
-            [],
-            '',
-            false
-        );
-        $mockCollection
+        $collection = $this->getMockBuilder(\Browscap\Data\DataCollection::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['getDivisions', 'getDefaultProperties'])
+            ->getMock();
+
+        $collection
             ->expects(self::never())
             ->method('getDivisions')
             ->will(self::returnValue([]));
 
-        $mockDivision = $this->getMock('\Browscap\Data\Division', ['getUserAgents'], [], '', false);
-        $mockDivision
+        $division = $this->getMockBuilder(\Browscap\Data\Division::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['getUserAgents'])
+            ->getMock();
+
+        $division
             ->expects(self::once())
             ->method('getUserAgents')
             ->will(self::returnValue([0 => ['properties' => ['avd' => 'xyz']]]));
 
-        $mockCollection
+        $collection
             ->expects(self::once())
             ->method('getDefaultProperties')
-            ->will(self::returnValue($mockDivision));
+            ->will(self::returnValue($division));
 
-        $mockDivision = $this->getMock('\Browscap\Data\Division', ['getUserAgents'], [], '', false);
-        $mockDivision
+        $division = $this->getMockBuilder(\Browscap\Data\Division::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['getUserAgents'])
+            ->getMock();
+
+        $division
             ->expects(self::once())
             ->method('getUserAgents')
             ->will(
@@ -174,9 +186,9 @@ class ExpanderTest extends \PHPUnit_Framework_TestCase
             );
 
         $this->object->setLogger($this->logger);
-        self::assertSame($this->object, $this->object->setDataCollection($mockCollection));
+        self::assertSame($this->object, $this->object->setDataCollection($collection));
 
-        $result = $this->object->expand($mockDivision, 'TestDivision');
+        $result = $this->object->expand($division, 'TestDivision');
         self::assertInternalType('array', $result);
         self::assertCount(1, $result);
     }
@@ -189,28 +201,30 @@ class ExpanderTest extends \PHPUnit_Framework_TestCase
      */
     public function testParseOnNotEmptyDatacollectionWithChildren()
     {
-        $mockCollection = $this->getMock(
-            '\Browscap\Data\DataCollection',
-            ['getDivisions', 'getDefaultProperties'],
-            [],
-            '',
-            false
-        );
-        $mockCollection
+        $collection = $this->getMockBuilder(\Browscap\Data\DataCollection::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['getDivisions', 'getDefaultProperties'])
+            ->getMock();
+
+        $collection
             ->expects(self::never())
             ->method('getDivisions')
             ->will(self::returnValue([]));
 
-        $mockDivision = $this->getMock('\Browscap\Data\Division', ['getUserAgents'], [], '', false);
-        $mockDivision
+        $division = $this->getMockBuilder(\Browscap\Data\Division::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['getUserAgents'])
+            ->getMock();
+
+        $division
             ->expects(self::once())
             ->method('getUserAgents')
             ->will(self::returnValue([0 => ['properties' => ['avd' => 'xyz']]]));
 
-        $mockCollection
+        $collection
             ->expects(self::once())
             ->method('getDefaultProperties')
-            ->will(self::returnValue($mockDivision));
+            ->will(self::returnValue($division));
 
         $uaData = [
             0 => [
@@ -229,16 +243,20 @@ class ExpanderTest extends \PHPUnit_Framework_TestCase
             ],
         ];
 
-        $mockDivision = $this->getMock('\Browscap\Data\Division', ['getUserAgents'], [], '', false);
-        $mockDivision
+        $division = $this->getMockBuilder(\Browscap\Data\Division::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['getUserAgents'])
+            ->getMock();
+
+        $division
             ->expects(self::once())
             ->method('getUserAgents')
             ->will(self::returnValue($uaData));
 
         $this->object->setLogger($this->logger);
-        self::assertSame($this->object, $this->object->setDataCollection($mockCollection));
+        self::assertSame($this->object, $this->object->setDataCollection($collection));
 
-        $result = $this->object->expand($mockDivision, 'TestDivision');
+        $result = $this->object->expand($division, 'TestDivision');
         self::assertInternalType('array', $result);
         self::assertCount(2, $result);
     }

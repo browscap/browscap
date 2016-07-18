@@ -49,9 +49,9 @@ class GrepGeneratorTest extends \PHPUnit_Framework_TestCase
      */
     public function testSetLogger()
     {
-        $mock = $this->getMock('\Monolog\Logger', [], [], '', false);
+        $logger = $this->createMock(\Monolog\Logger::class);
 
-        self::assertSame($this->object, $this->object->setLogger($mock));
+        self::assertSame($this->object, $this->object->setLogger($logger));
     }
 
     /**
@@ -62,11 +62,11 @@ class GrepGeneratorTest extends \PHPUnit_Framework_TestCase
      */
     public function testRun()
     {
-        $mockLogger = $this->getMock('\Monolog\Logger', [], [], '', false);
+        $logger = $this->createMock(\Monolog\Logger::class);
 
-        self::assertSame($this->object, $this->object->setLogger($mockLogger));
+        self::assertSame($this->object, $this->object->setLogger($logger));
 
-        $mockBrowscap = $this->getMock('\BrowscapPHP\Browscap', [], [], '', false);
+        $mockBrowscap = $this->createMock(\BrowscapPHP\Browscap::class);
 
         $tmpfile = tempnam(sys_get_temp_dir(), 'browscaptest');
 

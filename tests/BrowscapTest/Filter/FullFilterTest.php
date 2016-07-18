@@ -59,9 +59,9 @@ class FullFilterTest extends \PHPUnit_Framework_TestCase
      */
     public function testIsOutput()
     {
-        $mockDivision = $this->getMock('\Browscap\Data\Division', [], [], '', false);
+        $division = $this->createMock(\Browscap\Data\Division::class);
 
-        self::assertTrue($this->object->isOutput($mockDivision));
+        self::assertTrue($this->object->isOutput($division));
     }
 
     /**

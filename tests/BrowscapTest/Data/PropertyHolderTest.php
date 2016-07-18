@@ -250,7 +250,11 @@ class PropertyHolderTest extends \PHPUnit_Framework_TestCase
      */
     public function testIsStandardModePropertyWithWriter()
     {
-        $mockWriter = $this->getMock('\Browscap\Writer\CsvWriter', ['getType'], [], '', false);
+        $mockWriter = $this->getMockBuilder(\Browscap\Writer\CsvWriter::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['getType'])
+            ->getMock();
+
         $mockWriter
             ->expects(self::once())
             ->method('getType')
@@ -335,7 +339,11 @@ class PropertyHolderTest extends \PHPUnit_Framework_TestCase
      */
     public function testIsOutputPropertyWithWriter()
     {
-        $mockWriter = $this->getMock('\Browscap\Writer\CsvWriter', ['getType'], [], '', false);
+        $mockWriter = $this->getMockBuilder(\Browscap\Writer\CsvWriter::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['getType'])
+            ->getMock();
+
         $mockWriter
             ->expects(self::once())
             ->method('getType')

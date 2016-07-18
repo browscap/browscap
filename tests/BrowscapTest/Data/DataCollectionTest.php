@@ -82,7 +82,7 @@ class DataCollectionTest extends \PHPUnit_Framework_TestCase
      */
     public function testSetGetLogger()
     {
-        $logger = $this->getMock('\Monolog\Logger', [], [], '', false);
+        $logger = $this->createMock(\Monolog\Logger::class);
 
         self::assertSame($this->object, $this->object->setLogger($logger));
         self::assertSame($logger, $this->object->getLogger());
@@ -885,7 +885,7 @@ HERE;
 
         self::assertInternalType('array', $divisions);
         self::assertArrayHasKey(0, $divisions);
-        self::assertInstanceOf('\Browscap\Data\Division', $divisions[0]);
+        self::assertInstanceOf(\Browscap\Data\Division::class, $divisions[0]);
     }
 
     /**
@@ -902,7 +902,7 @@ HERE;
 
         self::assertInternalType('array', $divisions);
         self::assertArrayHasKey(0, $divisions);
-        self::assertInstanceOf('\Browscap\Data\Division', $divisions[0]);
+        self::assertInstanceOf(\Browscap\Data\Division::class, $divisions[0]);
     }
 
     /**
@@ -920,7 +920,7 @@ HERE;
 
         $division = $this->object->getDefaultProperties();
 
-        self::assertInstanceOf('\Browscap\Data\Division', $division);
+        self::assertInstanceOf(\Browscap\Data\Division::class, $division);
         self::assertSame('DefaultProperties', $division->getName());
     }
 
@@ -939,7 +939,7 @@ HERE;
 
         $division = $this->object->getDefaultBrowser();
 
-        self::assertInstanceOf('\Browscap\Data\Division', $division);
+        self::assertInstanceOf(\Browscap\Data\Division::class, $division);
         self::assertSame('Default Browser', $division->getName());
     }
 

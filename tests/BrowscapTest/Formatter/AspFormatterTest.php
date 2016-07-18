@@ -59,7 +59,7 @@ class AspFormatterTest extends \PHPUnit_Framework_TestCase
      */
     public function testSetGetFilter()
     {
-        $mockFilter = $this->getMock('\Browscap\Filter\FullFilter', [], [], '', false);
+        $mockFilter = $this->createMock(\Browscap\Filter\FullFilter::class);
 
         self::assertSame($this->object, $this->object->setFilter($mockFilter));
         self::assertSame($mockFilter, $this->object->getFilter());
