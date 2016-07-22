@@ -17,6 +17,9 @@
       "children": [
         {
           "match": "GetintentCrawler*"
+        },
+        {
+          "match": "GetIntent Crawler*"
         }
       ]
     }
