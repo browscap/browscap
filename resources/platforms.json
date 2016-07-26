@@ -151,6 +151,17 @@
         "Platform_Version": "10.11"
       }
     },
+    "OSX_10_12": {
+      "match": "*Mac OS X 10?12*",
+      "lite": false,
+      "standard": true,
+      "inherits": "OSX",
+      "properties": {
+        "Platform": "macOS",
+        "Platform_Description": "macOS",
+        "Platform_Version": "10.12"
+      }
+    },
     "OSX_B": {
       "match": "*Macintosh; OS X *",
       "lite": true,
