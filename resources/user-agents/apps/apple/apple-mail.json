@@ -230,6 +230,30 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit* (KHTML* like Gecko)",
           "properties": {
+            "Version": "10.0",
+            "MajorVer": "10",
+            "MinorVer": "0"
+          },
+          "device": "Macintosh",
+          "platforms": [
+            "OSX_10_12"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit* (KHTML* like Gecko)",
+          "properties": {
+            "Version": "9.0",
+            "MajorVer": "9",
+            "MinorVer": "0"
+          },
+          "device": "Macintosh",
+          "platforms": [
+            "OSX_10_11"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit* (KHTML* like Gecko)",
+          "properties": {
             "Version": "8.0",
             "MajorVer": "8",
             "MinorVer": "0"
