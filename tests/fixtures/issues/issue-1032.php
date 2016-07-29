@@ -1,21 +1,21 @@
 <?php
 
 return [
-    'issue-659' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.18 Safari/537.36',
+    'issue-1032' => [
+        'ua' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2794.0 Safari/537.36',
         'properties' => [
-            'Comment' => 'Chrome 44.0',
+            'Comment' => 'Chrome 54.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '64',
             'Browser_Maker' => 'Google Inc',
             'Browser_Modus' => 'unknown',
-            'Version' => '44.0',
-            'MajorVer' => '44',
+            'Version' => '54.0',
+            'MajorVer' => '54',
             'MinorVer' => '0',
-            'Platform' => 'Win8.1',
-            'Platform_Version' => '6.3',
-            'Platform_Description' => 'Windows 8.1',
+            'Platform' => 'Win10',
+            'Platform_Version' => '10.0',
+            'Platform_Description' => 'Windows 10',
             'Platform_Bits' => '64',
             'Platform_Maker' => 'Microsoft Corporation',
             'Alpha' => false,
@@ -51,7 +51,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite' => false,
+        'lite' => true,
         'standard' => true,
     ],
 ];

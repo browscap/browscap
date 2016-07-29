@@ -1,8 +1,8 @@
 {
   "division": "Chrome #MAJORVER#.#MINORVER#",
-  "versions": [44, 43, 42, 41, 40],
-  "sortIndex": 1148,
-  "lite": false,
+  "versions": [55],
+  "sortIndex": 1145,
+  "lite": true,
   "standard": true,
   "userAgents": [
     {
@@ -3988,6 +3988,27 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#Nexus 6P Build\/*) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "device": "Huawei Nexus 6P",
+          "platforms": [
+            "Android_6_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#Mi 4i Build\/*) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "device": "Xiaomi MI 4i",
+          "platforms": [
+            "Android_5_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#Aquaris M10 Build\/*) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "device": "BQ Aquaris M10",
+          "platforms": [
+            "Android_5_1"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "platforms": [
             "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
@@ -4118,7 +4139,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/*(KHTML,*like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "platforms": [
-            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
+            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android"
           ]
         },
         {
