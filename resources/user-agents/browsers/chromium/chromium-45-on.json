@@ -1,7 +1,7 @@
 {
   "division": "Chromium #MAJORVER#.#MINORVER#",
-  "versions": [53, 52, 51, 50, 49, 48, 47, 46, 45, 44, 43, 42, 41, 40],
-  "sortIndex": 879,
+  "versions": [55, 54, 53, 52, 51, 50, 49, 48, 47, 46, 45],
+  "sortIndex": 878,
   "lite": true,
   "standard": true,
   "userAgents": [

@@ -1058,7 +1058,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-563-U' => [
@@ -1429,7 +1429,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-563-AB' => [
@@ -1641,7 +1641,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-563-AF' => [
@@ -2224,7 +2224,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-563-AQ' => [
@@ -2383,7 +2383,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-563-AT' => [
@@ -3231,7 +3231,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-563-BJ' => [
@@ -4238,7 +4238,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-563-CC' => [
@@ -4821,7 +4821,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-563-CN' => [
@@ -4927,7 +4927,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-563-CQ' => [
@@ -5139,7 +5139,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-563-CU' => [
@@ -5616,7 +5616,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-563-DD' => [
@@ -8743,7 +8743,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-563-FK' => [
@@ -8796,7 +8796,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
 ];

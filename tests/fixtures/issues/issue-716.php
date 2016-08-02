@@ -51,7 +51,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-716-B' => [
@@ -104,7 +104,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-716-C' => [
@@ -263,7 +263,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-716-F' => [
