@@ -147,13 +147,13 @@
           "match": "ESPN Radio * (iPhone#PLATFORM#",
           "device": "iPhone",
           "platforms": [
-            "iOS_E_9_2", "iOS_E_9_1", "iOS_E_9_0", "iOS_E_8_1", "iOS_E_8_0", "iOS_E_7_1", "iOS_E_7_0", "iOS_E_6_1", "iOS_E_6_0", "iOS_E_5_1", "iOS_E"
+            "iOS_E_9_3", "iOS_E_9_2", "iOS_E_9_1", "iOS_E_9_0", "iOS_E_8_1", "iOS_E_8_0", "iOS_E_7_1", "iOS_E_7_0", "iOS_E_6_1", "iOS_E_6_0", "iOS_E_5_1", "iOS_E"
           ]
         },
         {
           "match": "ESPN Radio * (#PLATFORM#",
           "platforms": [
-            "iOS_E_9_2", "iOS_E_9_1", "iOS_E_9_0", "iOS_E_8_1", "iOS_E_8_0", "iOS_E_7_1", "iOS_E_7_0", "iOS_E_6_1", "iOS_E_6_0", "iOS_E_5_1", "iOS_E"
+            "iOS_E_9_3", "iOS_E_9_2", "iOS_E_9_1", "iOS_E_9_0", "iOS_E_8_1", "iOS_E_8_0", "iOS_E_7_1", "iOS_E_7_0", "iOS_E_6_1", "iOS_E_6_0", "iOS_E_5_1", "iOS_E"
           ]
         }
       ]
