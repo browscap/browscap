@@ -20,40 +20,40 @@
           "match": "FancyMusic * (iPhone#PLATFORM#",
           "device": "iPhone",
           "platforms": [
-            "iOS_E_9_2", "iOS_E_9_1", "iOS_E_9_0", "iOS_E_8_1", "iOS_E_8_0", "iOS_E_7_1", "iOS_E_7_0", "iOS_E_6_1", "iOS_E_6_0", "iOS_E_5_1", "iOS_E"
+            "iOS_E_9_3", "iOS_E_9_2", "iOS_E_9_1", "iOS_E_9_0", "iOS_E_8_1", "iOS_E_8_0", "iOS_E_7_1", "iOS_E_7_0", "iOS_E_6_1", "iOS_E_6_0", "iOS_E_5_1", "iOS_E"
           ]
         },
         {
           "match": "FancyMusic * (iPod#PLATFORM#",
           "device": "iPod Touch",
           "platforms": [
-            "iOS_E_9_2", "iOS_E_9_1", "iOS_E_9_0", "iOS_E_8_1", "iOS_E_8_0", "iOS_E_7_1", "iOS_E_7_0", "iOS_E_6_1", "iOS_E_6_0", "iOS_E_5_1", "iOS_E"
+            "iOS_E_9_3", "iOS_E_9_2", "iOS_E_9_1", "iOS_E_9_0", "iOS_E_8_1", "iOS_E_8_0", "iOS_E_7_1", "iOS_E_7_0", "iOS_E_6_1", "iOS_E_6_0", "iOS_E_5_1", "iOS_E"
           ]
         },
         {
           "match": "FancyMusic * (#PLATFORM#",
           "platforms": [
-            "iOS_E_9_2", "iOS_E_9_1", "iOS_E_9_0", "iOS_E_8_1", "iOS_E_8_0", "iOS_E_7_1", "iOS_E_7_0", "iOS_E_6_1", "iOS_E_6_0", "iOS_E_5_1", "iOS_E"
+            "iOS_E_9_3", "iOS_E_9_2", "iOS_E_9_1", "iOS_E_9_0", "iOS_E_8_1", "iOS_E_8_0", "iOS_E_7_1", "iOS_E_7_0", "iOS_E_6_1", "iOS_E_6_0", "iOS_E_5_1", "iOS_E"
           ]
         },
         {
           "match": "Fancy Cloud Music * (iPhone#PLATFORM#",
           "device": "iPhone",
           "platforms": [
-            "iOS_E_9_2", "iOS_E_9_1", "iOS_E_9_0", "iOS_E_8_1", "iOS_E_8_0", "iOS_E_7_1", "iOS_E_7_0", "iOS_E_6_1", "iOS_E_6_0", "iOS_E_5_1", "iOS_E"
+            "iOS_E_9_3", "iOS_E_9_2", "iOS_E_9_1", "iOS_E_9_0", "iOS_E_8_1", "iOS_E_8_0", "iOS_E_7_1", "iOS_E_7_0", "iOS_E_6_1", "iOS_E_6_0", "iOS_E_5_1", "iOS_E"
           ]
         },
         {
           "match": "Fancy Cloud Music * (iPod#PLATFORM#",
           "device": "iPod Touch",
           "platforms": [
-            "iOS_E_9_2", "iOS_E_9_1", "iOS_E_9_0", "iOS_E_8_1", "iOS_E_8_0", "iOS_E_7_1", "iOS_E_7_0", "iOS_E_6_1", "iOS_E_6_0", "iOS_E_5_1", "iOS_E"
+            "iOS_E_9_3", "iOS_E_9_2", "iOS_E_9_1", "iOS_E_9_0", "iOS_E_8_1", "iOS_E_8_0", "iOS_E_7_1", "iOS_E_7_0", "iOS_E_6_1", "iOS_E_6_0", "iOS_E_5_1", "iOS_E"
           ]
         },
         {
           "match": "Fancy Cloud Music * (#PLATFORM#",
           "platforms": [
-            "iOS_E_9_2", "iOS_E_9_1", "iOS_E_9_0", "iOS_E_8_1", "iOS_E_8_0", "iOS_E_7_1", "iOS_E_7_0", "iOS_E_6_1", "iOS_E_6_0", "iOS_E_5_1", "iOS_E"
+            "iOS_E_9_3", "iOS_E_9_2", "iOS_E_9_1", "iOS_E_9_0", "iOS_E_8_1", "iOS_E_8_0", "iOS_E_7_1", "iOS_E_7_0", "iOS_E_6_1", "iOS_E_6_0", "iOS_E_5_1", "iOS_E"
           ]
         }
       ]
