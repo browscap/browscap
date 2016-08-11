@@ -19578,6 +19578,19 @@
         "isTablet": "false"
       }
     },
+    "Huawei VNS-L31": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "VNS-L31",
+        "Device_Name": "P9 Lite",
+        "Device_Maker": "Huawei",
+        "Device_Brand_Name": "Huawei",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "UTStarcom GTX75": {
       "standard": false,
       "properties": {
