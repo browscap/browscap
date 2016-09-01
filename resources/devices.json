@@ -403,6 +403,19 @@
         "isTablet": "false"
       }
     },
+    "Sony L50u": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "L50u",
+        "Device_Name": "Xperia Z2 LTE",
+        "Device_Maker": "Sony",
+        "Device_Brand_Name": "Sony",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Sony C6833": {
       "standard": false,
       "properties": {
@@ -13559,6 +13572,19 @@
         "isTablet": "false"
       }
     },
+    "HTC M9": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "M9",
+        "Device_Name": "One M9",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "HTC X515": {
       "standard": false,
       "properties": {
@@ -20345,6 +20371,19 @@
         "isTablet": "false"
       }
     },
+    "Microsoft Lumia 650": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Lumia 650",
+        "Device_Name": "Lumia 650",
+        "Device_Maker": "Microsoft Corporation",
+        "Device_Brand_Name": "Microsoft",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Nokia Lumia 930": {
       "standard": false,
       "properties": {
@@ -22551,6 +22590,19 @@
         "Device_Maker": "Nokia",
         "Device_Brand_Name": "Nokia",
         "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia XL2": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "XL2",
+        "Device_Name": "XL2",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
@@ -29081,6 +29133,45 @@
         "isTablet": "true"
       }
     },
+    "Xiaomi Mi Max": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Mi Max",
+        "Device_Code_Name": "Mi Max",
+        "Device_Maker": "Xiaomi Tech",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Xiaomi",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Xiaomi Redmi 3": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Redmi 3",
+        "Device_Code_Name": "Redmi 3",
+        "Device_Maker": "Xiaomi Tech",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Xiaomi",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Xiaomi Redmi 3S": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Redmi 3S",
+        "Device_Code_Name": "Redmi 3S",
+        "Device_Maker": "Xiaomi Tech",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Xiaomi",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "BLU Vivo IV": {
       "standard": false,
       "properties": {
@@ -34567,6 +34658,19 @@
         "isTablet": "false"
       }
     },
+    "Meizu MX5": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "MX5",
+        "Device_Code_Name": "MX5",
+        "Device_Maker": "Meizu Technology Co., Ltd.",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Meizu",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "GzOne CAL21": {
       "standard": false,
       "properties": {
@@ -36029,6 +36133,19 @@
         "Device_Type": "Mobile Phone",
         "Device_Name": "One",
         "Device_Code_Name": "A0001",
+        "Device_Maker": "OnePlus",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "OnePlus",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "OnePlus A3000": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "3",
+        "Device_Code_Name": "A3000",
         "Device_Maker": "OnePlus",
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "OnePlus",
