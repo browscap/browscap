@@ -2505,6 +2505,18 @@
         "Win32": "false"
       }
     },
+    "WinPhone10_B": {
+      "match": "*Windows; U; wds 10.0*",
+      "lite": true,
+      "standard": true,
+      "inherits": "Windows",
+      "properties": {
+        "Platform": "WinPhone10",
+        "Platform_Version": "10.0",
+        "Platform_Description": "Windows Phone OS 10.0",
+        "Win32": "false"
+      }
+    },
     "Android": {
       "match": "*Linux*Android*",
       "lite": true,
