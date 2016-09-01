@@ -4537,6 +4537,19 @@
         "isTablet": "false"
       }
     },
+    "Samsung Galaxy Nexus": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Galaxy Nexus",
+        "Device_Name": "Galaxy Nexus",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Samsung NexusS": {
       "standard": false,
       "properties": {
@@ -4548,6 +4561,19 @@
         "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
+      }
+    },
+    "Samsung Nexus 10": {
+      "standard": true,
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "Nexus 10",
+        "Device_Name": "Nexus 10",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Google",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
       }
     },
     "GT-P1000": {
@@ -4844,19 +4870,6 @@
         "Device_Name": "Galaxy Tab 8.9 LTE",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true",
-        "isTablet": "true"
-      }
-    },
-    "Samsung Nexus 10": {
-      "standard": true,
-      "properties": {
-        "Device_Type": "Tablet",
-        "Device_Code_Name": "Nexus 10",
-        "Device_Name": "Nexus 10",
-        "Device_Maker": "Samsung",
-        "Device_Brand_Name": "Google",
         "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
@@ -9490,19 +9503,6 @@
         "isTablet": "false"
       }
     },
-    "Samsung Galaxy Nexus": {
-      "standard": false,
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "Galaxy Nexus",
-        "Device_Name": "Galaxy Nexus",
-        "Device_Maker": "Samsung",
-        "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
     "Samsung C3050": {
       "standard": false,
       "properties": {
@@ -9761,6 +9761,19 @@
         "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "true"
+      }
+    },
+    "Asus Nexus Player": {
+      "standard": true,
+      "properties": {
+        "Device_Type": "TV Device",
+        "Device_Code_Name": "Nexus Player",
+        "Device_Name": "Nexus Player",
+        "Device_Maker": "Asus",
+        "Device_Brand_Name": "Google",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "false",
+        "isTablet": "false"
       }
     },
     "Asus SL101": {
@@ -15704,32 +15717,6 @@
         "isTablet": "false"
       }
     },
-    "LG D802": {
-      "standard": false,
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "D802",
-        "Device_Name": "G2",
-        "Device_Maker": "LG",
-        "Device_Brand_Name": "LG",
-        "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
-    "LG P705": {
-      "standard": false,
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "P705",
-        "Device_Name": "Optimus L7",
-        "Device_Maker": "LG",
-        "Device_Brand_Name": "LG",
-        "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
     "LG Nexus 5": {
       "standard": false,
       "properties": {
@@ -15751,6 +15738,32 @@
         "Device_Name": "Nexus 5X",
         "Device_Maker": "LG",
         "Device_Brand_Name": "Google",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG D802": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "D802",
+        "Device_Name": "G2",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG P705": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "P705",
+        "Device_Name": "Optimus L7",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
         "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
@@ -37034,6 +37047,19 @@
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Rivo",
         "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Minix NEO X5": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "TV Device",
+        "Device_Name": "NEO X5",
+        "Device_Code_Name": "NEO X5",
+        "Device_Maker": "Minix",
+        "Device_Pointing_Method": "unknown",
+        "Device_Brand_Name": "Minix",
+        "isMobileDevice": "false",
         "isTablet": "false"
       }
     }

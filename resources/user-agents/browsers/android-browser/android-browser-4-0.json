@@ -6082,6 +6082,13 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#NEO-X5-116A Build\/*) *AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "device": "Minix NEO X5",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
           "match": "HTC_ChaCha_A810e\/Mozilla\/5.0(#PLATFORM#Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "device": "HTC A810e",
           "platforms": [
