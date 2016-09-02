@@ -5162,6 +5162,27 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#MZ-MX5 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "device": "Meizu MX5",
+          "platforms": [
+            "Android_5_1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#Redmi 3S Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "device": "Xiaomi Redmi 3S",
+          "platforms": [
+            "Android_6_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#L50u Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "device": "Sony L50u",
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KTHML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "platforms": [
             "Android_4_4"

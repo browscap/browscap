@@ -1,6 +1,6 @@
 {
   "division": "UC Browser #MAJORVER#.#MINORVER#",
-  "versions": ["10.8", "10.7", "10.6", "10.5", "10.4", "10.3", "10.2", "10.1", "10.0"],
+  "versions": ["10.10", "10.9", "10.8", "10.7", "10.6", "10.5", "10.4", "10.3", "10.2", "10.1", "10.0"],
   "sortIndex": 931,
   "lite": false,
   "standard": true,
@@ -820,6 +820,14 @@
           "match": "Mozilla\/5.0 (#PLATFORM#XT1068 Build\/*) AppleWebKit\/* (KHTML* like Gecko) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
           "engine": "U3",
           "device": "Motorola XT1068",
+          "platforms": [
+            "Android_6_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#HTC One M9 Build\/*) AppleWebKit\/* (KHTML* like Gecko) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "engine": "U3",
+          "device": "HTC M9",
           "platforms": [
             "Android_6_0"
           ]

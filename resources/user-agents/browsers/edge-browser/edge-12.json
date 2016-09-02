@@ -64,6 +64,13 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#Microsoft; id336*) AppleWebKit\/* (KHTML* like Gecko) Chrome\/* Safari\/* Edge\/#MAJORVER#.*",
+          "device": "Microsoft Lumia 650",
+          "platforms": [
+            "WinPhone10"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Chrome\/* Safari\/* Edge\/#MAJORVER#.*",
           "platforms": [
             "WinPhone10"
