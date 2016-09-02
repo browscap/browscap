@@ -13637,6 +13637,19 @@
         "isTablet": "false"
       }
     },
+    "HTC PC36100": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "PC36100",
+        "Device_Name": "EVO 4G",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "HTC M7 (HTC6500LVW)": {
       "standard": false,
       "properties": {

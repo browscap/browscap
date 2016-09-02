@@ -6,12 +6,14 @@
   "userAgents": [
     {
       "userAgent": "Barca Mail Client",
-      "platform": "OSX",
-      "device": "Macintosh",
+      "platform": "Windows",
+      "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Barca Mail Client",
+        "Browser": "Barca Mail Client",
         "Browser_Type": "Email Client",
+        "Browser_Maker": "Poco Systems Inc.",
         "Alpha": "false",
         "Beta": "false",
         "Frames": "false",
@@ -20,8 +22,7 @@
         "Cookies": "false",
         "JavaScript": "false",
         "isSyndicationReader": "false",
-        "Crawler": "false",
-        "Browser": "Barca Mail Client"
+        "Crawler": "false"
       },
       "children": [
         {
@@ -56,6 +57,14 @@
             "Version": "2.8",
             "MajorVer": "2",
             "MinorVer": "8"
+          }
+        },
+        {
+          "match": "BarcaPro\/1.4*",
+          "properties": {
+            "Version": "1.4",
+            "MajorVer": "1",
+            "MinorVer": "4"
           }
         },
         {

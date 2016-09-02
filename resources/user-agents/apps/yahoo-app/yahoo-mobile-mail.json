@@ -1,0 +1,48 @@
+{
+  "division": "Yahoo Mail Mobile #MAJORVER#.#MINORVER#",
+  "versions": [1],
+  "sortIndex": 1331,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Yahoo Mail Mobile #MAJORVER#.#MINORVER#",
+      "device": "general Mobile Phone (Touch)",
+      "engine": "WebKit",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Yahoo Mail Mobile #MAJORVER#.#MINORVER#",
+        "Browser": "Yahoo Mail Mobile",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Browser_Type": "Email Client",
+        "Browser_Maker": "Yahoo! Inc.",
+        "Alpha": "false",
+        "Beta": "false",
+        "Frames": "false",
+        "IFrames": "false",
+        "Tables": "false",
+        "Cookies": "false",
+        "JavaScript": "false",
+        "Crawler": "false",
+        "isSyndicationReader": "false"
+      },
+      "children": [
+        {
+          "match": "YahooMobileMail\/#MAJORVER#.#MINORVER#*HTC;PC36100*",
+          "device": "HTC PC36100",
+          "platforms": [
+            "Android"
+          ]
+        },
+        {
+          "match": "YahooMobileMail\/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}
