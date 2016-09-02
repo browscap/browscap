@@ -20384,12 +20384,12 @@
         "isTablet": "false"
       }
     },
-    "Nokia Lumia 635": {
+    "Nokia Lumia 510": {
       "standard": false,
       "properties": {
         "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "Lumia 635",
-        "Device_Name": "Lumia 635",
+        "Device_Code_Name": "Lumia 510",
+        "Device_Name": "Lumia 510",
         "Device_Maker": "Nokia",
         "Device_Brand_Name": "Nokia",
         "Device_Pointing_Method": "touchscreen",
@@ -20405,19 +20405,6 @@
         "Device_Name": "Lumia 650",
         "Device_Maker": "Microsoft Corporation",
         "Device_Brand_Name": "Microsoft",
-        "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
-    "Nokia Lumia 930": {
-      "standard": false,
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "Lumia 930",
-        "Device_Name": "Lumia 930",
-        "Device_Maker": "Nokia",
-        "Device_Brand_Name": "Nokia",
         "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
@@ -20449,12 +20436,12 @@
         "isTablet": "false"
       }
     },
-    "Nokia Lumia 630": {
+    "Nokia Lumia 530": {
       "standard": false,
       "properties": {
         "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "Lumia 630",
-        "Device_Name": "Lumia 630",
+        "Device_Code_Name": "Lumia 530",
+        "Device_Name": "Lumia 530",
         "Device_Maker": "Nokia",
         "Device_Brand_Name": "Nokia",
         "Device_Pointing_Method": "touchscreen",
@@ -20462,38 +20449,51 @@
         "isTablet": "false"
       }
     },
-    "Nokia Lumia 925": {
+    "Microsoft RM-1031": {
       "standard": false,
       "properties": {
         "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "Lumia 925",
-        "Device_Name": "Lumia 925",
-        "Device_Maker": "Nokia",
-        "Device_Brand_Name": "Nokia",
+        "Device_Code_Name": "RM-1031",
+        "Device_Name": "Lumia 532",
+        "Device_Maker": "Microsoft Corporation",
+        "Device_Brand_Name": "Microsoft",
         "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
     },
-    "Nokia Lumia 920": {
+    "Microsoft RM-1089": {
       "standard": false,
       "properties": {
         "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "Lumia 920",
-        "Device_Name": "Lumia 920",
-        "Device_Maker": "Nokia",
-        "Device_Brand_Name": "Nokia",
+        "Device_Code_Name": "RM-1089",
+        "Device_Name": "Lumia 535",
+        "Device_Maker": "Microsoft Corporation",
+        "Device_Brand_Name": "Microsoft",
         "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
     },
-    "Nokia Lumia 820": {
+    "Microsoft RM-1090": {
       "standard": false,
       "properties": {
         "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "Lumia 820",
-        "Device_Name": "Lumia 820",
+        "Device_Code_Name": "RM-1090",
+        "Device_Name": "Lumia 535 Dual SIM",
+        "Device_Maker": "Microsoft Corporation",
+        "Device_Brand_Name": "Microsoft",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia Lumia 610": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Lumia 610",
+        "Device_Name": "Lumia 610",
         "Device_Maker": "Nokia",
         "Device_Brand_Name": "Nokia",
         "Device_Pointing_Method": "touchscreen",
@@ -20506,6 +20506,19 @@
       "properties": {
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Lumia 620",
+        "Device_Name": "Lumia 620",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia Lumia 620 RM-846": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "RM-846",
         "Device_Name": "Lumia 620",
         "Device_Maker": "Nokia",
         "Device_Brand_Name": "Nokia",
@@ -20527,14 +20540,105 @@
         "isTablet": "false"
       }
     },
-    "Nokia Lumia 720": {
+    "Nokia Lumia 630": {
       "standard": false,
       "properties": {
         "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "Lumia 720",
-        "Device_Name": "Lumia 720",
+        "Device_Code_Name": "Lumia 630",
+        "Device_Name": "Lumia 630",
         "Device_Maker": "Nokia",
         "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia Lumia 630 RM-976": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "RM-976",
+        "Device_Name": "Lumia 630",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia Lumia 635": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Lumia 635",
+        "Device_Name": "Lumia 635",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia Lumia 635 RM-974": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "RM-974",
+        "Device_Name": "Lumia 635",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia Lumia 638 RM-1010": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "RM-1010",
+        "Device_Name": "Lumia 638",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Microsoft RM-1113": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "RM-1113",
+        "Device_Name": "Lumia 640 LTE",
+        "Device_Maker": "Microsoft Corporation",
+        "Device_Brand_Name": "Microsoft",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Microsoft RM-1067": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "RM-1067",
+        "Device_Name": "Lumia 640 XL",
+        "Device_Maker": "Microsoft Corporation",
+        "Device_Brand_Name": "Microsoft",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Microsoft RM-1075": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "RM-1075",
+        "Device_Name": "Lumia 640 Dual SIM LTE",
+        "Device_Maker": "Microsoft Corporation",
+        "Device_Brand_Name": "Microsoft",
         "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
@@ -20546,6 +20650,19 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "Lumia 710",
         "Device_Name": "Lumia 710",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia Lumia 720": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Lumia 720",
+        "Device_Name": "Lumia 720",
         "Device_Maker": "Nokia",
         "Device_Brand_Name": "Nokia",
         "Device_Pointing_Method": "touchscreen",
@@ -20566,12 +20683,12 @@
         "isTablet": "false"
       }
     },
-    "Nokia Lumia 1020": {
+    "Nokia Lumia 735": {
       "standard": false,
       "properties": {
         "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "Lumia 1020",
-        "Device_Name": "Lumia 1020",
+        "Device_Code_Name": "Lumia 735",
+        "Device_Name": "Lumia 735",
         "Device_Maker": "Nokia",
         "Device_Brand_Name": "Nokia",
         "Device_Pointing_Method": "touchscreen",
@@ -20579,12 +20696,12 @@
         "isTablet": "false"
       }
     },
-    "Nokia Lumia 900": {
+    "Nokia Lumia 735 RM-1038": {
       "standard": false,
       "properties": {
         "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "Lumia 900",
-        "Device_Name": "Lumia 900",
+        "Device_Code_Name": "RM-1038",
+        "Device_Name": "Lumia 735",
         "Device_Maker": "Nokia",
         "Device_Brand_Name": "Nokia",
         "Device_Pointing_Method": "touchscreen",
@@ -20605,12 +20722,12 @@
         "isTablet": "false"
       }
     },
-    "Nokia Lumia 610": {
+    "Nokia Lumia 820": {
       "standard": false,
       "properties": {
         "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "Lumia 610",
-        "Device_Name": "Lumia 610",
+        "Device_Code_Name": "Lumia 820",
+        "Device_Name": "Lumia 820",
         "Device_Maker": "Nokia",
         "Device_Brand_Name": "Nokia",
         "Device_Pointing_Method": "touchscreen",
@@ -20618,12 +20735,116 @@
         "isTablet": "false"
       }
     },
-    "Nokia Lumia 510": {
+    "Nokia Lumia 900": {
       "standard": false,
       "properties": {
         "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "Lumia 510",
-        "Device_Name": "Lumia 510",
+        "Device_Code_Name": "Lumia 900",
+        "Device_Name": "Lumia 900",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia Lumia 920": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Lumia 920",
+        "Device_Name": "Lumia 920",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia Lumia 925": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Lumia 925",
+        "Device_Name": "Lumia 925",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia Lumia 928": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Lumia 928",
+        "Device_Name": "Lumia 928",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia Lumia 930": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Lumia 930",
+        "Device_Name": "Lumia 930",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia Lumia 930 RM-1045": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "RM-1045",
+        "Device_Name": "Lumia 930",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia Lumia 1020": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Lumia 1020",
+        "Device_Name": "Lumia 1020",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia Lumia 1320": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Lumia 1320",
+        "Device_Name": "Lumia 1320",
+        "Device_Maker": "Nokia",
+        "Device_Brand_Name": "Nokia",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Nokia Lumia 1320 RM-994": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "RM-994",
+        "Device_Name": "Lumia 1320",
         "Device_Maker": "Nokia",
         "Device_Brand_Name": "Nokia",
         "Device_Pointing_Method": "touchscreen",
@@ -22928,45 +23149,6 @@
         "Device_Maker": "Nokia",
         "Device_Brand_Name": "Nokia",
         "Device_Pointing_Method": "unknown",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
-    "Nokia Lumia 1320": {
-      "standard": false,
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "Lumia 1320",
-        "Device_Name": "Lumia 1320",
-        "Device_Maker": "Nokia",
-        "Device_Brand_Name": "Nokia",
-        "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
-    "Nokia Lumia 928": {
-      "standard": false,
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "Lumia 928",
-        "Device_Name": "Lumia 928",
-        "Device_Maker": "Nokia",
-        "Device_Brand_Name": "Nokia",
-        "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true",
-        "isTablet": "false"
-      }
-    },
-    "Nokia Lumia 530": {
-      "standard": false,
-      "properties": {
-        "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "Lumia 530",
-        "Device_Name": "Lumia 530",
-        "Device_Maker": "Nokia",
-        "Device_Brand_Name": "Nokia",
-        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }

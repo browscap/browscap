@@ -35,6 +35,48 @@
           ]
         },
         {
+          "match": "UCWEB\/*(#PLATFORM#NOKIA; RM-974*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "device": "Nokia Lumia 635 RM-974",
+          "platforms": [
+            "WinPhone8.1_B"
+          ]
+        },
+        {
+          "match": "UCWEB\/*(#PLATFORM#NOKIA; RM-1045*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "device": "Nokia Lumia 930 RM-1045",
+          "platforms": [
+            "WinPhone10_B", "WinPhone8.1_B"
+          ]
+        },
+        {
+          "match": "UCWEB\/*(#PLATFORM#NOKIA; RM-976*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "device": "Nokia Lumia 630 RM-976",
+          "platforms": [
+            "WinPhone8.1_B"
+          ]
+        },
+        {
+          "match": "UCWEB\/*(#PLATFORM#NOKIA; RM-846*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "device": "Nokia Lumia 620 RM-846",
+          "platforms": [
+            "WinPhone8.1_B"
+          ]
+        },
+        {
+          "match": "UCWEB\/*(#PLATFORM#Microsoft; RM-1089*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "device": "Microsoft RM-1089",
+          "platforms": [
+            "WinPhone8.1_B"
+          ]
+        },
+        {
+          "match": "UCWEB\/*(#PLATFORM#NOKIA; RM-1038*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "device": "Nokia Lumia 735 RM-1038",
+          "platforms": [
+            "WinPhone8.1_B"
+          ]
+        },
+        {
           "match": "UCWEB\/*(#PLATFORM#) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
           "platforms": [
             "WinPhone8.1_B"

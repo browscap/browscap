@@ -220,6 +220,41 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (compatible*; MSIE #MAJORVER#*; #PLATFORM# *Trident\/6.0; IEMobile?#MAJORVER#*; ARM; Touch; Microsoft; RM-1113*)",
+          "device": "Microsoft RM-1113",
+          "platforms": [
+            "WinPhone8"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible*; MSIE #MAJORVER#*; #PLATFORM# *Trident\/6.0; IEMobile?#MAJORVER#*; ARM; Touch; Microsoft; RM-1067*)",
+          "device": "Microsoft RM-1067",
+          "platforms": [
+            "WinPhone8.1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible*; MSIE #MAJORVER#*; #PLATFORM# *Trident\/6.0; IEMobile?#MAJORVER#*; ARM; Touch; Microsoft; RM-1075*)",
+          "device": "Microsoft RM-1075",
+          "platforms": [
+            "WinPhone8.1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible*; MSIE #MAJORVER#*; #PLATFORM# *Trident\/6.0; IEMobile?#MAJORVER#*; ARM; Touch; NOKIA; RM-976*)",
+          "device": "Nokia Lumia 630 RM-976",
+          "platforms": [
+            "WinPhone8.1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible*; MSIE #MAJORVER#*; #PLATFORM# *Trident\/6.0; IEMobile?#MAJORVER#*; ARM; Touch; NOKIA; RM-1045*)",
+          "device": "Nokia Lumia 930 RM-1045",
+          "platforms": [
+            "WinPhone8.1"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (compatible*; MSIE #MAJORVER#*; #PLATFORM# *Trident\/6.0; IEMobile?#MAJORVER#*; ARM; Touch; *)",
           "platforms": [
             "WinPhone8"
