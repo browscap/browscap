@@ -1,0 +1,36 @@
+{
+  "division": "Kodi Media Center #MAJORVER#.#MINORVER#",
+  "versions": [17, "16.1", 16],
+  "sortIndex": 1560,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Kodi Media Center #MAJORVER#.#MINORVER#",
+      "device": "Windows Desktop",
+      "platform": "Windows",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Kodi Media Center #MAJORVER#.#MINORVER#",
+        "Browser": "Kodi Media Center",
+        "Browser_Type": "Multimedia Player",
+        "Browser_Maker": "XBMC Foundation",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true"
+      },
+      "children": [
+        {
+          "match": "Kodi\/#MAJORVER#.#MINORVER#* (#PLATFORM#",
+          "platforms": [
+            "Win10_x64_B", "Win10_64_B", "Win10_32_B"
+          ]
+        }
+      ]
+    }
+  ]
+}
