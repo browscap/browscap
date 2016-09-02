@@ -64,6 +64,13 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#Xbox; Xbox One) AppleWebKit\/* (KHTML* like Gecko) Chrome\/* Safari\/* Edge\/#MAJORVER#.*",
+          "device": "Microsoft Xbox One",
+          "platforms": [
+            "WinPhone10"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Chrome\/* Safari\/* Edge\/#MAJORVER#.*",
           "platforms": [
             "WinPhone10"
