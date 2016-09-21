@@ -508,9 +508,17 @@
           }
         },
         {
+          "match": "NL-Crawler*",
+          "properties": {
+            "Browser": "Northern Light Web Search",
+            "Browser_Maker": "Northern Light"
+          }
+        },
+        {
           "match": "Mozilla\/5.0 (compatible; NLCrawler\/*",
           "properties": {
-            "Browser": "Northern Light Web Search"
+            "Browser": "Northern Light Web Search",
+            "Browser_Maker": "Northern Light"
           }
         },
         {
