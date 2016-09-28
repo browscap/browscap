@@ -28,7 +28,7 @@ return [
             'Tables' => true,
             'Cookies' => false,
             'BackgroundSounds' => false,
-            'JavaScript' => true,
+            'JavaScript' => false,
             'VBScript' => false,
             'JavaApplets' => true,
             'ActiveXControls' => false,
