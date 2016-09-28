@@ -129,6 +129,20 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#.#MINORVER#*; IEMobile?#MAJORVER#.#MINORVER#; Microsoft; RM-1074*",
+          "device": "Microsoft RM-1074",
+          "platforms": [
+            "WinPhone8.1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#.#MINORVER#*; IEMobile?#MAJORVER#.#MINORVER#; Microsoft;Lumia 535 Dual SIM*",
+          "device": "Microsoft RM-1090",
+          "platforms": [
+            "WinPhone8.1"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (compatible; MSIE 10*; #PLATFORM# *Trident\/6.0; IEMobile?10*; ARM; Touch; rv:#MAJORVER#*; NOKIA; Lumia 920) like Gecko*",
           "properties": {
             "Comment": "IEMobile #MAJORVER#.#MINORVER# in IEMobile 10.0 Compatibility Mode",
