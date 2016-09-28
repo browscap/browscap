@@ -2405,6 +2405,19 @@
         "isTablet": "false"
       }
     },
+    "Sony E5823": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "E5823",
+        "Device_Name": "Xperia Z5 Compact LTE",
+        "Device_Maker": "Sony",
+        "Device_Brand_Name": "Sony",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Ericsson T68": {
       "standard": false,
       "properties": {
