@@ -31,6 +31,12 @@
           "platforms": [
             "WinRT8_32", "WinRT8_1_32"
           ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#Trident\/7.0*",
+          "platforms": [
+            "WinRT8_32", "WinRT8_1_32"
+          ]
         }
       ]
     },
