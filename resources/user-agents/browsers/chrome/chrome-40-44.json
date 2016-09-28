@@ -2948,7 +2948,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#LG-D855 Build\/*) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "device": "LG D855",
           "platforms": [
-            "Android_4_4"
+            "Android_4_4", "Android_5_0"
           ]
         },
         {
