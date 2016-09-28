@@ -37374,6 +37374,19 @@
         "isMobileDevice": "false",
         "isTablet": "false"
       }
+    },
+    "Quanta QTAQZ3": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "Ellipsis 8",
+        "Device_Code_Name": "QTAQZ3",
+        "Device_Maker": "Quanta",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Verizon",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
     }
   }
 }
