@@ -2945,13 +2945,6 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#LG-D855 Build\/*) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "device": "LG D855",
-          "platforms": [
-            "Android_4_4"
-          ]
-        },
-        {
           "match": "Mozilla\/5.0 (#PLATFORM#Norma 2 Build\/*) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "device": "Keneksi Norma 2",
           "platforms": [
@@ -3993,6 +3986,20 @@
             "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
             "Android_2_0", "Android_2_1", "Android_2_2", "Android_2_3",
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3",
+            "Android_4_4", "Android_5_0", "Android_5_1", "Android_6_0",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#LG-D855 Build\/*)*AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "device": "LG D855",
+          "platforms": [
+            "Android_4_4", "Android_5_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "platforms": [
             "Android_4_4", "Android_5_0", "Android_5_1", "Android_6_0",
             "Android"
           ]
