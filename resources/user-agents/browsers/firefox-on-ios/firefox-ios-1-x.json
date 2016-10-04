@@ -1,7 +1,7 @@
 {
   "division": "Firefox #MAJORVER#.#MINORVER# for iOS",
-  "versions": [1],
-  "sortIndex": 1166,
+  "versions": ["1.1", 1],
+  "sortIndex": 1167,
   "lite": false,
   "standard": true,
   "userAgents": [
@@ -31,9 +31,9 @@
           "match": "Mozilla\/5.0 (iPhone#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) FxiOS\/#MAJORVER#.#MINORVER#* Safari\/*",
           "device": "iPhone",
           "platforms": [
-            "iOS_A_8_0", "iOS_A_8_1", "iOS_A_8_2", "iOS_A_8_3",
+            "iOS_A_8_4", "iOS_A_8_3", "iOS_A_8_2", "iOS_A_8_1", "iOS_A_8_0",
             "iOS_A",
-            "iOS_C_8_1", "iOS_C_8_2", "iOS_C_8_3", "iOS_C_8_0",
+            "iOS_C_8_4", "iOS_C_8_3", "iOS_C_8_2", "iOS_C_8_1", "iOS_C_8_0",
             "iOS_C"
           ]
         },
@@ -41,18 +41,18 @@
           "match": "Mozilla\/5.0 (iPad#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) FxiOS\/#MAJORVER#.#MINORVER#* Safari\/*",
           "device": "iPad",
           "platforms": [
-            "iOS_A_8_0", "iOS_A_8_1", "iOS_A_8_2", "iOS_A_8_3",
+            "iOS_A_8_4", "iOS_A_8_3", "iOS_A_8_2", "iOS_A_8_1", "iOS_A_8_0",
             "iOS_A",
-            "iOS_C_8_1", "iOS_C_8_2", "iOS_C_8_3", "iOS_C_8_0",
+            "iOS_C_8_4", "iOS_C_8_3", "iOS_C_8_2", "iOS_C_8_1", "iOS_C_8_0",
             "iOS_C"
           ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) FxiOS\/#MAJORVER#.#MINORVER#* Safari\/*",
           "platforms": [
-            "iOS_A_8_0", "iOS_A_8_1", "iOS_A_8_2", "iOS_A_8_3",
+            "iOS_A_8_4", "iOS_A_8_3", "iOS_A_8_2", "iOS_A_8_1", "iOS_A_8_0",
             "iOS_A",
-            "iOS_C_8_1", "iOS_C_8_2", "iOS_C_8_3", "iOS_C_8_0",
+            "iOS_C_8_4", "iOS_C_8_3", "iOS_C_8_2", "iOS_C_8_1", "iOS_C_8_0",
             "iOS_C"
           ]
         }
