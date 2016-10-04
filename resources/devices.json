@@ -9958,6 +9958,19 @@
         "isTablet": "true"
       }
     },
+    "Asus K01E": {
+      "standard": true,
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "K01E",
+        "Device_Name": "MeMO Pad 10",
+        "Device_Maker": "Asus",
+        "Device_Brand_Name": "Asus",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Asus ME302C": {
       "standard": true,
       "properties": {

@@ -1895,6 +1895,13 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#K01E Build\/*) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "device": "Asus K01E",
+          "platforms": [
+            "Android_5_0"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#PMT3377_Wi Build\/*) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "device": "Prestigio PMT3377_Wi",
           "platforms": [
