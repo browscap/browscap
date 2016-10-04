@@ -20631,6 +20631,19 @@
         "isTablet": "false"
       }
     },
+    "Microsoft RM-1074": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "RM-1074",
+        "Device_Name": "Lumia 640 XL",
+        "Device_Maker": "Microsoft Corporation",
+        "Device_Brand_Name": "Microsoft",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Microsoft RM-1075": {
       "standard": false,
       "properties": {
