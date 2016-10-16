@@ -1,7 +1,7 @@
 {
   "division": "Postbox #MAJORVER#.#MINORVER#",
-  "versions": [3],
-  "sortIndex": 1760,
+  "versions": [4],
+  "sortIndex": 1759,
   "lite": false,
   "standard": true,
   "userAgents": [
@@ -15,6 +15,7 @@
         "Comment": "Postbox #MAJORVER#.#MINORVER#",
         "Browser": "Postbox",
         "Browser_Type": "Email Client",
+        "Browser_Maker": "Postbox, Inc.",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
@@ -33,6 +34,14 @@
           "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Postbox\/#MAJORVER#.*",
           "platforms": [
             "OSX_10_8", "OSX_10_9", "OSX_10_10", "OSX"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Postbox\/#MAJORVER#.*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win8_1_x64", "Win8_1_64", "Win8_1_32",
+            "Win8_x64", "Win8_64", "Win8_32"
           ]
         }
       ]
