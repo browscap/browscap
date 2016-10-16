@@ -1,16 +1,17 @@
 {
-  "division": "bitlybot",
+  "division": "AntiSpamBot",
   "sortIndex": 100,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "bitlybot",
+      "userAgent": "AntiSpamBot",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Bitlybot",
-        "Browser": "BitlyBot",
+        "Comment": "AntiSpamBot",
+        "Browser": "AntiSpamBot",
         "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "Interdose Ltd. & Co KG",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
@@ -18,7 +19,7 @@
       },
       "children": [
         {
-          "match": "bitlybot\/2.*",
+          "match": "Interdose AntiSpamBot\/2.0*",
           "properties": {
             "Version": "2.0",
             "MajorVer": "2",
@@ -26,7 +27,7 @@
           }
         },
         {
-          "match": "bitlybot*"
+          "match": "Interdose AntiSpamBot*"
         }
       ]
     }

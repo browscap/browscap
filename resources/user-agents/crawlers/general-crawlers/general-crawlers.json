@@ -1453,23 +1453,6 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; waybackarchive.org\/1.0*",
-          "properties": {
-            "Browser": "Wayback Archive Bot",
-            "Browser_Maker": "waybackarchive.org",
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
-          }
-        },
-        {
-          "match": "Mozilla\/5.0 (compatible; waybackarchive.org\/*",
-          "properties": {
-            "Browser": "Wayback Archive Bot",
-            "Browser_Maker": "waybackarchive.org"
-          }
-        },
-        {
           "match": "Mozilla crawl\/5.0*",
           "properties": {
             "Browser": "Mozilla Crawler",

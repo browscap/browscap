@@ -1,0 +1,38 @@
+{
+  "division": "Wayback Archive Bot",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Wayback Archive Bot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Wayback Archive Bot",
+        "Browser": "Wayback Archive Bot",
+        "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "archive.org",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (compatible; waybackarchive.org\/1.0*",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; waybackarchive.org\/*"
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; archive.org_bot; Wayback Machine Live Record*"
+        }
+      ]
+    }
+  ]
+}
