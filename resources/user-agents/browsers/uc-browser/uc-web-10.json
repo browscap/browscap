@@ -833,14 +833,6 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (Linux; U;* iphone 6s Build\/KVT49L) AppleWebKit\/* (KHTML* like Gecko) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
-          "engine": "U3",
-          "device": "Xianghe iphone 6s",
-          "platforms": [
-            "Android_4_4"
-          ]
-        },
-        {
           "match": "Mozilla\/5.0 (#PLATFORM# Build\/*) AppleWebKit\/* (KHTML* like Gecko) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android_5_0", "Android_5_1", "Android_6_0", "Android"
@@ -851,6 +843,21 @@
           "engine": "Blink",
           "platforms": [
             "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android_5_0", "Android_5_1", "Android_6_0", "Android"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (Linux; U;* iphone 6s Build\/KVT49L) AppleWebKit\/* (KHTML* like Gecko) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "engine": "U3",
+          "device": "Xianghe iphone 6s",
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (Linux; U;* Build\/KVT49L) AppleWebKit\/* (KHTML* like Gecko) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "engine": "U3",
+          "platforms": [
+            "Android_4_4"
           ]
         },
         {
@@ -1027,6 +1034,17 @@
           "match": "Mozilla\/5.0 (iPhone#PLATFORM#)*AppleWebKit\/*(*KHTML* like Gecko*)*UCBrowser\/#MAJORVER#.#MINORVER#*",
           "engine": "WebKit",
           "device": "iPhone",
+          "platforms": [
+            "iOS_A_9_0", "iOS_A_9_1", "iOS_A_9_2", "iOS_A_9_3",
+            "iOS_A",
+            "iOS_C_9_3", "iOS_C_9_2", "iOS_C_9_1", "iOS_C_9_0",
+            "iOS_C"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/*(*KHTML* like Gecko*)*UCBrowser\/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A_9_0", "iOS_A_9_1", "iOS_A_9_2", "iOS_A_9_3",
             "iOS_A",
