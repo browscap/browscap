@@ -5876,6 +5876,84 @@
         "isTablet": "true"
       }
     },
+    "Samsung SM-T211": {
+      "standard": true,
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "SM-T211",
+        "Device_Name": "Galaxy Tab 3 7.0 3G",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Samsung SM-T230": {
+      "standard": true,
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "SM-T230",
+        "Device_Name": "Galaxy Tab 4 7.0",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Samsung SM-T230NU": {
+      "standard": true,
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "SM-T230NU",
+        "Device_Name": "Galaxy Tab 4 7.0 (Wi-Fi) 8GB",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Samsung SM-T235": {
+      "standard": true,
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "SM-T235",
+        "Device_Name": "Galaxy Tab 4 7.0 WiFi + LTE",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Samsung SM-T2105": {
+      "standard": true,
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "SM-T2105",
+        "Device_Name": "Galaxy Tab 3 Kids",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "Samsung SM-T280": {
+      "standard": true,
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "SM-T280",
+        "Device_Name": "Galaxy Tab A (7.0, Wi-Fi, 2016)",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Samsung SM-T310": {
       "standard": true,
       "properties": {
@@ -5986,19 +6064,6 @@
         "Device_Type": "Tablet",
         "Device_Code_Name": "SM-T110",
         "Device_Name": "Galaxy Tab 3 Lite 7",
-        "Device_Maker": "Samsung",
-        "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true",
-        "isTablet": "true"
-      }
-    },
-    "Samsung SM-T211": {
-      "standard": true,
-      "properties": {
-        "Device_Type": "Tablet",
-        "Device_Code_Name": "SM-T211",
-        "Device_Name": "Galaxy Tab 3 7.0 3G",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "touchscreen",
@@ -6175,45 +6240,6 @@
         "isTablet": "true"
       }
     },
-    "Samsung SM-T230": {
-      "standard": true,
-      "properties": {
-        "Device_Type": "Tablet",
-        "Device_Code_Name": "SM-T230",
-        "Device_Name": "Galaxy Tab 4 7.0",
-        "Device_Maker": "Samsung",
-        "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true",
-        "isTablet": "true"
-      }
-    },
-    "Samsung SM-T230NU": {
-      "standard": true,
-      "properties": {
-        "Device_Type": "Tablet",
-        "Device_Code_Name": "SM-T230NU",
-        "Device_Name": "Galaxy Tab 4 7.0 (Wi-Fi) 8GB",
-        "Device_Maker": "Samsung",
-        "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true",
-        "isTablet": "true"
-      }
-    },
-    "Samsung SM-T235": {
-      "standard": true,
-      "properties": {
-        "Device_Type": "Tablet",
-        "Device_Code_Name": "SM-T235",
-        "Device_Name": "Galaxy Tab 4 7.0 WiFi + LTE",
-        "Device_Maker": "Samsung",
-        "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true",
-        "isTablet": "true"
-      }
-    },
     "Samsung SM-T700": {
       "standard": true,
       "properties": {
@@ -6246,19 +6272,6 @@
         "Device_Type": "Tablet",
         "Device_Code_Name": "SM-T710",
         "Device_Name": "Galaxy Tab S2 8.0",
-        "Device_Maker": "Samsung",
-        "Device_Brand_Name": "Samsung",
-        "Device_Pointing_Method": "touchscreen",
-        "isMobileDevice": "true",
-        "isTablet": "true"
-      }
-    },
-    "Samsung SM-T2105": {
-      "standard": true,
-      "properties": {
-        "Device_Type": "Tablet",
-        "Device_Code_Name": "SM-T2105",
-        "Device_Name": "Galaxy Tab 3 Kids",
         "Device_Maker": "Samsung",
         "Device_Brand_Name": "Samsung",
         "Device_Pointing_Method": "touchscreen",
