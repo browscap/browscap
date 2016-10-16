@@ -37426,6 +37426,19 @@
         "isMobileDevice": "true",
         "isTablet": "true"
       }
+    },
+    "Xianghe iphone 6s": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "iphone 6s",
+        "Device_Code_Name": "iphone 6s",
+        "Device_Maker": "Xianghe Technology Co., Ltd.",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Xianghe",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
     }
   }
 }

@@ -77,6 +77,25 @@
           "platforms": [
             "JAVA"
           ]
+        },
+        {
+          "match": "Mozilla\/5.0 (iPhone#PLATFORM#)*AppleWebKit\/*(*KHTML* like Gecko*)*UCBrowser\/*",
+          "engine": "WebKit",
+          "device": "iPhone",
+          "platforms": [
+            "iOS_A_9_0", "iOS_A_9_1", "iOS_A_9_2", "iOS_A_9_3",
+            "iOS_A",
+            "iOS_C_9_3", "iOS_C_9_2", "iOS_C_9_1", "iOS_C_9_0",
+            "iOS_C"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (Linux; U;* iphone 6s Build\/KVT49L) AppleWebKit\/* (KHTML* like Gecko) Version\/* UCBrowser\/* U3\/* Safari\/*",
+          "engine": "U3",
+          "device": "Xianghe iphone 6s",
+          "platforms": [
+            "Android_4_4"
+          ]
         }
       ]
     }
