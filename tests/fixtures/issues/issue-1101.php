@@ -105,6 +105,6 @@ return [
             'RenderingEngine_Maker' => 'UCWeb Inc.',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
 ];

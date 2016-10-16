@@ -107,13 +107,6 @@
           "platforms": [
             "Android_4_4"
           ]
-        },
-        {
-          "match": "Mozilla\/5.0 (Linux; U;* Build\/KVT49L) AppleWebKit\/* (KHTML* like Gecko) Version\/* UCBrowser\/* U3\/* Safari\/*",
-          "engine": "U3",
-          "platforms": [
-            "Android_4_4"
-          ]
         }
       ]
     }
