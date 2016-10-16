@@ -799,11 +799,11 @@ return [
     'issue-492-T' => [
         'ua' => 'Mozilla/5.0 (compatible; waybackarchive.org/1.0; +spider@waybackarchive.org)',
         'properties' => [
-            'Comment' => 'General Crawlers',
+            'Comment' => 'Wayback Archive Bot',
             'Browser' => 'Wayback Archive Bot',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
-            'Browser_Maker' => 'waybackarchive.org',
+            'Browser_Maker' => 'archive.org',
             'Browser_Modus' => 'unknown',
             'Version' => '1.0',
             'MajorVer' => '1',
