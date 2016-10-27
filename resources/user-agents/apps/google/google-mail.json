@@ -8,14 +8,19 @@
       "userAgent": "Google Mail",
       "properties": {
         "Parent": "DefaultProperties",
-        "Browser_Maker": "Google Inc",
-        "Browser_Type": "Email Client",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Crawler": "false",
         "Comment": "Google Mail",
-        "Browser": "Google Mail"
+        "Browser": "Google Mail",
+        "Browser_Type": "Email Client",
+        "Browser_Maker": "Google Inc",
+        "Alpha": "false",
+        "Beta": "false",
+        "Frames": "false",
+        "IFrames": "false",
+        "Tables": "false",
+        "Cookies": "false",
+        "JavaScript": "false",
+        "Crawler": "false",
+        "isSyndicationReader": "false"
       },
       "children": [
         {
