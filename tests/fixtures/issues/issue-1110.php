@@ -52,6 +52,6 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => true,
-        'standard' => true,
+        'standard' => false,
     ],
 ];
