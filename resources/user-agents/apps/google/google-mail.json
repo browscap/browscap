@@ -1,0 +1,30 @@
+{
+  "division": "Google Mail",
+  "sortIndex": 1072,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Google Mail",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser_Maker": "Google Inc",
+        "Browser_Type": "Email Client",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "false",
+        "Comment": "Google Mail",
+        "Browser": "Google Mail"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (*Windows NT 5.1*) Gecko* Firefox\/11.0* (via ggpht.com*"
+        },
+        {
+          "match": "Mozilla\/5.0 (*Windows NT 5.1*) Gecko* Firefox\/3.0* (via ggpht.com*"
+        }
+      ]
+    }
+  ]
+}
