@@ -1916,7 +1916,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#K011 Build\/*) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla\/5.0(#PLATFORM#K011 Build\/*)AppleWebKit\/* (KHTML* like Gecko)Chrome\/#MAJORVER#.*Safari\/*",
           "device": "Asus K011",
           "platforms": [
             "Android_4_4"
