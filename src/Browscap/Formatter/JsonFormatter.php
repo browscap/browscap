@@ -128,14 +128,21 @@ class JsonFormatter implements FormatterInterface
         if ($val === null) {
             return '"null"';
         }
+
         if ($val === true) {
             return '"true"';
         }
+
         if ($val === false) {
             return '"false"';
         }
-        if (is_string($val) || is_numeric($val)) {
-            return '"' . addslashes($val) . '"';
+
+        if (is_string($val)) {
+            return json_encode($val);
+        }
+
+        if (is_numeric($val)) {
+            return '"' . json_encode($val) . '"';
         }
 
         $assoc = false;
@@ -150,7 +157,7 @@ class JsonFormatter implements FormatterInterface
         foreach ($val as $k => $v) {
             $v = $this->jsonEncode($v);
             if ($assoc) {
-                $k = '"' . addslashes($k) . '"';
+                $k = json_encode($k);
                 $v = $k . ':' . $v;
             }
             $res[] = $v;
