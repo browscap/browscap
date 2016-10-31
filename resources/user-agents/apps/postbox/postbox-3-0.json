@@ -1,0 +1,42 @@
+{
+  "division": "Postbox #MAJORVER#.#MINORVER#",
+  "versions": [3],
+  "sortIndex": 1760,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Postbox #MAJORVER#.#MINORVER#",
+      "platform": "OSX",
+      "engine": "Gecko",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Postbox #MAJORVER#.#MINORVER#",
+        "Browser": "Postbox",
+        "Browser_Type": "Email Client",
+        "Browser_Maker": "Postbox, Inc.",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Alpha": "false",
+        "Beta": "false",
+        "Frames": "false",
+        "IFrames": "false",
+        "Tables": "false",
+        "Cookies": "false",
+        "JavaScript": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Postbox\/#MAJORVER#.*",
+          "platforms": [
+            "OSX_10_8", "OSX_10_9", "OSX_10_10", "OSX"
+          ]
+        }
+      ]
+    }
+  ]
+}
