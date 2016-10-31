@@ -51,7 +51,7 @@ class JsonFormatter implements FormatterInterface
      */
     public function formatPropertyName($name)
     {
-        return $this->jsonEncode($name);
+        return json_encode($name);
     }
 
     /**
@@ -68,26 +68,26 @@ class JsonFormatter implements FormatterInterface
 
         switch ($propertyHolder->getPropertyType($property)) {
             case PropertyHolder::TYPE_STRING:
-                $valueOutput = $this->jsonEncode(trim($value));
+                $valueOutput = json_encode(trim($value));
                 break;
             case PropertyHolder::TYPE_BOOLEAN:
                 if (true === $value || $value === 'true') {
-                    $valueOutput = '"true"';
+                    $valueOutput = 'true';
                 } elseif (false === $value || $value === 'false') {
-                    $valueOutput = '"false"';
+                    $valueOutput = 'false';
                 } else {
                     $valueOutput = '""';
                 }
                 break;
             case PropertyHolder::TYPE_IN_ARRAY:
                 try {
-                    $valueOutput = $this->jsonEncode($propertyHolder->checkValueInArray($property, $value));
+                    $valueOutput = json_encode($propertyHolder->checkValueInArray($property, $value));
                 } catch (\InvalidArgumentException $ex) {
                     $valueOutput = '""';
                 }
                 break;
             default:
-                $valueOutput = $this->jsonEncode($value);
+                $valueOutput = json_encode($value);
                 break;
         }
 
@@ -116,54 +116,5 @@ class JsonFormatter implements FormatterInterface
     public function getFilter()
     {
         return $this->filter;
-    }
-
-    /**
-     * @param string $val
-     *
-     * @return string
-     */
-    private function jsonEncode($val)
-    {
-        if ($val === null) {
-            return '"null"';
-        }
-
-        if ($val === true) {
-            return '"true"';
-        }
-
-        if ($val === false) {
-            return '"false"';
-        }
-
-        if (is_string($val)) {
-            return json_encode($val);
-        }
-
-        if (is_numeric($val)) {
-            return '"' . json_encode($val) . '"';
-        }
-
-        $assoc = false;
-        $i     = 0;
-        foreach ($val as $k => $v) {
-            if ($k !== $i++) {
-                $assoc = true;
-                break;
-            }
-        }
-        $res = [];
-        foreach ($val as $k => $v) {
-            $v = $this->jsonEncode($v);
-            if ($assoc) {
-                $k = json_encode($k);
-                $v = $k . ':' . $v;
-            }
-            $res[] = $v;
-        }
-        $res = implode(',', $res);
-
-        return ($assoc) ? '{' . $res . '}' : '[' . $res . ']';
     }
 }
