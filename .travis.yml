@@ -2,39 +2,29 @@ language: php
 sudo: false
 
 php:
-  - 5.6
   - 7.0
+  - 7.1
   - nightly
-  - hhvm
 
 os:
   - linux
 
 matrix:
   allow_failures:
-  # fails due a segmentation fault
     - php: nightly
-  # the tests require > 4.8GB ram on hhvm, this exeeds the memory limit on the travis-ci boxes so we allow to fail these builds
-    - php: hhvm
 
 before_script:
-  - if [ "`phpenv version-name`" != "hhvm" ]; then echo 'opcache.enable=1' >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini; fi
-  - if [ "`phpenv version-name`" != "hhvm" ]; then echo 'opcache.enable_cli=1' >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini; fi
-  - if [ "`phpenv version-name`" == "hhvm" ]; then echo 'opcache.enable=1' >> /etc/hhvm/php.ini; fi
-  - if [ "`phpenv version-name`" == "hhvm" ]; then echo 'opcache.enable_cli=1' >> /etc/hhvm/php.ini; fi
+  - echo 'opcache.enable=1' >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
+  - echo 'opcache.enable_cli=1' >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
   - composer self-update
   - composer install -o --prefer-source
 
 script:
-# xdebug is not installed on HHVM and PHP 7, so we are skipping the creation of code coverage data there
-  - if [ "`phpenv version-name`" == "5.6" ]; then vendor/bin/phpunit --colors --verbose --exclude-group useragenttest --coverage-text --coverage-clover=coverage.clover; fi
-  - if [ "`phpenv version-name`" != "5.6" ]; then vendor/bin/phpunit --colors --verbose --exclude-group useragenttest; fi
+  - if [ "`phpenv version-name`" == "7.0" ]; then vendor/bin/phpunit --colors --verbose --exclude-group useragenttest --coverage-text --coverage-clover=coverage.clover; fi
+  - if [ "`phpenv version-name`" != "7.0" ]; then vendor/bin/phpunit --colors --verbose --exclude-group useragenttest; fi
   - vendor/bin/phpunit --no-coverage --colors --group useragenttest
   - vendor/bin/phpcs --standard=psr2 -np src tests
-# do not run this command on travis it needs too much time
-#  - vendor/bin/php-cs-fixer fix --dry-run -vv
 
 after_script:
-# xdebug is not installed on HHVM and PHP 7, so we have no code coverage data to send
-  - if [ "`phpenv version-name`" == "5.6" ]; then wget https://scrutinizer-ci.com/ocular.phar; fi
-  - if [ "`phpenv version-name`" == "5.6" ]; then php ocular.phar code-coverage:upload --format=php-clover coverage.clover; fi
+  - if [ "`phpenv version-name`" == "7.0" ]; then wget https://scrutinizer-ci.com/ocular.phar; fi
+  - if [ "`phpenv version-name`" == "7.0" ]; then php ocular.phar code-coverage:upload --format=php-clover coverage.clover; fi
