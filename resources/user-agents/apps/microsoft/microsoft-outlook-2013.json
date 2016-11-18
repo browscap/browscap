@@ -90,6 +90,13 @@
         },
         {
           "match": "Microsoft Outlook Social Connector (15.*) *"
+        },
+        {
+          "match": "MacOutlook\/15.*",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX"
+          ]
         }
       ]
     }
