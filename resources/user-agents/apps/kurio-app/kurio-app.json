@@ -1,0 +1,40 @@
+{
+  "division": "Kurio App",
+  "sortIndex": 1049,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Kurio App",
+      "platform": "Android",
+      "engine": "Blink",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser_Maker": "CIDE Interactive",
+        "Browser_Type": "Application",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "false",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "Comment": "Kurio App",
+        "Browser": "Kurio App"
+      },
+      "children": [
+        {
+          "match": "Kurio\/3.1*",
+          "properties": {
+            "Version": "3.1",
+            "MajorVer": "3",
+            "MinorVer": "1"
+          }
+        },
+        {
+          "match": "Kurio\/*"
+        }
+      ]
+    }
+  ]
+}
