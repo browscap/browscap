@@ -73,6 +73,13 @@
         },
         {
           "match": "Microsoft Outlook Social Connector (16.*) *"
+        },
+        {
+          "match": "MacOutlook\/16.*",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX"
+          ]
         }
       ]
     }
