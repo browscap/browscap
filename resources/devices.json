@@ -34801,6 +34801,19 @@
         "isTablet": "false"
       }
     },
+    "Oysters Pacific VS": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Pacific VS",
+        "Device_Code_Name": "Pacific VS",
+        "Device_Maker": "Oysters",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Oysters",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Oysters T72M 3G": {
       "standard": true,
       "properties": {
