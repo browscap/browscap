@@ -6240,6 +6240,19 @@
         "isTablet": "true"
       }
     },
+    "Samsung SM-T817A": {
+      "standard": true,
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Code_Name": "SM-T817A",
+        "Device_Name": "Galaxy Tab S2 9.7 LTE (AT&T)",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
     "Samsung SM-T700": {
       "standard": true,
       "properties": {

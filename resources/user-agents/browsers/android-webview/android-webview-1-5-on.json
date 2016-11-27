@@ -5237,6 +5237,13 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-T817A Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "device": "Samsung SM-T817A",
+          "platforms": [
+            "Android_5_1"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0(#PLATFORM#ALCATEL ONETOUCH 6050A Build\/*)*AppleWebKit\/*(KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Alcatel OT-6050A",
           "platforms": [
