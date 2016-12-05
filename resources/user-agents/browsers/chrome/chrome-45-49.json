@@ -3988,6 +3988,13 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#Aquaris M10 Build\/*) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "device": "BQ Aquaris M10",
+          "platforms": [
+            "Android_5_1"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#E5823 Build\/*) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "device": "Sony E5823",
           "platforms": [
