@@ -21,8 +21,8 @@ before_script:
 
 script:
   - vendor/bin/phpunit --colors --verbose --exclude-group useragenttest --coverage-text --coverage-clover=coverage.clover
-  - php -n vendor/bin/phpunit --no-coverage --colors --group useragenttest
-  - php -n -d memory_limit=768M vendor/bin/phpcs --standard=psr2 -np src tests
+  - php -n -d opcache.enable=1 -d opcache.enable_cli=1 vendor/bin/phpunit --no-coverage --colors --group useragenttest
+  - php -n -d opcache.enable=1 -d opcache.enable_cli=1 -d memory_limit=768M vendor/bin/phpcs --standard=psr2 -np src tests
 
 after_script:
   - wget https://scrutinizer-ci.com/ocular.phar
