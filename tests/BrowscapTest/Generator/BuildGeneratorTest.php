@@ -144,8 +144,6 @@ class BuildGeneratorTest extends \PHPUnit_Framework_TestCase
      */
     public function testBuild()
     {
-        self::markTestSkipped('will fail in PHP 7 because of error while creating the zip file');
-
         $division = $this->getMockBuilder(\Browscap\Data\Division::class)
             ->disableOriginalConstructor()
             ->setMethods(['getUserAgents', 'getVersions'])
