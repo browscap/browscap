@@ -5251,7 +5251,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0(#PLATFORM#CHC-U03 Build\/*)*AppleWebKit\/*(KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla\/5.0(#PLATFORM#CHC-U03 Build\/*)*AppleWebKit\/*(KHTML,*likeGecko*)*Version\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Huawei CHC-U03",
           "platforms": [
             "Android_4_4"

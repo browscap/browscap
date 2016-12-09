@@ -6089,7 +6089,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Bmobile_AX810 Build\/*) *AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "Mozilla\/5.? (#PLATFORM#Bmobile_AX810 Build\/*) *AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "device": "Bmobile AX810",
           "platforms": [
             "Android_5_1"
