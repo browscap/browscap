@@ -6089,6 +6089,13 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#Bmobile_AX810 Build\/*) *AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "device": "Bmobile AX810",
+          "platforms": [
+            "Android_5_1"
+          ]
+        },
+        {
           "match": "HTC_ChaCha_A810e\/Mozilla\/5.0(#PLATFORM#Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "device": "HTC A810e",
           "platforms": [
