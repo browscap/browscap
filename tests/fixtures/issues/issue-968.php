@@ -5,7 +5,7 @@ return [
         'ua' => 'HbbTV/1.1.1 (;;;;;) Maple_2011',
         'properties' => [
             'Comment' => 'Samsung Generic TV',
-            'Browser' => 'Samsung',
+            'Browser' => 'Samsung TV',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Samsung',
@@ -111,7 +111,7 @@ return [
         'ua' => 'HbbTV/1.1.1 (;Samsung;SmartTV2012;;;) WebKit',
         'properties' => [
             'Comment' => 'Samsung Generic TV',
-            'Browser' => 'Samsung',
+            'Browser' => 'Samsung TV',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Samsung',

@@ -269,7 +269,7 @@ return [
     'issue-470-F' => [
         'ua' => 'Mozilla/5.0 (Nintendo WiiU) AppleWebKit/536.28 (KHTML, like Gecko) NX/3.0.3.12.11 NintendoBrowser/2.1.0.9559.EU',
         'properties' => [
-            'Comment' => 'Access NetFront 3.0',
+            'Comment' => 'NetFront NX 3.0',
             'Browser' => 'NetFront NX',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '0',

@@ -10,7 +10,7 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Samsung Generic TV",
-        "Browser": "Samsung",
+        "Browser": "Samsung TV",
         "Browser_Type": "Browser",
         "Browser_Maker": "Samsung",
         "Alpha": "false",
@@ -25,7 +25,42 @@
       },
       "children": [
         {
-          "match": "HbbTV\/* (;Samsung;SmartTV2012;;;) WebKit*",
+          "match": "HbbTV\/* (*;Samsung;SmartTV2012;*) WebKit*",
+          "device": "Smart-TV",
+          "engine": "WebKit"
+        },
+        {
+          "match": "HbbTV\/* (*;Samsung;SmartTV2013;*) WebKit*",
+          "device": "Smart-TV",
+          "engine": "WebKit"
+        },
+        {
+          "match": "HbbTV\/* (*;Samsung;SmartTV2014;*) WebKit*",
+          "device": "Smart-TV",
+          "engine": "WebKit"
+        },
+        {
+          "match": "HbbTV\/* (*;Samsung;SmartTV2015;T-HKPDEUC*) WebKit*",
+          "device": "Samsung Series J (2015)",
+          "engine": "WebKit"
+        },
+        {
+          "match": "HbbTV\/* (*;Samsung;SmartTV2015;T-HKM6DEUC*) WebKit*",
+          "device": "Samsung Series J (2015)",
+          "engine": "WebKit"
+        },
+        {
+          "match": "HbbTV\/* (*;Samsung;SmartTV2015;*) WebKit*",
+          "device": "Smart-TV",
+          "engine": "WebKit"
+        },
+        {
+          "match": "HbbTV\/* (*;Samsung;SmartTV2016;T-HKMFKDEUC*) WebKit*",
+          "device": "Samsung Series J (2016)",
+          "engine": "WebKit"
+        },
+        {
+          "match": "HbbTV\/* (*;Samsung;SmartTV2016;*) WebKit*",
           "device": "Smart-TV",
           "engine": "WebKit"
         },

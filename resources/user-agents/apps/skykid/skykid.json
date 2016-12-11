@@ -1,0 +1,38 @@
+{
+  "division": "Skykid #MAJORVER#.#MINORVER#",
+  "versions": ["5.1"],
+  "sortIndex": 954,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Skykid #MAJORVER#.#MINORVER#",
+      "device": "general TV Device",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Skykid #MAJORVER#.#MINORVER#",
+        "Browser": "Skykid",
+        "Browser_Type": "Multimedia Player",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "HbbTV\/*(*Sky_worth;HC7620*)CE-HTML\/* Skykid\/#MAJORVER#.#MINORVER#*",
+          "device": "Skyworth HC7620"
+        },
+        {
+          "match": "HbbTV\/*CE-HTML\/* Skykid\/#MAJORVER#.#MINORVER#*",
+          "device": "general TV Device"
+        }
+      ]
+    }
+  ]
+}

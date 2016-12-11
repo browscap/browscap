@@ -1,19 +1,23 @@
 {
-  "division": "Access NetFront Generic",
-  "sortIndex": 1545,
+  "division": "Access NetFront #MAJORVER#.#MINORVER#",
+  "versions": [3],
+  "sortIndex": 1542,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "NetFront NX Generic",
+      "userAgent": "NetFront NX #MAJORVER#.#MINORVER#",
       "engine": "WebKit",
       "device": "general Mobile Device",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "NetFront NX Generic",
+        "Comment": "NetFront NX #MAJORVER#.#MINORVER#",
         "Browser": "NetFront NX",
         "Browser_Type": "Browser",
         "Browser_Maker": "Access",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
@@ -23,16 +27,11 @@
       },
       "children": [
         {
-          "match": "Mozilla\/* (Nintendo 3DS; *) Version\/*",
-          "engine": "NetFront",
-          "device": "Nintendo 3DS"
-        },
-        {
-          "match": "Mozilla\/* (Nintendo WiiU) AppleWebKit\/* (KHTML* like Gecko) *",
+          "match": "Mozilla\/5.0 (Nintendo WiiU) AppleWebKit\/* (KHTML* like Gecko) NX\/#MAJORVER#.#MINORVER#* NintendoBrowser\/*",
           "device": "Nintendo WiiU"
         },
         {
-          "match": "HbbTV\/*Access;NetFront NX *Netfont webkit*",
+          "match": "HbbTV\/*Access;NetFront NX #MAJORVER#*Netfont webkit*",
           "device": "general TV Device"
         }
       ]

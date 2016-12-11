@@ -322,7 +322,7 @@ return [
     'issue-618-G' => [
         'ua' => 'Mozilla/5.0 (Nintendo 3DS; U; ; de) Version/1.7567.EU',
         'properties' => [
-            'Comment' => 'Access NetFront Generic',
+            'Comment' => 'NetFront NX Generic',
             'Browser' => 'NetFront NX',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '0',
@@ -6205,7 +6205,7 @@ return [
     'issue-618-DN' => [
         'ua' => 'Mozilla/5.0 (Nintendo WiiU) AppleWebKit/536.28 (KHTML, like Gecko) NX/3.0.3.12.15 NintendoBrowser/4.1.1.9601.EU',
         'properties' => [
-            'Comment' => 'Access NetFront 3.0',
+            'Comment' => 'NetFront NX 3.0',
             'Browser' => 'NetFront NX',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '0',

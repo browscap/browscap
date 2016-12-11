@@ -55,13 +55,13 @@
           ]
         },
         {
-          "match": "* Linux\/* Android\/5.0* Release\/* Browser\/AppleWebkit* Chrome\/*",
+          "match": "*Linux\/* Android\/5.0* Release\/* Browser\/AppleWebkit* Chrome\/*",
           "platforms": [
             "Android_5_0"
           ]
         },
         {
-          "match": "* Linux\/* Android\/5.1* Release\/* Browser\/AppleWebkit* Chrome\/*",
+          "match": "*Linux\/* Android\/5.1* Release\/* Browser\/AppleWebkit* Chrome\/*",
           "platforms": [
             "Android_5_1"
           ]
