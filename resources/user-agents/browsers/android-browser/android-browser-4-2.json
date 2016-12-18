@@ -215,7 +215,7 @@
           ]
         },
         {
-          "match": "HUAWEI_G610-T00_TD\/* Android\/#MAJORVER#.#MINORVER#* (#PLATFORM#)*Release\/* AppleWebKit\/*Safari*",
+          "match": "HUAWEI_G610-T00_TD\/* Android\/#MAJORVER#.#MINORVER#* (#PLATFORM#)*Release\/*AppleWebKit\/*Safari*",
           "device": "Huawei G610-T00",
           "platforms": [
             "Android_4_2"
