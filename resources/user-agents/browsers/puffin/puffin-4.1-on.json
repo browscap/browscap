@@ -1,6 +1,6 @@
 {
   "division": "Puffin #MAJORVER#.#MINORVER#",
-  "versions": ["4.6", "4.5", "4.4", "4.3", "4.2", "4.1"],
+  "versions": ["4.8", "4.7", "4.6", "4.5", "4.4", "4.3", "4.2", "4.1"],
   "sortIndex": 1118,
   "lite": false,
   "standard": true,
@@ -42,6 +42,48 @@
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) *Chrome\/* Safari\/* Puffin\/#MAJORVER#.#MINORVER#.*AP*",
+          "platforms": [
+            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#AQUILA 080-1008 Build\/*) AppleWebKit\/* (KHTML* like Gecko) *Chrome\/* Safari\/* Puffin\/#MAJORVER#.#MINORVER#.*AT*",
+          "device": "Cmx Aquila 080-1008",
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#GT-P3110 Build\/*) AppleWebKit\/* (KHTML* like Gecko) *Chrome\/* Safari\/* Puffin\/#MAJORVER#.#MINORVER#.*AT*",
+          "device": "Samsung GT-P3110",
+          "platforms": [
+            "Android_4_1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#ASUS Transformer Pad TF300TG Build\/*) AppleWebKit\/* (KHTML* like Gecko) *Chrome\/* Safari\/* Puffin\/#MAJORVER#.#MINORVER#.*AT*",
+          "device": "Asus TF300TG",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#A1-810 Build\/*) AppleWebKit\/* (KHTML* like Gecko) *Chrome\/* Safari\/* Puffin\/#MAJORVER#.#MINORVER#.*AT*",
+          "device": "Acer A1-810",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#LIFETAB_S9512 Build\/*) AppleWebKit\/* (KHTML* like Gecko) *Chrome\/* Safari\/* Puffin\/#MAJORVER#.#MINORVER#.*AT*",
+          "device": "Medion LifeTab S9512",
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) *Chrome\/* Safari\/* Puffin\/#MAJORVER#.#MINORVER#.*AT*",
+          "device": "general Tablet",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android"
           ]

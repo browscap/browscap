@@ -32214,6 +32214,19 @@
         "isTablet": "false"
       }
     },
+    "Dream Property Dreambox": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "TV Device",
+        "Device_Name": "Dreambox",
+        "Device_Code_Name": "Dreambox",
+        "Device_Maker": "Dream Property GmbH",
+        "Device_Pointing_Method": "unknown",
+        "Device_Brand_Name": "Dream",
+        "isMobileDevice": "false",
+        "isTablet": "false"
+      }
+    },
     "Shiru Samurai 10": {
       "standard": true,
       "properties": {
@@ -37672,6 +37685,19 @@
         "Device_Pointing_Method": "unknown",
         "isMobileDevice": "false",
         "isTablet": "false"
+      }
+    },
+    "Cmx Aquila 080-1008": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "Aquila 080-1008",
+        "Device_Code_Name": "Aquila 080-1008",
+        "Device_Maker": "Cmx",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Cmx",
+        "isMobileDevice": "true",
+        "isTablet": "true"
       }
     }
   }
