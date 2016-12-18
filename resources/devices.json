@@ -19677,7 +19677,7 @@
         "Device_Name": "Ascend G610",
         "Device_Maker": "Huawei",
         "Device_Brand_Name": "Huawei",
-        "Device_Pointing_Method": "unknown",
+        "Device_Pointing_Method": "touchscreen",
         "isMobileDevice": "true",
         "isTablet": "false"
       }
