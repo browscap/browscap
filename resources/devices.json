@@ -37491,6 +37491,19 @@
         "isMobileDevice": "true",
         "isTablet": "false"
       }
+    },
+    "Google Pixel C": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "Pixel C",
+        "Device_Code_Name": "Pixel C",
+        "Device_Maker": "Google Inc",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Google",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
     }
   }
 }

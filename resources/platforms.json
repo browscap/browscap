@@ -2740,6 +2740,33 @@
         "Platform_Version": "6.0"
       }
     },
+    "Android_6_1": {
+      "match": "*Linux*Android?6.1*",
+      "lite": false,
+      "standard": true,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "6.1"
+      }
+    },
+    "Android_7_0": {
+      "match": "*Linux*Android?7.0*",
+      "lite": false,
+      "standard": true,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "7.0"
+      }
+    },
+    "Android_7_1": {
+      "match": "*Linux*Android?7.1*",
+      "lite": false,
+      "standard": true,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "7.1"
+      }
+    },
     "Android_B": {
       "match": "* Build\/*",
       "lite": false,

@@ -96,7 +96,7 @@
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Version\/4.0 Chrome\/*MQQBrowser\/#MAJORVER#.#MINORVER#*",
           "engine": "Blink",
           "platforms": [
-            "Android_5_1", "Android_6_0", "Android"
+            "Android_5_1", "Android_6_0", "Android_6_1", "Android_7_0", "Android_7_1", "Android"
           ]
         }
       ]
