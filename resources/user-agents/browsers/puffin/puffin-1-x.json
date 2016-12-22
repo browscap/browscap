@@ -72,6 +72,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#HUAWEI MT1-U06 Build\/*) AppleWebKit\/* (KHTML* like Gecko) *Chrome\/* Safari\/* Puffin\/#MAJORVER#.#MINORVER#.*AT*",
           "device": "Huawei MT1-U06",
+          "engine": "Blink",
           "platforms": [
             "Android_4_1"
           ]

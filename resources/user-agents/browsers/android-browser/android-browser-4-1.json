@@ -201,6 +201,13 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#C6603 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)",
+          "device": "Sony C6603",
+          "platforms": [
+            "Android_4_1"
+          ]
+        },
+        {
           "match": "HTC7088_TD\/1.0 Android\/#MAJORVER#.#MINORVER# release\/2013 Browser\/WAP2.0 Profile\/MIDP-2.0 Configuration\/CLDC-1.1*",
           "device": "HTC 7088",
           "platforms": [
