@@ -9,7 +9,7 @@
       "userAgent": "Seraphic Sraf #MAJORVER#.#MINORVER#",
       "platform": "Linux",
       "engine": "Blink",
-      "device": "general Mobile Phone (Touch)",
+      "device": "general TV Device",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Seraphic Sraf #MAJORVER#.#MINORVER#",
@@ -28,16 +28,10 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (Linux; Linux mips) AppleWebKit\/* (KHTML,*like Gecko*)*Chromium\/* Safari\/*) SRAF\/#MAJORVER#.#MINORVER#* (+TRICKMODE; NEXUS; Nexus_AN01*",
-          "platforms": [
-            "Android_2_3"
-          ]
+          "match": "Mozilla\/5.0 (Linux; Linux mips) AppleWebKit\/* (KHTML,*like Gecko*)*Chromium\/* Safari\/*) SRAF\/#MAJORVER#.#MINORVER#* (+TRICKMODE; NEXUS; Nexus_AN01*"
         },
         {
-          "match": "Mozilla\/5.0 (Linux; Linux mips) AppleWebKit\/* (KHTML,*like Gecko*)*Chromium\/* Safari\/*) SRAF\/#MAJORVER#.#MINORVER#*",
-          "platforms": [
-            "Android_2_3"
-          ]
+          "match": "Mozilla\/5.0 (Linux; Linux mips) AppleWebKit\/* (KHTML,*like Gecko*)*Chromium\/* Safari\/*) SRAF\/#MAJORVER#.#MINORVER#*"
         }
       ]
     }

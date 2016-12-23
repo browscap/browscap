@@ -4074,7 +4074,7 @@
       "inherits": "Maemo"
     },
     "Tizen": {
-      "match": "*Linux; Tizen*",
+      "match": "*Linux;*Tizen*",
       "lite": false,
       "standard": true,
       "properties": {
@@ -4090,7 +4090,7 @@
       }
     },
     "Tizen_2_2": {
-      "match": "*Linux; Tizen 2.2*",
+      "match": "*Linux;*Tizen 2.2*",
       "lite": false,
       "standard": true,
       "inherits": "Tizen",
@@ -4099,7 +4099,7 @@
       }
     },
     "Tizen_2_3": {
-      "match": "*Linux; Tizen 2.3*",
+      "match": "*Linux;*Tizen 2.3*",
       "lite": false,
       "standard": true,
       "inherits": "Tizen",
@@ -4108,7 +4108,7 @@
       }
     },
     "Tizen_2_4": {
-      "match": "*Linux; Tizen 2.4*",
+      "match": "*Linux;*Tizen 2.4*",
       "lite": false,
       "standard": true,
       "inherits": "Tizen",
