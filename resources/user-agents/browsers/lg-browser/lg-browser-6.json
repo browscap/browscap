@@ -29,14 +29,23 @@
       "children": [
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Safari\/* LG Browser\/#MAJORVER#.#MINORVER#*LGE; 42LA6208*",
-          "device": "LG 42LA6208"
+          "device": "LG 42LA6208",
+          "platforms": [
+            "Maemo_ARM"
+          ]
         },
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Safari\/* LG Browser\/#MAJORVER#.#MINORVER#*LGE; 55UF695V*",
-          "device": "LG 55UF695V"
+          "device": "LG 55UF695V",
+          "platforms": [
+            "Maemo_ARM"
+          ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Safari\/* LG Browser\/#MAJORVER#.#MINORVER#*"
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Safari\/* LG Browser\/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Maemo_ARM"
+          ]
         }
       ]
     }

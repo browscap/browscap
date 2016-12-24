@@ -8,6 +8,7 @@
     {
       "userAgent": "LG Browser #MAJORVER#.#MINORVER#",
       "device": "general TV Device",
+      "platform": "webOS_30",
       "engine": "Blink",
       "properties": {
         "Parent": "DefaultProperties",
