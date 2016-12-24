@@ -42,7 +42,7 @@ return [
             'CssVersion' => '3',
             'AolVersion' => '0',
             'Device_Name' => 'Windows Desktop',
-            'Device_Maker' => 'Various',
+            'Device_Maker' => 'unknown',
             'Device_Type' => 'Desktop',
             'Device_Pointing_Method' => 'mouse',
             'Device_Code_Name' => 'Windows Desktop',
