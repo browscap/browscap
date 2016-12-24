@@ -34775,6 +34775,19 @@
         "isTablet": "false"
       }
     },
+    "Thomson THS845": {
+      "standard": true,
+      "properties": {
+        "Device_Type": "TV Device",
+        "Device_Code_Name": "THS845",
+        "Device_Name": "THS845",
+        "Device_Maker": "Thomson",
+        "Device_Brand_Name": "Thomson",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "false",
+        "isTablet": "false"
+      }
+    },
     "M-way MD-948G": {
       "standard": true,
       "properties": {
@@ -37815,6 +37828,19 @@
         "Device_Brand_Name": "Cmx",
         "isMobileDevice": "true",
         "isTablet": "true"
+      }
+    },
+    "ASTON XenaHd Twin Connect": {
+      "standard": true,
+      "properties": {
+        "Device_Type": "TV Device",
+        "Device_Code_Name": "XenaHd Twin Connect",
+        "Device_Name": "XenaHd Twin Connect",
+        "Device_Maker": "ASTON",
+        "Device_Brand_Name": "ASTON",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "false",
+        "isTablet": "false"
       }
     }
   }

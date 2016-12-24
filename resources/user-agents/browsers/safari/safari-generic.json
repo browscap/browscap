@@ -253,6 +253,20 @@
           "platforms": [
             "NetBSD_64_2", "NetBSD", "SunOS"
           ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/*THOMSON; Thomson THS845*",
+          "device": "Thomson THS845",
+          "platforms": [
+            "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) *ASTON;XenaHd Twin Connect*",
+          "device": "ASTON XenaHd Twin Connect",
+          "platforms": [
+            "Linux_32", "Linux"
+          ]
         }
       ]
     }
