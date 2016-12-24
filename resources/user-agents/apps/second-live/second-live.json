@@ -62,7 +62,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (Windows NT 10.0; WOW64) AppleWebKit\/* (KHTML* like Gecko) (SecondLife\/4.7* Chrome\/* Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) (SecondLife\/4.7* Chrome\/* Safari\/*",
           "engine": "Blink",
           "device": "Windows Desktop",
           "properties": {
@@ -78,7 +78,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (Windows NT 10.0; WOW64) AppleWebKit\/* (KHTML* like Gecko) (SecondLife\/* Chrome\/* Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) (SecondLife\/* Chrome\/* Safari\/*",
           "engine": "Blink",
           "device": "Windows Desktop",
           "platforms": [
