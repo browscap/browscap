@@ -207,6 +207,13 @@
           "platforms": [
             "OSX"
           ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) *Safari\/*",
+          "device": "general Desktop",
+          "platforms": [
+            "SunOS"
+          ]
         }
       ]
     }

@@ -246,6 +246,13 @@
           "platforms": [
             "Maemo_ARM"
           ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) *Safari\/*",
+          "device": "general Desktop",
+          "platforms": [
+            "NetBSD_64_2", "NetBSD", "SunOS"
+          ]
         }
       ]
     }

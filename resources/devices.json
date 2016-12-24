@@ -20878,6 +20878,32 @@
         "isTablet": "false"
       }
     },
+    "Microsoft RM-1118": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "RM-1118",
+        "Device_Name": "Lumia 950 Dual SIM LTE",
+        "Device_Maker": "Microsoft Corporation",
+        "Device_Brand_Name": "Microsoft",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Microsoft RM-1104": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "RM-1104",
+        "Device_Name": "Lumia 950 LTE",
+        "Device_Maker": "Microsoft Corporation",
+        "Device_Brand_Name": "Microsoft",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Microsoft RM-1067": {
       "standard": false,
       "properties": {

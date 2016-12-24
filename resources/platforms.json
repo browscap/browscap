@@ -3388,6 +3388,16 @@
         "Platform_Bits": "32"
       }
     },
+    "NetBSD_64_2": {
+      "match": "*NetBSD amd64*",
+      "lite": false,
+      "standard": false,
+      "inherits": "NetBSD",
+      "properties": {
+        "Browser_Bits": "64",
+        "Platform_Bits": "64"
+      }
+    },
     "DragonFlyBSD": {
       "match": "*DragonFly*",
       "lite": false,
