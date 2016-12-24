@@ -18213,6 +18213,97 @@
         "isTablet": "false"
       }
     },
+    "LG 42LA6208": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "TV Device",
+        "Device_Code_Name": "42LA6208",
+        "Device_Name": "42LA6208",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "false",
+        "isTablet": "false"
+      }
+    },
+    "LG 55UF695V": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "TV Device",
+        "Device_Code_Name": "55UF695V",
+        "Device_Name": "55UF695V",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "false",
+        "isTablet": "false"
+      }
+    },
+    "LG 43LF630V": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "TV Device",
+        "Device_Code_Name": "43LF630V",
+        "Device_Name": "43LF630V",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "false",
+        "isTablet": "false"
+      }
+    },
+    "LG 79UF860V": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "TV Device",
+        "Device_Code_Name": "79UF860V",
+        "Device_Name": "79UF860V",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "false",
+        "isTablet": "false"
+      }
+    },
+    "LG 49LH604V": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "TV Device",
+        "Device_Code_Name": "49LH604V",
+        "Device_Name": "49LH604V",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "false",
+        "isTablet": "false"
+      }
+    },
+    "LG 42LB671V": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "TV Device",
+        "Device_Code_Name": "42LB671V",
+        "Device_Name": "42LB671V",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "false",
+        "isTablet": "false"
+      }
+    },
+    "LG 49UH668V": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "TV Device",
+        "Device_Code_Name": "49UH668V",
+        "Device_Name": "49UH668V",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "false",
+        "isTablet": "false"
+      }
+    },
     "1 & 1 Smartpad": {
       "standard": false,
       "properties": {

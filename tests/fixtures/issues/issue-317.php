@@ -1552,7 +1552,7 @@ return [
             'MinorVer' => '7',
             'Platform' => 'MeeGo',
             'Platform_Version' => 'unknown',
-            'Platform_Description' => 'Linux Smartphone OS',
+            'Platform_Description' => 'MeeGo',
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Linux Foundation',
             'Alpha' => false,

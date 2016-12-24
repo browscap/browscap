@@ -4374,6 +4374,20 @@
             "ChromeOS_x64", "ChromeOS_i686", "ChromeOS_ARM", "ChromeOS",
             "Linux_64", "Linux_32_x86", "Linux_32", "Linux"
           ]
+        },
+        {
+          "match": "Mozilla\/5.0 (Web0S; Linux\/SmartTV) AppleWebKit\/* (KHTML, like Gecko) QtWebEngine\/* Chrome\/#MAJORVER#.* Safari\/*LGE; 49UH668V*",
+          "device": "LG 49UH668V",
+          "platforms": [
+            "webOS_30"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (Web0S; Linux\/SmartTV) AppleWebKit\/* (KHTML, like Gecko) QtWebEngine\/* Chrome\/#MAJORVER#.* Safari\/*",
+          "device": "general TV Device",
+          "platforms": [
+            "webOS_30"
+          ]
         }
       ]
     }

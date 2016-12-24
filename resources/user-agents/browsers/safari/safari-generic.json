@@ -232,6 +232,20 @@
           "platforms": [
             "OSX"
           ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/*LGE; 42LB671V*",
+          "device": "LG 42LB671V",
+          "platforms": [
+            "Maemo_ARM"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/*",
+          "device": "general TV Device",
+          "platforms": [
+            "Maemo_ARM"
+          ]
         }
       ]
     }

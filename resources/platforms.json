@@ -3893,6 +3893,17 @@
         "Platform_Version": "3.0"
       }
     },
+    "webOS_30": {
+      "match": "*webOS\/3.*",
+      "lite": false,
+      "standard": true,
+      "inherits": "webOS",
+      "properties": {
+        "Platform_Version": "3.0",
+        "Platform_Description": "LG webOS",
+        "Platform_Maker": "LG"
+      }
+    },
     "Darwin": {
       "match": "*Darwin*",
       "lite": false,
@@ -4042,7 +4053,7 @@
       "properties": {
         "Platform": "MeeGo",
         "Platform_Maker": "Linux Foundation",
-        "Platform_Description": "Linux Smartphone OS",
+        "Platform_Description": "MeeGo",
         "Platform_Version": "unknown",
         "Win16": "false",
         "Win32": "false",
@@ -4056,9 +4067,9 @@
       "lite": false,
       "standard": true,
       "properties": {
-        "Platform": "Linux Smartphone OS",
+        "Platform": "Maemo",
         "Platform_Maker": "Linux Foundation",
-        "Platform_Description": "Linux Smartphone OS",
+        "Platform_Description": "Maemo",
         "Platform_Version": "unknown",
         "Win16": "false",
         "Win32": "false",
