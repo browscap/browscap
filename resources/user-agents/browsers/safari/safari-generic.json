@@ -267,6 +267,13 @@
           "platforms": [
             "Linux_32", "Linux"
           ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) HbbTV*",
+          "device": "general TV Device",
+          "platforms": [
+            "Linux_32", "Linux"
+          ]
         }
       ]
     }

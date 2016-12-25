@@ -20904,6 +20904,19 @@
         "isTablet": "false"
       }
     },
+    "Microsoft Lumia 950 XL Dual SIM": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Lumia 950 XL Dual SIM",
+        "Device_Name": "Lumia 950 XL Dual SIM",
+        "Device_Maker": "Microsoft",
+        "Device_Brand_Name": "Microsoft",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Microsoft RM-1067": {
       "standard": false,
       "properties": {
@@ -32285,6 +32298,19 @@
         "Device_Type": "TV Device",
         "Device_Name": "TV Device",
         "Device_Code_Name": "TV Device",
+        "Device_Maker": "Philips",
+        "Device_Pointing_Method": "unknown",
+        "Device_Brand_Name": "Philips",
+        "isMobileDevice": "false",
+        "isTablet": "false"
+      }
+    },
+    "Philips HTB5570D": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "TV Device",
+        "Device_Name": "HTB5570D",
+        "Device_Code_Name": "HTB5570D",
         "Device_Maker": "Philips",
         "Device_Pointing_Method": "unknown",
         "Device_Brand_Name": "Philips",

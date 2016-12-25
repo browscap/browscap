@@ -471,7 +471,30 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/8.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#; Microsoft; Lumia 950 XL Dual SIM*",
+          "engine": "Trident_8",
+          "device": "Microsoft Lumia 950 XL Dual SIM",
+          "platforms": [
+            "WinPhone8.1"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0*(#PLATFORM#Trident\/8.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#*",
+          "engine": "Trident_8",
+          "platforms": [
+            "WinPhone8.1"
+          ]
+        },
+        {
+          "match": "*Mozilla\/5.0*(#PLATFORM#Trident\/8.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#; Microsoft; Lumia 950 XL Dual SIM*",
+          "engine": "Trident_8",
+          "device": "Microsoft Lumia 950 XL Dual SIM",
+          "platforms": [
+            "WinPhone8.1"
+          ]
+        },
+        {
+          "match": "*Mozilla\/5.0*(#PLATFORM#Trident\/8.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#*",
           "engine": "Trident_8",
           "platforms": [
             "WinPhone8.1"
