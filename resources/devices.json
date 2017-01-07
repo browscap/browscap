@@ -29328,6 +29328,19 @@
         "isTablet": "false"
       }
     },
+    "Xiaomi MI NOTE Pro": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "MI NOTE Pro",
+        "Device_Code_Name": "MI NOTE Pro",
+        "Device_Maker": "Xiaomi Tech",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Xiaomi",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Xiaomi HM NOTE 1LTETD": {
       "standard": false,
       "properties": {
