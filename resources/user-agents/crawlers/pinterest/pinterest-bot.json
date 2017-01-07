@@ -1,0 +1,35 @@
+{
+  "division": "Pinterest Bot #MAJORVER#.#MINORVER#",
+  "versions": ["4.3", "4.2", "4.1", 4, "3.6", "3.5", "3.4", "3.3", "3.2", "3.1", 3, 2, "1.8", "1.1", 1, "0.2", "0.1"],
+  "sortIndex": 1995,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Pinterest Bot #MAJORVER#.#MINORVER#",
+      "engine": "WebKit",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Pinterest Bot #MAJORVER#.#MINORVER#",
+        "Browser": "Pinterest Bot",
+        "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "Ericsson Research",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Pinterest\/#MAJORVER#.#MINORVER#*"
+        }
+      ]
+    }
+  ]
+}

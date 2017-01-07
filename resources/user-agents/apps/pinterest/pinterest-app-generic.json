@@ -308,28 +308,6 @@
           ]
         }
       ]
-    },
-    {
-      "userAgent": "Pinterest App Generic",
-      "engine": "WebKit",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "Pinterest App Generic",
-        "Browser": "Pinterest App",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Ericsson Research",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3"
-      },
-      "children": [
-        {
-          "match": "Pinterest\/*"
-        }
-      ]
     }
   ]
 }

@@ -428,9 +428,9 @@ return [
     'issue-765-I' => [
         'ua' => 'Pinterest/0.1',
         'properties' => [
-            'Comment' => 'Pinterest App 0.1',
-            'Browser' => 'Pinterest App',
-            'Browser_Type' => 'Application',
+            'Comment' => 'Pinterest Bot 0.1',
+            'Browser' => 'Pinterest Bot',
+            'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Ericsson Research',
             'Browser_Modus' => 'unknown',
@@ -459,7 +459,7 @@ return [
             'isMobileDevice' => false,
             'isTablet' => false,
             'isSyndicationReader' => false,
-            'Crawler' => false,
+            'Crawler' => true,
             'isFake' => false,
             'isAnonymized' => false,
             'isModified' => false,
