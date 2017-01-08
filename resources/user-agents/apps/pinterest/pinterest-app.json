@@ -219,31 +219,6 @@
           ]
         }
       ]
-    },
-    {
-      "userAgent": "Pinterest App #MAJORVER#.#MINORVER#",
-      "engine": "WebKit",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "Pinterest App #MAJORVER#.#MINORVER#",
-        "Browser": "Pinterest App",
-        "Browser_Type": "Application",
-        "Browser_Maker": "Ericsson Research",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3"
-      },
-      "children": [
-        {
-          "match": "Pinterest\/#MAJORVER#.#MINORVER#*"
-        }
-      ]
     }
   ]
 }

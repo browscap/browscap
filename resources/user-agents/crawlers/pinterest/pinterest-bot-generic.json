@@ -1,0 +1,31 @@
+{
+  "division": "Pinterest Bot Generic",
+  "sortIndex": 1996,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Pinterest Bot Generic",
+      "engine": "WebKit",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Pinterest Bot Generic",
+        "Browser": "Pinterest Bot",
+        "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "Ericsson Research",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Pinterest\/*"
+        }
+      ]
+    }
+  ]
+}
