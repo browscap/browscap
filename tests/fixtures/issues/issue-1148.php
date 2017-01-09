@@ -39,7 +39,7 @@ return [
             'isFake' => false,
             'isAnonymized' => false,
             'isModified' => false,
-            'CssVersion' => '3',
+            'CssVersion' => '0',
             'AolVersion' => '0',
             'Device_Name' => 'Honor 7i',
             'Device_Maker' => 'Huawei',
