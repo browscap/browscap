@@ -50,17 +50,10 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Version\/5.0 Safari\/* Epiphany\/*",
-          "device": "Linux Desktop",
-          "platforms": [
-            "Linux_64", "Linux_32", "Linux"
-          ]
-        },
-        {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/*(KHTML,*like Gecko*) Version\/*Safari\/* Epiphany\/*",
           "device": "Linux Desktop",
           "platforms": [
-            "Linux_32", "Linux"
+            "Linux_64", "Linux_32", "Linux"
           ]
         },
         {
