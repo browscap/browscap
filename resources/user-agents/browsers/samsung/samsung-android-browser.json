@@ -1,6 +1,6 @@
 {
   "division": "Samsung Browser #MAJORVER#.#MINORVER#",
-  "versions": [4, "3.5", "3.4", "3.3", "3.2", "3.1", 3, "2.1", 2],
+  "versions": [5, 4, "3.5", "3.4", "3.3", "3.2", "3.1", 3, "2.1", 2],
   "sortIndex": 955,
   "lite": false,
   "standard": true,
@@ -389,6 +389,13 @@
           "device": "Samsung SM-T280",
           "platforms": [
             "Android_5_1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-G930F Build\/*) AppleWebKit\/* (KHTML* like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "device": "Samsung SM-G930F",
+          "platforms": [
+            "Android_6_0"
           ]
         },
         {

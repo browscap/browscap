@@ -5395,6 +5395,19 @@
         "isTablet": "false"
       }
     },
+    "Samsung SM-G930F": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SM-G930F",
+        "Device_Name": "Galaxy S7",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Samsung SM-G530H": {
       "standard": false,
       "properties": {
