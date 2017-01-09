@@ -1,0 +1,47 @@
+{
+  "division": "Microsoft Outlook #MAJORVER#.#MINORVER# for iOS",
+  "versions": ["1.0"],
+  "sortIndex": 1648,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Microsoft Outlook #MAJORVER#.#MINORVER# for iOS",
+      "platform": "iOS",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Microsoft Outlook #MAJORVER#.#MINORVER# for iOS",
+        "Browser": "Outlook",
+        "Browser_Type": "Email Client",
+        "Browser_Maker": "Microsoft Corporation",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "CssVersion": "2",
+        "JavaScript": "false",
+        "isSyndicationReader": "false"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (iPhone#PLATFORM#)*AppleWebKit\/*(*KHTML* like Gecko*)*Outlook-iOS-Android\/#MAJORVER#.#MINORVER#* Safari\/*",
+          "device": "iPhone",
+          "platforms": [
+            "iOS_A_9_3", "iOS_A"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/*(*KHTML* like Gecko*)*Outlook-iOS-Android\/#MAJORVER#.#MINORVER#* Safari\/*",
+          "platforms": [
+            "iOS_A_9_3", "iOS_A"
+          ]
+        }
+      ]
+    }
+  ]
+}
