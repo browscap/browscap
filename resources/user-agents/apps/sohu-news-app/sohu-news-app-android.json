@@ -1,0 +1,49 @@
+{
+  "division": "SohuNews App #MAJORVER#.#MINORVER# for Android",
+  "versions": ["5.7"],
+  "sortIndex": 2060,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "SohuNews App #MAJORVER#.#MINORVER# for Android",
+      "engine": "Blink",
+      "platform": "Android",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "SohuNews App #MAJORVER#.#MINORVER# for Android",
+        "Browser": "SohuNews App",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Browser_Type": "Application",
+        "Browser_Maker": "Sohu.com Inc.",
+        "Alpha": "false",
+        "Beta": "false",
+        "IFrames": "false",
+        "Cookies": "false",
+        "JavaScript": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "Frames": "true",
+        "Tables": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#ATH-AL00 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Chrome\/* Safari\/* SohuNews\/#MAJORVER#.#MINORVER#*",
+          "device": "Huawei ATH-AL00",
+          "platforms": [
+            "Android_6_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/* Chrome\/* Safari\/* SohuNews\/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Android_6_0", "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}
