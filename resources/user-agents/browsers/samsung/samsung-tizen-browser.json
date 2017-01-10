@@ -1,6 +1,6 @@
 {
   "division": "Samsung Browser #MAJORVER#.#MINORVER#",
-  "versions": ["2.3", 1],
+  "versions": ["2.3", "1.1", 1],
   "sortIndex": 955,
   "lite": false,
   "standard": true,
@@ -31,7 +31,7 @@
           "match": "Mozilla\/5.0 (SMART-TV; #PLATFORM#) AppleWebkit\/* (KHTML* like Gecko) SamsungBrowser\/#MAJORVER#.#MINORVER#* TV Safari/*",
           "device": "Smart-TV",
           "platforms": [
-            "Tizen_2_3", "Tizen_2_2", "Tizen"
+            "Tizen_2_4", "Tizen_2_3", "Tizen_2_2", "Tizen"
           ]
         }
       ]
