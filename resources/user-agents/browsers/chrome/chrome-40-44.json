@@ -4155,21 +4155,27 @@
           ]
         },
         {
-          "match": "LMT6752_TD* Linux\/* Android\/5.0* Release\/* Browser\/AppleWebkit* Chrome\/#MAJORVER#.*",
+          "match": "LMT6752_TD*Linux\/* Android\/5.0* Release\/* Browser\/AppleWebkit* Chrome\/#MAJORVER#.*",
           "platforms": [
             "Android_5_0"
           ]
         },
         {
-          "match": "* Linux\/* Android\/5.0* Release\/* Browser\/AppleWebkit* Chrome\/#MAJORVER#.*",
+          "match": "*Linux\/* Android\/5.0* Release\/* Browser\/AppleWebkit* Chrome\/#MAJORVER#.*",
           "platforms": [
             "Android_5_0"
           ]
         },
         {
-          "match": "* Linux\/* Android\/5.1* Release\/* Browser\/AppleWebkit* Chrome\/#MAJORVER#.*",
+          "match": "*Linux\/* Android\/5.1* Release\/* Browser\/AppleWebkit* Chrome\/#MAJORVER#.*",
           "platforms": [
             "Android_5_1"
+          ]
+        },
+        {
+          "match": "*Linux\/* Android\/6.0* Release\/* Browser\/AppleWebkit* Chrome\/#MAJORVER#.*",
+          "platforms": [
+            "Android_6_0"
           ]
         }
       ]
@@ -4277,7 +4283,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "device": "Linux Desktop",
           "platforms": [
             "ChromeOS_x64", "ChromeOS_i686", "ChromeOS_ARM", "ChromeOS",
@@ -4285,7 +4291,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "device": "Windows Desktop",
           "platforms": [
             "Win95_2", "Win98_2", "NT40_64", "NT4", "NT4_1", "Win2000", "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32",
@@ -4296,7 +4302,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "device": "Macintosh",
           "platforms": [
             "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
@@ -4305,14 +4311,14 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "device": "general Desktop",
           "platforms": [
             "FreeBSD_64", "FreeBSD_64_2", "FreeBSD_386", "FreeBSD", "OpenBSD_64_2", "OpenBSD_386", "OpenBSD"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko) Chrome\/#MAJORVER#.*",
+          "match": "Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/* (KHTML,*like Gecko) Chrome\/#MAJORVER#.*",
           "device": "Linux Desktop",
           "platforms": [
             "ChromeOS_x64", "ChromeOS_i686", "ChromeOS_ARM", "ChromeOS",
@@ -4320,7 +4326,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*",
+          "match": "Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*",
           "device": "Windows Desktop",
           "platforms": [
             "NT40_64", "NT4", "NT4_1", "Win2000", "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32",
@@ -4331,7 +4337,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*",
+          "match": "Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*",
           "device": "Macintosh",
           "platforms": [
             "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
@@ -4340,7 +4346,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Chrome anonymized by*",
+          "match": "Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Chrome anonymized by*",
           "properties": {
             "isAnonymized": "true"
           },
@@ -4354,7 +4360,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Anonymisiert durch*",
+          "match": "Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Anonymisiert durch*",
           "properties": {
             "isAnonymized": "true"
           },
@@ -4368,7 +4374,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/*(KHTML,like Gecko) Chrome\/#MAJORVER#.*",
+          "match": "Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/*(KHTML,like Gecko) Chrome\/#MAJORVER#.*",
           "device": "Linux Desktop",
           "platforms": [
             "ChromeOS_x64", "ChromeOS_i686", "ChromeOS_ARM", "ChromeOS",

@@ -1,0 +1,51 @@
+{
+  "division": "ANT Galio #MAJORVER#.#MINORVER#",
+  "versions": ["3.4", "3.3", "3.2"],
+  "sortIndex": 954,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "ANT Galio #MAJORVER#.#MINORVER#",
+      "device": "general TV Device",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "ANT Galio #MAJORVER#.#MINORVER#",
+        "Browser": "ANT Galio",
+        "Browser_Type": "Application",
+        "Browser_Maker": "Espial Group",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "HbbTV\/*Hisense;MT5651* ANTGalio\/#MAJORVER#.#MINORVER#*",
+          "device": "Hisense MT5651"
+        },
+        {
+          "match": "HbbTV\/*Philips;MT5580* ANTGalio\/#MAJORVER#.#MINORVER#*",
+          "device": "Philips MT5580"
+        },
+        {
+          "match": "HbbTV\/*Humax;HD FOX+* ANTGalio\/#MAJORVER#.#MINORVER#*",
+          "device": "Humax HD FOX+"
+        },
+        {
+          "match": "HbbTV\/*HANDAN;ST7108HBB* ANTGalio\/#MAJORVER#.#MINORVER#*",
+          "device": "HANDAN ST7108HBB"
+        },
+        {
+          "match": "HbbTV\/*ANTGalio\/#MAJORVER#.#MINORVER#*",
+          "device": "general TV Device"
+        }
+      ]
+    }
+  ]
+}

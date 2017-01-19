@@ -136,7 +136,7 @@
         "Device_Type": "Desktop",
         "Device_Code_Name": "general Desktop",
         "Device_Name": "general Desktop",
-        "Device_Maker": "Various",
+        "Device_Maker": "unknown",
         "Device_Brand_Name": "unknown",
         "Device_Pointing_Method": "mouse",
         "isMobileDevice": "false",
@@ -149,7 +149,7 @@
         "Device_Type": "TV Device",
         "Device_Code_Name": "TV",
         "Device_Name": "TV",
-        "Device_Maker": "Various",
+        "Device_Maker": "unknown",
         "Device_Brand_Name": "unknown",
         "Device_Pointing_Method": "unknown",
         "isMobileDevice": "false",
@@ -162,7 +162,7 @@
         "Device_Type": "Desktop",
         "Device_Code_Name": "Windows Desktop",
         "Device_Name": "Windows Desktop",
-        "Device_Maker": "Various",
+        "Device_Maker": "unknown",
         "Device_Brand_Name": "unknown",
         "Device_Pointing_Method": "mouse",
         "isMobileDevice": "false",
@@ -175,7 +175,7 @@
         "Device_Type": "Desktop",
         "Device_Code_Name": "Linux Desktop",
         "Device_Name": "Linux Desktop",
-        "Device_Maker": "Various",
+        "Device_Maker": "unknown",
         "Device_Brand_Name": "unknown",
         "Device_Pointing_Method": "mouse",
         "isMobileDevice": "false",
@@ -273,6 +273,32 @@
         "isTablet": "false"
       }
     },
+    "Samsung Series J (2015)": {
+      "standard": true,
+      "properties": {
+        "Device_Type": "TV Device",
+        "Device_Code_Name": "Series J (2015)",
+        "Device_Name": "Series J (2015)",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "false",
+        "isTablet": "false"
+      }
+    },
+    "Samsung Series J (2016)": {
+      "standard": true,
+      "properties": {
+        "Device_Type": "TV Device",
+        "Device_Code_Name": "Series J (2016)",
+        "Device_Name": "Series J (2016)",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "false",
+        "isTablet": "false"
+      }
+    },
     "Viera": {
       "standard": true,
       "properties": {
@@ -309,6 +335,32 @@
         "Device_Brand_Name": "Panasonic",
         "Device_Pointing_Method": "unknown",
         "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Panasonic DIGA M8156": {
+      "standard": true,
+      "properties": {
+        "Device_Type": "TV Device",
+        "Device_Code_Name": "DIGA M8156",
+        "Device_Name": "DIGA M8156",
+        "Device_Maker": "Panasonic",
+        "Device_Brand_Name": "Panasonic",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "false",
+        "isTablet": "false"
+      }
+    },
+    "Panasonic DIGA M6346": {
+      "standard": true,
+      "properties": {
+        "Device_Type": "TV Device",
+        "Device_Code_Name": "DIGA M6346",
+        "Device_Name": "DIGA M6346",
+        "Device_Maker": "Panasonic",
+        "Device_Brand_Name": "Panasonic",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "false",
         "isTablet": "false"
       }
     },
@@ -13650,6 +13702,19 @@
         "isTablet": "false"
       }
     },
+    "HTC M8St": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "M8St",
+        "Device_Name": "One E8",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "HTC M9": {
       "standard": false,
       "properties": {
@@ -14722,6 +14787,19 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "D820us",
         "Device_Name": "D820us",
+        "Device_Maker": "HTC",
+        "Device_Brand_Name": "HTC",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "HTC D816t": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "D816t",
+        "Device_Name": "D816t",
         "Device_Maker": "HTC",
         "Device_Brand_Name": "HTC",
         "Device_Pointing_Method": "touchscreen",
@@ -18135,6 +18213,97 @@
         "isTablet": "false"
       }
     },
+    "LG 42LA6208": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "TV Device",
+        "Device_Code_Name": "42LA6208",
+        "Device_Name": "42LA6208",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "false",
+        "isTablet": "false"
+      }
+    },
+    "LG 55UF695V": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "TV Device",
+        "Device_Code_Name": "55UF695V",
+        "Device_Name": "55UF695V",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "false",
+        "isTablet": "false"
+      }
+    },
+    "LG 43LF630V": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "TV Device",
+        "Device_Code_Name": "43LF630V",
+        "Device_Name": "43LF630V",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "false",
+        "isTablet": "false"
+      }
+    },
+    "LG 79UF860V": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "TV Device",
+        "Device_Code_Name": "79UF860V",
+        "Device_Name": "79UF860V",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "false",
+        "isTablet": "false"
+      }
+    },
+    "LG 49LH604V": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "TV Device",
+        "Device_Code_Name": "49LH604V",
+        "Device_Name": "49LH604V",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "false",
+        "isTablet": "false"
+      }
+    },
+    "LG 42LB671V": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "TV Device",
+        "Device_Code_Name": "42LB671V",
+        "Device_Name": "42LB671V",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "false",
+        "isTablet": "false"
+      }
+    },
+    "LG 49UH668V": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "TV Device",
+        "Device_Code_Name": "49UH668V",
+        "Device_Name": "49UH668V",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "false",
+        "isTablet": "false"
+      }
+    },
     "1 & 1 Smartpad": {
       "standard": false,
       "properties": {
@@ -18616,6 +18785,19 @@
         "isTablet": "false"
       }
     },
+    "Mobistel Cynus T5": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Cynus T5",
+        "Device_Name": "Cynus T5",
+        "Device_Maker": "Mobistel",
+        "Device_Brand_Name": "Mobistel",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Mobistel MT-7521S": {
       "standard": false,
       "properties": {
@@ -18642,12 +18824,12 @@
         "isTablet": "false"
       }
     },
-    "Mobistel Cynus T5": {
+    "Mobistel Cynus F5": {
       "standard": false,
       "properties": {
         "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "Cynus T5",
-        "Device_Name": "Cynus T5",
+        "Device_Code_Name": "Cynus F5",
+        "Device_Name": "Cynus F5",
         "Device_Maker": "Mobistel",
         "Device_Brand_Name": "Mobistel",
         "Device_Pointing_Method": "touchscreen",
@@ -18655,12 +18837,12 @@
         "isTablet": "false"
       }
     },
-    "Mobistel Cynus F5": {
+    "Mobistel Cynus F9": {
       "standard": false,
       "properties": {
         "Device_Type": "Mobile Phone",
-        "Device_Code_Name": "Cynus F5",
-        "Device_Name": "Cynus F5",
+        "Device_Code_Name": "Cynus F9",
+        "Device_Name": "Cynus F9",
         "Device_Maker": "Mobistel",
         "Device_Brand_Name": "Mobistel",
         "Device_Pointing_Method": "touchscreen",
@@ -19597,6 +19779,19 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "W1-U00",
         "Device_Name": "Ascend W1",
+        "Device_Maker": "Huawei",
+        "Device_Brand_Name": "Huawei",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Huawei G610-T00": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "G610-T00",
+        "Device_Name": "Ascend G610",
         "Device_Maker": "Huawei",
         "Device_Brand_Name": "Huawei",
         "Device_Pointing_Method": "touchscreen",
@@ -20689,6 +20884,45 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "RM-1113",
         "Device_Name": "Lumia 640 LTE",
+        "Device_Maker": "Microsoft Corporation",
+        "Device_Brand_Name": "Microsoft",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Microsoft RM-1118": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "RM-1118",
+        "Device_Name": "Lumia 950 Dual SIM LTE",
+        "Device_Maker": "Microsoft Corporation",
+        "Device_Brand_Name": "Microsoft",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Microsoft RM-1104": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "RM-1104",
+        "Device_Name": "Lumia 950 LTE",
+        "Device_Maker": "Microsoft Corporation",
+        "Device_Brand_Name": "Microsoft",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "Microsoft Lumia 950 XL Dual SIM": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "Lumia 950 XL Dual SIM",
+        "Device_Name": "Lumia 950 XL Dual SIM",
         "Device_Maker": "Microsoft Corporation",
         "Device_Brand_Name": "Microsoft",
         "Device_Pointing_Method": "touchscreen",
@@ -32097,6 +32331,84 @@
         "isTablet": "false"
       }
     },
+    "Philips MT5580": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "TV Device",
+        "Device_Name": "TV Device",
+        "Device_Code_Name": "TV Device",
+        "Device_Maker": "Philips",
+        "Device_Pointing_Method": "unknown",
+        "Device_Brand_Name": "Philips",
+        "isMobileDevice": "false",
+        "isTablet": "false"
+      }
+    },
+    "Philips HTB5570D": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "TV Device",
+        "Device_Name": "HTB5570D",
+        "Device_Code_Name": "HTB5570D",
+        "Device_Maker": "Philips",
+        "Device_Pointing_Method": "unknown",
+        "Device_Brand_Name": "Philips",
+        "isMobileDevice": "false",
+        "isTablet": "false"
+      }
+    },
+    "HANDAN ST7108HBB": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "TV Device",
+        "Device_Name": "TV Device",
+        "Device_Code_Name": "TV Device",
+        "Device_Maker": "HANDAN",
+        "Device_Pointing_Method": "unknown",
+        "Device_Brand_Name": "HANDAN",
+        "isMobileDevice": "false",
+        "isTablet": "false"
+      }
+    },
+    "Humax HD FOX+": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "TV Device",
+        "Device_Name": "HD FOX+",
+        "Device_Code_Name": "HD FOX+",
+        "Device_Maker": "Humax",
+        "Device_Pointing_Method": "unknown",
+        "Device_Brand_Name": "Humax",
+        "isMobileDevice": "false",
+        "isTablet": "false"
+      }
+    },
+    "Skyworth HC7620": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "TV Device",
+        "Device_Name": "HC7620",
+        "Device_Code_Name": "HC7620",
+        "Device_Maker": "Skyworth",
+        "Device_Pointing_Method": "unknown",
+        "Device_Brand_Name": "Skyworth",
+        "isMobileDevice": "false",
+        "isTablet": "false"
+      }
+    },
+    "Dream Property Dreambox": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "TV Device",
+        "Device_Name": "Dreambox",
+        "Device_Code_Name": "Dreambox",
+        "Device_Maker": "Dream Property GmbH",
+        "Device_Pointing_Method": "unknown",
+        "Device_Brand_Name": "Dream",
+        "isMobileDevice": "false",
+        "isTablet": "false"
+      }
+    },
     "Shiru Samurai 10": {
       "standard": true,
       "properties": {
@@ -34528,6 +34840,19 @@
         "isTablet": "false"
       }
     },
+    "Thomson THS845": {
+      "standard": true,
+      "properties": {
+        "Device_Type": "TV Device",
+        "Device_Code_Name": "THS845",
+        "Device_Name": "THS845",
+        "Device_Maker": "Thomson",
+        "Device_Brand_Name": "Thomson",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "false",
+        "isTablet": "false"
+      }
+    },
     "M-way MD-948G": {
       "standard": true,
       "properties": {
@@ -36712,6 +37037,19 @@
         "isTablet": "true"
       }
     },
+    "Hisense MT5651": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "TV Device",
+        "Device_Name": "TV Device",
+        "Device_Code_Name": "TV Device",
+        "Device_Maker": "Hisense",
+        "Device_Pointing_Method": "unknown",
+        "Device_Brand_Name": "Hisense",
+        "isMobileDevice": "false",
+        "isTablet": "false"
+      }
+    },
     "Lark Evolution X2 7 3G-GPS": {
       "standard": true,
       "properties": {
@@ -37528,6 +37866,45 @@
         "Device_Pointing_Method": "touchscreen",
         "Device_Brand_Name": "Xianghe",
         "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "FREE Freebox": {
+      "standard": true,
+      "properties": {
+        "Device_Type": "TV Device",
+        "Device_Code_Name": "Freebox Revolution",
+        "Device_Name": "Freebox Revolution",
+        "Device_Maker": "FREE SAS",
+        "Device_Brand_Name": "FREE",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "false",
+        "isTablet": "false"
+      }
+    },
+    "Cmx Aquila 080-1008": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "Aquila 080-1008",
+        "Device_Code_Name": "Aquila 080-1008",
+        "Device_Maker": "Cmx",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Cmx",
+        "isMobileDevice": "true",
+        "isTablet": "true"
+      }
+    },
+    "ASTON XenaHd Twin Connect": {
+      "standard": true,
+      "properties": {
+        "Device_Type": "TV Device",
+        "Device_Code_Name": "XenaHd Twin Connect",
+        "Device_Name": "XenaHd Twin Connect",
+        "Device_Maker": "ASTON",
+        "Device_Brand_Name": "ASTON",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "false",
         "isTablet": "false"
       }
     },

@@ -3415,6 +3415,16 @@
         "Platform_Bits": "32"
       }
     },
+    "NetBSD_64_2": {
+      "match": "*NetBSD amd64*",
+      "lite": false,
+      "standard": false,
+      "inherits": "NetBSD",
+      "properties": {
+        "Browser_Bits": "64",
+        "Platform_Bits": "64"
+      }
+    },
     "DragonFlyBSD": {
       "match": "*DragonFly*",
       "lite": false,
@@ -3920,6 +3930,17 @@
         "Platform_Version": "3.0"
       }
     },
+    "webOS_30": {
+      "match": "*webOS\/3.*",
+      "lite": false,
+      "standard": true,
+      "inherits": "webOS",
+      "properties": {
+        "Platform_Version": "3.0",
+        "Platform_Description": "LG webOS",
+        "Platform_Maker": "LG"
+      }
+    },
     "Darwin": {
       "match": "*Darwin*",
       "lite": false,
@@ -4069,7 +4090,7 @@
       "properties": {
         "Platform": "MeeGo",
         "Platform_Maker": "Linux Foundation",
-        "Platform_Description": "Linux Smartphone OS",
+        "Platform_Description": "MeeGo",
         "Platform_Version": "unknown",
         "Win16": "false",
         "Win32": "false",
@@ -4083,9 +4104,9 @@
       "lite": false,
       "standard": true,
       "properties": {
-        "Platform": "Linux Smartphone OS",
+        "Platform": "Maemo",
         "Platform_Maker": "Linux Foundation",
-        "Platform_Description": "Linux Smartphone OS",
+        "Platform_Description": "Maemo",
         "Platform_Version": "unknown",
         "Win16": "false",
         "Win32": "false",
@@ -4101,7 +4122,7 @@
       "inherits": "Maemo"
     },
     "Tizen": {
-      "match": "*Linux; Tizen*",
+      "match": "*Linux;*Tizen*",
       "lite": false,
       "standard": true,
       "properties": {
@@ -4117,7 +4138,7 @@
       }
     },
     "Tizen_2_2": {
-      "match": "*Linux; Tizen 2.2*",
+      "match": "*Linux;*Tizen 2.2*",
       "lite": false,
       "standard": true,
       "inherits": "Tizen",
@@ -4126,7 +4147,7 @@
       }
     },
     "Tizen_2_3": {
-      "match": "*Linux; Tizen 2.3*",
+      "match": "*Linux;*Tizen 2.3*",
       "lite": false,
       "standard": true,
       "inherits": "Tizen",
@@ -4135,7 +4156,7 @@
       }
     },
     "Tizen_2_4": {
-      "match": "*Linux; Tizen 2.4*",
+      "match": "*Linux;*Tizen 2.4*",
       "lite": false,
       "standard": true,
       "inherits": "Tizen",

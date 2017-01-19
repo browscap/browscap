@@ -1,0 +1,30 @@
+{
+  "division": "CMUV DVBViewer",
+  "sortIndex": 10620,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "CMUV DVBViewer",
+      "device": "general TV Device",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "CMUV DVBViewer",
+        "Browser": "CMUV DVBViewer",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "CM&V Hackbart",
+        "Alpha": "false",
+        "Beta": "false",
+        "JavaScript": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "CssVersion": "2"
+      },
+      "children": [
+        {
+          "match": "DVBViewer\/TV HbbTV\/*CMUV;DVBViewer*"
+        }
+      ]
+    }
+  ]
+}

@@ -29,6 +29,21 @@
         },
         {
           "match": "HbbTV\/* (;Panasonic;VIERA 2011;*"
+        },
+        {
+          "match": "HbbTV\/* (;Panasonic;VIERA 2012;*"
+        },
+        {
+          "match": "HbbTV\/* (;Panasonic;VIERA 2013;*"
+        },
+        {
+          "match": "HbbTV\/* (;Panasonic;VIERA 2014;*"
+        },
+        {
+          "match": "HbbTV\/* (;Panasonic;VIERA 2015;*"
+        },
+        {
+          "match": "HbbTV\/* (;Panasonic;VIERA 2016;*"
         }
       ]
     }

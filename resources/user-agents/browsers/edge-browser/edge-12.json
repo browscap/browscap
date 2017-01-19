@@ -71,6 +71,13 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#Microsoft; RM-1104*) AppleWebKit\/*(KHTML* like Gecko) Chrome\/* Safari\/* Edge\/#MAJORVER#.*",
+          "device": "Microsoft RM-1104",
+          "platforms": [
+            "WinPhone10"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Chrome\/* Safari\/* Edge\/#MAJORVER#.*",
           "platforms": [
             "WinPhone10"

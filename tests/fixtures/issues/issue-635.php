@@ -29298,7 +29298,7 @@ return [
             'CssVersion' => '3',
             'AolVersion' => '0',
             'Device_Name' => 'TV',
-            'Device_Maker' => 'Various',
+            'Device_Maker' => 'unknown',
             'Device_Type' => 'TV Device',
             'Device_Pointing_Method' => 'unknown',
             'Device_Code_Name' => 'TV',

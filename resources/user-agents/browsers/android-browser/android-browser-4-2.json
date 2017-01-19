@@ -192,6 +192,20 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#C6603 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)",
+          "device": "Sony C6603",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#Galaxy Nexus Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)",
+          "device": "Samsung Galaxy Nexus",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0(#PLATFORM#MTC 982 Build\/*) AppleWebKit*(KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "device": "MTC 982",
           "platforms": [
@@ -228,21 +242,28 @@
           ]
         },
         {
-          "match": "Lenovo-A880* Linux\/* Android\/4.2* Release\/* Browser\/AppleWebkit*",
+          "match": "HUAWEI_G610-T00_TD\/* Android\/#MAJORVER#.#MINORVER#* (#PLATFORM#)*Release\/*AppleWebKit\/*Safari*",
+          "device": "Huawei G610-T00",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Lenovo-A880*Linux\/* Android\/4.2* Release\/* Browser\/AppleWebkit*",
           "device": "Lenovo A880",
           "platforms": [
             "Android_4_2"
           ]
         },
         {
-          "match": "Lenovo-A889* Linux\/* Android\/4.2* Release\/* Browser\/AppleWebkit*",
+          "match": "Lenovo-A889*Linux\/* Android\/4.2* Release\/* Browser\/AppleWebkit*",
           "device": "Lenovo A889",
           "platforms": [
             "Android_4_2"
           ]
         },
         {
-          "match": "NGM Dynamic Racing 2\/* Linux\/* Android\/4.2* Release\/* Browser\/AppleWebKit* Mobile Safari*",
+          "match": "NGM Dynamic Racing 2\/*Linux\/* Android\/4.2* Release\/* Browser\/AppleWebKit* Mobile Safari*",
           "device": "NGM Dynamic Racing GP",
           "platforms": [
             "Android_4_2"

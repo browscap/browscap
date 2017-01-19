@@ -124,13 +124,6 @@
           ]
         },
         {
-          "match": "MT6515M#PLATFORM# Release* Browser?AppleWebkit* (KHTML* like Gecko) Mozilla\/5.0 Mobile",
-          "device": "United MT6515M",
-          "platforms": [
-            "Android_2_3"
-          ]
-        },
-        {
           "match": "Mozilla\/5.0 (Macintosh; *Mac OS X*; HTC\/DesireHD\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "properties": {
             "Browser_Modus": "Desktop Mode"
@@ -3095,6 +3088,13 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#C6603 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)",
+          "device": "Sony C6603",
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#Cynus T1 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "device": "Mobistel Cynus T1",
           "platforms": [
@@ -4299,6 +4299,13 @@
           ]
         },
         {
+          "match": "MT6515M#PLATFORM# Release* Browser?AppleWebkit*",
+          "device": "United MT6515M",
+          "platforms": [
+            "Android_2_3"
+          ]
+        },
+        {
           "match": "Lenovo-A288t#PLATFORM# Release* Browser?AppleWebkit*",
           "device": "Lenovo A288t",
           "platforms": [
@@ -4391,7 +4398,7 @@
         {
           "match": "#PLATFORM# Release* Browser?AppleWebkit*",
           "platforms": [
-            "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
+            "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android_5_0"
           ]
         },
         {

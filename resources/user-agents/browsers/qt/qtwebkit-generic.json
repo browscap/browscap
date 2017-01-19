@@ -1,0 +1,41 @@
+{
+  "division": "QtWebkit Generic",
+  "sortIndex": 1175,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "QtWebkit Generic",
+      "engine": "WebKit",
+      "device": "general TV Device",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "QtWebkit Generic",
+        "Browser": "QtWebkit",
+        "Browser_Type": "Browser",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#HbbTV*Dreambox*) AppleWebKit\/* QtWebkit\/*",
+          "device": "Dream Property Dreambox",
+          "platforms": [
+            "ChromeOS", "Linux_64", "Linux_32", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#HbbTV*) AppleWebKit\/* QtWebkit\/*",
+          "device": "general TV Device",
+          "platforms": [
+            "ChromeOS", "Linux_64", "Linux_32", "Linux"
+          ]
+        }
+      ]
+    }
+  ]
+}

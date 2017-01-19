@@ -1,0 +1,46 @@
+{
+  "division": "YOLO Browser #MAJORVER#.#MINORVER#",
+  "versions": [1],
+  "sortIndex": 956,
+  "lite": true,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "YOLO Browser #MAJORVER#.#MINORVER#",
+      "platform": "Android",
+      "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "YOLO Browser #MAJORVER#.#MINORVER#",
+        "Browser": "YOLO Browser",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "YOLO Family",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#GT-N7000* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*YoloBrowser\/#MAJORVER#.#MINORVER#*Safari*",
+          "device": "Samsung GT-N7000",
+          "platforms": [
+            "Android_4_1"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*)*YoloBrowser\/#MAJORVER#.#MINORVER#*Safari*",
+          "platforms": [
+            "Android_4_1", "Android_4_2", "Android_4_3"
+          ]
+        }
+      ]
+    }
+  ]
+}

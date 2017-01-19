@@ -1,0 +1,53 @@
+{
+  "division": "LG Browser #MAJORVER#.#MINORVER#",
+  "versions": ["6.00"],
+  "sortIndex": 1772,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "LG Browser #MAJORVER#.#MINORVER#",
+      "device": "general TV Device",
+      "platform": "Maemo_ARM",
+      "engine": "WebKit",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "LG Browser #MAJORVER#.#MINORVER#",
+        "Browser": "LG Browser",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "LG",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Safari\/* LG Browser\/#MAJORVER#.#MINORVER#*LGE; 42LA6208*",
+          "device": "LG 42LA6208",
+          "platforms": [
+            "Maemo_ARM"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Safari\/* LG Browser\/#MAJORVER#.#MINORVER#*LGE; 55UF695V*",
+          "device": "LG 55UF695V",
+          "platforms": [
+            "Maemo_ARM"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Safari\/* LG Browser\/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Maemo_ARM"
+          ]
+        }
+      ]
+    }
+  ]
+}

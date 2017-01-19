@@ -35,6 +35,20 @@
           ]
         },
         {
+          "match": "HTCD816t_LTE\/1.0 Android\/#MAJORVER#.#MINORVER#* Release\/* Browser\/*AppleWebKit*",
+          "device": "HTC D816t",
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "HTCM8St_TD\/1.0 Android\/#MAJORVER#.#MINORVER#* Release\/* Browser\/*AppleWebKit*",
+          "device": "HTC M8St",
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/*(*KHTML* like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
           "platforms": [
             "Android_4_4", "Android"

@@ -1,6 +1,6 @@
 {
   "division": "Access NetFront Generic",
-  "sortIndex": 1542,
+  "sortIndex": 1545,
   "lite": false,
   "standard": true,
   "userAgents": [
@@ -10,7 +10,7 @@
       "device": "general Mobile Device",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Access NetFront Generic",
+        "Comment": "NetFront NX Generic",
         "Browser": "NetFront NX",
         "Browser_Type": "Browser",
         "Browser_Maker": "Access",
@@ -30,6 +30,10 @@
         {
           "match": "Mozilla\/* (Nintendo WiiU) AppleWebKit\/* (KHTML* like Gecko) *",
           "device": "Nintendo WiiU"
+        },
+        {
+          "match": "HbbTV\/*Access;NetFront NX *Netfont webkit*",
+          "device": "general TV Device"
         }
       ]
     }

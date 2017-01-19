@@ -1,0 +1,39 @@
+{
+  "division": "Seraphic Sraf #MAJORVER#.#MINORVER#",
+  "versions": [3],
+  "sortIndex": 956,
+  "lite": true,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Seraphic Sraf #MAJORVER#.#MINORVER#",
+      "platform": "Linux",
+      "engine": "Blink",
+      "device": "general TV Device",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Seraphic Sraf #MAJORVER#.#MINORVER#",
+        "Browser": "Sraf",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "SERAPHIC Information Technology (Shanghai) Co., Ltd.",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (Linux; Linux mips) AppleWebKit\/* (KHTML,*like Gecko*)*Chromium\/* Safari\/*) SRAF\/#MAJORVER#.#MINORVER#* (+TRICKMODE; NEXUS; Nexus_AN01*"
+        },
+        {
+          "match": "Mozilla\/5.0 (Linux; Linux mips) AppleWebKit\/* (KHTML,*like Gecko*)*Chromium\/* Safari\/*) SRAF\/#MAJORVER#.#MINORVER#*"
+        }
+      ]
+    }
+  ]
+}
