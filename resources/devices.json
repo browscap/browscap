@@ -19851,6 +19851,19 @@
         "isTablet": "false"
       }
     },
+    "Huawei ATH-AL00": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "ATH-AL00",
+        "Device_Name": "Honor 7i",
+        "Device_Maker": "Huawei",
+        "Device_Brand_Name": "Huawei",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Huawei Media Pad": {
       "standard": true,
       "properties": {
