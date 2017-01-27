@@ -11,7 +11,7 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Opera Neon Generic",
-        "Browser": "Opera",
+        "Browser": "Opera Neon",
         "Browser_Maker": "Opera Software ASA",
         "Browser_Type": "Browser",
         "Frames": "true",
