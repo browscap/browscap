@@ -1,19 +1,23 @@
 {
-  "division": "Waterfox Generic",
-  "sortIndex": 3146,
+  "division": "Waterfox #MAJORVER#.#MINORVER#",
+  "versions": ["50.1", 50, 49, 48, 47, 46, 45, 44, 43, 42, 41],
+  "sortIndex": 3143,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "Waterfox Generic",
-      "engine": "Gecko_Dynamic",
+      "userAgent": "Waterfox #MAJORVER#.#MINORVER#",
+      "engine": "Gecko_Major_Dynamic",
       "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Waterfox Generic",
+        "Comment": "Waterfox #MAJORVER#.#MINORVER#",
         "Browser": "Waterfox",
         "Browser_Type": "Browser",
         "Browser_Maker": "www.waterfoxproject.org",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
@@ -23,14 +27,14 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Firefox\/* Waterfox\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Firefox\/* Waterfox\/#MAJORVER#.#MINORVER#*",
           "device": "Linux Desktop",
           "platforms": [
             "Linux_32_on_x64", "Linux_64", "Linux_32", "Linux"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Firefox\/* Waterfox\/*",
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Firefox\/* Waterfox\/#MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
           "platforms": [
             "Win7_x64_2",
