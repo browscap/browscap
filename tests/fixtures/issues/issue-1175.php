@@ -1,18 +1,18 @@
 <?php
 
 return [
-    'issue-408' => [
-        'ua' => 'Pingdom.com_bot_version_1.4_(http://www.pingdom.com)',
+    'issue-1175' => [
+        'ua' => 'Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/534.34 (KHTML, like Gecko) PingdomTMS/0.8.5 Safari/534.34',
         'properties' => [
             'Comment' => 'Pingdom',
-            'Browser' => 'Pingdom',
+            'Browser' => 'Pingdom Transaction Monitoring',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Pingdom AB.',
             'Browser_Modus' => 'unknown',
-            'Version' => '1.4',
-            'MajorVer' => '1',
-            'MinorVer' => '4',
+            'Version' => '0.8',
+            'MajorVer' => '0',
+            'MinorVer' => '8',
             'Platform' => 'unknown',
             'Platform_Version' => 'unknown',
             'Platform_Description' => 'unknown',
