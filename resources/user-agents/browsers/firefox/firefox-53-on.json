@@ -1,7 +1,7 @@
 {
   "division": "Firefox #MAJORVER#.#MINORVER#",
-  "versions": [50, 49, 48, 47, 46, 45, 44, 43, 42, 41],
-  "sortIndex": 3160,
+  "versions": [55, 54, 53],
+  "sortIndex": 3159,
   "lite": true,
   "standard": true,
   "userAgents": [
@@ -38,9 +38,6 @@
           "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Firefox\/#MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
           "platforms": [
-            "NT4", "Win2000_64", "Win2000", "NT4_1",
-            "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32",
-            "Vista_x64", "Vista_64", "Vista_32",
             "Win7_x64", "Win7_64", "Win7_32",
             "Win8_x64", "Win8_64", "Win8_32",
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
@@ -77,9 +74,6 @@
           "match": "Mozilla\/4.0 (#PLATFORM#) Gecko* Firefox\/#MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
           "platforms": [
-            "NT4", "Win2000_64", "Win2000", "NT4_1",
-            "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32",
-            "Vista_x64", "Vista_64", "Vista_32",
             "Win7_x64", "Win7_64", "Win7_32",
             "Win8_x64", "Win8_64", "Win8_32",
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
@@ -110,7 +104,7 @@
           },
           "device": "Windows Desktop",
           "platforms": [
-            "WinXPa_32", "Vista_32", "Win7_32", "Windows"
+            "Win7_32", "Windows"
           ]
         },
         {
@@ -120,7 +114,7 @@
           },
           "device": "Windows Desktop",
           "platforms": [
-            "WinXPa_32", "Vista_32", "Windows"
+            "Windows"
           ]
         },
         {
@@ -130,7 +124,7 @@
           },
           "device": "Windows Desktop",
           "platforms": [
-            "Win95_2", "Windows"
+            "Windows"
           ]
         },
         {
@@ -161,9 +155,6 @@
           "match": "Mozilla\/5.0 (#PLATFORM#) Gecko*\/#MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
           "platforms": [
-            "WinXPa_32",
-            "WinXPa_64", "WinXPb_64", "WinXPb_32",
-            "Vista_x64", "Vista_64", "Vista_32",
             "Win7_x64", "Win7_64", "Win7_32",
             "Win8_x64", "Win8_64", "Win8_32",
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
@@ -175,9 +166,6 @@
           "match": "Mozilla\/5.0 (#PLATFORM#rv:#MAJORVER#.#MINORVER#*) Gecko*\/",
           "device": "Windows Desktop",
           "platforms": [
-            "WinXPa_32",
-            "WinXPa_64", "WinXPb_64", "WinXPb_32",
-            "Vista_x64", "Vista_64", "Vista_32",
             "Win7_x64", "Win7_64", "Win7_32",
             "Win8_x64", "Win8_64", "Win8_32",
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
