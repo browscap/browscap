@@ -162,6 +162,27 @@
           "platforms": [
             "iOS_A_9_0"
           ]
+        },
+        {
+          "match": "*CFNetwork\/808*",
+          "device": "general Mobile Device (Apple)",
+          "platforms": [
+            "iOS_A_10_0"
+          ]
+        },
+        {
+          "match": "*CFNetwork\/808.1*",
+          "device": "general Mobile Device (Apple)",
+          "platforms": [
+            "iOS_A_10_1"
+          ]
+        },
+        {
+          "match": "*CFNetwork\/808.2*",
+          "device": "general Mobile Device (Apple)",
+          "platforms": [
+            "iOS_A_10_2"
+          ]
         }
       ]
     },
