@@ -37,7 +37,6 @@
             "MajorVer": "0",
             "MinorVer": "8"
           }
-          }
         },
         {
           "match": "Mozilla\/5.0 (Unknown; Linux x86_64) AppleWebKit\/* (KHTML, like Gecko) PingdomTMS\/*",
