@@ -108,7 +108,7 @@ class DiffGenerator
             $msg = sprintf(
                 '%sThere %s %d difference%s found in the comparison.',
                 "\n",
-                ($this->diffsFound === 1 ? 'was'  : 'were'),
+                ($this->diffsFound === 1 ? 'was' : 'were'),
                 $this->diffsFound,
                 ($this->diffsFound === 1 ? '' : 's')
             );
