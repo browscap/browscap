@@ -1,0 +1,85 @@
+{
+  "division": "Opera Mobile Generic",
+  "sortIndex": 1048,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Opera Mobile Generic",
+      "engine": "Presto_2_2",
+      "device": "general Mobile Device",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Opera Mobile Generic",
+        "Browser": "Opera Mobile",
+        "Browser_Maker": "Opera Software ASA",
+        "Browser_Type": "Browser",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "CssVersion": "1",
+        "JavaScript": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/4.0 (compatible; MSIE#PLATFORM#)*Opera*",
+          "platforms": [
+            "WinCE"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; MSIE#PLATFORM#)*Opera*",
+          "platforms": [
+            "WinCE"
+          ]
+        },
+        {
+          "match": "Mozilla\/?.*(*Opera Mobile?#PLATFORM#)*",
+          "platforms": [
+            "WinCE"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "Opera Mobile Generic for Android",
+      "engine": "Blink",
+      "device": "general Mobile Phone (Touch)",
+      "platform": "Android",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Opera Mobile Generic for Android",
+        "Browser": "Opera Mobile",
+        "Browser_Maker": "Opera Software ASA",
+        "Browser_Type": "Browser",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "CssVersion": "1",
+        "JavaScript": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#Redmi Note 3 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/* OPR\/*",
+          "device": "Xiaomi Redmi Note 3",
+          "platforms": [
+            "Android_5_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/* OPR\/*",
+          "platforms": [
+            "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
+            "Android_2_0", "Android_2_1", "Android_2_2", "Android_2_3",
+            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3",
+            "Android_4_4", "Android_5_0", "Android_5_1",
+            "Android_7_1", "Android_7_0", "Android_6_1", "Android_6_0",
+            "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}
