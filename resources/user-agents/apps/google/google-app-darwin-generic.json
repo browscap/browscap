@@ -17,7 +17,7 @@
         "IFrames": "true",
         "Tables": "true",
         "Crawler": "false",
-        "Comment": "Google App",
+        "Comment": "Google App for Darwin",
         "Browser": "Google App"
       },
       "children": [
