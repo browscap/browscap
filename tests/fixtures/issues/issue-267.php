@@ -4774,8 +4774,8 @@ return [
     'issue-267-CN' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0b; Windows NT 6.0 ; .NET CLR 2.0.50215; SL Commerce Client v1.0; Tablet PC 2.0',
         'properties' => [
-            'Comment' => 'SecondLive',
-            'Browser' => 'Second Live Commerce Client',
+            'Comment' => 'SecondLife',
+            'Browser' => 'Second Life Commerce Client',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Linden Labs',
