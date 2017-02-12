@@ -4633,6 +4633,13 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#Redmi Note 3 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "device": "Xiaomi Redmi Note 3",
+          "platforms": [
+            "Android_5_0"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#VT10416-1 Build\/*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "device": "TrekStor VT10416-1",
           "platforms": [

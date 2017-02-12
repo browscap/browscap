@@ -62,13 +62,6 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Redmi Note 3 Build\/*) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/* OPR\/*",
-          "device": "Xiaomi Redmi Note 3",
-          "platforms": [
-            "Android_5_0"
-          ]
-        },
-        {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/* OPR\/*",
           "platforms": [
             "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
