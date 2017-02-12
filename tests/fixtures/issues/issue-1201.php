@@ -15,7 +15,7 @@ return [
             'MinorVer' => '7',
             'Platform' => 'WinXP',
             'Platform_Version' => '5.1',
-            'Platform_Description' => 'Windows',
+            'Platform_Description' => 'Windows XP',
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Microsoft Corporation',
             'Alpha' => false,
