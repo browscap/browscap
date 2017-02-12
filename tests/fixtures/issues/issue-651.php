@@ -1912,14 +1912,14 @@ return [
     'issue-651-AK' => [
         'ua' => 'Google/2.0.1.10455 CFNetwork/548.1.4 Darwin/11.0.0',
         'properties' => [
-            'Comment' => 'Google App 2.0',
+            'Comment' => 'Google App',
             'Browser' => 'Google App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
             'Browser_Modus' => 'unknown',
-            'Version' => '2.0',
-            'MajorVer' => '2',
+            'Version' => '0.0',
+            'MajorVer' => '0',
             'MinorVer' => '0',
             'Platform' => 'iOS',
             'Platform_Version' => '5.1',
