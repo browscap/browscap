@@ -101,7 +101,7 @@ return [
             'Device_Code_Name' => 'Windows Desktop',
             'Device_Brand_Name' => 'unknown',
             'RenderingEngine_Name' => 'Goanna',
-            'RenderingEngine_Version' => '26.0',
+            'RenderingEngine_Version' => '2.0',
             'RenderingEngine_Maker' => 'Moonchild Productions',
         ],
         'lite' => false,
