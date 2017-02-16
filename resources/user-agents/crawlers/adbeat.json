@@ -40,6 +40,30 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#) adbeat.com* Version* Safari*",
+          "device": "Macintosh",
+          "engine": "WebKit",
+          "platforms": [
+            "OSX_10_10"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) adbeat.com* Chrome*",
+          "device": "Macintosh",
+          "engine": "WebKit",
+          "platforms": [
+            "OSX_10_11"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) adbeat.com* Chrome*",
+          "device": "Windows Desktop",
+          "engine": "WebKit",
+          "platforms": [
+            "Win7_64", "Win7_32", "Win8_1_64", "Win10_64_B", "Win10_x64_B"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#) adbeat.com*",
           "device": "Linux Desktop",
           "platforms": [
