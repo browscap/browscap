@@ -1,0 +1,53 @@
+{
+  "division": "Pingdom",
+  "sortIndex": 490,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Pingdom",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Pingdom",
+        "Browser": "Pingdom",
+        "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "Pingdom AB.",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Pingdom.com_bot_version_1.4*",
+          "properties": {
+            "Version": "1.4",
+            "MajorVer": "1",
+            "MinorVer": "4"
+          }
+        },
+        {
+          "match": "Pingdom.com_bot_version_*"
+        },
+        {
+          "match": "Pingdom GIGRIB*"
+        },
+        {
+          "match": "Mozilla\/5.0 (Unknown; Linux x86_64) AppleWebKit\/* (KHTML, like Gecko) PingdomTMS\/0.8*",
+          "properties": {
+            "Browser": "Pingdom Transaction Monitoring",
+            "Version": "0.8",
+            "MajorVer": "0",
+            "MinorVer": "8"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (Unknown; Linux x86_64) AppleWebKit\/* (KHTML, like Gecko) PingdomTMS\/*",
+          "properties": {
+            "Browser": "Pingdom Transaction Monitoring"
+          }
+        },
+        {
+          "match": "*Pingdom*"
+        }
+      ]
+    }
+  ]
+}
