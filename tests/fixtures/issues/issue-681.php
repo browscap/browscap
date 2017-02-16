@@ -322,11 +322,11 @@ return [
     'issue-681-G' => [
         'ua' => 'Mozilla/5.0 (Linux; Tizen 2.3; SAMSUNG SM-Z130H) AppleWebKit/537.3 (KHTML, like Gecko) Version/2.3 Mobile Safari/537.3',
         'properties' => [
-            'Comment' => 'Samsung WebView 2.3 for Mobile',
-            'Browser' => 'Samsung WebView',
+            'Comment' => 'Tizen Browser 2.3',
+            'Browser' => 'Tizen Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
-            'Browser_Maker' => 'Samsung',
+            'Browser_Maker' => 'Linux Foundation',
             'Browser_Modus' => 'unknown',
             'Version' => '2.3',
             'MajorVer' => '2',
