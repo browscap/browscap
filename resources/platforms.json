@@ -4371,6 +4371,7 @@
         "Platform": "Amiga OS",
         "Platform_Maker": "Commodore International",
         "Platform_Version": "unknown",
+        "Platform_Description": "Amiga OS",
         "Win32": "false",
         "Browser_Bits": "32",
         "Platform_Bits": "32"
