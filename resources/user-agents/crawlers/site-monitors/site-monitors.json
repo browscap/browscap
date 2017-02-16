@@ -205,6 +205,13 @@
             "Browser": "Astute Social",
             "Browser_Maker": "Astute Solutions"
           }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; PRTG Network Monitor*",
+          "properties": {
+            "Browser": "PRTG Network Monitor",
+            "Browser_Maker": "Paessler AG"
+          }
         }
       ]
     }
