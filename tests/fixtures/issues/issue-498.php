@@ -1154,7 +1154,7 @@ return [
             'isModified' => false,
             'CssVersion' => '3',
             'AolVersion' => '0',
-            'Device_Name' => 'G2 Verizon VS980',
+            'Device_Name' => 'G2 (Verizon)',
             'Device_Maker' => 'LG',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen',
