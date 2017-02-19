@@ -1902,6 +1902,27 @@
           ]
         },
         {
+          "match": "Mozilla\/5.0 (#PLATFORM#K012 Build\/*) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "device": "Asus K012",
+          "platforms": [
+            "Android_4_3"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#K017 Build\/*) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "device": "Asus K017",
+          "platforms": [
+            "Android_4_3"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0(#PLATFORM#K011 Build\/*)AppleWebKit\/* (KHTML* like Gecko)Chrome\/#MAJORVER#.*Safari\/*",
+          "device": "Asus K011",
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#PMT3377_Wi Build\/*) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "device": "Prestigio PMT3377_Wi",
           "platforms": [
@@ -2126,13 +2147,6 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#K012 Build\/*) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "device": "Asus K012",
-          "platforms": [
-            "Android_4_3"
-          ]
-        },
-        {
           "match": "Mozilla\/5.0 (#PLATFORM#myTAB Mini 3G Build\/*) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "device": "myTAB Mini 3G",
           "platforms": [
@@ -2303,13 +2317,6 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM#D2105 Build\/*) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "device": "Sony D2105",
-          "platforms": [
-            "Android_4_3"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#K017 Build\/*) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
-          "device": "Asus K017",
           "platforms": [
             "Android_4_3"
           ]
