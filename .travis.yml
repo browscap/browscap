@@ -39,7 +39,6 @@ script:
   - if [[ $COVERAGE = yes ]]; then vendor/bin/phpunit --exclude-group useragenttest --coverage-clover=coverage.clover; else vendor/bin/phpunit --exclude-group useragenttest --no-coverage; fi
   - php -n vendor/bin/phpunit --no-coverage --colors --group useragenttest
   - if [[ $EXECUTE_CS_CHECK == yes ]]; then php -n -d memory_limit=768M vendor/bin/phpcs; fi
-  - if [[ $EXECUTE_CS_CHECK == yes ]]; then php -n -d memory_limit=768M vendor/bin/php-cs-fixer fix --dry-run -vv; fi
 
 after_script:
   - if [[ $COVERAGE = yes ]]; then wget https://scrutinizer-ci.com/ocular.phar && php ocular.phar code-coverage:upload --format=php-clover coverage.clover; fi
