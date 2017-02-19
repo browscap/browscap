@@ -32,15 +32,17 @@ before_install:
   - if [[ $TRAVIS_PHP_VERSION != hhvm && $TRAVIS_PHP_VERSION != nightly && $COVERAGE != yes ]]; then phpenv config-rm xdebug.ini; fi
   - if [[ $TRAVIS_PHP_VERSION != hhvm ]]; then echo 'opcache.enable=1' >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini; fi
   - if [[ $TRAVIS_PHP_VERSION != hhvm ]]; then echo 'opcache.enable_cli=1' >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini; fi
+  - if [[ $TRAVIS_PHP_VERSION == hhvm ]]; then echo 'opcache.enable=1' >> /etc/hhvm/php.ini; fi
+  - if [[ $TRAVIS_PHP_VERSION == hhvm ]]; then echo 'opcache.enable_cli=1' >> /etc/hhvm/php.ini; fi
   - travis_retry composer self-update
 
 install:
   - travis_retry composer update --optimize-autoloader --prefer-dist --prefer-stable --no-progress --no-interaction -vv $COMPOSER_FLAGS
 
 script:
-  - if [[ $COVERAGE = yes ]]; then vendor/bin/phpunit --exclude-group useragenttest --coverage-clover=coverage.clover; fi
+  - if [[ $COVERAGE == yes ]]; then vendor/bin/phpunit --exclude-group useragenttest --coverage-clover=coverage.clover; fi
   - if [[ $COVERAGE != yes && $COMPARE != yes ]]; then vendor/bin/phpunit --exclude-group useragenttest --no-coverage; fi
-  - if [[ $COMPARE = yes ]]; then php -n vendor/bin/phpunit --no-coverage --colors --group useragenttest; fi
+  - if [[ $COMPARE == yes ]]; then php -n vendor/bin/phpunit --no-coverage --colors --group useragenttest; fi
   - if [[ $EXECUTE_CS_CHECK == yes ]]; then php -n -d memory_limit=768M vendor/bin/phpcs; fi
 
 after_script:
