@@ -12,7 +12,7 @@ return Symfony\CS\Config\Config::create()
     ->level(\Symfony\CS\FixerInterface::PSR2_LEVEL)
     ->fixers(
         array(
-            'unalign_double_arrow ',
+            'unalign_double_arrow',
             'double_arrow_multiline_whitespaces',
             'align_equals',
             'braces',

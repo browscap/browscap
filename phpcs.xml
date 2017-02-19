@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<ruleset name="PHP_CodeSniffer">
+    <description>browscap</description>
+
+    <file>src</file>
+    <file>tests</file>
+
+    <exclude-pattern>*/temp/*</exclude-pattern>
+
+    <arg name="report" value="full" />
+    <arg value="np" />
+
+    <rule ref="PSR2" />
+</ruleset>
