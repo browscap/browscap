@@ -53,10 +53,12 @@ class BuildCustomFileGeneratorTest extends \PHPUnit_Framework_TestCase
      *
      * @group generator
      * @group sourcetest
+     *
+     * @expectedException \Exception
+     * @expectedExceptionMessage You must specify a resource folder
      */
     public function testConstructFailsWithoutParameters()
     {
-        $this->setExpectedException('\Exception', 'You must specify a resource folder');
         new BuildCustomFileGenerator(null, null);
     }
 
@@ -65,10 +67,12 @@ class BuildCustomFileGeneratorTest extends \PHPUnit_Framework_TestCase
      *
      * @group generator
      * @group sourcetest
+     *
+     * @expectedException \Exception
+     * @expectedExceptionMessage You must specify a build folder
      */
     public function testConstructFailsWithoutTheSecondParameter()
     {
-        $this->setExpectedException('\Exception', 'You must specify a build folder');
         new BuildCustomFileGenerator('.', null);
     }
 
@@ -77,10 +81,12 @@ class BuildCustomFileGeneratorTest extends \PHPUnit_Framework_TestCase
      *
      * @group generator
      * @group sourcetest
+     *
+     * @expectedException \Exception
+     * @expectedExceptionMessage The directory "/dar" does not exist, or we cannot access it
      */
     public function testConstructFailsIfTheDirDoesNotExsist()
     {
-        $this->setExpectedException('\Exception', 'The directory "/dar" does not exist, or we cannot access it');
         new BuildCustomFileGenerator('/dar', null);
     }
 
@@ -92,19 +98,10 @@ class BuildCustomFileGeneratorTest extends \PHPUnit_Framework_TestCase
      */
     public function testConstructFailsIfTheDirIsNotAnDirectory()
     {
-        $this->setExpectedException('\Exception', 'The path "' . __FILE__ . '" did not resolve to a directory');
-        new BuildCustomFileGenerator(__FILE__, null);
-    }
+        $this->expectException('\Exception');
+        $this->expectExceptionMessage('The path "' . __FILE__ . '" did not resolve to a directory');
 
-    /**
-     * tests creating a generator instance
-     *
-     * @group generator
-     * @group sourcetest
-     */
-    public function testConstructPassesIfAllDirsExist()
-    {
-        new BuildCustomFileGenerator('.', '.');
+        new BuildCustomFileGenerator(__FILE__, null);
     }
 
     /**
@@ -148,12 +145,12 @@ class BuildCustomFileGeneratorTest extends \PHPUnit_Framework_TestCase
                     [
                         0 => [
                             'properties' => [
-                                'Parent'   => 'DefaultProperties',
-                                'Browser'  => 'xyz',
-                                'Version'  => '1.0',
+                                'Parent' => 'DefaultProperties',
+                                'Browser' => 'xyz',
+                                'Version' => '1.0',
                                 'MajorBer' => '1',
                             ],
-                            'userAgent'  => 'abc',
+                            'userAgent' => 'abc',
                         ],
                     ]
                 )

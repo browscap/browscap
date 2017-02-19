@@ -391,16 +391,16 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
         $this->object->setSilent(false);
 
         $section = [
-            'Test'   => 1,
+            'Test' => 1,
             'isTest' => true,
-            'abc'    => 'bcd',
+            'abc' => 'bcd',
         ];
 
         $expectedAgents = [
             0 => [
                 'properties' => [
                     'Test' => 'abc',
-                    'abc'  => true,
+                    'abc' => true,
                 ],
             ],
         ];
@@ -489,16 +489,16 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
         $this->object->setSilent(false);
 
         $section = [
-            'Parent'   => 'X1',
-            'Comment'  => '1',
-            'Win16'    => true,
+            'Parent' => 'X1',
+            'Comment' => '1',
+            'Win16' => true,
             'Platform' => 'bcd',
         ];
 
         $sections = [
             'X1' => [
-                'Comment'  => '12',
-                'Win16'    => false,
+                'Comment' => '12',
+                'Win16' => false,
                 'Platform' => 'bcd',
             ],
             'X2' => $section,
@@ -507,8 +507,8 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
         $expectedAgents = [
             0 => [
                 'properties' => [
-                    'Comment'  => 1,
-                    'Win16'    => true,
+                    'Comment' => 1,
+                    'Win16' => true,
                     'Platform' => 'bcd',
                 ],
             ],
@@ -599,9 +599,9 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
         $this->object->setSilent(false);
 
         $section = [
-            'Parent'   => 'DefaultProperties',
-            'Comment'  => '1',
-            'Win16'    => true,
+            'Parent' => 'DefaultProperties',
+            'Comment' => '1',
+            'Win16' => true,
             'Platform' => 'bcd',
         ];
 
@@ -612,8 +612,8 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
         $expectedAgents = [
             0 => [
                 'properties' => [
-                    'Comment'  => '12',
-                    'Win16'    => true,
+                    'Comment' => '12',
+                    'Win16' => true,
                     'Platform' => 'bcd',
                 ],
             ],
@@ -704,9 +704,9 @@ class JsonWriterTest extends \PHPUnit_Framework_TestCase
         $this->object->setSilent(true);
 
         $section = [
-            'Test'   => 1,
+            'Test' => 1,
             'isTest' => true,
-            'abc'    => 'bcd',
+            'abc' => 'bcd',
         ];
 
         $collection = $this->createMock(\Browscap\Data\DataCollection::class);

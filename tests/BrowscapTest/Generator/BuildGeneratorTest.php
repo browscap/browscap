@@ -53,10 +53,12 @@ class BuildGeneratorTest extends \PHPUnit_Framework_TestCase
      *
      * @group generator
      * @group sourcetest
+     *
+     * @expectedException \Exception
+     * @expectedExceptionMessage You must specify a resource folder
      */
     public function testConstructFailsWithoutParameters()
     {
-        $this->setExpectedException('\Exception', 'You must specify a resource folder');
         new BuildGenerator(null, null);
     }
 
@@ -65,10 +67,12 @@ class BuildGeneratorTest extends \PHPUnit_Framework_TestCase
      *
      * @group generator
      * @group sourcetest
+     *
+     * @expectedException \Exception
+     * @expectedExceptionMessage You must specify a build folder
      */
     public function testConstructFailsWithoutTheSecondParameter()
     {
-        $this->setExpectedException('\Exception', 'You must specify a build folder');
         new BuildGenerator('.', null);
     }
 
@@ -77,10 +81,12 @@ class BuildGeneratorTest extends \PHPUnit_Framework_TestCase
      *
      * @group generator
      * @group sourcetest
+     *
+     * @expectedException \Exception
+     * @expectedExceptionMessage The directory "/dar" does not exist, or we cannot access it
      */
     public function testConstructFailsIfTheDirDoesNotExsist()
     {
-        $this->setExpectedException('\Exception', 'The directory "/dar" does not exist, or we cannot access it');
         new BuildGenerator('/dar', null);
     }
 
@@ -92,19 +98,9 @@ class BuildGeneratorTest extends \PHPUnit_Framework_TestCase
      */
     public function testConstructFailsIfTheDirIsNotAnDirectory()
     {
-        $this->setExpectedException('\Exception', 'The path "' . __FILE__ . '" did not resolve to a directory');
+        $this->expectException('\Exception');
+        $this->expectExceptionMessage('The path "' . __FILE__ . '" did not resolve to a directory');
         new BuildGenerator(__FILE__, null);
-    }
-
-    /**
-     * tests creating a generator instance
-     *
-     * @group generator
-     * @group sourcetest
-     */
-    public function testConstructPassesIfAllDirsExist()
-    {
-        new BuildGenerator('.', '.');
     }
 
     /**
@@ -157,12 +153,12 @@ class BuildGeneratorTest extends \PHPUnit_Framework_TestCase
                     [
                         0 => [
                             'properties' => [
-                                'Parent'   => 'DefaultProperties',
-                                'Browser'  => 'xyz',
-                                'Version'  => '1.0',
+                                'Parent' => 'DefaultProperties',
+                                'Browser' => 'xyz',
+                                'Version' => '1.0',
                                 'MajorBer' => '1',
                             ],
-                            'userAgent'  => 'abc',
+                            'userAgent' => 'abc',
                         ],
                     ]
                 )
@@ -274,12 +270,12 @@ class BuildGeneratorTest extends \PHPUnit_Framework_TestCase
                     [
                         0 => [
                             'properties' => [
-                                'Parent'   => 'DefaultProperties',
-                                'Browser'  => 'xyz',
-                                'Version'  => '1.0',
+                                'Parent' => 'DefaultProperties',
+                                'Browser' => 'xyz',
+                                'Version' => '1.0',
                                 'MajorBer' => '1',
                             ],
-                            'userAgent'  => 'abc',
+                            'userAgent' => 'abc',
                         ],
                     ]
                 )

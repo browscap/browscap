@@ -179,10 +179,10 @@ class Expander
         $output = [
             $ua => array_merge(
                 [
-                    'lite'      => $lite,
-                    'standard'  => $standard,
+                    'lite' => $lite,
+                    'standard' => $standard,
                     'sortIndex' => $sortIndex,
-                    'division'  => $divisionName,
+                    'division' => $divisionName,
                 ],
                 $platformData,
                 $engineData,

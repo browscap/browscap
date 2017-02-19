@@ -42,23 +42,23 @@ class PropertyHolder
     public function getPropertyType($propertyName)
     {
         $stringProperties = [
-            'Comment'                     => 1,
-            'Browser'                     => 1,
-            'Browser_Maker'               => 1,
-            'Browser_Modus'               => 1,
-            'Platform'                    => 1,
-            'Platform_Name'               => 1,
-            'Platform_Description'        => 1,
-            'Device_Name'                 => 1,
-            'Platform_Maker'              => 1,
-            'Device_Code_Name'            => 1,
-            'Device_Maker'                => 1,
-            'Device_Brand_Name'           => 1,
-            'RenderingEngine_Name'        => 1,
+            'Comment' => 1,
+            'Browser' => 1,
+            'Browser_Maker' => 1,
+            'Browser_Modus' => 1,
+            'Platform' => 1,
+            'Platform_Name' => 1,
+            'Platform_Description' => 1,
+            'Device_Name' => 1,
+            'Platform_Maker' => 1,
+            'Device_Code_Name' => 1,
+            'Device_Maker' => 1,
+            'Device_Brand_Name' => 1,
+            'RenderingEngine_Name' => 1,
             'RenderingEngine_Description' => 1,
-            'RenderingEngine_Maker'       => 1,
-            'Parent'                      => 1,
-            'PropertyName'                => 1,
+            'RenderingEngine_Maker' => 1,
+            'Parent' => 1,
+            'PropertyName' => 1,
         ];
 
         if (isset($stringProperties[$propertyName])) {
@@ -66,11 +66,11 @@ class PropertyHolder
         }
 
         $arrayProperties = [
-            'Browser_Type'           => 1,
-            'Device_Type'            => 1,
+            'Browser_Type' => 1,
+            'Device_Type' => 1,
             'Device_Pointing_Method' => 1,
-            'Browser_Bits'           => 1,
-            'Platform_Bits'          => 1,
+            'Browser_Bits' => 1,
+            'Platform_Bits' => 1,
         ];
 
         if (isset($arrayProperties[$propertyName])) {
@@ -78,7 +78,7 @@ class PropertyHolder
         }
 
         $genericProperties = [
-            'Platform_Version'        => 1,
+            'Platform_Version' => 1,
             'RenderingEngine_Version' => 1,
         ];
 
@@ -87,11 +87,11 @@ class PropertyHolder
         }
 
         $numericProperties = [
-            'Version'    => 1,
+            'Version' => 1,
             'CssVersion' => 1,
             'AolVersion' => 1,
-            'MajorVer'   => 1,
-            'MinorVer'   => 1,
+            'MajorVer' => 1,
+            'MinorVer' => 1,
         ];
 
         if (isset($numericProperties[$propertyName])) {
@@ -99,29 +99,29 @@ class PropertyHolder
         }
 
         $booleanProperties = [
-            'Alpha'               => 1,
-            'Beta'                => 1,
-            'Win16'               => 1,
-            'Win32'               => 1,
-            'Win64'               => 1,
-            'Frames'              => 1,
-            'IFrames'             => 1,
-            'Tables'              => 1,
-            'Cookies'             => 1,
-            'BackgroundSounds'    => 1,
-            'JavaScript'          => 1,
-            'VBScript'            => 1,
-            'JavaApplets'         => 1,
-            'ActiveXControls'     => 1,
-            'isMobileDevice'      => 1,
-            'isTablet'            => 1,
+            'Alpha' => 1,
+            'Beta' => 1,
+            'Win16' => 1,
+            'Win32' => 1,
+            'Win64' => 1,
+            'Frames' => 1,
+            'IFrames' => 1,
+            'Tables' => 1,
+            'Cookies' => 1,
+            'BackgroundSounds' => 1,
+            'JavaScript' => 1,
+            'VBScript' => 1,
+            'JavaApplets' => 1,
+            'ActiveXControls' => 1,
+            'isMobileDevice' => 1,
+            'isTablet' => 1,
             'isSyndicationReader' => 1,
-            'Crawler'             => 1,
-            'MasterParent'        => 1,
-            'LiteMode'            => 1,
-            'isFake'              => 1,
-            'isAnonymized'        => 1,
-            'isModified'          => 1,
+            'Crawler' => 1,
+            'MasterParent' => 1,
+            'LiteMode' => 1,
+            'isFake' => 1,
+            'isAnonymized' => 1,
+            'isModified' => 1,
         ];
 
         if (isset($booleanProperties[$propertyName])) {
@@ -141,14 +141,14 @@ class PropertyHolder
     public function isLiteModeProperty($propertyName)
     {
         $outputProperties = [
-            'Parent'         => 1,
-            'Comment'        => 1,
-            'Browser'        => 1,
-            'Platform'       => 1,
-            'Version'        => 1,
+            'Parent' => 1,
+            'Comment' => 1,
+            'Browser' => 1,
+            'Platform' => 1,
+            'Version' => 1,
             'isMobileDevice' => 1,
-            'isTablet'       => 1,
-            'Device_Type'    => 1,
+            'isTablet' => 1,
+            'Device_Type' => 1,
         ];
 
         return isset($outputProperties[$propertyName]);
@@ -165,10 +165,10 @@ class PropertyHolder
     public function isStandardModeProperty($propertyName, WriterInterface $writer = null)
     {
         $outputProperties = [
-            'MajorVer'               => 1,
-            'MinorVer'               => 1,
-            'Crawler'                => 1,
-            'Browser_Maker'          => 1,
+            'MajorVer' => 1,
+            'MinorVer' => 1,
+            'Crawler' => 1,
+            'Browser_Maker' => 1,
             'Device_Pointing_Method' => 1,
         ];
 
@@ -198,55 +198,55 @@ class PropertyHolder
     public function isOutputProperty($propertyName, WriterInterface $writer = null)
     {
         $outputProperties = [
-            'Comment'                     => 1,
-            'Browser'                     => 1,
-            'Browser_Maker'               => 1,
-            'Browser_Modus'               => 1,
-            'Platform'                    => 1,
-            'Platform_Name'               => 1,
-            'Platform_Description'        => 1,
-            'Device_Name'                 => 1,
-            'Platform_Maker'              => 1,
-            'Device_Code_Name'            => 1,
-            'Device_Maker'                => 1,
-            'Device_Brand_Name'           => 1,
-            'RenderingEngine_Name'        => 1,
+            'Comment' => 1,
+            'Browser' => 1,
+            'Browser_Maker' => 1,
+            'Browser_Modus' => 1,
+            'Platform' => 1,
+            'Platform_Name' => 1,
+            'Platform_Description' => 1,
+            'Device_Name' => 1,
+            'Platform_Maker' => 1,
+            'Device_Code_Name' => 1,
+            'Device_Maker' => 1,
+            'Device_Brand_Name' => 1,
+            'RenderingEngine_Name' => 1,
             'RenderingEngine_Description' => 1,
-            'RenderingEngine_Maker'       => 1,
-            'Parent'                      => 1,
-            'Browser_Type'                => 1,
-            'Device_Type'                 => 1,
-            'Device_Pointing_Method'      => 1,
-            'Browser_Bits'                => 1,
-            'Platform_Bits'               => 1,
-            'Platform_Version'            => 1,
-            'RenderingEngine_Version'     => 1,
-            'Version'                     => 1,
-            'CssVersion'                  => 1,
-            'AolVersion'                  => 1,
-            'MajorVer'                    => 1,
-            'MinorVer'                    => 1,
-            'Alpha'                       => 1,
-            'Beta'                        => 1,
-            'Win16'                       => 1,
-            'Win32'                       => 1,
-            'Win64'                       => 1,
-            'Frames'                      => 1,
-            'IFrames'                     => 1,
-            'Tables'                      => 1,
-            'Cookies'                     => 1,
-            'BackgroundSounds'            => 1,
-            'JavaScript'                  => 1,
-            'VBScript'                    => 1,
-            'JavaApplets'                 => 1,
-            'ActiveXControls'             => 1,
-            'isMobileDevice'              => 1,
-            'isTablet'                    => 1,
-            'isSyndicationReader'         => 1,
-            'Crawler'                     => 1,
-            'isFake'                      => 1,
-            'isAnonymized'                => 1,
-            'isModified'                  => 1,
+            'RenderingEngine_Maker' => 1,
+            'Parent' => 1,
+            'Browser_Type' => 1,
+            'Device_Type' => 1,
+            'Device_Pointing_Method' => 1,
+            'Browser_Bits' => 1,
+            'Platform_Bits' => 1,
+            'Platform_Version' => 1,
+            'RenderingEngine_Version' => 1,
+            'Version' => 1,
+            'CssVersion' => 1,
+            'AolVersion' => 1,
+            'MajorVer' => 1,
+            'MinorVer' => 1,
+            'Alpha' => 1,
+            'Beta' => 1,
+            'Win16' => 1,
+            'Win32' => 1,
+            'Win64' => 1,
+            'Frames' => 1,
+            'IFrames' => 1,
+            'Tables' => 1,
+            'Cookies' => 1,
+            'BackgroundSounds' => 1,
+            'JavaScript' => 1,
+            'VBScript' => 1,
+            'JavaApplets' => 1,
+            'ActiveXControls' => 1,
+            'isMobileDevice' => 1,
+            'isTablet' => 1,
+            'isSyndicationReader' => 1,
+            'Crawler' => 1,
+            'isFake' => 1,
+            'isAnonymized' => 1,
+            'isModified' => 1,
         ];
 
         if (isset($outputProperties[$propertyName])) {
