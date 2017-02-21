@@ -1,0 +1,35 @@
+{
+  "division": "WhatsApp Bot #MAJORVER#.#MINORVER#",
+  "versions": ["2.17"],
+  "sortIndex": 1995,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "WhatsApp Bot #MAJORVER#.#MINORVER#",
+      "engine": "WebKit",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "WhatsApp Bot #MAJORVER#.#MINORVER#",
+        "Browser": "WhatsApp Bot",
+        "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "Facebook",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "WhatsApp\/#MAJORVER#.#MINORVER#*"
+        }
+      ]
+    }
+  ]
+}
