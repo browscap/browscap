@@ -784,9 +784,82 @@
           ]
         },
         {
+          "match": "Mozilla/5.0 (#PLATFORM#SM-G925F* Build/*) AppleWebKit/* (KHTML,*like Gecko*) Chrome/* YaBrowser/#MAJORVER#.#MINORVER#* Safari/*",
+          "device": "Samsung SM-G925F",
+          "platforms": [
+            "Android_5_0", "Android_5_1"
+          ]
+        },
+        {
           "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML,*like Gecko*) Chrome/* YaBrowser/#MAJORVER#.#MINORVER#* Safari/*",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android_5_0", "Android_5_1", "Android_6_0", "Android_6_1", "Android_7_0", "Android_7_1", "Android"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "Yandex Browser #MAJORVER#.#MINORVER# for iOS",
+      "platform": "iOS",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Yandex Browser #MAJORVER#.#MINORVER#",
+        "Browser": "Yandex Browser",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Browser_Type": "Browser",
+        "Alpha": "false",
+        "Beta": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "Browser_Maker": "Yandex LLC",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (iPhone#PLATFORM#) AppleWebKit/* (KHTML* like Gecko) YaBrowser/#MAJORVER#.#MINORVER#* Safari/*",
+          "device": "iPhone",
+          "platforms": [
+            "iOS_A_9_0", "iOS_A_9_1", "iOS_A_9_2", "iOS_A_9_3",
+            "iOS_A_10_0", "iOS_A_10_1", "iOS_A_10_2",
+            "iOS_A",
+            "iOS_B",
+            "iOS_C_9_3", "iOS_C_9_2", "iOS_C_9_1", "iOS_C_9_0",
+            "iOS_C_10_2", "iOS_C_10_1", "iOS_C_10_0",
+            "iOS_C"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (iPad#PLATFORM#) AppleWebKit/* (KHTML* like Gecko) YaBrowser/#MAJORVER#.#MINORVER#* Safari/*",
+          "device": "iPad",
+          "platforms": [
+            "iOS_A_9_0", "iOS_A_9_1", "iOS_A_9_2", "iOS_A_9_3",
+            "iOS_A_10_0", "iOS_A_10_1", "iOS_A_10_2",
+            "iOS_A",
+            "iOS_B",
+            "iOS_C_9_3", "iOS_C_9_2", "iOS_C_9_1", "iOS_C_9_0",
+            "iOS_C_10_2", "iOS_C_10_1", "iOS_C_10_0",
+            "iOS_C"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML* like Gecko) YaBrowser/#MAJORVER#.#MINORVER#* Safari/*",
+          "platforms": [
+            "iOS_A_9_0", "iOS_A_9_1", "iOS_A_9_2", "iOS_A_9_3",
+            "iOS_A_10_0", "iOS_A_10_1", "iOS_A_10_2",
+            "iOS_A",
+            "iOS_B",
+            "iOS_C_9_3", "iOS_C_9_2", "iOS_C_9_1", "iOS_C_9_0",
+            "iOS_C_10_2", "iOS_C_10_1", "iOS_C_10_0",
+            "iOS_C"
           ]
         }
       ]
