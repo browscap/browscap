@@ -1,15 +1,15 @@
 {
-  "division": "SecondLive",
+  "division": "SecondLife",
   "sortIndex": 170,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "SecondLive",
+      "userAgent": "SecondLife",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "SecondLive",
-        "Browser": "SecondLive",
+        "Comment": "SecondLife",
+        "Browser": "SecondLife",
         "Browser_Maker": "Linden Labs",
         "Browser_Type": "Application",
         "Crawler": "false"
@@ -20,7 +20,7 @@
           "engine": "Trident_4",
           "device": "Windows Desktop",
           "properties": {
-            "Browser": "Second Live Commerce Client",
+            "Browser": "Second Life Commerce Client",
             "Version": "1.0",
             "MajorVer": "1",
             "MinorVer": "0"
@@ -34,7 +34,7 @@
           "engine": "Trident_4",
           "device": "Windows Desktop",
           "properties": {
-            "Browser": "Second Live Commerce Client"
+            "Browser": "Second Life Commerce Client"
           },
           "platforms": [
             "Vista_32"
@@ -50,7 +50,7 @@
             "MinorVer": "7"
           },
           "platforms": [
-            "Windows"
+            "WinXPa_32", "Windows"
           ]
         },
         {

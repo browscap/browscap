@@ -53,6 +53,13 @@
           "platforms": [
             "FreeBSD", "SunOS"
           ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* SeaMonkey\/#MAJORVER#.#MINORVER#*",
+          "device": "Amiga",
+          "platforms": [
+            "Amiga"
+          ]
         }
       ]
     }

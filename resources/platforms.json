@@ -4173,6 +4173,24 @@
         "Platform_Bits": "32"
       }
     },
+    "Tizen_2_0": {
+      "match": "*Linux;*Tizen 2.0*",
+      "lite": false,
+      "standard": true,
+      "inherits": "Tizen",
+      "properties": {
+        "Platform_Version": "2.0"
+      }
+    },
+    "Tizen_2_1": {
+      "match": "*Linux;*Tizen 2.1*",
+      "lite": false,
+      "standard": true,
+      "inherits": "Tizen",
+      "properties": {
+        "Platform_Version": "2.1"
+      }
+    },
     "Tizen_2_2": {
       "match": "*Linux;*Tizen 2.2*",
       "lite": false,
@@ -4353,6 +4371,7 @@
         "Platform": "Amiga OS",
         "Platform_Maker": "Commodore International",
         "Platform_Version": "unknown",
+        "Platform_Description": "Amiga OS",
         "Win32": "false",
         "Browser_Bits": "32",
         "Platform_Bits": "32"

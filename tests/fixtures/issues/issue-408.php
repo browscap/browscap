@@ -4,11 +4,11 @@ return [
     'issue-408' => [
         'ua' => 'Pingdom.com_bot_version_1.4_(http://www.pingdom.com)',
         'properties' => [
-            'Comment' => 'Site Monitors',
+            'Comment' => 'Pingdom',
             'Browser' => 'Pingdom',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
-            'Browser_Maker' => 'unknown',
+            'Browser_Maker' => 'Pingdom AB.',
             'Browser_Modus' => 'unknown',
             'Version' => '1.4',
             'MajorVer' => '1',

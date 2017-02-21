@@ -486,10 +486,16 @@
         "BackgroundSounds": "false"
       }
     },
-    "Goanna_Major_Dynamic": {
+    "Goanna_2": {
       "inherits": "Goanna",
       "properties": {
-        "RenderingEngine_Version": "#MAJORVER#.0"
+        "RenderingEngine_Version": "2.0"
+      }
+    },
+    "Goanna_3": {
+      "inherits": "Goanna",
+      "properties": {
+        "RenderingEngine_Version": "3.0"
       }
     },
     "Clecko": {

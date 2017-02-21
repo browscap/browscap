@@ -1,0 +1,46 @@
+{
+  "division": "Tizen Browser #MAJORVER#.#MINORVER#",
+  "versions": ["2.4", "2.3", "2.2", "2.1"],
+  "sortIndex": 954,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Tizen Browser #MAJORVER#.#MINORVER#",
+      "platform": "Tizen",
+      "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Tizen Browser #MAJORVER#.#MINORVER#",
+        "Browser": "Tizen Browser",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Linux Foundation",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-Z130H) AppleWebkit\/* (KHTML* like Gecko) Version\/#MAJORVER#.#MINORVER#* Safari\/*",
+          "device": "Samsung SM-Z130H",
+          "platforms": [
+            "Tizen_2_3"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebkit\/* (KHTML* like Gecko) Version\/#MAJORVER#.#MINORVER#* Safari\/*",
+          "platforms": [
+            "Tizen_2_4", "Tizen_2_3", "Tizen_2_2", "Tizen_2_1", "Tizen"
+          ]
+        }
+      ]
+    }
+  ]
+}

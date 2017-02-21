@@ -3970,7 +3970,14 @@
           "match": "Mozilla\/5.0 (#PLATFORM#SM-G920F Build\/*) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
           "device": "Samsung SM-G920F",
           "platforms": [
-            "Android_5_1"
+            "Android_5_0", "Android_5_1", "Android_6_0"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#SM-G920V Build\/*) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "device": "Samsung SM-G920V",
+          "platforms": [
+            "Android_5_1", "Android_6_0"
           ]
         },
         {

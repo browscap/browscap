@@ -2177,8 +2177,8 @@ return [
     'issue-1059-60' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) (SecondLife/4.7.7.48706 (Firestorm-Releasex64; firestorm skin)) Chrome/47.0.2526.80 Safari/537.36',
         'properties' => [
-            'Comment' => 'SecondLive',
-            'Browser' => 'SecondLive',
+            'Comment' => 'SecondLife',
+            'Browser' => 'SecondLife',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Linden Labs',

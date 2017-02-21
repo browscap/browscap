@@ -1,0 +1,43 @@
+{
+  "division": "Opera Neon Generic",
+  "sortIndex": 1044,
+  "lite": true,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Opera Neon Generic",
+      "engine": "Blink",
+      "device": "general Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Opera Neon Generic",
+        "Browser": "Opera Neon",
+        "Browser_Maker": "Opera Software ASA",
+        "Browser_Type": "Browser",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/*MMS\/*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win10_x64", "Win10_64", "Win10_32", "Win10_x64_B", "Win10_64_B", "Win10_32_B"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/*MMS\/*",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX_10_12",
+            "OSX"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -108,27 +108,6 @@
           }
         },
         {
-          "match": "Pingdom.com_bot_version_1.4*",
-          "properties": {
-            "Browser": "Pingdom",
-            "Version": "1.4",
-            "MajorVer": "1",
-            "MinorVer": "4"
-          }
-        },
-        {
-          "match": "Pingdom.com_bot_version_*",
-          "properties": {
-            "Browser": "Pingdom"
-          }
-        },
-        {
-          "match": "*Pingdom*",
-          "properties": {
-            "Browser": "Pingdom"
-          }
-        },
-        {
           "match": "Site Valet Online*",
           "properties": {
             "Browser": "Site Valet"
@@ -204,12 +183,6 @@
           }
         },
         {
-          "match": "Pingdom GIGRIB*",
-          "properties": {
-            "Browser": "Pingdom"
-          }
-        },
-        {
           "match": "Mozilla\/5.0 (Windows*) AppleWebKit\/* (KHTML* like Gecko) Bromium Safari\/1.0*",
           "properties": {
             "Browser": "vSentry",
@@ -231,6 +204,13 @@
           "properties": {
             "Browser": "Astute Social",
             "Browser_Maker": "Astute Solutions"
+          }
+        },
+        {
+          "match": "Mozilla\/5.0 (compatible; PRTG Network Monitor*",
+          "properties": {
+            "Browser": "PRTG Network Monitor",
+            "Browser_Maker": "Paessler AG"
           }
         }
       ]

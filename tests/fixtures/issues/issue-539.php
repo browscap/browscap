@@ -1435,8 +1435,8 @@ return [
     'issue-539-AL' => [
         'ua' => 'Mozilla/5.0 (Windows; U; ; en-US) AppleWebKit/533.3 (KHTML, like Gecko) SecondLife/3.7.23.297296 (Second Life Release; default skin) Safari/533.3',
         'properties' => [
-            'Comment' => 'SecondLive',
-            'Browser' => 'SecondLive',
+            'Comment' => 'SecondLife',
+            'Browser' => 'SecondLife',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Linden Labs',

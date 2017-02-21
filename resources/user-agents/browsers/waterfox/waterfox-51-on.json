@@ -1,15 +1,14 @@
 {
   "division": "Waterfox #MAJORVER#.#MINORVER#",
-  "versions": ["38.1", 38, 37, 36, 35, 34, 33, 32, 31, 30, 29, 28, 27, 26],
-  "sortIndex": 3145,
+  "versions": [55, 54, 53, 52, 51],
+  "sortIndex": 3142,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
       "userAgent": "Waterfox #MAJORVER#.#MINORVER#",
-      "platform": "Windows",
-      "engine": "Gecko_Dynamic",
-      "device": "Windows Desktop",
+      "engine": "Gecko_Major_Dynamic",
+      "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Waterfox #MAJORVER#.#MINORVER#",
@@ -29,13 +28,21 @@
       "children": [
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Firefox\/* Waterfox\/#MAJORVER#.#MINORVER#*",
+          "device": "Linux Desktop",
           "platforms": [
-            "Win7_64", "Win7_x64", "Win7_x64_2",
-            "Win8_64", "Win8_x64",
-            "Win8_1_64", "Win8_1_x64",
-            "Win10_x64", "Win10_64",
-            "Win10_x64_B", "Win10_64_B",
-            "NT4_64", "NT4_x64", "Windows"
+            "Linux_32_on_x64", "Linux_64", "Linux_32", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Firefox\/* Waterfox\/#MAJORVER#.#MINORVER#*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win7_x64_2",
+            "Win7_x64", "Win7_64", "Win7_32",
+            "Win8_x64", "Win8_64", "Win8_32",
+            "Win8_1_x64", "Win8_1_64", "Win8_1_32",
+            "Win10_x64", "Win10_64", "Win10_32",
+            "Win10_x64_B", "Win10_64_B", "Win10_32_B", "Windows"
           ]
         }
       ]

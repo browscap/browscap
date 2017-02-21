@@ -6,9 +6,8 @@
   "userAgents": [
     {
       "userAgent": "Waterfox Generic",
-      "platform": "Windows",
       "engine": "Gecko_Dynamic",
-      "device": "Windows Desktop",
+      "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Waterfox Generic",
@@ -25,12 +24,21 @@
       "children": [
         {
           "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Firefox\/* Waterfox\/*",
+          "device": "Linux Desktop",
           "platforms": [
-            "Win7_64", "Win7_x64", "Win7_x64_2",
-            "Win8_64", "Win8_x64",
-            "Win8_1_64", "Win8_1_x64",
-            "Win10_x64", "Win10_64",
-            "Win10_x64_B", "Win10_64_B",
+            "Linux_32_on_x64", "Linux_64", "Linux_32", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Firefox\/* Waterfox\/*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win7_x64_2",
+            "Win7_x64", "Win7_64", "Win7_32",
+            "Win8_x64", "Win8_64", "Win8_32",
+            "Win8_1_x64", "Win8_1_64", "Win8_1_32",
+            "Win10_x64", "Win10_64", "Win10_32",
+            "Win10_x64_B", "Win10_64_B", "Win10_32_B",
             "NT4_64", "NT4_x64", "Windows"
           ]
         }

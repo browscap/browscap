@@ -1,0 +1,45 @@
+{
+  "division": "Waterfox #MAJORVER#.#MINORVER#",
+  "versions": ["40.1", 40, 39, "38.1", 38, 37, 36, 35, 34, 33, 32, 31, 30],
+  "sortIndex": 3144,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Waterfox #MAJORVER#.#MINORVER#",
+      "platform": "Windows",
+      "engine": "Gecko_Dynamic",
+      "device": "Windows Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Waterfox #MAJORVER#.#MINORVER#",
+        "Browser": "Waterfox",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "www.waterfoxproject.org",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "2"
+      },
+      "children": [
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Firefox\/* Waterfox\/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Win7_x64_2",
+            "Win7_x64", "Win7_64", "Win7_32",
+            "Win8_x64", "Win8_64", "Win8_32",
+            "Win8_1_x64", "Win8_1_64", "Win8_1_32",
+            "Win10_x64", "Win10_64", "Win10_32",
+            "Win10_x64_B", "Win10_64_B", "Win10_32_B",
+            "NT4_64", "NT4_x64", "Windows"
+          ]
+        }
+      ]
+    }
+  ]
+}
