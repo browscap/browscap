@@ -102,7 +102,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (iPhone#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) *Version\/* Safari\/* Puffin\/#MAJORVER#.#MINORVER#.*IP*",
+          "match": "Mozilla\/5.0 (iPhone#PLATFORM#)*AppleWebKit\/*(*KHTML* like Gecko*)*Version\/*Safari\/* Puffin\/#MAJORVER#.#MINORVER#.*IP*",
           "device": "iPhone",
           "engine": "WebKit",
           "platforms": [
@@ -111,8 +111,17 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (iPad#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) *Version\/* Safari\/* Puffin\/#MAJORVER#.#MINORVER#.*IT*",
+          "match": "Mozilla\/5.0 (iPad#PLATFORM#)*AppleWebKit\/*(*KHTML* like Gecko*)*Version\/*Safari\/* Puffin\/#MAJORVER#.#MINORVER#.*IT*",
           "device": "iPad",
+          "engine": "WebKit",
+          "platforms": [
+            "iOS_A_10_0", "iOS_A_10_1", "iOS_A_10_2",
+            "iOS_A"
+          ]
+        },
+        {
+          "match": "Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/*(*KHTML* like Gecko*)*Version\/*Safari\/* Puffin\/#MAJORVER#.#MINORVER#.*I?*",
+          "device": "general Mobile Device (Apple)",
           "engine": "WebKit",
           "platforms": [
             "iOS_A_10_0", "iOS_A_10_1", "iOS_A_10_2",
