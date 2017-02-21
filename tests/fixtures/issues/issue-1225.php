@@ -189,7 +189,7 @@ return [
             'BackgroundSounds' => false,
             'JavaScript' => true,
             'VBScript' => false,
-            'JavaApplets' => false,
+            'JavaApplets' => true,
             'ActiveXControls' => false,
             'isMobileDevice' => true,
             'isTablet' => false,
