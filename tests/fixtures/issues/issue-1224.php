@@ -104,7 +104,7 @@ return [
             'RenderingEngine_Version' => '51.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
 ];
