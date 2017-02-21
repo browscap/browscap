@@ -47,8 +47,7 @@ class DiffCommand extends Command
             ->setDescription('Compare the data contained within two .ini files (regardless of order or format)')
             ->addArgument('left', InputArgument::REQUIRED, 'The left .ini file to compare')
             ->addArgument('right', InputArgument::OPTIONAL, 'The right .ini file to compare')
-            ->addOption('resources', null, InputOption::VALUE_REQUIRED, 'Where the resource files are located', $defaultResourceFolder)
-            ->addOption('debug', null, InputOption::VALUE_NONE, 'Should the debug mode entered?');
+            ->addOption('resources', null, InputOption::VALUE_REQUIRED, 'Where the resource files are located', $defaultResourceFolder);
     }
 
     /**
@@ -71,10 +70,9 @@ class DiffCommand extends Command
     {
         $leftFilename  = $input->getArgument('left');
         $rightFilename = $input->getArgument('right');
-        $debug         = $input->getOption('debug');
 
         $loggerHelper = new LoggerHelper();
-        $logger       = $loggerHelper->create($debug);
+        $logger       = $loggerHelper->create($output);
 
         if (!$rightFilename || !file_exists($rightFilename)) {
             $logger->info('right file not set or invalid - creating right file from resources');
