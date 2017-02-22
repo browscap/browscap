@@ -28,6 +28,11 @@
           "device": "Nintendo 3DS"
         },
         {
+          "match": "Mozilla\/* (New Nintendo 3DS *) NX\/*",
+          "engine": "NetFront",
+          "device": "New Nintendo 3DS"
+        },
+        {
           "match": "Mozilla\/* (Nintendo WiiU) AppleWebKit\/* (KHTML* like Gecko) *",
           "device": "Nintendo WiiU"
         },
