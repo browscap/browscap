@@ -3447,6 +3447,3 @@ return [
         'standard' => true,
     ],
 ];
-
-
-
