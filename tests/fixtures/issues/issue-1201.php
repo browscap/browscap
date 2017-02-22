@@ -53,5 +53,5 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-    ]
+    ],
 ];
