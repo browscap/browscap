@@ -20384,6 +20384,19 @@
         "isTablet": "false"
       }
     },
+    "New Nintendo 3DS": {
+      "standard": true,
+      "properties": {
+        "Device_Type": "Console",
+        "Device_Code_Name": "New 3DS",
+        "Device_Name": "New 3DS",
+        "Device_Maker": "Nintendo",
+        "Device_Brand_Name": "Nintendo",
+        "Device_Pointing_Method": "unknown",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Nintendo DSi": {
       "standard": true,
       "properties": {
