@@ -1,6 +1,6 @@
 {
   "division": "UC Browser #MAJORVER#.#MINORVER#",
-  "versions": ["11.0","11.1","11.2"],
+  "versions": ["11.2","11.1","11.0"],
   "sortIndex": 930,
   "lite": false,
   "standard": true,
