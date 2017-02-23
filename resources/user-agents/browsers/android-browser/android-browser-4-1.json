@@ -48,7 +48,7 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM##DEVICE# Build\/*)*AppleWebKit\/*(*khtml,*LIKE Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
-            "Alcatel OT-4030D": "ALCATEL ONE TOUCH 4030D",
+            "ALCATEL ONE TOUCH 4030D": "Alcatel OT-4030D",
             "GT-I9100": "GT-I9100"
           },
           "platforms": [
@@ -58,8 +58,8 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM##DEVICE# Build\/*)*AppleWebKit\/*(*KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
-            "LG D805": "LG-D805",
-            "HTC PJ83100": "HTC_One_X"
+            "LG-D805": "LG D805",
+            "HTC_One_X": "HTC PJ83100"
           },
           "platforms": [
             "Android_4_2"
@@ -143,11 +143,11 @@
         {
           "match": "Mozilla\/5.0 (#PLATFORM##DEVICE# Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
-            "Alcatel OT-5020D": "ALCATEL ONE TOUCH 5020D",
-            "Alcatel 975N": "Vodafone 975N",
-            "Alcatel OT-6030D": "ALCATEL ONE TOUCH 6030D",
-            "Alcatel OT-6010D": "ALCATEL ONE TOUCH 6010D",
-            "Alcatel OT-6030X": "ALCATEL ONE TOUCH 6030X"
+            "ALCATEL ONE TOUCH 5020D": "Alcatel OT-5020D",
+            "Vodafone 975N": "Alcatel 975N",
+            "ALCATEL ONE TOUCH 6030D": "Alcatel OT-6030D",
+            "ALCATEL ONE TOUCH 6010D": "Alcatel OT-6010D",
+            "ALCATEL ONE TOUCH 6030X": "Alcatel OT-6030X"
           },
           "platforms": [
             "Android_4_1"
@@ -170,8 +170,8 @@
         {
           "match": "#DEVICE#\/1.0 Android\/#MAJORVER#.#MINORVER# release\/2013 Browser\/WAP2.0 Profile\/MIDP-2.0 Configuration\/CLDC-1.1*",
           "devices": {
-            "HTC 7088": "HTC7088_TD",
-            "HTC 802T": "HTC802t_TD"
+            "HTC7088_TD": "HTC 7088",
+            "HTC802t_TD": "HTC 802T"
           },
           "platforms": [
             "Android_4_1"
