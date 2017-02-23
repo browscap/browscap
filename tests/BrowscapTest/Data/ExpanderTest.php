@@ -260,4 +260,91 @@ class ExpanderTest extends \PHPUnit_Framework_TestCase
         self::assertInternalType('array', $result);
         self::assertCount(2, $result);
     }
+
+    /**
+     * tests parsing a non empty data collection with children and devices
+     *
+     * @group data
+     * @group sourcetest
+     */
+    public function testParseOnNotEmptyDatacollectionWithChildrenAndDevices()
+    {
+        $collection = $this->getMockBuilder(\Browscap\Data\DataCollection::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['getDivisions', 'getDefaultProperties', 'getDevice'])
+            ->getMock();
+
+        $collection
+            ->expects(self::never())
+            ->method('getDivisions')
+            ->will(self::returnValue([]));
+
+        $division = $this->getMockBuilder(\Browscap\Data\Division::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['getUserAgents'])
+            ->getMock();
+
+        $division
+            ->expects(self::once())
+            ->method('getUserAgents')
+            ->will(self::returnValue([0 => ['properties' => ['avd' => 'xyz']]]));
+
+        $device = $this->getMockBuilder(\Browscap\Data\Device::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['getProperties'])
+            ->getMock();
+
+        $device
+            ->expects(self::any())
+            ->method('getProperties')
+            ->will(self::returnValue([]));
+
+        $collection
+            ->expects(self::once())
+            ->method('getDefaultProperties')
+            ->will(self::returnValue($division));
+
+        $collection
+            ->expects(self::exactly(2))
+            ->method('getDevice')
+            ->will(self::returnValue($device));
+
+        $uaData = [
+            0 => [
+                'userAgent'  => 'abc',
+                'properties' => ['Parent'   => 'Defaultproperties',
+                                      'Version'  => '1.0',
+                                      'MajorVer' => 1,
+                                      'Browser'  => 'xyz',
+                ],
+                'children'   => [
+                    0 => [
+                        'match' => 'abc*#DEVICE#',
+                        'devices' => [
+                            'abc' => 'ABC',
+                            'def' => 'DEF',
+                        ],
+                        'properties' => ['Browser' => 'xyza'],
+                    ],
+                ],
+            ],
+        ];
+
+        $division = $this->getMockBuilder(\Browscap\Data\Division::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['getUserAgents'])
+            ->getMock();
+
+        $division
+            ->expects(self::once())
+            ->method('getUserAgents')
+            ->will(self::returnValue($uaData));
+
+        $this->object->setLogger($this->logger);
+        self::assertSame($this->object, $this->object->setDataCollection($collection));
+
+        $result = $this->object->expand($division, 'TestDivision');
+        self::assertInternalType('array', $result);
+        self::assertCount(3, $result);
+    }
 }

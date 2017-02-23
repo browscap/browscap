@@ -854,6 +854,34 @@ HERE;
     }
 
     /**
+     * checks if a exception is thrown if the device and devices keys are set
+     *
+     * @expectedException \LogicException
+     * @expectedExceptionMessage a child may not define both the "device" and the "devices" entries
+     *
+     * @group data
+     * @group sourcetest
+     */
+    public function testAddSourceFileThrowsExceptionIfChildHasDeviceAndDevicesKeys()
+    {
+        $this->object->addSourceFile(__DIR__ . '/../../fixtures/ua/ua-with-children-with-device-and-devices.json');
+    }
+
+    /**
+     * checks if a exception is thrown if the devices entry is not an array
+     *
+     * @expectedException \UnexpectedValueException
+     * @expectedExceptionMessage the "devices" entry has to be an array
+     *
+     * @group data
+     * @group sourcetest
+     */
+    public function testAddSourceFileThrowsExceptionIfDevicesEntryIsNotAnArray()
+    {
+        $this->object->addSourceFile(__DIR__ . '/../../fixtures/ua/ua-with-children-with-devices-not-array.json');
+    }
+
+    /**
      * checks if a exception is thrown if a division is defined twice in the source files
      *
      * @expectedException \UnexpectedValueException

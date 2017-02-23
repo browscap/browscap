@@ -28,15 +28,12 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Micromax A27 Build\/*)*AppleWebKit\/*(*KHTML,*LIKE Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "Micromax A27",
-          "platforms": [
-            "Android_2_3"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#Micromax A35 Build\/*)*AppleWebKit\/*(*KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "Micromax A35",
+          "match": "Mozilla\/5.0 (#PLATFORM##DEVICE# Build\/*)*AppleWebKit\/*(*KHTML,*LIKE Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "devices": {
+            "Micromax A27": "Micromax A27",
+            "Micromax A35": "Micromax A35",
+            "Micromax A40": "Micromax A40"
+          },
           "platforms": [
             "Android_2_3"
           ]
@@ -49,36 +46,21 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Micromax A40 Build\/*)*AppleWebKit\/*(*khtml,*LIKE Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "Micromax A40",
-          "platforms": [
-            "Android_2_3"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#ALCATEL ONE TOUCH 4030D Build\/*)*AppleWebKit\/*(*khtml,*LIKE Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "Alcatel OT-4030D",
+          "match": "Mozilla\/5.0 (#PLATFORM##DEVICE# Build\/*)*AppleWebKit\/*(*khtml,*LIKE Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "devices": {
+            "Alcatel OT-4030D": "ALCATEL ONE TOUCH 4030D",
+            "GT-I9100": "GT-I9100"
+          },
           "platforms": [
             "Android_4_1"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-I9100 Build\/*)*AppleWebKit\/*(*khtml,*LIKE Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "GT-I9100",
-          "platforms": [
-            "Android_4_1"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#LG-D805 Build\/*)*AppleWebKit\/*(*KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "LG D805",
-          "platforms": [
-            "Android_4_2"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#HTC_One_X Build\/*)*AppleWebKit\/*(*khtml,*LIKE Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "HTC PJ83100",
+          "match": "Mozilla\/5.0 (#PLATFORM##DEVICE# Build\/*)*AppleWebKit\/*(*KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "devices": {
+            "LG D805": "LG-D805",
+            "HTC PJ83100": "HTC_One_X"
+          },
           "platforms": [
             "Android_4_2"
           ]
@@ -159,22 +141,14 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#ALCATEL ONE TOUCH 5020D Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "Alcatel OT-5020D",
-          "platforms": [
-            "Android_4_1"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#Vodafone 975N Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "Alcatel 975N",
-          "platforms": [
-            "Android_4_1"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#ALCATEL ONE TOUCH 6030D Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "Alcatel OT-6030D",
+          "match": "Mozilla\/5.0 (#PLATFORM##DEVICE# Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "devices": {
+            "Alcatel OT-5020D": "ALCATEL ONE TOUCH 5020D",
+            "Alcatel 975N": "Vodafone 975N",
+            "Alcatel OT-6030D": "ALCATEL ONE TOUCH 6030D",
+            "Alcatel OT-6010D": "ALCATEL ONE TOUCH 6010D",
+            "Alcatel OT-6030X": "ALCATEL ONE TOUCH 6030X"
+          },
           "platforms": [
             "Android_4_1"
           ]
@@ -187,20 +161,6 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#ALCATEL ONE TOUCH 6010D Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "Alcatel OT-6010D",
-          "platforms": [
-            "Android_4_1"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#ALCATEL ONE TOUCH 6030X Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "Alcatel OT-6030X",
-          "platforms": [
-            "Android_4_1"
-          ]
-        },
-        {
           "match": "Mozilla\/5.0 (#PLATFORM#C6603 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)",
           "device": "Sony C6603",
           "platforms": [
@@ -208,15 +168,11 @@
           ]
         },
         {
-          "match": "HTC7088_TD\/1.0 Android\/#MAJORVER#.#MINORVER# release\/2013 Browser\/WAP2.0 Profile\/MIDP-2.0 Configuration\/CLDC-1.1*",
-          "device": "HTC 7088",
-          "platforms": [
-            "Android_4_1"
-          ]
-        },
-        {
-          "match": "HTC802t_TD\/1.0 Android\/#MAJORVER#.#MINORVER# release\/2013 Browser\/WAP2.0 Profile\/MIDP-2.0 Configuration\/CLDC-1.1*",
-          "device": "HTC 802T",
+          "match": "#DEVICE#\/1.0 Android\/#MAJORVER#.#MINORVER# release\/2013 Browser\/WAP2.0 Profile\/MIDP-2.0 Configuration\/CLDC-1.1*",
+          "devices": {
+            "HTC 7088": "HTC7088_TD",
+            "HTC 802T": "HTC802t_TD"
+          },
           "platforms": [
             "Android_4_1"
           ]

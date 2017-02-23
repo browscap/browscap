@@ -196,10 +196,24 @@ class Expander
         }
 
         foreach ($uaData['children'] as $child) {
-            $output = array_merge(
-                $output,
-                $this->parseChildren($ua, $child, $lite, $standard)
-            );
+            if (isset($child['devices']) && is_array($child['devices'])) {
+                // Replace our device array with a single device property with our #DEVICE# token replaced
+                foreach ($child['devices'] as $deviceName => $deviceMatch) {
+                    $subChild           = $child;
+                    $subChild['match']  = str_replace('#DEVICE#', $deviceMatch, $subChild['match']);
+                    $subChild['device'] = $deviceName;
+                    unset($subChild['devices']);
+                    $output = array_merge(
+                        $output,
+                        $this->parseChildren($ua, $subChild, $lite, $standard)
+                    );
+                }
+            } else {
+                $output = array_merge(
+                    $output,
+                    $this->parseChildren($ua, $child, $lite, $standard)
+                );
+            }
         }
 
         return $output;

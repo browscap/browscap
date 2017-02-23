@@ -363,6 +363,20 @@ class DataCollection
                         );
                     }
 
+                    if (isset($child['device']) && isset($child['devices'])) {
+                        throw new \LogicException(
+                            'a child may not define both the "device" and the "devices" entries for key "'
+                            . $useragent['userAgent'] . '", for child data: ' . json_encode($child)
+                        );
+                    }
+
+                    if (isset($child['devices']) && !is_array($child['devices'])) {
+                        throw new \UnexpectedValueException(
+                            'the "devices" entry has to be an array for key "'
+                            . $useragent['userAgent'] . '", for child data: ' . json_encode($child)
+                        );
+                    }
+
                     if (!isset($child['match'])) {
                         throw new \UnexpectedValueException(
                             'each entry of the children property requires an "match" entry for key "'
