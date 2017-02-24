@@ -27,6 +27,10 @@
       },
       "children": [
         {
+          "match": "Mozilla\/5.0 (New Nintendo 3DS *) AppleWebKit\/* (KHTML* like Gecko) NX\/#MAJORVER#.#MINORVER#* NintendoBrowser\/*",
+          "device": "New Nintendo 3DS"
+        },
+        {
           "match": "Mozilla\/5.0 (Nintendo WiiU) AppleWebKit\/* (KHTML* like Gecko) NX\/#MAJORVER#.#MINORVER#* NintendoBrowser\/*",
           "device": "Nintendo WiiU"
         },
