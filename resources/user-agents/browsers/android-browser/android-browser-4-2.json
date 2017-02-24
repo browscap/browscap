@@ -28,15 +28,12 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Micromax A27 Build\/*)*AppleWebKit\/*(*KHTML,*LIKE Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "Micromax A27",
-          "platforms": [
-            "Android_2_3"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#Micromax A35 Build\/*)*AppleWebKit\/*(*KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "Micromax A35",
+          "match": "Mozilla\/5.0 (#PLATFORM##DEVICE# Build\/*)*AppleWebKit\/*(*KHTML,*LIKE Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "devices": {
+            "Micromax A27": "Micromax A27",
+            "Micromax A35": "Micromax A35",
+            "Micromax A40": "Micromax A40"
+          },
           "platforms": [
             "Android_2_3"
           ]
@@ -49,36 +46,21 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Micromax A40 Build\/*)*AppleWebKit\/*(*khtml,*LIKE Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "Micromax A40",
-          "platforms": [
-            "Android_2_3"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#ALCATEL ONE TOUCH 4030D Build\/*)*AppleWebKit\/*(*khtml,*LIKE Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "Alcatel OT-4030D",
+          "match": "Mozilla\/5.0 (#PLATFORM##DEVICE# Build\/*)*AppleWebKit\/*(*khtml,*LIKE Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "devices": {
+            "ALCATEL ONE TOUCH 4030D": "Alcatel OT-4030D",
+            "GT-I9100": "GT-I9100"
+          },
           "platforms": [
             "Android_4_1"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-I9100 Build\/*)*AppleWebKit\/*(*khtml,*LIKE Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "GT-I9100",
-          "platforms": [
-            "Android_4_1"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#LG-D805 Build\/*)*AppleWebKit\/*(*KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "LG D805",
-          "platforms": [
-            "Android_4_2"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#HTC_One_X Build\/*)*AppleWebKit\/*(*khtml,*LIKE Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "HTC PJ83100",
+          "match": "Mozilla\/5.0 (#PLATFORM##DEVICE# Build\/*)*AppleWebKit\/*(*KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "devices": {
+            "LG-D805": "LG D805",
+            "HTC_One_X": "HTC PJ83100"
+          },
           "platforms": [
             "Android_4_2"
           ]
@@ -108,99 +90,39 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Lenovo B8000-F\/*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "Lenovo B8000-F",
+          "match": "Mozilla\/5.0 (#PLATFORM##DEVICE#*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "devices": {
+            "Lenovo B8000-F\/": "Lenovo B8000-F",
+            "Lenovo S5000-H\/": "Lenovo S5000-H",
+            "Lenovo B6000-F": "Lenovo B6000-F",
+            "ALCATEL ONE TOUCH 7047D": "Alcatel OT-7047D",
+            "MTC 982 Build\/": "MTC 982",
+            "Vodafone Smart Tab 4 Build\/": "Vodafone Smart Tab 4",
+            "Z980\/": "ZOPO ZP980",
+            "Lenovo B6000-H\/": "Lenovo B6000-H",
+            "Lenovo B8000-H\/": "Lenovo B8000-H",
+            "ALCATEL ONE TOUCH P310X Build\/": "Alcatel P310X"
+          },
           "platforms": [
             "Android_4_2"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Lenovo S5000-H\/*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "Lenovo S5000-H",
+          "match": "Mozilla\/5.0 (#PLATFORM##DEVICE#*) *AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "devices": {
+            "Vodafone 785 Build\/": "Vodafone 785",
+            "Lenovo A859": "Lenovo A859"
+          },
           "platforms": [
             "Android_4_2"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Lenovo B6000-F*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "Lenovo B6000-F",
-          "platforms": [
-            "Android_4_2"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#ALCATEL ONE TOUCH 7047D*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "Alcatel OT-7047D",
-          "platforms": [
-            "Android_4_2"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#MTC 982 Build\/*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "MTC 982",
-          "platforms": [
-            "Android_4_2"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#Vodafone Smart Tab 4 Build\/*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "Vodafone Smart Tab 4",
-          "platforms": [
-            "Android_4_2"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#Z980\/*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "ZOPO ZP980",
-          "platforms": [
-            "Android_4_2"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#Lenovo B6000-H\/*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "Lenovo B6000-H",
-          "platforms": [
-            "Android_4_2"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#Lenovo B8000-H\/*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "Lenovo B8000-H",
-          "platforms": [
-            "Android_4_2"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#ALCATEL ONE TOUCH P310X Build\/*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "Alcatel P310X",
-          "platforms": [
-            "Android_4_2"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#Vodafone 785 Build\/*) *AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "Vodafone 785",
-          "platforms": [
-            "Android_4_2"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#Lenovo A859*) *AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "Lenovo A859",
-          "platforms": [
-            "Android_4_2"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#C6603 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)",
-          "device": "Sony C6603",
-          "platforms": [
-            "Android_4_2"
-          ]
-        },
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#Galaxy Nexus Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)",
-          "device": "Samsung Galaxy Nexus",
+          "match": "Mozilla\/5.0 (#PLATFORM##DEVICE# Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)",
+          "devices": {
+            "C6603": "Sony C6603",
+            "Galaxy Nexus": "Samsung Galaxy Nexus"
+          },
           "platforms": [
             "Android_4_2"
           ]
@@ -249,15 +171,11 @@
           ]
         },
         {
-          "match": "Lenovo-A880*Linux\/* Android\/4.2* Release\/* Browser\/AppleWebkit*",
-          "device": "Lenovo A880",
-          "platforms": [
-            "Android_4_2"
-          ]
-        },
-        {
-          "match": "Lenovo-A889*Linux\/* Android\/4.2* Release\/* Browser\/AppleWebkit*",
-          "device": "Lenovo A889",
+          "match": "#DEVICE#*Linux\/* Android\/4.2* Release\/* Browser\/AppleWebkit*",
+          "devices": {
+            "Lenovo-A880": "Lenovo A880",
+            "Lenovo-A889": "Lenovo A889"
+          },
           "platforms": [
             "Android_4_2"
           ]
