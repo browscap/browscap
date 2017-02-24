@@ -4979,6 +4979,19 @@
         "isTablet": "true"
       }
     },
+    "Samsung S8500": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "S8500",
+        "Device_Name": "Wave",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Samsung SM-E700H": {
       "standard": false,
       "properties": {

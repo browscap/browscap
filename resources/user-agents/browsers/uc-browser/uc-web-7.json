@@ -28,16 +28,11 @@
       },
       "children": [
         {
-          "match": "#PLATFORM#GT-S5570*) UCWEB#MAJORVER#.#MINORVER#*",
-          "device": "Samsung GT-S5570",
-          "platforms": [
-            "Android_C_2_2", "Android_C_2_3",
-            "Android_D_2_2", "Android_D_2_3", "Android_D_4_0", "Android_D_4_1", "Android_D_4_2", "Android_D_4_3"
-          ]
-        },
-        {
-          "match": "#PLATFORM#GT-I9100*) UCWEB#MAJORVER#.#MINORVER#*",
-          "device": "GT-I9100",
+          "match": "#PLATFORM##DEVICE#*) UCWEB#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "GT-S5570": "Samsung GT-S5570",
+            "GT-I9100": "GT-I9100"
+          },
           "platforms": [
             "Android_C_2_2", "Android_C_2_3",
             "Android_D_2_2", "Android_D_2_3", "Android_D_4_0", "Android_D_4_1", "Android_D_4_2", "Android_D_4_3"
@@ -80,15 +75,11 @@
           ]
         },
         {
-          "match": "#PLATFORM#Desire HD*)UCWEB#MAJORVER#.#MINORVER#*",
-          "device": "HTC Desire HD",
-          "platforms": [
-            "Android_G_2_2"
-          ]
-        },
-        {
-          "match": "#PLATFORM#XT702*)UCWEB#MAJORVER#.#MINORVER#*",
-          "device": "Motorola XT702",
+          "match": "#PLATFORM##DEVICE#*)UCWEB#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "Desire HD": "HTC Desire HD",
+            "XT702": "Motorola XT702"
+          },
           "platforms": [
             "Android_G_2_2"
           ]
@@ -100,45 +91,32 @@
           ]
         },
         {
-          "match": "NokiaE63\/UC Browser#MAJORVER#.#MINORVER#*",
-          "device": "Nokia E63"
+          "match": "#DEVICE#\/UC Browser#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "NokiaE63": "Nokia E63",
+            "NokiaN73": "Nokia N73",
+            "NOKIAN85": "Nokia N85",
+            "NokiaN97": "Nokia N97",
+            "NokiaN8-00": "Nokia N8-00",
+            "lg-c105": "LG C105"
+          }
         },
         {
-          "match": "NokiaN73\/UC Browser#MAJORVER#.#MINORVER#*",
-          "device": "Nokia N73"
-        },
-        {
-          "match": "NOKIAN85\/UC Browser#MAJORVER#.#MINORVER#*",
-          "device": "Nokia N85"
-        },
-        {
-          "match": "Nokia5230\/UC Browser#MAJORVER#.#MINORVER#*",
-          "device": "Nokia 5230",
+          "match": "#DEVICE#\/UC Browser#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "Nokia5230": "Nokia 5230",
+            "nokia6120c": "Nokia 6120c"
+          },
           "platforms": [
             "SymbianOS"
           ]
         },
         {
-          "match": "nokia6120c\/UC Browser#MAJORVER#.#MINORVER#*",
-          "device": "Nokia 6120c",
+          "match": "S8500 UCWEB6.0\/UC Browser#MAJORVER#.#MINORVER#*",
+          "device": "Samsung S8500",
           "platforms": [
-            "SymbianOS"
+            "Bada"
           ]
-        },
-        {
-          "match": "NokiaN97\/UC Browser#MAJORVER#.#MINORVER#*",
-          "device": "Nokia N97"
-        },
-        {
-          "match": "S8500 UCWEB6.0\/UC Browser#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "NokiaN8-00\/UC Browser#MAJORVER#.#MINORVER#*",
-          "device": "Nokia N8-00"
-        },
-        {
-          "match": "lg-c105\/UC Browser#MAJORVER#.#MINORVER#*",
-          "device": "LG C105"
         },
         {
           "match": "IUC(U;iOS 4.3*)\/UCWEB#MAJORVER#.#MINORVER#*",
