@@ -43,67 +43,49 @@
           ]
         },
         {
-          "match": "UCWEB\/*(#PLATFORM#GT-S5570) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "match": "UCWEB\/*(#PLATFORM##DEVICE#) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
           "engine": "U2",
-          "device": "Samsung GT-S5570",
+          "devices": {
+            "GT-S5570": "Samsung GT-S5570",
+            "GT-S7262": "Samsung GT-S7262"
+          },
           "platforms": [
             "Android_E_2_1", "Android_E_2_2", "Android_E_2_3", "Android_E_4_0", "Android_E_4_1", "Android_E_4_2", "Android_E_4_3",
             "Android_E_4_4"
           ]
         },
         {
-          "match": "UCWEB\/*(#PLATFORM#GT-S7262) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "match": "UCWEB\/*(#PLATFORM##DEVICE#) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
           "engine": "U2",
-          "device": "Samsung GT-S7262",
-          "platforms": [
-            "Android_E_2_1", "Android_E_2_2", "Android_E_2_3", "Android_E_4_0", "Android_E_4_1", "Android_E_4_2", "Android_E_4_3",
-            "Android_E_4_4"
-          ]
-        },
-        {
-          "match": "UCWEB\/*(#PLATFORM#D2105) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
-          "engine": "U2",
-          "device": "Sony D2105",
+          "devices": {
+            "D2105": "Sony D2105",
+            "SM-G530H": "Samsung SM-G530H",
+            "SPHS_on_Hsdroid": "sprd SPHS On HSDroid"
+          },
           "platforms": [
             "Android_E_4_4"
           ]
         },
         {
-          "match": "UCWEB\/*(#PLATFORM#SM-G530H) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "match": "UCWEB\/*(#PLATFORM##DEVICE#) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
           "engine": "U2",
-          "device": "Samsung SM-G530H",
-          "platforms": [
-            "Android_E_4_4"
-          ]
-        },
-        {
-          "match": "UCWEB\/*(#PLATFORM#IQ4490) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
-          "engine": "U2",
-          "device": "Fly IQ4490",
+          "devices": {
+            "IQ4490": "Fly IQ4490",
+            "HUAWEI_D2-0082": "Huawei D2-0082",
+            "SHV-E210S": "Samsung SHV-E210S"
+          },
           "platforms": [
             "Android_E_4_1"
           ]
         },
         {
-          "match": "UCWEB\/*(#PLATFORM#HUAWEI_D2-0082) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "match": "UCWEB\/*(#PLATFORM##DEVICE#) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
           "engine": "U2",
-          "device": "Huawei D2-0082",
-          "platforms": [
-            "Android_E_4_1"
-          ]
-        },
-        {
-          "match": "UCWEB\/*(#PLATFORM#GT-I9082) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
-          "engine": "U2",
-          "device": "Samsung GT-I9082",
-          "platforms": [
-            "Android_E_4_2"
-          ]
-        },
-        {
-          "match": "UCWEB\/*(#PLATFORM#S5A4) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
-          "engine": "U2",
-          "device": "Lexand S5A4",
+          "devices": {
+            "GT-I9082": "Samsung GT-I9082",
+            "S5A4": "Lexand S5A4",
+            "A47": "Micromax A47"
+          },
           "platforms": [
             "Android_E_4_2"
           ]
@@ -122,30 +104,6 @@
           "device": "Fly IQ440",
           "platforms": [
             "Android_E_4_0"
-          ]
-        },
-        {
-          "match": "UCWEB\/*(#PLATFORM#A47) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
-          "engine": "U2",
-          "device": "Micromax A47",
-          "platforms": [
-            "Android_E_4_2"
-          ]
-        },
-        {
-          "match": "UCWEB\/*(#PLATFORM#SPHS_on_Hsdroid) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
-          "engine": "U2",
-          "device": "sprd SPHS On HSDroid",
-          "platforms": [
-            "Android_E_4_4"
-          ]
-        },
-        {
-          "match": "UCWEB\/*(#PLATFORM#SHV-E210S) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
-          "engine": "U2",
-          "device": "Samsung SHV-E210S",
-          "platforms": [
-            "Android_E_4_1"
           ]
         },
         {
@@ -169,17 +127,12 @@
           ]
         },
         {
-          "match": "UCWEB\/2.0 (Linux; U; Opera Mini\/*; ASUS_T00J) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
+          "match": "UCWEB\/2.0 (Linux; U; Opera Mini\/*; #DEVICE#) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
           "engine": "U2",
-          "device": "Asus T00J",
-          "platforms": [
-            "Android"
-          ]
-        },
-        {
-          "match": "UCWEB\/2.0 (Linux; U; Opera Mini\/*; Infinityll) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
-          "engine": "U2",
-          "device": "Explay Infinity ll",
+          "devices": {
+            "ASUS_T00J": "Asus T00J",
+            "Infinityll": "Explay Infinity ll"
+          },
           "platforms": [
             "Android"
           ]
@@ -216,41 +169,15 @@
           ]
         },
         {
-          "match": "UCWEB\/*(BlackBerry*8520\/*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
+          "match": "UCWEB\/*(#DEVICE#*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
           "engine": "U2",
-          "device": "Blackberry 8520",
-          "platforms": [
-            "RIMOS"
-          ]
-        },
-        {
-          "match": "UCWEB\/*(BlackBerry*8530\/*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
-          "engine": "U2",
-          "device": "Blackberry 8530",
-          "platforms": [
-            "RIMOS"
-          ]
-        },
-        {
-          "match": "UCWEB\/*(BlackBerry*9320\/*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
-          "engine": "U2",
-          "device": "Blackberry 9320",
-          "platforms": [
-            "RIMOS"
-          ]
-        },
-        {
-          "match": "UCWEB\/*(BlackBerry*9700\/*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
-          "engine": "U2",
-          "device": "Blackberry 9700",
-          "platforms": [
-            "RIMOS"
-          ]
-        },
-        {
-          "match": "UCWEB\/*(BlackBerry*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
-          "engine": "U2",
-          "device": "Blackberry Blackberry",
+          "devices": {
+            "BlackBerry*8520\/": "Blackberry 8520",
+            "BlackBerry*8530\/": "Blackberry 8530",
+            "BlackBerry*9320\/": "Blackberry 9320",
+            "BlackBerry*9700\/": "Blackberry 9700",
+            "BlackBerry": "Blackberry Blackberry"
+          },
           "platforms": [
             "RIMOS"
           ]
@@ -311,12 +238,11 @@
           ]
         },
         {
-          "match": "samsung-gt-s5620\/UC Browser#MAJORVER#.#MINORVER#* UNTRUSTED\/1.0",
-          "device": "Samsung GT-S5620"
-        },
-        {
-          "match": "samsung-gt-s3370\/UC Browser#MAJORVER#.#MINORVER#* UNTRUSTED\/1.0",
-          "device": "Samsung GT-S3370"
+          "match": "#DEVICE#\/UC Browser#MAJORVER#.#MINORVER#* UNTRUSTED\/1.0",
+          "devices": {
+            "samsung-gt-s5620": "Samsung GT-S5620",
+            "samsung-gt-s3370": "Samsung GT-S3370"
+          }
         },
         {
           "match": "*\/UC Browser#MAJORVER#.#MINORVER#* UNTRUSTED\/1.0",
