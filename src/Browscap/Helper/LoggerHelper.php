@@ -17,12 +17,11 @@
 namespace Browscap\Helper;
 
 use Monolog\ErrorHandler;
-use Monolog\Formatter\LineFormatter;
 use Monolog\Handler\ErrorLogHandler;
-use Monolog\Handler\StreamHandler;
+use Monolog\Handler\PsrHandler;
 use Monolog\Logger;
-use Monolog\Processor\MemoryPeakUsageProcessor;
-use Monolog\Processor\MemoryUsageProcessor;
+use Symfony\Component\Console\Logger\ConsoleLogger;
+use Symfony\Component\Console\Output\OutputInterface;
 
 /**
  * Class LoggerHelper
@@ -35,37 +34,17 @@ class LoggerHelper
     /**
      * creates a \Monolo\Logger instance
      *
-     * @param bool $debug If true the debug logging mode will be enabled
+     * @param \Symfony\Component\Console\Output\OutputInterface $output
      *
      * @return \Monolog\Logger
      */
-    public function create($debug = false)
+    public function create(OutputInterface $output)
     {
-        $logger = new Logger('browscap');
+        $logger        = new Logger('browscap');
+        $consoleLogger = new ConsoleLogger($output);
+        $psrHandler    = new PsrHandler($consoleLogger);
 
-        if ($debug) {
-            $stream = new StreamHandler('php://output', Logger::DEBUG);
-            $stream->setFormatter(
-                new LineFormatter('[%datetime%] %channel%.%level_name%: %message% %extra%' . "\n")
-            );
-
-            /** @var callable $memoryProcessor */
-            $memoryProcessor = new MemoryUsageProcessor(true);
-            $logger->pushProcessor($memoryProcessor);
-
-            /** @var callable $peakMemoryProcessor */
-            $peakMemoryProcessor = new MemoryPeakUsageProcessor(true);
-            $logger->pushProcessor($peakMemoryProcessor);
-        } else {
-            $stream = new StreamHandler('php://output', Logger::INFO);
-            $stream->setFormatter(new LineFormatter('[%datetime%] %message% %extra%' . "\n"));
-
-            /** @var callable $peakMemoryProcessor */
-            $peakMemoryProcessor = new MemoryPeakUsageProcessor(true);
-            $logger->pushProcessor($peakMemoryProcessor);
-        }
-
-        $logger->pushHandler($stream);
+        $logger->pushHandler($psrHandler);
         $logger->pushHandler(new ErrorLogHandler(ErrorLogHandler::OPERATING_SYSTEM, Logger::NOTICE));
 
         ErrorHandler::register($logger);

@@ -69,8 +69,7 @@ class GrepCommand extends Command
             ->addArgument('inputFile', InputArgument::REQUIRED, 'The input file to test')
             ->addArgument('iniFile', InputArgument::OPTIONAL, 'The INI file to test against')
             ->addOption('mode', null, InputOption::VALUE_REQUIRED, 'What mode (matched/unmatched)', self::MODE_UNMATCHED)
-            ->addOption('resources', null, InputOption::VALUE_REQUIRED, 'Where the resource files are located', $defaultResourceFolder)
-            ->addOption('debug', null, InputOption::VALUE_NONE, 'Should the debug mode entered?');
+            ->addOption('resources', null, InputOption::VALUE_REQUIRED, 'Where the resource files are located', $defaultResourceFolder);
     }
 
     /**
@@ -108,10 +107,8 @@ class GrepCommand extends Command
             mkdir($cacheDir, 0777, true);
         }
 
-        $debug = $input->getOption('debug');
-
         $loggerHelper = new LoggerHelper();
-        $this->logger = $loggerHelper->create($debug);
+        $this->logger = $loggerHelper->create($output);
 
         $iniFile = $input->getArgument('iniFile');
 

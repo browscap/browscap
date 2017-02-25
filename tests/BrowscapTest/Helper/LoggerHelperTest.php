@@ -17,6 +17,7 @@
 namespace BrowscapTest\Helper;
 
 use Browscap\Helper\LoggerHelper;
+use Symfony\Component\Console\Output\NullOutput;
 
 /**
  * Class LoggerHelperTest
@@ -34,7 +35,8 @@ class LoggerHelperTest extends \PHPUnit_Framework_TestCase
      */
     public function testCreate()
     {
+        $output = new NullOutput();
         $helper = new LoggerHelper();
-        self::assertInstanceOf('\Monolog\Logger', $helper->create());
+        self::assertInstanceOf('\Monolog\Logger', $helper->create($output));
     }
 }
