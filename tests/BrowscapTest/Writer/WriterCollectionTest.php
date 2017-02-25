@@ -303,8 +303,8 @@ class WriterCollectionTest extends \PHPUnit_Framework_TestCase
     public function testRenderSectionBody()
     {
         $section = [
-            'Comment'  => 1,
-            'Win16'    => true,
+            'Comment' => 1,
+            'Win16' => true,
             'Platform' => 'bcd',
         ];
 

@@ -258,7 +258,7 @@ class CsvWriterTest extends \PHPUnit_Framework_TestCase
         $expectedAgents = [
             0 => [
                 'properties' => [
-                    'Test'   => 1,
+                    'Test' => 1,
                     'isTest' => true,
                 ],
             ],
@@ -384,16 +384,16 @@ class CsvWriterTest extends \PHPUnit_Framework_TestCase
         $this->object->setSilent(false);
 
         $section = [
-            'Test'   => 1,
+            'Test' => 1,
             'isTest' => true,
-            'abc'    => 'bcd',
+            'abc' => 'bcd',
         ];
 
         $expectedAgents = [
             0 => [
                 'properties' => [
-                    'Test'  => 'abc',
-                    'abc'   => true,
+                    'Test' => 'abc',
+                    'abc' => true,
                     'alpha' => true,
                 ],
             ],
@@ -468,9 +468,9 @@ class CsvWriterTest extends \PHPUnit_Framework_TestCase
         $this->object->setSilent(true);
 
         $section = [
-            'Test'   => 1,
+            'Test' => 1,
             'isTest' => true,
-            'abc'    => 'bcd',
+            'abc' => 'bcd',
         ];
 
         $collection = $this->createMock(\Browscap\Data\DataCollection::class);

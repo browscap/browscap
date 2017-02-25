@@ -112,35 +112,16 @@ class DataCollectionTest extends \PHPUnit_Framework_TestCase
     {
         $tmpfile = tempnam(sys_get_temp_dir(), 'browscaptest');
 
+        $this->expectException('\RuntimeException');
+        $this->expectExceptionMessage('File "' . $tmpfile . '" had invalid JSON.');
+
         $in = <<<HERE
 this is not valid JSON
 HERE;
 
         file_put_contents($tmpfile, $in);
 
-        $fail    = false;
-        $message = '';
-
-        try {
-            $this->object->addPlatformsFile($tmpfile);
-            $fail    = true;
-            $message = 'expected Exception "\RuntimeException" not thrown, no exception thrown';
-        } catch (\RuntimeException $ex) {
-            if ('File "' . $tmpfile . '" had invalid JSON.' !== $ex->getMessage()) {
-                $fail    = true;
-                $message = 'expected Message \'File "' . $tmpfile
-                . '" had invalid JSON.\' not available, the message was "' . $ex->getMessage() . '"';
-            }
-        } catch (\Exception $ex) {
-            $fail    = true;
-            $message = 'expected Exception "\RuntimeException" not thrown, Exception ' . get_class($ex) . ' thrown';
-        }
-
-        unlink($tmpfile);
-
-        if ($fail) {
-            $this->fail($message);
-        }
+        $this->object->addPlatformsFile($tmpfile);
     }
 
     /**
@@ -254,35 +235,16 @@ HERE;
     {
         $tmpfile = tempnam(sys_get_temp_dir(), 'browscaptest');
 
+        $this->expectException('\RuntimeException');
+        $this->expectExceptionMessage('File "' . $tmpfile . '" had invalid JSON.');
+
         $in = <<<HERE
 this is not valid JSON
 HERE;
 
         file_put_contents($tmpfile, $in);
 
-        $fail    = false;
-        $message = '';
-
-        try {
-            $this->object->addEnginesFile($tmpfile);
-            $fail    = true;
-            $message = 'expected Exception "\RuntimeException" not thrown, no exception thrown';
-        } catch (\RuntimeException $ex) {
-            if ('File "' . $tmpfile . '" had invalid JSON.' !== $ex->getMessage()) {
-                $fail    = true;
-                $message = 'expected Message \'File "' . $tmpfile
-                . '" had invalid JSON.\' not available, the message was "' . $ex->getMessage() . '"';
-            }
-        } catch (\Exception $ex) {
-            $fail    = true;
-            $message = 'expected Exception "\RuntimeException" not thrown, Exception ' . get_class($ex) . ' thrown';
-        }
-
-        unlink($tmpfile);
-
-        if ($fail) {
-            $this->fail($message);
-        }
+        $this->object->addEnginesFile($tmpfile);
     }
 
     /**
@@ -416,35 +378,16 @@ HERE;
     {
         $tmpfile = tempnam(sys_get_temp_dir(), 'browscaptest');
 
+        $this->expectException('\RuntimeException');
+        $this->expectExceptionMessage('File "' . $tmpfile . '" had invalid JSON.');
+
         $in = <<<HERE
 this is not valid JSON
 HERE;
 
         file_put_contents($tmpfile, $in);
 
-        $fail    = false;
-        $message = '';
-
-        try {
-            $this->object->addSourceFile($tmpfile);
-            $fail    = true;
-            $message = 'expected Exception "\RuntimeException" not thrown, no exception thrown';
-        } catch (\RuntimeException $ex) {
-            if ('File "' . $tmpfile . '" had invalid JSON.' !== $ex->getMessage()) {
-                $fail    = true;
-                $message = 'expected Message \'File "' . $tmpfile
-                    . '" had invalid JSON.\' not available, the message was "' . $ex->getMessage() . '"';
-            }
-        } catch (\Exception $ex) {
-            $fail    = true;
-            $message = 'expected Exception "\RuntimeException" not thrown, Exception ' . get_class($ex) . ' thrown';
-        }
-
-        unlink($tmpfile);
-
-        if ($fail) {
-            $this->fail($message);
-        }
+        $this->object->addSourceFile($tmpfile);
     }
 
     /**
@@ -1017,7 +960,7 @@ HERE;
 
         $properties = [
             'Version' => 'abc',
-            'Parent'  => '123',
+            'Parent' => '123',
         ];
 
         $this->object->checkProperty('test', $properties);
@@ -1035,8 +978,8 @@ HERE;
         $this->object->setLogger($this->logger);
 
         $properties = [
-            'Version'     => 'abc',
-            'Parent'      => '123',
+            'Version' => 'abc',
+            'Parent' => '123',
             'Device_Type' => 'Desktop',
         ];
 
@@ -1055,10 +998,10 @@ HERE;
         $this->object->setLogger($this->logger);
 
         $properties = [
-            'Version'     => 'abc',
-            'Parent'      => '123',
+            'Version' => 'abc',
+            'Parent' => '123',
             'Device_Type' => 'Desktop',
-            'isTablet'    => false,
+            'isTablet' => false,
         ];
 
         $this->object->checkProperty('test', $properties);
@@ -1075,10 +1018,10 @@ HERE;
         $this->object->setLogger($this->logger);
 
         $properties = [
-            'Version'        => 'abc',
-            'Parent'         => '123',
-            'Device_Type'    => 'Desktop',
-            'isTablet'       => false,
+            'Version' => 'abc',
+            'Parent' => '123',
+            'Device_Type' => 'Desktop',
+            'isTablet' => false,
             'isMobileDevice' => false,
         ];
 

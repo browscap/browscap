@@ -155,7 +155,10 @@ HERE;
     {
         $file   = '/hopefully/this/file/does/not/exist';
         $parser = new IniParser($file);
-        $this->setExpectedException('\InvalidArgumentException', 'File not found: ' . $file);
+
+        $this->expectException('\InvalidArgumentException');
+        $this->expectExceptionMessage('File not found: ' . $file);
+
         $parser->getLinesFromFile();
     }
 
@@ -307,6 +310,9 @@ HERE;
      *
      * @group parser
      * @group sourcetest
+     *
+     * @expectedException \RuntimeException
+     * @expectedExceptionMessage Too many equals in line: double=equals=here
      */
     public function testParseThrowsExceptionWhenInvalidFormatting()
     {
@@ -317,7 +323,6 @@ HERE;
         $parser = new IniParser('');
         $parser->setFileLines($lines);
 
-        $this->setExpectedException('\RuntimeException', 'Too many equals in line: double=equals=here');
         $parser->parse();
     }
 }

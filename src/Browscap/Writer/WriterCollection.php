@@ -162,10 +162,10 @@ class WriterCollection
         foreach ($this->writers as $writer) {
             $writer->renderVersion(
                 [
-                    'version'  => $version,
+                    'version' => $version,
                     'released' => $collection->getGenerationDate()->format('r'),
-                    'format'   => $writer->getFormatter()->getType(),
-                    'type'     => $writer->getFilter()->getType(),
+                    'format' => $writer->getFormatter()->getType(),
+                    'type' => $writer->getFilter()->getType(),
                 ]
             );
         }

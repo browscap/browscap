@@ -83,12 +83,12 @@ class BuildHelperTest extends \PHPUnit_Framework_TestCase
                     [
                         0 => [
                             'properties' => [
-                                'Parent'   => 'DefaultProperties',
-                                'Browser'  => 'xyz',
-                                'Version'  => '1.0',
+                                'Parent' => 'DefaultProperties',
+                                'Browser' => 'xyz',
+                                'Version' => '1.0',
                                 'MajorBer' => '1',
                             ],
-                            'userAgent'  => 'abc',
+                            'userAgent' => 'abc',
                         ],
                     ]
                 )

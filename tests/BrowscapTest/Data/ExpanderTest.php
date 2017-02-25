@@ -173,12 +173,12 @@ class ExpanderTest extends \PHPUnit_Framework_TestCase
                 self::returnValue(
                     [
                         0 => [
-                            'userAgent'  => 'abc',
+                            'userAgent' => 'abc',
                             'properties' => [
-                                'Parent'   => 'Defaultproperties',
-                                'Version'  => '1.0',
+                                'Parent' => 'Defaultproperties',
+                                'Version' => '1.0',
                                 'MajorVer' => 1,
-                                'Browser'  => 'xyz',
+                                'Browser' => 'xyz',
                             ],
                         ],
                     ]
@@ -228,13 +228,13 @@ class ExpanderTest extends \PHPUnit_Framework_TestCase
 
         $uaData = [
             0 => [
-                'userAgent'  => 'abc',
-                'properties' => ['Parent'   => 'Defaultproperties',
-                                      'Version'  => '1.0',
+                'userAgent' => 'abc',
+                'properties' => ['Parent' => 'Defaultproperties',
+                                      'Version' => '1.0',
                                       'MajorVer' => 1,
-                                      'Browser'  => 'xyz',
+                                      'Browser' => 'xyz',
                 ],
-                'children'   => [
+                'children' => [
                     0 => [
                         'match' => 'abc*',
                         'properties' => ['Browser' => 'xyza'],

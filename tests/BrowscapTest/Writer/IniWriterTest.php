@@ -362,8 +362,8 @@ class IniWriterTest extends \PHPUnit_Framework_TestCase
         $this->object->setSilent(false);
 
         $section = [
-            'Comment'  => 1,
-            'Win16'    => true,
+            'Comment' => 1,
+            'Win16' => true,
             'Platform' => 'bcd',
         ];
 
@@ -371,7 +371,7 @@ class IniWriterTest extends \PHPUnit_Framework_TestCase
             0 => [
                 'properties' => [
                     'Comment' => 1,
-                    'Win16'   => true,
+                    'Win16' => true,
                 ],
             ],
         ];
@@ -452,16 +452,16 @@ class IniWriterTest extends \PHPUnit_Framework_TestCase
         $this->object->setSilent(false);
 
         $section = [
-            'Parent'   => 'X1',
-            'Comment'  => '1',
-            'Win16'    => true,
+            'Parent' => 'X1',
+            'Comment' => '1',
+            'Win16' => true,
             'Platform' => 'bcd',
         ];
 
         $sections = [
             'X1' => [
-                'Comment'  => '12',
-                'Win16'    => false,
+                'Comment' => '12',
+                'Win16' => false,
                 'Platform' => 'bcd',
             ],
             'X2' => $section,
@@ -470,8 +470,8 @@ class IniWriterTest extends \PHPUnit_Framework_TestCase
         $expectedAgents = [
             0 => [
                 'properties' => [
-                    'Comment'  => 1,
-                    'Win16'    => true,
+                    'Comment' => 1,
+                    'Win16' => true,
                     'Platform' => 'bcd',
                 ],
             ],
@@ -554,9 +554,9 @@ class IniWriterTest extends \PHPUnit_Framework_TestCase
         $this->object->setSilent(false);
 
         $section = [
-            'Parent'   => 'DefaultProperties',
-            'Comment'  => '1',
-            'Win16'    => true,
+            'Parent' => 'DefaultProperties',
+            'Comment' => '1',
+            'Win16' => true,
             'Platform' => 'bcd',
         ];
 
@@ -567,8 +567,8 @@ class IniWriterTest extends \PHPUnit_Framework_TestCase
         $expectedAgents = [
             0 => [
                 'properties' => [
-                    'Comment'  => '12',
-                    'Win16'    => true,
+                    'Comment' => '12',
+                    'Win16' => true,
                     'Platform' => 'bcd',
                 ],
             ],
@@ -655,9 +655,9 @@ class IniWriterTest extends \PHPUnit_Framework_TestCase
         $this->object->setSilent(true);
 
         $section = [
-            'Test'   => 1,
+            'Test' => 1,
             'isTest' => true,
-            'abc'    => 'bcd',
+            'abc' => 'bcd',
         ];
 
         $collection = $this->createMock(\Browscap\Data\DataCollection::class);
