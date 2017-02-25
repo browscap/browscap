@@ -52,7 +52,7 @@
           "device": "Macintosh",
           "platforms": [
             "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
-            "OSX_10_11",
+            "OSX_10_11", "OSX_10_12",
             "OSX",
             "MacPPC_3"
           ]
@@ -90,7 +90,7 @@
           "device": "Macintosh",
           "platforms": [
             "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
-            "OSX_10_11",
+            "OSX_10_11", "OSX_10_12",
             "OSX"
           ]
         },
@@ -188,7 +188,7 @@
           "device": "Macintosh",
           "platforms": [
             "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
-            "OSX_10_11",
+            "OSX_10_11", "OSX_10_12",
             "OSX"
           ]
         },
