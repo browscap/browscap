@@ -30693,6 +30693,19 @@
         "isTablet": "false"
       }
     },
+    "Xiaomi Redmi Note 3": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Redmi Note 3",
+        "Device_Code_Name": "Redmi Note 3",
+        "Device_Maker": "Xiaomi Tech",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Xiaomi",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Xiaomi HM 1SW": {
       "standard": false,
       "properties": {
