@@ -1,0 +1,77 @@
+{
+  "division": "Keeper #MAJORVER#.#MINORVER#",
+  "versions": [1],
+  "sortIndex": 2040,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Keeper #MAJORVER#.#MINORVER#",
+      "platform": "Android",
+      "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Keeper #MAJORVER#.#MINORVER#",
+        "Browser": "Keeper",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Browser_Type": "Application",
+        "Browser_Maker": "Callpod Inc.",
+        "Alpha": "false",
+        "Beta": "false",
+        "Frames": "false",
+        "IFrames": "false",
+        "Tables": "false",
+        "Cookies": "false",
+        "JavaScript": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false"
+      },
+      "children": [
+        {
+          "match": "Callpod Keeper for Android #MAJORVER#.#MINORVER#* Dalvik\/* (#PLATFORM#LG-H810 Build\/*",
+          "device": "LG H810",
+          "platforms": [
+            "Android_6_0"
+          ]
+        },
+        {
+          "match": "Callpod Keeper for Android #MAJORVER#.#MINORVER#* Dalvik\/* (#PLATFORM#Z812 Build\/*",
+          "device": "Kodak Z812",
+          "platforms": [
+            "Android_5_1"
+          ]
+        },
+        {
+          "match": "Callpod Keeper for Android #MAJORVER#.#MINORVER#* Dalvik\/* (#PLATFORM#SGH-I337 Build\/*",
+          "device": "Samsung SGH-I337",
+          "platforms": [
+            "Android_5_0"
+          ]
+        },
+        {
+          "match": "Callpod Keeper for Android #MAJORVER#.#MINORVER#* Dalvik\/* (#PLATFORM#SM-N910A Build\/*",
+          "device": "Samsung SM-N910A",
+          "platforms": [
+            "Android_5_1"
+          ]
+        },
+        {
+          "match": "Callpod Keeper for Android #MAJORVER#.#MINORVER#* Dalvik\/* (#PLATFORM#SM-G920A Build\/*",
+          "device": "Samsung SM-G920A",
+          "platforms": [
+            "Android_6_0"
+          ]
+        },
+        {
+          "match": "Callpod Keeper for Android #MAJORVER#.#MINORVER#* Dalvik\/* (#PLATFORM#*",
+          "platforms": [
+            "Android_5_0", "Android_5_1", "Android_6_0", "Android_6_1", "Android_7_0", "Android_7_1", "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}

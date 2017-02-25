@@ -5278,6 +5278,19 @@
         "isTablet": "false"
       }
     },
+    "Samsung SM-G920A": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "SM-G920A",
+        "Device_Name": "Galaxy S6 (AT&T)",
+        "Device_Maker": "Samsung",
+        "Device_Brand_Name": "Samsung",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
     "Samsung SM-G928F": {
       "standard": false,
       "properties": {
@@ -18050,6 +18063,19 @@
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "H811",
         "Device_Name": "G4 (T-Mobile)",
+        "Device_Maker": "LG",
+        "Device_Brand_Name": "LG",
+        "Device_Pointing_Method": "touchscreen",
+        "isMobileDevice": "true",
+        "isTablet": "false"
+      }
+    },
+    "LG H810": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Code_Name": "H810",
+        "Device_Name": "G4 (AT&T)",
         "Device_Maker": "LG",
         "Device_Brand_Name": "LG",
         "Device_Pointing_Method": "touchscreen",
@@ -39167,6 +39193,19 @@
         "Device_Brand_Name": "Google",
         "isMobileDevice": "true",
         "isTablet": "true"
+      }
+    },
+    "Kodak Z812": {
+      "standard": false,
+      "properties": {
+        "Device_Type": "Mobile Phone",
+        "Device_Name": "Z812",
+        "Device_Code_Name": "Z812",
+        "Device_Maker": "Kodak",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Kodak",
+        "isMobileDevice": "true",
+        "isTablet": "false"
       }
     },
     "Smartfren Andromax AD6B1H": {
