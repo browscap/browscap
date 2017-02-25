@@ -23,6 +23,13 @@
       },
       "children": [
         {
+          "match": "Mozilla\/5.0 (SMART-TV; X11;#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) *Safari\/*",
+          "device": "Smart-TV",
+          "platforms": [
+            "Linux_64", "Linux_32", "Linux"
+          ]
+        },
+        {
           "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) *Version\/* Safari\/*",
           "device": "Linux Desktop",
           "platforms": [
