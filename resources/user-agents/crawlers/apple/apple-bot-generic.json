@@ -21,7 +21,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Version\/* Safari\/* (Applebot\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML* like Gecko) Version/* Safari/* (Applebot/*",
           "device": "Macintosh",
           "platforms": [
             "OSX"

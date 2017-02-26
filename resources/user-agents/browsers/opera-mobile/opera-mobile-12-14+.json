@@ -27,7 +27,7 @@
       },
       "children": [
         {
-          "match": "Opera\/9.80*(#PLATFORM#Opera Mobi*)*Version\/#MAJORVER#.#MINORVER#*",
+          "match": "Opera/9.80*(#PLATFORM#Opera Mobi*)*Version/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "AndroidLinux",
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android",
@@ -36,7 +36,7 @@
           ]
         },
         {
-          "match": "Opera\/9.80*(#PLATFORM#Opera Tablet*)*Version\/#MAJORVER#.#MINORVER#*",
+          "match": "Opera/9.80*(#PLATFORM#Opera Tablet*)*Version/#MAJORVER#.#MINORVER#*",
           "device": "general Tablet",
           "platforms": [
             "AndroidLinux",
@@ -48,7 +48,7 @@
           ]
         },
         {
-          "match": "SAMSUNG-GT-C3312R* Opera\/9.80 (X11; Linux *) Presto\/* Version\/#MAJORVER#.#MINORVER#*",
+          "match": "SAMSUNG-GT-C3312R* Opera/9.80 (X11; Linux *) Presto/* Version/#MAJORVER#.#MINORVER#*",
           "device": "Samsung GT-C3312R",
           "platforms": [
             "JAVA"

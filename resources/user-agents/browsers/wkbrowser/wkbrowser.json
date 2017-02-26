@@ -28,14 +28,14 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#HTC 802t 16GB Build\/*) AppleWebKit\/* (KHTML* like Gecko) Version\/* Chrome\/* Safari\/* wkbrowser #MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#HTC 802t 16GB Build/*) AppleWebKit/* (KHTML* like Gecko) Version/* Chrome/* Safari/* wkbrowser #MAJORVER#.#MINORVER#*",
           "device": "HTC 802T",
           "platforms": [
             "Android_4_4"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM# Build\/*) AppleWebKit\/* (KHTML* like Gecko) Version\/* Chrome\/* Safari\/* wkbrowser #MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM# Build/*) AppleWebKit/* (KHTML* like Gecko) Version/* Chrome/* Safari/* wkbrowser #MAJORVER#.#MINORVER#*",
           "platforms": [
             "Android_4_4", "Android_5_0",
             "Android"

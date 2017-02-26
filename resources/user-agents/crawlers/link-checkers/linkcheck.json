@@ -15,7 +15,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (compatible; linkCheckV3.0*",
+          "match": "Mozilla/5.0 (compatible; linkCheckV3.0*",
           "properties": {
             "Version": "3.0",
             "MajorVer": "3",
@@ -23,7 +23,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; linkCheckV*"
+          "match": "Mozilla/5.0 (compatible; linkCheckV*"
         }
       ]
     }

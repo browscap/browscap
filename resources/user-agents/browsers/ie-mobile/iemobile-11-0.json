@@ -32,118 +32,118 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#) like Android *; compatible) like iPhone OS * Mac OS X WebKit\/537.36 (KHTML* like Gecko) Chrome*Safari*",
+          "match": "Mozilla/5.0*(#PLATFORM#Trident/7.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#) like Android *; compatible) like iPhone OS * Mac OS X WebKit/537.36 (KHTML* like Gecko) Chrome*Safari*",
           "platforms": [
             "WinPhone8.1"
           ]
         },
         {
-          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 635*",
+          "match": "Mozilla/5.0*(#PLATFORM#Trident/7.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 635*",
           "device": "Nokia Lumia 635",
           "platforms": [
             "WinPhone8.1"
           ]
         },
         {
-          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 930*",
+          "match": "Mozilla/5.0*(#PLATFORM#Trident/7.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 930*",
           "device": "Nokia Lumia 930",
           "platforms": [
             "WinPhone8.1"
           ]
         },
         {
-          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 520*",
+          "match": "Mozilla/5.0*(#PLATFORM#Trident/7.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 520*",
           "device": "Nokia Lumia 520",
           "platforms": [
             "WinPhone8.1"
           ]
         },
         {
-          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 630*",
+          "match": "Mozilla/5.0*(#PLATFORM#Trident/7.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 630*",
           "device": "Nokia Lumia 630",
           "platforms": [
             "WinPhone8.1"
           ]
         },
         {
-          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 925*",
+          "match": "Mozilla/5.0*(#PLATFORM#Trident/7.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 925*",
           "device": "Nokia Lumia 925",
           "platforms": [
             "WinPhone8.1"
           ]
         },
         {
-          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 920*",
+          "match": "Mozilla/5.0*(#PLATFORM#Trident/7.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 920*",
           "device": "Nokia Lumia 920",
           "platforms": [
             "WinPhone8.1"
           ]
         },
         {
-          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 730*",
+          "match": "Mozilla/5.0*(#PLATFORM#Trident/7.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 730*",
           "device": "Nokia Lumia 730",
           "platforms": [
             "WinPhone8.1"
           ]
         },
         {
-          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#.#MINORVER#*; IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 920*",
+          "match": "Mozilla/5.0*(#PLATFORM#Trident/7.0*rv:#MAJORVER#.#MINORVER#*; IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 920*",
           "device": "Nokia Lumia 920",
           "platforms": [
             "WinPhone8.1"
           ]
         },
         {
-          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#.#MINORVER#*; IEMobile?#MAJORVER#.#MINORVER#; NOKIA; RM-994*",
+          "match": "Mozilla/5.0*(#PLATFORM#Trident/7.0*rv:#MAJORVER#.#MINORVER#*; IEMobile?#MAJORVER#.#MINORVER#; NOKIA; RM-994*",
           "device": "Nokia Lumia 1320 RM-994",
           "platforms": [
             "WinPhone8.1"
           ]
         },
         {
-          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#.#MINORVER#*; IEMobile?#MAJORVER#.#MINORVER#; Microsoft; RM-1089*",
+          "match": "Mozilla/5.0*(#PLATFORM#Trident/7.0*rv:#MAJORVER#.#MINORVER#*; IEMobile?#MAJORVER#.#MINORVER#; Microsoft; RM-1089*",
           "device": "Microsoft RM-1089",
           "platforms": [
             "WinPhone8.1"
           ]
         },
         {
-          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#.#MINORVER#*; IEMobile?#MAJORVER#.#MINORVER#; Microsoft; RM-1031*",
+          "match": "Mozilla/5.0*(#PLATFORM#Trident/7.0*rv:#MAJORVER#.#MINORVER#*; IEMobile?#MAJORVER#.#MINORVER#; Microsoft; RM-1031*",
           "device": "Microsoft RM-1031",
           "platforms": [
             "WinPhone8.1"
           ]
         },
         {
-          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#.#MINORVER#*; IEMobile?#MAJORVER#.#MINORVER#; Microsoft; RM-1090*",
+          "match": "Mozilla/5.0*(#PLATFORM#Trident/7.0*rv:#MAJORVER#.#MINORVER#*; IEMobile?#MAJORVER#.#MINORVER#; Microsoft; RM-1090*",
           "device": "Microsoft RM-1090",
           "platforms": [
             "WinPhone8.1"
           ]
         },
         {
-          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#.#MINORVER#*; IEMobile?#MAJORVER#.#MINORVER#; Microsoft; RM-1113*",
+          "match": "Mozilla/5.0*(#PLATFORM#Trident/7.0*rv:#MAJORVER#.#MINORVER#*; IEMobile?#MAJORVER#.#MINORVER#; Microsoft; RM-1113*",
           "device": "Microsoft RM-1113",
           "platforms": [
             "WinPhone8.1"
           ]
         },
         {
-          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#.#MINORVER#*; IEMobile?#MAJORVER#.#MINORVER#; Microsoft; RM-1074*",
+          "match": "Mozilla/5.0*(#PLATFORM#Trident/7.0*rv:#MAJORVER#.#MINORVER#*; IEMobile?#MAJORVER#.#MINORVER#; Microsoft; RM-1074*",
           "device": "Microsoft RM-1074",
           "platforms": [
             "WinPhone8.1"
           ]
         },
         {
-          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#.#MINORVER#*; IEMobile?#MAJORVER#.#MINORVER#; Microsoft;Lumia 535 Dual SIM*",
+          "match": "Mozilla/5.0*(#PLATFORM#Trident/7.0*rv:#MAJORVER#.#MINORVER#*; IEMobile?#MAJORVER#.#MINORVER#; Microsoft;Lumia 535 Dual SIM*",
           "device": "Microsoft RM-1090",
           "platforms": [
             "WinPhone8.1"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible; MSIE 10*; #PLATFORM# *Trident\/6.0; IEMobile?10*; ARM; Touch; rv:#MAJORVER#*; NOKIA; Lumia 920) like Gecko*",
+          "match": "Mozilla/5.0 (compatible; MSIE 10*; #PLATFORM# *Trident/6.0; IEMobile?10*; ARM; Touch; rv:#MAJORVER#*; NOKIA; Lumia 920) like Gecko*",
           "properties": {
             "Comment": "IEMobile #MAJORVER#.#MINORVER# in IEMobile 10.0 Compatibility Mode",
             "Browser_Modus": "IEMobile 10.0 Compatibility Mode"
@@ -154,7 +154,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible*; MSIE 10*; #PLATFORM# *Trident\/6.0; IEMobile?10*; ARM; Touch; rv:#MAJORVER#*; NOKIA; Lumia 920) like Gecko*",
+          "match": "Mozilla/5.0 (compatible*; MSIE 10*; #PLATFORM# *Trident/6.0; IEMobile?10*; ARM; Touch; rv:#MAJORVER#*; NOKIA; Lumia 920) like Gecko*",
           "properties": {
             "Comment": "IEMobile #MAJORVER#.#MINORVER# in IEMobile 10.0 Compatibility Mode",
             "Browser_Modus": "IEMobile 10.0 Compatibility Mode"
@@ -165,55 +165,55 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 928*",
+          "match": "Mozilla/5.0*(#PLATFORM#Trident/7.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 928*",
           "device": "Nokia Lumia 928",
           "platforms": [
             "WinPhone8.1"
           ]
         },
         {
-          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 625*",
+          "match": "Mozilla/5.0*(#PLATFORM#Trident/7.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 625*",
           "device": "Nokia Lumia 625",
           "platforms": [
             "WinPhone8.1"
           ]
         },
         {
-          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#; NOKIA; 909*",
+          "match": "Mozilla/5.0*(#PLATFORM#Trident/7.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#; NOKIA; 909*",
           "device": "Nokia Lumia 1020",
           "platforms": [
             "WinPhone8.1"
           ]
         },
         {
-          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 820*",
+          "match": "Mozilla/5.0*(#PLATFORM#Trident/7.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 820*",
           "device": "Nokia Lumia 820",
           "platforms": [
             "WinPhone8.1"
           ]
         },
         {
-          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 620*",
+          "match": "Mozilla/5.0*(#PLATFORM#Trident/7.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 620*",
           "device": "Nokia Lumia 620",
           "platforms": [
             "WinPhone8.1"
           ]
         },
         {
-          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 530*",
+          "match": "Mozilla/5.0*(#PLATFORM#Trident/7.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 530*",
           "device": "Nokia Lumia 530",
           "platforms": [
             "WinPhone8.1"
           ]
         },
         {
-          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/7.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0*(#PLATFORM#Trident/7.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#*",
           "platforms": [
             "WinPhone8.1"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible; MSIE 10*; #PLATFORM# *Trident\/6.0; IEMobile?10*; ARM; Touch; rv:#MAJORVER#*) like Gecko*",
+          "match": "Mozilla/5.0 (compatible; MSIE 10*; #PLATFORM# *Trident/6.0; IEMobile?10*; ARM; Touch; rv:#MAJORVER#*) like Gecko*",
           "properties": {
             "Comment": "IEMobile #MAJORVER#.#MINORVER# in IEMobile 10.0 Compatibility Mode",
             "Browser_Modus": "IEMobile 10.0 Compatibility Mode"
@@ -223,7 +223,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible*; MSIE 10*; #PLATFORM# *Trident\/6.0; IEMobile?10*; ARM; Touch; rv:#MAJORVER#*) like Gecko*",
+          "match": "Mozilla/5.0 (compatible*; MSIE 10*; #PLATFORM# *Trident/6.0; IEMobile?10*; ARM; Touch; rv:#MAJORVER#*) like Gecko*",
           "properties": {
             "Comment": "IEMobile #MAJORVER#.#MINORVER# in IEMobile 10.0 Compatibility Mode",
             "Browser_Modus": "IEMobile 10.0 Compatibility Mode"
@@ -233,7 +233,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (Windows NT 6.2; ARM; Trident\/7.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; NOKIA; Lumia 625*",
+          "match": "Mozilla/5.0 (Windows NT 6.2; ARM; Trident/7.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; NOKIA; Lumia 625*",
           "properties": {
             "Browser_Modus": "Desktop Mode"
           },
@@ -243,7 +243,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (Windows NT 6.2; ARM; Trident\/7.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; NOKIA; Lumia 1320*",
+          "match": "Mozilla/5.0 (Windows NT 6.2; ARM; Trident/7.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; NOKIA; Lumia 1320*",
           "properties": {
             "Browser_Modus": "Desktop Mode"
           },
@@ -253,7 +253,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (Windows NT 6.2; ARM; Trident\/7.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; NOKIA; Lumia 820*",
+          "match": "Mozilla/5.0 (Windows NT 6.2; ARM; Trident/7.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; NOKIA; Lumia 820*",
           "properties": {
             "Browser_Modus": "Desktop Mode"
           },
@@ -263,7 +263,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (Windows NT 6.2; ARM; Trident\/7.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; NOKIA; Lumia 920*",
+          "match": "Mozilla/5.0 (Windows NT 6.2; ARM; Trident/7.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; NOKIA; Lumia 920*",
           "properties": {
             "Browser_Modus": "Desktop Mode"
           },
@@ -273,7 +273,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (Windows NT 6.2; ARM; Trident\/7.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; NOKIA; Lumia 630*",
+          "match": "Mozilla/5.0 (Windows NT 6.2; ARM; Trident/7.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; NOKIA; Lumia 630*",
           "properties": {
             "Browser_Modus": "Desktop Mode"
           },
@@ -283,7 +283,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (Windows NT 6.2; ARM; Trident\/7.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; NOKIA; Lumia 520*",
+          "match": "Mozilla/5.0 (Windows NT 6.2; ARM; Trident/7.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; NOKIA; Lumia 520*",
           "properties": {
             "Browser_Modus": "Desktop Mode"
           },
@@ -293,7 +293,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (Windows NT 6.2; ARM; Trident\/7.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; NOKIA; Lumia 1520*",
+          "match": "Mozilla/5.0 (Windows NT 6.2; ARM; Trident/7.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; NOKIA; Lumia 1520*",
           "properties": {
             "Browser_Modus": "Desktop Mode"
           },
@@ -303,7 +303,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (Windows NT 6.2; ARM; Trident\/7.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; NOKIA; Lumia 925*",
+          "match": "Mozilla/5.0 (Windows NT 6.2; ARM; Trident/7.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; NOKIA; Lumia 925*",
           "properties": {
             "Browser_Modus": "Desktop Mode"
           },
@@ -313,7 +313,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (Windows NT 6.2; ARM; Trident\/7.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; NOKIA; Lumia 635*",
+          "match": "Mozilla/5.0 (Windows NT 6.2; ARM; Trident/7.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; NOKIA; Lumia 635*",
           "properties": {
             "Browser_Modus": "Desktop Mode"
           },
@@ -323,7 +323,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (Windows NT 6.2; ARM; Trident\/7.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; NOKIA; 909*",
+          "match": "Mozilla/5.0 (Windows NT 6.2; ARM; Trident/7.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; NOKIA; 909*",
           "properties": {
             "Browser_Modus": "Desktop Mode"
           },
@@ -333,7 +333,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (Windows NT 6.2; ARM; Trident\/7.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; NOKIA; Lumia 720*",
+          "match": "Mozilla/5.0 (Windows NT 6.2; ARM; Trident/7.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; NOKIA; Lumia 720*",
           "properties": {
             "Browser_Modus": "Desktop Mode"
           },
@@ -343,7 +343,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (Windows NT 6.2; ARM; Trident\/7.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; *",
+          "match": "Mozilla/5.0 (Windows NT 6.2; ARM; Trident/7.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; *",
           "properties": {
             "Browser_Modus": "Desktop Mode"
           },
@@ -352,14 +352,14 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/8.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#) like Android *; compatible) like iPhone OS * Mac OS X WebKit\/537.36 (KHTML* like Gecko) Chrome*Safari*",
+          "match": "Mozilla/5.0*(#PLATFORM#Trident/8.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#) like Android *; compatible) like iPhone OS * Mac OS X WebKit/537.36 (KHTML* like Gecko) Chrome*Safari*",
           "engine": "Trident_8",
           "platforms": [
             "WinPhone8.1"
           ]
         },
         {
-          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/8.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 635*",
+          "match": "Mozilla/5.0*(#PLATFORM#Trident/8.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 635*",
           "engine": "Trident_8",
           "device": "Nokia Lumia 635",
           "platforms": [
@@ -367,7 +367,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/8.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 930*",
+          "match": "Mozilla/5.0*(#PLATFORM#Trident/8.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 930*",
           "engine": "Trident_8",
           "device": "Nokia Lumia 930",
           "platforms": [
@@ -375,7 +375,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/8.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 520*",
+          "match": "Mozilla/5.0*(#PLATFORM#Trident/8.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 520*",
           "engine": "Trident_8",
           "device": "Nokia Lumia 520",
           "platforms": [
@@ -383,7 +383,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/8.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 630*",
+          "match": "Mozilla/5.0*(#PLATFORM#Trident/8.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 630*",
           "engine": "Trident_8",
           "device": "Nokia Lumia 630",
           "platforms": [
@@ -391,7 +391,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/8.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 925*",
+          "match": "Mozilla/5.0*(#PLATFORM#Trident/8.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 925*",
           "engine": "Trident_8",
           "device": "Nokia Lumia 925",
           "platforms": [
@@ -399,7 +399,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/8.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 920*",
+          "match": "Mozilla/5.0*(#PLATFORM#Trident/8.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 920*",
           "engine": "Trident_8",
           "device": "Nokia Lumia 920",
           "platforms": [
@@ -407,7 +407,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/8.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 730*",
+          "match": "Mozilla/5.0*(#PLATFORM#Trident/8.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 730*",
           "engine": "Trident_8",
           "device": "Nokia Lumia 730",
           "platforms": [
@@ -415,7 +415,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/8.0*rv:#MAJORVER#.#MINORVER#*; IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 920*",
+          "match": "Mozilla/5.0*(#PLATFORM#Trident/8.0*rv:#MAJORVER#.#MINORVER#*; IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 920*",
           "engine": "Trident_8",
           "device": "Nokia Lumia 920",
           "platforms": [
@@ -423,7 +423,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/8.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 928*",
+          "match": "Mozilla/5.0*(#PLATFORM#Trident/8.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 928*",
           "engine": "Trident_8",
           "device": "Nokia Lumia 928",
           "platforms": [
@@ -431,7 +431,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/8.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 625*",
+          "match": "Mozilla/5.0*(#PLATFORM#Trident/8.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 625*",
           "engine": "Trident_8",
           "device": "Nokia Lumia 625",
           "platforms": [
@@ -439,7 +439,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/8.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#; NOKIA; 909*",
+          "match": "Mozilla/5.0*(#PLATFORM#Trident/8.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#; NOKIA; 909*",
           "engine": "Trident_8",
           "device": "Nokia Lumia 1020",
           "platforms": [
@@ -447,7 +447,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/8.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 820*",
+          "match": "Mozilla/5.0*(#PLATFORM#Trident/8.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 820*",
           "engine": "Trident_8",
           "device": "Nokia Lumia 820",
           "platforms": [
@@ -455,7 +455,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/8.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 620*",
+          "match": "Mozilla/5.0*(#PLATFORM#Trident/8.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 620*",
           "engine": "Trident_8",
           "device": "Nokia Lumia 620",
           "platforms": [
@@ -463,7 +463,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/8.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 530*",
+          "match": "Mozilla/5.0*(#PLATFORM#Trident/8.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 530*",
           "engine": "Trident_8",
           "device": "Nokia Lumia 530",
           "platforms": [
@@ -471,7 +471,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/8.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#; Microsoft; Lumia 950 XL Dual SIM*",
+          "match": "Mozilla/5.0*(#PLATFORM#Trident/8.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#; Microsoft; Lumia 950 XL Dual SIM*",
           "engine": "Trident_8",
           "device": "Microsoft Lumia 950 XL Dual SIM",
           "platforms": [
@@ -479,14 +479,14 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0*(#PLATFORM#Trident\/8.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0*(#PLATFORM#Trident/8.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#*",
           "engine": "Trident_8",
           "platforms": [
             "WinPhone8.1"
           ]
         },
         {
-          "match": "*Mozilla\/5.0*(#PLATFORM#Trident\/8.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#; Microsoft; Lumia 950 XL Dual SIM*",
+          "match": "*Mozilla/5.0*(#PLATFORM#Trident/8.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#; Microsoft; Lumia 950 XL Dual SIM*",
           "engine": "Trident_8",
           "device": "Microsoft Lumia 950 XL Dual SIM",
           "platforms": [
@@ -494,14 +494,14 @@
           ]
         },
         {
-          "match": "*Mozilla\/5.0*(#PLATFORM#Trident\/8.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#*",
+          "match": "*Mozilla/5.0*(#PLATFORM#Trident/8.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#*",
           "engine": "Trident_8",
           "platforms": [
             "WinPhone8.1"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (Windows NT 6.2; ARM; Trident\/8.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; NOKIA; Lumia 625*",
+          "match": "Mozilla/5.0 (Windows NT 6.2; ARM; Trident/8.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; NOKIA; Lumia 625*",
           "engine": "Trident_8",
           "properties": {
             "Browser_Modus": "Desktop Mode"
@@ -512,7 +512,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (Windows NT 6.2; ARM; Trident\/8.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; NOKIA; Lumia 1320*",
+          "match": "Mozilla/5.0 (Windows NT 6.2; ARM; Trident/8.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; NOKIA; Lumia 1320*",
           "engine": "Trident_8",
           "properties": {
             "Browser_Modus": "Desktop Mode"
@@ -523,7 +523,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (Windows NT 6.2; ARM; Trident\/8.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; NOKIA; Lumia 820*",
+          "match": "Mozilla/5.0 (Windows NT 6.2; ARM; Trident/8.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; NOKIA; Lumia 820*",
           "engine": "Trident_8",
           "properties": {
             "Browser_Modus": "Desktop Mode"
@@ -534,7 +534,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (Windows NT 6.2; ARM; Trident\/8.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; NOKIA; Lumia 920*",
+          "match": "Mozilla/5.0 (Windows NT 6.2; ARM; Trident/8.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; NOKIA; Lumia 920*",
           "engine": "Trident_8",
           "properties": {
             "Browser_Modus": "Desktop Mode"
@@ -545,7 +545,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (Windows NT 6.2; ARM; Trident\/8.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; NOKIA; Lumia 630*",
+          "match": "Mozilla/5.0 (Windows NT 6.2; ARM; Trident/8.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; NOKIA; Lumia 630*",
           "engine": "Trident_8",
           "properties": {
             "Browser_Modus": "Desktop Mode"
@@ -556,7 +556,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (Windows NT 6.2; ARM; Trident\/8.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; NOKIA; Lumia 520*",
+          "match": "Mozilla/5.0 (Windows NT 6.2; ARM; Trident/8.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; NOKIA; Lumia 520*",
           "engine": "Trident_8",
           "properties": {
             "Browser_Modus": "Desktop Mode"
@@ -567,7 +567,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (Windows NT 6.2; ARM; Trident\/8.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; NOKIA; Lumia 1520*",
+          "match": "Mozilla/5.0 (Windows NT 6.2; ARM; Trident/8.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; NOKIA; Lumia 1520*",
           "engine": "Trident_8",
           "properties": {
             "Browser_Modus": "Desktop Mode"
@@ -578,7 +578,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (Windows NT 6.2; ARM; Trident\/8.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; NOKIA; Lumia 925*",
+          "match": "Mozilla/5.0 (Windows NT 6.2; ARM; Trident/8.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; NOKIA; Lumia 925*",
           "engine": "Trident_8",
           "properties": {
             "Browser_Modus": "Desktop Mode"
@@ -589,7 +589,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (Windows NT 6.2; ARM; Trident\/8.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; NOKIA; Lumia 635*",
+          "match": "Mozilla/5.0 (Windows NT 6.2; ARM; Trident/8.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; NOKIA; Lumia 635*",
           "engine": "Trident_8",
           "properties": {
             "Browser_Modus": "Desktop Mode"
@@ -600,7 +600,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (Windows NT 6.2; ARM; Trident\/8.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; NOKIA; 909*",
+          "match": "Mozilla/5.0 (Windows NT 6.2; ARM; Trident/8.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; NOKIA; 909*",
           "engine": "Trident_8",
           "properties": {
             "Browser_Modus": "Desktop Mode"
@@ -611,7 +611,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (Windows NT 6.2; ARM; Trident\/8.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; NOKIA; Lumia 720*",
+          "match": "Mozilla/5.0 (Windows NT 6.2; ARM; Trident/8.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; NOKIA; Lumia 720*",
           "engine": "Trident_8",
           "properties": {
             "Browser_Modus": "Desktop Mode"
@@ -622,7 +622,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (Windows NT 6.2; ARM; Trident\/8.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; *",
+          "match": "Mozilla/5.0 (Windows NT 6.2; ARM; Trident/8.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; *",
           "engine": "Trident_8",
           "properties": {
             "Browser_Modus": "Desktop Mode"

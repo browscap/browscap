@@ -26,21 +26,21 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Firefox\/* Flock\/#MAJORVER#.*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* Flock/#MAJORVER#.*",
           "device": "Linux Desktop",
           "platforms": [
             "Linux_32_on_x64_2", "Linux"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Firefox\/* Flock\/#MAJORVER#.*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* Flock/#MAJORVER#.*",
           "device": "Windows Desktop",
           "platforms": [
             "WinME", "Win2000", "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Firefox\/* Flock\/#MAJORVER#.*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* Flock/#MAJORVER#.*",
           "device": "Macintosh",
           "platforms": [
             "OSX"

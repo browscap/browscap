@@ -22,7 +22,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (iPhone#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) GSA\/* Mobile\/* Safari\/*",
+          "match": "Mozilla/5.0 (iPhone#PLATFORM#) AppleWebKit/* (KHTML* like Gecko) GSA/* Mobile/* Safari/*",
           "device": "iPhone",
           "platforms": [
             "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
@@ -39,7 +39,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (iPod#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) GSA\/* Mobile\/* Safari\/*",
+          "match": "Mozilla/5.0 (iPod#PLATFORM#) AppleWebKit/* (KHTML* like Gecko) GSA/* Mobile/* Safari/*",
           "device": "iPod Touch",
           "platforms": [
             "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
@@ -56,7 +56,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (iPad#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) GSA\/* Mobile\/* Safari\/*",
+          "match": "Mozilla/5.0 (iPad#PLATFORM#) AppleWebKit/* (KHTML* like Gecko) GSA/* Mobile/* Safari/*",
           "device": "iPad",
           "platforms": [
             "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
@@ -73,7 +73,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) GSA\/* Mobile\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML* like Gecko) GSA/* Mobile/* Safari/*",
           "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",

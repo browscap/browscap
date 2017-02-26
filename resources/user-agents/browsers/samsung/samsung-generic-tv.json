@@ -25,47 +25,47 @@
       },
       "children": [
         {
-          "match": "HbbTV\/* (*;Samsung;SmartTV2012;*) WebKit*",
+          "match": "HbbTV/* (*;Samsung;SmartTV2012;*) WebKit*",
           "device": "Smart-TV",
           "engine": "WebKit"
         },
         {
-          "match": "HbbTV\/* (*;Samsung;SmartTV2013;*) WebKit*",
+          "match": "HbbTV/* (*;Samsung;SmartTV2013;*) WebKit*",
           "device": "Smart-TV",
           "engine": "WebKit"
         },
         {
-          "match": "HbbTV\/* (*;Samsung;SmartTV2014;*) WebKit*",
+          "match": "HbbTV/* (*;Samsung;SmartTV2014;*) WebKit*",
           "device": "Smart-TV",
           "engine": "WebKit"
         },
         {
-          "match": "HbbTV\/* (*;Samsung;SmartTV2015;T-HKPDEUC*) WebKit*",
+          "match": "HbbTV/* (*;Samsung;SmartTV2015;T-HKPDEUC*) WebKit*",
           "device": "Samsung Series J (2015)",
           "engine": "WebKit"
         },
         {
-          "match": "HbbTV\/* (*;Samsung;SmartTV2015;T-HKM6DEUC*) WebKit*",
+          "match": "HbbTV/* (*;Samsung;SmartTV2015;T-HKM6DEUC*) WebKit*",
           "device": "Samsung Series J (2015)",
           "engine": "WebKit"
         },
         {
-          "match": "HbbTV\/* (*;Samsung;SmartTV2015;*) WebKit*",
+          "match": "HbbTV/* (*;Samsung;SmartTV2015;*) WebKit*",
           "device": "Smart-TV",
           "engine": "WebKit"
         },
         {
-          "match": "HbbTV\/* (*;Samsung;SmartTV2016;T-HKMFKDEUC*) WebKit*",
+          "match": "HbbTV/* (*;Samsung;SmartTV2016;T-HKMFKDEUC*) WebKit*",
           "device": "Samsung Series J (2016)",
           "engine": "WebKit"
         },
         {
-          "match": "HbbTV\/* (*;Samsung;SmartTV2016;*) WebKit*",
+          "match": "HbbTV/* (*;Samsung;SmartTV2016;*) WebKit*",
           "device": "Smart-TV",
           "engine": "WebKit"
         },
         {
-          "match": "HbbTV\/* (;;;;;) Maple_2011*",
+          "match": "HbbTV/* (;;;;;) Maple_2011*",
           "device": "Smart-TV"
         }
       ]

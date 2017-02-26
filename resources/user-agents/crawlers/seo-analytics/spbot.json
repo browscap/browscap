@@ -16,7 +16,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (compatible*spbot\/1.0*",
+          "match": "Mozilla/5.0 (compatible*spbot/1.0*",
           "properties": {
             "Version": "1.0",
             "MajorVer": "1",
@@ -24,7 +24,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible*spbot\/1.1*",
+          "match": "Mozilla/5.0 (compatible*spbot/1.1*",
           "properties": {
             "Version": "1.1",
             "MajorVer": "1",
@@ -32,7 +32,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible*spbot\/1.2*",
+          "match": "Mozilla/5.0 (compatible*spbot/1.2*",
           "properties": {
             "Version": "1.2",
             "MajorVer": "1",
@@ -40,7 +40,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible*spbot\/2.0*",
+          "match": "Mozilla/5.0 (compatible*spbot/2.0*",
           "properties": {
             "Version": "2.0",
             "MajorVer": "2",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible*spbot\/2.1*",
+          "match": "Mozilla/5.0 (compatible*spbot/2.1*",
           "properties": {
             "Version": "2.1",
             "MajorVer": "2",
@@ -56,7 +56,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible*spbot\/3.0*",
+          "match": "Mozilla/5.0 (compatible*spbot/3.0*",
           "properties": {
             "Version": "3.0",
             "MajorVer": "3",
@@ -64,7 +64,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible*spbot\/3.1*",
+          "match": "Mozilla/5.0 (compatible*spbot/3.1*",
           "properties": {
             "Version": "3.1",
             "MajorVer": "3",
@@ -72,7 +72,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible*spbot\/4.0*",
+          "match": "Mozilla/5.0 (compatible*spbot/4.0*",
           "properties": {
             "Version": "4.0",
             "MajorVer": "4",
@@ -80,7 +80,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible*spbot\/4.1*",
+          "match": "Mozilla/5.0 (compatible*spbot/4.1*",
           "properties": {
             "Version": "4.1",
             "MajorVer": "4",
@@ -88,7 +88,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible*spbot\/4.2*",
+          "match": "Mozilla/5.0 (compatible*spbot/4.2*",
           "properties": {
             "Version": "4.1",
             "MajorVer": "4",
@@ -96,7 +96,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible*spbot\/4.3*",
+          "match": "Mozilla/5.0 (compatible*spbot/4.3*",
           "properties": {
             "Version": "4.1",
             "MajorVer": "4",
@@ -104,7 +104,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible*spbot\/4.4*",
+          "match": "Mozilla/5.0 (compatible*spbot/4.4*",
           "properties": {
             "Version": "4.1",
             "MajorVer": "4",
@@ -112,7 +112,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible*spbot\/*"
+          "match": "Mozilla/5.0 (compatible*spbot/*"
         }
       ]
     }

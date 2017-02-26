@@ -27,27 +27,27 @@
       },
       "children": [
         {
-          "match": "HTC_Smart_F3188 Mozilla\/5.0 (like Gecko) Obigo\/Q7",
+          "match": "HTC_Smart_F3188 Mozilla/5.0 (like Gecko) Obigo/Q7",
           "device": "HTC Smart F3188"
         },
         {
-          "match": "LG-CF360\/V10h Teleca\/Q#MAJORVER#.#MINORVER# *",
+          "match": "LG-CF360/V10h Teleca/Q#MAJORVER#.#MINORVER# *",
           "device": "LG CF360"
         },
         {
-          "match": "LG-GR500\/V10? Teleca\/Q#MAJORVER#.#MINORVER#*",
+          "match": "LG-GR500/V10? Teleca/Q#MAJORVER#.#MINORVER#*",
           "device": "LG GR500"
         },
         {
-          "match": "SonyEricssonW150i\/R2AD032 TelecaBrowser\/Q07C1-1 *",
+          "match": "SonyEricssonW150i/R2AD032 TelecaBrowser/Q07C1-1 *",
           "device": "SonyEricsson W150i"
         },
         {
-          "match": "SonyEricssonWT13i\/R3AD017 TelecaBrowser\/Q07C1-1 *",
+          "match": "SonyEricssonWT13i/R3AD017 TelecaBrowser/Q07C1-1 *",
           "device": "SonyEricsson WT13i"
         },
         {
-          "match": "LG-GT400\/v10a Browser\/Teleca-Q7.1*",
+          "match": "LG-GT400/v10a Browser/Teleca-Q7.1*",
           "device": "LG GT400",
           "properties": {
             "Version": "7.1",
@@ -56,7 +56,7 @@
           }
         },
         {
-          "match": "LG\/KC910\/V10a Browser\/Obigo-Q7.1*",
+          "match": "LG/KC910/V10a Browser/Obigo-Q7.1*",
           "device": "LG KC910",
           "properties": {
             "Version": "7.1",
@@ -65,7 +65,7 @@
           }
         },
         {
-          "match": "LG-T300\/V100 Obigo\/Q7.3*",
+          "match": "LG-T300/V100 Obigo/Q7.3*",
           "device": "LG T300",
           "properties": {
             "Version": "7.3",
@@ -74,7 +74,7 @@
           }
         },
         {
-          "match": "LG-T310i\/V100 Obigo\/Q7.3*",
+          "match": "LG-T310i/V100 Obigo/Q7.3*",
           "device": "LG T310i",
           "properties": {
             "Version": "7.3",
@@ -83,7 +83,7 @@
           }
         },
         {
-          "match": "LG\/BL40\/V10a Browser\/Obigo-Q7.3*",
+          "match": "LG/BL40/V10a Browser/Obigo-Q7.3*",
           "device": "LG BL40",
           "properties": {
             "Version": "7.3",
@@ -92,7 +92,7 @@
           }
         },
         {
-          "match": "LG-KM900\/V10x Browser\/Obigo-Q7.1*",
+          "match": "LG-KM900/V10x Browser/Obigo-Q7.1*",
           "device": "LG KM900",
           "properties": {
             "Version": "7.1",
@@ -101,16 +101,16 @@
           }
         },
         {
-          "match": "*Teleca\/Q7*"
+          "match": "*Teleca/Q7*"
         },
         {
-          "match": "*TelecaBrowser\/Q07*"
+          "match": "*TelecaBrowser/Q07*"
         },
         {
-          "match": "*Browser\/Teleca-Q7*"
+          "match": "*Browser/Teleca-Q7*"
         },
         {
-          "match": "*Browser\/Obigo-Q7*"
+          "match": "*Browser/Obigo-Q7*"
         }
       ]
     }

@@ -17,13 +17,13 @@
       },
       "children": [
         {
-          "match": "ICRA_label_generator\/1.?",
+          "match": "ICRA_label_generator/1.?",
           "properties": {
             "Browser": "ICRA_label_generator"
           }
         },
         {
-          "match": "ICRA_Semantic_spider\/0.?",
+          "match": "ICRA_Semantic_spider/0.?",
           "properties": {
             "Browser": "ICRA_Semantic_spider"
           }

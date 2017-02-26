@@ -27,35 +27,35 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko, Safari\/*)*Arora\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML* like Gecko, Safari/*)*Arora/#MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
           "platforms": [
             "Win2000", "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32", "Windows"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko, Safari\/*)*Arora\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML* like Gecko, Safari/*)*Arora/#MAJORVER#.#MINORVER#*",
           "device": "Linux Desktop",
           "platforms": [
             "Linux"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* (KHTML* like Gecko, Safari\/*)*Arora\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* (KHTML* like Gecko, Safari/*)*Arora/#MAJORVER#.#MINORVER#*",
           "device": "Linux Desktop",
           "platforms": [
             "Linux"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko)*Arora\/#MAJORVER#.#MINORVER#* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML* like Gecko)*Arora/#MAJORVER#.#MINORVER#* Safari/*",
           "device": "Windows Desktop",
           "platforms": [
             "Win2000", "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32", "Windows"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko)*Arora\/#MAJORVER#.#MINORVER#* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML* like Gecko)*Arora/#MAJORVER#.#MINORVER#* Safari/*",
           "device": "Linux Desktop",
           "platforms": [
             "Linux"

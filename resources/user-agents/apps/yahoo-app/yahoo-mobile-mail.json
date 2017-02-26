@@ -30,14 +30,14 @@
       },
       "children": [
         {
-          "match": "YahooMobileMail\/#MAJORVER#.#MINORVER#*HTC;PC36100*",
+          "match": "YahooMobileMail/#MAJORVER#.#MINORVER#*HTC;PC36100*",
           "device": "HTC PC36100",
           "platforms": [
             "Android"
           ]
         },
         {
-          "match": "YahooMobileMail\/#MAJORVER#.#MINORVER#*",
+          "match": "YahooMobileMail/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "Android"
           ]

@@ -16,19 +16,19 @@
       },
       "children": [
         {
-          "match": "*W3C-checklink\/*",
+          "match": "*W3C-checklink/*",
           "properties": {
             "Browser": "W3C-checklink"
           }
         },
         {
-          "match": "Jigsaw\/*",
+          "match": "Jigsaw/*",
           "properties": {
             "Browser": "Jigsaw CSS Validator"
           }
         },
         {
-          "match": "Jigsaw\/* W3C_CSS_Validator*\/*",
+          "match": "Jigsaw/* W3C_CSS_Validator*/*",
           "properties": {
             "Browser": "Jigsaw_W3C_CSS_Validator"
           }
@@ -40,13 +40,13 @@
           }
         },
         {
-          "match": "Unicorn\/1.*",
+          "match": "Unicorn/1.*",
           "properties": {
             "Browser": "W3C Unicorn"
           }
         },
         {
-          "match": "W3C-mobileOK\/*",
+          "match": "W3C-mobileOK/*",
           "properties": {
             "Browser": "W3C-mobileOK",
             "Alpha": "false",
@@ -61,50 +61,50 @@
           }
         },
         {
-          "match": "W3C-mobileOK\/DDC-*",
+          "match": "W3C-mobileOK/DDC-*",
           "properties": {
-            "Browser": "W3C-mobileOK\/DDC"
+            "Browser": "W3C-mobileOK/DDC"
           },
           "device": "general Mobile Device"
         },
         {
-          "match": "W3C-WebCon\/*",
+          "match": "W3C-WebCon/*",
           "properties": {
             "Browser": "W3C-WebCon"
           }
         },
         {
-          "match": "W3C_Validator\/*",
+          "match": "W3C_Validator/*",
           "properties": {
             "Browser": "W3C_Validator"
           }
         },
         {
-          "match": "W3CLineMode\/*",
+          "match": "W3CLineMode/*",
           "properties": {
             "Browser": "W3CLineMode"
           }
         },
         {
-          "match": "W3CRobot\/*",
+          "match": "W3CRobot/*",
           "properties": {
             "Browser": "W3CRobot"
           }
         },
         {
-          "match": "Validator.nu\/LV*",
+          "match": "Validator.nu/LV*",
           "properties": {
-            "Browser": "Validator.nu\/LV"
+            "Browser": "Validator.nu/LV"
           }
         },
         {
-          "match": "W3C_I18n-Checker\/*",
+          "match": "W3C_I18n-Checker/*",
           "properties": {
             "Browser": "W3C I18n Checker"
           }
         },
         {
-          "match": "W3C_Unicorn\/*",
+          "match": "W3C_Unicorn/*",
           "properties": {
             "Browser": "W3C Unicorn"
           }

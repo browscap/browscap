@@ -28,10 +28,10 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (Linux; Linux mips) AppleWebKit\/* (KHTML,*like Gecko*)*Chromium\/* Safari\/*) SRAF\/#MAJORVER#.#MINORVER#* (+TRICKMODE; NEXUS; Nexus_AN01*"
+          "match": "Mozilla/5.0 (Linux; Linux mips) AppleWebKit/* (KHTML,*like Gecko*)*Chromium/* Safari/*) SRAF/#MAJORVER#.#MINORVER#* (+TRICKMODE; NEXUS; Nexus_AN01*"
         },
         {
-          "match": "Mozilla\/5.0 (Linux; Linux mips) AppleWebKit\/* (KHTML,*like Gecko*)*Chromium\/* Safari\/*) SRAF\/#MAJORVER#.#MINORVER#*"
+          "match": "Mozilla/5.0 (Linux; Linux mips) AppleWebKit/* (KHTML,*like Gecko*)*Chromium/* Safari/*) SRAF/#MAJORVER#.#MINORVER#*"
         }
       ]
     }

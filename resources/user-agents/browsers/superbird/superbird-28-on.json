@@ -27,7 +27,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) SuperBird\/#MAJORVER#.* Chrome\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML* like Gecko) SuperBird/#MAJORVER#.* Chrome/* Safari/*",
           "device": "Windows Desktop",
           "platforms": [
             "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32", "Vista_64", "Vista_32",
@@ -39,7 +39,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) SuperBird\/#MAJORVER#.* Chrome\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML* like Gecko) SuperBird/#MAJORVER#.* Chrome/* Safari/*",
           "device": "Macintosh",
           "platforms": [
             "OSX"

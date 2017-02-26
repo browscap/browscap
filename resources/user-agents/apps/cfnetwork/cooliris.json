@@ -26,7 +26,7 @@
       },
       "children": [
         {
-          "match": "Cooliris?1.2 CFNetwork\/*",
+          "match": "Cooliris?1.2 CFNetwork/*",
           "properties": {
             "Version": "1.2",
             "MajorVer": "1",
@@ -37,7 +37,7 @@
           ]
         },
         {
-          "match": "Cooliris?1.3 CFNetwork\/*",
+          "match": "Cooliris?1.3 CFNetwork/*",
           "properties": {
             "Version": "1.3",
             "MajorVer": "1",
@@ -48,7 +48,7 @@
           ]
         },
         {
-          "match": "Cooliris?1.4 CFNetwork\/*",
+          "match": "Cooliris?1.4 CFNetwork/*",
           "properties": {
             "Version": "1.4",
             "MajorVer": "1",
@@ -59,7 +59,7 @@
           ]
         },
         {
-          "match": "Cooliris?1.5 CFNetwork\/*",
+          "match": "Cooliris?1.5 CFNetwork/*",
           "properties": {
             "Version": "1.5",
             "MajorVer": "1",
@@ -70,7 +70,7 @@
           ]
         },
         {
-          "match": "Cooliris* CFNetwork\/*",
+          "match": "Cooliris* CFNetwork/*",
           "platforms": [
             "Darwin"
           ]

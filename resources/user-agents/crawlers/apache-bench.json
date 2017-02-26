@@ -19,7 +19,7 @@
       },
       "children": [
         {
-          "match": "ApacheBench\/*"
+          "match": "ApacheBench/*"
         }
       ]
     }

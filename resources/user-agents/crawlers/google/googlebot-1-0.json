@@ -24,10 +24,10 @@
       },
       "children": [
         {
-          "match": "GoogleBot\/#MAJORVER#.#MINORVER#*"
+          "match": "GoogleBot/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "*Googlebot\/#MAJORVER#.#MINORVER#*"
+          "match": "*Googlebot/#MAJORVER#.#MINORVER#*"
         }
       ]
     }

@@ -26,7 +26,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (compatible; Google Desktop\/5.9*)",
+          "match": "Mozilla/5.0 (compatible; Google Desktop/5.9*)",
           "properties": {
             "Version": "5.9",
             "MajorVer": "5",
@@ -34,10 +34,10 @@
           }
         },
         {
-          "match": "Mozilla\/?.0 (compatible; Google Desktop*)"
+          "match": "Mozilla/?.0 (compatible; Google Desktop*)"
         },
         {
-          "match": "Mozilla\/5.0 (*Google Desktop*)"
+          "match": "Mozilla/5.0 (*Google Desktop*)"
         }
       ]
     }

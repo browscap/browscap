@@ -24,7 +24,7 @@
       },
       "children": [
         {
-          "match": "IAC-S858\/20040326aIOL20301341\/WAP2.0 *"
+          "match": "IAC-S858/20040326aIOL20301341/WAP2.0 *"
         }
       ]
     }

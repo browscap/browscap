@@ -31,13 +31,13 @@
       },
       "children": [
         {
-          "match": "Mozilla\/4.0 (compatible; MSIE #MAJORVER#.#MINORVER#*; #PLATFORM#",
+          "match": "Mozilla/4.0 (compatible; MSIE #MAJORVER#.#MINORVER#*; #PLATFORM#",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible; MSIE #MAJORVER#.#MINORVER#*; #PLATFORM#",
+          "match": "Mozilla/5.0 (compatible; MSIE #MAJORVER#.#MINORVER#*; #PLATFORM#",
           "platforms": [
             "WinCE"
           ]
@@ -70,7 +70,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/4.0 (compatible; MSIE #MAJORVER#.#MINORVER#*; #PLATFORM#",
+          "match": "Mozilla/4.0 (compatible; MSIE #MAJORVER#.#MINORVER#*; #PLATFORM#",
           "platforms": [
             "WinME_3",
             "Win2000_64", "Win2000_3", "Win2000", "WinXPa_x64", "WinXPa_64", "WinXPa_32",
@@ -82,7 +82,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible; MSIE #MAJORVER#.#MINORVER#*; #PLATFORM#",
+          "match": "Mozilla/5.0 (compatible; MSIE #MAJORVER#.#MINORVER#*; #PLATFORM#",
           "platforms": [
             "WinME_3",
             "Win2000_64", "Win2000_3", "Win2000", "WinXPa_x64", "WinXPa_64", "WinXPa_32",
@@ -94,10 +94,10 @@
           ]
         },
         {
-          "match": "Mozilla\/4.0 (*MSIE #MAJORVER#.#MINORVER#*)*"
+          "match": "Mozilla/4.0 (*MSIE #MAJORVER#.#MINORVER#*)*"
         },
         {
-          "match": "Mozilla\/5.0 (*MSIE #MAJORVER#.#MINORVER#*)*"
+          "match": "Mozilla/5.0 (*MSIE #MAJORVER#.#MINORVER#*)*"
         }
       ]
     }

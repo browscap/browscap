@@ -17,10 +17,10 @@
       },
       "children": [
         {
-          "match": "envolk?ITS?spider\/*"
+          "match": "envolk?ITS?spider/*"
         },
         {
-          "match": "envolk\/*"
+          "match": "envolk/*"
         }
       ]
     }

@@ -15,7 +15,7 @@
       },
       "children": [
         {
-          "match": "lftp\/3.2*",
+          "match": "lftp/3.2*",
           "properties": {
             "Version": "3.2",
             "MajorVer": "3",
@@ -23,7 +23,7 @@
           }
         },
         {
-          "match": "lftp\/*"
+          "match": "lftp/*"
         }
       ]
     }

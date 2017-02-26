@@ -20,17 +20,17 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko, Google Keyword Suggestion) Chrome\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML* like Gecko, Google Keyword Suggestion) Chrome/* Safari/*",
           "device": "Linux Desktop",
           "platforms": [
             "Linux_64", "Linux_32", "Linux"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible; Google Keyword Suggestion*)"
+          "match": "Mozilla/5.0 (compatible; Google Keyword Suggestion*)"
         },
         {
-          "match": "Mozilla\/5.0 (*Google Keyword Suggestion*)"
+          "match": "Mozilla/5.0 (*Google Keyword Suggestion*)"
         }
       ]
     }

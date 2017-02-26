@@ -25,14 +25,14 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (iPhone#PLATFORM#)*AppleWebKit\/*(*KHTML* like Gecko*)*Outlook-iOS-Android\/* Safari\/*",
+          "match": "Mozilla/5.0 (iPhone#PLATFORM#)*AppleWebKit/*(*KHTML* like Gecko*)*Outlook-iOS-Android/* Safari/*",
           "device": "iPhone",
           "platforms": [
             "iOS_A_9_3", "iOS_A"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/*(*KHTML* like Gecko*)*Outlook-iOS-Android\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#)*AppleWebKit/*(*KHTML* like Gecko*)*Outlook-iOS-Android/* Safari/*",
           "platforms": [
             "iOS_A_9_3", "iOS_A"
           ]

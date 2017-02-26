@@ -20,7 +20,7 @@
       },
       "children": [
         {
-          "match": "curl\/* (Linux * intel.*dlink.dsm380*; beta) boxee\/1.2*",
+          "match": "curl/* (Linux * intel.*dlink.dsm380*; beta) boxee/1.2*",
           "device": "D-Link DSM 380",
           "properties": {
             "Version": "1.2",
@@ -32,7 +32,7 @@
           ]
         },
         {
-          "match": "curl\/* (Linux * intel.*dlink.dsm*; beta) boxee\/1.*",
+          "match": "curl/* (Linux * intel.*dlink.dsm*; beta) boxee/1.*",
           "properties": {
             "Version": "1.0",
             "MajorVer": "1",
@@ -43,7 +43,7 @@
           ]
         },
         {
-          "match": "curl\/* (Linux * intel.*dlink.dsm* *; *; beta) boxee\/*",
+          "match": "curl/* (Linux * intel.*dlink.dsm* *; *; beta) boxee/*",
           "platforms": [
             "Linux"
           ]

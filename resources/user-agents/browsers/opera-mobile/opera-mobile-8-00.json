@@ -27,33 +27,33 @@
       },
       "children": [
         {
-          "match": "Mozilla\/4.0 (compatible; MSIE#PLATFORM#)*Opera?#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/4.0 (compatible; MSIE#PLATFORM#)*Opera?#MAJORVER#.#MINORVER#*",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible; MSIE#PLATFORM#)*Opera?#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (compatible; MSIE#PLATFORM#)*Opera?#MAJORVER#.#MINORVER#*",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "MOT-A1200\/* LinuxOS\/* Browser\/Opera#MAJORVER#.#MINORVER#*",
+          "match": "MOT-A1200/* LinuxOS/* Browser/Opera#MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone",
           "platforms": [
             "Maemo"
           ]
         },
         {
-          "match": "MOT-A1200r\/* LinuxOS\/* Browser\/Opera#MAJORVER#.#MINORVER#*",
+          "match": "MOT-A1200r/* LinuxOS/* Browser/Opera#MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone",
           "platforms": [
             "Maemo"
           ]
         },
         {
-          "match": "MOT-A1200eam\/* Mozilla\/4.0 (*compatible*;*MSIE 6.0; Linux; A1200eam; *) * Opera #MAJORVER#.#MINORVER#*",
+          "match": "MOT-A1200eam/* Mozilla/4.0 (*compatible*;*MSIE 6.0; Linux; A1200eam; *) * Opera #MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone",
           "platforms": [
             "SymbianOS"
@@ -63,49 +63,49 @@
           "match": "MOT-MOTOROKR E6 Opera #MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "MOT-A1200\/* Mozilla\/4.0 (*compatible*;*MSIE 6.0; Linux; Motorola A1200* Opera #MAJORVER#.#MINORVER#*",
+          "match": "MOT-A1200/* Mozilla/4.0 (*compatible*;*MSIE 6.0; Linux; Motorola A1200* Opera #MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone",
           "platforms": [
             "WinMobile"
           ]
         },
         {
-          "match": "MOT-E690\/1.0\/* Mozilla\/4.0 (*compatible*;*MSIE 6.0; Linux; Motorola E690* Opera #MAJORVER#.#MINORVER#*",
+          "match": "MOT-E690/1.0/* Mozilla/4.0 (*compatible*;*MSIE 6.0; Linux; Motorola E690* Opera #MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone",
           "platforms": [
             "WinMobile"
           ]
         },
         {
-          "match": "MOT-MOTOROKR E6\/1.0\/* Mozilla\/4.0 (*compatible*;*MSIE 6.0; Linux; MOTOROKR E6* Opera #MAJORVER#.#MINORVER#*",
+          "match": "MOT-MOTOROKR E6/1.0/* Mozilla/4.0 (*compatible*;*MSIE 6.0; Linux; MOTOROKR E6* Opera #MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone",
           "platforms": [
             "WinMobile"
           ]
         },
         {
-          "match": "MOT-RAZRV3xx\/* BER2.2 Mozilla\/4.0 (*compatible*;*MSIE 6.0*  Opera #MAJORVER#.#MINORVER#*",
+          "match": "MOT-RAZRV3xx/* BER2.2 Mozilla/4.0 (*compatible*;*MSIE 6.0*  Opera #MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone",
           "platforms": [
             "WinMobile"
           ]
         },
         {
-          "match": "MOT-RAZRV3xxv\/98.50.11R BER2.2 Mozilla\/4.0 (*compatible*;*MSIE 6.0;*  Opera #MAJORVER#.#MINORVER#*",
+          "match": "MOT-RAZRV3xxv/98.50.11R BER2.2 Mozilla/4.0 (*compatible*;*MSIE 6.0;*  Opera #MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone",
           "platforms": [
             "WinMobile"
           ]
         },
         {
-          "match": "MOT-RAZRV6\/9* BER2.2 Mozilla\/4.0 (*compatible*;*MSIE 6.0; 12093118) * Opera #MAJORVER#.#MINORVER#*",
+          "match": "MOT-RAZRV6/9* BER2.2 Mozilla/4.0 (*compatible*;*MSIE 6.0; 12093118) * Opera #MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone",
           "platforms": [
             "WinMobile"
           ]
         },
         {
-          "match": "ZTE-E700\/(2006)4.0 (*compatible*;*MSIE 6.0*ZTE-E700\/R52_G_0D.52.A1R * Opera #MAJORVER#.#MINORVER#*",
+          "match": "ZTE-E700/(2006)4.0 (*compatible*;*MSIE 6.0*ZTE-E700/R52_G_0D.52.A1R * Opera #MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone",
           "platforms": [
             "WinMobile"

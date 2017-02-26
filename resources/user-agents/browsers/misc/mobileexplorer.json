@@ -24,7 +24,7 @@
       },
       "children": [
         {
-          "match": "MobileExplorer\/3.00 (Mozilla\/1.22; compatible;*"
+          "match": "MobileExplorer/3.00 (Mozilla/1.22; compatible;*"
         }
       ]
     }

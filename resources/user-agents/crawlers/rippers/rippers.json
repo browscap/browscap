@@ -39,13 +39,13 @@
           }
         },
         {
-          "match": "3D-FTP\/*",
+          "match": "3D-FTP/*",
           "properties": {
             "Browser": "3D-FTP"
           }
         },
         {
-          "match": "3wGet\/*",
+          "match": "3wGet/*",
           "properties": {
             "Browser": "3wGet"
           }
@@ -75,13 +75,13 @@
           }
         },
         {
-          "match": "b2w\/*",
+          "match": "b2w/*",
           "properties": {
             "Browser": "b2w"
           }
         },
         {
-          "match": "BasicHTTP\/*",
+          "match": "BasicHTTP/*",
           "properties": {
             "Browser": "BasicHTTP"
           }
@@ -105,7 +105,7 @@
           }
         },
         {
-          "match": "CobWeb\/*",
+          "match": "CobWeb/*",
           "properties": {
             "Browser": "CobWeb"
           }
@@ -123,7 +123,7 @@
           }
         },
         {
-          "match": "CTerm\/*",
+          "match": "CTerm/*",
           "properties": {
             "Browser": "CTerm"
           }
@@ -135,7 +135,7 @@
           }
         },
         {
-          "match": "DataCha0s\/*",
+          "match": "DataCha0s/*",
           "properties": {
             "Browser": "DataCha0s"
           }
@@ -168,7 +168,7 @@
           }
         },
         {
-          "match": "fetch libfetch\/*",
+          "match": "fetch libfetch/*",
           "properties": {
             "Browser": "fetch libfetch"
           }
@@ -180,7 +180,7 @@
           }
         },
         {
-          "match": "findfiles.net\/* (Robot;test_robot@gmx-topmail.de)",
+          "match": "findfiles.net/* (Robot;test_robot@gmx-topmail.de)",
           "properties": {
             "Browser": "FindFiles"
           }
@@ -198,25 +198,25 @@
           }
         },
         {
-          "match": "GameSpyHTTP\/*",
+          "match": "GameSpyHTTP/*",
           "properties": {
             "Browser": "GameSpyHTTP"
           }
         },
         {
-          "match": "gnome-vfs\/*",
+          "match": "gnome-vfs/*",
           "properties": {
             "Browser": "gnome-vfs"
           }
         },
         {
-          "match": "Harvest\/*",
+          "match": "Harvest/*",
           "properties": {
             "Browser": "Harvest"
           }
         },
         {
-          "match": "hcat\/*",
+          "match": "hcat/*",
           "properties": {
             "Browser": "hcat"
           }
@@ -228,7 +228,7 @@
           }
         },
         {
-          "match": "Holmes\/*",
+          "match": "Holmes/*",
           "properties": {
             "Browser": "Holmes"
           }
@@ -240,13 +240,13 @@
           }
         },
         {
-          "match": "http:\/\/arachnode.net*",
+          "match": "http://arachnode.net*",
           "properties": {
             "Browser": "arachnode"
           }
         },
         {
-          "match": "httpclient\/1.0*",
+          "match": "httpclient/1.0*",
           "properties": {
             "Browser": "httpclient",
             "Version": "1.0",
@@ -267,13 +267,13 @@
           }
         },
         {
-          "match": "httperf\/*",
+          "match": "httperf/*",
           "properties": {
             "Browser": "httperf"
           }
         },
         {
-          "match": "HTTPFetch\/*",
+          "match": "HTTPFetch/*",
           "properties": {
             "Browser": "HTTPFetch"
           }
@@ -291,7 +291,7 @@
           }
         },
         {
-          "match": "httpunit\/*",
+          "match": "httpunit/*",
           "properties": {
             "Browser": "HttpUnit"
           }
@@ -315,19 +315,19 @@
           }
         },
         {
-          "match": "INetURL\/*",
+          "match": "INetURL/*",
           "properties": {
             "Browser": "INetURL"
           }
         },
         {
-          "match": "InetURL:\/*",
+          "match": "InetURL:/*",
           "properties": {
             "Browser": "InetURL"
           }
         },
         {
-          "match": "Internet Exploiter\/*",
+          "match": "Internet Exploiter/*",
           "properties": {
             "Browser": "Internet Exploiter"
           }
@@ -342,25 +342,25 @@
           ]
         },
         {
-          "match": "IP*Works!*\/*",
+          "match": "IP*Works!*/*",
           "properties": {
             "Browser": "IP*Works!"
           }
         },
         {
-          "match": "IrssiUrlLog\/*",
+          "match": "IrssiUrlLog/*",
           "properties": {
             "Browser": "IrssiUrlLog"
           }
         },
         {
-          "match": "JPluck\/*",
+          "match": "JPluck/*",
           "properties": {
             "Browser": "JPluck"
           }
         },
         {
-          "match": "Kapere (http:\/\/www.kapere.com)",
+          "match": "Kapere (http://www.kapere.com)",
           "properties": {
             "Browser": "Kapere"
           }
@@ -378,9 +378,9 @@
           }
         },
         {
-          "match": "libWeb\/clsHTTP*",
+          "match": "libWeb/clsHTTP*",
           "properties": {
-            "Browser": "libWeb\/clsHTTP"
+            "Browser": "libWeb/clsHTTP"
           }
         },
         {
@@ -396,13 +396,13 @@
           }
         },
         {
-          "match": "MovableType\/*",
+          "match": "MovableType/*",
           "properties": {
             "Browser": "MovableType Web Log"
           }
         },
         {
-          "match": "Mozilla\/* (compatible; OffByOne; Windows*) Webster Pro V3.*",
+          "match": "Mozilla/* (compatible; OffByOne; Windows*) Webster Pro V3.*",
           "properties": {
             "Browser": "OffByOne",
             "Version": "3.0",
@@ -411,7 +411,7 @@
           }
         },
         {
-          "match": "Mozilla\/2.0 (compatible; NEWT ActiveX; Win32)",
+          "match": "Mozilla/2.0 (compatible; NEWT ActiveX; Win32)",
           "properties": {
             "Browser": "NEWT ActiveX"
           },
@@ -420,26 +420,26 @@
           ]
         },
         {
-          "match": "Mozilla\/3.0 (compatible; Indy Library)",
+          "match": "Mozilla/3.0 (compatible; Indy Library)",
           "properties": {
             "Cookies": "true"
           }
         },
         {
-          "match": "Mozilla\/4.0 (compatible; BorderManager*)",
+          "match": "Mozilla/4.0 (compatible; BorderManager*)",
           "properties": {
             "Browser": "Novell BorderManager",
             "Browser_Maker": "Novell"
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; IPCheck Server Monitor*)",
+          "match": "Mozilla/5.0 (compatible; IPCheck Server Monitor*)",
           "properties": {
             "Browser": "IPCheck Server Monitor"
           }
         },
         {
-          "match": "OCN-SOC\/*",
+          "match": "OCN-SOC/*",
           "properties": {
             "Browser": "OCN-SOC"
           }
@@ -463,13 +463,13 @@
           }
         },
         {
-          "match": "PageNest\/*",
+          "match": "PageNest/*",
           "properties": {
             "Browser": "PageNest"
           }
         },
         {
-          "match": "pavuk\/*",
+          "match": "pavuk/*",
           "properties": {
             "Browser": "Pavuk"
           }
@@ -496,13 +496,13 @@
           }
         },
         {
-          "match": "POE-Component-Client-HTTP\/*",
+          "match": "POE-Component-Client-HTTP/*",
           "properties": {
             "Browser": "POE-Component-Client-HTTP"
           }
         },
         {
-          "match": "PycURL\/*",
+          "match": "PycURL/*",
           "properties": {
             "Browser": "PycURL"
           }
@@ -526,13 +526,13 @@
           }
         },
         {
-          "match": "sherlock\/*",
+          "match": "sherlock/*",
           "properties": {
             "Browser": "Sherlock"
           }
         },
         {
-          "match": "SiteParser\/*",
+          "match": "SiteParser/*",
           "properties": {
             "Browser": "SiteParser"
           }
@@ -544,7 +544,7 @@
           }
         },
         {
-          "match": "SiteSucker\/*",
+          "match": "SiteSucker/*",
           "properties": {
             "Browser": "SiteSucker"
           }
@@ -568,7 +568,7 @@
           }
         },
         {
-          "match": "SuperHTTP\/*",
+          "match": "SuperHTTP/*",
           "properties": {
             "Browser": "SuperHTTP"
           }
@@ -586,7 +586,7 @@
           }
         },
         {
-          "match": "URL2File\/*",
+          "match": "URL2File/*",
           "properties": {
             "Browser": "URL2File"
           }
@@ -610,7 +610,7 @@
           }
         },
         {
-          "match": "Web Downloader\/*",
+          "match": "Web Downloader/*",
           "properties": {
             "Browser": "Web Downloader"
           }
@@ -622,13 +622,13 @@
           }
         },
         {
-          "match": "WebAuto\/*",
+          "match": "WebAuto/*",
           "properties": {
             "Browser": "WebAuto"
           }
         },
         {
-          "match": "webbandit\/*",
+          "match": "webbandit/*",
           "properties": {
             "Browser": "webbandit"
           }
@@ -652,7 +652,7 @@
           }
         },
         {
-          "match": "webfetch\/*",
+          "match": "webfetch/*",
           "properties": {
             "Browser": "WebFetch"
           }
@@ -742,13 +742,13 @@
           }
         },
         {
-          "match": "WWW-Mechanize\/*",
+          "match": "WWW-Mechanize/*",
           "properties": {
             "Browser": "WWW-Mechanize"
           }
         },
         {
-          "match": "Mechanize\/*",
+          "match": "Mechanize/*",
           "properties": {
             "Browser": "Mechanize"
           }
@@ -838,19 +838,19 @@
           }
         },
         {
-          "match": "BookMacster\/*",
+          "match": "BookMacster/*",
           "properties": {
             "Browser": "BookMacster"
           }
         },
         {
-          "match": "BookmarkSync\/*",
+          "match": "BookmarkSync/*",
           "properties": {
             "Browser": "BookmarkSync"
           }
         },
         {
-          "match": "Bot.ara.com.tr\/*",
+          "match": "Bot.ara.com.tr/*",
           "properties": {
             "Browser": "Bot.ara.com.tr"
           }
@@ -874,7 +874,7 @@
           }
         },
         {
-          "match": "Crawllybot\/0.1*",
+          "match": "Crawllybot/0.1*",
           "properties": {
             "Browser": "Crawllybot",
             "Version": "0.1",
@@ -895,7 +895,7 @@
           }
         },
         {
-          "match": "Dropcatcher.de Domain Bot +http:\/\/www.dropcatcher.de\/bot.html",
+          "match": "Dropcatcher.de Domain Bot +http://www.dropcatcher.de/bot.html",
           "properties": {
             "Browser": "Dropcatcher.de Domain Bot"
           }
@@ -913,7 +913,7 @@
           }
         },
         {
-          "match": "HTTP Fetcher\/*",
+          "match": "HTTP Fetcher/*",
           "properties": {
             "Browser": "HTTP Fetcher"
           }
@@ -931,7 +931,7 @@
           }
         },
         {
-          "match": "Echoping\/6.0*",
+          "match": "Echoping/6.0*",
           "properties": {
             "Browser": "Echoping",
             "Browser_Maker": "Stephane Bortzmeyer",
@@ -948,13 +948,13 @@
           }
         },
         {
-          "match": "Mozilla\/2.0 (compatible; NEWT ActiveX; *)",
+          "match": "Mozilla/2.0 (compatible; NEWT ActiveX; *)",
           "properties": {
             "Browser": "NEWT ActiveX"
           }
         },
         {
-          "match": "Mozilla\/* (compatible; OffByOne; *",
+          "match": "Mozilla/* (compatible; OffByOne; *",
           "properties": {
             "Browser": "OffByOne"
           }
@@ -969,31 +969,31 @@
           "match": "Internet (*)"
         },
         {
-          "match": "Mozilla\/3.0 (compatible)"
+          "match": "Mozilla/3.0 (compatible)"
         },
         {
-          "match": "Mozilla\/3.01 (compatible;)"
+          "match": "Mozilla/3.01 (compatible;)"
         },
         {
-          "match": "Mozilla\/4.0 (compatible)"
+          "match": "Mozilla/4.0 (compatible)"
         },
         {
-          "match": "Mozilla\/4.0 (compatible;)"
+          "match": "Mozilla/4.0 (compatible;)"
         },
         {
-          "match": "Mozilla\/5.0 (compatible)"
+          "match": "Mozilla/5.0 (compatible)"
         },
         {
-          "match": "Mozilla\/5.0 (compatible;)"
+          "match": "Mozilla/5.0 (compatible;)"
         },
         {
-          "match": "Mozilla\/6.0 (compatible)"
+          "match": "Mozilla/6.0 (compatible)"
         },
         {
-          "match": "Mozilla\/6.0 (compatible;)"
+          "match": "Mozilla/6.0 (compatible;)"
         },
         {
-          "match": "Mozilla\/?.0 (compatible;*User-agent*)"
+          "match": "Mozilla/?.0 (compatible;*User-agent*)"
         },
         {
           "match": "Shockwave Flash",
@@ -1008,13 +1008,13 @@
           }
         },
         {
-          "match": "SVN\/*",
+          "match": "SVN/*",
           "properties": {
             "Browser": "SVN"
           }
         },
         {
-          "match": "TLSProber\/*",
+          "match": "TLSProber/*",
           "properties": {
             "Browser": "TLSProber"
           }
@@ -1032,7 +1032,7 @@
           }
         },
         {
-          "match": "Dolphin http client\/10.*",
+          "match": "Dolphin http client/10.*",
           "properties": {
             "Browser": "Dolphin smalltalk http client",
             "Browser_Maker": "Steve Waring",
@@ -1042,7 +1042,7 @@
           }
         },
         {
-          "match": "Dolphin http client\/*",
+          "match": "Dolphin http client/*",
           "properties": {
             "Browser": "Dolphin smalltalk http client",
             "Browser_Maker": "Steve Waring"
@@ -1061,7 +1061,7 @@
           }
         },
         {
-          "match": "RPT-HTTPClient\/*",
+          "match": "RPT-HTTPClient/*",
           "properties": {
             "Browser": "RPT-HTTPClient"
           }
@@ -1074,7 +1074,7 @@
           }
         },
         {
-          "match": "node-superagent\/1.4*",
+          "match": "node-superagent/1.4*",
           "properties": {
             "Browser": "superagent",
             "Browser_Maker": "visionmedia",
@@ -1084,14 +1084,14 @@
           }
         },
         {
-          "match": "node-superagent\/*",
+          "match": "node-superagent/*",
           "properties": {
             "Browser": "superagent",
             "Browser_Maker": "visionmedia"
           }
         },
         {
-          "match": "Goose\/1.0*",
+          "match": "Goose/1.0*",
           "properties": {
             "Browser": "goose-extractor",
             "Browser_Maker": "Xavier Grangier",
@@ -1101,14 +1101,14 @@
           }
         },
         {
-          "match": "Goose\/*",
+          "match": "Goose/*",
           "properties": {
             "Browser": "goose-extractor",
             "Browser_Maker": "Xavier Grangier"
           }
         },
         {
-          "match": "AHC\/1.0*",
+          "match": "AHC/1.0*",
           "properties": {
             "Browser": "Asynchronous HTTP Client",
             "Browser_Maker": "Jeanfrancois Arcand",
@@ -1118,14 +1118,14 @@
           }
         },
         {
-          "match": "AHC\/*",
+          "match": "AHC/*",
           "properties": {
             "Browser": "Asynchronous HTTP Client",
             "Browser_Maker": "Jeanfrancois Arcand"
           }
         },
         {
-          "match": "newspaper\/0.0*",
+          "match": "newspaper/0.0*",
           "properties": {
             "Browser": "newspaper",
             "Browser_Maker": "Lucas Ou-Yang",
@@ -1135,7 +1135,7 @@
           }
         },
         {
-          "match": "newspaper\/*",
+          "match": "newspaper/*",
           "properties": {
             "Browser": "newspaper",
             "Browser_Maker": "Lucas Ou-Yang"
@@ -1149,7 +1149,7 @@
           }
         },
         {
-          "match": "Dispatch\/0.11*",
+          "match": "Dispatch/0.11*",
           "properties": {
             "Browser": "Dispatch",
             "Version": "0.11",
@@ -1158,13 +1158,13 @@
           }
         },
         {
-          "match": "Dispatch\/*",
+          "match": "Dispatch/*",
           "properties": {
             "Browser": "Dispatch"
           }
         },
         {
-          "match": "http-kit\/2.0*",
+          "match": "http-kit/2.0*",
           "properties": {
             "Browser": "HTTP Kit",
             "Browser_Maker": "Feng Shen",
@@ -1174,14 +1174,14 @@
           }
         },
         {
-          "match": "http-kit\/*",
+          "match": "http-kit/*",
           "properties": {
             "Browser": "HTTP Kit",
             "Browser_Maker": "Feng Shen"
           }
         },
         {
-          "match": "node-fetch\/1.0*",
+          "match": "node-fetch/1.0*",
           "properties": {
             "Browser": "node-fetch",
             "Browser_Maker": "David Frank",
@@ -1191,7 +1191,7 @@
           }
         },
         {
-          "match": "node-fetch\/*",
+          "match": "node-fetch/*",
           "properties": {
             "Browser": "node-fetch",
             "Browser_Maker": "David Frank"
@@ -1215,7 +1215,7 @@
           }
         },
         {
-          "match": "Ruby\/Curb*",
+          "match": "Ruby/Curb*",
           "properties": {
             "Browser": "Curb",
             "Browser_Maker": "Ross Bamford"
@@ -1244,7 +1244,7 @@
           }
         },
         {
-          "match": "raynette_httprequest\/1.0*",
+          "match": "raynette_httprequest/1.0*",
           "properties": {
             "Browser": "HTTP Request",
             "Browser_Maker": "Raynette",
@@ -1254,14 +1254,14 @@
           }
         },
         {
-          "match": "raynette_httprequest\/*",
+          "match": "raynette_httprequest/*",
           "properties": {
             "Browser": "HTTP Request",
             "Browser_Maker": "Raynette"
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; ProspectB2B\/2.0*",
+          "match": "Mozilla/5.0 (compatible; ProspectB2B/2.0*",
           "properties": {
             "Browser": "ProspectB2B Bot",
             "Version": "2.0",
@@ -1270,7 +1270,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; ProspectB2B\/*",
+          "match": "Mozilla/5.0 (compatible; ProspectB2B/*",
           "properties": {
             "Browser": "ProspectB2B Bot"
           }
@@ -1295,7 +1295,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; U; Pcore-HTTP-UA\/v0.12*",
+          "match": "Mozilla/5.0 (compatible; U; Pcore-HTTP-UA/v0.12*",
           "properties": {
             "Browser": "Pcore::HTTP::UA",
             "Version": "0.12",
@@ -1304,13 +1304,13 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; U; Pcore-HTTP-UA\/*",
+          "match": "Mozilla/5.0 (compatible; U; Pcore-HTTP-UA/*",
           "properties": {
             "Browser": "Pcore::HTTP::UA"
           }
         },
         {
-          "match": "WebClient\/1.0*",
+          "match": "WebClient/1.0*",
           "properties": {
             "Browser": "WebClient",
             "Version": "1.0",
@@ -1319,7 +1319,7 @@
           }
         },
         {
-          "match": "WebClient\/*",
+          "match": "WebClient/*",
           "properties": {
             "Browser": "WebClient"
           }
@@ -1340,7 +1340,7 @@
           }
         },
         {
-          "match": "SoftMaker Fetch\/1.0*",
+          "match": "SoftMaker Fetch/1.0*",
           "properties": {
             "Browser": "SoftMaker Fetch",
             "Version": "1.0",
@@ -1349,7 +1349,7 @@
           }
         },
         {
-          "match": "SoftMaker Fetch\/*",
+          "match": "SoftMaker Fetch/*",
           "properties": {
             "Browser": "SoftMaker Fetch"
           }

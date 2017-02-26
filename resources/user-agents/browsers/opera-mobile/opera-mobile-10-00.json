@@ -27,7 +27,7 @@
       },
       "children": [
         {
-          "match": "Opera\/9.80*(#PLATFORM#Opera Mobi*)*Version\/#MAJORVER#.#MINORVER#*",
+          "match": "Opera/9.80*(#PLATFORM#Opera Mobi*)*Version/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "AndroidLinux",
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android",
@@ -36,7 +36,7 @@
           ]
         },
         {
-          "match": "Opera\/9.80*(#PLATFORM#Opera Tablet*)*Version\/#MAJORVER#.#MINORVER#*",
+          "match": "Opera/9.80*(#PLATFORM#Opera Tablet*)*Version/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "AndroidLinux",
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android",
@@ -45,58 +45,58 @@
           ]
         },
         {
-          "match": "Mozilla\/4.0 (#PLATFORM#Opera Mobi*)*Version\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/4.0 (#PLATFORM#Opera Mobi*)*Version/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "WinMobile"
           ]
         },
         {
-          "match": "Browser\/Opera Opera\/*(MTK*)*Version\/#MAJORVER#.#MINORVER#*",
+          "match": "Browser/Opera Opera/*(MTK*)*Version/#MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone (Touch)",
           "platforms": [
             "Android"
           ]
         },
         {
-          "match": "MicromaxX650 ASTRO36_TD\/* MAUI\/* Release\/* Browser\/Opera *\/MIDP* Opera\/9.80 (*) Presto\/* Version\/#MAJORVER#.#MINORVER#*",
+          "match": "MicromaxX650 ASTRO36_TD/* MAUI/* Release/* Browser/Opera */MIDP* Opera/9.80 (*) Presto/* Version/#MAJORVER#.#MINORVER#*",
           "device": "Micromax X650",
           "platforms": [
             "JAVA"
           ]
         },
         {
-          "match": "*Opera\/*(MTK*)*Version\/#MAJORVER#.#MINORVER#*",
+          "match": "*Opera/*(MTK*)*Version/#MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone (Touch)",
           "platforms": [
             "Android"
           ]
         },
         {
-          "match": "HTC_Touch_HD2_T8282 Opera\/#MAJORVER#.#MINORVER#*"
+          "match": "HTC_Touch_HD2_T8282 Opera/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "HTC_Touch_HD2_T8585 Opera\/#MAJORVER#.#MINORVER#*",
+          "match": "HTC_Touch_HD2_T8585 Opera/#MAJORVER#.#MINORVER#*",
           "device": "HTC Touch HD2 T8585"
         },
         {
-          "match": "HTC_Touch_HD_T8282 Opera\/#MAJORVER#.#MINORVER#*",
+          "match": "HTC_Touch_HD_T8282 Opera/#MAJORVER#.#MINORVER#*",
           "device": "HTC Touch HD T8282"
         },
         {
-          "match": "Huawei\/*\/HUAWEI-G7300 Browser\/Opera *Profile\/MIDP* Opera\/*(MTK*)*Version\/#MAJORVER#.#MINORVER#*",
+          "match": "Huawei/*/HUAWEI-G7300 Browser/Opera *Profile/MIDP* Opera/*(MTK*)*Version/#MAJORVER#.#MINORVER#*",
           "device": "Huawei G7300",
           "platforms": [
             "Android"
           ]
         },
         {
-          "match": "ASTRO36_TD\/* Browser\/Opera *Profile\/MIDP* Opera\/*(MTK*)*Version\/#MAJORVER#.#MINORVER#*",
+          "match": "ASTRO36_TD/* Browser/Opera *Profile/MIDP* Opera/*(MTK*)*Version/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "Android"
           ]
         },
         {
-          "match": "* Browser\/Opera *Profile\/MIDP* Opera\/*(MTK*)*Version\/#MAJORVER#.#MINORVER#*",
+          "match": "* Browser/Opera *Profile/MIDP* Opera/*(MTK*)*Version/#MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone (Touch)",
           "platforms": [
             "Android"

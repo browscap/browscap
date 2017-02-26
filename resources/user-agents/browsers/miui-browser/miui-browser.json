@@ -28,28 +28,28 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Prestigio PAP5000TDUO Build\/*) AppleWebKit\/* (KHTML* like Gecko) Version\/*Safari\/* XiaoMi\/MiuiBrowser\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#Prestigio PAP5000TDUO Build/*) AppleWebKit/* (KHTML* like Gecko) Version/*Safari/* XiaoMi/MiuiBrowser/#MAJORVER#.#MINORVER#*",
           "device": "Prestigio PAP5000TDUO",
           "platforms": [
             "Android_4_2"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#HM NOTE 1LTEW Build\/*) AppleWebKit\/* (KHTML* like Gecko) Version\/*Safari\/* XiaoMi\/MiuiBrowser\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#HM NOTE 1LTEW Build/*) AppleWebKit/* (KHTML* like Gecko) Version/*Safari/* XiaoMi/MiuiBrowser/#MAJORVER#.#MINORVER#*",
           "device": "Xiaomi HM NOTE 1LTEEW",
           "platforms": [
             "Android_4_4"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#MI 2S Build\/*) AppleWebKit\/* (KHTML* like Gecko) Version\/*Safari\/* XiaoMi\/MiuiBrowser\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#MI 2S Build/*) AppleWebKit/* (KHTML* like Gecko) Version/*Safari/* XiaoMi/MiuiBrowser/#MAJORVER#.#MINORVER#*",
           "device": "Xiaomi MI 2S",
           "platforms": [
             "Android_4_4"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM# Build\/*) AppleWebKit\/* (KHTML* like Gecko) Version\/*Safari\/* XiaoMi\/MiuiBrowser\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM# Build/*) AppleWebKit/* (KHTML* like Gecko) Version/*Safari/* XiaoMi/MiuiBrowser/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "Android_4_2", "Android_4_3", "Android_4_4", "Android_5_0", "Android"
           ]

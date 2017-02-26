@@ -31,7 +31,7 @@
       },
       "children": [
         {
-          "match": "Rocky ChatWork Mobile\/#MAJORVER#.#MINORVER##PLATFORM# (iPhone App iPhone*",
+          "match": "Rocky ChatWork Mobile/#MAJORVER#.#MINORVER##PLATFORM# (iPhone App iPhone*",
           "device": "iPhone",
           "platforms": [
             "iOS_L_7_0", "iOS_L_7_1", "iOS_L_8_0", "iOS_L_8_1",
@@ -39,7 +39,7 @@
           ]
         },
         {
-          "match": "Rocky ChatWork Mobile\/#MAJORVER#.#MINORVER##PLATFORM# (iPhone App*",
+          "match": "Rocky ChatWork Mobile/#MAJORVER#.#MINORVER##PLATFORM# (iPhone App*",
           "platforms": [
             "iOS_L_7_0", "iOS_L_7_1", "iOS_L_8_0", "iOS_L_8_1",
             "iOS_L"

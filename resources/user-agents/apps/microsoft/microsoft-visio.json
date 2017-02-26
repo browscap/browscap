@@ -37,7 +37,7 @@
           ]
         },
         {
-          "match": "Microsoft Office\/15.* (#PLATFORM#Microsoft Visio 15.*)",
+          "match": "Microsoft Office/15.* (#PLATFORM#Microsoft Visio 15.*)",
           "device": "Windows Desktop",
           "properties": {
             "Version": "2013",

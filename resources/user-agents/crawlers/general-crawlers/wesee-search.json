@@ -16,7 +16,7 @@
       },
       "children": [
         {
-          "match": "WeSEE:Search\/0.1 (Alpha*",
+          "match": "WeSEE:Search/0.1 (Alpha*",
           "properties": {
             "Version": "0.1",
             "MajorVer": "0",
@@ -25,7 +25,7 @@
           }
         },
         {
-          "match": "WeSEE:Search\/*"
+          "match": "WeSEE:Search/*"
         }
       ]
     }

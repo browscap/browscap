@@ -28,13 +28,13 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko, Safari\/*) *OmniWeb\/v622.3.*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML* like Gecko, Safari/*) *OmniWeb/v622.3.*",
           "platforms": [
             "OSX"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko, Safari\/*) *OmniWeb\/v622.3.*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML* like Gecko, Safari/*) *OmniWeb/v622.3.*",
           "platforms": [
             "OSX"
           ]

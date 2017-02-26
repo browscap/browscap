@@ -16,7 +16,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (compatible; sReleaseBot\/6.1*",
+          "match": "Mozilla/5.0 (compatible; sReleaseBot/6.1*",
           "properties": {
             "Version": "6.1",
             "MajorVer": "6",
@@ -24,7 +24,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; sReleaseBot\/*"
+          "match": "Mozilla/5.0 (compatible; sReleaseBot/*"
         }
       ]
     }

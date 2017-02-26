@@ -18,7 +18,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (compatible*; heritrix\/3.3*",
+          "match": "Mozilla/5.0 (compatible*; heritrix/3.3*",
           "properties": {
             "Version": "3.3",
             "MajorVer": "3",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible*; heritrix\/3.2*",
+          "match": "Mozilla/5.0 (compatible*; heritrix/3.2*",
           "properties": {
             "Version": "3.2",
             "MajorVer": "3",
@@ -34,13 +34,13 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible*; heritrix\/*"
+          "match": "Mozilla/5.0 (compatible*; heritrix/*"
         },
         {
           "match": "*heritrix*"
         },
         {
-          "match": "bl.uk_lddc_bot\/3.3*",
+          "match": "bl.uk_lddc_bot/3.3*",
           "properties": {
             "Browser": "bl.uk_lddc_bot",
             "Browser_Maker": "The British Legal Deposit Libraries",
@@ -50,14 +50,14 @@
           }
         },
         {
-          "match": "bl.uk_lddc_bot\/*",
+          "match": "bl.uk_lddc_bot/*",
           "properties": {
             "Browser": "bl.uk_lddc_bot",
             "Browser_Maker": "The British Legal Deposit Libraries"
           }
         },
         {
-          "match": "Mozilla\/5.0 (bl.uk_lddc_bot; #PLATFORM#)*",
+          "match": "Mozilla/5.0 (bl.uk_lddc_bot; #PLATFORM#)*",
           "device": "Linux Desktop",
           "properties": {
             "Browser": "bl.uk_lddc_bot",
@@ -68,7 +68,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible; bnf.fr_bot;*",
+          "match": "Mozilla/5.0 (compatible; bnf.fr_bot;*",
           "properties": {
             "Browser": "bnf.fr Bot",
             "Browser_Maker": "Bibliotheque nationale de France"

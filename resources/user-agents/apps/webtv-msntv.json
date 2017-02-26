@@ -1,5 +1,5 @@
 {
-  "division": "WebTV\/MSNTV",
+  "division": "WebTV/MSNTV",
   "sortIndex": 2200,
   "lite": false,
   "standard": true,
@@ -10,8 +10,8 @@
       "device": "WebTV",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "WebTV\/MSNTV",
-        "Browser": "WebTV\/MSNTV",
+        "Comment": "WebTV/MSNTV",
+        "Browser": "WebTV/MSNTV",
         "Browser_Type": "Application",
         "Frames": "true",
         "IFrames": "true",
@@ -20,7 +20,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/3.0 WebTV\/1.*(compatible; MSIE 2.0)",
+          "match": "Mozilla/3.0 WebTV/1.*(compatible; MSIE 2.0)",
           "properties": {
             "Version": "1.0",
             "MajorVer": "1",
@@ -28,7 +28,7 @@
           }
         },
         {
-          "match": "Mozilla\/4.0 WebTV\/2.0*(compatible; MSIE 3.0)",
+          "match": "Mozilla/4.0 WebTV/2.0*(compatible; MSIE 3.0)",
           "properties": {
             "Version": "2.0",
             "MajorVer": "2",
@@ -36,7 +36,7 @@
           }
         },
         {
-          "match": "Mozilla\/4.0 WebTV\/2.1*(compatible; MSIE 3.0)",
+          "match": "Mozilla/4.0 WebTV/2.1*(compatible; MSIE 3.0)",
           "properties": {
             "Version": "2.1",
             "MajorVer": "2",
@@ -44,7 +44,7 @@
           }
         },
         {
-          "match": "Mozilla\/4.0 WebTV\/2.2*(compatible; MSIE 3.0)",
+          "match": "Mozilla/4.0 WebTV/2.2*(compatible; MSIE 3.0)",
           "properties": {
             "Version": "2.2",
             "MajorVer": "2",
@@ -52,7 +52,7 @@
           }
         },
         {
-          "match": "Mozilla\/4.0 WebTV\/2.3*(compatible; MSIE 3.0)",
+          "match": "Mozilla/4.0 WebTV/2.3*(compatible; MSIE 3.0)",
           "properties": {
             "Version": "2.3",
             "MajorVer": "2",
@@ -60,7 +60,7 @@
           }
         },
         {
-          "match": "Mozilla\/4.0 WebTV\/2.4*(compatible; MSIE 3.0)",
+          "match": "Mozilla/4.0 WebTV/2.4*(compatible; MSIE 3.0)",
           "properties": {
             "Version": "2.4",
             "MajorVer": "2",
@@ -68,7 +68,7 @@
           }
         },
         {
-          "match": "Mozilla\/4.0 WebTV\/2.5*(compatible; MSIE 4.0)",
+          "match": "Mozilla/4.0 WebTV/2.5*(compatible; MSIE 4.0)",
           "properties": {
             "Version": "2.5",
             "MajorVer": "2",
@@ -77,7 +77,7 @@
           }
         },
         {
-          "match": "Mozilla\/4.0 WebTV\/2.6*(compatible; MSIE 4.0)",
+          "match": "Mozilla/4.0 WebTV/2.6*(compatible; MSIE 4.0)",
           "properties": {
             "Version": "2.6",
             "MajorVer": "2",
@@ -86,7 +86,7 @@
           }
         },
         {
-          "match": "Mozilla\/4.0 WebTV\/2.7*(compatible; MSIE 4.0)",
+          "match": "Mozilla/4.0 WebTV/2.7*(compatible; MSIE 4.0)",
           "properties": {
             "Version": "2.7",
             "MajorVer": "2",
@@ -95,7 +95,7 @@
           }
         },
         {
-          "match": "Mozilla\/4.0 WebTV\/2.8*(compatible; MSIE 4.0)",
+          "match": "Mozilla/4.0 WebTV/2.8*(compatible; MSIE 4.0)",
           "properties": {
             "Version": "2.8",
             "MajorVer": "2",
@@ -104,7 +104,7 @@
           }
         },
         {
-          "match": "Mozilla\/4.0 WebTV\/2.9*(compatible; MSIE 4.0)",
+          "match": "Mozilla/4.0 WebTV/2.9*(compatible; MSIE 4.0)",
           "properties": {
             "Version": "2.9",
             "MajorVer": "2",
@@ -113,7 +113,7 @@
           }
         },
         {
-          "match": "Mozilla\/3.01 (compatible; Netgem\/*; Linux 2.2)",
+          "match": "Mozilla/3.01 (compatible; Netgem/*; Linux 2.2)",
           "properties": {
             "Browser": "Netgem Set Top Box"
           },
@@ -123,21 +123,21 @@
           ]
         },
         {
-          "match": "Mozilla\/3.0 WebTV\/1.*(compatible*; MSIE 2.0)",
+          "match": "Mozilla/3.0 WebTV/1.*(compatible*; MSIE 2.0)",
           "properties": {
             "Version": "1.0",
             "MajorVer": "1"
           }
         },
         {
-          "match": "Mozilla\/4.0 WebTV\/2.0*(compatible*; MSIE 3.0)",
+          "match": "Mozilla/4.0 WebTV/2.0*(compatible*; MSIE 3.0)",
           "properties": {
             "Version": "2.0",
             "MajorVer": "2"
           }
         },
         {
-          "match": "Mozilla\/4.0 WebTV\/2.1*(compatible*; MSIE 3.0)",
+          "match": "Mozilla/4.0 WebTV/2.1*(compatible*; MSIE 3.0)",
           "properties": {
             "Version": "2.1",
             "MajorVer": "2",
@@ -145,7 +145,7 @@
           }
         },
         {
-          "match": "Mozilla\/4.0 WebTV\/2.2*(compatible*; MSIE 3.0)",
+          "match": "Mozilla/4.0 WebTV/2.2*(compatible*; MSIE 3.0)",
           "properties": {
             "Version": "2.2",
             "MajorVer": "2",
@@ -153,7 +153,7 @@
           }
         },
         {
-          "match": "Mozilla\/4.0 WebTV\/2.3*(compatible*; MSIE 3.0)",
+          "match": "Mozilla/4.0 WebTV/2.3*(compatible*; MSIE 3.0)",
           "properties": {
             "Version": "2.3",
             "MajorVer": "2",
@@ -161,7 +161,7 @@
           }
         },
         {
-          "match": "Mozilla\/4.0 WebTV\/2.4*(compatible*; MSIE 3.0)",
+          "match": "Mozilla/4.0 WebTV/2.4*(compatible*; MSIE 3.0)",
           "properties": {
             "Version": "2.4",
             "MajorVer": "2",
@@ -169,7 +169,7 @@
           }
         },
         {
-          "match": "Mozilla\/4.0 WebTV\/2.5*(compatible*; MSIE 4.0)",
+          "match": "Mozilla/4.0 WebTV/2.5*(compatible*; MSIE 4.0)",
           "properties": {
             "Version": "2.5",
             "MajorVer": "2",
@@ -178,7 +178,7 @@
           }
         },
         {
-          "match": "Mozilla\/4.0 WebTV\/2.6*(compatible*; MSIE 4.0)",
+          "match": "Mozilla/4.0 WebTV/2.6*(compatible*; MSIE 4.0)",
           "properties": {
             "Version": "2.6",
             "MajorVer": "2",
@@ -187,7 +187,7 @@
           }
         },
         {
-          "match": "Mozilla\/4.0 WebTV\/2.7*(compatible*; MSIE 4.0)",
+          "match": "Mozilla/4.0 WebTV/2.7*(compatible*; MSIE 4.0)",
           "properties": {
             "Version": "2.7",
             "MajorVer": "2",
@@ -196,7 +196,7 @@
           }
         },
         {
-          "match": "Mozilla\/4.0 WebTV\/2.8*(compatible*; MSIE 4.0)",
+          "match": "Mozilla/4.0 WebTV/2.8*(compatible*; MSIE 4.0)",
           "properties": {
             "Version": "2.8",
             "MajorVer": "2",
@@ -205,7 +205,7 @@
           }
         },
         {
-          "match": "Mozilla\/4.0 WebTV\/2.9*(compatible*; MSIE 4.0)",
+          "match": "Mozilla/4.0 WebTV/2.9*(compatible*; MSIE 4.0)",
           "properties": {
             "Version": "2.9",
             "MajorVer": "2",

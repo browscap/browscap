@@ -21,7 +21,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (Windows NT 6.1; WOW64) AppleWebKit\/* (KHTML* like Gecko) Origin\/9.3* Safari\/*",
+          "match": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/* (KHTML* like Gecko) Origin/9.3* Safari/*",
           "properties": {
             "Version": "9.3",
             "MajorVer": "9",
@@ -32,7 +32,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (Windows NT 6.1; WOW64) AppleWebKit\/* (KHTML* like Gecko) Origin\/* Safari\/*",
+          "match": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/* (KHTML* like Gecko) Origin/* Safari/*",
           "platforms": [
             "Win7_64"
           ]

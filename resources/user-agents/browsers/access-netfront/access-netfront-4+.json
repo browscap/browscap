@@ -27,54 +27,54 @@
       },
       "children": [
         {
-          "match": "Mozilla\/4.0 (compatible; Linux*) NetFront\/#MAJORVER#.#MINORVER#* Kindle\/1.0 (screen 600x800)",
+          "match": "Mozilla/4.0 (compatible; Linux*) NetFront/#MAJORVER#.#MINORVER#* Kindle/1.0 (screen 600x800)",
           "device": "Amazon Kindle",
           "platforms": [
             "Android"
           ]
         },
         {
-          "match": "Mozilla\/4.0 (compatible; Linux*) NetFront\/#MAJORVER#.#MINORVER#* Kindle\/2.0 (screen 600x800)",
+          "match": "Mozilla/4.0 (compatible; Linux*) NetFront/#MAJORVER#.#MINORVER#* Kindle/2.0 (screen 600x800)",
           "device": "Amazon Kindle",
           "platforms": [
             "Android"
           ]
         },
         {
-          "match": "SonyEricsson*; Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) *Version\/#MAJORVER#.#MINORVER#* *Safari\/*",
+          "match": "SonyEricsson*; Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML* like Gecko) *Version/#MAJORVER#.#MINORVER#* *Safari/*",
           "device": "general Mobile Phone",
           "platforms": [
             "SymbianOS"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (Sample; MFC Simulator\/#MAJORVER#.#MINORVER#*; like Gecko) NetFront\/#MAJORVER#.#MINORVER#*"
+          "match": "Mozilla/5.0 (Sample; MFC Simulator/#MAJORVER#.#MINORVER#*; like Gecko) NetFront/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "SAMSUNG-GT-C3310\/* NetFront\/#MAJORVER#.#MINORVER#*",
+          "match": "SAMSUNG-GT-C3310/* NetFront/#MAJORVER#.#MINORVER#*",
           "device": "Samsung GT-C3310",
           "platforms": [
             "JAVA"
           ]
         },
         {
-          "match": "SAMSUNG* *NetFront\/#MAJORVER#.#MINORVER#*",
+          "match": "SAMSUNG* *NetFront/#MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone (Touch)",
           "platforms": [
             "JAVA"
           ]
         },
         {
-          "match": "SEC-* *NetFront\/#MAJORVER#.#MINORVER#*"
+          "match": "SEC-* *NetFront/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "Mozilla\/4.0 (*) *NetFront\/#MAJORVER#.#MINORVER#*"
+          "match": "Mozilla/4.0 (*) *NetFront/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "Mozilla\/4.0 (*NetFront\/#MAJORVER#.#MINORVER#*)*"
+          "match": "Mozilla/4.0 (*NetFront/#MAJORVER#.#MINORVER#*)*"
         },
         {
-          "match": "*NetFront\/#MAJORVER#.#MINORVER#*"
+          "match": "*NetFront/#MAJORVER#.#MINORVER#*"
         }
       ]
     }

@@ -21,7 +21,7 @@
           }
         },
         {
-          "match": "*www4mail\/*",
+          "match": "*www4mail/*",
           "properties": {
             "Browser": "www4mail"
           }
@@ -39,25 +39,25 @@
           }
         },
         {
-          "match": "Atomic_Email_Hunter\/*",
+          "match": "Atomic_Email_Hunter/*",
           "properties": {
             "Browser": "Atomic Email Hunter"
           }
         },
         {
-          "match": "CherryPicker*\/*",
+          "match": "CherryPicker*/*",
           "properties": {
             "Browser": "CherryPickerElite"
           }
         },
         {
-          "match": "Chilkat\/*",
+          "match": "Chilkat/*",
           "properties": {
             "Browser": "Chilkat"
           }
         },
         {
-          "match": "ContactBot\/*",
+          "match": "ContactBot/*",
           "properties": {
             "Browser": "ContactBot"
           }
@@ -118,7 +118,7 @@
           }
         },
         {
-          "match": "Mozilla\/4.0 (compatible; Advanced Email Extractor*)",
+          "match": "Mozilla/4.0 (compatible; Advanced Email Extractor*)",
           "properties": {
             "Browser": "Advanced Email Extractor"
           }
@@ -154,7 +154,7 @@
           }
         },
         {
-          "match": "ZIBB Crawler (email address \/ WWW address)",
+          "match": "ZIBB Crawler (email address / WWW address)",
           "properties": {
             "Browser": "ZIBB Crawler"
           }

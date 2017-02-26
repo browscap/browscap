@@ -21,13 +21,13 @@
           }
         },
         {
-          "match": "Automated Browscap.ini Updater. To report issues contact us at+http:\/\/www.skycomp.ca",
+          "match": "Automated Browscap.ini Updater. To report issues contact us at+http://www.skycomp.ca",
           "properties": {
             "Browser": "Automated Browscap.ini Updater"
           }
         },
         {
-          "match": "Browscap Mirror System\/1.* (browscap.giantrealm.com)",
+          "match": "Browscap Mirror System/1.* (browscap.giantrealm.com)",
           "properties": {
             "Browser": "Browscap Mirror System"
           }
@@ -90,7 +90,7 @@
           }
         },
         {
-          "match": "PHP Browser Capabilities Project\/*",
+          "match": "PHP Browser Capabilities Project/*",
           "properties": {
             "Browser": "PHP Browser Capabilities Project"
           }
@@ -102,25 +102,25 @@
           }
         },
         {
-          "match": "WCC Browscap Updater\/0.* (PHP: file_get_contents)",
+          "match": "WCC Browscap Updater/0.* (PHP: file_get_contents)",
           "properties": {
             "Browser": "WCC Browscap Updater"
           }
         },
         {
-          "match": "Automated Browscap.ini Updater. To report issues contact us at*http:\/\/www.skycomp.ca",
+          "match": "Automated Browscap.ini Updater. To report issues contact us at*http://www.skycomp.ca",
           "properties": {
             "Browser": "Automated Browscap.ini Updater"
           }
         },
         {
-          "match": "Browser Capabilities Project - PHP Browscap\/*",
+          "match": "Browser Capabilities Project - PHP Browscap/*",
           "properties": {
             "Browser": "BCP - PHP Browscap"
           }
         },
         {
-          "match": "Browscap Mirror System\/* (browscap.giantrealm.com)",
+          "match": "Browscap Mirror System/* (browscap.giantrealm.com)",
           "properties": {
             "Browser": "Browscap Mirror System"
           }
@@ -138,7 +138,7 @@
           }
         },
         {
-          "match": "Subtext Version 1.9* - http:\/\/subtextproject.com\/ (Microsoft Windows NT 5.2.*)",
+          "match": "Subtext Version 1.9* - http://subtextproject.com/ (Microsoft Windows NT 5.2.*)",
           "properties": {
             "Browser": "Subtext"
           },
@@ -153,7 +153,7 @@
           }
         },
         {
-          "match": "Rewmi\/*"
+          "match": "Rewmi/*"
         },
         {
           "match": "browsers.garykeith.com browscap.ini bot BETA"
@@ -165,7 +165,7 @@
           }
         },
         {
-          "match": "WebRingChecker\/1.71*",
+          "match": "WebRingChecker/1.71*",
           "properties": {
             "Browser": "WebRingChecker",
             "Version": "1.71",
@@ -174,7 +174,7 @@
           }
         },
         {
-          "match": "WebRingChecker\/*",
+          "match": "WebRingChecker/*",
           "properties": {
             "Browser": "WebRingChecker"
           }

@@ -26,7 +26,7 @@
       },
       "children": [
         {
-          "match": "Crowsnest\/0.5*",
+          "match": "Crowsnest/0.5*",
           "properties": {
             "Version": "0.5",
             "MajorVer": "0",

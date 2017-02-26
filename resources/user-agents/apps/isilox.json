@@ -25,13 +25,13 @@
       },
       "children": [
         {
-          "match": "iSiloX\/#MAJORVER#.#MINORVER#* MacOS",
+          "match": "iSiloX/#MAJORVER#.#MINORVER#* MacOS",
           "platforms": [
             "MacPPC"
           ]
         },
         {
-          "match": "iSiloX\/#MAJORVER#.#MINORVER#* Windows\/32",
+          "match": "iSiloX/#MAJORVER#.#MINORVER#* Windows/32",
           "platforms": [
             "Win32"
           ]

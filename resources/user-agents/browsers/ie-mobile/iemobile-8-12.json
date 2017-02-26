@@ -32,14 +32,14 @@
       },
       "children": [
         {
-          "match": "Mozilla\/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile?#MAJORVER#.#MINORVER#*) T-Mobile_LEO*",
+          "match": "Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile?#MAJORVER#.#MINORVER#*) T-Mobile_LEO*",
           "device": "HTC Leo",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "Mozilla\/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile?#MAJORVER#.#MINORVER#*)*",
+          "match": "Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile?#MAJORVER#.#MINORVER#*)*",
           "platforms": [
             "WinCE"
           ]

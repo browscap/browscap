@@ -31,19 +31,19 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Epiphany\/#MAJORVER#.#MINORVER#* (Debian\/*)",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Epiphany/#MAJORVER#.#MINORVER#* (Debian/*)",
           "platforms": [
             "Linux_64", "Linux_32", "Linux"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Epiphany\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Epiphany/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "Linux_64", "Linux_32", "Linux"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Epiphany\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Epiphany/#MAJORVER#.#MINORVER#*",
           "device": "general Desktop",
           "platforms": [
             "FreeBSD_386", "FreeBSD", "OpenBSD_64_2", "OpenBSD_386", "OpenBSD", "SunOS"

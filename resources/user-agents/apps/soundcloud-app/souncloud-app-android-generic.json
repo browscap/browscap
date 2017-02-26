@@ -27,14 +27,14 @@
       },
       "children": [
         {
-          "match": "SoundCloud-Android\/* (#PLATFORM#SGH-I337*",
+          "match": "SoundCloud-Android/* (#PLATFORM#SGH-I337*",
           "device": "Samsung SGH-I337",
           "platforms": [
             "Android_H_4_4", "Android_H"
           ]
         },
         {
-          "match": "SoundCloud-Android\/* (#PLATFORM#",
+          "match": "SoundCloud-Android/* (#PLATFORM#",
           "platforms": [
             "Android_H_4_4", "Android_H"
           ]

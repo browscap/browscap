@@ -21,7 +21,7 @@
       },
       "children": [
         {
-          "match": "Debian APT-HTTP\/1.3*",
+          "match": "Debian APT-HTTP/1.3*",
           "properties": {
             "Version": "1.3",
             "MajorVer": "1",
@@ -29,7 +29,7 @@
           }
         },
         {
-          "match": "Debian APT-HTTP\/*"
+          "match": "Debian APT-HTTP/*"
         }
       ]
     }

@@ -27,7 +27,7 @@
       },
       "children": [
         {
-          "match": "SoundCloud\/*; iPhone\/#PLATFORM#",
+          "match": "SoundCloud/*; iPhone/#PLATFORM#",
           "device": "iPhone",
           "platforms": [
             "iOS_E_9_3", "iOS_E_9_2", "iOS_E_9_1", "iOS_E_9_0", "iOS_E_8_1", "iOS_E_8_0", "iOS_E_7_1", "iOS_E"

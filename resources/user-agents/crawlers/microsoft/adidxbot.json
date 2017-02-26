@@ -19,7 +19,7 @@
       },
       "children": [
         {
-          "match": "adidxbot\/1.1 (?http:\/\/search.msn.com\/msnbot.htm)",
+          "match": "adidxbot/1.1 (?http://search.msn.com/msnbot.htm)",
           "properties": {
             "Browser": "adidxbot",
             "Version": "1.1",
@@ -28,7 +28,7 @@
           }
         },
         {
-          "match": "adidxbot\/2.0*",
+          "match": "adidxbot/2.0*",
           "properties": {
             "Browser": "adidxbot",
             "Version": "2.0",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "match": "adidxbot\/*",
+          "match": "adidxbot/*",
           "properties": {
             "Browser": "adidxbot"
           }

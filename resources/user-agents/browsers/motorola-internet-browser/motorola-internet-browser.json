@@ -20,43 +20,43 @@
       },
       "children": [
         {
-          "match": "MOT-L6\/* MIB\/*",
+          "match": "MOT-L6/* MIB/*",
           "device": "Motorola L6"
         },
         {
-          "match": "MOT-L7\/* MIB\/*",
+          "match": "MOT-L7/* MIB/*",
           "device": "Motorola L7"
         },
         {
-          "match": "MOT-MP*\/* Mozilla\/* (compatible; MSIE *; Windows CE; *)",
+          "match": "MOT-MP*/* Mozilla/* (compatible; MSIE *; Windows CE; *)",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "MOT-MP*\/* Mozilla\/4.0 (compatible; MSIE *; Windows CE; *)",
+          "match": "MOT-MP*/* Mozilla/4.0 (compatible; MSIE *; Windows CE; *)",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "MOT-TA02\/* MIB\/*",
+          "match": "MOT-TA02/* MIB/*",
           "device": "Motorola TA02"
         },
         {
-          "match": "MOT-V3\/* MIB\/*",
+          "match": "MOT-V3/* MIB/*",
           "device": "Motorola V3"
         },
         {
-          "match": "MOT-A760\/EZX_G_00.*",
+          "match": "MOT-A760/EZX_G_00.*",
           "device": "Motorola A760"
         },
         {
-          "match": "MOT-C168\/ WAP.Browser\/*",
+          "match": "MOT-C168/ WAP.Browser/*",
           "device": "Motorola C168"
         },
         {
-          "match": "MOT-C168i\/*",
+          "match": "MOT-C168i/*",
           "device": "Motorola C168i"
         }
       ]

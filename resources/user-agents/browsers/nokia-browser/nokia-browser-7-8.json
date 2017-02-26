@@ -29,11 +29,11 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (Symbian\/*; Series60\/* NokiaN8-00\/*) AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla/5.0 (Symbian/*; Series60/* NokiaN8-00/*) AppleWebKit/* (KHTML,*like Gecko*) NokiaBrowser/#MAJORVER#.#MINORVER#*Safari/*",
           "device": "Nokia N8-00"
         },
         {
-          "match": "Mozilla\/5.0 (Symbian\/*; Series60\/*) AppleWebKit\/* (KHTML,*like Gecko*) NokiaBrowser\/#MAJORVER#.#MINORVER#*Safari\/*"
+          "match": "Mozilla/5.0 (Symbian/*; Series60/*) AppleWebKit/* (KHTML,*like Gecko*) NokiaBrowser/#MAJORVER#.#MINORVER#*Safari/*"
         }
       ]
     }

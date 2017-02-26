@@ -18,31 +18,31 @@
       },
       "children": [
         {
-          "match": "Mozilla\/4.0 (cloakBrowser)",
+          "match": "Mozilla/4.0 (cloakBrowser)",
           "properties": {
             "Browser": "fantomas cloakBrowser"
           }
         },
         {
-          "match": "Mozilla\/4.0 (fantomas shadowMaker Browser)",
+          "match": "Mozilla/4.0 (fantomas shadowMaker Browser)",
           "properties": {
             "Browser": "fantomas shadowMaker Browser"
           }
         },
         {
-          "match": "Mozilla\/4.0 (fantomBrowser)",
+          "match": "Mozilla/4.0 (fantomBrowser)",
           "properties": {
             "Browser": "fantomas fantomBrowser"
           }
         },
         {
-          "match": "Mozilla\/4.0 (fantomCrew Browser)",
+          "match": "Mozilla/4.0 (fantomCrew Browser)",
           "properties": {
             "Browser": "fantomas fantomCrew Browser"
           }
         },
         {
-          "match": "Mozilla\/4.0 (stealthBrowser)",
+          "match": "Mozilla/4.0 (stealthBrowser)",
           "properties": {
             "Browser": "fantomas stealthBrowser"
           }

@@ -19,7 +19,7 @@
       },
       "children": [
         {
-          "match": "wp-iphone\/4.4 (#PLATFORM#, iPad) Mobile*",
+          "match": "wp-iphone/4.4 (#PLATFORM#, iPad) Mobile*",
           "properties": {
             "Version": "4.4",
             "MajorVer": "4",
@@ -31,14 +31,14 @@
           ]
         },
         {
-          "match": "wp-iphone\/* (#PLATFORM#, iPad) Mobile*",
+          "match": "wp-iphone/* (#PLATFORM#, iPad) Mobile*",
           "device": "iPad",
           "platforms": [
             "iOS_K_8_0", "iOS_K"
           ]
         },
         {
-          "match": "wp-iphone\/4.4 (#PLATFORM#) Mobile*",
+          "match": "wp-iphone/4.4 (#PLATFORM#) Mobile*",
           "device": "general Mobile Device (Apple)",
           "properties": {
             "Version": "4.4",
@@ -50,14 +50,14 @@
           ]
         },
         {
-          "match": "wp-iphone\/* (#PLATFORM#) Mobile*",
+          "match": "wp-iphone/* (#PLATFORM#) Mobile*",
           "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_K_8_0", "iOS_K"
           ]
         },
         {
-          "match": "wp-android\/3.0* (#PLATFORM#GT-N7100\/*",
+          "match": "wp-android/3.0* (#PLATFORM#GT-N7100/*",
           "device": "Samsung GT-N7100",
           "properties": {
             "Version": "3.0",
@@ -69,14 +69,14 @@
           ]
         },
         {
-          "match": "wp-android\/* (#PLATFORM#GT-N7100\/*",
+          "match": "wp-android/* (#PLATFORM#GT-N7100/*",
           "device": "Samsung GT-N7100",
           "platforms": [
             "Android_H_4_4"
           ]
         },
         {
-          "match": "wp-android\/3.0* (#PLATFORM#",
+          "match": "wp-android/3.0* (#PLATFORM#",
           "properties": {
             "Version": "3.0",
             "MajorVer": "3",
@@ -87,7 +87,7 @@
           ]
         },
         {
-          "match": "wp-android\/* (#PLATFORM#",
+          "match": "wp-android/* (#PLATFORM#",
           "platforms": [
             "Android_H_4_4", "Android_H"
           ]

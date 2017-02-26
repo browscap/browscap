@@ -29,378 +29,378 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#A200 Build\/*) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#A200 Build/*) AppleWebKit/* (KHTML* like Gecko) Chrome/#MAJORVER#.*Safari/*",
           "device": "Acer A200",
           "platforms": [
             "Android_4_0"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#A210 Build\/*) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#A210 Build/*) AppleWebKit/* (KHTML* like Gecko) Chrome/#MAJORVER#.*Safari/*",
           "device": "Acer A210",
           "platforms": [
             "Android_4_0", "Android_4_1"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#A510 Build\/*) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#A510 Build/*) AppleWebKit/* (KHTML* like Gecko) Chrome/#MAJORVER#.*Safari/*",
           "device": "Acer A510",
           "platforms": [
             "Android_4_0", "Android_4_1"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#ALCATEL ONE TOUCH 997D Build\/*) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#ALCATEL ONE TOUCH 997D Build/*) AppleWebKit/* (KHTML* like Gecko) Chrome/#MAJORVER#.*Safari/*",
           "device": "Alcatel OT-997D",
           "platforms": [
             "Android_4_0"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#AT300 Build\/*) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#AT300 Build/*) AppleWebKit/* (KHTML* like Gecko) Chrome/#MAJORVER#.*Safari/*",
           "device": "Toshiba AT300",
           "platforms": [
             "Android_4_0"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-I8190 Build\/*) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#GT-I8190 Build/*) AppleWebKit/* (KHTML* like Gecko) Chrome/#MAJORVER#.*Safari/*",
           "device": "Samsung GT-I8190",
           "platforms": [
             "Android_4_0", "Android_4_1"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-I9100 Build\/*) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#GT-I9100 Build/*) AppleWebKit/* (KHTML* like Gecko) Chrome/#MAJORVER#.*Safari/*",
           "device": "GT-I9100",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-I9100 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*CrMo\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#GT-I9100 Build/*) AppleWebKit/* (KHTML,*like Gecko*)*CrMo/#MAJORVER#.*Safari/*",
           "device": "GT-I9100",
           "platforms": [
             "Android_4_0"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-I9100G Build\/*) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#GT-I9100G Build/*) AppleWebKit/* (KHTML* like Gecko) Chrome/#MAJORVER#.*Safari/*",
           "device": "GT-I9100G",
           "platforms": [
             "Android_4_0"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-I9100T Build\/*) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#GT-I9100T Build/*) AppleWebKit/* (KHTML* like Gecko) Chrome/#MAJORVER#.*Safari/*",
           "device": "Samsung GT-I9100T",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-I9300 Build\/*) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#GT-I9300 Build/*) AppleWebKit/* (KHTML* like Gecko) Chrome/#MAJORVER#.*Safari/*",
           "device": "Samsung GT-I9300",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-I9305 Build\/*) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#GT-I9305 Build/*) AppleWebKit/* (KHTML* like Gecko) Chrome/#MAJORVER#.*Safari/*",
           "device": "Samsung GT-I9305",
           "platforms": [
             "Android_4_0", "Android_4_1"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-N5100 Build\/*) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#GT-N5100 Build/*) AppleWebKit/* (KHTML* like Gecko) Chrome/#MAJORVER#.*Safari/*",
           "device": "Samsung GT-N5100",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-N7000 Build\/*) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#GT-N7000 Build/*) AppleWebKit/* (KHTML* like Gecko) Chrome/#MAJORVER#.*Safari/*",
           "device": "Samsung GT-N7000",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-N8000 Build\/*) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#GT-N8000 Build/*) AppleWebKit/* (KHTML* like Gecko) Chrome/#MAJORVER#.*Safari/*",
           "device": "Samsung GT-N8000",
           "platforms": [
             "Android_4_0", "Android_4_1"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-N8010 Build\/*) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#GT-N8010 Build/*) AppleWebKit/* (KHTML* like Gecko) Chrome/#MAJORVER#.*Safari/*",
           "device": "Samsung GT-N8010",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-N8013 Build\/*) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#GT-N8013 Build/*) AppleWebKit/* (KHTML* like Gecko) Chrome/#MAJORVER#.*Safari/*",
           "device": "Samsung GT-N8013",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-N8020* Build\/*) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#GT-N8020* Build/*) AppleWebKit/* (KHTML* like Gecko) Chrome/#MAJORVER#.*Safari/*",
           "device": "Samsung GT-N8020",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-P3110 Build\/*) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#GT-P3110 Build/*) AppleWebKit/* (KHTML* like Gecko) Chrome/#MAJORVER#.*Safari/*",
           "device": "Samsung GT-P3110",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-P5100 Build\/*) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#GT-P5100 Build/*) AppleWebKit/* (KHTML* like Gecko) Chrome/#MAJORVER#.*Safari/*",
           "device": "Samsung GT-P5100",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-P5110 Build\/*) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#GT-P5110 Build/*) AppleWebKit/* (KHTML* like Gecko) Chrome/#MAJORVER#.*Safari/*",
           "device": "Samsung GT-P5110",
           "platforms": [
             "Android_4_0", "Android_4_1"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-P5113 Build\/*) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#GT-P5113 Build/*) AppleWebKit/* (KHTML* like Gecko) Chrome/#MAJORVER#.*Safari/*",
           "device": "Samsung GT-P5113",
           "platforms": [
             "Android_4_0", "Android_4_1"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#HTC Desire Build\/*) AppleWebKit\/* (KHTML* like Gecko)*CrMo\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#HTC Desire Build/*) AppleWebKit/* (KHTML* like Gecko)*CrMo/#MAJORVER#.*Safari/*",
           "device": "HTC Desire",
           "platforms": [
             "Android_4_0"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#HTC Desire X Build\/*) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#HTC Desire X Build/*) AppleWebKit/* (KHTML* like Gecko) Chrome/#MAJORVER#.*Safari/*",
           "device": "HTC T328E",
           "platforms": [
             "Android_4_0", "Android_4_1"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#HTC One S Build\/*) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#HTC One S Build/*) AppleWebKit/* (KHTML* like Gecko) Chrome/#MAJORVER#.*Safari/*",
           "device": "HTC PJ401",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#One S Build\/*) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#One S Build/*) AppleWebKit/* (KHTML* like Gecko) Chrome/#MAJORVER#.*Safari/*",
           "device": "HTC PJ401",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#HTC One SV Build\/*) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#HTC One SV Build/*) AppleWebKit/* (KHTML* like Gecko) Chrome/#MAJORVER#.*Safari/*",
           "device": "HTC One SV",
           "platforms": [
             "Android_4_0", "Android_4_1"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#HTC One V Build\/*) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#HTC One V Build/*) AppleWebKit/* (KHTML* like Gecko) Chrome/#MAJORVER#.*Safari/*",
           "device": "HTC One V",
           "platforms": [
             "Android_4_0"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#HTC One X Build\/*) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#HTC One X Build/*) AppleWebKit/* (KHTML* like Gecko) Chrome/#MAJORVER#.*Safari/*",
           "device": "HTC PJ83100",
           "platforms": [
             "Android_4_0", "Android_4_1"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#HTC Sensation XE with Beats Audio Z715e Build\/*) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#HTC Sensation XE with Beats Audio Z715e Build/*) AppleWebKit/* (KHTML* like Gecko) Chrome/#MAJORVER#.*Safari/*",
           "device": "HTC Z715e",
           "platforms": [
             "Android_4_0"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#HTC Sensation Z710e Build\/*) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#HTC Sensation Z710e Build/*) AppleWebKit/* (KHTML* like Gecko) Chrome/#MAJORVER#.*Safari/*",
           "device": "HTC Z710e",
           "platforms": [
             "Android_4_0"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#HTC_Sensation Build\/*) AppleWebKit\/* (KHTML* like Gecko)*CrMo\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#HTC_Sensation Build/*) AppleWebKit/* (KHTML* like Gecko)*CrMo/#MAJORVER#.*Safari/*",
           "device": "HTC Z710",
           "platforms": [
             "Android_4_0"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#HUAWEI U8666E Build\/*) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#HUAWEI U8666E Build/*) AppleWebKit/* (KHTML* like Gecko) Chrome/#MAJORVER#.*Safari/*",
           "device": "Huawei U8666E",
           "platforms": [
             "Android_4_0"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#LG-P700 Build\/*) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#LG-P700 Build/*) AppleWebKit/* (KHTML* like Gecko) Chrome/#MAJORVER#.*Safari/*",
           "device": "LG P700",
           "platforms": [
             "Android_4_0"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#LG-P705 Build\/*) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#LG-P705 Build/*) AppleWebKit/* (KHTML* like Gecko) Chrome/#MAJORVER#.*Safari/*",
           "device": "LG P705",
           "platforms": [
             "Android_4_0"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#LG-P880 Build\/*) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#LG-P880 Build/*) AppleWebKit/* (KHTML* like Gecko) Chrome/#MAJORVER#.*Safari/*",
           "device": "LG P880",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#LIFETAB_P9514 Build\/*) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#LIFETAB_P9514 Build/*) AppleWebKit/* (KHTML* like Gecko) Chrome/#MAJORVER#.*Safari/*",
           "device": "Medion LifeTab P9514",
           "platforms": [
             "Android_4_0"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#LIFETAB_S9512 Build\/*) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#LIFETAB_S9512 Build/*) AppleWebKit/* (KHTML* like Gecko) Chrome/#MAJORVER#.*Safari/*",
           "device": "Medion LifeTab S9512",
           "platforms": [
             "Android_4_0"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#LIFETAB_S9714 Build\/*) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#LIFETAB_S9714 Build/*) AppleWebKit/* (KHTML* like Gecko) Chrome/#MAJORVER#.*Safari/*",
           "device": "Medion LifeTab S9714",
           "platforms": [
             "Android_4_0"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#LT18i Build\/*) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#LT18i Build/*) AppleWebKit/* (KHTML* like Gecko) Chrome/#MAJORVER#.*Safari/*",
           "device": "SonyEricsson LT18i",
           "platforms": [
             "Android_4_0", "Android_4_1"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#LT26i Build\/*) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#LT26i Build/*) AppleWebKit/* (KHTML* like Gecko) Chrome/#MAJORVER#.*Safari/*",
           "device": "SonyEricsson LT26i",
           "platforms": [
             "Android_4_0", "Android_4_1"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#LT30p Build\/*) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#LT30p Build/*) AppleWebKit/* (KHTML* like Gecko) Chrome/#MAJORVER#.*Safari/*",
           "device": "Sony LT30p",
           "platforms": [
             "Android_4_0", "Android_4_1"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#MD_LIFETAB_P9516 Build\/*) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#MD_LIFETAB_P9516 Build/*) AppleWebKit/* (KHTML* like Gecko) Chrome/#MAJORVER#.*Safari/*",
           "device": "Medion LifeTab P9516",
           "platforms": [
             "Android_4_0"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#MZ601 Build\/*) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#MZ601 Build/*) AppleWebKit/* (KHTML* like Gecko) Chrome/#MAJORVER#.*Safari/*",
           "device": "Motorola MZ601",
           "platforms": [
             "Android_4_0"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#MZ604 Build\/*) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#MZ604 Build/*) AppleWebKit/* (KHTML* like Gecko) Chrome/#MAJORVER#.*Safari/*",
           "device": "Motorola MZ604",
           "platforms": [
             "Android_4_0"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Nexus S Build\/*) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#Nexus S Build/*) AppleWebKit/* (KHTML* like Gecko) Chrome/#MAJORVER#.*Safari/*",
           "device": "Samsung NexusS",
           "platforms": [
             "Android_4_0", "Android_4_1"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-N7100* Build\/*) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#GT-N7100* Build/*) AppleWebKit/* (KHTML* like Gecko) Chrome/#MAJORVER#.*Safari/*",
           "device": "Samsung GT-N7100",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Sony Tablet S Build\/*) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#Sony Tablet S Build/*) AppleWebKit/* (KHTML* like Gecko) Chrome/#MAJORVER#.*Safari/*",
           "device": "Sony Tablet S",
           "platforms": [
             "Android_4_0"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#XT890 Build\/*) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#XT890 Build/*) AppleWebKit/* (KHTML* like Gecko) Chrome/#MAJORVER#.*Safari/*",
           "device": "Motorola XT890",
           "platforms": [
             "Android_4_0", "Android_4_1"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#XT910 Build\/*) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#XT910 Build/*) AppleWebKit/* (KHTML* like Gecko) Chrome/#MAJORVER#.*Safari/*",
           "device": "Motorola XT910",
           "platforms": [
             "Android_4_0"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#XT925 Build\/*) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#XT925 Build/*) AppleWebKit/* (KHTML* like Gecko) Chrome/#MAJORVER#.*Safari/*",
           "device": "Motorola XT925",
           "platforms": [
             "Android_4_0", "Android_4_1"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Galaxy Nexus Build\/*) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#Galaxy Nexus Build/*) AppleWebKit/* (KHTML* like Gecko) Chrome/#MAJORVER#.*Safari/*",
           "device": "Samsung Galaxy Nexus",
           "platforms": [
             "Android_4_1"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#KFTT *) AppleWebKit\/* (KHTML* like Gecko)*CrMo\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#KFTT *) AppleWebKit/* (KHTML* like Gecko)*CrMo/#MAJORVER#.*Safari/*",
           "device": "Amazon KFTT",
           "platforms": [
             "Android_4_0"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML* like Gecko) Chrome/#MAJORVER#.*Safari/*",
           "platforms": [
             "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
             "Android_2_0", "Android_2_1", "Android_2_2", "Android_2_3",
@@ -409,7 +409,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko)*CrMo\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML* like Gecko)*CrMo/#MAJORVER#.*Safari/*",
           "platforms": [
             "Android_4_0", "Android"
           ]
@@ -440,7 +440,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (iPad#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) *CriOS\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (iPad#PLATFORM#) AppleWebKit/* (KHTML* like Gecko) *CriOS/#MAJORVER#.*Safari/*",
           "device": "iPad",
           "platforms": [
             "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
@@ -452,7 +452,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (iPhone#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) *CriOS\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (iPhone#PLATFORM#) AppleWebKit/* (KHTML* like Gecko) *CriOS/#MAJORVER#.*Safari/*",
           "device": "iPhone",
           "platforms": [
             "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
@@ -464,7 +464,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) *CriOS\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML* like Gecko) *CriOS/#MAJORVER#.*Safari/*",
           "platforms": [
             "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
             "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0",
@@ -499,7 +499,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML* like Gecko) Chrome/#MAJORVER#.*Safari/*",
           "device": "Linux Desktop",
           "platforms": [
             "ChromeOS_i686", "ChromeOS_ARM", "ChromeOS",
@@ -507,7 +507,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML* like Gecko) Chrome/#MAJORVER#.*Safari/*",
           "device": "Windows Desktop",
           "platforms": [
             "NT4", "NT4_1", "Win2000", "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32", "Vista_64", "Vista_32",
@@ -515,7 +515,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML* like Gecko) Chrome/#MAJORVER#.*Safari/*",
           "device": "Macintosh",
           "platforms": [
             "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
@@ -523,14 +523,14 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML* like Gecko) Chrome/#MAJORVER#.*Safari/*",
           "device": "general Desktop",
           "platforms": [
             "FreeBSD_386", "FreeBSD", "OpenBSD_386", "OpenBSD"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML* like Gecko) Chrome/#MAJORVER#.*",
           "device": "Linux Desktop",
           "platforms": [
             "ChromeOS_i686", "ChromeOS_ARM", "ChromeOS",
@@ -538,7 +538,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML* like Gecko) Chrome/#MAJORVER#.*",
           "device": "Windows Desktop",
           "platforms": [
             "NT4", "NT4_1", "Win2000", "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32", "Vista_64", "Vista_32",
@@ -546,7 +546,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML* like Gecko) Chrome/#MAJORVER#.*",
           "device": "Macintosh",
           "platforms": [
             "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
@@ -554,7 +554,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Chrome anonymized by*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML* like Gecko) Chrome/#MAJORVER#.*Chrome anonymized by*",
           "properties": {
             "isAnonymized": "true"
           },
@@ -565,7 +565,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Anonymisiert durch*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML* like Gecko) Chrome/#MAJORVER#.*Anonymisiert durch*",
           "properties": {
             "isAnonymized": "true"
           },

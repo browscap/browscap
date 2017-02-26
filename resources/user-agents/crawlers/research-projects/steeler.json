@@ -16,10 +16,10 @@
       },
       "children": [
         {
-          "match": "Steeler\/*"
+          "match": "Steeler/*"
         },
         {
-          "match": "Mozilla\/5.0 (compatible; Steeler\/3.5*",
+          "match": "Mozilla/5.0 (compatible; Steeler/3.5*",
           "properties": {
             "Version": "3.5",
             "MajorVer": "3",
@@ -27,7 +27,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; Steeler\/*"
+          "match": "Mozilla/5.0 (compatible; Steeler/*"
         }
       ]
     }

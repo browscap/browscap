@@ -28,7 +28,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Diglo\/#MAJORVER#.#MINORVER#* Chrome\/*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML* like Gecko) Diglo/#MAJORVER#.#MINORVER#* Chrome/*Safari/*",
           "device": "Windows Desktop",
           "platforms": [
             "Win10_x64_B", "Win10_64_B", "Win10_32_B",

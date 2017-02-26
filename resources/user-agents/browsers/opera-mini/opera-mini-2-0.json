@@ -27,40 +27,40 @@
       },
       "children": [
         {
-          "match": "Opera\/*(Android*Opera Mini\/#MAJORVER#.*",
+          "match": "Opera/*(Android*Opera Mini/#MAJORVER#.*",
           "device": "general Mobile Phone (Touch)",
           "platforms": [
             "Android"
           ]
         },
         {
-          "match": "Opera\/*(BlackBerry*Opera Mini\/#MAJORVER#.*",
+          "match": "Opera/*(BlackBerry*Opera Mini/#MAJORVER#.*",
           "device": "Blackberry Blackberry",
           "platforms": [
             "RIMOS"
           ]
         },
         {
-          "match": "Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.*",
+          "match": "Opera/*(J2ME/MIDP*Opera Mini/#MAJORVER#.*",
           "platforms": [
             "JAVA"
           ]
         },
         {
-          "match": "Opera\/*(Series 60*Opera Mini\/#MAJORVER#.*",
+          "match": "Opera/*(Series 60*Opera Mini/#MAJORVER#.*",
           "device": "general Mobile Phone",
           "platforms": [
             "SymbianOS"
           ]
         },
         {
-          "match": "Opera\/*(Windows Mobile*Opera Mini\/#MAJORVER#.*",
+          "match": "Opera/*(Windows Mobile*Opera Mini/#MAJORVER#.*",
           "platforms": [
             "WinMobile"
           ]
         },
         {
-          "match": "Opera\/*(MTK*Opera Mini\/#MAJORVER#.*",
+          "match": "Opera/*(MTK*Opera Mini/#MAJORVER#.*",
           "device": "general Mobile Phone (Touch)",
           "platforms": [
             "Android"

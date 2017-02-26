@@ -22,7 +22,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/4.0 (#PLATFORM#)*Gecko*Firefox\/* Opera*",
+          "match": "Mozilla/4.0 (#PLATFORM#)*Gecko*Firefox/* Opera*",
           "device": "Windows Desktop",
           "platforms": [
             "Win2000", "Win2000_2", "WinME", "WinME_2", "Win95_2", "Win98_2", "NT4",
@@ -30,7 +30,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko*Firefox\/* Opera*",
+          "match": "Mozilla/5.0 (#PLATFORM#)*Gecko*Firefox/* Opera*",
           "device": "Windows Desktop",
           "platforms": [
             "Win2000", "Win2000_2", "WinME", "WinME_2", "Win95_2", "Win98_2", "NT4",
@@ -38,21 +38,21 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko*Firefox\/* Opera*",
+          "match": "Mozilla/5.0 (#PLATFORM#)*Gecko*Firefox/* Opera*",
           "device": "Linux Desktop",
           "platforms": [
             "Linux_64", "Linux_32", "Linux"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko*Firefox\/* Opera*",
+          "match": "Mozilla/5.0 (#PLATFORM#)*Gecko*Firefox/* Opera*",
           "device": "Macintosh",
           "platforms": [
             "OSX"
           ]
         },
         {
-          "match": "Mozilla\/4.0 (#PLATFORM#)*Gecko* Opera*",
+          "match": "Mozilla/4.0 (#PLATFORM#)*Gecko* Opera*",
           "device": "Windows Desktop",
           "platforms": [
             "Win2000", "Win2000_2", "WinME", "WinME_2", "Win95_2", "Win98_2", "NT4",
@@ -60,7 +60,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko* Opera*",
+          "match": "Mozilla/5.0 (#PLATFORM#)*Gecko* Opera*",
           "device": "Windows Desktop",
           "platforms": [
             "Win2000", "Win2000_2", "WinME", "WinME_2", "Win95_2", "Win98_2", "NT4",
@@ -68,21 +68,21 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko* Opera*",
+          "match": "Mozilla/5.0 (#PLATFORM#)*Gecko* Opera*",
           "device": "Linux Desktop",
           "platforms": [
             "Linux_64", "Linux_32", "Linux"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko* Opera*",
+          "match": "Mozilla/5.0 (#PLATFORM#)*Gecko* Opera*",
           "device": "Macintosh",
           "platforms": [
             "OSX"
           ]
         },
         {
-          "match": "Mozilla\/4.0 (compatible; MSIE #PLATFORM#)*Opera*",
+          "match": "Mozilla/4.0 (compatible; MSIE #PLATFORM#)*Opera*",
           "device": "Windows Desktop",
           "platforms": [
             "Win2000", "Win2000_2", "WinME", "WinME_2", "Win95_2", "Win98_2", "NT4",
@@ -93,7 +93,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible; MSIE #PLATFORM#)*Opera*",
+          "match": "Mozilla/5.0 (compatible; MSIE #PLATFORM#)*Opera*",
           "device": "Windows Desktop",
           "platforms": [
             "Win2000", "Win2000_2", "WinME", "WinME_2", "Win95_2", "Win98_2", "NT4",
@@ -104,28 +104,28 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible; MSIE #PLATFORM#)*Opera*",
+          "match": "Mozilla/5.0 (compatible; MSIE #PLATFORM#)*Opera*",
           "device": "Linux Desktop",
           "platforms": [
             "Linux_64", "Linux_32", "Linux"
           ]
         },
         {
-          "match": "Mozilla\/4.0 (compatible; MSIE #PLATFORM#)*Opera*",
+          "match": "Mozilla/4.0 (compatible; MSIE #PLATFORM#)*Opera*",
           "device": "Linux Desktop",
           "platforms": [
             "Linux_64", "Linux_32", "Linux"
           ]
         },
         {
-          "match": "Mozilla\/?.*(*Opera?#PLATFORM#)*",
+          "match": "Mozilla/?.*(*Opera?#PLATFORM#)*",
           "device": "Linux Desktop",
           "platforms": [
             "Linux"
           ]
         },
         {
-          "match": "Mozilla\/?.*(*Opera?#PLATFORM#)*",
+          "match": "Mozilla/?.*(*Opera?#PLATFORM#)*",
           "device": "Windows Desktop",
           "platforms": [
             "Win2000_2",
@@ -134,7 +134,7 @@
           ]
         },
         {
-          "match": "Mozilla\/?.*(*Opera?#PLATFORM#)*",
+          "match": "Mozilla/?.*(*Opera?#PLATFORM#)*",
           "device": "Macintosh",
           "platforms": [
             "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
@@ -142,21 +142,21 @@
           ]
         },
         {
-          "match": "Mozilla\/?.*(*Opera?#PLATFORM#)*",
+          "match": "Mozilla/?.*(*Opera?#PLATFORM#)*",
           "device": "general Desktop",
           "platforms": [
             "FreeBSD", "SunOS", "Unix"
           ]
         },
         {
-          "match": "Mozilla\/?.*(#PLATFORM#)*Opera?*",
+          "match": "Mozilla/?.*(#PLATFORM#)*Opera?*",
           "device": "Linux Desktop",
           "platforms": [
             "Linux"
           ]
         },
         {
-          "match": "Mozilla\/?.*(#PLATFORM#)*Opera?*",
+          "match": "Mozilla/?.*(#PLATFORM#)*Opera?*",
           "device": "Windows Desktop",
           "platforms": [
             "Win2000_2",
@@ -165,7 +165,7 @@
           ]
         },
         {
-          "match": "Mozilla\/?.*(#PLATFORM#)*Opera?*",
+          "match": "Mozilla/?.*(#PLATFORM#)*Opera?*",
           "device": "Macintosh",
           "platforms": [
             "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
@@ -173,7 +173,7 @@
           ]
         },
         {
-          "match": "Mozilla\/?.*(#PLATFORM#)*Opera?*",
+          "match": "Mozilla/?.*(#PLATFORM#)*Opera?*",
           "device": "general Desktop",
           "platforms": [
             "FreeBSD", "SunOS", "Unix"
@@ -211,14 +211,14 @@
           ]
         },
         {
-          "match": "Opera\/9.80*(#PLATFORM#)*Version\/*",
+          "match": "Opera/9.80*(#PLATFORM#)*Version/*",
           "device": "Linux Desktop",
           "platforms": [
             "Linux"
           ]
         },
         {
-          "match": "Opera\/9.80*(#PLATFORM#)*Version\/*",
+          "match": "Opera/9.80*(#PLATFORM#)*Version/*",
           "device": "Windows Desktop",
           "platforms": [
             "Win2000_2",
@@ -227,7 +227,7 @@
           ]
         },
         {
-          "match": "Opera\/9.80*(#PLATFORM#)*Version\/*",
+          "match": "Opera/9.80*(#PLATFORM#)*Version/*",
           "device": "Macintosh",
           "platforms": [
             "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
@@ -235,21 +235,21 @@
           ]
         },
         {
-          "match": "Opera\/9.80*(#PLATFORM#)*Version\/*",
+          "match": "Opera/9.80*(#PLATFORM#)*Version/*",
           "device": "general Desktop",
           "platforms": [
             "FreeBSD", "SunOS", "Unix"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/*OPR\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML, like Gecko)*Chrome/*Safari/*OPR/*",
           "device": "Linux Desktop",
           "platforms": [
             "Linux_64", "Linux_32", "Linux"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/*OPR\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML, like Gecko)*Chrome/*Safari/*OPR/*",
           "device": "Windows Desktop",
           "platforms": [
             "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32", "Vista_64", "Vista_32",
@@ -260,7 +260,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/*OPR\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML, like Gecko)*Chrome/*Safari/*OPR/*",
           "device": "Macintosh",
           "platforms": [
             "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10", "OSX_10_11", "OSX_10_12",
@@ -268,7 +268,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/*OPR\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML, like Gecko)*Chrome/*Safari/*OPR/*",
           "device": "general Desktop",
           "platforms": [
             "FreeBSD", "SunOS"

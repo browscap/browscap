@@ -23,11 +23,11 @@
       },
       "children": [
         {
-          "match": "HbbTV\/*;Panasonic;DIGA WebKit M8156*",
+          "match": "HbbTV/*;Panasonic;DIGA WebKit M8156*",
           "device": "Panasonic DIGA M8156"
         },
         {
-          "match": "HbbTV\/*;Panasonic;DIGA WebKit M6346*",
+          "match": "HbbTV/*;Panasonic;DIGA WebKit M6346*",
           "device": "Panasonic DIGA M6346"
         }
       ]

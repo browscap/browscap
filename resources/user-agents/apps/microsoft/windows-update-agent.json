@@ -16,7 +16,7 @@
       },
       "children": [
         {
-          "match": "Windows-Update-Agent\/7.9*",
+          "match": "Windows-Update-Agent/7.9*",
           "properties": {
             "Version": "7.9",
             "MajorVer": "7",

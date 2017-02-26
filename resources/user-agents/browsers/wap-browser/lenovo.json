@@ -25,31 +25,31 @@
       },
       "children": [
         {
-          "match": "LENOVO-E368\/*S050\/WAP2.0 Profile"
+          "match": "LENOVO-E368/*S050/WAP2.0 Profile"
         },
         {
-          "match": "LENOVO-E700\/*\/WAP1.2.1 Profile"
+          "match": "LENOVO-E700/*/WAP1.2.1 Profile"
         },
         {
-          "match": "LENOVO-GYM\/1.0"
+          "match": "LENOVO-GYM/1.0"
         },
         {
-          "match": "LENOVO-I660\/*\/WAP1.2.1 Profile"
+          "match": "LENOVO-I660/*/WAP1.2.1 Profile"
         },
         {
-          "match": "LENOVO-I720\/*\/WAP1.2 Profile\/*"
+          "match": "LENOVO-I720/*/WAP1.2 Profile/*"
         },
         {
-          "match": "LENOVO-P708_ENG_FRE_A\/(2006.05.31)S276\/WAP1.2.1 Profile\/*"
+          "match": "LENOVO-P708_ENG_FRE_A/(2006.05.31)S276/WAP1.2.1 Profile/*"
         },
         {
-          "match": "LENOVO-P902\/*\/WAP2.0 *"
+          "match": "LENOVO-P902/*/WAP2.0 *"
         },
         {
-          "match": "LENOVO-V806\/*\/WAP2.0 *"
+          "match": "LENOVO-V806/*/WAP2.0 *"
         },
         {
-          "match": "LENOVO-i360\/*\/WAP2.0 Profile"
+          "match": "LENOVO-i360/*/WAP2.0 Profile"
         },
         {
           "match": "Lenovo G900"

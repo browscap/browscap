@@ -22,19 +22,19 @@
           }
         },
         {
-          "match": "NewsGator FetchLinks extension\/*",
+          "match": "NewsGator FetchLinks extension/*",
           "properties": {
             "Browser": "NewsGator FetchLinks"
           }
         },
         {
-          "match": "NewsGator\/*",
+          "match": "NewsGator/*",
           "properties": {
             "Browser": "NewsGator"
           }
         },
         {
-          "match": "NewsGatorOnline\/2.0*",
+          "match": "NewsGatorOnline/2.0*",
           "properties": {
             "Browser": "NewsGatorOnline",
             "Version": "2.0",
@@ -43,7 +43,7 @@
           }
         },
         {
-          "match": "NewsGatorOnline\/*",
+          "match": "NewsGatorOnline/*",
           "properties": {
             "Browser": "NewsGatorOnline"
           }

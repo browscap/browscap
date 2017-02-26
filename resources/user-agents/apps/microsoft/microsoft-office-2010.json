@@ -30,7 +30,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/4.0 (compatible; MSIE ?.0; #PLATFORM#Trident\/4.0; *MSOffice 14)",
+          "match": "Mozilla/4.0 (compatible; MSIE ?.0; #PLATFORM#Trident/4.0; *MSOffice 14)",
           "engine": "Trident_4",
           "platforms": [
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
@@ -41,7 +41,7 @@
           ]
         },
         {
-          "match": "Mozilla\/4.0 (compatible; MSIE ?.0; #PLATFORM#Trident\/5.0; *MSOffice 14)",
+          "match": "Mozilla/4.0 (compatible; MSIE ?.0; #PLATFORM#Trident/5.0; *MSOffice 14)",
           "engine": "Trident_5",
           "platforms": [
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
@@ -52,7 +52,7 @@
           ]
         },
         {
-          "match": "Mozilla\/4.0 (compatible; MSIE ?.0; #PLATFORM#Trident\/6.0; *MSOffice 14)",
+          "match": "Mozilla/4.0 (compatible; MSIE ?.0; #PLATFORM#Trident/6.0; *MSOffice 14)",
           "engine": "Trident_6",
           "platforms": [
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
@@ -63,7 +63,7 @@
           ]
         },
         {
-          "match": "Mozilla\/4.0 (compatible; MSIE ?.0; #PLATFORM#Trident\/7.0; *MSOffice 14)",
+          "match": "Mozilla/4.0 (compatible; MSIE ?.0; #PLATFORM#Trident/7.0; *MSOffice 14)",
           "engine": "Trident_7",
           "platforms": [
             "WinXPa_32", "WinXPb_x64", "WinXPb_64", "WinXPb_32",
@@ -74,7 +74,7 @@
           ]
         },
         {
-          "match": "Mozilla\/4.0 (compatible; MSIE ?.0; #PLATFORM#MSOffice 14)",
+          "match": "Mozilla/4.0 (compatible; MSIE ?.0; #PLATFORM#MSOffice 14)",
           "platforms": [
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
             "Win8_x64", "Win8_64", "Win8_32",
@@ -84,7 +84,7 @@
           ]
         },
         {
-          "match": "Microsoft Office\/14.0 (#PLATFORM#)",
+          "match": "Microsoft Office/14.0 (#PLATFORM#)",
           "platforms": [
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
             "Win8_x64", "Win8_64", "Win8_32",
@@ -94,7 +94,7 @@
           ]
         },
         {
-          "match": "Microsoft Office Mobile \/14.0",
+          "match": "Microsoft Office Mobile /14.0",
           "device": "general Mobile Phone (Touch)"
         }
       ]

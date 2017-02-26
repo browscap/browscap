@@ -24,7 +24,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Chrome\/* Crosswalk\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML* like Gecko) Chrome/* Crosswalk/* Safari/*",
           "platforms": [
             "Android_4_4", "Android_5_0", "Android_5_1", "Android_6_0", "Android_6_1", "Android_7_0", "Android_7_1", "Android"
           ]

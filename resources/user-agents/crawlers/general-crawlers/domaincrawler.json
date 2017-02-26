@@ -15,21 +15,21 @@
       },
       "children": [
         {
-          "match": "DomainCrawler\/1.*",
+          "match": "DomainCrawler/1.*",
           "properties": {
             "Version": "1.0",
             "MajorVer": "1"
           }
         },
         {
-          "match": "DomainCrawler\/2.*",
+          "match": "DomainCrawler/2.*",
           "properties": {
             "Version": "2.0",
             "MajorVer": "2"
           }
         },
         {
-          "match": "DomainCrawler\/*"
+          "match": "DomainCrawler/*"
         }
       ]
     }

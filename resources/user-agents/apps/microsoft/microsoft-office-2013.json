@@ -30,7 +30,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/4.0 (compatible; MSIE ?.0; #PLATFORM#Trident\/4.0; *MSOffice 15)",
+          "match": "Mozilla/4.0 (compatible; MSIE ?.0; #PLATFORM#Trident/4.0; *MSOffice 15)",
           "engine": "Trident_4",
           "platforms": [
             "Win10_x64_B", "Win10_64_B", "Win10_32_B",
@@ -44,7 +44,7 @@
           ]
         },
         {
-          "match": "Mozilla\/4.0 (compatible; MSIE ?.0; #PLATFORM#Trident\/5.0; *MSOffice 15)",
+          "match": "Mozilla/4.0 (compatible; MSIE ?.0; #PLATFORM#Trident/5.0; *MSOffice 15)",
           "engine": "Trident_5",
           "platforms": [
             "Win10_x64_B", "Win10_64_B", "Win10_32_B",
@@ -58,7 +58,7 @@
           ]
         },
         {
-          "match": "Mozilla\/4.0 (compatible; MSIE ?.0; #PLATFORM#Trident\/6.0; *MSOffice 15)",
+          "match": "Mozilla/4.0 (compatible; MSIE ?.0; #PLATFORM#Trident/6.0; *MSOffice 15)",
           "engine": "Trident_6",
           "platforms": [
             "Win10_x64_B", "Win10_64_B", "Win10_32_B",
@@ -72,7 +72,7 @@
           ]
         },
         {
-          "match": "Mozilla\/4.0 (compatible; MSIE ?.0; #PLATFORM#Trident\/7.0; *MSOffice 15)",
+          "match": "Mozilla/4.0 (compatible; MSIE ?.0; #PLATFORM#Trident/7.0; *MSOffice 15)",
           "engine": "Trident_7",
           "platforms": [
             "Win10_x64_B", "Win10_64_B", "Win10_32_B",
@@ -86,7 +86,7 @@
           ]
         },
         {
-          "match": "Mozilla\/4.0 (compatible; MSIE ?.0; #PLATFORM#MSOffice 15)",
+          "match": "Mozilla/4.0 (compatible; MSIE ?.0; #PLATFORM#MSOffice 15)",
           "platforms": [
             "Win10_x64_B", "Win10_64_B", "Win10_32_B",
             "Win10_x64", "Win10_64", "Win10_32",
@@ -99,7 +99,7 @@
           ]
         },
         {
-          "match": "Microsoft Office Mobile\/15.0",
+          "match": "Microsoft Office Mobile/15.0",
           "device": "general Mobile Phone (Touch)"
         }
       ]

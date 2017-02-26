@@ -27,7 +27,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (Freebox; Linux i686) AppleWebKit\/* (KHTML, like Gecko) Navigateur web\/1.0* Safari\/*",
+          "match": "Mozilla/5.0 (Freebox; Linux i686) AppleWebKit/* (KHTML, like Gecko) Navigateur web/1.0* Safari/*",
           "device": "FREE Freebox",
           "properties": {
             "Version": "1.0",
@@ -36,7 +36,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (Freebox; Linux i686) AppleWebKit\/* (KHTML, like Gecko) Navigateur web\/* Safari\/*",
+          "match": "Mozilla/5.0 (Freebox; Linux i686) AppleWebKit/* (KHTML, like Gecko) Navigateur web/* Safari/*",
           "device": "FREE Freebox"
         }
       ]

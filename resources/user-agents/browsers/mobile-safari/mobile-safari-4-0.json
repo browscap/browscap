@@ -28,7 +28,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (iPad#PLATFORM#)*AppleWebKit\/*(*KHTML* like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Mobile\/*Safari\/*",
+          "match": "Mozilla/5.0 (iPad#PLATFORM#)*AppleWebKit/*(*KHTML* like Gecko*)*Version/#MAJORVER#.#MINORVER#*Mobile/*Safari/*",
           "device": "iPad",
           "platforms": [
             "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
@@ -41,7 +41,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (iPhone#PLATFORM#)*AppleWebKit\/*(*KHTML* like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Mobile\/*Safari\/*",
+          "match": "Mozilla/5.0 (iPhone#PLATFORM#)*AppleWebKit/*(*KHTML* like Gecko*)*Version/#MAJORVER#.#MINORVER#*Mobile/*Safari/*",
           "device": "iPhone",
           "platforms": [
             "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
@@ -54,7 +54,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (iPod#PLATFORM#)*AppleWebKit\/*(*KHTML* like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Mobile\/*Safari\/*",
+          "match": "Mozilla/5.0 (iPod#PLATFORM#)*AppleWebKit/*(*KHTML* like Gecko*)*Version/#MAJORVER#.#MINORVER#*Mobile/*Safari/*",
           "device": "iPod Touch",
           "platforms": [
             "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
@@ -67,7 +67,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/*(*KHTML* like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Mobile\/*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#)*AppleWebKit/*(*KHTML* like Gecko*)*Version/#MAJORVER#.#MINORVER#*Mobile/*Safari/*",
           "platforms": [
             "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
             "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0",
@@ -79,140 +79,140 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (iPhone)*AppleWebKit\/*(*KHTML* like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Mobile\/*Safari\/*",
+          "match": "Mozilla/5.0 (iPhone)*AppleWebKit/*(*KHTML* like Gecko*)*Version/#MAJORVER#.#MINORVER#*Mobile/*Safari/*",
           "device": "iPhone",
           "platforms": [
             "iOS"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (*)*AppleWebKit\/*(*KHTML* like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Mobile\/*Safari\/*",
+          "match": "Mozilla/5.0 (*)*AppleWebKit/*(*KHTML* like Gecko*)*Version/#MAJORVER#.#MINORVER#*Mobile/*Safari/*",
           "platforms": [
             "iOS"
           ]
         },
         {
-          "match": "MobileSafari\/6??.* CFNetwork\/459*",
+          "match": "MobileSafari/6??.* CFNetwork/459*",
           "platforms": [
             "iOS_A_3_1"
           ]
         },
         {
-          "match": "MobileSafari\/6??.* CFNetwork\/467.12*",
+          "match": "MobileSafari/6??.* CFNetwork/467.12*",
           "platforms": [
             "iOS_A_3_2"
           ]
         },
         {
-          "match": "MobileSafari\/6??.* CFNetwork\/485.2*",
+          "match": "MobileSafari/6??.* CFNetwork/485.2*",
           "platforms": [
             "iOS_A_4_0"
           ]
         },
         {
-          "match": "MobileSafari\/6??.* CFNetwork\/485.10*",
+          "match": "MobileSafari/6??.* CFNetwork/485.10*",
           "platforms": [
             "iOS_A_4_1"
           ]
         },
         {
-          "match": "MobileSafari\/6??.* CFNetwork\/485.12*",
+          "match": "MobileSafari/6??.* CFNetwork/485.12*",
           "platforms": [
             "iOS_A_4_2"
           ]
         },
         {
-          "match": "MobileSafari\/6??.* CFNetwork\/485.13*",
+          "match": "MobileSafari/6??.* CFNetwork/485.13*",
           "platforms": [
             "iOS_A_4_3"
           ]
         },
         {
-          "match": "MobileSafari\/6??.* CFNetwork\/548.1*",
+          "match": "MobileSafari/6??.* CFNetwork/548.1*",
           "platforms": [
             "iOS_A_5_1"
           ]
         },
         {
-          "match": "MobileSafari\/6??.* CFNetwork\/548.0*",
+          "match": "MobileSafari/6??.* CFNetwork/548.0*",
           "platforms": [
             "iOS_A_5_0"
           ]
         },
         {
-          "match": "MobileSafari\/6??.* CFNetwork\/602*",
+          "match": "MobileSafari/6??.* CFNetwork/602*",
           "platforms": [
             "iOS_A_6_0"
           ]
         },
         {
-          "match": "MobileSafari\/6??.* CFNetwork\/609.1*",
+          "match": "MobileSafari/6??.* CFNetwork/609.1*",
           "platforms": [
             "iOS_A_6_1"
           ]
         },
         {
-          "match": "MobileSafari\/6??.* CFNetwork\/609*",
+          "match": "MobileSafari/6??.* CFNetwork/609*",
           "platforms": [
             "iOS_A_6_0"
           ]
         },
         {
-          "match": "MobileSafari\/6??.* CFNetwork\/672.0*",
+          "match": "MobileSafari/6??.* CFNetwork/672.0*",
           "platforms": [
             "iOS_A_7_0"
           ]
         },
         {
-          "match": "MobileSafari\/6??.* CFNetwork\/672.1*",
+          "match": "MobileSafari/6??.* CFNetwork/672.1*",
           "platforms": [
             "iOS_A_7_1"
           ]
         },
         {
-          "match": "MobileSafari\/6??.* CFNetwork\/711.0*",
+          "match": "MobileSafari/6??.* CFNetwork/711.0*",
           "platforms": [
             "iOS_A_8_0"
           ]
         },
         {
-          "match": "MobileSafari\/6??.* CFNetwork\/711.1*",
+          "match": "MobileSafari/6??.* CFNetwork/711.1*",
           "platforms": [
             "iOS_A_8_1"
           ]
         },
         {
-          "match": "MobileSafari\/6??.* CFNetwork\/711.2*",
+          "match": "MobileSafari/6??.* CFNetwork/711.2*",
           "platforms": [
             "iOS_A_8_2"
           ]
         },
         {
-          "match": "MobileSafari\/6??.* CFNetwork\/711.3*",
+          "match": "MobileSafari/6??.* CFNetwork/711.3*",
           "platforms": [
             "iOS_A_8_3"
           ]
         },
         {
-          "match": "MobileSafari\/6??.* CFNetwork\/711.4*",
+          "match": "MobileSafari/6??.* CFNetwork/711.4*",
           "platforms": [
             "iOS_A_8_4"
           ]
         },
         {
-          "match": "MobileSafari\/6??.* CFNetwork\/711.5*",
+          "match": "MobileSafari/6??.* CFNetwork/711.5*",
           "platforms": [
             "iOS_A_8_4"
           ]
         },
         {
-          "match": "MobileSafari\/6??.* CFNetwork\/758*",
+          "match": "MobileSafari/6??.* CFNetwork/758*",
           "platforms": [
             "iOS_A_9_0"
           ]
         },
         {
-          "match": "MobileSafari\/6??.* CFNetwork\/*",
+          "match": "MobileSafari/6??.* CFNetwork/*",
           "platforms": [
             "iOS"
           ]

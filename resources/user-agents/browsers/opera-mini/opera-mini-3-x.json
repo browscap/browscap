@@ -27,52 +27,52 @@
       },
       "children": [
         {
-          "match": "Opera\/*(Android*Opera Mini\/#MAJORVER#.#MINORVER#*",
+          "match": "Opera/*(Android*Opera Mini/#MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone (Touch)",
           "platforms": [
             "Android"
           ]
         },
         {
-          "match": "Opera\/*(BlackBerry*Opera Mini\/#MAJORVER#.#MINORVER#*",
+          "match": "Opera/*(BlackBerry*Opera Mini/#MAJORVER#.#MINORVER#*",
           "device": "Blackberry Blackberry",
           "platforms": [
             "RIMOS"
           ]
         },
         {
-          "match": "Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*",
+          "match": "Opera/*(J2ME/MIDP*Opera Mini/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "JAVA"
           ]
         },
         {
-          "match": "Opera\/*(Series 60*Opera Mini\/#MAJORVER#.#MINORVER#*",
+          "match": "Opera/*(Series 60*Opera Mini/#MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone",
           "platforms": [
             "SymbianOS"
           ]
         },
         {
-          "match": "Opera\/*(Windows Mobile*Opera Mini\/#MAJORVER#.#MINORVER#*",
+          "match": "Opera/*(Windows Mobile*Opera Mini/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "WinMobile"
           ]
         },
         {
-          "match": "Opera\/*(*BREW*Opera Mini\/#MAJORVER#.#MINORVER#*",
+          "match": "Opera/*(*BREW*Opera Mini/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "Brew"
           ]
         },
         {
-          "match": "Opera\/*(*Bada*Opera Mini\/#MAJORVER#.#MINORVER#*",
+          "match": "Opera/*(*Bada*Opera Mini/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "Bada_1_0"
           ]
         },
         {
-          "match": "* Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*",
+          "match": "* Opera/*(J2ME/MIDP*Opera Mini/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "JAVA"
           ]

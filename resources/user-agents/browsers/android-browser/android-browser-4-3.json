@@ -28,14 +28,14 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Lenovo B8080-H\/*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM#Lenovo B8080-H/*) AppleWebKit* (KHTML,*like Gecko*) Version/#MAJORVER#.#MINORVER#*Safari*",
           "device": "Lenovo B8080-H",
           "platforms": [
             "Android_4_3"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/*(*KHTML* like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM#)*AppleWebKit/*(*KHTML* like Gecko*)*Version/#MAJORVER#.#MINORVER#*Safari*",
           "platforms": [
             "Android_4_3", "Android"
           ]

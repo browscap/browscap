@@ -30,7 +30,7 @@
           "match": "Go * package http"
         },
         {
-          "match": "Go-http-client\/1.1*",
+          "match": "Go-http-client/1.1*",
           "properties": {
             "Version": "1.1",
             "MajorVer": "1",
@@ -38,7 +38,7 @@
           }
         },
         {
-          "match": "Go-http-client\/*"
+          "match": "Go-http-client/*"
         }
       ]
     }

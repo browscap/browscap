@@ -25,7 +25,7 @@
       },
       "children": [
         {
-          "match": "GSmart-S1205;Mozilla\/4.0 (*compatible*;*MSIE 6.0; PPC;240x400)"
+          "match": "GSmart-S1205;Mozilla/4.0 (*compatible*;*MSIE 6.0; PPC;240x400)"
         }
       ]
     }

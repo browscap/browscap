@@ -27,7 +27,7 @@
       },
       "children": [
         {
-          "match": "Tweetbot\/* CFNetwork\/*",
+          "match": "Tweetbot/* CFNetwork/*",
           "platforms": [
             "Darwin"
           ]

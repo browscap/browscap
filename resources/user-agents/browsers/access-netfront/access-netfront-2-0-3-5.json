@@ -27,115 +27,115 @@
       },
       "children": [
         {
-          "match": "Mozilla\/4.0 (#PLATFORM#NetFront\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/4.0 (#PLATFORM#NetFront/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "Brew"
           ]
         },
         {
-          "match": "Mozilla\/4.0 (MobilePhone *\/*NetFront\/#MAJORVER#.#MINORVER#*"
+          "match": "Mozilla/4.0 (MobilePhone */*NetFront/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "SonyEricssonC902\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*",
+          "match": "SonyEricssonC902/* Browser/NetFront/#MAJORVER#.#MINORVER#*",
           "device": "SonyEricsson C902"
         },
         {
-          "match": "SonyEricssonC905\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*",
+          "match": "SonyEricssonC905/* Browser/NetFront/#MAJORVER#.#MINORVER#*",
           "device": "SonyEricsson C905"
         },
         {
-          "match": "SonyEricssonJ10i2\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*",
+          "match": "SonyEricssonJ10i2/* Browser/NetFront/#MAJORVER#.#MINORVER#*",
           "device": "SonyEricsson J10i2"
         },
         {
-          "match": "SonyEricssonK800i\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*",
+          "match": "SonyEricssonK800i/* Browser/NetFront/#MAJORVER#.#MINORVER#*",
           "device": "SonyEricsson K800i"
         },
         {
-          "match": "SonyEricssonT715\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*",
+          "match": "SonyEricssonT715/* Browser/NetFront/#MAJORVER#.#MINORVER#*",
           "device": "SonyEricsson T715"
         },
         {
-          "match": "SonyEricssonU10i\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*",
+          "match": "SonyEricssonU10i/* Browser/NetFront/#MAJORVER#.#MINORVER#*",
           "device": "SonyEricsson U10i"
         },
         {
-          "match": "SonyEricssonU1i\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*",
+          "match": "SonyEricssonU1i/* Browser/NetFront/#MAJORVER#.#MINORVER#*",
           "device": "SonyEricsson U1i"
         },
         {
-          "match": "SonyEricssonU1iv\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*",
+          "match": "SonyEricssonU1iv/* Browser/NetFront/#MAJORVER#.#MINORVER#*",
           "device": "SonyEricsson U1iv"
         },
         {
-          "match": "SonyEricssonU5iv\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*",
+          "match": "SonyEricssonU5iv/* Browser/NetFront/#MAJORVER#.#MINORVER#*",
           "device": "SonyEricsson U5iv"
         },
         {
-          "match": "SonyEricssonU5u\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*",
+          "match": "SonyEricssonU5u/* Browser/NetFront/#MAJORVER#.#MINORVER#*",
           "device": "SonyEricsson U5u"
         },
         {
-          "match": "SonyEricssonU8i\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*",
+          "match": "SonyEricssonU8i/* Browser/NetFront/#MAJORVER#.#MINORVER#*",
           "device": "SonyEricsson U8i"
         },
         {
-          "match": "SonyEricssonW350i\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*",
+          "match": "SonyEricssonW350i/* Browser/NetFront/#MAJORVER#.#MINORVER#*",
           "device": "SonyEricsson W350i"
         },
         {
-          "match": "SonyEricssonW350iv\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*",
+          "match": "SonyEricssonW350iv/* Browser/NetFront/#MAJORVER#.#MINORVER#*",
           "device": "SonyEricsson W350iv"
         },
         {
-          "match": "SonyEricssonW580i\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*",
+          "match": "SonyEricssonW580i/* Browser/NetFront/#MAJORVER#.#MINORVER#*",
           "device": "SonyEricsson W580i"
         },
         {
-          "match": "SonyEricssonW595\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*",
+          "match": "SonyEricssonW595/* Browser/NetFront/#MAJORVER#.#MINORVER#*",
           "device": "SonyEricsson W595"
         },
         {
-          "match": "SonyEricssonW705\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*",
+          "match": "SonyEricssonW705/* Browser/NetFront/#MAJORVER#.#MINORVER#*",
           "device": "SonyEricsson W705"
         },
         {
-          "match": "SonyEricssonW760i\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*",
+          "match": "SonyEricssonW760i/* Browser/NetFront/#MAJORVER#.#MINORVER#*",
           "device": "SonyEricsson W760i"
         },
         {
-          "match": "SonyEricssonW980\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*",
+          "match": "SonyEricssonW980/* Browser/NetFront/#MAJORVER#.#MINORVER#*",
           "device": "SonyEricsson W980"
         },
         {
-          "match": "SonyEricssonW995\/* Browser\/NetFront\/#MAJORVER#.#MINORVER#*",
+          "match": "SonyEricssonW995/* Browser/NetFront/#MAJORVER#.#MINORVER#*",
           "device": "SonyEricsson W995"
         },
         {
-          "match": "Mozilla\/4.0 (compatible; Linux*NetFront\/#MAJORVER#.#MINORVER#* Kindle\/*",
+          "match": "Mozilla/4.0 (compatible; Linux*NetFront/#MAJORVER#.#MINORVER#* Kindle/*",
           "device": "Amazon Kindle"
         },
         {
-          "match": "SonyEricsson*\/* Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) *Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "SonyEricsson*/* Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML* like Gecko) *Version/#MAJORVER#.#MINORVER#*Safari/*",
           "device": "general Mobile Phone",
           "platforms": [
             "SymbianOS"
           ]
         },
         {
-          "match": "SAMSUNG* *NetFront\/#MAJORVER#.#MINORVER#*"
+          "match": "SAMSUNG* *NetFront/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "SEC-* *NetFront\/#MAJORVER#.#MINORVER#*"
+          "match": "SEC-* *NetFront/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "Mozilla\/4.0 (*) *NetFront\/#MAJORVER#.#MINORVER#*"
+          "match": "Mozilla/4.0 (*) *NetFront/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "Mozilla\/4.0 (*NetFront\/#MAJORVER#.#MINORVER#*)*"
+          "match": "Mozilla/4.0 (*NetFront/#MAJORVER#.#MINORVER#*)*"
         },
         {
-          "match": "*NetFront\/#MAJORVER#.#MINORVER#*"
+          "match": "*NetFront/#MAJORVER#.#MINORVER#*"
         }
       ]
     }

@@ -19,14 +19,14 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (compatible; sindice-fetcher\/0.1*",
+          "match": "Mozilla/5.0 (compatible; sindice-fetcher/0.1*",
           "properties": {
             "Version": "0.1",
             "MinorVer": "1"
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; sindice-fetcher\/*"
+          "match": "Mozilla/5.0 (compatible; sindice-fetcher/*"
         }
       ]
     }

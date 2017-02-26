@@ -22,7 +22,7 @@
           "match": "psbot-page*"
         },
         {
-          "match": "psbot\/*"
+          "match": "psbot/*"
         }
       ]
     }

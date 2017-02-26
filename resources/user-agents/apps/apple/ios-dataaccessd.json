@@ -22,7 +22,7 @@
       },
       "children": [
         {
-          "match": "#PLATFORM# (*) dataaccessd\/#MAJORVER#.#MINORVER#*",
+          "match": "#PLATFORM# (*) dataaccessd/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "iOS_J_5_1", "iOS_J_6_0", "iOS_J_6_1", "iOS_J_7_0", "iOS_J_7_1", "iOS_J_8_0", "iOS_J"
           ]

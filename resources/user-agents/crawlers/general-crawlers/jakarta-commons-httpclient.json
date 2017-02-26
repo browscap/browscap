@@ -19,13 +19,13 @@
       },
       "children": [
         {
-          "match": "Wepbot\/*(*)*Jakarta Commons-HttpClient\/*",
+          "match": "Wepbot/*(*)*Jakarta Commons-HttpClient/*",
           "properties": {
             "Browser": "Wepbot"
           }
         },
         {
-          "match": "Jakarta Commons-HttpClient\/3.0*",
+          "match": "Jakarta Commons-HttpClient/3.0*",
           "properties": {
             "Version": "3.0",
             "MajorVer": "3",
@@ -33,7 +33,7 @@
           }
         },
         {
-          "match": "Jakarta Commons-HttpClient\/3.1*",
+          "match": "Jakarta Commons-HttpClient/3.1*",
           "properties": {
             "Version": "3.1",
             "MajorVer": "3",
@@ -41,7 +41,7 @@
           }
         },
         {
-          "match": "Jakarta Commons-HttpClient\/*"
+          "match": "Jakarta Commons-HttpClient/*"
         }
       ]
     }

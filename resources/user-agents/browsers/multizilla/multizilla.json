@@ -27,7 +27,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko MultiZilla\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko MultiZilla/#MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
           "platforms": [
             "WinXPa_v2"

@@ -27,28 +27,28 @@
       },
       "children": [
         {
-          "match": "Opera\/*(Android*Opera Mini\/#MAJORVER#.#MINORVER#*",
+          "match": "Opera/*(Android*Opera Mini/#MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone (Touch)",
           "platforms": [
             "Android"
           ]
         },
         {
-          "match": "Opera\/*(MTK*Opera Mini\/#MAJORVER#.#MINORVER#*",
+          "match": "Opera/*(MTK*Opera Mini/#MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone (Touch)",
           "platforms": [
             "Android"
           ]
         },
         {
-          "match": "Opera\/*(BlackBerry*Opera Mini\/#MAJORVER#.#MINORVER#*",
+          "match": "Opera/*(BlackBerry*Opera Mini/#MAJORVER#.#MINORVER#*",
           "device": "Blackberry Blackberry",
           "platforms": [
             "RIMOS"
           ]
         },
         {
-          "match": "Opera\/*(iPhone*Opera Mini\/#MAJORVER#.#MINORVER#*",
+          "match": "Opera/*(iPhone*Opera Mini/#MAJORVER#.#MINORVER#*",
           "device": "iPhone",
           "engine": "WebKit",
           "platforms": [
@@ -56,7 +56,7 @@
           ]
         },
         {
-          "match": "Opera\/9.80 (J2ME\/iPhone;Opera Mini\/#MAJORVER#.#MINORVER#*",
+          "match": "Opera/9.80 (J2ME/iPhone;Opera Mini/#MAJORVER#.#MINORVER#*",
           "device": "iPhone",
           "engine": "WebKit",
           "platforms": [
@@ -64,7 +64,7 @@
           ]
         },
         {
-          "match": "Opera\/9.80 (J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*Windows NT*Version\/*",
+          "match": "Opera/9.80 (J2ME/MIDP*Opera Mini/#MAJORVER#.#MINORVER#*Windows NT*Version/*",
           "properties": {
             "isModified": "true"
           },
@@ -73,7 +73,7 @@
           ]
         },
         {
-          "match": "Opera\/9.80 (J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*Mac OS X*Version\/*",
+          "match": "Opera/9.80 (J2ME/MIDP*Opera Mini/#MAJORVER#.#MINORVER#*Mac OS X*Version/*",
           "properties": {
             "isModified": "true"
           },
@@ -82,7 +82,7 @@
           ]
         },
         {
-          "match": "Opera\/9.80 (*Windows NT*; Opera/9.80 (J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*Version\/*",
+          "match": "Opera/9.80 (*Windows NT*; Opera/9.80 (J2ME/MIDP*Opera Mini/#MAJORVER#.#MINORVER#*Version/*",
           "properties": {
             "isModified": "true"
           },
@@ -91,77 +91,77 @@
           ]
         },
         {
-          "match": "Opera\/9.80 (J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*HTC Legend*",
+          "match": "Opera/9.80 (J2ME/MIDP*Opera Mini/#MAJORVER#.#MINORVER#*HTC Legend*",
           "device": "HTC Legend",
           "platforms": [
             "JAVA"
           ]
         },
         {
-          "match": "Opera\/9.80 (J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*HTC_DesireHD_A9191*",
+          "match": "Opera/9.80 (J2ME/MIDP*Opera Mini/#MAJORVER#.#MINORVER#*HTC_DesireHD_A9191*",
           "device": "HTC Desire HD A9191",
           "platforms": [
             "JAVA"
           ]
         },
         {
-          "match": "Opera\/9.80 (J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*",
+          "match": "Opera/9.80 (J2ME/MIDP*Opera Mini/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "JAVA"
           ]
         },
         {
-          "match": "Opera\/9.60 (J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*",
+          "match": "Opera/9.60 (J2ME/MIDP*Opera Mini/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "JAVA"
           ]
         },
         {
-          "match": "Opera\/9.50 (J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*",
+          "match": "Opera/9.50 (J2ME/MIDP*Opera Mini/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "JAVA"
           ]
         },
         {
-          "match": "Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*",
+          "match": "Opera/*(J2ME/MIDP*Opera Mini/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "JAVA"
           ]
         },
         {
-          "match": "Opera\/*(Series 60*Opera Mini\/#MAJORVER#.#MINORVER#*",
+          "match": "Opera/*(Series 60*Opera Mini/#MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone",
           "platforms": [
             "SymbianOS"
           ]
         },
         {
-          "match": "Opera\/*(Windows Mobile*Opera Mini\/#MAJORVER#.#MINORVER#*",
+          "match": "Opera/*(Windows Mobile*Opera Mini/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "WinMobile"
           ]
         },
         {
-          "match": "Opera\/*(BREW*Opera Mini\/#MAJORVER#.#MINORVER#*Samsung SCH-U750*",
+          "match": "Opera/*(BREW*Opera Mini/#MAJORVER#.#MINORVER#*Samsung SCH-U750*",
           "device": "Samsung SCH-U750",
           "platforms": [
             "Brew"
           ]
         },
         {
-          "match": "Opera\/*(*BREW*Opera Mini\/#MAJORVER#.#MINORVER#*",
+          "match": "Opera/*(*BREW*Opera Mini/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "Brew"
           ]
         },
         {
-          "match": "Opera\/*(*Bada*Opera Mini\/#MAJORVER#.#MINORVER#*",
+          "match": "Opera/*(*Bada*Opera Mini/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "Bada_1_0"
           ]
         },
         {
-          "match": "* Opera\/*(J2ME\/MIDP*Opera Mini\/#MAJORVER#.#MINORVER#*",
+          "match": "* Opera/*(J2ME/MIDP*Opera Mini/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "JAVA"
           ]

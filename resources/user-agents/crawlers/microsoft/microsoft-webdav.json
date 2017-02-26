@@ -16,7 +16,7 @@
       },
       "children": [
         {
-          "match": "Microsoft-WebDAV-MiniRedir\/6.1*",
+          "match": "Microsoft-WebDAV-MiniRedir/6.1*",
           "properties": {
             "Version": "6.1",
             "MajorVer": "6",
@@ -24,7 +24,7 @@
           }
         },
         {
-          "match": "Microsoft-WebDAV-MiniRedir\/*"
+          "match": "Microsoft-WebDAV-MiniRedir/*"
         },
         {
           "match": "DavClnt*",

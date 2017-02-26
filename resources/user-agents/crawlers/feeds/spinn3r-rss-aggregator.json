@@ -17,7 +17,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#; aggregator:Tailrank (Spinn3r 2.3); *) Gecko*",
+          "match": "Mozilla/5.0 (#PLATFORM#; aggregator:Tailrank (Spinn3r 2.3); *) Gecko*",
           "engine": "Gecko",
           "device": "Linux Desktop",
           "properties": {
@@ -30,7 +30,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#; aggregator:Spinn3r (Spinn3r 3.0); *) Gecko*",
+          "match": "Mozilla/5.0 (#PLATFORM#; aggregator:Spinn3r (Spinn3r 3.0); *) Gecko*",
           "engine": "Gecko",
           "device": "Linux Desktop",
           "properties": {
@@ -43,7 +43,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#; aggregator:Spinn3r (Spinn3r 3.1); *) Gecko*",
+          "match": "Mozilla/5.0 (#PLATFORM#; aggregator:Spinn3r (Spinn3r 3.1); *) Gecko*",
           "engine": "Gecko",
           "device": "Linux Desktop",
           "properties": {
@@ -56,7 +56,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#; aggregator:Spinn3r (Spinn3r *); *) Gecko*",
+          "match": "Mozilla/5.0 (#PLATFORM#; aggregator:Spinn3r (Spinn3r *); *) Gecko*",
           "engine": "Gecko",
           "device": "Linux Desktop",
           "platforms": [
@@ -64,7 +64,7 @@
           ]
         },
         {
-          "match": "*Spinn3r*http:\/\/spinn3r.com\/robot*"
+          "match": "*Spinn3r*http://spinn3r.com/robot*"
         }
       ]
     }

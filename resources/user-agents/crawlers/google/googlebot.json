@@ -20,10 +20,10 @@
       },
       "children": [
         {
-          "match": "Googlebot\/Test*"
+          "match": "Googlebot/Test*"
         },
         {
-          "match": "GoogleBot\/*"
+          "match": "GoogleBot/*"
         },
         {
           "match": "googlebot-urlconsole",
@@ -44,7 +44,7 @@
           }
         },
         {
-          "match": "Googlebot-Video\/1.0*",
+          "match": "Googlebot-Video/1.0*",
           "properties": {
             "Browser": "Googlebot-Video",
             "Version": "1.0",

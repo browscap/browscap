@@ -22,13 +22,13 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) amarok\/#MAJORVER#.#MINORVER#* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML* like Gecko) amarok/#MAJORVER#.#MINORVER#* Safari/*",
           "platforms": [
             "Linux_64", "Linux_32", "Linux"
           ]
         },
         {
-          "match": "amarok\/#MAJORVER#.#MINORVER#*",
+          "match": "amarok/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "Linux"
           ]

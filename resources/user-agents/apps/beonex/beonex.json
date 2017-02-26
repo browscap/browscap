@@ -27,7 +27,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Beonex\/0.8*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Beonex/0.8*",
           "properties": {
             "Version": "0.8",
             "MajorVer": "0",
@@ -38,7 +38,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Beonex\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Beonex/*",
           "platforms": [
             "NT_2"
           ]

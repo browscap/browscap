@@ -19,7 +19,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (compatible; Yahoo! Verifier\/*)",
+          "match": "Mozilla/5.0 (compatible; Yahoo! Verifier/*)",
           "properties": {
             "Browser": "Yahoo! Verifier",
             "Version": "1.1",

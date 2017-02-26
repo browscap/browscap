@@ -21,7 +21,7 @@
       },
       "children": [
         {
-          "match": "Lotus-Notes\/#MAJORVER#.#MINORVER# ( Windows-NT )",
+          "match": "Lotus-Notes/#MAJORVER#.#MINORVER# ( Windows-NT )",
           "platforms": [
             "NT"
           ]

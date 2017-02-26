@@ -23,19 +23,19 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Safari\/* LG Browser\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML, like Gecko) Safari/* LG Browser/*",
           "platforms": [
             "Maemo_ARM"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (Web0S; Linux\/SmartTV) AppleWebKit\/* (KHTML, like Gecko) *Safari\/* LG Browser\/*",
+          "match": "Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/* (KHTML, like Gecko) *Safari/* LG Browser/*",
           "platforms": [
             "webOS_20"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (Web0S; Linux\/SmartTV) AppleWebKit\/* (KHTML, like Gecko) QtWebEngine\/* Chr0me\/* Safari\/* LG Browser\/*",
+          "match": "Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/* (KHTML, like Gecko) QtWebEngine/* Chr0me/* Safari/* LG Browser/*",
           "platforms": [
             "webOS_30"
           ]

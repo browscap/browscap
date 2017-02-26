@@ -24,44 +24,44 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (SMART-TV; X11; Linux armv7l) AppleWebkit\/* (KHTML* like Gecko) Chromium\/*Chrome\/*Safari\/*",
+          "match": "Mozilla/5.0 (SMART-TV; X11; Linux armv7l) AppleWebkit/* (KHTML* like Gecko) Chromium/*Chrome/*Safari/*",
           "device": "Smart-TV",
           "platforms": [
             "Linux"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (*Linux i686*) AppleWebKit\/* (KHTML* like Gecko)#PLATFORM#Chromium\/*Chrome\/*Safari\/*",
+          "match": "Mozilla/5.0 (*Linux i686*) AppleWebKit/* (KHTML* like Gecko)#PLATFORM#Chromium/*Chrome/*Safari/*",
           "platforms": [
             "Ubuntu_12_04"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (*Linux x86_64*) AppleWebKit\/* (KHTML* like Gecko)#PLATFORM#Chromium\/*Chrome\/*Safari\/*",
+          "match": "Mozilla/5.0 (*Linux x86_64*) AppleWebKit/* (KHTML* like Gecko)#PLATFORM#Chromium/*Chrome/*Safari/*",
           "platforms": [
             "Ubuntu_12_04_64"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (*Linux i686*) AppleWebKit\/* (KHTML* like Gecko) Ubuntu Chromium\/*Chrome\/*Safari\/*",
+          "match": "Mozilla/5.0 (*Linux i686*) AppleWebKit/* (KHTML* like Gecko) Ubuntu Chromium/*Chrome/*Safari/*",
           "platforms": [
             "Ubuntu_32"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (*Linux x86_64*) AppleWebKit\/* (KHTML* like Gecko) Ubuntu Chromium\/*Chrome\/*Safari\/*",
+          "match": "Mozilla/5.0 (*Linux x86_64*) AppleWebKit/* (KHTML* like Gecko) Ubuntu Chromium/*Chrome/*Safari/*",
           "platforms": [
             "Ubuntu_64"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (*Linux#PLATFORM#) AppleWebKit\/* Chromium\/*Safari\/*",
+          "match": "Mozilla/5.0 (*Linux#PLATFORM#) AppleWebKit/* Chromium/*Safari/*",
           "platforms": [
             "Ubuntu_14_04"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko)*Chromium\/*Chrome\/*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML* like Gecko)*Chromium/*Chrome/*Safari/*",
           "platforms": [
             "Ubuntu_64", "Ubuntu_32", "Ubuntu",
             "Linux_64", "Linux_32", "Linux"

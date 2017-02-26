@@ -24,21 +24,21 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#KFOT Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/* like Chrome\/* Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM#KFOT Build/*) AppleWebKit/* (KHTML,*like Gecko*) Silk/* like Chrome/* Safari*",
           "device": "Amazon KFOT",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#KFTT Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/* like Chrome\/* Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM#KFTT Build/*) AppleWebKit/* (KHTML,*like Gecko*) Silk/* like Chrome/* Safari*",
           "device": "Amazon KFTT",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#KFSOWI Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/* like Chrome\/* Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM#KFSOWI Build/*) AppleWebKit/* (KHTML,*like Gecko*) Silk/* like Chrome/* Safari*",
           "engine": "Blink",
           "device": "Amazon KFSOWI",
           "platforms": [
@@ -46,7 +46,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#KFTHWI Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/* like Chrome\/* Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM#KFTHWI Build/*) AppleWebKit/* (KHTML,*like Gecko*) Silk/* like Chrome/* Safari*",
           "engine": "Blink",
           "device": "Amazon KFTHWI",
           "platforms": [
@@ -54,7 +54,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#SD4930UR Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/* like Chrome\/* Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM#SD4930UR Build/*) AppleWebKit/* (KHTML,*like Gecko*) Silk/* like Chrome/* Safari*",
           "engine": "Blink",
           "device": "Amazon SD4930UR",
           "platforms": [
@@ -62,7 +62,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#KFASWI Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/* like Chrome\/* Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM#KFASWI Build/*) AppleWebKit/* (KHTML,*like Gecko*) Silk/* like Chrome/* Safari*",
           "engine": "Blink",
           "device": "Amazon KFASWI",
           "platforms": [
@@ -70,7 +70,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#KFFOWI Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/* like Chrome\/* Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM#KFFOWI Build/*) AppleWebKit/* (KHTML,*like Gecko*) Silk/* like Chrome/* Safari*",
           "engine": "Blink",
           "device": "Amazon KFFOWI",
           "platforms": [
@@ -78,14 +78,14 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/* like Chrome\/* Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML,*like Gecko*) Silk/* like Chrome/* Safari*",
           "engine": "Blink",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android_5_0", "Android_5_1"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (Linux; U; *; KFOT Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/* Safari*",
+          "match": "Mozilla/5.0 (Linux; U; *; KFOT Build/*) AppleWebKit/* (KHTML,*like Gecko*) Silk/* Safari*",
           "device": "Amazon KFOT",
           "properties": {
             "Browser_Modus": "Desktop Mode"
@@ -95,7 +95,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (Linux; U; *; KFTT Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/* Safari*",
+          "match": "Mozilla/5.0 (Linux; U; *; KFTT Build/*) AppleWebKit/* (KHTML,*like Gecko*) Silk/* Safari*",
           "device": "Amazon KFTT",
           "properties": {
             "Browser_Modus": "Desktop Mode"
@@ -105,7 +105,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (Linux; U; *; KFJWI Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/* Safari*",
+          "match": "Mozilla/5.0 (Linux; U; *; KFJWI Build/*) AppleWebKit/* (KHTML,*like Gecko*) Silk/* Safari*",
           "device": "Amazon KFJWI",
           "properties": {
             "Browser_Modus": "Desktop Mode"
@@ -115,7 +115,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (Linux; U; *; KFSOWI Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/* Safari*",
+          "match": "Mozilla/5.0 (Linux; U; *; KFSOWI Build/*) AppleWebKit/* (KHTML,*like Gecko*) Silk/* Safari*",
           "device": "Amazon KFSOWI",
           "properties": {
             "Browser_Modus": "Desktop Mode"
@@ -125,7 +125,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (Linux; U; *; KFTHWI Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/* Safari*",
+          "match": "Mozilla/5.0 (Linux; U; *; KFTHWI Build/*) AppleWebKit/* (KHTML,*like Gecko*) Silk/* Safari*",
           "device": "Amazon KFTHWI",
           "properties": {
             "Browser_Modus": "Desktop Mode"
@@ -135,7 +135,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (Linux; U; *; KFAPWI Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/* Safari*",
+          "match": "Mozilla/5.0 (Linux; U; *; KFAPWI Build/*) AppleWebKit/* (KHTML,*like Gecko*) Silk/* Safari*",
           "device": "Amazon KFAPWI",
           "properties": {
             "Browser_Modus": "Desktop Mode"
@@ -145,7 +145,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (Linux; U; *; KFJWA Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/* Safari*",
+          "match": "Mozilla/5.0 (Linux; U; *; KFJWA Build/*) AppleWebKit/* (KHTML,*like Gecko*) Silk/* Safari*",
           "device": "Amazon KFJWA",
           "properties": {
             "Browser_Modus": "Desktop Mode"
@@ -155,7 +155,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (Linux; U; *; KFAPWA Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/* Safari*",
+          "match": "Mozilla/5.0 (Linux; U; *; KFAPWA Build/*) AppleWebKit/* (KHTML,*like Gecko*) Silk/* Safari*",
           "device": "Amazon KFAPWA",
           "properties": {
             "Browser_Modus": "Desktop Mode"
@@ -165,7 +165,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (Linux; U; * Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/* Safari*",
+          "match": "Mozilla/5.0 (Linux; U; * Build/*) AppleWebKit/* (KHTML,*like Gecko*) Silk/* Safari*",
           "properties": {
             "Browser_Modus": "Desktop Mode"
           },

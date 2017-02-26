@@ -19,7 +19,7 @@
       },
       "children": [
         {
-          "match": "Interdose AntiSpamBot\/2.0*",
+          "match": "Interdose AntiSpamBot/2.0*",
           "properties": {
             "Version": "2.0",
             "MajorVer": "2",

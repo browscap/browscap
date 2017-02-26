@@ -17,253 +17,253 @@
       },
       "children": [
         {
-          "match": "TopPodcasts\/* CFNetwork\/459*",
+          "match": "TopPodcasts/* CFNetwork/459*",
           "platforms": [
             "iOS_A_3_1"
           ]
         },
         {
-          "match": "TopPodcasts\/* CFNetwork\/467.12*",
+          "match": "TopPodcasts/* CFNetwork/467.12*",
           "platforms": [
             "iOS_A_3_2"
           ]
         },
         {
-          "match": "TopPodcasts\/* CFNetwork\/485.2*",
+          "match": "TopPodcasts/* CFNetwork/485.2*",
           "platforms": [
             "iOS_A_4_0"
           ]
         },
         {
-          "match": "TopPodcasts\/* CFNetwork\/485.10*",
+          "match": "TopPodcasts/* CFNetwork/485.10*",
           "platforms": [
             "iOS_A_4_1"
           ]
         },
         {
-          "match": "TopPodcasts\/* CFNetwork\/485.12*",
+          "match": "TopPodcasts/* CFNetwork/485.12*",
           "platforms": [
             "iOS_A_4_2"
           ]
         },
         {
-          "match": "TopPodcasts\/* CFNetwork\/485.13*",
+          "match": "TopPodcasts/* CFNetwork/485.13*",
           "platforms": [
             "iOS_A_4_3"
           ]
         },
         {
-          "match": "TopPodcasts\/* CFNetwork\/548.1*",
+          "match": "TopPodcasts/* CFNetwork/548.1*",
           "platforms": [
             "iOS_A_5_1"
           ]
         },
         {
-          "match": "TopPodcasts\/* CFNetwork\/548.0*",
+          "match": "TopPodcasts/* CFNetwork/548.0*",
           "platforms": [
             "iOS_A_5_0"
           ]
         },
         {
-          "match": "TopPodcasts\/* CFNetwork\/602*",
+          "match": "TopPodcasts/* CFNetwork/602*",
           "platforms": [
             "iOS_A_6_0"
           ]
         },
         {
-          "match": "TopPodcasts\/* CFNetwork\/609.1*",
+          "match": "TopPodcasts/* CFNetwork/609.1*",
           "platforms": [
             "iOS_A_6_1"
           ]
         },
         {
-          "match": "TopPodcasts\/* CFNetwork\/609*",
+          "match": "TopPodcasts/* CFNetwork/609*",
           "platforms": [
             "iOS_A_6_0"
           ]
         },
         {
-          "match": "TopPodcasts\/* CFNetwork\/672.0*",
+          "match": "TopPodcasts/* CFNetwork/672.0*",
           "platforms": [
             "iOS_A_7_0"
           ]
         },
         {
-          "match": "TopPodcasts\/* CFNetwork\/672.1*",
+          "match": "TopPodcasts/* CFNetwork/672.1*",
           "platforms": [
             "iOS_A_7_1"
           ]
         },
         {
-          "match": "TopPodcasts\/* CFNetwork\/711.0*",
+          "match": "TopPodcasts/* CFNetwork/711.0*",
           "platforms": [
             "iOS_A_8_0"
           ]
         },
         {
-          "match": "TopPodcasts\/* CFNetwork\/711.1*",
+          "match": "TopPodcasts/* CFNetwork/711.1*",
           "platforms": [
             "iOS_A_8_1"
           ]
         },
         {
-          "match": "TopPodcasts\/* CFNetwork\/711.2*",
+          "match": "TopPodcasts/* CFNetwork/711.2*",
           "platforms": [
             "iOS_A_8_2"
           ]
         },
         {
-          "match": "TopPodcasts\/* CFNetwork\/711.3*",
+          "match": "TopPodcasts/* CFNetwork/711.3*",
           "platforms": [
             "iOS_A_8_3"
           ]
         },
         {
-          "match": "TopPodcasts\/* CFNetwork\/711.4*",
+          "match": "TopPodcasts/* CFNetwork/711.4*",
           "platforms": [
             "iOS_A_8_4"
           ]
         },
         {
-          "match": "TopPodcasts\/* CFNetwork\/711.5*",
+          "match": "TopPodcasts/* CFNetwork/711.5*",
           "platforms": [
             "iOS_A_8_4"
           ]
         },
         {
-          "match": "TopPodcasts\/* CFNetwork\/758*",
+          "match": "TopPodcasts/* CFNetwork/758*",
           "platforms": [
             "iOS_A_9_0"
           ]
         },
         {
-          "match": "TopPodcasts\/* CFNetwork\/*",
+          "match": "TopPodcasts/* CFNetwork/*",
           "platforms": [
             "iOS"
           ]
         },
         {
-          "match": "TopPodcastsPro\/* CFNetwork\/459*",
+          "match": "TopPodcastsPro/* CFNetwork/459*",
           "platforms": [
             "iOS_A_3_1"
           ]
         },
         {
-          "match": "TopPodcastsPro\/* CFNetwork\/467.12*",
+          "match": "TopPodcastsPro/* CFNetwork/467.12*",
           "platforms": [
             "iOS_A_3_2"
           ]
         },
         {
-          "match": "TopPodcastsPro\/* CFNetwork\/485.2*",
+          "match": "TopPodcastsPro/* CFNetwork/485.2*",
           "platforms": [
             "iOS_A_4_0"
           ]
         },
         {
-          "match": "TopPodcastsPro\/* CFNetwork\/485.10*",
+          "match": "TopPodcastsPro/* CFNetwork/485.10*",
           "platforms": [
             "iOS_A_4_1"
           ]
         },
         {
-          "match": "TopPodcastsPro\/* CFNetwork\/485.12*",
+          "match": "TopPodcastsPro/* CFNetwork/485.12*",
           "platforms": [
             "iOS_A_4_2"
           ]
         },
         {
-          "match": "TopPodcastsPro\/* CFNetwork\/485.13*",
+          "match": "TopPodcastsPro/* CFNetwork/485.13*",
           "platforms": [
             "iOS_A_4_3"
           ]
         },
         {
-          "match": "TopPodcastsPro\/* CFNetwork\/548.1*",
+          "match": "TopPodcastsPro/* CFNetwork/548.1*",
           "platforms": [
             "iOS_A_5_1"
           ]
         },
         {
-          "match": "TopPodcastsPro\/* CFNetwork\/548.0*",
+          "match": "TopPodcastsPro/* CFNetwork/548.0*",
           "platforms": [
             "iOS_A_5_0"
           ]
         },
         {
-          "match": "TopPodcastsPro\/* CFNetwork\/602*",
+          "match": "TopPodcastsPro/* CFNetwork/602*",
           "platforms": [
             "iOS_A_6_0"
           ]
         },
         {
-          "match": "TopPodcastsPro\/* CFNetwork\/609.1*",
+          "match": "TopPodcastsPro/* CFNetwork/609.1*",
           "platforms": [
             "iOS_A_6_1"
           ]
         },
         {
-          "match": "TopPodcastsPro\/* CFNetwork\/609*",
+          "match": "TopPodcastsPro/* CFNetwork/609*",
           "platforms": [
             "iOS_A_6_0"
           ]
         },
         {
-          "match": "TopPodcastsPro\/* CFNetwork\/672.0*",
+          "match": "TopPodcastsPro/* CFNetwork/672.0*",
           "platforms": [
             "iOS_A_7_0"
           ]
         },
         {
-          "match": "TopPodcastsPro\/* CFNetwork\/672.1*",
+          "match": "TopPodcastsPro/* CFNetwork/672.1*",
           "platforms": [
             "iOS_A_7_1"
           ]
         },
         {
-          "match": "TopPodcastsPro\/* CFNetwork\/711.0*",
+          "match": "TopPodcastsPro/* CFNetwork/711.0*",
           "platforms": [
             "iOS_A_8_0"
           ]
         },
         {
-          "match": "TopPodcastsPro\/* CFNetwork\/711.1*",
+          "match": "TopPodcastsPro/* CFNetwork/711.1*",
           "platforms": [
             "iOS_A_8_1"
           ]
         },
         {
-          "match": "TopPodcastsPro\/* CFNetwork\/711.2*",
+          "match": "TopPodcastsPro/* CFNetwork/711.2*",
           "platforms": [
             "iOS_A_8_2"
           ]
         },
         {
-          "match": "TopPodcastsPro\/* CFNetwork\/711.3*",
+          "match": "TopPodcastsPro/* CFNetwork/711.3*",
           "platforms": [
             "iOS_A_8_3"
           ]
         },
         {
-          "match": "TopPodcastsPro\/* CFNetwork\/711.4*",
+          "match": "TopPodcastsPro/* CFNetwork/711.4*",
           "platforms": [
             "iOS_A_8_4"
           ]
         },
         {
-          "match": "TopPodcastsPro\/* CFNetwork\/711.5*",
+          "match": "TopPodcastsPro/* CFNetwork/711.5*",
           "platforms": [
             "iOS_A_8_4"
           ]
         },
         {
-          "match": "TopPodcastsPro\/* CFNetwork\/758*",
+          "match": "TopPodcastsPro/* CFNetwork/758*",
           "platforms": [
             "iOS_A_9_0"
           ]
         },
         {
-          "match": "TopPodcastsPro\/* CFNetwork\/*",
+          "match": "TopPodcastsPro/* CFNetwork/*",
           "platforms": [
             "iOS"
           ]

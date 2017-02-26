@@ -19,7 +19,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (compatible; waybackarchive.org\/1.0*",
+          "match": "Mozilla/5.0 (compatible; waybackarchive.org/1.0*",
           "properties": {
             "Version": "1.0",
             "MajorVer": "1",
@@ -27,10 +27,10 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; waybackarchive.org\/*"
+          "match": "Mozilla/5.0 (compatible; waybackarchive.org/*"
         },
         {
-          "match": "Mozilla\/5.0 (compatible; archive.org_bot; Wayback Machine Live Record*"
+          "match": "Mozilla/5.0 (compatible; archive.org_bot; Wayback Machine Live Record*"
         }
       ]
     }

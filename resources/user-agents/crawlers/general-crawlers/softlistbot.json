@@ -16,7 +16,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (compatible; SoftListBot\/2.2*",
+          "match": "Mozilla/5.0 (compatible; SoftListBot/2.2*",
           "properties": {
             "Version": "2.2",
             "MajorVer": "2",
@@ -24,7 +24,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; SoftListBot\/*"
+          "match": "Mozilla/5.0 (compatible; SoftListBot/*"
         }
       ]
     }

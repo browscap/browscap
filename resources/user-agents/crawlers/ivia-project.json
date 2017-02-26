@@ -17,15 +17,15 @@
       },
       "children": [
         {
-          "match": "DataFountains\/DMOZ Downloader*",
+          "match": "DataFountains/DMOZ Downloader*",
           "properties": {
-            "Browser": "DataFountains\/DMOZ Downloader"
+            "Browser": "DataFountains/DMOZ Downloader"
           }
         },
         {
-          "match": "DataFountains\/DMOZ Feature Vector Corpus Creator*",
+          "match": "DataFountains/DMOZ Feature Vector Corpus Creator*",
           "properties": {
-            "Browser": "DataFountains\/DMOZ Feature Vector Corpus"
+            "Browser": "DataFountains/DMOZ Feature Vector Corpus"
           }
         }
       ]

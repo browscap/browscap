@@ -27,11 +27,11 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (Nintendo WiiU) AppleWebKit\/* (KHTML* like Gecko) NX\/#MAJORVER#.#MINORVER#* NintendoBrowser\/*",
+          "match": "Mozilla/5.0 (Nintendo WiiU) AppleWebKit/* (KHTML* like Gecko) NX/#MAJORVER#.#MINORVER#* NintendoBrowser/*",
           "device": "Nintendo WiiU"
         },
         {
-          "match": "HbbTV\/*Access;NetFront NX #MAJORVER#*Netfont webkit*",
+          "match": "HbbTV/*Access;NetFront NX #MAJORVER#*Netfont webkit*",
           "device": "general TV Device"
         }
       ]

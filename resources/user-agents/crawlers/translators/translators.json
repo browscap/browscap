@@ -23,7 +23,7 @@
           }
         },
         {
-          "match": "TeragramWebcrawler\/*",
+          "match": "TeragramWebcrawler/*",
           "properties": {
             "Browser": "TeragramWebcrawler",
             "Version": "1.0",
@@ -32,13 +32,13 @@
           }
         },
         {
-          "match": "WebIndexer\/* (Web Indexer*)",
+          "match": "WebIndexer/* (Web Indexer*)",
           "properties": {
             "Browser": "WorldLingo"
           }
         },
         {
-          "match": "WebIndexer\/* (Web Indexer; *)",
+          "match": "WebIndexer/* (Web Indexer; *)",
           "properties": {
             "Browser": "WorldLingo"
           }

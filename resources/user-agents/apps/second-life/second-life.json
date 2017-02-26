@@ -16,7 +16,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/4.0 (compatible; MSIE 7.0b; #PLATFORM#; SL Commerce Client v1.0*",
+          "match": "Mozilla/4.0 (compatible; MSIE 7.0b; #PLATFORM#; SL Commerce Client v1.0*",
           "engine": "Trident_4",
           "device": "Windows Desktop",
           "properties": {
@@ -30,7 +30,7 @@
           ]
         },
         {
-          "match": "Mozilla\/4.0 (compatible; MSIE 7.0b; #PLATFORM#; SL Commerce Client*",
+          "match": "Mozilla/4.0 (compatible; MSIE 7.0b; #PLATFORM#; SL Commerce Client*",
           "engine": "Trident_4",
           "device": "Windows Desktop",
           "properties": {
@@ -41,7 +41,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) SecondLife\/3.7* (Second Life *) Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML* like Gecko) SecondLife/3.7* (Second Life *) Safari/*",
           "engine": "WebKit",
           "device": "Windows Desktop",
           "properties": {
@@ -54,7 +54,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) SecondLife\/* (Second Life *) Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML* like Gecko) SecondLife/* (Second Life *) Safari/*",
           "engine": "WebKit",
           "device": "Windows Desktop",
           "platforms": [
@@ -62,7 +62,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) (SecondLife\/4.7* Chrome\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML* like Gecko) (SecondLife/4.7* Chrome/* Safari/*",
           "engine": "Blink",
           "device": "Windows Desktop",
           "properties": {
@@ -78,7 +78,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) (SecondLife\/* Chrome\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML* like Gecko) (SecondLife/* Chrome/* Safari/*",
           "engine": "Blink",
           "device": "Windows Desktop",
           "platforms": [

@@ -22,13 +22,13 @@
       },
       "children": [
         {
-          "match": "Mozilla\/4.0 (compatible; MSIE 5.01; GomezAgent #MAJORVER#.#MINORVER##PLATFORM#)*",
+          "match": "Mozilla/4.0 (compatible; MSIE 5.01; GomezAgent #MAJORVER#.#MINORVER##PLATFORM#)*",
           "platforms": [
             "NT"
           ]
         },
         {
-          "match": "Mozilla\/4.0 (*GomezAgent #MAJORVER#.#MINORVER##PLATFORM#)*",
+          "match": "Mozilla/4.0 (*GomezAgent #MAJORVER#.#MINORVER##PLATFORM#)*",
           "platforms": [
             "NT"
           ]

@@ -15,7 +15,7 @@
       },
       "children": [
         {
-          "match": "Banshee\/*"
+          "match": "Banshee/*"
         }
       ]
     }

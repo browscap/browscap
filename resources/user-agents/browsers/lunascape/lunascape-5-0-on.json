@@ -26,7 +26,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko*Firefox\/*Lunascape\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#)*Gecko*Firefox/*Lunascape/#MAJORVER#.#MINORVER#*",
           "engine": "Gecko",
           "device": "Linux Desktop",
           "platforms": [
@@ -34,7 +34,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko*Firefox\/*Lunascape\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#)*Gecko*Firefox/*Lunascape/#MAJORVER#.#MINORVER#*",
           "engine": "Gecko",
           "device": "Windows Desktop",
           "platforms": [
@@ -45,7 +45,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko*Firefox\/*Lunascape\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#)*Gecko*Firefox/*Lunascape/#MAJORVER#.#MINORVER#*",
           "engine": "Gecko",
           "device": "Macintosh",
           "platforms": [
@@ -54,7 +54,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko*Firefox\/*Lunascape\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#)*Gecko*Firefox/*Lunascape/#MAJORVER#.#MINORVER#*",
           "engine": "Gecko",
           "device": "general Desktop",
           "platforms": [
@@ -62,7 +62,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Trident\/7.0* rv:11.0; Lunascape #MAJORVER#.#MINORVER#*) like Gecko*",
+          "match": "Mozilla/5.0 (#PLATFORM#Trident/7.0* rv:11.0; Lunascape #MAJORVER#.#MINORVER#*) like Gecko*",
           "engine": "Trident_7",
           "device": "Windows Desktop",
           "platforms": [
@@ -74,7 +74,7 @@
           ]
         },
         {
-          "match": "Mozilla\/4.0 (compatible*; MSIE ?.0; #PLATFORM#Trident\/4.0*Mozilla\/4.0 (compatible*; MSIE 6.0*Lunascape #MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/4.0 (compatible*; MSIE ?.0; #PLATFORM#Trident/4.0*Mozilla/4.0 (compatible*; MSIE 6.0*Lunascape #MAJORVER#.#MINORVER#*",
           "engine": "Trident_4",
           "device": "Windows Desktop",
           "platforms": [
@@ -86,7 +86,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible; MSIE ?.0; #PLATFORM#Trident\/4.0*Mozilla\/4.0 (compatible; MSIE 6.0*Lunascape #MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (compatible; MSIE ?.0; #PLATFORM#Trident/4.0*Mozilla/4.0 (compatible; MSIE 6.0*Lunascape #MAJORVER#.#MINORVER#*",
           "engine": "Trident_4",
           "device": "Windows Desktop",
           "platforms": [
@@ -98,7 +98,7 @@
           ]
         },
         {
-          "match": "Mozilla\/4.0 (compatible*; MSIE ?.0; #PLATFORM#Mozilla\/4.0 (compatible*; MSIE 6.0*Lunascape #MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/4.0 (compatible*; MSIE ?.0; #PLATFORM#Mozilla/4.0 (compatible*; MSIE 6.0*Lunascape #MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
           "platforms": [
             "Win98_2", "Win2000_64", "Win2000_3", "Win2000", "WinXPa_x64", "WinXPa_64", "WinXPa_32",
@@ -109,7 +109,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible; MSIE ?.0; #PLATFORM#Mozilla\/4.0 (compatible; MSIE 6.0*Lunascape #MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (compatible; MSIE ?.0; #PLATFORM#Mozilla/4.0 (compatible; MSIE 6.0*Lunascape #MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
           "platforms": [
             "Win98_2", "Win2000_64", "Win2000_3", "Win2000", "WinXPa_x64", "WinXPa_64", "WinXPa_32",
@@ -120,7 +120,7 @@
           ]
         },
         {
-          "match": "Mozilla\/4.0 (compatible; MSIE ?.0; #PLATFORM#Trident\/5.0*Lunascape #MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/4.0 (compatible; MSIE ?.0; #PLATFORM#Trident/5.0*Lunascape #MAJORVER#.#MINORVER#*",
           "engine": "Trident_5",
           "device": "Windows Desktop",
           "platforms": [
@@ -132,7 +132,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible; MSIE ?.0*; #PLATFORM#Trident\/5.0*Lunascape #MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (compatible; MSIE ?.0*; #PLATFORM#Trident/5.0*Lunascape #MAJORVER#.#MINORVER#*",
           "engine": "Trident_5",
           "device": "Windows Desktop",
           "platforms": [
@@ -144,7 +144,7 @@
           ]
         },
         {
-          "match": "Mozilla\/4.0 (compatible; MSIE ?.0; #PLATFORM#Trident\/4.0*Lunascape #MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/4.0 (compatible; MSIE ?.0; #PLATFORM#Trident/4.0*Lunascape #MAJORVER#.#MINORVER#*",
           "engine": "Trident_4",
           "device": "Windows Desktop",
           "platforms": [
@@ -156,7 +156,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible; MSIE ?.0*; #PLATFORM#Trident\/4.0*Lunascape #MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (compatible; MSIE ?.0*; #PLATFORM#Trident/4.0*Lunascape #MAJORVER#.#MINORVER#*",
           "engine": "Trident_4",
           "device": "Windows Desktop",
           "platforms": [
@@ -168,7 +168,7 @@
           ]
         },
         {
-          "match": "Mozilla\/4.0 (compatible; MSIE ?.0; #PLATFORM#Lunascape #MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/4.0 (compatible; MSIE ?.0; #PLATFORM#Lunascape #MAJORVER#.#MINORVER#*",
           "engine": "Trident",
           "device": "Windows Desktop",
           "platforms": [
@@ -180,7 +180,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible; MSIE ?.0*; #PLATFORM#Lunascape #MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (compatible; MSIE ?.0*; #PLATFORM#Lunascape #MAJORVER#.#MINORVER#*",
           "engine": "Trident",
           "device": "Windows Desktop",
           "platforms": [
@@ -192,7 +192,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko*) Lunascape\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML* like Gecko*) Lunascape/#MAJORVER#.#MINORVER#*",
           "engine": "WebKit",
           "device": "Windows Desktop",
           "platforms": [

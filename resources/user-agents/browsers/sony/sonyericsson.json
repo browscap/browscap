@@ -23,19 +23,19 @@
       },
       "children": [
         {
-          "match": "EricssonA2628s\/*",
+          "match": "EricssonA2628s/*",
           "device": "Ericsson A2628s"
         },
         {
-          "match": "EricssonR520\/*",
+          "match": "EricssonR520/*",
           "device": "Ericsson R520"
         },
         {
-          "match": "EricssonT20\/*",
+          "match": "EricssonT20/*",
           "device": "Ericsson T20"
         },
         {
-          "match": "EricssonT39\/*",
+          "match": "EricssonT39/*",
           "device": "Ericsson T39"
         },
         {
@@ -47,31 +47,31 @@
           "device": "Ericsson T68"
         },
         {
-          "match": "SonyEricssonC510\/R1*(SymbianOS\/*",
+          "match": "SonyEricssonC510/R1*(SymbianOS/*",
           "device": "SonyEricsson C510"
         },
         {
-          "match": "SonyEricssonC902\/*(SymbianOS\/*",
+          "match": "SonyEricssonC902/*(SymbianOS/*",
           "device": "SonyEricsson C902"
         },
         {
-          "match": "SonyEricssonC905\/*(SymbianOS\/*",
+          "match": "SonyEricssonC905/*(SymbianOS/*",
           "device": "SonyEricsson C905"
         },
         {
-          "match": "SonyEricssonJ10i2\/*(SymbianOS\/*",
+          "match": "SonyEricssonJ10i2/*(SymbianOS/*",
           "device": "SonyEricsson J10i2"
         },
         {
-          "match": "SonyEricssonJ200i\/*",
+          "match": "SonyEricssonJ200i/*",
           "device": "SonyEricsson J200i"
         },
         {
-          "match": "SonyEricssonJ210c\/*",
+          "match": "SonyEricssonJ210c/*",
           "device": "SonyEricsson J210c"
         },
         {
-          "match": "SonyEricssonJ210i\/*",
+          "match": "SonyEricssonJ210i/*",
           "device": "SonyEricsson J210i"
         },
         {
@@ -79,75 +79,75 @@
           "device": "SonyEricsson K550i"
         },
         {
-          "match": "SonyEricssonK800i\/*(SymbianOS\/*",
+          "match": "SonyEricssonK800i/*(SymbianOS/*",
           "device": "SonyEricsson K800i"
         },
         {
-          "match": "SonyEricssonT715\/*(SymbianOS\/*",
+          "match": "SonyEricssonT715/*(SymbianOS/*",
           "device": "SonyEricsson T715"
         },
         {
-          "match": "SonyEricssonU10i\/*(SymbianOS\/*",
+          "match": "SonyEricssonU10i/*(SymbianOS/*",
           "device": "SonyEricsson U10i"
         },
         {
-          "match": "SonyEricssonU1i\/*(SymbianOS\/*",
+          "match": "SonyEricssonU1i/*(SymbianOS/*",
           "device": "SonyEricsson U1i"
         },
         {
-          "match": "SonyEricssonU1iv\/*(SymbianOS\/*",
+          "match": "SonyEricssonU1iv/*(SymbianOS/*",
           "device": "SonyEricsson U1iv"
         },
         {
-          "match": "SonyEricssonU5iv\/*(SymbianOS\/*",
+          "match": "SonyEricssonU5iv/*(SymbianOS/*",
           "device": "SonyEricsson U5iv"
         },
         {
-          "match": "SonyEricssonU5u\/*(SymbianOS\/*",
+          "match": "SonyEricssonU5u/*(SymbianOS/*",
           "device": "SonyEricsson U5u"
         },
         {
-          "match": "SonyEricssonU8a\/*(SymbianOS\/*",
+          "match": "SonyEricssonU8a/*(SymbianOS/*",
           "device": "SonyEricsson U8a"
         },
         {
-          "match": "SonyEricssonU8i\/*(SymbianOS\/*",
+          "match": "SonyEricssonU8i/*(SymbianOS/*",
           "device": "SonyEricsson U8i"
         },
         {
-          "match": "SonyEricssonW350i\/*(SymbianOS\/*",
+          "match": "SonyEricssonW350i/*(SymbianOS/*",
           "device": "SonyEricsson W350i"
         },
         {
-          "match": "SonyEricssonW350iv\/*(SymbianOS\/*",
+          "match": "SonyEricssonW350iv/*(SymbianOS/*",
           "device": "SonyEricsson W350iv"
         },
         {
-          "match": "SonyEricssonW580i\/*",
+          "match": "SonyEricssonW580i/*",
           "device": "SonyEricsson W580i"
         },
         {
-          "match": "SonyEricssonW595\/*(SymbianOS\/*",
+          "match": "SonyEricssonW595/*(SymbianOS/*",
           "device": "SonyEricsson W595"
         },
         {
-          "match": "SonyEricssonW705\/*(SymbianOS\/*",
+          "match": "SonyEricssonW705/*(SymbianOS/*",
           "device": "SonyEricsson W705"
         },
         {
-          "match": "SonyEricssonW760i\/*(SymbianOS\/*",
+          "match": "SonyEricssonW760i/*(SymbianOS/*",
           "device": "SonyEricsson W760i"
         },
         {
-          "match": "SonyEricssonW910i\/R1FA*",
+          "match": "SonyEricssonW910i/R1FA*",
           "device": "SonyEricsson W910i"
         },
         {
-          "match": "SonyEricssonW980\/*(SymbianOS\/*",
+          "match": "SonyEricssonW980/*(SymbianOS/*",
           "device": "SonyEricsson W980"
         },
         {
-          "match": "SonyEricssonW995\/*(SymbianOS\/*",
+          "match": "SonyEricssonW995/*(SymbianOS/*",
           "device": "SonyEricsson W995"
         }
       ]

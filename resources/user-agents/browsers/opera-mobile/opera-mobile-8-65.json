@@ -28,19 +28,19 @@
       },
       "children": [
         {
-          "match": "Mozilla\/4.0 (compatible; MSIE#PLATFORM#)*Opera?#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/4.0 (compatible; MSIE#PLATFORM#)*Opera?#MAJORVER#.#MINORVER#*",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible; MSIE#PLATFORM#)*Opera?#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (compatible; MSIE#PLATFORM#)*Opera?#MAJORVER#.#MINORVER#*",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible; MSIE*Windows NT 5.1*)*Opera?#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (compatible; MSIE*Windows NT 5.1*)*Opera?#MAJORVER#.#MINORVER#*",
           "properties": {
             "Browser_Modus": "Desktop Mode"
           },
@@ -49,7 +49,7 @@
           ]
         },
         {
-          "match": "Mozilla\/4.0 (compatible; MSIE*Windows NT 5.1*)*Opera?#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/4.0 (compatible; MSIE*Windows NT 5.1*)*Opera?#MAJORVER#.#MINORVER#*",
           "properties": {
             "Browser_Modus": "Desktop Mode"
           },
@@ -58,57 +58,57 @@
           ]
         },
         {
-          "match": "SonyEricssonG700\/* Mozilla\/4.0 (*compatible*;*MSIE 6.0; Symbian OS*Opera #MAJORVER#.#MINORVER#*",
+          "match": "SonyEricssonG700/* Mozilla/4.0 (*compatible*;*MSIE 6.0; Symbian OS*Opera #MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone",
           "platforms": [
             "SymbianOS"
           ]
         },
         {
-          "match": "SonyEricssonG900\/* Mozilla\/4.0 (*compatible*;*MSIE 6.0; Symbian OS*Opera #MAJORVER#.#MINORVER#*",
+          "match": "SonyEricssonG900/* Mozilla/4.0 (*compatible*;*MSIE 6.0; Symbian OS*Opera #MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone",
           "platforms": [
             "SymbianOS"
           ]
         },
         {
-          "match": "SonyEricssonG900\/* Mozilla\/4.0 (*compatible*;*MSIE 6.0; Symbian OS; 9*Opera #MAJORVER#.#MINORVER#*",
+          "match": "SonyEricssonG900/* Mozilla/4.0 (*compatible*;*MSIE 6.0; Symbian OS; 9*Opera #MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone",
           "platforms": [
             "SymbianOS"
           ]
         },
         {
-          "match": "SonyEricssonP1i\/* Mozilla\/4.0 (compatible*; MSIE 6.0; Symbian OS; *) Opera #MAJORVER#.#MINORVER#*",
+          "match": "SonyEricssonP1i/* Mozilla/4.0 (compatible*; MSIE 6.0; Symbian OS; *) Opera #MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone",
           "platforms": [
             "SymbianOS"
           ]
         },
         {
-          "match": "SonyEricssonP990i\/R100 Mozilla\/4.0 (compatible*; MSIE 6.0; Symbian OS; *) Opera #MAJORVER#.#MINORVER#*",
+          "match": "SonyEricssonP990i/R100 Mozilla/4.0 (compatible*; MSIE 6.0; Symbian OS; *) Opera #MAJORVER#.#MINORVER#*",
           "device": "SonyEricsson P990i",
           "platforms": [
             "SymbianOS"
           ]
         },
         {
-          "match": "MOT-MOTORAZRV9x\/9E.03.* BER2.2 Mozilla\/4.0 (*compatible*;*MSIE 6.0*  Opera #MAJORVER#.#MINORVER#*"
+          "match": "MOT-MOTORAZRV9x/9E.03.* BER2.2 Mozilla/4.0 (*compatible*;*MSIE 6.0*  Opera #MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "MOT-RAZRV3XXR_J\/97.04.30R* BER2.2 Mozilla\/4.0 (*compatible*;*MSIE 6.0*  Opera #MAJORVER#.#MINORVER#*"
+          "match": "MOT-RAZRV3XXR_J/97.04.30R* BER2.2 Mozilla/4.0 (*compatible*;*MSIE 6.0*  Opera #MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "MOT-RAZRV3xxR\/97.04.2BR BER2.2 Mozilla\/4.0 (*compatible*;*MSIE 6.0*  Opera #MAJORVER#.#MINORVER#*"
+          "match": "MOT-RAZRV3xxR/97.04.2BR BER2.2 Mozilla/4.0 (*compatible*;*MSIE 6.0*  Opera #MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "MOT-Q9\/01.02.23R Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE*Opera #MAJORVER#.#MINORVER#*",
+          "match": "MOT-Q9/01.02.23R Mozilla/4.0 (*compatible*;*MSIE 6.0; Windows CE*Opera #MAJORVER#.#MINORVER#*",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "MOT-Q9\/APVER  Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; Smartphone; 240x320) Opera #MAJORVER#.#MINORVER#*",
+          "match": "MOT-Q9/APVER  Mozilla/4.0 (*compatible*;*MSIE 6.0; Windows CE; Smartphone; 240x320) Opera #MAJORVER#.#MINORVER#*",
           "platforms": [
             "WinCE"
           ]

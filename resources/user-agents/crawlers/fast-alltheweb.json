@@ -1,15 +1,15 @@
 {
-  "division": "Fast\/AllTheWeb",
+  "division": "Fast/AllTheWeb",
   "sortIndex": 150,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "Fast\/AllTheWeb",
+      "userAgent": "Fast/AllTheWeb",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Fast\/AllTheWeb",
-        "Browser": "Fast\/AllTheWeb",
+        "Comment": "Fast/AllTheWeb",
+        "Browser": "Fast/AllTheWeb",
         "Browser_Type": "Bot/Crawler",
         "Frames": "true",
         "Tables": "true",
@@ -23,7 +23,7 @@
           }
         },
         {
-          "match": "FAST Data Search Document Retriever\/4.0*",
+          "match": "FAST Data Search Document Retriever/4.0*",
           "properties": {
             "Browser": "FAST Data Search Document Retriever"
           }
@@ -41,33 +41,33 @@
           }
         },
         {
-          "match": "FAST-WebCrawler\/*",
+          "match": "FAST-WebCrawler/*",
           "properties": {
             "Browser": "FAST-WebCrawler"
           }
         },
         {
-          "match": "FAST-WebCrawler\/*\/FirstPage*",
+          "match": "FAST-WebCrawler/*/FirstPage*",
           "properties": {
-            "Browser": "FAST-WebCrawler\/FirstPage"
+            "Browser": "FAST-WebCrawler/FirstPage"
           }
         },
         {
-          "match": "FAST-WebCrawler\/*\/Fresh*",
+          "match": "FAST-WebCrawler/*/Fresh*",
           "properties": {
-            "Browser": "FAST-WebCrawler\/Fresh"
+            "Browser": "FAST-WebCrawler/Fresh"
           }
         },
         {
-          "match": "FAST-WebCrawler\/*\/PartnerSite*",
+          "match": "FAST-WebCrawler/*/PartnerSite*",
           "properties": {
             "Browser": "FAST PartnerSite"
           }
         },
         {
-          "match": "FAST-WebCrawler\/*?Multimedia*",
+          "match": "FAST-WebCrawler/*?Multimedia*",
           "properties": {
-            "Browser": "FAST-WebCrawler\/Multimedia"
+            "Browser": "FAST-WebCrawler/Multimedia"
           }
         },
         {
@@ -77,7 +77,7 @@
           }
         },
         {
-          "match": "Fast Crawler v X(compatible; Konqueror\/*; FreeBSD) (KHTML,*like Gecko*)"
+          "match": "Fast Crawler v X(compatible; Konqueror/*; FreeBSD) (KHTML,*like Gecko*)"
         }
       ]
     }
