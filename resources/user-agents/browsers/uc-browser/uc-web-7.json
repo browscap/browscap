@@ -91,7 +91,7 @@
           ]
         },
         {
-          "match": "#DEVICE#\/UC Browser#MAJORVER#.#MINORVER#*",
+          "match": "#DEVICE#/UC Browser#MAJORVER#.#MINORVER#*",
           "devices": {
             "NokiaE63": "Nokia E63",
             "NokiaN73": "Nokia N73",
@@ -102,7 +102,7 @@
           }
         },
         {
-          "match": "#DEVICE#\/UC Browser#MAJORVER#.#MINORVER#*",
+          "match": "#DEVICE#/UC Browser#MAJORVER#.#MINORVER#*",
           "devices": {
             "Nokia5230": "Nokia 5230",
             "nokia6120c": "Nokia 6120c"
@@ -112,21 +112,21 @@
           ]
         },
         {
-          "match": "S8500 UCWEB6.0\/UC Browser#MAJORVER#.#MINORVER#*",
+          "match": "S8500 UCWEB6.0/UC Browser#MAJORVER#.#MINORVER#*",
           "device": "Samsung S8500",
           "platforms": [
             "Bada"
           ]
         },
         {
-          "match": "IUC(U;iOS 4.3*)\/UCWEB#MAJORVER#.#MINORVER#*",
+          "match": "IUC(U;iOS 4.3*)/UCWEB#MAJORVER#.#MINORVER#*",
           "device": "iPod Touch",
           "platforms": [
             "iOS_G_4_3"
           ]
         },
         {
-          "match": "LG-KS20* Browser\/IEMobile\/* MMS\/LG-MMS-WINCE* (compatible; MSIE 4.01; Windows CE*)\/UC Browser#MAJORVER#.#MINORVER#*",
+          "match": "LG-KS20* Browser/IEMobile/* MMS/LG-MMS-WINCE* (compatible; MSIE 4.01; Windows CE*)/UC Browser#MAJORVER#.#MINORVER#*",
           "engine": "Trident",
           "device": "LG KS20",
           "platforms": [
@@ -134,14 +134,14 @@
           ]
         },
         {
-          "match": "NokiaC1-01\/* Profile\/MIDP* nokiac1-01\/UC Browser#MAJORVER#.#MINORVER#*",
+          "match": "NokiaC1-01/* Profile/MIDP* nokiac1-01/UC Browser#MAJORVER#.#MINORVER#*",
           "device": "Nokia C1-01",
           "platforms": [
             "JAVA"
           ]
         },
         {
-          "match": "*\/UC Browser#MAJORVER#.#MINORVER#*"
+          "match": "*/UC Browser#MAJORVER#.#MINORVER#*"
         }
       ]
     }
