@@ -30759,7 +30759,7 @@
       }
     },
     "Xiaomi Mi Pad": {
-      "standard": false,
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Mi Pad",
@@ -35608,7 +35608,7 @@
       }
     },
     "iRulu X11": {
-      "standard": false,
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "eXpro X1s",
@@ -38247,7 +38247,7 @@
       }
     },
     "Hisense F5281": {
-      "standard": false,
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Sero 8 Pro",
@@ -39118,7 +39118,7 @@
       }
     },
     "Quanta QTAQZ3": {
-      "standard": false,
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Ellipsis 8",
@@ -39157,7 +39157,7 @@
       }
     },
     "Cmx Aquila 080-1008": {
-      "standard": false,
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Aquila 080-1008",
@@ -39183,7 +39183,7 @@
       }
     },
     "Google Pixel C": {
-      "standard": false,
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Pixel C",
@@ -39222,7 +39222,7 @@
       }
     },
     "Advan T1X Plus": {
-      "standard": false,
+      "standard": true,
       "properties": {
         "Device_Type": "Tablet",
         "Device_Name": "Barca Tab 7",
@@ -39245,6 +39245,19 @@
         "Device_Brand_Name": "iPro",
         "isMobileDevice": "true",
         "isTablet": "false"
+      }
+    },
+    "Kobo Arc": {
+      "standard": true,
+      "properties": {
+        "Device_Type": "Tablet",
+        "Device_Name": "Arc",
+        "Device_Code_Name": "Arc",
+        "Device_Maker": "Kobo",
+        "Device_Pointing_Method": "touchscreen",
+        "Device_Brand_Name": "Kobo",
+        "isMobileDevice": "true",
+        "isTablet": "true"
       }
     }
   }
