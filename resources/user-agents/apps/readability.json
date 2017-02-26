@@ -15,7 +15,7 @@
       },
       "children": [
         {
-          "match": "Readability\/*"
+          "match": "Readability/*"
         }
       ]
     }

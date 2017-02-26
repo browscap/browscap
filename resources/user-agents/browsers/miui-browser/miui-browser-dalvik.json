@@ -28,14 +28,14 @@
       },
       "children": [
         {
-          "match": "Dalvik\/1.6* (*Linux*Android* MI PAD#PLATFORM#)",
+          "match": "Dalvik/1.6* (*Linux*Android* MI PAD#PLATFORM#)",
           "device": "Xiaomi Mi Pad",
           "platforms": [
             "Miui_OS_Dynamic"
           ]
         },
         {
-          "match": "Dalvik\/1.6* (*Linux*Android* #PLATFORM#)",
+          "match": "Dalvik/1.6* (*Linux*Android* #PLATFORM#)",
           "platforms": [
             "Miui_OS_Dynamic"
           ]

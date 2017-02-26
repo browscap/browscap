@@ -27,28 +27,28 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0*(iPad#PLATFORM#) AppleWebKit* (KHTML* like Gecko)",
+          "match": "Mozilla/5.0*(iPad#PLATFORM#) AppleWebKit* (*khtml*like*gecko*)",
           "device": "iPad",
           "platforms": [
             "iOS_A", "iOS_C"
           ]
         },
         {
-          "match": "Mozilla\/5.0*(iPhone#PLATFORM#) AppleWebKit* (KHTML* like Gecko)",
+          "match": "Mozilla/5.0*(iPhone#PLATFORM#) AppleWebKit* (*khtml*like*gecko*)",
           "device": "iPhone",
           "platforms": [
             "iOS_A", "iOS_C"
           ]
         },
         {
-          "match": "Mozilla\/5.0*(iPod#PLATFORM#) AppleWebKit* (KHTML* like Gecko)",
+          "match": "Mozilla/5.0*(iPod#PLATFORM#) AppleWebKit* (*khtml*like*gecko*)",
           "device": "iPod Touch",
           "platforms": [
             "iOS_A", "iOS_C"
           ]
         },
         {
-          "match": "Mozilla\/5.0*(#PLATFORM#) AppleWebKit* (KHTML* like Gecko)",
+          "match": "Mozilla/5.0*(#PLATFORM#) AppleWebKit* (*khtml*like*gecko*)",
           "platforms": [
             "iOS_A", "iOS_C"
           ]
@@ -78,127 +78,127 @@
       },
       "children": [
         {
-          "match": "Mail\/* CFNetwork\/459*",
+          "match": "Mail/* CFNetwork/459*",
           "platforms": [
             "iOS_A_3_1"
           ]
         },
         {
-          "match": "Mail\/* CFNetwork\/467.12*",
+          "match": "Mail/* CFNetwork/467.12*",
           "platforms": [
             "iOS_A_3_2"
           ]
         },
         {
-          "match": "Mail\/* CFNetwork\/485.2*",
+          "match": "Mail/* CFNetwork/485.2*",
           "platforms": [
             "iOS_A_4_0"
           ]
         },
         {
-          "match": "Mail\/* CFNetwork\/485.10*",
+          "match": "Mail/* CFNetwork/485.10*",
           "platforms": [
             "iOS_A_4_1"
           ]
         },
         {
-          "match": "Mail\/* CFNetwork\/485.12*",
+          "match": "Mail/* CFNetwork/485.12*",
           "platforms": [
             "iOS_A_4_2"
           ]
         },
         {
-          "match": "Mail\/* CFNetwork\/485.13*",
+          "match": "Mail/* CFNetwork/485.13*",
           "platforms": [
             "iOS_A_4_3"
           ]
         },
         {
-          "match": "Mail\/* CFNetwork\/548.1*",
+          "match": "Mail/* CFNetwork/548.1*",
           "platforms": [
             "iOS_A_5_1"
           ]
         },
         {
-          "match": "Mail\/* CFNetwork\/548.0*",
+          "match": "Mail/* CFNetwork/548.0*",
           "platforms": [
             "iOS_A_5_0"
           ]
         },
         {
-          "match": "Mail\/* CFNetwork\/602*",
+          "match": "Mail/* CFNetwork/602*",
           "platforms": [
             "iOS_A_6_0"
           ]
         },
         {
-          "match": "Mail\/* CFNetwork\/609.1*",
+          "match": "Mail/* CFNetwork/609.1*",
           "platforms": [
             "iOS_A_6_1"
           ]
         },
         {
-          "match": "Mail\/* CFNetwork\/609*",
+          "match": "Mail/* CFNetwork/609*",
           "platforms": [
             "iOS_A_6_0"
           ]
         },
         {
-          "match": "Mail\/* CFNetwork\/672.0*",
+          "match": "Mail/* CFNetwork/672.0*",
           "platforms": [
             "iOS_A_7_0"
           ]
         },
         {
-          "match": "Mail\/* CFNetwork\/672.1*",
+          "match": "Mail/* CFNetwork/672.1*",
           "platforms": [
             "iOS_A_7_1"
           ]
         },
         {
-          "match": "Mail\/* CFNetwork\/711.0*",
+          "match": "Mail/* CFNetwork/711.0*",
           "platforms": [
             "iOS_A_8_0"
           ]
         },
         {
-          "match": "Mail\/* CFNetwork\/711.1*",
+          "match": "Mail/* CFNetwork/711.1*",
           "platforms": [
             "iOS_A_8_1"
           ]
         },
         {
-          "match": "Mail\/* CFNetwork\/711.2*",
+          "match": "Mail/* CFNetwork/711.2*",
           "platforms": [
             "iOS_A_8_2"
           ]
         },
         {
-          "match": "Mail\/* CFNetwork\/711.3*",
+          "match": "Mail/* CFNetwork/711.3*",
           "platforms": [
             "iOS_A_8_3"
           ]
         },
         {
-          "match": "Mail\/* CFNetwork\/711.4*",
+          "match": "Mail/* CFNetwork/711.4*",
           "platforms": [
             "iOS_A_8_4"
           ]
         },
         {
-          "match": "Mail\/* CFNetwork\/711.5*",
+          "match": "Mail/* CFNetwork/711.5*",
           "platforms": [
             "iOS_A_8_4"
           ]
         },
         {
-          "match": "Mail\/* CFNetwork\/758*",
+          "match": "Mail/* CFNetwork/758*",
           "platforms": [
             "iOS_A_9_0"
           ]
         },
         {
-          "match": "Mail\/* CFNetwork\/*",
+          "match": "Mail/* CFNetwork/*",
           "platforms": [
             "iOS"
           ]
@@ -228,7 +228,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit* (KHTML* like Gecko)",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit* (*khtml*like*gecko*)",
           "properties": {
             "Version": "10.0",
             "MajorVer": "10",
@@ -240,7 +240,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit* (KHTML* like Gecko)",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit* (*khtml*like*gecko*)",
           "properties": {
             "Version": "9.0",
             "MajorVer": "9",
@@ -252,7 +252,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit* (KHTML* like Gecko)",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit* (*khtml*like*gecko*)",
           "properties": {
             "Version": "8.0",
             "MajorVer": "8",
@@ -264,7 +264,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit* (KHTML* like Gecko)",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit* (*khtml*like*gecko*)",
           "properties": {
             "Version": "7.0",
             "MajorVer": "7",
@@ -276,7 +276,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit* (KHTML* like Gecko)",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit* (*khtml*like*gecko*)",
           "properties": {
             "Version": "6.0",
             "MajorVer": "6",
@@ -288,7 +288,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit* (KHTML* like Gecko)",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit* (*khtml*like*gecko*)",
           "properties": {
             "Version": "5.0",
             "MajorVer": "5",
@@ -300,7 +300,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit* (KHTML* like Gecko)",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit* (*khtml*like*gecko*)",
           "properties": {
             "Version": "4.0",
             "MajorVer": "4",
@@ -312,7 +312,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit* (KHTML* like Gecko)",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit* (*khtml*like*gecko*)",
           "properties": {
             "Version": "3.0",
             "MajorVer": "3",
@@ -324,7 +324,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit* (KHTML* like Gecko)",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit* (*khtml*like*gecko*)",
           "properties": {
             "Version": "2.0",
             "MajorVer": "2",
@@ -336,7 +336,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit* (KHTML* like Gecko)",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit* (*khtml*like*gecko*)",
           "properties": {
             "Version": "1.0",
             "MajorVer": "1",
@@ -348,7 +348,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit* (KHTML* like Gecko)",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit* (*khtml*like*gecko*)",
           "device": "Macintosh",
           "platforms": [
             "OSX"
@@ -379,7 +379,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko)",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*)",
           "platforms": [
             "Win8_1_64", "Win8_1_32", "Win8_64", "Win8_32", "Win7_64", "Win7_32"
           ]

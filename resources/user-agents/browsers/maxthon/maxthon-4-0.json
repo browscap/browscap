@@ -32,33 +32,33 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-I9100 *) AppleWebKit\/* (KHTML* like Gecko) Version\/4.0 *Safari\/* Maxthon\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#GT-I9100 *) AppleWebKit/* (*khtml*like*gecko*) Version/4.0 *Safari/* Maxthon/#MAJORVER#.#MINORVER#*",
           "device": "GT-I9100",
           "platforms": [
             "Android_2_3", "Android_4_0"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Version\/4.0 *Safari\/* Maxthon\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) Version/4.0 *Safari/* Maxthon/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "Android_2_3", "Android_4_0", "Android"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Version\/4.0 *Safari\/* Maxthon",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) Version/4.0 *Safari/* Maxthon",
           "platforms": [
             "Android_2_3", "Android_4_0", "Android"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#PMP5080B Build\/*)Maxthon AppleWebKit\/* (KHTML* like Gecko) Version\/4.0 *Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#PMP5080B Build/*)Maxthon AppleWebKit/* (*khtml*like*gecko*) Version/4.0 *Safari/*",
           "device": "Multipad PMP5080B",
           "platforms": [
             "Android_4_0"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#)Maxthon AppleWebKit\/* (KHTML* like Gecko) Version\/4.0 *Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#)Maxthon AppleWebKit/* (*khtml*like*gecko*) Version/4.0 *Safari/*",
           "platforms": [
             "Android_2_3", "Android_4_0", "Android"
           ]
@@ -92,14 +92,14 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko)*Maxthon\/#MAJORVER#.#MINORVER#* Chrome\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*)*Maxthon/#MAJORVER#.#MINORVER#* Chrome/* Safari/*",
           "device": "Linux Desktop",
           "platforms": [
             "Linux_64", "Linux_32", "Linux"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko)*Maxthon\/#MAJORVER#.#MINORVER#* Chrome\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*)*Maxthon/#MAJORVER#.#MINORVER#* Chrome/* Safari/*",
           "device": "Windows Desktop",
           "platforms": [
             "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32", "Vista_64", "Vista_32",
@@ -110,7 +110,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko)*Maxthon\/#MAJORVER#.#MINORVER#* Chrome\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*)*Maxthon/#MAJORVER#.#MINORVER#* Chrome/* Safari/*",
           "device": "Macintosh",
           "platforms": [
             "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
@@ -118,14 +118,14 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko)*Maxthon\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*)*Maxthon/#MAJORVER#.#MINORVER#*Safari/*",
           "device": "Linux Desktop",
           "platforms": [
             "Linux_64", "Linux_32", "Linux"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko)*Maxthon\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*)*Maxthon/#MAJORVER#.#MINORVER#*Safari/*",
           "device": "Windows Desktop",
           "platforms": [
             "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32", "Vista_64", "Vista_32",
@@ -136,7 +136,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko)*Maxthon\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*)*Maxthon/#MAJORVER#.#MINORVER#*Safari/*",
           "device": "Macintosh",
           "platforms": [
             "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",

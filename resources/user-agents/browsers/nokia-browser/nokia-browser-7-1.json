@@ -29,26 +29,26 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (SymbianOS\/*; Series60\/* NokiaE55-1\/021.013*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/3.0 BrowserNG\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (SymbianOS/*; Series60/* NokiaE55-1/021.013*) AppleWebKit/* (*khtml*like*gecko*) Version/3.0 BrowserNG/#MAJORVER#.#MINORVER#*",
           "device": "Nokia E55-1"
         },
         {
-          "match": "Mozilla\/5.0 (SymbianOS\/*; Series60\/* NokiaN86-1\/*; *) AppleWebKit\/* (KHTML,*like Gecko*) Version\/3.0 BrowserNG\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (SymbianOS/*; Series60/* NokiaN86-1/*; *) AppleWebKit/* (*khtml*like*gecko*) Version/3.0 BrowserNG/#MAJORVER#.#MINORVER#*",
           "device": "Nokia N86-1"
         },
         {
-          "match": "Mozilla\/5.0 (SymbianOS\/*; Series60\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/3.0 BrowserNG\/#MAJORVER#.#MINORVER#*"
+          "match": "Mozilla/5.0 (SymbianOS/*; Series60/*) AppleWebKit/* (*khtml*like*gecko*) Version/3.0 BrowserNG/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "Mozilla\/5.0 (SymbianOS\/*; Series60\/* NokiaN97-1\/12.0.024; *; *) AppleWebKit\/* (KHTML,*like Gecko*) BrowserNG\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (SymbianOS/*; Series60/* NokiaN97-1/12.0.024; *; *) AppleWebKit/* (*khtml*like*gecko*) BrowserNG/#MAJORVER#.#MINORVER#*",
           "device": "Nokia N97-1"
         },
         {
-          "match": "Mozilla\/5.0 (SymbianOS\/*; Series60\/* NokiaN97-1\/2*; *) AppleWebKit\/* (KHTML,*like Gecko*) BrowserNG\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (SymbianOS/*; Series60/* NokiaN97-1/2*; *) AppleWebKit/* (*khtml*like*gecko*) BrowserNG/#MAJORVER#.#MINORVER#*",
           "device": "Nokia N97-1"
         },
         {
-          "match": "Mozilla\/5.0 (SymbianOS\/*; Series60\/*) AppleWebKit\/* (KHTML,*like Gecko*) BrowserNG\/#MAJORVER#.#MINORVER#*"
+          "match": "Mozilla/5.0 (SymbianOS/*; Series60/*) AppleWebKit/* (*khtml*like*gecko*) BrowserNG/#MAJORVER#.#MINORVER#*"
         }
       ]
     }

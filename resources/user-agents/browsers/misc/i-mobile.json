@@ -25,10 +25,10 @@
       },
       "children": [
         {
-          "match": "i-mobile 608\/1.0 *"
+          "match": "i-mobile 608/1.0 *"
         },
         {
-          "match": "i-mobile601 MIC\/WAP2.0 *"
+          "match": "i-mobile601 MIC/WAP2.0 *"
         },
         {
           "match": "i-mobile606"

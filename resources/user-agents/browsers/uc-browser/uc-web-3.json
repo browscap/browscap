@@ -39,7 +39,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML,*like Gecko*) UCBrowser/#MAJORVER#.#MINORVER#* U3/* *Safari/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) UCBrowser/#MAJORVER#.#MINORVER#* U3/* *Safari/*",
           "engine": "U3",
           "platforms": [
             "Android_2_2",
@@ -52,7 +52,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML,*like Gecko*) UCBrowser/#MAJORVER#.#MINORVER#*Safari/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) UCBrowser/#MAJORVER#.#MINORVER#*Safari/*",
           "engine": "WebKit",
           "platforms": [
             "Android_2_2",
@@ -65,7 +65,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) AppleWebKit/* (KHTML,*like Gecko*) Version/*Chrome/*Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) AppleWebKit/* (*khtml*like*gecko*) Version/*Chrome/*Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
           "engine": "Blink",
           "devices": {
             "Lenovo A5500-H": "Lenovo A5500-H",
@@ -83,14 +83,14 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML,*like Gecko*) Version/*Chrome/*Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) Version/*Chrome/*Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
           "engine": "Blink",
           "platforms": [
             "Android_4_4", "Android"
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#A701 Build/*) AppleWebKit/* (KHTML,*like Gecko*) Version/*Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#A701 Build/*) AppleWebKit/* (*khtml*like*gecko*) Version/*Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
           "engine": "WebKit",
           "device": "Acer A701",
           "platforms": [
@@ -98,7 +98,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#SM-P601 Build/*) AppleWebKit/* (KHTML,*like Gecko*) Version/*Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#SM-P601 Build/*) AppleWebKit/* (*khtml*like*gecko*) Version/*Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
           "engine": "WebKit",
           "device": "Samsung SM-P601",
           "platforms": [
@@ -106,7 +106,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) AppleWebKit/* (KHTML,*like Gecko*) Version/*Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) AppleWebKit/* (*khtml*like*gecko*) Version/*Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
           "engine": "WebKit",
           "devices": {
             "HL-PC1088": "Honlin PC1088",
@@ -119,7 +119,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) AppleWebKit/* (KHTML,*like Gecko*) Version/*Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) AppleWebKit/* (*khtml*like*gecko*) Version/*Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
           "engine": "WebKit",
           "devices": {
             "iDxD4": "Digma iDxD4 3G",
@@ -130,7 +130,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#JY-G3 Build/*) AppleWebKit/* (KHTML,*like Gecko*) Version/*Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#JY-G3 Build/*) AppleWebKit/* (*khtml*like*gecko*) Version/*Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
           "engine": "WebKit",
           "device": "Jiayu G3",
           "platforms": [
@@ -138,7 +138,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML,*like Gecko*) Version/*Chrome/*Safari/* UCBrowser/#MAJORVER#.#MINORVER#* Mobile*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) Version/*Chrome/*Safari/* UCBrowser/#MAJORVER#.#MINORVER#* Mobile*",
           "engine": "Blink",
           "platforms": [
             "Android_2_3",
@@ -153,7 +153,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML,*like Gecko*) Version/*Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) Version/*Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
           "engine": "WebKit",
           "platforms": [
             "Android_2_3",
@@ -256,7 +256,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0*(iPad#PLATFORM#) AppleWebKit/* (KHTML* like Gecko) Version/*Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0*(iPad#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) Version/*Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
           "engine": "WebKit",
           "device": "iPad",
           "platforms": [
@@ -264,7 +264,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0*(#PLATFORM#) AppleWebKit/* (KHTML* like Gecko) Version/*Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0*(#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) Version/*Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
           "engine": "WebKit",
           "device": "general Mobile Device (Apple)",
           "platforms": [
@@ -294,7 +294,7 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML* like Gecko) Chrome/* Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) Chrome/* Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
           "engine": "WebKit",
           "device": "Macintosh",
           "platforms": [

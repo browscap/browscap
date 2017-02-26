@@ -28,7 +28,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Puffin\/#MAJORVER#.#MINORVER#*S *Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) Puffin/#MAJORVER#.#MINORVER#*S *Safari/*",
           "platforms": [
             "Android_2_2", "Android_2_3",
             "Android_3_0", "Android_3_1", "Android_3_2",
@@ -36,7 +36,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (iPod#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Puffin\/#MAJORVER#.#MINORVER#*MS *Safari\/*",
+          "match": "Mozilla/5.0 (iPod#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) Puffin/#MAJORVER#.#MINORVER#*MS *Safari/*",
           "device": "iPod Touch",
           "engine": "WebKit",
           "platforms": [
@@ -45,13 +45,13 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (*Linux*) AppleWebKit\/* (KHTML* like Gecko) Puffin\/#MAJORVER#.#MINORVER#*MS *Safari\/*",
+          "match": "Mozilla/5.0 (*Linux*) AppleWebKit/* (*khtml*like*gecko*) Puffin/#MAJORVER#.#MINORVER#*MS *Safari/*",
           "platforms": [
             "Android"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Chrome\/* Safari\/* Puffin\/#MAJORVER#.#MINORVER#*AT Mobile",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#*AT Mobile",
           "device": "general Tablet",
           "platforms": [
             "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
@@ -61,7 +61,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Chrome\/* Safari\/* Puffin\/#MAJORVER#.#MINORVER#* Mobile",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#* Mobile",
           "platforms": [
             "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
             "Android_2_0", "Android_2_1", "Android_2_2", "Android_2_3",
@@ -70,7 +70,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#HUAWEI MT1-U06 Build\/*) AppleWebKit\/* (KHTML* like Gecko) *Chrome\/* Safari\/* Puffin\/#MAJORVER#.#MINORVER#.*AT*",
+          "match": "Mozilla/5.0 (#PLATFORM#HUAWEI MT1-U06 Build/*) AppleWebKit/* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*AT*",
           "device": "Huawei MT1-U06",
           "engine": "Blink",
           "platforms": [
@@ -78,7 +78,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) *Chrome\/* Safari\/* Puffin\/#MAJORVER#.#MINORVER#.*AT*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*AT*",
           "device": "general Tablet",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android"

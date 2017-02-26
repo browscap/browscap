@@ -24,7 +24,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Firefox\/* Maemo Browser 1.7.* N900*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* Maemo Browser 1.7.* N900*",
           "device": "Nokia N900",
           "platforms": [
             "Maemo_ARM"
@@ -36,7 +36,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Firefox\/* Maemo Browser 1.7.*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* Maemo Browser 1.7.*",
           "platforms": [
             "Maemo_ARM"
           ],
@@ -47,7 +47,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Firefox\/* Maemo Browser *",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* Maemo Browser *",
           "platforms": [
             "Maemo_ARM"
           ]

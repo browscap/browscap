@@ -23,20 +23,20 @@
       },
       "children": [
         {
-          "match": "MQQBrowser\/*Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Version\/4.0 *Safari\/*",
+          "match": "MQQBrowser/*Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) Version/4.0 *Safari/*",
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1", "Android"
           ]
         },
         {
-          "match": "MQQBrowser\/*Mozilla\/5.0 (iPhone#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) *Safari\/*",
+          "match": "MQQBrowser/*Mozilla/5.0 (iPhone#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) *Safari/*",
           "device": "iPhone",
           "platforms": [
             "iOS_A_5_1", "iOS_A"
           ]
         },
         {
-          "match": "MQQBrowser\/*Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) *Safari\/*",
+          "match": "MQQBrowser/*Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) *Safari/*",
           "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A_5_1", "iOS_A"

@@ -20,7 +20,7 @@
       },
       "children": [
         {
-          "match": "Apple-PubSub\/65.28*",
+          "match": "Apple-PubSub/65.28*",
           "properties": {
             "Version": "65.28",
             "MajorVer": "65",
@@ -28,7 +28,7 @@
           }
         },
         {
-          "match": "Apple-PubSub\/*"
+          "match": "Apple-PubSub/*"
         }
       ]
     }

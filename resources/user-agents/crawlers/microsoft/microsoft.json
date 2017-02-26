@@ -16,7 +16,7 @@
       },
       "children": [
         {
-          "match": "Live (http:\/\/www.live.com\/)",
+          "match": "Live (http://www.live.com/)",
           "properties": {
             "Browser": "Microsoft Live",
             "isSyndicationReader": "true"
@@ -35,7 +35,7 @@
           }
         },
         {
-          "match": "Microsoft BITS\/*",
+          "match": "Microsoft BITS/*",
           "properties": {
             "Browser": "BITS"
           }
@@ -71,7 +71,7 @@
           }
         },
         {
-          "match": "Microsoft Office\/* (*Picture Manager*)",
+          "match": "Microsoft Office/* (*Picture Manager*)",
           "properties": {
             "Browser": "Microsoft Office Picture Manager"
           }
@@ -96,13 +96,13 @@
           }
         },
         {
-          "match": "MSProxy\/*",
+          "match": "MSProxy/*",
           "properties": {
             "Browser": "MS Proxy"
           }
         },
         {
-          "match": "iisbot\/1.0*",
+          "match": "iisbot/1.0*",
           "properties": {
             "Browser": "IIS Site Analysis Web Crawler",
             "Browser_Maker": "www.iis.net",
@@ -112,7 +112,7 @@
           }
         },
         {
-          "match": "iisbot\/*",
+          "match": "iisbot/*",
           "properties": {
             "Browser": "IIS Site Analysis Web Crawler",
             "Browser_Maker": "www.iis.net"
@@ -134,7 +134,7 @@
           }
         },
         {
-          "match": "ZDM\/4.0; Windows Mobile 8.1*",
+          "match": "ZDM/4.0; Windows Mobile 8.1*",
           "properties": {
             "Browser": "BackgroundTransferService",
             "Version": "4.0",
@@ -147,7 +147,7 @@
           ]
         },
         {
-          "match": "ZDM\/4.0; Windows Mobile 8.0*",
+          "match": "ZDM/4.0; Windows Mobile 8.0*",
           "properties": {
             "Browser": "BackgroundTransferService",
             "Version": "4.0",
@@ -160,7 +160,7 @@
           ]
         },
         {
-          "match": "ZDM\/4.0; Windows Mobile 7.0*",
+          "match": "ZDM/4.0; Windows Mobile 7.0*",
           "properties": {
             "Browser": "BackgroundTransferService",
             "Version": "4.0",

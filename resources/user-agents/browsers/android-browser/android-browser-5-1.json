@@ -28,14 +28,14 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Infinix X510 Build\/* AppleWebKit\/* (KHTML* like Gecko) Version\/#MAJORVER#.#MINORVER#* Mobile Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM#Infinix X510 Build/* AppleWebKit/* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#* Mobile Safari*",
           "device": "Infinix X510",
           "platforms": [
             "Android_5_1"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM# Build\/* AppleWebKit\/* (KHTML* like Gecko) Version\/#MAJORVER#.#MINORVER#* Mobile Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM# Build/* AppleWebKit/* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#* Mobile Safari*",
           "platforms": [
             "Android_5_1", "Android"
           ]

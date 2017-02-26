@@ -19,7 +19,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/4.0 (compatible; Yahoo Japan; for robot study; kasugiya)"
+          "match": "Mozilla/4.0 (compatible; Yahoo Japan; for robot study; kasugiya)"
         }
       ]
     }

@@ -32,117 +32,117 @@
       },
       "children": [
         {
-          "match": "Mozilla\/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile?#MAJORVER#.*) T-Mobile_LEO*",
+          "match": "Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile?#MAJORVER#.*) T-Mobile_LEO*",
           "device": "Samsung SGH-I900",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "Mozilla\/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile?#MAJORVER#.*)*",
+          "match": "Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile?#MAJORVER#.*)*",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "HD_mini_T5555 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile?#MAJORVER#.*)",
+          "match": "HD_mini_T5555 Mozilla/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile?#MAJORVER#.*)",
           "device": "HTC HD mini T5555",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "HTC-ST7377\/* (*) Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile?#MAJORVER#.*)*",
+          "match": "HTC-ST7377/* (*) Mozilla/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile?#MAJORVER#.*)*",
           "device": "HTC ST7377",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "HTC_HD2_T8585 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile?#MAJORVER#.*)",
+          "match": "HTC_HD2_T8585 Mozilla/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile?#MAJORVER#.*)",
           "device": "HTC HD2 T8585",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "HTC_HD2_T8585\/480x800 4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile?#MAJORVER#.*)",
+          "match": "HTC_HD2_T8585/480x800 4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile?#MAJORVER#.*)",
           "device": "HTC HD2 T8585",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "HTC_Maple_S520 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile?#MAJORVER#.*)",
+          "match": "HTC_Maple_S520 Mozilla/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile?#MAJORVER#.*)",
           "device": "HTC Maple S520",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "HTC_P3700 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile?#MAJORVER#.*)",
+          "match": "HTC_P3700 Mozilla/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile?#MAJORVER#.*)",
           "device": "HTC P3700",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "HTC_Snap_S521 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile?#MAJORVER#.*)",
+          "match": "HTC_Snap_S521 Mozilla/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile?#MAJORVER#.*)",
           "device": "HTC Snap S521",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "HTC_Snap_S523\/* (*Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile?#MAJORVER#.*)",
+          "match": "HTC_Snap_S523/* (*Mozilla/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile?#MAJORVER#.*)",
           "device": "HTC Snap S523",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "HTC_Touch_Cruise_T4242 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile?#MAJORVER#.*)*",
+          "match": "HTC_Touch_Cruise_T4242 Mozilla/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile?#MAJORVER#.*)*",
           "device": "HTC Touch Cruise T4242",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "HTC_Touch_Diamond2_T5353 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile?#MAJORVER#.*)",
+          "match": "HTC_Touch_Diamond2_T5353 Mozilla/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile?#MAJORVER#.*)",
           "device": "HTC Touch Diamond2 T5353",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "HTC_Touch_HD_T8282 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile?#MAJORVER#.*)",
+          "match": "HTC_Touch_HD_T8282 Mozilla/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile?#MAJORVER#.*)",
           "device": "HTC Touch HD T8282",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "HTC_Touch_Pro2_T7373 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile?#MAJORVER#.*)",
+          "match": "HTC_Touch_Pro2_T7373 Mozilla/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile?#MAJORVER#.*)",
           "device": "HTC Touch Pro2 T7373",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "HTC_Touch_Pro_T7272 Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile?#MAJORVER#.*)",
+          "match": "HTC_Touch_Pro_T7272 Mozilla/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile?#MAJORVER#.*)",
           "device": "HTC T7272",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "Mozilla\/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile?#MAJORVER#.*",
+          "match": "Mozilla/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile?#MAJORVER#.*",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "Mozilla\/5.0 Vodafone\/1.0\/LG-GM750\/* Browser\/IE#MAJORVER#.#MINORVER#* (*compatible*;*MSIE 6.0; Windows CE; IEMobile?#MAJORVER#.*)",
+          "match": "Mozilla/5.0 Vodafone/1.0/LG-GM750/* Browser/IE#MAJORVER#.#MINORVER#* (*compatible*;*MSIE 6.0; Windows CE; IEMobile?#MAJORVER#.*)",
           "device": "LG GM750",
           "platforms": [
             "WinCE"
@@ -177,7 +177,7 @@
           ]
         },
         {
-          "match": "SAMSUNG-GT-B7330\/* (compatible*; MSIE 6.0; Windows CE; IEMobile?#MAJORVER#.*",
+          "match": "SAMSUNG-GT-B7330/* (compatible*; MSIE 6.0; Windows CE; IEMobile?#MAJORVER#.*",
           "device": "Samsung GT-B7330",
           "platforms": [
             "WinCE"

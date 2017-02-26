@@ -19,7 +19,7 @@
       },
       "children": [
         {
-          "match": "SklikBot\/2.0*",
+          "match": "SklikBot/2.0*",
           "properties": {
             "Version": "2.0",
             "MajorVer": "2",
@@ -27,7 +27,7 @@
           }
         },
         {
-          "match": "SklikBot\/3.0*",
+          "match": "SklikBot/3.0*",
           "properties": {
             "Version": "3.0",
             "MajorVer": "3",
@@ -35,7 +35,7 @@
           }
         },
         {
-          "match": "SklikBot\/3.1*",
+          "match": "SklikBot/3.1*",
           "properties": {
             "Version": "3.1",
             "MajorVer": "3",
@@ -43,7 +43,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; SklikBot\/3.1*",
+          "match": "Mozilla/5.0 (compatible; SklikBot/3.1*",
           "properties": {
             "Version": "3.1",
             "MajorVer": "3",
@@ -51,7 +51,7 @@
           }
         },
         {
-          "match": "SklikBot\/3.2*",
+          "match": "SklikBot/3.2*",
           "properties": {
             "Version": "3.2",
             "MajorVer": "3",
@@ -59,7 +59,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; SklikBot\/3.2*",
+          "match": "Mozilla/5.0 (compatible; SklikBot/3.2*",
           "properties": {
             "Version": "3.2",
             "MajorVer": "3",
@@ -67,10 +67,10 @@
           }
         },
         {
-          "match": "SklikBot\/*"
+          "match": "SklikBot/*"
         },
         {
-          "match": "Mozilla\/5.0 (compatible; SklikBot\/*"
+          "match": "Mozilla/5.0 (compatible; SklikBot/*"
         }
       ]
     }

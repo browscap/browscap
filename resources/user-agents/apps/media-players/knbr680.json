@@ -17,127 +17,127 @@
       },
       "children": [
         {
-          "match": "KNBR%20680\/* CFNetwork\/459*",
+          "match": "KNBR%20680/* CFNetwork/459*",
           "platforms": [
             "iOS_A_3_1"
           ]
         },
         {
-          "match": "KNBR%20680\/* CFNetwork\/467.12*",
+          "match": "KNBR%20680/* CFNetwork/467.12*",
           "platforms": [
             "iOS_A_3_2"
           ]
         },
         {
-          "match": "KNBR%20680\/* CFNetwork\/485.2*",
+          "match": "KNBR%20680/* CFNetwork/485.2*",
           "platforms": [
             "iOS_A_4_0"
           ]
         },
         {
-          "match": "KNBR%20680\/* CFNetwork\/485.10*",
+          "match": "KNBR%20680/* CFNetwork/485.10*",
           "platforms": [
             "iOS_A_4_1"
           ]
         },
         {
-          "match": "KNBR%20680\/* CFNetwork\/485.12*",
+          "match": "KNBR%20680/* CFNetwork/485.12*",
           "platforms": [
             "iOS_A_4_2"
           ]
         },
         {
-          "match": "KNBR%20680\/* CFNetwork\/485.13*",
+          "match": "KNBR%20680/* CFNetwork/485.13*",
           "platforms": [
             "iOS_A_4_3"
           ]
         },
         {
-          "match": "KNBR%20680\/* CFNetwork\/548.1*",
+          "match": "KNBR%20680/* CFNetwork/548.1*",
           "platforms": [
             "iOS_A_5_1"
           ]
         },
         {
-          "match": "KNBR%20680\/* CFNetwork\/548.0*",
+          "match": "KNBR%20680/* CFNetwork/548.0*",
           "platforms": [
             "iOS_A_5_0"
           ]
         },
         {
-          "match": "KNBR%20680\/* CFNetwork\/602*",
+          "match": "KNBR%20680/* CFNetwork/602*",
           "platforms": [
             "iOS_A_6_0"
           ]
         },
         {
-          "match": "KNBR%20680\/* CFNetwork\/609.1*",
+          "match": "KNBR%20680/* CFNetwork/609.1*",
           "platforms": [
             "iOS_A_6_1"
           ]
         },
         {
-          "match": "KNBR%20680\/* CFNetwork\/609*",
+          "match": "KNBR%20680/* CFNetwork/609*",
           "platforms": [
             "iOS_A_6_0"
           ]
         },
         {
-          "match": "KNBR%20680\/* CFNetwork\/672.0*",
+          "match": "KNBR%20680/* CFNetwork/672.0*",
           "platforms": [
             "iOS_A_7_0"
           ]
         },
         {
-          "match": "KNBR%20680\/* CFNetwork\/672.1*",
+          "match": "KNBR%20680/* CFNetwork/672.1*",
           "platforms": [
             "iOS_A_7_1"
           ]
         },
         {
-          "match": "KNBR%20680\/* CFNetwork\/711.0*",
+          "match": "KNBR%20680/* CFNetwork/711.0*",
           "platforms": [
             "iOS_A_8_0"
           ]
         },
         {
-          "match": "KNBR%20680\/* CFNetwork\/711.1*",
+          "match": "KNBR%20680/* CFNetwork/711.1*",
           "platforms": [
             "iOS_A_8_1"
           ]
         },
         {
-          "match": "KNBR%20680\/* CFNetwork\/711.2*",
+          "match": "KNBR%20680/* CFNetwork/711.2*",
           "platforms": [
             "iOS_A_8_2"
           ]
         },
         {
-          "match": "KNBR%20680\/* CFNetwork\/711.3*",
+          "match": "KNBR%20680/* CFNetwork/711.3*",
           "platforms": [
             "iOS_A_8_3"
           ]
         },
         {
-          "match": "KNBR%20680\/* CFNetwork\/711.4*",
+          "match": "KNBR%20680/* CFNetwork/711.4*",
           "platforms": [
             "iOS_A_8_4"
           ]
         },
         {
-          "match": "KNBR%20680\/* CFNetwork\/711.5*",
+          "match": "KNBR%20680/* CFNetwork/711.5*",
           "platforms": [
             "iOS_A_8_4"
           ]
         },
         {
-          "match": "KNBR%20680\/* CFNetwork\/758*",
+          "match": "KNBR%20680/* CFNetwork/758*",
           "platforms": [
             "iOS_A_9_0"
           ]
         },
         {
-          "match": "KNBR%20680\/* CFNetwork\/*",
+          "match": "KNBR%20680/* CFNetwork/*",
           "platforms": [
             "iOS"
           ]

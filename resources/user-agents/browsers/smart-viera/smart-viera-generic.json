@@ -21,29 +21,29 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#; Viera; *) AppleWebKit\/* (KHTML* like Gecko) Viera\/* Chrome\/*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#; Viera; *) AppleWebKit/* (*khtml*like*gecko*) Viera/* Chrome/*Safari/*",
           "engine": "WebKit",
           "platforms": [
             "FreeBSD"
           ]
         },
         {
-          "match": "HbbTV\/* (;Panasonic;VIERA 2011;*"
+          "match": "HbbTV/* (;Panasonic;VIERA 2011;*"
         },
         {
-          "match": "HbbTV\/* (;Panasonic;VIERA 2012;*"
+          "match": "HbbTV/* (;Panasonic;VIERA 2012;*"
         },
         {
-          "match": "HbbTV\/* (;Panasonic;VIERA 2013;*"
+          "match": "HbbTV/* (;Panasonic;VIERA 2013;*"
         },
         {
-          "match": "HbbTV\/* (;Panasonic;VIERA 2014;*"
+          "match": "HbbTV/* (;Panasonic;VIERA 2014;*"
         },
         {
-          "match": "HbbTV\/* (;Panasonic;VIERA 2015;*"
+          "match": "HbbTV/* (;Panasonic;VIERA 2015;*"
         },
         {
-          "match": "HbbTV\/* (;Panasonic;VIERA 2016;*"
+          "match": "HbbTV/* (;Panasonic;VIERA 2016;*"
         }
       ]
     }

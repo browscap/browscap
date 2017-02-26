@@ -19,7 +19,7 @@
       },
       "children": [
         {
-          "match": "Banshee\/#MAJORVER#.#MINORVER#*"
+          "match": "Banshee/#MAJORVER#.#MINORVER#*"
         }
       ]
     }

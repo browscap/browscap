@@ -21,7 +21,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/4.0 (compatible; MSIE 8.0*; #PLATFORM#Trident\/4.0*)* 360Spider",
+          "match": "Mozilla/4.0 (compatible; MSIE 8.0*; #PLATFORM#Trident/4.0*)* 360Spider",
           "device": "Windows Desktop",
           "engine": "Trident_4",
           "platforms": [
@@ -34,7 +34,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible; MSIE 9.0*; #PLATFORM#Trident\/5.0* 360Spider*",
+          "match": "Mozilla/5.0 (compatible; MSIE 9.0*; #PLATFORM#Trident/5.0* 360Spider*",
           "device": "Windows Desktop",
           "engine": "Trident_5",
           "platforms": [
@@ -45,7 +45,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#)  Firefox\/*; 360Spider*",
+          "match": "Mozilla/5.0 (#PLATFORM#)  Firefox/*; 360Spider*",
           "device": "Windows Desktop",
           "engine": "Gecko",
           "platforms": [
@@ -53,7 +53,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Chrome\/* Safari\/*; 360Spider*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) Chrome/* Safari/*; 360Spider*",
           "device": "Windows Desktop",
           "engine": "WebKit",
           "platforms": [

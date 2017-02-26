@@ -24,27 +24,27 @@
       },
       "children": [
         {
-          "match": "MOT-A668\/ WAP.Browser\/#MAJORVER#.#MINORVER# *",
+          "match": "MOT-A668/ WAP.Browser/#MAJORVER#.#MINORVER# *",
           "device": "Motorola A668"
         },
         {
-          "match": "MOT-V690\/ WAP.Browser\/#MAJORVER#.#MINORVER# *",
+          "match": "MOT-V690/ WAP.Browser/#MAJORVER#.#MINORVER# *",
           "device": "Motorola V690"
         },
         {
-          "match": "MOT-V868\/#MAJORVER#.#MINORVER# MIB1.2\/v#MAJORVER#.#MINORVER# *",
+          "match": "MOT-V868/#MAJORVER#.#MINORVER# MIB1.2/v#MAJORVER#.#MINORVER# *",
           "device": "Motorola V868"
         },
         {
-          "match": "MOT-V878\/ WAP.Browser\/#MAJORVER#.#MINORVER# *",
+          "match": "MOT-V878/ WAP.Browser/#MAJORVER#.#MINORVER# *",
           "device": "Motorola V878"
         },
         {
-          "match": "MOT-W220\/ WAP.Browser\/#MAJORVER#.#MINORVER# *",
+          "match": "MOT-W220/ WAP.Browser/#MAJORVER#.#MINORVER# *",
           "device": "Motorola W220"
         },
         {
-          "match": "MOT-W220\/#MAJORVER#.#MINORVER# Release\/6.30.2006 Browser\/CMCS1.0 *",
+          "match": "MOT-W220/#MAJORVER#.#MINORVER# Release/6.30.2006 Browser/CMCS1.0 *",
           "device": "Motorola W220"
         }
       ]

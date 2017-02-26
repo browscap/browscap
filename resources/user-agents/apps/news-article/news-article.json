@@ -24,7 +24,7 @@
       },
       "children": [
         {
-          "match": "Dalvik\/2.1* (*Linux*Android* MI 4LTE#PLATFORM#) *NewsArticle\/*",
+          "match": "Dalvik/2.1* (*Linux*Android* MI 4LTE#PLATFORM#) *NewsArticle/*",
           "engine": "WebKit",
           "device": "Xiaomi Mi 4 LTE",
           "platforms": [
@@ -32,14 +32,14 @@
           ]
         },
         {
-          "match": "Dalvik\/2.1* (*Linux*Android#PLATFORM#) *NewsArticle\/*",
+          "match": "Dalvik/2.1* (*Linux*Android#PLATFORM#) *NewsArticle/*",
           "engine": "WebKit",
           "platforms": [
             "Miui_OS_7_3", "Miui_OS"
           ]
         },
         {
-          "match": "Dalvik\/* (*Linux*Android#PLATFORM#) *NewsArticle\/*",
+          "match": "Dalvik/* (*Linux*Android#PLATFORM#) *NewsArticle/*",
           "engine": "WebKit",
           "platforms": [
             "Miui_OS_7_3", "Miui_OS"

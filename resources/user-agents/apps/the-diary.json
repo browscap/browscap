@@ -26,7 +26,7 @@
       },
       "children": [
         {
-          "match": "The Diary\/1.1* (iPad; #PLATFORM#",
+          "match": "The Diary/1.1* (iPad; #PLATFORM#",
           "device": "iPad",
           "properties": {
             "Version": "1.1",
@@ -38,7 +38,7 @@
           ]
         },
         {
-          "match": "The Diary\/* (iPad; #PLATFORM#",
+          "match": "The Diary/* (iPad; #PLATFORM#",
           "device": "iPad",
           "platforms": [
             "iOS_A_5_1", "iOS_A"

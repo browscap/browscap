@@ -25,7 +25,7 @@
       },
       "children": [
         {
-          "match": "Doris\/1.10 * (Symbian)",
+          "match": "Doris/1.10 * (Symbian)",
           "properties": {
             "Version": "1.10",
             "MajorVer": "1",
@@ -33,7 +33,7 @@
           }
         },
         {
-          "match": "Doris\/1.15 * (Symbian)",
+          "match": "Doris/1.15 * (Symbian)",
           "properties": {
             "Version": "1.15",
             "MajorVer": "1",
@@ -41,7 +41,7 @@
           }
         },
         {
-          "match": "Doris\/1.17 * (Symbian)",
+          "match": "Doris/1.17 * (Symbian)",
           "properties": {
             "Version": "1.17",
             "MajorVer": "1",

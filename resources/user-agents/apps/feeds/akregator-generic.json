@@ -20,10 +20,10 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (X11;) AppleWebKit\/* (KHTML, like Gecko) akregator\/* Safari\/*"
+          "match": "Mozilla/5.0 (X11;) AppleWebKit/* (*khtml*like*gecko*) akregator/* Safari/*"
         },
         {
-          "match": "Akregator\/*"
+          "match": "Akregator/*"
         }
       ]
     }

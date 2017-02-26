@@ -1,18 +1,18 @@
 {
-  "division": "EB iPhone\/IPad App",
+  "division": "EB iPhone/IPad App",
   "sortIndex": 1181,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "EB iPhone\/IPad App",
+      "userAgent": "EB iPhone/IPad App",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "EB iPhone\/IPad App",
-        "Browser": "EB iPhone\/IPad App",
+        "Comment": "EB iPhone/IPad App",
+        "Browser": "EB iPhone/IPad App",
         "Browser_Type": "Application",
         "Browser_Maker": "unknown",
         "Alpha": "false",
@@ -26,7 +26,7 @@
       },
       "children": [
         {
-          "match": "eb-iphone\/3.8* (#PLATFORM#iPad) Mobile",
+          "match": "eb-iphone/3.8* (#PLATFORM#iPad) Mobile",
           "device": "iPad",
           "properties": {
             "Version": "3.8",
@@ -38,7 +38,7 @@
           ]
         },
         {
-          "match": "eb-iphone\/3.8* (#PLATFORM#) Mobile",
+          "match": "eb-iphone/3.8* (#PLATFORM#) Mobile",
           "properties": {
             "Version": "3.8",
             "MajorVer": "3",
@@ -49,14 +49,14 @@
           ]
         },
         {
-          "match": "eb-iphone\/* (#PLATFORM#iPad) Mobile",
+          "match": "eb-iphone/* (#PLATFORM#iPad) Mobile",
           "device": "iPad",
           "platforms": [
             "iOS_E_7_0", "iOS_E_7_1", "iOS_E_8_0", "iOS_E_8_1"
           ]
         },
         {
-          "match": "eb-iphone\/* (#PLATFORM#) Mobile",
+          "match": "eb-iphone/* (#PLATFORM#) Mobile",
           "platforms": [
             "iOS_E_7_0", "iOS_E_7_1", "iOS_E_8_0", "iOS_E_8_1"
           ]

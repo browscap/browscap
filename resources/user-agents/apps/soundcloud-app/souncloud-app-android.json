@@ -31,14 +31,14 @@
       },
       "children": [
         {
-          "match": "SoundCloud-Android\/#MAJORVER#.#MINORVER#* (#PLATFORM#SGH-I337*",
+          "match": "SoundCloud-Android/#MAJORVER#.#MINORVER#* (#PLATFORM#SGH-I337*",
           "device": "Samsung SGH-I337",
           "platforms": [
             "Android_H_4_4", "Android_H"
           ]
         },
         {
-          "match": "SoundCloud-Android\/#MAJORVER#.#MINORVER#* (#PLATFORM#",
+          "match": "SoundCloud-Android/#MAJORVER#.#MINORVER#* (#PLATFORM#",
           "platforms": [
             "Android_H_4_4", "Android_H"
           ]

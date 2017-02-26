@@ -16,7 +16,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (compatible; AhrefsBot\/3.1*",
+          "match": "Mozilla/5.0 (compatible; AhrefsBot/3.1*",
           "properties": {
             "Version": "3.1",
             "MajorVer": "3",
@@ -24,7 +24,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; AhrefsBot\/4.0*",
+          "match": "Mozilla/5.0 (compatible; AhrefsBot/4.0*",
           "properties": {
             "Version": "4.0",
             "MajorVer": "4",
@@ -32,7 +32,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; AhrefsBot\/5.0*",
+          "match": "Mozilla/5.0 (compatible; AhrefsBot/5.0*",
           "properties": {
             "Version": "5.0",
             "MajorVer": "5",
@@ -40,7 +40,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; AhrefsBot\/*"
+          "match": "Mozilla/5.0 (compatible; AhrefsBot/*"
         }
       ]
     }

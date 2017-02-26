@@ -25,17 +25,17 @@
       },
       "children": [
         {
-          "match": "Amoi-V600\/Plat-EMP\/WAP2.0\/MIDP2.0\/CLDC1.0 UP.Link\/#MAJORVER#.#MINORVER#*"
+          "match": "Amoi-V600/Plat-EMP/WAP2.0/MIDP2.0/CLDC1.0 UP.Link/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "Haier-P7 UP.Link\/#MAJORVER#.#MINORVER#*"
+          "match": "Haier-P7 UP.Link/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "NEC-N600\/1.0 HopenOS\/2.0 UP.Link\/#MAJORVER#.#MINORVER#*",
+          "match": "NEC-N600/1.0 HopenOS/2.0 UP.Link/#MAJORVER#.#MINORVER#*",
           "device": "NEC N600"
         },
         {
-          "match": "* UP.Link\/#MAJORVER#.#MINORVER#*"
+          "match": "* UP.Link/#MAJORVER#.#MINORVER#*"
         }
       ]
     }

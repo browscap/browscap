@@ -15,13 +15,13 @@
       },
       "children": [
         {
-          "match": "ASUS-J101\/1.0 *"
+          "match": "ASUS-J101/1.0 *"
         },
         {
-          "match": "ASUS-V55\/1.0"
+          "match": "ASUS-V55/1.0"
         },
         {
-          "match": "ASUS-V66\/1.0 *"
+          "match": "ASUS-V66/1.0 *"
         }
       ]
     }

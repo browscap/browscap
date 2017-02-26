@@ -16,7 +16,7 @@
       },
       "children": [
         {
-          "match": "SophosUpdateManager\/1.5.*",
+          "match": "SophosUpdateManager/1.5.*",
           "properties": {
             "Version": "1.5",
             "MajorVer": "1",
@@ -24,7 +24,7 @@
           }
         },
         {
-          "match": "SophosUpdateManager\/*"
+          "match": "SophosUpdateManager/*"
         }
       ]
     }

@@ -16,14 +16,14 @@
       },
       "children": [
         {
-          "match": "httpclient (http:\/\/www.phpclasses.org\/httpclient $Revision:*",
+          "match": "httpclient (http://www.phpclasses.org/httpclient $Revision:*",
           "properties": {
             "Browser": "httpclient",
             "Browser_Maker": "www.phpclasses.org"
           }
         },
         {
-          "match": "PECL::HTTP\/1.6*",
+          "match": "PECL::HTTP/1.6*",
           "properties": {
             "Browser": "PECL HTTP",
             "Browser_Maker": "unknown",
@@ -34,7 +34,7 @@
           }
         },
         {
-          "match": "PECL::HTTP\/1.7*",
+          "match": "PECL::HTTP/1.7*",
           "properties": {
             "Browser": "PECL HTTP",
             "Browser_Maker": "unknown",
@@ -45,7 +45,7 @@
           }
         },
         {
-          "match": "PECL::HTTP\/*",
+          "match": "PECL::HTTP/*",
           "properties": {
             "Browser": "PECL HTTP",
             "Browser_Maker": "unknown",
@@ -65,10 +65,10 @@
           }
         },
         {
-          "match": "xmlrpc-epi-php\/* (PHP)"
+          "match": "xmlrpc-epi-php/* (PHP)"
         },
         {
-          "match": "PHP-SOAP\/5.2*",
+          "match": "PHP-SOAP/5.2*",
           "properties": {
             "Version": "5.2",
             "MajorVer": "5",
@@ -76,7 +76,7 @@
           }
         },
         {
-          "match": "PHP-SOAP\/5.3*",
+          "match": "PHP-SOAP/5.3*",
           "properties": {
             "Version": "5.3",
             "MajorVer": "5",
@@ -84,7 +84,7 @@
           }
         },
         {
-          "match": "PHP-SOAP\/5.4*",
+          "match": "PHP-SOAP/5.4*",
           "properties": {
             "Version": "5.4",
             "MajorVer": "5",
@@ -92,7 +92,7 @@
           }
         },
         {
-          "match": "PHP-SOAP\/5.5*",
+          "match": "PHP-SOAP/5.5*",
           "properties": {
             "Version": "5.5",
             "MajorVer": "5",
@@ -100,7 +100,7 @@
           }
         },
         {
-          "match": "PHP-SOAP\/5.6*",
+          "match": "PHP-SOAP/5.6*",
           "properties": {
             "Version": "5.6",
             "MajorVer": "5",
@@ -128,7 +128,7 @@
           }
         },
         {
-          "match": "PHP\/5.2*",
+          "match": "PHP/5.2*",
           "properties": {
             "Version": "5.2",
             "MajorVer": "5",
@@ -136,7 +136,7 @@
           }
         },
         {
-          "match": "PHP\/5.3*",
+          "match": "PHP/5.3*",
           "properties": {
             "Version": "5.3",
             "MajorVer": "5",
@@ -144,7 +144,7 @@
           }
         },
         {
-          "match": "PHP\/5.4*",
+          "match": "PHP/5.4*",
           "properties": {
             "Version": "5.4",
             "MajorVer": "5",
@@ -152,7 +152,7 @@
           }
         },
         {
-          "match": "PHP\/5.5*",
+          "match": "PHP/5.5*",
           "properties": {
             "Version": "5.5",
             "MajorVer": "5",
@@ -160,7 +160,7 @@
           }
         },
         {
-          "match": "PHP\/5.6*",
+          "match": "PHP/5.6*",
           "properties": {
             "Version": "5.6",
             "MajorVer": "5",
@@ -171,7 +171,7 @@
           "match": "PHP*"
         },
         {
-          "match": "GuzzleHttp\/6.1*",
+          "match": "GuzzleHttp/6.1*",
           "properties": {
             "Browser": "Guzzle Http Client",
             "Browser_Maker": "Michael Dowling",
@@ -181,14 +181,14 @@
           }
         },
         {
-          "match": "GuzzleHttp\/*",
+          "match": "GuzzleHttp/*",
           "properties": {
             "Browser": "Guzzle Http Client",
             "Browser_Maker": "Michael Dowling"
           }
         },
         {
-          "match": "Guzzle\/4.2*",
+          "match": "Guzzle/4.2*",
           "properties": {
             "Browser": "Guzzle Http Client",
             "Browser_Maker": "Michael Dowling",
@@ -198,7 +198,7 @@
           }
         },
         {
-          "match": "Guzzle\/*",
+          "match": "Guzzle/*",
           "properties": {
             "Browser": "Guzzle Http Client",
             "Browser_Maker": "Michael Dowling"

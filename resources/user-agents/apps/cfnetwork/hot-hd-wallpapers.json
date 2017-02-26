@@ -26,7 +26,7 @@
       },
       "children": [
         {
-          "match": "HOT%20HD%20WPs\/* CFNetwork\/*",
+          "match": "HOT%20HD%20WPs/* CFNetwork/*",
           "platforms": [
             "Darwin"
           ]

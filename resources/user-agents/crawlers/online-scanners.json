@@ -18,7 +18,7 @@
       },
       "children": [
         {
-          "match": "JoeDog\/* (X11; I; Siege *)",
+          "match": "JoeDog/* (X11; I; Siege *)",
           "properties": {
             "Browser": "JoeDog"
           }
@@ -30,7 +30,7 @@
           }
         },
         {
-          "match": "Mozilla\/4.0 (compatible; Trend Micro tmdr 1.*",
+          "match": "Mozilla/4.0 (compatible; Trend Micro tmdr 1.*",
           "properties": {
             "Browser": "Trend Micro"
           }
@@ -48,7 +48,7 @@
           }
         },
         {
-          "match": "WhatWeb\/0.4*",
+          "match": "WhatWeb/0.4*",
           "properties": {
             "Browser": "WhatWeb Web Scanner",
             "Browser_Maker": "Andrew Horton",
@@ -58,21 +58,21 @@
           }
         },
         {
-          "match": "WhatWeb\/*",
+          "match": "WhatWeb/*",
           "properties": {
             "Browser": "WhatWeb Web Scanner",
             "Browser_Maker": "Andrew Horton"
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; Nmap Scripting Engine*",
+          "match": "Mozilla/5.0 (compatible; Nmap Scripting Engine*",
           "properties": {
             "Browser": "Nmap Scripting Engine",
             "Browser_Maker": "Gordon Lyon"
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; CloudFlare-AlwaysOnline\/1.0*",
+          "match": "Mozilla/5.0 (compatible; CloudFlare-AlwaysOnline/1.0*",
           "properties": {
             "Browser": "CloudFlare AlwaysOnline",
             "Browser_Maker": "CloudFlare, Inc.",
@@ -82,7 +82,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; CloudFlare-AlwaysOnline\/*",
+          "match": "Mozilla/5.0 (compatible; CloudFlare-AlwaysOnline/*",
           "properties": {
             "Browser": "CloudFlare AlwaysOnline",
             "Browser_Maker": "CloudFlare, Inc."

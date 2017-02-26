@@ -16,7 +16,7 @@
       },
       "children": [
         {
-          "match": "Mozilla \/ reddit pic scraper v0.8*",
+          "match": "Mozilla / reddit pic scraper v0.8*",
           "properties": {
             "Version": "0.8",
             "MajorVer": "0",
@@ -24,7 +24,7 @@
           }
         },
         {
-          "match": "Mozilla \/ reddit pic scraper*"
+          "match": "Mozilla / reddit pic scraper*"
         }
       ]
     }

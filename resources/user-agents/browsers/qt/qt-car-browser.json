@@ -23,7 +23,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (X11; Linux) AppleWebKit\/* (KHTML* like Gecko) QtCarBrowser Safari\/*",
+          "match": "Mozilla/5.0 (X11; Linux) AppleWebKit/* (*khtml*like*gecko*) QtCarBrowser Safari/*",
           "platforms": [
             "Linux"
           ]

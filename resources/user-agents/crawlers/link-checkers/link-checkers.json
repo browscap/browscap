@@ -15,13 +15,13 @@
       },
       "children": [
         {
-          "match": "!Susie (http:\/\/www.sync2it.com\/susie)",
+          "match": "!Susie (http://www.sync2it.com/susie)",
           "properties": {
             "Browser": "!Susie"
           }
         },
         {
-          "match": "*AgentName\/*",
+          "match": "*AgentName/*",
           "properties": {
             "Browser": "AgentName"
           }
@@ -57,7 +57,7 @@
           }
         },
         {
-          "match": "Bookdog\/*",
+          "match": "Bookdog/*",
           "properties": {
             "Browser": "Bookdog"
           }
@@ -93,25 +93,25 @@
           }
         },
         {
-          "match": "CheckLinks\/*",
+          "match": "CheckLinks/*",
           "properties": {
             "Browser": "CheckLinks"
           }
         },
         {
-          "match": "CyberSpyder Link Test\/*",
+          "match": "CyberSpyder Link Test/*",
           "properties": {
             "Browser": "CyberSpyder Link Test"
           }
         },
         {
-          "match": "DLC\/*",
+          "match": "DLC/*",
           "properties": {
             "Browser": "DLC"
           }
         },
         {
-          "match": "DocWeb Link Crawler (http:\/\/doc.php.net)",
+          "match": "DocWeb Link Crawler (http://doc.php.net)",
           "properties": {
             "Browser": "DocWeb Link Crawler"
           }
@@ -147,7 +147,7 @@
           }
         },
         {
-          "match": "integrity\/*",
+          "match": "integrity/*",
           "device": "Macintosh",
           "properties": {
             "Browser": "Integrity"
@@ -157,7 +157,7 @@
           ]
         },
         {
-          "match": "JCheckLinks\/*",
+          "match": "JCheckLinks/*",
           "properties": {
             "Browser": "JCheckLinks"
           }
@@ -175,7 +175,7 @@
           }
         },
         {
-          "match": "LinkAlarm\/*",
+          "match": "LinkAlarm/*",
           "properties": {
             "Browser": "LinkAlarm"
           }
@@ -193,25 +193,25 @@
           }
         },
         {
-          "match": "LinkLint-checkonly\/*",
+          "match": "LinkLint-checkonly/*",
           "properties": {
             "Browser": "LinkLint"
           }
         },
         {
-          "match": "LinkScan\/*",
+          "match": "LinkScan/*",
           "properties": {
             "Browser": "LinkScan"
           }
         },
         {
-          "match": "LinkSweeper\/*",
+          "match": "LinkSweeper/*",
           "properties": {
             "Browser": "LinkSweeper"
           }
         },
         {
-          "match": "LinkWalker\/2.0*",
+          "match": "LinkWalker/2.0*",
           "properties": {
             "Browser": "LinkWalker",
             "Version": "2.0",
@@ -233,32 +233,32 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; metager2-verification-bot*",
+          "match": "Mozilla/5.0 (compatible; metager2-verification-bot*",
           "properties": {
             "Browser": "metager2-verification-bot",
             "Browser_Maker": "SuMa-eV - Verein fuer freien Wissenszugang"
           }
         },
         {
-          "match": "Mozilla\/* (compatible; linktiger\/*; *http:\/\/www.linktiger.com*)",
+          "match": "Mozilla/* (compatible; linktiger/*; *http://www.linktiger.com*)",
           "properties": {
             "Browser": "LinkTiger"
           }
         },
         {
-          "match": "Mozilla\/4.0 (Compatible); URLBase*",
+          "match": "Mozilla/4.0 (Compatible); URLBase*",
           "properties": {
             "Browser": "URLBase"
           }
         },
         {
-          "match": "Mozilla\/4.0 (compatible; Link Utility; http:\/\/net-promoter.com)",
+          "match": "Mozilla/4.0 (compatible; Link Utility; http://net-promoter.com)",
           "properties": {
             "Browser": "NetPromoter Link Utility"
           }
         },
         {
-          "match": "Mozilla\/4.0 (compatible; MSIE 6.0; Windows 98) Web Link Validator*",
+          "match": "Mozilla/4.0 (compatible; MSIE 6.0; Windows 98) Web Link Validator*",
           "properties": {
             "Browser": "Web Link Validator"
           },
@@ -267,7 +267,7 @@
           ]
         },
         {
-          "match": "Mozilla\/4.0 (compatible; MSIE 7.0; Win32) Link Commander 3.0",
+          "match": "Mozilla/4.0 (compatible; MSIE 7.0; Win32) Link Commander 3.0",
           "properties": {
             "Browser": "Link Commander",
             "Version": "3.0",
@@ -279,19 +279,19 @@
           ]
         },
         {
-          "match": "Mozilla\/4.0 (compatible; smartBot\/1.*; checking links; *)",
+          "match": "Mozilla/4.0 (compatible; smartBot/1.*; checking links; *)",
           "properties": {
             "Browser": "smartBot"
           }
         },
         {
-          "match": "Mozilla\/4.0 (compatible; SuperCleaner*;*)",
+          "match": "Mozilla/4.0 (compatible; SuperCleaner*;*)",
           "properties": {
             "Browser": "SuperCleaner"
           }
         },
         {
-          "match": "Mozilla\/5.0 gURLChecker\/*",
+          "match": "Mozilla/5.0 gURLChecker/*",
           "properties": {
             "Browser": "gURLChecker"
           }
@@ -328,13 +328,13 @@
           }
         },
         {
-          "match": "Robozilla\/*",
+          "match": "Robozilla/*",
           "properties": {
             "Browser": "Robozilla"
           }
         },
         {
-          "match": "SafariBookmarkChecker*(?http:\/\/www.coriolis.ch\/)",
+          "match": "SafariBookmarkChecker*(?http://www.coriolis.ch/)",
           "device": "Macintosh",
           "properties": {
             "Browser": "SafariBookmarkChecker",
@@ -345,31 +345,31 @@
           ]
         },
         {
-          "match": "Simpy\/* (Simpy; http:\/\/www.simpy.com\/?ref=bot; feedback at simpy dot com)",
+          "match": "Simpy/* (Simpy; http://www.simpy.com/?ref=bot; feedback at simpy dot com)",
           "properties": {
             "Browser": "Simpy"
           }
         },
         {
-          "match": "SiteBar\/*",
+          "match": "SiteBar/*",
           "properties": {
             "Browser": "SiteBar"
           }
         },
         {
-          "match": "Susie (http:\/\/www.sync2it.com\/bms\/susie.php",
+          "match": "Susie (http://www.sync2it.com/bms/susie.php",
           "properties": {
             "Browser": "Susie"
           }
         },
         {
-          "match": "URLBase\/*",
+          "match": "URLBase/*",
           "properties": {
             "Browser": "URLBase"
           }
         },
         {
-          "match": "VSE\/*",
+          "match": "VSE/*",
           "properties": {
             "Browser": "VSE Link Tester"
           }
@@ -381,7 +381,7 @@
           }
         },
         {
-          "match": "WorQmada\/*",
+          "match": "WorQmada/*",
           "properties": {
             "Browser": "WorQmada"
           }
@@ -393,13 +393,13 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 TYPO3-linkvalidator*",
+          "match": "Mozilla/5.0 TYPO3-linkvalidator*",
           "properties": {
             "Browser": "TYPO3 Linkvalidator"
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; pmoz.info ODP link checker*",
+          "match": "Mozilla/5.0 (compatible; pmoz.info ODP link checker*",
           "properties": {
             "Browser": "pmoz.info ODP link checker",
             "Browser_Maker": "PlantRob"
@@ -428,14 +428,14 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; Sophora Linkchecker*",
+          "match": "Mozilla/5.0 (compatible; Sophora Linkchecker*",
           "properties": {
             "Browser": "Sophora Linkchecker",
             "Browser_Maker": "subshell.com"
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; MOSBookmarks\/v2.6*",
+          "match": "Mozilla/5.0 (compatible; MOSBookmarks/v2.6*",
           "properties": {
             "Browser": "MOSBookmarks Link Checker",
             "Browser_Maker": "tegdesign.ch",
@@ -445,7 +445,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; MOSBookmarks\/v2.7*",
+          "match": "Mozilla/5.0 (compatible; MOSBookmarks/v2.7*",
           "properties": {
             "Browser": "MOSBookmarks Link Checker",
             "Browser_Maker": "tegdesign.ch",
@@ -455,7 +455,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; MOSBookmarks\/v2.8*",
+          "match": "Mozilla/5.0 (compatible; MOSBookmarks/v2.8*",
           "properties": {
             "Browser": "MOSBookmarks Link Checker",
             "Browser_Maker": "tegdesign.ch",
@@ -465,7 +465,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; MOSBookmarks\/*",
+          "match": "Mozilla/5.0 (compatible; MOSBookmarks/*",
           "properties": {
             "Browser": "MOSBookmarks Link Checker",
             "Browser_Maker": "tegdesign.ch"
@@ -491,7 +491,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) BrokenLinkCheck.com\/1.1*",
+          "match": "Mozilla/5.0 (#PLATFORM#) BrokenLinkCheck.com/1.1*",
           "properties": {
             "Browser": "BrokenLinkCheck",
             "Browser_Maker": "Raven Internet Marketing Tools",
@@ -505,7 +505,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) BrokenLinkCheck.com\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) BrokenLinkCheck.com/*",
           "properties": {
             "Browser": "BrokenLinkCheck",
             "Browser_Maker": "Raven Internet Marketing Tools"
@@ -523,7 +523,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (GetLinkInfo*",
+          "match": "Mozilla/5.0 (GetLinkInfo*",
           "properties": {
             "Browser": "GetLinkInfo Bot"
           }
@@ -567,7 +567,7 @@
           }
         },
         {
-          "match": "Mozilla\/4.0 (compatible; TURLValidator\/1.0*",
+          "match": "Mozilla/4.0 (compatible; TURLValidator/1.0*",
           "properties": {
             "Browser": "TURLValidator",
             "Version": "1.0",
@@ -576,7 +576,7 @@
           }
         },
         {
-          "match": "Mozilla\/4.0 (compatible; TURLValidator\/*",
+          "match": "Mozilla/4.0 (compatible; TURLValidator/*",
           "properties": {
             "Browser": "TURLValidator"
           }

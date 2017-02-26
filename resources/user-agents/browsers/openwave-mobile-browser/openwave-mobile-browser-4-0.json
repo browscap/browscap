@@ -25,10 +25,10 @@
       },
       "children": [
         {
-          "match": "UPG1* UP.Browser\/#MAJORVER#.#MINORVER#*"
+          "match": "UPG1* UP.Browser/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "* UP.Browser\/#MAJORVER#.#MINORVER#*"
+          "match": "* UP.Browser/#MAJORVER#.#MINORVER#*"
         }
       ]
     }

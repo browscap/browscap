@@ -28,25 +28,25 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
           "platforms": [
             "NT4", "Win2000", "WinXPa_32", "WinXPb_32", "Vista_32"
           ]
         },
         {
-          "match": "Mozilla\/4.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla/4.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
           "platforms": [
             "NT4", "Win2000", "WinXPa_32", "WinXPb_32", "Vista_32"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "NT4", "Win2000", "WinXPa_32", "WinXPb_32", "Vista_32"
           ]
         },
         {
-          "match": "Mozilla\/4.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/4.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "NT4", "Win2000", "WinXPa_32", "WinXPb_32", "Vista_32"
           ]

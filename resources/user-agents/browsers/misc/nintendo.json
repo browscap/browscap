@@ -28,7 +28,7 @@
           "device": "Nintendo Wii"
         },
         {
-          "match": "Opera\/* (Nintendo DSi; Opera\/*; *; *)",
+          "match": "Opera/* (Nintendo DSi; Opera/*; *; *)",
           "device": "Nintendo DSi"
         }
       ]

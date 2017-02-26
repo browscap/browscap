@@ -24,7 +24,7 @@
       },
       "children": [
         {
-          "match": "Klondike\/1.?0 (*)"
+          "match": "Klondike/1.?0 (*)"
         }
       ]
     }

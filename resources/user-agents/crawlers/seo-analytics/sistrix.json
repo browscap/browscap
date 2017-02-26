@@ -16,10 +16,10 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (compatible; SISTRIX Crawler*)"
+          "match": "Mozilla/5.0 (compatible; SISTRIX Crawler*)"
         },
         {
-          "match": "Mozilla\/5.0 (compatible; 007ac9 Crawler*",
+          "match": "Mozilla/5.0 (compatible; 007ac9 Crawler*",
           "properties": {
             "Browser": "007AC9 Crawler"
           }

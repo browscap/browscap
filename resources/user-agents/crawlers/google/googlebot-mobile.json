@@ -24,7 +24,7 @@
           "match": "KDDI-Googlebot-Mobile"
         },
         {
-          "match": "*Googlebot-Mobile\/2.*",
+          "match": "*Googlebot-Mobile/2.*",
           "properties": {
             "Version": "2.0",
             "MajorVer": "2",

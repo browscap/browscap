@@ -21,7 +21,7 @@
       },
       "children": [
         {
-          "match": "gvfs\/1.24*",
+          "match": "gvfs/1.24*",
           "properties": {
             "Version": "1.24",
             "MajorVer": "1",
@@ -29,7 +29,7 @@
           }
         },
         {
-          "match": "gvfs\/*"
+          "match": "gvfs/*"
         }
       ]
     }

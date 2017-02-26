@@ -15,7 +15,7 @@
       },
       "children": [
         {
-          "match": "Metaspinner\/0.01*",
+          "match": "Metaspinner/0.01*",
           "properties": {
             "Version": "0.01",
             "MajorVer": "0",
@@ -23,7 +23,7 @@
           }
         },
         {
-          "match": "Metaspinner\/*"
+          "match": "Metaspinner/*"
         }
       ]
     }

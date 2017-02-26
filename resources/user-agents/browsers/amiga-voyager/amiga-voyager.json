@@ -27,7 +27,7 @@
       },
       "children": [
         {
-          "match": "AmigaVoyager\/3.2 (#PLATFORM#",
+          "match": "AmigaVoyager/3.2 (#PLATFORM#",
           "platforms": [
             "Amiga"
           ],
@@ -38,7 +38,7 @@
           }
         },
         {
-          "match": "AmigaVoyager\/2.95 (#PLATFORM#",
+          "match": "AmigaVoyager/2.95 (#PLATFORM#",
           "platforms": [
             "Amiga"
           ],
@@ -49,7 +49,7 @@
           }
         },
         {
-          "match": "AmigaVoyager\/#PLATFORM#",
+          "match": "AmigaVoyager/#PLATFORM#",
           "platforms": [
             "Amiga"
           ]

@@ -18,7 +18,7 @@
       },
       "children": [
         {
-          "match": "Pete-Spider\/1.*",
+          "match": "Pete-Spider/1.*",
           "properties": {
             "Version": "1.0",
             "MajorVer": "1",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "match": "Pete-Spider\/*"
+          "match": "Pete-Spider/*"
         }
       ]
     }

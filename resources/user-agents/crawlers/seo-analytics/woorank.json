@@ -16,7 +16,7 @@
       },
       "children": [
         {
-          "match": "woobot\/1.1*",
+          "match": "woobot/1.1*",
           "properties": {
             "Browser": "WooRank",
             "Version": "1.1",
@@ -25,7 +25,7 @@
           }
         },
         {
-          "match": "woobot\/2.0*",
+          "match": "woobot/2.0*",
           "properties": {
             "Browser": "WooRank",
             "Version": "2.0",

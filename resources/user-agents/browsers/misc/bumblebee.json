@@ -24,7 +24,7 @@
       },
       "children": [
         {
-          "match": "bumblebee\/1.0 (bumblebee@relevare.com; http:\/\/www.relevare.com\/)"
+          "match": "bumblebee/1.0 (bumblebee@relevare.com; http://www.relevare.com/)"
         },
         {
           "match": "bumblebee@relevare.com"

@@ -27,7 +27,7 @@
       },
       "children": [
         {
-          "match": "iTunes\/4.7* (Macintosh*",
+          "match": "iTunes/4.7* (Macintosh*",
           "device": "Macintosh",
           "properties": {
             "Version": "4.7",
@@ -39,7 +39,7 @@
           ]
         },
         {
-          "match": "iTunes\/7.1* (Macintosh*",
+          "match": "iTunes/7.1* (Macintosh*",
           "device": "Macintosh",
           "properties": {
             "Version": "7.1",
@@ -51,7 +51,7 @@
           ]
         },
         {
-          "match": "iTunes\/10.1* (Macintosh*",
+          "match": "iTunes/10.1* (Macintosh*",
           "device": "Macintosh",
           "properties": {
             "Version": "10.1",
@@ -63,7 +63,7 @@
           ]
         },
         {
-          "match": "iTunes\/11.1* (#PLATFORM#",
+          "match": "iTunes/11.1* (#PLATFORM#",
           "device": "Macintosh",
           "properties": {
             "Version": "11.1",
@@ -75,7 +75,7 @@
           ]
         },
         {
-          "match": "iTunes\/11.1* (Windows*",
+          "match": "iTunes/11.1* (Windows*",
           "device": "Windows Desktop",
           "properties": {
             "Version": "11.1",
@@ -87,7 +87,7 @@
           ]
         },
         {
-          "match": "iTunes\/11.2* (#PLATFORM#",
+          "match": "iTunes/11.2* (#PLATFORM#",
           "device": "Macintosh",
           "properties": {
             "Version": "11.2",
@@ -99,7 +99,7 @@
           ]
         },
         {
-          "match": "iTunes\/11.2* (Windows*",
+          "match": "iTunes/11.2* (Windows*",
           "device": "Windows Desktop",
           "properties": {
             "Version": "11.2",
@@ -111,7 +111,7 @@
           ]
         },
         {
-          "match": "iTunes\/11.3* (#PLATFORM#",
+          "match": "iTunes/11.3* (#PLATFORM#",
           "device": "Macintosh",
           "properties": {
             "Version": "11.3",
@@ -123,7 +123,7 @@
           ]
         },
         {
-          "match": "iTunes\/11.3* (Windows*",
+          "match": "iTunes/11.3* (Windows*",
           "device": "Windows Desktop",
           "properties": {
             "Version": "11.3",
@@ -135,7 +135,7 @@
           ]
         },
         {
-          "match": "iTunes\/12.0* (#PLATFORM#",
+          "match": "iTunes/12.0* (#PLATFORM#",
           "device": "Macintosh",
           "properties": {
             "Version": "12.0",
@@ -147,7 +147,7 @@
           ]
         },
         {
-          "match": "iTunes\/12.0* (Windows*",
+          "match": "iTunes/12.0* (Windows*",
           "device": "Windows Desktop",
           "properties": {
             "Version": "12.0",
@@ -159,21 +159,21 @@
           ]
         },
         {
-          "match": "iTunes\/* (#PLATFORM#",
+          "match": "iTunes/* (#PLATFORM#",
           "device": "Macintosh",
           "platforms": [
             "OSX_B_10_8", "OSX_B_10_9", "OSX_B_10_10", "OSX_B"
           ]
         },
         {
-          "match": "iTunes\/* (Windows*",
+          "match": "iTunes/* (Windows*",
           "device": "Windows Desktop",
           "platforms": [
             "Windows"
           ]
         },
         {
-          "match": "iTunes-iPhone\/5.0* (Macintosh*",
+          "match": "iTunes-iPhone/5.0* (Macintosh*",
           "device": "iPhone",
           "properties": {
             "Browser": "iTunes for iPhone",
@@ -186,7 +186,7 @@
           ]
         },
         {
-          "match": "iTunes-iPhone\/5.1* (Macintosh*",
+          "match": "iTunes-iPhone/5.1* (Macintosh*",
           "device": "iPhone",
           "properties": {
             "Browser": "iTunes for iPhone",
@@ -199,7 +199,7 @@
           ]
         },
         {
-          "match": "iTunes-iPod\/5.1* (Macintosh*",
+          "match": "iTunes-iPod/5.1* (Macintosh*",
           "device": "iPod Touch",
           "properties": {
             "Browser": "iTunes for iPhone",

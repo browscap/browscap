@@ -26,49 +26,49 @@
       },
       "children": [
         {
-          "match": "OneBrowser\/#MAJORVER#.#MINORVER#?Mozilla\/5.0 (#PLATFORM#GT-S5302 *) AppleWebKit\/* (KHTML* like Gecko) Version\/*Safari\/*",
+          "match": "OneBrowser/#MAJORVER#.#MINORVER#?Mozilla/5.0 (#PLATFORM#GT-S5302 *) AppleWebKit/* (*khtml*like*gecko*) Version/*Safari/*",
           "device": "Samsung GT-S5302",
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {
-          "match": "OneBrowser\/#MAJORVER#.#MINORVER#?Mozilla\/5.0 (#PLATFORM#Micromax A27*) AppleWebKit\/* (KHTML* like Gecko) *Safari\/*",
+          "match": "OneBrowser/#MAJORVER#.#MINORVER#?Mozilla/5.0 (#PLATFORM#Micromax A27*) AppleWebKit/* (*khtml*like*gecko*) *Safari/*",
           "device": "Micromax A27",
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {
-          "match": "OneBrowser\/#MAJORVER#.#MINORVER#*(#PLATFORM#Micromax A27 *) AppleWebKit\/* (KHTML* like Gecko) *Safari\/*",
+          "match": "OneBrowser/#MAJORVER#.#MINORVER#*(#PLATFORM#Micromax A27 *) AppleWebKit/* (*khtml*like*gecko*) *Safari/*",
           "device": "Micromax A27",
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {
-          "match": "OneBrowser\/#MAJORVER#.#MINORVER#?Mozilla\/5.0 (#PLATFORM#GT-S7562*) AppleWebKit\/* (KHTML* like Gecko) *Safari\/*",
+          "match": "OneBrowser/#MAJORVER#.#MINORVER#?Mozilla/5.0 (#PLATFORM#GT-S7562*) AppleWebKit/* (*khtml*like*gecko*) *Safari/*",
           "device": "Samsung GT-S7562",
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {
-          "match": "OneBrowser\/#MAJORVER#.#MINORVER#*(#PLATFORM#GT-S7562 *) AppleWebKit\/* (KHTML* like Gecko) *Safari\/*",
+          "match": "OneBrowser/#MAJORVER#.#MINORVER#*(#PLATFORM#GT-S7562 *) AppleWebKit/* (*khtml*like*gecko*) *Safari/*",
           "device": "Samsung GT-S7562",
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {
-          "match": "OneBrowser\/#MAJORVER#.#MINORVER#?Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Version\/*Safari\/*",
+          "match": "OneBrowser/#MAJORVER#.#MINORVER#?Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) Version/*Safari/*",
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4",
             "RIMOS"
           ]
         },
         {
-          "match": "OneBrowser\/#MAJORVER#.#MINORVER#?Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Version\/*Safari\/*",
+          "match": "OneBrowser/#MAJORVER#.#MINORVER#?Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) Version/*Safari/*",
           "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
@@ -77,14 +77,14 @@
           ]
         },
         {
-          "match": "OneBrowser\/#MAJORVER#.#MINORVER#?Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) *Safari\/*",
+          "match": "OneBrowser/#MAJORVER#.#MINORVER#?Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) *Safari/*",
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4",
             "RIMOS"
           ]
         },
         {
-          "match": "OneBrowser\/#MAJORVER#.#MINORVER#?Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) *Safari\/*",
+          "match": "OneBrowser/#MAJORVER#.#MINORVER#?Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) *Safari/*",
           "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
@@ -93,14 +93,14 @@
           ]
         },
         {
-          "match": "OneBrowser\/#MAJORVER#.#MINORVER#*(#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) *Safari\/*",
+          "match": "OneBrowser/#MAJORVER#.#MINORVER#*(#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) *Safari/*",
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android",
             "RIMOS"
           ]
         },
         {
-          "match": "OneBrowser\/#MAJORVER#.#MINORVER#*(#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) *Safari\/*",
+          "match": "OneBrowser/#MAJORVER#.#MINORVER#*(#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) *Safari/*",
           "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
@@ -109,15 +109,15 @@
           ]
         },
         {
-          "match": "OneBrowser\/#MAJORVER#.#MINORVER#*(GT-S5233S*",
+          "match": "OneBrowser/#MAJORVER#.#MINORVER#*(GT-S5233S*",
           "device": "Samsung GT-S5233S"
         },
         {
-          "match": "OneBrowser\/#MAJORVER#.#MINORVER#*(SAMSUNG-GT-S3653*",
+          "match": "OneBrowser/#MAJORVER#.#MINORVER#*(SAMSUNG-GT-S3653*",
           "device": "Samsung GT-S3653"
         },
         {
-          "match": "OneBrowser\/#MAJORVER#.#MINORVER#*"
+          "match": "OneBrowser/#MAJORVER#.#MINORVER#*"
         }
       ]
     }

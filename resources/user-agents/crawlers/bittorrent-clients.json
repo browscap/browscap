@@ -21,31 +21,31 @@
           }
         },
         {
-          "match": "BitComet\/*",
+          "match": "BitComet/*",
           "properties": {
             "Browser": "BitComet"
           }
         },
         {
-          "match": "BitTornado\/*",
+          "match": "BitTornado/*",
           "properties": {
             "Browser": "BitTornado"
           }
         },
         {
-          "match": "BitTorrent\/*",
+          "match": "BitTorrent/*",
           "properties": {
             "Browser": "BitTorrent"
           }
         },
         {
-          "match": "BitTorrentMac\/*",
+          "match": "BitTorrentMac/*",
           "properties": {
             "Browser": "BitTorrentMac"
           }
         },
         {
-          "match": "BTSP\/*",
+          "match": "BTSP/*",
           "properties": {
             "Browser": "BTSP"
           }
@@ -63,13 +63,13 @@
           }
         },
         {
-          "match": "KTorrent\/*",
+          "match": "KTorrent/*",
           "properties": {
             "Browser": "KTorrent"
           }
         },
         {
-          "match": "libtorrent\/*",
+          "match": "libtorrent/*",
           "properties": {
             "Browser": "libtorrent"
           }
@@ -81,25 +81,25 @@
           }
         },
         {
-          "match": "rtorrent\/*",
+          "match": "rtorrent/*",
           "properties": {
             "Browser": "rtorrent"
           }
         },
         {
-          "match": "Transmission\/*",
+          "match": "Transmission/*",
           "properties": {
             "Browser": "Transmission"
           }
         },
         {
-          "match": "uTorrent\/*",
+          "match": "uTorrent/*",
           "properties": {
             "Browser": "uTorrent"
           }
         },
         {
-          "match": "uTorrentMac\/*",
+          "match": "uTorrentMac/*",
           "properties": {
             "Browser": "uTorrentMac"
           }

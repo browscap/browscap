@@ -17,7 +17,7 @@
       },
       "children": [
         {
-          "match": "ExactSeek Crawler\/0.1*",
+          "match": "ExactSeek Crawler/0.1*",
           "properties": {
             "Browser": "ExactSeek Crawler",
             "Version": "0.1",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "match": "ExactSeek Crawler\/*",
+          "match": "ExactSeek Crawler/*",
           "properties": {
             "Browser": "ExactSeek Crawler"
           }

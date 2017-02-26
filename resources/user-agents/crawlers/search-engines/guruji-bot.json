@@ -15,7 +15,7 @@
       },
       "children": [
         {
-          "match": "GurujiBot\/1.0*",
+          "match": "GurujiBot/1.0*",
           "properties": {
             "Browser": "GurujiBot",
             "Version": "1.0",
@@ -24,13 +24,13 @@
           }
         },
         {
-          "match": "GurujiBot\/*",
+          "match": "GurujiBot/*",
           "properties": {
             "Browser": "GurujiBot"
           }
         },
         {
-          "match": "Mozilla\/5.0 GurujiBot\/1.0*",
+          "match": "Mozilla/5.0 GurujiBot/1.0*",
           "properties": {
             "Browser": "GurujiBot",
             "Version": "1.0",
@@ -39,13 +39,13 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 GurujiBot\/*",
+          "match": "Mozilla/5.0 GurujiBot/*",
           "properties": {
             "Browser": "GurujiBot"
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; GurujiBot\/1.0*",
+          "match": "Mozilla/5.0 (compatible; GurujiBot/1.0*",
           "properties": {
             "Browser": "GurujiBot",
             "Version": "1.0",
@@ -54,7 +54,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; GurujiBot\/*",
+          "match": "Mozilla/5.0 (compatible; GurujiBot/*",
           "properties": {
             "Browser": "GurujiBot"
           }

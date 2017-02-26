@@ -19,7 +19,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (compatible; Yahoo Link Preview*"
+          "match": "Mozilla/5.0 (compatible; Yahoo Link Preview*"
         }
       ]
     }

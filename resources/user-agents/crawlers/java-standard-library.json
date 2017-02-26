@@ -19,7 +19,7 @@
       },
       "children": [
         {
-          "match": "Java\/1.2*",
+          "match": "Java/1.2*",
           "properties": {
             "Version": "1.2",
             "MajorVer": "1",
@@ -27,7 +27,7 @@
           }
         },
         {
-          "match": "Java\/1.3*",
+          "match": "Java/1.3*",
           "properties": {
             "Version": "1.3",
             "MajorVer": "1",
@@ -35,7 +35,7 @@
           }
         },
         {
-          "match": "Java\/1.4*",
+          "match": "Java/1.4*",
           "properties": {
             "Version": "1.4",
             "MajorVer": "1",
@@ -43,7 +43,7 @@
           }
         },
         {
-          "match": "Java\/1.5*",
+          "match": "Java/1.5*",
           "properties": {
             "Version": "1.5",
             "MajorVer": "1",
@@ -51,7 +51,7 @@
           }
         },
         {
-          "match": "Java\/1.6*",
+          "match": "Java/1.6*",
           "properties": {
             "Version": "1.6",
             "MajorVer": "1",
@@ -59,7 +59,7 @@
           }
         },
         {
-          "match": "Java\/1.7*",
+          "match": "Java/1.7*",
           "properties": {
             "Version": "1.7",
             "MajorVer": "1",
@@ -67,7 +67,7 @@
           }
         },
         {
-          "match": "Java\/1.17*",
+          "match": "Java/1.17*",
           "properties": {
             "Version": "1.17",
             "MajorVer": "1",
@@ -131,7 +131,7 @@
           }
         },
         {
-          "match": "Java\/*"
+          "match": "Java/*"
         }
       ]
     }

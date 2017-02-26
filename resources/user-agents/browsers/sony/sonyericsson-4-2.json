@@ -26,15 +26,15 @@
       },
       "children": [
         {
-          "match": "SonyEricssonD750i\/* Browser\/SEMC-Browser\/#MAJORVER#.#MINORVER#*",
+          "match": "SonyEricssonD750i/* Browser/SEMC-Browser/#MAJORVER#.#MINORVER#*",
           "device": "SonyEricsson D750i"
         },
         {
-          "match": "SonyEricssonK600c\/* Browser\/SEMC-Browser\/#MAJORVER#.#MINORVER#*",
+          "match": "SonyEricssonK600c/* Browser/SEMC-Browser/#MAJORVER#.#MINORVER#*",
           "device": "SonyEricsson K600c"
         },
         {
-          "match": "SonyEricssonK600i\/* Browser\/SEMC-Browser\/#MAJORVER#.#MINORVER#*",
+          "match": "SonyEricssonK600i/* Browser/SEMC-Browser/#MAJORVER#.#MINORVER#*",
           "device": "SonyEricsson K600i"
         }
       ]

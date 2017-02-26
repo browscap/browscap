@@ -21,7 +21,7 @@
       },
       "children": [
         {
-          "match": "OpenOffice\/4.0*",
+          "match": "OpenOffice/4.0*",
           "properties": {
             "Version": "4.0",
             "MajorVer": "4",
@@ -29,7 +29,7 @@
           }
         },
         {
-          "match": "OpenOffice\/4.1*",
+          "match": "OpenOffice/4.1*",
           "properties": {
             "Version": "4.1",
             "MajorVer": "4",
@@ -40,7 +40,7 @@
           "match": "OpenOffice*"
         },
         {
-          "match": "Apache OpenOffice\/4.1*",
+          "match": "Apache OpenOffice/4.1*",
           "properties": {
             "Version": "4.1",
             "MajorVer": "4",

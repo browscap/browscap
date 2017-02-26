@@ -31,42 +31,42 @@
       },
       "children": [
         {
-          "match": "Callpod Keeper for Android #MAJORVER#.#MINORVER#* Dalvik\/* (#PLATFORM#LG-H810 Build\/*",
+          "match": "Callpod Keeper for Android #MAJORVER#.#MINORVER#* Dalvik/* (#PLATFORM#LG-H810 Build/*",
           "device": "LG H810",
           "platforms": [
             "Android_6_0"
           ]
         },
         {
-          "match": "Callpod Keeper for Android #MAJORVER#.#MINORVER#* Dalvik\/* (#PLATFORM#Z812 Build\/*",
+          "match": "Callpod Keeper for Android #MAJORVER#.#MINORVER#* Dalvik/* (#PLATFORM#Z812 Build/*",
           "device": "Kodak Z812",
           "platforms": [
             "Android_5_1"
           ]
         },
         {
-          "match": "Callpod Keeper for Android #MAJORVER#.#MINORVER#* Dalvik\/* (#PLATFORM#SGH-I337 Build\/*",
+          "match": "Callpod Keeper for Android #MAJORVER#.#MINORVER#* Dalvik/* (#PLATFORM#SGH-I337 Build/*",
           "device": "Samsung SGH-I337",
           "platforms": [
             "Android_5_0"
           ]
         },
         {
-          "match": "Callpod Keeper for Android #MAJORVER#.#MINORVER#* Dalvik\/* (#PLATFORM#SM-N910A Build\/*",
+          "match": "Callpod Keeper for Android #MAJORVER#.#MINORVER#* Dalvik/* (#PLATFORM#SM-N910A Build/*",
           "device": "Samsung SM-N910A",
           "platforms": [
             "Android_5_1"
           ]
         },
         {
-          "match": "Callpod Keeper for Android #MAJORVER#.#MINORVER#* Dalvik\/* (#PLATFORM#SM-G920A Build\/*",
+          "match": "Callpod Keeper for Android #MAJORVER#.#MINORVER#* Dalvik/* (#PLATFORM#SM-G920A Build/*",
           "device": "Samsung SM-G920A",
           "platforms": [
             "Android_6_0"
           ]
         },
         {
-          "match": "Callpod Keeper for Android #MAJORVER#.#MINORVER#* Dalvik\/* (#PLATFORM#*",
+          "match": "Callpod Keeper for Android #MAJORVER#.#MINORVER#* Dalvik/* (#PLATFORM#*",
           "platforms": [
             "Android_5_0", "Android_5_1", "Android_6_0", "Android_6_1", "Android_7_0", "Android_7_1", "Android"
           ]

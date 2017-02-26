@@ -27,49 +27,49 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Chrome\/* Safari\/* Midori\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) Chrome/* Safari/* Midori/#MAJORVER#.#MINORVER#*",
           "device": "Linux Desktop",
           "platforms": [
             "Linux_64", "Linux_32", "Linux"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Chrome\/* Safari\/* Midori\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) Chrome/* Safari/* Midori/#MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
           "platforms": [
             "Win8_1_64", "Win8_1_32", "Win8_64", "Win8_32", "Win7_64", "Win7_32"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* Midori\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* Midori/#MAJORVER#.#MINORVER#*",
           "device": "Linux Desktop",
           "platforms": [
             "Linux_64", "Linux_32", "Linux"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* Midori\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* Midori/#MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
           "platforms": [
             "Win8_1_64", "Win8_1_32", "Win8_64", "Win8_32", "Win7_64", "Win7_32"
           ]
         },
         {
-          "match": "Midori\/#MAJORVER#.#MINORVER#* (#PLATFORM#) WebKit\/*",
+          "match": "Midori/#MAJORVER#.#MINORVER#* (#PLATFORM#) WebKit/*",
           "device": "Linux Desktop",
           "platforms": [
             "Linux_64", "Linux_32", "Linux"
           ]
         },
         {
-          "match": "Midori\/#MAJORVER#.#MINORVER#* (#PLATFORM#) WebKit\/*",
+          "match": "Midori/#MAJORVER#.#MINORVER#* (#PLATFORM#) WebKit/*",
           "device": "Windows Desktop",
           "platforms": [
             "Win32_B"
           ]
         },
         {
-          "match": "Midori\/#MAJORVER#.#MINORVER#* (#PLATFORM#) WebKit\/*",
+          "match": "Midori/#MAJORVER#.#MINORVER#* (#PLATFORM#) WebKit/*",
           "device": "general Desktop",
           "platforms": [
             "FreeBSD"

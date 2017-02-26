@@ -28,16 +28,16 @@
           "match": "HAIER-N60*"
         },
         {
-          "match": "HAIER-N90\/WAP1.2.1 *"
+          "match": "HAIER-N90/WAP1.2.1 *"
         },
         {
-          "match": "HAIER-V8810\/(2005.05.13)SW02\/WAP2.0 *"
+          "match": "HAIER-V8810/(2005.05.13)SW02/WAP2.0 *"
         },
         {
-          "match": "Haier-M230\/(2005.08.18))1.0\/WAP2.0"
+          "match": "Haier-M230/(2005.08.18))1.0/WAP2.0"
         },
         {
-          "match": "Haier-M61\/(2005.08.18)1.0\/WAP2.0"
+          "match": "Haier-M61/(2005.08.18)1.0/WAP2.0"
         },
         {
           "match": "Haier-P7*"

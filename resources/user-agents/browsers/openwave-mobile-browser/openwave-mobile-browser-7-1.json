@@ -25,61 +25,61 @@
       },
       "children": [
         {
-          "match": "Alcatel-M5\/1.0 UP.Browser\/#MAJORVER#.#MINORVER#*"
+          "match": "Alcatel-M5/1.0 UP.Browser/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "Alcatel-OT-C551\/1.0 UP.Browser\/#MAJORVER#.#MINORVER#*"
+          "match": "Alcatel-OT-C551/1.0 UP.Browser/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "Alcatel-OT-C552\/1.0 UP.Browser\/#MAJORVER#.#MINORVER#*"
+          "match": "Alcatel-OT-C552/1.0 UP.Browser/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "Alcatel-OT-C552a\/1.0 UP.Browser\/#MAJORVER#.#MINORVER#*"
+          "match": "Alcatel-OT-C552a/1.0 UP.Browser/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "Bird.D610\/LP,A06\/WAP2.0\/* Browser\/UP.Browser\/#MAJORVER#.#MINORVER#*"
+          "match": "Bird.D610/LP,A06/WAP2.0/* Browser/UP.Browser/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "SAGEM-my400V\/2.0\/* Browser\/UP.Browser\/#MAJORVER#.#MINORVER#*"
+          "match": "SAGEM-my400V/2.0/* Browser/UP.Browser/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "SAGEM-my501C\/1.0 * Browser\/UP.Browser\/#MAJORVER#.#MINORVER#*"
+          "match": "SAGEM-my501C/1.0 * Browser/UP.Browser/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "SAGEM-my700x\/1.0 * Browser\/UP.Browser\/#MAJORVER#.#MINORVER#*"
+          "match": "SAGEM-my700x/1.0 * Browser/UP.Browser/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "SAGEM-myV-76\/1.0 * Browser\/UP.Browser\/#MAJORVER#.#MINORVER#*"
+          "match": "SAGEM-myV-76/1.0 * Browser/UP.Browser/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "SAGEM-myX6-2\/1.0 * Browser\/UP.Browser\/#MAJORVER#.#MINORVER#*"
+          "match": "SAGEM-myX6-2/1.0 * Browser/UP.Browser/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "SIE-C81\/3? UP.Browser\/#MAJORVER#.#MINORVER#*"
+          "match": "SIE-C81/3? UP.Browser/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "SIE-E71\/* UP.Browser\/#MAJORVER#.#MINORVER#*"
+          "match": "SIE-E71/* UP.Browser/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "SIE-EL71\/* UP.Browser\/#MAJORVER#.#MINORVER#*"
+          "match": "SIE-EL71/* UP.Browser/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "SIE-M81\/* UP.Browser\/#MAJORVER#.#MINORVER#*"
+          "match": "SIE-M81/* UP.Browser/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "SIE-S68\/* UP.Browser\/#MAJORVER#.#MINORVER#*"
+          "match": "SIE-S68/* UP.Browser/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "SIE-S75\/* UP.Browser\/#MAJORVER#.#MINORVER#*"
+          "match": "SIE-S75/* UP.Browser/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "SIE-S75\/12 UP.Browser\/#MAJORVER#.#MINORVER#*"
+          "match": "SIE-S75/12 UP.Browser/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "SIE-SL75\/* UP.Browser\/#MAJORVER#.#MINORVER#*"
+          "match": "SIE-SL75/* UP.Browser/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "* UP.Browser\/#MAJORVER#.#MINORVER#*"
+          "match": "* UP.Browser/#MAJORVER#.#MINORVER#*"
         }
       ]
     }

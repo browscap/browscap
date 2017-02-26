@@ -1,16 +1,16 @@
 {
-  "division": "Avant\/IE 5.0",
+  "division": "Avant/IE 5.0",
   "sortIndex": 941,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "Avant\/IE 5.0",
+      "userAgent": "Avant/IE 5.0",
       "engine": "Trident",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Avant\/IE 5.0",
+        "Comment": "Avant/IE 5.0",
         "Browser": "Avant",
         "Browser_Type": "Browser",
         "Browser_Maker": "Avant Force",
@@ -22,7 +22,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/4.0 (compatible; MSIE 5.*; #PLATFORM#Avant Browser*",
+          "match": "Mozilla/4.0 (compatible; MSIE 5.*; #PLATFORM#Avant Browser*",
           "platforms": [
             "Win95_2", "Win98_2", "WinME",
             "Win2000_64", "Win2000_3", "Win2000", "WinXPa_x64", "WinXPa_64", "WinXPa_32",
@@ -31,7 +31,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible; MSIE 5.*; #PLATFORM#Avant Browser*",
+          "match": "Mozilla/5.0 (compatible; MSIE 5.*; #PLATFORM#Avant Browser*",
           "platforms": [
             "Win95_2", "Win98_2", "WinME",
             "Win2000_64", "Win2000_3", "Win2000", "WinXPa_x64", "WinXPa_64", "WinXPa_32",

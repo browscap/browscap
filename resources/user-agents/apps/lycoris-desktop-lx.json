@@ -1,18 +1,18 @@
 {
-  "division": "Lycoris Desktop\/LX #MAJORVER#.#MINORVER#",
+  "division": "Lycoris Desktop/LX #MAJORVER#.#MINORVER#",
   "versions": [1],
   "sortIndex": 2420,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "Lycoris Desktop\/LX #MAJORVER#.#MINORVER#",
+      "userAgent": "Lycoris Desktop/LX #MAJORVER#.#MINORVER#",
       "engine": "Gecko",
       "device": "Linux Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Lycoris Desktop\/LX #MAJORVER#.#MINORVER#",
-        "Browser": "Lycoris Desktop\/LX",
+        "Comment": "Lycoris Desktop/LX #MAJORVER#.#MINORVER#",
+        "Browser": "Lycoris Desktop/LX",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",
         "MinorVer": "#MINORVER#",
@@ -24,7 +24,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Desktop\/LX Amethyst*) *Gecko*",
+          "match": "Mozilla/5.0 (#PLATFORM#Desktop/LX Amethyst*) *Gecko*",
           "platforms": [
             "Linux_32", "Linux"
           ]

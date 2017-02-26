@@ -22,7 +22,7 @@
       },
       "children": [
         {
-          "match": "FlixsteriOS\/* (iPad#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Mobile\/*",
+          "match": "FlixsteriOS/* (iPad#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) Mobile/*",
           "device": "iPad",
           "platforms": [
             "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0", "iOS_A_8_1",
@@ -32,7 +32,7 @@
           ]
         },
         {
-          "match": "FlixsteriOS\/* (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Mobile\/*",
+          "match": "FlixsteriOS/* (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) Mobile/*",
           "platforms": [
             "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0", "iOS_A_8_1",
             "iOS_A",

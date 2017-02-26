@@ -16,7 +16,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 Moreover\/5.1*",
+          "match": "Mozilla/5.0 Moreover/5.1*",
           "properties": {
             "Version": "5.1",
             "MajorVer": "5",
@@ -24,7 +24,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 Moreover\/*"
+          "match": "Mozilla/5.0 Moreover/*"
         }
       ]
     }

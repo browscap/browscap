@@ -23,7 +23,7 @@
       },
       "children": [
         {
-          "match": "Instagram* (iPhone#PLATFORM#) AppleWebKit\/*",
+          "match": "Instagram* (iPhone#PLATFORM#) AppleWebKit/*",
           "device": "iPhone",
           "platforms": [
             "iOS_E_5_0", "iOS_E_5_1", "iOS_E_6_0", "iOS_E_6_1", "iOS_E_7_0", "iOS_E_7_1", "iOS_E_8_0", "iOS_E_8_1", "iOS_E_9_0", "iOS_E_9_3", "iOS_E_9_2", "iOS_E_9_1",
@@ -31,7 +31,7 @@
           ]
         },
         {
-          "match": "Instagram* (iPad#PLATFORM#) AppleWebKit\/*",
+          "match": "Instagram* (iPad#PLATFORM#) AppleWebKit/*",
           "device": "iPad",
           "platforms": [
             "iOS_E_5_0", "iOS_E_5_1", "iOS_E_6_0", "iOS_E_6_1", "iOS_E_7_0", "iOS_E_7_1", "iOS_E_8_0", "iOS_E_8_1", "iOS_E_9_0", "iOS_E_9_3", "iOS_E_9_2", "iOS_E_9_1",
@@ -39,7 +39,7 @@
           ]
         },
         {
-          "match": "Instagram* (#PLATFORM#) AppleWebKit\/*",
+          "match": "Instagram* (#PLATFORM#) AppleWebKit/*",
           "platforms": [
             "iOS_A_4_3", "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0", "iOS_A_8_1", "iOS_A_9_0", "iOS_A_9_1", "iOS_A_9_2", "iOS_A_9_3",
             "iOS_A",

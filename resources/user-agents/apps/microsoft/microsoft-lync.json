@@ -26,7 +26,7 @@
       },
       "children": [
         {
-          "match": "Microsoft Office\/15.* (#PLATFORM#Microsoft Lync 15.*)",
+          "match": "Microsoft Office/15.* (#PLATFORM#Microsoft Lync 15.*)",
           "device": "Windows Desktop",
           "properties": {
             "Version": "2013",

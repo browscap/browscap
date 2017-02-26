@@ -16,7 +16,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (compatible; WBSearchBot\/1.1*; +http:\/\/www.warebay.com\/bot.html)*",
+          "match": "Mozilla/5.0 (compatible; WBSearchBot/1.1*; +http://www.warebay.com/bot.html)*",
           "properties": {
             "Version": "1.1",
             "MajorVer": "1",
@@ -24,7 +24,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; WBSearchBot\/*; +http:\/\/www.warebay.com\/bot.html)*"
+          "match": "Mozilla/5.0 (compatible; WBSearchBot/*; +http://www.warebay.com/bot.html)*"
         }
       ]
     }

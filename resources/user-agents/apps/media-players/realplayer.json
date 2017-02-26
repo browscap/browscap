@@ -15,7 +15,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* RealPlayer",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* RealPlayer",
           "device": "Macintosh",
           "platforms": [
             "OSX_10_8", "OSX"
@@ -25,7 +25,7 @@
           "match": "RealPlayer*"
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#AppleWebKit\/* RealPlayer*",
+          "match": "Mozilla/5.0 (#PLATFORM#AppleWebKit/* RealPlayer*",
           "engine": "WebKit",
           "device": "Macintosh",
           "platforms": [

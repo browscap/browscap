@@ -27,15 +27,15 @@
       },
       "children": [
         {
-          "match": "SonyEricssonJ210i\/R2*TelecaBrowser\/4.*",
+          "match": "SonyEricssonJ210i/R2*TelecaBrowser/4.*",
           "device": "SonyEricsson J210i"
         },
         {
-          "match": "SonyEricssonJ220i\/* TelecaBrowser\/4.*",
+          "match": "SonyEricssonJ220i/* TelecaBrowser/4.*",
           "device": "SonyEricsson J220i"
         },
         {
-          "match": "SonyEricssonJ230i\/* TelecaBrowser\/4.*",
+          "match": "SonyEricssonJ230i/* TelecaBrowser/4.*",
           "device": "SonyEricsson J230i"
         }
       ]

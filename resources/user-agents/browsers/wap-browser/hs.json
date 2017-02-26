@@ -25,13 +25,13 @@
       },
       "children": [
         {
-          "match": "HS-G768\/1.0.0.0(2005.09.20)\/WAP2.0 Profile\/MIDP2.0 Configuration\/CLDC1.1"
+          "match": "HS-G768/1.0.0.0(2005.09.20)/WAP2.0 Profile/MIDP2.0 Configuration/CLDC1.1"
         },
         {
-          "match": "HS-G769\/1.0.0.0(2006.01.28)\/WAP2.0 Profile\/MIDP2.0 Configuration\/CLDC1.1"
+          "match": "HS-G769/1.0.0.0(2006.01.28)/WAP2.0 Profile/MIDP2.0 Configuration/CLDC1.1"
         },
         {
-          "match": "HS-G770\/1.0.0.0(2006.01.28)\/WAP2.0 Profile\/MIDP2.0 Configuration\/CLDC1.1"
+          "match": "HS-G770/1.0.0.0(2006.01.28)/WAP2.0 Profile/MIDP2.0 Configuration/CLDC1.1"
         }
       ]
     }

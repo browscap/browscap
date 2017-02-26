@@ -15,7 +15,7 @@
       },
       "children": [
         {
-          "match": "DCPbot\/1.2*",
+          "match": "DCPbot/1.2*",
           "properties": {
             "Version": "1.2",
             "MajorVer": "1",

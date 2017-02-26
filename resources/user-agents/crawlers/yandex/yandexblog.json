@@ -20,10 +20,10 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (compatible; YandexBlogs\/*; robot)"
+          "match": "Mozilla/5.0 (compatible; YandexBlogs/*; robot)"
         },
         {
-          "match": "YandexBlog\/*"
+          "match": "YandexBlog/*"
         }
       ]
     }

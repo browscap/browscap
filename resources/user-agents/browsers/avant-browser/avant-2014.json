@@ -22,7 +22,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Avant TriCore) AppleWebKit\/* (KHTML* like Gecko) Chrome\/35.* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#Avant TriCore) AppleWebKit/* (*khtml*like*gecko*) Chrome/35.* Safari/*",
           "engine": "Blink",
           "platforms": [
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
@@ -34,7 +34,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Avant TriCore) AppleWebKit\/* (KHTML* like Gecko) Chrome\/34.* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#Avant TriCore) AppleWebKit/* (*khtml*like*gecko*) Chrome/34.* Safari/*",
           "engine": "Blink",
           "platforms": [
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
@@ -46,7 +46,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Avant TriCore) AppleWebKit\/* (KHTML* like Gecko) Chrome\/33.* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#Avant TriCore) AppleWebKit/* (*khtml*like*gecko*) Chrome/33.* Safari/*",
           "engine": "Blink",
           "platforms": [
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
@@ -58,7 +58,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#rv:27.0; Avant TriCore) Gecko* Firefox\/30.*",
+          "match": "Mozilla/5.0 (#PLATFORM#rv:27.0; Avant TriCore) Gecko* Firefox/30.*",
           "engine": "Gecko_27",
           "platforms": [
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
@@ -70,7 +70,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#rv:27.0; Avant TriCore) Gecko* Firefox\/27.*",
+          "match": "Mozilla/5.0 (#PLATFORM#rv:27.0; Avant TriCore) Gecko* Firefox/27.*",
           "engine": "Gecko_27",
           "platforms": [
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",

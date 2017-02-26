@@ -23,7 +23,7 @@
       },
       "children": [
         {
-          "match": "WhatsApp\/*"
+          "match": "WhatsApp/*"
         }
       ]
     }

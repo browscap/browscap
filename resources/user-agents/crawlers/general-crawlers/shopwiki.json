@@ -15,14 +15,14 @@
       },
       "children": [
         {
-          "match": "ShopWiki\/1.0*",
+          "match": "ShopWiki/1.0*",
           "properties": {
             "Version": "1.0",
             "MajorVer": "1"
           }
         },
         {
-          "match": "ShopWiki\/*"
+          "match": "ShopWiki/*"
         }
       ]
     }

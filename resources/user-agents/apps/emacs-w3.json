@@ -1,16 +1,16 @@
 {
-  "division": "Emacs\/W3",
+  "division": "Emacs/W3",
   "sortIndex": 2340,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "Emacs\/W3",
+      "userAgent": "Emacs/W3",
       "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Emacs\/W3",
-        "Browser": "Emacs\/W3",
+        "Comment": "Emacs/W3",
+        "Browser": "Emacs/W3",
         "Browser_Type": "Application",
         "Frames": "true",
         "IFrames": "true",
@@ -20,7 +20,7 @@
       },
       "children": [
         {
-          "match": "Emacs\/W3\/2.* (#PLATFORM#",
+          "match": "Emacs/W3/2.* (#PLATFORM#",
           "device": "Linux Desktop",
           "properties": {
             "Version": "2.0",
@@ -32,7 +32,7 @@
           ]
         },
         {
-          "match": "Emacs\/W3\/2.* (#PLATFORM#",
+          "match": "Emacs/W3/2.* (#PLATFORM#",
           "device": "general Desktop",
           "properties": {
             "Version": "2.0",
@@ -44,7 +44,7 @@
           ]
         },
         {
-          "match": "Emacs\/W3\/2.*",
+          "match": "Emacs/W3/2.*",
           "properties": {
             "Version": "2.0",
             "MajorVer": "2",
@@ -52,7 +52,7 @@
           }
         },
         {
-          "match": "Emacs\/W3\/3.* (#PLATFORM#",
+          "match": "Emacs/W3/3.* (#PLATFORM#",
           "device": "Linux Desktop",
           "properties": {
             "Version": "3.0",
@@ -64,7 +64,7 @@
           ]
         },
         {
-          "match": "Emacs\/W3\/3.* (#PLATFORM#",
+          "match": "Emacs/W3/3.* (#PLATFORM#",
           "device": "general Desktop",
           "properties": {
             "Version": "3.0",
@@ -76,7 +76,7 @@
           ]
         },
         {
-          "match": "Emacs\/W3\/3.*",
+          "match": "Emacs/W3/3.*",
           "properties": {
             "Version": "3.0",
             "MajorVer": "3",
@@ -84,7 +84,7 @@
           }
         },
         {
-          "match": "Emacs\/W3\/4.* (#PLATFORM#",
+          "match": "Emacs/W3/4.* (#PLATFORM#",
           "device": "Linux Desktop",
           "properties": {
             "Version": "4.0",
@@ -96,7 +96,7 @@
           ]
         },
         {
-          "match": "Emacs\/W3\/4.* (#PLATFORM#",
+          "match": "Emacs/W3/4.* (#PLATFORM#",
           "device": "general Desktop",
           "properties": {
             "Version": "4.0",
@@ -108,7 +108,7 @@
           ]
         },
         {
-          "match": "Emacs\/W3\/4.*",
+          "match": "Emacs/W3/4.*",
           "properties": {
             "Version": "4.0",
             "MajorVer": "4",
@@ -116,7 +116,7 @@
           }
         },
         {
-          "match": "Emacs-w3m\/*"
+          "match": "Emacs-w3m/*"
         }
       ]
     }

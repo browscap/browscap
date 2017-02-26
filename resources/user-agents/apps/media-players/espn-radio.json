@@ -22,127 +22,127 @@
       },
       "children": [
         {
-          "match": "ESPN%20Radio\/#MAJORVER#.#MINORVER#* CFNetwork\/459*",
+          "match": "ESPN%20Radio/#MAJORVER#.#MINORVER#* CFNetwork/459*",
           "platforms": [
             "iOS_A_3_1"
           ]
         },
         {
-          "match": "ESPN%20Radio\/#MAJORVER#.#MINORVER#* CFNetwork\/467.12*",
+          "match": "ESPN%20Radio/#MAJORVER#.#MINORVER#* CFNetwork/467.12*",
           "platforms": [
             "iOS_A_3_2"
           ]
         },
         {
-          "match": "ESPN%20Radio\/#MAJORVER#.#MINORVER#* CFNetwork\/485.2*",
+          "match": "ESPN%20Radio/#MAJORVER#.#MINORVER#* CFNetwork/485.2*",
           "platforms": [
             "iOS_A_4_0"
           ]
         },
         {
-          "match": "ESPN%20Radio\/#MAJORVER#.#MINORVER#* CFNetwork\/485.10*",
+          "match": "ESPN%20Radio/#MAJORVER#.#MINORVER#* CFNetwork/485.10*",
           "platforms": [
             "iOS_A_4_1"
           ]
         },
         {
-          "match": "ESPN%20Radio\/#MAJORVER#.#MINORVER#* CFNetwork\/485.12*",
+          "match": "ESPN%20Radio/#MAJORVER#.#MINORVER#* CFNetwork/485.12*",
           "platforms": [
             "iOS_A_4_2"
           ]
         },
         {
-          "match": "ESPN%20Radio\/#MAJORVER#.#MINORVER#* CFNetwork\/485.13*",
+          "match": "ESPN%20Radio/#MAJORVER#.#MINORVER#* CFNetwork/485.13*",
           "platforms": [
             "iOS_A_4_3"
           ]
         },
         {
-          "match": "ESPN%20Radio\/#MAJORVER#.#MINORVER#* CFNetwork\/548.1*",
+          "match": "ESPN%20Radio/#MAJORVER#.#MINORVER#* CFNetwork/548.1*",
           "platforms": [
             "iOS_A_5_1"
           ]
         },
         {
-          "match": "ESPN%20Radio\/#MAJORVER#.#MINORVER#* CFNetwork\/548.0*",
+          "match": "ESPN%20Radio/#MAJORVER#.#MINORVER#* CFNetwork/548.0*",
           "platforms": [
             "iOS_A_5_0"
           ]
         },
         {
-          "match": "ESPN%20Radio\/#MAJORVER#.#MINORVER#* CFNetwork\/602*",
+          "match": "ESPN%20Radio/#MAJORVER#.#MINORVER#* CFNetwork/602*",
           "platforms": [
             "iOS_A_6_0"
           ]
         },
         {
-          "match": "ESPN%20Radio\/#MAJORVER#.#MINORVER#* CFNetwork\/609.1*",
+          "match": "ESPN%20Radio/#MAJORVER#.#MINORVER#* CFNetwork/609.1*",
           "platforms": [
             "iOS_A_6_1"
           ]
         },
         {
-          "match": "ESPN%20Radio\/#MAJORVER#.#MINORVER#* CFNetwork\/609*",
+          "match": "ESPN%20Radio/#MAJORVER#.#MINORVER#* CFNetwork/609*",
           "platforms": [
             "iOS_A_6_0"
           ]
         },
         {
-          "match": "ESPN%20Radio\/#MAJORVER#.#MINORVER#* CFNetwork\/672.0*",
+          "match": "ESPN%20Radio/#MAJORVER#.#MINORVER#* CFNetwork/672.0*",
           "platforms": [
             "iOS_A_7_0"
           ]
         },
         {
-          "match": "ESPN%20Radio\/#MAJORVER#.#MINORVER#* CFNetwork\/672.1*",
+          "match": "ESPN%20Radio/#MAJORVER#.#MINORVER#* CFNetwork/672.1*",
           "platforms": [
             "iOS_A_7_1"
           ]
         },
         {
-          "match": "ESPN%20Radio\/#MAJORVER#.#MINORVER#* CFNetwork\/711.0*",
+          "match": "ESPN%20Radio/#MAJORVER#.#MINORVER#* CFNetwork/711.0*",
           "platforms": [
             "iOS_A_8_0"
           ]
         },
         {
-          "match": "ESPN%20Radio\/#MAJORVER#.#MINORVER#* CFNetwork\/711.1*",
+          "match": "ESPN%20Radio/#MAJORVER#.#MINORVER#* CFNetwork/711.1*",
           "platforms": [
             "iOS_A_8_1"
           ]
         },
         {
-          "match": "ESPN%20Radio\/#MAJORVER#.#MINORVER#* CFNetwork\/711.2*",
+          "match": "ESPN%20Radio/#MAJORVER#.#MINORVER#* CFNetwork/711.2*",
           "platforms": [
             "iOS_A_8_2"
           ]
         },
         {
-          "match": "ESPN%20Radio\/#MAJORVER#.#MINORVER#* CFNetwork\/711.3*",
+          "match": "ESPN%20Radio/#MAJORVER#.#MINORVER#* CFNetwork/711.3*",
           "platforms": [
             "iOS_A_8_3"
           ]
         },
         {
-          "match": "ESPN%20Radio\/#MAJORVER#.#MINORVER#* CFNetwork\/711.4*",
+          "match": "ESPN%20Radio/#MAJORVER#.#MINORVER#* CFNetwork/711.4*",
           "platforms": [
             "iOS_A_8_4"
           ]
         },
         {
-          "match": "ESPN%20Radio\/#MAJORVER#.#MINORVER#* CFNetwork\/711.5*",
+          "match": "ESPN%20Radio/#MAJORVER#.#MINORVER#* CFNetwork/711.5*",
           "platforms": [
             "iOS_A_8_4"
           ]
         },
         {
-          "match": "ESPN%20Radio\/#MAJORVER#.#MINORVER#* CFNetwork\/758*",
+          "match": "ESPN%20Radio/#MAJORVER#.#MINORVER#* CFNetwork/758*",
           "platforms": [
             "iOS_A_9_0"
           ]
         },
         {
-          "match": "ESPN%20Radio\/#MAJORVER#.#MINORVER#* CFNetwork\/*",
+          "match": "ESPN%20Radio/#MAJORVER#.#MINORVER#* CFNetwork/*",
           "platforms": [
             "iOS"
           ]
@@ -179,14 +179,14 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#HP Slate 17 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Chrome*Safari*ESPN APP*#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#HP Slate 17 Build/*) AppleWebKit/* (*khtml*like*gecko*) Version/*Chrome*Safari*ESPN APP*#MAJORVER#.#MINORVER#*",
           "device": "HP Slate 17",
           "platforms": [
             "Android_4_4"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM# Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Chrome*Safari*ESPN APP*#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM# Build/*) AppleWebKit/* (*khtml*like*gecko*) Version/*Chrome*Safari*ESPN APP*#MAJORVER#.#MINORVER#*",
           "platforms": [
             "Android_4_4", "Android_5_0", "Android_5_1", "Android_6_0", "Android"
           ]

@@ -18,7 +18,7 @@
       },
       "children": [
         {
-          "match": "magpie-crawler\/1.*",
+          "match": "magpie-crawler/1.*",
           "properties": {
             "Version": "1.0",
             "MajorVer": "1",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "match": "magpie-crawler\/*"
+          "match": "magpie-crawler/*"
         }
       ]
     }

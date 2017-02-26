@@ -15,7 +15,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (compatible; Another Web Mining Tool 1.0; +none; awmt)*",
+          "match": "Mozilla/5.0 (compatible; Another Web Mining Tool 1.0; +none; awmt)*",
           "properties": {
             "Version": "1.0",
             "MajorVer": "1",
@@ -23,7 +23,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; Another Web Mining Tool *; +none; awmt)*"
+          "match": "Mozilla/5.0 (compatible; Another Web Mining Tool *; +none; awmt)*"
         }
       ]
     }

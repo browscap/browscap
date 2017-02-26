@@ -39,25 +39,25 @@
           }
         },
         {
-          "match": "AIBOT\/*",
+          "match": "AIBOT/*",
           "properties": {
             "Browser": "21Seek.Com"
           }
         },
         {
-          "match": "ALeadSoftbot\/*",
+          "match": "ALeadSoftbot/*",
           "properties": {
             "Browser": "ALeadSoftbot"
           }
         },
         {
-          "match": "Amfibibot\/*",
+          "match": "Amfibibot/*",
           "properties": {
             "Browser": "Amfibi"
           }
         },
         {
-          "match": "AnswerBus (http:\/\/www.answerbus.com\/)",
+          "match": "AnswerBus (http://www.answerbus.com/)",
           "properties": {
             "Browser": "AnswerBus"
           }
@@ -75,37 +75,37 @@
           }
         },
         {
-          "match": "ASPSeek\/*",
+          "match": "ASPSeek/*",
           "properties": {
             "Browser": "ASPSeek"
           }
         },
         {
-          "match": "Atrax Solutions atraxbot\/0.*; http:\/\/www.atraxsolutions.com\/atraxbot",
+          "match": "Atrax Solutions atraxbot/0.*; http://www.atraxsolutions.com/atraxbot",
           "properties": {
             "Browser": "Atrax Solutions"
           }
         },
         {
-          "match": "BigCliqueBOT\/*",
+          "match": "BigCliqueBOT/*",
           "properties": {
-            "Browser": "BigClique.com\/BigClic.com"
+            "Browser": "BigClique.com/BigClic.com"
           }
         },
         {
-          "match": "Blaiz-Bee\/*",
+          "match": "Blaiz-Bee/*",
           "properties": {
             "Browser": "RawGrunt"
           }
         },
         {
-          "match": "btbot\/*",
+          "match": "btbot/*",
           "properties": {
             "Browser": "Bit Torrent Search Engine"
           }
         },
         {
-          "match": "Busiversebot\/v1.0*",
+          "match": "Busiversebot/v1.0*",
           "properties": {
             "Browser": "Busiversebot",
             "Version": "1.0",
@@ -114,13 +114,13 @@
           }
         },
         {
-          "match": "Busiversebot\/*",
+          "match": "Busiversebot/*",
           "properties": {
             "Browser": "Busiversebot"
           }
         },
         {
-          "match": "CatchBot\/2.0*",
+          "match": "CatchBot/2.0*",
           "properties": {
             "Browser": "CatchBot",
             "Version": "2.0",
@@ -129,7 +129,7 @@
           }
         },
         {
-          "match": "CatchBot\/1.0*",
+          "match": "CatchBot/1.0*",
           "properties": {
             "Browser": "CatchBot",
             "Version": "1.0",
@@ -138,19 +138,19 @@
           }
         },
         {
-          "match": "CatchBot\/*",
+          "match": "CatchBot/*",
           "properties": {
             "Browser": "CatchBot"
           }
         },
         {
-          "match": "CipinetBot (http:\/\/www.cipinet.com\/bot.html)",
+          "match": "CipinetBot (http://www.cipinet.com/bot.html)",
           "properties": {
             "Browser": "CipinetBot"
           }
         },
         {
-          "match": "Cogentbot\/1.?*",
+          "match": "Cogentbot/1.?*",
           "properties": {
             "Browser": "Cogentbot",
             "Version": "1.0",
@@ -159,7 +159,7 @@
           }
         },
         {
-          "match": "Cogentbot\/*",
+          "match": "Cogentbot/*",
           "properties": {
             "Browser": "Cogentbot"
           }
@@ -180,7 +180,7 @@
           }
         },
         {
-          "match": "cosmos\/0.9*",
+          "match": "cosmos/0.9*",
           "properties": {
             "Browser": "Xyleme",
             "Version": "0.9",
@@ -223,31 +223,31 @@
           }
         },
         {
-          "match": "Faxobot\/*",
+          "match": "Faxobot/*",
           "properties": {
             "Browser": "Faxo"
           }
         },
         {
-          "match": "Filangy\/*",
+          "match": "Filangy/*",
           "properties": {
             "Browser": "Filangy"
           }
         },
         {
-          "match": "flatlandbot\/*",
+          "match": "flatlandbot/*",
           "properties": {
             "Browser": "Flatland"
           }
         },
         {
-          "match": "Fooky.com\/ScorpionBot\/ScoutOut;*",
+          "match": "Fooky.com/ScorpionBot/ScoutOut;*",
           "properties": {
             "Browser": "ScorpionBot"
           }
         },
         {
-          "match": "FyberSpider\/1.3*",
+          "match": "FyberSpider/1.3*",
           "properties": {
             "Browser": "FyberSpider",
             "Version": "1.3",
@@ -262,13 +262,13 @@
           }
         },
         {
-          "match": "Gaisbot\/*",
+          "match": "Gaisbot/*",
           "properties": {
             "Browser": "Gaisbot"
           }
         },
         {
-          "match": "gazz\/*(gazz@nttr.co.jp)",
+          "match": "gazz/*(gazz@nttr.co.jp)",
           "properties": {
             "Browser": "gazz"
           }
@@ -280,19 +280,19 @@
           }
         },
         {
-          "match": "GOFORITBOT (?http:\/\/www.goforit.com\/about\/?)",
+          "match": "GOFORITBOT (?http://www.goforit.com/about/?)",
           "properties": {
             "Browser": "GoForIt"
           }
         },
         {
-          "match": "GoGuidesBot\/*",
+          "match": "GoGuidesBot/*",
           "properties": {
             "Browser": "GoGuidesBot"
           }
         },
         {
-          "match": "GroschoBot\/*",
+          "match": "GroschoBot/*",
           "properties": {
             "Browser": "GroschoBot"
           }
@@ -304,61 +304,61 @@
           }
         },
         {
-          "match": "HolmesBot (http:\/\/holmes.ge)",
+          "match": "HolmesBot (http://holmes.ge)",
           "properties": {
             "Browser": "HolmesBot"
           }
         },
         {
-          "match": "Hotzonu\/*",
+          "match": "Hotzonu/*",
           "properties": {
             "Browser": "Hotzonu"
           }
         },
         {
-          "match": "HyperEstraier\/*",
+          "match": "HyperEstraier/*",
           "properties": {
             "Browser": "HyperEstraier"
           }
         },
         {
-          "match": "i1searchbot\/*",
+          "match": "i1searchbot/*",
           "properties": {
             "Browser": "i1searchbot"
           }
         },
         {
-          "match": "IIITBOT\/1.*",
+          "match": "IIITBOT/1.*",
           "properties": {
             "Browser": "Indian Language Web Search Engine"
           }
         },
         {
-          "match": "Iltrovatore-?etaccio\/*",
+          "match": "Iltrovatore-?etaccio/*",
           "properties": {
             "Browser": "Iltrovatore-Setaccio"
           }
         },
         {
-          "match": "InfociousBot (?http:\/\/corp.infocious.com\/tech_crawler.php)",
+          "match": "InfociousBot (?http://corp.infocious.com/tech_crawler.php)",
           "properties": {
             "Browser": "InfociousBot"
           }
         },
         {
-          "match": "Infoseek SideWinder\/*",
+          "match": "Infoseek SideWinder/*",
           "properties": {
             "Browser": "Infoseek"
           }
         },
         {
-          "match": "iSEEKbot\/*",
+          "match": "iSEEKbot/*",
           "properties": {
             "Browser": "iSEEKbot"
           }
         },
         {
-          "match": "Knight\/0.? (Zook Knight; http:\/\/knight.zook.in\/; knight@zook.in)",
+          "match": "Knight/0.? (Zook Knight; http://knight.zook.in/; knight@zook.in)",
           "properties": {
             "Browser": "Knight"
           }
@@ -370,19 +370,19 @@
           }
         },
         {
-          "match": "KRetrieve\/",
+          "match": "KRetrieve/",
           "properties": {
             "Browser": "KRetrieve"
           }
         },
         {
-          "match": "LapozzBot\/*",
+          "match": "LapozzBot/*",
           "properties": {
             "Browser": "LapozzBot"
           }
         },
         {
-          "match": "Linguee Bot (http:\/\/www.linguee.com\/bot; bot@linguee.com)",
+          "match": "Linguee Bot (http://www.linguee.com/bot; bot@linguee.com)",
           "properties": {
             "Browser": "Linguee Bot"
           }
@@ -394,19 +394,19 @@
           }
         },
         {
-          "match": "LocalcomBot\/*",
+          "match": "LocalcomBot/*",
           "properties": {
             "Browser": "LocalcomBot"
           }
         },
         {
-          "match": "MaSagool\/*",
+          "match": "MaSagool/*",
           "properties": {
             "Browser": "Sagoo"
           }
         },
         {
-          "match": "miniRank\/*",
+          "match": "miniRank/*",
           "properties": {
             "Browser": "miniRank"
           }
@@ -418,76 +418,76 @@
           }
         },
         {
-          "match": "Mozilla\/0.9* no dos :) (Linux*)",
+          "match": "Mozilla/0.9* no dos :) (Linux*)",
           "properties": {
             "Browser": "goliat"
           }
         },
         {
-          "match": "Mozilla\/4.0 (compatible; Arachmo)",
+          "match": "Mozilla/4.0 (compatible; Arachmo)",
           "properties": {
             "Browser": "Arachmo"
           }
         },
         {
-          "match": "Mozilla\/4.0 (compatible; http:\/\/search.thunderstone.com\/texis\/websearch\/about.html)",
+          "match": "Mozilla/4.0 (compatible; http://search.thunderstone.com/texis/websearch/about.html)",
           "properties": {
             "Browser": "Texis Websearch",
             "Browser_Maker": "Thunderstone Software LLC"
           }
         },
         {
-          "match": "Mozilla\/4.0 (compatible; T-H-U-N-D-E-R-S-T-O-N-E)*",
+          "match": "Mozilla/4.0 (compatible; T-H-U-N-D-E-R-S-T-O-N-E)*",
           "properties": {
             "Browser": "Texis Webscript",
             "Browser_Maker": "Thunderstone Software LLC"
           }
         },
         {
-          "match": "Mozilla\/4.0(?compatible; MSIE 6.0; Qihoo *)",
+          "match": "Mozilla/4.0(?compatible; MSIE 6.0; Qihoo *)",
           "properties": {
             "Browser": "Qihoo"
           }
         },
         {
-          "match": "Mozilla\/4.7 (compatible; WhizBang; http:\/\/www.whizbang.com\/crawler)",
+          "match": "Mozilla/4.7 (compatible; WhizBang; http://www.whizbang.com/crawler)",
           "properties": {
             "Browser": "Inxight Software"
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; ActiveTouristBot*; http:\/\/www.activetourist.com)",
+          "match": "Mozilla/5.0 (compatible; ActiveTouristBot*; http://www.activetourist.com)",
           "properties": {
             "Browser": "ActiveTouristBot"
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; ayna-crawler*)",
+          "match": "Mozilla/5.0 (compatible; ayna-crawler*)",
           "properties": {
             "Browser": "ayna-crawler"
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; Butterfly\/1.0; *)*",
+          "match": "Mozilla/5.0 (compatible; Butterfly/1.0; *)*",
           "properties": {
             "Browser": "Butterfly"
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; Charlotte\/*; *)",
+          "match": "Mozilla/5.0 (compatible; Charlotte/*; *)",
           "properties": {
             "Browser": "Charlotte",
             "Beta": "true"
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; CXL-FatAssANT*)",
+          "match": "Mozilla/5.0 (compatible; CXL-FatAssANT*)",
           "properties": {
             "Browser": "FatAssANT"
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; DBLBot\/1.0; ?http:\/\/www.dontbuylists.com\/)",
+          "match": "Mozilla/5.0 (compatible; DBLBot/1.0; ?http://www.dontbuylists.com/)",
           "properties": {
             "Browser": "DBLBot",
             "Version": "1.0",
@@ -496,13 +496,13 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; EARTHCOM.info\/*)",
+          "match": "Mozilla/5.0 (compatible; EARTHCOM.info/*)",
           "properties": {
             "Browser": "EARTHCOM"
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; MojeekBot\/*; http:\/\/www.mojeek.com\/bot.html)",
+          "match": "Mozilla/5.0 (compatible; MojeekBot/*; http://www.mojeek.com/bot.html)",
           "properties": {
             "Browser": "MojeekBot"
           }
@@ -515,38 +515,38 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; NLCrawler\/*",
+          "match": "Mozilla/5.0 (compatible; NLCrawler/*",
           "properties": {
             "Browser": "Northern Light Web Search",
             "Browser_Maker": "Northern Light"
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; OsO;*",
+          "match": "Mozilla/5.0 (compatible; OsO;*",
           "properties": {
             "Browser": "Octopodus"
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; ParchBot\/1.0;*)",
+          "match": "Mozilla/5.0 (compatible; ParchBot/1.0;*)",
           "properties": {
             "Browser": "ParchBot"
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; Pogodak.*)",
+          "match": "Mozilla/5.0 (compatible; Pogodak.*)",
           "properties": {
             "Browser": "Pogodak"
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; Quantcastbot\/1.*)",
+          "match": "Mozilla/5.0 (compatible; Quantcastbot/1.*)",
           "properties": {
             "Browser": "Quantcastbot"
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; YoudaoBot\/1.0*",
+          "match": "Mozilla/5.0 (compatible; YoudaoBot/1.0*",
           "properties": {
             "Browser": "YoudaoBot",
             "Version": "1.0",
@@ -555,19 +555,19 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; YoudaoBot\/*",
+          "match": "Mozilla/5.0 (compatible; YoudaoBot/*",
           "properties": {
             "Browser": "YoudaoBot"
           }
         },
         {
-          "match": "Mozilla\/5.0 (Twiceler*)",
+          "match": "Mozilla/5.0 (Twiceler*)",
           "properties": {
             "Browser": "Twiceler"
           }
         },
         {
-          "match": "Mozilla\/5.0 CostaCider Search*",
+          "match": "Mozilla/5.0 CostaCider Search*",
           "properties": {
             "Browser": "CostaCider Search"
           }
@@ -597,26 +597,26 @@
           }
         },
         {
-          "match": "ObjectsSearch\/*",
+          "match": "ObjectsSearch/*",
           "properties": {
             "Browser": "ObjectsSearch"
           }
         },
         {
-          "match": "OOZBOT\/0.20 ( http:\/\/www.setooz.com\/oozbot.html ; agentname at setooz dot_com )",
+          "match": "OOZBOT/0.20 ( http://www.setooz.com/oozbot.html ; agentname at setooz dot_com )",
           "properties": {
             "Browser": "Setooz"
           }
         },
         {
-          "match": "OpenISearch\/1.*",
+          "match": "OpenISearch/1.*",
           "properties": {
             "Browser": "OpenISearch (Amazon)",
             "Browser_Maker": "Amazon.com, Inc."
           }
         },
         {
-          "match": "Pagebull http:\/\/www.pagebull.com\/",
+          "match": "Pagebull http://www.pagebull.com/",
           "properties": {
             "Browser": "Pagebull"
           }
@@ -628,13 +628,13 @@
           }
         },
         {
-          "match": "Pompos\/*",
+          "match": "Pompos/*",
           "properties": {
             "Browser": "Pompos"
           }
         },
         {
-          "match": "Popdexter\/*",
+          "match": "Popdexter/*",
           "properties": {
             "Browser": "Popdex"
           }
@@ -646,19 +646,19 @@
           }
         },
         {
-          "match": "RedCell\/* (*)",
+          "match": "RedCell/* (*)",
           "properties": {
             "Browser": "RedCell"
           }
         },
         {
-          "match": "SaladSpoon\/ShopSalad 1.* (Search Engine crawler for ShopSalad.com; *; crawler@shopsalad.com)",
+          "match": "SaladSpoon/ShopSalad 1.* (Search Engine crawler for ShopSalad.com; *; crawler@shopsalad.com)",
           "properties": {
             "Browser": "ShopSalad"
           }
         },
         {
-          "match": "Search-10\/*",
+          "match": "Search-10/*",
           "properties": {
             "Browser": "Search-10"
           }
@@ -676,7 +676,7 @@
           }
         },
         {
-          "match": "Seekbot\/*",
+          "match": "Seekbot/*",
           "properties": {
             "Browser": "Seekbot"
           }
@@ -688,31 +688,31 @@
           }
         },
         {
-          "match": "Spinne\/*",
+          "match": "Spinne/*",
           "properties": {
             "Browser": "Spinne"
           }
         },
         {
-          "match": "sproose\/*",
+          "match": "sproose/*",
           "properties": {
             "Browser": "Sproose"
           }
         },
         {
-          "match": "Sqeobot\/0.*",
+          "match": "Sqeobot/0.*",
           "properties": {
             "Browser": "Branzel"
           }
         },
         {
-          "match": "SquigglebotBot\/*",
+          "match": "SquigglebotBot/*",
           "properties": {
             "Browser": "SquigglebotBot"
           }
         },
         {
-          "match": "StackRambler\/*",
+          "match": "StackRambler/*",
           "properties": {
             "Browser": "StackRambler"
           }
@@ -730,25 +730,25 @@
           }
         },
         {
-          "match": "Szukacz\/*",
+          "match": "Szukacz/*",
           "properties": {
             "Browser": "Szukacz"
           }
         },
         {
-          "match": "Tarantula\/*",
+          "match": "Tarantula/*",
           "properties": {
             "Browser": "Tarantula"
           }
         },
         {
-          "match": "TerrawizBot\/*",
+          "match": "TerrawizBot/*",
           "properties": {
             "Browser": "TerrawizBot"
           }
         },
         {
-          "match": "Tkensaku\/*",
+          "match": "Tkensaku/*",
           "properties": {
             "Browser": "Tkensaku"
           }
@@ -760,7 +760,7 @@
           }
         },
         {
-          "match": "TwengaBot-Discover (http:\/\/www.twenga.fr\/bot-discover.html)",
+          "match": "TwengaBot-Discover (http://www.twenga.fr/bot-discover.html)",
           "properties": {
             "Browser": "TwengaBot-Discover"
           }
@@ -772,13 +772,13 @@
           }
         },
         {
-          "match": "updated\/*",
+          "match": "updated/*",
           "properties": {
             "Browser": "Updated!"
           }
         },
         {
-          "match": "URL Spider Pro\/*",
+          "match": "URL Spider Pro/*",
           "properties": {
             "Browser": "URL Spider Pro"
           }
@@ -790,13 +790,13 @@
           }
         },
         {
-          "match": "VMBot\/*",
+          "match": "VMBot/*",
           "properties": {
             "Browser": "VMBot"
           }
         },
         {
-          "match": "voyager\/2.0*",
+          "match": "voyager/2.0*",
           "properties": {
             "Browser": "Voyager Bot",
             "Browser_Maker": "Cosmix Corporation",
@@ -806,7 +806,7 @@
           }
         },
         {
-          "match": "voyager\/1.0*",
+          "match": "voyager/1.0*",
           "properties": {
             "Browser": "Voyager Bot",
             "Browser_Maker": "Cosmix Corporation",
@@ -816,7 +816,7 @@
           }
         },
         {
-          "match": "voyager\/*",
+          "match": "voyager/*",
           "properties": {
             "Browser": "Voyager Bot",
             "Browser_Maker": "Cosmix Corporation"
@@ -829,13 +829,13 @@
           }
         },
         {
-          "match": "WebAlta Crawler\/*",
+          "match": "WebAlta Crawler/*",
           "properties": {
             "Browser": "WebAlta Crawler"
           }
         },
         {
-          "match": "WebCorp\/*",
+          "match": "WebCorp/*",
           "properties": {
             "Browser": "WebCorp"
           }
@@ -847,13 +847,13 @@
           }
         },
         {
-          "match": "WISEbot\/*",
+          "match": "WISEbot/*",
           "properties": {
             "Browser": "WISEbot"
           }
         },
         {
-          "match": "Wotbox\/*",
+          "match": "Wotbox/*",
           "properties": {
             "Browser": "Wotbox"
           }
@@ -877,7 +877,7 @@
           }
         },
         {
-          "match": "YodaoBot\/*",
+          "match": "YodaoBot/*",
           "properties": {
             "Browser": "YodaoBot"
           }
@@ -895,19 +895,19 @@
           }
         },
         {
-          "match": "ZipppBot\/*",
+          "match": "ZipppBot/*",
           "properties": {
             "Browser": "ZipppBot"
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; Charlotte\/*)",
+          "match": "Mozilla/5.0 (compatible; Charlotte/*)",
           "properties": {
             "Browser": "Charlotte"
           }
         },
         {
-          "match": "Mozilla\/4.0(?compatible*; MSIE 6.0; Qihoo *)",
+          "match": "Mozilla/4.0(?compatible*; MSIE 6.0; Qihoo *)",
           "properties": {
             "Browser": "Qihoo"
           }
@@ -920,7 +920,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; coccoc\/1.0*",
+          "match": "Mozilla/5.0 (compatible; coccoc/1.0*",
           "properties": {
             "Browser": "Coccoc bot",
             "Browser_Maker": "Coc Coc Company Limited",
@@ -930,7 +930,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; coccoc\/*",
+          "match": "Mozilla/5.0 (compatible; coccoc/*",
           "properties": {
             "Browser": "Coccoc bot",
             "Browser_Maker": "Coc Coc Company Limited"
@@ -944,14 +944,14 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; Wada.vn*",
+          "match": "Mozilla/5.0 (compatible; Wada.vn*",
           "properties": {
             "Browser": "Wada.vn Search Bot",
             "Browser_Maker": "WADA"
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; AcoonBot\/4.11*",
+          "match": "Mozilla/5.0 (compatible; AcoonBot/4.11*",
           "properties": {
             "Browser": "AcoonBot",
             "Browser_Maker": "Michael Schoebel",
@@ -961,14 +961,14 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; AcoonBot\/*",
+          "match": "Mozilla/5.0 (compatible; AcoonBot/*",
           "properties": {
             "Browser": "AcoonBot",
             "Browser_Maker": "Michael Schoebel"
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; MojeekBot\/0.6*",
+          "match": "Mozilla/5.0 (compatible; MojeekBot/0.6*",
           "properties": {
             "Browser": "MojeekBot",
             "Browser_Maker": "Mojeek Ltd.",
@@ -978,14 +978,14 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; MojeekBot\/*",
+          "match": "Mozilla/5.0 (compatible; MojeekBot/*",
           "properties": {
             "Browser": "MojeekBot",
             "Browser_Maker": "Mojeek Ltd."
           }
         },
         {
-          "match": "Mozilla\/5.1 (compatible; MonoBot\/1.0*",
+          "match": "Mozilla/5.1 (compatible; MonoBot/1.0*",
           "properties": {
             "Browser": "MonoBot",
             "Browser_Maker": "mono.name",
@@ -995,14 +995,14 @@
           }
         },
         {
-          "match": "Mozilla\/5.1 (compatible; MonoBot\/*",
+          "match": "Mozilla/5.1 (compatible; MonoBot/*",
           "properties": {
             "Browser": "MonoBot",
             "Browser_Maker": "mono.name"
           }
         },
         {
-          "match": "Mozilla\/5.1 (compatible; GLBot\/1.0*",
+          "match": "Mozilla/5.1 (compatible; GLBot/1.0*",
           "properties": {
             "Browser": "GLBot",
             "Browser_Maker": "GalaxyDownloads.co",
@@ -1012,14 +1012,14 @@
           }
         },
         {
-          "match": "Mozilla\/5.1 (compatible; GLBot\/*",
+          "match": "Mozilla/5.1 (compatible; GLBot/*",
           "properties": {
             "Browser": "GLBot",
             "Browser_Maker": "GalaxyDownloads.co"
           }
         },
         {
-          "match": "Mozilla\/5.1 (compatible; DBot\/7.0*",
+          "match": "Mozilla/5.1 (compatible; DBot/7.0*",
           "properties": {
             "Browser": "DBot",
             "Browser_Maker": "getdownload.ws",
@@ -1029,14 +1029,14 @@
           }
         },
         {
-          "match": "Mozilla\/5.1 (compatible; DBot\/*",
+          "match": "Mozilla/5.1 (compatible; DBot/*",
           "properties": {
             "Browser": "DBot",
             "Browser_Maker": "getdownload.ws"
           }
         },
         {
-          "match": "Mozilla\/5.1 (compatible; PWBot\/1.0*",
+          "match": "Mozilla/5.1 (compatible; PWBot/1.0*",
           "properties": {
             "Browser": "PWBot",
             "Browser_Maker": "eurofiles.in",
@@ -1046,14 +1046,14 @@
           }
         },
         {
-          "match": "Mozilla\/5.1 (compatible; PWBot\/*",
+          "match": "Mozilla/5.1 (compatible; PWBot/*",
           "properties": {
             "Browser": "PWBot",
             "Browser_Maker": "eurofiles.in"
           }
         },
         {
-          "match": "Mozilla\/5.1 (compatible; +5Bot\/1.0*",
+          "match": "Mozilla/5.1 (compatible; +5Bot/1.0*",
           "properties": {
             "Browser": "Plus5Bot",
             "Browser_Maker": "plus5files.net",
@@ -1063,21 +1063,21 @@
           }
         },
         {
-          "match": "Mozilla\/5.1 (compatible; +5Bot\/*",
+          "match": "Mozilla/5.1 (compatible; +5Bot/*",
           "properties": {
             "Browser": "Plus5Bot",
             "Browser_Maker": "plus5files.net"
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; WASALive-Bot*",
+          "match": "Mozilla/5.0 (compatible; WASALive-Bot*",
           "properties": {
             "Browser": "WASALive Bot",
             "Browser_Maker": "WASALive"
           }
         },
         {
-          "match": "GigablastOpenSource\/1.0*",
+          "match": "GigablastOpenSource/1.0*",
           "properties": {
             "Browser": "Gigablast Search Engine",
             "Browser_Maker": "gigablast.com",
@@ -1087,14 +1087,14 @@
           }
         },
         {
-          "match": "GigablastOpenSource\/*",
+          "match": "GigablastOpenSource/*",
           "properties": {
             "Browser": "Gigablast Search Engine",
             "Browser_Maker": "gigablast.com"
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; YioopBot*",
+          "match": "Mozilla/5.0 (compatible; YioopBot*",
           "properties": {
             "Browser": "YioopBot",
             "Browser_Maker": "Yioop!"
@@ -1108,7 +1108,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; DeuSu\/0.1*",
+          "match": "Mozilla/5.0 (compatible; DeuSu/0.1*",
           "properties": {
             "Browser": "Werbefreie Deutsche Suchmaschine",
             "Browser_Maker": "Michael Schoebel",
@@ -1118,7 +1118,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; DeuSu\/5.0*",
+          "match": "Mozilla/5.0 (compatible; DeuSu/5.0*",
           "properties": {
             "Browser": "Werbefreie Deutsche Suchmaschine",
             "Browser_Maker": "Michael Schoebel",
@@ -1128,14 +1128,14 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; DeuSu\/*",
+          "match": "Mozilla/5.0 (compatible; DeuSu/*",
           "properties": {
             "Browser": "Werbefreie Deutsche Suchmaschine",
             "Browser_Maker": "Michael Schoebel"
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; WbSrch\/1.1*",
+          "match": "Mozilla/5.0 (compatible; WbSrch/1.1*",
           "properties": {
             "Browser": "WbSrch Web Search",
             "Browser_Maker": "Zeta Centauri",
@@ -1145,14 +1145,14 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; WbSrch\/*",
+          "match": "Mozilla/5.0 (compatible; WbSrch/*",
           "properties": {
             "Browser": "WbSrch Web Search",
             "Browser_Maker": "Zeta Centauri"
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; Exploratodo\/1.0*",
+          "match": "Mozilla/5.0 (compatible; Exploratodo/1.0*",
           "properties": {
             "Browser": "Exploratodo Bot",
             "Browser_Maker": "Exploratodo",
@@ -1162,14 +1162,14 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; Exploratodo\/*",
+          "match": "Mozilla/5.0 (compatible; Exploratodo/*",
           "properties": {
             "Browser": "Exploratodo Bot",
             "Browser_Maker": "Exploratodo"
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; WebCorp\/5.0*",
+          "match": "Mozilla/5.0 (compatible; WebCorp/5.0*",
           "properties": {
             "Browser": "WebCorp",
             "Browser_Maker": "Research and Development Unit for English Studies, Birmingham City University",
@@ -1179,7 +1179,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; WebCorp\/*",
+          "match": "Mozilla/5.0 (compatible; WebCorp/*",
           "properties": {
             "Browser": "WebCorp",
             "Browser_Maker": "Research and Development Unit for English Studies, Birmingham City University"

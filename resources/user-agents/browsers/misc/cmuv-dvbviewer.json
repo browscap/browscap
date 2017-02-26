@@ -22,7 +22,7 @@
       },
       "children": [
         {
-          "match": "DVBViewer\/TV HbbTV\/*CMUV;DVBViewer*"
+          "match": "DVBViewer/TV HbbTV/*CMUV;DVBViewer*"
         }
       ]
     }

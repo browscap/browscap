@@ -35,21 +35,21 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML,*like Gecko*) UCBrowser/#MAJORVER#.#MINORVER#* U3/* *Safari/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) UCBrowser/#MAJORVER#.#MINORVER#* U3/* *Safari/*",
           "engine": "U3",
           "platforms": [
             "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android"
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML,*like Gecko*) UCBrowser/#MAJORVER#.#MINORVER#*Safari/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) UCBrowser/#MAJORVER#.#MINORVER#*Safari/*",
           "engine": "WebKit",
           "platforms": [
             "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android"
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML,*like Gecko*) Version/*Safari/* UCBrowser/#MAJORVER#.#MINORVER#* Mobile*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) Version/*Safari/* UCBrowser/#MAJORVER#.#MINORVER#* Mobile*",
           "engine": "WebKit",
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android"
@@ -90,7 +90,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0*(iPad#PLATFORM#) AppleWebKit/* (KHTML* like Gecko) UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
+          "match": "Mozilla/5.0*(iPad#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
           "device": "iPad",
           "platforms": [
@@ -98,7 +98,15 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#LG-P970 Build/*) AppleWebKit/* (KHTML* like Gecko) Version/* Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0*(iPad#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
+          "engine": "U3",
+          "device": "iPad",
+          "platforms": [
+            "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#LG-P970 Build/*) AppleWebKit/* (*khtml*like*gecko*) Version/* Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
           "engine": "WebKit",
           "device": "LG P970",
           "platforms": [
@@ -106,14 +114,14 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML* like Gecko) Version/* Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) Version/* Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
           "engine": "WebKit",
           "platforms": [
             "Android_2_3"
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML* like Gecko) Version/* Chrome/*Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) Version/* Chrome/*Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
           "engine": "WebKit",
           "platforms": [
             "Android_4_4"

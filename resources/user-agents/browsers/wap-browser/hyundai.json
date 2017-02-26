@@ -24,7 +24,7 @@
       },
       "children": [
         {
-          "match": "HyundaiHG9000\/1.0 *"
+          "match": "HyundaiHG9000/1.0 *"
         }
       ]
     }

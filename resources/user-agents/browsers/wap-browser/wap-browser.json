@@ -25,22 +25,22 @@
       },
       "children": [
         {
-          "match": "E28-MPG1\/2.6.0.0 Browser\/WAP *"
+          "match": "E28-MPG1/2.6.0.0 Browser/WAP *"
         },
         {
-          "match": "E28-MPG1\/A.2.8.0.0\/WAP1.2 *"
+          "match": "E28-MPG1/A.2.8.0.0/WAP1.2 *"
         },
         {
-          "match": "E28\/1.0.0.0(2005.09.20)\/WAP2.0 Profile\/MIDP2.0 Configuration\/CLDC1.1,E28\/1.0.0.0(2005.09.20)\/WAP2.0 Profile\/MIDP2.0 Configuration\/CLDC1.1"
+          "match": "E28/1.0.0.0(2005.09.20)/WAP2.0 Profile/MIDP2.0 Configuration/CLDC1.1,E28/1.0.0.0(2005.09.20)/WAP2.0 Profile/MIDP2.0 Configuration/CLDC1.1"
         },
         {
-          "match": "E2808\/1.0.0.0(2004.09.09)\/WAP2.0 Profile\/MIDP2.0 Configuration\/CLDC1.1"
+          "match": "E2808/1.0.0.0(2004.09.09)/WAP2.0 Profile/MIDP2.0 Configuration/CLDC1.1"
         },
         {
-          "match": "e28\/1.0.0.0(2005.09.20)\/WAP2.0 Profile\/MIDP2.0 Configuration\/CLDC1.1"
+          "match": "e28/1.0.0.0(2005.09.20)/WAP2.0 Profile/MIDP2.0 Configuration/CLDC1.1"
         },
         {
-          "match": "KKT20\/*",
+          "match": "KKT20/*",
           "device": "Lava KKT20"
         },
         {
@@ -64,11 +64,11 @@
           "device": "Lemon B556"
         },
         {
-          "match": "TIANYU-KTOUCH\/A930*",
+          "match": "TIANYU-KTOUCH/A930*",
           "device": "K-Touch Tianyu A930"
         },
         {
-          "match": "SAMSUNG-SPH-L720\/*",
+          "match": "SAMSUNG-SPH-L720/*",
           "device": "Samsung SPH-L720"
         }
       ]

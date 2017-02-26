@@ -19,7 +19,7 @@
       },
       "children": [
         {
-          "match": "Curl\/PHP 5.4*",
+          "match": "Curl/PHP 5.4*",
           "properties": {
             "Version": "5.4",
             "MajorVer": "5",
@@ -27,7 +27,7 @@
           }
         },
         {
-          "match": "Curl\/PHP*"
+          "match": "Curl/PHP*"
         }
       ]
     }

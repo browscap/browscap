@@ -16,7 +16,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Firefox\/* (FlipboardProxy\/1.1*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* (FlipboardProxy/1.1*",
           "device": "Linux Desktop",
           "properties": {
             "Version": "1.1",
@@ -28,7 +28,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Firefox\/* (FlipboardProxy\/1.1*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* (FlipboardProxy/1.1*",
           "device": "Windows Desktop",
           "properties": {
             "Version": "1.1",
@@ -46,7 +46,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Firefox\/* (FlipboardProxy\/1.1*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* (FlipboardProxy/1.1*",
           "device": "Macintosh",
           "properties": {
             "Version": "1.1",
@@ -59,14 +59,14 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Firefox\/* (FlipboardProxy\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* (FlipboardProxy/*",
           "device": "Linux Desktop",
           "platforms": [
             "ChromeOS", "Linux_64", "Linux_32", "Linux"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Firefox\/* (FlipboardProxy\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* (FlipboardProxy/*",
           "device": "Windows Desktop",
           "platforms": [
             "Win8_1_64", "Win8_1_32",
@@ -79,7 +79,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Firefox\/* (FlipboardProxy\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* (FlipboardProxy/*",
           "device": "Macintosh",
           "platforms": [
             "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",

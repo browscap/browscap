@@ -15,7 +15,7 @@
       },
       "children": [
         {
-          "match": "*PhotoStickies\/*",
+          "match": "*PhotoStickies/*",
           "properties": {
             "Browser": "PhotoStickies"
           }
@@ -27,7 +27,7 @@
           }
         },
         {
-          "match": "CydralSpider\/3.2*",
+          "match": "CydralSpider/3.2*",
           "properties": {
             "Browser": "Cydral Web Image Search",
             "Version": "3.2",
@@ -36,7 +36,7 @@
           }
         },
         {
-          "match": "CydralSpider\/*",
+          "match": "CydralSpider/*",
           "properties": {
             "Browser": "Cydral Web Image Search"
           }
@@ -60,13 +60,13 @@
           }
         },
         {
-          "match": "HTML2JPG Blackbox, http:\/\/www.html2jpg.com",
+          "match": "HTML2JPG Blackbox, http://www.html2jpg.com",
           "properties": {
             "Browser": "HTML2JPG"
           }
         },
         {
-          "match": "IconSurf\/2.*",
+          "match": "IconSurf/2.*",
           "properties": {
             "Browser": "IconSurf",
             "Version": "2.0",
@@ -81,13 +81,13 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; KaloogaBot; http:\/\/www.kalooga.com\/info.html?page=crawler)",
+          "match": "Mozilla/5.0 (compatible; KaloogaBot; http://www.kalooga.com/info.html?page=crawler)",
           "properties": {
             "Browser": "KaloogaBot"
           }
         },
         {
-          "match": "Mozilla\/5.0 (Macintosh; U; *Mac OS X; *) AppleWebKit\/* (*) Pandora\/2.*",
+          "match": "Mozilla/5.0 (Macintosh; U; *Mac OS X; *) AppleWebKit/* (*) Pandora/2.*",
           "properties": {
             "Browser": "Pandora"
           }
@@ -99,13 +99,13 @@
           }
         },
         {
-          "match": "pixfinder\/*",
+          "match": "pixfinder/*",
           "properties": {
             "Browser": "pixfinder"
           }
         },
         {
-          "match": "rssImagesBot\/0.1 (*http:\/\/herbert.groot.jebbink.nl\/?app=rssImages)",
+          "match": "rssImagesBot/0.1 (*http://herbert.groot.jebbink.nl/?app=rssImages)",
           "properties": {
             "Browser": "rssImagesBot"
           }
@@ -117,7 +117,7 @@
           }
         },
         {
-          "match": "WebImages * (?http:\/\/herbert.groot.jebbink.nl\/?app=WebImages?)",
+          "match": "WebImages * (?http://herbert.groot.jebbink.nl/?app=WebImages?)",
           "properties": {
             "Browser": "WebImages"
           }
@@ -135,7 +135,7 @@
           }
         },
         {
-          "match": "Thumbor\/3.14*",
+          "match": "Thumbor/3.14*",
           "properties": {
             "Browser": "Thumbor",
             "Version": "3.14",
@@ -144,7 +144,7 @@
           }
         },
         {
-          "match": "Thumbor\/*",
+          "match": "Thumbor/*",
           "properties": {
             "Browser": "Thumbor"
           }
@@ -157,9 +157,9 @@
           }
         },
         {
-          "match": "ZnajdzFoto\/Image 2.0*",
+          "match": "ZnajdzFoto/Image 2.0*",
           "properties": {
-            "Browser": "ZnajdzFoto\/ImageBot",
+            "Browser": "ZnajdzFoto/ImageBot",
             "Browser_Maker": "Eksadata sp. z o.o.",
             "Version": "2.0",
             "MajorVer": "2",
@@ -167,9 +167,9 @@
           }
         },
         {
-          "match": "ZnajdzFoto\/Image*",
+          "match": "ZnajdzFoto/Image*",
           "properties": {
-            "Browser": "ZnajdzFoto\/ImageBot",
+            "Browser": "ZnajdzFoto/ImageBot",
             "Browser_Maker": "Eksadata sp. z o.o."
           }
         }

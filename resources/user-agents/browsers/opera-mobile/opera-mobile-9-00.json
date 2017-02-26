@@ -27,14 +27,14 @@
       },
       "children": [
         {
-          "match": "Opera?#MAJORVER#.#MINORVER#* (Microsoft Windows; PPC; Opera Mobi\/*)",
+          "match": "Opera?#MAJORVER#.#MINORVER#* (Microsoft Windows; PPC; Opera Mobi/*)",
           "device": "general Mobile Phone",
           "platforms": [
             "WinMobile"
           ]
         },
         {
-          "match": "Opera?#MAJORVER#.#MINORVER#* (Windows*; Opera Mobi\/*) Presto\/2.*",
+          "match": "Opera?#MAJORVER#.#MINORVER#* (Windows*; Opera Mobi/*) Presto/2.*",
           "device": "general Mobile Phone",
           "platforms": [
             "WinMobile"

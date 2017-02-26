@@ -39,19 +39,19 @@
           }
         },
         {
-          "match": "Kevin http:\/\/*",
+          "match": "Kevin http://*",
           "properties": {
             "Browser": "Kevin"
           }
         },
         {
-          "match": "Mozilla\/4.0 (compatible; ChangeDetection\/*",
+          "match": "Mozilla/4.0 (compatible; ChangeDetection/*",
           "properties": {
             "Browser": "ChangeDetection"
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; Chirp\/1.0; +http:\/\/www.binarycanary.com\/chirp.cfm)",
+          "match": "Mozilla/5.0 (compatible; Chirp/1.0; +http://www.binarycanary.com/chirp.cfm)",
           "properties": {
             "Browser": "BinaryCanary",
             "Version": "1.0",
@@ -60,7 +60,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0?(compatible; UptimeRobot\/2.0*",
+          "match": "Mozilla/5.0?(compatible; UptimeRobot/2.0*",
           "properties": {
             "Browser": "UptimeRobot",
             "Version": "2.0",
@@ -69,7 +69,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0?(compatible; UptimeRobot\/1.0*",
+          "match": "Mozilla/5.0?(compatible; UptimeRobot/1.0*",
           "properties": {
             "Browser": "UptimeRobot",
             "Version": "1.0",
@@ -78,7 +78,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0?(compatible; UptimeRobot\/*",
+          "match": "Mozilla/5.0?(compatible; UptimeRobot/*",
           "properties": {
             "Browser": "UptimeRobot"
           }
@@ -120,7 +120,7 @@
           }
         },
         {
-          "match": "sitemonitor@dnsvr.com\/*",
+          "match": "sitemonitor@dnsvr.com/*",
           "properties": {
             "Browser": "ZoneEdit Failover Monitor"
           }
@@ -138,7 +138,7 @@
           }
         },
         {
-          "match": "URL_Access\/*",
+          "match": "URL_Access/*",
           "properties": {
             "Browser": "URL_Access"
           }
@@ -165,25 +165,25 @@
           }
         },
         {
-          "match": "WebPatrol\/*",
+          "match": "WebPatrol/*",
           "properties": {
             "Browser": "WebPatrol"
           }
         },
         {
-          "match": "websitepulse checker\/*",
+          "match": "websitepulse checker/*",
           "properties": {
             "Browser": "websitepulse checker"
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; Chirp\/*; +http:\/\/www.binarycanary.com\/chirp.cfm)",
+          "match": "Mozilla/5.0 (compatible; Chirp/*; +http://www.binarycanary.com/chirp.cfm)",
           "properties": {
             "Browser": "BinaryCanary"
           }
         },
         {
-          "match": "Mozilla\/5.0 (Windows*) AppleWebKit\/* (KHTML* like Gecko) Bromium Safari\/1.0*",
+          "match": "Mozilla/5.0 (Windows*) AppleWebKit/* (*khtml*like*gecko*) Bromium Safari/1.0*",
           "properties": {
             "Browser": "vSentry",
             "Browser_Maker": "Bromium",
@@ -193,7 +193,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (Windows*) AppleWebKit\/* (KHTML* like Gecko) Bromium Safari\/*",
+          "match": "Mozilla/5.0 (Windows*) AppleWebKit/* (*khtml*like*gecko*) Bromium Safari/*",
           "properties": {
             "Browser": "vSentry",
             "Browser_Maker": "Bromium"
@@ -207,7 +207,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; PRTG Network Monitor*",
+          "match": "Mozilla/5.0 (compatible; PRTG Network Monitor*",
           "properties": {
             "Browser": "PRTG Network Monitor",
             "Browser_Maker": "Paessler AG"

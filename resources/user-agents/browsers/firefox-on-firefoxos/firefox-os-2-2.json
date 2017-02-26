@@ -28,36 +28,36 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (Mobile; ALCATELOneTouch4012X*; rv:#MAJORVER#.#MINORVER#*)*Gecko\/#MAJORVER#.#MINORVER#*Firefox\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (Mobile; ALCATELOneTouch4012X*; rv:#MAJORVER#.#MINORVER#*)*Gecko/#MAJORVER#.#MINORVER#*Firefox/#MAJORVER#.#MINORVER#*",
           "device": "Alcatel OT-4012X"
         },
         {
-          "match": "Mozilla\/5.0 (Mobile; ALCATEL ONE TOUCH 4012A; rv:#MAJORVER#.#MINORVER#*)*Gecko\/#MAJORVER#.#MINORVER#*Firefox\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (Mobile; ALCATEL ONE TOUCH 4012A; rv:#MAJORVER#.#MINORVER#*)*Gecko/#MAJORVER#.#MINORVER#*Firefox/#MAJORVER#.#MINORVER#*",
           "device": "Alcatel OT-4012A"
         },
         {
-          "match": "Mozilla\/5.0 (Mobile; LG-D300; rv:#MAJORVER#.#MINORVER#*)*Gecko\/#MAJORVER#.#MINORVER#*Firefox\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (Mobile; LG-D300; rv:#MAJORVER#.#MINORVER#*)*Gecko/#MAJORVER#.#MINORVER#*Firefox/#MAJORVER#.#MINORVER#*",
           "device": "LG D300"
         },
         {
-          "match": "Mozilla\/5.0 (Mobile; ZTEOPEN; rv:#MAJORVER#.#MINORVER#*)*Gecko\/#MAJORVER#.#MINORVER#*Firefox\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (Mobile; ZTEOPEN; rv:#MAJORVER#.#MINORVER#*)*Gecko/#MAJORVER#.#MINORVER#*Firefox/#MAJORVER#.#MINORVER#*",
           "device": "ZTE Open"
         },
         {
-          "match": "Mozilla\/5.0 (Mobile; rv:#MAJORVER#.#MINORVER#*)*Gecko\/#MAJORVER#.#MINORVER#*Firefox\/#MAJORVER#.#MINORVER#*"
+          "match": "Mozilla/5.0 (Mobile; rv:#MAJORVER#.#MINORVER#*)*Gecko/#MAJORVER#.#MINORVER#*Firefox/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "Mozilla\/5.0 (Tablet; rv:#MAJORVER#.#MINORVER#*)*Gecko\/#MAJORVER#.#MINORVER#*Firefox\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (Tablet; rv:#MAJORVER#.#MINORVER#*)*Gecko/#MAJORVER#.#MINORVER#*Firefox/#MAJORVER#.#MINORVER#*",
           "device": "general Tablet"
         },
         {
-          "match": "Mozilla\/5.0 (Mobile; rv:#MAJORVER#.#MINORVER#*)*Gecko*Firefox\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (Mobile; rv:#MAJORVER#.#MINORVER#*)*Gecko*Firefox/#MAJORVER#.#MINORVER#*",
           "properties": {
             "isModified": "true"
           }
         },
         {
-          "match": "Mozilla\/5.0 (Tablet; rv:#MAJORVER#.#MINORVER#*)*Gecko*Firefox\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (Tablet; rv:#MAJORVER#.#MINORVER#*)*Gecko*Firefox/#MAJORVER#.#MINORVER#*",
           "properties": {
             "isModified": "true"
           },

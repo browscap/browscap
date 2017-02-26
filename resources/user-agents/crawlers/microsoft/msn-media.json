@@ -19,7 +19,7 @@
       },
       "children": [
         {
-          "match": "msnbot-media\/1.0*",
+          "match": "msnbot-media/1.0*",
           "properties": {
             "Version": "1.0",
             "MajorVer": "1",
@@ -27,7 +27,7 @@
           }
         },
         {
-          "match": "msnbot-media\/1.1*",
+          "match": "msnbot-media/1.1*",
           "properties": {
             "Version": "1.1",
             "MajorVer": "1",
@@ -35,10 +35,10 @@
           }
         },
         {
-          "match": "msnbot-media\/*"
+          "match": "msnbot-media/*"
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) MsnBot-Media \/1.0b*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) MsnBot-Media /1.0b*",
           "engine": "WebKit",
           "device": "Windows Desktop",
           "properties": {

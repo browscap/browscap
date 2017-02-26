@@ -21,27 +21,27 @@
       },
       "children": [
         {
-          "match": "AndroidDownloadManager\/#MAJORVER#.#MINORVER#* (Linux; ?; Android #MAJORVER#.#MINORVER#*; LIFETAB_S9714 Build\/*)*",
+          "match": "AndroidDownloadManager/#MAJORVER#.#MINORVER#* (Linux; ?; Android #MAJORVER#.#MINORVER#*; LIFETAB_S9714 Build/*)*",
           "device": "Medion LifeTab S9714"
         },
         {
-          "match": "AndroidDownloadManager\/#MAJORVER#.#MINORVER#* (Linux; ?; Android #MAJORVER#.#MINORVER#*; SGPT12 Build\/*)*",
+          "match": "AndroidDownloadManager/#MAJORVER#.#MINORVER#* (Linux; ?; Android #MAJORVER#.#MINORVER#*; SGPT12 Build/*)*",
           "device": "Sony SGPT12"
         },
         {
-          "match": "AndroidDownloadManager\/#MAJORVER#.#MINORVER#* (Linux; ?; Android #MAJORVER#.#MINORVER#*; TP10.1-1500DC* Build\/*)*",
+          "match": "AndroidDownloadManager/#MAJORVER#.#MINORVER#* (Linux; ?; Android #MAJORVER#.#MINORVER#*; TP10.1-1500DC* Build/*)*",
           "device": "I-ONIK TP10"
         },
         {
-          "match": "AndroidDownloadManager\/#MAJORVER#.#MINORVER#* (Linux; ?; Android #MAJORVER#.#MINORVER#*; Transformer Prime TF201 Build\/*)*",
+          "match": "AndroidDownloadManager/#MAJORVER#.#MINORVER#* (Linux; ?; Android #MAJORVER#.#MINORVER#*; Transformer Prime TF201 Build/*)*",
           "device": "Asus TF201"
         },
         {
-          "match": "AndroidDownloadManager\/#MAJORVER#.#MINORVER#* (Linux; ?; Android #MAJORVER#.#MINORVER#*; ME302C Build\/*)*",
+          "match": "AndroidDownloadManager/#MAJORVER#.#MINORVER#* (Linux; ?; Android #MAJORVER#.#MINORVER#*; ME302C Build/*)*",
           "device": "Asus ME302C"
         },
         {
-          "match": "AndroidDownloadManager\/#MAJORVER#.#MINORVER#* (Linux; ?; Android #MAJORVER#.#MINORVER#*; * Build\/*)*"
+          "match": "AndroidDownloadManager/#MAJORVER#.#MINORVER#* (Linux; ?; Android #MAJORVER#.#MINORVER#*; * Build/*)*"
         }
       ]
     }

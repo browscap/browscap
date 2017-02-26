@@ -28,7 +28,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (Macintosh;#PLATFORM#Odyssey Web Browser; rv:1.23) AppleWebKit\/* (KHTML, like Gecko) OWB\/1.23 Safari\/*",
+          "match": "Mozilla/5.0 (Macintosh;#PLATFORM#Odyssey Web Browser; rv:1.23) AppleWebKit/* (*khtml*like*gecko*) OWB/1.23 Safari/*",
           "properties": {
             "Version": "1.23",
             "MajorVer": "1",
@@ -39,7 +39,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (Macintosh;#PLATFORM#Odyssey Web Browser; rv:*) AppleWebKit\/* (KHTML, like Gecko) OWB\/* Safari\/*",
+          "match": "Mozilla/5.0 (Macintosh;#PLATFORM#Odyssey Web Browser; rv:*) AppleWebKit/* (*khtml*like*gecko*) OWB/* Safari/*",
           "platforms": [
             "Amiga"
           ]

@@ -16,7 +16,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (compatible*sp_auditbot\/4.0*",
+          "match": "Mozilla/5.0 (compatible*sp_auditbot/4.0*",
           "properties": {
             "Version": "4.0",
             "MajorVer": "4",
@@ -24,7 +24,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible*sp_auditbot\/4.1*",
+          "match": "Mozilla/5.0 (compatible*sp_auditbot/4.1*",
           "properties": {
             "Version": "4.1",
             "MajorVer": "4",
@@ -32,7 +32,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible*sp_auditbot\/4.2*",
+          "match": "Mozilla/5.0 (compatible*sp_auditbot/4.2*",
           "properties": {
             "Version": "4.1",
             "MajorVer": "4",
@@ -40,7 +40,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible*sp_auditbot\/4.3*",
+          "match": "Mozilla/5.0 (compatible*sp_auditbot/4.3*",
           "properties": {
             "Version": "4.1",
             "MajorVer": "4",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible*sp_auditbot\/4.4*",
+          "match": "Mozilla/5.0 (compatible*sp_auditbot/4.4*",
           "properties": {
             "Version": "4.1",
             "MajorVer": "4",
@@ -56,7 +56,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible*sp_auditbot\/*"
+          "match": "Mozilla/5.0 (compatible*sp_auditbot/*"
         }
       ]
     }

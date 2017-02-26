@@ -16,7 +16,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (compatible; Blekkobot*"
+          "match": "Mozilla/5.0 (compatible; Blekkobot*"
         }
       ]
     }

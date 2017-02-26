@@ -16,7 +16,7 @@
       },
       "children": [
         {
-          "match": "Accoona-AI-Agent\/1.1*",
+          "match": "Accoona-AI-Agent/1.1*",
           "properties": {
             "Browser": "Accoona-AI-Agent",
             "Version": "1.1",
@@ -25,7 +25,7 @@
           }
         },
         {
-          "match": "Accoona-AI-Agent\/*",
+          "match": "Accoona-AI-Agent/*",
           "properties": {
             "Browser": "Accoona-AI-Agent"
           }

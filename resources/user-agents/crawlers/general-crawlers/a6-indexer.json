@@ -16,7 +16,7 @@
       },
       "children": [
         {
-          "match": "A6-Indexer\/1.0*",
+          "match": "A6-Indexer/1.0*",
           "properties": {
             "Version": "1.0",
             "MajorVer": "1",

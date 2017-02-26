@@ -27,7 +27,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) brave\/#MAJORVER#.#MINORVER#* Chrome\/* Brave\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) brave/#MAJORVER#.#MINORVER#* Chrome/* Brave/* Safari/*",
           "device": "Windows Desktop",
           "platforms": [
             "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32",
@@ -38,7 +38,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) brave\/#MAJORVER#.#MINORVER#* Chrome\/* Brave\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) brave/#MAJORVER#.#MINORVER#* Chrome/* Brave/* Safari/*",
           "device": "Macintosh",
           "platforms": [
             "OSX_10_9", "OSX_10_10", "OSX_10_11",

@@ -21,7 +21,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; DNS-Digger\/*)",
+          "match": "Mozilla/5.0 (compatible; DNS-Digger/*)",
           "properties": {
             "Browser": "DNS-Digger"
           }

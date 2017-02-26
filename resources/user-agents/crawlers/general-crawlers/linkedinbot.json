@@ -19,7 +19,7 @@
       },
       "children": [
         {
-          "match": "LinkedInBot\/1.*",
+          "match": "LinkedInBot/1.*",
           "properties": {
             "Version": "1.0",
             "MajorVer": "1",
@@ -27,7 +27,7 @@
           }
         },
         {
-          "match": "LinkedInBot\/*"
+          "match": "LinkedInBot/*"
         },
         {
           "match": "LIAuthLibrary:0.0.2 com.linkedin.android:3.4.2 TCL_ALCATEL ONE TOUCH 4037T:android_4.4.2*",

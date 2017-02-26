@@ -20,7 +20,7 @@
       },
       "children": [
         {
-          "match": "Tiny Tiny RSS\/#MAJORVER#.#MINORVER#*"
+          "match": "Tiny Tiny RSS/#MAJORVER#.#MINORVER#*"
         }
       ]
     }

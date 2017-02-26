@@ -27,7 +27,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Iridium\/#MAJORVER#.* Safari\/*Chrome\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) Iridium/#MAJORVER#.* Safari/*Chrome/*",
           "device": "Windows Desktop",
           "platforms": [
             "Win7_x64", "Win7_64", "Win7_32",
@@ -36,7 +36,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Iridium\/#MAJORVER#.* Safari\/*Chrome\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) Iridium/#MAJORVER#.* Safari/*Chrome/*",
           "device": "general Desktop",
           "platforms": [
             "OpenBSD_64_2", "OpenBSD"

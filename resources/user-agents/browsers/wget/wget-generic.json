@@ -17,14 +17,14 @@
       },
       "children": [
         {
-          "match": "Wget\/* (#PLATFORM#)*",
+          "match": "Wget/* (#PLATFORM#)*",
           "device": "Linux Desktop",
           "platforms": [
             "Linux"
           ]
         },
         {
-          "match": "Wget\/* (#PLATFORM#)*",
+          "match": "Wget/* (#PLATFORM#)*",
           "device": "Macintosh",
           "platforms": [
             "Darwin"

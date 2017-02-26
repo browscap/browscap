@@ -26,23 +26,23 @@
       },
       "children": [
         {
-          "match": "BlackBerry5810\/#MAJORVER#.#MINORVER#*",
+          "match": "BlackBerry5810/#MAJORVER#.#MINORVER#*",
           "device": "Blackberry 5810"
         },
         {
-          "match": "BlackBerry5820\/#MAJORVER#.#MINORVER#*",
+          "match": "BlackBerry5820/#MAJORVER#.#MINORVER#*",
           "device": "Blackberry 5820"
         },
         {
-          "match": "BlackBerry6220\/#MAJORVER#.#MINORVER#*",
+          "match": "BlackBerry6220/#MAJORVER#.#MINORVER#*",
           "device": "Blackberry 6220"
         },
         {
-          "match": "BlackBerry6720\/#MAJORVER#.#MINORVER#*",
+          "match": "BlackBerry6720/#MAJORVER#.#MINORVER#*",
           "device": "Blackberry 6720"
         },
         {
-          "match": "BlackBerrySimulator\/#MAJORVER#.#MINORVER#*"
+          "match": "BlackBerrySimulator/#MAJORVER#.#MINORVER#*"
         }
       ]
     }

@@ -18,7 +18,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) amarok\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) amarok/* Safari/*",
           "platforms": [
             "Linux_64", "Linux_32", "Linux"
           ]

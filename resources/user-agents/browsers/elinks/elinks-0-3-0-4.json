@@ -28,7 +28,7 @@
           ]
         },
         {
-          "match": "ELinks\/#MAJORVER#.#MINORVER#* (#PLATFORM#)",
+          "match": "ELinks/#MAJORVER#.#MINORVER#* (#PLATFORM#)",
           "device": "Linux Desktop",
           "platforms": [
             "Linux"

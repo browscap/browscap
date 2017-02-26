@@ -34,13 +34,13 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; NetcraftSurveyAgent\/1.0; *info@netcraft.com)",
+          "match": "Mozilla/5.0 (compatible; NetcraftSurveyAgent/1.0; *info@netcraft.com)",
           "properties": {
             "Browser": "NetcraftSurveyAgent"
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; NetcraftSurveyAgent\/1.0*info@netcraft.com)",
+          "match": "Mozilla/5.0 (compatible; NetcraftSurveyAgent/1.0*info@netcraft.com)",
           "properties": {
             "Browser": "NetcraftSurveyAgent"
           }

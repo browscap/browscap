@@ -26,7 +26,7 @@
       },
       "children": [
         {
-          "match": "Terra\/1.1* CFNetwork\/*",
+          "match": "Terra/1.1* CFNetwork/*",
           "properties": {
             "Version": "1.1",
             "MajorVer": "1",
@@ -37,7 +37,7 @@
           ]
         },
         {
-          "match": "Terra\/1.2* CFNetwork\/*",
+          "match": "Terra/1.2* CFNetwork/*",
           "properties": {
             "Version": "1.2",
             "MajorVer": "1",
@@ -48,7 +48,7 @@
           ]
         },
         {
-          "match": "Terra\/* CFNetwork\/*",
+          "match": "Terra/* CFNetwork/*",
           "platforms": [
             "Darwin"
           ]

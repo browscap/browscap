@@ -25,10 +25,10 @@
       },
       "children": [
         {
-          "match": "jBrowser-WAP\/1.0.4"
+          "match": "jBrowser-WAP/1.0.4"
         },
         {
-          "match": "jBrowser\/J2ME *"
+          "match": "jBrowser/J2ME *"
         }
       ]
     }

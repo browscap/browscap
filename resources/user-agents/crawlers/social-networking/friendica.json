@@ -35,7 +35,7 @@
           "match": "Friendica*"
         },
         {
-          "match": "Mozilla\/5.0 (compatible; Friendica*"
+          "match": "Mozilla/5.0 (compatible; Friendica*"
         }
       ]
     }

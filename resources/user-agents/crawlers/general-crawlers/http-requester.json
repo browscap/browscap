@@ -15,7 +15,7 @@
       },
       "children": [
         {
-          "match": "http_requester\/0.1*",
+          "match": "http_requester/0.1*",
           "properties": {
             "Version": "0.1",
             "MajorVer": "0",
@@ -23,7 +23,7 @@
           }
         },
         {
-          "match": "http_requester\/*"
+          "match": "http_requester/*"
         }
       ]
     }

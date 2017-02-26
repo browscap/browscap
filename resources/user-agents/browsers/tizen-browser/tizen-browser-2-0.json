@@ -28,7 +28,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebkit\/* (KHTML* like Gecko) *TizenBrowser\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebkit/* (*khtml*like*gecko*) *TizenBrowser/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "Tizen_2_0", "Tizen"
           ]

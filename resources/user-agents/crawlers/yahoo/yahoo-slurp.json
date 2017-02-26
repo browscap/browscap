@@ -19,37 +19,37 @@
       },
       "children": [
         {
-          "match": "Mozilla\/3.0 (Slurp*; slurp@inktomi.com;*"
+          "match": "Mozilla/3.0 (Slurp*; slurp@inktomi.com;*"
         },
         {
-          "match": "Mozilla\/5.0 (Slurp*; slurp@inktomi.com;*"
+          "match": "Mozilla/5.0 (Slurp*; slurp@inktomi.com;*"
         },
         {
-          "match": "Mozilla\/5.0 (compatible; Yahoo! *Slurp*"
+          "match": "Mozilla/5.0 (compatible; Yahoo! *Slurp*"
         },
         {
-          "match": "Mozilla\/5.0 (compatible; Yahoo! Slurp China*)",
+          "match": "Mozilla/5.0 (compatible; Yahoo! Slurp China*)",
           "properties": {
             "Browser": "Yahoo! Slurp China"
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; Yahoo! DE Slurp; http:\/\/help.yahoo.com\/help\/us\/ysearch\/slurp)",
+          "match": "Mozilla/5.0 (compatible; Yahoo! DE Slurp; http://help.yahoo.com/help/us/ysearch/slurp)",
           "properties": {
             "Browser": "Yahoo! Directory Engine"
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; Yahoo! Slurp China*;*http:\/\/misc.yahoo.com.cn\/help.html)",
+          "match": "Mozilla/5.0 (compatible; Yahoo! Slurp China*;*http://misc.yahoo.com.cn/help.html)",
           "properties": {
             "Browser": "Yahoo! Slurp China"
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; Yahoo! Slurp*;*http:\/\/help.yahoo.com\/help\/us\/ysearch\/slurp*"
+          "match": "Mozilla/5.0 (compatible; Yahoo! Slurp*;*http://help.yahoo.com/help/us/ysearch/slurp*"
         },
         {
-          "match": "Yahoo! Slurp\/Site Explorer",
+          "match": "Yahoo! Slurp/Site Explorer",
           "properties": {
             "Browser": "Yahoo! Site Explorer"
           }
@@ -58,7 +58,7 @@
           "match": "slurp"
         },
         {
-          "match": "Mozilla\/5.0*(iPhone#PLATFORM#)*AppleWebKit*(*KHTML* like Gecko*) Mobile (compatible; Yahoo! Slurp*",
+          "match": "Mozilla/5.0*(iPhone#PLATFORM#)*AppleWebKit*(*khtml*like*gecko*) Mobile (compatible; Yahoo! Slurp*",
           "device": "iPhone",
           "engine": "WebKit",
           "platforms": [
@@ -66,7 +66,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0*(#PLATFORM#)*AppleWebKit*(*KHTML* like Gecko*) Mobile (compatible; Yahoo! Slurp*",
+          "match": "Mozilla/5.0*(#PLATFORM#)*AppleWebKit*(*khtml*like*gecko*) Mobile (compatible; Yahoo! Slurp*",
           "device": "general Mobile Device (Apple)",
           "engine": "WebKit",
           "platforms": [

@@ -16,7 +16,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (compatible; IstellaBot\/1.18*",
+          "match": "Mozilla/5.0 (compatible; IstellaBot/1.18*",
           "properties": {
             "Version": "1.18",
             "MajorVer": "1",
@@ -24,7 +24,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; IstellaBot\/*"
+          "match": "Mozilla/5.0 (compatible; IstellaBot/*"
         }
       ]
     }

@@ -16,7 +16,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM# rv:1.9.2*) Gecko WebThumb\/1.0*",
+          "match": "Mozilla/5.0 (#PLATFORM# rv:1.9.2*) Gecko WebThumb/1.0*",
           "engine": "Gecko_1_9_2",
           "device": "Linux Desktop",
           "properties": {
@@ -29,7 +29,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM# rv:1.9.2*) Gecko WebThumb\/*",
+          "match": "Mozilla/5.0 (#PLATFORM# rv:1.9.2*) Gecko WebThumb/*",
           "engine": "Gecko_1_9_2",
           "device": "Linux Desktop",
           "platforms": [

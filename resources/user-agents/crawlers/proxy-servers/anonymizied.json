@@ -22,7 +22,7 @@
           "match": "Anonymisiert*"
         },
         {
-          "match": "Anonymizer\/*"
+          "match": "Anonymizer/*"
         },
         {
           "match": "Anonymizied*"
@@ -31,13 +31,13 @@
           "match": "Anonymous*"
         },
         {
-          "match": "Anonymous\/*"
+          "match": "Anonymous/*"
         },
         {
-          "match": "http:\/\/Anonymouse.org\/*"
+          "match": "http://Anonymouse.org/*"
         },
         {
-          "match": "Mozilla\/5.0 (Randomized by FreeSafeIP*"
+          "match": "Mozilla/5.0 (Randomized by FreeSafeIP*"
         }
       ]
     }

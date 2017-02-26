@@ -28,14 +28,14 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-N7000* Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)*YoloBrowser\/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM#GT-N7000* Build/*) AppleWebKit/* (*khtml*like*gecko*)*YoloBrowser/#MAJORVER#.#MINORVER#*Safari*",
           "device": "Samsung GT-N7000",
           "platforms": [
             "Android_4_1"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*)*YoloBrowser\/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*)*YoloBrowser/#MAJORVER#.#MINORVER#*Safari*",
           "platforms": [
             "Android_4_1", "Android_4_2", "Android_4_3"
           ]

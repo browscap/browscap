@@ -16,7 +16,7 @@
       },
       "children": [
         {
-          "match": "Cyberduck\/4.6* (#PLATFORM#) *",
+          "match": "Cyberduck/4.6* (#PLATFORM#) *",
           "device": "Windows Desktop",
           "properties": {
             "Version": "4.6",
@@ -28,7 +28,7 @@
           ]
         },
         {
-          "match": "Cyberduck\/* (#PLATFORM#) *",
+          "match": "Cyberduck/* (#PLATFORM#) *",
           "device": "Windows Desktop",
           "platforms": [
             "WinXPa_v2", "Windows"

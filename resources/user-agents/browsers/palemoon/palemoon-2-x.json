@@ -32,7 +32,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Firefox\/#MAJORVER#.* (Palemoon\/#MAJORVER#.*)",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/#MAJORVER#.* (Palemoon/#MAJORVER#.*)",
           "platforms": [
             "Win2000", "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32"
           ]

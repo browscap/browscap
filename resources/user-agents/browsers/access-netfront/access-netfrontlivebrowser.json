@@ -27,14 +27,14 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#WT19a Build\/*) AppleWebKit\/* (KHTML* like Gecko) Version\/* NetFrontLifeBrowser\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#WT19a Build/*) AppleWebKit/* (*khtml*like*gecko*) Version/* NetFrontLifeBrowser/#MAJORVER#.#MINORVER#*",
           "device": "SonyEricsson WT19a",
           "platforms": [
             "Android"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM# Build\/*) AppleWebKit\/* (KHTML* like Gecko) Version\/* NetFrontLifeBrowser\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM# Build/*) AppleWebKit/* (*khtml*like*gecko*) Version/* NetFrontLifeBrowser/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "Android"
           ]

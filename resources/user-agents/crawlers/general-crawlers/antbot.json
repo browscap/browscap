@@ -16,7 +16,7 @@
       },
       "children": [
         {
-          "match": "AntBot\/1.0*",
+          "match": "AntBot/1.0*",
           "properties": {
             "Version": "1.0",
             "MajorVer": "1",
@@ -24,7 +24,7 @@
           }
         },
         {
-          "match": "AntBot\/*"
+          "match": "AntBot/*"
         }
       ]
     }
