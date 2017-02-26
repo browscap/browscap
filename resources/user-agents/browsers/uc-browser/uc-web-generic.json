@@ -31,7 +31,7 @@
           ]
         },
         {
-          "match": "UCWEB\/*(#PLATFORM#AO5510) U2\/* UCBrowser*",
+          "match": "UCWEB/*(#PLATFORM#AO5510) U2/* UCBrowser*",
           "engine": "U2",
           "device": "YU AO5510",
           "platforms": [
@@ -39,7 +39,7 @@
           ]
         },
         {
-          "match": "UCWEB\/*(#PLATFORM#) U2\/* UCBrowser*",
+          "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser*",
           "engine": "U2",
           "device": "general Mobile Phone (Touch)",
           "platforms": [
@@ -51,27 +51,27 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) UC AppleWebKit\/* (KHTML* like Gecko) *Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) UC AppleWebKit/* (KHTML* like Gecko) *Safari/*",
           "platforms": [
             "Android_2_3", "Android"
           ]
         },
         {
-          "match": "UCWEB\/*(Linux; U; Opera Mini\/*) U2\/* UCBrowser\/*",
+          "match": "UCWEB/*(Linux; U; Opera Mini/*) U2/* UCBrowser/*",
           "engine": "U2",
           "platforms": [
             "Android"
           ]
         },
         {
-          "match": "UCWEB\/*(Android; U; Opera Mini\/*) U2\/* UCBrowser\/*",
+          "match": "UCWEB/*(Android; U; Opera Mini/*) U2/* UCBrowser/*",
           "engine": "U2",
           "platforms": [
             "Android"
           ]
         },
         {
-          "match": "UCWEB\/*(Java*) U2\/* UCBrowser\/*",
+          "match": "UCWEB/*(Java*) U2/* UCBrowser/*",
           "engine": "U2",
           "device": "general Mobile Device",
           "platforms": [
@@ -79,7 +79,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (iPhone#PLATFORM#)*AppleWebKit\/*(*KHTML* like Gecko*)*UCBrowser\/*",
+          "match": "Mozilla/5.0 (iPhone#PLATFORM#)*AppleWebKit/*(*KHTML* like Gecko*)*UCBrowser/*",
           "engine": "WebKit",
           "device": "iPhone",
           "platforms": [
@@ -90,7 +90,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/*(*KHTML* like Gecko*)*UCBrowser\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#)*AppleWebKit/*(*KHTML* like Gecko*)*UCBrowser/*",
           "engine": "WebKit",
           "device": "general Mobile Device (Apple)",
           "platforms": [
@@ -101,7 +101,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (Linux; U;* iphone 6s Build\/KVT49L) AppleWebKit\/* (KHTML* like Gecko) Version\/* UCBrowser\/* U3\/* Safari\/*",
+          "match": "Mozilla/5.0 (Linux; U;* iphone 6s Build/KVT49L) AppleWebKit/* (KHTML* like Gecko) Version/* UCBrowser/* U3/* Safari/*",
           "engine": "U3",
           "device": "Xianghe iphone 6s",
           "platforms": [

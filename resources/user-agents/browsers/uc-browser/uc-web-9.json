@@ -35,7 +35,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Mi-440 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/* Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile",
+          "match": "Mozilla/5.0 (#PLATFORM#Mi-440 Build/*) AppleWebKit/* (KHTML,*like Gecko*) Version/* Safari/* UCBrowser/#MAJORVER#.#MINORVER#* Mobile",
           "engine": "WebKit",
           "device": "Spice Mi-440",
           "platforms": [
@@ -43,14 +43,14 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM# Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/* Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile",
+          "match": "Mozilla/5.0 (#PLATFORM# Build/*) AppleWebKit/* (KHTML,*like Gecko*) Version/* Safari/* UCBrowser/#MAJORVER#.#MINORVER#* Mobile",
           "engine": "WebKit",
           "platforms": [
             "Android_4_2", "Android_4_3", "Android_4_4", "Android"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#HTC T328w Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#HTC T328w Build/*) AppleWebKit/* (KHTML,*like Gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
           "device": "HTC T328w",
           "platforms": [
@@ -58,7 +58,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-A7100 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#GT-A7100 Build/*) AppleWebKit/* (KHTML,*like Gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
           "device": "sprd GT-A7100",
           "platforms": [
@@ -66,7 +66,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#WT19i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#WT19i Build/*) AppleWebKit/* (KHTML,*like Gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
           "device": "SonyEricsson WT19i",
           "platforms": [
@@ -74,7 +74,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#HTC Desire SV Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#HTC Desire SV Build/*) AppleWebKit/* (KHTML,*like Gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
           "device": "HTC Desire SV",
           "platforms": [
@@ -82,7 +82,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#C6903 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#C6903 Build/*) AppleWebKit/* (KHTML,*like Gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
           "device": "Sony C6903",
           "platforms": [
@@ -90,7 +90,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#PMP7074B3GRU Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#PMP7074B3GRU Build/*) AppleWebKit/* (KHTML,*like Gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
           "device": "Prestigio PMP7074B3GRU",
           "platforms": [
@@ -98,7 +98,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#D2302 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#D2302 Build/*) AppleWebKit/* (KHTML,*like Gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
           "device": "Sony D2302",
           "platforms": [
@@ -106,7 +106,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#LG-D325 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#LG-D325 Build/*) AppleWebKit/* (KHTML,*like Gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
           "device": "LG D325",
           "platforms": [
@@ -114,7 +114,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#s4502 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#s4502 Build/*) AppleWebKit/* (KHTML,*like Gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
           "device": "DNS S4502",
           "platforms": [
@@ -122,7 +122,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-S7390 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#GT-S7390 Build/*) AppleWebKit/* (KHTML,*like Gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
           "device": "Samsung GT-S7390",
           "platforms": [
@@ -130,7 +130,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#ZTE LEO Q2 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#ZTE LEO Q2 Build/*) AppleWebKit/* (KHTML,*like Gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
           "device": "ZTE V769M",
           "platforms": [
@@ -138,7 +138,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Sky Plus Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#Sky Plus Build/*) AppleWebKit/* (KHTML,*like Gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
           "device": "Odys Sky Plus 3G",
           "platforms": [
@@ -146,7 +146,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Lenovo S720 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#Lenovo S720 Build/*) AppleWebKit/* (KHTML,*like Gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
           "device": "Lenovo S720",
           "platforms": [
@@ -154,7 +154,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#DG800 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#DG800 Build/*) AppleWebKit/* (KHTML,*like Gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
           "device": "Doogee DG800",
           "platforms": [
@@ -162,7 +162,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Lenovo S660 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#Lenovo S660 Build/*) AppleWebKit/* (KHTML,*like Gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
           "device": "Lenovo S660",
           "platforms": [
@@ -170,7 +170,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#LG-D690 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#LG-D690 Build/*) AppleWebKit/* (KHTML,*like Gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
           "device": "LG D690",
           "platforms": [
@@ -178,7 +178,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-S7392 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#GT-S7392 Build/*) AppleWebKit/* (KHTML,*like Gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
           "device": "Samsung GT-S7392",
           "platforms": [
@@ -186,7 +186,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#ST25i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#ST25i Build/*) AppleWebKit/* (KHTML,*like Gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
           "device": "SonyEricsson ST25i",
           "platforms": [
@@ -194,7 +194,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#DIGMA iDsD10 3G Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#DIGMA iDsD10 3G Build/*) AppleWebKit/* (KHTML,*like Gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
           "device": "Digma iDsD10 3G",
           "platforms": [
@@ -202,7 +202,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#K1 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#K1 Build/*) AppleWebKit/* (KHTML,*like Gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
           "device": "Lenovo K1",
           "platforms": [
@@ -210,7 +210,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Keneksi-Libra_Dual Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#Keneksi-Libra_Dual Build/*) AppleWebKit/* (KHTML,*like Gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
           "device": "Keneksi Libra",
           "platforms": [
@@ -218,7 +218,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#LG-P936 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#LG-P936 Build/*) AppleWebKit/* (KHTML,*like Gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
           "device": "LG P936",
           "platforms": [
@@ -226,7 +226,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#DIGMA iDsD8 3G Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#DIGMA iDsD8 3G Build/*) AppleWebKit/* (KHTML,*like Gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
           "device": "Digma iDsD8 3G",
           "platforms": [
@@ -234,7 +234,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#ALCATEL ONE TOUCH 6010X Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#ALCATEL ONE TOUCH 6010X Build/*) AppleWebKit/* (KHTML,*like Gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
           "device": "Alcatel OT-6010X",
           "platforms": [
@@ -242,7 +242,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#AirTab M104G Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#AirTab M104G Build/*) AppleWebKit/* (KHTML,*like Gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
           "device": "DNS AirTab M104G",
           "platforms": [
@@ -250,7 +250,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#L925(L1020) Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#L925(L1020) Build/*) AppleWebKit/* (KHTML,*like Gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
           "device": "China L925 l1020",
           "platforms": [
@@ -258,7 +258,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#ASUS Transformer Pad TF700T*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#ASUS Transformer Pad TF700T*) AppleWebKit/* (KHTML,*like Gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
           "device": "Asus TF700T",
           "platforms": [
@@ -266,7 +266,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Lenovo A320t Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/* UCBrowser\/#MAJORVER#.#MINORVER#*\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#Lenovo A320t Build/*) AppleWebKit/* (KHTML,*like Gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#*/* Safari/*",
           "engine": "U3",
           "device": "Lenovo A320t",
           "platforms": [
@@ -274,7 +274,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-I9100 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#* Mobile Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#GT-I9100 Build/*) AppleWebKit/* (KHTML,*like Gecko*) UCBrowser/#MAJORVER#.#MINORVER#* Mobile Safari/*",
           "engine": "WebKit",
           "device": "GT-I9100",
           "platforms": [
@@ -282,7 +282,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-I9100T Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#* Mobile Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#GT-I9100T Build/*) AppleWebKit/* (KHTML,*like Gecko*) UCBrowser/#MAJORVER#.#MINORVER#* Mobile Safari/*",
           "engine": "WebKit",
           "device": "Samsung GT-I9100T",
           "platforms": [
@@ -290,7 +290,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#LA-M1 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#* Mobile Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#LA-M1 Build/*) AppleWebKit/* (KHTML,*like Gecko*) UCBrowser/#MAJORVER#.#MINORVER#* Mobile Safari/*",
           "engine": "WebKit",
           "device": "Beidou LA-M1",
           "platforms": [
@@ -298,7 +298,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#TM-5204 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Mobile Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#TM-5204 Build/*) AppleWebKit/* (KHTML,*like Gecko*) UCBrowser/#MAJORVER#.#MINORVER#* U3/* Mobile Safari/*",
           "engine": "U3",
           "device": "TeXet TM-5204",
           "platforms": [
@@ -306,7 +306,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-S7562 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#GT-S7562 Build/*) AppleWebKit/* (KHTML,*like Gecko*) UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
           "device": "Samsung GT-S7562",
           "platforms": [
@@ -314,7 +314,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#C1505 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#C1505 Build/*) AppleWebKit/* (KHTML,*like Gecko*) UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
           "device": "Sony C1505",
           "platforms": [
@@ -322,7 +322,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#HUAWEI Y320-U10 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#HUAWEI Y320-U10 Build/*) AppleWebKit/* (KHTML,*like Gecko*) UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
           "device": "Huawei Y320-U10",
           "platforms": [
@@ -330,7 +330,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#HTC One S Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#HTC One S Build/*) AppleWebKit/* (KHTML,*like Gecko*) UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
           "device": "HTC PJ401",
           "platforms": [
@@ -338,7 +338,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-I9152 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#GT-I9152 Build/*) AppleWebKit/* (KHTML,*like Gecko*) UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
           "device": "Samsung GT-I9152",
           "platforms": [
@@ -346,7 +346,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Lenovo A390t Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#Lenovo A390t Build/*) AppleWebKit/* (KHTML,*like Gecko*) UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
           "device": "Lenovo A390t",
           "platforms": [
@@ -354,21 +354,21 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM# Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM# Build/*) AppleWebKit/* (KHTML,*like Gecko*) UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM# Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) UCBrowser\/#MAJORVER#.#MINORVER#* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM# Build/*) AppleWebKit/* (KHTML,*like Gecko*) UCBrowser/#MAJORVER#.#MINORVER#* Safari/*",
           "engine": "WebKit",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-I9300 *) AppleWebKit\/* (KHTML,*like Gecko*) *UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#GT-I9300 *) AppleWebKit/* (KHTML,*like Gecko*) *UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
           "device": "Samsung GT-I9300",
           "platforms": [
@@ -376,7 +376,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#MI 3W *) AppleWebKit\/* (KHTML,*like Gecko*) *UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#MI 3W *) AppleWebKit/* (KHTML,*like Gecko*) *UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
           "device": "Xiaomi MI 3W",
           "platforms": [
@@ -384,7 +384,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#FP1 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) *UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#FP1 Build/*) AppleWebKit/* (KHTML,*like Gecko*) *UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
           "device": "Fairphone FP1",
           "platforms": [
@@ -392,7 +392,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#HUAWEI U8815 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) *UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#HUAWEI U8815 Build/*) AppleWebKit/* (KHTML,*like Gecko*) *UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
           "device": "Huawei U8815",
           "platforms": [
@@ -400,7 +400,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#WEXLER-TAB-7T Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) *UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#WEXLER-TAB-7T Build/*) AppleWebKit/* (KHTML,*like Gecko*) *UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
           "device": "Wexler TAB-7T",
           "platforms": [
@@ -408,7 +408,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#GV7777 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) *UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#GV7777 Build/*) AppleWebKit/* (KHTML,*like Gecko*) *UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
           "device": "Prestigio GV7777",
           "platforms": [
@@ -416,7 +416,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-S6802 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) *UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#GT-S6802 Build/*) AppleWebKit/* (KHTML,*like Gecko*) *UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
           "device": "Samsung GT-S6802",
           "platforms": [
@@ -424,7 +424,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Lenovo A316i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) *UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#Lenovo A316i Build/*) AppleWebKit/* (KHTML,*like Gecko*) *UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
           "device": "Lenovo A316i",
           "platforms": [
@@ -432,7 +432,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Lenovo A606 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) *UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#Lenovo A606 Build/*) AppleWebKit/* (KHTML,*like Gecko*) *UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
           "device": "Lenovo A606",
           "platforms": [
@@ -440,7 +440,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Lenovo A319 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) *UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#Lenovo A319 Build/*) AppleWebKit/* (KHTML,*like Gecko*) *UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
           "device": "Lenovo A319",
           "platforms": [
@@ -448,7 +448,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Lenovo A369i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) *UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#Lenovo A369i Build/*) AppleWebKit/* (KHTML,*like Gecko*) *UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
           "device": "Lenovo A369i",
           "platforms": [
@@ -456,7 +456,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Lenovo A536 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) *UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#Lenovo A536 Build/*) AppleWebKit/* (KHTML,*like Gecko*) *UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
           "device": "Lenovo A536",
           "platforms": [
@@ -464,7 +464,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Lenovo A6000 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) *UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#Lenovo A6000 Build/*) AppleWebKit/* (KHTML,*like Gecko*) *UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
           "device": "Lenovo A6000",
           "platforms": [
@@ -472,7 +472,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Lenovo A859 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) *UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#Lenovo A859 Build/*) AppleWebKit/* (KHTML,*like Gecko*) *UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
           "device": "Lenovo A859",
           "platforms": [
@@ -480,7 +480,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Lenovo A526 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) *UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#Lenovo A526 Build/*) AppleWebKit/* (KHTML,*like Gecko*) *UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
           "device": "Lenovo A526",
           "platforms": [
@@ -488,7 +488,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Lenovo A880 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) *UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#Lenovo A880 Build/*) AppleWebKit/* (KHTML,*like Gecko*) *UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
           "device": "Lenovo A880",
           "platforms": [
@@ -496,7 +496,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Lenovo A238t Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) *UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#Lenovo A238t Build/*) AppleWebKit/* (KHTML,*like Gecko*) *UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
           "device": "Lenovo A238t",
           "platforms": [
@@ -504,7 +504,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Lenovo A320t Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) *UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#Lenovo A320t Build/*) AppleWebKit/* (KHTML,*like Gecko*) *UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
           "device": "Lenovo A320t",
           "platforms": [
@@ -512,7 +512,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Lenovo A328 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) *UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#Lenovo A328 Build/*) AppleWebKit/* (KHTML,*like Gecko*) *UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
           "device": "Lenovo A328",
           "platforms": [
@@ -520,7 +520,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Lenovo A5500-H Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) *UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#Lenovo A5500-H Build/*) AppleWebKit/* (KHTML,*like Gecko*) *UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
           "device": "Lenovo A5500-H",
           "platforms": [
@@ -528,21 +528,21 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) *UCBrowser\/#MAJORVER#.#MINORVER#* U3\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML,*like Gecko*) *UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
           "platforms": [
             "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) *UCBrowser\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML,*like Gecko*) *UCBrowser/#MAJORVER#.#MINORVER#*Safari/*",
           "engine": "WebKit",
           "platforms": [
             "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#W200 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
+          "match": "Mozilla/5.0 (#PLATFORM#W200 Build/*) AppleWebKit/* (KHTML,*like Gecko*) Version/*Safari/* UCBrowser/#MAJORVER#.#MINORVER#* Mobile*",
           "engine": "WebKit",
           "device": "ThL W200",
           "platforms": [
@@ -550,7 +550,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Lenovo_S820_ROW Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
+          "match": "Mozilla/5.0 (#PLATFORM#Lenovo_S820_ROW Build/*) AppleWebKit/* (KHTML,*like Gecko*) Version/*Safari/* UCBrowser/#MAJORVER#.#MINORVER#* Mobile*",
           "engine": "WebKit",
           "device": "Lenovo S820_ROW",
           "platforms": [
@@ -558,7 +558,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Impress_L Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
+          "match": "Mozilla/5.0 (#PLATFORM#Impress_L Build/*) AppleWebKit/* (KHTML,*like Gecko*) Version/*Safari/* UCBrowser/#MAJORVER#.#MINORVER#* Mobile*",
           "engine": "WebKit",
           "device": "Vertex Impress L",
           "platforms": [
@@ -566,7 +566,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-S5830 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
+          "match": "Mozilla/5.0 (#PLATFORM#GT-S5830 Build/*) AppleWebKit/* (KHTML,*like Gecko*) Version/*Safari/* UCBrowser/#MAJORVER#.#MINORVER#* Mobile*",
           "engine": "WebKit",
           "device": "GT-S5830",
           "platforms": [
@@ -574,7 +574,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#UMI_X2 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
+          "match": "Mozilla/5.0 (#PLATFORM#UMI_X2 Build/*) AppleWebKit/* (KHTML,*like Gecko*) Version/*Safari/* UCBrowser/#MAJORVER#.#MINORVER#* Mobile*",
           "engine": "WebKit",
           "device": "UMi X2",
           "platforms": [
@@ -582,7 +582,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#SK17i Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
+          "match": "Mozilla/5.0 (#PLATFORM#SK17i Build/*) AppleWebKit/* (KHTML,*like Gecko*) Version/*Safari/* UCBrowser/#MAJORVER#.#MINORVER#* Mobile*",
           "engine": "WebKit",
           "device": "SonyEricsson SK17i",
           "platforms": [
@@ -590,7 +590,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-S6802 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
+          "match": "Mozilla/5.0 (#PLATFORM#GT-S6802 Build/*) AppleWebKit/* (KHTML,*like Gecko*) Version/*Safari/* UCBrowser/#MAJORVER#.#MINORVER#* Mobile*",
           "engine": "WebKit",
           "device": "Samsung GT-S6802",
           "platforms": [
@@ -598,7 +598,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#PAP4500DUO Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
+          "match": "Mozilla/5.0 (#PLATFORM#PAP4500DUO Build/*) AppleWebKit/* (KHTML,*like Gecko*) Version/*Safari/* UCBrowser/#MAJORVER#.#MINORVER#* Mobile*",
           "engine": "WebKit",
           "device": "Prestigio PAP4500DUO",
           "platforms": [
@@ -606,7 +606,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#LG-D415 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
+          "match": "Mozilla/5.0 (#PLATFORM#LG-D415 Build/*) AppleWebKit/* (KHTML,*like Gecko*) Version/*Safari/* UCBrowser/#MAJORVER#.#MINORVER#* Mobile*",
           "engine": "WebKit",
           "device": "LG D415",
           "platforms": [
@@ -614,7 +614,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-S6500T Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
+          "match": "Mozilla/5.0 (#PLATFORM#GT-S6500T Build/*) AppleWebKit/* (KHTML,*like Gecko*) Version/*Safari/* UCBrowser/#MAJORVER#.#MINORVER#* Mobile*",
           "engine": "WebKit",
           "device": "Samsung GT-S6500T",
           "platforms": [
@@ -622,7 +622,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-I9060 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
+          "match": "Mozilla/5.0 (#PLATFORM#GT-I9060 Build/*) AppleWebKit/* (KHTML,*like Gecko*) Version/*Safari/* UCBrowser/#MAJORVER#.#MINORVER#* Mobile*",
           "engine": "WebKit",
           "device": "Samsung GT-I9060",
           "platforms": [
@@ -630,7 +630,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#HTC_One Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
+          "match": "Mozilla/5.0 (#PLATFORM#HTC_One Build/*) AppleWebKit/* (KHTML,*like Gecko*) Version/*Safari/* UCBrowser/#MAJORVER#.#MINORVER#* Mobile*",
           "engine": "WebKit",
           "device": "HTC M7",
           "platforms": [
@@ -638,7 +638,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Lenovo_A529 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
+          "match": "Mozilla/5.0 (#PLATFORM#Lenovo_A529 Build/*) AppleWebKit/* (KHTML,*like Gecko*) Version/*Safari/* UCBrowser/#MAJORVER#.#MINORVER#* Mobile*",
           "engine": "WebKit",
           "device": "Lenovo A529",
           "platforms": [
@@ -646,7 +646,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#IQ430 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
+          "match": "Mozilla/5.0 (#PLATFORM#IQ430 Build/*) AppleWebKit/* (KHTML,*like Gecko*) Version/*Safari/* UCBrowser/#MAJORVER#.#MINORVER#* Mobile*",
           "engine": "WebKit",
           "device": "Fly IQ430",
           "platforms": [
@@ -654,7 +654,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#TF-SP4502 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
+          "match": "Mozilla/5.0 (#PLATFORM#TF-SP4502 Build/*) AppleWebKit/* (KHTML,*like Gecko*) Version/*Safari/* UCBrowser/#MAJORVER#.#MINORVER#* Mobile*",
           "engine": "WebKit",
           "device": "Telefunken TF-SP4502",
           "platforms": [
@@ -662,14 +662,14 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML,*like Gecko*) Version/*Safari/* UCBrowser/#MAJORVER#.#MINORVER#* Mobile*",
           "engine": "WebKit",
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android"
           ]
         },
         {
-          "match": "UCWEB\/*(#PLATFORM#iPh*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "match": "UCWEB/*(#PLATFORM#iPh*) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
           "engine": "U2",
           "device": "iPhone",
           "platforms": [
@@ -677,7 +677,7 @@
           ]
         },
         {
-          "match": "UCWEB\/*(#PLATFORM#GT-S5360) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "match": "UCWEB/*(#PLATFORM#GT-S5360) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
           "engine": "U2",
           "device": "Samsung GT-S5360",
           "platforms": [
@@ -686,7 +686,7 @@
           ]
         },
         {
-          "match": "UCWEB\/*(#PLATFORM#GT-S7562) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "match": "UCWEB/*(#PLATFORM#GT-S7562) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
           "engine": "U2",
           "device": "Samsung GT-S7562",
           "platforms": [
@@ -695,7 +695,7 @@
           ]
         },
         {
-          "match": "UCWEB\/*(#PLATFORM#Micromax A27) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "match": "UCWEB/*(#PLATFORM#Micromax A27) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
           "engine": "U2",
           "device": "Micromax A27",
           "platforms": [
@@ -704,7 +704,7 @@
           ]
         },
         {
-          "match": "UCWEB\/*(#PLATFORM#W8_beyond) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "match": "UCWEB/*(#PLATFORM#W8_beyond) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
           "engine": "U2",
           "device": "ThL W8",
           "platforms": [
@@ -713,7 +713,7 @@
           ]
         },
         {
-          "match": "UCWEB\/*(#PLATFORM#Micromax_A106) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "match": "UCWEB/*(#PLATFORM#Micromax_A106) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
           "engine": "U2",
           "device": "Micromax A106",
           "platforms": [
@@ -721,7 +721,7 @@
           ]
         },
         {
-          "match": "UCWEB\/*(#PLATFORM#MT11i) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "match": "UCWEB/*(#PLATFORM#MT11i) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
           "engine": "U2",
           "device": "SonyEricsson MT11i",
           "platforms": [
@@ -730,7 +730,7 @@
           ]
         },
         {
-          "match": "UCWEB\/*(#PLATFORM#PMP7070C3G) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "match": "UCWEB/*(#PLATFORM#PMP7070C3G) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
           "engine": "U2",
           "device": "Prestigio PMP7070C3G",
           "platforms": [
@@ -738,7 +738,7 @@
           ]
         },
         {
-          "match": "UCWEB\/*(#PLATFORM#NOKIAE5-00u) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "match": "UCWEB/*(#PLATFORM#NOKIAE5-00u) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
           "engine": "U2",
           "device": "Nokia E5-00",
           "platforms": [
@@ -746,7 +746,7 @@
           ]
         },
         {
-          "match": "UCWEB\/*(#PLATFORM#GT-9000) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "match": "UCWEB/*(#PLATFORM#GT-9000) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
           "engine": "U2",
           "device": "Star GT9000",
           "platforms": [
@@ -754,7 +754,7 @@
           ]
         },
         {
-          "match": "UCWEB\/*(#PLATFORM#W100) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "match": "UCWEB/*(#PLATFORM#W100) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
           "engine": "U2",
           "device": "ThL W100",
           "platforms": [
@@ -762,7 +762,7 @@
           ]
         },
         {
-          "match": "UCWEB\/*(#PLATFORM#T118) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "match": "UCWEB/*(#PLATFORM#T118) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
           "engine": "U2",
           "device": "Twinovo T118",
           "platforms": [
@@ -770,7 +770,7 @@
           ]
         },
         {
-          "match": "UCWEB\/*(#PLATFORM#ZTE_V829) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "match": "UCWEB/*(#PLATFORM#ZTE_V829) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
           "engine": "U2",
           "device": "ZTE V829",
           "platforms": [
@@ -778,7 +778,7 @@
           ]
         },
         {
-          "match": "UCWEB\/*(#PLATFORM#HM_1SW) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "match": "UCWEB/*(#PLATFORM#HM_1SW) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
           "engine": "U2",
           "device": "Xiaomi HM 1SW",
           "platforms": [
@@ -786,7 +786,7 @@
           ]
         },
         {
-          "match": "UCWEB\/*(#PLATFORM#GT-I9100) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "match": "UCWEB/*(#PLATFORM#GT-I9100) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
           "engine": "U2",
           "device": "GT-I9100",
           "platforms": [
@@ -794,7 +794,7 @@
           ]
         },
         {
-          "match": "UCWEB\/*(#PLATFORM#GT-I9100P) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "match": "UCWEB/*(#PLATFORM#GT-I9100P) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
           "engine": "U2",
           "device": "GT-I9100P",
           "platforms": [
@@ -802,7 +802,7 @@
           ]
         },
         {
-          "match": "UCWEB\/*(#PLATFORM#NOKIA6700s) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "match": "UCWEB/*(#PLATFORM#NOKIA6700s) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
           "engine": "U2",
           "device": "Nokia 6700s",
           "platforms": [
@@ -810,7 +810,7 @@
           ]
         },
         {
-          "match": "UCWEB\/*(#PLATFORM#LG-P765) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "match": "UCWEB/*(#PLATFORM#LG-P765) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
           "engine": "U2",
           "device": "LG P765",
           "platforms": [
@@ -818,7 +818,7 @@
           ]
         },
         {
-          "match": "UCWEB\/*(#PLATFORM#MB300) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "match": "UCWEB/*(#PLATFORM#MB300) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
           "engine": "U2",
           "device": "Motorola MB300",
           "platforms": [
@@ -826,7 +826,7 @@
           ]
         },
         {
-          "match": "UCWEB\/*(#PLATFORM#LG-D724) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "match": "UCWEB/*(#PLATFORM#LG-D724) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
           "engine": "U2",
           "device": "LG D724",
           "platforms": [
@@ -834,7 +834,7 @@
           ]
         },
         {
-          "match": "UCWEB\/*(#PLATFORM#U8230) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "match": "UCWEB/*(#PLATFORM#U8230) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
           "engine": "U2",
           "device": "Huawei U8230",
           "platforms": [
@@ -842,7 +842,7 @@
           ]
         },
         {
-          "match": "UCWEB\/*(#PLATFORM#HTC_Ruby) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "match": "UCWEB/*(#PLATFORM#HTC_Ruby) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
           "engine": "U2",
           "device": "HTC Ruby",
           "platforms": [
@@ -850,7 +850,7 @@
           ]
         },
         {
-          "match": "UCWEB\/*(#PLATFORM#Lenovo_A706_ROW) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "match": "UCWEB/*(#PLATFORM#Lenovo_A706_ROW) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
           "engine": "U2",
           "device": "Lenovo A706",
           "platforms": [
@@ -858,7 +858,7 @@
           ]
         },
         {
-          "match": "UCWEB\/*(#PLATFORM#Lenovo_K910L) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "match": "UCWEB/*(#PLATFORM#Lenovo_K910L) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
           "engine": "U2",
           "device": "Lenovo K910L",
           "platforms": [
@@ -866,7 +866,7 @@
           ]
         },
         {
-          "match": "UCWEB\/*(#PLATFORM#HTC_Desire_310) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "match": "UCWEB/*(#PLATFORM#HTC_Desire_310) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
           "engine": "U2",
           "device": "HTC Desire 310",
           "platforms": [
@@ -874,7 +874,7 @@
           ]
         },
         {
-          "match": "UCWEB\/*(#PLATFORM#CinemaTV_3G) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "match": "UCWEB/*(#PLATFORM#CinemaTV_3G) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
           "engine": "U2",
           "device": "Explay CinemaTV 3G",
           "platforms": [
@@ -882,7 +882,7 @@
           ]
         },
         {
-          "match": "UCWEB\/*(#PLATFORM#HS-U98) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "match": "UCWEB/*(#PLATFORM#HS-U98) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
           "engine": "U2",
           "device": "Hisense HS-U98",
           "platforms": [
@@ -890,7 +890,7 @@
           ]
         },
         {
-          "match": "UCWEB\/*(#PLATFORM#Lenovo_A3000-H) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "match": "UCWEB/*(#PLATFORM#Lenovo_A3000-H) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
           "engine": "U2",
           "device": "Lenovo A3000-H",
           "platforms": [
@@ -898,7 +898,7 @@
           ]
         },
         {
-          "match": "UCWEB\/*(#PLATFORM#Lenovo_A516) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "match": "UCWEB/*(#PLATFORM#Lenovo_A516) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
           "engine": "U2",
           "device": "Lenovo A516",
           "platforms": [
@@ -906,7 +906,7 @@
           ]
         },
         {
-          "match": "UCWEB\/*(#PLATFORM#PantechP9060) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "match": "UCWEB/*(#PLATFORM#PantechP9060) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
           "engine": "U2",
           "device": "Pantech P9060",
           "platforms": [
@@ -914,7 +914,7 @@
           ]
         },
         {
-          "match": "UCWEB\/*(#PLATFORM#Micromax_A94) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "match": "UCWEB/*(#PLATFORM#Micromax_A94) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
           "engine": "U2",
           "device": "Micromax A94",
           "platforms": [
@@ -922,7 +922,7 @@
           ]
         },
         {
-          "match": "UCWEB\/*(#PLATFORM#iDxD8_3G) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "match": "UCWEB/*(#PLATFORM#iDxD8_3G) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
           "engine": "U2",
           "device": "Digma iDxD8 3G",
           "platforms": [
@@ -930,7 +930,7 @@
           ]
         },
         {
-          "match": "UCWEB\/*(#PLATFORM#SM-T311) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "match": "UCWEB/*(#PLATFORM#SM-T311) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
           "engine": "U2",
           "device": "Samsung SM-T311",
           "platforms": [
@@ -938,7 +938,7 @@
           ]
         },
         {
-          "match": "UCWEB\/*(#PLATFORM#Lenovo_P770) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "match": "UCWEB/*(#PLATFORM#Lenovo_P770) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
           "engine": "U2",
           "device": "Lenovo P770",
           "platforms": [
@@ -946,7 +946,7 @@
           ]
         },
         {
-          "match": "UCWEB\/*(#PLATFORM#WEXLER.BOOK_T7008) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "match": "UCWEB/*(#PLATFORM#WEXLER.BOOK_T7008) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
           "engine": "U2",
           "device": "Wexler Book T7008",
           "platforms": [
@@ -954,7 +954,7 @@
           ]
         },
         {
-          "match": "UCWEB\/*(#PLATFORM#GT-N8000) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "match": "UCWEB/*(#PLATFORM#GT-N8000) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
           "engine": "U2",
           "device": "Samsung GT-N8000",
           "platforms": [
@@ -962,7 +962,7 @@
           ]
         },
         {
-          "match": "UCWEB\/*(#PLATFORM#T8700) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "match": "UCWEB/*(#PLATFORM#T8700) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
           "engine": "U2",
           "device": "Ninetology T8700",
           "platforms": [
@@ -970,7 +970,7 @@
           ]
         },
         {
-          "match": "UCWEB\/*(#PLATFORM#Lenovo?A316i) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "match": "UCWEB/*(#PLATFORM#Lenovo?A316i) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
           "engine": "U2",
           "device": "Lenovo A316i",
           "platforms": [
@@ -978,7 +978,7 @@
           ]
         },
         {
-          "match": "UCWEB\/*(#PLATFORM#Lenovo_A318t) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "match": "UCWEB/*(#PLATFORM#Lenovo_A318t) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
           "engine": "U2",
           "device": "Lenovo A318t",
           "platforms": [
@@ -986,7 +986,7 @@
           ]
         },
         {
-          "match": "UCWEB\/*(#PLATFORM#Lenovo_A390t) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "match": "UCWEB/*(#PLATFORM#Lenovo_A390t) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
           "engine": "U2",
           "device": "Lenovo A390t",
           "platforms": [
@@ -994,7 +994,7 @@
           ]
         },
         {
-          "match": "UCWEB\/*(#PLATFORM#GT-I9195) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "match": "UCWEB/*(#PLATFORM#GT-I9195) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
           "engine": "U2",
           "device": "Samsung GT-I9195",
           "platforms": [
@@ -1002,7 +1002,7 @@
           ]
         },
         {
-          "match": "UCWEB\/*(#PLATFORM#Lenovo A7600-H) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "match": "UCWEB/*(#PLATFORM#Lenovo A7600-H) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
           "engine": "U2",
           "device": "Lenovo A7600-H",
           "platforms": [
@@ -1010,7 +1010,7 @@
           ]
         },
         {
-          "match": "UCWEB\/*(#PLATFORM#Lenovo A369i) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "match": "UCWEB/*(#PLATFORM#Lenovo A369i) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
           "engine": "U2",
           "device": "Lenovo A369i",
           "platforms": [
@@ -1018,7 +1018,7 @@
           ]
         },
         {
-          "match": "UCWEB\/*(#PLATFORM#) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
           "engine": "U2",
           "device": "general Mobile Phone (Touch)",
           "platforms": [
@@ -1030,14 +1030,14 @@
           ]
         },
         {
-          "match": "UCWEB\/*(Android; U; Opera Mini\/*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
+          "match": "UCWEB/*(Android; U; Opera Mini/*) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
           "engine": "U2",
           "platforms": [
             "Android"
           ]
         },
         {
-          "match": "UCWEB\/2.0(Linux; U; Opera Mini\/*; GT-S5670 Build\/*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
+          "match": "UCWEB/2.0(Linux; U; Opera Mini/*; GT-S5670 Build/*) U2/* UCBrowser/#MAJORVER#.#MINORVER#* Mobile*",
           "engine": "U2",
           "device": "Samsung GT-S5670",
           "platforms": [
@@ -1045,7 +1045,7 @@
           ]
         },
         {
-          "match": "UCWEB\/2.0(Linux; U; Opera Mini\/*; MB525 Build\/*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
+          "match": "UCWEB/2.0(Linux; U; Opera Mini/*; MB525 Build/*) U2/* UCBrowser/#MAJORVER#.#MINORVER#* Mobile*",
           "engine": "U2",
           "device": "Motorola MB525",
           "platforms": [
@@ -1053,14 +1053,14 @@
           ]
         },
         {
-          "match": "UCWEB\/2.0(Linux; U; Opera Mini\/*; * Build\/*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
+          "match": "UCWEB/2.0(Linux; U; Opera Mini/*; * Build/*) U2/* UCBrowser/#MAJORVER#.#MINORVER#* Mobile*",
           "engine": "U2",
           "platforms": [
             "Android"
           ]
         },
         {
-          "match": "UCWEB\/2.0 (Linux; U; Opera Mini\/*; Videocon_A15) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
+          "match": "UCWEB/2.0 (Linux; U; Opera Mini/*; Videocon_A15) U2/* UCBrowser/#MAJORVER#.#MINORVER#* Mobile*",
           "engine": "U2",
           "device": "Videocon A15",
           "platforms": [
@@ -1068,7 +1068,7 @@
           ]
         },
         {
-          "match": "UCWEB\/2.0 (Linux; U; Opera Mini\/*; QUMO_QUEST_450) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
+          "match": "UCWEB/2.0 (Linux; U; Opera Mini/*; QUMO_QUEST_450) U2/* UCBrowser/#MAJORVER#.#MINORVER#* Mobile*",
           "engine": "U2",
           "device": "Qumo QUEST 450",
           "platforms": [
@@ -1076,7 +1076,7 @@
           ]
         },
         {
-          "match": "UCWEB\/2.0 (Linux; U; Opera Mini\/*; ATLAS_W) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
+          "match": "UCWEB/2.0 (Linux; U; Opera Mini/*; ATLAS_W) U2/* UCBrowser/#MAJORVER#.#MINORVER#* Mobile*",
           "engine": "U2",
           "device": "ZTE Atlas W",
           "platforms": [
@@ -1084,7 +1084,7 @@
           ]
         },
         {
-          "match": "UCWEB\/2.0 (Linux; U; Opera Mini\/*; LG-E612) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
+          "match": "UCWEB/2.0 (Linux; U; Opera Mini/*; LG-E612) U2/* UCBrowser/#MAJORVER#.#MINORVER#* Mobile*",
           "engine": "U2",
           "device": "LG E612",
           "platforms": [
@@ -1092,7 +1092,7 @@
           ]
         },
         {
-          "match": "UCWEB\/2.0 (Linux; U; Opera Mini\/*; SHV-E210K) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
+          "match": "UCWEB/2.0 (Linux; U; Opera Mini/*; SHV-E210K) U2/* UCBrowser/#MAJORVER#.#MINORVER#* Mobile*",
           "engine": "U2",
           "device": "Samsung SHV-E210K",
           "platforms": [
@@ -1100,7 +1100,7 @@
           ]
         },
         {
-          "match": "UCWEB\/2.0 (Linux; U; Opera Mini\/*; SHV-E250S) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
+          "match": "UCWEB/2.0 (Linux; U; Opera Mini/*; SHV-E250S) U2/* UCBrowser/#MAJORVER#.#MINORVER#* Mobile*",
           "engine": "U2",
           "device": "Samsung SHV-E250S",
           "platforms": [
@@ -1108,7 +1108,7 @@
           ]
         },
         {
-          "match": "UCWEB\/2.0 (Linux; U; Opera Mini\/*; USCCADR6230US) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
+          "match": "UCWEB/2.0 (Linux; U; Opera Mini/*; USCCADR6230US) U2/* UCBrowser/#MAJORVER#.#MINORVER#* Mobile*",
           "engine": "U2",
           "device": "HTC Wildfire S ADR6230",
           "platforms": [
@@ -1116,7 +1116,7 @@
           ]
         },
         {
-          "match": "UCWEB\/2.0 (Linux; U; Opera Mini\/*; thl_4400) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
+          "match": "UCWEB/2.0 (Linux; U; Opera Mini/*; thl_4400) U2/* UCBrowser/#MAJORVER#.#MINORVER#* Mobile*",
           "engine": "U2",
           "device": "ThL 4400",
           "platforms": [
@@ -1124,7 +1124,7 @@
           ]
         },
         {
-          "match": "UCWEB\/2.0 (Linux; U; Opera Mini\/*; Adi_5S) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
+          "match": "UCWEB/2.0 (Linux; U; Opera Mini/*; Adi_5S) U2/* UCBrowser/#MAJORVER#.#MINORVER#* Mobile*",
           "engine": "U2",
           "device": "Artel Adi5S",
           "platforms": [
@@ -1132,7 +1132,7 @@
           ]
         },
         {
-          "match": "UCWEB\/2.0 (Linux; U; Opera Mini\/*; SM-T2105) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
+          "match": "UCWEB/2.0 (Linux; U; Opera Mini/*; SM-T2105) U2/* UCBrowser/#MAJORVER#.#MINORVER#* Mobile*",
           "engine": "U2",
           "device": "Samsung SM-T2105",
           "platforms": [
@@ -1140,7 +1140,7 @@
           ]
         },
         {
-          "match": "UCWEB\/2.0 (Linux; U; Opera Mini\/*; Oysters_T72HRi_3G) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
+          "match": "UCWEB/2.0 (Linux; U; Opera Mini/*; Oysters_T72HRi_3G) U2/* UCBrowser/#MAJORVER#.#MINORVER#* Mobile*",
           "engine": "U2",
           "device": "Oysters T72HRi 3G",
           "platforms": [
@@ -1148,7 +1148,7 @@
           ]
         },
         {
-          "match": "UCWEB\/2.0 (Linux; U; Opera Mini\/*; Lenovo_A376) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
+          "match": "UCWEB/2.0 (Linux; U; Opera Mini/*; Lenovo_A376) U2/* UCBrowser/#MAJORVER#.#MINORVER#* Mobile*",
           "engine": "U2",
           "device": "Lenovo A376",
           "platforms": [
@@ -1156,7 +1156,7 @@
           ]
         },
         {
-          "match": "UCWEB\/2.0 (Linux; U; Opera Mini\/*; ZTE_Grand_Era) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
+          "match": "UCWEB/2.0 (Linux; U; Opera Mini/*; ZTE_Grand_Era) U2/* UCBrowser/#MAJORVER#.#MINORVER#* Mobile*",
           "engine": "U2",
           "device": "ZTE Grand Era",
           "platforms": [
@@ -1164,7 +1164,7 @@
           ]
         },
         {
-          "match": "UCWEB\/2.0 (Linux; U; Opera Mini\/*; PMP7280C3G) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
+          "match": "UCWEB/2.0 (Linux; U; Opera Mini/*; PMP7280C3G) U2/* UCBrowser/#MAJORVER#.#MINORVER#* Mobile*",
           "engine": "U2",
           "device": "Prestigio PMP7280C3G",
           "platforms": [
@@ -1172,7 +1172,7 @@
           ]
         },
         {
-          "match": "UCWEB\/2.0 (Linux; U; Opera Mini\/*; HTC_Desire_S) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
+          "match": "UCWEB/2.0 (Linux; U; Opera Mini/*; HTC_Desire_S) U2/* UCBrowser/#MAJORVER#.#MINORVER#* Mobile*",
           "engine": "U2",
           "device": "HTC Desire S",
           "platforms": [
@@ -1180,7 +1180,7 @@
           ]
         },
         {
-          "match": "UCWEB\/2.0 (Linux; U; Opera Mini\/*; T8700) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
+          "match": "UCWEB/2.0 (Linux; U; Opera Mini/*; T8700) U2/* UCBrowser/#MAJORVER#.#MINORVER#* Mobile*",
           "engine": "U2",
           "device": "Ninetology T8700",
           "platforms": [
@@ -1188,21 +1188,21 @@
           ]
         },
         {
-          "match": "UCWEB\/2.0 (Linux; U; Opera Mini\/*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* Mobile*",
+          "match": "UCWEB/2.0 (Linux; U; Opera Mini/*) U2/* UCBrowser/#MAJORVER#.#MINORVER#* Mobile*",
           "engine": "U2",
           "platforms": [
             "Android"
           ]
         },
         {
-          "match": "UCWEB\/2.0 (Linux; U; Opera Mini\/*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
+          "match": "UCWEB/2.0 (Linux; U; Opera Mini/*) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
           "engine": "U2",
           "platforms": [
             "Android"
           ]
         },
         {
-          "match": "UCWEB\/2.0 (Java; *SAMSUNG-SGH-T669) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/* Mobile*",
+          "match": "UCWEB/2.0 (Java; *SAMSUNG-SGH-T669) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/* Mobile*",
           "engine": "U2",
           "device": "Samsung SGH-T669",
           "platforms": [
@@ -1210,7 +1210,7 @@
           ]
         },
         {
-          "match": "UCWEB\/2.0 (Java; *nokiaasha500dualsim) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/* Mobile*",
+          "match": "UCWEB/2.0 (Java; *nokiaasha500dualsim) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/* Mobile*",
           "engine": "U2",
           "device": "Nokia Asha 500 Dual Sim",
           "platforms": [
@@ -1218,7 +1218,7 @@
           ]
         },
         {
-          "match": "UCWEB\/2.0 (Java; *NokiaC6-01) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/* Mobile*",
+          "match": "UCWEB/2.0 (Java; *NokiaC6-01) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/* Mobile*",
           "engine": "U2",
           "device": "Nokia C6-01",
           "platforms": [
@@ -1226,7 +1226,7 @@
           ]
         },
         {
-          "match": "UCWEB\/2.0 (Java; *NokiaC6-00) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/* Mobile*",
+          "match": "UCWEB/2.0 (Java; *NokiaC6-00) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/* Mobile*",
           "engine": "U2",
           "device": "Nokia C6-00",
           "platforms": [
@@ -1234,7 +1234,7 @@
           ]
         },
         {
-          "match": "UCWEB\/*(Java; *ALCATEL_one_touch_818) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/* Mobile*",
+          "match": "UCWEB/*(Java; *ALCATEL_one_touch_818) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/* Mobile*",
           "engine": "U2",
           "device": "Alcatel OT-818",
           "platforms": [
@@ -1242,7 +1242,7 @@
           ]
         },
         {
-          "match": "UCWEB\/*(Java; *SonyEricssonK790i) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/* Mobile*",
+          "match": "UCWEB/*(Java; *SonyEricssonK790i) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/* Mobile*",
           "engine": "U2",
           "device": "SonyEricsson K790i",
           "platforms": [
@@ -1250,7 +1250,7 @@
           ]
         },
         {
-          "match": "UCWEB\/*(Java*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#*",
+          "match": "UCWEB/*(Java*) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
           "engine": "U2",
           "device": "general Mobile Phone",
           "platforms": [
@@ -1258,7 +1258,7 @@
           ]
         },
         {
-          "match": "Nokia5130c-2\/* Profile\/MIDP-2* UCWEB\/2.0 (*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/* Mobile*",
+          "match": "Nokia5130c-2/* Profile/MIDP-2* UCWEB/2.0 (*) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/* Mobile*",
           "engine": "U2",
           "device": "Nokia 5130c-2",
           "platforms": [
@@ -1266,7 +1266,7 @@
           ]
         },
         {
-          "match": "Nokia305\/* Profile\/MIDP-2* UCWEB\/2.0 (*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/* Mobile*",
+          "match": "Nokia305/* Profile/MIDP-2* UCWEB/2.0 (*) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/* Mobile*",
           "engine": "U2",
           "device": "Nokia 305",
           "platforms": [
@@ -1274,7 +1274,7 @@
           ]
         },
         {
-          "match": "Nokia308\/* Profile\/MIDP-2* UCWEB\/2.0 (*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/* Mobile*",
+          "match": "Nokia308/* Profile/MIDP-2* UCWEB/2.0 (*) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/* Mobile*",
           "engine": "U2",
           "device": "Nokia 308",
           "platforms": [
@@ -1282,7 +1282,7 @@
           ]
         },
         {
-          "match": "Nokia311\/* Profile\/MIDP-2* UCWEB\/2.0 (*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/* Mobile*",
+          "match": "Nokia311/* Profile/MIDP-2* UCWEB/2.0 (*) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/* Mobile*",
           "engine": "U2",
           "device": "Nokia 311",
           "platforms": [
@@ -1290,7 +1290,7 @@
           ]
         },
         {
-          "match": "Nokia110\/* Profile\/MIDP-2* UCWEB\/2.0 (*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/* Mobile*",
+          "match": "Nokia110/* Profile/MIDP-2* UCWEB/2.0 (*) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/* Mobile*",
           "engine": "U2",
           "device": "Nokia 110",
           "platforms": [
@@ -1298,7 +1298,7 @@
           ]
         },
         {
-          "match": "Nokia210\/* Profile\/MIDP-2* UCWEB\/2.0 (*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/* Mobile*",
+          "match": "Nokia210/* Profile/MIDP-2* UCWEB/2.0 (*) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/* Mobile*",
           "engine": "U2",
           "device": "Nokia 210",
           "platforms": [
@@ -1306,7 +1306,7 @@
           ]
         },
         {
-          "match": "Nokia200\/* Profile\/MIDP-2* UCWEB\/2.0 (*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/* Mobile*",
+          "match": "Nokia200/* Profile/MIDP-2* UCWEB/2.0 (*) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/* Mobile*",
           "engine": "U2",
           "device": "Nokia 200",
           "platforms": [
@@ -1314,7 +1314,7 @@
           ]
         },
         {
-          "match": "Nokia205\/* Profile\/MIDP-2* UCWEB\/2.0 (*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/* Mobile*",
+          "match": "Nokia205/* Profile/MIDP-2* UCWEB/2.0 (*) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/* Mobile*",
           "engine": "U2",
           "device": "Nokia 205",
           "platforms": [
@@ -1322,7 +1322,7 @@
           ]
         },
         {
-          "match": "Nokia206\/* Profile\/MIDP-2* UCWEB\/2.0 (*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/* Mobile*",
+          "match": "Nokia206/* Profile/MIDP-2* UCWEB/2.0 (*) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/* Mobile*",
           "engine": "U2",
           "device": "Nokia 206",
           "platforms": [
@@ -1330,7 +1330,7 @@
           ]
         },
         {
-          "match": "NokiaX2-02\/* Profile\/MIDP-2* UCWEB\/2.0 (*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/* Mobile*",
+          "match": "NokiaX2-02/* Profile/MIDP-2* UCWEB/2.0 (*) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/* Mobile*",
           "engine": "U2",
           "device": "Nokia X2-02",
           "platforms": [
@@ -1338,7 +1338,7 @@
           ]
         },
         {
-          "match": "NokiaX2-01\/* Profile\/MIDP-2* UCWEB\/2.0 (*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/* Mobile*",
+          "match": "NokiaX2-01/* Profile/MIDP-2* UCWEB/2.0 (*) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/* Mobile*",
           "engine": "U2",
           "device": "Nokia X2-01",
           "platforms": [
@@ -1346,7 +1346,7 @@
           ]
         },
         {
-          "match": "NokiaX3-02\/* Profile\/MIDP-2* UCWEB\/2.0 (*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/* Mobile*",
+          "match": "NokiaX3-02/* Profile/MIDP-2* UCWEB/2.0 (*) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/* Mobile*",
           "engine": "U2",
           "device": "Nokia X3-02",
           "platforms": [
@@ -1354,7 +1354,7 @@
           ]
         },
         {
-          "match": "NokiaC2-03\/* Profile\/MIDP-2* UCWEB\/2.0 (*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/* Mobile*",
+          "match": "NokiaC2-03/* Profile/MIDP-2* UCWEB/2.0 (*) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/* Mobile*",
           "engine": "U2",
           "device": "Nokia C2-03",
           "platforms": [
@@ -1362,14 +1362,14 @@
           ]
         },
         {
-          "match": "dv(GT-S6102);pr(UCBrowser\/#MAJORVER#.#MINORVER#*);ov(Android 2.3.6)*",
+          "match": "dv(GT-S6102);pr(UCBrowser/#MAJORVER#.#MINORVER#*);ov(Android 2.3.6)*",
           "device": "Samsung GT-S6102",
           "platforms": [
             "Android_2_3"
           ]
         },
         {
-          "match": "dv(*);pr(UCBrowser\/#MAJORVER#.#MINORVER#*);ov(Android*",
+          "match": "dv(*);pr(UCBrowser/#MAJORVER#.#MINORVER#*);ov(Android*",
           "platforms": [
             "Android"
           ]
@@ -1397,7 +1397,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#; Desktop) AppleWebKit\/* (KHTML* like Gecko) UCBrowser\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#; Desktop) AppleWebKit/* (KHTML* like Gecko) UCBrowser/#MAJORVER#.#MINORVER#*",
           "engine": "WebKit",
           "platforms": [
             "Win10_x64", "Win10_64", "Win10_32", "Win10_x64_B", "Win10_64_B", "Win10_32_B",

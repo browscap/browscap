@@ -28,7 +28,7 @@
       },
       "children": [
         {
-          "match": "UCWEB\/*(#PLATFORM##DEVICE#*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "match": "UCWEB/*(#PLATFORM##DEVICE#*) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
           "devices": {
             "NOKIA; RM-914": "Nokia Lumia 520 RM-914",
             "NOKIA; RM-974": "Nokia Lumia 635 RM-974",
@@ -42,14 +42,14 @@
           ]
         },
         {
-          "match": "UCWEB\/*(#PLATFORM#NOKIA; RM-1045*) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "match": "UCWEB/*(#PLATFORM#NOKIA; RM-1045*) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
           "device": "Nokia Lumia 930 RM-1045",
           "platforms": [
             "WinPhone10_B", "WinPhone8.1_B"
           ]
         },
         {
-          "match": "UCWEB\/*(#PLATFORM#) U2\/* UCBrowser\/#MAJORVER#.#MINORVER#* U2\/*",
+          "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
           "platforms": [
             "WinPhone8.1_B"
           ]
