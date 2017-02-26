@@ -16,7 +16,7 @@
       },
       "children": [
         {
-          "match": "GarlikCrawler\/1.1*",
+          "match": "GarlikCrawler/1.1*",
           "properties": {
             "Version": "1.1",
             "MajorVer": "1",
@@ -24,7 +24,7 @@
           }
         },
         {
-          "match": "GarlikCrawler\/1.2*",
+          "match": "GarlikCrawler/1.2*",
           "properties": {
             "Version": "1.2",
             "MajorVer": "1",
@@ -32,7 +32,7 @@
           }
         },
         {
-          "match": "GarlikCrawler\/*"
+          "match": "GarlikCrawler/*"
         }
       ]
     }

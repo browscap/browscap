@@ -26,13 +26,13 @@
       },
       "children": [
         {
-          "match": "browser\/* CFNetwork\/*",
+          "match": "browser/* CFNetwork/*",
           "platforms": [
             "Darwin"
           ]
         },
         {
-          "match": "browseripad\/* CFNetwork\/*",
+          "match": "browseripad/* CFNetwork/*",
           "device": "iPad",
           "platforms": [
             "Darwin"

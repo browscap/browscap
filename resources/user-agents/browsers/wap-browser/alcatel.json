@@ -20,7 +20,7 @@
       },
       "children": [
         {
-          "match": "Alcatel-BH4\/1.0",
+          "match": "Alcatel-BH4/1.0",
           "device": "Alcatel BH4"
         }
       ]

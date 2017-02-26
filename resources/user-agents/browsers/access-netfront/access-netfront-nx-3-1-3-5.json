@@ -27,7 +27,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (Nintendo WiiU) AppleWebKit\/* (KHTML* like Gecko) NX\/#MAJORVER#.#MINORVER#* NintendoBrowser\/*",
+          "match": "Mozilla/5.0 (Nintendo WiiU) AppleWebKit/* (*khtml*like*gecko*) NX/#MAJORVER#.#MINORVER#* NintendoBrowser/*",
           "device": "Nintendo WiiU"
         }
       ]

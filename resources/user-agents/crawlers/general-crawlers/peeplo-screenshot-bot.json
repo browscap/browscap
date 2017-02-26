@@ -16,7 +16,7 @@
       },
       "children": [
         {
-          "match": "Peeplo Screenshot Bot\/0.20*",
+          "match": "Peeplo Screenshot Bot/0.20*",
           "properties": {
             "Version": "0.20",
             "MajorVer": "0",
@@ -24,7 +24,7 @@
           }
         },
         {
-          "match": "Peeplo Screenshot Bot\/*"
+          "match": "Peeplo Screenshot Bot/*"
         }
       ]
     }

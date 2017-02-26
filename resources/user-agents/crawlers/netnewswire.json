@@ -22,7 +22,7 @@
       },
       "children": [
         {
-          "match": "NetNewsWire\/3.3*",
+          "match": "NetNewsWire/3.3*",
           "properties": {
             "Version": "3.3",
             "MajorVer": "3",
@@ -30,7 +30,7 @@
           }
         },
         {
-          "match": "NetNewsWire\/3.2*",
+          "match": "NetNewsWire/3.2*",
           "properties": {
             "Version": "3.2",
             "MajorVer": "3",
@@ -38,7 +38,7 @@
           }
         },
         {
-          "match": "NetNewsWire\/3.1*",
+          "match": "NetNewsWire/3.1*",
           "properties": {
             "Version": "3.1",
             "MajorVer": "3",
@@ -46,13 +46,13 @@
           }
         },
         {
-          "match": "NetNewsWire*\/*",
+          "match": "NetNewsWire*/*",
           "platforms": [
             "OSX"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) NetNewsWire\/2.0*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) NetNewsWire/2.0*",
           "properties": {
             "Version": "2.0",
             "MajorVer": "2",
@@ -63,7 +63,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) NetNewsWire\/2.1*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) NetNewsWire/2.1*",
           "properties": {
             "Version": "2.1",
             "MajorVer": "2",
@@ -74,7 +74,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) NetNewsWire\/3.0*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) NetNewsWire/3.0*",
           "properties": {
             "Version": "3.0",
             "MajorVer": "3",
@@ -85,7 +85,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) NetNewsWire\/3.1*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) NetNewsWire/3.1*",
           "properties": {
             "Version": "3.1",
             "MajorVer": "3",
@@ -96,7 +96,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) NetNewsWire\/3.2*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) NetNewsWire/3.2*",
           "properties": {
             "Version": "3.2",
             "MajorVer": "3",
@@ -107,7 +107,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) NetNewsWire\/3.3*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) NetNewsWire/3.3*",
           "properties": {
             "Version": "3.3",
             "MajorVer": "3",
@@ -118,7 +118,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) *NetNewsWire\/4.0*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) *NetNewsWire/4.0*",
           "properties": {
             "Version": "4.0",
             "MajorVer": "4",
@@ -129,7 +129,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) *NetNewsWire*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) *NetNewsWire*",
           "platforms": [
             "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10", "OSX_10_11", "OSX"
           ]

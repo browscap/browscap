@@ -27,14 +27,14 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko)*Iron\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*)*Iron/#MAJORVER#.*Safari/*",
           "device": "Linux Desktop",
           "platforms": [
             "ChromeOS", "Linux_64", "Linux_64_amd", "Linux_32", "Linux"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko)*Iron\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*)*Iron/#MAJORVER#.*Safari/*",
           "device": "Windows Desktop",
           "platforms": [
             "NT4", "Win2000", "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32", "Vista_64", "Vista_32",
@@ -42,7 +42,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko)*Iron\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*)*Iron/#MAJORVER#.*Safari/*",
           "device": "Macintosh",
           "platforms": [
             "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
@@ -50,14 +50,14 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko)*Iron\/#MAJORVER#.*Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*)*Iron/#MAJORVER#.*Chrome/#MAJORVER#.*Safari/*",
           "device": "Linux Desktop",
           "platforms": [
             "ChromeOS", "Linux_64", "Linux_64_amd", "Linux_32", "Linux"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko)*Iron\/#MAJORVER#.*Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*)*Iron/#MAJORVER#.*Chrome/#MAJORVER#.*Safari/*",
           "device": "Windows Desktop",
           "platforms": [
             "NT4", "Win2000", "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32", "Vista_64", "Vista_32",
@@ -65,7 +65,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko)*Iron\/#MAJORVER#.*Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*)*Iron/#MAJORVER#.*Chrome/#MAJORVER#.*Safari/*",
           "device": "Macintosh",
           "platforms": [
             "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
@@ -73,14 +73,14 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko)*Chrome\/#MAJORVER#.*Iron\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*)*Chrome/#MAJORVER#.*Iron/#MAJORVER#.*Safari/*",
           "device": "Linux Desktop",
           "platforms": [
             "ChromeOS", "Linux_64", "Linux_64_amd", "Linux_32", "Linux"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko)*Chrome\/#MAJORVER#.*Iron\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*)*Chrome/#MAJORVER#.*Iron/#MAJORVER#.*Safari/*",
           "device": "Windows Desktop",
           "platforms": [
             "NT4", "Win2000", "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32", "Vista_64", "Vista_32",
@@ -88,7 +88,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko)*Chrome\/#MAJORVER#.*Iron\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*)*Chrome/#MAJORVER#.*Iron/#MAJORVER#.*Safari/*",
           "device": "Macintosh",
           "platforms": [
             "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
@@ -96,14 +96,14 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko)*Chrome\/#MAJORVER#.*Iron Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*)*Chrome/#MAJORVER#.*Iron Safari/*",
           "device": "Linux Desktop",
           "platforms": [
             "ChromeOS", "Linux_64", "Linux_64_amd", "Linux_32", "Linux"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko)*Chrome\/#MAJORVER#.*Iron Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*)*Chrome/#MAJORVER#.*Iron Safari/*",
           "device": "Windows Desktop",
           "platforms": [
             "NT4", "Win2000", "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32", "Vista_64", "Vista_32",
@@ -111,7 +111,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko)*Chrome\/#MAJORVER#.*Iron Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*)*Chrome/#MAJORVER#.*Iron Safari/*",
           "device": "Macintosh",
           "platforms": [
             "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",

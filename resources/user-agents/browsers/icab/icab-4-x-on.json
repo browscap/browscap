@@ -27,13 +27,13 @@
       },
       "children": [
         {
-          "match": "iCab\/#MAJORVER#.#MINORVER#* (#PLATFORM#)",
+          "match": "iCab/#MAJORVER#.#MINORVER#* (#PLATFORM#)",
           "platforms": [
             "Mac68K", "MacPPC_3", "OSX"
           ]
         },
         {
-          "match": "iCab\/#MAJORVER#.#MINORVER#* (#PLATFORM#)",
+          "match": "iCab/#MAJORVER#.#MINORVER#* (#PLATFORM#)",
           "device": "Windows Desktop",
           "platforms": [
             "Win2000", "WinXPa_x64_2", "WinXPa_32", "WinXPb_x64_2", "WinXPb_32",
@@ -42,13 +42,13 @@
           ]
         },
         {
-          "match": "Mozilla\/* (compatible; iCab #MAJORVER#.#MINORVER#*;#PLATFORM#)",
+          "match": "Mozilla/* (compatible; iCab #MAJORVER#.#MINORVER#*;#PLATFORM#)",
           "platforms": [
             "Mac68K", "MacPPC_3", "OSX"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) iCab\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) iCab/#MAJORVER#.#MINORVER#*Safari/*",
           "platforms": [
             "OSX"
           ]

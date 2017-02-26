@@ -28,7 +28,7 @@
       },
       "children": [
         {
-          "match": "#DEVICE# Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "#DEVICE# Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari/*",
           "devices": {
             "HTC?Dream": "HTC Dream",
             "HTC_Magic": "HTC Dream"
@@ -38,7 +38,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM##DEVICE# Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) AppleWebKit/* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari/*",
           "devices": {
             "GT-I5700*": "Samsung GT-I5700",
             "Galaxy": "Samsung Galaxy",
@@ -58,14 +58,14 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#desirec) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#desirec) AppleWebKit/* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari/*",
           "device": "HTC Desire C",
           "platforms": [
             "Android_1_5"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM##DEVICE# Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) AppleWebKit/* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari/*",
           "devices": {
             "Archos5": "Archos 5",
             "E10i": "SonyEricsson E10i",
@@ -88,13 +88,13 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/*(*KHTML* like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#)*AppleWebKit/*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari/*",
           "platforms": [
             "Android_1_5", "Android_1_6", "Android_2_0", "Android_2_1", "Android_2_2", "Android_2_3", "Android"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) Version/*Safari/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "Android_1_5", "Android_1_6"
           ]

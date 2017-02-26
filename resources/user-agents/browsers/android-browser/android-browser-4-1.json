@@ -28,7 +28,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM##DEVICE# Build\/*)*AppleWebKit\/*(*KHTML,*LIKE Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*AppleWebKit/*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
             "Micromax A27": "Micromax A27",
             "Micromax A35": "Micromax A35",
@@ -39,14 +39,14 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#sprd-B51+* Build\/*)*AppleWebKit*(*KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM#sprd-B51+* Build/*)*AppleWebKit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari*",
           "device": "sprd B51+",
           "platforms": [
             "Android_2_3"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM##DEVICE# Build\/*)*AppleWebKit\/*(*khtml,*LIKE Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*AppleWebKit/*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
             "ALCATEL ONE TOUCH 4030D": "Alcatel OT-4030D",
             "GT-I9100": "GT-I9100"
@@ -56,7 +56,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM##DEVICE# Build\/*)*AppleWebKit\/*(*KHTML,*like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*AppleWebKit/*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
             "LG-D805": "LG D805",
             "HTC_One_X": "HTC PJ83100"
@@ -66,7 +66,7 @@
           ]
         },
         {
-          "match": "*Mozilla\/5.0 (#PLATFORM#INM8002KP Build\/*) AppleWebKit\/* (KHTML* like Gecko) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "*Mozilla/5.0 (#PLATFORM#INM8002KP Build/*) AppleWebKit/* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari*",
           "device": "Intenso INM8002KP",
           "platforms": [
             "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
@@ -76,35 +76,35 @@
           ]
         },
         {
-          "match": "*Mozilla\/5.0 (*GT-I9100#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "*Mozilla/5.0 (*GT-I9100#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari*",
           "device": "GT-I9100",
           "platforms": [
             "Android_B_2_3"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#LG-D802* Build\/*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM#LG-D802* Build/*) AppleWebKit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari*",
           "device": "LG D802",
           "platforms": [
             "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Lenovo B8000-F\/*) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM#Lenovo B8000-F/*) AppleWebKit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari*",
           "device": "Lenovo B8000-F",
           "platforms": [
             "Android_4_2"
           ]
         },
         {
-          "match": "Lenovo-A388t#PLATFORM# Release* Browser\/AppleWebkit* Mobile Safari*",
+          "match": "Lenovo-A388t#PLATFORM# Release* Browser/AppleWebkit* Mobile Safari*",
           "device": "Lenovo A388T",
           "platforms": [
             "Android_4_1"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM# Android\/* Release\/* Browser\/AppleWebKit* Build\/*) AppleWebKit* (KHTML* like Gecko) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM# Android/* Release/* Browser/AppleWebKit* Build/*) AppleWebKit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari*",
           "platforms": [
             "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
             "Android_2_0", "Android_2_1", "Android_2_2", "Android_2_3", "Android_B_2_3",
@@ -113,35 +113,35 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#sprd-B51+* Android\/* Release\/* Browser\/AppleWebKit* Build\/*) AppleWebKit* (KHTML* like Gecko) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM#sprd-B51+* Android/* Release/* Browser/AppleWebKit* Build/*) AppleWebKit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari*",
           "device": "sprd B51+",
           "platforms": [
             "Android_2_3"
           ]
         },
         {
-          "match": "Mastone_G9_TD\/* Release\/* Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/*(*KHTML* like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "Mastone_G9_TD/* Release/* Mozilla/5.0 (#PLATFORM#)*AppleWebKit/*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari*",
           "device": "Mastone G9",
           "platforms": [
             "Android_2_3"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#B1-A71 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM#B1-A71 Build/*) AppleWebKit/* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari*",
           "device": "Acer B1-A71",
           "platforms": [
             "Android_4_0", "Android_4_1"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#B1-710 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM#B1-710 Build/*) AppleWebKit/* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari*",
           "device": "Acer B1-710",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM##DEVICE# Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) AppleWebKit/* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
             "ALCATEL ONE TOUCH 5020D": "Alcatel OT-5020D",
             "Vodafone 975N": "Alcatel 975N",
@@ -154,21 +154,21 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#B1-711 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM#B1-711 Build/*) AppleWebKit/* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari*",
           "device": "Acer B1-711",
           "platforms": [
             "Android_4_1", "Android_4_2"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#C6603 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*)",
+          "match": "Mozilla/5.0 (#PLATFORM#C6603 Build/*) AppleWebKit/* (*khtml*like*gecko*)",
           "device": "Sony C6603",
           "platforms": [
             "Android_4_1"
           ]
         },
         {
-          "match": "#DEVICE#\/1.0 Android\/#MAJORVER#.#MINORVER# release\/2013 Browser\/WAP2.0 Profile\/MIDP-2.0 Configuration\/CLDC-1.1*",
+          "match": "#DEVICE#/1.0 Android/#MAJORVER#.#MINORVER# release/2013 Browser/WAP2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1*",
           "devices": {
             "HTC7088_TD": "HTC 7088",
             "HTC802t_TD": "HTC 802T"
@@ -178,25 +178,25 @@
           ]
         },
         {
-          "match": "*Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "*Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari*",
           "platforms": [
             "Android_4_1", "Android"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/*(*KHTML* like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM#)*AppleWebKit/*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari*",
           "platforms": [
             "Android_4_1", "Android"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari*",
           "platforms": [
             "Android_4_1", "Android"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (*Linux*) AppleWebKit\/* (KHTML* like Gecko) *Version\/#MAJORVER#.#MINORVER#* Safari\/*",
+          "match": "Mozilla/5.0 (*Linux*) AppleWebKit/* (*khtml*like*gecko*) *Version/#MAJORVER#.#MINORVER#* Safari/*",
           "properties": {
             "Browser_Modus": "Desktop Mode"
           },

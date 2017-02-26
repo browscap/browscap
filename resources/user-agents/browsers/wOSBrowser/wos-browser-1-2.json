@@ -1,18 +1,18 @@
 {
-  "division": "WebKit\/webOS #MAJORVER#.#MINORVER#",
+  "division": "WebKit/webOS #MAJORVER#.#MINORVER#",
   "versions": [2, 1],
   "sortIndex": 1940,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "WebKit\/webOS #MAJORVER#.#MINORVER#",
+      "userAgent": "WebKit/webOS #MAJORVER#.#MINORVER#",
       "engine": "WebKit",
       "device": "general Mobile Device",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "WebKit\/webOS #MAJORVER#.#MINORVER#",
-        "Browser": "WebKit\/webOS",
+        "Comment": "WebKit/webOS #MAJORVER#.#MINORVER#",
+        "Browser": "WebKit/webOS",
         "Browser_Type": "Browser",
         "Browser_Maker": "HP",
         "Version": "#MAJORVER#.#MINORVER#",
@@ -27,14 +27,14 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#* Safari\/* P160U\/1.0",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#* Safari/* P160U/1.0",
           "device": "HP P160U",
           "platforms": [
             "webOS_21", "webOS"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#* Safari\/* Pre\/3*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#* Safari/* Pre/3*",
           "device": "HP Pre3",
           "properties": {
             "CssVersion": "2"
@@ -44,7 +44,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#* Safari\/* Pre\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#* Safari/* Pre/*",
           "device": "Palm Pre",
           "properties": {
             "CssVersion": "2"
@@ -54,91 +54,91 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#* Safari\/* Desktop\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#* Safari/* Desktop/*",
           "device": "HP Pre",
           "platforms": [
             "webOS_13"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#* Safari\/* Pixi\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#* Safari/* Pixi/*",
           "device": "Palm Pixi",
           "platforms": [
             "webOS_10", "webOS_11", "webOS_12", "webOS_13", "webOS_14", "webOS_20", "webOS_21", "webOS"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#* Safari/*",
           "device": "general Mobile Phone",
           "platforms": [
             "webOS_10", "webOS_11", "webOS_12", "webOS_13", "webOS_14", "webOS_20", "webOS_21", "webOS_22", "webOS"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) webOSBrowser\/#MAJORVER#.#MINORVER#* Safari\/* Pre\/3*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) webOSBrowser/#MAJORVER#.#MINORVER#* Safari/* Pre/3*",
           "device": "HP Pre3",
           "platforms": [
             "webOS_22"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) webOSBrowser\/#MAJORVER#.#MINORVER#* Safari\/* Pre\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) webOSBrowser/#MAJORVER#.#MINORVER#* Safari/* Pre/*",
           "device": "HP Pre",
           "platforms": [
             "webOS_22"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) webOSBrowser\/#MAJORVER#.#MINORVER#* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) webOSBrowser/#MAJORVER#.#MINORVER#* Safari/*",
           "device": "general Mobile Phone",
           "platforms": [
             "webOS_22", "webOS"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (iPhone; U*)(#PLATFORM#AppleWebKit\/* Version\/#MAJORVER#.#MINORVER# Safari\/* Pixi\/*",
+          "match": "Mozilla/5.0 (iPhone; U*)(#PLATFORM#AppleWebKit/* Version/#MAJORVER#.#MINORVER# Safari/* Pixi/*",
           "device": "HP Pixi",
           "platforms": [
             "webOS_10", "webOS_13", "webOS"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (iPhone; U*)(#PLATFORM#AppleWebKit\/* Version\/#MAJORVER#.#MINORVER# Safari\/* Pre\/3*",
+          "match": "Mozilla/5.0 (iPhone; U*)(#PLATFORM#AppleWebKit/* Version/#MAJORVER#.#MINORVER# Safari/* Pre/3*",
           "device": "HP Pre3",
           "platforms": [
             "webOS_10", "webOS_13", "webOS"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (iPhone; U*)(#PLATFORM#AppleWebKit\/* Version\/#MAJORVER#.#MINORVER# Safari\/* Pre\/*",
+          "match": "Mozilla/5.0 (iPhone; U*)(#PLATFORM#AppleWebKit/* Version/#MAJORVER#.#MINORVER# Safari/* Pre/*",
           "device": "Palm Pre",
           "platforms": [
             "webOS_10", "webOS_13", "webOS"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (iPhone; U*)(#PLATFORM#AppleWebKit\/* Version\/#MAJORVER#.#MINORVER# Safari\/*",
+          "match": "Mozilla/5.0 (iPhone; U*)(#PLATFORM#AppleWebKit/* Version/#MAJORVER#.#MINORVER# Safari/*",
           "device": "general Mobile Phone",
           "platforms": [
             "webOS_10", "webOS_13", "webOS"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#)(iPhone; U*AppleWebKit\/* Version\/#MAJORVER#.#MINORVER# Safari\/* Pre\/3*",
+          "match": "Mozilla/5.0 (#PLATFORM#)(iPhone; U*AppleWebKit/* Version/#MAJORVER#.#MINORVER# Safari/* Pre/3*",
           "device": "HP Pre3",
           "platforms": [
             "webOS_14"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#)(iPhone; U*AppleWebKit\/* Version\/#MAJORVER#.#MINORVER# Safari\/* Pre\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#)(iPhone; U*AppleWebKit/* Version/#MAJORVER#.#MINORVER# Safari/* Pre/*",
           "device": "HP Pre",
           "platforms": [
             "webOS_14"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#)(iPhone; U*AppleWebKit\/* Version\/#MAJORVER#.#MINORVER# Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#)(iPhone; U*AppleWebKit/* Version/#MAJORVER#.#MINORVER# Safari/*",
           "device": "general Mobile Phone",
           "platforms": [
             "webOS_14", "webOS"

@@ -15,14 +15,14 @@
       },
       "children": [
         {
-          "match": "NSO_Debugger_User\/2.0*",
+          "match": "NSO_Debugger_User/2.0*",
           "properties": {
             "Version": "2.0",
             "MajorVer": "2"
           }
         },
         {
-          "match": "NSO_Debugger_User\/*"
+          "match": "NSO_Debugger_User/*"
         }
       ]
     }

@@ -20,7 +20,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/4.0 (compatible; MSIE 8.0*; #PLATFORM#Trident\/4.0*360SE*",
+          "match": "Mozilla/4.0 (compatible; MSIE 8.0*; #PLATFORM#Trident/4.0*360SE*",
           "device": "Windows Desktop",
           "engine": "Trident_4",
           "platforms": [
@@ -33,7 +33,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible; MSIE 9.0*; #PLATFORM#Trident\/5.0*360SE*",
+          "match": "Mozilla/5.0 (compatible; MSIE 9.0*; #PLATFORM#Trident/5.0*360SE*",
           "device": "Windows Desktop",
           "engine": "Trident_5",
           "platforms": [
@@ -44,7 +44,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible; MSIE 10.0*; #PLATFORM#Trident\/6.0*360SE*",
+          "match": "Mozilla/5.0 (compatible; MSIE 10.0*; #PLATFORM#Trident/6.0*360SE*",
           "device": "Windows Desktop",
           "engine": "Trident_6",
           "platforms": [
@@ -56,7 +56,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible; MSIE 11.0*; #PLATFORM#Trident\/7.0*360SE*",
+          "match": "Mozilla/5.0 (compatible; MSIE 11.0*; #PLATFORM#Trident/7.0*360SE*",
           "device": "Windows Desktop",
           "engine": "Trident_7",
           "platforms": [
@@ -67,7 +67,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Chrome\/*Safari\/* QIHU 360SE",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) Chrome/*Safari/* QIHU 360SE",
           "device": "Windows Desktop",
           "engine": "WebKit",
           "platforms": [

@@ -17,13 +17,13 @@
       },
       "children": [
         {
-          "match": "Mozilla\/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Webaroo\/*)",
+          "match": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Webaroo/*)",
           "platforms": [
             "Vista_32"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (Windows; U; Windows *; *; rv:*) Gecko* Firefox\/* webaroo\/*"
+          "match": "Mozilla/5.0 (Windows; U; Windows *; *; rv:*) Gecko* Firefox/* webaroo/*"
         }
       ]
     }

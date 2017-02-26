@@ -18,7 +18,7 @@
           "match": "Player FM*"
         },
         {
-          "match": "Player\/LG Player 1.0 for #PLATFORM# (stagefright alternative*Player FM*",
+          "match": "Player/LG Player 1.0 for #PLATFORM# (stagefright alternative*Player FM*",
           "device": "general Mobile Phone (Touch)",
           "engine": "WebKit",
           "platforms": [
@@ -26,7 +26,7 @@
           ]
         },
         {
-          "match": "Player\/LG Player * for #PLATFORM# (stagefright alternative*Player FM*",
+          "match": "Player/LG Player * for #PLATFORM# (stagefright alternative*Player FM*",
           "device": "general Mobile Phone (Touch)",
           "engine": "WebKit",
           "platforms": [
@@ -34,7 +34,7 @@
           ]
         },
         {
-          "match": "AppleCoreMedia\/1.0* (iPod#PLATFORM#), Player FM*",
+          "match": "AppleCoreMedia/1.0* (iPod#PLATFORM#), Player FM*",
           "device": "iPod Touch",
           "engine": "WebKit",
           "platforms": [
@@ -43,7 +43,7 @@
           ]
         },
         {
-          "match": "AppleCoreMedia\/1.0* (iPhone#PLATFORM#), Player FM*",
+          "match": "AppleCoreMedia/1.0* (iPhone#PLATFORM#), Player FM*",
           "device": "iPhone",
           "engine": "WebKit",
           "platforms": [
@@ -52,7 +52,7 @@
           ]
         },
         {
-          "match": "AppleCoreMedia\/1.0* (iPad#PLATFORM#), Player FM*",
+          "match": "AppleCoreMedia/1.0* (iPad#PLATFORM#), Player FM*",
           "device": "iPad",
           "engine": "WebKit",
           "platforms": [
@@ -61,7 +61,7 @@
           ]
         },
         {
-          "match": "AppleCoreMedia\/1.0* (#PLATFORM#), Player FM*",
+          "match": "AppleCoreMedia/1.0* (#PLATFORM#), Player FM*",
           "device": "general Mobile Device (Apple)",
           "engine": "WebKit",
           "platforms": [

@@ -27,7 +27,7 @@
           "match": "Googlebot v#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "Mozilla\/5.0*(iPhone#PLATFORM#)*AppleWebKit\/*(*KHTML* like Gecko*)*Version\/*Safari\/* (compatible; Googlebot\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0*(iPhone#PLATFORM#)*AppleWebKit/*(*khtml*like*gecko*)*Version/*Safari/* (compatible; Googlebot/#MAJORVER#.#MINORVER#*",
           "device": "iPhone",
           "engine": "WebKit",
           "platforms": [
@@ -35,7 +35,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0*(#PLATFORM#)*AppleWebKit\/*(*KHTML* like Gecko*)*Version\/*Safari\/* (compatible; Googlebot\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0*(#PLATFORM#)*AppleWebKit/*(*khtml*like*gecko*)*Version/*Safari/* (compatible; Googlebot/#MAJORVER#.#MINORVER#*",
           "device": "general Mobile Device (Apple)",
           "engine": "WebKit",
           "platforms": [
@@ -43,7 +43,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0*(#PLATFORM#Nexus 5X Build\/*)*AppleWebKit\/*(*KHTML* like Gecko*) Chrome\/* Safari\/* (compatible; Googlebot\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0*(#PLATFORM#Nexus 5X Build/*)*AppleWebKit/*(*khtml*like*gecko*) Chrome/* Safari/* (compatible; Googlebot/#MAJORVER#.#MINORVER#*",
           "device": "LG Nexus 5X",
           "engine": "Blink",
           "platforms": [
@@ -51,7 +51,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0*(#PLATFORM#)*AppleWebKit\/*(*KHTML* like Gecko*) Chrome\/* Safari\/* (compatible; Googlebot\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0*(#PLATFORM#)*AppleWebKit/*(*khtml*like*gecko*) Chrome/* Safari/* (compatible; Googlebot/#MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone",
           "engine": "Blink",
           "platforms": [
@@ -59,10 +59,10 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible; Googlebot\/#MAJORVER#.#MINORVER#*"
+          "match": "Mozilla/5.0 (compatible; Googlebot/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "Mozilla\/5.0 (Windows; U*Gecko* Googlebot?#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (Windows; U*Gecko* Googlebot?#MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
           "engine": "Gecko",
           "platforms": [
@@ -70,7 +70,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Googlebot?#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Googlebot?#MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
           "engine": "Gecko",
           "platforms": [
@@ -78,10 +78,10 @@
           ]
         },
         {
-          "match": "GoogleBot\/#MAJORVER#.#MINORVER#*"
+          "match": "GoogleBot/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "*Googlebot\/#MAJORVER#.#MINORVER#*"
+          "match": "*Googlebot/#MAJORVER#.#MINORVER#*"
         }
       ]
     }

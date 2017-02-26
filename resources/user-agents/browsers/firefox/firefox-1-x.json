@@ -27,14 +27,14 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Firefox\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/#MAJORVER#.#MINORVER#*",
           "device": "Linux Desktop",
           "platforms": [
             "Linux_64", "Linux_32", "Linux_PPC", "Linux"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Firefox\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/#MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
           "platforms": [
             "Win95", "Win98", "WinME", "NT4_B",
@@ -43,7 +43,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Firefox\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/#MAJORVER#.#MINORVER#*",
           "device": "Macintosh",
           "platforms": [
             "MacPPC",
@@ -53,21 +53,21 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Firefox\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/#MAJORVER#.#MINORVER#*",
           "device": "general Desktop",
           "platforms": [
             "FreeBSD", "DragonFlyBSD", "HPUX", "IRIX64", "OpenBSD", "SunOS", "Darwin", "OS2"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Firefox\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Firefox/#MAJORVER#.#MINORVER#*",
           "device": "Linux Desktop",
           "platforms": [
             "Linux_64", "Linux_32", "Linux_PPC", "Linux"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Firefox\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Firefox/#MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
           "platforms": [
             "Win95", "Win98", "WinME", "NT4_B",
@@ -76,7 +76,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Firefox\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Firefox/#MAJORVER#.#MINORVER#*",
           "device": "Macintosh",
           "platforms": [
             "MacPPC",
@@ -85,7 +85,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Firefox\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Firefox/#MAJORVER#.#MINORVER#*",
           "device": "general Desktop",
           "platforms": [
             "FreeBSD", "DragonFlyBSD", "HPUX", "IRIX64", "OpenBSD", "SunOS", "Darwin", "OS2"

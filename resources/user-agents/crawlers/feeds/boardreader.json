@@ -17,7 +17,7 @@
       },
       "children": [
         {
-          "match": "BoardReader Favicon Fetcher \/1.0*",
+          "match": "BoardReader Favicon Fetcher /1.0*",
           "properties": {
             "Browser": "BoardReader Favicon Fetcher",
             "isSyndicationReader": "false",
@@ -27,7 +27,7 @@
           }
         },
         {
-          "match": "BoardReader Favicon Fetcher \/*",
+          "match": "BoardReader Favicon Fetcher /*",
           "properties": {
             "Browser": "BoardReader Favicon Fetcher",
             "isSyndicationReader": "false"

@@ -32,14 +32,14 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*; Windows NT 6.0; Trident\/5.0; mobile version65)",
+          "match": "Mozilla/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*; Windows NT 6.0; Trident/5.0; mobile version65)",
           "device": "general Mobile Phone",
           "platforms": [
             "WinPhone65"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*; Windows NT 6.1; Trident\/5.0; XBLWP7; ZuneWP7)",
+          "match": "Mozilla/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*; Windows NT 6.1; Trident/5.0; XBLWP7; ZuneWP7)",
           "properties": {
             "Browser_Modus": "Desktop Mode"
           },
@@ -48,146 +48,146 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM# Trident\/5.0; IEMobile?#MAJORVER#.#MINORVER#; DELL; Venue Pro)",
+          "match": "Mozilla/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM# Trident/5.0; IEMobile?#MAJORVER#.#MINORVER#; DELL; Venue Pro)",
           "device": "Dell Venue Pro",
           "platforms": [
             "WinPhone75"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM# Trident\/5.0; IEMobile?#MAJORVER#.#MINORVER#; HTC; 7 Mozart T8698)",
+          "match": "Mozilla/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM# Trident/5.0; IEMobile?#MAJORVER#.#MINORVER#; HTC; 7 Mozart T8698)",
           "device": "HTC T8698",
           "platforms": [
             "WinPhone75"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM# Trident\/5.0; IEMobile?#MAJORVER#.#MINORVER#; HTC; 7 Mozart)",
+          "match": "Mozilla/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM# Trident/5.0; IEMobile?#MAJORVER#.#MINORVER#; HTC; 7 Mozart)",
           "device": "HTC T8698",
           "platforms": [
             "WinPhone75"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM# Trident\/5.0; IEMobile?#MAJORVER#.#MINORVER#; HTC; 7 Pro T7576)",
+          "match": "Mozilla/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM# Trident/5.0; IEMobile?#MAJORVER#.#MINORVER#; HTC; 7 Pro T7576)",
           "device": "HTC T7576",
           "platforms": [
             "WinPhone75"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM# Trident\/5.0; IEMobile?#MAJORVER#.#MINORVER#; HTC; 7 Trophy)",
+          "match": "Mozilla/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM# Trident/5.0; IEMobile?#MAJORVER#.#MINORVER#; HTC; 7 Trophy)",
           "device": "HTC Spark",
           "platforms": [
             "WinPhone75"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM# Trident\/5.0; IEMobile?#MAJORVER#.#MINORVER#; HTC; HD7 T9292)",
+          "match": "Mozilla/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM# Trident/5.0; IEMobile?#MAJORVER#.#MINORVER#; HTC; HD7 T9292)",
           "device": "HTC T9292",
           "platforms": [
             "WinPhone75"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM# Trident\/5.0; IEMobile?#MAJORVER#.#MINORVER#; HTC; Radar 4G)",
+          "match": "Mozilla/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM# Trident/5.0; IEMobile?#MAJORVER#.#MINORVER#; HTC; Radar 4G)",
           "device": "HTC Radar 4G",
           "platforms": [
             "WinPhone75"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM# Trident\/5.0; IEMobile?#MAJORVER#.#MINORVER#; HTC; Radar C110e*)",
+          "match": "Mozilla/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM# Trident/5.0; IEMobile?#MAJORVER#.#MINORVER#; HTC; Radar C110e*)",
           "device": "HTC Radar C110e",
           "platforms": [
             "WinPhone75"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM# Trident\/5.0; IEMobile?#MAJORVER#.#MINORVER#; HTC; Radar)",
+          "match": "Mozilla/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM# Trident/5.0; IEMobile?#MAJORVER#.#MINORVER#; HTC; Radar)",
           "device": "HTC Radar",
           "platforms": [
             "WinPhone75"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM# Trident\/5.0; IEMobile?#MAJORVER#.#MINORVER#; HTC; TITAN X310e)",
+          "match": "Mozilla/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM# Trident/5.0; IEMobile?#MAJORVER#.#MINORVER#; HTC; TITAN X310e)",
           "device": "HTC X310e",
           "platforms": [
             "WinPhone75"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM# Trident\/5.0; IEMobile?#MAJORVER#.#MINORVER#; LG; LG-E900)",
+          "match": "Mozilla/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM# Trident/5.0; IEMobile?#MAJORVER#.#MINORVER#; LG; LG-E900)",
           "device": "LG E900",
           "platforms": [
             "WinPhone75"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM# Trident\/5.0; IEMobile?#MAJORVER#.#MINORVER#; LG; LG-E906)",
+          "match": "Mozilla/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM# Trident/5.0; IEMobile?#MAJORVER#.#MINORVER#; LG; LG-E906)",
           "device": "LG E906",
           "platforms": [
             "WinPhone75"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM# Trident\/5.0; IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 510*)",
+          "match": "Mozilla/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM# Trident/5.0; IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 510*)",
           "device": "Nokia Lumia 510",
           "platforms": [
             "WinPhone75"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM# Trident\/5.0; IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 610*)",
+          "match": "Mozilla/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM# Trident/5.0; IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 610*)",
           "device": "Nokia Lumia 610",
           "platforms": [
             "WinPhone75"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM# Trident\/5.0; IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 710*)",
+          "match": "Mozilla/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM# Trident/5.0; IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 710*)",
           "device": "Nokia Lumia 710",
           "platforms": [
             "WinPhone75"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM# Trident\/5.0; IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 800*)",
+          "match": "Mozilla/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM# Trident/5.0; IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 800*)",
           "device": "Nokia Lumia 800",
           "platforms": [
             "WinPhone75"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM# Trident\/5.0; IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 900*)",
+          "match": "Mozilla/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM# Trident/5.0; IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 900*)",
           "device": "Nokia Lumia 900",
           "platforms": [
             "WinPhone75"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM# Trident\/5.0; IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 925*)",
+          "match": "Mozilla/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM# Trident/5.0; IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 925*)",
           "device": "Nokia Lumia 925",
           "platforms": [
             "WinPhone75"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM# Trident\/5.0; IEMobile?#MAJORVER#.#MINORVER#; SAMSUNG; OMNIA7)",
+          "match": "Mozilla/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM# Trident/5.0; IEMobile?#MAJORVER#.#MINORVER#; SAMSUNG; OMNIA7)",
           "device": "Samsung GT-I8700",
           "platforms": [
             "WinPhone75"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM# Trident\/5.0; IEMobile?#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM# Trident/5.0; IEMobile?#MAJORVER#.#MINORVER#*",
           "platforms": [
             "WinPhone75", "WinPhone"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible; MSIE #MAJORVER#.#MINORVER#*; #PLATFORM#Trident\/5.0; IEMobile?#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (compatible; MSIE #MAJORVER#.#MINORVER#*; #PLATFORM#Trident/5.0; IEMobile?#MAJORVER#.#MINORVER#*",
           "platforms": [
             "WinPhone75", "WinPhone"
           ]

@@ -28,13 +28,13 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (compatible; U; ABrowse #MAJORVER#.#MINORVER##PLATFORM#) AppleWebKit\/* (KHTML* like Gecko)*",
+          "match": "Mozilla/5.0 (compatible; U; ABrowse #MAJORVER#.#MINORVER##PLATFORM#) AppleWebKit/* (*khtml*like*gecko*)*",
           "platforms": [
             "Syllable"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible; ABrowse #MAJORVER#.#MINORVER##PLATFORM#",
+          "match": "Mozilla/5.0 (compatible; ABrowse #MAJORVER#.#MINORVER##PLATFORM#",
           "platforms": [
             "Syllable"
           ]

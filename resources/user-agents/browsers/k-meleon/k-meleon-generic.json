@@ -23,13 +23,13 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* K-Meleon*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* K-Meleon*",
           "platforms": [
             "Win95", "Win98", "NT4_B", "Win2000", "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32"
           ]
         },
         {
-          "match": "K-Meleon* (#PLATFORM#) Gecko* Mozilla\/5.0",
+          "match": "K-Meleon* (#PLATFORM#) Gecko* Mozilla/5.0",
           "platforms": [
             "WinXPa_32"
           ]

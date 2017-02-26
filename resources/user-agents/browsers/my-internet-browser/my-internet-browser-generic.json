@@ -23,13 +23,13 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Whistler* myibrow*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Whistler* myibrow*",
           "platforms": [
             "Win7_32"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* myibrow*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* myibrow*",
           "platforms": [
             "Win7_32"
           ]

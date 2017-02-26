@@ -26,67 +26,67 @@
       },
       "children": [
         {
-          "match": "BlackBerry8330\/#MAJORVER#.#MINORVER#*",
+          "match": "BlackBerry8330/#MAJORVER#.#MINORVER#*",
           "device": "Blackberry 8330"
         },
         {
-          "match": "BlackBerry8520\/#MAJORVER#.#MINORVER#*",
+          "match": "BlackBerry8520/#MAJORVER#.#MINORVER#*",
           "device": "Blackberry 8520"
         },
         {
-          "match": "BlackBerry8530\/#MAJORVER#.#MINORVER#*",
+          "match": "BlackBerry8530/#MAJORVER#.#MINORVER#*",
           "device": "Blackberry 8530"
         },
         {
-          "match": "BlackBerry8900\/#MAJORVER#.#MINORVER#*",
+          "match": "BlackBerry8900/#MAJORVER#.#MINORVER#*",
           "device": "Blackberry 8900"
         },
         {
-          "match": "BlackBerry8980\/#MAJORVER#.#MINORVER#*",
+          "match": "BlackBerry8980/#MAJORVER#.#MINORVER#*",
           "device": "Blackberry 8980"
         },
         {
-          "match": "BlackBerry9000\/#MAJORVER#.#MINORVER#*",
+          "match": "BlackBerry9000/#MAJORVER#.#MINORVER#*",
           "device": "Blackberry 9000"
         },
         {
-          "match": "BlackBerry9100\/#MAJORVER#.#MINORVER#*",
+          "match": "BlackBerry9100/#MAJORVER#.#MINORVER#*",
           "device": "Blackberry 9100"
         },
         {
-          "match": "BlackBerry9105\/#MAJORVER#.#MINORVER#*",
+          "match": "BlackBerry9105/#MAJORVER#.#MINORVER#*",
           "device": "Blackberry 9105"
         },
         {
-          "match": "BlackBerry9300\/#MAJORVER#.#MINORVER#*",
+          "match": "BlackBerry9300/#MAJORVER#.#MINORVER#*",
           "device": "Blackberry 9300"
         },
         {
-          "match": "BlackBerry9500\/#MAJORVER#.#MINORVER#*",
+          "match": "BlackBerry9500/#MAJORVER#.#MINORVER#*",
           "device": "Blackberry 9500"
         },
         {
-          "match": "BlackBerry9520\/#MAJORVER#.#MINORVER#*",
+          "match": "BlackBerry9520/#MAJORVER#.#MINORVER#*",
           "device": "Blackberry 9520"
         },
         {
-          "match": "BlackBerry9530\/#MAJORVER#.#MINORVER#*",
+          "match": "BlackBerry9530/#MAJORVER#.#MINORVER#*",
           "device": "Blackberry 9530"
         },
         {
-          "match": "BlackBerry9550\/#MAJORVER#.#MINORVER#*",
+          "match": "BlackBerry9550/#MAJORVER#.#MINORVER#*",
           "device": "Blackberry 9550"
         },
         {
-          "match": "BlackBerry9630\/#MAJORVER#.#MINORVER#*",
+          "match": "BlackBerry9630/#MAJORVER#.#MINORVER#*",
           "device": "Blackberry 9630"
         },
         {
-          "match": "BlackBerry9650\/#MAJORVER#.#MINORVER#*",
+          "match": "BlackBerry9650/#MAJORVER#.#MINORVER#*",
           "device": "Blackberry 9650"
         },
         {
-          "match": "BlackBerry9700\/#MAJORVER#.#MINORVER#*",
+          "match": "BlackBerry9700/#MAJORVER#.#MINORVER#*",
           "device": "Blackberry 9700"
         }
       ]

@@ -28,27 +28,27 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (*Jolla#PLATFORM#) Gecko* Firefox\/* SailfishBrowser\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (*Jolla#PLATFORM#) Gecko* Firefox/* SailfishBrowser/#MAJORVER#.#MINORVER#*",
           "device": "Jolla Phone",
           "platforms": [
             "SailfishOS"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Firefox\/* SailfishBrowser\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* SailfishBrowser/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "SailfishOS"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (*Jolla#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Mobile Safari\/*",
+          "match": "Mozilla/5.0 (*Jolla#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) Mobile Safari/*",
           "device": "Jolla Phone",
           "platforms": [
             "SailfishOS"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Mobile Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) Mobile Safari/*",
           "platforms": [
             "SailfishOS"
           ]

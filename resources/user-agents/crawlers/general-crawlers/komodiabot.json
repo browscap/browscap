@@ -16,7 +16,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) KomodiaBot\/1.0*",
+          "match": "Mozilla/5.0 (#PLATFORM#) KomodiaBot/1.0*",
           "device": "Windows Desktop",
           "properties": {
             "Version": "1.0",
@@ -28,7 +28,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) KomodiaBot\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) KomodiaBot/*",
           "device": "Windows Desktop",
           "platforms": [
             "Win7_x64", "Win7_32"

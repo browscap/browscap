@@ -25,7 +25,7 @@
       },
       "children": [
         {
-          "match": "ESATCOM-ES2100\/(2005.9.13)SW3.0\/WAP2.0 MIDP\/MIDP2.0 CLDC\/CLDC1.0"
+          "match": "ESATCOM-ES2100/(2005.9.13)SW3.0/WAP2.0 MIDP/MIDP2.0 CLDC/CLDC1.0"
         }
       ]
     }

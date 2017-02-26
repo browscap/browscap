@@ -24,16 +24,16 @@
           "match": "*(compatible; MSIE *.*; Windows CE; PPC; *)"
         },
         {
-          "match": "HTC-*\/* Mozilla\/* (compatible; MSIE *.*; Windows CE*)*"
+          "match": "HTC-*/* Mozilla/* (compatible; MSIE *.*; Windows CE*)*"
         },
         {
-          "match": "Mozilla\/* (compatible; MSPIE *.*; *Windows CE*)*"
+          "match": "Mozilla/* (compatible; MSPIE *.*; *Windows CE*)*"
         },
         {
-          "match": "T-Mobile* Mozilla\/* (compatible; MSIE *.*; Windows CE; *)"
+          "match": "T-Mobile* Mozilla/* (compatible; MSIE *.*; Windows CE; *)"
         },
         {
-          "match": "Vodafone* Mozilla\/* (compatible; MSIE *.*; Windows CE; *)*"
+          "match": "Vodafone* Mozilla/* (compatible; MSIE *.*; Windows CE; *)*"
         },
         {
           "match": "Windows CE (Pocket PC) - Version *.*"

@@ -20,44 +20,44 @@
           "match": "*Nutch*"
         },
         {
-          "match": "CazoodleBot\/*",
+          "match": "CazoodleBot/*",
           "properties": {
             "Browser": "CazoodleBot"
           }
         },
         {
-          "match": "LOOQ\/0.1*",
+          "match": "LOOQ/0.1*",
           "properties": {
             "Browser": "LOOQ"
           }
         },
         {
-          "match": "Nutch\/0.? (OpenX Spider)"
+          "match": "Nutch/0.? (OpenX Spider)"
         },
         {
-          "match": "linguatools-bot\/Nutch*",
+          "match": "linguatools-bot/Nutch*",
           "properties": {
             "Browser": "linguatoolsbot",
             "Browser_Maker": "www.linguatools.de"
           }
         },
         {
-          "match": "MaxPointCrawler\/Nutch*",
+          "match": "MaxPointCrawler/Nutch*",
           "properties": {
             "Browser": "MaxPointCrawler"
           }
         },
         {
-          "match": "MR Crawler\/Nutch*",
+          "match": "MR Crawler/Nutch*",
           "properties": {
             "Browser": "MR Crawler"
           }
         },
         {
-          "match": "My Nutch Spider\/Nutch*"
+          "match": "My Nutch Spider/Nutch*"
         },
         {
-          "match": "fetch\/Nutch*"
+          "match": "fetch/Nutch*"
         },
         {
           "match": "*Nutch?1.6*",
@@ -76,7 +76,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (*Android*Mobile*) Gecko* Firefox\/* commoncrawl.org\/research\/\/Nutch-1.7*",
+          "match": "Mozilla/5.0 (*Android*Mobile*) Gecko* Firefox/* commoncrawl.org/research//Nutch-1.7*",
           "properties": {
             "Version": "1.7",
             "MajorVer": "1",
@@ -87,19 +87,19 @@
           ]
         },
         {
-          "match": "Nutch\/* (OpenX Spider)",
+          "match": "Nutch/* (OpenX Spider)",
           "properties": {
             "Browser": "OpenX Spider"
           }
         },
         {
-          "match": "The Crawler\/Nutch*",
+          "match": "The Crawler/Nutch*",
           "properties": {
             "Browser": "The Crawler"
           }
         },
         {
-          "match": "Domnutch-Bot\/Nutch-1.0*",
+          "match": "Domnutch-Bot/Nutch-1.0*",
           "properties": {
             "Browser": "Domnutch Bot",
             "Browser_Maker": "nutch.de",
@@ -109,7 +109,7 @@
           }
         },
         {
-          "match": "DiscoverEd\/Nutch-1.7 (OER search crawler*",
+          "match": "DiscoverEd/Nutch-1.7 (OER search crawler*",
           "properties": {
             "Browser": "DiscoverEd",
             "Browser_Maker": "Creative Commons",

@@ -27,7 +27,7 @@
       },
       "children": [
         {
-          "match": "WhatsApp\/#MAJORVER#.#MINORVER#*"
+          "match": "WhatsApp/#MAJORVER#.#MINORVER#*"
         }
       ]
     }

@@ -15,7 +15,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (compatible; WebmasterCoffee\/0.7; +http:\/\/webmastercoffee.com\/about)",
+          "match": "Mozilla/5.0 (compatible; WebmasterCoffee/0.7; +http://webmastercoffee.com/about)",
           "properties": {
             "Version": "0.7",
             "MajorVer": "0",
@@ -23,7 +23,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; WebmasterCoffee\/*; +http:\/\/webmastercoffee.com\/about)"
+          "match": "Mozilla/5.0 (compatible; WebmasterCoffee/*; +http://webmastercoffee.com/about)"
         }
       ]
     }

@@ -26,7 +26,7 @@
       },
       "children": [
         {
-          "match": "fgBrowserPrivate\/3.2* CFNetwork\/*",
+          "match": "fgBrowserPrivate/3.2* CFNetwork/*",
           "properties": {
             "Version": "3.2",
             "MajorVer": "3",
@@ -37,7 +37,7 @@
           ]
         },
         {
-          "match": "fgBrowserPrivate\/4.* CFNetwork\/*",
+          "match": "fgBrowserPrivate/4.* CFNetwork/*",
           "properties": {
             "Version": "4.0",
             "MajorVer": "4",
@@ -48,13 +48,13 @@
           ]
         },
         {
-          "match": "fgBrowserPrivate* CFNetwork\/*",
+          "match": "fgBrowserPrivate* CFNetwork/*",
           "platforms": [
             "Darwin"
           ]
         },
         {
-          "match": "fgBrowser\/3.2* CFNetwork\/*",
+          "match": "fgBrowser/3.2* CFNetwork/*",
           "properties": {
             "Version": "3.2",
             "MajorVer": "3",
@@ -65,7 +65,7 @@
           ]
         },
         {
-          "match": "fgBrowser\/4.* CFNetwork\/*",
+          "match": "fgBrowser/4.* CFNetwork/*",
           "properties": {
             "Version": "4.0",
             "MajorVer": "4",
@@ -76,7 +76,7 @@
           ]
         },
         {
-          "match": "fgBrowser* CFNetwork\/*",
+          "match": "fgBrowser* CFNetwork/*",
           "platforms": [
             "Darwin"
           ]

@@ -26,14 +26,14 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#HbbTV*Dreambox*) AppleWebKit\/* QtWebkit\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#HbbTV*Dreambox*) AppleWebKit/* QtWebkit/#MAJORVER#.#MINORVER#*",
           "device": "Dream Property Dreambox",
           "platforms": [
             "ChromeOS", "Linux_64", "Linux_32", "Linux"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#HbbTV*) AppleWebKit\/* QtWebkit\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#HbbTV*) AppleWebKit/* QtWebkit/#MAJORVER#.#MINORVER#*",
           "device": "general TV Device",
           "platforms": [
             "ChromeOS", "Linux_64", "Linux_32", "Linux"

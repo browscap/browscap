@@ -31,14 +31,14 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Otter\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) Otter/#MAJORVER#.#MINORVER#*",
           "device": "Linux Desktop",
           "platforms": [
             "Linux_64", "Linux_32", "Linux"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Otter\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) Otter/#MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
           "platforms": [
             "WinXPa_32",
@@ -51,14 +51,14 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Otter\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) Otter/#MAJORVER#.#MINORVER#*",
           "device": "Macintosh",
           "platforms": [
             "OSX"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Otter\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) Otter/#MAJORVER#.#MINORVER#*",
           "device": "general Desktop",
           "platforms": [
             "Unix", "OS2"

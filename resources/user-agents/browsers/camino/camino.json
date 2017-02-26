@@ -28,31 +28,31 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) *Gecko* Camino\/#MAJORVER#.#MINORVER#* (like Firefox\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) *Gecko* Camino/#MAJORVER#.#MINORVER#* (like Firefox/*",
           "platforms": [
             "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
             "OSX"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) *Gecko* Firefox\/* Camino\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#) *Gecko* Firefox/* Camino/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
             "OSX"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) *Gecko* Camino\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#) *Gecko* Camino/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
             "OSX"
           ]
         },
         {
-          "match": "Mozilla\/5.0 Gecko* Camino\/#MAJORVER#.#MINORVER#*"
+          "match": "Mozilla/5.0 Gecko* Camino/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "Mozilla\/5.0 (*Max OS X*) *Gecko* Camino\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (*Max OS X*) *Gecko* Camino/#MAJORVER#.#MINORVER#*",
           "properties": {
             "isModified": "true"
           }

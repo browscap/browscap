@@ -24,10 +24,10 @@
       },
       "children": [
         {
-          "match": "DBTEL-M50\/1.0 *"
+          "match": "DBTEL-M50/1.0 *"
         },
         {
-          "match": "DBTEL\/2092_S Ares.Browser\/02.02"
+          "match": "DBTEL/2092_S Ares.Browser/02.02"
         }
       ]
     }

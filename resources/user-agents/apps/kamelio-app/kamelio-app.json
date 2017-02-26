@@ -28,14 +28,14 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#SCL24 Build\/*) AppleWebKit\/* (KHTML* like Gecko) Version\/#MAJORVER#.#MINORVER# Chrome\/*Safari\/* Kamelio *",
+          "match": "Mozilla/5.0 (#PLATFORM#SCL24 Build/*) AppleWebKit/* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER# Chrome/*Safari/* Kamelio *",
           "device": "Samsung SCL24",
           "platforms": [
             "Android_4_4"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Version\/#MAJORVER#.#MINORVER# Chrome\/*Safari\/* Kamelio *",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER# Chrome/*Safari/* Kamelio *",
           "platforms": [
             "Android_4_4", "Android_5_0", "Android"
           ]

@@ -20,27 +20,27 @@
       },
       "children": [
         {
-          "match": "DoCoMo\/2.0 P900i(c100;TB;W24H11) (compatible; ichiro\/mobile goo*",
+          "match": "DoCoMo/2.0 P900i(c100;TB;W24H11) (compatible; ichiro/mobile goo*",
           "device": "DoCoMo P900i"
         },
         {
-          "match": "DoCoMo\/2.0 P901i(c100;TB;W24H11) (compatible; ichiro\/mobile goo*",
+          "match": "DoCoMo/2.0 P901i(c100;TB;W24H11) (compatible; ichiro/mobile goo*",
           "device": "DoCoMo P901i"
         },
         {
-          "match": "KDDI-CA31 UP.Browser\/6.2* (compatible; ichiro\/mobile goo*",
+          "match": "KDDI-CA31 UP.Browser/6.2* (compatible; ichiro/mobile goo*",
           "device": "KDDI CA31"
         },
         {
-          "match": "KDDI-CA32 UP.Browser\/6.2* (compatible; ichiro\/mobile goo*",
+          "match": "KDDI-CA32 UP.Browser/6.2* (compatible; ichiro/mobile goo*",
           "device": "KDDI CA32"
         },
         {
-          "match": "Vodafone\/1.0\/V802SH\/SHJ002 Browser\/UP.Browser\/7.0* (compatible; ichiro\/mobile goo*",
+          "match": "Vodafone/1.0/V802SH/SHJ002 Browser/UP.Browser/7.0* (compatible; ichiro/mobile goo*",
           "device": "Vodafone V802SH"
         },
         {
-          "match": "* (compatible; ichiro\/mobile goo*"
+          "match": "* (compatible; ichiro/mobile goo*"
         }
       ]
     }

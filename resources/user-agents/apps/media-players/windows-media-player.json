@@ -21,7 +21,7 @@
       },
       "children": [
         {
-          "match": "NSPlayer\/12.*",
+          "match": "NSPlayer/12.*",
           "properties": {
             "Version": "12.0",
             "MajorVer": "12",
@@ -29,7 +29,7 @@
           }
         },
         {
-          "match": "NSPlayer\/11.*",
+          "match": "NSPlayer/11.*",
           "properties": {
             "Version": "11.0",
             "MajorVer": "11",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "match": "NSPlayer\/10.*",
+          "match": "NSPlayer/10.*",
           "properties": {
             "Version": "10.0",
             "MajorVer": "10",
@@ -45,7 +45,7 @@
           }
         },
         {
-          "match": "NSPlayer\/9.*",
+          "match": "NSPlayer/9.*",
           "properties": {
             "Version": "9.0",
             "MajorVer": "9",
@@ -53,7 +53,7 @@
           }
         },
         {
-          "match": "NSPlayer\/8.*",
+          "match": "NSPlayer/8.*",
           "properties": {
             "Version": "8.0",
             "MajorVer": "8",
@@ -61,7 +61,7 @@
           }
         },
         {
-          "match": "NSPlayer\/7.*",
+          "match": "NSPlayer/7.*",
           "properties": {
             "Version": "7.0",
             "MajorVer": "7",
@@ -69,7 +69,7 @@
           }
         },
         {
-          "match": "NSPlayer\/07.*",
+          "match": "NSPlayer/07.*",
           "properties": {
             "Version": "7.0",
             "MajorVer": "7",
@@ -77,7 +77,7 @@
           }
         },
         {
-          "match": "NSPlayer\/4.*",
+          "match": "NSPlayer/4.*",
           "properties": {
             "Version": "4.0",
             "MajorVer": "4",
@@ -85,7 +85,7 @@
           }
         },
         {
-          "match": "Windows-Media-Player\/7.*",
+          "match": "Windows-Media-Player/7.*",
           "properties": {
             "Version": "7.0",
             "MajorVer": "7",
@@ -93,7 +93,7 @@
           }
         },
         {
-          "match": "Windows-Media-Player\/8.*",
+          "match": "Windows-Media-Player/8.*",
           "properties": {
             "Version": "8.0",
             "MajorVer": "8",
@@ -101,7 +101,7 @@
           }
         },
         {
-          "match": "Windows-Media-Player\/9.*",
+          "match": "Windows-Media-Player/9.*",
           "properties": {
             "Version": "9.0",
             "MajorVer": "9",
@@ -109,7 +109,7 @@
           }
         },
         {
-          "match": "Windows-Media-Player\/10.*",
+          "match": "Windows-Media-Player/10.*",
           "properties": {
             "Version": "10.0",
             "MajorVer": "10",
@@ -117,7 +117,7 @@
           }
         },
         {
-          "match": "Windows-Media-Player\/11.*",
+          "match": "Windows-Media-Player/11.*",
           "properties": {
             "Version": "11.0",
             "MajorVer": "11",
@@ -125,7 +125,7 @@
           }
         },
         {
-          "match": "Windows-Media-Player\/12.*",
+          "match": "Windows-Media-Player/12.*",
           "properties": {
             "Version": "12.0",
             "MajorVer": "12",
@@ -133,7 +133,7 @@
           }
         },
         {
-          "match": "WMPlayer\/10.*",
+          "match": "WMPlayer/10.*",
           "properties": {
             "Version": "10.0",
             "MajorVer": "10",
@@ -141,7 +141,7 @@
           }
         },
         {
-          "match": "WMPlayer\/11.*",
+          "match": "WMPlayer/11.*",
           "properties": {
             "Version": "11.0",
             "MajorVer": "11",
@@ -149,7 +149,7 @@
           }
         },
         {
-          "match": "WMPlayer\/12.*",
+          "match": "WMPlayer/12.*",
           "properties": {
             "Version": "12.0",
             "MajorVer": "12",
@@ -157,7 +157,7 @@
           }
         },
         {
-          "match": "Lavf*WMPlayer\/10.*",
+          "match": "Lavf*WMPlayer/10.*",
           "properties": {
             "Version": "10.0",
             "MajorVer": "10",
@@ -165,7 +165,7 @@
           }
         },
         {
-          "match": "Lavf*WMPlayer\/11.*",
+          "match": "Lavf*WMPlayer/11.*",
           "properties": {
             "Version": "11.0",
             "MajorVer": "11",
@@ -173,7 +173,7 @@
           }
         },
         {
-          "match": "Lavf*WMPlayer\/12.*",
+          "match": "Lavf*WMPlayer/12.*",
           "properties": {
             "Version": "12.0",
             "MajorVer": "12",

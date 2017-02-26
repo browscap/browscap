@@ -15,7 +15,7 @@
       },
       "children": [
         {
-          "match": "BabalooSpider\/1.*",
+          "match": "BabalooSpider/1.*",
           "properties": {
             "Version": "1.0",
             "MajorVer": "1",
@@ -23,7 +23,7 @@
           }
         },
         {
-          "match": "BabalooSpider\/*"
+          "match": "BabalooSpider/*"
         }
       ]
     }

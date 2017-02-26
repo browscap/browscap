@@ -23,42 +23,42 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) PhantomJS\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) PhantomJS/*",
           "device": "Linux Desktop",
           "platforms": [
             "Linux_64", "Linux"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) PhantomJS\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) PhantomJS/*",
           "device": "Windows Desktop",
           "platforms": [
             "Win8_64"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) PhantomJS\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) PhantomJS/*",
           "device": "general Desktop",
           "platforms": [
             "BSD Four"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) CasperJS*PhantomJS\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) CasperJS*PhantomJS/*",
           "device": "Linux Desktop",
           "platforms": [
             "Linux_64", "Linux"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) CasperJS*PhantomJS\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) CasperJS*PhantomJS/*",
           "device": "Windows Desktop",
           "platforms": [
             "Win8_64"
           ]
         },
         {
-          "match": "PhantomJS\/*"
+          "match": "PhantomJS/*"
         }
       ]
     }

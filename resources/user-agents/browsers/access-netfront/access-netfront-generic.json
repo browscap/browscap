@@ -23,29 +23,29 @@
       },
       "children": [
         {
-          "match": "SonyEricsson*\/* Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) *Version\/*Safari\/*",
+          "match": "SonyEricsson*/* Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) *Version/*Safari/*",
           "device": "general Mobile Phone",
           "platforms": [
             "SymbianOS"
           ]
         },
         {
-          "match": "Mozilla\/4.0 (*) *NetFront\/*"
+          "match": "Mozilla/4.0 (*) *NetFront/*"
         },
         {
-          "match": "Mozilla\/4.0 (*NetFront\/*)*"
+          "match": "Mozilla/4.0 (*NetFront/*)*"
         },
         {
-          "match": "SAMSUNG* *NetFront\/*"
+          "match": "SAMSUNG* *NetFront/*"
         },
         {
-          "match": "SEC-* *NetFront\/*"
+          "match": "SEC-* *NetFront/*"
         },
         {
-          "match": "*NetFront\/*"
+          "match": "*NetFront/*"
         },
         {
-          "match": "Mozilla\/* (PlayStation 4*",
+          "match": "Mozilla/* (PlayStation 4*",
           "device": "Sony PS4",
           "engine": "WebKit",
           "platforms": [

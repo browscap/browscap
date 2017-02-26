@@ -17,7 +17,7 @@
       },
       "children": [
         {
-          "match": "SimplePie\/1.2*",
+          "match": "SimplePie/1.2*",
           "properties": {
             "Version": "1.2",
             "MajorVer": "1",
@@ -25,7 +25,7 @@
           }
         },
         {
-          "match": "SimplePie\/*"
+          "match": "SimplePie/*"
         }
       ]
     }

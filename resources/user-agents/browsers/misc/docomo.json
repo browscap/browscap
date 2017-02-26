@@ -23,7 +23,7 @@
       },
       "children": [
         {
-          "match": "DoCoMo\/1.0\/D503iS\/*",
+          "match": "DoCoMo/1.0/D503iS/*",
           "properties": {
             "Version": "1.0",
             "MajorVer": "1",
@@ -31,7 +31,7 @@
           }
         },
         {
-          "match": "DoCoMo\/1.0\/N504i\/c10\/TB*",
+          "match": "DoCoMo/1.0/N504i/c10/TB*",
           "device": "NEC N504i",
           "properties": {
             "Version": "1.0",
@@ -40,7 +40,7 @@
           }
         },
         {
-          "match": "DoCoMo\/1.0\/N505i\/*",
+          "match": "DoCoMo/1.0/N505i/*",
           "device": "NEC N505i",
           "properties": {
             "Version": "1.0",
@@ -49,7 +49,7 @@
           }
         },
         {
-          "match": "DoCoMo\/1.0\/P504iS\/*",
+          "match": "DoCoMo/1.0/P504iS/*",
           "properties": {
             "Version": "1.0",
             "MajorVer": "1",
@@ -57,7 +57,7 @@
           }
         },
         {
-          "match": "DoCoMo\/1.0*",
+          "match": "DoCoMo/1.0*",
           "properties": {
             "Version": "1.0",
             "MajorVer": "1",
@@ -65,7 +65,7 @@
           }
         },
         {
-          "match": "DoCoMo\/2.0*",
+          "match": "DoCoMo/2.0*",
           "properties": {
             "Version": "2.0",
             "MajorVer": "2",

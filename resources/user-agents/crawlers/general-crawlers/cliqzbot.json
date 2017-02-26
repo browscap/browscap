@@ -16,7 +16,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (compatible; Cliqzbot\/0.1*",
+          "match": "Mozilla/5.0 (compatible; Cliqzbot/0.1*",
           "properties": {
             "Version": "0.1",
             "MajorVer": "0",
@@ -24,10 +24,10 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; Cliqzbot\/*"
+          "match": "Mozilla/5.0 (compatible; Cliqzbot/*"
         },
         {
-          "match": "Cliqzbot\/0.1*",
+          "match": "Cliqzbot/0.1*",
           "properties": {
             "Version": "0.1",
             "MajorVer": "0",
@@ -35,7 +35,7 @@
           }
         },
         {
-          "match": "Cliqzbot\/*"
+          "match": "Cliqzbot/*"
         }
       ]
     }

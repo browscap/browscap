@@ -19,7 +19,7 @@
       },
       "children": [
         {
-          "match": "ichiro\/3.0*",
+          "match": "ichiro/3.0*",
           "properties": {
             "Version": "3.0",
             "MajorVer": "3",
@@ -27,7 +27,7 @@
           }
         },
         {
-          "match": "ichiro\/*"
+          "match": "ichiro/*"
         }
       ]
     }

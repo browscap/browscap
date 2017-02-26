@@ -31,14 +31,14 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#ATH-AL00 Build\/*) AppleWebKit\/* (KHTML, like Gecko) Version\/* Chrome\/* Safari\/* SohuNews\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#ATH-AL00 Build/*) AppleWebKit/* (*khtml*like*gecko*) Version/* Chrome/* Safari/* SohuNews/#MAJORVER#.#MINORVER#*",
           "device": "Huawei ATH-AL00",
           "platforms": [
             "Android_6_0"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) Version\/* Chrome\/* Safari\/* SohuNews\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) Version/* Chrome/* Safari/* SohuNews/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "Android_6_0", "Android"
           ]

@@ -16,21 +16,21 @@
       },
       "children": [
         {
-          "match": "EuripBot\/2.0*",
+          "match": "EuripBot/2.0*",
           "properties": {
             "Version": "2.0",
             "MajorVer": "2"
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; EuripBot\/2*",
+          "match": "Mozilla/5.0 (compatible; EuripBot/2*",
           "properties": {
             "Version": "2.0",
             "MajorVer": "2"
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; EuripBot*"
+          "match": "Mozilla/5.0 (compatible; EuripBot*"
         }
       ]
     }

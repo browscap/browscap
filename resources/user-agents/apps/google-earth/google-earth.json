@@ -26,21 +26,21 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Google Earth\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) Google Earth/#MAJORVER#.#MINORVER#*Safari/*",
           "device": "Windows Desktop",
           "platforms": [
             "WinXPa_32", "Vista_32", "Win7_32", "Win8_32"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Google Earth\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) Google Earth/#MAJORVER#.#MINORVER#*Safari/*",
           "device": "Macintosh",
           "platforms": [
             "OSX"
           ]
         },
         {
-          "match": "GoogleEarth\/#MAJORVER#.#MINORVER#*(#PLATFORM#)*",
+          "match": "GoogleEarth/#MAJORVER#.#MINORVER#*(#PLATFORM#)*",
           "device": "Windows Desktop",
           "platforms": [
             "Win7_32_2"

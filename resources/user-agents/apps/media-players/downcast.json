@@ -15,7 +15,7 @@
       },
       "children": [
         {
-          "match": "iTunes\/* Downcast\/2.9*",
+          "match": "iTunes/* Downcast/2.9*",
           "properties": {
             "Version": "2.9",
             "MajorVer": "2",
@@ -23,7 +23,7 @@
           }
         },
         {
-          "match": "iTunes\/* Downcast\/2.8*",
+          "match": "iTunes/* Downcast/2.8*",
           "properties": {
             "Version": "2.8",
             "MajorVer": "2",
@@ -31,10 +31,10 @@
           }
         },
         {
-          "match": "iTunes\/* Downcast\/*"
+          "match": "iTunes/* Downcast/*"
         },
         {
-          "match": "Downcast\/2.9* (Mac OS X Version 10.11*",
+          "match": "Downcast/2.9* (Mac OS X Version 10.11*",
           "platforms": [
             "OSX_10_11"
           ],
@@ -46,7 +46,7 @@
           }
         },
         {
-          "match": "Downcast\/2.9* (Mac OS X*",
+          "match": "Downcast/2.9* (Mac OS X*",
           "platforms": [
             "OSX"
           ],
@@ -58,7 +58,7 @@
           }
         },
         {
-          "match": "Downcast\/2.9* (iPhone; iOS 9.2*",
+          "match": "Downcast/2.9* (iPhone; iOS 9.2*",
           "platforms": [
             "iOS_A_9_2"
           ],
@@ -70,7 +70,7 @@
           }
         },
         {
-          "match": "Downcast\/2.9* (iPhone; iOS*",
+          "match": "Downcast/2.9* (iPhone; iOS*",
           "platforms": [
             "iOS"
           ],
@@ -82,7 +82,7 @@
           }
         },
         {
-          "match": "Downcast\/2.9*",
+          "match": "Downcast/2.9*",
           "properties": {
             "Version": "2.9",
             "MajorVer": "2",
@@ -90,21 +90,21 @@
           }
         },
         {
-          "match": "Downcast\/* (Mac OS X*",
+          "match": "Downcast/* (Mac OS X*",
           "platforms": [
             "OSX"
           ],
           "device": "Macintosh"
         },
         {
-          "match": "Downcast\/* (iPhone; iOS*",
+          "match": "Downcast/* (iPhone; iOS*",
           "platforms": [
             "iOS"
           ],
           "device": "iPhone"
         },
         {
-          "match": "Downcast\/*"
+          "match": "Downcast/*"
         }
       ]
     }

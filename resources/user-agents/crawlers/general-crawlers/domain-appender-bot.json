@@ -16,7 +16,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (compatible; DomainAppender \/1.0*",
+          "match": "Mozilla/5.0 (compatible; DomainAppender /1.0*",
           "properties": {
             "Version": "1.0",
             "MajorVer": "1",
@@ -24,7 +24,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; DomainAppender \/*"
+          "match": "Mozilla/5.0 (compatible; DomainAppender /*"
         }
       ]
     }

@@ -16,7 +16,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (compatible; LoadTimeBot\/0.7*",
+          "match": "Mozilla/5.0 (compatible; LoadTimeBot/0.7*",
           "properties": {
             "Version": "0.7",
             "MajorVer": "0",
@@ -24,7 +24,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; LoadTimeBot\/0.8*",
+          "match": "Mozilla/5.0 (compatible; LoadTimeBot/0.8*",
           "properties": {
             "Version": "0.8",
             "MajorVer": "0",
@@ -32,7 +32,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; LoadTimeBot\/0.9*",
+          "match": "Mozilla/5.0 (compatible; LoadTimeBot/0.9*",
           "properties": {
             "Version": "0.9",
             "MajorVer": "0",
@@ -40,7 +40,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; LoadTimeBot\/*"
+          "match": "Mozilla/5.0 (compatible; LoadTimeBot/*"
         }
       ]
     }

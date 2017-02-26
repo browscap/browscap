@@ -15,13 +15,13 @@
       },
       "children": [
         {
-          "match": "(HTML Validator http:\/\/www.searchengineworld.com\/validator\/)",
+          "match": "(HTML Validator http://www.searchengineworld.com/validator/)",
           "properties": {
             "Browser": "Search Engine World HTML Validator"
           }
         },
         {
-          "match": "FeedValidator\/*",
+          "match": "FeedValidator/*",
           "properties": {
             "Browser": "FeedValidator"
           }
@@ -33,7 +33,7 @@
           }
         },
         {
-          "match": "Weblide\/*",
+          "match": "Weblide/*",
           "properties": {
             "Browser": "Weblide",
             "Beta": "true"
@@ -46,13 +46,13 @@
           }
         },
         {
-          "match": "WWWC\/*",
+          "match": "WWWC/*",
           "properties": {
             "Browser": "WWWC"
           }
         },
         {
-          "match": "WDG_Validator\/1.6*",
+          "match": "WDG_Validator/1.6*",
           "properties": {
             "Browser": "WDG HTML Validator",
             "Browser_Maker": "Web Design Group",
@@ -62,14 +62,14 @@
           }
         },
         {
-          "match": "WDG_Validator\/*",
+          "match": "WDG_Validator/*",
           "properties": {
             "Browser": "WDG HTML Validator",
             "Browser_Maker": "Web Design Group"
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; Qualidator.com Bot 1.0*",
+          "match": "Mozilla/5.0 (compatible; Qualidator.com Bot 1.0*",
           "properties": {
             "Browser": "Qualidator.com Bot",
             "Browser_Maker": "Qualidator.com",
@@ -79,7 +79,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; Qualidator.com Bot*",
+          "match": "Mozilla/5.0 (compatible; Qualidator.com Bot*",
           "properties": {
             "Browser": "Qualidator.com Bot",
             "Browser_Maker": "Qualidator.com"

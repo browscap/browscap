@@ -27,13 +27,13 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Minimo\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Minimo/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "WinCE", "Maemo_ARM"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#macppc*) Gecko* Minimo\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#macppc*) Gecko* Minimo/#MAJORVER#.#MINORVER#*",
           "device": "Macintosh",
           "platforms": [
             "OpenBSD"

@@ -26,7 +26,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (SH05C;FOMA;like Gecko)*",
+          "match": "Mozilla/5.0 (SH05C;FOMA;like Gecko)*",
           "engine": "Gecko",
           "device": "Sharp SH-05C"
         }

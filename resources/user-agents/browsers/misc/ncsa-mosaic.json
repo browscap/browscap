@@ -16,10 +16,10 @@
       },
       "children": [
         {
-          "match": "Mozilla\/4.0 (VMS_Mosaic)"
+          "match": "Mozilla/4.0 (VMS_Mosaic)"
         },
         {
-          "match": "VMS_Mosaic\/3.7*",
+          "match": "VMS_Mosaic/3.7*",
           "properties": {
             "Version": "3.7",
             "MajorVer": "3",
@@ -27,7 +27,7 @@
           }
         },
         {
-          "match": "VMS_Mosaic\/3.8*",
+          "match": "VMS_Mosaic/3.8*",
           "properties": {
             "Version": "3.8",
             "MajorVer": "3",
@@ -35,7 +35,7 @@
           }
         },
         {
-          "match": "VMS_Mosaic\/4.0 (Motif;OpenVMS V8.3 COMPAQ Professional Workstation ) libwww\/*_Mosaic",
+          "match": "VMS_Mosaic/4.0 (Motif;OpenVMS V8.3 COMPAQ Professional Workstation ) libwww/*_Mosaic",
           "properties": {
             "Browser": "VMS_Mosaic",
             "Version": "8.3",

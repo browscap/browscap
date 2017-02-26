@@ -23,21 +23,21 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (SMART-TV; X11;#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) *Safari\/*",
+          "match": "Mozilla/5.0 (SMART-TV; X11;#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) *Safari/*",
           "device": "Smart-TV",
           "platforms": [
             "Linux_64", "Linux_32", "Linux"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) *Version\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) *Version/* Safari/*",
           "device": "Linux Desktop",
           "platforms": [
             "ChromeOS", "CentOS", "Linux_64", "Linux_32", "Linux"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) *Version\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) *Version/* Safari/*",
           "device": "Windows Desktop",
           "platforms": [
             "Win8_1_64", "Win8_1_32",
@@ -50,7 +50,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) *Version\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) *Version/* Safari/*",
           "device": "Macintosh",
           "platforms": [
             "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
@@ -59,14 +59,14 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) *Version\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) *Version/* Safari/*",
           "device": "Linux Desktop",
           "platforms": [
             "ChromeOS", "CentOS", "Linux_64", "Linux_32", "Linux"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) *Version\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) *Version/* Safari/*",
           "device": "Windows Desktop",
           "platforms": [
             "Win8_1_64", "Win8_1_32",
@@ -79,7 +79,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko)*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*)*Safari*",
           "device": "Macintosh",
           "platforms": [
             "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
@@ -88,45 +88,19 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko)*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*)*Safari*",
           "device": "Linux Desktop",
           "platforms": [
             "Linux_64"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) *Version\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) *Version/*",
           "device": "Macintosh",
           "platforms": [
             "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
             "OSX_10_11",
             "OSX"
-          ]
-        }
-      ]
-    },
-    {
-      "userAgent": "Safari Generic for SymbianOS",
-      "device": "general Mobile Device",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "Safari Generic",
-        "Browser": "Safari",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Apple Inc",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "1"
-      },
-      "children": [
-        {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko)*Safari*",
-          "device": "general Mobile Phone",
-          "platforms": [
-            "SymbianOS"
           ]
         }
       ]
@@ -151,132 +125,132 @@
       },
       "children": [
         {
-          "match": "Safari\/* CFNetwork\/128*",
+          "match": "Safari/* CFNetwork/128*",
           "platforms": [
             "OSX_10_4"
           ]
         },
         {
-          "match": "Safari\/* CFNetwork\/129*",
+          "match": "Safari/* CFNetwork/129*",
           "platforms": [
             "OSX_10_4"
           ]
         },
         {
-          "match": "Safari\/* CFNetwork\/217*",
+          "match": "Safari/* CFNetwork/217*",
           "platforms": [
             "OSX_10_5"
           ]
         },
         {
-          "match": "Safari\/* CFNetwork\/220*",
+          "match": "Safari/* CFNetwork/220*",
           "platforms": [
             "OSX_10_5"
           ]
         },
         {
-          "match": "Safari\/* CFNetwork\/221*",
+          "match": "Safari/* CFNetwork/221*",
           "platforms": [
             "OSX_10_5"
           ]
         },
         {
-          "match": "Safari\/* CFNetwork\/330*",
+          "match": "Safari/* CFNetwork/330*",
           "platforms": [
             "OSX_10_5"
           ]
         },
         {
-          "match": "Safari\/* CFNetwork\/339*",
+          "match": "Safari/* CFNetwork/339*",
           "platforms": [
             "OSX_10_5"
           ]
         },
         {
-          "match": "Safari\/* CFNetwork\/422*",
+          "match": "Safari/* CFNetwork/422*",
           "platforms": [
             "OSX_10_5"
           ]
         },
         {
-          "match": "Safari\/* CFNetwork\/438*",
+          "match": "Safari/* CFNetwork/438*",
           "platforms": [
             "OSX_10_5"
           ]
         },
         {
-          "match": "Safari\/* CFNetwork\/454*",
+          "match": "Safari/* CFNetwork/454*",
           "platforms": [
             "OSX_10_6"
           ]
         },
         {
-          "match": "Safari\/* CFNetwork\/520*",
+          "match": "Safari/* CFNetwork/520*",
           "platforms": [
             "OSX_10_7"
           ]
         },
         {
-          "match": "Safari\/* CFNetwork\/596*",
+          "match": "Safari/* CFNetwork/596*",
           "platforms": [
             "OSX_10_8"
           ]
         },
         {
-          "match": "Safari\/* CFNetwork\/673*",
+          "match": "Safari/* CFNetwork/673*",
           "platforms": [
             "OSX_10_9"
           ]
         },
         {
-          "match": "Safari\/* CFNetwork\/720*",
+          "match": "Safari/* CFNetwork/720*",
           "platforms": [
             "OSX_10_10"
           ]
         },
         {
-          "match": "Safari\/* CFNetwork\/*",
+          "match": "Safari/* CFNetwork/*",
           "platforms": [
             "OSX"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/*LGE; 42LB671V*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/*LGE; 42LB671V*",
           "device": "LG 42LB671V",
           "platforms": [
             "Maemo_ARM"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/*",
           "device": "general TV Device",
           "platforms": [
             "Maemo_ARM"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) *Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) *Safari/*",
           "device": "general Desktop",
           "platforms": [
             "NetBSD_64_2", "NetBSD", "SunOS"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/*THOMSON; Thomson THS845*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/*THOMSON; Thomson THS845*",
           "device": "Thomson THS845",
           "platforms": [
             "Linux"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) *ASTON;XenaHd Twin Connect*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) *ASTON;XenaHd Twin Connect*",
           "device": "ASTON XenaHd Twin Connect",
           "platforms": [
             "Linux_32", "Linux"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko) HbbTV*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) HbbTV*",
           "device": "general TV Device",
           "platforms": [
             "Linux_32", "Linux"

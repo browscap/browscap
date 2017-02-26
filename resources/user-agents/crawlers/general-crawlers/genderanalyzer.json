@@ -17,7 +17,7 @@
       },
       "children": [
         {
-          "match": "Genderanalyzer\/1.0*",
+          "match": "Genderanalyzer/1.0*",
           "properties": {
             "Version": "1.0",
             "MajorVer": "1",
@@ -25,7 +25,7 @@
           }
         },
         {
-          "match": "Genderanalyzer\/*"
+          "match": "Genderanalyzer/*"
         }
       ]
     }

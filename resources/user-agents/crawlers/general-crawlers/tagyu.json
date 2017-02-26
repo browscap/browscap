@@ -15,14 +15,14 @@
       },
       "children": [
         {
-          "match": "Tagyu Agent\/1.*",
+          "match": "Tagyu Agent/1.*",
           "properties": {
             "Version": "1.0",
             "MajorVer": "1"
           }
         },
         {
-          "match": "Tagyu Agent\/*"
+          "match": "Tagyu Agent/*"
         }
       ]
     }

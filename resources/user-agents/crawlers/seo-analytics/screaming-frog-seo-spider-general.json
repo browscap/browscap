@@ -15,7 +15,7 @@
       },
       "children": [
         {
-          "match": "Screaming Frog SEO Spider\/*"
+          "match": "Screaming Frog SEO Spider/*"
         }
       ]
     }

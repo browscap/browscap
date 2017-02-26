@@ -26,31 +26,31 @@
       },
       "children": [
         {
-          "match": "BlackBerry8220\/#MAJORVER#.#MINORVER#*",
+          "match": "BlackBerry8220/#MAJORVER#.#MINORVER#*",
           "device": "Blackberry 8220"
         },
         {
-          "match": "BlackBerry8230\/#MAJORVER#.#MINORVER#*",
+          "match": "BlackBerry8230/#MAJORVER#.#MINORVER#*",
           "device": "Blackberry 8230"
         },
         {
-          "match": "BlackBerry8230f\/#MAJORVER#.#MINORVER#*",
+          "match": "BlackBerry8230f/#MAJORVER#.#MINORVER#*",
           "device": "Blackberry 8230f"
         },
         {
-          "match": "BlackBerry8350i\/#MAJORVER#.#MINORVER#*",
+          "match": "BlackBerry8350i/#MAJORVER#.#MINORVER#*",
           "device": "Blackberry 8350i"
         },
         {
-          "match": "BlackBerry8520\/#MAJORVER#.#MINORVER#*",
+          "match": "BlackBerry8520/#MAJORVER#.#MINORVER#*",
           "device": "Blackberry 8520"
         },
         {
-          "match": "BlackBerry8900\/#MAJORVER#.#MINORVER#*",
+          "match": "BlackBerry8900/#MAJORVER#.#MINORVER#*",
           "device": "Blackberry 8900"
         },
         {
-          "match": "BlackBerry9000\/#MAJORVER#.#MINORVER#*",
+          "match": "BlackBerry9000/#MAJORVER#.#MINORVER#*",
           "device": "Blackberry 9000"
         }
       ]

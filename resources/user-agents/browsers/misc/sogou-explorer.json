@@ -31,7 +31,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko)*Chrome\/*Safari\/* SE #MAJORVER#.*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*)*Chrome/*Safari/* SE #MAJORVER#.*",
           "device": "Linux Desktop",
           "platforms": [
             "ChromeOS_x64", "ChromeOS_i686", "ChromeOS_ARM", "ChromeOS",
@@ -39,7 +39,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko)*Chrome\/*Safari\/* SE #MAJORVER#.*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*)*Chrome/*Safari/* SE #MAJORVER#.*",
           "device": "Windows Desktop",
           "platforms": [
             "Win95_2", "Win98_2", "NT4", "NT4_1", "Win2000", "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32",
@@ -48,7 +48,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko)*Chrome\/*Safari\/* SE #MAJORVER#.*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*)*Chrome/*Safari/* SE #MAJORVER#.*",
           "device": "Macintosh",
           "platforms": [
             "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
@@ -56,7 +56,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko)*Chrome\/*Safari\/* SE #MAJORVER#.*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*)*Chrome/*Safari/* SE #MAJORVER#.*",
           "device": "general Desktop",
           "platforms": [
             "FreeBSD"

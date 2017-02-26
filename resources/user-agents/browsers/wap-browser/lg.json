@@ -22,126 +22,126 @@
       },
       "children": [
         {
-          "match": "G1251C\/(2005.11.23)1.0\/WAP2.0"
+          "match": "G1251C/(2005.11.23)1.0/WAP2.0"
         },
         {
-          "match": "LG G8000\/1.0 PDK\/2.5*"
+          "match": "LG G8000/1.0 PDK/2.5*"
         },
         {
           "match": "LG-G1800",
           "device": "LG G1800"
         },
         {
-          "match": "LG-G210\/SW100\/WAP2.0 *"
+          "match": "LG-G210/SW100/WAP2.0 *"
         },
         {
-          "match": "LG-G220\/V100\/WAP2.0 *"
+          "match": "LG-G220/V100/WAP2.0 *"
         },
         {
-          "match": "LG-G232\/V100\/WAP2.0 *"
+          "match": "LG-G232/V100/WAP2.0 *"
         },
         {
-          "match": "LG-G282\/V100\/WAP2.0 *"
+          "match": "LG-G282/V100/WAP2.0 *"
         },
         {
-          "match": "LG-G622\/V100\/WAP2.0 *"
+          "match": "LG-G622/V100/WAP2.0 *"
         },
         {
-          "match": "LG-G660\/V100\/WAP2.0 *"
+          "match": "LG-G660/V100/WAP2.0 *"
         },
         {
-          "match": "LG-G692\/V100\/WAP2.0 *"
+          "match": "LG-G692/V100/WAP2.0 *"
         },
         {
-          "match": "LG-G828\/V100\/WAP2.0 *"
+          "match": "LG-G828/V100/WAP2.0 *"
         },
         {
-          "match": "LG-G920\/V112\/WAP2.0 *"
+          "match": "LG-G920/V112/WAP2.0 *"
         },
         {
-          "match": "LG-G933\/V084\/WAP2.0 *"
+          "match": "LG-G933/V084/WAP2.0 *"
         },
         {
-          "match": "LG-GD580\/v1.0"
+          "match": "LG-GD580/v1.0"
         },
         {
-          "match": "LG\/U8100"
+          "match": "LG/U8100"
         },
         {
-          "match": "LG\/U8110\/v1.0"
+          "match": "LG/U8110/v1.0"
         },
         {
-          "match": "LG\/U8110\/v1.0 *"
+          "match": "LG/U8110/v1.0 *"
         },
         {
-          "match": "LG\/U8110\/v2.0"
+          "match": "LG/U8110/v2.0"
         },
         {
-          "match": "LG\/U8110\/v2.0 *"
+          "match": "LG/U8110/v2.0 *"
         },
         {
-          "match": "LG\/U8120\/v1.0"
+          "match": "LG/U8120/v1.0"
         },
         {
-          "match": "LG\/U8120\/v1.0 *"
+          "match": "LG/U8120/v1.0 *"
         },
         {
-          "match": "LG\/U8120C\/v1.0"
+          "match": "LG/U8120C/v1.0"
         },
         {
-          "match": "LG\/U8130\/v1.0"
+          "match": "LG/U8130/v1.0"
         },
         {
-          "match": "LG\/U8138\/v1.0"
+          "match": "LG/U8138/v1.0"
         },
         {
-          "match": "LG\/U8138\/v1.0 *"
+          "match": "LG/U8138/v1.0 *"
         },
         {
-          "match": "LG\/U8138\/v2.0"
+          "match": "LG/U8138/v2.0"
         },
         {
-          "match": "LG\/U8180\/v1.0"
+          "match": "LG/U8180/v1.0"
         },
         {
-          "match": "LG\/U8330\/v1.0"
+          "match": "LG/U8330/v1.0"
         },
         {
-          "match": "LG\/U8330\/v1.0 *"
+          "match": "LG/U8330/v1.0 *"
         },
         {
-          "match": "LG\/U8360\/v1.0"
+          "match": "LG/U8360/v1.0"
         },
         {
-          "match": "LG\/U8380\/v1.0"
+          "match": "LG/U8380/v1.0"
         },
         {
-          "match": "LG\/U8550\/v1.0"
+          "match": "LG/U8550/v1.0"
         },
         {
-          "match": "LG\/U880\/v1.0"
+          "match": "LG/U880/v1.0"
         },
         {
-          "match": "LG\/U990\/v1.0"
+          "match": "LG/U990/v1.0"
         },
         {
-          "match": "LGE\/U8150"
+          "match": "LGE/U8150"
         },
         {
-          "match": "LGE\/U8150*"
+          "match": "LGE/U8150*"
         },
         {
-          "match": "LGE\/U8150\/1.0 Profile\/MIDP-2.0 *"
+          "match": "LGE/U8150/1.0 Profile/MIDP-2.0 *"
         },
         {
-          "match": "LGE\/U8150\/1.1 Profile\/MIDP-2.0 *"
+          "match": "LGE/U8150/1.1 Profile/MIDP-2.0 *"
         },
         {
-          "match": "LGE\/U8210\/1.0 Profile\/MIDP-2.0 *",
+          "match": "LGE/U8210/1.0 Profile/MIDP-2.0 *",
           "device": "LG U8210"
         },
         {
-          "match": "SIE-C62\/*"
+          "match": "SIE-C62/*"
         }
       ]
     }

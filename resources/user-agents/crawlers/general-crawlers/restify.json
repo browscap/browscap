@@ -17,7 +17,7 @@
       },
       "children": [
         {
-          "match": "restify\/2.6* (*darwin*) node\/*",
+          "match": "restify/2.6* (*darwin*) node/*",
           "device": "Macintosh",
           "properties": {
             "Version": "2.6",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "match": "restify\/2.6* (*) node\/*",
+          "match": "restify/2.6* (*) node/*",
           "properties": {
             "Version": "2.6",
             "MajorVer": "2",
@@ -34,11 +34,11 @@
           }
         },
         {
-          "match": "restify\/* (*darwin*) node\/*",
+          "match": "restify/* (*darwin*) node/*",
           "device": "Macintosh"
         },
         {
-          "match": "restify\/* (*) node\/*"
+          "match": "restify/* (*) node/*"
         }
       ]
     }

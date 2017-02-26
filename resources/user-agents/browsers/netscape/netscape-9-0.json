@@ -26,14 +26,14 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Netscape*\/#MAJORVER#.*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Netscape*/#MAJORVER#.*",
           "device": "Linux Desktop",
           "platforms": [
             "Linux"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Netscape*\/#MAJORVER#.*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Netscape*/#MAJORVER#.*",
           "device": "Windows Desktop",
           "platforms": [
            "Win95", "Win98", "Win98_2", "WinME", "NT4", "NT4_B", "Win2000", "Win2000_6", "WinXPa_32", "WinXPa_v3",
@@ -41,21 +41,21 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Netscape*\/#MAJORVER#.*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Netscape*/#MAJORVER#.*",
           "device": "Macintosh",
           "platforms": [
             "OSX", "MacPPC_3"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Netscape*\/#MAJORVER#.*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Netscape*/#MAJORVER#.*",
           "device": "general Desktop",
           "platforms": [
             "SunOS"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Firefox\/* Navigator\/#MAJORVER#.*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* Navigator/#MAJORVER#.*",
           "device": "Windows Desktop",
           "platforms": [
             "Win95", "Win98", "Win98_2", "WinME", "NT4", "NT4_B", "Win2000", "Win2000_6", "WinXPa_32", "WinXPa_v3",
@@ -63,7 +63,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Firefox\/* Navigator\/#MAJORVER#.*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* Navigator/#MAJORVER#.*",
           "device": "Macintosh",
           "platforms": [
             "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
@@ -71,7 +71,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Firefox\/* Navigator\/#MAJORVER#.*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* Navigator/#MAJORVER#.*",
           "device": "Linux Desktop",
           "platforms": [
             "Linux_64", "Linux_32", "Linux"

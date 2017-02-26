@@ -16,7 +16,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (compatible; CareerBot\/1.1*",
+          "match": "Mozilla/5.0 (compatible; CareerBot/1.1*",
           "properties": {
             "Version": "1.1",
             "MajorVer": "1",
@@ -24,7 +24,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; CareerBot\/*"
+          "match": "Mozilla/5.0 (compatible; CareerBot/*"
         }
       ]
     }

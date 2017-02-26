@@ -19,7 +19,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (compatible;*Baiduspider\/2.0*",
+          "match": "Mozilla/5.0 (compatible;*Baiduspider/2.0*",
           "properties": {
             "Browser": "Baiduspider",
             "Version": "2.0",
@@ -27,7 +27,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible;*Baiduspider\/*",
+          "match": "Mozilla/5.0 (compatible;*Baiduspider/*",
           "properties": {
             "Browser": "Baiduspider"
           }
@@ -90,7 +90,7 @@
           "match": "baidu bot*"
         },
         {
-          "match": "AC-BaiduBot\/*",
+          "match": "AC-BaiduBot/*",
           "properties": {
             "Browser": "AC-BaiduBot"
           }

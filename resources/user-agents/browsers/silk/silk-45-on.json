@@ -28,7 +28,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#KFFOWI Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* like Chrome\/* Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM#KFFOWI Build/*) AppleWebKit/* (*khtml*like*gecko*) Silk/#MAJORVER#.#MINORVER#* like Chrome/* Safari*",
           "engine": "Blink",
           "device": "Amazon KFFOWI",
           "platforms": [
@@ -36,14 +36,14 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* like Chrome\/* Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) Silk/#MAJORVER#.#MINORVER#* like Chrome/* Safari*",
           "engine": "Blink",
           "platforms": [
             "Android_5_1"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (X11; Linux*) AppleWebKit\/* (KHTML,*like Gecko*) Silk\/#MAJORVER#.#MINORVER#* like Chrome\/* Safari*",
+          "match": "Mozilla/5.0 (X11; Linux*) AppleWebKit/* (*khtml*like*gecko*) Silk/#MAJORVER#.#MINORVER#* like Chrome/* Safari*",
           "engine": "Blink",
           "properties": {
             "Browser_Modus": "Desktop Mode"

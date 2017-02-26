@@ -26,7 +26,7 @@
       },
       "children": [
         {
-          "match": "Alltop\/#MAJORVER#.#MINORVER#*"
+          "match": "Alltop/#MAJORVER#.#MINORVER#*"
         }
       ]
     }

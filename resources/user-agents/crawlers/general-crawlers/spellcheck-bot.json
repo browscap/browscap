@@ -18,14 +18,14 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (compatible; SpellCheck Bot 0.9*",
+          "match": "Mozilla/5.0 (compatible; SpellCheck Bot 0.9*",
           "properties": {
             "Version": "0.9",
             "MinorVer": "9"
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; SpellCheck Bot*"
+          "match": "Mozilla/5.0 (compatible; SpellCheck Bot*"
         }
       ]
     }

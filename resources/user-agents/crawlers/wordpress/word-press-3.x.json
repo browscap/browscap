@@ -22,7 +22,7 @@
       },
       "children": [
         {
-          "match": "WordPress\/#MAJORVER#.#MINORVER#*"
+          "match": "WordPress/#MAJORVER#.#MINORVER#*"
         },
         {
           "match": "WordPress #MAJORVER#.#MINORVER#* Feed Client*"

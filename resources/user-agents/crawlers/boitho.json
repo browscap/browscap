@@ -17,10 +17,10 @@
       },
       "children": [
         {
-          "match": "boitho.com-dc\/*"
+          "match": "boitho.com-dc/*"
         },
         {
-          "match": "boitho.com-robot\/*"
+          "match": "boitho.com-robot/*"
         },
         {
           "match": "boitho.com-*"

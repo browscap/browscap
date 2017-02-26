@@ -26,7 +26,7 @@
       },
       "children": [
         {
-          "match": "iPick\/1.7* CFNetwork\/*",
+          "match": "iPick/1.7* CFNetwork/*",
           "properties": {
             "Version": "1.7",
             "MajorVer": "1",
@@ -37,7 +37,7 @@
           ]
         },
         {
-          "match": "iPick* CFNetwork\/*",
+          "match": "iPick* CFNetwork/*",
           "platforms": [
             "Darwin"
           ]

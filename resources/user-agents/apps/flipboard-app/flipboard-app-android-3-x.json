@@ -31,21 +31,21 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-I9300I Build\/*)*AppleWebKit\/*(*KHTML,*like Gecko*)*Version\/*Chrome*Safari* Flipboard\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#GT-I9300I Build/*)*AppleWebKit/*(*khtml*like*gecko*)*Version/*Chrome*Safari* Flipboard/#MAJORVER#.#MINORVER#*",
           "device": "Samsung GT-I9300I",
           "platforms": [
             "Android_4_4"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#W200 Build\/*)*AppleWebKit\/*(*KHTML,*like Gecko*)*Version\/*Chrome*Safari* Flipboard\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#W200 Build/*)*AppleWebKit/*(*khtml*like*gecko*)*Version/*Chrome*Safari* Flipboard/#MAJORVER#.#MINORVER#*",
           "device": "ThL W200",
           "platforms": [
             "Android_4_2"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#W200 Build\/*)*AppleWebKit\/*(*KHTML,*like Gecko*)*Version\/*Safari* Flipboard\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#W200 Build/*)*AppleWebKit/*(*khtml*like*gecko*)*Version/*Safari* Flipboard/#MAJORVER#.#MINORVER#*",
           "device": "ThL W200",
           "engine": "WebKit",
           "platforms": [
@@ -53,49 +53,49 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-I9295 Build\/*)*AppleWebKit\/*(*KHTML,*like Gecko*)*Version\/*Chrome*Safari* Flipboard\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#GT-I9295 Build/*)*AppleWebKit/*(*khtml*like*gecko*)*Version/*Chrome*Safari* Flipboard/#MAJORVER#.#MINORVER#*",
           "device": "Samsung GT-I9295",
           "platforms": [
             "Android_5_0"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#SM-P901 Build\/*)*AppleWebKit\/*(*KHTML,*like Gecko*)*Version\/*Chrome*Safari* Flipboard\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#SM-P901 Build/*)*AppleWebKit/*(*khtml*like*gecko*)*Version/*Chrome*Safari* Flipboard/#MAJORVER#.#MINORVER#*",
           "device": "Samsung SM-P901",
           "platforms": [
             "Android_4_4"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#SM-P901 Build\/*)*AppleWebKit\/*(*KHTML,*like Gecko*)*Version\/*Chrome*Safari* Flipboard\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#SM-P901 Build/*)*AppleWebKit/*(*khtml*like*gecko*)*Version/*Chrome*Safari* Flipboard/#MAJORVER#.#MINORVER#*",
           "device": "Samsung SM-P901",
           "platforms": [
             "Android_4_4"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#SM-T700 Build\/*)*AppleWebKit\/*(*KHTML,*like Gecko*)*Version\/*Chrome*Safari* Flipboard\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#SM-T700 Build/*)*AppleWebKit/*(*khtml*like*gecko*)*Version/*Chrome*Safari* Flipboard/#MAJORVER#.#MINORVER#*",
           "device": "Samsung SM-T700",
           "platforms": [
             "Android_4_4"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#LG-D295 Build\/*)*AppleWebKit\/*(*KHTML,*like Gecko*)*Version\/*Chrome*Safari* Flipboard\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#LG-D295 Build/*)*AppleWebKit/*(*khtml*like*gecko*)*Version/*Chrome*Safari* Flipboard/#MAJORVER#.#MINORVER#*",
           "device": "LG D295",
           "platforms": [
             "Android_4_4"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Nexus 7 Build\/*)*AppleWebKit\/*(*KHTML,*like Gecko*)*Version\/*Chrome*Safari* Flipboard\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#Nexus 7 Build/*)*AppleWebKit/*(*khtml*like*gecko*)*Version/*Chrome*Safari* Flipboard/#MAJORVER#.#MINORVER#*",
           "device": "Asus Nexus 7",
           "platforms": [
             "Android_5_1"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#NokiaX2DS Build\/*)*AppleWebKit\/*(*KHTML,*like Gecko*)*Version\/*Safari* Flipboard\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#NokiaX2DS Build/*)*AppleWebKit/*(*khtml*like*gecko*)*Version/*Safari* Flipboard/#MAJORVER#.#MINORVER#*",
           "device": "Nokia X2DS",
           "engine": "WebKit",
           "platforms": [
@@ -103,49 +103,49 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#GT-I9506 Build\/*)*AppleWebKit\/*(*KHTML,*like Gecko*)*Version\/*Chrome*Safari* Flipboard\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#GT-I9506 Build/*)*AppleWebKit/*(*khtml*like*gecko*)*Version/*Chrome*Safari* Flipboard/#MAJORVER#.#MINORVER#*",
           "device": "Samsung GT-I9506",
           "platforms": [
             "Android_5_0"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#SM-T705 Build\/*)*AppleWebKit\/*(*KHTML,*like Gecko*)*Version\/*Chrome*Safari* Flipboard\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#SM-T705 Build/*)*AppleWebKit/*(*khtml*like*gecko*)*Version/*Chrome*Safari* Flipboard/#MAJORVER#.#MINORVER#*",
           "device": "Samsung SM-T705",
           "platforms": [
             "Android_4_4"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#SM-T325 Build\/*)*AppleWebKit\/*(*KHTML,*like Gecko*)*Version\/*Chrome*Safari* Flipboard\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#SM-T325 Build/*)*AppleWebKit/*(*khtml*like*gecko*)*Version/*Chrome*Safari* Flipboard/#MAJORVER#.#MINORVER#*",
           "device": "Samsung SM-T325",
           "platforms": [
             "Android_4_4"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#D6633 Build\/*)*AppleWebKit\/*(*KHTML,*like Gecko*)*Version\/*Chrome*Safari* Flipboard\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#D6633 Build/*)*AppleWebKit/*(*khtml*like*gecko*)*Version/*Chrome*Safari* Flipboard/#MAJORVER#.#MINORVER#*",
           "device": "Sony D6633",
           "platforms": [
             "Android_5_0"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#D5503 Build\/*)*AppleWebKit\/*(*KHTML,*like Gecko*)*Version\/*Chrome*Safari* Flipboard\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#D5503 Build/*)*AppleWebKit/*(*khtml*like*gecko*)*Version/*Chrome*Safari* Flipboard/#MAJORVER#.#MINORVER#*",
           "device": "Sony D5503",
           "platforms": [
             "Android_4_4"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#MI 4W Build\/*)*AppleWebKit\/*(*KHTML,*like Gecko*)*Version\/*Chrome*Safari* Flipboard\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#MI 4W Build/*)*AppleWebKit/*(*khtml*like*gecko*)*Version/*Chrome*Safari* Flipboard/#MAJORVER#.#MINORVER#*",
           "device": "Xiaomi MI 4W",
           "platforms": [
             "Android_4_4"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Lenovo A5500-H Build\/*)*AppleWebKit\/*(*KHTML,*like Gecko*)*Version\/*Safari* Flipboard\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#Lenovo A5500-H Build/*)*AppleWebKit/*(*khtml*like*gecko*)*Version/*Safari* Flipboard/#MAJORVER#.#MINORVER#*",
           "device": "Lenovo A5500-H",
           "engine": "WebKit",
           "platforms": [
@@ -153,7 +153,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#MS3A Build\/*)*AppleWebKit\/*(*KHTML,*like Gecko*)*Version\/*Safari* Flipboard\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#MS3A Build/*)*AppleWebKit/*(*khtml*like*gecko*)*Version/*Safari* Flipboard/#MAJORVER#.#MINORVER#*",
           "device": "MegaFon MS3A",
           "engine": "WebKit",
           "platforms": [
@@ -161,20 +161,20 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#A0001 Build\/*)*AppleWebKit\/*(*KHTML,*like Gecko*)*Version\/*Chrome*Safari* Flipboard\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#A0001 Build/*)*AppleWebKit/*(*khtml*like*gecko*)*Version/*Chrome*Safari* Flipboard/#MAJORVER#.#MINORVER#*",
           "device": "OnePlus A0001",
           "platforms": [
             "Android_4_4"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/*(*KHTML,*like Gecko*)*Version\/*Chrome*Safari* Flipboard\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#)*AppleWebKit/*(*khtml*like*gecko*)*Version/*Chrome*Safari* Flipboard/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "Android_4_4", "Android_5_0", "Android_5_1", "Android"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/*(*KHTML,*like Gecko*)*Version\/*Safari* Flipboard\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#)*AppleWebKit/*(*khtml*like*gecko*)*Version/*Safari* Flipboard/#MAJORVER#.#MINORVER#*",
           "engine": "WebKit",
           "platforms": [
             "Android_4_4", "Android_5_0", "Android_5_1", "Android"

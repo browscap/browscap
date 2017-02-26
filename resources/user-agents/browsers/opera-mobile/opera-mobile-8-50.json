@@ -27,47 +27,47 @@
       },
       "children": [
         {
-          "match": "Mozilla\/4.0 (compatible; MSIE#PLATFORM#)*Opera?#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/4.0 (compatible; MSIE#PLATFORM#)*Opera?#MAJORVER#.#MINORVER#*",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible; MSIE#PLATFORM#)*Opera?#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (compatible; MSIE#PLATFORM#)*Opera?#MAJORVER#.#MINORVER#*",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "MOT-ROKR E2\/* R564_G_* Mozilla\/4.0 (*compatible*;*MSIE 6.0; Linux; Motorola ROKR*) * Opera #MAJORVER#.#MINORVER#*",
+          "match": "MOT-ROKR E2/* R564_G_* Mozilla/4.0 (*compatible*;*MSIE 6.0; Linux; Motorola ROKR*) * Opera #MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone",
           "platforms": [
             "Maemo"
           ]
         },
         {
-          "match": "MOT-ROKR E2\/R564_G_12.00.3?P Mozilla\/4.0 (*compatible*;*MSIE 6.0; Linux; Motorola ROKR* Opera #MAJORVER#.#MINORVER#*",
+          "match": "MOT-ROKR E2/R564_G_12.00.3?P Mozilla/4.0 (*compatible*;*MSIE 6.0; Linux; Motorola ROKR* Opera #MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone",
           "platforms": [
             "Maemo"
           ]
         },
         {
-          "match": "MOT-ROKR E2\/R564_G_12.00.4?P Mozilla\/4.0 (*compatible*;*MSIE 6.0; Linux; Motorola ROKR* Opera #MAJORVER#.#MINORVER#*",
+          "match": "MOT-ROKR E2/R564_G_12.00.4?P Mozilla/4.0 (*compatible*;*MSIE 6.0; Linux; Motorola ROKR* Opera #MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone",
           "platforms": [
             "Maemo"
           ]
         },
         {
-          "match": "motorazrV8\/R601_G_80.56.13R_AP Mozilla\/4.0 (*compatible*;*MSIE 6.0 Linux; Motorola V8*) * Opera #MAJORVER#.#MINORVER#*",
+          "match": "motorazrV8/R601_G_80.56.13R_AP Mozilla/4.0 (*compatible*;*MSIE 6.0 Linux; Motorola V8*) * Opera #MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone",
           "platforms": [
             "Maemo"
           ]
         },
         {
-          "match": "motorazrV8\/R601_G_80.55.0ARP Mozilla\/4.0 (*compatible*;*MSIE 6.0 Linux; Motorola V8*) * Opera #MAJORVER#.#MINORVER#*"
+          "match": "motorazrV8/R601_G_80.55.0ARP Mozilla/4.0 (*compatible*;*MSIE 6.0 Linux; Motorola V8*) * Opera #MAJORVER#.#MINORVER#*"
         }
       ]
     }

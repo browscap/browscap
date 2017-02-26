@@ -28,21 +28,21 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (*linux*x86_64*) AppleWebKit\/* (KHTML* like Gecko) #PLATFORM# Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (*linux*x86_64*) AppleWebKit/* (*khtml*like*gecko*) #PLATFORM# Chrome/#MAJORVER#.*Safari/*",
           "device": "Linux Desktop",
           "platforms": [
             "Ubuntu_10_10_64"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (*linux*) AppleWebKit\/* (KHTML* like Gecko) #PLATFORM# Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (*linux*) AppleWebKit/* (*khtml*like*gecko*) #PLATFORM# Chrome/#MAJORVER#.*Safari/*",
           "device": "Linux Desktop",
           "platforms": [
             "Ubuntu_10_10"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
           "device": "Linux Desktop",
           "platforms": [
             "ChromeOS_x64", "ChromeOS_i686", "ChromeOS",
@@ -50,7 +50,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
           "device": "Windows Desktop",
           "platforms": [
             "NT4", "Win2000",
@@ -59,7 +59,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
           "device": "Macintosh",
           "platforms": [
             "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
@@ -67,14 +67,14 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
           "device": "general Desktop",
           "platforms": [
             "FreeBSD_386", "FreeBSD", "OpenBSD_386", "OpenBSD"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) Chrome/#MAJORVER#.*",
           "device": "Linux Desktop",
           "platforms": [
             "Linux_64", "Linux_32", "Linux",
@@ -82,7 +82,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) Chrome/#MAJORVER#.*",
           "device": "Windows Desktop",
           "platforms": [
             "NT4", "Win2000",
@@ -91,7 +91,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) Chrome/#MAJORVER#.*",
           "device": "Macintosh",
           "platforms": [
             "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
@@ -99,14 +99,14 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) Chrome/#MAJORVER#.*",
           "device": "general Desktop",
           "platforms": [
             "FreeBSD_386", "FreeBSD", "OpenBSD_386", "OpenBSD"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) *AppleWebKit\/* (KHTML* like Gecko) Chrome\/#MAJORVER#.*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) *AppleWebKit/* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
           "device": "Windows Desktop",
           "platforms": [
             "NT4", "Win2000",

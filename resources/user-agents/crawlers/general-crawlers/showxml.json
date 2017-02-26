@@ -15,14 +15,14 @@
       },
       "children": [
         {
-          "match": "ShowXML\/1.0*",
+          "match": "ShowXML/1.0*",
           "properties": {
             "Version": "1.0",
             "MajorVer": "1"
           }
         },
         {
-          "match": "ShowXML\/*"
+          "match": "ShowXML/*"
         }
       ]
     }

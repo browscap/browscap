@@ -28,23 +28,23 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (BB10; Touch) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla/5.0 (BB10; Touch) AppleWebKit/* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari/*",
           "device": "Blackberry Z10"
         },
         {
-          "match": "Mozilla\/5.0 (BB10; Touch) AppleWebKit\/* (KHTML* like Gecko)*",
+          "match": "Mozilla/5.0 (BB10; Touch) AppleWebKit/* (*khtml*like*gecko*)*",
           "device": "Blackberry Z10"
         },
         {
-          "match": "Mozilla\/5.0 (BB10; Kbd) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla/5.0 (BB10; Kbd) AppleWebKit/* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari/*",
           "device": "Blackberry KBD"
         },
         {
-          "match": "Mozilla\/5.0 (BB10; Kbd) AppleWebKit\/* (KHTML* like Gecko)*",
+          "match": "Mozilla/5.0 (BB10; Kbd) AppleWebKit/* (*khtml*like*gecko*)*",
           "device": "Blackberry KBD"
         },
         {
-          "match": "Mozilla\/5.0 (BB10; *) AppleWebKit\/* (KHTML* like Gecko)*"
+          "match": "Mozilla/5.0 (BB10; *) AppleWebKit/* (*khtml*like*gecko*)*"
         }
       ]
     }

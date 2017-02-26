@@ -20,11 +20,11 @@
         {
           "match": "shaboyi spider",
           "properties": {
-            "Browser": "Sogou\/Shaboyi Spider"
+            "Browser": "Sogou/Shaboyi Spider"
           }
         },
         {
-          "match": "Sogou develop spider\/*",
+          "match": "Sogou develop spider/*",
           "properties": {
             "Browser": "Sogou Develop Spider"
           }
@@ -39,7 +39,7 @@
           "match": "sogou js robot(*)"
         },
         {
-          "match": "Sogou Orion spider\/*",
+          "match": "Sogou Orion spider/*",
           "properties": {
             "Browser": "Sogou Orion spider"
           }
@@ -57,7 +57,7 @@
           }
         },
         {
-          "match": "Sogou-Test-Spider\/*",
+          "match": "Sogou-Test-Spider/*",
           "properties": {
             "Browser": "Sogou-Test-Spider"
           }
@@ -75,7 +75,7 @@
           }
         },
         {
-          "match": "Sogou web spider\/4.0*",
+          "match": "Sogou web spider/4.0*",
           "properties": {
             "Browser": "Sogou Web Spider",
             "Version": "4.0",
@@ -90,7 +90,7 @@
           }
         },
         {
-          "match": "New-Sogou-Spider\/1.*",
+          "match": "New-Sogou-Spider/1.*",
           "properties": {
             "Browser": "Sogou Spider",
             "Version": "1.0",
@@ -99,7 +99,7 @@
           }
         },
         {
-          "match": "New-Sogou-Spider\/*",
+          "match": "New-Sogou-Spider/*",
           "properties": {
             "Browser": "Sogou Spider"
           }

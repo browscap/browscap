@@ -26,14 +26,14 @@
       },
       "children": [
         {
-          "match": "SAMSUNG-GT-C3322* Profile\/MIDP-2.0 Configuration\/CLDC-1.1 Untrusted\/1.0",
+          "match": "SAMSUNG-GT-C3322* Profile/MIDP-2.0 Configuration/CLDC-1.1 Untrusted/1.0",
           "device": "Samsung GT-C3322"
         },
         {
-          "match": "SAMSUNG* Profile\/MIDP-2.0 Configuration\/CLDC-1.1 Untrusted\/1.0"
+          "match": "SAMSUNG* Profile/MIDP-2.0 Configuration/CLDC-1.1 Untrusted/1.0"
         },
         {
-          "match": "Mozilla\/5.0 (SAMSUNG; SAMSUNG-GT-S5380*",
+          "match": "Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-S5380*",
           "device": "Samsung GT-S5380"
         }
       ]

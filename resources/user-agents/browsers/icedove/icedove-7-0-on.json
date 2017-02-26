@@ -27,7 +27,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Icedove\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Icedove/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "Linux_32", "Linux"
           ]

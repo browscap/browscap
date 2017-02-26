@@ -27,7 +27,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Qword\/#MAJORVER#.* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) Qword/#MAJORVER#.* Safari/*",
           "device": "Windows Desktop",
           "platforms": [
             "Win8_1_64", "Win8_1_32"

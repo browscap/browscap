@@ -16,13 +16,13 @@
       },
       "children": [
         {
-          "match": "Bloglines Title Fetch\/*",
+          "match": "Bloglines Title Fetch/*",
           "properties": {
             "Browser": "Bloglines Title Fetch"
           }
         },
         {
-          "match": "Bloglines\/3.1*",
+          "match": "Bloglines/3.1*",
           "properties": {
             "Browser": "BlogLines Web",
             "Version": "3.1",
@@ -31,7 +31,7 @@
           }
         },
         {
-          "match": "Bloglines\/3.0*",
+          "match": "Bloglines/3.0*",
           "properties": {
             "Browser": "BlogLines Web",
             "Version": "3.0",
@@ -40,7 +40,7 @@
           }
         },
         {
-          "match": "Bloglines\/*",
+          "match": "Bloglines/*",
           "properties": {
             "Browser": "BlogLines Web"
           }
@@ -65,7 +65,7 @@
           }
         },
         {
-          "match": "Irish Blogs Aggregator\/*1.0*",
+          "match": "Irish Blogs Aggregator/*1.0*",
           "properties": {
             "Browser": "Irish Blogs Aggregator",
             "Version": "1.0",
@@ -74,13 +74,13 @@
           }
         },
         {
-          "match": "kinjabot (http:\/\/www.kinja.com; *)",
+          "match": "kinjabot (http://www.kinja.com; *)",
           "properties": {
             "Browser": "kinjabot"
           }
         },
         {
-          "match": "Net::Trackback\/*",
+          "match": "Net::Trackback/*",
           "properties": {
             "Browser": "Net::Trackback"
           }
@@ -92,7 +92,7 @@
           }
         },
         {
-          "match": "Bloglovin\/1.0*",
+          "match": "Bloglovin/1.0*",
           "properties": {
             "Browser": "Bloglovin Bot",
             "Browser_Maker": "bloglovin.com",
@@ -102,7 +102,7 @@
           }
         },
         {
-          "match": "Bloglovin\/*",
+          "match": "Bloglovin/*",
           "properties": {
             "Browser": "Bloglovin Bot",
             "Browser_Maker": "bloglovin.com"

@@ -20,15 +20,15 @@
       },
       "children": [
         {
-          "match": "LG-C1500 UP.Browser\/6.2.3 (GUI) MMP\/1.0 (compatible;YahooSeeker\/M1A1-R2D2;*",
+          "match": "LG-C1500 UP.Browser/6.2.3 (GUI) MMP/1.0 (compatible;YahooSeeker/M1A1-R2D2;*",
           "device": "LG C1500"
         },
         {
-          "match": "Nokia6682\/2.0 (*SymbianOS\/* (compatible;*YahooSeeker\/*)",
+          "match": "Nokia6682/2.0 (*SymbianOS/* (compatible;*YahooSeeker/*)",
           "device": "Nokia 6682"
         },
         {
-          "match": "Mozilla\/5.0 (compatible; YahooSeeker\/M1A1-R2D2*)"
+          "match": "Mozilla/5.0 (compatible; YahooSeeker/M1A1-R2D2*)"
         }
       ]
     }

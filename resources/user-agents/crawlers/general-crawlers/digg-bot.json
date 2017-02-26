@@ -16,7 +16,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (Digg\/1.0*",
+          "match": "Mozilla/5.0 (Digg/1.0*",
           "properties": {
             "Version": "1.0",
             "MajorVer": "1",
@@ -24,10 +24,10 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (Digg\/*"
+          "match": "Mozilla/5.0 (Digg/*"
         },
         {
-          "match": "Digg Deeper\/v1*",
+          "match": "Digg Deeper/v1*",
           "properties": {
             "Version": "1.0",
             "MajorVer": "1",
@@ -35,7 +35,7 @@
           }
         },
         {
-          "match": "Digg Deeper\/*"
+          "match": "Digg Deeper/*"
         }
       ]
     }

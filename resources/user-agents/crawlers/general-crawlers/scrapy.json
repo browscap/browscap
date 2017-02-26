@@ -16,7 +16,7 @@
       },
       "children": [
         {
-          "match": "Scrapy\/0.16*",
+          "match": "Scrapy/0.16*",
           "properties": {
             "Version": "0.16",
             "MajorVer": "0",
@@ -24,7 +24,7 @@
           }
         },
         {
-          "match": "Scrapy\/*"
+          "match": "Scrapy/*"
         }
       ]
     }

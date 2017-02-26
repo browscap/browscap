@@ -17,7 +17,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (compatible; YodaoBot\/1.*)",
+          "match": "Mozilla/5.0 (compatible; YodaoBot/1.*)",
           "properties": {
             "Version": "1.0",
             "MajorVer": "1",
@@ -25,7 +25,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible;YodaoBot-Image\/1.*)",
+          "match": "Mozilla/5.0 (compatible;YodaoBot-Image/1.*)",
           "properties": {
             "Browser": "YodaoBot-Image",
             "Version": "1.0",
@@ -34,7 +34,7 @@
           }
         },
         {
-          "match": "WAP_Browser\/5.0 (compatible; YodaoBot\/1.*)",
+          "match": "WAP_Browser/5.0 (compatible; YodaoBot/1.*)",
           "properties": {
             "Version": "1.0",
             "MajorVer": "1",
@@ -42,7 +42,7 @@
           }
         },
         {
-          "match": "YodaoBot\/1.* (*)",
+          "match": "YodaoBot/1.* (*)",
           "properties": {
             "Version": "1.0",
             "MajorVer": "1",
@@ -50,13 +50,13 @@
           }
         },
         {
-          "match": "Best Whois (http:\/\/www.bestwhois.net\/)",
+          "match": "Best Whois (http://www.bestwhois.net/)",
           "properties": {
             "Browser": "Best Whois"
           }
         },
         {
-          "match": "DNSGroup\/*",
+          "match": "DNSGroup/*",
           "properties": {
             "Browser": "DNS Group Crawler"
           }

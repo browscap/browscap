@@ -20,7 +20,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (iPhone#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko; Google Page Speed Insights) Version\/*Safari\/*",
+          "match": "Mozilla/5.0 (iPhone#PLATFORM#) AppleWebKit/* (khtml*like gecko; Google Page Speed Insights) Version/*Safari/*",
           "device": "iPhone",
           "platforms": [
             "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
@@ -31,7 +31,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (iPad#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko; Google Page Speed Insights) Version\/*Safari\/*",
+          "match": "Mozilla/5.0 (iPad#PLATFORM#) AppleWebKit/* (khtml*like gecko; Google Page Speed Insights) Version/*Safari/*",
           "device": "iPad",
           "platforms": [
             "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
@@ -42,14 +42,14 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko; Google Page Speed Insights) Chrome\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (khtml*like gecko; Google Page Speed Insights) Chrome/* Safari/*",
           "device": "Linux Desktop",
           "platforms": [
             "ChromeOS", "Linux_64", "Linux_32", "Linux"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko; Google Page Speed Insights) Chrome\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (khtml*like gecko; Google Page Speed Insights) Chrome/* Safari/*",
           "device": "Windows Desktop",
           "platforms": [
             "Win8_1_64", "Win8_1_32",
@@ -62,7 +62,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko; Google Page Speed Insights) Chrome\/* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (khtml*like gecko; Google Page Speed Insights) Chrome/* Safari/*",
           "device": "Macintosh",
           "platforms": [
             "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
@@ -70,7 +70,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko; Google Page Speed Insights) Version\/*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (khtml*like gecko; Google Page Speed Insights) Version/*Safari/*",
           "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",

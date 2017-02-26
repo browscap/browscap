@@ -51,7 +51,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) UC AppleWebKit/* (KHTML* like Gecko) *Safari/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) UC AppleWebKit/* (*khtml*like*gecko*) *Safari/*",
           "platforms": [
             "Android_2_3", "Android"
           ]
@@ -79,7 +79,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (iPhone#PLATFORM#)*AppleWebKit/*(*KHTML* like Gecko*)*UCBrowser/*",
+          "match": "Mozilla/5.0 (iPhone#PLATFORM#)*AppleWebKit/*(*khtml*like*gecko*)*UCBrowser/*",
           "engine": "WebKit",
           "device": "iPhone",
           "platforms": [
@@ -90,7 +90,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#)*AppleWebKit/*(*KHTML* like Gecko*)*UCBrowser/*",
+          "match": "Mozilla/5.0 (#PLATFORM#)*AppleWebKit/*(*khtml*like*gecko*)*UCBrowser/*",
           "engine": "WebKit",
           "device": "general Mobile Device (Apple)",
           "platforms": [
@@ -101,7 +101,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (Linux; U;* iphone 6s Build/KVT49L) AppleWebKit/* (KHTML* like Gecko) Version/* UCBrowser/* U3/* Safari/*",
+          "match": "Mozilla/5.0 (Linux; U;* iphone 6s Build/KVT49L) AppleWebKit/* (*khtml*like*gecko*) Version/* UCBrowser/* U3/* Safari/*",
           "engine": "U3",
           "device": "Xianghe iphone 6s",
           "platforms": [

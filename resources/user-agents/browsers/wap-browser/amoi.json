@@ -15,19 +15,19 @@
       },
       "children": [
         {
-          "match": "AMOI\/R1A"
+          "match": "AMOI/R1A"
         },
         {
-          "match": "Amoi-A869\/Plat-V-FT\/WAP2.0\/MIDP2.0\/CLDC1.0"
+          "match": "Amoi-A869/Plat-V-FT/WAP2.0/MIDP2.0/CLDC1.0"
         },
         {
-          "match": "Amoi-H9\/Plat-EMP\/WAP2.0\/MIDP2.0\/CLDC1.0"
+          "match": "Amoi-H9/Plat-EMP/WAP2.0/MIDP2.0/CLDC1.0"
         },
         {
-          "match": "Amoi-M6\/Plat-EMP\/WAP2.0\/MIDP2.0\/CLDC1.0"
+          "match": "Amoi-M6/Plat-EMP/WAP2.0/MIDP2.0/CLDC1.0"
         },
         {
-          "match": "Amoi-M8\/Plat-EMP\/WAP2.0\/MIDP2.0\/CLDC1.0"
+          "match": "Amoi-M8/Plat-EMP/WAP2.0/MIDP2.0/CLDC1.0"
         }
       ]
     }

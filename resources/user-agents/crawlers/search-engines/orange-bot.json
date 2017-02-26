@@ -16,7 +16,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (compatible; Orangebot\/2.0*",
+          "match": "Mozilla/5.0 (compatible; Orangebot/2.0*",
           "properties": {
             "Version": "2.0",
             "MajorVer": "2",
@@ -24,10 +24,10 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; Orangebot\/*"
+          "match": "Mozilla/5.0 (compatible; Orangebot/*"
         },
         {
-          "match": "Mozilla\/4.0 (compatible; MSIE 4.01; Windows CE; PPC; 240x320; SPV M700; OpVer 19.123.2.733) OrangeBot-Mobile*",
+          "match": "Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; 240x320; SPV M700; OpVer 19.123.2.733) OrangeBot-Mobile*",
           "properties": {
             "Browser": "Orangebot Mobile"
           },

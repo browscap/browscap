@@ -27,7 +27,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/4.5 (compatible; OmniWeb\/#MAJORVER#.#MINORVER#*"
+          "match": "Mozilla/4.5 (compatible; OmniWeb/#MAJORVER#.#MINORVER#*"
         }
       ]
     }

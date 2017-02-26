@@ -15,14 +15,14 @@
       },
       "children": [
         {
-          "match": "LinkChecker\/7.*",
+          "match": "LinkChecker/7.*",
           "properties": {
             "Version": "7.0",
             "MajorVer": "7"
           }
         },
         {
-          "match": "LinkChecker\/*"
+          "match": "LinkChecker/*"
         }
       ]
     }

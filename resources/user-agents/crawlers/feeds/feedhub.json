@@ -16,7 +16,7 @@
       },
       "children": [
         {
-          "match": "FeedHub FeedDiscovery\/1.0 (http:\/\/www.feedhub.com)",
+          "match": "FeedHub FeedDiscovery/1.0 (http://www.feedhub.com)",
           "properties": {
             "Browser": "FeedHub FeedDiscovery",
             "Version": "1.0",
@@ -25,7 +25,7 @@
           }
         },
         {
-          "match": "FeedHub FeedFetcher\/1.0 (http:\/\/www.feedhub.com)",
+          "match": "FeedHub FeedFetcher/1.0 (http://www.feedhub.com)",
           "properties": {
             "Browser": "FeedHub FeedFetcher",
             "Version": "1.0",
@@ -34,7 +34,7 @@
           }
         },
         {
-          "match": "FeedHub MetaDataFetcher\/1.0 (http:\/\/www.feedhub.com)",
+          "match": "FeedHub MetaDataFetcher/1.0 (http://www.feedhub.com)",
           "properties": {
             "Browser": "FeedHub MetaDataFetcher",
             "Version": "1.0",

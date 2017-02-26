@@ -23,7 +23,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (LG-C199 AppleWebkit\/* Browser\/Phantom\/V2.0*",
+          "match": "Mozilla/5.0 (LG-C199 AppleWebkit/* Browser/Phantom/V2.0*",
           "device": "LG C199",
           "properties": {
             "Version": "2.0",
@@ -32,11 +32,11 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (LG-C199 AppleWebkit\/* Browser\/Phantom\/*",
+          "match": "Mozilla/5.0 (LG-C199 AppleWebkit/* Browser/Phantom/*",
           "device": "LG C199"
         },
         {
-          "match": "Mozilla\/5.0 *AppleWebkit\/* Browser\/Phantom\/V2.0*",
+          "match": "Mozilla/5.0 *AppleWebkit/* Browser/Phantom/V2.0*",
           "properties": {
             "Version": "2.0",
             "MajorVer": "2",
@@ -44,7 +44,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 *AppleWebkit\/* Browser\/Phantom\/*"
+          "match": "Mozilla/5.0 *AppleWebkit/* Browser/Phantom/*"
         }
       ]
     }

@@ -16,7 +16,7 @@
       },
       "children": [
         {
-          "match": "Google-HTTP-Java-Client\/1.17*",
+          "match": "Google-HTTP-Java-Client/1.17*",
           "properties": {
             "Version": "1.17",
             "MajorVer": "1",
@@ -24,7 +24,7 @@
           }
         },
         {
-          "match": "Google-HTTP-Java-Client\/*"
+          "match": "Google-HTTP-Java-Client/*"
         }
       ]
     }

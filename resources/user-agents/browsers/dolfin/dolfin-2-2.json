@@ -28,21 +28,21 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (SAMSUNG; SAMSUNG-GT-S8500#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Dolfin\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-S8500#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) Dolfin/#MAJORVER#.#MINORVER#*",
           "device": "Samsung GT-S8500",
           "platforms": [
             "Bada_1_2"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (SAMSUNG; SAMSUNG-GT-S8530#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Dolfin\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-S8530#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) Dolfin/#MAJORVER#.#MINORVER#*",
           "device": "Samsung GT-S8530",
           "platforms": [
             "Bada_1_2"
           ]
         },
         {
-          "match": "*Dolphin\/#MAJORVER#.#MINORVER#*"
+          "match": "*Dolphin/#MAJORVER#.#MINORVER#*"
         }
       ]
     }

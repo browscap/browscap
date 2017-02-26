@@ -18,16 +18,16 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (compatible; Konqueror\/*; Linux) KHTML\/* (like Gecko) (Exabot-Thumbnails)"
+          "match": "Mozilla/5.0 (compatible; Konqueror/*; Linux) KHTML/* (like Gecko) (Exabot-Thumbnails)"
         },
         {
-          "match": "Exabot-Test\/*",
+          "match": "Exabot-Test/*",
           "properties": {
             "Browser": "Exabot-Test"
           }
         },
         {
-          "match": "Exabot\/2.0",
+          "match": "Exabot/2.0",
           "properties": {
             "Browser": "Exabot",
             "Version": "2.0",
@@ -36,7 +36,7 @@
           }
         },
         {
-          "match": "Exabot\/3.0",
+          "match": "Exabot/3.0",
           "properties": {
             "Browser": "Exabot",
             "Version": "3.0",
@@ -45,16 +45,16 @@
           }
         },
         {
-          "match": "Exabot\/*"
+          "match": "Exabot/*"
         },
         {
-          "match": "Exalead NG\/*",
+          "match": "Exalead NG/*",
           "properties": {
             "Browser": "Exalead NG"
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; Exabot\/3.0*)",
+          "match": "Mozilla/5.0 (compatible; Exabot/3.0*)",
           "properties": {
             "Browser": "Exabot",
             "Version": "3.0",
@@ -63,25 +63,25 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; Exabot\/*)",
+          "match": "Mozilla/5.0 (compatible; Exabot/*)",
           "properties": {
             "Browser": "Exabot"
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; NGBot\/*)",
+          "match": "Mozilla/5.0 (compatible; NGBot/*)",
           "properties": {
             "Browser": "NGBot"
           }
         },
         {
-          "match": "NG-Search\/*",
+          "match": "NG-Search/*",
           "properties": {
             "Browser": "NG-Search"
           }
         },
         {
-          "match": "ng\/*",
+          "match": "ng/*",
           "properties": {
             "Browser": "Exalead Previewer"
           }

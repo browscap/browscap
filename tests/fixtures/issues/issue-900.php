@@ -1382,7 +1382,7 @@ return [
     'issue-900-AB' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 4.01; AOL 4.0; Mac_68K)',
         'properties' => [
-            'Comment' => 'IE 4.01',
+            'Comment' => 'IE Mac 4.01',
             'Browser' => 'IE',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -9101,7 +9101,7 @@ return [
             'Crawler' => false,
             'isFake' => false,
             'isAnonymized' => false,
-            'isModified' => false,
+            'isModified' => true,
             'CssVersion' => '3',
             'AolVersion' => '0',
             'Device_Name' => 'general Desktop',

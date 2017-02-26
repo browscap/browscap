@@ -15,37 +15,37 @@
       },
       "children": [
         {
-          "match": "BookmarkBase(2\/;http:\/\/bookmarkbase.com)",
+          "match": "BookmarkBase(2/;http://bookmarkbase.com)",
           "properties": {
             "Browser": "BookmarkBase"
           }
         },
         {
-          "match": "Cocoal.icio.us\/1.0 (v43) (Mac OS X; http:\/\/www.scifihifi.com\/cocoalicious)",
+          "match": "Cocoal.icio.us/1.0 (v43) (Mac OS X; http://www.scifihifi.com/cocoalicious)",
           "properties": {
             "Browser": "Cocoalicious"
           }
         },
         {
-          "match": "Mozilla\/5.0 (*) Gecko* Firefox\/2.0 OneRiot\/1.0 (http:\/\/www.oneriot.com) ",
+          "match": "Mozilla/5.0 (*) Gecko* Firefox/2.0 OneRiot/1.0 (http://www.oneriot.com) ",
           "properties": {
             "Browser": "OneRiot"
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; FriendFeedBot\/0.*; +Http:\/\/friendfeed.com\/about\/bot)",
+          "match": "Mozilla/5.0 (compatible; FriendFeedBot/0.*; +Http://friendfeed.com/about/bot)",
           "properties": {
             "Browser": "FriendFeedBot"
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; Twitturls; +http:\/\/twitturls.com)",
+          "match": "Mozilla/5.0 (compatible; Twitturls; +http://twitturls.com)",
           "properties": {
             "Browser": "Twitturls"
           }
         },
         {
-          "match": "SocialSpider-Finder\/0.*",
+          "match": "SocialSpider-Finder/0.*",
           "properties": {
             "Browser": "SocialSpider-Finder"
           }
@@ -57,19 +57,19 @@
           }
         },
         {
-          "match": "WinkBot\/*",
+          "match": "WinkBot/*",
           "properties": {
             "Browser": "WinkBot"
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; FriendFeedBot\/*; +Http:\/\/friendfeed.com\/about\/bot)",
+          "match": "Mozilla/5.0 (compatible; FriendFeedBot/*; +Http://friendfeed.com/about/bot)",
           "properties": {
             "Browser": "FriendFeedBot"
           }
         },
         {
-          "match": "Mozilla\/5.0 (*Gecko* Firefox\/2.0 OneRiot\/1.0 (http:\/\/www.oneriot.com) ",
+          "match": "Mozilla/5.0 (*Gecko* Firefox/2.0 OneRiot/1.0 (http://www.oneriot.com) ",
           "properties": {
             "Browser": "OneRiot"
           }
@@ -96,7 +96,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; Embedly\/0.2*",
+          "match": "Mozilla/5.0 (compatible; Embedly/0.2*",
           "properties": {
             "Browser": "Embedly",
             "Browser_Maker": "embed.ly",
@@ -106,14 +106,14 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; Embedly\/*",
+          "match": "Mozilla/5.0 (compatible; Embedly/*",
           "properties": {
             "Browser": "Embedly",
             "Browser_Maker": "embed.ly"
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; Linux; Socialradarbot\/2.0*",
+          "match": "Mozilla/5.0 (compatible; Linux; Socialradarbot/2.0*",
           "properties": {
             "Browser": "Socialradar Bot",
             "Browser_Maker": "infegy.com",
@@ -123,14 +123,14 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; Linux; Socialradarbot\/*",
+          "match": "Mozilla/5.0 (compatible; Linux; Socialradarbot/*",
           "properties": {
             "Browser": "Socialradar Bot",
             "Browser_Maker": "infegy.com"
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; EveryoneSocialBot\/1.0*",
+          "match": "Mozilla/5.0 (compatible; EveryoneSocialBot/1.0*",
           "properties": {
             "Browser": "EveryoneSocialBot",
             "Browser_Maker": "EveryoneSocial",
@@ -140,7 +140,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; EveryoneSocialBot\/*",
+          "match": "Mozilla/5.0 (compatible; EveryoneSocialBot/*",
           "properties": {
             "Browser": "EveryoneSocialBot",
             "Browser_Maker": "EveryoneSocial"
@@ -161,7 +161,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; Linux; InfegyAtlas\/1.0*",
+          "match": "Mozilla/5.0 (compatible; Linux; InfegyAtlas/1.0*",
           "properties": {
             "Browser": "InfegyAtlas",
             "Browser_Maker": "infegy.com",
@@ -171,14 +171,14 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; Linux; InfegyAtlas\/*",
+          "match": "Mozilla/5.0 (compatible; Linux; InfegyAtlas/*",
           "properties": {
             "Browser": "InfegyAtlas",
             "Browser_Maker": "infegy.com"
           }
         },
         {
-          "match": "QuickiWiki\/1.0*",
+          "match": "QuickiWiki/1.0*",
           "properties": {
             "Browser": "QuickiWiki Bot",
             "Browser_Maker": "QuickiWiki",
@@ -188,21 +188,21 @@
           }
         },
         {
-          "match": "QuickiWiki\/*",
+          "match": "QuickiWiki/*",
           "properties": {
             "Browser": "QuickiWiki Bot",
             "Browser_Maker": "QuickiWiki"
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; vkShare*",
+          "match": "Mozilla/5.0 (compatible; vkShare*",
           "properties": {
             "Browser": "vkShare",
             "Browser_Maker": "vk.com"
           }
         },
         {
-          "match": "seebot\/2.0*",
+          "match": "seebot/2.0*",
           "properties": {
             "Browser": "SeeBot",
             "Browser_Maker": "Seegnify",
@@ -212,14 +212,14 @@
           }
         },
         {
-          "match": "seebot\/*",
+          "match": "seebot/*",
           "properties": {
             "Browser": "SeeBot",
             "Browser_Maker": "Seegnify"
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; Kraken\/0.1*",
+          "match": "Mozilla/5.0 (compatible; Kraken/0.1*",
           "properties": {
             "Browser": "Kraken",
             "Browser_Maker": "Linkfluence SAS",
@@ -229,14 +229,14 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; Kraken\/*",
+          "match": "Mozilla/5.0 (compatible; Kraken/*",
           "properties": {
             "Browser": "Kraken",
             "Browser_Maker": "Linkfluence SAS"
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; Qwantify\/2.0*",
+          "match": "Mozilla/5.0 (compatible; Qwantify/2.0*",
           "properties": {
             "Browser": "Qwantify",
             "Browser_Maker": "QWANT SAS",
@@ -246,14 +246,14 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; Qwantify\/*",
+          "match": "Mozilla/5.0 (compatible; Qwantify/*",
           "properties": {
             "Browser": "Qwantify",
             "Browser_Maker": "QWANT SAS"
           }
         },
         {
-          "match": "NING\/1.0*",
+          "match": "NING/1.0*",
           "properties": {
             "Browser": "NING",
             "Browser_Maker": "Ning, Inc.",
@@ -263,7 +263,7 @@
           }
         },
         {
-          "match": "NING\/*",
+          "match": "NING/*",
           "properties": {
             "Browser": "NING",
             "Browser_Maker": "Ning, Inc."
@@ -294,14 +294,14 @@
           }
         },
         {
-          "match": "Kimengi\/nineconnections*",
+          "match": "Kimengi/nineconnections*",
           "properties": {
             "Browser": "nineconnections",
             "Browser_Maker": "Kimengi"
           }
         },
         {
-          "match": "Twikle\/1.0*",
+          "match": "Twikle/1.0*",
           "properties": {
             "Browser": "Twikle Bot",
             "Browser_Maker": "The NATEVIA Company",
@@ -311,7 +311,7 @@
           }
         },
         {
-          "match": "Twikle\/*",
+          "match": "Twikle/*",
           "properties": {
             "Browser": "Twikle Bot",
             "Browser_Maker": "The NATEVIA Company"
@@ -345,7 +345,7 @@
           }
         },
         {
-          "match": "Leadify\/1.01*",
+          "match": "Leadify/1.01*",
           "properties": {
             "Browser": "Leadify Bot",
             "Browser_Maker": "Greenbowl Island (Pty) Ltd",
@@ -355,7 +355,7 @@
           }
         },
         {
-          "match": "Leadify\/*",
+          "match": "Leadify/*",
           "properties": {
             "Browser": "Leadify Bot",
             "Browser_Maker": "Greenbowl Island (Pty) Ltd"
@@ -369,7 +369,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 ( compatible ; Veooz\/1.0*",
+          "match": "Mozilla/5.0 ( compatible ; Veooz/1.0*",
           "properties": {
             "Browser": "Veooz Bot",
             "Browser_Maker": "Veooz Labs",
@@ -379,7 +379,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 ( compatible ; Veooz\/*",
+          "match": "Mozilla/5.0 ( compatible ; Veooz/*",
           "properties": {
             "Browser": "Veooz Bot",
             "Browser_Maker": "Veooz Labs"

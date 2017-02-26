@@ -25,7 +25,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/4.0 (compatible*; MSIE 7.0; #PLATFORM#Trident\/4.0*Mozilla\/4.0 (compatible*; MSIE 6.0*Sleipnir?#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/4.0 (compatible*; MSIE 7.0; #PLATFORM#Trident/4.0*Mozilla/4.0 (compatible*; MSIE 6.0*Sleipnir?#MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
           "engine": "Trident_4",
           "platforms": [
@@ -37,7 +37,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible; MSIE 7.0; #PLATFORM#Trident\/4.0*Mozilla\/4.0 (compatible; MSIE 6.0*Sleipnir?#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (compatible; MSIE 7.0; #PLATFORM#Trident/4.0*Mozilla/4.0 (compatible; MSIE 6.0*Sleipnir?#MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
           "engine": "Trident_4",
           "platforms": [
@@ -49,7 +49,7 @@
           ]
         },
         {
-          "match": "Mozilla\/4.0 (compatible*; MSIE ?.0*; #PLATFORM#Mozilla\/4.0 (compatible*; MSIE 6.0*Sleipnir?#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/4.0 (compatible*; MSIE ?.0*; #PLATFORM#Mozilla/4.0 (compatible*; MSIE 6.0*Sleipnir?#MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
           "engine": "Trident",
           "platforms": [
@@ -62,7 +62,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible; MSIE ?.0*; #PLATFORM#Mozilla\/4.0 (compatible; MSIE 6.0*Sleipnir?#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (compatible; MSIE ?.0*; #PLATFORM#Mozilla/4.0 (compatible; MSIE 6.0*Sleipnir?#MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
           "engine": "Trident",
           "platforms": [
@@ -75,7 +75,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible; MSIE ?.0*; #PLATFORM#Trident\/5.0*Sleipnir?#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (compatible; MSIE ?.0*; #PLATFORM#Trident/5.0*Sleipnir?#MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
           "engine": "Trident_5",
           "platforms": [
@@ -88,7 +88,7 @@
           ]
         },
         {
-          "match": "Mozilla\/4.0 (compatible; MSIE ?.0*; #PLATFORM#Trident\/5.0*Sleipnir?#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/4.0 (compatible; MSIE ?.0*; #PLATFORM#Trident/5.0*Sleipnir?#MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
           "engine": "Trident_5",
           "platforms": [
@@ -101,7 +101,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible; MSIE ?.0*; #PLATFORM#Trident\/4.0*Sleipnir?#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (compatible; MSIE ?.0*; #PLATFORM#Trident/4.0*Sleipnir?#MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
           "engine": "Trident_4",
           "platforms": [
@@ -114,7 +114,7 @@
           ]
         },
         {
-          "match": "Mozilla\/4.0 (compatible; MSIE ?.0*; #PLATFORM#Trident\/4.0*Sleipnir?#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/4.0 (compatible; MSIE ?.0*; #PLATFORM#Trident/4.0*Sleipnir?#MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
           "engine": "Trident_4",
           "platforms": [
@@ -127,7 +127,7 @@
           ]
         },
         {
-          "match": "Mozilla\/4.0 (compatible; MSIE ?.0; #PLATFORM#Sleipnir?#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/4.0 (compatible; MSIE ?.0; #PLATFORM#Sleipnir?#MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
           "engine": "Trident",
           "platforms": [

@@ -19,14 +19,14 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (compatible;picmole\/1.* +http:\/\/www.picmole.com)",
+          "match": "Mozilla/5.0 (compatible;picmole/1.* +http://www.picmole.com)",
           "properties": {
             "Version": "1.0",
             "MajorVer": "1"
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible;picmole\/* +http:\/\/www.picmole.com)"
+          "match": "Mozilla/5.0 (compatible;picmole/* +http://www.picmole.com)"
         }
       ]
     }

@@ -27,7 +27,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/4.08 (Charon; Inferno*"
+          "match": "Mozilla/4.08 (Charon; Inferno*"
         }
       ]
     }

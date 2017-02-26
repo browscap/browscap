@@ -22,7 +22,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Avant TriCore) AppleWebKit\/* (KHTML* like Gecko) Chrome\/38.* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#Avant TriCore) AppleWebKit/* (*khtml*like*gecko*) Chrome/38.* Safari/*",
           "engine": "Blink",
           "platforms": [
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
@@ -34,7 +34,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Avant TriCore) AppleWebKit\/* (KHTML* like Gecko) Chrome\/37.* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#Avant TriCore) AppleWebKit/* (*khtml*like*gecko*) Chrome/37.* Safari/*",
           "engine": "Blink",
           "platforms": [
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
@@ -46,7 +46,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#rv:32.0; Avant TriCore) Gecko* Firefox\/32.*",
+          "match": "Mozilla/5.0 (#PLATFORM#rv:32.0; Avant TriCore) Gecko* Firefox/32.*",
           "engine": "Gecko_27",
           "platforms": [
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",

@@ -25,7 +25,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (iPad#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) Mobile\/* iLunascape\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (iPad#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) Mobile/* iLunascape/#MAJORVER#.#MINORVER#*",
           "device": "iPad",
           "platforms": [
             "iOS_C_4_2"

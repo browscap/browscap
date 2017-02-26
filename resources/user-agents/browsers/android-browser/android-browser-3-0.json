@@ -28,117 +28,117 @@
       },
       "children": [
         {
-          "match": "*Mozilla\/5.0 (#PLATFORM#GT-I5700 Build\/*)*AppleWebKit\/*(*KHTML* like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "*Mozilla/5.0 (#PLATFORM#GT-I5700 Build/*)*AppleWebKit/*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari/*",
           "device": "Samsung GT-I5700",
           "platforms": [
             "Android_4_1"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#A70BH Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#A70BH Build/*) AppleWebKit/* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari/*",
           "device": "Archos A70BH",
           "platforms": [
             "Android_1_0"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#A70BHT Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#A70BHT Build/*) AppleWebKit/* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari/*",
           "device": "Archos A70BHT",
           "platforms": [
             "Android_1_0"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#A70CHT Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#A70CHT Build/*) AppleWebKit/* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari/*",
           "device": "Archos A70CHT",
           "platforms": [
             "Android_1_0"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#A70HB Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#A70HB Build/*) AppleWebKit/* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari/*",
           "device": "Archos A70HB",
           "platforms": [
             "Android_1_0"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#A7EB Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#A7EB Build/*) AppleWebKit/* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari/*",
           "device": "Archos 70c",
           "platforms": [
             "Android_1_0"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#A80KSC Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#A80KSC Build/*) AppleWebKit/* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari/*",
           "device": "Archos A80KSC",
           "platforms": [
             "Android_1_0"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#HTC_Dream Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#HTC_Dream Build/*) AppleWebKit/* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari/*",
           "device": "HTC Dream",
           "platforms": [
             "Android_1_0"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#dream Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#dream Build/*) AppleWebKit/* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari/*",
           "device": "HTC Dream",
           "platforms": [
             "Android_1_0", "Android_1_1"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Mobii 7 Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#Mobii 7 Build/*) AppleWebKit/* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari/*",
           "device": "Point of View Mobii 7",
           "platforms": [
             "Android_1_0"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#STM7UC Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#STM7UC Build/*) AppleWebKit/* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari/*",
           "device": "general Mobile Phone",
           "platforms": [
             "Android_1_0"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#STM7UH Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#STM7UH Build/*) AppleWebKit/* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari/*",
           "device": "general Mobile Phone",
           "platforms": [
             "Android_1_0"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#generic Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#generic Build/*) AppleWebKit/* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari/*",
           "platforms": [
             "Android_1_0"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#AppleWebKit/* (*khtml*like*gecko*) Version/*Safari/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "Android_1_0", "Android_1_1"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#A101B Build\/*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#A101B Build/*) AppleWebKit/* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari/*",
           "device": "Archos A101B",
           "platforms": [
             "Android_1_1"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#dream*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#dream*) AppleWebKit/* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari/*",
           "device": "HTC Dream",
           "platforms": [
             "Android_1_0", "Android_1_1"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/*(*KHTML* like Gecko*)*Version\/#MAJORVER#.#MINORVER#*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#)*AppleWebKit/*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari/*",
           "platforms": [
             "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6", "Android_4_1", "Android"
           ]

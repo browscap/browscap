@@ -22,7 +22,7 @@
       },
       "children": [
         {
-          "match": "AppleCoreMedia\/#MAJORVER#.#MINORVER#* (iPod#PLATFORM#)*",
+          "match": "AppleCoreMedia/#MAJORVER#.#MINORVER#* (iPod#PLATFORM#)*",
           "device": "iPod Touch",
           "platforms": [
             "iOS_C_4_0", "iOS_C_4_1", "iOS_C_4_2", "iOS_C_4_3", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0",
@@ -30,7 +30,7 @@
           ]
         },
         {
-          "match": "AppleCoreMedia\/#MAJORVER#.#MINORVER#* (iPhone#PLATFORM#)*",
+          "match": "AppleCoreMedia/#MAJORVER#.#MINORVER#* (iPhone#PLATFORM#)*",
           "device": "iPhone",
           "platforms": [
             "iOS_C_4_0", "iOS_C_4_1", "iOS_C_4_2", "iOS_C_4_3", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0",
@@ -38,7 +38,7 @@
           ]
         },
         {
-          "match": "AppleCoreMedia\/#MAJORVER#.#MINORVER#* (iPad#PLATFORM#)*",
+          "match": "AppleCoreMedia/#MAJORVER#.#MINORVER#* (iPad#PLATFORM#)*",
           "device": "iPad",
           "platforms": [
             "iOS_C_4_0", "iOS_C_4_1", "iOS_C_4_2", "iOS_C_4_3", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0",
@@ -46,21 +46,21 @@
           ]
         },
         {
-          "match": "AppleCoreMedia\/#MAJORVER#.#MINORVER#* (Apple TV#PLATFORM#)*",
+          "match": "AppleCoreMedia/#MAJORVER#.#MINORVER#* (Apple TV#PLATFORM#)*",
           "device": "Apple AppleTV",
           "platforms": [
             "ATV_OSX_8_3", "ATV_OSX"
           ]
         },
         {
-          "match": "AppleCoreMedia\/#MAJORVER#.#MINORVER#* (#PLATFORM#)*",
+          "match": "AppleCoreMedia/#MAJORVER#.#MINORVER#* (#PLATFORM#)*",
           "platforms": [
             "iOS_C_4_0", "iOS_C_4_1", "iOS_C_4_2", "iOS_C_4_3", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0",
             "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_1", "iOS_C_8_0", "iOS_C"
           ]
         },
         {
-          "match": "AppleCoreMedia\/#MAJORVER#.#MINORVER#* (#PLATFORM#)*",
+          "match": "AppleCoreMedia/#MAJORVER#.#MINORVER#* (#PLATFORM#)*",
           "device": "Macintosh",
           "platforms": [
             "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10", "OSX"

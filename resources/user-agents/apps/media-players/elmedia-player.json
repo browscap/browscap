@@ -18,7 +18,7 @@
       },
       "children": [
         {
-          "match": "ElmediaPlayer Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Version\/* Safari\/*",
+          "match": "ElmediaPlayer Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) Version/* Safari/*",
           "platforms": [
             "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10", "OSX"
           ]

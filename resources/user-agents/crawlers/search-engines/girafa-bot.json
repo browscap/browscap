@@ -18,7 +18,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/4.0 (compatible*; MSIE 7.0; #PLATFORM#Trident\/4.0*Mozilla\/4.0 (compatible*; MSIE 6.0*Girafabot*",
+          "match": "Mozilla/4.0 (compatible*; MSIE 7.0; #PLATFORM#Trident/4.0*Mozilla/4.0 (compatible*; MSIE 6.0*Girafabot*",
           "engine": "Trident_4",
           "platforms": [
             "NT4",
@@ -28,7 +28,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible; MSIE 7.0; #PLATFORM#Trident\/4.0*Mozilla\/4.0 (compatible; MSIE 6.0*Girafabot*",
+          "match": "Mozilla/5.0 (compatible; MSIE 7.0; #PLATFORM#Trident/4.0*Mozilla/4.0 (compatible; MSIE 6.0*Girafabot*",
           "engine": "Trident_4",
           "platforms": [
             "NT4",
@@ -38,7 +38,7 @@
           ]
         },
         {
-          "match": "Mozilla\/4.0 (compatible*; MSIE ?.0*; #PLATFORM#Mozilla\/4.0 (compatible*; MSIE 6.0*Girafabot*",
+          "match": "Mozilla/4.0 (compatible*; MSIE ?.0*; #PLATFORM#Mozilla/4.0 (compatible*; MSIE 6.0*Girafabot*",
           "platforms": [
             "NT4", "Win2000",
             "WinXPa_x64", "WinXPa_64", "WinXPa_32",
@@ -47,7 +47,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible; MSIE ?.0*; #PLATFORM#Mozilla\/4.0 (compatible; MSIE 6.0*Girafabot*",
+          "match": "Mozilla/5.0 (compatible; MSIE ?.0*; #PLATFORM#Mozilla/4.0 (compatible; MSIE 6.0*Girafabot*",
           "platforms": [
             "NT4", "Win2000",
             "WinXPa_x64", "WinXPa_64", "WinXPa_32",
@@ -56,7 +56,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible; MSIE ?.0*; #PLATFORM#Trident\/5.0*Girafabot*",
+          "match": "Mozilla/5.0 (compatible; MSIE ?.0*; #PLATFORM#Trident/5.0*Girafabot*",
           "engine": "Trident_5",
           "platforms": [
             "NT4", "Win2000",
@@ -66,7 +66,7 @@
           ]
         },
         {
-          "match": "Mozilla\/4.0 (compatible; MSIE ?.0*; #PLATFORM#Trident\/5.0*Girafabot*",
+          "match": "Mozilla/4.0 (compatible; MSIE ?.0*; #PLATFORM#Trident/5.0*Girafabot*",
           "engine": "Trident_5",
           "platforms": [
             "NT4", "Win2000",
@@ -76,7 +76,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible; MSIE ?.0*; #PLATFORM#Trident\/4.0*Girafabot*",
+          "match": "Mozilla/5.0 (compatible; MSIE ?.0*; #PLATFORM#Trident/4.0*Girafabot*",
           "engine": "Trident_4",
           "platforms": [
             "NT4", "Win2000",
@@ -86,7 +86,7 @@
           ]
         },
         {
-          "match": "Mozilla\/4.0 (compatible; MSIE ?.0*; #PLATFORM#Trident\/4.0*Girafabot*",
+          "match": "Mozilla/4.0 (compatible; MSIE ?.0*; #PLATFORM#Trident/4.0*Girafabot*",
           "engine": "Trident_4",
           "platforms": [
             "NT4", "Win2000",
@@ -96,7 +96,7 @@
           ]
         },
         {
-          "match": "Mozilla\/4.0 (compatible; MSIE ?.0; #PLATFORM#Girafabot*",
+          "match": "Mozilla/4.0 (compatible; MSIE ?.0; #PLATFORM#Girafabot*",
           "platforms": [
             "NT4", "Win2000",
             "WinXPa_x64", "WinXPa_64", "WinXPa_32",

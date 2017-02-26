@@ -27,76 +27,76 @@
       },
       "children": [
         {
-          "match": "HD_mini_T5555 Opera\/#MAJORVER#.#MINORVER#*",
+          "match": "HD_mini_T5555 Opera/#MAJORVER#.#MINORVER#*",
           "device": "HTC HD mini T5555"
         },
         {
-          "match": "HTC_HD2_T8585 Opera\/#MAJORVER#.#MINORVER#*",
+          "match": "HTC_HD2_T8585 Opera/#MAJORVER#.#MINORVER#*",
           "device": "HTC HD2 T8585"
         },
         {
-          "match": "HTC_HD2_T9193 Opera\/#MAJORVER#.#MINORVER#*",
+          "match": "HTC_HD2_T9193 Opera/#MAJORVER#.#MINORVER#*",
           "device": "HTC HD2 T9193"
         },
         {
-          "match": "HTC_HD_T8282 Opera\/#MAJORVER#.#MINORVER#*",
+          "match": "HTC_HD_T8282 Opera/#MAJORVER#.#MINORVER#*",
           "device": "HTC HD T8282"
         },
         {
-          "match": "HTC_HD_mini_T5555 Opera\/#MAJORVER#.#MINORVER#*",
+          "match": "HTC_HD_mini_T5555 Opera/#MAJORVER#.#MINORVER#*",
           "device": "HTC HD mini T5555"
         },
         {
-          "match": "HTC_Touch_Diamond2_T5353 Opera\/#MAJORVER#.#MINORVER#*",
+          "match": "HTC_Touch_Diamond2_T5353 Opera/#MAJORVER#.#MINORVER#*",
           "device": "HTC Touch Diamond2 T5353"
         },
         {
-          "match": "HTC_Touch_HD2_T8585 Opera\/#MAJORVER#.#MINORVER#*",
+          "match": "HTC_Touch_HD2_T8585 Opera/#MAJORVER#.#MINORVER#*",
           "device": "HTC Touch HD2 T8585"
         },
         {
-          "match": "HTC_Touch_Pro2_T7373 Opera\/#MAJORVER#.#MINORVER#*",
+          "match": "HTC_Touch_Pro2_T7373 Opera/#MAJORVER#.#MINORVER#*",
           "device": "HTC Touch Pro2 T7373"
         },
         {
-          "match": "HTC_Xperia Opera\/#MAJORVER#.#MINORVER#*",
+          "match": "HTC_Xperia Opera/#MAJORVER#.#MINORVER#*",
           "device": "HTC Xperia"
         },
         {
-          "match": "HUAWEI-M735\/* Opera\/#MAJORVER#.#MINORVER#*",
+          "match": "HUAWEI-M735/* Opera/#MAJORVER#.#MINORVER#*",
           "device": "Huawei M735"
         },
         {
-          "match": "Vodafone\/1.0\/HTC_HD2\/* Opera\/#MAJORVER#.#MINORVER#*",
+          "match": "Vodafone/1.0/HTC_HD2/* Opera/#MAJORVER#.#MINORVER#*",
           "device": "HTC HD2"
         },
         {
-          "match": "Vodafone\/1.0\/HTC_HD_mini\/Opera #MAJORVER#.#MINORVER#*",
+          "match": "Vodafone/1.0/HTC_HD_mini/Opera #MAJORVER#.#MINORVER#*",
           "device": "HTC HD mini"
         },
         {
-          "match": "Opera?#MAJORVER#.#MINORVER#* (Windows NT 5.1; HTC_HD2\/1.0; ?*)",
+          "match": "Opera?#MAJORVER#.#MINORVER#* (Windows NT 5.1; HTC_HD2/1.0; ?*)",
           "device": "HTC HD2",
           "platforms": [
             "WinMobile"
           ]
         },
         {
-          "match": "HTC_HD_mini_T5555 Opera\/#MAJORVER#.#MINORVER#* (Windows NT 5.1; U*)",
+          "match": "HTC_HD_mini_T5555 Opera/#MAJORVER#.#MINORVER#* (Windows NT 5.1; U*)",
           "device": "HTC HD mini T5555",
           "platforms": [
             "WinMobile"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (HTC-T9199\/*;U;Windows Mobile\/6.5;*;*;CTC\/2.0) Opera\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (HTC-T9199/*;U;Windows Mobile/6.5;*;*;CTC/2.0) Opera/#MAJORVER#.#MINORVER#*",
           "device": "HTC T9199",
           "platforms": [
             "WinMobile"
           ]
         },
         {
-          "match": "Vodafone\/1.0\/HTC_HD2\/* (*Opera\/#MAJORVER#.#MINORVER#* (Windows NT 5.1; U*)",
+          "match": "Vodafone/1.0/HTC_HD2/* (*Opera/#MAJORVER#.#MINORVER#* (Windows NT 5.1; U*)",
           "device": "HTC HD2",
           "platforms": [
             "WinMobile"

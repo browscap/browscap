@@ -23,39 +23,39 @@
       },
       "children": [
         {
-          "match": "Mozilla\/?.*(#PLATFORM#)*Opera?*",
+          "match": "Mozilla/?.*(#PLATFORM#)*Opera?*",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "Opera\/*(*Android*Opera Mobi*)*",
+          "match": "Opera/*(*Android*Opera Mobi*)*",
           "platforms": [
             "Android"
           ]
         },
         {
-          "match": "Opera\/*(*Microsoft Windows*Opera Mobi*)*",
+          "match": "Opera/*(*Microsoft Windows*Opera Mobi*)*",
           "platforms": [
             "WinMobile"
           ]
         },
         {
-          "match": "Opera\/*(*Symbian*Opera Mobi*)*",
+          "match": "Opera/*(*Symbian*Opera Mobi*)*",
           "device": "general Mobile Phone",
           "platforms": [
             "SymbianOS"
           ]
         },
         {
-          "match": "Opera\/*(*SymbOS*Opera Mobi*)*",
+          "match": "Opera/*(*SymbOS*Opera Mobi*)*",
           "device": "general Mobile Phone",
           "platforms": [
             "SymbianOS"
           ]
         },
         {
-          "match": "Opera\/*(#PLATFORM#Opera Mobi*)*",
+          "match": "Opera/*(#PLATFORM#Opera Mobi*)*",
           "platforms": [
             "WinMobile"
           ]

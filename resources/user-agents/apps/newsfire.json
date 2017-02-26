@@ -26,14 +26,14 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) NewsFire*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) NewsFire*",
           "platforms": [
             "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
             "OSX"
           ]
         },
         {
-          "match": "NewsFire\/*"
+          "match": "NewsFire/*"
         }
       ]
     }

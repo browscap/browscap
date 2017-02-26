@@ -32,7 +32,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/2.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE*)",
+          "match": "Mozilla/2.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE*)",
           "platforms": [
             "WinCE"
           ]

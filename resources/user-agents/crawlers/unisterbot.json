@@ -24,7 +24,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (compatible; UnisterBot*"
+          "match": "Mozilla/5.0 (compatible; UnisterBot*"
         },
         {
           "match": "UnisterBot *"
@@ -60,7 +60,7 @@
           "match": "unister-test-acceptance"
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Firefox\/* Iceweasel\/* unister-test-acceptance",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* Iceweasel/* unister-test-acceptance",
           "device": "Linux Desktop",
           "platforms": [
             "Linux_64", "Linux_32", "Linux"

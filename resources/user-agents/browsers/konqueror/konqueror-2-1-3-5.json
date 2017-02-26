@@ -31,33 +31,33 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (compatible; Konqueror\/#MAJORVER#.#MINORVER##PLATFORM#",
+          "match": "Mozilla/5.0 (compatible; Konqueror/#MAJORVER#.#MINORVER##PLATFORM#",
           "device": "Linux Desktop",
           "platforms": [
             "Linux"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible; Konqueror\/#MAJORVER#.#MINORVER##PLATFORM#",
+          "match": "Mozilla/5.0 (compatible; Konqueror/#MAJORVER#.#MINORVER##PLATFORM#",
           "platforms": [
             "FreeBSD", "OpenBSD"
           ]
         },
         {
-          "match": "*Konqueror\/#MAJORVER#.#MINORVER##PLATFORM#",
+          "match": "*Konqueror/#MAJORVER#.#MINORVER##PLATFORM#",
           "device": "Linux Desktop",
           "platforms": [
             "Linux"
           ]
         },
         {
-          "match": "*Konqueror\/#MAJORVER#.#MINORVER##PLATFORM#",
+          "match": "*Konqueror/#MAJORVER#.#MINORVER##PLATFORM#",
           "platforms": [
             "FreeBSD", "OpenBSD"
           ]
         },
         {
-          "match": "*Konqueror\/#MAJORVER#.#MINORVER#*"
+          "match": "*Konqueror/#MAJORVER#.#MINORVER#*"
         }
       ]
     }

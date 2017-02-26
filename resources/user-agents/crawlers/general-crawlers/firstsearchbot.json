@@ -15,7 +15,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (compatible; FirstSearchBot\/1.0; *)",
+          "match": "Mozilla/5.0 (compatible; FirstSearchBot/1.0; *)",
           "properties": {
             "Version": "1.0",
             "MajorVer": "1",
@@ -23,7 +23,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; FirstSearchBot\/*)"
+          "match": "Mozilla/5.0 (compatible; FirstSearchBot/*)"
         }
       ]
     }

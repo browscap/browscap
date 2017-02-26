@@ -23,17 +23,17 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) FlyFlow\/* Version\/*Safari\/* T5\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) FlyFlow/* Version/*Safari/* T5/*",
           "engine": "T5",
           "platforms": [
-            "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android"
+            "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) FlyFlow\/* Version\/*Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) FlyFlow/* Version/*Safari/*",
           "engine": "WebKit",
           "platforms": [
-            "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android"
+            "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android"
           ]
         }
       ]

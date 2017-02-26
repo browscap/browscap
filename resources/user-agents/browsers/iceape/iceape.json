@@ -26,7 +26,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Iceape\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Iceape/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "Linux_64", "Linux_32", "Linux"
           ]

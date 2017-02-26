@@ -23,7 +23,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (DTV) AppleWebKit\/* (KHTML* like Gecko) Espial\/6.1* AQUOSBrowser\/2.0 (US01DTV;V;0001;0001)*",
+          "match": "Mozilla/5.0 (DTV) AppleWebKit/* (*khtml*like*gecko*) Espial/6.1* AQUOSBrowser/2.0 (US01DTV;V;0001;0001)*",
           "device": "Sharp Aquos TV",
           "properties": {
             "Version": "6.1",

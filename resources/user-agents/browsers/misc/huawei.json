@@ -25,19 +25,19 @@
       },
       "children": [
         {
-          "match": "Huawei-U526\/1.0 BREW\/3.1 Browser\/#MAJORVER#.#MINORVER# *",
+          "match": "Huawei-U526/1.0 BREW/3.1 Browser/#MAJORVER#.#MINORVER# *",
           "platforms": [
             "Brew"
           ]
         },
         {
-          "match": "Huawei-U626\/1.0 BREW\/2.1 Browser\/#MAJORVER#.#MINORVER# *",
+          "match": "Huawei-U626/1.0 BREW/2.1 Browser/#MAJORVER#.#MINORVER# *",
           "platforms": [
             "Brew"
           ]
         },
         {
-          "match": "Huawei-U636\/1.0 BREW\/2.1 Browser\/#MAJORVER#.#MINORVER# *",
+          "match": "Huawei-U636/1.0 BREW/2.1 Browser/#MAJORVER#.#MINORVER# *",
           "platforms": [
             "Brew"
           ]

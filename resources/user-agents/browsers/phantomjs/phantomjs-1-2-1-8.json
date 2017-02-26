@@ -27,14 +27,14 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML,*like Gecko*) PhantomJS\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) PhantomJS/#MAJORVER#.#MINORVER#*",
           "device": "Linux Desktop",
           "platforms": [
             "Linux_64", "Linux"
           ]
         },
         {
-          "match": "PhantomJS\/#MAJORVER#.#MINORVER#*"
+          "match": "PhantomJS/#MAJORVER#.#MINORVER#*"
         }
       ]
     }

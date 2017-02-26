@@ -15,7 +15,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (compatible; Crawly\/1.*; +http:\/\/*\/crawler.html)",
+          "match": "Mozilla/5.0 (compatible; Crawly/1.*; +http://*/crawler.html)",
           "properties": {
             "Version": "1.0",
             "MajorVer": "1",

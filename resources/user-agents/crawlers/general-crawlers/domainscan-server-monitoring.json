@@ -19,7 +19,7 @@
           "match": "DomainSCAN*"
         },
         {
-          "match": "Mozilla\/5.0 (compatible; DomainSCAN\/2.0*",
+          "match": "Mozilla/5.0 (compatible; DomainSCAN/2.0*",
           "properties": {
             "Version": "2.0",
             "MajorVer": "2",
@@ -27,7 +27,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; DomainSCAN\/*"
+          "match": "Mozilla/5.0 (compatible; DomainSCAN/*"
         }
       ]
     }

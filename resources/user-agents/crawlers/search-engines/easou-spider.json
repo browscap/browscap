@@ -16,10 +16,10 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (compatible; EasouSpider*"
+          "match": "Mozilla/5.0 (compatible; EasouSpider*"
         },
         {
-          "match": "Mozilla\/5.0 (iPhone; #PLATFORM#; EasouSpider*",
+          "match": "Mozilla/5.0 (iPhone; #PLATFORM#; EasouSpider*",
           "device": "iPhone",
           "engine": "WebKit",
           "platforms": [
@@ -27,7 +27,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#; EasouSpider*",
+          "match": "Mozilla/5.0 (#PLATFORM#; EasouSpider*",
           "device": "general Mobile Device (Apple)",
           "engine": "WebKit",
           "platforms": [

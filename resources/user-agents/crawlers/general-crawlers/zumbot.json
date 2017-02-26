@@ -16,7 +16,7 @@
       },
       "children": [
         {
-          "match": "ZumBot\/1.0*",
+          "match": "ZumBot/1.0*",
           "properties": {
             "Version": "1.0",
             "MajorVer": "1",
@@ -24,10 +24,10 @@
           }
         },
         {
-          "match": "ZumBot\/*"
+          "match": "ZumBot/*"
         },
         {
-          "match": "Mozilla\/5.0 (compatible; ZumBot\/1.0*",
+          "match": "Mozilla/5.0 (compatible; ZumBot/1.0*",
           "properties": {
             "Version": "1.0",
             "MajorVer": "1",
@@ -35,7 +35,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; ZumBot\/*"
+          "match": "Mozilla/5.0 (compatible; ZumBot/*"
         }
       ]
     }

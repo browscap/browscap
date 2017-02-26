@@ -16,7 +16,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (compatible; LinkpadBot\/1.06*",
+          "match": "Mozilla/5.0 (compatible; LinkpadBot/1.06*",
           "properties": {
             "Version": "1.06",
             "MajorVer": "1",
@@ -24,7 +24,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; LinkpadBot\/*"
+          "match": "Mozilla/5.0 (compatible; LinkpadBot/*"
         }
       ]
     }

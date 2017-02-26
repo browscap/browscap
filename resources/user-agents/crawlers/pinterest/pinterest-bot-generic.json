@@ -23,7 +23,7 @@
       },
       "children": [
         {
-          "match": "Pinterest\/*"
+          "match": "Pinterest/*"
         }
       ]
     }
