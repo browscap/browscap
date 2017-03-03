@@ -78,7 +78,6 @@ foreach ($ids as $idLine) {
         $files[$file] = ['ids' => [], 'covered' => []];
     }
 
-    //$files[$file]['ids']++;
     $files[$file]['ids'][] = substr($idLine, strpos($idLine, '::') + 2);
 }
 
@@ -89,18 +88,13 @@ foreach ($covered as $idLine) {
         $files[$file] = ['ids' => [], 'covered' => []];
     }
 
-    //$files[$file]['ids']++;
     $files[$file]['covered'][] = substr($idLine, strpos($idLine, '::') + 2);
 }
 
 $coverage = [];
-
 $funcCount = 0;
 
-$i = 0;
-
 foreach ($files as $file => $data) {
-
     $coveredLines = [];
     $touchedLines = [];
 
@@ -192,8 +186,7 @@ foreach ($files as $file => $data) {
                     } else {
                         $c++;
                     }
-                }
-                if ($type == '}') {
+                } elseif ($type == '}') {
                     $state = 'inEachUa';
                     $c = null;
                 }
@@ -231,8 +224,6 @@ foreach ($files as $file => $data) {
                 if ($type == 'STRING' && $content == 'platforms') {
                     $state = 'inPlatforms';
                 } elseif ($type == 'STRING' && $content == 'devices') {
-                    // The closing } is caught inside the devices group
-                    $ignores[$state]['}']--;
                     $state = 'inDevices';
                 } elseif ($type == 'STRING' && $content == 'match') {
                     $collectMatchPosition = true;
@@ -251,9 +242,10 @@ foreach ($files as $file => $data) {
                             ]
                         ],
                     ];
-                    $coverage[$file]['f'][] = isCovered('u' . $u . '::c' . $c . '::d::p', $files[$file]['covered']);
+                    $functionCoverage = isCovered('u' . $u . '::c' . $c . '::d::p', $files[$file]['covered']);
+                    $coverage[$file]['f'][] = $functionCoverage;
                     @$touchedLines[$lexer->yylineno + 1]++;
-                    if (isCovered('u' . $u . '::c' . $c . '::d::p', $files[$file]['covered']) > 0) {
+                    if ($functionCoverage > 0) {
                         @$coveredLines[$lexer->yylineno + 1]++;
                     }
                     $funcCount++;
@@ -307,7 +299,7 @@ foreach ($files as $file => $data) {
                             'end' => $location['end'],
                         ];
                         @$touchedLines[$location['start']['line']]++;
-                        $coverage[$file]['s'][] += $location['coverCount'];
+                        $coverage[$file]['s'][] = $location['coverCount'];
                         if ($location['coverCount']) {
                             @$coveredLines[$location['start']['line']]++;
                         }
@@ -371,7 +363,7 @@ foreach ($files as $file => $data) {
                             'end' => $location['end'],
                         ];
                         @$touchedLines[$location['start']['line']]++;
-                        $coverage[$file]['s'][] += $location['coverCount'];
+                        $coverage[$file]['s'][] = $location['coverCount'];
                         if ($location['coverCount']) {
                             @$coveredLines[$location['start']['line']]++;
                         }
@@ -413,13 +405,6 @@ foreach ($files as $file => $data) {
     unset($coverage[$file]['f'][0]);
     array_unshift($coverage[$file]['s'], '');
     unset($coverage[$file]['s'][0]);
-
-    $i++;
-
-    //if ($i >= 50) {
-    //    print json_encode($coverage, JSON_UNESCAPED_SLASHES);
-    //    exit;
-    //}
 }
 
-print json_encode($coverage);
+file_put_contents('coverage.json', str_replace('[]', '{}', json_encode($coverage, JSON_UNESCAPED_SLASHES)));
