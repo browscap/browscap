@@ -53,7 +53,8 @@
         "RenderingEngine_Name": "unknown",
         "RenderingEngine_Version": "unknown",
         "RenderingEngine_Description": "unknown",
-        "RenderingEngine_Maker": "unknown"
+        "RenderingEngine_Maker": "unknown",
+        "PatternId": "resources/core/default-properties.json::u0"
       }
     }
   ]

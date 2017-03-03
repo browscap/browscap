@@ -42,6 +42,10 @@ class Expander
      */
     private $logger = null;
 
+    private $patternId = [];
+
+    private $patternIds = [];
+
     /**
      * Set the data collection
      *
@@ -89,6 +93,18 @@ class Expander
         return $this->expandProperties($allInputDivisions);
     }
 
+    private function resetPatternId()
+    {
+        $this->patternId = [
+            'division' => '',
+            'useragent' => '',
+            'platform' => '',
+            'device' => '',
+            'child' => '',
+            'engine' => '',
+        ];
+    }
+
     /**
      * Render a single division
      *
@@ -101,7 +117,14 @@ class Expander
     {
         $output = [];
 
+        //$patternIdBase = 'd' . trim(str_replace(['#MAJORVER#.#MINORVER#', '#MAJORVER#'], '', $division->getName())) . '::';
+
+        $i = 0;
         foreach ($division->getUserAgents() as $uaData) {
+            $this->resetPatternId();
+            $this->patternId['division'] = $division->getFileName();
+            $this->patternId['useragent'] = $i;
+
             $output = array_merge(
                 $output,
                 $this->parseUserAgent(
@@ -112,6 +135,7 @@ class Expander
                     $divisionName
                 )
             );
+            $i++;
         }
 
         return $output;
@@ -141,6 +165,7 @@ class Expander
         }
 
         if (array_key_exists('platform', $uaData)) {
+            $this->patternId['platform'] = $uaData['platform'];
             $platform = $this->getDataCollection()->getPlatform($uaData['platform']);
 
             if (!$platform->isLite()) {
@@ -153,6 +178,7 @@ class Expander
 
             $platformData = $platform->getProperties();
         } else {
+            $this->patternId['platform'] = '';
             $platformData = [];
         }
 
@@ -195,10 +221,13 @@ class Expander
             return $output;
         }
 
+        $i = 0;
         foreach ($uaData['children'] as $child) {
+            $this->patternId['child'] = $i;
             if (isset($child['devices']) && is_array($child['devices'])) {
                 // Replace our device array with a single device property with our #DEVICE# token replaced
                 foreach ($child['devices'] as $deviceMatch => $deviceName) {
+                    $this->patternId['device'] = $deviceMatch;
                     $subChild           = $child;
                     $subChild['match']  = str_replace('#DEVICE#', $deviceMatch, $subChild['match']);
                     $subChild['device'] = $deviceName;
@@ -209,11 +238,13 @@ class Expander
                     );
                 }
             } else {
+                $this->patternId['device'] = '';
                 $output = array_merge(
                     $output,
                     $this->parseChildren($ua, $child, $lite, $standard)
                 );
             }
+            $i++;
         }
 
         return $output;
@@ -268,6 +299,7 @@ class Expander
 
         if (isset($uaDataChild['platforms']) && is_array($uaDataChild['platforms'])) {
             foreach ($uaDataChild['platforms'] as $platform) {
+                $this->patternId['platform'] = $platform;
                 $properties   = ['Parent' => $ua, 'lite' => $lite, 'standard' => $standard];
                 $platformData = $this->getDataCollection()->getPlatform($platform);
 
@@ -313,6 +345,8 @@ class Expander
 
                     $properties = array_merge($properties, $childProperties);
                 }
+
+                $properties['PatternId'] = $this->getPatternId();
 
                 $output[$uaBase] = $properties;
             }
@@ -360,11 +394,38 @@ class Expander
             }
 
             $uaBase = str_replace('#PLATFORM#', '', $uaDataChild['match']);
+            $this->patternId['platform'] = '';
+
+            $properties['PatternId'] = $this->getPatternId();
 
             $output[$uaBase] = $properties;
         }
 
         return $output;
+    }
+
+    private function getPatternId()
+    {
+        $id = sprintf(
+            '%s::u%d::c%d::d%s::p%s',
+            $this->patternId['division'],
+            $this->patternId['useragent'],
+            $this->patternId['child'],
+            $this->patternId['device'],
+            $this->patternId['platform']
+        );
+
+        if (!isset($this->patternIds[$id])) {
+            $patternIds[$id] = 1;
+            //print $id . PHP_EOL;
+        }
+
+        return $id;
+    }
+
+    public function getPatternIds()
+    {
+        return array_keys($this->patternIds);
     }
 
     /**

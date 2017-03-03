@@ -59,6 +59,7 @@ class PropertyHolder
             'RenderingEngine_Maker' => 1,
             'Parent' => 1,
             'PropertyName' => 1,
+            'PatternId' => 1,
         ];
 
         if (isset($stringProperties[$propertyName])) {
@@ -247,6 +248,7 @@ class PropertyHolder
             'isFake' => 1,
             'isAnonymized' => 1,
             'isModified' => 1,
+            'PatternId' => 1,
         ];
 
         if (isset($outputProperties[$propertyName])) {

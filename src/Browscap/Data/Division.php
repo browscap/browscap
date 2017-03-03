@@ -29,6 +29,8 @@ class Division
      */
     private $name = null;
 
+    private $fileName = null;
+
     /**
      * @var int
      */
@@ -62,7 +64,7 @@ class Division
      * @param bool   $standard
      * @param array  $versions
      */
-    public function __construct($name, $sortIndex, array $userAgents, $lite, $standard = true, array $versions = [])
+    public function __construct($name, $sortIndex, array $userAgents, $lite, $standard = true, array $versions = [], $fileName = null)
     {
         $this->name       = $name;
         $this->sortIndex  = $sortIndex;
@@ -70,6 +72,7 @@ class Division
         $this->lite       = $lite;
         $this->standard   = $standard;
         $this->versions   = $versions;
+        $this->fileName   = $fileName;
     }
 
     /**
@@ -118,5 +121,10 @@ class Division
     public function getVersions()
     {
         return $this->versions;
+    }
+
+    public function getFileName()
+    {
+        return $this->fileName;
     }
 }

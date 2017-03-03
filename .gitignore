@@ -6,3 +6,4 @@ vendor/
 composer.phar
 test*.txt
 composer.lock
+coverage/
