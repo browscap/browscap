@@ -69,6 +69,25 @@ function isCovered($id, $covered) {
     return $count;
 }
 
+function isPatternCovered($id, $covered, $available)
+{
+    list($u, $c) = explode('::', $id);
+    $u = substr($u, 1);
+    $c = substr($c, 1);
+
+    $regex = sprintf('/^u%d::c%d::.*$/', $u, $c);
+
+    foreach ($available as $patternId) {
+        if (preg_match($regex, $patternId)) {
+            if (in_array($patternId, $covered)) {
+                return 1;
+            }
+        }
+    }
+
+    return 0;
+}
+
 $files = [];
 
 foreach ($ids as $idLine) {
@@ -119,6 +138,7 @@ foreach ($files as $file => $data) {
 
     $ignores = [];
     $sectionBranches = [];
+    $waitForColon = false;
 
     $state = '';
 
@@ -164,8 +184,8 @@ foreach ($files as $file => $data) {
                 }
 
                 if ($type == '}' && $ignores[$state]['}'] == 0) {
-                    $state = 'inUaGroup';
                     $ignores[$state]['}'] = 0;
+                    $state = 'inUaGroup';
                     continue;
                 }
                 if ($type == '{') {
@@ -186,7 +206,7 @@ foreach ($files as $file => $data) {
                     } else {
                         $c++;
                     }
-                } elseif ($type == '}') {
+                } elseif ($type == ']') {
                     $state = 'inEachUa';
                     $c = null;
                 }
@@ -197,6 +217,7 @@ foreach ($files as $file => $data) {
                 }
 
                 if ($type == '}' && $ignores[$state]['}'] == 0) {
+                    $ignores[$state]['}'] = 0;
                     $state = 'inChildGroup';
 
                     if ($collectFunctionEnd == true) {
@@ -207,7 +228,6 @@ foreach ($files as $file => $data) {
                                 'column' => strpos($line, $content) + strlen($content),
                             ]
                         ];
-                        $coverage[$file]['s'][] += isCovered('u' . $u . '::c' . $c . '::d::p', $files[$file]['covered']);
                         $collectFunctionEnd = false;
                     }
 
@@ -225,6 +245,7 @@ foreach ($files as $file => $data) {
                     $state = 'inPlatforms';
                 } elseif ($type == 'STRING' && $content == 'devices') {
                     $state = 'inDevices';
+                    $waitForColon = false;
                 } elseif ($type == 'STRING' && $content == 'match') {
                     $collectMatchPosition = true;
                 } elseif ($type == 'STRING' && $collectMatchPosition) {
@@ -244,10 +265,6 @@ foreach ($files as $file => $data) {
                     ];
                     $functionCoverage = isCovered('u' . $u . '::c' . $c . '::d::p', $files[$file]['covered']);
                     $coverage[$file]['f'][] = $functionCoverage;
-                    @$touchedLines[$lexer->yylineno + 1]++;
-                    if ($functionCoverage > 0) {
-                        @$coveredLines[$lexer->yylineno + 1]++;
-                    }
                     $funcCount++;
                     $collectMatchPosition = false;
                     $collectFunctionEnd = true;
@@ -258,10 +275,7 @@ foreach ($files as $file => $data) {
                 if ($type == 'STRING') {
                     $p = $content;
                     $id = 'u' . $u . '::c' . $c . '::d::p' . $p;
-                    $coverCount = isCovered(
-                        $id,
-                        $files[$file]['covered']
-                    );
+                    $coverCount = isCovered($id, $files[$file]['covered']);
 
                     $sectionBranches[] = [
                         'start' => [
@@ -298,11 +312,7 @@ foreach ($files as $file => $data) {
                             'start' => $location['start'],
                             'end' => $location['end'],
                         ];
-                        @$touchedLines[$location['start']['line']]++;
-                        $coverage[$file]['s'][] = $location['coverCount'];
-                        if ($location['coverCount']) {
-                            @$coveredLines[$location['start']['line']]++;
-                        }
+                        //$coverage[$file]['s'][] = $location['coverCount'];
                         $coverArray[] = $location['coverCount'];
                     }
 
@@ -318,26 +328,37 @@ foreach ($files as $file => $data) {
                 }
                 break;
             case 'inDevices':
-                if ($type == 'STRING' && substr($line, strpos($line, '"' . $content . '"') + strlen('"' . $content . '"'), 1) == ':') {
-                    $d = $content;
+                if ($type == 'STRING' && $waitForColon == false) {
+                    $deviceKey = $content;
+                    $waitForColon = true;
+                }
+
+                if ($type == ':' && $waitForColon == true) {
+                    $d = $deviceKey;
 
                     $id = 'u' . $u . '::c' . $c . '::d' . $d . '::p';
-                    $coverCount = isCovered(
-                        $id,
-                        $files[$file]['covered']
-                    );
+
+                    $coverCount = isCovered($id, $files[$file]['covered']);
 
                     $sectionBranches[] = [
                         'start' => [
                             'line' => $lexer->yylineno + 1,
-                            'column' => strpos($line, '"' . $content . '"'),
+                            'column' => strpos($line, '"' . $d . '"'),
                         ],
                         'end' => [
                             'line' => $lexer->yylineno + 1,
-                            'column' => strpos($line, '"' . $content . '"') + strlen($content) + 2,
+                            'column' => strpos($line, '"' . $d . '"') + strlen($d) + 2,
                         ],
                         'coverCount' => $coverCount,
                     ];
+
+                    $waitForColon = false;
+                    $deviceKey = '';
+                }
+
+                if ($type == ',' && $waitForColon == true) {
+                    $waitForColon = false;
+                    $deviceKey = '';
                 }
 
                 if ($type == '}') {
@@ -362,11 +383,7 @@ foreach ($files as $file => $data) {
                             'start' => $location['start'],
                             'end' => $location['end'],
                         ];
-                        @$touchedLines[$location['start']['line']]++;
-                        $coverage[$file]['s'][] = $location['coverCount'];
-                        if ($location['coverCount']) {
-                            @$coveredLines[$location['start']['line']]++;
-                        }
+                        //$coverage[$file]['s'][] = $location['coverCount'];
                         $coverArray[] = $location['coverCount'];
                     }
 
@@ -384,15 +401,58 @@ foreach ($files as $file => $data) {
         }
     } while ($code !== 1);
 
-    foreach ($touchedLines as $lineNum => $count) {
-        if ($count > 0) {
-            $coverage[$file]['l'][$lineNum] = 0;
+    foreach ($coverage[$file]['fnMap'] as $index => $function) {
+        if ($coverage[$file]['f'][$index] > 0) {
+            $startLine = $function['loc']['start']['line'];
+            $endLine = $function['loc']['end']['line'];
 
-            if (isset($coveredLines[$lineNum])) {
-                $coverage[$file]['l'][$lineNum] += $coveredLines[$lineNum];
+            for ($i = $startLine; $i <= $endLine; $i++) {
+                if (!isset($coverage[$file]['l'][$i])) {
+                    $coverage[$file]['l'][$i] = 0;
+                }
+                $coverage[$file]['l'][$i] += $coverage[$file]['f'][$index];
             }
         }
     }
+
+    foreach ($coverage[$file]['branchMap'] as $index => $branch) {
+        if (!empty($coverage[$file]['b'][$index])) {
+            foreach ($branch['locations'] as $subIndex => $location) {
+                $startLine = $branch['locations'][$subIndex]['start']['line'];
+                $endLine = $branch['locations'][$subIndex]['end']['line'];
+
+                for ($i = $startLine; $i <= $endLine; $i++) {
+                    if (!isset($coverage[$file]['l'][$i])) {
+                        $coverage[$file]['l'][$i] = 0;
+                    }
+
+                    $coverage[$file]['l'][$i] += $coverage[$file]['b'][$index][$subIndex];
+                }
+            }
+        }
+    }
+
+    foreach ($coverage[$file]['statementMap'] as $index => $statement) {
+        $startLine = $statement['start']['line'];
+        $endLine = $statement['end']['line'];
+        $covered = true;
+
+        for ($i = $startLine; $i <= $endLine; $i++) {
+            // If all lines of statement are covered, we'll mark the statement as covered
+            if (!isset($coverage[$file]['l'][$i]) || $coverage[$file]['l'][$i] < 1) {
+                $covered = false;
+                break;
+            }
+        }
+
+        if ($covered === true) {
+            $coverage[$file]['s'][$index] = 1;
+        } else {
+            $coverage[$file]['s'][$index] = 0;
+        }
+    }
+
+    ksort($coverage[$file]['l']);
 
     // This re-indexes the arrays to be 1 based instead of 0, which will make them be JSON objects rather
     // than arrays, which is how they're expected to be in the coverage JSON file
