@@ -122,7 +122,7 @@ class Expander
         $i = 0;
         foreach ($division->getUserAgents() as $uaData) {
             $this->resetPatternId();
-            $this->patternId['division'] = $division->getFileName();
+            $this->patternId['division']  = $division->getFileName();
             $this->patternId['useragent'] = $i;
 
             $output = array_merge(
@@ -135,7 +135,7 @@ class Expander
                     $divisionName
                 )
             );
-            $i++;
+            ++$i;
         }
 
         return $output;
@@ -166,7 +166,7 @@ class Expander
 
         if (array_key_exists('platform', $uaData)) {
             $this->patternId['platform'] = $uaData['platform'];
-            $platform = $this->getDataCollection()->getPlatform($uaData['platform']);
+            $platform                    = $this->getDataCollection()->getPlatform($uaData['platform']);
 
             if (!$platform->isLite()) {
                 $lite = false;
@@ -179,7 +179,7 @@ class Expander
             $platformData = $platform->getProperties();
         } else {
             $this->patternId['platform'] = '';
-            $platformData = [];
+            $platformData                = [];
         }
 
         if (array_key_exists('engine', $uaData)) {
@@ -228,9 +228,9 @@ class Expander
                 // Replace our device array with a single device property with our #DEVICE# token replaced
                 foreach ($child['devices'] as $deviceMatch => $deviceName) {
                     $this->patternId['device'] = $deviceMatch;
-                    $subChild           = $child;
-                    $subChild['match']  = str_replace('#DEVICE#', $deviceMatch, $subChild['match']);
-                    $subChild['device'] = $deviceName;
+                    $subChild                  = $child;
+                    $subChild['match']         = str_replace('#DEVICE#', $deviceMatch, $subChild['match']);
+                    $subChild['device']        = $deviceName;
                     unset($subChild['devices']);
                     $output = array_merge(
                         $output,
@@ -239,12 +239,12 @@ class Expander
                 }
             } else {
                 $this->patternId['device'] = '';
-                $output = array_merge(
+                $output                    = array_merge(
                     $output,
                     $this->parseChildren($ua, $child, $lite, $standard)
                 );
             }
-            $i++;
+            ++$i;
         }
 
         return $output;
@@ -300,8 +300,8 @@ class Expander
         if (isset($uaDataChild['platforms']) && is_array($uaDataChild['platforms'])) {
             foreach ($uaDataChild['platforms'] as $platform) {
                 $this->patternId['platform'] = $platform;
-                $properties   = ['Parent' => $ua, 'lite' => $lite, 'standard' => $standard];
-                $platformData = $this->getDataCollection()->getPlatform($platform);
+                $properties                  = ['Parent' => $ua, 'lite' => $lite, 'standard' => $standard];
+                $platformData                = $this->getDataCollection()->getPlatform($platform);
 
                 if (!$platformData->isLite()) {
                     $properties['lite'] = false;
@@ -393,7 +393,7 @@ class Expander
                 $properties = array_merge($properties, $childProperties);
             }
 
-            $uaBase = str_replace('#PLATFORM#', '', $uaDataChild['match']);
+            $uaBase                      = str_replace('#PLATFORM#', '', $uaDataChild['match']);
             $this->patternId['platform'] = '';
 
             $properties['PatternId'] = $this->getPatternId();

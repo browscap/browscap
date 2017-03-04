@@ -311,13 +311,13 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
 
         $uaData = [
             0 => [
-                'userAgent'  => 'abc',
-                'properties' => ['Parent'   => 'Defaultproperties',
-                                      'Version'  => '1.0',
+                'userAgent' => 'abc',
+                'properties' => ['Parent' => 'Defaultproperties',
+                                      'Version' => '1.0',
                                       'MajorVer' => 1,
-                                      'Browser'  => 'xyz',
+                                      'Browser' => 'xyz',
                 ],
-                'children'   => [
+                'children' => [
                     0 => [
                         'match' => 'abc*#DEVICE#',
                         'devices' => [
