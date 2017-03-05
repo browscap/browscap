@@ -23,7 +23,7 @@
       },
       "children": [
         {
-          "match": "SonyEricsson*/* Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) *Version/*Safari/*",
+          "match": "SonyEricsson*/* Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Version/*Safari/*",
           "device": "general Mobile Phone",
           "platforms": [
             "SymbianOS"

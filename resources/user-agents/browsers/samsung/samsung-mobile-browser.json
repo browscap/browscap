@@ -22,7 +22,7 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (SymbianOS/*; U; Series60/* Samsung/I7110/* ) AppleWebKit/* (*khtml*like*gecko*) Safari/*",
+          "match": "Mozilla/5.0 (SymbianOS/*; U; Series60/* Samsung/I7110/* ) applewebkit* (*khtml*like*gecko*) Safari/*",
           "engine": "WebKit",
           "device": "Samsung GT-I7110",
           "platforms": [

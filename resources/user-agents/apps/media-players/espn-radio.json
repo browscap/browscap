@@ -179,14 +179,14 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (#PLATFORM#HP Slate 17 Build/*) AppleWebKit/* (*khtml*like*gecko*) Version/*Chrome*Safari*ESPN APP*#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#HP Slate 17 Build/*) applewebkit* (*khtml*like*gecko*) Version/*Chrome*Safari*ESPN APP*#MAJORVER#.#MINORVER#*",
           "device": "HP Slate 17",
           "platforms": [
             "Android_4_4"
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM# Build/*) AppleWebKit/* (*khtml*like*gecko*) Version/*Chrome*Safari*ESPN APP*#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Chrome*Safari*ESPN APP*#MAJORVER#.#MINORVER#*",
           "platforms": [
             "Android_4_4", "Android_5_0", "Android_5_1", "Android_6_0", "Android"
           ]

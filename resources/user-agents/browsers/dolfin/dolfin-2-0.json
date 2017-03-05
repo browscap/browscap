@@ -35,21 +35,21 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-S5250#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) Dolfin/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-S5250#PLATFORM#) applewebkit* (*khtml*like*gecko*) Dolfin/#MAJORVER#.#MINORVER#*",
           "device": "Samsung GT-S5250",
           "platforms": [
             "Bada_1_0"
           ]
         },
         {
-          "match": "Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-S5330#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) Dolfin/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-S5330#PLATFORM#) applewebkit* (*khtml*like*gecko*) Dolfin/#MAJORVER#.#MINORVER#*",
           "device": "Samsung GT-S5330",
           "platforms": [
             "Bada_1_0"
           ]
         },
         {
-          "match": "Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-S7230E#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) Dolfin/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-S7230E#PLATFORM#) applewebkit* (*khtml*like*gecko*) Dolfin/#MAJORVER#.#MINORVER#*",
           "device": "Samsung GT-S7230E",
           "platforms": [
             "Bada_1_0"

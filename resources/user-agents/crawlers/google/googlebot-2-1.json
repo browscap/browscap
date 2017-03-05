@@ -27,7 +27,7 @@
           "match": "Googlebot v#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "Mozilla/5.0*(iPhone#PLATFORM#)*AppleWebKit/*(*khtml*like*gecko*)*Version/*Safari/* (compatible; Googlebot/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0*(iPhone#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/*Safari/* (compatible; Googlebot/#MAJORVER#.#MINORVER#*",
           "device": "iPhone",
           "engine": "WebKit",
           "platforms": [
@@ -35,7 +35,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0*(#PLATFORM#)*AppleWebKit/*(*khtml*like*gecko*)*Version/*Safari/* (compatible; Googlebot/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0*(#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/*Safari/* (compatible; Googlebot/#MAJORVER#.#MINORVER#*",
           "device": "general Mobile Device (Apple)",
           "engine": "WebKit",
           "platforms": [
@@ -43,7 +43,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0*(#PLATFORM#Nexus 5X Build/*)*AppleWebKit/*(*khtml*like*gecko*) Chrome/* Safari/* (compatible; Googlebot/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0*(#PLATFORM#Nexus 5X Build/*)*applewebkit*(*khtml*like*gecko*) Chrome/* Safari/* (compatible; Googlebot/#MAJORVER#.#MINORVER#*",
           "device": "LG Nexus 5X",
           "engine": "Blink",
           "platforms": [
@@ -51,7 +51,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0*(#PLATFORM#)*AppleWebKit/*(*khtml*like*gecko*) Chrome/* Safari/* (compatible; Googlebot/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0*(#PLATFORM#)*applewebkit*(*khtml*like*gecko*) Chrome/* Safari/* (compatible; Googlebot/#MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone",
           "engine": "Blink",
           "platforms": [

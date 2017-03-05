@@ -94,7 +94,7 @@
           }
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) Shrook/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Shrook/*",
           "engine": "WebKit",
           "device": "Macintosh",
           "properties": {
@@ -106,7 +106,7 @@
           ]
         },
         {
-          "match": "Digg Feed Fetcher 1.0 (Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*)*",
+          "match": "Digg Feed Fetcher 1.0 (Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*",
           "engine": "WebKit",
           "device": "Macintosh",
           "properties": {
