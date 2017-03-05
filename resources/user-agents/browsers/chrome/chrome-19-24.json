@@ -886,16 +886,6 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
-          "device": "general Desktop",
-          "platforms": [
-            "FreeBSD_64", "FreeBSD_64_2", "FreeBSD_386", "FreeBSD", "OpenBSD_386", "OpenBSD"
-          ],
-          "properties": {
-            "isModified": "true"
-          }
-        },
-        {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*",
           "device": "Linux Desktop",
           "platforms": [

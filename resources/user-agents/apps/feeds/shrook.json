@@ -10,6 +10,7 @@
         "Parent": "DefaultProperties",
         "Comment": "Shrook",
         "Browser": "Shrook",
+        "Browser_Maker": "Utsire Software",
         "isSyndicationReader": "true",
         "Browser_Type": "Feed Reader",
         "Crawler": "false"
@@ -19,10 +20,6 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Shrook/*",
           "engine": "WebKit",
           "device": "Macintosh",
-          "properties": {
-            "Browser": "Shrook",
-            "Browser_Maker": "Utsire Software"
-          },
           "platforms": [
             "OSX_10_10", "OSX"
           ]
