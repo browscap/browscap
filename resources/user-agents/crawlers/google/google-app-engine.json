@@ -23,7 +23,7 @@
           "match": "AppEngine-Google*"
         },
         {
-          "match": "Mozilla\/4.0 (compatible; MSIE 6.0; Windows NT 5.1; *) AppEngine-Google; (+http:\/\/code.google.com\/appengine; appid: *",
+          "match": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; *) AppEngine-Google; (+http://code.google.com/appengine; appid: *",
           "platforms": [
             "WinXPa_32"
           ]

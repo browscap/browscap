@@ -24,10 +24,10 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (*Windows NT 5.1*) Gecko* Firefox\/11.0* (via ggpht.com*"
+          "match": "Mozilla/5.0 (*Windows NT 5.1*) Gecko* Firefox/11.0* (via ggpht.com*"
         },
         {
-          "match": "Mozilla\/5.0 (*Windows NT 5.1*) Gecko* Firefox\/3.0* (via ggpht.com*"
+          "match": "Mozilla/5.0 (*Windows NT 5.1*) Gecko* Firefox/3.0* (via ggpht.com*"
         }
       ]
     }

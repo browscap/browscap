@@ -26,23 +26,23 @@
       },
       "children": [
         {
-          "match": "HbbTV\/*Hisense;MT5651* ANTGalio\/#MAJORVER#.#MINORVER#*",
+          "match": "HbbTV/*Hisense;MT5651* ANTGalio/#MAJORVER#.#MINORVER#*",
           "device": "Hisense MT5651"
         },
         {
-          "match": "HbbTV\/*Philips;MT5580* ANTGalio\/#MAJORVER#.#MINORVER#*",
+          "match": "HbbTV/*Philips;MT5580* ANTGalio/#MAJORVER#.#MINORVER#*",
           "device": "Philips MT5580"
         },
         {
-          "match": "HbbTV\/*Humax;HD FOX+* ANTGalio\/#MAJORVER#.#MINORVER#*",
+          "match": "HbbTV/*Humax;HD FOX+* ANTGalio/#MAJORVER#.#MINORVER#*",
           "device": "Humax HD FOX+"
         },
         {
-          "match": "HbbTV\/*HANDAN;ST7108HBB* ANTGalio\/#MAJORVER#.#MINORVER#*",
+          "match": "HbbTV/*HANDAN;ST7108HBB* ANTGalio/#MAJORVER#.#MINORVER#*",
           "device": "HANDAN ST7108HBB"
         },
         {
-          "match": "HbbTV\/*ANTGalio\/#MAJORVER#.#MINORVER#*",
+          "match": "HbbTV/*ANTGalio/#MAJORVER#.#MINORVER#*",
           "device": "general TV Device"
         }
       ]

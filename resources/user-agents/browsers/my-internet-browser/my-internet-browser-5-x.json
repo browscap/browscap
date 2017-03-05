@@ -28,7 +28,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Whistler* myibrow\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Whistler* myibrow/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "Win7_32"
           ]

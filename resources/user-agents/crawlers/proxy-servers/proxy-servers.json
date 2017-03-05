@@ -27,19 +27,19 @@
           }
         },
         {
-          "match": "IE\/6.01 (CP\/M; 8-bit*)",
+          "match": "IE/6.01 (CP/M; 8-bit*)",
           "properties": {
             "Browser": "Squid"
           }
         },
         {
-          "match": "Mozilla\/* (TuringOS; Turing Machine; 0.0)",
+          "match": "Mozilla/* (TuringOS; Turing Machine; 0.0)",
           "properties": {
             "Browser": "Anonymizer"
           }
         },
         {
-          "match": "Mozilla\/4.0 (compatible; MSIE ?.0; SaferSurf*)",
+          "match": "Mozilla/4.0 (compatible; MSIE ?.0; SaferSurf*)",
           "properties": {
             "Browser": "SaferSurf"
           }
@@ -51,13 +51,13 @@
           }
         },
         {
-          "match": "Nutscrape\/* (CP\/M; 8-bit*)",
+          "match": "Nutscrape/* (CP/M; 8-bit*)",
           "properties": {
             "Browser": "Squid"
           }
         },
         {
-          "match": "Privoxy\/*",
+          "match": "Privoxy/*",
           "properties": {
             "Browser": "Privoxy"
           }
@@ -81,13 +81,13 @@
           }
         },
         {
-          "match": "Space*Bison\/*",
+          "match": "Space*Bison/*",
           "properties": {
             "Browser": "Proxomitron"
           }
         },
         {
-          "match": "Sqworm\/*",
+          "match": "Sqworm/*",
           "properties": {
             "Browser": "Websense"
           }
@@ -105,13 +105,13 @@
           }
         },
         {
-          "match": "Mozilla\/4.0 (compatible*; MSIE ?.0; SaferSurf*)",
+          "match": "Mozilla/4.0 (compatible*; MSIE ?.0; SaferSurf*)",
           "properties": {
             "Browser": "SaferSurf"
           }
         },
         {
-          "match": "Mozilla\/4.0 (compatible; Synapse)",
+          "match": "Mozilla/4.0 (compatible; Synapse)",
           "properties": {
             "Browser": "Apache Synapse",
             "Browser_Maker": "The Apache Software Foundation"

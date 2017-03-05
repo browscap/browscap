@@ -24,10 +24,10 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (compatible; Googlebot\/#MAJORVER#.#MINORVER#*"
+          "match": "Mozilla/5.0 (compatible; Googlebot/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "Mozilla\/5.0 (Windows; U*Gecko* Googlebot\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (Windows; U*Gecko* Googlebot/#MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
           "engine": "Gecko",
           "platforms": [
@@ -35,7 +35,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (Windows; U*Gecko* Googlebot?#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (Windows; U*Gecko* Googlebot?#MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
           "engine": "Gecko",
           "platforms": [
@@ -43,7 +43,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Googlebot?#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Googlebot?#MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
           "engine": "Gecko",
           "platforms": [
@@ -51,10 +51,10 @@
           ]
         },
         {
-          "match": "GoogleBot\/#MAJORVER#.#MINORVER#*"
+          "match": "GoogleBot/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "*Googlebot\/#MAJORVER#.#MINORVER#*"
+          "match": "*Googlebot/#MAJORVER#.#MINORVER#*"
         }
       ]
     }

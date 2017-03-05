@@ -16,7 +16,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/4.0 (jig browser web; 1.0*",
+          "match": "Mozilla/4.0 (jig browser web; 1.0*",
           "properties": {
             "Version": "1.0",
             "MajorVer": "1",
@@ -24,7 +24,7 @@
           }
         },
         {
-          "match": "Mozilla\/4.0 (jig browser web*"
+          "match": "Mozilla/4.0 (jig browser web*"
         }
       ]
     }

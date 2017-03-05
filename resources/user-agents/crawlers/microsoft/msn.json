@@ -19,7 +19,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (Danger hiptop 3.*; U; rv:1.7.*Gecko*",
+          "match": "Mozilla/5.0 (Danger hiptop 3.*; U; rv:1.7.*Gecko*",
           "properties": {
             "Browser": "Danger",
             "Version": "3.0",
@@ -27,7 +27,7 @@
           }
         },
         {
-          "match": "Windows-Live-Social-Object-Extractor-Engine\/*"
+          "match": "Windows-Live-Social-Object-Extractor-Engine/*"
         },
         {
           "match": "Vancouver*",
@@ -37,13 +37,13 @@
           }
         },
         {
-          "match": "librabot\/1.0 (*)",
+          "match": "librabot/1.0 (*)",
           "properties": {
             "Browser": "librabot"
           }
         },
         {
-          "match": "llssbot\/1.0",
+          "match": "llssbot/1.0",
           "properties": {
             "Browser": "llssbot",
             "Version": "1.0",
@@ -58,7 +58,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (Danger hiptop 3.*; U; rv:1.7.*) Gecko*",
+          "match": "Mozilla/5.0 (Danger hiptop 3.*; U; rv:1.7.*) Gecko*",
           "properties": {
             "Browser": "Danger",
             "Version": "3.0",
@@ -66,7 +66,7 @@
           }
         },
         {
-          "match": "MSMOBOT\/1.1*",
+          "match": "MSMOBOT/1.1*",
           "properties": {
             "Browser": "msnbot-mobile",
             "Version": "1.1",
@@ -75,7 +75,7 @@
           }
         },
         {
-          "match": "MSNBot-Academic\/1.0*",
+          "match": "MSNBot-Academic/1.0*",
           "properties": {
             "Browser": "MSNBot-Academic",
             "Version": "1.0",
@@ -84,7 +84,7 @@
           }
         },
         {
-          "match": "MSNBot-News\/1.0*",
+          "match": "MSNBot-News/1.0*",
           "properties": {
             "Browser": "MSNBot-News",
             "Version": "1.0",
@@ -93,7 +93,7 @@
           }
         },
         {
-          "match": "MSNBot-NewsBlogs\/1.0*",
+          "match": "MSNBot-NewsBlogs/1.0*",
           "properties": {
             "Browser": "MSNBot-NewsBlogs",
             "Version": "1.0",
@@ -101,7 +101,7 @@
           }
         },
         {
-          "match": "msnbot-NewsBlogs\/2.* (+http:\/\/search.msn.com\/msnbot.htm)",
+          "match": "msnbot-NewsBlogs/2.* (+http://search.msn.com/msnbot.htm)",
           "properties": {
             "Browser": "msnbot-NewsBlogs",
             "Version": "2.0",
@@ -116,7 +116,7 @@
           }
         },
         {
-          "match": "msnbot-webmaster\/1.0 (*http:\/\/search.msn.com\/msnbot.htm)",
+          "match": "msnbot-webmaster/1.0 (*http://search.msn.com/msnbot.htm)",
           "properties": {
             "Browser": "msnbot-webmaster tools"
           }
@@ -134,40 +134,40 @@
           }
         },
         {
-          "match": "renlifangbot\/1.0 (?http:\/\/search.msn.com\/msnbot.htm)",
+          "match": "renlifangbot/1.0 (?http://search.msn.com/msnbot.htm)",
           "properties": {
             "Browser": "renlifangbot"
           }
         },
         {
-          "match": "Windows-Live-Social-Object-Extractor-Engine\/1.0",
+          "match": "Windows-Live-Social-Object-Extractor-Engine/1.0",
           "properties": {
             "Browser": "Windows-Live-Social-Object-Extractor-Eng"
           }
         },
         {
-          "match": "T-Mobile Dash Mozilla\/4.0 (*MSNBOT-MOBILE\/1.1*",
+          "match": "T-Mobile Dash Mozilla/4.0 (*MSNBOT-MOBILE/1.1*",
           "properties": {
             "Browser": "msnbot-mobile"
           }
         },
         {
-          "match": "msnbot-UDiscovery\/*"
+          "match": "msnbot-UDiscovery/*"
         },
         {
-          "match": "MSNBot-News\/*",
+          "match": "MSNBot-News/*",
           "properties": {
             "Browser": "MSNBot-News"
           }
         },
         {
-          "match": "MSNBot-NewsBlogs\/*",
+          "match": "MSNBot-NewsBlogs/*",
           "properties": {
             "Browser": "msnbot-NewsBlogs"
           }
         },
         {
-          "match": "msnbot-webmaster\/*",
+          "match": "msnbot-webmaster/*",
           "properties": {
             "Browser": "msnbot-webmaster tools"
           }

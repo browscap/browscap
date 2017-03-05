@@ -15,7 +15,7 @@
       },
       "children": [
         {
-          "match": "VLC\/3.0*",
+          "match": "VLC/3.0*",
           "properties": {
             "Version": "3.0",
             "MajorVer": "3",
@@ -23,7 +23,7 @@
           }
         },
         {
-          "match": "VLC\/2.2*",
+          "match": "VLC/2.2*",
           "properties": {
             "Version": "2.2",
             "MajorVer": "2",
@@ -31,7 +31,7 @@
           }
         },
         {
-          "match": "VLC\/2.1*",
+          "match": "VLC/2.1*",
           "properties": {
             "Version": "2.1",
             "MajorVer": "2",
@@ -39,7 +39,7 @@
           }
         },
         {
-          "match": "VLC\/2.0*",
+          "match": "VLC/2.0*",
           "properties": {
             "Version": "2.0",
             "MajorVer": "2",
@@ -47,7 +47,7 @@
           }
         },
         {
-          "match": "VLC\/1.1*",
+          "match": "VLC/1.1*",
           "properties": {
             "Version": "1.1",
             "MajorVer": "1",

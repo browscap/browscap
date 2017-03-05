@@ -24,7 +24,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) *Gecko* Chimera\/0.6*",
+          "match": "Mozilla/5.0 (#PLATFORM#) *Gecko* Chimera/0.6*",
           "platforms": [
             "OSX"
           ],
@@ -35,13 +35,13 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) *Gecko* Chimera\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) *Gecko* Chimera/*",
           "platforms": [
             "OSX"
           ]
         },
         {
-          "match": "Mozilla\/5.0 Gecko* Chimera\/*"
+          "match": "Mozilla/5.0 Gecko* Chimera/*"
         }
       ]
     }

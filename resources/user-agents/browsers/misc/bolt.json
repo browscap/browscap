@@ -21,7 +21,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (X11; 78; CentOS; US-en) AppleWebKit\/* (KHTML,*like Gecko*) Bolt\/0.862 Version\/3.0 Safari\/*",
+          "match": "Mozilla/5.0 (X11; 78; CentOS; US-en) AppleWebKit/* (KHTML,*like Gecko*) Bolt/0.862 Version/3.0 Safari/*",
           "properties": {
             "Version": "0.862",
             "MinorVer": "862"

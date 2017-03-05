@@ -18,7 +18,7 @@
       },
       "children": [
         {
-          "match": "curl\/7.35*",
+          "match": "curl/7.35*",
           "properties": {
             "Version": "7.35",
             "MajorVer": "7",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "match": "curl\/7.29*",
+          "match": "curl/7.29*",
           "properties": {
             "Version": "7.29",
             "MajorVer": "7",
@@ -34,7 +34,7 @@
           }
         },
         {
-          "match": "curl\/7.19#PLATFORM#",
+          "match": "curl/7.19#PLATFORM#",
           "device": "Linux Desktop",
           "properties": {
             "Version": "7.19",
@@ -46,7 +46,7 @@
           ]
         },
         {
-          "match": "curl\/7.19",
+          "match": "curl/7.19",
           "properties": {
             "Version": "7.19",
             "MajorVer": "7",
@@ -54,7 +54,7 @@
           }
         },
         {
-          "match": "curl\/7.15#PLATFORM#",
+          "match": "curl/7.15#PLATFORM#",
           "device": "Linux Desktop",
           "properties": {
             "Version": "7.15",
@@ -66,7 +66,7 @@
           ]
         },
         {
-          "match": "curl\/7.15",
+          "match": "curl/7.15",
           "properties": {
             "Version": "7.15",
             "MajorVer": "7",

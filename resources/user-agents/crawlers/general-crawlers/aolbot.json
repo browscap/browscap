@@ -16,7 +16,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (compatible; AOLbot\/4.0*",
+          "match": "Mozilla/5.0 (compatible; AOLbot/4.0*",
           "properties": {
             "Version": "4.0",
             "MajorVer": "4",
@@ -24,7 +24,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; AOLbot\/*"
+          "match": "Mozilla/5.0 (compatible; AOLbot/*"
         }
       ]
     }

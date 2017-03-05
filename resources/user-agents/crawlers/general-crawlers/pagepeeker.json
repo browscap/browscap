@@ -20,7 +20,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko)*Chrome\/* Safari\/* PagePeeker\/2.1*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML* like Gecko)*Chrome/* Safari/* PagePeeker/2.1*",
           "device": "Linux Desktop",
           "properties": {
             "Version": "2.1",
@@ -32,7 +32,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko)*Chrome\/* Safari\/* PagePeeker\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML* like Gecko)*Chrome/* Safari/* PagePeeker/*",
           "device": "Linux Desktop",
           "platforms": [
             "Linux_64", "Linux"

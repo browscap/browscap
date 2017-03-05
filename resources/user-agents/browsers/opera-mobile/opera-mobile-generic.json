@@ -23,19 +23,19 @@
       },
       "children": [
         {
-          "match": "Mozilla\/4.0 (compatible; MSIE#PLATFORM#)*Opera*",
+          "match": "Mozilla/4.0 (compatible; MSIE#PLATFORM#)*Opera*",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible; MSIE#PLATFORM#)*Opera*",
+          "match": "Mozilla/5.0 (compatible; MSIE#PLATFORM#)*Opera*",
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "Mozilla\/?.*(*Opera Mobile?#PLATFORM#)*",
+          "match": "Mozilla/?.*(*Opera Mobile?#PLATFORM#)*",
           "platforms": [
             "WinCE"
           ]
@@ -62,7 +62,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*Chrome\/*Safari\/* OPR\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML, like Gecko)*Chrome/*Safari/* OPR/*",
           "platforms": [
             "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
             "Android_2_0", "Android_2_1", "Android_2_2", "Android_2_3",

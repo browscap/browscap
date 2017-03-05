@@ -16,7 +16,7 @@
       },
       "children": [
         {
-          "match": "okhttp\/3.2*",
+          "match": "okhttp/3.2*",
           "properties": {
             "Version": "3.2",
             "MajorVer": "3",
@@ -24,7 +24,7 @@
           }
         },
         {
-          "match": "okhttp\/3.1*",
+          "match": "okhttp/3.1*",
           "properties": {
             "Version": "3.1",
             "MajorVer": "3",
@@ -32,7 +32,7 @@
           }
         },
         {
-          "match": "okhttp\/3.0*",
+          "match": "okhttp/3.0*",
           "properties": {
             "Version": "3.0",
             "MajorVer": "3",
@@ -40,7 +40,7 @@
           }
         },
         {
-          "match": "okhttp\/2.7*",
+          "match": "okhttp/2.7*",
           "properties": {
             "Version": "2.7",
             "MajorVer": "2",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "match": "okhttp\/*"
+          "match": "okhttp/*"
         }
       ]
     }

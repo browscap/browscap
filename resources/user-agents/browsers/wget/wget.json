@@ -21,21 +21,21 @@
       },
       "children": [
         {
-          "match": "Wget\/#MAJORVER#.#MINORVER#* (#PLATFORM#)*",
+          "match": "Wget/#MAJORVER#.#MINORVER#* (#PLATFORM#)*",
           "device": "Linux Desktop",
           "platforms": [
             "Linux"
           ]
         },
         {
-          "match": "Wget\/#MAJORVER#.#MINORVER#* (#PLATFORM#)*",
+          "match": "Wget/#MAJORVER#.#MINORVER#* (#PLATFORM#)*",
           "device": "Macintosh",
           "platforms": [
             "Darwin"
           ]
         },
         {
-          "match": "Wget\/#MAJORVER#.#MINORVER#*"
+          "match": "Wget/#MAJORVER#.#MINORVER#*"
         }
       ]
     }

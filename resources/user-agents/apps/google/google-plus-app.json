@@ -24,7 +24,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (iPhone#PLATFORM#)*com.google.GooglePlus\/*(*KHTML* like Gecko*)*Mobile\/*",
+          "match": "Mozilla/5.0 (iPhone#PLATFORM#)*com.google.GooglePlus/*(*KHTML* like Gecko*)*Mobile/*",
           "device": "iPhone",
           "platforms": [
             "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_1", "iOS_C_8_0",
@@ -32,7 +32,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (iPad#PLATFORM#)*com.google.GooglePlus\/*(*KHTML* like Gecko*)*Mobile\/*",
+          "match": "Mozilla/5.0 (iPad#PLATFORM#)*com.google.GooglePlus/*(*KHTML* like Gecko*)*Mobile/*",
           "device": "iPad",
           "platforms": [
             "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_1", "iOS_C_8_0",
@@ -40,7 +40,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (iPod#PLATFORM#)*com.google.GooglePlus\/*(*KHTML* like Gecko*)*Mobile\/*",
+          "match": "Mozilla/5.0 (iPod#PLATFORM#)*com.google.GooglePlus/*(*KHTML* like Gecko*)*Mobile/*",
           "device": "iPod Touch",
           "platforms": [
             "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_1", "iOS_C_8_0",
@@ -48,7 +48,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#)*com.google.GooglePlus\/*(*KHTML* like Gecko*)*Mobile\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#)*com.google.GooglePlus/*(*KHTML* like Gecko*)*Mobile/*",
           "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_1", "iOS_C_8_0",

@@ -43,21 +43,21 @@
           ]
         },
         {
-          "match": "ELinks\/#MAJORVER#.#MINORVER#* (#PLATFORM#)",
+          "match": "ELinks/#MAJORVER#.#MINORVER#* (#PLATFORM#)",
           "device": "Linux Desktop",
           "platforms": [
             "Linux"
           ]
         },
         {
-          "match": "ELinks\/#MAJORVER#.#MINORVER#* (#PLATFORM#)",
+          "match": "ELinks/#MAJORVER#.#MINORVER#* (#PLATFORM#)",
           "device": "Windows Desktop",
           "platforms": [
             "CygWin"
           ]
         },
         {
-          "match": "ELinks\/#MAJORVER#.#MINORVER#* (#PLATFORM#)",
+          "match": "ELinks/#MAJORVER#.#MINORVER#* (#PLATFORM#)",
           "device": "general Desktop",
           "platforms": [
             "AIX", "BeOS", "Darwin", "Tru64_Unix", "FreeBSD", "HPUX_2", "IRIX64_2",
@@ -65,7 +65,7 @@
           ]
         },
         {
-          "match": "ELinks\/#MAJORVER#.#MINORVER#*"
+          "match": "ELinks/#MAJORVER#.#MINORVER#*"
         }
       ]
     }

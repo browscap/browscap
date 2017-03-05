@@ -15,20 +15,20 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (compatible; SEODat\/0.* http:\/\/crawler.seodat.com)",
+          "match": "Mozilla/5.0 (compatible; SEODat/0.* http://crawler.seodat.com)",
           "properties": {
             "Browser": "SEODat"
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; SearchmetricsBot; http:\/\/www.searchmetrics.com\/en\/searchmetrics-bot\/)",
+          "match": "Mozilla/5.0 (compatible; SearchmetricsBot; http://www.searchmetrics.com/en/searchmetrics-bot/)",
           "properties": {
             "Browser": "SearchmetricsBot",
             "Browser_Maker": "Searchmetrics GmbH"
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; SEOkicks-Robot*",
+          "match": "Mozilla/5.0 (compatible; SEOkicks-Robot*",
           "properties": {
             "Browser": "SEOkicks Robot",
             "Browser_Maker": "Torsten Rueckert Internetdienstleistungen"
@@ -42,7 +42,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; SiteExplorer\/1.0b;*",
+          "match": "Mozilla/5.0 (compatible; SiteExplorer/1.0b;*",
           "properties": {
             "Browser": "SiteExplorer",
             "Browser_Maker": "siteexplorer.info",
@@ -53,14 +53,14 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; SiteExplorer\/*",
+          "match": "Mozilla/5.0 (compatible; SiteExplorer/*",
           "properties": {
             "Browser": "SiteExplorer",
             "Browser_Maker": "siteexplorer.info"
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; Prlog\/1.0*",
+          "match": "Mozilla/5.0 (compatible; Prlog/1.0*",
           "properties": {
             "Browser": "Prlog",
             "Browser_Maker": "prlog.ru",
@@ -70,7 +70,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; Prlog\/*",
+          "match": "Mozilla/5.0 (compatible; Prlog/*",
           "properties": {
             "Browser": "Prlog",
             "Browser_Maker": "prlog.ru"
@@ -91,7 +91,7 @@
           }
         },
         {
-          "match": "FreeWebMonitoring SiteChecker\/0.1*",
+          "match": "FreeWebMonitoring SiteChecker/0.1*",
           "properties": {
             "Browser": "FreeWebMonitoring SiteChecker",
             "Browser_Maker": "www.freewebmonitoring.com",
@@ -101,14 +101,14 @@
           }
         },
         {
-          "match": "FreeWebMonitoring SiteChecker\/*",
+          "match": "FreeWebMonitoring SiteChecker/*",
           "properties": {
             "Browser": "FreeWebMonitoring SiteChecker",
             "Browser_Maker": "www.freewebmonitoring.com"
           }
         },
         {
-          "match": "GIDBot\/2.0*",
+          "match": "GIDBot/2.0*",
           "properties": {
             "Browser": "GIDBot",
             "Browser_Maker": "J de Silva",
@@ -118,14 +118,14 @@
           }
         },
         {
-          "match": "GIDBot\/*",
+          "match": "GIDBot/*",
           "properties": {
             "Browser": "GIDBot",
             "Browser_Maker": "J de Silva"
           }
         },
         {
-          "match": "Mozilla\/4.0 (vBSEO;*",
+          "match": "Mozilla/4.0 (vBSEO;*",
           "properties": {
             "Browser": "vBulletin SEO Bot",
             "Browser_Maker": "www.vbseo.com"
@@ -139,7 +139,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; SemanticBot\/1.1*",
+          "match": "Mozilla/5.0 (compatible; SemanticBot/1.1*",
           "properties": {
             "Browser": "SemanticBot",
             "Version": "1.1",
@@ -148,13 +148,13 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; SemanticBot\/*",
+          "match": "Mozilla/5.0 (compatible; SemanticBot/*",
           "properties": {
             "Browser": "SemanticBot"
           }
         },
         {
-          "match": "bot-pge.chlooe.com\/1.0*",
+          "match": "bot-pge.chlooe.com/1.0*",
           "properties": {
             "Browser": "chlooe Bot",
             "Browser_Maker": "AsiaWS network",
@@ -164,14 +164,14 @@
           }
         },
         {
-          "match": "bot-pge.chlooe.com\/*",
+          "match": "bot-pge.chlooe.com/*",
           "properties": {
             "Browser": "chlooe Bot",
             "Browser_Maker": "AsiaWS network"
           }
         },
         {
-          "match": "wscheck.com\/1.0*",
+          "match": "wscheck.com/1.0*",
           "properties": {
             "Browser": "WSCheck Bot",
             "Browser_Maker": "AsiaWS network",
@@ -181,21 +181,21 @@
           }
         },
         {
-          "match": "wscheck.com\/*",
+          "match": "wscheck.com/*",
           "properties": {
             "Browser": "WSCheck Bot",
             "Browser_Maker": "AsiaWS network"
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; AjaxSnapBot*",
+          "match": "Mozilla/5.0 (compatible; AjaxSnapBot*",
           "properties": {
             "Browser": "AjaxSnapBot",
             "Browser_Maker": "Tockify Ltd"
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; HyperCrawl\/0.2*",
+          "match": "Mozilla/5.0 (compatible; HyperCrawl/0.2*",
           "properties": {
             "Browser": "HyperCrawl",
             "Browser_Maker": "SEOGraph",
@@ -205,14 +205,14 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; HyperCrawl\/*",
+          "match": "Mozilla/5.0 (compatible; HyperCrawl/*",
           "properties": {
             "Browser": "HyperCrawl",
             "Browser_Maker": "SEOGraph"
           }
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Firefox\/* - James BOT - WebCrawler*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* - James BOT - WebCrawler*",
           "properties": {
             "Browser": "JamesBOT",
             "Browser_Maker": "GESKIMO SRL"
@@ -298,7 +298,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (Windows NT 6.3;compatible; Leikibot\/1.0*",
+          "match": "Mozilla/5.0 (Windows NT 6.3;compatible; Leikibot/1.0*",
           "properties": {
             "Browser": "Leikibot",
             "Browser_Maker": "Leiki Ltd",
@@ -308,7 +308,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (Windows NT 6.3;compatible; Leikibot\/*",
+          "match": "Mozilla/5.0 (Windows NT 6.3;compatible; Leikibot/*",
           "properties": {
             "Browser": "Leikibot",
             "Browser_Maker": "Leiki Ltd"

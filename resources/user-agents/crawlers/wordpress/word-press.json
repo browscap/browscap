@@ -18,7 +18,7 @@
       },
       "children": [
         {
-          "match": "WordPress-B-\/2.*",
+          "match": "WordPress-B-/2.*",
           "properties": {
             "Browser": "WordPress-B",
             "Version": "2.0",
@@ -27,7 +27,7 @@
           }
         },
         {
-          "match": "WordPress-Do-P-\/2.*",
+          "match": "WordPress-Do-P-/2.*",
           "properties": {
             "Browser": "WordPress-Do-P",
             "Version": "2.0",
@@ -36,7 +36,7 @@
           }
         },
         {
-          "match": "Incutio XML-RPC -- WordPress\/*"
+          "match": "Incutio XML-RPC -- WordPress/*"
         },
         {
           "match": "The Incutio XML-RPC PHP Library -- WordPress*"

@@ -30,7 +30,7 @@
           }
         },
         {
-          "match": "1st ZipCommander (Net) - http:\/\/www.zipcommander.com\/",
+          "match": "1st ZipCommander (Net) - http://www.zipcommander.com/",
           "properties": {
             "Browser": "1st ZipCommander"
           }
@@ -48,7 +48,7 @@
           }
         },
         {
-          "match": "EVE-minibrowser\/*",
+          "match": "EVE-minibrowser/*",
           "properties": {
             "Browser": "EVE-minibrowser",
             "IFrames": "false",
@@ -58,7 +58,7 @@
           }
         },
         {
-          "match": "Godzilla\/* (Basic*; *; Commodore C=64; *; rv:1.*)*",
+          "match": "Godzilla/* (Basic*; *; Commodore C=64; *; rv:1.*)*",
           "properties": {
             "Browser": "Godzilla"
           }
@@ -76,7 +76,7 @@
           }
         },
         {
-          "match": "Kopiczek\/* (WyderOS*; *)",
+          "match": "Kopiczek/* (WyderOS*; *)",
           "properties": {
             "Browser": "Kopiczek",
             "IFrames": "true",
@@ -87,13 +87,13 @@
           ]
         },
         {
-          "match": "Mozilla\/* (*) - BrowseX (*)",
+          "match": "Mozilla/* (*) - BrowseX (*)",
           "properties": {
             "Browser": "BrowseX"
           }
         },
         {
-          "match": "Mozilla\/* (Win32;*Escape?*; ?)",
+          "match": "Mozilla/* (Win32;*Escape?*; ?)",
           "properties": {
             "Browser": "Escape"
           },
@@ -102,13 +102,13 @@
           ]
         },
         {
-          "match": "Mozilla\/4.0 (compatible; ibisBrowser)",
+          "match": "Mozilla/4.0 (compatible; ibisBrowser)",
           "properties": {
             "Browser": "ibisBrowser"
           }
         },
         {
-          "match": "Mozilla\/5.0 (Macintosh; ?; PPC Mac OS X;*) AppleWebKit\/* (*) HistoryHound\/*",
+          "match": "Mozilla/5.0 (Macintosh; ?; PPC Mac OS X;*) AppleWebKit/* (*) HistoryHound/*",
           "properties": {
             "Browser": "HistoryHound"
           }
@@ -141,7 +141,7 @@
           }
         },
         {
-          "match": "WWW_Browser\/*",
+          "match": "WWW_Browser/*",
           "properties": {
             "Browser": "WWW Browser",
             "Version": "1.69",
@@ -160,7 +160,7 @@
           }
         },
         {
-          "match": "WEB.DE MailCheck\/2.4*",
+          "match": "WEB.DE MailCheck/2.4*",
           "properties": {
             "Browser": "WEB.DE MailCheck",
             "Browser_Maker": "1 & 1",
@@ -170,14 +170,14 @@
           }
         },
         {
-          "match": "WEB.DE MailCheck\/*",
+          "match": "WEB.DE MailCheck/*",
           "properties": {
             "Browser": "WEB.DE MailCheck",
             "Browser_Maker": "1 & 1"
           }
         },
         {
-          "match": "GMX MailCheck\/2.3*",
+          "match": "GMX MailCheck/2.3*",
           "properties": {
             "Browser": "GMX MailCheck",
             "Browser_Maker": "1 & 1",
@@ -187,7 +187,7 @@
           }
         },
         {
-          "match": "GMX MailCheck\/2.4*",
+          "match": "GMX MailCheck/2.4*",
           "properties": {
             "Browser": "GMX MailCheck",
             "Browser_Maker": "1 & 1",
@@ -197,7 +197,7 @@
           }
         },
         {
-          "match": "GMX MailCheck\/*",
+          "match": "GMX MailCheck/*",
           "properties": {
             "Browser": "GMX MailCheck"
           }

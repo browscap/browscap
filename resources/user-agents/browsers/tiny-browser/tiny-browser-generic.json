@@ -23,7 +23,7 @@
       },
       "children": [
         {
-          "match": "TinyBrowser\/* (TinyBrowser *) Gecko*"
+          "match": "TinyBrowser/* (TinyBrowser *) Gecko*"
         }
       ]
     }

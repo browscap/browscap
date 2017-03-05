@@ -25,7 +25,7 @@
       },
       "children": [
         {
-          "match": "Dorado WAP-Browser\/1.0*",
+          "match": "Dorado WAP-Browser/1.0*",
           "properties": {
             "Version": "1.0",
             "MajorVer": "1",
@@ -36,7 +36,7 @@
           "match": "Dorado WAP-Browser*"
         },
         {
-          "match": "LAVA.KKT22S\/Dorado WAP-Browser\/1.0*",
+          "match": "LAVA.KKT22S/Dorado WAP-Browser/1.0*",
           "device": "Lava KKT22S",
           "properties": {
             "Version": "1.0",
@@ -45,11 +45,11 @@
           }
         },
         {
-          "match": "LAVA.KKT22S\/Dorado WAP-Browser*",
+          "match": "LAVA.KKT22S/Dorado WAP-Browser*",
           "device": "Lava KKT22S"
         },
         {
-          "match": "*\/Dorado WAP-Browser\/1.0*",
+          "match": "*/Dorado WAP-Browser/1.0*",
           "properties": {
             "Version": "1.0",
             "MajorVer": "1",
@@ -57,7 +57,7 @@
           }
         },
         {
-          "match": "*\/Dorado WAP-Browser*"
+          "match": "*/Dorado WAP-Browser*"
         }
       ]
     }

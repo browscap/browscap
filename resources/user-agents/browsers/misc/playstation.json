@@ -22,7 +22,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/* (PLAYSTATION 3*",
+          "match": "Mozilla/* (PLAYSTATION 3*",
           "device": "Sony PS3"
         }
       ]
@@ -45,14 +45,14 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (PlayStation Vita*) AppleWebKit\/*",
+          "match": "Mozilla/5.0 (PlayStation Vita*) AppleWebKit/*",
           "engine": "WebKit"
         },
         {
-          "match": "Mozilla\/5.0 (PlayStation Vita*"
+          "match": "Mozilla/5.0 (PlayStation Vita*"
         },
         {
-          "match": "Mozilla\/* (PlayStation Vita*"
+          "match": "Mozilla/* (PlayStation Vita*"
         }
       ]
     },
@@ -73,7 +73,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/* (PSP (PlayStation Portable)*)",
+          "match": "Mozilla/* (PSP (PlayStation Portable)*)",
           "device": "Sony PSP",
           "properties": {
             "Browser": "Sony PSP"
@@ -90,7 +90,7 @@
           ]
         },
         {
-          "match": "Mozilla\/* (PLAYSTATION*)"
+          "match": "Mozilla/* (PLAYSTATION*)"
         }
       ]
     }

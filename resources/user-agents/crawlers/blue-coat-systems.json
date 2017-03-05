@@ -15,7 +15,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/4.0 (*compatible*;*MSIE 6.0; Bluecoat DRTR)",
+          "match": "Mozilla/4.0 (*compatible*;*MSIE 6.0; Bluecoat DRTR)",
           "properties": {
             "Browser": "Bluecoat"
           }
@@ -27,25 +27,25 @@
           }
         },
         {
-          "match": "CerberianDrtrs\/*",
+          "match": "CerberianDrtrs/*",
           "properties": {
             "Browser": "Cerberian"
           }
         },
         {
-          "match": "Inne: Mozilla\/4.0 (compatible; Cerberian Drtrs*)",
+          "match": "Inne: Mozilla/4.0 (compatible; Cerberian Drtrs*)",
           "properties": {
             "Browser": "Cerberian"
           }
         },
         {
-          "match": "Mozilla\/4.0 (compatible; Cerberian Drtrs*)",
+          "match": "Mozilla/4.0 (compatible; Cerberian Drtrs*)",
           "properties": {
             "Browser": "Cerberian"
           }
         },
         {
-          "match": "Mozilla\/4.0 (compatible; MSIE 6.0; Bluecoat DRTR)",
+          "match": "Mozilla/4.0 (compatible; MSIE 6.0; Bluecoat DRTR)",
           "properties": {
             "Browser": "Bluecoat"
           }

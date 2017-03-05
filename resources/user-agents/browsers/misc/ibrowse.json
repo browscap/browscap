@@ -35,7 +35,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; IBrowse 3.0; AmigaOS*",
+          "match": "Mozilla/5.0 (compatible; IBrowse 3.0; AmigaOS*",
           "properties": {
             "Version": "3.0",
             "MajorVer": "3",
@@ -43,7 +43,7 @@
           }
         },
         {
-          "match": "IBrowse\/1.22 (AmigaOS *)",
+          "match": "IBrowse/1.22 (AmigaOS *)",
           "properties": {
             "Version": "1.22",
             "MajorVer": "1",
@@ -51,7 +51,7 @@
           }
         },
         {
-          "match": "IBrowse\/2.1 (AmigaOS *)",
+          "match": "IBrowse/2.1 (AmigaOS *)",
           "properties": {
             "Version": "2.1",
             "MajorVer": "2",
@@ -59,7 +59,7 @@
           }
         },
         {
-          "match": "IBrowse\/2.2 (AmigaOS *)",
+          "match": "IBrowse/2.2 (AmigaOS *)",
           "properties": {
             "Version": "2.2",
             "MajorVer": "2",
@@ -67,7 +67,7 @@
           }
         },
         {
-          "match": "IBrowse\/2.2 (Windows 3.1)",
+          "match": "IBrowse/2.2 (Windows 3.1)",
           "properties": {
             "Version": "2.2",
             "MajorVer": "2",
@@ -78,7 +78,7 @@
           ]
         },
         {
-          "match": "IBrowse\/2.3 (AmigaOS *)",
+          "match": "IBrowse/2.3 (AmigaOS *)",
           "properties": {
             "Version": "2.2",
             "MajorVer": "2",
@@ -86,7 +86,7 @@
           }
         },
         {
-          "match": "Mozilla\/* (Win98; I) IBrowse\/2.1 (AmigaOS 3.1)",
+          "match": "Mozilla/* (Win98; I) IBrowse/2.1 (AmigaOS 3.1)",
           "properties": {
             "Version": "2.1",
             "MajorVer": "2",
@@ -97,7 +97,7 @@
           ]
         },
         {
-          "match": "Mozilla\/* (Win98; I) IBrowse\/2.2 (AmigaOS 3.1)",
+          "match": "Mozilla/* (Win98; I) IBrowse/2.2 (AmigaOS 3.1)",
           "properties": {
             "Version": "2.2",
             "MajorVer": "2",
@@ -108,7 +108,7 @@
           ]
         },
         {
-          "match": "Mozilla\/* (Win98; I) IBrowse\/2.3 (AmigaOS 3.1)",
+          "match": "Mozilla/* (Win98; I) IBrowse/2.3 (AmigaOS 3.1)",
           "properties": {
             "Version": "2.3",
             "MajorVer": "2",
@@ -119,7 +119,7 @@
           ]
         },
         {
-          "match": "IBrowse\/2.4 (AmigaOS *)",
+          "match": "IBrowse/2.4 (AmigaOS *)",
           "properties": {
             "Version": "2.4",
             "MajorVer": "2",
@@ -127,7 +127,7 @@
           }
         },
         {
-          "match": "IBrowse\/2.5 (AmigaOS *)",
+          "match": "IBrowse/2.5 (AmigaOS *)",
           "properties": {
             "Version": "2.5",
             "MajorVer": "2",
@@ -135,7 +135,7 @@
           }
         },
         {
-          "match": "iBrowse\/2.60 CFNetwork\/*",
+          "match": "iBrowse/2.60 CFNetwork/*",
           "device": "Macintosh",
           "properties": {
             "Version": "2.6",

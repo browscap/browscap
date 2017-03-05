@@ -15,7 +15,7 @@
       },
       "children": [
         {
-          "match": "A1 Website Download\/1.* (*) miggibot",
+          "match": "A1 Website Download/1.* (*) miggibot",
           "properties": {
             "Browser": "A1 Website Download"
           }
@@ -33,7 +33,7 @@
           }
         },
         {
-          "match": "BitBeamer\/*",
+          "match": "BitBeamer/*",
           "properties": {
             "Browser": "BitBeamer"
           }
@@ -51,7 +51,7 @@
           }
         },
         {
-          "match": "masscan\/1.0*",
+          "match": "masscan/1.0*",
           "properties": {
             "Browser": "Download Accelerator",
             "Version": "1.0",
@@ -60,7 +60,7 @@
           }
         },
         {
-          "match": "masscan\/*",
+          "match": "masscan/*",
           "properties": {
             "Browser": "Download Accelerator"
           }
@@ -102,7 +102,7 @@
           }
         },
         {
-          "match": "EasyDL\/*",
+          "match": "EasyDL/*",
           "properties": {
             "Browser": "EasyDL"
           }
@@ -120,25 +120,25 @@
           }
         },
         {
-          "match": "FreshDownload\/*",
+          "match": "FreshDownload/*",
           "properties": {
             "Browser": "FreshDownload"
           }
         },
         {
-          "match": "GetRight\/*",
+          "match": "GetRight/*",
           "properties": {
             "Browser": "GetRight"
           }
         },
         {
-          "match": "GetRightPro\/*",
+          "match": "GetRightPro/*",
           "properties": {
             "Browser": "GetRightPro"
           }
         },
         {
-          "match": "GetSmart\/*",
+          "match": "GetSmart/*",
           "properties": {
             "Browser": "GetSmart"
           }
@@ -150,7 +150,7 @@
           }
         },
         {
-          "match": "Gozilla\/*",
+          "match": "Gozilla/*",
           "properties": {
             "Browser": "Gozilla"
           }
@@ -168,25 +168,25 @@
           }
         },
         {
-          "match": "LightningDownload\/*",
+          "match": "LightningDownload/*",
           "properties": {
             "Browser": "LightningDownload"
           }
         },
         {
-          "match": "LMQueueBot\/*",
+          "match": "LMQueueBot/*",
           "properties": {
             "Browser": "LMQueueBot"
           }
         },
         {
-          "match": "MetaProducts Download Express\/*",
+          "match": "MetaProducts Download Express/*",
           "properties": {
             "Browser": "Download Express"
           }
         },
         {
-          "match": "Mozilla\/4.0 (compatible; Getleft*)",
+          "match": "Mozilla/4.0 (compatible; Getleft*)",
           "properties": {
             "Browser": "Getleft"
           }
@@ -198,7 +198,7 @@
           }
         },
         {
-          "match": "Net Vampire\/*",
+          "match": "Net Vampire/*",
           "properties": {
             "Browser": "Net Vampire"
           }
@@ -270,13 +270,13 @@
           }
         },
         {
-          "match": "RealDownload\/*",
+          "match": "RealDownload/*",
           "properties": {
             "Browser": "RealDownload"
           }
         },
         {
-          "match": "sEasyDL\/*",
+          "match": "sEasyDL/*",
           "properties": {
             "Browser": "EasyDL"
           }
@@ -288,19 +288,19 @@
           }
         },
         {
-          "match": "SmartDownload\/*",
+          "match": "SmartDownload/*",
           "properties": {
             "Browser": "SmartDownload"
           }
         },
         {
-          "match": "SpeedDownload\/*",
+          "match": "SpeedDownload/*",
           "properties": {
             "Browser": "Speed Download"
           }
         },
         {
-          "match": "Star*Downloader\/*",
+          "match": "Star*Downloader/*",
           "properties": {
             "Browser": "StarDownloader"
           }
@@ -312,13 +312,13 @@
           }
         },
         {
-          "match": "SuperBot\/*",
+          "match": "SuperBot/*",
           "properties": {
             "Browser": "SuperBot"
           }
         },
         {
-          "match": "Vegas95\/*",
+          "match": "Vegas95/*",
           "properties": {
             "Browser": "Vegas95"
           }

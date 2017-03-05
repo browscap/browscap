@@ -22,7 +22,7 @@
       },
       "children": [
         {
-          "match": "portalmmm\/2.0 N410i(c20;TB)*"
+          "match": "portalmmm/2.0 N410i(c20;TB)*"
         }
       ]
     }

@@ -21,13 +21,13 @@
       },
       "children": [
         {
-          "match": "Mozilla\/1.22 (*compatible*;*MSIE 5.01; Palm OS 3.0) EudoraWeb 2.1"
+          "match": "Mozilla/1.22 (*compatible*;*MSIE 5.01; Palm OS 3.0) EudoraWeb 2.1"
         },
         {
-          "match": "Mozilla\/1.22 (*compatible*;*MSIE 5.01; PalmOS 3.0) EudoraWeb 2"
+          "match": "Mozilla/1.22 (*compatible*;*MSIE 5.01; PalmOS 3.0) EudoraWeb 2"
         },
         {
-          "match": "Mozilla\/1.22 (*compatible*;*MSIE 5.01; PalmOS 3.0) EudoraWeb 2.1"
+          "match": "Mozilla/1.22 (*compatible*;*MSIE 5.01; PalmOS 3.0) EudoraWeb 2.1"
         }
       ]
     }

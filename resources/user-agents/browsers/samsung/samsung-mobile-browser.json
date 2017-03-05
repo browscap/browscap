@@ -22,7 +22,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (SymbianOS\/*; U; Series60\/* Samsung\/I7110\/* ) AppleWebKit\/* (KHTML,*like Gecko*) Safari\/*",
+          "match": "Mozilla/5.0 (SymbianOS/*; U; Series60/* Samsung/I7110/* ) AppleWebKit/* (KHTML,*like Gecko*) Safari/*",
           "engine": "WebKit",
           "device": "Samsung GT-I7110",
           "platforms": [
@@ -30,42 +30,42 @@
           ]
         },
         {
-          "match": "SEC-SGHD730 SymbianOS\/*",
+          "match": "SEC-SGHD730 SymbianOS/*",
           "device": "Samsung SGH-D730",
           "platforms": [
             "SymbianOS"
           ]
         },
         {
-          "match": "Mozilla\/SMB3(Z105)\/Samsung *",
+          "match": "Mozilla/SMB3(Z105)/Samsung *",
           "device": "Samsung SGH-Z105"
         },
         {
-          "match": "SAMSUNG-SGH-X480\/1.0 *",
+          "match": "SAMSUNG-SGH-X480/1.0 *",
           "device": "Samsung SGH-X480"
         },
         {
-          "match": "SAMSUNG-SGH-X480C\/1.0 *",
+          "match": "SAMSUNG-SGH-X480C/1.0 *",
           "device": "Samsung SGH-X480C"
         },
         {
-          "match": "SAMSUNG-SGH-X486\/1.0 *",
+          "match": "SAMSUNG-SGH-X486/1.0 *",
           "device": "Samsung SGH-X486"
         },
         {
-          "match": "SAMSUNG-SGH-X636\/1.0 *",
+          "match": "SAMSUNG-SGH-X636/1.0 *",
           "device": "Samsung SGH-X636"
         },
         {
-          "match": "SAMSUNG-SGH-Z140\/?.0 *",
+          "match": "SAMSUNG-SGH-Z140/?.0 *",
           "device": "Samsung SGH-Z140"
         },
         {
-          "match": "SAMSUNG-SGH-Z150\/1.0 *",
+          "match": "SAMSUNG-SGH-Z150/1.0 *",
           "device": "Samsung SGH-Z150"
         },
         {
-          "match": "SEC-SGHC130\/1.0*",
+          "match": "SEC-SGHC130/1.0*",
           "device": "Samsung SGH-C130"
         },
         {
@@ -81,11 +81,11 @@
           "device": "Samsung SGH-C207"
         },
         {
-          "match": "SEC-SGHC207L UP.Link\/6.3.0.0.0",
+          "match": "SEC-SGHC207L UP.Link/6.3.0.0.0",
           "device": "Samsung SGH-C207L"
         },
         {
-          "match": "SEC-SGHD357, TSS\/2.5, Rev 1.4 UP.Link\/6.3.0.0.0",
+          "match": "SEC-SGHD357, TSS/2.5, Rev 1.4 UP.Link/6.3.0.0.0",
           "device": "Samsung SGH-D357"
         },
         {
@@ -97,7 +97,7 @@
           "device": "Samsung SGH-D410C"
         },
         {
-          "match": "SEC-SGHD807\/1.0 *",
+          "match": "SEC-SGHD807/1.0 *",
           "device": "Samsung SGH-D807"
         },
         {
@@ -109,11 +109,11 @@
           "device": "Samsung SGH-E310"
         },
         {
-          "match": "SEC-SGHE310\/1.0 *",
+          "match": "SEC-SGHE310/1.0 *",
           "device": "Samsung SGH-E310"
         },
         {
-          "match": "SEC-SGHE310C\/1.0 *",
+          "match": "SEC-SGHE310C/1.0 *",
           "device": "Samsung SGH-E310C"
         },
         {
@@ -121,7 +121,7 @@
           "device": "Samsung SGH-E317"
         },
         {
-          "match": "SEC-SGHE530\/1.0 TSS\/2.5 *",
+          "match": "SEC-SGHE530/1.0 TSS/2.5 *",
           "device": "Samsung SGH-E530"
         },
         {
@@ -141,11 +141,11 @@
           "device": "Samsung SGH-E710"
         },
         {
-          "match": "SEC-SGHE710\/1.0 *",
+          "match": "SEC-SGHE710/1.0 *",
           "device": "Samsung SGH-E710"
         },
         {
-          "match": "SEC-SGHE720\/1.0 TSS\/2.5 *",
+          "match": "SEC-SGHE720/1.0 TSS/2.5 *",
           "device": "Samsung SGH-E720"
         },
         {
@@ -153,7 +153,7 @@
           "device": "Samsung SGH-E810"
         },
         {
-          "match": "SEC-SGHE810C\/1.0 *",
+          "match": "SEC-SGHE810C/1.0 *",
           "device": "Samsung SGH-E810C"
         },
         {
@@ -165,7 +165,7 @@
           "device": "Samsung SGH-P107"
         },
         {
-          "match": "SEC-SGHP207, TSS\/2.5, Rev1.1*",
+          "match": "SEC-SGHP207, TSS/2.5, Rev1.1*",
           "device": "Samsung SGH-P207"
         },
         {
@@ -177,7 +177,7 @@
           "device": "Samsung SGH-P408"
         },
         {
-          "match": "SEC-SGHP730C\/1.0 *",
+          "match": "SEC-SGHP730C/1.0 *",
           "device": "Samsung SGH-P730C"
         },
         {
@@ -213,7 +213,7 @@
           "device": "Samsung SGH-X105"
         },
         {
-          "match": "SEC-SGHX160\/1.0 *",
+          "match": "SEC-SGHX160/1.0 *",
           "device": "Samsung SGH-X160"
         },
         {
@@ -249,39 +249,39 @@
           "device": "Samsung SGH-X458"
         },
         {
-          "match": "SEC-SGHX510\/1.0 *",
+          "match": "SEC-SGHX510/1.0 *",
           "device": "Samsung SGH-X510"
         },
         {
-          "match": "SEC-SGHX660\/1.0 TSS\/2.5 *",
+          "match": "SEC-SGHX660/1.0 TSS/2.5 *",
           "device": "Samsung SGH-X660"
         },
         {
-          "match": "SEC-SGHX660\/EJ3 TSS\/2.5 *",
+          "match": "SEC-SGHX660/EJ3 TSS/2.5 *",
           "device": "Samsung SGH-X660"
         },
         {
-          "match": "SGH-Z107 SHP\/VPP\/R5 SMB3.1 *",
+          "match": "SGH-Z107 SHP/VPP/R5 SMB3.1 *",
           "device": "Samsung SGH-Z107"
         },
         {
-          "match": "SGH-Z300 SHP\/VPP\/R5 SMB3.1 *",
+          "match": "SGH-Z300 SHP/VPP/R5 SMB3.1 *",
           "device": "Samsung SGH-Z300"
         },
         {
-          "match": "SGH-Z500 SHP\/VPP\/R5 SMB3.1 *",
+          "match": "SGH-Z500 SHP/VPP/R5 SMB3.1 *",
           "device": "Samsung SGH-Z500"
         },
         {
-          "match": "SendoM550\/226-H-12 *",
+          "match": "SendoM550/226-H-12 *",
           "device": "Sendo M550"
         },
         {
-          "match": "SendoS600\/04 *",
+          "match": "SendoS600/04 *",
           "device": "Sendo S600"
         },
         {
-          "match": "Vodafone\/1.0\/SamsungSGHX660V\/X660JBEK2\/Browser\/TSS\/2.5 *",
+          "match": "Vodafone/1.0/SamsungSGHX660V/X660JBEK2/Browser/TSS/2.5 *",
           "device": "Samsung SGH-X660V"
         }
       ]

@@ -25,13 +25,13 @@
       },
       "children": [
         {
-          "match": "MobileRSS* CFNetwork\/*",
+          "match": "MobileRSS* CFNetwork/*",
           "platforms": [
             "Darwin"
           ]
         },
         {
-          "match": "MobileRSS*-iPad* CFNetwork\/*",
+          "match": "MobileRSS*-iPad* CFNetwork/*",
           "device": "iPad",
           "platforms": [
             "Darwin"

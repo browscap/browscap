@@ -16,7 +16,7 @@
       },
       "children": [
         {
-          "match": "gooblog\/2.0*",
+          "match": "gooblog/2.0*",
           "properties": {
             "Version": "2.0",
             "MajorVer": "2",
@@ -24,7 +24,7 @@
           }
         },
         {
-          "match": "gooblog\/*"
+          "match": "gooblog/*"
         }
       ]
     }

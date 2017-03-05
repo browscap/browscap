@@ -28,7 +28,7 @@
           "match": "Bleu 453x"
         },
         {
-          "match": "KAA-A59\/*\/WAP1.2 *"
+          "match": "KAA-A59/*/WAP1.2 *"
         }
       ]
     }

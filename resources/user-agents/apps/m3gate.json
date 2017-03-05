@@ -26,21 +26,21 @@
       },
       "children": [
         {
-          "match": "M3GATE\/0.4*",
+          "match": "M3GATE/0.4*",
           "properties": {
             "Version": "0.4",
             "MinorVer": "4"
           }
         },
         {
-          "match": "M3Gate\/0.6*",
+          "match": "M3Gate/0.6*",
           "properties": {
             "Version": "0.6",
             "MinorVer": "6"
           }
         },
         {
-          "match": "M3Gate\/1.2*",
+          "match": "M3Gate/1.2*",
           "properties": {
             "Version": "1.2",
             "MajorVer": "1",

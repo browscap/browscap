@@ -21,7 +21,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/4.0 (compatible; Lotus-Notes\/#MAJORVER#.#MINORVER#; Windows-NT)",
+          "match": "Mozilla/4.0 (compatible; Lotus-Notes/#MAJORVER#.#MINORVER#; Windows-NT)",
           "platforms": [
             "NT"
           ]

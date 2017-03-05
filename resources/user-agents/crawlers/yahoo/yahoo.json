@@ -19,23 +19,23 @@
       },
       "children": [
         {
-          "match": "Mozilla\/4.0 (compatible; Y!J; for robot study*)",
+          "match": "Mozilla/4.0 (compatible; Y!J; for robot study*)",
           "properties": {
             "Browser": "Y!J"
           }
         },
         {
-          "match": "KDDI-CA33 UP.Browser\/6.2* (compatible; Y!J-SRD\/1.0; http:\/\/help.yahoo.co.jp\/help\/jp\/search\/indexing\/indexing-27.html)",
+          "match": "KDDI-CA33 UP.Browser/6.2* (compatible; Y!J-SRD/1.0; http://help.yahoo.co.jp/help/jp/search/indexing/indexing-27.html)",
           "device": "KDDI CA33"
         },
         {
-          "match": "KDDI-HI21 UP.Browser\/6.0* (compatible; Y!J-SRD\/1.0; http:\/\/help.yahoo.co.jp\/help\/jp\/search\/indexing\/indexing-27.html)"
+          "match": "KDDI-HI21 UP.Browser/6.0* (compatible; Y!J-SRD/1.0; http://help.yahoo.co.jp/help/jp/search/indexing/indexing-27.html)"
         },
         {
-          "match": "Mozilla\/5.0 (compatible; del.icio.us-thumbnails\/*KHTML\/* (like Gecko)"
+          "match": "Mozilla/5.0 (compatible; del.icio.us-thumbnails/*KHTML/* (like Gecko)"
         },
         {
-          "match": "Mozilla\/5.0 (compatible; del.icio.us-thumbnails\/*; *) KHTML\/* (like Gecko)"
+          "match": "Mozilla/5.0 (compatible; del.icio.us-thumbnails/*; *) KHTML/* (like Gecko)"
         },
         {
           "match": "YahooCacheSystem*",
@@ -44,7 +44,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (Yahoo-MMCrawler\/4.*; mailto:vertical-crawl-support@yahoo-inc.com)",
+          "match": "Mozilla/5.0 (Yahoo-MMCrawler/4.*; mailto:vertical-crawl-support@yahoo-inc.com)",
           "properties": {
             "Browser": "Yahoo-MMCrawler",
             "Version": "4.0",
@@ -53,19 +53,19 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (Yahoo-MMCrawler\/*; mailto:vertical-crawl-support@yahoo-inc.com)",
+          "match": "Mozilla/5.0 (Yahoo-MMCrawler/*; mailto:vertical-crawl-support@yahoo-inc.com)",
           "properties": {
             "Browser": "Yahoo-MMCrawler"
           }
         },
         {
-          "match": "Mozilla\/5.0 (Yahoo-Test\/*)",
+          "match": "Mozilla/5.0 (Yahoo-Test/*)",
           "properties": {
             "Browser": "Yahoo-Test"
           }
         },
         {
-          "match": "Mozilla\/5.0 (YahooYSMcm*)",
+          "match": "Mozilla/5.0 (YahooYSMcm*)",
           "properties": {
             "Browser": "YahooYSMcm"
           }
@@ -83,7 +83,7 @@
           }
         },
         {
-          "match": "Scooter\/3.3*",
+          "match": "Scooter/3.3*",
           "properties": {
             "Version": "3.3",
             "MajorVer": "3",
@@ -169,7 +169,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; Yahoo Ad monitoring*",
+          "match": "Mozilla/5.0 (compatible; Yahoo Ad monitoring*",
           "properties": {
             "Browser": "Yahoo Ad Monitoring"
           }

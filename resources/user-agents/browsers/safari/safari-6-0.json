@@ -27,14 +27,14 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) *Version\/#MAJORVER#.#MINORVER#* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML* like Gecko) *Version/#MAJORVER#.#MINORVER#* Safari/*",
           "device": "Linux Desktop",
           "platforms": [
             "CentOS", "Linux_64", "Linux_32", "Linux"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) *Version\/#MAJORVER#.#MINORVER#* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML* like Gecko) *Version/#MAJORVER#.#MINORVER#* Safari/*",
           "device": "Macintosh",
           "platforms": [
             "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
@@ -42,7 +42,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) *Version\/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML* like Gecko) *Version/#MAJORVER#.#MINORVER#*",
           "device": "Macintosh",
           "platforms": [
             "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
@@ -72,7 +72,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) *Version\/#MAJORVER#.#MINORVER#* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML* like Gecko) *Version/#MAJORVER#.#MINORVER#* Safari/*",
           "device": "general Mobile Phone",
           "platforms": [
             "SymbianOS"
@@ -103,91 +103,91 @@
       },
       "children": [
         {
-          "match": "Safari\/85??.* CFNetwork\/128*",
+          "match": "Safari/85??.* CFNetwork/128*",
           "platforms": [
             "OSX_10_4"
           ]
         },
         {
-          "match": "Safari\/85??.* CFNetwork\/129*",
+          "match": "Safari/85??.* CFNetwork/129*",
           "platforms": [
             "OSX_10_4"
           ]
         },
         {
-          "match": "Safari\/85??.* CFNetwork\/217*",
+          "match": "Safari/85??.* CFNetwork/217*",
           "platforms": [
             "OSX_10_5"
           ]
         },
         {
-          "match": "Safari\/85??.* CFNetwork\/220*",
+          "match": "Safari/85??.* CFNetwork/220*",
           "platforms": [
             "OSX_10_5"
           ]
         },
         {
-          "match": "Safari\/85??.* CFNetwork\/221*",
+          "match": "Safari/85??.* CFNetwork/221*",
           "platforms": [
             "OSX_10_5"
           ]
         },
         {
-          "match": "Safari\/85??.* CFNetwork\/330*",
+          "match": "Safari/85??.* CFNetwork/330*",
           "platforms": [
             "OSX_10_5"
           ]
         },
         {
-          "match": "Safari\/85??.* CFNetwork\/339*",
+          "match": "Safari/85??.* CFNetwork/339*",
           "platforms": [
             "OSX_10_5"
           ]
         },
         {
-          "match": "Safari\/85??.* CFNetwork\/422*",
+          "match": "Safari/85??.* CFNetwork/422*",
           "platforms": [
             "OSX_10_5"
           ]
         },
         {
-          "match": "Safari\/85??.* CFNetwork\/438*",
+          "match": "Safari/85??.* CFNetwork/438*",
           "platforms": [
             "OSX_10_5"
           ]
         },
         {
-          "match": "Safari\/85??.* CFNetwork\/454*",
+          "match": "Safari/85??.* CFNetwork/454*",
           "platforms": [
             "OSX_10_6"
           ]
         },
         {
-          "match": "Safari\/85??.* CFNetwork\/520*",
+          "match": "Safari/85??.* CFNetwork/520*",
           "platforms": [
             "OSX_10_7"
           ]
         },
         {
-          "match": "Safari\/85??.* CFNetwork\/596*",
+          "match": "Safari/85??.* CFNetwork/596*",
           "platforms": [
             "OSX_10_8"
           ]
         },
         {
-          "match": "Safari\/85??.* CFNetwork\/673*",
+          "match": "Safari/85??.* CFNetwork/673*",
           "platforms": [
             "OSX_10_9"
           ]
         },
         {
-          "match": "Safari\/85??.* CFNetwork\/720*",
+          "match": "Safari/85??.* CFNetwork/720*",
           "platforms": [
             "OSX_10_10"
           ]
         },
         {
-          "match": "Safari\/85??.* CFNetwork\/*",
+          "match": "Safari/85??.* CFNetwork/*",
           "platforms": [
             "OSX"
           ]

@@ -27,7 +27,7 @@
       },
       "children": [
         {
-          "match": "MacAppStore\/2.0 (#PLATFORM#) AppleWebKit\/*",
+          "match": "MacAppStore/2.0 (#PLATFORM#) AppleWebKit/*",
           "device": "Macintosh",
           "properties": {
             "Version": "2.0",
@@ -39,7 +39,7 @@
           ]
         },
         {
-          "match": "MacAppStore\/* (#PLATFORM#) AppleWebKit\/*",
+          "match": "MacAppStore/* (#PLATFORM#) AppleWebKit/*",
           "device": "Macintosh",
           "platforms": [
             "OSX_B_10_8", "OSX_B_10_9", "OSX_B_10_10", "OSX_B"

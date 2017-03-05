@@ -19,7 +19,7 @@
       },
       "children": [
         {
-          "match": "rogerbot\/1.1*",
+          "match": "rogerbot/1.1*",
           "properties": {
             "Version": "1.1",
             "MajorVer": "1",
@@ -27,7 +27,7 @@
           }
         },
         {
-          "match": "rogerbot\/1.0*",
+          "match": "rogerbot/1.0*",
           "properties": {
             "Version": "1.0",
             "MajorVer": "1",
@@ -35,7 +35,7 @@
           }
         },
         {
-          "match": "rogerbot\/*"
+          "match": "rogerbot/*"
         }
       ]
     }

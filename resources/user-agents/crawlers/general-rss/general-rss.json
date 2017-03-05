@@ -16,37 +16,37 @@
       },
       "children": [
         {
-          "match": "BlijbolReallySimpleAggregator\/2.0*",
+          "match": "BlijbolReallySimpleAggregator/2.0*",
           "properties": {
             "Browser": "BlijbolReallySimpleAggregator"
           }
         },
         {
-          "match": "CC Metadata Scaper http:\/\/wiki.creativecommons.org\/Metadata_Scraper",
+          "match": "CC Metadata Scaper http://wiki.creativecommons.org/Metadata_Scraper",
           "properties": {
             "Browser": "CC Metadata Scaper"
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible) GM RSS Panel",
+          "match": "Mozilla/5.0 (compatible) GM RSS Panel",
           "properties": {
             "Browser": "RSS Panel"
           }
         },
         {
-          "match": "Mozilla\/5.0 http:\/\/www.inclue.com; graeme@inclue.com",
+          "match": "Mozilla/5.0 http://www.inclue.com; graeme@inclue.com",
           "properties": {
             "Browser": "Inclue"
           }
         },
         {
-          "match": "Runnk online rss reader : http:\/\/www.runnk.com\/ : RSS favorites : RSS ranking : RSS aggregator*",
+          "match": "Runnk online rss reader : http://www.runnk.com/ : RSS favorites : RSS ranking : RSS aggregator*",
           "properties": {
             "Browser": "Ruunk"
           }
         },
         {
-          "match": "UniversalFeedParser\/4.1*",
+          "match": "UniversalFeedParser/4.1*",
           "properties": {
             "Browser": "UniversalFeedParser",
             "Version": "4.1",
@@ -55,7 +55,7 @@
           }
         },
         {
-          "match": "UniversalFeedParser\/4.*",
+          "match": "UniversalFeedParser/4.*",
           "properties": {
             "Browser": "UniversalFeedParser",
             "Version": "4.0",
@@ -64,7 +64,7 @@
           }
         },
         {
-          "match": "UniversalFeedParser\/5.1*",
+          "match": "UniversalFeedParser/5.1*",
           "properties": {
             "Browser": "UniversalFeedParser",
             "Version": "5.1",
@@ -73,7 +73,7 @@
           }
         },
         {
-          "match": "UniversalFeedParser\/5.*",
+          "match": "UniversalFeedParser/5.*",
           "properties": {
             "Browser": "UniversalFeedParser",
             "Version": "5.0",
@@ -82,7 +82,7 @@
           }
         },
         {
-          "match": "RSSOwl\/*",
+          "match": "RSSOwl/*",
           "properties": {
             "Browser": "RSSOwl"
           }
@@ -94,7 +94,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Shrook\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML* like Gecko) Shrook/*",
           "engine": "WebKit",
           "device": "Macintosh",
           "properties": {
@@ -106,7 +106,7 @@
           ]
         },
         {
-          "match": "Digg Feed Fetcher 1.0 (Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML, like Gecko)*",
+          "match": "Digg Feed Fetcher 1.0 (Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML, like Gecko)*",
           "engine": "WebKit",
           "device": "Macintosh",
           "properties": {

@@ -25,7 +25,7 @@
       },
       "children": [
         {
-          "match": "Prince\/7.1*",
+          "match": "Prince/7.1*",
           "properties": {
             "Version": "7.1",
             "MajorVer": "7",
@@ -33,7 +33,7 @@
           }
         },
         {
-          "match": "Prince\/*"
+          "match": "Prince/*"
         }
       ]
     }

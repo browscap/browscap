@@ -16,7 +16,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/4.0 (#PLATFORM#) Lightspeedsystems*",
+          "match": "Mozilla/4.0 (#PLATFORM#) Lightspeedsystems*",
           "device": "Windows Desktop",
           "properties": {
             "Browser": "Lightspeed Systems Crawler"
@@ -26,7 +26,7 @@
           ]
         },
         {
-          "match": "LSSRocketCrawler\/1.0 LightspeedSystems*",
+          "match": "LSSRocketCrawler/1.0 LightspeedSystems*",
           "properties": {
             "Version": "1.0",
             "MajorVer": "1",
@@ -34,7 +34,7 @@
           }
         },
         {
-          "match": "LSSRocketCrawler\/* LightspeedSystems*"
+          "match": "LSSRocketCrawler/* LightspeedSystems*"
         }
       ]
     }

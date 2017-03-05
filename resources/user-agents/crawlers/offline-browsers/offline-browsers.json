@@ -45,7 +45,7 @@
           }
         },
         {
-          "match": "iGetter\/*",
+          "match": "iGetter/*",
           "properties": {
             "Browser": "iGetter"
           }

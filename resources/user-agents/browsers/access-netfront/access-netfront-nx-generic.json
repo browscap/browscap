@@ -23,21 +23,21 @@
       },
       "children": [
         {
-          "match": "Mozilla\/* (Nintendo 3DS; *) Version\/*",
+          "match": "Mozilla/* (Nintendo 3DS; *) Version/*",
           "engine": "NetFront",
           "device": "Nintendo 3DS"
         },
         {
-          "match": "Mozilla\/* (New Nintendo 3DS *) AppleWebKit\/* (KHTML* like Gecko) NX\/*",
+          "match": "Mozilla/* (New Nintendo 3DS *) AppleWebKit/* (KHTML* like Gecko) NX/*",
           "engine": "NetFront",
           "device": "New Nintendo 3DS"
         },
         {
-          "match": "Mozilla\/* (Nintendo WiiU) AppleWebKit\/* (KHTML* like Gecko) *",
+          "match": "Mozilla/* (Nintendo WiiU) AppleWebKit/* (KHTML* like Gecko) *",
           "device": "Nintendo WiiU"
         },
         {
-          "match": "HbbTV\/*Access;NetFront NX *Netfont webkit*",
+          "match": "HbbTV/*Access;NetFront NX *Netfont webkit*",
           "device": "general TV Device"
         }
       ]

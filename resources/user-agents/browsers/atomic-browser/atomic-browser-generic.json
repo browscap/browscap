@@ -23,253 +23,253 @@
       },
       "children": [
         {
-          "match": "AtomicBrowser\/* CFNetwork\/459*",
+          "match": "AtomicBrowser/* CFNetwork/459*",
           "platforms": [
             "iOS_A_3_1"
           ]
         },
         {
-          "match": "AtomicBrowser\/* CFNetwork\/467.12*",
+          "match": "AtomicBrowser/* CFNetwork/467.12*",
           "platforms": [
             "iOS_A_3_2"
           ]
         },
         {
-          "match": "AtomicBrowser\/* CFNetwork\/485.2*",
+          "match": "AtomicBrowser/* CFNetwork/485.2*",
           "platforms": [
             "iOS_A_4_0"
           ]
         },
         {
-          "match": "AtomicBrowser\/* CFNetwork\/485.10*",
+          "match": "AtomicBrowser/* CFNetwork/485.10*",
           "platforms": [
             "iOS_A_4_1"
           ]
         },
         {
-          "match": "AtomicBrowser\/* CFNetwork\/485.12*",
+          "match": "AtomicBrowser/* CFNetwork/485.12*",
           "platforms": [
             "iOS_A_4_2"
           ]
         },
         {
-          "match": "AtomicBrowser\/* CFNetwork\/485.13*",
+          "match": "AtomicBrowser/* CFNetwork/485.13*",
           "platforms": [
             "iOS_A_4_3"
           ]
         },
         {
-          "match": "AtomicBrowser\/* CFNetwork\/548.1*",
+          "match": "AtomicBrowser/* CFNetwork/548.1*",
           "platforms": [
             "iOS_A_5_1"
           ]
         },
         {
-          "match": "AtomicBrowser\/* CFNetwork\/548.0*",
+          "match": "AtomicBrowser/* CFNetwork/548.0*",
           "platforms": [
             "iOS_A_5_0"
           ]
         },
         {
-          "match": "AtomicBrowser\/* CFNetwork\/602*",
+          "match": "AtomicBrowser/* CFNetwork/602*",
           "platforms": [
             "iOS_A_6_0"
           ]
         },
         {
-          "match": "AtomicBrowser\/* CFNetwork\/609.1*",
+          "match": "AtomicBrowser/* CFNetwork/609.1*",
           "platforms": [
             "iOS_A_6_1"
           ]
         },
         {
-          "match": "AtomicBrowser\/* CFNetwork\/609*",
+          "match": "AtomicBrowser/* CFNetwork/609*",
           "platforms": [
             "iOS_A_6_0"
           ]
         },
         {
-          "match": "AtomicBrowser\/* CFNetwork\/672.0*",
+          "match": "AtomicBrowser/* CFNetwork/672.0*",
           "platforms": [
             "iOS_A_7_0"
           ]
         },
         {
-          "match": "AtomicBrowser\/* CFNetwork\/672.1*",
+          "match": "AtomicBrowser/* CFNetwork/672.1*",
           "platforms": [
             "iOS_A_7_1"
           ]
         },
         {
-          "match": "AtomicBrowser\/* CFNetwork\/711.0*",
+          "match": "AtomicBrowser/* CFNetwork/711.0*",
           "platforms": [
             "iOS_A_8_0"
           ]
         },
         {
-          "match": "AtomicBrowser\/* CFNetwork\/711.1*",
+          "match": "AtomicBrowser/* CFNetwork/711.1*",
           "platforms": [
             "iOS_A_8_1"
           ]
         },
         {
-          "match": "AtomicBrowser\/* CFNetwork\/711.2*",
+          "match": "AtomicBrowser/* CFNetwork/711.2*",
           "platforms": [
             "iOS_A_8_2"
           ]
         },
         {
-          "match": "AtomicBrowser\/* CFNetwork\/711.3*",
+          "match": "AtomicBrowser/* CFNetwork/711.3*",
           "platforms": [
             "iOS_A_8_3"
           ]
         },
         {
-          "match": "AtomicBrowser\/* CFNetwork\/711.4*",
+          "match": "AtomicBrowser/* CFNetwork/711.4*",
           "platforms": [
             "iOS_A_8_4"
           ]
         },
         {
-          "match": "AtomicBrowser\/* CFNetwork\/711.5*",
+          "match": "AtomicBrowser/* CFNetwork/711.5*",
           "platforms": [
             "iOS_A_8_4"
           ]
         },
         {
-          "match": "AtomicBrowser\/* CFNetwork\/758*",
+          "match": "AtomicBrowser/* CFNetwork/758*",
           "platforms": [
             "iOS_A_9_0"
           ]
         },
         {
-          "match": "AtomicBrowser\/* CFNetwork\/*",
+          "match": "AtomicBrowser/* CFNetwork/*",
           "platforms": [
             "iOS"
           ]
         },
         {
-          "match": "AtomicLite\/* CFNetwork\/459*",
+          "match": "AtomicLite/* CFNetwork/459*",
           "platforms": [
             "iOS_A_3_1"
           ]
         },
         {
-          "match": "AtomicLite\/* CFNetwork\/467.12*",
+          "match": "AtomicLite/* CFNetwork/467.12*",
           "platforms": [
             "iOS_A_3_2"
           ]
         },
         {
-          "match": "AtomicLite\/* CFNetwork\/485.2*",
+          "match": "AtomicLite/* CFNetwork/485.2*",
           "platforms": [
             "iOS_A_4_0"
           ]
         },
         {
-          "match": "AtomicLite\/* CFNetwork\/485.10*",
+          "match": "AtomicLite/* CFNetwork/485.10*",
           "platforms": [
             "iOS_A_4_1"
           ]
         },
         {
-          "match": "AtomicLite\/* CFNetwork\/485.12*",
+          "match": "AtomicLite/* CFNetwork/485.12*",
           "platforms": [
             "iOS_A_4_2"
           ]
         },
         {
-          "match": "AtomicLite\/* CFNetwork\/485.13*",
+          "match": "AtomicLite/* CFNetwork/485.13*",
           "platforms": [
             "iOS_A_4_3"
           ]
         },
         {
-          "match": "AtomicLite\/* CFNetwork\/548.1*",
+          "match": "AtomicLite/* CFNetwork/548.1*",
           "platforms": [
             "iOS_A_5_1"
           ]
         },
         {
-          "match": "AtomicLite\/* CFNetwork\/548.0*",
+          "match": "AtomicLite/* CFNetwork/548.0*",
           "platforms": [
             "iOS_A_5_0"
           ]
         },
         {
-          "match": "AtomicLite\/* CFNetwork\/602*",
+          "match": "AtomicLite/* CFNetwork/602*",
           "platforms": [
             "iOS_A_6_0"
           ]
         },
         {
-          "match": "AtomicLite\/* CFNetwork\/609.1*",
+          "match": "AtomicLite/* CFNetwork/609.1*",
           "platforms": [
             "iOS_A_6_1"
           ]
         },
         {
-          "match": "AtomicLite\/* CFNetwork\/609*",
+          "match": "AtomicLite/* CFNetwork/609*",
           "platforms": [
             "iOS_A_6_0"
           ]
         },
         {
-          "match": "AtomicLite\/* CFNetwork\/672.0*",
+          "match": "AtomicLite/* CFNetwork/672.0*",
           "platforms": [
             "iOS_A_7_0"
           ]
         },
         {
-          "match": "AtomicLite\/* CFNetwork\/672.1*",
+          "match": "AtomicLite/* CFNetwork/672.1*",
           "platforms": [
             "iOS_A_7_1"
           ]
         },
         {
-          "match": "AtomicLite\/* CFNetwork\/711.0*",
+          "match": "AtomicLite/* CFNetwork/711.0*",
           "platforms": [
             "iOS_A_8_0"
           ]
         },
         {
-          "match": "AtomicLite\/* CFNetwork\/711.1*",
+          "match": "AtomicLite/* CFNetwork/711.1*",
           "platforms": [
             "iOS_A_8_1"
           ]
         },
         {
-          "match": "AtomicLite\/* CFNetwork\/711.2*",
+          "match": "AtomicLite/* CFNetwork/711.2*",
           "platforms": [
             "iOS_A_8_2"
           ]
         },
         {
-          "match": "AtomicLite\/* CFNetwork\/711.3*",
+          "match": "AtomicLite/* CFNetwork/711.3*",
           "platforms": [
             "iOS_A_8_3"
           ]
         },
         {
-          "match": "AtomicLite\/* CFNetwork\/711.4*",
+          "match": "AtomicLite/* CFNetwork/711.4*",
           "platforms": [
             "iOS_A_8_4"
           ]
         },
         {
-          "match": "AtomicLite\/* CFNetwork\/711.5*",
+          "match": "AtomicLite/* CFNetwork/711.5*",
           "platforms": [
             "iOS_A_8_4"
           ]
         },
         {
-          "match": "AtomicLite\/* CFNetwork\/758*",
+          "match": "AtomicLite/* CFNetwork/758*",
           "platforms": [
             "iOS_A_9_0"
           ]
         },
         {
-          "match": "AtomicLite\/* CFNetwork\/*",
+          "match": "AtomicLite/* CFNetwork/*",
           "platforms": [
             "iOS"
           ]

@@ -17,13 +17,13 @@
       },
       "children": [
         {
-          "match": "IlseBot\/*"
+          "match": "IlseBot/*"
         },
         {
-          "match": "INGRID\/*"
+          "match": "INGRID/*"
         },
         {
-          "match": "Mozilla\/3.0 (INGRID\/*"
+          "match": "Mozilla/3.0 (INGRID/*"
         }
       ]
     }

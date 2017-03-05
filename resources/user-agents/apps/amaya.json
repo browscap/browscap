@@ -17,14 +17,14 @@
       },
       "children": [
         {
-          "match": "amaya\/7.*",
+          "match": "amaya/7.*",
           "properties": {
             "Version": "7.0",
             "MajorVer": "7"
           }
         },
         {
-          "match": "amaya\/8.*",
+          "match": "amaya/8.*",
           "properties": {
             "Version": "8.0",
             "MajorVer": "8",
@@ -32,7 +32,7 @@
           }
         },
         {
-          "match": "amaya\/9.*",
+          "match": "amaya/9.*",
           "properties": {
             "Version": "9.0",
             "MajorVer": "9",
@@ -40,7 +40,7 @@
           }
         },
         {
-          "match": "amaya\/10.*",
+          "match": "amaya/10.*",
           "properties": {
             "Version": "10.0",
             "MajorVer": "10",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "match": "amaya\/11.*",
+          "match": "amaya/11.*",
           "properties": {
             "Version": "11.0",
             "MajorVer": "11",

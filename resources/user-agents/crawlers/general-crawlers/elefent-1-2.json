@@ -20,7 +20,7 @@
       },
       "children": [
         {
-          "match": "elefent\/Elefent #MAJORVER#.#MINORVER#*"
+          "match": "elefent/Elefent #MAJORVER#.#MINORVER#*"
         }
       ]
     }

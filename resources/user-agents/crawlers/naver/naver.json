@@ -21,16 +21,16 @@
           "match": "Cowbot-* (NHN Corp*naver.com)"
         },
         {
-          "match": "Mozilla\/4.0 (compatible; NaverBot\/*)"
+          "match": "Mozilla/4.0 (compatible; NaverBot/*)"
         },
         {
-          "match": "Mozilla\/4.0 (compatible; NaverBot\/*; nhnbot@naver.com)"
+          "match": "Mozilla/4.0 (compatible; NaverBot/*; nhnbot@naver.com)"
         },
         {
           "match": "NaverBot-* (NHN Corp*naver.com)"
         },
         {
-          "match": "Yeti\/1.0*",
+          "match": "Yeti/1.0*",
           "properties": {
             "Version": "1.0",
             "MajorVer": "1",
@@ -38,10 +38,10 @@
           }
         },
         {
-          "match": "Yeti\/*"
+          "match": "Yeti/*"
         },
         {
-          "match": "Mozilla\/5.0 (compatible; Yeti\/1.1*",
+          "match": "Mozilla/5.0 (compatible; Yeti/1.1*",
           "properties": {
             "Version": "1.1",
             "MajorVer": "1",
@@ -49,7 +49,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; Yeti\/*"
+          "match": "Mozilla/5.0 (compatible; Yeti/*"
         },
         {
           "match": "*naver*"

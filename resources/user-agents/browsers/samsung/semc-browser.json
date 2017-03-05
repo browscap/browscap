@@ -21,7 +21,7 @@
       },
       "children": [
         {
-          "match": "*SEMC-Browser\/*"
+          "match": "*SEMC-Browser/*"
         }
       ]
     }

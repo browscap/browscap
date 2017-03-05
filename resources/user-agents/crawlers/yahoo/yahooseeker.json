@@ -19,9 +19,9 @@
       },
       "children": [
         {
-          "match": "YahooSeeker\/CafeKelsa* (compatible; Konqueror\/*; FreeBSD*(KHTML,*like Gecko*)",
+          "match": "YahooSeeker/CafeKelsa* (compatible; Konqueror/*; FreeBSD*(KHTML,*like Gecko*)",
           "properties": {
-            "Browser": "YahooSeeker\/CafeKelsa"
+            "Browser": "YahooSeeker/CafeKelsa"
           },
           "device": "general Desktop",
           "platforms": [
@@ -29,9 +29,9 @@
           ]
         },
         {
-          "match": "YahooSeeker\/CafeKelsa*",
+          "match": "YahooSeeker/CafeKelsa*",
           "properties": {
-            "Browser": "YahooSeeker\/CafeKelsa"
+            "Browser": "YahooSeeker/CafeKelsa"
           }
         },
         {

@@ -22,7 +22,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (BlackBerry; ?; BlackBerry*) AppleWebKit\/* (KHTML,*like Gecko*) Version\/*Safari\/*",
+          "match": "Mozilla/5.0 (BlackBerry; ?; BlackBerry*) AppleWebKit/* (KHTML,*like Gecko*) Version/*Safari/*",
           "device": "Blackberry Blackberry",
           "platforms": [
             "RIMOS"

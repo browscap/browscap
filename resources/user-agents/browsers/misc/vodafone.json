@@ -22,10 +22,10 @@
       },
       "children": [
         {
-          "match": "J-PHONE\/4.0\/J-SH51\/*"
+          "match": "J-PHONE/4.0/J-SH51/*"
         },
         {
-          "match": "J-PHONE\/4.3\/V602T\/*"
+          "match": "J-PHONE/4.3/V602T/*"
         }
       ]
     }

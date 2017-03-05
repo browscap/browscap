@@ -16,7 +16,7 @@
       },
       "children": [
         {
-          "match": "UnityPlayer\/4.3*",
+          "match": "UnityPlayer/4.3*",
           "properties": {
             "Version": "4.3",
             "MajorVer": "4",
@@ -24,7 +24,7 @@
           }
         },
         {
-          "match": "UnityPlayer\/*"
+          "match": "UnityPlayer/*"
         }
       ]
     }

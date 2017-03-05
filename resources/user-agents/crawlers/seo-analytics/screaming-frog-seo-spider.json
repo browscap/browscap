@@ -19,10 +19,10 @@
       },
       "children": [
         {
-          "match": "Screaming Frog SEO Spider\/#MAJORVER#.#MINORVER#"
+          "match": "Screaming Frog SEO Spider/#MAJORVER#.#MINORVER#"
         },
         {
-          "match": "Screaming Frog SEO Spider\/#MAJORVER#,#MINORVER#"
+          "match": "Screaming Frog SEO Spider/#MAJORVER#,#MINORVER#"
         }
       ]
     }

@@ -23,7 +23,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Firefox\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/*",
           "device": "Linux Desktop",
           "platforms": [
             "Ubuntu_64", "Ubuntu_12_04", "Ubuntu_32", "Ubuntu",
@@ -31,7 +31,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Firefox\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/*",
           "device": "Windows Desktop",
           "platforms": [
             "NT4", "Win2000_64", "Win2000", "NT4_1",
@@ -45,7 +45,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Firefox\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/*",
           "device": "Macintosh",
           "platforms": [
             "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
@@ -55,14 +55,14 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Firefox\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/*",
           "device": "general Desktop",
           "platforms": [
             "FreeBSD_64", "FreeBSD", "HPUX", "IRIX64", "OpenBSD_64_2", "OpenBSD", "SunOS", "OS2"
           ]
         },
         {
-          "match": "Mozilla\/4.0 (#PLATFORM#) Gecko* Firefox\/*",
+          "match": "Mozilla/4.0 (#PLATFORM#) Gecko* Firefox/*",
           "device": "Linux Desktop",
           "platforms": [
             "Ubuntu_64", "Ubuntu_12_04", "Ubuntu_32", "Ubuntu",
@@ -70,7 +70,7 @@
           ]
         },
         {
-          "match": "Mozilla\/4.0 (#PLATFORM#) Gecko* Firefox\/*",
+          "match": "Mozilla/4.0 (#PLATFORM#) Gecko* Firefox/*",
           "device": "Windows Desktop",
           "platforms": [
             "NT4", "Win2000_64", "Win2000", "NT4_1",
@@ -84,7 +84,7 @@
           ]
         },
         {
-          "match": "Mozilla\/4.0 (#PLATFORM#) Gecko* Firefox\/*",
+          "match": "Mozilla/4.0 (#PLATFORM#) Gecko* Firefox/*",
           "device": "Macintosh",
           "platforms": [
             "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
@@ -93,14 +93,14 @@
           ]
         },
         {
-          "match": "Mozilla\/4.0 (#PLATFORM#) Gecko* Firefox\/*",
+          "match": "Mozilla/4.0 (#PLATFORM#) Gecko* Firefox/*",
           "device": "general Desktop",
           "platforms": [
             "FreeBSD_64", "FreeBSD", "HPUX", "IRIX64", "OpenBSD_64_2", "OpenBSD", "SunOS", "OS2"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#; rv:*) Gecko* Firefox\/*anonymized by *",
+          "match": "Mozilla/5.0 (#PLATFORM#; rv:*) Gecko* Firefox/*anonymized by *",
           "properties": {
             "isAnonymized": "true"
           },
@@ -110,7 +110,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#; rv:*) Gecko* Firefox anonymized by *",
+          "match": "Mozilla/5.0 (#PLATFORM#; rv:*) Gecko* Firefox anonymized by *",
           "properties": {
             "isAnonymized": "true"
           },
@@ -120,7 +120,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Firefox\/* Anonymisiert*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* Anonymisiert*",
           "properties": {
             "isAnonymized": "true"
           },
@@ -130,7 +130,7 @@
           ]
         },
         {
-          "match": "Firefox\/*anonymized by Abelssoft*",
+          "match": "Firefox/*anonymized by Abelssoft*",
           "properties": {
             "isAnonymized": "true"
           },
@@ -140,21 +140,21 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (masking-agent; rv:*) Gecko* Firefox\/*",
+          "match": "Mozilla/5.0 (masking-agent; rv:*) Gecko* Firefox/*",
           "properties": {
             "isAnonymized": "true"
           },
           "device": "general Desktop"
         },
         {
-          "match": "* Mozilla\/5.0 (#PLATFORM#) Gecko* Firefox\/*",
+          "match": "* Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/*",
           "device": "Windows Desktop",
           "platforms": [
             "Win7_64"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko*\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko*/*",
           "device": "Windows Desktop",
           "platforms": [
             "WinXPa_32",
@@ -168,7 +168,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#rv:*) Gecko*\/",
+          "match": "Mozilla/5.0 (#PLATFORM#rv:*) Gecko*/",
           "device": "Windows Desktop",
           "platforms": [
             "WinXPa_32",
@@ -182,7 +182,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko*\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko*/*",
           "device": "Macintosh",
           "platforms": [
             "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
@@ -191,7 +191,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#rv:*) Gecko* Firefox*",
+          "match": "Mozilla/5.0 (#PLATFORM#rv:*) Gecko* Firefox*",
           "device": "Windows Desktop",
           "platforms": [
             "Win10_x64", "Win10_64", "Win10_32",
@@ -220,7 +220,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Firefox\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/*",
           "platforms": [
             "AndroidMobile_4_0", "AndroidMobile_4_1", "AndroidMobile_4_2", "AndroidMobile_4_3", "AndroidMobile_4_4",
             "AndroidMobile_5_0", "AndroidMobile_5_1",
@@ -228,7 +228,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Firefox\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/*",
           "device": "general Tablet",
           "platforms": [
             "AndroidTablet_4_0", "AndroidTablet_4_1", "AndroidTablet_4_2", "AndroidTablet_4_3", "AndroidTablet_4_4",
@@ -237,13 +237,13 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko*Firefox\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#)*Gecko*Firefox/*",
           "platforms": [
             "AndroidMobile"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko*Firefox\/ anonymized by Abelssoft*",
+          "match": "Mozilla/5.0 (#PLATFORM#)*Gecko*Firefox/ anonymized by Abelssoft*",
           "properties": {
             "isAnonymized": "true"
           },
@@ -252,14 +252,14 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko*Firefox\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#)*Gecko*Firefox/*",
           "device": "general Tablet",
           "platforms": [
             "AndroidTablet"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko*Firefox\/ anonymized by Abelssoft*",
+          "match": "Mozilla/5.0 (#PLATFORM#)*Gecko*Firefox/ anonymized by Abelssoft*",
           "properties": {
             "isAnonymized": "true"
           },
@@ -290,14 +290,14 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Firefox\/* MB860*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* MB860*",
           "device": "Motorola MB860",
           "platforms": [
             "Maemo_ARM"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Firefox\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/*",
           "platforms": [
             "Maemo_ARM"
           ]

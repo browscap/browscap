@@ -1005,13 +1005,13 @@
       }
     },
     "iOS_H": {
-      "match": "iPhone_OS\/*",
+      "match": "iPhone_OS/*",
       "lite": true,
       "standard": true,
       "inherits": "iOS"
     },
     "iOS_H_5_0": {
-      "match": "iPhone_OS\/5.0*",
+      "match": "iPhone_OS/5.0*",
       "lite": false,
       "standard": false,
       "inherits": "iOS",
@@ -1020,13 +1020,13 @@
       }
     },
     "iOS_I": {
-      "match": "* iOS\/*",
+      "match": "* iOS/*",
       "lite": true,
       "standard": true,
       "inherits": "iOS"
     },
     "iOS_I_7_0": {
-      "match": "* iOS\/7.0*",
+      "match": "* iOS/7.0*",
       "lite": false,
       "standard": true,
       "inherits": "iOS",
@@ -1035,7 +1035,7 @@
       }
     },
     "iOS_I_7_1": {
-      "match": "* iOS\/7.1*",
+      "match": "* iOS/7.1*",
       "lite": false,
       "standard": true,
       "inherits": "iOS",
@@ -1044,7 +1044,7 @@
       }
     },
     "iOS_I_8_0": {
-      "match": "* iOS\/8.0*",
+      "match": "* iOS/8.0*",
       "lite": false,
       "standard": true,
       "inherits": "iOS",
@@ -1053,13 +1053,13 @@
       }
     },
     "iOS_J": {
-      "match": "iOS\/*",
+      "match": "iOS/*",
       "lite": true,
       "standard": true,
       "inherits": "iOS"
     },
     "iOS_J_5_1": {
-      "match": "iOS\/5.1*",
+      "match": "iOS/5.1*",
       "lite": false,
       "standard": false,
       "inherits": "iOS",
@@ -1068,7 +1068,7 @@
       }
     },
     "iOS_J_6_0": {
-      "match": "iOS\/6.0*",
+      "match": "iOS/6.0*",
       "lite": false,
       "standard": false,
       "inherits": "iOS",
@@ -1077,7 +1077,7 @@
       }
     },
     "iOS_J_6_1": {
-      "match": "iOS\/6.1*",
+      "match": "iOS/6.1*",
       "lite": false,
       "standard": false,
       "inherits": "iOS",
@@ -1086,7 +1086,7 @@
       }
     },
     "iOS_J_7_0": {
-      "match": "iOS\/7.0*",
+      "match": "iOS/7.0*",
       "lite": false,
       "standard": true,
       "inherits": "iOS",
@@ -1095,7 +1095,7 @@
       }
     },
     "iOS_J_7_1": {
-      "match": "iOS\/7.1*",
+      "match": "iOS/7.1*",
       "lite": false,
       "standard": true,
       "inherits": "iOS",
@@ -1104,7 +1104,7 @@
       }
     },
     "iOS_J_8_0": {
-      "match": "iOS\/8.0*",
+      "match": "iOS/8.0*",
       "lite": false,
       "standard": true,
       "inherits": "iOS",
@@ -1391,7 +1391,7 @@
       "inherits": "Ubuntu"
     },
     "Ubuntu_08_04": {
-      "match": "*Ubuntu\/8.04*",
+      "match": "*Ubuntu/8.04*",
       "lite": false,
       "standard": false,
       "inherits": "Ubuntu",
@@ -1400,7 +1400,7 @@
       }
     },
     "Ubuntu_10_04": {
-      "match": "*Ubuntu\/10.04*",
+      "match": "*Ubuntu/10.04*",
       "lite": false,
       "standard": false,
       "inherits": "Ubuntu",
@@ -1409,7 +1409,7 @@
       }
     },
     "Ubuntu_10_10": {
-      "match": "*Ubuntu\/10.10*",
+      "match": "*Ubuntu/10.10*",
       "lite": false,
       "standard": false,
       "inherits": "Ubuntu",
@@ -1418,7 +1418,7 @@
       }
     },
     "Ubuntu_11_04": {
-      "match": "*Ubuntu\/11.04*",
+      "match": "*Ubuntu/11.04*",
       "lite": false,
       "standard": false,
       "inherits": "Ubuntu",
@@ -1427,7 +1427,7 @@
       }
     },
     "Ubuntu_12_04": {
-      "match": "*Ubuntu\/12.04*",
+      "match": "*Ubuntu/12.04*",
       "lite": false,
       "standard": false,
       "inherits": "Ubuntu",
@@ -1455,7 +1455,7 @@
       }
     },
     "Ubuntu_08_04_64": {
-      "match": "*Ubuntu\/8.04*",
+      "match": "*Ubuntu/8.04*",
       "lite": false,
       "standard": false,
       "inherits": "Ubuntu",
@@ -1466,7 +1466,7 @@
       }
     },
     "Ubuntu_10_04_64": {
-      "match": "*Ubuntu\/10.04*",
+      "match": "*Ubuntu/10.04*",
       "lite": false,
       "standard": false,
       "inherits": "Ubuntu",
@@ -1477,7 +1477,7 @@
       }
     },
     "Ubuntu_10_10_64": {
-      "match": "*Ubuntu\/10.10*",
+      "match": "*Ubuntu/10.10*",
       "lite": false,
       "standard": false,
       "inherits": "Ubuntu",
@@ -1488,7 +1488,7 @@
       }
     },
     "Ubuntu_11_04_64": {
-      "match": "*Ubuntu\/11.04*",
+      "match": "*Ubuntu/11.04*",
       "lite": false,
       "standard": false,
       "inherits": "Ubuntu",
@@ -1499,7 +1499,7 @@
       }
     },
     "Ubuntu_12_04_64": {
-      "match": "*Ubuntu\/12.04*",
+      "match": "*Ubuntu/12.04*",
       "lite": false,
       "standard": false,
       "inherits": "Ubuntu",
@@ -2804,13 +2804,13 @@
       }
     },
     "Android_B": {
-      "match": "* Build\/*",
+      "match": "* Build/*",
       "lite": false,
       "standard": true,
       "inherits": "Android"
     },
     "Android_B_2_3": {
-      "match": "* Build\/GINGERBREAD*",
+      "match": "* Build/GINGERBREAD*",
       "lite": false,
       "standard": false,
       "inherits": "Android",
@@ -3516,13 +3516,13 @@
       "inherits": "IRIX64"
     },
     "OS2": {
-      "match": "*OS\/2*",
+      "match": "*OS/2*",
       "lite": false,
       "standard": true,
       "properties": {
-        "Platform": "OS\/2",
+        "Platform": "OS/2",
         "Platform_Maker": "IBM",
-        "Platform_Description": "OS\/2",
+        "Platform_Description": "OS/2",
         "Platform_Version": "unknown",
         "Win16": "false",
         "Win32": "false",
@@ -3803,7 +3803,7 @@
       }
     },
     "Bada_1_0": {
-      "match": "*Bada\/1.*",
+      "match": "*Bada/1.*",
       "lite": false,
       "standard": false,
       "inherits": "Bada",
@@ -3812,7 +3812,7 @@
       }
     },
     "Bada_1_2": {
-      "match": "*Bada\/1.2*",
+      "match": "*Bada/1.2*",
       "lite": false,
       "standard": false,
       "inherits": "Bada",
@@ -3821,7 +3821,7 @@
       }
     },
     "Bada_2_0": {
-      "match": "*Bada\/2.*",
+      "match": "*Bada/2.*",
       "lite": false,
       "standard": true,
       "inherits": "Bada",
@@ -3864,7 +3864,7 @@
       }
     },
     "webOS": {
-      "match": "*webOS\/*",
+      "match": "*webOS/*",
       "lite": false,
       "standard": true,
       "properties": {
@@ -3880,7 +3880,7 @@
       }
     },
     "webOS_10": {
-      "match": "*webOS\/1.0*",
+      "match": "*webOS/1.0*",
       "lite": false,
       "standard": false,
       "inherits": "webOS",
@@ -3889,7 +3889,7 @@
       }
     },
     "webOS_11": {
-      "match": "*webOS\/1.1*",
+      "match": "*webOS/1.1*",
       "lite": false,
       "standard": false,
       "inherits": "webOS",
@@ -3898,7 +3898,7 @@
       }
     },
     "webOS_12": {
-      "match": "*webOS\/1.2*",
+      "match": "*webOS/1.2*",
       "lite": false,
       "standard": false,
       "inherits": "webOS",
@@ -3907,7 +3907,7 @@
       }
     },
     "webOS_13": {
-      "match": "*webOS\/1.3*",
+      "match": "*webOS/1.3*",
       "lite": false,
       "standard": false,
       "inherits": "webOS",
@@ -3916,7 +3916,7 @@
       }
     },
     "webOS_14": {
-      "match": "*webOS\/1.4*",
+      "match": "*webOS/1.4*",
       "lite": false,
       "standard": false,
       "inherits": "webOS",
@@ -3925,7 +3925,7 @@
       }
     },
     "webOS_20": {
-      "match": "*webOS\/2.0*",
+      "match": "*webOS/2.0*",
       "lite": false,
       "standard": true,
       "inherits": "webOS",
@@ -3934,7 +3934,7 @@
       }
     },
     "webOS_21": {
-      "match": "*webOS\/2.1*",
+      "match": "*webOS/2.1*",
       "lite": false,
       "standard": true,
       "inherits": "webOS",
@@ -3943,7 +3943,7 @@
       }
     },
     "webOS_22": {
-      "match": "*webOS\/2.2*",
+      "match": "*webOS/2.2*",
       "lite": false,
       "standard": true,
       "inherits": "webOS",
@@ -3952,13 +3952,13 @@
       }
     },
     "webOS_B": {
-      "match": "*hpwOS\/*",
+      "match": "*hpwOS/*",
       "lite": false,
       "standard": true,
       "inherits": "webOS"
     },
     "webOS_B_30": {
-      "match": "*hpwOS\/3.*",
+      "match": "*hpwOS/3.*",
       "lite": false,
       "standard": true,
       "inherits": "webOS",
@@ -3967,7 +3967,7 @@
       }
     },
     "webOS_30": {
-      "match": "*webOS\/3.*",
+      "match": "*webOS/3.*",
       "lite": false,
       "standard": true,
       "inherits": "webOS",
@@ -4235,7 +4235,7 @@
       }
     },
     "JAVA": {
-      "match": "*\/MIDP*",
+      "match": "*/MIDP*",
       "lite": false,
       "standard": true,
       "properties": {
@@ -4464,7 +4464,7 @@
       }
     },
     "Miui_OS_7_3": {
-      "match": "*MIUI\/V7.3*",
+      "match": "*MIUI/V7.3*",
       "lite": false,
       "standard": true,
       "inherits": "Miui_OS",
@@ -4473,7 +4473,7 @@
       }
     },
     "Miui_OS_Dynamic": {
-      "match": "*MIUI\/#MAJORVER#.#MINORVER#*",
+      "match": "*MIUI/#MAJORVER#.#MINORVER#*",
       "lite": false,
       "standard": true,
       "inherits": "Miui_OS",

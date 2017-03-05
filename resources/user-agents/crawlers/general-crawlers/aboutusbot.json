@@ -16,10 +16,10 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (compatible; AboutUsBot\/*"
+          "match": "Mozilla/5.0 (compatible; AboutUsBot/*"
         },
         {
-          "match": "Mozilla\/5.0 (compatible; AboutUsBot Johnny5\/2.0*",
+          "match": "Mozilla/5.0 (compatible; AboutUsBot Johnny5/2.0*",
           "properties": {
             "Browser": "AboutUs Bot Johnny5",
             "Version": "2.0",
@@ -28,13 +28,13 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; AboutUsBot Johnny5\/*",
+          "match": "Mozilla/5.0 (compatible; AboutUsBot Johnny5/*",
           "properties": {
             "Browser": "AboutUs Bot Johnny5"
           }
         },
         {
-          "match": "AboutUsBot\/* (Website Analysis*"
+          "match": "AboutUsBot/* (Website Analysis*"
         }
       ]
     }

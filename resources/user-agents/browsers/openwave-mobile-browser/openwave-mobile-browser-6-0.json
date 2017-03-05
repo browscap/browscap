@@ -25,18 +25,18 @@
       },
       "children": [
         {
-          "match": "KDDI-TS21 UP.Browser\/#MAJORVER#.#MINORVER#*",
+          "match": "KDDI-TS21 UP.Browser/#MAJORVER#.#MINORVER#*",
           "device": "KDDI TS21"
         },
         {
-          "match": "KDDI-TS25 UP.Browser\/#MAJORVER#.#MINORVER#*",
+          "match": "KDDI-TS25 UP.Browser/#MAJORVER#.#MINORVER#*",
           "device": "KDDI TS25"
         },
         {
-          "match": "OPWV-SDK\/* UP.Browser\/#MAJORVER#.#MINORVER#*"
+          "match": "OPWV-SDK/* UP.Browser/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "* UP.Browser\/#MAJORVER#.#MINORVER#*"
+          "match": "* UP.Browser/#MAJORVER#.#MINORVER#*"
         }
       ]
     }

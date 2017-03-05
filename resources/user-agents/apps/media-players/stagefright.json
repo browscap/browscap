@@ -21,14 +21,14 @@
       },
       "children": [
         {
-          "match": "Samsung SM-N9005 stagefright\/#MAJORVER#.#MINORVER#* (#PLATFORM#)*",
+          "match": "Samsung SM-N9005 stagefright/#MAJORVER#.#MINORVER#* (#PLATFORM#)*",
           "device": "Samsung SM-N9005",
           "platforms": [
             "Android_4_4"
           ]
         },
         {
-          "match": "* stagefright\/#MAJORVER#.#MINORVER#* (#PLATFORM#)*",
+          "match": "* stagefright/#MAJORVER#.#MINORVER#* (#PLATFORM#)*",
           "platforms": [
             "Android_2_2", "Android_2_3", "Android_3_0", "Android_3_1", "Android_3_2", "Android_4_0", "Android_4_1",
             "Android_4_2", "Android_4_3", "Android_4_4",
@@ -36,7 +36,7 @@
           ]
         },
         {
-          "match": "stagefright\/#MAJORVER#.#MINORVER#* (#PLATFORM#)*",
+          "match": "stagefright/#MAJORVER#.#MINORVER#* (#PLATFORM#)*",
           "platforms": [
             "Android_2_2", "Android_2_3", "Android_3_0", "Android_3_1", "Android_3_2", "Android_4_0", "Android_4_1",
             "Android_4_2", "Android_4_3", "Android_4_4",

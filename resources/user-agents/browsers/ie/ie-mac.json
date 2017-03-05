@@ -23,14 +23,14 @@
       },
       "children": [
         {
-          "match": "Mozilla\/?.? (compatible*; MSIE 4.0*Mac_PowerPC*",
+          "match": "Mozilla/?.? (compatible*; MSIE 4.0*Mac_PowerPC*",
           "properties": {
             "Version": "4.0",
             "MajorVer": "4"
           }
         },
         {
-          "match": "Mozilla\/?.? (compatible*; MSIE 4.5*Mac_PowerPC*",
+          "match": "Mozilla/?.? (compatible*; MSIE 4.5*Mac_PowerPC*",
           "properties": {
             "Version": "4.5",
             "MajorVer": "4",
@@ -38,14 +38,14 @@
           }
         },
         {
-          "match": "Mozilla\/?.? (*compatible*;*MSIE 5.0*Mac_PowerPC*",
+          "match": "Mozilla/?.? (*compatible*;*MSIE 5.0*Mac_PowerPC*",
           "properties": {
             "Version": "5.0",
             "MajorVer": "5"
           }
         },
         {
-          "match": "Mozilla\/?.? (compatible*; MSIE 5.1*Mac_PowerPC*",
+          "match": "Mozilla/?.? (compatible*; MSIE 5.1*Mac_PowerPC*",
           "properties": {
             "Version": "5.1",
             "MajorVer": "5",
@@ -53,7 +53,7 @@
           }
         },
         {
-          "match": "Mozilla\/?.? (compatible*; MSIE 5.2*Mac_PowerPC*",
+          "match": "Mozilla/?.? (compatible*; MSIE 5.2*Mac_PowerPC*",
           "properties": {
             "Version": "5.2",
             "MajorVer": "5",
@@ -61,7 +61,7 @@
           }
         },
         {
-          "match": "Mozilla\/?.? (compatible*; MSIE 5.23*Mac_PowerPC*",
+          "match": "Mozilla/?.? (compatible*; MSIE 5.23*Mac_PowerPC*",
           "properties": {
             "Version": "5.23",
             "MajorVer": "5",

@@ -25,13 +25,13 @@
       },
       "children": [
         {
-          "match": "Mozilla\/1.22 (compatible; MMEF20; Cellphone; Sony CMD-J7\/J70)"
+          "match": "Mozilla/1.22 (compatible; MMEF20; Cellphone; Sony CMD-J7/J70)"
         },
         {
-          "match": "Mozilla\/1.22 (compatible; MMEF20; Cellphone; Sony CMD-Z5)"
+          "match": "Mozilla/1.22 (compatible; MMEF20; Cellphone; Sony CMD-Z5)"
         },
         {
-          "match": "Mozilla\/1.22 (compatible; MMEF20; Cellphone; Sony CMD-Z5;Pj020e)"
+          "match": "Mozilla/1.22 (compatible; MMEF20; Cellphone; Sony CMD-Z5;Pj020e)"
         }
       ]
     }

@@ -26,7 +26,7 @@
       },
       "children": [
         {
-          "match": "Pic%20Collage\/2.10* CFNetwork\/*",
+          "match": "Pic%20Collage/2.10* CFNetwork/*",
           "properties": {
             "Version": "2.10",
             "MajorVer": "2",
@@ -37,7 +37,7 @@
           ]
         },
         {
-          "match": "Pic%20Collage\/* CFNetwork\/*",
+          "match": "Pic%20Collage/* CFNetwork/*",
           "platforms": [
             "Darwin"
           ]

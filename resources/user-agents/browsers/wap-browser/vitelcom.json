@@ -29,16 +29,16 @@
       },
       "children": [
         {
-          "match": "TSM-100\/* Browser\/#MAJORVER#.#MINORVER#*"
+          "match": "TSM-100/* Browser/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "TSM-100v\/* Browser\/#MAJORVER#.#MINORVER#*"
+          "match": "TSM-100v/* Browser/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "TSM-30\/* Browser\/#MAJORVER#.#MINORVER#*"
+          "match": "TSM-30/* Browser/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "TSM340\/* Browser\/#MAJORVER#.#MINORVER#*"
+          "match": "TSM340/* Browser/#MAJORVER#.#MINORVER#*"
         }
       ]
     }

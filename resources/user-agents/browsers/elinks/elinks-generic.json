@@ -24,7 +24,7 @@
           ]
         },
         {
-          "match": "ELinks\/* (#PLATFORM#)",
+          "match": "ELinks/* (#PLATFORM#)",
           "device": "Linux Desktop",
           "platforms": [
             "Linux"

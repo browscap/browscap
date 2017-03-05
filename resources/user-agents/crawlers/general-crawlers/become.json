@@ -17,7 +17,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (compatible; BecomeBot\/3.0*",
+          "match": "Mozilla/5.0 (compatible; BecomeBot/3.0*",
           "properties": {
             "Browser": "BecomeBot",
             "Version": "3.0",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; BecomeBot\/2.3*",
+          "match": "Mozilla/5.0 (compatible; BecomeBot/2.3*",
           "properties": {
             "Browser": "BecomeBot",
             "Version": "2.3",
@@ -35,13 +35,13 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; BecomeBot\/*",
+          "match": "Mozilla/5.0 (compatible; BecomeBot/*",
           "properties": {
             "Browser": "BecomeBot"
           }
         },
         {
-          "match": "*BecomeBot\/*",
+          "match": "*BecomeBot/*",
           "properties": {
             "Browser": "BecomeBot"
           }
@@ -53,13 +53,13 @@
           }
         },
         {
-          "match": "MonkeyCrawl\/*",
+          "match": "MonkeyCrawl/*",
           "properties": {
             "Browser": "MonkeyCrawl"
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; BecomeJPBot\/2.3*",
+          "match": "Mozilla/5.0 (compatible; BecomeJPBot/2.3*",
           "properties": {
             "Browser": "BecomeJPBot",
             "Version": "2.3",
@@ -68,7 +68,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; BecomeJPBot\/*",
+          "match": "Mozilla/5.0 (compatible; BecomeJPBot/*",
           "properties": {
             "Browser": "BecomeJPBot"
           }

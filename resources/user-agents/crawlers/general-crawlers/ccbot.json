@@ -16,7 +16,7 @@
       },
       "children": [
         {
-          "match": "CCBot\/1.0*",
+          "match": "CCBot/1.0*",
           "properties": {
             "Version": "1.0",
             "MajorVer": "1",
@@ -24,7 +24,7 @@
           }
         },
         {
-          "match": "CCBot\/2.0*",
+          "match": "CCBot/2.0*",
           "properties": {
             "Version": "2.0",
             "MajorVer": "2",
@@ -32,7 +32,7 @@
           }
         },
         {
-          "match": "CCBot\/*"
+          "match": "CCBot/*"
         }
       ]
     }

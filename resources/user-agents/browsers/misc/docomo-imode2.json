@@ -27,73 +27,73 @@
       },
       "children": [
         {
-          "match": "D900i DoCoMo\/#MAJORVER#.#MINORVER# D900i(c100;TB;W20H10)"
+          "match": "D900i DoCoMo/#MAJORVER#.#MINORVER# D900i(c100;TB;W20H10)"
         },
         {
-          "match": "DoCoMo\/#MAJORVER#.#MINORVER# *A3(*"
+          "match": "DoCoMo/#MAJORVER#.#MINORVER# *A3(*"
         },
         {
-          "match": "DoCoMo\/#MAJORVER#.#MINORVER# *B(*"
+          "match": "DoCoMo/#MAJORVER#.#MINORVER# *B(*"
         },
         {
-          "match": "DoCoMo\/#MAJORVER#.#MINORVER# *C(*"
+          "match": "DoCoMo/#MAJORVER#.#MINORVER# *C(*"
         },
         {
-          "match": "DoCoMo\/#MAJORVER#.#MINORVER# F900i(c100;TB;W18H10)"
+          "match": "DoCoMo/#MAJORVER#.#MINORVER# F900i(c100;TB;W18H10)"
         },
         {
-          "match": "DoCoMo\/#MAJORVER#.#MINORVER# F900i*"
+          "match": "DoCoMo/#MAJORVER#.#MINORVER# F900i*"
         },
         {
-          "match": "DoCoMo\/#MAJORVER#.#MINORVER# N2051(c100;TB)"
+          "match": "DoCoMo/#MAJORVER#.#MINORVER# N2051(c100;TB)"
         },
         {
-          "match": "DoCoMo\/#MAJORVER#.#MINORVER# N2102V(c100;TB)"
+          "match": "DoCoMo/#MAJORVER#.#MINORVER# N2102V(c100;TB)"
         },
         {
-          "match": "DoCoMo\/#MAJORVER#.#MINORVER# N700i(c100;TB;W24H12)"
+          "match": "DoCoMo/#MAJORVER#.#MINORVER# N700i(c100;TB;W24H12)"
         },
         {
-          "match": "DoCoMo\/#MAJORVER#.#MINORVER# N900i*"
+          "match": "DoCoMo/#MAJORVER#.#MINORVER# N900i*"
         },
         {
-          "match": "DoCoMo\/#MAJORVER#.#MINORVER# N900iS*"
+          "match": "DoCoMo/#MAJORVER#.#MINORVER# N900iS*"
         },
         {
-          "match": "DoCoMo\/#MAJORVER#.#MINORVER# N902iS(c100;TB;W24H12)(compatible; moba-crawler; http:\/\/crawler.dena.jp\/)"
+          "match": "DoCoMo/#MAJORVER#.#MINORVER# N902iS(c100;TB;W24H12)(compatible; moba-crawler; http://crawler.dena.jp/)"
         },
         {
-          "match": "DoCoMo\/#MAJORVER#.#MINORVER# N905i(c100;TB;W24H16)*",
+          "match": "DoCoMo/#MAJORVER#.#MINORVER# N905i(c100;TB;W24H16)*",
           "device": "NEC N905i",
           "platforms": [
             "Maemo"
           ]
         },
         {
-          "match": "DoCoMo\/#MAJORVER#.#MINORVER# P06B*"
+          "match": "DoCoMo/#MAJORVER#.#MINORVER# P06B*"
         },
         {
-          "match": "DoCoMo\/#MAJORVER#.#MINORVER# P701iD*"
+          "match": "DoCoMo/#MAJORVER#.#MINORVER# P701iD*"
         },
         {
-          "match": "DoCoMo\/#MAJORVER#.#MINORVER# P900iV*"
+          "match": "DoCoMo/#MAJORVER#.#MINORVER# P900iV*"
         },
         {
-          "match": "DoCoMo\/#MAJORVER#.#MINORVER# P900i(c100;TB;W30H14)",
+          "match": "DoCoMo/#MAJORVER#.#MINORVER# P900i(c100;TB;W30H14)",
           "device": "DoCoMo P900i"
         },
         {
-          "match": "DoCoMo\/#MAJORVER#.#MINORVER# P900i*",
+          "match": "DoCoMo/#MAJORVER#.#MINORVER# P900i*",
           "device": "DoCoMo P900i"
         },
         {
-          "match": "DoCoMo\/#MAJORVER#.#MINORVER# SH700iS(c100;TB;W24H12)"
+          "match": "DoCoMo/#MAJORVER#.#MINORVER# SH700iS(c100;TB;W24H12)"
         },
         {
-          "match": "DoCoMo\/#MAJORVER#.#MINORVER# SH900i(c100;TB;W24H12)"
+          "match": "DoCoMo/#MAJORVER#.#MINORVER# SH900i(c100;TB;W24H12)"
         },
         {
-          "match": "DoCoMo\/#MAJORVER#.#MINORVER# SH903iTV(c100;TB;W24H16)"
+          "match": "DoCoMo/#MAJORVER#.#MINORVER# SH903iTV(c100;TB;W24H16)"
         }
       ]
     }

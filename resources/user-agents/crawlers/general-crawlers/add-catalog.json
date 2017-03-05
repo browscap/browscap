@@ -15,7 +15,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (compatible; Add Catalog\/2.1*",
+          "match": "Mozilla/5.0 (compatible; Add Catalog/2.1*",
           "properties": {
             "Version": "2.1",
             "MajorVer": "2",
@@ -23,7 +23,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; Add Catalog\/*"
+          "match": "Mozilla/5.0 (compatible; Add Catalog/*"
         }
       ]
     }

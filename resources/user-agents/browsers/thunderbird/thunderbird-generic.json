@@ -23,14 +23,14 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko*Thunderbird\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#)*Gecko*Thunderbird/*",
           "device": "Linux Desktop",
           "platforms": [
             "Linux_64", "Linux_32", "Linux"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko*Thunderbird\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#)*Gecko*Thunderbird/*",
           "device": "Windows Desktop",
           "platforms": [
             "NT4", "Win2000", "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32", "Vista_64", "Vista_32",
@@ -38,7 +38,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#)*Gecko*Thunderbird\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#)*Gecko*Thunderbird/*",
           "device": "Macintosh",
           "platforms": [
             "OSX_10_10", "OSX"

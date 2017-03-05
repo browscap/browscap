@@ -27,14 +27,14 @@
       },
       "children": [
         {
-          "match": "MQQBrowser\/Mini#MAJORVER#.#MINORVER#* (SAMSUNG-GT-E2252)*",
+          "match": "MQQBrowser/Mini#MAJORVER#.#MINORVER#* (SAMSUNG-GT-E2252)*",
           "device": "Samsung GT-E2252",
           "platforms": [
             "JAVA"
           ]
         },
         {
-          "match": "MQQBrowser\/Mini#MAJORVER#.#MINORVER#*",
+          "match": "MQQBrowser/Mini#MAJORVER#.#MINORVER#*",
           "platforms": [
             "JAVA"
           ]

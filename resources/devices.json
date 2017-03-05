@@ -520,12 +520,12 @@
         "isTablet": "false"
       }
     },
-    "Sony NSZ-GS7\/GX70": {
+    "Sony NSZ-GS7/GX70": {
       "standard": true,
       "properties": {
         "Device_Type": "TV Device",
-        "Device_Code_Name": "NSZ-GS7\/GX70",
-        "Device_Name": "NSZ-GS7\/GX70",
+        "Device_Code_Name": "NSZ-GS7/GX70",
+        "Device_Name": "NSZ-GS7/GX70",
         "Device_Maker": "Sony",
         "Device_Brand_Name": "Sony",
         "Device_Pointing_Method": "unknown",
@@ -14331,7 +14331,7 @@
       "properties": {
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "831C",
-        "Device_Name": "One M8 Harmon\/Kardon Edition",
+        "Device_Name": "One M8 Harmon/Kardon Edition",
         "Device_Maker": "HTC",
         "Device_Brand_Name": "HTC",
         "Device_Pointing_Method": "touchscreen",
@@ -15007,7 +15007,7 @@
       "properties": {
         "Device_Type": "Mobile Phone",
         "Device_Code_Name": "VPA Compact IV",
-        "Device_Name": "Herald\/Wing\/Atlas",
+        "Device_Name": "Herald/Wing/Atlas",
         "Device_Maker": "HTC",
         "Device_Brand_Name": "Vodafone",
         "Device_Pointing_Method": "unknown",

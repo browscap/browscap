@@ -18,7 +18,7 @@
       },
       "children": [
         {
-          "match": "facebookexternalhit\/1.0*",
+          "match": "facebookexternalhit/1.0*",
           "properties": {
             "Browser": "FacebookExternalHit",
             "Version": "1.0",
@@ -27,7 +27,7 @@
           }
         },
         {
-          "match": "facebookexternalhit\/1.1*",
+          "match": "facebookexternalhit/1.1*",
           "properties": {
             "Browser": "FacebookExternalHit",
             "Version": "1.1",
@@ -36,7 +36,7 @@
           }
         },
         {
-          "match": "facebookexternalhit\/*",
+          "match": "facebookexternalhit/*",
           "properties": {
             "Browser": "FacebookExternalHit"
           }
@@ -45,7 +45,7 @@
           "match": "Facebook share follower"
         },
         {
-          "match": "facebookplatform\/1.0 *",
+          "match": "facebookplatform/1.0 *",
           "properties": {
             "Version": "1.0",
             "MajorVer": "1",
@@ -53,7 +53,7 @@
           }
         },
         {
-          "match": "facebookplatform\/*"
+          "match": "facebookplatform/*"
         },
         {
           "match": "Facebook API PHP5 Client 1.1 (curl)*",
@@ -64,7 +64,7 @@
           }
         },
         {
-          "match": "Facebot\/1.0*",
+          "match": "Facebot/1.0*",
           "properties": {
             "Browser": "Facebot",
             "Version": "1.0",
@@ -73,13 +73,13 @@
           }
         },
         {
-          "match": "Facebot\/*",
+          "match": "Facebot/*",
           "properties": {
             "Browser": "Facebot"
           }
         },
         {
-          "match": "facebookscraper\/1.0( http*:\/\/www.facebook.com\/sharescraper_help.php)*",
+          "match": "facebookscraper/1.0( http*://www.facebook.com/sharescraper_help.php)*",
           "properties": {
             "Browser": "Facebookscraper",
             "Version": "1.0",
@@ -88,7 +88,7 @@
           }
         },
         {
-          "match": "facebookscraper\/*( http*:\/\/www.facebook.com\/sharescraper_help.php)*",
+          "match": "facebookscraper/*( http*://www.facebook.com/sharescraper_help.php)*",
           "properties": {
             "Browser": "Facebookscraper"
           }

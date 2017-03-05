@@ -27,88 +27,88 @@
       },
       "children": [
         {
-          "match": "Dalvik\/#MAJORVER#.#MINORVER#* (#PLATFORM#Desire HD Build\/*",
+          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#Desire HD Build/*",
           "device": "GT-I9100",
           "platforms": [
             "Android_2_2"
           ]
         },
         {
-          "match": "Dalvik\/#MAJORVER#.#MINORVER#* (#PLATFORM#GT-I5500 Build\/*",
+          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#GT-I5500 Build/*",
           "device": "GT-I5500",
           "platforms": [
             "Android_2_2"
           ]
         },
         {
-          "match": "Dalvik\/#MAJORVER#.#MINORVER#* (#PLATFORM#GT-I9000 Build\/*",
+          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#GT-I9000 Build/*",
           "device": "GT-I9000",
           "platforms": [
             "Android_2_2", "Android_4_0", "Android_4_1"
           ]
         },
         {
-          "match": "Dalvik\/#MAJORVER#.#MINORVER#* (#PLATFORM#GT-P1000* Build\/*",
+          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#GT-P1000* Build/*",
           "device": "GT-P1000",
           "platforms": [
             "Android_2_2"
           ]
         },
         {
-          "match": "Dalvik\/#MAJORVER#.#MINORVER#* (#PLATFORM#GT-P1010 Build\/*",
+          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#GT-P1010 Build/*",
           "device": "GT-P1010",
           "platforms": [
             "Android_2_2", "Android_2_3", "Android_4_0"
           ]
         },
         {
-          "match": "Dalvik\/#MAJORVER#.#MINORVER#* (#PLATFORM#HTC Desire Build\/*",
+          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#HTC Desire Build/*",
           "device": "HTC Desire",
           "platforms": [
             "Android_2_2"
           ]
         },
         {
-          "match": "Dalvik\/#MAJORVER#.#MINORVER#* (#PLATFORM#HTC Legend Build\/*",
+          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#HTC Legend Build/*",
           "device": "HTC Legend",
           "platforms": [
             "Android_2_2"
           ]
         },
         {
-          "match": "Dalvik\/#MAJORVER#.#MINORVER#* (#PLATFORM#LG-P500 Build\/*",
+          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#LG-P500 Build/*",
           "device": "LG P500",
           "platforms": [
             "Android_2_2"
           ]
         },
         {
-          "match": "Dalvik\/#MAJORVER#.#MINORVER#* (#PLATFORM#PC36100 Build\/*",
+          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#PC36100 Build/*",
           "platforms": [
             "Android_2_2"
           ]
         },
         {
-          "match": "Dalvik\/#MAJORVER#.#MINORVER#* (#PLATFORM#SC-02B Build\/*",
+          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#SC-02B Build/*",
           "platforms": [
             "Android_2_2"
           ]
         },
         {
-          "match": "Dalvik\/#MAJORVER#.#MINORVER#* (#PLATFORM#Vortex Build\/*",
+          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#Vortex Build/*",
           "platforms": [
             "Android_2_2"
           ]
         },
         {
-          "match": "Dalvik\/#MAJORVER#.#MINORVER#* (#PLATFORM#smartpad Build\/*",
+          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#smartpad Build/*",
           "device": "1 & 1 Smartpad",
           "platforms": [
             "Android_2_2"
           ]
         },
         {
-          "match": "Dalvik\/#MAJORVER#.#MINORVER#* (#PLATFORM#",
+          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#",
           "platforms": [
             "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android"
           ]

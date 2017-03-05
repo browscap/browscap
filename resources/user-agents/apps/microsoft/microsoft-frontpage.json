@@ -26,31 +26,31 @@
       },
       "children": [
         {
-          "match": "Mozilla\/2.0*(compatible; MS FrontPage 5.0*)",
+          "match": "Mozilla/2.0*(compatible; MS FrontPage 5.0*)",
           "properties": {
             "Version": "5.0",
             "MajorVer": "5"
           }
         },
         {
-          "match": "Mozilla\/2.*(compatible; MS FrontPage 5.0*)",
+          "match": "Mozilla/2.*(compatible; MS FrontPage 5.0*)",
           "properties": {
             "Version": "5.0",
             "MajorVer": "5"
           }
         },
         {
-          "match": "Mozilla\/?* (compatible; MS FrontPage*)"
+          "match": "Mozilla/?* (compatible; MS FrontPage*)"
         },
         {
-          "match": "MSFrontPage\/15.*",
+          "match": "MSFrontPage/15.*",
           "properties": {
             "Version": "2013",
             "MajorVer": "2013"
           }
         },
         {
-          "match": "MSFrontPage\/*"
+          "match": "MSFrontPage/*"
         }
       ]
     }

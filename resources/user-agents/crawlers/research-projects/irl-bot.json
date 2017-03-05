@@ -15,7 +15,7 @@
       },
       "children": [
         {
-          "match": "IRLbot\/3.0*",
+          "match": "IRLbot/3.0*",
           "properties": {
             "Version": "3.0",
             "MajorVer": "3",
@@ -23,7 +23,7 @@
           }
         },
         {
-          "match": "IRLbot\/2.0*",
+          "match": "IRLbot/2.0*",
           "properties": {
             "Version": "2.0",
             "MajorVer": "2",
@@ -31,7 +31,7 @@
           }
         },
         {
-          "match": "IRLbot\/1.0*",
+          "match": "IRLbot/1.0*",
           "properties": {
             "Version": "1.0",
             "MajorVer": "1",
@@ -39,7 +39,7 @@
           }
         },
         {
-          "match": "IRLbot\/*"
+          "match": "IRLbot/*"
         }
       ]
     }

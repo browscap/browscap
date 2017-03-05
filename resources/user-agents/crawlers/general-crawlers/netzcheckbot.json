@@ -16,7 +16,7 @@
       },
       "children": [
         {
-          "match": "NetzCheckBot\/1.0*",
+          "match": "NetzCheckBot/1.0*",
           "properties": {
             "Version": "1.0",
             "MajorVer": "1",
@@ -24,7 +24,7 @@
           }
         },
         {
-          "match": "NetzCheckBot\/*"
+          "match": "NetzCheckBot/*"
         }
       ]
     }

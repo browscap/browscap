@@ -16,7 +16,7 @@
       },
       "children": [
         {
-          "match": "Microsoft-CryptoAPI\/6.1*",
+          "match": "Microsoft-CryptoAPI/6.1*",
           "properties": {
             "Version": "6.1",
             "MajorVer": "6",
@@ -24,7 +24,7 @@
           }
         },
         {
-          "match": "Microsoft-CryptoAPI\/6.2*",
+          "match": "Microsoft-CryptoAPI/6.2*",
           "properties": {
             "Version": "6.2",
             "MajorVer": "6",
@@ -32,7 +32,7 @@
           }
         },
         {
-          "match": "Microsoft-CryptoAPI\/6.3*",
+          "match": "Microsoft-CryptoAPI/6.3*",
           "properties": {
             "Version": "6.3",
             "MajorVer": "6",
@@ -40,7 +40,7 @@
           }
         },
         {
-          "match": "Microsoft-CryptoAPI\/*"
+          "match": "Microsoft-CryptoAPI/*"
         }
       ]
     }

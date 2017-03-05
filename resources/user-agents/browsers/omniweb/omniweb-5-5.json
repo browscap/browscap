@@ -28,19 +28,19 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko, Safari\/*) *OmniWeb\/v*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML* like Gecko, Safari/*) *OmniWeb/v*",
           "platforms": [
             "OSX"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko, Safari) *OmniWeb\/v*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML* like Gecko, Safari) *OmniWeb/v*",
           "platforms": [
             "OSX"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#AppleWebKit\/* (KHTML* like Gecko, Safari) *OmniWeb\/v*",
+          "match": "Mozilla/5.0 (#PLATFORM#AppleWebKit/* (KHTML* like Gecko, Safari) *OmniWeb/v*",
           "platforms": [
             "OSX"
           ]

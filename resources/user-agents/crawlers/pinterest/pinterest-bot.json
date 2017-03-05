@@ -27,7 +27,7 @@
       },
       "children": [
         {
-          "match": "Pinterest\/#MAJORVER#.#MINORVER#*"
+          "match": "Pinterest/#MAJORVER#.#MINORVER#*"
         }
       ]
     }

@@ -28,7 +28,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/4.0 (compatible; MSIE ?.0; #PLATFORM#Trident\/7.0; *Microsoft Outlook 15.*MSOffice 15*)",
+          "match": "Mozilla/4.0 (compatible; MSIE ?.0; #PLATFORM#Trident/7.0; *Microsoft Outlook 15.*MSOffice 15*)",
           "engine": "Trident_7",
           "platforms": [
             "Win10_x64_B", "Win10_64_B", "Win10_32_B",
@@ -42,7 +42,7 @@
           ]
         },
         {
-          "match": "Mozilla\/4.0 (compatible; MSIE ?.0; #PLATFORM#Trident\/8.0; *Microsoft Outlook 15.*MSOffice 15*)",
+          "match": "Mozilla/4.0 (compatible; MSIE ?.0; #PLATFORM#Trident/8.0; *Microsoft Outlook 15.*MSOffice 15*)",
           "engine": "Trident_8",
           "platforms": [
             "Win10_x64_B", "Win10_64_B", "Win10_32_B",
@@ -56,7 +56,7 @@
           ]
         },
         {
-          "match": "Microsoft Office\/15.0 (#PLATFORM#; Microsoft Outlook 15.*MSOffice 15*)*",
+          "match": "Microsoft Office/15.0 (#PLATFORM#; Microsoft Outlook 15.*MSOffice 15*)*",
           "platforms": [
             "Win10_x64_B", "Win10_64_B", "Win10_32_B",
             "Win10_x64", "Win10_64", "Win10_32",
@@ -69,7 +69,7 @@
           ]
         },
         {
-          "match": "Microsoft Office\/15.0 (#PLATFORM#; Microsoft Outlook 15.*; Pro)",
+          "match": "Microsoft Office/15.0 (#PLATFORM#; Microsoft Outlook 15.*; Pro)",
           "platforms": [
             "Win10_x64_B", "Win10_64_B", "Win10_32_B",
             "Win10_x64", "Win10_64", "Win10_32",
@@ -92,7 +92,7 @@
           "match": "Microsoft Outlook Social Connector (15.*) *"
         },
         {
-          "match": "MacOutlook\/15.*",
+          "match": "MacOutlook/15.*",
           "device": "Macintosh",
           "platforms": [
             "OSX"

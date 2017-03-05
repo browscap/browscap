@@ -25,11 +25,11 @@
       },
       "children": [
         {
-          "match": "HbbTV\/*(*Sky_worth;HC7620*)CE-HTML\/* Skykid\/#MAJORVER#.#MINORVER#*",
+          "match": "HbbTV/*(*Sky_worth;HC7620*)CE-HTML/* Skykid/#MAJORVER#.#MINORVER#*",
           "device": "Skyworth HC7620"
         },
         {
-          "match": "HbbTV\/*CE-HTML\/* Skykid\/#MAJORVER#.#MINORVER#*",
+          "match": "HbbTV/*CE-HTML/* Skykid/#MAJORVER#.#MINORVER#*",
           "device": "general TV Device"
         }
       ]

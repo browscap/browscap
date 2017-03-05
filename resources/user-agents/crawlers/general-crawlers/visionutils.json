@@ -16,7 +16,7 @@
       },
       "children": [
         {
-          "match": "visionutils\/0.2*",
+          "match": "visionutils/0.2*",
           "properties": {
             "Version": "0.2",
             "MajorVer": "0",
@@ -24,7 +24,7 @@
           }
         },
         {
-          "match": "visionutils\/*"
+          "match": "visionutils/*"
         }
       ]
     }

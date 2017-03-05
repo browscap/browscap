@@ -1,16 +1,16 @@
 {
-  "division": "Avant\/IE 9.0",
+  "division": "Avant/IE 9.0",
   "sortIndex": 936,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "Avant\/IE 9.0",
+      "userAgent": "Avant/IE 9.0",
       "engine": "Trident_5",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Avant\/IE 9.0",
+        "Comment": "Avant/IE 9.0",
         "Browser": "Avant",
         "Browser_Type": "Browser",
         "Browser_Maker": "Avant Force",
@@ -23,7 +23,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (compatible; MSIE 9.0; #PLATFORM#Trident\/5.0*Avant Browser*",
+          "match": "Mozilla/5.0 (compatible; MSIE 9.0; #PLATFORM#Trident/5.0*Avant Browser*",
           "platforms": [
             "Win8_x64", "Win8_64", "Win8_32",
             "Win7_x64", "Win7_64", "Win7_32",
@@ -34,20 +34,20 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible; MSIE 9.0; #PLATFORM#Trident/5.0*AvantBrowser*",
+          "match": "Mozilla/5.0 (compatible; MSIE 9.0; #PLATFORM#Trident/5.0*AvantBrowser*",
           "platforms": [
             "Win8_x64", "Win8_64", "Win8_32",
             "Win7_x64", "Win7_64", "Win7_32"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (*MSIE 9.0; #PLATFORM#Trident\/5.0*Avant Browser*",
+          "match": "Mozilla/5.0 (*MSIE 9.0; #PLATFORM#Trident/5.0*Avant Browser*",
           "platforms": [
             "Vista_32", "WinXPa_32"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible; MSIE 8.0; #PLATFORM#Trident\/5.0*Avant Browser*",
+          "match": "Mozilla/5.0 (compatible; MSIE 8.0; #PLATFORM#Trident/5.0*Avant Browser*",
           "platforms": [
             "Win8_x64", "Win8_64", "Win8_32",
             "Win7_x64", "Win7_64", "Win7_32",
@@ -58,7 +58,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible; MSIE 7.0; #PLATFORM#Trident\/5.0*Avant Browser*",
+          "match": "Mozilla/5.0 (compatible; MSIE 7.0; #PLATFORM#Trident/5.0*Avant Browser*",
           "platforms": [
             "Win8_x64", "Win8_64", "Win8_32",
             "Win7_x64", "Win7_64", "Win7_32",
@@ -69,7 +69,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible; MSIE 6.0; #PLATFORM#Trident\/5.0*Avant Browser*",
+          "match": "Mozilla/5.0 (compatible; MSIE 6.0; #PLATFORM#Trident/5.0*Avant Browser*",
           "platforms": [
             "Win8_x64", "Win8_64", "Win8_32",
             "Win7_x64", "Win7_64", "Win7_32",
@@ -80,7 +80,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (compatible; MSIE 9.0; #PLATFORM#Avant Browser; Maxthon*",
+          "match": "Mozilla/5.0 (compatible; MSIE 9.0; #PLATFORM#Avant Browser; Maxthon*",
           "platforms": [
             "Win8_x64", "Win8_64", "Win8_32",
             "Win7_x64", "Win7_64", "Win7_32",

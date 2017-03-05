@@ -52,7 +52,7 @@
           ]
         },
         {
-          "match": "non-browser; Microsoft Office\/15.* (#PLATFORM# 15.*)",
+          "match": "non-browser; Microsoft Office/15.* (#PLATFORM# 15.*)",
           "device": "Windows Desktop",
           "properties": {
             "Comment": "Microsoft Office",

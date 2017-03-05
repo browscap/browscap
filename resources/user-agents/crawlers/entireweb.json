@@ -18,10 +18,10 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (compatible; Speedy Spider*"
+          "match": "Mozilla/5.0 (compatible; Speedy Spider*"
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Speedy Spider*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Speedy Spider*",
           "platforms": [
             "WinXPa_32"
           ]

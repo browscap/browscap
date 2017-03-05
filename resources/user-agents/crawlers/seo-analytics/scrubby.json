@@ -16,7 +16,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (compatible; Scrubby\/3.2*",
+          "match": "Mozilla/5.0 (compatible; Scrubby/3.2*",
           "properties": {
             "Browser": "Scrubby",
             "Browser_Maker": "ScrubTheWeb",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; Scrubby\/2.2*",
+          "match": "Mozilla/5.0 (compatible; Scrubby/2.2*",
           "properties": {
             "Browser": "Scrubby",
             "Browser_Maker": "ScrubTheWeb",
@@ -36,7 +36,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; Scrubby\/2.1*",
+          "match": "Mozilla/5.0 (compatible; Scrubby/2.1*",
           "properties": {
             "Browser": "Scrubby",
             "Browser_Maker": "ScrubTheWeb",
@@ -46,14 +46,14 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; Scrubby\/*",
+          "match": "Mozilla/5.0 (compatible; Scrubby/*",
           "properties": {
             "Browser": "Scrubby",
             "Browser_Maker": "ScrubTheWeb"
           }
         },
         {
-          "match": "Scrubby\/2.2*",
+          "match": "Scrubby/2.2*",
           "properties": {
             "Browser": "Scrubby",
             "Browser_Maker": "ScrubTheWeb",
@@ -63,7 +63,7 @@
           }
         },
         {
-          "match": "Scrubby\/2.1*",
+          "match": "Scrubby/2.1*",
           "properties": {
             "Browser": "Scrubby",
             "Browser_Maker": "ScrubTheWeb",
@@ -73,7 +73,7 @@
           }
         },
         {
-          "match": "Scrubby\/*"
+          "match": "Scrubby/*"
         }
       ]
     }

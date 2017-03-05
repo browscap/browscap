@@ -31,13 +31,13 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Postbox\/#MAJORVER#.*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Postbox/#MAJORVER#.*",
           "platforms": [
             "OSX_10_8", "OSX_10_9", "OSX_10_10", "OSX"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Postbox\/#MAJORVER#.*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Postbox/#MAJORVER#.*",
           "device": "Windows Desktop",
           "platforms": [
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",

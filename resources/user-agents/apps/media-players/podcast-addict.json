@@ -18,21 +18,21 @@
       },
       "children": [
         {
-          "match": "Podcast*Addict*Dalvik\/* (#PLATFORM#LG-H811 Build\/*",
+          "match": "Podcast*Addict*Dalvik/* (#PLATFORM#LG-H811 Build/*",
           "device": "LG H811",
           "platforms": [
             "Android_6_0"
           ]
         },
         {
-          "match": "Podcast*Addict*Dalvik\/* (#PLATFORM#SM-G920P Build\/*",
+          "match": "Podcast*Addict*Dalvik/* (#PLATFORM#SM-G920P Build/*",
           "device": "Samsung SM-G920P",
           "platforms": [
             "Android_5_1"
           ]
         },
         {
-          "match": "Podcast*Addict*Dalvik\/* (#PLATFORM#",
+          "match": "Podcast*Addict*Dalvik/* (#PLATFORM#",
           "platforms": [
             "Android_5_1", "Android_6_0", "Android"
           ]

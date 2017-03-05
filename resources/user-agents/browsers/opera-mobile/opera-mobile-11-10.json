@@ -27,7 +27,7 @@
       },
       "children": [
         {
-          "match": "Opera\/9.80*(#PLATFORM#Opera Mobi*)*Version\/#MAJORVER#.#MINORVER#*",
+          "match": "Opera/9.80*(#PLATFORM#Opera Mobi*)*Version/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "AndroidLinux",
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android",
@@ -36,7 +36,7 @@
           ]
         },
         {
-          "match": "Huawei\/*\/HUAWEI-G7300 * Opera\/9.80*(#PLATFORM#Opera Mobi*)*Version\/#MAJORVER#.#MINORVER#*",
+          "match": "Huawei/*/HUAWEI-G7300 * Opera/9.80*(#PLATFORM#Opera Mobi*)*Version/#MAJORVER#.#MINORVER#*",
           "device": "Huawei G7300",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3",
@@ -44,14 +44,14 @@
           ]
         },
         {
-          "match": "* Opera\/9.80*(#PLATFORM#Opera Mobi*)*Version\/#MAJORVER#.#MINORVER#*",
+          "match": "* Opera/9.80*(#PLATFORM#Opera Mobi*)*Version/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3",
             "Android_4_4"
           ]
         },
         {
-          "match": "* Browser\/Opera *Profile\/MIDP* Opera\/9.80 (MTK*) Presto\/* Version\/#MAJORVER#.#MINORVER#*",
+          "match": "* Browser/Opera *Profile/MIDP* Opera/9.80 (MTK*) Presto/* Version/#MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone (Touch)",
           "platforms": [
             "Android"

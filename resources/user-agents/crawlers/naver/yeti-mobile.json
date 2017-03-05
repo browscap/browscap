@@ -19,7 +19,7 @@
       },
       "children": [
         {
-          "match": "DoCoMo\/2.0?P-04A *(compatible; Yeti-Mobile\/0.1; ?http:\/\/help.naver.com\/robots\/)*"
+          "match": "DoCoMo/2.0?P-04A *(compatible; Yeti-Mobile/0.1; ?http://help.naver.com/robots/)*"
         }
       ]
     }

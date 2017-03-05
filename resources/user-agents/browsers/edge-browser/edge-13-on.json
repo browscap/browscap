@@ -27,7 +27,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Chrome\/* Safari\/* Edge\/#MAJORVER#.*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML* like Gecko) Chrome/* Safari/* Edge/#MAJORVER#.*",
           "platforms": [
             "Win10_x64", "Win10_64", "Win10_32", "Win10_x64_B", "Win10_64_B", "Win10_32_B"
           ]
@@ -57,28 +57,28 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#NOKIA; Lumia 930) AppleWebKit\/* (KHTML* like Gecko) Chrome\/* Safari\/* Edge\/#MAJORVER#.*",
+          "match": "Mozilla/5.0 (#PLATFORM#NOKIA; Lumia 930) AppleWebKit/* (KHTML* like Gecko) Chrome/* Safari/* Edge/#MAJORVER#.*",
           "device": "Nokia Lumia 930",
           "platforms": [
             "WinPhone10"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#Xbox; Xbox One) AppleWebKit\/* (KHTML* like Gecko) Chrome\/* Safari\/* Edge\/#MAJORVER#.*",
+          "match": "Mozilla/5.0 (#PLATFORM#Xbox; Xbox One) AppleWebKit/* (KHTML* like Gecko) Chrome/* Safari/* Edge/#MAJORVER#.*",
           "device": "Microsoft Xbox One",
           "platforms": [
             "WinPhone10"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#NOKIA; RM-1010) AppleWebKit\/* (KHTML* like Gecko) Chrome\/* Safari\/* Edge\/#MAJORVER#.*",
+          "match": "Mozilla/5.0 (#PLATFORM#NOKIA; RM-1010) AppleWebKit/* (KHTML* like Gecko) Chrome/* Safari/* Edge/#MAJORVER#.*",
           "device": "Nokia Lumia 638 RM-1010",
           "platforms": [
             "WinPhone10"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) AppleWebKit\/* (KHTML* like Gecko) Chrome\/* Safari\/* Edge\/#MAJORVER#.*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML* like Gecko) Chrome/* Safari/* Edge/#MAJORVER#.*",
           "platforms": [
             "WinPhone10"
           ]

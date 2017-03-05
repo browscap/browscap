@@ -23,7 +23,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (compatible; Teleca *; #PLATFORM#; U; *)*",
+          "match": "Mozilla/5.0 (compatible; Teleca *; #PLATFORM#; U; *)*",
           "platforms": [
             "Brew_3_0", "Brew_3_1"
           ]
@@ -32,42 +32,42 @@
           "match": "AU-MIC*"
         },
         {
-          "match": "*MIC\/WAP2.0*"
+          "match": "*MIC/WAP2.0*"
         },
         {
-          "match": "*Teleca\/WAP2.0*"
+          "match": "*Teleca/WAP2.0*"
         },
         {
           "match": "*AU-MIC-*"
         },
         {
-          "match": "BIRD_D670\/1.00 Mtk6219\/V7-05A Release\/1.1.2005 Browser\/Teleca *",
+          "match": "BIRD_D670/1.00 Mtk6219/V7-05A Release/1.1.2005 Browser/Teleca *",
           "device": "BIRD D670"
         },
         {
-          "match": "*Obigo\/WAP2.0*"
+          "match": "*Obigo/WAP2.0*"
         },
         {
-          "match": "LG-GD350\/V100 Obigo\/WAP2.0*",
+          "match": "LG-GD350/V100 Obigo/WAP2.0*",
           "device": "LG GD350"
         },
         {
           "match": "*Teleca-Obigo*"
         },
         {
-          "match": "*AU.MIC\/*"
+          "match": "*AU.MIC/*"
         },
         {
-          "match": "*MIC\/*"
+          "match": "*MIC/*"
         },
         {
-          "match": "*Teleca\/*"
+          "match": "*Teleca/*"
         },
         {
-          "match": "*Browser\/Obigo*"
+          "match": "*Browser/Obigo*"
         },
         {
-          "match": "*ObigoInternetBrowser\/2*",
+          "match": "*ObigoInternetBrowser/2*",
           "properties": {
             "Version": "2.0",
             "MajorVer": "2",
@@ -91,7 +91,7 @@
           }
         },
         {
-          "match": "*Browser\/Obigo-Browser\/3*",
+          "match": "*Browser/Obigo-Browser/3*",
           "properties": {
             "Version": "3.0",
             "MajorVer": "3",
@@ -99,7 +99,7 @@
           }
         },
         {
-          "match": "*TelecaBrowser\/4*",
+          "match": "*TelecaBrowser/4*",
           "properties": {
             "Version": "4.0",
             "MajorVer": "4",
@@ -107,7 +107,7 @@
           }
         },
         {
-          "match": "*Obigo\/Q7*",
+          "match": "*Obigo/Q7*",
           "properties": {
             "Version": "7.0",
             "MajorVer": "7",
@@ -115,83 +115,83 @@
           }
         },
         {
-          "match": "LG-CU500 Obigo\/WAP2.0 *",
+          "match": "LG-CU500 Obigo/WAP2.0 *",
           "device": "LG CU500"
         },
         {
-          "match": "LG-G922 Obigo\/WAP2.0 *",
+          "match": "LG-G922 Obigo/WAP2.0 *",
           "device": "LG G922"
         },
         {
-          "match": "LG-GB230\/V100 Obigo\/WAP2.0 *",
+          "match": "LG-GB230/V100 Obigo/WAP2.0 *",
           "device": "LG GB230"
         },
         {
-          "match": "LG-GM360\/V100 Obigo\/WAP2.0 *",
+          "match": "LG-GM360/V100 Obigo/WAP2.0 *",
           "device": "LG GM360"
         },
         {
-          "match": "LG-GM360i\/V100 Obigo\/WAP2.0 *",
+          "match": "LG-GM360i/V100 Obigo/WAP2.0 *",
           "device": "LG GM360i"
         },
         {
-          "match": "LG-GS290\/V100 Obigo\/WAP2.0 *",
+          "match": "LG-GS290/V100 Obigo/WAP2.0 *",
           "device": "LG GS290"
         },
         {
-          "match": "LG-GT350\/V100 Obigo\/WAP2.0 *",
+          "match": "LG-GT350/V100 Obigo/WAP2.0 *",
           "device": "LG GT350"
         },
         {
-          "match": "LG-GU230\/V10a Obigo\/WAP2.0 *",
+          "match": "LG-GU230/V10a Obigo/WAP2.0 *",
           "device": "LG GU230"
         },
         {
-          "match": "LG-GW300FD\/V100 Obigo\/WAP2.0 *",
+          "match": "LG-GW300FD/V100 Obigo/WAP2.0 *",
           "device": "LG GW300FD"
         },
         {
-          "match": "LG-GX500\/* Obigo\/WAP2.0 *",
+          "match": "LG-GX500/* Obigo/WAP2.0 *",
           "device": "LG GX500"
         },
         {
-          "match": "LG-KE970 MIC\/1.1*",
+          "match": "LG-KE970 MIC/1.1*",
           "device": "LG KE970"
         },
         {
-          "match": "LG-KG220\/V09a Obigo\/WAP2.0*",
+          "match": "LG-KG220/V09a Obigo/WAP2.0*",
           "device": "LG KG220"
         },
         {
-          "match": "LG-KM900\/* Obigo\/WAP2.0 *",
+          "match": "LG-KM900/* Obigo/WAP2.0 *",
           "device": "LG KM900"
         },
         {
-          "match": "LG-KP210 Obigo\/WAP2.0 *",
+          "match": "LG-KP210 Obigo/WAP2.0 *",
           "device": "LG KP210"
         },
         {
-          "match": "LG-KU886 Obigo\/WAP2.0 *",
+          "match": "LG-KU886 Obigo/WAP2.0 *",
           "device": "LG KU886"
         },
         {
-          "match": "LG-TU720 Obigo\/WAP2.0*",
+          "match": "LG-TU720 Obigo/WAP2.0*",
           "device": "LG TU720"
         },
         {
-          "match": "LG-U8210\/V080 Obigo\/WAP2.0 *",
+          "match": "LG-U8210/V080 Obigo/WAP2.0 *",
           "device": "LG U8210"
         },
         {
-          "match": "MOT-EX112 Obigo\/WAP2.0*",
+          "match": "MOT-EX112 Obigo/WAP2.0*",
           "device": "Motorola EX112"
         },
         {
-          "match": "PHILIPS 535 \/ Teleca-Obigo *",
+          "match": "PHILIPS 535 / Teleca-Obigo *",
           "device": "Philips 535"
         },
         {
-          "match": "AU-MIC\/1.1*",
+          "match": "AU-MIC/1.1*",
           "properties": {
             "Version": "1.1",
             "MajorVer": "1",
@@ -199,7 +199,7 @@
           }
         },
         {
-          "match": "CODACOM C100\/4.6 AU.MIC\/1.1*",
+          "match": "CODACOM C100/4.6 AU.MIC/1.1*",
           "device": "Godacom C100",
           "properties": {
             "Version": "1.1",
@@ -208,7 +208,7 @@
           }
         },
         {
-          "match": "LG-KG99 MIC\/1.1*",
+          "match": "LG-KG99 MIC/1.1*",
           "device": "LG KG99",
           "properties": {
             "Version": "1.1",
@@ -217,7 +217,7 @@
           }
         },
         {
-          "match": "TSM-6\/Teleca\/1.1*",
+          "match": "TSM-6/Teleca/1.1*",
           "properties": {
             "Version": "1.1",
             "MajorVer": "1",
@@ -225,14 +225,14 @@
           }
         },
         {
-          "match": "AU-MIC\/2.0 MMP\/2.0*",
+          "match": "AU-MIC/2.0 MMP/2.0*",
           "properties": {
             "Version": "2.0",
             "MajorVer": "2"
           }
         },
         {
-          "match": "LG-G1800 MIC\/WAP2.0*",
+          "match": "LG-G1800 MIC/WAP2.0*",
           "device": "LG G1800",
           "properties": {
             "Version": "4.1",
@@ -241,7 +241,7 @@
           }
         },
         {
-          "match": "Mozilla\/5.0 (compatible; Teleca *; #PLATFORM#",
+          "match": "Mozilla/5.0 (compatible; Teleca *; #PLATFORM#",
           "platforms": [
             "Brew_3_0", "Brew_3_1"
           ]
@@ -250,191 +250,191 @@
           "match": "AU-MIC"
         },
         {
-          "match": "G5600 MIC\/WAP2.0 *",
+          "match": "G5600 MIC/WAP2.0 *",
           "device": "LG G5600"
         },
         {
-          "match": "LG-A7150 MIC\/WAP2.0*",
+          "match": "LG-A7150 MIC/WAP2.0*",
           "device": "LG A7150"
         },
         {
-          "match": "LG-B2000 MIC\/WAP2.0*",
+          "match": "LG-B2000 MIC/WAP2.0*",
           "device": "LG B2000"
         },
         {
-          "match": "LG-B2050 MIC\/WAP2.0 *",
+          "match": "LG-B2050 MIC/WAP2.0 *",
           "device": "LG B2050"
         },
         {
-          "match": "LG-B2070 MIC\/WAP2.0 *",
+          "match": "LG-B2070 MIC/WAP2.0 *",
           "device": "LG B2070"
         },
         {
-          "match": "LG-B2100 MIC\/WAP2.0 *",
+          "match": "LG-B2100 MIC/WAP2.0 *",
           "device": "LG B2100"
         },
         {
-          "match": "LG-B2150 MIC\/WAP2.0*",
+          "match": "LG-B2150 MIC/WAP2.0*",
           "device": "LG B2150"
         },
         {
-          "match": "LG-C1100 MIC\/WAP2.0*",
+          "match": "LG-C1100 MIC/WAP2.0*",
           "device": "LG C1100"
         },
         {
-          "match": "LG-C1150 MIC\/WAP2.0 *",
+          "match": "LG-C1150 MIC/WAP2.0 *",
           "device": "LG C1150"
         },
         {
-          "match": "LG-C1200 MIC\/WAP2.0 *",
+          "match": "LG-C1200 MIC/WAP2.0 *",
           "device": "LG C1200"
         },
         {
-          "match": "LG-C2100\/MIC\/WAP2.0\/*",
+          "match": "LG-C2100/MIC/WAP2.0/*",
           "device": "LG C2100"
         },
         {
-          "match": "LG-C2200 MIC\/WAP2.0 *",
+          "match": "LG-C2200 MIC/WAP2.0 *",
           "device": "LG C2200"
         },
         {
-          "match": "LG-C2500 MIC\/WAP2.0 *",
+          "match": "LG-C2500 MIC/WAP2.0 *",
           "device": "LG C2500"
         },
         {
-          "match": "LG-C3300 MIC\/WAP2.0 *",
+          "match": "LG-C3300 MIC/WAP2.0 *",
           "device": "LG C3300"
         },
         {
-          "match": "LG-C3310 MIC\/WAP2.0 *",
+          "match": "LG-C3310 MIC/WAP2.0 *",
           "device": "LG C3310"
         },
         {
-          "match": "LG-C3320 MIC\/WAP2.0 *",
+          "match": "LG-C3320 MIC/WAP2.0 *",
           "device": "LG C3320"
         },
         {
-          "match": "LG-C3380 MIC\/WAP2.0 *",
+          "match": "LG-C3380 MIC/WAP2.0 *",
           "device": "LG C3380"
         },
         {
-          "match": "LG-C3400 MIC\/WAP2.0*",
+          "match": "LG-C3400 MIC/WAP2.0*",
           "device": "LG C3400"
         },
         {
-          "match": "LG-F2100 MIC\/WAP2.0*",
+          "match": "LG-F2100 MIC/WAP2.0*",
           "device": "LG F2100"
         },
         {
-          "match": "LG-F2300 MIC\/WAP2.0 *",
+          "match": "LG-F2300 MIC/WAP2.0 *",
           "device": "LG F2300"
         },
         {
-          "match": "LG-F2300\/MIC\/WAP2.0\/*",
+          "match": "LG-F2300/MIC/WAP2.0/*",
           "device": "LG F2300"
         },
         {
-          "match": "LG-F2400 MIC\/WAP2.0 *",
+          "match": "LG-F2400 MIC/WAP2.0 *",
           "device": "LG F2400"
         },
         {
-          "match": "LG-G262 MIC\/WAP2.0 *",
+          "match": "LG-G262 MIC/WAP2.0 *",
           "device": "LG G262"
         },
         {
-          "match": "LG-G5600 MIC\/WAP2.0*",
+          "match": "LG-G5600 MIC/WAP2.0*",
           "device": "LG G5600"
         },
         {
-          "match": "LG-G688 MIC\/V100\/WAP2.0 *",
+          "match": "LG-G688 MIC/V100/WAP2.0 *",
           "device": "LG G688"
         },
         {
-          "match": "LG-G832 MIC\/WAP2.0 *",
+          "match": "LG-G832 MIC/WAP2.0 *",
           "device": "LG G832"
         },
         {
-          "match": "LG-GD510\/V100 Teleca\/WAP2.0 *",
+          "match": "LG-GD510/V100 Teleca/WAP2.0 *",
           "device": "LG GD510"
         },
         {
-          "match": "LG-GT365\/V10g Teleca\/WAP2.0*",
+          "match": "LG-GT365/V10g Teleca/WAP2.0*",
           "device": "LG GT365"
         },
         {
-          "match": "LG-KG220 MIC\/WAP2.0 *",
+          "match": "LG-KG220 MIC/WAP2.0 *",
           "device": "LG KG220"
         },
         {
-          "match": "LG-KG320 MIC\/WAP2.0 *",
+          "match": "LG-KG320 MIC/WAP2.0 *",
           "device": "LG KG320"
         },
         {
-          "match": "LG-KG800 MIC\/WAP2.0*",
+          "match": "LG-KG800 MIC/WAP2.0*",
           "device": "LG KG800"
         },
         {
-          "match": "LG-KP500 Teleca\/WAP2.0 *",
+          "match": "LG-KP500 Teleca/WAP2.0 *",
           "device": "LG KP500"
         },
         {
-          "match": "LG-KP500-Orange\/V10i Teleca\/WAP2.0 *",
+          "match": "LG-KP500-Orange/V10i Teleca/WAP2.0 *",
           "device": "LG KP500"
         },
         {
-          "match": "LG-KS360\/V10b Teleca\/WAP2.0*",
+          "match": "LG-KS360/V10b Teleca/WAP2.0*",
           "device": "LG KS360"
         },
         {
-          "match": "LG-L3100 MIC\/WAP2.0 *",
+          "match": "LG-L3100 MIC/WAP2.0 *",
           "device": "LG L3100"
         },
         {
-          "match": "LG-LX150 AU-MIC-LX150\/2.0 MMP\/2.0 *",
+          "match": "LG-LX150 AU-MIC-LX150/2.0 MMP/2.0 *",
           "device": "LG LX150"
         },
         {
-          "match": "LG-LX350 AU-MIC-LX350\/2.0 MMP\/2.0 *",
+          "match": "LG-LX350 AU-MIC-LX350/2.0 MMP/2.0 *",
           "device": "LG LX350"
         },
         {
-          "match": "LG-LX550 AU-MIC-LX550\/2.0 MMP\/2.0 *",
+          "match": "LG-LX550 AU-MIC-LX550/2.0 MMP/2.0 *",
           "device": "LG LX550"
         },
         {
-          "match": "LG-M4410 MIC\/WAP2.0 *",
+          "match": "LG-M4410 MIC/WAP2.0 *",
           "device": "LG M4410"
         },
         {
-          "match": "LG-M6100 MIC\/WAP2.0*",
+          "match": "LG-M6100 MIC/WAP2.0*",
           "device": "LG M6100"
         },
         {
-          "match": "LG-MG100a MIC\/WAP2.0 *",
+          "match": "LG-MG100a MIC/WAP2.0 *",
           "device": "LG MG100a"
         },
         {
-          "match": "LG-MG105 MIC\/WAP2.0 *",
+          "match": "LG-MG105 MIC/WAP2.0 *",
           "device": "LG MG105"
         },
         {
-          "match": "LG-MG300D MIC\/WAP2.0 *",
+          "match": "LG-MG300D MIC/WAP2.0 *",
           "device": "LG MG300D"
         },
         {
-          "match": "LG-MG800 MIC\/WAP2.0 *",
+          "match": "LG-MG800 MIC/WAP2.0 *",
           "device": "LG MG800"
         },
         {
-          "match": "LG-P7200 MIC\/WAP2.0 *",
+          "match": "LG-P7200 MIC/WAP2.0 *",
           "device": "LG P7200"
         },
         {
-          "match": "LG-S5200 MIC\/WAP2.0*",
+          "match": "LG-S5200 MIC/WAP2.0*",
           "device": "LG S5200"
         },
         {
-          "match": "LG-U8290 MIC\/WAP2.0 *",
+          "match": "LG-U8290 MIC/WAP2.0 *",
           "device": "LG U8290"
         }
       ]

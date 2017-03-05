@@ -26,15 +26,15 @@
       },
       "children": [
         {
-          "match": "BlackBerry9500\/#MAJORVER#.#MINORVER#*",
+          "match": "BlackBerry9500/#MAJORVER#.#MINORVER#*",
           "device": "Blackberry 9500"
         },
         {
-          "match": "BlackBerry9530\/#MAJORVER#.#MINORVER#*",
+          "match": "BlackBerry9530/#MAJORVER#.#MINORVER#*",
           "device": "Blackberry 8520"
         },
         {
-          "match": "BlackBerry9630\/#MAJORVER#.#MINORVER#*",
+          "match": "BlackBerry9630/#MAJORVER#.#MINORVER#*",
           "device": "Blackberry 9630"
         }
       ]

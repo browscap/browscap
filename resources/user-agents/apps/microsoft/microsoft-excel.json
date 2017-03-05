@@ -26,7 +26,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Excel\/12.*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Excel/12.*",
           "device": "Macintosh",
           "properties": {
             "Version": "2007",
@@ -37,7 +37,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Excel\/14.*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Excel/14.*",
           "device": "Macintosh",
           "properties": {
             "Version": "2010",
@@ -48,7 +48,7 @@
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Excel\/15.*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Excel/15.*",
           "device": "Macintosh",
           "properties": {
             "Version": "2013",
@@ -70,7 +70,7 @@
           ]
         },
         {
-          "match": "Microsoft Office\/15.* (#PLATFORM#Microsoft Excel 15.*)",
+          "match": "Microsoft Office/15.* (#PLATFORM#Microsoft Excel 15.*)",
           "device": "Windows Desktop",
           "properties": {
             "Version": "2013",

@@ -25,7 +25,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (compatible; PAD-bot\/#MAJORVER#.#MINORVER#*"
+          "match": "Mozilla/5.0 (compatible; PAD-bot/#MAJORVER#.#MINORVER#*"
         }
       ]
     }

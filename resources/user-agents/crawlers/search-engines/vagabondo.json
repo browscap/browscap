@@ -16,7 +16,7 @@
       },
       "children": [
         {
-          "match": "Mozilla\/?.0 (compatible; *Vagabondo\/4.0*",
+          "match": "Mozilla/?.0 (compatible; *Vagabondo/4.0*",
           "properties": {
             "Version": "4.0",
             "MajorVer": "4",
@@ -24,7 +24,7 @@
           }
         },
         {
-          "match": "Mozilla\/?.0 (compatible; *Vagabondo\/2.1*",
+          "match": "Mozilla/?.0 (compatible; *Vagabondo/2.1*",
           "properties": {
             "Version": "2.1",
             "MajorVer": "2",
@@ -32,10 +32,10 @@
           }
         },
         {
-          "match": "Mozilla\/?.0 (compatible; *Vagabondo\/*"
+          "match": "Mozilla/?.0 (compatible; *Vagabondo/*"
         },
         {
-          "match": "Mozilla\/?.0 (Vagabondo\/2.0*",
+          "match": "Mozilla/?.0 (Vagabondo/2.0*",
           "properties": {
             "Version": "2.0",
             "MajorVer": "2",
@@ -43,7 +43,7 @@
           }
         },
         {
-          "match": "Mozilla\/?.0 (Vagabondo\/*"
+          "match": "Mozilla/?.0 (Vagabondo/*"
         }
       ]
     }

@@ -23,7 +23,7 @@
       },
       "children": [
         {
-          "match": "phantomas\/#MAJORVER#.#MINORVER#* (PhantomJS\/*; #PLATFORM#)*",
+          "match": "phantomas/#MAJORVER#.#MINORVER#* (PhantomJS/*; #PLATFORM#)*",
           "platforms": [
             "Linux_x64", "Linux"
           ]

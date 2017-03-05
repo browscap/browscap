@@ -29,14 +29,14 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (iPhone#PLATFORM#)*AppleWebKit\/*(*KHTML* like Gecko*)*Outlook-iOS-Android\/#MAJORVER#.#MINORVER#* Safari\/*",
+          "match": "Mozilla/5.0 (iPhone#PLATFORM#)*AppleWebKit/*(*KHTML* like Gecko*)*Outlook-iOS-Android/#MAJORVER#.#MINORVER#* Safari/*",
           "device": "iPhone",
           "platforms": [
             "iOS_A_9_3", "iOS_A"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#)*AppleWebKit\/*(*KHTML* like Gecko*)*Outlook-iOS-Android\/#MAJORVER#.#MINORVER#* Safari\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#)*AppleWebKit/*(*KHTML* like Gecko*)*Outlook-iOS-Android/#MAJORVER#.#MINORVER#* Safari/*",
           "platforms": [
             "iOS_A_9_3", "iOS_A"
           ]

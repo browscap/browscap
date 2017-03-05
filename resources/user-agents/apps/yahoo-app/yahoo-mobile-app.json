@@ -24,21 +24,21 @@
       },
       "children": [
         {
-          "match": "YahooMobile\/1.0 *(Apple; iPhone#PLATFORM#); YHOO_Search_App\/#MAJORVER#.#MINORVER#*",
+          "match": "YahooMobile/1.0 *(Apple; iPhone#PLATFORM#); YHOO_Search_App/#MAJORVER#.#MINORVER#*",
           "device": "iPhone",
           "platforms": [
             "iOS_E_6_1", "iOS_E_7_0", "iOS_E_7_1", "iOS_E_8_0", "iOS_E"
           ]
         },
         {
-          "match": "YahooMobile\/1.0 *(Apple; iPod#PLATFORM#); YHOO_Search_App\/#MAJORVER#.#MINORVER#*",
+          "match": "YahooMobile/1.0 *(Apple; iPod#PLATFORM#); YHOO_Search_App/#MAJORVER#.#MINORVER#*",
           "device": "iPod Touch",
           "platforms": [
             "iOS_E_6_1", "iOS_E_7_0", "iOS_E_7_1", "iOS_E_8_0", "iOS_E"
           ]
         },
         {
-          "match": "YahooMobile\/1.0 *(#PLATFORM#); YHOO_Search_App\/#MAJORVER#.#MINORVER#*",
+          "match": "YahooMobile/1.0 *(#PLATFORM#); YHOO_Search_App/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "iOS_E_6_1", "iOS_E_7_0", "iOS_E_7_1", "iOS_E_8_0", "iOS_E"
           ]

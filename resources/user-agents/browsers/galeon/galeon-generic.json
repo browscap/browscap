@@ -23,26 +23,26 @@
       },
       "children": [
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Galeon\/* Firefox\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Galeon/* Firefox/*",
           "platforms": [
             "Linux_32", "Linux"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Galeon\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Galeon/*",
           "platforms": [
             "Linux_32", "Linux"
           ]
         },
         {
-          "match": "Mozilla\/5.0 (#PLATFORM#) Gecko* Galeon\/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Galeon/*",
           "device": "general Desktop",
           "platforms": [
             "FreeBSD"
           ]
         },
         {
-          "match": "Mozilla\/5.0 Galeon\/* (#PLATFORM#)*",
+          "match": "Mozilla/5.0 Galeon/* (#PLATFORM#)*",
           "platforms": [
             "Linux_32", "Linux"
           ]

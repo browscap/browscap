@@ -15,7 +15,7 @@
       },
       "children": [
         {
-          "match": "NP\/*"
+          "match": "NP/*"
         },
         {
           "match": "NPBot*"
