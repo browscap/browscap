@@ -25,7 +25,7 @@ use Browscap\Generator\GrepGenerator;
  * @category   BrowscapTest
  * @author     James Titcumb <james@asgrim.com>
  */
-class GrepGeneratorTest extends \PHPUnit_Framework_TestCase
+class GrepGeneratorTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @var \Browscap\Generator\GrepGenerator

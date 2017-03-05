@@ -24,7 +24,7 @@ use Browscap\Generator\DiffGenerator;
  * @category   BrowscapTest
  * @author     James Titcumb <james@asgrim.com>
  */
-class DiffGeneratorTest extends \PHPUnit_Framework_TestCase
+class DiffGeneratorTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @var \Browscap\Generator\DiffGenerator

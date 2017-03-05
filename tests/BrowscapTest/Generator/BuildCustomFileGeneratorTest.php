@@ -26,7 +26,7 @@ use Monolog\Logger;
  * @category   BrowscapTest
  * @author     James Titcumb <james@asgrim.com>
  */
-class BuildCustomFileGeneratorTest extends \PHPUnit_Framework_TestCase
+class BuildCustomFileGeneratorTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @var array

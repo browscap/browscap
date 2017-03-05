@@ -24,7 +24,7 @@ use Browscap\Formatter\JsonFormatter;
  * @category   BrowscapTest
  * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
  */
-class JsonFormatterTest extends \PHPUnit_Framework_TestCase
+class JsonFormatterTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @var \Browscap\Formatter\JsonFormatter

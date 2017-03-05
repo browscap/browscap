@@ -24,7 +24,7 @@ use Browscap\Generator\Helper\BuildHelper;
  * @category   BrowscapTest
  * @author     James Titcumb <james@asgrim.com>
  */
-class BuildHelperTest extends \PHPUnit_Framework_TestCase
+class BuildHelperTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * tests running a build

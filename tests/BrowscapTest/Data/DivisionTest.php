@@ -24,7 +24,7 @@ use Browscap\Data\Division;
  * @category   BrowscapTest
  * @author     James Titcumb <james@asgrim.com>
  */
-class DivisionTest extends \PHPUnit_Framework_TestCase
+class DivisionTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * tests setter and getter

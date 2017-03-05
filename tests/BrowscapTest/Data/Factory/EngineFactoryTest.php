@@ -24,7 +24,7 @@ use Browscap\Data\Factory\EngineFactory;
  * @category   BrowscapTest
  * @author     James Titcumb <james@asgrim.com>
  */
-class EngineFactoryTest extends \PHPUnit_Framework_TestCase
+class EngineFactoryTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @var \Browscap\Data\Factory\EngineFactory

@@ -25,7 +25,7 @@ use org\bovigo\vfs\vfsStream;
  * @category   BrowscapTest
  * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
  */
-class CustomWriterFactoryTest extends \PHPUnit_Framework_TestCase
+class CustomWriterFactoryTest extends \PHPUnit\Framework\TestCase
 {
     const STORAGE_DIR = 'storage';
 

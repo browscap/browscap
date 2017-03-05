@@ -24,7 +24,7 @@ use Browscap\Data\Engine;
  * @category   BrowscapTest
  * @author     James Titcumb <james@asgrim.com>
  */
-class EngineTest extends \PHPUnit_Framework_TestCase
+class EngineTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * tests setter and getter for the engine properties

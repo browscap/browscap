@@ -24,7 +24,7 @@ use Browscap\Data\Platform;
  * @category   BrowscapTest
  * @author     James Titcumb <james@asgrim.com>
  */
-class PlatformTest extends \PHPUnit_Framework_TestCase
+class PlatformTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * tests setter and getter for the match property

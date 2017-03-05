@@ -24,7 +24,7 @@ use Browscap\Filter\LiteFilter;
  * @category   BrowscapTest
  * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
  */
-class LiteFilterTest extends \PHPUnit_Framework_TestCase
+class LiteFilterTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @var \Browscap\Filter\LiteFilter

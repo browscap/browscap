@@ -33,7 +33,7 @@ use WurflCache\Adapter\File;
  * @author     James Titcumb <james@asgrim.com>
  * @group      useragenttest
  */
-class UserAgentsTest extends \PHPUnit_Framework_TestCase
+class UserAgentsTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @var \BrowscapPHP\Browscap

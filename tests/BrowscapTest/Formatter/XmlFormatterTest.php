@@ -24,7 +24,7 @@ use Browscap\Formatter\XmlFormatter;
  * @category   BrowscapTest
  * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
  */
-class XmlFormatterTest extends \PHPUnit_Framework_TestCase
+class XmlFormatterTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @var \Browscap\Formatter\XmlFormatter
