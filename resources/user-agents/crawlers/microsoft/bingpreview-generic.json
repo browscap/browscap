@@ -19,7 +19,7 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML,*like Gecko*) *BingPreview/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) *BingPreview/*",
           "device": "Windows Desktop",
           "platforms": [
             "Win7_64", "Win7_32"
@@ -53,7 +53,7 @@
           ]
         },
         {
-          "match": "Mozilla/* (*) AppleWebKit/* (KHTML* like Gecko) BingPreview/*"
+          "match": "Mozilla/* (*) AppleWebKit/* (*khtml*like*gecko*) BingPreview/*"
         }
       ]
     },

@@ -21,7 +21,7 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (#PLATFORM#; Viera; *) AppleWebKit/* (KHTML* like Gecko) Viera/* Chrome/*Safari/*",
+          "match": "Mozilla/5.0 (#PLATFORM#; Viera; *) AppleWebKit/* (*khtml*like*gecko*) Viera/* Chrome/*Safari/*",
           "engine": "WebKit",
           "platforms": [
             "FreeBSD"

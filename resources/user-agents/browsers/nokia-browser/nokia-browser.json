@@ -264,7 +264,7 @@
           "device": "Nokia 6650"
         },
         {
-          "match": "Nokia6700c-1/2.0 (* Mozilla/?.0 AppleWebKit/* (KHTML,*like Gecko*) Safari/*",
+          "match": "Nokia6700c-1/2.0 (* Mozilla/?.0 AppleWebKit/* (*khtml*like*gecko*) Safari/*",
           "engine": "WebKit",
           "device": "Nokia 6700c"
         },
@@ -289,7 +289,7 @@
           "device": "Nokia 7210"
         },
         {
-          "match": "Nokia7230/* Profile/MIDP-2* Mozilla/5.0 AppleWebKit/* (KHTML* like Gecko) Safari/*",
+          "match": "Nokia7230/* Profile/MIDP-2* Mozilla/5.0 AppleWebKit/* (*khtml*like*gecko*) Safari/*",
           "engine": "WebKit",
           "device": "Nokia 7230",
           "platforms": [
@@ -386,7 +386,7 @@
           "device": "Nokia N90-1"
         },
         {
-          "match": "NokiaX2-00/5.0 (* Mozilla/5.0 AppleWebKit/* (KHTML,*like Gecko*) Safari/*",
+          "match": "NokiaX2-00/5.0 (* Mozilla/5.0 AppleWebKit/* (*khtml*like*gecko*) Safari/*",
           "engine": "WebKit",
           "device": "Nokia X2-00",
           "platforms": [
@@ -394,7 +394,7 @@
           ]
         },
         {
-          "match": "NokiaX2-01/5.0 (* Mozilla/5.0 AppleWebKit/* (KHTML,*like Gecko*) Safari/*",
+          "match": "NokiaX2-01/5.0 (* Mozilla/5.0 AppleWebKit/* (*khtml*like*gecko*) Safari/*",
           "engine": "WebKit",
           "device": "Nokia X2-01",
           "platforms": [
@@ -402,7 +402,7 @@
           ]
         },
         {
-          "match": "NokiaX3-02/5.0 (*) * Mozilla/5.0 AppleWebKit/* (KHTML,*like Gecko*) Safari/*",
+          "match": "NokiaX3-02/5.0 (*) * Mozilla/5.0 AppleWebKit/* (*khtml*like*gecko*) Safari/*",
           "engine": "WebKit",
           "device": "Nokia X3-02",
           "platforms": [
@@ -417,7 +417,7 @@
           ]
         },
         {
-          "match": "Mozilla/* (SymbianOS/*) AppleWebKit/* (KHTML,*like Gecko*) Safari/*",
+          "match": "Mozilla/* (SymbianOS/*) AppleWebKit/* (*khtml*like*gecko*) Safari/*",
           "engine": "WebKit",
           "platforms": [
             "SymbianOS"
@@ -431,7 +431,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (SymbianOS/*; ?; Series60/* NokiaN79-1/30.019*) AppleWebKit/* (KHTML,*like Gecko*) Safari/*",
+          "match": "Mozilla/5.0 (SymbianOS/*; ?; Series60/* NokiaN79-1/30.019*) AppleWebKit/* (*khtml*like*gecko*) Safari/*",
           "engine": "WebKit",
           "device": "Nokia N79-1",
           "platforms": [
@@ -439,7 +439,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (SymbianOS/*; U; Series60/* Nokia5530c-2/11.0.053; * ) AppleWebKit/* (KHTML,*like Gecko*) Safari/*",
+          "match": "Mozilla/5.0 (SymbianOS/*; U; Series60/* Nokia5530c-2/11.0.053; * ) AppleWebKit/* (*khtml*like*gecko*) Safari/*",
           "engine": "WebKit",
           "device": "Nokia 5530c",
           "platforms": [
@@ -447,7 +447,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (SymbianOS/*; U; Series60/* Nokia5800d-1/52*; * ) AppleWebKit/* (KHTML,*like Gecko*) Safari/*",
+          "match": "Mozilla/5.0 (SymbianOS/*; U; Series60/* Nokia5800d-1/52*; * ) AppleWebKit/* (*khtml*like*gecko*) Safari/*",
           "engine": "WebKit",
           "device": "Nokia 5800d",
           "platforms": [
@@ -455,14 +455,14 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (SymbianOS/*; U; Series60/* Nokia6220c-1/04.13; * ) AppleWebKit/* (KHTML,*like Gecko*) Safari/*",
+          "match": "Mozilla/5.0 (SymbianOS/*; U; Series60/* Nokia6220c-1/04.13; * ) AppleWebKit/* (*khtml*like*gecko*) Safari/*",
           "device": "Nokia 6220c",
           "platforms": [
             "SymbianOS"
           ]
         },
         {
-          "match": "Mozilla/5.0 (SymbianOS/*; U; Series60/* Nokia6760s-1/*; * ) AppleWebKit/* (KHTML,*like Gecko*) Safari/*",
+          "match": "Mozilla/5.0 (SymbianOS/*; U; Series60/* Nokia6760s-1/*; * ) AppleWebKit/* (*khtml*like*gecko*) Safari/*",
           "engine": "WebKit",
           "device": "Nokia 6760s",
           "platforms": [
@@ -470,7 +470,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (SymbianOS/*; U; Series60/* NokiaE63-1/1*; * ) AppleWebKit/* (KHTML,*like Gecko*) Safari/*",
+          "match": "Mozilla/5.0 (SymbianOS/*; U; Series60/* NokiaE63-1/1*; * ) AppleWebKit/* (*khtml*like*gecko*) Safari/*",
           "engine": "WebKit",
           "device": "Nokia E63-1",
           "platforms": [
@@ -478,7 +478,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (SymbianOS/*; U; Series60/* NokiaE63-1/4*; * ) AppleWebKit/* (KHTML,*like Gecko*) Safari/*",
+          "match": "Mozilla/5.0 (SymbianOS/*; U; Series60/* NokiaE63-1/4*; * ) AppleWebKit/* (*khtml*like*gecko*) Safari/*",
           "engine": "WebKit",
           "device": "Nokia E63-1",
           "platforms": [
@@ -500,7 +500,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (SymbianOS/*; U; Series60/* NokiaE90-1/07.38.0.2; * ) AppleWebKit/* (KHTML,*like Gecko*) Safari/*",
+          "match": "Mozilla/5.0 (SymbianOS/*; U; Series60/* NokiaE90-1/07.38.0.2; * ) AppleWebKit/* (*khtml*like*gecko*) Safari/*",
           "engine": "WebKit",
           "device": "Nokia E90-1",
           "platforms": [
@@ -508,7 +508,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (SymbianOS/*; U; Series60/* NokiaN78-1/13.052*) AppleWebKit/* (KHTML,*like Gecko*) Safari/*",
+          "match": "Mozilla/5.0 (SymbianOS/*; U; Series60/* NokiaN78-1/13.052*) AppleWebKit/* (*khtml*like*gecko*) Safari/*",
           "engine": "WebKit",
           "device": "Nokia N78-1",
           "platforms": [
@@ -516,7 +516,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (SymbianOS/*; U; *; NokiaE50-2/06.* Series60/*) AppleWebKit/* (KHTML,*like Gecko*) Safari/*",
+          "match": "Mozilla/5.0 (SymbianOS/*; U; *; NokiaE50-2/06.* Series60/*) AppleWebKit/* (*khtml*like*gecko*) Safari/*",
           "device": "Nokia E50-2",
           "platforms": [
             "SymbianOS"

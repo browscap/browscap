@@ -183,7 +183,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#GT-I9100 Build/*) AppleWebKit/* (KHTML,*like Gecko*) UCBrowser/#MAJORVER#.#MINORVER#* Mobile Safari/*",
+          "match": "Mozilla/5.0 (#PLATFORM#GT-I9100 Build/*) AppleWebKit/* (*khtml*like*gecko*) UCBrowser/#MAJORVER#.#MINORVER#* Mobile Safari/*",
           "engine": "WebKit",
           "device": "GT-I9100",
           "platforms": [
@@ -191,14 +191,14 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#GT-I9100G Build/*) AppleWebKit/* (KHTML,*like Gecko*) UCBrowser/#MAJORVER#.#MINORVER#* Mobile Safari/*",
+          "match": "Mozilla/5.0 (#PLATFORM#GT-I9100G Build/*) AppleWebKit/* (*khtml*like*gecko*) UCBrowser/#MAJORVER#.#MINORVER#* Mobile Safari/*",
           "device": "GT-I9100G",
           "platforms": [
             "Android_2_3"
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML,*like Gecko*) UCBrowser/#MAJORVER#.#MINORVER#*Safari/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) UCBrowser/#MAJORVER#.#MINORVER#*Safari/*",
           "engine": "WebKit",
           "device": "general Mobile Phone (Touch)",
           "platforms": [
@@ -206,7 +206,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#Lenovo P780_ROW Build/*) AppleWebKit/* (KHTML,*like Gecko*) Version/*Safari/*UCBrowser/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#Lenovo P780_ROW Build/*) AppleWebKit/* (*khtml*like*gecko*) Version/*Safari/*UCBrowser/#MAJORVER#.#MINORVER#*",
           "engine": "WebKit",
           "device": "Lenovo P780",
           "platforms": [
@@ -214,7 +214,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#SM-G130H Build/*) AppleWebKit/* (KHTML,*like Gecko*) Version/*Safari/*UCBrowser/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#SM-G130H Build/*) AppleWebKit/* (*khtml*like*gecko*) Version/*Safari/*UCBrowser/#MAJORVER#.#MINORVER#*",
           "engine": "WebKit",
           "device": "Samsung SM-G130H",
           "platforms": [
@@ -222,7 +222,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#ST25i Build/*) AppleWebKit/* (KHTML,*like Gecko*) Version/*Safari/*UCBrowser/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#ST25i Build/*) AppleWebKit/* (*khtml*like*gecko*) Version/*Safari/*UCBrowser/#MAJORVER#.#MINORVER#*",
           "engine": "WebKit",
           "device": "SonyEricsson ST25i",
           "platforms": [
@@ -230,7 +230,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML,*like Gecko*) Version/*Safari/*UCBrowser/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) Version/*Safari/*UCBrowser/#MAJORVER#.#MINORVER#*",
           "engine": "WebKit",
           "device": "general Mobile Phone (Touch)",
           "platforms": [
