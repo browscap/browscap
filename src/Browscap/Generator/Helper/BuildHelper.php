@@ -47,7 +47,8 @@ class BuildHelper
         $resourceFolder,
         LoggerInterface $logger,
         WriterCollection $writerCollection,
-        CollectionCreator $collectionCreator
+        CollectionCreator $collectionCreator,
+        $collectPatternIds = false
     ) {
         $logger->info('started creating a data collection');
 
@@ -67,7 +68,8 @@ class BuildHelper
         $expander = new Expander();
         $expander
             ->setDataCollection($collection)
-            ->setLogger($logger);
+            ->setLogger($logger)
+            ->setCollectPatternIds($collectPatternIds);
 
         $logger->info('finished initialisation of writers');
 
@@ -108,6 +110,10 @@ class BuildHelper
 
         foreach (array_keys($sections) as $sectionName) {
             $section = $sections[$sectionName];
+
+            if (!$collectPatternIds) {
+                unset($section['PatternId']);
+            }
 
             $writerCollection
                 ->setSilent($division)
@@ -192,6 +198,10 @@ class BuildHelper
 
         foreach (array_keys($sections) as $sectionName) {
             $section = $sections[$sectionName];
+
+            if (!$collectPatternIds) {
+                unset($section['PatternId']);
+            }
 
             $writerCollection
                 ->setSilent($division)

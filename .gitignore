@@ -6,4 +6,6 @@ vendor/
 composer.phar
 test*.txt
 composer.lock
-coverage/
+/coverage
+coverage.json
+coverage.clover

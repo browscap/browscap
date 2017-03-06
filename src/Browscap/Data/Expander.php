@@ -44,7 +44,7 @@ class Expander
 
     private $patternId = [];
 
-    private $patternIds = [];
+    private $collectPatternIds = false;
 
     /**
      * Set the data collection
@@ -55,6 +55,13 @@ class Expander
     public function setDataCollection(DataCollection $collection)
     {
         $this->collection = $collection;
+
+        return $this;
+    }
+
+    public function setCollectPatternIds($value)
+    {
+        $this->collectPatternIds = (bool) $value;
 
         return $this;
     }
@@ -116,8 +123,6 @@ class Expander
     private function parseDivision(Division $division, $divisionName)
     {
         $output = [];
-
-        //$patternIdBase = 'd' . trim(str_replace(['#MAJORVER#.#MINORVER#', '#MAJORVER#'], '', $division->getName())) . '::';
 
         $i = 0;
         foreach ($division->getUserAgents() as $uaData) {
@@ -346,7 +351,9 @@ class Expander
                     $properties = array_merge($properties, $childProperties);
                 }
 
-                $properties['PatternId'] = $this->getPatternId();
+                if ($this->collectPatternIds === true) {
+                    $properties['PatternId'] = $this->getPatternId();
+                }
 
                 $output[$uaBase] = $properties;
             }
@@ -396,7 +403,9 @@ class Expander
             $uaBase                      = str_replace('#PLATFORM#', '', $uaDataChild['match']);
             $this->patternId['platform'] = '';
 
-            $properties['PatternId'] = $this->getPatternId();
+            if ($this->collectPatternIds === true) {
+                $properties['PatternId'] = $this->getPatternId();
+            }
 
             $output[$uaBase] = $properties;
         }
@@ -415,17 +424,7 @@ class Expander
             $this->patternId['platform']
         );
 
-        if (!isset($this->patternIds[$id])) {
-            $patternIds[$id] = 1;
-            //print $id . PHP_EOL;
-        }
-
         return $id;
-    }
-
-    public function getPatternIds()
-    {
-        return array_keys($this->patternIds);
     }
 
     /**

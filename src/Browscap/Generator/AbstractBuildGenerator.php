@@ -54,6 +54,8 @@ abstract class AbstractBuildGenerator
      */
     protected $writerCollection = null;
 
+    protected $collectPatternIds = false;
+
     /**
      * @param string $resourceFolder
      * @param string $buildFolder
@@ -84,6 +86,13 @@ abstract class AbstractBuildGenerator
     public function getLogger()
     {
         return $this->logger;
+    }
+
+    public function setCollectPatternIds($value)
+    {
+        $this->collectPatternIds = (bool) $value;
+
+        return $this;
     }
 
     /**
@@ -156,11 +165,6 @@ abstract class AbstractBuildGenerator
      * Entry point for generating builds for a specified version
      *
      * @param string $version
-     */
-    /**
-     * Entry point for generating builds for a specified version
-     *
-     * @param string $version
      *
      * @return \Browscap\Generator\AbstractBuildGenerator
      */
@@ -199,7 +203,8 @@ abstract class AbstractBuildGenerator
             $this->resourceFolder,
             $this->getLogger(),
             $this->getWriterCollection(),
-            $this->getCollectionCreator()
+            $this->getCollectionCreator(),
+            $this->collectPatternIds
         );
 
         return $this;
