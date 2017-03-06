@@ -40,7 +40,7 @@ install:
   - travis_retry composer update --optimize-autoloader --prefer-dist --prefer-stable --no-progress --no-interaction -vv $COMPOSER_FLAGS
 
 script:
-  - if [[ $COVERAGE == yes ]]; then vendor/bin/phpunit --exclude-group useragenttest --coverage-clover=coverage.clover; fi
+  - if [[ $COVERAGE == yes ]]; then vendor/bin/phpunit --exclude-group useragenttest --coverage-text --coverage-clover=coverage.clover; fi
   - if [[ $COVERAGE != yes && $COMPARE != yes ]]; then vendor/bin/phpunit --exclude-group useragenttest --no-coverage; fi
   - if [[ $COMPARE == yes ]]; then php -n vendor/bin/phpunit --no-coverage --colors --group useragenttest; fi
   - if [[ $EXECUTE_CS_CHECK == yes ]]; then php -n -d memory_limit=768M vendor/bin/phpcs; fi
