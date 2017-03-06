@@ -24,7 +24,7 @@ use Browscap\Data\PropertyHolder;
  * @category   BrowscapTest
  * @author     James Titcumb <james@asgrim.com>
  */
-class PropertyHolderTest extends \PHPUnit_Framework_TestCase
+class PropertyHolderTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @var \Browscap\Data\PropertyHolder

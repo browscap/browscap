@@ -24,7 +24,7 @@ use Browscap\Parser\IniParser;
  * @category   BrowscapTest
  * @author     James Titcumb <james@asgrim.com>
  */
-class IniParserTest extends \PHPUnit_Framework_TestCase
+class IniParserTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * tests creating the parser class

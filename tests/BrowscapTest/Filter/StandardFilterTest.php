@@ -24,7 +24,7 @@ use Browscap\Filter\StandardFilter;
  * @category   BrowscapTest
  * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
  */
-class StandardFilterTest extends \PHPUnit_Framework_TestCase
+class StandardFilterTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @var \Browscap\Filter\StandardFilter

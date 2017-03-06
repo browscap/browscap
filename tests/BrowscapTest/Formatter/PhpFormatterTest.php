@@ -24,7 +24,7 @@ use Browscap\Formatter\PhpFormatter;
  * @category   BrowscapTest
  * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
  */
-class PhpFormatterTest extends \PHPUnit_Framework_TestCase
+class PhpFormatterTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @var \Browscap\Formatter\PhpFormatter

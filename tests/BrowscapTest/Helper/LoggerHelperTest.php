@@ -25,7 +25,7 @@ use Symfony\Component\Console\Output\NullOutput;
  * @category   BrowscapTest
  * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
  */
-class LoggerHelperTest extends \PHPUnit_Framework_TestCase
+class LoggerHelperTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * tests creating a logger instance

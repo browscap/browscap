@@ -26,7 +26,7 @@ use Monolog\Logger;
  * @category   BrowscapTest
  * @author     James Titcumb <james@asgrim.com>
  */
-class CollectionCreatorTest extends \PHPUnit_Framework_TestCase
+class CollectionCreatorTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @var \Psr\Log\LoggerInterface

@@ -25,7 +25,7 @@ use Symfony\Component\Console\Application;
  * @category   BrowscapTest
  * @author     James Titcumb <james@asgrim.com>
  */
-class BrowscapTest extends \PHPUnit_Framework_TestCase
+class BrowscapTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @param \Symfony\Component\Console\Application $app

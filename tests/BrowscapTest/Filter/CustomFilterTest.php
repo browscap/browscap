@@ -24,7 +24,7 @@ use Browscap\Filter\CustomFilter;
  * @category   BrowscapTest
  * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
  */
-class CustomFilterTest extends \PHPUnit_Framework_TestCase
+class CustomFilterTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @var \Browscap\Filter\CustomFilter

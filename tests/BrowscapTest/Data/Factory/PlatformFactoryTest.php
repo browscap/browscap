@@ -24,7 +24,7 @@ use Browscap\Data\Factory\PlatformFactory;
  * @category   BrowscapTest
  * @author     James Titcumb <james@asgrim.com>
  */
-class PlatformFactoryTest extends \PHPUnit_Framework_TestCase
+class PlatformFactoryTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @var \Browscap\Data\Factory\PlatformFactory

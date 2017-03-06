@@ -24,7 +24,7 @@ use Browscap\Filter\FullFilter;
  * @category   BrowscapTest
  * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
  */
-class FullFilterTest extends \PHPUnit_Framework_TestCase
+class FullFilterTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @var \Browscap\Filter\FullFilter

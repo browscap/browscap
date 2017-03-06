@@ -24,7 +24,7 @@ use Browscap\Formatter\AspFormatter;
  * @category   BrowscapTest
  * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
  */
-class AspFormatterTest extends \PHPUnit_Framework_TestCase
+class AspFormatterTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @var \Browscap\Formatter\AspFormatter

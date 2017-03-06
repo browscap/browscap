@@ -25,7 +25,7 @@ use org\bovigo\vfs\vfsStream;
  * @category   BrowscapTest
  * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
  */
-class JsonWriterTest extends \PHPUnit_Framework_TestCase
+class JsonWriterTest extends \PHPUnit\Framework\TestCase
 {
     const STORAGE_DIR = 'storage';
 

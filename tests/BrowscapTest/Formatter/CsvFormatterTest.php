@@ -24,7 +24,7 @@ use Browscap\Formatter\CsvFormatter;
  * @category   BrowscapTest
  * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
  */
-class CsvFormatterTest extends \PHPUnit_Framework_TestCase
+class CsvFormatterTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @var \Browscap\Formatter\CsvFormatter
