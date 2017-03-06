@@ -1,0 +1,47 @@
+{
+  "division": "RedFlagDeals Mobile App",
+  "sortIndex": 1660,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "RedFlagDeals Mobile App",
+      "platform": "Android",
+      "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "RedFlagDeals Mobile App",
+        "Browser": "RedFlagDeals Mobile App",
+        "Browser_Maker": "Yellow Pages Digital & Media Solutions Limited",
+        "Browser_Type": "Application",
+        "Alpha": "false",
+        "Beta": "false",
+        "Frames": "false",
+        "IFrames": "false",
+        "Tables": "false",
+        "Cookies": "false",
+        "JavaScript": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false"
+      },
+      "children": [
+        {
+          "match": "RedFlagDealsApp/* (#PLATFORM##DEVICE# Build/*) AppleWebKit/* (*KHTML*like*Gecko*) Version/* Safari/*",
+          "devices": {
+            "Arc": "Kobo Arc"
+          },
+          "platforms": [
+            "Android_4_1"
+          ]
+        },
+        {
+          "match": "RedFlagDealsApp/* (#PLATFORM#) AppleWebKit/* (*KHTML*like*Gecko*) Version/* Safari/*",
+          "platforms": [
+            "Android_4_1", "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}
