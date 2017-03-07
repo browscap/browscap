@@ -6,12 +6,12 @@
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "UC Browser #MAJORVER#.#MINORVER#",
+      "userAgent": "UC Browser #MAJORVER#.#MINORVER# for Android",
       "platform": "Android",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "UC Browser #MAJORVER#.#MINORVER#",
+        "Comment": "UC Browser #MAJORVER#.#MINORVER# for Android",
         "Browser": "UC Browser",
         "Browser_Type": "Browser",
         "Browser_Maker": "UCWeb Inc.",
@@ -61,10 +61,7 @@
           "engine": "U2",
           "platforms": [
             "Android_E_2_1", "Android_E_2_2", "Android_E_2_3", "Android_E_4_0", "Android_E_4_1", "Android_E_4_2", "Android_E_4_3", "Android_E_4_4",
-            "Android_E",
-            "iOS_D_5_0", "iOS_D_5_1", "iOS_D_6_0", "iOS_D_6_1", "iOS_D_7_0", "iOS_D_7_1", "iOS_D_8_0",
-            "WinPhone7_C", "WinPhone8_B",
-            "SymbianOS_B"
+            "Android_E"
           ]
         },
         {
@@ -79,22 +76,6 @@
           "engine": "U2",
           "platforms": [
             "Android"
-          ]
-        },
-        {
-          "match": "UCWEB/*(Java*) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
-          "engine": "U2",
-          "device": "general Mobile Device",
-          "platforms": [
-            "JAVA"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0*(iPad#PLATFORM#) applewebkit* (*khtml*like*gecko*) UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
-          "engine": "U3",
-          "device": "iPad",
-          "platforms": [
-            "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_0"
           ]
         },
         {
@@ -117,6 +98,89 @@
           "engine": "WebKit",
           "platforms": [
             "Android_4_4"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "UC Browser #MAJORVER#.#MINORVER# for iOS",
+      "platform": "iOS",
+      "device": "general Mobile Device (Apple)",
+      "engine": "U3",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "UC Browser #MAJORVER#.#MINORVER# for iOS",
+        "Browser": "UC Browser",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "UCWeb Inc.",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
+          "engine": "U2",
+          "platforms": [
+            "iOS_D_5_0", "iOS_D_5_1", "iOS_D_6_0", "iOS_D_6_1", "iOS_D_7_0", "iOS_D_7_1", "iOS_D_8_0", "iOS_D"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0*(iPad#PLATFORM#) applewebkit* (*khtml*like*gecko*) UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
+          "engine": "U3",
+          "device": "iPad",
+          "platforms": [
+            "iOS_C_10_2", "iOS_C_10_1", "iOS_C_10_0",
+            "iOS_C_9_3", "iOS_C_9_2", "iOS_C_9_1", "iOS_C_9_0",
+            "iOS_C_8_4", "iOS_C_8_3", "iOS_C_8_2", "iOS_C_8_1", "iOS_C_8_0",
+            "iOS_C_7_1", "iOS_C_7_0", "iOS_C"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "UC Browser #MAJORVER#.#MINORVER#",
+      "platform": "Android",
+      "device": "general Mobile Phone (Touch)",
+      "engine": "U2",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "UC Browser #MAJORVER#.#MINORVER#",
+        "Browser": "UC Browser",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "UCWeb Inc.",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
+          "device": "general Mobile Phone (Touch)",
+          "engine": "U2",
+          "platforms": [
+            "WinPhone7_C", "WinPhone8_B",
+            "SymbianOS_B"
+          ]
+        },
+        {
+          "match": "UCWEB/*(Java*) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
+          "engine": "U2",
+          "device": "general Mobile Device",
+          "platforms": [
+            "JAVA"
           ]
         }
       ]
