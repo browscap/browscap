@@ -56,6 +56,9 @@ class UserAgentsTest extends \PHPUnit\Framework\TestCase
      */
     private static $propertyHolder = null;
 
+    /**
+     * @var array
+     */
     private static $coveredPatterns = [];
 
     /**
@@ -113,6 +116,10 @@ class UserAgentsTest extends \PHPUnit\Framework\TestCase
         self::$propertyHolder = new PropertyHolder();
     }
 
+    /**
+     * Runs after the entire test suite is run.  Generates a coverage report for JSON resource files if
+     * the $coveredPatterns array isn't empty
+     */
     public static function tearDownAfterClass()
     {
         if (!empty(self::$coveredPatterns)) {

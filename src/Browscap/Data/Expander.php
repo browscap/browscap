@@ -42,9 +42,10 @@ class Expander
      */
     private $logger = null;
 
+    /**
+     * @var array $patternId
+     */
     private $patternId = [];
-
-    private $collectPatternIds = false;
 
     /**
      * Set the data collection
@@ -55,13 +56,6 @@ class Expander
     public function setDataCollection(DataCollection $collection)
     {
         $this->collection = $collection;
-
-        return $this;
-    }
-
-    public function setCollectPatternIds($value)
-    {
-        $this->collectPatternIds = (bool) $value;
 
         return $this;
     }
@@ -100,6 +94,9 @@ class Expander
         return $this->expandProperties($allInputDivisions);
     }
 
+    /**
+     * Resets the pattern id
+     */
     private function resetPatternId()
     {
         $this->patternId = [
@@ -351,9 +348,7 @@ class Expander
                     $properties = array_merge($properties, $childProperties);
                 }
 
-                if ($this->collectPatternIds === true) {
-                    $properties['PatternId'] = $this->getPatternId();
-                }
+                $properties['PatternId'] = $this->getPatternId();
 
                 $output[$uaBase] = $properties;
             }
@@ -403,9 +398,7 @@ class Expander
             $uaBase                      = str_replace('#PLATFORM#', '', $uaDataChild['match']);
             $this->patternId['platform'] = '';
 
-            if ($this->collectPatternIds === true) {
-                $properties['PatternId'] = $this->getPatternId();
-            }
+            $properties['PatternId'] = $this->getPatternId();
 
             $output[$uaBase] = $properties;
         }
@@ -413,6 +406,11 @@ class Expander
         return $output;
     }
 
+    /**
+     * Builds and returns the string pattern id from the array components
+     *
+     * @return string
+     */
     private function getPatternId()
     {
         $id = sprintf(

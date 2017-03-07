@@ -68,8 +68,7 @@ class BuildHelper
         $expander = new Expander();
         $expander
             ->setDataCollection($collection)
-            ->setLogger($logger)
-            ->setCollectPatternIds($collectPatternIds);
+            ->setLogger($logger);
 
         $logger->info('finished initialisation of writers');
 
@@ -165,6 +164,10 @@ class BuildHelper
                     }
 
                     $section = $sectionsWithVersion[$sectionName];
+
+                    if (!$collectPatternIds) {
+                        unset($section['PatternId']);
+                    }
 
                     $writerCollection->setSilentSection($section);
 

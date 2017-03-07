@@ -54,6 +54,9 @@ abstract class AbstractBuildGenerator
      */
     protected $writerCollection = null;
 
+    /**
+     * @var bool
+     */
     protected $collectPatternIds = false;
 
     /**
@@ -88,6 +91,13 @@ abstract class AbstractBuildGenerator
         return $this->logger;
     }
 
+    /**
+     * Sets the flag to collect pattern ids during this build
+     *
+     * @param bool $value
+     *
+     * @return \Browscap\Generator\AbstractBuildGenerator
+     */
     public function setCollectPatternIds($value)
     {
         $this->collectPatternIds = (bool) $value;
