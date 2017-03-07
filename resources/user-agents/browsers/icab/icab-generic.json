@@ -50,7 +50,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML,*like Gecko*) iCab/*Safari/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) iCab/*Safari/*",
           "platforms": [
             "OSX"
           ]

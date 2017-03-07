@@ -108,7 +108,7 @@
           }
         },
         {
-          "match": "Mozilla/5.0 (Macintosh; ?; PPC Mac OS X;*) AppleWebKit/* (*) HistoryHound/*",
+          "match": "Mozilla/5.0 (Macintosh; ?; PPC Mac OS X;*) applewebkit* (*) HistoryHound/*",
           "properties": {
             "Browser": "HistoryHound"
           }

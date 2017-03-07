@@ -32,7 +32,7 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0*(#PLATFORM#Trident/7.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#) like Android *; compatible) like iPhone OS * Mac OS X WebKit/537.36 (KHTML* like Gecko) Chrome*Safari*",
+          "match": "Mozilla/5.0*(#PLATFORM#Trident/7.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#) like Android *; compatible) like iPhone OS * Mac OS X WebKit/537.36 (*khtml*like*gecko*) Chrome*Safari*",
           "platforms": [
             "WinPhone8.1"
           ]
@@ -352,7 +352,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0*(#PLATFORM#Trident/8.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#) like Android *; compatible) like iPhone OS * Mac OS X WebKit/537.36 (KHTML* like Gecko) Chrome*Safari*",
+          "match": "Mozilla/5.0*(#PLATFORM#Trident/8.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#) like Android *; compatible) like iPhone OS * Mac OS X WebKit/537.36 (*khtml*like*gecko*) Chrome*Safari*",
           "engine": "Trident_8",
           "platforms": [
             "WinPhone8.1"

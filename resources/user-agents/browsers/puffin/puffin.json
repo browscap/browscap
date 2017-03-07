@@ -24,7 +24,7 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML* like Gecko) Chrome/* Safari/* Puffin/* Mobile",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* Puffin/* Mobile",
           "platforms": [
             "Android",
             "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
@@ -34,13 +34,13 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML* like Gecko) *Chrome/* Safari/* Puffin/*AP*",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/*AP*",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android"
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML* like Gecko) *Chrome/* Safari/* Puffin/*AT*",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/*AT*",
           "device": "general Tablet",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android"

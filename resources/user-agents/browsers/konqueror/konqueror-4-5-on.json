@@ -74,7 +74,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML, like Gecko) konqueror/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) konqueror/#MAJORVER#.#MINORVER#*",
           "engine": "WebKit",
           "device": "Linux Desktop",
           "platforms": [

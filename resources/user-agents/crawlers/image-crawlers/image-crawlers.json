@@ -87,7 +87,7 @@
           }
         },
         {
-          "match": "Mozilla/5.0 (Macintosh; U; *Mac OS X; *) AppleWebKit/* (*) Pandora/2.*",
+          "match": "Mozilla/5.0 (Macintosh; U; *Mac OS X; *) applewebkit* (*) Pandora/2.*",
           "properties": {
             "Browser": "Pandora"
           }

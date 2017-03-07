@@ -45,7 +45,7 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (PlayStation Vita*) AppleWebKit/*",
+          "match": "Mozilla/5.0 (PlayStation Vita*) applewebkit*",
           "engine": "WebKit"
         },
         {

@@ -77,7 +77,7 @@
           }
         },
         {
-          "match": "Fast Crawler v X(compatible; Konqueror/*; FreeBSD) (KHTML,*like Gecko*)"
+          "match": "Fast Crawler v X(compatible; Konqueror/*; FreeBSD) (*khtml*like*gecko*)"
         }
       ]
     }

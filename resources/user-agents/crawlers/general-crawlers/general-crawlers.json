@@ -333,7 +333,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML* like Gecko, Safari/*) ADM/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko,*safari*) ADM/*",
           "device": "Macintosh",
           "properties": {
             "Browser": "Adobe Dialog Manager"
@@ -976,10 +976,10 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (X11; Linux*) AppleWebKit/* (KHTML,*like Gecko*)*Chrome/13.0*Safari/* botname/cpan@dataminr.com*"
+          "match": "Mozilla/5.0 (X11; Linux*) applewebkit* (*khtml*like*gecko*)*Chrome/13.0*Safari/* botname/cpan@dataminr.com*"
         },
         {
-          "match": "Mozilla/5.0 (*Linux*) AppleWebKit/* (KHTML* like Gecko)*Chrome/13.0*Safari/* botname/cpan@dataminr.com*"
+          "match": "Mozilla/5.0 (*Linux*) applewebkit* (*khtml*like*gecko*)*Chrome/13.0*Safari/* botname/cpan@dataminr.com*"
         },
         {
           "match": "ArtfaceBot (*compatible*;*MSIE 6.0; Mozilla/4.0; Windows NT*)",
@@ -1005,14 +1005,14 @@
           }
         },
         {
-          "match": "Mozilla/5.0 (Macintosh; *Mac OS X *) AppleWebKit/* (KHTML,*like Gecko*) Version/*Safari/* Powered by Spider-Pig*",
+          "match": "Mozilla/5.0 (Macintosh; *Mac OS X *) applewebkit* (*khtml*like*gecko*) Version/*Safari/* Powered by Spider-Pig*",
           "properties": {
             "Browser": "Spider-Pig",
             "Browser_Maker": "www.tinfoilsecurity.com"
           }
         },
         {
-          "match": "Mozilla/5.0 (*Mac OS X*) AppleWebKit/* (KHTML,*like Gecko*) Version/*Safari/* Powered by Spider-Pig*",
+          "match": "Mozilla/5.0 (*Mac OS X*) applewebkit* (*khtml*like*gecko*) Version/*Safari/* Powered by Spider-Pig*",
           "properties": {
             "Browser": "Spider-Pig",
             "Browser_Maker": "www.tinfoilsecurity.com"
