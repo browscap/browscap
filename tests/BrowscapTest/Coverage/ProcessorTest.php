@@ -17,8 +17,6 @@
 namespace BrowscapTest\Coverage;
 
 use Browscap\Coverage\Processor;
-use Monolog\Handler\NullHandler;
-use Monolog\Logger;
 
 /**
  * Class ExpanderTest
@@ -126,13 +124,13 @@ class ProcessorTest extends \PHPUnit\Framework\TestCase
                     'u0::c0::d::pPlatform_2',
                     'u0::c1::ddevice1::pPlatform_1',
                     'u0::c1::ddevice2::pPlatform_2',
-                    'u1::c0::d::p'
+                    'u1::c0::d::p',
                 ],
                 [
                     's' => 22,
                     'b' => 6,
                     'f' => 5,
-                ]
+                ],
             ],
         ];
     }
@@ -176,7 +174,7 @@ class ProcessorTest extends \PHPUnit\Framework\TestCase
             [
                 'abc.json' => ['u0::c0::d::p', 'u0::c1::d::p'],
                 'def.json' => ['u0::c1::d::p'],
-                'ghi.json' => ['u0::c1::d::p']
+                'ghi.json' => ['u0::c1::d::p'],
             ],
             $this->object->getCoveredPatternIds()
         );

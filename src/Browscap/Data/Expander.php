@@ -43,7 +43,7 @@ class Expander
     private $logger = null;
 
     /**
-     * @var array $patternId
+     * @var array
      */
     private $patternId = [];
 

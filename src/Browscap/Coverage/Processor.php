@@ -38,32 +38,32 @@ class Processor
      * @var array
      */
     private $symbols = [
-        'error'                 => 2,
-        'JSONString'            => 3,
-        'STRING'                => 4,
-        'JSONNumber'            => 5,
-        'NUMBER'                => 6,
-        'JSONNullLiteral'       => 7,
-        'NULL'                  => 8,
-        'JSONBooleanLiteral'    => 9,
-        'TRUE'                  => 10,
-        'FALSE'                 => 11,
-        'JSONText'              => 12,
-        'JSONValue'             => 13,
-        'EOF'                   => 14,
-        'JSONObject'            => 15,
-        'JSONArray'             => 16,
-        '{'                     => 17,
-        '}'                     => 18,
-        'JSONMemberList'        => 19,
-        'JSONMember'            => 20,
-        ':'                     => 21,
-        ','                     => 22,
-        '['                     => 23,
-        ']'                     => 24,
-        'JSONElementList'       => 25,
-        '$accept'               => 0,
-        '$end'                  => 1,
+        'error' => 2,
+        'JSONString' => 3,
+        'STRING' => 4,
+        'JSONNumber' => 5,
+        'NUMBER' => 6,
+        'JSONNullLiteral' => 7,
+        'NULL' => 8,
+        'JSONBooleanLiteral' => 9,
+        'TRUE' => 10,
+        'FALSE' => 11,
+        'JSONText' => 12,
+        'JSONValue' => 13,
+        'EOF' => 14,
+        'JSONObject' => 15,
+        'JSONArray' => 16,
+        '{' => 17,
+        '}' => 18,
+        'JSONMemberList' => 19,
+        'JSONMember' => 20,
+        ':' => 21,
+        ',' => 22,
+        '[' => 23,
+        ']' => 24,
+        'JSONElementList' => 25,
+        '$accept' => 0,
+        '$end' => 1,
     ];
 
     /**
@@ -167,9 +167,9 @@ class Processor
     /**
      * Process an individual file for coverage data using covered ids
      *
-     * @param string $file
-     * @param string $contents
-     * @param array $coveredIds
+     * @param  string $file
+     * @param  string $contents
+     * @param  array  $coveredIds
      * @return array
      */
     public function processFile($file, $contents, array $coveredIds)
@@ -191,9 +191,9 @@ class Processor
         $c = null;
         $p = '';
 
-        $ignores = [];
-        $sectionBranches = [];
-        $waitForColon = false;
+        $ignores              = [];
+        $sectionBranches      = [];
+        $waitForColon         = false;
         $collectMatchPosition = false;
 
         $state = '';
@@ -202,36 +202,36 @@ class Processor
         $lexer->setInput($contents);
 
         do {
-            $code = $lexer->lex();
-            $type = $this->symbolLookup[$code];
+            $code    = $lexer->lex();
+            $type    = $this->symbolLookup[$code];
             $content = $lexer->yytext;
-            $line = $lines[$lexer->yylineno];
+            $line    = $lines[$lexer->yylineno];
 
             switch ($state) {
                 case '':
-                    if ($type == '{') {
+                    if ($type === '{') {
                         $state = 'inDivision';
                         continue;
                     }
                     break;
                 case 'inDivision':
-                    if ($type == 'STRING' && $content == 'userAgents') {
+                    if ($type === 'STRING' && $content === 'userAgents') {
                         $state = 'inUaGroup';
                         continue;
                     }
                     break;
                 case 'inUaGroup':
-                    if ($type == '{') {
+                    if ($type === '{') {
                         $state = 'inEachUa';
                         if ($u === null) {
                             $u = 0;
                         } else {
-                            $u++;
+                            ++$u;
                         }
                     }
-                    if ($type == '}') {
+                    if ($type === '}') {
                         $state = 'inDivision';
-                        $u = null;
+                        $u     = null;
                     }
                     break;
                 case 'inEachUa':
@@ -239,32 +239,32 @@ class Processor
                         $ignores[$state]['}'] = 0;
                     }
 
-                    if ($type == '}' && $ignores[$state]['}'] == 0) {
+                    if ($type === '}' && $ignores[$state]['}'] === 0) {
                         $ignores[$state]['}'] = 0;
-                        $state = 'inUaGroup';
+                        $state                = 'inUaGroup';
                         continue;
                     }
-                    if ($type == '{') {
-                        $ignores[$state]['}']++;
+                    if ($type === '{') {
+                        ++$ignores[$state]['}'];
                     }
-                    if ($type == '}') {
-                        $ignores[$state]['}']--;
+                    if ($type === '}') {
+                        --$ignores[$state]['}'];
                     }
-                    if ($type == 'STRING' && $content == 'children') {
+                    if ($type === 'STRING' && $content === 'children') {
                         $state = 'inChildGroup';
                     }
                     break;
                 case 'inChildGroup':
-                    if ($type == '{') {
+                    if ($type === '{') {
                         $state = 'inEachChild';
                         if ($c === null) {
                             $c = 0;
                         } else {
-                            $c++;
+                            ++$c;
                         }
-                    } elseif ($type == ']') {
+                    } elseif ($type === ']') {
                         $state = 'inEachUa';
-                        $c = null;
+                        $c     = null;
                     }
                     break;
                 case 'inEachChild':
@@ -272,11 +272,11 @@ class Processor
                         $ignores[$state]['}'] = 0;
                     }
 
-                    if ($type == '}' && $ignores[$state]['}'] == 0) {
+                    if ($type === '}' && $ignores[$state]['}'] === 0) {
                         $ignores[$state]['}'] = 0;
-                        $state = 'inChildGroup';
+                        $state                = 'inChildGroup';
 
-                        if ($collectFunctionEnd == true) {
+                        if ($collectFunctionEnd === true) {
                             $coverage['fnMap'][] = [
                                 'name' => '(anonymous_' . $this->funcCount . ')',
                                 'decl' => $collectFunctionDecl,
@@ -285,20 +285,20 @@ class Processor
                                     'end' => [
                                         'line' => $lexer->yylineno + 1,
                                         'column' => strpos($line, $content) + strlen($content),
-                                    ]
+                                    ],
                                 ],
                             ];
                             $functionCoverage = $this->getCoverageCount('u' . $u . '::c' . $c . '::d::p', $coveredIds);
-                            $coverage['f'][] = $functionCoverage;
-                            $this->funcCount++;
+                            $coverage['f'][]  = $functionCoverage;
+                            ++$this->funcCount;
                             $coverage['statementMap'][] = [
                                 'start' => $collectFunctionDecl['start'],
                                 'end' => [
                                     'line' => $lexer->yylineno + 1,
                                     'column' => strpos($line, $content) + strlen($content),
-                                ]
+                                ],
                             ];
-                            $coverage['s'][] = $functionCoverage;
+                            $coverage['s'][]            = $functionCoverage;
                             $coverage['statementMap'][] = [
                                 'start' => $collectFunctionDecl['start'],
                                 'end' => $collectFunctionDecl['end'],
@@ -311,47 +311,47 @@ class Processor
                         continue;
                     }
 
-                    if ($type == '{') {
-                        $ignores[$state]['}']++;
+                    if ($type === '{') {
+                        ++$ignores[$state]['}'];
                     }
-                    if ($type == '}') {
-                        $ignores[$state]['}']--;
+                    if ($type === '}') {
+                        --$ignores[$state]['}'];
                     }
 
-                    if ($type == 'STRING' && $content == 'platforms') {
-                        $state = 'inPlatforms';
+                    if ($type === 'STRING' && $content === 'platforms') {
+                        $state                   = 'inPlatforms';
                         $platformDefinitionStart = [
                             'line' => $lexer->yylineno + 1,
-                            'column' => strpos($line, '"' . $content . '"')
+                            'column' => strpos($line, '"' . $content . '"'),
                         ];
-                    } elseif ($type == 'STRING' && $content == 'devices') {
-                        $state = 'inDevices';
-                        $waitForColon = false;
+                    } elseif ($type === 'STRING' && $content === 'devices') {
+                        $state                 = 'inDevices';
+                        $waitForColon          = false;
                         $deviceDefinitionStart = [
                             'line' => $lexer->yylineno + 1,
-                            'column' => strpos($line, '"' . $content . '"')
+                            'column' => strpos($line, '"' . $content . '"'),
                         ];
-                    } elseif ($type == 'STRING' && $content == 'match') {
+                    } elseif ($type === 'STRING' && $content === 'match') {
                         $collectMatchPosition = true;
-                    } elseif ($type == 'STRING' && $collectMatchPosition) {
+                    } elseif ($type === 'STRING' && $collectMatchPosition) {
                         $collectMatchPosition = false;
-                        $collectFunctionEnd = true;
-                        $collectFunctionDecl = [
+                        $collectFunctionEnd   = true;
+                        $collectFunctionDecl  = [
                             'start' => [
                                 'line' => $lexer->yylineno + 1,
-                                'column' => strpos($line, '"' . $content . '"')
+                                'column' => strpos($line, '"' . $content . '"'),
                             ],
                             'end' => [
                                 'line' => $lexer->yylineno + 1,
-                                'column' => strpos($line, '"' . $content . '"') + strlen($content) + 2
+                                'column' => strpos($line, '"' . $content . '"') + strlen($content) + 2,
                             ],
                         ];
                     }
                     break;
                 case 'inPlatforms':
-                    if ($type == 'STRING') {
-                        $p = $content;
-                        $id = 'u' . $u . '::c' . $c . '::d::p' . $p;
+                    if ($type === 'STRING') {
+                        $p          = $content;
+                        $id         = 'u' . $u . '::c' . $c . '::d::p' . $p;
                         $coverCount = $this->getCoverageCount($id, $coveredIds);
 
                         $sectionBranches[] = [
@@ -367,9 +367,9 @@ class Processor
                         ];
                     }
 
-                    if ($type == ']') {
-                        $state = 'inEachChild';
-                        $p = '';
+                    if ($type === ']') {
+                        $state     = 'inEachChild';
+                        $p         = '';
                         $locations = [];
 
                         foreach ($sectionBranches as $branch) {
@@ -383,7 +383,7 @@ class Processor
                         ];
                         $coverage['statementMap'][] = [
                             'start' => $platformDefinitionStart,
-                            'end' => ['line' => $lexer->yylineno + 1, 'column' => strpos($line, ']') + 1]
+                            'end' => ['line' => $lexer->yylineno + 1, 'column' => strpos($line, ']') + 1],
                         ];
                         $coverage['s'][] = array_sum(array_column($locations, 'coverCount'));
 
@@ -395,7 +395,7 @@ class Processor
                                 'end' => $location['end'],
                             ];
                             $coverage['s'][] = $location['coverCount'];
-                            $coverArray[] = $location['coverCount'];
+                            $coverArray[]    = $location['coverCount'];
                         }
 
                         $coverage['b'][] = $coverArray;
@@ -410,12 +410,12 @@ class Processor
                     }
                     break;
                 case 'inDevices':
-                    if ($type == 'STRING' && $waitForColon == false) {
-                        $deviceKey = $content;
+                    if ($type === 'STRING' && $waitForColon === false) {
+                        $deviceKey    = $content;
                         $waitForColon = true;
                     }
 
-                    if ($type == ':' && $waitForColon == true) {
+                    if ($type === ':' && $waitForColon === true) {
                         $d = $deviceKey;
 
                         $id = 'u' . $u . '::c' . $c . '::d' . $d . '::p';
@@ -435,17 +435,17 @@ class Processor
                         ];
 
                         $waitForColon = false;
-                        $deviceKey = '';
+                        $deviceKey    = '';
                     }
 
-                    if ($type == ',' && $waitForColon == true) {
+                    if ($type === ',' && $waitForColon === true) {
                         $waitForColon = false;
-                        $deviceKey = '';
+                        $deviceKey    = '';
                     }
 
-                    if ($type == '}') {
-                        $state = 'inEachChild';
-                        $d = '';
+                    if ($type === '}') {
+                        $state     = 'inEachChild';
+                        $d         = '';
                         $locations = [];
 
                         foreach ($sectionBranches as $branch) {
@@ -460,7 +460,7 @@ class Processor
                         // Log the entire branch statement as a statement
                         $coverage['statementMap'][] = [
                             'start' => $deviceDefinitionStart,
-                            'end' => ['line' => $lexer->yylineno + 1, 'column' => strpos($line, '}') + 1]
+                            'end' => ['line' => $lexer->yylineno + 1, 'column' => strpos($line, '}') + 1],
                         ];
                         $coverage['s'][] = array_sum(array_column($locations, 'coverCount'));
 
@@ -472,7 +472,7 @@ class Processor
                                 'end' => $location['end'],
                             ];
                             $coverage['s'][] = $location['coverCount'];
-                            $coverArray[] = $location['coverCount'];
+                            $coverArray[]    = $location['coverCount'];
                         }
 
                         $coverage['b'][] = $coverArray;
@@ -491,9 +491,9 @@ class Processor
 
         // This re-indexes the arrays to be 1 based instead of 0, which will make them be JSON objects rather
         // than arrays, which is how they're expected to be in the coverage JSON file
-        $coverage['fnMap'] = array_filter(array_merge([0], $coverage['fnMap']));
+        $coverage['fnMap']        = array_filter(array_merge([0], $coverage['fnMap']));
         $coverage['statementMap'] = array_filter(array_merge([0], $coverage['statementMap']));
-        $coverage['branchMap'] = array_filter(array_merge([0], $coverage['branchMap']));
+        $coverage['branchMap']    = array_filter(array_merge([0], $coverage['branchMap']));
         array_unshift($coverage['b'], '');
         unset($coverage['b'][0]);
         array_unshift($coverage['f'], '');
@@ -507,7 +507,7 @@ class Processor
     /**
      * Groups pattern ids by their filename prefix
      *
-     * @param array $ids
+     * @param  array $ids
      * @return array
      */
     private function groupIdsByFile(array $ids)
@@ -530,13 +530,13 @@ class Processor
     /**
      * Counts number of times given pattern is covered by test patterns
      *
-     * @param string $id
-     * @param array $covered
+     * @param  string $id
+     * @param  array  $covered
      * @return int
      */
     private function getCoverageCount($id, array $covered)
     {
-        $id = str_replace('\/', '/', $id);
+        $id                  = str_replace('\/', '/', $id);
         list($u, $c, $d, $p) = explode('::', $id);
 
         $u = substr($u, 1);
@@ -546,10 +546,10 @@ class Processor
 
         $count = 0;
 
-        if (strlen($p) == 0) {
+        if (strlen($p) === 0) {
             $p = '.*?';
         }
-        if (strlen($d) == 0) {
+        if (strlen($d) === 0) {
             $d = '.*?';
         }
 
@@ -560,7 +560,7 @@ class Processor
 
         foreach ($covered as $patternId) {
             if (preg_match($regex, $patternId)) {
-                $count++;
+                ++$count;
             }
         }
 

@@ -474,7 +474,7 @@ class ExpanderTest extends \PHPUnit\Framework\TestCase
                         'properties' => ['Browser' => 'xyza'],
                         'platforms' => [
                             'Platform_1',
-                        ]
+                        ],
                     ],
                 ],
             ],
