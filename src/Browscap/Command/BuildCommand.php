@@ -57,7 +57,8 @@ class BuildCommand extends Command
             ->setDescription('The JSON source files and builds the INI files')
             ->addArgument('version', InputArgument::REQUIRED, 'Version number to apply')
             ->addOption('output', null, InputOption::VALUE_REQUIRED, 'Where to output the build files to', $defaultBuildFolder)
-            ->addOption('resources', null, InputOption::VALUE_REQUIRED, 'Where the resource files are located', $defaultResourceFolder);
+            ->addOption('resources', null, InputOption::VALUE_REQUIRED, 'Where the resource files are located', $defaultResourceFolder)
+            ->addOption('coverage', null, InputOption::VALUE_NONE, 'Collect and build with pattern ids useful for coverage');
     }
 
     /**
@@ -97,6 +98,10 @@ class BuildCommand extends Command
             ->setLogger($logger)
             ->setCollectionCreator(new CollectionCreator())
             ->setWriterCollection($writerCollection);
+
+        if ($input->getOption('coverage') !== false) {
+            $buildGenerator->setCollectPatternIds(true);
+        }
 
         $buildGenerator->run($input->getArgument('version'));
 

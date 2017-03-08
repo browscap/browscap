@@ -248,7 +248,6 @@ class PropertyHolder
             'isFake' => 1,
             'isAnonymized' => 1,
             'isModified' => 1,
-            'PatternId' => 1,
         ];
 
         if (isset($outputProperties[$propertyName])) {
@@ -259,6 +258,12 @@ class PropertyHolder
             $additionalProperties = ['PropertyName', 'MasterParent', 'LiteMode'];
 
             if (in_array($propertyName, $additionalProperties)) {
+                return true;
+            }
+        }
+
+        if ($writer->getType() === 'ini') {
+            if ($propertyName === 'PatternId') {
                 return true;
             }
         }
