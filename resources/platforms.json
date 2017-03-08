@@ -2596,6 +2596,15 @@
         "Platform_Version": "1.0"
       }
     },
+    "Android_1_0_B": {
+      "match": "*Linux*Android?v1.0*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "1.0"
+      }
+    },
     "Android_1_1": {
       "match": "*Linux*Android?1.1*",
       "lite": false,

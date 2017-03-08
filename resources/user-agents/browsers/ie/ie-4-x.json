@@ -1,7 +1,7 @@
 {
   "division": "IE #MAJORVER#.#MINORVER#",
-  "versions": [3, 2, "1.5", 1],
-  "sortIndex": 2770,
+  "versions": ["4.01", 4],
+  "sortIndex": 2769,
   "lite": false,
   "standard": true,
   "userAgents": [
@@ -31,7 +31,7 @@
       },
       "children": [
         {
-          "match": "Mozilla/* (compatible; MSIE #MAJORVER#.#MINORVER#*; #PLATFORM#",
+          "match": "Mozilla/4.0* (compatible; MSIE #MAJORVER#.#MINORVER#*; #PLATFORM#",
           "platforms": [
             "Win3.1_B", "Win3.11_B", "Win95_2", "Win98_2", "WinME", "NT3.1", "NT3.5", "NT4",
             "Win2000_64", "Win2000_3", "Win2000", "WinXPa_x64", "WinXPa_64", "WinXPa_32",

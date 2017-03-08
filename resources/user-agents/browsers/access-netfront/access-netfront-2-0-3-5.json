@@ -33,6 +33,28 @@
           ]
         },
         {
+          "match": "NetFront/#MAJORVER#.#MINORVER#*(#PLATFORM##DEVICE#*",
+          "devices": {
+            "PLS-M350": "Samsung PLS-M350",
+            "Sprint M350": "Samsung PLS-M350",
+            "Sprint M380": "Samsung SPH-M380",
+            "Sprint M550": "Samsung SPH-M550",
+            "Sprint M560": "Samsung SPH-M560"
+          },
+          "platforms": [
+            "Brew_3_1"
+          ]
+        },
+        {
+          "match": "Mozilla/4.0 (MobilePhone */*NetFront/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "NetFront/#MAJORVER#.#MINORVER#*(#PLATFORM#",
+          "platforms": [
+            "Brew_3_1", "Brew"
+          ]
+        },
+        {
           "match": "Mozilla/4.0 (MobilePhone */*NetFront/#MAJORVER#.#MINORVER#*"
         },
         {

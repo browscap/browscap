@@ -1,6 +1,6 @@
 {
   "division": "FlyFlow #MAJORVER#.#MINORVER#",
-  "versions": ["3.1", 3, "2.5", "2.4", "2.3", "2.2", "1.4"],
+  "versions": ["3.1", 3, "2.5", "2.4", "2.3", "2.2", 2, "1.4", 1],
   "sortIndex": 1710,
   "lite": false,
   "standard": true,
@@ -42,19 +42,24 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#GT-I9100G Build/*) applewebkit* (*khtml*like*gecko*) FlyFlow/#MAJORVER#.#MINORVER#* Version/4.0 *Safari/*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) FlyFlow/#MAJORVER#.#MINORVER#* Version/4.0 *Safari/*",
           "engine": "WebKit",
-          "device": "Samsung GT-I9100G",
+          "devices": {
+            "GT-I9100G": "GT-I9100G",
+            "GT-I9300": "Samsung GT-I9300"
+          },
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1"
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#GT-I9300 Build/*) applewebkit* (*khtml*like*gecko*) FlyFlow/#MAJORVER#.#MINORVER#* Version/4.0 *Safari/*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) FlyFlow/#MAJORVER#.#MINORVER#* Version/4.0 *Safari/*",
           "engine": "WebKit",
-          "device": "Samsung GT-I9300",
+          "devices": {
+            "HUAWEI T8600": "Huawei T8600"
+          },
           "platforms": [
-            "Android_2_3", "Android_4_0", "Android_4_1"
+            "Android_2_2"
           ]
         },
         {
@@ -69,21 +74,21 @@
           "match": "Mozilla/5.0 (#PLATFORM#Build/*) applewebkit* (*khtml*like*gecko*) FlyFlow/#MAJORVER#.#MINORVER#* Version/4.0 *Safari/*",
           "engine": "WebKit",
           "platforms": [
-            "Android_2_3", "Android_4_0", "Android_4_1"
+            "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) FlyFlow/#MAJORVER#.#MINORVER#* Version/4.0 *Safari/* T5/*",
           "engine": "T5",
           "platforms": [
-            "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android"
+            "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) FlyFlow/#MAJORVER#.#MINORVER#* Version/4.0 *Safari/*",
           "engine": "WebKit",
           "platforms": [
-            "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android"
+            "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android"
           ]
         }
       ]
