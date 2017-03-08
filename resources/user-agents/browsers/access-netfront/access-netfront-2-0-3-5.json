@@ -46,9 +46,6 @@
           ]
         },
         {
-          "match": "Mozilla/4.0 (MobilePhone */*NetFront/#MAJORVER#.#MINORVER#*"
-        },
-        {
           "match": "NetFront/#MAJORVER#.#MINORVER#*(#PLATFORM#",
           "platforms": [
             "Brew_3_1", "Brew"

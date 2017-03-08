@@ -22,7 +22,7 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (Linux; U;*) applewebkit* (khtml*like gecko, Safari/*) Version/4.0 Kindle/3.0*",
+          "match": "Mozilla/5.0 (Linux; U;*) applewebkit* (*khtml*like*gecko,*safari*) Version/4.0 Kindle/3.0*",
           "properties": {
             "Version": "3.0",
             "MajorVer": "3",
@@ -30,7 +30,7 @@
           }
         },
         {
-          "match": "Mozilla/5.0 (Linux; U*) applewebkit* (khtml*like gecko, Safari/*Version/4.0 Kindle/3.0*",
+          "match": "Mozilla/5.0 (Linux; U*) applewebkit* (*khtml*like*gecko,*safari*Version/4.0 Kindle/3.0*",
           "properties": {
             "Version": "3.0",
             "MajorVer": "3"
