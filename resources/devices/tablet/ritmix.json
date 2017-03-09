@@ -1,0 +1,93 @@
+{
+    "Ritmix RMD-1025": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "RMD-1025",
+            "Device_Code_Name": "RMD-1025",
+            "Device_Maker": "Ritmix",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Ritmix",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Ritmix RMD-1028": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "RMD-1028",
+            "Device_Code_Name": "RMD-1028",
+            "Device_Maker": "Ritmix",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Ritmix",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Ritmix RMD-1040": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "RMD-1040",
+            "Device_Code_Name": "RMD-1040",
+            "Device_Maker": "Ritmix",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Ritmix",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Ritmix RMD-751": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "RMD-751",
+            "Device_Code_Name": "RMD-751",
+            "Device_Maker": "Ritmix",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Ritmix",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Ritmix RMD-753": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "RMD-753",
+            "Device_Code_Name": "RMD-753",
+            "Device_Maker": "Ritmix",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Ritmix",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Ritmix RMD-757": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "RMD-757",
+            "Device_Code_Name": "RMD-757",
+            "Device_Maker": "Ritmix",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Ritmix",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Ritmix RMD-855": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "RMD-855",
+            "Device_Code_Name": "RMD-855",
+            "Device_Maker": "Ritmix",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Ritmix",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    }
+}

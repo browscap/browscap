@@ -1,0 +1,28 @@
+{
+    "Axgio Neon N1": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "Neon N1",
+            "Device_Code_Name": "Neon N1",
+            "Device_Maker": "Axgio",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Axgio",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Axgio Wing W2": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "Wing W2",
+            "Device_Code_Name": "Wing W2",
+            "Device_Maker": "Axgio",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Axgio",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "Treelogic Gravis 77 QC 3G IPS GPS": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "Gravis 77 QC 3G IPS GPS",
+            "Device_Code_Name": "Gravis 77 QC 3G IPS GPS",
+            "Device_Maker": "Treelogic",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Treelogic",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "Etuline T880G": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "T880G",
+            "Device_Code_Name": "T880G",
+            "Device_Maker": "Etuline",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Etuline",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    }
+}

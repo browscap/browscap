@@ -1,0 +1,15 @@
+{
+    "AIS Iris 708": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "LAVA PRO 4.5",
+            "Device_Code_Name": "Iris 708",
+            "Device_Maker": "AIS",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "AIS",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

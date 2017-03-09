@@ -1,0 +1,15 @@
+{
+    "RoverPad Air A70": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "Air A70",
+            "Device_Code_Name": "Air A70",
+            "Device_Maker": "RoverPad",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "RoverPad",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    }
+}

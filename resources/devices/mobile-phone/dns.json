@@ -1,0 +1,145 @@
+{
+    "DNS S4004M": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "S4004M",
+            "Device_Code_Name": "S4004M",
+            "Device_Maker": "DNS",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "DNS",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "DNS S4005": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "S4005",
+            "Device_Code_Name": "S4005",
+            "Device_Maker": "DNS",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "DNS",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "DNS S4008": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "S4008",
+            "Device_Code_Name": "S4008",
+            "Device_Maker": "DNS",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "DNS",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "DNS S4501M": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "S4501M",
+            "Device_Code_Name": "S4501M",
+            "Device_Maker": "DNS",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "DNS",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "DNS S4502": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "S4502",
+            "Device_Code_Name": "S4502",
+            "Device_Maker": "DNS",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "DNS",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "DNS S4502M": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "S4502M",
+            "Device_Code_Name": "S4502M",
+            "Device_Maker": "DNS",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "DNS",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "DNS S4503Q": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "S4503Q",
+            "Device_Code_Name": "S4503Q",
+            "Device_Maker": "DNS",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "DNS",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "DNS S4505": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "S4505",
+            "Device_Code_Name": "S4505",
+            "Device_Maker": "DNS",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "DNS",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "DNS S4505M": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "S4505M",
+            "Device_Code_Name": "S4505M",
+            "Device_Maker": "DNS",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "DNS",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "DNS S4702M": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "S4702M",
+            "Device_Code_Name": "S4702M",
+            "Device_Maker": "DNS",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "DNS",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "DNS S5701": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "S5701",
+            "Device_Code_Name": "S5701",
+            "Device_Maker": "DNS",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "DNS",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

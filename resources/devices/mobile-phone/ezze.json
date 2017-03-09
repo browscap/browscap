@@ -1,0 +1,41 @@
+{
+    "EZZE EZ400": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "EZ400",
+            "Device_Code_Name": "EZ400",
+            "Device_Maker": "EZZE",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "EZZE",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "EZZE Hg7000": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "Hg7000",
+            "Device_Code_Name": "Hg7000",
+            "Device_Maker": "EZZE",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "EZZE",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "EZZE MP100": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "MP100",
+            "Device_Code_Name": "MP100",
+            "Device_Maker": "EZZE",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "EZZE",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

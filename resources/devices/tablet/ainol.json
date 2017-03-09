@@ -1,0 +1,67 @@
+{
+    "Ainol Aurora-II": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "Novo 7 Aurora II",
+            "Device_Code_Name": "Aurora-II",
+            "Device_Maker": "Ainol",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Ainol",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Ainol Novo 10 Hero": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "Novo 10 Hero",
+            "Device_Code_Name": "Novo 10 Hero",
+            "Device_Maker": "Ainol",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Ainol",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Ainol Novo 7 Fire": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "Novo 7 Fire",
+            "Device_Code_Name": "Novo 7 Fire",
+            "Device_Maker": "Ainol",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Ainol",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Ainol Numy 3G AX1": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "Novo 7 Numy AX1 3G",
+            "Device_Code_Name": "Numy 3G AX1",
+            "Device_Maker": "Ainol",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Ainol",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Ainol Numy Note 9": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "Numy Note 9",
+            "Device_Code_Name": "Numy Note 9",
+            "Device_Maker": "Ainol",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Ainol",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    }
+}

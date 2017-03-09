@@ -89,11 +89,24 @@ class CollectionCreator
 
         $this->getLogger()->debug('add platform file');
         $this->collection
-            ->addDevicesFile($resourceFolder . '/devices.json')
             ->addPlatformsFile($resourceFolder . '/platforms.json')
             ->addEnginesFile($resourceFolder . '/engines.json')
             ->addDefaultProperties($resourceFolder . '/core/default-properties.json')
             ->addDefaultBrowser($resourceFolder . '/core/default-browser.json');
+
+        $deviceDirectory = $resourceFolder . '/devices';
+
+        $iterator = new \RecursiveDirectoryIterator($deviceDirectory);
+
+        foreach (new \RecursiveIteratorIterator($iterator) as $file) {
+            /** @var $file \SplFileInfo */
+            if (!$file->isFile() || $file->getExtension() !== 'json') {
+                continue;
+            }
+
+            $this->getLogger()->debug('add device file ' . $file->getPathname());
+            $this->collection->addDevicesFile($file->getPathname());
+        }
 
         $uaSourceDirectory = $resourceFolder . '/user-agents';
 

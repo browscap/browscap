@@ -1,0 +1,15 @@
+{
+    "iRulu X11": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "eXpro X1s",
+            "Device_Code_Name": "X11",
+            "Device_Maker": "iRulu",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "iRulu",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "Flying F600": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "F600",
+            "Device_Code_Name": "F600",
+            "Device_Maker": "Flying",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Flying",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "Logicom S9782": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "S9782",
+            "Device_Code_Name": "S9782",
+            "Device_Maker": "Logicom",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Logicom",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    }
+}

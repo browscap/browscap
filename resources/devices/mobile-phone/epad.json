@@ -1,0 +1,15 @@
+{
+    "Epad P7901A": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "P7901A",
+            "Device_Name": "P7901A",
+            "Device_Maker": "Epad",
+            "Device_Brand_Name": "Epad",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

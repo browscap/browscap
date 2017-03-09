@@ -1,0 +1,15 @@
+{
+    "itel it1502": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "it1502",
+            "Device_Code_Name": "it1502",
+            "Device_Maker": "Itel",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Itel",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

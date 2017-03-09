@@ -1,0 +1,54 @@
+{
+    "Haier M1000": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "M1000",
+            "Device_Code_Name": "M1000",
+            "Device_Maker": "Haier",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "Haier",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Haier M1211": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "M1211",
+            "Device_Code_Name": "M1211",
+            "Device_Maker": "Haier",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "Haier",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Haier M1610": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "M1610",
+            "Device_Code_Name": "M1610",
+            "Device_Maker": "Haier",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "Haier",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Haier W718": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "W718",
+            "Device_Code_Name": "W718",
+            "Device_Maker": "Haier",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Haier",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "Irbis TG97": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "TG97",
+            "Device_Code_Name": "TG97",
+            "Device_Maker": "Irbis",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Irbis",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Irbis TX08": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "TX08",
+            "Device_Code_Name": "TX08",
+            "Device_Maker": "Irbis",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Irbis",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Irbis TX17": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "TX17",
+            "Device_Code_Name": "TX17",
+            "Device_Maker": "Irbis",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Irbis",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Irbis TX18": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "TX18",
+            "Device_Code_Name": "TX18",
+            "Device_Maker": "Irbis",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Irbis",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Irbis TX68": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "TX68",
+            "Device_Code_Name": "TX68",
+            "Device_Maker": "Irbis",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Irbis",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Irbis TX97": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "TX97",
+            "Device_Code_Name": "TX97",
+            "Device_Maker": "Irbis",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Irbis",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    }
+}

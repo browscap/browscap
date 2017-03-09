@@ -1,0 +1,41 @@
+{
+    "Microsoft Xbox 360": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "TV Device",
+            "Device_Code_Name": "Xbox 360",
+            "Device_Name": "Xbox 360",
+            "Device_Maker": "Microsoft Corporation",
+            "Device_Brand_Name": "Microsoft",
+            "Device_Pointing_Method": "mouse",
+            "isMobileDevice": "false",
+            "isTablet": "false"
+        }
+    },
+    "Microsoft Xbox One": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "TV Device",
+            "Device_Code_Name": "Xbox One",
+            "Device_Name": "Xbox One",
+            "Device_Maker": "Microsoft Corporation",
+            "Device_Brand_Name": "Microsoft",
+            "Device_Pointing_Method": "mouse",
+            "isMobileDevice": "false",
+            "isTablet": "false"
+        }
+    },
+    "WebTV": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "TV Device",
+            "Device_Code_Name": "WebTV",
+            "Device_Name": "WebTV",
+            "Device_Maker": "Microsoft",
+            "Device_Brand_Name": "Microsoft",
+            "Device_Pointing_Method": "mouse",
+            "isMobileDevice": "false",
+            "isTablet": "false"
+        }
+    }
+}

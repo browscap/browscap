@@ -1,0 +1,28 @@
+{
+    "Fairphone FP1": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "FP1",
+            "Device_Name": "FP1",
+            "Device_Maker": "Fairphone",
+            "Device_Brand_Name": "Fairphone",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Fairphone FP1U": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "FP1U",
+            "Device_Name": "FP1U",
+            "Device_Maker": "Fairphone",
+            "Device_Brand_Name": "Fairphone",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

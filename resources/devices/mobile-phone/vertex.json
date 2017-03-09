@@ -1,0 +1,15 @@
+{
+    "Vertex Impress L": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "Impress L",
+            "Device_Code_Name": "Impress L",
+            "Device_Maker": "Vertex",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Vertex",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

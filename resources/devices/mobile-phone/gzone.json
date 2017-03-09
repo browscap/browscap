@@ -1,0 +1,15 @@
+{
+    "GzOne CAL21": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "TYPE-L",
+            "Device_Code_Name": "CAL21",
+            "Device_Maker": "GzOne",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "GzOne",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

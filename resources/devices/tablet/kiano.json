@@ -1,0 +1,41 @@
+{
+    "Kiano Elegance": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "Elegance",
+            "Device_Code_Name": "Elegance",
+            "Device_Maker": "Kiano",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Kiano",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Kiano Elegance 8 3G": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "Elegance 8 3G",
+            "Device_Code_Name": "Elegance 8 3G",
+            "Device_Maker": "Kiano",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Kiano",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Kiano Intelect 7 3G": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "Intelect 7 3G",
+            "Device_Code_Name": "Intelect 7 3G",
+            "Device_Maker": "Kiano",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Kiano",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    }
+}

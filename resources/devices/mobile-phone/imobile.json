@@ -1,0 +1,41 @@
+{
+    "i-mobile IQ X OKU": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "IQ X OKU",
+            "Device_Code_Name": "IQ X OKU",
+            "Device_Maker": "i-mobile",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "i-mobile",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "i-mobile IQ5.1 Pro": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "IQ5.1 Pro",
+            "Device_Code_Name": "IQ5.1 Pro",
+            "Device_Maker": "i-mobile",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "i-mobile",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "i-mobile i-Style 7.7 DTV": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "i-Style 7.7 DTV",
+            "Device_Code_Name": "i-Style 7.7 DTV",
+            "Device_Maker": "i-mobile",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "i-mobile",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

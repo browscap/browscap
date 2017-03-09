@@ -1,0 +1,15 @@
+{
+    "HTM M3": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "M3",
+            "Device_Code_Name": "M3",
+            "Device_Maker": "HTM",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "HTM",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

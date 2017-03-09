@@ -1,0 +1,28 @@
+{
+    "Simvalley SPX-5": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "SPX-5",
+            "Device_Name": "SPX-5",
+            "Device_Maker": "Simvalley",
+            "Device_Brand_Name": "Simvalley",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Simvalley SPX-5 3G": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "SPX-5 3G",
+            "Device_Name": "SPX-5 3G",
+            "Device_Maker": "Simvalley",
+            "Device_Brand_Name": "Simvalley",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

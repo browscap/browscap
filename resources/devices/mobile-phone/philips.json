@@ -1,0 +1,145 @@
+{
+    "Philips 350": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "350",
+            "Device_Code_Name": "350",
+            "Device_Maker": "Philips",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "Philips",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Philips 355": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "355",
+            "Device_Code_Name": "355",
+            "Device_Maker": "Philips",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "Philips",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Philips 535": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "535",
+            "Device_Code_Name": "535",
+            "Device_Maker": "Philips",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "Philips",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Philips 650": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "650",
+            "Device_Code_Name": "650",
+            "Device_Maker": "Philips",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "Philips",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Philips 755": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "755",
+            "Device_Code_Name": "755",
+            "Device_Maker": "Philips",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "Philips",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Philips W336": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "Xenium",
+            "Device_Code_Name": "W336",
+            "Device_Maker": "Philips",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Philips",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Philips W3500": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "W3500",
+            "Device_Code_Name": "W3500",
+            "Device_Maker": "Philips",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Philips",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Philips W3509": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "W3509",
+            "Device_Code_Name": "W3509",
+            "Device_Maker": "Philips",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Philips",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Philips W6500": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "Xenium",
+            "Device_Code_Name": "W6500",
+            "Device_Maker": "Philips",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Philips",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Philips W8500": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "W8500",
+            "Device_Code_Name": "W8500",
+            "Device_Maker": "Philips",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Philips",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Philips W8510": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "Xenium",
+            "Device_Code_Name": "W8510",
+            "Device_Maker": "Philips",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Philips",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

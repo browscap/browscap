@@ -1,0 +1,15 @@
+{
+    "Denver TAD-70112": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "TAD-70112",
+            "Device_Code_Name": "TAD-70112",
+            "Device_Maker": "DENVER ELECTRONICS A/S",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Denver",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "SENSEIT R390": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "R390",
+            "Device_Code_Name": "R390",
+            "Device_Maker": "SENSEIT",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "SENSEIT",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

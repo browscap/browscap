@@ -1,0 +1,132 @@
+{
+    "O2 Xda 2mini": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "Xda 2 mini",
+            "Device_Code_Name": "Xda 2 mini",
+            "Device_Maker": "O2",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "O2",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "O2 Xda 2s": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "Xda 2s",
+            "Device_Code_Name": "Xda 2s",
+            "Device_Maker": "O2",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "O2",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "O2 Xda II": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "Xda II",
+            "Device_Code_Name": "Xda II",
+            "Device_Maker": "O2",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "O2",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "O2 Xda neo": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "Xda neo",
+            "Device_Code_Name": "Xda neo",
+            "Device_Maker": "O2",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "O2",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "O2 Xphone": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "Xphone",
+            "Device_Code_Name": "Xphone",
+            "Device_Maker": "O2",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "O2",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "O2 Xphone II": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "Xphone II",
+            "Device_Code_Name": "Xphone II",
+            "Device_Maker": "O2",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "O2",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "XDA Orbit": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "XDA Orbit",
+            "Device_Code_Name": "XDA Orbit",
+            "Device_Maker": "O2",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "O2",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "XDA Orbit2": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "XDA Orbit2",
+            "Device_Code_Name": "XDA Orbit2",
+            "Device_Maker": "O2",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "O2",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "XDA Star": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "XDA Star",
+            "Device_Code_Name": "XDA Star",
+            "Device_Maker": "O2",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "O2",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "XDA Stellar": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "XDA Stellar",
+            "Device_Code_Name": "XDA Stellar",
+            "Device_Maker": "O2",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "O2",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

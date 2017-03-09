@@ -1,0 +1,15 @@
+{
+    "Celkon A400": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "A400",
+            "Device_Code_Name": "A400",
+            "Device_Maker": "Celkon",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Celkon",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

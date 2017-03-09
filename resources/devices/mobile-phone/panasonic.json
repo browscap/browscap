@@ -1,0 +1,41 @@
+{
+    "Panasonic Eluga Arc 2": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "Arc 2",
+            "Device_Name": "Eluga Arc 2",
+            "Device_Maker": "Panasonic",
+            "Device_Brand_Name": "Panasonic",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Panasonic VS3": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "VS3",
+            "Device_Name": "VS3",
+            "Device_Maker": "Panasonic",
+            "Device_Brand_Name": "Panasonic",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Panasonic dL1": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "dL1",
+            "Device_Name": "Eluga",
+            "Device_Maker": "Panasonic",
+            "Device_Brand_Name": "Panasonic",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

@@ -1,0 +1,158 @@
+{
+    "Lenovo 1838": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "1838",
+            "Device_Name": "ThinkPad Tablet",
+            "Device_Maker": "Lenovo",
+            "Device_Brand_Name": "Vodafone",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Lenovo A2107A-H": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "A2107A-H",
+            "Device_Name": "IdeaTab A2107A-H",
+            "Device_Maker": "Lenovo",
+            "Device_Brand_Name": "Vodafone",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Lenovo A2109A": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "A2109A",
+            "Device_Name": "IdeaTab A2109A",
+            "Device_Maker": "Lenovo",
+            "Device_Brand_Name": "Vodafone",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Lenovo K1": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "K1",
+            "Device_Name": "IdeaPad K1",
+            "Device_Maker": "Lenovo",
+            "Device_Brand_Name": "Vodafone",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Lenovo S6000-H": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "S6000-H",
+            "Device_Name": "IdeaTab S6000-H",
+            "Device_Maker": "Lenovo",
+            "Device_Brand_Name": "Vodafone",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Lenovo Smart Tab 3G": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "Smart Tab 3G",
+            "Device_Name": "Smart Tab 3G",
+            "Device_Maker": "Lenovo",
+            "Device_Brand_Name": "Vodafone",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Lenovo Smart Tab III 10": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "Smart Tab III 10",
+            "Device_Name": "Smart Tab III 10",
+            "Device_Maker": "Lenovo",
+            "Device_Brand_Name": "Vodafone",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Lenovo SmartTab II 10": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "SmartTab II 10",
+            "Device_Name": "SmartTab II 10",
+            "Device_Maker": "Lenovo",
+            "Device_Brand_Name": "Vodafone",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Lenovo v860": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "v860",
+            "Device_Name": "Smart II 3G",
+            "Device_Maker": "Lenovo",
+            "Device_Brand_Name": "Vodafone",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Vodafone Smart Tab 4": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "Smart Tab 4",
+            "Device_Code_Name": "Smart Tab 4",
+            "Device_Maker": "Vodafone",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Vodafone",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Vodafone Smart Tab 4G": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "Smart Tab 4 LTE",
+            "Device_Code_Name": "Smart Tab 4G",
+            "Device_Maker": "Vodafone",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Vodafone",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Vodafone Smart Tab 7": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "Smart Tab 7",
+            "Device_Code_Name": "Smart Tab 7",
+            "Device_Maker": "ZTE",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Vodafone",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "AOC M601": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "M601",
+            "Device_Code_Name": "M601",
+            "Device_Maker": "AOC",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "AOC",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

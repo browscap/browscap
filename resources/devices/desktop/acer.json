@@ -1,0 +1,15 @@
+{
+    "Acer DA241HL": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Desktop",
+            "Device_Code_Name": "DA241HL",
+            "Device_Name": "DA 241HL",
+            "Device_Maker": "Acer",
+            "Device_Brand_Name": "Acer",
+            "Device_Pointing_Method": "mouse",
+            "isMobileDevice": "false",
+            "isTablet": "false"
+        }
+    }
+}

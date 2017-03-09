@@ -1,0 +1,15 @@
+{
+    "Kobo Arc": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "Arc",
+            "Device_Code_Name": "Arc",
+            "Device_Maker": "Kobo",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Kobo",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    }
+}

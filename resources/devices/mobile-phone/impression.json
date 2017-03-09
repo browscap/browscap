@@ -1,0 +1,15 @@
+{
+    "Impression ImSmart 1.45": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "ImSmart 1.45",
+            "Device_Code_Name": "ImSmart 1.45",
+            "Device_Maker": "Impression",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Impression",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "Ginzzu RS61D Ultimate": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "RS61D Ultimate",
+            "Device_Code_Name": "RS61D Ultimate",
+            "Device_Maker": "Ginzzu",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Ginzzu",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

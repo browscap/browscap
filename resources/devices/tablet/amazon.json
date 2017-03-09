@@ -1,0 +1,132 @@
+{
+    "Amazon KFAPWA": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "KFAPWA",
+            "Device_Name": "Kindle Fire HDX 8.9",
+            "Device_Maker": "Amazon.com, Inc.",
+            "Device_Brand_Name": "Amazon",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Amazon KFAPWI": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "KFAPWI",
+            "Device_Name": "Kindle Fire HDX 8.9",
+            "Device_Maker": "Amazon.com, Inc.",
+            "Device_Brand_Name": "Amazon",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Amazon KFASWI": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "KFASWI",
+            "Device_Name": "Fire HD 7 (4th Gen)",
+            "Device_Maker": "Amazon.com, Inc.",
+            "Device_Brand_Name": "Amazon",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Amazon KFFOWI": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "KFFOWI",
+            "Device_Name": "Kindle Fire (5th Gen)",
+            "Device_Maker": "Amazon.com, Inc.",
+            "Device_Brand_Name": "Amazon",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Amazon KFJWA": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "KFJWA",
+            "Device_Name": "Kindle Fire HD 8.9",
+            "Device_Maker": "Amazon.com, Inc.",
+            "Device_Brand_Name": "Amazon",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Amazon KFJWI": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "KFJWI",
+            "Device_Name": "Kindle Fire HD 8.9 Wi-Fi",
+            "Device_Maker": "Amazon.com, Inc.",
+            "Device_Brand_Name": "Amazon",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Amazon KFOT": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "KFOT",
+            "Device_Name": "Kindle Fire 7",
+            "Device_Maker": "Amazon.com, Inc.",
+            "Device_Brand_Name": "Amazon",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Amazon KFSOWI": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "KFSOWI",
+            "Device_Name": "Kindle Fire HD 7",
+            "Device_Maker": "Amazon.com, Inc.",
+            "Device_Brand_Name": "Amazon",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Amazon KFTHWI": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "KFTHWI",
+            "Device_Name": "Kindle Fire HDX 7 WiFi",
+            "Device_Maker": "Amazon.com, Inc.",
+            "Device_Brand_Name": "Amazon",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Amazon KFTT": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "KFTT",
+            "Device_Name": "Kindle Fire HD 7",
+            "Device_Maker": "Amazon.com, Inc.",
+            "Device_Brand_Name": "Amazon",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    }
+}

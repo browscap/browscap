@@ -1,0 +1,15 @@
+{
+    "Asus Nexus Player": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "TV Device",
+            "Device_Code_Name": "Nexus Player",
+            "Device_Name": "Nexus Player",
+            "Device_Maker": "Asus",
+            "Device_Brand_Name": "Google",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "false",
+            "isTablet": "false"
+        }
+    }
+}

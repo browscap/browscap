@@ -1,0 +1,80 @@
+{
+    "Asus 1210": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "1210",
+            "Device_Name": "1210",
+            "Device_Maker": "Asus",
+            "Device_Brand_Name": "Asus",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Asus T00I": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "T00I",
+            "Device_Name": "ZenFone 4",
+            "Device_Maker": "Asus",
+            "Device_Brand_Name": "Asus",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Asus T00J": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "T00J",
+            "Device_Name": "ZenFone 5",
+            "Device_Maker": "Asus",
+            "Device_Brand_Name": "Asus",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Asus T00N": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "T00N",
+            "Device_Name": "T00N",
+            "Device_Maker": "Asus",
+            "Device_Brand_Name": "Asus",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Asus Z007": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "Z007",
+            "Device_Name": "Zenfone C",
+            "Device_Maker": "Asus",
+            "Device_Brand_Name": "Asus",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Asus Z00AD": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "Z00AD",
+            "Device_Name": "Zenfone 2",
+            "Device_Maker": "Asus",
+            "Device_Brand_Name": "Asus",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

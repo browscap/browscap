@@ -1,0 +1,28 @@
+{
+    "Blackberry KBD": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "KBD",
+            "Device_Code_Name": "KBD",
+            "Device_Maker": "BlackBerry Limited",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "BlackBerry",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Blackberry Z10": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "Z10",
+            "Device_Code_Name": "Z10",
+            "Device_Maker": "BlackBerry Limited",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "BlackBerry",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "XOLO A1000s": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "A1000s",
+            "Device_Code_Name": "A1000s",
+            "Device_Maker": "XOLO",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "XOLO",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "XOLO One": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "One",
+            "Device_Code_Name": "One",
+            "Device_Maker": "XOLO",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "XOLO",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "XOLO era": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "era",
+            "Device_Code_Name": "era",
+            "Device_Maker": "XOLO",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "XOLO",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

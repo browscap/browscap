@@ -1,0 +1,184 @@
+{
+    "KDDI CA23": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "CA23",
+            "Device_Name": "CA23",
+            "Device_Maker": "KDDI",
+            "Device_Brand_Name": "KDDI",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "KDDI CA26": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "CA26",
+            "Device_Name": "CA26",
+            "Device_Maker": "KDDI",
+            "Device_Brand_Name": "KDDI",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "KDDI CA28": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "CA28",
+            "Device_Name": "CA28",
+            "Device_Maker": "KDDI",
+            "Device_Brand_Name": "KDDI",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "KDDI CA31": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "CA31",
+            "Device_Name": "CA31",
+            "Device_Maker": "KDDI",
+            "Device_Brand_Name": "KDDI",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "KDDI CA32": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "CA32",
+            "Device_Name": "CA32",
+            "Device_Maker": "KDDI",
+            "Device_Brand_Name": "KDDI",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "KDDI CA33": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "CA33",
+            "Device_Name": "CA33",
+            "Device_Maker": "KDDI",
+            "Device_Brand_Name": "KDDI",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "KDDI CA34": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "CA34",
+            "Device_Name": "CA34",
+            "Device_Maker": "KDDI",
+            "Device_Brand_Name": "KDDI",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "KDDI CA37": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "CA37",
+            "Device_Name": "CA37",
+            "Device_Maker": "KDDI",
+            "Device_Brand_Name": "KDDI",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "KDDI CA39": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "CA39",
+            "Device_Name": "CA39",
+            "Device_Maker": "KDDI",
+            "Device_Brand_Name": "KDDI",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "KDDI IS03": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "IS03",
+            "Device_Name": "IS03",
+            "Device_Maker": "KDDI",
+            "Device_Brand_Name": "KDDI",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "KDDI KC31": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "KC31",
+            "Device_Name": "W11K",
+            "Device_Maker": "KDDI",
+            "Device_Brand_Name": "KDDI",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "KDDI SN3F": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "SN3F",
+            "Device_Name": "SN3F",
+            "Device_Maker": "KDDI",
+            "Device_Brand_Name": "KDDI",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "KDDI TS21": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "TS21",
+            "Device_Name": "TS21",
+            "Device_Maker": "KDDI",
+            "Device_Brand_Name": "KDDI",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "KDDI TS25": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "TS25",
+            "Device_Name": "TS25",
+            "Device_Maker": "KDDI",
+            "Device_Brand_Name": "KDDI",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "Sharp 10B": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "10B",
+            "Device_Name": "10B",
+            "Device_Maker": "Sharp Corporation",
+            "Device_Brand_Name": "Sharp",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Sharp SH80F": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "SH80F",
+            "Device_Name": "SH80F",
+            "Device_Maker": "Sharp Corporation",
+            "Device_Brand_Name": "Sharp",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

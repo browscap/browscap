@@ -1,0 +1,28 @@
+{
+    "Garmin-Asus A10": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "A10",
+            "Device_Name": "A10",
+            "Device_Maker": "Garmin-Asus",
+            "Device_Brand_Name": "Garmin-Asus",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Garmin-Asus A50": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "A50",
+            "Device_Name": "A50",
+            "Device_Maker": "Garmin-Asus",
+            "Device_Brand_Name": "Garmin-Asus",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

@@ -1,0 +1,93 @@
+{
+    "iconBIT NT-1009T": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "NetTAB THOR QUAD II",
+            "Device_Code_Name": "NT-1009T",
+            "Device_Maker": "iconBIT",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "iconBIT",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "iconBIT NT-3502M": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "NetTAB Mercury Duo",
+            "Device_Code_Name": "NT-3502M",
+            "Device_Maker": "iconBIT",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "iconBIT",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "iconBIT NT-3507M": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "NetTAB Mercury Quad",
+            "Device_Code_Name": "NT-3507M",
+            "Device_Maker": "iconBIT",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "iconBIT",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "iconBIT NT-3702M": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "NetTAB Matrix 3G Duo",
+            "Device_Code_Name": "NT-3702M",
+            "Device_Maker": "iconBIT",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "iconBIT",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "iconBIT NT-3710S": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "NetTAB SKY 3G Plus",
+            "Device_Code_Name": "NT-3710S",
+            "Device_Maker": "iconBIT",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "iconBIT",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "iconBIT NetTAB Pocket 3G": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "NetTAB Pocket 3G",
+            "Device_Code_Name": "NetTAB Pocket 3G",
+            "Device_Maker": "iconBIT",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "iconBIT",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "iconBIT THOR-LE": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "NetTAB THOR-LE",
+            "Device_Code_Name": "NetTAB THOR-LE",
+            "Device_Maker": "iconBIT",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "iconBIT",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    }
+}

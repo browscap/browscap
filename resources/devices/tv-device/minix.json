@@ -1,0 +1,15 @@
+{
+    "Minix NEO X5": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "TV Device",
+            "Device_Name": "NEO X5",
+            "Device_Code_Name": "NEO X5",
+            "Device_Maker": "Minix",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "Minix",
+            "isMobileDevice": "false",
+            "isTablet": "false"
+        }
+    }
+}

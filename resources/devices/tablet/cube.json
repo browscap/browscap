@@ -1,0 +1,80 @@
+{
+    "Cube U20GT_WS": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "U20GT_WS",
+            "Device_Name": "U20GT_WS",
+            "Device_Maker": "Cube",
+            "Device_Brand_Name": "Cube",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Cube U25GT-C4W": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "U25GT-C4W",
+            "Device_Name": "U25GT-C4W",
+            "Device_Maker": "Cube",
+            "Device_Brand_Name": "Cube",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Cube U51GT": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "U51GT",
+            "Device_Name": "Talk 7",
+            "Device_Maker": "Cube",
+            "Device_Brand_Name": "Cube",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Cube U51GT_C4": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "U51GT_C4",
+            "Device_Name": "U51GT_C4",
+            "Device_Maker": "Cube",
+            "Device_Brand_Name": "Cube",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Cube U55GT": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "U55GT",
+            "Device_Name": "Talk 79 3G",
+            "Device_Maker": "Cube",
+            "Device_Brand_Name": "Cube",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Cube U9GT2": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "U9GT2",
+            "Device_Name": "U9GT2",
+            "Device_Maker": "Cube",
+            "Device_Brand_Name": "Cube",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "Caterpillar Cat B15": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "B15",
+            "Device_Name": "Cat B15",
+            "Device_Maker": "Caterpillar",
+            "Device_Brand_Name": "Caterpillar",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Caterpillar Cat B15Q": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "B15Q",
+            "Device_Name": "Cat B15Q",
+            "Device_Maker": "Caterpillar",
+            "Device_Brand_Name": "Caterpillar",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "TurboPad TP705": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "TP705",
+            "Device_Code_Name": "TP705",
+            "Device_Maker": "TurboPad",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "TurboPad",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    }
+}

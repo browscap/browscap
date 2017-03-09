@@ -1,0 +1,15 @@
+{
+    "Sony A5000": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Digital Camera",
+            "Device_Code_Name": "A5000",
+            "Device_Name": "Alpha a5000",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

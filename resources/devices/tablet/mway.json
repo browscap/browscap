@@ -1,0 +1,28 @@
+{
+    "M-way MD-948G": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "MD-948G",
+            "Device_Code_Name": "MD-948G",
+            "Device_Maker": "M-way",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "M-way",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "M-way MD027G": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "MD027G",
+            "Device_Code_Name": "MD027G",
+            "Device_Maker": "M-way",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "M-way",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    }
+}

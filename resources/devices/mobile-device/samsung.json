@@ -1,0 +1,67 @@
+{
+    "Samsung YP-G1": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Mobile Device",
+            "Device_Code_Name": "YP-G1",
+            "Device_Name": "Galaxy Player 4.0",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Samsung YP-G70": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Mobile Device",
+            "Device_Code_Name": "YP-G70",
+            "Device_Name": "Galaxy Player 5",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Samsung YP-GI1": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Mobile Device",
+            "Device_Code_Name": "YP-GI1",
+            "Device_Name": "YP-GI1",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Samsung YP-GS1": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Mobile Device",
+            "Device_Code_Name": "YP-GS1",
+            "Device_Name": "Galaxy Player 3.6",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "general Mobile Device (Samsung)": {
+        "standard": true,
+        "properties": {
+            "Device_Name": "general Mobile Device",
+            "Device_Maker": "Samsung",
+            "Device_Type": "Mobile Device",
+            "Device_Pointing_Method": "unknown",
+            "Device_Code_Name": "general Mobile Device",
+            "Device_Brand_Name": "Samsung",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

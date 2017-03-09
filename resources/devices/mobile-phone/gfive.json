@@ -1,0 +1,28 @@
+{
+    "GFive A5": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "A5",
+            "Device_Code_Name": "A5",
+            "Device_Maker": "GFive",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "GFive",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "GFive President G10 Fashion": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "President G10 Fashion",
+            "Device_Code_Name": "President G10 Fashion",
+            "Device_Maker": "GFive",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "GFive",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "ZONDA ZMNG1900": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "ZMNG1900",
+            "Device_Code_Name": "ZMNG1900",
+            "Device_Maker": "ZONDA",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "ZONDA",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

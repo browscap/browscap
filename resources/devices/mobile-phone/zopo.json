@@ -1,0 +1,67 @@
+{
+    "ZOPO ZP800H": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "ZP800H",
+            "Device_Name": "Libero HD",
+            "Device_Maker": "ZOPO",
+            "Device_Brand_Name": "ZOPO",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "ZOPO ZP900": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "ZP900",
+            "Device_Name": "Leader",
+            "Device_Maker": "ZOPO",
+            "Device_Brand_Name": "ZOPO",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "ZOPO ZP910": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "ZP910",
+            "Device_Name": "ZP900H",
+            "Device_Maker": "ZOPO",
+            "Device_Brand_Name": "ZOPO",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "ZOPO ZP950+": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "ZP950+",
+            "Device_Name": "ZP950+",
+            "Device_Maker": "ZOPO",
+            "Device_Brand_Name": "ZOPO",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "ZOPO ZP980": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "ZP980",
+            "Device_Name": "ZP980",
+            "Device_Maker": "ZOPO",
+            "Device_Brand_Name": "ZOPO",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

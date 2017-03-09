@@ -1,0 +1,15 @@
+{
+    "Overmax Vertis 01": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "Vertis 01",
+            "Device_Code_Name": "Vertis 01",
+            "Device_Maker": "Overmax",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Overmax",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

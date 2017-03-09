@@ -1,0 +1,15 @@
+{
+    "Lemon B556": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "Agni 3",
+            "Device_Code_Name": "B556",
+            "Device_Maker": "Lemon",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "Lemon",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

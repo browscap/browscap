@@ -1,0 +1,15 @@
+{
+    "Lovme X50": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "X50",
+            "Device_Code_Name": "X50",
+            "Device_Maker": "Lovme",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Lovme",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

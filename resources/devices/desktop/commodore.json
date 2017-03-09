@@ -1,0 +1,15 @@
+{
+    "Amiga": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Desktop",
+            "Device_Code_Name": "Amiga",
+            "Device_Name": "Amiga",
+            "Device_Maker": "Commodore International",
+            "Device_Brand_Name": "Commodore",
+            "Device_Pointing_Method": "mouse",
+            "isMobileDevice": "false",
+            "isTablet": "false"
+        }
+    }
+}

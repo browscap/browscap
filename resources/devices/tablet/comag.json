@@ -1,0 +1,15 @@
+{
+    "Comag WTDR1018": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "WTDR1018",
+            "Device_Code_Name": "WTDR1018",
+            "Device_Maker": "Comag",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Comag",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    }
+}

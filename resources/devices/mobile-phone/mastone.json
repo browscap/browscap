@@ -1,0 +1,15 @@
+{
+    "Mastone G9": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "G9",
+            "Device_Name": "G9",
+            "Device_Maker": "Mastone",
+            "Device_Brand_Name": "Mastone",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

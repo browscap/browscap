@@ -1,0 +1,15 @@
+{
+    "Point of View Mobii 7": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "Mobii 7",
+            "Device_Name": "Mobii 7",
+            "Device_Maker": "Point of View",
+            "Device_Brand_Name": "Point of View",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

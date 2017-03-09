@@ -1,0 +1,15 @@
+{
+    "O+ 8.96 Android": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "8.96 Android",
+            "Device_Code_Name": "8.96 Android",
+            "Device_Maker": "O+",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "O+",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

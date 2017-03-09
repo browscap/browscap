@@ -1,0 +1,15 @@
+{
+    "Advan T1X Plus": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "Barca Tab 7",
+            "Device_Code_Name": "T1X Plus",
+            "Device_Maker": "Advan",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Advan",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "sprd B51+": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "B51+",
+            "Device_Name": "B51+",
+            "Device_Maker": "sprd",
+            "Device_Brand_Name": "sprd",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "sprd GT-A7100": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "GT-A7100",
+            "Device_Name": "GT-A7100",
+            "Device_Maker": "sprd",
+            "Device_Brand_Name": "sprd",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "sprd SPHS On HSDroid": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "SPHS On HSDroid",
+            "Device_Name": "SPHS On HSDroid",
+            "Device_Maker": "sprd",
+            "Device_Brand_Name": "sprd",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "MTC 978": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "978",
+            "Device_Code_Name": "978",
+            "Device_Maker": "MTC",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "MTC",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "MTC 982": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "982",
+            "Device_Code_Name": "982",
+            "Device_Maker": "MTC",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "MTC",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "MTC SMART Run": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "SMART Run",
+            "Device_Code_Name": "SMART Run",
+            "Device_Maker": "MTC",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "MTC",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

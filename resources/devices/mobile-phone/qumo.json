@@ -1,0 +1,28 @@
+{
+    "Qumo QUEST 354": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "QUEST 354",
+            "Device_Code_Name": "QUEST 354",
+            "Device_Maker": "Qumo",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Qumo",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Qumo QUEST 450": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "QUEST 450",
+            "Device_Code_Name": "QUEST 450",
+            "Device_Maker": "Qumo",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Qumo",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

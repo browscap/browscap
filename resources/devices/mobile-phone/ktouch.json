@@ -1,0 +1,15 @@
+{
+    "K-Touch Tianyu A930": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "Tianyu A930",
+            "Device_Code_Name": "Tianyu A930",
+            "Device_Maker": "K-Touch",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "K-Touch",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

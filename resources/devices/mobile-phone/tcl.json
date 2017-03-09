@@ -1,0 +1,41 @@
+{
+    "TCL M2U": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "M2U",
+            "Device_Code_Name": "M2U",
+            "Device_Maker": "TCL",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "TCL",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "TCL S720T": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "S720T",
+            "Device_Code_Name": "S720T",
+            "Device_Maker": "TCL",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "TCL",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "TCL S950": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "Idol X",
+            "Device_Code_Name": "S950",
+            "Device_Maker": "TCL",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "TCL",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

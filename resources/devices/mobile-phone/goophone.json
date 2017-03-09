@@ -1,0 +1,15 @@
+{
+    "GooPhone S4 Mega": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "S4 Mega",
+            "Device_Code_Name": "S4 Mega",
+            "Device_Maker": "GooPhone",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "GooPhone",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

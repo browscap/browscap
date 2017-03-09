@@ -1,0 +1,41 @@
+{
+    "Lyf LS-4005": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "LS-4005",
+            "Device_Name": "Flame 6",
+            "Device_Maker": "Lyf",
+            "Device_Brand_Name": "Lyf",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Lyf LS-4503": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "LS-4503",
+            "Device_Name": "Flame 1",
+            "Device_Maker": "Reliance",
+            "Device_Brand_Name": "Lyf",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Lyf LS-4505": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "LS-4505",
+            "Device_Name": "Flame 8",
+            "Device_Maker": "Lyf",
+            "Device_Brand_Name": "Lyf",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

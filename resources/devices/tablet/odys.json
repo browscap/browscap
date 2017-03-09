@@ -1,0 +1,171 @@
+{
+    "Odys ADM816HC": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "ADM816HC",
+            "Device_Name": "Neo X",
+            "Device_Maker": "Odys",
+            "Device_Brand_Name": "Odys",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Odys ADM816KC": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "ADM816KC",
+            "Device_Name": "Neo S8 Plus",
+            "Device_Maker": "Odys",
+            "Device_Brand_Name": "Odys",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Odys Evo": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "Evo",
+            "Device_Name": "Evo",
+            "Device_Maker": "Odys",
+            "Device_Brand_Name": "Odys",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Odys Ieos Quad": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "Ieos Quad",
+            "Device_Name": "Ieos Quad",
+            "Device_Maker": "Odys",
+            "Device_Brand_Name": "Odys",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Odys Loox Plus": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "Loox Plus",
+            "Device_Name": "Loox Plus",
+            "Device_Maker": "Odys",
+            "Device_Brand_Name": "Odys",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Odys Neo Quad 10": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "Neo Quad 10",
+            "Device_Name": "Neo Quad 10",
+            "Device_Maker": "Odys",
+            "Device_Brand_Name": "Odys",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Odys Noon": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "Noon",
+            "Device_Name": "Noon",
+            "Device_Maker": "Odys",
+            "Device_Brand_Name": "Odys",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Odys Sky Plus 3G": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "Sky Plus 3G",
+            "Device_Name": "Sky Plus 3G",
+            "Device_Maker": "Odys",
+            "Device_Brand_Name": "Odys",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Odys Space": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "Space",
+            "Device_Name": "Space",
+            "Device_Maker": "Odys",
+            "Device_Brand_Name": "Odys",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Odys Uno X10": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "Uno X10",
+            "Device_Name": "Uno X10",
+            "Device_Maker": "Odys",
+            "Device_Brand_Name": "Odys",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Odys Xelio 10 Pro": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "Xelio 10 Pro",
+            "Device_Name": "Xelio 10 Pro",
+            "Device_Maker": "Odys",
+            "Device_Brand_Name": "Odys",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Odys Xelio 7 Pro": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "Xelio 7 Pro",
+            "Device_Name": "Xelio 7 Pro",
+            "Device_Maker": "Odys",
+            "Device_Brand_Name": "Odys",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Odys Xeno 10": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "Xeno 10",
+            "Device_Name": "Xeno 10",
+            "Device_Maker": "Odys",
+            "Device_Brand_Name": "Odys",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    }
+}

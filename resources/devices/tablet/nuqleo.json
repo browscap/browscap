@@ -1,0 +1,28 @@
+{
+    "Nuqleo Zaffire 1010": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "Zaffire 1010",
+            "Device_Name": "Zaffire 1010",
+            "Device_Maker": "Nuqleo",
+            "Device_Brand_Name": "Nuqleo",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Nuqleo Zaffire 785": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "Zaffire 785",
+            "Device_Name": "Zaffire 785",
+            "Device_Maker": "Nuqleo",
+            "Device_Brand_Name": "Nuqleo",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    }
+}
