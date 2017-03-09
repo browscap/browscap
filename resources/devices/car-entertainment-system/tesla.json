@@ -1,0 +1,15 @@
+{
+    "Tesla Motors Model S": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Car Entertainment System",
+            "Device_Code_Name": "Model S",
+            "Device_Name": "Model S",
+            "Device_Maker": "Tesla Motors",
+            "Device_Brand_Name": "Tesla",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "false",
+            "isTablet": "false"
+        }
+    }
+}

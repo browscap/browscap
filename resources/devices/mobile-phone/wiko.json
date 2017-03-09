@@ -1,0 +1,54 @@
+{
+    "Wiko Cink Peax 2": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "Cink Peax 2",
+            "Device_Code_Name": "Cink Peax 2",
+            "Device_Maker": "Wiko",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Wiko",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Wiko Darkmoon": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "Darkmoon",
+            "Device_Code_Name": "Darkmoon",
+            "Device_Maker": "Wiko",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Wiko",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Wiko GOA": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "GOA",
+            "Device_Code_Name": "GOA",
+            "Device_Maker": "Wiko",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Wiko",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Wiko Rainbow": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "Rainbow",
+            "Device_Code_Name": "Rainbow",
+            "Device_Maker": "Wiko",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Wiko",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

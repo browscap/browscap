@@ -1,0 +1,15 @@
+{
+    "I-ONIK TP10": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "TP10",
+            "Device_Name": "TP10",
+            "Device_Maker": "I-ONIK",
+            "Device_Brand_Name": "I-ONIK",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    }
+}

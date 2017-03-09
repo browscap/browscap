@@ -1,0 +1,28 @@
+{
+    "Cube U30GT": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "U30GT",
+            "Device_Name": "U30GT",
+            "Device_Maker": "Cube",
+            "Device_Brand_Name": "Cube",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Cube U30GT2": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "U30GT2",
+            "Device_Name": "U30GT2",
+            "Device_Maker": "Cube",
+            "Device_Brand_Name": "Cube",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

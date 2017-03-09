@@ -1,0 +1,41 @@
+{
+    "Assistant AP-705": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "AP-705",
+            "Device_Code_Name": "AP-705",
+            "Device_Maker": "Assistant",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Assistant",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Assistant AP-708": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "AP-708",
+            "Device_Code_Name": "AP-708",
+            "Device_Maker": "Assistant",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Assistant",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Assistant AP-804": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "AP-804",
+            "Device_Code_Name": "AP-804",
+            "Device_Maker": "Assistant",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Assistant",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    }
+}

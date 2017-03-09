@@ -1,0 +1,28 @@
+{
+    "Micromax A101": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "A101",
+            "Device_Name": "A101",
+            "Device_Maker": "Micromax",
+            "Device_Brand_Name": "Micromax",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Micromax A106": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "A106",
+            "Device_Name": "A106",
+            "Device_Maker": "Micromax",
+            "Device_Brand_Name": "Micromax",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    }
+}

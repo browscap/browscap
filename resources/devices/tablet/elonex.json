@@ -1,0 +1,15 @@
+{
+    "Elonex eTouch": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "eTouch",
+            "Device_Code_Name": "eTouch",
+            "Device_Maker": "Elonex",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "Elonex",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    }
+}

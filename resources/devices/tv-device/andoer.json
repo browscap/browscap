@@ -1,0 +1,15 @@
+{
+    "Andoer CX919": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "TV Device",
+            "Device_Code_Name": "CX919",
+            "Device_Name": "CX919",
+            "Device_Maker": "Andoer",
+            "Device_Brand_Name": "Andoer",
+            "Device_Pointing_Method": "mouse",
+            "isMobileDevice": "false",
+            "isTablet": "false"
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "Apple AppleTV": {
+        "standard": true,
+        "properties": {
+            "Device_Name": "AppleTV",
+            "Device_Maker": "Apple Inc",
+            "Device_Type": "TV Device",
+            "Device_Pointing_Method": "unknown",
+            "Device_Code_Name": "AppleTV",
+            "Device_Brand_Name": "Apple",
+            "isMobileDevice": "false",
+            "isTablet": "false"
+        }
+    }
+}

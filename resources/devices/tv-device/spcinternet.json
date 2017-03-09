@@ -1,0 +1,15 @@
+{
+    "SPCinternet 9200N": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "TV Device",
+            "Device_Name": "Smartee",
+            "Device_Code_Name": "9200N",
+            "Device_Maker": "SPCinternet",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "SPCinternet",
+            "isMobileDevice": "false",
+            "isTablet": "false"
+        }
+    }
+}

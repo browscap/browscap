@@ -1,0 +1,15 @@
+{
+    "LogicPD Zoom2": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "Zoom2",
+            "Device_Name": "Zoom2",
+            "Device_Maker": "LogicPD",
+            "Device_Brand_Name": "LogicPD",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

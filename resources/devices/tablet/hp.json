@@ -1,0 +1,41 @@
+{
+    "HP 8": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "8",
+            "Device_Name": "8",
+            "Device_Maker": "HP",
+            "Device_Brand_Name": "HP",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "HP Slate 17": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "Slate 17",
+            "Device_Name": "Slate 17",
+            "Device_Maker": "HP",
+            "Device_Brand_Name": "HP",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "HP Touchpad": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "Touchpad",
+            "Device_Name": "Touchpad",
+            "Device_Maker": "HP",
+            "Device_Brand_Name": "HP",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    }
+}

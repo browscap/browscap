@@ -1,0 +1,15 @@
+{
+    "Faktor Zwei FX2 PAD10": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "812223",
+            "Device_Name": "FX2 PAD10",
+            "Device_Maker": "Faktor Zwei",
+            "Device_Brand_Name": "Faktor Zwei",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    }
+}

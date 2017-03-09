@@ -1,0 +1,106 @@
+{
+    "Highscreen Alpha GT": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "Alpha GT",
+            "Device_Code_Name": "Alpha GT",
+            "Device_Maker": "Highscreen",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Highscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Highscreen Alpha GTR": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "Alpha GTR",
+            "Device_Code_Name": "Alpha GTR",
+            "Device_Maker": "Highscreen",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Highscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Highscreen Boost II SE": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "Boost II SE",
+            "Device_Code_Name": "Boost II SE",
+            "Device_Maker": "Highscreen",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Highscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Highscreen Explosion": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "Explosion",
+            "Device_Code_Name": "Explosion",
+            "Device_Maker": "Highscreen",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Highscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Highscreen ICE 2": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "ICE 2",
+            "Device_Code_Name": "ICE 2",
+            "Device_Maker": "Highscreen",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Highscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Highscreen Omega Prime S": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "Omega Prime S",
+            "Device_Code_Name": "Omega Prime S",
+            "Device_Maker": "Highscreen",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Highscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Highscreen Prime Mini SE": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "Omega Prime mini SE",
+            "Device_Code_Name": "Prime Mini SE",
+            "Device_Maker": "Highscreen",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Highscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Highscreen Zera F": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "Zera F",
+            "Device_Code_Name": "Zera F",
+            "Device_Maker": "Highscreen",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Highscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

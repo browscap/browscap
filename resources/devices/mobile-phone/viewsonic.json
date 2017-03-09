@@ -1,0 +1,41 @@
+{
+    "ViewSonic V350": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "V350",
+            "Device_Name": "V350",
+            "Device_Maker": "ViewSonic",
+            "Device_Brand_Name": "ViewSonic",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "ViewSonic ViewPad7": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "ViewPad7",
+            "Device_Name": "ViewPad7",
+            "Device_Maker": "ViewSonic",
+            "Device_Brand_Name": "ViewSonic",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "ViewSonic ViewPad7e": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "ViewPad7e",
+            "Device_Name": "ViewPad7e",
+            "Device_Maker": "ViewSonic",
+            "Device_Brand_Name": "ViewSonic",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

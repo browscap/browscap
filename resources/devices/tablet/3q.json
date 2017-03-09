@@ -1,0 +1,67 @@
+{
+    "3Q AC0732C": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "Q-lite",
+            "Device_Code_Name": "AC0732C",
+            "Device_Maker": "3Q",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "3Q",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "3Q LC0720C": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "Q-pad",
+            "Device_Code_Name": "LC0720C",
+            "Device_Maker": "3Q",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "3Q",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "3Q MT0739D": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "Q-pad",
+            "Device_Code_Name": "MT0739D",
+            "Device_Maker": "3Q",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "3Q",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "3Q QS0716D": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "Q-pad",
+            "Device_Code_Name": "QS0716D",
+            "Device_Maker": "3Q",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "3Q",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "3Q RC9724C": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "Q-pad",
+            "Device_Code_Name": "RC9724C",
+            "Device_Maker": "3Q",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "3Q",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    }
+}

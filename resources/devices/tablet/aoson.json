@@ -1,0 +1,15 @@
+{
+    "AOSON M785": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "M785",
+            "Device_Code_Name": "M785",
+            "Device_Maker": "AOSON",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "AOSON",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    }
+}

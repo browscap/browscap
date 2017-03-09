@@ -1,0 +1,28 @@
+{
+    "iRU M5301": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "M5301",
+            "Device_Code_Name": "M5301",
+            "Device_Maker": "iRU",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "iRU",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "iRU M5302": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "M5302",
+            "Device_Code_Name": "M5302",
+            "Device_Maker": "iRU",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "iRU",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

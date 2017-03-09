@@ -1,0 +1,15 @@
+{
+    "Infinix X510": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "Hot 2",
+            "Device_Code_Name": "X510",
+            "Device_Maker": "Infinix",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Infinix",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "Tecno H6": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "H6",
+            "Device_Code_Name": "H6",
+            "Device_Maker": "Tecno",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Tecno",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

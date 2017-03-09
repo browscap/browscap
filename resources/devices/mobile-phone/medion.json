@@ -1,0 +1,41 @@
+{
+    "Medion Life E3501": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "Life E3501",
+            "Device_Name": "Life E3501",
+            "Device_Maker": "Medion",
+            "Device_Brand_Name": "Medion",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Medion P4501": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "P4501",
+            "Device_Name": "Life P4501",
+            "Device_Maker": "Medion",
+            "Device_Brand_Name": "Medion",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Medion X4701": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "X4701",
+            "Device_Name": "X4701",
+            "Device_Maker": "Medion",
+            "Device_Brand_Name": "Medion",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

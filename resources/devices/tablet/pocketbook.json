@@ -1,0 +1,15 @@
+{
+    "PocketBook SURFpad 4 L": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "SURFpad 4 L",
+            "Device_Code_Name": "SURFpad 4 L",
+            "Device_Maker": "PocketBook",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "PocketBook",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    }
+}

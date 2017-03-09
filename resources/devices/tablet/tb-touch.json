@@ -1,0 +1,15 @@
+{
+    "TB Touch Ignis 8": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "Ignis 8",
+            "Device_Code_Name": "Ignis 8",
+            "Device_Maker": "TB Touch",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "TB Touch",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    }
+}

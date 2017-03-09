@@ -1,0 +1,15 @@
+{
+    "Bravis NP 844": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "NP 844",
+            "Device_Code_Name": "NP 844",
+            "Device_Maker": "Bravis",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Bravis",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    }
+}

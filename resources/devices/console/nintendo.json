@@ -1,0 +1,67 @@
+{
+    "New Nintendo 3DS": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Console",
+            "Device_Code_Name": "New 3DS",
+            "Device_Name": "New 3DS",
+            "Device_Maker": "Nintendo",
+            "Device_Brand_Name": "Nintendo",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Nintendo 3DS": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Console",
+            "Device_Code_Name": "3DS",
+            "Device_Name": "3DS",
+            "Device_Maker": "Nintendo",
+            "Device_Brand_Name": "Nintendo",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Nintendo DSi": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Console",
+            "Device_Code_Name": "DSi",
+            "Device_Name": "DSi",
+            "Device_Maker": "Nintendo",
+            "Device_Brand_Name": "Nintendo",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Nintendo Wii": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Console",
+            "Device_Code_Name": "Wii",
+            "Device_Name": "Wii",
+            "Device_Maker": "Nintendo",
+            "Device_Brand_Name": "Nintendo",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Nintendo WiiU": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Console",
+            "Device_Code_Name": "WiiU",
+            "Device_Name": "WiiU",
+            "Device_Maker": "Nintendo",
+            "Device_Brand_Name": "Nintendo",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

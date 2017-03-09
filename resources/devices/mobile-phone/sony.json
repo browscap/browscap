@@ -1,0 +1,626 @@
+{
+    "Sony C1505": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "C1505",
+            "Device_Name": "Xperia E",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Sony C1904": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "C1904",
+            "Device_Name": "Xperia M",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Sony C1905": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "C1905",
+            "Device_Name": "Xperia M",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Sony C2005": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "C2005",
+            "Device_Name": "Xperia M Dual ",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Sony C2105": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "C2105",
+            "Device_Name": "Xperia L",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Sony C2305": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "C2305",
+            "Device_Name": "Xperia C HSPA+",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Sony C5302": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "C5302",
+            "Device_Name": "Xperia SP HSPA",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Sony C5303": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "C5303",
+            "Device_Name": "Xperia SP LTE",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Sony C6603": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "C6603",
+            "Device_Name": "Xperia Z",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Sony C6606": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "C6606",
+            "Device_Name": "Xperia Z 4G LTE",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Sony C6833": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "C6833",
+            "Device_Name": "Xperia Z Ultra LTE",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Sony C6902": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "C6902",
+            "Device_Name": "Xperia Z1",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Sony C6903": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "C6903",
+            "Device_Name": "Xperia Z1",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Sony D2005": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "D2005",
+            "Device_Name": "Xperia E1",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Sony D2105": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "D2105",
+            "Device_Name": "Xperia E1 Dual",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Sony D2203": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "D2203",
+            "Device_Name": "Xperia E3",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Sony D2302": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "D2302",
+            "Device_Name": "Xperia M2 Dual",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Sony D2306": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "D2306",
+            "Device_Name": "Xperia M2",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Sony D5303": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "D5303",
+            "Device_Name": "Xperia T2 Ultra LTE",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Sony D5503": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "D5503",
+            "Device_Name": "Xperia Z1 Compact",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Sony D5803": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "D5803",
+            "Device_Name": "Xperia Z3 Compact",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Sony D5833": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "D5833",
+            "Device_Name": "Xperia Z3 Compact (Asia)",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Sony D6503": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "D6503",
+            "Device_Name": "Xperia Z2 LTE",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Sony D6603": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "D6603",
+            "Device_Name": "Xperia Z3",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Sony D6633": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "D6633",
+            "Device_Name": "Xperia Z3 Dual SIM",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Sony E4G": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "E4G",
+            "Device_Name": "Xperia E4G",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Sony E5823": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "E5823",
+            "Device_Name": "Xperia Z5 Compact LTE",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Sony L36h": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "L36h",
+            "Device_Name": "Xperia Z",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Sony L50u": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "L50u",
+            "Device_Name": "Xperia Z2 LTE",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Sony LT25i": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "LT25i",
+            "Device_Name": "Xperia V",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Sony LT26ii": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "LT26ii",
+            "Device_Name": "Xperia SL",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Sony LT26w": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "LT26w",
+            "Device_Name": "Xperia Acro S",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Sony LT29i": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "LT29i",
+            "Device_Name": "Xperia LT29i Hayabusa",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Sony LT30p": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "LT30p",
+            "Device_Name": "Xperia T",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Sony SGP412": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "SGP412",
+            "Device_Name": "Xperia Z Ultra WiFi",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Sony SO-02D": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "SO-02D",
+            "Device_Name": "Xperia NX",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Sony SO-02E": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "SO-02E",
+            "Device_Name": "Xperia Z",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Sony SO-03C": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "SO-03C",
+            "Device_Name": "Xperia ray",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Sony SO-03E": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "SO-03E",
+            "Device_Name": "Xperia Tablet Z Docomo",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Sony ST21i": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "ST21i",
+            "Device_Name": "Xperia Tipo",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Sony ST21i2": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "ST21i2",
+            "Device_Name": "Xperia Tipo Dual",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Sony ST21iv": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "ST21iv",
+            "Device_Name": "Xperia Tipo",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Sony ST23i": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "ST23i",
+            "Device_Name": "Xperia miro",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Sony ST26a": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "ST26a",
+            "Device_Name": "ST26a",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Sony ST26i": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "ST26i",
+            "Device_Name": "Xperia J",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Sony Xperia S": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "Xperia S",
+            "Device_Name": "Xperia S",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "SonyEricsson MT11i": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "MT11i",
+            "Device_Name": "Xperia Neo V",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "SonyEricsson MT15a": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "MT15a",
+            "Device_Name": "MT15a",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

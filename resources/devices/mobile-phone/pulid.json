@@ -1,0 +1,28 @@
+{
+    "PULID F11": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "F11",
+            "Device_Code_Name": "F11",
+            "Device_Maker": "PULID",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "PULID",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "PULID F15": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "F15",
+            "Device_Code_Name": "F15",
+            "Device_Maker": "PULID",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "PULID",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

@@ -1,0 +1,67 @@
+{
+    "Cubot C7": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "C7",
+            "Device_Code_Name": "C7",
+            "Device_Maker": "Cubot",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Cubot",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Cubot GT 95 3G": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "GT 95 3G",
+            "Device_Code_Name": "GT 95 3G",
+            "Device_Maker": "Cubot",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Cubot",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Cubot GT99": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "GT99",
+            "Device_Code_Name": "GT99",
+            "Device_Maker": "Cubot",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Cubot",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Cubot S200": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "S200",
+            "Device_Code_Name": "S200",
+            "Device_Maker": "Cubot",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Cubot",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Cubot U30GT": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "U30GT",
+            "Device_Code_Name": "U30GT",
+            "Device_Maker": "Cubot",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Cubot",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

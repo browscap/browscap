@@ -1,0 +1,15 @@
+{
+    "Zifro ZS-6500": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "Vivid",
+            "Device_Code_Name": "ZS-6500",
+            "Device_Maker": "Zifro",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Zifro",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

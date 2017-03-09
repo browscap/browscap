@@ -1,0 +1,67 @@
+{
+    "OPPO R813T": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "R813T",
+            "Device_Name": "R813T",
+            "Device_Maker": "OPPO",
+            "Device_Brand_Name": "OPPO",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "OPPO R815": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "R815",
+            "Device_Name": "R815",
+            "Device_Maker": "OPPO",
+            "Device_Brand_Name": "OPPO",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "OPPO R831": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "R831",
+            "Device_Name": "Neo R831",
+            "Device_Maker": "OPPO",
+            "Device_Brand_Name": "OPPO",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "OPPO X9007": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "X9007",
+            "Device_Name": "Find 7a",
+            "Device_Maker": "OPPO",
+            "Device_Brand_Name": "OPPO",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "OPPO X909": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "X909",
+            "Device_Name": "Find 5",
+            "Device_Maker": "OPPO",
+            "Device_Brand_Name": "OPPO",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

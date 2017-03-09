@@ -1,0 +1,15 @@
+{
+    "Lexand S5A4": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "S5A4",
+            "Device_Name": "Argon",
+            "Device_Maker": "Lexand",
+            "Device_Brand_Name": "Lexand",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

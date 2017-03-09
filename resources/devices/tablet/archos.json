@@ -1,0 +1,132 @@
+{
+    "Archos 101 G10": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "101 G10",
+            "Device_Name": "101 G10",
+            "Device_Maker": "Archos",
+            "Device_Brand_Name": "Archos",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Archos 101 G9": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "101 G9",
+            "Device_Name": "101 G9",
+            "Device_Maker": "Archos",
+            "Device_Brand_Name": "Archos",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Archos 101 Neon": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "101 Neon",
+            "Device_Name": "101 Neon",
+            "Device_Maker": "Archos",
+            "Device_Brand_Name": "Archos",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Archos 50 Platinum": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "50 Platinum",
+            "Device_Name": "50 Platinum",
+            "Device_Maker": "Archos",
+            "Device_Brand_Name": "Archos",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Archos 50 Titanium": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "50 Titanium",
+            "Device_Name": "50 Titanium",
+            "Device_Maker": "Archos",
+            "Device_Brand_Name": "Archos",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Archos 79 Xenon": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "79 Xenon",
+            "Device_Name": "79 Xenon",
+            "Device_Maker": "Archos",
+            "Device_Brand_Name": "Archos",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Archos 80 G9": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "80 G9",
+            "Device_Name": "80 G9",
+            "Device_Maker": "Archos",
+            "Device_Brand_Name": "Archos",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Archos 80 Xenon": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "80 Xenon",
+            "Device_Name": "80 Xenon",
+            "Device_Maker": "Archos",
+            "Device_Brand_Name": "Archos",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Archos 97 carbon": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "97 carbon",
+            "Device_Name": "97 carbon",
+            "Device_Maker": "Archos",
+            "Device_Brand_Name": "Archos",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Archos Family Pad 2": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "Family Pad 2",
+            "Device_Name": "Family Pad 2",
+            "Device_Maker": "Archos",
+            "Device_Brand_Name": "Archos",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    }
+}

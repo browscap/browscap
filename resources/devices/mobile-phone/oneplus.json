@@ -1,0 +1,28 @@
+{
+    "OnePlus A0001": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "One",
+            "Device_Code_Name": "A0001",
+            "Device_Maker": "OnePlus",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "OnePlus",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "OnePlus A3000": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "3",
+            "Device_Code_Name": "A3000",
+            "Device_Maker": "OnePlus",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "OnePlus",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

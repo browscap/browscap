@@ -1,0 +1,15 @@
+{
+    "Sunup OK999": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "OK999",
+            "Device_Code_Name": "OK999",
+            "Device_Maker": "Sunup",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Sunup",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

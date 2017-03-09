@@ -1,0 +1,41 @@
+{
+    "Point of View P701": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "P701",
+            "Device_Name": "Mobii",
+            "Device_Maker": "Point of View",
+            "Device_Brand_Name": "Point of View",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Point of View PI1045": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "PI1045",
+            "Device_Name": "Mobii 1045",
+            "Device_Maker": "Point of View",
+            "Device_Brand_Name": "Point of View",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Point of View Protab 3 XXL": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "Protab 3 XXL",
+            "Device_Name": "Protab 3 XXL",
+            "Device_Maker": "Point of View",
+            "Device_Brand_Name": "Point of View",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    }
+}

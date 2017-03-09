@@ -1,0 +1,67 @@
+{
+    "GoogleTV": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "TV Device",
+            "Device_Code_Name": "Google TV",
+            "Device_Name": "Google TV",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Pointing_Method": "mouse",
+            "isMobileDevice": "false",
+            "isTablet": "false"
+        }
+    },
+    "Sony NSZ-GS7/GX70": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "TV Device",
+            "Device_Code_Name": "NSZ-GS7/GX70",
+            "Device_Name": "NSZ-GS7/GX70",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "false",
+            "isTablet": "false"
+        }
+    },
+    "Sony Netbox": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "TV Device",
+            "Device_Code_Name": "Netbox",
+            "Device_Name": "Netbox",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Pointing_Method": "mouse",
+            "isMobileDevice": "false",
+            "isTablet": "false"
+        }
+    },
+    "Sony PS3": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "TV Device",
+            "Device_Code_Name": "Playstation 3",
+            "Device_Name": "Playstation 3",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Pointing_Method": "mouse",
+            "isMobileDevice": "false",
+            "isTablet": "false"
+        }
+    },
+    "Sony PS4": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "TV Device",
+            "Device_Code_Name": "Playstation 4",
+            "Device_Name": "Playstation 4",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Pointing_Method": "mouse",
+            "isMobileDevice": "false",
+            "isTablet": "false"
+        }
+    }
+}

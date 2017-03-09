@@ -1,0 +1,15 @@
+{
+    "Telefunken TF-MID806G": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "TF-MID806G",
+            "Device_Code_Name": "TF-MID806G",
+            "Device_Maker": "Telefunken",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Telefunken",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    }
+}

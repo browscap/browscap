@@ -1,0 +1,15 @@
+{
+    "Ployer Momo20s": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "Momo20s",
+            "Device_Code_Name": "Momo20s",
+            "Device_Maker": "Ployer",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Ployer",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    }
+}

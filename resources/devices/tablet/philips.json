@@ -1,0 +1,15 @@
+{
+    "Philips PI3210G": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "Amio7",
+            "Device_Code_Name": "PI3210G",
+            "Device_Maker": "Philips",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Philips",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "itel it1701": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "iNote Prime",
+            "Device_Code_Name": "it1701",
+            "Device_Maker": "Itel",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Itel",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    }
+}

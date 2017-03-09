@@ -1,0 +1,54 @@
+{
+    "LG V490": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "V490",
+            "Device_Name": "G Pad 8.0 4G LTE",
+            "Device_Maker": "LG",
+            "Device_Brand_Name": "LG",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "LG V500": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "V500",
+            "Device_Name": "G Pad 8.3",
+            "Device_Maker": "LG",
+            "Device_Brand_Name": "LG",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "LG V700": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "V700",
+            "Device_Name": "G Pad 10.1",
+            "Device_Maker": "LG",
+            "Device_Brand_Name": "LG",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "LG V900": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "V900",
+            "Device_Name": "Optimus Pad",
+            "Device_Maker": "LG",
+            "Device_Brand_Name": "LG",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    }
+}

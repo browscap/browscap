@@ -1,0 +1,80 @@
+{
+    "Keneksi Crystal": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "Crystal",
+            "Device_Code_Name": "Crystal",
+            "Device_Maker": "Keneksi",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Keneksi",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Keneksi Flora": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "Flora",
+            "Device_Code_Name": "Flora",
+            "Device_Maker": "Keneksi",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Keneksi",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Keneksi Libra": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "Libra",
+            "Device_Code_Name": "Libra",
+            "Device_Maker": "Keneksi",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Keneksi",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Keneksi Libra Dual": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "Libra Dual",
+            "Device_Code_Name": "Libra Dual",
+            "Device_Maker": "Keneksi",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Keneksi",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Keneksi Norma 2": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "Norma 2",
+            "Device_Code_Name": "Norma 2",
+            "Device_Maker": "Keneksi",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Keneksi",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Keneksi Sun": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "Sun",
+            "Device_Code_Name": "Sun",
+            "Device_Maker": "Keneksi",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Keneksi",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

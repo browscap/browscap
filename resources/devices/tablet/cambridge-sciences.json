@@ -1,0 +1,15 @@
+{
+    "Cambridge Sciences StarPAD": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "StarPAD",
+            "Device_Code_Name": "StarPAD",
+            "Device_Maker": "Cambridge Sciences",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Cambridge Sciences",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    }
+}

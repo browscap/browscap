@@ -1,0 +1,15 @@
+{
+    "eFOX SMART E5": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "SMART E5",
+            "Device_Code_Name": "SMART E5",
+            "Device_Maker": "eFOX",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "eFOX",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

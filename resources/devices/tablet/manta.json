@@ -1,0 +1,15 @@
+{
+    "Manta MID802": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "MID802 POWER DUO HD",
+            "Device_Code_Name": "MID802",
+            "Device_Maker": "Manta",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Manta",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    }
+}

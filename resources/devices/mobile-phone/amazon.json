@@ -1,0 +1,15 @@
+{
+    "Amazon SD4930UR": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "SD4930UR",
+            "Device_Name": "Fire Phone",
+            "Device_Maker": "Amazon.com, Inc.",
+            "Device_Brand_Name": "Amazon",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

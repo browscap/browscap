@@ -1,0 +1,54 @@
+{
+    "Jiayu F1": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "F1",
+            "Device_Code_Name": "F1",
+            "Device_Maker": "Jiayu",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Jiayu",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Jiayu G2": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "G2",
+            "Device_Code_Name": "G2",
+            "Device_Maker": "Jiayu",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Jiayu",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Jiayu G2S": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "G2S",
+            "Device_Code_Name": "G2S",
+            "Device_Maker": "Jiayu",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Jiayu",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Jiayu G3": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "G3",
+            "Device_Code_Name": "G3",
+            "Device_Maker": "Jiayu",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Jiayu",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

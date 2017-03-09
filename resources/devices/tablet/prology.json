@@ -1,0 +1,15 @@
+{
+    "Prology Tab-970": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "Evolution",
+            "Device_Code_Name": "Tab-970",
+            "Device_Maker": "Prology",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Prology",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    }
+}

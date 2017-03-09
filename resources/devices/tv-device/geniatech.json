@@ -1,0 +1,15 @@
+{
+    "Geniatech MX Enjoy": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "TV Device",
+            "Device_Name": "MX Enjoy TV BOX",
+            "Device_Code_Name": "MX Enjoy TV BOX",
+            "Device_Maker": "Geniatech",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "Geniatech",
+            "isMobileDevice": "false",
+            "isTablet": "false"
+        }
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "Barnes & Noble BNRV200": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "BNRV200",
+            "Device_Name": "Nook Color Wifi",
+            "Device_Maker": "Barnes & Noble",
+            "Device_Brand_Name": "Barnes & Noble",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Barnes & Noble Nook": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "Nook",
+            "Device_Name": "Nook",
+            "Device_Maker": "Barnes & Noble",
+            "Device_Brand_Name": "Barnes & Noble",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Barnes & Noble Nook Color": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "Nook Color",
+            "Device_Name": "Nook Color",
+            "Device_Maker": "Barnes & Noble",
+            "Device_Brand_Name": "Barnes & Noble",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Barnes & Noble Nook HD+": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "Nook HD+",
+            "Device_Name": "Nook HD+",
+            "Device_Maker": "Barnes & Noble",
+            "Device_Brand_Name": "Barnes & Noble",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    }
+}

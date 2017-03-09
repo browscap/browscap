@@ -1,0 +1,15 @@
+{
+    "Smartfren Andromax AD6B1H": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "C3",
+            "Device_Code_Name": "AD6B1H",
+            "Device_Maker": "Smartfren Andromax",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Harga",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

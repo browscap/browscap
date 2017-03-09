@@ -197,7 +197,7 @@ class DataCollection
         $json          = $this->loadFile($src);
         $deviceFactory = new Factory\DeviceFactory();
 
-        foreach ($json['devices'] as $deviceName => $deviceData) {
+        foreach ($json as $deviceName => $deviceData) {
             if (!isset($deviceData['properties']) && !isset($deviceData['inherits'])) {
                 throw new \UnexpectedValueException('required attibute "properties" is missing');
             }

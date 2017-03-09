@@ -1,0 +1,15 @@
+{
+    "Symphony W82": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "Xplorer",
+            "Device_Code_Name": "W82",
+            "Device_Maker": "Symphony",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Symphony",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

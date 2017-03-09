@@ -1,0 +1,15 @@
+{
+    "Jolla Phone": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "Jolla",
+            "Device_Code_Name": "Jolla",
+            "Device_Maker": "Jolla Ltd.",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Jolla",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

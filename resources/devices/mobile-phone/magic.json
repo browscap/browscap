@@ -1,0 +1,15 @@
+{
+    "Magic W700": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "W700",
+            "Device_Code_Name": "W700",
+            "Device_Maker": "Magic",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Magic",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

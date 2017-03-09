@@ -1,0 +1,67 @@
+{
+    "BIRD D220": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "D220",
+            "Device_Code_Name": "D220",
+            "Device_Maker": "BIRD",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "BIRD",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "BIRD D660": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "D660",
+            "Device_Code_Name": "D660",
+            "Device_Maker": "BIRD",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "BIRD",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "BIRD D670": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "D670",
+            "Device_Code_Name": "D670",
+            "Device_Maker": "BIRD",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "BIRD",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "BIRD D716": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "D716",
+            "Device_Code_Name": "D716",
+            "Device_Maker": "BIRD",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "BIRD",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "BIRD S580": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "S580",
+            "Device_Code_Name": "S580",
+            "Device_Maker": "BIRD",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "BIRD",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

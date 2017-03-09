@@ -1,0 +1,15 @@
+{
+    "AUDIOVOX SMT5600": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "SMT5600",
+            "Device_Code_Name": "SMT5600",
+            "Device_Maker": "AUDIOVOX",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "AUDIOVOX",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

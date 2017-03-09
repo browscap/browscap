@@ -1,0 +1,28 @@
+{
+    "Alps Baoxue 7": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "Baoxue 7",
+            "Device_Code_Name": "Baoxue 7",
+            "Device_Maker": "Alps",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Alps",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Alps XLD": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "XLD",
+            "Device_Code_Name": "XLD",
+            "Device_Maker": "Alps",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Alps",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    }
+}

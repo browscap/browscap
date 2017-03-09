@@ -1,0 +1,15 @@
+{
+    "Honlin PC1088": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Desktop",
+            "Device_Name": "PC1088",
+            "Device_Code_Name": "PC1088",
+            "Device_Maker": "Honlin",
+            "Device_Pointing_Method": "mouse",
+            "Device_Brand_Name": "Honlin",
+            "isMobileDevice": "false",
+            "isTablet": "false"
+        }
+    }
+}

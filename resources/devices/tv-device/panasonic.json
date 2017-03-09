@@ -1,0 +1,41 @@
+{
+    "Panasonic DIGA M6346": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "TV Device",
+            "Device_Code_Name": "DIGA M6346",
+            "Device_Name": "DIGA M6346",
+            "Device_Maker": "Panasonic",
+            "Device_Brand_Name": "Panasonic",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "false",
+            "isTablet": "false"
+        }
+    },
+    "Panasonic DIGA M8156": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "TV Device",
+            "Device_Code_Name": "DIGA M8156",
+            "Device_Name": "DIGA M8156",
+            "Device_Maker": "Panasonic",
+            "Device_Brand_Name": "Panasonic",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "false",
+            "isTablet": "false"
+        }
+    },
+    "Viera": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "TV Device",
+            "Device_Code_Name": "Viera TV",
+            "Device_Name": "Viera TV",
+            "Device_Maker": "Panasonic",
+            "Device_Brand_Name": "Panasonic",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "false",
+            "isTablet": "false"
+        }
+    }
+}

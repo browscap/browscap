@@ -68,7 +68,7 @@ class CollectionCreatorTest extends \PHPUnit\Framework\TestCase
      * @group sourcetest
      *
      * @expectedException \RunTimeException
-     * @expectedExceptionMessage File "./devices.json" does not exist.
+     * @expectedExceptionMessage File "./platforms.json" does not exist.
      */
     public function testCreateDataCollectionThrowsExceptionOnInvalidDirectory()
     {

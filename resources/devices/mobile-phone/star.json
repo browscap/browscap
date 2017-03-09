@@ -1,0 +1,67 @@
+{
+    "Star GT9000": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "H5W",
+            "Device_Code_Name": "GT9000",
+            "Device_Maker": "Star",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Star",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Star N3+": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "Note 3 Super Slim",
+            "Device_Code_Name": "N3+",
+            "Device_Maker": "Star",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Star",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Star N8000": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "Note 3",
+            "Device_Code_Name": "N8000",
+            "Device_Maker": "Star",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Star",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Star N9500": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "N9500",
+            "Device_Code_Name": "N9500",
+            "Device_Maker": "Star",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Star",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Star PLAY Style": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "PLAY Style",
+            "Device_Code_Name": "PLAY Style",
+            "Device_Maker": "Star",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Star",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

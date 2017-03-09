@@ -1,0 +1,15 @@
+{
+    "Phicomm FWS610": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "FWS610",
+            "Device_Code_Name": "FWS610",
+            "Device_Maker": "Phicomm",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Phicomm",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

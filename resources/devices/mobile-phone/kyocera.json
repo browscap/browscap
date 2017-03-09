@@ -1,0 +1,54 @@
+{
+    "Kyocera C6742A": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "Hydro View",
+            "Device_Code_Name": "C6742A",
+            "Device_Maker": "Kyocera",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Kyocera",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Kyocera C6743": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "Hydro Reach",
+            "Device_Code_Name": "C6743",
+            "Device_Maker": "Kyocera",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Kyocera",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Kyocera C6745": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "Hydro Air",
+            "Device_Code_Name": "C6745",
+            "Device_Maker": "Kyocera",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Kyocera",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Kyocera DM015K": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "Disney Mobile",
+            "Device_Code_Name": "DM015K",
+            "Device_Maker": "Kyocera",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Kyocera",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

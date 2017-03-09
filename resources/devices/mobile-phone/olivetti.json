@@ -1,0 +1,15 @@
+{
+    "Olivetti Olipad 70": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "Olipad 70",
+            "Device_Name": "Olipad Smart",
+            "Device_Maker": "Olivetti",
+            "Device_Brand_Name": "Olivetti",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

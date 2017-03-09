@@ -1,0 +1,15 @@
+{
+    "Master Smartphone 650": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "Smartphone 650",
+            "Device_Code_Name": "Smartphone 650",
+            "Device_Maker": "Master",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Master",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

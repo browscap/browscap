@@ -1,0 +1,15 @@
+{
+    "Amlogic M8": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "TV Device",
+            "Device_Name": "M8",
+            "Device_Code_Name": "M8",
+            "Device_Maker": "Amlogic",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "Amlogic",
+            "isMobileDevice": "false",
+            "isTablet": "false"
+        }
+    }
+}

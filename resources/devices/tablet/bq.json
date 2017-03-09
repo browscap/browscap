@@ -1,0 +1,41 @@
+{
+    "BQ 7056G": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "7056G",
+            "Device_Code_Name": "7056G",
+            "Device_Maker": "BQ",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "BQ",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "BQ Aquaris M10": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "Aquaris M10",
+            "Device_Code_Name": "Aquaris M10",
+            "Device_Maker": "BQ",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "BQ",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "BQ Edison": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "Edison",
+            "Device_Code_Name": "Edison",
+            "Device_Maker": "BQ",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "BQ",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    }
+}

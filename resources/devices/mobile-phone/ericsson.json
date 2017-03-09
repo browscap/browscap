@@ -1,0 +1,80 @@
+{
+    "Ericsson A2628s": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "A2628s",
+            "Device_Name": "A2628s",
+            "Device_Maker": "Ericsson",
+            "Device_Brand_Name": "Ericsson",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Ericsson R520": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "R520",
+            "Device_Name": "R520",
+            "Device_Maker": "Ericsson",
+            "Device_Brand_Name": "Ericsson",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Ericsson T20": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "T20",
+            "Device_Name": "T20",
+            "Device_Maker": "Ericsson",
+            "Device_Brand_Name": "Ericsson",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Ericsson T39": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "T39",
+            "Device_Name": "T39",
+            "Device_Maker": "Ericsson",
+            "Device_Brand_Name": "Ericsson",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Ericsson T65": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "T65",
+            "Device_Name": "T65",
+            "Device_Maker": "Ericsson",
+            "Device_Brand_Name": "Ericsson",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Ericsson T68": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "T68",
+            "Device_Name": "T68",
+            "Device_Maker": "Ericsson",
+            "Device_Brand_Name": "Ericsson",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

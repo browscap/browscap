@@ -1,0 +1,28 @@
+{
+    "Gigabyte GSmart Rio R1": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "GSmart Rio R1",
+            "Device_Code_Name": "Rio R1",
+            "Device_Maker": "Gigabyte",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Gigabyte",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Gigabyte GSmart T4": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "GSmart T4",
+            "Device_Code_Name": "GSmart T4",
+            "Device_Maker": "Gigabyte",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Gigabyte",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "Amazon Kindle": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Ebook Reader",
+            "Device_Code_Name": "Kindle",
+            "Device_Name": "Kindle",
+            "Device_Maker": "Amazon.com, Inc.",
+            "Device_Brand_Name": "Amazon",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Amazon Kindle 3": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Ebook Reader",
+            "Device_Code_Name": "Kindle 3",
+            "Device_Name": "Kindle 3",
+            "Device_Maker": "Amazon.com, Inc.",
+            "Device_Brand_Name": "Amazon",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Amazon Kindle Fire": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Ebook Reader",
+            "Device_Code_Name": "Kindle Fire",
+            "Device_Name": "Kindle Fire",
+            "Device_Maker": "Amazon.com, Inc.",
+            "Device_Brand_Name": "Amazon",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "Innos i6": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "i6",
+            "Device_Code_Name": "i6",
+            "Device_Maker": "Innos",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Innos",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

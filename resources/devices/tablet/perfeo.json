@@ -1,0 +1,41 @@
+{
+    "Perfeo 7007-HD": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "7007-HD",
+            "Device_Code_Name": "7007-HD",
+            "Device_Maker": "Perfeo",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Perfeo",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Perfeo 9103W": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "9103W",
+            "Device_Code_Name": "9103W",
+            "Device_Maker": "Perfeo",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Perfeo",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Perfeo PATG7506HD": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "7506-HD",
+            "Device_Code_Name": "PATG7506HD",
+            "Device_Maker": "Perfeo",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Perfeo",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    }
+}

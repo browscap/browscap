@@ -1,0 +1,106 @@
+{
+    "HTC Nexus 9": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "Nexus 9",
+            "Device_Name": "HTC Nexus 9",
+            "Device_Maker": "HTC",
+            "Device_Brand_Name": "Google",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "HTC Nexus One": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "Nexus One",
+            "Device_Name": "HTC Nexus One",
+            "Device_Maker": "HTC",
+            "Device_Brand_Name": "Google",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Huawei Nexus 6P": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "Nexus 6P",
+            "Device_Name": "Nexus 6P",
+            "Device_Maker": "Huawei",
+            "Device_Brand_Name": "Google",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "LG Nexus 4": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "Nexus 4",
+            "Device_Name": "Nexus 4",
+            "Device_Maker": "LG",
+            "Device_Brand_Name": "Google",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "LG Nexus 5": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "Nexus 5",
+            "Device_Name": "Nexus 5",
+            "Device_Maker": "LG",
+            "Device_Brand_Name": "Google",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "LG Nexus 5X": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "Nexus 5X",
+            "Device_Name": "Nexus 5X",
+            "Device_Maker": "LG",
+            "Device_Brand_Name": "Google",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Motorola Nexus 6": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "Nexus 6",
+            "Device_Name": "Nexus 6",
+            "Device_Maker": "Motorola",
+            "Device_Brand_Name": "Google",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Samsung NexusS": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "Nexus S",
+            "Device_Name": "Nexus S",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Google",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "JXD P200S": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "P200S",
+            "Device_Code_Name": "P200S",
+            "Device_Maker": "JXD",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "JXD",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    }
+}

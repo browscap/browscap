@@ -1,0 +1,28 @@
+{
+    "Doogee DG2014": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "Turbo",
+            "Device_Code_Name": "DG2014",
+            "Device_Maker": "Doogee",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Doogee",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Doogee DG800": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "Valencia",
+            "Device_Code_Name": "DG800",
+            "Device_Maker": "Doogee",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Doogee",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

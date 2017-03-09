@@ -1,0 +1,67 @@
+{
+    "Coby MID1125": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "MID1125",
+            "Device_Name": "Kyros MID1125",
+            "Device_Maker": "Coby",
+            "Device_Brand_Name": "Coby",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Coby MID1126": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "MID1126",
+            "Device_Name": "Kyros MID1126",
+            "Device_Maker": "Coby",
+            "Device_Brand_Name": "Coby",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Coby MID7016": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "MID7016",
+            "Device_Name": "Kyros MID7016",
+            "Device_Maker": "Coby",
+            "Device_Brand_Name": "Coby",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Coby MID7022": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "MID7022",
+            "Device_Name": "Kyros MID7022",
+            "Device_Maker": "Coby",
+            "Device_Brand_Name": "Coby",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Coby MID8127": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "MID8127",
+            "Device_Name": "Kyros MID8127",
+            "Device_Maker": "Coby",
+            "Device_Brand_Name": "Coby",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    }
+}
