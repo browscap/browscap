@@ -51,6 +51,19 @@
             "isTablet": "false"
         }
     },
+    "T-Mobile MDA Vario": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "MDA Vario",
+            "Device_Name": "MDA Vario",
+            "Device_Maker": "T-Mobile",
+            "Device_Brand_Name": "T-Mobile",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "T-Mobile Pulse": {
         "standard": false,
         "properties": {

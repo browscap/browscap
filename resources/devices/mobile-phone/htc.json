@@ -1117,6 +1117,19 @@
             "isTablet": "false"
         }
     },
+    "HTC MTeoR": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "MTeoR",
+            "Device_Name": "MTeoR",
+            "Device_Maker": "HTC",
+            "Device_Brand_Name": "HTC",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "HTC Magic": {
         "standard": false,
         "properties": {
@@ -1214,6 +1227,19 @@
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "P3300",
             "Device_Name": "P3300",
+            "Device_Maker": "HTC",
+            "Device_Brand_Name": "HTC",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "HTC P3350": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "P3350",
+            "Device_Name": "P3350",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
             "Device_Pointing_Method": "unknown",
@@ -1344,6 +1370,19 @@
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "P4600",
             "Device_Name": "P4600",
+            "Device_Maker": "HTC",
+            "Device_Brand_Name": "HTC",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "HTC P6300": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "P6300",
+            "Device_Name": "P6300",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
             "Device_Pointing_Method": "unknown",
@@ -2162,7 +2201,7 @@
         "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "X7500",
-            "Device_Name": "X7500",
+            "Device_Name": "Advantage",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
             "Device_Pointing_Method": "unknown",

@@ -1,4 +1,17 @@
 {
+    "K-Touch E619": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "E619",
+            "Device_Code_Name": "E619",
+            "Device_Maker": "K-Touch",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "K-Touch",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "K-Touch Tianyu A930": {
         "standard": false,
         "properties": {
