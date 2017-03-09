@@ -262,7 +262,7 @@ class PropertyHolder
             }
         }
 
-        if ($writer->getType() === 'ini') {
+        if (null !== $writer && $writer->getType() === 'ini') {
             if ($propertyName === 'PatternId') {
                 return true;
             }
