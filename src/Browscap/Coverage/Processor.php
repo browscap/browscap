@@ -140,6 +140,8 @@ class Processor
             $fileName,
             // str_replace here is to convert empty arrays into empty JS objects, which is expected by
             // codecov.io. Owner of the service said he was going to patch it, haven't tested since
+            // Note: Can't use JSON_FORCE_OBJECT here as we **do** want arrays for the 'b' structure
+            // which FORECE_OBJECT turns into objects, breaking at least the Istanbul coverage reporter
             str_replace('[]', '{}', json_encode($this->coverage, JSON_UNESCAPED_SLASHES))
         );
     }
