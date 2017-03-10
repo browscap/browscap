@@ -38,25 +38,12 @@
             "isTablet": "false"
         }
     },
-    "Nintendo Wii": {
+    "Nintendo Switch": {
         "standard": true,
         "properties": {
             "Device_Type": "Console",
-            "Device_Code_Name": "Wii",
-            "Device_Name": "Wii",
-            "Device_Maker": "Nintendo",
-            "Device_Brand_Name": "Nintendo",
-            "Device_Pointing_Method": "unknown",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
-    },
-    "Nintendo WiiU": {
-        "standard": true,
-        "properties": {
-            "Device_Type": "Console",
-            "Device_Code_Name": "WiiU",
-            "Device_Name": "WiiU",
+            "Device_Code_Name": "Switch",
+            "Device_Name": "Switch",
             "Device_Maker": "Nintendo",
             "Device_Brand_Name": "Nintendo",
             "Device_Pointing_Method": "unknown",

@@ -4390,6 +4390,19 @@
         "Platform_Bits": "32"
       }
     },
+    "OrbisOS": {
+      "match": "*OrbisOS*",
+      "lite": false,
+      "standard": true,
+      "properties": {
+        "Platform": "OrbisOS",
+        "Platform_Maker": "Sony",
+        "Platform_Version": "unknown",
+        "Win32": "false",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
     "WyderOS": {
       "match": "*WyderOS*",
       "lite": false,
@@ -4479,6 +4492,88 @@
       "inherits": "Miui_OS",
       "properties": {
         "Platform_Version": "#MAJORVER#.#MINORVER#"
+      }
+    },
+    "Xbox_360": {
+      "match": "*Windows NT 6.1*",
+      "lite": true,
+      "standard": true,
+      "properties": {
+        "Platform": "Xbox 360",
+        "Platform_Maker": "Microsoft Corporation",
+        "Platform_Version": "unknown",
+        "Platform_Description": "Xbox 360 System Software",
+        "Win32": "true",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "Xbox_360_Mobile": {
+      "match": "*Windows Phone OS 7.5*",
+      "lite": false,
+      "standard": true,
+      "inherits": "Xbox_360",
+      "properties": {
+        "Platform": "Xbox 360 (Mobile View)"
+      }
+    },
+    "Xbox_OS": {
+      "match": "*Windows NT 6.2*",
+      "lite": true,
+      "standard": true,
+      "properties": {
+        "Platform": "Xbox OS",
+        "Platform_Maker": "Microsoft Corporation",
+        "Platform_Version": "unknown",
+        "Platform_Description": "Xbox One System Software",
+        "Win64": "true",
+        "Browser_Bits": "64",
+        "Platform_Bits": "64"
+      }
+    },
+    "Xbox_OS_Mobile": {
+      "match": "*Windows Phone 8.0*",
+      "lite": false,
+      "standard": true,
+      "inherits": "Xbox_OS",
+      "properties": {
+        "Platform": "Xbox OS (Mobile View)"
+      }
+    },
+    "Xbox_OS_Mobile_A": {
+      "match": "*Windows Phone OS 7.5*",
+      "lite": false,
+      "standard": true,
+      "inherits": "Xbox_OS_Mobile"
+    },
+    "Xbox_OS_10": {
+      "match": "*Windows NT 10.0*Win64? x64*",
+      "lite": true,
+      "standard": true,
+      "inherits": "Xbox_OS",
+      "properties": {
+        "Platform": "Xbox OS 10",
+        "Platform_Description": "Windows 10 on Xbox One"
+      }
+    },
+    "Xbox_OS_10_Mobile": {
+      "match": "*Windows Phone 10.0*",
+      "lite": true,
+      "standard": true,
+      "inherits": "Xbox_OS_10",
+      "properties": {
+        "Platform": "Xbox OS 10 (Mobile View)"
+      }
+    },
+    "PS_Vita": {
+      "match": "PlayStation Vita",
+      "lite": false,
+      "standard": true,
+      "properties": {
+        "Platform": "Playstation Vita",
+        "Platform_Maker": "Sony",
+        "Platform_Version": "unknown",
+        "Platform_Description": "Playstation Vita System Software"
       }
     }
   }

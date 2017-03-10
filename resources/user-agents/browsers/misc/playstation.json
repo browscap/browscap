@@ -6,7 +6,7 @@
   "userAgents": [
     {
       "userAgent": "Playstation Browser",
-      "platform": "CellOS",
+      "platform": "OrbisOS",
       "engine": "WebKit",
       "properties": {
         "Parent": "DefaultProperties",
@@ -18,18 +18,38 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "Frames": "false"
+        "Frames": "true",
+        "CssVersion": "3"
       },
       "children": [
         {
+          "match": "Mozilla/* (PLAYSTATION 3*) applewebkit/*",
+          "device": "Sony PS3",
+          "platforms": [
+            "CellOS"
+          ]
+        },
+        {
           "match": "Mozilla/* (PLAYSTATION 3*",
-          "device": "Sony PS3"
+          "device": "Sony PS3",
+          "engine": "NetFront",
+          "platforms": [
+            "CellOS"
+          ],
+          "properties": {
+            "Frames": "false",
+            "CssVersion": "2"
+          }
+        },
+        {
+          "match": "Mozilla/* (PLAYSTATION 4*",
+          "device": "Sony PS4"
         }
       ]
     },
     {
       "userAgent": "Playstation Vita",
-      "platform": "JAVA",
+      "platform": "PS_Vita",
       "device": "Sony PS Vita",
       "properties": {
         "Parent": "DefaultProperties",

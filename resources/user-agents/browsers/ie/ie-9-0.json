@@ -42,9 +42,7 @@
           "match": "Mozilla/5.0 (compatible; MSIE #MAJORVER#.#MINORVER#*; #PLATFORM#Trident/5.0; Xbox*",
           "device": "Microsoft Xbox 360",
           "platforms": [
-            "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32",
-            "Vista_x64", "Vista_64", "Vista_32", "Win7_x64", "Win7_64", "Win7_32",
-            "Win8_x64", "Win8_64", "Win8_32", "Windows"
+            "Xbox_360"
           ]
         },
         {

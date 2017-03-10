@@ -255,6 +255,21 @@
           ]
         },
         {
+          "match": "Mozilla/5.0 (compatible*; MSIE #MAJORVER#*; #PLATFORM# *Trident/6.0; IEMobile?#MAJORVER#*; Xbox; Xbox One*)",
+          "device": "Microsoft Xbox One",
+          "platforms": [
+            "Xbox_OS_Mobile"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (compatible*; MSIE #MAJORVER#*; #PLATFORM# *Trident/5.0; IEMobile?#MAJORVER#*; Xbox; Xbox One*)",
+          "device": "Microsoft Xbox One",
+          "engine": "Trident_5",
+          "platforms": [
+            "Xbox_OS_Mobile_A"
+          ]
+        },
+        {
           "match": "Mozilla/5.0 (compatible*; MSIE #MAJORVER#*; #PLATFORM# *Trident/6.0; IEMobile?#MAJORVER#*; ARM; Touch; *)",
           "platforms": [
             "WinPhone8"

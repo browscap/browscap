@@ -23,6 +23,19 @@
       },
       "children": [
         {
+          "match": "Mozilla/5.0 (Nintendo Switch; *) applewebkit/* (*khtml*like*gecko*) NF/4.0*",
+          "device": "Nintendo Switch",
+          "properties": {
+            "MajorVer": "4",
+            "Version": "4.0",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (Nintendo Switch; *) applewebkit/* (*khtml*like*gecko*) NF/*",
+          "device": "Nintendo Switch"
+        },
+        {
           "match": "Mozilla/* (Nintendo 3DS; *) Version/*",
           "engine": "NetFront",
           "device": "Nintendo 3DS"

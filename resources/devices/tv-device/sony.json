@@ -38,11 +38,37 @@
             "isTablet": "false"
         }
     },
+    "Sony Playstation": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "TV Device",
+            "Device_Code_Name": "PS1",
+            "Device_Name": "Playstation",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Pointing_Method": "mouse",
+            "isMobileDevice": "false",
+            "isTablet": "false"
+        }
+    },
+    "Sony PS2": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "TV Device",
+            "Device_Code_Name": "PS2",
+            "Device_Name": "Playstation 2",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "false",
+            "isTablet": "false"
+        }
+    },
     "Sony PS3": {
         "standard": true,
         "properties": {
             "Device_Type": "TV Device",
-            "Device_Code_Name": "Playstation 3",
+            "Device_Code_Name": "PS3",
             "Device_Name": "Playstation 3",
             "Device_Maker": "Sony",
             "Device_Brand_Name": "Sony",
@@ -55,7 +81,7 @@
         "standard": true,
         "properties": {
             "Device_Type": "TV Device",
-            "Device_Code_Name": "Playstation 4",
+            "Device_Code_Name": "PS4",
             "Device_Name": "Playstation 4",
             "Device_Maker": "Sony",
             "Device_Brand_Name": "Sony",
