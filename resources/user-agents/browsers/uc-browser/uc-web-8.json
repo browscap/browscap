@@ -185,14 +185,14 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#GT-I9100 Build/*) applewebkit* (*khtml*like*gecko*) UCBrowser/#MAJORVER#.#MINORVER#* Mobile Safari/*",
           "engine": "WebKit",
-          "device": "GT-I9100",
+          "device": "Samsung GT-I9100",
           "platforms": [
             "Android_4_0", "Android_4_1"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#GT-I9100G Build/*) applewebkit* (*khtml*like*gecko*) UCBrowser/#MAJORVER#.#MINORVER#* Mobile Safari/*",
-          "device": "GT-I9100G",
+          "device": "Samsung GT-I9100G",
           "platforms": [
             "Android_2_3"
           ]

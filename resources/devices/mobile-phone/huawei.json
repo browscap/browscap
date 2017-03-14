@@ -714,6 +714,19 @@
             "isTablet": "false"
         }
     },
+    "Huawei Y538": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "Y538",
+            "Device_Name": "Union",
+            "Device_Maker": "Huawei",
+            "Device_Brand_Name": "Huawei",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Huawei Y600-U00": {
         "standard": false,
         "properties": {

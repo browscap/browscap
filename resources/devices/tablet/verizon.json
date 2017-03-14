@@ -1,4 +1,17 @@
 {
+    "Quanta QMV7A": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "Ellipsis 7",
+            "Device_Code_Name": "QMV7A",
+            "Device_Maker": "Quanta",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Verizon",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
     "Quanta QTAQZ3": {
         "standard": true,
         "properties": {

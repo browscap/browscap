@@ -72,21 +72,21 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#GT-I9100 Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
-          "device": "GT-I9100",
+          "device": "Samsung GT-I9100",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#GT-I9100 Build/*) applewebkit* (*khtml*like*gecko*)*CrMo/#MAJORVER#.*Safari/*",
-          "device": "GT-I9100",
+          "device": "Samsung GT-I9100",
           "platforms": [
             "Android_4_0"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#GT-I9100G Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
-          "device": "GT-I9100G",
+          "device": "Samsung GT-I9100G",
           "platforms": [
             "Android_4_0"
           ]

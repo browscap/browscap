@@ -247,7 +247,7 @@
           "engine": "U3",
           "devices": {
             "XT1068": "Motorola XT1068",
-            "HTC One M9": "HTC M9"
+            "HTC One M9": "HTC 0PJA2"
           },
           "platforms": [
             "Android_6_0"
@@ -360,7 +360,7 @@
         {
           "match": "UCWEB/*(#PLATFORM#GT-I5500) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
           "engine": "U2",
-          "device": "GT-I5500",
+          "device": "Samsung GT-I5500",
           "platforms": [
             "Android_E_2_1"
           ]

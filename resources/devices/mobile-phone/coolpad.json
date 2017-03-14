@@ -1,4 +1,17 @@
 {
+    "Coolpad 3320A": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "Rogue",
+            "Device_Code_Name": "3320A",
+            "Device_Maker": "Coolpad",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Coolpad",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Coolpad 3622A": {
         "standard": false,
         "properties": {

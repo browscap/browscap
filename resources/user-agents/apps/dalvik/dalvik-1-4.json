@@ -28,21 +28,21 @@
       "children": [
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#GT-I9100 Build/*",
-          "device": "GT-I9100",
+          "device": "Samsung GT-I9100",
           "platforms": [
             "Android_2_3"
           ]
         },
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#GT-I9100G Build/*",
-          "device": "GT-I9100G",
+          "device": "Samsung GT-I9100G",
           "platforms": [
             "Android_2_3"
           ]
         },
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#GT-S5830 Build/*",
-          "device": "GT-S5830",
+          "device": "Samsung GT-S5830",
           "platforms": [
             "Android_2_3"
           ]
@@ -70,7 +70,7 @@
         },
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#GT-I9100G *",
-          "device": "GT-I9100G",
+          "device": "Samsung GT-I9100G",
           "platforms": [
             "Android_2_3"
           ]

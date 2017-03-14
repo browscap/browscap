@@ -51,6 +51,19 @@
             "isTablet": "false"
         }
     },
+    "Alcatel 5054W": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "5054W",
+            "Device_Name": "One Touch Fierce XL (T-Mobile)",
+            "Device_Maker": "Alcatel",
+            "Device_Brand_Name": "Alcatel",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Alcatel 5056N": {
         "standard": false,
         "properties": {
@@ -64,12 +77,64 @@
             "isTablet": "false"
         }
     },
+    "Alcatel 6045O": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "6045O",
+            "Device_Name": "One Touch Idol 3",
+            "Device_Maker": "Alcatel",
+            "Device_Brand_Name": "Alcatel",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Alcatel A621BL": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "A621BL",
+            "Device_Name": "One Touch Pixi Glory",
+            "Device_Maker": "Alcatel",
+            "Device_Brand_Name": "Alcatel",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Alcatel 7046T": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "7046T",
+            "Device_Name": "One Touch Conquest",
+            "Device_Maker": "Alcatel",
+            "Device_Brand_Name": "Alcatel",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Alcatel A571VL": {
         "standard": false,
         "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "A571VL",
             "Device_Name": "One Touch PIXI Avion 4G",
+            "Device_Maker": "Alcatel",
+            "Device_Brand_Name": "Alcatel",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Alcatel A845L": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "A845L",
+            "Device_Name": "One Touch Pop Star LTE",
             "Device_Maker": "Alcatel",
             "Device_Brand_Name": "Alcatel",
             "Device_Pointing_Method": "touchscreen",

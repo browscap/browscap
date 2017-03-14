@@ -31,7 +31,7 @@
           "match": "#PLATFORM##DEVICE#*) UCWEB#MAJORVER#.#MINORVER#*",
           "devices": {
             "GT-S5570": "Samsung GT-S5570",
-            "GT-I9100": "GT-I9100"
+            "GT-I9100": "Samsung GT-I9100"
           },
           "platforms": [
             "Android_C_2_2", "Android_C_2_3",

@@ -1,4 +1,17 @@
 {
+    "Lenovo A10-70F": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "A10-70F",
+            "Device_Name": "Tab 2 Wi-Fi",
+            "Device_Maker": "Lenovo",
+            "Device_Brand_Name": "Lenovo",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
     "Lenovo A1000L-F": {
         "standard": true,
         "properties": {

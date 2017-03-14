@@ -49,7 +49,7 @@
         },
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#GT-I9100 Build/*",
-          "device": "GT-I9100",
+          "device": "Samsung GT-I9100",
           "platforms": [
             "Android_4_0"
           ]

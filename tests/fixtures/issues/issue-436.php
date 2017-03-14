@@ -6193,7 +6193,7 @@ return [
             'Device_Maker' => 'Samsung',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen',
-            'Device_Code_Name' => 'SCH-I535 4G',
+            'Device_Code_Name' => 'SCH-I535',
             'Device_Brand_Name' => 'Samsung',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',

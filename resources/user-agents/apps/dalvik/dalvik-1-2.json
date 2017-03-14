@@ -28,35 +28,35 @@
       "children": [
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#Desire HD Build/*",
-          "device": "GT-I9100",
+          "device": "Samsung GT-I9100",
           "platforms": [
             "Android_2_2"
           ]
         },
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#GT-I5500 Build/*",
-          "device": "GT-I5500",
+          "device": "Samsung GT-I5500",
           "platforms": [
             "Android_2_2"
           ]
         },
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#GT-I9000 Build/*",
-          "device": "GT-I9000",
+          "device": "Samsung GT-I9000",
           "platforms": [
             "Android_2_2", "Android_4_0", "Android_4_1"
           ]
         },
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#GT-P1000* Build/*",
-          "device": "GT-P1000",
+          "device": "Samsung GT-P1000",
           "platforms": [
             "Android_2_2"
           ]
         },
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#GT-P1010 Build/*",
-          "device": "GT-P1010",
+          "device": "Samsung GT-P1010",
           "platforms": [
             "Android_2_2", "Android_2_3", "Android_4_0"
           ]

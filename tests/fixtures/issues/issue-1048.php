@@ -416,7 +416,7 @@ return [
             'Device_Maker' => 'HTC',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen',
-            'Device_Code_Name' => 'M9',
+            'Device_Code_Name' => '0PJA2',
             'Device_Brand_Name' => 'HTC',
             'RenderingEngine_Name' => 'U3',
             'RenderingEngine_Version' => 'unknown',

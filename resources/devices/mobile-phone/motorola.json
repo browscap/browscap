@@ -844,6 +844,19 @@
             "isTablet": "false"
         }
     },
+    "Motorola G3": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "G3",
+            "Device_Name": "Moto G3",
+            "Device_Maker": "Motorola",
+            "Device_Brand_Name": "Motorola",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Motorola G4": {
         "standard": false,
         "properties": {
@@ -2157,12 +2170,38 @@
             "isTablet": "false"
         }
     },
+    "Motorola XT1019": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "XT1019",
+            "Device_Name": "Moto E",
+            "Device_Maker": "Motorola",
+            "Device_Brand_Name": "Motorola",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Motorola XT1021": {
         "standard": false,
         "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "XT1021",
             "Device_Name": "Moto E",
+            "Device_Maker": "Motorola",
+            "Device_Brand_Name": "Motorola",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Motorola XT1030": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "XT1030",
+            "Device_Name": "Droid Mini",
             "Device_Maker": "Motorola",
             "Device_Brand_Name": "Motorola",
             "Device_Pointing_Method": "touchscreen",
@@ -2196,6 +2235,19 @@
             "isTablet": "false"
         }
     },
+    "Motorola XT1045": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "XT1045",
+            "Device_Name": "Moto G LTE",
+            "Device_Maker": "Motorola",
+            "Device_Brand_Name": "Motorola",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Motorola XT1052": {
         "standard": false,
         "properties": {
@@ -2215,6 +2267,19 @@
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "XT1058",
             "Device_Name": "Moto X",
+            "Device_Maker": "Motorola",
+            "Device_Brand_Name": "Motorola",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Motorola XT1064": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "XT1064",
+            "Device_Name": "Moto G 2nd Gen",
             "Device_Maker": "Motorola",
             "Device_Brand_Name": "Motorola",
             "Device_Pointing_Method": "touchscreen",
@@ -2248,6 +2313,45 @@
             "isTablet": "false"
         }
     },
+    "Motorola XT1094": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "XT1094",
+            "Device_Name": "Moto X 2nd Gen",
+            "Device_Maker": "Motorola",
+            "Device_Brand_Name": "Motorola",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Motorola XT1096": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "XT1096",
+            "Device_Name": "Moto X 2nd Gen (Verizon)",
+            "Device_Maker": "Motorola",
+            "Device_Brand_Name": "Motorola",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Motorola XT1097": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "XT1097",
+            "Device_Name": "Moto X 2nd Gen (AT&T)",
+            "Device_Maker": "Motorola",
+            "Device_Brand_Name": "Motorola",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Motorola XT1254": {
         "standard": false,
         "properties": {
@@ -2267,6 +2371,71 @@
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "XT1524",
             "Device_Name": "Moto E2 (4G LTE)",
+            "Device_Maker": "Motorola",
+            "Device_Brand_Name": "Motorola",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Motorola XT1565": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "XT1565",
+            "Device_Name": "Droid Maxx 2 LTE",
+            "Device_Maker": "Motorola",
+            "Device_Brand_Name": "Motorola",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Motorola XT1575": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "XT1575",
+            "Device_Name": "Moto X Pure Edition",
+            "Device_Maker": "Motorola",
+            "Device_Brand_Name": "Motorola",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Motorola XT1585": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "XT1585",
+            "Device_Name": "Droid Turbo 2",
+            "Device_Maker": "Motorola",
+            "Device_Brand_Name": "Motorola",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Motorola XT1635-01": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "XT1635-01",
+            "Device_Name": "Moto Z Play Droid",
+            "Device_Maker": "Motorola",
+            "Device_Brand_Name": "Motorola",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Motorola XT1650": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "XT1650",
+            "Device_Name": "Moto Z",
             "Device_Maker": "Motorola",
             "Device_Brand_Name": "Motorola",
             "Device_Pointing_Method": "touchscreen",

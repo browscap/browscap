@@ -27234,7 +27234,7 @@ return [
             'Device_Maker' => 'HTC',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen',
-            'Device_Code_Name' => 'One Max',
+            'Device_Code_Name' => '0P3P7',
             'Device_Brand_Name' => 'HTC',
             'RenderingEngine_Name' => 'WebKit',
             'RenderingEngine_Version' => 'unknown',

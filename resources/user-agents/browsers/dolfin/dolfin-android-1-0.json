@@ -29,14 +29,14 @@
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#GT-I9100 Build/*) applewebkit* (*khtml*like*gecko*) Dolphin/INT-#MAJORVER#.#MINORVER# *Safari/*",
-          "device": "GT-I9100",
+          "device": "Samsung GT-I9100",
           "platforms": [
             "Android_4_0"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#GT-I9100 *) applewebkit* (*khtml*like*gecko*) Dolphin/INT-#MAJORVER#.#MINORVER# *Safari/*",
-          "device": "GT-I9100",
+          "device": "Samsung GT-I9100",
           "platforms": [
             "Android_4_0"
           ]

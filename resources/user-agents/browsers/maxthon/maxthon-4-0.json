@@ -33,7 +33,7 @@
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#GT-I9100 *) applewebkit* (*khtml*like*gecko*) Version/4.0 *Safari/* Maxthon/#MAJORVER#.#MINORVER#*",
-          "device": "GT-I9100",
+          "device": "Samsung GT-I9100",
           "platforms": [
             "Android_2_3", "Android_4_0"
           ]
