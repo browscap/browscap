@@ -25,6 +25,19 @@
             "isTablet": "false"
         }
     },
+    "ThL T9": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "T9 Pro",
+            "Device_Code_Name": "T9",
+            "Device_Maker": "ThL",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "ThL",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "ThL W1": {
         "standard": false,
         "properties": {

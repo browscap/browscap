@@ -194,6 +194,19 @@
             "isTablet": "false"
         }
     },
+    "ZTE N9130": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "N9130",
+            "Device_Name": "Speed",
+            "Device_Maker": "ZTE",
+            "Device_Brand_Name": "ZTE",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "ZTE N918St": {
         "standard": false,
         "properties": {
@@ -213,6 +226,32 @@
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "N9510",
             "Device_Name": "Warp 4G LTE",
+            "Device_Maker": "ZTE",
+            "Device_Brand_Name": "ZTE",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "ZTE N9515": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "N9515",
+            "Device_Name": "Warp Sync",
+            "Device_Maker": "ZTE",
+            "Device_Brand_Name": "ZTE",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "ZTE N9519": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "N9519",
+            "Device_Name": "Warp 7",
             "Device_Maker": "ZTE",
             "Device_Brand_Name": "ZTE",
             "Device_Pointing_Method": "touchscreen",
@@ -467,12 +506,64 @@
             "isTablet": "false"
         }
     },
+    "ZTE Z793C": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "Z793C",
+            "Device_Name": "Atrium (Straight Talk)",
+            "Device_Maker": "ZTE",
+            "Device_Brand_Name": "ZTE",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "ZTE Z797C": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "Z797C",
+            "Device_Name": "Quartz",
+            "Device_Maker": "ZTE",
+            "Device_Brand_Name": "ZTE",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "ZTE Z812": {
         "standard": false,
         "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "Z812",
             "Device_Name": "Maven",
+            "Device_Maker": "ZTE",
+            "Device_Brand_Name": "ZTE",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "ZTE Z813": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "Z813",
+            "Device_Name": "Overture 2",
+            "Device_Maker": "ZTE",
+            "Device_Brand_Name": "ZTE",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "ZTE Z818L": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "Z818L",
+            "Device_Name": "Allstar",
             "Device_Maker": "ZTE",
             "Device_Brand_Name": "ZTE",
             "Device_Pointing_Method": "touchscreen",
@@ -506,12 +597,51 @@
             "isTablet": "false"
         }
     },
+    "ZTE Z936L": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "Z936L",
+            "Device_Name": "Lever (Straight Talk)",
+            "Device_Maker": "ZTE",
+            "Device_Brand_Name": "ZTE",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "ZTE Z958": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "Z958",
+            "Device_Name": "ZMax 2",
+            "Device_Maker": "ZTE",
+            "Device_Brand_Name": "ZTE",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "ZTE Z959": {
         "standard": false,
         "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "Z959",
             "Device_Name": "Grand X3",
+            "Device_Maker": "ZTE",
+            "Device_Brand_Name": "ZTE",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "ZTE Z970": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "Z970",
+            "Device_Name": "ZMax",
             "Device_Maker": "ZTE",
             "Device_Brand_Name": "ZTE",
             "Device_Pointing_Method": "touchscreen",

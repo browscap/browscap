@@ -35,7 +35,7 @@
         },
         {
           "match": "MQQBrowser/#MAJORVER#.#MINORVER#*Mozilla/5.0 (#PLATFORM#GT-I9100 Build/*) applewebkit* (*khtml*like*gecko*) Version/4.0 *Safari/*",
-          "device": "GT-I9100",
+          "device": "Samsung GT-I9100",
           "platforms": [
             "Android_2_3", "Android_4_0", "Android_4_1"
           ]

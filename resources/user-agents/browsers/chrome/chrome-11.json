@@ -51,7 +51,7 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#GT-I9100 *) applewebkit* (*khtml*like*gecko*)*CrMo/#MAJORVER#.*Safari/*",
-          "device": "GT-I9100",
+          "device": "Samsung GT-I9100",
           "platforms": [
             "Android_4_0"
           ]
@@ -65,7 +65,7 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#GT-I9100 *) applewebkit* (*khtml*like*gecko*)*CrMo/#MAJORVER#.*Safari/*",
-          "device": "GT-I9100",
+          "device": "Samsung GT-I9100",
           "platforms": [
             "Android_4_0"
           ]

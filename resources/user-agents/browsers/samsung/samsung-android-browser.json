@@ -399,6 +399,13 @@
           ]
         },
         {
+          "match": "Mozilla/5.0 (#PLATFORM#SAMSUNG SM-G900T Build/*) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "device": "Samsung SM-G900T",
+          "platforms": [
+            "Android_6_0"
+          ]
+        },
+        {
           "match": "Mozilla/5.0 (#PLATFORM#SM-T705 Build/*) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "Samsung SM-T705",
           "platforms": [

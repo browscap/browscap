@@ -79,21 +79,21 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#GT-I9100 Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
-          "device": "GT-I9100",
+          "device": "Samsung GT-I9100",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android_5_0", "Android_5_1"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#GT-I9100 Build/*) applewebkit* (*khtml*like*gecko*)*CrMo/#MAJORVER#.*Safari/*",
-          "device": "GT-I9100",
+          "device": "Samsung GT-I9100",
           "platforms": [
             "Android_4_0"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#GT-I9100G Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
-          "device": "GT-I9100G",
+          "device": "Samsung GT-I9100G",
           "platforms": [
             "Android_4_0", "Android_4_1"
           ]
@@ -436,7 +436,7 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#GT-I9100 Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
-          "device": "GT-I9100",
+          "device": "Samsung GT-I9100",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3",
             "Android_4_4"
@@ -467,7 +467,7 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#GT-I9100 Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
-          "device": "GT-I9100",
+          "device": "Samsung GT-I9100",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3",
             "Android_4_4"
@@ -538,7 +538,7 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#GT-I9100P Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
-          "device": "GT-I9100P",
+          "device": "Samsung GT-I9100P",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
           ]
@@ -1902,6 +1902,13 @@
           ]
         },
         {
+          "match": "Mozilla/5.0 (#PLATFORM#Alcatel 7046T Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
+          "device": "Alcatel 7046T",
+          "platforms": [
+            "Android_5_0"
+          ]
+        },
+        {
           "match": "Mozilla/5.0 (#PLATFORM#PMT3377_Wi Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
           "device": "Prestigio PMT3377_Wi",
           "platforms": [
@@ -2645,7 +2652,7 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#ACE Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
-          "device": "GT-S5830",
+          "device": "Samsung GT-S5830",
           "platforms": [
             "Android_4_2"
           ]
@@ -2834,7 +2841,7 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#GT-P1000 Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
-          "device": "GT-P1000",
+          "device": "Samsung GT-P1000",
           "platforms": [
             "Android_5_0"
           ]

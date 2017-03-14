@@ -1,43 +1,4 @@
 {
-    "GT-P1000": {
-        "standard": true,
-        "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "GT-P1000",
-            "Device_Name": "Galaxy Tab",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
-    },
-    "GT-P1010": {
-        "standard": true,
-        "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "GT-P1010",
-            "Device_Name": "Galaxy Tab",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
-    },
-    "GT-P7510": {
-        "standard": true,
-        "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "GT-P7510",
-            "Device_Name": "Galaxy Tab 10.1",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
-    },
     "Samsung GT-N5100": {
         "standard": true,
         "properties": {
@@ -135,6 +96,32 @@
             "Device_Type": "Tablet",
             "Device_Code_Name": "GT-N8020",
             "Device_Name": "Galaxy Note 10.1 LTE",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Samsung GT-P1000": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "GT-P1000",
+            "Device_Name": "Galaxy Tab",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Samsung GT-P1010": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "GT-P1010",
+            "Device_Name": "Galaxy Tab",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Pointing_Method": "touchscreen",
@@ -389,6 +376,19 @@
             "isTablet": "true"
         }
     },
+    "Samsung GT-P7510": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "GT-P7510",
+            "Device_Name": "Galaxy Tab 10.1",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
     "Samsung GT-P7511": {
         "standard": true,
         "properties": {
@@ -623,6 +623,19 @@
             "isTablet": "true"
         }
     },
+    "Samsung SM-T210R": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "SM-T210R",
+            "Device_Name": "Galaxy Tab 3 7.0",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
     "Samsung SM-T2105": {
         "standard": true,
         "properties": {
@@ -642,6 +655,19 @@
             "Device_Type": "Tablet",
             "Device_Code_Name": "SM-T211",
             "Device_Name": "Galaxy Tab 3 7.0 3G",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Samsung SM-T217S": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "SM-T217S",
+            "Device_Name": "Galaxy Tab 3 7.0 4G (Sprint)",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Pointing_Method": "touchscreen",
@@ -766,12 +792,38 @@
             "isTablet": "true"
         }
     },
+    "Samsung SM-T330NU": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "SM-T330NU",
+            "Device_Name": "Galaxy Tab 4 8.0 Wi-Fi",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
     "Samsung SM-T331": {
         "standard": true,
         "properties": {
             "Device_Type": "Tablet",
             "Device_Code_Name": "SM-T331",
             "Device_Name": "Galaxy Tab 4 8.0 3G",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Samsung SM-T337A": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "SM-T337A",
+            "Device_Name": "Galaxy Tab 4 8.0 4G (AT&T)",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Pointing_Method": "touchscreen",
@@ -798,6 +850,32 @@
             "Device_Type": "Tablet",
             "Device_Code_Name": "SM-T355Y",
             "Device_Name": "Galaxy Tab A 8.0 4G",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Samsung SM-T357T": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "SM-T357T",
+            "Device_Name": "Galaxy Tab A 8.0 4G (T-Mobile)",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Samsung SM-T377A": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "SM-T377A",
+            "Device_Name": "Galaxy Tab E 8.0 (AT&T)",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Pointing_Method": "touchscreen",
@@ -896,6 +974,19 @@
             "isTablet": "true"
         }
     },
+    "Samsung SM-T537V": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "SM-T537V",
+            "Device_Name": "Galaxy Tab 4 10.1 LTE (Verizon)",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
     "Samsung SM-T550": {
         "standard": true,
         "properties": {
@@ -915,6 +1006,19 @@
             "Device_Type": "Tablet",
             "Device_Code_Name": "SM-T555",
             "Device_Name": "Galaxy Tab A 9.7 LTE",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Samsung SM-T580": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "SM-T580",
+            "Device_Name": "Galaxy Tab A 10.1 Wi-Fi",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Pointing_Method": "touchscreen",
@@ -1032,6 +1136,19 @@
             "Device_Type": "Tablet",
             "Device_Code_Name": "SM-T817A",
             "Device_Name": "Galaxy Tab S2 9.7 LTE (AT&T)",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Samsung SM-T817V": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "SM-T817V",
+            "Device_Name": "Galaxy Tab S2 9.7 4G (Verizon)",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Pointing_Method": "touchscreen",

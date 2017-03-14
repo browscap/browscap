@@ -1,4 +1,30 @@
 {
+    "Google Pixel": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "Pixel",
+            "Device_Name": "Pixel",
+            "Device_Maker": "Google",
+            "Device_Brand_Name": "Google",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Google Pixel XL": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "Pixel XL",
+            "Device_Name": "Pixel XL",
+            "Device_Maker": "Google",
+            "Device_Brand_Name": "Google",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "HTC Nexus 9": {
         "standard": false,
         "properties": {

@@ -1,9 +1,35 @@
 {
-    "Kyocera C6742A": {
+    "Kyocera C6730": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "Hydro Icon",
+            "Device_Code_Name": "C6730",
+            "Device_Maker": "Kyocera",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Kyocera",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Kyocera C6742": {
         "standard": false,
         "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Name": "Hydro View",
+            "Device_Code_Name": "C6742",
+            "Device_Maker": "Kyocera",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Kyocera",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Kyocera C6742A": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "Hydro Shore",
             "Device_Code_Name": "C6742A",
             "Device_Maker": "Kyocera",
             "Device_Pointing_Method": "touchscreen",
@@ -44,6 +70,45 @@
             "Device_Type": "Mobile Phone",
             "Device_Name": "Disney Mobile",
             "Device_Code_Name": "DM015K",
+            "Device_Maker": "Kyocera",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Kyocera",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Kyocera E6560": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "DuraForce (AT&T)",
+            "Device_Code_Name": "E6560",
+            "Device_Maker": "Kyocera",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Kyocera",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Kyocera E6762": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "DuraForce (US Cellular)",
+            "Device_Code_Name": "E6762",
+            "Device_Maker": "Kyocera",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Kyocera",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Kyocera E6782": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "Brigadier",
+            "Device_Code_Name": "E6782",
             "Device_Maker": "Kyocera",
             "Device_Pointing_Method": "touchscreen",
             "Device_Brand_Name": "Kyocera",

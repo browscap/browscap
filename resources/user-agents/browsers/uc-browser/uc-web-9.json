@@ -156,7 +156,7 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) UCBrowser/#MAJORVER#.#MINORVER#* Mobile Safari/*",
           "engine": "WebKit",
           "devices": {
-            "GT-I9100": "GT-I9100",
+            "GT-I9100": "Samsung GT-I9100",
             "GT-I9100T": "Samsung GT-I9100T",
             "LA-M1": "Beidou LA-M1"
           },
@@ -341,7 +341,7 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Safari/* UCBrowser/#MAJORVER#.#MINORVER#* Mobile*",
           "engine": "WebKit",
           "devices": {
-            "GT-S5830": "GT-S5830",
+            "GT-S5830": "Samsung GT-S5830",
             "LG-D415": "LG D415"
           },
           "platforms": [
@@ -488,8 +488,8 @@
           "match": "UCWEB/*(#PLATFORM##DEVICE#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
           "engine": "U2",
           "devices": {
-            "GT-I9100": "GT-I9100",
-            "GT-I9100P": "GT-I9100P",
+            "GT-I9100": "Samsung GT-I9100",
+            "GT-I9100P": "Samsung GT-I9100P",
             "MB300": "Motorola MB300",
             "PantechP9060": "Pantech P9060",
             "Lenovo_A318t": "Lenovo A318t"

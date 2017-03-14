@@ -1,0 +1,28 @@
+{
+    "RCA RCT6203W46": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "Pro10",
+            "Device_Code_Name": "RCT6203W46",
+            "Device_Maker": "RCA",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "RCA",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "RCA RCT6773W42B": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "Voyager Pro 7",
+            "Device_Code_Name": "RCT6773W42B",
+            "Device_Maker": "RCA",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "RCA",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    }
+}

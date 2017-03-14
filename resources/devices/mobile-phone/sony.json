@@ -324,6 +324,19 @@
             "isTablet": "false"
         }
     },
+    "Sony D6708": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "D6708",
+            "Device_Name": "Xperia Z3v",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Sony E4G": {
         "standard": false,
         "properties": {

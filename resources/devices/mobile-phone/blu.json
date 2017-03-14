@@ -12,6 +12,19 @@
             "isTablet": "false"
         }
     },
+    "BLU R1 HD": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "R1 HD",
+            "Device_Code_Name": "R1 HD",
+            "Device_Maker": "BLU",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "BLU",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "BLU STUDIO 5.0 II": {
         "standard": false,
         "properties": {
@@ -44,6 +57,19 @@
             "Device_Type": "Mobile Phone",
             "Device_Name": "Studio 5.5",
             "Device_Code_Name": "Studio 5.5",
+            "Device_Maker": "BLU",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "BLU",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "BLU Studio XL": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "Studio XL",
+            "Device_Code_Name": "Studio XL",
             "Device_Maker": "BLU",
             "Device_Pointing_Method": "touchscreen",
             "Device_Brand_Name": "BLU",
