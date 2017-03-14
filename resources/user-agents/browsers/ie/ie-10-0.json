@@ -189,7 +189,7 @@
           ]
         },
         {
-          "match": "Mozilla/4.0 (*MSIE 7.*Trident/6.0*)*",
+          "match": "Mozilla/4.0 (*MSIE 7.#PLATFORM#Trident/6.0*)*",
           "properties": {
             "Comment": "IE #MAJORVER#.#MINORVER# in IE 7.0 Compatibility Mode",
             "Browser_Modus": "IE 7.0 Compatibility Mode"
@@ -199,7 +199,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (*MSIE 7.*Trident/6.0*)*",
+          "match": "Mozilla/5.0 (*MSIE 7.#PLATFORM#Trident/6.0*)*",
           "properties": {
             "Comment": "IE #MAJORVER#.#MINORVER# in IE 7.0 Compatibility Mode",
             "Browser_Modus": "IE 7.0 Compatibility Mode"

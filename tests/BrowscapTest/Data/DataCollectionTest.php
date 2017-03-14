@@ -825,6 +825,34 @@ HERE;
     }
 
     /**
+     * checks if an exception is thrown if the devices entry has multiple items and there is no #DEVICE# token
+     *
+     * @expectedException \LogicException
+     * @expectedExceptionMessage the "devices" entry contains multiple devices but there is no #DEVICE# token for key
+     *
+     * @group data
+     * @group sourcetest
+     */
+    public function testAddSourceFileThrowsExceptionIfDevicesEntryHasMultipleDevicesAndNoDeviceToken()
+    {
+        $this->object->addSourceFile(__DIR__ . '/../../fixtures/ua/ua-with-children-with-devices-no-token.json');
+    }
+
+    /**
+     * checks if an exception is thrown if the platforms entry has multiple items and there is no #PLATFORM# token
+     *
+     * @expectedException \LogicException
+     * @expectedExceptionMessage the "platforms" entry contains multiple platforms but there is no #PLATFORM# token for key
+     *
+     * @group data
+     * @group sourcetest
+     */
+    public function testAddSourceFileThrowsExceptionIfPlatformsEntryHasMultiplePlatformsAndNoPlatformToken()
+    {
+        $this->object->addSourceFile(__DIR__ . '/../../fixtures/ua/ua-with-children-with-platforms-no-token.json');
+    }
+
+    /**
      * checks if a exception is thrown if a division is defined twice in the source files
      *
      * @expectedException \UnexpectedValueException
