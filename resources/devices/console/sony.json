@@ -12,19 +12,6 @@
             "isTablet": "false"
         }
     },
-    "Sony PS2": {
-        "standard": true,
-        "properties": {
-            "Device_Type": "Console",
-            "Device_Code_Name": "PS2",
-            "Device_Name": "PS2",
-            "Device_Maker": "Sony",
-            "Device_Brand_Name": "Sony",
-            "Device_Pointing_Method": "unknown",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
-    },
     "Sony PSP": {
         "standard": true,
         "properties": {
@@ -34,19 +21,6 @@
             "Device_Maker": "Sony",
             "Device_Brand_Name": "Sony",
             "Device_Pointing_Method": "unknown",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
-    },
-    "Sony Playstation": {
-        "standard": true,
-        "properties": {
-            "Device_Type": "Console",
-            "Device_Code_Name": "Playstation",
-            "Device_Name": "Playstation",
-            "Device_Maker": "Sony",
-            "Device_Brand_Name": "Sony",
-            "Device_Pointing_Method": "mouse",
             "isMobileDevice": "true",
             "isTablet": "false"
         }

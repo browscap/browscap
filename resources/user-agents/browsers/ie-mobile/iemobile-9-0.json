@@ -181,6 +181,13 @@
           ]
         },
         {
+          "match": "Mozilla/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM# Trident/5.0; IEMobile?#MAJORVER#.#MINORVER#; Xbox)",
+          "device": "Microsoft Xbox 360",
+          "platforms": [
+            "Xbox_360_Mobile"
+          ]
+        },
+        {
           "match": "Mozilla/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM# Trident/5.0; IEMobile?#MAJORVER#.#MINORVER#*",
           "platforms": [
             "WinPhone75", "WinPhone"

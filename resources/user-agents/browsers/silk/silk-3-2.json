@@ -80,7 +80,7 @@
           "engine": "WebKit",
           "device": "Sony PS Vita",
           "platforms": [
-            "Android_4_0", "Android"
+            "PS_Vita"
           ]
         }
       ]

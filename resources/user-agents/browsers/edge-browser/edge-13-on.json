@@ -27,6 +27,13 @@
       },
       "children": [
         {
+          "match": "Mozilla/5.0 (#PLATFORM# Xbox; Xbox One) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* Edge/#MAJORVER#.*",
+          "device": "Microsoft Xbox One",
+          "platforms": [
+            "Xbox_OS_10"
+          ]
+        },
+        {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* Edge/#MAJORVER#.*",
           "platforms": [
             "Win10_x64", "Win10_64", "Win10_32", "Win10_x64_B", "Win10_64_B", "Win10_32_B"
@@ -67,7 +74,7 @@
           "match": "Mozilla/5.0 (#PLATFORM#Xbox; Xbox One) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* Edge/#MAJORVER#.*",
           "device": "Microsoft Xbox One",
           "platforms": [
-            "WinPhone10"
+            "Xbox_OS_10_Mobile"
           ]
         },
         {
