@@ -45,7 +45,7 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) FlyFlow/#MAJORVER#.#MINORVER#* Version/4.0 *Safari/*",
           "engine": "WebKit",
           "devices": {
-            "GT-I9100G": "GT-I9100G",
+            "GT-I9100G": "Samsung GT-I9100G",
             "GT-I9300": "Samsung GT-I9300"
           },
           "platforms": [

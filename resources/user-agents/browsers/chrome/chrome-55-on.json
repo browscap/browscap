@@ -70,7 +70,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*CrMo/#MAJORVER#.*Safari/*",
           "devices": {
-            "GT-I9100": "GT-I9100",
+            "GT-I9100": "Samsung GT-I9100",
             "HTC Desire": "HTC Desire",
             "HTC_Sensation": "HTC Z710"
           },
@@ -85,7 +85,7 @@
             "A500": "Acer A500",
             "A510": "Acer A510",
             "GT-I8190": "Samsung GT-I8190",
-            "GT-I9100G": "GT-I9100G",
+            "GT-I9100G": "Samsung GT-I9100G",
             "GT-P5113": "Samsung GT-P5113",
             "HTC Desire X": "HTC T328E",
             "HTC One SV": "HTC One SV",
@@ -109,7 +109,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
           "devices": {
-            "GT-I9100": "GT-I9100"
+            "GT-I9100": "Samsung GT-I9100"
           },
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android_5_0", "Android_5_1"
@@ -126,7 +126,7 @@
             "LG-P700": "LG P700",
             "MZ601": "Motorola MZ601",
             "ASUS Transformer Pad TF300TG": "Asus TF300TG",
-            "GT-I9100P": "GT-I9100P",
+            "GT-I9100P": "Samsung GT-I9100P",
             "GT-I9505X*": "Samsung GT-I9505X",
             "GT-P7500": "Samsung GT-P7500",
             "HUAWEI G510-*": "Huawei G510",
@@ -152,7 +152,7 @@
             "Nexus S": "Samsung NexusS",
             "GT-N7100*": "Samsung GT-N7100",
             "HTC One": "HTC M7",
-            "GT-I9100": "GT-I9100",
+            "GT-I9100": "Samsung GT-I9100",
             "GT-I9505": "Samsung GT-I9505",
             "GT-I9195*": "Samsung GT-I9195",
             "GT-I9190*": "Samsung GT-I9190",

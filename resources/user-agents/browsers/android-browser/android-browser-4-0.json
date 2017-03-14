@@ -46,7 +46,7 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
             "ALCATEL ONE TOUCH 4030D": "Alcatel OT-4030D",
-            "GT-I9100": "GT-I9100"
+            "GT-I9100": "Samsung GT-I9100"
           },
           "platforms": [
             "Android_4_1"
