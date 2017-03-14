@@ -2386,7 +2386,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-AU' => [
+    'issue-1125-AT' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; USCC-E6762 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -2439,7 +2439,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-AV' => [
+    'issue-1125-AU' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; XT1019 Build/KXC21.5-L2.31) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -2492,7 +2492,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-AW' => [
+    'issue-1125-AV' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; XT1030 Build/SU6-7.7) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -2545,7 +2545,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-AX' => [
+    'issue-1125-AW' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; XT1045 Build/KXB21.14-L1.45) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -2598,7 +2598,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-AY' => [
+    'issue-1125-AX' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; XT1080 Build/SU6-7.7) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -2651,7 +2651,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-AZ' => [
+    'issue-1125-AY' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; XT1254 Build/KDF21.196-8) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -2704,7 +2704,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-BA' => [
+    'issue-1125-AZ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; Z793C Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/100.0.0.20.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -2757,7 +2757,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-BB' => [
+    'issue-1125-BA' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; Z936L Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -2810,7 +2810,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-BC' => [
+    'issue-1125-BB' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; Z970 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/100.0.0.20.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -2863,7 +2863,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-BD' => [
+    'issue-1125-BC' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4; LGL34C Build/KRT16S.L34CV10c) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -2916,7 +2916,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-BE' => [
+    'issue-1125-BD' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4; XT1080 Build/SU2-3) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -2969,7 +2969,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-BF' => [
+    'issue-1125-BE' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.1; GT-I9500 Build/LRX22C; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -3022,7 +3022,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-BG' => [
+    'issue-1125-BF' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.1; LGL21G Build/LRX21Y; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.124 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -3075,7 +3075,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-BH' => [
+    'issue-1125-BG' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.1; LGL33L Build/LRX21Y) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/37.0.0.0 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -3128,7 +3128,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-BI' => [
+    'issue-1125-BH' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.1; LGLS990 Build/LRX21Y; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.68 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -3181,7 +3181,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-BJ' => [
+    'issue-1125-BI' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.1; LGUS990 Build/LRX21Y; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -3234,7 +3234,7 @@ return [
         'lite' => false,
         'standard' => true,
     ],
-    'issue-1125-BK' => [
+    'issue-1125-BJ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.1; RCT6773W42B Build/LRX22C) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/37.0.0.0 Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -3287,7 +3287,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-BL' => [
+    'issue-1125-BK' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.1; SAMSUNG-SGH-I337 Build/LRX22C; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/46.0.2490.76 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -3340,7 +3340,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-BM' => [
+    'issue-1125-BL' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.1; SCH-I545 Build/LRX22C) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.85 Mobile Safari/537.36',
         'properties' => [
             'Comment' => 'Chrome 54.0',
@@ -3393,7 +3393,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-BN' => [
+    'issue-1125-BM' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.1; SCH-I545L Build/LRX22C; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -3446,7 +3446,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-BO' => [
+    'issue-1125-BN' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.1; SCH-R970 Build/LRX22C; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -3499,7 +3499,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-BP' => [
+    'issue-1125-BO' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.1; SCH-R970X Build/LRX22C; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.68 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -3552,7 +3552,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-BQ' => [
+    'issue-1125-BP' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.1; SM-N910P Build/LRX22C; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -3605,7 +3605,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-BR' => [
+    'issue-1125-BQ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.1; SM-N915V Build/LRX22C; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -3658,7 +3658,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-BS' => [
+    'issue-1125-BR' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.1; SPH-L720 Build/LRX22C; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/100.0.0.20.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -3711,7 +3711,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-BT' => [
+    'issue-1125-BS' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.1; SPH-L720T Build/LRX22C; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.68 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -3764,7 +3764,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-BU' => [
+    'issue-1125-BT' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; 6045O Build/LRX22G; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -3817,7 +3817,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-BV' => [
+    'issue-1125-BU' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; Alcatel 7046T Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.76 Mobile Safari/537.36',
         'properties' => [
             'Comment' => 'Chrome 46.0',
@@ -3870,7 +3870,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-BW' => [
+    'issue-1125-BV' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; HTC Desire Eye Build/LRX22G; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -3923,7 +3923,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-BX' => [
+    'issue-1125-BW' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; HTC6500LVW Build/LRX22G; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.68 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/100.0.0.20.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -3976,7 +3976,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-BY' => [
+    'issue-1125-BX' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; LG-D800 Build/LRX22G; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -4029,7 +4029,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-BZ' => [
+    'issue-1125-BY' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; LG-D801 Build/LRX22G; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -4082,7 +4082,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-CA' => [
+    'issue-1125-BZ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; LG-LS980 Build/LRX22G; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -4135,7 +4135,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-CB' => [
+    'issue-1125-CA' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; LG-V410 Build/LRX22G; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.68 Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -4188,7 +4188,7 @@ return [
         'lite' => false,
         'standard' => true,
     ],
-    'issue-1125-CC' => [
+    'issue-1125-CB' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; LG-V495 Build/LRX22G; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Safari/537.36 [FB_IAB/FB4A;FBAV/100.0.0.20.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -4241,7 +4241,7 @@ return [
         'lite' => false,
         'standard' => true,
     ],
-    'issue-1125-CD' => [
+    'issue-1125-CC' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; SAMSUNG-SM-G850A Build/LRX22G; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -4294,7 +4294,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-CE' => [
+    'issue-1125-CD' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; SAMSUNG-SM-G920A Build/LRX22G; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.68 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -4347,7 +4347,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-CF' => [
+    'issue-1125-CE' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; SM-S920L Build/LRX22G; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/50.0.2661.86 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/100.0.0.20.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -4400,7 +4400,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-CG' => [
+    'issue-1125-CF' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; SM-T357T Build/LRX22G; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.68 Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -4453,7 +4453,7 @@ return [
         'lite' => false,
         'standard' => true,
     ],
-    'issue-1125-CH' => [
+    'issue-1125-CG' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; SM-T530NU Build/LRX22G; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.68 Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -4506,7 +4506,7 @@ return [
         'lite' => false,
         'standard' => true,
     ],
-    'issue-1125-CI' => [
+    'issue-1125-CH' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; SM-T800 Build/LRX22G; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -4559,7 +4559,7 @@ return [
         'lite' => false,
         'standard' => true,
     ],
-    'issue-1125-CJ' => [
+    'issue-1125-CI' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; VK810 4G Build/LRX22G; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/47.0.2526.100 Safari/537.36 [FB_IAB/FB4A;FBAV/98.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -4612,7 +4612,7 @@ return [
         'lite' => false,
         'standard' => true,
     ],
-    'issue-1125-CK' => [
+    'issue-1125-CJ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; VS980 4G Build/LRX22G; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -4665,7 +4665,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-CL' => [
+    'issue-1125-CK' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0; BLU STUDIO XL Build/LRX21M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.68 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -4718,7 +4718,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-CM' => [
+    'issue-1125-CL' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0; SAMSUNG-SM-G870A Build/LRX21T; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.124 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/97.0.0.18.69;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -4771,7 +4771,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-CN' => [
+    'issue-1125-CM' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0; SAMSUNG-SM-G900A Build/LRX21T; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.68 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -4824,7 +4824,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-CO' => [
+    'issue-1125-CN' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0; SAMSUNG-SM-G900AZ Build/LRX21T; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.68 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -4877,7 +4877,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-CP' => [
+    'issue-1125-CO' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0; SM-G900H Build/LRX21T; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -4930,7 +4930,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-CQ' => [
+    'issue-1125-CP' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/97.0.0.18.69;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -4983,7 +4983,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-CR' => [
+    'issue-1125-CQ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0; SM-G900R7 Build/LRX21T; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -5036,7 +5036,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-CS' => [
+    'issue-1125-CR' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0; SM-G900V Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/37.0.0.0 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/100.0.0.20.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -5089,7 +5089,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-CT' => [
+    'issue-1125-CS' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0; SM-N900P Build/LRX21V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -5142,7 +5142,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-CU' => [
+    'issue-1125-CT' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0; SM-N900R4 Build/LRX21V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -5195,7 +5195,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-CV' => [
+    'issue-1125-CU' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0; SM-N900T Build/LRX21V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -5248,7 +5248,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-CW' => [
+    'issue-1125-CV' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0; SM-N900V Build/LRX21V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/50.0.2661.86 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/100.0.0.20.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -5301,7 +5301,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-CX' => [
+    'issue-1125-CW' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; 5017B Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -5354,7 +5354,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-CY' => [
+    'issue-1125-CX' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; 5054N Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/52.0.2743.98 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/99.0.0.26.69;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -5407,7 +5407,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-CZ' => [
+    'issue-1125-CY' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; 5054W Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/103.0.0.15.72;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -5460,7 +5460,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-DA' => [
+    'issue-1125-CZ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; A621BL Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -5513,7 +5513,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-DB' => [
+    'issue-1125-DA' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; C6743 Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.68 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -5566,7 +5566,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-DC' => [
+    'issue-1125-DB' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; Coolpad 3320A Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/100.0.0.20.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -5619,7 +5619,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-DD' => [
+    'issue-1125-DC' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; Coolpad 3622A Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.68 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -5672,7 +5672,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-DE' => [
+    'issue-1125-DD' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; E6782 Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -5725,7 +5725,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-DF' => [
+    'issue-1125-DE' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; KYOCERA-C6742 Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/45.0.2454.95 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/98.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -5778,7 +5778,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-DG' => [
+    'issue-1125-DF' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; KYOCERA-E6560 Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.68 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -5831,7 +5831,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-DH' => [
+    'issue-1125-DG' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; LG-H634 Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/46.0.2490.76 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/100.0.0.20.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -5884,7 +5884,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-DI' => [
+    'issue-1125-DH' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; LG-H901 Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -5937,7 +5937,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-DJ' => [
+    'issue-1125-DI' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; LG-H950 Build/LMY47S; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.68 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -5990,7 +5990,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-DK' => [
+    'issue-1125-DJ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; LG-K120 Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -6043,7 +6043,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-DL' => [
+    'issue-1125-DK' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; LG-K330 Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/46.0.2490.76 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/99.0.0.26.69;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -6096,7 +6096,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-DM' => [
+    'issue-1125-DL' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; LGL51AL Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.68 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -6149,7 +6149,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-DN' => [
+    'issue-1125-DM' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; LGL62VL Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -6202,7 +6202,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-DO' => [
+    'issue-1125-DN' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; LGL82VL Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -6255,7 +6255,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-DP' => [
+    'issue-1125-DO' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; LGLS665 Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.68 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/100.0.0.20.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -6308,7 +6308,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-DQ' => [
+    'issue-1125-DP' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; LGLS675 Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.68 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -6361,7 +6361,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-DT' => [
+    'issue-1125-DQ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; N9132 Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.68 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/100.0.0.20.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -6414,7 +6414,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-DU' => [
+    'issue-1125-DR' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; QTAQZ3 Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -6467,7 +6467,7 @@ return [
         'lite' => false,
         'standard' => true,
     ],
-    'issue-1125-DV' => [
+    'issue-1125-DS' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG-SM-G530A Build/LMY48B; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -6520,7 +6520,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-DW' => [
+    'issue-1125-DT' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG-SM-G530AZ Build/LMY48B; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.68 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -6573,7 +6573,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-DX' => [
+    'issue-1125-DU' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG-SM-G800A Build/LMY47X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -6626,7 +6626,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-DY' => [
+    'issue-1125-DV' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG-SM-G870A Build/LMY47X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.68 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -6679,7 +6679,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-DZ' => [
+    'issue-1125-DW' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG-SM-G890A Build/LMY47X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.68 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -6732,7 +6732,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-EA' => [
+    'issue-1125-DX' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG-SM-G900A Build/LMY47X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -6785,7 +6785,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-EB' => [
+    'issue-1125-DY' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG-SM-G920A Build/LMY47X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -6838,7 +6838,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-EC' => [
+    'issue-1125-DZ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG-SM-G925A Build/LMY47X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.68 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -6891,7 +6891,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-ED' => [
+    'issue-1125-EA' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG-SM-G928A Build/LMY47X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -6944,7 +6944,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-EE' => [
+    'issue-1125-EB' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG-SM-N910A Build/LMY47X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -6997,7 +6997,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-EF' => [
+    'issue-1125-EC' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG-SM-N915A Build/LMY47X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/52.0.2743.91 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -7050,7 +7050,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-EG' => [
+    'issue-1125-ED' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG-SM-T337A Build/LMY47X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.68 Safari/537.36 [FB_IAB/FB4A;FBAV/100.0.0.20.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -7103,7 +7103,7 @@ return [
         'lite' => false,
         'standard' => true,
     ],
-    'issue-1125-EH' => [
+    'issue-1125-EE' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SM-G360T Build/LMY47X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/49.0.2623.105 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/100.0.0.20.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -7156,7 +7156,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-EJ' => [
+    'issue-1125-EF' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SM-G360V Build/LMY48B; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.68 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -7209,7 +7209,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-EK' => [
+    'issue-1125-EG' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SM-G530P Build/LMY47X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.68 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -7262,7 +7262,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-EL' => [
+    'issue-1125-EH' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SM-G530R4 Build/LMY47X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.124 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -7315,7 +7315,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-EM' => [
+    'issue-1125-EI' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SM-G530R7 Build/LMY47X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -7368,7 +7368,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-EO' => [
+    'issue-1125-EJ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SM-G530T1 Build/LMY47X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.68 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -7421,7 +7421,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-EP' => [
+    'issue-1125-EK' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SM-G800H Build/LMY47X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.68 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -7474,7 +7474,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-EQ' => [
+    'issue-1125-EL' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SM-G900T Build/LMY47X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -7527,7 +7527,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-ER' => [
+    'issue-1125-EM' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SM-G920I Build/LMY47X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -7580,7 +7580,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-ES' => [
+    'issue-1125-EN' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SM-G920P Build/LMY47X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -7633,7 +7633,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-ET' => [
+    'issue-1125-EO' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SM-G920V Build/LMY47X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.68 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -7686,7 +7686,7 @@ return [
         'lite' => false,
         'standard' => true,
     ],
-    'issue-1125-EU' => [
+    'issue-1125-EP' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SM-J100VPP Build/LMY48B; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.124 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/100.0.0.20.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -7739,7 +7739,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-EV' => [
+    'issue-1125-EQ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SM-J320H Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -7792,7 +7792,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-EX' => [
+    'issue-1125-ER' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SM-N910T Build/LMY49J) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/39.0.0.0 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -7845,7 +7845,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-EY' => [
+    'issue-1125-ES' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SM-N910V Build/LMY47X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -7898,7 +7898,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-EZ' => [
+    'issue-1125-ET' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SM-N920T Build/LMY47X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -7951,7 +7951,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-FA' => [
+    'issue-1125-EU' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SM-T330NU Build/LMY47X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -8004,7 +8004,7 @@ return [
         'lite' => false,
         'standard' => true,
     ],
-    'issue-1125-FB' => [
+    'issue-1125-EV' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SM-T537V Build/LMY47X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -8057,7 +8057,7 @@ return [
         'lite' => false,
         'standard' => true,
     ],
-    'issue-1125-FC' => [
+    'issue-1125-EW' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; VS425PP Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/100.0.0.20.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -8110,7 +8110,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-FD' => [
+    'issue-1125-EX' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; Y538 Build/HuaweiY538) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/39.0.0.0 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -8163,7 +8163,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-FH' => [
+    'issue-1125-EY' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1; AS986 Build/LMY47D; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -8216,7 +8216,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-FI' => [
+    'issue-1125-EZ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1; HTC Desire 626s Build/LMY47O; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.124 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -8269,7 +8269,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-FJ' => [
+    'issue-1125-FA' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1; HTCD100LVWPP Build/LMY47O; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.68 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -8322,7 +8322,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-FK' => [
+    'issue-1125-FB' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1; LGLS991 Build/LMY47D; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -8375,7 +8375,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-FL' => [
+    'issue-1125-FC' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1; MotoE2(4G-LTE) Build/LPIS23.29-18.9-2; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.68 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -8428,7 +8428,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-FM' => [
+    'issue-1125-FD' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1; U613 Build/LMY47D; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -8481,7 +8481,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-FN' => [
+    'issue-1125-FE' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1; XT1045 Build/LPBS23.13-61-1; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -8534,7 +8534,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-FO' => [
+    'issue-1125-FF' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1; XT1094 Build/LPE23.32-39-R-28; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.68 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/100.0.0.20.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -8587,7 +8587,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-FP' => [
+    'issue-1125-FG' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1; XT1096 Build/LPES23.32-25-5-2; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.68 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -8640,7 +8640,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-FQ' => [
+    'issue-1125-FH' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1; XT1097 Build/LPES23.32-21.9-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -8693,7 +8693,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-FR' => [
+    'issue-1125-FI' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1; XT1254 Build/SU4TL-49) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.68 Mobile Safari/537.36',
         'properties' => [
             'Comment' => 'Chrome 54.0',
@@ -8746,7 +8746,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-FT' => [
+    'issue-1125-FJ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1; Z813 Build/LMY47O; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -8799,7 +8799,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-FU' => [
+    'issue-1125-FK' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1; Z818L Build/LMY47O; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -8852,7 +8852,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-FW' => [
+    'issue-1125-FL' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1; Z936L Build/LMY47O; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/100.0.0.20.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -8905,7 +8905,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-FX' => [
+    'issue-1125-FM' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1; Z958 Build/LMY47O; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -8958,7 +8958,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-FZ' => [
+    'issue-1125-FN' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; 2PQ93 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -9011,7 +9011,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-GA' => [
+    'issue-1125-FO' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; 2PS64 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -9064,7 +9064,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-GC' => [
+    'issue-1125-FP' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; 6045O Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -9117,7 +9117,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-GD' => [
+    'issue-1125-FQ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; D6603 Build/23.5.A.0.575; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -9170,7 +9170,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-GE' => [
+    'issue-1125-FR' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; HTC 10 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -9223,7 +9223,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-GF' => [
+    'issue-1125-FS' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; HTC Desire 626s Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.89 Mobile Safari/537.36',
         'properties' => [
             'Comment' => 'Chrome 50.0',
@@ -9276,7 +9276,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-GG' => [
+    'issue-1125-FT' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; HTC6545LVW Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -9329,7 +9329,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-GH' => [
+    'issue-1125-FU' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; HTCD100LVW Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -9382,7 +9382,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-GI' => [
+    'issue-1125-FV' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; HTCD160LVWPP Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -9435,7 +9435,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-GJ' => [
+    'issue-1125-FW' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; LG-H820 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -9488,7 +9488,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-GK' => [
+    'issue-1125-FX' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; LG-H830 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/100.0.0.20.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -9541,7 +9541,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-GL' => [
+    'issue-1125-FY' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; LG-K425 Build/MXB48T; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -9594,7 +9594,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-GM' => [
+    'issue-1125-FZ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; LG-K428 Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Mobile Safari/537.36',
         'properties' => [
             'Comment' => 'Chrome 51.0',
@@ -9647,7 +9647,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-GN' => [
+    'issue-1125-GA' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; LG-K550 Build/MXB48T; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/49.0.2623.105 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -9700,7 +9700,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-GR' => [
+    'issue-1125-GB' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; LGLS992 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -9753,7 +9753,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-GS' => [
+    'issue-1125-GC' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; LGMS428 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.68 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -9806,7 +9806,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-GT' => [
+    'issue-1125-GD' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; LGMS550 Build/MXB48T; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.124 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -9859,7 +9859,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-GU' => [
+    'issue-1125-GE' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; Moto G (4) Build/MPJ24.139-64; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -9912,7 +9912,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-GV' => [
+    'issue-1125-GF' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; MotoG3 Build/MCI24.107-79; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.68 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -9965,7 +9965,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-GW' => [
+    'issue-1125-GG' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; N9519 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/48.0.2564.106 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/100.0.0.20.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -10018,7 +10018,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-GX' => [
+    'issue-1125-GH' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/M4B30X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.68 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -10071,7 +10071,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-GY' => [
+    'issue-1125-GI' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; Nexus 6 Build/MMB30Y; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.68 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/100.0.0.20.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -10124,7 +10124,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-GZ' => [
+    'issue-1125-GJ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG SM-G900T Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/4.0 Chrome/44.0.2403.133 Mobile Safari/537.36',
         'properties' => [
             'Comment' => 'Samsung Browser 4.0',
@@ -10177,7 +10177,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-HA' => [
+    'issue-1125-GK' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG-SM-G870A Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -10230,7 +10230,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-HB' => [
+    'issue-1125-GL' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG-SM-G890A Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.124 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/100.0.0.20.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -10283,7 +10283,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-HC' => [
+    'issue-1125-GM' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG-SM-G891A Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/49.0.2623.105 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -10336,7 +10336,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-HD' => [
+    'issue-1125-GN' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG-SM-G900A Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.68 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -10389,7 +10389,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-HE' => [
+    'issue-1125-GO' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG-SM-G920A Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/48.0.2564.106 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -10442,7 +10442,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-HF' => [
+    'issue-1125-GP' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG-SM-G920AZ Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -10495,7 +10495,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-HG' => [
+    'issue-1125-GQ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG-SM-G925A Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.68 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -10548,7 +10548,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-HH' => [
+    'issue-1125-GR' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG-SM-G928A Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -10601,7 +10601,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-HI' => [
+    'issue-1125-GS' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG-SM-G930A Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/49.0.2623.105 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -10654,7 +10654,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-HJ' => [
+    'issue-1125-GT' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG-SM-G935A Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/46.0.2490.76 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -10707,7 +10707,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-HK' => [
+    'issue-1125-GU' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG-SM-J120A Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/46.0.2490.76 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -10760,7 +10760,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-HL' => [
+    'issue-1125-GV' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG-SM-J120AZ Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/52.0.2743.98 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -10813,7 +10813,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-HM' => [
+    'issue-1125-GW' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG-SM-J320A Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.68 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -10866,7 +10866,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-HN' => [
+    'issue-1125-GX' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG-SM-J320AZ Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/46.0.2490.76 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/100.0.0.20.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -10919,7 +10919,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-HO' => [
+    'issue-1125-GY' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG-SM-N910A Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -10972,7 +10972,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-HP' => [
+    'issue-1125-GZ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG-SM-N915A Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.68 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -11025,7 +11025,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-HQ' => [
+    'issue-1125-HA' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG-SM-N920A Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/49.0.2623.105 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -11078,7 +11078,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-HR' => [
+    'issue-1125-HB' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG-SM-N930A Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -11131,7 +11131,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-HS' => [
+    'issue-1125-HC' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG-SM-T377A Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -11184,7 +11184,7 @@ return [
         'lite' => false,
         'standard' => true,
     ],
-    'issue-1125-HT' => [
+    'issue-1125-HD' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G550T Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.68 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -11237,7 +11237,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-HV' => [
+    'issue-1125-HE' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G860P Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -11290,7 +11290,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-HW' => [
+    'issue-1125-HF' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G900F Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -11343,7 +11343,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-HX' => [
+    'issue-1125-HG' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G900P Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/49.0.2623.105 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -11396,7 +11396,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-HY' => [
+    'issue-1125-HH' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G900R4 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -11449,7 +11449,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-HZ' => [
+    'issue-1125-HI' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G900R6 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -11502,7 +11502,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-IA' => [
+    'issue-1125-HJ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G900R7 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -11555,7 +11555,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-IB' => [
+    'issue-1125-HK' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G900T Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/52.0.2743.98 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/100.0.0.20.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -11608,7 +11608,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-IC' => [
+    'issue-1125-HL' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G900V Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/100.0.0.20.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -11661,7 +11661,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-ID' => [
+    'issue-1125-HM' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G920I Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -11714,7 +11714,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-IE' => [
+    'issue-1125-HN' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G920P Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/48.0.2564.106 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -11767,7 +11767,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-IF' => [
+    'issue-1125-HO' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G920R4 Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -11820,7 +11820,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-IG' => [
+    'issue-1125-HP' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G920R7 Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -11873,7 +11873,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-IH' => [
+    'issue-1125-HQ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G920T Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/48.0.2564.106 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/100.0.0.20.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -11926,7 +11926,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-II' => [
+    'issue-1125-HR' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G920T1 Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/48.0.2564.106 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -11979,7 +11979,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-IJ' => [
+    'issue-1125-HS' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G920V Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/48.0.2564.106 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/94.0.0.17.68;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -12032,7 +12032,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-IK' => [
+    'issue-1125-HT' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G925P Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/49.0.2623.105 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/100.0.0.20.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -12085,7 +12085,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-IL' => [
+    'issue-1125-HU' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G925R4 Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/49.0.2623.105 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -12138,7 +12138,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-IM' => [
+    'issue-1125-HV' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G925T Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/48.0.2564.106 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -12191,7 +12191,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-IN' => [
+    'issue-1125-HW' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G925V Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.68 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -12244,7 +12244,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-IO' => [
+    'issue-1125-HX' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G928P Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -12297,7 +12297,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-IP' => [
+    'issue-1125-HY' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G928T Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/49.0.2623.105 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/100.0.0.20.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -12350,7 +12350,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-IQ' => [
+    'issue-1125-HZ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G928V Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.68 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/100.0.0.20.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -12403,7 +12403,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-IR' => [
+    'issue-1125-IA' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G930P Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/50.0.2661.86 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -12456,7 +12456,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-IT' => [
+    'issue-1125-IB' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G930R6 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -12509,7 +12509,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-IU' => [
+    'issue-1125-IC' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G930T Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/50.0.2661.86 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -12562,7 +12562,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-IV' => [
+    'issue-1125-ID' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G930V Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -12615,7 +12615,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-IW' => [
+    'issue-1125-IE' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G935F Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/48.0.2564.106 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -12668,7 +12668,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-IX' => [
+    'issue-1125-IF' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G935P Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/50.0.2661.86 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/100.0.0.20.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -12721,7 +12721,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-IY' => [
+    'issue-1125-IG' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G935R4 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/52.0.2743.98 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/98.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -12774,7 +12774,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-JA' => [
+    'issue-1125-IH' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G935U Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -12827,7 +12827,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-JB' => [
+    'issue-1125-II' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G935V Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/49.0.2623.105 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -12880,7 +12880,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-JC' => [
+    'issue-1125-IJ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-J320V Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/48.0.2564.106 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/100.0.0.20.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -12933,7 +12933,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-JD' => [
+    'issue-1125-IK' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-J700P Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/49.0.2623.105 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -12986,7 +12986,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-JF' => [
+    'issue-1125-IL' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-J700T1 Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -13039,7 +13039,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-JG' => [
+    'issue-1125-IM' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-N910H Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.68 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -13092,7 +13092,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-JH' => [
+    'issue-1125-IN' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-N910P Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/52.0.2743.98 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -13145,7 +13145,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-JI' => [
+    'issue-1125-IO' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-N910R4 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -13198,7 +13198,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-JJ' => [
+    'issue-1125-IP' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-N910T Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.124 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -13251,7 +13251,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-JK' => [
+    'issue-1125-IQ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-N910T3 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -13304,7 +13304,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-JL' => [
+    'issue-1125-IR' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-N910V Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.124 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/99.0.0.26.69;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -13357,7 +13357,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-JM' => [
+    'issue-1125-IS' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-N915P Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -13410,7 +13410,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-JN' => [
+    'issue-1125-IT' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-N915T Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -13463,7 +13463,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-JO' => [
+    'issue-1125-IU' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-N915V Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.68 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -13516,7 +13516,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-JP' => [
+    'issue-1125-IV' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-N920P Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/99.0.0.26.69;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -13569,7 +13569,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-JQ' => [
+    'issue-1125-IW' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-N920R7 Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -13622,7 +13622,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-JR' => [
+    'issue-1125-IX' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-N920T Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/49.0.2623.105 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -13675,7 +13675,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-JS' => [
+    'issue-1125-IY' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-N920V Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/49.0.2623.105 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -13728,7 +13728,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-JT' => [
+    'issue-1125-IZ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-N930T Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -13781,7 +13781,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-JU' => [
+    'issue-1125-JA' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-N930V Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -13834,7 +13834,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-JV' => [
+    'issue-1125-JB' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-S320VL Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.68 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -13887,7 +13887,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-JW' => [
+    'issue-1125-JC' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-T350 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -13940,7 +13940,7 @@ return [
         'lite' => false,
         'standard' => true,
     ],
-    'issue-1125-JX' => [
+    'issue-1125-JD' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-T550 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -13993,7 +13993,7 @@ return [
         'lite' => false,
         'standard' => true,
     ],
-    'issue-1125-JY' => [
+    'issue-1125-JE' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-T580 Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -14046,7 +14046,7 @@ return [
         'lite' => false,
         'standard' => true,
     ],
-    'issue-1125-JZ' => [
+    'issue-1125-JF' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-T800 Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -14099,7 +14099,7 @@ return [
         'lite' => false,
         'standard' => true,
     ],
-    'issue-1125-KA' => [
+    'issue-1125-JG' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-T817V Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -14152,7 +14152,7 @@ return [
         'lite' => false,
         'standard' => true,
     ],
-    'issue-1125-KB' => [
+    'issue-1125-JH' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; STV100-1 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -14205,7 +14205,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-KC' => [
+    'issue-1125-JI' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; VS987 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.68 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/100.0.0.20.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -14258,7 +14258,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-KD' => [
+    'issue-1125-JJ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; XT1565 Build/MCD24.107-51.5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.124 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/100.0.0.20.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -14311,7 +14311,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-KE' => [
+    'issue-1125-JK' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; XT1585 Build/MCK24.183-22; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.68 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/100.0.0.20.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -14364,7 +14364,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-KF' => [
+    'issue-1125-JL' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; XT1635-01 Build/MCOS24.104-35-1-9; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -14417,7 +14417,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-KG' => [
+    'issue-1125-JM' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; XT1650 Build/MCLS24.246-36-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.68 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -14470,7 +14470,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-KI' => [
+    'issue-1125-JN' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0; 0PJA2 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -14523,7 +14523,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-KJ' => [
+    'issue-1125-JO' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0; 831C Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -14576,7 +14576,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-KK' => [
+    'issue-1125-JP' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0; HTC One A9 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/45.0.2454.95 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/100.0.0.20.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -14629,7 +14629,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-KL' => [
+    'issue-1125-JQ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0; HTC One M9 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.68 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -14682,7 +14682,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-KM' => [
+    'issue-1125-JR' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0; HTC One_M8 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -14735,7 +14735,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-KN' => [
+    'issue-1125-JS' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0; HTC6535LVW Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -14788,7 +14788,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-KO' => [
+    'issue-1125-JT' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0; LG-D850 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -14841,7 +14841,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-KP' => [
+    'issue-1125-JU' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0; LG-D851 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -14894,7 +14894,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-KQ' => [
+    'issue-1125-JV' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0; LG-H631 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.68 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -14947,7 +14947,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-KR' => [
+    'issue-1125-JW' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0; LG-H810 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -15000,7 +15000,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-KS' => [
+    'issue-1125-JX' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0; LG-H811 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.124 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/99.0.0.26.69;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -15053,7 +15053,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-KT' => [
+    'issue-1125-JY' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0; LG-H900 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -15106,7 +15106,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-KU' => [
+    'issue-1125-JZ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0; LG-H901 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.68 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -15159,7 +15159,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-KV' => [
+    'issue-1125-KA' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0; LG-K371 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.124 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/100.0.0.20.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -15212,7 +15212,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-KW' => [
+    'issue-1125-KB' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0; LG-K373 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -15265,7 +15265,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-KX' => [
+    'issue-1125-KC' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0; LGLS770 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -15318,7 +15318,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-KY' => [
+    'issue-1125-KD' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0; LGLS991 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.68 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -15371,7 +15371,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-KZ' => [
+    'issue-1125-KE' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0; LGMS631 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.68 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -15424,7 +15424,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-LA' => [
+    'issue-1125-KF' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0; LGUS991 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.68 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -15477,7 +15477,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-LC' => [
+    'issue-1125-KG' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0; R1 HD Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -15530,7 +15530,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-LD' => [
+    'issue-1125-KH' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0; VS985 4G Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -15583,7 +15583,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-LF' => [
+    'issue-1125-KI' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0; VS990 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.68 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -15636,7 +15636,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-LG' => [
+    'issue-1125-KJ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0; XT1064 Build/MPBS24.65-34-4; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -15689,7 +15689,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-LH' => [
+    'issue-1125-KK' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0; XT1575 Build/MPHS24.49-18-4; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -15742,7 +15742,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-LJ' => [
+    'issue-1125-KL' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0; thl T9 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -15795,7 +15795,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-LK' => [
+    'issue-1125-KM' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 7.0; 2PYB2 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -15848,7 +15848,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-LL' => [
+    'issue-1125-KN' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 7.0; LG-H910 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/52.0.2743.98 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -15901,7 +15901,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-LM' => [
+    'issue-1125-KO' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 7.0; LG-H918 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/52.0.2743.98 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/100.0.0.20.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -15954,7 +15954,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-LN' => [
+    'issue-1125-KP' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 7.0; Nexus 5X Build/NBD90W; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -16007,7 +16007,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-LO' => [
+    'issue-1125-KQ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 7.0; Nexus 6 Build/NBD90Z; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -16060,7 +16060,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-LP' => [
+    'issue-1125-KR' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 7.0; Nexus 6P Build/NBD91K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -16113,7 +16113,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-LQ' => [
+    'issue-1125-KS' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 7.0; VS995 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -16166,7 +16166,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-LS' => [
+    'issue-1125-KT' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-us; QMV7A Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30 [FB_IAB/FB4A;FBAV/100.0.0.20.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -16219,7 +16219,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-LT' => [
+    'issue-1125-KU' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-us; ALCATEL A845L Build/JLS36C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 [FB_IAB/FB4A;FBAV/100.0.0.20.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -16272,7 +16272,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-LU' => [
+    'issue-1125-KV' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-us; C6606 Build/10.4.C.0.814) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -16325,7 +16325,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-LV' => [
+    'issue-1125-KW' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-us; SAMSUNG-SM-N900A Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -16378,7 +16378,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-LW' => [
+    'issue-1125-KX' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-us; SM-S975L Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 [FB_IAB/FB4A;FBAV/100.0.0.20.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -16431,7 +16431,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-LX' => [
+    'issue-1125-KY' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-us; Z797C Build/JLS36C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -16484,7 +16484,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-LY' => [
+    'issue-1125-KZ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; LG-K428 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -16537,7 +16537,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-LZ' => [
+    'issue-1125-LA' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 7.1; Pixel Build/NDE63P; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/102.0.0.28.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
@@ -16590,7 +16590,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1125-LZ' => [
+    'issue-1125-LB' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 7.1; Pixel XL Build/NDE63P; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/101.0.0.18.70;]',
         'properties' => [
             'Comment' => 'Facebook App for Android',
