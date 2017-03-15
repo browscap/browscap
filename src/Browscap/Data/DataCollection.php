@@ -384,6 +384,26 @@ class DataCollection
                         );
                     }
 
+                    if (isset($child['platforms'])
+                        && count($child['platforms']) > 1
+                        && strpos($child['match'], '#PLATFORM#') === false
+                    ) {
+                        throw new \LogicException(
+                            'the "platforms" entry contains multiple platforms but there is no #PLATFORM# token for key "'
+                            . $useragent['userAgent'] . '", for child data: ' . json_encode($child)
+                        );
+                    }
+
+                    if (isset($child['devices'])
+                        && count($child['devices']) > 1
+                        && strpos($child['match'], '#DEVICE#') === false
+                    ) {
+                        throw new \LogicException(
+                            'the "devices" entry contains multiple devices but there is no #DEVICE# token for key "'
+                            . $useragent['userAgent'] . '", for child data: ' . json_encode($child)
+                        );
+                    }
+
                     if (preg_match('/[\[\]]/', $child['match'])) {
                         throw new \UnexpectedValueException(
                             'key "' . $child['match'] . '" includes invalid characters'
