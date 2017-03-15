@@ -195,22 +195,21 @@
             "N9519": "ZTE N9519",
             "Nexus 5": "LG Nexus 5",
             "R1 HD": "BLU R1 HD",
-            "SAMSUNG-SM-G891A": "Samsung SM-G891A",
-            "SAMSUNG-SM-G920AZ": "Samsung SM-G920AZ",
-            "SAMSUNG-SM-G930A": "Samsung SM-G930A",
-            "SAMSUNG-SM-G935A": "Samsung SM-G935A",
-            "SAMSUNG-SM-J120A": "Samsung SM-J120A",
-            "SAMSUNG-SM-J120AZ": "Samsung SM-J120AZ",
-            "SAMSUNG-SM-J320A": "Samsung SM-J320A",
-            "SAMSUNG-SM-J320AZ": "Samsung SM-J320AZ",
-            "SAMSUNG-SM-N920A": "Samsung SM-N920A",
-            "SAMSUNG-SM-N930A": "Samsung SM-N930A",
-            "SAMSUNG-SM-T377A": "Samsung SM-T377A",
+            "SM-G891A": "Samsung SM-G891A",
+            "SM-G920AZ": "Samsung SM-G920AZ",
+            "SM-G930A": "Samsung SM-G930A",
+            "SM-G935A": "Samsung SM-G935A",
+            "SM-J120A": "Samsung SM-J120A",
+            "SM-J120AZ": "Samsung SM-J120AZ",
+            "SM-J320A": "Samsung SM-J320A",
+            "SM-J320AZ": "Samsung SM-J320AZ",
+            "SM-N920A": "Samsung SM-N920A",
+            "SM-N930A": "Samsung SM-N930A",
+            "SM-T377A": "Samsung SM-T377A",
             "SM-G550T": "Samsung SM-G550T",
             "SM-G550T1": "Samsung SM-G550T1",
             "SM-G860P": "Samsung SM-G860P",
             "SM-G890A": "Samsung SM-G890A",
-            "SM-G891A": "Samsung SM-G891A",
             "SM-G900R4": "Samsung SM-G900R4",
             "SM-G900R6": "Samsung SM-G900R6",
             "SM-G920R4": "Samsung SM-G920R4",
@@ -312,10 +311,10 @@
             "LGMS345": "LG MS345",
             "MotoE2(4G-LTE)": "Motorola XT1524",
             "N9132": "ZTE Prestige",
-            "SAMSUNG-SM-G530A": "Samsung SM-G530A",
-            "SAMSUNG-SM-G530AZ": "Samsung SM-G530AZ",
-            "SAMSUNG-SM-G800A": "Samsung SM-G800A",
-            "SAMSUNG-SM-T337A": "Samsung SM-T337A",
+            "SM-G530A": "Samsung SM-G530A",
+            "SM-G530AZ": "Samsung SM-G530AZ",
+            "SM-G800A": "Samsung SM-G800A",
+            "SM-T337A": "Samsung SM-T337A",
             "SM-G360T": "Samsung SM-G360T",
             "SM-G360T1": "Samsung SM-G360T1",
             "SM-G530A": "Samsung SM-G530A",
@@ -371,7 +370,7 @@
             "LGLS990": "LG LS990",
             "LGUS990": "LG US990",
             "RCT6773W42B": "RCA RCT6773W42B",
-            "SAMSUNG-SM-G900AZ": "Samsung SM-G900AZ",
+            "SM-G900AZ": "Samsung SM-G900AZ",
             "SCH-I545L": "Samsung SCH-I545L",
             "SCH-R970X": "Samsung SCH-R970X",
             "SM-G900H": "Samsung SM-G900H",
@@ -427,7 +426,7 @@
             "SAMSUNG-SGH-I257": "Samsung SGH-I257",
             "SAMSUNG-SGH-I317": "Samsung SGH-I317",
             "SAMSUNG-SGH-I527": "Samsung SGH-I527",
-            "SAMSUNG-SM-G730A": "Samsung SM-G730A",
+            "SM-G730A": "Samsung SM-G730A",
             "SCH-I435": "Samsung SCH-I435",
             "SCH-I535": "Samsung SCH-I535",
             "SCH-R530U": "Samsung SCH-R530U",
@@ -456,7 +455,13 @@
             "XT1080": "Motorola XT1080",
             "XT907": "Motorola XT907",
             "Z793C": "ZTE Z793C",
-            "Z970": "ZTE Z970"
+            "Z970": "ZTE Z970",
+            "GT-N5110": "Samsung GT-N5110",
+            "SM-G870A": "Samsung SM-G870A",
+            "SM-G900A": "Samsung SM-G900A",
+            "SM-G900AZ": "Samsung SM-G900AZ",
+            "SCH-I605": "Samsung SCH-I605",
+            "SPH-L720": "Samsung SPH-L720"
           },
           "platforms": [
             "Android_4_4"
@@ -468,7 +473,7 @@
             "Nexus 6": "Motorola Nexus 6"
           },
           "platforms": [
-            "Android_7_0", "Android_6_0"
+            "Android_7_0", "Android_6_1", "Android_6_0"
           ]
         },
         {
@@ -476,20 +481,12 @@
           "devices": {
             "XT1254": "Motorola XT1254",
             "SM-G900T": "Samsung SM-G900T",
-            "SM-N910T": "Samsung SM-N910T"
-          },
-          "platforms": [
-            "Android_6_0", "Android_5_1", "Android_4_4"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/*FBAV/*",
-          "devices": {
+            "SM-N910T": "Samsung SM-N910T",
             "SM-G900P": "Samsung SM-G900P",
             "SM-G900V": "Samsung SM-G900V"
           },
           "platforms": [
-            "Android_6_0", "Android_5_0", "Android_4_4"
+            "Android_6_0", "Android_5_1", "Android_5_0", "Android_4_4"
           ]
         },
         {
@@ -498,11 +495,11 @@
             "HTC Desire 626s": "HTC 0PM92",
             "LG-H901": "LG H901",
             "LGLS991": "LG LS991",
-            "SAMSUNG-SM-G890A": "Samsung SM-G890A",
-            "SAMSUNG-SM-G925A": "Samsung SM-G925A",
-            "SAMSUNG-SM-G928A": "Samsung SM-G928A",
-            "SAMSUNG-SM-N910A": "Samsung SM-N910A",
-            "SAMSUNG-SM-N915A": "Samsung SM-N915A",
+            "SM-G890A": "Samsung SM-G890A",
+            "SM-G925A": "Samsung SM-G925A",
+            "SM-G928A": "Samsung SM-G928A",
+            "SM-N910A": "Samsung SM-N910A",
+            "SM-N915A": "Samsung SM-N915A",
             "SM-G920I": "Samsung SM-G920I",
             "SM-G920P": "Samsung SM-G920P",
             "SM-G920V": "Samsung SM-G920V",
@@ -515,9 +512,9 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/*FBAV/*",
           "devices": {
-            "SAMSUNG-SM-G870A": "Samsung SM-G870A",
-            "SAMSUNG-SM-G900A": "Samsung SM-G900A",
-            "SAMSUNG-SM-G920A": "Samsung SM-G920A",
+            "SM-G870A": "Samsung SM-G870A",
+            "SM-G900A": "Samsung SM-G900A",
+            "SM-G920A": "Samsung SM-G920A",
             "SM-N910V": "Samsung SM-N910V"
           },
           "platforms": [
@@ -555,7 +552,7 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/*FBAV/*",
           "devices": {
             "SAMSUNG-SGH-I337": "Samsung SGH-I337",
-            "SAMSUNG-SM-G850A": "Samsung SM-G850A",
+            "SM-G850A": "Samsung SM-G850A",
             "SCH-I545": "Samsung SCH-I545",
             "SCH-R970": "Samsung SCH-R970",
             "SM-N900T": "Samsung SM-N900T",
@@ -631,7 +628,7 @@
             "HTC One max": "HTC 0P3P7",
             "Prime Mini SE": "Highscreen Prime Mini SE",
             "SM-N900": "Samsung SM-N900",
-            "SAMSUNG-SM-N900A": "Samsung SM-N900A",
+            "SM-N900A": "Samsung SM-N900A",
             "SM-S975L": "Samsung SM-S975L",
             "Smartfren Andromax AD688G": "Hisense AD688G",
             "Z797C": "ZTE Z797C"

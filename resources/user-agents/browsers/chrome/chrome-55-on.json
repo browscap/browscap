@@ -1255,10 +1255,24 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#Pixel C Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
-          "device": "Google Pixel C",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
+          "devices": {
+            "Pixel": "Google Pixel",
+            "Pixel XL": "Google Pixel XL",
+            "Pixel C": "Google Pixel C",
+            "Nexus 6P": "Huawei Nexus 6P"
+          },
           "platforms": [
             "Android_7_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
+          "devices": {
+            "XT1650": "Motorola XT1650"
+          },
+          "platforms": [
+            "Android_7_0"
           ]
         },
         {

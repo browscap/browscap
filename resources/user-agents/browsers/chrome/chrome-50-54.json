@@ -4079,6 +4079,29 @@
           ]
         },
         {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
+          "devices": {
+            "Pixel": "Google Pixel",
+            "Pixel XL": "Google Pixel XL",
+            "Nexus 6P": "Huawei Nexus 6P"
+          },
+          "platforms": [
+            "Android_7_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
+          "devices": {
+            "XT1650": "Motorola XT1650",
+            "VS995": "LG VS995",
+            "VS987": "LG VS987",
+            "Nexus 6": "Motorola Nexus 6"
+          },
+          "platforms": [
+            "Android_7_0"
+          ]
+        },
+        {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
           "platforms": [
             "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
