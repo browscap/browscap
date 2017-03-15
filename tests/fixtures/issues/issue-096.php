@@ -163,7 +163,7 @@ return [
     'issue-096-CB' => [
         'ua' => 'Mozilla/5.0(iPad; U;CPU OS 7 like Mac OS X; zh-CN; iPad2,5) AppleWebKit/534.46 (KHTML, like Gecko) UCBrowser/2.0.1.280 U3/0.8.0 Safari/7543.48.3',
         'properties' => [
-            'Comment' => 'UC Browser 2.0',
+            'Comment' => 'UC Browser 2.0 for iOS',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
