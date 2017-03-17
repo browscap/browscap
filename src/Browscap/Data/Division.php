@@ -70,8 +70,6 @@ class Division
      * @param bool   $standard
      * @param array  $versions
      * @param string $fileName
-     *
-     * @return void
      */
     public function __construct(
         string $name,

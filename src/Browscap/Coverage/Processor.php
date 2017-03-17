@@ -72,6 +72,11 @@ final class Processor implements ProcessorInterface
     private $fileCoveredIds = [];
 
     /**
+     * @var array
+     */
+    private $fileCoverage = [];
+
+    /**
      * Create a new Coverage Processor for the specified directory
      *
      * @param string $resourceDir
@@ -329,7 +334,7 @@ final class Processor implements ProcessorInterface
 
             if ($code === self::JSON_STRING && $lexer->yytext === 'children') {
                 $enterChildGroup = true;
-            } elseif ($code === self::JSON_ARRAY_START) {
+            } elseif ($code === self::JSON_ARRAY_START && $enterChildGroup === true) {
                 $code            = $this->handleChildrenGroup($lexer, $useragentPosition);
                 $enterChildGroup = false;
             } elseif ($code === self::JSON_OBJECT_START) {
