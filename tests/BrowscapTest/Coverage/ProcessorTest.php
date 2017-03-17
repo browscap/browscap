@@ -1,4 +1,7 @@
 <?php
+
+declare(strict_types=1);
+
 /**
  * Copyright (c) 1998-2017 Browser Capabilities Project
  *
@@ -24,7 +27,7 @@ use Browscap\Coverage\Processor;
  * @category   BrowscapTest
  * @author     Jay Klehr <jay.klehr@gmail.com>
  */
-class ProcessorTest extends \PHPUnit\Framework\TestCase
+final class ProcessorTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @var \Browscap\Coverage\Processor
@@ -38,6 +41,8 @@ class ProcessorTest extends \PHPUnit\Framework\TestCase
 
     /**
      * Run before each test, creates a new Processor object
+     *
+     * @return void
      */
     public function setUp()
     {
@@ -46,8 +51,10 @@ class ProcessorTest extends \PHPUnit\Framework\TestCase
 
     /**
      * Data provider for the testJsonStructure test
+     *
+     * @return array
      */
-    public function jsonStructureProvider()
+    public function jsonStructureProvider() : array
     {
         return [
             ['test1.json', ['statementCount' => 5, 'branchCount' => 1, 'functionCount' => 1]],
@@ -59,6 +66,8 @@ class ProcessorTest extends \PHPUnit\Framework\TestCase
      * This test verifies that the different structures were extracted from the test JSON files
      *
      * @dataProvider jsonStructureProvider
+     *
+     * @return void
      */
     public function testJsonStructure($fileName, $expected)
     {
@@ -76,48 +85,47 @@ class ProcessorTest extends \PHPUnit\Framework\TestCase
 
     /**
      * Data provider for the testCoverage test
+     *
+     * @return array
      */
-    public function coverageProvider()
+    public function coverageProvider() : array
     {
         return [
-            // No coverage
-            ['test1.json', [], [
+            'test1-no-coverage' => ['test1.json', [], [
                 's' => 0,
                 'b' => 0,
                 'f' => 0,
             ]],
-            // Partial coverage
-            ['test1.json', ['u0::c0::d::pPlatform_1'], [
+            'test1-partial-coverage' => ['test1.json', ['u0::c0::d::pPlatform_1'], [
                 's' => 4,
                 'b' => 1,
                 'f' => 1,
             ]],
-            // Full coverage (single)
-            ['test1.json', ['u0::c0::d::pPlatform_1', 'u0::c0::d::pPlatform_2'], [
+            'test1-full-coverage' => ['test1.json', ['u0::c0::d::pPlatform_1', 'u0::c0::d::pPlatform_2'], [
                 's' => 8,
                 'b' => 2,
                 'f' => 2,
             ]],
-            // Full coverage (pattern hit twice)
-            ['test1.json', ['u0::c0::d::pPlatform_1', 'u0::c0::d::pPlatform_2', 'u0::c0::d::pPlatform_2'], [
-                's' => 12,
-                'b' => 3,
-                'f' => 3,
-            ]],
-            // No coverage
-            ['test2.json', [], [
+            'test1-full-coverage-double' => [
+                'test1.json',
+                ['u0::c0::d::pPlatform_1', 'u0::c0::d::pPlatform_2', 'u0::c0::d::pPlatform_2'],
+                [
+                    's' => 12,
+                    'b' => 3,
+                    'f' => 3,
+                ],
+            ],
+            'test2-no-coverage' => ['test2.json', [], [
                 's' => 0,
                 'b' => 0,
                 'f' => 0,
             ]],
-            // Partial coverage
-            ['test2.json', ['u0::c0::d::pPlatform_1'], [
+            'test2-partial-coverage' => ['test2.json', ['u0::c0::d::pPlatform_1'], [
                 's' => 4,
                 'b' => 1,
                 'f' => 1,
             ]],
-            // Full coverage
-            [
+            'test2-full-coverage' => [
                 'test2.json',
                 [
                     'u0::c0::d::pPlatform_1',
@@ -139,10 +147,19 @@ class ProcessorTest extends \PHPUnit\Framework\TestCase
      * Tests that the amount of covered statements/branches/functions matches expected
      *
      * @dataProvider coverageProvider
+     * @param string   $fileName
+     * @param string[] $coveredIds
+     * @param array    $expected
+     *
+     * @return void
      */
-    public function testCoverage($fileName, $coveredIds, $expected)
+    public function testCoverage(string $fileName, array $coveredIds, array $expected)
     {
-        $coverage = $this->object->processFile($fileName, file_get_contents($this->resourceDir . $fileName), $coveredIds);
+        $coverage = $this->object->processFile(
+            $fileName,
+            file_get_contents($this->resourceDir . $fileName),
+            $coveredIds
+        );
 
         self::assertSame($expected['s'], array_sum($coverage['s']));
         self::assertSame($expected['f'], array_sum($coverage['f']));
@@ -158,6 +175,8 @@ class ProcessorTest extends \PHPUnit\Framework\TestCase
 
     /**
      * Tests that the collected patterns ids are grouped by filename prefix
+     *
+     * @return void
      */
     public function testPatternIdGrouping()
     {

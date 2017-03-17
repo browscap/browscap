@@ -57,7 +57,7 @@ class UserAgentsTest extends \PHPUnit\Framework\TestCase
     private static $propertyHolder = null;
 
     /**
-     * @var array
+     * @var string[]
      */
     private static $coveredPatterns = [];
 

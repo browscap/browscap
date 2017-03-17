@@ -1,4 +1,7 @@
 <?php
+
+declare(strict_types=1);
+
 /**
  * Copyright (c) 1998-2017 Browser Capabilities Project
  *
@@ -24,55 +27,27 @@ use Seld\JsonLint\Lexer;
  * @category   Browscap
  * @author     Jay Klehr <jay.klehr@gmail.com>
  */
-class Processor
+final class Processor implements ProcessorInterface
 {
+    /**@+
+     * @var int
+     */
+    const JSON_OBJECT_START = 17;
+    const JSON_OBJECT_END   = 18;
+    const JSON_ARRAY_START  = 23;
+    const JSON_ARRAY_END    = 24;
+    const JSON_EOF          = 1;
+    const JSON_STRING       = 4;
+    const JSON_COLON        = 21;
+    /**@-*/
+
     /**
      * @var string
      */
     private $resourceDir;
 
     /**
-     * These are available in the JSON Parser part of the JSON Lint package we're using
-     * to Lexically analyze the JSON file, but they're a private property so can't re-use them directly
-     *
-     * @var array
-     */
-    private $symbols = [
-        'error' => 2,
-        'JSONString' => 3,
-        'STRING' => 4,
-        'JSONNumber' => 5,
-        'NUMBER' => 6,
-        'JSONNullLiteral' => 7,
-        'NULL' => 8,
-        'JSONBooleanLiteral' => 9,
-        'TRUE' => 10,
-        'FALSE' => 11,
-        'JSONText' => 12,
-        'JSONValue' => 13,
-        'EOF' => 14,
-        'JSONObject' => 15,
-        'JSONArray' => 16,
-        '{' => 17,
-        '}' => 18,
-        'JSONMemberList' => 19,
-        'JSONMember' => 20,
-        ':' => 21,
-        ',' => 22,
-        '[' => 23,
-        ']' => 24,
-        'JSONElementList' => 25,
-        '$accept' => 0,
-        '$end' => 1,
-    ];
-
-    /**
-     * @var array
-     */
-    private $symbolLookup = [];
-
-    /**
-     * @var array
+     * @var int[]
      */
     private $coveredIds = [];
 
@@ -87,21 +62,31 @@ class Processor
     private $funcCount = 0;
 
     /**
+     * @var string[]
+     */
+    private $fileLines = [];
+
+    /**
+     * @var string[]
+     */
+    private $fileCoveredIds = [];
+
+    /**
      * Create a new Coverage Processor for the specified directory
      *
      * @param string $resourceDir
      */
-    public function __construct($resourceDir)
+    public function __construct(string $resourceDir)
     {
         $this->resourceDir = $resourceDir;
-
-        $this->symbolLookup = array_flip($this->symbols);
     }
 
     /**
      * Process the directory of JSON files using the collected pattern ids
      *
-     * @param array $coveredIds
+     * @param string[] $coveredIds
+     *
+     * @return void
      */
     public function process(array $coveredIds)
     {
@@ -133,15 +118,17 @@ class Processor
      * Write the coverage data in JSON format to specified filename
      *
      * @param string $fileName
+     *
+     * @return void
      */
-    public function write($fileName)
+    public function write(string $fileName)
     {
         file_put_contents(
             $fileName,
             // str_replace here is to convert empty arrays into empty JS objects, which is expected by
             // codecov.io. Owner of the service said he was going to patch it, haven't tested since
             // Note: Can't use JSON_FORCE_OBJECT here as we **do** want arrays for the 'b' structure
-            // which FORECE_OBJECT turns into objects, breaking at least the Istanbul coverage reporter
+            // which FORCE_OBJECT turns into objects, breaking at least the Istanbul coverage reporter
             str_replace('[]', '{}', json_encode($this->coverage, JSON_UNESCAPED_SLASHES))
         );
     }
@@ -149,7 +136,9 @@ class Processor
     /**
      * Stores passed in pattern ids, grouping them by file first
      *
-     * @param array $coveredIds
+     * @param string[] $coveredIds
+     *
+     * @return void
      */
     public function setCoveredPatternIds(array $coveredIds)
     {
@@ -161,7 +150,7 @@ class Processor
      *
      * @return array
      */
-    public function getCoveredPatternIds()
+    public function getCoveredPatternIds() : array
     {
         return $this->coveredIds;
     }
@@ -169,350 +158,462 @@ class Processor
     /**
      * Process an individual file for coverage data using covered ids
      *
-     * @param  string $file
-     * @param  string $contents
-     * @param  array  $coveredIds
+     * @param string   $file
+     * @param string   $contents
+     * @param string[] $coveredIds
+     *
      * @return array
      */
-    public function processFile($file, $contents, array $coveredIds)
+    public function processFile(string $file, string $contents, array $coveredIds) : array
     {
-        $coverage = [
+        // These keynames are expected by Istanbul compatible coverage reporters
+        // the format is outlined here: https://github.com/gotwarlost/istanbul/blob/master/coverage.json.md
+        $this->fileCoverage = [
+            // path to file this coverage information is for (i.e. resources/user-agents/browsers/chrome/chrome.json)
             'path' => $file,
+            // location information for the statements that should be covered
             'statementMap' => [],
+            // location information for the functions that should be covered
             'fnMap' => [],
+            // location information for the different branch structures that should be covered
             'branchMap' => [],
+            // coverage counts for the statements from statementMap
             's' => [],
+            // coverage counts for the branches from branchMap (in array form)
             'b' => [],
+            // coverage counts for the functions from fnMap
             'f' => [],
         ];
 
-        $lines = explode("\n", $contents);
-
-        $u = null;
-        $d = '';
-        $c = null;
-        $p = '';
-
-        $ignores              = [];
-        $sectionBranches      = [];
-        $waitForColon         = false;
-        $collectMatchPosition = false;
-
-        $state = '';
+        $this->fileLines      = explode("\n", $contents);
+        $this->fileCoveredIds = $coveredIds;
 
         $lexer = new Lexer();
         $lexer->setInput($contents);
 
-        do {
-            $code    = $lexer->lex();
-            $type    = $this->symbolLookup[$code];
-            $content = $lexer->yytext;
-            $line    = $lines[$lexer->yylineno];
-
-            switch ($state) {
-                case '':
-                    if ($type === '{') {
-                        $state = 'inDivision';
-                        continue;
-                    }
-                    break;
-                case 'inDivision':
-                    if ($type === 'STRING' && $content === 'userAgents') {
-                        $state = 'inUaGroup';
-                        continue;
-                    }
-                    break;
-                case 'inUaGroup':
-                    if ($type === '{') {
-                        $state = 'inEachUa';
-                        if ($u === null) {
-                            $u = 0;
-                        } else {
-                            ++$u;
-                        }
-                    }
-                    if ($type === '}') {
-                        $state = 'inDivision';
-                        $u     = null;
-                    }
-                    break;
-                case 'inEachUa':
-                    if (!isset($ignores[$state]['}'])) {
-                        $ignores[$state]['}'] = 0;
-                    }
-
-                    if ($type === '}' && $ignores[$state]['}'] === 0) {
-                        $ignores[$state]['}'] = 0;
-                        $state                = 'inUaGroup';
-                        continue;
-                    }
-                    if ($type === '{') {
-                        ++$ignores[$state]['}'];
-                    }
-                    if ($type === '}') {
-                        --$ignores[$state]['}'];
-                    }
-                    if ($type === 'STRING' && $content === 'children') {
-                        $state = 'inChildGroup';
-                    }
-                    break;
-                case 'inChildGroup':
-                    if ($type === '{') {
-                        $state = 'inEachChild';
-                        if ($c === null) {
-                            $c = 0;
-                        } else {
-                            ++$c;
-                        }
-                    } elseif ($type === ']') {
-                        $state = 'inEachUa';
-                        $c     = null;
-                    }
-                    break;
-                case 'inEachChild':
-                    if (!isset($ignores[$state]['}'])) {
-                        $ignores[$state]['}'] = 0;
-                    }
-
-                    if ($type === '}' && $ignores[$state]['}'] === 0) {
-                        $ignores[$state]['}'] = 0;
-                        $state                = 'inChildGroup';
-
-                        if ($collectFunctionEnd === true) {
-                            $coverage['fnMap'][] = [
-                                'name' => '(anonymous_' . $this->funcCount . ')',
-                                'decl' => $collectFunctionDecl,
-                                'loc' => [
-                                    'start' => $collectFunctionDecl['start'],
-                                    'end' => [
-                                        'line' => $lexer->yylineno + 1,
-                                        'column' => strpos($line, $content) + strlen($content),
-                                    ],
-                                ],
-                            ];
-                            $functionCoverage = $this->getCoverageCount('u' . $u . '::c' . $c . '::d::p', $coveredIds);
-                            $coverage['f'][]  = $functionCoverage;
-                            ++$this->funcCount;
-                            $coverage['statementMap'][] = [
-                                'start' => $collectFunctionDecl['start'],
-                                'end' => [
-                                    'line' => $lexer->yylineno + 1,
-                                    'column' => strpos($line, $content) + strlen($content),
-                                ],
-                            ];
-                            $coverage['s'][]            = $functionCoverage;
-                            $coverage['statementMap'][] = [
-                                'start' => $collectFunctionDecl['start'],
-                                'end' => $collectFunctionDecl['end'],
-                            ];
-                            $coverage['s'][] = $functionCoverage;
-
-                            $collectFunctionEnd = false;
-                        }
-
-                        continue;
-                    }
-
-                    if ($type === '{') {
-                        ++$ignores[$state]['}'];
-                    }
-                    if ($type === '}') {
-                        --$ignores[$state]['}'];
-                    }
-
-                    if ($type === 'STRING' && $content === 'platforms') {
-                        $state                   = 'inPlatforms';
-                        $platformDefinitionStart = [
-                            'line' => $lexer->yylineno + 1,
-                            'column' => strpos($line, '"' . $content . '"'),
-                        ];
-                    } elseif ($type === 'STRING' && $content === 'devices') {
-                        $state                 = 'inDevices';
-                        $waitForColon          = false;
-                        $deviceDefinitionStart = [
-                            'line' => $lexer->yylineno + 1,
-                            'column' => strpos($line, '"' . $content . '"'),
-                        ];
-                    } elseif ($type === 'STRING' && $content === 'match') {
-                        $collectMatchPosition = true;
-                    } elseif ($type === 'STRING' && $collectMatchPosition) {
-                        $collectMatchPosition = false;
-                        $collectFunctionEnd   = true;
-                        $collectFunctionDecl  = [
-                            'start' => [
-                                'line' => $lexer->yylineno + 1,
-                                'column' => strpos($line, '"' . $content . '"'),
-                            ],
-                            'end' => [
-                                'line' => $lexer->yylineno + 1,
-                                'column' => strpos($line, '"' . $content . '"') + strlen($content) + 2,
-                            ],
-                        ];
-                    }
-                    break;
-                case 'inPlatforms':
-                    if ($type === 'STRING') {
-                        $p          = $content;
-                        $id         = 'u' . $u . '::c' . $c . '::d::p' . $p;
-                        $coverCount = $this->getCoverageCount($id, $coveredIds);
-
-                        $sectionBranches[] = [
-                            'start' => [
-                                'line' => $lexer->yylineno + 1,
-                                'column' => strpos($line, '"' . $content . '"'),
-                            ],
-                            'end' => [
-                                'line' => $lexer->yylineno + 1,
-                                'column' => strpos($line, '"' . $content . '"') + strlen($content) + 2,
-                            ],
-                            'coverCount' => $coverCount,
-                        ];
-                    }
-
-                    if ($type === ']') {
-                        $state     = 'inEachChild';
-                        $p         = '';
-                        $locations = [];
-
-                        foreach ($sectionBranches as $branch) {
-                            $locations[] = $branch;
-                        }
-
-                        $branch = [
-                            'type' => 'switch',
-                            'locations' => $locations,
-                            'loc' => ['start' => $locations[0]['start'], 'end' => $locations[count($locations) - 1]['end']],
-                        ];
-                        $coverage['statementMap'][] = [
-                            'start' => $platformDefinitionStart,
-                            'end' => ['line' => $lexer->yylineno + 1, 'column' => strpos($line, ']') + 1],
-                        ];
-                        $coverage['s'][] = array_sum(array_column($locations, 'coverCount'));
-
-                        $coverArray = [];
-
-                        foreach ($locations as $location) {
-                            $coverage['statementMap'][] = [
-                                'start' => $location['start'],
-                                'end' => $location['end'],
-                            ];
-                            $coverage['s'][] = $location['coverCount'];
-                            $coverArray[]    = $location['coverCount'];
-                        }
-
-                        $coverage['b'][] = $coverArray;
-
-                        foreach (array_keys($branch['locations']) as $index) {
-                            unset($branch['locations'][$index]['coverCount']);
-                        }
-
-                        $coverage['branchMap'][] = $branch;
-
-                        $sectionBranches = [];
-                    }
-                    break;
-                case 'inDevices':
-                    if ($type === 'STRING' && $waitForColon === false) {
-                        $deviceKey    = $content;
-                        $waitForColon = true;
-                    }
-
-                    if ($type === ':' && $waitForColon === true) {
-                        $d = $deviceKey;
-
-                        $id = 'u' . $u . '::c' . $c . '::d' . $d . '::p';
-
-                        $coverCount = $this->getCoverageCount($id, $coveredIds);
-
-                        $sectionBranches[] = [
-                            'start' => [
-                                'line' => $lexer->yylineno + 1,
-                                'column' => strpos($line, '"' . $d . '"'),
-                            ],
-                            'end' => [
-                                'line' => $lexer->yylineno + 1,
-                                'column' => strpos($line, '"' . $d . '"') + strlen($d) + 2,
-                            ],
-                            'coverCount' => $coverCount,
-                        ];
-
-                        $waitForColon = false;
-                        $deviceKey    = '';
-                    }
-
-                    if ($type === ',' && $waitForColon === true) {
-                        $waitForColon = false;
-                        $deviceKey    = '';
-                    }
-
-                    if ($type === '}') {
-                        $state     = 'inEachChild';
-                        $d         = '';
-                        $locations = [];
-
-                        foreach ($sectionBranches as $branch) {
-                            $locations[] = $branch;
-                        }
-
-                        $branch = [
-                            'type' => 'switch',
-                            'locations' => $locations,
-                            'loc' => ['start' => $locations[0]['start'], 'end' => $locations[count($locations) - 1]['end']],
-                        ];
-                        // Log the entire branch statement as a statement
-                        $coverage['statementMap'][] = [
-                            'start' => $deviceDefinitionStart,
-                            'end' => ['line' => $lexer->yylineno + 1, 'column' => strpos($line, '}') + 1],
-                        ];
-                        $coverage['s'][] = array_sum(array_column($locations, 'coverCount'));
-
-                        $coverArray = [];
-
-                        foreach ($locations as $location) {
-                            $coverage['statementMap'][] = [
-                                'start' => $location['start'],
-                                'end' => $location['end'],
-                            ];
-                            $coverage['s'][] = $location['coverCount'];
-                            $coverArray[]    = $location['coverCount'];
-                        }
-
-                        $coverage['b'][] = $coverArray;
-
-                        foreach (array_keys($branch['locations']) as $index) {
-                            unset($branch['locations'][$index]['coverCount']);
-                        }
-
-                        $coverage['branchMap'][] = $branch;
-
-                        $sectionBranches = [];
-                    }
-                    break;
-            }
-        } while ($code !== 1);
+        $this->handleJsonRoot($lexer);
 
         // This re-indexes the arrays to be 1 based instead of 0, which will make them be JSON objects rather
         // than arrays, which is how they're expected to be in the coverage JSON file
-        $coverage['fnMap']        = array_filter(array_merge([0], $coverage['fnMap']));
-        $coverage['statementMap'] = array_filter(array_merge([0], $coverage['statementMap']));
-        $coverage['branchMap']    = array_filter(array_merge([0], $coverage['branchMap']));
-        array_unshift($coverage['b'], '');
-        unset($coverage['b'][0]);
-        array_unshift($coverage['f'], '');
-        unset($coverage['f'][0]);
-        array_unshift($coverage['s'], '');
-        unset($coverage['s'][0]);
+        $this->fileCoverage['fnMap']        = array_filter(array_merge([0], $this->fileCoverage['fnMap']));
+        $this->fileCoverage['statementMap'] = array_filter(array_merge([0], $this->fileCoverage['statementMap']));
+        $this->fileCoverage['branchMap']    = array_filter(array_merge([0], $this->fileCoverage['branchMap']));
 
-        return $coverage;
+        // Can't use the same method for the b/s/f sections since they can (and should) contain a 0 value, which
+        // array_filter would remove
+        array_unshift($this->fileCoverage['b'], '');
+        unset($this->fileCoverage['b'][0]);
+        array_unshift($this->fileCoverage['f'], '');
+        unset($this->fileCoverage['f'][0]);
+        array_unshift($this->fileCoverage['s'], '');
+        unset($this->fileCoverage['s'][0]);
+
+        return $this->fileCoverage;
+    }
+
+    /**
+     * Builds the location object for the current position in the JSON file
+     *
+     * @param Lexer  $lexer
+     * @param bool   $end
+     * @param string $content
+     *
+     * @return array
+     */
+    private function getLocationCoordinates(Lexer $lexer, bool $end = false, string $content = '') : array
+    {
+        $lineNumber  = $lexer->yylineno;
+        $lineContent = $this->fileLines[$lineNumber];
+
+        if ($content === '') {
+            $content = $lexer->yytext;
+        }
+
+        $position = strpos($lineContent, $content);
+
+        if ($end === true) {
+            $position += strlen($content);
+        }
+
+        return ['line' => $lineNumber + 1, 'column' => $position];
+    }
+
+    /**
+     * JSON file processing entry point
+     *
+     * Hands execution off to applicable method when certain tokens are encountered
+     * (in this case, Division is the only one), returns to caller when EOF is reached
+     *
+     * @param Lexer $lexer
+     *
+     * @return void
+     */
+    private function handleJsonRoot(Lexer $lexer)
+    {
+        do {
+            $code = $lexer->lex();
+
+            if ($code === self::JSON_OBJECT_START) {
+                $code = $this->handleJsonDivision($lexer);
+            }
+        } while ($code !== self::JSON_EOF);
+    }
+
+    /**
+     * Processes the Division block (which is the root JSON object essentially)
+     *
+     * Lexes the main division object and hands execution off to relevant methods for further
+     * processing. Returns the next token code returned from the lexer.
+     *
+     * @param Lexer $lexer
+     *
+     * @return int
+     */
+    private function handleJsonDivision(Lexer $lexer) : int
+    {
+        $enterUaGroup = false;
+
+        do {
+            $code = $lexer->lex();
+
+            if ($code === self::JSON_STRING && $lexer->yytext === 'userAgents') {
+                $enterUaGroup = true;
+            } elseif ($code === self::JSON_ARRAY_START && $enterUaGroup === true) {
+                $code         = $this->handleUseragentGroup($lexer);
+                $enterUaGroup = false;
+            } elseif ($code === self::JSON_OBJECT_START) {
+                $code = $this->ignoreObjectBlock($lexer);
+            }
+        } while ($code !== self::JSON_OBJECT_END);
+
+        return $lexer->lex();
+    }
+
+    /**
+     * Processes the userAgents array
+     *
+     * @param Lexer $lexer
+     *
+     * @return int
+     */
+    private function handleUseragentGroup(Lexer $lexer) : int
+    {
+        $useragentPosition = 0;
+
+        do {
+            $code = $lexer->lex();
+
+            if ($code === self::JSON_OBJECT_START) {
+                $code = $this->handleUseragentBlock($lexer, $useragentPosition);
+                ++$useragentPosition;
+            }
+        } while ($code !== self::JSON_ARRAY_END);
+
+        return $lexer->lex();
+    }
+
+    /**
+     * Processes each userAgent object in the userAgents array
+     *
+     * @param Lexer $lexer
+     * @param int   $useragentPosition
+     *
+     * @return int
+     */
+    private function handleUseragentBlock(Lexer $lexer, int $useragentPosition) : int
+    {
+        $enterChildGroup = false;
+
+        do {
+            $code = $lexer->lex();
+
+            if ($code === self::JSON_STRING && $lexer->yytext === 'children') {
+                $enterChildGroup = true;
+            } elseif ($code === self::JSON_ARRAY_START) {
+                $code            = $this->handleChildrenGroup($lexer, $useragentPosition);
+                $enterChildGroup = false;
+            } elseif ($code === self::JSON_OBJECT_START) {
+                $code = $this->ignoreObjectBlock($lexer);
+            }
+        } while ($code !== self::JSON_OBJECT_END);
+
+        return $lexer->lex();
+    }
+
+    /**
+     * Processes the children array of a userAgent object
+     *
+     * @param Lexer $lexer
+     * @param int   $useragentPosition
+     *
+     * @return int
+     */
+    private function handleChildrenGroup(Lexer $lexer, int $useragentPosition) : int
+    {
+        $childPosition = 0;
+
+        do {
+            $code = $lexer->lex();
+
+            if ($code === self::JSON_OBJECT_START) {
+                $code = $this->handleChildBlock($lexer, $useragentPosition, $childPosition);
+                ++$childPosition;
+            }
+        } while ($code !== self::JSON_ARRAY_END);
+
+        return $lexer->lex();
+    }
+
+    /**
+     * Processes each child object in the children array
+     *
+     * @param Lexer $lexer
+     * @param int   $useragentPosition
+     * @param int   $childPosition
+     *
+     * @return int
+     */
+    private function handleChildBlock(Lexer $lexer, int $useragentPosition, int $childPosition) : int
+    {
+        $enterPlatforms = false;
+        $enterDevices   = false;
+        $collectMatch   = false;
+
+        $functionStart       = $this->getLocationCoordinates($lexer);
+        $functionDeclaration = [];
+
+        do {
+            $code = $lexer->lex();
+
+            switch ($code) {
+                case self::JSON_STRING:
+                    if ($lexer->yytext === 'platforms') {
+                        $enterPlatforms = true;
+                    } elseif ($lexer->yytext === 'devices') {
+                        $enterDevices = true;
+                    } elseif ($lexer->yytext === 'match') {
+                        $collectMatch = true;
+                    } elseif ($collectMatch === true) {
+                        $collectMatch        = false;
+                        $match               = $lexer->yytext;
+                        $functionDeclaration = [
+                            'start' => $this->getLocationCoordinates($lexer, false, '"' . $match . '"'),
+                            'end' => $this->getLocationCoordinates($lexer, true, '"' . $match . '"'),
+                        ];
+                    }
+                    break;
+                case self::JSON_OBJECT_START:
+                    if ($enterDevices === true) {
+                        $code         = $this->handleDeviceBlock($lexer, $useragentPosition, $childPosition);
+                        $enterDevices = false;
+                    }
+                    break;
+                case self::JSON_ARRAY_START:
+                    if ($enterPlatforms === true) {
+                        $code           = $this->handlePlatformBlock($lexer, $useragentPosition, $childPosition);
+                        $enterPlatforms = false;
+                    }
+                    break;
+            }
+        } while ($code !== self::JSON_OBJECT_END);
+
+        $functionEnd = $this->getLocationCoordinates($lexer, true);
+
+        $functionCoverage = $this->getCoverageCount(
+            sprintf('u%d::c%d::d::p', $useragentPosition, $childPosition),
+            $this->fileCoveredIds
+        );
+
+        $this->collectFunction($functionStart, $functionEnd, $functionDeclaration, $functionCoverage);
+
+        return $lexer->lex();
+    }
+
+    /**
+     * Process the "devices" has in the child object
+     *
+     * @param Lexer $lexer
+     * @param int   $useragentPosition
+     * @param int   $childPosition
+     *
+     * @return int
+     */
+    private function handleDeviceBlock(Lexer $lexer, int $useragentPosition, int $childPosition) : int
+    {
+        $capturedKey = false;
+        $sawColon    = false;
+
+        $branchStart     = $this->getLocationCoordinates($lexer);
+        $branchLocations = [];
+        $branchCoverage  = [];
+
+        do {
+            $code = $lexer->lex();
+
+            if ($code === self::JSON_STRING && $capturedKey === false) {
+                $branchLocations[] = [
+                    'start' => $this->getLocationCoordinates($lexer, false, '"' . $lexer->yytext . '"'),
+                    'end' => $this->getLocationCoordinates($lexer, true, '"' . $lexer->yytext . '"'),
+                ];
+                $branchCoverage[] = $this->getCoverageCount(
+                    sprintf('u%d::c%d::d%s::p', $useragentPosition, $childPosition, $lexer->yytext),
+                    $this->fileCoveredIds
+                );
+                $capturedKey = true;
+            } elseif ($code === self::JSON_COLON) {
+                $sawColon = true;
+            } elseif ($code === self::JSON_STRING && $sawColon === true) {
+                $capturedKey = false;
+            }
+        } while ($code !== self::JSON_OBJECT_END);
+
+        $branchEnd = $this->getLocationCoordinates($lexer, true);
+
+        $this->collectBranch($branchStart, $branchEnd, $branchLocations, $branchCoverage);
+
+        return $lexer->lex();
+    }
+
+    /**
+     * Processes the "platforms" hash in the child object
+     *
+     * @param Lexer $lexer
+     * @param int   $useragentPosition
+     * @param int   $childPosition
+     *
+     * @return int
+     */
+    private function handlePlatformBlock(Lexer $lexer, int $useragentPosition, int $childPosition) : int
+    {
+        $branchStart     = $this->getLocationCoordinates($lexer);
+        $branchLocations = [];
+        $branchCoverage  = [];
+
+        do {
+            $code = $lexer->lex();
+
+            if ($code === self::JSON_STRING) {
+                $branchLocations[] = [
+                    'start' => $this->getLocationCoordinates($lexer, false, '"' . $lexer->yytext . '"'),
+                    'end' => $this->getLocationCoordinates($lexer, true, '"' . $lexer->yytext . '"'),
+                ];
+                $branchCoverage[] = $this->getCoverageCount(
+                    sprintf('u%d::c%d::d::p%s', $useragentPosition, $childPosition, $lexer->yytext),
+                    $this->fileCoveredIds
+                );
+            }
+        } while ($code !== self::JSON_ARRAY_END);
+
+        $branchEnd = $this->getLocationCoordinates($lexer, true);
+
+        $this->collectBranch($branchStart, $branchEnd, $branchLocations, $branchCoverage);
+
+        return $lexer->lex();
+    }
+
+    /**
+     * Processes JSON object block that isn't needed for coverage data
+     *
+     * @param Lexer $lexer
+     *
+     * @return int
+     */
+    private function ignoreObjectBlock(Lexer $lexer) : int
+    {
+        do {
+            $code = $lexer->lex();
+
+            // recursively ignore nested objects
+            if ($code === self::JSON_OBJECT_START) {
+                $this->ignoreObjectBlock($lexer);
+            }
+        } while ($code !== self::JSON_OBJECT_END);
+
+        return $lexer->lex();
+    }
+
+    /**
+     * Collects and stores a function's location information as well as any passed in coverage counts
+     *
+     * @param array $start
+     * @param array $end
+     * @param array $declaration
+     * @param int   $coverage
+     *
+     * @return void
+     */
+    private function collectFunction(array $start, array $end, array $declaration, int $coverage = 0)
+    {
+        $this->fileCoverage['fnMap'][] = [
+            'name' => '(anonymous_' . $this->funcCount . ')',
+            'decl' => $declaration,
+            'loc' => ['start' => $start, 'end' => $end],
+        ];
+
+        $this->fileCoverage['f'][] = $coverage;
+
+        // Collect statements as well, one for entire function, one just for function declaration
+        $this->collectStatement($start, $end, $coverage);
+        $this->collectStatement($declaration['start'], $declaration['end'], $coverage);
+
+        ++$this->funcCount;
+    }
+
+    /**
+     * Collects and stores a branch's location information as well as any coverage counts
+     *
+     * @param array $start
+     * @param array $end
+     * @param array $locations
+     * @param int[] $coverage
+     *
+     * @return void
+     */
+    private function collectBranch(array $start, array $end, array $locations, array $coverage = [])
+    {
+        $this->fileCoverage['branchMap'][] = [
+            'type' => 'switch',
+            'locations' => $locations,
+            'loc' => ['start' => $start, 'end' => $end],
+        ];
+
+        $this->fileCoverage['b'][] = $coverage;
+
+        // Collect statements as well (entire branch is a statement, each location is a statement)
+        $this->collectStatement($start, $end, array_sum($coverage));
+
+        for ($i = 0, $count = count($locations); $i < $count; ++$i) {
+            $this->collectStatement($locations[$i]['start'], $locations[$i]['end'], $coverage[$i]);
+        }
+    }
+
+    /**
+     * Collects and stores a statement's location information as well as any coverage counts
+     *
+     * @param array $start
+     * @param array $end
+     * @param int   $coverage
+     *
+     * @return void
+     */
+    private function collectStatement(array $start, array $end, int $coverage = 0)
+    {
+        $this->fileCoverage['statementMap'][] = [
+            'start' => $start,
+            'end' => $end,
+        ];
+
+        $this->fileCoverage['s'][] = $coverage;
     }
 
     /**
      * Groups pattern ids by their filename prefix
      *
-     * @param  array $ids
+     * @param string[] $ids
+     *
      * @return array
      */
-    private function groupIdsByFile(array $ids)
+    private function groupIdsByFile(array $ids) : array
     {
         $covered = [];
 
@@ -530,19 +631,20 @@ class Processor
     }
 
     /**
-     * Counts number of times given pattern is covered by test patterns
+     * Counts number of times given generated pattern id is covered by patterns ids collected during tests
      *
-     * @param  string $id
-     * @param  array  $covered
+     * @param string   $id
+     * @param string[] $covered
+     *
      * @return int
      */
-    private function getCoverageCount($id, array $covered)
+    private function getCoverageCount(string $id, array $covered) : int
     {
         $id                  = str_replace('\/', '/', $id);
         list($u, $c, $d, $p) = explode('::', $id);
 
-        $u = substr($u, 1);
-        $c = substr($c, 1);
+        $u = preg_quote(substr($u, 1), '/');
+        $c = preg_quote(substr($c, 1), '/');
         $p = preg_quote(substr($p, 1), '/');
         $d = preg_quote(substr($d, 1), '/');
 
@@ -556,9 +658,6 @@ class Processor
         }
 
         $regex = sprintf('/^u%d::c%d::d%s::p%s$/', $u, $c, $d, $p);
-
-        //print $regex . PHP_EOL;
-        //print_r($covered);
 
         foreach ($covered as $patternId) {
             if (preg_match($regex, $patternId)) {

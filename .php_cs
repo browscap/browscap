@@ -39,7 +39,6 @@ return Symfony\CS\Config\Config::create()
             'php_closing_tag',
             'phpdoc_indent',
             'phpdoc_no_access',
-            'phpdoc_no_empty_return',
             'phpdoc_no_package',
             'phpdoc_params',
             'phpdoc_scalar',

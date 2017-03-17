@@ -40,15 +40,16 @@ class BuildHelper
      * @param \Browscap\Writer\WriterCollection  $writerCollection
      * @param \Browscap\Helper\CollectionCreator $collectionCreator
      *
+     * @return void
      * @throws \Exception
      */
     public static function run(
-        $version,
-        $resourceFolder,
+        string $version,
+        string $resourceFolder,
         LoggerInterface $logger,
         WriterCollection $writerCollection,
         CollectionCreator $collectionCreator,
-        $collectPatternIds = false
+        bool $collectPatternIds = false
     ) {
         $logger->info('started creating a data collection');
 

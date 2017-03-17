@@ -98,7 +98,7 @@ abstract class AbstractBuildGenerator
      *
      * @return \Browscap\Generator\AbstractBuildGenerator
      */
-    public function setCollectPatternIds($value)
+    public function setCollectPatternIds(bool $value) : self
     {
         $this->collectPatternIds = (bool) $value;
 

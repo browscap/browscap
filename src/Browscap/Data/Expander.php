@@ -51,6 +51,7 @@ class Expander
      * Set the data collection
      *
      * @param  \Browscap\Data\DataCollection $collection
+     *
      * @return \Browscap\Data\Expander
      */
     public function setDataCollection(DataCollection $collection)
@@ -84,7 +85,7 @@ class Expander
      * @throws \UnexpectedValueException
      * @return array
      */
-    public function expand(Division $division, $divisionName)
+    public function expand(Division $division, $divisionName) : array
     {
         $allInputDivisions = $this->parseDivision(
             $division,
@@ -96,6 +97,8 @@ class Expander
 
     /**
      * Resets the pattern id
+     *
+     * @return void
      */
     private function resetPatternId()
     {
@@ -105,7 +108,6 @@ class Expander
             'platform' => '',
             'device' => '',
             'child' => '',
-            'engine' => '',
         ];
     }
 
@@ -411,9 +413,9 @@ class Expander
      *
      * @return string
      */
-    private function getPatternId()
+    private function getPatternId() : string
     {
-        $id = sprintf(
+        return sprintf(
             '%s::u%d::c%d::d%s::p%s',
             $this->patternId['division'],
             $this->patternId['useragent'],
@@ -421,8 +423,6 @@ class Expander
             $this->patternId['device'],
             $this->patternId['platform']
         );
-
-        return $id;
     }
 
     /**
@@ -432,6 +432,7 @@ class Expander
      * @param string   $message
      *
      * @throws \LogicException
+     * @return void
      */
     private function checkPlatformData(array $properties, $message)
     {
@@ -452,6 +453,7 @@ class Expander
      * @param string   $message
      *
      * @throws \LogicException
+     * @return void
      */
     private function checkEngineData(array $properties, $message)
     {
