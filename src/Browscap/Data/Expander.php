@@ -43,6 +43,9 @@ class Expander
     private $logger = null;
 
     /**
+     * This store the components of the pattern id that are later merged into a string. Format for this
+     * can be seen in the resetPatternId method.
+     *
      * @var array
      */
     private $patternId = [];

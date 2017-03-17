@@ -30,6 +30,11 @@ use Seld\JsonLint\Lexer;
 final class Processor implements ProcessorInterface
 {
     /**@+
+     * The codes representing different JSON elements
+     *
+     * These come from the Seld\JsonLint\JsonParser class. The values are returned by the lexer when
+     * the lex() method is called.
+     *
      * @var int
      */
     const JSON_OBJECT_START = 17;
@@ -47,31 +52,49 @@ final class Processor implements ProcessorInterface
     private $resourceDir;
 
     /**
-     * @var int[]
+     * The pattern ids encountered during the test run. These are compared against the JSON file structure to determine
+     * if the statement/function/branch is covered.
+     *
+     * @var string[]
      */
     private $coveredIds = [];
 
     /**
+     * This is the full coverage array that gets output in the write method.  For each file an entry in the array
+     * is added.  Each entry contains the elements required for Istanbul compatible coverage reporters.
+     *
      * @var array
      */
     private $coverage = [];
 
     /**
+     * An incrementing integer for every "function" (child match) encountered in all processed files. This is used
+     * to name the anonymous functions in the coverage report.
+     *
      * @var int
      */
     private $funcCount = 0;
 
     /**
+     * A storage variable for the lines of a file while processing that file, used for determining column
+     * position of a statement/function/branch
+     *
      * @var string[]
      */
     private $fileLines = [];
 
     /**
+     * A storage variable of the pattern ids covered by tests for a specific file (set when processing of that
+     * file begins)
+     *
      * @var string[]
      */
     private $fileCoveredIds = [];
 
     /**
+     * A temporary storage for coverage information for a specific file that is later merged into the main $coverage
+     * property after the file is done processing.
+     *
      * @var array
      */
     private $fileCoverage = [];
