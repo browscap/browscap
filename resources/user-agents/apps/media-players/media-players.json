@@ -458,7 +458,7 @@
           }
         },
         {
-          "match": "Spotify/1.0*",
+          "match": "*Spotify/1.0*",
           "properties": {
             "Browser": "Spotify",
             "Version": "1.0",
@@ -467,7 +467,7 @@
           }
         },
         {
-          "match": "Spotify*",
+          "match": "*Spotify*",
           "properties": {
             "Browser": "Spotify"
           }
