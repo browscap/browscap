@@ -441,6 +441,19 @@
             "isTablet": "false"
         }
     },
+  "Lenovo A2010-A": {
+    "standard": false,
+    "properties": {
+      "Device_Type": "Mobile Phone",
+      "Device_Code_Name": "A2010-A",
+      "Device_Name": "A2010",
+      "Device_Maker": "Lenovo",
+      "Device_Brand_Name": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "isMobileDevice": "true",
+      "isTablet": "false"
+    }
+  },
     "Lenovo A706": {
         "standard": false,
         "properties": {

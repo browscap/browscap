@@ -660,7 +660,8 @@
             "Lenovo A706_ROW": "Lenovo A706",
             "LT26i": "SonyEricsson LT26i",
             "AT300": "Toshiba AT300",
-            "LGMS500": "LG MS500"
+            "LGMS500": "LG MS500",
+            "me172v": "Asus ME172V"
           },
           "engine": "WebKit",
           "platforms": [

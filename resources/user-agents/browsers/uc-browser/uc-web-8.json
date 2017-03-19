@@ -241,7 +241,8 @@
           "match": "#DEVICE#/UC Browser#MAJORVER#.#MINORVER#* UNTRUSTED/1.0",
           "devices": {
             "samsung-gt-s5620": "Samsung GT-S5620",
-            "samsung-gt-s3370": "Samsung GT-S3370"
+            "samsung-gt-s3370": "Samsung GT-S3370",
+            "nokia6120c": "Nokia 6120c"
           }
         },
         {

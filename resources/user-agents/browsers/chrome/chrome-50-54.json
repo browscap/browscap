@@ -4095,7 +4095,17 @@
             "XT1650": "Motorola XT1650",
             "VS995": "LG VS995",
             "VS987": "LG VS987",
-            "Nexus 6": "Motorola Nexus 6"
+            "Nexus 6": "Motorola Nexus 6",
+            "2PYB2": "HTC 2PYB2",
+            "LG-H830": "LG H830",
+            "LG-H910": "LG H910",
+            "LG-H918": "LG H918",
+            "LG-LS997": "LG LS997",
+            "LG-M210": "LG M210",
+            "LG-US996": "LG US996",
+            "LGLS775": "LG LS775",
+            "LGLS992": "LG LS992",
+            "LGMS210": "LG MS210"
           },
           "platforms": [
             "Android_7_0"

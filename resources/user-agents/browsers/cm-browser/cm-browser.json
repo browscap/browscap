@@ -137,6 +137,20 @@
           ]
         },
         {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/* ACHEETAHI/*",
+          "devices": {
+            "SM-G930A": "Samsung SM-G930A",
+            "SM-G920P": "Samsung SM-G920P",
+            "SM-G935P": "Samsung SM-G935P",
+            "SM-G935V": "Samsung SM-G935V",
+            "SM-N920V": "Samsung SM-N920V",
+            "SM-S320VL": "Samsung SM-S320VL"
+          },
+          "platforms": [
+            "Android_6_0"
+          ]
+        },
+        {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Safari/* ACHEETAHI/*",
           "devices": {
             "chagall": "Pegatron Chagall",
