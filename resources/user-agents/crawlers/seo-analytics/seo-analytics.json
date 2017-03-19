@@ -313,6 +313,13 @@
             "Browser": "Leikibot",
             "Browser_Maker": "Leiki Ltd"
           }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; seoscanners.net/*",
+          "properties": {
+            "Browser": "SEO Scanners Bot",
+            "Browser_Maker": "SEO Scanners"
+          }
         }
       ]
     }

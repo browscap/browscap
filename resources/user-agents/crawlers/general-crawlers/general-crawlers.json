@@ -2679,6 +2679,20 @@
             "Browser": "WinWebBot",
             "Browser_Maker": "Balaena Ltd"
           }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; TeeRaidBot*",
+          "properties": {
+            "Browser": "TeeRaidBot",
+            "Browser_Maker": "TeeGrasp Ltd"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; ToutiaoSpider/*",
+          "properties": {
+            "Browser": "ToutiaoSpider",
+            "Browser_Maker": "Toutiao"
+          }
         }
       ]
     }

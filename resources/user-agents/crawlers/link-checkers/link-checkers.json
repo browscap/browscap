@@ -594,6 +594,13 @@
             "Browser": "inbound.li link checker",
             "Browser_Maker": "inboundli, UG."
           }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; TrialPay URL checker*",
+          "properties": {
+            "Browser": "TrialPay URL Checker",
+            "Browser_Maker": "TrialPay Inc"
+          }
         }
       ]
     }
