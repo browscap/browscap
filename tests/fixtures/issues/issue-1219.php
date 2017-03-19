@@ -6411,7 +6411,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-1219-122' => [
@@ -6464,7 +6464,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => false,
     ],
     'issue-1219-123' => [
@@ -6517,7 +6517,7 @@ return [
             'RenderingEngine_Version' => '8.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-1219-124' => [
@@ -6570,7 +6570,7 @@ return [
             'RenderingEngine_Version' => '8.0',
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-1219-127' => [
@@ -8689,7 +8689,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-1219-168' => [
@@ -8742,7 +8742,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-1219-169' => [
@@ -9007,7 +9007,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-1219-174' => [
@@ -11075,6 +11075,6 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
 ];
