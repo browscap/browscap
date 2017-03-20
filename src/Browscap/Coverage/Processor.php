@@ -434,6 +434,8 @@ final class Processor implements ProcessorInterface
                     if ($enterDevices === true) {
                         $code         = $this->handleDeviceBlock($lexer, $useragentPosition, $childPosition);
                         $enterDevices = false;
+                    } else {
+                        $code = $this->ignoreObjectBlock($lexer);
                     }
                     break;
                 case self::JSON_ARRAY_START:

@@ -31,6 +31,9 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE#) AppleWebKit/* (KHTML* like Gecko) Version/* Chrome/* Safari/*",
+          "properties": {
+            "Browser": "Test Browser Override"
+          },
           "platforms": [
             "Platform_1", "Platform_2"
           ],
