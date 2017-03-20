@@ -30,13 +30,13 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
-            "Micromax A27": "Micromax A27",
-            "Micromax A35": "Micromax A35",
-            "sprd-B51+*": "sprd B51+",
-            "Micromax A40": "Micromax A40",
             "HTCA510e*": "HTC A510e",
             "HTCS510e*": "HTC S510e",
-            "HTCS710e*": "HTC S710E"
+            "HTCS710e*": "HTC S710E",
+            "Micromax A27": "Micromax A27",
+            "Micromax A35": "Micromax A35",
+            "Micromax A40": "Micromax A40",
+            "sprd-B51+*": "sprd B51+"
           },
           "platforms": [
             "Android_2_3"
@@ -56,8 +56,8 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
             "LG-D805": "LG D805",
-            "FP1U": "Fairphone FP1U",
-            "FP1": "Fairphone FP1"
+            "FP1": "Fairphone FP1",
+            "FP1U": "Fairphone FP1U"
           },
           "platforms": [
             "Android_4_2"

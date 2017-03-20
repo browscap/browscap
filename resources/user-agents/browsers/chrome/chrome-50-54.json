@@ -4081,9 +4081,9 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
           "devices": {
+            "Nexus 6P": "Huawei Nexus 6P",
             "Pixel": "Google Pixel",
-            "Pixel XL": "Google Pixel XL",
-            "Nexus 6P": "Huawei Nexus 6P"
+            "Pixel XL": "Google Pixel XL"
           },
           "platforms": [
             "Android_7_1"
@@ -4092,10 +4092,6 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
           "devices": {
-            "XT1650": "Motorola XT1650",
-            "VS995": "LG VS995",
-            "VS987": "LG VS987",
-            "Nexus 6": "Motorola Nexus 6",
             "2PYB2": "HTC 2PYB2",
             "LG-H830": "LG H830",
             "LG-H910": "LG H910",
@@ -4105,7 +4101,11 @@
             "LG-US996": "LG US996",
             "LGLS775": "LG LS775",
             "LGLS992": "LG LS992",
-            "LGMS210": "LG MS210"
+            "LGMS210": "LG MS210",
+            "Nexus 6": "Motorola Nexus 6",
+            "VS987": "LG VS987",
+            "VS995": "LG VS995",
+            "XT1650": "Motorola XT1650"
           },
           "platforms": [
             "Android_7_0"

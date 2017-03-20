@@ -399,6 +399,7 @@
             "Find 5": "OPPO X909",
             "GT-I9300I": "Samsung GT-I9300I",
             "GT-I9301I": "Samsung GT-I9301I",
+            "GT-N5110": "Samsung GT-N5110",
             "GT-P5210": "Samsung GT-P5210",
             "HTC Desire 510": "HTC Desire 510",
             "HTC Desire 610": "HTC Desire 610",
@@ -423,18 +424,22 @@
             "N9515": "ZTE N9515",
             "PSP3450DUO": "Prestigio PSP3450DUO",
             "RCT6203W46": "RCA RCT6203W46",
-            "SAMSUNG-SGH-I257": "Samsung SGH-I257",
-            "SAMSUNG-SGH-I317": "Samsung SGH-I317",
-            "SAMSUNG-SGH-I527": "Samsung SGH-I527",
-            "SM-G730A": "Samsung SM-G730A",
             "SCH-I435": "Samsung SCH-I435",
             "SCH-I535": "Samsung SCH-I535",
+            "SCH-I605": "Samsung SCH-I605",
             "SCH-R530U": "Samsung SCH-R530U",
+            "SGH-I257": "Samsung SGH-I257",
+            "SGH-I317": "Samsung SGH-I317",
+            "SGH-I527": "Samsung SGH-I527",
             "SGH-M919": "Samsung SGH-M919",
             "SGH-T399N": "Samsung SGH-T399N",
             "SM-G360P": "Samsung SM-G360P",
             "SM-G386T": "Samsung SM-G386T",
             "SM-G7102": "Samsung SM-G7102",
+            "SM-G730A": "Samsung SM-G730A",
+            "SM-G870A": "Samsung SM-G870A",
+            "SM-G900A": "Samsung SM-G900A",
+            "SM-G900AZ": "Samsung SM-G900AZ",
             "SM-G900T1": "Samsung SM-G900T1",
             "SM-S820L": "Samsung SM-S820L",
             "SM-S902L": "Samsung SM-S902L",
@@ -445,6 +450,7 @@
             "SM-T520": "Samsung SM-T520",
             "SPH-L600": "Samsung SPH-L600",
             "SPH-L710": "Samsung SPH-L710",
+            "SPH-L720": "Samsung SPH-L720",
             "Transformer TF101": "Asus TF101",
             "USCC-E6762": "Kyocera E6762",
             "Vega": "Advent P10AN01",
@@ -455,13 +461,7 @@
             "XT1080": "Motorola XT1080",
             "XT907": "Motorola XT907",
             "Z793C": "ZTE Z793C",
-            "Z970": "ZTE Z970",
-            "GT-N5110": "Samsung GT-N5110",
-            "SM-G870A": "Samsung SM-G870A",
-            "SM-G900A": "Samsung SM-G900A",
-            "SM-G900AZ": "Samsung SM-G900AZ",
-            "SCH-I605": "Samsung SCH-I605",
-            "SPH-L720": "Samsung SPH-L720"
+            "Z970": "ZTE Z970"
           },
           "platforms": [
             "Android_4_4"
@@ -479,11 +479,11 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/*FBAV/*",
           "devices": {
-            "XT1254": "Motorola XT1254",
-            "SM-G900T": "Samsung SM-G900T",
-            "SM-N910T": "Samsung SM-N910T",
             "SM-G900P": "Samsung SM-G900P",
-            "SM-G900V": "Samsung SM-G900V"
+            "SM-G900T": "Samsung SM-G900T",
+            "SM-G900V": "Samsung SM-G900V",
+            "SM-N910T": "Samsung SM-N910T",
+            "XT1254": "Motorola XT1254"
           },
           "platforms": [
             "Android_6_0", "Android_5_1", "Android_5_0", "Android_4_4"
@@ -496,13 +496,13 @@
             "LG-H901": "LG H901",
             "LGLS991": "LG LS991",
             "SM-G890A": "Samsung SM-G890A",
+            "SM-G920I": "Samsung SM-G920I",
+            "SM-G920P": "Samsung SM-G920P",
+            "SM-G920V": "Samsung SM-G920V",
             "SM-G925A": "Samsung SM-G925A",
             "SM-G928A": "Samsung SM-G928A",
             "SM-N910A": "Samsung SM-N910A",
             "SM-N915A": "Samsung SM-N915A",
-            "SM-G920I": "Samsung SM-G920I",
-            "SM-G920P": "Samsung SM-G920P",
-            "SM-G920V": "Samsung SM-G920V",
             "SM-N920T": "Samsung SM-N920T"
           },
           "platforms": [
@@ -551,10 +551,10 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/*FBAV/*",
           "devices": {
-            "SAMSUNG-SGH-I337": "Samsung SGH-I337",
-            "SM-G850A": "Samsung SM-G850A",
             "SCH-I545": "Samsung SCH-I545",
             "SCH-R970": "Samsung SCH-R970",
+            "SGH-I337": "Samsung SGH-I337",
+            "SM-G850A": "Samsung SM-G850A",
             "SM-N900T": "Samsung SM-N900T",
             "SM-N900V": "Samsung SM-N900V",
             "SPH-L720T": "Samsung SPH-L720T"
@@ -649,19 +649,19 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Safari/*FBAV/*",
           "devices": {
-            "HTC Desire 500": "HTC Desire 500",
-            "LT26w": "Sony LT26w",
-            "GT-N8005": "Samsung GT-N8005",
-            "i-mobile IQ5.1 Pro": "i-mobile IQ5.1 Pro",
-            "LG-P875": "LG P875",
-            "TAB 7i 3G": "Wexler TAB 7i 3G",
-            "Kaya": "Aamra Kaya",
-            "HTC Desire 600 dual sim": "HTC Desire 600",
-            "Lenovo A706_ROW": "Lenovo A706",
-            "LT26i": "SonyEricsson LT26i",
             "AT300": "Toshiba AT300",
+            "GT-N8005": "Samsung GT-N8005",
+            "HTC Desire 500": "HTC Desire 500",
+            "HTC Desire 600 dual sim": "HTC Desire 600",
+            "i-mobile IQ5.1 Pro": "i-mobile IQ5.1 Pro",
+            "Kaya": "Aamra Kaya",
+            "Lenovo A706_ROW": "Lenovo A706",
+            "LG-P875": "LG P875",
             "LGMS500": "LG MS500",
-            "me172v": "Asus ME172V"
+            "LT26i": "SonyEricsson LT26i",
+            "LT26w": "Sony LT26w",
+            "me172v": "Asus ME172V",
+            "TAB 7i 3G": "Wexler TAB 7i 3G"
           },
           "engine": "WebKit",
           "platforms": [
@@ -679,11 +679,11 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Safari/*FBAV/*",
           "devices": {
-            "PAP5000DUO": "Prestigio PAP5000DUO",
             "fnac 4.5": "Fnac Phablet 4.5",
             "H2000+": "Hero H2000+",
+            "KFOT": "Amazon KFOT",
             "KFTT": "Amazon KFTT",
-            "KFOT": "Amazon KFOT"
+            "PAP5000DUO": "Prestigio PAP5000DUO"
           },
           "engine": "WebKit",
           "platforms": [
@@ -734,8 +734,8 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Safari/*FBAV/*",
           "devices": {
             "D5833": "Sony D5833",
-            "SM-N910V": "Samsung SM-N910V",
-            "SM-N910A": "Samsung SM-N910A"
+            "SM-N910A": "Samsung SM-N910A",
+            "SM-N910V": "Samsung SM-N910V"
           },
           "engine": "WebKit",
           "platforms": [
@@ -753,8 +753,8 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Safari/*FBAV/*",
           "devices": {
-            "LG-P880": "LG P880",
-            "Lenovo A5000": "Lenovo A5000"
+            "Lenovo A5000": "Lenovo A5000",
+            "LG-P880": "LG P880"
           },
           "engine": "WebKit",
           "platforms": [
