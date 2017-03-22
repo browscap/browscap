@@ -474,10 +474,24 @@
           }
         },
         {
+          "match": "Mozilla/5.0 (compatible; Charlotte/*)",
+          "properties": {
+            "Browser": "Charlotte"
+          }
+        },
+        {
           "match": "Mozilla/5.0 (compatible; Charlotte/*; *)",
           "properties": {
             "Browser": "Charlotte",
             "Beta": "true"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (*) Gecko* (Charlotte/*; http://www.searchme.com/support/)*",
+          "properties": {
+            "Browser": "Charlotte",
+            "Comment": "Charlotte (searchme.com bot)",
+            "Browser_Maker": "searchme.com"
           }
         },
         {
@@ -898,12 +912,6 @@
           "match": "ZipppBot/*",
           "properties": {
             "Browser": "ZipppBot"
-          }
-        },
-        {
-          "match": "Mozilla/5.0 (compatible; Charlotte/*)",
-          "properties": {
-            "Browser": "Charlotte"
           }
         },
         {

@@ -1,6 +1,6 @@
 {
   "division": "Firefox #MAJORVER#.#MINORVER#",
-  "versions": ["0.10", "0.9", "0.8", "0.7", "0.6"],
+  "versions": ["0.10", "0.9", "0.8"],
   "sortIndex": 3173,
   "lite": false,
   "standard": true,
@@ -37,7 +37,9 @@
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/#MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
           "platforms": [
-            "NT4", "Win2000", "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32", "Vista_64", "Vista_32",
+            "NT4", "NT4_B", "Win95", "Win98", "Win2000",
+            "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32",
+            "WinME", "Vista_64", "Vista_32",
             "Win8_1_64", "Win8_1_32", "Win8_64", "Win8_32", "Win7_64", "Win7_32"
           ]
         },
@@ -55,7 +57,7 @@
           "device": "general Desktop",
           "platforms": [
             "FreeBSD_386", "FreeBSD", "NetBSD", "DragonFlyBSD", "HPUX", "IRIX64",
-            "OpenBSD", "SunOS", "OS2"
+            "OpenBSD", "SunOS", "OS2", "BeOS"
           ]
         },
         {
@@ -80,79 +82,6 @@
           "device": "general Desktop",
           "platforms": [
             "SunOS"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firebird/#MAJORVER#.#MINORVER#*",
-          "device": "Linux Desktop",
-          "platforms": [
-            "Linux_32", "Linux"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firebird/#MAJORVER#.#MINORVER#*",
-          "device": "Windows Desktop",
-          "platforms": [
-            "Win2000", "WinXPa_32", "Win98", "Win95", "Vista_32", "Win7_32", "NT4_B"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firebird/#MAJORVER#.#MINORVER#*",
-          "device": "Macintosh",
-          "platforms": [
-            "OSX"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firebird/#MAJORVER#.#MINORVER#*",
-          "device": "general Desktop",
-          "platforms": [
-            "SunOS"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* BonEcho/#MAJORVER#.#MINORVER#*",
-          "device": "Windows Desktop",
-          "platforms": [
-            "WinXPa_32"
-          ]
-        }
-      ]
-    },
-    {
-      "userAgent": "Firefox #MAJORVER#.#MINORVER# for Android",
-      "platform": "Android",
-      "engine": "Gecko_1",
-      "device": "general Mobile Phone (Touch)",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "Firefox #MAJORVER#.#MINORVER#",
-        "Browser": "Firefox",
-        "Browser_Maker": "Mozilla Foundation",
-        "Browser_Type": "Browser",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3"
-      },
-      "children": [
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/#MAJORVER#.#MINORVER#*",
-          "device": "general Mobile Phone",
-          "platforms": [
-            "AndroidMobile"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/#MAJORVER#.#MINORVER#*",
-          "device": "general Tablet",
-          "platforms": [
-            "AndroidTablet"
           ]
         }
       ]

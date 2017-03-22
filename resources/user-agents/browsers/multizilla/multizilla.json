@@ -1,6 +1,6 @@
 {
   "division": "MultiZilla #MAJORVER#.#MINORVER#",
-  "versions": ["1.6"],
+  "versions": ["1.8", "1.7", "1.6", "1.5", "1.4", "1.3"],
   "sortIndex": 17582,
   "lite": false,
   "standard": true,
@@ -27,10 +27,37 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) Gecko MultiZilla/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* MultiZilla/#MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
           "platforms": [
-            "WinXPa_v2"
+            "WinXPa_32", "WinXPa_v2", "WinXPb_32", "Win2000", "WinME", "Win98"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* MultiZilla/#MAJORVER#.#MINORVER#*",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX_PPC"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* MultiZilla/#MAJORVER#.#MINORVER#*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_32"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* MultiZilla/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "OS2"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM# MultiZilla v#MAJORVER#.#MINORVER#*) Gecko*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "WinXPa_32", "WinXPa_v2", "WinXPb_32", "Win2000"
           ]
         }
       ]

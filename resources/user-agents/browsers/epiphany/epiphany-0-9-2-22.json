@@ -46,7 +46,7 @@
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Epiphany/#MAJORVER#.#MINORVER#*",
           "device": "general Desktop",
           "platforms": [
-            "FreeBSD_386", "FreeBSD", "OpenBSD_64_2", "OpenBSD_386", "OpenBSD", "SunOS"
+            "FreeBSD_386", "FreeBSD", "OpenBSD_64_2", "OpenBSD_386", "OpenBSD", "SunOS", "NetBSD"
           ]
         }
       ]

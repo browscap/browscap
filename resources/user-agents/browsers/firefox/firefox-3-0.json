@@ -104,6 +104,13 @@
           ]
         },
         {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* GranParadiso/#MAJORVER#.#MINORVER#*",
+          "device": "general Desktop",
+          "platforms": [
+            "Darwin"
+          ]
+        },
+        {
           "match": "Mozilla/5.0 (#PLATFORM#; rv:1.9*) Gecko* Firefox anonymized*",
           "device": "Windows Desktop",
           "properties": {

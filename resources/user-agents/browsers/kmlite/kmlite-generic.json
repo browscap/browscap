@@ -1,0 +1,34 @@
+{
+  "division": "KMLite Generic",
+  "sortIndex": 17582,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "KMLite Generic",
+      "engine": "Gecko_1_8_1",
+      "device": "Windows Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "KMLite Generic",
+        "Browser": "KMLite",
+        "Browser_Maker": "Ashrising Phoenixes",
+        "Browser_Type": "Browser",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "2"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko/* KMLite/*",
+          "platforms": [
+            "WinXPa_32", "Win2000", "Windows"
+          ]
+        }
+      ]
+    }
+  ]
+}

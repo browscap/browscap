@@ -58,7 +58,7 @@
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/#MAJORVER#.#MINORVER#*",
           "device": "general Desktop",
           "platforms": [
-            "FreeBSD", "HPUX", "IRIX64", "OpenBSD", "SunOS", "OS2", "AIX", "BeOS"
+            "FreeBSD", "HPUX", "IRIX64", "OpenBSD", "SunOS", "OS2", "AIX", "BeOS", "NetBSD"
           ]
         },
         {

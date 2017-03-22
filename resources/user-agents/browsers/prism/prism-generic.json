@@ -1,0 +1,52 @@
+{
+  "division": "Prism Generic",
+  "sortIndex": 17582,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Prism Generic",
+      "engine": "Gecko",
+      "device": "general Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Prism Generic",
+        "Browser": "Prism",
+        "Browser_Maker": "Mozilla Foundation",
+        "Browser_Type": "Browser",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "2"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko/* Prism/*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "WinXPa_32"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko/* Prism/*",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX_10_6", "OSX"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko/* Prism/*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_32", "Linux_64"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (*) Gecko/* Prism/*"
+        }
+      ]
+    }
+  ]
+}
