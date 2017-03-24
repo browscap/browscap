@@ -39,14 +39,15 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
           "devices": {
-            "F103 Pro": "Gionee F103 Pro",
-            "vivo 1603": "vivo Y55L",
-            "SM-G550FY": "Samsung SM-G550FY",
-            "MotoE2(4G-LTE)": "Motorola XT1524",
             "Eluga_Arc_2": "Panasonic Eluga Arc 2",
-            "SM-J710F": "Samsung SM-J710F",
+            "F103 Pro": "Gionee F103 Pro",
+            "Lenovo P2a42": "Lenovo P2a42",
+            "MotoE2(4G-LTE)": "Motorola XT1524",
+            "Redmi 3S": "Xiaomi Redmi 3S",
             "SM-A700FD": "Samsung SM-A700FD",
-            "Redmi 3S": "Xiaomi Redmi 3S"
+            "SM-G550FY": "Samsung SM-G550FY",
+            "SM-J710F": "Samsung SM-J710F",
+            "vivo 1603": "vivo Y55L"
           },
           "platforms": [
             "Android_6_0"
@@ -56,29 +57,29 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
           "devices": {
-            "N9132": "ZTE Prestige",
-            "SM-J500F": "Samsung SM-J500F",
-            "SM-J200G": "Samsung SM-J200G",
-            "PacificVS": "Oysters Pacific VS",
             "Aqua Trend": "Intex Aqua Trend",
-            "SM-J105F": "Samsung SM-J105F",
+            "CP8298_I00": "Coolpad CP8298_I00",
+            "CP8676_I02": "Coolpad CP8676_I02",
+            "HTC Desire 728 dual sim": "HTC Desire 728 Dual",
             "Lenovo A6020a40": "Lenovo A6020a40",
-            "LS-4503": "Lyf LS-4503",
-            "SM-G531H": "Samsung SM-G531H",
             "Lenovo TB3-710I": "Lenovo Tab 3",
             "LS-4005": "Lyf LS-4005",
-            "SM-J700F": "Samsung SM-J700F",
-            "SM-J320G": "Samsung SM-J320G",
-            "SM-J120G": "Samsung SM-J120G",
+            "LS-4503": "Lyf LS-4503",
             "LS-4505": "Lyf LS-4505",
+            "N9132": "ZTE Prestige",
+            "PacificVS": "Oysters Pacific VS",
             "Pixel V2+": "Lava Pixel V2+",
             "Redmi 3": "Xiaomi Redmi 3",
-            "HTC Desire 728 dual sim": "HTC Desire 728 Dual",
-            "CP8676_I02": "Coolpad CP8676_I02",
-            "CP8298_I00": "Coolpad CP8298_I00",
-            "vivo Y31L": "vivo Y31L",
+            "Redmi Note 3": "Xiaomi Redmi Note 3",
             "SM-G531F": "Samsung SM-G531F",
-            "Redmi Note 3": "Xiaomi Redmi Note 3"
+            "SM-G531H": "Samsung SM-G531H",
+            "SM-J105F": "Samsung SM-J105F",
+            "SM-J120G": "Samsung SM-J120G",
+            "SM-J200G": "Samsung SM-J200G",
+            "SM-J320G": "Samsung SM-J320G",
+            "SM-J500F": "Samsung SM-J500F",
+            "SM-J700F": "Samsung SM-J700F",
+            "vivo Y31L": "vivo Y31L"
           },
           "platforms": [
             "Android_5_1"
@@ -88,12 +89,12 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
           "devices": {
-            "SM-G530F": "Samsung SM-G530F",
-            "Micromax E455": "Micromax E455",
             "GT-I9515": "Samsung GT-I9515",
+            "HTC One ME dual sim": "HTC One ME",
             "Micromax A107": "Micromax A107",
+            "Micromax E455": "Micromax E455",
             "SM-A300H": "Samsung SM-A300H",
-            "HTC One ME dual sim": "HTC One ME"
+            "SM-G530F": "Samsung SM-G530F"
           },
           "platforms": [
             "Android_5_0"
@@ -103,19 +104,19 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
           "devices": {
-            "ASUS_Z007": "Asus Z007",
             "ASUS_T00I": "Asus T00I",
-            "SM-T116NU": "Samsung SM-T116NU",
-            "SM-E700H": "Samsung SM-E700H",
-            "Smartfren Andromax AD6B1H": "Smartfren Andromax AD6B1H",
-            "iris X8s": "Lava Iris X8s",
-            "XOLO One": "XOLO One",
+            "ASUS_Z007": "Asus Z007",
             "HM NOTE 1S": "Xiaomi HM NOTE 1S",
-            "T1X Plus": "Advan T1X Plus",
-            "Sense Golly": "iPro Sense Golly",
-            "SM-G7102": "Samsung SM-G7102",
+            "HUAWEI Y336-U02": "Huawei Y336-U02",
+            "iris X8s": "Lava Iris X8s",
             "Micromax A093": "Micromax A093",
-            "HUAWEI Y336-U02": "Huawei Y336-U02"
+            "Sense Golly": "iPro Sense Golly",
+            "SM-E700H": "Samsung SM-E700H",
+            "SM-G7102": "Samsung SM-G7102",
+            "SM-T116NU": "Samsung SM-T116NU",
+            "Smartfren Andromax AD6B1H": "Smartfren Andromax AD6B1H",
+            "T1X Plus": "Advan T1X Plus",
+            "XOLO One": "XOLO One"
           },
           "platforms": [
             "Android_4_4"
@@ -125,9 +126,9 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
           "devices": {
-            "Micromax A177": "Micromax A177",
+            "GT-I9152": "Samsung GT-I9152",
             "GT-S7270": "Samsung GT-S7270",
-            "GT-I9152": "Samsung GT-I9152"
+            "Micromax A177": "Micromax A177"
           },
           "platforms": [
             "Android_4_2"
@@ -137,8 +138,8 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
           "devices": {
-            "GT-S7262": "Samsung GT-S7262",
-            "GT-I9300": "Samsung GT-I9300"
+            "GT-I9300": "Samsung GT-I9300",
+            "GT-S7262": "Samsung GT-S7262"
           },
           "platforms": [
             "Android_4_1"

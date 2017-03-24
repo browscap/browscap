@@ -727,6 +727,19 @@
             "isTablet": "false"
         }
     },
+    "Lenovo P2a42": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "P2a42",
+            "Device_Name": "P2",
+            "Device_Maker": "Lenovo",
+            "Device_Brand_Name": "Lenovo",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Lenovo P770": {
         "standard": false,
         "properties": {
