@@ -480,14 +480,7 @@
           }
         },
         {
-          "match": "Mozilla/5.0 (compatible; Charlotte/*; *)",
-          "properties": {
-            "Browser": "Charlotte",
-            "Beta": "true"
-          }
-        },
-        {
-          "match": "Mozilla/5.0 (*) Gecko* (Charlotte/*; http://www.searchme.com/support/)*",
+          "match": "Mozilla/5.0 *Charlotte/*searchme.com/support/*",
           "properties": {
             "Browser": "Charlotte",
             "Comment": "Charlotte (searchme.com bot)",
