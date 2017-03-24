@@ -4280,6 +4280,13 @@
           ]
         },
         {
+          "match": "Mozilla/5.0 (#PLATFORM#RCT6773W22B Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*",
+          "device": "RCA RCT6773W22B",
+          "platforms": [
+            "Android_5_0"
+          ]
+        },
+        {
           "match": "LMT6752_TD*Linux/* Android/5.0* Release/* Browser/applewebkit* Chrome/#MAJORVER#.*",
           "platforms": [
             "Android_5_0"

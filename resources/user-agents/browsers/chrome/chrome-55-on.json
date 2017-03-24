@@ -1276,6 +1276,13 @@
           ]
         },
         {
+          "match": "Mozilla/5.0 (#PLATFORM#ONEPLUS A3010 Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
+          "device": "OnePlus A3010",
+          "platforms": [
+            "Android_7_0"
+          ]
+        },
+        {
           "match": "Mozilla/5.0 (#PLATFORM#Venue 7 3730 Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
           "device": "Dell Venue 7 3730",
           "platforms": [
