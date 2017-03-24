@@ -20,6 +20,7 @@
       "children": [
         {
           "match": "WhatsApp/2.6* #PLATFORM# Device/iPhone*",
+          "platform": "iOS",
           "engine": "WebKit",
           "device": "iPhone",
           "properties": {
@@ -33,6 +34,7 @@
         },
         {
           "match": "WhatsApp/* #PLATFORM# Device/iPhone*",
+          "platform": "iOS",
           "engine": "WebKit",
           "device": "iPhone",
           "platforms": [

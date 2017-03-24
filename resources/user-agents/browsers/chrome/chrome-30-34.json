@@ -4011,9 +4011,29 @@
           ]
         },
         {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
+          "devices": {
+            "6045O;": "Alcatel 6045O",
+            "LGMS428;": "LG MS428",
+            "SM-N910T;": "Samsung SM-N910T"
+          },
+          "platforms": [
+            "Android_6_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
+          "devices": {
+            "LGMS210": "LG MS210"
+          },
+          "platforms": [
+            "Android_7_0"
+          ]
+        },
+        {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
           "platforms": [
-            "Android_4_2", "Android_4_3", "Android_4_4", "Android_5_0", "Android_5_1",
+            "Android_4_2", "Android_4_3", "Android_4_4", "Android_5_0", "Android_5_1", "Android_6_0", "Android_6_1", "Android_7_0",
             "Android"
           ]
         },

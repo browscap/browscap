@@ -28,70 +28,50 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (#PLATFORM#Micromax A27 Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "Micromax A27",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari*",
+          "devices": {
+            "HTCA510e*": "HTC A510e",
+            "HTCS510e*": "HTC S510e",
+            "HTCS710e*": "HTC S710E",
+            "Micromax A27": "Micromax A27",
+            "Micromax A35": "Micromax A35",
+            "Micromax A40": "Micromax A40",
+            "sprd-B51+*": "sprd B51+"
+          },
           "platforms": [
             "Android_2_3"
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#Micromax A35 Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "Micromax A35",
-          "platforms": [
-            "Android_2_3"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#sprd-B51+* Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "sprd B51+",
-          "platforms": [
-            "Android_2_3"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#Micromax A40 Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "Micromax A40",
-          "platforms": [
-            "Android_2_3"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#ALCATEL ONE TOUCH 4030D Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "Alcatel OT-4030D",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari*",
+          "devices": {
+            "ALCATEL ONE TOUCH 4030D": "Alcatel OT-4030D",
+            "GT-I9100": "Samsung GT-I9100"
+          },
           "platforms": [
             "Android_4_1"
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#GT-I9100 Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "Samsung GT-I9100",
-          "platforms": [
-            "Android_4_1"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#LG-D805 Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "LG D805",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari*",
+          "devices": {
+            "LG-D805": "LG D805",
+            "FP1": "Fairphone FP1",
+            "FP1U": "Fairphone FP1U"
+          },
           "platforms": [
             "Android_4_2"
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#FP1U Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "Fairphone FP1U",
+          "match": "Mozilla/5.0 (#PLATFORM#HTC_One_X* Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari*",
+          "device": "HTC PJ83100",
           "platforms": [
-            "Android_4_2"
+            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3"
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#FP1 Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "Fairphone FP1",
-          "platforms": [
-            "Android_4_2"
-          ]
-        },
-        {
-          "match": "*Mozilla/5.0 (#PLATFORM#INM8002KP Build/*) applewebkit*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "*Mozilla/5.0 (#PLATFORM#INM8002KP Build/*) applewebkit*khtml*like gecko) Version/#MAJORVER#.#MINORVER#*Safari*",
           "device": "Intenso INM8002KP",
           "platforms": [
             "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
@@ -101,19 +81,19 @@
           ]
         },
         {
+          "match": "Mozilla/5.0 (#PLATFORM#sprd-B51+* Android/* Release/* Browser/applewebkit* Build/*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari*",
+          "device": "sprd B51+",
+          "platforms": [
+            "Android_2_3"
+          ]
+        },
+        {
           "match": "Mozilla/5.0 (#PLATFORM# Android/* Release/* Browser/applewebkit* Build/*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari*",
           "platforms": [
             "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
             "Android_2_0", "Android_2_1", "Android_2_2", "Android_2_3", "Android_B_2_3",
             "Android_3_0", "Android_3_1", "Android_3_2",
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#sprd-B51+* Android/* Release/* Browser/applewebkit* Build/*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "sprd B51+",
-          "platforms": [
-            "Android_2_3"
           ]
         },
         {
@@ -141,13 +121,6 @@
           "device": "HTC Desire S",
           "platforms": [
             "Android"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#HTC Desire S Build/*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "HTC Desire S",
-          "platforms": [
-            "Android_2_3"
           ]
         },
         {
@@ -295,6 +268,13 @@
           "match": "Mozilla/5.0 (Linux*; Android Eclair*Build/*) applewebkit* (*khtml*like*gecko*) Version/*Safari*",
           "platforms": [
             "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#HTC Desire S Build/*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari*",
+          "device": "HTC Desire S",
+          "platforms": [
+            "Android_2_3"
           ]
         },
         {
@@ -1189,6 +1169,13 @@
           "match": "Mozilla/5.0 (#PLATFORM#DISCO10 Build/*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari*",
           "platforms": [
             "Android_2_2"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#htc?Desire HD Build/*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari*",
+          "device": "HTC Desire HD",
+          "platforms": [
+            "Android_2_2", "Android_2_3"
           ]
         },
         {
@@ -6126,7 +6113,7 @@
         {
           "match": "*Mozilla/5.0 (#PLATFORM#) applewebkit*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari*",
           "platforms": [
-            "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
+            "Android_1_0", "Android_1_0_B", "Android_1_1", "Android_1_5", "Android_1_6",
             "Android_2_0", "Android_2_1", "Android_2_2", "Android_2_3", "Android_B_2_3",
             "Android_3_0", "Android_3_1", "Android_3_2",
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android_4_5",
@@ -6136,18 +6123,18 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari*",
           "platforms": [
-            "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
+            "Android_1_0", "Android_1_0_B", "Android_1_1", "Android_1_5", "Android_1_6",
             "Android_2_0", "Android_2_1", "Android_2_2", "Android_2_3", "Android_B_2_3",
             "Android_3_0", "Android_3_1", "Android_3_2",
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android_4_5",
             "Android_5_0", "Android_5_1",
-            "Android", "Android_B"
+            "Android"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*",
           "platforms": [
-            "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
+            "Android_1_0", "Android_1_0_B", "Android_1_1", "Android_1_5", "Android_1_6",
             "Android_2_0", "Android_2_1", "Android_2_2", "Android_2_3", "Android_B_2_3",
             "Android_3_0", "Android_3_1", "Android_3_2",
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android_4_5",

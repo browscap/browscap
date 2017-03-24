@@ -350,6 +350,19 @@
             "isTablet": "false"
         }
     },
+    "Huawei T8600": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "T8600",
+            "Device_Name": "T8600",
+            "Device_Maker": "Huawei",
+            "Device_Brand_Name": "Huawei",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Huawei U8100": {
         "standard": false,
         "properties": {

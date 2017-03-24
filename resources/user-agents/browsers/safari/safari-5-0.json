@@ -64,6 +64,20 @@
             "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
             "OSX"
           ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Version/#MAJORVER#.#MINORVER#* Safari/*",
+          "device": "general Desktop",
+          "platforms": [
+            "SunOS"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Version/#MAJORVER#.#MINORVER#*",
+          "device": "general Desktop",
+          "platforms": [
+            "SunOS"
+          ]
         }
       ]
     },
@@ -206,13 +220,6 @@
           "match": "Safari/75??.* CFNetwork/*",
           "platforms": [
             "OSX"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Safari/*",
-          "device": "general Desktop",
-          "platforms": [
-            "SunOS"
           ]
         }
       ]

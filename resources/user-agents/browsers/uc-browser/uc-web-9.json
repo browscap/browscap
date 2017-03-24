@@ -46,7 +46,30 @@
           "match": "Mozilla/5.0 (#PLATFORM# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/* UCBrowser/#MAJORVER#.#MINORVER#* Mobile",
           "engine": "WebKit",
           "platforms": [
-            "Android_4_2", "Android_4_3", "Android_4_4", "Android"
+            "Android_4_2", "Android_4_3", "Android_4_4",
+            "Android_5_0", "Android_5_1",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
+          "engine": "U3",
+          "devices": {
+            "Lenovo A2010-a": "Lenovo A2010-A"
+          },
+          "platforms": [
+            "Android_5_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
+          "engine": "U3",
+          "devices": {
+            "Lenovo A6000": "Lenovo A6000",
+            "Lenovo A7000-a": "Lenovo A7000-A"
+          },
+          "platforms": [
+            "Android_5_0"
           ]
         },
         {
@@ -56,16 +79,20 @@
             "LG-D325": "LG D325",
             "DG800": "Doogee DG800",
             "Lenovo S660": "Lenovo S660",
-            "LG-D690": "LG D690"
+            "LG-D690": "LG D690",
+            "MI 3W": "Xiaomi MI 3W"
           },
           "platforms": [
             "Android_4_4"
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#D2302 Build/*) applewebkit* (*khtml*like*gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
-          "device": "Sony D2302",
+          "devices": {
+            "D2302": "Sony D2302",
+            "MI 3W": "Xiaomi MI 3W"
+          },
           "platforms": [
             "Android_4_3"
           ]
@@ -77,7 +104,8 @@
             "C6903": "Sony C6903",
             "ZTE LEO Q2": "ZTE V769M",
             "K1": "Lenovo K1",
-            "Keneksi-Libra_Dual": "Keneksi Libra"
+            "Keneksi-Libra_Dual": "Keneksi Libra",
+            "FP1": "Fairphone FP1"
           },
           "platforms": [
             "Android_4_2"
@@ -137,11 +165,32 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#ASUS Transformer Pad TF700T*) applewebkit* (*khtml*like*gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE#*) applewebkit* (*khtml*like*gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
-          "device": "Asus TF700T",
+          "devices": {
+            "ASUS Transformer Pad TF700T": "Asus TF700T"
+          },
           "platforms": [
             "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# *) applewebkit* (*khtml*like*gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
+          "engine": "U3",
+          "devices": {
+            "GT-I9300": "Samsung GT-I9300"
+          },
+          "platforms": [
+            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM# Build/*) applewebkit* (*khtml*like*gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
+          "engine": "U3",
+          "platforms": [
+            "Android_4_2", "Android_4_3", "Android_4_4",
+            "Android_5_0", "Android_5_1",
+            "Android"
           ]
         },
         {
@@ -150,6 +199,15 @@
           "device": "Lenovo A320t",
           "platforms": [
             "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM# Build/*) applewebkit* (*khtml*like*gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#*/* Safari/*",
+          "engine": "WebKit",
+          "platforms": [
+            "Android_4_2", "Android_4_3", "Android_4_4",
+            "Android_5_0", "Android_5_1",
+            "Android"
           ]
         },
         {
@@ -309,17 +367,32 @@
           ]
         },
         {
+          "match": "Mozilla/5.0 (#PLATFORM#K-Touch E619 Build/*) applewebkit* (*khtml*like*gecko*) *UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
+          "engine": "U3",
+          "device": "K-Touch E619",
+          "platforms": [
+            "Android_1_5"
+          ]
+        },
+        {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
           "platforms": [
-            "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android"
+            "Android_1_5", "Android_1_6",
+            "Android_2_0", "Android_2_1", "Android_2_2", "Android_2_3",
+            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4",
+            "Android"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *UCBrowser/#MAJORVER#.#MINORVER#*Safari/*",
           "engine": "WebKit",
           "platforms": [
-            "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android"
+            "Android_1_5", "Android_1_6",
+            "Android_2_0", "Android_2_1", "Android_2_2", "Android_2_3",
+            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3",
+            "Android_4_4", "Android_5_0", "Android_5_1",
+            "Android"
           ]
         },
         {

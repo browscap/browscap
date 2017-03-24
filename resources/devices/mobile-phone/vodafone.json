@@ -25,6 +25,32 @@
             "isTablet": "false"
         }
     },
+    "HTC v1510": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "v1510",
+            "Device_Name": "VPA Compact GPS",
+            "Device_Maker": "HTC",
+            "Device_Brand_Name": "Vodafone",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "HTC v3600": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "v3600",
+            "Device_Name": "v3600",
+            "Device_Maker": "HTC",
+            "Device_Brand_Name": "Vodafone",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Lenovo K910L": {
         "standard": false,
         "properties": {

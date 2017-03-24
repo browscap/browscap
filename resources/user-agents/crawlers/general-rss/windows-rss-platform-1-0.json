@@ -23,13 +23,13 @@
       },
       "children": [
         {
-          "match": "Windows-RSS-Platform/#MAJORVER#.#MINORVER# (MSIE *; #PLATFORM#)",
+          "match": "Windows-RSS-Platform/#MAJORVER#.#MINORVER# (MSIE *; #PLATFORM#",
           "platforms": [
             "WinXPa_32", "Vista_32"
           ]
         },
         {
-          "match": "Windows-RSS-Platform/#MAJORVER#.#MINORVER# (MSIE ?.0; Windows NT *.*)",
+          "match": "Windows-RSS-Platform/#MAJORVER#.#MINORVER# (MSIE *; Windows NT*",
           "platforms": [
             "Windows"
           ]

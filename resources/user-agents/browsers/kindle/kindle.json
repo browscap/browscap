@@ -22,7 +22,7 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (Linux; U;*) AppleWebKit/528.5+ (*khtml*like*gecko,*safari*) Version/4.0 Kindle/3.0*",
+          "match": "Mozilla/5.0 (Linux; U;*) applewebkit* (*khtml*like*gecko,*safari*) Version/4.0 Kindle/3.0*",
           "properties": {
             "Version": "3.0",
             "MajorVer": "3",
@@ -30,14 +30,14 @@
           }
         },
         {
-          "match": "Mozilla/5.0 (Linux; U*) applewebkit* (*khtml*like*gecko, Safari/*Version/4.0 Kindle/3.0 (screen 600x800; rotate)",
+          "match": "Mozilla/5.0 (Linux; U*) applewebkit* (*khtml*like*gecko,*safari*Version/4.0 Kindle/3.0*",
           "properties": {
             "Version": "3.0",
             "MajorVer": "3"
           }
         },
         {
-          "match": "Mozilla/5.0 (Linux*; Android 2.3*Kindle Fire*) applewebkit* (*khtml*like*gecko*) Version/4.0*Safari/533.1",
+          "match": "Mozilla/5.0 (Linux*; Android 2.3*Kindle Fire*) applewebkit* (*khtml*like*gecko*) Version/4.0*Safari/*",
           "properties": {
             "Comment": "Kindle Fire",
             "Version": "4.0",

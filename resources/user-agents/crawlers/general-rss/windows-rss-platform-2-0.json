@@ -29,13 +29,13 @@
           ]
         },
         {
-          "match": "Windows-RSS-Platform/#MAJORVER#.#MINORVER# (MSIE ?.0; Windows NT *.*)",
+          "match": "Windows-RSS-Platform/#MAJORVER#.#MINORVER# (MSIE *; Windows NT*",
           "platforms": [
             "Windows"
           ]
         },
         {
-          "match": "Windows-RSS-Platform/#MAJORVER#.#MINORVER# (IE *; #PLATFORM#)",
+          "match": "Windows-RSS-Platform/#MAJORVER#.#MINORVER# (IE *; #PLATFORM#",
           "platforms": [
             "Win7_32", "Win8_32", "Win8_1_32"
           ]

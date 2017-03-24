@@ -137,6 +137,20 @@
           ]
         },
         {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/* ACHEETAHI/*",
+          "devices": {
+            "SM-G930A": "Samsung SM-G930A",
+            "SM-G920P": "Samsung SM-G920P",
+            "SM-G935P": "Samsung SM-G935P",
+            "SM-G935V": "Samsung SM-G935V",
+            "SM-N920V": "Samsung SM-N920V",
+            "SM-S320VL": "Samsung SM-S320VL"
+          },
+          "platforms": [
+            "Android_6_0"
+          ]
+        },
+        {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Safari/* ACHEETAHI/*",
           "devices": {
             "chagall": "Pegatron Chagall",
@@ -216,7 +230,8 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/* ACHEETAHI/*",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3",
-            "Android_4_4", "Android_5_0", "Android_5_1",
+            "Android_4_4", "Android_5_0", "Android_5_1", "Android_6_0",
+            "Android_6_1", "Android_7_0", "Android_7_1",
             "Android"
           ]
         },
@@ -225,7 +240,8 @@
           "engine": "WebKit",
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3",
-            "Android_4_4", "Android_5_0", "Android_5_1",
+            "Android_4_4", "Android_5_0", "Android_5_1", "Android_6_0",
+            "Android_6_1", "Android_7_0", "Android_7_1",
             "Android"
           ]
         }

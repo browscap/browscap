@@ -106,32 +106,6 @@
       ]
     },
     {
-      "userAgent": "Safari Generic for SymbianOS",
-      "device": "general Mobile Device",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "Safari Generic",
-        "Browser": "Safari",
-        "Browser_Type": "Browser",
-        "Browser_Maker": "Apple Inc",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "1"
-      },
-      "children": [
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Safari*",
-          "device": "general Mobile Phone",
-          "platforms": [
-            "SymbianOS"
-          ]
-        }
-      ]
-    },
-    {
       "userAgent": "Safari Generic for Darwin",
       "platform": "OSX",
       "engine": "WebKit",
