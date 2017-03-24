@@ -69,7 +69,7 @@ final class ProcessorTest extends \PHPUnit\Framework\TestCase
      *
      * @return void
      */
-    public function testJsonStructure($fileName, $expected)
+    public function testJsonStructure(string $fileName, array $expected)
     {
         $coverage = $this->object->processFile($fileName, file_get_contents($this->resourceDir . $fileName), []);
 

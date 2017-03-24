@@ -1,4 +1,7 @@
 <?php
+
+declare(strict_types=1);
+
 /**
  * Copyright (c) 1998-2014 Browser Capabilities Project
  *
@@ -57,7 +60,7 @@ class Expander
      *
      * @return \Browscap\Data\Expander
      */
-    public function setDataCollection(DataCollection $collection)
+    public function setDataCollection(DataCollection $collection) : self
     {
         $this->collection = $collection;
 
@@ -71,7 +74,7 @@ class Expander
      *
      * @return string[]
      */
-    public function getVersionParts($version)
+    public function getVersionParts(string $version) : array
     {
         $dots = explode('.', $version, 2);
 
@@ -88,7 +91,7 @@ class Expander
      * @throws \UnexpectedValueException
      * @return array
      */
-    public function expand(Division $division, $divisionName) : array
+    public function expand(Division $division, string $divisionName) : array
     {
         $allInputDivisions = $this->parseDivision(
             $division,
@@ -122,7 +125,7 @@ class Expander
      *
      * @return array
      */
-    private function parseDivision(Division $division, $divisionName)
+    private function parseDivision(Division $division, string $divisionName) : array
     {
         $output = [];
 
@@ -159,7 +162,7 @@ class Expander
      *
      * @return array
      */
-    private function parseUserAgent(array $uaData, $lite, $standard, $sortIndex, $divisionName)
+    private function parseUserAgent(array $uaData, bool $lite, bool $standard, int $sortIndex, string $divisionName) : array
     {
         if (!isset($uaData['properties']) || !is_array($uaData['properties'])) {
             throw new \LogicException('properties are missing or not an array for key "' . $uaData['userAgent'] . '"');
@@ -266,7 +269,7 @@ class Expander
      *
      * @return string
      */
-    public function parseProperty($value, $majorVer, $minorVer)
+    public function parseProperty(string $value, string $majorVer, string $minorVer) : string
     {
         return str_replace(
             ['#MAJORVER#', '#MINORVER#'],
@@ -281,7 +284,7 @@ class Expander
      * @throws \LogicException
      * @return \Browscap\Data\DataCollection
      */
-    public function getDataCollection()
+    public function getDataCollection() : DataCollection
     {
         if (!isset($this->collection)) {
             throw new \LogicException('Data collection has not been set yet - call setDataCollection');
@@ -300,7 +303,7 @@ class Expander
      *
      * @return \array[]
      */
-    private function parseChildren($ua, array $uaDataChild, $lite = true, $standard = true)
+    private function parseChildren(string $ua, array $uaDataChild, bool $lite = true, bool $standard = true) : array
     {
         $output = [];
 
@@ -437,7 +440,7 @@ class Expander
      * @throws \LogicException
      * @return void
      */
-    private function checkPlatformData(array $properties, $message)
+    private function checkPlatformData(array $properties, string $message)
     {
         if (array_key_exists('Platform', $properties)
             || array_key_exists('Platform_Description', $properties)
@@ -458,7 +461,7 @@ class Expander
      * @throws \LogicException
      * @return void
      */
-    private function checkEngineData(array $properties, $message)
+    private function checkEngineData(array $properties, string $message)
     {
         if (array_key_exists('RenderingEngine_Name', $properties)
             || array_key_exists('RenderingEngine_Version', $properties)
@@ -478,7 +481,7 @@ class Expander
      * @throws \UnexpectedValueException
      * @return array
      */
-    private function expandProperties(array $allInputDivisions)
+    private function expandProperties(array $allInputDivisions) : array
     {
         $this->getLogger()->debug('expand all properties');
         $allDivisions = [];
@@ -538,7 +541,7 @@ class Expander
             unset($parents);
 
             foreach (array_keys($browserData) as $propertyName) {
-                $properties[$propertyName] = $this->trimProperty($browserData[$propertyName]);
+                $properties[$propertyName] = $this->trimProperty((string) $browserData[$propertyName]);
             }
 
             unset($browserData);
@@ -584,13 +587,13 @@ class Expander
     /**
      * trims the value of a property and converts the string values "true" and "false" to boolean
      *
-     * @param string $propertyValue
+     * @param string|bool $propertyValue
      *
      * @return string|bool
      */
-    public function trimProperty($propertyValue)
+    public function trimProperty(string $propertyValue)
     {
-        switch ((string) $propertyValue) {
+        switch ($propertyValue) {
             case 'true':
                 $propertyValue = true;
                 break;
@@ -608,7 +611,7 @@ class Expander
     /**
      * @return \Psr\Log\LoggerInterface $logger
      */
-    public function getLogger()
+    public function getLogger() : LoggerInterface
     {
         return $this->logger;
     }
@@ -618,7 +621,7 @@ class Expander
      *
      * @return \Browscap\Data\Expander
      */
-    public function setLogger(LoggerInterface $logger)
+    public function setLogger(LoggerInterface $logger) : self
     {
         $this->logger = $logger;
 

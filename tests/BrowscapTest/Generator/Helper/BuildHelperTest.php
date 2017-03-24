@@ -69,7 +69,7 @@ class BuildHelperTest extends \PHPUnit\Framework\TestCase
             ->will(self::returnSelf());
         $writerCollection->expects(self::any())
             ->method('renderSectionBody')
-            ->with(self::callback(function ($props) {
+            ->with(self::callback(function (array $props) {
                 // Be sure that PatternId key is removed
                 return !array_key_exists('PatternId', $props);
             }))
@@ -190,7 +190,7 @@ class BuildHelperTest extends \PHPUnit\Framework\TestCase
             ->will(self::returnSelf());
         $writerCollection->expects(self::any())
             ->method('renderSectionBody')
-            ->with(self::callback(function ($props) {
+            ->with(self::callback(function (array $props) {
                 // Be sure that PatternId key is present
                 return array_key_exists('PatternId', $props);
             }))
