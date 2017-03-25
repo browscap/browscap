@@ -3981,6 +3981,13 @@
           ]
         },
         {
+          "match": "Mozilla/5.0 (#PLATFORM#ONE E1003 Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
+          "device": "OnePlus E1003",
+          "platforms": [
+            "Android_5_1"
+          ]
+        },
+        {
           "match": "Mozilla/5.0 (#PLATFORM#TPC-7001 Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
           "device": "Vivax TPC-7001",
           "platforms": [

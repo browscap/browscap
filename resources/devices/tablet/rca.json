@@ -12,6 +12,19 @@
             "isTablet": "true"
         }
     },
+    "RCA RCT6773W22B": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "Voyager II Wi-Fi",
+            "Device_Code_Name": "RCT6773W22B",
+            "Device_Maker": "RCA",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "RCA",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
     "RCA RCT6773W42B": {
         "standard": false,
         "properties": {
