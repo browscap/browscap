@@ -110,7 +110,7 @@
           "platforms": [
             "iOS_A_10_0", "iOS_A_10_1", "iOS_A_10_2", "iOS_A_10_3",
             "iOS_A",
-            "iOS_C_10_0", "iOS_C_10_1", "iOS_C_10_2", "iOS_C_10_3",
+            "iOS_C_10_3", "iOS_C_10_2", "iOS_C_10_1", "iOS_C_10_0",
             "iOS_C"
           ]
         },
@@ -121,7 +121,7 @@
           "platforms": [
             "iOS_A_10_0", "iOS_A_10_1", "iOS_A_10_2", "iOS_A_10_3",
             "iOS_A",
-            "iOS_C_10_0", "iOS_C_10_1", "iOS_C_10_2", "iOS_C_10_3",
+            "iOS_C_10_3", "iOS_C_10_2", "iOS_C_10_1", "iOS_C_10_0",
             "iOS_C"
           ]
         },
