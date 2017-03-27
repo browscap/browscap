@@ -51,6 +51,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
           "devices": {
+            "EVA-AL10": "Huawei EVA-AL10",
             "ONEPLUS A3010": "OnePlus A3010",
             "XT1650": "Motorola XT1650"
           },
