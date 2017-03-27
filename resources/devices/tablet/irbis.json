@@ -76,5 +76,18 @@
             "isMobileDevice": "true",
             "isTablet": "true"
         }
+    },
+    "Irbis TZ43": {
+        "standard": true,
+        "properties": {
+            "Device_Brand_Name": "Irbis",
+            "Device_Code_Name": "TZ43",
+            "Device_Maker": "Irbis",
+            "Device_Name": "TZ43",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Type": "Tablet",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
     }
 }
