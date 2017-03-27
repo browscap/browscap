@@ -28,9 +28,11 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (#PLATFORM#Moto G (4) Build/*) applewebkit* (*khtml*like*gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
-          "device": "Motorola G4",
+          "devices": {
+            "Moto G (4)": "Motorola G4"
+          },
           "platforms": [
             "Android_7_0"
           ]
@@ -42,6 +44,7 @@
             "Eluga_Arc_2": "Panasonic Eluga Arc 2",
             "F103 Pro": "Gionee F103 Pro",
             "Lenovo P2a42": "Lenovo P2a42",
+            "LG-H422": "LG H422",
             "MotoE2(4G-LTE)": "Motorola XT1524",
             "Redmi 3S": "Xiaomi Redmi 3S",
             "SM-A700FD": "Samsung SM-A700FD",
@@ -51,6 +54,16 @@
           },
           "platforms": [
             "Android_6_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
+          "engine": "U3",
+          "devices": {
+            "SM-G900F": "Samsung SM-G900F"
+          },
+          "platforms": [
+            "Android_6_0", "Android_5_0"
           ]
         },
         {
@@ -104,6 +117,16 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
           "devices": {
+            "SM-G530H": "Samsung SM-G530H"
+          },
+          "platforms": [
+            "Android_5_0", "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
+          "engine": "U3",
+          "devices": {
             "ASUS_T00I": "Asus T00I",
             "ASUS_Z007": "Asus Z007",
             "HM NOTE 1S": "Xiaomi HM NOTE 1S",
@@ -116,10 +139,21 @@
             "SM-T116NU": "Samsung SM-T116NU",
             "Smartfren Andromax AD6B1H": "Smartfren Andromax AD6B1H",
             "T1X Plus": "Advan T1X Plus",
+            "TZ43": "Irbis TZ43",
             "XOLO One": "XOLO One"
           },
           "platforms": [
             "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
+          "engine": "U3",
+          "devices": {
+            "Prime S": "Highscreen Omega Prime S"
+          },
+          "platforms": [
+            "Android_4_3"
           ]
         },
         {
@@ -143,22 +177,6 @@
           },
           "platforms": [
             "Android_4_1"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#SM-G530H Build/*) applewebkit* (*khtml*like*gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
-          "engine": "U3",
-          "device": "Samsung SM-G530H",
-          "platforms": [
-            "Android_4_4", "Android_5_0"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#SM-G900F Build/*) applewebkit* (*khtml*like*gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
-          "engine": "U3",
-          "device": "Samsung SM-G900F",
-          "platforms": [
-            "Android_5_0", "Android_6_0"
           ]
         },
         {

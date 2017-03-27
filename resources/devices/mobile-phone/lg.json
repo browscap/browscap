@@ -1949,6 +1949,19 @@
             "isTablet": "false"
         }
     },
+    "LG H422": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "H422",
+            "Device_Name": "Spirit (India)",
+            "Device_Maker": "LG",
+            "Device_Brand_Name": "LG",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "LG H631": {
         "standard": false,
         "properties": {
