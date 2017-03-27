@@ -1,4 +1,17 @@
 {
+    "Lava Iris 600": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "Iris 600",
+            "Device_Code_Name": "Iris 600",
+            "Device_Maker": "Lava",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Lava",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Lava Iris Atom 2": {
         "standard": false,
         "properties": {

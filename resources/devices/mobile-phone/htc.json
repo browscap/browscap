@@ -870,6 +870,19 @@
             "isTablet": "false"
         }
     },
+    "HTC E9PW": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "E9pw",
+            "Device_Name": "One E9+",
+            "Device_Maker": "HTC",
+            "Device_Brand_Name": "HTC",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "HTC Elf": {
         "standard": false,
         "properties": {
@@ -1175,6 +1188,19 @@
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "One Mini",
             "Device_Name": "One Mini",
+            "Device_Maker": "HTC",
+            "Device_Brand_Name": "HTC",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "HTC One Mini 2": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "One Mini 2",
+            "Device_Name": "One Mini 2",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
             "Device_Pointing_Method": "touchscreen",

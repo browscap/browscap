@@ -1,0 +1,214 @@
+{
+  "division": "Instagram App #MAJORVER#.#MINORVER#",
+  "versions": [10, 9, 8, 7],
+  "sortIndex": 1990,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Instagram App #MAJORVER#.#MINORVER# for iOS",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "platform": "iOS",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Instagram App #MAJORVER#.#MINORVER# for iOS",
+        "Browser": "Instagram App",
+        "Browser_Type": "Application",
+        "Browser_Maker": "Facebook",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*) Mobile* Instagram #MAJORVER#.*",
+          "devices": {
+            "iPhone": "iPhone",
+            "iPod": "iPod Touch"
+          },
+          "platforms": [
+            "iOS_A_10_3", "iOS_A_10_2", "iOS_A_10_1", "iOS_A_10_0",
+            "iOS_A_9_3", "iOS_A_9_2", "iOS_A_9_1", "iOS_A_9_0",
+            "iOS_A_8_4", "iOS_A_8_3", "iOS_A_8_2", "iOS_A_8_1", "iOS_A_8_0",
+            "iOS_A",
+            "iOS_B",
+            "iOS_C_10_3", "iOS_C_10_2", "iOS_C_10_1", "iOS_C_10_0",
+            "iOS_C_9_3", "iOS_C_9_2", "iOS_C_9_1", "iOS_C_9_0",
+            "iOS_C_8_4", "iOS_C_8_3", "iOS_C_8_2", "iOS_C_8_1", "iOS_C_8_0",
+            "iOS_C"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Mobile* Instagram #MAJORVER#.*",
+          "platforms": [
+            "iOS_A_10_3", "iOS_A_10_2", "iOS_A_10_1", "iOS_A_10_0",
+            "iOS_A_9_3", "iOS_A_9_2", "iOS_A_9_1", "iOS_A_9_0",
+            "iOS_A_8_4", "iOS_A_8_3", "iOS_A_8_2", "iOS_A_8_1", "iOS_A_8_0",
+            "iOS_A",
+            "iOS_B",
+            "iOS_C_10_3", "iOS_C_10_2", "iOS_C_10_1", "iOS_C_10_0",
+            "iOS_C_9_3", "iOS_C_9_2", "iOS_C_9_1", "iOS_C_9_0",
+            "iOS_C_8_4", "iOS_C_8_3", "iOS_C_8_2", "iOS_C_8_1", "iOS_C_8_0",
+            "iOS_C"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "Instagram App #MAJORVER#.#MINORVER# for Android",
+      "engine": "Blink",
+      "device": "general Mobile Device",
+      "platform": "Android",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Instagram App #MAJORVER#.#MINORVER# for Android",
+        "Browser": "Instagram App",
+        "Browser_Type": "Application",
+        "Browser_Maker": "Facebook",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) version* chrome* safari* Instagram #MAJORVER#.* Android*",
+          "devices": {
+            "A1601": "OPPO A1601",
+            "Coolpad 3622A": "Coolpad 3622A",
+            "D6603": "Sony D6603",
+            "HUAWEI CUN-L21": "Huawei CUN-L21",
+            "IP7": "Hotwav IP7",
+            "iris 600": "Lava Iris 600",
+            "Lenovo S1La40": "Lenovo S1LA40",
+            "LG-K330": "LG K330",
+            "LGMS330": "LG MS330",
+            "LGMS631": "LG MS631",
+            "M3s": "Meizu M3S",
+            "MI 4S": "Xiaomi MI 4S",
+            "SM-A710F": "Samsung SM-A710F",
+            "SM-E700F": "Samsung SM-E700F",
+            "SM-G531F": "Samsung SM-G531F",
+            "SM-G531H": "Samsung SM-G531H",
+            "SM-G800F": "Samsung SM-G800F",
+            "SM-G928A": "Samsung SM-G928A",
+            "SM-J110M": "Samsung SM-J110M",
+            "SM-J200H": "Samsung SM-J200H",
+            "SM-J320H": "Samsung SM-J320H",
+            "SM-J700M": "Samsung SM-J700M",
+            "SM-N910H": "Samsung SM-N910H"
+          },
+          "platforms": [
+            "Android_5_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) version* chrome* safari* Instagram #MAJORVER#.* Android*",
+          "devices": {
+            "ASUS_Z00AD": "Asus Z00AD",
+            "GT-I9500": "Samsung GT-I9500",
+            "GT-I9505": "Samsung GT-I9505",
+            "HTC Desire EYE": "HTC Desire Eye",
+            "HTC_E9pw": "HTC E9PW",
+            "Lenovo A7000-a": "Lenovo A7000-A",
+            "LG-D856": "LG D856",
+            "LG-H440*": "LG H440",
+            "SM-G530FZ": "Samsung SM-G530FZ",
+            "SM-G530H": "Samsung SM-G530H",
+            "SM-G850F": "Samsung SM-G850F",
+            "SM-G850W": "Samsung SM-G850W",
+            "SM-G900P": "Samsung SM-G900P",
+            "SM-N900": "Samsung SM-N900",
+            "SM-N9005": "Samsung SM-N9005",
+            "SM-N910A": "Samsung SM-N910A"
+          },
+          "platforms": [
+            "Android_5_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) version* chrome* safari* Instagram #MAJORVER#.* Android*",
+          "devices": {
+            "BLU STUDIO 5.5 K": "BLU D710",
+            "G4S": "LG G4S",
+            "GT-P5200": "Samsung GT-P5200",
+            "HTC One mini 2": "HTC One Mini 2",
+            "HTC One mini": "HTC One Mini",
+            "HUAWEI P6-U06": "Huawei P6-U06",
+            "Infinix X507": "Infinix X507",
+            "Lenovo A319": "Lenovo A319",
+            "Lenovo A328": "Lenovo A328",
+            "Lenovo A358t": "Lenovo A358t",
+            "Lenovo A5000": "Lenovo A5000",
+            "Lenovo A536": "Lenovo A536",
+            "Lenovo A5500-F": "Lenovo A5500-F",
+            "Lenovo A5500-H": "Lenovo A5500-H",
+            "Lenovo A5500-HV": "Lenovo A5500-HV",
+            "Lenovo A6000": "Lenovo A6000",
+            "Lenovo A7600-H": "Lenovo A7600-H",
+            "Lenovo A806": "Lenovo A806",
+            "Lenovo A916": "Lenovo A916",
+            "Vodafone Smart Tab 3G": "Lenovo Smart Tab 3G",
+            "Vodafone Smart Tab 4G": "Vodafone Smart Tab 4G",
+            "VS880": "LG VS880"
+          },
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) version* chrome* safari* Instagram #MAJORVER#.* Android*",
+          "platforms": [
+            "Android_7_1", "Android_7_0",
+            "Android_6_1", "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "Instagram App #MAJORVER#.#MINORVER# for Windows Phone",
+      "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
+      "platform": "WinPhone8_osmeta",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Instagram App #MAJORVER#.#MINORVER# for Windows Phone",
+        "Browser": "Instagram App",
+        "Browser_Type": "Application",
+        "Browser_Maker": "Facebook",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) mobile* Instagram #MAJORVER#.*Windows Phone*",
+          "platforms": [
+            "WinPhone8_osmeta"
+          ]
+        }
+      ]
+    }
+  ]
+}

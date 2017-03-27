@@ -38,6 +38,19 @@
             "isTablet": "false"
         }
     },
+    "Huawei CUN-L21": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "CUN-L21",
+            "Device_Name": "Y5 II",
+            "Device_Maker": "Huawei",
+            "Device_Brand_Name": "Huawei",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Huawei D2-0082": {
         "standard": false,
         "properties": {
