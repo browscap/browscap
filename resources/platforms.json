@@ -204,6 +204,15 @@
         "Platform_Version": "10.11"
       }
     },
+    "OSX_PPC": {
+      "match": "*PPC Mac OS X*",
+      "lite": false,
+      "standard": false,
+      "inherits": "OSX",
+      "properties": {
+        "Platform_Description": "Mac OS X for Power PC"
+      }
+    },
     "MacPPC": {
       "match": "*PPC*",
       "lite": false,
@@ -1368,6 +1377,38 @@
         "Platform_Bits": "64"
       }
     },
+    "Fedora": {
+      "match": "*Fedora*",
+      "lite": false,
+      "standard": false,
+      "properties": {
+        "Platform": "Fedora",
+        "Platform_Maker": "Red Hat Inc",
+        "Platform_Description": "Fedora Linux",
+        "Platform_Version": "unknown",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "Red_Hat": {
+      "match": "*Red Hat*",
+      "lite": false,
+      "standard": false,
+      "properties": {
+        "Platform": "Red Hat",
+        "Platform_Maker": "Red Hat Inc",
+        "Platform_Description": "Red Hat Linux",
+        "Platform_Version": "unknown",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
     "Ubuntu": {
       "match": "*Ubuntu*",
       "lite": false,
@@ -1654,14 +1695,15 @@
     },
     "Win98_2": {
       "match": "*Windows 98*",
+      "inherits": "Win98",
       "lite": false,
-      "standard": false,
-      "inherits": "Windows",
-      "properties": {
-        "Platform": "Win98",
-        "Platform_Version": "98",
-        "Platform_Description": "Windows 98"
-      }
+      "standard": false
+    },
+    "Win98_3": {
+      "match": "*Windows*98*",
+      "inherits": "Win98",
+      "lite": false,
+      "standard": false
     },
     "WinME": {
       "match": "*Win 9x 4.90*",
@@ -1776,6 +1818,17 @@
       "properties": {
         "Platform": "WinNT",
         "Platform_Version": "3.5",
+        "Platform_Description": "Windows NT"
+      }
+    },
+    "NT3.51": {
+      "match": "*WinNT3.51*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Windows",
+      "properties": {
+        "Platform": "WinNT",
+        "Platform_Version": "3.51",
         "Platform_Description": "Windows NT"
       }
     },

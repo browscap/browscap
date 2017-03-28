@@ -1,0 +1,38 @@
+{
+  "division": "Vonkeror Generic",
+  "sortIndex": 17582,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Vonkeror Generic",
+      "engine": "Gecko",
+      "device": "general Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Vonkeror Generic",
+        "Browser": "Vonkeror",
+        "Browser_Maker": "zzo38",
+        "Browser_Type": "Browser",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "2"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko/* Vonkeror/*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "WinXPa_32", "Windows"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (*) Gecko/* Vonkeror/*"
+        }
+      ]
+    }
+  ]
+}

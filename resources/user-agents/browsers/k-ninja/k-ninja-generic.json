@@ -1,0 +1,34 @@
+{
+  "division": "K-Ninja Generic",
+  "sortIndex": 17582,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "K-Ninja Generic",
+      "engine": "Gecko_1_8",
+      "device": "Windows Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "K-Ninja Generic",
+        "Browser": "K-Ninja",
+        "Browser_Maker": "Headbanging Sasquatches",
+        "Browser_Type": "Browser",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "2"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko/* K-Ninja/*",
+          "platforms": [
+            "WinXPa_32", "Win98_3", "Windows"
+          ]
+        }
+      ]
+    }
+  ]
+}

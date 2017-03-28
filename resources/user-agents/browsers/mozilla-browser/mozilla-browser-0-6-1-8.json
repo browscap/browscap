@@ -1,0 +1,94 @@
+{
+  "division": "Mozilla #MAJORVER#.#MINORVER#",
+  "versions": ["1.8", "1.7", "1.6", "1.5", "1.4", "1.3", "1.2", "1.1", "1.0", "0.9", "0.8", "0.7", "0.6"],
+  "sortIndex": 3172,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Mozilla #MAJORVER#.#MINORVER#",
+      "engine": "Gecko_Dynamic",
+      "device": "general Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Mozilla #MAJORVER#.#MINORVER#",
+        "Browser": "Mozilla",
+        "Browser_Maker": "Mozilla Foundation",
+        "Browser_Type": "Browser",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "2"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM# rv:#MAJORVER#.#MINORVER#*) Gecko/200?????",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64", "Linux_32", "Linux_PPC", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM# rv:#MAJORVER#.#MINORVER#*) Gecko/200????? Debian/#MAJORVER#.#MINORVER#*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Debian"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (*Linux* rv:#MAJORVER#.#MINORVER#*) Gecko/200????? Fedora/#MAJORVER#.#MINORVER#*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Fedora"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (*Linux* rv:#MAJORVER#.#MINORVER#*) Gecko/200????? Red Hat/#MAJORVER#.#MINORVER#*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Red_Hat"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM# rv:#MAJORVER#.#MINORVER#*) Gecko/200?????",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win95", "Win98", "Win98_2", "WinME", "NT4_B",
+            "Win2000", "WinXPa_32", "WinXPb_x64_2", "WinXPb_32", "Vista_32",
+            "Win8_1_64", "Win8_1_32", "Win8_64", "Win8_32", "Win7_64", "Win7_32"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM# rv:#MAJORVER#.#MINORVER#*) Gecko/200????? Mozilla/*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win95", "Win98", "Win98_2", "WinME", "NT4_B",
+            "Win2000", "WinXPa_32", "WinXPb_x64_2", "WinXPb_32", "Vista_32",
+            "Win8_1_64", "Win8_1_32", "Win8_64", "Win8_32", "Win7_64", "Win7_32"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM# rv:#MAJORVER#.#MINORVER#*) Gecko/200?????",
+          "device": "Macintosh",
+          "platforms": [
+            "MacPPC",
+            "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
+            "OSX_PPC", "OSX"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM# rv:#MAJORVER#.#MINORVER#*) Gecko/200?????",
+          "device": "general Desktop",
+          "platforms": [
+            "FreeBSD", "DragonFlyBSD", "HPUX", "IRIX64", "OpenBSD", "SunOS", "Darwin", "OS2", "NetBSD", "BeOS", "AIX"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "division": "lolifox Generic",
+  "sortIndex": 17582,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "lolifox Generic",
+      "engine": "Gecko_1_8_1",
+      "device": "general Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "lolifox Generic",
+        "Browser": "lolifox",
+        "Browser_Maker": "unknown",
+        "Browser_Type": "Browser",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "2"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko/* lolifox/*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "WinXPa_32"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko/* lolifox/*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_32", "Linux_64"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (*) Gecko/* lolifox/*"
+        }
+      ]
+    }
+  ]
+}
