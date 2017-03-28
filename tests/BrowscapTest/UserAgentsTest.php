@@ -16,6 +16,7 @@
 
 namespace BrowscapTest;
 
+use Browscap\Coverage\Processor;
 use Browscap\Data\PropertyHolder;
 use Browscap\Generator\BuildGenerator;
 use Browscap\Helper\CollectionCreator;
@@ -56,6 +57,11 @@ class UserAgentsTest extends \PHPUnit\Framework\TestCase
     private static $propertyHolder = null;
 
     /**
+     * @var string[]
+     */
+    private static $coveredPatterns = [];
+
+    /**
      * This method is called before the first test of this test class is run.
      */
     public static function setUpBeforeClass()
@@ -91,6 +97,8 @@ class UserAgentsTest extends \PHPUnit\Framework\TestCase
             ->setCollectionCreator(new CollectionCreator())
             ->setWriterCollection($writerCollection);
 
+        $buildGenerator->setCollectPatternIds(true);
+
         $buildGenerator->run($buildNumber, false);
 
         $cache = new File([File::DIR => $cacheFolder]);
@@ -106,6 +114,19 @@ class UserAgentsTest extends \PHPUnit\Framework\TestCase
             ->setLogger($logger);
 
         self::$propertyHolder = new PropertyHolder();
+    }
+
+    /**
+     * Runs after the entire test suite is run.  Generates a coverage report for JSON resource files if
+     * the $coveredPatterns array isn't empty
+     */
+    public static function tearDownAfterClass()
+    {
+        if (!empty(self::$coveredPatterns)) {
+            $coverageProcessor = new Processor(__DIR__ . '/../../resources/user-agents/');
+            $coverageProcessor->process(self::$coveredPatterns);
+            $coverageProcessor->write(__DIR__ . '/../../coverage.json');
+        }
     }
 
     /**
@@ -213,6 +234,8 @@ class UserAgentsTest extends \PHPUnit\Framework\TestCase
         }
 
         $actualProps = (array) self::$browscap->getBrowser($userAgent);
+
+        self::$coveredPatterns[] = $actualProps['patternid'];
 
         foreach ($expectedProperties as $propName => $propValue) {
             if (!self::$propertyHolder->isOutputProperty($propName)) {

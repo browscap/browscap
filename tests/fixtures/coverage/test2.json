@@ -1,0 +1,72 @@
+{
+  "division": "Test Division",
+  "sortIndex": 1,
+  "lite": true,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Test UA",
+      "platform": "Test Platform",
+      "engine": "Test Engine",
+      "device": "Test Device",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Test Browser",
+        "Browser": "Test Browser",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "unknown",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (KHTML* like Gecko) Version/* Chrome/* Safari/*",
+          "platforms": [
+            "Platform_1", "Platform_2"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE#) AppleWebKit/* (KHTML* like Gecko) Version/* Chrome/* Safari/*",
+          "properties": {
+            "Browser": "Test Browser Override"
+          },
+          "platforms": [
+            "Platform_1", "Platform_2"
+          ],
+          "devices": {
+            "device1": "Device_1",
+            "device2": "Device_2"
+          }
+        },
+      ]
+    },
+    {
+      "userAgent": "Test UA 2",
+      "platform": "Test Platform 2",
+      "engine": "Test Engine",
+      "device": "Test Device",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Test Browser",
+        "Browser": "Test Browser",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "unknown",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (*) AppleWebKit/* (KHTML* like Gecko) Version/* Chrome/* Safari/*",
+        }
+      ]
+    },
+  ]
+}

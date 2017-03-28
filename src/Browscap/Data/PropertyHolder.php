@@ -59,6 +59,7 @@ class PropertyHolder
             'RenderingEngine_Maker' => 1,
             'Parent' => 1,
             'PropertyName' => 1,
+            'PatternId' => 1,
         ];
 
         if (isset($stringProperties[$propertyName])) {
@@ -257,6 +258,12 @@ class PropertyHolder
             $additionalProperties = ['PropertyName', 'MasterParent', 'LiteMode'];
 
             if (in_array($propertyName, $additionalProperties)) {
+                return true;
+            }
+        }
+
+        if (null !== $writer && $writer->getType() === 'ini') {
+            if ($propertyName === 'PatternId') {
                 return true;
             }
         }

@@ -487,7 +487,8 @@ class DataCollection
             $userAgents,
             (boolean) $divisionData['lite'],
             (boolean) $divisionData['standard'],
-            $versions
+            $versions,
+            substr($src, strpos($src, 'resources/'))
         );
 
         $this->divisionsHaveBeenSorted = false;

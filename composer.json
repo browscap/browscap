@@ -40,7 +40,8 @@
     "browscap/browscap-php": "dev-master",
     "mikey179/vfsStream": "^1.6",
     "squizlabs/php_codesniffer": "^2.8",
-    "friendsofphp/php-cs-fixer": "^1.11"
+    "friendsofphp/php-cs-fixer": "^1.11",
+    "seld/jsonlint": "^1.5"
   },
   "autoload": {
     "psr-4": {
