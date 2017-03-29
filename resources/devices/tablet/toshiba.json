@@ -1,4 +1,17 @@
 {
+    "Toshiba AC100": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "AC100",
+            "Device_Name": "Smartbook",
+            "Device_Maker": "Toshiba",
+            "Device_Brand_Name": "Toshiba",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
     "Toshiba AT10-A": {
         "standard": true,
         "properties": {

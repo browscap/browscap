@@ -389,6 +389,32 @@
             "isTablet": "false"
         }
     },
+    "Huawei U8110 RBM3": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "U8110",
+            "Device_Name": "RBM3",
+            "Device_Maker": "Huawei",
+            "Device_Brand_Name": "Red Bull Mobile",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Huawei U8150": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "U8150",
+            "Device_Name": "Ideos",
+            "Device_Maker": "Huawei",
+            "Device_Brand_Name": "Huawei",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Huawei U8180": {
         "standard": false,
         "properties": {
@@ -423,6 +449,19 @@
             "Device_Name": "U8230",
             "Device_Maker": "Huawei",
             "Device_Brand_Name": "Huawei",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Huawei U8230 RBM2": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "U8230",
+            "Device_Name": "RBM2",
+            "Device_Maker": "Huawei",
+            "Device_Brand_Name": "Red Bull Mobile",
             "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"

@@ -51,8 +51,10 @@
           ]
         },
         {
-          "match": "Mozilla/5.0(#PLATFORM#Lenovo A536 Build/*)applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "Lenovo A536",
+          "match": "Mozilla/5.0(#PLATFORM##DEVICE# Build/*)applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari*",
+          "devices": {
+            "Lenovo A536": "Lenovo A536"
+          },
           "platforms": [
             "Android_4_4"
           ]
@@ -66,21 +68,21 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE#;*Release/*) *applewebkit* (*khtml*like*gecko*) Mobile Safari*",
           "devices": {
+            "8_96_Android": "O+ 8.96 Android",
+            "Andi 4F ARC3": "iBall Andi 4F ARC3",
+            "Aqua Q3": "Intex Aqua Q3",
+            "Aqua Star II HD": "Intex Aqua Star 2 HD",
+            "Aqua Star II": "Intex Aqua Star 2",
+            "Aqua_Life V": "Intex Aqua_Life V",
+            "AquaSense5.0": "Intex Aqua Sense 5.0",
+            "Atom 2": "Lava Iris Atom 2",
+            "era": "XOLO era",
             "itel it1701": "itel it1701",
             "itel_it1502": "itel it1502",
-            "AquaSense5.0": "Intex Aqua Sense 5.0",
-            "X1 Beats": "Lava Iris X1 Beats",
-            "X1 atom": "Lava Iris X1 Atom S",
-            "Andi 4F ARC3": "iBall Andi 4F ARC3",
-            "Aqua_Life V": "Intex Aqua_Life V",
-            "Aqua Q3": "Intex Aqua Q3",
-            "WOW": "Intex WOW",
             "PLAY Style": "Star PLAY Style",
-            "era": "XOLO era",
-            "Aqua Star II": "Intex Aqua Star 2",
-            "Atom 2": "Lava Iris Atom 2",
-            "8_96_Android": "O+ 8.96 Android",
-            "Aqua Star II HD": "Intex Aqua Star 2 HD"
+            "WOW": "Intex WOW",
+            "X1 atom": "Lava Iris X1 Atom S",
+            "X1 Beats": "Lava Iris X1 Beats"
           },
           "platforms": [
             "Android_4_4"

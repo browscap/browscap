@@ -28,8 +28,10 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (#PLATFORM#Infinix X510 Build/* applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#* Mobile Safari*",
-          "device": "Infinix X510",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/* applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#* Mobile Safari*",
+          "devices": {
+            "Infinix X510": "Infinix X510"
+          },
           "platforms": [
             "Android_5_1"
           ]
@@ -38,6 +40,32 @@
           "match": "Mozilla/5.0 (#PLATFORM# Build/* applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#* Mobile Safari*",
           "platforms": [
             "Android_5_1", "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (Macintosh; *Mac OS X*; #DEVICE#; *) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari*",
+          "properties": {
+            "Browser_Modus": "Desktop Mode"
+          },
+          "devices": {
+            "HTC_EVO3D_X515m": "HTC X515m"
+          },
+          "platforms": [
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.2 (Macintosh; *Mac OS X*; #DEVICE#; *) applewebkit* (*khtml*like*gecko*) Version/5.2*Safari*",
+          "properties": {
+            "Browser_Modus": "Desktop Mode",
+            "Version": "5.2",
+            "MinorVer": "2"
+          },
+          "devices": {
+            "HTC_EVO3D_X515m": "HTC X515m"
+          },
+          "platforms": [
+            "Android"
           ]
         }
       ]

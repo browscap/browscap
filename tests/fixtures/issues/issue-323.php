@@ -375,14 +375,14 @@ return [
     'issue-323-H' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_3; HTC_Sensation_Z710e; da-dk) AppleWebKit/533.16 (KHTML, like Gecko) Version/5.0 Safari/533.16',
         'properties' => [
-            'Comment' => 'Android Browser 4.0',
+            'Comment' => 'Android Browser 5.0',
             'Browser' => 'Android',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
             'Browser_Modus' => 'Desktop Mode',
-            'Version' => '4.0',
-            'MajorVer' => '4',
+            'Version' => '5.0',
+            'MajorVer' => '5',
             'MinorVer' => '0',
             'Platform' => 'Android',
             'Platform_Version' => 'unknown',

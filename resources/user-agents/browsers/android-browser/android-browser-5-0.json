@@ -32,6 +32,38 @@
           "platforms": [
             "Android_5_0", "Android"
           ]
+        },
+        {
+          "match": "Mozilla/5.0 (Macintosh; *Mac OS X*; #DEVICE#/*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari*",
+          "properties": {
+            "Browser_Modus": "Desktop Mode"
+          },
+          "devices": {
+            "HTC/Sensation": "HTC Z710"
+          },
+          "platforms": [
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (Macintosh; *Mac OS X*; #DEVICE#; *) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari*",
+          "properties": {
+            "Browser_Modus": "Desktop Mode"
+          },
+          "devices": {
+            "HTC_DesireHD_A9191": "HTC Desire HD A9191",
+            "HTC_EVO3D_X515m": "HTC X515m",
+            "HTC_Flyer_P510e": "HTC P510e",
+            "HTC_Flyer_P512": "HTC P512",
+            "HTC_IncredibleS_S710e": "HTC S710E",
+            "HTC_Runnymede": "HTC Runnymede",
+            "HTC_Sensation": "HTC Z710",
+            "HTC_Sensation_Z710e": "HTC Z710e",
+            "HTC_SensationXL_Beats_X315e": "HTC X315e"
+          },
+          "platforms": [
+            "Android"
+          ]
         }
       ]
     }
