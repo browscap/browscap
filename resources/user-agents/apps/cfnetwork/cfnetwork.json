@@ -183,6 +183,13 @@
           "platforms": [
             "iOS_A_10_2"
           ]
+        },
+        {
+          "match": "*CFNetwork/808.3*",
+          "device": "general Mobile Device (Apple)",
+          "platforms": [
+            "iOS_A_10_3"
+          ]
         }
       ]
     },
