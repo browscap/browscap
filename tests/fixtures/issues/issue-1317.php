@@ -4,7 +4,7 @@ return [
     'issue-1317' => [
         'ua' => 'Mozilla/5.0 (compatible; Windows NT 6.1; Catchpoint) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36',
         'properties' => [
-            'Comment' => 'Site Monitors',
+            'Comment' => 'Catchpoint Monitoring Service',
             'Browser' => 'Catchpoint Monitoring Service',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '32',
@@ -21,8 +21,8 @@ return [
             'Alpha' => false,
             'Beta' => false,
             'Win16' => false,
-            'Win32' => false,
-            'Win64' => true,
+            'Win32' => true,
+            'Win64' => false,
             'Frames' => true,
             'IFrames' => true,
             'Tables' => true,
