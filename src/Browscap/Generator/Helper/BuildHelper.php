@@ -160,7 +160,9 @@ class BuildHelper
 
                 foreach (array_keys($sectionsWithVersion) as $sectionName) {
                     if (array_key_exists($sectionName, $output)) {
-                        $logger->error('tried to add section "' . $sectionName . '" more than once -> skipped');
+                        $logger->error(
+                            'tried to add section "' . $sectionName . '" from "' . $division->getName() . '" more than once -> skipped'
+                        );
                         continue;
                     }
 
@@ -177,7 +179,7 @@ class BuildHelper
                         ->renderSectionBody($section, $collection, $sectionsWithVersion, $sectionName)
                         ->renderSectionFooter($sectionName);
 
-                    $output[$sectionName] = $sectionName;
+                    $output[$sectionName] = 1;
                 }
 
                 $writerCollection->renderDivisionFooter();

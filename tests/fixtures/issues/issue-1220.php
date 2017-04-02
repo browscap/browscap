@@ -4,11 +4,11 @@ return [
     'issue-1220' => [
         'ua' => 'Mozilla/5.0 (SMART-TV; X11; Linux armv7l) AppleWebkit/537.42 (KHTML, like Gecko) Safari/537.42',
         'properties' => [
-            'Comment' => 'Safari Generic',
-            'Browser' => 'Safari',
+            'Comment' => 'SmartTV WebBrowser',
+            'Browser' => 'SmartTV WebBrowser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
-            'Browser_Maker' => 'Apple Inc',
+            'Browser_Maker' => 'Samsung',
             'Browser_Modus' => 'unknown',
             'Version' => '0.0',
             'MajorVer' => '0',
@@ -39,7 +39,7 @@ return [
             'isFake' => false,
             'isAnonymized' => false,
             'isModified' => false,
-            'CssVersion' => '1',
+            'CssVersion' => '2',
             'AolVersion' => '0',
             'Device_Name' => 'Smart TV',
             'Device_Maker' => 'Samsung',

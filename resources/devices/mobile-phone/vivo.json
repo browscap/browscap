@@ -1,4 +1,17 @@
 {
+    "vivo X3L": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "X3L",
+            "Device_Code_Name": "X3L",
+            "Device_Maker": "vivo",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "vivo",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "vivo Y22": {
         "standard": false,
         "properties": {

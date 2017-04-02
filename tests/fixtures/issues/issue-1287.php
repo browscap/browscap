@@ -4,11 +4,11 @@ return [
     'issue-1287-A' => [
         'ua' => 'Mozilla/5.0 (Windows NT 4.0) AppleWebKit/537.36 (KHTML, like Gecko) Spotify/1.0.11.134 Safari/537.36',
         'properties' => [
-            'Comment' => 'Media Players',
+            'Comment' => 'Spotify',
             'Browser' => 'Spotify',
             'Browser_Type' => 'Multimedia Player',
             'Browser_Bits' => '0',
-            'Browser_Maker' => 'unknown',
+            'Browser_Maker' => 'Spotify AB',
             'Browser_Modus' => 'unknown',
             'Version' => '1.0',
             'MajorVer' => '1',

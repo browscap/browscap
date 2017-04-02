@@ -1,6 +1,6 @@
 {
   "division": "Opera Mini #MAJORVER#.#MINORVER#",
-  "versions": [28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 14, "10.2", "10.1", 10, "9.1", 9, "8.1", 8],
+  "versions": [28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 14, "10.2", "10.1", 10, "9.2", "9.1", 9, "8.1", 8],
   "sortIndex": 1931,
   "lite": false,
   "standard": true,
@@ -138,24 +138,6 @@
           "device": "general Mobile Phone",
           "platforms": [
             "JAVA"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (iPhone#PLATFORM#) applewebkit* (*khtml*like*gecko*) OPiOS/#MAJORVER#.#MINORVER#* Mobile/* Safari/*",
-          "engine": "WebKit",
-          "device": "iPhone",
-          "platforms": [
-            "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_4", "iOS_A_8_3", "iOS_A_8_2", "iOS_A_8_1", "iOS_A_8_0",
-            "iOS_A"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) OPiOS/#MAJORVER#.#MINORVER#* Mobile/* Safari/*",
-          "device": "general Mobile Device (Apple)",
-          "engine": "WebKit",
-          "platforms": [
-            "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_4", "iOS_A_8_3", "iOS_A_8_2", "iOS_A_8_1", "iOS_A_8_0",
-            "iOS_A"
           ]
         }
       ]

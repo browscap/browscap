@@ -12,6 +12,19 @@
             "isTablet": "false"
         }
     },
+    "ZTE BA910": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "BA910",
+            "Device_Name": "Blade",
+            "Device_Maker": "ZTE",
+            "Device_Brand_Name": "ZTE",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "ZTE Beeline Pro": {
         "standard": false,
         "properties": {

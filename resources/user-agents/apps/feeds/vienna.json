@@ -1,0 +1,36 @@
+{
+  "division": "Vienna #MAJORVER#.#MINORVER#",
+  "versions": ["3.1", 3, "2.6", "2.5", "2.4", "2.3", "2.2", "2.1", 2],
+  "sortIndex": 381,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Vienna #MAJORVER#.#MINORVER#",
+      "engine": "WebKit",
+      "platform": "OSX",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Vienna #MAJORVER#.#MINORVER#",
+        "Browser": "Vienna",
+        "Browser_Maker": "Steve Palmer",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "isSyndicationReader": "true",
+        "Browser_Type": "Feed Reader",
+        "Crawler": "false"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Vienna/#MAJORVER#.#MINORVER#* Safari/*",
+          "platforms": [
+            "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10", "OSX_10_11", "OSX_10_12",
+            "OSX"
+          ]
+        }
+      ]
+    }
+  ]
+}

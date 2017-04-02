@@ -1,6 +1,6 @@
 {
   "division": "RockMelt #MAJORVER#.#MINORVER#",
-  "versions": ["0.17", "0.16", "0.15", "0.14", "0.13", "0.12", "0.11", "0.10", "0.9"],
+  "versions": ["0.17", "0.16", "0.15", "0.14", "0.13", "0.12", "0.11", "0.10", "0.9", "0.8"],
   "sortIndex": 1142,
   "lite": false,
   "standard": true,
@@ -33,7 +33,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) RockMelt/#MAJORVER#.#MINORVER#* Chrome/*Safari/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) RockMelt/#MAJORVER#.#MINORVER#* Safari/*",
           "device": "Macintosh",
           "platforms": [
             "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",

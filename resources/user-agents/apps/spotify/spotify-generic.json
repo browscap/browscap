@@ -1,0 +1,52 @@
+{
+  "division": "Spotify Generic",
+  "sortIndex": 1530,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Spotify Generic",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Spotify",
+        "Browser": "Spotify",
+        "Browser_Type": "Multimedia Player",
+        "Browser_Maker": "Spotify AB"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Spotify/* Safari/*",
+          "device": "Macintosh",
+          "engine": "WebKit",
+          "platforms": [
+            "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10", "OSX_10_11", "OSX_10_12",
+            "OSX"
+          ],
+          "properties": {
+            "Frames": "true",
+            "IFrames": "true",
+            "Tables": "true",
+            "Cookies": "true",
+            "JavaScript": "true",
+            "CssVersion": "3"
+          }
+        },
+        {
+          "match": "*Spotify/1.0*",
+          "properties": {
+            "Browser": "Spotify",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "*Spotify*",
+          "properties": {
+            "Browser": "Spotify"
+          }
+        }
+      ]
+    }
+  ]
+}
