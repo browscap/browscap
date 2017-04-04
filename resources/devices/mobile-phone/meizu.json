@@ -12,6 +12,19 @@
             "isTablet": "false"
         }
     },
+    "Meizu M3S": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "M3s",
+            "Device_Code_Name": "M3s",
+            "Device_Maker": "Meizu Technology Co., Ltd.",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Meizu",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Meizu M9": {
         "standard": false,
         "properties": {

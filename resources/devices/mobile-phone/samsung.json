@@ -5251,6 +5251,19 @@
             "isTablet": "false"
         }
     },
+    "Samsung SM-A710F": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "SM-A710F",
+            "Device_Name": "Galaxy A7 (2016)",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Samsung SM-A720F": {
         "standard": false,
         "properties": {
@@ -5322,6 +5335,19 @@
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "SM-C900F",
             "Device_Name": "Galaxy C9 Pro Duos TD-LTE",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Samsung SM-E700F": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "SM-E700F",
+            "Device_Name": "Galaxy E7",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Pointing_Method": "touchscreen",
@@ -5543,6 +5569,19 @@
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "SM-G530F",
             "Device_Name": "Galaxy Grand Prime",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Samsung SM-G530FZ": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "SM-G530FZ",
+            "Device_Name": "Galaxy Grand Prime LTE",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Pointing_Method": "touchscreen",
@@ -5829,6 +5868,19 @@
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "SM-G850F",
             "Device_Name": "Galaxy Alpha",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Samsung SM-G850W": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "SM-G850W",
+            "Device_Name": "Galaxy Alpha (Unlocked)",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Pointing_Method": "touchscreen",
@@ -6681,6 +6733,19 @@
             "isTablet": "false"
         }
     },
+    "Samsung SM-J110M": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "SM-J110M",
+            "Device_Name": "Galaxy J1 Ace",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Samsung SM-J120A": {
         "standard": false,
         "properties": {
@@ -6739,6 +6804,19 @@
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "SM-J200GU",
             "Device_Name": "Galaxy J2 4G Duos",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Samsung SM-J200H": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "SM-J200H",
+            "Device_Name": "Galaxy J2 3G Duos",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Pointing_Method": "touchscreen",
@@ -6856,6 +6934,19 @@
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "SM-J700F",
             "Device_Name": "Galaxy J7 (India, Thailand)",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Samsung SM-J700M": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "SM-J700M",
+            "Device_Name": "Galaxy J7 Duos",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Pointing_Method": "touchscreen",

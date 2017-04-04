@@ -2618,6 +2618,18 @@
         "Win32": "false"
       }
     },
+    "WinPhone8_osmeta": {
+      "match": "*like iPhone; U; osmeta 8.*",
+      "lite": true,
+      "standard": true,
+      "inherits": "Windows",
+      "properties": {
+        "Platform": "WinPhone8",
+        "Platform_Version": "8.0",
+        "Platform_Description": "Windows Phone OS 8 (osmeta)",
+        "Win32": "false"
+      }
+    },
     "WinPhone10": {
       "match": "*Windows Phone 10.0*",
       "lite": true,

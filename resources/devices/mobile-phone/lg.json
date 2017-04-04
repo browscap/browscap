@@ -1494,6 +1494,19 @@
             "isTablet": "false"
         }
     },
+    "LG G4S": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "G4s",
+            "Device_Name": "G4 Beat",
+            "Device_Maker": "LG",
+            "Device_Brand_Name": "LG",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "LG G510": {
         "standard": false,
         "properties": {
@@ -1955,6 +1968,19 @@
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "H422",
             "Device_Name": "Spirit (India)",
+            "Device_Maker": "LG",
+            "Device_Brand_Name": "LG",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "LG H440": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "H440",
+            "Device_Name": "Spirit 4G LTE",
             "Device_Maker": "LG",
             "Device_Brand_Name": "LG",
             "Device_Pointing_Method": "touchscreen",

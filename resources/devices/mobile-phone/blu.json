@@ -1,4 +1,17 @@
 {
+    "BLU D710": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "Studio 5.5 k",
+            "Device_Code_Name": "D710",
+            "Device_Maker": "BLU",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "BLU",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "BLU Life Play": {
         "standard": false,
         "properties": {

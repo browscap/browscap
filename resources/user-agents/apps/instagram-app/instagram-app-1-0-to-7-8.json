@@ -57,7 +57,7 @@
     {
       "userAgent": "Instagram App #MAJORVER#.#MINORVER# for Android",
       "engine": "WebKit",
-      "device": "general Mobile Device (Apple)",
+      "device": "general Mobile Device",
       "platform": "Android",
       "properties": {
         "Parent": "DefaultProperties",

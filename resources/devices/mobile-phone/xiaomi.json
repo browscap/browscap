@@ -155,6 +155,19 @@
             "isTablet": "false"
         }
     },
+    "Xiaomi MI 4S": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "MI 4S",
+            "Device_Code_Name": "MI 4S",
+            "Device_Maker": "Xiaomi Tech",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Xiaomi",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Xiaomi MI 4W": {
         "standard": false,
         "properties": {

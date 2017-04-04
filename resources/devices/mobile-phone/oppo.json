@@ -1,4 +1,17 @@
 {
+    "OPPO A1601": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "A1601",
+            "Device_Name": "F1s",
+            "Device_Maker": "OPPO",
+            "Device_Brand_Name": "OPPO",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "OPPO R813T": {
         "standard": false,
         "properties": {
