@@ -103,6 +103,19 @@
             "isTablet": "false"
         }
     },
+    "Micromax A28": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "A28",
+            "Device_Name": "Bolt",
+            "Device_Maker": "Micromax",
+            "Device_Brand_Name": "Micromax",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Micromax A35": {
         "standard": false,
         "properties": {

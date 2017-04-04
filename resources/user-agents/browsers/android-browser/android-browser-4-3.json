@@ -28,8 +28,10 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (#PLATFORM#Lenovo B8080-H/*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "Lenovo B8080-H",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE#/*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari*",
+          "devices": {
+            "Lenovo B8080-H": "Lenovo B8080-H"
+          },
           "platforms": [
             "Android_4_3"
           ]

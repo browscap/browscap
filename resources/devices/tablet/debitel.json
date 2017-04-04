@@ -1,0 +1,15 @@
+{
+    "Debitel OneTab XST2": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "OneTab Xst2",
+            "Device_Code_Name": "OneTab XST2",
+            "Device_Maker": "Debitel",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Debitel",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    }
+}

@@ -58,8 +58,10 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#desirec) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari/*",
-          "device": "HTC Desire C",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE#) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari/*",
+          "devices": {
+            "desirec": "HTC Desire C"
+          },
           "platforms": [
             "Android_1_5"
           ]

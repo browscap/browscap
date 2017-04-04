@@ -2989,19 +2989,32 @@
             "isTablet": "false"
         }
     },
-  "LG LS997": {
-    "standard": false,
-    "properties": {
-      "Device_Type": "Mobile Phone",
-      "Device_Code_Name": "LS997",
-      "Device_Name": "V20 (Sprint)",
-      "Device_Maker": "LG",
-      "Device_Brand_Name": "LG",
-      "Device_Pointing_Method": "touchscreen",
-      "isMobileDevice": "true",
-      "isTablet": "false"
-    }
-  },
+    "LG LS997": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "LS997",
+            "Device_Name": "V20 (Sprint)",
+            "Device_Maker": "LG",
+            "Device_Brand_Name": "LG",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "LG LU2300": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "LU2300",
+            "Device_Name": "Optimus Q",
+            "Device_Maker": "LG",
+            "Device_Brand_Name": "LG",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "LG LX150": {
         "standard": false,
         "properties": {
@@ -3054,32 +3067,32 @@
             "isTablet": "false"
         }
     },
-  "LG M210": {
-    "standard": false,
-    "properties": {
-      "Device_Type": "Mobile Phone",
-      "Device_Code_Name": "M210",
-      "Device_Name": "Aristo (T-Mobile)",
-      "Device_Maker": "LG",
-      "Device_Brand_Name": "LG",
-      "Device_Pointing_Method": "touchscreen",
-      "isMobileDevice": "true",
-      "isTablet": "false"
-    }
-  },
-  "LG MS210": {
-    "standard": false,
-    "properties": {
-      "Device_Type": "Mobile Phone",
-      "Device_Code_Name": "MS210",
-      "Device_Name": "Aristo (Metro PCS)",
-      "Device_Maker": "LG",
-      "Device_Brand_Name": "LG",
-      "Device_Pointing_Method": "touchscreen",
-      "isMobileDevice": "true",
-      "isTablet": "false"
-    }
-  },
+    "LG M210": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "M210",
+            "Device_Name": "Aristo (T-Mobile)",
+            "Device_Maker": "LG",
+            "Device_Brand_Name": "LG",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "LG MS210": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "MS210",
+            "Device_Name": "Aristo (Metro PCS)",
+            "Device_Maker": "LG",
+            "Device_Brand_Name": "LG",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "LG M4410": {
         "standard": false,
         "properties": {
@@ -3827,6 +3840,19 @@
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "VS425PP",
             "Device_Name": "Optimus Zone 3 (Verizon)",
+            "Device_Maker": "LG",
+            "Device_Brand_Name": "LG",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "LG VS740": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "VS740",
+            "Device_Name": "Ally",
             "Device_Maker": "LG",
             "Device_Brand_Name": "LG",
             "Device_Pointing_Method": "touchscreen",

@@ -324,6 +324,19 @@
             "isTablet": "false"
         }
     },
+    "HTC A6277": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "A6277",
+            "Device_Name": "Hero (Sprint)",
+            "Device_Maker": "HTC",
+            "Device_Brand_Name": "HTC",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "HTC A6366": {
         "standard": false,
         "properties": {
@@ -369,6 +382,45 @@
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "A810e",
             "Device_Name": "ChaCha",
+            "Device_Maker": "HTC",
+            "Device_Brand_Name": "HTC",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "HTC A8181": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "A8181",
+            "Device_Name": "Desire",
+            "Device_Maker": "HTC",
+            "Device_Brand_Name": "HTC",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "HTC ADR6200": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "ADR6200",
+            "Device_Name": "Droid Eris",
+            "Device_Maker": "HTC",
+            "Device_Brand_Name": "HTC",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "HTC ADR6300": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "ADR6300",
+            "Device_Name": "Droid Incredible",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
             "Device_Pointing_Method": "touchscreen",

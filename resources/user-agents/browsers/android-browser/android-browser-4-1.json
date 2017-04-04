@@ -32,15 +32,9 @@
           "devices": {
             "Micromax A27": "Micromax A27",
             "Micromax A35": "Micromax A35",
-            "Micromax A40": "Micromax A40"
+            "Micromax A40": "Micromax A40",
+            "sprd-B51+*": "sprd B51+"
           },
-          "platforms": [
-            "Android_2_3"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#sprd-B51+* Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "sprd B51+",
           "platforms": [
             "Android_2_3"
           ]
@@ -66,8 +60,10 @@
           ]
         },
         {
-          "match": "*Mozilla/5.0 (#PLATFORM#INM8002KP Build/*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "Intenso INM8002KP",
+          "match": "*Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari*",
+          "devices": {
+            "INM8002KP": "Intenso INM8002KP"
+          },
           "platforms": [
             "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
             "Android_2_0", "Android_2_1", "Android_2_2", "Android_2_3",
@@ -76,29 +72,37 @@
           ]
         },
         {
-          "match": "*Mozilla/5.0 (*GT-I9100#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "Samsung GT-I9100",
+          "match": "*Mozilla/5.0 (*#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari*",
+          "devices": {
+            "GT-I9100": "Samsung GT-I9100"
+          },
           "platforms": [
             "Android_B_2_3"
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#LG-D802* Build/*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "LG D802",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari*",
+          "devices": {
+            "LG-D802*": "LG D802"
+          },
           "platforms": [
             "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#Lenovo B8000-F/*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "Lenovo B8000-F",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE#/*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari*",
+          "devices": {
+            "Lenovo B8000-F": "Lenovo B8000-F"
+          },
           "platforms": [
             "Android_4_2"
           ]
         },
         {
-          "match": "Lenovo-A388t#PLATFORM# Release* Browser/applewebkit* Mobile Safari*",
-          "device": "Lenovo A388T",
+          "match": "#DEVICE##PLATFORM# Release* Browser/applewebkit* Mobile Safari*",
+          "devices": {
+            "Lenovo-A388t": "Lenovo A388T"
+          },
           "platforms": [
             "Android_4_1"
           ]
@@ -113,29 +117,37 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#sprd-B51+* Android/* Release/* Browser/applewebkit* Build/*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "sprd B51+",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Android/* Release/* Browser/applewebkit* Build/*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari*",
+          "devices": {
+            "sprd-B51+*": "sprd B51+"
+          },
           "platforms": [
             "Android_2_3"
           ]
         },
         {
-          "match": "Mastone_G9_TD/* Release/* Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "Mastone G9",
+          "match": "#DEVICE#/* Release/* Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari*",
+          "devices": {
+            "Mastone_G9_TD": "Mastone G9"
+          },
           "platforms": [
             "Android_2_3"
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#B1-A71 Build/*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "Acer B1-A71",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari*",
+          "devices": {
+            "B1-A71": "Acer B1-A71"
+          },
           "platforms": [
             "Android_4_0", "Android_4_1"
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#B1-710 Build/*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "Acer B1-710",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari*",
+          "devices": {
+            "B1-710": "Acer B1-710"
+          },
           "platforms": [
             "Android_4_0", "Android_4_1", "Android_4_2"
           ]
@@ -154,15 +166,19 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#B1-711 Build/*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "Acer B1-711",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari*",
+          "devices": {
+            "B1-711": "Acer B1-711"
+          },
           "platforms": [
             "Android_4_1", "Android_4_2"
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#C6603 Build/*) applewebkit* (*khtml*like*gecko*)",
-          "device": "Sony C6603",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)",
+          "devices": {
+            "C6603": "Sony C6603"
+          },
           "platforms": [
             "Android_4_1"
           ]

@@ -64,6 +64,19 @@
             "isTablet": "false"
         }
     },
+    "Archos A43": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "A43",
+            "Device_Name": "A43",
+            "Device_Maker": "Archos",
+            "Device_Brand_Name": "Archos",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Archos A70BH": {
         "standard": false,
         "properties": {
@@ -112,6 +125,19 @@
             "Device_Maker": "Archos",
             "Device_Brand_Name": "Archos",
             "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Archos A70S": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "A70S",
+            "Device_Name": "A70S",
+            "Device_Maker": "Archos",
+            "Device_Brand_Name": "Archos",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
