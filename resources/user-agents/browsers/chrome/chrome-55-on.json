@@ -102,6 +102,15 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
           "devices": {
+            "SM-T705": "Samsung SM-T705"
+          },
+          "platforms": [
+            "Android_6_0", "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
+          "devices": {
             "Aquaris M10": "BQ Aquaris M10",
             "ASUS MeMO Pad 7": "Asus ME176C",
             "E5823": "Sony E5823",
@@ -277,7 +286,6 @@
             "SM-T530NU": "Samsung SM-T530NU",
             "SM-T535": "Samsung SM-T535",
             "SM-T700": "Samsung SM-T700",
-            "SM-T705": "Samsung SM-T705",
             "T1144": "Cello T1144",
             "TECNO H6": "Tecno H6",
             "TelePAD 9A1": "Xoro Xor400250",
@@ -1112,7 +1120,7 @@
           "device": "Macintosh",
           "platforms": [
             "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
-            "OSX_10_11",
+            "OSX_10_11", "OSX_10_12",
             "OSX"
           ]
         },
@@ -1147,7 +1155,7 @@
           "device": "Macintosh",
           "platforms": [
             "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
-            "OSX_10_11",
+            "OSX_10_11", "OSX_10_12",
             "OSX"
           ]
         },
