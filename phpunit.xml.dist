@@ -9,6 +9,7 @@
     verbose="true"
     colors="auto"
     bootstrap="vendor/autoload.php"
+    failOnWarning="true"
     >
     <php>
         <ini name="error_reporting" value="-1"/>
