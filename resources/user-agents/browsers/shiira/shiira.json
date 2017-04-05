@@ -1,0 +1,39 @@
+{
+  "division": "Shiira #MAJORVER#.#MINORVER#",
+  "versions": ["2.3", "2.2", "2.1", "1.2", "1.1", 1, "0.9"],
+  "sortIndex": 2440,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Shiira #MAJORVER#.#MINORVER#",
+      "platform": "OSX",
+      "engine": "WebKit",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Shiira #MAJORVER#.#MINORVER#",
+        "Browser": "Shiira",
+        "Browser_Maker": "Makoto Kinoshita",
+        "Browser_Type": "Browser",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "2",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) *applewebkit* (*khtml*like*gecko*) Shiira/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "OSX"
+          ]
+        }
+      ]
+    }
+  ]
+}

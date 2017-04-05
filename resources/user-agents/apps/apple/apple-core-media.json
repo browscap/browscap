@@ -22,24 +22,12 @@
       },
       "children": [
         {
-          "match": "AppleCoreMedia/#MAJORVER#.#MINORVER#* (iPod#PLATFORM#)*",
-          "device": "iPod Touch",
-          "platforms": [
-            "iOS_C_4_0", "iOS_C_4_1", "iOS_C_4_2", "iOS_C_4_3", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0",
-            "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_1", "iOS_C_8_0", "iOS_C"
-          ]
-        },
-        {
-          "match": "AppleCoreMedia/#MAJORVER#.#MINORVER#* (iPhone#PLATFORM#)*",
-          "device": "iPhone",
-          "platforms": [
-            "iOS_C_4_0", "iOS_C_4_1", "iOS_C_4_2", "iOS_C_4_3", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0",
-            "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_1", "iOS_C_8_0", "iOS_C"
-          ]
-        },
-        {
-          "match": "AppleCoreMedia/#MAJORVER#.#MINORVER#* (iPad#PLATFORM#)*",
-          "device": "iPad",
+          "match": "AppleCoreMedia/#MAJORVER#.#MINORVER#* (#DEVICE##PLATFORM#)*",
+          "devices": {
+            "iPad": "iPad",
+            "iPhone": "iPhone",
+            "iPod": "iPod Touch"
+          },
           "platforms": [
             "iOS_C_4_0", "iOS_C_4_1", "iOS_C_4_2", "iOS_C_4_3", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0",
             "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_1", "iOS_C_8_0", "iOS_C"

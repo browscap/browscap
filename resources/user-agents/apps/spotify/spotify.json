@@ -1,0 +1,40 @@
+{
+  "division": "Spotify #MAJORVER#.#MINORVER#",
+  "versions": [1, "0.9"],
+  "sortIndex": 1970,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Spotify #MAJORVER#.#MINORVER#",
+      "engine": "WebKit",
+      "device": "general Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Spotify #MAJORVER#.#MINORVER#",
+        "Browser": "Spotify",
+        "Browser_Type": "Multimedia Player",
+        "Browser_Maker": "Spotify AB",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Spotify/#MAJORVER#.#MINORVER#.* Safari/*",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10", "OSX_10_11", "OSX_10_12",
+            "OSX"
+          ]
+        }
+      ]
+    }
+  ]
+}

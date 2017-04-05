@@ -1,0 +1,35 @@
+{
+  "division": "Coda",
+  "sortIndex": 2430,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Coda",
+      "engine": "WebKit",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Coda",
+        "Browser": "Coda",
+        "Browser_Type": "Application",
+        "Browser_Maker": "Panic Software",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) (Coda, like Safari)",
+          "platforms": [
+            "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10", "OSX_10_11", "OSX_10_12",
+            "OSX"
+          ]
+        }
+      ]
+    }
+  ]
+}

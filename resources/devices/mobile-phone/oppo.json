@@ -1,4 +1,17 @@
 {
+    "OPPO 1107": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "1107",
+            "Device_Name": "1107 4G",
+            "Device_Maker": "OPPO",
+            "Device_Brand_Name": "OPPO",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "OPPO A1601": {
         "standard": false,
         "properties": {

@@ -948,6 +948,19 @@
             "isTablet": "false"
         }
     },
+    "Samsung GT-I9158P": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "GT-I9158P",
+            "Device_Name": "Galaxy Mega Plus",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Samsung GT-I9190": {
         "standard": false,
         "properties": {
@@ -1091,6 +1104,19 @@
             "isTablet": "false"
         }
     },
+    "Samsung GT-I9308I": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "GT-I9308I",
+            "Device_Name": "Galaxy S III Neo+",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Samsung GT-I9500": {
         "standard": false,
         "properties": {
@@ -1156,6 +1182,19 @@
             "isTablet": "false"
         }
     },
+    "Samsung GT-I9508V": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "GT-I9508V",
+            "Device_Name": "Galaxy S4 TD-LTE",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Samsung GT-I9515": {
         "standard": false,
         "properties": {
@@ -1201,6 +1240,19 @@
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "GT-N7100",
             "Device_Name": "Galaxy Note II",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Samsung GT-N7102": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "GT-N7102",
+            "Device_Name": "Galaxy Note II Duos",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Pointing_Method": "touchscreen",
@@ -5446,6 +5498,19 @@
             "isTablet": "false"
         }
     },
+    "Samsung SM-G3588V": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "SM-G3588V",
+            "Device_Name": "Galaxy Core Lite 4G TD-LTE",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Samsung SM-G360P": {
         "standard": false,
         "properties": {
@@ -5784,6 +5849,32 @@
             "isTablet": "false"
         }
     },
+    "Samsung SM-G7108": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "SM-G7108",
+            "Device_Name": "Galaxy Grand 2 TD",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Samsung SM-G7108V": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "SM-G7108V",
+            "Device_Name": "Galaxy Grand 2 TD-LTE",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Samsung SM-G710L": {
         "standard": false,
         "properties": {
@@ -5946,6 +6037,19 @@
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "SM-G900",
             "Device_Name": "Galaxy S5 Duos",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Samsung SM-G9008V": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "SM-G9008V",
+            "Device_Name": "Galaxy S5 TD-LTE (Pacific)",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Pointing_Method": "touchscreen",
@@ -7012,6 +7116,19 @@
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "SM-N750",
             "Device_Name": "Galaxy Note 3 Neo 3G",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Samsung SM-N7508V": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "SM-N7508V",
+            "Device_Name": "Galaxy Note 3 Lite TD-LTE",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Pointing_Method": "touchscreen",
