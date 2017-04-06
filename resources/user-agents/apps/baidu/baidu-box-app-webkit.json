@@ -1,0 +1,87 @@
+{
+  "division": "Baidu Box App WebKit #MAJORVER#.#MINORVER#",
+  "versions": ["6.3", "6.2", "6.1", 6, "5.5", "5.4", "5.3", "5.2", "5.1", 5, "4.9", "4.8", "4.3", "4.2", "4.1", 4, "3.6"],
+  "sortIndex": 1903,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Baidu Box App WebKit #MAJORVER#.#MINORVER#",
+      "platform": "Android",
+      "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Baidu Box App #MAJORVER#.#MINORVER#",
+        "Browser": "Baidu Box App",
+        "Browser_Type": "Application",
+        "Browser_Maker": "Baidu",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/* baiduboxapp/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "GT-N7108": "Samsung GT-N7108"
+          },
+          "platforms": [
+            "Android_4_3"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/* baiduboxapp/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "GT-N7100": "Samsung GT-N7100",
+            "Lenovo A590": "Lenovo A590",
+            "Lenovo A820": "Lenovo A820",
+            "LT22i": "Sony LT22i",
+            "SM-T211": "Samsung SM-T211",
+            "U705T": "OPPO U705T"
+          },
+          "platforms": [
+            "Android_4_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/* baiduboxapp/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "Coolpad 8076D": "Coolpad 8076D",
+            "HTC One S": "HTC PJ401",
+            "HUAWEI G606-T00": "Huawei G606-T00",
+            "K-Touch T96": "K-Touch T96"
+          },
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/* baiduboxapp/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "K-Touch T81": "K-Touch T81",
+            "Lenovo A316": "Lenovo A316",
+            "Lenovo A308t": "Lenovo A308t",
+            "XT535": "Motorola XT535"
+          },
+          "platforms": [
+            "Android_2_3"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Safari/* baiduboxapp/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android_2_3"
+          ]
+        }
+      ]
+    }
+  ]
+}

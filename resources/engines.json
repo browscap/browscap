@@ -408,6 +408,18 @@
         "BackgroundSounds": "false"
       }
     },
+    "T7": {
+      "properties": {
+        "RenderingEngine_Name": "T7",
+        "RenderingEngine_Version": "unknown",
+        "RenderingEngine_Description": "a Blink Fork by Baidu",
+        "RenderingEngine_Maker": "Baidu",
+        "VBScript": "false",
+        "JavaApplets": "false",
+        "ActiveXControls": "false",
+        "BackgroundSounds": "false"
+      }
+    },
     "Tasman": {
       "properties": {
         "RenderingEngine_Name": "Tasman",

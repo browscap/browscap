@@ -116,6 +116,19 @@
             "isTablet": "false"
         }
     },
+    "Huawei G606-T00": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "G606-T00",
+            "Device_Name": "Ascend G606",
+            "Device_Maker": "Huawei",
+            "Device_Brand_Name": "Huawei",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Huawei G610-T00": {
         "standard": false,
         "properties": {
@@ -304,6 +317,19 @@
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "MT7-TL10",
             "Device_Name": "Mate 7",
+            "Device_Maker": "Huawei",
+            "Device_Brand_Name": "Huawei",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Huawei NXT-AL10": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "NXT-AL10",
+            "Device_Name": "Mate 8",
             "Device_Maker": "Huawei",
             "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",

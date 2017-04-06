@@ -48852,7 +48852,7 @@ return [
             'isFake' => false,
             'isAnonymized' => false,
             'isModified' => false,
-            'CssVersion' => '0',
+            'CssVersion' => '3',
             'AolVersion' => '0',
             'Device_Name' => 'Mate 7',
             'Device_Maker' => 'Huawei',

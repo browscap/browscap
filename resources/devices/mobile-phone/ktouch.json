@@ -12,6 +12,32 @@
             "isTablet": "false"
         }
     },
+    "K-Touch T81": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "T81",
+            "Device_Code_Name": "T81",
+            "Device_Maker": "K-Touch",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "K-Touch",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "K-Touch T96": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "T96",
+            "Device_Code_Name": "T96",
+            "Device_Maker": "K-Touch",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "K-Touch",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "K-Touch Tianyu A930": {
         "standard": false,
         "properties": {

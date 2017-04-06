@@ -389,6 +389,19 @@
             "isTablet": "false"
         }
     },
+    "Sony LT22i": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "LT22i",
+            "Device_Name": "Xperia P",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Sony LT25i": {
         "standard": false,
         "properties": {

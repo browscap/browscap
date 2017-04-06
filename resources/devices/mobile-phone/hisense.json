@@ -1,4 +1,17 @@
 {
+    "Hisense HS-E912": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "HS-E912",
+            "Device_Code_Name": "HS-E912",
+            "Device_Maker": "Hisense",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Hisense",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Hisense HS-U98": {
         "standard": false,
         "properties": {

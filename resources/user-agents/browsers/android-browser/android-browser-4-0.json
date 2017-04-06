@@ -72,6 +72,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
+            "HS-E912": "Hisense HS-E912",
             "HTCA510e*": "HTC A510e",
             "HTCS510e*": "HTC S510e",
             "HTCS710e*": "HTC S710E",

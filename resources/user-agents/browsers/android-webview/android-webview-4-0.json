@@ -5120,8 +5120,11 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#Pixel C Build/*) applewebkit* (*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
-          "device": "Google Pixel C",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "devices": {
+            "HUAWEI NXT-AL10": "Huawei NXT-AL10",
+            "Pixel C": "Google Pixel C"
+          },
           "platforms": [
             "Android_7_0"
           ]
