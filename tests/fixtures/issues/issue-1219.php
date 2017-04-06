@@ -8546,6 +8546,7 @@ return [
             'Version' => '0.0',
             'MajorVer' => '0',
             'MinorVer' => '0',
+            'Platform' => 'Android',
             'Platform_Version' => '4.4',
             'Platform_Description' => 'Android OS',
             'Platform_Bits' => '32',

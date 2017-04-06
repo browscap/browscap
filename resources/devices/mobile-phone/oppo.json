@@ -25,6 +25,19 @@
             "isTablet": "false"
         }
     },
+    "OPPO R7s": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "R7s",
+            "Device_Name": "R7s",
+            "Device_Maker": "OPPO",
+            "Device_Brand_Name": "OPPO",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "OPPO R813T": {
         "standard": false,
         "properties": {
@@ -57,6 +70,19 @@
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "R831",
             "Device_Name": "Neo R831",
+            "Device_Maker": "OPPO",
+            "Device_Brand_Name": "OPPO",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "OPPO U705T": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "U705T",
+            "Device_Name": "Ulike 2",
             "Device_Maker": "OPPO",
             "Device_Brand_Name": "OPPO",
             "Device_Pointing_Method": "touchscreen",

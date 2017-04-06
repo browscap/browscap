@@ -1,0 +1,69 @@
+{
+  "division": "Baidu Box App #MAJORVER#.#MINORVER#",
+  "versions": ["8.3", "8.2", "8.1", 8, "7.6", "7.5", "7.4", "7.3", "7.2"],
+  "sortIndex": 1903,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Baidu Box App #MAJORVER#.#MINORVER#",
+      "platform": "Android",
+      "engine": "T7",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Baidu Box App #MAJORVER#.#MINORVER#",
+        "Browser": "Baidu Box App",
+        "Browser_Type": "Application",
+        "Browser_Maker": "Baidu",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* T7/* baiduboxapp/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "HUAWEI NXT-AL10": "Huawei NXT-AL10"
+          },
+          "platforms": [
+            "Android_7_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* T7/* baiduboxapp/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "OPPO R7s*": "OPPO R7s"
+          },
+          "platforms": [
+            "Android_5_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* T7/* baiduboxapp/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "HTC One X": "HTC PJ83100"
+          },
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* T7/* baiduboxapp/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Android_7_1", "Android_7_0",
+            "Android_6_1", "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2"
+          ]
+        }
+      ]
+    }
+  ]
+}

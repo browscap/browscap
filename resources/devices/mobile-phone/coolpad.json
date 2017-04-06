@@ -38,6 +38,19 @@
             "isTablet": "false"
         }
     },
+    "Coolpad 8076D": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "8076D",
+            "Device_Code_Name": "8076D",
+            "Device_Maker": "Coolpad",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Coolpad",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Coolpad 8089": {
         "standard": false,
         "properties": {

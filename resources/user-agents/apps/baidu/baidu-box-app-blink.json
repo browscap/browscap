@@ -1,0 +1,50 @@
+{
+  "division": "Baidu Box App Blink #MAJORVER#.#MINORVER#",
+  "versions": ["7.1", "6.7", "6.3", "6.2", "6.1", 6, "5.3", "5.2", "5.1", 5, "4.9", "4.2"],
+  "sortIndex": 1903,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Baidu Box App Blink #MAJORVER#.#MINORVER#",
+      "platform": "Android",
+      "engine": "Blink",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Baidu Box App #MAJORVER#.#MINORVER#",
+        "Browser": "Baidu Box App",
+        "Browser_Type": "Application",
+        "Browser_Maker": "Baidu",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* baiduboxapp/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "Coolpad 8675*": "Coolpad 8675"
+          },
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* baiduboxapp/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4"
+          ]
+        }
+      ]
+    }
+  ]
+}
