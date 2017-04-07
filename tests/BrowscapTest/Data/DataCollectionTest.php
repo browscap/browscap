@@ -273,7 +273,7 @@ HERE;
 
     /**
      * @expectedException \OutOfBoundsException
-     * @expectedExceptionMessage Device "NotExists" does not exist in data, available devices:
+     * @expectedExceptionMessage Device "NotExists" does not exist in data
      *
      * @group data
      * @group sourcetest
