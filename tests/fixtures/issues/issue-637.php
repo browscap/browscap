@@ -4,7 +4,7 @@ return [
     'issue-637' => [
         'ua' => 'iTunes/12.0.1 (Macintosh; OS X 10.9.2) AppleWebKit/537.74.9',
         'properties' => [
-            'Comment' => 'iTunes',
+            'Comment' => 'iTunes 12.0',
             'Browser' => 'iTunes',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
