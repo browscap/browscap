@@ -1,0 +1,42 @@
+{
+  "division": "iTunes Generic for iOS",
+  "sortIndex": 6360,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "iTunes Generic for iOS",
+      "platform": "iOS",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "iTunes Generic for iOS",
+        "Browser": "iTunes",
+        "Browser_Type": "Application",
+        "Browser_Maker": "Apple Inc",
+        "Alpha": "false",
+        "Beta": "false",
+        "Frames": "false",
+        "IFrames": "false",
+        "Tables": "false",
+        "Cookies": "false",
+        "JavaScript": "false",
+        "isSyndicationReader": "false"
+      },
+      "children": [
+        {
+          "match": "iTunes-#DEVICE#/*",
+          "devices": {
+            "iPad*": "iPad",
+            "iPhone": "iPhone",
+            "iPod": "iPod Touch"
+          }
+        },
+        {
+          "match": "iTunes-*/*"
+        }
+      ]
+    }
+  ]
+}
