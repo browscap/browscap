@@ -272,6 +272,19 @@
             "isTablet": "false"
         }
     },
+    "Alcatel OT-4019A": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "OT-4019A",
+            "Device_Name": "One Touch Fire C",
+            "Device_Maker": "Alcatel",
+            "Device_Brand_Name": "Alcatel",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Alcatel OT-4030D": {
         "standard": false,
         "properties": {
@@ -343,6 +356,19 @@
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "OT-6010X",
             "Device_Name": "One Touch Star",
+            "Device_Maker": "Alcatel",
+            "Device_Brand_Name": "Alcatel",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Alcatel OT-6015X": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "OT-6015X",
+            "Device_Name": "One Touch Fire E",
             "Device_Maker": "Alcatel",
             "Device_Brand_Name": "Alcatel",
             "Device_Pointing_Method": "touchscreen",

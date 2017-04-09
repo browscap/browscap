@@ -1,18 +1,18 @@
 {
-  "division": "Firefox #MAJORVER#.#MINORVER# for FirefoxOS 1.1",
-  "versions": [25, 24, 23, 22, 21, 20, 19, "18.1"],
-  "sortIndex": 3166,
+  "division": "Firefox #MAJORVER#.#MINORVER# for FirefoxOS 2.5",
+  "versions": [49, 48, 47, 46, 45, 44],
+  "sortIndex": 3160,
   "lite": false,
-  "standard": false,
+  "standard": true,
   "userAgents": [
     {
-      "userAgent": "Firefox #MAJORVER#.#MINORVER# for FirefoxOS 1.1",
-      "platform": "FirefoxOS_1_1",
+      "userAgent": "Firefox #MAJORVER#.#MINORVER# for FirefoxOS 2.5",
+      "platform": "FirefoxOS_2_5",
       "engine": "Gecko_Dynamic",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Firefox #MAJORVER#.#MINORVER# for FirefoxOS 1.1",
+        "Comment": "Firefox #MAJORVER#.#MINORVER# for FirefoxOS 2.5",
         "Browser": "Firefox",
         "Browser_Maker": "Mozilla Foundation",
         "Browser_Type": "Browser",
@@ -24,17 +24,14 @@
         "Tables": "true",
         "Cookies": "true",
         "JavaScript": "true",
-        "CssVersion": "3"
+        "CssVersion": "3",
+        "Beta": "true"
       },
       "children": [
         {
           "match": "Mozilla/5.0 (Mobile; #DEVICE#; rv:#MAJORVER#.#MINORVER#*)*Gecko/#MAJORVER#.#MINORVER#*Firefox/#MAJORVER#.#MINORVER#*",
           "devices": {
-            "ALCATELOneTouch4012X*": "Alcatel OT-4012X",
-            "ALCATEL ONE TOUCH 4012A": "Alcatel OT-4012A",
-            "ALCATELOneTouch4012A": "Alcatel OT-4012A",
-            "LG-D300": "LG D300",
-            "ZTEOPEN": "ZTE Open"
+            "OPENC": "ZTE Open C"
           }
         },
         {
