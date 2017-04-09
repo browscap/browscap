@@ -311,6 +311,32 @@
             "isTablet": "false"
         }
     },
+    "ZTE Open 2": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "Open 2",
+            "Device_Name": "Open 2",
+            "Device_Maker": "ZTE",
+            "Device_Brand_Name": "ZTE",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "ZTE Open C": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "Open C",
+            "Device_Name": "Open C",
+            "Device_Maker": "ZTE",
+            "Device_Brand_Name": "ZTE",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "ZTE Orange": {
         "standard": false,
         "properties": {

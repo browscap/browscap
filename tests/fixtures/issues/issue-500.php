@@ -492,7 +492,7 @@ return [
             'MinorVer' => '1',
             'Platform' => 'FirefoxOS',
             'Platform_Version' => '1.1',
-            'Platform_Description' => 'unknown',
+            'Platform_Description' => 'FirefoxOS',
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Mozilla Foundation',
             'Alpha' => false,

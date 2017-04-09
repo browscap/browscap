@@ -15,7 +15,7 @@ return [
             'MinorVer' => '0',
             'Platform' => 'FirefoxOS',
             'Platform_Version' => '1.0',
-            'Platform_Description' => 'unknown',
+            'Platform_Description' => 'FirefoxOS',
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Mozilla Foundation',
             'Alpha' => false,

@@ -4444,6 +4444,7 @@
         "Platform": "FirefoxOS",
         "Platform_Maker": "Mozilla Foundation",
         "Platform_Version": "unknown",
+        "Platform_Description": "FirefoxOS",
         "Win32": "false",
         "Browser_Bits": "32",
         "Platform_Bits": "32"
@@ -4528,6 +4529,16 @@
       "inherits": "FirefoxOS",
       "properties": {
         "Platform_Version": "2.2"
+      }
+    },
+    "FirefoxOS_2_5": {
+      "match": "*Gecko*",
+      "lite": false,
+      "standard": true,
+      "inherits": "FirefoxOS",
+      "properties": {
+        "Platform_Version": "2.5",
+        "Beta": "true"
       }
     },
     "PalmOS": {

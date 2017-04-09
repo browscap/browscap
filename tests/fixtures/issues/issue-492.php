@@ -5103,7 +5103,7 @@ return [
             'MinorVer' => '0',
             'Platform' => 'FirefoxOS',
             'Platform_Version' => 'unknown',
-            'Platform_Description' => 'Android OS',
+            'Platform_Description' => 'FirefoxOS',
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Mozilla Foundation',
             'Alpha' => false,
