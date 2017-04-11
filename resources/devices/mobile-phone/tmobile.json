@@ -18,9 +18,9 @@
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "Espresso",
             "Device_Name": "Espresso",
-            "Device_Maker": "T-Mobile",
+            "Device_Maker": "HTC",
             "Device_Brand_Name": "T-Mobile",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }

@@ -64,19 +64,6 @@
             "isTablet": "true"
         }
     },
-    "Motorola Xoom": {
-        "standard": true,
-        "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "Xoom",
-            "Device_Name": "Xoom",
-            "Device_Maker": "Motorola",
-            "Device_Brand_Name": "Motorola",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
-    },
     "Motorola Xoom 2": {
         "standard": true,
         "properties": {

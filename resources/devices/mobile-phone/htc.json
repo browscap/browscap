@@ -293,7 +293,7 @@
             "Device_Name": "Explorer",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -311,6 +311,19 @@
             "isTablet": "false"
         }
     },
+    "HTC A510": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "A510",
+            "Device_Name": "Wildfire S",
+            "Device_Maker": "HTC",
+            "Device_Brand_Name": "HTC",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "HTC A510e": {
         "standard": false,
         "properties": {
@@ -319,7 +332,7 @@
             "Device_Name": "Wildfire S",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -342,10 +355,10 @@
         "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "A6366",
-            "Device_Name": "A6366",
+            "Device_Name": "Aria",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -371,7 +384,7 @@
             "Device_Name": "Desire Z",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -584,19 +597,6 @@
             "isTablet": "false"
         }
     },
-    "HTC Desire": {
-        "standard": false,
-        "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Desire",
-            "Device_Name": "Desire",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
-    },
     "HTC Desire 300": {
         "standard": false,
         "properties": {
@@ -792,19 +792,6 @@
             "isTablet": "false"
         }
     },
-    "HTC Desire A8181": {
-        "standard": false,
-        "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "A8181",
-            "Device_Name": "Desire",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Pointing_Method": "unknown",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
-    },
     "HTC Desire C": {
         "standard": false,
         "properties": {
@@ -839,7 +826,7 @@
             "Device_Name": "Desire HD",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -1268,7 +1255,7 @@
             "Device_Name": "One SV",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -1606,7 +1593,7 @@
             "Device_Name": "Rhyme",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -1658,7 +1645,7 @@
             "Device_Name": "Incredible S",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -2165,7 +2152,7 @@
             "Device_Name": "Wildfire",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -2176,32 +2163,6 @@
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "A3333",
             "Device_Name": "Wildfire",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Pointing_Method": "unknown",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
-    },
-    "HTC Wildfire S": {
-        "standard": false,
-        "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Wildfire S",
-            "Device_Name": "Wildfire S",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Pointing_Method": "unknown",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
-    },
-    "HTC Wildfire S A510": {
-        "standard": false,
-        "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "A510",
-            "Device_Name": "Wildfire S",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
             "Device_Pointing_Method": "unknown",
@@ -2256,7 +2217,7 @@
             "Device_Name": "EVO 3D",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }

@@ -85,7 +85,7 @@
             "Device_Name": "Ascend G510",
             "Device_Maker": "Huawei",
             "Device_Brand_Name": "Huawei",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -277,10 +277,10 @@
         "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "M860",
-            "Device_Name": "M860",
+            "Device_Name": "Ascend (Metro PCS)",
             "Device_Maker": "Huawei",
             "Device_Brand_Name": "Huawei",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -485,10 +485,10 @@
         "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "U8180",
-            "Device_Name": "U8180",
+            "Device_Name": "Ideos X1",
             "Device_Maker": "Huawei",
             "Device_Brand_Name": "Huawei",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -787,7 +787,7 @@
             "Device_Name": "Ascend Y330",
             "Device_Maker": "Huawei",
             "Device_Brand_Name": "Huawei",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }

@@ -862,7 +862,7 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*CrMo/#MAJORVER#.*Safari/*",
           "devices": {
             "GT-I9100": "Samsung GT-I9100",
-            "HTC Desire": "HTC Desire",
+            "HTC Desire": "HTC A8181",
             "HTC_Sensation": "HTC Z710"
           },
           "platforms": [

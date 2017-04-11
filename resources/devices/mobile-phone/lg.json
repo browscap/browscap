@@ -930,7 +930,7 @@
             "Device_Name": "Optimus L3",
             "Device_Maker": "LG",
             "Device_Brand_Name": "LG",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -2932,7 +2932,7 @@
             "Device_Name": "LS860",
             "Device_Maker": "LG",
             "Device_Brand_Name": "LG",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -3392,6 +3392,45 @@
             "isTablet": "false"
         }
     },
+    "LG Nexus 4": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "Nexus 4",
+            "Device_Name": "Nexus 4",
+            "Device_Maker": "LG",
+            "Device_Brand_Name": "Google",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "LG Nexus 5": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "Nexus 5",
+            "Device_Name": "Nexus 5",
+            "Device_Maker": "LG",
+            "Device_Brand_Name": "Google",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "LG Nexus 5X": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "Nexus 5X",
+            "Device_Name": "Nexus 5X",
+            "Device_Maker": "LG",
+            "Device_Brand_Name": "Google",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "LG P350": {
         "standard": false,
         "properties": {
@@ -3413,7 +3452,7 @@
             "Device_Name": "Optimus One",
             "Device_Maker": "LG",
             "Device_Brand_Name": "LG",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -3488,10 +3527,10 @@
         "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "P720",
-            "Device_Name": "P720",
+            "Device_Name": "Optimus 3D Max",
             "Device_Maker": "LG",
             "Device_Brand_Name": "LG",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -3582,7 +3621,7 @@
             "Device_Name": "Optimus 3D",
             "Device_Maker": "LG",
             "Device_Brand_Name": "LG",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -3595,7 +3634,7 @@
             "Device_Name": "Thrill",
             "Device_Maker": "LG",
             "Device_Brand_Name": "LG",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -3634,7 +3673,7 @@
             "Device_Name": "Optimus Black",
             "Device_Maker": "LG",
             "Device_Brand_Name": "LG",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }

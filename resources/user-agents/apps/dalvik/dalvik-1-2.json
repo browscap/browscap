@@ -63,7 +63,7 @@
         },
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#HTC Desire Build/*",
-          "device": "HTC Desire",
+          "device": "HTC A8181",
           "platforms": [
             "Android_2_2"
           ]

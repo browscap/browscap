@@ -838,7 +838,7 @@
         },
         {
           "match": "Dalvik/1.2* (#PLATFORM#HTC Desire Build/*) *FBAV/*",
-          "device": "HTC Desire",
+          "device": "HTC A8181",
           "engine": "WebKit",
           "platforms": [
             "Android_2_2"
