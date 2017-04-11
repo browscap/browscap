@@ -1,30 +1,4 @@
 {
-    "Asus Nexus 7": {
-        "standard": true,
-        "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "Nexus 7",
-            "Device_Name": "Nexus 7",
-            "Device_Maker": "Asus",
-            "Device_Brand_Name": "Google",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
-    },
-    "Asus SL101": {
-        "standard": true,
-        "properties": {
-            "Device_Type": "Tablet",
-            "Device_Code_Name": "SL101",
-            "Device_Name": "Eee Pad SL101 Slider",
-            "Device_Maker": "Asus",
-            "Device_Brand_Name": "Google",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "true"
-        }
-    },
     "Google Pixel C": {
         "standard": true,
         "properties": {

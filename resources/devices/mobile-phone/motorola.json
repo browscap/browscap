@@ -553,7 +553,7 @@
             "Device_Name": "DroidX",
             "Device_Maker": "Motorola",
             "Device_Brand_Name": "Motorola",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -1125,7 +1125,7 @@
             "Device_Name": "Atrix",
             "Device_Maker": "Motorola",
             "Device_Brand_Name": "Motorola",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -1203,7 +1203,7 @@
             "Device_Name": "MotoroiX",
             "Device_Maker": "Motorola",
             "Device_Brand_Name": "Motorola",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -2581,7 +2581,7 @@
             "Device_Name": "RAZR XT910 Spider",
             "Device_Maker": "Motorola",
             "Device_Brand_Name": "Motorola",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -2594,7 +2594,7 @@
             "Device_Name": "Droid Razr 4G",
             "Device_Maker": "Motorola",
             "Device_Brand_Name": "Motorola",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }

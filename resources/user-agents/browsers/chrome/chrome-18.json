@@ -191,7 +191,7 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#HTC Desire Build/*) applewebkit* (*khtml*like*gecko*)*CrMo/#MAJORVER#.*Safari/*",
-          "device": "HTC Desire",
+          "device": "HTC A8181",
           "platforms": [
             "Android_4_0"
           ]

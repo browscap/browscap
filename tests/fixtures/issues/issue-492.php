@@ -3910,7 +3910,7 @@ return [
             'isModified' => false,
             'CssVersion' => '3',
             'AolVersion' => '0',
-            'Device_Name' => 'Galaxy S III Mini',
+            'Device_Name' => 'Galaxy S III Mini NFC',
             'Device_Maker' => 'Samsung',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen',
