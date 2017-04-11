@@ -1104,6 +1104,19 @@
             "isTablet": "false"
         }
     },
+    "Samsung GT-I9300T": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "GT-I9300T",
+            "Device_Name": "Galaxy S III",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Samsung GT-I9301I": {
         "standard": false,
         "properties": {
