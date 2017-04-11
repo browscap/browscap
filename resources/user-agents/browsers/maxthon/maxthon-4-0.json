@@ -32,27 +32,36 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (#PLATFORM#GT-I9100 *) applewebkit* (*khtml*like*gecko*) Version/4.0 *Safari/* Maxthon/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung GT-I9100",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# *) applewebkit* (*khtml*like*gecko*) Version/4.0 *Safari/* Maxthon/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "GT-I9100": "Samsung GT-I9100"
+          },
           "platforms": [
-            "Android_2_3", "Android_4_0"
+            "Android_4_0",
+            "Android_2_3"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/4.0 *Safari/* Maxthon/#MAJORVER#.#MINORVER#*",
           "platforms": [
-            "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android"
+            "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android_2_3",
+            "Android"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/4.0 *Safari/* Maxthon",
           "platforms": [
-            "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android"
+            "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android_2_3",
+            "Android"
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#PMP5080B Build/*)Maxthon applewebkit* (*khtml*like*gecko*) Version/4.0 *Safari/*",
-          "device": "Multipad PMP5080B",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)Maxthon applewebkit* (*khtml*like*gecko*) Version/4.0 *Safari/*",
+          "devices": {
+            "PMP5080B": "Multipad PMP5080B"
+          },
           "platforms": [
             "Android_4_0"
           ]
@@ -60,7 +69,9 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#)Maxthon applewebkit* (*khtml*like*gecko*) Version/4.0 *Safari/*",
           "platforms": [
-            "Android_2_3", "Android_4_0", "Android"
+            "Android_4_0",
+            "Android_2_3",
+            "Android"
           ]
         }
       ]
