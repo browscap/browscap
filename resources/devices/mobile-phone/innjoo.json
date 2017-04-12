@@ -1,0 +1,15 @@
+{
+    "Innjoo ONE LTE HD": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "ONE LTE HD",
+            "Device_Name": "ONE LTE HD",
+            "Device_Maker": "Innjoo",
+            "Device_Brand_Name": "Innjoo",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}
