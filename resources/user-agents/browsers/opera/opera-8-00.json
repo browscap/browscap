@@ -151,7 +151,8 @@
           "device": "Windows Desktop",
           "platforms": [
             "Win2000", "Win2000_2", "WinME", "WinME_2", "Win95_2", "Win98_2", "NT4",
-            "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32", "Win8_32", "Win8_1_32"
+            "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32", "Win8_32", "Win8_1_32",
+            "Windows"
           ]
         },
         {
@@ -161,6 +162,10 @@
             "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
             "OSX", "MacPPC_2", "MacPPC_3"
           ]
+        },
+        {
+          "match": "Opera?#MAJORVER#.#MINORVER#*(Mac*)*",
+          "device": "Macintosh"
         },
         {
           "match": "Opera?#MAJORVER#.#MINORVER#*(#PLATFORM#)*",
