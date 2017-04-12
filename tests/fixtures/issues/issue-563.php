@@ -4440,7 +4440,7 @@ return [
             'isModified' => false,
             'CssVersion' => '3',
             'AolVersion' => '0',
-            'Device_Name' => 'GT-I9192',
+            'Device_Name' => 'Galaxy S4 Mini Duos',
             'Device_Maker' => 'Samsung',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen',

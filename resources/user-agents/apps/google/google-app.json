@@ -1,14 +1,13 @@
 {
   "division": "Google App",
-  "sortIndex": 1072,
+  "sortIndex": 900,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "Google App",
-      "platform": "iOS",
+      "userAgent": "Google App for Android",
       "engine": "WebKit",
-      "device": "general Mobile Device (Apple)",
+      "device": "general Mobile Device",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser_Maker": "Google Inc",
@@ -17,7 +16,182 @@
         "IFrames": "true",
         "Tables": "true",
         "Crawler": "false",
-        "Comment": "Google App",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3",
+        "Comment": "Google App for Android",
+        "Browser": "Google App"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/?.?* Chrome/* Mobile Safari/* GSA/*",
+          "engine": "Blink",
+          "devices": {
+            "ASUS_Z00AD": "Asus Z00AD"
+          },
+          "platforms": [
+            "Android_5_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/?.?* Chrome/* Mobile Safari/* GSA/*",
+          "engine": "Blink",
+          "devices": {
+            "Lenovo A319": "Lenovo A319",
+            "Lenovo A328": "Lenovo A328",
+            "Lenovo A536": "Lenovo A536",
+            "Lenovo A6000": "Lenovo A6000",
+            "MTC SMART Run": "MTC SMART Run"
+          },
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/?.?* Chrome/* Mobile Safari/* GSA/*",
+          "engine": "Blink",
+          "platforms": [
+            "Android_7_1", "Android_7_0",
+            "Android_6_1", "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/?.?* Chrome/* Safari/* GSA/*",
+          "engine": "Blink",
+          "devices": {
+            "GT-N8000": "Samsung GT-N8000",
+            "Lenovo A3500-H": "Lenovo A3500-H",
+            "Lenovo A5500-H": "Lenovo A5500-H",
+            "Lenovo A7600-H": "Lenovo A7600-H",
+            "SM-T230NU": "Samsung SM-T230NU",
+            "SM-T310": "Samsung SM-T310",
+            "SM-T530": "Samsung SM-T530"
+          },
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/?.?* Chrome/* Safari/* GSA/*",
+          "engine": "Blink",
+          "device": "general Tablet",
+          "platforms": [
+            "Android_7_1", "Android_7_0",
+            "Android_6_1", "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/?.?* Mobile Safari/* GSA/*",
+          "devices": {
+            "GT-I9300": "Samsung GT-I9300"
+          },
+          "platforms": [
+            "Android_4_3"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/?.?* Mobile Safari/* GSA/*",
+          "devices": {
+            "ALCATEL ONE TOUCH 7047D": "Alcatel OT-7047D",
+            "GT-I9060": "Samsung GT-I9060",
+            "GT-I9082": "Samsung GT-I9082",
+            "GT-I9192": "Samsung GT-I9192",
+            "GT-I9195": "Samsung GT-I9195",
+            "Lenovo A369i": "Lenovo A369i",
+            "Lenovo A5500-H": "Lenovo A5500-H"
+          },
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/?.?* Mobile Safari/* GSA/*",
+          "devices": {
+            "ALCATEL ONE TOUCH 5020D": "Alcatel OT-5020D",
+            "ALCATEL ONE TOUCH 4030D": "Alcatel OT-4030D",
+            "DROID RAZR": "Motorola Razr",
+            "GT-I8160": "Samsung GT-I8160",
+            "GT-I8190": "Samsung GT-I8190",
+            "GT-I8262": "Samsung GT-I8262",
+            "GT-I9100": "Samsung GT-I9100",
+            "GT-I9100G": "Samsung GT-I9100G",
+            "GT-I9300": "Samsung GT-I9300",
+            "GT-S5310": "Samsung GT-S5310",
+            "GT-S6312": "Samsung GT-S6312",
+            "GT-S7710": "Samsung GT-S7710",
+            "HTC One S": "HTC PJ401",
+            "HUAWEI G525-U00": "Huawei G525-U00",
+            "HUAWEI Y300-0000": "Huawei Y300",
+            "LG-E612": "LG E612"
+          },
+          "platforms": [
+            "Android_4_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/?.?* Mobile Safari/* GSA/*",
+          "platforms": [
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/?.?* Safari/* GSA/*",
+          "devices": {
+            "GT-P3100": "Samsung GT-P3100",
+            "GT-P5100": "Samsung GT-P5100",
+            "GT-P5200": "Samsung GT-P5200",
+            "IdeaTab A3000-H": "Lenovo A3000-H",
+            "IdeaTab S6000-H": "Lenovo S6000-H",
+            "ME302KL": "Asus ME302KL",
+            "SM-T110": "Samsung SM-T110",
+            "SM-T111": "Samsung SM-T111"
+          },
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/?.?* Safari/* GSA/*",
+          "devices": {
+            "ME371MG": "Asus ME371MG"
+          },
+          "platforms": [
+            "Android_4_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/?.?* Safari/* GSA/*",
+          "device": "general Tablet",
+          "platforms": [
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1",
+            "Android"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "Google App for iOS",
+      "engine": "WebKit",
+      "device": "general Mobile Device",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser_Maker": "Google Inc",
+        "Browser_Type": "Application",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3",
+        "Crawler": "false",
+        "Comment": "Google App for iOS",
         "Browser": "Google App"
       },
       "children": [
