@@ -141,5 +141,18 @@
             "isMobileDevice": "true",
             "isTablet": "false"
         }
+    },
+    "Microsoft RM-1141": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "RM-1141",
+            "Device_Name": "Lumia 540 Dual SIM",
+            "Device_Maker": "Microsoft Corporation",
+            "Device_Brand_Name": "Microsoft",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
     }
 }

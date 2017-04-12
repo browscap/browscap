@@ -1,0 +1,15 @@
+{
+    "QMobile Z10": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "Z10",
+            "Device_Name": "Noir",
+            "Device_Maker": "QMobile",
+            "Device_Brand_Name": "QMobile",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

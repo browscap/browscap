@@ -3286,6 +3286,33 @@
       "standard": true,
       "inherits": "Android"
     },
+    "Android_H_4_1": {
+      "match": "*Android?4.1*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "4.1"
+      }
+    },
+    "Android_H_4_2": {
+      "match": "*Android?4.2*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "4.2"
+      }
+    },
+    "Android_H_4_3": {
+      "match": "*Android?4.3*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "4.3"
+      }
+    },
     "Android_H_4_4": {
       "match": "*Android?4.4*",
       "lite": false,

@@ -1,0 +1,96 @@
+{
+  "division": "UC Browser Mini #MAJORVER#.#MINORVER#",
+  "versions": ["10.9", "10.8", "10.7", "10.1", 10, "9.9", "9.8", "9.7", "9.6", "9.5", "9.4", "8.8"],
+  "sortIndex": 931,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "UC Browser Mini #MAJORVER#.#MINORVER#",
+      "device": "general Mobile Phone (Touch)",
+      "platform": "Android",
+      "engine": "U2",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "UC Browser Mini #MAJORVER#.#MINORVER#",
+        "Browser": "UC Browser Mini",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "UCWeb Inc.",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "UCWEB/2.0 (Linux* Opera Mini/* #DEVICE# Build/*) U2/* UCMini/#MAJORVER#.#MINORVER#* (SpeedMode#PLATFORM##DEVICE# Build/*) Mobile*",
+          "devices": {
+            "QMobile Z10": "QMobile Z10",
+            "SM-J120H": "Samsung SM-J120H"
+          },
+          "platforms": [
+            "Android_H_5_1"
+          ],
+          "properties": {
+            "Browser_Modus": "SpeedMode"
+          }
+        },
+        {
+          "match": "UCWEB/2.0 (Linux* Opera Mini/* #DEVICE# Build/*) U2/* UCMini/#MAJORVER#.#MINORVER#* (SpeedMode#PLATFORM##DEVICE# Build/*) Mobile*",
+          "devices": {
+            "SM-G530BT": "Samsung SM-G530BT"
+          },
+          "platforms": [
+            "Android_H_5_0"
+          ],
+          "properties": {
+            "Browser_Modus": "SpeedMode"
+          }
+        },
+        {
+          "match": "UCWEB/2.0 (Linux* Opera Mini/* #DEVICE# Build/*) U2/* UCMini/#MAJORVER#.#MINORVER#* (SpeedMode#PLATFORM##DEVICE# Build/*) Mobile*",
+          "devices": {
+            "ONE LTE HD": "Innjoo ONE LTE HD"
+          },
+          "platforms": [
+            "Android_H_4_4"
+          ],
+          "properties": {
+            "Browser_Modus": "SpeedMode"
+          }
+        },
+        {
+          "match": "UCWEB/2.0 (Linux* Opera Mini/* #DEVICE# Build/*) U2/* UCMini/#MAJORVER#.#MINORVER#* (SpeedMode#PLATFORM##DEVICE# Build/*) Mobile*",
+          "devices": {
+            "GT-N7100": "Samsung GT-N7100"
+          },
+          "platforms": [
+            "Android_H_4_1"
+          ],
+          "properties": {
+            "Browser_Modus": "SpeedMode"
+          }
+        },
+        {
+          "match": "UCWEB/2.0 (Linux* Opera Mini/*) U2/* UCMini/#MAJORVER#.#MINORVER#* (SpeedMode#PLATFORM#) Mobile*",
+          "platforms": [
+            "Android_H_5_1", "Android_H_5_0",
+            "Android_H_4_4", "Android_H_4_3", "Android_H_4_2", "Android_H_4_1",
+            "Android_H"
+          ],
+          "properties": {
+            "Browser_Modus": "SpeedMode"
+          }
+        },
+        {
+          "match": "UCWEB/2.0 (Linux* Opera Mini/*) U2/* UCMini/#MAJORVER#.#MINORVER#*"
+        }
+      ]
+    }
+  ]
+}
