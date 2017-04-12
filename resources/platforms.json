@@ -1298,6 +1298,129 @@
       "standard": true,
       "inherits": "iOS"
     },
+    "iOS_O": {
+      "match": "*iOS Version*",
+      "lite": true,
+      "standard": true,
+      "inherits": "iOS"
+    },
+    "iOS_O_8_0": {
+      "match": "*iOS Version 8.0*",
+      "lite": false,
+      "standard": true,
+      "inherits": "iOS",
+      "properties": {
+        "Platform_Version": "8.0"
+      }
+    },
+    "iOS_O_8_1": {
+      "match": "*iOS Version 8.1*",
+      "lite": false,
+      "standard": true,
+      "inherits": "iOS",
+      "properties": {
+        "Platform_Version": "8.1"
+      }
+    },
+    "iOS_O_8_2": {
+      "match": "*iOS Version 8.2*",
+      "lite": false,
+      "standard": true,
+      "inherits": "iOS",
+      "properties": {
+        "Platform_Version": "8.2"
+      }
+    },
+    "iOS_O_8_3": {
+      "match": "*iOS Version 8.3*",
+      "lite": false,
+      "standard": true,
+      "inherits": "iOS",
+      "properties": {
+        "Platform_Version": "8.3"
+      }
+    },
+    "iOS_O_8_4": {
+      "match": "*iOS Version 8.4*",
+      "lite": false,
+      "standard": true,
+      "inherits": "iOS",
+      "properties": {
+        "Platform_Version": "8.4"
+      }
+    },
+    "iOS_O_9_0": {
+      "match": "*iOS Version 9.0*",
+      "lite": false,
+      "standard": true,
+      "inherits": "iOS",
+      "properties": {
+        "Platform_Version": "9.0"
+      }
+    },
+    "iOS_O_9_1": {
+      "match": "*iOS Version 9.1*",
+      "lite": false,
+      "standard": true,
+      "inherits": "iOS",
+      "properties": {
+        "Platform_Version": "9.1"
+      }
+    },
+    "iOS_O_9_2": {
+      "match": "*iOS Version 9.2*",
+      "lite": false,
+      "standard": true,
+      "inherits": "iOS",
+      "properties": {
+        "Platform_Version": "9.2"
+      }
+    },
+    "iOS_O_9_3": {
+      "match": "*iOS Version 9.3*",
+      "lite": false,
+      "standard": true,
+      "inherits": "iOS",
+      "properties": {
+        "Platform_Version": "9.3"
+      }
+    },
+    "iOS_O_10_0": {
+      "match": "*iOS Version 10.0*",
+      "lite": false,
+      "standard": true,
+      "inherits": "iOS",
+      "properties": {
+        "Platform_Version": "10.0"
+      }
+    },
+    "iOS_O_10_1": {
+      "match": "*iOS Version 10.1*",
+      "lite": false,
+      "standard": true,
+      "inherits": "iOS",
+      "properties": {
+        "Platform_Version": "10.1"
+      }
+    },
+    "iOS_O_10_2": {
+      "match": "*iOS Version 10.2*",
+      "lite": false,
+      "standard": true,
+      "inherits": "iOS",
+      "properties": {
+        "Platform_Version": "10.2"
+      }
+    },
+    "iOS_O_10_3": {
+      "match": "*iOS Version 10.3*",
+      "lite": false,
+      "standard": true,
+      "inherits": "iOS",
+      "properties": {
+        "Platform_Version": "10.3"
+      }
+    },
     "ATV_OSX": {
       "match": "*CPU*OS* like Mac OS X*",
       "lite": false,

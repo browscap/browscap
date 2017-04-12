@@ -1,0 +1,42 @@
+{
+  "division": "Reddit App",
+  "sortIndex": 9911,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Reddit App",
+      "platform": "iOS",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Reddit App",
+        "Browser": "Reddit App",
+        "Browser_Type": "Application",
+        "Browser_Maker": "Reddit Inc",
+        "Alpha": "false",
+        "Beta": "false",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3",
+        "isSyndicationReader": "false",
+        "Crawler": "false"
+      },
+      "children": [
+        {
+          "match": "Reddit/Version*/Build*/#PLATFORM#(Build*)",
+          "platforms": [
+            "iOS_O_10_3", "iOS_O_10_2", "iOS_O_10_1", "iOS_O_10_0",
+            "iOS_O_9_3", "iOS_O_9_2", "iOS_O_9_1", "iOS_O_9_0",
+            "iOS_O_8_4", "iOS_O_8_3", "iOS_O_8_2", "iOS_O_8_1", "iOS_O_8_0",
+            "iOS_O"
+          ]
+        }
+      ]
+    }
+  ]
+}
