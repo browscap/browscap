@@ -1,0 +1,15 @@
+{
+    "FiGO F50G": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "Epic",
+            "Device_Code_Name": "F50G",
+            "Device_Maker": "FiGO",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "FiGO",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}

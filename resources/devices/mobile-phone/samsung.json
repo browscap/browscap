@@ -7097,6 +7097,19 @@
             "isTablet": "false"
         }
     },
+    "Samsung SM-J320M": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "SM-J320M",
+            "Device_Name": "Galaxy J3 4G Duos",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Samsung SM-J320P": {
         "standard": false,
         "properties": {
@@ -7142,6 +7155,19 @@
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "SM-J500F",
             "Device_Name": "Galaxy J5 (HK, India, South Africa, Thailand)",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Samsung SM-J510MN": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "SM-J510MN",
+            "Device_Name": "Galaxy J5 Metal Duos",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Pointing_Method": "touchscreen",

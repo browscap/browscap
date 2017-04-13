@@ -3409,6 +3409,15 @@
       "standard": true,
       "inherits": "Android"
     },
+    "Android_H_4_0": {
+      "match": "*Android?4.0*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "4.0"
+      }
+    },
     "Android_H_4_1": {
       "match": "*Android?4.1*",
       "lite": false,
@@ -3470,6 +3479,33 @@
       "inherits": "Android",
       "properties": {
         "Platform_Version": "6.0"
+      }
+    },
+    "Android_H_6_1": {
+      "match": "*Android?6.1*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "6.1"
+      }
+    },
+    "Android_H_7_0": {
+      "match": "*Android?7.0*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "7.0"
+      }
+    },
+    "Android_H_7_1": {
+      "match": "*Android?7.1*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "7.1"
       }
     },
     "Android_GoogleTV": {
