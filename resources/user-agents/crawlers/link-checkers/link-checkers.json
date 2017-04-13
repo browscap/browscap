@@ -601,6 +601,41 @@
             "Browser": "TrialPay URL Checker",
             "Browser_Maker": "TrialPay Inc"
           }
+        },
+        {
+          "match": "AWeber*Link Validator*",
+          "properties": {
+            "Browser": "AWeber Link Validator",
+            "Browser_Maker": "AWeber Communications Inc"
+          }
+        },
+        {
+          "match": "PerfectMail/* (http://perfectmail.com/kb/web_probe)",
+          "properties": {
+            "Browser": "PerfectMail Web Probe",
+            "Browser_Maker": "PerfectMail"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; SurdotlyBot/*",
+          "properties": {
+            "Browser": "Sur.ly Bot",
+            "Browser_Maker": "Sur.ly"
+          }
+        },
+        {
+          "match": "WP Engine Domain Verification*",
+          "properties": {
+            "Browser": "WP Engine Domain Verifier",
+            "Browser_Maker": "WPEngine.com"
+          }
+        },
+        {
+          "match": "OrgProbe/*",
+          "properties": {
+            "Browser": "Open Rights Group Probe",
+            "Browser_Maker": "Open Rights Group"
+          }
         }
       ]
     }

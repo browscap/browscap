@@ -19,9 +19,15 @@
       },
       "children": [
         {
+          "match": "Mozilla/5.0 (compatible; adidxbot/2.0; ?http://www.bing.com/bingbot.htm)",
+          "properties": {
+            "Version": "2.0",
+            "MajorVer": "2"
+          }
+        },
+        {
           "match": "adidxbot/1.1 (?http://search.msn.com/msnbot.htm)",
           "properties": {
-            "Browser": "adidxbot",
             "Version": "1.1",
             "MajorVer": "1",
             "MinorVer": "1"
@@ -30,17 +36,15 @@
         {
           "match": "adidxbot/2.0*",
           "properties": {
-            "Browser": "adidxbot",
             "Version": "2.0",
-            "MajorVer": "2",
-            "MinorVer": "0"
+            "MajorVer": "2"
           }
         },
         {
-          "match": "adidxbot/*",
-          "properties": {
-            "Browser": "adidxbot"
-          }
+          "match": "Mozilla/5.0 (compatible; adidxbot/*; ?http://www.bing.com/bingbot.htm)"
+        },
+        {
+          "match": "adidxbot/*"
         }
       ]
     }

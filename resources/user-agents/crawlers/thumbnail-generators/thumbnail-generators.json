@@ -1,0 +1,110 @@
+{
+  "division": "Thumbnail Generators",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Thumbnail Generators",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Thumbnail Generators",
+        "Browser": "Thumbnail Generators",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* ThumbShotsBot*",
+          "device": "Linux Desktop",
+          "properties": {
+            "Browser": "ThumbShotsBot"
+          },
+          "platforms": [
+            "Linux_64", "Linux"
+          ]
+        },
+        {
+          "match": "thumbshots-de-bot*",
+          "properties": {
+            "Browser": "thumbshots-de-bot",
+            "Browser_Maker": "thumbshots.de"
+          }
+        },
+        {
+          "match": "ThumbnailAgent",
+          "properties": {
+            "Browser": "ThumbnailAgent"
+          }
+        },
+        {
+          "match": "ThumbSniper *",
+          "properties": {
+            "Browser": "ThumbSniper",
+            "Browser_Maker": "Thomas Schulte"
+          }
+        },
+        {
+          "match": "gosquared-thumbnailer/1.0*",
+          "properties": {
+            "Browser": "gosquared-thumbnailer",
+            "Browser_Maker": "Go Squared Ltd.",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "gosquared-thumbnailer/*",
+          "properties": {
+            "Browser": "gosquared-thumbnailer",
+            "Browser_Maker": "Go Squared Ltd."
+          }
+        },
+        {
+          "match": "Ruby, link_thumbnailer*",
+          "properties": {
+            "Browser": "link_thumbnailer",
+            "Browser_Maker": "Pierre-Louis Gottfrois"
+          }
+        },
+        {
+          "match": "Thumbor/3.14*",
+          "properties": {
+            "Browser": "Thumbor",
+            "Version": "3.14",
+            "MajorVer": "3",
+            "MinorVer": "14"
+          }
+        },
+        {
+          "match": "Thumbor/*",
+          "properties": {
+            "Browser": "Thumbor"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; FTT2 Toplist Thumb Grabber*",
+          "properties": {
+            "Browser": "FTT2 Toplist Thumb Grabber",
+            "Browser_Maker": "Fast Traffic Trader 2"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (*) applewebkit* (*khtml*like*gecko*) khtml2png Safari/*",
+          "properties": {
+            "Browser": "khtml2png",
+            "Browser_Maker": "Hauke Goos-Habermann"
+          }
+        },
+        {
+          "match": "Easy-Thumb*",
+          "properties": {
+            "Browser": "Easy-Thumb Bot",
+            "Browser_Maker": "Easy-Thumb.net"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1185,6 +1185,48 @@
             "Browser": "WebCorp",
             "Browser_Maker": "Research and Development Unit for English Studies, Birmingham City University"
           }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; coccocbot-web/*",
+          "properties": {
+            "Browser": "CocCoc Bot",
+            "Browser_Maker": "coccoc.com"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; vebidoobot/*",
+          "properties": {
+            "Browser": "Vebidoo Bot",
+            "Browser_Maker": "Vebidoo.de"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Findxbot/*",
+          "properties": {
+            "Browser": "Findx Bot",
+            "Browser_Maker": "Privacore (findx.com)"
+          }
+        },
+        {
+          "match": "Flamingo_SearchEngine (+http://www.flamingosearch.com/bot)",
+          "properties": {
+            "Browser": "Flamingo Bot",
+            "Browser_Maker": "Flamingo Search"
+          }
+        },
+        {
+          "match": "Seeker v.*",
+          "properties": {
+            "Browser": "Seeker",
+            "Browser_Maker": "LookSeek LLC"
+          }
+        },
+        {
+          "match": "omgili/*",
+          "properties": {
+            "Browser": "Omgili Bot",
+            "Browser_Maker": "Webhose.io"
+          }
         }
       ]
     }

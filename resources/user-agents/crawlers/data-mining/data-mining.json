@@ -43,6 +43,34 @@
           "properties": {
             "Browser": "CommonCrawler Node"
           }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Dataprovider/*",
+          "properties": {
+            "Browser": "Dataprovider Bot",
+            "Browser_Maker": "Dataprovider.com"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; um-LN/*",
+          "properties": {
+            "Browser": "UberMetrics Bot",
+            "Browser_Maker": "uberMetrics Technologies GmbH"
+          }
+        },
+        {
+          "match": "SkyGrid/*",
+          "properties": {
+            "Browser": "SkyGrid Bot",
+            "Browser_Maker": "SkyGrid"
+          }
+        },
+        {
+          "match": "Clickagy Intelligence Bot*",
+          "properties": {
+            "Browser": "Clickagy Intelligence Bot",
+            "Browser_Maker": "Clickagy"
+          }
         }
       ]
     }

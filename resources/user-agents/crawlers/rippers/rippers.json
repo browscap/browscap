@@ -1359,6 +1359,20 @@
           "properties": {
             "Browser": "livedoor HttpClient"
           }
+        },
+        {
+          "match": "scrapy-redis*",
+          "properties": {
+            "Browser": "Scrapy-Redis",
+            "Browser_Maker": "Rolando Espinoza"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; U; AnyEvent-HTTP/*",
+          "properties": {
+            "Browser": "AnyEvent HTTP Client",
+            "Browser_Maker": "Marc Lehmann"
+          }
         }
       ]
     }

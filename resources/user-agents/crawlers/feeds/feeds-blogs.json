@@ -107,6 +107,13 @@
             "Browser": "Bloglovin Bot",
             "Browser_Maker": "bloglovin.com"
           }
+        },
+        {
+          "match": "wp.com feedbot/* (+https://wp.com)",
+          "properties": {
+            "Browser": "Wordpress.com Feed Bot",
+            "Browser_Maker": "Wordpress"
+          }
         }
       ]
     }

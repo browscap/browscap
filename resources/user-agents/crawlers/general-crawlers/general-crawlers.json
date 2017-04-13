@@ -1019,23 +1019,6 @@
           }
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* ThumbShotsBot*",
-          "device": "Linux Desktop",
-          "properties": {
-            "Browser": "ThumbShotsBot"
-          },
-          "platforms": [
-            "Linux_64", "Linux"
-          ]
-        },
-        {
-          "match": "thumbshots-de-bot*",
-          "properties": {
-            "Browser": "thumbshots-de-bot",
-            "Browser_Maker": "thumbshots.de"
-          }
-        },
-        {
           "match": "netEstate NE Crawler*",
           "properties": {
             "Browser": "netEstate NE Crawler",
@@ -1171,22 +1154,9 @@
           }
         },
         {
-          "match": "ThumbnailAgent",
-          "properties": {
-            "Browser": "ThumbnailAgent"
-          }
-        },
-        {
           "match": "LinkStats Bot",
           "properties": {
             "Browser": "LinkStats Bot"
-          }
-        },
-        {
-          "match": "ThumbSniper *",
-          "properties": {
-            "Browser": "ThumbSniper",
-            "Browser_Maker": "Thomas Schulte"
           }
         },
         {
@@ -1610,6 +1580,13 @@
           }
         },
         {
+          "match": "Mozilla/5.0 (compatible; YaK/*",
+          "properties": {
+            "Browser": "Linkfluence Yak Bot",
+            "Browser_Maker": "Linkfluence SAS"
+          }
+        },
+        {
           "match": "Amazon CloudFront*",
           "properties": {
             "Browser": "Amazon CloudFront",
@@ -2012,23 +1989,6 @@
           }
         },
         {
-          "match": "gosquared-thumbnailer/1.0*",
-          "properties": {
-            "Browser": "gosquared-thumbnailer",
-            "Browser_Maker": "Go Squared Ltd.",
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
-          }
-        },
-        {
-          "match": "gosquared-thumbnailer/*",
-          "properties": {
-            "Browser": "gosquared-thumbnailer",
-            "Browser_Maker": "Go Squared Ltd."
-          }
-        },
-        {
           "match": "optivo(R) NetHelper*",
           "properties": {
             "Browser": "optivo NetHelper",
@@ -2338,13 +2298,6 @@
           "properties": {
             "Browser": "Quora Link Preview Bot",
             "Browser_Maker": "Quora, Inc."
-          }
-        },
-        {
-          "match": "Ruby, link_thumbnailer*",
-          "properties": {
-            "Browser": "link_thumbnailer",
-            "Browser_Maker": "Pierre-Louis Gottfrois"
           }
         },
         {
@@ -2692,6 +2645,151 @@
           "properties": {
             "Browser": "ToutiaoSpider",
             "Browser_Maker": "Toutiao"
+          }
+        },
+        {
+          "match": "Domain Re-Animator Bot*",
+          "properties": {
+            "Browser": "Domain Re-Animator Bot",
+            "Browser_Maker": "Domain Re-Animator, LLC"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; AdlesseBot/*",
+          "properties": {
+            "Browser": "Adlesse Bot",
+            "Browser_Maker": "Adlesse"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; AndersPinkBot/*",
+          "properties": {
+            "Browser": "Anders Pink Bot",
+            "Browser_Maker": "Anders Pink"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Greplerbot/*",
+          "properties": {
+            "Browser": "Grepler Bot",
+            "Browser_Maker": "Grepler.com"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; YesupBot/*",
+          "properties": {
+            "Browser": "Yesup Bot",
+            "Browser_Maker": "Yesup"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; LinkisBot/*",
+          "properties": {
+            "Browser": "Linkis Bot",
+            "Browser_Maker": "Linkis.com"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; houzzbot*",
+          "properties": {
+            "Browser": "Houzz Bot",
+            "Browser_Maker": "Houzz Inc"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Faveeo/*",
+          "properties": {
+            "Browser": "Faveeo Bot",
+            "Browser_Maker": "Faveeo SA"
+          }
+        },
+        {
+          "match": "Bumble Bee/* (WikiApiary; *",
+          "properties": {
+            "Browser": "Bumble Bee Bot",
+            "Browser_Maker": "WikiApiary"
+          }
+        },
+        {
+          "match": "PocketParser/*",
+          "properties": {
+            "Browser": "PocketParser Bot",
+            "Browser_Maker": "Read It Later, Inc"
+          }
+        },
+        {
+          "match": "Ruby, Twurly v*",
+          "properties": {
+            "Browser": "Twurly Bot",
+            "Browser_Maker": "Darren Greaves"
+          }
+        },
+        {
+          "match": "SafeDNSBot*",
+          "properties": {
+            "Browser": "SafeDNS Bot",
+            "Browser_Maker": "SafeDNS Inc"
+          }
+        },
+        {
+          "match": "Web-sniffer/*",
+          "properties": {
+            "Browser": "Web Sniffer Bot"
+          }
+        },
+        {
+          "match": "IAS crawler*",
+          "properties": {
+            "Browser": "IAS Crawler",
+            "Browser_Maker": "Integral Ad Science, Inc"
+          }
+        },
+        {
+          "match": "YOTPO*",
+          "properties": {
+            "Browser": "Yotpo Bot",
+            "Browser_Maker": "Yotpo"
+          }
+        },
+        {
+          "match": "GermCrawler",
+          "properties": {
+            "Browser": "Germ Crawler"
+          }
+        },
+        {
+          "match": "Fyrebot/*",
+          "properties": {
+            "Browser": "Fyre Bot",
+            "Browser_Maker": "Arild (https://github.com/ArildF)"
+          }
+        },
+        {
+          "match": "istellabot/*",
+          "properties": {
+            "Browser": "Istella Bot",
+            "Browser_Maker": "Tiscali"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Sysomos/*",
+          "properties": {
+            "Browser": "Sysomos Bot",
+            "Browser_Maker": "Sysomos"
+          }
+        },
+        {
+          "match": "SocialRankIOBot*",
+          "properties": {
+            "Browser": "Socialrank.io Bot",
+            "Browser_Maker": "Socialrank.io"
+          }
+        },
+        {
+          "match": "datagnionbot*",
+          "properties": {
+            "Browser": "Datagnion Bot",
+            "Browser_Maker": "Datagnion GmbH"
           }
         }
       ]

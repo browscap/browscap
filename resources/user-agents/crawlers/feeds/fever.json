@@ -1,0 +1,25 @@
+{
+  "division": "Fever",
+  "sortIndex": 381,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Fever",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Fever",
+        "Browser": "Fever",
+        "Browser_Maker": "Shaun Inman",
+        "isSyndicationReader": "true",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Fever/*"
+        }
+      ]
+    }
+  ]
+}

@@ -135,21 +135,6 @@
           }
         },
         {
-          "match": "Thumbor/3.14*",
-          "properties": {
-            "Browser": "Thumbor",
-            "Version": "3.14",
-            "MajorVer": "3",
-            "MinorVer": "14"
-          }
-        },
-        {
-          "match": "Thumbor/*",
-          "properties": {
-            "Browser": "Thumbor"
-          }
-        },
-        {
           "match": "Elmer, the Thinglink ImageBot*",
           "properties": {
             "Browser": "Elmer",
@@ -171,6 +156,27 @@
           "properties": {
             "Browser": "ZnajdzFoto/ImageBot",
             "Browser_Maker": "Eksadata sp. z o.o."
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Caroline/*; +http://justpicsplease.com/caroline.php)",
+          "properties": {
+            "Browser": "Caroline Bot",
+            "Browser_Maker": "JustPicsPlease"
+          }
+        },
+        {
+          "match": "Twiends Crawler*",
+          "properties": {
+            "Browser": "Twiends Crawler",
+            "Browser_Maker": "Twiends.com"
+          }
+        },
+        {
+          "match": "myTaste image cacher*",
+          "properties": {
+            "Browser": "myTaste Image Cacher",
+            "Browser_Maker": "203 Web Group"
           }
         }
       ]
