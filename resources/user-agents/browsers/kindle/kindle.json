@@ -14,6 +14,7 @@
         "Comment": "Kindle",
         "Browser": "Kindle",
         "Browser_Maker": "Amazon.com, Inc.",
+        "Browser_Type": "Browser",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
@@ -22,11 +23,10 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (Linux; U;*) applewebkit* (*khtml*like*gecko,*safari*) Version/4.0 Kindle/3.0*",
+          "match": "Mozilla/5.0 (Linux*U;*)*applewebkit*(*khtml*like*gecko,*safari*) Version/4.0 Kindle/3.0*",
           "properties": {
             "Version": "3.0",
-            "MajorVer": "3",
-            "MinorVer": "0"
+            "MajorVer": "3"
           }
         },
         {
@@ -65,8 +65,7 @@
             "Comment": "Kindle Fire",
             "Browser": "Kindle Fire",
             "Version": "4.0",
-            "MajorVer": "4",
-            "MinorVer": "0"
+            "MajorVer": "4"
           },
           "device": "Amazon Kindle Fire",
           "platforms": [
