@@ -425,7 +425,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1320-J' => [
+    'issue-1320-I' => [
         'ua' => 'Mozilla/5.0 (compatible; adidxbot/2.0; +http://www.bing.com/bingbot.htm)',
         'properties' => [
             'Comment' => 'MSN',
@@ -478,7 +478,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1320-K' => [
+    'issue-1320-J' => [
         'ua' => 'FeedBucket/1.0 (+http://www.feedbucket.com)',
         'properties' => [
             'Comment' => 'Feeds Syndicators',
@@ -531,7 +531,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1320-L' => [
+    'issue-1320-K' => [
         'ua' => 'everyfeed-spider/2.0 (http://www.everyfeed.com)',
         'properties' => [
             'Comment' => 'Feeds Syndicators',
@@ -584,7 +584,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1320-M' => [
+    'issue-1320-L' => [
         'ua' => 'feedjira http://feedjira.com',
         'properties' => [
             'Comment' => 'Feeds Syndicators',
@@ -637,7 +637,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1320-N' => [
+    'issue-1320-M' => [
         'ua' => 'wp.com feedbot/1.0 (+https://wp.com)',
         'properties' => [
             'Comment' => 'Feeds Blogs',
@@ -690,7 +690,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1320-O' => [
+    'issue-1320-N' => [
         'ua' => 'TrapitAgent/0.1 (feed processor; +http://trapit.com/about)',
         'properties' => [
             'Comment' => 'Feeds Syndicators',
@@ -743,7 +743,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1320-P' => [
+    'issue-1320-O' => [
         'ua' => 'SeobilityBot (SEO-Check; http://bit.ly/1dJuuzs)',
         'properties' => [
             'Comment' => 'SEO & Analytics',
@@ -796,7 +796,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1320-Q' => [
+    'issue-1320-P' => [
         'ua' => 'Domain Re-Animator Bot (http://domainreanimator.com) - support@domainreanimator.com',
         'properties' => [
             'Comment' => 'General Crawlers',
@@ -849,7 +849,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1320-R' => [
+    'issue-1320-Q' => [
         'ua' => 'NewRelicPinger/1.0 (331891)',
         'properties' => [
             'Comment' => 'Site Monitors',
@@ -902,7 +902,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1320-S' => [
+    'issue-1320-R' => [
         'ua' => 'montastic-monitor http://www.montastic.com',
         'properties' => [
             'Comment' => 'Site Monitors',
@@ -955,7 +955,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1320-U' => [
+    'issue-1320-S' => [
         'ua' => 'Nuzzel',
         'properties' => [
             'Comment' => 'Feeds Syndicators',
@@ -1008,7 +1008,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1320-V' => [
+    'issue-1320-T' => [
         'ua' => 'Mozilla/5.0 (compatible; AdlesseBot/1.0; feedback@adlesse.com) v1490676842.3287',
         'properties' => [
             'Comment' => 'General Crawlers',
@@ -1061,7 +1061,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1320-W' => [
+    'issue-1320-U' => [
         'ua' => 'Mozilla/5.0 (compatible; AndersPinkBot/1.0; +http://anderspink.com/bot.html)',
         'properties' => [
             'Comment' => 'General Crawlers',
@@ -1114,7 +1114,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1320-X' => [
+    'issue-1320-V' => [
         'ua' => 'Mozilla/5.0 (compatible; Caroline/4.3; +http://justpicsplease.com/caroline.php)',
         'properties' => [
             'Comment' => 'Image Crawlers',
@@ -1167,7 +1167,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1320-Y' => [
+    'issue-1320-W' => [
         'ua' => 'Mozilla/5.0 (compatible; coccocbot-web/1.0; +http://help.coccoc.com/searchengine)',
         'properties' => [
             'Comment' => 'Search Engines',
@@ -1220,7 +1220,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1320-Z' => [
+    'issue-1320-X' => [
         'ua' => 'Mozilla/5.0 (compatible; Greplerbot/0.2; +http://www.grepler.com/bot)',
         'properties' => [
             'Comment' => 'General Crawlers',
@@ -1273,7 +1273,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1320-AA' => [
+    'issue-1320-Y' => [
         'ua' => 'Mozilla/5.0 (compatible; Let\'s Encrypt validation server; +https://www.letsencrypt.org)',
         'properties' => [
             'Comment' => 'Validation Checkers',
@@ -1326,7 +1326,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1320-AB' => [
+    'issue-1320-Z' => [
         'ua' => 'Mozilla/5.0 (compatible; YesupBot/1.0; +http://www.yesup.net/bot.html)',
         'properties' => [
             'Comment' => 'General Crawlers',
@@ -1379,7 +1379,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1320-AC' => [
+    'issue-1320-AA' => [
         'ua' => 'Mozilla/5.0 (compatible; PingAdmin.Ru/1.1; +http://pingadmin.ru/)',
         'properties' => [
             'Comment' => 'Site Monitors',
@@ -1432,7 +1432,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1320-AD' => [
+    'issue-1320-AB' => [
         'ua' => 'Mozilla/5.0 (compatible; LinkisBot/1.0; bot@linkis.com)',
         'properties' => [
             'Comment' => 'General Crawlers',
@@ -1485,7 +1485,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1320-AE' => [
+    'issue-1320-AC' => [
         'ua' => 'PerfectMail/2.0 (http://perfectmail.com/kb/web_probe)',
         'properties' => [
             'Comment' => 'Link Checkers',
@@ -1538,7 +1538,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1320-AF' => [
+    'issue-1320-AD' => [
         'ua' => 'Mozilla/5.0 (compatible; houzzbot; +http://www.houzz.com/)',
         'properties' => [
             'Comment' => 'General Crawlers',
@@ -1591,7 +1591,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1320-AG' => [
+    'issue-1320-AE' => [
         'ua' => 'Mozilla/5.0 (compatible; vebidoobot/1.0; +https://blog.vebidoo.de/vebidoobot/)',
         'properties' => [
             'Comment' => 'Search Engines',
@@ -1644,7 +1644,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1320-AH' => [
+    'issue-1320-AF' => [
         'ua' => 'Twiends Crawler 1.1 created by twiends.com. See http://twiends.com/msg/crawler for more information.',
         'properties' => [
             'Comment' => 'Image Crawlers',
@@ -1697,7 +1697,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1320-AI' => [
+    'issue-1320-AG' => [
         'ua' => 'Mozilla/5.0 (compatible; Findxbot/1.0; +http://www.findxbot.com)',
         'properties' => [
             'Comment' => 'Search Engines',
@@ -1750,7 +1750,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1320-AJ' => [
+    'issue-1320-AH' => [
         'ua' => 'Mozilla/5.0 (compatible; YaK/1.0; http://linkfluence.com/; bot@linkfluence.com)',
         'properties' => [
             'Comment' => 'General Crawlers',
@@ -1803,7 +1803,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1320-AK' => [
+    'issue-1320-AI' => [
         'ua' => 'Mozilla/5.0 (compatible; SurdotlyBot/1.0; +http://sur.ly/bot.html)',
         'properties' => [
             'Comment' => 'Link Checkers',
@@ -1856,7 +1856,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1320-AL' => [
+    'issue-1320-AJ' => [
         'ua' => 'Mozilla/5.0 (compatible; FTT2 Toplist Thumb Grabber; http://www.ftt2.com/)',
         'properties' => [
             'Comment' => 'Thumbnail Generators',
@@ -1909,7 +1909,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1320-AM' => [
+    'issue-1320-AK' => [
         'ua' => 'Yahoo! Slurp China',
         'properties' => [
             'Comment' => 'Yahoo! Slurp',
@@ -1962,7 +1962,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1320-AN' => [
+    'issue-1320-AL' => [
         'ua' => 'WP Engine Domain Verification (http://support.wpengine.com abuse@wpengine.com)',
         'properties' => [
             'Comment' => 'Link Checkers',
@@ -2015,7 +2015,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1320-AO' => [
+    'issue-1320-AM' => [
         'ua' => 'Mozilla/5.0 (compatible; Faveeo/1.0; +http://www.faveeo.com)',
         'properties' => [
             'Comment' => 'General Crawlers',
@@ -2068,7 +2068,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1320-AP' => [
+    'issue-1320-AN' => [
         'ua' => 'Mozilla/5.0 (compatible; Dataprovider/6.92; +https://www.dataprovider.com/)',
         'properties' => [
             'Comment' => 'Data Mining',
@@ -2121,7 +2121,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1320-AQ' => [
+    'issue-1320-AO' => [
         'ua' => 'Mozilla/5.0 (compatible; Sysomos/1.0; +http://www.sysomos.com/; Sysomos)',
         'properties' => [
             'Comment' => 'General Crawlers',
@@ -2174,7 +2174,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1320-AR' => [
+    'issue-1320-AP' => [
         'ua' => 'scrapy-redis (+https://github.com/rolando/scrapy-redis)',
         'properties' => [
             'Comment' => 'Rippers',
@@ -2227,7 +2227,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1320-AS' => [
+    'issue-1320-AQ' => [
         'ua' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.34 (KHTML, like Gecko) khtml2png Safari/534.34',
         'properties' => [
             'Comment' => 'Thumbnail Generators',
@@ -2280,7 +2280,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1320-AT' => [
+    'issue-1320-AR' => [
         'ua' => 'Mozilla/5.0 AppEngine-Google; (+http://code.google.com/appengine; appid: e~finscience-1253)',
         'properties' => [
             'Comment' => 'Google App Engine',
@@ -2333,7 +2333,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1320-AU' => [
+    'issue-1320-AS' => [
         'ua' => 'Flamingo_SearchEngine (+http://www.flamingosearch.com/bot)',
         'properties' => [
             'Comment' => 'Search Engines',
@@ -2386,7 +2386,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1320-AV' => [
+    'issue-1320-AT' => [
         'ua' => 'Mozilla/5.0 (compatible; U; AnyEvent-HTTP/2.21; +http://software.schmorp.de/pkg/AnyEvent)',
         'properties' => [
             'Comment' => 'Rippers',
@@ -2439,7 +2439,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1320-AW' => [
+    'issue-1320-AU' => [
         'ua' => 'Mozilla/5.0 (compatible; DomainSONOCrawler/0.1; +http://domainsono.com)',
         'properties' => [
             'Comment' => 'Validation Checkers',
@@ -2492,7 +2492,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1320-AX' => [
+    'issue-1320-AV' => [
         'ua' => 'Bumble Bee/1.0 (WikiApiary; +http://wikiapiary.com/wiki/User:Bumble_Bee)',
         'properties' => [
             'Comment' => 'General Crawlers',
@@ -2545,7 +2545,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1320-AY' => [
+    'issue-1320-AW' => [
         'ua' => 'SocialRankIOBot; http://socialrank.io/about',
         'properties' => [
             'Comment' => 'General Crawlers',
@@ -2598,7 +2598,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1320-AZ' => [
+    'issue-1320-AX' => [
         'ua' => 'PocketParser/2.0 (+https://getpocket.com/pocketparser_ua)',
         'properties' => [
             'Comment' => 'General Crawlers',
@@ -2651,7 +2651,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1320-BA' => [
+    'issue-1320-AY' => [
         'ua' => 'Seeker v.1 http://LookSeek.com/seeker/',
         'properties' => [
             'Comment' => 'Search Engines',
@@ -2704,7 +2704,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1320-BB' => [
+    'issue-1320-AZ' => [
         'ua' => 'Ruby, Twurly v1.1 (http://twurly.org)',
         'properties' => [
             'Comment' => 'General Crawlers',
@@ -2757,7 +2757,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1320-BC' => [
+    'issue-1320-BA' => [
         'ua' => 'SafeDNSBot (https://www.safedns.com/searchbot)',
         'properties' => [
             'Comment' => 'General Crawlers',
@@ -2810,7 +2810,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1320-BD' => [
+    'issue-1320-BB' => [
         'ua' => 'Easy-Thumb (https://www.easy-thumb.net/)',
         'properties' => [
             'Comment' => 'Thumbnail Generators',
@@ -2863,7 +2863,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1320-BE' => [
+    'issue-1320-BC' => [
         'ua' => 'TurnitinBot (https://turnitin.com/robot/crawlerinfo.html)',
         'properties' => [
             'Comment' => 'Copyright/Plagiarism',
@@ -2916,7 +2916,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1320-BF' => [
+    'issue-1320-BD' => [
         'ua' => 'Web-sniffer/1.1.0 (+http://web-sniffer.net/)',
         'properties' => [
             'Comment' => 'General Crawlers',
@@ -2969,7 +2969,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1320-BG' => [
+    'issue-1320-BE' => [
         'ua' => 'msnbot-Products/1.0 (+http://search.msn.com/msnbot.htm)',
         'properties' => [
             'Comment' => 'msn Products bot',
@@ -3022,7 +3022,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1320-BH' => [
+    'issue-1320-BF' => [
         'ua' => 'SkyGrid/1.0 (+http://skygrid.com/partners)',
         'properties' => [
             'Comment' => 'Data Mining',
@@ -3075,7 +3075,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1320-BI' => [
+    'issue-1320-BG' => [
         'ua' => 'SEMrushBot',
         'properties' => [
             'Comment' => 'SemrushBot',
@@ -3128,7 +3128,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1320-BJ' => [
+    'issue-1320-BH' => [
         'ua' => 'datagnionbot (+http://www.datagnion.com/bot.html)',
         'properties' => [
             'Comment' => 'General Crawlers',
@@ -3181,7 +3181,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1320-BK' => [
+    'issue-1320-BI' => [
         'ua' => 'myTaste image cacher v.0.6',
         'properties' => [
             'Comment' => 'Image Crawlers',
@@ -3234,7 +3234,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1320-BL' => [
+    'issue-1320-BJ' => [
         'ua' => 'OrgProbe/0.9.4 (+http://www.blocked.org.uk)',
         'properties' => [
             'Comment' => 'Link Checkers',
@@ -3287,7 +3287,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1320-BM' => [
+    'issue-1320-BK' => [
         'ua' => 'cuwhois/1.0 (+http://www.cuwhois.com/)',
         'properties' => [
             'Comment' => 'SEO & Analytics',
@@ -3340,7 +3340,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1320-BN' => [
+    'issue-1320-BL' => [
         'ua' => 'NetTrack Anonymous Web Statistics https://nettrack.info/support.php',
         'properties' => [
             'Comment' => 'SEO & Analytics',
@@ -3393,7 +3393,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1320-BO' => [
+    'issue-1320-BM' => [
         'ua' => 'omgili/0.5 +http://omgili.com',
         'properties' => [
             'Comment' => 'Search Engines',
@@ -3446,7 +3446,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1320-BP' => [
+    'issue-1320-BN' => [
         'ua' => 'IAS crawler (ias_crawler; http://integralads.com/site-indexing-policy/)',
         'properties' => [
             'Comment' => 'General Crawlers',
@@ -3499,7 +3499,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1320-BQ' => [
+    'issue-1320-BO' => [
         'ua' => 'YOTPO - https://www.yotpo.com/terms-of-service/',
         'properties' => [
             'Comment' => 'General Crawlers',
@@ -3552,7 +3552,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1320-BR' => [
+    'issue-1320-BP' => [
         'ua' => 'GermCrawler',
         'properties' => [
             'Comment' => 'General Crawlers',
@@ -3605,7 +3605,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1320-BS' => [
+    'issue-1320-BQ' => [
         'ua' => 'Fyrebot/1.0',
         'properties' => [
             'Comment' => 'General Crawlers',
@@ -3658,7 +3658,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1320-BT' => [
+    'issue-1320-BR' => [
         'ua' => 'istellabot/t.1',
         'properties' => [
             'Comment' => 'General Crawlers',
@@ -3711,7 +3711,7 @@ return [
         'lite' => false,
         'standard' => false,
     ],
-    'issue-1320-BU' => [
+    'issue-1320-BS' => [
         'ua' => 'Clickagy Intelligence Bot v2',
         'properties' => [
             'Comment' => 'Data Mining',
@@ -3719,6 +3719,59 @@ return [
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Clickagy',
+            'Browser_Modus' => 'unknown',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'unknown',
+            'Platform_Version' => 'unknown',
+            'Platform_Description' => 'unknown',
+            'Platform_Bits' => '0',
+            'Platform_Maker' => 'unknown',
+            'Alpha' => false,
+            'Beta' => false,
+            'Win16' => false,
+            'Win32' => false,
+            'Win64' => false,
+            'Frames' => false,
+            'IFrames' => false,
+            'Tables' => false,
+            'Cookies' => false,
+            'BackgroundSounds' => false,
+            'JavaScript' => false,
+            'VBScript' => false,
+            'JavaApplets' => false,
+            'ActiveXControls' => false,
+            'isMobileDevice' => false,
+            'isTablet' => false,
+            'isSyndicationReader' => false,
+            'Crawler' => true,
+            'isFake' => false,
+            'isAnonymized' => false,
+            'isModified' => false,
+            'CssVersion' => '0',
+            'AolVersion' => '0',
+            'Device_Name' => 'unknown',
+            'Device_Maker' => 'unknown',
+            'Device_Type' => 'unknown',
+            'Device_Pointing_Method' => 'unknown',
+            'Device_Code_Name' => 'unknown',
+            'Device_Brand_Name' => 'unknown',
+            'RenderingEngine_Name' => 'unknown',
+            'RenderingEngine_Version' => 'unknown',
+            'RenderingEngine_Maker' => 'unknown',
+        ],
+        'lite' => false,
+        'standard' => false,
+    ],
+    'issue-1320-BT' => [
+        'ua' => 'Mozilla/5.0 (compatible; um-LN/1.0; mailto: techinfo@ubermetrics-technologies.com)',
+        'properties' => [
+            'Comment' => 'Data Mining',
+            'Browser' => 'UberMetrics Bot',
+            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Bits' => '0',
+            'Browser_Maker' => 'uberMetrics Technologies GmbH',
             'Browser_Modus' => 'unknown',
             'Version' => '0.0',
             'MajorVer' => '0',
