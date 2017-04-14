@@ -938,6 +938,23 @@
           }
         },
         {
+          "match": "Mozilla/5.0 (compatible; coccocbot-web/1.0*",
+          "properties": {
+            "Browser": "CocCoc Bot",
+            "Browser_Maker": "Coc Coc Company Limited",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; coccocbot-web/*",
+          "properties": {
+            "Browser": "CocCoc Bot",
+            "Browser_Maker": "Coc Coc Company Limited"
+          }
+        },
+        {
           "match": "Wada.vn*",
           "properties": {
             "Browser": "Wada.vn Search Bot",
@@ -1184,13 +1201,6 @@
           "properties": {
             "Browser": "WebCorp",
             "Browser_Maker": "Research and Development Unit for English Studies, Birmingham City University"
-          }
-        },
-        {
-          "match": "Mozilla/5.0 (compatible; coccocbot-web/*",
-          "properties": {
-            "Browser": "CocCoc Bot",
-            "Browser_Maker": "coccoc.com"
           }
         },
         {

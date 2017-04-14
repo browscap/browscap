@@ -73,13 +73,6 @@
           "properties": {
             "Browser": "TutorGig"
           }
-        },
-        {
-          "match": "TurnitinBot*",
-          "properties": {
-            "Browser": "TurnItIn Bot",
-            "Browser_Maker": "Turnitin LLC"
-          }
         }
       ]
     }
