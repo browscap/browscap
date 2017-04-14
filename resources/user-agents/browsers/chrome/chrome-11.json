@@ -29,119 +29,79 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (X11; Linux*; HTC/Sensation/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
-          "device": "HTC Z710",
+          "match": "Mozilla/5.0 (X11; Linux*; #DEVICE#/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
+          "devices": {
+            "HTC/Sensation": "HTC Z710"
+          },
           "platforms": [
             "Android_4_0"
           ]
         },
         {
-          "match": "Mozilla/5.0 (X11; Linux x86_64*; HTC/Sensation/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
-          "device": "HTC Z710",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# *) applewebkit* (*khtml*like*gecko*)*CrMo/#MAJORVER#.*Safari/*",
+          "devices": {
+            "GT-I9100": "Samsung GT-I9100",
+            "KFTT": "Amazon KFTT"
+          },
           "platforms": [
             "Android_4_0"
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#KFTT *) applewebkit* (*khtml*like*gecko*)*CrMo/#MAJORVER#.*Safari/*",
-          "device": "Amazon KFTT",
-          "platforms": [
-            "Android_4_0"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#GT-I9100 *) applewebkit* (*khtml*like*gecko*)*CrMo/#MAJORVER#.*Safari/*",
-          "device": "Samsung GT-I9100",
-          "platforms": [
-            "Android_4_0"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#KFTT *) applewebkit* (*khtml*like*gecko*)*CrMo/#MAJORVER#.*Safari/*",
-          "device": "Amazon KFTT",
-          "platforms": [
-            "Android_4_0"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#GT-I9100 *) applewebkit* (*khtml*like*gecko*)*CrMo/#MAJORVER#.*Safari/*",
-          "device": "Samsung GT-I9100",
-          "platforms": [
-            "Android_4_0"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#NSZ-GS7/GX70 Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
-          "device": "Sony NSZ-GS7/GX70",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
+          "devices": {
+            "NSZ-GS7/GX70": "Sony NSZ-GS7/GX70"
+          },
           "platforms": [
             "Android_GoogleTV_3_2", "Android_GoogleTV"
           ]
         },
         {
-          "match": "Tablet-PC-4 Mozilla/5.0 (X11; Linux x86_64) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
-          "device": "CatSound Tablet PC 4",
+          "match": "#DEVICE# Mozilla/5.0 (X11; Linux x86_64) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
           "properties": {
             "Browser_Modus": "Desktop Mode"
           },
-          "platforms": [
-            "Android_4_0"
-          ]
-        },
-        {
-          "match": "DINO762 Mozilla/5.0 (X11; Linux x86_64) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
-          "device": "Dino 762 A9",
-          "platforms": [
-            "Android_4_1"
-          ]
-        },
-        {
-          "match": "TBD1083 Mozilla/5.0 (X11; Linux x86_64) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
-          "properties": {
-            "Browser_Modus": "Desktop Mode"
+          "devices": {
+            "TBDB863": "Zeki TBDB863"
           },
-          "device": "Zeki TBD1083",
-          "platforms": [
-            "Android_4_1"
-          ]
-        },
-        {
-          "match": "TBDB863 Mozilla/5.0 (X11; Linux x86_64) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
-          "properties": {
-            "Browser_Modus": "Desktop Mode"
-          },
-          "device": "Zeki TBDB863",
           "platforms": [
             "Android_4_3"
           ]
         },
         {
-          "match": "TBDC1093 Mozilla/5.0 (X11; Linux x86_64) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
-          "properties": {
-            "Browser_Modus": "Desktop Mode"
+          "match": "#DEVICE# Mozilla/5.0 (X11; Linux x86_64) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
+          "devices": {
+            "DINO762": "Dino 762 A9"
           },
-          "device": "Zeki TBDC1093",
           "platforms": [
             "Android_4_1"
           ]
         },
         {
-          "match": "TERRA_101 Mozilla/5.0 (X11; Linux x86_64) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
+          "match": "#DEVICE# Mozilla/5.0 (X11; Linux x86_64) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
           "properties": {
             "Browser_Modus": "Desktop Mode"
           },
-          "device": "GOCLEVER A1021",
+          "devices": {
+            "TBD1083": "Zeki TBD1083",
+            "TBDC1093": "Zeki TBDC1093",
+            "TBDG773": "Zeki TBDG773",
+            "TERRA_101": "GOCLEVER A1021"
+          },
           "platforms": [
             "Android_4_1"
           ]
         },
         {
-          "match": "TBDG773 Mozilla/5.0 (X11; Linux x86_64) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
+          "match": "#DEVICE# Mozilla/5.0 (X11; Linux x86_64) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
+          "devices": {
+            "Tablet-PC-4": "CatSound Tablet PC 4"
+          },
           "properties": {
             "Browser_Modus": "Desktop Mode"
           },
-          "device": "Zeki TBDG773",
           "platforms": [
-            "Android_4_1"
+            "Android_4_0"
           ]
         },
         {
