@@ -1,4 +1,17 @@
 {
+    "Lava Arc One": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "Arc One",
+            "Device_Code_Name": "Arc One",
+            "Device_Maker": "Lava",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "Lava",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Lava Iris 600": {
         "standard": false,
         "properties": {
@@ -83,6 +96,19 @@
             "Device_Type": "Mobile Phone",
             "Device_Name": "KKT22S",
             "Device_Code_Name": "KKT22S",
+            "Device_Maker": "Lava",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "Lava",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Lava KKT40": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "Power",
+            "Device_Code_Name": "KKT40",
             "Device_Maker": "Lava",
             "Device_Pointing_Method": "unknown",
             "Device_Brand_Name": "Lava",

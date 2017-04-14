@@ -147,6 +147,13 @@
           ]
         },
         {
+          "match": "Opera?#MAJORVER#.#MINORVER#*(X11*)*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux"
+          ]
+        },
+        {
           "match": "Opera?#MAJORVER#.#MINORVER#*(#PLATFORM#)*",
           "device": "Windows Desktop",
           "platforms": [

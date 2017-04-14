@@ -7,6 +7,7 @@
     {
       "userAgent": "Boxee",
       "device": "Boxee",
+      "platform": "Linux",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Boxee",
@@ -20,16 +21,27 @@
       },
       "children": [
         {
+          "match": "Mozilla/5.0 (*Linux*) applewebkit* (*khtml*like*gecko*) Boxee/1.0.*",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Boxee/*",
+          "platforms": [
+            "Linux"
+          ]
+        },
+        {
           "match": "curl/* (Linux * intel.*dlink.dsm380*; beta) boxee/1.2*",
           "device": "D-Link DSM 380",
           "properties": {
             "Version": "1.2",
             "MajorVer": "1",
             "MinorVer": "2"
-          },
-          "platforms": [
-            "Linux"
-          ]
+          }
         },
         {
           "match": "curl/* (Linux * intel.*dlink.dsm*; beta) boxee/1.*",
@@ -37,16 +49,10 @@
             "Version": "1.0",
             "MajorVer": "1",
             "MinorVer": "0"
-          },
-          "platforms": [
-            "Linux"
-          ]
+          }
         },
         {
-          "match": "curl/* (Linux * intel.*dlink.dsm* *; *; beta) boxee/*",
-          "platforms": [
-            "Linux"
-          ]
+          "match": "curl/* (Linux * intel.*dlink.dsm* *; *; beta) boxee/*"
         }
       ]
     }

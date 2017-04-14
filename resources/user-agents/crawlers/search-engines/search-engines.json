@@ -1237,6 +1237,13 @@
             "Browser": "Omgili Bot",
             "Browser_Maker": "Webhose.io"
           }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Daum/*",
+          "properties": {
+            "Browser": "Daum Bot",
+            "Browser_Maker": "Kakao Corp"
+          }
         }
       ]
     }

@@ -1,0 +1,52 @@
+{
+  "division": "Start Browser Generic",
+  "sortIndex": 1021,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Start Browser Generic for Android",
+      "platform": "Android",
+      "engine": "Blink",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Start Browser Generic",
+        "Browser": "Start Browser",
+        "Browser_Type": "Browser",
+        "Alpha": "false",
+        "Beta": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "Browser_Maker": "Searchturbo Ltd",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Start/* Chrome/* Safari/*",
+          "devices": {
+            "SM-G900V": "Samsung SM-G900V"
+          },
+          "platforms": [
+            "Android_6_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Start/* Chrome/* Safari/*",
+          "platforms": [
+            "Android_7_1", "Android_7_0",
+            "Android_6_1", "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_1",
+            "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}
