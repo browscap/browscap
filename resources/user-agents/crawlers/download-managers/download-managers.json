@@ -340,6 +340,13 @@
           "properties": {
             "Browser": "Xaldon WebSpider"
           }
+        },
+        {
+          "match": "Mozilla/5.0 (*) applewebkit* (*khtml*like*gecko*) Downloader/* MyComGameCenter/* Safari/*",
+          "properties": {
+            "Browser": "MyComGameCenter Downloader",
+            "Browser_Maker": "My.com"
+          }
         }
       ]
     }

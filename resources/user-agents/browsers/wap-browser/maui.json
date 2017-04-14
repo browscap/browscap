@@ -25,10 +25,25 @@
       },
       "children": [
         {
+          "match": "#DEVICE#?MAUI* Browser*",
+          "devices": {
+            "CELKON.C329.X18": "Celkon C329",
+            "LAVA.ARC One": "Lava Arc One",
+            "LAVA.KKT40 POWER": "Lava KKT40",
+            "SYM_B46i": "Symphony B46i",
+            "ZEN M72": "Zen M72",
+            "ZEN M9 Mini": "Zen M9 Mini",
+            "ZEN X20": "Zen X20"
+          }
+        },
+        {
           "match": "MAUI WAP Browser MAUI WAP Browser"
         },
         {
           "match": "MAUI WAP Browser*"
+        },
+        {
+          "match": "Maui Browser"
         },
         {
           "match": "MAUI_WAP_Browser"

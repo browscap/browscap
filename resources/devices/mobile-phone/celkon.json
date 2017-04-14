@@ -11,5 +11,18 @@
             "isMobileDevice": "true",
             "isTablet": "false"
         }
+    },
+    "Celkon C329": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "C329",
+            "Device_Code_Name": "C329",
+            "Device_Maker": "Celkon",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "Celkon",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
     }
 }

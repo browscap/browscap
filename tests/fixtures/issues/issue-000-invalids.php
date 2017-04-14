@@ -34,6 +34,8 @@ $invalidUserAgents = [
     'issue-000-invalids-J' => 'Mozilla/4.0 (compatible; MSIE 4.5; Windows NT 5.2; .NET CLR 3.5.30729)',
     // There is no IE 9.11 (Like IE 6 mentioned above, MS typically doesn't bump the minor versions of their browsers)
     'issue-000-invalids-K' => 'Mozilla/5.0 (compatible; MSIE 9.11; Windows NT 6.2; Trident/5.0)',
+    // Seamonkey is Firefox/Gecko based, not Safari/WebKit
+    'issue-000-invalids-L' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Safari/537.36 Firefox/42.0 SeaMonkey/2.39a1',
 ];
 
 $testCases = [];

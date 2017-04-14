@@ -1,4 +1,17 @@
 {
+    "Symphony B46i": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "B46i",
+            "Device_Code_Name": "B46i",
+            "Device_Maker": "Symphony",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "Symphony",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Symphony W82": {
         "standard": false,
         "properties": {

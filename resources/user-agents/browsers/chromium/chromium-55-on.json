@@ -37,7 +37,8 @@
         {
           "match": "Mozilla/5.0 (*Linux i686*) applewebkit* (*khtml*like*gecko*)#PLATFORM#Chromium/#MAJORVER#.*Chrome/*Safari/*",
           "platforms": [
-            "Ubuntu_12_04"
+            "Ubuntu_12_04",
+            "Ubuntu_11_10"
           ]
         },
         {
@@ -47,13 +48,13 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (*Linux i686*) applewebkit* (*khtml*like*gecko*) Ubuntu Chromium/#MAJORVER#.*Chrome/*Safari/*",
+          "match": "Mozilla/5.0 (*Linux i686*) applewebkit* (*khtml*like*gecko*) Ubuntu* Chromium/#MAJORVER#.*Chrome/*Safari/*",
           "platforms": [
             "Ubuntu_32"
           ]
         },
         {
-          "match": "Mozilla/5.0 (*Linux x86_64*) applewebkit* (*khtml*like*gecko*) Ubuntu Chromium/#MAJORVER#.*Chrome/*Safari/*",
+          "match": "Mozilla/5.0 (*Linux x86_64*) applewebkit* (*khtml*like*gecko*) Ubuntu* Chromium/#MAJORVER#.*Chrome/*Safari/*",
           "platforms": [
             "Ubuntu_64"
           ]
@@ -62,6 +63,14 @@
           "match": "Mozilla/5.0 (*Linux#PLATFORM#) applewebkit* Chromium/#MAJORVER#.*Safari/*",
           "platforms": [
             "Ubuntu_14_04"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* Chromium/#MAJORVER#.*Safari/*",
+          "device": "general Mobile Device",
+          "platforms": [
+            "Ubuntu_Touch_15_04",
+            "Ubuntu_Touch"
           ]
         },
         {

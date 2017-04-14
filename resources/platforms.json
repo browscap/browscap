@@ -1689,6 +1689,15 @@
         "Platform_Version": "11.04"
       }
     },
+    "Ubuntu_11_10": {
+      "match": "*Ubuntu/11.10*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Ubuntu",
+      "properties": {
+        "Platform_Version": "11.10"
+      }
+    },
     "Ubuntu_12_04": {
       "match": "*Ubuntu/12.04*",
       "lite": false,
@@ -1781,6 +1790,25 @@
         "Platform_Version": "14.04",
         "Browser_Bits": "64",
         "Platform_Bits": "64"
+      }
+    },
+    "Ubuntu_Touch": {
+      "match": "*Ubuntu*like Android*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Ubuntu",
+      "properties": {
+        "Platform": "Ubuntu Touch",
+        "Platform_Description": "Ubuntu Linux for Mobile"
+      }
+    },
+    "Ubuntu_Touch_15_04": {
+      "match": "*Ubuntu?15.04*like Android*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Ubuntu_Touch",
+      "properties": {
+        "Platform_Version": "15.04"
       }
     },
     "Windows": {
