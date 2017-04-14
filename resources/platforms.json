@@ -1802,6 +1802,15 @@
         "Platform_Description": "Ubuntu Linux for Mobile"
       }
     },
+    "Ubuntu_Touch_14_04": {
+      "match": "*Ubuntu?14.04*like Android*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Ubuntu_Touch",
+      "properties": {
+        "Platform_Version": "14.04"
+      }
+    },
     "Ubuntu_Touch_15_04": {
       "match": "*Ubuntu?15.04*like Android*",
       "lite": false,

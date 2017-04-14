@@ -66,6 +66,15 @@
           ]
         },
         {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* Chromium/#MAJORVER#.*Safari/*",
+          "device": "general Mobile Device",
+          "platforms": [
+            "Ubuntu_Touch_15_04",
+            "Ubuntu_Touch_14_04",
+            "Ubuntu_Touch"
+          ]
+        },
+        {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Chromium/#MAJORVER#.*Chrome/*Safari/*",
           "platforms": [
             "Ubuntu_64", "Ubuntu_32", "Ubuntu",

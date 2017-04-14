@@ -70,6 +70,7 @@
           "device": "general Mobile Device",
           "platforms": [
             "Ubuntu_Touch_15_04",
+            "Ubuntu_Touch_14_04",
             "Ubuntu_Touch"
           ]
         },
