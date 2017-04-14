@@ -91,6 +91,20 @@
             "Browser": "CSE HTML Validator",
             "Browser_Maker": "AI Internet Solutions LLC"
           }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Let's Encrypt validation server*",
+          "properties": {
+            "Browser": "Let's Encrypt Validator",
+            "Browser_Maker": "Let's Encrypt"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; DomainSONOCrawler/*",
+          "properties": {
+            "Browser": "DomainSONO Crawler",
+            "Browser_Maker": "DomainSONO"
+          }
         }
       ]
     }

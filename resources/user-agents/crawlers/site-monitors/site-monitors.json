@@ -212,6 +212,27 @@
             "Browser": "PRTG Network Monitor",
             "Browser_Maker": "Paessler AG"
           }
+        },
+        {
+          "match": "NewRelicPinger/*",
+          "properties": {
+            "Browser": "New Relic Pinger",
+            "Browser_Maker": "New Relic"
+          }
+        },
+        {
+          "match": "montastic-monitor http://www.montastic.com",
+          "properties": {
+            "Browser": "Montastic Monitor",
+            "Browser_Maker": "Montastic"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; PingAdmin.Ru/*",
+          "properties": {
+            "Browser": "PingAdmin.ru Monitor",
+            "Browser_Maker": "PingAdmin.ru"
+          }
         }
       ]
     }

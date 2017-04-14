@@ -677,6 +677,41 @@
           "properties": {
             "Browser": "CITA RSS Aggregator"
           }
+        },
+        {
+          "match": "FeedBucket/*",
+          "properties": {
+            "Browser": "FeedBucket",
+            "Browser_Maker": "feedbucket.com"
+          }
+        },
+        {
+          "match": "everyfeed-spider/* (http://www.everyfeed.com)",
+          "properties": {
+            "Browser": "Everyfeed Spider",
+            "Browser_Maker": "everyfeed.com"
+          }
+        },
+        {
+          "match": "feedjira http://feedjira.com",
+          "properties": {
+            "Browser": "Feedjira",
+            "Browser_Maker": "Feedjira"
+          }
+        },
+        {
+          "match": "TrapitAgent/0.1 (feed processor; +http://trapit.com/about)",
+          "properties": {
+            "Browser": "TrapitAgent Feed Processor",
+            "Browser_Maker": "Trapit"
+          }
+        },
+        {
+          "match": "Nuzzel",
+          "properties": {
+            "Browser": "Nuzzel Bot",
+            "Browser_Maker": "Nuzzle Inc"
+          }
         }
       ]
     }

@@ -320,6 +320,34 @@
             "Browser": "SEO Scanners Bot",
             "Browser_Maker": "SEO Scanners"
           }
+        },
+        {
+          "match": "SeobilityBot (SEO-Check; *)",
+          "properties": {
+            "Browser": "Seobility Bot",
+            "Browser_Maker": "Seobility GmbH"
+          }
+        },
+        {
+          "match": "cuwhois/*",
+          "properties": {
+            "Browser": "cuWhois Bot",
+            "Browser_Maker": "cuWhois.com"
+          }
+        },
+        {
+          "match": "ganarvisitas/*",
+          "properties": {
+            "Browser": "Ganar Visitas Bot",
+            "Browser_Maker": "GanarVisitas.com"
+          }
+        },
+        {
+          "match": "NetTrack Anonymous Web Statistics*",
+          "properties": {
+            "Browser": "NetTrack Scanner",
+            "Browser_Maker": "NetTrack"
+          }
         }
       ]
     }

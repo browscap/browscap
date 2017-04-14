@@ -32,6 +32,12 @@
             "Browser": "BoardReader Favicon Fetcher",
             "isSyndicationReader": "false"
           }
+        },
+        {
+          "match": "BoardReader Blog Indexer*",
+          "properties": {
+            "Browser": "BoardReader Indexer"
+          }
         }
       ]
     }

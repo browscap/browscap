@@ -938,6 +938,23 @@
           }
         },
         {
+          "match": "Mozilla/5.0 (compatible; coccocbot-web/1.0*",
+          "properties": {
+            "Browser": "CocCoc Bot",
+            "Browser_Maker": "Coc Coc Company Limited",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; coccocbot-web/*",
+          "properties": {
+            "Browser": "CocCoc Bot",
+            "Browser_Maker": "Coc Coc Company Limited"
+          }
+        },
+        {
           "match": "Wada.vn*",
           "properties": {
             "Browser": "Wada.vn Search Bot",
@@ -1184,6 +1201,41 @@
           "properties": {
             "Browser": "WebCorp",
             "Browser_Maker": "Research and Development Unit for English Studies, Birmingham City University"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; vebidoobot/*",
+          "properties": {
+            "Browser": "Vebidoo Bot",
+            "Browser_Maker": "Vebidoo.de"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Findxbot/*",
+          "properties": {
+            "Browser": "Findx Bot",
+            "Browser_Maker": "Privacore (findx.com)"
+          }
+        },
+        {
+          "match": "Flamingo_SearchEngine (+http://www.flamingosearch.com/bot)",
+          "properties": {
+            "Browser": "Flamingo Bot",
+            "Browser_Maker": "Flamingo Search"
+          }
+        },
+        {
+          "match": "Seeker v.*",
+          "properties": {
+            "Browser": "Seeker",
+            "Browser_Maker": "LookSeek LLC"
+          }
+        },
+        {
+          "match": "omgili/*",
+          "properties": {
+            "Browser": "Omgili Bot",
+            "Browser_Maker": "Webhose.io"
           }
         }
       ]

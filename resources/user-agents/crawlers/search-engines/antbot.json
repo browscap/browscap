@@ -25,6 +25,9 @@
         },
         {
           "match": "AntBot/*"
+        },
+        {
+          "match": "Ant bot/*"
         }
       ]
     }

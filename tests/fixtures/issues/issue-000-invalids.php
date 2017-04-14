@@ -20,6 +20,20 @@ $invalidUserAgents = [
     'issue-000-invalids-D' => 'Mozilla/4.0 (compatible; MSIE 6.1; Windows NT)',
     // IE 10 does not run on OSX, modern.ie or VirtualBox based solutions still show as a Windows platform
     'issue-000-invalids-E' => 'Mozilla/5.0 (compatible; MSIE 10.0; Macintosh; Intel Mac OS X 10_7_3; Trident/6.0)',
+    // IE 10 should only be Trident 6+
+    'issue-000-invalids-F' => 'Mozilla/5.0 (MSIE 10.0; Windows NT 6.1; Trident/5.0)',
+    // IE 11 should only be Trident 7+
+    'issue-000-invalids-G' => 'Mozilla/5.0 (compatible; MSIE 11.0; Windows NT 6.0 Win64; x64; Trident/6.0)',
+    // There is no Windows NT 9.0: https://en.wikipedia.org/wiki/List_of_Microsoft_Windows_versions#Client_versions
+    'issue-000-invalids-H' => 'Mozilla/5.0 (Windows; U; MSIE 9.0; Windows NT 9.0; en-US)',
+    // IE 5.0 should be Mozilla/4.0 not Mozilla/5.0
+    'issue-000-invalids-I' => 'Mozilla/5.0 (compatible; MSIE 5.0; Windows 98; Trident/5.1)',
+    // There was no IE 4.5 on Windows (there was a Mac 4.5), only 4.0 and 4.01
+    // https://en.wikipedia.org/wiki/Internet_Explorer_4#Versions
+    // https://en.wikipedia.org/wiki/Internet_Explorer_for_Mac#Internet_Explorer_4.0_for_Macintosh
+    'issue-000-invalids-J' => 'Mozilla/4.0 (compatible; MSIE 4.5; Windows NT 5.2; .NET CLR 3.5.30729)',
+    // There is no IE 9.11 (Like IE 6 mentioned above, MS typically doesn't bump the minor versions of their browsers)
+    'issue-000-invalids-K' => 'Mozilla/5.0 (compatible; MSIE 9.11; Windows NT 6.2; Trident/5.0)',
 ];
 
 $testCases = [];

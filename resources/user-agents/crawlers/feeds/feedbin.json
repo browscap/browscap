@@ -1,0 +1,25 @@
+{
+  "division": "FeedBin",
+  "sortIndex": 381,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "FeedBin",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "FeedBin",
+        "Browser": "FeedBin",
+        "Browser_Maker": "Ben Ubois",
+        "isSyndicationReader": "true",
+        "Browser_Type": "Bot/Crawler",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "FeedBin*"
+        }
+      ]
+    }
+  ]
+}

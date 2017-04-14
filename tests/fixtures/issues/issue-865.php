@@ -5092,7 +5092,7 @@ return [
     'issue-865-CT' => [
         'ua' => 'Ruby, link_thumbnailer',
         'properties' => [
-            'Comment' => 'General Crawlers',
+            'Comment' => 'Thumbnail Generators',
             'Browser' => 'link_thumbnailer',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',

@@ -84,6 +84,14 @@
           }
         },
         {
+          "match": "msnbot-Products/1.0*",
+          "properties": {
+            "Version": "1.0",
+            "MajorVer": "1",
+            "Comment": "msn Products bot"
+          }
+        },
+        {
           "match": "msnbot/*"
         }
       ]

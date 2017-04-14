@@ -11,6 +11,7 @@
         "Comment": "TurnitinBot",
         "Browser": "TurnitinBot",
         "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "Turnitin LLC",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
@@ -26,7 +27,7 @@
           }
         },
         {
-          "match": "TurnitinBot/*"
+          "match": "TurnitinBot*"
         }
       ]
     }

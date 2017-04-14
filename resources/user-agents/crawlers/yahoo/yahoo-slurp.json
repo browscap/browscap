@@ -55,6 +55,12 @@
           }
         },
         {
+          "match": "Yahoo! Slurp China",
+          "properties": {
+            "Browser": "Yahoo! Slurp China"
+          }
+        },
+        {
           "match": "slurp"
         },
         {
