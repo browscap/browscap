@@ -194,6 +194,19 @@
             "isTablet": "false"
         }
     },
+    "Micromax Q340": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "Q340",
+            "Device_Name": "Canvas Selfie 2",
+            "Device_Maker": "Micromax",
+            "Device_Brand_Name": "Micromax",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Micromax X650": {
         "standard": false,
         "properties": {

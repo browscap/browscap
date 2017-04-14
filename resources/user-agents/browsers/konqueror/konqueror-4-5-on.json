@@ -74,11 +74,26 @@
           ]
         },
         {
+          "match": "Mozilla/5.0 (#PLATFORM#) KHTML/#MAJORVER#.#MINORVER#* (like Gecko) Konqueror/#MAJORVER#.#MINORVER#*",
+          "device": "general Desktop",
+          "platforms": [
+            "FreeBSD"
+          ]
+        },
+        {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) konqueror/#MAJORVER#.#MINORVER#*",
           "engine": "WebKit",
           "device": "Linux Desktop",
           "platforms": [
             "Linux_64", "Linux_32", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) konqueror/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "device": "general Desktop",
+          "platforms": [
+            "FreeBSD"
           ]
         }
       ]

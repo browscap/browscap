@@ -6,7 +6,7 @@ return [
         'properties' => [
             'Comment' => 'Kindle',
             'Browser' => 'Kindle',
-            'Browser_Type' => 'unknown',
+            'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Amazon.com, Inc.',
             'Browser_Modus' => 'unknown',
@@ -59,7 +59,7 @@ return [
         'properties' => [
             'Comment' => 'Kindle Fire',
             'Browser' => 'Kindle Fire',
-            'Browser_Type' => 'unknown',
+            'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Amazon.com, Inc.',
             'Browser_Modus' => 'unknown',
@@ -112,7 +112,7 @@ return [
         'properties' => [
             'Comment' => 'Kindle',
             'Browser' => 'Kindle',
-            'Browser_Type' => 'unknown',
+            'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Amazon.com, Inc.',
             'Browser_Modus' => 'unknown',
@@ -165,7 +165,7 @@ return [
         'properties' => [
             'Comment' => 'Kindle',
             'Browser' => 'Kindle',
-            'Browser_Type' => 'unknown',
+            'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Amazon.com, Inc.',
             'Browser_Modus' => 'unknown',

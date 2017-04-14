@@ -1,6 +1,6 @@
 {
   "division": "iCab #MAJORVER#.#MINORVER#",
-  "versions": ["5.5", "5.4", "5.3", "5.2", "5.1", 5, "4.8", "4.7", "4.6", "4.5", "4.4", "4.3", "4.2", "4.1", 4],
+  "versions": ["5.8", "5.7", "5.6", "5.5", "5.4", "5.3", "5.2", "5.1", 5, "4.8", "4.7", "4.6", "4.5", "4.4", "4.3", "4.2", "4.1", 4],
   "sortIndex": 2400,
   "lite": false,
   "standard": true,
@@ -44,12 +44,14 @@
         {
           "match": "Mozilla/* (compatible; iCab #MAJORVER#.#MINORVER#*;#PLATFORM#)",
           "platforms": [
-            "Mac68K", "MacPPC_3", "OSX"
+            "Mac68K", "MacPPC_3",
+            "OSX"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) iCab/#MAJORVER#.#MINORVER#*Safari/*",
           "platforms": [
+            "OSX_10_12", "OSX_10_11", "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7",
             "OSX"
           ]
         }

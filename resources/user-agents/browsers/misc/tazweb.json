@@ -1,0 +1,31 @@
+{
+  "division": "TazWeb",
+  "sortIndex": 2590,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "TazWeb",
+      "platform": "JAVA",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "TazWeb",
+        "Browser": "TazWeb",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Tassaris"
+      },
+      "children": [
+        {
+          "match": "TazWeb (#PLATFORM#)",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux"
+          ]
+        },
+        {
+          "match": "TazWeb *"
+        }
+      ]
+    }
+  ]
+}

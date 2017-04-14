@@ -28,8 +28,19 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (#PLATFORM#GT-N7000* Build/*) applewebkit* (*khtml*like*gecko*)*YoloBrowser/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "Samsung GT-N7000",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*YoloBrowser/#MAJORVER#.#MINORVER#*Safari*",
+          "devices": {
+            "Micromax Q340": "Micromax Q340"
+          },
+          "platforms": [
+            "Android_5_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*YoloBrowser/#MAJORVER#.#MINORVER#*Safari*",
+          "devices": {
+            "GT-N7000*": "Samsung GT-N7000"
+          },
           "platforms": [
             "Android_4_1"
           ]
@@ -37,7 +48,9 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*YoloBrowser/#MAJORVER#.#MINORVER#*Safari*",
           "platforms": [
-            "Android_4_1", "Android_4_2", "Android_4_3"
+            "Android_5_1", "Android_5_0",
+            "Android_4_3", "Android_4_2", "Android_4_1",
+            "Android"
           ]
         }
       ]

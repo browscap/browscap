@@ -33,6 +33,12 @@
           ]
         },
         {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko,*safari*)*Arora/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Unix"
+          ]
+        },
+        {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* (*khtml*like*gecko,*safari*)*Arora/#MAJORVER#.#MINORVER#*",
           "device": "Linux Desktop",
           "platforms": [
