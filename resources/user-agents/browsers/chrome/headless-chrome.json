@@ -1,0 +1,36 @@
+{
+  "division": "Headless Chrome",
+  "sortIndex": 1166,
+  "lite": true,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Headless Chrome",
+      "engine": "Blink",
+      "device": "general Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Headless Chrome",
+        "Browser": "Headless Chrome",
+        "Browser_Maker": "Google Inc",
+        "Browser_Type": "Browser",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "false",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) HeadlessChrome Safari/*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64", "Linux_32_x86", "Linux_32", "Linux"
+          ]
+        }
+      ]
+    }
+  ]
+}
