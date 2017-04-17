@@ -792,8 +792,7 @@ class DataCollection
     {
         if (!array_key_exists($device, $this->devices)) {
             throw new \OutOfBoundsException(
-                'Device "' . $device . '" does not exist in data, available devices: '
-                . serialize(array_keys($this->devices))
+                'Device "' . $device . '" does not exist in data'
             );
         }
 
