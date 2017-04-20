@@ -4,7 +4,7 @@ return [
     'issue-1216-1' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; rv:2.0) Gecko/20110407 Firefox/4.0.3 PaleMoon/4.0.3',
         'properties' => [
-            'Comment' => 'Palemoon 4.0',
+            'Comment' => 'PaleMoon 4.0',
             'Browser' => 'PaleMoon',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -57,7 +57,7 @@ return [
     'issue-1216-2' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64; rv:3.0) Goanna/20170207 PaleMoon/27.1.0',
         'properties' => [
-            'Comment' => 'Palemoon 27.1',
+            'Comment' => 'PaleMoon 27.1',
             'Browser' => 'PaleMoon',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '64',
@@ -110,7 +110,7 @@ return [
     'issue-1216-3' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64; rv:3.0) Gecko/20100101 Goanna/20170207 PaleMoon/27.1.0',
         'properties' => [
-            'Comment' => 'Palemoon 27.1',
+            'Comment' => 'PaleMoon 27.1',
             'Browser' => 'PaleMoon',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '64',
@@ -163,7 +163,7 @@ return [
     'issue-1216-4' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64; rv:45.9) Gecko/20100101 Goanna/3.0 Firefox/45.9 PaleMoon/27.1.0',
         'properties' => [
-            'Comment' => 'Palemoon 27.1',
+            'Comment' => 'PaleMoon 27.1',
             'Browser' => 'PaleMoon',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '64',

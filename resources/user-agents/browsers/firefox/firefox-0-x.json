@@ -37,10 +37,13 @@
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/#MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
           "platforms": [
-            "NT4", "NT4_B", "Win95", "Win98", "Win2000",
+            "Win95", "Win98", "WinME",
+            "NT4", "NT4_B", "Win2000",
             "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32",
-            "WinME", "Vista_64", "Vista_32",
-            "Win8_1_64", "Win8_1_32", "Win8_64", "Win8_32", "Win7_64", "Win7_32"
+            "Vista_64", "Vista_32",
+            "Win7_64", "Win7_32",
+            "Win8_64", "Win8_32",
+            "Win8_1_64", "Win8_1_32"
           ]
         },
         {
@@ -56,7 +59,8 @@
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/#MAJORVER#.#MINORVER#*",
           "device": "general Desktop",
           "platforms": [
-            "FreeBSD_386", "FreeBSD", "NetBSD", "DragonFlyBSD", "HPUX", "IRIX64",
+            "FreeBSD_386", "FreeBSD_64_2", "FreeBSD",
+            "NetBSD", "DragonFlyBSD", "HPUX", "IRIX64",
             "OpenBSD", "SunOS", "OS2", "BeOS"
           ]
         },
@@ -68,20 +72,6 @@
           "device": "Windows Desktop",
           "platforms": [
             "WinXPa_32"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/#MAJORVER#.#MINORVER#*",
-          "device": "Linux Desktop",
-          "platforms": [
-            "Linux"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/#MAJORVER#.#MINORVER#*",
-          "device": "general Desktop",
-          "platforms": [
-            "SunOS"
           ]
         }
       ]

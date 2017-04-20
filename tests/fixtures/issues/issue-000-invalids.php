@@ -8,7 +8,7 @@
  */
 
 $invalidUserAgents = [
-    // There was no 3.x release of the Firefox for Android browser. Versioning jumped from 2.x to 4.x, as
+    // There was no 3.x release of the Firefox for Android browser. Versioning jumped from 1.x to 4.x, as
     // described here: http://starkravingfinkle.org/blog/2010/09/fennec-4-0-new-and-notable/
     // and here: https://en.wikipedia.org/wiki/Firefox_for_Android#History
     'issue-000-invalids-A' => 'Mozilla/5.0 (Android; U; Android; pl; rv:1.9.2.8) Gecko/20100202 Firefox/3.5.8',
@@ -36,6 +36,12 @@ $invalidUserAgents = [
     'issue-000-invalids-K' => 'Mozilla/5.0 (compatible; MSIE 9.11; Windows NT 6.2; Trident/5.0)',
     // Seamonkey is Firefox/Gecko based, not Safari/WebKit
     'issue-000-invalids-L' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Safari/537.36 Firefox/42.0 SeaMonkey/2.39a1',
+    // Firefox does not use the "Mozilla/6.0" prefix
+    'issue-000-invalids-M' => 'Mozilla/6.0 (Windows NT 6.2; WOW64; rv:16.0.1) Gecko/20121011 Firefox/16.0.1',
+    // In addition to the prefix being wrong (like above), the Gecko version and Firefox version don't match
+    'issue-000-invalids-N' => 'Mozilla/6.0 (Macintosh; I; Intel Mac OS X 11_7_9; de-LI; rv:1.9b4) Gecko/2012010317 Firefox/10.0a4',
+    // This is probably supposed to be a Firefox useragent, but is lacking the "Firefox" identifier, which is invalid
+    'issue-000-invalids-O' => 'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:29.0) Gecko/20100101 /',
 ];
 
 $testCases = [];

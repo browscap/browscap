@@ -1073,9 +1073,9 @@ return [
             'Version' => '2.0',
             'MajorVer' => '2',
             'MinorVer' => '0',
-            'Platform' => 'MacPPC',
-            'Platform_Version' => 'unknown',
-            'Platform_Description' => 'Mac OS for Power PC',
+            'Platform' => 'MacOSX',
+            'Platform_Version' => '10',
+            'Platform_Description' => 'Mac OS X for Power PC',
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Apple Inc',
             'Alpha' => false,
@@ -5251,7 +5251,7 @@ return [
     'issue-492-DA' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; rv:24.0) Gecko/20140329 Firefox/24.0 PaleMoon/24.4.2',
         'properties' => [
-            'Comment' => 'Palemoon 24.4',
+            'Comment' => 'PaleMoon 24.4',
             'Browser' => 'PaleMoon',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',

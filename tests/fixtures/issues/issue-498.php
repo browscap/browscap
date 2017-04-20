@@ -1912,7 +1912,7 @@ return [
     'issue-498-AL' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:24.9) Gecko/20100101 Firefox/24.9 PaleMoon/24.9',
         'properties' => [
-            'Comment' => 'Palemoon 24.9',
+            'Comment' => 'PaleMoon 24.9',
             'Browser' => 'PaleMoon',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',

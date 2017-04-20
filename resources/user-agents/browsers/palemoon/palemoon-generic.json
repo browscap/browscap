@@ -1,15 +1,15 @@
 {
-  "division": "Palemoon Generic",
+  "division": "PaleMoon Generic",
   "sortIndex": 2665,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "Palemoon Generic",
+      "userAgent": "PaleMoon Generic",
       "device": "general Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Palemoon Generic",
+        "Comment": "PaleMoon Generic",
         "Browser": "PaleMoon",
         "Browser_Type": "Browser",
         "Browser_Maker": "Moonchild Productions",
@@ -147,6 +147,40 @@
             "Win8_x64", "Win8_64", "Win8_32",
             "Win10_x64", "Win10_64", "Win10_32",
             "Win10_x64_B", "Win10_64_B", "Win10_32_B"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "PaleMoon Generic for Android",
+      "platform": "Android",
+      "engine": "Gecko",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "PaleMoon Generic",
+        "Browser": "PaleMoon",
+        "Browser_Maker": "Moonchild Productions",
+        "Browser_Type": "Browser",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* PaleMoon/*",
+          "platforms": [
+            "AndroidMobile"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* PaleMoon/*",
+          "device": "general Tablet",
+          "platforms": [
+            "AndroidTablet"
           ]
         }
       ]

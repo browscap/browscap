@@ -799,7 +799,7 @@ return [
     'issue-810-Q' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:25.7) Gecko/20151012 Firefox/31.9 PaleMoon/25.7.3',
         'properties' => [
-            'Comment' => 'Palemoon 25.7',
+            'Comment' => 'PaleMoon 25.7',
             'Browser' => 'PaleMoon',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '64',
@@ -1382,7 +1382,7 @@ return [
     'issue-810-AC' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:25.7) Gecko/20151012 Firefox/31.9 PaleMoon/25.7.3',
         'properties' => [
-            'Comment' => 'Palemoon 25.7',
+            'Comment' => 'PaleMoon 25.7',
             'Browser' => 'PaleMoon',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
