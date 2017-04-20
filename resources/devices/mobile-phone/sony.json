@@ -363,6 +363,19 @@
             "isTablet": "false"
         }
     },
+    "Sony F5321": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "F5321",
+            "Device_Name": "Xperia X Compact",
+            "Device_Maker": "Sony",
+            "Device_Brand_Name": "Sony",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Sony L36h": {
         "standard": false,
         "properties": {
