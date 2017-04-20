@@ -37,8 +37,10 @@
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/#MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
           "platforms": [
-            "NT4_B", "Win98", "Win2000", "WinXPa_x64_2", "WinXPa_32",
-            "WinXPb_x64_2", "WinXPb_32", "Vista_x64_2", "Vista_32", "Win7_x64_2", "Win7_32",
+            "Win2000",
+            "WinXPa_x64_2", "WinXPa_32", "WinXPb_x64_2", "WinXPb_32",
+            "Vista_x64_2", "Vista_32",
+            "Win7_x64_2", "Win7_32",
             "Win8_64", "Win8_32", "Win8_1_64", "Win8_1_32"
           ]
         },
@@ -47,15 +49,19 @@
           "device": "Macintosh",
           "platforms": [
             "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
-            "OSX",
-            "MacPPC_3"
+            "OSX_PPC_10_4", "OSX_PPC",
+            "MacPPC",
+            "OSX"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/#MAJORVER#.#MINORVER#*",
           "device": "general Desktop",
           "platforms": [
-            "FreeBSD", "HPUX", "IRIX64", "OpenBSD", "SunOS", "OS2", "NetBSD", "DragonFlyBSD"
+            "FreeBSD", "FreeBSD_386",
+            "HPUX", "IRIX64",
+            "OpenBSD_64_2", "OpenBSD",
+            "SunOS", "OS2", "NetBSD", "DragonFlyBSD"
           ]
         },
         {
@@ -69,8 +75,10 @@
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Shiretoko/#MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
           "platforms": [
-            "NT4_B", "Win2000", "WinXPa_x64_2", "WinXPa_32",
-            "WinXPb_x64_2", "WinXPb_32", "Vista_x64_2", "Vista_32", "Win7_x64_2", "Win7_32",
+            "Win2000",
+            "WinXPa_x64_2", "WinXPa_32", "WinXPb_x64_2", "WinXPb_32",
+            "Vista_x64_2", "Vista_32",
+            "Win7_x64_2", "Win7_32",
             "Win8_64", "Win8_32", "Win8_1_64", "Win8_1_32"
           ]
         },
@@ -79,13 +87,6 @@
           "device": "general Desktop",
           "platforms": [
             "Darwin"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#; rv:1.9.1*) Gecko* Firefox *",
-          "device": "Windows Desktop",
-          "platforms": [
-            "Vista_32", "Win7_32"
           ]
         }
       ]

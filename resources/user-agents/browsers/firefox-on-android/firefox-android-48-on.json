@@ -1,0 +1,54 @@
+{
+  "division": "Firefox #MAJORVER#.#MINORVER# for Android",
+  "versions": [55, 54, 53, 52, 51, "50.1", 50, 49, 48],
+  "sortIndex": 3160,
+  "lite": true,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Firefox #MAJORVER#.#MINORVER# for Android",
+      "platform": "Android",
+      "engine": "Gecko_Dynamic",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Firefox #MAJORVER#.#MINORVER#",
+        "Browser": "Firefox",
+        "Browser_Maker": "Mozilla Foundation",
+        "Browser_Type": "Browser",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "AndroidMobile_4_0", "AndroidMobile_4_1", "AndroidMobile_4_2", "AndroidMobile_4_3", "AndroidMobile_4_4",
+            "AndroidMobile_5_0", "AndroidMobile_5_1",
+            "AndroidMobile_6_0", "AndroidMobile_6_1",
+            "AndroidMobile_7_0", "AndroidMobile_7_1",
+            "AndroidMobile"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/#MAJORVER#.#MINORVER#*",
+          "device": "general Tablet",
+          "platforms": [
+            "AndroidTablet_4_0", "AndroidTablet_4_1", "AndroidTablet_4_2", "AndroidTablet_4_3", "AndroidTablet_4_4",
+            "AndroidTablet_5_0", "AndroidTablet_5_1",
+            "AndroidTablet_6_0", "AndroidTablet_6_1",
+            "AndroidTablet_7_0", "AndroidTablet_7_1",
+            "AndroidTablet"
+          ]
+        }
+      ]
+    }
+  ]
+}

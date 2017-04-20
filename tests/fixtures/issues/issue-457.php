@@ -4,7 +4,7 @@ return [
     'issue-457' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:25.0) Gecko/20141005 PaleMoon/25.0.0',
         'properties' => [
-            'Comment' => 'Palemoon 25.0',
+            'Comment' => 'PaleMoon 25.0',
             'Browser' => 'PaleMoon',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',

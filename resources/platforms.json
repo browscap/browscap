@@ -294,6 +294,30 @@
         "Platform_Description": "Mac OS X for Power PC"
       }
     },
+    "OSX_PPC_2": {
+      "match": "*Macintosh*PPC Mac OS X*",
+      "lite": false,
+      "standard": false,
+      "inherits": "OSX_PPC"
+    },
+    "OSX_PPC_10_4": {
+      "match": "*PPC Mac OS X 10.4*",
+      "lite": false,
+      "standard": false,
+      "inherits": "OSX_PPC",
+      "properties": {
+        "Platform_Version": "10.4"
+      }
+    },
+    "OSX_PPC_10_5": {
+      "match": "*PPC Mac OS X 10.5*",
+      "lite": false,
+      "standard": false,
+      "inherits": "OSX_PPC",
+      "properties": {
+        "Platform_Version": "10.5"
+      }
+    },
     "MacPPC": {
       "match": "*PPC*",
       "lite": false,
@@ -1662,6 +1686,24 @@
         "Platform_Version": "8.04"
       }
     },
+    "Ubuntu_08_10": {
+      "match": "*Ubuntu/8.10*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Ubuntu",
+      "properties": {
+        "Platform_Version": "8.10"
+      }
+    },
+    "Ubuntu_09_25": {
+      "match": "*Ubuntu/9.25*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Ubuntu",
+      "properties": {
+        "Platform_Version": "9.25"
+      }
+    },
     "Ubuntu_10_04": {
       "match": "*Ubuntu/10.04*",
       "lite": false,
@@ -1733,6 +1775,17 @@
       "inherits": "Ubuntu",
       "properties": {
         "Platform_Version": "8.04",
+        "Browser_Bits": "64",
+        "Platform_Bits": "64"
+      }
+    },
+    "Ubuntu_08_10_64": {
+      "match": "*Ubuntu/8.10*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Ubuntu",
+      "properties": {
+        "Platform_Version": "8.10",
         "Browser_Bits": "64",
         "Platform_Bits": "64"
       }
@@ -3566,6 +3619,42 @@
         "Platform_Description": "Android OS for GoogleTV"
       }
     },
+    "AndroidMobile_2_0": {
+      "match": "*Android 2.0*Mobile*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "2.0"
+      }
+    },
+    "AndroidMobile_2_1": {
+      "match": "*Android 2.1*Mobile*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "2.1"
+      }
+    },
+    "AndroidMobile_2_2": {
+      "match": "*Android 2.2*Mobile*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "2.2"
+      }
+    },
+    "AndroidMobile_2_3": {
+      "match": "*Android 2.3*Mobile*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "2.3"
+      }
+    },
     "AndroidMobile_4_0": {
       "match": "*Android 4.0*Mobile*",
       "lite": false,
@@ -3629,6 +3718,42 @@
         "Platform_Version": "5.1"
       }
     },
+    "AndroidMobile_6_0": {
+      "match": "*Android 6.0*Mobile*",
+      "lite": false,
+      "standard": true,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "6.0"
+      }
+    },
+    "AndroidMobile_6_1": {
+      "match": "*Android 6.1*Mobile*",
+      "lite": false,
+      "standard": true,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "6.1"
+      }
+    },
+    "AndroidMobile_7_0": {
+      "match": "*Android 7.0*Mobile*",
+      "lite": false,
+      "standard": true,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "7.0"
+      }
+    },
+    "AndroidMobile_7_1": {
+      "match": "*Android 7.1*Mobile*",
+      "lite": false,
+      "standard": true,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "7.1"
+      }
+    },
     "AndroidMobile": {
       "match": "*Android*Mobile*",
       "lite": true,
@@ -3640,6 +3765,69 @@
       "lite": true,
       "standard": true,
       "inherits": "Android"
+    },
+    "AndroidTablet_2_0": {
+      "match": "*Android 2.0*Tablet*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "2.0"
+      }
+    },
+    "AndroidTablet_2_1": {
+      "match": "*Android 2.1*Tablet*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "2.1"
+      }
+    },
+    "AndroidTablet_2_2": {
+      "match": "*Android 2.2*Tablet*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "2.2"
+      }
+    },
+    "AndroidTablet_2_3": {
+      "match": "*Android 2.3*Tablet*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "2.3"
+      }
+    },
+    "AndroidTablet_3_0": {
+      "match": "*Android 3.0*Tablet*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "3.0"
+      }
+    },
+    "AndroidTablet_3_1": {
+      "match": "*Android 3.1*Tablet*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "3.1"
+      }
+    },
+    "AndroidTablet_3_2": {
+      "match": "*Android 3.2*Tablet*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "3.2"
+      }
     },
     "AndroidTablet_4_0": {
       "match": "*Android 4.0*Tablet*",
@@ -3702,6 +3890,42 @@
       "inherits": "Android",
       "properties": {
         "Platform_Version": "5.1"
+      }
+    },
+    "AndroidTablet_6_0": {
+      "match": "*Android 6.0*Tablet*",
+      "lite": false,
+      "standard": true,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "6.0"
+      }
+    },
+    "AndroidTablet_6_1": {
+      "match": "*Android 6.1*Tablet*",
+      "lite": false,
+      "standard": true,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "6.1"
+      }
+    },
+    "AndroidTablet_7_0": {
+      "match": "*Android 7.0*Tablet*",
+      "lite": false,
+      "standard": true,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "7.0"
+      }
+    },
+    "AndroidTablet_7_1": {
+      "match": "*Android 7.1*Tablet*",
+      "lite": false,
+      "standard": true,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "7.1"
       }
     },
     "AndroidTablet": {
@@ -3847,6 +4071,16 @@
         "Platform_Bits": "64"
       }
     },
+    "OpenBSD_64_3": {
+      "match": "*OpenBSD sparc64*",
+      "lite": false,
+      "standard": false,
+      "inherits": "OpenBSD",
+      "properties": {
+        "Browser_Bits": "64",
+        "Platform_Bits": "64"
+      }
+    },
     "NetBSD": {
       "match": "*NetBSD*",
       "lite": false,
@@ -3887,6 +4121,22 @@
         "Win64": "false",
         "Browser_Bits": "32",
         "Platform_Bits": "32"
+      }
+    },
+    "DragonFlyBSD_64": {
+      "match": "*DragonFly x86_64*",
+      "lite": false,
+      "standard": true,
+      "properties": {
+        "Platform": "DragonFly BSD",
+        "Platform_Maker": "unknown",
+        "Platform_Description": "DragonFlyBSD",
+        "Platform_Version": "unknown",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Browser_Bits": "64",
+        "Platform_Bits": "64"
       }
     },
     "SunOS": {

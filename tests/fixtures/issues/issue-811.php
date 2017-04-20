@@ -57,7 +57,7 @@ return [
     'issue-811-B' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:26.0.0b2) Goanna/20150828 Gecko/20100101 AppleWebKit/601.1.37 (KHTML, like Gecko) Version/9.0 Safari/601.1.37 PaleMoon/26.0.0b2',
         'properties' => [
-            'Comment' => 'Palemoon 26.0',
+            'Comment' => 'PaleMoon 26.0',
             'Browser' => 'PaleMoon',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '64',

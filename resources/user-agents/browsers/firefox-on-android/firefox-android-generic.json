@@ -1,0 +1,85 @@
+{
+  "division": "Firefox Generic for Android",
+  "sortIndex": 3174,
+  "lite": true,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Firefox Generic for Android",
+      "platform": "Android",
+      "engine": "Gecko",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Firefox Generic",
+        "Browser": "Firefox",
+        "Browser_Maker": "Mozilla Foundation",
+        "Browser_Type": "Browser",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/*",
+          "platforms": [
+            "AndroidMobile_2_0", "AndroidMobile_2_1", "AndroidMobile_2_2", "AndroidMobile_2_3",
+            "AndroidMobile_4_0", "AndroidMobile_4_1", "AndroidMobile_4_2", "AndroidMobile_4_3", "AndroidMobile_4_4",
+            "AndroidMobile_5_0", "AndroidMobile_5_1",
+            "AndroidMobile_6_0", "AndroidMobile_6_1",
+            "AndroidMobile_7_0", "AndroidMobile_7_1",
+            "AndroidMobile"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/*",
+          "device": "general Tablet",
+          "platforms": [
+            "AndroidTablet_2_0", "AndroidTablet_2_1", "AndroidTablet_2_2", "AndroidTablet_2_3",
+            "AndroidTablet_3_0", "AndroidTablet_3_1", "AndroidTablet_3_2",
+            "AndroidTablet_4_0", "AndroidTablet_4_1", "AndroidTablet_4_2", "AndroidTablet_4_3", "AndroidTablet_4_4",
+            "AndroidTablet_5_0", "AndroidTablet_5_1",
+            "AndroidTablet_6_0", "AndroidTablet_6_1",
+            "AndroidTablet_7_0", "AndroidTablet_7_1",
+            "AndroidTablet"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#)*Gecko*Firefox/*",
+          "platforms": [
+            "AndroidMobile"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#)*Gecko*Firefox/* anonymized by Abelssoft*",
+          "properties": {
+            "isAnonymized": "true"
+          },
+          "platforms": [
+            "AndroidMobile"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#)*Gecko*Firefox/*",
+          "device": "general Tablet",
+          "platforms": [
+            "AndroidTablet"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#)*Gecko*Firefox/* anonymized by Abelssoft*",
+          "properties": {
+            "isAnonymized": "true"
+          },
+          "device": "general Tablet",
+          "platforms": [
+            "AndroidTablet"
+          ]
+        }
+      ]
+    }
+  ]
+}

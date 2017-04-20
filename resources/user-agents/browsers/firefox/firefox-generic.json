@@ -26,7 +26,7 @@
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/*",
           "device": "Linux Desktop",
           "platforms": [
-            "Ubuntu_64", "Ubuntu_12_04", "Ubuntu_32", "Ubuntu",
+            "Ubuntu_64", "Ubuntu_32", "Ubuntu",
             "Linux_32_on_x64", "Linux_64", "Linux_32", "Linux"
           ]
         },
@@ -34,38 +34,42 @@
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/*",
           "device": "Windows Desktop",
           "platforms": [
-            "NT4", "Win2000_64", "Win2000", "NT4_1",
+            "Win98", "Win95", "WinME",
+            "NT4", "NT4_B", "NT4_1",
+            "Win2000_64", "Win2000",
             "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32",
             "Vista_x64", "Vista_64", "Vista_32",
             "Win7_x64", "Win7_64", "Win7_32",
             "Win8_x64", "Win8_64", "Win8_32",
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
-            "Win10_x64", "Win10_64", "Win10_32",
-            "Win10_x64_B", "Win10_64_B", "Win10_32_B"
+            "Win10_x64", "Win10_64", "Win10_32", "Win10_x64_B", "Win10_64_B", "Win10_32_B"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/*",
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
-            "OSX_10_11",
+            "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10", "OSX_10_11",
+            "OSX_10_12",
             "OSX",
-            "MacPPC_3"
+            "MacPPC"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/*",
           "device": "general Desktop",
           "platforms": [
-            "FreeBSD_64", "FreeBSD", "HPUX", "IRIX64", "OpenBSD_64_2", "OpenBSD", "SunOS", "OS2"
+            "FreeBSD_64", "FreeBSD",
+            "OpenBSD_64", "OpenBSD",
+            "NetBSD", "DragonFlyBSD",
+            "HPUX", "IRIX64", "BeOS", "SunOS", "OS2"
           ]
         },
         {
           "match": "Mozilla/4.0 (#PLATFORM#) Gecko* Firefox/*",
           "device": "Linux Desktop",
           "platforms": [
-            "Ubuntu_64", "Ubuntu_12_04", "Ubuntu_32", "Ubuntu",
+            "Ubuntu_64", "Ubuntu_32", "Ubuntu",
             "Linux_32_on_x64", "Linux_64", "Linux_32", "Linux"
           ]
         },
@@ -73,30 +77,35 @@
           "match": "Mozilla/4.0 (#PLATFORM#) Gecko* Firefox/*",
           "device": "Windows Desktop",
           "platforms": [
-            "NT4", "Win2000_64", "Win2000", "NT4_1",
+            "Win98", "Win95", "WinME",
+            "NT4", "NT4_B", "NT4_1",
+            "Win2000_64", "Win2000",
             "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32",
             "Vista_x64", "Vista_64", "Vista_32",
             "Win7_x64", "Win7_64", "Win7_32",
             "Win8_x64", "Win8_64", "Win8_32",
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
-            "Win10_x64", "Win10_64", "Win10_32",
-            "Win10_x64_B", "Win10_64_B", "Win10_32_B"
+            "Win10_x64", "Win10_64", "Win10_32", "Win10_x64_B", "Win10_64_B", "Win10_32_B"
           ]
         },
         {
           "match": "Mozilla/4.0 (#PLATFORM#) Gecko* Firefox/*",
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
-            "OSX_10_11",
-            "OSX"
+            "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10", "OSX_10_11",
+            "OSX_10_12",
+            "OSX",
+            "MacPPC"
           ]
         },
         {
           "match": "Mozilla/4.0 (#PLATFORM#) Gecko* Firefox/*",
           "device": "general Desktop",
           "platforms": [
-            "FreeBSD_64", "FreeBSD", "HPUX", "IRIX64", "OpenBSD_64_2", "OpenBSD", "SunOS", "OS2"
+            "FreeBSD_64", "FreeBSD_64_2", "FreeBSD_386", "FreeBSD",
+            "OpenBSD_64_2", "OpenBSD",
+            "NetBSD_64_2", "NetBSD", "DragonFlyBSD",
+            "HPUX", "IRIX64", "BeOS", "SunOS", "OS2"
           ]
         },
         {
@@ -147,13 +156,6 @@
           "device": "general Desktop"
         },
         {
-          "match": "* Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/*",
-          "device": "Windows Desktop",
-          "platforms": [
-            "Win7_64"
-          ]
-        },
-        {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko*/*Mozilla/5.0*",
           "device": "Windows Desktop",
           "platforms": [
@@ -168,82 +170,28 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#rv:*) Gecko* Firefox*",
+          "match": "Mozilla/5.0 (#PLATFORM#; rv:1.9.1*) Gecko* Firefox *",
           "device": "Windows Desktop",
           "platforms": [
-            "Win10_x64", "Win10_64", "Win10_32",
-            "Win10_x64_B", "Win10_64_B", "Win10_32_B"
-          ]
-        }
-      ]
-    },
-    {
-      "userAgent": "Firefox Generic for Android",
-      "platform": "Android",
-      "engine": "Gecko",
-      "device": "general Mobile Phone (Touch)",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "Firefox Generic",
-        "Browser": "Firefox",
-        "Browser_Maker": "Mozilla Foundation",
-        "Browser_Type": "Browser",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3"
-      },
-      "children": [
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/*",
-          "platforms": [
-            "AndroidMobile_4_0", "AndroidMobile_4_1", "AndroidMobile_4_2", "AndroidMobile_4_3", "AndroidMobile_4_4",
-            "AndroidMobile_5_0", "AndroidMobile_5_1",
-            "AndroidMobile"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/*",
-          "device": "general Tablet",
-          "platforms": [
-            "AndroidTablet_4_0", "AndroidTablet_4_1", "AndroidTablet_4_2", "AndroidTablet_4_3", "AndroidTablet_4_4",
-            "AndroidTablet_5_0", "AndroidTablet_5_1",
-            "AndroidTablet"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#)*Gecko*Firefox/*",
-          "platforms": [
-            "AndroidMobile"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#)*Gecko*Firefox/ anonymized by Abelssoft*",
+            "WinXPa_32", "Vista_32", "Win7_32", "Win8_32"
+          ],
           "properties": {
-            "isAnonymized": "true"
-          },
-          "platforms": [
-            "AndroidMobile"
-          ]
+            "Version": "3.5",
+            "MajorVer": "3",
+            "MinorVer": "5"
+          }
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#)*Gecko*Firefox/*",
-          "device": "general Tablet",
+          "match": "Mozilla/5.0 (#PLATFORM#; rv:1.9.2*) Gecko* Firefox *",
+          "device": "Windows Desktop",
           "platforms": [
-            "AndroidTablet"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#)*Gecko*Firefox/ anonymized by Abelssoft*",
+            "WinXPa_32", "Vista_32", "Win7_32", "Win8_32"
+          ],
           "properties": {
-            "isAnonymized": "true"
-          },
-          "device": "general Tablet",
-          "platforms": [
-            "AndroidTablet"
-          ]
+            "Version": "3.6",
+            "MajorVer": "3",
+            "MinorVer": "6"
+          }
         }
       ]
     },

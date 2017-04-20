@@ -1223,7 +1223,7 @@ return [
     'issue-539-AH' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0; Win64; x64; rv:25.1) Gecko/20141110 PaleMoon/25.1.0',
         'properties' => [
-            'Comment' => 'Palemoon 25.1',
+            'Comment' => 'PaleMoon 25.1',
             'Browser' => 'PaleMoon',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '64',
@@ -1329,7 +1329,7 @@ return [
     'issue-539-AJ' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; rv:25.1) Gecko/20141110 PaleMoon/25.1.0',
         'properties' => [
-            'Comment' => 'Palemoon 25.1',
+            'Comment' => 'PaleMoon 25.1',
             'Browser' => 'PaleMoon',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -1647,7 +1647,7 @@ return [
     'issue-539-AP' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64; rv:25.1) Gecko/20141127 PaleMoon/25.1.0',
         'properties' => [
-            'Comment' => 'Palemoon 25.1',
+            'Comment' => 'PaleMoon 25.1',
             'Browser' => 'PaleMoon',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '64',

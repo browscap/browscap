@@ -57,7 +57,7 @@
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* SeaMonkey/#MAJORVER#.#MINORVER#*",
           "device": "general Desktop",
           "platforms": [
-            "FreeBSD", "OpenBSD_64_2", "OpenBSD", "SunOS", "OS2"
+            "FreeBSD", "OpenBSD_64_2", "OpenBSD", "SunOS", "OS2", "DragonFlyBSD", "DragonFlyBSD_64"
           ]
         },
         {
@@ -91,7 +91,7 @@
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* SeaMonkey/#MAJORVER#.#MINORVER#*",
           "device": "general Desktop",
           "platforms": [
-            "FreeBSD", "OpenBSD_64_2", "OpenBSD", "SunOS", "OS2"
+            "FreeBSD", "OpenBSD_64_2", "OpenBSD", "SunOS", "OS2", "DragonFlyBSD", "DragonFlyBSD_64"
           ]
         }
       ]

@@ -15,7 +15,7 @@ return [
             'MinorVer' => '6',
             'Platform' => 'MacOSX',
             'Platform_Version' => '10.5',
-            'Platform_Description' => 'Mac OS X',
+            'Platform_Description' => 'Mac OS X for Power PC',
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Apple Inc',
             'Alpha' => false,

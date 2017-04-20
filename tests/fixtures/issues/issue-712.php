@@ -6894,7 +6894,7 @@ return [
     'issue-712-ES' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; rv:25.5) Gecko/20150607 Firefox/31.9 PaleMoon/25.5.0',
         'properties' => [
-            'Comment' => 'Palemoon 25.5',
+            'Comment' => 'PaleMoon 25.5',
             'Browser' => 'PaleMoon',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',

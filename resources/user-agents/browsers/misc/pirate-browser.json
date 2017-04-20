@@ -1,0 +1,40 @@
+{
+  "division": "Pirate Browser",
+  "sortIndex": 3162,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Pirate Browser",
+      "device": "Windows Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Pirate Browser",
+        "Browser": "Pirate Browser",
+        "Browser_Maker": "Pirate Bay",
+        "Browser_Type": "Browser",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "PB0.6b Mozilla/5.0 (Windows NT 6.1; WOW64; rv:23.0) Gecko/20100101 Firefox/23.0",
+          "engine": "Gecko_23",
+          "properties": {
+            "Version": "0.6",
+            "MajorVer": "0",
+            "MinorVer": "6",
+            "Beta": "true"
+          },
+          "platforms": [
+            "Win7_64"
+          ]
+        }
+      ]
+    }
+  ]
+}

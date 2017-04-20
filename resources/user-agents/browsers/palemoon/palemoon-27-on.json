@@ -1,17 +1,17 @@
 {
-  "division": "Palemoon #MAJORVER#.#MINORVER#",
+  "division": "PaleMoon #MAJORVER#.#MINORVER#",
   "versions": ["27.1", 27],
   "sortIndex": 2658,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "Palemoon #MAJORVER#.#MINORVER#",
+      "userAgent": "PaleMoon #MAJORVER#.#MINORVER#",
       "device": "general Desktop",
       "engine": "Goanna_3",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Palemoon #MAJORVER#.#MINORVER#",
+        "Comment": "PaleMoon #MAJORVER#.#MINORVER#",
         "Browser": "PaleMoon",
         "Version": "#MAJORVER#.#MINORVER#",
         "MajorVer": "#MAJORVER#",

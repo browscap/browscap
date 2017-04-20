@@ -30,7 +30,7 @@
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/#MAJORVER#.#MINORVER#*",
           "device": "Linux Desktop",
           "platforms": [
-            "Ubuntu_64", "Ubuntu_12_04", "Ubuntu_32", "Ubuntu",
+            "Ubuntu_64", "Ubuntu_32", "Ubuntu",
             "Linux_32_on_x64", "Linux_64", "Linux_32", "Linux"
           ]
         },
@@ -41,18 +41,15 @@
             "Win7_x64", "Win7_64", "Win7_32",
             "Win8_x64", "Win8_64", "Win8_32",
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
-            "Win10_x64", "Win10_64", "Win10_32",
-            "Win10_x64_B", "Win10_64_B", "Win10_32_B"
+            "Win10_x64", "Win10_64", "Win10_32", "Win10_x64_B", "Win10_64_B", "Win10_32_B"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/#MAJORVER#.#MINORVER#*",
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
-            "OSX_10_11", "OSX_10_12",
-            "OSX",
-            "MacPPC_3"
+            "OSX_10_9", "OSX_10_10", "OSX_10_11", "OSX_10_12",
+            "OSX"
           ]
         },
         {
@@ -77,16 +74,14 @@
             "Win7_x64", "Win7_64", "Win7_32",
             "Win8_x64", "Win8_64", "Win8_32",
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
-            "Win10_x64", "Win10_64", "Win10_32",
-            "Win10_x64_B", "Win10_64_B", "Win10_32_B"
+            "Win10_x64", "Win10_64", "Win10_32", "Win10_x64_B", "Win10_64_B", "Win10_32_B"
           ]
         },
         {
           "match": "Mozilla/4.0 (#PLATFORM#) Gecko* Firefox/#MAJORVER#.#MINORVER#*",
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
-            "OSX_10_11",
+            "OSX_10_9", "OSX_10_10", "OSX_10_11", "OSX_10_12",
             "OSX"
           ]
         },
@@ -104,7 +99,8 @@
           },
           "device": "Windows Desktop",
           "platforms": [
-            "Win7_32", "Windows"
+            "WinXPa_32", "Vista_32", "Win7_32", "Win8_32",
+            "Windows"
           ]
         },
         {
@@ -124,6 +120,7 @@
           },
           "device": "Windows Desktop",
           "platforms": [
+            "Win95_2", "Win7_32",
             "Windows"
           ]
         },
@@ -145,127 +142,21 @@
           "device": "general Desktop"
         },
         {
-          "match": "* Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/#MAJORVER#.#MINORVER#*",
-          "device": "Windows Desktop",
-          "platforms": [
-            "Win7_64"
-          ]
-        },
-        {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko*/#MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
           "platforms": [
             "Win7_x64", "Win7_64", "Win7_32",
             "Win8_x64", "Win8_64", "Win8_32",
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
-            "Win10_x64", "Win10_64", "Win10_32",
-            "Win10_x64_B", "Win10_64_B", "Win10_32_B"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#rv:#MAJORVER#.#MINORVER#*) Gecko*/",
-          "device": "Windows Desktop",
-          "platforms": [
-            "Win7_x64", "Win7_64", "Win7_32",
-            "Win8_x64", "Win8_64", "Win8_32",
-            "Win8_1_x64", "Win8_1_64", "Win8_1_32",
-            "Win10_x64", "Win10_64", "Win10_32",
-            "Win10_x64_B", "Win10_64_B", "Win10_32_B"
+            "Win10_x64", "Win10_64", "Win10_32", "Win10_x64_B", "Win10_64_B", "Win10_32_B"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko*/#MAJORVER#.#MINORVER#*",
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
-            "OSX_10_11",
+            "OSX_10_9", "OSX_10_10", "OSX_10_11", "OSX_10_12",
             "OSX"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#rv:#MAJORVER#.#MINORVER#*) Gecko* Firefox*",
-          "device": "Windows Desktop",
-          "platforms": [
-            "Win10_x64", "Win10_64", "Win10_32",
-            "Win10_x64_B", "Win10_64_B", "Win10_32_B"
-          ]
-        }
-      ]
-    },
-    {
-      "userAgent": "Firefox #MAJORVER#.#MINORVER# for Android",
-      "platform": "Android",
-      "engine": "Gecko_Dynamic",
-      "device": "general Mobile Phone (Touch)",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "Firefox #MAJORVER#.#MINORVER#",
-        "Browser": "Firefox",
-        "Browser_Maker": "Mozilla Foundation",
-        "Browser_Type": "Browser",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3"
-      },
-      "children": [
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/#MAJORVER#.*",
-          "platforms": [
-            "AndroidMobile_4_0", "AndroidMobile_4_1", "AndroidMobile_4_2", "AndroidMobile_4_3", "AndroidMobile_4_4",
-            "AndroidMobile_5_0", "AndroidMobile_5_1",
-            "AndroidMobile"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/#MAJORVER#.*",
-          "device": "general Tablet",
-          "platforms": [
-            "AndroidTablet_4_0", "AndroidTablet_4_1", "AndroidTablet_4_2", "AndroidTablet_4_3", "AndroidTablet_4_4",
-            "AndroidTablet_5_0", "AndroidTablet_5_1",
-            "AndroidTablet"
-          ]
-        }
-      ]
-    },
-    {
-      "userAgent": "Firefox #MAJORVER#.#MINORVER# for Maemo",
-      "engine": "Gecko_Dynamic",
-      "device": "general Mobile Phone",
-      "platform": "Maemo",
-      "properties": {
-        "Parent": "DefaultProperties",
-        "Comment": "Firefox #MAJORVER#.#MINORVER#",
-        "Browser": "Firefox",
-        "Browser_Maker": "Mozilla Foundation",
-        "Browser_Type": "Browser",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3"
-      },
-      "children": [
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/#MAJORVER#.#MINORVER#* MB860*",
-          "device": "Motorola MB860",
-          "platforms": [
-            "Maemo_ARM"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/#MAJORVER#.#MINORVER#*",
-          "platforms": [
-            "Maemo_ARM"
           ]
         }
       ]

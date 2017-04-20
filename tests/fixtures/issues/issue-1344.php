@@ -958,7 +958,7 @@ return [
     'issue-1344-S' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:25.4) Gecko/20150502 PaleMoon/25.4.0b3',
         'properties' => [
-            'Comment' => 'Palemoon 25.4',
+            'Comment' => 'PaleMoon 25.4',
             'Browser' => 'PaleMoon',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
