@@ -71,8 +71,11 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "devices": {
+            "E5823": "Sony E5823",
+            "F5321": "Sony F5321",
             "HUAWEI NXT-AL10": "Huawei NXT-AL10",
-            "Pixel C": "Google Pixel C"
+            "Pixel C": "Google Pixel C",
+            "SM-G935F": "Samsung SM-G935F"
           },
           "platforms": [
             "Android_7_0"
@@ -1455,7 +1458,8 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM# Build/*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "platforms": [
-            "Android_6_0",
+            "Android_7_1", "Android_7_0",
+            "Android_6_1", "Android_6_0",
             "Android_5_1", "Android_5_0",
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
             "Android"
@@ -1464,7 +1468,8 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "platforms": [
-            "Android_6_0",
+            "Android_7_1", "Android_7_0",
+            "Android_6_1", "Android_6_0",
             "Android_5_1", "Android_5_0",
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
             "Android"
@@ -1500,7 +1505,8 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM# Build/*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari*Chrome*",
           "platforms": [
-            "Android_6_0",
+            "Android_7_1", "Android_7_0",
+            "Android_6_1", "Android_6_0",
             "Android_5_1", "Android_5_0",
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
             "Android"
@@ -1509,7 +1515,8 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari*Chrome*",
           "platforms": [
-            "Android_6_0",
+            "Android_7_1", "Android_7_0",
+            "Android_6_1", "Android_6_0",
             "Android_5_1", "Android_5_0",
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
             "Android"

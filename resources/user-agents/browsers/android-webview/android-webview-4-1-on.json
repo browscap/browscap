@@ -1447,7 +1447,8 @@
         {
           "match": "*Mozilla/5.0 (#PLATFORM#) applewebkit*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "platforms": [
-            "Android_6_0",
+            "Android_7_1", "Android_7_0",
+            "Android_6_1", "Android_6_0",
             "Android_5_1", "Android_5_0",
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
             "Android"
@@ -1456,7 +1457,8 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM# Build/*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "platforms": [
-            "Android_6_0",
+            "Android_7_1", "Android_7_0",
+            "Android_6_1", "Android_6_0",
             "Android_5_1", "Android_5_0",
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
             "Android"
@@ -1479,7 +1481,8 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "platforms": [
-            "Android_6_0",
+            "Android_7_1", "Android_7_0",
+            "Android_6_1", "Android_6_0",
             "Android_5_1", "Android_5_0",
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
             "Android"
@@ -1488,7 +1491,8 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM# Build/*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari*Chrome*",
           "platforms": [
-            "Android_6_0",
+            "Android_7_1", "Android_7_0",
+            "Android_6_1", "Android_6_0",
             "Android_5_1", "Android_5_0",
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
             "Android"
@@ -1497,7 +1501,8 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari*Chrome*",
           "platforms": [
-            "Android_6_0",
+            "Android_7_1", "Android_7_0",
+            "Android_6_1", "Android_6_0",
             "Android_5_1", "Android_5_0",
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
             "Android"
