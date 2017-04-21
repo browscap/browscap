@@ -1,0 +1,42 @@
+{
+  "division": "Bing iPad",
+  "sortIndex": 1130,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Bing iPad",
+      "platform": "iOS",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser_Type": "Application",
+        "Browser_Maker": "Microsoft Corporation",
+        "Comment": "Bing iPad",
+        "Browser": "Bing iPad",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "false",
+        "JavaScript": "true",
+        "CssVersion": "3",
+        "Cookies": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*) Mobile/* Safari/* bingipadclient*",
+          "devices": {
+            "iPad": "iPad"
+          },
+          "platforms": [
+            "iOS_C_10_3", "iOS_C_10_2", "iOS_C_10_1", "iOS_C_10_0",
+            "iOS_C_9_3", "iOS_C_9_2", "iOS_C_9_1", "iOS_C_9_0",
+            "iOS_C_8_4", "iOS_C_8_3", "iOS_C_8_2", "iOS_C_8_1", "iOS_C_8_0",
+            "iOS_C"
+          ]
+        }
+      ]
+    }
+  ]
+}
