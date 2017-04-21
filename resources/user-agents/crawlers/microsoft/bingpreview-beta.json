@@ -32,6 +32,7 @@
         },
         {
           "match": "Mozilla/5.0 (compatible; MSIE 9.0; #PLATFORM# Trident/5.0; *BingPreview/#MAJORVER#.#MINORVER#*",
+          "engine": "Trident_5",
           "device": "Windows Desktop",
           "platforms": [
             "Win7_64", "Win7_32"
@@ -40,6 +41,7 @@
         {
           "match": "Mozilla/5.0 (compatible; MSIE 10.0; #PLATFORM# Trident/6.0*)*BingPreview/#MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
+          "engine": "Trident_6",
           "platforms": [
             "Win7_x64", "Win7_64", "Win7_32",
             "Win8_x64", "Win8_64", "Win8_32",
@@ -49,12 +51,58 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#Trident/7.0*rv:11.0; BingPreview/#MAJORVER#.#MINORVER#*",
+          "engine": "Trident_7",
           "device": "Windows Desktop",
           "platforms": [
             "Win7_x64", "Win7_64", "Win7_32",
             "Win8_x64", "Win8_64", "Win8_32",
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
             "Win10_x64", "Win10_64", "Win10_32", "Win10_x64_B", "Win10_64_B", "Win10_32_B"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* Edge/* BingPreview/#MAJORVER#.#MINORVER#*",
+          "engine": "Edge",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win10_x64_B"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "BingPreview for Windows Phone #MAJORVER#.#MINORVER#",
+      "engine": "Trident",
+      "device": "general Mobile Device",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "Microsoft Corporation",
+        "Comment": "BingPreview for Windows Phone #MAJORVER#.#MINORVER#",
+        "Browser": "BingPreview",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Beta": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM# Trident/7.* IEMobile/*) like Gecko BingPreview/#MAJORVER#.#MINORVER#*",
+          "engine": "Trident_7",
+          "platforms": [
+            "WinPhone8.1",
+            "WinPhone"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM# Trident/* IEMobile/*) like Gecko BingPreview/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "WinPhone8.1",
+            "WinPhone"
           ]
         }
       ]
@@ -80,54 +128,22 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0*(iPad#PLATFORM#)*applewebkit*(*KHTML? like Gecko*)*Version/*Safari/* BingPreview/#MAJORVER#.#MINORVER#*",
-          "device": "iPad",
+          "match": "Mozilla/5.0*(#DEVICE##PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/*Safari/* BingPreview/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "iPad": "iPad",
+            "iPhone": "iPhone",
+            "iPod": "iPod Touch"
+          },
           "platforms": [
-            "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
-            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0", "iOS_A_8_0_B",
-            "iOS_A",
-            "iOS_B",
-            "iOS_C_4_2", "iOS_C_4_3", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0",
-            "iOS_C_8_1", "iOS_C_8_0",
-            "iOS_C"
+            "iOS_A_6_0", "iOS_A_7_0",
+            "iOS_A"
           ]
         },
         {
-          "match": "Mozilla/5.0*(iPhone#PLATFORM#)*applewebkit*(*KHTML? like Gecko*)*Version/*Safari/* BingPreview/#MAJORVER#.#MINORVER#*",
-          "device": "iPhone",
+          "match": "Mozilla/5.0*(#DEVICE##PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/*Safari/* BingPreview/#MAJORVER#.#MINORVER#*",
           "platforms": [
-            "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
-            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0", "iOS_A_8_0_B",
-            "iOS_A",
-            "iOS_B",
-            "iOS_C_4_2", "iOS_C_4_3", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0",
-            "iOS_C_8_1", "iOS_C_8_0",
-            "iOS_C"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0*(iPod#PLATFORM#)*applewebkit*(*KHTML? like Gecko*)*Version/*Safari/* BingPreview/#MAJORVER#.#MINORVER#*",
-          "device": "iPod Touch",
-          "platforms": [
-            "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
-            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0", "iOS_A_8_0_B",
-            "iOS_A",
-            "iOS_B",
-            "iOS_C_4_2", "iOS_C_4_3", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0",
-            "iOS_C_8_1", "iOS_C_8_0",
-            "iOS_C"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0*(#PLATFORM#)*applewebkit*(*KHTML? like Gecko*)*Version/*Safari/* BingPreview/#MAJORVER#.#MINORVER#*",
-          "platforms": [
-            "iOS_A_3_0", "iOS_A_3_1", "iOS_A_3_2", "iOS_A_4_0", "iOS_A_4_1", "iOS_A_4_2", "iOS_A_4_3",
-            "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0", "iOS_A_8_0_B",
-            "iOS_A",
-            "iOS_B",
-            "iOS_C_4_2", "iOS_C_4_3", "iOS_C_5_0", "iOS_C_5_1", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0",
-            "iOS_C_8_1", "iOS_C_8_0",
-            "iOS_C"
+            "iOS_A_6_0", "iOS_A_7_0",
+            "iOS_A"
           ]
         }
       ]
