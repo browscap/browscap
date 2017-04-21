@@ -19,6 +19,36 @@
       },
       "children": [
         {
+          "match": "Mozilla/5.0 (#PLATFORM# Trident/7.* IEMobile/*) like Gecko (compatible; adidxbot/2.0*",
+          "engine": "Trident_7",
+          "device": "general Mobile Device",
+          "platforms": [
+            "WinPhone8.1",
+            "WinPhone"
+          ],
+          "properties": {
+            "Version": "2.0",
+            "MajorVer": "2"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Mobile/* Safari/* (compatible; adidxbot/2.0*",
+          "engine": "WebKit",
+          "devices": {
+            "iPhone": "iPhone",
+            "iPad": "iPad",
+            "iPod": "iPod Touch"
+          },
+          "platforms": [
+            "iOS_A_7_0",
+            "iOS_A"
+          ],
+          "properties": {
+            "Version": "2.0",
+            "MajorVer": "2"
+          }
+        },
+        {
           "match": "Mozilla/5.0 (compatible; adidxbot/2.0; ?http://www.bing.com/bingbot.htm)",
           "properties": {
             "Version": "2.0",

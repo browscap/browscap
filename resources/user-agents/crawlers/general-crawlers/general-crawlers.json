@@ -2791,6 +2791,12 @@
             "Browser": "Datagnion Bot",
             "Browser_Maker": "Datagnion GmbH"
           }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; WebHistoryBot/*",
+          "properties": {
+            "Browser": "WebHistoryBot"
+          }
         }
       ]
     }

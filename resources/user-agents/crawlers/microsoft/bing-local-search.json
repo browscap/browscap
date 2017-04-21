@@ -1,0 +1,31 @@
+{
+  "division": "Bing Local Search",
+  "sortIndex": 1130,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Bing Local Search",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "Microsoft Corporation",
+        "Comment": "Bing Local Search Bot",
+        "Browser": "Bing Local Search Bot",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* (BingLocalSearch)*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win8_1_64"
+          ]
+        }
+      ]
+    }
+  ]
+}

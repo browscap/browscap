@@ -30,6 +30,20 @@
           "match": "Mozilla/5.0 (compatible;*bingbot/*"
         },
         {
+          "match": "Mozilla/5.0 (#PLATFORM# Trident/7.0* IEMobile/*) like Gecko (compatible; bingbot/2.0*",
+          "device": "general Mobile Device",
+          "engine": "Trident_7",
+          "properties": {
+            "Version": "2.0",
+            "MajorVer": "2",
+            "MinorVer": "0"
+          },
+          "platforms": [
+            "WinPhone8.1",
+            "WinPhone"
+          ]
+        },
+        {
           "match": "Mozilla/5.0 (iPhone#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Mobile/* Safari/* (compatible; bingbot/2.0*",
           "device": "iPhone",
           "engine": "WebKit",
@@ -39,7 +53,8 @@
             "MinorVer": "0"
           },
           "platforms": [
-            "iOS_A_7_0", "iOS_A"
+            "iOS_A_7_0",
+            "iOS_A"
           ]
         },
         {
@@ -52,7 +67,8 @@
             "MinorVer": "0"
           },
           "platforms": [
-            "iOS_A_7_0", "iOS_A"
+            "iOS_A_7_0",
+            "iOS_A"
           ]
         },
         {
@@ -60,7 +76,8 @@
           "device": "iPhone",
           "engine": "WebKit",
           "platforms": [
-            "iOS_A_7_0", "iOS_A"
+            "iOS_A_7_0",
+            "iOS_A"
           ]
         },
         {
@@ -68,8 +85,15 @@
           "device": "general Mobile Device (Apple)",
           "engine": "WebKit",
           "platforms": [
-            "iOS_A_7_0", "iOS_A"
+            "iOS_A_7_0",
+            "iOS_A"
           ]
+        },
+        {
+          "match": "BingAdsAdInsight",
+          "properties": {
+            "Browser": "Bing Ads AdInsight Bot"
+          }
         }
       ]
     }
