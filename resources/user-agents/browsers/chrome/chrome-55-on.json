@@ -1,6 +1,6 @@
 {
   "division": "Chrome #MAJORVER#.#MINORVER#",
-  "versions": [57, 56, 55],
+  "versions": [60, 59, 58, 57, 56, 55],
   "sortIndex": 1145,
   "lite": true,
   "standard": true,
