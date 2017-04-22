@@ -32,29 +32,28 @@
       },
       "children": [
         {
-          "match": "HTC_Touch_HD_T8282/480x800 (*compatible*;*MSIE 6.0; Windows CE; IEMobile?#MAJORVER#.#MINORVER#*)",
-          "device": "HTC Touch HD T8282",
+          "match": "#DEVICE#/480x800 (*compatible*;*MSIE 6.0; Windows CE; IEMobile?#MAJORVER#.#MINORVER#*)",
+          "devices": {
+            "HTC_Touch_HD_T8282": "HTC T8282"
+          },
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "Xda_orbit_2/240x320 (*compatible*;*MSIE 6.0; Windows CE; IEMobile?#MAJORVER#.#MINORVER#*",
-          "device": "XDA Orbit2",
+          "match": "#DEVICE#/240x320 (*compatible*;*MSIE 6.0; Windows CE; IEMobile?#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "Xda_orbit_2": "XDA Orbit2"
+          },
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "Xda_Stellar? 240x320 (*compatible*;*MSIE 6.0; Windows CE; IEMobile?#MAJORVER#.#MINORVER#*",
-          "device": "XDA Stellar",
-          "platforms": [
-            "WinCE"
-          ]
-        },
-        {
-          "match": "HTC_TyTN_II Mozilla/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile?#MAJORVER#.#MINORVER#*)",
-          "device": "HTC TyTN II",
+          "match": "#DEVICE#? 240x320 (*compatible*;*MSIE 6.0; Windows CE; IEMobile?#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "Xda_Stellar": "XDA Stellar"
+          },
           "platforms": [
             "WinCE"
           ]
@@ -66,15 +65,43 @@
           ]
         },
         {
-          "match": "Mozilla/4.0 (compatible*; MSIE 6.0; Windows CE; IEMobile?#MAJORVER#.#MINORVER#*) Vodafone/1.0/HTC_Touch_Pro/*",
-          "device": "HTC Touch Pro",
+          "match": "Mozilla/4.0 (compatible*; MSIE 6.0; Windows CE; IEMobile?#MAJORVER#.#MINORVER#*) Vodafone/1.0/#DEVICE#/*",
+          "devices": {
+            "HTC_Touch_Pro": "HTC T7272"
+          },
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "Mozilla/4.0 (compatible*; MSIE 6.0; Windows CE; IEMobile?#MAJORVER#.#MINORVER#*) Sprint:MotoQ9c",
-          "device": "Motorola Q9c",
+          "match": "#DEVICE# Mozilla/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile?#MAJORVER#.#MINORVER#*)",
+          "devices": {
+            "HTC_P3650": "HTC P3650",
+            "HTC_P3700": "HTC P3700",
+            "HTC_Touch_3G_T3232": "HTC T3232",
+            "HTC_Touch_HD_T8282": "HTC T8282",
+            "HTC_Touch_Pro_T7272": "HTC T7272",
+            "HTC_TouchDual": "HTC TouchDual",
+            "HTC_TyTN_II": "HTC P4550"
+          },
+          "platforms": [
+            "WinCE"
+          ]
+        },
+        {
+          "match": "#DEVICE#*(*compatible*;*MSIE 6.0; Windows CE; IEMobile?#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "SAMSUNG-SGH-i900": "Samsung SGH-I900"
+          },
+          "platforms": [
+            "WinCE"
+          ]
+        },
+        {
+          "match": "Mozilla/4.0 (compatible*; MSIE 6.0; Windows CE; IEMobile?#MAJORVER#.#MINORVER#*) #DEVICE#",
+          "devices": {
+            "Sprint:MotoQ9c": "Motorola Q9c"
+          },
           "platforms": [
             "WinCE"
           ]

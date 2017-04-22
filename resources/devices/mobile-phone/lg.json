@@ -1099,7 +1099,7 @@
             "Device_Name": "E900",
             "Device_Maker": "LG",
             "Device_Brand_Name": "LG",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }

@@ -18,8 +18,8 @@
             "Device_Type": "Mobile Phone",
             "Device_Name": "Xda 2s",
             "Device_Code_Name": "Xda 2s",
-            "Device_Maker": "O2",
-            "Device_Pointing_Method": "unknown",
+            "Device_Maker": "HTC",
+            "Device_Pointing_Method": "touchscreen",
             "Device_Brand_Name": "O2",
             "isMobileDevice": "true",
             "isTablet": "false"
@@ -44,8 +44,8 @@
             "Device_Type": "Mobile Phone",
             "Device_Name": "Xda neo",
             "Device_Code_Name": "Xda neo",
-            "Device_Maker": "O2",
-            "Device_Pointing_Method": "unknown",
+            "Device_Maker": "HTC",
+            "Device_Pointing_Method": "touchscreen",
             "Device_Brand_Name": "O2",
             "isMobileDevice": "true",
             "isTablet": "false"
