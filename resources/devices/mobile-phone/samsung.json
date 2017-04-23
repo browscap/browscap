@@ -5303,6 +5303,19 @@
             "isTablet": "false"
         }
     },
+    "Samsung SM-A310F": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "SM-A310F",
+            "Device_Name": "Galaxy A3 (2016)",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Samsung SM-A320F": {
         "standard": false,
         "properties": {
@@ -5335,6 +5348,19 @@
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "SM-A500H",
             "Device_Name": "Galaxy A5 Duos",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Samsung SM-A510F": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "SM-A510F",
+            "Device_Name": "Galaxy A5 (2016)",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Pointing_Method": "touchscreen",
