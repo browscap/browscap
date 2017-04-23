@@ -27,56 +27,69 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (#PLATFORM#LG-E730 Build/*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*AP*",
-          "device": "LG E730",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*AP*",
+          "devices": {
+            "SM-A310F": "Samsung SM-A310F",
+            "SM-A510F": "Samsung SM-A510F",
+            "SM-A710F": "Samsung SM-A710F"
+          },
           "platforms": [
-            "Android_4_0"
+            "Android_6_0",
+            "Android_5_1"
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#THOT61 Build/*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*AP*",
-          "device": "Thornton Pickard THOT61",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*AP*",
+          "devices": {
+            "THOT61": "Thornton Pickard THOT61"
+          },
           "platforms": [
             "Android_4_4"
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*AP*",
-          "platforms": [
-            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#AQUILA 080-1008 Build/*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*AT*",
-          "device": "Cmx Aquila 080-1008",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*AP*",
+          "devices": {
+            "LG-E730": "LG E730"
+          },
           "platforms": [
             "Android_4_0"
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#GT-P3110 Build/*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*AT*",
-          "device": "Samsung GT-P3110",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*AP*",
+          "platforms": [
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*AT*",
+          "devices": {
+            "A1-810": "Acer A1-810",
+            "ASUS Transformer Pad TF300TG": "Asus TF300TG"
+          },
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*AT*",
+          "devices": {
+            "GT-P3110": "Samsung GT-P3110"
+          },
           "platforms": [
             "Android_4_1"
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#ASUS Transformer Pad TF300TG Build/*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*AT*",
-          "device": "Asus TF300TG",
-          "platforms": [
-            "Android_4_2"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#A1-810 Build/*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*AT*",
-          "device": "Acer A1-810",
-          "platforms": [
-            "Android_4_2"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#LIFETAB_S9512 Build/*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*AT*",
-          "device": "Medion LifeTab S9512",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*AT*",
+          "devices": {
+            "AQUILA 080-1008": "Cmx Aquila 080-1008",
+            "LIFETAB_S9512": "Medion LifeTab S9512"
+          },
           "platforms": [
             "Android_4_0"
           ]
@@ -85,7 +98,8 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*AT*",
           "device": "general Tablet",
           "platforms": [
-            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android"
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android"
           ]
         },
         {

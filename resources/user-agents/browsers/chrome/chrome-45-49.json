@@ -29,6 +29,17 @@
       },
       "children": [
         {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
+          "devices": {
+            "SM-A310F": "Samsung SM-A310F",
+            "SM-A510F": "Samsung SM-A510F",
+            "SM-A710F": "Samsung SM-A710F"
+          },
+          "platforms": [
+            "Android_6_0", "Android_5_1"
+          ]
+        },
+        {
           "match": "Mozilla/5.0 (#PLATFORM#A200 Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
           "device": "Acer A200",
           "platforms": [

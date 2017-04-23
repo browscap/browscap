@@ -68,6 +68,19 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
           "engine": "Blink",
           "devices": {
+            "SM-A310F": "Samsung SM-A310F",
+            "SM-A510F": "Samsung SM-A510F",
+            "SM-A710F": "Samsung SM-A710F"
+          },
+          "platforms": [
+            "Android_6_0",
+            "Android_5_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
+          "engine": "Blink",
+          "devices": {
             "Lenovo A5500-H": "Lenovo A5500-H",
             "GT-I8160": "Samsung GT-I8160",
             "SM-G350E": "Samsung SM-G350E",
@@ -86,21 +99,28 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
           "engine": "Blink",
           "platforms": [
-            "Android_4_4", "Android"
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4",
+            "Android"
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#A701 Build/*) applewebkit* (*khtml*like*gecko*) Version/*Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
           "engine": "WebKit",
-          "device": "Acer A701",
+          "devices": {
+            "A701": "Acer A701"
+          },
           "platforms": [
             "Android_4_4"
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#SM-P601 Build/*) applewebkit* (*khtml*like*gecko*) Version/*Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
           "engine": "WebKit",
-          "device": "Samsung SM-P601",
+          "devices": {
+            "SM-P601": "Samsung SM-P601"
+          },
           "platforms": [
             "Android_4_3"
           ]
@@ -130,9 +150,11 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#JY-G3 Build/*) applewebkit* (*khtml*like*gecko*) Version/*Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
           "engine": "WebKit",
-          "device": "Jiayu G3",
+          "devices": {
+            "JY-G3": "Jiayu G3"
+          },
           "platforms": [
             "Android_4_0"
           ]
@@ -168,18 +190,22 @@
           ]
         },
         {
-          "match": "UCWEB/*(#PLATFORM#SAMSUNG; GT-I8350*) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
+          "match": "UCWEB/*(#PLATFORM##DEVICE#*) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
           "engine": "U2",
-          "device": "Samsung GT-I8350",
+          "devices": {
+            "SAMSUNG; GT-I8350": "Samsung GT-I8350"
+          },
           "platforms": [
             "WinPhone7_C",
             "WinPhone8_B"
           ]
         },
         {
-          "match": "UCWEB/*(*GT-P3100*) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
+          "match": "UCWEB/*(*#DEVICE#*) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
           "engine": "U2",
-          "device": "Samsung GT-P3100",
+          "devices": {
+            "GT-P3100": "Samsung GT-P3100"
+          },
           "platforms": [
             "Android_4_0"
           ]
@@ -256,9 +282,11 @@
           ]
         },
         {
-          "match": "Mozilla/5.0*(iPad#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/*Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0*(#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/*Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
           "engine": "WebKit",
-          "device": "iPad",
+          "devices": {
+            "iPad": "iPad"
+          },
           "platforms": [
             "iOS_C_5_1", "iOS_C_5_0", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_1", "iOS_C_8_0", "iOS_C"
           ]
