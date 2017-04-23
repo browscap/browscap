@@ -45,8 +45,10 @@
           ]
         },
         {
-          "match": "ASUS1210/1.0 Mozilla/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; Smartphone; 240x320; ASUS1210)*",
-          "device": "Asus 1210",
+          "match": "#DEVICE#/1.0 Mozilla/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; Smartphone; 240x320; #DEVICE#)*",
+          "devices": {
+            "ASUS1210": "Asus 1210"
+          },
           "platforms": [
             "WinCE"
           ]
@@ -64,57 +66,49 @@
           ]
         },
         {
-          "match": "HTC-3100/1.2 Mozilla/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; IEMobile?#MAJORVER#.*)",
-          "device": "HTC 3100",
+          "match": "#DEVICE#/1.2 Mozilla/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; IEMobile?#MAJORVER#.*)",
+          "devices": {
+            "HTC-3100": "HTC 3100"
+          },
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "HTC-8100/1.2 Mozilla/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; PPC; 240x320)*",
-          "device": "HTC 8100",
+          "match": "#DEVICE#/1.2 Mozilla/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; PPC; 240x320)*",
+          "devices": {
+            "HTC-8100": "HTC 8100"
+          },
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "HTC-8500/1.2 Mozilla/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; IEMobile?#MAJORVER#.*)*",
-          "device": "HTC 8500",
+          "match": "#DEVICE#/1.2 Mozilla/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; IEMobile?#MAJORVER#.*)*",
+          "devices": {
+            "HTC-8500": "HTC 8500"
+          },
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "HTC_P4350 Mozilla/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; IEMobile?#MAJORVER#.*)",
-          "device": "HTC P4350",
+          "match": "#DEVICE# Mozilla/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; IEMobile?#MAJORVER#.*)",
+          "devices": {
+            "HTC_P4350": "HTC P4350",
+            "HTC_S620": "HTC S620",
+            "HTC_TyTN": "HTC P4500",
+            "HTC_X7500": "HTC X7500"
+          },
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "HTC_S620 Mozilla/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; IEMobile?#MAJORVER#.*)",
-          "device": "HTC S620",
-          "platforms": [
-            "WinCE"
-          ]
-        },
-        {
-          "match": "HTC_S710-Mozilla/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; Smartphone; 240x320; Smartphone)",
-          "device": "HTC S710",
-          "platforms": [
-            "WinCE"
-          ]
-        },
-        {
-          "match": "HTC_TyTN Mozilla/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; IEMobile?#MAJORVER#.*)",
-          "device": "HTC TyTN",
-          "platforms": [
-            "WinCE"
-          ]
-        },
-        {
-          "match": "HTC_X7500 Mozilla/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; IEMobile?#MAJORVER#.*)",
-          "device": "HTC X7500",
+          "match": "#DEVICE#-Mozilla/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; Smartphone; 240x320; Smartphone)",
+          "devices": {
+            "HTC_S710": "HTC S710"
+          },
           "platforms": [
             "WinCE"
           ]
@@ -132,57 +126,57 @@
           ]
         },
         {
-          "match": "Mozilla/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; IEMobile?#MAJORVER#.*) PPC; 240x320; HTC_P3600/1.0 *",
-          "device": "HTC P3600",
+          "match": "Mozilla/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; IEMobile?#MAJORVER#.*) PPC; 240x320; #DEVICE#/1.0 *",
+          "devices": {
+            "HTC_P3600": "HTC P3600"
+          },
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "Mozilla/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; IEMobile?#MAJORVER#.*) Vodafone/1.0/HTC_Elf/*",
-          "device": "HTC Elf",
+          "match": "Mozilla/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; IEMobile?#MAJORVER#.*) Vodafone/1.0/#DEVICE#/*",
+          "devices": {
+            "HTC_Elf": "HTC P3450",
+            "HTC_VPACompactIV": "HTC VPA Compact IV"
+          },
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "Mozilla/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; IEMobile?#MAJORVER#.*) Vodafone/1.0/HTC_VPACompactIV/*",
-          "device": "HTC VPA Compact IV",
-          "platforms": [
-            "WinCE"
-          ]
-        },
-        {
-          "match": "Mozilla/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows NT 5.1; HTC_Touch2_T3333; Windows Phone 6.5)*",
-          "device": "HTC T3333",
+          "match": "Mozilla/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows NT 5.1; #DEVICE#; Windows Phone 6.5)*",
+          "devices": {
+            "HTC_Touch2_T3333": "HTC T3333",
+            "HTC_Touch_HD_T8282": "HTC T8282"
+          },
           "platforms": [
             "WinPhone65"
           ]
         },
         {
-          "match": "Mozilla/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows NT 5.1; HTC_Touch_HD_T8282; Windows Phone 6.5)*",
-          "device": "HTC Touch HD T8282",
-          "platforms": [
-            "WinPhone65"
-          ]
-        },
-        {
-          "match": "Xda orbit; 240x320 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; IEMobile?#MAJORVER#.*)",
-          "device": "XDA Orbit",
+          "match": "#DEVICE#; 240x320 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; IEMobile?#MAJORVER#.*)",
+          "devices": {
+            "Xda orbit": "XDA Orbit"
+          },
           "platforms": [
             "WinCE"
           ]
         },
         {
-          "match": "acer_S200 Mozilla/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows NT 5.1; Windows Phone 6.*)",
-          "device": "Acer S200",
+          "match": "#DEVICE# Mozilla/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows NT 5.1; Windows Phone 6.*)",
+          "devices": {
+            "acer_S200": "Acer S200"
+          },
           "platforms": [
             "WinXPa_32"
           ]
         },
         {
-          "match": "Mozilla/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows NT 5.1; Windows Phone 6.5 HTC_HD2/1.0)",
-          "device": "HTC HD2",
+          "match": "Mozilla/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows NT 5.1; Windows Phone 6.5 #DEVICE#/1.0)",
+          "devices": {
+            "HTC_HD2": "HTC T8585"
+          },
           "platforms": [
             "WinPhone65"
           ]

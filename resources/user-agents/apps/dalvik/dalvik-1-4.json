@@ -49,7 +49,7 @@
         },
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#HTC HD2 Build/*",
-          "device": "HTC HD2",
+          "device": "HTC T8585",
           "platforms": [
             "Android_2_3"
           ]

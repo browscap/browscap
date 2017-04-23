@@ -80,7 +80,7 @@
         },
         {
           "match": "HTC_Touch_HD_T8282 Opera/#MAJORVER#.#MINORVER#*",
-          "device": "HTC Touch HD T8282"
+          "device": "HTC T8282"
         },
         {
           "match": "Huawei/*/HUAWEI-G7300 Browser/Opera *Profile/MIDP* Opera/*(MTK*)*Version/#MAJORVER#.#MINORVER#*",

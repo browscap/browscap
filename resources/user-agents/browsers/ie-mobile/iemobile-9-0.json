@@ -48,134 +48,29 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM# Trident/5.0; IEMobile?#MAJORVER#.#MINORVER#; DELL; Venue Pro)",
-          "device": "Dell Venue Pro",
-          "platforms": [
-            "WinPhone75"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM# Trident/5.0; IEMobile?#MAJORVER#.#MINORVER#; HTC; 7 Mozart T8698)",
-          "device": "HTC T8698",
-          "platforms": [
-            "WinPhone75"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM# Trident/5.0; IEMobile?#MAJORVER#.#MINORVER#; HTC; 7 Mozart)",
-          "device": "HTC T8698",
-          "platforms": [
-            "WinPhone75"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM# Trident/5.0; IEMobile?#MAJORVER#.#MINORVER#; HTC; 7 Pro T7576)",
-          "device": "HTC T7576",
-          "platforms": [
-            "WinPhone75"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM# Trident/5.0; IEMobile?#MAJORVER#.#MINORVER#; HTC; 7 Trophy)",
-          "device": "HTC Spark",
-          "platforms": [
-            "WinPhone75"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM# Trident/5.0; IEMobile?#MAJORVER#.#MINORVER#; HTC; HD7 T9292)",
-          "device": "HTC T9292",
-          "platforms": [
-            "WinPhone75"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM# Trident/5.0; IEMobile?#MAJORVER#.#MINORVER#; HTC; Radar 4G)",
-          "device": "HTC Radar 4G",
-          "platforms": [
-            "WinPhone75"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM# Trident/5.0; IEMobile?#MAJORVER#.#MINORVER#; HTC; Radar C110e*)",
-          "device": "HTC Radar C110e",
-          "platforms": [
-            "WinPhone75"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM# Trident/5.0; IEMobile?#MAJORVER#.#MINORVER#; HTC; Radar)",
-          "device": "HTC Radar",
-          "platforms": [
-            "WinPhone75"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM# Trident/5.0; IEMobile?#MAJORVER#.#MINORVER#; HTC; TITAN X310e)",
-          "device": "HTC X310e",
-          "platforms": [
-            "WinPhone75"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM# Trident/5.0; IEMobile?#MAJORVER#.#MINORVER#; LG; LG-E900)",
-          "device": "LG E900",
-          "platforms": [
-            "WinPhone75"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM# Trident/5.0; IEMobile?#MAJORVER#.#MINORVER#; LG; LG-E906)",
-          "device": "LG E906",
-          "platforms": [
-            "WinPhone75"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM# Trident/5.0; IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 510*)",
-          "device": "Nokia Lumia 510",
-          "platforms": [
-            "WinPhone75"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM# Trident/5.0; IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 610*)",
-          "device": "Nokia Lumia 610",
-          "platforms": [
-            "WinPhone75"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM# Trident/5.0; IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 710*)",
-          "device": "Nokia Lumia 710",
-          "platforms": [
-            "WinPhone75"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM# Trident/5.0; IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 800*)",
-          "device": "Nokia Lumia 800",
-          "platforms": [
-            "WinPhone75"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM# Trident/5.0; IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 900*)",
-          "device": "Nokia Lumia 900",
-          "platforms": [
-            "WinPhone75"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM# Trident/5.0; IEMobile?#MAJORVER#.#MINORVER#; NOKIA; Lumia 925*)",
-          "device": "Nokia Lumia 925",
-          "platforms": [
-            "WinPhone75"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM# Trident/5.0; IEMobile?#MAJORVER#.#MINORVER#; SAMSUNG; OMNIA7)",
-          "device": "Samsung GT-I8700",
+          "match": "Mozilla/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM# Trident/5.0; IEMobile?#MAJORVER#.#MINORVER#; #DEVICE#*)",
+          "devices": {
+            "DELL; Venue Pro": "Dell Venue Pro",
+            "HTC; 7 Mozart T8698": "HTC T8698",
+            "HTC; 7 Mozart": "HTC T8698",
+            "HTC; 7 Pro T7576": "HTC T7576",
+            "HTC; 7 Trophy": "HTC T8686",
+            "HTC; 7 Trophy T8686": "HTC T8686",
+            "HTC; HD7 T9292": "HTC T9292",
+            "HTC; Radar 4G": "HTC Radar 4G",
+            "HTC; Radar C110e": "HTC Radar C110e",
+            "HTC; Radar": "HTC Radar",
+            "HTC; TITAN X310e": "HTC X310e",
+            "LG; LG-E900": "LG E900",
+            "LG; LG-E906": "LG E906",
+            "NOKIA; Lumia 510": "Nokia Lumia 510",
+            "NOKIA; Lumia 610": "Nokia Lumia 610",
+            "NOKIA; Lumia 710": "Nokia Lumia 710",
+            "NOKIA; Lumia 800": "Nokia Lumia 800",
+            "NOKIA; Lumia 900": "Nokia Lumia 900",
+            "NOKIA; Lumia 925": "Nokia Lumia 925",
+            "SAMSUNG; OMNIA7": "Samsung GT-I8700"
+          },
           "platforms": [
             "WinPhone75"
           ]

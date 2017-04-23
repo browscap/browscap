@@ -1151,7 +1151,7 @@
             "Device_Name": "MPx",
             "Device_Maker": "Motorola",
             "Device_Brand_Name": "Motorola",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -1177,7 +1177,7 @@
             "Device_Name": "MPx230",
             "Device_Maker": "Motorola",
             "Device_Brand_Name": "Motorola",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }

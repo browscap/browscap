@@ -922,19 +922,6 @@
             "isTablet": "false"
         }
     },
-    "HTC Elf": {
-        "standard": false,
-        "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Elf",
-            "Device_Name": "Elf",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Pointing_Method": "unknown",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
-    },
     "HTC Endeavoru": {
         "standard": false,
         "properties": {
@@ -987,19 +974,6 @@
             "isTablet": "false"
         }
     },
-    "HTC HD T8282": {
-        "standard": false,
-        "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "HD T8282",
-            "Device_Name": "HD T8282",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Pointing_Method": "unknown",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
-    },
     "HTC HD mini": {
         "standard": false,
         "properties": {
@@ -1021,46 +995,7 @@
             "Device_Name": "HD mini T5555",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Pointing_Method": "unknown",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
-    },
-    "HTC HD2": {
-        "standard": false,
-        "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "HD2",
-            "Device_Name": "HD2",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Pointing_Method": "unknown",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
-    },
-    "HTC HD2 T8585": {
-        "standard": false,
-        "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "HD2 T8585",
-            "Device_Name": "HD2 T8585",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Pointing_Method": "unknown",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
-    },
-    "HTC HD2 T9193": {
-        "standard": false,
-        "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "HD2 T9193",
-            "Device_Name": "HD2 T9193",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -1330,10 +1265,10 @@
         "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "P3450",
-            "Device_Name": "P3450",
+            "Device_Name": "Touch",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -1356,10 +1291,10 @@
         "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "P3600",
-            "Device_Name": "Elf",
+            "Device_Name": "Trinity",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -1369,10 +1304,10 @@
         "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "P3650",
-            "Device_Name": "P3650",
+            "Device_Name": "Touch Cruise",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -1382,10 +1317,10 @@
         "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "P3700",
-            "Device_Name": "P3700",
+            "Device_Name": "Touch Diamond",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -1416,15 +1351,28 @@
             "isTablet": "false"
         }
     },
+    "HTC P4500": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "P4500",
+            "Device_Name": "TyTN",
+            "Device_Maker": "HTC",
+            "Device_Brand_Name": "HTC",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "HTC P4550": {
         "standard": false,
         "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "P4550",
-            "Device_Name": "P4550",
+            "Device_Name": "TyTN II",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -1541,7 +1489,7 @@
             "Device_Name": "Radar 4G",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -1754,15 +1702,15 @@
             "isTablet": "false"
         }
     },
-    "HTC Spark": {
+    "HTC T8686": {
         "standard": false,
         "properties": {
             "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Spark",
-            "Device_Name": "7 Trophy",
+            "Device_Code_Name": "T8686",
+            "Device_Name": "7 Trophy/Spark",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -1814,7 +1762,7 @@
             "Device_Name": "Touch2",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -1823,11 +1771,11 @@
         "standard": false,
         "properties": {
             "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Touch Pro T7272",
-            "Device_Name": "Touch Pro T7272",
+            "Device_Code_Name": "T7272",
+            "Device_Name": "Touch Pro",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -1840,7 +1788,20 @@
             "Device_Name": "7 pro",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "HTC T8585": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "T8585",
+            "Device_Name": "HD2",
+            "Device_Maker": "HTC",
+            "Device_Brand_Name": "HTC",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -1851,6 +1812,19 @@
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "T8698",
             "Device_Name": "7 Mozart",
+            "Device_Maker": "HTC",
+            "Device_Brand_Name": "HTC",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "HTC T9193": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "T9193",
+            "Device_Name": "HD2",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
             "Device_Pointing_Method": "unknown",
@@ -1897,15 +1871,15 @@
             "isTablet": "false"
         }
     },
-    "HTC Touch 3G T3232": {
+    "HTC T3232": {
         "standard": false,
         "properties": {
             "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Touch 3G T3232",
-            "Device_Name": "Touch 3G T3232",
+            "Device_Code_Name": "T3232",
+            "Device_Name": "Touch 3G",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -1916,19 +1890,6 @@
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "Touch Cruise T4242",
             "Device_Name": "Touch Cruise T4242",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Pointing_Method": "unknown",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
-    },
-    "HTC Touch Diamond": {
-        "standard": false,
-        "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Touch Diamond",
-            "Device_Name": "Touch Diamond",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
             "Device_Pointing_Method": "unknown",
@@ -1975,28 +1936,15 @@
             "isTablet": "false"
         }
     },
-    "HTC Touch HD": {
+    "HTC T8282": {
         "standard": false,
         "properties": {
             "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Touch HD",
+            "Device_Code_Name": "T8282",
             "Device_Name": "Touch HD",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Pointing_Method": "unknown",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
-    },
-    "HTC Touch HD T8282": {
-        "standard": false,
-        "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Touch HD T8282",
-            "Device_Name": "Touch HD T8282",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -2007,19 +1955,6 @@
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "Touch HD2 T8585",
             "Device_Name": "Touch HD2 T8585",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Pointing_Method": "unknown",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
-    },
-    "HTC Touch Pro": {
-        "standard": false,
-        "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Touch Pro",
-            "Device_Name": "Touch Pro",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
             "Device_Pointing_Method": "unknown",
@@ -2066,15 +2001,15 @@
             "isTablet": "false"
         }
     },
-    "HTC Touch2 T3335": {
+    "HTC T3335": {
         "standard": false,
         "properties": {
             "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Touch2 T3335",
-            "Device_Name": "Touch2 T3335",
+            "Device_Code_Name": "T3335",
+            "Device_Name": "Touch2",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -2087,32 +2022,32 @@
             "Device_Name": "TouchDual",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "HTC v1510": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "v1510",
+            "Device_Name": "VPA Compact GPS",
+            "Device_Maker": "HTC",
+            "Device_Brand_Name": "Vodafone",
             "Device_Pointing_Method": "unknown",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
     },
-    "HTC TyTN": {
+    "HTC v3600": {
         "standard": false,
         "properties": {
             "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "TyTN",
-            "Device_Name": "TyTN",
+            "Device_Code_Name": "v3600",
+            "Device_Name": "v3600",
             "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Pointing_Method": "unknown",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
-    },
-    "HTC TyTN II": {
-        "standard": false,
-        "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "TyTN II",
-            "Device_Name": "TyTN II",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
+            "Device_Brand_Name": "Vodafone",
             "Device_Pointing_Method": "unknown",
             "isMobileDevice": "true",
             "isTablet": "false"
@@ -2140,6 +2075,19 @@
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
             "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "HTC VPA Compact IV": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "VPA Compact IV",
+            "Device_Name": "Herald/Wing/Atlas",
+            "Device_Maker": "HTC",
+            "Device_Brand_Name": "Vodafone",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -2191,7 +2139,7 @@
             "Device_Name": "Titan",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }

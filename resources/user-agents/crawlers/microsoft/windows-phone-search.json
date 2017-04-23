@@ -22,7 +22,7 @@
       "children": [
         {
           "match": "Windows Phone Search (#PLATFORM#HTC;7 Trophy;*)",
-          "device": "HTC Spark",
+          "device": "HTC T8686",
           "platforms": [
             "WinPhone710"
           ]

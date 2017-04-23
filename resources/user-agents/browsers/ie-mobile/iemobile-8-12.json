@@ -1,7 +1,7 @@
 {
   "division": "IEMobile #MAJORVER#.#MINORVER#",
   "versions": ["8.12"],
-  "sortIndex": 1716,
+  "sortIndex": 1717,
   "lite": false,
   "standard": false,
   "userAgents": [
@@ -32,14 +32,116 @@
       },
       "children": [
         {
-          "match": "Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile?#MAJORVER#.#MINORVER#*) T-Mobile_LEO*",
-          "device": "HTC Leo",
+          "match": "Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile?#MAJORVER#.#MINORVER#*) #DEVICE#*",
+          "devices": {
+            "T-Mobile_LEO": "HTC Leo"
+          },
           "platforms": [
             "WinCE"
           ]
         },
         {
           "match": "Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile?#MAJORVER#.#MINORVER#*)*",
+          "platforms": [
+            "WinCE"
+          ]
+        },
+        {
+          "match": "#DEVICE# Mozilla/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile?#MAJORVER#.#MINORVER#*)",
+          "devices": {
+            "HD_mini_T5555": "HTC HD mini T5555",
+            "HTC_HD2_T8585": "HTC T8585",
+            "HTC_Maple_S520": "HTC Maple S520",
+            "HTC_P3700": "HTC P3700",
+            "HTC_Snap_S521": "HTC Snap S521",
+            "HTC_Touch_Diamond2_T5353": "HTC Touch Diamond2 T5353",
+            "HTC_Touch_HD_T8282": "HTC T8282",
+            "HTC_Touch_Pro2_T7373": "HTC Touch Pro2 T7373",
+            "HTC_Touch_Pro_T7272": "HTC T7272"
+          },
+          "platforms": [
+            "WinCE"
+          ]
+        },
+        {
+          "match": "#DEVICE#/* (*) Mozilla/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile?#MAJORVER#.#MINORVER#*)*",
+          "devices": {
+            "HTC-ST7377": "HTC ST7377"
+          },
+          "platforms": [
+            "WinCE"
+          ]
+        },
+        {
+          "match": "#DEVICE# Mozilla/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile?#MAJORVER#.#MINORVER#*)*",
+          "devices": {
+            "HTC_Touch_Cruise_T4242": "HTC Touch Cruise T4242"
+          },
+          "platforms": [
+            "WinCE"
+          ]
+        },
+        {
+          "match": "#DEVICE#/480x800 4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile?#MAJORVER#.#MINORVER#*)",
+          "devices": {
+            "HTC_HD2_T8585": "HTC T8585"
+          },
+          "platforms": [
+            "WinCE"
+          ]
+        },
+        {
+          "match": "#DEVICE#/* (*Mozilla/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile?#MAJORVER#.#MINORVER#*)",
+          "devices": {
+            "HTC_Snap_S523": "HTC Snap S523"
+          },
+          "platforms": [
+            "WinCE"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 Vodafone/1.0/#DEVICE#/* Browser/IE#MAJORVER#.#MINORVER#* (*compatible*;*MSIE 6.0; Windows CE; IEMobile?#MAJORVER#.#MINORVER#*)",
+          "devices": {
+            "LG-GM750": "LG GM750"
+          },
+          "platforms": [
+            "WinCE"
+          ]
+        },
+        {
+          "match": "Mozilla/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile?#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "WinCE"
+          ]
+        },
+        {
+          "match": "#DEVICE#*(*compatible*;*MSIE 6.0; Windows CE; IEMobile?#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "SAMSUNG-C3050": "Samsung C3050",
+            "SAMSUNG-GT-3210": "Samsung GT-3210",
+            "SAMSUNG-GT-B3310": "Samsung GT-B3310",
+            "SAMSUNG-GT-B3410": "Samsung GT-B3410",
+            "SAMSUNG-GT-B7330": "Samsung GT-B7330",
+            "SAMSUNG-GT-B7610": "Samsung GT-B7610",
+            "SAMSUNG-GT-E2550": "Samsung GT-E2550",
+            "SAMSUNG-GT-I6410": "Samsung GT-I6410",
+            "SAMSUNG-GT-i8000": "Samsung GT-I8000",
+            "SAMSUNG-GT-i8000T": "Samsung GT-I8000T",
+            "SAMSUNG-GT-I8320": "Samsung GT-I8320",
+            "SAMSUNG-GT-S3370": "Samsung GT-S3370",
+            "SAMSUNG-GT-S3650": "Samsung GT-S3650",
+            "SAMSUNG-GT-S5230": "Samsung GT-S5230",
+            "SAMSUNG-GT-S5560": "Samsung GT-S5560",
+            "SAMSUNG-GT-S7550": "Samsung GT-S7550",
+            "SAMSUNG-S8000": "Samsung GT-S8000",
+            "SAMSUNG-S8300": "Samsung GT-S8300",
+            "SAMSUNG-SGH-E250": "Samsung SGH-E250",
+            "SAMSUNG-SGH-F480": "Samsung SGH-F480",
+            "SAMSUNG-SGH-G800": "Samsung SGH-G800",
+            "SAMSUNG-SGH-i900": "Samsung SGH-I900",
+            "SAMSUNG-SGH-U700": "Samsung SGH-U700",
+            "SAMSUNG-SGH-U900": "Samsung SGH-U900"
+          },
           "platforms": [
             "WinCE"
           ]

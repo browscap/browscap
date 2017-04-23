@@ -1708,7 +1708,7 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#HTC HD2 Build/*) applewebkit* (*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
-          "device": "HTC HD2",
+          "device": "HTC T8585",
           "platforms": [
             "Android_2_3"
           ]
@@ -2078,7 +2078,7 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#NexusHD2 Build/*) applewebkit* (*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
-          "device": "HTC HD2",
+          "device": "HTC T8585",
           "platforms": [
             "Android_2_3"
           ]

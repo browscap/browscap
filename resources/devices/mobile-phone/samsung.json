@@ -446,10 +446,23 @@
         "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "GT-I8000",
-            "Device_Name": "GT-I8000",
+            "Device_Name": "Omnia II",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Samsung GT-I8000T": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "GT-I8000T",
+            "Device_Name": "Omnia Icon M8",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -683,7 +696,7 @@
             "Device_Name": "Omnia 7",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -709,7 +722,7 @@
             "Device_Name": "ATIV Odyssey",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -4008,7 +4021,7 @@
         "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "SGH-I607",
-            "Device_Name": "SGH-I607",
+            "Device_Name": "BlackJack",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Pointing_Method": "unknown",
@@ -4100,6 +4113,19 @@
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "SGH-I897",
             "Device_Name": "Captivate (AT&T)",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Samsung SGH-I900": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "SGH-I900",
+            "Device_Name": "Omnia",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Pointing_Method": "touchscreen",
