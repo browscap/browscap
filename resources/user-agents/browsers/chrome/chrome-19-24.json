@@ -61,8 +61,6 @@
           "devices": {
             "GT-I9100": "Samsung GT-I9100",
             "GT-I9505": "Samsung GT-I9505",
-            "GT-I9505": "Samsung GT-I9505",
-            "HTC One": "HTC M7",
             "HTC One": "HTC M7",
             "HTC?One_M8": "HTC M8"
           },
@@ -159,7 +157,6 @@
             "HTC Desire X": "HTC T328E",
             "HTC One SV": "HTC One SV",
             "HTC One X": "HTC PJ83100",
-            "HTC One": "HTC M7",
             "LG-P760": "LG P760",
             "LIFETAB_S9714": "Medion LifeTab S9714",
             "LT18i": "SonyEricsson LT18i",

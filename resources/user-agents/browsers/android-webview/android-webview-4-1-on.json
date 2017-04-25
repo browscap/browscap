@@ -150,7 +150,7 @@
           },
           "platforms": [
             "Android_5_0",
-            "Android_4_3", "Android_4_4"
+            "Android_4_4", "Android_4_3"
           ]
         },
         {
@@ -1419,7 +1419,8 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit*(*kthml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "general Tablet",
           "platforms": [
-            "Android_4_2", "Android"
+            "Android_4_2",
+            "Android"
           ]
         },
         {
