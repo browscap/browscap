@@ -45,7 +45,8 @@
             "Nexus 6P": "Huawei Nexus 6P"
           },
           "platforms": [
-            "Android_7_1", "Android_6_0"
+            "Android_7_1",
+            "Android_6_0"
           ]
         },
         {
@@ -80,7 +81,8 @@
             "SM-G920V": "Samsung SM-G920V"
           },
           "platforms": [
-            "Android_6_0", "Android_5_1"
+            "Android_6_0",
+            "Android_5_1"
           ]
         },
         {
@@ -90,7 +92,8 @@
             "SM-G920F": "Samsung SM-G920F"
           },
           "platforms": [
-            "Android_6_0", "Android_5_1", "Android_5_0"
+            "Android_6_0",
+            "Android_5_1", "Android_5_0"
           ]
         },
         {
@@ -99,7 +102,9 @@
             "Nexus 7": "Asus Nexus 7"
           },
           "platforms": [
-            "Android_6_0", "Android_5_1", "Android_5_0", "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1"
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1"
           ]
         },
         {
@@ -108,7 +113,8 @@
             "SM-T705": "Samsung SM-T705"
           },
           "platforms": [
-            "Android_6_0", "Android_4_4"
+            "Android_6_0",
+            "Android_4_4"
           ]
         },
         {
@@ -129,7 +135,8 @@
             "GT-I9100": "Samsung GT-I9100"
           },
           "platforms": [
-            "Android_5_1", "Android_5_0", "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0"
+            "Android_5_1", "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0"
           ]
         },
         {
@@ -162,7 +169,8 @@
             "SM-T805": "Samsung SM-T805"
           },
           "platforms": [
-            "Android_5_0", "Android_4_4"
+            "Android_5_0",
+            "Android_4_4"
           ]
         },
         {
@@ -171,7 +179,8 @@
             "Nexus 5": "LG Nexus 5"
           },
           "platforms": [
-            "Android_5_0", "Android_4_4", "Android_4_3", "Android_4_2"
+            "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2"
           ]
         },
         {
@@ -183,7 +192,8 @@
             "Transformer TF101": "Asus TF101"
           },
           "platforms": [
-            "Android_5_0", "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0"
+            "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0"
           ]
         },
         {
@@ -846,7 +856,7 @@
             "Lenovo B8000-F": "Lenovo B8000-F"
           },
           "platforms": [
-            "Android_4_2", "Android_4_3", "Android_4_4"
+            "Android_4_4", "Android_4_3", "Android_4_2"
           ]
         },
         {
@@ -866,7 +876,8 @@
             "Nexus 4": "LG Nexus 4"
           },
           "platforms": [
-            "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android_5_0"
+            "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1"
           ]
         },
         {
@@ -875,7 +886,8 @@
             "LG-D855": "LG D855"
           },
           "platforms": [
-            "Android_4_4", "Android_5_0"
+            "Android_5_0",
+            "Android_4_4"
           ]
         },
         {
@@ -944,38 +956,42 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) #MAJORVER#.*Safari/*",
           "platforms": [
-            "Android_5_1", "Android"
+            "Android_5_1",
+            "Android"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
           "platforms": [
-            "Android_4_2", "Android_4_3", "Android_4_4", "Android_5_0", "Android_5_1",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2",
             "Android"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit*(*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
           "platforms": [
-            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android"
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
           "platforms": [
-            "Android_4_4", "Android_5_0", "Android_5_1", "Android_6_0",
-            "Android_6_1", "Android_7_0", "Android_7_1",
+            "Android_7_1", "Android_7_0",
+            "Android_6_1", "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4",
             "Android"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
           "platforms": [
-            "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
-            "Android_2_0", "Android_2_1", "Android_2_2", "Android_2_3",
-            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3",
-            "Android_4_4", "Android_5_0", "Android_5_1", "Android_6_0",
-            "Android_6_1", "Android_7_0", "Android_7_1",
+            "Android_7_1", "Android_7_0",
+            "Android_6_1", "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
             "Android"
           ]
         },
@@ -988,7 +1004,8 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*CrMo/#MAJORVER#.*Safari/*",
           "platforms": [
-            "Android_4_0", "Android"
+            "Android_4_0",
+            "Android"
           ]
         },
         {
