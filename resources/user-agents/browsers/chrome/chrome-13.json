@@ -29,29 +29,37 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (X11; Linux*; HTC/Sensation/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
-          "device": "HTC Z710",
+          "match": "Mozilla/5.0 (X11; Linux*; #DEVICE#/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
+          "devices": {
+            "HTC/Sensation": "HTC Z710"
+          },
           "platforms": [
             "Android_4_0"
           ]
         },
         {
-          "match": "Mozilla/5.0 (X11; Linux x86_64*; HTC/Sensation/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
-          "device": "HTC Z710",
+          "match": "Mozilla/5.0 (X11; Linux x86_64*; #DEVICE#/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
+          "devices": {
+            "HTC/Sensation": "HTC Z710"
+          },
           "platforms": [
             "Android_4_0"
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#KFTT *) applewebkit* (*khtml*like*gecko*)*CrMo/#MAJORVER#.*Safari/*",
-          "device": "Amazon KFTT",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# *) applewebkit* (*khtml*like*gecko*)*CrMo/#MAJORVER#.*Safari/*",
+          "devices": {
+            "KFTT": "Amazon KFTT"
+          },
           "platforms": [
             "Android_4_0"
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#GT-I9100 *) applewebkit* (*khtml*like*gecko*)*CrMo/#MAJORVER#.*Safari/*",
-          "device": "Samsung GT-I9100",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# *) applewebkit* (*khtml*like*gecko*)*CrMo/#MAJORVER#.*Safari/*",
+          "devices": {
+            "GT-I9100": "Samsung GT-I9100"
+          },
           "platforms": [
             "Android_4_0"
           ]
@@ -59,16 +67,15 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
           "platforms": [
-            "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
-            "Android_2_0", "Android_2_1", "Android_2_2", "Android_2_3",
-            "Android_4_0", "Android_4_1", "Android_4_2",
+            "Android_4_2", "Android_4_1", "Android_4_0",
             "Android"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*CrMo/#MAJORVER#.*Safari/*",
           "platforms": [
-            "Android_4_0", "Android"
+            "Android_4_0",
+            "Android"
           ]
         }
       ]
