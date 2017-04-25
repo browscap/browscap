@@ -170,11 +170,9 @@
             "Lenovo A320": "Lenovo A320",
             "Lenovo A328": "Lenovo A328",
             "Lenovo A328t": "Lenovo A328t",
-            "Lenovo A3500-H": "Lenovo A3500-H",
             "Lenovo A368t": "Lenovo A368t",
             "Lenovo A5000": "Lenovo A5000",
             "Lenovo A536": "Lenovo A536",
-            "Lenovo A5500-F": "Lenovo A5500-F",
             "Lenovo A6000": "Lenovo A6000",
             "Lenovo A606": "Lenovo A606",
             "Lenovo A916": "Lenovo A916",
@@ -295,6 +293,8 @@
             "Lenovo A3500-F": "Lenovo A3500-F",
             "Lenovo A3500-FL": "Lenovo A3500-FL",
             "Lenovo A3500-HV": "Lenovo A3500-HV",
+            "Lenovo A3500-H": "Lenovo A3500-H",
+            "Lenovo A5500-F": "Lenovo A5500-F",
             "Lenovo A5500-H": "Lenovo A5500-H",
             "Lenovo A5500-HV": "Lenovo A5500-HV",
             "Lenovo A7600-H": "Lenovo A7600-H",
@@ -342,7 +342,6 @@
           "devices": {
             "831C": "HTC 831C",
             "D2306": "Sony D2306",
-            "GT-I9100": "Samsung GT-I9100",
             "GT-I9190*": "Samsung GT-I9190",
             "GT-I9195*": "Samsung GT-I9195",
             "GT-I9300": "Samsung GT-I9300",
@@ -398,7 +397,6 @@
           "devices": {
             "A3000-H": "Lenovo A3000-H",
             "GT-I9295*": "Samsung GT-I9295",
-            "Lenovo A3500-H": "Lenovo A3500-H",
             "Lenovo S6000L-F": "Lenovo S6000L-F"
           },
           "platforms": [
@@ -543,7 +541,6 @@
             "Lenovo A369i": "Lenovo A369i",
             "Lenovo A516": "Lenovo A516",
             "Lenovo A526": "Lenovo A526",
-            "Lenovo A5500-F": "Lenovo A5500-F",
             "Lenovo A680*": "Lenovo A680",
             "Lenovo A820": "Lenovo A820",
             "Lenovo A820t": "Lenovo A820t",
@@ -707,7 +704,6 @@
             "GT-P5113": "Samsung GT-P5113",
             "HTC Desire X": "HTC T328E",
             "HTC One SV": "HTC One SV",
-            "HTC One": "HTC M7",
             "LG-P760": "LG P760",
             "LIFETAB_S9714": "Medion LifeTab S9714",
             "LT18i": "SonyEricsson LT18i",
