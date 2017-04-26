@@ -11,5 +11,18 @@
             "isMobileDevice": "true",
             "isTablet": "false"
         }
+    },
+    "Tecno M3": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "M3",
+            "Device_Code_Name": "M3",
+            "Device_Maker": "Tecno",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Tecno",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
     }
 }

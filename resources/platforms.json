@@ -3451,6 +3451,15 @@
       "standard": true,
       "inherits": "Android"
     },
+    "Android_F_2_2": {
+      "match": "*Android?2.2*Linux*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "2.2"
+      }
+    },
     "Android_F_2_3": {
       "match": "*Android?2.3*Linux*",
       "lite": false,
@@ -3458,6 +3467,24 @@
       "inherits": "Android",
       "properties": {
         "Platform_Version": "2.3"
+      }
+    },
+    "Android_F_3_0": {
+      "match": "*Android?3.0*Linux*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "3.0"
+      }
+    },
+    "Android_F_3_1": {
+      "match": "*Android?3.1*Linux*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "3.1"
       }
     },
     "Android_F_4_0": {
@@ -3476,6 +3503,24 @@
       "inherits": "Android",
       "properties": {
         "Platform_Version": "4.1"
+      }
+    },
+    "Android_F_4_2": {
+      "match": "*Android?4.2*Linux*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "4.2"
+      }
+    },
+    "Android_F_4_3": {
+      "match": "*Android?4.3*Linux*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "4.3"
       }
     },
     "Android_G": {
@@ -4426,6 +4471,12 @@
       "standard": true,
       "inherits": "SymbianOS"
     },
+    "SymbianOS_D": {
+      "match": "*Symbian OS*",
+      "lite": false,
+      "standard": true,
+      "inherits": "SymbianOS"
+    },
     "Unix": {
       "match": "*UNIX*",
       "lite": false,
@@ -4904,6 +4955,7 @@
         "Platform": "JAVA",
         "Platform_Maker": "Oracle",
         "Platform_Version": "unknown",
+        "Platform_Description": "unknown",
         "Win32": "false",
         "Browser_Bits": "32",
         "Platform_Bits": "32"

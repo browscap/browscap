@@ -27,16 +27,24 @@
       },
       "children": [
         {
-          "match": "Opera?#MAJORVER#.#MINORVER#* Presto/2.2*/SAMSUNG-GT-I8320*",
-          "device": "Samsung GT-I8320"
+          "match": "Opera?#MAJORVER#.#MINORVER#* Presto/2.2*/#DEVICE#*",
+          "devices": {
+            "SAMSUNG-GT-I8320": "Samsung GT-I8320"
+          }
         },
         {
-          "match": "SAMSUNG-GT-I6410* Linux/* Opera/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung GT-I6410"
+          "match": "#DEVICE#* Linux/* Opera/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "SAMSUNG-GT-I6410": "Samsung GT-I6410",
+            "SAMSUNG-GT-I8320": "Samsung GT-I8320"
+          }
         },
         {
-          "match": "SAMSUNG-GT-I8320* Linux/* Opera/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung GT-I8320"
+          "match": "Opera?#MAJORVER#.#MINORVER#* (Microsoft Windows; PPC;* Opera Mobi*)*",
+          "device": "general Mobile Phone",
+          "platforms": [
+            "WinMobile"
+          ]
         }
       ]
     }

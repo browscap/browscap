@@ -174,7 +174,7 @@ return [
             'MinorVer' => '3',
             'Platform' => 'JAVA',
             'Platform_Version' => 'unknown',
-            'Platform_Description' => 'Android OS',
+            'Platform_Description' => 'unknown',
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Oracle',
             'Alpha' => false,

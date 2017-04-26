@@ -24,5 +24,31 @@
             "isMobileDevice": "true",
             "isTablet": "false"
         }
+    },
+    "Sharp WS007SH": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "WS007SH",
+            "Device_Name": "WS007SH",
+            "Device_Maker": "Sharp Corporation",
+            "Device_Brand_Name": "Willcom",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Sharp WS020SH": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "WS020SH",
+            "Device_Name": "WS020SH",
+            "Device_Maker": "Sharp Corporation",
+            "Device_Brand_Name": "Sharp",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
     }
 }

@@ -49,7 +49,7 @@
         {
           "match": "#DEVICE# Mozilla/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile?#MAJORVER#.#MINORVER#*)",
           "devices": {
-            "HD_mini_T5555": "HTC HD mini T5555",
+            "HD_mini_T5555": "HTC T5555",
             "HTC_HD2_T8585": "HTC T8585",
             "HTC_Maple_S520": "HTC Maple S520",
             "HTC_P3700": "HTC P3700",

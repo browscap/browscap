@@ -7,7 +7,7 @@
             "Device_Name": "New 3DS",
             "Device_Maker": "Nintendo",
             "Device_Brand_Name": "Nintendo",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "stylus",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -20,7 +20,20 @@
             "Device_Name": "3DS",
             "Device_Maker": "Nintendo",
             "Device_Brand_Name": "Nintendo",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "stylus",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Nintendo DS": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Console",
+            "Device_Code_Name": "DS",
+            "Device_Name": "DS",
+            "Device_Maker": "Nintendo",
+            "Device_Brand_Name": "Nintendo",
+            "Device_Pointing_Method": "stylus",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -33,7 +46,7 @@
             "Device_Name": "DSi",
             "Device_Maker": "Nintendo",
             "Device_Brand_Name": "Nintendo",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "stylus",
             "isMobileDevice": "true",
             "isTablet": "false"
         }

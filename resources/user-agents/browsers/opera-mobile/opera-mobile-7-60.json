@@ -27,8 +27,10 @@
       },
       "children": [
         {
-          "match": "Mozilla/4.0 (compatible*; MSIE 6.0; KDDI-CA33) Opera #MAJORVER#.#MINORVER#*",
-          "device": "KDDI CA33",
+          "match": "Mozilla/4.0 (compatible*; MSIE 6.0; #DEVICE#) Opera #MAJORVER#.#MINORVER#*",
+          "devices": {
+            "KDDI-CA33": "KDDI CA33"
+          },
           "platforms": [
             "WinMobile"
           ]
@@ -45,6 +47,13 @@
           "device": "general Mobile Phone",
           "platforms": [
             "WinMobile"
+          ]
+        },
+        {
+          "match": "Mozilla/4.0 (compatible; MSIE*Windows CE*)*Opera?#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Phone",
+          "platforms": [
+            "WinCE"
           ]
         }
       ]

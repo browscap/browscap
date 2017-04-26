@@ -103,6 +103,19 @@
             "isTablet": "false"
         }
     },
+    "Motorola A1000": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "A1000",
+            "Device_Name": "A1000",
+            "Device_Maker": "Motorola",
+            "Device_Brand_Name": "Motorola",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Motorola A3100": {
         "standard": false,
         "properties": {
@@ -1000,6 +1013,19 @@
             "isTablet": "false"
         }
     },
+    "Motorola M1000": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "M1000",
+            "Device_Name": "M1000",
+            "Device_Maker": "Motorola",
+            "Device_Brand_Name": "Motorola",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Motorola MB200": {
         "standard": false,
         "properties": {
@@ -1203,6 +1229,19 @@
             "Device_Name": "MotoroiX",
             "Device_Maker": "Motorola",
             "Device_Brand_Name": "Motorola",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Motorola Nexus 6": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "Nexus 6",
+            "Device_Name": "Nexus 6",
+            "Device_Maker": "Motorola",
+            "Device_Brand_Name": "Google",
             "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
