@@ -974,32 +974,6 @@
             "isTablet": "false"
         }
     },
-    "HTC HD mini": {
-        "standard": false,
-        "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "HD mini",
-            "Device_Name": "HD mini",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Pointing_Method": "unknown",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
-    },
-    "HTC HD mini T5555": {
-        "standard": false,
-        "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "HD mini T5555",
-            "Device_Name": "HD mini T5555",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
-    },
     "HTC HTC": {
         "standard": false,
         "properties": {
@@ -1767,6 +1741,19 @@
             "isTablet": "false"
         }
     },
+    "HTC T5555": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "T5555",
+            "Device_Name": "HD mini",
+            "Device_Maker": "HTC",
+            "Device_Brand_Name": "HTC",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "HTC T7272": {
         "standard": false,
         "properties": {
@@ -1945,19 +1932,6 @@
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
-    },
-    "HTC Touch HD2 T8585": {
-        "standard": false,
-        "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Touch HD2 T8585",
-            "Device_Name": "Touch HD2 T8585",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Pointing_Method": "unknown",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -2191,7 +2165,20 @@
             "Device_Name": "Advantage",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "HTC X7510": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "X7510",
+            "Device_Name": "Advantage",
+            "Device_Maker": "HTC",
+            "Device_Brand_Name": "HTC",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }

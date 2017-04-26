@@ -362,7 +362,7 @@ return [
             'Device_Name' => '3DS',
             'Device_Maker' => 'Nintendo',
             'Device_Type' => 'Console',
-            'Device_Pointing_Method' => 'unknown',
+            'Device_Pointing_Method' => 'stylus',
             'Device_Code_Name' => '3DS',
             'Device_Brand_Name' => 'Nintendo',
             'RenderingEngine_Name' => 'NetFront',

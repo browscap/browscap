@@ -86,8 +86,10 @@
           ]
         },
         {
-          "match": "SonyEricssonP990i/R100 Mozilla/4.0 (compatible*; MSIE 6.0; Symbian OS; *) Opera #MAJORVER#.#MINORVER#*",
-          "device": "SonyEricsson P990i",
+          "match": "#DEVICE#/R100 Mozilla/4.0 (compatible*; MSIE 6.0; Symbian OS; *) Opera #MAJORVER#.#MINORVER#*",
+          "devices": {
+            "SonyEricssonP990i": "SonyEricsson P990i"
+          },
           "platforms": [
             "SymbianOS"
           ]

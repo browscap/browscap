@@ -27,12 +27,18 @@
       },
       "children": [
         {
+          "match": "Opera/9.80*(*Linux*Opera Mobi*#PLATFORM#)*Version/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "MeeGo"
+          ]
+        },
+        {
           "match": "Opera/9.80*(#PLATFORM#Opera Mobi*)*Version/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "AndroidLinux",
-            "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4",
-            "Android_F_2_3", "Android_F_4_0", "Android_F_4_1", "Android_F",
-            "Android",
+            "Android_F_4_3", "Android_F_4_2", "Android_F_4_1", "Android_F_4_0",
+            "Android_F_2_3", "Android_F_2_2",
+            "Android_F",
             "SymbianOS_C",
             "WinMobile"
           ]
@@ -42,9 +48,10 @@
           "device": "general Tablet",
           "platforms": [
             "AndroidLinux",
-            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4",
-            "Android_F_4_0", "Android_F_4_1", "Android_F",
-            "Android",
+            "Android_F_4_3", "Android_F_4_2", "Android_F_4_1", "Android_F_4_0",
+            "Android_F_3_1", "Android_F_3_0",
+            "Android_F_2_3", "Android_F_2_2",
+            "Android_F",
             "SymbianOS_C",
             "WinMobile"
           ]

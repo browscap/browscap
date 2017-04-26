@@ -3248,7 +3248,7 @@ return [
             'MinorVer' => '0',
             'Platform' => 'JAVA',
             'Platform_Version' => 'unknown',
-            'Platform_Description' => 'Samsung Bada',
+            'Platform_Description' => 'unknown',
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Oracle',
             'Alpha' => false,
