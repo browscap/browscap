@@ -25,12 +25,11 @@
       },
       "children": [
         {
-          "match": "KDDI-TS21 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "KDDI TS21"
-        },
-        {
-          "match": "KDDI-TS25 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "KDDI TS25"
+          "match": "#DEVICE# UP.Browser/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "KDDI-TS21": "KDDI TS21",
+            "KDDI-TS25": "KDDI TS25"
+          }
         },
         {
           "match": "OPWV-SDK/* UP.Browser/#MAJORVER#.#MINORVER#*"

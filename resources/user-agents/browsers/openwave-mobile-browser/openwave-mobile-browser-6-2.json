@@ -47,10 +47,6 @@
           "match": "AUDIOVOX-CDM8912SP/T115SP0T13 UP.Browser/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "Alcatel-BH4/1.0 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Alcatel BH4"
-        },
-        {
           "match": "Alcatel-BH4R/1.0 UP.Browser/#MAJORVER#.#MINORVER#*"
         },
         {
@@ -168,42 +164,6 @@
           "match": "KD882 UP.Browser/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "KDDI-CA23 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "KDDI CA23"
-        },
-        {
-          "match": "KDDI-CA26 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "KDDI CA26"
-        },
-        {
-          "match": "KDDI-CA28 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "KDDI CA28"
-        },
-        {
-          "match": "KDDI-CA31 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "KDDI CA31"
-        },
-        {
-          "match": "KDDI-CA32 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "KDDI CA32"
-        },
-        {
-          "match": "KDDI-CA33 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "KDDI CA33"
-        },
-        {
-          "match": "KDDI-CA34 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "KDDI CA34"
-        },
-        {
-          "match": "KDDI-CA37 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "KDDI CA37"
-        },
-        {
-          "match": "KDDI-CA39 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "KDDI CA39"
-        },
-        {
           "match": "KDDI-CA3A UP.Browser/#MAJORVER#.#MINORVER#*"
         },
         {
@@ -220,10 +180,6 @@
         },
         {
           "match": "KDDI-HI36 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "KDDI-KC31 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "KDDI KC31"
         },
         {
           "match": "KDDI-KC32 UP.Browser/#MAJORVER#.#MINORVER#*"
@@ -275,10 +231,6 @@
         },
         {
           "match": "KDDI-SN3C UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "KDDI-SN3F UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "KDDI SN3F"
         },
         {
           "match": "KDDI-ST25 UP.Browser/#MAJORVER#.#MINORVER#*"
@@ -336,242 +288,6 @@
         },
         {
           "match": "KZC-F520/1.0 iPanel/2.0 WAP2.0 (compatible; UP.Browser/#MAJORVER#.#MINORVER#*; UPG1; UP/4.0; Embedded) *"
-        },
-        {
-          "match": "LG-C1300 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "LG C1300"
-        },
-        {
-          "match": "LG-C1300i UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "LG C1300i"
-        },
-        {
-          "match": "LG-C2000 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "LG C2000"
-        },
-        {
-          "match": "LG-C950/1.0UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "LG C950"
-        },
-        {
-          "match": "LG-CG300 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "LG CG300"
-        },
-        {
-          "match": "LG-F1200 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "LG F1200"
-        },
-        {
-          "match": "LG-F9100 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "LG F9100"
-        },
-        {
-          "match": "LG-G4015 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "LG G4015"
-        },
-        {
-          "match": "LG-G4050 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "LG G4050"
-        },
-        {
-          "match": "LG-G5500 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "LG G5500"
-        },
-        {
-          "match": "LG-G7050 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "LG G7050"
-        },
-        {
-          "match": "LG-G7200 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "LG G7200"
-        },
-        {
-          "match": "LG-L1100 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "LG L1100"
-        },
-        {
-          "match": "LG-L1150 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "LG L1150"
-        },
-        {
-          "match": "LG-L1200 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "LG L1200"
-        },
-        {
-          "match": "LG-L1400 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "LG L1400"
-        },
-        {
-          "match": "LG-L5100 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "LG L5100"
-        },
-        {
-          "match": "LG-LG220C* UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "LG LG220C"
-        },
-        {
-          "match": "LG-MG130 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "LG MG130"
-        },
-        {
-          "match": "LG-MG270 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "LG MG270"
-        },
-        {
-          "match": "LG-T5100 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "LG T5100"
-        },
-        {
-          "match": "LG-W800/1.0 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "LG W800"
-        },
-        {
-          "match": "LG535/1.0 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "LG LG535"
-        },
-        {
-          "match": "LG8700/1.1 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "LG LG8700"
-        },
-        {
-          "match": "LGE-AD6335/1.0 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "LG AD6335"
-        },
-        {
-          "match": "LGE-AX260/1.0 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "LG AX260"
-        },
-        {
-          "match": "LGE-AX4270/1.0 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "LG AX4270"
-        },
-        {
-          "match": "LGE-AX4750/1.0 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "LG AX4750"
-        },
-        {
-          "match": "LGE-AX490/1.0 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "LG AX490"
-        },
-        {
-          "match": "LGE-BX6170/1.0 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "LG BX6170"
-        },
-        {
-          "match": "LGE-CX5450 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "LG CX5450"
-        },
-        {
-          "match": "LGE-LG290C/1.0* UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "LG LG290C"
-        },
-        {
-          "match": "LGE-LG300/1.0 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "LG LG300"
-        },
-        {
-          "match": "LGE-LG325/1.0 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "LG LG325"
-        },
-        {
-          "match": "LGE-LG3300/1.0 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "LG LG3300"
-        },
-        {
-          "match": "LGE-LG4600 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "LG LG4600"
-        },
-        {
-          "match": "LGE-LG6070 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "LG LG6070"
-        },
-        {
-          "match": "LGE-LG6200/1.0 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "LG LG6200"
-        },
-        {
-          "match": "LGE-LX5350/4.0 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "LG LX5350"
-        },
-        {
-          "match": "LGE-MM535/1.0 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "LG MM535"
-        },
-        {
-          "match": "LGE-MN240/1.0 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "LG MN240"
-        },
-        {
-          "match": "LGE-MX200_VEZ/1.0 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "LG MX200_VEZ"
-        },
-        {
-          "match": "LGE-MX500_VEZ/1.0 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "LG MX500_VEZ"
-        },
-        {
-          "match": "LGE-MX510/1.0 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "LG MX510"
-        },
-        {
-          "match": "LGE-MX7000/1.0 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "LG MX7000"
-        },
-        {
-          "match": "LGE-PM225/1.0 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "LG PM225"
-        },
-        {
-          "match": "LGE-PM325/1.0 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "LG PM325"
-        },
-        {
-          "match": "LGE-VI125/1.0 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "LG VI125"
-        },
-        {
-          "match": "LGE-VI5225/1.0 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "LG VI5225"
-        },
-        {
-          "match": "LGE-VX6100/1.0 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "LG VX6100"
-        },
-        {
-          "match": "LGE-VX7000/1.0 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "LG VX7000"
-        },
-        {
-          "match": "LGE-VX8100/1.0 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "LG VX8100"
-        },
-        {
-          "match": "LGE-VX8300/1.0 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "LG VX8300"
-        },
-        {
-          "match": "LGE-VX8350/1.0 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "LG VX8350"
-        },
-        {
-          "match": "LGE-VX8500/1.0 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "LG VX8500"
-        },
-        {
-          "match": "LGE-VX8610/1.0 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "LG VX8610"
-        },
-        {
-          "match": "LGE-VX9100/1.0 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "LG VX9100"
-        },
-        {
-          "match": "LGE-VX9800/1.0 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "LG VX9800"
-        },
-        {
-          "match": "LGE-VX9900/1.0 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "LG VX9900"
         },
         {
           "match": "MODOTTEL-WTE_320/1.0 UP.Browser/#MAJORVER#.#MINORVER#*"
@@ -871,399 +587,7 @@
           "match": "SAGEM-myZ-5/1.0 UP.Browser/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "SAMSUNG-C3050-ORANGE/* Openwave/#MAJORVER#.#MINORVER#* UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung C3050"
-        },
-        {
-          "match": "SAMSUNG-C3050/1.0 Openwave/#MAJORVER#.#MINORVER#* UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung C3050"
-        },
-        {
-          "match": "SAMSUNG-C3053/1.0 Openwave/#MAJORVER#.#MINORVER#* UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung C3053"
-        },
-        {
-          "match": "SAMSUNG-E1410/1.0 Openwave/#MAJORVER#.#MINORVER#* UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung E1410"
-        },
-        {
-          "match": "SAMSUNG-GT-C3010/1.0 Openwave/#MAJORVER#.#MINORVER#* UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung C3010"
-        },
-        {
-          "match": "SAMSUNG-GT-E2550/E2550* UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung GT-E2550"
-        },
-        {
-          "match": "SAMSUNG-SAMSUNG SGH-X620/1.0 * UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-X620"
-        },
-        {
-          "match": "SAMSUNG-SGH-D488/1.0* UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-D488"
-        },
-        {
-          "match": "SAMSUNG-SGH-D500/1.0 * UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-D500"
-        },
-        {
-          "match": "SAMSUNG-SGH-D500C/1.0 * UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-D500C"
-        },
-        {
-          "match": "SAMSUNG-SGH-D500E/1.0 * UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-D500E"
-        },
-        {
-          "match": "SAMSUNG-SGH-D508/1.0/WAP2.0 * UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-D508"
-        },
-        {
-          "match": "SAMSUNG-SGH-D510/1.0 * UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-D510"
-        },
-        {
-          "match": "SAMSUNG-SGH-D600/1.0 * UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-D600"
-        },
-        {
-          "match": "SAMSUNG-SGH-D600E/1.0 * UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-D600E"
-        },
-        {
-          "match": "SAMSUNG-SGH-D608/1.0/WAP2.0 */* UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-D608"
-        },
-        {
-          "match": "SAMSUNG-SGH-D820/1.0 * UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-D820"
-        },
-        {
-          "match": "SAMSUNG-SGH-D880/D880XAHC1 * UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-D880"
-        },
-        {
-          "match": "SAMSUNG-SGH-D900/1.0 * UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-D900"
-        },
-        {
-          "match": "SAMSUNG-SGH-D900i/1.0 * UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-D900i"
-        },
-        {
-          "match": "SAMSUNG-SGH-D908/1.0/WAP2.0 * UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-D908"
-        },
-        {
-          "match": "SAMSUNG-SGH-E250/* UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-E250"
-        },
-        {
-          "match": "SAMSUNG-SGH-E330/1.0 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-E330"
-        },
-        {
-          "match": "SAMSUNG-SGH-E330C/1.0 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-E330C"
-        },
-        {
-          "match": "SAMSUNG-SGH-E330N/1.0 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-E330N"
-        },
-        {
-          "match": "SAMSUNG-SGH-E335/E335* UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-E335"
-        },
-        {
-          "match": "SAMSUNG-SGH-E338/1.0* UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-E338"
-        },
-        {
-          "match": "SAMSUNG-SGH-E340/1.0 * UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-E340"
-        },
-        {
-          "match": "SAMSUNG-SGH-E350/1.0 * UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-E350"
-        },
-        {
-          "match": "SAMSUNG-SGH-E350E/1.0 * UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-E350E"
-        },
-        {
-          "match": "SAMSUNG-SGH-E358/1.0/WAP2.0 * UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-E358"
-        },
-        {
-          "match": "SAMSUNG-SGH-E360/1.0 * EGE/1.0 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-E360"
-        },
-        {
-          "match": "SAMSUNG-SGH-E360/1.0 * UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-E360"
-        },
-        {
-          "match": "SAMSUNG-SGH-E368/1.0/WAP2.0 * UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-E368"
-        },
-        {
-          "match": "SAMSUNG-SGH-E370-VODA/1.0 * UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-E370"
-        },
-        {
-          "match": "SAMSUNG-SGH-E370/1.0 * UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-E370"
-        },
-        {
-          "match": "SAMSUNG-SGH-E500/1.0 * UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-E500"
-        },
-        {
-          "match": "SAMSUNG-SGH-E630C/1.0 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-E630C"
-        },
-        {
-          "match": "SAMSUNG-SGH-E635/E635UVEF3 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-E635"
-        },
-        {
-          "match": "SAMSUNG-SGH-E638/1.0* UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-E638"
-        },
-        {
-          "match": "SAMSUNG-SGH-E640/1.0 * UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-E640"
-        },
-        {
-          "match": "SAMSUNG-SGH-E648/1.0/WAP2.0 * UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-E648"
-        },
-        {
-          "match": "SAMSUNG-SGH-E690/1.0 * UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-E690"
-        },
-        {
-          "match": "SAMSUNG-SGH-E700/BSI UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-E700"
-        },
-        {
-          "match": "SAMSUNG-SGH-E730/1.0 * UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-E730"
-        },
-        {
-          "match": "SAMSUNG-SGH-E736/1.0 * UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-E736"
-        },
-        {
-          "match": "SAMSUNG-SGH-E738/1.0/WAP2.0 * UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-E738"
-        },
-        {
-          "match": "SAMSUNG-SGH-E758/1.0/WAP2.0 * UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-E758"
-        },
-        {
-          "match": "SAMSUNG-SGH-E760/1.0 * UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-E760"
-        },
-        {
-          "match": "SAMSUNG-SGH-E780/1.0 * UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-E780"
-        },
-        {
-          "match": "SAMSUNG-SGH-E800/1.0 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-E800"
-        },
-        {
-          "match": "SAMSUNG-SGH-E800C/1.0 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-E800C"
-        },
-        {
-          "match": "SAMSUNG-SGH-E808/1.0* UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-E808"
-        },
-        {
-          "match": "SAMSUNG-SGH-E820/1.0 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-E820"
-        },
-        {
-          "match": "SAMSUNG-SGH-E830/1.0 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-E830"
-        },
-        {
-          "match": "SAMSUNG-SGH-I858/1.0/WAP2.0 * UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-I858"
-        },
-        {
-          "match": "SAMSUNG-SGH-J700/J700BDHE1 * UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-J700"
-        },
-        {
-          "match": "SAMSUNG-SGH-J700i/J700* UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-J700i"
-        },
-        {
-          "match": "SAMSUNG-SGH-P200-ORANGE/1.0 * UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-P200"
-        },
-        {
-          "match": "SAMSUNG-SGH-T209/T209UVFD3 * UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-T209"
-        },
-        {
-          "match": "SAMSUNG-SGH-T309/T309UVEI1 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-T309"
-        },
-        {
-          "match": "SAMSUNG-SGH-T319/T319UVFD4 * UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-T319"
-        },
-        {
-          "match": "SAMSUNG-SGH-T509/T509* UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-T509"
-        },
-        {
-          "match": "SAMSUNG-SGH-T578/1.0/WAP2.0 * UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-T578"
-        },
-        {
-          "match": "SAMSUNG-SGH-T619/T619* UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-T619"
-        },
-        {
-          "match": "SAMSUNG-SGH-T739/T739* UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-T739"
-        },
-        {
-          "match": "SAMSUNG-SGH-T809/T809* UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-T809"
-        },
-        {
-          "match": "SAMSUNG-SGH-X495/X495* UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-X495"
-        },
-        {
-          "match": "SAMSUNG-SGH-X496/X496* UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-X496"
-        },
-        {
-          "match": "SAMSUNG-SGH-X497/X497* UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-X497"
-        },
-        {
-          "match": "SAMSUNG-SGH-X620/1.0 * UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-X620"
-        },
-        {
-          "match": "SAMSUNG-SGH-X620C/1.0 * UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-X620C"
-        },
-        {
-          "match": "SAMSUNG-SGH-X628/1.0/WAP2.0 * UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-X628"
-        },
-        {
-          "match": "SAMSUNG-SGH-X640/1.0 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-X640"
-        },
-        {
-          "match": "SAMSUNG-SGH-X640C/1.0 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-X640C"
-        },
-        {
-          "match": "SAMSUNG-SGH-X648/1.0/WAP2.0 * UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-X648"
-        },
-        {
-          "match": "SAMSUNG-SGH-X650/1.0 * UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-X650"
-        },
-        {
-          "match": "SAMSUNG-SGH-X658/1.0* UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-X658"
-        },
-        {
-          "match": "SAMSUNG-SGH-X670/1.0 * UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-X670"
-        },
-        {
-          "match": "SAMSUNG-SGH-X700/1.0 * UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-X700"
-        },
-        {
-          "match": "SAMSUNG-SGH-X708/1.0/WAP2.0 * UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-X708"
-        },
-        {
-          "match": "SCH-A650 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SCH-A650"
-        },
-        {
           "match": "SCH-A870 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "SCH-A990 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SCH-A990"
-        },
-        {
-          "match": "SCH-N415 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SCH-N415"
-        },
-        {
-          "match": "SCH-R210 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SCH-R210"
-        },
-        {
-          "match": "SCH-R211 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SCH-R211"
-        },
-        {
-          "match": "SCH-R430 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SCH-R430"
-        },
-        {
-          "match": "SCH-U520 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SCH-U520"
-        },
-        {
-          "match": "SCH-W569 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SCH-W569"
-        },
-        {
-          "match": "SCH-X859 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SCH-X859"
-        },
-        {
-          "match": "SCH-i819 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SCH-I819"
-        },
-        {
-          "match": "SEC-SGHC108/1.0 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-C108"
-        },
-        {
-          "match": "SEC-SGHC110/1.0 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-C110"
-        },
-        {
-          "match": "SEC-SGHM620/1.0 Openwave/#MAJORVER#.#MINORVER#* UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-M620"
-        },
-        {
-          "match": "SEC-SGHP408* UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-P408"
-        },
-        {
-          "match": "SEC-SGHP510 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-P510"
-        },
-        {
-          "match": "SEC-SGHP510/1.0 UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-P510"
-        },
-        {
-          "match": "SEC-SGHP518* UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-P518"
         },
         {
           "match": "SHARP-TM-100/1.0 * UP.Browser/#MAJORVER#.#MINORVER#*"
@@ -1365,10 +689,6 @@
           "match": "Vodafone/1.0/SAMSUNG-B2100/* UP.Browser/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "Vodafone/1.0/SAMSUNG-SGH-J700?/*/1.0 * UP.Browser/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-J700"
-        },
-        {
           "match": "Vodafone/1.0/SamsungC3050/C3050* Browser/Openwave/#MAJORVER#.#MINORVER#* UP.Browser/#MAJORVER#.#MINORVER#*"
         },
         {
@@ -1376,10 +696,6 @@
         },
         {
           "match": "kejian-k358 UP.Browser/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "lge-vx8100/1.0 UP. Browser/#MAJORVER#.#MINORVER#*",
-          "device": "LG VX8100"
         },
         {
           "match": "sam-r310 UP.Browser/#MAJORVER#.#MINORVER#*sam-r310 UP.Browser/#MAJORVER#.#MINORVER#*"
@@ -1416,6 +732,252 @@
         },
         {
           "match": "r451* UP.Browser/#MAJORVER#.#MINORVER#*Novarra-Vision/*"
+        },
+        {
+          "match": "#DEVICE#/1.0 UP.Browser/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "Alcatel-BH4": "Alcatel BH4",
+            "LG-W800": "LG W800",
+            "LG535": "LG LG535",
+            "LGE-AD6335": "LG AD6335",
+            "LGE-AX260": "LG AX260",
+            "LGE-AX4270": "LG AX4270",
+            "LGE-AX4750": "LG AX4750",
+            "LGE-AX490": "LG AX490",
+            "LGE-BX6170": "LG BX6170",
+            "LGE-LG300": "LG LG300",
+            "LGE-LG325": "LG LG325",
+            "LGE-LG3300": "LG LG3300",
+            "LGE-LG6200": "LG LG6200",
+            "LGE-MM535": "LG MM535",
+            "LGE-MN240": "LG MN240",
+            "LGE-MX200_VEZ": "LG MX200_VEZ",
+            "LGE-MX500_VEZ": "LG MX500_VEZ",
+            "LGE-MX510": "LG MX510",
+            "LGE-MX7000": "LG MX7000",
+            "LGE-PM225": "LG PM225",
+            "LGE-PM325": "LG PM325",
+            "LGE-VI125": "LG VI125",
+            "LGE-VI5225": "LG VI5225",
+            "LGE-VX6100": "LG VX6100",
+            "LGE-VX7000": "LG VX7000",
+            "LGE-VX8100": "LG VX8100",
+            "LGE-VX8300": "LG VX8300",
+            "LGE-VX8350": "LG VX8350",
+            "LGE-VX8500": "LG VX8500",
+            "LGE-VX8610": "LG VX8610",
+            "LGE-VX9100": "LG VX9100",
+            "LGE-VX9800": "LG VX9800",
+            "LGE-VX9900": "LG VX9900",
+            "SAMSUNG-SGH-E330": "Samsung SGH-E330",
+            "SAMSUNG-SGH-E330C": "Samsung SGH-E330C",
+            "SAMSUNG-SGH-E330N": "Samsung SGH-E330N",
+            "SAMSUNG-SGH-E630C": "Samsung SGH-E630C",
+            "SAMSUNG-SGH-E800": "Samsung SGH-E800",
+            "SAMSUNG-SGH-E800C": "Samsung SGH-E800C",
+            "SAMSUNG-SGH-E820": "Samsung SGH-E820",
+            "SAMSUNG-SGH-E830": "Samsung SGH-E830",
+            "SAMSUNG-SGH-X640": "Samsung SGH-X640",
+            "SAMSUNG-SGH-X640C": "Samsung SGH-X640C",
+            "SEC-SGHC108": "Samsung SGH-C108",
+            "SEC-SGHC110": "Samsung SGH-C110",
+            "SEC-SGHP510": "Samsung SGH-P510"
+          }
+        },
+        {
+          "match": "#DEVICE#/1.0 * EGE/1.0 UP.Browser/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "SAMSUNG-SGH-E360": "Samsung SGH-E360"
+          }
+        },
+        {
+          "match": "#DEVICE#/1.0 * UP.Browser/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "SAMSUNG-SAMSUNG SGH-X620": "Samsung SGH-X620",
+            "SAMSUNG-SGH-D500": "Samsung SGH-D500",
+            "SAMSUNG-SGH-D500C": "Samsung SGH-D500C",
+            "SAMSUNG-SGH-D500E": "Samsung SGH-D500E",
+            "SAMSUNG-SGH-D510": "Samsung SGH-D510",
+            "SAMSUNG-SGH-D600": "Samsung SGH-D600",
+            "SAMSUNG-SGH-D600E": "Samsung SGH-D600E",
+            "SAMSUNG-SGH-D820": "Samsung SGH-D820",
+            "SAMSUNG-SGH-D900": "Samsung SGH-D900",
+            "SAMSUNG-SGH-D900i": "Samsung SGH-D900i",
+            "SAMSUNG-SGH-E340": "Samsung SGH-E340",
+            "SAMSUNG-SGH-E350": "Samsung SGH-E350",
+            "SAMSUNG-SGH-E350E": "Samsung SGH-E350E",
+            "SAMSUNG-SGH-E360": "Samsung SGH-E360",
+            "SAMSUNG-SGH-E370": "Samsung SGH-E370",
+            "SAMSUNG-SGH-E370-VODA": "Samsung SGH-E370",
+            "SAMSUNG-SGH-E500": "Samsung SGH-E500",
+            "SAMSUNG-SGH-E640": "Samsung SGH-E640",
+            "SAMSUNG-SGH-E690": "Samsung SGH-E690",
+            "SAMSUNG-SGH-E730": "Samsung SGH-E730",
+            "SAMSUNG-SGH-E736": "Samsung SGH-E736",
+            "SAMSUNG-SGH-E760": "Samsung SGH-E760",
+            "SAMSUNG-SGH-E780": "Samsung SGH-E780",
+            "SAMSUNG-SGH-P200-ORANGE": "Samsung SGH-P200",
+            "SAMSUNG-SGH-X620": "Samsung SGH-X620",
+            "SAMSUNG-SGH-X620C": "Samsung SGH-X620C",
+            "SAMSUNG-SGH-X650": "Samsung SGH-X650",
+            "SAMSUNG-SGH-X670": "Samsung SGH-X670",
+            "SAMSUNG-SGH-X700": "Samsung SGH-X700"
+          }
+        },
+        {
+          "match": "Vodafone/1.0/#DEVICE#?/*/1.0 * UP.Browser/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "SAMSUNG-SGH-J700": "Samsung SGH-J700"
+          }
+        },
+        {
+          "match": "#DEVICE#/1.0* UP.Browser/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "LGE-LG290C": "LG LG290C",
+            "SAMSUNG-SGH-D488": "Samsung SGH-D488",
+            "SAMSUNG-SGH-E338": "Samsung SGH-E338",
+            "SAMSUNG-SGH-E638": "Samsung SGH-E638",
+            "SAMSUNG-SGH-E808": "Samsung SGH-E808",
+            "SAMSUNG-SGH-X658": "Samsung SGH-X658"
+          }
+        },
+        {
+          "match": "#DEVICE#/1.1 UP.Browser/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "LG8700": "LG LG8700"
+          }
+        },
+        {
+          "match": "#DEVICE#/1.0/WAP2.0 */* UP.Browser/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "SAMSUNG-SGH-D608": "Samsung SGH-D608",
+            "SAMSUNG-SGH-E250": "Samsung SGH-E250"
+          }
+        },
+        {
+          "match": "#DEVICE#/1.0/WAP2.0 * UP.Browser/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "SAMSUNG-SGH-D508": "Samsung SGH-D508",
+            "SAMSUNG-SGH-D908": "Samsung SGH-D908",
+            "SAMSUNG-SGH-E358": "Samsung SGH-E358",
+            "SAMSUNG-SGH-E368": "Samsung SGH-E368",
+            "SAMSUNG-SGH-E648": "Samsung SGH-E648",
+            "SAMSUNG-SGH-E738": "Samsung SGH-E738",
+            "SAMSUNG-SGH-E758": "Samsung SGH-E758",
+            "SAMSUNG-SGH-I858": "Samsung SGH-I858",
+            "SAMSUNG-SGH-T578": "Samsung SGH-T578",
+            "SAMSUNG-SGH-X628": "Samsung SGH-X628",
+            "SAMSUNG-SGH-X648": "Samsung SGH-X648",
+            "SAMSUNG-SGH-X708": "Samsung SGH-X708"
+          }
+        },
+        {
+          "match": "#DEVICE#/1.0 Openwave/#MAJORVER#.#MINORVER#* UP.Browser/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "SAMSUNG-C3050": "Samsung C3050",
+            "SAMSUNG-C3053": "Samsung C3053",
+            "SAMSUNG-E1410": "Samsung E1410",
+            "SAMSUNG-GT-C3010": "Samsung C3010",
+            "SEC-SGHM620": "Samsung SGH-M620"
+          }
+        },
+        {
+          "match": "#DEVICE#/* Openwave/#MAJORVER#.#MINORVER#* UP.Browser/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "SAMSUNG-C3050-ORANGE": "Samsung C3050"
+          }
+        },
+        {
+          "match": "#DEVICE# UP.Browser/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "KDDI-CA23": "KDDI CA23",
+            "KDDI-CA26": "KDDI CA26",
+            "KDDI-CA28": "KDDI CA28",
+            "KDDI-CA31": "KDDI CA31",
+            "KDDI-CA32": "KDDI CA32",
+            "KDDI-CA33": "KDDI CA33",
+            "KDDI-CA34": "KDDI CA34",
+            "KDDI-CA37": "KDDI CA37",
+            "KDDI-CA39": "KDDI CA39",
+            "KDDI-KC31": "KDDI KC31",
+            "KDDI-SN3F": "KDDI SN3F",
+            "LG-C1300": "LG C1300",
+            "LG-C1300i": "LG C1300i",
+            "LG-C2000": "LG C2000",
+            "LG-CG300": "LG CG300",
+            "LG-F1200": "LG F1200",
+            "LG-F9100": "LG F9100",
+            "LG-G4015": "LG G4015",
+            "LG-G4050": "LG G4050",
+            "LG-G5500": "LG G5500",
+            "LG-G7050": "LG G7050",
+            "LG-G7200": "LG G7200",
+            "LG-L1100": "LG L1100",
+            "LG-L1150": "LG L1150",
+            "LG-L1200": "LG L1200",
+            "LG-L1400": "LG L1400",
+            "LG-L5100": "LG L5100",
+            "LG-LG220C*": "LG LG220C",
+            "LG-MG130": "LG MG130",
+            "LG-MG270": "LG MG270",
+            "LG-T5100": "LG T5100",
+            "LGE-CX5450": "LG CX5450",
+            "LGE-LG4600": "LG LG4600",
+            "LGE-LG6070": "LG LG6070",
+            "SCH-A650": "Samsung SCH-A650",
+            "SCH-A990": "Samsung SCH-A990",
+            "SCH-i819": "Samsung SCH-I819",
+            "SCH-N415": "Samsung SCH-N415",
+            "SCH-R210": "Samsung SCH-R210",
+            "SCH-R211": "Samsung SCH-R211",
+            "SCH-R430": "Samsung SCH-R430",
+            "SCH-U520": "Samsung SCH-U520",
+            "SCH-W569": "Samsung SCH-W569",
+            "SCH-X859": "Samsung SCH-X859",
+            "SEC-SGHP408*": "Samsung SGH-P408",
+            "SEC-SGHP510": "Samsung SGH-P510",
+            "SEC-SGHP518*": "Samsung SGH-P518"
+          }
+        },
+        {
+          "match": "#DEVICE#/1.0UP.Browser/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "LG-C950": "LG C950"
+          }
+        },
+        {
+          "match": "#DEVICE#/4.0 UP.Browser/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "LGE-LX5350": "LG LX5350"
+          }
+        },
+        {
+          "match": "#DEVICE#* UP.Browser/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "SAMSUNG-GT-E2550/E2550": "Samsung GT-E2550",
+            "SAMSUNG-SGH-D880/D880XAHC1": "Samsung SGH-D880",
+            "SAMSUNG-SGH-E335/E335": "Samsung SGH-E335",
+            "SAMSUNG-SGH-E635/E635UVEF3": "Samsung SGH-E635",
+            "SAMSUNG-SGH-E700/BSI": "Samsung SGH-E700",
+            "SAMSUNG-SGH-J700/J700BDHE1": "Samsung SGH-J700",
+            "SAMSUNG-SGH-J700i/J700": "Samsung SGH-J700i",
+            "SAMSUNG-SGH-T209/T209UVFD3": "Samsung SGH-T209",
+            "SAMSUNG-SGH-T309/T309UVEI1": "Samsung SGH-T309",
+            "SAMSUNG-SGH-T319/T319UVFD4": "Samsung SGH-T319",
+            "SAMSUNG-SGH-T509/T509": "Samsung SGH-T509",
+            "SAMSUNG-SGH-T619/T619": "Samsung SGH-T619",
+            "SAMSUNG-SGH-T739/T739": "Samsung SGH-T739",
+            "SAMSUNG-SGH-T809/T809": "Samsung SGH-T809",
+            "SAMSUNG-SGH-X495/X495": "Samsung SGH-X495",
+            "SAMSUNG-SGH-X496/X496": "Samsung SGH-X496",
+            "SAMSUNG-SGH-X497/X497": "Samsung SGH-X497"
+          }
+        },
+        {
+          "match": "#DEVICE#/1.0 UP. Browser/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "lge-vx8100": "LG VX8100"
+          }
         },
         {
           "match": "* UP.Browser/#MAJORVER#.#MINORVER#*"
