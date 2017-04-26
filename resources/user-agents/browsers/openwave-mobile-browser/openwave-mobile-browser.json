@@ -30,8 +30,10 @@
           }
         },
         {
-          "match": "SonyEricssonS312/* Browser/OpenWave/1.0*",
-          "device": "SonyEricsson S312",
+          "match": "#DEVICE#/* Browser/OpenWave/1.0*",
+          "devices": {
+            "SonyEricssonS312": "SonyEricsson S312"
+          },
           "properties": {
             "Version": "1.0",
             "MajorVer": "1",
@@ -42,31 +44,25 @@
           "match": "AUDIOVOX-PM8920KIT"
         },
         {
-          "match": "SonyEricssonW395/R1FA Browser/OpenWave/1.0 *",
-          "device": "SonyEricsson W395"
+          "match": "#DEVICE#/R1FA Browser/OpenWave/1.0 *",
+          "devices": {
+            "SonyEricssonW395": "SonyEricsson W395"
+          }
         },
         {
           "match": "MOT-8700_/* UP.Browser/*"
         },
         {
-          "match": "MOT-A-0A/* UP.Browser/*",
-          "device": "Motorola A-0A"
-          
-        },
-        {
-          "match": "MOT-A-2B/* UP.Browser/*",
-          "device": "Motorola A-2B"
-        },
-        {
-          "match": "MOT-A-88/* UP.Browser/*",
-          "device": "Motorola A-88"
+          "match": "#DEVICE#/* UP.Browser/*",
+          "devices": {
+            "MOT-A-0A": "Motorola A-0A",
+            "MOT-A-2B": "Motorola A-2B",
+            "MOT-A-88": "Motorola A-88",
+            "MOT-SAP4_": "Motorola SAP4"
+          }
         },
         {
           "match": "MOT-GATW_/* UP.Browser/*"
-        },
-        {
-          "match": "MOT-SAP4_/* UP.Browser/*",
-          "device": "Motorola SAP4"
         },
         {
           "match": "UP.Browser/3.01-IG01 UP.Link/3.2.3.4",

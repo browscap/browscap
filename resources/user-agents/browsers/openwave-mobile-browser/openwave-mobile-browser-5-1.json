@@ -31,8 +31,10 @@
           "match": "Haier-P7 UP.Link/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "NEC-N600/1.0 HopenOS/2.0 UP.Link/#MAJORVER#.#MINORVER#*",
-          "device": "NEC N600"
+          "match": "#DEVICE#/1.0 HopenOS/2.0 UP.Link/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "NEC-N600": "NEC N600"
+          }
         },
         {
           "match": "* UP.Link/#MAJORVER#.#MINORVER#*"
