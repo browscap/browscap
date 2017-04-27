@@ -24,36 +24,20 @@
       },
       "children": [
         {
-          "match": "MOT-TA02/* MIB/#MAJORVER#.#MINORVER#*",
-          "device": "Motorola TA02"
+          "match": "#DEVICE#/* MIB/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "MOT-TA02": "Motorola TA02",
+            "MOT-V60M": "Motorola V60M",
+            "MOT-V66M": "Motorola V66M"
+          }
         },
         {
-          "match": "MOT-V60M/03.* MIB/#MAJORVER#.#MINORVER#*",
-          "device": "Motorola V60M"
-        },
-        {
-          "match": "MOT-V66M/03.* MIB/#MAJORVER#.#MINORVER#*",
-          "device": "Motorola V66M"
-        },
-        {
-          "match": "MOT-V730/1.0 MIB#MAJORVER#.#MINORVER#/*",
-          "device": "Motorola V730"
-        },
-        {
-          "match": "MOT-V860/1.0 MIB#MAJORVER#.#MINORVER#/*",
-          "device": "Motorola V860"
-        },
-        {
-          "match": "MOT-V868/1.0 MIB#MAJORVER#.#MINORVER#/*",
-          "device": "Motorola V868"
-        },
-        {
-          "match": "MOT-ta02/06.04.2fr_columbia_3mnc_fix MIB/#MAJORVER#.#MINORVER#*",
-          "device": "Motorola TA02"
-        },
-        {
-          "match": "MOT-ta02/E-G_C_* MIB/#MAJORVER#.#MINORVER#*",
-          "device": "Motorola TA02"
+          "match": "#DEVICE#/* MIB#MAJORVER#.#MINORVER#/*",
+          "devices": {
+            "MOT-V730": "Motorola V730",
+            "MOT-V860": "Motorola V860",
+            "MOT-V868": "Motorola V868"
+          }
         }
       ]
     }

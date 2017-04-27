@@ -24,28 +24,30 @@
       },
       "children": [
         {
-          "match": "MOT-A668/ WAP.Browser/#MAJORVER#.#MINORVER# *",
-          "device": "Motorola A668"
+          "match": "#DEVICE#/ WAP.Browser/#MAJORVER#.#MINORVER# *",
+          "devices": {
+            "MOT-A668": "Motorola A668",
+            "MOT-V690": "Motorola V690",
+            "MOT-V878": "Motorola V878",
+            "MOT-W220": "Motorola W220"
+          }
         },
         {
-          "match": "MOT-V690/ WAP.Browser/#MAJORVER#.#MINORVER# *",
-          "device": "Motorola V690"
+          "match": "#DEVICE#/#MAJORVER#.#MINORVER# MIB1.2/v#MAJORVER#.#MINORVER# *",
+          "devices": {
+            "MOT-V868": "Motorola V868"
+          }
         },
         {
-          "match": "MOT-V868/#MAJORVER#.#MINORVER# MIB1.2/v#MAJORVER#.#MINORVER# *",
-          "device": "Motorola V868"
-        },
-        {
-          "match": "MOT-V878/ WAP.Browser/#MAJORVER#.#MINORVER# *",
-          "device": "Motorola V878"
-        },
-        {
-          "match": "MOT-W220/ WAP.Browser/#MAJORVER#.#MINORVER# *",
+          "match": "#DEVICE#/#MAJORVER#.#MINORVER# Release/* WAP.Browser/1.0*",
           "device": "Motorola W220"
         },
         {
-          "match": "MOT-W220/#MAJORVER#.#MINORVER# Release/6.30.2006 Browser/CMCS1.0 *",
-          "device": "Motorola W220"
+          "match": "#DEVICE#/#MAJORVER#.#MINORVER# Release/* Browser/CMCS1.0 *",
+          "devices": {
+            "MOT-C168i": "Motorola C168i",
+            "MOT-W220": "Motorola W220"
+          }
         }
       ]
     }
