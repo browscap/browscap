@@ -20,12 +20,13 @@
       },
       "children": [
         {
-          "match": "MOT-L6/* MIB/*",
-          "device": "Motorola L6"
-        },
-        {
-          "match": "MOT-L7/* MIB/*",
-          "device": "Motorola L7"
+          "match": "#DEVICE#/* MIB/*",
+          "devices": {
+            "MOT-L6": "Motorola L6",
+            "MOT-L7": "Motorola L7",
+            "MOT-TA02": "Motorola TA02",
+            "MOT-V3": "Motorola V3"
+          }
         },
         {
           "match": "MOT-MP*/* Mozilla/* (compatible; MSIE *; Windows CE; *)",
@@ -40,24 +41,17 @@
           ]
         },
         {
-          "match": "MOT-TA02/* MIB/*",
-          "device": "Motorola TA02"
+          "match": "#DEVICE#/*",
+          "devices": {
+            "MOT-A760": "Motorola A760",
+            "MOT-C168i": "Motorola C168i"
+          }
         },
         {
-          "match": "MOT-V3/* MIB/*",
-          "device": "Motorola V3"
-        },
-        {
-          "match": "MOT-A760/EZX_G_00.*",
-          "device": "Motorola A760"
-        },
-        {
-          "match": "MOT-C168/ WAP.Browser/*",
-          "device": "Motorola C168"
-        },
-        {
-          "match": "MOT-C168i/*",
-          "device": "Motorola C168i"
+          "match": "#DEVICE#/ WAP.Browser/*",
+          "devices": {
+            "MOT-C168": "Motorola C168"
+          }
         }
       ]
     }

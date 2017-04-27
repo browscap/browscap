@@ -24,8 +24,10 @@
       },
       "children": [
         {
-          "match": "MOT-A820/00.00.00 MIB/#MAJORVER#.#MINORVER# *",
-          "device": "Motorola A820"
+          "match": "#DEVICE#/* MIB/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "MOT-A820": "Motorola A820"
+          }
         }
       ]
     }
