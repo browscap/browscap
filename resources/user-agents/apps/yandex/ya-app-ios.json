@@ -1,0 +1,92 @@
+{
+  "division": "YaApp #MAJORVER#.#MINORVER# for iOS",
+  "versions": ["3.11", "2.61", "2.60", "2.40", "2.31"],
+  "sortIndex": 1021,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "YaApp #MAJORVER#.#MINORVER# for iOS",
+      "platform": "iOS",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "YaApp #MAJORVER#.#MINORVER#",
+        "Browser": "YaApp",
+        "Browser_Type": "Application",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Alpha": "false",
+        "Beta": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "Browser_Maker": "Yandex LLC",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) applewebkit/* (*khtml*like*gecko*) YaBrowser/* YaApp_iOS/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "iPad": "iPad"
+          },
+          "platforms": [
+            "iOS_C_8_4", "iOS_C_8_3", "iOS_C_8_2", "iOS_C_8_1",
+            "iOS_C_9_3", "iOS_C_9_2", "iOS_C_9_1", "iOS_C_9_0",
+            "iOS_C_10_3", "iOS_C_10_2", "iOS_C_10_1", "iOS_C_10_0",
+            "iOS_C"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) applewebkit/* (*khtml*like*gecko*) YaBrowser/* YaApp_iOS/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "iPhone": "iPhone"
+          },
+          "platforms": [
+            "iOS_A_8_1", "iOS_A_8_2", "iOS_A_8_3", "iOS_A_8_4",
+            "iOS_A_9_0", "iOS_A_9_1", "iOS_A_9_2", "iOS_A_9_3",
+            "iOS_A_10_0", "iOS_A_10_1", "iOS_A_10_2", "iOS_A_10_3",
+            "iOS_A"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) applewebkit/* (*khtml*like*gecko*) YaBrowser/* YaApp_iOS/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "iPod": "iPod Touch"
+          },
+          "platforms": [
+            "iOS_A_8_1", "iOS_A_8_2", "iOS_A_8_3", "iOS_A_8_4",
+            "iOS_A_9_0", "iOS_A_9_1", "iOS_A_9_2", "iOS_A_9_3",
+            "iOS_A_10_0", "iOS_A_10_1", "iOS_A_10_2", "iOS_A_10_3",
+            "iOS_A",
+            "iOS_B",
+            "iOS_C_8_4", "iOS_C_8_3", "iOS_C_8_2", "iOS_C_8_1",
+            "iOS_C_9_3", "iOS_C_9_2", "iOS_C_9_1", "iOS_C_9_0",
+            "iOS_C_10_3", "iOS_C_10_2", "iOS_C_10_1", "iOS_C_10_0",
+            "iOS_C"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit/* (*khtml*like*gecko*) YaBrowser/* YaApp_iOS/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "iOS_A_8_1", "iOS_A_8_2", "iOS_A_8_3", "iOS_A_8_4",
+            "iOS_A_9_0", "iOS_A_9_1", "iOS_A_9_2", "iOS_A_9_3",
+            "iOS_A_10_0", "iOS_A_10_1", "iOS_A_10_2", "iOS_A_10_3",
+            "iOS_A",
+            "iOS_B",
+            "iOS_C_8_4", "iOS_C_8_3", "iOS_C_8_2", "iOS_C_8_1",
+            "iOS_C_9_3", "iOS_C_9_2", "iOS_C_9_1", "iOS_C_9_0",
+            "iOS_C_10_3", "iOS_C_10_2", "iOS_C_10_1", "iOS_C_10_0",
+            "iOS_C"
+          ]
+        }
+      ]
+    }
+  ]
+}

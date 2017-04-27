@@ -713,10 +713,10 @@ HERE;
     }
 
     /**
-     * checks if a exception is thrown if the sortindex property is missing
+     * checks if an exception is thrown if the platforms property is missing, but the #PLATFORM# placeholder exists
      *
      * @expectedException \UnexpectedValueException
-     * @expectedExceptionMessage the key "cde #PLATFORM#" is defined with platform placeholder, but no platforms are asigned
+     * @expectedExceptionMessage the key "cde #PLATFORM#" is defined with platform placeholder, but no platforms are assigned
      *
      * @group data
      * @group sourcetest
@@ -724,6 +724,20 @@ HERE;
     public function testAddSourceFileThrowsExceptionIfChildrenMatchKeywordHasPlatformPlaceHolderWithoutPlatforms()
     {
         $this->object->addSourceFile(__DIR__ . '/../../fixtures/ua/ua-with-children-with-platform-placeholder-but-no-platforms.json');
+    }
+
+    /**
+     * checks if a exception is thrown if the devices property is missing, but the #DEVICE# placeholder exists
+     *
+     * @expectedException \UnexpectedValueException
+     * @expectedExceptionMessage the key "cde #DEVICE#" is defined with device placeholder, but no devices are assigned
+     *
+     * @group data
+     * @group sourcetest
+     */
+    public function testAddSourceFileThrowsExceptionIfChildrenMatchKeywordHasDevicePlaceHolderWithoutDevices()
+    {
+        $this->object->addSourceFile(__DIR__ . '/../../fixtures/ua/ua-with-children-with-device-placeholder-but-no-devices.json');
     }
 
     /**

@@ -40,7 +40,9 @@
         },
         {
           "match": "#DEVICE#/#MAJORVER#.#MINORVER# Release/* WAP.Browser/1.0*",
-          "device": "Motorola W220"
+          "devices": {
+            "MOT-W220": "Motorola W220"
+          }
         },
         {
           "match": "#DEVICE#/#MAJORVER#.#MINORVER# Release/* Browser/CMCS1.0 *",
