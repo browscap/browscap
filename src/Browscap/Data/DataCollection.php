@@ -425,7 +425,16 @@ class DataCollection
                     ) {
                         throw new \UnexpectedValueException(
                             'the key "' . $child['match']
-                            . '" is defined with platform placeholder, but no platforms are asigned'
+                            . '" is defined with platform placeholder, but no platforms are assigned'
+                        );
+                    }
+
+                    if (false !== strpos($child['match'], '#DEVICE#')
+                        && !isset($child['devices'])
+                    ) {
+                        throw new \UnexpectedValueException(
+                            'the key "' . $child['match']
+                            . '" is defined with device placeholder, but no devices are assigned'
                         );
                     }
 

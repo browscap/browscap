@@ -137,7 +137,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0*(#DEVICE##PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/*Safari/* BingPreview/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0*(#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/*Safari/* BingPreview/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "iOS_A_6_0", "iOS_A_7_0",
             "iOS_A"
