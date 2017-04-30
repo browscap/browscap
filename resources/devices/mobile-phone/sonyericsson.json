@@ -870,6 +870,19 @@
             "isTablet": "false"
         }
     },
+    "SonyEricsson U5i": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "U5i",
+            "Device_Name": "Vivaz",
+            "Device_Maker": "SonyEricsson",
+            "Device_Brand_Name": "SonyEricsson",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "SonyEricsson U5iv": {
         "standard": false,
         "properties": {

@@ -1,6 +1,6 @@
 {
   "division": "Firefox #MAJORVER#.#MINORVER# for iOS",
-  "versions": ["7.3", "7.2", "7.1", 7, "6.1", 6, "5.3", "5.2", "5.1", 5, 4, 3, "2.1", 2],
+  "versions": ["7.4", "7.3", "7.2", "7.1", 7, "6.1", 6, "5.3", "5.2", "5.1", 5, 4, 3, "2.1", 2],
   "sortIndex": 1166,
   "lite": false,
   "standard": true,

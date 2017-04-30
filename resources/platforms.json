@@ -4477,6 +4477,54 @@
       "standard": true,
       "inherits": "SymbianOS"
     },
+    "Series30": {
+      "match": "*Series40*",
+      "lite": false,
+      "standard": true,
+      "properties": {
+        "Platform": "Series30",
+        "Platform_Maker": "Nokia",
+        "Platform_Description": "Series 30",
+        "Platform_Version": "unknown",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "Series40": {
+      "match": "*Series40*",
+      "lite": false,
+      "standard": true,
+      "properties": {
+        "Platform": "Series40",
+        "Platform_Maker": "Nokia",
+        "Platform_Description": "Series 40",
+        "Platform_Version": "unknown",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "Asha": {
+      "match": "*Asha*",
+      "lite": false,
+      "standard": true,
+      "properties": {
+        "Platform": "Asha",
+        "Platform_Maker": "Nokia",
+        "Platform_Description": "Asha Platform",
+        "Platform_Version": "unknown",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
     "Unix": {
       "match": "*UNIX*",
       "lite": false,

@@ -30,24 +30,19 @@
           "match": "#PLATFORM#) UCWEB#MAJORVER#.#MINORVER#*",
           "engine": "WebKit",
           "platforms": [
-            "Android_C_2_3", "Android_C",
+            "Android_C_2_3",
+            "Android_C",
+            "Android_D_4_3", "Android_D_4_2", "Android_D_4_1", "Android_D_4_0",
             "Android_D_2_3",
-            "Android_D_4_0",
-            "Android_D_4_1",
-            "Android_D_4_2",
-            "Android_D_4_3", "Android_D"
+            "Android_D"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) UCBrowser/#MAJORVER#.#MINORVER#* U3/* *Safari/*",
           "engine": "U3",
           "platforms": [
-            "Android_2_2",
-            "Android_2_3",
-            "Android_4_0",
-            "Android_4_1",
-            "Android_4_2",
-            "Android_4_3",
+            "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android_2_3", "Android_2_2",
             "Android"
           ]
         },
@@ -55,12 +50,8 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) UCBrowser/#MAJORVER#.#MINORVER#*Safari/*",
           "engine": "WebKit",
           "platforms": [
-            "Android_2_2",
-            "Android_2_3",
-            "Android_4_0",
-            "Android_4_1",
-            "Android_4_2",
-            "Android_4_3",
+            "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android_2_3", "Android_2_2",
             "Android"
           ]
         },
@@ -81,15 +72,15 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
           "engine": "Blink",
           "devices": {
-            "Lenovo A5500-H": "Lenovo A5500-H",
-            "GT-I8160": "Samsung GT-I8160",
-            "SM-G350E": "Samsung SM-G350E",
             "Beeline Smart 3": "Beeline Smart 3",
+            "GT-I8160": "Samsung GT-I8160",
             "Lenovo A319": "Lenovo A319",
             "Lenovo A328": "Lenovo A328",
-            "Lenovo A7600-H": "Lenovo A7600-H",
+            "Lenovo A3500-FL": "Lenovo A3500-FL",
+            "Lenovo A5500-H": "Lenovo A5500-H",
             "Lenovo A7600-F": "Lenovo A7600-F",
-            "Lenovo A3500-FL": "Lenovo A3500-FL"
+            "Lenovo A7600-H": "Lenovo A7600-H",
+            "SM-G350E": "Samsung SM-G350E"
           },
           "platforms": [
             "Android_4_4"
@@ -129,8 +120,8 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
           "engine": "WebKit",
           "devices": {
-            "HL-PC1088": "Honlin PC1088",
             "Fly IQ450 Quattro": "Fly IQ450",
+            "HL-PC1088": "Honlin PC1088",
             "IQ434": "Fly IQ434",
             "Lenovo A766": "Lenovo A766"
           },
@@ -163,14 +154,9 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/* UCBrowser/#MAJORVER#.#MINORVER#* Mobile*",
           "engine": "Blink",
           "platforms": [
+            "Android_5_1", "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
             "Android_2_3",
-            "Android_4_0",
-            "Android_4_1",
-            "Android_4_2",
-            "Android_4_3",
-            "Android_4_4",
-            "Android_5_0",
-            "Android_5_1",
             "Android"
           ]
         },
@@ -178,14 +164,9 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/*Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
           "engine": "WebKit",
           "platforms": [
+            "Android_5_1", "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
             "Android_2_3",
-            "Android_4_0",
-            "Android_4_1",
-            "Android_4_2",
-            "Android_4_3",
-            "Android_4_4",
-            "Android_5_0",
-            "Android_5_1",
             "Android"
           ]
         },
@@ -214,25 +195,15 @@
           "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
           "engine": "U2",
           "platforms": [
-            "Android_E_2_1",
-            "Android_E_2_2",
-            "Android_E_2_3",
-            "Android_E_4_0",
-            "Android_E_4_1",
-            "Android_E_4_2",
-            "Android_E_4_3",
-            "Android_E_4_4",
+            "Android_E_4_4", "Android_E_4_3", "Android_E_4_2", "Android_E_4_1", "Android_E_4_0",
+            "Android_E_2_3", "Android_E_2_2", "Android_E_2_1",
             "Android_E",
-            "iOS_D_5_0",
-            "iOS_D_5_1",
-            "iOS_D_6_0",
-            "iOS_D_6_1",
-            "iOS_D_7_0",
-            "iOS_D_7_1",
             "iOS_D_8_0",
+            "iOS_D_7_1", "iOS_D_7_0",
+            "iOS_D_6_1", "iOS_D_6_0",
+            "iOS_D_5_1", "iOS_D_5_0",
             "iOS_D",
-            "WinPhone7_C",
-            "WinPhone8_B",
+            "WinPhone7_C", "WinPhone8_B",
             "SymbianOS_B"
           ]
         },
@@ -262,13 +233,13 @@
           "match": "UCWEB/*(MIDP-2.0*#DEVICE#) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
           "engine": "U2",
           "devices": {
-            "C2305": "Sony C2305",
             "A811": "Lexand A811",
             "Beeline Tab": "Beeline Tab",
-            "P7mini": "Huawei P7 Mini",
+            "C2305": "Sony C2305",
             "IQ4406": "Fly IQ4406",
-            "PMP7280C": "Prestigio PMP7280C",
-            "Lenovo A7600-H": "Lenovo A7600-H"
+            "Lenovo A7600-H": "Lenovo A7600-H",
+            "P7mini": "Huawei P7 Mini",
+            "PMP7280C": "Prestigio PMP7280C"
           },
           "platforms": [
             "Android_4_2"
@@ -288,7 +259,11 @@
             "iPad": "iPad"
           },
           "platforms": [
-            "iOS_C_5_1", "iOS_C_5_0", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_1", "iOS_C_8_0", "iOS_C"
+            "iOS_C_8_0", "iOS_C_8_1",
+            "iOS_C_7_1", "iOS_C_7_0",
+            "iOS_C_6_1", "iOS_C_6_0",
+            "iOS_C_5_1", "iOS_C_5_0",
+            "iOS_C"
           ]
         },
         {
@@ -296,7 +271,11 @@
           "engine": "WebKit",
           "device": "general Mobile Device (Apple)",
           "platforms": [
-            "iOS_C_5_1", "iOS_C_5_0", "iOS_C_6_1", "iOS_C_6_0", "iOS_C_7_1", "iOS_C_7_0", "iOS_C_8_1", "iOS_C_8_0", "iOS_C"
+            "iOS_C_8_0", "iOS_C_8_1",
+            "iOS_C_7_1", "iOS_C_7_0",
+            "iOS_C_6_1", "iOS_C_6_0",
+            "iOS_C_5_1", "iOS_C_5_0",
+            "iOS_C"
           ]
         }
       ]
@@ -326,7 +305,7 @@
           "engine": "WebKit",
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
+            "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6", "OSX_10_5", "OSX_10_4",
             "OSX"
           ]
         }

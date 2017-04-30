@@ -29,16 +29,28 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (MeeGo; NokiaN9) applewebkit* (*khtml*like*gecko*) NokiaBrowser/#MAJORVER#.#MINORVER#*Safari/*",
-          "device": "Nokia N9",
+          "match": "Mozilla/5.0 (MeeGo; #DEVICE#*) applewebkit* (*khtml*like*gecko*) NokiaBrowser/#MAJORVER#.#MINORVER#*Safari/*",
+          "devices": {
+            "NokiaN9": "Nokia N9",
+            "NokiaN950-00": "Nokia N950"
+          },
           "platforms": [
             "MeeGo"
           ]
         },
         {
-          "match": "Mozilla/5.0 (MeeGo*) applewebkit* (*khtml*like*gecko*) NokiaBrowser/#MAJORVER#.#MINORVER#*Safari/*",
+          "match": "Mozilla/5.0 (*#DEVICE#*#PLATFORM#) applewebkit* (*khtml*like*gecko*) NokiaBrowser/#MAJORVER#.#MINORVER#*Safari/*",
+          "devices": {
+            "Jolla": "Jolla Phone"
+          },
           "platforms": [
-            "MeeGo"
+            "SailfishOS"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) NokiaBrowser/#MAJORVER#.#MINORVER#*Safari/*",
+          "platforms": [
+            "MeeGo", "SailfishOS"
           ]
         }
       ]

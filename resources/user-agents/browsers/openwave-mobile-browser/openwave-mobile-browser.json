@@ -110,6 +110,14 @@
           }
         },
         {
+          "match": "Nokia* UP.Browser/*",
+          "device": "general Mobile Phone (Nokia)"
+        },
+        {
+          "match": "Nokia* UP.Link/*",
+          "device": "general Mobile Phone (Nokia)"
+        },
+        {
           "match": "* Browser/OpenWave/* Profile/MIDP*"
         },
         {

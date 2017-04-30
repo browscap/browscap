@@ -37,6 +37,10 @@
           }
         },
         {
+          "match": "Nokia* UP.Link/#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Phone (Nokia)"
+        },
+        {
           "match": "* UP.Link/#MAJORVER#.#MINORVER#*"
         }
       ]

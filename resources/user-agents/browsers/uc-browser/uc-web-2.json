@@ -30,29 +30,38 @@
           "match": "#PLATFORM#) UCWEB#MAJORVER#.#MINORVER#*",
           "engine": "WebKit",
           "platforms": [
-            "Android_C_2_3", "Android_C",
-            "Android_D_2_3", "Android_D_4_0", "Android_D_4_1", "Android_D_4_2", "Android_D_4_3", "Android_D"
+            "Android_D_4_3", "Android_D_4_2", "Android_D_4_1", "Android_D_4_0",
+            "Android_D_2_3",
+            "Android_D",
+            "Android_C_2_3",
+            "Android_C"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) UCBrowser/#MAJORVER#.#MINORVER#* U3/* *Safari/*",
           "engine": "U3",
           "platforms": [
-            "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android"
+            "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android_2_3", "Android_2_2",
+            "Android"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) UCBrowser/#MAJORVER#.#MINORVER#*Safari/*",
           "engine": "WebKit",
           "platforms": [
-            "Android_2_2", "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android"
+            "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android_2_3", "Android_2_2",
+            "Android"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/*Safari/* UCBrowser/#MAJORVER#.#MINORVER#* Mobile*",
           "engine": "WebKit",
           "platforms": [
-            "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android"
+            "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android_2_3",
+            "Android"
           ]
         },
         {
@@ -60,7 +69,8 @@
           "device": "general Mobile Phone (Touch)",
           "engine": "U2",
           "platforms": [
-            "Android_E_2_1", "Android_E_2_2", "Android_E_2_3", "Android_E_4_0", "Android_E_4_1", "Android_E_4_2", "Android_E_4_3", "Android_E_4_4",
+            "Android_E_4_4", "Android_E_4_3", "Android_E_4_2", "Android_E_4_1", "Android_E_4_0",
+            "Android_E_2_3", "Android_E_2_2", "Android_E_2_1",
             "Android_E"
           ]
         },
@@ -128,7 +138,11 @@
           "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
           "engine": "U2",
           "platforms": [
-            "iOS_D_5_0", "iOS_D_5_1", "iOS_D_6_0", "iOS_D_6_1", "iOS_D_7_0", "iOS_D_7_1", "iOS_D_8_0", "iOS_D"
+            "iOS_D_8_0",
+            "iOS_D_7_1", "iOS_D_7_0",
+            "iOS_D_6_1", "iOS_D_6_0",
+            "iOS_D_5_1", "iOS_D_5_0",
+            "iOS_D"
           ]
         },
         {

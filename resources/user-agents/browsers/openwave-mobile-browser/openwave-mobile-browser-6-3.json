@@ -70,6 +70,10 @@
           "match": "UTS-7126M/1.0 UP.Browser/#MAJORVER#.#MINORVER#*"
         },
         {
+          "match": "Nokia* UP.Browser/#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Phone (Nokia)"
+        },
+        {
           "match": "* UP.Browser/#MAJORVER#.#MINORVER#*"
         }
       ]

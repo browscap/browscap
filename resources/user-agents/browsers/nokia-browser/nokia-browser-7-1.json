@@ -29,23 +29,35 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (SymbianOS/*; Series60/* NokiaE55-1/021.013*) applewebkit* (*khtml*like*gecko*) Version/3.0 BrowserNG/#MAJORVER#.#MINORVER#*",
-          "device": "Nokia E55-1"
+          "match": "Mozilla/5.0 (SymbianOS/*; Series60/* #DEVICE#/*) applewebkit* (*khtml*like*gecko*) Version/3.0 BrowserNG/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "NokiaE52-2": "Nokia E52-2",
+            "NokiaE55-1": "Nokia E55-1",
+            "NokiaE72": "Nokia E72",
+            "NokiaE75-2": "Nokia E75-2",
+            "NokiaN86-1": "Nokia N86-1",
+            "NokiaN86-3": "Nokia N86-3"
+          }
         },
         {
-          "match": "Mozilla/5.0 (SymbianOS/*; Series60/* NokiaN86-1/*; *) applewebkit* (*khtml*like*gecko*) Version/3.0 BrowserNG/#MAJORVER#.#MINORVER#*",
-          "device": "Nokia N86-1"
+          "match": "Mozilla/5.0 (SymbianOS/*; Series60/* #DEVICE#/*) applewebkit* (*khtml*like*gecko*) BrowserNG/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "Nokiae63-1": "Nokia E63-1",
+            "NokiaN97-1": "Nokia N97-1"
+          }
+        },
+        {
+          "match": "#DEVICE#/* (SymbianOS/*; Series60/*) applewebkit* (*khtml*like*gecko*) BrowserNG/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "NokiaN97": "Nokia N97",
+            "NokiaN97mini": "Nokia N97 Mini"
+          }
+        },
+        {
+          "match": "Nokia*/* (SymbianOS/*; Series60/*) applewebkit* (*khtml*like*gecko*) BrowserNG/#MAJORVER#.#MINORVER#*"
         },
         {
           "match": "Mozilla/5.0 (SymbianOS/*; Series60/*) applewebkit* (*khtml*like*gecko*) Version/3.0 BrowserNG/#MAJORVER#.#MINORVER#*"
-        },
-        {
-          "match": "Mozilla/5.0 (SymbianOS/*; Series60/* NokiaN97-1/12.0.024; *; *) applewebkit* (*khtml*like*gecko*) BrowserNG/#MAJORVER#.#MINORVER#*",
-          "device": "Nokia N97-1"
-        },
-        {
-          "match": "Mozilla/5.0 (SymbianOS/*; Series60/* NokiaN97-1/2*; *) applewebkit* (*khtml*like*gecko*) BrowserNG/#MAJORVER#.#MINORVER#*",
-          "device": "Nokia N97-1"
         },
         {
           "match": "Mozilla/5.0 (SymbianOS/*; Series60/*) applewebkit* (*khtml*like*gecko*) BrowserNG/#MAJORVER#.#MINORVER#*"
