@@ -27,29 +27,30 @@
       },
       "children": [
         {
-          "match": "MQQBrowser/#MAJORVER#.#MINORVER#*Mozilla/5.0 (#PLATFORM#GT-N7100 Build/*) applewebkit* (*khtml*like*gecko*) Version/4.0 *Safari/*",
-          "device": "Samsung GT-N7100",
+          "match": "MQQBrowser/#MAJORVER#.#MINORVER#*Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/4.0 *Safari/*",
+          "devices": {
+            "GT-I9100": "Samsung GT-I9100",
+            "GT-N7100": "Samsung GT-N7100"
+          },
           "platforms": [
-            "Android_2_3", "Android_4_0", "Android_4_1"
+            "Android_4_1", "Android_4_0",
+            "Android_2_3"
           ]
         },
         {
-          "match": "MQQBrowser/#MAJORVER#.#MINORVER#*Mozilla/5.0 (#PLATFORM#GT-I9100 Build/*) applewebkit* (*khtml*like*gecko*) Version/4.0 *Safari/*",
-          "device": "Samsung GT-I9100",
-          "platforms": [
-            "Android_2_3", "Android_4_0", "Android_4_1"
-          ]
-        },
-        {
-          "match": "MQQBrowser/#MAJORVER#.#MINORVER#*Mozilla/5.0 (#PLATFORM#A5000 Build/*) applewebkit* (*khtml*like*gecko*) Version/4.0 *Safari/*",
-          "device": "Sony A5000",
+          "match": "MQQBrowser/#MAJORVER#.#MINORVER#*Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/4.0 *Safari/*",
+          "devices": {
+            "A5000": "Sony A5000"
+          },
           "platforms": [
             "Android"
           ]
         },
         {
-          "match": "MQQBrowser/#MAJORVER#.#MINORVER#*Mozilla/5.0 (#PLATFORM#MI 4LTE Build/*) applewebkit* (*khtml*like*gecko*) Version/4.0 Chrome/*Safari/*",
-          "device": "Xiaomi Mi 4 LTE",
+          "match": "MQQBrowser/#MAJORVER#.#MINORVER#*Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/4.0 Chrome/*Safari/*",
+          "devices": {
+            "MI 4LTE": "Xiaomi Mi 4 LTE"
+          },
           "engine": "Blink",
           "platforms": [
             "Android_4_4"
@@ -59,13 +60,21 @@
           "match": "MQQBrowser/#MAJORVER#.#MINORVER#*Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/4.0 Chrome/*Safari/*",
           "engine": "Blink",
           "platforms": [
-            "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android_5_0", "Android_5_1", "Android_6_0", "Android"
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android_2_3",
+            "Android"
           ]
         },
         {
           "match": "MQQBrowser/#MAJORVER#.#MINORVER#*Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/4.0 *Safari/*",
           "platforms": [
-            "Android_2_3", "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android_5_0", "Android_5_1", "Android_6_0", "Android"
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android_2_3",
+            "Android"
           ]
         },
         {
@@ -118,7 +127,10 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Version/4.0 Chrome/*MQQBrowser/#MAJORVER#.#MINORVER#*",
           "engine": "Blink",
           "platforms": [
-            "Android_5_1", "Android_6_0", "Android_6_1", "Android_7_0", "Android_7_1", "Android"
+            "Android_7_1", "Android_7_0",
+            "Android_6_1", "Android_6_0",
+            "Android_5_1",
+            "Android"
           ]
         },
         {
@@ -133,7 +145,10 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Version/4.0 MQQBrowser/#MAJORVER#.#MINORVER#*",
           "platforms": [
-            "Android_5_1", "Android_6_0", "Android_6_1", "Android_7_0", "Android_7_1", "Android"
+            "Android_7_1", "Android_7_0",
+            "Android_6_1", "Android_6_0",
+            "Android_5_1",
+            "Android"
           ]
         },
         {
@@ -149,7 +164,10 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Chrome/* MQQBrowser/#MAJORVER#.#MINORVER#*",
           "platforms": [
-            "Android_5_1", "Android_6_0", "Android_6_1", "Android_7_0", "Android_7_1", "Android"
+            "Android_7_1", "Android_7_0",
+            "Android_6_1", "Android_6_0",
+            "Android_5_1",
+            "Android"
           ]
         }
       ]

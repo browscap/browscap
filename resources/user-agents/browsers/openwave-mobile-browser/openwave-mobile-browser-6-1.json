@@ -344,6 +344,14 @@
           }
         },
         {
+          "match": "Nokia* UP.Browser/#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Phone (Nokia)"
+        },
+        {
+          "match": "Nokia* UP.Browser/#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Phone (Nokia)"
+        },
+        {
           "match": "* UP.Browser/#MAJORVER#.#MINORVER#*"
         }
       ]

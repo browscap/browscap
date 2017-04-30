@@ -32,7 +32,10 @@
           "devices": {
             "Microsoft; RM-1067": "Microsoft RM-1067",
             "Microsoft; RM-1090": "Microsoft RM-1090",
-            "Microsoft; RM-1141": "Microsoft RM-1141"
+            "Microsoft; RM-1141": "Microsoft RM-1141",
+            "NOKIA; RM-1040": "Nokia Lumia 730 RM-1040",
+            "NOKIA; RM-821": "Nokia Lumia 920 RM-821",
+            "NOKIA; RM-937": "Nokia Lumia 1520 RM-937"
           },
           "platforms": [
             "WinPhone10_B"
@@ -41,6 +44,7 @@
         {
           "match": "UCWEB/*(#PLATFORM##DEVICE#*) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
           "devices": {
+            "NOKIA; RM-1038": "Nokia Lumia 735 RM-1038",
             "NOKIA; RM-1045": "Nokia Lumia 930 RM-1045"
           },
           "platforms": [
@@ -51,7 +55,6 @@
           "match": "UCWEB/*(#PLATFORM##DEVICE#*) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
           "devices": {
             "Microsoft; RM-1089": "Microsoft RM-1089",
-            "NOKIA; RM-1038": "Nokia Lumia 735 RM-1038",
             "NOKIA; RM-846": "Nokia Lumia 620 RM-846",
             "NOKIA; RM-914": "Nokia Lumia 520 RM-914",
             "NOKIA; RM-974": "Nokia Lumia 635 RM-974",

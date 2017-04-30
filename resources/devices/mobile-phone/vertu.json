@@ -1,0 +1,28 @@
+{
+    "Vertu Constellation Quest": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "Constellation Quest",
+            "Device_Code_Name": "Constellation Quest",
+            "Device_Maker": "Vertu",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "Vertu",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Vertu ConstellationT": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "ConstellationT",
+            "Device_Code_Name": "ConstellationT",
+            "Device_Maker": "Vertu",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Vertu",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    }
+}
