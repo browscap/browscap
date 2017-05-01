@@ -24,5 +24,18 @@
             "isMobileDevice": "true",
             "isTablet": "false"
         }
+    },
+    "Celkon C64": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "C64",
+            "Device_Code_Name": "C64",
+            "Device_Maker": "Celkon",
+            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "Celkon",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
     }
 }

@@ -31,7 +31,8 @@
           "match": "Mozilla/5.0 (SMART-TV;#PLATFORM#) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#* Safari/*",
           "device": "Smart-TV",
           "platforms": [
-            "Tizen_2_4", "Tizen_2_3", "Tizen_2_2", "Tizen"
+            "Tizen_2_4", "Tizen_2_3", "Tizen_2_2",
+            "Tizen"
           ]
         }
       ]
@@ -59,8 +60,19 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (#PLATFORM#SM-Z130H) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#* Safari/*",
-          "device": "Samsung SM-Z130H",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE#) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#* Safari/*",
+          "devices": {
+            "SM-Z200Y": "Samsung SM-Z200Y"
+          },
+          "platforms": [
+            "Tizen_2_4"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE#) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#* Safari/*",
+          "devices": {
+            "SM-Z130H": "Samsung SM-Z130H"
+          },
           "platforms": [
             "Tizen_2_3"
           ]
@@ -68,7 +80,8 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#* Safari/*",
           "platforms": [
-            "Tizen_2_4", "Tizen_2_3", "Tizen_2_2", "Tizen"
+            "Tizen_2_4", "Tizen_2_3", "Tizen_2_2",
+            "Tizen"
           ]
         }
       ]
