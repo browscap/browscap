@@ -149,7 +149,7 @@
           },
           "platforms": [
              "Android_5_1", "Android_5_0",
-             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0"
+             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1"
           ]
         },
         {
@@ -215,7 +215,7 @@
           },
           "platforms": [
             "Android_5_0",
-            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0"
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1"
           ]
         },
         {
@@ -408,23 +408,11 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
           "devices": {
+            "831C": "HTC 831C",
             "C6503": "SonyEricsson C6503",
             "C6603": "Sony C6603",
-            "Galaxy Nexus": "Samsung Galaxy Nexus",
-            "GT-P3100": "Samsung GT-P3100",
-            "SGH-I317": "Samsung SGH-I317",
-            "SGP321": "Sony SGP321",
-            "SM-T210": "Samsung SM-T210"
-          },
-          "platforms": [
-            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
-          "devices": {
-            "831C": "HTC 831C",
             "D2306": "Sony D2306",
+            "Galaxy Nexus": "Samsung Galaxy Nexus",
             "GT-I9190*": "Samsung GT-I9190",
             "GT-I9195*": "Samsung GT-I9195",
             "GT-I9300": "Samsung GT-I9300",
@@ -435,6 +423,7 @@
             "GT-N7100*": "Samsung GT-N7100",
             "GT-N8000": "Samsung GT-N8000",
             "GT-N8020*": "Samsung GT-N8020",
+            "GT-P3100": "Samsung GT-P3100",
             "GT-P5110": "Samsung GT-P5110",
             "GT-P5210*": "Samsung GT-P5210",
             "HTC One S": "HTC PJ401",
@@ -445,10 +434,13 @@
             "Nexus S": "Samsung NexusS",
             "One S": "HTC PJ401",
             "SCH-I605": "Samsung SCH-I605",
+            "SGH-I317": "Samsung SGH-I317",
+            "SGP321": "Sony SGP321",
+            "SM-T210": "Samsung SM-T210",
             "XT907": "Motorola XT907"
           },
           "platforms": [
-            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0"
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1"
           ]
         },
         {
@@ -484,16 +476,6 @@
           },
           "platforms": [
             "Android_4_3", "Android_4_2"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
-          "devices": {
-            "ME301T": "Asus ME301T",
-            "U30GT 2": "Cube U30GT2"
-          },
-          "platforms": [
-            "Android_4_3", "Android_4_2", "Android_4_1"
           ]
         },
         {
@@ -537,6 +519,7 @@
             "LG-P895*": "LG P895",
             "LT25i": "Sony LT25i",
             "LT28h": "SonyEricsson LT28h",
+            "ME301T": "Asus ME301T",
             "ME302C": "Asus ME302C",
             "ME371MG": "Asus ME371MG",
             "MediaPad 10 LINK": "Huawei MediaPad 10",
@@ -549,12 +532,13 @@
             "ST27i": "SonyEricsson ST27i",
             "TouchPad": "HP Touchpad",
             "Transformer Prime TF201": "Asus TF201",
+            "U30GT 2": "Cube U30GT2",
             "U9200": "Huawei U9200",
             "X10.Dual+": "Pearl X10.Dual+",
             "ZP900": "ZOPO ZP900"
           },
           "platforms": [
-            "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0"
+            "Android_4_3", "Android_4_2", "Android_4_1"
           ]
         },
         {
@@ -705,7 +689,13 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
           "devices": {
+            "ASUS Transformer Pad TF700T": "Asus TF700T",
             "C6602": "SonyEricsson C6602",
+            "DROID RAZR HD": "Motorola XT923",
+            "GT-N7000": "Samsung GT-N7000",
+            "GT-P3110": "Samsung GT-P3110",
+            "GT-P5100": "Samsung GT-P5100",
+            "LG-P880": "LG P880",
             "PMP7280C3G": "Prestigio PMP7280C3G",
             "PMP7280C3G_QUAD": "Prestigio PMP7280C3G_QUAD"
           },
@@ -716,26 +706,23 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
           "devices": {
-            "ASUS Transformer Pad TF700T": "Asus TF700T",
-            "DROID RAZR HD": "Motorola XT923",
-            "GT-N7000": "Samsung GT-N7000",
-            "GT-P3110": "Samsung GT-P3110",
-            "GT-P5100": "Samsung GT-P5100",
-            "LG-P880": "LG P880"
-          },
-          "platforms": [
-            "Android_4_2", "Android_4_1", "Android_4_0"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
-          "devices": {
             "7007HD": "Perfeo 7007-HD",
             "800P11B": "KTC 800P11B",
+            "A210": "Acer A210",
+            "A500": "Acer A500",
+            "A510": "Acer A510",
             "Air A70": "RoverPad Air A70",
+            "ASUS Transformer Pad TF300T": "Asus TF300T",
+            "B1-A71": "Acer B1-A71",
+            "folio100": "Toshiba Folio 100",
             "FreeTAB 8001 IPS X2 3G+": "MODECOM FreeTAB 8001 IPS X2 3G+",
             "G527-U081": "Huawei G527-U081",
+            "GT-I8190": "Samsung GT-I8190",
+            "GT-I9100G": "Samsung GT-I9100G",
+            "GT-P5113": "Samsung GT-P5113",
             "GT-S7390": "Samsung GT-S7390",
+            "HTC Desire X": "HTC T328E",
+            "HTC One SV": "HTC One SV",
             "HTC?One dual sim": "HTC M8",
             "HUAWEI G525-U00": "Huawei G525-U00",
             "I9300": "Samsung GT-I9300",
@@ -748,8 +735,14 @@
             "LG-E455g": "LG E455g",
             "LG-E612": "LG E612",
             "LG-E980h": "LG E980h",
+            "LG-P760": "LG P760",
             "LIFETAB_E10310": "Medion E10310",
+            "LIFETAB_S9714": "Medion LifeTab S9714",
+            "LT18i": "SonyEricsson LT18i",
+            "LT26i": "SonyEricsson LT26i",
+            "LT30p": "Sony LT30p",
             "MID": "general Mobile Phone",
+            "MK16i": "SonyEricsson MK16i",
             "MX Enjoy TV BOX": "Geniatech MX Enjoy",
             "N9510": "ZTE N9510",
             "NT-3702M": "iconBIT NT-3702M",
@@ -764,101 +757,17 @@
             "SM-T211": "Samsung SM-T211",
             "Smarty Maxi 10L": "Smarty Maxi 10L",
             "SPH-M840": "Samsung SPH-M840",
+            "ST23i": "Sony ST23i",
             "ST26i*": "Sony ST26i",
             "Surfer 7.34": "Explay Surfer 7.34 3G",
             "TERRA_7oW": "GOCLEVER Terra 7oW",
+            "U8825*": "Huawei U8825",
+            "XT890": "Motorola XT890",
+            "XT925": "Motorola XT925",
             "ZTE V970": "ZTE V970"
           },
           "platforms": [
             "Android_4_1"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
-          "devices": {
-            "A210": "Acer A210",
-            "A500": "Acer A500",
-            "A510": "Acer A510",
-            "ASUS Transformer Pad TF300T": "Asus TF300T",
-            "B1-A71": "Acer B1-A71",
-            "folio100": "Toshiba Folio 100",
-            "GT-I8190": "Samsung GT-I8190",
-            "GT-I9100G": "Samsung GT-I9100G",
-            "GT-P5113": "Samsung GT-P5113",
-            "HTC Desire X": "HTC T328E",
-            "HTC One SV": "HTC One SV",
-            "LG-P760": "LG P760",
-            "LIFETAB_S9714": "Medion LifeTab S9714",
-            "LT18i": "SonyEricsson LT18i",
-            "LT26i": "SonyEricsson LT26i",
-            "LT30p": "Sony LT30p",
-            "MK16i": "SonyEricsson MK16i",
-            "ST23i": "Sony ST23i",
-            "U8825*": "Huawei U8825",
-            "XT890": "Motorola XT890",
-            "XT925": "Motorola XT925"
-          },
-          "platforms": [
-            "Android_4_1", "Android_4_0"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
-          "devices": {
-            "A200": "Acer A200",
-            "AirTab P970g": "DNS AirTab P970g",
-            "ALCATEL ONE TOUCH 997D": "Alcatel OT-997D",
-            "Alpha GTR": "Highscreen Alpha GTR",
-            "ARCHOS 101G9": "Archos 101 G9",
-            "AT200": "Toshiba AT200",
-            "AT300": "Toshiba AT300",
-            "BASE_Lutea_3": "ZTE Lutea 3",
-            "cm_tenderloin": "HP Touchpad",
-            "Cynus T1": "Mobistel Cynus T1",
-            "Desire C": "HTC Desire C",
-            "dL1": "Panasonic dL1",
-            "GT-S7562L": "Samsung GT-S7562L",
-            "HTC Desire S": "HTC Desire S",
-            "HTC Desire SV": "HTC Desire SV",
-            "HTC EVO 3D X515m": "HTC X515m",
-            "HTC Incredible S": "HTC S710E",
-            "HTC One V": "HTC One V",
-            "HTC Sensation XE with Beats Audio Z715e": "HTC Z715e",
-            "HTC Sensation XL with Beats Audio X315e": "HTC X315e",
-            "HTC Sensation Z710e": "HTC Z710e",
-            "HTC Sensation": "HTC Z710",
-            "HTC T328w": "HTC T328w",
-            "HTC T329d": "HTC T329D",
-            "HUAWEI U8666E": "Huawei U8666E",
-            "IM-A830L": "Pantech IM-A830L",
-            "KFTT": "Amazon KFTT",
-            "Lenovo A390_ROW": "Lenovo A390",
-            "Lenovo A390t": "Lenovo A390t",
-            "LIFETAB_P9514": "Medion LifeTab P9514",
-            "LIFETAB_S9512": "Medion LifeTab S9512",
-            "MB855": "Motorola MB855",
-            "MD_LIFETAB_P9516": "Medion LifeTab P9516",
-            "MZ604": "Motorola MZ604",
-            "N1": "Nokia N1",
-            "N861": "ZTE N861",
-            "ODYS-EVO": "Odys Evo",
-            "PX-0905": "Intego PX-0905",
-            "SAMURAI10(QuadCore)": "Shiru Samurai 10",
-            "SGH-I717": "Samsung SGH-I717",
-            "SGPT12": "Sony SGPT12",
-            "SHW-M480W": "Samsung SHW-M480W",
-            "Sony Tablet S": "Sony Tablet S",
-            "SXZ-PDX0-01": "SXZ PDX0-01",
-            "TAB-700": "Acer A700",
-            "TOUCAN Stick 3D mk2": "iconBIT TOUCAN Stick 3D mk2",
-            "Transformer TF101G": "Asus TF101G",
-            "U8860": "Huawei U8860",
-            "XOOM 2 ME": "Motorola MZ608",
-            "XT910": "Motorola XT910",
-            "ZTE U930HD": "ZTE U930HD"
-          },
-          "platforms": [
-            "Android_4_0"
           ]
         },
         {
@@ -867,19 +776,8 @@
             "Android_7_1", "Android_7_0",
             "Android_6_1", "Android_6_0",
             "Android_5_1", "Android_5_0",
-            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1",
             "Android"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*CrMo/#MAJORVER#.*Safari/*",
-          "devices": {
-            "GT-I9100": "Samsung GT-I9100",
-            "HTC Desire": "HTC A8181",
-            "HTC_Sensation": "HTC Z710"
-          },
-          "platforms": [
-            "Android_4_0"
           ]
         },
         {
@@ -917,27 +815,6 @@
           },
           "platforms": [
             "Android_4_1"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit*(*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
-          "devices": {
-            "Digma iDsD7 3G": "Digma iDsD7 3G",
-            "iDnD7": "Digma iDnD7",
-            "PMP5570C": "Prestigio PMP5570C",
-            "PMP7170B3G": "Prestigio PMP7170B3G"
-          },
-          "platforms": [
-            "Android_4_0"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE#*) applewebkit*(*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
-          "devices": {
-            "Lenovo A390": "Lenovo A390"
-          },
-          "platforms": [
-            "Android_4_0"
           ]
         },
         {
@@ -996,7 +873,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit*(*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
           "platforms": [
-            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1",
             "Android"
           ]
         },
@@ -1018,7 +895,6 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*CrMo/#MAJORVER#.*Safari/*",
           "platforms": [
-            "Android_4_0",
             "Android"
           ]
         },
@@ -1156,8 +1032,7 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
           "device": "Windows Desktop",
           "platforms": [
-            "Win95_2", "Win98_2", "NT40_64", "NT4", "NT4_1", "Win2000", "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32",
-            "Vista_64", "Vista_32", "Win7_x64", "Win7_64", "Win7_32",
+            "Win7_x64", "Win7_64", "Win7_32",
             "Win8_x64", "Win8_64", "Win8_32",
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
             "Win10_x64", "Win10_64", "Win10_32", "Win10_x64_B", "Win10_64_B", "Win10_32_B", "Windows"
@@ -1167,8 +1042,7 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
-            "OSX_10_11",
+            "OSX_10_9", "OSX_10_10", "OSX_10_11",
             "OSX"
           ]
         },
@@ -1191,8 +1065,7 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*",
           "device": "Windows Desktop",
           "platforms": [
-            "NT40_64", "NT4", "NT4_1", "Win2000", "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32",
-            "Vista_64", "Vista_32", "Win7_x64", "Win7_64", "Win7_32",
+            "Win7_x64", "Win7_64", "Win7_32",
             "Win8_x64", "Win8_64", "Win8_32",
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
             "Win10_x64", "Win10_64", "Win10_32", "Win10_x64_B", "Win10_64_B", "Win10_32_B", "Windows"
@@ -1202,8 +1075,7 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*",
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
-            "OSX_10_11",
+            "OSX_10_9", "OSX_10_10", "OSX_10_11",
             "OSX"
           ]
         },
@@ -1214,8 +1086,7 @@
           },
           "device": "Windows Desktop",
           "platforms": [
-            "NT40_64", "NT4", "NT4_1", "Win2000", "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32",
-            "Vista_64", "Vista_32", "Win7_x64", "Win7_64", "Win7_32",
+            "Win7_x64", "Win7_64", "Win7_32",
             "Win8_x64", "Win8_64", "Win8_32",
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
             "Win10_x64", "Win10_64", "Win10_32", "Win10_x64_B", "Win10_64_B", "Win10_32_B", "Windows"
@@ -1228,8 +1099,7 @@
           },
           "device": "Windows Desktop",
           "platforms": [
-            "Win95_2", "Win98_2", "NT40_64", "NT4", "NT4_1", "Win2000", "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32",
-            "Vista_64", "Vista_32", "Win7_x64", "Win7_64", "Win7_32",
+            "Win7_x64", "Win7_64", "Win7_32",
             "Win8_x64", "Win8_64", "Win8_32",
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
             "Win10_x64", "Win10_64", "Win10_32", "Win10_x64_B", "Win10_64_B", "Win10_32_B", "Windows"

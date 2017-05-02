@@ -30,6 +30,9 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
           "device": "Linux Desktop",
+          "properties": {
+            "Beta": "true"
+          },
           "platforms": [
             "ChromeOS_x64", "ChromeOS_i686", "ChromeOS",
             "Linux_32", "Linux"
@@ -39,20 +42,26 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
           "device": "Windows Desktop",
           "platforms": [
-            "NT4", "Win2000", "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32"
+            "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
           "device": "Macintosh",
+          "properties": {
+            "Beta": "true"
+          },
           "platforms": [
-            "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
+            "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",
             "OSX"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
           "device": "general Desktop",
+          "properties": {
+            "Beta": "true"
+          },
           "platforms": [
             "FreeBSD_386", "FreeBSD", "OpenBSD_386", "OpenBSD"
           ]
@@ -60,6 +69,9 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*",
           "device": "Linux Desktop",
+          "properties": {
+            "Beta": "true"
+          },
           "platforms": [
             "ChromeOS_x64", "ChromeOS",
             "Linux_32", "Linux"
@@ -69,12 +81,15 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*",
           "device": "Windows Desktop",
           "platforms": [
-            "NT4", "Win2000", "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32"
+            "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*",
           "device": "general Desktop",
+          "properties": {
+            "Beta": "true"
+          },
           "platforms": [
             "FreeBSD_386", "FreeBSD", "OpenBSD_386", "OpenBSD"
           ]
@@ -83,7 +98,7 @@
           "match": "Mozilla/5.0 (#PLATFORM#) Chrome/#MAJORVER#.*",
           "device": "Windows Desktop",
           "platforms": [
-            "NT4", "Win2000", "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32"
+            "WinXPa_32", "WinXPb_32", "Vista_32", "Win7_32"
           ]
         }
       ]

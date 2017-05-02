@@ -601,4 +601,24 @@ return [
         'lite' => false,
         'standard' => true,
     ],
+    // Chrome was never released for anything less than Windows XP officially
+    // https://en.wikipedia.org/wiki/Google_Chrome#Public_release
+    'issue-000-invalid-versions-GH' => [
+        'ua' => 'Mozilla/5.0 (Windows NT 4.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2049.0 Safari/537.36',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'Win32',
+            'Platform_Version' => 'unknown',
+            'Platform_Description' => 'Windows',
+            'RenderingEngine_Name' => 'Blink',
+            'RenderingEngine_Version' => 'unknown',
+            'RenderingEngine_Maker' => 'Google Inc',
+        ],
+        'lite' => false,
+        'standard' => true,
+    ],
 ];
