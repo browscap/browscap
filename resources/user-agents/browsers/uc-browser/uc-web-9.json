@@ -840,6 +840,16 @@
           ]
         },
         {
+          "match": "#DEVICE#/* Profile/MIDP-2* UCWEB/2.0 (*) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/* Mobile*",
+          "engine": "U2",
+          "devices": {
+            "SonyEricssonW910i": "SonyEricsson W910i"
+          },
+          "platforms": [
+            "SymbianOS"
+          ]
+        },
+        {
           "match": "Nokia*/* Profile/MIDP-2* UCWEB/2.0 (*) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/* Mobile*",
           "engine": "U2",
           "device": "general Mobile Phone (Nokia)",

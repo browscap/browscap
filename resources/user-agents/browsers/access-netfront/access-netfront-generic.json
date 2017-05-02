@@ -39,6 +39,9 @@
           "match": "SAMSUNG* *NetFront/*"
         },
         {
+          "match": "SAMSUNG* *NetFront* Profile/MIDP-2.0 Configuration/CLDC-1.1 UNTRUSTED/1.0"
+        },
+        {
           "match": "SEC-* *NetFront/*"
         },
         {

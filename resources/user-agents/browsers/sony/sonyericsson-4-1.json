@@ -1,7 +1,7 @@
 {
   "division": "SonyEricsson #MAJORVER#.#MINORVER#",
-  "versions": ["4.2"],
-  "sortIndex": 10670,
+  "versions": ["4.1"],
+  "sortIndex": 10671,
   "lite": false,
   "standard": true,
   "userAgents": [
@@ -29,22 +29,11 @@
         {
           "match": "#DEVICE#/* Browser/SEMC-Browser/#MAJORVER#.#MINORVER#*",
           "devices": {
-            "SonyEricssonD750i": "SonyEricsson D750i",
-            "SonyEricssonK600": "SonyEricsson K600",
-            "SonyEricssonK600c": "SonyEricsson K600c",
-            "SonyEricssonK600i": "SonyEricsson K600i",
-            "SonyEricssonK608i": "SonyEricsson K608i",
-            "SonyEricssonk608i": "SonyEricsson K608i",
-            "SonyEricssonk750i": "SonyEricsson K750i",
-            "SonyEricssonK758c": "SonyEricsson K758c",
-            "SonyEricssonP900i": "SonyEricsson P900i",
-            "SonyEricssonV600i": "SonyEricsson V600i",
-            "SonyEricssonW700c": "SonyEricsson W700c",
-            "SonyEricssonW750i": "SonyEricsson W750i",
-            "SonyEricssonW800i": "SonyEricsson W800i",
-            "SonyEricssonw810i": "SonyEricsson W810i",
-            "SonyEricssonZ520c": "SonyEricsson Z520c",
-            "SonyEricssonZ520i": "SonyEricsson Z520i"
+            "SonyEricssonV800": "SonyEricsson V800",
+            "SonyEricssonW980i": "SonyEricsson W980i",
+            "SonyEricssonZ800c": "SonyEricsson Z800c",
+            "SonyEricssonZ800i": "SonyEricsson Z800i",
+            "Vodafone/SonyEricssonV800": "SonyEricsson V800"
           }
         },
         {

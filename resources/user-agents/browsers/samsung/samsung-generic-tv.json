@@ -25,43 +25,23 @@
       },
       "children": [
         {
-          "match": "HbbTV/* (*;Samsung;SmartTV2012;*) WebKit*",
-          "device": "Smart-TV",
+          "match": "HbbTV/* (*;Samsung;#DEVICE#;*) WebKit*",
+          "devices": {
+            "SmartTV2012": "Smart-TV",
+            "SmartTV2013": "Smart-TV",
+            "SmartTV2014": "Smart-TV",
+            "SmartTV2015": "Smart-TV",
+            "SmartTV2016": "Smart-TV"
+          },
           "engine": "WebKit"
         },
         {
-          "match": "HbbTV/* (*;Samsung;SmartTV2013;*) WebKit*",
-          "device": "Smart-TV",
-          "engine": "WebKit"
-        },
-        {
-          "match": "HbbTV/* (*;Samsung;SmartTV2014;*) WebKit*",
-          "device": "Smart-TV",
-          "engine": "WebKit"
-        },
-        {
-          "match": "HbbTV/* (*;Samsung;SmartTV2015;T-HKPDEUC*) WebKit*",
-          "device": "Samsung Series J (2015)",
-          "engine": "WebKit"
-        },
-        {
-          "match": "HbbTV/* (*;Samsung;SmartTV2015;T-HKM6DEUC*) WebKit*",
-          "device": "Samsung Series J (2015)",
-          "engine": "WebKit"
-        },
-        {
-          "match": "HbbTV/* (*;Samsung;SmartTV2015;*) WebKit*",
-          "device": "Smart-TV",
-          "engine": "WebKit"
-        },
-        {
-          "match": "HbbTV/* (*;Samsung;SmartTV2016;T-HKMFKDEUC*) WebKit*",
-          "device": "Samsung Series J (2016)",
-          "engine": "WebKit"
-        },
-        {
-          "match": "HbbTV/* (*;Samsung;SmartTV2016;*) WebKit*",
-          "device": "Smart-TV",
+          "match": "HbbTV/* (*;Samsung;#DEVICE#*) WebKit*",
+          "devices": {
+            "SmartTV2015;T-HKM6DEUC": "Samsung Series J (2015)",
+            "SmartTV2015;T-HKPDEUC": "Samsung Series J (2015)",
+            "SmartTV2016;T-HKMFKDEUC": "Samsung Series J (2016)"
+          },
           "engine": "WebKit"
         },
         {

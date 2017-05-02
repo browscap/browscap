@@ -1,0 +1,87 @@
+{
+  "division": "Samsung CrossApp",
+  "sortIndex": 958,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Samsung CrossApp",
+      "platform": "Android",
+      "engine": "Blink",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Samsung CrossApp",
+        "Browser": "Samsung CrossApp",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Samsung",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version*Chrome*Safari* SamsungBrowser/CrossApp/*",
+          "devices": {
+            "SM-G930V": "Samsung SM-G930V",
+            "SM-G935V": "Samsung SM-G935V"
+          },
+          "platforms": [
+            "Android_7_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version*Chrome*Safari* SamsungBrowser/CrossApp/*",
+          "devices": {
+            "SM-A510F": "Samsung SM-A510F",
+            "SM-C9000": "Samsung SM-C9000",
+            "SM-G532G": "Samsung SM-G532G",
+            "SM-G610F": "Samsung SM-G610F",
+            "SM-G890A": "Samsung SM-G890A",
+            "SM-G920I": "Samsung SM-G920I",
+            "SM-G920R6": "Samsung SM-G920R6",
+            "SM-G920T": "Samsung SM-G920T",
+            "SM-G920T1": "Samsung SM-G920T1",
+            "SM-G925R6": "Samsung SM-G925R6",
+            "SM-G925T": "Samsung SM-G925T",
+            "SM-G928A": "Samsung SM-G928A",
+            "SM-G928G": "Samsung SM-G928G",
+            "SM-G928T": "Samsung SM-G928T",
+            "SM-G930P": "Samsung SM-G930P",
+            "SM-G930R4": "Samsung SM-G930R4",
+            "SM-G930R7": "Samsung SM-G930R7",
+            "SM-G930T": "Samsung SM-G930T",
+            "SM-G930VL": "Samsung SM-G930VL",
+            "SM-G935F": "Samsung SM-G935F",
+            "SM-G935P": "Samsung SM-G935P",
+            "SM-G935R4": "Samsung SM-G935R4",
+            "SM-G935T": "Samsung SM-G935T",
+            "SM-J327P": "Samsung SM-J327P",
+            "SM-J500M": "Samsung SM-J500M",
+            "SM-J700T": "Samsung SM-J700T",
+            "SM-J700T1": "Samsung SM-J700T1",
+            "SM-N920A": "Samsung SM-N920A",
+            "SM-N920C": "Samsung SM-N920C",
+            "SM-N920G": "Samsung SM-N920G",
+            "SM-N920T": "Samsung SM-N920T",
+            "SM-S550TL": "Samsung SM-S550TL"
+          },
+          "platforms": [
+            "Android_6_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM# Build/*) applewebkit* (*khtml*like*gecko*) Version*Chrome*Safari* SamsungBrowser/CrossApp/*",
+          "platforms": [
+            "Android_7_1", "Android_7_0",
+            "Android_6_1", "Android_6_0",
+            "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}

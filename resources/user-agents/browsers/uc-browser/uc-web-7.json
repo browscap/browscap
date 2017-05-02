@@ -109,18 +109,23 @@
           "match": "#DEVICE#/UC Browser#MAJORVER#.#MINORVER#*",
           "devices": {
             "lg-c105": "LG C105",
-            "NokiaE63": "Nokia E63",
-            "NokiaN73": "Nokia N73",
-            "NokiaN8-00": "Nokia N8-00",
-            "NOKIAN85": "Nokia N85",
-            "NokiaN97": "Nokia N97"
-          }
+            "samsung-b5722": "Samsung GT-B5722",
+            "samsung-gt-e2152": "Samsung GT-E2152"
+          },
+          "platforms": [
+            "JAVA"
+          ]
         },
         {
           "match": "#DEVICE#/UC Browser#MAJORVER#.#MINORVER#*",
           "devices": {
             "Nokia5230": "Nokia 5230",
-            "nokia6120c": "Nokia 6120c"
+            "nokia6120c": "Nokia 6120c",
+            "NokiaE63": "Nokia E63",
+            "NokiaN73": "Nokia N73",
+            "NOKIAN85": "Nokia N85",
+            "NokiaN8-00": "Nokia N8-00",
+            "NokiaN97": "Nokia N97"
           },
           "platforms": [
             "SymbianOS"
@@ -183,6 +188,12 @@
           },
           "platforms": [
             "SymbianOS"
+          ]
+        },
+        {
+          "match": "SAMSUNG*/UC Browser#MAJORVER#.#MINORVER#*Profile/MIDP-2.0 Configuration/CLDC-1.1 Untrusted/1.0",
+          "platforms": [
+            "JAVA"
           ]
         },
         {

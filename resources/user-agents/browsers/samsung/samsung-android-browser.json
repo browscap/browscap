@@ -1,6 +1,6 @@
 {
   "division": "Samsung Browser #MAJORVER#.#MINORVER#",
-  "versions": ["5.2", 5, "4.2", 4, "3.5", "3.4", "3.3", "3.2", 3, "2.1", 2],
+  "versions": ["5.4", "5.2", 5, "4.2", 4, "3.5", "3.4", "3.3", "3.2", 3, "2.1", 2],
   "sortIndex": 955,
   "lite": false,
   "standard": true,
@@ -30,8 +30,10 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "devices": {
-            "SAMSUNG SM-G485F": "Samsung SM-G485F",
-            "SAMSUNG SM-G935T": "Samsung SM-G935T"
+            "SM-G485F": "Samsung SM-G485F",
+            "SM-G930V": "Samsung SM-G930V",
+            "SM-G935T": "Samsung SM-G935T",
+            "SM-N920C": "Samsung SM-N920C"
           },
           "platforms": [
             "Android_7_0"
@@ -40,33 +42,33 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "devices": {
-            "SAMSUNG SAMSUNG-SM-N930A": "Samsung SM-N930A",
-            "SAMSUNG SM-A320F*": "Samsung SM-A320F",
-            "SAMSUNG SM-A520F": "Samsung SM-A520F",
-            "SAMSUNG SM-A520S": "Samsung SM-A520S",
-            "SAMSUNG SM-A720F": "Samsung SM-A720F",
-            "SAMSUNG SM-A810F": "Samsung SM-A810F",
-            "SAMSUNG SM-A810YZ": "Samsung SM-A810YZ",
-            "SAMSUNG SM-C9000": "Samsung SM-C9000",
-            "SAMSUNG SM-C900F": "Samsung SM-C900F",
-            "SAMSUNG SM-G532F": "Samsung SM-G532F",
-            "SAMSUNG SM-G532G": "Samsung SM-G532G",
-            "SAMSUNG SM-G532M": "Samsung SM-G532M",
-            "SAMSUNG SM-G900T": "Samsung SM-G900T",
-            "SAMSUNG SM-G935F": "Samsung SM-G935F",
-            "SAMSUNG SM-J120A": "Samsung SM-J120A",
-            "SAMSUNG SM-J327P": "Samsung SM-J327P",
-            "SAMSUNG SM-J700F": "Samsung SM-J700F",
-            "SAMSUNG SM-N9200": "Samsung SM-N9200",
-            "SAMSUNG SM-N9208": "Samsung SM-N9208",
-            "SAMSUNG SM-N920K*": "Samsung SM-N920K",
-            "SAMSUNG SM-N920L": "Samsung SM-N920L",
-            "SAMSUNG SM-N920S": "Samsung SM-N920S",
-            "SAMSUNG SM-N930F": "Samsung SM-N930F",
-            "SAMSUNG SM-N930P": "Samsung SM-N930P",
-            "SAMSUNG SM-N930T": "Samsung SM-N930T",
-            "SAMSUNG-SM-N930A": "Samsung SM-N930A",
-            "SM-G930F": "Samsung SM-G930F"
+            "SM-A320F*": "Samsung SM-A320F",
+            "SM-A520F": "Samsung SM-A520F",
+            "SM-A520S": "Samsung SM-A520S",
+            "SM-A720F": "Samsung SM-A720F",
+            "SM-A810F": "Samsung SM-A810F",
+            "SM-A810YZ": "Samsung SM-A810YZ",
+            "SM-C9000": "Samsung SM-C9000",
+            "SM-C900F": "Samsung SM-C900F",
+            "SM-G532F": "Samsung SM-G532F",
+            "SM-G532G": "Samsung SM-G532G",
+            "SM-G532M": "Samsung SM-G532M",
+            "SM-G900T": "Samsung SM-G900T",
+            "SM-G930F": "Samsung SM-G930F",
+            "SM-G935F": "Samsung SM-G935F",
+            "SM-J120A": "Samsung SM-J120A",
+            "SM-J327P": "Samsung SM-J327P",
+            "SM-J700F": "Samsung SM-J700F",
+            "SM-N9200": "Samsung SM-N9200",
+            "SM-N9208": "Samsung SM-N9208",
+            "SM-N920K*": "Samsung SM-N920K",
+            "SM-N920L": "Samsung SM-N920L",
+            "SM-N920S": "Samsung SM-N920S",
+            "SM-N930A": "Samsung SM-N930A",
+            "SM-N930F": "Samsung SM-N930F",
+            "SM-N930P": "Samsung SM-N930P",
+            "SM-N930T": "Samsung SM-N930T",
+            "SM-N930V": "Samsung SM-N930V"
           },
           "platforms": [
             "Android_6_0"
@@ -75,7 +77,6 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "devices": {
-            "SAMSUNG SM-J320P": "Samsung SM-J320P",
             "SM-G360T1": "Samsung SM-G360T1",
             "SM-G900T": "Samsung SM-G900T",
             "SM-G920F*": "Samsung SM-G920F",
@@ -85,24 +86,25 @@
             "SM-G920T1": "Samsung SM-G920T1",
             "SM-G925I": "Samsung SM-G925I",
             "SM-G925P": "Samsung SM-G925P",
-            "SM-G925R4 USCC": "Samsung SM-G925R4",
+            "SM-G925R4*": "Samsung SM-G925R4",
             "SM-G928A": "Samsung SM-G928A",
             "SM-G928F*": "Samsung SM-G928F",
             "SM-G928G": "Samsung SM-G928G",
             "SM-G928I": "Samsung SM-G928I",
             "SM-G928P": "Samsung SM-G928P",
-            "SM-G928R": "Samsung SM-G928R",
+            "SM-G928R*": "Samsung SM-G928R",
             "SM-G928T": "Samsung SM-G928T",
             "SM-G928V": "Samsung SM-G928V",
             "SM-J200G": "Samsung SM-J200G",
             "SM-J200GU": "Samsung SM-J200GU",
+            "SM-J320P": "Samsung SM-J320P",
             "SM-N915P": "Samsung SM-N915P",
             "SM-N9208": "Samsung SM-N9208",
             "SM-N920A": "Samsung SM-N920A",
             "SM-N920I": "Samsung SM-N920I",
             "SM-N920P": "Samsung SM-N920P",
             "SM-N920T": "Samsung SM-N920T",
-            "SM-N920V 4G": "Samsung SM-N920V",
+            "SM-N920V*": "Samsung SM-N920V",
             "SM-N920W8": "Samsung SM-N920W8",
             "SM-P601": "Samsung SM-P601",
             "SM-T280": "Samsung SM-T280"
@@ -114,8 +116,8 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "devices": {
-            "SM-G925T": "Samsung SM-G925T",
-            "SM-G925F*": "Samsung SM-G925F"
+            "SM-G925F*": "Samsung SM-G925F",
+            "SM-G925T": "Samsung SM-G925T"
           },
           "platforms": [
             "Android_5_1", "Android_5_0"
@@ -124,10 +126,10 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "devices": {
-            "SAMSUNG SM-A9000": "Samsung SM-A9000",
             "SM-A300FU": "Samsung SM-A300FU",
             "SM-A500FU*": "Samsung SM-A500FU",
             "SM-A700F": "Samsung SM-A700F",
+            "SM-A9000": "Samsung SM-A9000",
             "SM-G850F": "Samsung SM-G850F",
             "SM-G900F": "Samsung SM-G900F",
             "SM-P550": "Samsung SM-P550",

@@ -129,6 +129,19 @@
             "isTablet": "false"
         }
     },
+    "Samsung GT-B5722": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "GT-B5722",
+            "Device_Name": "B5722 Duos",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Samsung GT-B6710": {
         "standard": false,
         "properties": {
@@ -199,10 +212,10 @@
         "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "GT-C3262",
-            "Device_Name": "GT-C3262",
+            "Device_Name": "Champ Neo Duos",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -291,6 +304,19 @@
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "GT-E2202",
             "Device_Name": "GT-E2202",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Samsung GT-E2152": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "GT-E2152",
+            "Device_Name": "E2152",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Pointing_Method": "unknown",
@@ -1351,6 +1377,19 @@
             "isTablet": "false"
         }
     },
+    "Samsung GT-S3501C": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "GT-S3501C",
+            "Device_Name": "S3501C",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Samsung GT-S3650": {
         "standard": false,
         "properties": {
@@ -1370,6 +1409,19 @@
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "GT-S3653",
             "Device_Name": "GT-S3653",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Samsung GT-S3770Y": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "GT-S3770Y",
+            "Device_Name": "Champ 3.5G",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Pointing_Method": "touchscreen",
@@ -3756,6 +3808,19 @@
             "isTablet": "false"
         }
     },
+    "Samsung SGH-G600": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "SGH-G600",
+            "Device_Name": "G600",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Samsung SGH-G800": {
         "standard": false,
         "properties": {
@@ -5992,6 +6057,19 @@
             "isTablet": "false"
         }
     },
+    "Samsung SM-G610F": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "SM-G610F",
+            "Device_Name": "Galaxy J7 Prime",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Samsung SM-G7102": {
         "standard": false,
         "properties": {
@@ -6486,6 +6564,19 @@
             "isTablet": "false"
         }
     },
+    "Samsung SM-G920R6": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "SM-G920R6",
+            "Device_Name": "Galaxy S6 (Unlocked)",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Samsung SM-G920R7": {
         "standard": false,
         "properties": {
@@ -6596,6 +6687,19 @@
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "SM-G925R4",
             "Device_Name": "Galaxy S6 Edge (US Cellular)",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Samsung SM-G925R6": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "SM-G925R6",
+            "Device_Name": "Galaxy S6 Edge (Cellcom)",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Pointing_Method": "touchscreen",
@@ -6798,6 +6902,19 @@
             "isTablet": "false"
         }
     },
+    "Samsung SM-G930R7": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "SM-G930R7",
+            "Device_Name": "Galaxy S7 (C Spire)",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Samsung SM-G930T": {
         "standard": false,
         "properties": {
@@ -6817,6 +6934,19 @@
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "SM-G930V",
             "Device_Name": "Galaxy S7 (Verizon)",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Samsung SM-G930VL": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "SM-G930VL",
+            "Device_Name": "Galaxy S7 (Straight Talk)",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Pointing_Method": "touchscreen",
@@ -7207,6 +7337,19 @@
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "SM-J500F",
             "Device_Name": "Galaxy J5 (HK, India, South Africa, Thailand)",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Samsung SM-J500M": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "SM-J500M",
+            "Device_Name": "Galaxy J5 (LATAM)",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Pointing_Method": "touchscreen",
@@ -7708,6 +7851,32 @@
             "isTablet": "false"
         }
     },
+    "Samsung SM-N920C": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "SM-N920C",
+            "Device_Name": "Galaxy Note 5",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Samsung SM-N920G": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "SM-N920G",
+            "Device_Name": "Galaxy Note 5 (Unlocked)",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Samsung SM-N920I": {
         "standard": false,
         "properties": {
@@ -7903,6 +8072,19 @@
             "isTablet": "false"
         }
     },
+    "Samsung SM-S550TL": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "SM-S550TL",
+            "Device_Name": "Galaxy On5 (TracFone)",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Samsung SM-S820L": {
         "standard": false,
         "properties": {
@@ -7961,6 +8143,19 @@
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "SM-Z130H",
             "Device_Name": "Z1",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Samsung SM-Z200Y": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "SM-Z200Y",
+            "Device_Name": "Z2",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Pointing_Method": "touchscreen",

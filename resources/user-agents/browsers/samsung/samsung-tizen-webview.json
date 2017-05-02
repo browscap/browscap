@@ -28,8 +28,10 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (SMART-TV; #PLATFORM#SM-Z910F) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#* TV Safari/*",
-          "device": "Samsung SM-Z910F",
+          "match": "Mozilla/5.0 (SMART-TV; #PLATFORM##DEVICE#) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#* TV Safari/*",
+          "devices": {
+            "SM-Z910F": "Samsung SM-Z910F"
+          },
           "platforms": [
             "Tizen_2_2"
           ]
@@ -38,13 +40,15 @@
           "match": "Mozilla/5.0 (SMART-TV; #PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#* TV Safari/*",
           "device": "Smart-TV",
           "platforms": [
-            "Tizen_2_2", "Tizen_2_3", "Tizen"
+            "Tizen_2_2", "Tizen_2_3",
+            "Tizen"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#* TV Safari/*",
           "platforms": [
-            "Tizen_2_2", "Tizen_2_3", "Tizen"
+            "Tizen_2_2", "Tizen_2_3",
+            "Tizen"
           ]
         }
       ]
