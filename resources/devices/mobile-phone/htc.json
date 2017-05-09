@@ -142,6 +142,32 @@
             "isTablet": "false"
         }
     },
+    "HTC 801E": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "801E",
+            "Device_Name": "One M7",
+            "Device_Maker": "HTC",
+            "Device_Brand_Name": "HTC",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "HTC 801S": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "801S",
+            "Device_Name": "One M7",
+            "Device_Maker": "HTC",
+            "Device_Brand_Name": "HTC",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "HTC 802T": {
         "standard": false,
         "properties": {
@@ -306,7 +332,7 @@
             "Device_Name": "A3335",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -371,7 +397,7 @@
             "Device_Name": "Gratia",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -475,7 +501,7 @@
             "Device_Name": "Aria A6380",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -909,6 +935,19 @@
             "isTablet": "false"
         }
     },
+    "HTC E8": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "E8",
+            "Device_Name": "One E8",
+            "Device_Maker": "HTC",
+            "Device_Brand_Name": "HTC",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "HTC E9PW": {
         "standard": false,
         "properties": {
@@ -961,19 +1000,6 @@
             "isTablet": "false"
         }
     },
-    "HTC Flyer P510e": {
-        "standard": false,
-        "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Flyer P510e",
-            "Device_Name": "Flyer P510e",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Pointing_Method": "unknown",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
-    },
     "HTC HTC": {
         "standard": false,
         "properties": {
@@ -995,7 +1021,7 @@
             "Device_Name": "Droid DNA",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -1008,7 +1034,7 @@
             "Device_Name": "Hero",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -1099,7 +1125,7 @@
             "Device_Name": "Magic",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -1175,6 +1201,19 @@
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "One V",
             "Device_Name": "One V",
+            "Device_Maker": "HTC",
+            "Device_Brand_Name": "HTC",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "HTC One VX": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "One VX",
+            "Device_Name": "One VX",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
             "Device_Pointing_Method": "touchscreen",
@@ -1637,6 +1676,19 @@
             "isTablet": "false"
         }
     },
+    "HTC Sensation XE": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "Sensation XE",
+            "Device_Name": "Sensation XE with Beats",
+            "Device_Maker": "HTC",
+            "Device_Brand_Name": "HTC",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "HTC Smart F3188": {
         "standard": false,
         "properties": {
@@ -1853,7 +1905,7 @@
             "Device_Name": "Tattoo",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -2035,7 +2087,7 @@
             "Device_Name": "Velocity 4G",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -2048,7 +2100,7 @@
             "Device_Name": "Vision",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -2087,7 +2139,7 @@
             "Device_Name": "Wildfire",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -2126,7 +2178,7 @@
             "Device_Name": "Sensation XL with Beats Audio",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -2152,7 +2204,7 @@
             "Device_Name": "EVO 3D",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -2204,7 +2256,7 @@
             "Device_Name": "Sensation",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -2226,11 +2278,11 @@
         "standard": false,
         "properties": {
             "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Sensation XE Beats Z715e",
-            "Device_Name": "Sensation",
+            "Device_Code_Name": "Z715e",
+            "Device_Name": "Sensation XE Beats Z715e",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }

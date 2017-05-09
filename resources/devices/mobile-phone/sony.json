@@ -618,7 +618,7 @@
             "Device_Name": "Xperia Tipo",
             "Device_Maker": "Sony",
             "Device_Brand_Name": "Sony",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -671,32 +671,6 @@
             "Device_Maker": "Sony",
             "Device_Brand_Name": "Sony",
             "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
-    },
-    "SonyEricsson MT11i": {
-        "standard": false,
-        "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "MT11i",
-            "Device_Name": "Xperia Neo V",
-            "Device_Maker": "Sony",
-            "Device_Brand_Name": "Sony",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
-    },
-    "SonyEricsson MT15a": {
-        "standard": false,
-        "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "MT15a",
-            "Device_Name": "MT15a",
-            "Device_Maker": "Sony",
-            "Device_Brand_Name": "Sony",
-            "Device_Pointing_Method": "unknown",
             "isMobileDevice": "true",
             "isTablet": "false"
         }

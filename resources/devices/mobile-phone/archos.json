@@ -12,19 +12,6 @@
             "isTablet": "false"
         }
     },
-    "Archos 5": {
-        "standard": false,
-        "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "5",
-            "Device_Name": "5",
-            "Device_Maker": "Archos",
-            "Device_Brand_Name": "Archos",
-            "Device_Pointing_Method": "unknown",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
-    },
     "Archos 70c": {
         "standard": false,
         "properties": {
@@ -44,19 +31,6 @@
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "A101B",
             "Device_Name": "A101B",
-            "Device_Maker": "Archos",
-            "Device_Brand_Name": "Archos",
-            "Device_Pointing_Method": "unknown",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
-    },
-    "Archos A101IT": {
-        "standard": false,
-        "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "A101IT",
-            "Device_Name": "A101IT",
             "Device_Maker": "Archos",
             "Device_Brand_Name": "Archos",
             "Device_Pointing_Method": "unknown",

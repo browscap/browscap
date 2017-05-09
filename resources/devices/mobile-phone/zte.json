@@ -59,7 +59,7 @@
             "Device_Name": "Blade",
             "Device_Maker": "ZTE",
             "Device_Brand_Name": "ZTE",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -175,8 +175,21 @@
             "Device_Code_Name": "Lutea 2",
             "Device_Name": "Lutea 2",
             "Device_Maker": "ZTE",
-            "Device_Brand_Name": "ZTE",
-            "Device_Pointing_Method": "unknown",
+            "Device_Brand_Name": "BASE",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "ZTE Lutea 3": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "Lutea 3",
+            "Device_Name": "Lutea 3",
+            "Device_Maker": "ZTE",
+            "Device_Brand_Name": "BASE",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -345,7 +358,7 @@
             "Device_Name": "Orange",
             "Device_Maker": "ZTE",
             "Device_Brand_Name": "ZTE",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -371,7 +384,7 @@
             "Device_Name": "Racer",
             "Device_Maker": "ZTE",
             "Device_Brand_Name": "ZTE",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }

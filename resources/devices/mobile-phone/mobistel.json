@@ -59,7 +59,7 @@
             "Device_Name": "Cynus T1",
             "Device_Maker": "Mobistel",
             "Device_Brand_Name": "Mobistel",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }

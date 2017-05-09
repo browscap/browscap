@@ -1,4 +1,17 @@
 {
+    "Point of View Mobii 7": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "Mobii 7",
+            "Device_Name": "Mobii 7",
+            "Device_Maker": "Point of View",
+            "Device_Brand_Name": "Point of View",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
     "Point of View P701": {
         "standard": true,
         "properties": {

@@ -11,5 +11,18 @@
             "isMobileDevice": "true",
             "isTablet": "false"
         }
+    },
+    "Alps Xenoon": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "Xenoon",
+            "Device_Code_Name": "Xenoon",
+            "Device_Maker": "Alps",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Alps",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
     }
 }

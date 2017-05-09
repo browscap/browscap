@@ -39,7 +39,8 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari*",
           "platforms": [
-            "Android_4_3", "Android"
+            "Android_4_3",
+            "Android"
           ]
         }
       ]

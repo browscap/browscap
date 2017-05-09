@@ -1,13 +1,13 @@
 {
-    "Arnova 7CG2": {
+    "Positivo Ypy S500": {
         "standard": false,
         "properties": {
             "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "7C G2",
-            "Device_Name": "7C G2",
-            "Device_Maker": "Arnova",
-            "Device_Brand_Name": "Arnova",
+            "Device_Name": "Ypy S500",
+            "Device_Code_Name": "YPY S500",
+            "Device_Maker": "Positivo",
             "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Positivo",
             "isMobileDevice": "true",
             "isTablet": "false"
         }

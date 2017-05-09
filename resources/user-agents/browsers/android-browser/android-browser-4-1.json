@@ -30,23 +30,10 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
-            "Micromax A27": "Micromax A27",
-            "Micromax A35": "Micromax A35",
-            "Micromax A40": "Micromax A40",
-            "sprd-B51+*": "sprd B51+"
+            "LG-D802*": "LG D802"
           },
           "platforms": [
-            "Android_2_3"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari*",
-          "devices": {
-            "ALCATEL ONE TOUCH 4030D": "Alcatel OT-4030D",
-            "GT-I9100": "Samsung GT-I9100"
-          },
-          "platforms": [
-            "Android_4_1"
+            "Android_4_4", "Android_4_3", "Android_4_2"
           ]
         },
         {
@@ -60,15 +47,60 @@
           ]
         },
         {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari*",
+          "devices": {
+            "B1-710": "Acer B1-710"
+          },
+          "platforms": [
+            "Android_4_2", "Android_4_1", "Android_4_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari*",
+          "devices": {
+            "ALCATEL ONE TOUCH 4030D": "Alcatel OT-4030D",
+            "ALCATEL ONE TOUCH 5020D": "Alcatel OT-5020D",
+            "ALCATEL ONE TOUCH 6010D": "Alcatel OT-6010D",
+            "ALCATEL ONE TOUCH 6030D": "Alcatel OT-6030D",
+            "ALCATEL ONE TOUCH 6030X": "Alcatel OT-6030X",
+            "GT-I9100": "Samsung GT-I9100",
+            "Vodafone 975N": "Alcatel 975N"
+          },
+          "platforms": [
+            "Android_4_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari*",
+          "devices": {
+            "B1-A71": "Acer B1-A71"
+          },
+          "platforms": [
+            "Android_4_1", "Android_4_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari*",
+          "devices": {
+            "Micromax A27": "Micromax A27",
+            "Micromax A35": "Micromax A35",
+            "Micromax A40": "Micromax A40",
+            "sprd-B51+*": "sprd B51+"
+          },
+          "platforms": [
+            "Android_2_3"
+          ]
+        },
+        {
           "match": "*Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
             "INM8002KP": "Intenso INM8002KP"
           },
           "platforms": [
-            "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
-            "Android_2_0", "Android_2_1", "Android_2_2", "Android_2_3",
-            "Android_3_0", "Android_3_1", "Android_3_2",
-            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android_3_2", "Android_3_1", "Android_3_0",
+            "Android_2_3", "Android_2_2", "Android_2_1", "Android_2_0",
+            "Android_1_6", "Android_1_5", "Android_1_1", "Android_1_0"
           ]
         },
         {
@@ -78,15 +110,6 @@
           },
           "platforms": [
             "Android_B_2_3"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari*",
-          "devices": {
-            "LG-D802*": "LG D802"
-          },
-          "platforms": [
-            "Android_4_2", "Android_4_3", "Android_4_4"
           ]
         },
         {
@@ -110,10 +133,10 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM# Android/* Release/* Browser/applewebkit* Build/*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari*",
           "platforms": [
-            "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
-            "Android_2_0", "Android_2_1", "Android_2_2", "Android_2_3", "Android_B_2_3",
-            "Android_3_0", "Android_3_1", "Android_3_2",
-            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android_3_2", "Android_3_1", "Android_3_0",
+            "Android_B_2_3", "Android_2_3", "Android_2_2", "Android_2_1", "Android_2_0",
+            "Android_1_6", "Android_1_5", "Android_1_1", "Android_1_0"
           ]
         },
         {
@@ -135,43 +158,12 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari*",
-          "devices": {
-            "B1-A71": "Acer B1-A71"
-          },
-          "platforms": [
-            "Android_4_0", "Android_4_1"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari*",
-          "devices": {
-            "B1-710": "Acer B1-710"
-          },
-          "platforms": [
-            "Android_4_0", "Android_4_1", "Android_4_2"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari*",
-          "devices": {
-            "ALCATEL ONE TOUCH 5020D": "Alcatel OT-5020D",
-            "Vodafone 975N": "Alcatel 975N",
-            "ALCATEL ONE TOUCH 6030D": "Alcatel OT-6030D",
-            "ALCATEL ONE TOUCH 6010D": "Alcatel OT-6010D",
-            "ALCATEL ONE TOUCH 6030X": "Alcatel OT-6030X"
-          },
-          "platforms": [
-            "Android_4_1"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
             "B1-711": "Acer B1-711"
           },
           "platforms": [
-            "Android_4_1", "Android_4_2"
+            "Android_4_2", "Android_4_1"
           ]
         },
         {
@@ -196,19 +188,22 @@
         {
           "match": "*Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari*",
           "platforms": [
-            "Android_4_1", "Android"
+            "Android_4_1",
+            "Android"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari*",
           "platforms": [
-            "Android_4_1", "Android"
+            "Android_4_1",
+            "Android"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari*",
           "platforms": [
-            "Android_4_1", "Android"
+            "Android_4_1",
+            "Android"
           ]
         },
         {

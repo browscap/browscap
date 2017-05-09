@@ -116,6 +116,19 @@
             "isTablet": "false"
         }
     },
+    "Alcatel 975N": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "975N",
+            "Device_Name": "Smart III",
+            "Device_Maker": "Alcatel",
+            "Device_Brand_Name": "Vodafone",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Alcatel A571VL": {
         "standard": false,
         "properties": {
@@ -384,7 +397,7 @@
             "Device_Name": "One Touch 6030D",
             "Device_Maker": "Alcatel",
             "Device_Brand_Name": "Alcatel",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -485,6 +498,19 @@
         "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "OT-7041D",
+            "Device_Name": "One Touch Pop C7 Dual",
+            "Device_Maker": "Alcatel",
+            "Device_Brand_Name": "Alcatel",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Alcatel OT-7041X": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "OT-7041X",
             "Device_Name": "One Touch Pop C7",
             "Device_Maker": "Alcatel",
             "Device_Brand_Name": "Alcatel",
@@ -540,7 +566,7 @@
             "Device_Name": "One Touch 890D",
             "Device_Maker": "Alcatel",
             "Device_Brand_Name": "Alcatel",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -566,7 +592,7 @@
             "Device_Name": "One Touch 918D",
             "Device_Maker": "Alcatel",
             "Device_Brand_Name": "Alcatel",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -579,7 +605,7 @@
             "Device_Name": "One Touch 990",
             "Device_Maker": "Alcatel",
             "Device_Brand_Name": "Alcatel",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -592,7 +618,7 @@
             "Device_Name": "One Touch 991",
             "Device_Maker": "Alcatel",
             "Device_Brand_Name": "Alcatel",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -605,7 +631,7 @@
             "Device_Name": "One Touch 991 Play",
             "Device_Maker": "Alcatel",
             "Device_Brand_Name": "Alcatel",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -631,7 +657,7 @@
             "Device_Name": "One Touch 992 Play",
             "Device_Maker": "Alcatel",
             "Device_Brand_Name": "Alcatel",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -657,7 +683,7 @@
             "Device_Name": "One Touch 997D",
             "Device_Maker": "Alcatel",
             "Device_Brand_Name": "Alcatel",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }

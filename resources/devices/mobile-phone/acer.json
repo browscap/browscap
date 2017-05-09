@@ -20,7 +20,7 @@
             "Device_Name": "Liquid Mini",
             "Device_Maker": "Acer",
             "Device_Brand_Name": "Acer",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -33,7 +33,7 @@
             "Device_Name": "Liquid Express",
             "Device_Maker": "Acer",
             "Device_Brand_Name": "Acer",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -72,7 +72,7 @@
             "Device_Name": "Liquid",
             "Device_Maker": "Acer",
             "Device_Brand_Name": "Acer",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -108,10 +108,10 @@
         "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "S500",
-            "Device_Name": "S500",
+            "Device_Name": "CloudMobile S500",
             "Device_Maker": "Acer",
             "Device_Brand_Name": "Acer",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }

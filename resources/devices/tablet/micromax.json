@@ -24,5 +24,18 @@
             "isMobileDevice": "true",
             "isTablet": "true"
         }
+    },
+    "Micromax P480": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "P480",
+            "Device_Name": "Canvas Tab P480",
+            "Device_Maker": "Micromax",
+            "Device_Brand_Name": "Micromax",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
     }
 }

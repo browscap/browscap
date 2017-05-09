@@ -20,7 +20,7 @@
             "Device_Name": "Leader",
             "Device_Maker": "ZOPO",
             "Device_Brand_Name": "ZOPO",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }

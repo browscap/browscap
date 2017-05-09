@@ -37,7 +37,25 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari/*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari/*",
+          "devices": {
+            "A101B": "Archos A101B"
+          },
+          "platforms": [
+            "Android_1_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari/*",
+          "devices": {
+            "dream": "HTC Dream"
+          },
+          "platforms": [
+            "Android_1_1", "Android_1_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari/*",
           "devices": {
             "A70BH": "Archos A70BH",
             "A70BHT": "Archos A70BHT",
@@ -53,33 +71,9 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#generic Build/*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari/*",
-          "platforms": [
-            "Android_1_0"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari/*",
-          "devices": {
-            "dream": "HTC Dream"
-          },
-          "platforms": [
-            "Android_1_0", "Android_1_1"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari/*",
-          "devices": {
-            "A101B": "Archos A101B"
-          },
-          "platforms": [
-            "Android_1_1"
-          ]
-        },
-        {
           "match": "Mozilla/5.0 (#PLATFORM#applewebkit* (*khtml*like*gecko*) Version/*Safari/#MAJORVER#.#MINORVER#*",
           "platforms": [
-            "Android_1_0", "Android_1_1"
+            "Android_1_1", "Android_1_0"
           ]
         },
         {
@@ -88,13 +82,15 @@
             "dream": "HTC Dream"
           },
           "platforms": [
-            "Android_1_0", "Android_1_1"
+            "Android_1_1", "Android_1_0"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari/*",
           "platforms": [
-            "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6", "Android_4_1", "Android"
+            "Android_4_1",
+            "Android_1_6", "Android_1_5", "Android_1_1", "Android_1_0",
+            "Android"
           ]
         }
       ]

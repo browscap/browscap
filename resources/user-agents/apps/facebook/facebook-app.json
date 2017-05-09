@@ -322,6 +322,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/*FBAV/*",
           "devices": {
+            "HTC One_M8*": "HTC M8",
             "SM-G870A": "Samsung SM-G870A",
             "SM-G900A": "Samsung SM-G900A",
             "SM-G900P": "Samsung SM-G900P",

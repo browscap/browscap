@@ -1,12 +1,12 @@
 {
-    "Arnova 7CG2": {
+    "Leagoo Shark 1": {
         "standard": false,
         "properties": {
             "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "7C G2",
-            "Device_Name": "7C G2",
-            "Device_Maker": "Arnova",
-            "Device_Brand_Name": "Arnova",
+            "Device_Code_Name": "Shark 1",
+            "Device_Name": "Shark 1",
+            "Device_Maker": "Leagoo",
+            "Device_Brand_Name": "Leagoo",
             "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"

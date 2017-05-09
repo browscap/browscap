@@ -7,7 +7,7 @@
             "Device_Name": "SPX-5",
             "Device_Maker": "Simvalley",
             "Device_Brand_Name": "Simvalley",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -20,7 +20,7 @@
             "Device_Name": "SPX-5 3G",
             "Device_Maker": "Simvalley",
             "Device_Brand_Name": "Simvalley",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }

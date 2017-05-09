@@ -38,6 +38,19 @@
             "isTablet": "false"
         }
     },
+    "Huawei CHE-UL00": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "CHE-UL00",
+            "Device_Name": "Honor 4X",
+            "Device_Maker": "Huawei",
+            "Device_Brand_Name": "Huawei",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Huawei CUN-L21": {
         "standard": false,
         "properties": {
@@ -116,6 +129,19 @@
             "isTablet": "false"
         }
     },
+    "Huawei G6-L22": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "G6-L22",
+            "Device_Name": "Ascend G6",
+            "Device_Maker": "Huawei",
+            "Device_Brand_Name": "Huawei",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Huawei G606-T00": {
         "standard": false,
         "properties": {
@@ -135,6 +161,19 @@
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "G610-T00",
             "Device_Name": "Ascend G610",
+            "Device_Maker": "Huawei",
+            "Device_Brand_Name": "Huawei",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Huawei G630-U00": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "G630-U00",
+            "Device_Name": "Ascend G630",
             "Device_Maker": "Huawei",
             "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
@@ -278,6 +317,19 @@
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "M860",
             "Device_Name": "Ascend (Metro PCS)",
+            "Device_Maker": "Huawei",
+            "Device_Brand_Name": "Huawei",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Huawei MHA-AL00": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "MHA-AL00",
+            "Device_Name": "Mate 9",
             "Device_Maker": "Huawei",
             "Device_Brand_Name": "Huawei",
             "Device_Pointing_Method": "touchscreen",
@@ -462,7 +514,7 @@
             "Device_Name": "U8100",
             "Device_Maker": "Huawei",
             "Device_Brand_Name": "Huawei",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -488,7 +540,7 @@
             "Device_Name": "Ideos",
             "Device_Maker": "Huawei",
             "Device_Brand_Name": "Huawei",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -514,7 +566,7 @@
             "Device_Name": "U8220",
             "Device_Maker": "Huawei",
             "Device_Brand_Name": "Huawei",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -550,10 +602,23 @@
         "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "U8500",
-            "Device_Name": "U8500",
+            "Device_Name": "Ideos X2",
             "Device_Maker": "Huawei",
             "Device_Brand_Name": "Huawei",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Huawei U8510": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "U8510",
+            "Device_Name": "Ideos X3",
+            "Device_Maker": "Huawei",
+            "Device_Brand_Name": "Huawei",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -579,7 +644,7 @@
             "Device_Name": "Sonic",
             "Device_Maker": "Huawei",
             "Device_Brand_Name": "Huawei",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -592,7 +657,7 @@
             "Device_Name": "Ascend Y200",
             "Device_Maker": "Huawei",
             "Device_Brand_Name": "Huawei",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -605,7 +670,7 @@
             "Device_Name": "Ascend Y201 Pro",
             "Device_Maker": "Huawei",
             "Device_Brand_Name": "Huawei",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -631,7 +696,7 @@
             "Device_Name": "Ascend G330",
             "Device_Maker": "Huawei",
             "Device_Brand_Name": "Huawei",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -683,7 +748,7 @@
             "Device_Name": "Ascend G600",
             "Device_Maker": "Huawei",
             "Device_Brand_Name": "Huawei",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -696,7 +761,7 @@
             "Device_Name": "Ascend G600",
             "Device_Maker": "Huawei",
             "Device_Brand_Name": "Huawei",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -709,7 +774,7 @@
             "Device_Name": "Ascend P1",
             "Device_Maker": "Huawei",
             "Device_Brand_Name": "Huawei",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -857,6 +922,19 @@
             "isTablet": "false"
         }
     },
+    "Huawei Y530-U051": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "Y530-U051",
+            "Device_Name": "Ascend Y530 (Unlocked)",
+            "Device_Maker": "Huawei",
+            "Device_Brand_Name": "Huawei",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Huawei Y538": {
         "standard": false,
         "properties": {
@@ -875,6 +953,19 @@
         "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "Y600-U00",
+            "Device_Name": "Ascend Y600",
+            "Device_Maker": "Huawei",
+            "Device_Brand_Name": "Huawei",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Huawei Y600-U20": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "Y600-U20",
             "Device_Name": "Ascend Y600",
             "Device_Maker": "Huawei",
             "Device_Brand_Name": "Huawei",
