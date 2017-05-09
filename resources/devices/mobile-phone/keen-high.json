@@ -7,7 +7,7 @@
             "Device_Name": "MT791",
             "Device_Maker": "Keen High",
             "Device_Brand_Name": "Keen High",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }

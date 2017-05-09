@@ -1,17 +1,4 @@
 {
-    "Alcatel 975N": {
-        "standard": false,
-        "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "975N",
-            "Device_Name": "Smart III",
-            "Device_Maker": "Alcatel",
-            "Device_Brand_Name": "Vodafone",
-            "Device_Pointing_Method": "unknown",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
-    },
     "Lenovo K910L": {
         "standard": false,
         "properties": {
@@ -46,7 +33,7 @@
             "Device_Name": "845",
             "Device_Maker": "Vodafone",
             "Device_Brand_Name": "Vodafone",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }

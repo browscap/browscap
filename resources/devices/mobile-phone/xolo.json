@@ -1,4 +1,17 @@
 {
+    "XOLO A700": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "A700",
+            "Device_Code_Name": "A700",
+            "Device_Maker": "XOLO",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "XOLO",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "XOLO A1000s": {
         "standard": false,
         "properties": {

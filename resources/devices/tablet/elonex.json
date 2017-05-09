@@ -4,9 +4,9 @@
         "properties": {
             "Device_Type": "Tablet",
             "Device_Name": "eTouch",
-            "Device_Code_Name": "eTouch",
+            "Device_Code_Name": "1000ET",
             "Device_Maker": "Elonex",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "Device_Brand_Name": "Elonex",
             "isMobileDevice": "true",
             "isTablet": "true"

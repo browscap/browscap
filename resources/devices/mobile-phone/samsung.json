@@ -381,10 +381,10 @@
         "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "GT-I5503",
-            "Device_Name": "GT-I5503",
+            "Device_Name": "Galaxy 5",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -423,7 +423,7 @@
             "Device_Name": "Galaxy 3 Apollo",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -433,10 +433,10 @@
         "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "GT-I5801",
-            "Device_Name": "GT-I5801",
+            "Device_Name": "Galaxy Apollo",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -714,6 +714,32 @@
             "isTablet": "false"
         }
     },
+    "Samsung GT-I8552B": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "GT-I8552B",
+            "Device_Name": "Galaxy Win Duos",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Samsung GT-I8580": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "GT-I8580",
+            "Device_Name": "Galaxy Core Advance",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Samsung GT-I8700": {
         "standard": false,
         "properties": {
@@ -735,7 +761,7 @@
             "Device_Name": "Galaxy Express",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -831,12 +857,38 @@
             "isTablet": "false"
         }
     },
+    "Samsung GT-I9060I": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "GT-I9060I",
+            "Device_Name": "Galaxy Grand Neo Plus",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Samsung GT-I9060L": {
         "standard": false,
         "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "GT-I9060L",
             "Device_Name": "Galaxy Grand Neo",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Samsung GT-I9063T": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "GT-I9063T",
+            "Device_Name": "Galaxy Grand Neo Duos",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Pointing_Method": "touchscreen",
@@ -865,7 +917,7 @@
             "Device_Name": "Galaxy S Advance",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -1175,6 +1227,19 @@
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "GT-I9305",
             "Device_Name": "Galaxy S III LTE International",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Samsung GT-I9305T": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "GT-I9305T",
+            "Device_Name": "Galaxy S III LTE (Telstra)",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Pointing_Method": "touchscreen",
@@ -1554,7 +1619,7 @@
             "Device_Name": "Galaxy Star",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -1593,7 +1658,7 @@
             "Device_Name": "Galaxy Pocket",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -1681,10 +1746,10 @@
         "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "GT-S5363",
-            "Device_Name": "GT-S5363",
+            "Device_Name": "Galaxy Y",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -1697,7 +1762,7 @@
             "Device_Name": "Galaxy Y",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -1853,7 +1918,7 @@
             "Device_Name": "Galaxy Ace",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -1916,6 +1981,19 @@
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "GT-S6310",
             "Device_Name": "Galaxy Young",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Samsung GT-S6310L": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "GT-S6310L",
+            "Device_Name": "Galaxy Young (LATAM)",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Pointing_Method": "touchscreen",
@@ -2176,6 +2254,19 @@
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "GT-S7580",
             "Device_Name": "Trend Plus",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Samsung GT-S7582": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "GT-S7582",
+            "Device_Name": "Galaxy S Duos 2",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Pointing_Method": "touchscreen",
@@ -4164,10 +4255,10 @@
         "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "SGH-I896",
-            "Device_Name": "SGH-I896",
+            "Device_Name": "Galaxy S Captivate (Rogers)",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -4558,6 +4649,19 @@
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Pointing_Method": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Samsung SGH-T399": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "SGH-T399",
+            "Device_Name": "Galaxy Light",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -5342,28 +5446,28 @@
             "isTablet": "false"
         }
     },
+    "Samsung SHV-E300K": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "SHV-E300K",
+            "Device_Name": "Galaxy S4 (Korea KT)",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Samsung SHW-M110S": {
         "standard": false,
         "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "SHW-M110S",
-            "Device_Name": "SHW-M110S",
+            "Device_Name": "Galaxy S (South Korea)",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Pointing_Method": "unknown",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
-    },
-    "Samsung SHW-M380W": {
-        "standard": false,
-        "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "SHW-M380W",
-            "Device_Name": "SHW-M380W",
-            "Device_Maker": "Samsung",
-            "Device_Brand_Name": "Samsung",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -5413,6 +5517,19 @@
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "SM-A320F",
             "Device_Name": "Galaxy A3 (2017)",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Samsung SM-A5000": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "SM-A5000",
+            "Device_Name": "Galaxy A5 Duos",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Pointing_Method": "touchscreen",
@@ -5673,6 +5790,19 @@
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "SM-G3502L",
             "Device_Name": "Galaxy Core Plus",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "Samsung SM-G3502T": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "SM-G3502T",
+            "Device_Name": "Galaxy Core Plus Duos",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
             "Device_Pointing_Method": "touchscreen",
@@ -8085,6 +8215,19 @@
             "isTablet": "false"
         }
     },
+    "Samsung SM-S765C": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "SM-S765C",
+            "Device_Name": "Galaxy Ace Style",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Samsung SM-S820L": {
         "standard": false,
         "properties": {
@@ -8193,11 +8336,11 @@
         "standard": false,
         "properties": {
             "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "SPH D700",
-            "Device_Name": "SPH D700",
+            "Device_Code_Name": "SPH-D700",
+            "Device_Name": "Epic Galaxy S (Sprint)",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -8363,10 +8506,10 @@
         "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "SPH-M910",
-            "Device_Name": "SPH-M910",
+            "Device_Name": "Intercept (Sprint)",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }

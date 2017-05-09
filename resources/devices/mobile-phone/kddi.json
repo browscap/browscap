@@ -124,7 +124,7 @@
             "Device_Name": "IS03",
             "Device_Maker": "KDDI",
             "Device_Brand_Name": "KDDI",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }

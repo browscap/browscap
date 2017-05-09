@@ -6,7 +6,7 @@
             "Device_Name": "Tab 7",
             "Device_Code_Name": "Tab 7",
             "Device_Maker": "Trekstor",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "Device_Brand_Name": "Tolino",
             "isMobileDevice": "true",
             "isTablet": "true"
@@ -19,7 +19,7 @@
             "Device_Name": "Tab 8.9",
             "Device_Code_Name": "Tab 8.9",
             "Device_Maker": "Tolino",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "Device_Brand_Name": "Tolino",
             "isMobileDevice": "true",
             "isTablet": "true"

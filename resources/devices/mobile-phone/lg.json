@@ -956,7 +956,7 @@
             "Device_Name": "Optimus L3 II",
             "Device_Maker": "LG",
             "Device_Brand_Name": "LG",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -969,7 +969,7 @@
             "Device_Name": "Optimus L4 II",
             "Device_Maker": "LG",
             "Device_Brand_Name": "LG",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -1021,7 +1021,7 @@
             "Device_Name": "Optimus Hub",
             "Device_Maker": "LG",
             "Device_Brand_Name": "LG",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -1305,6 +1305,45 @@
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "F240L",
             "Device_Name": "Optimus G Pro 5.5",
+            "Device_Maker": "LG",
+            "Device_Brand_Name": "LG",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "LG F320K": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "F320K",
+            "Device_Name": "G2 F320",
+            "Device_Maker": "LG",
+            "Device_Brand_Name": "LG",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "LG F320L": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "F320L",
+            "Device_Name": "G2 F320",
+            "Device_Maker": "LG",
+            "Device_Brand_Name": "LG",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "LG F320S": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "F320S",
+            "Device_Name": "G2 F320",
             "Device_Maker": "LG",
             "Device_Brand_Name": "LG",
             "Device_Pointing_Method": "touchscreen",
@@ -1876,10 +1915,10 @@
         "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "GT540",
-            "Device_Name": "GT540",
+            "Device_Name": "Optimus GT540",
             "Device_Maker": "LG",
             "Device_Brand_Name": "LG",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -2586,6 +2625,19 @@
             "isTablet": "false"
         }
     },
+    "LG L31L": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "L31L",
+            "Device_Name": "Access LTE",
+            "Device_Maker": "LG",
+            "Device_Brand_Name": "LG",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "LG L33L": {
         "standard": false,
         "properties": {
@@ -2878,6 +2930,19 @@
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "LS676",
             "Device_Name": "Tribute HD",
+            "Device_Maker": "LG",
+            "Device_Brand_Name": "LG",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
+    "LG LS720": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "LS720",
+            "Device_Name": "Optimus F3 (Sprint)",
             "Device_Maker": "LG",
             "Device_Brand_Name": "LG",
             "Device_Pointing_Method": "touchscreen",
@@ -3436,10 +3501,10 @@
         "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "P350",
-            "Device_Name": "P350",
+            "Device_Name": "Optimus Me",
             "Device_Maker": "LG",
             "Device_Brand_Name": "LG",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -3462,10 +3527,10 @@
         "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "P690",
-            "Device_Name": "Optimus Spirit",
+            "Device_Name": "Optimus Net",
             "Device_Maker": "LG",
             "Device_Brand_Name": "LG",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -3478,7 +3543,7 @@
             "Device_Name": "Optimus L7",
             "Device_Maker": "LG",
             "Device_Brand_Name": "LG",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -3556,7 +3621,7 @@
             "Device_Name": "Optimus L9",
             "Device_Maker": "LG",
             "Device_Brand_Name": "LG",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -3608,7 +3673,7 @@
             "Device_Name": "Optimus Vu",
             "Device_Maker": "LG",
             "Device_Brand_Name": "LG",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -3660,7 +3725,7 @@
             "Device_Name": "Prada 3.0",
             "Device_Maker": "LG",
             "Device_Brand_Name": "LG",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -3686,7 +3751,7 @@
             "Device_Name": "Optimus 2X",
             "Device_Maker": "LG",
             "Device_Brand_Name": "LG",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }

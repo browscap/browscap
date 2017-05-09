@@ -3,11 +3,11 @@
         "standard": false,
         "properties": {
             "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "10B",
-            "Device_Name": "10B",
+            "Device_Code_Name": "SH-10B",
+            "Device_Name": "Lynx",
             "Device_Maker": "Sharp Corporation",
             "Device_Brand_Name": "Sharp",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -17,10 +17,10 @@
         "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "SH80F",
-            "Device_Name": "SH80F",
+            "Device_Name": "Aquos SH80F",
             "Device_Maker": "Sharp Corporation",
             "Device_Brand_Name": "Sharp",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }

@@ -545,6 +545,32 @@
             "isTablet": "true"
         }
     },
+    "Lenovo S8-50F": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "S8-50F",
+            "Device_Name": "Tab S8",
+            "Device_Maker": "Lenovo",
+            "Device_Brand_Name": "Lenovo",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
+    "Lenovo S8-50L": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Code_Name": "S8-50L",
+            "Device_Name": "Tab S8",
+            "Device_Maker": "Lenovo",
+            "Device_Brand_Name": "Lenovo",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
+    },
     "Lenovo S820_ROW": {
         "standard": true,
         "properties": {

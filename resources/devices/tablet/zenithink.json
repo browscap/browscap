@@ -1,13 +1,13 @@
 {
-    "Itel IT1701": {
+    "Zenithink P7901A": {
         "standard": true,
         "properties": {
             "Device_Type": "Tablet",
-            "Device_Name": "iNote Prime",
-            "Device_Code_Name": "it1701",
-            "Device_Maker": "Itel",
+            "Device_Code_Name": "P7901A",
+            "Device_Name": "Epad P7901A",
+            "Device_Maker": "Zenithink",
+            "Device_Brand_Name": "Epad",
             "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Itel",
             "isMobileDevice": "true",
             "isTablet": "true"
         }

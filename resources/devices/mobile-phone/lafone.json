@@ -1,12 +1,12 @@
 {
-    "Arnova 7CG2": {
+    "Lafone S58": {
         "standard": false,
         "properties": {
             "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "7C G2",
-            "Device_Name": "7C G2",
-            "Device_Maker": "Arnova",
-            "Device_Brand_Name": "Arnova",
+            "Device_Code_Name": "S58",
+            "Device_Name": "SIII",
+            "Device_Maker": "Lafone",
+            "Device_Brand_Name": "Lafone",
             "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"

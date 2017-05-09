@@ -277,10 +277,10 @@
         "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "A953",
-            "Device_Name": "MILESTONE 2",
+            "Device_Name": "Milestone 2",
             "Device_Maker": "Motorola",
             "Device_Brand_Name": "Motorola",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -540,7 +540,7 @@
             "Device_Name": "Droid",
             "Device_Maker": "Motorola",
             "Device_Brand_Name": "Motorola",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -1031,10 +1031,10 @@
         "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "MB200",
-            "Device_Name": "MB200",
+            "Device_Name": "Cliq/Dext",
             "Device_Maker": "Motorola",
             "Device_Brand_Name": "Motorola",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -1057,10 +1057,10 @@
         "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "MB508",
-            "Device_Name": "MB508",
+            "Device_Name": "Flipside",
             "Device_Maker": "Motorola",
             "Device_Brand_Name": "Motorola",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -1070,10 +1070,10 @@
         "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "MB511",
-            "Device_Name": "MB511",
+            "Device_Name": "Flipout",
             "Device_Maker": "Motorola",
             "Device_Brand_Name": "Motorola",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -1125,7 +1125,7 @@
             "Device_Name": "Pro+",
             "Device_Maker": "Motorola",
             "Device_Brand_Name": "Motorola",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -1216,7 +1216,7 @@
             "Device_Name": "Milestone",
             "Device_Maker": "Motorola",
             "Device_Brand_Name": "Motorola",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -2201,10 +2201,10 @@
         "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "WX445",
-            "Device_Name": "WX445",
+            "Device_Name": "Citrus",
             "Device_Maker": "Motorola",
             "Device_Brand_Name": "Motorola",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -2513,10 +2513,10 @@
         "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "XT610",
-            "Device_Name": "XT610",
+            "Device_Name": "Droid Pro",
             "Device_Maker": "Motorola",
             "Device_Brand_Name": "Motorola",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -2526,10 +2526,10 @@
         "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "XT615",
-            "Device_Name": "XT615",
+            "Device_Name": "Motoluxe",
             "Device_Maker": "Motorola",
             "Device_Brand_Name": "Motorola",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -2542,7 +2542,7 @@
             "Device_Name": "XT701",
             "Device_Maker": "Motorola",
             "Device_Brand_Name": "Motorola",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -2568,7 +2568,7 @@
             "Device_Name": "Milestone XT720",
             "Device_Maker": "Motorola",
             "Device_Brand_Name": "Motorola",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }

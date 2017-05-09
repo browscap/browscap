@@ -30,13 +30,20 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
-            "Micromax A27": "Micromax A27",
-            "Micromax A35": "Micromax A35",
-            "Micromax A40": "Micromax A40",
-            "sprd-B51+*": "sprd B51+"
+            "LG-D802*": "LG D802"
           },
           "platforms": [
-            "Android_2_3"
+            "Android_4_4", "Android_4_3", "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari*",
+          "devices": {
+            "LG-D805": "LG D805",
+            "HTC_One_X": "HTC PJ83100"
+          },
+          "platforms": [
+            "Android_4_2"
           ]
         },
         {
@@ -52,11 +59,13 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
-            "LG-D805": "LG D805",
-            "HTC_One_X": "HTC PJ83100"
+            "Micromax A27": "Micromax A27",
+            "Micromax A35": "Micromax A35",
+            "Micromax A40": "Micromax A40",
+            "sprd-B51+*": "sprd B51+"
           },
           "platforms": [
-            "Android_4_2"
+            "Android_2_3"
           ]
         },
         {
@@ -65,10 +74,10 @@
             "INM8002KP": "Intenso INM8002KP"
           },
           "platforms": [
-            "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
-            "Android_2_0", "Android_2_1", "Android_2_2", "Android_2_3",
-            "Android_3_0", "Android_3_1", "Android_3_2",
-            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android_3_2", "Android_3_1", "Android_3_0",
+            "Android_2_3", "Android_2_2", "Android_2_1", "Android_2_0",
+            "Android_1_6", "Android_1_5", "Android_1_1", "Android_1_0"
           ]
         },
         {
@@ -81,27 +90,18 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari*",
-          "devices": {
-            "LG-D802*": "LG D802"
-          },
-          "platforms": [
-            "Android_4_2", "Android_4_3", "Android_4_4"
-          ]
-        },
-        {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE#*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
-            "Lenovo B8000-F/": "Lenovo B8000-F",
-            "Lenovo S5000-H/": "Lenovo S5000-H",
-            "Lenovo B6000-F": "Lenovo B6000-F",
             "ALCATEL ONE TOUCH 7047D": "Alcatel OT-7047D",
+            "ALCATEL ONE TOUCH P310X Build/": "Alcatel P310X",
+            "Lenovo B6000-F": "Lenovo B6000-F",
+            "Lenovo B6000-H/": "Lenovo B6000-H",
+            "Lenovo B8000-F/": "Lenovo B8000-F",
+            "Lenovo B8000-H/": "Lenovo B8000-H",
+            "Lenovo S5000-H/": "Lenovo S5000-H",
             "MTC 982 Build/": "MTC 982",
             "Vodafone Smart Tab 4 Build/": "Vodafone Smart Tab 4",
-            "Z980/": "ZOPO ZP980",
-            "Lenovo B6000-H/": "Lenovo B6000-H",
-            "Lenovo B8000-H/": "Lenovo B8000-H",
-            "ALCATEL ONE TOUCH P310X Build/": "Alcatel P310X"
+            "Z980/": "ZOPO ZP980"
           },
           "platforms": [
             "Android_4_2"
@@ -110,8 +110,8 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE#*) *applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
-            "Vodafone 785 Build/": "Vodafone 785",
-            "Lenovo A859": "Lenovo A859"
+            "Lenovo A859": "Lenovo A859",
+            "Vodafone 785 Build/": "Vodafone 785"
           },
           "platforms": [
             "Android_4_2"
@@ -139,16 +139,16 @@
         {
           "match": "Mozilla/5.0(#PLATFORM#) applewebkit*(*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari*",
           "platforms": [
-            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM# Android/* Release/* Browser/applewebkit* Build/*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari*",
           "platforms": [
-            "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
-            "Android_2_0", "Android_2_1", "Android_2_2", "Android_2_3", "Android_B_2_3",
-            "Android_3_0", "Android_3_1", "Android_3_2",
-            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4"
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android_3_2", "Android_3_1", "Android_3_0",
+            "Android_B_2_3", "Android_2_3", "Android_2_2", "Android_2_1", "Android_2_0",
+            "Android_1_6", "Android_1_5", "Android_1_1", "Android_1_0"
           ]
         },
         {
@@ -200,19 +200,22 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari*",
           "platforms": [
-            "Android_4_2", "Android"
+            "Android_4_2",
+            "Android"
           ]
         },
         {
           "match": "*Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari*",
           "platforms": [
-            "Android_4_2", "Android"
+            "Android_4_2",
+            "Android"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari*",
           "platforms": [
-            "Android_4_2", "Android"
+            "Android_4_2",
+            "Android"
           ]
         },
         {
