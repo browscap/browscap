@@ -1,24 +1,20 @@
 {
-  "division": "Naver #MAJORVER#.#MINORVER#",
-  "versions": ["7.9", "7.8", "7.7", "7.6", "7.4", "7.2", "6.8", "6.7", "6.4", "6.3", "4.2"],
-  "sortIndex": 884,
+  "division": "Facebook Groups App",
+  "sortIndex": 954,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "Naver #MAJORVER#.#MINORVER# for iOS",
-      "platform": "iOS",
+      "userAgent": "Facebook Groups App for iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
+      "platform": "iOS",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Naver #MAJORVER#.#MINORVER# for iOS",
-        "Browser": "Naver",
+        "Comment": "Facebook Groups App for iOS",
+        "Browser": "Facebook Groups",
         "Browser_Type": "Application",
-        "Browser_Maker": "NHN Corporation",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
+        "Browser_Maker": "Facebook",
         "Frames": "true",
         "IFrames": "true",
         "Tables": "true",
@@ -28,7 +24,7 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*) Mobile/* NAVER(* #MAJORVER#.#MINORVER#.*)",
+          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*)*Mobile*FB*GroupsForiOS*",
           "devices": {
             "iPhone": "iPhone",
             "iPod": "iPod Touch"
@@ -36,22 +32,26 @@
           "platforms": [
             "iOS_A_10_3", "iOS_A_10_2", "iOS_A_10_1", "iOS_A_10_0",
             "iOS_A_9_3", "iOS_A_9_2", "iOS_A_9_1", "iOS_A_9_0",
+            "iOS_A_8_4", "iOS_A_8_3", "iOS_A_8_2", "iOS_A_8_1", "iOS_A_8_0",
+            "iOS_A_7_1", "iOS_A_7_0",
             "iOS_A"
           ]
         },
         {
-          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*) Mobile/* NAVER(* #MAJORVER#.#MINORVER#.*)",
+          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*)*Mobile*FB*GroupsForiOS*",
           "devices": {
             "iPad": "iPad"
           },
           "platforms": [
             "iOS_C_10_3", "iOS_C_10_2", "iOS_C_10_1", "iOS_C_10_0",
             "iOS_C_9_3", "iOS_C_9_2", "iOS_C_9_1", "iOS_C_9_0",
+            "iOS_C_8_4", "iOS_C_8_3", "iOS_C_8_2", "iOS_C_8_1", "iOS_C_8_0",
+            "iOS_C_7_1", "iOS_C_7_0",
             "iOS_C"
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Mobile/* NAVER(* #MAJORVER#.#MINORVER#.*)",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Mobile*FB*GroupsForiOS*",
           "platforms": [
             "iOS_A",
             "iOS_C"

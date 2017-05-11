@@ -23,11 +23,16 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0*(iPhone#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/*Safari/* (compatible; YandexMobileBot/#MAJORVER#.#MINORVER#*",
-          "device": "iPhone",
+          "match": "Mozilla/5.0*(#DEVICE##PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/*Safari/* (compatible; YandexMobileBot/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "iPhone": "iPhone"
+          },
           "engine": "WebKit",
           "platforms": [
-            "iOS_A_4_1", "iOS_A_6_0", "iOS_A_8_1", "iOS_A"
+            "iOS_A_8_1",
+            "iOS_A_6_0",
+            "iOS_A_4_1",
+            "iOS_A"
           ]
         },
         {
@@ -35,7 +40,8 @@
           "device": "general Mobile Device (Apple)",
           "engine": "WebKit",
           "platforms": [
-            "iOS_A_4_1", "iOS_A_6_0", "iOS_A_8_1", "iOS_A"
+            "iOS_A",
+            "iOS_C"
           ]
         }
       ]

@@ -48,8 +48,11 @@
           ]
         },
         {
-          "match": "Opera/*(iPhone*Opera Mini/#MAJORVER#.#MINORVER#*",
-          "device": "iPhone",
+          "match": "Opera/*(#DEVICE#*Opera Mini/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "iPhone": "iPhone",
+            "iPod": "iPod Touch"
+          },
           "engine": "WebKit",
           "platforms": [
             "iOS"

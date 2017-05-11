@@ -68,7 +68,8 @@
           "device": "iPhone",
           "engine": "WebKit",
           "platforms": [
-            "iOS_A_7_1"
+            "iOS_A_7_1",
+            "iOS_A"
           ]
         },
         {
@@ -76,7 +77,8 @@
           "device": "general Mobile Device (Apple)",
           "engine": "WebKit",
           "platforms": [
-            "iOS_A_7_1", "iOS_A"
+            "iOS_A",
+            "iOS_C"
           ]
         }
       ]

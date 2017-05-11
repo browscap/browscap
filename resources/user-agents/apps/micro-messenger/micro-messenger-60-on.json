@@ -38,7 +38,8 @@
           "match": "Mozilla/5.0 (#PLATFORM# Build/*) applewebkit* (*khtml*like*gecko*)*Version/* Chrome/*Safari/* MicroMessenger/#MAJORVER#.#MINORVER#*",
           "engine": "Blink",
           "platforms": [
-            "Android_4_4", "Android"
+            "Android_4_4",
+            "Android"
           ]
         },
         {
@@ -100,22 +101,33 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM# Build/*) applewebkit* (*khtml*like*gecko*)*Version/* MQQBrowser/*Safari/* MicroMessenger/#MAJORVER#.#MINORVER#*",
           "platforms": [
-            "Android_4_4", "Android"
+            "Android_4_4",
+            "Android"
           ]
         },
         {
           "match": "Mozilla/5.0 (iPhone#PLATFORM#) applewebkit* (*khtml*like*gecko*) Mobile/* MicroMessenger/#MAJORVER#.#MINORVER#*",
           "device": "iPhone",
           "platforms": [
-            "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0", "iOS_A_8_1",
+            "iOS_A_8_1", "iOS_A_8_0",
+            "iOS_A_7_1", "iOS_A_7_0",
             "iOS_A"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (iPad#PLATFORM#) applewebkit* (*khtml*like*gecko*) Mobile/* MicroMessenger/#MAJORVER#.#MINORVER#*",
+          "device": "iPad",
+          "platforms": [
+            "iOS_C_8_1", "iOS_C_8_0",
+            "iOS_C_7_1", "iOS_C_7_0",
+            "iOS_C"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Mobile/* MicroMessenger/#MAJORVER#.#MINORVER#*",
           "platforms": [
-            "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0", "iOS_A_8_1",
-            "iOS_A"
+            "iOS_A",
+            "iOS_C"
           ]
         }
       ]

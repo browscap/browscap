@@ -31,7 +31,11 @@
           "match": "Instagram #MAJORVER#.#MINORVER#* (iPhone#PLATFORM#) applewebkit*",
           "device": "iPhone",
           "platforms": [
-            "iOS_E_5_0", "iOS_E_5_1", "iOS_E_6_0", "iOS_E_6_1", "iOS_E_7_0", "iOS_E_7_1", "iOS_E_8_0", "iOS_E_8_1", "iOS_E_9_0", "iOS_E_9_3", "iOS_E_9_2", "iOS_E_9_1",
+            "iOS_E_9_3", "iOS_E_9_2", "iOS_E_9_1", "iOS_E_9_0",
+            "iOS_E_8_1", "iOS_E_8_0",
+            "iOS_E_7_1", "iOS_E_7_0",
+            "iOS_E_6_1", "iOS_E_6_0",
+            "iOS_E_5_1", "iOS_E_5_0",
             "iOS_E"
           ]
         },
@@ -39,7 +43,11 @@
           "match": "Instagram #MAJORVER#.#MINORVER#* (iPad#PLATFORM#) applewebkit*",
           "device": "iPad",
           "platforms": [
-            "iOS_E_5_0", "iOS_E_5_1", "iOS_E_6_0", "iOS_E_6_1", "iOS_E_7_0", "iOS_E_7_1", "iOS_E_8_0", "iOS_E_8_1", "iOS_E_9_0", "iOS_E_9_3", "iOS_E_9_2", "iOS_E_9_1",
+            "iOS_E_9_3", "iOS_E_9_2", "iOS_E_9_1", "iOS_E_9_0",
+            "iOS_E_8_1", "iOS_E_8_0",
+            "iOS_E_7_1", "iOS_E_7_0",
+            "iOS_E_6_1", "iOS_E_6_0",
+            "iOS_E_5_1", "iOS_E_5_0",
             "iOS_E"
           ]
         },
