@@ -56,18 +56,34 @@
           "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*) coc_coc_browser/* Mobile/* Safari/*",
           "engine": "WebKit",
           "devices": {
-            "iPad": "iPad",
             "iPhone": "iPhone"
           },
           "platforms": [
-            "iOS_A_8_0", "iOS_A_8_1", "iOS_A_8_2", "iOS_A_8_3",
-            "iOS_A_9_0", "iOS_A_9_1", "iOS_A_9_2", "iOS_A_9_3",
-            "iOS_A_10_0", "iOS_A_10_1", "iOS_A_10_2", "iOS_A_10_3",
-            "iOS_A",
-            "iOS_B",
-            "iOS_C_8_3", "iOS_C_8_2", "iOS_C_8_1", "iOS_C_8_0",
-            "iOS_C_9_3", "iOS_C_9_2", "iOS_C_9_1", "iOS_C_9_0",
+            "iOS_A_10_3", "iOS_A_10_2", "iOS_A_10_1", "iOS_A_10_0",
+            "iOS_A_9_3", "iOS_A_9_2", "iOS_A_9_1", "iOS_A_9_0",
+            "iOS_A_8_4", "iOS_A_8_3", "iOS_A_8_2", "iOS_A_8_1", "iOS_A_8_0", "iOS_A_8_0_B",
+            "iOS_A"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*) coc_coc_browser/* Mobile/* Safari/*",
+          "engine": "WebKit",
+          "devices": {
+            "iPad": "iPad"
+          },
+          "platforms": [
             "iOS_C_10_3", "iOS_C_10_2", "iOS_C_10_1", "iOS_C_10_0",
+            "iOS_C_9_3", "iOS_C_9_2", "iOS_C_9_1", "iOS_C_9_0",
+            "iOS_C_8_4", "iOS_C_8_3", "iOS_C_8_2", "iOS_C_8_1", "iOS_C_8_0",
+            "iOS_C"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) coc_coc_browser/* Mobile/* Safari/*",
+          "engine": "WebKit",
+          "device": "general Mobile Device (Apple)",
+          "platforms": [
+            "iOS_A",
             "iOS_C"
           ]
         }

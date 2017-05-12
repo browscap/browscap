@@ -216,8 +216,8 @@ return [
     'issue-482-E' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B411 [FBAN/MessengerForiOS;FBAV/14.1.0.13.14;FBBV/4819706;FBDV/iPhone5,2;FBMD/iPhone;FBSN/iPhone OS;FBSV/8.1;FBSS/2; FBCR/TelenorDK;FBID/phone;FBLC/da_DK;FBOP/5]',
         'properties' => [
-            'Comment' => 'Facebook App for iOS',
-            'Browser' => 'Facebook App',
+            'Comment' => 'Facebook Messenger App for iOS',
+            'Browser' => 'Facebook Messenger',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Facebook',
@@ -269,8 +269,8 @@ return [
     'issue-482-F' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12A405 [FBAN/MessengerForiOS;FBAV/13.0.0.6.27;FBBV/4498059;FBDV/iPhone5,2;FBMD/iPhone;FBSN/iPhone OS;FBSV/8.0.2;FBSS/2; FBCR/3DK;FBID/phone;FBLC/da_DK;FBOP/5]',
         'properties' => [
-            'Comment' => 'Facebook App for iOS',
-            'Browser' => 'Facebook App',
+            'Comment' => 'Facebook Messenger App for iOS',
+            'Browser' => 'Facebook Messenger',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Facebook',
@@ -322,8 +322,8 @@ return [
     'issue-482-G' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12A405 [FBAN/MessengerForiOS;FBAV/14.1.0.13.14;FBBV/4819706;FBDV/iPhone5,2;FBMD/iPhone;FBSN/iPhone OS;FBSV/8.0.2;FBSS/2; FBCR/TelenorDK;FBID/phone;FBLC/da_DK;FBOP/5]',
         'properties' => [
-            'Comment' => 'Facebook App for iOS',
-            'Browser' => 'Facebook App',
+            'Comment' => 'Facebook Messenger App for iOS',
+            'Browser' => 'Facebook Messenger',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Facebook',

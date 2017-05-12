@@ -27,30 +27,29 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0*(iPad#PLATFORM#) applewebkit* (*khtml*like*gecko*)",
-          "device": "iPad",
+          "match": "Mozilla/5.0*(#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*)",
+          "devices": {
+            "iPad": "iPad"
+          },
           "platforms": [
-            "iOS_A", "iOS_C"
+            "iOS_C"
           ]
         },
         {
-          "match": "Mozilla/5.0*(iPhone#PLATFORM#) applewebkit* (*khtml*like*gecko*)",
-          "device": "iPhone",
+          "match": "Mozilla/5.0*(#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*)",
+          "devices": {
+            "iPhone": "iPhone",
+            "iPod": "iPod Touch"
+          },
           "platforms": [
-            "iOS_A", "iOS_C"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0*(iPod#PLATFORM#) applewebkit* (*khtml*like*gecko*)",
-          "device": "iPod Touch",
-          "platforms": [
-            "iOS_A", "iOS_C"
+            "iOS_A"
           ]
         },
         {
           "match": "Mozilla/5.0*(#PLATFORM#) applewebkit* (*khtml*like*gecko*)",
           "platforms": [
-            "iOS_A", "iOS_C"
+            "iOS_A",
+            "iOS_C"
           ]
         }
       ]

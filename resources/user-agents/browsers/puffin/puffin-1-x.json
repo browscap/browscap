@@ -40,8 +40,8 @@
           "device": "iPod Touch",
           "engine": "WebKit",
           "platforms": [
-            "iOS_C_4_3", "iOS_C",
-            "iOS_A_4_3", "iOS_A"
+            "iOS_A_4_3",
+            "iOS_A"
           ]
         },
         {

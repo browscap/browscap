@@ -376,7 +376,7 @@
     },
     "iOS_A": {
       "match": "*CPU iPhone OS * like Mac OS X*",
-      "lite": false,
+      "lite": true,
       "standard": true,
       "inherits": "iOS"
     },
@@ -390,7 +390,7 @@
       }
     },
     "iOS_A_3_0": {
-      "match": "*CPU iPhone OS 3?0* like Mac OS X*",
+      "match": "*CPU iPhone OS 3?* like Mac OS X*",
       "lite": false,
       "standard": false,
       "inherits": "iOS",
@@ -417,7 +417,7 @@
       }
     },
     "iOS_A_4_0": {
-      "match": "*CPU iPhone OS 4?0* like Mac OS X*",
+      "match": "*CPU iPhone OS 4?* like Mac OS X*",
       "lite": false,
       "standard": false,
       "inherits": "iOS",
@@ -453,7 +453,7 @@
       }
     },
     "iOS_A_5_0": {
-      "match": "*CPU iPhone OS 5?0* like Mac OS X*",
+      "match": "*CPU iPhone OS 5?* like Mac OS X*",
       "lite": false,
       "standard": false,
       "inherits": "iOS",
@@ -471,7 +471,7 @@
       }
     },
     "iOS_A_6_0": {
-      "match": "*CPU iPhone OS 6?0* like Mac OS X*",
+      "match": "*CPU iPhone OS 6?* like Mac OS X*",
       "lite": false,
       "standard": false,
       "inherits": "iOS",
@@ -489,7 +489,7 @@
       }
     },
     "iOS_A_7_0": {
-      "match": "*CPU iPhone OS 7?0* like Mac OS X*",
+      "match": "*CPU iPhone OS 7?* like Mac OS X*",
       "lite": false,
       "standard": true,
       "inherits": "iOS",
@@ -507,7 +507,7 @@
       }
     },
     "iOS_A_8_0": {
-      "match": "*CPU iPhone OS 8?0* like Mac OS X*",
+      "match": "*CPU iPhone OS 8?* like Mac OS X*",
       "lite": false,
       "standard": true,
       "inherits": "iOS",
@@ -561,7 +561,7 @@
       }
     },
     "iOS_A_9_0": {
-      "match": "*CPU iPhone OS 9?0* like Mac OS X*",
+      "match": "*CPU iPhone OS 9?* like Mac OS X*",
       "lite": false,
       "standard": true,
       "inherits": "iOS",
@@ -597,7 +597,7 @@
       }
     },
     "iOS_A_10_0": {
-      "match": "*CPU iPhone OS 10?0* like Mac OS X*",
+      "match": "*CPU iPhone OS 10?* like Mac OS X*",
       "lite": false,
       "standard": true,
       "inherits": "iOS",
@@ -654,7 +654,7 @@
       "inherits": "iOS"
     },
     "iOS_C_2_0": {
-      "match": "*CPU OS 2_0* like Mac OS X*",
+      "match": "*CPU OS 2* like Mac OS X*",
       "lite": false,
       "standard": false,
       "inherits": "iOS",
@@ -681,7 +681,7 @@
       }
     },
     "iOS_C_3_0": {
-      "match": "*CPU OS 3_0* like Mac OS X*",
+      "match": "*CPU OS 3* like Mac OS X*",
       "lite": false,
       "standard": false,
       "inherits": "iOS",
@@ -708,7 +708,7 @@
       }
     },
     "iOS_C_4_0": {
-      "match": "*CPU OS 4_0* like Mac OS X*",
+      "match": "*CPU OS 4* like Mac OS X*",
       "lite": false,
       "standard": false,
       "inherits": "iOS",
@@ -744,7 +744,7 @@
       }
     },
     "iOS_C_5_0": {
-      "match": "*CPU OS 5_0* like Mac OS X*",
+      "match": "*CPU OS 5* like Mac OS X*",
       "lite": false,
       "standard": false,
       "inherits": "iOS",
@@ -879,7 +879,7 @@
       }
     },
     "iOS_C_10_0": {
-      "match": "*CPU OS 10_0* like Mac OS X*",
+      "match": "*CPU OS 10* like Mac OS X*",
       "lite": false,
       "standard": true,
       "inherits": "iOS",

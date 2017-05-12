@@ -25,16 +25,20 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (iPhone#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Outlook-iOS-Android/* Safari/*",
-          "device": "iPhone",
+          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Outlook-iOS-Android/* Safari/*",
+          "devices": {
+            "iPhone": "iPhone"
+          },
           "platforms": [
-            "iOS_A_9_3", "iOS_A"
+            "iOS_A_9_3",
+            "iOS_A"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Outlook-iOS-Android/* Safari/*",
           "platforms": [
-            "iOS_A_9_3", "iOS_A"
+            "iOS_A",
+            "iOS_C"
           ]
         }
       ]

@@ -1,6 +1,6 @@
 {
   "division": "Opera Mini #MAJORVER#.#MINORVER# for iOS",
-  "versions": [14, 13, "12.1", 12, "10.2", "10.1", 10, "9.2", "9.1", 9, "8.1", 8],
+  "versions": [15, 14, 13, "12.1", 12, "10.2", "10.1", 10, "9.2", "9.1", 9, "8.1", 8],
   "sortIndex": 1931,
   "lite": false,
   "standard": true,
@@ -29,15 +29,23 @@
         {
           "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*) OPiOS/#MAJORVER#.#MINORVER#* Mobile/* Safari/*",
           "devices": {
-            "iPad": "iPad",
-            "iPhone": "iPhone"
+            "iPhone": "iPhone",
+            "iPod": "iPod Touch"
           },
           "platforms": [
             "iOS_A_10_3", "iOS_A_10_2", "iOS_A_10_1", "iOS_A_10_0",
             "iOS_A_9_3", "iOS_A_9_2", "iOS_A_9_1", "iOS_A_9_0",
-            "iOS_A_8_4", "iOS_A_8_3", "iOS_A_8_2", "iOS_A_8_1", "iOS_A_8_0",
+            "iOS_A_8_4", "iOS_A_8_3", "iOS_A_8_2", "iOS_A_8_1", "iOS_A_8_0", "iOS_A_8_0_B",
             "iOS_A_7_1", "iOS_A_7_0",
-            "iOS_A",
+            "iOS_A"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*) OPiOS/#MAJORVER#.#MINORVER#* Mobile/* Safari/*",
+          "devices": {
+            "iPad": "iPad"
+          },
+          "platforms": [
             "iOS_C_10_3", "iOS_C_10_2", "iOS_C_10_1", "iOS_C_10_0",
             "iOS_C_9_3", "iOS_C_9_2", "iOS_C_9_1", "iOS_C_9_0",
             "iOS_C_8_4", "iOS_C_8_3", "iOS_C_8_2", "iOS_C_8_1", "iOS_C_8_0",
@@ -48,15 +56,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) OPiOS/#MAJORVER#.#MINORVER#* Mobile/* Safari/*",
           "platforms": [
-            "iOS_A_10_3", "iOS_A_10_2", "iOS_A_10_1", "iOS_A_10_0",
-            "iOS_A_9_3", "iOS_A_9_2", "iOS_A_9_1", "iOS_A_9_0",
-            "iOS_A_8_4", "iOS_A_8_3", "iOS_A_8_2", "iOS_A_8_1", "iOS_A_8_0",
-            "iOS_A_7_1", "iOS_A_7_0",
             "iOS_A",
-            "iOS_C_10_3", "iOS_C_10_2", "iOS_C_10_1", "iOS_C_10_0",
-            "iOS_C_9_3", "iOS_C_9_2", "iOS_C_9_1", "iOS_C_9_0",
-            "iOS_C_8_4", "iOS_C_8_3", "iOS_C_8_2", "iOS_C_8_1", "iOS_C_8_0",
-            "iOS_C_7_1", "iOS_C_7_0",
             "iOS_C"
           ]
         }

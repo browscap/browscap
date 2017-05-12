@@ -163,8 +163,8 @@ return [
     'issue-591-D' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_1_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B440 [FBAN/MessengerForiOS;FBAV/23.0.0.14.15;FBBV/7829425;FBDV/iPad3,4;FBMD/iPad;FBSN/iPhone OS;FBSV/8.1.2;FBSS/2; FBCR/;FBID/tablet;FBLC/da_DK;FBOP/1]',
         'properties' => [
-            'Comment' => 'Facebook App for iOS',
-            'Browser' => 'Facebook App',
+            'Comment' => 'Facebook Messenger App for iOS',
+            'Browser' => 'Facebook Messenger',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Facebook',
@@ -322,8 +322,8 @@ return [
     'issue-591-G' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_1_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B466 [FBAN/MessengerForiOS;FBAV/22.0.0.11.13;FBBV/7231602;FBDV/iPad4,2;FBMD/iPad;FBSN/iPhone OS;FBSV/8.1.3;FBSS/2; FBCR/;FBID/tablet;FBLC/da_DK;FBOP/1]',
         'properties' => [
-            'Comment' => 'Facebook App for iOS',
-            'Browser' => 'Facebook App',
+            'Comment' => 'Facebook Messenger App for iOS',
+            'Browser' => 'Facebook Messenger',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Facebook',
@@ -428,8 +428,8 @@ return [
     'issue-591-I' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12D508 [FBAN/MessengerForiOS;FBAV/23.0.0.14.15;FBBV/7829425;FBDV/iPad2,5;FBMD/iPad;FBSN/iPhone OS;FBSV/8.2;FBSS/1; FBCR/;FBID/tablet;FBLC/da_DK;FBOP/1]',
         'properties' => [
-            'Comment' => 'Facebook App for iOS',
-            'Browser' => 'Facebook App',
+            'Comment' => 'Facebook Messenger App for iOS',
+            'Browser' => 'Facebook Messenger',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Facebook',
@@ -1859,8 +1859,8 @@ return [
     'issue-591-AJ' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B466 [FBAN/MessengerForiOS;FBAV/23.0.0.14.15;FBBV/7829425;FBDV/iPhone6,2;FBMD/iPhone;FBSN/iPhone OS;FBSV/8.1.3;FBSS/2; FBCR/3DK;FBID/phone;FBLC/da_DK;FBOP/5]',
         'properties' => [
-            'Comment' => 'Facebook App for iOS',
-            'Browser' => 'Facebook App',
+            'Comment' => 'Facebook Messenger App for iOS',
+            'Browser' => 'Facebook Messenger',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Facebook',
@@ -2071,8 +2071,8 @@ return [
     'issue-591-AN' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12D508 [FBAN/MessengerForiOS;FBAV/22.0.0.11.13;FBBV/7231602;FBDV/iPhone6,2;FBMD/iPhone;FBSN/iPhone OS;FBSV/8.2;FBSS/2; FBCR/3DK;FBID/phone;FBLC/da_DK;FBOP/5]',
         'properties' => [
-            'Comment' => 'Facebook App for iOS',
-            'Browser' => 'Facebook App',
+            'Comment' => 'Facebook Messenger App for iOS',
+            'Browser' => 'Facebook Messenger',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Facebook',
@@ -2124,8 +2124,8 @@ return [
     'issue-591-AO' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12D508 [FBAN/MessengerForiOS;FBAV/23.0.0.14.15;FBBV/7829425;FBDV/iPhone6,2;FBMD/iPhone;FBSN/iPhone OS;FBSV/8.2;FBSS/2; FBCR/3DK;FBID/phone;FBLC/da_DK;FBOP/5]',
         'properties' => [
-            'Comment' => 'Facebook App for iOS',
-            'Browser' => 'Facebook App',
+            'Comment' => 'Facebook Messenger App for iOS',
+            'Browser' => 'Facebook Messenger',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Facebook',

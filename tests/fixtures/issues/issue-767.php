@@ -587,8 +587,8 @@ return [
     'issue-767-L' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12D508 [FBAN/GroupsForiOS;FBAV/9.0;FBBV/7752968;FBDV/iPhone7,2;FBMD/iPhone;FBSN/iPhone OS;FBSV/8.2;FBSS/2; FBCR/Telekom.de;FBID/phone;FBLC/de_',
         'properties' => [
-            'Comment' => 'Facebook App for iOS',
-            'Browser' => 'Facebook App',
+            'Comment' => 'Facebook Groups App for iOS',
+            'Browser' => 'Facebook Groups',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Facebook',
