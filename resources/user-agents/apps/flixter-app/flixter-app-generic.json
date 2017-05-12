@@ -1,12 +1,11 @@
 {
-  "division": "Flixster App #MAJORVER#.#MINORVER#",
-  "versions": ["7.5", "7.4", "7.3", "7.2", "7.1", 7, "6.19", "6.18", "6.15", "6.13", "6.10"],
-  "sortIndex": 1008,
+  "division": "Flixster App Generic",
+  "sortIndex": 1009,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "Flixster App #MAJORVER#.#MINORVER#",
+      "userAgent": "Flixster App Generic",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
@@ -18,15 +17,12 @@
         "IFrames": "true",
         "Tables": "true",
         "Crawler": "false",
-        "Comment": "Flixster App #MAJORVER#.#MINORVER#",
-        "Browser": "Flixster App",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#"
+        "Comment": "Flixster App Generic",
+        "Browser": "Flixster App"
       },
       "children": [
         {
-          "match": "FlixsteriOS/#MAJORVER#.#MINORVER#* (#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*) Mobile/*",
+          "match": "FlixsteriOS/* (#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*) Mobile/*",
           "devices": {
             "iPhone": "iPhone",
             "iPod": "iPod Touch"
@@ -34,16 +30,14 @@
           "platforms": [
             "iOS_A_10_3", "iOS_A_10_2", "iOS_A_10_1", "iOS_A_10_0",
             "iOS_A_9_3", "iOS_A_9_2", "iOS_A_9_1", "iOS_A_9_0",
-            "iOS_A_8_4", "iOS_A_8_3", "iOS_A_8_2", "iOS_A_8_1", "iOS_A_8_0",
+            "iOS_A_8_4", "iOS_A_8_3", "iOS_A_8_2", "iOS_A_8_1", "iOS_A_8_0", "iOS_A_8_0_B",
             "iOS_A_7_1", "iOS_A_7_0",
             "iOS_A"
           ]
         },
         {
-          "match": "FlixsteriOS/#MAJORVER#.#MINORVER#* (#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*) Mobile/*",
-          "devices": {
-            "iPad": "iPad"
-          },
+          "match": "FlixsteriOS/* (iPad#PLATFORM#) applewebkit* (*khtml*like*gecko*) Mobile/*",
+          "device": "iPad",
           "platforms": [
             "iOS_C_10_3", "iOS_C_10_2", "iOS_C_10_1", "iOS_C_10_0",
             "iOS_C_9_3", "iOS_C_9_2", "iOS_C_9_1", "iOS_C_9_0",
@@ -53,7 +47,7 @@
           ]
         },
         {
-          "match": "FlixsteriOS/#MAJORVER#.#MINORVER#* (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Mobile/*",
+          "match": "FlixsteriOS/* (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Mobile/*",
           "platforms": [
             "iOS_A",
             "iOS_C"

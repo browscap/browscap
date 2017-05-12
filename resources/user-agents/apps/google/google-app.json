@@ -204,7 +204,7 @@
           "platforms": [
             "iOS_A_10_3", "iOS_A_10_2", "iOS_A_10_1", "iOS_A_10_0",
             "iOS_A_9_3", "iOS_A_9_2", "iOS_A_9_1", "iOS_A_9_0",
-            "iOS_A_8_4", "iOS_A_8_3", "iOS_A_8_2", "iOS_A_8_1", "iOS_A_8_0",
+            "iOS_A_8_4", "iOS_A_8_3", "iOS_A_8_2", "iOS_A_8_1", "iOS_A_8_0", "iOS_A_8_0_B",
             "iOS_A_7_1", "iOS_A_7_0",
             "iOS_A_6_1", "iOS_A_6_0",
             "iOS_A_5_1", "iOS_A_5_0",

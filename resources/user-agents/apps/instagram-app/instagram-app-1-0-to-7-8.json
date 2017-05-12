@@ -28,20 +28,11 @@
       },
       "children": [
         {
-          "match": "Instagram #MAJORVER#.#MINORVER#* (iPhone#PLATFORM#) applewebkit*",
-          "device": "iPhone",
-          "platforms": [
-            "iOS_E_9_3", "iOS_E_9_2", "iOS_E_9_1", "iOS_E_9_0",
-            "iOS_E_8_1", "iOS_E_8_0",
-            "iOS_E_7_1", "iOS_E_7_0",
-            "iOS_E_6_1", "iOS_E_6_0",
-            "iOS_E_5_1", "iOS_E_5_0",
-            "iOS_E"
-          ]
-        },
-        {
-          "match": "Instagram #MAJORVER#.#MINORVER#* (iPad#PLATFORM#) applewebkit*",
-          "device": "iPad",
+          "match": "Instagram #MAJORVER#.#MINORVER#* (#DEVICE##PLATFORM#) applewebkit*",
+          "devices": {
+            "iPad": "iPad",
+            "iPhone": "iPhone"
+          },
           "platforms": [
             "iOS_E_9_3", "iOS_E_9_2", "iOS_E_9_1", "iOS_E_9_0",
             "iOS_E_8_1", "iOS_E_8_0",
@@ -54,9 +45,7 @@
         {
           "match": "Instagram #MAJORVER#.#MINORVER#* (#PLATFORM#) applewebkit*",
           "platforms": [
-            "iOS_A_4_3", "iOS_A_5_0", "iOS_A_5_1", "iOS_A_6_0", "iOS_A_6_1", "iOS_A_7_0", "iOS_A_7_1", "iOS_A_8_0", "iOS_A_8_1", "iOS_A_9_0", "iOS_A_9_1", "iOS_A_9_2", "iOS_A_9_3",
             "iOS_A",
-            "iOS_E_4_3", "iOS_E_5_0", "iOS_E_5_1", "iOS_E_6_0", "iOS_E_6_1", "iOS_E_7_0", "iOS_E_7_1", "iOS_E_8_0", "iOS_E_8_1", "iOS_E_9_0", "iOS_E_9_3", "iOS_E_9_2", "iOS_E_9_1",
             "iOS_E"
           ]
         }

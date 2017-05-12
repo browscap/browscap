@@ -109,7 +109,7 @@
           "match": "Mozilla/5.0 (iPhone#PLATFORM#) applewebkit* (*khtml*like*gecko*) Mobile/* MicroMessenger/#MAJORVER#.#MINORVER#*",
           "device": "iPhone",
           "platforms": [
-            "iOS_A_8_1", "iOS_A_8_0",
+            "iOS_A_8_1", "iOS_A_8_0", "iOS_A_8_0_B",
             "iOS_A_7_1", "iOS_A_7_0",
             "iOS_A"
           ]

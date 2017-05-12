@@ -1,6 +1,6 @@
 {
   "division": "YaBrowser #MAJORVER#.#MINORVER#",
-  "versions": ["14.12", "14.11", "14.10", "14.9", "14.8", "14.7", "14.6", "14.5", "14.4", "14.3", "14.2", "14.1", 14, "13.12", "13.10", "13.9", "1.20"],
+  "versions": ["14.12", "14.11", "14.10", "14.9", "14.8", "14.7", "14.6", "14.5", "14.4", "14.3", "14.2", "14.1", 14, "13.12", "13.11", "13.10", "13.9", "1.20"],
   "sortIndex": 1018,
   "lite": false,
   "standard": true,
@@ -41,7 +41,8 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* YaBrowser/#MAJORVER#.#MINORVER#*Safari/*",
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_8", "OSX_10_9", "OSX_10_10", "OSX"
+            "OSX_10_10", "OSX_10_9", "OSX_10_8",
+            "OSX"
           ]
         },
         {
@@ -55,7 +56,8 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) YaBrowser/#MAJORVER#.#MINORVER#*Chrome/*Safari/*",
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_8", "OSX_10_9", "OSX_10_10", "OSX"
+            "OSX_10_10", "OSX_10_9", "OSX_10_8",
+            "OSX"
           ]
         }
       ]
@@ -112,7 +114,8 @@
             "LG-E975*": "LG E975"
           },
           "platforms": [
-            "Android_5_0", "Android_4_4"
+            "Android_5_0",
+            "Android_4_4"
           ]
         },
         {
@@ -265,7 +268,9 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* YaBrowser/#MAJORVER#.#MINORVER#* Safari/*",
           "platforms": [
-            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android_5_0", "Android_5_1", "Android"
+            "Android_5_1", "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android"
           ]
         }
       ]
@@ -297,34 +302,34 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) AppleWebKit/* (*khtml*like*gecko*)* YaBrowser/#MAJORVER#.#MINORVER#* Mobile/*",
+          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) AppleWebKit/* (*khtml*like*gecko*)* YaBrowser/#MAJORVER#.#MINORVER#.* Mobile/*",
           "devices": {
             "iPhone": "iPhone",
             "iPod": "iPod Touch"
           },
           "platforms": [
-            "iOS_A_10_3", "iOS_A_10_2", "iOS_A_10_1", "iOS_A_10_0",
             "iOS_A_9_3", "iOS_A_9_2", "iOS_A_9_1", "iOS_A_9_0",
-            "iOS_A_8_4", "iOS_A_8_3", "iOS_A_8_2", "iOS_A_8_1", "iOS_A_8_0",
+            "iOS_A_8_4", "iOS_A_8_3", "iOS_A_8_2", "iOS_A_8_1", "iOS_A_8_0", "iOS_A_8_0_B",
             "iOS_A_7_1", "iOS_A_7_0",
+            "iOS_A_6_1", "iOS_A_6_0",
             "iOS_A"
           ]
         },
         {
-          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) AppleWebKit/* (*khtml*like*gecko*)* YaBrowser/#MAJORVER#.#MINORVER#* Mobile/*",
+          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) AppleWebKit/* (*khtml*like*gecko*)* YaBrowser/#MAJORVER#.#MINORVER#.* Mobile/*",
           "devices": {
             "iPad": "iPad"
           },
           "platforms": [
-            "iOS_C_10_3", "iOS_C_10_2", "iOS_C_10_1", "iOS_C_10_0",
             "iOS_C_9_3", "iOS_C_9_2", "iOS_C_9_1", "iOS_C_9_0",
             "iOS_C_8_4", "iOS_C_8_3", "iOS_C_8_2", "iOS_C_8_1", "iOS_C_8_0",
             "iOS_C_7_1", "iOS_C_7_0",
+            "iOS_C_6_1", "iOS_C_6_0",
             "iOS_C"
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*)* YaBrowser/#MAJORVER#.#MINORVER#* Mobile/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*)* YaBrowser/#MAJORVER#.#MINORVER#.* Mobile/*",
           "platforms": [
             "iOS_A",
             "iOS_C"
