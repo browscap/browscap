@@ -65,7 +65,8 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "devices": {
             "HTC One_M8*": "HTC M8",
-            "HTC One_E8*": "HTC E8"
+            "HTC One_E8*": "HTC E8",
+            "SM-T705*": "Samsung SM-T705"
           },
           "platforms": [
             "Android_6_0",
@@ -84,6 +85,16 @@
           },
           "platforms": [
             "Android_5_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "devices": {
+            "Nexus 5*": "LG Nexus 5"
+          },
+          "platforms": [
+            "Android_5_1", "Android_5_0",
+            "Android_4_4"
           ]
         },
         {
@@ -845,16 +856,6 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# *Build/*) applewebkit* (*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
-          "devices": {
-            "Nexus 5": "LG Nexus 5"
-          },
-          "platforms": [
-            "Android_5_1", "Android_5_0",
-            "Android_4_4"
-          ]
-        },
-        {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE#*) applewebkit*(*kthml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "devices": {
             "Nuqleo; Zaffire 1010": "Nuqleo Zaffire 1010",
@@ -930,7 +931,18 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari*Chrome*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari*Chrome*",
+          "devices": {
+            "SM-T705*": "Samsung SM-T705"
+          },
+          "platforms": [
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari*Chrome*",
           "devices": {
             "SM-G850F": "Samsung SM-G850F"
           },

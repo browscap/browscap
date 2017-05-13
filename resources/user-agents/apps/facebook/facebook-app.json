@@ -316,6 +316,7 @@
             "SM-G900T": "Samsung SM-G900T",
             "SM-G900V": "Samsung SM-G900V",
             "SM-N910T": "Samsung SM-N910T",
+            "SM-T705*": "Samsung SM-T705",
             "XT1254": "Motorola XT1254"
           },
           "platforms": [

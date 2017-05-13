@@ -74,6 +74,17 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) version* chrome* safari* Instagram #MAJORVER#.* Android*",
           "devices": {
+            "SM-T705*": "Samsung SM-T705"
+          },
+          "platforms": [
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) version* chrome* safari* Instagram #MAJORVER#.* Android*",
+          "devices": {
             "A1601": "OPPO A1601",
             "Coolpad 3622A": "Coolpad 3622A",
             "D6603": "Sony D6603",
