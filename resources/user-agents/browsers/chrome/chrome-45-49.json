@@ -62,6 +62,17 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
           "devices": {
+            "SM-T705*": "Samsung SM-T705"
+          },
+          "platforms": [
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
+          "devices": {
             "Nexus 7": "Asus Nexus 7"
           },
           "platforms": [
@@ -249,7 +260,6 @@
             "SM-T530": "Samsung SM-T530",
             "SM-T530NU": "Samsung SM-T530NU",
             "SM-T700": "Samsung SM-T700",
-            "SM-T705": "Samsung SM-T705",
             "SM-T805": "Samsung SM-T805",
             "T1144": "Cello T1144",
             "TECNO H6": "Tecno H6",

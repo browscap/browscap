@@ -77,6 +77,17 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "devices": {
+            "SM-T705*": "Samsung SM-T705"
+          },
+          "platforms": [
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "devices": {
             "SM-G360T1": "Samsung SM-G360T1",
             "SM-G900T": "Samsung SM-G900T",
             "SM-G920F*": "Samsung SM-G920F",
@@ -139,7 +150,6 @@
             "SM-T530NU": "Samsung SM-T530NU",
             "SM-T535*": "Samsung SM-T535",
             "SM-T550": "Samsung SM-T550",
-            "SM-T705": "Samsung SM-T705",
             "SM-T710": "Samsung SM-T710",
             "SM-T810": "Samsung SM-T810",
             "SM-T815": "Samsung SM-T815"

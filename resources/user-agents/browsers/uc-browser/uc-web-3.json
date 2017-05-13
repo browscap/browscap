@@ -72,6 +72,18 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
           "engine": "Blink",
           "devices": {
+            "SM-T705*": "Samsung SM-T705"
+          },
+          "platforms": [
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
+          "engine": "Blink",
+          "devices": {
             "Beeline Smart 3": "Beeline Smart 3",
             "GT-I8160": "Samsung GT-I8160",
             "Lenovo A319": "Lenovo A319",

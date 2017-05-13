@@ -7,7 +7,7 @@
     {
       "userAgent": "Google App for Android",
       "engine": "WebKit",
-      "device": "general Mobile Device",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser_Maker": "Google Inc",
@@ -45,45 +45,6 @@
           },
           "platforms": [
             "Android_4_4"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/?.?* Chrome/* Mobile Safari/* GSA/*",
-          "engine": "Blink",
-          "platforms": [
-            "Android_7_1", "Android_7_0",
-            "Android_6_1", "Android_6_0",
-            "Android_5_1", "Android_5_0",
-            "Android_4_4",
-            "Android"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/?.?* Chrome/* Safari/* GSA/*",
-          "engine": "Blink",
-          "devices": {
-            "GT-N8000": "Samsung GT-N8000",
-            "Lenovo A3500-H": "Lenovo A3500-H",
-            "Lenovo A5500-H": "Lenovo A5500-H",
-            "Lenovo A7600-H": "Lenovo A7600-H",
-            "SM-T230NU": "Samsung SM-T230NU",
-            "SM-T310": "Samsung SM-T310",
-            "SM-T530": "Samsung SM-T530"
-          },
-          "platforms": [
-            "Android_4_4"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/?.?* Chrome/* Safari/* GSA/*",
-          "engine": "Blink",
-          "device": "general Tablet",
-          "platforms": [
-            "Android_7_1", "Android_7_0",
-            "Android_6_1", "Android_6_0",
-            "Android_5_1", "Android_5_0",
-            "Android_4_4",
-            "Android"
           ]
         },
         {
@@ -135,10 +96,49 @@
           ]
         },
         {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/?.?* Chrome/* Mobile Safari/* GSA/*",
+          "engine": "Blink",
+          "platforms": [
+            "Android_7_1", "Android_7_0",
+            "Android_6_1", "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4",
+            "Android"
+          ]
+        },
+        {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/?.?* Mobile Safari/* GSA/*",
           "platforms": [
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1",
             "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/?.?* Chrome/* Safari/* GSA/*",
+          "engine": "Blink",
+          "devices": {
+            "SM-T705*": "Samsung SM-T705"
+          },
+          "platforms": [
+            "Android_6_0",
+            "Android_5_0", "Android_5_1",
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/?.?* Chrome/* Safari/* GSA/*",
+          "engine": "Blink",
+          "devices": {
+            "GT-N8000": "Samsung GT-N8000",
+            "Lenovo A3500-H": "Lenovo A3500-H",
+            "Lenovo A5500-H": "Lenovo A5500-H",
+            "Lenovo A7600-H": "Lenovo A7600-H",
+            "SM-T230NU": "Samsung SM-T230NU",
+            "SM-T310": "Samsung SM-T310",
+            "SM-T530": "Samsung SM-T530"
+          },
+          "platforms": [
+            "Android_4_4"
           ]
         },
         {
@@ -167,6 +167,18 @@
           ]
         },
         {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/?.?* Chrome/* Safari/* GSA/*",
+          "engine": "Blink",
+          "device": "general Tablet",
+          "platforms": [
+            "Android_7_1", "Android_7_0",
+            "Android_6_1", "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4",
+            "Android"
+          ]
+        },
+        {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/?.?* Safari/* GSA/*",
           "device": "general Tablet",
           "platforms": [
@@ -179,7 +191,7 @@
     {
       "userAgent": "Google App for iOS",
       "engine": "WebKit",
-      "device": "general Mobile Device",
+      "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
         "Browser_Maker": "Google Inc",
