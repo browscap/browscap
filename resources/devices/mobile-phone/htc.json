@@ -12,6 +12,19 @@
             "isTablet": "false"
         }
     },
+    "HTC 0P4E2": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "0P4E2",
+            "Device_Name": "Desire 601",
+            "Device_Maker": "HTC",
+            "Device_Brand_Name": "HTC",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "HTC 0PJA2": {
         "standard": false,
         "properties": {
@@ -720,19 +733,6 @@
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "Desire 600c",
             "Device_Name": "Desire 600c",
-            "Device_Maker": "HTC",
-            "Device_Brand_Name": "HTC",
-            "Device_Pointing_Method": "touchscreen",
-            "isMobileDevice": "true",
-            "isTablet": "false"
-        }
-    },
-    "HTC Desire 601": {
-        "standard": false,
-        "properties": {
-            "Device_Type": "Mobile Phone",
-            "Device_Code_Name": "Desire 601",
-            "Device_Name": "Desire 601",
             "Device_Maker": "HTC",
             "Device_Brand_Name": "HTC",
             "Device_Pointing_Method": "touchscreen",

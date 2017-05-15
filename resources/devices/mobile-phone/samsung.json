@@ -2794,6 +2794,19 @@
             "isTablet": "false"
         }
     },
+    "Samsung SCH-S968C": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "SCH-S968C",
+            "Device_Name": "Galaxy S3 (Straight Talk)",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Samsung SCH-U520": {
         "standard": false,
         "properties": {

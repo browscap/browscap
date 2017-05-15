@@ -113,7 +113,7 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/*FBAV/*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/*?FB*/*;FBAV/*",
           "devices": {
             "Pixel": "Google Pixel",
             "Pixel XL": "Google Pixel XL"
@@ -123,7 +123,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/*FBAV/*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/*?FB*/*;FBAV/*",
           "devices": {
             "2PYB2": "HTC 2PYB2",
             "LG-H910": "LG H910",
@@ -137,9 +137,10 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/*FBAV/*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/*?FB*/*;FBAV/*",
           "devices": {
-            "Nexus 6": "Motorola Nexus 6"
+            "Nexus 6": "Motorola Nexus 6",
+            "SM-G930P": "Samsung SM-G930P"
           },
           "platforms": [
             "Android_7_0",
@@ -147,10 +148,9 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/*FBAV/*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/*?FB*/*;FBAV/*",
           "devices": {
             "0PJA2": "HTC 0PJA2",
-            "0PM92": "HTC 0PM92",
             "2PQ93": "HTC 2PQ93",
             "2PS64": "HTC 2PS64",
             "5056N": "Alcatel 5056N",
@@ -272,8 +272,9 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/*FBAV/*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/*?FB*/*;FBAV/*",
           "devices": {
+            "0PM92": "HTC 0PM92",
             "HTC Desire 626s": "HTC 0PM92",
             "LG-H901": "LG H901",
             "LGLS991": "LG LS991",
@@ -295,11 +296,18 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/*FBAV/*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/*?FB*/*;FBAV/*",
           "devices": {
+            "6045O": "Alcatel 6045O",
+            "MotoE2(4G-LTE)": "Motorola XT1524",
+            "SM-G900F": "Samsung SM-G900F",
+            "SM-G900R7": "Samsung SM-G900R7",
             "SM-G920A": "Samsung SM-G920A",
             "SM-N910A": "Samsung SM-N910A",
-            "SM-N910V": "Samsung SM-N910V"
+            "SM-N910P": "Samsung SM-N910P",
+            "SM-N910V": "Samsung SM-N910V",
+            "SM-N915V": "Samsung SM-N915V",
+            "SM-T800": "Samsung SM-T800"
           },
           "platforms": [
             "Android_6_0",
@@ -307,7 +315,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/*FBAV/*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/*?FB*/*;FBAV/*",
           "devices": {
             "HTC One_M8*": "HTC M8",
             "SM-G870A": "Samsung SM-G870A",
@@ -325,22 +333,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/*FBAV/*",
-          "devices": {
-            "6045O": "Alcatel 6045O",
-            "SM-G900F": "Samsung SM-G900F",
-            "SM-G900R7": "Samsung SM-G900R7",
-            "SM-N910P": "Samsung SM-N910P",
-            "SM-N915V": "Samsung SM-N915V",
-            "SM-T800": "Samsung SM-T800"
-          },
-          "platforms": [
-            "Android_6_0",
-            "Android_5_0"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/*FBAV/*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/*?FB*/*;FBAV/*",
           "devices": {
             "5017B": "Alcatel 5017B",
             "5054N": "Alcatel 5054N",
@@ -373,7 +366,6 @@
             "LGLS675": "LG LS675",
             "LGMS330": "LG MS330",
             "LGMS345": "LG MS345",
-            "MotoE2(4G-LTE)": "Motorola XT1524",
             "N9132": "ZTE Prestige",
             "SM-G530A": "Samsung SM-G530A",
             "SM-G530AZ": "Samsung SM-G530AZ",
@@ -417,7 +409,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/*FBAV/*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/*?FB*/*;FBAV/*",
           "devices": {
             "E6782": "Kyocera E6782",
             "QTAQZ3": "Quanta QTAQZ3",
@@ -431,7 +423,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/*FBAV/*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/*?FB*/*;FBAV/*",
           "devices": {
             "BLU STUDIO XL": "BLU Studio XL",
             "D5833": "Sony D5833",
@@ -464,7 +456,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/*FBAV/*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/*?FB*/*;FBAV/*",
           "devices": {
             "SCH-I545": "Samsung SCH-I545",
             "SCH-R970": "Samsung SCH-R970",
@@ -483,11 +475,12 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/*FBAV/*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/*?FB*/*;FBAV/*",
           "devices": {
             "0PCV1": "HTC Desire 510",
             "C6730": "Kyocera C6730",
             "C6833": "Sony C6833",
+            "C6902": "Sony C6902",
             "Coolpad 7620L-W00": "Coolpad 7620L-W00",
             "D6708": "Sony D6708",
             "Find 5": "OPPO X909",
@@ -498,7 +491,9 @@
             "HTC Desire 510": "HTC Desire 510",
             "HTC Desire 610": "HTC Desire 610",
             "HTC0P3P7": "HTC 0P3P7",
+            "HTC_0P4E2": "HTC 0P4E2",
             "Ice2": "Highscreen ICE 2",
+            "K016": "Asus K016",
             "Lenovo A319": "Lenovo A319",
             "Lenovo A5000": "Lenovo A5000",
             "Lenovo A536": "Lenovo A536",
@@ -558,105 +553,25 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/*FBAV/*",
-          "devices": {
-            "K016": "Asus K016"
-          },
-          "engine": "Blink",
-          "platforms": [
-            "Android_4_4"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/*FBAV/*",
-          "devices": {
-            "C6902": "Sony C6902"
-          },
-          "platforms": [
-            "Android_4_4", "Android_4_3"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/*FBAV/*",
-          "devices": {
-            "Lenovo A820": "Lenovo A820",
-            "SM-T110": "Samsung SM-T110"
-          },
-          "platforms": [
-            "Android_4_2"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/*FBAV/*",
+          "match": "Mozilla/5.0 (#PLATFORM# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/*?FB*/*;FBAV/*",
+          "engine": "WebKit",
           "platforms": [
             "Android_7_1", "Android_7_0",
             "Android_6_1", "Android_6_0",
             "Android_5_1", "Android_5_0",
-            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android_4_4",
             "Android"
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/*FBAV/*",
-          "platforms": [
-            "Android_7_1", "Android_7_0",
-            "Android_6_1", "Android_6_0",
-            "Android_5_1", "Android_5_0",
-            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
-            "Android"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Safari/*FBAV/*",
-          "devices": {
-            "D5833": "Sony D5833",
-            "SM-N910V": "Samsung SM-N910V"
-          },
-          "engine": "WebKit",
-          "platforms": [
-            "Android_5_0"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Safari/*FBAV/*",
-          "devices": {
-            "Lenovo A5000": "Lenovo A5000",
-            "LG-P880": "LG P880"
-          },
-          "engine": "WebKit",
-          "platforms": [
-            "Android_4_4"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Safari/*FBAV/*",
-          "devices": {
-            "C6902": "Sony C6902"
-          },
-          "engine": "WebKit",
-          "platforms": [
-            "Android_4_4", "Android_4_3"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Safari/*FBAV/*",
-          "devices": {
-            "LG-E615": "LG E615",
-            "SCH-I605": "Samsung SCH-I605"
-          },
-          "engine": "WebKit",
-          "platforms": [
-            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Safari/*FBAV/*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/*?FB*/*;FBAV/*",
           "devices": {
             "ALCATEL A845L": "Alcatel A845L",
             "C1905": "Sony C1905",
             "C5302": "Sony C5302",
             "C5303": "Sony C5303",
             "C6606": "Sony C6606",
+            "C6902": "Sony C6902",
             "GT-I9300": "Samsung GT-I9300",
             "HTC D516d": "HTC Desire 516",
             "HTC One max": "HTC 0P3P7",
@@ -673,10 +588,11 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Safari/*FBAV/*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/*?FB*/*;FBAV/*",
           "devices": {
             "Galaxy Nexus": "Samsung Galaxy Nexus",
             "GT-i9300": "Samsung GT-I9300",
+            "SCH-S968C": "Samsung SCH-S968C",
             "SGH-T999": "Samsung SGH-T999"
           },
           "engine": "WebKit",
@@ -685,12 +601,14 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Safari/*FBAV/*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/*?FB*/*;FBAV/*",
           "devices": {
             "GT-I9082L": "Samsung GT-I9082L",
             "GT-I9300T": "Samsung GT-I9300T",
             "HTC One X+": "HTC PM63100",
-            "ME302C": "Asus ME302C"
+            "LG-E615": "LG E615",
+            "ME302C": "Asus ME302C",
+            "SCH-I605": "Samsung SCH-I605"
           },
           "engine": "WebKit",
           "platforms": [
@@ -698,7 +616,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Safari/*FBAV/*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/*?FB*/*;FBAV/*",
           "devices": {
             "GT-I8190": "Samsung GT-I8190"
           },
@@ -709,7 +627,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Safari/*FBAV/*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/*?FB*/*;FBAV/*",
           "devices": {
             "Fly IQ453 Quad": "Fly IQ453",
             "Gravis77 QC 3G IPS GPS": "Treelogic Gravis 77 QC 3G IPS GPS",
@@ -717,7 +635,7 @@
             "GT-P3113": "Samsung GT-P3113",
             "HM NOTE 1W": "Xiaomi HM NOTE 1W",
             "HTC 802d": "HTC 802d",
-            "HTC Desire 601 dual sim": "HTC Desire 601",
+            "HTC Desire 601 dual sim": "HTC 0P4E2",
             "HUAWEI G750-T00": "Huawei G750-T00",
             "HUAWEI G750-U10": "Huawei G750-U10",
             "ImSmart 1.45": "Impression ImSmart 1.45",
@@ -744,7 +662,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Safari/*FBAV/*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/*?FB*/*;FBAV/*",
           "devices": {
             "AT300": "Toshiba AT300",
             "GT-I8262": "Samsung GT-I8262",
@@ -767,7 +685,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Safari/*FBAV/*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/*?FB*/*;FBAV/*",
           "devices": {
             "fnac 4.5": "Fnac Phablet 4.5",
             "H2000+": "Hero H2000+",
@@ -782,7 +700,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Safari/*FBAV/*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/*?FB*/*;FBAV/*",
           "devices": {
             "A501": "Acer A501"
           },
@@ -792,7 +710,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Safari/*FBAV/*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/*?FB*/*;FBAV/*",
           "devices": {
             "SCH-R720": "Samsung SCH-R720"
           },
@@ -802,80 +720,11 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Safari/*FB_IAB/*",
-          "devices": {
-            "M6": "PiPO M6"
-          },
+          "match": "Mozilla/5.0 (#PLATFORM# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/*?FB*/*;FBAV/*",
           "engine": "WebKit",
           "platforms": [
-            "Android_4_2"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Safari/*FBAV/*",
-          "engine": "WebKit",
-          "platforms": [
-            "Android_7_1", "Android_7_0",
-            "Android_6_1", "Android_6_0",
-            "Android_5_1", "Android_5_0",
-            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
             "Android_3_2",
-            "Android_2_3",
-            "Android"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/*Safari/*FBAV/*",
-          "engine": "WebKit",
-          "platforms": [
-            "Android_7_1", "Android_7_0",
-            "Android_6_1", "Android_6_0",
-            "Android_5_1", "Android_5_0",
-            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
-            "Android_2_3",
-            "Android"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/*Safari/*FB_IAB/*",
-          "platforms": [
-            "Android_7_1", "Android_7_0",
-            "Android_6_1", "Android_6_0",
-            "Android_5_1", "Android_5_0",
-            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
-            "Android"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/*Safari/*FB_IAB/*",
-          "platforms": [
-            "Android_7_1", "Android_7_0",
-            "Android_6_1", "Android_6_0",
-            "Android_5_1", "Android_5_0",
-            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
-            "Android"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Safari/*FB_IAB/*",
-          "engine": "WebKit",
-          "platforms": [
-            "Android_7_1", "Android_7_0",
-            "Android_6_1", "Android_6_0",
-            "Android_5_1", "Android_5_0",
-            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
-            "Android_2_3",
-            "Android"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/*Safari/*FB_IAB/*",
-          "engine": "WebKit",
-          "platforms": [
-            "Android_7_1", "Android_7_0",
-            "Android_6_1", "Android_6_0",
-            "Android_5_1", "Android_5_0",
-            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
             "Android_2_3",
             "Android"
           ]
