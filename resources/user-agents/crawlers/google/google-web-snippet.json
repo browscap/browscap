@@ -23,7 +23,7 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* Google (+https://developers.google.com/+/web/snippet/)*",
           "device": "Linux Desktop",
           "platforms": [
-            "Linux_64"
+            "Linux_64", "Linux"
           ]
         },
         {
