@@ -20,6 +20,13 @@
       },
       "children": [
         {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* Google (+https://developers.google.com/+/web/snippet/)*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64"
+          ]
+        },
+        {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* Google (+https://developers.google.com/+/web/snippet/)*",
           "device": "Linux Desktop",
           "platforms": [
