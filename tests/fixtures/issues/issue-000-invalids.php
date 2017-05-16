@@ -42,6 +42,10 @@ $invalidUserAgents = [
     'issue-000-invalids-N' => 'Mozilla/6.0 (Macintosh; I; Intel Mac OS X 11_7_9; de-LI; rv:1.9b4) Gecko/2012010317 Firefox/10.0a4',
     // This is probably supposed to be a Firefox useragent, but is lacking the "Firefox" identifier, which is invalid
     'issue-000-invalids-O' => 'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:29.0) Gecko/20100101 /',
+    // iCab is only available for Macintosh platforms (and iOS), From the developer's FAQ (http://www.icab.de/faq.html#q12):
+    // Will there be a version of iCab for Windows or Linux?
+    //      No, there's no version for Windows or Linux planned
+    'issue-000-invalids-P' => 'iCab/4.0  (Windows; U; Windows NT 6.0; en-gb)',
 ];
 
 $testCases = [];

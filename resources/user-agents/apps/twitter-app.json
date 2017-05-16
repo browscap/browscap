@@ -5,7 +5,7 @@
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "Twitter App",
+      "userAgent": "Twitter App for iOS",
       "engine": "WebKit",
       "platform": "iOS",
       "device": "general Mobile Device (Apple)",
@@ -56,6 +56,48 @@
           "platforms": [
             "iOS_A",
             "iOS_C"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "Twitter App for Android",
+      "engine": "Blink",
+      "platform": "Android",
+      "device": "general Mobile Device (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Twitter App",
+        "Browser": "Twitter App",
+        "Browser_Type": "Application",
+        "Browser_Maker": "Twitter",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* TwitterAndroid*",
+          "platforms": [
+            "Android_7_1", "Android_7_0",
+            "Android_6_1", "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* TwitterAndroid*",
+          "device": "general Tablet",
+          "platforms": [
+            "Android_7_1", "Android_7_0",
+            "Android_6_1", "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4",
+            "Android"
           ]
         }
       ]

@@ -1,0 +1,130 @@
+{
+  "division": "WeChat App #MAJORVER#.#MINORVER#",
+  "versions": ["6.5", "6.4", "6.3", "6.2", "6.1", 6],
+  "sortIndex": 954,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "WeChat App #MAJORVER#.#MINORVER#",
+      "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "WeChat App #MAJORVER#.#MINORVER#",
+        "Browser": "WeChat App",
+        "Browser_Type": "Application",
+        "Browser_Maker": "Tencent Ltd.",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*Version/* Chrome/*Safari/* MicroMessenger/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "GT-N7100": "Samsung GT-N7100"
+          },
+          "engine": "Blink",
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM# Build/*) applewebkit* (*khtml*like*gecko*)*Version/* Chrome/*Safari/* MicroMessenger/#MAJORVER#.#MINORVER#*",
+          "engine": "Blink",
+          "platforms": [
+            "Android_4_4",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*Version/* MQQBrowser/*Safari/* MicroMessenger/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "HM NOTE 1LTETD": "Xiaomi HM NOTE 1LTETD",
+            "HTC D820mu": "HTC D820mu",
+            "HUAWEI MT2-L01": "Huawei MT2-L01",
+            "N918St": "ZTE N918St",
+            "SM-N9008V": "Samsung SM-N9008V"
+          },
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*Version/* MQQBrowser/*Safari/* MicroMessenger/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "HM 1SC": "Xiaomi HM 1SC"
+          },
+          "platforms": [
+            "Android_4_3"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*Version/* MQQBrowser/*Safari/* MicroMessenger/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "vivo Y22": "vivo Y22"
+          },
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*Version/* MQQBrowser/*Safari/* MicroMessenger/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "GT-I9128V": "Samsung GT-I9128V"
+          },
+          "platforms": [
+            "Android_4_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM# Build/*) applewebkit* (*khtml*like*gecko*)*Version/* MQQBrowser/*Safari/* MicroMessenger/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Android_4_4",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*) Mobile/* MicroMessenger/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "iPhone": "iPhone"
+          },
+          "platforms": [
+            "iOS_A_10_3", "iOS_A_10_2", "iOS_A_10_1", "iOS_A_10_0",
+            "iOS_A_9_3", "iOS_A_9_2", "iOS_A_9_1", "iOS_A_9_0",
+            "iOS_A_8_4", "iOS_A_8_3", "iOS_A_8_2", "iOS_A_8_1", "iOS_A_8_0", "iOS_A_8_0_B",
+            "iOS_A_7_1", "iOS_A_7_0",
+            "iOS_A"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*) Mobile/* MicroMessenger/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "iPad": "iPad"
+          },
+          "platforms": [
+            "iOS_C_10_3", "iOS_C_10_2", "iOS_C_10_1", "iOS_C_10_0",
+            "iOS_C_9_3", "iOS_C_9_2", "iOS_C_9_1", "iOS_C_9_0",
+            "iOS_C_8_4", "iOS_C_8_3", "iOS_C_8_2", "iOS_C_8_1", "iOS_C_8_0",
+            "iOS_C_7_1", "iOS_C_7_0",
+            "iOS_C"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Mobile/* MicroMessenger/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "iOS_A",
+            "iOS_C"
+          ]
+        }
+      ]
+    }
+  ]
+}

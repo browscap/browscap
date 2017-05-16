@@ -1,0 +1,24 @@
+{
+  "division": "Tiny Tiny RSS Generic",
+  "sortIndex": 563,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Tiny Tiny RSS Generic",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Tiny Tiny RSS Generic",
+        "Browser": "Tiny Tiny RSS",
+        "Browser_Type": "Bot/Crawler",
+        "isSyndicationReader": "true",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Tiny Tiny RSS/*"
+        }
+      ]
+    }
+  ]
+}

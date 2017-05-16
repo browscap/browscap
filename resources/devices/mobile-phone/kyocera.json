@@ -12,6 +12,19 @@
             "isTablet": "false"
         }
     },
+    "Kyocera C6740N": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "Hydro Wave",
+            "Device_Code_Name": "C6740N",
+            "Device_Maker": "Kyocera",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Kyocera",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Kyocera C6742": {
         "standard": false,
         "properties": {

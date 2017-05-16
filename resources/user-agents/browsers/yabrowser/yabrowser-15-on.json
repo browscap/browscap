@@ -34,9 +34,13 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* YaBrowser/#MAJORVER#.#MINORVER#*Safari/*",
           "device": "Windows Desktop",
           "platforms": [
-            "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32", "Vista_64", "Vista_32",
-            "Win7_64", "Win7_32", "Win8_64", "Win8_32", "Win8_1_64", "Win8_1_32",
-            "Win10_x64", "Win10_64", "Win10_32", "Win10_x64_B", "Win10_64_B", "Win10_32_B", "Windows"
+            "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32",
+            "Vista_64", "Vista_32",
+            "Win7_64", "Win7_32",
+            "Win8_x64", "Win8_64", "Win8_32",
+            "Win8_1_64", "Win8_1_x64", "Win8_1_32",
+            "Win10_x64", "Win10_64", "Win10_32", "Win10_x64_B", "Win10_64_B", "Win10_32_B",
+            "Windows"
           ]
         },
         {
@@ -48,12 +52,23 @@
           ]
         },
         {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* YaBrowser/#MAJORVER#.#MINORVER#*Safari/*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64", "Linux_32", "Linux"
+          ]
+        },
+        {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) YaBrowser/#MAJORVER#.#MINORVER#*Chrome/*Safari/*",
           "device": "Windows Desktop",
           "platforms": [
-            "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32", "Vista_64", "Vista_32",
-            "Win7_64", "Win7_32", "Win8_64", "Win8_32", "Win8_1_64", "Win8_1_32",
-            "Win10_x64", "Win10_64", "Win10_32", "Win10_x64_B", "Win10_64_B", "Win10_32_B", "Windows"
+            "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32",
+            "Vista_64", "Vista_32",
+            "Win7_64", "Win7_32",
+            "Win8_x64", "Win8_64", "Win8_32",
+            "Win8_1_64", "Win8_1_x64", "Win8_1_32",
+            "Win10_x64", "Win10_64", "Win10_32", "Win10_x64_B", "Win10_64_B", "Win10_32_B",
+            "Windows"
           ]
         },
         {
@@ -62,6 +77,13 @@
           "platforms": [
             "OSX_10_12", "OSX_10_11", "OSX_10_10", "OSX_10_9", "OSX_10_8",
             "OSX"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) YaBrowser/#MAJORVER#.#MINORVER#*Chrome/*Safari/*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64", "Linux_32", "Linux"
           ]
         }
       ]
@@ -118,7 +140,8 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/* YaBrowser/#MAJORVER#.#MINORVER#* Safari/*",
           "devices": {
-            "Nexus 5": "LG Nexus 5"
+            "Nexus 5": "LG Nexus 5",
+            "Nexus 6": "Motorola Nexus 6"
           },
           "platforms": [
             "Android_5_1"
@@ -137,6 +160,7 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/* YaBrowser/#MAJORVER#.#MINORVER#* Safari/*",
           "devices": {
             "D6603": "Sony D6603",
+            "GT-I9500": "Samsung GT-I9500",
             "GT-I9505*": "Samsung GT-I9505",
             "SM-T555": "Samsung SM-T555"
           },
@@ -162,7 +186,10 @@
             "Beeline Smart2": "ZTE Beeline Smart2",
             "C07000": "Nomi C07000",
             "E4G": "Sony E4G",
+            "GT-I9190": "Samsung GT-I9190",
+            "GT-N7100": "Samsung GT-N7100",
             "GT-N7105": "Samsung GT-N7105",
+            "GT-N8000": "Samsung GT-N8000",
             "iDrQ10_3G": "Digma iDrQ10 3G",
             "Lenovo A319": "Lenovo A319",
             "Lenovo A328": "Lenovo A328",
@@ -174,6 +201,7 @@
             "Lenovo A6000": "Lenovo A6000",
             "Lenovo A606": "Lenovo A606",
             "Lenovo B6000-H": "Lenovo B6000-H",
+            "Lenovo B6000-HV": "Lenovo B6000-HV",
             "Lenovo B8000-H": "Lenovo B8000-H",
             "LG-D325": "LG D325",
             "M6": "PiPO M6",
@@ -182,9 +210,12 @@
             "PMT3037_3G": "Prestigio PMT3037_3G",
             "PMT3047_3G": "Prestigio PMT3047_3G",
             "SM-G900": "Samsung SM-G900",
+            "SM-N900A": "Samsung SM-N900A",
+            "SM-T311": "Samsung SM-T311",
             "TAB917QC-16GB": "Sunstech TAB917QC 16GB",
             "TT7007MG": "Digma TT7007MG",
-            "TX08": "Irbis TX08"
+            "TX08": "Irbis TX08",
+            "Venue 7 HSPA+": "Dell Venue 7 HSPA+"
           },
           "platforms": [
             "Android_4_4"
@@ -194,9 +225,12 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/* YaBrowser/#MAJORVER#.#MINORVER#* Safari/*",
           "devices": {
             "BN NookHD+": "Barnes & Noble Nook HD+",
+            "GT-I9300": "Samsung GT-I9300",
             "HTC C2": "HTC C2",
             "HUAWEI Y530-U00": "Huawei Y530-U00",
-            "LT29i": "Sony LT29i"
+            "LT29i": "Sony LT29i",
+            "MediaPad T1 8.0": "Huawei S8-701u",
+            "NokiaX2DS": "Nokia X2DS"
           },
           "platforms": [
             "Android_4_3"
@@ -216,6 +250,8 @@
           "devices": {
             "A1-810": "Acer A1-810",
             "ALCATEL ONE TOUCH 7041D": "Alcatel OT-7041D",
+            "GT-P3100": "Samsung GT-P3100",
+            "HTC Desire 310": "HTC Desire 310",
             "i75": "PiPO i75",
             "iDjD7": "Digma iDjD7",
             "IQ4404": "Fly IQ4404",
@@ -223,6 +259,7 @@
             "JK11": "Jiake JK11",
             "K-8S": "Keener K-8S",
             "Keneksi-Crystal": "Keneksi Crystal",
+            "Lenovo A3500-H": "Lenovo A3500-H",
             "Lenovo A369i": "Lenovo A369i",
             "Lenovo A526": "Lenovo A526",
             "Lenovo A656": "Lenovo A656",
@@ -242,6 +279,7 @@
             "Plane 10.5 3G PS1005MG": "Digma PS1005MG",
             "PMP7079D_QUAD": "Prestigio PMP7079D_QUAD",
             "PMP7480D3G_QUAD": "Prestigio PMP7480D3G_QUAD",
+            "PMT5777_3G": "Prestigio PMT5777_3G",
             "Primo76": "MSI Primo76",
             "radxa rock": "Radxa Rock",
             "RP-UDM02A": "Verico RP-UDM02A",

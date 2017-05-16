@@ -103,6 +103,20 @@
             "Browser": "Easy-Thumb Bot",
             "Browser_Maker": "Easy-Thumb.net"
           }
+        },
+        {
+          "match": "Mozilla/5.0 (*Linux*) AppleWebKit/* (KHTML, like Gecko) WordPress.com mShots Safari/*",
+          "properties": {
+            "Browser": "Wordpress.com MShots Thumbnailer",
+            "Browser_Maker": "Automattic"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (*Macintosh*) AppleWebKit/* (*khtml*like*gecko*) Like-Version/* Safari/* webkit2png/*",
+          "properties": {
+            "Browser": "webkit2png",
+            "Browser_Maker": "Paul Hammond"
+          }
         }
       ]
     }

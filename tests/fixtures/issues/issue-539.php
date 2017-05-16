@@ -428,7 +428,7 @@ return [
     'issue-539-K' => [
         'ua' => 'MQQBrowser/36 Mozilla/5.0 (iPhone 4S; CPU iPhone OS 5_1_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Mobile/9B206 Safari/7534.48.3',
         'properties' => [
-            'Comment' => 'QQbrowser Generic',
+            'Comment' => 'QQbrowser for iOS',
             'Browser' => 'QQbrowser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',

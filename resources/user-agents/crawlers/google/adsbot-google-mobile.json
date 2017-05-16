@@ -20,9 +20,11 @@
       },
       "children": [
         {
-          "match": "AdsBot?Google?Mobile (?http://www.google.com/mobile/adsbot.html) Mozilla (iPhone#PLATFORM#) AppleWebKit (*khtml*like*gecko*)*",
+          "match": "AdsBot?Google?Mobile (?http://www.google.com/mobile/adsbot.html) Mozilla (#DEVICE##PLATFORM#) AppleWebKit (*khtml*like*gecko*)*",
           "engine": "WebKit",
-          "device": "iPhone",
+          "devices": {
+            "iPhone": "iPhone"
+          },
           "platforms": [
             "iOS_A_8_1", "iOS_A_8_0",
             "iOS_A_7_1", "iOS_A_7_0",
@@ -40,6 +42,17 @@
           "platforms": [
             "iOS_A",
             "iOS_C"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Mobile/* Safari/* (compatible; AdsBot-Google-Mobile; +http://www.google.com/mobile/adsbot.html)",
+          "engine": "WebKit",
+          "devices": {
+            "iPhone": "iPhone"
+          },
+          "platforms": [
+            "iOS_A_9_0", "iOS_A_9_1",
+            "iOS_A"
           ]
         },
         {

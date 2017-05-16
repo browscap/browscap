@@ -1,0 +1,42 @@
+{
+  "division": "Sunrise Browser",
+  "sortIndex": 2752,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Sunrise Browser",
+      "platform": "iOS",
+      "engine": "WebKit",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Sunrise Browser",
+        "Browser": "Sunrise",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Atsushi Jike",
+        "Alpha": "false",
+        "Beta": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Sunrise*",
+          "platforms": [
+            "OSX_10_12", "OSX_10_11", "OSX_10_10", "OSX_10_9",
+            "OSX_10_8", "OSX_10_7", "OSX_10_6", "OSX_10_5",
+            "OSX_10_4", "OSX_PPC",
+            "OSX"
+          ]
+        }
+      ]
+    }
+  ]
+}

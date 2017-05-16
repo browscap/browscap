@@ -2797,6 +2797,27 @@
           "properties": {
             "Browser": "WebHistoryBot"
           }
+        },
+        {
+          "match": "Mozilla/5.0 (*Windows*) AppleWebKit/* (*khtml*like*gecko* compatible; MailDBBot/*; +https://maildb.io/bot) Safari/*",
+          "properties": {
+            "Browser": "MailDB Bot",
+            "Browser_Maker": "MailDB"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; MuckRack/*; +http://muckrack.com)",
+          "properties": {
+            "Browser": "MuckRack Bot",
+            "Browser_Maker": "Muckrack.com"
+          }
+        },
+        {
+          "match": "Mozilla Metadata Service *",
+          "properties": {
+            "Browser": "Mozilla Metadata Service",
+            "Browser_Maker": "Mozilla Foundation"
+          }
         }
       ]
     }
