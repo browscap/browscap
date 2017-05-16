@@ -178,6 +178,13 @@
             "Browser": "myTaste Image Cacher",
             "Browser_Maker": "203 Web Group"
           }
+        },
+        {
+          "match": "Taringa UGC www.taringa.net/shared-link.php*",
+          "properties": {
+            "Browser": "Taringa Bot",
+            "Browser_Maker": "Taringa.net"
+          }
         }
       ]
     }

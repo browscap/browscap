@@ -36,6 +36,9 @@
           "match": "Mozilla/5.0 (Linux*Android*Silk/#MAJORVER#.*) applewebkit* (*khtml*like*gecko*) Version/4.0 Mobile Safari*"
         },
         {
+          "match": "Mozilla/5.0 (Linux*Android*Silk/#MAJORVER#.*) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/*"
+        },
+        {
           "match": "Mozilla/5.0 (*Mac OS X 10*Silk/1.*) applewebkit* (*khtml*like*gecko*) Version/5.0 Safari*",
           "properties": {
             "Browser_Modus": "Desktop Mode"

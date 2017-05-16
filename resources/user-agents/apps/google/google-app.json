@@ -37,8 +37,13 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/?.?* Chrome/* Mobile Safari/* GSA/*",
           "engine": "Blink",
           "devices": {
+            "ARK Benefit M2": "ARK Benefit M2",
+            "HTC One mini 2": "HTC One Mini 2",
+            "HTC One mini": "HTC One Mini",
+            "HUAWEI P6-U06": "Huawei P6-U06",
             "Lenovo A319": "Lenovo A319",
             "Lenovo A328": "Lenovo A328",
+            "Lenovo A5000": "Lenovo A5000",
             "Lenovo A536": "Lenovo A536",
             "Lenovo A6000": "Lenovo A6000",
             "MTC SMART Run": "MTC SMART Run"
@@ -50,7 +55,9 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/?.?* Mobile Safari/* GSA/*",
           "devices": {
-            "GT-I9300": "Samsung GT-I9300"
+            "Galaxy Nexus": "Samsung Galaxy Nexus",
+            "GT-I9300": "Samsung GT-I9300",
+            "GT-I9505": "Samsung GT-I9505"
           },
           "platforms": [
             "Android_4_3"
@@ -60,12 +67,20 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/?.?* Mobile Safari/* GSA/*",
           "devices": {
             "ALCATEL ONE TOUCH 7047D": "Alcatel OT-7047D",
+            "GT-I8200N": "Samsung GT-I8200N",
             "GT-I9060": "Samsung GT-I9060",
             "GT-I9082": "Samsung GT-I9082",
+            "GT-I9105P": "Samsung GT-I9105P",
             "GT-I9192": "Samsung GT-I9192",
             "GT-I9195": "Samsung GT-I9195",
+            "GT-I9505": "Samsung GT-I9505",
+            "HTC One X+": "HTC PM63100",
+            "HTC One": "HTC M7",
+            "HUAWEI P6-U06": "Huawei P6-U06",
             "Lenovo A369i": "Lenovo A369i",
-            "Lenovo A5500-H": "Lenovo A5500-H"
+            "Lenovo A526": "Lenovo A526",
+            "Lenovo A5500-H": "Lenovo A5500-H",
+            "Lenovo A680_ROW": "Lenovo A680"
           },
           "platforms": [
             "Android_4_2"
@@ -74,12 +89,13 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/?.?* Mobile Safari/* GSA/*",
           "devices": {
-            "ALCATEL ONE TOUCH 5020D": "Alcatel OT-5020D",
             "ALCATEL ONE TOUCH 4030D": "Alcatel OT-4030D",
+            "ALCATEL ONE TOUCH 5020D": "Alcatel OT-5020D",
             "DROID RAZR": "Motorola Razr",
             "GT-I8160": "Samsung GT-I8160",
             "GT-I8190": "Samsung GT-I8190",
             "GT-I8262": "Samsung GT-I8262",
+            "GT-I9070": "Samsung GT-I9070",
             "GT-I9100": "Samsung GT-I9100",
             "GT-I9100G": "Samsung GT-I9100G",
             "GT-I9300": "Samsung GT-I9300",
@@ -89,6 +105,9 @@
             "HTC One S": "HTC PJ401",
             "HUAWEI G525-U00": "Huawei G525-U00",
             "HUAWEI Y300-0000": "Huawei Y300",
+            "LG-E430": "LG E430",
+            "LG-E440": "LG E440",
+            "LG-E460": "LG E460",
             "LG-E612": "LG E612"
           },
           "platforms": [
@@ -129,7 +148,9 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/?.?* Chrome/* Safari/* GSA/*",
           "engine": "Blink",
           "devices": {
+            "A1-810": "Acer A1-810",
             "GT-N8000": "Samsung GT-N8000",
+            "GT-P5210": "Samsung GT-P5210",
             "Lenovo A3500-H": "Lenovo A3500-H",
             "Lenovo A5500-H": "Lenovo A5500-H",
             "Lenovo A7600-H": "Lenovo A7600-H",
@@ -144,6 +165,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/?.?* Safari/* GSA/*",
           "devices": {
+            "A1-810": "Acer A1-810",
             "GT-P3100": "Samsung GT-P3100",
             "GT-P5100": "Samsung GT-P5100",
             "GT-P5200": "Samsung GT-P5200",
@@ -160,7 +182,8 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/?.?* Safari/* GSA/*",
           "devices": {
-            "ME371MG": "Asus ME371MG"
+            "ME371MG": "Asus ME371MG",
+            "PadFone": "Asus PadFone"
           },
           "platforms": [
             "Android_4_1"

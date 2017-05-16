@@ -1,0 +1,67 @@
+{
+  "division": "Baidu Box App #MAJORVER#.#MINORVER# for iOS",
+  "versions": ["8.5", "8.4", "8.3", "8.2", "8.1", 8, "7.6", "7.5", "7.4", "7.3", "7.2", "7.1", 7, "6.9", "6.8", "6.7", "6.6", "6.5"],
+  "sortIndex": 1903,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Baidu Box App #MAJORVER#.#MINORVER# for iOS",
+      "platform": "iOS",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Baidu Box App #MAJORVER#.#MINORVER#",
+        "Browser": "Baidu Box App",
+        "Browser_Type": "Application",
+        "Browser_Maker": "Baidu",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*) Mobile/* baiduboxapp/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "iPhone": "iPhone",
+            "iPod": "iPod Touch"
+          },
+          "platforms": [
+            "iOS_A_10_3", "iOS_A_10_2", "iOS_A_10_1", "iOS_A_10_0",
+            "iOS_A_9_3", "iOS_A_9_2", "iOS_A_9_1", "iOS_A_9_0",
+            "iOS_A_8_4", "iOS_A_8_3", "iOS_A_8_2", "iOS_A_8_1", "iOS_A_8_0", "iOS_A_8_0_B",
+            "iOS_A_7_1", "iOS_A_7_0",
+            "iOS_A"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*) Mobile/* baiduboxapp/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "iPad": "iPad"
+          },
+          "platforms": [
+            "iOS_C_10_3", "iOS_C_10_2", "iOS_C_10_1", "iOS_C_10_0",
+            "iOS_C_9_3", "iOS_C_9_2", "iOS_C_9_1", "iOS_C_9_0",
+            "iOS_C_8_4", "iOS_C_8_3", "iOS_C_8_2", "iOS_C_8_1", "iOS_C_8_0",
+            "iOS_C_7_1", "iOS_C_7_0",
+            "iOS_C"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Mobile/* baiduboxapp/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "iOS_A",
+            "iOS_C"
+          ]
+        }
+      ]
+    }
+  ]
+}

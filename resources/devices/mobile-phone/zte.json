@@ -415,6 +415,19 @@
             "isTablet": "false"
         }
     },
+    "ZTE V768": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "V768",
+            "Device_Name": "Concord",
+            "Device_Maker": "ZTE",
+            "Device_Brand_Name": "ZTE",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "ZTE V769M": {
         "standard": false,
         "properties": {

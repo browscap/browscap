@@ -1373,6 +1373,13 @@
             "Browser": "AnyEvent HTTP Client",
             "Browser_Maker": "Marc Lehmann"
           }
+        },
+        {
+          "match": "Client/* (org.mozilla.ios.Firefox; build:*; iOS *) Alamofire/*",
+          "properties": {
+            "Browser": "Alamofire Http Client",
+            "Browser_Maker": "Christian Noon"
+          }
         }
       ]
     }

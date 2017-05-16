@@ -176,6 +176,79 @@
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
             "Android"
           ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) version* safari* Instagram #MAJORVER#.* Android*",
+          "engine": "WebKit",
+          "devices": {
+            "SM-G900": "Samsung SM-G900"
+          },
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) version* safari* Instagram #MAJORVER#.* Android*",
+          "engine": "WebKit",
+          "devices": {
+            "GT-I9308I": "Samsung GT-I9308I",
+            "GT-I9505": "Samsung GT-I9505",
+            "HTCONE": "HTC M7",
+            "HUAWEI G6-L22": "Huawei G6-L22",
+            "LT25i": "Sony LT25i",
+            "SM-S765C": "Samsung SM-S765C"
+          },
+          "platforms": [
+            "Android_4_3"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) version* safari* Instagram #MAJORVER#.* Android*",
+          "engine": "WebKit",
+          "devices": {
+            "ALCATEL ONE TOUCH 7041X": "Alcatel OT-7041X",
+            "GT-I8200N": "Samsung GT-I8200N",
+            "GT-I8580": "Samsung GT-I8580",
+            "GT-I9082": "Samsung GT-I9082",
+            "GT-I9192": "Samsung GT-I9192",
+            "GT-I9500": "Samsung GT-I9500",
+            "GT-S7582": "Samsung GT-S7582",
+            "HUAWEI P6-U06": "Huawei P6-U06",
+            "HUAWEI Y330-U11": "Huawei Y330-U11",
+            "HUAWEI Y600-U20": "Huawei Y600-U20",
+            "SGH-T399": "Samsung SGH-T399"
+          },
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) version* safari* Instagram #MAJORVER#.* Android*",
+          "engine": "WebKit",
+          "devices": {
+            "C1505": "Sony C1505",
+            "GT-I8262": "Samsung GT-I8262",
+            "GT-I9100": "Samsung GT-I9100",
+            "GT-I9300": "Samsung GT-I9300",
+            "GT-S5310": "Samsung GT-S5310",
+            "GT-S6310L": "Samsung GT-S6310L",
+            "HTC One X": "HTC PJ83100",
+            "HTC PM63100": "HTC PM63100",
+            "itel it1500": "Itel IT1500",
+            "LG-E975": "LG E975",
+            "LG-P713": "LG P713"
+          },
+          "platforms": [
+            "Android_4_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) version* safari* Instagram #MAJORVER#.* Android*",
+          "engine": "WebKit",
+          "platforms": [
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android"
+          ]
         }
       ]
     },

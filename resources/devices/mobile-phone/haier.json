@@ -1,4 +1,17 @@
 {
+    "Haier AD681H": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "AD681H",
+            "Device_Code_Name": "AD681H",
+            "Device_Maker": "Haier",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Smartfren Andromax",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Haier M1000": {
         "standard": false,
         "properties": {

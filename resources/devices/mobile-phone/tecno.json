@@ -24,5 +24,18 @@
             "isMobileDevice": "true",
             "isTablet": "false"
         }
+    },
+    "Tecno P5": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Name": "P5",
+            "Device_Code_Name": "P5",
+            "Device_Maker": "Tecno",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Tecno",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
     }
 }

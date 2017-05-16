@@ -48,7 +48,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/* UCBrowser/#MAJORVER#.#MINORVER#* Mobile",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Safari/* UCBrowser/#MAJORVER#.#MINORVER#* Mobile",
           "engine": "WebKit",
           "platforms": [
             "Android_5_1", "Android_5_0",
@@ -190,7 +190,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM# Build/*) applewebkit* (*khtml*like*gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
           "platforms": [
             "Android_5_1", "Android_5_0",
@@ -200,7 +200,7 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#*/* Safari/*",
-          "engine": "U3",
+          "engine": "WebKit",
           "devices": {
             "Lenovo A320t": "Lenovo A320t"
           },
@@ -209,7 +209,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM# Build/*) applewebkit* (*khtml*like*gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#*/* Safari/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#*/* Safari/*",
           "engine": "WebKit",
           "platforms": [
             "Android_5_1", "Android_5_0",
@@ -283,14 +283,14 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM# Build/*) applewebkit* (*khtml*like*gecko*) UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
           "platforms": [
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0"
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM# Build/*) applewebkit* (*khtml*like*gecko*) UCBrowser/#MAJORVER#.#MINORVER#* Safari/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) UCBrowser/#MAJORVER#.#MINORVER#* Safari/*",
           "engine": "WebKit",
           "platforms": [
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0"

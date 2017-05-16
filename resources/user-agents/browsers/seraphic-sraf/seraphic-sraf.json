@@ -1,6 +1,6 @@
 {
   "division": "Seraphic Sraf #MAJORVER#.#MINORVER#",
-  "versions": [3],
+  "versions": ["3.9", "3.5", 3],
   "sortIndex": 956,
   "lite": true,
   "standard": true,
@@ -32,6 +32,9 @@
         },
         {
           "match": "Mozilla/5.0 (Linux; Linux mips) applewebkit* (*khtml*like*gecko*)*Chromium/* Safari/*) SRAF/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "Mozilla/5.0 (Linux;*) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* SRAF/#MAJORVER#.#MINORVER#*"
         }
       ]
     }

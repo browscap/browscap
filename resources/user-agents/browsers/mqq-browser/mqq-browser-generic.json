@@ -31,6 +31,57 @@
           ]
         },
         {
+          "match": "MQQBrowser/*"
+        },
+        {
+          "match": "MQQBrowser/Mini*",
+          "properties": {
+            "Browser": "QQbrowser Mini"
+          },
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* QQBrowser/*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win10_x64", "Win10_64", "Win10_32", "Win10_x64_B", "Win10_64_B", "Win10_32_B",
+            "Win8_1_64", "Win8_1_32",
+            "Win8_x64", "Win8_64", "Win8_32",
+            "Win7_x64", "Win7_64", "Win7_32",
+            "Windows"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* QQBrowser/*",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX_10_12", "OSX_10_11", "OSX_10_10", "OSX_10_9", "OSX_10_8",
+            "OSX"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "QQbrowser Generic for iOS",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "QQbrowser for iOS",
+        "Browser": "QQbrowser",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Tencent Ltd.",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
           "match": "MQQBrowser/*Mozilla/5.0 (iPhone#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Safari/*",
           "device": "iPhone",
           "platforms": [
@@ -47,15 +98,41 @@
           ]
         },
         {
-          "match": "MQQBrowser/*"
+          "match": "Mozilla/5.0 (iPhone#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/6.0 MQQBrowser/* Mobile* Safari*",
+          "device": "iPhone",
+          "platforms": [
+            "iOS_A_10_0", "iOS_A_10_1", "iOS_A_10_2", "iOS_A_10_3",
+            "iOS_A_9_0", "iOS_A_9_1", "iOS_A_9_2", "iOS_A_9_3",
+            "iOS_A_8_4", "iOS_A_8_3", "iOS_A_8_2", "iOS_A_8_1", "iOS_A_8_0", "iOS_A_8_0_B",
+            "iOS_A_7_1", "iOS_A_7_0",
+            "iOS_A_6_1", "iOS_A_6_0",
+            "iOS_A"
+          ]
         },
         {
-          "match": "MQQBrowser/Mini*",
-          "properties": {
-            "Browser": "QQbrowser Mini"
-          },
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/6.0 MQQBrowser/* Mobile* Safari*",
           "platforms": [
-            "JAVA"
+            "iOS_A",
+            "iOS_C"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (iPhone#PLATFORM#) applewebkit* (*khtml*like*gecko*) Mobile/* QQ/*",
+          "device": "iPhone",
+          "platforms": [
+            "iOS_A_10_3", "iOS_A_10_2", "iOS_A_10_1", "iOS_A_10_0",
+            "iOS_A_9_3", "iOS_A_9_2", "iOS_A_9_1", "iOS_A_9_0",
+            "iOS_A_8_4", "iOS_A_8_3", "iOS_A_8_2", "iOS_A_8_1", "iOS_A_8_0", "iOS_A_8_0_B",
+            "iOS_A_7_1", "iOS_A_7_0",
+            "iOS_A_6_1", "iOS_A_6_0",
+            "iOS_A"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Mobile/* QQ/*",
+          "platforms": [
+            "iOS_A",
+            "iOS_C"
           ]
         }
       ]

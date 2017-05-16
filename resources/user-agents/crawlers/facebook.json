@@ -18,6 +18,15 @@
       },
       "children": [
         {
+          "match": "Mozilla/5.0 (*) applewebkit* (*khtml*like*gecko*) Version/* Safari/* facebookexternalhit/1.1*",
+          "properties": {
+            "Browser": "FacebookExternalHit",
+            "Version": "1.1",
+            "MajorVer": "1",
+            "MinorVer": "1"
+          }
+        },
+        {
           "match": "facebookexternalhit/1.0*",
           "properties": {
             "Browser": "FacebookExternalHit",

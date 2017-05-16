@@ -173,6 +173,12 @@
           "properties": {
             "Browser": "Yahoo Ad Monitoring"
           }
+        },
+        {
+          "match": "Mozilla/5.0 (*OS * like Mac OS X) * (compatible; Yahoo Ad monitoring; https://help.yahoo.com*",
+          "properties": {
+            "Browser": "Yahoo Ad Monitoring"
+          }
         }
       ]
     }

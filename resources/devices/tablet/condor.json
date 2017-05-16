@@ -11,5 +11,18 @@
             "isMobileDevice": "true",
             "isTablet": "true"
         }
+    },
+    "Condor TRA-901G": {
+        "standard": true,
+        "properties": {
+            "Device_Type": "Tablet",
+            "Device_Name": "TRA-901G",
+            "Device_Code_Name": "TRA-901G",
+            "Device_Maker": "Condor",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Condor",
+            "isMobileDevice": "true",
+            "isTablet": "true"
+        }
     }
 }

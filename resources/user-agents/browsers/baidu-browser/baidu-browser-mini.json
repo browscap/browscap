@@ -28,9 +28,11 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (#PLATFORM#s4502 Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/* bdbrowser_mini/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/* bdbrowser_mini/#MAJORVER#.#MINORVER#*",
           "engine": "WebKit",
-          "device": "DNS S4502",
+          "devices": {
+            "s4502": "DNS S4502"
+          },
           "platforms": [
             "Android_4_1"
           ]
@@ -39,8 +41,8 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Safari/* T5/* bdbrowser_mini/#MAJORVER#.#MINORVER#*",
           "engine": "T5",
           "platforms": [
-            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3",
-            "Android_4_4", "Android_5_0",
+            "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
             "Android"
           ]
         },
@@ -48,8 +50,8 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/*Safari/* bdbrowser_mini/#MAJORVER#.#MINORVER#*",
           "engine": "Blink",
           "platforms": [
-            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3",
-            "Android_4_4", "Android_5_0",
+            "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
             "Android"
           ]
         },
@@ -57,8 +59,8 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Safari/* bdbrowser_mini/#MAJORVER#.#MINORVER#*",
           "engine": "WebKit",
           "platforms": [
-            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3",
-            "Android_4_4", "Android_5_0",
+            "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
             "Android"
           ]
         }

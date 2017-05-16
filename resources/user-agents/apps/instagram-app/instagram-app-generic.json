@@ -65,12 +65,21 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) version* chrome* safari* Instagram* Android*",
-          "device": "general Mobile Device",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version* Chrome* Safari* Instagram* Android*",
+          "engine": "Blink",
+          "device": "general Mobile Device (Touch)",
           "platforms": [
             "Android_7_1", "Android_7_0",
             "Android_6_1", "Android_6_0",
             "Android_5_1", "Android_5_0",
+            "Android_4_4",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version* Safari* Instagram* Android*",
+          "device": "general Mobile Device (Touch)",
+          "platforms": [
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
             "Android"
           ]

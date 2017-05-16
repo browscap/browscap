@@ -39,6 +39,14 @@
         },
         {
           "match": "Go-http-client/*"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Go-http-client/1.1*",
+          "properties": {
+            "Version": "1.1",
+            "MajorVer": "1",
+            "MinorVer": "1"
+          }
         }
       ]
     }

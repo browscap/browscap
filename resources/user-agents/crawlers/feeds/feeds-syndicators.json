@@ -712,6 +712,13 @@
             "Browser": "Nuzzel Bot",
             "Browser_Maker": "Nuzzle Inc"
           }
+        },
+        {
+          "match": "newsbeuter/*",
+          "properties": {
+            "Browser": "Newsbeuter RSS Aggregator",
+            "Browser_Maker": "newsbeuter.org"
+          }
         }
       ]
     }

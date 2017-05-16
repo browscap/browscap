@@ -27,7 +27,7 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*AP*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*A?*",
           "devices": {
             "SM-A310F": "Samsung SM-A310F",
             "SM-A510F": "Samsung SM-A510F",
@@ -39,7 +39,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*AP*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*A?*",
           "devices": {
             "Lenovo P2a42": "Lenovo P2a42"
           },
@@ -48,8 +48,36 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*AP*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*A?*",
           "devices": {
+            "GT-I9500": "Samsung GT-I9500",
+            "LG-D855": "LG D855",
+            "LG-F240L": "LG F240L"
+          },
+          "platforms": [
+            "Android_5_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*A?*",
+          "devices": {
+            "GT-I9190": "Samsung GT-I9190",
+            "GT-I9192": "Samsung GT-I9192",
+            "GT-I9301I": "Samsung GT-I9301I",
+            "GT-I9500": "Samsung GT-I9500",
+            "GT-I9515": "Samsung GT-I9515",
+            "GT-N7100": "Samsung GT-N7100",
+            "Lenovo A536": "Lenovo A536",
+            "Lenovo A6000": "Lenovo A6000",
+            "Lenovo A606": "Lenovo A606",
+            "LG-D280": "LG D280",
+            "LG-V490": "LG V490",
+            "LGLS740": "LG LS740",
+            "SCH-I605": "Samsung SCH-I605",
+            "SGH-M919": "Samsung SGH-M919",
+            "SM-G800F": "Samsung SM-G800F",
+            "SM-N7505": "Samsung SM-N7505",
+            "SM-N9005": "Samsung SM-N9005",
             "THOT61": "Thornton Pickard THOT61"
           },
           "platforms": [
@@ -57,9 +85,51 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*AP*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*A?*",
           "devices": {
-            "LG-E730": "LG E730"
+            "GT-I9300": "Samsung GT-I9300",
+            "GT-I9505": "Samsung GT-I9505",
+            "GT-N7100": "Samsung GT-N7100"
+          },
+          "platforms": [
+            "Android_4_3"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*A?*",
+          "devices": {
+            "A1-810": "Acer A1-810",
+            "ALCATEL ONE TOUCH Fierce": "Alcatel OT-Fierce",
+            "ASUS Transformer Pad TF300TG": "Asus TF300TG",
+            "GT-I9105P": "Samsung GT-I9105P",
+            "GT-P5100": "Samsung GT-P5100",
+            "ME173X": "Asus ME173X"
+          },
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*A?*",
+          "devices": {
+            "GT-I8190": "Samsung GT-I8190",
+            "GT-I9100G": "Samsung GT-I9100G",
+            "GT-I9300": "Samsung GT-I9300",
+            "GT-N7100": "Samsung GT-N7100",
+            "GT-P3110": "Samsung GT-P3110"
+          },
+          "platforms": [
+            "Android_4_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*A?*",
+          "devices": {
+            "AQUILA 080-1008": "Cmx Aquila 080-1008",
+            "GT-I9100G": "Samsung GT-I9100G",
+            "GT-I9300": "Samsung GT-I9300",
+            "LG-E730": "LG E730",
+            "LIFETAB_S9512": "Medion LifeTab S9512"
           },
           "platforms": [
             "Android_4_0"
@@ -72,35 +142,6 @@
             "Android_5_1", "Android_5_0",
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
             "Android"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*AT*",
-          "devices": {
-            "A1-810": "Acer A1-810",
-            "ASUS Transformer Pad TF300TG": "Asus TF300TG"
-          },
-          "platforms": [
-            "Android_4_2"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*AT*",
-          "devices": {
-            "GT-P3110": "Samsung GT-P3110"
-          },
-          "platforms": [
-            "Android_4_1"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*AT*",
-          "devices": {
-            "AQUILA 080-1008": "Cmx Aquila 080-1008",
-            "LIFETAB_S9512": "Medion LifeTab S9512"
-          },
-          "platforms": [
-            "Android_4_0"
           ]
         },
         {

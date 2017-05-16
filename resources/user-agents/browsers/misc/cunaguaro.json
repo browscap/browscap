@@ -1,0 +1,34 @@
+{
+  "division": "Cunaguaro",
+  "sortIndex": 3190,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Cunguaro",
+      "platform": "Linux",
+      "engine": "Gecko",
+      "device": "Linux Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Cunaguaro",
+        "Browser": "Cunaguaro",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "unknown",
+        "Alpha": "false",
+        "Beta": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko/* Firefox/* Cunaguaro/*",
+          "platforms": [
+            "Linux_32", "Linux_64", "Linux"
+          ]
+        }
+      ]
+    }
+  ]
+}

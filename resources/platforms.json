@@ -286,7 +286,7 @@
       }
     },
     "OSX_PPC": {
-      "match": "*PPC Mac OS X*",
+      "match": "*PPC* Mac OS X*",
       "lite": false,
       "standard": false,
       "inherits": "OSX",
@@ -295,7 +295,7 @@
       }
     },
     "OSX_PPC_2": {
-      "match": "*Macintosh*PPC Mac OS X*",
+      "match": "*Macintosh*PPC* Mac OS X*",
       "lite": false,
       "standard": false,
       "inherits": "OSX_PPC"
@@ -1158,7 +1158,7 @@
       "inherits": "iOS"
     },
     "iOS_I_7_0": {
-      "match": "* iOS/7.0*",
+      "match": "* iOS?7.0*",
       "lite": false,
       "standard": true,
       "inherits": "iOS",
@@ -1167,7 +1167,7 @@
       }
     },
     "iOS_I_7_1": {
-      "match": "* iOS/7.1*",
+      "match": "* iOS?7.1*",
       "lite": false,
       "standard": true,
       "inherits": "iOS",
@@ -1176,12 +1176,21 @@
       }
     },
     "iOS_I_8_0": {
-      "match": "* iOS/8.0*",
+      "match": "* iOS?8.0*",
       "lite": false,
       "standard": true,
       "inherits": "iOS",
       "properties": {
         "Platform_Version": "8.0"
+      }
+    },
+    "iOS_I_8_4": {
+      "match": "* iOS?8.4*",
+      "lite": false,
+      "standard": true,
+      "inherits": "iOS",
+      "properties": {
+        "Platform_Version": "8.4"
       }
     },
     "iOS_J": {

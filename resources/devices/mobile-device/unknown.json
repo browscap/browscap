@@ -11,5 +11,18 @@
             "isMobileDevice": "true",
             "isTablet": "false"
         }
+    },
+    "general Mobile Device (Touch)": {
+        "standard": true,
+        "properties": {
+            "Device_Name": "general Mobile Device",
+            "Device_Maker": "unknown",
+            "Device_Type": "Mobile Device",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Code_Name": "general Mobile Device",
+            "Device_Brand_Name": "unknown",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
     }
 }
