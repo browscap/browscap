@@ -26,6 +26,20 @@
           "match": "Mozilla/5.0 AppEngine-Google*"
         },
         {
+          "match": "UCWEB/*(Linux; U; Opera Mini/*) U2/* UCBrowser/* AppEngine-Google; (?http://code.google.com/appengine; appid: *",
+          "platforms": [
+            "Android"
+          ]
+        },
+        {
+          "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/* U2/* AppEngine-Google; (?http://code.google.com/appengine; appid: *",
+          "platforms": [
+            "SymbianOS",
+            "Android_E",
+            "any"
+          ]
+        },
+        {
           "match": "Mozilla/4.0 (#PLATFORM#) AppEngine-Google; (?http://code.google.com/appengine; appid: *",
           "platforms": [
             "WinXPa_32"

@@ -1,6 +1,6 @@
 {
   "division": "UC Browser #MAJORVER#.#MINORVER#",
-  "versions": ["2.6", "2.5", "2.4", "2.3", "2.2", "2.1", "2.0"],
+  "versions": ["2.9", "2.8", "2.7", "2.6", "2.5", "2.4", "2.3", "2.2", "2.1", "2.0"],
   "sortIndex": 938,
   "lite": false,
   "standard": true,
@@ -32,13 +32,19 @@
           "platforms": [
             "Android_D_4_3", "Android_D_4_2", "Android_D_4_1", "Android_D_4_0",
             "Android_D_2_3",
-            "Android_D",
-            "Android_C_2_3",
-            "Android_C"
+            "Android_D"
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) UCBrowser/#MAJORVER#.#MINORVER#* U3/* *Safari/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
+          "engine": "Blink",
+          "platforms": [
+            "Android_5_1", "Android_5_0",
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
           "platforms": [
             "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
@@ -56,17 +62,100 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/*Safari/* UCBrowser/#MAJORVER#.#MINORVER#* Mobile*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "devices": {
+            "Galaxy Nexus": "Samsung Galaxy Nexus"
+          },
+          "platforms": [
+            "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "devices": {
+            "GT-I9082L": "Samsung GT-I9082L",
+            "HUAWEI P6-U06": "Huawei P6-U06",
+            "Lenovo A516": "Lenovo A516",
+            "LenovoA3300-GV": "Lenovo A3300-GV"
+          },
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "devices": {
+            "GT-I8190L": "Samsung GT-I8190L",
+            "GT-I8190N": "Samsung GT-I8190N",
+            "GT-I9082L": "Samsung GT-I9082L",
+            "GT-I9105P": "Samsung GT-I9105P",
+            "HTC Desire X": "HTC T328E",
+            "HTC One X": "HTC PJ83100",
+            "HUAWEI G525-U00": "Huawei G525-U00",
+            "IdeaTabA2109A": "Lenovo A2109A"
+          },
+          "platforms": [
+            "Android_4_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "devices": {
+            "GT-I9100G": "Samsung GT-I9100G",
+            "Lenovo A390_ROW": "Lenovo A390"
+          },
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "devices": {
+            "AT100": "Toshiba AT100"
+          },
+          "platforms": [
+            "Android_3_2", "Android_3_1", "Android_3_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "devices": {
+            "GT-S5830i": "Samsung GT-S5830i",
+            "LG-P970": "LG P970"
+          },
+          "platforms": [
+            "Android_2_3"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "devices": {
+            "Desire HD": "HTC Desire HD",
+            "HTC Desire HD A9191": "HTC Desire HD A9191"
+          },
+          "platforms": [
+            "Android_2_3", "Android_2_2"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
           "engine": "WebKit",
           "platforms": [
-            "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android_3_2", "Android_3_1", "Android_3_0",
             "Android_2_3",
             "Android"
           ]
         },
         {
           "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
-          "device": "general Mobile Phone (Touch)",
           "engine": "U2",
           "platforms": [
             "Android_E_4_4", "Android_E_4_3", "Android_E_4_2", "Android_E_4_1", "Android_E_4_0",
@@ -87,28 +176,6 @@
           "platforms": [
             "Android"
           ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#LG-P970 Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
-          "engine": "WebKit",
-          "device": "LG P970",
-          "platforms": [
-            "Android_2_3"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
-          "engine": "WebKit",
-          "platforms": [
-            "Android_2_3"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/*Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
-          "engine": "WebKit",
-          "platforms": [
-            "Android_4_4"
-          ]
         }
       ]
     },
@@ -116,7 +183,6 @@
       "userAgent": "UC Browser #MAJORVER#.#MINORVER# for iOS",
       "platform": "iOS",
       "device": "general Mobile Device (Apple)",
-      "engine": "U3",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "UC Browser #MAJORVER#.#MINORVER# for iOS",
@@ -146,21 +212,30 @@
           ]
         },
         {
-          "match": "Mozilla/5.0*(iPad#PLATFORM#) applewebkit* (*khtml*like*gecko*) UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
+          "match": "Mozilla/5.0*(#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*) UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "engine": "U3",
-          "device": "iPad",
+          "devices": {
+            "iPad": "iPad"
+          },
           "platforms": [
             "iOS_C_10_3", "iOS_C_10_2", "iOS_C_10_1", "iOS_C_10_0",
             "iOS_C_9_3", "iOS_C_9_2", "iOS_C_9_1", "iOS_C_9_0",
             "iOS_C_8_4", "iOS_C_8_3", "iOS_C_8_2", "iOS_C_8_1", "iOS_C_8_0",
-            "iOS_C_7_1", "iOS_C_7_0", "iOS_C"
+            "iOS_C_7_1", "iOS_C_7_0",
+            "iOS_C"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0*(#PLATFORM#) applewebkit* (*khtml*like*gecko*) UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
+          "engine": "U3",
+          "platforms": [
+            "iOS_C"
           ]
         }
       ]
     },
     {
       "userAgent": "UC Browser #MAJORVER#.#MINORVER#",
-      "platform": "Android",
       "device": "general Mobile Phone (Touch)",
       "engine": "U2",
       "properties": {
@@ -183,7 +258,6 @@
         {
           "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
           "device": "general Mobile Phone (Touch)",
-          "engine": "U2",
           "platforms": [
             "WinPhone7_C", "WinPhone8_B",
             "SymbianOS_B"
@@ -191,7 +265,6 @@
         },
         {
           "match": "UCWEB/*(Java*) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
-          "engine": "U2",
           "device": "general Mobile Device",
           "platforms": [
             "JAVA"
