@@ -159,7 +159,6 @@
             "HTC 10": "HTC 2PS64",
             "HTC One A9": "HTC 2PQ93",
             "HTC One M9": "HTC 0PJA2",
-            "HTC One_M8": "HTC M8",
             "HTC6535LVW": "HTC 6535LVW",
             "HTC6545LVW": "HTC 6545LVW",
             "HTCD100LVW": "HTC D100LVW",
@@ -555,7 +554,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/*?FB*/*;FBAV/*",
-          "engine": "WebKit",
           "platforms": [
             "Android_7_1", "Android_7_0",
             "Android_6_1", "Android_6_0",
