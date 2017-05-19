@@ -26,11 +26,20 @@
         {
           "match": "#PLATFORM#) UCWEB*",
           "platforms": [
-            "Android_C_2_3",
-            "Android_C",
-            "Android_D_4_3", "Android_D_4_2", "Android_D_4_1", "Android_D_4_0",
-            "Android_D_2_3",
+            "Android_D_5_1", "Android_D_5_0",
+            "Android_D_4_4", "Android_D_4_3", "Android_D_4_2", "Android_D_4_1", "Android_D_4_0",
+            "Android_D_2_3", "Android_D_2_2", "Android_D_2_1", "Android_D_2_0",
+            "Android_D_1_6", "Android_D_1_5",
             "Android_D"
+          ]
+        },
+        {
+          "match": "#PLATFORM#)UCWEB*",
+          "platforms": [
+            "Android_C_4_4", "Android_C_4_3", "Android_C_4_2", "Android_C_4_1", "Android_C_4_0",
+            "Android_C_2_3", "Android_C_2_2", "Android_C_2_1", "Android_C_2_0",
+            "Android_C_1_6", "Android_C_1_5",
+            "Android_C"
           ]
         },
         {
@@ -46,26 +55,29 @@
         {
           "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser*",
           "engine": "U2",
-          "device": "general Mobile Phone (Touch)",
           "platforms": [
-            "Android_E_5_0",
+            "Android_E_7_1", "Android_E_7_0",
+            "Android_E_6_1", "Android_E_6_0",
+            "Android_E_5_1", "Android_E_5_0",
             "Android_E_4_4", "Android_E_4_3", "Android_E_4_2", "Android_E_4_1", "Android_E_4_0",
+            "Android_E_3_2", "Android_E_3_1", "Android_E_3_0",
             "Android_E_2_3", "Android_E_2_2", "Android_E_2_1",
             "Android_E",
-            "iOS_D_8_0",
-            "iOS_D_7_1", "iOS_D_7_0",
-            "iOS_D_6_1", "iOS_D_6_0",
-            "iOS_D_5_1", "iOS_D_5_0",
-            "iOS_D",
-            "WinPhone7_C", "WinPhone8_B",
-            "SymbianOS_B"
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android_2_3",
+            "Android",
+            "WinPhone8.1_B", "WinPhone8_B",
+            "WinPhone7_C",
+            "SymbianOS_B",
+            "any"
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) UC applewebkit* (*khtml*like*gecko*) *Safari/*",
+          "match": "UCWEB/*(#PLATFORM#) U2/* UC Browser/* U2/*",
+          "engine": "U2",
           "platforms": [
-            "Android_2_3",
-            "Android"
+            "Android_E_4_4", "Android_E_4_2", "Android_E_4_1", "Android_E_4_0",
+            "Android_E"
           ]
         },
         {
@@ -83,6 +95,13 @@
           ]
         },
         {
+          "match": "UCWEB/*(MIDP-2.0*) U2/* UCBrowser/*",
+          "engine": "U2",
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
           "match": "UCWEB/*(Java*) U2/* UCBrowser/*",
           "engine": "U2",
           "device": "general Mobile Device",
@@ -91,51 +110,8 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#)*applewebkit*(*khtml*like*gecko*)*UCBrowser/*",
-          "engine": "WebKit",
-          "devices": {
-            "iPhone": "iPhone",
-            "iPod": "iPod Touch"
-          },
+          "match": "Mozilla/5.0 (#PLATFORM#) UC applewebkit* (*khtml*like*gecko*) *Safari/*",
           "platforms": [
-            "iOS_A_10_3", "iOS_A_10_2", "iOS_A_10_1", "iOS_A_10_0",
-            "iOS_A_9_3", "iOS_A_9_2", "iOS_A_9_1", "iOS_A_9_0",
-            "iOS_A_8_4", "iOS_A_8_3", "iOS_A_8_2", "iOS_A_8_1", "iOS_A_8_0", "iOS_A_8_0_B",
-            "iOS_A_7_1", "iOS_A_7_0",
-            "iOS_A"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#)*applewebkit*(*khtml*like*gecko*)*UCBrowser/*",
-          "engine": "WebKit",
-          "devices": {
-            "iPad": "iPad"
-          },
-          "platforms": [
-            "iOS_C_10_3", "iOS_C_10_2", "iOS_C_10_1", "iOS_C_10_0",
-            "iOS_C_9_3", "iOS_C_9_2", "iOS_C_9_1", "iOS_C_9_0",
-            "iOS_C_8_4", "iOS_C_8_3", "iOS_C_8_2", "iOS_C_8_1", "iOS_C_8_0",
-            "iOS_C_7_1", "iOS_C_7_0",
-            "iOS_C"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*UCBrowser/*",
-          "engine": "WebKit",
-          "device": "general Mobile Device (Apple)",
-          "platforms": [
-            "iOS_A",
-            "iOS_C"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* UCBrowser/* U3/* Safari/*",
-          "engine": "U3",
-          "platforms": [
-            "Android_7_1", "Android_7_0",
-            "Android_6_1", "Android_6_0",
-            "Android_5_1", "Android_5_0",
-            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
             "Android_2_3",
             "Android"
           ]
@@ -152,13 +128,198 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (Linux; U;* #DEVICE# Build/KVT49L) applewebkit* (*khtml*like*gecko*) Version/* UCBrowser/* U3/* Safari/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* UCBrowser/*",
+          "engine": "Blink",
+          "platforms": [
+            "Android_7_1", "Android_7_0",
+            "Android_6_1", "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)* Version/* UCBrowser/* U3/* Safari/*",
           "engine": "U3",
+          "platforms": [
+            "Android_7_1", "Android_7_0",
+            "Android_6_1", "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android_3_2", "Android_3_1", "Android_3_0",
+            "Android_2_3", "Android_2_2", "Android_2_1", "Android_2_0",
+            "Android_1_6", "Android_1_5",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) UCBrowser/* U3/* Safari/*",
+          "engine": "U3",
+          "platforms": [
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android_2_3", "Android_2_2",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* UCBrowser/* U2/* Safari/*",
+          "engine": "U2",
+          "platforms": [
+            "Android_5_1", "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)* Version/* UCBrowser/* Safari/*",
+          "engine": "WebKit",
+          "platforms": [
+            "Android_5_1", "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)* Version/* Safari/* UCBrowser/*",
+          "engine": "WebKit",
+          "platforms": [
+            "Android_5_1", "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android_2_3", "Android_2_2",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) UCBrowser/* Safari/*",
+          "engine": "WebKit",
+          "platforms": [
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android_2_3", "Android_2_2",
+            "Android"
+          ]
+        },
+        {
+          "match": "Nokia*/* Profile/MIDP-2* UCWEB/2.0 (*) U2/* UCBrowser/* U2/* Mobile*",
+          "engine": "U2",
+          "device": "general Mobile Phone (Nokia)",
+          "platforms": [
+            "Series40"
+          ]
+        },
+        {
+          "match": "Nokia*/* Profile/MIDP-2* (*) applewebkit* (*khtml*like*gecko*) UCBrowser/*",
+          "engine": "WebKit",
+          "device": "general Mobile Phone (Nokia)",
+          "platforms": [
+            "Series40"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "UC Browser Generic for iOS",
+      "platform": "iOS",
+      "device": "general Mobile Device (Apple)",
+      "engine": "WebKit",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "UC Browser Generic for iOS",
+        "Browser": "UC Browser",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "UCWeb Inc.",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#)*applewebkit*(*khtml*like*gecko*)*UCBrowser/*",
           "devices": {
-            "iphone 6s": "Xianghe iphone 6s"
+            "iPhone": "iPhone",
+            "iPod": "iPod Touch"
           },
           "platforms": [
-            "Android_4_4"
+            "iOS_A_10_3", "iOS_A_10_2", "iOS_A_10_1", "iOS_A_10_0",
+            "iOS_A_9_3", "iOS_A_9_2", "iOS_A_9_1", "iOS_A_9_0",
+            "iOS_A_8_4", "iOS_A_8_3", "iOS_A_8_2", "iOS_A_8_1", "iOS_A_8_0", "iOS_A_8_0_B",
+            "iOS_A_7_1", "iOS_A_7_0",
+            "iOS_A"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#)*applewebkit*(*khtml*like*gecko*)*UCBrowser/*",
+          "devices": {
+            "iPad": "iPad"
+          },
+          "platforms": [
+            "iOS_C_10_3", "iOS_C_10_2", "iOS_C_10_1", "iOS_C_10_0",
+            "iOS_C_9_3", "iOS_C_9_2", "iOS_C_9_1", "iOS_C_9_0",
+            "iOS_C_8_4", "iOS_C_8_3", "iOS_C_8_2", "iOS_C_8_1", "iOS_C_8_0",
+            "iOS_C_7_1", "iOS_C_7_0",
+            "iOS_C_6_1", "iOS_C_6_0",
+            "iOS_C_5_1", "iOS_C_5_0",
+            "iOS_C"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*UCBrowser/*",
+          "platforms": [
+            "iOS_A",
+            "iOS_C"
+          ]
+        },
+        {
+          "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser*",
+          "engine": "U2",
+          "platforms": [
+            "iOS_D_8_0",
+            "iOS_D_7_1", "iOS_D_7_0",
+            "iOS_D_6_1", "iOS_D_6_0",
+            "iOS_D_5_1", "iOS_D_5_0",
+            "iOS_D"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "UC Browser Generic for Desktop",
+      "device": "Windows Desktop",
+      "engine": "WebKit",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "UC Browser Generic",
+        "Browser": "UC Browser",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "UCWeb Inc.",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* UCBrowser/*",
+          "platforms": [
+            "Win8_1_64", "Win8_1_32", "Win8_64", "Win8_32",
+            "Win7_64", "Win7_32",
+            "Vista_64", "Vista_32",
+            "WinXPb_32"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* UBrowser/* Safari/*",
+          "engine": "Blink",
+          "platforms": [
+            "Win10_x64", "Win10_64", "Win10_32", "Win10_x64_B", "Win10_64_B", "Win10_32_B",
+            "Win8_1_64", "Win8_1_32",
+            "Win8_64", "Win8_32",
+            "Win7_64", "Win7_32",
+            "Vista_64", "Vista_32"
           ]
         }
       ]

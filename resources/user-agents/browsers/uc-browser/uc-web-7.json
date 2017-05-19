@@ -34,9 +34,27 @@
             "GT-S5570": "Samsung GT-S5570"
           },
           "platforms": [
-            "Android_C_2_3", "Android_C_2_2",
             "Android_D_4_3", "Android_D_4_2", "Android_D_4_1", "Android_D_4_0",
             "Android_D_2_3", "Android_D_2_2"
+          ]
+        },
+        {
+          "match": "#PLATFORM##DEVICE#*) UCWEB#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "Aqua_Star": "Intex Aqua Star"
+          },
+          "platforms": [
+            "Android_D_2_3"
+          ]
+        },
+        {
+          "match": "#PLATFORM#) UCWEB#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Android_D_5_1", "Android_D_5_0",
+            "Android_D_4_4", "Android_D_4_3", "Android_D_4_2", "Android_D_4_1", "Android_D_4_0",
+            "Android_D_2_3", "Android_D_2_2", "Android_D_2_1",
+            "Android_D_1_6", "Android_D_1_5",
+            "Android_D"
           ]
         },
         {
@@ -54,38 +72,7 @@
             "Micromax A35": "Micromax A35"
           },
           "platforms": [
-            "Android_C_2_3", "Android_C_2_2",
-            "Android_D_4_1", "Android_D_4_0"
-          ]
-        },
-        {
-          "match": "#PLATFORM##DEVICE#*) UCWEB#MAJORVER#.#MINORVER#*",
-          "devices": {
-            "Aqua_Star": "Intex Aqua Star"
-          },
-          "platforms": [
-            "Android_D_2_3"
-          ]
-        },
-        {
-          "match": "#PLATFORM#) UCWEB#MAJORVER#.#MINORVER#*",
-          "platforms": [
-            "Android_C_4_2",
-            "Android_C_2_3", "Android_C_2_2",
-            "Android_C",
-            "Android_D_4_3", "Android_D_4_2", "Android_D_4_1", "Android_D_4_0",
-            "Android_D_2_3", "Android_D_2_2",
-            "Android_D"
-          ]
-        },
-        {
-          "match": "#PLATFORM#)UCWEB#MAJORVER#.#MINORVER#*",
-          "platforms": [
-            "Android_C_4_2",
-            "Android_C_2_3", "Android_C_2_2",
-            "Android_C",
-            "Android_D_4_2", "Android_D_4_1", "Android_D_4_0",
-            "Android_D"
+            "Android_C_2_3", "Android_C_2_2"
           ]
         },
         {
@@ -101,7 +88,13 @@
         {
           "match": "#PLATFORM#)UCWEB#MAJORVER#.#MINORVER#*",
           "platforms": [
-            "Android_G_2_2",
+            "Android_C_4_4", "Android_C_4_3", "Android_C_4_2", "Android_C_4_1", "Android_C_4_0",
+            "Android_C_3_2", "Android_C_3_1", "Android_C_3_0",
+            "Android_C_2_3", "Android_C_2_2", "Android_C_2_1", "Android_C_2_0",
+            "Android_C_1_6", "Android_C_1_5",
+            "Android_C",
+            "Android_G_2_3", "Android_G_2_2", "Android_G_2_1",
+            "Android_G_1_5",
             "Android_G"
           ]
         },

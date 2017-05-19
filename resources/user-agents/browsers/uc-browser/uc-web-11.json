@@ -131,7 +131,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
-          "engine": "U3",
           "devices": {
             "ASUS_T00I": "Asus T00I",
             "ASUS_Z007": "Asus Z007",
@@ -166,7 +165,14 @@
           "devices": {
             "GT-I9152": "Samsung GT-I9152",
             "GT-S7270": "Samsung GT-S7270",
-            "Micromax A177": "Micromax A177"
+            "HUAWEI G700-U10": "Huawei G700-U10",
+            "HUAWEI Y330-U01": "Huawei Y330-U01",
+            "IdeaTab S6000-H": "Lenovo S6000-H",
+            "Lenovo A3000-H": "Lenovo A3000-H",
+            "Lenovo A3500-FL": "Lenovo A3500-FL",
+            "LenovoA3300-GV": "Lenovo A3300-GV",
+            "Micromax A177": "Micromax A177",
+            "PMP7079D3G_QUAD": "Prestigio PMP7079D3G_QUAD"
           },
           "platforms": [
             "Android_4_2"
@@ -176,14 +182,15 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "devices": {
             "GT-I9300": "Samsung GT-I9300",
-            "GT-S7262": "Samsung GT-S7262"
+            "GT-S7262": "Samsung GT-S7262",
+            "HUAWEI G525-U00": "Huawei G525-U00"
           },
           "platforms": [
             "Android_4_1"
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM# Build/*) applewebkit* (*khtml*like*gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "platforms": [
             "Android_7_1", "Android_7_0",
             "Android_6_1", "Android_6_0",
@@ -194,13 +201,42 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* UCBrowser/#MAJORVER#.#MINORVER#* Safari/*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* UCBrowser/#MAJORVER#.#MINORVER#* Safari/*",
+          "engine": "Blink",
+          "devices": {
+            "HUAWEI NXT-AL10": "Huawei NXT-AL10"
+          },
+          "platforms": [
+            "Android_7_0",
+            "Android_6_1", "Android_6_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* UCBrowser/#MAJORVER#.#MINORVER#* Safari/*",
+          "engine": "Blink",
+          "devices": {
+            "Redmi Note 3": "Xiaomi Redmi Note 3"
+          },
+          "platforms": [
+            "Android_6_0",
+            "Android_5_1", "Android_5_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* UCBrowser/#MAJORVER#.#MINORVER#* Safari/*",
           "engine": "Blink",
           "platforms": [
             "Android_7_1", "Android_7_0",
             "Android_6_1", "Android_6_0",
             "Android_5_1", "Android_5_0",
-            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1",
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android"
+          ]
+        },
+        {
+          "match": "UCWEB/*(Linux; U; Opera Mini/*) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
+          "engine": "U2",
+          "platforms": [
             "Android"
           ]
         }

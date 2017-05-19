@@ -385,7 +385,7 @@ return [
             'MajorVer' => '9',
             'MinorVer' => '5',
             'Platform' => 'Android',
-            'Platform_Version' => '4.0',
+            'Platform_Version' => 'unknown',
             'Platform_Description' => 'Android OS',
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Google Inc',

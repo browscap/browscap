@@ -332,7 +332,7 @@ return [
             'MajorVer' => '9',
             'MinorVer' => '2',
             'Platform' => 'Android',
-            'Platform_Version' => '4.0',
+            'Platform_Version' => '4.2',
             'Platform_Description' => 'Android OS',
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Google Inc',
