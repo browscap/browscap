@@ -27,8 +27,10 @@
       },
       "children": [
         {
-          "match": "Vodafone/1.0/Panasonic-VS3/VA43 Browser/Obigo-Browser/#MAJORVER#.#MINORVER# *",
-          "device": "Panasonic VS3"
+          "match": "Vodafone/1.0/#DEVICE#/VA43 Browser/Obigo-Browser/#MAJORVER#.#MINORVER# *",
+          "devices": {
+            "Panasonic-VS3": "Panasonic VS3"
+          }
         }
       ]
     }

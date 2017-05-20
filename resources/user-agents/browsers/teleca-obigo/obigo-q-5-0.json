@@ -27,48 +27,55 @@
       },
       "children": [
         {
-          "match": "LG-CU515/V1.0g Obigo/Q05A *",
-          "device": "LG CU515"
+          "match": "#DEVICE#/V1.0g Obigo/Q05A *",
+          "devices": {
+            "LG-CU515": "LG CU515"
+          }
         },
         {
-          "match": "LG-CU720/V1.0l Obigo/Q05A *",
-          "device": "LG CU720"
+          "match": "#DEVICE#/V1.0l Obigo/Q05A *",
+          "devices": {
+            "LG-CU720": "LG CU720"
+          }
         },
         {
-          "match": "LG-CU920/* Obigo/Q05A *",
-          "device": "LG CU920"
+          "match": "#DEVICE#/* Obigo/Q05A *",
+          "devices": {
+            "LG-CU920": "LG CU920"
+          }
         },
         {
-          "match": "LG-KF750-Orange/v10c Browser/Obigo-Q05A/*",
-          "device": "LG KF750"
+          "match": "#DEVICE#/v10c Browser/Obigo-Q05A/*",
+          "devices": {
+            "LG-KF750-Orange": "LG KF750"
+          }
         },
         {
-          "match": "LG/KU990i/v10a Browser/Obigo-Q05A/*",
-          "device": "LG KU990"
+          "match": "#DEVICE#/v10a Browser/Obigo-Q05A/*",
+          "devices": {
+            "LG/KU990i": "LG KU990"
+          }
         },
         {
-          "match": "ALCATEL-OT871A/* ObigoInternetBrowser/Q05A*",
-          "device": "Alcatel OT-871A"
+          "match": "#DEVICE#/* ObigoInternetBrowser/Q05A*",
+          "devices": {
+            "ALCATEL-OT871A": "Alcatel OT-871A"
+          }
         },
         {
-          "match": "ALCATEL_TRIBE_3075A* ObigoInternetBrowser/Q05A*",
-          "device": "Alcatel OT-3075A"
+          "match": "#DEVICE#* ObigoInternetBrowser/Q05A*",
+          "devices": {
+            "ALCATEL_TRIBE_3075A": "Alcatel OT-3075A"
+          }
         },
         {
-          "match": "LG/KU990/* Browser/Obigo-Q05A/*",
-          "device": "LG KU990"
-        },
-        {
-          "match": "LG/HB620T/* Browser/Obigo-Q05A/*",
-          "device": "LG HB620T"
-        },
-        {
-          "match": "LG/KU990/* Browser/Obigo-Q05A/*",
-          "device": "LG KU990"
-        },
-        {
-          "match": "LG/HB620T/* Browser/Obigo-Q05A/*",
-          "device": "LG HB620T"
+          "match": "#DEVICE#/* Browser/Obigo-Q05A/*",
+          "devices": {
+            "LG/HB620T": "LG HB620T",
+            "LG/HB620T": "LG HB620T",
+            "LG/KU990": "LG KU990",
+            "LG/KU990": "LG KU990"
+          }
         },
         {
           "match": "*Obigo/Q05*"

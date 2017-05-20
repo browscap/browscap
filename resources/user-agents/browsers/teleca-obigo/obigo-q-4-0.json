@@ -27,8 +27,10 @@
       },
       "children": [
         {
-          "match": "Motorola-ic902 Obigo/Q04C1 MMP/2.0 *",
-          "device": "Motorola ic902"
+          "match": "#DEVICE# Obigo/Q04C1 MMP/2.0 *",
+          "devices": {
+            "Motorola-ic902": "Motorola ic902"
+          }
         }
       ]
     }

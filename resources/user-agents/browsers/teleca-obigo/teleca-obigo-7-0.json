@@ -27,12 +27,11 @@
       },
       "children": [
         {
-          "match": "LG-GT360 Teleca/WAP2.0*",
-          "device": "LG GT360"
-        },
-        {
-          "match": "LG-GT365/V10h Teleca/WAP2.0*",
-          "device": "LG GT365"
+          "match": "#DEVICE# Teleca/WAP2.0*",
+          "devices": {
+            "LG-GT360": "LG GT360",
+            "LG-GT365/V10h": "LG GT365"
+          }
         }
       ]
     }
