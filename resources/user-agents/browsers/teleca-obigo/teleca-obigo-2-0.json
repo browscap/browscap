@@ -27,48 +27,45 @@
       },
       "children": [
         {
-          "match": "Alcatel-OH1C/1.0 ObigoInternetBrowser/#MAJORVER#.#MINORVER#",
-          "device": "Alcatel OH1C"
+          "match": "#DEVICE#/1.0 ObigoInternetBrowser/#MAJORVER#.#MINORVER#",
+          "devices": {
+            "Alcatel-OH1C": "Alcatel OH1C",
+            "Alcatel-OH2": "Alcatel OH2"
+          }
         },
         {
-          "match": "Alcatel-OH2/1.0 ObigoInternetBrowser/#MAJORVER#.#MINORVER#",
-          "device": "Alcatel OH2"
+          "match": "#DEVICE# / Obigo Browser #MAJORVER#.#MINORVER#",
+          "devices": {
+            "Haier-M1000": "Haier M1000",
+            "Haier-M1211": "Haier M1211",
+            "Haier-M1610": "Haier M1610"
+          }
         },
         {
-          "match": "Haier-M1000 / Obigo Browser #MAJORVER#.#MINORVER#",
-          "device": "Haier M1000"
+          "match": "#DEVICE#/v1.0 *",
+          "devices": {
+            "LG/KU800": "LG KU800"
+          }
         },
         {
-          "match": "Haier-M1211 / Obigo Browser #MAJORVER#.#MINORVER#",
-          "device": "Haier M1211"
+          "match": "#DEVICE# / Teleca-Obigo #MAJORVER#.#MINORVER# *",
+          "devices": {
+            "PHILIPS 350": "Philips 350"
+          }
         },
         {
-          "match": "Haier-M1610 / Obigo Browser #MAJORVER#.#MINORVER#",
-          "device": "Haier M1610"
+          "match": "#DEVICE# ObigoInternetBrowser/#MAJORVER#.#MINORVER# *",
+          "devices": {
+            "PHILIPS650": "Philips 650",
+            "PHILIPS755": "Philips 755",
+            "SIE-SF65": "Siemens SF65"
+          }
         },
         {
-          "match": "LG/KU800/v1.0 *",
-          "device": "LG KU800"
-        },
-        {
-          "match": "PHILIPS 350 / Teleca-Obigo #MAJORVER#.#MINORVER# *",
-          "device": "Philips 350"
-        },
-        {
-          "match": "PHILIPS650 ObigoInternetBrowser/#MAJORVER#.#MINORVER# *",
-          "device": "Philips 650"
-        },
-        {
-          "match": "PHILIPS755 ObigoInternetBrowser/#MAJORVER#.#MINORVER# *",
-          "device": "Philips 755"
-        },
-        {
-          "match": "SIE-SF65 ObigoInternetBrowser/#MAJORVER#.#MINORVER# *",
-          "device": "Siemens SF65"
-        },
-        {
-          "match": "PHILIPS 355 / Teleca-Obigo 2.2 *",
-          "device": "Philips 355",
+          "match": "#DEVICE# / Teleca-Obigo 2.2 *",
+          "devices": {
+            "PHILIPS 355": "Philips 355"
+          },
           "properties": {
             "Version": "2.2",
             "MajorVer": "2",

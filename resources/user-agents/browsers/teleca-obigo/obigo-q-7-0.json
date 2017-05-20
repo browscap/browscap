@@ -27,28 +27,40 @@
       },
       "children": [
         {
-          "match": "HTC_Smart_F3188 Mozilla/5.0 (like Gecko) Obigo/Q7",
-          "device": "HTC Smart F3188"
+          "match": "#DEVICE# Mozilla/5.0 (like Gecko) Obigo/Q7",
+          "devices": {
+            "HTC_Smart_F3188": "HTC Smart F3188"
+          }
         },
         {
-          "match": "LG-CF360/V10h Teleca/Q#MAJORVER#.#MINORVER# *",
-          "device": "LG CF360"
+          "match": "#DEVICE#/V10h Teleca/Q#MAJORVER#.#MINORVER# *",
+          "devices": {
+            "LG-CF360": "LG CF360"
+          }
         },
         {
-          "match": "LG-GR500/V10? Teleca/Q#MAJORVER#.#MINORVER#*",
-          "device": "LG GR500"
+          "match": "#DEVICE#/V10? Teleca/Q#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "LG-GR500": "LG GR500"
+          }
         },
         {
-          "match": "SonyEricssonW150i/R2AD032 TelecaBrowser/Q07C1-1 *",
-          "device": "SonyEricsson W150i"
+          "match": "#DEVICE#/R2AD032 TelecaBrowser/Q07C1-1 *",
+          "devices": {
+            "SonyEricssonW150i": "SonyEricsson W150i"
+          }
         },
         {
-          "match": "SonyEricssonWT13i/R3AD017 TelecaBrowser/Q07C1-1 *",
-          "device": "SonyEricsson WT13i"
+          "match": "#DEVICE#/R3AD017 TelecaBrowser/Q07C1-1 *",
+          "devices": {
+            "SonyEricssonWT13i": "SonyEricsson WT13i"
+          }
         },
         {
-          "match": "LG-GT400/v10a Browser/Teleca-Q7.1*",
-          "device": "LG GT400",
+          "match": "#DEVICE#/v10a Browser/Teleca-Q7.1*",
+          "devices": {
+            "LG-GT400": "LG GT400"
+          },
           "properties": {
             "Version": "7.1",
             "MajorVer": "7",
@@ -56,8 +68,10 @@
           }
         },
         {
-          "match": "LG/KC910/V10a Browser/Obigo-Q7.1*",
-          "device": "LG KC910",
+          "match": "#DEVICE#/V10a Browser/Obigo-Q7.1*",
+          "devices": {
+            "LG/KC910": "LG KC910"
+          },
           "properties": {
             "Version": "7.1",
             "MajorVer": "7",
@@ -65,8 +79,11 @@
           }
         },
         {
-          "match": "LG-T300/V100 Obigo/Q7.3*",
-          "device": "LG T300",
+          "match": "#DEVICE#/V100 Obigo/Q7.3*",
+          "devices": {
+            "LG-T300": "LG T300",
+            "LG-T310i": "LG T310i"
+          },
           "properties": {
             "Version": "7.3",
             "MajorVer": "7",
@@ -74,8 +91,10 @@
           }
         },
         {
-          "match": "LG-T310i/V100 Obigo/Q7.3*",
-          "device": "LG T310i",
+          "match": "#DEVICE#/V10a Browser/Obigo-Q7.3*",
+          "devices": {
+            "LG/BL40": "LG BL40"
+          },
           "properties": {
             "Version": "7.3",
             "MajorVer": "7",
@@ -83,17 +102,10 @@
           }
         },
         {
-          "match": "LG/BL40/V10a Browser/Obigo-Q7.3*",
-          "device": "LG BL40",
-          "properties": {
-            "Version": "7.3",
-            "MajorVer": "7",
-            "MinorVer": "3"
-          }
-        },
-        {
-          "match": "LG-KM900/V10x Browser/Obigo-Q7.1*",
-          "device": "LG KM900",
+          "match": "#DEVICE#/V10x Browser/Obigo-Q7.1*",
+          "devices": {
+            "LG-KM900": "LG KM900"
+          },
           "properties": {
             "Version": "7.1",
             "MajorVer": "7",

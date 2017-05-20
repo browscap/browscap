@@ -1850,10 +1850,10 @@
         "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "GS290",
-            "Device_Name": "GS290",
+            "Device_Name": "Cookie Fresh",
             "Device_Maker": "LG",
             "Device_Brand_Name": "LG",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
