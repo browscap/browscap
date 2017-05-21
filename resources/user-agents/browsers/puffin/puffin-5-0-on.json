@@ -51,6 +51,7 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*A?*",
           "devices": {
             "GT-I9500": "Samsung GT-I9500",
+            "Lenovo A7000-a": "Lenovo A7000-A",
             "LG-D855": "LG D855",
             "LG-F240L": "LG F240L"
           },
@@ -61,24 +62,37 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*A?*",
           "devices": {
+            "B15Q": "Caterpillar Cat B15Q",
+            "C6903": "Sony C6903",
+            "D5503": "Sony D5503",
             "GT-I9190": "Samsung GT-I9190",
             "GT-I9192": "Samsung GT-I9192",
+            "GT-I9195": "Samsung GT-I9195",
             "GT-I9301I": "Samsung GT-I9301I",
             "GT-I9500": "Samsung GT-I9500",
             "GT-I9515": "Samsung GT-I9515",
             "GT-N7100": "Samsung GT-N7100",
+            "HTC One mini 2": "HTC One Mini 2",
+            "HTC One_M8": "HTC M8",
+            "Lenovo A319": "Lenovo A319",
+            "Lenovo A328t": "Lenovo A328t",
             "Lenovo A536": "Lenovo A536",
             "Lenovo A6000": "Lenovo A6000",
             "Lenovo A606": "Lenovo A606",
             "LG-D280": "LG D280",
+            "LG-D802": "LG D802",
             "LG-V490": "LG V490",
             "LGLS740": "LG LS740",
+            "SCH-I545": "Samsung SCH-I545",
             "SCH-I605": "Samsung SCH-I605",
             "SGH-M919": "Samsung SGH-M919",
             "SM-G800F": "Samsung SM-G800F",
             "SM-N7505": "Samsung SM-N7505",
             "SM-N9005": "Samsung SM-N9005",
-            "THOT61": "Thornton Pickard THOT61"
+            "THOT61": "Thornton Pickard THOT61",
+            "XT1032": "Motorola XT1032",
+            "XT1080": "Motorola XT1080",
+            "XT907": "Motorola XT907"
           },
           "platforms": [
             "Android_4_4"
@@ -89,7 +103,8 @@
           "devices": {
             "GT-I9300": "Samsung GT-I9300",
             "GT-I9505": "Samsung GT-I9505",
-            "GT-N7100": "Samsung GT-N7100"
+            "GT-N7100": "Samsung GT-N7100",
+            "SM-N9005": "Samsung SM-N9005"
           },
           "platforms": [
             "Android_4_3"
@@ -101,9 +116,14 @@
             "A1-810": "Acer A1-810",
             "ALCATEL ONE TOUCH Fierce": "Alcatel OT-Fierce",
             "ASUS Transformer Pad TF300TG": "Asus TF300TG",
+            "C2305": "Sony C2305",
             "GT-I9105P": "Samsung GT-I9105P",
             "GT-P5100": "Samsung GT-P5100",
-            "ME173X": "Asus ME173X"
+            "GT-S7275R": "Samsung GT-S7275R",
+            "HTC Desire 310": "HTC Desire 310",
+            "Lenovo A889": "Lenovo A889",
+            "ME173X": "Asus ME173X",
+            "SM-T110": "Samsung SM-T110"
           },
           "platforms": [
             "Android_4_2"
@@ -115,8 +135,11 @@
             "GT-I8190": "Samsung GT-I8190",
             "GT-I9100G": "Samsung GT-I9100G",
             "GT-I9300": "Samsung GT-I9300",
+            "GT-I9305": "Samsung GT-I9305",
             "GT-N7100": "Samsung GT-N7100",
-            "GT-P3110": "Samsung GT-P3110"
+            "GT-P3110": "Samsung GT-P3110",
+            "LT26i": "SonyEricsson LT26i",
+            "ST26i": "Sony ST26i"
           },
           "platforms": [
             "Android_4_1"
@@ -128,6 +151,8 @@
             "AQUILA 080-1008": "Cmx Aquila 080-1008",
             "GT-I9100G": "Samsung GT-I9100G",
             "GT-I9300": "Samsung GT-I9300",
+            "GT-P5100": "Samsung GT-P5100",
+            "GT-S7562": "Samsung GT-S7562",
             "LG-E730": "LG E730",
             "LIFETAB_S9512": "Medion LifeTab S9512"
           },
@@ -136,9 +161,10 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*AP*",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*",
           "platforms": [
-            "Android_6_0",
+            "Android_7_1", "Android_7_0",
+            "Android_6_1", "Android_6_0",
             "Android_5_1", "Android_5_0",
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
             "Android"
@@ -148,25 +174,51 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*AT*",
           "device": "general Tablet",
           "platforms": [
+            "Android_7_1", "Android_7_0",
+            "Android_6_1", "Android_6_0",
+            "Android_5_1", "Android_5_0",
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
             "Android"
           ]
         },
         {
-          "match": "Mozilla/5.0 (*Linux x86_64*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*AP*",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Safari/* Puffin/#MAJORVER#.#MINORVER#.* Chrome/*",
+          "platforms": [
+            "Android_7_1", "Android_7_0",
+            "Android_6_1", "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (*X11*Linux*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*AP*",
           "platforms": [
             "Android"
           ]
         },
         {
-          "match": "Mozilla/5.0 (*Linux x86_64*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*AT*",
+          "match": "Mozilla/5.0 (*X11*Linux*) applewebkit* (*khtml*like*gecko*) *Safari/* Puffin/#MAJORVER#.#MINORVER#.*AP Chrome/*",
+          "platforms": [
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (*X11*Linux*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*AT*",
           "device": "general Tablet",
           "platforms": [
             "Android"
           ]
         },
         {
-          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/*Safari/* Puffin/#MAJORVER#.#MINORVER#.*I?*",
+          "match": "Mozilla/5.0 (*X11*Linux*) applewebkit* (*khtml*like*gecko*) *Safari/* Puffin/#MAJORVER#.#MINORVER#.*AT Chrome/*",
+          "device": "general Tablet",
+          "platforms": [
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*) *Version/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*",
           "devices": {
             "iPhone": "iPhone",
             "iPod": "iPod Touch"
@@ -176,11 +228,12 @@
             "iOS_A_10_3", "iOS_A_10_2", "iOS_A_10_1", "iOS_A_10_0",
             "iOS_A_9_3", "iOS_A_9_2", "iOS_A_9_1", "iOS_A_9_0",
             "iOS_A_8_4", "iOS_A_8_3", "iOS_A_8_2", "iOS_A_8_1", "iOS_A_8_0", "iOS_A_8_0_B",
+            "iOS_A_7_1", "iOS_A_7_0",
             "iOS_A"
           ]
         },
         {
-          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/*Safari/* Puffin/#MAJORVER#.#MINORVER#.*I?*",
+          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*) *Version/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*",
           "devices": {
             "iPad": "iPad"
           },
@@ -193,7 +246,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/*Safari/* Puffin/#MAJORVER#.#MINORVER#.*I?*",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Version/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*",
           "device": "general Mobile Device (Apple)",
           "engine": "WebKit",
           "platforms": [
@@ -202,7 +255,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (*Linux x86_64*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*IP*",
+          "match": "Mozilla/5.0 (*X11*Linux*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*IP*",
           "device": "iPhone",
           "engine": "WebKit",
           "platforms": [
@@ -210,7 +263,15 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (*Linux x86_64*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*IT*",
+          "match": "Mozilla/5.0 (*X11*Linux*) applewebkit* (*khtml*like*gecko*) *Safari/* Puffin/#MAJORVER#.#MINORVER#.*IP Chrome/*",
+          "device": "iPhone",
+          "engine": "WebKit",
+          "platforms": [
+            "iOS"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (*X11*Linux*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*IT*",
           "device": "iPad",
           "engine": "WebKit",
           "platforms": [
@@ -218,7 +279,23 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (*Linux x86_64*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*I?*",
+          "match": "Mozilla/5.0 (*X11*Linux*) applewebkit* (*khtml*like*gecko*) *Safari/* Puffin/#MAJORVER#.#MINORVER#.*IT Chrome/*",
+          "device": "iPad",
+          "engine": "WebKit",
+          "platforms": [
+            "iOS"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (*X11*Linux*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*I?*",
+          "device": "general Mobile Device (Apple)",
+          "engine": "WebKit",
+          "platforms": [
+            "iOS"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (*X11*Linux*) applewebkit* (*khtml*like*gecko*) *Safari/* Puffin/#MAJORVER#.#MINORVER#.*I? Chrome/*",
           "device": "general Mobile Device (Apple)",
           "engine": "WebKit",
           "platforms": [
