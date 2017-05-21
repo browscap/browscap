@@ -1,17 +1,17 @@
 {
-  "division": "Puffin",
+  "division": "Puffin Generic",
   "sortIndex": 1124,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "Puffin",
+      "userAgent": "Puffin Generic",
       "platform": "Android",
       "engine": "WebKit",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Puffin",
+        "Comment": "Puffin Generic",
         "Browser": "Puffin",
         "Browser_Type": "Browser",
         "Browser_Maker": "CloudMosa Inc.",
@@ -24,26 +24,180 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* Puffin/* Mobile",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/*",
           "platforms": [
-            "Android",
-            "Android_1_0", "Android_1_1", "Android_1_5", "Android_1_6",
-            "Android_2_0", "Android_2_1", "Android_2_2", "Android_2_3",
-            "Android_3_0", "Android_3_1", "Android_3_2",
-            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android"
+            "Android_7_1", "Android_7_0",
+            "Android_6_1", "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android_2_3", "Android_2_2",
+            "Android"
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/*AP*",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/*",
+          "device": "general Tablet",
           "platforms": [
-            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android"
+            "Android_3_2", "Android_3_1", "Android_3_0"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/*AT*",
           "device": "general Tablet",
           "platforms": [
-            "Android_4_0", "Android_4_1", "Android_4_2", "Android_4_3", "Android_4_4", "Android"
+            "Android_7_1", "Android_7_0",
+            "Android_6_1", "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Safari/* Puffin/* Chrome/*",
+          "platforms": [
+            "Android_7_1", "Android_7_0",
+            "Android_6_1", "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Safari/* Puffin/*AT Chrome/*",
+          "device": "general Tablet",
+          "platforms": [
+            "Android_5_1", "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (*X11*Linux*) applewebkit* (*khtml*like*gecko*) *Puffin/* Safari/*",
+          "platforms": [
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (*X11*Linux*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/*",
+          "platforms": [
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (*X11*Linux*) applewebkit* (*khtml*like*gecko*) *Safari/* Puffin/* Chrome/*",
+          "platforms": [
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (*X11*Linux*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/*AT*",
+          "device": "general Tablet",
+          "platforms": [
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (*X11*Linux*) applewebkit* (*khtml*like*gecko*) *Safari/* Puffin/*AT Chrome/*",
+          "device": "general Tablet",
+          "platforms": [
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*) *Version/* Safari/* Puffin/*",
+          "devices": {
+            "iPhone": "iPhone",
+            "iPod": "iPod Touch"
+          },
+          "platforms": [
+            "iOS_A_10_3", "iOS_A_10_2", "iOS_A_10_1", "iOS_A_10_0",
+            "iOS_A_9_3", "iOS_A_9_2", "iOS_A_9_1", "iOS_A_9_0",
+            "iOS_A_8_4", "iOS_A_8_3", "iOS_A_8_2", "iOS_A_8_1", "iOS_A_8_0", "iOS_A_8_0_B",
+            "iOS_A_7_1", "iOS_A_7_0",
+            "iOS_A_6_1",
+            "iOS_A"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*) *Version/* Safari/* Puffin/*",
+          "devices": {
+            "iPad": "iPad"
+          },
+          "platforms": [
+            "iOS_C_10_3", "iOS_C_10_2", "iOS_C_10_1", "iOS_C_10_0",
+            "iOS_C_9_3", "iOS_C_9_2", "iOS_C_9_1", "iOS_C_9_0",
+            "iOS_C_8_4", "iOS_C_8_3", "iOS_C_8_2", "iOS_C_8_1", "iOS_C_8_0",
+            "iOS_C_7_1", "iOS_C_7_0",
+            "iOS_C"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Version/* Safari/* Puffin/*",
+          "device": "general Mobile Device (Apple)",
+          "platforms": [
+            "iOS_A",
+            "iOS_C"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/*",
+          "devices": {
+            "iPhone": "iPhone",
+            "iPod": "iPod Touch"
+          },
+          "platforms": [
+            "iOS_A_8_3", "iOS_A_8_2", "iOS_A_8_1", "iOS_A_8_0",
+            "iOS_A_7_1", "iOS_A_7_0",
+            "iOS_A_6_1",
+            "iOS_A"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/*",
+          "devices": {
+            "iPad": "iPad"
+          },
+          "platforms": [
+            "iOS_C_8_3", "iOS_C_8_2", "iOS_C_8_1", "iOS_C_8_0",
+            "iOS_C_7_1", "iOS_C_7_0",
+            "iOS_C_6_1",
+            "iOS_C"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/*",
+          "device": "general Mobile Device (Apple)",
+          "platforms": [
+            "iOS_A",
+            "iOS_C"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (*X11*Linux*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/*IP*",
+          "device": "iPhone",
+          "platforms": [
+            "iOS"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (*X11*Linux*) applewebkit* (*khtml*like*gecko*) *Safari/* Puffin/*IP Chrome/*",
+          "device": "iPhone",
+          "platforms": [
+            "iOS"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (*X11*Linux*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/*IT*",
+          "device": "iPad",
+          "platforms": [
+            "iOS"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (*X11*Linux*) applewebkit* (*khtml*like*gecko*) *Safari/* Puffin/*IT Chrome/*",
+          "device": "iPad",
+          "platforms": [
+            "iOS"
           ]
         }
       ]
@@ -69,203 +223,174 @@
       "children": [
         {
           "match": "Puffin%20Free/* CFNetwork/459*",
-          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A_3_1"
           ]
         },
         {
           "match": "Puffin%20Free/* CFNetwork/467.12*",
-          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A_3_2"
           ]
         },
         {
           "match": "Puffin%20Free/* CFNetwork/485.2*",
-          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A_4_0"
           ]
         },
         {
           "match": "Puffin%20Free/* CFNetwork/485.10*",
-          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A_4_1"
           ]
         },
         {
           "match": "Puffin%20Free/* CFNetwork/485.12*",
-          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A_4_2"
           ]
         },
         {
           "match": "Puffin%20Free/* CFNetwork/485.13*",
-          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A_4_3"
           ]
         },
         {
           "match": "Puffin%20Free/* CFNetwork/548.1*",
-          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A_5_1"
           ]
         },
         {
           "match": "Puffin%20Free/* CFNetwork/548.0*",
-          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A_5_0"
           ]
         },
         {
           "match": "Puffin%20Free/* CFNetwork/602*",
-          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A_6_0"
           ]
         },
         {
           "match": "Puffin%20Free/* CFNetwork/609.1*",
-          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A_6_1"
           ]
         },
         {
           "match": "Puffin%20Free/* CFNetwork/609*",
-          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A_6_0"
           ]
         },
         {
           "match": "Puffin%20Free/* CFNetwork/672.0*",
-          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A_7_0"
           ]
         },
         {
           "match": "Puffin%20Free/* CFNetwork/672.1*",
-          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A_7_1"
           ]
         },
         {
           "match": "Puffin%20Free/* CFNetwork/711.0*",
-          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A_8_0"
           ]
         },
         {
           "match": "Puffin%20Free/* CFNetwork/711.1*",
-          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A_8_1"
           ]
         },
         {
           "match": "Puffin%20Free/* CFNetwork/711.2*",
-          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A_8_2"
           ]
         },
         {
           "match": "Puffin%20Free/* CFNetwork/711.3*",
-          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A_8_3"
           ]
         },
         {
           "match": "Puffin%20Free/* CFNetwork/711.4*",
-          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A_8_4"
           ]
         },
         {
           "match": "Puffin%20Free/* CFNetwork/711.5*",
-          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A_8_4"
           ]
         },
         {
           "match": "Puffin%20Free/* CFNetwork/758*",
-          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A_9_0"
           ]
         },
         {
           "match": "Puffin%20Free/* CFNetwork/*",
-          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS"
           ]
         },
         {
           "match": "Puffin/* CFNetwork/459*",
-          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A_3_1"
           ]
         },
         {
           "match": "Puffin/* CFNetwork/467.12*",
-          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A_3_2"
           ]
         },
         {
           "match": "Puffin/* CFNetwork/485.2*",
-          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A_4_0"
           ]
         },
         {
           "match": "Puffin/* CFNetwork/485.10*",
-          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A_4_1"
           ]
         },
         {
           "match": "Puffin/* CFNetwork/485.12*",
-          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A_4_2"
           ]
         },
         {
           "match": "Puffin/* CFNetwork/485.13*",
-          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A_4_3"
           ]
         },
         {
           "match": "Puffin/* CFNetwork/548.1*",
-          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A_5_1"
           ]
         },
         {
           "match": "Puffin/* CFNetwork/548.0*",
-          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A_5_0"
           ]
@@ -278,84 +403,72 @@
         },
         {
           "match": "Puffin/* CFNetwork/609.1*",
-          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A_6_1"
           ]
         },
         {
           "match": "Puffin/* CFNetwork/609*",
-          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A_6_0"
           ]
         },
         {
           "match": "Puffin/* CFNetwork/672.0*",
-          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A_7_0"
           ]
         },
         {
           "match": "Puffin/* CFNetwork/672.1*",
-          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A_7_1"
           ]
         },
         {
           "match": "Puffin/* CFNetwork/711.0*",
-          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A_8_0"
           ]
         },
         {
           "match": "Puffin/* CFNetwork/711.1*",
-          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A_8_1"
           ]
         },
         {
           "match": "Puffin/* CFNetwork/711.2*",
-          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A_8_2"
           ]
         },
         {
           "match": "Puffin/* CFNetwork/711.3*",
-          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A_8_3"
           ]
         },
         {
           "match": "Puffin/* CFNetwork/711.4*",
-          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A_8_4"
           ]
         },
         {
           "match": "Puffin/* CFNetwork/711.5*",
-          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A_8_4"
           ]
         },
         {
           "match": "Puffin/* CFNetwork/758*",
-          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A_9_0"
           ]
         },
         {
           "match": "Puffin/* CFNetwork/*",
-          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS"
           ]
