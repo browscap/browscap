@@ -653,33 +653,6 @@
       "standard": true,
       "inherits": "iOS"
     },
-    "iOS_C_2_0": {
-      "match": "*CPU OS 2* like Mac OS X*",
-      "lite": false,
-      "standard": false,
-      "inherits": "iOS",
-      "properties": {
-        "Platform_Version": "2.0"
-      }
-    },
-    "iOS_C_2_1": {
-      "match": "*CPU OS 2_1* like Mac OS X*",
-      "lite": false,
-      "standard": false,
-      "inherits": "iOS",
-      "properties": {
-        "Platform_Version": "2.1"
-      }
-    },
-    "iOS_C_2_2": {
-      "match": "*CPU OS 2_2* like Mac OS X*",
-      "lite": false,
-      "standard": false,
-      "inherits": "iOS",
-      "properties": {
-        "Platform_Version": "2.2"
-      }
-    },
     "iOS_C_3_0": {
       "match": "*CPU OS 3* like Mac OS X*",
       "lite": false,
