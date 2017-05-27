@@ -22,7 +22,4 @@ You must also add a UA test in the [tests/fixtures/issues](https://github.com/br
 
 ## Donations
 
-If you would like to donate to the Browscap project, you can do so by one of two ways:
-
-* a regular donation on [our Gittip page](https://www.gittip.com/browscap/)
-* a one off donation via [PayPal](https://www.paypal.com/cgi-bin/webscr?business=info@phphants.co.uk&cmd=_xclick&currency_code=GBP&item_name=For Browscap Project) (note that this goes via the PHP Hampshire user group, it is not a mistake!)
+Gratefully received donations to https://www.paypal.me/asgrim will be used to help with server costs and development time.
