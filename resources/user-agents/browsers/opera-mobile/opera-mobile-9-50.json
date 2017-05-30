@@ -111,7 +111,14 @@
           ]
         },
         {
-          "match": "Opera?#MAJORVER#.#MINORVER#* (Microsoft Windows; PPC*Opera Mobile/*)",
+          "match": "Opera?#MAJORVER#.#MINORVER#* (Microsoft Windows;#PLATFORM#Opera Mobi/*)*",
+          "device": "general Mobile Phone",
+          "platforms": [
+            "WinCE"
+          ]
+        },
+        {
+          "match": "Opera?#MAJORVER#.#MINORVER#* (Microsoft Windows; PPC*Opera Mobile/*)*",
           "device": "general Mobile Phone",
           "platforms": [
             "WinMobile"
@@ -172,7 +179,7 @@
           ]
         },
         {
-          "match": "Mozilla/4.0 (compatible; MSIE#PLATFORM#)*Opera?#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/4.0 (compatible; MSIE ?*.?*; #PLATFORM#)*Opera?#MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone",
           "platforms": [
             "WinCE"

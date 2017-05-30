@@ -110,6 +110,13 @@
           ]
         },
         {
+          "match": "Mozilla/5.0 (Java;*) UCBrowser*UCWEB*Mobile*",
+          "device": "general Mobile Phone",
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
           "match": "Mozilla/5.0 (#PLATFORM#) UC applewebkit* (*khtml*like*gecko*) *Safari/*",
           "platforms": [
             "Android_2_3",
@@ -212,6 +219,12 @@
           "device": "general Mobile Phone (Nokia)",
           "platforms": [
             "Series40"
+          ]
+        },
+        {
+          "match": "Opera (#PLATFORM#) UCWEB*",
+          "platforms": [
+            "Android_I_4_4", "Android_I_4_3", "Android_I_4_2", "Android_I_4_1", "Android_I_4_0"
           ]
         }
       ]

@@ -50,7 +50,7 @@
           ]
         },
         {
-          "match": "Mozilla/4.0 (compatible; MSIE*Windows CE*)*Opera?#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/4.0 (compatible; MSIE ?*.?*; *Windows CE*)*Opera?#MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone",
           "platforms": [
             "WinCE"

@@ -112,7 +112,6 @@
         },
         {
           "match": "Opera/*(Series 60*Opera Mini/#MAJORVER#.#MINORVER#*",
-          "device": "general Mobile Phone",
           "platforms": [
             "SymbianOS"
           ]
@@ -142,50 +141,25 @@
           ]
         },
         {
-          "match": "SAMSUNG-GT-E1282T Opera/*(J2ME/MIDP*Opera Mini/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung GT-E1282T",
+          "match": "#DEVICE# Opera/*(J2ME/MIDP*Opera Mini/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "SAMSUNG?GT-*": "general Mobile Device (Samsung)",
+            "SAMSUNG-GT-E1282T": "Samsung GT-E1282T",
+            "SAMSUNG-GT-E2202": "Samsung GT-E2202",
+            "SAMSUNG-GT-E2252": "Samsung GT-E2252",
+            "SAMSUNG-GT-E3309T": "Samsung GT-E3309T"
+          },
           "platforms": [
             "JAVA"
           ]
         },
         {
-          "match": "SAMSUNG-GT-E2252 Opera/*(J2ME/MIDP*Opera Mini/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung GT-E2252",
-          "platforms": [
-            "JAVA"
-          ]
-        },
-        {
-          "match": "SAMSUNG-GT-E2202 Opera/*(J2ME/MIDP*Opera Mini/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung GT-E2202",
-          "platforms": [
-            "JAVA"
-          ]
-        },
-        {
-          "match": "SAMSUNG-GT-E3309T Opera/*(J2ME/MIDP*Opera Mini/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung GT-E3309T",
-          "platforms": [
-            "JAVA"
-          ]
-        },
-        {
-          "match": "Z221; Mozilla/5.0 (*/MIDP*Opera Mini/att/#MAJORVER#.#MINORVER#*",
-          "device": "ZTE Z221",
-          "platforms": [
-            "JAVA"
-          ]
-        },
-        {
-          "match": "PantechP9020/*; Mozilla/5.0 (*/MIDP*Opera Mini/att/#MAJORVER#.#MINORVER#*",
-          "device": "Pantech P9020",
-          "platforms": [
-            "JAVA"
-          ]
-        },
-        {
-          "match": "LG-GT550/*; Mozilla/5.0 (*/MIDP*Opera Mini/att/#MAJORVER#.#MINORVER#*",
-          "device": "LG GT550",
+          "match": "#DEVICE#; Mozilla/5.0 (*/MIDP*Opera Mini/att/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "LG-GT550/*": "LG GT550",
+            "PantechP9020/*": "Pantech P9020",
+            "Z221": "ZTE Z221"
+          },
           "platforms": [
             "JAVA"
           ]

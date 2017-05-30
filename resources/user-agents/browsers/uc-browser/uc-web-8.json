@@ -182,6 +182,14 @@
           ]
         },
         {
+          "match": "Opera/9.80 (Android;* Opera Mini/*)*UCBrowser/#MAJORVER#.#MINORVER#*",
+          "engine": "U2",
+          "device": "general Mobile Phone (Touch)",
+          "platforms": [
+            "Android"
+          ]
+        },
+        {
           "match": "UCWEB/*(Java*) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
           "engine": "U2",
           "device": "general Mobile Phone",
@@ -220,6 +228,13 @@
           },
           "platforms": [
             "SymbianOS"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (Java;*) UCBrowser#MAJORVER#.#MINORVER#.*UCWEB*Mobile*",
+          "device": "general Mobile Phone",
+          "platforms": [
+            "JAVA"
           ]
         },
         {

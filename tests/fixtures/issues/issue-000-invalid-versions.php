@@ -603,7 +603,7 @@ return [
     ],
     // Chrome was never released for anything less than Windows XP officially
     // https://en.wikipedia.org/wiki/Google_Chrome#Public_release
-    'issue-000-invalid-versions-GH' => [
+    'issue-000-invalid-versions-AH' => [
         'ua' => 'Mozilla/5.0 (Windows NT 4.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2049.0 Safari/537.36',
         'properties' => [
             'Comment' => 'Chrome Generic',
@@ -621,4 +621,536 @@ return [
         'lite' => false,
         'standard' => true,
     ],
+    // Opera 6.03 was the last release for Mac OS 8/9
+    // https://en.wikipedia.org/wiki/History_of_the_Opera_web_browser#Release_compatibility
+    'issue-000-invalid-versions-AI' => [
+        'ua' => 'Mozilla/4.0 (compatible; MSIE 5.23; Mac_PowerPC) Opera 7.51  [en]',
+        'properties' => [
+            'Comment' => 'Opera Generic',
+            'Browser' => 'Opera',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'MacPPC',
+        ],
+        'lite' => false,
+        'standard' => true,
+    ],
+    // Same as above
+    'issue-000-invalid-versions-AJ' => [
+        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Mac_PowerPC; en) Opera 9.24',
+        'properties' => [
+            'Comment' => 'Opera Generic',
+            'Browser' => 'Opera',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'MacPPC',
+        ],
+        'lite' => false,
+        'standard' => false,
+    ],
+    // Same as above
+    'issue-000-invalid-versions-AK' => [
+        'ua' => 'Mozilla/4.0 (compatible; MSIE 5.23; Mac_PowerPC) Opera 7.54  [en]',
+        'properties' => [
+            'Comment' => 'Opera Generic',
+            'Browser' => 'Opera',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'MacPPC',
+        ],
+        'lite' => false,
+        'standard' => false,
+    ],
+    // Opera 10.63 was the last version to support Windows 9.x/NT 4
+    // https://en.wikipedia.org/wiki/History_of_the_Opera_web_browser#Version_10
+    'issue-000-invalid-versions-AL' => [
+        'ua' => 'Mozilla/4.0 (Windows 98; US) Opera 12.16 [en]',
+        'properties' => [
+            'Comment' => 'Opera Generic',
+            'Browser' => 'Opera',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'Win98',
+        ],
+        'lite' => false,
+        'standard' => true,
+    ],
+    // Same as above
+    'issue-000-invalid-versions-AM' => [
+        'ua' => 'Mozilla/5.0 (Windows NT 4.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 Safari/537.36 OPR/15.0.1147.153',
+        'properties' => [
+            'Comment' => 'Opera Generic',
+            'Browser' => 'Opera',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'WinNT',
+            'Platform_Version' => '4.0',
+        ],
+        'lite' => false,
+        'standard' => true,
+    ],
+    // Same as above
+    'issue-000-invalid-versions-AN' => [
+        'ua' => 'Mozilla/5.0 (Windows NT 4.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36 OPR/32.0.1948.25',
+        'properties' => [
+            'Comment' => 'Opera Generic',
+            'Browser' => 'Opera',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'WinNT',
+            'Platform_Version' => '4.0',
+        ],
+        'lite' => false,
+        'standard' => true,
+    ],
+    // Same as above
+    'issue-000-invalid-versions-AO' => [
+        'ua' => 'Mozilla/5.0 (Windows NT 4.10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36 OPR/32.0.1948.69',
+        'properties' => [
+            'Comment' => 'Opera Generic',
+            'Browser' => 'Opera',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'WinNT',
+            'Platform_Version' => '4.1',
+        ],
+        'lite' => false,
+        'standard' => true,
+    ],
+    // Same as above
+    'issue-000-invalid-versions-AP' => [
+        'ua' => 'Opera/9.80 (Windows 95 U Edition Yx ru) Presto/2.10.289 Version/12.02',
+        'properties' => [
+            'Comment' => 'Opera Generic',
+            'Browser' => 'Opera',
+            'Browser_Type' => 'Browser',
+            'Browser_Bits' => '32',
+            'Browser_Maker' => 'Opera Software ASA',
+            'Browser_Modus' => 'unknown',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'Win95',
+        ],
+        'lite' => false,
+        'standard' => true,
+    ],
+    // Same as above
+    'issue-000-invalid-versions-AQ' => [
+        'ua' => 'Opera/9.80 (Windows ME; U; en) Presto/2.10.289 Version/12.02',
+        'properties' => [
+            'Comment' => 'Opera Generic',
+            'Browser' => 'Opera',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'WinME',
+        ],
+        'lite' => false,
+        'standard' => true,
+    ],
+    // There is no 9.80/9.8 release of Opera. The "9.80" version number is used as a prefix to the agent in later
+    // versions, but there was no 9.80 (9.64 was the last 9.x release)
+    // https://en.wikipedia.org/wiki/History_of_the_Opera_web_browser#Version_9
+    // http://arc.opera.com/pub/opera/win/
+    'issue-000-invalid-versions-AR' => [
+        'ua' => 'Mozilla/5.0 (compatible; Opera/9.80 Presto/2.8.131 Version/9.80; Windows NT 6.1; Trident/6.0)',
+        'properties' => [
+            'Comment' => 'Opera Generic',
+            'Browser' => 'Opera',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'Win7',
+        ],
+        'lite' => false,
+        'standard' => true,
+    ],
+    // Same as above
+    'issue-000-invalid-versions-AS' => [
+        'ua' => 'Mozilla/5.0 (compatible; Opera/9.80 Presto/2.8.131 Version/9.80; Windows NT 6.3; Trident/6.0)',
+        'properties' => [
+            'Comment' => 'Opera Generic',
+            'Browser' => 'Opera',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'Win8.1',
+        ],
+        'lite' => false,
+        'standard' => true,
+    ],
+    // The first Opera release for Mac was 5.0
+    // https://web.archive.org/web/20010204004000/http://www.opera.com:80/pressreleases/20010201.html
+    // http://arc.opera.com/pub/opera/mac/
+    'issue-000-invalid-versions-AT' => [
+        'ua' => 'Opera/4.02 (Macintosh; U; bg)',
+        'properties' => [
+            'Comment' => 'Opera Generic',
+            'Browser' => 'Opera',
+            'Browser_Type' => 'Browser',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Device_Name' => 'Macintosh',
+        ],
+        'lite' => false,
+        'standard' => true,
+    ],
+    // There was no 12.50 release of Opera (12.18 was the last release (on Windows, 12.16 on Linux))
+    // http://arc.opera.com/pub/opera/linux/
+    // https://en.wikipedia.org/wiki/History_of_the_Opera_web_browser#Version_12
+    'issue-000-invalid-versions-AU' => [
+        'ua' => 'Opera/9.80 (Linux i686) Presto/2.12.407 Version/12.50',
+        'properties' => [
+            'Comment' => 'Opera Generic',
+            'Browser' => 'Opera',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'Linux',
+        ],
+        'lite' => false,
+        'standard' => true,
+    ],
+    // There was no 9.99 version of Opera
+    'issue-000-invalid-versions-AV' => [
+        'ua' => 'Opera/9.99 (X11; U; sk)',
+        'properties' => [
+            'Comment' => 'Opera Generic',
+            'Browser' => 'Opera',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'Linux',
+        ],
+        'lite' => false,
+        'standard' => true,
+    ],
+    // There was no 8.65 release of Opera. The last 8.x version was 8.54
+    // http://arc.opera.com/pub/opera/win/
+    // https://en.wikipedia.org/wiki/History_of_the_Opera_web_browser#Version_8
+    'issue-000-invalid-versions-AW' => [
+        'ua' => 'Mozilla/5.0 (compatible; MSIE 6.0; Windows NT 5.1; zh-cn) Opera 8.65',
+        'properties' => [
+            'Comment' => 'Opera Generic',
+            'Browser' => 'Opera',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'WinXP',
+        ],
+        'lite' => false,
+        'standard' => false,
+    ],
+    // Same as above
+    'issue-000-invalid-versions-AX' => [
+        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; zh-cn) Opera 8.65',
+        'properties' => [
+            'Comment' => 'Opera Generic',
+            'Browser' => 'Opera',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'WinXP',
+        ],
+        'lite' => false,
+        'standard' => false,
+    ],
+    // Same as above
+    'issue-000-invalid-versions-AY' => [
+        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) Opera 8.65 [en]',
+        'properties' => [
+            'Comment' => 'Opera Generic',
+            'Browser' => 'Opera',
+            'Browser_Type' => 'Browser',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'WinXP',
+        ],
+        'lite' => false,
+        'standard' => false,
+    ],
+    // There was also no 8.60 release
+    'issue-000-invalid-versions-AZ' => [
+        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) Opera 8.60 [en]',
+        'properties' => [
+            'Comment' => 'Opera Generic',
+            'Browser' => 'Opera',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'WinXP',
+        ],
+        'lite' => false,
+        'standard' => false,
+    ],
+    // There was no 7.60 version of Opera released, the last version in the 7.x series was 7.54
+    // http://arc.opera.com/pub/opera/linux/
+    // http://arc.opera.com/pub/opera/win/
+    // Possibly 7.55 based on the timeline here:
+    // https://en.wikipedia.org/wiki/History_of_the_Opera_web_browser#Timeline_of_releases
+    // There was a 7.6 technology preview, but this was never released
+    // https://en.wikipedia.org/wiki/History_of_the_Opera_web_browser#Version_7
+    'issue-000-invalid-versions-BA' => [
+        'ua' => 'Opera 7.60 (Linux 2.4.10-4GB i686; U)',
+        'properties' => [
+            'Comment' => 'Opera Generic',
+            'Browser' => 'Opera',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'Linux',
+        ],
+        'lite' => false,
+        'standard' => true,
+    ],
+    // Same as above
+    'issue-000-invalid-versions-BB' => [
+        'ua' => 'Opera 7.60 (Windows NT 4.0; U) [en] via HTTP/1.0 l33t0-HaX0r.hiddenip.com/',
+        'properties' => [
+            'Comment' => 'Opera Generic',
+            'Browser' => 'Opera',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'WinNT',
+        ],
+        'lite' => false,
+        'standard' => true,
+    ],
+    // Same as above
+    'issue-000-invalid-versions-BC' => [
+        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; en) Opera 7.60',
+        'properties' => [
+            'Comment' => 'Opera Generic',
+            'Browser' => 'Opera',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'WinXP',
+        ],
+        'lite' => false,
+        'standard' => true,
+    ],
+    // Same as above
+    'issue-000-invalid-versions-BD' => [
+        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows 98; en) Opera 7.60',
+        'properties' => [
+            'Comment' => 'Opera Generic',
+            'Browser' => 'Opera',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'Win98',
+        ],
+        'lite' => true,
+        'standard' => false,
+    ],
+    // There was no 10.70 release of Opera, 10.63 was the last 10.x release
+    // http://arc.opera.com/pub/opera/mac/
+    // https://en.wikipedia.org/wiki/History_of_the_Opera_web_browser#Timeline_of_releases
+    'issue-000-invalid-versions-BE' => [
+        'ua' => 'Opera/9.80 (Macintosh; Intel Mac OS X 10_6_5; U; nv) Presto/2.6.34 Version/10.70',
+        'properties' => [
+            'Comment' => 'Opera Generic',
+            'Browser' => 'Opera',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'MacOSX',
+            'Platform_Version' => '10.6',
+        ],
+        'lite' => false,
+        'standard' => true,
+    ],
+    // Same as above
+    'issue-000-invalid-versions-BF' => [
+        'ua' => 'Mozilla/5.0 (Windows NT 5.2; U; ru; rv:1.9.1.6) Gecko/20091201 Firefox/3.5.6 Opera 10.70',
+        'properties' => [
+            'Comment' => 'Opera Generic',
+            'Browser' => 'Opera',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'WinXP',
+        ],
+        'lite' => false,
+        'standard' => true,
+    ],
+    // Same as above
+    'issue-000-invalid-versions-BG' => [
+        'ua' => 'Mozilla/5.0 (Windows NT 5.1; U; zh-cn; rv:1.9.1.6) Gecko/20091201 Firefox/3.5.6 Opera 10.70',
+        'properties' => [
+            'Comment' => 'Opera Generic',
+            'Browser' => 'Opera',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'WinXP',
+        ],
+        'lite' => false,
+        'standard' => true,
+    ],
+    // There was no 9.70 release of Opera, 9.64 was the last 9.x release
+    // https://en.wikipedia.org/wiki/History_of_the_Opera_web_browser#Timeline_of_releases
+    // http://arc.opera.com/pub/opera/win/
+    // http://arc.opera.com/pub/opera/linux/
+    'issue-000-invalid-versions-BH' => [
+        'ua' => 'Mozilla/5.0 (Linux i686 ; U; en; rv:1.8.1) Gecko/20061208 Firefox/2.0.0 Opera 9.70',
+        'properties' => [
+            'Comment' => 'Opera Generic',
+            'Browser' => 'Opera',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'Linux',
+            'Platform_Version' => 'unknown',
+        ],
+        'lite' => false,
+        'standard' => true,
+    ],
+    // Same as above
+    'issue-000-invalid-versions-BI' => [
+        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Linux i686 ; en) Opera 9.70',
+        'properties' => [
+            'Comment' => 'Opera Generic',
+            'Browser' => 'Opera',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'Linux',
+        ],
+        'lite' => false,
+        'standard' => true,
+    ],
+    // Windows 2000 support was dropped after Opera version 12.02
+    // https://en.wikipedia.org/wiki/History_of_the_Opera_web_browser#Release_compatibility
+    'issue-000-invalid-versions-BJ' => [
+        'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 5.0) Opera 12.12',
+        'properties' => [
+            'Comment' => 'Opera Generic',
+            'Browser' => 'Opera',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'Win2000',
+        ],
+        'lite' => true,
+        'standard' => false,
+    ],
+    // The last version of Opera for OSX 10.6 was 25.0
+    // https://en.wikipedia.org/wiki/History_of_the_Opera_web_browser#Release_compatibility
+    'issue-000-invalid-versions-BK' => [
+        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36 OPR/33.0.1990.58',
+        'properties' => [
+            'Comment' => 'Opera Generic',
+            'Browser' => 'Opera',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'MacOSX',
+            'Platform_Version' => '10.6',
+        ],
+        'lite' => true,
+        'standard' => false,
+    ],
+    // The last version of Opera for OSX 10.7/10.8 was 36.0
+    // https://en.wikipedia.org/wiki/History_of_the_Opera_web_browser#Release_compatibility
+    'issue-000-invalid-versions-BL' => [
+        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36 OPR/37.0.2178.54',
+        'properties' => [
+            'Comment' => 'Opera Generic',
+            'Browser' => 'Opera',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'MacOSX',
+            'Platform_Version' => '10.7',
+        ],
+        'lite' => true,
+        'standard' => false,
+    ],
+    // Same as above
+    'issue-000-invalid-versions-BM' => [
+        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36 OPR/37.0.2178.54',
+        'properties' => [
+            'Comment' => 'Opera Generic',
+            'Browser' => 'Opera',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'MacOSX',
+            'Platform_Version' => '10.8',
+        ],
+        'lite' => true,
+        'standard' => false,
+    ],
+    // The last version of Opera to support Windows Vista was 36.0
+    // https://en.wikipedia.org/wiki/History_of_the_Opera_web_browser#Release_compatibility
+    'issue-000-invalid-versions-BN' => [
+        'ua' => 'Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36 OPR/37.0.2178.54',
+        'properties' => [
+            'Comment' => 'Opera Generic',
+            'Browser' => 'Opera',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'WinVista',
+        ],
+        'lite' => false,
+        'standard' => true,
+    ],
+    // Same as above
+    'issue-000-invalid-versions-BO' => [
+        'ua' => 'Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36 OPR/37.0.2178.54',
+        'properties' => [
+            'Comment' => 'Opera Generic',
+            'Browser' => 'Opera',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'WinVista',
+            'Platform_Bits' => '64',
+        ],
+        'lite' => false,
+        'standard' => true,
+    ],
+    // Opera dropped FreeBSD support after version 12.16
+    // https://en.wikipedia.org/wiki/History_of_the_Opera_web_browser#Release_compatibility
+    'issue-000-invalid-versions-BP' => [
+        'ua' => 'Mozilla/5.0 (FreeBSD amd64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36 OPR/25.0.1614.68',
+        'properties' => [
+            'Comment' => 'Opera Generic',
+            'Browser' => 'Opera',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'FreeBSD',
+        ],
+        'lite' => false,
+        'standard' => true,
+    ],
+    // Same as above
+    'issue-000-invalid-versions-BQ' => [
+        'ua' => 'Mozilla/5.0 (FreeBSD i386) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.94 Safari/537.36 OPR/27.0.1689.66',
+        'properties' => [
+            'Comment' => 'Opera Generic',
+            'Browser' => 'Opera',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'FreeBSD',
+        ],
+        'lite' => false,
+        'standard' => true,
+    ]
 ];

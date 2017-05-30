@@ -90,7 +90,7 @@
           ]
         },
         {
-          "match": "Opera?#MAJORVER#.#MINORVER#* (Windows Mobile; #DEVICE#*PPC;* Opera Mobi*)*",
+          "match": "Opera?#MAJORVER#.#MINORVER#* (#PLATFORM##DEVICE#*PPC;* Opera Mobi*)*",
           "devices": {
             "SHARP/WS007SH": "Sharp WS007SH"
           },
@@ -99,10 +99,24 @@
           ]
         },
         {
-          "match": "Opera?#MAJORVER#.#MINORVER#* (Windows Mobile; *PPC;* Opera Mobi*)*",
+          "match": "Opera?#MAJORVER#.#MINORVER#* (Microsoft Windows*PPC;* Opera Mobi*)*",
           "device": "general Mobile Phone",
           "platforms": [
             "WinMobile"
+          ]
+        },
+        {
+          "match": "Opera?#MAJORVER#.#MINORVER#* (#PLATFORM#PPC;* Opera Mobi*)*",
+          "device": "general Mobile Phone",
+          "platforms": [
+            "WinMobile"
+          ]
+        },
+        {
+          "match": "Opera?#MAJORVER#.#MINORVER#* (#PLATFORM# Opera Mobi*)*",
+          "device": "general Mobile Phone",
+          "platforms": [
+            "Brew_4_0", "WinMobile"
           ]
         }
       ]

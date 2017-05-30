@@ -238,10 +238,10 @@
         "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "GT-C3312",
-            "Device_Name": "GT-C3312",
+            "Device_Name": "Champ Deluxe Duos",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -251,10 +251,10 @@
         "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "GT-C3312R",
-            "Device_Name": "GT-C3312R",
+            "Device_Name": "Rex 60",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -1512,10 +1512,10 @@
         "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "GT-S5222",
-            "Device_Name": "GT-S5222",
+            "Device_Name": "Star 3 Duos",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -1525,10 +1525,10 @@
         "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "GT-S5222R",
-            "Device_Name": "GT-S5222R",
+            "Device_Name": "Rex 80",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
@@ -1629,10 +1629,10 @@
         "properties": {
             "Device_Type": "Mobile Phone",
             "Device_Code_Name": "GT-S5292",
-            "Device_Name": "GT-S5292",
+            "Device_Name": "Star Deluxe Duos",
             "Device_Maker": "Samsung",
             "Device_Brand_Name": "Samsung",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "touchscreen",
             "isMobileDevice": "true",
             "isTablet": "false"
         }
