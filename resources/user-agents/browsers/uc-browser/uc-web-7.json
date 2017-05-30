@@ -89,13 +89,19 @@
           "match": "#PLATFORM#)UCWEB#MAJORVER#.#MINORVER#*",
           "platforms": [
             "Android_C_4_4", "Android_C_4_3", "Android_C_4_2", "Android_C_4_1", "Android_C_4_0",
-            "Android_C_3_2", "Android_C_3_1", "Android_C_3_0",
             "Android_C_2_3", "Android_C_2_2", "Android_C_2_1", "Android_C_2_0",
             "Android_C_1_6", "Android_C_1_5",
             "Android_C",
             "Android_G_2_3", "Android_G_2_2", "Android_G_2_1",
             "Android_G_1_5",
             "Android_G"
+          ]
+        },
+        {
+          "match": "#PLATFORM#)UCWEB#MAJORVER#.#MINORVER#*",
+          "device": "general Tablet",
+          "platforms": [
+            "Android_C_3_2", "Android_C_3_1", "Android_C_3_0"
           ]
         },
         {
