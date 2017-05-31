@@ -900,7 +900,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-687-T' => [
         'ua' => 'Agent:Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36',
@@ -1006,7 +1006,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
     ],
     'issue-687-V' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 5.0; en-US; Micromax_A106) U2/1.0.0 UCBrowser/9.7.0.520 U2/1.0.0 Mobile',
