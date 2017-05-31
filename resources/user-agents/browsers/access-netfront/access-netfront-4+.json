@@ -27,15 +27,10 @@
       },
       "children": [
         {
-          "match": "Mozilla/4.0 (compatible; Linux*) NetFront/#MAJORVER#.#MINORVER#* Kindle/1.0 (screen 600x800)",
-          "device": "Amazon Kindle",
-          "platforms": [
-            "Android"
-          ]
-        },
-        {
-          "match": "Mozilla/4.0 (compatible; Linux*) NetFront/#MAJORVER#.#MINORVER#* Kindle/2.0 (screen 600x800)",
-          "device": "Amazon Kindle",
+          "match": "Mozilla/4.0 (compatible; Linux*) NetFront/#MAJORVER#.#MINORVER#* #DEVICE#/?.0 (screen 600x800)",
+          "devices": {
+            "Kindle": "Amazon Kindle"
+          },
           "platforms": [
             "Android"
           ]
@@ -51,8 +46,10 @@
           "match": "Mozilla/5.0 (Sample; MFC Simulator/#MAJORVER#.#MINORVER#*; like Gecko) NetFront/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "SAMSUNG-GT-C3310/* NetFront/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung GT-C3310",
+          "match": "#DEVICE#/* NetFront/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "SAMSUNG-GT-C3310": "Samsung GT-C3310"
+          },
           "platforms": [
             "JAVA"
           ]

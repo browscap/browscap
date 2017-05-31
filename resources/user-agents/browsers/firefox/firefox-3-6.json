@@ -78,7 +78,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/#MAJORVER#.#MINORVER#*",
-          "device": "general Desktop",
           "platforms": [
             "FreeBSD", "FreeBSD_64", "FreeBSD_386",
             "HPUX", "IRIX64", "OpenBSD", "OpenBSD_64_2", "SunOS", "OS2", "NetBSD"
@@ -110,14 +109,12 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/#MAJORVER#.#MINORVER#*",
-          "device": "general Desktop",
           "platforms": [
             "FreeBSD", "FreeBSD_64", "HPUX", "IRIX64", "OpenBSD", "OpenBSD_64_2", "SunOS", "OS2", "NetBSD"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Namoroka/#MAJORVER#.#MINORVER#*",
-          "device": "general Desktop",
           "platforms": [
             "Darwin"
           ]
@@ -140,7 +137,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Namoroka/#MAJORVER#.#MINORVER#*",
-          "device": "general Desktop",
           "platforms": [
             "FreeBSD", "FreeBSD_64", "HPUX", "IRIX64", "OpenBSD", "OpenBSD_64_2", "SunOS", "NetBSD"
           ]
@@ -203,7 +199,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Minefield/#MAJORVER#.#MINORVER#*",
-          "device": "general Desktop",
           "platforms": [
             "FreeBSD", "FreeBSD_64", "HPUX", "IRIX64", "OpenBSD", "OpenBSD_64_2", "SunOS"
           ]
