@@ -263,10 +263,10 @@
         "standard": false,
         "properties": {
             "Device_Type": "Mobile Phone",
-            "Device_Name": "Pearl 8130m",
+            "Device_Name": "Pearl 8130m (World Edition)",
             "Device_Code_Name": "BlackBerry 8130m",
             "Device_Maker": "Research In Motion Limited",
-            "Device_Pointing_Method": "unknown",
+            "Device_Pointing_Method": "clickwheel",
             "Device_Brand_Name": "RIM",
             "isMobileDevice": "true",
             "isTablet": "false"
