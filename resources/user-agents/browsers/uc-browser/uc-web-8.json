@@ -111,11 +111,18 @@
             "Android_E_6_0",
             "Android_E_5_1", "Android_E_5_0",
             "Android_E_4_4", "Android_E_4_3", "Android_E_4_2", "Android_E_4_1", "Android_E_4_0",
-            "Android_E_3_2", "Android_E_3_1", "Android_E_3_0",
             "Android_E_2_3", "Android_E_2_2", "Android_E_2_1",
             "Android_E",
             "WinPhone7_C", "WinPhone8_B",
             "SymbianOS_B"
+          ]
+        },
+        {
+          "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
+          "engine": "U2",
+          "device": "general Tablet",
+          "platforms": [
+            "Android_E_3_2", "Android_E_3_1", "Android_E_3_0"
           ]
         },
         {

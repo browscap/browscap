@@ -30,7 +30,8 @@
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#A500*",
           "device": "Acer A500",
           "platforms": [
-            "Android_3_1", "Android_3_2", "Android_4_0", "Android_4_1"
+            "Android_4_1", "Android_4_0",
+            "Android_3_2", "Android_3_1"
           ]
         },
         {
@@ -44,13 +45,22 @@
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#Transformer TF101*",
           "device": "Asus TF101",
           "platforms": [
-            "Android_3_2", "Android_4_0", "Android_4_1"
+            "Android_4_1", "Android_4_0",
+            "Android_3_2"
           ]
         },
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#",
           "platforms": [
-            "Android_3_0", "Android_3_1", "Android_3_2", "Android_4_0", "Android_4_1", "Android"
+            "Android_4_1", "Android_4_0",
+            "Android"
+          ]
+        },
+        {
+          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#",
+          "device": "general Tablet",
+          "platforms": [
+            "Android_3_2", "Android_3_1", "Android_3_0"
           ]
         }
       ]

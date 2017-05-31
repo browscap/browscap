@@ -240,9 +240,15 @@
             "Android_6_1", "Android_6_0",
             "Android_5_1", "Android_5_0",
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
-            "Android_3_2", "Android_3_1", "Android_3_0",
             "Android_2_3", "Android_2_2",
             "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
+          "device": "general Tablet",
+          "platforms": [
+            "Android_3_2", "Android_3_1", "Android_3_0"
           ]
         },
         {
@@ -398,7 +404,6 @@
             "Android_E_6_1", "Android_E_6_0",
             "Android_E_5_1", "Android_E_5_0",
             "Android_E_4_4", "Android_E_4_3", "Android_E_4_2", "Android_E_4_1", "Android_E_4_0",
-            "Android_E_3_2", "Android_E_3_1", "Android_E_3_0",
             "Android_E_2_3", "Android_E_2_2", "Android_E_2_1", "Android_E_2_0",
             "Android_E",
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
@@ -407,6 +412,14 @@
             "WinPhone7_C",
             "WinPhone8_B",
             "SymbianOS_B"
+          ]
+        },
+        {
+          "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
+          "engine": "U2",
+          "device": "general Tablet",
+          "platforms": [
+            "Android_E_3_2", "Android_E_3_1", "Android_E_3_0"
           ]
         }
       ]

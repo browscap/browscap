@@ -460,9 +460,16 @@
           "engine": "WebKit",
           "platforms": [
             "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
-            "Android_3_2",
             "Android_2_3",
             "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/* ?FB_IAB/MESSENGER;FBAV/*",
+          "engine": "WebKit",
+          "device": "general Tablet",
+          "platforms": [
+            "Android_3_2"
           ]
         }
       ]

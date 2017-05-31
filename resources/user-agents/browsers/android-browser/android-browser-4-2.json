@@ -146,9 +146,15 @@
           "match": "Mozilla/5.0 (#PLATFORM# Android/* Release/* Browser/applewebkit* Build/*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari*",
           "platforms": [
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
-            "Android_3_2", "Android_3_1", "Android_3_0",
             "Android_B_2_3", "Android_2_3", "Android_2_2", "Android_2_1", "Android_2_0",
             "Android_1_6", "Android_1_5", "Android_1_1", "Android_1_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM# Android/* Release/* Browser/applewebkit* Build/*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari*",
+          "device": "general Tablet",
+          "platforms": [
+            "Android_3_2", "Android_3_1", "Android_3_0"
           ]
         },
         {
