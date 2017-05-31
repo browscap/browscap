@@ -294,12 +294,6 @@
         "Platform_Description": "Mac OS X for Power PC"
       }
     },
-    "OSX_PPC_2": {
-      "match": "*Macintosh*PPC* Mac OS X*",
-      "lite": false,
-      "standard": false,
-      "inherits": "OSX_PPC"
-    },
     "OSX_PPC_10_4": {
       "match": "*PPC Mac OS X 10.4*",
       "lite": false,
@@ -317,6 +311,18 @@
       "properties": {
         "Platform_Version": "10.5"
       }
+    },
+    "OSX_PPC_2": {
+      "match": "*Mac_PowerPC* Mac OS X*",
+      "lite": false,
+      "standard": false,
+      "inherits": "OSX_PPC"
+    },
+    "OSX_PPC_3": {
+      "match": "*Macintosh*PPC* Mac OS X*",
+      "lite": false,
+      "standard": false,
+      "inherits": "OSX_PPC"
     },
     "MacPPC": {
       "match": "*PPC*",
@@ -1624,6 +1630,24 @@
       "standard": false,
       "inherits": "Linux"
     },
+    "Linux_MIPS": {
+      "match": "*Linux* mips*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Linux"
+    },
+    "Linux_ARM": {
+      "match": "*Linux* arm*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Linux"
+    },
+    "Linux_SH4": {
+      "match": "*Linux* sh4*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Linux"
+    },
     "Debian": {
       "match": "*Linux*",
       "lite": false,
@@ -2835,7 +2859,7 @@
       }
     },
     "WinMobile": {
-      "match": "*Windows Mobile*",
+      "match": "*Windows*Mobile*",
       "lite": false,
       "standard": false,
       "inherits": "Windows",
@@ -3685,6 +3709,33 @@
       "standard": true,
       "inherits": "Android"
     },
+    "Android_F_1_6": {
+      "match": "*Android?1.6*Linux*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "1.6"
+      }
+    },
+    "Android_F_2_0": {
+      "match": "*Android?2.0*Linux*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "2.0"
+      }
+    },
+    "Android_F_2_1": {
+      "match": "*Android?2.1*Linux*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "2.1"
+      }
+    },
     "Android_F_2_2": {
       "match": "*Android?2.2*Linux*",
       "lite": false,
@@ -3721,6 +3772,15 @@
         "Platform_Version": "3.1"
       }
     },
+    "Android_F_3_2": {
+      "match": "*Android?3.2*Linux*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "3.2"
+      }
+    },
     "Android_F_4_0": {
       "match": "*Android?4.0*Linux*",
       "lite": false,
@@ -3755,6 +3815,69 @@
       "inherits": "Android",
       "properties": {
         "Platform_Version": "4.3"
+      }
+    },
+    "Android_F_4_4": {
+      "match": "*Android?4.4*Linux*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "4.4"
+      }
+    },
+    "Android_F_5_0": {
+      "match": "*Android?5.0*Linux*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "5.0"
+      }
+    },
+    "Android_F_5_1": {
+      "match": "*Android?5.1*Linux*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "5.1"
+      }
+    },
+    "Android_F_6_0": {
+      "match": "*Android?6.0*Linux*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "6.0"
+      }
+    },
+    "Android_F_6_1": {
+      "match": "*Android?6.1*Linux*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "6.1"
+      }
+    },
+    "Android_F_7_0": {
+      "match": "*Android?7.0*Linux*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "7.0"
+      }
+    },
+    "Android_F_7_1": {
+      "match": "*Android?7.1*Linux*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "7.1"
       }
     },
     "Android_G": {
@@ -3804,6 +3927,24 @@
       "lite": false,
       "standard": true,
       "inherits": "Android"
+    },
+    "Android_H_2_2": {
+      "match": "*Android?2.2*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "2.2"
+      }
+    },
+    "Android_H_2_3": {
+      "match": "*Android?2.3*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "2.3"
+      }
     },
     "Android_H_4_0": {
       "match": "*Android?4.0*",
@@ -3902,6 +4043,51 @@
       "inherits": "Android",
       "properties": {
         "Platform_Version": "7.1"
+      }
+    },
+    "Android_I_4_0": {
+      "match": "*Linux* 4.0*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "4.0"
+      }
+    },
+    "Android_I_4_1": {
+      "match": "*Linux* 4.1*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "4.1"
+      }
+    },
+    "Android_I_4_2": {
+      "match": "*Linux* 4.2*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "4.2"
+      }
+    },
+    "Android_I_4_3": {
+      "match": "*Linux* 4.3*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "4.3"
+      }
+    },
+    "Android_I_4_4": {
+      "match": "*Linux* 4.4*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "4.4"
       }
     },
     "Android_GoogleTV": {
@@ -4883,6 +5069,15 @@
       "inherits": "Brew",
       "properties": {
         "Platform_Version": "3.1"
+      }
+    },
+    "Brew_4_0": {
+      "match": "*Brew 4.0*",
+      "lite": false,
+      "standard": true,
+      "inherits": "Brew",
+      "properties": {
+        "Platform_Version": "4.0"
       }
     },
     "webOS": {

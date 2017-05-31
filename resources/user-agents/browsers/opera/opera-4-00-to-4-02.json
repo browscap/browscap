@@ -1,0 +1,100 @@
+{
+  "division": "Opera #MAJORVER#.#MINORVER#",
+  "versions": ["4.02", "4.01", "4.00", 4],
+  "sortIndex": 1063,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Opera #MAJORVER#.#MINORVER#",
+      "device": "general Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Opera #MAJORVER#.#MINORVER#",
+        "Browser": "Opera",
+        "Browser_Maker": "Opera Software ASA",
+        "Browser_Type": "Browser",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "2"
+      },
+      "children": [
+        {
+          "match": "Mozilla/4.0 (compatible; MSIE ?*.?*; #PLATFORM#)*Opera?#MAJORVER#.#MINORVER#*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win7_32",
+            "Vista_32",
+            "WinXPa_32", "WinXPb_32",
+            "Win2000", "Win2000_2",
+            "WinME", "WinME_2", "Win95_2", "Win98_2", "NT4"
+          ]
+        },
+        {
+          "match": "Mozilla/?.*(#PLATFORM#)*Opera?#MAJORVER#.#MINORVER#*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/?.*(#PLATFORM#)*Opera?#MAJORVER#.#MINORVER#*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win7_32",
+            "Vista_32",
+            "WinXPa_32", "WinXPb_32",
+            "Win2000", "Win2000_2",
+            "WinME", "WinME_2", "Win95_2", "Win98_2", "NT4"
+          ]
+        },
+        {
+          "match": "Mozilla/?.*(#PLATFORM#)*Opera?#MAJORVER#.#MINORVER#*",
+          "device": "general Desktop",
+          "platforms": [
+            "FreeBSD", "SunOS"
+          ]
+        },
+        {
+          "match": "Opera?#MAJORVER#.#MINORVER#*(#PLATFORM#)*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux"
+          ]
+        },
+        {
+          "match": "Opera?#MAJORVER#.#MINORVER#*(X11*)*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux"
+          ]
+        },
+        {
+          "match": "Opera?#MAJORVER#.#MINORVER#*(#PLATFORM#)*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win7_32",
+            "Vista_32",
+            "WinXPa_32", "WinXPb_32",
+            "Win2000", "Win2000_2",
+            "WinME", "WinME_2", "Win95_2", "Win98_2", "NT4",
+            "Windows"
+          ]
+        },
+        {
+          "match": "Opera?#MAJORVER#.#MINORVER#*(#PLATFORM#)*",
+          "device": "general Desktop",
+          "platforms": [
+            "FreeBSD", "SunOS"
+          ]
+        }
+      ]
+    }
+  ]
+}

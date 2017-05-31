@@ -30,6 +30,10 @@
         {
           "match": "Opera/* (Nintendo DSi; Opera/*; *; *)",
           "device": "Nintendo DSi"
+        },
+        {
+          "match": "Opera/9.50 (Nintendo DSi; Opera/*)",
+          "device": "Nintendo DSi"
         }
       ]
     }

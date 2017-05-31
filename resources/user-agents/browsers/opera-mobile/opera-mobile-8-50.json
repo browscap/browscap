@@ -31,9 +31,9 @@
           "device": "Nintendo DS"
         },
         {
-          "match": "Mozilla/4.0 (compatible; MSIE#PLATFORM#)*Opera?#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/4.0 (compatible; MSIE ?*.?*; #PLATFORM#)*Opera?#MAJORVER#.#MINORVER#*",
           "platforms": [
-            "WinCE"
+            "WinCE", "SymbianOS", "SymbianOS_D"
           ]
         },
         {

@@ -1,6 +1,6 @@
 {
   "division": "Opera Mobile #MAJORVER#.#MINORVER#",
-  "versions": ["10.70", "10.60", "10.50", "10.5", "10.10", "10.00"],
+  "versions": ["10.70", "10.60", "10.50", "10.5", "10.10", "10.1", "10.00"],
   "sortIndex": 1036,
   "lite": false,
   "standard": true,
@@ -30,10 +30,14 @@
           "match": "Opera/9.80*(#PLATFORM#Opera Mobi*)*Version/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "AndroidLinux",
-            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
-            "Android",
+            "Android_F_2_3", "Android_F_2_2", "Android_F_2_1",
+            "Android_F",
+            "Android_H_2_2",
+            "Android_H",
             "SymbianOS_C",
-            "WinMobile"
+            "WinMobile",
+            "Maemo_ARM",
+            "Linux"
           ]
         },
         {
@@ -41,10 +45,15 @@
           "device": "general Tablet",
           "platforms": [
             "AndroidLinux",
-            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
-            "Android",
+            "Android_F",
             "SymbianOS_C",
             "WinMobile"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM# Opera Mobi/*) Gecko/* Firefox/* Opera #MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Maemo_ARM", "AndroidLinux", "SymbianOS_C"
           ]
         },
         {
@@ -54,9 +63,15 @@
           ]
         },
         {
-          "match": "Mozilla/4.0 (compatible; MSIE#PLATFORM#) Opera?#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/4.0 (compatible; MSIE ?*.?*; #PLATFORM#) Opera?#MAJORVER#.#MINORVER#*",
           "platforms": [
             "WinMobile"
+          ]
+        },
+        {
+          "match": "Mozilla/4.0 (compatible; MSIE#PLATFORM# Opera Mobi*) Opera?#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Maemo_ARM"
           ]
         },
         {
@@ -77,6 +92,13 @@
         },
         {
           "match": "*Opera/*(MTK*)*Version/#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Phone (Touch)",
+          "platforms": [
+            "Android"
+          ]
+        },
+        {
+          "match": "Opera/*(MTK*)*Version/#MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone (Touch)",
           "platforms": [
             "Android"

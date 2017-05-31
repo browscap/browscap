@@ -94,15 +94,11 @@
           ]
         },
         {
-          "match": "Opera/9.80 (J2ME/MIDP*Opera Mini/#MAJORVER#.#MINORVER#*HTC Legend*",
-          "device": "HTC Legend",
-          "platforms": [
-            "JAVA"
-          ]
-        },
-        {
-          "match": "Opera/9.80 (J2ME/MIDP*Opera Mini/#MAJORVER#.#MINORVER#*HTC_DesireHD_A9191*",
-          "device": "HTC Desire HD A9191",
+          "match": "Opera/9.80 (J2ME/MIDP*Opera Mini/#MAJORVER#.#MINORVER#*#DEVICE#*",
+          "devices": {
+            "HTC Legend": "HTC Legend",
+            "HTC_DesireHD_A9191": "HTC Desire HD A9191"
+          },
           "platforms": [
             "JAVA"
           ]
@@ -133,7 +129,6 @@
         },
         {
           "match": "Opera/*(Series 60*Opera Mini/#MAJORVER#.#MINORVER#*",
-          "device": "general Mobile Phone",
           "platforms": [
             "SymbianOS"
           ]
@@ -145,8 +140,10 @@
           ]
         },
         {
-          "match": "Opera/*(BREW*Opera Mini/#MAJORVER#.#MINORVER#*Samsung SCH-U750*",
-          "device": "Samsung SCH-U750",
+          "match": "Opera/*(BREW*Opera Mini/#MAJORVER#.#MINORVER#*#DEVICE#*",
+          "devices": {
+            "Samsung SCH-U750": "Samsung SCH-U750"
+          },
           "platforms": [
             "Brew"
           ]

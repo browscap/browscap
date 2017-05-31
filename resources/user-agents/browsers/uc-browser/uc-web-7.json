@@ -203,6 +203,12 @@
           ]
         },
         {
+          "match": "Opera (#PLATFORM#) UCWEB#MAJORVER#.#MINORVER#.*/*",
+          "platforms": [
+            "Android_I_4_4", "Android_I_4_3", "Android_I_4_2", "Android_I_4_1", "Android_I_4_0"
+          ]
+        },
+        {
           "match": "*/UC Browser#MAJORVER#.#MINORVER#*"
         }
       ]

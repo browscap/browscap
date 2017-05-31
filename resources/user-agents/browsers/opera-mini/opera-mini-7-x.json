@@ -1,6 +1,6 @@
 {
   "division": "Opera Mini #MAJORVER#.#MINORVER#",
-  "versions": ["7.7", "7.6", "7.5", "7.4", "7.3", "7.2", "7.1", "7.0"],
+  "versions": ["7.9", "7.8", "7.7", "7.6", "7.5", "7.4", "7.3", "7.2", "7.1", "7.0"],
   "sortIndex": 1932,
   "lite": false,
   "standard": true,
@@ -64,44 +64,41 @@
           ]
         },
         {
+          "match": "Opera/*(*iOS*Opera Mini/#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Device (Apple)",
+          "engine": "WebKit",
+          "platforms": [
+            "iOS"
+          ]
+        },
+        {
           "match": "Opera/9.80 (J2ME/MIDP*Opera Mini/#MAJORVER#.#MINORVER#*",
-          "device": "general Mobile Phone",
           "platforms": [
             "JAVA"
           ]
         },
         {
           "match": "Opera/9.60 (J2ME/MIDP*Opera Mini/#MAJORVER#.#MINORVER#*",
-          "device": "general Mobile Phone",
           "platforms": [
             "JAVA"
           ]
         },
         {
           "match": "Opera/9.50 (J2ME/MIDP*Opera Mini/#MAJORVER#.#MINORVER#*",
-          "device": "general Mobile Phone",
           "platforms": [
             "JAVA"
           ]
         },
         {
           "match": "Opera/*(J2ME/MIDP*Opera Mini/#MAJORVER#.#MINORVER#*",
-          "device": "general Mobile Phone",
           "platforms": [
             "JAVA"
           ]
         },
         {
           "match": "Opera/*(*Series 60*Opera Mini/#MAJORVER#.#MINORVER#*",
-          "device": "general Mobile Phone",
           "platforms": [
             "SymbianOS"
-          ]
-        },
-        {
-          "match": "Opera/*(*Windows Mobile*Opera Mini/#MAJORVER#.#MINORVER#*",
-          "platforms": [
-            "WinMobile"
           ]
         },
         {
@@ -109,18 +106,6 @@
           "device": "general Mobile Phone (Touch)",
           "platforms": [
             "WinPhone"
-          ]
-        },
-        {
-          "match": "Opera/*(*BREW*Opera Mini/#MAJORVER#.#MINORVER#*",
-          "platforms": [
-            "Brew"
-          ]
-        },
-        {
-          "match": "Opera/*(*Bada*Opera Mini/#MAJORVER#.#MINORVER#*",
-          "platforms": [
-            "Bada_1_0"
           ]
         },
         {
@@ -132,57 +117,22 @@
         },
         {
           "match": "* Opera/*(J2ME/MIDP*Opera Mini/#MAJORVER#.#MINORVER#*",
-          "device": "general Mobile Phone",
           "platforms": [
             "JAVA"
           ]
         },
         {
-          "match": "SAMSUNG-GT-* Opera/*(J2ME/MIDP*Opera Mini/#MAJORVER#.#MINORVER#*",
-          "device": "general Mobile Device (Samsung)",
+          "match": "#DEVICE# Opera/*(J2ME/MIDP*Opera Mini/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "SAMSUNG?GT-*": "general Mobile Device (Samsung)",
+            "SAMSUNG-GT-C3262*": "Samsung GT-C3262",
+            "SAMSUNG-GT-C3312R*": "Samsung GT-C3312R",
+            "SAMSUNG-GT-S3802*": "Samsung GT-S3802",
+            "SAMSUNG-GT-S5222R*": "Samsung GT-S5222R",
+            "SAMSUNG-GT-S5292*": "Samsung GT-S5292"
+          },
           "platforms": [
             "JAVA"
-          ]
-        },
-        {
-          "match": "SAMSUNG-GT-C3262* Opera/*(J2ME/MIDP*Opera Mini/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung GT-C3262",
-          "platforms": [
-            "JAVA"
-          ]
-        },
-        {
-          "match": "SAMSUNG-GT-S3802* Opera/*(J2ME/MIDP*Opera Mini/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung GT-S3802",
-          "platforms": [
-            "JAVA"
-          ]
-        },
-        {
-          "match": "SAMSUNG-GT-S5292* Opera/*(J2ME/MIDP*Opera Mini/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung GT-S5292",
-          "platforms": [
-            "JAVA"
-          ]
-        },
-        {
-          "match": "SAMSUNG-GT-C3312R* Opera/*(J2ME/MIDP*Opera Mini/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung GT-C3312R",
-          "platforms": [
-            "JAVA"
-          ]
-        },
-        {
-          "match": "SAMSUNG-GT-S5222R* Opera/*(J2ME/MIDP*Opera Mini/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung GT-S5222R",
-          "platforms": [
-            "JAVA"
-          ]
-        },
-        {
-          "match": "Opera/*(BREW*Opera Mini/#MAJORVER#.#MINORVER#*",
-          "platforms": [
-            "Brew"
           ]
         }
       ]

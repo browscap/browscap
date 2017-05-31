@@ -1,0 +1,57 @@
+{
+  "division": "Opera #MAJORVER#.#MINORVER#",
+  "versions": ["2.12", "2.11", "2.10", "2.00"],
+  "sortIndex": 1065,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Opera #MAJORVER#.#MINORVER#",
+      "device": "general Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Opera #MAJORVER#.#MINORVER#",
+        "Browser": "Opera",
+        "Browser_Maker": "Opera Software ASA",
+        "Browser_Type": "Browser",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla/4.0 (compatible; MSIE ?*.?*; #PLATFORM#)*Opera?#MAJORVER#.#MINORVER#*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "WinXPa_32", "WinXPb_32",
+            "Win2000", "Win2000_2",
+            "WinME", "WinME_2", "Win95_2", "Win98_2", "NT4"
+          ]
+        },
+        {
+          "match": "Mozilla/?.*(#PLATFORM#)*Opera?#MAJORVER#.#MINORVER#*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "WinXPa_32", "WinXPb_32",
+            "Win2000", "Win2000_2",
+            "WinME", "WinME_2", "Win95_2", "Win98_2", "NT4"
+          ]
+        },
+        {
+          "match": "Opera?#MAJORVER#.#MINORVER#*(#PLATFORM#)*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "WinXPa_32", "WinXPb_32",
+            "Win2000", "Win2000_2",
+            "WinME", "WinME_2", "Win95_2", "Win98_2", "NT4",
+            "Windows"
+          ]
+        }
+      ]
+    }
+  ]
+}

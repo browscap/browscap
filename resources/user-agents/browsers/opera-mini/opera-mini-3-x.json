@@ -27,13 +27,6 @@
       },
       "children": [
         {
-          "match": "Opera/*(Android*Opera Mini/#MAJORVER#.#MINORVER#*",
-          "device": "general Mobile Phone (Touch)",
-          "platforms": [
-            "Android"
-          ]
-        },
-        {
           "match": "Opera/*(BlackBerry*Opera Mini/#MAJORVER#.#MINORVER#*",
           "device": "Blackberry Blackberry",
           "platforms": [
@@ -48,7 +41,6 @@
         },
         {
           "match": "Opera/*(Series 60*Opera Mini/#MAJORVER#.#MINORVER#*",
-          "device": "general Mobile Phone",
           "platforms": [
             "SymbianOS"
           ]
