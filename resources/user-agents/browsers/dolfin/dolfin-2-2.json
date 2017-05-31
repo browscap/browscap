@@ -28,15 +28,11 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-S8500#PLATFORM#) applewebkit* (*khtml*like*gecko*) Dolfin/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung GT-S8500",
-          "platforms": [
-            "Bada_1_2"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-S8530#PLATFORM#) applewebkit* (*khtml*like*gecko*) Dolfin/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung GT-S8530",
+          "match": "Mozilla/5.0 (SAMSUNG; #DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*) Dolfin/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "SAMSUNG-GT-S8500": "Samsung GT-S8500",
+            "SAMSUNG-GT-S8530": "Samsung GT-S8530"
+          },
           "platforms": [
             "Bada_1_2"
           ]

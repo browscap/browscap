@@ -28,108 +28,45 @@
       },
       "children": [
         {
-          "match": "SAMSUNG-GT-S5620/*Dolfin/#MAJORVER#.#MINORVER#*MIDP*",
-          "device": "Samsung GT-S5620"
+          "match": "#DEVICE#/*Dolfin/#MAJORVER#.#MINORVER#*MIDP*",
+          "devices": {
+            "SAMSUNG-GT-B7722": "Samsung GT-B7722",
+            "SAMSUNG-GT-S5620": "Samsung GT-S5620",
+            "SAMSUNG-SGH-T528g": "Samsung SGH-T528g"
+          }
         },
         {
-          "match": "SAMSUNG-GT-B7722/*Dolfin/#MAJORVER#.#MINORVER#*MIDP*",
-          "device": "Samsung GT-B7722"
+          "match": "#DEVICE#*?Dolphin/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "SAMSUNG-C3050": "Samsung C3050",
+            "SAMSUNG-GT-3210": "Samsung GT-3210",
+            "SAMSUNG-GT-B3310": "Samsung GT-B3310",
+            "SAMSUNG-GT-B3410": "Samsung GT-B3410",
+            "SAMSUNG-GT-B7610": "Samsung GT-B7610",
+            "SAMSUNG-GT-E2550": "Samsung GT-E2550",
+            "SAMSUNG-GT-I6410": "Samsung GT-I6410",
+            "SAMSUNG-GT-i8000": "Samsung GT-I8000",
+            "SAMSUNG-GT-I8320": "Samsung GT-I8320",
+            "SAMSUNG-GT-S3370": "Samsung GT-S3370",
+            "SAMSUNG-GT-S3650": "Samsung GT-S3650",
+            "SAMSUNG-GT-S5230": "Samsung GT-S5230",
+            "SAMSUNG-GT-S5560": "Samsung GT-S5560",
+            "SAMSUNG-GT-S7550": "Samsung GT-S7550",
+            "SAMSUNG-S8000": "Samsung GT-S8000",
+            "SAMSUNG-S8300": "Samsung GT-S8300",
+            "SAMSUNG-SGH-E250": "Samsung SGH-E250",
+            "SAMSUNG-SGH-F480": "Samsung SGH-F480",
+            "SAMSUNG-SGH-G800": "Samsung SGH-G800",
+            "SAMSUNG-SGH-i900": "Samsung SGH-I900",
+            "SAMSUNG-SGH-U700": "Samsung SGH-U700",
+            "SAMSUNG-SGH-U900": "Samsung SGH-U900"
+          }
         },
         {
-          "match": "SAMSUNG-SGH-T528g/*Dolfin/#MAJORVER#.#MINORVER#*MIDP*",
-          "device": "Samsung SGH-T528g"
-        },
-        {
-          "match": "SAMSUNG-C3050*?Dolphin/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung C3050"
-        },
-        {
-          "match": "SAMSUNG-GT-3210*?Dolphin/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung GT-3210"
-        },
-        {
-          "match": "SAMSUNG-GT-B3310*?Dolphin/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung GT-B3310"
-        },
-        {
-          "match": "SAMSUNG-GT-B3410*?Dolphin/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung GT-B3410"
-        },
-        {
-          "match": "SAMSUNG-GT-B7610*?Dolphin/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung GT-B7610"
-        },
-        {
-          "match": "SAMSUNG-GT-E2550*?Dolphin/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung GT-E2550"
-        },
-        {
-          "match": "SAMSUNG-GT-I6410*?Dolphin/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung GT-I6410"
-        },
-        {
-          "match": "SAMSUNG-GT-I8320*?Dolphin/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung GT-I8320"
-        },
-        {
-          "match": "SAMSUNG-GT-S3370*?Dolphin/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung GT-S3370"
-        },
-        {
-          "match": "SAMSUNG-GT-S3650*?Dolphin/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung GT-S3650"
-        },
-        {
-          "match": "SAMSUNG-GT-S5230*?Dolphin/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung GT-S5230"
-        },
-        {
-          "match": "SAMSUNG-GT-S5560*?Dolfin/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung GT-S5560"
-        },
-        {
-          "match": "SAMSUNG-GT-S5560*?Dolphin/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung GT-S5560"
-        },
-        {
-          "match": "SAMSUNG-GT-S7550*?Dolphin/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung GT-S7550"
-        },
-        {
-          "match": "SAMSUNG-GT-i8000*?Dolphin/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung GT-I8000"
-        },
-        {
-          "match": "SAMSUNG-S8000*?Dolphin/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung GT-S8000"
-        },
-        {
-          "match": "SAMSUNG-S8300*?Dolphin/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung GT-S8300"
-        },
-        {
-          "match": "SAMSUNG-SGH-E250*?Dolphin/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-E250"
-        },
-        {
-          "match": "SAMSUNG-SGH-F480*?Dolphin/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-F480"
-        },
-        {
-          "match": "SAMSUNG-SGH-G800*?Dolphin/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-G800"
-        },
-        {
-          "match": "SAMSUNG-SGH-U700*?Dolphin/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-U700"
-        },
-        {
-          "match": "SAMSUNG-SGH-U900*?Dolphin/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-U900"
-        },
-        {
-          "match": "SAMSUNG-SGH-i900*?Dolphin/#MAJORVER#.#MINORVER#*",
-          "device": "Samsung SGH-I900"
+          "match": "#DEVICE#*?Dolfin/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "SAMSUNG-GT-S5560": "Samsung GT-S5560"
+          }
         },
         {
           "match": "*Dolphin/#MAJORVER#.#MINORVER#*"

@@ -28,22 +28,28 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (#PLATFORM#GT-I9100 Build/*) applewebkit* (*khtml*like*gecko*) Dolphin/INT-#MAJORVER#.#MINORVER# *Safari/*",
-          "device": "Samsung GT-I9100",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Dolphin/INT-#MAJORVER#.#MINORVER# *Safari/*",
+          "devices": {
+            "GT-I9100": "Samsung GT-I9100"
+          },
           "platforms": [
             "Android_4_0"
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#GT-I9100 *) applewebkit* (*khtml*like*gecko*) Dolphin/INT-#MAJORVER#.#MINORVER# *Safari/*",
-          "device": "Samsung GT-I9100",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# *) applewebkit* (*khtml*like*gecko*) Dolphin/INT-#MAJORVER#.#MINORVER# *Safari/*",
+          "devices": {
+            "GT-I9100": "Samsung GT-I9100"
+          },
           "platforms": [
             "Android_4_0"
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#GT-I9001 Build/*) applewebkit* (*khtml*like*gecko*) Dolphin/INT-#MAJORVER#.#MINORVER# *Safari/*",
-          "device": "Samsung GT-I9001",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Dolphin/INT-#MAJORVER#.#MINORVER# *Safari/*",
+          "devices": {
+            "GT-I9001": "Samsung GT-I9001"
+          },
           "platforms": [
             "Android_2_3"
           ]
@@ -51,7 +57,8 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Dolphin/INT-#MAJORVER#.#MINORVER# *Safari/*",
           "platforms": [
-            "Android_4_0", "Android"
+            "Android_4_0",
+            "Android"
           ]
         }
       ]
