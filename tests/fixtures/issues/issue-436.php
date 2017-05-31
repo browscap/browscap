@@ -3701,7 +3701,7 @@ return [
             'Device_Name' => 'Curve 9320',
             'Device_Maker' => 'Research In Motion Limited',
             'Device_Type' => 'Mobile Phone',
-            'Device_Pointing_Method' => 'touchscreen',
+            'Device_Pointing_Method' => 'clickwheel',
             'Device_Code_Name' => 'BlackBerry 9320',
             'Device_Brand_Name' => 'RIM',
             'RenderingEngine_Name' => 'WebKit',

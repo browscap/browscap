@@ -26,56 +26,28 @@
       },
       "children": [
         {
-          "match": "BlackBerry8100/#MAJORVER#.#MINORVER#*",
-          "device": "Blackberry 8100"
+          "match": "#DEVICE#/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "BlackBerry8100": "Blackberry 8100",
+            "BlackBerry8110": "Blackberry 8110",
+            "BlackBerry8120": "Blackberry 8120",
+            "BlackBerry8130": "Blackberry 8130",
+            "BlackBerry8130m": "Blackberry 8130m",
+            "BlackBerry8300": "Blackberry 8300",
+            "BlackBerry8310": "Blackberry 8310",
+            "BlackBerry8320": "Blackberry 8320",
+            "BlackBerry8330": "Blackberry 8330",
+            "BlackBerry8330m": "Blackberry 8330m",
+            "BlackBerry8700": "Blackberry 8700",
+            "BlackBerry8703e": "Blackberry 8703e",
+            "BlackBerry8800": "Blackberry 8800",
+            "BlackBerry8820": "Blackberry 8820",
+            "BlackBerry8830": "Blackberry 8830",
+            "BlackBerry8830m": "Blackberry 8830m"
+          }
         },
         {
-          "match": "BlackBerry8110/#MAJORVER#.#MINORVER#*",
-          "device": "Blackberry 8110"
-        },
-        {
-          "match": "BlackBerry8120/#MAJORVER#.#MINORVER#*",
-          "device": "Blackberry 8120"
-        },
-        {
-          "match": "BlackBerry8130/#MAJORVER#.#MINORVER#*",
-          "device": "Blackberry 8130"
-        },
-        {
-          "match": "BlackBerry8300/#MAJORVER#.#MINORVER#*",
-          "device": "Blackberry 8300"
-        },
-        {
-          "match": "BlackBerry8310/#MAJORVER#.#MINORVER#*",
-          "device": "Blackberry 8310"
-        },
-        {
-          "match": "BlackBerry8320/#MAJORVER#.#MINORVER#*",
-          "device": "Blackberry 8320"
-        },
-        {
-          "match": "BlackBerry8330/#MAJORVER#.#MINORVER#*",
-          "device": "Blackberry 8330"
-        },
-        {
-          "match": "BlackBerry8330m/#MAJORVER#.#MINORVER#*",
-          "device": "Blackberry 8330m"
-        },
-        {
-          "match": "BlackBerry8700/#MAJORVER#.#MINORVER#*",
-          "device": "Blackberry 8700"
-        },
-        {
-          "match": "BlackBerry8800/#MAJORVER#.#MINORVER#*",
-          "device": "Blackberry 8800"
-        },
-        {
-          "match": "BlackBerry8820/#MAJORVER#.#MINORVER#*",
-          "device": "Blackberry 8820"
-        },
-        {
-          "match": "BlackBerry8830/#MAJORVER#.#MINORVER#*",
-          "device": "Blackberry 8830"
+          "match": "BlackBerry*/#MAJORVER#.#MINORVER#*"
         }
       ]
     }

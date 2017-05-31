@@ -28,20 +28,18 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (BB10; Touch) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari/*",
-          "device": "Blackberry Z10"
+          "match": "Mozilla/5.0 (BB10; #DEVICE#) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari/*",
+          "devices": {
+            "Kbd": "Blackberry KBD",
+            "Touch": "Blackberry Z10"
+          }
         },
         {
-          "match": "Mozilla/5.0 (BB10; Touch) applewebkit* (*khtml*like*gecko*)*",
-          "device": "Blackberry Z10"
-        },
-        {
-          "match": "Mozilla/5.0 (BB10; Kbd) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari/*",
-          "device": "Blackberry KBD"
-        },
-        {
-          "match": "Mozilla/5.0 (BB10; Kbd) applewebkit* (*khtml*like*gecko*)*",
-          "device": "Blackberry KBD"
+          "match": "Mozilla/5.0 (BB10; #DEVICE#) applewebkit* (*khtml*like*gecko*)*",
+          "devices": {
+            "Kbd": "Blackberry KBD",
+            "Touch": "Blackberry Z10"
+          }
         },
         {
           "match": "Mozilla/5.0 (BB10; *) applewebkit* (*khtml*like*gecko*)*"
