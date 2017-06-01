@@ -1,0 +1,53 @@
+{
+  "division": "CloudFlare Bots",
+  "sortIndex": 450,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "CloudFlare Bots",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "CloudFlare Bots",
+        "Browser": "CloudFlare",
+        "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "CloudFlare, Inc.",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Crawler": "true"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible; CloudFlare-AlwaysOnline/1.0*",
+          "properties": {
+            "Browser": "CloudFlare AlwaysOnline",
+            "Comment": "Online Scanners",
+            "Version": "1.0",
+            "MajorVer": "1",
+            "MinorVer": "0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; CloudFlare-AlwaysOnline/*",
+          "properties": {
+            "Browser": "CloudFlare AlwaysOnline",
+            "Comment": "Online Scanners"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Cloudflare-AMP/*; +https://amp.cloudflare.com/*) applewebkit*",
+          "properties": {
+            "Browser": "CloudFlare AMP Discovery Fetcher"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (Linux; Android *) applewebkit* (*khtml*like*gecko*) Chrome/* Mobile Safari/* (compatible; Cloudflare-AMPHTML)",
+          "properties": {
+            "Browser": "CloudFlare AMP Discovery Fetcher"
+          }
+        }
+      ]
+    }
+  ]
+}

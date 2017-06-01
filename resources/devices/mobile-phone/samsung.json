@@ -7240,6 +7240,19 @@
             "isTablet": "false"
         }
     },
+    "Samsung SM-G955U": {
+        "standard": false,
+        "properties": {
+            "Device_Type": "Mobile Phone",
+            "Device_Code_Name": "SM-G955U",
+            "Device_Name": "Galaxy S8+",
+            "Device_Maker": "Samsung",
+            "Device_Brand_Name": "Samsung",
+            "Device_Pointing_Method": "touchscreen",
+            "isMobileDevice": "true",
+            "isTablet": "false"
+        }
+    },
     "Samsung SM-J100F": {
         "standard": false,
         "properties": {

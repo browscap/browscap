@@ -26,6 +26,12 @@
           "match": "Kml-Google; (+http://code.google.com/apis/kml)*"
         },
         {
+          "match": "Mozilla/5.0 (compatible; Google-Youtube-Links)",
+          "properties": {
+            "Browser": "YouTube Links Bot"
+          }
+        },
+        {
           "match": "Mozilla/4.0 (compatible; GoogleToolbar 7.5#PLATFORM#",
           "device": "Windows Desktop",
           "properties": {

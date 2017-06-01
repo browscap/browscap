@@ -1380,6 +1380,12 @@
             "Browser": "Alamofire Http Client",
             "Browser_Maker": "Christian Noon"
           }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; SimpleScraper)",
+          "properties": {
+            "Browser": "SimpleScraper"
+          }
         }
       ]
     }
