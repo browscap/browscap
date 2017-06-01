@@ -550,7 +550,6 @@
         {
           "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
           "engine": "U2",
-          "device": "general Mobile Phone (Touch)",
           "platforms": [
             "Android_E_7_0",
             "Android_E_6_1", "Android_E_6_0",
@@ -859,7 +858,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)* UCBrowser/#MAJORVER#.#MINORVER#*",
-          "device": "general Mobile Device (Apple)",
           "platforms": [
             "iOS_A"
           ]

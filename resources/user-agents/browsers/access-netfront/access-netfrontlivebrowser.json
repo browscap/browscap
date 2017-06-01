@@ -27,8 +27,10 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (#PLATFORM#WT19a Build/*) applewebkit* (*khtml*like*gecko*) Version/* NetFrontLifeBrowser/#MAJORVER#.#MINORVER#*",
-          "device": "SonyEricsson WT19a",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* NetFrontLifeBrowser/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "WT19a": "SonyEricsson WT19a"
+          },
           "platforms": [
             "Android"
           ]
