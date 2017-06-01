@@ -1,0 +1,51 @@
+{
+  "division": "Flipboard App Generic",
+  "sortIndex": 941,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Flipboard App Generic",
+      "platform": "Android",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Flipboard App Generic",
+        "Browser": "Flipboard App",
+        "Browser_Type": "Application",
+        "Browser_Maker": "Flipboard, Inc.",
+        "Alpha": "false",
+        "Beta": "false",
+        "Frames": "false",
+        "IFrames": "false",
+        "Tables": "false",
+        "Cookies": "false",
+        "JavaScript": "false",
+        "isSyndicationReader": "false",
+        "Crawler": "false"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome*Safari* Flipboard/*",
+          "engine": "Blink",
+          "platforms": [
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/*Safari* Flipboard/*",
+          "platforms": [
+            "Android_5_1", "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2",
+            "Android_2_3",
+            "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}
