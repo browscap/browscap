@@ -51,7 +51,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-1446-B' => [
@@ -104,7 +104,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-1446-C' => [
@@ -157,7 +157,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-1446-D' => [
@@ -210,7 +210,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-1446-E' => [
@@ -263,7 +263,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-1446-F' => [
@@ -316,7 +316,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-1446-G' => [
@@ -369,7 +369,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-1446-H' => [
@@ -422,8 +422,8 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite' => true,
-        'standard' => true,
+        'lite' => false,
+        'standard' => false,
     ],
     'issue-1446-I' => [
         'ua' => 'Mozilla/5.0 (Android 6.0.1; samsung SM-J327P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 SurfBrowser/3.0',
@@ -475,8 +475,8 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite' => true,
-        'standard' => true,
+        'lite' => false,
+        'standard' => false,
     ],
     'issue-1446-J' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.6.0 Chrome/45.0.2454.101 Safari/537.36',
@@ -528,7 +528,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-1446-K' => [
@@ -581,7 +581,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-1446-L' => [
@@ -634,7 +634,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-1446-M' => [
@@ -687,7 +687,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-1446-N' => [
@@ -740,7 +740,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-1446-O' => [
@@ -793,7 +793,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-1446-P' => [
@@ -846,7 +846,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-1446-Q' => [
@@ -899,7 +899,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-1446-R' => [
@@ -952,7 +952,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
     'issue-1446-S' => [
@@ -1005,7 +1005,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'unknown',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
     ],
 ];
