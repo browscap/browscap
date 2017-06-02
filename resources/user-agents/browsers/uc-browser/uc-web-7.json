@@ -9,7 +9,6 @@
       "userAgent": "UC Browser #MAJORVER#.#MINORVER#",
       "engine": "WebKit",
       "device": "general Mobile Phone (Touch)",
-      "platform": "Android",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "UC Browser #MAJORVER#.#MINORVER#",
@@ -210,6 +209,12 @@
         },
         {
           "match": "*/UC Browser#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "J2ME/UCWeb#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "JAVA"
+          ]
         }
       ]
     }

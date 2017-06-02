@@ -1244,6 +1244,13 @@
             "Browser": "Daum Bot",
             "Browser_Maker": "Kakao Corp"
           }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; IDBot/*; +http://www.id-search.xyz/bot.html)",
+          "properties": {
+            "Browser": "IDBot",
+            "Browser_Maker": "id-search.xyz"
+          }
         }
       ]
     }

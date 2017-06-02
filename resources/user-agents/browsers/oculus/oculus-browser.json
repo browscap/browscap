@@ -1,0 +1,50 @@
+{
+  "division": "Oculus Browser #MAJORVER#.#MINORVER#",
+  "versions": ["3.1"],
+  "sortIndex": 954,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Oculus Browser #MAJORVER#.#MINORVER#",
+      "platform": "Android",
+      "engine": "Blink",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Oculus Browser #MAJORVER#.#MINORVER#",
+        "Browser": "Oculus Browser",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Oculus",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) OculusBrowser/#MAJORVER#.#MINORVER#* SamsungBrowser/*Chrome*VR*Safari*",
+          "devices": {
+            "SM-G935F": "Samsung SM-G935F",
+            "SM-G955U": "Samsung SM-G955U"
+          },
+          "platforms": [
+            "Android_7_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM# Build/*) applewebkit* (*khtml*like*gecko*) OculusBrowser/#MAJORVER#.#MINORVER#* SamsungBrowser/*Chrome*VR*Safari*",
+          "platforms": [
+            "Android_7_1", "Android_7_0",
+            "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}

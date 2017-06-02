@@ -2818,6 +2818,13 @@
             "Browser": "Mozilla Metadata Service",
             "Browser_Maker": "Mozilla Foundation"
           }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Wappalyzer; +https://github.com/AliasIO/Wappalyzer)",
+          "properties": {
+            "Browser": "Wappalyzer",
+            "Browser_Maker": "Elbert Alias"
+          }
         }
       ]
     }

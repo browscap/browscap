@@ -44,7 +44,8 @@
           "device": "Macintosh",
           "engine": "WebKit",
           "platforms": [
-            "OSX_10_10"
+            "OSX_10_12", "OSX_10_10",
+            "OSX"
           ]
         },
         {
@@ -52,7 +53,8 @@
           "device": "Macintosh",
           "engine": "WebKit",
           "platforms": [
-            "OSX_10_11"
+            "OSX_10_11",
+            "OSX"
           ]
         },
         {
@@ -68,7 +70,10 @@
           "device": "Windows Desktop",
           "engine": "WebKit",
           "platforms": [
-            "Win7_64", "Win7_32", "Win8_1_64", "Win10_64_B", "Win10_x64_B"
+            "Win7_64", "Win7_32",
+            "Win8_64", "Win8_1_64",
+            "Win10_64_B", "Win10_x64_B",
+            "Windows"
           ]
         },
         {

@@ -46,6 +46,12 @@
           ]
         },
         {
+          "match": "Mozilla/5.0 (#PLATFORM#) AppEngine-Google; (?http://code.google.com/appengine; appid: *",
+          "platforms": [
+            "Windows"
+          ]
+        },
+        {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko/* Firefox/* AppEngine-Google; (?http://code.google.com/appengine; appid: *",
           "platforms": [
             "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32",
