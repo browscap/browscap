@@ -57,11 +57,11 @@ return [
     'issue-996-B' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; SM-G800F Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.135 MobileIron/1.6.0 Mobile Safari/537.36',
         'properties' => [
-            'Comment' => 'Iron Mobile 1.6',
-            'Browser' => 'Iron Mobile',
+            'Comment' => 'MobileIron 1.6',
+            'Browser' => 'MobileIron',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
-            'Browser_Maker' => 'SRWare',
+            'Browser_Maker' => 'MobileIron',
             'Browser_Modus' => 'unknown',
             'Version' => '1.6',
             'MajorVer' => '1',
