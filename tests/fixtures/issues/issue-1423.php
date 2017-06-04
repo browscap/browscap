@@ -1435,11 +1435,11 @@ return [
     'issue-01423-AB' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_4_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12H321 MobileIron/1.7.1 Version/8.4.1 Safari/600.1.4',
         'properties' => [
-            'Comment' => 'Iron Mobile 1.7',
-            'Browser' => 'Iron Mobile',
+            'Comment' => 'MobileIron 1.7',
+            'Browser' => 'MobileIron',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
-            'Browser_Maker' => 'SRWare',
+            'Browser_Maker' => 'MobileIron',
             'Browser_Modus' => 'unknown',
             'Version' => '1.7',
             'MajorVer' => '1',
