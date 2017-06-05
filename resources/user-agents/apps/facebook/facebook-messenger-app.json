@@ -108,7 +108,7 @@
           },
           "platforms": [
             "Android_7_0",
-            "Android_6_1", "Android_6_0"
+            "Android_6_0"
           ]
         },
         {
@@ -418,7 +418,7 @@
           "match": "Mozilla/5.0 (#PLATFORM# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* ?FB_IAB/MESSENGER;FBAV/*",
           "platforms": [
             "Android_7_1", "Android_7_0",
-            "Android_6_1", "Android_6_0",
+            "Android_6_0",
             "Android_5_1", "Android_5_0",
             "Android_4_4",
             "Android"

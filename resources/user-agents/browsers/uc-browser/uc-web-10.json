@@ -237,7 +237,7 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "platforms": [
             "Android_7_1", "Android_7_0",
-            "Android_6_1", "Android_6_0",
+            "Android_6_0",
             "Android_5_1", "Android_5_0",
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
             "Android_2_3", "Android_2_2",
@@ -256,7 +256,7 @@
           "engine": "Blink",
           "platforms": [
             "Android_7_1", "Android_7_0",
-            "Android_6_1", "Android_6_0",
+            "Android_6_0",
             "Android_5_1", "Android_5_0",
             "Android_4_4",
             "Android"
@@ -302,7 +302,7 @@
           "engine": "WebKit",
           "platforms": [
             "Android_7_1", "Android_7_0",
-            "Android_6_1", "Android_6_0",
+            "Android_6_0",
             "Android_5_1", "Android_5_0",
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
             "Android_2_3",
@@ -401,7 +401,7 @@
           "device": "general Mobile Phone (Touch)",
           "platforms": [
             "Android_E_7_1", "Android_E_7_0",
-            "Android_E_6_1", "Android_E_6_0",
+            "Android_E_6_0",
             "Android_E_5_1", "Android_E_5_0",
             "Android_E_4_4", "Android_E_4_3", "Android_E_4_2", "Android_E_4_1", "Android_E_4_0",
             "Android_E_2_3", "Android_E_2_2", "Android_E_2_1", "Android_E_2_0",
