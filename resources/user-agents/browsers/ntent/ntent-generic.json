@@ -27,7 +27,7 @@
           "engine": "Blink",
           "platforms": [
             "Android_H_7_1", "Android_H_7_0",
-            "Android_H_6_1", "Android_H_6_0",
+            "Android_H_6_0",
             "Android_H_5_1", "Android_H_5_0",
             "Android_H_4_4", "Android_H_4_3", "Android_H_4_2", "Android_H_4_1", "Android_H_4_0",
             "Android_H"
@@ -37,7 +37,7 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) NTENTBrowser/* Safari/*",
           "platforms": [
             "Android_H_7_1", "Android_H_7_0",
-            "Android_H_6_1", "Android_H_6_0",
+            "Android_H_6_0",
             "Android_H_5_1", "Android_H_5_0",
             "Android_H_4_4", "Android_H_4_3", "Android_H_4_2", "Android_H_4_1", "Android_H_4_0",
             "Android_H"

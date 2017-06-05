@@ -3211,15 +3211,6 @@
         "Platform_Version": "6.0"
       }
     },
-    "Android_6_1": {
-      "match": "*Linux*Android?6.1*",
-      "lite": false,
-      "standard": true,
-      "inherits": "Android",
-      "properties": {
-        "Platform_Version": "6.1"
-      }
-    },
     "Android_7_0": {
       "match": "*Linux*Android?7.0*",
       "lite": false,
@@ -3649,15 +3640,6 @@
         "Platform_Version": "6.0"
       }
     },
-    "Android_E_6_1": {
-      "match": "*; U; Adr 6.1*",
-      "lite": false,
-      "standard": true,
-      "inherits": "Android",
-      "properties": {
-        "Platform_Version": "6.1"
-      }
-    },
     "Android_E_7_0": {
       "match": "*; U; Adr 7.0*",
       "lite": false,
@@ -3826,15 +3808,6 @@
         "Platform_Version": "6.0"
       }
     },
-    "Android_F_6_1": {
-      "match": "*Android?6.1*Linux*",
-      "lite": false,
-      "standard": false,
-      "inherits": "Android",
-      "properties": {
-        "Platform_Version": "6.1"
-      }
-    },
     "Android_F_7_0": {
       "match": "*Android?7.0*Linux*",
       "lite": false,
@@ -3989,15 +3962,6 @@
       "inherits": "Android",
       "properties": {
         "Platform_Version": "6.0"
-      }
-    },
-    "Android_H_6_1": {
-      "match": "*Android?6.1*",
-      "lite": false,
-      "standard": false,
-      "inherits": "Android",
-      "properties": {
-        "Platform_Version": "6.1"
       }
     },
     "Android_H_7_0": {

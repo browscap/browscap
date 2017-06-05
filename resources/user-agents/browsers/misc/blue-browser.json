@@ -34,7 +34,7 @@
           },
           "platforms": [
             "Android_H_7_1", "Android_H_7_0",
-            "Android_H_6_1", "Android_H_6_0"
+            "Android_H_6_0"
           ]
         },
         {
@@ -44,7 +44,7 @@
           },
           "platforms": [
             "Android_H_7_0",
-            "Android_H_6_1", "Android_H_6_0",
+            "Android_H_6_0",
             "Android_H_5_1", "Android_H_5_0"
           ]
         },
@@ -71,7 +71,7 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* BlueBrowser/*",
           "platforms": [
             "Android_H_7_1", "Android_H_7_0",
-            "Android_H_6_1", "Android_H_6_0",
+            "Android_H_6_0",
             "Android_H_5_1", "Android_H_5_0",
             "Android_H_4_4", "Android_H_4_3", "Android_H_4_2",
             "Android"
@@ -94,7 +94,7 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* SurfBrowser/*",
           "platforms": [
             "Android_H_7_1", "Android_H_7_0",
-            "Android_H_6_1", "Android_H_6_0",
+            "Android_H_6_0",
             "Android_H_5_1", "Android_H_5_0",
             "Android_H_4_4", "Android_H_4_3", "Android_H_4_2",
             "Android"

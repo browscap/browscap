@@ -77,7 +77,7 @@
           "match": "Mozilla/5.0 (#PLATFORM# Build/*) applewebkit* (*khtml*like*gecko*) Version*Chrome*Safari* SamsungBrowser/CrossApp/*",
           "platforms": [
             "Android_7_1", "Android_7_0",
-            "Android_6_1", "Android_6_0",
+            "Android_6_0",
             "Android"
           ]
         }
