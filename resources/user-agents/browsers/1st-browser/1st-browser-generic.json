@@ -1,0 +1,50 @@
+{
+  "division": "1stBrowser Generic",
+  "sortIndex": 1101,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "1stBrowser Generic",
+      "engine": "Blink",
+      "device": "general Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "1stBrowser Generic",
+        "Browser": "1stBrowser",
+        "Browser_Maker": "Sien",
+        "Browser_Type": "Browser",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "false",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* 1stBrowser/* Safari/*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win10_x64_B", "Win10_64_B", "Win10_32_B",
+            "Win8_1_x64", "Win8_1_64", "Win8_1_32",
+            "Win8_x64", "Win8_64", "Win8_32",
+            "Win7_x64", "Win7_64", "Win7_32",
+            "Vista_64", "Vista_32",
+            "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32",
+            "Windows"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* 1stBrowser/* Safari/*",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10", "OSX_10_11", "OSX_10_12",
+            "OSX"
+          ]
+        }
+      ]
+    }
+  ]
+}
