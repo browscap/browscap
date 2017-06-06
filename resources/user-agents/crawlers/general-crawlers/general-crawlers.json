@@ -333,16 +333,6 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko,*safari*) ADM/*",
-          "device": "Macintosh",
-          "properties": {
-            "Browser": "Adobe Dialog Manager"
-          },
-          "platforms": [
-            "OSX"
-          ]
-        },
-        {
           "match": "Mozilla/5.0 (compatible; AdHitz; http://adhitz.com/)",
           "properties": {
             "Browser": "AdHitz"
