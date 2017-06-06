@@ -1,0 +1,48 @@
+{
+  "division": "Kinza Generic",
+  "sortIndex": 884,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Kinza Generic",
+      "platform": "Windows",
+      "engine": "Blink",
+      "device": "Windows Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Kinza Generic",
+        "Browser": "Kinza",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "kinza.jp",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* Kinza/*",
+          "platforms": [
+            "Win10_x64_B", "Win10_64_B", "Win10_32_B",
+            "Win8_1_64", "Win8_1_32",
+            "Win8_64", "Win8_32",
+            "Win7_64", "Win7_32",
+            "Vista_64", "Vista_32",
+            "Windows"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* Kinza/*",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX_10_12", "OSX_10_11",
+            "OSX"
+          ]
+        }
+      ]
+    }
+  ]
+}
