@@ -1,0 +1,115 @@
+{
+  "division": "SpeedCurve WebPage Test",
+  "sortIndex": 491,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "SpeedCurve WebPage Test",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "SpeedCurve WebPage Test",
+        "Browser": "SpeedCurve WebPage Test",
+        "Browser_Type": "Bot/Crawler",
+        "Browser_Maker": "SpeedCurve",
+        "Crawler": "true",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* PTST/*",
+          "engine": "Blink",
+          "device": "Windows Desktop",
+          "properties": {
+            "Browser_Modus": "Chrome"
+          },
+          "platforms": [
+            "Win10_64", "Win10_32", "Win10_x64_B", "Win10_64_B", "Win10_32_B",
+            "Win8_1_64", "Win8_1_32",
+            "Win8_64", "Win8_32",
+            "Win7_64", "Win7_32",
+            "Vista_64", "Vista_32",
+            "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32",
+            "Windows"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* PTST/*",
+          "engine": "Blink",
+          "device": "Linux Desktop",
+          "properties": {
+            "Browser_Modus": "Chrome"
+          },
+          "platforms": [
+            "Linux_64", "Linux_32",
+            "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; MSIE *; #PLATFORM# Trident/?.0) PTST/*",
+          "engine": "Trident",
+          "device": "Windows Desktop",
+          "properties": {
+            "Browser_Modus": "IE"
+          },
+          "platforms": [
+            "Win10_64", "Win10_32", "Win10_x64_B", "Win10_64_B", "Win10_32_B",
+            "Win8_1_64", "Win8_1_32",
+            "Win8_64", "Win8_32",
+            "Win7_64", "Win7_32",
+            "Vista_64", "Vista_32",
+            "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32",
+            "Windows"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* PTST/*",
+          "engine": "Blink",
+          "properties": {
+            "Browser_Modus": "Chrome"
+          },
+          "devices": {
+            "Moto G (4)": "Motorola G4"
+          },
+          "platforms": [
+            "Android_6_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* PTST/*",
+          "engine": "Blink",
+          "properties": {
+            "Browser_Modus": "Chrome"
+          },
+          "devices": {
+            "Nexus 5": "LG Nexus 5"
+          },
+          "platforms": [
+            "Android_5_0",
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* PTST/*",
+          "engine": "Blink",
+          "device": "general Mobile Device (Touch)",
+          "properties": {
+            "Browser_Modus": "Chrome"
+          },
+          "platforms": [
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4",
+            "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}
