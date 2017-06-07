@@ -1,0 +1,49 @@
+{
+  "division": "Coc Coc Browser #MAJORVER#.#MINORVER# for Windows Phone",
+  "versions": [64, 63, 62, 61, 60, 59, 58],
+  "sortIndex": 883,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Coc Coc Browser #MAJORVER#.#MINORVER# for Windows Phone",
+      "platform": "WinPhone",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Coc Coc Browser #MAJORVER#.#MINORVER#",
+        "Browser": "Coc Coc Browser",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Coc Coc Company Limited",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE#) applewebkit* (*khtml*like*gecko*) coc_coc_browser/#MAJORVER#.* Chrome/* Safari/* Edge/*",
+          "devices": {
+            "Lumia 735": "Nokia Lumia 735"
+          },
+          "platforms": [
+            "WinPhone10"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) coc_coc_browser/#MAJORVER#.* Chrome/* Safari/* Edge/*",
+          "platforms": [
+            "WinPhone10", "WinPhone8.1",
+            "WinPhone"
+          ]
+        }
+      ]
+    }
+  ]
+}
