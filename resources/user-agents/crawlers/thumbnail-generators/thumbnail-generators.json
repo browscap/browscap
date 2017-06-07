@@ -117,6 +117,13 @@
             "Browser": "webkit2png",
             "Browser_Maker": "Paul Hammond"
           }
+        },
+        {
+          "match": "Mozilla/5.0 (*Windows*) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* (*shrinktheweb.com*",
+          "properties": {
+            "Browser": "ShrinkTheWeb Bot",
+            "Browser_Maker": "ShrinkTheWeb"
+          }
         }
       ]
     }

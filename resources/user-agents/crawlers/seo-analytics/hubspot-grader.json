@@ -28,6 +28,12 @@
           "properties": {
             "Browser": "Marketing Grader"
           }
+        },
+        {
+          "match": "Mozilla/5.0 (*Windows*) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* HubSpot Marketing Grader",
+          "properties": {
+            "Browser": "Marketing Grader"
+          }
         }
       ]
     }

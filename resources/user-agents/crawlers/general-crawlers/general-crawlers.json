@@ -2815,6 +2815,20 @@
             "Browser": "Wappalyzer",
             "Browser_Maker": "Elbert Alias"
           }
+        },
+        {
+          "match": "Mozilla/5.0 (*Windows*) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* XaxisSemanticsClassifier/*",
+          "properties": {
+            "Browser": "Xaxis Semantics Classifier",
+            "Browser_Maker": "Xaxis"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (Macintosh; Intel Mac OS X *) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* moatbot",
+          "properties": {
+            "Browser": "Moat Bot",
+            "Browser_Maker": "Moat, Inc."
+          }
         }
       ]
     }
