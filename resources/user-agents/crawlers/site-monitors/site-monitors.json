@@ -233,6 +233,13 @@
             "Browser": "PingAdmin.ru Monitor",
             "Browser_Maker": "PingAdmin.ru"
           }
+        },
+        {
+          "match": "Mozilla/5.0 (*Linux*) applewebkit/* (*khtml*like*gecko*) Chrome/* Safari/* http://notifyninja.com*",
+          "properties": {
+            "Browser": "Notify Ninja Monitor",
+            "Browser_Maker": "Notify Ninja"
+          }
         }
       ]
     }

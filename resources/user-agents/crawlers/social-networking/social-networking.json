@@ -130,6 +130,13 @@
           }
         },
         {
+          "match": "Mozilla/5.0 (*Linux*) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/*; ?collection@infegy.com",
+          "properties": {
+            "Browser": "Infegy Collection Bot",
+            "Browser_Maker": "infegy.com"
+          }
+        },
+        {
           "match": "Mozilla/5.0 (compatible; EveryoneSocialBot/1.0*",
           "properties": {
             "Browser": "EveryoneSocialBot",
