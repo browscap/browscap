@@ -1,0 +1,49 @@
+{
+  "division": "MQQBrowser #MAJORVER#.#MINORVER# HD for iOS",
+  "versions": [6, "5.8", "5.7", "5.6", "5.5", "5.4", "5.3", "5.2", "5.1", 5, "4.6", "4.5", "4.4", "4.3", "4.2", "4.1", 4],
+  "sortIndex": 1006,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "QQbrowser #MAJORVER#.#MINORVER# HD for iOS",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "QQbrowser #MAJORVER#.#MINORVER# for iOS",
+        "Browser": "QQbrowser",
+        "Browser_Type": "Browser",
+        "Browser_Maker": "Tencent Ltd.",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (iPad#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* MQQBrowser/#MAJORVER#.#MINORVER#* Mobile* Safari*",
+          "device": "iPad",
+          "platforms": [
+            "iOS_C_10_3", "iOS_C_10_2", "iOS_C_10_1", "iOS_C_10_0",
+            "iOS_C_9_3", "iOS_C_9_2", "iOS_C_9_1", "iOS_C_9_0",
+            "iOS_C_8_4", "iOS_C_8_3", "iOS_C_8_2", "iOS_C_8_1", "iOS_C_8_0",
+            "iOS_C_7_1", "iOS_C_7_0",
+            "iOS_C"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/6.0 MQQBrowser/#MAJORVER#.#MINORVER#* Mobile* Safari*",
+          "platforms": [
+            "iOS_C"
+          ]
+        }
+      ]
+    }
+  ]
+}
