@@ -57,30 +57,20 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (#PLATFORM#NOKIA; Lumia 930) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* Edge/#MAJORVER#*",
-          "device": "Nokia Lumia 930",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE#) applewebkit*(*khtml*like*gecko*) Chrome/* Safari/* Edge/#MAJORVER#*",
+          "devices": {
+            "id336*": "Microsoft Lumia 650",
+            "RM-1104*": "Microsoft RM-1104",
+            "Lumia 930": "Nokia Lumia 930"
+          },
           "platforms": [
-            "WinPhone10"
+            "WinPhone10", "WinPhone10_Continuum"
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#Microsoft; id336*) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* Edge/#MAJORVER#*",
-          "device": "Microsoft Lumia 650",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit*(*khtml*like*gecko*) Chrome/* Safari/* Edge/#MAJORVER#*",
           "platforms": [
-            "WinPhone10"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#Microsoft; RM-1104*) applewebkit*(*khtml*like*gecko*) Chrome/* Safari/* Edge/#MAJORVER#*",
-          "device": "Microsoft RM-1104",
-          "platforms": [
-            "WinPhone10"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* Edge/#MAJORVER#*",
-          "platforms": [
-            "WinPhone10"
+            "WinPhone10", "WinPhone10_Continuum"
           ]
         }
       ]

@@ -2997,6 +2997,15 @@
         "Win32": "false"
       }
     },
+    "WinPhone10_Continuum": {
+      "match": "*Windows NT 10.0*ARM;*",
+      "lite": false,
+      "standard": true,
+      "inherits": "WinPhone10",
+      "properties": {
+        "Browser_Modus": "Continuum Mode (Desktop)"
+      }
+    },
     "Android": {
       "match": "*Linux*Android*",
       "lite": true,
