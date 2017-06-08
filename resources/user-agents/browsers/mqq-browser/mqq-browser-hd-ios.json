@@ -38,7 +38,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/6.0 MQQBrowser/#MAJORVER#.#MINORVER#* Mobile* Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* MQQBrowser/#MAJORVER#.#MINORVER#* Mobile* Safari*",
           "platforms": [
             "iOS_C"
           ]
