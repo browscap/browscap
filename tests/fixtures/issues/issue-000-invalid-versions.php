@@ -1152,5 +1152,103 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-    ]
+    ],
+    // Iron is based on Chromium, which, as we know, didn't support anything less than Windows XP at launch, apparently
+    // Iron is no different. The first version that archive.org has a snapshot for (0.4) shows "XP,Vista" as the supported
+    // Windows versions: https://web.archive.org/web/20081202170334/http://www.srware.net/en/software_srware_iron_download.php
+    'issue-000-invalid-versions-BR' => [
+        'ua' => 'Mozilla/5.0 (Windows NT 5.0) AppleWebKit/536.11 (KHTML, like Gecko) Chrome/20.0.1150.1 Iron/20.0.1150.1 Safari/536.11',
+        'properties' => [
+            'Comment' => 'Iron Generic',
+            'Browser' => 'Iron',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'Win32',
+            'Platform_Version' => 'unknown',
+            'Platform_Description' => 'Windows',
+        ],
+        'lite' => false,
+        'standard' => false,
+    ],
+    // Same as above
+    'issue-000-invalid-versions-BS' => [
+        'ua' => 'Mozilla/5.0 (Windows NT 4.0) AppleWebKit/537.36 (KHTML, like Gecko) Iron/30.0.1650.0  Chrome/30.0.1650.0 Safari/537.36',
+        'properties' => [
+            'Comment' => 'Iron Generic',
+            'Browser' => 'Iron',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'Win32',
+            'Platform_Version' => 'unknown',
+            'Platform_Description' => 'Windows',
+        ],
+        'lite' => false,
+        'standard' => true,
+    ],
+    // Same as above
+    'issue-000-invalid-versions-BT' => [
+        'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Iron/3.0.197.0 Safari/532.0',
+        'properties' => [
+            'Comment' => 'Iron Generic',
+            'Browser' => 'Iron',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'Win32',
+            'Platform_Version' => 'unknown',
+            'Platform_Description' => 'Windows',
+        ],
+        'lite' => false,
+        'standard' => true,
+    ],
+    // Same as above
+    'issue-000-invalid-versions-BU' => [
+        'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US) AppleWebKit/533.4 (KHTML, like Gecko) Iron/5.0.381.0 Chrome/5.0.381 Safari/533.4',
+        'properties' => [
+            'Comment' => 'Iron Generic',
+            'Browser' => 'Iron',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'Win32',
+            'Platform_Version' => 'unknown',
+            'Platform_Description' => 'Windows',
+        ],
+        'lite' => false,
+        'standard' => true,
+    ],
+    // Same as above
+    'issue-000-invalid-versions-BV' => [
+        'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US) AppleWebKit/534.7 (KHTML, like Gecko) Iron/7.0.520.1 Chrome/7.0.520.1 Safari/534.7',
+        'properties' => [
+            'Comment' => 'Iron Generic',
+            'Browser' => 'Iron',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'Win32',
+            'Platform_Version' => 'unknown',
+            'Platform_Description' => 'Windows',
+        ],
+        'lite' => false,
+        'standard' => true,
+    ],
+    // Same as above
+    'issue-000-invalid-versions-BW' => [
+        'ua' => 'Mozilla/5.0 (Windows NT 5.0 WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Iron/26.0.1450.0 Chrome/26.0.1450.0 Safari/537.36',
+        'properties' => [
+            'Comment' => 'Iron Generic',
+            'Browser' => 'Iron',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'Win32',
+            'Platform_Version' => 'unknown',
+            'Platform_Description' => 'Windows',
+        ],
+        'lite' => false,
+        'standard' => true,
+    ],
 ];
