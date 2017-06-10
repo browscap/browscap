@@ -1,0 +1,42 @@
+{
+  "division": "Overwolf",
+  "sortIndex": 1161,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Overwolf Browser",
+      "engine": "Blink",
+      "device": "Windows Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Overwolf Browser",
+        "Browser": "Overwolf Browser",
+        "Browser_Maker": "Overwolf",
+        "Browser_Type": "Browser",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "JavaApplets": "false",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* OverwolfClient/*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win10_x64_B", "Win10_64_B", "Win10_32_B",
+            "Win8_1_64", "Win8_1_32",
+            "Win8_64", "Win8_32",
+            "Win7_64", "Win7_32",
+            "Vista_64", "Vista_32",
+            "WinXPa_64", "WinXPa_32", "WinXPb_64", "WinXPb_32",
+            "Windows"
+          ]
+        }
+      ]
+    }
+  ]
+}
