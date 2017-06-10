@@ -7,7 +7,7 @@
     {
       "userAgent": "Polarity Browser for Android",
       "platform": "Android",
-      "engine": "WebKit",
+      "engine": "Blink",
       "device": "general Mobile Device (Touch)",
       "properties": {
         "Parent": "DefaultProperties",

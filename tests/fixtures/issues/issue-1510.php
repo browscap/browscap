@@ -100,9 +100,9 @@ return [
             'Device_Pointing_Method' => 'touchscreen',
             'Device_Code_Name' => 'SM-G920F',
             'Device_Brand_Name' => 'Samsung',
-            'RenderingEngine_Name' => 'WebKit',
+            'RenderingEngine_Name' => 'Blink',
             'RenderingEngine_Version' => 'unknown',
-            'RenderingEngine_Maker' => 'Apple Inc',
+            'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
         'standard' => true,
@@ -160,7 +160,7 @@ return [
         'lite' => false,
         'standard' => true,
     ],
-    'issue-1510-E' => [
+    'issue-1510-D' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 11; Windows NT 10.0; WOW64; Trident/7.0; Polarity/7.0.0)',
         'properties' => [
             'Comment' => 'Polarity',
