@@ -1251,4 +1251,21 @@ return [
         'lite' => false,
         'standard' => true,
     ],
+    // At version 2.0, Qupzilla switched to using QT WebEngine instead of QT WebKit: https://github.com/QupZilla/qupzilla/releases/tag/v2.0.0
+    // Which apparently doesn't support Windows XP: https://github.com/QupZilla/qupzilla/issues/2220
+    'issue-000-invalid-versions-BX' => [
+        'ua' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) QupZilla/2.0.1 Chrome/45.0.2454.101 Safari/537.36',
+        'properties' => [
+            'Comment' => 'QupZilla Generic',
+            'Browser' => 'QupZilla',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'WinXP',
+            'Platform_Version' => '5.1',
+            'Platform_Description' => 'Windows XP',
+        ],
+        'lite' => false,
+        'standard' => true,
+    ],
 ];
