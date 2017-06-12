@@ -52,6 +52,7 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) QupZilla/#MAJORVER#.#MINORVER#* Chrome/* Safari/*",
           "device": "Macintosh",
           "platforms": [
+            "OSX_10_12",
             "OSX"
           ]
         },
