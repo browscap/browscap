@@ -5203,6 +5203,22 @@
         "Platform_Bits": "32"
       }
     },
+    "Haiku": {
+      "match": "*Haiku*",
+      "lite": false,
+      "standard": true,
+      "properties": {
+        "Platform": "Haiku",
+        "Platform_Maker": "Haiku, Inc.",
+        "Platform_Description": "Haiku",
+        "Platform_Version": "unknown",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
     "CygWin": {
       "match": "*CygWin*",
       "lite": false,
