@@ -22,9 +22,7 @@
         {
           "match": "Apple-PubSub/65.28*",
           "properties": {
-            "Version": "65.28",
-            "MajorVer": "65",
-            "MinorVer": "28"
+            "Version": "65.28"
           }
         },
         {

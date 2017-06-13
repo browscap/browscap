@@ -13,9 +13,6 @@
         "Browser": "Ichiro Mobile Bot",
         "Browser_Maker": "Ichiro",
         "Browser_Type": "Bot/Crawler",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
         "Crawler": "true"
       },
       "children": [

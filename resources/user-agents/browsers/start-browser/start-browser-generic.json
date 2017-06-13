@@ -18,13 +18,7 @@
         "Beta": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
-        "Browser_Maker": "Searchturbo Ltd",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3"
+        "Browser_Maker": "Searchturbo Ltd"
       },
       "children": [
         {

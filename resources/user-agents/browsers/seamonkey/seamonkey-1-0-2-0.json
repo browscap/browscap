@@ -15,15 +15,7 @@
         "Browser": "SeaMonkey",
         "Browser_Maker": "Mozilla Foundation",
         "Browser_Type": "Browser",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "2"
+        "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
         {

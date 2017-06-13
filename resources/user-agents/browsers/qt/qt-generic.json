@@ -13,13 +13,7 @@
         "Parent": "DefaultProperties",
         "Browser_Type": "Browser",
         "Comment": "Qt Generic",
-        "Browser": "Qt",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3"
+        "Browser": "Qt"
       },
       "children": [
         {
@@ -53,13 +47,7 @@
         "Browser_Type": "Browser",
         "Comment": "Qt Generic for Desktop",
         "Browser": "Qt",
-        "Browser_Type": "Browser",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3"
+        "Browser_Type": "Browser"
       },
       "children": [
         {

@@ -14,34 +14,26 @@
         "Comment": "Kindle",
         "Browser": "Kindle",
         "Browser_Maker": "Amazon.com, Inc.",
-        "Browser_Type": "Browser",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "CssVersion": "2"
+        "Browser_Type": "Browser"
       },
       "children": [
         {
           "match": "Mozilla/5.0 (Linux*U;*)*applewebkit*(*khtml*like*gecko,*safari*) Version/4.0 Kindle/3.0*",
           "properties": {
-            "Version": "3.0",
-            "MajorVer": "3"
+            "Version": "3.0"
           }
         },
         {
           "match": "Mozilla/5.0 (Linux; U*) applewebkit* (*khtml*like*gecko,*safari*Version/4.0 Kindle/3.0*",
           "properties": {
-            "Version": "3.0",
-            "MajorVer": "3"
+            "Version": "3.0"
           }
         },
         {
           "match": "Mozilla/5.0 (Linux*; Android 2.3*Kindle Fire*) applewebkit* (*khtml*like*gecko*) Version/4.0*Safari/*",
           "properties": {
             "Comment": "Kindle Fire",
-            "Version": "4.0",
-            "MajorVer": "4"
+            "Version": "4.0"
           },
           "device": "Amazon Kindle Fire",
           "platforms": [
@@ -51,8 +43,7 @@
         {
           "match": "Mozilla/5.0 (X11; U; Linux armv* like Android; *) applewebkit* (*khtml*like*gecko*) Version/5.0 Safari/* Kindle/3.*",
           "properties": {
-            "Version": "5.0",
-            "MajorVer": "5"
+            "Version": "5.0"
           },
           "device": "Amazon Kindle 3",
           "platforms": [
@@ -64,8 +55,7 @@
           "properties": {
             "Comment": "Kindle Fire",
             "Browser": "Kindle Fire",
-            "Version": "4.0",
-            "MajorVer": "4"
+            "Version": "4.0"
           },
           "device": "Amazon Kindle Fire",
           "platforms": [

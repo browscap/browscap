@@ -14,15 +14,10 @@
         "Comment": "Tweetbot is a full-featured Twitter app",
         "Alpha": "false",
         "Beta": "false",
-        "Cookies": "false",
-        "JavaScript": "false",
         "isSyndicationReader": "false",
         "Browser": "Tweetbot",
         "Browser_Type": "Application",
         "Browser_Maker": "Tapbots, LLC",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
         "Crawler": "false"
       },
       "children": [

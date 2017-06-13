@@ -11,18 +11,13 @@
         "Comment": "Mahalobot",
         "Browser": "Mahalobot",
         "Browser_Type": "Bot/Crawler",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
         "Crawler": "true"
       },
       "children": [
         {
           "match": "Mahalobot/1.0 (?http://www.mahalo.com/)",
           "properties": {
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {

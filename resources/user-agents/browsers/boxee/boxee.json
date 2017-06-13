@@ -12,20 +12,13 @@
         "Parent": "DefaultProperties",
         "Comment": "Boxee",
         "Browser": "Boxee",
-        "Browser_Maker": "Boxee, Inc.",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true"
+        "Browser_Maker": "Boxee, Inc."
       },
       "children": [
         {
           "match": "Mozilla/5.0 (*Linux*) applewebkit* (*khtml*like*gecko*) Boxee/1.0.*",
           "properties": {
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {
@@ -38,17 +31,13 @@
           "match": "curl/* (Linux * intel.*dlink.dsm380*; beta) boxee/1.2*",
           "device": "D-Link DSM 380",
           "properties": {
-            "Version": "1.2",
-            "MajorVer": "1",
-            "MinorVer": "2"
+            "Version": "1.2"
           }
         },
         {
           "match": "curl/* (Linux * intel.*dlink.dsm*; beta) boxee/1.*",
           "properties": {
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {

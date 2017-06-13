@@ -11,20 +11,13 @@
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Bolt",
-        "Browser": "Bolt",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3"
+        "Browser": "Bolt"
       },
       "children": [
         {
           "match": "Mozilla/5.0 (X11; 78; CentOS; US-en) applewebkit* (*khtml*like*gecko*) Bolt/0.862 Version/3.0 Safari/*",
           "properties": {
-            "Version": "0.862",
-            "MinorVer": "862"
+            "Version": "0.862"
           },
           "platforms": [
             "Maemo"

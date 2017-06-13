@@ -17,61 +17,43 @@
         "Alpha": "false",
         "Beta": "false",
         "isSyndicationReader": "false",
-        "Crawler": "false",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "2"
+        "Crawler": "false"
       },
       "children": [
         {
           "match": "Arexx (*compatible*;*MSIE 6.0; AmigaOS*) IBrowse 4.0*",
           "properties": {
-            "Version": "4.0",
-            "MajorVer": "4",
-            "MinorVer": "0"
+            "Version": "4.0"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; IBrowse 3.0; AmigaOS*",
           "properties": {
-            "Version": "3.0",
-            "MajorVer": "3",
-            "MinorVer": "0"
+            "Version": "3.0"
           }
         },
         {
           "match": "IBrowse/1.22 (AmigaOS *)",
           "properties": {
-            "Version": "1.22",
-            "MajorVer": "1",
-            "MinorVer": "22"
+            "Version": "1.22"
           }
         },
         {
           "match": "IBrowse/2.1 (AmigaOS *)",
           "properties": {
-            "Version": "2.1",
-            "MajorVer": "2",
-            "MinorVer": "1"
+            "Version": "2.1"
           }
         },
         {
           "match": "IBrowse/2.2 (AmigaOS *)",
           "properties": {
-            "Version": "2.2",
-            "MajorVer": "2",
-            "MinorVer": "2"
+            "Version": "2.2"
           }
         },
         {
           "match": "IBrowse/2.2 (Windows 3.1)",
           "properties": {
-            "Version": "2.2",
-            "MajorVer": "2",
-            "MinorVer": "2"
+            "Version": "2.2"
           },
           "platforms": [
             "Win3.1"
@@ -80,17 +62,13 @@
         {
           "match": "IBrowse/2.3 (AmigaOS *)",
           "properties": {
-            "Version": "2.2",
-            "MajorVer": "2",
-            "MinorVer": "2"
+            "Version": "2.2"
           }
         },
         {
           "match": "Mozilla/* (Win98; I) IBrowse/2.1 (AmigaOS 3.1)",
           "properties": {
-            "Version": "2.1",
-            "MajorVer": "2",
-            "MinorVer": "1"
+            "Version": "2.1"
           },
           "platforms": [
             "Win98"
@@ -99,9 +77,7 @@
         {
           "match": "Mozilla/* (Win98; I) IBrowse/2.2 (AmigaOS 3.1)",
           "properties": {
-            "Version": "2.2",
-            "MajorVer": "2",
-            "MinorVer": "2"
+            "Version": "2.2"
           },
           "platforms": [
             "Win98"
@@ -110,9 +86,7 @@
         {
           "match": "Mozilla/* (Win98; I) IBrowse/2.3 (AmigaOS 3.1)",
           "properties": {
-            "Version": "2.3",
-            "MajorVer": "2",
-            "MinorVer": "3"
+            "Version": "2.3"
           },
           "platforms": [
             "Win98"
@@ -121,26 +95,20 @@
         {
           "match": "IBrowse/2.4 (AmigaOS *)",
           "properties": {
-            "Version": "2.4",
-            "MajorVer": "2",
-            "MinorVer": "4"
+            "Version": "2.4"
           }
         },
         {
           "match": "IBrowse/2.5 (AmigaOS *)",
           "properties": {
-            "Version": "2.5",
-            "MajorVer": "2",
-            "MinorVer": "5"
+            "Version": "2.5"
           }
         },
         {
           "match": "iBrowse/2.60 CFNetwork/*",
           "device": "Macintosh",
           "properties": {
-            "Version": "2.6",
-            "MajorVer": "2",
-            "MinorVer": "6"
+            "Version": "2.6"
           },
           "platforms": [
             "Darwin"

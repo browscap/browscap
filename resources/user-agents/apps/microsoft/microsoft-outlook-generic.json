@@ -16,11 +16,7 @@
         "Browser_Maker": "Microsoft Corporation",
         "Alpha": "false",
         "Beta": "false",
-        "IFrames": "false",
-        "Cookies": "false",
         "Crawler": "false",
-        "CssVersion": "2",
-        "JavaScript": "false",
         "isSyndicationReader": "false"
       },
       "children": [

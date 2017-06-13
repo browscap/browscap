@@ -12,9 +12,6 @@
         "Browser": "Yahoo",
         "Browser_Type": "Bot/Crawler",
         "Browser_Maker": "Yahoo! Inc.",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
         "Crawler": "true"
       },
       "children": [
@@ -47,9 +44,7 @@
           "match": "Mozilla/5.0 (Yahoo-MMCrawler/4.*; mailto:vertical-crawl-support@yahoo-inc.com)",
           "properties": {
             "Browser": "Yahoo-MMCrawler",
-            "Version": "4.0",
-            "MajorVer": "4",
-            "MinorVer": "0"
+            "Version": "4.0"
           }
         },
         {
@@ -85,9 +80,7 @@
         {
           "match": "Scooter/3.3*",
           "properties": {
-            "Version": "3.3",
-            "MajorVer": "3",
-            "MinorVer": "3"
+            "Version": "3.3"
           }
         },
         {

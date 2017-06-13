@@ -12,18 +12,13 @@
         "Browser": "uMBot",
         "Browser_Type": "Bot/Crawler",
         "Browser_Maker": "ubermetrics-technologies.com",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
         "Crawler": "true"
       },
       "children": [
         {
           "match": "Mozilla/5.0 (compatible; uMBot-LN/1.0*",
           "properties": {
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {
@@ -32,9 +27,7 @@
         {
           "match": "Mozilla/5.0 (compatible; uMBot-FC/1.0*",
           "properties": {
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {
@@ -43,9 +36,7 @@
         {
           "match": "Mozilla/5.0 (compatible; um-LN/1.0*",
           "properties": {
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {

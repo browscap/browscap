@@ -18,9 +18,7 @@
         {
           "match": "UnityPlayer/4.3*",
           "properties": {
-            "Version": "4.3",
-            "MajorVer": "4",
-            "MinorVer": "3"
+            "Version": "4.3"
           }
         },
         {

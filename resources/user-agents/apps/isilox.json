@@ -13,15 +13,7 @@
         "Comment": "iSiloX #MAJORVER#.#MINORVER#",
         "Browser": "iSiloX",
         "Browser_Type": "Application",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "2"
+        "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
         {

@@ -14,9 +14,6 @@
         "Browser_Maker": "Microsoft Corporation",
         "Comment": "MSN",
         "Browser": "Windows Phone Search",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
         "Crawler": "true"
       },
       "children": [

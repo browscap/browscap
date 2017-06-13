@@ -14,8 +14,6 @@
         "Comment": "iLunascape #MAJORVER#.#MINORVER#",
         "Browser": "iLunascape",
         "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
         "Browser_Type": "Browser",
         "Browser_Maker": "Lunascape Corporation",
         "Alpha": "false",

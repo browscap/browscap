@@ -14,8 +14,6 @@
         "Comment": "AppleCoreMedia #MAJORVER#.#MINORVER#",
         "Browser": "AppleCoreMedia",
         "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
         "Browser_Type": "Application",
         "Browser_Maker": "Apple Inc",
         "Crawler": "false"

@@ -17,17 +17,13 @@
         {
           "match": "urlgrabber/3.9*",
           "properties": {
-            "Version": "3.9",
-            "MajorVer": "3",
-            "MinorVer": "9"
+            "Version": "3.9"
           }
         },
         {
           "match": "urlgrabber/3.10*",
           "properties": {
-            "Version": "3.10",
-            "MajorVer": "3",
-            "MinorVer": "10"
+            "Version": "3.10"
           }
         },
         {

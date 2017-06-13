@@ -12,10 +12,6 @@
         "Browser": "Google Web Preview",
         "Browser_Maker": "Google Inc",
         "Browser_Type": "Bot/Crawler",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "JavaScript": "true",
         "Crawler": "true"
       },
       "children": [

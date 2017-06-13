@@ -15,9 +15,7 @@
         "Comment": "MusicDownloader #MAJORVER#.#MINORVER#",
         "Browser": "MusicDownloader",
         "Browser_Type": "Multimedia Player",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#"
+        "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
         {

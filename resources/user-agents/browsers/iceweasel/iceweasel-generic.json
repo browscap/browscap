@@ -14,13 +14,7 @@
         "Comment": "Iceweasel Generic",
         "Browser": "Iceweasel",
         "Browser_Type": "Browser",
-        "Browser_Maker": "Software in the Public Interest, Inc.",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "2"
+        "Browser_Maker": "Software in the Public Interest, Inc."
       },
       "children": [
         {

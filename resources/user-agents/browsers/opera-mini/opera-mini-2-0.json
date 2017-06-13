@@ -15,15 +15,7 @@
         "Browser": "Opera Mini",
         "Browser_Maker": "Opera Software ASA",
         "Browser_Type": "Browser",
-        "Version": "2.0",
-        "MajorVer": "2",
-        "MinorVer": "0",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "1"
+        "Version": "2.0"
       },
       "children": [
         {

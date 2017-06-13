@@ -17,9 +17,7 @@
         {
           "match": "DCPbot/1.2*",
           "properties": {
-            "Version": "1.2",
-            "MajorVer": "1",
-            "MinorVer": "2"
+            "Version": "1.2"
           }
         },
         {

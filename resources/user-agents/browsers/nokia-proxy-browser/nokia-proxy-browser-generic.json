@@ -14,12 +14,7 @@
         "Comment": "Nokia Proxy Browser Generic",
         "Browser": "Nokia Proxy Browser",
         "Browser_Type": "Browser",
-        "Browser_Maker": "Nokia",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true"
+        "Browser_Maker": "Nokia"
       },
       "children": [
         {

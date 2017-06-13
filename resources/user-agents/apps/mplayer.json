@@ -17,18 +17,14 @@
           "match": "MPlayer 0.9*",
           "properties": {
             "Browser": "MPlayer",
-            "Version": "0.9",
-            "MajorVer": "0",
-            "MinorVer": "9"
+            "Version": "0.9"
           }
         },
         {
           "match": "MPlayer 1.*",
           "properties": {
             "Browser": "MPlayer",
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {

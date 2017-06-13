@@ -17,8 +17,7 @@
         {
           "match": "SynapticSearch/AI Crawler 1.*",
           "properties": {
-            "Version": "1.0",
-            "MajorVer": "1"
+            "Version": "1.0"
           }
         },
         {

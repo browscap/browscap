@@ -13,13 +13,7 @@
         "Comment": "Teleca-Obigo",
         "Browser": "Teleca-Obigo",
         "Browser_Maker": "Obigo",
-        "Browser_Type": "Browser",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "1"
+        "Browser_Type": "Browser"
       },
       "children": [
         {
@@ -73,49 +67,37 @@
         {
           "match": "*ObigoInternetBrowser/2*",
           "properties": {
-            "Version": "2.0",
-            "MajorVer": "2",
-            "MinorVer": "0"
+            "Version": "2.0"
           }
         },
         {
           "match": "*Obigo Browser 2*",
           "properties": {
-            "Version": "2.0",
-            "MajorVer": "2",
-            "MinorVer": "0"
+            "Version": "2.0"
           }
         },
         {
           "match": "*Teleca-Obigo 2*",
           "properties": {
-            "Version": "2.0",
-            "MajorVer": "2",
-            "MinorVer": "0"
+            "Version": "2.0"
           }
         },
         {
           "match": "*Browser/Obigo-Browser/3*",
           "properties": {
-            "Version": "3.0",
-            "MajorVer": "3",
-            "MinorVer": "0"
+            "Version": "3.0"
           }
         },
         {
           "match": "*TelecaBrowser/4*",
           "properties": {
-            "Version": "4.0",
-            "MajorVer": "4",
-            "MinorVer": "0"
+            "Version": "4.0"
           }
         },
         {
           "match": "*Obigo/Q7*",
           "properties": {
-            "Version": "7.0",
-            "MajorVer": "7",
-            "MinorVer": "0"
+            "Version": "7.0"
           }
         },
         {
@@ -175,9 +157,7 @@
         {
           "match": "AU-MIC/1.1*",
           "properties": {
-            "Version": "1.1",
-            "MajorVer": "1",
-            "MinorVer": "1"
+            "Version": "1.1"
           }
         },
         {
@@ -186,9 +166,7 @@
             "CODACOM C100": "Godacom C100"
           },
           "properties": {
-            "Version": "1.1",
-            "MajorVer": "1",
-            "MinorVer": "1"
+            "Version": "1.1"
           }
         },
         {
@@ -197,24 +175,19 @@
             "LG-KG99": "LG KG99"
           },
           "properties": {
-            "Version": "1.1",
-            "MajorVer": "1",
-            "MinorVer": "1"
+            "Version": "1.1"
           }
         },
         {
           "match": "TSM-6/Teleca/1.1*",
           "properties": {
-            "Version": "1.1",
-            "MajorVer": "1",
-            "MinorVer": "1"
+            "Version": "1.1"
           }
         },
         {
           "match": "AU-MIC/2.0 MMP/2.0*",
           "properties": {
-            "Version": "2.0",
-            "MajorVer": "2"
+            "Version": "2.0"
           }
         },
         {
@@ -223,9 +196,7 @@
             "LG-G1800": "LG G1800"
           },
           "properties": {
-            "Version": "4.1",
-            "MajorVer": "4",
-            "MinorVer": "1"
+            "Version": "4.1"
           }
         },
         {

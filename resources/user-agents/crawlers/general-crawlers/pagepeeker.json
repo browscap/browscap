@@ -13,9 +13,6 @@
         "Browser": "PagePeeker",
         "Browser_Type": "Bot/Crawler",
         "Browser_Maker": "pagepeeker SRL",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
         "Crawler": "true"
       },
       "children": [
@@ -23,9 +20,7 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Chrome/* Safari/* PagePeeker/2.1*",
           "device": "Linux Desktop",
           "properties": {
-            "Version": "2.1",
-            "MajorVer": "2",
-            "MinorVer": "1"
+            "Version": "2.1"
           },
           "platforms": [
             "Linux_64", "Linux"

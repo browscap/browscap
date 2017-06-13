@@ -18,9 +18,7 @@
         {
           "match": "Mozilla/5.0 (compatible; TweetedTimes Bot/1.0*",
           "properties": {
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {

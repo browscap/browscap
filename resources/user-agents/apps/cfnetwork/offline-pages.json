@@ -14,9 +14,6 @@
         "Comment": "Offline Pages",
         "Browser": "Offline Pages",
         "Browser_Type": "Application",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
         "Crawler": "false"
       },
       "children": [

@@ -15,13 +15,10 @@
         "Browser": "Huawei",
         "Browser_Type": "Browser",
         "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
         "Alpha": "false",
         "Beta": "false",
         "isSyndicationReader": "false",
-        "Crawler": "false",
-        "CssVersion": "1"
+        "Crawler": "false"
       },
       "children": [
         {

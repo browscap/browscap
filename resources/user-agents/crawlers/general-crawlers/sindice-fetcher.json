@@ -12,17 +12,13 @@
         "Browser": "Sindice Fetcher",
         "Browser_Maker": "Sindice",
         "Browser_Type": "Bot/Crawler",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
         "Crawler": "true"
       },
       "children": [
         {
           "match": "Mozilla/5.0 (compatible; sindice-fetcher/0.1*",
           "properties": {
-            "Version": "0.1",
-            "MinorVer": "1"
+            "Version": "0.1"
           }
         },
         {

@@ -16,12 +16,7 @@
         "Browser_Maker": "KDE e.V.",
         "Alpha": "false",
         "Beta": "false",
-        "Cookies": "false",
-        "JavaScript": "false",
         "isSyndicationReader": "false",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
         "Crawler": "false"
       },
       "children": [

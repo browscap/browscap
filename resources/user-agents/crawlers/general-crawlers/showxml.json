@@ -17,8 +17,7 @@
         {
           "match": "ShowXML/1.0*",
           "properties": {
-            "Version": "1.0",
-            "MajorVer": "1"
+            "Version": "1.0"
           }
         },
         {

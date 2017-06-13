@@ -13,22 +13,14 @@
         "Comment": "Quora App",
         "Browser": "Quora App",
         "Browser_Type": "Application",
-        "Browser_Maker": "Quora, Inc.",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3"
+        "Browser_Maker": "Quora, Inc."
       },
       "children": [
         {
           "match": "Quora 4.0* rv:* (iPhone#PLATFORM#",
           "device": "iPhone",
           "properties": {
-            "Version": "4.0",
-            "MajorVer": "4",
-            "MinorVer": "0"
+            "Version": "4.0"
           },
           "platforms": [
             "iOS_K_8_1", "iOS_K_8_0", "iOS_K"
@@ -38,9 +30,7 @@
           "match": "Quora 4.1* rv:* (iPhone#PLATFORM#",
           "device": "iPhone",
           "properties": {
-            "Version": "4.1",
-            "MajorVer": "4",
-            "MinorVer": "1"
+            "Version": "4.1"
           },
           "platforms": [
             "iOS_K_8_1", "iOS_K_8_0", "iOS_K"
@@ -57,9 +47,7 @@
           "match": "Quora 4.0* rv:* (iPad#PLATFORM#",
           "device": "iPad",
           "properties": {
-            "Version": "4.0",
-            "MajorVer": "4",
-            "MinorVer": "0"
+            "Version": "4.0"
           },
           "platforms": [
             "iOS_K_8_1", "iOS_K_8_0", "iOS_K"
@@ -69,9 +57,7 @@
           "match": "Quora 4.1* rv:* (iPad#PLATFORM#",
           "device": "iPad",
           "properties": {
-            "Version": "4.1",
-            "MajorVer": "4",
-            "MinorVer": "1"
+            "Version": "4.1"
           },
           "platforms": [
             "iOS_K_8_1", "iOS_K_8_0", "iOS_K"
@@ -87,9 +73,7 @@
         {
           "match": "Quora 4.0* rv:* (#PLATFORM#",
           "properties": {
-            "Version": "4.0",
-            "MajorVer": "4",
-            "MinorVer": "0"
+            "Version": "4.0"
           },
           "platforms": [
             "iOS_K_8_1", "iOS_K_8_0", "iOS_K"
@@ -98,9 +82,7 @@
         {
           "match": "Quora 4.1* rv:* (#PLATFORM#",
           "properties": {
-            "Version": "4.1",
-            "MajorVer": "4",
-            "MinorVer": "1"
+            "Version": "4.1"
           },
           "platforms": [
             "iOS_K_8_1", "iOS_K_8_0", "iOS_K"

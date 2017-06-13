@@ -14,13 +14,7 @@
         "Comment": "Facebook App for iOS",
         "Browser": "Facebook App",
         "Browser_Type": "Application",
-        "Browser_Maker": "Facebook",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3"
+        "Browser_Maker": "Facebook"
       },
       "children": [
         {
@@ -103,13 +97,7 @@
         "Comment": "Facebook App for Android",
         "Browser": "Facebook App",
         "Browser_Type": "Application",
-        "Browser_Maker": "Facebook",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3"
+        "Browser_Maker": "Facebook"
       },
       "children": [
         {
@@ -838,13 +826,7 @@
         "Comment": "Facebook App",
         "Browser": "Facebook App",
         "Browser_Type": "Application",
-        "Browser_Maker": "Facebook",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3"
+        "Browser_Maker": "Facebook"
       },
       "children": [
         {

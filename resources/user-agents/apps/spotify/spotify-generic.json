@@ -23,11 +23,6 @@
             "OSX"
           ],
           "properties": {
-            "Frames": "true",
-            "IFrames": "true",
-            "Tables": "true",
-            "Cookies": "true",
-            "JavaScript": "true",
             "CssVersion": "3"
           }
         },
@@ -35,9 +30,7 @@
           "match": "*Spotify/1.0*",
           "properties": {
             "Browser": "Spotify",
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {

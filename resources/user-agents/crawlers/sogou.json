@@ -12,8 +12,6 @@
         "Browser": "Sogou",
         "Browser_Type": "Bot/Crawler",
         "Browser_Maker": "Sogou Inc",
-        "Frames": "true",
-        "Tables": "true",
         "Crawler": "true"
       },
       "children": [
@@ -78,9 +76,7 @@
           "match": "Sogou web spider/4.0*",
           "properties": {
             "Browser": "Sogou Web Spider",
-            "Version": "4.0",
-            "MajorVer": "4",
-            "MinorVer": "0"
+            "Version": "4.0"
           }
         },
         {
@@ -93,9 +89,7 @@
           "match": "New-Sogou-Spider/1.*",
           "properties": {
             "Browser": "Sogou Spider",
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {

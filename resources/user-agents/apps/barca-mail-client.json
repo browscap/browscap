@@ -16,11 +16,6 @@
         "Browser_Maker": "Poco Systems Inc.",
         "Alpha": "false",
         "Beta": "false",
-        "Frames": "false",
-        "IFrames": "false",
-        "Tables": "false",
-        "Cookies": "false",
-        "JavaScript": "false",
         "isSyndicationReader": "false",
         "Crawler": "false"
       },
@@ -28,24 +23,19 @@
         {
           "match": "Barca/1.4*",
           "properties": {
-            "Version": "1.4",
-            "MajorVer": "1",
-            "MinorVer": "4"
+            "Version": "1.4"
           }
         },
         {
           "match": "Barca/2.0*",
           "properties": {
-            "Version": "2.0",
-            "MajorVer": "2"
+            "Version": "2.0"
           }
         },
         {
           "match": "Barca/2.8*",
           "properties": {
-            "Version": "2.8",
-            "MajorVer": "2",
-            "MinorVer": "8"
+            "Version": "2.8"
           }
         },
         {
@@ -54,17 +44,13 @@
         {
           "match": "BarcaPro/2.8*",
           "properties": {
-            "Version": "2.8",
-            "MajorVer": "2",
-            "MinorVer": "8"
+            "Version": "2.8"
           }
         },
         {
           "match": "BarcaPro/1.4*",
           "properties": {
-            "Version": "1.4",
-            "MajorVer": "1",
-            "MinorVer": "4"
+            "Version": "1.4"
           }
         },
         {

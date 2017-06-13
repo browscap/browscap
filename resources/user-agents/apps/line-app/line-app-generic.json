@@ -13,15 +13,9 @@
         "Parent": "DefaultProperties",
         "Browser_Maker": "Line Corporation",
         "Browser_Type": "Application",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
         "Crawler": "false",
         "Comment": "Line App",
-        "Browser": "Line App",
-        "CssVersion": "3"
+        "Browser": "Line App"
       },
       "children": [
         {
@@ -68,15 +62,9 @@
         "Parent": "DefaultProperties",
         "Browser_Maker": "Line Corporation",
         "Browser_Type": "Application",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
         "Crawler": "false",
         "Comment": "Line App",
-        "Browser": "Line App",
-        "CssVersion": "3"
+        "Browser": "Line App"
       },
       "children": [
         {

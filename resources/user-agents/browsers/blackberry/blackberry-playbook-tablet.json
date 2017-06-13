@@ -14,28 +14,19 @@
         "Comment": "BlackBerry Playbook Tablet",
         "Browser_Maker": "Research In Motion Limited",
         "Browser_Type": "Browser",
-        "Frames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "2",
         "Browser": "Blackberry Playbook Tablet"
       },
       "children": [
         {
           "match": "Mozilla/5.0 (PlayBook; U; RIM Tablet OS 1.0*) applewebkit* (*khtml*like*gecko*) Version/7.1*Safari/*",
           "properties": {
-            "Version": "7.1",
-            "MajorVer": "7",
-            "MinorVer": "1"
+            "Version": "7.1"
           }
         },
         {
           "match": "Mozilla/5.0 (PlayBook; U; RIM Tablet OS 2.0*) applewebkit* (*khtml*like*gecko*) Version/7.2*Safari/*",
           "properties": {
-            "Version": "7.2",
-            "MajorVer": "7",
-            "MinorVer": "2"
+            "Version": "7.2"
           },
           "platforms": [
             "RIM_Tablet_OS_2_0"
@@ -50,9 +41,7 @@
         {
           "match": "Mozilla/5.0 (PlayBook; U; RIM Tablet OS 2.1*) applewebkit* (*khtml*like*gecko*) Version/7.2*Safari/*",
           "properties": {
-            "Version": "7.2",
-            "MajorVer": "7",
-            "MinorVer": "2"
+            "Version": "7.2"
           },
           "platforms": [
             "RIM_Tablet_OS_2_1"

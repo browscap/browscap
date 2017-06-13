@@ -16,16 +16,13 @@
         "Alpha": "false",
         "Beta": "false",
         "isSyndicationReader": "false",
-        "Crawler": "false",
-        "CssVersion": "3"
+        "Crawler": "false"
       },
       "children": [
         {
           "match": "Mozilla/5.0 (Windows NT 6.1; WOW64) applewebkit* (*khtml*like*gecko*) Origin/9.3* Safari/*",
           "properties": {
-            "Version": "9.3",
-            "MajorVer": "9",
-            "MinorVer": "3"
+            "Version": "9.3"
           },
           "platforms": [
             "Win7_64"

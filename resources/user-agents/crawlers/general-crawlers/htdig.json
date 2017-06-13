@@ -17,9 +17,7 @@
         {
           "match": "htdig/3.1*",
           "properties": {
-            "Version": "3.1",
-            "MajorVer": "3",
-            "MinorVer": "1"
+            "Version": "3.1"
           }
         },
         {

@@ -13,12 +13,7 @@
         "Comment": "Wire App Generic",
         "Browser": "Wire App",
         "Browser_Type": "Application",
-        "Browser_Maker": "Wire Swiss GmbH",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true"
+        "Browser_Maker": "Wire Swiss GmbH"
       },
       "children": [
         {

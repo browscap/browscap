@@ -16,15 +16,7 @@
         "Browser": "2345 Explorer",
         "Browser_Type": "Browser",
         "Browser_Maker": "2345.com",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3"
+        "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
         {

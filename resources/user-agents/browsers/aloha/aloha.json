@@ -15,13 +15,7 @@
         "Browser": "Aloha Browser",
         "Browser_Maker": "Aloha Mobile Ltd",
         "Browser_Type": "Browser",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "JavaApplets": "false",
-        "CssVersion": "3"
+        "JavaApplets": "false"
       },
       "children": [
         {
@@ -80,13 +74,7 @@
         "Browser": "Aloha Browser",
         "Browser_Maker": "Aloha Mobile Ltd",
         "Browser_Type": "Browser",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "JavaApplets": "false",
-        "CssVersion": "3"
+        "JavaApplets": "false"
       },
       "children": [
         {

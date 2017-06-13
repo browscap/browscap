@@ -20,9 +20,7 @@
         {
           "match": "Mozilla/5.0 (iPhone#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Safari/* VLC for iOS/2.7*",
           "properties": {
-            "Version": "2.7",
-            "MajorVer": "2",
-            "MinorVer": "7"
+            "Version": "2.7"
           },
           "device": "iPhone",
           "platforms": [
@@ -32,9 +30,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Safari/* VLC for iOS/2.7*",
           "properties": {
-            "Version": "2.7",
-            "MajorVer": "2",
-            "MinorVer": "7"
+            "Version": "2.7"
           },
           "platforms": [
             "iOS_C_7_0", "iOS_C"

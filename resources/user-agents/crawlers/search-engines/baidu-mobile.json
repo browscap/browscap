@@ -13,9 +13,6 @@
         "Browser": "Baidu Mobile Search",
         "Browser_Maker": "Baidu",
         "Browser_Type": "Bot/Crawler",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
         "Crawler": "true"
       },
       "children": [

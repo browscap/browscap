@@ -12,9 +12,6 @@
         "Browser": "Y!J-AGENT",
         "Browser_Type": "Bot/Crawler",
         "Browser_Maker": "Yahoo!JAPAN",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
         "Crawler": "true"
       },
       "children": [

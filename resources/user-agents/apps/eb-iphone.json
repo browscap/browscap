@@ -17,11 +17,6 @@
         "Browser_Maker": "unknown",
         "Alpha": "false",
         "Beta": "false",
-        "Frames": "false",
-        "IFrames": "false",
-        "Tables": "false",
-        "Cookies": "false",
-        "JavaScript": "false",
         "Crawler": "false"
       },
       "children": [
@@ -29,9 +24,7 @@
           "match": "eb-iphone/3.8* (#PLATFORM#iPad) Mobile",
           "device": "iPad",
           "properties": {
-            "Version": "3.8",
-            "MajorVer": "3",
-            "MinorVer": "8"
+            "Version": "3.8"
           },
           "platforms": [
             "iOS_E_7_0", "iOS_E_7_1", "iOS_E_8_0", "iOS_E_8_1"
@@ -40,9 +33,7 @@
         {
           "match": "eb-iphone/3.8* (#PLATFORM#) Mobile",
           "properties": {
-            "Version": "3.8",
-            "MajorVer": "3",
-            "MinorVer": "8"
+            "Version": "3.8"
           },
           "platforms": [
             "iOS_E_7_0", "iOS_E_7_1", "iOS_E_8_0", "iOS_E_8_1"

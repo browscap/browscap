@@ -12,13 +12,7 @@
         "Comment": "Avant Generic Tricore",
         "Browser": "Avant",
         "Browser_Type": "Browser",
-        "Browser_Maker": "Avant Force",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "2"
+        "Browser_Maker": "Avant Force"
       },
       "children": [
         {

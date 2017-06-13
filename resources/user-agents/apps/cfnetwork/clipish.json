@@ -15,11 +15,6 @@
         "Browser_Type": "Application",
         "Alpha": "false",
         "Beta": "false",
-        "Frames": "false",
-        "IFrames": "false",
-        "Tables": "false",
-        "Cookies": "false",
-        "JavaScript": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
         "Browser": "Clipish"
@@ -28,9 +23,7 @@
         {
           "match": "Clipish/9.26* CFNetwork/*",
           "properties": {
-            "Version": "9.26",
-            "MajorVer": "9",
-            "MinorVer": "26"
+            "Version": "9.26"
           },
           "platforms": [
             "Darwin"

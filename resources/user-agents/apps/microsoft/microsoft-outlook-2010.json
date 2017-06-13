@@ -16,14 +16,6 @@
         "Browser_Type": "Email Client",
         "Browser_Maker": "Microsoft Corporation",
         "Version": "#MAJORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "0",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "2",
         "isSyndicationReader": "false"
       },
       "children": [

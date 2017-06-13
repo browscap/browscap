@@ -17,9 +17,7 @@
         {
           "match": "Roku/DVP-6.2*",
           "properties": {
-            "Version": "6.2",
-            "MajorVer": "6",
-            "MinorVer": "2"
+            "Version": "6.2"
           }
         },
         {

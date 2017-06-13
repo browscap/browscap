@@ -12,18 +12,13 @@
         "Browser": "TurnitinBot",
         "Browser_Type": "Bot/Crawler",
         "Browser_Maker": "Turnitin LLC",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
         "Crawler": "true"
       },
       "children": [
         {
           "match": "TurnitinBot/2.1*",
           "properties": {
-            "Version": "2.1",
-            "MajorVer": "2",
-            "MinorVer": "1"
+            "Version": "2.1"
           }
         },
         {

@@ -18,8 +18,7 @@
         "Alpha": "false",
         "Beta": "false",
         "isSyndicationReader": "false",
-        "Crawler": "false",
-        "CssVersion": "3"
+        "Crawler": "false"
       },
       "children": [
         {

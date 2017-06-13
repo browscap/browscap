@@ -19,9 +19,7 @@
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* (FlipboardProxy/1.1*",
           "device": "Linux Desktop",
           "properties": {
-            "Version": "1.1",
-            "MajorVer": "1",
-            "MinorVer": "1"
+            "Version": "1.1"
           },
           "platforms": [
             "ChromeOS", "Linux_64", "Linux_32", "Linux"
@@ -31,9 +29,7 @@
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* (FlipboardProxy/1.1*",
           "device": "Windows Desktop",
           "properties": {
-            "Version": "1.1",
-            "MajorVer": "1",
-            "MinorVer": "1"
+            "Version": "1.1"
           },
           "platforms": [
             "Win8_1_64", "Win8_1_32",
@@ -49,9 +45,7 @@
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* (FlipboardProxy/1.1*",
           "device": "Macintosh",
           "properties": {
-            "Version": "1.1",
-            "MajorVer": "1",
-            "MinorVer": "1"
+            "Version": "1.1"
           },
           "platforms": [
             "OSX_10_4", "OSX_10_5", "OSX_10_6", "OSX_10_7", "OSX_10_8", "OSX_10_9", "OSX_10_10",

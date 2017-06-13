@@ -12,8 +12,6 @@
         "Browser": "DotBot",
         "Browser_Type": "Bot/Crawler",
         "Browser_Maker": "SEOmoz, Inc.",
-        "Frames": "true",
-        "Tables": "true",
         "Crawler": "true"
       },
       "children": [
@@ -23,9 +21,7 @@
         {
           "match": "Mozilla/5.0 (compatible; DotBot/1.1*",
           "properties": {
-            "Version": "1.1",
-            "MajorVer": "1",
-            "MinorVer": "1"
+            "Version": "1.1"
           }
         },
         {

@@ -16,13 +16,7 @@
         "Alpha": "false",
         "Beta": "false",
         "isSyndicationReader": "false",
-        "Crawler": "false",
-        "CssVersion": "3",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true"
+        "Crawler": "false"
       },
       "children": [
         {
@@ -161,13 +155,7 @@
         "Comment": "PaleMoon Generic",
         "Browser": "PaleMoon",
         "Browser_Maker": "Moonchild Productions",
-        "Browser_Type": "Browser",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3"
+        "Browser_Type": "Browser"
       },
       "children": [
         {

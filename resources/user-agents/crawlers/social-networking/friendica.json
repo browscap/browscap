@@ -18,17 +18,13 @@
         {
           "match": "Friendica '*' 3.4*",
           "properties": {
-            "Version": "3.4",
-            "MajorVer": "3",
-            "MinorVer": "4"
+            "Version": "3.4"
           }
         },
         {
           "match": "Friendica '*' 3.3*",
           "properties": {
-            "Version": "3.3",
-            "MajorVer": "3",
-            "MinorVer": "3"
+            "Version": "3.3"
           }
         },
         {

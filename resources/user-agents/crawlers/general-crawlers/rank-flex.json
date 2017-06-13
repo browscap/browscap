@@ -12,9 +12,6 @@
         "Browser": "RankFlex",
         "Browser_Maker": "rankflex.com",
         "Browser_Type": "Bot/Crawler",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
         "Crawler": "true"
       },
       "children": [

@@ -15,10 +15,7 @@
         "Browser": "CaptiveNetworkAgent",
         "Browser_Maker": "Apple Inc",
         "Browser_Type": "Bot/Crawler",
-        "Crawler": "true",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true"
+        "Crawler": "true"
       },
       "children": [
         {

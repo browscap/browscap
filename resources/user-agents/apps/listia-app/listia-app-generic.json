@@ -13,15 +13,9 @@
         "Parent": "DefaultProperties",
         "Browser_Maker": "Listia Inc.",
         "Browser_Type": "Application",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
         "Crawler": "false",
         "Comment": "Listia App",
-        "Browser": "Listia App",
-        "CssVersion": "3"
+        "Browser": "Listia App"
       },
       "children": [
         {

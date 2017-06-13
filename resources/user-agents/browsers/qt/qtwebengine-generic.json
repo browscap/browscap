@@ -13,13 +13,7 @@
         "Browser_Type": "Browser",
         "Comment": "QtWebEngine Generic",
         "Browser": "QtWebEngine",
-        "Browser_Type": "Browser",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3"
+        "Browser_Type": "Browser"
       },
       "children": [
         {
