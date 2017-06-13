@@ -285,6 +285,96 @@
         "Platform_Version": "10.12"
       }
     },
+    "OSX_C": {
+      "match": "*MacOS X*",
+      "lite": true,
+      "standard": true,
+      "properties": {
+        "Platform": "MacOSX",
+        "Platform_Description": "Mac OS X",
+        "Platform_Maker": "Apple Inc",
+        "Platform_Bits": "32",
+        "Platform_Version": "10",
+        "Browser_Bits": "32",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false"
+      }
+    },
+    "OSX_C_10_5": {
+      "match": "*MacOS X 10?5*",
+      "lite": false,
+      "standard": false,
+      "inherits": "OSX",
+      "properties": {
+        "Platform_Version": "10.5"
+      }
+    },
+    "OSX_C_10_6": {
+      "match": "*MacOS X 10?6*",
+      "lite": false,
+      "standard": false,
+      "inherits": "OSX",
+      "properties": {
+        "Platform_Version": "10.6"
+      }
+    },
+    "OSX_C_10_7": {
+      "match": "*MacOS X 10?7*",
+      "lite": false,
+      "standard": false,
+      "inherits": "OSX",
+      "properties": {
+        "Platform_Version": "10.7"
+      }
+    },
+    "OSX_C_10_8": {
+      "match": "*MacOS X 10?8*",
+      "lite": false,
+      "standard": false,
+      "inherits": "OSX",
+      "properties": {
+        "Platform_Version": "10.8"
+      }
+    },
+    "OSX_C_10_9": {
+      "match": "*MacOS X 10?9*",
+      "lite": false,
+      "standard": true,
+      "inherits": "OSX",
+      "properties": {
+        "Platform_Version": "10.9"
+      }
+    },
+    "OSX_C_10_10": {
+      "match": "*MacOS X 10?10*",
+      "lite": false,
+      "standard": true,
+      "inherits": "OSX",
+      "properties": {
+        "Platform_Version": "10.10"
+      }
+    },
+    "OSX_C_10_11": {
+      "match": "*MacOS X 10?11*",
+      "lite": false,
+      "standard": true,
+      "inherits": "OSX",
+      "properties": {
+        "Platform_Version": "10.11"
+      }
+    },
+    "OSX_C_10_12": {
+      "match": "*MacOS X 10?12*",
+      "lite": false,
+      "standard": true,
+      "inherits": "OSX",
+      "properties": {
+        "Platform": "macOS",
+        "Platform_Description": "macOS",
+        "Platform_Version": "10.12"
+      }
+    },
     "OSX_PPC": {
       "match": "*PPC* Mac OS X*",
       "lite": false,
