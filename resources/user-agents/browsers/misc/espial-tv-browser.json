@@ -16,19 +16,15 @@
         "Browser_Maker": "Espial Group",
         "Alpha": "false",
         "Beta": "false",
-        "JavaScript": "false",
         "isSyndicationReader": "false",
-        "Crawler": "false",
-        "CssVersion": "2"
+        "Crawler": "false"
       },
       "children": [
         {
           "match": "Mozilla/5.0 (DTV) applewebkit* (*khtml*like*gecko*) Espial/6.1* AQUOSBrowser/?.? (*DTV;V;0001;0001)*",
           "device": "Sharp Aquos TV",
           "properties": {
-            "Version": "6.1",
-            "MajorVer": "6",
-            "MinorVer": "1"
+            "Version": "6.1"
           }
         }
       ]

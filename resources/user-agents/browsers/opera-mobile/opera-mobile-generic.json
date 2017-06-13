@@ -13,13 +13,7 @@
         "Comment": "Opera Mobile Generic",
         "Browser": "Opera Mobile",
         "Browser_Maker": "Opera Software ASA",
-        "Browser_Type": "Browser",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "CssVersion": "1",
-        "JavaScript": "true"
+        "Browser_Type": "Browser"
       },
       "children": [
         {
@@ -116,13 +110,7 @@
         "Comment": "Opera Mobile Generic for Android",
         "Browser": "Opera Mobile",
         "Browser_Maker": "Opera Software ASA",
-        "Browser_Type": "Browser",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "CssVersion": "1",
-        "JavaScript": "true"
+        "Browser_Type": "Browser"
       },
       "children": [
         {

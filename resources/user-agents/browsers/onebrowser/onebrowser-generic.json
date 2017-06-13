@@ -12,13 +12,7 @@
         "Parent": "DefaultProperties",
         "Comment": "OneBrowser Generic",
         "Browser": "OneBrowser",
-        "Browser_Type": "Browser",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3"
+        "Browser_Type": "Browser"
       },
       "children": [
         {

@@ -15,11 +15,6 @@
         "Browser_Type": "Browser",
         "Alpha": "false",
         "Beta": "false",
-        "Frames": "false",
-        "IFrames": "false",
-        "Tables": "false",
-        "Cookies": "false",
-        "JavaScript": "false",
         "isSyndicationReader": "false",
         "Crawler": "false"
       },
@@ -27,25 +22,19 @@
         {
           "match": "Doris/1.10 * (Symbian)",
           "properties": {
-            "Version": "1.10",
-            "MajorVer": "1",
-            "MinorVer": "10"
+            "Version": "1.10"
           }
         },
         {
           "match": "Doris/1.15 * (Symbian)",
           "properties": {
-            "Version": "1.15",
-            "MajorVer": "1",
-            "MinorVer": "15"
+            "Version": "1.15"
           }
         },
         {
           "match": "Doris/1.17 * (Symbian)",
           "properties": {
-            "Version": "1.17",
-            "MajorVer": "1",
-            "MinorVer": "17"
+            "Version": "1.17"
           }
         }
       ]

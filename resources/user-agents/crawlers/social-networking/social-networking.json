@@ -100,9 +100,7 @@
           "properties": {
             "Browser": "Embedly",
             "Browser_Maker": "embed.ly",
-            "Version": "0.2",
-            "MajorVer": "0",
-            "MinorVer": "2"
+            "Version": "0.2"
           }
         },
         {
@@ -117,9 +115,7 @@
           "properties": {
             "Browser": "Socialradar Bot",
             "Browser_Maker": "infegy.com",
-            "Version": "2.0",
-            "MajorVer": "2",
-            "MinorVer": "0"
+            "Version": "2.0"
           }
         },
         {
@@ -141,9 +137,7 @@
           "properties": {
             "Browser": "EveryoneSocialBot",
             "Browser_Maker": "EveryoneSocial",
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {
@@ -172,9 +166,7 @@
           "properties": {
             "Browser": "InfegyAtlas",
             "Browser_Maker": "infegy.com",
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {
@@ -189,9 +181,7 @@
           "properties": {
             "Browser": "QuickiWiki Bot",
             "Browser_Maker": "QuickiWiki",
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {
@@ -213,9 +203,7 @@
           "properties": {
             "Browser": "SeeBot",
             "Browser_Maker": "Seegnify",
-            "Version": "2.0",
-            "MajorVer": "2",
-            "MinorVer": "0"
+            "Version": "2.0"
           }
         },
         {
@@ -230,9 +218,7 @@
           "properties": {
             "Browser": "Kraken",
             "Browser_Maker": "Linkfluence SAS",
-            "Version": "0.1",
-            "MajorVer": "0",
-            "MinorVer": "1"
+            "Version": "0.1"
           }
         },
         {
@@ -247,9 +233,7 @@
           "properties": {
             "Browser": "Qwantify",
             "Browser_Maker": "QWANT SAS",
-            "Version": "2.0",
-            "MajorVer": "2",
-            "MinorVer": "0"
+            "Version": "2.0"
           }
         },
         {
@@ -264,9 +248,7 @@
           "properties": {
             "Browser": "NING",
             "Browser_Maker": "Ning, Inc.",
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {
@@ -281,9 +263,7 @@
           "properties": {
             "Browser": "Sprinklr",
             "Browser_Maker": "SPRINKLR INC.",
-            "Version": "2.0",
-            "MajorVer": "2",
-            "MinorVer": "0"
+            "Version": "2.0"
           }
         },
         {
@@ -312,9 +292,7 @@
           "properties": {
             "Browser": "Twikle Bot",
             "Browser_Maker": "The NATEVIA Company",
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {
@@ -356,9 +334,7 @@
           "properties": {
             "Browser": "Leadify Bot",
             "Browser_Maker": "Greenbowl Island (Pty) Ltd",
-            "Version": "1.01",
-            "MajorVer": "1",
-            "MinorVer": "01"
+            "Version": "1.01"
           }
         },
         {
@@ -380,9 +356,7 @@
           "properties": {
             "Browser": "Veooz Bot",
             "Browser_Maker": "Veooz Labs",
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {

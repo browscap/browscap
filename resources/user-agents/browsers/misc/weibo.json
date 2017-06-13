@@ -16,14 +16,8 @@
         "Browser_Maker": "Sina Corporation",
         "Alpha": "false",
         "Beta": "false",
-        "JavaScript": "false",
         "isSyndicationReader": "false",
-        "Crawler": "false",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "CssVersion": "3"
+        "Crawler": "false"
       },
       "children": [
         {

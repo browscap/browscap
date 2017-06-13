@@ -12,12 +12,7 @@
         "Comment": "SmartViera Generic",
         "Browser": "SmartViera",
         "Browser_Type": "Browser",
-        "Browser_Maker": "Panasonic",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "CssVersion": "2"
+        "Browser_Maker": "Panasonic"
       },
       "children": [
         {

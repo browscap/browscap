@@ -63,18 +63,14 @@
           "device": "general Mobile Device",
           "properties": {
             "Browser": "Hatena-Mobile-Gateway",
-            "Version": "1.2",
-            "MajorVer": "1",
-            "MinorVer": "2"
+            "Version": "1.2"
           }
         },
         {
           "match": "Hatena::Bookmark/2.00*",
           "properties": {
             "Browser": "Hatena::Bookmark",
-            "Version": "2.0",
-            "MajorVer": "2",
-            "MinorVer": "0"
+            "Version": "2.0"
           }
         }
       ]

@@ -11,8 +11,6 @@
         "Comment": "Convera",
         "Browser": "Convera",
         "Browser_Type": "Bot/Crawler",
-        "Frames": "true",
-        "Tables": "true",
         "Crawler": "true"
       },
       "children": [
@@ -20,9 +18,7 @@
           "match": "ConveraMultiMediaCrawler/0.1*",
           "properties": {
             "Browser": "ConveraMultiMediaCrawler",
-            "Version": "0.1",
-            "MajorVer": "0",
-            "MinorVer": "1"
+            "Version": "0.1"
           }
         },
         {
@@ -40,49 +36,37 @@
         {
           "match": "ConveraCrawler/0.4*",
           "properties": {
-            "Version": "0.4",
-            "MajorVer": "0",
-            "MinorVer": "4"
+            "Version": "0.4"
           }
         },
         {
           "match": "ConveraCrawler/0.5*",
           "properties": {
-            "Version": "0.5",
-            "MajorVer": "0",
-            "MinorVer": "5"
+            "Version": "0.5"
           }
         },
         {
           "match": "ConveraCrawler/0.6*",
           "properties": {
-            "Version": "0.6",
-            "MajorVer": "0",
-            "MinorVer": "6"
+            "Version": "0.6"
           }
         },
         {
           "match": "ConveraCrawler/0.7*",
           "properties": {
-            "Version": "0.7",
-            "MajorVer": "0",
-            "MinorVer": "7"
+            "Version": "0.7"
           }
         },
         {
           "match": "ConveraCrawler/0.8*",
           "properties": {
-            "Version": "0.8",
-            "MajorVer": "0",
-            "MinorVer": "8"
+            "Version": "0.8"
           }
         },
         {
           "match": "ConveraCrawler/0.9*",
           "properties": {
-            "Version": "0.9",
-            "MajorVer": "0",
-            "MinorVer": "9"
+            "Version": "0.9"
           }
         },
         {

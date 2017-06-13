@@ -21,9 +21,7 @@
           "properties": {
             "Browser": "BoardReader Favicon Fetcher",
             "isSyndicationReader": "false",
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {

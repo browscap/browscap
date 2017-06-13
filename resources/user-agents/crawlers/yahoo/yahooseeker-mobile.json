@@ -13,10 +13,7 @@
         "Browser": "YahooSeeker-Mobile",
         "Browser_Type": "Bot/Crawler",
         "Browser_Maker": "Yahoo! Inc.",
-        "IFrames": "false",
-        "Crawler": "true",
-        "Frames": "false",
-        "Tables": "false"
+        "Crawler": "true"
       },
       "children": [
         {

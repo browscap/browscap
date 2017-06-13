@@ -28,9 +28,7 @@
             "Browser": "PECL HTTP",
             "Browser_Maker": "unknown",
             "Browser_Type": "Bot/Crawler",
-            "Version": "1.6",
-            "MajorVer": "1",
-            "MinorVer": "6"
+            "Version": "1.6"
           }
         },
         {
@@ -39,9 +37,7 @@
             "Browser": "PECL HTTP",
             "Browser_Maker": "unknown",
             "Browser_Type": "Bot/Crawler",
-            "Version": "1.7",
-            "MajorVer": "1",
-            "MinorVer": "7"
+            "Version": "1.7"
           }
         },
         {
@@ -70,41 +66,31 @@
         {
           "match": "PHP-SOAP/5.2*",
           "properties": {
-            "Version": "5.2",
-            "MajorVer": "5",
-            "MinorVer": "2"
+            "Version": "5.2"
           }
         },
         {
           "match": "PHP-SOAP/5.3*",
           "properties": {
-            "Version": "5.3",
-            "MajorVer": "5",
-            "MinorVer": "3"
+            "Version": "5.3"
           }
         },
         {
           "match": "PHP-SOAP/5.4*",
           "properties": {
-            "Version": "5.4",
-            "MajorVer": "5",
-            "MinorVer": "4"
+            "Version": "5.4"
           }
         },
         {
           "match": "PHP-SOAP/5.5*",
           "properties": {
-            "Version": "5.5",
-            "MajorVer": "5",
-            "MinorVer": "5"
+            "Version": "5.5"
           }
         },
         {
           "match": "PHP-SOAP/5.6*",
           "properties": {
-            "Version": "5.6",
-            "MajorVer": "5",
-            "MinorVer": "6"
+            "Version": "5.6"
           }
         },
         {
@@ -130,41 +116,31 @@
         {
           "match": "PHP/5.2*",
           "properties": {
-            "Version": "5.2",
-            "MajorVer": "5",
-            "MinorVer": "2"
+            "Version": "5.2"
           }
         },
         {
           "match": "PHP/5.3*",
           "properties": {
-            "Version": "5.3",
-            "MajorVer": "5",
-            "MinorVer": "3"
+            "Version": "5.3"
           }
         },
         {
           "match": "PHP/5.4*",
           "properties": {
-            "Version": "5.4",
-            "MajorVer": "5",
-            "MinorVer": "4"
+            "Version": "5.4"
           }
         },
         {
           "match": "PHP/5.5*",
           "properties": {
-            "Version": "5.5",
-            "MajorVer": "5",
-            "MinorVer": "5"
+            "Version": "5.5"
           }
         },
         {
           "match": "PHP/5.6*",
           "properties": {
-            "Version": "5.6",
-            "MajorVer": "5",
-            "MinorVer": "6"
+            "Version": "5.6"
           }
         },
         {
@@ -175,9 +151,7 @@
           "properties": {
             "Browser": "Guzzle Http Client",
             "Browser_Maker": "Michael Dowling",
-            "Version": "6.1",
-            "MajorVer": "6",
-            "MinorVer": "1"
+            "Version": "6.1"
           }
         },
         {
@@ -192,9 +166,7 @@
           "properties": {
             "Browser": "Guzzle Http Client",
             "Browser_Maker": "Michael Dowling",
-            "Version": "4.2",
-            "MajorVer": "4",
-            "MinorVer": "2"
+            "Version": "4.2"
           }
         },
         {

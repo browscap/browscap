@@ -13,13 +13,7 @@
         "Comment": "Coda",
         "Browser": "Coda",
         "Browser_Type": "Application",
-        "Browser_Maker": "Panic Software",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3"
+        "Browser_Maker": "Panic Software"
       },
       "children": [
         {

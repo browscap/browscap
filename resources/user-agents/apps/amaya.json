@@ -11,48 +11,37 @@
         "Parent": "DefaultProperties",
         "Comment": "Amaya",
         "Browser": "Amaya",
-        "Browser_Type": "Application",
-        "Frames": "true",
-        "Tables": "true"
+        "Browser_Type": "Application"
       },
       "children": [
         {
           "match": "amaya/7.*",
           "properties": {
-            "Version": "7.0",
-            "MajorVer": "7"
+            "Version": "7.0"
           }
         },
         {
           "match": "amaya/8.*",
           "properties": {
-            "Version": "8.0",
-            "MajorVer": "8",
-            "CssVersion": "2"
+            "Version": "8.0"
           }
         },
         {
           "match": "amaya/9.*",
           "properties": {
-            "Version": "9.0",
-            "MajorVer": "9",
-            "CssVersion": "2"
+            "Version": "9.0"
           }
         },
         {
           "match": "amaya/10.*",
           "properties": {
-            "Version": "10.0",
-            "MajorVer": "10",
-            "CssVersion": "2"
+            "Version": "10.0"
           }
         },
         {
           "match": "amaya/11.*",
           "properties": {
-            "Version": "11.0",
-            "MajorVer": "11",
-            "CssVersion": "2"
+            "Version": "11.0"
           }
         }
       ]

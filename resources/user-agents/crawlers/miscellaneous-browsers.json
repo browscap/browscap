@@ -51,9 +51,6 @@
           "match": "EVE-minibrowser/*",
           "properties": {
             "Browser": "EVE-minibrowser",
-            "IFrames": "false",
-            "Tables": "false",
-            "JavaScript": "false",
             "Crawler": "false"
           }
         },
@@ -66,21 +63,13 @@
         {
           "match": "GreenBrowser",
           "properties": {
-            "Browser": "GreenBrowser",
-            "Frames": "true",
-            "IFrames": "true",
-            "Tables": "true",
-            "Cookies": "true",
-            "JavaScript": "true",
-            "CssVersion": "2"
+            "Browser": "GreenBrowser"
           }
         },
         {
           "match": "Kopiczek/* (WyderOS*; *)",
           "properties": {
-            "Browser": "Kopiczek",
-            "IFrames": "true",
-            "CssVersion": "2"
+            "Browser": "Kopiczek"
           },
           "platforms": [
             "WyderOS"
@@ -129,9 +118,7 @@
           "match": "ogeb browser , Version 1.1.0",
           "properties": {
             "Browser": "ogeb browser",
-            "Version": "1.1",
-            "MajorVer": "1",
-            "MinorVer": "1"
+            "Version": "1.1"
           }
         },
         {
@@ -144,10 +131,7 @@
           "match": "WWW_Browser/*",
           "properties": {
             "Browser": "WWW Browser",
-            "Version": "1.69",
-            "MajorVer": "1",
-            "MinorVer": "69",
-            "CssVersion": "3"
+            "Version": "1.69"
           },
           "platforms": [
             "Win16"
@@ -164,9 +148,7 @@
           "properties": {
             "Browser": "WEB.DE MailCheck",
             "Browser_Maker": "1 & 1",
-            "Version": "2.4",
-            "MajorVer": "2",
-            "MinorVer": "4"
+            "Version": "2.4"
           }
         },
         {
@@ -181,9 +163,7 @@
           "properties": {
             "Browser": "GMX MailCheck",
             "Browser_Maker": "1 & 1",
-            "Version": "2.3",
-            "MajorVer": "2",
-            "MinorVer": "3"
+            "Version": "2.3"
           }
         },
         {
@@ -191,9 +171,7 @@
           "properties": {
             "Browser": "GMX MailCheck",
             "Browser_Maker": "1 & 1",
-            "Version": "2.4",
-            "MajorVer": "2",
-            "MinorVer": "4"
+            "Version": "2.4"
           }
         },
         {

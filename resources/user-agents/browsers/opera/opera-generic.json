@@ -12,13 +12,7 @@
         "Comment": "Opera Generic",
         "Browser": "Opera",
         "Browser_Maker": "Opera Software ASA",
-        "Browser_Type": "Browser",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "1"
+        "Browser_Type": "Browser"
       },
       "children": [
         {

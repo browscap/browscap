@@ -13,17 +13,13 @@
         "Comment": "WordPress App",
         "Browser": "WordPress App",
         "Browser_Type": "Application",
-        "Browser_Maker": "wordpress.org",
-        "Frames": "true",
-        "Tables": "true"
+        "Browser_Maker": "wordpress.org"
       },
       "children": [
         {
           "match": "wp-iphone/4.4 (#PLATFORM#, iPad) Mobile*",
           "properties": {
-            "Version": "4.4",
-            "MajorVer": "4",
-            "MinorVer": "4"
+            "Version": "4.4"
           },
           "device": "iPad",
           "platforms": [
@@ -41,9 +37,7 @@
           "match": "wp-iphone/4.4 (#PLATFORM#) Mobile*",
           "device": "general Mobile Device (Apple)",
           "properties": {
-            "Version": "4.4",
-            "MajorVer": "4",
-            "MinorVer": "4"
+            "Version": "4.4"
           },
           "platforms": [
             "iOS_K_8_0", "iOS_K"
@@ -60,9 +54,7 @@
           "match": "wp-android/3.0* (#PLATFORM#GT-N7100/*",
           "device": "Samsung GT-N7100",
           "properties": {
-            "Version": "3.0",
-            "MajorVer": "3",
-            "MinorVer": "0"
+            "Version": "3.0"
           },
           "platforms": [
             "Android_H_4_4"
@@ -78,9 +70,7 @@
         {
           "match": "wp-android/3.0* (#PLATFORM#",
           "properties": {
-            "Version": "3.0",
-            "MajorVer": "3",
-            "MinorVer": "0"
+            "Version": "3.0"
           },
           "platforms": [
             "Android_H_4_4", "Android_H"

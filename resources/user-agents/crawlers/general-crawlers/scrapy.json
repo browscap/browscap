@@ -18,9 +18,7 @@
         {
           "match": "Scrapy/0.16*",
           "properties": {
-            "Version": "0.16",
-            "MajorVer": "0",
-            "MinorVer": "16"
+            "Version": "0.16"
           }
         },
         {

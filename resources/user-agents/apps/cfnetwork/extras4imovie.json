@@ -15,11 +15,6 @@
         "Browser_Type": "Application",
         "Alpha": "false",
         "Beta": "false",
-        "Frames": "false",
-        "IFrames": "false",
-        "Tables": "false",
-        "Cookies": "false",
-        "JavaScript": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
         "Browser": "Extras4iMovie"
@@ -28,9 +23,7 @@
         {
           "match": "Extras4iMovie/9.07* CFNetwork/*",
           "properties": {
-            "Version": "9.07",
-            "MajorVer": "9",
-            "MinorVer": "07"
+            "Version": "9.07"
           },
           "platforms": [
             "Darwin"
@@ -39,9 +32,7 @@
         {
           "match": "Extras4iMovie/9.* CFNetwork/*",
           "properties": {
-            "Version": "9.0",
-            "MajorVer": "9",
-            "MinorVer": "0"
+            "Version": "9.0"
           },
           "platforms": [
             "Darwin"

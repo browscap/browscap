@@ -49,9 +49,7 @@
           "properties": {
             "Browser": "gosquared-thumbnailer",
             "Browser_Maker": "Go Squared Ltd.",
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {
@@ -72,9 +70,7 @@
           "match": "Thumbor/3.14*",
           "properties": {
             "Browser": "Thumbor",
-            "Version": "3.14",
-            "MajorVer": "3",
-            "MinorVer": "14"
+            "Version": "3.14"
           }
         },
         {

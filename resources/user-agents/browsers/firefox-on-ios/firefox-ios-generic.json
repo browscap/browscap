@@ -14,13 +14,7 @@
         "Comment": "Firefox Generic for iOS",
         "Browser": "Firefox for iOS",
         "Browser_Maker": "Mozilla Foundation",
-        "Browser_Type": "Browser",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3"
+        "Browser_Type": "Browser"
       },
       "children": [
         {

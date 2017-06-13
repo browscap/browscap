@@ -11,29 +11,19 @@
         "Comment": "OpenOffice",
         "Browser": "OpenOffice",
         "Browser_Type": "Application",
-        "Browser_Maker": "The Apache Software Foundation",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "2"
+        "Browser_Maker": "The Apache Software Foundation"
       },
       "children": [
         {
           "match": "OpenOffice/4.0*",
           "properties": {
-            "Version": "4.0",
-            "MajorVer": "4",
-            "MinorVer": "0"
+            "Version": "4.0"
           }
         },
         {
           "match": "OpenOffice/4.1*",
           "properties": {
-            "Version": "4.1",
-            "MajorVer": "4",
-            "MinorVer": "1"
+            "Version": "4.1"
           }
         },
         {
@@ -42,9 +32,7 @@
         {
           "match": "Apache OpenOffice/4.1*",
           "properties": {
-            "Version": "4.1",
-            "MajorVer": "4",
-            "MinorVer": "1"
+            "Version": "4.1"
           }
         },
         {

@@ -11,8 +11,6 @@
         "Comment": "Gigabot",
         "Browser": "Gigabot",
         "Browser_Type": "Bot/Crawler",
-        "Frames": "true",
-        "Tables": "true",
         "Crawler": "true"
       },
       "children": [

@@ -14,13 +14,7 @@
         "Comment": "Camino Generic",
         "Browser": "Camino",
         "Browser_Type": "Browser",
-        "Browser_Maker": "Mozilla Foundation",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "2"
+        "Browser_Maker": "Mozilla Foundation"
       },
       "children": [
         {

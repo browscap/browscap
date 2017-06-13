@@ -15,18 +15,13 @@
         "Browser_Maker": "Microsoft Corporation",
         "Comment": "Bing",
         "Browser": "Bing",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
         "Crawler": "false"
       },
       "children": [
         {
           "match": "Bing/2.2* CFNetwork/*",
           "properties": {
-            "Version": "2.2",
-            "MajorVer": "2",
-            "MinorVer": "2"
+            "Version": "2.2"
           },
           "platforms": [
             "Darwin"

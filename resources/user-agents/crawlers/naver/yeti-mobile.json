@@ -12,8 +12,6 @@
         "Comment": "NaverBot",
         "Browser_Type": "Bot/Crawler",
         "Browser_Maker": "NHN Corporation",
-        "Frames": "true",
-        "Tables": "true",
         "Crawler": "true",
         "Browser": "NaverBot Mobile"
       },

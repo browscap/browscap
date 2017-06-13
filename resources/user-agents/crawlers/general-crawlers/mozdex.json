@@ -11,18 +11,13 @@
         "Comment": "Mozdex",
         "Browser": "Mozdex",
         "Browser_Type": "Bot/Crawler",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
         "Crawler": "true"
       },
       "children": [
         {
           "match": "Mozdex/0.7*",
           "properties": {
-            "Version": "0.7",
-            "MajorVer": "0",
-            "MinorVer": "7"
+            "Version": "0.7"
           }
         },
         {

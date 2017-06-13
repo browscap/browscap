@@ -14,12 +14,7 @@
         "Comment": "iCab Mobile Generic",
         "Browser": "iCab Mobile",
         "Browser_Type": "Browser",
-        "Browser_Maker": "Alexander Clauss",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true"
+        "Browser_Maker": "Alexander Clauss"
       },
       "children": [
         {

@@ -12,9 +12,6 @@
         "Browser": "Goldfire Server",
         "Browser_Maker": "Invention Machine Corporation",
         "Browser_Type": "Bot/Crawler",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
         "Crawler": "true"
       },
       "children": [

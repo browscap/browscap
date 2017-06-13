@@ -11,8 +11,6 @@
         "Comment": "Internet Content Rating Association",
         "Browser": "Internet Content Rating Association",
         "Browser_Type": "Bot/Crawler",
-        "Frames": "true",
-        "Tables": "true",
         "Crawler": "true"
       },
       "children": [

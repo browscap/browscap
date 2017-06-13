@@ -12,9 +12,6 @@
         "Browser_Type": "Bot/Crawler",
         "Browser": "Typhoeus",
         "Browser_Maker": "Hans Hasselberg",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
         "Crawler": "true"
       },
       "children": [

@@ -15,12 +15,7 @@
         "Browser": "CFNetwork",
         "Browser_Type": "Application",
         "Browser_Maker": "Apple Inc",
-        "Crawler": "false",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true"
+        "Crawler": "false"
       },
       "children": [
         {
@@ -180,12 +175,7 @@
         "Browser": "CFNetwork",
         "Browser_Type": "Application",
         "Browser_Maker": "Apple Inc",
-        "Crawler": "false",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true"
+        "Crawler": "false"
       },
       "children": [
         {
@@ -381,12 +371,7 @@
         "Browser": "CFNetwork",
         "Browser_Type": "Application",
         "Browser_Maker": "Apple Inc",
-        "Crawler": "false",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true"
+        "Crawler": "false"
       },
       "children": [
         {

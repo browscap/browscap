@@ -16,11 +16,6 @@
         "Browser_Maker": "Google Inc",
         "Alpha": "false",
         "Beta": "false",
-        "Cookies": "false",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "JavaScript": "true",
         "isSyndicationReader": "false",
         "Crawler": "false"
       },
@@ -28,9 +23,7 @@
         {
           "match": "Mozilla/5.0 (compatible; Google Desktop/5.9*)",
           "properties": {
-            "Version": "5.9",
-            "MajorVer": "5",
-            "MinorVer": "9"
+            "Version": "5.9"
           }
         },
         {

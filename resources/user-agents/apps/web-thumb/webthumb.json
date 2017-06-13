@@ -20,9 +20,7 @@
           "engine": "Gecko_1_9_2",
           "device": "Linux Desktop",
           "properties": {
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           },
           "platforms": [
             "Linux_32_on_x64_2", "Linux"

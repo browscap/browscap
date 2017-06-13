@@ -12,8 +12,6 @@
         "Browser_Type": "Bot/Crawler",
         "Browser_Maker": "NHN Corporation",
         "Browser": "NaverBot",
-        "Frames": "true",
-        "Tables": "true",
         "Crawler": "true"
       },
       "children": [
@@ -32,9 +30,7 @@
         {
           "match": "Yeti/1.0*",
           "properties": {
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {
@@ -43,9 +39,7 @@
         {
           "match": "Mozilla/5.0 (compatible; Yeti/1.1*",
           "properties": {
-            "Version": "1.1",
-            "MajorVer": "1",
-            "MinorVer": "1"
+            "Version": "1.1"
           }
         },
         {

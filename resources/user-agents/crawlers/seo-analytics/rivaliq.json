@@ -14,12 +14,6 @@
         "Browser": "Rival IQ Bot",
         "Browser_Type": "Bot/Crawler",
         "Browser_Maker": "Rival IQ Corporation",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3",
         "Crawler": "true"
       },
       "children": [

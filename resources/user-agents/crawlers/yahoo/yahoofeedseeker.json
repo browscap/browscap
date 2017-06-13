@@ -13,9 +13,6 @@
         "Browser_Type": "Bot/Crawler",
         "Browser_Maker": "Yahoo! Inc.",
         "Crawler": "true",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
         "isSyndicationReader": "true"
       },
       "children": [

@@ -15,9 +15,7 @@
         "Browser_Type": "Application",
         "Crawler": "false",
         "Browser": "Android Download Manager",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#"
+        "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
         {

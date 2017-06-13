@@ -13,9 +13,7 @@
         "Browser": "Zune",
         "Browser_Type": "Multimedia Player",
         "Browser_Maker": "Microsoft Corporation",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#"
+        "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
         {

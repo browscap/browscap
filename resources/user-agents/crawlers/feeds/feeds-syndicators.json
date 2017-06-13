@@ -31,27 +31,21 @@
           "match": "AideRSS/1.0 (aiderss.com)*",
           "properties": {
             "Browser": "AideRSS",
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {
           "match": "AideRSS 2.* (postrank.com)*",
           "properties": {
             "Browser": "AideRSS",
-            "Version": "2.0",
-            "MajorVer": "2",
-            "MinorVer": "0"
+            "Version": "2.0"
           }
         },
         {
           "match": "AideRSS/2.0 (aiderss.com)*",
           "properties": {
             "Browser": "AideRSS",
-            "Version": "2.0",
-            "MajorVer": "2",
-            "MinorVer": "0"
+            "Version": "2.0"
           }
         },
         {
@@ -101,18 +95,14 @@
           "match": "FeedGhost/1.*",
           "properties": {
             "Browser": "FeedGhost",
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {
           "match": "FeedOnFeeds/0.1.*",
           "properties": {
             "Browser": "FeedOnFeeds",
-            "Version": "0.1",
-            "MajorVer": "0",
-            "MinorVer": "1"
+            "Version": "0.1"
           }
         },
         {
@@ -137,9 +127,7 @@
           "match": "GreatNews/1.0*",
           "properties": {
             "Browser": "GreatNews",
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {
@@ -152,9 +140,7 @@
           "match": "Gregarius/0.5*",
           "properties": {
             "Browser": "Gregarius",
-            "Version": "0.5",
-            "MajorVer": "0",
-            "MinorVer": "5"
+            "Version": "0.5"
           }
         },
         {
@@ -185,9 +171,7 @@
           "match": "Liferea/1.*",
           "properties": {
             "Browser": "Liferea",
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {
@@ -200,9 +184,7 @@
           "match": "livedoor FeedFetcher/0.01*",
           "properties": {
             "Browser": "livedoor FeedFetcher",
-            "Version": "0.01",
-            "MajorVer": "0",
-            "MinorVer": "01"
+            "Version": "0.01"
           }
         },
         {
@@ -215,18 +197,14 @@
           "match": "MagpieRSS/0.72*",
           "properties": {
             "Browser": "MagpieRSS",
-            "Version": "0.72",
-            "MajorVer": "0",
-            "MinorVer": "72"
+            "Version": "0.72"
           }
         },
         {
           "match": "MagpieRSS/0.7*",
           "properties": {
             "Browser": "MagpieRSS",
-            "Version": "0.7",
-            "MajorVer": "0",
-            "MinorVer": "7"
+            "Version": "0.7"
           }
         },
         {
@@ -382,9 +360,7 @@
           "match": "RssBar/1.2*",
           "properties": {
             "Browser": "RssBar",
-            "Version": "1.2",
-            "MajorVer": "1",
-            "MinorVer": "2"
+            "Version": "1.2"
           }
         },
         {
@@ -428,9 +404,7 @@
           "properties": {
             "Browser": "Genieo RSS Reader",
             "Browser_Maker": "Genieo",
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {
@@ -445,9 +419,7 @@
           "properties": {
             "Browser": "FeedBlitz",
             "Browser_Maker": "FeedBlitz.com",
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {
@@ -462,9 +434,7 @@
           "properties": {
             "Browser": "RSS2HTML",
             "Browser_Maker": "NotePage, Inc.",
-            "Version": "2.0",
-            "MajorVer": "2",
-            "MinorVer": "0"
+            "Version": "2.0"
           }
         },
         {
@@ -479,9 +449,7 @@
           "properties": {
             "Browser": "feedly App",
             "Browser_Maker": "feedly.com",
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {
@@ -496,9 +464,7 @@
           "properties": {
             "Browser": "feedly Feed Fetcher",
             "Browser_Maker": "feedly.com",
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {
@@ -513,9 +479,7 @@
           "properties": {
             "Browser": "FeedlyBot",
             "Browser_Maker": "feedly.com",
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {
@@ -570,9 +534,7 @@
           "properties": {
             "Browser": "Superfeedr Bot",
             "Browser_Maker": "Superfeedr",
-            "Version": "2.0",
-            "MajorVer": "2",
-            "MinorVer": "0"
+            "Version": "2.0"
           }
         },
         {
@@ -586,9 +548,7 @@
           "match": "Blogshares Spiders (Renewed V1.65*",
           "properties": {
             "Browser": "Blogshares Spiders",
-            "Version": "1.65",
-            "MajorVer": "1",
-            "MinorVer": "65"
+            "Version": "1.65"
           }
         },
         {
@@ -609,9 +569,7 @@
           "properties": {
             "Browser": "newsme",
             "Browser_Maker": "News.me Inc",
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {
@@ -625,9 +583,7 @@
           "match": "sfFeedReader/0.9*",
           "properties": {
             "Browser": "Symfony RSS Reader",
-            "Version": "0.9",
-            "MajorVer": "0",
-            "MinorVer": "9"
+            "Version": "0.9"
           }
         },
         {
@@ -640,9 +596,7 @@
           "match": "Feed Wrangler/1.0*",
           "properties": {
             "Browser": "Feed Wrangler",
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {
@@ -667,9 +621,7 @@
           "match": "CITA RSS Aggregator/2.7*",
           "properties": {
             "Browser": "CITA RSS Aggregator",
-            "Version": "2.7",
-            "MajorVer": "2",
-            "MinorVer": "7"
+            "Version": "2.7"
           }
         },
         {

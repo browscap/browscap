@@ -13,9 +13,7 @@
         "Parent": "DefaultProperties",
         "Comment": "ArgClrInt #MAJORVER#.#MINORVER#",
         "Browser": "ArgClrInt",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#"
+        "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
         {

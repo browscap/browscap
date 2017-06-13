@@ -14,19 +14,12 @@
         "Comment": "Adobe Dreamweaver #MAJORVER#.#MINORVER#",
         "Browser": "Dreamweaver",
         "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
         "Browser_Type": "Application",
         "Browser_Maker": "Adobe Systems Incorporated",
         "Alpha": "false",
         "Beta": "false",
-        "IFrames": "false",
-        "Cookies": "false",
-        "JavaScript": "false",
         "isSyndicationReader": "false",
-        "Crawler": "false",
-        "Frames": "true",
-        "Tables": "true"
+        "Crawler": "false"
       },
       "children": [
         {

@@ -11,9 +11,6 @@
         "Comment": "BlitzBot",
         "Browser": "BlitzBot",
         "Browser_Type": "Bot/Crawler",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
         "Crawler": "true"
       },
       "children": [

@@ -13,15 +13,7 @@
         "Browser": "PAD-bot",
         "Browser_Type": "Bot/Crawler",
         "Browser_Maker": "Inbot Technology Ltd.",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "2"
+        "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
         {

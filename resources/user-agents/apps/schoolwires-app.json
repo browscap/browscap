@@ -13,13 +13,7 @@
         "Comment": "Schoolwires App",
         "Browser": "Schoolwires App",
         "Browser_Type": "Application",
-        "Browser_Maker": "Schoolwires, Inc.",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3"
+        "Browser_Maker": "Schoolwires, Inc."
       },
       "children": [
         {

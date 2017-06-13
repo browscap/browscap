@@ -13,13 +13,7 @@
         "Comment": "Iron Generic",
         "Browser": "Iron",
         "Browser_Type": "Browser",
-        "Browser_Maker": "SRWare",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "1"
+        "Browser_Maker": "SRWare"
       },
       "children": [
         {

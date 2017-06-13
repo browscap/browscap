@@ -12,9 +12,6 @@
         "Browser": "Apache Bench",
         "Browser_Maker": "The Apache Software Foundation",
         "Browser_Type": "Bot/Crawler",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
         "Crawler": "true"
       },
       "children": [

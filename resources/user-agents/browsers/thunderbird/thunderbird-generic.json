@@ -13,13 +13,7 @@
         "Comment": "Thunderbird Generic",
         "Browser": "Thunderbird",
         "Browser_Maker": "Mozilla Foundation",
-        "Browser_Type": "Email Client",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3"
+        "Browser_Type": "Email Client"
       },
       "children": [
         {

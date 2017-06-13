@@ -14,13 +14,7 @@
         "Comment": "Coast",
         "Browser": "Coast",
         "Browser_Type": "Application",
-        "Browser_Maker": "Opera Software ASA",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3"
+        "Browser_Maker": "Opera Software ASA"
       },
       "children": [
         {

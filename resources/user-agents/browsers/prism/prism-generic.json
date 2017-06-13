@@ -13,13 +13,7 @@
         "Comment": "Prism Generic",
         "Browser": "Prism",
         "Browser_Maker": "Mozilla Foundation",
-        "Browser_Type": "Browser",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "2"
+        "Browser_Type": "Browser"
       },
       "children": [
         {

@@ -18,25 +18,19 @@
         {
           "match": "Mozilla/5.0 (compatible; Scopia Crawler 1.2*",
           "properties": {
-            "Version": "1.2",
-            "MajorVer": "1",
-            "MinorVer": "2"
+            "Version": "1.2"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; Scopia Crawler 1.1*",
           "properties": {
-            "Version": "1.1",
-            "MajorVer": "1",
-            "MinorVer": "1"
+            "Version": "1.1"
           }
         },
         {
           "match": "Mozilla/5.0 (compatible; Scopia Crawler 1.0*",
           "properties": {
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {

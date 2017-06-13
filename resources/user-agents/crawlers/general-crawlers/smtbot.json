@@ -19,9 +19,7 @@
           "match": "Mozilla/5.0 (#PLATFORM#) (compatible; SMTBot/1.0*",
           "device": "Windows Desktop",
           "properties": {
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           },
           "platforms": [
             "WinXPa_32", "Vista_32", "Win7_32", "Win8_32", "Win8_1_32", "Win10_32", "Win10_32_B"
@@ -37,9 +35,7 @@
         {
           "match": "Mozilla/5.0 (compatible; SMTBot/1.0*",
           "properties": {
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           }
         },
         {
@@ -48,9 +44,7 @@
         {
           "match": "Mozilla/5.0 (iPhone#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Version/*Safari/* (compatible; SMTBot/1.0*",
           "properties": {
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           },
           "device": "iPhone",
           "engine": "WebKit",
@@ -73,9 +67,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Version/*Safari/* (compatible; SMTBot/1.0*",
           "properties": {
-            "Version": "1.0",
-            "MajorVer": "1",
-            "MinorVer": "0"
+            "Version": "1.0"
           },
           "device": "general Mobile Device (Apple)",
           "engine": "WebKit",

@@ -17,13 +17,7 @@
         "Beta": "false",
         "isSyndicationReader": "false",
         "Crawler": "false",
-        "Browser_Maker": "Digola",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3"
+        "Browser_Maker": "Digola"
       },
       "children": [
         {

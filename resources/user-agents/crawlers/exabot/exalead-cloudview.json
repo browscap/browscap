@@ -12,17 +12,13 @@
         "Browser": "Exalead CloudView",
         "Browser_Type": "Bot/Crawler",
         "Browser_Maker": "Dassault Systemes",
-        "Frames": "true",
-        "Tables": "true",
         "Crawler": "true"
       },
       "children": [
         {
           "match": "Mozilla/5.0 (compatible; ExaleadCloudView/5*",
           "properties": {
-            "Version": "5.0",
-            "MajorVer": "5",
-            "MinorVer": "0"
+            "Version": "5.0"
           }
         },
         {

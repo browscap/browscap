@@ -15,9 +15,7 @@
         "Comment": "Free-Podcasts #MAJORVER#.#MINORVER#",
         "Browser": "Free-Podcasts",
         "Browser_Type": "Multimedia Player",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "MajorVer": "#MAJORVER#",
-        "MinorVer": "#MINORVER#"
+        "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
         {

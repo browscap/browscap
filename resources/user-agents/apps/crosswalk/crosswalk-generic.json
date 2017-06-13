@@ -14,13 +14,7 @@
         "Comment": "Crosswalk App Generic",
         "Browser": "Crosswalk App",
         "Browser_Type": "Application",
-        "Browser_Maker": "Intel Corporation",
-        "Frames": "true",
-        "IFrames": "true",
-        "Tables": "true",
-        "Cookies": "true",
-        "JavaScript": "true",
-        "CssVersion": "3"
+        "Browser_Maker": "Intel Corporation"
       },
       "children": [
         {

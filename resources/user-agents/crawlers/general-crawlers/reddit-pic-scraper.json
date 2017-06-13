@@ -18,9 +18,7 @@
         {
           "match": "Mozilla / reddit pic scraper v0.8*",
           "properties": {
-            "Version": "0.8",
-            "MajorVer": "0",
-            "MinorVer": "8"
+            "Version": "0.8"
           }
         },
         {
