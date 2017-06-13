@@ -237,6 +237,13 @@ class DataCollection
                 $this->validateUseragentData($useragent, $versions);
 
                 foreach ($useragent['children'] as $child) {
+                    if (!is_array($child)) {
+                        throw new \UnexpectedValueException(
+                            'each entry of the children property has to be an array for key "'
+                            . $useragent['userAgent'] . '"'
+                        );
+                    }
+
                     $this->validateChildren($child, $useragent, $versions);
                 }
 
@@ -411,13 +418,6 @@ class DataCollection
      */
     private function validateChildren(array $child, array $useragent, array $versions)
     {
-        if (!is_array($child)) {
-            throw new \UnexpectedValueException(
-                'each entry of the children property has to be an array for key "'
-                . $useragent['userAgent'] . '"'
-            );
-        }
-
         if (isset($child['device']) && isset($child['devices'])) {
             throw new \LogicException(
                 'a child may not define both the "device" and the "devices" entries for key "'
