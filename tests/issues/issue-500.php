@@ -379,6 +379,21 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-500-G (lite)' => [
+        'ua' => 'wp-iphone/4.4 (iPhone OS 8.0.2, iPad) Mobile',
+        'properties' => [
+            'Comment' => 'Mobile Safari UIWebView',
+            'Browser' => 'Mobile Safari UIWebView',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'isMobileDevice' => true,
+            'isTablet' => false,
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-500-H' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.2.1; en-us; NOOK BNRV200 Build/ERD79 1.4.3) Apple WebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
         'properties' => [
@@ -540,6 +555,26 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-500-J (standard)' => [
+        'ua' => 'Mozilla/5.0 (Mobile; ALCATEL ONE TOUCH 4012A; rv:18.1) Gecko/18.1 Firefox/18.1',
+        'properties' => [
+            'Comment' => 'Firefox for FirefoxOS Generic',
+            'Browser' => 'Firefox',
+            'Browser_Maker' => 'Mozilla Foundation',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'FirefoxOS',
+            'isMobileDevice' => true,
+            'isTablet' => false,
+            'Crawler' => false,
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-500-K' => [
         'ua' => 'Mozilla/5.0 (Linux;U; Android 4.2.2;  en-us;  Nuqleo; Zaffire 785 Build/ICS) AppleWebKit/531.21.10(KTHML,like Gecko) Version/4.0.4 Mobile/7B367 Safari/531.21.10',

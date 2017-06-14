@@ -55,6 +55,21 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-1474-A (lite)' => [
+        'ua' => 'Mozilla/5.0 (Linux; U; Android 6.0.1; en; SM-J700F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Tenta/1.1.0.1 Mobile Safari/537.36 Mobile',
+        'properties' => [
+            'Comment' => 'Chrome 53.0',
+            'Browser' => 'Chrome',
+            'Version' => '53.0',
+            'Platform' => 'Android',
+            'isMobileDevice' => true,
+            'isTablet' => false,
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1474-B' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 6.0.1; en; SM-G930P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Tenta/1.1.0.2 Mobile Safari/537.36 Mobile',
         'properties' => [
@@ -108,5 +123,20 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-1474-B (lite)' => [
+        'ua' => 'Mozilla/5.0 (Linux; U; Android 6.0.1; en; SM-G930P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Tenta/1.1.0.2 Mobile Safari/537.36 Mobile',
+        'properties' => [
+            'Comment' => 'Chrome 53.0',
+            'Browser' => 'Chrome',
+            'Version' => '53.0',
+            'Platform' => 'Android',
+            'isMobileDevice' => true,
+            'isTablet' => false,
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
 ];

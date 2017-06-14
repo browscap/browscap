@@ -1,30 +1,14 @@
 <?php
 /**
- * Copyright (c) 1998-2017 Browser Capabilities Project
+ * This file is part of the browscap package.
  *
- * Permission is hereby granted, free of charge, to any person obtaining a
- * copy of this software and associated documentation files (the "Software"),
- * to deal in the Software without restriction, including without limitation
- * the rights to use, copy, modify, merge, publish, distribute, sublicense,
- * and/or sell copies of the Software, and to permit persons to whom the
- * Software is furnished to do so, subject to the following conditions:
+ * Copyright (c) 1998-2017, Browser Capabilities Project
  *
- * The above copyright notice and this permission notice shall be included
- * in all copies or substantial portions of the Software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
- * OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
- * THE SOFTWARE.
- *
- * @category   BrowscapTest
- * @copyright  1998-2017 Browser Capabilities Project
- * @license    MIT
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
  */
 
+declare(strict_types = 1);
 namespace BrowscapTest\Filter;
 
 use Browscap\Filter\FullFilter;
@@ -33,7 +17,8 @@ use Browscap\Filter\FullFilter;
  * Class FullFilterTest
  *
  * @category   BrowscapTest
- * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
+ *
+ * @author     Thomas Müller <mimmi20@live.de>
  */
 class FullFilterTest extends \PHPUnit\Framework\TestCase
 {
@@ -133,11 +118,38 @@ class FullFilterTest extends \PHPUnit\Framework\TestCase
      *
      * @group filter
      * @group sourcetest
+     *
+     * @param mixed $propertyName
+     * @param mixed $isExtra
      */
     public function testIsOutputProperty($propertyName, $isExtra)
     {
         $actualValue = $this->object->isOutputProperty($propertyName);
         self::assertSame($isExtra, $actualValue);
+    }
+
+    /**
+     * @dataProvider outputPropertiesDataProvider
+     *
+     * @group filter
+     * @group sourcetest
+     *
+     * @param mixed $propertyName
+     */
+    public function testIsOutputPropertyWithPropertyHolder($propertyName)
+    {
+        $propertyHolder = $this->getMockBuilder(\Browscap\Data\PropertyHolder::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['isOutputProperty'])
+            ->getMock();
+
+        $propertyHolder
+            ->expects(self::once())
+            ->method('isOutputProperty')
+            ->will(self::returnValue(false));
+
+        $object = new FullFilter($propertyHolder);
+        self::assertFalse($object->isOutputProperty($propertyName));
     }
 
     /**

@@ -55,6 +55,21 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-788-A (lite)' => [
+        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) QupZilla/1.6.3 Safari/538.1',
+        'properties' => [
+            'Comment' => 'Safari Generic',
+            'Browser' => 'Safari',
+            'Version' => '0.0',
+            'Platform' => 'MacOSX',
+            'isMobileDevice' => false,
+            'isTablet' => false,
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-788-B' => [
         'ua' => 'Mozilla/5.0 (OS/2 Warp 4.5) AppleWebKit/537.21 (KHTML, like Gecko) QupZilla/1.6.4 Safari/537.21',
         'properties' => [

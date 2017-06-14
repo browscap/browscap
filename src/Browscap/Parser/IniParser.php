@@ -8,12 +8,14 @@
  * file that was distributed with this source code.
  */
 
+declare(strict_types = 1);
 namespace Browscap\Parser;
 
 /**
  * Class IniParser
  *
  * @category   Browscap
+ *
  * @author     James Titcumb <james@asgrim.com>
  */
 class IniParser implements ParserInterface
@@ -84,6 +86,7 @@ class IniParser implements ParserInterface
 
     /**
      * @throws \InvalidArgumentException
+     *
      * @return array
      */
     public function getLinesFromFile()
@@ -121,6 +124,7 @@ class IniParser implements ParserInterface
 
     /**
      * @throws \RuntimeException
+     *
      * @return array
      */
     public function parse()
@@ -134,14 +138,14 @@ class IniParser implements ParserInterface
 
         for ($line = 0, $count = count($fileLines); $line < $count; ++$line) {
             $currentLine       = ($fileLines[$line]);
-            $currentLineLength = strlen($currentLine);
+            $currentLineLength = mb_strlen($currentLine);
 
             if ($currentLineLength === 0) {
                 continue;
             }
 
-            if (substr($currentLine, 0, 40) === ';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;') {
-                $currentDivision = trim(substr($currentLine, 41));
+            if (mb_substr($currentLine, 0, 40) === ';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;') {
+                $currentDivision = trim(mb_substr($currentLine, 41));
                 continue;
             }
 
@@ -151,7 +155,7 @@ class IniParser implements ParserInterface
             }
 
             if ($currentLine[0] === '[') {
-                $currentSection = substr($currentLine, 1, ($currentLineLength - 2));
+                $currentSection = mb_substr($currentLine, 1, ($currentLineLength - 2));
                 continue;
             }
 

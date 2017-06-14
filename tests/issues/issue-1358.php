@@ -55,6 +55,21 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-1358-A (lite)' => [
+        'ua' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Safari/537.36 Chrome/53.0.2623.87 UR Browser/51.1.2704.37',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'Win10',
+            'isMobileDevice' => false,
+            'isTablet' => false,
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1358-B' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Safari/537.36 Chrome/55.0.2883.87 UR Browser/51.0.2704.51',
         'properties' => [
@@ -108,6 +123,21 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-1358-B (lite)' => [
+        'ua' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Safari/537.36 Chrome/55.0.2883.87 UR Browser/51.0.2704.51',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'Win10',
+            'isMobileDevice' => false,
+            'isTablet' => false,
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
     'issue-1358-C' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Safari/537.36 Chrome/55.0.2883.87 UR Browser/51.0.2704.51',
@@ -163,6 +193,21 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-1358-C (lite)' => [
+        'ua' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Safari/537.36 Chrome/55.0.2883.87 UR Browser/51.0.2704.51',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'Win7',
+            'isMobileDevice' => false,
+            'isTablet' => false,
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1358-D' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Safari/537.36 Chrome/53.0.2623.87 UR Browser/51.1.2704.37',
         'properties' => [
@@ -216,6 +261,21 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-1358-D (lite)' => [
+        'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Safari/537.36 Chrome/53.0.2623.87 UR Browser/51.1.2704.37',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'Win7',
+            'isMobileDevice' => false,
+            'isTablet' => false,
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
     'issue-1358-E' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Safari/537.36 Chrome/55.0.2883.87 UR Browser/51.0.2704.51',
@@ -271,6 +331,21 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-1358-E (lite)' => [
+        'ua' => 'Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Safari/537.36 Chrome/55.0.2883.87 UR Browser/51.0.2704.51',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'Win8',
+            'isMobileDevice' => false,
+            'isTablet' => false,
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1358-F' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Safari/537.36 Chrome/55.0.2883.87 UR Browser/51.0.2704.51',
         'properties' => [
@@ -325,6 +400,21 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-1358-F (lite)' => [
+        'ua' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Safari/537.36 Chrome/55.0.2883.87 UR Browser/51.0.2704.51',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'Win8.1',
+            'isMobileDevice' => false,
+            'isTablet' => false,
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1358-G' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Safari/537.36 Chrome/55.0.2883.95 UR/55.1.2883.7',
         'properties' => [
@@ -378,5 +468,20 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-1358-G (lite)' => [
+        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Safari/537.36 Chrome/55.0.2883.95 UR/55.1.2883.7',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'MacOSX',
+            'isMobileDevice' => false,
+            'isTablet' => false,
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
 ];

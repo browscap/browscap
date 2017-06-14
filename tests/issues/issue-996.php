@@ -55,6 +55,21 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-996-A (lite)' => [
+        'ua' => 'Mozilla/5.0 (Linux; Android 5.0.1; GT-I9505 Build/LRX22C) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 YaBrowser/16.2.1.1239.00 Mobile Safari/537.36',
+        'properties' => [
+            'Comment' => 'Chrome 47.0',
+            'Browser' => 'Chrome',
+            'Version' => '47.0',
+            'Platform' => 'Android',
+            'isMobileDevice' => true,
+            'isTablet' => false,
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-996-B' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; SM-G800F Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.135 MobileIron/1.6.0 Mobile Safari/537.36',
         'properties' => [
@@ -109,6 +124,21 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-996-B (lite)' => [
+        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; SM-G800F Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.135 MobileIron/1.6.0 Mobile Safari/537.36',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'Android',
+            'isMobileDevice' => true,
+            'isTablet' => false,
+            'Device_Type' => 'Mobile Device',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-996-C' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; GT-I9195I Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Crosswalk/14.43.343.17 Mobile Safari/537.36',
         'properties' => [
@@ -162,5 +192,20 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-996-C (lite)' => [
+        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; GT-I9195I Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Crosswalk/14.43.343.17 Mobile Safari/537.36',
+        'properties' => [
+            'Comment' => 'Chrome 43.0',
+            'Browser' => 'Chrome',
+            'Version' => '43.0',
+            'Platform' => 'Android',
+            'isMobileDevice' => true,
+            'isTablet' => false,
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
 ];

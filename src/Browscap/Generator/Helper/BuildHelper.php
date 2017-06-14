@@ -8,6 +8,7 @@
  * file that was distributed with this source code.
  */
 
+declare(strict_types = 1);
 namespace Browscap\Generator\Helper;
 
 use Browscap\Data\DataCollection;
@@ -20,8 +21,9 @@ use Psr\Log\LoggerInterface;
  * Class BuildGenerator
  *
  * @category   Browscap
+ *
  * @author     James Titcumb <james@asgrim.com>
- * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
+ * @author     Thomas Müller <mimmi20@live.de>
  */
 class BuildHelper
 {
@@ -34,7 +36,6 @@ class BuildHelper
      * @param \Browscap\Writer\WriterCollection  $writerCollection
      * @param \Browscap\Helper\CollectionCreator $collectionCreator
      *
-     * @return void
      * @throws \Exception
      */
     public static function run(
@@ -138,9 +139,9 @@ class BuildHelper
             $versions = $division->getVersions();
 
             foreach ($versions as $version) {
-                list($majorVer, $minorVer) = $expander->getVersionParts($version);
+                list($majorVer, $minorVer) = $expander->getVersionParts((string) $version);
 
-                $divisionName = $expander->parseProperty($division->getName(), $majorVer, $minorVer);
+                $divisionName = $expander->parseProperty($division->getName(), (string) $majorVer, (string) $minorVer);
 
                 $logger->info('handle division ' . $divisionName);
 

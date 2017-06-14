@@ -53,7 +53,6 @@ return [
         ],
         'lite' => true,
         'standard' => true,
-        'full' => true,
     ],
     'issue-1572-B' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1; Aquaris M10 Build/LMY47I; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 Safari/537.36 [FB_IAB/FB4A;FBAV/119.0.0.23.70;]',
@@ -107,7 +106,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => true,
     ],
     'issue-1572-C' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0; Aquaris M10 FHD Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
@@ -161,7 +159,6 @@ return [
         ],
         'lite' => true,
         'standard' => true,
-        'full' => true,
     ],
     'issue-1572-D' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0; Lenovo A7000-a Build/LRX21M) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/37.0.0.0 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/56.0.0.23.68;]',
@@ -215,7 +212,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => true,
     ],
     'issue-1572-E' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; hu-hu; Lenovo A5500-H Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 [FB_IAB/FB4A;FBAV/58.0.0.28.70;]',
@@ -269,7 +265,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => true,
     ],
     'issue-1572-F' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; tr-tr; Vodafone Smart Tab 4 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.2 Mobile Safari/534.30 SVN/040FDG1 [FB_IAB/FB4A;FBAV/58.0.0.28.70;]',
@@ -323,7 +318,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => true,
     ],
     'issue-1572-G' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; Archos 50 Titanium Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 [FB_IAB/FB4A;FBAV/54.0.0.23.62;]',
@@ -377,6 +371,5 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => true,
     ],
 ];

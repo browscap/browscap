@@ -8,6 +8,7 @@
  * file that was distributed with this source code.
  */
 
+declare(strict_types = 1);
 namespace Browscap\Writer\Factory;
 
 use Browscap\Filter\CustomFilter;
@@ -20,7 +21,8 @@ use Psr\Log\LoggerInterface;
  * Class FullPhpWriterFactory
  *
  * @category   Browscap
- * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
+ *
+ * @author     Thomas Müller <mimmi20@live.de>
  */
 class CustomWriterFactory
 {

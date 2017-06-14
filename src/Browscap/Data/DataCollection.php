@@ -8,6 +8,7 @@
  * file that was distributed with this source code.
  */
 
+declare(strict_types = 1);
 namespace Browscap\Data;
 
 use Psr\Log\LoggerInterface;
@@ -16,6 +17,7 @@ use Psr\Log\LoggerInterface;
  * Class DataCollection
  *
  * @category   Browscap
+ *
  * @author     James Titcumb <james@asgrim.com>
  */
 class DataCollection
@@ -111,8 +113,9 @@ class DataCollection
      *
      * @param string $src Name of the file
      *
-     * @throws \RuntimeException             if the file does not exist or has invalid JSON
+     * @throws \RuntimeException         if the file does not exist or has invalid JSON
      * @throws \UnexpectedValueException
+     *
      * @return \Browscap\Data\DataCollection
      */
     public function addPlatformsFile($src)
@@ -149,7 +152,8 @@ class DataCollection
      *
      * @param string $src Name of the file
      *
-     * @throws \RuntimeException             if the file does not exist or has invalid JSON
+     * @throws \RuntimeException if the file does not exist or has invalid JSON
+     *
      * @return \Browscap\Data\DataCollection
      */
     public function addEnginesFile($src)
@@ -182,8 +186,9 @@ class DataCollection
      *
      * @param string $src Name of the file
      *
-     * @throws \RuntimeException             if the file does not exist or has invalid JSON
-     * @throws \UnexpectedValueException     if the properties and the inherits kyewords are missing
+     * @throws \RuntimeException         if the file does not exist or has invalid JSON
+     * @throws \UnexpectedValueException if the properties and the inherits kyewords are missing
+     *
      * @return \Browscap\Data\DataCollection
      */
     public function addDevicesFile($src)
@@ -209,9 +214,10 @@ class DataCollection
      *
      * @param string $src Name of the file
      *
-     * @throws \RuntimeException             If the file does not exist or has invalid JSON
-     * @throws \UnexpectedValueException     If required attibutes are missing in the division
+     * @throws \RuntimeException         If the file does not exist or has invalid JSON
+     * @throws \UnexpectedValueException If required attibutes are missing in the division
      * @throws \LogicException
+     *
      * @return \Browscap\Data\DataCollection
      */
     public function addSourceFile($src)
@@ -252,14 +258,14 @@ class DataCollection
                     );
                 }
 
-                if (false === strpos($useragent['userAgent'], '#')
+                if (false === mb_strpos($useragent['userAgent'], '#')
                     && in_array($useragent['userAgent'], $this->allDivision)
                 ) {
                     throw new \UnexpectedValueException('Division "' . $useragent['userAgent'] . '" is defined twice');
                 }
 
-                if ((false !== strpos($useragent['userAgent'], '#MAJORVER#')
-                        || false !== strpos($useragent['userAgent'], '#MINORVER#'))
+                if ((false !== mb_strpos($useragent['userAgent'], '#MAJORVER#')
+                        || false !== mb_strpos($useragent['userAgent'], '#MINORVER#'))
                     && ['0.0'] === $versions
                 ) {
                     throw new \UnexpectedValueException(
@@ -380,7 +386,7 @@ class DataCollection
 
                     if (isset($child['platforms'])
                         && count($child['platforms']) > 1
-                        && strpos($child['match'], '#PLATFORM#') === false
+                        && mb_strpos($child['match'], '#PLATFORM#') === false
                     ) {
                         throw new \LogicException(
                             'the "platforms" entry contains multiple platforms but there is no #PLATFORM# token for key "'
@@ -390,7 +396,7 @@ class DataCollection
 
                     if (isset($child['devices'])
                         && count($child['devices']) > 1
-                        && strpos($child['match'], '#DEVICE#') === false
+                        && mb_strpos($child['match'], '#DEVICE#') === false
                     ) {
                         throw new \LogicException(
                             'the "devices" entry contains multiple devices but there is no #DEVICE# token for key "'
@@ -404,8 +410,8 @@ class DataCollection
                         );
                     }
 
-                    if ((false !== strpos($child['match'], '#MAJORVER#')
-                            || false !== strpos($child['match'], '#MINORVER#'))
+                    if ((false !== mb_strpos($child['match'], '#MAJORVER#')
+                            || false !== mb_strpos($child['match'], '#MINORVER#'))
                         && ['0.0'] === $versions
                     ) {
                         throw new \UnexpectedValueException(
@@ -414,7 +420,7 @@ class DataCollection
                         );
                     }
 
-                    if (false !== strpos($child['match'], '#PLATFORM#')
+                    if (false !== mb_strpos($child['match'], '#PLATFORM#')
                         && !isset($child['platforms'])
                     ) {
                         throw new \UnexpectedValueException(
@@ -423,7 +429,7 @@ class DataCollection
                         );
                     }
 
-                    if (false !== strpos($child['match'], '#DEVICE#')
+                    if (false !== mb_strpos($child['match'], '#DEVICE#')
                         && !isset($child['devices'])
                     ) {
                         throw new \UnexpectedValueException(
@@ -488,10 +494,10 @@ class DataCollection
             $divisionData['division'],
             (int) $divisionData['sortIndex'],
             $userAgents,
-            (boolean) $divisionData['lite'],
-            (boolean) $divisionData['standard'],
+            (bool) $divisionData['lite'],
+            (bool) $divisionData['standard'],
             $versions,
-            substr($src, strpos($src, 'resources/'))
+            mb_substr($src, (int) mb_strpos($src, 'resources/'))
         );
 
         $this->divisionsHaveBeenSorted = false;
@@ -503,6 +509,7 @@ class DataCollection
      * @param string $src
      *
      * @throws \RuntimeException
+     *
      * @return array
      */
     private function loadFile($src)
@@ -523,7 +530,7 @@ class DataCollection
 
         $json        = json_decode($fileContent, true);
 
-        if (is_null($json)) {
+        if (null === $json) {
             throw new \RuntimeException('File "' . $src . '" had invalid JSON.');
         }
 
@@ -604,7 +611,8 @@ class DataCollection
      *
      * @param string $src Name of the file
      *
-     * @throws \RuntimeException             if the file does not exist or has invalid JSON
+     * @throws \RuntimeException if the file does not exist or has invalid JSON
+     *
      * @return \Browscap\Data\DataCollection
      */
     public function addDefaultProperties($src)
@@ -628,7 +636,8 @@ class DataCollection
      *
      * @param string $src Name of the file
      *
-     * @throws \RuntimeException             if the file does not exist or has invalid JSON
+     * @throws \RuntimeException if the file does not exist or has invalid JSON
+     *
      * @return \Browscap\Data\DataCollection
      */
     public function addDefaultBrowser($src)
@@ -671,7 +680,7 @@ class DataCollection
             $sortPosition = [];
 
             foreach ($this->divisions as $key => $division) {
-                /** @var \Browscap\Data\Division $division */
+                /* @var \Browscap\Data\Division $division */
                 $sortIndex[$key]    = $division->getSortIndex();
                 $sortPosition[$key] = $key;
             }
@@ -729,6 +738,7 @@ class DataCollection
      *
      * @throws \OutOfBoundsException
      * @throws \UnexpectedValueException
+     *
      * @return \Browscap\Data\Platform
      */
     public function getPlatform($platform)
@@ -759,6 +769,7 @@ class DataCollection
      *
      * @throws \OutOfBoundsException
      * @throws \UnexpectedValueException
+     *
      * @return \Browscap\Data\Engine
      */
     public function getEngine($engine)
@@ -789,6 +800,7 @@ class DataCollection
      *
      * @throws \OutOfBoundsException
      * @throws \UnexpectedValueException
+     *
      * @return \Browscap\Data\Device
      */
     public function getDevice($device)
@@ -827,6 +839,7 @@ class DataCollection
      * @param array  $properties
      *
      * @throws \UnexpectedValueException
+     *
      * @return bool
      */
     public function checkProperty($key, array $properties)

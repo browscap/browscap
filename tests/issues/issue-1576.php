@@ -52,8 +52,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
-        'full' => true,
+        'standard' => true,
     ],
     'issue-1576-B' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_0_1 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Mobile/14A403 Instagram 11.0.0.21.20 (iPhone8,4; iOS 10_0_1; en_US; en-US; scale=2.00; gamut=normal; 640x1136)',
@@ -106,8 +105,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
-        'full' => true,
+        'standard' => true,
     ],
     'issue-1576-C' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_0_1 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Mobile/14A403 Instagram 7.3.0 (iPhone8,1; iPhone OS 10_0_1; en_US; en)',
@@ -160,8 +158,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
-        'full' => true,
+        'standard' => true,
     ],
     'issue-1576-D' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Mobile/14B100 Instagram 11.0.0.21.20 (iPhone8,1; iOS 10_1_1; en_US; en-US; scale=2.00; gamut=normal; 750x1334)',
@@ -214,8 +211,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
-        'full' => true,
+        'standard' => true,
     ],
     'issue-1576-E' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Mobile/14B100 Instagram 7.3.0 (iPhone8,1; iPhone OS 10_1_1; en_US; en)',
@@ -268,8 +264,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
-        'full' => true,
+        'standard' => true,
     ],
     'issue-1576-F' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Mobile/14C92 Instagram 11.0.0.21.20 (iPhone7,2; iOS 10_2; en_US; en-US; scale=2.00; gamut=normal; 750x1334)',
@@ -322,8 +317,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
-        'full' => true,
+        'standard' => true,
     ],
     'issue-1576-G' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Mobile/14E304 Instagram 11.0.0.21.20 (iPhone7,2; iOS 10_3_1; en_US; en-US; scale=2.00; gamut=normal; 750x1334)',
@@ -376,8 +370,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
-        'full' => true,
+        'standard' => true,
     ],
     'issue-1576-H' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.21 (KHTML, like Gecko) Mobile/15A5278f Instagram 11.0.0.21.20 (iPhone9,4; iOS 11_0; en_US; en-US; scale=2.61; gamut=wide; 1080x1920)',
@@ -430,8 +423,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
-        'full' => true,
+        'standard' => true,
     ],
     'issue-1576-I' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_1 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D201 Instagram 7.5.0 (iPhone6,1; iPhone OS 7_1_1; en_US; en)',
@@ -484,8 +476,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
-        'full' => true,
+        'standard' => true,
     ],
     'issue-1576-J' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12D508 Instagram 7.5.0 (iPhone5,3; iPhone OS 8_2; en_US; en)',
@@ -538,8 +529,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
-        'full' => true,
+        'standard' => true,
     ],
     'issue-1576-K' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70 Instagram 10.13.0 (iPhone4,1; iPhone OS 8_3; it_IT; it; scale=2.00; gamut=normal; 640x960)',
@@ -592,8 +582,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
-        'full' => true,
+        'standard' => true,
     ],
     'issue-1576-L' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12H143 Instagram 7.1.1 (iPhone5,2; iPhone OS 8_4; en_GB; en)',
@@ -646,8 +635,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
-        'full' => true,
+        'standard' => true,
     ],
     'issue-1576-M' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_0 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13A342 Instagram 7.21.1 (iPhone8,1; iPhone OS 9_0; en_US; en-US; scale=2.00; 750x1334)',
@@ -700,8 +688,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
-        'full' => true,
+        'standard' => true,
     ],
     'issue-1576-N' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_0_2 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13A452 Instagram 11.0.0.21.20 (iPhone6,1; iPhone OS 9_0_2; es_US; es-US; scale=2.00; gamut=normal; 640x1136)',
@@ -754,8 +741,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
-        'full' => true,
+        'standard' => true,
     ],
     'issue-1576-O' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13B143 Instagram 11.0.0.21.20 (iPhone8,1; iPhone OS 9_1; en_CA; en-CA; scale=2.00; gamut=normal; 750x1334)',
@@ -808,8 +794,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
-        'full' => true,
+        'standard' => true,
     ],
     'issue-1576-P' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13B143 Instagram 7.20.0 (iPhone8,1; iPhone OS 9_1; en_US; en; scale=2.00; 750x1334)',
@@ -862,8 +847,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
-        'full' => true,
+        'standard' => true,
     ],
     'issue-1576-Q' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_2 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13C75 Instagram 10.19.0 (iPhone7,2; iPhone OS 9_2; en_CA; en-CA; scale=2.00; gamut=normal; 750x1334)',
@@ -916,8 +900,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
-        'full' => true,
+        'standard' => true,
     ],
     'issue-1576-R' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13E234 Instagram 11.0.0.21.20 (iPhone8,1; iPhone OS 9_3; en_US; en-US; scale=2.00; gamut=normal; 750x1334)',
@@ -970,8 +953,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
-        'full' => true,
+        'standard' => true,
     ],
     'issue-1576-S' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13E238 Instagram 7.19.1 (iPhone8,1; iPhone OS 9_3_1; en_US; en-US; scale=2.00; 750x1334)',
@@ -1024,8 +1006,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
-        'full' => true,
+        'standard' => true,
     ],
     'issue-1576-T' => [
         'ua' => 'Mozilla/5.0 (iPod touch; CPU iPhone OS 10_0_2 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Mobile/14A456 Instagram 10.24.0 (iPod7,1; iOS 10_0_2; en_CA; en-CA; scale=2.00; gamut=normal; 640x1136)',
@@ -1079,7 +1060,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => true,
     ],
     'issue-1576-U' => [
         'ua' => 'Mozilla/5.0 (iPod touch; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Mobile/14C92 Instagram 11.0.0.21.20 (iPod7,1; iOS 10_2; en_US; en-US; scale=2.00; gamut=normal; 640x1136)',
@@ -1133,7 +1113,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => true,
     ],
     'issue-1576-V' => [
         'ua' => 'Mozilla/5.0 (iPod touch; CPU iPhone OS 9_3_5 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G36 Instagram 11.0.0.21.20 (iPod5,1; iPhone OS 9_3_5; en_US; en-US; scale=2.00; gamut=normal; 640x1136)',
@@ -1187,6 +1166,5 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => true,
     ],
 ];

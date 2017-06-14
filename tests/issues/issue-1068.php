@@ -55,6 +55,21 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-1068-A (lite)' => [
+        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.80 Safari/537.36 Vivaldi/1.3.582.3',
+        'properties' => [
+            'Comment' => 'Chrome 53.0',
+            'Browser' => 'Chrome',
+            'Version' => '53.0',
+            'Platform' => 'MacOSX',
+            'isMobileDevice' => false,
+            'isTablet' => false,
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1068-B' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.89 Safari/537.36 Vivaldi/1.1.453.47',
         'properties' => [
@@ -108,5 +123,20 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-1068-B (lite)' => [
+        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.89 Safari/537.36 Vivaldi/1.1.453.47',
+        'properties' => [
+            'Comment' => 'Chrome 50.0',
+            'Browser' => 'Chrome',
+            'Version' => '50.0',
+            'Platform' => 'MacOSX',
+            'isMobileDevice' => false,
+            'isTablet' => false,
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
 ];

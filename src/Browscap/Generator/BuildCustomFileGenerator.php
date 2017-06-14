@@ -8,6 +8,7 @@
  * file that was distributed with this source code.
  */
 
+declare(strict_types = 1);
 namespace Browscap\Generator;
 
 use Browscap\Helper\CollectionCreator;
@@ -17,8 +18,9 @@ use Browscap\Writer;
  * Class BuildGenerator
  *
  * @category   Browscap
+ *
  * @author     James Titcumb <james@asgrim.com>
- * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
+ * @author     Thomas Müller <mimmi20@live.de>
  */
 class BuildCustomFileGenerator extends AbstractBuildGenerator
 {
@@ -51,15 +53,16 @@ class BuildCustomFileGenerator extends AbstractBuildGenerator
      * @return \Browscap\Generator\BuildCustomFileGenerator
      */
     public function run(
-        $version,
-        $fields = [],
+        string $version,
+        array $fields = [],
         $file = null,
-        $format = self::OUTPUT_FORMAT_PHP
-    ) {
-        return $this
-            ->preBuild($fields, $file, $format)
-            ->build($version)
-            ->postBuild();
+        string $format = self::OUTPUT_FORMAT_PHP
+    ): self {
+        $this->preBuild($fields, $file, $format);
+        $this->build($version);
+        $this->postBuild();
+
+        return $this;
     }
 
     /**
@@ -72,10 +75,10 @@ class BuildCustomFileGenerator extends AbstractBuildGenerator
      * @return \Browscap\Generator\BuildCustomFileGenerator
      */
     protected function preBuild(
-        $fields = [],
+        array $fields = [],
         $file = null,
-        $format = self::OUTPUT_FORMAT_PHP
-    ) {
+        string $format = self::OUTPUT_FORMAT_PHP
+    ): self {
         parent::preBuild();
 
         $this->getLogger()->info('started creating the custom output file');
@@ -106,7 +109,7 @@ class BuildCustomFileGenerator extends AbstractBuildGenerator
      *
      * @return \Browscap\Generator\BuildCustomFileGenerator
      */
-    protected function postBuild()
+    protected function postBuild(): self
     {
         $this->getLogger()->info('finished creating the custom output file');
 

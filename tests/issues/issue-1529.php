@@ -53,7 +53,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => true,
     ],
     'issue-1529-B' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Thunderbird/45.4.0',
@@ -107,7 +106,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => true,
     ],
     'issue-1529-C' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.7.10) Gecko/20050716 Thunderbird/1.0.6',
@@ -161,7 +159,6 @@ return [
         ],
         'lite' => false,
         'standard' => false,
-        'full' => true,
     ],
     'issue-1529-D' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64; rv:14.0) Gecko/20120714 Thunderbird/14.0',
@@ -215,7 +212,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => true,
     ],
     'issue-1529-E' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:14.0) Gecko/20120713 Thunderbird/14.0',
@@ -269,7 +265,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => true,
     ],
     'issue-1529-F' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0; rv:17.0) Gecko/20130620 Thunderbird/17.0.7',
@@ -323,7 +318,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => true,
     ],
     'issue-1529-G' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; de; rv:1.8.1.23) Gecko/20090812 Thunderbird/2.0.0.23',
@@ -377,7 +371,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => true,
     ],
     'issue-1529-H' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-GB; rv:1.8.1.17) Gecko/20080914 Thunderbird/2.0.0.17',
@@ -431,7 +424,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => true,
     ],
     'issue-1529-I' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.12) Gecko/20080227 Thunderbird/2.0.0.12',
@@ -485,7 +477,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => true,
     ],
     'issue-1529-J' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:24.0) Gecko/20100101 Thunderbird/24.2.0',
@@ -539,7 +530,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => true,
     ],
     'issue-1529-K' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:24.0) Gecko/20100101 Thunderbird/24.6.0',
@@ -593,7 +583,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => true,
     ],
     'issue-1529-L' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.1; de; rv:1.9.2.18) Gecko/20110616 Thunderbird/3.1.11',
@@ -647,7 +636,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => true,
     ],
     'issue-1529-M' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; ja; rv:1.9.2.8) Gecko/20100802 Thunderbird/3.1.2',
@@ -701,7 +689,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => true,
     ],
     'issue-1529-N' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.10) Gecko/20100527 Thunderbird/3.0.5',
@@ -755,7 +742,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => true,
     ],
     'issue-1529-O' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; rv:7.0.1) Gecko/20110929 Thunderbird/7.0.1',
@@ -809,7 +795,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => true,
     ],
     'issue-1529-P' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Thunderbird/45.8.0',
@@ -863,7 +848,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => true,
     ],
     'issue-1529-Q' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:52.0) Gecko/20100101 Thunderbird/52.2.1 Lightning/5.4.2.1',
@@ -917,7 +901,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => true,
     ],
     'issue-1529-R' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:52.0) Gecko/20100101 Thunderbird/52.0.1 Lightning/5.4.0.1',
@@ -971,7 +954,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => true,
     ],
     'issue-1529-S' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0; WOW64; rv:38.0) Gecko/20100101 Thunderbird/38.3.0 Lightning/4.0.3.1',
@@ -1025,7 +1007,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => true,
     ],
     'issue-1529-T' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; rv:45.0) Gecko/20100101 Thunderbird/45.8.0 Lightning/4.7.8',
@@ -1079,7 +1060,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => true,
     ],
     'issue-1529-U' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:45.0) Gecko/20100101 Thunderbird/45.8.0 Lightning/4.7.8',
@@ -1133,7 +1113,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => true,
     ],
     'issue-1529-V' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:52.0) Gecko/20100101 Thunderbird/52.2.0 Lightning/5.4.2',
@@ -1187,7 +1166,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => true,
     ],
     'issue-1529-W' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; rv:31.0) Gecko/20100101 Thunderbird/31.6.0 Lightning/3.3.2',
@@ -1241,6 +1219,5 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => true,
     ],
 ];

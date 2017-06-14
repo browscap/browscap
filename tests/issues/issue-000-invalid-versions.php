@@ -858,7 +858,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite' => false,
+        'lite' => false, // will detect "Chrome 55.0 on Mac OS X 10.0"
         'standard' => false,
         'full' => true,
     ],
@@ -878,7 +878,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite' => false,
+        'lite' => false, // will detect "Chrome 55.0 on Mac OS X 10.0"
         'standard' => false,
         'full' => true,
     ],
@@ -897,7 +897,7 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite' => false,
+        'lite' => false, // will detect "Chrome 55.0 on Mac OS X 10.0"
         'standard' => false,
         'full' => true,
     ],
@@ -1938,7 +1938,6 @@ return [
             'Platform_Bits' => '32',
         ],
         'lite' => false,
-        'standard' => false,
-        'full' => true,
+        'standard' => true,
     ],
 ];

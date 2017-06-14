@@ -55,6 +55,26 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-1044-A (standard)' => [
+        'ua' => 'Mozilla/4.0 (compatible; Lotus-Notes/5.0; Windows-NT)',
+        'properties' => [
+            'Comment' => 'Lotus Notes Generic',
+            'Browser' => 'Lotus Notes',
+            'Browser_Maker' => 'IBM',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'unknown',
+            'isMobileDevice' => false,
+            'isTablet' => false,
+            'Crawler' => false,
+            'Device_Type' => 'Desktop',
+            'Device_Pointing_Method' => 'mouse',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-1044-B' => [
         'ua' => 'YahooMobileMail/1.0 (Android Mail; 1.3.10) (supersonic;HTC;PC36100;2.3.5/GRJ90)',
         'properties' => [

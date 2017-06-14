@@ -109,6 +109,26 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-270-C (standard)' => [
+        'ua' => 'Mozilla/4.0 (compatible; MSIE 4.01; Digital AlphaServer 1000A 4/233; Windows NT; Powered By 64-Bit Alpha Processor)',
+        'properties' => [
+            'Comment' => 'IE 4.01',
+            'Browser' => 'IE',
+            'Browser_Maker' => 'Microsoft Corporation',
+            'Version' => '4.01',
+            'MajorVer' => '4',
+            'MinorVer' => '01',
+            'Platform' => 'Win32',
+            'isMobileDevice' => false,
+            'isTablet' => false,
+            'Crawler' => false,
+            'Device_Type' => 'Desktop',
+            'Device_Pointing_Method' => 'mouse',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-270-F' => [
         'ua' => 'WebTarantula.com Crawler',
         'properties' => [

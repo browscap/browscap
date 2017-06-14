@@ -55,4 +55,19 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-1236-A (lite)' => [
+        'ua' => 'Mozilla/5.0 (New Nintendo 3DS like iPhone) AppleWebKit/536.30 (KHTML, like Gecko) NX/3.0.0.5.20 Mobile NintendoBrowser/1.8.10156.US',
+        'properties' => [
+            'Comment' => 'Mobile Safari UIWebView',
+            'Browser' => 'Mobile Safari UIWebView',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'isMobileDevice' => true,
+            'isTablet' => false,
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
 ];

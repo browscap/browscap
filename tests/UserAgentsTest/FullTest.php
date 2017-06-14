@@ -68,8 +68,8 @@ class FullTest extends \PHPUnit\Framework\TestCase
         $buildNumber    = time();
         $resourceFolder = __DIR__ . '/../../resources/';
 
-        self::$buildFolder = __DIR__ . '/../../build/browscap-ua-test-full-' . $buildNumber . '/build/';
-        $cacheFolder       = __DIR__ . '/../../build/browscap-ua-test-full-' . $buildNumber . '/cache/';
+        self::$buildFolder = __DIR__ . '/../../build/browscap-ua-test-' . $buildNumber . '/build/';
+        $cacheFolder       = __DIR__ . '/../../build/browscap-ua-test-' . $buildNumber . '/cache/';
 
         // create build folder if it does not exist
         if (!file_exists(self::$buildFolder)) {
@@ -87,8 +87,6 @@ class FullTest extends \PHPUnit\Framework\TestCase
             self::$buildFolder
         );
 
-        $buildGenerator->setLogger($logger);
-
         $writerCollection = new WriterCollection();
 
         self::$propertyHolder = new PropertyHolder();
@@ -96,18 +94,17 @@ class FullTest extends \PHPUnit\Framework\TestCase
 
         $fullPhpWriter = new IniWriter(self::$buildFolder . '/full_php_browscap.ini');
         $formatter     = new PhpFormatter();
-        $formatter->setFilter(self::$filter);
         $fullPhpWriter
             ->setLogger($logger)
-            ->setFormatter($formatter)
+            ->setFormatter($formatter->setFilter(self::$filter))
             ->setFilter(self::$filter);
         $writerCollection->addWriter($fullPhpWriter);
 
-        $collectionCreator = new CollectionCreator();
-        $collectionCreator->setLogger($logger);
+        $buildGenerator
+            ->setLogger($logger)
+            ->setCollectionCreator(new CollectionCreator())
+            ->setWriterCollection($writerCollection);
 
-        $buildGenerator->setCollectionCreator($collectionCreator);
-        $buildGenerator->setWriterCollection($writerCollection);
         $buildGenerator->setCollectPatternIds(true);
 
         $buildGenerator->run((string) $buildNumber, false);

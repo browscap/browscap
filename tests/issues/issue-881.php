@@ -109,6 +109,26 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-881-B (standard + lite)' => [
+        'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; Galaxy Nexus Build/JRN84D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.111.166 Mobile Safari/537.36',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Browser_Maker' => 'Google Inc',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'Android',
+            'isMobileDevice' => true,
+            'isTablet' => false,
+            'Crawler' => false,
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => true,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-881-C' => [
         'ua' => 'Mozilla/5.0 (Android Mobile; rv:40.0) Gecko/40.0 Firefox/40.0',
         'properties' => [

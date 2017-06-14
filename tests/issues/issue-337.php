@@ -109,6 +109,21 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-337-B (lite)' => [
+        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-us; FP1 Build/JDQ39) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 UCBrowser/9.8.0.435 U3/0.8.0 Mobile Safari/533.1',
+        'properties' => [
+            'Comment' => 'Android Browser 4.0',
+            'Browser' => 'Android',
+            'Version' => '4.0',
+            'Platform' => 'Android',
+            'isMobileDevice' => true,
+            'isTablet' => false,
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-337-C' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; FP1 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.141 Mobile Safari/537.36',
         'properties' => [
@@ -162,5 +177,25 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-337-C (standard + lite)' => [
+        'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; FP1 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.141 Mobile Safari/537.36',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Browser_Maker' => 'Google Inc',
+            'Version' => '0.0',
+            'MajorVer' => '0',
+            'MinorVer' => '0',
+            'Platform' => 'Android',
+            'isMobileDevice' => true,
+            'isTablet' => false,
+            'Crawler' => false,
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => true,
+        'standard' => true,
+        'full' => false,
     ],
 ];

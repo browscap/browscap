@@ -109,6 +109,21 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-1042-B (lite)' => [
+        'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; Microsoft; RM-1113)',
+        'properties' => [
+            'Comment' => 'IE 10.0',
+            'Browser' => 'IE',
+            'Version' => '10.0',
+            'Platform' => 'Win32',
+            'isMobileDevice' => true,
+            'isTablet' => true,
+            'Device_Type' => 'Tablet',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1042-C' => [
         'ua' => 'UCWEB/2.0 (Windows; U; wds 8.10; de-DE; NOKIA; RM-974_1080) U2/1.0.0 UCBrowser/4.2.1.541 U2/1.0.0 Mobile',
         'properties' => [
@@ -541,6 +556,21 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-1042-J (lite)' => [
+        'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.1; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; RM-976_1166)',
+        'properties' => [
+            'Comment' => 'IE 10.0',
+            'Browser' => 'IE',
+            'Version' => '10.0',
+            'Platform' => 'Win32',
+            'isMobileDevice' => true,
+            'isTablet' => true,
+            'Device_Type' => 'Tablet',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1042-K' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.1; Trident/6.0; IEMobile/10.0; ARM; Touch; Microsoft; RM-1067_1013)',
         'properties' => [
@@ -594,6 +624,21 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-1042-K (lite)' => [
+        'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.1; Trident/6.0; IEMobile/10.0; ARM; Touch; Microsoft; RM-1067_1013)',
+        'properties' => [
+            'Comment' => 'IE 10.0',
+            'Browser' => 'IE',
+            'Version' => '10.0',
+            'Platform' => 'Win32',
+            'isMobileDevice' => true,
+            'isTablet' => true,
+            'Device_Type' => 'Tablet',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
     'issue-1042-L' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.1; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; RM-1045_1012)',
@@ -649,6 +694,21 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-1042-L (lite)' => [
+        'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.1; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; RM-1045_1012)',
+        'properties' => [
+            'Comment' => 'IE 10.0',
+            'Browser' => 'IE',
+            'Version' => '10.0',
+            'Platform' => 'Win32',
+            'isMobileDevice' => true,
+            'isTablet' => true,
+            'Device_Type' => 'Tablet',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1042-M' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.1; Trident/6.0; IEMobile/10.0; ARM; Touch; Microsoft; RM-1075_1011)',
         'properties' => [
@@ -702,6 +762,21 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-1042-M (lite)' => [
+        'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.1; Trident/6.0; IEMobile/10.0; ARM; Touch; Microsoft; RM-1075_1011)',
+        'properties' => [
+            'Comment' => 'IE 10.0',
+            'Browser' => 'IE',
+            'Version' => '10.0',
+            'Platform' => 'Win32',
+            'isMobileDevice' => true,
+            'isTablet' => true,
+            'Device_Type' => 'Tablet',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
     'issue-1042-N' => [
         'ua' => 'UCWEB/2.0 (Windows; U; wds 10.0; de-DE; NOKIA; RM-1045_1009) U2/1.0.0 UCBrowser/4.2.1.541 U2/1.0.0 Mobile',

@@ -1,7 +1,4 @@
 <?php
-
-declare(strict_types=1);
-
 /**
  * This file is part of the browscap package.
  *
@@ -11,6 +8,7 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
+declare(strict_types = 1);
 namespace Browscap\Coverage;
 
 use Seld\JsonLint\Lexer;
@@ -19,6 +17,7 @@ use Seld\JsonLint\Lexer;
  * Class Processor
  *
  * @category   Browscap
+ *
  * @author     Jay Klehr <jay.klehr@gmail.com>
  */
 final class Processor implements ProcessorInterface
@@ -122,7 +121,7 @@ final class Processor implements ProcessorInterface
                 continue;
             }
 
-            $patternFileName = substr($file->getPathname(), strpos($file->getPathname(), 'resources/'));
+            $patternFileName = mb_substr($file->getPathname(), mb_strpos($file->getPathname(), 'resources/'));
 
             if (!isset($this->coveredIds[$patternFileName])) {
                 $this->coveredIds[$patternFileName] = [];
@@ -172,7 +171,7 @@ final class Processor implements ProcessorInterface
      *
      * @return array
      */
-    public function getCoveredPatternIds() : array
+    public function getCoveredPatternIds(): array
     {
         return $this->coveredIds;
     }
@@ -186,7 +185,7 @@ final class Processor implements ProcessorInterface
      *
      * @return array
      */
-    public function processFile(string $file, string $contents, array $coveredIds) : array
+    public function processFile(string $file, string $contents, array $coveredIds): array
     {
         // These keynames are expected by Istanbul compatible coverage reporters
         // the format is outlined here: https://github.com/gotwarlost/istanbul/blob/master/coverage.json.md
@@ -242,7 +241,7 @@ final class Processor implements ProcessorInterface
      *
      * @return array
      */
-    private function getLocationCoordinates(Lexer $lexer, bool $end = false, string $content = '') : array
+    private function getLocationCoordinates(Lexer $lexer, bool $end = false, string $content = ''): array
     {
         $lineNumber  = $lexer->yylineno;
         $lineContent = $this->fileLines[$lineNumber];
@@ -251,10 +250,10 @@ final class Processor implements ProcessorInterface
             $content = $lexer->yytext;
         }
 
-        $position = strpos($lineContent, $content);
+        $position = mb_strpos($lineContent, $content);
 
         if ($end === true) {
-            $position += strlen($content);
+            $position += mb_strlen($content);
         }
 
         return ['line' => $lineNumber + 1, 'column' => $position];
@@ -291,7 +290,7 @@ final class Processor implements ProcessorInterface
      *
      * @return int
      */
-    private function handleJsonDivision(Lexer $lexer) : int
+    private function handleJsonDivision(Lexer $lexer): int
     {
         $enterUaGroup = false;
 
@@ -318,7 +317,7 @@ final class Processor implements ProcessorInterface
      *
      * @return int
      */
-    private function handleUseragentGroup(Lexer $lexer) : int
+    private function handleUseragentGroup(Lexer $lexer): int
     {
         $useragentPosition = 0;
 
@@ -342,7 +341,7 @@ final class Processor implements ProcessorInterface
      *
      * @return int
      */
-    private function handleUseragentBlock(Lexer $lexer, int $useragentPosition) : int
+    private function handleUseragentBlock(Lexer $lexer, int $useragentPosition): int
     {
         $enterChildGroup = false;
 
@@ -370,7 +369,7 @@ final class Processor implements ProcessorInterface
      *
      * @return int
      */
-    private function handleChildrenGroup(Lexer $lexer, int $useragentPosition) : int
+    private function handleChildrenGroup(Lexer $lexer, int $useragentPosition): int
     {
         $childPosition = 0;
 
@@ -395,7 +394,7 @@ final class Processor implements ProcessorInterface
      *
      * @return int
      */
-    private function handleChildBlock(Lexer $lexer, int $useragentPosition, int $childPosition) : int
+    private function handleChildBlock(Lexer $lexer, int $useragentPosition, int $childPosition): int
     {
         $enterPlatforms = false;
         $enterDevices   = false;
@@ -462,7 +461,7 @@ final class Processor implements ProcessorInterface
      *
      * @return int
      */
-    private function handleDeviceBlock(Lexer $lexer, int $useragentPosition, int $childPosition) : int
+    private function handleDeviceBlock(Lexer $lexer, int $useragentPosition, int $childPosition): int
     {
         $capturedKey = false;
         $sawColon    = false;
@@ -507,7 +506,7 @@ final class Processor implements ProcessorInterface
      *
      * @return int
      */
-    private function handlePlatformBlock(Lexer $lexer, int $useragentPosition, int $childPosition) : int
+    private function handlePlatformBlock(Lexer $lexer, int $useragentPosition, int $childPosition): int
     {
         $branchStart     = $this->getLocationCoordinates($lexer);
         $branchLocations = [];
@@ -542,7 +541,7 @@ final class Processor implements ProcessorInterface
      *
      * @return int
      */
-    private function ignoreObjectBlock(Lexer $lexer) : int
+    private function ignoreObjectBlock(Lexer $lexer): int
     {
         do {
             $code = $lexer->lex();
@@ -637,18 +636,18 @@ final class Processor implements ProcessorInterface
      *
      * @return array
      */
-    private function groupIdsByFile(array $ids) : array
+    private function groupIdsByFile(array $ids): array
     {
         $covered = [];
 
         foreach ($ids as $id) {
-            $file = substr($id, 0, strpos($id, '::'));
+            $file = mb_substr($id, 0, mb_strpos($id, '::'));
 
             if (!isset($covered[$file])) {
                 $covered[$file] = [];
             }
 
-            $covered[$file][] = substr($id, strpos($id, '::') + 2);
+            $covered[$file][] = mb_substr($id, mb_strpos($id, '::') + 2);
         }
 
         return $covered;
@@ -662,22 +661,22 @@ final class Processor implements ProcessorInterface
      *
      * @return int
      */
-    private function getCoverageCount(string $id, array $covered) : int
+    private function getCoverageCount(string $id, array $covered): int
     {
         $id                  = str_replace('\/', '/', $id);
         list($u, $c, $d, $p) = explode('::', $id);
 
-        $u = preg_quote(substr($u, 1), '/');
-        $c = preg_quote(substr($c, 1), '/');
-        $p = preg_quote(substr($p, 1), '/');
-        $d = preg_quote(substr($d, 1), '/');
+        $u = preg_quote(mb_substr($u, 1), '/');
+        $c = preg_quote(mb_substr($c, 1), '/');
+        $p = preg_quote(mb_substr($p, 1), '/');
+        $d = preg_quote(mb_substr($d, 1), '/');
 
         $count = 0;
 
-        if (strlen($p) === 0) {
+        if (mb_strlen($p) === 0) {
             $p = '.*?';
         }
-        if (strlen($d) === 0) {
+        if (mb_strlen($d) === 0) {
             $d = '.*?';
         }
 

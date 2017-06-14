@@ -1,33 +1,14 @@
 <?php
-
-declare(strict_types=1);
-
 /**
- * Copyright (c) 1998-2017 Browser Capabilities Project
+ * This file is part of the browscap package.
  *
- * Permission is hereby granted, free of charge, to any person obtaining a
- * copy of this software and associated documentation files (the "Software"),
- * to deal in the Software without restriction, including without limitation
- * the rights to use, copy, modify, merge, publish, distribute, sublicense,
- * and/or sell copies of the Software, and to permit persons to whom the
- * Software is furnished to do so, subject to the following conditions:
+ * Copyright (c) 1998-2017, Browser Capabilities Project
  *
- * The above copyright notice and this permission notice shall be included
- * in all copies or substantial portions of the Software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
- * OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
- * THE SOFTWARE.
- *
- * @category   BrowscapTest
- * @copyright  1998-2017 Browser Capabilities Project
- * @license    MIT
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
  */
 
+declare(strict_types = 1);
 namespace BrowscapTest\Coverage;
 
 use Browscap\Coverage\Processor;
@@ -36,6 +17,7 @@ use Browscap\Coverage\Processor;
  * Class ExpanderTest
  *
  * @category   BrowscapTest
+ *
  * @author     Jay Klehr <jay.klehr@gmail.com>
  */
 final class ProcessorTest extends \PHPUnit\Framework\TestCase
@@ -52,8 +34,6 @@ final class ProcessorTest extends \PHPUnit\Framework\TestCase
 
     /**
      * Run before each test, creates a new Processor object
-     *
-     * @return void
      */
     public function setUp()
     {
@@ -65,7 +45,7 @@ final class ProcessorTest extends \PHPUnit\Framework\TestCase
      *
      * @return array
      */
-    public function jsonStructureProvider() : array
+    public function jsonStructureProvider(): array
     {
         return [
             ['test1.json', ['statementCount' => 5, 'branchCount' => 1, 'functionCount' => 1]],
@@ -77,8 +57,6 @@ final class ProcessorTest extends \PHPUnit\Framework\TestCase
      * This test verifies that the different structures were extracted from the test JSON files
      *
      * @dataProvider jsonStructureProvider
-     *
-     * @return void
      */
     public function testJsonStructure(string $fileName, array $expected)
     {
@@ -99,7 +77,7 @@ final class ProcessorTest extends \PHPUnit\Framework\TestCase
      *
      * @return array
      */
-    public function coverageProvider() : array
+    public function coverageProvider(): array
     {
         return [
             'test1-no-coverage' => ['test1.json', [], [
@@ -158,11 +136,10 @@ final class ProcessorTest extends \PHPUnit\Framework\TestCase
      * Tests that the amount of covered statements/branches/functions matches expected
      *
      * @dataProvider coverageProvider
+     *
      * @param string   $fileName
      * @param string[] $coveredIds
      * @param array    $expected
-     *
-     * @return void
      */
     public function testCoverage(string $fileName, array $coveredIds, array $expected)
     {
@@ -186,8 +163,6 @@ final class ProcessorTest extends \PHPUnit\Framework\TestCase
 
     /**
      * Tests that the collected patterns ids are grouped by filename prefix
-     *
-     * @return void
      */
     public function testPatternIdGrouping()
     {

@@ -325,6 +325,21 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-081-B (lite)' => [
+        'ua' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko; Google Page Speed Insights) Chrome/27.0.1453 Safari/537.36',
+        'properties' => [
+            'Comment' => 'Chrome Generic',
+            'Browser' => 'Chrome',
+            'Version' => '0.0',
+            'Platform' => 'Linux',
+            'isMobileDevice' => false,
+            'isTablet' => false,
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-081-A' => [
         'ua' => 'Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)',
         'properties' => [

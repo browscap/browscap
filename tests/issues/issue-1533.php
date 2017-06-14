@@ -55,6 +55,21 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-1533-A (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPad; CPU OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Focus/2.0 Mobile/14B100',
+        'properties' => [
+            'Comment' => 'Mobile Safari UIWebView',
+            'Browser' => 'Mobile Safari UIWebView',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'isMobileDevice' => true,
+            'isTablet' => true,
+            'Device_Type' => 'Tablet',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1533-B' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Focus/2.0 Mobile/14C92',
         'properties' => [
@@ -108,6 +123,21 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-1533-B (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPad; CPU OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Focus/2.0 Mobile/14C92',
+        'properties' => [
+            'Comment' => 'Mobile Safari UIWebView',
+            'Browser' => 'Mobile Safari UIWebView',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'isMobileDevice' => true,
+            'isTablet' => true,
+            'Device_Type' => 'Tablet',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
     'issue-1533-C' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Focus/3.0.1 Mobile/14E304',
@@ -163,6 +193,21 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-1533-C (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPad; CPU OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Focus/3.0.1 Mobile/14E304',
+        'properties' => [
+            'Comment' => 'Mobile Safari UIWebView',
+            'Browser' => 'Mobile Safari UIWebView',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'isMobileDevice' => true,
+            'isTablet' => true,
+            'Device_Type' => 'Tablet',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1533-D' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 9_3_5 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Focus/2.0 Mobile/13G36',
         'properties' => [
@@ -216,6 +261,21 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-1533-D (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPad; CPU OS 9_3_5 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Focus/2.0 Mobile/13G36',
+        'properties' => [
+            'Comment' => 'Mobile Safari UIWebView',
+            'Browser' => 'Mobile Safari UIWebView',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'isMobileDevice' => true,
+            'isTablet' => true,
+            'Device_Type' => 'Tablet',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
     'issue-1533-E' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_0 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Focus/2.0.1 Mobile/14A346',
@@ -271,6 +331,21 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-1533-E (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_0 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Focus/2.0.1 Mobile/14A346',
+        'properties' => [
+            'Comment' => 'Mobile Safari UIWebView',
+            'Browser' => 'Mobile Safari UIWebView',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'isMobileDevice' => true,
+            'isTablet' => false,
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1533-F' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Focus/2.0.1 Mobile/14B100',
         'properties' => [
@@ -324,6 +399,21 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-1533-F (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Focus/2.0.1 Mobile/14B100',
+        'properties' => [
+            'Comment' => 'Mobile Safari UIWebView',
+            'Browser' => 'Mobile Safari UIWebView',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'isMobileDevice' => true,
+            'isTablet' => false,
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
     'issue-1533-G' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Focus/2.0.1 Mobile/14C92',
@@ -379,6 +469,21 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-1533-G (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Focus/2.0.1 Mobile/14C92',
+        'properties' => [
+            'Comment' => 'Mobile Safari UIWebView',
+            'Browser' => 'Mobile Safari UIWebView',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'isMobileDevice' => true,
+            'isTablet' => false,
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1533-H' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Focus/3.1 Mobile/14E304',
         'properties' => [
@@ -432,6 +537,21 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-1533-H (lite)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Focus/3.1 Mobile/14E304',
+        'properties' => [
+            'Comment' => 'Mobile Safari UIWebView',
+            'Browser' => 'Mobile Safari UIWebView',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'isMobileDevice' => true,
+            'isTablet' => false,
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
     'issue-1533-I' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Focus/1.0 Chrome/58.0.3029.83 Mobile Safari/537.36',
@@ -487,6 +607,21 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-1533-I (lite)' => [
+        'ua' => 'Mozilla/5.0 (Linux; Android 5.0) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Focus/1.0 Chrome/58.0.3029.83 Mobile Safari/537.36',
+        'properties' => [
+            'Comment' => 'Android WebView 4.0',
+            'Browser' => 'Android WebView',
+            'Version' => '4.0',
+            'Platform' => 'Android',
+            'isMobileDevice' => true,
+            'isTablet' => false,
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1533-J' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Focus/1.0 Chrome/59.0.3071.125 Safari/537.36',
         'properties' => [
@@ -540,6 +675,21 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-1533-J (lite)' => [
+        'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Focus/1.0 Chrome/59.0.3071.125 Safari/537.36',
+        'properties' => [
+            'Comment' => 'Android WebView 4.0',
+            'Browser' => 'Android WebView',
+            'Version' => '4.0',
+            'Platform' => 'Android',
+            'isMobileDevice' => true,
+            'isTablet' => false,
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
     'issue-1533-K' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Focus/1.0 Chrome/42.0.2311.137 Mobile Safari/537.36',
@@ -595,6 +745,21 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-1533-K (lite)' => [
+        'ua' => 'Mozilla/5.0 (Linux; Android 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Focus/1.0 Chrome/42.0.2311.137 Mobile Safari/537.36',
+        'properties' => [
+            'Comment' => 'Android WebView 4.0',
+            'Browser' => 'Android WebView',
+            'Version' => '4.0',
+            'Platform' => 'Android',
+            'isMobileDevice' => true,
+            'isTablet' => false,
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1533-L' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Focus/1.1 Chrome/59.0.3071.125 Safari/537.36',
         'properties' => [
@@ -648,6 +813,21 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-1533-L (lite)' => [
+        'ua' => 'Mozilla/5.0 (Linux; Android 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Focus/1.1 Chrome/59.0.3071.125 Safari/537.36',
+        'properties' => [
+            'Comment' => 'Android WebView 4.0',
+            'Browser' => 'Android WebView',
+            'Version' => '4.0',
+            'Platform' => 'Android',
+            'isMobileDevice' => true,
+            'isTablet' => false,
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
     'issue-1533-M' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Focus/1.0 Chrome/58.0.3029.83 Mobile Safari/537.36',
@@ -703,6 +883,21 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-1533-M (lite)' => [
+        'ua' => 'Mozilla/5.0 (Linux; Android 6.0) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Focus/1.0 Chrome/58.0.3029.83 Mobile Safari/537.36',
+        'properties' => [
+            'Comment' => 'Android WebView 4.0',
+            'Browser' => 'Android WebView',
+            'Version' => '4.0',
+            'Platform' => 'Android',
+            'isMobileDevice' => true,
+            'isTablet' => false,
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1533-N' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Focus/1.0 Chrome/58.0.3029.83 Safari/537.36',
         'properties' => [
@@ -756,6 +951,21 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-1533-N (lite)' => [
+        'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Focus/1.0 Chrome/58.0.3029.83 Safari/537.36',
+        'properties' => [
+            'Comment' => 'Android WebView 4.0',
+            'Browser' => 'Android WebView',
+            'Version' => '4.0',
+            'Platform' => 'Android',
+            'isMobileDevice' => true,
+            'isTablet' => false,
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
     'issue-1533-O' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 7.0) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Focus/1.0 Chrome/55.0.2883.91 Mobile Safari/537.36',
@@ -811,6 +1021,21 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-1533-O (lite)' => [
+        'ua' => 'Mozilla/5.0 (Linux; Android 7.0) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Focus/1.0 Chrome/55.0.2883.91 Mobile Safari/537.36',
+        'properties' => [
+            'Comment' => 'Android WebView 4.0',
+            'Browser' => 'Android WebView',
+            'Version' => '4.0',
+            'Platform' => 'Android',
+            'isMobileDevice' => true,
+            'isTablet' => false,
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1533-P' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 7.0) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Focus/1.0 Chrome/59.0.3071.125 Safari/537.36',
         'properties' => [
@@ -865,6 +1090,21 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-1533-P (lite)' => [
+        'ua' => 'Mozilla/5.0 (Linux; Android 7.0) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Focus/1.0 Chrome/59.0.3071.125 Safari/537.36',
+        'properties' => [
+            'Comment' => 'Android WebView 4.0',
+            'Browser' => 'Android WebView',
+            'Version' => '4.0',
+            'Platform' => 'Android',
+            'isMobileDevice' => true,
+            'isTablet' => false,
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1533-Q' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 7.1.1) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Focus/1.0 Chrome/59.0.3071.125 Mobile Safari/537.36',
         'properties' => [
@@ -918,5 +1158,20 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-1533-Q (lite)' => [
+        'ua' => 'Mozilla/5.0 (Linux; Android 7.1.1) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Focus/1.0 Chrome/59.0.3071.125 Mobile Safari/537.36',
+        'properties' => [
+            'Comment' => 'Android WebView 4.0',
+            'Browser' => 'Android WebView',
+            'Version' => '4.0',
+            'Platform' => 'Android',
+            'isMobileDevice' => true,
+            'isTablet' => false,
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
 ];

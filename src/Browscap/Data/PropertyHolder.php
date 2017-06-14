@@ -8,6 +8,7 @@
  * file that was distributed with this source code.
  */
 
+declare(strict_types = 1);
 namespace Browscap\Data;
 
 use Browscap\Writer\WriterInterface;
@@ -16,7 +17,8 @@ use Browscap\Writer\WriterInterface;
  * Class PropertyHolder
  *
  * @category   Browscap
- * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
+ *
+ * @author     Thomas Müller <mimmi20@live.de>
  */
 class PropertyHolder
 {
@@ -29,8 +31,10 @@ class PropertyHolder
     /**
      * Get the type of a property
      *
-     * @param  string     $propertyName
+     * @param string $propertyName
+     *
      * @throws \Exception
+     *
      * @return string
      */
     public function getPropertyType($propertyName)
@@ -167,8 +171,9 @@ class PropertyHolder
      * Determine if the specified property is an property that should
      * be included in the "full" versions of the files only
      *
-     * @param  string                           $propertyName
-     * @param  \Browscap\Writer\WriterInterface $writer
+     * @param string                           $propertyName
+     * @param \Browscap\Writer\WriterInterface $writer
+     *
      * @return bool
      */
     public function isStandardModeProperty($propertyName, WriterInterface $writer = null)
@@ -200,8 +205,9 @@ class PropertyHolder
      * Determine if the specified property is an "extra" property (that should
      * be included in the "full" versions of the files)
      *
-     * @param  string                           $propertyName
-     * @param  \Browscap\Writer\WriterInterface $writer
+     * @param string                           $propertyName
+     * @param \Browscap\Writer\WriterInterface $writer
+     *
      * @return bool
      */
     public function isOutputProperty($propertyName, WriterInterface $writer = null)
@@ -284,6 +290,7 @@ class PropertyHolder
      * @param string $value
      *
      * @throws \InvalidArgumentException
+     *
      * @return string
      */
     public function checkValueInArray($property, $value)

@@ -53,7 +53,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => true,
     ],
     'issue-1546-B' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 7.0; SM-G950F Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36',
@@ -107,7 +106,6 @@ return [
         ],
         'lite' => true,
         'standard' => true,
-        'full' => true,
     ],
     'issue-1546-C' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 7.0; SM-G950F Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36 OPR/42.7.2246.114996',
@@ -161,7 +159,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => true,
     ],
     'issue-1546-D' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 7.0; SM-G950F Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36',
@@ -215,7 +212,6 @@ return [
         ],
         'lite' => true,
         'standard' => true,
-        'full' => true,
     ],
     'issue-1546-E' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 7.0; SM-G950F Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/121.0.0.20.69;]',
@@ -269,7 +265,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => true,
     ],
     'issue-1546-F' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 7.0; SM-G950F Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36 Maxthon/4.1.4.2000',
@@ -323,6 +318,5 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => true,
     ],
 ];

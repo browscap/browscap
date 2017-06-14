@@ -109,6 +109,26 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-381-B (standard)' => [
+        'ua' => 'NGM Dynamic Racing 2/V2 Linux/3.0.13 Android/4.2 Release/02.15.2012 Browser/AppleWebKit534.30 Mobile Safari/534.30 MBBMS/2.2 System/Android 4.2.2;',
+        'properties' => [
+            'Comment' => 'Android Browser 4.0',
+            'Browser' => 'Android',
+            'Browser_Maker' => 'Google Inc',
+            'Version' => '4.0',
+            'MajorVer' => '4',
+            'MinorVer' => '0',
+            'Platform' => 'Android',
+            'isMobileDevice' => true,
+            'isTablet' => false,
+            'Crawler' => false,
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-381-C' => [
         'ua' => 'Athens15_TD/V2 Linux/3.0.13 Android/4.0 Release/02.15.2012 Browser/AppleWebKit534.30 Mobile Safari/534.30 MBBMS/2.2 System/Android 4.0.1;',
         'properties' => [

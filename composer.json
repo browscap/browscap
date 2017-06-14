@@ -39,8 +39,8 @@
     "phpunit/phpunit": "^6.2",
     "browscap/browscap-php": "^3.1.0",
     "mikey179/vfsStream": "^1.6",
-    "squizlabs/php_codesniffer": "^2.8",
-    "friendsofphp/php-cs-fixer": "^1.11",
+    "squizlabs/php_codesniffer": "^2.9",
+    "friendsofphp/php-cs-fixer": "^2.3",
     "seld/jsonlint": "^1.5"
   },
   "autoload": {

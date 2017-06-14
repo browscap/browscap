@@ -8,6 +8,7 @@
  * file that was distributed with this source code.
  */
 
+declare(strict_types = 1);
 namespace Browscap\Data\Factory;
 
 use Browscap\Data\Engine;
@@ -16,7 +17,8 @@ use Browscap\Data\Engine;
  * Class EngineFactory
  *
  * @category   Browscap
- * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
+ *
+ * @author     Thomas Müller <mimmi20@live.de>
  */
 class EngineFactory
 {
@@ -27,7 +29,8 @@ class EngineFactory
      * @param array  $json
      * @param string $engineName
      *
-     * @throws \RuntimeException     if the file does not exist or has invalid JSON
+     * @throws \RuntimeException if the file does not exist or has invalid JSON
+     *
      * @return \Browscap\Data\Engine
      */
     public function build(array $engineData, array $json, $engineName)

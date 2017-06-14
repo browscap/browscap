@@ -8,6 +8,7 @@
  * file that was distributed with this source code.
  */
 
+declare(strict_types = 1);
 namespace Browscap\Generator;
 
 use Browscap\Helper\CollectionCreator;
@@ -18,8 +19,9 @@ use Psr\Log\LoggerInterface;
  * Class BuildGenerator
  *
  * @category   Browscap
+ *
  * @author     James Titcumb <james@asgrim.com>
- * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
+ * @author     Thomas Müller <mimmi20@live.de>
  */
 abstract class AbstractBuildGenerator
 {
@@ -70,7 +72,7 @@ abstract class AbstractBuildGenerator
      *
      * @return \Browscap\Generator\AbstractBuildGenerator
      */
-    public function setLogger(LoggerInterface $logger)
+    public function setLogger(LoggerInterface $logger): self
     {
         $this->logger = $logger;
 
@@ -80,7 +82,7 @@ abstract class AbstractBuildGenerator
     /**
      * @return \Psr\Log\LoggerInterface
      */
-    public function getLogger()
+    public function getLogger(): LoggerInterface
     {
         return $this->logger;
     }
@@ -92,7 +94,7 @@ abstract class AbstractBuildGenerator
      *
      * @return \Browscap\Generator\AbstractBuildGenerator
      */
-    public function setCollectPatternIds(bool $value) : self
+    public function setCollectPatternIds(bool $value): self
     {
         $this->collectPatternIds = (bool) $value;
 
@@ -104,7 +106,7 @@ abstract class AbstractBuildGenerator
      *
      * @return \Browscap\Generator\AbstractBuildGenerator
      */
-    public function setCollectionCreator(CollectionCreator $collectionCreator)
+    public function setCollectionCreator(CollectionCreator $collectionCreator): self
     {
         $this->collectionCreator = $collectionCreator;
 
@@ -114,7 +116,7 @@ abstract class AbstractBuildGenerator
     /**
      * @return \Browscap\Helper\CollectionCreator
      */
-    public function getCollectionCreator()
+    public function getCollectionCreator(): CollectionCreator
     {
         return $this->collectionCreator;
     }
@@ -124,7 +126,7 @@ abstract class AbstractBuildGenerator
      *
      * @return \Browscap\Generator\AbstractBuildGenerator
      */
-    public function setWriterCollection(WriterCollection $writerCollection)
+    public function setWriterCollection(WriterCollection $writerCollection): self
     {
         $this->writerCollection = $writerCollection;
 
@@ -134,7 +136,7 @@ abstract class AbstractBuildGenerator
     /**
      * @return \Browscap\Writer\WriterCollection
      */
-    public function getWriterCollection()
+    public function getWriterCollection(): WriterCollection
     {
         return $this->writerCollection;
     }
@@ -144,9 +146,10 @@ abstract class AbstractBuildGenerator
      * @param string $type
      *
      * @throws \Exception
+     *
      * @return string
      */
-    protected function checkDirectoryExists($directory, $type)
+    protected function checkDirectoryExists($directory, $type): string
     {
         if (!isset($directory)) {
             throw new \Exception('You must specify a ' . $type . ' folder');
@@ -172,12 +175,13 @@ abstract class AbstractBuildGenerator
      *
      * @return \Browscap\Generator\AbstractBuildGenerator
      */
-    public function run($version)
+    public function run(string $version)
     {
-        return $this
-            ->preBuild()
-            ->build($version)
-            ->postBuild();
+        $this->preBuild();
+        $this->build($version);
+        $this->postBuild();
+
+        return $this;
     }
 
     /**
@@ -200,7 +204,7 @@ abstract class AbstractBuildGenerator
      *
      * @return \Browscap\Generator\AbstractBuildGenerator
      */
-    protected function build($version)
+    protected function build(string $version): self
     {
         Helper\BuildHelper::run(
             $version,

@@ -1,7 +1,4 @@
 <?php
-
-declare(strict_types=1);
-
 /**
  * This file is part of the browscap package.
  *
@@ -11,6 +8,7 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
+declare(strict_types = 1);
 namespace Browscap\Data;
 
 use Psr\Log\LoggerInterface;
@@ -19,7 +17,8 @@ use Psr\Log\LoggerInterface;
  * Class Expander
  *
  * @category   Browscap
- * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
+ *
+ * @author     Thomas Müller <mimmi20@live.de>
  */
 class Expander
 {
@@ -50,11 +49,11 @@ class Expander
     /**
      * Set the data collection
      *
-     * @param  \Browscap\Data\DataCollection $collection
+     * @param \Browscap\Data\DataCollection $collection
      *
      * @return \Browscap\Data\Expander
      */
-    public function setDataCollection(DataCollection $collection) : self
+    public function setDataCollection(DataCollection $collection): self
     {
         $this->collection = $collection;
 
@@ -68,12 +67,12 @@ class Expander
      *
      * @return string[]
      */
-    public function getVersionParts(string $version) : array
+    public function getVersionParts(string $version): array
     {
         $dots = explode('.', $version, 2);
 
         $majorVer = $dots[0];
-        $minorVer = (isset($dots[1]) ? $dots[1] : 0);
+        $minorVer = (isset($dots[1]) ? $dots[1] : '0');
 
         return [$majorVer, $minorVer];
     }
@@ -83,9 +82,10 @@ class Expander
      * @param string                  $divisionName
      *
      * @throws \UnexpectedValueException
+     *
      * @return array
      */
-    public function expand(Division $division, string $divisionName) : array
+    public function expand(Division $division, string $divisionName): array
     {
         $allInputDivisions = $this->parseDivision(
             $division,
@@ -97,8 +97,6 @@ class Expander
 
     /**
      * Resets the pattern id
-     *
-     * @return void
      */
     private function resetPatternId()
     {
@@ -119,7 +117,7 @@ class Expander
      *
      * @return array
      */
-    private function parseDivision(Division $division, string $divisionName) : array
+    private function parseDivision(Division $division, string $divisionName): array
     {
         $output = [];
 
@@ -156,7 +154,7 @@ class Expander
      *
      * @return array
      */
-    private function parseUserAgent(array $uaData, bool $lite, bool $standard, int $sortIndex, string $divisionName) : array
+    private function parseUserAgent(array $uaData, bool $lite, bool $standard, int $sortIndex, string $divisionName): array
     {
         if (!isset($uaData['properties']) || !is_array($uaData['properties'])) {
             throw new \LogicException('properties are missing or not an array for key "' . $uaData['userAgent'] . '"');
@@ -263,7 +261,7 @@ class Expander
      *
      * @return string
      */
-    public function parseProperty(string $value, string $majorVer, string $minorVer) : string
+    public function parseProperty(string $value, string $majorVer, string $minorVer): string
     {
         return str_replace(
             ['#MAJORVER#', '#MINORVER#'],
@@ -276,9 +274,10 @@ class Expander
      * Get the data collection
      *
      * @throws \LogicException
+     *
      * @return \Browscap\Data\DataCollection
      */
-    public function getDataCollection() : DataCollection
+    public function getDataCollection(): DataCollection
     {
         if (!isset($this->collection)) {
             throw new \LogicException('Data collection has not been set yet - call setDataCollection');
@@ -297,7 +296,7 @@ class Expander
      *
      * @return \array[]
      */
-    private function parseChildren(string $ua, array $uaDataChild, bool $lite = true, bool $standard = true) : array
+    private function parseChildren(string $ua, array $uaDataChild, bool $lite = true, bool $standard = true): array
     {
         $output = [];
 
@@ -413,7 +412,7 @@ class Expander
      *
      * @return string
      */
-    private function getPatternId() : string
+    private function getPatternId(): string
     {
         return sprintf(
             '%s::u%d::c%d::d%s::p%s',
@@ -432,7 +431,6 @@ class Expander
      * @param string   $message
      *
      * @throws \LogicException
-     * @return void
      */
     private function checkPlatformData(array $properties, string $message)
     {
@@ -453,7 +451,6 @@ class Expander
      * @param string   $message
      *
      * @throws \LogicException
-     * @return void
      */
     private function checkEngineData(array $properties, string $message)
     {
@@ -473,9 +470,10 @@ class Expander
      * @param array $allInputDivisions
      *
      * @throws \UnexpectedValueException
+     *
      * @return array
      */
-    private function expandProperties(array $allInputDivisions) : array
+    private function expandProperties(array $allInputDivisions): array
     {
         $this->getLogger()->debug('expand all properties');
         $allDivisions = [];
@@ -535,7 +533,11 @@ class Expander
             unset($parents);
 
             foreach (array_keys($browserData) as $propertyName) {
-                $properties[$propertyName] = $this->trimProperty((string) $browserData[$propertyName]);
+                if (is_bool($browserData[$propertyName])) {
+                    $properties[$propertyName] = $browserData[$propertyName];
+                } else {
+                    $properties[$propertyName] = $this->trimProperty((string) $browserData[$propertyName]);
+                }
             }
 
             unset($browserData);
@@ -581,7 +583,7 @@ class Expander
     /**
      * trims the value of a property and converts the string values "true" and "false" to boolean
      *
-     * @param string|bool $propertyValue
+     * @param string $propertyValue
      *
      * @return string|bool
      */
@@ -605,7 +607,7 @@ class Expander
     /**
      * @return \Psr\Log\LoggerInterface $logger
      */
-    public function getLogger() : LoggerInterface
+    public function getLogger(): LoggerInterface
     {
         return $this->logger;
     }
@@ -615,7 +617,7 @@ class Expander
      *
      * @return \Browscap\Data\Expander
      */
-    public function setLogger(LoggerInterface $logger) : self
+    public function setLogger(LoggerInterface $logger): self
     {
         $this->logger = $logger;
 
