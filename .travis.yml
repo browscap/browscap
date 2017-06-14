@@ -15,12 +15,17 @@ env:
 
 matrix:
   include:
-    - php: 7.0
+    - php: 7.1
       env: COVERAGE=yes
-    - php: 7.0
+      sudo: required
+      dist: trusty
+      group: edge
+    - php: 7.1
       env: EXECUTE_CS_CHECK=yes
     - php: 7.1
       env: COMPARE=yes
+    - php: nightly
+      env: COMPOSER_FLAGS="--ignore-platform-reqs"
   allow_failures:
     - php: nightly
 
@@ -29,25 +34,27 @@ cache:
     - $HOME/.composer/cache
 
 before_install:
-  - if [[ $TRAVIS_PHP_VERSION != hhvm && $TRAVIS_PHP_VERSION != nightly && $COVERAGE != yes ]]; then phpenv config-rm xdebug.ini; fi
-  - if [[ $TRAVIS_PHP_VERSION != hhvm ]]; then echo 'opcache.enable=1' >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini; fi
-  - if [[ $TRAVIS_PHP_VERSION != hhvm ]]; then echo 'opcache.enable_cli=1' >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini; fi
-  - if [[ $TRAVIS_PHP_VERSION == hhvm ]]; then echo 'opcache.enable=1' >> /etc/hhvm/php.ini; fi
-  - if [[ $TRAVIS_PHP_VERSION == hhvm ]]; then echo 'opcache.enable_cli=1' >> /etc/hhvm/php.ini; fi
+  - if [[ $TRAVIS_PHP_VERSION != nightly && $COVERAGE != yes ]]; then phpenv config-rm xdebug.ini; fi
+  - echo 'opcache.enable=1' >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
+  - echo 'opcache.enable_cli=1' >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
   - travis_retry composer self-update
 
 install:
-  - travis_retry composer update --optimize-autoloader --prefer-dist --prefer-stable --no-progress --no-interaction -vv $COMPOSER_FLAGS
+  - travis_retry composer update --optimize-autoloader --prefer-dist --prefer-stable --no-progress --no-interaction --verbose $COMPOSER_FLAGS
 
 script:
-  - composer validate --strict
-  - if [[ $COVERAGE == yes ]]; then vendor/bin/phpunit --exclude-group useragenttest --coverage-text --coverage-clover=coverage.clover; fi
-  - if [[ $COVERAGE != yes && $COMPARE != yes ]]; then vendor/bin/phpunit --exclude-group useragenttest --no-coverage; fi
-  - if [[ $COMPARE == yes ]]; then php -n vendor/bin/phpunit --no-coverage --colors --group useragenttest; fi
+  - composer validate
+  - if [[ $COVERAGE == yes ]]; then vendor/bin/phpunit --exclude-group useragenttest --coverage-text --coverage-clover=clover.xml --colors; fi
+  - if [[ $COVERAGE != yes && $COMPARE != yes ]]; then php -n vendor/bin/phpunit --exclude-group useragenttest --no-coverage --colors; fi
+  - if [[ $COMPARE == yes ]]; then php -n vendor/bin/phpunit -c tests/phpunit-compare.xml.dist --no-coverage --colors tests/UserAgentsTest/FullTest.php; fi
+  - if [[ $COMPARE == yes ]]; then php -n vendor/bin/phpunit -c tests/phpunit-compare.xml.dist --no-coverage --colors tests/UserAgentsTest/StandardTest.php; fi
+  - if [[ $COMPARE == yes ]]; then php -n vendor/bin/phpunit -c tests/phpunit-compare.xml.dist --no-coverage --colors tests/UserAgentsTest/LiteTest.php; fi
   - if [[ $EXECUTE_CS_CHECK == yes ]]; then php -n -d memory_limit=768M vendor/bin/phpcs; fi
-
-after_script:
-  - if [[ $COVERAGE == yes ]]; then wget https://scrutinizer-ci.com/ocular.phar && php ocular.phar code-coverage:upload --format=php-clover coverage.clover; fi
+  - if [[ $EXECUTE_CS_CHECK == yes ]]; then php -n -d memory_limit=768M vendor/bin/php-cs-fixer fix --dry-run -vv; fi
 
 after_success:
-  - if [[ $COVERAGE == yes || $COMPARE == yes ]]; then bash <(curl -s https://codecov.io/bash); fi
+  - if [[ $COVERAGE == yes ]]; then wget https://scrutinizer-ci.com/ocular.phar && php ocular.phar code-coverage:upload --format=php-clover clover.xml; fi
+  - if [[ $COVERAGE == yes ]]; then bash <(curl -s https://codecov.io/bash) -f clover.xml -F phpunit; fi
+  - if [[ $COMPARE == yes ]]; then bash <(curl -s https://codecov.io/bash) -f coverage-full.json -F full; fi
+  - if [[ $COMPARE == yes ]]; then bash <(curl -s https://codecov.io/bash) -f coverage-standard.json -F standard; fi
+  - if [[ $COMPARE == yes ]]; then bash <(curl -s https://codecov.io/bash) -f coverage-lite.json -F lite; fi

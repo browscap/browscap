@@ -1,30 +1,14 @@
 <?php
 /**
- * Copyright (c) 1998-2017 Browser Capabilities Project
+ * This file is part of the browscap package.
  *
- * Permission is hereby granted, free of charge, to any person obtaining a
- * copy of this software and associated documentation files (the "Software"),
- * to deal in the Software without restriction, including without limitation
- * the rights to use, copy, modify, merge, publish, distribute, sublicense,
- * and/or sell copies of the Software, and to permit persons to whom the
- * Software is furnished to do so, subject to the following conditions:
+ * Copyright (c) 1998-2017, Browser Capabilities Project
  *
- * The above copyright notice and this permission notice shall be included
- * in all copies or substantial portions of the Software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
- * OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
- * THE SOFTWARE.
- *
- * @category   BrowscapTest
- * @copyright  1998-2017 Browser Capabilities Project
- * @license    MIT
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
  */
 
+declare(strict_types = 1);
 namespace BrowscapTest\Generator;
 
 use Browscap\Generator\BuildCustomFileGenerator;
@@ -35,6 +19,7 @@ use Monolog\Logger;
  * Class BuildGeneratorTest
  *
  * @category   BrowscapTest
+ *
  * @author     James Titcumb <james@asgrim.com>
  */
 class BuildCustomFileGeneratorTest extends \PHPUnit\Framework\TestCase
@@ -64,12 +49,12 @@ class BuildCustomFileGeneratorTest extends \PHPUnit\Framework\TestCase
      *
      * @group generator
      * @group sourcetest
-     *
-     * @expectedException \Exception
-     * @expectedExceptionMessage You must specify a resource folder
      */
     public function testConstructFailsWithoutParameters()
     {
+        $this->expectException('\Exception');
+        $this->expectExceptionMessage('You must specify a resource folder');
+
         new BuildCustomFileGenerator(null, null);
     }
 
@@ -78,12 +63,12 @@ class BuildCustomFileGeneratorTest extends \PHPUnit\Framework\TestCase
      *
      * @group generator
      * @group sourcetest
-     *
-     * @expectedException \Exception
-     * @expectedExceptionMessage You must specify a build folder
      */
     public function testConstructFailsWithoutTheSecondParameter()
     {
+        $this->expectException('\Exception');
+        $this->expectExceptionMessage('You must specify a build folder');
+
         new BuildCustomFileGenerator('.', null);
     }
 
@@ -92,12 +77,12 @@ class BuildCustomFileGeneratorTest extends \PHPUnit\Framework\TestCase
      *
      * @group generator
      * @group sourcetest
-     *
-     * @expectedException \Exception
-     * @expectedExceptionMessage The directory "/dar" does not exist, or we cannot access it
      */
     public function testConstructFailsIfTheDirDoesNotExsist()
     {
+        $this->expectException('\Exception');
+        $this->expectExceptionMessage('The directory "/dar" does not exist, or we cannot access it');
+
         new BuildCustomFileGenerator('/dar', null);
     }
 

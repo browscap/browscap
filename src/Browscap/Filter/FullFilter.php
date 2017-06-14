@@ -8,6 +8,7 @@
  * file that was distributed with this source code.
  */
 
+declare(strict_types = 1);
 namespace Browscap\Filter;
 
 use Browscap\Data\Division;
@@ -18,10 +19,28 @@ use Browscap\Writer\WriterInterface;
  * Class FullFilter
  *
  * @category   Browscap
- * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
+ *
+ * @author     Thomas Müller <mimmi20@live.de>
  */
 class FullFilter implements FilterInterface
 {
+    /**
+     * @var \Browscap\Data\PropertyHolder
+     */
+    private $propertyHolder = null;
+
+    /**
+     * @param \Browscap\Data\PropertyHolder $propertyHolder
+     */
+    public function __construct(PropertyHolder $propertyHolder = null)
+    {
+        if (null === $propertyHolder) {
+            $this->propertyHolder = new PropertyHolder();
+        } else {
+            $this->propertyHolder = $propertyHolder;
+        }
+    }
+
     /**
      * returns the Type of the filter
      *
@@ -66,8 +85,6 @@ class FullFilter implements FilterInterface
      */
     public function isOutputProperty($property, WriterInterface $writer = null)
     {
-        $propertyHolder = new PropertyHolder();
-
-        return $propertyHolder->isOutputProperty($property, $writer);
+        return $this->propertyHolder->isOutputProperty($property, $writer);
     }
 }

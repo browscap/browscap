@@ -1,7 +1,4 @@
 <?php
-
-declare(strict_types=1);
-
 /**
  * This file is part of the browscap package.
  *
@@ -11,13 +8,15 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
+declare(strict_types = 1);
 namespace Browscap\Data;
 
 /**
  * Class Division
  *
  * @category   Browscap
- * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
+ *
+ * @author     Thomas Müller <mimmi20@live.de>
  */
 class Division
 {
@@ -86,7 +85,7 @@ class Division
     /**
      * @return bool
      */
-    public function isLite() : bool
+    public function isLite(): bool
     {
         return $this->lite;
     }
@@ -94,7 +93,7 @@ class Division
     /**
      * @return bool
      */
-    public function isStandard() : bool
+    public function isStandard(): bool
     {
         return $this->standard;
     }
@@ -102,7 +101,7 @@ class Division
     /**
      * @return string
      */
-    public function getName() : string
+    public function getName(): string
     {
         return $this->name;
     }
@@ -110,7 +109,7 @@ class Division
     /**
      * @return int
      */
-    public function getSortIndex() : int
+    public function getSortIndex(): int
     {
         return $this->sortIndex;
     }
@@ -118,7 +117,7 @@ class Division
     /**
      * @return array
      */
-    public function getUserAgents() : array
+    public function getUserAgents(): array
     {
         return $this->userAgents;
     }
@@ -126,7 +125,7 @@ class Division
     /**
      * @return array
      */
-    public function getVersions() : array
+    public function getVersions(): array
     {
         return $this->versions;
     }
@@ -134,7 +133,7 @@ class Division
     /**
      * @return string
      */
-    public function getFileName() : string
+    public function getFileName(): string
     {
         return $this->fileName;
     }

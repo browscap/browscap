@@ -8,6 +8,7 @@
  * file that was distributed with this source code.
  */
 
+declare(strict_types = 1);
 namespace Browscap\Command;
 
 use Browscap\Generator\BuildGenerator;
@@ -26,6 +27,7 @@ use Symfony\Component\Console\Output\OutputInterface;
  * Class GrepCommand
  *
  * @category   Browscap
+ *
  * @author     James Titcumb <james@asgrim.com>
  */
 class GrepCommand extends Command
@@ -78,7 +80,8 @@ class GrepCommand extends Command
      * @param OutputInterface $output An OutputInterface instance
      *
      * @throws \Exception
-     * @return null|int   null or 0 if everything went fine, or an error code
+     *
+     * @return null|int null or 0 if everything went fine, or an error code
      *
      * @see    setCode()
      */

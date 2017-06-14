@@ -8,6 +8,7 @@
  * file that was distributed with this source code.
  */
 
+declare(strict_types = 1);
 namespace Browscap\Generator;
 
 use Browscap\Command\GrepCommand;
@@ -18,7 +19,8 @@ use Psr\Log\LoggerInterface;
  * Class GrepGenerator
  *
  * @category   Browscap
- * @author     Thomas Müller <t_mueller_stolzenhain@yahoo.de>
+ *
+ * @author     Thomas Müller <mimmi20@live.de>
  */
 class GrepGenerator
 {
@@ -46,7 +48,7 @@ class GrepGenerator
 
         $fileContents = file_get_contents($inputFile);
 
-        if (false !== strpos("\r\n", $fileContents)) {
+        if (false !== mb_strpos("\r\n", $fileContents)) {
             $uas = explode("\r\n", $fileContents);
         } else {
             $uas = explode("\n", $fileContents);

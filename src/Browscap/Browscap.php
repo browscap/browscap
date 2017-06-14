@@ -8,6 +8,7 @@
  * file that was distributed with this source code.
  */
 
+declare(strict_types = 1);
 namespace Browscap;
 
 use Symfony\Component\Console\Application;
@@ -16,6 +17,7 @@ use Symfony\Component\Console\Application;
  * Class Browscap
  *
  * @category   Browscap
+ *
  * @author     James Titcumb <james@asgrim.com>
  */
 class Browscap extends Application
