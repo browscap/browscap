@@ -1687,6 +1687,16 @@
         "Platform_Bits": "64"
       }
     },
+    "Linux_64_ARM": {
+      "match": "*Linux aarch64*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Linux",
+      "properties": {
+        "Browser_Bits": "64",
+        "Platform_Bits": "64"
+      }
+    },
     "Linux_PPC": {
       "match": "*Linux*; PPC*",
       "lite": false,
@@ -1710,6 +1720,32 @@
       "lite": false,
       "standard": false,
       "inherits": "Linux"
+    },
+    "Chromecast_OS_ARM": {
+      "match": "*Linux* arm*",
+      "lite": false,
+      "standard": false,
+      "properties": {
+        "Platform": "Chromecast OS",
+        "Platform_Maker": "Google Inc",
+        "Platform_Description": "Chromecast OS is a Linux/Android based Platform for the Chromecast",
+        "Platform_Version": "unknown",
+        "Win16": "false",
+        "Win32": "false",
+        "Win64": "false",
+        "Browser_Bits": "32",
+        "Platform_Bits": "32"
+      }
+    },
+    "Chromecast_OS_64_ARM": {
+      "match": "*Linux aarch64*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Chromecast_OS_ARM",
+      "properties": {
+        "Browser_Bits": "64",
+        "Platform_Bits": "64"
+      }
     },
     "Debian": {
       "match": "*Linux*",

@@ -328,6 +328,20 @@
           "platforms": [
             "Linux_64", "Linux"
           ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit*(*khtml*like*gecko*) Chrome/* CrKey/*",
+          "device": "Google Chromecast",
+          "platforms": [
+            "Chromecast_OS_ARM", "Chromecast_OS_64_ARM"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (*CrKey arm*) applewebkit*(*khtml*like*gecko*) Chrome/*",
+          "device": "Google Chromecast",
+          "platforms": [
+            "Chromecast_OS_ARM"
+          ]
         }
       ]
     }
