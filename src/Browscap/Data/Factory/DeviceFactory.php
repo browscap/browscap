@@ -1,6 +1,6 @@
 <?php
 /**
- * Copyright (c) 1998-2014 Browser Capabilities Project
+ * Copyright (c) 1998-2017 Browser Capabilities Project
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as
  * published by the Free Software Foundation, either version 3 of the
@@ -8,7 +8,7 @@
  * Refer to the LICENSE file distributed with this package.
  *
  * @category   Browscap
- * @copyright  1998-2014 Browser Capabilities Project
+ * @copyright  1998-2017 Browser Capabilities Project
  * @license    MIT
  */
 
