@@ -54,7 +54,7 @@ script:
 
 after_success:
   - if [[ $COVERAGE == yes ]]; then wget https://scrutinizer-ci.com/ocular.phar && php ocular.phar code-coverage:upload --format=php-clover clover.xml; fi
-  - if [[ $COVERAGE == yes ]]; then bash <(curl -s https://codecov.io/bash) -f clover.xml -F phpunit; fi
+  - if [[ $COVERAGE == yes ]]; then bash <(curl -s https://codecov.io/bash) -f clover.xml; fi
   - if [[ $COMPARE == yes ]]; then bash <(curl -s https://codecov.io/bash) -f coverage-full.json -F full; fi
   - if [[ $COMPARE == yes ]]; then bash <(curl -s https://codecov.io/bash) -f coverage-standard.json -F standard; fi
   - if [[ $COMPARE == yes ]]; then bash <(curl -s https://codecov.io/bash) -f coverage-lite.json -F lite; fi
