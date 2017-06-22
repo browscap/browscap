@@ -27,11 +27,6 @@ use Monolog\Logger;
 use WurflCache\Adapter\File;
 
 /**
- * Class UserAgentsTest
- *
- * @category   BrowscapTest
- *
- * @author     James Titcumb <james@asgrim.com>
  * @group      useragenttest
  * @group      standard
  */
@@ -67,9 +62,6 @@ class StandardTest extends \PHPUnit\Framework\TestCase
      */
     private static $filter = null;
 
-    /**
-     * This method is called before the first test of this test class is run.
-     */
     public static function setUpBeforeClass()
     {
         // First, generate the INI files
@@ -189,14 +181,6 @@ class StandardTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * @return array[]
-     */
-    public function userAgentDataProviderFull()
-    {
-        return $this->userAgentDataProvider();
-    }
-
-    /**
      * @dataProvider userAgentDataProvider
      * @coversNothing
      *
@@ -206,7 +190,7 @@ class StandardTest extends \PHPUnit\Framework\TestCase
      * @throws \Exception
      * @throws \BrowscapPHP\Exception
      */
-    public function testUserAgentsStandard($userAgent, $expectedProperties)
+    public function testUserAgents($userAgent, $expectedProperties)
     {
         if (!is_array($expectedProperties) || !count($expectedProperties)) {
             self::markTestSkipped('Could not run test - no properties were defined to test');
