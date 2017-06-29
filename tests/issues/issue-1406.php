@@ -73,7 +73,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-B' => [
         'ua' => 'Nokia6280/2.0 (03.60) Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -147,7 +147,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-C' => [
         'ua' => 'NokiaC3-00/5.0 (07.80) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
@@ -221,7 +221,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-D' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 NokiaE63-1/510.21.010; Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
@@ -457,7 +457,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-H' => [
         'ua' => 'Mozilla/5.0 (Symbian/3; Series60/5.3 NokiaN8-00/111.030.0609; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/533.4 (KHTML, like Gecko) NokiaBrowser/7.4.2.6 Mobile Safari/533.4 3gpp-gba',
@@ -531,7 +531,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-I' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.3; Series60/3.2 NokiaE72-1/031.023; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/525 (KHTML, like Gecko) Version/3.0 BrowserNG/7.2.3.1',
@@ -713,7 +713,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-L' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.3; Series60/3.2 NokiaE5-00.2/@version@; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/533.4 (KHTML, like Gecko) NokiaBrowser/7.3.1.26 Mobile Safari/533.4 3gpp-gba',
@@ -841,7 +841,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-N' => [
         'ua' => 'Mozilla/5.0 (Symbian/3; Series60/5.2 NokiaC7-00/022.014; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/533.4 (KHTML, like Gecko) NokiaBrowser/7.3.1.37 Mobile Safari/533.4 3gpp-gba',
@@ -915,7 +915,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-O' => [
         'ua' => 'Mozilla/5.0 (Symbian/3; Series60/5.3 Nokia701/111.010.1009; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/533.4 (KHTML, like Gecko) NokiaBrowser/7.4.1.12 Mobile Safari/533.4 3gpp-gba',
@@ -989,7 +989,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-P' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.3; Series60/3.2 NokiaE5-00/101.003; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/533.4 (KHTML, like Gecko) NokiaBrowser/7.3.1.35 Mobile Safari/533.4 3gpp-gba',
@@ -1171,7 +1171,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-S' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 NokiaC6-00/42.0.004; Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/533.4 (KHTML, like Gecko) NokiaBrowser/7.3.1.33 3gpp-gba',
@@ -1353,7 +1353,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-V' => [
         'ua' => 'Nokia7610/2.0 (5.0509.0) SymbianOS/7.0s Series60/2.1 Profile/MIDP-2.0 Configuration/CLDC-1.0',
@@ -1427,7 +1427,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-W' => [
         'ua' => 'Nokia6100/1.0 (04.01) Profile/MIDP-1.0 Configuration/CLDC-1.0',
@@ -1501,7 +1501,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-X' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.3; Series60/3.2 NokiaE72-1/091.003; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/533.4 (KHTML, like Gecko) NokiaBrowser/7.3.1.34 Mobile Safari/533.4 3gpp-gba',
@@ -1629,7 +1629,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-Z' => [
         'ua' => 'Nokia6500c/2.0 (09.48) Profile/MIDP-2.1 Configuration/CLDC-1.1',
@@ -1703,7 +1703,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-AA' => [
         'ua' => 'NokiaC6-00/10.0.021 (SymbianOS/9.4; Series60/5.0 Mozilla/5.0; Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebkit/525 (KHTML, like Gecko) BrowserNG/7.2.6 UNTRUSTED/1.0 3gpp-gba',
@@ -1831,7 +1831,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-AC' => [
         'ua' => 'Nokia3650/1.0 SymbianOS/6.1 Series60/1.2 Profile/MIDP-1.0 Configuration/CLDC-1.0 UP.Link/5.1.2.10',
@@ -1886,26 +1886,6 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
-    ],
-    'issue-1406-AC (standard)' => [
-        'ua' => 'Nokia3650/1.0 SymbianOS/6.1 Series60/1.2 Profile/MIDP-1.0 Configuration/CLDC-1.0 UP.Link/5.1.2.10',
-        'properties' => [
-            'Comment' => 'Openwave Mobile Browser 5.1',
-            'Browser' => 'Openwave Mobile Browser',
-            'Browser_Maker' => 'Myriad Group',
-            'Version' => '5.1',
-            'MajorVer' => '5',
-            'MinorVer' => '1',
-            'Platform' => 'unknown',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Crawler' => false,
-            'Device_Type' => 'Mobile Phone',
-            'Device_Pointing_Method' => 'unknown',
-        ],
-        'lite' => false,
-        'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
     ],
     'issue-1406-AD' => [
         'ua' => 'Mozilla/5.0 (Symbian/3; Series60/5.2 NokiaC7-00/013.016; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/525 (KHTML, like Gecko) Version/3.0 BrowserNG/7.2.8.10 3gpp-gba',
@@ -1979,7 +1959,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-AE' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 NokiaN97-1/21.0.045; Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/525 (KHTML, like Gecko) BrowserNG/7.1.4',
@@ -2107,7 +2087,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-AG' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 NokiaC5-03/21.0.003; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/533.4 (KHTML, like Gecko) NokiaBrowser/7.3.1.30 Mobile Safari/533.4 3gpp-gba',
@@ -2289,7 +2269,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-AJ' => [
         'ua' => 'Mozilla/5.0 (Symbian/3; Series60/5.2 Nokia500/010.029; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/533.4 (KHTML, like Gecko) NokiaBrowser/7.3.1.37 Mobile Safari/533.4 3gpp-gba',
@@ -2363,7 +2343,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-AK' => [
         'ua' => 'Mozilla/5.0 (Symbian/3; Series60/5.3 NokiaE7-00/111.040.1511; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/535.1 (KHTML, like Gecko) NokiaBrowser/8.3.1.4 Mobile Safari/535.1',
@@ -2491,7 +2471,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-AM' => [
         'ua' => 'Mozilla/5.0 (Symbian/3; Series60/5.3 Nokia701/111.020.0307; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/533.4 (KHTML, like Gecko) NokiaBrowser/7.4.1.14 Mobile Safari/533.4 3gpp-gba',
@@ -2565,7 +2545,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-AN' => [
         'ua' => 'Mozilla/5.0 (Symbian/3; Series60/5.2 NokiaN8-00/012.002; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/533.4 (KHTML, like Gecko) NokiaBrowser/7.3.0 Mobile Safari/533.4 3gpp-gba',
@@ -2639,7 +2619,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-AO' => [
         'ua' => 'NokiaN70-1/',
@@ -2713,7 +2693,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-AP' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.3; Series60/3.2 NokiaN86-1/10.016_tmo; Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/525 (KHTML, like Gecko) Version/3.0 BrowserNG/7.1.19424',
@@ -2895,7 +2875,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-AS' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 NokiaN97mini/30.0.004; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/533.4 (KHTML, like Gecko) NokiaBrowser/7.3.1.27 Mobile Safari/533.4 3gpp-gba',
@@ -2969,7 +2949,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-AT' => [
         'ua' => 'Nokia2320c-2b/2.0 (06.88) Profile/MIDP-2.1 Configuration/CLDC-1.1',
@@ -3043,7 +3023,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-AU' => [
         'ua' => 'Nokia2720a-2b/2.0 (08.20) Profile/MIDP-2.1 Configuration/CLDC-1.1',
@@ -3117,7 +3097,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-AV' => [
         'ua' => 'Nokia3120b/1.0 (05.01) Profile/MIDP-1.0 Configuration/CLDC-1.0',
@@ -3191,7 +3171,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-AW' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 Nokia5230-1b/20.2.005; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/525 (KHTML, like Gecko) Version/3.0 BrowserNG/7.2.3',
@@ -3265,7 +3245,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-AX' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 Nokia5230-1c/20.8.007; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/525 (KHTML, like Gecko) Version/3.0 BrowserNG/7.2.3',
@@ -3339,7 +3319,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-AY' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 Nokia5230-1d/20.4.005; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/525 (KHTML, like Gecko) Version/3.0 BrowserNG/7.2.3',
@@ -3413,7 +3393,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-AZ' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 Nokia5800d-1/20.7.006; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/525 (KHTML, like Gecko) Version/3.0 BrowserNG/7.2.3',
@@ -3595,7 +3575,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-BC' => [
         'ua' => 'Nokia8910i/1.0 (02.10) Profile/MIDP-1.0 Configuration/CLDC-1.0',
@@ -3669,7 +3649,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-BD' => [
         'ua' => 'Mozilla/5.0 (Symbian/3; Series60/5.2 NokiaC7-00s/022.014; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/533.4 (KHTML, like Gecko) NokiaBrowser/7.3.1.37 Mobile Safari/533.4 3gpp-gba',
@@ -3743,7 +3723,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-BE' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.1; U; [de]; NokiaE50-2/06.41.3.0 Series60/3.0) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
@@ -4141,7 +4121,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-BL' => [
         'ua' => 'Nokia6680/1.0 ((4.04.07) SymbianOS/8.0 Series60/2.6 Profile/MIDP-2.0 Configuration/CLDC-1.1 (for mobile crawler) )',
@@ -4215,7 +4195,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-BM' => [
         'ua' => 'Mozilla/5.0 (Symbian/3; Series60/5.2 NokiaN8-00/010.022; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/525 (KHTML, like Gecko) Version/3.0 BrowserNG/7.2.6.3 3gpp-gba,gzip(gfe),gzip(gfe)',
@@ -4289,7 +4269,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-BN' => [
         'ua' => 'Nokia3100/1.0 (04.01) Profile/MIDP-1.0 Configuration/CLDC-1.0',
@@ -4363,7 +4343,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-BO' => [
         'ua' => 'Nokia3650/1.0 (4.17) SymbianOS/6.1 Series60/1.2 Profile/MIDP-1.0 Configuration/CLDC-1.0',
@@ -4437,7 +4417,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-BP' => [
         'ua' => 'Nokia3650/1.0 SymbianOS/6.1 Series60/1.2 Profile/MIDP-1.0 Configuration/CLDC-1.0',
@@ -4511,7 +4491,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-BQ' => [
         'ua' => 'Nokia6100/1.0 (05.16)',
@@ -4585,7 +4565,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-BR' => [
         'ua' => 'Nokia6600/1.0 (3.42.1) SymbianOS/7.0s Series60/2.0 Profile/MIDP-2.0 Configuration/CLDC-1.0',
@@ -4659,7 +4639,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-BS' => [
         'ua' => 'Nokia6600/1.0 (4.09.1) SymbianOS/7.0s Series60/2.0 Profile/MIDP-2.0 Configuration/CLDC-1.0',
@@ -4733,7 +4713,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-BT' => [
         'ua' => 'Nokia6600/1.0 SymbianOS',
@@ -4807,7 +4787,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-BU' => [
         'ua' => 'Nokia6610/1.0 (5.63) Profile/MIDP-1.0 Configuration/CLDC-1.0',
@@ -4881,7 +4861,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-BV' => [
         'ua' => 'Nokia7250/1.0 (3.14)',
@@ -4955,7 +4935,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-BW' => [
         'ua' => 'Nokia7610/2.0 (3.0417.0ch) Symbian',
@@ -5029,7 +5009,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-BX' => [
         'ua' => 'NokiaN-Gage/1.0 (4.03) SymbianOS/6.1 Series60/0.9 Profile/MIDP-1.0 Configuration/CLDC-1.0',
@@ -5103,7 +5083,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-BY' => [
         'ua' => 'Nokia6600/1.0 (5.53.0) SymbianOS/7.0s Series60/2.0 Profile/MIDP-2.0 Configuration/CLDC-1.0 Novarra-Vision/7.3',
@@ -5177,7 +5157,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-BZ' => [
         'ua' => 'Nokia2730c-1/2.0 (09.41) Profile/MIDP-2.1 Configuration/CLDC-1.1',
@@ -5251,7 +5231,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-CA' => [
         'ua' => 'Nokia6300/2.0 (07.21) Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -5325,7 +5305,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-CB' => [
         'ua' => 'Nokia6303iclassic/5.0 (06.61) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420  (KHTML, like Gecko) Safari/420',
@@ -5399,7 +5379,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-CC' => [
         'ua' => 'Nokia6700c-1/2.0 (07.60) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
@@ -5473,7 +5453,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-CD' => [
         'ua' => 'NokiaC2-01/5.0 (10.50) Profile/MIDP-2.1 Configuration/CLDC-1.1',
@@ -5547,7 +5527,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-CE' => [
         'ua' => 'NokiaX2-00/5.0 (04.25) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
@@ -5621,7 +5601,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-CF' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.3; U; Series60/3.2 Nokia6760s-1/03.38; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
@@ -5803,7 +5783,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-CI' => [
         'ua' => 'Nokia7610/2.0 (6.0522.0) SymbianOS/7.0s Series60/2.1 Profile/MIDP-2.0 Configuration/CLDC-1.0',
@@ -5877,7 +5857,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-CJ' => [
         'ua' => 'NokiaN-Gage/1.0 SymbianOS/6.1 Series60/1.2 Profile/MIDP-1.0 Configuration/CLDC-1.0',
@@ -5951,7 +5931,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-CK' => [
         'ua' => 'NokiaN-GageQD/1.0 SymbianOS/6.1 Series60/1.2 Profile/MIDP-1.0 Configuration/CLDC-1.0',
@@ -6025,7 +6005,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-CL' => [
         'ua' => 'NokiaN70-1/3.0546.2.3 Series60/2.8 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -6099,7 +6079,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-CM' => [
         'ua' => 'NokiaN90-1/3.0545.5.1 Series60/2.8 Profile/MIDP-2.0 Configuration/CLDC-1.1 (en-US; rv:9.3.0) Clecko/20120116 Classilla/CFM',
@@ -6173,7 +6153,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-CN' => [
         'ua' => 'Mozilla/5.0 (MeeGo; NokiaN950-00/00) AppleWebKit/534.13 (KHTML, like Gecko) NokiaBrowser/8.5.0 Mobile Safari/534.13',
@@ -6247,7 +6227,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-CO' => [
         'ua' => 'Mozilla/5.0 (Symbian/3; Series60/5.2 NokiaC6-01/011.010; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/525 (KHTML, like Gecko) Version/3.0 BrowserNG/7.2.7.2 3gpp-gba',
@@ -6375,7 +6355,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-CQ' => [
         'ua' => 'Mozilla/5.0 (Symbian/3; Series60/5.3 VertuConstellationT/111.040.007; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/535.1 (KHTML, like Gecko) NokiaBrowser/8.3.1.4 Mobile Safari/535.1',
@@ -6449,7 +6429,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-CR' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.3; Series60/3.2 Nokia6710s/031.020; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/525 (KHTML, like Gecko) Version/3.0 BrowserNG/7.2.3.1',
@@ -6685,7 +6665,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-CV' => [
         'ua' => 'Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 NokiaN97-1/20.0.019; Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/525 (KHTML, like Gecko) BrowserNG/7.1.18124',
@@ -6813,7 +6793,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-CX' => [
         'ua' => 'Nokia6120c/GoBrowser',
@@ -6887,7 +6867,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-CY' => [
         'ua' => 'NokiaC2-01/5.0 (11.40) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; NokiaC2-01) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
@@ -7177,7 +7157,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-DD' => [
         'ua' => 'Nokia6600/1.0 (5.27.0) SymbianOS/7.0s Series60/2.0 Profile/MIDP-2.0 Configuration/CLDC-1.0/UC Browser7.9.1.120/27/402/UCWEB',
@@ -7251,7 +7231,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-DE' => [
         'ua' => 'VertuConstellationT/025.605 (Symbian/3; Series60/5.2 Mozilla/5.0; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/533.4 (KHTML, like Gecko) NokiaBrowser/7.3.1.37 Mobile Safari/533.4 3gpp-gba',
@@ -7379,7 +7359,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-DG' => [
         'ua' => 'NokiaN97/21.1.107 (SymbianOS/9.4; Series60/5.0 Mozilla/5.0; Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebkit/525 (KHTML, like Gecko) BrowserNG/7.1.4',
@@ -7507,7 +7487,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-DI' => [
         'ua' => 'NokiaE72/071.004 (SymbianOS/9.3; U; Series60/3.2 Mozilla/5.0; Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/525 (KHTML, like Gecko) Version/3.0 BrowserNG/7.2.3.1',
@@ -7581,7 +7561,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-DJ' => [
         'ua' => 'Nokia5236/51.9.002 (SymbianOS/9.4; U; Series60/5.0; Mozilla/5.0; Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/413 (KHTML,like Gecko) Safari/413',
@@ -7655,7 +7635,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-DK' => [
         'ua' => 'Nokia5250/10.0.011 (SymbianOS/9.4; U; Series60/5.0 Mozilla/5.0; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/525 (KHTML, like Gecko) Safari/525 3gpp-gba',
@@ -7729,7 +7709,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-DL' => [
         'ua' => 'Nokia6700s/062.001 (SymbianOS/9.3; U; Series60/3.2; Mozilla/5.0; Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/525 (KHTML,like Gecko) Safari/525',
@@ -7803,7 +7783,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-DM' => [
         'ua' => 'Nokia6730c/031.023 (SymbianOS/9.3; U; Series60/3.2 Mozilla/5.0; Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/525 (KHTML, like Gecko) Version/3.0 Safari/525',
@@ -7877,7 +7857,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-DN' => [
         'ua' => 'Nokia6788i/CMCC SymbianOS/9.3 Series60/3.2 Release/19.013.314.1; Mozilla/5.0 Profile/MIDP-2.1 Configuration/CLDC-1.1 AppleWebKit/413 (KHTML,like Gecko) Safari/413',
@@ -7951,7 +7931,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-DO' => [
         'ua' => 'NokiaC5-00i/071.003 (SymbianOS/9.3; U; Series60/3.2 Mozilla/5.0; Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/533.4 (KHTML, like Gecko) Version/3.0 Safari/533.4 3gpp-gba',
@@ -8025,7 +8005,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-DP' => [
         'ua' => 'NokiaC5-06/23.6.015 (SymbianOS/9.4; U; Series60/5.0 Mozilla/5.0; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/525 (KHTML, like Gecko) Safari/525',
@@ -8099,7 +8079,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-DQ' => [
         'ua' => 'NokiaE52/031.012 (SymbianOS/9.3; U; Series60/3.2 Mozilla/5.0; Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/525 (KHTML, like Gecko) Version/3.0 Safari/525',
@@ -8173,7 +8153,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-DR' => [
         'ua' => 'NokiaE71x/ATT.03.28 Mozilla/5.0 SymbianOS/9.3; U; [en]; Series60/3.2; Profile/MIDP-2.1 Configuration/CLDC-1.1 AppleWebKit/413 (KHTML, like Gecko) Safari/413',
@@ -8247,7 +8227,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-DS' => [
         'ua' => 'NokiaX5-00_TD/CMCC SymbianOS/9.3 Series60/3.2 Release/11.1026.019; Mozilla/5.0 Profile/MIDP-2.1 Configuration/CLDC-1.1 AppleWebKit/413 (KHTML,like Gecko) Safari/413',
@@ -8321,7 +8301,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-DT' => [
         'ua' => 'NokiaX6-00m/CMCC (SymbianOS/9.4; Series60/5.0; Release/21.1.004; Mozilla/5.0; Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/525 (KHTML, like Gecko) Safari/525 3gpp-gba',
@@ -8395,7 +8375,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-DU' => [
         'ua' => 'Nokia300/5.0 (06.97) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
@@ -8469,7 +8449,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-DV' => [
         'ua' => 'Nokia3020/5.0 (14.53) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
@@ -8543,7 +8523,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-DW' => [
         'ua' => 'Nokia303/5.0 (13.44) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
@@ -8617,7 +8597,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-DX' => [
         'ua' => 'Nokia311/5.0 (03.81) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
@@ -8691,7 +8671,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-DY' => [
         'ua' => 'Nokia3710fold/5.0 (04.30) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
@@ -8765,7 +8745,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-DZ' => [
         'ua' => 'Nokia3711fold/5.0 (03.80) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420',
@@ -8839,7 +8819,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-EA' => [
         'ua' => 'Nokia3720c/2.0 (09.10) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
@@ -8913,7 +8893,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-EB' => [
         'ua' => 'Nokia3720classic/2.0 (cor6.53SSC) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
@@ -8987,7 +8967,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-EC' => [
         'ua' => 'Nokia5330-1d/5.0 (06.80) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
@@ -9061,7 +9041,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-ED' => [
         'ua' => 'Nokia6260s-1/2.0 (04.36) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
@@ -9135,7 +9115,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-EE' => [
         'ua' => 'Nokia6303c/2.0 (06.40) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420 (KHTML, like Gecko) Safari/420',
@@ -9209,7 +9189,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-EF' => [
         'ua' => 'Nokia6303c/2.0 (10.12) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
@@ -9283,7 +9263,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-EG' => [
         'ua' => 'Nokia6750-1b/2.0(ATT.4.61) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
@@ -9357,7 +9337,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-EH' => [
         'ua' => 'Nokia7230-1c/5.0 (09.83) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420  (KHTML, like Gecko) Safari/420',
@@ -9431,7 +9411,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-EI' => [
         'ua' => 'NokiaC3-01.5/5.0 (06.50) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
@@ -9505,7 +9485,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-EJ' => [
         'ua' => 'NokiaX2-01.1/5.0 (07.22) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420  (KHTML, like Gecko) Safari/420',
@@ -9579,7 +9559,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-EK' => [
         'ua' => 'NokiaX3-00/5.0 (03.60) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420  (KHTML, like Gecko) Safari/420',
@@ -9653,7 +9633,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-EL' => [
         'ua' => 'NokiaX3-02.5/5.0 (06.73) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
@@ -9727,7 +9707,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-EM' => [
         'ua' => 'NokiaX3-02i/5.0 (p) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
@@ -9801,7 +9781,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-EN' => [
         'ua' => 'Mozilla/5.0 ( Nokia3710fold/5.0 (03.80) Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
@@ -11549,7 +11529,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-FT' => [
         'ua' => 'Mozilla/5.0 (S60V3; U; ru; NOKIA6290) AppleWebKit/530.13 (KHTML, like Gecko) UCBrowser/8.6.0.199/28/400/UCWEB Mobile',
@@ -11731,7 +11711,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-FW' => [
         'ua' => 'Mozilla/5.0 (S60V5; U; en-us; Nokia5236) AppleWebKit/530.13 (KHTML, like Gecko) UCBrowser/8.7.1.234/50/352/UCWEB Mobile',
@@ -11805,7 +11785,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-FX' => [
         'ua' => 'Mozilla/5.0 (S60V5; U; en-us; NokiaC5-03) AppleWebKit/530.13 (KHTML, like Gecko) UCBrowser/8.7.0.218/50/352/UCWEB Mobile',
@@ -11933,7 +11913,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-FZ' => [
         'ua' => 'Mozilla/5.0 (S60V5; U; Pt-br; Nokia808 PureView) AppleWebKit/530.13 (KHTML, like Gecko) UCBrowser/8.7.1.234/50/444/UCWEB Mobile',
@@ -12223,7 +12203,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-GE' => [
         'ua' => 'Nokia201/2.0 (11.21) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 (Java; U; en-us; nokia201) UCBrowser8.3.0.154/70/355/UCWEB Mobile',
@@ -12297,7 +12277,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-GF' => [
         'ua' => 'Mozilla/5.0 (Series40/3.0FP1; Nokia2730c-1/07.70; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/0.8.3',
@@ -12479,7 +12459,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-GI' => [
         'ua' => 'Mozilla/5.0 (Series40/3.0FP1; Nokia5300/04.70; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/0.8.3',
@@ -13255,7 +13235,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-GW' => [
         'ua' => 'Mozilla/5.0 (Series40; Nokia303/13.43; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/1.0.2.26.10',
@@ -13869,7 +13849,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-HH' => [
         'ua' => 'Mozilla/5.0 (Series40; Nokia6500s-1/04.81; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/1.8.0.50.5',
@@ -14105,7 +14085,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-HL' => [
         'ua' => 'Mozilla/5.0 (Series40; Nokia501l/0.1325.0; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/3.1.1.0.9',
@@ -14179,7 +14159,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-HM' => [
         'ua' => 'Mozilla/5.0 (Series40; Nokia501s/11.1.1/java_runtime_version=Nokia_Asha_1_1_1; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/3.1.1.0.27',
@@ -14253,7 +14233,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-HN' => [
         'ua' => 'Mozilla/5.0 (Series40; Nokia502/11.1.1/java_runtime_version=Nokia_Asha_1_1_1; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/3.1.1.0.27',
@@ -14327,7 +14307,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-HO' => [
         'ua' => 'Mozilla/5.0 (Series40; Nokia503/12.1.6/java_runtime_version=Nokia_Asha_1_1_1; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/3.1.1.0.27',
@@ -14401,7 +14381,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-HP' => [
         'ua' => 'Mozilla/5.0 (Series40; Nokia503s/12.0.23/java_runtime_version=Nokia_Asha_1_1; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/3.1.1.0.26',
@@ -14475,7 +14455,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-HQ' => [
         'ua' => 'Mozilla/5.0 (Series40; Nokia503s/12.1.6/java_runtime_version=Nokia_Asha_1_1_1; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/3.1.1.0.27',
@@ -14549,7 +14529,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-HR' => [
         'ua' => 'Mozilla/5.0 (Series40; Nokia503s/14.0.4/java_runtime_version=Nokia_Asha_1_2; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/3.1.1.0.27',
@@ -14623,7 +14603,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-HS' => [
         'ua' => 'Mozilla/5.0 (Series40; NokiaAsha230DualSIM/13.5.2/java_runtime_version=Nokia_Asha_1_1_1; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/3.1.1.0.27',
@@ -14859,7 +14839,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-HW' => [
         'ua' => 'Mozilla/5.0 (Series40; NokiaC2-02/07.57; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/3.1.0.0.62',
@@ -15041,7 +15021,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-HZ' => [
         'ua' => 'Mozilla/5.0 (Series40; Nokia501/10.0.14; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/3.7.0.0.11',
@@ -15115,7 +15095,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-IA' => [
         'ua' => 'Mozilla/5.0 (Series40; Nokia501/10.0.16; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/3.7.0.0.11',
@@ -15189,7 +15169,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-IB' => [
         'ua' => 'Mozilla/5.0 (Series40; Nokia501/10.0.20; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/3.7.0.0.11',
@@ -15263,7 +15243,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-IC' => [
         'ua' => 'Nokia110/2.0 (03.33) Profile/MIDP-2.1 Configuration/CLDC-1.1',
@@ -15337,7 +15317,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-ID' => [
         'ua' => 'Nokia112/2.0 (03.51) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; Desktop) AppleWebKit/534.13 (KHTML, like Gecko) UCBrowser/9.5.0.449 UNTRUSTED/1.0',
@@ -15519,7 +15499,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-IG' => [
         'ua' => 'Mozilla/5.0 (Series40; Nokia114/03.33; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/3.7.0.0.11',
@@ -15701,7 +15681,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-IJ' => [
         'ua' => 'Mozilla/5.0 (Series40; Nokia200/11.81; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/3.7.0.0.11',
@@ -15829,7 +15809,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-IL' => [
         'ua' => 'Nokia201/2.0 (11.81) Profile/MIDP-2.1 Configuration/CLDC-1.1',
@@ -15903,7 +15883,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-IM' => [
         'ua' => 'Nokia201/2.0 (11.90) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; Nokia201) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile UNTRUSTED/1.0',
@@ -15977,7 +15957,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-IN' => [
         'ua' => 'Nokia201/2.0 (11.95) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; Nokia201) U2/1.0.0 UCBrowser/9.3.0.326 U2/1.0.0 Mobile UNTRUSTED/1.0',
@@ -16051,7 +16031,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-IO' => [
         'ua' => 'Nokia2030/2.0 (20.36) Profile/MIDP-2.1 Configuration/CLDC-1.1',
@@ -16125,7 +16105,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-IP' => [
         'ua' => 'Nokia205.1/2.0 (04.51) Profile/MIDP-2.1 Configuration/CLDC-1.1  UNTRUSTED/1.0',
@@ -16199,7 +16179,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-IQ' => [
         'ua' => 'Nokia2060/2.0 (03.58) Profile/MIDP-2.1 Configuration/CLDC-1.1',
@@ -16273,7 +16253,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-IR' => [
         'ua' => 'Nokia206.1/2.0 (03.58) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; Nokia206.1) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile UNTRUSTED/1.0',
@@ -16401,7 +16381,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-IT' => [
         'ua' => 'Nokia208/2.0 (03.39) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; Nokia208) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
@@ -16691,7 +16671,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-IY' => [
         'ua' => 'Nokia301/2.0 (09.04) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; Nokia301) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile UNTRUSTED/1.0',
@@ -16765,7 +16745,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-IZ' => [
         'ua' => 'Nokia301/2.0 (02.33) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; Nokia301) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
@@ -16839,7 +16819,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-JA' => [
         'ua' => 'Nokia305/2.0 (03.60) Profile/MIDP-2.1 Configuration/CLDC-1.1',
@@ -16913,7 +16893,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-JB' => [
         'ua' => 'Nokia308/2.0 (05.85) Profile/MIDP-2.1 Configuration/CLDC-1.1',
@@ -16987,7 +16967,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-JC' => [
         'ua' => 'Nokia308A/2.0 (0.1324.0) Profile/MIDP-2.1 Configuration/CLDC-1.1',
@@ -17061,7 +17041,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-JD' => [
         'ua' => 'Nokia311/5.0 (07.37) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
@@ -17135,7 +17115,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-JE' => [
         'ua' => 'Nokia1120/2.0 (03.26) Profile/MIDP-2.1 Configuration/CLDC-1.1',
@@ -17209,7 +17189,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-JF' => [
         'ua' => 'Nokia2610/2.0 (07.11) Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -17283,7 +17263,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-JG' => [
         'ua' => 'NOKIA2630/2.0 (05.61) PROFILE/MIDP-2.1 CONFIGURATION/CLDC-1.1',
@@ -17357,7 +17337,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-JH' => [
         'ua' => 'Nokia2690/2.0 (10.10) Profile/MIDP-2.1 Configuration/CLDC-1.1  UNTRUSTED/1.0',
@@ -17431,7 +17411,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-JI' => [
         'ua' => 'Nokia2690/2.0 (10.10) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; nokia2690) U2/1.0.0 UCBrowser/8.9.0.251 U2/1.0.0 Mobile UNTRUSTED/1.0',
@@ -17505,7 +17485,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-JJ' => [
         'ua' => 'Nokia2690/2.0 (10.10) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; Nokia2690) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
@@ -17687,7 +17667,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-JM' => [
         'ua' => 'Nokia2692_CMCC/2.0 (10.10) Profile/MIDP-2.1 Configuration/CLDC-1.1  UNTRUSTED/1.0',
@@ -17761,7 +17741,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-JN' => [
         'ua' => 'Nokia3555b/2.0 (05.07) Profile/MIDP-2.1 Configuration/CLDC-1.1',
@@ -17835,7 +17815,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-JO' => [
         'ua' => 'Nokia5200/2.0 (07.20) Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -17909,7 +17889,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-JP' => [
         'ua' => 'Nokia5250/11.0.008 (SymbianOS/9.4; U; Series60/5.0 Mozilla/5.0; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/525.10+ (KHTML, like Gecko) Safari/525.12.2 3gpp-gba',
@@ -17983,7 +17963,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-JQ' => [
         'ua' => 'Nokia6060v/2.0 (3.01) Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -18057,7 +18037,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-JR' => [
         'ua' => 'Nokia6233/2.0 (05.60) Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -18131,7 +18111,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-JS' => [
         'ua' => 'Nokia6234/2.0 (05.60) Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -18205,7 +18185,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-JT' => [
         'ua' => 'Nokia6301/2.0 (09.44) Profile/MIDP-2.1 Configuration/CLDC-1.1',
@@ -18279,7 +18259,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-JU' => [
         'ua' => 'Nokia6350-1d/2.0(ATT.5.93) Profile/MIDP-2.1 Configuration/CLDC-1.1',
@@ -18353,7 +18333,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-JV' => [
         'ua' => 'Nokia6555b/2.0 (03.31) Profile/MIDP-2.1 Configuration/CLDC-1.1',
@@ -18427,7 +18407,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-JW' => [
         'ua' => 'Nokia6650x/1.0 Profile/MIDP-1.0 Configuration/CLDC-1.0',
@@ -18501,7 +18481,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-JX' => [
         'ua' => 'Nokia7380/2.0 (03.76) Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -18575,7 +18555,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-JY' => [
         'ua' => 'Nokia8800a/2.0 (09.45) Profile/MIDP-2.1 Configuration/CLDC-1.1',
@@ -18649,7 +18629,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-JZ' => [
         'ua' => 'Nokia1680c-2/2.0 (05.61) Profile/MIDP-2.1 Configuration/CLDC-1.1  UNTRUSTED/1.0',
@@ -18723,7 +18703,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-KA' => [
         'ua' => 'Nokia1680c-2/2.0 (07.60) Profile/MIDP-2.1 Configuration/CLDC-1.1',
@@ -18797,7 +18777,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-KB' => [
         'ua' => 'Nokia1680c-2b/06.82 Profile/MIDP-2.1 Configuration/CLDC-1.1',
@@ -18871,7 +18851,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-KC' => [
         'ua' => 'Nokia1681c/2.0 (06.82) Profile/MIDP-2.1 Configuration/CLDC-1.1',
@@ -18945,7 +18925,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-KD' => [
         'ua' => 'Nokia2320c-2/2.0 (08.20) Profile/MIDP-2.1 Configuration/CLDC-1.1',
@@ -19019,7 +18999,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-KE' => [
         'ua' => 'NOKIA2320C-2/2.0 (08.20) PROFILE/MIDP-2.1 CONFIGURATION/CLDC-1.1 UNTRUSTED/1.0',
@@ -19093,7 +19073,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-KF' => [
         'ua' => 'Nokia2322c_CMCC/2.0 (08.20) Profile/MIDP-2.1 Configuration/CLDC-1.1',
@@ -19167,7 +19147,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-KG' => [
         'ua' => 'Nokia2323c/2.0 (08.20) Profile/MIDP-2.1 Configuration/CLDC-1.1',
@@ -19241,7 +19221,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-KH' => [
         'ua' => 'Nokia2330c/2.0 (06.46) Profile/MIDP-2.1 Configuration/CLDC-1.1',
@@ -19315,7 +19295,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-KI' => [
         'ua' => 'Nokia2600c-2/2.0 (05.61) Profile/MIDP-2.1 Configuration/CLDC-1.1',
@@ -19389,7 +19369,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-KJ' => [
         'ua' => 'Nokia2600c-2b/2.0 (06.35) Profile/MIDP-2.1 Configuration/CLDC-1.1',
@@ -19463,7 +19443,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-KK' => [
         'ua' => 'Nokia2680s-2/1.0 (04.56) Profile/MIDP-2.1 Configuration/CLDC-1.1',
@@ -19537,7 +19517,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-KL' => [
         'ua' => 'Nokia2680s-2b/1.0 (04.56) Profile/MIDP-2.1 Configuration/CLDC-1.1',
@@ -19611,7 +19591,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-KM' => [
         'ua' => 'Nokia2700c-2/2.0 (09.95) Profile/MIDP-2.1 Configuration/CLDC-1.1',
@@ -19685,7 +19665,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-KN' => [
         'ua' => 'Nokia2700c-2/2.0 (09.98) Profile/MIDP-2.1 Configuration/CLDC-1.1',
@@ -19759,7 +19739,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-KO' => [
         'ua' => 'Nokia2700c-2/2.0 (07.80) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; Nokia2700c-2) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
@@ -20103,7 +20083,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-KU' => [
         'ua' => 'Nokia2730c/2.0 (07.60) Profile/MIDP-2.1 Configuration/CLDC-1.1',
@@ -20177,7 +20157,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-KV' => [
         'ua' => 'Nokia3110c/2.0 (07.30) Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -20251,7 +20231,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-KW' => [
         'ua' => 'Nokia3110c/2.0 (07.21) Profile/MIDP-2.0 Configuration/CLDC-1.1  UNTRUSTED/1.0',
@@ -20325,7 +20305,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-KX' => [
         'ua' => 'Nokia3110c/2.0 (07.21) Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -20399,7 +20379,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-KY' => [
         'ua' => 'Nokia3120Classic/2.0 (06.20) Profile/MIDP-2.1 Configuration/CLDC-1.1',
@@ -20473,7 +20453,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-KZ' => [
         'ua' => 'Nokia3120classic/2.0 (10.00) Profile/MIDP-2.1 Configuration/CLDC-1.1  UNTRUSTED/1.0',
@@ -20547,7 +20527,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-LA' => [
         'ua' => 'Nokia3120classic/2.0 (10.00) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; Nokia3120classic) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile UNTRUSTED/1.0',
@@ -20675,7 +20655,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-LC' => [
         'ua' => 'Nokia3602s_CMCC/2.0 (07.23) Profile/MIDP-2.1 Configuration/CLDC-1.1',
@@ -20749,7 +20729,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-LD' => [
         'ua' => 'Nokia3600slide/2.0 (04.11) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 (Java; U; Id; nokia3600slide) UCBrowser8.2.0.132/69/452/UCWEB Mobile UNTRUSTED/1.0',
@@ -20877,7 +20857,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-LF' => [
         'ua' => 'Nokia5220XpressMusic/2.0 (07.23) Profile/MIDP-2.1 Configuration/CLDC-1.1',
@@ -20951,7 +20931,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-LG' => [
         'ua' => 'Nokia5300/2.0 (05.51) Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -21025,7 +21005,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-LH' => [
         'ua' => 'Nokia5310XpressMusic/2.0 (09.42) Profile/MIDP-2.1 Configuration/CLDC-1.1',
@@ -21099,7 +21079,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-LI' => [
         'ua' => 'Nokia5310XpressMusic/2.0 (05.81) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; ru; Nokia5310XpressMusic) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
@@ -21227,7 +21207,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-LK' => [
         'ua' => 'Nokia6500s/2.0 (10.00) Profile/MIDP-2.1 Configuration/CLDC-1.1',
@@ -21301,7 +21281,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-LL' => [
         'ua' => 'Mozilla/5.0 (Nokia6600s/2.0 (p) Profile/ MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/413 (KHTML, Like Gecko) Safari/413',
@@ -21483,7 +21463,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-LO' => [
         'ua' => 'Nokia7610s/2.0 (05.20) Profile/MIDP-2.1 Configuration/CLDC-1.1',
@@ -21557,7 +21537,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-LP' => [
         'ua' => 'Nokia202/2.0 (20.37) Profile/MIDP-2.1 Configuration/CLDC-1.1',
@@ -21631,7 +21611,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-LQ' => [
         'ua' => 'Nokia202/2.0 (20.52) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; Nokia202) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
@@ -21705,7 +21685,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-LR' => [
         'ua' => 'Nokia202/2.0 (20.28) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; Nokia202) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile UNTRUSTED/1.0',
@@ -21779,7 +21759,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-LS' => [
         'ua' => 'Nokia210/2.0 (04.12) Profile/MIDP-2.1 Configuration/CLDC-1.1',
@@ -21853,7 +21833,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-LT' => [
         'ua' => 'Nokia210/2.0 (04.12) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0(Java; U; MIDP-2.0; en-us; nokia210) U2/1.0.0 UCBrowser/8.7.0.218 U2/1.0.0 Mobile UNTRUSTED/1.0',
@@ -21927,7 +21907,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-LU' => [
         'ua' => 'Nokia210.3/2.0 (04.12) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; Nokia210.3) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
@@ -22001,7 +21981,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-LV' => [
         'ua' => 'Nokia300/5.0 (07.44) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
@@ -22075,7 +22055,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-LW' => [
         'ua' => 'Nokia300/5.0 (07.03) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
@@ -22149,7 +22129,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-LX' => [
         'ua' => 'Nokia3000/5.0 (07.03) Profile/MIDP-2.1 Configuration/CLDC-1.1',
@@ -22223,7 +22203,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-LY' => [
         'ua' => 'Nokia302/5.0 (14.26) Profile/MIDP-2.1 Configuration/CLDC-1.1',
@@ -22297,7 +22277,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-LZ' => [
         'ua' => 'Nokia302/5.0 (14.78) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; Pt-BR; Nokia302) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
@@ -22371,7 +22351,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-MA' => [
         'ua' => 'Nokia302/5.0 (14.92) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; Nokia302) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile UNTRUSTED/1.0',
@@ -22445,7 +22425,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-MB' => [
         'ua' => 'Nokia302/5.0 (14.26) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; id; Nokia302) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile UNTRUSTED/1.0',
@@ -22519,7 +22499,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-MC' => [
         'ua' => 'Nokia3030/5.0 (14.60) Profile/MIDP-2.1 Configuration/CLDC-1.1',
@@ -22593,7 +22573,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-MD' => [
         'ua' => 'Nokia306/2.0 (03.63) Profile/MIDP-2.1 Configuration/CLDC-1.1',
@@ -22667,7 +22647,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-ME' => [
         'ua' => 'Nokia306/2.0 (03.81) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; id; Nokia306) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
@@ -22741,7 +22721,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-MF' => [
         'ua' => 'Nokia307/2.0 (08.13) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; vi; Nokia307) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
@@ -22815,7 +22795,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-MG' => [
         'ua' => 'Nokia309/2.0 (05.85) Profile/MIDP-2.1 Configuration/CLDC-1.1',
@@ -22889,7 +22869,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-MH' => [
         'ua' => 'Nokia310/2.0 (07.35) Profile/MIDP-2.1 Configuration/CLDC-1.1',
@@ -22963,7 +22943,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-MI' => [
         'ua' => 'Nokia310/2.0 (07.37) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; Pt-BR; Nokia310) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
@@ -23037,7 +23017,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-MJ' => [
         'ua' => 'Nokia501/2.0 (10.0.2) Profile/MIDP-2.1 Configuration/CLDC-1.1',
@@ -23111,7 +23091,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-MK' => [
         'ua' => 'NokiaC1-01/2.0 (06.05) Profile/MIDP-2.1 Configuration/CLDC-1.1',
@@ -23185,7 +23165,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-ML' => [
         'ua' => 'NokiaC1-01.1/2.0 (06.07) Profile/MIDP-2.1 Configuration/CLDC-1.1',
@@ -23259,7 +23239,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-MM' => [
         'ua' => 'NokiaC1-01/2.0 (06.05) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; nokiac1-01) U2/1.0.0 UCBrowser/9.2.0.311 U2/1.0.0 Mobile UNTRUSTED/1.0',
@@ -23441,7 +23421,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-MP' => [
         'ua' => 'NokiaC1-02i/2.0 (04.10) Profile/MIDP-2.1 Configuration/CLDC-1.1',
@@ -23515,7 +23495,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-MQ' => [
         'ua' => 'NokiaC2-00/2.0 (03.45) Profile/MIDP-2.1 Configuration/CLDC-1.1 UNTRUSTED/1.0',
@@ -23589,7 +23569,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-MR' => [
         'ua' => 'NokiaC2-00/2.0 (03.45) Profile/MIDP-2.1 Configuration/CLDC-1.1',
@@ -23663,7 +23643,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-MS' => [
         'ua' => 'NokiaC2-00/2.0 (03.42) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; Desktop) AppleWebKit/534.13 (KHTML, like Gecko) UCBrowser/9.5.0.449',
@@ -23845,7 +23825,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-MV' => [
         'ua' => 'NokiaE63/200.21.005 (SymbianOS/9.2; U; Series60/3.1 Mozilla/5.0; Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
@@ -23919,7 +23899,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-MW' => [
         'ua' => 'Mozilla/5.0 (Java; U; es-la; nokiae63-2) AppleWebKit/530.13 (KHTML, like Gecko) UCBrowser/8.6.0.199/84/352/UCWEB Mobile UNTRUSTED/1.0',
@@ -23993,7 +23973,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-MX' => [
         'ua' => 'UCWEB/8.8 (SymbianOS/9.2; U; en-US; NokiaE63) AppleWebKit/534.1 UCBrowser/8.8.0.245 Mobile',
@@ -24121,7 +24101,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-MZ' => [
         'ua' => 'Mozilla/5.0 (Java; U; en-us; nokiae72-1) AppleWebKit/530.13 (KHTML, like Gecko) UCBrowser/8.5.0.185/84/352/UCWEB Mobile UNTRUSTED/1.0 3gpp-gba',
@@ -24195,7 +24175,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-NA' => [
         'ua' => 'UCWEB/2.0 (Windows; U; wds 10.0; en-US; NOKIA; RM-937_apac_malaysia_941) U2/1.0.0 UCBrowser/4.2.1.541 U2/1.0.0 Mobile',
@@ -24485,7 +24465,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-NF' => [
         'ua' => 'NokiaN70/. FASTMobileCrawl/6.6 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -24559,7 +24539,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-NG' => [
         'ua' => 'NokiaN71-1/2.0611 Series60/3.0 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -24633,7 +24613,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-NH' => [
         'ua' => 'NokiaN72/ 5.0741.4.0.1 Series60/2.8 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -24707,7 +24687,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-NI' => [
         'ua' => 'NokiaN73-2/3.0-630.0.2 Series60/3.0 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -24781,7 +24761,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-NJ' => [
         'ua' => 'NokiaN73-5/3.0628.0.0.6 Series60/3.0 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -24855,7 +24835,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-NK' => [
         'ua' => 'NokiaN90-2/3.0535.4.3 Series60/2.8 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -24929,7 +24909,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-NL' => [
         'ua' => 'NokiaN92-1/2.0 (2.0646.0.0.2) S60/3.0 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -25003,7 +24983,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-NM' => [
         'ua' => 'NokiaN95-5/11.2.011 Series60/3.1 Profile/MIDP-2.0 Configuration/CLDC-1.1',
@@ -25077,7 +25057,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-NN' => [
         'ua' => 'NokiaX2-00/5.0 (08.35) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; en-US; NokiaX2-00) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile',
@@ -25313,7 +25293,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-NR' => [
         'ua' => 'NokiaX2-01/5.0 (07.10) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 (Windows; U; Windows NT 6.0; id; Desktop) AppleWebKit/534.13 (KHTML, like Gecko) UCBrowser/9.5.0.449 UNTRUSTED/1.0',
@@ -25495,7 +25475,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-NU' => [
         'ua' => 'NokiaX2-02/2.0 (11.79) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 (Windows; U; Windows NT 6.0; id; Desktop) AppleWebKit/534.13 (KHTML, like Gecko) UCBrowser/9.5.0.449 UNTRUSTED/1.0',
@@ -25623,7 +25603,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1406-NW' => [
         'ua' => 'Nokia6208c/2.0 (04.50) Profile/MIDP-2.1 Configuration/CLDC-1.1 nokia6208c/UC Browser8.0.3.107/69/444 UNTRUSTED/1.0',

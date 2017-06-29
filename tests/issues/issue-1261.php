@@ -175,7 +175,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1261-D' => [
@@ -250,7 +250,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1261-D (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0; RCT6773W22B Build/LRX21M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.85',
@@ -264,7 +264,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
 ];

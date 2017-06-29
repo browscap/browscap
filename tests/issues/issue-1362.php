@@ -667,7 +667,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1362-N' => [
         'ua' => 'Opera/7.21 (Windows; U; nb)',

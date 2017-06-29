@@ -1045,7 +1045,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-317-T' => [
         'ua' => 'samsung-gt-s3370/UC Browser8.0.3.107/69/444 UNTRUSTED/1.0',
@@ -1227,21 +1227,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
-    ],
-    'issue-317-V (lite)' => [
-        'ua' => 'Instagram 5.0.2 (iPhone5,1; iPhone OS 7_0_4; en_US; en) AppleWebKit/420+',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
         'full' => false,
     ],
     'issue-317-W' => [
@@ -2066,7 +2051,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-317-AL' => [

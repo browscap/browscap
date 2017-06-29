@@ -121,7 +121,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-C' => [
@@ -352,7 +352,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-G' => [
@@ -421,7 +421,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-H' => [
@@ -598,7 +598,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-K' => [
@@ -667,7 +667,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-L' => [
@@ -736,7 +736,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-M' => [
@@ -805,7 +805,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-N' => [
@@ -874,7 +874,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-O' => [
@@ -943,7 +943,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-P' => [
@@ -1012,7 +1012,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-Q' => [
@@ -1081,7 +1081,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-R' => [
@@ -1150,7 +1150,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-S' => [
@@ -1219,7 +1219,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-T' => [
@@ -1288,7 +1288,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-U' => [
@@ -1357,7 +1357,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-V' => [
@@ -1426,7 +1426,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-W' => [
@@ -1657,7 +1657,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-AA' => [
@@ -1726,7 +1726,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-AB' => [
@@ -1795,7 +1795,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-AC' => [
@@ -1864,7 +1864,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-AD' => [
@@ -2203,7 +2203,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-AJ' => [
@@ -2272,7 +2272,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-AK' => [
@@ -2341,7 +2341,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-AL' => [
@@ -2416,7 +2416,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1381-AL (lite)' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.2.11) Gecko/20101013 Ubuntu/10.04 (lucid) Firefox/3.6.11',
@@ -2430,7 +2430,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-AM' => [
@@ -2505,7 +2505,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1381-AM (lite)' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.2.17) Gecko/20111028 Ubuntu/8.04 (hardy) Firefox/3.6.17',
@@ -2519,7 +2519,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-AN' => [
@@ -2594,7 +2594,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1381-AN (lite)' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; nl; rv:1.9.2.16) Gecko/20110323 Ubuntu/10.10 (maverick) Firefox/3.6.16',
@@ -2608,7 +2608,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-AO' => [
@@ -2683,7 +2683,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1381-AO (lite)' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.2.13) Gecko/20101206 Ubuntu/10.04 (lucid) Firefox/3.6.13',
@@ -2697,7 +2697,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-AP' => [
@@ -2772,7 +2772,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1381-AP (lite)' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux x86_64; ru; rv:1.9.2.18) Gecko/20110628 Ubuntu/10.10 (maverick) Firefox/3.6.18',
@@ -2786,7 +2786,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-AQ' => [
@@ -2855,7 +2855,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-AR' => [
@@ -2924,7 +2924,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-AS' => [
@@ -2993,7 +2993,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-AT' => [
@@ -3116,7 +3116,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-AV' => [
@@ -3185,7 +3185,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-AW' => [
@@ -3308,7 +3308,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-AY' => [
@@ -3377,7 +3377,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-AZ' => [
@@ -3446,7 +3446,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-BA' => [
@@ -3515,7 +3515,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-BB' => [
@@ -3584,7 +3584,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-BC' => [
@@ -3761,7 +3761,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-BF' => [
@@ -3830,7 +3830,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-BG' => [
@@ -3899,7 +3899,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-BH' => [
@@ -3968,7 +3968,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-BI' => [
@@ -4037,7 +4037,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-BJ' => [
@@ -4106,7 +4106,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-BK' => [
@@ -4229,7 +4229,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-BM' => [
@@ -4298,7 +4298,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-BN' => [
@@ -4367,7 +4367,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-BO' => [
@@ -4490,7 +4490,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-BQ' => [
@@ -4721,7 +4721,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-BU' => [
@@ -4790,7 +4790,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-BV' => [
@@ -4859,7 +4859,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-BW' => [
@@ -4928,7 +4928,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-BX' => [
@@ -4997,7 +4997,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-BY' => [
@@ -5066,7 +5066,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-BZ' => [
@@ -5135,7 +5135,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-CA' => [
@@ -5204,7 +5204,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-CB' => [
@@ -5261,21 +5261,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-CB (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:8.0; ; LSCABLE_AAPA0AEA2188F8) Gecko/20100101 Firefox/8.0 CometBird/8.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Win7',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
-        'full' => false,
-    ],
     'issue-1381-CC' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:9.0.1) Gecko/20100101 Firefox/9.0.1 CometBird/9.0.1',
         'properties' => [
@@ -5330,21 +5315,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-CC (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:9.0.1) Gecko/20100101 Firefox/9.0.1 CometBird/9.0.1',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Win7',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
-        'full' => false,
-    ],
     'issue-1381-CD' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1 CometBird/9.0.1',
         'properties' => [
@@ -5398,21 +5368,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-CD (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1 CometBird/9.0.1',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Win7',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
-        'full' => false,
     ],
     'issue-1381-CE' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.0; rv:10.0.1) Gecko/20100101 Firefox/10.0.1',
@@ -5804,7 +5759,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-CL' => [
@@ -5873,7 +5828,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-CM' => [
@@ -5942,7 +5897,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-CN' => [
@@ -6011,7 +5966,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-CO' => [
@@ -6080,7 +6035,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-CP' => [
@@ -6149,7 +6104,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-CQ' => [
@@ -6218,7 +6173,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-CR' => [
@@ -6287,7 +6242,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-CS' => [
@@ -6410,7 +6365,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-CU' => [
@@ -6479,7 +6434,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-CV' => [
@@ -6548,7 +6503,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-CW' => [
@@ -6677,7 +6632,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1381-CX (lite)' => [
         'ua' => 'Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:11.0) Gecko/20100101 Firefox/11.0',
@@ -6691,7 +6646,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-CY' => [
@@ -6766,7 +6721,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1381-CY (lite)' => [
         'ua' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:10.0) Gecko/20100101 Firefox/10.0',
@@ -6780,7 +6735,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-CZ' => [
@@ -6849,7 +6804,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-DA' => [
@@ -6918,7 +6873,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-DB' => [
@@ -6987,7 +6942,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-DC' => [
@@ -7056,7 +7011,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-DD' => [
@@ -7125,7 +7080,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-DE' => [
@@ -7194,7 +7149,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-DF' => [
@@ -7263,7 +7218,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-DG' => [
@@ -7386,7 +7341,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-DI' => [
@@ -7455,7 +7410,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-DJ' => [
@@ -7524,7 +7479,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-DK' => [
@@ -7593,7 +7548,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-DL' => [
@@ -7662,7 +7617,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-DM' => [
@@ -7731,7 +7686,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-DN' => [
@@ -7800,7 +7755,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-DO' => [
@@ -7869,7 +7824,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-DP' => [
@@ -7938,7 +7893,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-DQ' => [
@@ -8007,7 +7962,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-DR' => [
@@ -8130,7 +8085,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-DT' => [
@@ -8199,7 +8154,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-DU' => [
@@ -8268,7 +8223,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-DV' => [
@@ -8343,7 +8298,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1381-DV (lite)' => [
         'ua' => 'Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:13.0) Gecko/20100101 Firefox/13.0.1',
@@ -8357,7 +8312,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-DW' => [
@@ -8432,7 +8387,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1381-DW (lite)' => [
         'ua' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:14.0) Gecko/20100101 Firefox/14.0.1',
@@ -8446,7 +8401,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-DX' => [
@@ -8515,7 +8470,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-DY' => [
@@ -8584,7 +8539,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-DZ' => [
@@ -8653,7 +8608,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-EA' => [
@@ -8722,7 +8677,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-EB' => [
@@ -8791,7 +8746,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-EC' => [
@@ -8860,7 +8815,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-ED' => [
@@ -8929,7 +8884,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-EE' => [
@@ -9376,7 +9331,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-EM' => [
@@ -9445,7 +9400,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-EN' => [
@@ -9514,7 +9469,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-EO' => [
@@ -9583,7 +9538,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-EP' => [
@@ -9760,7 +9715,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-ES' => [
@@ -9829,7 +9784,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-ET' => [
@@ -9898,7 +9853,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-EU' => [
@@ -9967,7 +9922,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-EV' => [
@@ -10036,7 +9991,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-EW' => [
@@ -10105,7 +10060,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-EX' => [
@@ -10174,7 +10129,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-EY' => [
@@ -10243,7 +10198,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-EZ' => [
@@ -10312,7 +10267,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-FA' => [
@@ -10381,7 +10336,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-FB' => [
@@ -10456,7 +10411,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1381-FB (lite)' => [
         'ua' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:26.0) Gecko/20100101 Firefox/26.0',
@@ -10470,7 +10425,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-FC' => [
@@ -10526,21 +10481,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-FC (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:16.0) Gecko/20130115 Firefox/16.0 Epic/16.0',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Win7',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
-        'full' => false,
     ],
     'issue-1381-FD' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1; rv:22.0) Gecko/20100101 Saina/22.0',
@@ -10758,21 +10698,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-FG (lite)' => [
-        'ua' => 'Mozilla/5.0 (Android; Mobile; rv:25.0) Gecko/25.0 Firefox/24.9 PaleMoon/25.0.2',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
-        'full' => false,
-    ],
     'issue-1381-FH' => [
         'ua' => 'Mozilla/5.0 (Android; Tablet; rv:24.7) Gecko/24.7 Firefox/24.7 PaleMoon/24.7',
         'properties' => [
@@ -10826,21 +10751,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-FH (lite)' => [
-        'ua' => 'Mozilla/5.0 (Android; Tablet; rv:24.7) Gecko/24.7 Firefox/24.7 PaleMoon/24.7',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Android',
-            'isMobileDevice' => true,
-            'isTablet' => true,
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
-        'full' => false,
     ],
     'issue-1381-FI' => [
         'ua' => 'Mozilla/5.0 (Android 4.4; Mobile; rv:18.0) Gecko/18.0 Firefox/18.0',
@@ -11058,21 +10968,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-FL (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:34.0) Gecko/20100101 Firefox/34.0 Cyberfox/34.1',
-        'properties' => [
-            'Comment' => 'Firefox 34.0',
-            'Browser' => 'Firefox',
-            'Version' => '34.0',
-            'Platform' => 'Win10',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
-        'full' => false,
-    ],
     'issue-1381-FM' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:40.0) Gecko/20100101 Firefox/40.0 Cyberfox/40.0',
         'properties' => [
@@ -11126,21 +11021,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-FM (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:40.0) Gecko/20100101 Firefox/40.0 Cyberfox/40.0',
-        'properties' => [
-            'Comment' => 'Firefox 40.0',
-            'Browser' => 'Firefox',
-            'Version' => '40.0',
-            'Platform' => 'Win7',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
-        'full' => false,
     ],
     'issue-1381-FN' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:36.0) Gecko/20100101 Firefox/36.0 Cyberfox/36.0',
@@ -11196,21 +11076,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-FN (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:36.0) Gecko/20100101 Firefox/36.0 Cyberfox/36.0',
-        'properties' => [
-            'Comment' => 'Firefox 36.0',
-            'Browser' => 'Firefox',
-            'Version' => '36.0',
-            'Platform' => 'Win8.1',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
-        'full' => false,
-    ],
     'issue-1381-FO' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0; Win64; x64; rv:31.0) Gecko/20100101 Firefox/31.0 Waterfox/31.0',
         'properties' => [
@@ -11264,21 +11129,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-FO (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.0; Win64; x64; rv:31.0) Gecko/20100101 Firefox/31.0 Waterfox/31.0',
-        'properties' => [
-            'Comment' => 'Firefox 31.0',
-            'Browser' => 'Firefox',
-            'Version' => '31.0',
-            'Platform' => 'WinVista',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
-        'full' => false,
     ],
     'issue-1381-FP' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; rv:34.0) Gecko/20100101 Firefox/34.0 Light/34.0',
@@ -11334,21 +11184,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1381-FP (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 10.0; rv:34.0) Gecko/20100101 Firefox/34.0 Light/34.0',
-        'properties' => [
-            'Comment' => 'Firefox 34.0',
-            'Browser' => 'Firefox',
-            'Version' => '34.0',
-            'Platform' => 'Win10',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
-        'full' => false,
-    ],
     'issue-1381-FQ' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:47.0) Gecko/20100101 Firefox/47.0 Light/47.0',
         'properties' => [
@@ -11402,21 +11237,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-FQ (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:47.0) Gecko/20100101 Firefox/47.0 Light/47.0',
-        'properties' => [
-            'Comment' => 'Firefox 47.0',
-            'Browser' => 'Firefox',
-            'Version' => '47.0',
-            'Platform' => 'MacOSX',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
-        'full' => false,
     ],
     'issue-1381-FR' => [
         'ua' => 'Mozilla/5.0 (masking-agent; rv:36.0) Gecko/20100101 Firefox/36.0',
@@ -11538,7 +11358,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-FT' => [
@@ -11877,7 +11697,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-FZ' => [
@@ -13788,7 +13608,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1381-HH (lite)' => [
         'ua' => 'Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:40.0) Gecko/20100101 Firefox/40.0',
@@ -13802,7 +13622,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-HI' => [
@@ -13877,7 +13697,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1381-HI (lite)' => [
         'ua' => 'Mozilla/5.0 (X11; Ubuntu; Linux ppc; rv:39.0) Gecko/20100101 Firefox/39.0',
@@ -13891,7 +13711,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-HJ' => [
@@ -13966,7 +13786,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1381-HJ (lite)' => [
         'ua' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:44.0) Gecko/20100101 Firefox/44.0',
@@ -13980,7 +13800,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-HK' => [
@@ -14090,21 +13910,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-HL (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.0; Win64; x64; rv:50.0) Gecko/20100101 Firefox/50.0 Waterfox/50.0',
-        'properties' => [
-            'Comment' => 'Firefox 50.0',
-            'Browser' => 'Firefox',
-            'Version' => '50.0',
-            'Platform' => 'WinVista',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
-        'full' => false,
     ],
     'issue-1381-HM' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; rv:52.0) Gecko/20100101 Firefox/52.0 anonymized by Abelssoft 612517034',
@@ -14645,21 +14450,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-HV (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.2; en-US; rv:1.8.1.12) Gecko/20080219 Firefox/2.0.0.12 Navigator/9.0.0.6',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'Win8',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
-        'full' => false,
     ],
     'issue-1381-HW' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; rv:49.0) Gecko/20100101 Firefox/49.0',
@@ -15759,7 +15549,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1381-IP (lite)' => [
         'ua' => 'Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:50.0) Gecko/20100101 Firefox/50.0',
@@ -15773,7 +15563,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-IQ' => [
@@ -15842,7 +15632,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-IR' => [
@@ -15911,7 +15701,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-IS' => [
@@ -15980,7 +15770,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-IT' => [
@@ -16049,7 +15839,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-IU' => [
@@ -16118,7 +15908,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-IV' => [
@@ -16187,7 +15977,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-IW' => [
@@ -16256,7 +16046,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-IX' => [
@@ -16325,7 +16115,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-IY' => [
@@ -16394,7 +16184,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-IZ' => [
@@ -16841,7 +16631,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-JH' => [
@@ -16916,7 +16706,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1381-JH (lite)' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux x64_64; es-AR; rv:1.9.0.3) Gecko/2008092515 Ubuntu/8.10 (intrepid) Firefox/3.0.3',
@@ -16930,7 +16720,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-JI' => [
@@ -16999,7 +16789,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-JJ' => [
@@ -17068,7 +16858,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-JK' => [
@@ -17299,7 +17089,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-JO' => [
@@ -17368,7 +17158,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-JP' => [
@@ -17437,7 +17227,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-JQ' => [
@@ -17566,7 +17356,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1381-JS' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.8.1.4) Gecko/20070509 Firefox/2.0.0',
@@ -17640,7 +17430,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1381-JT' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-GB; rv:1.8.1.16) Gecko/20080702 Firefox/2.0.0.16',
@@ -17816,7 +17606,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-JW' => [
@@ -17885,7 +17675,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-JX' => [
@@ -17960,7 +17750,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1381-JY' => [
         'ua' => 'Mozilla/5.0 (Windows; U; WinNT4.0; tr; rv:1.8.1.20) Gecko/20070515 Firefox/2.0.0.4',
@@ -18034,7 +17824,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1381-JZ' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; en-US; rv:1.7.5) Gecko/20041107 Firefox/1.0',
@@ -18102,7 +17892,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-KA' => [
@@ -18171,7 +17961,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-KB' => [
@@ -18240,7 +18030,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-KC' => [
@@ -18309,7 +18099,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-KD' => [
@@ -18378,7 +18168,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-KE' => [
@@ -18771,7 +18561,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-KL' => [
@@ -18840,7 +18630,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-KM' => [
@@ -19125,7 +18915,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-KR' => [
@@ -19194,7 +18984,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-KS' => [
@@ -19250,21 +19040,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1381-KS (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; PPC Mac OS X 10.5; rv:2.0.1) Gecko/20100101 Firefox/4.0.1 Camino/2.2.1',
-        'properties' => [
-            'Comment' => 'Firefox Generic',
-            'Browser' => 'Firefox',
-            'Version' => '0.0',
-            'Platform' => 'MacOSX',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
-        'full' => false,
     ],
     'issue-1381-KT' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Win98; de-DE; rv:1.6) Gecko/20040206 Firefox/0.8',
@@ -19824,7 +19599,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1381-LC (lite)' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:2.2a1pre) Gecko/20110208 Firefox/4.2a1pre',
@@ -19838,7 +19613,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-LD' => [
@@ -19913,7 +19688,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1381-LD (lite)' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64; rv:2.2a1pre) Gecko/20100101 Firefox/4.2a1pre',
@@ -19927,7 +19702,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-LE' => [
@@ -20050,7 +19825,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-LG' => [
@@ -20119,7 +19894,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-LH' => [
@@ -20188,7 +19963,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-LI' => [
@@ -20257,7 +20032,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-LJ' => [
@@ -20326,7 +20101,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-LK' => [
@@ -20557,7 +20332,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-LO' => [
@@ -20626,7 +20401,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-LP' => [
@@ -20695,7 +20470,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-LQ' => [
@@ -20926,7 +20701,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-LU' => [
@@ -20995,7 +20770,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-LV' => [
@@ -21064,7 +20839,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-LW' => [
@@ -21895,7 +21670,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1381-MK (lite)' => [
         'ua' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:53.0) Gecko/20100101 Firefox/53.0',
@@ -21909,7 +21684,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1381-ML' => [

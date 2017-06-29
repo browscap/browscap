@@ -73,7 +73,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-038-b (lite)' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_2 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) CriOS/30.0.1599.16 Mobile/11A501 Safari/8536.25',
@@ -87,7 +87,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-038-a' => [
@@ -162,7 +162,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-038-a (lite)' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) CriOS/28.0.1500.16 Mobile/11A4449d Safari/8536.25',
@@ -176,7 +176,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
 ];

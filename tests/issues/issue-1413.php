@@ -499,7 +499,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-J' => [
@@ -574,7 +574,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-J (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; ME371MG Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36',
@@ -588,7 +588,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-K' => [
@@ -1311,7 +1311,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-W (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; GT-N8013 Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36',
@@ -1325,7 +1325,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-X' => [
@@ -1394,7 +1394,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-Y' => [
@@ -1463,7 +1463,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-Z' => [
@@ -1532,7 +1532,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AA' => [
@@ -1601,7 +1601,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AB' => [
@@ -1670,7 +1670,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AC' => [
@@ -1745,7 +1745,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AC (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; GT-N8000 Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36',
@@ -1759,7 +1759,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AD' => [
@@ -1828,7 +1828,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AE' => [
@@ -1903,7 +1903,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AE (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; GT-N8020 Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36',
@@ -1917,7 +1917,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AF' => [
@@ -1992,7 +1992,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AF (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; GT-N8010 Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36',
@@ -2006,7 +2006,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AG' => [
@@ -2513,7 +2513,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AO (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; GT-N5110 Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36',
@@ -2527,7 +2527,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AP' => [
@@ -2596,7 +2596,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AQ' => [
@@ -2665,7 +2665,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AR' => [
@@ -5008,7 +5008,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-CH (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; GT-P5100 Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36',
@@ -5022,7 +5022,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-CI' => [
@@ -5097,7 +5097,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-CI (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.0.3; GT-P5100 Build/IML74K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36',
@@ -5111,7 +5111,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-CJ' => [
@@ -5186,7 +5186,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-CJ (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.0.4; GT-P5110 Build/IMM76D) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36',
@@ -5200,7 +5200,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-CK' => [
@@ -5275,7 +5275,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-CK (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.0.3; GT-P5113 Build/IML74K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36',
@@ -5289,7 +5289,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-CL' => [
@@ -5364,7 +5364,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-CL (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.0.4; GT-P3113 Build/IMM76L) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36',
@@ -5378,7 +5378,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-CM' => [
@@ -5453,7 +5453,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-CM (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; GT-P3100 Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36',
@@ -5467,7 +5467,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-CN' => [
@@ -5536,7 +5536,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-CO' => [
@@ -5611,7 +5611,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-CO (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; SM-T210 Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36',
@@ -5625,7 +5625,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-CP' => [
@@ -5700,7 +5700,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-CP (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; SM-T211 Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36',
@@ -5714,7 +5714,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-CQ' => [
@@ -5783,7 +5783,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-CR' => [
@@ -5852,7 +5852,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-CS' => [
@@ -5921,7 +5921,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-CT' => [
@@ -5990,7 +5990,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-CU' => [
@@ -6059,7 +6059,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-CV' => [
@@ -6128,7 +6128,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-CW' => [
@@ -6197,7 +6197,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-CX' => [
@@ -6266,7 +6266,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-CY' => [
@@ -6335,7 +6335,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-CZ' => [
@@ -6404,7 +6404,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-DA' => [
@@ -6473,7 +6473,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-DB' => [
@@ -6542,7 +6542,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-DC' => [
@@ -6611,7 +6611,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-DD' => [
@@ -6842,7 +6842,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-DH' => [
@@ -6917,7 +6917,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-DH (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; B1-A71 Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36',
@@ -6931,7 +6931,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-DI' => [
@@ -7006,7 +7006,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-DI (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.0.4; Lenovo A660 Build/IMM76D) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36',
@@ -7020,7 +7020,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-DJ' => [
@@ -7095,7 +7095,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-DJ (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.0.3; IdeaTab A2107A-H Build/IML74K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36',
@@ -7109,7 +7109,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-DK' => [
@@ -7232,7 +7232,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-DM' => [
@@ -7301,7 +7301,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-DN' => [
@@ -7538,7 +7538,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-DQ (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; Nexus 7 Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36',
@@ -7552,7 +7552,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-DR' => [
@@ -7621,7 +7621,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-DS' => [
@@ -7690,7 +7690,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-DT' => [
@@ -7759,7 +7759,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-DU' => [
@@ -7828,7 +7828,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-DV' => [
@@ -8491,7 +8491,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-EH' => [
@@ -8890,7 +8890,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-EN (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.0.3; fr_FR; Sony Tablet S Build/TISU0143) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36',
@@ -8904,7 +8904,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-EO' => [
@@ -8979,7 +8979,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-EO (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.0.3; en-GB; A100 Build/IML74K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36',
@@ -8993,7 +8993,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-EP' => [
@@ -10196,7 +10196,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-FL' => [
@@ -10265,7 +10265,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-FM' => [
@@ -10334,7 +10334,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-FN' => [
@@ -10895,7 +10895,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-FW (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; en-us; GT-N8013 Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile Safari/537.36',
@@ -10909,7 +10909,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-FX' => [
@@ -10978,7 +10978,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-FY' => [
@@ -11047,7 +11047,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-FZ' => [
@@ -11122,7 +11122,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-FZ (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; en-us; GT-N8000 Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile Safari/537.36',
@@ -11136,7 +11136,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-GA' => [
@@ -11421,7 +11421,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-GF' => [
@@ -11496,7 +11496,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-GF (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; en-us; GT-N5110 Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile Safari/537.36',
@@ -11510,7 +11510,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-GG' => [
@@ -11849,7 +11849,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-GM' => [
@@ -11918,7 +11918,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-GN' => [
@@ -13505,7 +13505,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-HP (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.0.4; en-us; GT-P7510 Build/IMM76D) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile Safari/537.36',
@@ -13519,7 +13519,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-HQ' => [
@@ -13594,7 +13594,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-HQ (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; en-us; GT-P5100 Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile Safari/537.36',
@@ -13608,7 +13608,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-HR' => [
@@ -13683,7 +13683,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-HR (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; en-us; SM-T210 Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile Safari/537.36',
@@ -13697,7 +13697,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-HS' => [
@@ -13772,7 +13772,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-HS (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; en-us; SM-T211 Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile Safari/537.36',
@@ -13786,7 +13786,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-HT' => [
@@ -13855,7 +13855,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-HU' => [
@@ -13924,7 +13924,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-HV' => [
@@ -13993,7 +13993,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-HW' => [
@@ -14062,7 +14062,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-HX' => [
@@ -14131,7 +14131,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-HY' => [
@@ -14200,7 +14200,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-HZ' => [
@@ -14269,7 +14269,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-IA' => [
@@ -14446,7 +14446,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-ID' => [
@@ -14953,7 +14953,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-IL (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 3.2.1; en-us; AT100 Build/HTK55D) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile Safari/537.36',
@@ -14967,7 +14967,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-IM' => [
@@ -15042,7 +15042,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-IM (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.0.3; en-us; ThinkPad Tablet Build/ThinkPadTablet_A400_03) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile Safari/537.36',
@@ -15056,7 +15056,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-IN' => [
@@ -15455,7 +15455,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-IT (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.0.4; GT-P6800 Build/IMM76D) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36',
@@ -15469,7 +15469,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-IU' => [
@@ -15598,7 +15598,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-IV (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.0.3; MediaPad 7 Lite Build/HuaweiMediaPad) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36',
@@ -15612,7 +15612,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-IW' => [
@@ -15687,7 +15687,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-IW (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.0.3; GT-P3110 Build/IML74K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36',
@@ -15701,7 +15701,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-IX' => [
@@ -15776,7 +15776,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-IX (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.0.3; SGPT12 Build/TID0136) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36',
@@ -15790,7 +15790,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-IY' => [
@@ -15919,7 +15919,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-IZ (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.0.3; GT-P3100 Build/IML74K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36',
@@ -15933,7 +15933,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-JA' => [
@@ -16224,7 +16224,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-JE (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.0.4; GT-P7310 Build/IMM76D) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36',
@@ -16238,7 +16238,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-JF' => [
@@ -16475,7 +16475,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-JI (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.0.3; A501 Build/IML74K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36',
@@ -16489,7 +16489,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-JJ' => [
@@ -16564,7 +16564,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-JJ (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.0.4; GT-P7510 Build/IMM76D) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36',
@@ -16578,7 +16578,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-JK' => [
@@ -16815,7 +16815,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-JN (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.0.3; A500 Build/IML74K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36',
@@ -16829,7 +16829,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-JO' => [
@@ -17174,7 +17174,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-JT (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; GT-P3110 Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36',
@@ -17188,7 +17188,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-JU' => [
@@ -17371,7 +17371,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-JW (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; SGP321 Build/10.1.1.A.1.307) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36',
@@ -17385,7 +17385,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-JX' => [
@@ -17730,7 +17730,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-KC (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; GT-P5113 Build/IML74K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36',
@@ -17744,7 +17744,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-KD' => [
@@ -17819,7 +17819,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-KD (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; GT-P7310 Build/IMM76D) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36',
@@ -17833,7 +17833,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-KE' => [
@@ -17908,7 +17908,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-KE (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.1; tr_TR; SGPT12 Build/TJDSU0177) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36',
@@ -17922,7 +17922,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-KF' => [
@@ -17991,7 +17991,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-KG' => [
@@ -18114,7 +18114,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-KI' => [
@@ -18291,7 +18291,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-KL' => [
@@ -18468,7 +18468,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-KO' => [
@@ -18537,7 +18537,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-KP' => [
@@ -19092,7 +19092,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-KZ' => [
@@ -19323,7 +19323,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-LD' => [
@@ -19446,7 +19446,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-LF' => [
@@ -19515,7 +19515,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-LG' => [
@@ -19638,7 +19638,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-LI' => [
@@ -19707,7 +19707,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-LJ' => [
@@ -19776,7 +19776,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-LK' => [
@@ -19845,7 +19845,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-LL' => [
@@ -19914,7 +19914,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-LM' => [
@@ -19983,7 +19983,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-LN' => [
@@ -20106,7 +20106,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-LP' => [
@@ -20451,7 +20451,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-LU (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.0.3; en-us; Sony Tablet S Build/TISU0143) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile Safari/537.36',
@@ -20465,7 +20465,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-LV' => [
@@ -21188,7 +21188,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-MI' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.0.4; GT-S7560 Build/IMM76D) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36',
@@ -21796,7 +21796,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-MT' => [
@@ -21865,7 +21865,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-MU' => [
@@ -22204,7 +22204,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-NA' => [
@@ -22381,7 +22381,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-ND' => [
@@ -22450,7 +22450,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-NE' => [
@@ -22789,7 +22789,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-NK' => [
@@ -22912,7 +22912,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-NM' => [
@@ -23035,7 +23035,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-NO' => [
@@ -23212,7 +23212,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-NR' => [
@@ -23395,7 +23395,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-NT (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 3.1; en-gb; MZ604 Build/H.6.4-20) AppleWebKit/534.13 (KHTML, like Gecko) Version/4.0 Safari/534.13',
@@ -23409,7 +23409,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-NU' => [
@@ -23484,7 +23484,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-NU (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 3.2; en-us; A100 Build/HTJ85B) AppleWebKit/534.13 (KHTML, like Gecko) Version/4.0 Safari/534.13',
@@ -23498,7 +23498,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-NV' => [
@@ -23627,7 +23627,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-NW (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; de-de; NOON Build/JRO03H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -23641,7 +23641,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-NX' => [
@@ -23824,7 +23824,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-NZ (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 3.2.1; fr-fr; ARCHOS 101G9 Build/HTK75D) AppleWebKit/534.13 (KHTML, like Gecko) Version/4.0 Safari/534.13',
@@ -23838,7 +23838,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-OA' => [
@@ -23907,7 +23907,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-OB' => [
@@ -24036,7 +24036,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-OC (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; en-us; ARCHOS 80G9 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -24050,7 +24050,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-OD' => [
@@ -24125,7 +24125,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-OD (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 3.2.1; en-us; ARCHOS 80G9 Build/HTK75D) AppleWebKit/534.13 (KHTML, like Gecko) Version/4.0 Safari/534.13',
@@ -24139,7 +24139,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-OE' => [
@@ -24214,7 +24214,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-OE (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; fr-fr; Archos 80 Xenon Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -24228,7 +24228,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-OF' => [
@@ -24357,7 +24357,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-OG (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; en-us; A210 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -24371,7 +24371,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-OH' => [
@@ -24446,7 +24446,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-OH (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; de-de; A211 Build/JRO03H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -24460,7 +24460,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-OI' => [
@@ -24535,7 +24535,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-OI (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; en-us; A211 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -24549,7 +24549,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-OJ' => [
@@ -24678,7 +24678,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-OK (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; en-us; A510 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -24692,7 +24692,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-OL' => [
@@ -24767,7 +24767,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-OL (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.3; en-us; A510 Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -24781,7 +24781,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-OM' => [
@@ -24910,7 +24910,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-ON (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.2; de-de; imx51_bbg Build/FRF85B) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
@@ -24924,7 +24924,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-OO' => [
@@ -25323,7 +25323,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-OU (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.2; De-de; BASE Tab Build/FRF91) AppleWebKit/533.1 (KHTML, Like Gecko) Version/4.0 Mobile Safari/533.1',
@@ -25337,7 +25337,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-OV' => [
@@ -26600,7 +26600,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-PR (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 3.2.1; en-us; Transformer TF101 Build/HTK75) AppleWebKit/534.13 (KHTML, like Gecko) Version/4.0 Safari/534.13',
@@ -26614,7 +26614,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-PS' => [
@@ -26689,7 +26689,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-PS (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 3.1; de-de; Transformer TF101 Build/HMJ37) AppleWebKit/534.13+ (KHTML, like Gecko) Version/4.0 Safari/534.13',
@@ -26703,7 +26703,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-PT' => [
@@ -26778,7 +26778,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-PT (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.3; it-it; Transformer TF101G Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -26792,7 +26792,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-PU' => [
@@ -27191,7 +27191,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-QA (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.3; en-us; AT200 Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -27205,7 +27205,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-QB' => [
@@ -27280,7 +27280,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-QB (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 3.2.1; en-us; AT200 Build/HTK55D) AppleWebKit/534.13 (KHTML, like Gecko) Version/4.0 Safari/534.13',
@@ -27294,7 +27294,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-QC' => [
@@ -27423,7 +27423,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-QD (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; ro-ro; ARCHOS FAMILYPAD 2 Build/JRO03H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -27437,7 +27437,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-QE' => [
@@ -27512,7 +27512,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-QE (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 3.2.1; en-gb;HTC_Flyer_P510e Build/HTK75C) AppleWebKit/534.13 (KHTML, like Gecko) Version/4.0 Safari/534.13',
@@ -27526,7 +27526,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-QF' => [
@@ -27601,7 +27601,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-QF (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.4; xx; HTC Flyer P510e Build/GRJ22) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
@@ -27615,7 +27615,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-QG' => [
@@ -27690,7 +27690,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-QG (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; en-us; ME371MG Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -27704,7 +27704,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-QH' => [
@@ -27779,7 +27779,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-QH (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 3.2.1; fr-fr; G100W Build/HTK55D) AppleWebKit/534.13 (KHTML, like Gecko) Version/4.0 Safari/534.13',
@@ -27793,7 +27793,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-QI' => [
@@ -28030,7 +28030,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-QL (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; de-de; Cat Tablet Galactica X 9,7CA Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -28044,7 +28044,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-QM' => [
@@ -29193,7 +29193,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-RH' => [
@@ -29262,7 +29262,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-RI' => [
@@ -29337,7 +29337,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-RI (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; fr-fr; SAMSUNG GT-N8020/N8020XDBMA4 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -29351,7 +29351,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-RJ' => [
@@ -29420,7 +29420,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-RK' => [
@@ -29495,7 +29495,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-RK (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; hu-hu; GT-N8010 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -29509,7 +29509,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-RL' => [
@@ -29578,7 +29578,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-RM' => [
@@ -29653,7 +29653,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-RM (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; zh-tw; GT-N5110 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -29667,7 +29667,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-RN' => [
@@ -29736,7 +29736,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-RO' => [
@@ -29811,7 +29811,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-RO (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; it-it; GT-N5100 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -29825,7 +29825,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-RP' => [
@@ -31628,7 +31628,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-SV (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.2.2; pt-br; GT-P1010 Build/FROYO) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
@@ -31642,7 +31642,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-SW' => [
@@ -31717,7 +31717,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-SW (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; en-us; GT-P1000 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
@@ -31731,7 +31731,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-SX' => [
@@ -31806,7 +31806,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-SX (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.3; en-gb; GT-P1000 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
@@ -31820,7 +31820,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-SY' => [
@@ -31895,7 +31895,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-SY (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; en-us; GT-P1000 Build/JZO54K; CyanogenMod-10) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -31909,7 +31909,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-SZ' => [
@@ -31978,7 +31978,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-TA' => [
@@ -32053,7 +32053,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-TA (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 3.2; vi-vn; GT-P7511 Build/HTJ85B) AppleWebKit/534.13 (KHTML, like Gecko) Version/4.0 Safari/534.13',
@@ -32067,7 +32067,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-TB' => [
@@ -32142,7 +32142,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-TB (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 3.2; en-gb; GT-P7501 Build/HTJ85B) AppleWebKit/534.13 (KHTML, like Gecko) Version/4.0 Safari/534.13',
@@ -32156,7 +32156,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-TC' => [
@@ -32231,7 +32231,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-TC (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; el-gr; GT-P7501 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -32245,7 +32245,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-TD' => [
@@ -32320,7 +32320,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-TD (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; nl-nl; GT-P7100 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -32334,7 +32334,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-TE' => [
@@ -32409,7 +32409,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-TE (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.3; en-us; GT-P5113 Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -32423,7 +32423,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-TF' => [
@@ -32492,7 +32492,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-TG' => [
@@ -32561,7 +32561,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-TH' => [
@@ -32636,7 +32636,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-TH (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; de-de; GT-P6201 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -32650,7 +32650,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-TI' => [
@@ -32725,7 +32725,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-TI (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 3.2; de-de; GT-P6201 Build/HTJ85B) AppleWebKit/534.13 (KHTML, like Gecko) Version/4.0 Safari/534.13',
@@ -32739,7 +32739,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-TJ' => [
@@ -32814,7 +32814,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-TJ (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; en-us; GT-P6800 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -32828,7 +32828,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-TK' => [
@@ -32903,7 +32903,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-TK (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 3.1; en-us; GT-P7310 Build/HMJ37) AppleWebKit/534.13 (KHTML, like Gecko) Version/4.0 Safari/534.13',
@@ -32917,7 +32917,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-TL' => [
@@ -32992,7 +32992,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-TL (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 3.1; es-us; GT-P7300 Build/HMJ37) AppleWebKit/534.13 (KHTML, like Gecko) Version/4.0 Safari/534.13',
@@ -33006,7 +33006,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-TM' => [
@@ -33081,7 +33081,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-TM (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; en-us; GT-P7310 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
@@ -33095,7 +33095,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-TN' => [
@@ -33980,7 +33980,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-UC (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; en-US; B1-710 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.1 Safari/534.30',
@@ -33994,7 +33994,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-UD' => [
@@ -34069,7 +34069,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-UD (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; B1-A71 Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Mobile Safari/537.36',
@@ -34083,7 +34083,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-UE' => [
@@ -34158,7 +34158,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-UE (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; en-US; B1-A71 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.1 Safari/534.30',
@@ -34172,7 +34172,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-UF' => [
@@ -34295,7 +34295,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-UH' => [
@@ -34370,7 +34370,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-UH (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; en-us; A701 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
@@ -34384,7 +34384,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-UI' => [
@@ -34459,7 +34459,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-UI (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; de-de; A701 Build/JRO03H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -34473,7 +34473,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-UJ' => [
@@ -34548,7 +34548,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-UJ (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.4; en-us; A1_07 Build/GRJ22) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
@@ -34562,7 +34562,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-UK' => [
@@ -34637,7 +34637,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-UK (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; cs-cz; Lenovo A660 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
@@ -34651,7 +34651,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-UL' => [
@@ -34726,7 +34726,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-UL (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 3.2.1; en-us; K1 Build/HTK75C) AppleWebKit/534.13 (KHTML, like Gecko) Version/4.0 Safari/534.13',
@@ -34740,7 +34740,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-UM' => [
@@ -34863,7 +34863,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-UO' => [
@@ -34992,7 +34992,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-UP (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 3.1; pl-pl; K1 Build/K1_A301_03_03_110919_SG) AppleWebKit/534.13 (KHTML, like Gecko) Version/4.0 Safari/534.13',
@@ -35006,7 +35006,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-UQ' => [
@@ -35081,7 +35081,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-UQ (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; en-us; IdeaTabA2109A Build/JRO03R) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -35095,7 +35095,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-UR' => [
@@ -35170,7 +35170,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-UR (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; en-us; IdeaTabA2109A Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -35184,7 +35184,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-US' => [
@@ -35253,7 +35253,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-UT' => [
@@ -35382,7 +35382,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-UU (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.1-update1; es-es; HUAWEI-S7 Build/ERE27) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17',
@@ -35396,7 +35396,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-UV' => [
@@ -35633,7 +35633,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-UY (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.1; de-at; INM803HC Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
@@ -35647,7 +35647,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-UZ' => [
@@ -35776,7 +35776,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-VA (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.3; fr-fr; MID1125 Build/GRI40) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
@@ -35790,7 +35790,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-VB' => [
@@ -35865,7 +35865,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-VB (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.3; fr-fr; MID1126 Build/GRI40) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
@@ -35879,7 +35879,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-VC' => [
@@ -35954,7 +35954,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-VC (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.3; fr-ca; MID7022 Build/GRI40) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
@@ -35968,7 +35968,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-VD' => [
@@ -36151,7 +36151,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-VF (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; fr-fr; MEDION LIFE P4012 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
@@ -36165,7 +36165,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-VG' => [
@@ -36240,7 +36240,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-VG (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.5; de-de; MEDION LIFE P4310 Build/GRJ29) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
@@ -36254,7 +36254,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-VH' => [
@@ -36329,7 +36329,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-VH (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.3; de-de; MD_LIFETAB_P9516 Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -36343,7 +36343,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-VI' => [
@@ -36418,7 +36418,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-VI (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; en-us; LIFETAB_S9512 Build/IMM76D) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Safari/533.1',
@@ -36432,7 +36432,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-VJ' => [
@@ -36507,7 +36507,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-VJ (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; de-de; LIFETAB_S9714 Build/JRO03R) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -36521,7 +36521,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-VK' => [
@@ -37082,7 +37082,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-VT (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.3; ru-ru; HUAWEI MediaPad Build/HuaweiMediaPad) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -37096,7 +37096,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-VU' => [
@@ -37171,7 +37171,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-VU (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 3.2; ru-ru; HUAWEI MediaPad Build/HuaweiMediaPad) AppleWebKit/534.13 (KHTML, like Gecko) Version/4.0 Safari/534.13',
@@ -37185,7 +37185,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-VV' => [
@@ -37260,7 +37260,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-VV (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; en-us; MediaPad 10 LINK Build/HuaweiMediaPad) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -37274,7 +37274,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-VW' => [
@@ -37349,7 +37349,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-VW (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.3; en-us; MediaPad 7 Lite Build/HuaweiMediaPad) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -37363,7 +37363,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-VX' => [
@@ -37432,7 +37432,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-VY' => [
@@ -37501,7 +37501,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-VZ' => [
@@ -37846,7 +37846,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-WE (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.1-update1-1.0.0; ar-eg; POV Mobii 7 Build/ECLAIR) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17',
@@ -37860,7 +37860,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-WF' => [
@@ -38043,7 +38043,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-WH (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; hu-hu; PMP7280C3G Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -38057,7 +38057,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-WI' => [
@@ -38126,7 +38126,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-WJ' => [
@@ -38201,7 +38201,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-WJ (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.3; ru-ru; PMP5080CPRO Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -38215,7 +38215,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-WK' => [
@@ -38290,7 +38290,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-WK (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.1; fr-fr; PMP5080B Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
@@ -38304,7 +38304,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-WL' => [
@@ -38373,7 +38373,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-WM' => [
@@ -38442,7 +38442,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-WN' => [
@@ -38571,7 +38571,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-WO (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; Nexus 7 Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Mobile Safari/537.36',
@@ -38585,7 +38585,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-WP' => [
@@ -38654,7 +38654,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-WQ' => [
@@ -38891,7 +38891,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-WT (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.3; ar-eg; CAT NOVA Build/GRI40) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
@@ -38905,7 +38905,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-WU' => [
@@ -41734,7 +41734,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-YT (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; en-us; PadFone Build/JRO03L) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
@@ -41748,7 +41748,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-YU' => [
@@ -41823,7 +41823,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-YU (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; es-us; PadFone Build/IMM76I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -41837,7 +41837,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-YV' => [
@@ -41912,7 +41912,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-YV (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 3.2; en-us; A501 Build/HTJ85B) AppleWebKit/534.13 (KHTML, like Gecko) Version/4.0 Safari/534.13',
@@ -41926,7 +41926,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-YW' => [
@@ -42001,7 +42001,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-YW (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 3.0.1; en-us; A501 Build/HRI66) AppleWebKit/534.13 (KHTML, like Gecko) Version/4.0 Safari/534.13',
@@ -42015,7 +42015,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-YX' => [
@@ -42090,7 +42090,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-YX (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 3.1; en-us; A500 Build/HMJ37) AppleWebKit/534.13 (KHTML, like Gecko) Version/4.0 Safari/534.13',
@@ -42104,7 +42104,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-YY' => [
@@ -42179,7 +42179,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-YY (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.3; zh-tw; A501 Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -42193,7 +42193,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-YZ' => [
@@ -43564,7 +43564,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-ZX (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.1-update1-corvusMODv6; en-us; SmartQ V7 Build/ECLAIR) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17',
@@ -43578,7 +43578,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-ZY' => [
@@ -43653,7 +43653,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-ZY (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.3; en-us; SmartTabII10 Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -43667,7 +43667,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-ZZ' => [
@@ -43904,7 +43904,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AAC (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.2.2; De-de; ODYS Space Build/I700T_P7_T04_TSCL_FT_R_0_03_1010_110623) AppleWebKit/533.1 (KHTML, Like Gecko) Version/4.0 Mobile Safari/533.1',
@@ -43918,7 +43918,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AAD' => [
@@ -44155,7 +44155,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AAG (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.2; fr-fr; Dell Streak Build/FRF91) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
@@ -44169,7 +44169,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AAH' => [
@@ -44244,7 +44244,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AAH (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 3.2; en-us; Dell Streak 7 Build/HTJ85B) AppleWebKit/534.13 (KHTML, like Gecko) Version/4.0 Safari/534.13',
@@ -44258,7 +44258,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AAI' => [
@@ -44333,7 +44333,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AAI (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.3; en-gb; M532 Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -44347,7 +44347,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AAJ' => [
@@ -44422,7 +44422,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AAJ (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.2; es-us; DISCO10 Build/FRF85B) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
@@ -44436,7 +44436,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AAK' => [
@@ -44511,7 +44511,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AAK (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.3; De-de; CatNova8 Build/GRI40) AppleWebKit/533.16 (KHTML, Like Gecko) Version/4.0 Mobile Safari/533.1',
@@ -44525,7 +44525,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AAL' => [
@@ -44654,7 +44654,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AAM (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 3.2; en-us; Sony Tablet S Build/THMAS11000) AppleWebKit/534.13 (KHTML, like Gecko) Version/4.0 Safari/534.13',
@@ -44668,7 +44668,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AAN' => [
@@ -44743,7 +44743,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AAN (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.3; cs-cz; ThinkPad Tablet Build/ThinkPadTablet_A400_03) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -44757,7 +44757,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AAO' => [
@@ -44832,7 +44832,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AAO (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 3.1; en-us; ThinkPad Tablet Build/ThinkPadTablet_A310_02) AppleWebKit/534.13 (KHTML, like Gecko) Version/4.0 Safari/534.13',
@@ -44846,7 +44846,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AAP' => [
@@ -44921,7 +44921,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AAP (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; de-; Touchlet X10.dual Build/JRO03H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -44935,7 +44935,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AAQ' => [
@@ -45010,7 +45010,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AAQ (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; en-us; X10.Dual+ Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -45024,7 +45024,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AAR' => [
@@ -45099,7 +45099,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AAR (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.3; en-us; ASUS Transformer Pad TF300T Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -45113,7 +45113,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AAS' => [
@@ -45182,7 +45182,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AAT' => [
@@ -45257,7 +45257,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AAT (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; en-us; ASUS Transformer Pad TF300T Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -45271,7 +45271,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AAU' => [
@@ -45346,7 +45346,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AAU (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.3; en-ca; ASUS Transformer Pad TF300TG Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -45360,7 +45360,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AAV' => [
@@ -45429,7 +45429,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AAW' => [
@@ -45504,7 +45504,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AAW (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; en-us; ASUS Transformer Pad TF700T Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -45518,7 +45518,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AAX' => [
@@ -45593,7 +45593,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AAX (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; en-us; Transformer Prime TF201 Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -45607,7 +45607,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AAY' => [
@@ -45682,7 +45682,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AAY (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.3; es-es; Transformer Prime TF201 Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -45696,7 +45696,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AAZ' => [
@@ -45771,7 +45771,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AAZ (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; zh-cn; U30GT-H Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -45785,7 +45785,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-ABA' => [
@@ -46238,7 +46238,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-ABH (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; en-us; Micromax_A101 Build/MicromaxMicromax_A101) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
@@ -46252,7 +46252,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-ABI' => [
@@ -46381,7 +46381,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-ABJ (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.2.1; fr-ca; ViewPad7 Build/FRG83) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
@@ -46395,7 +46395,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-ABK' => [
@@ -46470,7 +46470,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-ABK (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3;en-us; ViewSonic-ViewPad7e build/ERE27) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
@@ -46484,7 +46484,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-ABL' => [
@@ -46775,7 +46775,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-ABP (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.1-update1; ar-il; Android for Telechips TCC8900 Evaluation Board (US) Build/ECLAIR) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17',
@@ -46789,7 +46789,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-ABQ' => [
@@ -46972,7 +46972,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-ABS (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 3.1; en-us; Xoom Build/HMJ25) AppleWebKit/534.13 (KHTML, like Gecko) Version/4.0 Safari/534.13',
@@ -46986,7 +46986,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-ABT' => [
@@ -47061,7 +47061,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-ABT (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; de-at; MZ601 Build/I.7.1-42) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -47075,7 +47075,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-ABU' => [
@@ -47150,7 +47150,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-ABU (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; en-us; Xoom Build/IMM76L) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -47164,7 +47164,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-ABV' => [
@@ -47233,7 +47233,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-ABW' => [
@@ -47308,7 +47308,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-ABW (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 3.0.1; en-gb; MZ601 Build/H.6.1-38-1) AppleWebKit/534.13 (KHTML, like Gecko) Version/4.0 Safari/534.13',
@@ -47322,7 +47322,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-ABX' => [
@@ -47397,7 +47397,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-ABX (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 3.1; en-us; MZ601 Build/H.6.3-25-5) AppleWebKit/534.13 (KHTML, like Gecko) Version/4.0 Safari/534.13',
@@ -47411,7 +47411,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-ABY' => [
@@ -47486,7 +47486,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-ABY (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 3.2; en-gb; MZ601 Build/H.6.5-17-3) AppleWebKit/534.13 (KHTML, like Gecko) Version/4.0 Safari/534.13',
@@ -47500,7 +47500,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-ABZ' => [
@@ -47575,7 +47575,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-ABZ (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; en-us; MZ601 Build/JRO03L) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -47589,7 +47589,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-ACA' => [
@@ -47664,7 +47664,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-ACA (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 3.2; en-us; MZ604 Build/H.6.6-23) AppleWebKit/534.13 (KHTML, like Gecko) Version/4.0 Safari/534.13',
@@ -47678,7 +47678,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-ACB' => [
@@ -47753,7 +47753,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-ACB (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; en-us; XOOM 2 Build/7.7.1-85_MZ615-26) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -47767,7 +47767,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-ACC' => [
@@ -47842,7 +47842,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-ACC (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; es-es; XOOM 2 Build/7.7.1-128_MZ616-12) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -47856,7 +47856,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-ACD' => [
@@ -47931,7 +47931,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-ACD (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 3.2.2; he-il; XOOM 2 Build/1.6.0_268.4-MZ616) AppleWebKit/534.13 (KHTML, like Gecko) Version/4.0 Safari/534.13',
@@ -47945,7 +47945,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-ACE' => [
@@ -49640,7 +49640,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-ADI (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.3; en-us; SGPT12 Build/TISU0105) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -49654,7 +49654,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-ADJ' => [
@@ -49729,7 +49729,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-ADJ (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; bg-bg; SGPT13 Build/TJDS0170) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -49743,7 +49743,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-ADK' => [
@@ -49812,7 +49812,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-ADL' => [
@@ -49887,7 +49887,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-ADL (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; en-sg; SGP321 Build/IMM76L) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -49901,7 +49901,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-ADM' => [
@@ -49970,7 +49970,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-ADN' => [
@@ -51233,7 +51233,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AEJ (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.2; de-at; ODYS Xtreme Build/FRF91) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
@@ -51247,7 +51247,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AEK' => [
@@ -51322,7 +51322,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AEK (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.6; en-us; YP-GI1 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
@@ -51336,7 +51336,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AEL' => [
@@ -51411,7 +51411,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AEL (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.1; en-us; LogicPD Zoom2 Build/ERD79) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17',
@@ -51425,7 +51425,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AEM' => [
@@ -51554,7 +51554,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AEN (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.1-update1; en-us; Ideos S7 Build/ERE27) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17',
@@ -51568,7 +51568,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AEO' => [
@@ -51751,7 +51751,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AEQ (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.2.1; en-us; A101IT Build/FROYO) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
@@ -51765,7 +51765,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AER' => [
@@ -52164,7 +52164,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AEX (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.5; en-us; YP-G1 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
@@ -52178,7 +52178,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AEY' => [
@@ -52361,7 +52361,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AFA (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.3; de-de; ODYS Space Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
@@ -52375,7 +52375,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AFB' => [
@@ -52450,7 +52450,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AFB (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.5; de-de; BASE Tab 7.1 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
@@ -52464,7 +52464,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AFC' => [
@@ -52917,7 +52917,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AFJ (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 3.2; th-th; GT-P7300B Build/HTJ85B) AppleWebKit/534.13 (KHTML, like Gecko) Version/4.0 Safari/534.13',
@@ -52931,7 +52931,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AFK' => [
@@ -53006,7 +53006,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AFK (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 3.2; de-de; LIFETAB_P9514 Build/HTJ85B) AppleWebKit/534.13 (KHTML, like Gecko) Version/4.0 Safari/534.13',
@@ -53020,7 +53020,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AFL' => [
@@ -53095,7 +53095,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AFL (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 3.2.1; fr-fr; Transformer TF101G Build/HTK75) AppleWebKit/534.13 (KHTML, like Gecko) Version/4.0 Safari/534.13',
@@ -53109,7 +53109,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AFM' => [
@@ -53238,7 +53238,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AFN (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.3; it-it; A511 Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -53252,7 +53252,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AFO' => [
@@ -53435,7 +53435,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AFQ (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.3; en-us; B1-A71 Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -53449,7 +53449,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AFR' => [
@@ -53524,7 +53524,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AFR (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; en-us; Nexus 7 Build/JRO03D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -53538,7 +53538,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AFS' => [
@@ -53721,7 +53721,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AFU (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.3; en-us; SGPT13 Build/TID0129) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -53735,7 +53735,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AFV' => [
@@ -53918,7 +53918,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AFX (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; fr-fr; GT-P7511 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -53932,7 +53932,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AFY' => [
@@ -54223,7 +54223,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AGC (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; en-us; GT-N5100 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -54237,7 +54237,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AGD' => [
@@ -54420,7 +54420,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AGF (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.3; en-us; ADM816HC Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -54434,7 +54434,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AGG' => [
@@ -54617,7 +54617,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AGI (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.3; en-us; ARCHOS 101G9 Build/MR1) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -54631,7 +54631,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AGJ' => [
@@ -54706,7 +54706,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AGJ (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; ko-kr; SHW-M380W Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -54720,7 +54720,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AGK' => [
@@ -54903,7 +54903,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AGM (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.3; de-de; LIFETAB_P9514 Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -54917,7 +54917,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AGN' => [
@@ -55046,7 +55046,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AGO (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; de-de; ARCHOS 101G10 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -55060,7 +55060,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AGP' => [
@@ -55135,7 +55135,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AGP (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.3; en-us; IdeaTabS2110AF Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -55149,7 +55149,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AGQ' => [
@@ -55386,7 +55386,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AGT (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; en-gb; XOOM 2 ME Build/7.7.1-128_MZ607-14) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -55400,7 +55400,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AGU' => [
@@ -55475,7 +55475,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AGU (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; en-us; MediaPad 10 LINK Build/HuaweiMediaPad) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -55489,7 +55489,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AGV' => [
@@ -55564,7 +55564,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AGV (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.3; en-us; ASUS Transformer Pad TF700T Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -55578,7 +55578,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AGW' => [
@@ -55815,7 +55815,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AGZ (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; de-de; Tablet-PC-4 Build/ICS.g08refem618.20121102) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -55829,7 +55829,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AHA' => [
@@ -56066,7 +56066,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AHD (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; es-es; U30GT 2 Build/JRO03H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -56080,7 +56080,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AHE' => [
@@ -56155,7 +56155,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AHE (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; fr-fr; U30GT-H Build/JRO03H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -56169,7 +56169,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AHF' => [
@@ -56244,7 +56244,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AHF (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; en-us; Touchpad Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -56258,7 +56258,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AHG' => [
@@ -56387,7 +56387,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AHH (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; de-de; ADM816KC Build/JRO03H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -56401,7 +56401,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AHI' => [
@@ -56638,7 +56638,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AHL (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; fr-fr; ARCHOS 101G10 Build/JRO03L) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -56652,7 +56652,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AHM' => [
@@ -56781,7 +56781,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AHN (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; en-gb; LIFETAB_E10310 Build/JRO03H) AppleWebKit/537.16 (KHTML, like Gecko) Version/4.0 Safari/537.16',
@@ -56795,7 +56795,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AHO' => [
@@ -57032,7 +57032,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AHR (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.X; lt-lt; Xelio 10 Pro Build/ODYS_Xelio) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -57046,7 +57046,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AHS' => [
@@ -57283,7 +57283,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AHV (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; de-de; TP10.1-1500DC-metal Build/JRO03H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -57297,7 +57297,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AHW' => [
@@ -57372,7 +57372,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AHW (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; en-us; A100 Build/JZO54K; CyanogenMod-10) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -57386,7 +57386,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AHX' => [
@@ -57515,7 +57515,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AHY (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; de-de; POV_TAB-PROTAB30-IPS10 Build/JRO03H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -57529,7 +57529,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AHZ' => [
@@ -57712,7 +57712,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AIB (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; en-au; GT-P7510 Build/JZO54K; CyanogenMod-10) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -57726,7 +57726,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AIC' => [
@@ -57801,7 +57801,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AIC (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; en-in; ASUS Transformer Pad TF300TG Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -57815,7 +57815,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AID' => [
@@ -57890,7 +57890,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AID (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; en-us; ASUS Transformer Pad TF300TL Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -57904,7 +57904,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AIE' => [
@@ -58033,7 +58033,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AIF (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; en-us; A500 Build/JZO54K; CyanogenMod-Android 4.1.2 CM10 build) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -58047,7 +58047,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AIG' => [
@@ -58116,7 +58116,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AIH' => [
@@ -58185,7 +58185,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AII' => [
@@ -58254,7 +58254,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AIJ' => [
@@ -58323,7 +58323,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AIK' => [
@@ -58398,7 +58398,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AIL' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; tolino tab 8.9 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -58466,7 +58466,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AIM' => [
@@ -58751,7 +58751,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AIR' => [
@@ -58928,7 +58928,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AIU' => [
@@ -58997,7 +58997,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AIV' => [
@@ -59066,7 +59066,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AIW' => [
@@ -59405,7 +59405,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AJC' => [
@@ -59528,7 +59528,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AJE' => [
@@ -59597,7 +59597,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AJF' => [
@@ -59666,7 +59666,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AJG' => [
@@ -59735,7 +59735,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AJH' => [
@@ -59912,7 +59912,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AJK' => [
@@ -60035,7 +60035,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AJM' => [
@@ -60380,7 +60380,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AJR (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 3.2; de-de; GT-P6211 Build/HTJ85B) AppleWebKit/534.13 (KHTML, like Gecko) Version/4.0 Safari/534.13',
@@ -60394,7 +60394,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AJS' => [
@@ -60739,7 +60739,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AJX (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.1-2010.11.4; de-de; XST2 Build/ECLAIR) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17',
@@ -60753,7 +60753,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AJY' => [
@@ -60882,7 +60882,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AJZ (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 3.0.1; en-gb; LG-V900 Build/HRI66) AppleWebKit/534.13 (KHTML, like Gecko) Version/4.0 Safari/534.13',
@@ -60896,7 +60896,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AKA' => [
@@ -61025,7 +61025,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AKB (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.3; ro-ro; ODYS-EVO Build/ODYS-EVO) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -61039,7 +61039,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AKC' => [
@@ -61918,7 +61918,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AKS' => [
@@ -61993,7 +61993,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AKS (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; en-us; Touchpad Build/IMM76I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -62007,7 +62007,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AKT' => [
@@ -62136,7 +62136,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AKU (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; de-de; LIFETAB_S9714 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -62150,7 +62150,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AKV' => [
@@ -62441,7 +62441,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AKZ (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; en-us; Nexus 10 Build/IMM76L) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -62455,7 +62455,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-ALA' => [
@@ -62800,7 +62800,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-ALF (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.4; en-us; GT-N8000 Build/GRJ22) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
@@ -62814,7 +62814,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-ALG' => [
@@ -62991,7 +62991,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-ALJ' => [
@@ -63282,7 +63282,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-ALN (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.1-update1; en-gb; Dell Streak Build/ERE27) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17',
@@ -63296,7 +63296,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-ALO' => [
@@ -63425,7 +63425,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-ALP (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.1-update1; md-us; p7901a Build/ERE27) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17',
@@ -63439,7 +63439,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-ALQ' => [
@@ -63514,7 +63514,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-ALQ (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 3.0.1; en-us; A100 Build/HRI66) AppleWebKit/534.13 (KHTML, like Gecko) Version/4.0 Safari/534.13',
@@ -63528,7 +63528,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-ALR' => [
@@ -63657,7 +63657,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-ALS (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.2; de-de; p7901a Build/FRF85B) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
@@ -63671,7 +63671,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-ALT' => [
@@ -63848,7 +63848,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-ALW' => [
@@ -63923,7 +63923,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-ALW (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; en-us; GT-P7500 Build/JZO54K; CyanogenMod-10) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -63937,7 +63937,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-ALX' => [
@@ -64012,7 +64012,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-ALX (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.2; en-gb; TOSHIBA_FOLIO_AND_A Build/TOSHIBA_FOLIO_AND_A) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
@@ -64026,7 +64026,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-ALY' => [
@@ -64263,7 +64263,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AMB (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; en-au; GT-N5110 Build/IMM76L) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -64277,7 +64277,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AMC' => [
@@ -64406,7 +64406,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AMD (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.3; en-us; ASUS Transformer Pad TF300TL Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -64420,7 +64420,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AME' => [
@@ -64711,7 +64711,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AMI (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; th-th; A501 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
@@ -64725,7 +64725,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AMJ' => [
@@ -64854,7 +64854,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AMK (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.1-update1; en-us; 1000ET Build/ERE27) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17',
@@ -64868,7 +64868,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AML' => [
@@ -64943,7 +64943,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AML (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; th-th; folio100 Build/JZO54K; CyanogenMod-10) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -64957,7 +64957,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AMM' => [
@@ -65032,7 +65032,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AMM (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.4; en-us; folio100 Build/IMM76D; CyanogenMod-9.0.0) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
@@ -65046,7 +65046,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AMN' => [
@@ -65169,7 +65169,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AMP' => [
@@ -65244,7 +65244,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AMP (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; el-gr; MID8127 Build/GreenDemon_v1.0) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -65258,7 +65258,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AMQ' => [
@@ -65387,7 +65387,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AMR (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.2; en-us; NBPC724 Build/FRF85B) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
@@ -65401,7 +65401,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AMS' => [
@@ -65476,7 +65476,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AMS (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.1; de-de; Odys-Loox Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
@@ -65490,7 +65490,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AMT' => [
@@ -65727,7 +65727,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AMW (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.3; de-de; ODYS-Q Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -65741,7 +65741,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AMX' => [
@@ -65924,7 +65924,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AMZ (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; en-us; N90FHDRK Build/JRO03H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -65938,7 +65938,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-ANA' => [
@@ -66121,7 +66121,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-ANC (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.0.3; en-gb; MID1125 Build/CaribbeanSunset_v1.1) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -66135,7 +66135,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AND' => [
@@ -66210,7 +66210,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AND (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; en-us; MID1125 Build/GreenDemon_v1.0) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -66224,7 +66224,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-ANE' => [
@@ -66299,7 +66299,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-ANE (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 3.2.1; es-es; MD_LIFETAB_P9516 Build/HTK75C) AppleWebKit/534.13 (KHTML, like Gecko) Version/4.0 Safari/534.13',
@@ -66313,7 +66313,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-ANF' => [
@@ -66388,7 +66388,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-ANF (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; de-de; XELIO7PRO Build/JRO03H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -66402,7 +66402,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-ANG' => [
@@ -66477,7 +66477,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-ANG (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; de-de; MID1126 Build/GreenDemon_v1.0) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',
@@ -66491,7 +66491,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-ANH' => [
@@ -66560,7 +66560,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-ANI' => [
@@ -66629,7 +66629,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-ANJ' => [
@@ -66758,7 +66758,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-ANK (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.1-update1; en-us; DFP7002 Build/ECLAIR) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17',
@@ -66772,7 +66772,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-ANL' => [
@@ -66847,7 +66847,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-ANL (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.1-update2; en-; ZiiO7 Build/v1.00.28-ECLAIR) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17',
@@ -66861,7 +66861,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-ANM' => [
@@ -66984,7 +66984,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-ANO' => [
@@ -67053,7 +67053,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-ANP' => [
@@ -67122,7 +67122,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-ANQ' => [
@@ -67191,7 +67191,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-ANR' => [
@@ -67260,7 +67260,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-ANS' => [
@@ -67329,7 +67329,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-ANT' => [
@@ -67398,7 +67398,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-ANU' => [
@@ -67467,7 +67467,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-ANV' => [
@@ -67536,7 +67536,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-ANW' => [
@@ -67605,7 +67605,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-ANX' => [
@@ -67674,7 +67674,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-ANY' => [
@@ -67743,7 +67743,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-ANZ' => [
@@ -67812,7 +67812,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AOA' => [
@@ -67881,7 +67881,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AOB' => [
@@ -67950,7 +67950,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AOC' => [
@@ -68019,7 +68019,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AOD' => [
@@ -68094,7 +68094,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AOD (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 1.6; fr-fr; Archos5 Build/Donut) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1',
@@ -68108,7 +68108,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AOE' => [
@@ -68177,7 +68177,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AOF' => [
@@ -68252,7 +68252,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1413-AOF (lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 2.3.7; -us; Vodafone Smart II Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1 SVN/01015',
@@ -68266,7 +68266,7 @@ return [
             'Device_Type' => 'Mobile Phone',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-1413-AOG' => [
@@ -68322,26 +68322,6 @@ return [
         'lite' => true,
         'standard' => false,
         'full' => true,
-    ],
-    'issue-1413-AOG (standard)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; en-US; ALCATEL ONE TOUCH 6010D Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.10.5.809 U3/0.8.0 Mobile Safari/534.30',
-        'properties' => [
-            'Comment' => 'UC Browser 10.10',
-            'Browser' => 'UC Browser',
-            'Browser_Maker' => 'UCWeb Inc.',
-            'Version' => '10.10',
-            'MajorVer' => '10',
-            'MinorVer' => '10',
-            'Platform' => 'Android',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Crawler' => false,
-            'Device_Type' => 'Mobile Phone',
-            'Device_Pointing_Method' => 'touchscreen',
-        ],
-        'lite' => false,
-        'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
     ],
     'issue-1413-AOH' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; fr-; Vodafone 975N Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.1 Mobile Safari/534.30 SVN/130HCN2',
@@ -68450,20 +68430,5 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1413-AOI (lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 5.0.1; HTC One_M8 Build/LRX22C; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/110.0.0.15.69;]',
-        'properties' => [
-            'Comment' => 'Android WebView 4.0',
-            'Browser' => 'Android WebView',
-            'Version' => '4.0',
-            'Platform' => 'Android',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
-        'full' => false,
     ],
 ];

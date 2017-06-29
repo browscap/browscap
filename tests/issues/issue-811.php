@@ -505,7 +505,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-811-K' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:16.0) KcB/16.0 Firefox/16.0',

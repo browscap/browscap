@@ -55,39 +55,4 @@ return [
         'standard' => false,
         'full' => true,
     ],
-    'issue-714 (standard)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; ARM Mac OS X) AppleWebKit/538.15 (KHTML, like Gecko) Safari/538.15 Version/6.0 Debian/7.8 (3.8.2.0-0rpi21rpi1) Epiphany/3.8.2',
-        'properties' => [
-            'Comment' => 'Safari 6.0',
-            'Browser' => 'Safari',
-            'Browser_Maker' => 'Apple Inc',
-            'Version' => '6.0',
-            'MajorVer' => '6',
-            'MinorVer' => '0',
-            'Platform' => 'MacOSX',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Crawler' => false,
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => false,
-        'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
-    ],
-    'issue-714 (lite)' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; ARM Mac OS X) AppleWebKit/538.15 (KHTML, like Gecko) Safari/538.15 Version/6.0 Debian/7.8 (3.8.2.0-0rpi21rpi1) Epiphany/3.8.2',
-        'properties' => [
-            'Comment' => 'Safari 6.0',
-            'Browser' => 'Safari',
-            'Version' => '6.0',
-            'Platform' => 'MacOSX',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
-        'full' => false,
-    ],
 ];

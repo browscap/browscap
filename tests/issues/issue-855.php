@@ -109,19 +109,4 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-855-B (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 YaBrowser/15.10.2454.3865 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome 45.0',
-            'Browser' => 'Chrome',
-            'Version' => '45.0',
-            'Platform' => 'Win10',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
-        'full' => false,
-    ],
 ];

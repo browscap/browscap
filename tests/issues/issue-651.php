@@ -73,7 +73,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-651-B' => [
         'ua' => 'Appcent/2.6 CFNetwork/672.1.15 Darwin/14.0.0',
@@ -201,7 +201,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-651-D' => [
         'ua' => 'AtomicBrowser/3.7.1 CFNetwork/467.12 Darwin/10.3.1',
@@ -1517,7 +1517,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-651-AB' => [
         'ua' => 'DealsFREE/1.6.1 CFNetwork/548.1.4 Darwin/11.0.0',
@@ -1591,7 +1591,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-651-AC' => [
         'ua' => 'Differences/1.2 CFNetwork/548.1.4 Darwin/11.0.0',
@@ -1665,7 +1665,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-651-AD' => [
         'ua' => 'FastBrowser/1 CFNetwork/711.1.16 Darwin/14.0.0',
@@ -1793,7 +1793,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-651-AF' => [
         'ua' => 'Flint/173 CFNetwork/673.0.3 Darwin/13.0.0 (x86_64) (MacBookAir4%2C2)',
@@ -2083,7 +2083,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-651-AK' => [
         'ua' => 'Google/2.0.1.10455 CFNetwork/548.1.4 Darwin/11.0.0',
@@ -2211,7 +2211,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-651-AM' => [
         'ua' => 'iCabMobile/1.1 CFNetwork/711.1.16 Darwin/14.0.0',
@@ -2501,7 +2501,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-651-AR' => [
         'ua' => 'iMangaX/3.0.5 CFNetwork/548.0.4 Darwin/11.0.0',
@@ -2575,7 +2575,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-651-AS' => [
         'ua' => 'Instagram/2.4.0 CFNetwork/548.1.4 Darwin/11.0.0',
@@ -4101,7 +4101,7 @@ return [
             'Device_Type' => 'Mobile Device',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-651-BV' => [
@@ -4170,7 +4170,7 @@ return [
             'Device_Type' => 'Mobile Device',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-651-BX' => [
@@ -4239,7 +4239,7 @@ return [
             'Device_Type' => 'Mobile Device',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-651-BZ' => [
@@ -4674,21 +4674,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-651-CH (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36 Kenshoo/3049',
-        'properties' => [
-            'Comment' => 'Chrome Generic',
-            'Browser' => 'Chrome',
-            'Version' => '0.0',
-            'Platform' => 'Win7',
-            'isMobileDevice' => false,
-            'isTablet' => false,
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
-        'full' => false,
-    ],
     'issue-651-CI' => [
         'ua' => 'PacMan/14193 CFNetwork/548.1.4 Darwin/11.0.0',
         'properties' => [
@@ -4761,7 +4746,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-651-CJ' => [
         'ua' => 'Perfect%20Browser/9.1 CFNetwork/672.0.8 Darwin/14.0.0',
@@ -5375,7 +5360,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-651-CU' => [
         'ua' => 'Safari/6534.59.10 CFNetwork/454.12.4 Darwin/10.8.0 (i386) (MacBook5%2C1)',
@@ -5443,7 +5428,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-651-CV' => [
@@ -5512,7 +5497,7 @@ return [
             'Device_Type' => 'Desktop',
         ],
         'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
+        'standard' => false,
         'full' => false,
     ],
     'issue-651-CW' => [

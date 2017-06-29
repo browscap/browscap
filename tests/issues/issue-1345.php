@@ -2125,7 +2125,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1345-AN' => [
         'ua' => 'iTunes/4.7 (Macintosh; U; PPC Mac OS X 10.2)',
@@ -2307,7 +2307,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1345-AQ' => [
         'ua' => 'iTunes/7.4.1',
@@ -2849,21 +2849,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1345-AZ (lite)' => [
-        'ua' => 'iTunes-iPad-M/5.1.1 (16GB; dt:28)',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => true,
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
-        'full' => false,
-    ],
     'issue-1345-BA' => [
         'ua' => 'iTunes-iPad-M/6.1.2 (2; 32GB; dt:75)',
         'properties' => [
@@ -2918,21 +2903,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1345-BA (lite)' => [
-        'ua' => 'iTunes-iPad-M/6.1.2 (2; 32GB; dt:75)',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => true,
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
-        'full' => false,
-    ],
     'issue-1345-BB' => [
         'ua' => 'iTunes-iPad/5.1.1 (2; 16GB; dt:74)',
         'properties' => [
@@ -2986,21 +2956,6 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1345-BB (lite)' => [
-        'ua' => 'iTunes-iPad/5.1.1 (2; 16GB; dt:74)',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => true,
-            'Device_Type' => 'Tablet',
-        ],
-        'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
-        'full' => false,
     ],
     'issue-1345-BC' => [
         'ua' => 'iTunes-iPhone/5.0.1 (6; 64GB)',
@@ -3074,21 +3029,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
-    ],
-    'issue-1345-BC (lite)' => [
-        'ua' => 'iTunes-iPhone/5.0.1 (6; 64GB)',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
         'full' => false,
     ],
     'issue-1345-BD' => [
@@ -3163,21 +3103,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
-    ],
-    'issue-1345-BD (lite)' => [
-        'ua' => 'iTunes-iPhone/5.1 (6; 16GB; dt:73)',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
         'full' => false,
     ],
     'issue-1345-BE' => [
@@ -3234,21 +3159,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1345-BE (lite)' => [
-        'ua' => 'iTunes-iPod/4.2.1 (2; 8GB)',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
-        'full' => false,
-    ],
     'issue-1345-BF' => [
         'ua' => 'iTunes-iPod/5.0.1 (4; 32GB)',
         'properties' => [
@@ -3303,21 +3213,6 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1345-BF (lite)' => [
-        'ua' => 'iTunes-iPod/5.0.1 (4; 32GB)',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
-        'full' => false,
-    ],
     'issue-1345-BG' => [
         'ua' => 'iTunes-iPod/6.1.6 (4; 8GB; dt:71)',
         'properties' => [
@@ -3371,20 +3266,5 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
-    'issue-1345-BG (lite)' => [
-        'ua' => 'iTunes-iPod/6.1.6 (4; 8GB; dt:71)',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'isMobileDevice' => true,
-            'isTablet' => false,
-            'Device_Type' => 'Mobile Device',
-        ],
-        'lite' => true,
-        'standard' => false, // please add all missing properties before enabling standard or full check
-        'full' => false,
     ],
 ];

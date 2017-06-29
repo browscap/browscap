@@ -289,7 +289,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1400-F' => [
         'ua' => 'KDDI-CA26 UP.Browser/6.2.0.6.2 (GUI) MMP/2.0',
@@ -633,7 +633,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1400-L' => [
         'ua' => 'LG-CG300 UP.Browser/6.2.3 (GUI) MMP/1.0',
@@ -3947,7 +3947,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-1400-BU' => [
         'ua' => 'Motorola-E365 UP.Browser/6.1.0.7 (GUI) MMP/1.0',

@@ -73,7 +73,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-092-A' => [
         'ua' => 'Mozilla/5.0 (compatible; proximic; +http://www.proximic.com/info/spider.php)',

@@ -127,7 +127,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => false,  // please add all missing properties before enabling full check
+        'full' => false,
     ],
     'issue-270-F' => [
         'ua' => 'WebTarantula.com Crawler',
