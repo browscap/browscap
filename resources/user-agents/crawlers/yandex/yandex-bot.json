@@ -26,7 +26,17 @@
           }
         },
         {
+          "match": ": Mozilla/5.0 (compatible; YandexBot/3.0*",
+          "properties": {
+            "Version": "3.0",
+            "MajorVer": "3"
+          }
+        },
+        {
           "match": "Mozilla/5.0 (compatible; YandexBot/*"
+        },
+        {
+          "match": "Mozilla/5.0 (iPhone*like Mac OS X) applewebkit* (*khtml*like*gecko*) Version/* Mobile/* Safari/* (compatible; YandexBot/*"
         }
       ]
     }
