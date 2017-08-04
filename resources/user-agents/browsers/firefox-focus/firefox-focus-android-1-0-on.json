@@ -1,0 +1,52 @@
+{
+  "division": "Firefox Focus for Android",
+  "versions": ["1.1", 1],
+  "sortIndex": 3169,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Firefox Focus #MAJORVER#.#MINORVER# for Android",
+      "platform": "Android",
+      "engine": "Blink",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Firefox Focus #MAJORVER#.#MINORVER#",
+        "Browser": "Firefox Focus",
+        "Browser_Maker": "Mozilla Foundation",
+        "Browser_Type": "Browser",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "MajorVer": "#MAJORVER#",
+        "MinorVer": "#MINORVER#",
+        "Frames": "true",
+        "IFrames": "true",
+        "Tables": "true",
+        "Cookies": "true",
+        "JavaScript": "true",
+        "CssVersion": "3"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Focus/#MAJORVER#.#MINORVER#* Chrome/* Mobile Safari/*",
+          "platforms": [
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Focus/#MAJORVER#.#MINORVER#* Chrome/* Safari/*",
+          "device": "general Tablet",
+          "platforms": [
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}
